@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Abafa Mukhamedov — builder</title>
+<meta name="description" content="Fortnite islands, developer tools, AI agent skills and websites by Abafa Mukhamedov (abafaboy), Tashkent.">
+<meta property="og:title" content="Abafa Mukhamedov — builder">
+<meta property="og:description" content="Fortnite islands, developer tools, AI agent skills and websites. Every repo says what is tested and what isn't.">
+<meta property="og:image" content="assets/creature-forge.jpg">
+<style>
+:root{
+  --bg:#0c0c0e; --panel:#141417; --line:#26262b; --text:#ececef; --muted:#9d9da6; --dim:#6c6c75;
+  --red:#e0362b; --red-soft:#e0362b22;
+  --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  --sans:Inter,"Segoe UI",system-ui,-apple-system,Helvetica,Arial,sans-serif;
+}
+@media (prefers-color-scheme: light){
+  :root:not([data-theme="dark"]){--bg:#f6f4f1;--panel:#ffffff;--line:#e4e1dc;--text:#141416;--muted:#55555e;--dim:#8a8a93;--red-soft:#e0362b18}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 var(--sans);-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+header.top{position:sticky;top:0;z-index:5;backdrop-filter:blur(10px);background:color-mix(in srgb,var(--bg) 82%,transparent);border-bottom:1px solid var(--line)}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;height:60px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;text-decoration:none;letter-spacing:-.2px}
+.brand svg{width:28px;height:28px}
+nav a{color:var(--muted);text-decoration:none;margin-left:22px;font-size:15px}
+nav a:hover{color:var(--text)}
+.hero{padding:88px 0 56px}
+.eyebrow{font:500 14px var(--mono);color:var(--red);letter-spacing:.4px}
+h1{font-size:clamp(34px,6.4vw,72px);line-height:1.02;letter-spacing:-2px;margin:14px 0 20px;font-weight:850}
+h1 em{font-style:normal;color:var(--red)}
+.lead{font-size:clamp(17px,2vw,20px);color:var(--muted);max-width:720px;margin:0}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:28px}
+.chip{font:13px var(--mono);color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:6px 12px;background:var(--panel)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:44px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px}
+.stat b{display:block;font-size:30px;letter-spacing:-1px}
+.stat span{color:var(--muted);font-size:14px}
+section{padding:56px 0;border-top:1px solid var(--line)}
+h2{font-size:28px;letter-spacing:-.6px;margin:0 0 6px}
+.sub{color:var(--muted);margin:0 0 28px}
+.islands{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.island{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px;text-decoration:none;transition:border-color .15s,transform .15s}
+.island:hover{border-color:var(--red);transform:translateY(-2px)}
+.island b{display:block;font-size:17px;line-height:1.3;margin-bottom:10px}
+.island code{font:13px var(--mono);color:var(--red);background:var(--red-soft);padding:3px 8px;border-radius:6px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;overflow:hidden;display:flex;flex-direction:column;text-decoration:none;transition:border-color .15s,transform .15s}
+.card:hover{border-color:var(--red);transform:translateY(-3px)}
+.card .img{aspect-ratio:16/9;overflow:hidden;background:#000;border-bottom:1px solid var(--line)}
+.card img{width:100%;height:100%;object-fit:cover;object-position:top;display:block}
+.card .img.term{background:#0b0b0c}
+.card .img.term img{object-fit:contain;object-position:center}
+.card .body{padding:20px 22px 22px}
+.card h3{margin:0 0 6px;font-size:21px;letter-spacing:-.3px;display:flex;align-items:center;gap:8px}
+.card h3 .arrow{color:var(--dim);font-weight:400;transition:color .15s}
+.card:hover h3 .arrow{color:var(--red)}
+.card p{margin:0 0 14px;color:var(--muted)}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tags span{font:12px var(--mono);color:var(--dim);border:1px solid var(--line);border-radius:6px;padding:2px 8px}
+.feature{grid-column:1/-1;display:grid;grid-template-columns:1.25fr 1fr}
+.feature .img{aspect-ratio:auto;border-bottom:0;border-right:1px solid var(--line)}
+.feature .body{padding:30px 32px;align-self:center}
+.feature h3{font-size:26px}
+.exp{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center}
+.exp img{width:100%;border-radius:14px;border:1px solid var(--line);display:block}
+.exp p{color:var(--muted)}
+.exp strong{color:var(--text)}
+.sites{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.site{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px;text-decoration:none}
+.site:hover{border-color:var(--red)}
+.site b{display:block}
+.site span{color:var(--muted);font-size:14px}
+.principles{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.pr{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px}
+.pr b{display:block;margin-bottom:6px}
+.pr span{color:var(--muted);font-size:15px}
+footer{padding:48px 0 64px;border-top:1px solid var(--line);color:var(--muted)}
+footer .row{display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px;align-items:center}
+.btn{display:inline-block;background:var(--red);color:#fff;text-decoration:none;font-weight:700;padding:12px 18px;border-radius:10px}
+.btn.ghost{background:transparent;color:var(--text);border:1px solid var(--line);margin-left:8px}
+@media (max-width:900px){
+  .islands,.sites{grid-template-columns:repeat(2,1fr)}
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .grid{grid-template-columns:1fr}
+  .feature{grid-template-columns:1fr}
+  .feature .img{border-right:0;border-bottom:1px solid var(--line);aspect-ratio:16/9}
+  .exp,.principles{grid-template-columns:1fr}
+  nav{display:none}
+  .hero{padding:56px 0 40px}
+}
+@media (max-width:480px){.islands,.sites,.stats{grid-template-columns:1fr}.btn.ghost{margin:10px 0 0}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="brand" href="#"><svg viewBox="0 0 220 160" aria-hidden="true"><path d="M0 150 L110 0 L220 150 L180 150 L110 55 L40 150 Z" fill="#e0362b"/><path d="M58 150 L110 78 L162 150 L138 150 L110 112 L82 150 Z" fill="currentColor"/></svg>abafaboy</a>
+  <nav><a href="#islands">Islands</a><a href="#work">Open source</a><a href="#experiment">Experiment</a><a href="#contact">Contact</a></nav>
+</div></header>
+
+<main class="wrap">
+  <div class="hero">
+    <div class="eyebrow">ABAFA MUKHAMEDOV · TASHKENT</div>
+    <h1>I build things that ship,<br>and I <em>check they work.</em></h1>
+    <p class="lead">By day I sell construction equipment. I read the engineering documents <em>and</em> write the pitch. The rest of the time I ship Fortnite islands with AI coding agents, and build the tools I wish had existed when something broke.</p>
+    <div class="chips"><span class="chip">Python</span><span class="chip">TypeScript</span><span class="chip">Verse / UEFN</span><span class="chip">Blender (bpy)</span><span class="chip">Claude Code &amp; agent skills</span><span class="chip">EN · RU · UZ</span></div>
+    <div class="stats">
+      <div class="stat"><b>4</b><span>Fortnite islands live</span></div>
+      <div class="stat"><b>9</b><span>open-source repos</span></div>
+      <div class="stat"><b>7.3M</b><span>views in a 3-month clip experiment</span></div>
+      <div class="stat"><b>1 day</b><span>concept to published, +1 DAMAGE</span></div>
+    </div>
+  </div>
+
+  <section id="islands">
+    <h2>Live on Fortnite</h2>
+    <p class="sub">Published under creator name abafaboy. Click one to open it on fortnite.com.</p>
+    <div class="islands">
+      <a class="island" href="https://www.fortnite.com/creative/island-codes/6783-1275-0083"><b>+1 DAMAGE: LAB LOCKDOWN</b><code>6783-1275-0083</code></a>
+      <a class="island" href="https://www.fortnite.com/creative/island-codes/3600-6909-0110"><b>NO REFS | 4v4 Football</b><code>3600-6909-0110</code></a>
+      <a class="island" href="https://www.fortnite.com/creative/island-codes/9358-1440-9230"><b>Core Command: 1v1 Tower Defense</b><code>9358-1440-9230</code></a>
+      <a class="island" href="https://www.fortnite.com/creative/island-codes/8012-1531-0518"><b>Grow Your Sidekick</b><code>8012-1531-0518</code></a>
+    </div>
+  </section>
+
+  <section id="work">
+    <h2>Open source</h2>
+    <p class="sub">Each repo has tests and CI, and its README says what's verified and what isn't.</p>
+    <div class="grid">
+      <a class="card feature" href="https://github.com/abafaboy/islandsmith">
+        <div class="img term"><img src="assets/islandsmith.jpg" alt="islandsmith pre-publish check output"></div>
+        <div class="body"><h3>islandsmith <span class="arrow">↗</span></h3>
+          <p>Agent skills that help Claude Code, Codex or Cursor build Fortnite islands that actually work, on top of Epic's official Unreal MCP: measure the market, plan the build, drive the editor safely, and verify before calling anything done. About 25 UEFN traps, each with its source.</p>
+          <div class="tags"><span>Claude Code plugin</span><span>Agent Skills</span><span>Python</span></div></div>
+      </a>
+      <a class="card" href="https://github.com/abafaboy/creature-forge">
+        <div class="img"><img src="assets/creature-forge.jpg" alt="Four procedurally generated creatures"></div>
+        <div class="body"><h3>creature-forge <span class="arrow">↗</span></h3><p>Rigged, textured, animated game creatures generated from code in headless Blender, on CPU. No GPU, no ML model.</p><div class="tags"><span>procedural 3D</span><span>bpy</span><span>Python</span></div></div>
+      </a>
+      <a class="card" href="https://github.com/abafaboy/seamless">
+        <div class="img"><img src="assets/seamless.jpg" alt="Thirteen procedural materials on spheres"></div>
+        <div class="body"><h3>seamless <span class="arrow">↗</span></h3><p>Game textures that tile by construction, a seam metric, and a pipeline that makes AI-generated images tileable. 13 presets.</p><div class="tags"><span>procedural textures</span><span>numpy</span></div></div>
+      </a>
+      <a class="card" href="https://github.com/abafaboy/verse-xref">
+        <div class="img term"><img src="assets/verse-xref.jpg" alt="verse-xref output"></div>
+        <div class="body"><h3>verse-xref <span class="arrow">↗</span></h3><p>Finds Verse code that compiles but never runs. Text, JSON and SARIF output, plus a GitHub Action.</p><div class="tags"><span>static analysis</span><span>zero deps</span></div></div>
+      </a>
+      <a class="card" href="https://github.com/abafaboy/islandpulse">
+        <div class="img"><img src="assets/islandpulse.jpg" alt="islandpulse report"></div>
+        <div class="body"><h3>islandpulse <span class="arrow">↗</span></h3><p>A client for Epic's Fortnite Data API, and a daily archive of the history that Epic deletes after 7 days.</p><div class="tags"><span>data pipeline</span><span>GitHub Actions</span></div></div>
+      </a>
+      <a class="card" href="https://github.com/abafaboy/uztext">
+        <div class="img"><img src="assets/uztext.jpg" alt="uztext demo"></div>
+        <div class="body"><h3>uztext <span class="arrow">↗</span></h3><p>Uzbek in Cyrillic, current Latin and the new 2026 Latin alphabet. Python and npm packages, both checked against 699 shared test cases.</p><div class="tags"><span>NLP</span><span>Python</span><span>TypeScript</span></div></div>
+      </a>
+      <a class="card" href="https://github.com/abafaboy/invoice-lint">
+        <div class="img"><img src="assets/invoice-lint.jpg" alt="invoice-lint report"></div>
+        <div class="body"><h3>invoice-lint <span class="arrow">↗</span></h3><p>Re-checks the arithmetic on supplier proformas and invoices before you pay: totals, amounts in words, number formats, Incoterms and version diffs.</p><div class="tags"><span>PDF</span><span>document checks</span></div></div>
+      </a>
+      <a class="card" href="https://github.com/abafaboy/tg-storefront">
+        <div class="img"><img src="assets/tg-storefront.jpg" alt="Demo shop generated from a Telegram channel"></div>
+        <div class="body"><h3>tg-storefront <span class="arrow">↗</span></h3><p>Turns a public Telegram channel into a shop website, free on GitHub Pages, rebuilt as the owner posts.</p><div class="tags"><span>static sites</span><span>UZ · RU · EN</span></div></div>
+      </a>
+      <a class="card" href="https://github.com/abafaboy/clip-velocity">
+        <div class="img"><img src="assets/clip-velocity.jpg" alt="Views, profile visits and followers from the experiment"></div>
+        <div class="body"><h3>clip-velocity <span class="arrow">↗</span></h3><p>Ranks Twitch clips by views per hour and renders 9:16 verticals. Includes the write-up of the experiment below.</p><div class="tags"><span>Twitch API</span><span>ffmpeg</span></div></div>
+      </a>
+    </div>
+  </section>
+
+  <section id="experiment">
+    <div class="exp">
+      <img src="assets/clip-velocity.jpg" alt="7.3M views, 53,700 profile visits, 1,129 followers">
+      <div>
+        <h2>An experiment, not an abandoned account</h2>
+        <p>From March to June 2026 I ran a Twitch clipping account on TikTok as a deliberate three-month test: <strong>7.3M views, 600K likes, 69K shares</strong>. The best clip had 663K views, and 87% of traffic came from the For You feed.</p>
+        <p>But only <strong>1,129 of 53,700 profile visitors followed</strong>, about 2%. The algorithm handed out reach; almost nobody chose the account. That was the finding, so I stopped and <a href="https://github.com/abafaboy/clip-velocity/blob/main/docs/EXPERIMENT.md">wrote it up</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Websites</h2>
+    <p class="sub">Live sites I've built.</p>
+    <div class="sites">
+      <a class="site" href="https://uzrentek.com"><b>uzrentek.com</b><span>construction-equipment dealer</span></a>
+      <a class="site" href="https://qpspace.com"><b>qpspace.com</b><span>engineering consultancy</span></a>
+      <a class="site" href="https://nedietolog.com"><b>nedietolog.com</b><span>nutritionist practice</span></a>
+      <a class="site" href="https://abafaboy.com"><b>abafaboy.com</b><span>me</span></a>
+    </div>
+  </section>
+
+  <section>
+    <h2>How I work</h2>
+    <p class="sub">Three rules every repo here follows.</p>
+    <div class="principles">
+      <div class="pr"><b>AI agents, checked</b><span>I build with Claude Code and check its work. Commits say who co-authored them.</span></div>
+      <div class="pr"><b>Compiles ≠ works</b><span>I check definitions against call sites, look at every render, and test what only a live session can prove.</span></div>
+      <div class="pr"><b>Sourced or cut</b><span>If I can't source a claim, it doesn't go in the README.</span></div>
+    </div>
+  </section>
+</main>
+
+<footer id="contact"><div class="wrap row">
+  <div>IB Diploma · one year of BSc Artificial Intelligence, University of Groningen<br>English · Russian · Uzbek · French &amp; German (B1)</div>
+  <div><a class="btn" href="https://t.me/abafa_m">Telegram @abafa_m</a><a class="btn ghost" href="https://github.com/abafaboy">GitHub</a></div>
+</div></footer>
+</body>
+</html>
