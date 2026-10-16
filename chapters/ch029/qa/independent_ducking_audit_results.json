@@ -1,0 +1,152 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.3.5",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "original_path": "C:\\Users\\abafa\\Videos\\LordWhoMeasuredZero\\pipeline\\chapters\\ch029\\qa\\mix.original.py",
+  "applied_path": "C:\\Users\\abafa\\Videos\\LordWhoMeasuredZero\\pipeline\\tools\\mix.py",
+  "original_sha256": "31fbfb41eed80ee743f0d1e77445b65b70943c8ff43489d28f934592bb0c4a0d",
+  "applied_sha256": "2a668a1fa6c4538e24dea50ee5a4f5699ad779b4f07b1418b635616f6313cf04",
+  "only_smoothing_block_changed": true,
+  "scope": "Synthetic in-memory arrays only; no music, speech, ffmpeg, build or production output executed",
+  "equivalence_cases": 276,
+  "max_absolute_error": 1.7486012637846216e-15,
+  "cases": [
+    {
+      "name": "no_speech",
+      "samples": 400,
+      "kernel": 100,
+      "max_absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "speech_at_zero",
+      "samples": 400,
+      "kernel": 100,
+      "max_absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "overlap_and_touch",
+      "samples": 400,
+      "kernel": 100,
+      "max_absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "fractional_indices",
+      "samples": 400,
+      "kernel": 100,
+      "max_absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "past_final_sample",
+      "samples": 400,
+      "kernel": 100,
+      "max_absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "production_width_synthetic",
+      "samples": 88200,
+      "kernel": 11025,
+      "max_absolute_error": 1.7486012637846216e-15
+    }
+  ],
+  "downstream": [
+    {
+      "name": "silence",
+      "float32_music_bitwise_equal": true,
+      "float32_mix_bitwise_equal": true,
+      "max_mix_absolute_error": 0.0,
+      "old_peak": 0.19919942319393158,
+      "new_peak": 0.19919942319393158,
+      "pcm16_differing_samples": 0,
+      "pcm16_max_lsb_difference": 0
+    },
+    {
+      "name": "voice_and_fx_peak_normalization",
+      "float32_music_bitwise_equal": true,
+      "float32_mix_bitwise_equal": true,
+      "max_mix_absolute_error": 0.0,
+      "old_peak": 1.2174341678619385,
+      "new_peak": 1.2174341678619385,
+      "pcm16_differing_samples": 0,
+      "pcm16_max_lsb_difference": 0
+    }
+  ],
+  "out_of_production_domain": {
+    "short_input": {
+      "n": 3,
+      "k": 7,
+      "original_shape": [
+        7
+      ],
+      "applied_shape": [
+        3
+      ]
+    },
+    "nonfinite_input": "Not supported by equivalence claim: prefix sums propagate NaN/Inf beyond their original windows. Production mask is finite by construction."
+  },
+  "benchmarks": [
+    {
+      "samples": 22050,
+      "kernel": 11025,
+      "repetitions": 3,
+      "original_seconds": [
+        2.3143639000190888,
+        2.2679524999985006,
+        2.4661692999943625
+      ],
+      "applied_seconds": [
+        0.000527600001078099,
+        0.00036020000698044896,
+        0.00032900000223889947
+      ],
+      "original_median_seconds": 2.3143639000190888,
+      "applied_median_seconds": 0.00036020000698044896,
+      "measured_filter_speed_ratio": 6425.218920511316
+    },
+    {
+      "samples": 44100,
+      "kernel": 11025,
+      "repetitions": 3,
+      "original_seconds": [
+        6.516362399997888,
+        6.808123399998294,
+        5.810400699992897
+      ],
+      "applied_seconds": [
+        0.0007274000090546906,
+        0.0006998000026214868,
+        0.00047679999261163175
+      ],
+      "original_median_seconds": 6.516362399997888,
+      "applied_median_seconds": 0.0006998000026214868,
+      "measured_filter_speed_ratio": 9311.749607869762
+    }
+  ],
+  "traced_memory": [
+    {
+      "name": "original",
+      "n": 44100,
+      "k": 11025,
+      "peak_bytes_above_preallocated_input": 882544
+    },
+    {
+      "name": "applied",
+      "n": 44100,
+      "k": 11025,
+      "peak_bytes_above_preallocated_input": 1368155
+    }
+  ],
+  "chapter29_dimensions_read_only": {
+    "lines": 27,
+    "seconds": 142.515,
+    "samples": 6284911,
+    "kernel": 11025,
+    "direct_nonzero_products": 69260756119,
+    "binary32_mask_common_denominator": 33554432,
+    "largest_prefix_integer_bound": 88572377120371,
+    "binary64_exact_integer_limit": 9007199254740992,
+    "prefix_sums_exact_for_two_level_mask": true,
+    "approx_filter_peak_bytes_original_including_input": 125874620,
+    "approx_filter_peak_bytes_applied_including_input": 201249452,
+    "note": "Operation counts and memory formulas are analytical, not a full-chapter benchmark. Timing ratios apply only to measured synthetic filters."
+  }
+}

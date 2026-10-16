@@ -58,7 +58,13 @@ env = np.full(N, 0.42, np.float32)
 for l in tl:
     a, b = int((l["start"] - 0.15) * SR), int((l["end"] + 0.1) * SR)
     env[max(a, 0):b] = 0.18
-k = int(0.25 * SR); env = np.convolve(env, np.ones(k) / k, mode="same")
+k = int(0.25 * SR); # Same zero-padded box filter in linear time, including even-kernel alignment.
+padded = np.pad(env, (k // 2, (k - 1) // 2))
+integral = np.empty(len(padded) + 1, dtype=np.float64)
+integral[0] = 0.0
+np.cumsum(padded, dtype=np.float64, out=integral[1:])
+env = (integral[k:] - integral[:-k]) / k
+del padded, integral
 mus *= env[:, None]
 
 # ---------- voice ----------

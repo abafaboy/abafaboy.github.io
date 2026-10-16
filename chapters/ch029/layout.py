@@ -13,6 +13,11 @@ FACES = {
     "p11": [(255, 120, 420, 320)],
     "p12": [(70, 280, 245, 455), (375, 270, 535, 445)],
     "p13": [(300, 30, 560, 340)],
+    "p14": [(0, 320, 1120, 700), (1260, 260, 1536, 570)],
+    "p15": [(260, 35, 590, 430)],
+    "p16": [(65, 590, 325, 850), (535, 490, 850, 820)],
+    "p17": [(120, 620, 1340, 825)],
+    "p18": [(280, 400, 675, 810)],
 }
 
 def build():
@@ -95,7 +100,7 @@ def build():
   </div>
   {gap(160)}
   <div class="rel" style="margin-left:330px">{img('p16','', 'width:720px;height:1080px')}
-    {bub("Come back, my lord. I'll keep everything exactly where you left it.",'L23', 'right','position:absolute;left:-300px;top:100px;width:420px')}
+    {bub("Come back, my lord. I'll keep everything exactly where you left it.",'L23', 'right','position:absolute;left:-300px;top:-110px;width:420px')}
   </div>
   {gap(320, 'linear-gradient(#f4e6da,#e4ecf5)')}
 </div>
