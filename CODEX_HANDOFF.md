@@ -84,3 +84,10 @@ curl -L -o dl\voices.bin https://github.com/thewh1teagle/kokoro-onnx/releases/do
 - **Style references.** Use them for style only. Never copy their characters.
 - **No text in art.** No text in generated art. Books show squiggles.
 - **Speaker identity.** A speaking minor character must not be drawn to look like a named character.
+
+## Local production recovery update (UTC 2026-10-16)
+
+- The versioned volume builder is now `tools/make_volume.py`; it reads `videos_root` from `config.json`. The existing `VID\make_volume.py` remains a compatibility launcher.
+- Safe recovery command: `py tools\make_volume.py 1 28 1 --reuse-verified --keep-intermediates --encode-threads 4`. Existing horizontal files are format/duration checked and fully decoded before reuse; they are never overwritten during recovery.
+- Volume 1 is 3315.498333 seconds (55:15.498), 520072920 bytes, 1920x1080 at 30 fps. Full decode and five visual check frames passed. Original final videos and retained intermediates are unchanged; all horizontal intermediates were retained. The exact-cut result is shorter than 57 minutes, so an end-card check replaces that out-of-range timestamp. See `plan/production/volume1_qa.json`.
+- User approved the complete Ch29 audition and waived future per-chapter personal review. Continue technical/visual QA and the canonical natural-speed voices; never claim assistant listening when the runtime cannot listen. Manhwa site publication is authorized separately from the stopped game project.
