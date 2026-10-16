@@ -61,12 +61,16 @@
   const endObs = new IntersectionObserver(es => { if (es[0].isIntersecting) { read[n] = 1; try { localStorage.setItem('lwmz-read', JSON.stringify(read)); } catch (e) {} } });
   endObs.observe(document.getElementById('endnav'));
 
-  // narration player + follow-scroll (same timing as the videos)
+  // narration player + follow-scroll. A screen shows less of the strip than the 9:16 video does,
+  // so each bubble is brought to the middle of the screen just before its line starts.
+  document.documentElement.style.scrollBehavior = 'auto';  // site.css smooth scrolling made every frame lag behind the voice
   const aud = document.getElementById('aud'); aud.src = `ch/${pad}/audio.mp3`;
   const play = document.getElementById('play'), fill = document.getElementById('fill'), time = document.getElementById('time'), track = document.getElementById('track'), fol = document.getElementById('follow');
+  const player = document.getElementById('player'), bar = document.querySelector('.bar');
   const fmt = s => Math.floor(s / 60) + ':' + String(Math.floor(s % 60)).padStart(2, '0');
-  let follow = true, auto = false, autoT = 0;
-  const keys = c.keys || [], MOVE = 1.1;
+  let follow = true, lastSet = null;
+  const LEAD = 0.4, MOVE = 0.7;  // keys are (line start - 0.35 s), so the bubble settles ~0.05 s before the voice
+  const keys = (c.keys || []).map(([t, y]) => [Math.max(0, t - LEAD), y]);
   const yAt = t => {
     if (!keys.length) return null;
     let y = keys[0][1];
@@ -85,8 +89,10 @@
       const y = yAt(aud.currentTime);
       if (y !== null) {
         const sc = strip.clientWidth / c.width, top = strip.getBoundingClientRect().top + scrollY;
-        auto = true; autoT = performance.now();
-        scrollTo(0, Math.max(0, top + y * sc - innerHeight / 2));
+        const hb = bar.offsetHeight, mid = hb + (innerHeight - hb - player.offsetHeight - 16) / 2;  // middle of the visible area
+        const target = Math.max(0, top + y * sc - mid), cur = scrollY;
+        scrollTo(0, Math.abs(target - cur) < 2 ? target : cur + (target - cur) * 0.35);  // short glide, a few frames behind at most
+        lastSet = scrollY;
       }
     }
     if (!aud.paused) requestAnimationFrame(tick);
@@ -98,8 +104,9 @@
   track.onclick = e => { const r = track.getBoundingClientRect(); aud.currentTime = (e.clientX - r.left) / r.width * (aud.duration || c.duration); tick(); };
   const setFollow = v => { follow = v; fol.classList.toggle('on', v); };
   fol.onclick = () => setFollow(!follow);
-  const manual = () => { if (!aud.paused && performance.now() - autoT > 120) setFollow(false); };
+  const manual = () => { if (follow && !aud.paused) setFollow(false); };  // any scroll by the reader turns Follow off
   addEventListener('wheel', manual, {passive: true}); addEventListener('touchmove', manual, {passive: true});
+  addEventListener('scroll', () => { if (lastSet !== null && Math.abs(scrollY - lastSet) > 4) manual(); }, {passive: true});
   addEventListener('keydown', e => { if (e.key === ' ' && e.target === document.body) { e.preventDefault(); play.click(); } if (e.key === 'ArrowRight' && next) location.href = 'read.html?ch=' + next.n; if (e.key === 'ArrowLeft' && prev) location.href = 'read.html?ch=' + prev.n; });
 })();
 </script>
