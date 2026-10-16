@@ -1,6 +1,6 @@
 # The Lord Who Measured Zero: art style guide
 
-Draft for the production coordinator's three-panel style review. No mass generation, rebuild or live replacement is authorized by this draft. The reset preserves Volume 1 and existing outputs; the eventual redraw scope is Chapter 29 onward, including 29–35 and 46 and the now-published Chapters 33/34.
+User-approved visual direction after the three-panel review at 23:37 UTC on 16 October 2026. The latest user scope starts the new style at Chapter 35: preserve Chapters 1–34 and Volume 1 unchanged. Redraw Chapter 35 and the existing Chapter 46 art; all later new production uses this direction. The approved Chapter 29 tests are STYLE references only, not canonical replacements. The production coordinator assigns redraw workers and authorizes canonical adoption, builds and publication after available per-panel and chapter QA; ordinary chapters do not require renewed personal review.
 
 ## Purpose and evidence
 
@@ -36,6 +36,19 @@ Chapters 1–20 are the closer project baseline. Compare the three tests side by
 8. Use focus lines sparingly for shock. Glow belongs to aether and rimeglass. Avoid decorative bloom, god rays, dust motes, haze, depth-of-field blur and light effects that obscure faces or hands. Snow, smoke or weather remains only when the scene needs it and must be drawn simply.
 9. Generate no text, captions, bubbles, sound-effect lettering, signatures or watermarks. Document pages contain only illegible squiggles, with no recognizable letters or numbers. Lettering is added later by the layout pipeline.
 
+## Speaking mouths, acting and body proportions
+
+The user explicitly requested improved mouth movements and body proportions after approving the visual direction. This is a still-panel series: use natural speaking-mouth shapes and expressive faces without promising animated lip-sync or phoneme-synchronized motion.
+
+- Match the dominant spoken or emotional beat with a purposeful mouth shape. Vary appropriate open, closed, compressed, smiling or tense shapes; do not repeat the same neutral mouth in every panel.
+- Preserve silent, listening and narrating moments from the brief/script. Lucan's voice-over narration does not automatically mean his visible mouth should be open. When several dialogue beats share one still panel, choose a coherent dominant beat and credible listening expressions rather than implying animation.
+- Draw credible jaws, lip corners, mouth interiors and teeth. Avoid floating mouths, skewed jaws, duplicated lips, teeth grids or a generic toothy smile unrelated to the beat. Brows, eyelids, head tilt and shoulders support the expression.
+- Maintain each identity's head-to-body ratio, shoulder width, torso volume and arm/leg/hand scale across panels. Check neck/head attachment, elbows, wrists, fingers, grips, foreshortening and contact with props. Keep stature, age and build recognizable from identity sheets.
+- Use chibi or exaggerated proportions only for deliberate comedy beats. Do not let head size, limb length or hand scale drift randomly in ordinary dialogue or serious scenes. Bram's missing LEFT arm and Dunn's Chapter29 RIGHT-arm sling remain hard continuity requirements.
+- Worker QA must explicitly record mouth/acting fit, silent-versus-speaking fit, jaw/lip/teeth integrity and cross-panel proportion consistency. A successful generation or resize is not an anatomy pass; preserve generator originals and inspect resized production outputs.
+
+The three tests establish approved visual direction, not a claim of perfect strict-style or canonical QA. The test review retained concerns about residual tonal gradients and hidden Dunn sling laterality. Per-panel redraws must still satisfy the house style and visible canon/anatomy checks.
+
 ## Reference roles and canon
 
 - Identity sheets supply faces, hair, colours, clothing, equipment, anatomy and scale only. Do not inherit their current finish, lighting, texture or shading. Do not borrow an unrelated figure from a multi-character sheet.
@@ -61,7 +74,7 @@ The unchanged full Chapter 29 brief and script remain story evidence. Their old 
 
 Record a separate result for each panel, then compare the treatment across all three:
 
-- Hard pass: exact required dimensions, intended cast and identities, correct anatomy/laterality, Ash scale where present, correct scene action and no generated text.
+- Hard pass: exact required dimensions, intended cast and identities, correct anatomy/laterality, Ash scale where present, correct scene action and no generated text. Speaking-mouth shapes and jaw/lip/teeth must fit the dominant beat; silent/listening moments remain coherent. Head/body, shoulders, limbs and hands must stay proportionally consistent across identities and panels.
 - At 25% size, the figures and important props remain led by contours and grouped shadows. Facial acting and the gesture must read without zooming.
 - Inspect five representative shadow boundaries across the focal face, hair, cloth and prop where present. At least four should be hard-edged. Record the samples rather than selecting only convenient areas; inspect at original size as well.
 - Check quiet space and detail hierarchy against the flexible roughly-one-third target. Faces and hands must remain free of decorative effects and clutter.
@@ -74,6 +87,6 @@ The reset runbook's original review-window text is retained verbatim:
 
 > Compare them side by side with Ch 1–16 panels. Show the three to Abafa in this chat. If he doesn't answer within an hour, continue.
 
-The production coordinator in the main chat owns showing the tests, recording review and authorizing resumption. Silence is not proof of approval. The local coordinator must not infer acceptance or start mass redraws merely because time has elapsed. No automatic continuation has been scheduled.
+The user replied 'good' to the three style tests at 23:37 UTC on 16 October 2026, approving the visual direction and resolving that review window early. The production coordinator in the main chat owns showing the tests, recording review and authorizing resumption. Silence is not proof of approval. The local coordinator must not infer acceptance or start mass redraws merely because time has elapsed. No automatic continuation has been scheduled.
 
 After the production coordinator authorizes resumption, preserve old outputs and generator originals, adopt checked new production panels, remeasure faces, recheck strips and inspect encoded output before any replacement. Reuse story, voices and layouts where appropriate, but never reuse old face coordinates without remeasurement. Volume 1 remains unchanged. Before the next authorized site push, run `git pull --rebase` in the site checkout and preserve the Follow fix in `manhwa/read.html`.
