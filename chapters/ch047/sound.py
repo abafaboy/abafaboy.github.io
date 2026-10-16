@@ -1,0 +1,18 @@
+"""Chapter 47 sound."""
+def T0(i, pad=0.3): return at(i) - pad
+M("wry", 0, T0(7), fade_in=0.6)
+S("crowd_murmur_1", 0, 0.1, length=T0(2), fade_in=1.0, fade_out=1.0)
+S("woman_laugh_1", at(4, 0.6), 0.3)
+S("crowd_cheer_2", at(6) - 0.2, 0.3, length=3, fade_out=1.0)
+M("tender", T0(7), T0(15), fade_in=0.6)
+S("magic_shimmer", at(8) - 0.2, 0.3)
+S("woman_laugh_2", at(11, 0.85), 0.25)
+M("dread", T0(15), T0(18), fade_in=0.6, nothing_at=at(16, 0.6) - T0(15))
+S("dog_whimper", at(15, 0.6), 0.3)
+M("reveal", T0(18), T0(22), fade_in=0.4, hit_at=at(21) - T0(18) + 0.1)
+S("magic_shimmer", at(20, 0.5), 0.3)
+S("magic_shimmer", at(21) + 0.1, 0.35)
+M("wry", T0(22), T0(24), fade_in=0.4)
+M("mystery", T0(24), T0(26), fade_in=0.6)
+S("candle_fire", T0(24), 0.1, length=T0(26) - T0(24) + 1.0, fade_in=0.8, fade_out=1.0)
+M("outro", T0(26), END, fade_in=0.8, fade_out=2.0)

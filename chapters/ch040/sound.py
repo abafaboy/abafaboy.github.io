@@ -1,0 +1,16 @@
+"""Chapter 40 sound."""
+def T0(i, pad=0.3): return at(i) - pad
+M("cold", 0, T0(2), fade_in=0.6)
+S("candle_fire", 0, 0.09, length=T0(14), fade_in=1.0, fade_out=1.0)
+M("tender", T0(2), T0(6), fade_in=0.6)
+M("realm", T0(6), T0(9), fade_in=0.6)
+M("wry", T0(9), T0(14), fade_in=0.4)
+S("crowd_gasp", at(10, 0.3), 0.3)
+S("magic_shimmer", at(10, 0.5), 0.3)
+M("tender", T0(14), T0(17), fade_in=0.6)
+M("frost", T0(17), T0(20), fade_in=0.6)
+S("footsteps_stone", at(17, 0.3), 0.25, length=3, fade_out=1.0)
+S("stone_crack", at(18, 0.5), 0.25)
+M("wry", T0(20), T0(24), fade_in=0.4)
+S("candle_fire", T0(20), 0.08, length=at(24) - T0(20), fade_in=1.0, fade_out=1.0)
+M("outro", T0(24), END, fade_in=0.8, fade_out=2.0)

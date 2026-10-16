@@ -1,0 +1,15 @@
+"""Chapter 31 sound."""
+def T0(i, pad=0.3): return at(i) - pad
+M("mystery", 0, T0(3), fade_in=0.8)
+S("wind_winter", 0, 0.12, length=T0(3), fade_in=1.0, fade_out=1.0)
+S("wood_creak", at(1, 0.3), 0.35)
+M("sorrow", T0(3), T0(7), fade_in=0.6)
+M("mystery", T0(7), T0(11), fade_in=0.6)
+S("paper_rustle_1", at(7, 0.5), 0.3)
+S("candle_fire", T0(7), 0.09, length=T0(15) - T0(7), fade_in=1.0, fade_out=1.0)
+M("sorrow", T0(11), T0(15), fade_in=0.6)
+M("wry", T0(15), T0(17), fade_in=0.3)
+M("tender", T0(17), T0(19), fade_in=0.6)
+M("mystery", T0(19), T0(23), fade_in=0.6)
+S("candle_fire", T0(19), 0.08, length=at(23) - T0(19), fade_in=1.0, fade_out=1.0)
+M("outro", T0(23), END, fade_in=0.8, fade_out=2.0)

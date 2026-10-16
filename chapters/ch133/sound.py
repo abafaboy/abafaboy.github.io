@@ -1,0 +1,18 @@
+"""Chapter 133 sound."""
+def T0(i, pad=0.3): return at(i) - pad
+M("tender", 0, T0(5), fade_in=0.8)
+M("mystery", T0(5), T0(6), fade_in=0.5)
+S("wind_winter", T0(5), 0.1, length=T0(6) - T0(5) + 1.0, fade_in=0.8, fade_out=1.0)
+M("reveal", T0(6), T0(8), fade_in=0.4, hit_at=at(7, 0.25) - T0(6))
+M("frost", T0(8), T0(11), fade_in=0.5)
+S("wind_winter", T0(8), 0.12, length=T0(11) - T0(8), fade_in=1.0, fade_out=1.0)
+S("heartbeat", at(9), 0.2, length=T0(11) - at(9), fade_out=1.0)
+M("tender", T0(11), T0(14), fade_in=0.6)
+M("dawn", T0(14), T0(17), fade_in=0.6)
+M("realm", T0(17), T0(18), fade_in=0.4)
+S("footsteps_stone", at(17, 0.3), 0.2)
+M("wry", T0(18), T0(21), fade_in=0.3)
+M("triumph", T0(21), T0(22), fade_in=0.3)
+S("magic_shimmer", at(21, 0.2), 0.3)
+M("tender", T0(22), T0(23), fade_in=0.5)
+M("outro", T0(23), END, fade_in=0.8, fade_out=2.0)

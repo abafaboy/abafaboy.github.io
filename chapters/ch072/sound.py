@@ -1,0 +1,15 @@
+"""Chapter 72 sound."""
+def T0(i, pad=0.3): return at(i) - pad
+M("tender", 0, T0(1), fade_in=0.8)
+M("wry", T0(1), T0(4), fade_in=0.3)
+S("man_chuckle", at(3) - 0.2, 0.25)
+M("cold", T0(4), T0(7), fade_in=0.5)
+M("mystery", T0(7), T0(9), fade_in=0.4)
+S("magic_shimmer", at(8, 0.1), 0.2)
+M("cold", T0(9), T0(14), fade_in=0.5)
+M("dread", T0(14), T0(17), fade_in=0.4, nothing_at=at(15, 0.8) - T0(14))
+M("cold", T0(17), T0(20), fade_in=0.5)
+M("wry", T0(20), T0(22), fade_in=0.3)
+S("crowd_murmur_1", T0(20), 0.08, length=T0(24) - T0(20), fade_in=1.0, fade_out=1.0)
+M("mystery", T0(22), T0(24), fade_in=0.5)
+M("outro", T0(24), END, fade_in=0.8, fade_out=2.0)

@@ -1,0 +1,16 @@
+"""Chapter 43 sound."""
+def T0(i, pad=0.3): return at(i) - pad
+M("mockery", 0, T0(4), fade_in=0.6)
+S("wind_winter", 0, 0.08, length=T0(2), fade_in=1.0, fade_out=1.0)
+S("coins", at(2, 0.75), 0.3)
+M("wry", T0(4), T0(8), fade_in=0.4)
+M("cold", T0(8), T0(10), fade_in=0.6)
+S("candle_fire", T0(8), 0.1, length=T0(12) - T0(8), fade_in=1.0, fade_out=1.0)
+M("reveal", T0(10), T0(12), fade_in=0.4, hit_at=at(11) - T0(10) + 0.2)
+S("paper_rustle_1", at(10, 0.5), 0.3)
+M("wry", T0(12), T0(19), fade_in=0.4)
+S("man_chuckle", at(15, 0.6), 0.22)
+M("labour", T0(19), T0(20), fade_in=0.6)
+M("frost", T0(20), T0(21), fade_in=0.6)
+S("wind_winter", T0(19), 0.12, length=T0(21) - T0(19) + 1.0, fade_in=1.0, fade_out=1.5)
+M("outro", T0(21), END, fade_in=0.8, fade_out=2.0)

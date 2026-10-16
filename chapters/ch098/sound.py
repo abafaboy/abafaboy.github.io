@@ -1,0 +1,16 @@
+"""Chapter 98 sound."""
+def T0(i, pad=0.3): return at(i) - pad
+M("mystery", 0, T0(2), fade_in=0.8)
+S("stone_crack", at(0, 0.6), 0.2)
+S("wind_winter", 0, 0.08, length=T0(21), fade_in=1.5, fade_out=1.5)
+M("dread", T0(2), T0(5), fade_in=0.5, nothing_at=at(4) - T0(2) + 0.2)
+M("cold", T0(5), T0(7), fade_in=0.4)
+S("footsteps_stone", at(6, 0.1), 0.15, length=3, fade_out=1.0)
+M("reveal", T0(7), T0(10), fade_in=0.5, hit_at=at(8) - T0(7) + 0.3)
+M("sorrow", T0(10), T0(12), fade_in=0.6)
+M("realm", T0(12), T0(15), fade_in=0.6)
+M("wry", T0(15), T0(18), fade_in=0.3)
+S("man_chuckle", at(17, 0.9), 0.2)
+M("mystery", T0(18), T0(19), fade_in=0.5)
+M("dread", T0(19), T0(21), fade_in=0.5, nothing_at=at(20, 0.9) - T0(19))
+M("outro", T0(21), END, fade_in=0.8, fade_out=2.0)

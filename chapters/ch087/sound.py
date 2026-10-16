@@ -1,0 +1,18 @@
+"""Chapter 87 sound."""
+def T0(i, pad=0.3): return at(i) - pad
+M("dread", 0, T0(2), fade_in=0.6, nothing_at=at(1, 0.7))
+S("candle_fire", 0, 0.1, length=T0(5), fade_in=1.0, fade_out=1.0)
+M("sorrow", T0(2), T0(5), fade_in=0.6)
+M("realm", T0(5), T0(8), fade_in=0.6)
+S("crowd_murmur_1", T0(5), 0.12, length=T0(15) - T0(5), fade_in=1.0, fade_out=1.0)
+M("battle", T0(8), T0(15), fade_in=0.4)
+S("sword_draw", at(8, 0.1), 0.3)
+S("crowd_gasp", at(14, 0.45), 0.3)
+M("cold", T0(15), T0(17), fade_in=0.4)
+S("crowd_cheer_2", at(15, 0.2), 0.3)
+M("tender", T0(17), T0(22), fade_in=0.6)
+M("wry", T0(22), T0(23), fade_in=0.3)
+S("man_chuckle", at(22, 0.9), 0.25)
+M("dread", T0(23), T0(24), fade_in=0.5, nothing_at=at(23, 0.8) - T0(23))
+S("candle_fire", T0(23), 0.1, length=T0(24) - T0(23), fade_in=0.8, fade_out=1.0)
+M("outro", T0(24), END, fade_in=0.8, fade_out=2.0)

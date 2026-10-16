@@ -1,0 +1,18 @@
+"""Chapter 60 sound."""
+def T0(i, pad=0.3): return at(i) - pad
+M("dawn", 0, T0(1), fade_in=0.8)
+S("crowd_murmur_1", 0, 0.1, length=T0(6), fade_in=1.0, fade_out=1.0)
+M("wry", T0(1), T0(6), fade_in=0.4)
+S("woman_laugh_2", at(2, 0.8), 0.2)
+M("tender", T0(6), T0(10), fade_in=0.6)
+S("wolf_howl_2", at(6, 0.85), 0.2)
+M("realm", T0(10), T0(12), fade_in=0.6)
+S("wind_winter", T0(10), 0.1, length=T0(18) - T0(10), fade_in=1.0, fade_out=1.0)
+M("wry", T0(12), T0(14), fade_in=0.3)
+M("cold", T0(14), T0(16), fade_in=0.5)
+S("paper_rustle_1", at(15, 0.3), 0.25)
+M("dread", T0(16), T0(18), fade_in=0.5, nothing_at=at(16, 0.9) - T0(16))
+M("mystery", T0(18), T0(21), fade_in=0.8)
+S("heartbeat", at(20), 0.22, length=8, fade_in=1.0, fade_out=3.0)
+M("reveal", T0(21), T0(23), fade_in=0.4, hit_at=at(22) - T0(21) + 0.2)
+M("outro", T0(23), END, fade_in=0.8, fade_out=2.0)

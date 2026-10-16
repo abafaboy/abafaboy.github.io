@@ -1,0 +1,15 @@
+"""Chapter 59 sound."""
+def T0(i, pad=0.3): return at(i) - pad
+M("realm", 0, T0(4), fade_in=0.8)
+M("tender", T0(4), T0(7), fade_in=0.6)
+M("wry", T0(7), T0(9), fade_in=0.3)
+S("woman_laugh_1", at(7, 0.8), 0.25)
+M("tender", T0(9), T0(13), fade_in=0.6)
+M("wry", T0(13), T0(15), fade_in=0.4)
+S("wood_creak", at(13, 0.15), 0.3)
+M("tender", T0(15), T0(16), fade_in=0.8)
+S("candle_fire", T0(15), 0.1, length=T0(24) - T0(15), fade_in=1.0, fade_out=1.5)
+M("mystery", T0(16), T0(21), fade_in=0.5)
+M("sorrow", T0(21), T0(22), fade_in=0.6)
+M("dread", T0(22), T0(24), fade_in=0.6, nothing_at=at(23, 0.3) - T0(22))
+M("outro", T0(24), END, fade_in=0.8, fade_out=2.0)

@@ -1,0 +1,18 @@
+"""Chapter 132 sound."""
+def T0(i, pad=0.3): return at(i) - pad
+M("cold", 0, T0(4), fade_in=0.8)
+S("wind_winter", 0, 0.1, length=T0(5), fade_in=1.0, fade_out=1.5)
+M("mystery", T0(4), T0(5), fade_in=0.5)
+S("wood_creak", at(4, 0.25), 0.3)
+M("reveal", T0(5), T0(7), fade_in=0.5, hit_at=at(6, 0.4) - T0(5))
+M("tender", T0(7), T0(11), fade_in=0.6)
+M("sorrow", T0(11), T0(14), fade_in=0.6)
+M("tender", T0(14), T0(15), fade_in=0.5)
+M("dread", T0(15), T0(17), fade_in=0.5, nothing_at=at(16, 0.95) - T0(15))
+M("sorrow", T0(17), T0(19), fade_in=0.6)
+M("reveal", T0(19), T0(21), fade_in=0.4, hit_at=at(20, 0.2) - T0(19))
+S("heartbeat", at(19), 0.2, length=T0(21) - at(19) + 1.0, fade_out=1.5)
+M("tender", T0(21), T0(24), fade_in=0.6)
+M("mystery", T0(24), T0(26), fade_in=0.6)
+S("wind_winter", T0(24), 0.08, length=T0(26) - T0(24), fade_in=1.0, fade_out=1.0)
+M("outro", T0(26), END, fade_in=0.8, fade_out=2.0)

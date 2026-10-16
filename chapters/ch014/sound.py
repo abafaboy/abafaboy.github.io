@@ -1,0 +1,15 @@
+"""Chapter 14 sound. 0-1 summer, 2-5 riders, 6-11 the reveal, 12-19 the truth, 20-23 the threat, 24-26 resolve, 27 end."""
+def T0(i, pad=0.3): return at(i) - pad
+M("dawn", 0, T0(2), fade_in=0.8)
+M("dread", T0(2), T0(6), fade_in=0.4, nothing_at=at(5) - T0(2))
+M("mystery", T0(6), T0(12), fade_in=0.8)
+S("magic_shimmer", at(7, 0.6), 0.3)
+S("stone_crack", at(10) - 0.2, 0.35, length=1.5, fade_out=0.6)
+M("tender", T0(12), T0(19), fade_in=0.8)
+S("magic_shimmer", at(13, 0.4), 0.35)
+M("wry", T0(19), T0(22), gain=0.85, fade_in=0.6)
+M("cold", T0(22), T0(24), fade_in=0.4)
+S("heartbeat", at(23) - 0.3, 0.35, length=4, fade_out=1.5)
+M("frost", T0(24), T0(26), fade_in=0.8)
+M("reveal", T0(26), T0(27), fade_in=0.4, hit_at=at(26) - T0(26) + 0.3)
+M("outro", T0(27), END, fade_in=0.8, fade_out=2.0)

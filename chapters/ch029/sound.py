@@ -1,0 +1,16 @@
+"""Chapter 29 sound."""
+def T0(i, pad=0.3): return at(i) - pad
+M("wry", 0, T0(3), fade_in=0.6)
+S("footsteps_stone", 0.2, 0.3, length=4, fade_out=1.0)
+M("cold", T0(3), T0(9), fade_in=0.6)
+M("wry", T0(9), T0(13), fade_in=0.4)
+S("paper_rustle_1", at(9, 0.1), 0.3)
+S("woman_laugh_2", at(12, 0.85), 0.25)
+M("labour", T0(13), T0(17), fade_in=0.4)
+S("wood_creak", at(16, 0.8), 0.35)
+M("wry", T0(17), T0(21), fade_in=0.3)
+M("dawn", T0(21), T0(24), fade_in=0.6)
+S("crowd_murmur_2", T0(21), 0.12, length=at(24) - T0(21), fade_in=1.0, fade_out=1.0)
+M("frost", T0(24), T0(26), fade_in=0.6)
+S("wind_winter", T0(24), 0.12, length=at(26) - T0(24) + 1, fade_in=1.0, fade_out=1.0)
+M("outro", T0(26), END, fade_in=0.8, fade_out=2.0)

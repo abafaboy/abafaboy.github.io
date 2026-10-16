@@ -1,0 +1,16 @@
+"""Chapter 64 sound."""
+def T0(i, pad=0.3): return at(i) - pad
+M("tender", 0, T0(2), fade_in=0.8)
+S("candle_fire", 0, 0.1, length=T0(5), fade_in=1.0, fade_out=1.0)
+M("mystery", T0(2), T0(5), fade_in=0.5)
+M("reveal", T0(5), T0(7), fade_in=0.3, hit_at=at(5) - T0(5) + 0.2)
+M("wry", T0(7), T0(13), fade_in=0.3)
+S("dog_growl", at(7, 0.3), 0.3, length=2)
+M("sorrow", T0(13), T0(15), fade_in=0.6)
+S("candle_fire", T0(13), 0.1, length=T0(20) - T0(13), fade_in=1.0, fade_out=1.0)
+M("mystery", T0(15), T0(16), fade_in=0.4)
+M("wry", T0(16), T0(21), fade_in=0.3)
+S("man_chuckle", at(19, 0.9), 0.2)
+M("mystery", T0(21), T0(23), fade_in=0.5)
+M("reveal", T0(23), T0(25), fade_in=0.3, hit_at=at(24) - T0(23) + 0.1)
+M("outro", T0(25), END, fade_in=0.8, fade_out=2.0)

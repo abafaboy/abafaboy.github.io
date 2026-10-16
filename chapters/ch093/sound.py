@@ -1,0 +1,15 @@
+"""Chapter 93 sound."""
+def T0(i, pad=0.3): return at(i) - pad
+M("mystery", 0, T0(2), fade_in=0.8)
+S("candle_fire", 0, 0.12, length=T0(20), fade_in=1.0, fade_out=1.0)
+M("labour", T0(2), T0(7), fade_in=0.5)
+S("paper_rustle_1", at(2, 0.1), 0.2)
+M("tender", T0(7), T0(10), fade_in=0.6)
+M("labour", T0(10), T0(13), fade_in=0.5)
+M("mystery", T0(13), T0(17), fade_in=0.5)
+S("footsteps_stone", at(13, 0.2), 0.2, length=3, fade_out=1.0)
+M("wry", T0(17), T0(20), fade_in=0.4)
+S("woman_laugh_2", at(19, 0.9), 0.2)
+M("frost", T0(20), T0(21), fade_in=0.5)
+S("footsteps_stone", at(20, 0.4), 0.2, length=4, fade_out=1.5)
+M("outro", T0(21), END, fade_in=0.8, fade_out=2.0)

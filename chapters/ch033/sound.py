@@ -1,0 +1,16 @@
+"""Chapter 33 sound."""
+def T0(i, pad=0.3): return at(i) - pad
+M("wry", 0, T0(10), fade_in=0.6)
+S("crowd_murmur_1", 0, 0.1, length=T0(10), fade_in=1.0, fade_out=1.0)
+M("dawn", T0(10), T0(13), fade_in=0.4)
+S("magic_shimmer", at(10, 0.4), 0.3)
+M("tender", T0(13), T0(14), fade_in=0.4)
+S("woman_laugh_1", at(13, 0.2), 0.25)
+S("crowd_cheer_2", at(13, 0.3), 0.18, length=3, fade_out=1.2)
+M("mystery", T0(14), T0(16), fade_in=0.6)
+S("wind_winter", T0(15), 0.1, length=at(18) - T0(15), fade_in=1.0, fade_out=1.0)
+M("wry", T0(16), T0(20), fade_in=0.4)
+S("wolf_howl_2", at(16, 0.1), 0.25)
+S("dog_whimper", at(17, 0.6), 0.25)
+M("reveal", T0(20), T0(23), fade_in=0.4, hit_at=at(22) - T0(20) + 0.3)
+M("outro", T0(23), END, fade_in=0.8, fade_out=2.0)

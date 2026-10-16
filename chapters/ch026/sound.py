@@ -1,0 +1,15 @@
+"""Chapter 26 sound."""
+def T0(i, pad=0.3): return at(i) - pad
+M("dread", 0, T0(2), fade_in=0.6, nothing_at=at(1) - 0.5)
+S("wolf_howl_2", 0.6, 0.3)
+M("battle", T0(2), T0(8), fade_in=0.1)
+S("wolf_howl_1", at(2, 0.3), 0.25)
+S("crowd_gasp", at(3) - 0.3, 0.3)
+S("wood_creak", at(7, 0.8), 0.4)
+M("triumph", T0(8), T0(10), fade_in=0.1)
+S("crowd_cheer_2", at(8) - 0.2, 0.3, length=3, fade_out=1.0)
+M("battle", T0(10), T0(13), fade_in=0.1)
+S("dog_growl", at(12) - 0.2, 0.45, length=2)
+M("wry", T0(13), T0(15), fade_in=0.3)
+M("dawn", T0(15), T0(16), fade_in=0.8)
+M("outro", T0(16), END, fade_in=0.8, fade_out=2.0)

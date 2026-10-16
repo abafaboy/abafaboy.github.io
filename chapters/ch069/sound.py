@@ -1,0 +1,15 @@
+"""Chapter 69 sound."""
+def T0(i, pad=0.3): return at(i) - pad
+M("labour", 0, T0(4), fade_in=0.8)
+M("wry", T0(4), T0(6), fade_in=0.3)
+S("dog_whimper", at(5, 0.5), 0.2)
+M("labour", T0(6), T0(10), fade_in=0.4)
+M("mockery", T0(10), T0(12), fade_in=0.2)
+S("stone_crack", at(10) + 0.1, 0.4)
+S("wood_creak", at(10, 0.7), 0.25)
+M("wry", T0(12), T0(19), fade_in=0.4)
+S("coins", at(15, 0.6), 0.3)
+M("tender", T0(19), T0(21), fade_in=0.6)
+M("mystery", T0(21), T0(23), fade_in=0.6)
+S("candle_fire", T0(21), 0.08, length=T0(23) - T0(21) + 1.0, fade_in=1.0, fade_out=1.5)
+M("outro", T0(23), END, fade_in=0.8, fade_out=2.0)

@@ -1,0 +1,15 @@
+"""Chapter 100 sound."""
+def T0(i, pad=0.3): return at(i) - pad
+M("tender", 0, T0(3), fade_in=0.8)
+S("wind_winter", 0, 0.07, length=T0(23), fade_in=1.5, fade_out=1.5)
+M("mystery", T0(3), T0(5), fade_in=0.5)
+M("tender", T0(5), T0(9), fade_in=0.6)
+M("wry", T0(9), T0(13), fade_in=0.3)
+S("woman_laugh_1", at(12, 0.1), 0.15)
+M("cold", T0(13), T0(15), fade_in=0.5)
+M("reveal", T0(15), T0(20), fade_in=0.5, hit_at=at(18) - T0(15) + 0.3)
+S("magic_shimmer", at(18, 0.2), 0.25)
+M("mystery", T0(20), T0(22), fade_in=0.5)
+M("dread", T0(22), T0(23), fade_in=0.4, nothing_at=at(22, 0.45) - T0(22))
+S("magic_shimmer", at(22, 0.4), 0.3)
+M("outro", T0(23), END, fade_in=0.8, fade_out=2.0)

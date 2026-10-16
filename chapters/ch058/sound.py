@@ -1,0 +1,17 @@
+"""Chapter 58 sound."""
+def T0(i, pad=0.3): return at(i) - pad
+M("realm", 0, T0(3), fade_in=0.8)
+S("crowd_murmur_1", 0, 0.1, length=T0(3), fade_in=1.0, fade_out=1.0)
+M("mystery", T0(3), T0(5), fade_in=0.5)
+S("candle_fire", T0(3), 0.1, length=T0(5) - T0(3), fade_in=0.6, fade_out=0.6)
+S("paper_rustle_1", at(3, 0.7), 0.25)
+M("dread", T0(5), T0(8), fade_in=0.5, nothing_at=at(7, 0.6) - T0(5))
+M("realm", T0(8), T0(10), fade_in=0.6)
+S("wind_winter", T0(8), 0.1, length=T0(13) - T0(8), fade_in=1.0, fade_out=1.0)
+M("wry", T0(10), T0(11), fade_in=0.3)
+S("dog_growl", at(10, 0.8), 0.25, length=1.5)
+M("cold", T0(11), T0(13), fade_in=0.5)
+M("frost", T0(13), T0(16), fade_in=0.6)
+S("candle_fire", T0(13), 0.1, length=T0(20) - T0(13), fade_in=1.0, fade_out=1.0)
+M("reveal", T0(16), T0(20), fade_in=0.4, hit_at=at(19) - T0(16) + 0.1)
+M("outro", T0(20), END, fade_in=0.8, fade_out=2.0)

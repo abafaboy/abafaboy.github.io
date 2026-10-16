@@ -1,0 +1,16 @@
+"""Chapter 10 sound."""
+def T0(i, pad=0.3): return at(i) - pad
+M("tender", 0, T0(3), fade_in=0.8)
+M("realm", T0(3), T0(5), fade_in=0.8)
+S("crowd_murmur_2", T0(3), 0.15, length=T0(13) - T0(3), fade_in=1.5, fade_out=1.5)
+M("mockery", T0(5), T0(7), gain=0.85, fade_in=0.3)
+M("triumph", T0(7), T0(8), fade_in=0.05)
+M("mockery", T0(8), T0(13), gain=0.85, fade_in=0.3)
+S("man_chuckle", at(6, 1.0) + 0.1, 0.3)
+M("mystery", T0(13), T0(18), fade_in=0.8)
+S("candle_fire", T0(13), 0.12, length=T0(18) - T0(13), fade_in=1.0, fade_out=1.0)
+M("wry", T0(18), T0(21), fade_in=0.3)
+M("cold", T0(21), T0(26), fade_in=0.6)
+S("candle_fire", T0(22), 0.1, length=T0(29) - T0(22), fade_in=1.0, fade_out=1.5)
+M("reveal", T0(26), T0(29), fade_in=0.8, hit_at=at(28) - T0(26))
+M("outro", T0(29), END, fade_in=0.8, fade_out=2.0)

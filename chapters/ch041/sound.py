@@ -1,0 +1,16 @@
+"""Chapter 41 sound."""
+def T0(i, pad=0.3): return at(i) - pad
+M("realm", 0, T0(2), fade_in=0.8)
+S("crowd_cheer_1", 0.3, 0.3, length=4, fade_out=1.5)
+S("magic_shimmer", at(1, 0.4), 0.3)
+M("wry", T0(2), T0(6), fade_in=0.3)
+M("tender", T0(6), T0(13), fade_in=0.6)
+S("crowd_gasp", at(10, 0.25), 0.3)
+M("wry", T0(13), T0(22), fade_in=0.4)
+S("crowd_murmur_1", at(14), 0.12, length=4, fade_in=0.5, fade_out=1.5)
+S("wood_creak", at(21, 0.4), 0.3)
+M("cold", T0(22), T0(24), fade_in=0.6)
+S("candle_fire", T0(22), 0.08, length=T0(24) - T0(22), fade_in=1.0, fade_out=1.0)
+M("frost", T0(24), T0(26), fade_in=0.6)
+S("wind_winter", T0(24), 0.1, length=at(26) - T0(24) + 1, fade_in=1.0, fade_out=1.0)
+M("outro", T0(26), END, fade_in=0.8, fade_out=2.0)

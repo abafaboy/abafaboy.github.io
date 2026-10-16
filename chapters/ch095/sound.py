@@ -1,0 +1,17 @@
+"""Chapter 95 sound."""
+def T0(i, pad=0.3): return at(i) - pad
+M("mystery", 0, T0(2), fade_in=0.8)
+S("wind_winter", 0, 0.08, length=T0(21), fade_in=1.5, fade_out=1.5)
+M("cold", T0(2), T0(4), fade_in=0.4)
+S("footsteps_stone", at(3, 0.05), 0.2, length=6, fade_out=1.5)
+M("wry", T0(4), T0(6), fade_in=0.3)
+S("man_chuckle", at(5, 0.85), 0.2)
+M("frost", T0(6), T0(8), fade_in=0.4)
+M("wry", T0(8), T0(10), fade_in=0.3)
+M("cold", T0(10), T0(13), fade_in=0.4)
+S("wood_creak", at(11, 0.1), 0.25)
+M("wry", T0(13), T0(17), fade_in=0.3)
+S("dog_growl", at(16, 0.3), 0.15, length=1.5)
+M("dread", T0(17), T0(21), fade_in=0.5, nothing_at=at(20) - T0(17) + 0.3)
+S("heartbeat", at(19, 0.1), 0.2, length=7, fade_in=0.8, fade_out=2.0)
+M("outro", T0(21), END, fade_in=0.8, fade_out=2.0)

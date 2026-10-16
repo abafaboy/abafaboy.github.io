@@ -1,0 +1,17 @@
+"""Chapter 53 sound."""
+def T0(i, pad=0.3): return at(i) - pad
+M("frost", 0, T0(1), fade_in=0.8)
+S("wind_winter", 0, 0.12, length=T0(9), fade_in=1.5, fade_out=1.0)
+M("tender", T0(1), T0(4), fade_in=0.6)
+M("wry", T0(4), T0(9), fade_in=0.4)
+M("battle", T0(9), T0(13), fade_in=0.1)
+S("stone_crack", at(9, 0.6), 0.4)
+S("crowd_gasp", at(9, 0.8), 0.3)
+M("dawn", T0(13), T0(16), fade_in=0.6)
+M("wry", T0(16), T0(18), fade_in=0.4)
+S("man_chuckle", at(17, 0.5), 0.25)
+M("frost", T0(18), T0(20), fade_in=0.6)
+S("wind_winter", T0(18), 0.14, length=T0(22) - T0(18) + 1.0, fade_in=1.0, fade_out=1.5)
+S("wolf_howl_2", at(19, 0.7), 0.22)
+M("dread", T0(20), T0(22), fade_in=0.6, nothing_at=at(21, 0.75) - T0(20))
+M("outro", T0(22), END, fade_in=0.8, fade_out=2.0)

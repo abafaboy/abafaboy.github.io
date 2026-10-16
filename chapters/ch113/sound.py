@@ -1,0 +1,18 @@
+"""Chapter 113 sound."""
+def T0(i, pad=0.3): return at(i) - pad
+M("mystery", 0, T0(1), fade_in=0.8)
+S("wood_creak", at(0, 0.2), 0.25)
+M("tender", T0(1), T0(4), fade_in=0.5)
+M("wry", T0(4), T0(9), fade_in=0.4)
+S("candle_fire", T0(4), 0.1, length=T0(16) - T0(4), fade_in=1.0, fade_out=1.0)
+M("mystery", T0(9), T0(14), fade_in=0.5)
+M("sorrow", T0(14), T0(15), fade_in=0.5)
+M("wry", T0(15), T0(16), fade_in=0.3)
+M("frost", T0(16), T0(20), fade_in=0.6)
+S("wind_winter", T0(16), 0.1, length=T0(23) - T0(16), fade_in=1.0, fade_out=1.5)
+M("tender", T0(20), T0(23), fade_in=0.6)
+M("mystery", T0(23), T0(25), fade_in=0.5)
+S("candle_fire", T0(23), 0.1, length=T0(25) - T0(23), fade_in=0.8, fade_out=0.8)
+M("dread", T0(25), T0(26), fade_in=0.4, nothing_at=at(25, 0.85) - T0(25))
+S("footsteps_stone", at(25, 0.1), 0.2)
+M("outro", T0(26), END, fade_in=0.8, fade_out=2.0)

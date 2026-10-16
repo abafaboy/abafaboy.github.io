@@ -1,0 +1,16 @@
+"""Chapter 30 sound."""
+def T0(i, pad=0.3): return at(i) - pad
+M("frost", 0, T0(4), fade_in=0.8)
+S("wind_winter", 0, 0.12, length=T0(4), fade_in=1.0, fade_out=1.5)
+M("wry", T0(4), T0(10), fade_in=0.4)
+M("tender", T0(10), T0(13), fade_in=0.6)
+S("candle_fire", T0(10), 0.09, length=T0(13) - T0(10), fade_in=1.0, fade_out=1.0)
+M("wry", T0(13), T0(15), fade_in=0.3)
+M("dread", T0(15), T0(19), fade_in=0.4, nothing_at=at(17) - T0(15))
+S("stone_crack", at(15, 0.6), 0.3)
+S("heartbeat", at(17), 0.3, length=T0(19) - at(17), fade_out=1.0)
+M("wry", T0(19), T0(21), fade_in=0.3)
+S("dog_whimper", at(19, 0.4), 0.2)
+M("mystery", T0(21), T0(24), fade_in=0.6)
+S("wind_winter", T0(21), 0.1, length=at(24) - T0(21), fade_in=1.0, fade_out=1.0)
+M("outro", T0(24), END, fade_in=0.8, fade_out=2.0)

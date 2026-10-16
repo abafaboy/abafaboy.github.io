@@ -1,0 +1,17 @@
+"""Chapter 38 sound."""
+def T0(i, pad=0.3): return at(i) - pad
+M("tender", 0, T0(4), fade_in=0.8)
+S("magic_shimmer", at(3, 0.2), 0.3)
+M("dawn", T0(4), T0(7), fade_in=0.6)
+S("magic_shimmer", at(5, 0.5), 0.25)
+M("battle", T0(7), T0(17), fade_in=0.1)
+S("stone_crack", at(7, 0.5), 0.35)
+S("wood_creak", at(11, 0.3), 0.35)
+S("dog_growl", at(13, 0.3), 0.4, length=2)
+S("sword_draw", at(16, 0.3), 0.3)
+M("triumph", T0(17), T0(19), fade_in=0.1)
+S("crowd_cheer_2", at(17, 0.6), 0.3, length=3, fade_out=1.2)
+S("man_chuckle", at(18, 0.8), 0.25)
+M("frost", T0(19), T0(22), fade_in=0.6)
+S("heartbeat", at(20), 0.3, length=T0(22) - at(20) + 1, fade_out=1.5)
+M("outro", T0(22), END, fade_in=0.8, fade_out=2.0)

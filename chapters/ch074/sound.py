@@ -1,0 +1,17 @@
+"""Chapter 74 sound."""
+def T0(i, pad=0.3): return at(i) - pad
+M("mystery", 0, T0(4), fade_in=0.8)
+S("candle_fire", 0, 0.1, length=T0(4), fade_in=1.0, fade_out=1.0)
+S("paper_rustle_1", at(3, 0.5), 0.2)
+M("wry", T0(4), T0(7), fade_in=0.3)
+M("mystery", T0(7), T0(8), fade_in=0.4)
+S("footsteps_stone", at(7, 0.2), 0.25)
+M("reveal", T0(8), T0(11), fade_in=0.4, hit_at=at(9, 0.75) - T0(8))
+S("magic_shimmer", at(8, 0.3), 0.2)
+M("dread", T0(11), T0(16), fade_in=0.4, nothing_at=at(14) - T0(11))
+S("heartbeat", at(15), 0.2, length=5, fade_in=0.3, fade_out=1.5)
+M("cold", T0(16), T0(18), fade_in=0.5)
+S("candle_fire", T0(16), 0.1, length=T0(22) - T0(16), fade_in=1.0, fade_out=1.5)
+M("frost", T0(18), T0(20), fade_in=0.5)
+M("dawn", T0(20), T0(22), fade_in=0.5)
+M("outro", T0(22), END, fade_in=0.8, fade_out=2.0)

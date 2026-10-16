@@ -1,0 +1,18 @@
+"""Chapter 11 sound."""
+def T0(i, pad=0.3): return at(i) - pad
+M("mystery", 0, T0(6), fade_in=0.8)
+S("candle_fire", 0, 0.1, length=T0(10), fade_in=1.0, fade_out=1.5)
+M("cold", T0(6), T0(10), fade_in=0.6)
+M("mystery", T0(10), T0(14), fade_in=0.8)
+S("wind_winter", T0(10), 0.06, length=T0(20) - T0(10), fade_in=1.5, fade_out=1.5)
+M("wry", T0(14), T0(16), fade_in=0.2)
+S("dog_growl", at(14, 0.5), 0.3, length=2.5, fade_out=1.0)
+M("labour", T0(16), T0(19), fade_in=0.3)
+S("wood_creak", at(18, 0.4), 0.5); S("stone_crack", at(18, 0.6), 0.4, length=1.5, fade_out=0.6)
+M("reveal", T0(19), T0(20), fade_in=0.2, hit_at=0.4)
+S("crowd_murmur_2", T0(20), 0.15, length=T0(23) - T0(20), fade_in=0.5, fade_out=1.0)
+M("dawn", T0(20), T0(25), gain=0.9, fade_in=0.4)
+M("wry", T0(25), T0(27), fade_in=0.4)
+M("triumph", T0(27), T0(28), fade_in=0.2)
+M("cold", T0(28), T0(29), fade_in=0.6)
+M("outro", T0(29), END, fade_in=0.8, fade_out=2.0)

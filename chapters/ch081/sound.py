@@ -1,0 +1,15 @@
+"""Chapter 81 sound."""
+def T0(i, pad=0.3): return at(i) - pad
+M("cold", 0, T0(4), fade_in=0.8)
+M("wry", T0(4), T0(5), fade_in=0.3)
+M("tender", T0(5), T0(10), fade_in=0.6)
+M("dread", T0(10), T0(12), fade_in=0.4, nothing_at=at(11, 0.1) - T0(10))
+M("cold", T0(12), T0(16), fade_in=0.5)
+S("crowd_murmur_1", T0(12), 0.1, length=T0(19) - T0(12), fade_in=1.0, fade_out=1.0)
+M("mockery", T0(16), T0(17), fade_in=0.3)
+M("frost", T0(17), T0(19), fade_in=0.4)
+M("mockery", T0(19), T0(20), fade_in=0.3)
+M("cold", T0(20), T0(21), fade_in=0.6)
+S("sword_draw", at(20, 0.55), 0.2)
+S("candle_fire", T0(20), 0.08, length=T0(21) - T0(20) + 1.0, fade_in=0.8, fade_out=1.5)
+M("outro", T0(21), END, fade_in=0.8, fade_out=2.0)

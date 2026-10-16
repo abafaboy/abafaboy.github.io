@@ -1,0 +1,16 @@
+"""Chapter 16 sound."""
+def T0(i, pad=0.3): return at(i) - pad
+M("labour", 0, T0(3), fade_in=0.6)
+S("candle_fire", 0, 0.1, length=T0(3), fade_in=0.5, fade_out=1.0)
+M("wry", T0(3), T0(10), fade_in=0.4)
+S("crowd_murmur_1", T0(7), 0.15, length=T0(10) - T0(7), fade_in=0.8, fade_out=1.0)
+S("man_chuckle", at(9, 0.9), 0.3)
+M("tender", T0(10), T0(16), fade_in=0.6)
+S("wind_winter", T0(15), 0.15, length=T0(16) - T0(15) + 1, fade_in=0.8, fade_out=1.2)
+M("wry", T0(16), T0(24), fade_in=0.4)
+S("man_chuckle", at(19, 0.6), 0.25)
+S("woman_laugh_1", at(23, 0.3), 0.25)
+M("mystery", T0(24), T0(29), fade_in=0.6)
+M("frost", T0(29), T0(30), fade_in=0.8)
+M("dread", T0(30), T0(31), fade_in=0.4, nothing_at=at(30) - T0(30) + 3)
+M("outro", T0(31), END, fade_in=0.8, fade_out=2.0)

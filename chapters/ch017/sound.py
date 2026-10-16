@@ -1,0 +1,18 @@
+"""Chapter 17 sound."""
+def T0(i, pad=0.3): return at(i) - pad
+M("dread", 0, T0(1), fade_in=0.6, nothing_at=at(1) - 1.5)
+S("footsteps_stone", 0.5, 0.15, length=T0(1), fade_in=0.5, fade_out=1.0)
+M("wry", T0(1), T0(6), fade_in=0.4)
+S("crowd_murmur_2", T0(1), 0.1, length=T0(6) - T0(1), fade_in=0.8, fade_out=1.0)
+S("man_chuckle", at(4, 0.3), 0.25)
+M("cold", T0(6), T0(9), fade_in=0.6)
+M("mystery", T0(9), T0(12), fade_in=0.6)
+S("magic_shimmer", at(10, 0.3), 0.3)
+M("cold", T0(12), T0(13), fade_in=0.4)
+S("paper_rustle_1", at(12) - 0.4, 0.3)
+M("wry", T0(13), T0(16), fade_in=0.4)
+S("dog_whimper", at(14, 0.8), 0.2)
+M("mystery", T0(16), T0(22), fade_in=0.6)
+M("dread", T0(22), T0(26), fade_in=0.6, nothing_at=at(23) - T0(22) - 0.2)
+S("heartbeat", at(25) - 0.3, 0.3, length=4, fade_out=1.5)
+M("outro", T0(26), END, fade_in=0.8, fade_out=2.0)

@@ -1,0 +1,17 @@
+"""Chapter 56 sound."""
+def T0(i, pad=0.3): return at(i) - pad
+M("dawn", 0, T0(2), fade_in=0.8)
+M("wry", T0(2), T0(4), fade_in=0.4)
+M("tender", T0(4), T0(6), fade_in=0.6)
+M("sorrow", T0(6), T0(8), fade_in=0.6)
+M("cold", T0(8), T0(10), fade_in=0.5)
+M("realm", T0(10), T0(12), fade_in=0.5)
+M("tender", T0(12), T0(17), fade_in=0.6)
+S("man_chuckle", at(13, 0.85), 0.2)
+S("magic_shimmer", at(16, 0.15), 0.3)
+M("dread", T0(17), T0(19), fade_in=0.5, nothing_at=at(18, 0.4) - T0(17))
+M("mystery", T0(19), T0(21), fade_in=0.5)
+S("paper_rustle_1", at(19, 0.2), 0.2)
+M("dread", T0(21), T0(22), fade_in=0.5, nothing_at=at(21, 0.75) - T0(21))
+S("wind_winter", T0(21), 0.1, length=T0(22) - T0(21) + 1.0, fade_in=0.8, fade_out=1.5)
+M("outro", T0(22), END, fade_in=0.8, fade_out=2.0)

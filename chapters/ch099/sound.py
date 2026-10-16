@@ -1,0 +1,16 @@
+"""Chapter 99 sound."""
+def T0(i, pad=0.3): return at(i) - pad
+M("dread", 0, T0(2), fade_in=0.8, nothing_at=at(1, 0.8))
+S("wind_winter", 0, 0.08, length=T0(20), fade_in=1.5, fade_out=1.5)
+M("frost", T0(2), T0(5), fade_in=0.5)
+S("heartbeat", at(3, 0.2), 0.15, length=6, fade_in=1.0, fade_out=2.0)
+M("cold", T0(5), T0(7), fade_in=0.4)
+M("dread", T0(7), T0(10), fade_in=0.5, nothing_at=at(8) - T0(7) + 0.2)
+S("coins", at(8, 0.3), 0.15)
+M("reveal", T0(10), T0(14), fade_in=0.5, hit_at=at(12) - T0(10) + 0.2)
+M("tender", T0(14), T0(16), fade_in=0.6)
+M("mystery", T0(16), T0(18), fade_in=0.4)
+S("footsteps_stone", at(16, 0.1), 0.2, length=5, fade_out=1.0)
+M("frost", T0(18), T0(20), fade_in=0.5)
+S("heartbeat", at(19, 0.1), 0.22, length=9, fade_in=0.5, fade_out=2.5)
+M("outro", T0(20), END, fade_in=0.8, fade_out=2.0)

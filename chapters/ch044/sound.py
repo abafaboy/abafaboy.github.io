@@ -1,0 +1,15 @@
+"""Chapter 44 sound."""
+def T0(i, pad=0.3): return at(i) - pad
+M("wry", 0, T0(6), fade_in=0.6)
+S("wind_winter", 0, 0.1, length=T0(6), fade_in=1.0, fade_out=1.0)
+M("labour", T0(6), T0(10), fade_in=0.4)
+S("crowd_murmur_1", at(8), 0.12, length=at(10) - at(8), fade_in=0.8, fade_out=1.0)
+M("tender", T0(10), T0(11), fade_in=0.6)
+M("wry", T0(11), T0(14), fade_in=0.4)
+S("man_chuckle", at(13, 0.4), 0.22)
+M("sorrow", T0(14), T0(17), fade_in=0.8)
+S("wind_winter", T0(14), 0.1, length=T0(17) - T0(14), fade_in=1.0, fade_out=1.0)
+M("dawn", T0(17), T0(19), fade_in=0.6)
+S("crowd_cheer_1", at(17, 0.3), 0.3, length=3, fade_out=1.0)
+M("mystery", T0(19), T0(20), fade_in=0.5)
+M("outro", T0(20), END, fade_in=0.8, fade_out=2.0)
