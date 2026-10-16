@@ -1,0 +1,158 @@
+{
+  "contract_version": "lwmz-redraw-adoption-v1",
+  "scope": {
+    "new_style_starts_at": 35,
+    "preserve_chapters": "1-34",
+    "preserve_volume1": true,
+    "ch29_tests_role": "style only",
+    "local_canonical_writer": "sole production coordinator",
+    "cloud_output_role": "private staging only"
+  },
+  "normalization": "Existing worker field names may be mapped into this receipt contract; missing evidence stays explicit. Never alter image bytes merely to normalize metadata.",
+  "chapter_required_fields": [
+    "chapter",
+    "source_script_sha256",
+    "source_original_brief_sha256",
+    "source_effective_brief_sha256",
+    "style_guide_commit",
+    "expected_panels",
+    "archive_source_receipt",
+    "archive_bytes",
+    "archive_sha256",
+    "chapter_complete",
+    "panels"
+  ],
+  "panel_required_fields": [
+    "panel",
+    "expected_dimensions",
+    "raw_generator_original",
+    "production_candidate",
+    "resize",
+    "prompt_provenance",
+    "ordered_references",
+    "worker_qa",
+    "local_independent_visual_review"
+  ],
+  "image_required_fields": [
+    "path",
+    "format",
+    "width",
+    "height",
+    "bytes",
+    "sha256"
+  ],
+  "resize_required_fields": [
+    "performed",
+    "source_dimensions",
+    "destination_dimensions",
+    "method",
+    "transform",
+    "raw_original_retained"
+  ],
+  "reference_required_fields": [
+    "order",
+    "id",
+    "sha256",
+    "role",
+    "source_locator"
+  ],
+  "reference_roles": [
+    "identity only",
+    "approved style only",
+    "scene/prop/cast continuity only"
+  ],
+  "review_result_values": [
+    "pass",
+    "fail",
+    "not_visible"
+  ],
+  "review_required_categories": [
+    "scene_action_cast",
+    "identity_costume_age_scale",
+    "laterality_injury_state",
+    "mouth_acting",
+    "silent_speaking_fit",
+    "jaw_lips_teeth",
+    "cross_panel_body_proportions",
+    "hands_grips_contact_foreshortening",
+    "approved_style_hierarchy",
+    "no_generated_text_or_watermark",
+    "face_visibility_and_lettering_space",
+    "chapter_specific_continuity"
+  ],
+  "review_evidence_fields": [
+    "reviewer",
+    "reviewed_image_sha256",
+    "result",
+    "evidence",
+    "remaining_limits"
+  ],
+  "local_adoption_receipt_required_fields": [
+    "chapter",
+    "backup_manifest",
+    "pre_adoption_pipeline_commit",
+    "pre_adoption_site_commit",
+    "old_source_hashes",
+    "new_candidate_hashes",
+    "raw_original_hashes",
+    "verified_destination_hashes",
+    "production_dimensions",
+    "face_boxes_measured_on_production_files",
+    "strip_qa",
+    "audio_cache_validation",
+    "full_build_qa",
+    "publication_receipt"
+  ],
+  "backup_manifest_required_targets": [
+    "old panel PNGs",
+    "layout",
+    "derived strip anchors facecheck preview",
+    "voice timeline mix if present",
+    "existing final MP4",
+    "target site chapter export",
+    "site chapters.json",
+    "reader preservation evidence",
+    "raw generator originals"
+  ],
+  "audio_cache_validation": {
+    "required": [
+      "unchanged script lines/order/panels/speakers/text/pause policy",
+      "canonical voice map",
+      "matching timeline",
+      "finite non-silent spoken signal",
+      "format and duration",
+      "no false listening claim",
+      "Reject saturated PCM caches; if needed retain FLOAT generation and first attempt, apply documented pre-PCM gain with unchanged voices/speed/pitch, verify quantization/timing"
+    ],
+    "lucan": "am_fenrir",
+    "speed": 1.0,
+    "pitch_shift": 0
+  },
+  "release_gates": [
+    "complete chapter accepted after independent local pixels review",
+    "all old artifacts backed up before overwrite",
+    "exact production size and fresh face measurements",
+    "OVERLAPS:none plus manual strip inspection",
+    "one full renderer and one site/Git writer",
+    "full decode and encoded-frame QA",
+    "git pull --rebase before every authorized push, preserving read.html",
+    "post-rebase remote commit verified",
+    "deployed metadata and every image/audio hash verified"
+  ],
+  "forbidden_shortcuts": [
+    "partial chapter triggers full build",
+    "mixed rejected old art silently treated as new chapter",
+    "upstream pass or successful process replaces independent QA",
+    "reusing old/different-size face coordinates",
+    "silent or voiceover forces open mouth",
+    "animated lip-sync promise for still panels",
+    "unrecorded resizing or discarded raw originals",
+    "hardlinks",
+    "untrusted archive code execution",
+    "canonical writes by cloud workers",
+    "reset/discard to resolve Git conflicts",
+    "overwrite read.html",
+    "new edits to Ch1-34 or Volume1",
+    "third-party comic images in public Git/site"
+  ]
+}
