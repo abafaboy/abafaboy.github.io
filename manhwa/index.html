@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Lord Who Measured Zero</title>
+<meta name="description" content="An original medieval-fantasy manhwa. Lucan measured zero at his Measuring and was sent to the frozen north. Everything he takes responsibility for starts to grow.">
+<meta property="og:title" content="The Lord Who Measured Zero">
+<meta property="og:description" content="An original medieval-fantasy manhwa, voiced and scored. Read it, or listen while you read.">
+<meta property="og:image" content="assets/cover.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<header class="bar">
+  <a class="logo" href="./">THE LORD <span>WHO MEASURED</span> ZERO</a>
+  <nav><a href="#chapters">Chapters</a><a href="#world">The world</a></nav>
+</header>
+
+<section class="hero">
+  <div class="hero-art"><img src="assets/cover.webp" alt="A cracked Measuring Stone glowing gold in the dark"></div>
+  <div class="hero-text">
+    <p class="kicker">An original manhwa · voiced &amp; scored</p>
+    <h1>The Lord<br>Who Measured<br><em>Zero</em></h1>
+    <p class="lede">At sixteen, every noble child of Aldmere touches the Measuring Stone, and its rings of light decide their whole life. Lucan Varr lit none. His family sent him to Greyhollow, a frozen fief at the edge of the world, with thirty-seven peasants and a debt he couldn't pay.</p>
+    <p class="lede">That night, the Stone in the capital cracked through its heart.</p>
+    <div class="cta">
+      <a class="btn" id="start" href="read.html?ch=1">Start reading</a>
+      <a class="btn ghost" id="latest" href="#">Latest chapter</a>
+    </div>
+    <p class="note" id="resume" hidden></p>
+  </div>
+</section>
+
+<section id="chapters" class="wrap">
+  <div class="sec-head"><h2>Chapters</h2><span id="count"></span></div>
+  <div class="grid" id="grid"></div>
+</section>
+
+<section id="world" class="wrap world">
+  <div class="sec-head"><h2>The world</h2></div>
+  <div class="cards">
+    <div class="card"><h3>Rings</h3><p>Every Vessel is measured once, at sixteen. One ring is a commoner, three a knight, five a true lord. Seven rings belonged to King Aldric I alone. They built a cathedral on the spot.</p></div>
+    <div class="card"><h3>Greyhollow</h3><p>The last settled fief before the Pale. It has a keep with half a roof, a mill that won't turn, and frost that never fully leaves. Until now.</p></div>
+    <div class="card"><h3>The Order of the Measure</h3><p>Blue robes and silver lenses. They keep the Stones and the ring order. For three hundred years they have hunted the people they call hollow-born.</p></div>
+  </div>
+</section>
+
+<footer class="foot">An original story. Art made with AI image tools, voices by Kokoro TTS, music arranged from FluidR3 samples, sound effects CC0.</footer>
+
+<script>
+(async () => {
+  const r = await fetch('data/chapters.json', {cache: 'no-cache'}); const {chapters} = await r.json();
+  const fmt = s => Math.floor(s / 60) + ':' + String(Math.round(s % 60)).padStart(2, '0');
+  let read = {}; try { read = JSON.parse(localStorage.getItem('lwmz-read') || '{}'); } catch (e) {}
+  document.getElementById('count').textContent = chapters.length + ' chapters';
+  const g = document.getElementById('grid');
+  chapters.slice().reverse().forEach(c => {
+    const a = document.createElement('a'); a.className = 'ch' + (read[c.n] ? ' seen' : ''); a.href = 'read.html?ch=' + c.n;
+    const pad = String(c.n).padStart(3, '0');
+    a.innerHTML = `<img loading="lazy" src="ch/${pad}/thumb.webp" alt=""><div class="meta"><span class="num">Chapter ${c.n}</span><span class="t">${c.title}</span><span class="d">${fmt(c.duration)} · ${read[c.n] ? 'read' : 'new'}</span></div>`;
+    g.appendChild(a);
+  });
+  const last = chapters[chapters.length - 1];
+  document.getElementById('latest').href = 'read.html?ch=' + last.n;
+  document.getElementById('latest').textContent = 'Latest: Chapter ' + last.n;
+  let pos = null; try { pos = JSON.parse(localStorage.getItem('lwmz-pos') || 'null'); } catch (e) {}
+  if (pos && pos.ch) { const el = document.getElementById('resume'); el.hidden = false; el.innerHTML = `Continue where you left off: <a href="read.html?ch=${pos.ch}">Chapter ${pos.ch}</a>`; }
+})();
+</script>
+</body>
+</html>

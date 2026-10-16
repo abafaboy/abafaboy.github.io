@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reading · The Lord Who Measured Zero</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body class="reader">
+<header class="bar rbar">
+  <a class="back" href="./" aria-label="All chapters">&#8592; <span>Chapters</span></a>
+  <select id="pick" aria-label="Choose chapter"></select>
+  <div class="nav2"><a id="prev" class="nb" aria-label="Previous chapter">&#8249;</a><a id="next" class="nb" aria-label="Next chapter">&#8250;</a></div>
+</header>
+
+<main id="strip" class="strip"></main>
+
+<div class="endnav" id="endnav">
+  <p class="endtitle" id="endtitle"></p>
+  <a class="btn" id="nextbig" href="#">Next chapter</a>
+  <a class="btn ghost" href="./">All chapters</a>
+</div>
+
+<div class="player" id="player">
+  <button id="play" class="pbtn" aria-label="Play narration">&#9654;</button>
+  <div class="ptrack" id="track"><div class="pfill" id="fill"></div></div>
+  <span class="ptime" id="time">0:00</span>
+  <button id="follow" class="follow on" title="Scroll the page along with the narration">Follow</button>
+</div>
+<audio id="aud" preload="none"></audio>
+
+<script>
+(async () => {
+  const q = new URLSearchParams(location.search); let n = parseInt(q.get('ch') || '1', 10);
+  const {chapters} = await (await fetch('data/chapters.json', {cache: 'no-cache'})).json();
+  const c = chapters.find(x => x.n === n) || chapters[0]; n = c.n;
+  const idx = chapters.indexOf(c), pad = String(n).padStart(3, '0');
+  document.title = `Chapter ${n}: ${c.title} · The Lord Who Measured Zero`;
+  const pick = document.getElementById('pick');
+  chapters.forEach(x => { const o = document.createElement('option'); o.value = x.n; o.textContent = `Chapter ${x.n}: ${x.title}`; if (x.n === n) o.selected = true; pick.appendChild(o); });
+  pick.onchange = () => location.href = 'read.html?ch=' + pick.value;
+  const prev = chapters[idx - 1], next = chapters[idx + 1];
+  const setNav = (el, ch) => { if (ch) el.href = 'read.html?ch=' + ch.n; else el.classList.add('off'); };
+  setNav(document.getElementById('prev'), prev); setNav(document.getElementById('next'), next);
+  const nb = document.getElementById('nextbig');
+  if (next) { nb.href = 'read.html?ch=' + next.n; nb.textContent = `Chapter ${next.n}: ${next.title} →`; } else { nb.textContent = 'New chapters coming soon'; nb.removeAttribute('href'); nb.classList.add('ghost'); }
+  document.getElementById('endtitle').textContent = `End of Chapter ${n}`;
+
+  const strip = document.getElementById('strip');
+  c.segments.forEach(([fn, h], k) => {
+    const im = new Image(); im.src = `ch/${pad}/${fn}`; im.width = c.width; im.height = h; im.alt = k ? '' : `Chapter ${n}: ${c.title}`;
+    if (k > 1) im.loading = 'lazy'; im.decoding = 'async'; strip.appendChild(im);
+  });
+
+  let read = {}; try { read = JSON.parse(localStorage.getItem('lwmz-read') || '{}'); } catch (e) {}
+  const save = () => { try { localStorage.setItem('lwmz-pos', JSON.stringify({ch: n})); } catch (e) {} };
+  save();
+  const endObs = new IntersectionObserver(es => { if (es[0].isIntersecting) { read[n] = 1; try { localStorage.setItem('lwmz-read', JSON.stringify(read)); } catch (e) {} } });
+  endObs.observe(document.getElementById('endnav'));
+
+  // narration player + follow-scroll (same timing as the videos)
+  const aud = document.getElementById('aud'); aud.src = `ch/${pad}/audio.mp3`;
+  const play = document.getElementById('play'), fill = document.getElementById('fill'), time = document.getElementById('time'), track = document.getElementById('track'), fol = document.getElementById('follow');
+  const fmt = s => Math.floor(s / 60) + ':' + String(Math.floor(s % 60)).padStart(2, '0');
+  let follow = true, auto = false, autoT = 0;
+  const keys = c.keys || [], MOVE = 1.1;
+  const yAt = t => {
+    if (!keys.length) return null;
+    let y = keys[0][1];
+    for (let k = 0; k < keys.length; k++) {
+      const [t1, y1] = keys[k]; if (t < t1) break;
+      const y0 = k ? keys[k - 1][1] : y1;
+      if (t < t1 + MOVE) { let u = (t - t1) / MOVE; u = u * u * (3 - 2 * u); return y0 + (y1 - y0) * u; }
+      y = y1;
+    }
+    return y;
+  };
+  const tick = () => {
+    const d = aud.duration || c.duration;
+    fill.style.width = (100 * aud.currentTime / d) + '%'; time.textContent = fmt(aud.currentTime);
+    if (follow && !aud.paused) {
+      const y = yAt(aud.currentTime);
+      if (y !== null) {
+        const sc = strip.clientWidth / c.width, top = strip.getBoundingClientRect().top + scrollY;
+        auto = true; autoT = performance.now();
+        scrollTo(0, Math.max(0, top + y * sc - innerHeight / 2));
+      }
+    }
+    if (!aud.paused) requestAnimationFrame(tick);
+  };
+  play.onclick = () => { if (aud.paused) { aud.play(); } else { aud.pause(); } };
+  aud.onplay = () => { play.innerHTML = '&#10074;&#10074;'; play.setAttribute('aria-label', 'Pause narration'); requestAnimationFrame(tick); };
+  aud.onpause = () => { play.innerHTML = '&#9654;'; play.setAttribute('aria-label', 'Play narration'); };
+  aud.onended = () => { document.getElementById('endnav').scrollIntoView({behavior: 'smooth'}); };
+  track.onclick = e => { const r = track.getBoundingClientRect(); aud.currentTime = (e.clientX - r.left) / r.width * (aud.duration || c.duration); tick(); };
+  const setFollow = v => { follow = v; fol.classList.toggle('on', v); };
+  fol.onclick = () => setFollow(!follow);
+  const manual = () => { if (!aud.paused && performance.now() - autoT > 120) setFollow(false); };
+  addEventListener('wheel', manual, {passive: true}); addEventListener('touchmove', manual, {passive: true});
+  addEventListener('keydown', e => { if (e.key === ' ' && e.target === document.body) { e.preventDefault(); play.click(); } if (e.key === 'ArrowRight' && next) location.href = 'read.html?ch=' + next.n; if (e.key === 'ArrowLeft' && prev) location.href = 'read.html?ch=' + prev.n; });
+})();
+</script>
+</body>
+</html>
