@@ -1,0 +1,288 @@
+{
+  "chapter": 38,
+  "status": "technical audio/timeline cache checks passed; full build pending accepted art",
+  "reused_existing_cache": false,
+  "voice": {
+    "path": "VID/pipeline/chapters/ch038/voice.wav",
+    "bytes": 5670892,
+    "sha256": "7daba90b30d15119cfec75250b938294a2e827e18fa45c9f34ba6a15853c7b4d",
+    "seconds": 118.14266666666667,
+    "sample_rate": 24000,
+    "channels": 1,
+    "subtype": "PCM_16",
+    "peak": 0.97998046875,
+    "rms": 0.07482224702835083,
+    "observed_clipped_samples": 0
+  },
+  "timeline": {
+    "path": "VID/pipeline/chapters/ch038/timeline.json",
+    "bytes": 4534,
+    "sha256": "1ff1909da30c054d7d026578afc965753becbe02080134e2201064ed56b2ccfa",
+    "line_count": 23,
+    "total": 118.143,
+    "script_correspondence": "exact order/panel/speaker/text and pause policy"
+  },
+  "source_sha256": {
+    "script.json": "173b9edf469ab91234989c90b78e9cd477ef4d2ffe53a2de0e81418f60a81af1",
+    "brief.txt": "6e3d7f7d35ce51f557dc78500a33367987efa7d1198392c52fb80b63ac717f42",
+    "sound.py": "7ea5bf1686eb1eef5c3b8fe9cc4fa652d4b4f605caf980142c0fb517d99ec1a3"
+  },
+  "voices": {
+    "DUNN": "am_liam",
+    "GARROW": "am_onyx",
+    "LUCAN": "am_fenrir",
+    "OSWIN": "bm_george",
+    "WREN": "af_kore",
+    "YRSA": "af_river"
+  },
+  "speed": 1.0,
+  "pitch_shift": 0,
+  "headroom_generation": {
+    "chapter": 38,
+    "raw_peak": 1.3054548501968384,
+    "raw_samples_above_full_scale": 27,
+    "applied_linear_gain": 0.7506962035892962,
+    "post_gain_peak": 0.9799999594688416,
+    "sample_rate": 24000,
+    "samples": 2835424,
+    "raw_float_sha256": "4ab71d4e71247a324e3f4ffa51d56b5aeeaa9eec3102f6f5c0d21e48d783e13f",
+    "raw_float_path": "VID/pipeline/chapters/ch038/qa/voice_generated.float.wav",
+    "script_sha256": "173b9edf469ab91234989c90b78e9cd477ef4d2ffe53a2de0e81418f60a81af1",
+    "tts_source_sha256": "b8a40c517cf8888ff983e93a1640ae7cf5ca9e48aaff774ac6ddf40cd007c65f",
+    "voices": {
+      "DUNN": "am_liam",
+      "GARROW": "am_onyx",
+      "LUCAN": "am_fenrir",
+      "OSWIN": "bm_george",
+      "WREN": "af_kore",
+      "YRSA": "af_river"
+    },
+    "speed": 1.0,
+    "pitch_shift": 0,
+    "method": "Retained unmodified FLOAT generation; single linear gain only if needed for 0.98 headroom before PCM16 conversion. No resampling/speed/pitch change.",
+    "completed_utc": "2026-10-17T00:00:50.518934+00:00"
+  },
+  "pcm_quantization_max_residual": 3.0517345294356346e-05,
+  "runtime_versions": {
+    "kokoro-onnx": "0.6.1",
+    "onnxruntime": "1.31.0",
+    "numpy": "2.3.5",
+    "soundfile": "0.14.0"
+  },
+  "old_art_rendered": false,
+  "full_video_rendered": false,
+  "site_exported": false,
+  "listening": "Unavailable; signal/timing/configuration checked; no listening or pronunciation-quality claim. No recurring personal audition gate.",
+  "reuse_condition": "Only reuse while script/text/order/panels/speakers/pauses and canonical voice map remain identical to this receipt.",
+  "lines": [
+    {
+      "index": 0,
+      "panel": "p01",
+      "who": "LUCAN",
+      "start": 0.8,
+      "end": 4.085,
+      "rms": 0.08411303907632828,
+      "gap_seconds": 0.45
+    },
+    {
+      "index": 1,
+      "panel": "p02",
+      "who": "LUCAN",
+      "start": 4.535,
+      "end": 10.466,
+      "rms": 0.08122625201940536,
+      "gap_seconds": 0.45
+    },
+    {
+      "index": 2,
+      "panel": "p03",
+      "who": "YRSA",
+      "start": 10.916,
+      "end": 17.188,
+      "rms": 0.06089319288730621,
+      "gap_seconds": 0.45
+    },
+    {
+      "index": 3,
+      "panel": "p04",
+      "who": "LUCAN",
+      "start": 17.638,
+      "end": 23.291,
+      "rms": 0.08218784630298615,
+      "gap_seconds": 0.45
+    },
+    {
+      "index": 4,
+      "panel": "p05",
+      "who": "LUCAN",
+      "start": 23.741,
+      "end": 28.115,
+      "rms": 0.07994909584522247,
+      "gap_seconds": 0.45
+    },
+    {
+      "index": 5,
+      "panel": "p06",
+      "who": "LUCAN",
+      "start": 28.565,
+      "end": 35.327,
+      "rms": 0.08281594514846802,
+      "gap_seconds": 0.45
+    },
+    {
+      "index": 6,
+      "panel": "p07",
+      "who": "LUCAN",
+      "start": 35.777,
+      "end": 41.409,
+      "rms": 0.08005072176456451,
+      "gap_seconds": 0.8
+    },
+    {
+      "index": 7,
+      "panel": "p08",
+      "who": "LUCAN",
+      "start": 42.209,
+      "end": 48.503,
+      "rms": 0.07903675734996796,
+      "gap_seconds": 0.45
+    },
+    {
+      "index": 8,
+      "panel": "p09",
+      "who": "GARROW",
+      "start": 48.953,
+      "end": 51.683,
+      "rms": 0.05901755392551422,
+      "gap_seconds": 0.45
+    },
+    {
+      "index": 9,
+      "panel": "p10",
+      "who": "LUCAN",
+      "start": 52.133,
+      "end": 59.984,
+      "rms": 0.07903484255075455,
+      "gap_seconds": 0.45
+    },
+    {
+      "index": 10,
+      "panel": "p11",
+      "who": "LUCAN",
+      "start": 60.434,
+      "end": 63.143,
+      "rms": 0.08619124442338943,
+      "gap_seconds": 0.45
+    },
+    {
+      "index": 11,
+      "panel": "p12",
+      "who": "DUNN",
+      "start": 63.593,
+      "end": 65.108,
+      "rms": 0.0712227150797844,
+      "gap_seconds": 0.45
+    },
+    {
+      "index": 12,
+      "panel": "p13",
+      "who": "LUCAN",
+      "start": 65.558,
+      "end": 70.955,
+      "rms": 0.08460064232349396,
+      "gap_seconds": 0.45
+    },
+    {
+      "index": 13,
+      "panel": "p14",
+      "who": "LUCAN",
+      "start": 71.405,
+      "end": 78.488,
+      "rms": 0.07981192320585251,
+      "gap_seconds": 0.45
+    },
+    {
+      "index": 14,
+      "panel": "p15",
+      "who": "LUCAN",
+      "start": 78.938,
+      "end": 82.01,
+      "rms": 0.08263032883405685,
+      "gap_seconds": 0.45
+    },
+    {
+      "index": 15,
+      "panel": "p15",
+      "who": "WREN",
+      "start": 82.46,
+      "end": 83.783,
+      "rms": 0.09322596341371536,
+      "gap_seconds": 0.45
+    },
+    {
+      "index": 16,
+      "panel": "p16",
+      "who": "LUCAN",
+      "start": 84.233,
+      "end": 90.291,
+      "rms": 0.08186516910791397,
+      "gap_seconds": 0.45
+    },
+    {
+      "index": 17,
+      "panel": "p17",
+      "who": "LUCAN",
+      "start": 90.741,
+      "end": 92.427,
+      "rms": 0.08993937075138092,
+      "gap_seconds": 0.45
+    },
+    {
+      "index": 18,
+      "panel": "p17",
+      "who": "OSWIN",
+      "start": 92.877,
+      "end": 95.65,
+      "rms": 0.06921738386154175,
+      "gap_seconds": 0.45
+    },
+    {
+      "index": 19,
+      "panel": "p18",
+      "who": "LUCAN",
+      "start": 96.1,
+      "end": 101.924,
+      "rms": 0.07885728031396866,
+      "gap_seconds": 0.45
+    },
+    {
+      "index": 20,
+      "panel": "p18",
+      "who": "LUCAN",
+      "start": 102.374,
+      "end": 108.006,
+      "rms": 0.08116313070058823,
+      "gap_seconds": 0.45
+    },
+    {
+      "index": 21,
+      "panel": "p18",
+      "who": "LUCAN",
+      "start": 108.456,
+      "end": 111.251,
+      "rms": 0.08482956141233444,
+      "gap_seconds": 2.0
+    },
+    {
+      "index": 22,
+      "panel": "end",
+      "who": "LUCAN",
+      "start": 113.251,
+      "end": 116.643,
+      "rms": 0.08466785401105881,
+      "gap_seconds": 1.5
+    }
+  ],
+  "protected_file_count": 494,
+  "protected_files_unchanged": true
+}
