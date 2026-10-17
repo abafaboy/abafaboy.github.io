@@ -232,7 +232,12 @@
         ],
         "locally_retained_same_bytes": false,
         "parent_attests_upstream_retention": true,
-        "independently_verified_if_same_bytes_only": true
+        "independently_verified_if_same_bytes_only": false,
+        "raw_member": "originals/ch51_p04.png",
+        "local_original_sha256": "e74947646231058303a4efefcc076f302a26d3b7037d5a3ee249329574df446d",
+        "local_original_bytes": 2142659,
+        "locally_verified_resize": "exact uniform Lanczos; no crop/stretch",
+        "retained_raw_and_transform_verified": true
       },
       "resize": "Lanczos user authorized",
       "face_boxes": [
@@ -288,7 +293,12 @@
         ],
         "locally_retained_same_bytes": false,
         "parent_attests_upstream_retention": true,
-        "independently_verified_if_same_bytes_only": true
+        "independently_verified_if_same_bytes_only": false,
+        "raw_member": "originals/ch51_p05.png",
+        "local_original_sha256": "335a4ef21015e45e69983c9642166bb402bfc63e09799af8129b6501819146c1",
+        "local_original_bytes": 1761337,
+        "locally_verified_resize": "exact uniform Lanczos; no crop/stretch",
+        "retained_raw_and_transform_verified": true
       },
       "resize": "Lanczos user authorized",
       "face_boxes": [
@@ -388,7 +398,12 @@
         ],
         "locally_retained_same_bytes": false,
         "parent_attests_upstream_retention": true,
-        "independently_verified_if_same_bytes_only": true
+        "independently_verified_if_same_bytes_only": false,
+        "raw_member": "originals/ch51_p07.png",
+        "local_original_sha256": "59973481f6beee4bb8f1f3cc209feb78752400b04bec78ece39b001f8596c2bd",
+        "local_original_bytes": 1803260,
+        "locally_verified_resize": "exact uniform Lanczos; no crop/stretch",
+        "retained_raw_and_transform_verified": true
       },
       "resize": "Lanczos user authorized",
       "face_boxes": []
@@ -431,7 +446,12 @@
         ],
         "locally_retained_same_bytes": false,
         "parent_attests_upstream_retention": true,
-        "independently_verified_if_same_bytes_only": true
+        "independently_verified_if_same_bytes_only": false,
+        "raw_member": "originals/ch51_p08.png",
+        "local_original_sha256": "bf1f1e8eb8c7cb729ee6cfbcdc07565146cabd0a90e9f3ff51e664c3e0be9696",
+        "local_original_bytes": 1912572,
+        "locally_verified_resize": "exact uniform Lanczos; no crop/stretch",
+        "retained_raw_and_transform_verified": true
       },
       "resize": "Lanczos user authorized",
       "face_boxes": [
@@ -611,7 +631,12 @@
         ],
         "locally_retained_same_bytes": false,
         "parent_attests_upstream_retention": true,
-        "independently_verified_if_same_bytes_only": true
+        "independently_verified_if_same_bytes_only": false,
+        "raw_member": "originals/ch51_p11.png",
+        "local_original_sha256": "836fa8c92f022b41a18c2a986fcfaa59d4db72e61dfa6999e208d27be8809ed1",
+        "local_original_bytes": 1785607,
+        "locally_verified_resize": "exact uniform Lanczos; no crop/stretch",
+        "retained_raw_and_transform_verified": true
       },
       "resize": "Lanczos user authorized",
       "face_boxes": [
@@ -781,13 +806,12 @@
     }
   ],
   "provenance_limits": [
-    "Five resized square raw originals are retained upstream per parent; this archive includes their claimed hashes but not their original bytes. Local verification covers all 14 production candidates and nine unchanged originals.",
-    "p01 scene-reference path has the same recorded hash as the final output: upstream attachment provenance is self-referential and not independently validated.",
-    "Generator tool provenance is upstream-reported; exact generation invocations were not observed locally."
+    "Actual generation invocations and attachment ordering remain upstream-reported. Retained originals, local identity-reference hashes, initial edit-target bytes and all five resize pixel transforms have now been independently verified."
   ],
   "visual_limits": [
     "Static panels convey the dominant spoken beat; no animated lip sync claimed.",
     "Art direction accepted with per-panel detail/framing/fixture deviations stated above."
   ],
-  "source_archive_sha256": "4b0d34710e3255998f5b7544a3fe0201ae72b9be664828a5692a3e6cd055b0a6"
+  "source_archive_sha256": "4b0d34710e3255998f5b7544a3fe0201ae72b9be664828a5692a3e6cd055b0a6",
+  "provenance_supplement": "provenance_supplement_verification.json"
 }
