@@ -111,6 +111,17 @@ class ReleaseTests(unittest.TestCase):
                 with self.assertRaises(ValueError):
                     validate_release(self.manifest)
 
+    def test_reading_pdf_is_copied_exactly_and_rejects_unsafe_names(self):
+        self.data['chapters'][0]['pdf'] = 'reading.pdf'
+        (self.source / 'ch/001/reading.pdf').write_bytes(b'%PDF-1.7\nTest-only PDF bytes')
+        self.write_bundle()
+        target = prepare_release(self.manifest, self.output)
+        self.assertEqual((target.parent / 'ch/001/reading.pdf').read_bytes(), (self.source / 'ch/001/reading.pdf').read_bytes())
+        self.data['chapters'][0]['pdf'] = '../private.pdf'
+        self.write_bundle()
+        with self.assertRaisesRegex(ValueError, 'plain filename'):
+            validate_release(self.manifest)
+
     def test_gutters_reference_only_current_segments_and_preserve_image_bytes(self):
         self.data['chapters'][0]['gutters'] = {'001.webp': 220}
         self.write_bundle()

@@ -39,11 +39,13 @@ inputs, not a readable release. Do visual QA before preparing a release.
 
 Only `schema_version`, `slug`, `title`, and `chapters` are required at series
 level. A series-level `cover` may name an image beside `series.json`. A chapter
-requires `n`, `title`, `width`, and nonempty `segments`; `thumbnail` is optional.
+requires `n`, `title`, `width`, and nonempty `segments`; `thumbnail` is optional. An optional `pdf` names a finished reading PDF beside the chapter images; the reader provides a download link. Publish flattened reading copies without embedded restricted fonts.
 `width` and segment heights must match decoded image dimensions. Use PNG,
 JPEG, or WebP; widths are at most 4096 px, and segments at most 10000 px tall.
 Use plain filenames without paths. All chapters in the public manifest have
 been released; never add future titles, outlines, scripts, or the story bible.
+An optional `framing_height` gives the source-pixel span that narration must keep in view. The reader sizes its desktop column to that span while retaining a minimum comfortable reading width.
+
 An optional `gutters` object maps segment filenames to spacing after the image
 in pixels at the chapter width, for example `{"001.webp": 220}`. Spacing scales
 with the reader width; the finished image bytes remain unchanged.

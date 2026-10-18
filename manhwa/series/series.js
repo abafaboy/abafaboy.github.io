@@ -25,6 +25,8 @@ function validate(manifest) {
       if (!Array.isArray(segment) || segment.length !== 2 || !imageName.test(segment[0]) || !positive(segment[1])) throw Error('This series is unavailable.');
     }
     if (chapter.gutters !== undefined && (!chapter.gutters || typeof chapter.gutters !== 'object' || Array.isArray(chapter.gutters) || Object.entries(chapter.gutters).some(([file, gap]) => !chapter.segments.some(segment => segment[0] === file) || !Number.isSafeInteger(gap) || gap < 0 || gap > 1000))) throw Error('This series is unavailable.');
+    if (chapter.framing_height !== undefined && (!positive(chapter.framing_height) || chapter.framing_height > 10000)) throw Error('This series is unavailable.');
+    if (chapter.pdf !== undefined && (typeof chapter.pdf !== 'string' || !/^[a-zA-Z0-9][a-zA-Z0-9_.-]*\.pdf$/i.test(chapter.pdf))) throw Error('This series is unavailable.');
     if (chapter.thumbnail && !imageName.test(chapter.thumbnail)) throw Error('This series is unavailable.');
     if (chapter.audio && !validNarration(chapter.audio, chapter.segments)) throw Error('This series is unavailable.');
     previous = chapter.n;
@@ -104,6 +106,7 @@ function renderReader(manifest, base) {
     }, {once: true});
     $('strip').append(image); images.set(file, image);
   });
+  if (chapter.pdf) { $('download-pdf').href = new URL(chapter.pdf, chapterBase); $('download-pdf').download = `${slug}-chapter-${chapter.n}.pdf`; $('download-pdf').hidden = false; }
   if (chapter.audio) setupNarration(chapter, chapterBase, images);
   setStored('position', {ch: chapter.n});
   const observer = new IntersectionObserver(entries => {

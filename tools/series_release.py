@@ -71,13 +71,15 @@ def validate_release(manifest_path):
         assets[data["cover"]] = asset(root, data["cover"])
     previous = 0
     for chapter in data["chapters"]:
-        fields(chapter, {"n", "title", "width", "segments", "thumbnail", "audio", "gutters"}, {"n", "title", "width", "segments"}, "chapter")
+        fields(chapter, {"n", "title", "width", "segments", "thumbnail", "audio", "gutters", "pdf", "framing_height"}, {"n", "title", "width", "segments"}, "chapter")
         integer(chapter["n"], "chapter number", 9999)
         require(chapter["n"] > previous, "Chapters must be unique and in increasing order")
         previous = chapter["n"]
         text(chapter["title"], "chapter title")
         integer(chapter["width"], "chapter width", 4096)
         require(isinstance(chapter["segments"], list) and chapter["segments"], "A chapter needs finished, lettered image segments")
+        if "framing_height" in chapter:
+            integer(chapter["framing_height"], "framing height", 10000)
         base = f"ch/{chapter['n']:03d}"
         seen = set()
         for segment in chapter["segments"]:
@@ -97,6 +99,11 @@ def validate_release(manifest_path):
             filename(chapter["thumbnail"], IMAGE, "thumbnail")
             relative = f"{base}/{chapter['thumbnail']}"
             assets[relative] = asset(root, relative)
+        if "pdf" in chapter:
+            filename(chapter["pdf"], re.compile(r"[a-zA-Z0-9][a-zA-Z0-9_.-]*\.pdf\Z", re.I), "PDF filename")
+            relative = f"{base}/{chapter['pdf']}"
+            assets[relative] = asset(root, relative)
+            require((root / relative).read_bytes().startswith(b"%PDF-"), "Invalid reading PDF")
         if "audio" in chapter:
             fields(chapter["audio"], {"file", "duration", "cues"}, {"file"}, "audio")
             filename(chapter["audio"]["file"], AUDIO, "audio filename")

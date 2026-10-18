@@ -20,6 +20,18 @@ LEGACY_READER_SHA256 = "37bcd83de8cd4190fadb19a7456efb3318ad6812f8d674ccbbd3896d
 
 
 class QuietHandler(http.server.SimpleHTTPRequestHandler):
+    pdf_bytes = b''
+
+    def do_GET(self):
+        if self.path == '/manhwa/series/test-series/ch/001/reading.pdf':
+            self.send_response(200)
+            self.send_header('Content-Type', 'application/pdf')
+            self.send_header('Content-Length', str(len(self.pdf_bytes)))
+            self.end_headers()
+            self.wfile.write(self.pdf_bytes)
+        else:
+            super().do_GET()
+
     def log_message(self, *args):
         pass
 
@@ -36,6 +48,9 @@ class ReaderTests(unittest.TestCase):
         stream = io.BytesIO()
         Image.new("RGB", (1080, 2400), "#262b34").save(stream, format="WEBP")
         cls.image = stream.getvalue()
+        stream = io.BytesIO()
+        Image.new('RGB', (10, 10), 'white').save(stream, format='PDF')
+        cls.test_pdf = QuietHandler.pdf_bytes = stream.getvalue()
         # An audible test tone exercises the native media clock; never a release asset.
         stream = io.BytesIO()
         with wave.open(stream, 'wb') as audio:
@@ -52,7 +67,7 @@ class ReaderTests(unittest.TestCase):
         cls.thread.join()
 
     def setUp(self):
-        self.context = self.browser.new_context(viewport={"width": 390, "height": 844}, is_mobile=True, has_touch=True)
+        self.context = self.browser.new_context(viewport={"width": 390, "height": 844}, is_mobile=True, has_touch=True, accept_downloads=True)
         self.addCleanup(self.context.close)
         self.page = self.context.new_page()
         self.errors = []
@@ -105,6 +120,23 @@ class ReaderTests(unittest.TestCase):
         self.page.wait_for_function("!document.querySelector('#series').hidden")
         self.assertEqual(self.page.locator(".chapter-link").count(), 2)
         self.assertFalse(self.page.evaluate("document.documentElement.scrollWidth > innerWidth"))
+        self.assertFalse(self.errors)
+
+    def test_reading_pdf_download_and_unsafe_filename_rejection(self):
+        self.manifest['chapters'][0]['pdf'] = 'reading.pdf'
+        pdf_bytes = self.test_pdf
+        self.load()
+        link = self.page.locator('#download-pdf')
+        self.assertTrue(link.is_visible())
+        self.assertTrue(link.get_attribute('href').endswith('/ch/001/reading.pdf'))
+        self.assertEqual(link.get_attribute('download'), 'test-series-chapter-1.pdf')
+        with self.page.expect_download() as event:
+            link.click()
+        self.assertEqual(Path(event.value.path()).read_bytes(), pdf_bytes)
+        self.manifest['chapters'][0]['pdf'] = '../private.pdf'
+        self.load()
+        self.assertIn('unavailable', self.page.locator('#status').inner_text())
+        self.assertEqual(self.page.locator('#strip img').count(), 0)
         self.assertFalse(self.errors)
 
     def test_missing_chapter_invalid_series_and_no_script_injection(self):
@@ -221,6 +253,7 @@ class ReaderTests(unittest.TestCase):
 
     def test_late_focus_is_revealed_with_minimal_scroll_and_scaled_gutters(self):
         self.manifest['chapters'][0]['gutters'] = {'001.webp': 216}
+        self.manifest['chapters'][0]['framing_height'] = 2880
         self.narration_fixture()
         first, second = self.page.locator('#strip img').all()
         self.assertAlmostEqual(second.bounding_box()['y'] - first.bounding_box()['y'] - first.bounding_box()['height'], 78, delta=1)
@@ -234,6 +267,8 @@ class ReaderTests(unittest.TestCase):
         box = self.page.locator('#strip img').nth(1).bounding_box()
         self.assertGreater(box['y'], -100)
         self.assertLess(box['y'] + 2300 * 390 / 1080, 844)
+        self.page.set_viewport_size({'width':1440,'height':900})
+        self.assertEqual(self.page.locator('#strip').bounding_box()['width'], 390)
         self.assertFalse(self.errors)
 
     def test_failed_page_is_reported_without_breaking_navigation(self):
