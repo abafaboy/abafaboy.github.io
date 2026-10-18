@@ -1,4 +1,5 @@
 import {validNarration, setupNarration} from './narration.js';
+import {attachEngagement} from '../engagement/ui.js';
 
 const $ = id => document.getElementById(id);
 const query = new URLSearchParams(location.search);
@@ -70,6 +71,8 @@ function renderCatalog(manifest, base) {
     }
   }
   $('series').hidden = false;
+  const rows = [...$('chapters').querySelectorAll('.chapter-link')].map(link => ({host: link.querySelector('div'), n: Number(new URL(link.href).searchParams.get('ch'))}));
+  attachEngagement({series: slug, chapters, host: $('series-activity'), rows});
 }
 
 function renderReader(manifest, base) {
@@ -119,6 +122,7 @@ function renderReader(manifest, base) {
     if (target) location.href = chapterURL(target.n);
   });
   $('reader').hidden = false;
+  attachEngagement({series: slug, chapters, chapter: chapter.n, host: $('chapter-activity'), strip: $('strip')});
 }
 
 try {

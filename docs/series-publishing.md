@@ -1,7 +1,8 @@
 # Separate-series releases
 
-The existing `/manhwa/` landing page, `manhwa/read.html`, assets, manifest,
-storage keys, narration, and Follow behavior remain independent and unchanged.
+The existing `/manhwa/` reader, assets, manifest, storage keys, narration, and
+Follow behavior remain independent. Engagement is added through external
+modules; the original reader's inline player/progress script stays unchanged.
 The separate visual reader uses:
 
 - Series: `/manhwa/series/?series=<slug>`
@@ -91,7 +92,8 @@ Pausing stops movement; seeking catches up only while Follow is on. Wheel,
 touch, keyboard, or scrollbar reading turns Follow off. Turning it on catches
 up to the current narration position. A missing audio file reports the problem
 without blocking visual reading. No placeholder or silent narration belongs in
-a release, and no existing reader files or storage keys are changed.
+a release. This release workflow leaves the original reader's playback logic
+and progress storage keys unchanged.
 
 Adding audio to an already released chapter needs a separately validated
 manifest update; this append-only preparation tool intentionally refuses to

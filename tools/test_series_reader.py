@@ -5,6 +5,7 @@ import http.server
 import io
 import json
 import math
+import re
 from pathlib import Path
 import shutil
 import struct
@@ -16,7 +17,7 @@ from PIL import Image
 from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).resolve().parents[1]
-LEGACY_READER_SHA256 = "37bcd83de8cd4190fadb19a7456efb3318ad6812f8d674ccbbd3896d0a552376"
+LEGACY_SCRIPT_SHA256 = "120fb47b529d6e00c3e75d16b48fd61963a8781321cc3fbb43903aa7131ec310"
 
 
 class QuietHandler(http.server.SimpleHTTPRequestHandler):
@@ -279,7 +280,10 @@ class ReaderTests(unittest.TestCase):
         self.assertFalse(self.errors)
 
     def test_old_reader_bytes_and_follow_behavior(self):
-        self.assertEqual(hashlib.sha256((ROOT / "manhwa/read.html").read_bytes()).hexdigest(), LEGACY_READER_SHA256)
+        # Engagement adds external CSS/JS; the original player/Follow/progress
+        # script must still be byte-for-byte identical to the released version.
+        script = re.search(r'<script>(.*?)</script>', (ROOT / 'manhwa/read.html').read_text(), re.S).group(1)
+        self.assertEqual(hashlib.sha256(script.encode()).hexdigest(), LEGACY_SCRIPT_SHA256)
         self.page.goto(self.origin + "/manhwa/read.html?ch=1")
         self.page.wait_for_function("document.querySelector('#pick').options.length > 0")
         self.assertIn("on", self.page.locator("#follow").get_attribute("class"))

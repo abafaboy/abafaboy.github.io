@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Owner overview · Manhwa</title>
+  <link rel="stylesheet" href="series/series.css">
+  <link rel="stylesheet" href="engagement/engagement.css">
+  <script type="module" src="engagement/owner.js"></script>
+</head>
+<body>
+  <header class="bar"><a class="brand" href="../">ABAFA</a><a href="./">Manhwa</a></header>
+  <main class="catalog eng-overview">
+    <p class="eyebrow">Published series</p>
+    <h1>Owner overview</h1>
+    <p>Shared views, reading activity, likes, and approved comments across your published series.</p>
+    <p id="overview-status" role="status">Loading shared data…</p>
+    <div id="overview-totals"></div>
+    <p class="eng-note">All page views = series page opens + chapter opens, counted once per page in a tab session (up to 24 hours). Chapter reads require 30 visible seconds, 80% page coverage, and the final page reached. Series rows sum the series page and its chapters. These are event counts and browser-token votes, with no claim of unique readers. Counts begin when measurement is enabled.</p>
+    <button id="overview-refresh" class="eng-button" type="button">Refresh shared data</button>
+    <div class="eng-table-wrap">
+      <table class="eng-table">
+        <caption>Public totals only. Each chapter appears beneath its series; do not add both rows together.</caption>
+        <thead><tr><th scope="col">Series / chapter</th><th scope="col">Page views</th><th scope="col">Chapter reads</th><th scope="col">Likes</th><th scope="col">Approved comments</th></tr></thead>
+        <tbody id="overview-rows"></tbody>
+      </table>
+    </div>
+    <p class="eng-note">This overview contains only public statistics and does not record your visits. Pending comments and moderation must remain in the backend's authenticated owner dashboard. This page grants no administrative access.</p>
+  </main>
+  <noscript><p class="status">Please enable JavaScript to load the overview.</p></noscript>
+</body>
+</html>
