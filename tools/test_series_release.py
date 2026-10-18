@@ -134,6 +134,42 @@ class ReleaseTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, 'gutter'):
                 validate_release(self.manifest)
 
+    def test_edition_and_optional_display_mask_validate_and_preserve_image_bytes(self):
+        self.data['edition'] = 2
+        self.data['chapters'][0]['top_masks'] = {'001.webp': 33}
+        self.write_bundle()
+        original = (self.source / 'ch/001/001.webp').read_bytes()
+        target = prepare_release(self.manifest, self.output)
+        released, _ = validate_release(target)
+        self.assertEqual(released['edition'], 2)
+        self.assertEqual((target.parent/'ch/001/001.webp').read_bytes(), original)
+        for edition in [0, -1, True, '2', 10000]:
+            self.data['edition'] = edition
+            self.write_bundle()
+            with self.assertRaisesRegex(ValueError, 'edition'):
+                validate_release(self.manifest)
+        self.data['edition'] = 2
+        for masks in [{'missing.webp':33}, {'001.webp':-1}, {'001.webp':True}, {'001.webp':2400}, []]:
+            self.data['chapters'][0]['top_masks'] = masks
+            self.write_bundle()
+            with self.assertRaisesRegex(ValueError, 'mask'):
+                validate_release(self.manifest)
+
+    def test_append_keeps_current_edition_and_rejects_an_edition_reset(self):
+        self.data['edition'] = 2
+        self.write_bundle()
+        target = prepare_release(self.manifest, self.output)
+        self.data.pop('edition')
+        self.data['chapters'][0].update(n=2, title='Second')
+        self.write_bundle()
+        prepare_release(self.manifest, self.output)
+        self.assertEqual(validate_release(target)[0]['edition'], 2)
+        self.data['edition'] = 1
+        self.data['chapters'][0].update(n=3, title='Third')
+        self.write_bundle()
+        with self.assertRaisesRegex(ValueError, 'cannot change.*edition'):
+            prepare_release(self.manifest, self.output)
+
 
 if __name__ == "__main__":
     unittest.main()

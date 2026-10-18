@@ -81,6 +81,13 @@ export function setupNarration(chapter, chapterBase, images) {
   follow.addEventListener('click', () => setFollow(!following));
   audio.addEventListener('playing', start);
   for (const event of ['pause', 'ended', 'waiting', 'seeking']) audio.addEventListener(event, stop);
+  audio.addEventListener('ended', () => {
+    if (!following) return;
+    const end = document.getElementById('endnav');
+    const inset = header.offsetHeight + controls.offsetHeight + 24;
+    scrollTo({top: Math.max(0, Math.min(document.documentElement.scrollHeight - innerHeight, end.getBoundingClientRect().top + scrollY - inset)), behavior: 'instant'});
+    lastSet = scrollY;
+  });
   audio.addEventListener('seeking', () => align(true));
   audio.addEventListener('seeked', () => { align(true); start(); });
   const manual = event => {
@@ -97,6 +104,6 @@ export function setupNarration(chapter, chapterBase, images) {
   addEventListener('scroll', () => {
     if (following && (lastSet === null || Math.abs(scrollY - lastSet) > 4)) setFollow(false);
   }, {passive: true});
-  addEventListener('resize', () => { fitReadingWidth(); if (!audio.paused) align(true); });
+  addEventListener('resize', () => { fitReadingWidth(); if (following) align(true); });
   addEventListener('pagehide', () => { stop(); audio.pause(); });
 }

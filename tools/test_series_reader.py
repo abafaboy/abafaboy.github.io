@@ -141,7 +141,11 @@ class ReaderTests(unittest.TestCase):
 
     def test_missing_chapter_invalid_series_and_no_script_injection(self):
         self.load("read.html?series=test-series&ch=999")
-        self.assertIn("not available", self.page.locator("#status").inner_text())
+        self.assertIn("unavailable", self.page.locator("#status").inner_text())
+        self.assertIn('Choose a chapter', self.page.locator('#pick').inner_text())
+        self.assertNotIn('Loading', self.page.locator('#pick').inner_text())
+        self.assertTrue(self.page.get_by_role('link', name='Return to chapters').is_visible())
+        self.assertTrue(self.page.locator('#back').get_attribute('href').endswith('?series=test-series'))
         self.assertEqual(self.page.locator("#strip img").count(), 0)
         self.load("read.html?series=..%2F..%2Fsecret")
         self.assertIn("Choose a series", self.page.locator("#status").inner_text())
@@ -289,6 +293,90 @@ class ReaderTests(unittest.TestCase):
         self.assertNotIn("on", self.page.locator("#follow").get_attribute("class"))
         self.page.locator("#follow").click()
         self.assertIn("on", self.page.locator("#follow").get_attribute("class"))
+        self.assertFalse(self.errors)
+
+    def test_edition_progress_isolated_and_legacy_series_preserved(self):
+        self.manifest['edition'] = 2
+        self.page.add_init_script("""
+          localStorage.setItem('manhwa:test-series:read', JSON.stringify({'1':1,'2':1}));
+          localStorage.setItem('manhwa:test-series:position', JSON.stringify({ch:2}));
+          localStorage.setItem('manhwa:other-series:read', JSON.stringify({'1':1}));
+          localStorage.setItem('lwmz-pos', JSON.stringify({ch:44}));
+        """)
+        self.load('?series=test-series')
+        self.assertEqual(self.page.locator('.read-marker').count(), 0)
+        self.assertTrue(self.page.locator('#resume').is_hidden())
+        self.page.locator('#start').click()
+        self.page.wait_for_function('!document.querySelector("#reader").hidden')
+        self.assertEqual(self.page.evaluate("JSON.parse(localStorage.getItem('manhwa:test-series:edition:2:position')).ch"), 1)
+        self.page.locator('#endnav').scroll_into_view_if_needed()
+        self.page.wait_for_function("JSON.parse(localStorage.getItem('manhwa:test-series:edition:2:read')||'{}')['1']===1")
+        self.page.locator('#nextbig').click()
+        self.page.wait_for_function('document.querySelector("#chapter-title").textContent.includes("Second test")')
+        self.page.locator('#endnav').scroll_into_view_if_needed()
+        self.page.wait_for_function("JSON.parse(localStorage.getItem('manhwa:test-series:edition:2:read')||'{}')['2']===1")
+        self.load('?series=test-series')
+        self.assertEqual(self.page.locator('.read-marker').count(), 2)
+        self.assertIn('Continue chapter 2', self.page.locator('#resume').inner_text())
+        self.page.reload()
+        self.page.wait_for_function('!document.querySelector("#series").hidden')
+        self.assertEqual(self.page.locator('.read-marker').count(), 2)
+        self.manifest['edition'] = 3
+        self.load('?series=test-series')
+        self.assertEqual(self.page.locator('.read-marker').count(), 0)
+        self.assertTrue(self.page.locator('#resume').is_hidden())
+        del self.manifest['edition']
+        self.load('?series=test-series')
+        self.assertEqual(self.page.locator('.read-marker').count(), 2)
+        self.assertIn('Continue chapter 2', self.page.locator('#resume').inner_text())
+        self.assertEqual(self.page.evaluate("JSON.parse(localStorage.getItem('manhwa:other-series:read'))['1']"), 1)
+        self.assertEqual(self.page.evaluate("JSON.parse(localStorage.getItem('lwmz-pos')).ch"), 44)
+        self.assertFalse(self.errors)
+
+    def test_follow_completion_reveals_end_and_respects_manual_override(self):
+        self.narration_fixture()
+        for viewport in [{'width':390,'height':844}, {'width':1440,'height':900}]:
+            self.page.set_viewport_size(viewport)
+            self.seek(19.85)
+            self.page.locator('#audio').evaluate('audio=>audio.play()')
+            self.page.wait_for_function('document.querySelector("#audio").ended')
+            end = self.page.locator('#endnav').bounding_box()
+            controls = self.page.locator('#narration').bounding_box()
+            self.assertGreaterEqual(end['y'], controls['y'] + controls['height'] - 1)
+            self.assertLessEqual(end['y'] + end['height'], viewport['height'] + 1)
+            fixed = self.page.evaluate('scrollY')
+            self.page.wait_for_timeout(100)
+            self.assertAlmostEqual(self.page.evaluate('scrollY'), fixed, delta=1)
+            self.seek(1)
+            self.page.locator('#follow').click()
+            self.assertEqual(self.page.locator('#follow').get_attribute('aria-pressed'), 'false')
+            self.page.locator('#audio').evaluate('audio=>audio.currentTime=19.85')
+            self.page.wait_for_function('!document.querySelector("#audio").seeking')
+            fixed = self.page.evaluate('scrollY')
+            self.page.locator('#audio').evaluate('audio=>audio.play()')
+            self.page.wait_for_function('document.querySelector("#audio").ended')
+            self.page.wait_for_timeout(100)
+            self.assertAlmostEqual(self.page.evaluate('scrollY'), fixed, delta=1)
+            self.page.locator('#follow').click()
+        self.assertFalse(self.errors)
+
+    def test_lazy_loading_and_optional_separator_mask_keep_original_dimensions(self):
+        self.manifest['chapters'][0].update(segments=[[f'{n:03d}.webp',2400] for n in range(1,41)], top_masks={'001.webp':33}, pdf='reading.pdf', audio={'file':'test-tone.wav'})
+        requests = []
+        self.page.on('request', lambda request: requests.append(request.url))
+        self.load()
+        self.page.wait_for_timeout(600)
+        self.assertEqual(self.page.locator('#strip img[loading="eager"]').count(), 2)
+        self.assertEqual(self.page.locator('#strip img[loading="lazy"]').count(), 38)
+        self.assertLess(len([url for url in requests if url.endswith('.webp')]), 40)
+        self.assertFalse(any(url.endswith('.pdf') or url.endswith('.wav') for url in requests))
+        first = self.page.locator('#strip img').first
+        self.assertEqual(first.get_attribute('height'), '2400')
+        self.assertEqual(first.get_attribute('fetchpriority'), 'high')
+        self.assertIn('inset(', first.get_attribute('style'))
+        self.page.locator('#strip img').last.scroll_into_view_if_needed()
+        self.page.wait_for_function('document.querySelector("#strip img:last-child").complete&&document.querySelector("#strip img:last-child").naturalWidth>0')
+        self.assertFalse(any(url.endswith('.pdf') for url in requests))
         self.assertFalse(self.errors)
 
 

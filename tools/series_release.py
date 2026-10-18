@@ -58,10 +58,12 @@ def validate_release(manifest_path):
     manifest_path = Path(manifest_path).resolve(strict=True)
     root = manifest_path.parent
     data = json.loads(manifest_path.read_text(encoding="utf-8"))
-    fields(data, {"schema_version", "slug", "title", "synopsis", "cover", "chapters"}, {"schema_version", "slug", "title", "chapters"}, "series")
+    fields(data, {"schema_version", "slug", "title", "synopsis", "cover", "chapters", "edition"}, {"schema_version", "slug", "title", "chapters"}, "series")
     require(type(data["schema_version"]) is int and data["schema_version"] == 1, "Unsupported schema version")
     require(isinstance(data["slug"], str) and len(data["slug"]) <= 80 and SLUG.fullmatch(data["slug"]), "Invalid series slug")
     text(data["title"], "series title")
+    if "edition" in data:
+        integer(data["edition"], "edition", 9999)
     if "synopsis" in data:
         text(data["synopsis"], "public synopsis", 2000)
     require(isinstance(data["chapters"], list) and data["chapters"], "A release must contain at least one finished chapter")
@@ -71,7 +73,7 @@ def validate_release(manifest_path):
         assets[data["cover"]] = asset(root, data["cover"])
     previous = 0
     for chapter in data["chapters"]:
-        fields(chapter, {"n", "title", "width", "segments", "thumbnail", "audio", "gutters", "pdf", "framing_height"}, {"n", "title", "width", "segments"}, "chapter")
+        fields(chapter, {"n", "title", "width", "segments", "thumbnail", "audio", "gutters", "pdf", "framing_height", "top_masks"}, {"n", "title", "width", "segments"}, "chapter")
         integer(chapter["n"], "chapter number", 9999)
         require(chapter["n"] > previous, "Chapters must be unique and in increasing order")
         previous = chapter["n"]
@@ -95,6 +97,11 @@ def validate_release(manifest_path):
             require(isinstance(chapter["gutters"], dict), "Gutters must map chapter segment filenames to spacing")
             for name, gap in chapter["gutters"].items():
                 require(name in seen and type(gap) is int and 0 <= gap <= 1000, "Invalid chapter gutter")
+        if "top_masks" in chapter:
+            require(isinstance(chapter["top_masks"], dict), "Top masks must map segment filenames to pixels")
+            heights = dict(chapter["segments"])
+            for name, top in chapter["top_masks"].items():
+                require(name in heights and type(top) is int and 0 <= top < heights[name], "Invalid top mask")
         if "thumbnail" in chapter:
             filename(chapter["thumbnail"], IMAGE, "thumbnail")
             relative = f"{base}/{chapter['thumbnail']}"
@@ -152,6 +159,7 @@ def prepare_release(manifest_path, output_root):
         current, _ = validate_release(target / "series.json")
         current_bytes = (target / "series.json").read_bytes()
         require(current["slug"] == incoming["slug"] and current["title"] == incoming["title"], "Existing series identity differs")
+        require(incoming.get("edition", current.get("edition", 1)) == current.get("edition", 1), "Appending chapters cannot change the series edition")
         require(incoming["chapters"][0]["n"] > current["chapters"][-1]["n"], "Released chapters cannot be replaced by this tool")
     merged = {**(current or {}), **incoming}
     merged["chapters"] = (current or {}).get("chapters", []) + incoming["chapters"]
