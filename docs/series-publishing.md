@@ -75,7 +75,10 @@ not a timing track for a release.
 The first cue must start at zero. Times strictly increase; anchors follow
 reading order and stay within the image bounds. Supply anchors for the final
 spoken lines and panel transitions, measuring against the final lettered pages.
-The reader interpolates between these anchors below the sticky controls.
+The reader interpolates between these anchors below the sticky controls. Repeat
+the current panel anchor during its spoken lines, then use a brief transition
+to the next panel at its actual entry time; this keeps each panel visible while
+it is being read. Line-entry cues retain their one-based source lettering index.
 Pausing stops movement; seeking catches up only while Follow is on. Wheel,
 touch, keyboard, or scrollbar reading turns Follow off. Turning it on catches
 up to the current narration position. A missing audio file reports the problem

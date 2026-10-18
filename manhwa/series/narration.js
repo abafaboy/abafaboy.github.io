@@ -48,7 +48,7 @@ export function setupNarration(chapter, chapterBase, images) {
     let y = anchor(cue);
     if (next) y += (anchor(next) - y) * Math.max(0, Math.min(1, (time - cue.t) / (next.t - cue.t)));
     const inset = header.offsetHeight + controls.offsetHeight;
-    const lead = Math.max(24, (innerHeight - inset) * .2);
+    const lead = 24;
     return Math.max(0, Math.min(document.documentElement.scrollHeight - innerHeight, y - inset - lead));
   };
   const align = (immediate = false) => {

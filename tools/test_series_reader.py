@@ -156,8 +156,8 @@ class ReaderTests(unittest.TestCase):
         self.assertEqual(self.page.locator('#follow').get_attribute('aria-pressed'), 'true')
         image_top = self.page.locator('#strip img').nth(1).bounding_box()['y']
         controls = self.page.locator('#narration').bounding_box()
-        self.assertGreater(image_top, controls['y'] + controls['height'] + 24)
-        self.assertLess(image_top, controls['y'] + controls['height'] + 170)
+        self.assertGreaterEqual(image_top, controls['y'] + controls['height'] + 20)
+        self.assertLess(image_top, controls['y'] + controls['height'] + 80)
         forward_y = self.page.evaluate('scrollY')
         self.page.wait_for_timeout(180)
         self.assertEqual(self.page.evaluate('scrollY'), forward_y)
