@@ -2,7 +2,9 @@
 
 This branch preserves production records for the paused series. It does not
 publish chapters, resume production, or establish that all original artwork has
-been backed up to Git. No final panel PNGs are included in this checkpoint.
+been backed up to Git. The initial records checkpoint contained no final panel
+PNGs. Subsequent recovery totals and outstanding chapters are recorded in
+`RECOVERY_STATUS.json`; each recovered chapter has per-panel `PROVENANCE.json`.
 
 The five original records are copied unchanged from
 `LWMZ_Final_Paused_Archive_2026-10-18.zip`, Library item
