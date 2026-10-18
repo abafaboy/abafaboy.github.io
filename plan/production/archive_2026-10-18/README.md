@@ -1,10 +1,23 @@
-# The Lord Who Measured Zero: records checkpoint
+# The Lord Who Measured Zero: paused production archive
 
-This branch preserves production records for the paused series. It does not
-publish chapters, resume production, or establish that all original artwork has
-been backed up to Git. The initial records checkpoint contained no final panel
+This branch preserves production records and recovered final PNGs for the paused
+series. It does not publish chapters or resume production. The initial records checkpoint contained no final panel
 PNGs. Subsequent recovery totals and outstanding chapters are recorded in
 `RECOVERY_STATUS.json`; each recovered chapter has per-panel `PROVENANCE.json`.
+
+The recovery covers the 82 reported complete art chapters (35–105, 107–110,
+113–115, 119–120, and 125–126). Accepted panels from the stopped chapters 106,
+111, 116, 121, and 127 are kept separately under `partials/`, with their exact
+stop state and pending independent QA recorded. Raw-held and ungenerated panels
+are excluded. This scope does not imply that later, unstarted chapters exist.
+
+Selected PNGs match the exact archived inventory, independent QA/clearance, or
+producer-designated final manifest hashes. Named corrections supersede older
+candidates in the recorded order. All recovered PNGs were decoded locally and
+their byte counts and SHA-256 hashes checked. Historical bundle checksums that
+were unavailable remain explicit nulls in the unchanged original records;
+current source bundle identities and calculated hashes are retained per panel.
+Recovery is preservation, not a new visual QA or production-adoption pass.
 
 The five original records are copied unchanged from
 `LWMZ_Final_Paused_Archive_2026-10-18.zip`, Library item
