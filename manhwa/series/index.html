@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chapters · Manhwa</title>
+  <link rel="stylesheet" href="series.css">
+  <script type="module" src="series.js"></script>
+</head>
+<body data-view="series">
+  <header class="bar"><a class="brand" href="../../">ABAFA</a><span class="label">Original manhwa</span></header>
+  <main class="catalog">
+    <p id="status" class="status" role="status">Loading chapters…</p>
+    <section id="series" hidden>
+      <div class="intro">
+        <img id="cover" class="cover" alt="" hidden>
+        <div><p class="eyebrow">An original webtoon</p><h1 id="title"></h1><p id="synopsis" class="synopsis"></p>
+          <div class="actions"><a id="start" class="button">Start reading</a><a id="latest" class="button secondary">Latest chapter</a></div>
+          <p id="resume" hidden></p>
+        </div>
+      </div>
+      <div class="section-heading"><h2>Chapters</h2><span id="count"></span></div>
+      <div id="chapters" class="chapters"></div>
+    </section>
+  </main>
+  <noscript><p class="status">Please enable JavaScript to see the chapter list.</p></noscript>
+  <footer class="footer">Read at your own pace.</footer>
+</body>
+</html>
