@@ -218,6 +218,23 @@ class ReaderTests(unittest.TestCase):
                 self.assertEqual(self.page.locator('#strip img').count(), 0)
         self.assertFalse(self.errors)
 
+    def test_late_focus_is_revealed_with_minimal_scroll_and_scaled_gutters(self):
+        self.manifest['chapters'][0]['gutters'] = {'001.webp': 216}
+        self.narration_fixture()
+        first, second = self.page.locator('#strip img').all()
+        self.assertAlmostEqual(second.bounding_box()['y'] - first.bounding_box()['y'] - first.bounding_box()['height'], 78, delta=1)
+        self.manifest['chapters'][0]['audio']['cues'][2]['y'] = 2300
+        self.manifest['chapters'][0]['audio']['cues'][3]['y'] = 2400
+        self.load()
+        self.page.locator('#audio').evaluate('audio => audio.play()')
+        self.page.wait_for_function('document.querySelector("#audio").currentTime > .08')
+        self.page.locator('#audio').evaluate('audio => audio.pause()')
+        self.seek(10)
+        box = self.page.locator('#strip img').nth(1).bounding_box()
+        self.assertGreater(box['y'], -100)
+        self.assertLess(box['y'] + 2300 * 390 / 1080, 844)
+        self.assertFalse(self.errors)
+
     def test_failed_page_is_reported_without_breaking_navigation(self):
         self.page.route("**/manhwa/series/test-series/ch/001/001.webp", lambda route: route.fulfill(status=404))
         self.load()

@@ -44,6 +44,9 @@ requires `n`, `title`, `width`, and nonempty `segments`; `thumbnail` is optional
 JPEG, or WebP; widths are at most 4096 px, and segments at most 10000 px tall.
 Use plain filenames without paths. All chapters in the public manifest have
 been released; never add future titles, outlines, scripts, or the story bible.
+An optional `gutters` object maps segment filenames to spacing after the image
+in pixels at the chapter width, for example `{"001.webp": 220}`. Spacing scales
+with the reader width; the finished image bytes remain unchanged.
 
 The new series release requires genuine character voiceover and synchronized
 Follow as well as the improved, finished lettering. Keep its release held until
@@ -67,18 +70,21 @@ audio file is declared; playback never starts automatically. The controls stay
 available while scrolling. Follow appears when validated cues are supplied and
 starts enabled. A cue's `t` is the time in seconds at which its anchor should be
 in view. `segment` is an exact filename from the chapter's segment list; `y` is
-the anchor's distance from the top of that image in pixels at the manifest's
-chapter width. `panel` and `line` are optional positive, one-based identifiers
+the focus point's distance from the top of that image in pixels at the manifest's
+chapter width. Use the lower edge of a spoken text block so its full text remains
+visible. The reader moves only as far as needed to reveal that focus point,
+keeping a whole panel in view when it fits below the controls. `panel` and `line` are optional positive, one-based identifiers
 for timing QA. They add no visible text. The example is schema documentation,
 not a timing track for a release.
 
 The first cue must start at zero. Times strictly increase; anchors follow
 reading order and stay within the image bounds. Supply anchors for the final
 spoken lines and panel transitions, measuring against the final lettered pages.
-The reader interpolates between these anchors below the sticky controls. Repeat
-the current panel anchor during its spoken lines, then use a brief transition
-to the next panel at its actual entry time; this keeps each panel visible while
-it is being read. Line-entry cues retain their one-based source lettering index.
+The reader interpolates between these anchors below the sticky controls. Hold
+each spoken text focus from its actual line start to line end, then transition
+to the next focus during the recorded pause. After the final line, focus the
+panel's lower edge to complete the view if it is taller than the viewport.
+Line-entry cues retain their one-based source lettering index.
 Pausing stops movement; seeking catches up only while Follow is on. Wheel,
 touch, keyboard, or scrollbar reading turns Follow off. Turning it on catches
 up to the current narration position. A missing audio file reports the problem

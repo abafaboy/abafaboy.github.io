@@ -36,19 +36,27 @@ export function setupNarration(chapter, chapterBase, images) {
   if (!chapter.audio.cues) return;
   follow.hidden = false;
   const cues = chapter.audio.cues;
-  const anchor = cue => {
+  const fitReadingWidth = () => {
+    const visible = innerHeight - header.offsetHeight - controls.offsetHeight - 36;
+    controls.closest('main').style.setProperty('--reading-width', `${Math.min(720, Math.max(390, visible / 1.125))}px`);
+  };
+  requestAnimationFrame(fitReadingWidth);
+  const anchor = (cue, visible) => {
     const image = images.get(cue.segment);
-    return image.getBoundingClientRect().top + scrollY + cue.y * image.clientWidth / chapter.width;
+    const point = cue.y * image.clientWidth / chapter.width;
+    const offset = Math.min(Math.max(0, point - visible), Math.max(0, image.clientHeight - visible));
+    return image.getBoundingClientRect().top + scrollY + offset;
   };
   const destination = () => {
     const time = audio.currentTime;
     let index = 0;
     while (index + 1 < cues.length && cues[index + 1].t <= time) index++;
     const cue = cues[index], next = cues[index + 1];
-    let y = anchor(cue);
-    if (next) y += (anchor(next) - y) * Math.max(0, Math.min(1, (time - cue.t) / (next.t - cue.t)));
     const inset = header.offsetHeight + controls.offsetHeight;
     const lead = 24;
+    const visible = Math.max(1, innerHeight - inset - lead - 12);
+    let y = anchor(cue, visible);
+    if (next) y += (anchor(next, visible) - y) * Math.max(0, Math.min(1, (time - cue.t) / (next.t - cue.t)));
     return Math.max(0, Math.min(document.documentElement.scrollHeight - innerHeight, y - inset - lead));
   };
   const align = (immediate = false) => {
@@ -89,6 +97,6 @@ export function setupNarration(chapter, chapterBase, images) {
   addEventListener('scroll', () => {
     if (following && (lastSet === null || Math.abs(scrollY - lastSet) > 4)) setFollow(false);
   }, {passive: true});
-  addEventListener('resize', () => { if (!audio.paused) align(true); });
+  addEventListener('resize', () => { fitReadingWidth(); if (!audio.paused) align(true); });
   addEventListener('pagehide', () => { stop(); audio.pause(); });
 }

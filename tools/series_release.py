@@ -71,7 +71,7 @@ def validate_release(manifest_path):
         assets[data["cover"]] = asset(root, data["cover"])
     previous = 0
     for chapter in data["chapters"]:
-        fields(chapter, {"n", "title", "width", "segments", "thumbnail", "audio"}, {"n", "title", "width", "segments"}, "chapter")
+        fields(chapter, {"n", "title", "width", "segments", "thumbnail", "audio", "gutters"}, {"n", "title", "width", "segments"}, "chapter")
         integer(chapter["n"], "chapter number", 9999)
         require(chapter["n"] > previous, "Chapters must be unique and in increasing order")
         previous = chapter["n"]
@@ -89,6 +89,10 @@ def validate_release(manifest_path):
             seen.add(name)
             relative = f"{base}/{name}"
             assets[relative] = asset(root, relative, (chapter["width"], height))
+        if "gutters" in chapter:
+            require(isinstance(chapter["gutters"], dict), "Gutters must map chapter segment filenames to spacing")
+            for name, gap in chapter["gutters"].items():
+                require(name in seen and type(gap) is int and 0 <= gap <= 1000, "Invalid chapter gutter")
         if "thumbnail" in chapter:
             filename(chapter["thumbnail"], IMAGE, "thumbnail")
             relative = f"{base}/{chapter['thumbnail']}"

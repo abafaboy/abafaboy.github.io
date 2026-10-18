@@ -111,6 +111,18 @@ class ReleaseTests(unittest.TestCase):
                 with self.assertRaises(ValueError):
                     validate_release(self.manifest)
 
+    def test_gutters_reference_only_current_segments_and_preserve_image_bytes(self):
+        self.data['chapters'][0]['gutters'] = {'001.webp': 220}
+        self.write_bundle()
+        original = (self.source / 'ch/001/001.webp').read_bytes()
+        target = prepare_release(self.manifest, self.output)
+        self.assertEqual((target.parent / 'ch/001/001.webp').read_bytes(), original)
+        for gutters in [{'missing.webp': 20}, {'001.webp': -1}, {'001.webp': True}, {'001.webp': 1001}]:
+            self.data['chapters'][0]['gutters'] = gutters
+            self.write_bundle()
+            with self.assertRaisesRegex(ValueError, 'gutter'):
+                validate_release(self.manifest)
+
 
 if __name__ == "__main__":
     unittest.main()

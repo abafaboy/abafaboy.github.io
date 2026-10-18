@@ -24,6 +24,7 @@ function validate(manifest) {
     for (const segment of chapter.segments) {
       if (!Array.isArray(segment) || segment.length !== 2 || !imageName.test(segment[0]) || !positive(segment[1])) throw Error('This series is unavailable.');
     }
+    if (chapter.gutters !== undefined && (!chapter.gutters || typeof chapter.gutters !== 'object' || Array.isArray(chapter.gutters) || Object.entries(chapter.gutters).some(([file, gap]) => !chapter.segments.some(segment => segment[0] === file) || !Number.isSafeInteger(gap) || gap < 0 || gap > 1000))) throw Error('This series is unavailable.');
     if (chapter.thumbnail && !imageName.test(chapter.thumbnail)) throw Error('This series is unavailable.');
     if (chapter.audio && !validNarration(chapter.audio, chapter.segments)) throw Error('This series is unavailable.');
     previous = chapter.n;
@@ -95,6 +96,7 @@ function renderReader(manifest, base) {
   chapter.segments.forEach(([file, height], index) => {
     const image = new Image(); image.src = new URL(file, chapterBase); image.width = chapter.width; image.height = height;
     image.alt = `Chapter ${chapter.n}, page ${index + 1}`; image.decoding = 'async';
+    if (chapter.gutters?.[file]) image.style.marginBottom = `${100 * chapter.gutters[file] / chapter.width}%`;
     if (index > 1) image.loading = 'lazy';
     image.addEventListener('error', () => {
       $('strip').insertBefore(element('p', 'A page could not load. Please refresh to try again.', 'image-error'), image);
