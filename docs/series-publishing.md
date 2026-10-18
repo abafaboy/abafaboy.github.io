@@ -45,20 +45,46 @@ JPEG, or WebP; widths are at most 4096 px, and segments at most 10000 px tall.
 Use plain filenames without paths. All chapters in the public manifest have
 been released; never add future titles, outlines, scripts, or the story bible.
 
-Audio and video are not required. Optional chapter narration is:
+The new series release requires genuine character voiceover and synchronized
+Follow as well as the improved, finished lettering. Keep its release held until
+the final narration, image coordinates, and listening/Follow QA are complete.
+The generic reader can still display visual-only chapters. Chapter narration is:
 
 ```json
-"audio": {"file": "audio.mp3", "duration": 125.3}
+"audio": {
+  "file": "audio.mp3",
+  "duration": 125.3,
+  "cues": [
+    {"t": 0, "segment": "001.webp", "y": 0},
+    {"t": 4.2, "segment": "002.webp", "y": 160, "panel": 1, "line": 1},
+    {"t": 9.6, "segment": "002.webp", "y": 920, "panel": 1}
+  ]
+}
 ```
 
 `duration` is optional, in seconds. Native audio controls appear only when an
-audio file is declared; playback never starts automatically. The new reader
-does not implement narration-driven Follow yet. Adding it later requires an
-explicit keyframe schema and tests for user scrolling and toggling. It must
-not change the old reader. Adding audio to an already released chapter needs
-a separately validated manifest update; this append-only preparation tool
-intentionally refuses to replace released chapter entries. Video can remain
-a separate export.
+audio file is declared; playback never starts automatically. The controls stay
+available while scrolling. Follow appears when validated cues are supplied and
+starts enabled. A cue's `t` is the time in seconds at which its anchor should be
+in view. `segment` is an exact filename from the chapter's segment list; `y` is
+the anchor's distance from the top of that image in pixels at the manifest's
+chapter width. `panel` and `line` are optional positive, one-based identifiers
+for timing QA. They add no visible text. The example is schema documentation,
+not a timing track for a release.
+
+The first cue must start at zero. Times strictly increase; anchors follow
+reading order and stay within the image bounds. Supply anchors for the final
+spoken lines and panel transitions, measuring against the final lettered pages.
+The reader interpolates between these anchors below the sticky controls.
+Pausing stops movement; seeking catches up only while Follow is on. Wheel,
+touch, keyboard, or scrollbar reading turns Follow off. Turning it on catches
+up to the current narration position. A missing audio file reports the problem
+without blocking visual reading. No placeholder or silent narration belongs in
+a release, and no existing reader files or storage keys are changed.
+
+Adding audio to an already released chapter needs a separately validated
+manifest update; this append-only preparation tool intentionally refuses to
+replace released chapter entries. Video can remain a separate export.
 
 ## Materialize in the consuming cloud workspace
 

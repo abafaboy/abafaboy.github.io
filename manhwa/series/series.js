@@ -1,3 +1,5 @@
+import {validNarration, setupNarration} from './narration.js';
+
 const $ = id => document.getElementById(id);
 const query = new URLSearchParams(location.search);
 const slug = query.get('series') || '';
@@ -23,7 +25,7 @@ function validate(manifest) {
       if (!Array.isArray(segment) || segment.length !== 2 || !imageName.test(segment[0]) || !positive(segment[1])) throw Error('This series is unavailable.');
     }
     if (chapter.thumbnail && !imageName.test(chapter.thumbnail)) throw Error('This series is unavailable.');
-    if (chapter.audio && (typeof chapter.audio !== 'object' || !/^[a-zA-Z0-9][a-zA-Z0-9_.-]*\.(?:mp3|m4a|ogg|wav)$/i.test(chapter.audio.file))) throw Error('This series is unavailable.');
+    if (chapter.audio && !validNarration(chapter.audio, chapter.segments)) throw Error('This series is unavailable.');
     previous = chapter.n;
   }
   return manifest;
@@ -89,6 +91,7 @@ function renderReader(manifest, base) {
   if (next) {
     $('nextbig').href = chapterURL(next.n); $('nextbig').textContent = `Chapter ${next.n} →`; $('nextbig').hidden = false;
   } else $('endnav').insertBefore(element('p', "You're up to date."), $('all-chapters'));
+  const images = new Map();
   chapter.segments.forEach(([file, height], index) => {
     const image = new Image(); image.src = new URL(file, chapterBase); image.width = chapter.width; image.height = height;
     image.alt = `Chapter ${chapter.n}, page ${index + 1}`; image.decoding = 'async';
@@ -96,12 +99,9 @@ function renderReader(manifest, base) {
     image.addEventListener('error', () => {
       $('strip').insertBefore(element('p', 'A page could not load. Please refresh to try again.', 'image-error'), image);
     }, {once: true});
-    $('strip').append(image);
+    $('strip').append(image); images.set(file, image);
   });
-  if (chapter.audio) {
-    $('audio').src = new URL(chapter.audio.file, chapterBase); $('narration').hidden = false;
-    $('audio').addEventListener('error', () => { $('audio').hidden = true; $('audio-error').hidden = false; });
-  }
+  if (chapter.audio) setupNarration(chapter, chapterBase, images);
   setStored('position', {ch: chapter.n});
   const observer = new IntersectionObserver(entries => {
     if (entries.some(entry => entry.isIntersecting)) { read[chapter.n] = 1; setStored('read', read); observer.disconnect(); }

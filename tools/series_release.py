@@ -94,11 +94,34 @@ def validate_release(manifest_path):
             relative = f"{base}/{chapter['thumbnail']}"
             assets[relative] = asset(root, relative)
         if "audio" in chapter:
-            fields(chapter["audio"], {"file", "duration"}, {"file"}, "audio")
+            fields(chapter["audio"], {"file", "duration", "cues"}, {"file"}, "audio")
             filename(chapter["audio"]["file"], AUDIO, "audio filename")
             if "duration" in chapter["audio"]:
                 duration = chapter["audio"]["duration"]
                 require(type(duration) in {int, float} and math.isfinite(duration) and duration > 0, "Audio duration must be positive seconds")
+            if "cues" in chapter["audio"]:
+                cues = chapter["audio"]["cues"]
+                require(isinstance(cues, list) and cues, "Narration cues must be nonempty")
+                positions = {}
+                total = 0
+                for name, height in chapter["segments"]:
+                    positions[name] = (total, height)
+                    total += height
+                previous_time, previous_y = -1, -1
+                for cue in cues:
+                    fields(cue, {"t", "segment", "y", "panel", "line"}, {"t", "segment", "y"}, "narration cue")
+                    time, y = cue["t"], cue["y"]
+                    require(type(time) in {int, float} and math.isfinite(time) and time >= 0 and time > previous_time, "Cue times must increase from zero")
+                    require(isinstance(cue["segment"], str) and cue["segment"] in positions, "Cue must reference a chapter segment")
+                    top, height = positions[cue["segment"]]
+                    require(type(y) in {int, float} and math.isfinite(y) and 0 <= y <= height and top + y >= previous_y, "Cue coordinates must follow chapter reading order within image bounds")
+                    if "duration" in chapter["audio"]:
+                        require(time <= chapter["audio"]["duration"], "Cue time exceeds narration duration")
+                    for key in ("panel", "line"):
+                        if key in cue:
+                            integer(cue[key], f"cue {key}", 9999)
+                    previous_time, previous_y = time, top + y
+                require(cues[0]["t"] == 0, "Narration cues must start at zero")
             relative = f"{base}/{chapter['audio']['file']}"
             assets[relative] = asset(root, relative)
     return data, assets

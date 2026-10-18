@@ -17,8 +17,9 @@
   <main id="reader" hidden>
     <div class="chapter-heading"><p id="series-name" class="eyebrow"></p><h1 id="chapter-title"></h1></div>
     <section id="narration" class="narration" aria-label="Chapter narration" hidden>
-      <label for="audio">Listen while you read</label><audio id="audio" controls preload="none"></audio>
-      <p id="audio-error" hidden>Narration is unavailable. You can keep reading.</p>
+      <div class="narration-heading"><label for="audio">Listen while you read</label><button id="follow" type="button" aria-label="Follow narration" aria-pressed="true" title="Scroll with the narration. Scrolling the chapter yourself turns Follow off." hidden>Follow on</button></div>
+      <audio id="audio" controls preload="none"></audio>
+      <p id="audio-error" role="status" hidden>Narration is unavailable. You can keep reading.</p>
     </section>
     <div id="strip" class="strip" aria-label="Chapter pages"></div>
     <section id="endnav" class="endnav"><p id="end-title"></p><a id="nextbig" class="button" hidden></a><a id="all-chapters" class="button secondary">All chapters</a></section>

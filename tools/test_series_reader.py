@@ -4,10 +4,13 @@ import hashlib
 import http.server
 import io
 import json
+import math
 from pathlib import Path
 import shutil
+import struct
 import threading
 import unittest
+import wave
 
 from PIL import Image
 from playwright.sync_api import sync_playwright
@@ -33,6 +36,12 @@ class ReaderTests(unittest.TestCase):
         stream = io.BytesIO()
         Image.new("RGB", (1080, 2400), "#262b34").save(stream, format="WEBP")
         cls.image = stream.getvalue()
+        # An audible test tone exercises the native media clock; never a release asset.
+        stream = io.BytesIO()
+        with wave.open(stream, 'wb') as audio:
+            audio.setnchannels(1); audio.setsampwidth(2); audio.setframerate(8000)
+            audio.writeframes(b''.join(struct.pack('<h', int(4000 * math.sin(2 * math.pi * 220 * i / 8000))) for i in range(160000)))
+        cls.test_audio = stream.getvalue()
 
     @classmethod
     def tearDownClass(cls):
@@ -56,6 +65,15 @@ class ReaderTests(unittest.TestCase):
         ]}
         self.page.route("**/manhwa/series/test-series/series.json", lambda route: route.fulfill(content_type="application/json", body=json.dumps(self.manifest)))
         self.page.route("**/manhwa/series/test-series/ch/*/*.webp", lambda route: route.fulfill(content_type="image/webp", body=self.image))
+        def audio_route(route):
+            requested = route.request.headers.get('range', '')
+            if requested.startswith('bytes='):
+                start, end = requested[6:].split('-', 1)
+                start = int(start or 0); end = min(int(end) if end else len(self.test_audio) - 1, len(self.test_audio) - 1)
+                route.fulfill(status=206, content_type='audio/wav', headers={'Accept-Ranges': 'bytes', 'Content-Range': f'bytes {start}-{end}/{len(self.test_audio)}'}, body=self.test_audio[start:end + 1])
+            else:
+                route.fulfill(content_type='audio/wav', headers={'Accept-Ranges': 'bytes'}, body=self.test_audio)
+        self.page.route("**/manhwa/series/test-series/ch/*/test-tone.wav", audio_route)
 
     def load(self, suffix="read.html?series=test-series&ch=1"):
         self.page.goto(self.origin + "/manhwa/series/" + suffix)
@@ -106,9 +124,98 @@ class ReaderTests(unittest.TestCase):
         self.assertTrue(self.page.locator("#narration").is_visible())
         self.assertTrue(self.page.locator("#audio").get_attribute("src").endswith("/ch/001/audio.mp3"))
         self.assertTrue(self.page.locator("#audio").evaluate("audio => audio.paused && !audio.autoplay && audio.preload === 'none'"))
+        self.assertFalse(self.page.locator("#follow").is_visible())
         self.page.set_viewport_size({"width": 1440, "height": 900})
         self.assertEqual(self.page.locator("#strip").bounding_box()["width"], 720)
         self.assertFalse(self.page.evaluate("document.documentElement.scrollWidth > innerWidth"))
+        self.assertFalse(self.errors)
+
+    def narration_fixture(self):
+        self.manifest['chapters'][0]['audio'] = {
+            'file': 'test-tone.wav', 'duration': 20, 'cues': [
+                {'t': 0, 'segment': '001.webp', 'y': 0},
+                {'t': 4, 'segment': '001.webp', 'y': 1200, 'panel': 1, 'line': 1},
+                {'t': 10, 'segment': '002.webp', 'y': 0, 'panel': 2},
+                {'t': 16, 'segment': '002.webp', 'y': 1200, 'panel': 2, 'line': 2},
+            ]}
+        self.load()
+        self.page.evaluate("async () => { await Promise.all([...document.querySelectorAll('#strip img')].map(image => image.decode())); }")
+
+    def seek(self, time):
+        self.page.locator('#audio').evaluate('(audio, time) => { audio.currentTime = time; }', time)
+        self.page.wait_for_function('(time) => !document.querySelector("#audio").seeking && Math.abs(document.querySelector("#audio").currentTime - time) < .03', arg=time)
+
+    def test_follow_uses_media_clock_and_stops_when_paused(self):
+        self.narration_fixture()
+        self.assertEqual(self.page.locator('#follow').get_attribute('aria-pressed'), 'true')
+        self.assertTrue(self.page.locator('#audio').evaluate('audio => audio.paused'))
+        self.page.locator('#audio').evaluate('audio => audio.play()')
+        self.page.wait_for_function('document.querySelector("#audio").currentTime > .08')
+        self.page.locator('#audio').evaluate('audio => audio.pause()')
+        self.seek(10)
+        self.assertEqual(self.page.locator('#follow').get_attribute('aria-pressed'), 'true')
+        image_top = self.page.locator('#strip img').nth(1).bounding_box()['y']
+        controls = self.page.locator('#narration').bounding_box()
+        self.assertGreater(image_top, controls['y'] + controls['height'] + 24)
+        self.assertLess(image_top, controls['y'] + controls['height'] + 170)
+        forward_y = self.page.evaluate('scrollY')
+        self.page.wait_for_timeout(180)
+        self.assertEqual(self.page.evaluate('scrollY'), forward_y)
+        self.seek(1)
+        self.assertLess(self.page.evaluate('scrollY'), forward_y - 200)
+        self.assertTrue(self.page.locator('#audio').evaluate('audio => audio.paused'))
+        self.assertFalse(self.errors)
+
+    def test_manual_scroll_disables_follow_and_seek_respects_it(self):
+        self.narration_fixture()
+        self.page.locator('#audio').evaluate('audio => audio.play()')
+        self.page.wait_for_function('document.querySelector("#audio").currentTime > .08')
+        self.page.mouse.wheel(0, 220)
+        self.page.wait_for_function('document.querySelector("#follow").getAttribute("aria-pressed") === "false"')
+        self.assertFalse(self.page.locator('#audio').evaluate('audio => audio.paused'))
+        self.page.locator('#audio').evaluate('audio => audio.pause()')
+        self.page.wait_for_timeout(150)
+        manual_y = self.page.evaluate('scrollY')
+        self.seek(16)
+        self.page.wait_for_timeout(100)
+        self.assertEqual(self.page.evaluate('scrollY'), manual_y)
+        self.page.locator('#follow').click()
+        self.assertEqual(self.page.locator('#follow').get_attribute('aria-pressed'), 'true')
+        self.assertGreater(self.page.evaluate('scrollY'), manual_y + 300)
+        self.page.locator('#follow').evaluate('button => button.blur()')
+        self.page.keyboard.press('PageUp')
+        self.assertEqual(self.page.locator('#follow').get_attribute('aria-pressed'), 'false')
+        self.assertFalse(self.errors)
+
+    def test_follow_touch_override_resize_and_audio_failure(self):
+        self.narration_fixture()
+        self.page.locator('#audio').evaluate('audio => audio.play()')
+        self.page.wait_for_function('document.querySelector("#audio").currentTime > .08')
+        self.page.set_viewport_size({'width': 360, 'height': 780})
+        self.assertFalse(self.page.evaluate('document.documentElement.scrollWidth > innerWidth'))
+        self.page.evaluate("document.querySelector('#strip').dispatchEvent(new Event('touchmove', {bubbles:true}))")
+        self.assertEqual(self.page.locator('#follow').get_attribute('aria-pressed'), 'false')
+        self.page.route('**/test-tone.wav', lambda route: route.fulfill(status=404))
+        self.load()
+        self.page.locator('#audio').evaluate('audio => { audio.play().catch(() => {}); }')
+        self.page.locator('#audio-error').wait_for()
+        self.assertTrue(self.page.locator('#reader').is_visible())
+        self.assertFalse(self.page.locator('#follow').is_visible())
+        self.assertFalse(self.errors)
+
+    def test_invalid_narration_cues_are_rejected(self):
+        self.manifest['chapters'][0]['audio'] = {'file': 'test-tone.wav', 'duration': 20}
+        for cue in [
+            {'t': -1, 'segment': '001.webp', 'y': 0},
+            {'t': 0, 'segment': 'missing.webp', 'y': 0},
+            {'t': 0, 'segment': '001.webp', 'y': 2401},
+            {'t': 0, 'segment': '001.webp', 'y': 0, 'line': 0},
+        ]:
+            with self.subTest(cue=cue):
+                self.manifest['chapters'][0]['audio']['cues'] = [cue]
+                self.load()
+                self.assertIn('unavailable', self.page.locator('#status').inner_text())
+                self.assertEqual(self.page.locator('#strip img').count(), 0)
         self.assertFalse(self.errors)
 
     def test_failed_page_is_reported_without_breaking_navigation(self):

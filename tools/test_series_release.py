@@ -80,6 +80,37 @@ class ReleaseTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "consecutively"):
             prepare_release(self.manifest, self.output)
 
+    def test_narration_cues_preserve_exact_image_anchors(self):
+        self.data['chapters'][0]['audio'] = {'file': 'voice.wav', 'duration': 20, 'cues': [
+            {'t': 0, 'segment': '001.webp', 'y': 0},
+            {'t': 5, 'segment': '001.webp', 'y': 1200, 'panel': 1, 'line': 2}]}
+        # Asset validation is separate from native media playback tests.
+        (self.source / 'ch/001/voice.wav').write_bytes(b'test-only asset')
+        self.write_bundle()
+        target = prepare_release(self.manifest, self.output)
+        released, assets = validate_release(target)
+        self.assertEqual(released['chapters'][0]['audio'], self.data['chapters'][0]['audio'])
+        self.assertIn('ch/001/voice.wav', assets)
+
+    def test_invalid_narration_timing_and_positions_are_rejected(self):
+        first = {'t': 0, 'segment': '001.webp', 'y': 100}
+        bad_cues = [
+            [],
+            [{'t': 1, 'segment': '001.webp', 'y': 0}],
+            [first, {'t': 0, 'segment': '001.webp', 'y': 200}],
+            [first, {'t': 21, 'segment': '001.webp', 'y': 200}],
+            [first, {'t': 2, 'segment': 'missing.webp', 'y': 200}],
+            [first, {'t': 2, 'segment': '001.webp', 'y': 2401}],
+            [first, {'t': 2, 'segment': '001.webp', 'y': 0}],
+            [first, {'t': 2, 'segment': '001.webp', 'y': 200, 'panel': False}],
+        ]
+        for cues in bad_cues:
+            with self.subTest(cues=cues):
+                self.data['chapters'][0]['audio'] = {'file': 'voice.wav', 'duration': 20, 'cues': cues}
+                self.write_bundle()
+                with self.assertRaises(ValueError):
+                    validate_release(self.manifest)
+
 
 if __name__ == "__main__":
     unittest.main()
