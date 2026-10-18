@@ -95,6 +95,7 @@ function renderReader(manifest, base) {
   const images = new Map();
   chapter.segments.forEach(([file, height], index) => {
     const image = new Image(); image.src = new URL(file, chapterBase); image.width = chapter.width; image.height = height;
+    image.id = `panel-${String(index + 1).padStart(2, '0')}`;
     image.alt = `Chapter ${chapter.n}, page ${index + 1}`; image.decoding = 'async';
     if (chapter.gutters?.[file]) image.style.marginBottom = `${100 * chapter.gutters[file] / chapter.width}%`;
     if (index > 1) image.loading = 'lazy';

@@ -38,7 +38,7 @@ export function setupNarration(chapter, chapterBase, images) {
   const cues = chapter.audio.cues;
   const fitReadingWidth = () => {
     const visible = innerHeight - header.offsetHeight - controls.offsetHeight - 36;
-    controls.closest('main').style.setProperty('--reading-width', `${Math.min(720, Math.max(390, visible / 1.125))}px`);
+    controls.closest('main').style.setProperty('--reading-width', `${Math.min(720, Math.max(390, visible / 1.2))}px`);
   };
   requestAnimationFrame(fitReadingWidth);
   const anchor = (cue, visible) => {

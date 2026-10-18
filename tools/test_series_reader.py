@@ -84,6 +84,7 @@ class ReaderTests(unittest.TestCase):
         self.load()
         self.assertTrue(self.page.locator("#reader").is_visible())
         self.assertEqual(self.page.locator("#strip img").count(), 2)
+        self.assertEqual(self.page.locator("#strip img").evaluate_all("images => images.map(image => image.id)"), ["panel-01", "panel-02"])
         self.page.wait_for_function("[...document.querySelectorAll('#strip img')].every(image => image.complete && image.naturalWidth === 1080)")
         self.page.evaluate("async () => { await Promise.all([...document.querySelectorAll('#strip img')].map(image => image.decode())); }")
         self.assertFalse(self.page.locator("#narration").is_visible())
