@@ -1,5 +1,9 @@
 # Manhwa engagement integration
 
+Backend setup is currently deferred at the owner's request. The prepared
+frontend remains disabled. See the [continuation checkpoint](engagement-checkpoint.md)
+before resuming this work.
+
 ## Current state and release boundary
 
 Inspected 2026-10-18 against remote `main` at
@@ -29,6 +33,12 @@ This change prepares a frontend and a service contract. **It does not implement
 or provision a backend.** Browser tests use intercepted, test-only responses.
 Their passing does not establish working production counters, moderation,
 database isolation, or server-side duplicate protection.
+
+See the [concrete Supabase setup proposal](supabase-setup.md) for current official
+terms/plan references, exact data fields, owner approvals, and security gaps.
+It specifies a required signed-session extension before bounded-retention
+activation; the current random-UUID contract alone cannot prevent old replays
+after its deduplication rows have been deleted.
 
 ## Metric definitions
 
