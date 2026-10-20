@@ -1,0 +1,765 @@
+chapter: 1
+title: One More Shift
+when: "Tuesday, early spring. 7:50 PM on the bus; the shift 8 PM to 11:20 PM; home at 11:52 PM."
+story_beats: PART_ONE_BEATS.md#1
+cast:
+  taeo: default     # hoodie + backpack on the bus; puts on the work vest at the store (P06 onward); vest off again at home (P47)
+  eunchae: work
+  manager: default
+  courier: default
+  golem: default
+  haru: default     # on video only
+  grandma: default  # hand on video only, voice on the phone
+  nib: default      # P54 only
+extras:
+  customer_woman: "middle-aged woman, beige cardigan, permed short hair, handbag on her forearm"
+  customer_man: "man in his thirties, grey suit jacket, loosened tie, curious"
+  customer_mauve: "woman in a mauve coat, holding a full shopping basket"
+  elderly_man: "very old man, flat cap, walking cane, a basket with eggs"
+  police: "two officers in hi-vis vests"
+  hunters: "two young hunters in casual tactical gear (dark vests, boots); one drinks a canned coffee"
+locations: [night_bus, hanbit_mart, hanbit_mart_breakroom, mart_street, hapjeong_alley, taeo_flat]
+palette_notes: "Bus: dark blue with cold white phone glow. Store: pale fluorescent green-white. Break room: warmer fluorescent. Street: sodium orange with the gate's violet. Flat: warm lamp orange, until the cyan summon light takes over."
+
+panels:
+
+  # ---------------- COLD OPEN ----------------
+  - id: P01
+    shape: wide
+    gap: none
+    bg: black
+    camera: "inside a city night bus, eye level, looking down the aisle from the front"
+    art: >
+      A Seoul city bus at night, half full of tired commuters (office workers, a student, an old man).
+      Every one of them is looking down at a phone, faces lit cold white by the screens.
+      Several phone screens show a red banner shape (draw them as plain red rectangles, no text).
+      Nobody looks up. Through the dark windows, city lights stream past.
+      In the very back row by the window sits Taeo (taeo, default outfit: black hoodie, olive backpack on his lap,
+      the orange shield-and-door patch visible on it). He is small in frame, earbuds in, eyes closed.
+      Palette: dark navy interior, cold white phone glow, one red accent per phone. Hard cel shadows, no glow haze.
+    calm: top
+    lines:
+      - {who: taeo, type: float, text: "NOBODY LOOKS UP ANYMORE."}
+    sfx:
+      - {text: "BEEEP", style: alert, at: [0.18, 0.30], size: M, rot: -10}
+      - {text: "BEEEP", style: alert, at: [0.55, 0.22], size: M, rot: 6}
+      - {text: "BEEEP", style: alert, at: [0.83, 0.38], size: S, rot: -4}
+
+  - id: P02
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up over a commuter's shoulder onto their phone"
+    art: >
+      A commuter's hand holding a phone. Screen: green (the letterer fills it).
+      The thumb is mid-swipe, dismissing what's on screen. The sleeve is a cheap grey office suit.
+      Cold light from the screen on the knuckles. Dark bus interior behind, simplified.
+    calm: none
+    ui:
+      - {kind: phone.emergency_alert, on: screen, text: "[Emergency Alert] Gate advisory: Seogyo-dong, Mapo-gu. Avoid the area and follow responders' instructions."}
+    sfx:
+      - {text: "FWIP", style: quiet, at: [0.82, 0.55], size: S, rot: 0}
+
+  - id: P03
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close-up, three-quarter, Taeo against the bus window"
+    art: >
+      Taeo (taeo) asleep sitting up against the bus window, head tilted, earbuds in.
+      His phone vibrates in his loose hand and he doesn't open his eyes. Tired lower lids, a small mole under his right eye.
+      Window reflections of streetlights slide across his face as hard-edged orange shapes.
+      Navy shadows. Hard cel shading.
+    calm: left
+    lines:
+      - {who: taeo, type: float, text: "DOORS OPEN WHERE THEY SHOULDN'T."}
+    sfx:
+      - {text: "BZZT", style: phone, at: [0.30, 0.82], size: S, rot: -8}
+
+  - id: P04
+    shape: full
+    gap: short
+    bg: black
+    camera: "exterior, high angle from a building across the street, looking down at the bus passing"
+    art: >
+      A night street corner in Mapo. On the pavement, inside a ring of orange barriers and police tape,
+      stands a small gate: a door-height black-violet slit hanging in the air, with a cold white-cyan rim and lavender light leaking out.
+      A single hunter in a vest leans on a barrier beside it, yawning, bored.
+      The bus passes in the foreground, its windows reflecting the violet glow. Pedestrians walk past without looking.
+      Sodium-orange streetlights, violet gate glow, deep navy shadows. A drawn background with simplified signs (no readable text).
+    calm: top-left
+    lines:
+      - {who: taeo, type: float, text: "YOU LEARN TO STEP AROUND THEM."}
+
+  - id: P05
+    kind: title
+    gap: long
+    bg: white
+    title_text: "CHAPTER 1 · ONE MORE SHIFT"
+
+  # ---------------- THE SHIFT ----------------
+  - id: P06
+    shape: full
+    gap: long
+    bg: white
+    camera: "establishing, exterior, slightly low, across the street"
+    art: >
+      Hanbit Mart: a small neighbourhood grocery on a street corner at night, its glass front glowing pale fluorescent green-white.
+      The sign is drawn as a simple green panel with a white circle logo (no readable letters).
+      A delivery scooter is parked outside. A potted plant, a stack of plastic crates, a bicycle chained to a pole.
+      Through the glass door: Taeo at the counter, now wearing the grey-green Hanbit Mart vest with its white name tag, ringing something up.
+      Residential buildings and tangled overhead electric wires above. Calm night.
+    calm: top
+    lines:
+      - {who: narr, type: tag, text: "HAPJEONG-DONG, MAPO-GU · 8:40 PM"}
+
+  - id: P07
+    shape: wide
+    gap: short
+    bg: white
+    camera: "over the customer's shoulder toward Taeo behind the counter"
+    art: >
+      Inside Hanbit Mart at the counter. The customer_woman (beige cardigan) slaps two packs of instant noodles on the counter,
+      pointing at them indignantly. Behind the counter Taeo (work vest, name tag) wears a polite, exhausted smile.
+      Behind him: cigarette shelves drawn as simplified blocks, a small TV mounted high (screen: green), a coffee cup by the till.
+      Fluorescent pale green-white light. Flat colours, one hard shadow tone.
+    calm: top-right
+    lines:
+      - {who: customer_woman, type: speech, side: l, text: "THESE WERE TWO FOR ONE."}
+      - {who: taeo, type: speech, side: r, text: "THAT ENDED YESTERDAY."}
+      - {who: customer_woman, type: speech, side: l, text: "THE SIGN STILL SAYS—"}
+
+  - id: P08
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "medium close-up, Taeo at the shelf end"
+    art: >
+      Taeo peels an old sale tag off a shelf edge. It is a red tag, the only saturated thing in the panel; draw it with blocks, no text.
+      His face is apologetic and the customer is out of frame.
+    calm: right
+    lines:
+      - {who: taeo, type: speech, side: l, text: "SORRY. I'LL TAKE IT DOWN."}
+
+  - id: P09
+    shape: inset-r
+    gap: short
+    bg: white
+    style: chibi
+    camera: "chibi gag"
+    art: >
+      CHIBI gag. Chibi Taeo stands smiling a frozen customer-service smile while waterfall tears pour from his eyes.
+      Behind him a chibi customer_woman lectures with huge rage steam rising from her head.
+      Flat pale-green background with a screentone dot pattern. Simple and funny.
+    calm: top
+    lines:
+      - {who: taeo, type: float, text: "TWENTY-THREE. NIGHT SHIFT. FOURTEEN MONTHS."}
+
+  - id: P10
+    shape: wide
+    gap: long
+    bg: white
+    camera: "medium two-shot, the stockroom doorway beside the counter"
+    art: >
+      Manager Oh (manager: black polo, clipboard, harried) leans out of the stockroom doorway, talking to Taeo, who is mid-motion stacking cups.
+      The manager avoids Taeo's eyes and looks at the clipboard. Taeo turns, cautious.
+      Shelves of snacks behind them drawn simply. Fluorescent light.
+    calm: top
+    lines:
+      - {who: manager, type: speech, side: l, text: "TAEO. HEAD OFFICE CALLED."}
+      - {who: manager, type: speech, side: l, text: "THEY'RE TRIALLING A CONSTRUCT STOCKER ON NIGHTS. FROM NEXT MONTH."}
+      - {who: taeo, type: speech, side: r, text: "...AND ME?"}
+      - {who: manager, type: speech, side: l, text: "YOU'LL GET WEEKENDS. PROBABLY."}
+
+  - id: P11
+    shape: strip
+    gap: short
+    bg: white
+    silent: true
+    camera: "extreme close-up of Taeo's eyes"
+    art: >
+      An extreme close-up strip of Taeo's eyes and brow: stunned and quietly calculating, a bead of sweat at the temple.
+      Fluorescent light. Hard cel shadow under the brow. Nothing else in frame.
+    calm: none
+
+  - id: P12
+    shape: wide
+    gap: short
+    bg: white
+    camera: "from inside the store toward the glass door"
+    art: >
+      The glass door swings open. Courier Bae (courier: navy QuickHaul cap and work jacket with a reflective stripe, stubble, a phone mounted on his wrist)
+      backs in holding the door. Behind him the stone golem (golem: 190 cm grey boulder body, dot eyes, slit mouth, canvas apron)
+      ducks under the frame, carrying two plastic crates in its rope harness. The doorbell above swings.
+    calm: top-left
+    lines:
+      - {who: courier, type: speech, side: l, text: "QUICKHAUL! TWO CRATES, SIGN HERE—"}
+    sfx:
+      - {text: "JINGLE", style: quiet, at: [0.50, 0.12], size: S, rot: 8}
+
+  - id: P13
+    shape: full
+    gap: short
+    bg: white
+    camera: "low angle at counter height"
+    art: >
+      The golem sets the crates down on the counter far too hard. The whole counter jumps.
+      Taeo's coffee cup leaps into the air, the receipt printer bounces, and Taeo flinches back with both hands up.
+      Impact lines radiate from the crates. Dynamic composition, hard shadows.
+    calm: top
+    sfx:
+      - {text: "THUNK!!", style: impact, at: [0.45, 0.35], size: XL, rot: -6}
+
+  - id: P14
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "medium close-up, Taeo and Bae across the counter"
+    art: >
+      Taeo, holding his saved coffee cup, gives Bae a deadpan look. Bae scratches the back of his neck under his cap, apologetic and hurried,
+      glancing at his wrist screen. Simplified store background.
+    calm: top
+    lines:
+      - {who: taeo, type: speech, side: r, text: "CAN IT DO... \"GENTLY\"?"}
+      - {who: courier, type: speech, side: l, text: "STILL WORKING ON THAT."}
+      - {who: courier, type: speech, side: l, text: "CARRY, FOLLOW, STOP. THAT'S MOST OF IT."}
+
+  - id: P15
+    shape: strip
+    gap: short
+    bg: white
+    camera: "extreme close-up of Bae's wrist screen"
+    art: >
+      Bae's wrist with a mounted phone. Screen: green. His other hand is already pushing the door open.
+      Strong motion: he is about to run.
+    calm: none
+    ui:
+      - {kind: phone.quickhaul_order, on: screen, text: "NEXT STOP 00:00 · LATE −₩500"}
+    sfx:
+      - {text: "BEEP", style: alert, at: [0.80, 0.30], size: S, rot: 0}
+
+  - id: P16
+    shape: narrow-l
+    gap: short
+    bg: white
+    camera: "full figure through the glass door from inside"
+    art: >
+      Bae sprints out onto the street, and the golem plods after him with heavy literal steps, crates swinging.
+      Seen through the glass door with the night street beyond. Motion lines on Bae, none on the golem (it is slow).
+    calm: top
+    lines:
+      - {who: courier, type: shout, side: c, text: "FOLLOW!"}
+    sfx:
+      - {text: "THUD THUD", style: impact, at: [0.55, 0.75], size: M, rot: 0}
+
+  - id: P17
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "medium shot down aisle 1"
+    art: >
+      Eunchae (eunchae: high ponytail, cream shirt, Hanbit Mart vest with name tag EUNCHAE) stocks noodle cups on a shelf.
+      Her dog-eared food-hygiene workbook with sticky tabs is tucked under her arm. She rolls her eyes toward the door.
+    calm: right
+    lines:
+      - {who: eunchae, type: speech, side: l, text: "HE'S LATE EVERY NIGHT. THE APP TAKES IT OUT OF HIS PAY."}
+      - {who: taeo, type: speech, side: r, text: "MM."}
+
+  # ---------------- BREAK ROOM ----------------
+  - id: P18
+    shape: full
+    gap: long
+    bg: white
+    camera: "establishing, the break room seen from its doorway"
+    art: >
+      The Hanbit Mart break room: tiny, with lockers, a microwave on a fridge, a folding table and a plastic stool.
+      On the wall is the rota whiteboard: a grid of days with names written in marker; draw the handwriting as squiggles,
+      except that in the SUNDAY column the name is clearly "TAEO".
+      Taeo sits on the stool eating a triangle kimbap, his phone propped against a cup in front of him (screen: green).
+      Warm fluorescent light. Cosy and cramped.
+    calm: top-left
+    lines:
+      - {who: narr, type: tag, text: "10:20 PM"}
+
+  - id: P19
+    shape: wide
+    gap: short
+    bg: white
+    camera: "the panel IS the video call: Haru's video fills the frame"
+    art: >
+      This panel is a phone video call seen full frame. Draw the VIDEO image only (the letterer adds the call buttons and frame):
+      Haru (haru: 10, messy black hair with a cowlick, a missing front tooth, yellow dinosaur T-shirt) sits at a kitchen table at night,
+      leaning very close to the camera, eyes wide, mid-sentence, excited. Slight video-call wide-angle distortion on his face.
+      A rice bowl on the table. Warm home light.
+    calm: bottom
+    ui:
+      - {kind: phone.ttok_video_call, on: panel, caller: "Grandma", own_video: "taeo"}
+    lines:
+      - {who: haru, type: phone, side: c, text: "HYUNG! DID YOU KNOW STEGOSAURUS HAD A BRAIN THE SIZE OF A WALNUT?"}
+      - {who: taeo, type: speech, side: r, text: "LIKE ME AT WORK."}
+
+  - id: P20
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close-up, Taeo looking at his phone"
+    art: >
+      Taeo's rare real smile: lopsided, tired and soft, lit by the phone screen. Kimbap half eaten in his hand.
+    calm: left
+    silent: true
+
+  - id: P21
+    shape: wide
+    gap: short
+    bg: white
+    camera: "the video call again, wider"
+    art: >
+      The video call image again: Haru talking with his mouth full while Grandma's hand (grandma: a strong, work-worn elderly hand, red-and-navy plaid sleeve)
+      pushes a spoonful of fish and rice toward his mouth from out of frame. Haru dodges and the spoon follows.
+    calm: top
+    lines:
+      - {who: grandma, type: phone, side: l, text: "EAT. TALK LATER."}
+      - {who: taeo, type: speech, side: r, text: "GRANDMA. I SAW THAT."}
+      - {who: grandma, type: phone, side: l, text: "GOOD. TELL THIS ONE TO EAT."}
+
+  - id: P22
+    shape: wide
+    gap: short
+    bg: white
+    camera: "over Taeo's shoulder: the phone in the foreground, the rota whiteboard behind"
+    art: >
+      Over Taeo's shoulder. In the foreground, the propped phone (screen: green). Beyond it, on the wall, the rota whiteboard
+      with "TAEO" written under SUNDAY. Taeo's eyes are on the whiteboard, not the phone.
+    calm: top-left
+    ui:
+      - {kind: phone.ttok_video_call, on: screen, caller: "Grandma"}
+    lines:
+      - {who: haru, type: phone, side: l, text: "ARE YOU COMING THIS SUNDAY?"}
+      - {who: taeo, type: speech, side: r, text: "I'LL ASK ABOUT SWAPPING."}
+
+  - id: P23
+    shape: strip
+    gap: short
+    bg: white
+    camera: "the video call, close on Haru"
+    art: >
+      The video call, cropped tight on Haru's face. He is unimpressed: half-lidded eyes, puffed cheek, chopsticks in his mouth.
+    calm: right
+    lines:
+      - {who: haru, type: phone, side: l, text: "YOU SAID THAT LAST TIME."}
+      - {who: taeo, type: speech, side: r, text: "...I KNOW."}
+
+  - id: P24
+    shape: narrow-r
+    gap: long
+    bg: white
+    camera: "Taeo's hand holding the phone, straight on"
+    art: >
+      Taeo's right hand holding his phone straight to the reader: dark grey phone, a hairline crack in the top-left corner of the glass.
+      Screen: green. Break-room locker behind, simplified and dim.
+    calm: none
+    ui:
+      - {kind: phone.bank_transfer, on: screen, to: "Grandma", amount: "₩150,000", balance: "₩24,800"}
+    lines:
+      - {who: narr, type: footnote, text: "*₩24,800 ≈ US$18"}
+
+  - id: P25
+    shape: strip
+    gap: short
+    bg: white
+    camera: "extreme close-up, thumb on the phone"
+    art: >
+      Taeo's thumb swiping an advert away on the phone (screen: green). A tired motion.
+    calm: none
+    ui:
+      - {kind: phone.sumex_ad, on: screen, text: "SUMMON YOUR FUTURE · DRAW TICKETS ₩99,000 · 0.3% RARE"}
+    sfx:
+      - {text: "FWIP", style: quiet, at: [0.85, 0.45], size: S, rot: 0}
+
+  - id: P26
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "medium close-up, slightly high angle"
+    art: >
+      Taeo leans his head back against the lockers, eyes closed, phone face-down on his knee. Exhausted.
+      The fluorescent tube above is a hard white bar.
+    calm: right
+    lines:
+      - {who: taeo, type: float, text: "₩24,800 UNTIL THE 25TH."}
+      - {who: taeo, type: float, text: "IT'S FINE."}
+
+  # ---------------- THE GATE ----------------
+  - id: P27
+    shape: wide
+    gap: long
+    bg: white
+    camera: "from inside the break room toward the doorway"
+    art: >
+      Eunchae leans in at the break-room door, one hand on the frame, puzzled rather than scared, beckoning with a tilt of her head.
+      Taeo looks up from his stool.
+    calm: top
+    lines:
+      - {who: eunchae, type: speech, side: l, text: "TAEO? COME LOOK AT THIS."}
+
+  - id: P28
+    shape: full
+    gap: short
+    bg: white
+    camera: "down aisle 2 at eye level, the crack in the centre"
+    art: >
+      Aisle 2 of Hanbit Mart: instant noodles on the left shelves, snacks on the right.
+      In the middle of the aisle, at chest height, a hairline black crack hangs in the air like a scratch on glass,
+      with thin violet light seeping from its edges.
+      In the foreground Eunchae and Taeo stand looking at it. Further down, the customer_man (grey suit jacket, loosened tie)
+      reaches his hand toward the crack with curious fingers. The customer_mauve (mauve coat, full basket) watches behind him.
+      Fluorescent light plus a faint violet tint near the crack.
+    calm: top-left
+
+  - id: P29
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "low angle, Taeo lunging forward"
+    art: >
+      Low angle on Taeo lunging forward with his arm flung out to stop the man. His face is genuinely alarmed:
+      wide eyes, mouth open in a shout. Speed lines behind him.
+    calm: top
+    lines:
+      - {who: taeo, type: shout, side: c, text: "DON'T TOUCH THAT!"}
+
+  - id: P30
+    shape: strip
+    gap: short
+    bg: white
+    silent: true
+    camera: "extreme close-up of fingers and the crack"
+    art: >
+      The customer_man's fingertips frozen a few centimetres from the black crack. The crack's edge glints violet-white.
+      Tension. Nothing else in frame.
+    calm: none
+
+  - id: P31
+    shape: bleed
+    gap: short
+    bg: black
+    camera: "tall, low angle up the aisle"
+    art: >
+      The crack TEARS OPEN into a gate: a door-height black-violet slit with a cold white-cyan rim, wrong-coloured lavender light pouring out.
+      The shelves shudder. Cup noodles tumble through the air. The fluorescent tubes flicker, one half dark.
+      Customers stumble back. Taeo and Eunchae are small at the bottom of the frame, lit violet.
+      Debris and a few sharp particles at the rim only. The panel's top edge breaks its border.
+      This is the chapter's first big image: dramatic, drawn, hard-shadowed. No haze.
+    calm: top
+    sfx:
+      - {text: "VMMMMMM", style: gate, at: [0.82, 0.35], size: XL, rot: 90}
+
+  - id: P32
+    shape: wide
+    gap: short
+    bg: white
+    camera: "medium, Eunchae commanding, the customers moving"
+    art: >
+      Eunchae, phone at her ear, other arm sweeping customers toward the exit, every inch a shift lead.
+      The customer_mauve clutches her full basket in protest. The aisle glows violet behind them.
+    calm: top
+    lines:
+      - {who: eunchae, type: shout, side: l, text: "EVERYONE OUTSIDE. LEAVE YOUR BASKETS."}
+      - {who: customer_mauve, type: speech, side: r, text: "BUT I ALREADY—"}
+
+  - id: P33
+    shape: wide
+    gap: short
+    bg: white
+    camera: "medium two-shot moving toward the door"
+    art: >
+      Taeo guides the elderly_man (flat cap, cane) toward the door with a hand at his back.
+      The old man won't let go of his basket of eggs. Taeo is gentle and quick, glancing over his shoulder.
+    calm: top-right
+    lines:
+      - {who: taeo, type: speech, side: r, text: "LEAVE IT. WE'LL KEEP IT HERE."}
+      - {who: elderly_man, type: speech, side: l, text: "MY EGGS..."}
+      - {who: taeo, type: speech, side: r, text: "I'LL KEEP THE EGGS."}
+
+  - id: P34
+    shape: inset-l
+    gap: short
+    bg: white
+    silent: true
+    camera: "over Taeo's shoulder, looking back into the store"
+    art: >
+      Over Taeo's shoulder as he reaches the door: far down the aisle the gate breathes violet light.
+      His profile shows fear he hasn't admitted yet.
+    calm: none
+
+  # ---------------- OUTSIDE ----------------
+  - id: P35
+    shape: full
+    gap: long
+    bg: white
+    camera: "establishing, the street outside the store, eye level"
+    art: >
+      The street outside Hanbit Mart: police tape across the door, two police officers in hi-vis vests, the customers on the pavement.
+      The elderly_man clutches Taeo's arm. Eunchae talks on her phone.
+      Through the glass front, the violet glow in aisle 2. Sodium streetlights. The neighbourhood watches from windows.
+    calm: top
+
+  - id: P36
+    shape: wide
+    gap: short
+    bg: white
+    camera: "medium, the two hunters walking past the tape"
+    art: >
+      The two hunters duck under the police tape and stroll toward the store door. One drinks a canned coffee, the other yawns, relaxed.
+      Casual dark tactical vests and boots, a short sword on one hip. The officer lifts the tape for them.
+    calm: top
+    lines:
+      - {who: hunter1, type: speech, side: l, text: "E-GRADE? IN A MART?"}
+      - {who: hunter2, type: speech, side: r, text: "IN AND OUT BY ONE."}
+
+  - id: P37
+    shape: strip
+    gap: short
+    bg: white
+    camera: "medium close-up behind the tape"
+    art: >
+      Taeo behind the tape, watching the hunters go in. Eunchae beside him with her phone lowered, glancing at him.
+    calm: top
+    lines:
+      - {who: eunchae, type: speech, side: l, text: "YOU OKAY?"}
+      - {who: taeo, type: speech, side: r, text: "...YEAH."}
+
+  - id: P38
+    shape: tall
+    gap: short
+    bg: white
+    camera: "from behind Taeo, the street beyond"
+    art: >
+      From slightly behind and beside Taeo. In the air in front of him (the letterer adds the windows) the street carries on:
+      officers, customers, Eunchae on the phone, nobody reacting.
+      Taeo has frozen with his head tilted up. Leave clear empty air in the upper half of the frame for two floating windows.
+    calm: top
+    ui:
+      - {kind: system.notice, on: float, text: "[AWAKENING COMPLETE]"}
+      - {kind: system.notice, on: float, text: "[CLASS: SUMMONER]"}
+    sfx:
+      - {text: "DING", style: summon, at: [0.80, 0.12], size: M, rot: 0}
+      - {text: "DING", style: summon, at: [0.20, 0.36], size: M, rot: 0}
+
+  - id: P39
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close-up, Taeo's face from the front, lit cyan"
+    art: >
+      BIG REACTION: Taeo's face from the front, lit by faint cyan light from the windows: eyes huge, pupils small, mouth open.
+      Focus lines behind him.
+    calm: top
+    lines:
+      - {who: taeo, type: nervous, side: c, text: "WHAT—"}
+
+  - id: P40
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "two-shot, profile, Eunchae and Taeo"
+    art: >
+      Eunchae looks at Taeo, puzzled. Her eyes pass straight through the air where the windows are (she sees nothing).
+      Taeo glances between her and the empty air.
+    calm: top
+    lines:
+      - {who: eunchae, type: speech, side: l, text: "WHAT?"}
+      - {who: taeo, type: speech, side: r, text: "...NOTHING."}
+
+  - id: P41
+    shape: inset-r
+    gap: short
+    bg: white
+    style: chibi
+    camera: "chibi gag"
+    art: >
+      CHIBI gag. Chibi Manager Oh arrives at a run in striped pyjamas with a coat thrown over them,
+      clutching his clipboard, sweat drops flying, a frantic face.
+      Flat background with speed lines.
+    calm: top
+    lines:
+      - {who: manager, type: shout, side: c, text: "I'LL DEAL WITH THE STORE! GO HOME, BOTH OF YOU!"}
+
+  # ---------------- WALK HOME ----------------
+  - id: P42
+    shape: full
+    gap: long
+    bg: white
+    camera: "wide, a residential alley at night, Taeo small in the middle"
+    art: >
+      A Hapjeong-dong residential alley at night: low red-brick villas, gas meters, a glowing convenience-store sign far away,
+      overhead wires, a cat on a wall.
+      Taeo walks alone with his hands in his hoodie pocket (work vest off and stuffed in the backpack, patch visible).
+      Leave empty air beside his head for a small floating window. Sodium orange and blue shadow.
+    calm: top-right
+    ui:
+      - {kind: system.notice_small, on: float, text: "[FIRST SUMMON AVAILABLE]"}
+
+  - id: P43
+    shape: inset-r
+    gap: short
+    bg: white
+    silent: true
+    camera: "medium, side view, Taeo sidestepping"
+    art: >
+      A gag in normal style. Taeo sidesteps suspiciously, eyes sliding sideways at the empty air next to his head
+      (where the small window floats: letterer). He leans away. Drops of sweat.
+    calm: top-right
+    ui:
+      - {kind: system.notice_small, on: float, text: "[FIRST SUMMON AVAILABLE]"}
+
+  - id: P44
+    shape: narrow-l
+    gap: short
+    bg: white
+    camera: "Taeo's hand holding the phone, slight tilt"
+    art: >
+      Taeo's left hand holding his phone tilted (screen: green). Alley lights behind, simplified.
+    calm: none
+    ui:
+      - {kind: phone.ttok_chat, on: screen, title: "Grandma", messages: [{from: them, text: "Grandma says thank you. She also says buy yourself actual food.", time: "23:31"}, {from: me, text: "Tell her I ate.", time: "23:32"}]}
+
+  - id: P45
+    shape: wide
+    gap: short
+    bg: white
+    camera: "medium, a bus-stop ad screen near his building"
+    art: >
+      At the corner before his building, a bus-stop advertising screen glows (screen: green). Taeo has stopped in front of it,
+      backpack on one shoulder, reading. A delivery rider passes behind.
+    calm: top
+    ui:
+      - {kind: phone.info_card, on: screen, title: "GATE SAFETY KOREA", text: "Newly awakened? Book an ability assessment. · Most summons follow simple commands. They aren't expected to speak."}
+
+  - id: P46
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close-up, Taeo's face lit by the ad screen"
+    art: >
+      Taeo's face lit cold by the screen, eyes narrowing: an idea and a temptation. Shadow on half his face.
+    calm: right
+    lines:
+      - {who: taeo, type: float, text: "A CONSTRUCT COULD CARRY CRATES."}
+      - {who: taeo, type: float, text: "A CONSTRUCT COULD WORK NIGHTS."}
+
+  # ---------------- HOME ----------------
+  - id: P47
+    shape: full
+    gap: long
+    bg: white
+    camera: "establishing, the 18 m² studio from the entry"
+    art: >
+      Taeo's studio flat (taeo_flat key), 18 m². The door, the shoe area, the tiny kitchen strip on the left,
+      the bed with a grey duvet on storage drawers by the window, the folding table, the clothes rack.
+      On the shelf, a framed photo of four people (two parents, a boy of about 14, a baby).
+      Taeo, back to us, drops his backpack (patch visible) and turns on a desk lamp: warm orange light on one side, blue shadow on the other.
+    calm: top-left
+    lines:
+      - {who: narr, type: tag, text: "11:52 PM"}
+
+  - id: P48
+    shape: wide
+    gap: short
+    bg: white
+    camera: "medium, low, Taeo sitting on the floor against the bed"
+    art: >
+      Taeo sits on the floor with his back against the bed, knees up, facing the empty air in front of him at eye level
+      (the letterer places a small window there). He talks to it with a stubborn frown, like arguing with a vending machine.
+    calm: top
+    ui:
+      - {kind: system.notice_small, on: float, text: "[FIRST SUMMON AVAILABLE]"}
+    lines:
+      - {who: taeo, type: speech, side: l, text: "I'M NOT GOING INTO A DUNGEON."}
+
+  - id: P49
+    shape: strip
+    gap: short
+    bg: white
+    camera: "extreme close-up of Taeo's eyes"
+    art: >
+      Extreme close-up of Taeo's eyes, the cyan of the window reflected in them as two small squares. Curiosity winning.
+    calm: right
+    lines:
+      - {who: taeo, type: speech, side: l, text: "I JUST WANT TO SEE."}
+
+  - id: P50
+    shape: wide
+    gap: short
+    bg: white
+    camera: "over Taeo's shoulder toward the floating window"
+    art: >
+      Over Taeo's shoulder: he reaches a finger toward the air where the window floats (letterer), and the window expands.
+      The lamp-lit room behind. Leave the centre of the frame empty air for the window.
+    calm: center
+    ui:
+      - {kind: system.window, on: float, headline: "[FIRST SUMMON AVAILABLE]", body: "[AVAILABLE DRAWS: 1]", button: "[DRAW]"}
+    sfx:
+      - {text: "DING", style: summon, at: [0.85, 0.15], size: M, rot: 0}
+
+  - id: P51
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "extreme close-up, his fingertip pressing"
+    art: >
+      Extreme close-up: Taeo's fingertip pressing into a flat plane of cyan light (the button; no text), with tiny ripple lines.
+    calm: none
+    sfx:
+      - {text: "TAP", style: quiet, at: [0.70, 0.70], size: S, rot: 0}
+
+  - id: P52
+    shape: full
+    gap: short
+    bg: white
+    camera: "high angle down on the floor of the flat"
+    art: >
+      A circle of cyan light spreads across the floor between the bed and the folding table, drawn with hard edges and a geometric ring pattern.
+      The folding table slides, a mug tips over. Taeo scrambles backwards onto the bed, knocking the lamp.
+      The room light shifts from warm orange to cyan.
+    calm: top
+    sfx:
+      - {text: "SHIIIIING", style: summon, at: [0.50, 0.25], size: L, rot: 0}
+
+  - id: P53
+    shape: tall
+    gap: short
+    bg: white
+    camera: "low, from the bed, looking at the circle"
+    art: >
+      A thin vertical seam of cyan-white light stands up out of the circle, from floor to ceiling, like a door opening by a hair's width.
+      The whole room is cyan now. Taeo's shadow is thrown huge across the wall and ceiling.
+      In the foreground, Taeo's hand is raised palm-out, trembling.
+    calm: top
+    lines:
+      - {who: taeo, type: nervous, side: l, text: "S-STAY."}
+
+  - id: P54
+    shape: bleed
+    gap: short
+    bg: black
+    camera: "low angle, Nib stepping out toward the camera, Taeo small at the edge"
+    art: >
+      THE HOOK (style test p3). Nib (nib: adult goblin scout, 105 cm, wiry, olive-green skin, spiky black hair,
+      long ears with a clear V-notch in the top of the LEFT ear, amber eyes, one small lower fang on the left,
+      torn pinkish-tan wrap top, charcoal shorts, brown rope belt, leather pouch on the right hip, knife in a brown wooden sheath on the left hip, barefoot)
+      steps out of the seam of light in a low crouch, hand on his knife, the blade half drawn.
+      His amber eyes catch the light. He is weathered, dangerous, scared and NOT cute.
+      Cyan rim light, hard shadows, a few sharp particles at the seam only.
+      Taeo is pressed against the bed at the frame's edge, small. The frame's bottom edge breaks its border.
+    calm: top
+    lines:
+      - {who: nib, type: speech, side: c, text: "WHERE AM I?"}
+
+  - id: P55
+    kind: end
+    gap: long
+    bg: white
+    end_text: "TO BE CONTINUED"
+    next: "NEXT · CHAPTER 2 · YOU FIRST"
+    chibi_gag: "Chibi Nib holds a cup of water at arm's length, staring at chibi Taeo, who sweats bullets."
