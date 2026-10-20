@@ -1,0 +1,102 @@
+{
+  "cast": {
+    "TAEO": {
+      "engine": "Kokoro 82M v1.0 FP32 ONNX; kokoro-onnx 0.6.1; onnxruntime 1.31.0",
+      "voice_id": "am_puck",
+      "settings": {
+        "lang": "en-us",
+        "speed": 0.98,
+        "trim": true,
+        "sentence_pause": 0.25,
+        "clause_pause": 0.1,
+        "gain": "min(1.8, 0.15/RMS, 0.88/peak)",
+        "pitch_shift": false,
+        "time_stretch": false
+      },
+      "assignment": "established",
+      "evidence": "Publisher supplied revised Chapters1–2 verified cast, main e05c596"
+    },
+    "NIB": {
+      "engine": "Kokoro 82M v1.0 FP32 ONNX; kokoro-onnx 0.6.1; onnxruntime 1.31.0",
+      "voice_id": "bm_fable",
+      "settings": {
+        "lang": "en-gb",
+        "speed": 0.94,
+        "trim": true,
+        "sentence_pause": 0.25,
+        "clause_pause": 0.1,
+        "gain": "min(1.8, 0.15/RMS, 0.88/peak)",
+        "pitch_shift": false,
+        "time_stretch": false
+      },
+      "assignment": "established",
+      "evidence": "Publisher supplied revised Chapters1–2 verified cast, main e05c596"
+    },
+    "COWORKER": {
+      "engine": "Kokoro 82M v1.0 FP32 ONNX; kokoro-onnx 0.6.1; onnxruntime 1.31.0",
+      "voice_id": "af_bella",
+      "settings": {
+        "lang": "en-us",
+        "speed": 1.02,
+        "trim": true,
+        "sentence_pause": 0.25,
+        "clause_pause": 0.1,
+        "gain": "min(1.8, 0.15/RMS, 0.88/peak)",
+        "pitch_shift": false,
+        "time_stretch": false
+      },
+      "assignment": "established",
+      "evidence": "Explicit publisher-supplied revisedChapters1–2 voice map in this conversation: coworker af_bella/en-us/1.02. This is the same shop coworker in Chapter4 script."
+    },
+    "DELIVERY WORKER": {
+      "engine": "Kokoro 82M v1.0 FP32 ONNX; kokoro-onnx 0.6.1; onnxruntime 1.31.0",
+      "voice_id": "bm_george",
+      "settings": {
+        "lang": "en-gb",
+        "speed": 1.0,
+        "trim": true,
+        "sentence_pause": 0.25,
+        "clause_pause": 0.1,
+        "gain": "min(1.8, 0.15/RMS, 0.88/peak)",
+        "pitch_shift": false,
+        "time_stretch": false
+      },
+      "assignment": "established",
+      "evidence": "Explicit publisher-supplied revisedChapters1–2 mapping; exact Chapter5 script identifies delivery worker from Chapter1."
+    },
+    "CUSTOMER": {
+      "engine": "Kokoro 82M v1.0 FP32 ONNX; kokoro-onnx 0.6.1; onnxruntime 1.31.0",
+      "voice_id": "bf_emma",
+      "settings": {
+        "lang": "en-gb",
+        "speed": 1.0,
+        "trim": true,
+        "sentence_pause": 0.25,
+        "clause_pause": 0.1,
+        "gain": "min(1.8, 0.15/RMS, 0.88/peak)",
+        "pitch_shift": false,
+        "time_stretch": false
+      },
+      "assignment": "established",
+      "evidence": "Explicit publisher-supplied revisedChapters1–2 customer mapping."
+    },
+    "MANAGER": {
+      "engine": "Kokoro 82M v1.0 FP32 ONNX; kokoro-onnx 0.6.1; onnxruntime 1.31.0",
+      "voice_id": "bm_lewis",
+      "settings": {
+        "lang": "en-gb",
+        "speed": 1.0,
+        "trim": true,
+        "sentence_pause": 0.25,
+        "clause_pause": 0.1,
+        "gain": "min(1.8, 0.15/RMS, 0.88/peak)",
+        "pitch_shift": false,
+        "time_stretch": false
+      },
+      "assignment": "new documented casting",
+      "direction": "calm practical delivery",
+      "evidence": "Explicit user production casting instruction2026-10-18: bm_lewis, en-gb, speed1.00. New role assignment; no claim of prior canon. Delivery direction is documented; no unsupported TTS prosody control is invented."
+    }
+  },
+  "audition_status": "No subjective audition performed. Five established voices retained; Manager is new explicitly authorized casting."
+}

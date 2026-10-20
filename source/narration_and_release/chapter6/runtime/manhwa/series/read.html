@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reading · Manhwa</title>
+  <link rel="stylesheet" href="series.css">
+  <script type="module" src="series.js"></script>
+</head>
+<body data-view="reader">
+  <header class="bar reader-bar">
+    <a id="back" class="back" href="./" aria-label="All chapters">← <span>Chapters</span></a>
+    <select id="pick" aria-label="Choose chapter" disabled><option>Loading…</option></select>
+    <nav class="nav" aria-label="Chapter navigation"><a id="prev" class="step" aria-label="Previous chapter" aria-disabled="true">‹</a><a id="next" class="step" aria-label="Next chapter" aria-disabled="true">›</a></nav>
+  </header>
+  <p id="status" class="status" role="status">Loading chapter…</p>
+  <main id="reader" hidden>
+    <div class="chapter-heading"><p id="series-name" class="eyebrow"></p><h1 id="chapter-title"></h1></div>
+    <section id="narration" class="narration" aria-label="Chapter narration" hidden>
+      <div class="narration-heading"><label for="audio">Listen while you read</label><button id="follow" type="button" aria-label="Follow narration" aria-pressed="true" title="Scroll with the narration. Scrolling the chapter yourself turns Follow off." hidden>Follow on</button></div>
+      <audio id="audio" controls preload="none"></audio>
+      <p id="audio-error" role="status" hidden>Narration is unavailable. You can keep reading.</p>
+    </section>
+    <div id="strip" class="strip" aria-label="Chapter pages"></div>
+    <section id="endnav" class="endnav"><p id="end-title"></p><a id="nextbig" class="button" hidden></a><a id="download-pdf" class="button secondary" download hidden>Download PDF</a><a id="all-chapters" class="button secondary">All chapters</a></section>
+  </main>
+  <noscript><p class="status">Please enable JavaScript to read this chapter.</p></noscript>
+</body>
+</html>

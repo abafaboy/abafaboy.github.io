@@ -1,0 +1,748 @@
+{
+  "schema": "msgf-chapter4-art-batch-v1",
+  "batch": "c04_p01_14",
+  "chapter": 4,
+  "script_file": "script.txt",
+  "script_sha256": "94635a4cf683117720444a8a7c96db4b7e679e7a9377baf58214ecb48e4cccee",
+  "assigned_panel_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "delivered_panel_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "panel_count": 14,
+  "coordinate_system": "original source pixels; rectangles [left,top,right,bottom], mouths [x,y]; crops exclude borders/gutters",
+  "generation_mode": "native image_gen.imagegen; original output bytes retained; revisions never overwritten",
+  "publisher": false,
+  "review_status": "candidate art; independent QA pending",
+  "hand_ledger": {
+    "TAEO_sensor": "RIGHT",
+    "TAEO_empty_pressure_palm": "LEFT",
+    "NIB_sensor": "LEFT",
+    "NIB_strap_thumb_and_pad_pressure": "RIGHT"
+  },
+  "notes": [
+    "Use exact per-panel mapping; panel1 and2 use different original revisions.",
+    "Historical/rejected raws remain provenance; never select by filename order.",
+    "Native scale edits can shift feet slightly; QA should review actual pixels and perspective.",
+    "No lettering or UI overlays baked into art. Two small trace blips on physical display are script-required source art.",
+    "Chae dialogue in dense acting panels may need negative space outside art in final lettering layout.",
+    "Independent reviewer and final publisher remain separate tasks."
+  ],
+  "panels": [
+    {
+      "panel_id": 1,
+      "source_image": "raw/provisional/My_Summons_Go_First_Ch4_Panels_01_14_Candidate/raw/p01_02_v5.png",
+      "source_sha256": "afe72a732386780f189b3086960fe211c6d7160e4488ae25e4cf9295840fb138",
+      "source_dimensions": [
+        1024,
+        1536
+      ],
+      "crop_xyxy": [
+        6,
+        6,
+        1018,
+        828
+      ],
+      "mouths": {
+        "CHAE": [
+          570,
+          182
+        ]
+      },
+      "negative_space_boxes": [
+        [
+          440,
+          15,
+          800,
+          85
+        ],
+        [
+          10,
+          20,
+          165,
+          270
+        ]
+      ],
+      "protected_boxes": [
+        [
+          180,
+          20,
+          435,
+          815
+        ],
+        [
+          465,
+          105,
+          752,
+          722
+        ],
+        [
+          634,
+          477,
+          789,
+          753
+        ]
+      ],
+      "prompt_file": "raw/p01_02_v5.prompt.txt",
+      "prompt_sha256": "593107e97e3b4383b6b23fe51b33769300cf3ba9378b343bb6d74ef14435b4f2",
+      "artist_source_check": "viewed current source pixels; candidate for independent review",
+      "artist_phone390_check": "viewed current actual 390px preview; candidate for independent review",
+      "independent_review": "pending",
+      "script_beat_exact": "Match the previous chapter's final wide composition, then move slightly closer. Chae approaches the equipment shelf, remaining in view of both participants.\n\n**CHAE:** Hold out a hand. Both of you.\n\nNib watches Taeo do it before opening his own hand.",
+      "phone_preview": "qa/phone390/panel_01.png",
+      "phone_preview_sha256": "260a127d052a3b02b353954f9818bb969437518d009ca7304149748100559744",
+      "cropped_inspection_copy": "qa/panel_crops/panel_01.png",
+      "mouth_coordinate_check": "source-pixel grid inspected; integer center of visible speaking mouth"
+    },
+    {
+      "panel_id": 2,
+      "source_image": "raw/provisional/My_Summons_Go_First_Ch4_Panels_01_14_Candidate/raw/p01_02_v3.png",
+      "source_sha256": "fdcfb9bfb32bee81b8165d46ad067b6caeda2c3eb3d970adc3c0ebdc823ddacb",
+      "source_dimensions": [
+        1024,
+        1536
+      ],
+      "crop_xyxy": [
+        6,
+        795,
+        1018,
+        1528
+      ],
+      "mouths": {
+        "CHAE": [
+          690,
+          936
+        ]
+      },
+      "negative_space_boxes": [
+        [
+          440,
+          1350,
+          570,
+          1500
+        ]
+      ],
+      "protected_boxes": [
+        [
+          238,
+          942,
+          435,
+          1102
+        ],
+        [
+          205,
+          1070,
+          440,
+          1528
+        ],
+        [
+          514,
+          1095,
+          632,
+          1205
+        ],
+        [
+          590,
+          795,
+          865,
+          1060
+        ],
+        [
+          535,
+          1040,
+          728,
+          1158
+        ],
+        [
+          15,
+          795,
+          240,
+          1390
+        ]
+      ],
+      "prompt_file": "raw/p01_02_v3.prompt.txt",
+      "prompt_sha256": "13f2fa72edd41307dc974fed8afe77b5108f1ec3a0ad9964e30c3fd26b0a1758",
+      "artist_source_check": "viewed current source pixels; candidate for independent review",
+      "artist_phone390_check": "viewed current actual 390px preview; candidate for independent review",
+      "independent_review": "pending",
+      "script_beat_exact": "Chae lays a small contact sensor in Nib's palm. Its casing is smooth, with a short wrist strap. An identical one already rests in Taeo's hand.\n\n**CHAE:** These only measure. They won't move either of you.\n\nNib turns his wrist to inspect it.",
+      "phone_preview": "qa/phone390/panel_02.png",
+      "phone_preview_sha256": "2bae9e2b51319bde5f34509347625db5e5c86a3b7ccd661ec1866decf921fbed",
+      "cropped_inspection_copy": "qa/panel_crops/panel_02.png",
+      "mouth_coordinate_check": "source-pixel grid inspected; integer center of visible speaking mouth"
+    },
+    {
+      "panel_id": 7,
+      "source_image": "raw/provisional/My_Summons_Go_First_Ch4_Panels_01_14_Candidate/raw/p07_08_v3.png",
+      "source_sha256": "a3a85b500d269c146de94889e401589f1b3ef1c324cb2f02cd56116d0f4f8ea9",
+      "source_dimensions": [
+        1024,
+        1536
+      ],
+      "crop_xyxy": [
+        6,
+        6,
+        1018,
+        988
+      ],
+      "mouths": {},
+      "negative_space_boxes": [
+        [
+          450,
+          10,
+          760,
+          100
+        ],
+        [
+          440,
+          840,
+          665,
+          970
+        ]
+      ],
+      "protected_boxes": [
+        [
+          120,
+          10,
+          442,
+          980
+        ],
+        [
+          489,
+          128,
+          674,
+          817
+        ],
+        [
+          700,
+          550,
+          867,
+          925
+        ]
+      ],
+      "prompt_file": "raw/p07_08_v3.prompt.txt",
+      "prompt_sha256": "fc4b77709ebddf82a08eb776b4b556196b960482ed7a810b27c99b06b35173e6",
+      "artist_source_check": "viewed current source pixels; candidate for independent review",
+      "artist_phone390_check": "viewed current actual 390px preview; candidate for independent review",
+      "independent_review": "pending",
+      "script_beat_exact": "Taeo exhales. His shoulders drop. He looks back at Nib without fixing his expression in place.\n\nNib has adjusted the oversized wrist strap. The loose end keeps slipping from his fingers.",
+      "phone_preview": "qa/phone390/panel_07.png",
+      "phone_preview_sha256": "fb66318ea028548513d692f3e53afcc1d54fc608acc8584434405d0e0550a821",
+      "cropped_inspection_copy": "qa/panel_crops/panel_07.png",
+      "mouth_coordinate_check": "source-pixel grid inspected; integer center of visible speaking mouth"
+    },
+    {
+      "panel_id": 8,
+      "source_image": "raw/provisional/My_Summons_Go_First_Ch4_Panels_01_14_Candidate/raw/p07_08_v3.png",
+      "source_sha256": "a3a85b500d269c146de94889e401589f1b3ef1c324cb2f02cd56116d0f4f8ea9",
+      "source_dimensions": [
+        1024,
+        1536
+      ],
+      "crop_xyxy": [
+        6,
+        1008,
+        1018,
+        1528
+      ],
+      "mouths": {},
+      "negative_space_boxes": [],
+      "protected_boxes": [
+        [
+          6,
+          1008,
+          1018,
+          1528
+        ]
+      ],
+      "prompt_file": "raw/p07_08_v3.prompt.txt",
+      "prompt_sha256": "fc4b77709ebddf82a08eb776b4b556196b960482ed7a810b27c99b06b35173e6",
+      "artist_source_check": "viewed current source pixels; candidate for independent review",
+      "artist_phone390_check": "viewed current actual 390px preview; candidate for independent review",
+      "independent_review": "pending",
+      "script_beat_exact": "Nib traps the loose strap against the sensor with his thumb and presses it flat.\n\nClose enough to see the ordinary thumb pressure, with no light or magical effect.",
+      "phone_preview": "qa/phone390/panel_08.png",
+      "phone_preview_sha256": "9238068fe3aff75f3dbf2719ca9a9498c217cae3f4b9f98fa6189b00605131db",
+      "cropped_inspection_copy": "qa/panel_crops/panel_08.png",
+      "mouth_coordinate_check": "source-pixel grid inspected; integer center of visible speaking mouth"
+    },
+    {
+      "panel_id": 9,
+      "source_image": "raw/provisional/My_Summons_Go_First_Ch4_Panels_01_14_Candidate/raw/p09_10_v2.png",
+      "source_sha256": "a8065db53b0bb6941cc107311e957cdb3f269f1da68365d9bef100b78fcbbe1c",
+      "source_dimensions": [
+        1024,
+        1536
+      ],
+      "crop_xyxy": [
+        6,
+        6,
+        1018,
+        740
+      ],
+      "mouths": {
+        "TAEO": [
+          368,
+          216
+        ]
+      },
+      "negative_space_boxes": [
+        [
+          520,
+          20,
+          760,
+          180
+        ]
+      ],
+      "protected_boxes": [
+        [
+          210,
+          6,
+          517,
+          320
+        ],
+        [
+          415,
+          360,
+          597,
+          566
+        ],
+        [
+          160,
+          476,
+          347,
+          600
+        ],
+        [
+          780,
+          365,
+          926,
+          699
+        ]
+      ],
+      "prompt_file": "raw/p09_10_v2.prompt.txt",
+      "prompt_sha256": "328bc7c025dc22f9b8886d0648db2beebd030f535411a8a7a71a4d0e2a9626ba",
+      "artist_source_check": "viewed current source pixels; candidate for independent review",
+      "artist_phone390_check": "viewed current actual 390px preview; candidate for independent review",
+      "independent_review": "pending",
+      "script_beat_exact": "Taeo opens his free hand abruptly and looks down at its palm.\n\n**TAEO:** Wait.\n\nHis sensor is in the other hand. Nothing touches this palm.",
+      "phone_preview": "qa/phone390/panel_09.png",
+      "phone_preview_sha256": "eab2bd2390c141b8b398e6edc66822dc433dfd0c948ee1ff3f9ddc17a464b614",
+      "cropped_inspection_copy": "qa/panel_crops/panel_09.png",
+      "mouth_coordinate_check": "source-pixel grid inspected; integer center of visible speaking mouth"
+    },
+    {
+      "panel_id": 10,
+      "source_image": "raw/provisional/My_Summons_Go_First_Ch4_Panels_01_14_Candidate/raw/p09_10_v2.png",
+      "source_sha256": "a8065db53b0bb6941cc107311e957cdb3f269f1da68365d9bef100b78fcbbe1c",
+      "source_dimensions": [
+        1024,
+        1536
+      ],
+      "crop_xyxy": [
+        6,
+        765,
+        1018,
+        1528
+      ],
+      "mouths": {
+        "TAEO": [
+          337,
+          906
+        ],
+        "CHAE": [
+          564,
+          919
+        ]
+      },
+      "negative_space_boxes": [
+        [
+          665,
+          780,
+          1000,
+          1020
+        ]
+      ],
+      "protected_boxes": [
+        [
+          188,
+          768,
+          474,
+          992
+        ],
+        [
+          195,
+          1082,
+          483,
+          1218
+        ],
+        [
+          698,
+          1034,
+          919,
+          1206
+        ],
+        [
+          670,
+          1230,
+          941,
+          1390
+        ],
+        [
+          418,
+          800,
+          660,
+          1528
+        ]
+      ],
+      "prompt_file": "raw/p09_10_v2.prompt.txt",
+      "prompt_sha256": "328bc7c025dc22f9b8886d0648db2beebd030f535411a8a7a71a4d0e2a9626ba",
+      "artist_source_check": "viewed current source pixels; candidate for independent review",
+      "artist_phone390_check": "viewed current actual 390px preview; candidate for independent review",
+      "independent_review": "pending",
+      "script_beat_exact": "Nib releases the strap and looks up.\n\n**TAEO:** There was something. Here.\n\nHe touches the center of his empty palm with one finger.\n\n**CHAE:** What did it feel like?",
+      "phone_preview": "qa/phone390/panel_10.png",
+      "phone_preview_sha256": "a4c72a989ad027fe5a73cb29466b46afc0787253f7da823e516e3c1138a1b4c5",
+      "cropped_inspection_copy": "qa/panel_crops/panel_10.png",
+      "mouth_coordinate_check": "source-pixel grid inspected; integer center of visible speaking mouth"
+    },
+    {
+      "panel_id": 11,
+      "source_image": "raw/provisional/My_Summons_Go_First_Ch4_Panels_01_14_Candidate/raw/p11_12_v3.png",
+      "source_sha256": "14ff1263495743c2ad9831068ba1e419888671b8201b693d8cfe23ddb9534020",
+      "source_dimensions": [
+        1024,
+        1536
+      ],
+      "crop_xyxy": [
+        6,
+        6,
+        1018,
+        775
+      ],
+      "mouths": {
+        "TAEO": [
+          259,
+          123
+        ]
+      },
+      "negative_space_boxes": [
+        [
+          375,
+          15,
+          590,
+          350
+        ]
+      ],
+      "protected_boxes": [
+        [
+          100,
+          15,
+          369,
+          770
+        ],
+        [
+          299,
+          211,
+          368,
+          282
+        ],
+        [
+          449,
+          435,
+          585,
+          718
+        ],
+        [
+          615,
+          20,
+          926,
+          291
+        ],
+        [
+          864,
+          140,
+          1018,
+          670
+        ]
+      ],
+      "prompt_file": "raw/p11_12_v3.prompt.txt",
+      "prompt_sha256": "0c335472f911d555d8900c20b78829a5cf0386e7649b200b24e101dc92a1f27a",
+      "artist_source_check": "viewed current source pixels; candidate for independent review",
+      "artist_phone390_check": "viewed current actual 390px preview; candidate for independent review",
+      "independent_review": "pending",
+      "script_beat_exact": "**TAEO:** Like someone pressing it.\n\nHe looks from his hand to Nib's.\n\nChae checks the instrument. A brief disturbance is visible in each trace at the same point on the display. Keep the graphic simple, without numbers or a diagnostic label.",
+      "phone_preview": "qa/phone390/panel_11.png",
+      "phone_preview_sha256": "c7363b29d9b73e701b9828d2466faab580dba448f0a39d9d54dfa7b9e3fef2c3",
+      "cropped_inspection_copy": "qa/panel_crops/panel_11.png",
+      "mouth_coordinate_check": "source-pixel grid inspected; integer center of visible speaking mouth"
+    },
+    {
+      "panel_id": 12,
+      "source_image": "raw/provisional/My_Summons_Go_First_Ch4_Panels_01_14_Candidate/raw/p11_12_v3.png",
+      "source_sha256": "14ff1263495743c2ad9831068ba1e419888671b8201b693d8cfe23ddb9534020",
+      "source_dimensions": [
+        1024,
+        1536
+      ],
+      "crop_xyxy": [
+        6,
+        804,
+        1018,
+        1528
+      ],
+      "mouths": {
+        "CHAE": [
+          592,
+          1034
+        ],
+        "NIB": [
+          746,
+          1237
+        ]
+      },
+      "negative_space_boxes": [
+        [
+          690,
+          817,
+          958,
+          1100
+        ]
+      ],
+      "protected_boxes": [
+        [
+          233,
+          804,
+          500,
+          1060
+        ],
+        [
+          110,
+          1240,
+          244,
+          1460
+        ],
+        [
+          371,
+          1330,
+          456,
+          1510
+        ],
+        [
+          500,
+          880,
+          670,
+          1120
+        ],
+        [
+          423,
+          1130,
+          639,
+          1260
+        ],
+        [
+          670,
+          1140,
+          936,
+          1528
+        ]
+      ],
+      "prompt_file": "raw/p11_12_v3.prompt.txt",
+      "prompt_sha256": "0c335472f911d555d8900c20b78829a5cf0386e7649b200b24e101dc92a1f27a",
+      "artist_source_check": "viewed current source pixels; candidate for independent review",
+      "artist_phone390_check": "viewed current actual 390px preview; candidate for independent review",
+      "independent_review": "pending",
+      "script_beat_exact": "Chae turns the display so they can see it.\n\n**CHAE:** Both readings changed there.\n\nNib looks at the two short marks.\n\n**NIB:** Is that the way back?",
+      "phone_preview": "qa/phone390/panel_12.png",
+      "phone_preview_sha256": "b419b172c460d62cf4d413c9b23dab9c6d38532d9c4a99cafbc3c9797d6c6d40",
+      "cropped_inspection_copy": "qa/panel_crops/panel_12.png",
+      "mouth_coordinate_check": "source-pixel grid inspected; integer center of visible speaking mouth"
+    },
+    {
+      "panel_id": 13,
+      "source_image": "raw/provisional/My_Summons_Go_First_Ch4_Panels_01_14_Candidate/raw/p13_14_v3.png",
+      "source_sha256": "a7c3d0f82214541ff09d3fae1f0dd96f769494882069dda63c14e13c209611ee",
+      "source_dimensions": [
+        1024,
+        1536
+      ],
+      "crop_xyxy": [
+        6,
+        6,
+        1018,
+        889
+      ],
+      "mouths": {
+        "CHAE": [
+          547,
+          198
+        ]
+      },
+      "negative_space_boxes": [
+        [
+          360,
+          15,
+          430,
+          260
+        ],
+        [
+          655,
+          20,
+          930,
+          290
+        ]
+      ],
+      "protected_boxes": [
+        [
+          130,
+          20,
+          358,
+          360
+        ],
+        [
+          111,
+          360,
+          200,
+          534
+        ],
+        [
+          298,
+          426,
+          357,
+          555
+        ],
+        [
+          440,
+          105,
+          645,
+          850
+        ],
+        [
+          750,
+          494,
+          868,
+          834
+        ]
+      ],
+      "prompt_file": "raw/p13_14_v3.prompt.txt",
+      "prompt_sha256": "09dc7f3618f39410df799e7ed20c3772c52fc9fffc268b10489488030c269774",
+      "artist_source_check": "viewed current source pixels; candidate for independent review",
+      "artist_phone390_check": "viewed current actual 390px preview; candidate for independent review",
+      "independent_review": "pending",
+      "script_beat_exact": "Chae's answer comes without a dramatic pause.\n\n**CHAE:** Not by itself. We need to find out what passed between you.\n\nTaeo lowers his hand. Nib looks at the sensor again.\n",
+      "phone_preview": "qa/phone390/panel_13.png",
+      "phone_preview_sha256": "50b5d32ffbcfbc7341d48863e605ed0940f8ee2df06d2ee0002f8d6d838f8dd3",
+      "cropped_inspection_copy": "qa/panel_crops/panel_13.png",
+      "mouth_coordinate_check": "source-pixel grid inspected; integer center of visible speaking mouth"
+    },
+    {
+      "panel_id": 14,
+      "source_image": "raw/provisional/My_Summons_Go_First_Ch4_Panel_14_Pad_Repair/raw/p14_pad_indent_v2.png",
+      "source_sha256": "e37fb67d16eb0f3960258c77ba64fa43da0957fed661549f8000d9fe6553595d",
+      "source_dimensions": [
+        1024,
+        1536
+      ],
+      "crop_xyxy": [
+        6,
+        912,
+        1018,
+        1528
+      ],
+      "mouths": {
+        "CHAE": [
+          507,
+          1027
+        ]
+      },
+      "negative_space_boxes": [],
+      "protected_boxes": [
+        [
+          233,
+          912,
+          596,
+          1528
+        ],
+        [
+          642,
+          958,
+          905,
+          1528
+        ],
+        [
+          444,
+          1248,
+          529,
+          1365
+        ],
+        [
+          377,
+          1316,
+          688,
+          1456
+        ],
+        [
+          555,
+          1294,
+          645,
+          1355
+        ],
+        [
+          738,
+          1172,
+          843,
+          1261
+        ],
+        [
+          44,
+          914,
+          230,
+          1438
+        ],
+        [
+          430,
+          1300,
+          580,
+          1400
+        ]
+      ],
+      "prompt_file": "raw/p14_pad_indent_v2.prompt.txt",
+      "prompt_sha256": "4d9ac76abd669fc2047f93caa239872b23d361f1de38c066d82d171b9ff494ac",
+      "artist_source_check": "current repaired source pixels inspected",
+      "artist_phone390_check": "current 390px preview inspected; visible foam indentation under two fingertips",
+      "independent_review": "pending repair recheck",
+      "script_beat_exact": "Chae puts a thick, soft test pad on the low stool beside Nib. She presses it once with two fingers; it indents easily and springs back.\n\n**CHAE:** Nib, press this with your free hand when I point. Gently.\n\nNib feels the surface before nodding once.",
+      "phone_preview": "qa/panel_14_phone390.png",
+      "phone_preview_sha256": "106033a0131db23b9d18c7280d2e061f56a744e5f982d023c77fce5a4a76108f",
+      "cropped_inspection_copy": "qa/panel_14_source_crop.png",
+      "mouth_coordinate_check": "source-pixel grid inspected; integer center of visible speaking mouth"
+    }
+  ]
+}

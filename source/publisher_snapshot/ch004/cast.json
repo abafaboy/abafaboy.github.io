@@ -1,0 +1,65 @@
+{
+  "cast": {
+    "TAEO": {
+      "engine": "Kokoro 82M v1.0 FP32 ONNX; kokoro-onnx 0.6.1; onnxruntime 1.31.0",
+      "voice_id": "am_puck",
+      "settings": {
+        "lang": "en-us",
+        "speed": 0.98,
+        "trim": true,
+        "sentence_pause": 0.25,
+        "clause_pause": 0.1,
+        "gain": "min(1.8, 0.15/RMS, 0.88/peak)",
+        "pitch_shift": false,
+        "time_stretch": false
+      },
+      "assignment": "established"
+    },
+    "NIB": {
+      "engine": "Kokoro 82M v1.0 FP32 ONNX; kokoro-onnx 0.6.1; onnxruntime 1.31.0",
+      "voice_id": "bm_fable",
+      "settings": {
+        "lang": "en-gb",
+        "speed": 0.94,
+        "trim": true,
+        "sentence_pause": 0.25,
+        "clause_pause": 0.1,
+        "gain": "min(1.8, 0.15/RMS, 0.88/peak)",
+        "pitch_shift": false,
+        "time_stretch": false
+      },
+      "assignment": "established"
+    },
+    "CHAE": {
+      "engine": "Kokoro 82M v1.0 FP32 ONNX; kokoro-onnx 0.6.1; onnxruntime 1.31.0",
+      "voice_id": "bf_emma",
+      "settings": {
+        "lang": "en-gb",
+        "speed": 0.98,
+        "trim": true,
+        "sentence_pause": 0.25,
+        "clause_pause": 0.1,
+        "gain": "min(1.8, 0.15/RMS, 0.88/peak)",
+        "pitch_shift": false,
+        "time_stretch": false
+      },
+      "assignment": "new"
+    },
+    "COWORKER": {
+      "engine": "Kokoro 82M v1.0 FP32 ONNX; kokoro-onnx 0.6.1; onnxruntime 1.31.0",
+      "voice_id": "af_bella",
+      "settings": {
+        "lang": "en-us",
+        "speed": 1.02,
+        "trim": true,
+        "sentence_pause": 0.25,
+        "clause_pause": 0.1,
+        "gain": "min(1.8, 0.15/RMS, 0.88/peak)",
+        "pitch_shift": false,
+        "time_stretch": false
+      },
+      "assignment": "established"
+    }
+  },
+  "audition_status": "No subjective listening capability; established voice assignments and settings retained"
+}

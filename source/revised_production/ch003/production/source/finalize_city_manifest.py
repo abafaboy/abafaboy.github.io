@@ -1,0 +1,19 @@
+from pathlib import Path
+import hashlib,json
+R=Path(__file__).resolve().parents[1]; P=R/'source/manifest_21_40.json'
+data=json.loads(P.read_text())
+def add(id,src,crop,mouths,neg,protect,beat,qa,review='pending'):
+ path=R/'raw/batch_21_40'/src
+ panel={'panel_id':id,'source_image':str(path.relative_to(R)),'crop_xyxy':crop,'mouths':mouths,'negative_space_boxes':neg,'protected_boxes':protect,'beat':beat,'qa':qa,'source_size':[1024,1536],'source_sha256':hashlib.sha256(path.read_bytes()).hexdigest(),'source_reviewed':True,'phone_390_reviewed':True,'independent_review_status':review}
+ data['panels']=[x for x in data['panels'] if x['panel_id']!=id]+[panel]
+add(22,'p021_022_v4.png',[8,735,1017,1526],{'TAEO':[398,843]},[[550,778,820,1130]],[[317,742,461,883],[551,1182,697,1445]],'Taeo acknowledges and opens entrance door while Nib checks hall and goes first.','Source and390 reviewed. Nib head corrected to Taeo mid-thigh. Door corrected to viewer-right hinges matching prior closed-door geography.')
+add(27,'p027_028_v3.png',[8,8,1017,748],{},[],[[637,206,898,491],[161,457,399,748]],'Nib observes worker waiting at crossing with a silent wooden porter carrying two cases.','Source and390 reviewed. Exactly two strapped cases; silent construct and mature observer, no lore text.')
+add(28,'p027_028_v3.png',[8,777,1017,1530],{'NIB':[358,1315],'TAEO':[640,876]},[[45,807,480,1000],[35,1030,330,1210]],[[525,778,765,943],[245,1249,419,1530],[344,950,532,1492]],'Nib comments on unremarked porter; Taeo explains summons are familiar as one passerby glances and continues.','Source and390 reviewed. Nib reduced for mid-thigh stature; both mouths open, passerby glance remains clear.')
+add(29,'p029_030_v3.png',[8,8,1017,758],{'TAEO':[365,164],'NIB':[519,550]},[[525,35,984,185],[650,340,990,540]],[[280,34,444,218],[574,230,758,287],[440,489,609,758]],'Nib chooses to leave recess and asks direction; Taeo points down pavement.','Source and390 reviewed. Both mouths speaking, pointer hand coherent, small adult proportions corrected.')
+add(30,'p029_030_v3.png',[8,784,1017,1528],{},[],[[630,797,768,920],[521,916,770,1480],[282,1134,438,1446]],'Taeo notices Nib trailing and shortens walking stride; Nib notices silently.','Source and390 reviewed. Shorter stride and backward glance read, Nib stature corrected.')
+add(35,'p035_036_v1.png',[8,6,1017,810],{'TAEO':[366,266],'NIB':[503,419]},[[214,22,493,135],[750,261,990,505]],[[245,151,411,332],[467,341,624,449],[470,489,523,540]],'Taeo watches TV with small unguarded smile; Nib asks if he knows Seoryun; Taeo responds.','Source and390 reviewed. Smile and open speaking mouths clear, seated support/hand anatomy coherent.')
+add(36,'p035_036_v1.png',[8,835,1017,1528],{},[[628,875,950,1107]],[[307,884,635,1201],[45,1170,265,1370],[45,1370,972,1422]],'On TV Seoryun accepts drink from tired teammate while listening; Taeo recounts childhood rescue memory offscreen.','Source and390 reviewed. Exact lower-third, passive listening face, drink handoff legible with naturally occluded fingers.')
+add(37,'p037_038_v1.png',[8,8,1017,738],{'TAEO':[457,262]},[[690,40,983,426]],[[300,10,662,347],[373,601,613,738]],'Taeo speaks to Nib about families seeing rescued people emerge, and says he liked that part.','Source and390 reviewed. Intimate eye line downward to Nib, visibly speaking mouth, natural hands and quiet expression.')
+add(38,'p037_038_v1.png',[8,765,1017,1528],{},[],[[218,782,427,982],[580,988,810,1505],[783,770,1015,998]],'Nib studies Taeo then returns attention to television; interview and crew work continue without them.','Source and390 reviewed. Silent adult expression, continuous room geography, no extra plot or text.')
+data['panels'].sort(key=lambda p:p['panel_id']);P.write_text(json.dumps(data,indent=2)+'\n')
+print('Panels:',[p['panel_id'] for p in data['panels']])
