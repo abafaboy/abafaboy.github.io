@@ -124,6 +124,9 @@ panels:
       Behind him: cigarette shelves drawn as simplified blocks, a small TV mounted high (screen: green), a coffee cup by the till.
       Fluorescent pale green-white light. Flat colours, one hard shadow tone.
     calm: top-right
+    ui:
+      - {kind: tv.lowerthird, on: screen, text: "RETAIL CHAINS TO TRIAL CONSTRUCT NIGHT STAFF", ticker: "GATE ADVISORY · SEOGYO-DONG, MAPO-GU · AVOID THE AREA"}
+    notes: "The TV news plants the construct-stocker announcement in P10."
     lines:
       - {who: customer_woman, type: speech, side: l, text: "THESE WERE TWO FOR ONE."}
       - {who: taeo, type: speech, side: r, text: "THAT ENDED YESTERDAY."}
@@ -273,11 +276,15 @@ panels:
     camera: "establishing, the break room seen from its doorway"
     art: >
       The Hanbit Mart break room: tiny, with lockers, a microwave on a fridge, a folding table and a plastic stool.
-      On the wall is the rota whiteboard: a grid of days with names written in marker; draw the handwriting as squiggles,
-      except that in the SUNDAY column the name is clearly "TAEO".
-      Taeo sits on the stool eating a triangle kimbap, his phone propped against a cup in front of him (screen: green).
+      On the wall is the rota whiteboard: a grid of days with names written in marker as squiggles. The SUNDAY column
+      has one clean empty box, outlined in red marker (leave it blank; the letterer writes the name in it).
+      Taeo sits on the stool eating a triangle kimbap, his phone propped against a cup in front of him (screen: green):
+      an incoming call is lighting it up.
       Warm fluorescent light. Cosy and cramped.
     calm: top-left
+    ui:
+      - {kind: phone.ttok_call, on: screen, caller: "Grandma"}
+      - {kind: label, text: "TAEO", at: [0.5, 0.3], notes: "move onto the SUNDAY box once the art exists"}
     lines:
       - {who: narr, type: tag, text: "10:20 PM"}
 
@@ -329,10 +336,11 @@ panels:
     camera: "over Taeo's shoulder: the phone in the foreground, the rota whiteboard behind"
     art: >
       Over Taeo's shoulder. In the foreground, the propped phone (screen: green). Beyond it, on the wall, the rota whiteboard
-      with "TAEO" written under SUNDAY. Taeo's eyes are on the whiteboard, not the phone.
+      with the red-outlined box under SUNDAY (blank; the letterer writes the name). Taeo's eyes are on the whiteboard, not the phone.
     calm: top-left
     ui:
       - {kind: phone.ttok_video_call, on: screen, caller: "Grandma"}
+      - {kind: label, text: "TAEO", at: [0.7, 0.3], notes: "move onto the SUNDAY box once the art exists"}
     lines:
       - {who: haru, type: phone, side: l, text: "ARE YOU COMING THIS SUNDAY?"}
       - {who: taeo, type: speech, side: r, text: "I'LL ASK ABOUT SWAPPING."}

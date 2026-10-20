@@ -87,3 +87,12 @@ Rules:
 5. Every beat in `story_beats` is delivered. Every plant used is logged in `notes` as `PLANT P07`.
 6. Each speech bubble holds at most 18 words. Split longer lines into two bubbles, chained.
 7. Prices, times and counts are exact and consistent with earlier chapters.
+
+## Letterer features (autostrip2)
+- `focus: [x, y]` on a panel: the point (0–1 fractions of the art) the letterer keeps when it crops the art to the panel shape. Default centre.
+- **Kit phone hands.** For a phone close-up, a panel may use one of the UI kit's drawn phone hands instead of new art. Set `art: "KIT HAND"` and put `hand: <id>` in the phone's `ui` entry (`on: screen`). Ids: `taeo_right_front`, `taeo_left_tilt`, `taeo_thumb_tap`, `taeo_pov_ots`, `grandma_phone`, `chae_tablet`, `phone_on_table`. Use them on narrow, inset or tall panels. This saves an image generation, so prefer it for plain "Taeo reads his phone" beats.
+- **System windows** (`on: float`) accept `at: [x, y]` (the window's top centre as fractions of the panel), `tilt` (degrees of perspective turn, default ±8) and `mirror: true` (seen from behind, so the text reads reversed).
+- **Screens.** Write "screen: green" in `art` only when the same panel has a `ui` entry with `on: screen` that fills it. A green screen with no `ui` is blacked out by the letterer and flagged.
+- **Placement.** Lines are lettered in the white space around a panel, straddling its edge, in reading order: the first half above, the rest below (all below when `calm` is a bottom zone). Two lines from speakers on opposite sides (`side: l` and `side: r`) are set as a staggered pair. On `inset-*` and `narrow-*` panels the lines sit in a column beside the panel; keep those at most 12 words, and put shouts on wide, full, tall or bleed panels. Keep at most 3 lines per panel.
+- **Name captions.** On a character's first appearance, `intro: "SEO JIWON · S-RANK · SUNLINE"` on the panel adds a nameplate (name, then role) at its lower left. Use it once per major character.
+- **YAML note.** `on:` is read correctly by the letterer even though YAML 1.1 treats a bare `on` key as a boolean; write it as in ch001.

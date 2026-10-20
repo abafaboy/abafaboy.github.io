@@ -78,3 +78,25 @@ Chibi is for comedy beats only. Every chapter will use 1–3 chibi panels or ins
 
 ## 5. Step 4 (after the owner picks): redo the model sheets
 Redo every turnaround, expressions sheet and details sheet in the chosen method. Do the same for the location keys and the original style-test panels. Keep the earlier sheets in `characters/_v1/` for reference; do not delete them.
+
+## 6. DECISION (owner, 21 October 2026): method B
+The owner looked at `compare.png` and chose **method B**: one pass, using the TECHNIQUE BLOCK plus your `STUDY_NOTES.md`.
+- Use B for **all** art from now on: chibi sheets, model sheets, location keys and chapter panels.
+- Do **not** use the two-pass ink-first method (C/D). The finishing script is not needed.
+- Keep A, C and D files where they are. Do not delete anything.
+
+**Now do Step 3 and then Step 4, without stopping in between.**
+1. **Step 3 (chibi).** Make `characters/<id>/chibi.png` for taeo, nib, eunchae, haru and grandma, in method B.
+2. **Step 4 (model sheets).** Redo the sheets in method B, in this order:
+   - taeo and nib first: turnaround, expressions and details;
+   - then grandma, haru, eunchae, chae, minho, seoryun, courier (with golem), manager and grandpa;
+   - then the location keys (hanbit_mart, taeo_flat, assessment_office, survey_yard).
+
+   Move the old files to `characters/_v1/<id>/` first.
+
+**Continuity locks.** Check these in every view before you accept an image:
+- **Nib:** a clear V-notch in the top edge of his LEFT ear; one small lower fang on the left; brown rope belt; leather pouch on the RIGHT hip; brown wooden knife sheath on the LEFT hip; adult, wiry, weathered, never cute; 105 cm (his head reaches Taeo's belt).
+- **Taeo:** exactly ONE small mole, under his RIGHT eye; 181 cm; the olive backpack with the faded orange shield-and-open-door patch; a dark grey phone with a hairline crack in the top-left corner of the glass.
+- **No text in any art.** Name tags and signs stay blank; the letterer adds text.
+
+When taeo and nib are done, write `characters/READY_TAEO_NIB.md` listing their new files, then carry on with the rest. At the end, update `characters/REPORT.md`.
