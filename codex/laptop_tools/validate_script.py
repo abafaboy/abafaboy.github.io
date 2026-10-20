@@ -7,7 +7,10 @@ import re
 import sys
 from collections import Counter
 
-import yaml
+import os
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))  # bundled pure-Python PyYAML in tools/yaml (no install needed)
+import yaml  # noqa: E402
 
 
 
