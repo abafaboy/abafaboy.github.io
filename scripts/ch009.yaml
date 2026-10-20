@@ -16,7 +16,7 @@ extras:
   crew: "two Ryu Survey crew members: a stocky man in his forties and a young woman, both in red-orange safety vests over work clothes, hard hats clipped to their belts (as ch 7)"
   stocker: "the construct stocker from ch 5: a sleek, pale, faceless mannequin construct about 180 cm tall with smooth jointed limbs, in a grey-green Hanbit Mart cap; identical, perfect motions (match ch005's design)"
   guard: "GMA lobby security guard: a broad man in his fifties, navy security uniform with a radio on the shoulder, reading glasses pushed up on his head; tired and decent"
-  aao_chief: "the AAO Mapo branch chief, Chae's boss and old mentor (unnamed; the friendship breaks at ch 92): a man of about 58, thinning grey hair combed neatly, reading glasses pushed up on his forehead, a grey cardigan over a white shirt and a dark tie, the same lanyard as Chae; a kind, careful face that has survived thirty years of audits"
+  aao_supervisor: "Chae's supervisor at the AAO (ch 4: 'MY SUPERVISOR WILL ASK WHY.'; it was his call that cut her off in ch 4), her boss and old mentor (unnamed; first drawn here; the friendship breaks at ch 92): a man of about 58, thinning grey hair combed neatly, reading glasses pushed up on his forehead, a grey cardigan over a white shirt and a dark tie, the same lanyard as Chae; a kind, careful face that has survived thirty years of audits"
   panel_chair: "presiding member of the classification panel: a woman in her early sixties, short iron-grey bob, half-moon reading glasses on a thin chain, dark navy jacket over a grey blouse, GMA lanyard; dry, tired, fair"
   panel_tech: "technical member: a man in his mid-forties, black buzz cut greying at the sides, square dark-rimmed glasses, pale blue shirt with the sleeves rolled, GMA lanyard, a laptop; sceptical"
   panel_legal: "legal member: a woman in her mid-thirties, short black pixie cut, black blazer over a cream knit top, GMA lanyard, a fountain pen and a notepad; attentive (must not resemble Chae: no bob, no cardigan)"
@@ -135,10 +135,11 @@ panels:
     camera: "top-down on the folding table, lamp light"
     art: >
       Taeo's flat at night (taeo_flat), top-down on the pale wooden folding table under the warm desk lamp. Nib's olive-green hand slides a small carbon-copy receipt
-      (handwriting drawn as squiggles, no numerals) into a clear plastic document folder that already holds a short stack of them. Beside the folder: Eunchae's pencil,
-      with the tiny three-line fork carved near its end, and Taeo's mug (plain white, one thin green band). Warm lamp orange, deep blue-grey at the edges. No text.
+      (handwriting drawn as squiggles, no numerals) into a clear plastic document folder that already holds a short stack of them. Beside the folder: a flat old biscuit tin with its lid
+      off, holding his folded pale sage-green banknotes (no numerals); Eunchae's pencil, with the tiny three-line fork carved near its end; and Taeo's mug (plain white,
+      one thin green band). Warm lamp orange, deep blue-grey at the edges. No text.
     calm: none
-    notes: "The growing pile of receipts (beat). The folder is the clear one Taeo carried in ch 7 P03. Kett's mark on the pencil (ch 5): don't point it out."
+    notes: "The growing pile of receipts (beat). The folder is the clear one Taeo carried in ch 7 P03. The tin is where Nib's savings live (so ch 11 P47's pouch holds only that day's pay). Kett's mark on the pencil (ch 5): don't point it out."
 
   - id: P08
     shape: wide
@@ -259,8 +260,8 @@ panels:
     art: "KIT HAND"
     calm: none
     ui:
-      - {kind: phone.ttok_chat, on: screen, hand: taeo_right_front, title: "Eunchae", clock: "09:32", date: "SAT 8 APR", messages: [{from: them, text: "I've got your shift. Manager says fine.", time: "07:10"}, {from: them, text: "Tell Nib not to rush his vowels.", time: "07:11"}, {from: me, text: "Thank you. Sorry.", time: "09:31"}, {from: them, text: "Stop saying sorry.", time: "09:32"}]}
-    notes: "Why Taeo isn't at work on a weekend day. 'Don't rush his vowels' pays off at the ID card (P50). Taeo's sorry runner."
+      - {kind: phone.ttok_chat, on: screen, hand: taeo_right_front, title: "Eunchae", clock: "09:32", date: "SAT 8 APR", messages: [{from: them, text: "Just finished nights. I'm staying on for your shift. Manager says fine.", time: "07:10"}, {from: them, text: "Tell Nib not to rush his vowels.", time: "07:11"}, {from: me, text: "Thank you. Sorry.", time: "09:31"}, {from: them, text: "Stop saying sorry.", time: "09:32"}]}
+    notes: "Why Taeo isn't at work on a weekend day: Eunchae works nights beside the stocker (as ch 18 has it) and doubles on into his Saturday day shift. 'Don't rush his vowels' pays off at the ID card (P51). Taeo's sorry runner."
 
   - id: P15
     shape: wide
@@ -287,8 +288,8 @@ panels:
     art: >
       The long upstairs corridor (gma_hearing_room; see location_notes): pale walls, padded benches, a tall window at the far end, and on the right the hearing room's single
       wooden door with its narrow wired-glass window and a small exit sign above it (running-figure pictogram, no letters). Near the door, Dr. Pyo (dr_pyo: about 50, neat
-      grey suit, thin rimless glasses, greying hair combed back, the blank institute lanyard outside his jacket) hands one of his two paper coffee cups to the AAO branch
-      chief (extras.aao_chief), who takes it with the easy nod of an old acquaintance. Pyo has turned his head to greet Nib warmly as Nib walks straight past them without
+      grey suit, thin rimless glasses, greying hair combed back, the blank institute lanyard outside his jacket) hands one of his two paper coffee cups to Chae's
+      supervisor (extras.aao_supervisor), who takes it with the easy nod of an old acquaintance. Pyo has turned his head to greet Nib warmly as Nib walks straight past them without
       looking, eyes fixed on the hearing-room door, the empty sheath on his hip. Behind Nib, Taeo gives Pyo an awkward half-bow. In the near foreground, from behind, Chae
       (chae: chin-length brown bob, navy cardigan, lanyard, the blue-covered work tablet under her arm) has stopped at the corner, watching the coffee change hands.
       Cool white ceiling light. No text.
@@ -304,16 +305,16 @@ panels:
     bg: white
     camera: "two-shot in profile at the corridor window"
     art: >
-      At the tall window at the end of the corridor, the AAO branch chief (extras.aao_chief), coffee in hand, has drawn Chae aside. He speaks low and kindly, the way you
-      warn a friend; she stands straight with the tablet held flat against her chest, listening, not moving. Chief on the LEFT, Chae on the RIGHT. Through the glass behind
+      At the tall window at the end of the corridor, Chae's supervisor (extras.aao_supervisor), coffee in hand, has drawn Chae aside. He speaks low and kindly, the way you
+      warn a friend; she stands straight with the tablet held flat against her chest, listening, not moving. Supervisor on the LEFT, Chae on the RIGHT. Through the glass behind
       them, the plaza far below. Cool daylight from the window, hard-edged shadows. No text.
     calm: top
-    intro: "BRANCH CHIEF · ABILITY ASSESSMENT OFFICE, MAPO"
+    intro: "CHAE'S SUPERVISOR · ABILITY ASSESSMENT OFFICE"
     lines:
-      - {who: aao_chief, type: speech, side: l, text: "WITHDRAW THE FILING, YURI. LET KANGHAN HAVE THIS ONE."}
+      - {who: aao_supervisor, type: speech, side: l, text: "WITHDRAW THE FILING, YURI. LET KANGHAN HAVE THIS ONE."}
       - {who: chae, type: speech, side: r, text: "HE ISN'T THEIRS."}
-      - {who: aao_chief, type: speech, side: l, text: "THEN IT'S YOUR NAME ON THE REPORT."}
-    notes: "Beat setup: Chae's career at risk. The chief is her mentor and friend (the friendship breaks only at ch 92): he is protecting her, not threatening her. 'HE ISN'T THEIRS' echoes ch 6's 'HE'S NOT MINE TO SELL.'"
+      - {who: aao_supervisor, type: speech, side: l, text: "THEN IT'S YOUR NAME ON THE REPORT."}
+    notes: "Beat setup: Chae's career at risk (planted in ch 4: 'MY SUPERVISOR WILL ASK WHY.' / 'THAT I CAN READ.'). The supervisor is her mentor and friend (the friendship breaks only at ch 92): he is protecting her, not threatening her. 'HE ISN'T THEIRS' echoes ch 6's 'HE'S NOT MINE TO SELL.'"
 
   - id: P18
     shape: inset-l
@@ -321,7 +322,7 @@ panels:
     bg: white
     camera: "close-up on Chae, slightly low"
     art: >
-      Chae in close-up, three-quarter: calm, precise and quietly immovable, the faintest tightening at the corner of her mouth, her eyes level on the chief (off-panel).
+      Chae in close-up, three-quarter: calm, precise and quietly immovable, the faintest tightening at the corner of her mouth, her eyes level on the supervisor (off-panel).
       Her lanyard ID card hangs at her collar, blank. Window light on one side of her face, a hard shadow on the other. Plain pale background. No text.
     calm: right
     lines:
@@ -340,7 +341,7 @@ panels:
       stenographer at his small desk below the dais. On the left wall, the pull-down projector screen (grey and blank for now) and the windows with half-closed vertical blinds.
       Mid-floor, facing the dais: the petitioner's table on the LEFT, where Pyo sets out a laptop and a remote; the respondent's table on the RIGHT, where Taeo sits rigidly
       with the receipts folder squared in front of him and his backpack at his feet, patch out. Between the tables, the tall witness lectern. Along the right wall, the
-      presenting officer's desk, where Chae lays out her tablet. Two rows of gallery chairs: the chief, Minho (minho, default: brown work jacket, grey streak at the LEFT
+      presenting officer's desk, where Chae lays out her tablet. Two rows of gallery chairs: the supervisor, Minho (minho, default: brown work jacket, grey streak at the LEFT
       temple) and one empty seat. Nib (nib, default, the sheath on his LEFT hip empty) kneels on his chair at the respondent's table with his whole head turned back over
       his shoulder toward us: toward the door.
       Clean blue-white light from the ceiling panels, pale slate shadows, blue-grey upholstery; the little exit sign over the door is the one muted green note
@@ -350,7 +351,7 @@ panels:
       - {who: narr, type: tag, text: "HEARING ROOM 3 · 10:00 AM"}
       - {who: nib, type: whisper, side: r, text: "ONE DOOR."}
       - {who: taeo, type: whisper, side: r, text: "I COUNTED TOO."}
-    notes: "Lock this layout for P20–P47. 'ONE DOOR' sets up P36 and P45. The empty gallery seat is Bae's (P29)."
+    notes: "Lock this layout for P20–P48. 'ONE DOOR' sets up P36 and P45. The empty gallery seat is Bae's (P29)."
 
   - id: P20
     shape: wide
@@ -418,8 +419,8 @@ panels:
     camera: "from beside the dais, looking across the room at Chae's desk with the gallery behind her"
     art: >
       Chae stands at the presenting officer's desk on the right side of the room, the tablet raised in one hand and her other hand flat on a thin printed report:
-      composed and precise, addressing the panel (off-panel left). Over her shoulder, in the front gallery row behind her, the AAO branch chief sits with Pyo's coffee
-      untouched on his knee and stares at her: not angry; worried, unblinking. Keep both faces clear: Chae in the mid-ground right, the chief small but readable behind her.
+      composed and precise, addressing the panel (off-panel left). Over her shoulder, in the front gallery row behind her, her supervisor sits with Pyo's coffee
+      untouched on his knee and stares at her: not angry; worried, unblinking. Keep both faces clear: Chae in the mid-ground right, the supervisor small but readable behind her.
       Blue-white light, pale slate shadows. No text.
     calm: top-left
     lines:
@@ -641,14 +642,14 @@ panels:
     bg: white
     camera: "memory: from behind the empty wall, looking down the slope"
     art: >
-      A MEMORY, soft-edged, fading into the white page: Nib's watch post on the other side, as he drew it in ch 4. In the foreground, a chest-high wall of rough stacked
-      stone with a worn flat place on top where someone sat; behind it, the dark shape of a tree. Below, a slope falls away to the lower path, which winds down out of sight;
-      beside the path, a low pale chalk-white outcrop, rounded and layered like stacked plates (the white bit). Far down the path a small, slight figure is climbing toward
-      the wall, too far away for a face: the one warm colour in the panel. Desaturated cool greys and grey-greens; a pale, colourless sky. No text.
+      A MEMORY, soft-edged, fading into the white page: Nib's watch post on the other side, as he drew it in ch 4 (ch004 P40). In the foreground, a low, chest-high wall
+      of rough stacked stones running along a ridge, with a worn flat place on top where someone sat; behind it, a crooked tree. Below, the ground falls away to the lower
+      path, which winds down out of sight; beside the path, a small patch of pale chalk-white stone (the white bit), the brightest thing in the panel. Far down the path a
+      small, slight figure is climbing toward the wall, too far away for a face: the one warm colour. Desaturated cool greys and grey-greens; a pale, colourless sky. No text.
     calm: top
     lines:
       - {who: "offpanel:nib", type: speech, side: c, text: "SOMEONE WAS COMING TO TAKE OVER."}
-    notes: "Flashback palette (ART_BIBLE A4): desaturated, cool, soft-edged, one warm colour for the remembered person. The figure is Kett: keep him far and faceless (his sheet is for later chapters). The white bit must match P58."
+    notes: "Flashback palette (ART_BIBLE A4): desaturated, cool, soft-edged, one warm colour for the remembered person. The figure is Kett: keep him far and faceless (his sheet is for later chapters). The layout follows ch004 P40's drawing (wall along a ridge, crooked tree, the path, the white bit beside it); the white bit is chalk-white stone, the kind in ch 11's gallery."
 
   - id: P40
     shape: vignette
@@ -701,7 +702,7 @@ panels:
     camera: "reverse angle from behind Nib, wide across the room to the gallery and the door"
     art: >
       Reverse angle from behind Nib (his back, the notched LEFT ear, the empty sheath on his LEFT hip, bare heels): the whole room has stopped. At the respondent's table
-      Taeo sits with one hand flat on his folded notes and the other out of sight below the table, his eyes wet. Chae has lowered her tablet. In the gallery the chief holds
+      Taeo sits with one hand flat on his folded notes and the other out of sight below the table, his eyes wet. Chae has lowered her tablet. In the gallery the supervisor holds
       his coffee halfway to his mouth; Minho has his arms folded and his eyes on the floor; at the back by the door Bae stands with his crushed cap pressed to his chest,
       his wrist screen glowing red and ignored. Through the door's narrow window, the golem's stone face. Pyo, at his table, is very still. Blue-white light, quiet. No text.
     calm: none
@@ -755,7 +756,7 @@ panels:
     art: >
       Late afternoon: the blinds on the left wall now let low warm bars of sun across the floor. The panel is back. The chair reads the ruling from a single sheet into her
       microphone. In the foreground, from behind, Taeo stands at the respondent's table gripping its edge, and Nib stands up on his chair beside him so that his eyes are
-      level with Taeo's shoulder. Chae at her desk, the chief in the gallery, Pyo standing at his table with his glasses back on and his coat over his arm. Minho's and
+      level with Taeo's shoulder. Chae at her desk, the supervisor in the gallery, Pyo standing at his table with his glasses back on and his coat over his arm. Minho's and
       Bae's chairs are empty. Blue-white light warmed by the sun bars. No text.
     calm: top
     lines:
@@ -784,16 +785,16 @@ panels:
     shape: wide
     gap: short
     bg: white
-    camera: "the corridor outside, eye level, as the chief passes Chae"
+    camera: "the corridor outside, eye level, as the supervisor passes Chae"
     art: >
-      The corridor outside Hearing Room 3, late sun through the end window throwing long warm bars across the floor. The chief walks past Chae without stopping, his empty
+      The corridor outside Hearing Room 3, late sun through the end window throwing long warm bars across the floor. The supervisor walks past Chae without stopping, his empty
       coffee cup in his hand, his face tired, fond and closed; she stands by a bench with the tablet against her chest and does not follow him. He says the last line over
-      his shoulder. Chief on the LEFT, walking out of frame; Chae on the RIGHT. Behind them the hearing-room door stands open. No text.
+      his shoulder. Supervisor on the LEFT, walking out of frame; Chae on the RIGHT. Behind them the hearing-room door stands open. No text.
     calm: top
     lines:
-      - {who: aao_chief, type: speech, side: l, text: "IT GOES IN YOUR REVIEW, YURI. EITHER WAY."}
+      - {who: aao_supervisor, type: speech, side: l, text: "IT GOES IN YOUR REVIEW, YURI. EITHER WAY."}
       - {who: chae, type: speech, side: r, text: "I KNOW."}
-      - {who: aao_chief, type: speech, side: l, text: "...GOOD REPORT, THOUGH."}
+      - {who: aao_supervisor, type: speech, side: l, text: "...GOOD REPORT, THOUGH."}
     notes: "Chae's price: the arrival filing goes on her review record whatever the ruling. He is still her friend (ch 92 breaks it)."
 
   # ---------------- THE CARD ----------------
@@ -921,9 +922,9 @@ panels:
     bg: white
     camera: "medium, at Nib's height, on the steps"
     art: >
-      On the steps: Chae slides a glossy printed photograph out of the back of her tablet cover and holds it down to Nib. Nib has already untied his pouch (the dinosaur
-      sticker on its side) and drawn out a folded sheet of paper: his own pencil drawing of his post from ch 4. The print shows a grey stone gallery under a lavender sky with a
-      pale white outcrop at one side (small here; P59 shows it close). Taeo stands one step above, looking down at both of them. Late gold light. No text.
+      On the steps: Chae slides a glossy printed photograph out of the back of her tablet cover and holds it down to Nib. Nib has already untied his pouch (Haru's dinosaur
+      sticker on it) and drawn out a folded sheet of paper: his own pencil drawing of his post from ch 4. The print shows a pale grey cliff gallery under a lavender sky with a
+      band of white stone far along it (small here; P59 shows it close). Taeo stands one step above, looking down at both of them. Late gold light. No text.
     calm: top
     lines:
       - {who: chae, type: speech, side: l, text: "ONE STILL FROM THE ENTRANCE SURVEY. I PRINTED IT."}
@@ -936,12 +937,14 @@ panels:
     silent: true
     camera: "extreme close-up over Nib's two hands"
     art: >
-      Extreme close-up over Nib's two olive-green hands, holding the two pictures side by side. LEFT: the glossy survey print: a stone gallery with tall grey rock faces under a
-      lavender noon sky (the wrong colour), and at its side a low, pale, chalk-white outcrop, rounded and layered like stacked plates. RIGHT: his own pencil drawing on
-      soft-folded paper: a stacked stone wall, a tree behind it, a path winding down, and beside the path one shape left unshaded, white paper inside a careful outline,
-      layered like stacked plates. The two white shapes match. Both pictures in the middle third. No text.
+      Extreme close-up over Nib's two olive-green hands, holding the two pictures side by side. LEFT: the glossy survey print, taken from just inside the gate: an
+      open-sided ledge-road cut into a pale grey cliff, squat squared stone struts holding up an overhanging rock roof, a lavender noon sky with a small hard white sun
+      (the wrong colour), and far along the gallery, past a bend, a band of chalk-white stone running through the cliff wall. RIGHT: his own pencil drawing from ch 4 on
+      soft-folded paper: a low wall of stacked stones along a ridge, a crooked tree behind it, a tick-mark where he sat, a path winding down, and beside the path one small
+      closed shape left blank, white paper inside a careful outline. The white stone in the print and the white of the paper are the brightest things in the frame.
+      Both pictures in the middle third. No text.
     calm: none
-    notes: "The white bit (ch 4: '...AND THE WHITE BIT.'). Sets up ch 11's pebble ('IT'S THE SAME KIND.'), ledger P07, which is planted there, not here."
+    notes: "The white bit (ch004 P40: a blank outline beside the lower path). It is not his post; it is the same white stone. The print follows ch 11's gate_stone_gallery (the chalk-white band beyond the bend). Sets up ch 11's pebble ('IT'S THE SAME KIND.'), ledger P07, which is planted there, not here."
 
   - id: P60
     shape: inset-l

@@ -3,8 +3,8 @@ title: You First
 when: "Tuesday 14 March into Wednesday 15 March, early spring (chapter 1's night). 11:58 PM to about 12:40 AM, then 3:04 AM to about 3:07 AM. Unit 402 and its fourth-floor corridor only."
 story_beats: PART_ONE_BEATS.md#2
 cast:
-  taeo: default     # black hoodie, black cargo trousers, dark socks (his sneakers have been in the shoe area since ch1 P47). No vest, no jacket; the backpack is on the floor at the entry
-  nib: default      # barefoot; brown rope belt; pouch RIGHT hip; brown wooden sheath LEFT hip; the faded denim-blue fleece blanket around his shoulders from P52 on
+  taeo: default     # black hoodie, black cargo trousers, dark socks (his sneakers have been in the shoe area since ch1 P47). No vest, no jacket; the backpack lies at the entry until he hangs it on the rack at bedtime
+  nib: default      # barefoot; brown rope belt; pouch RIGHT hip; brown wooden sheath LEFT hip until P52, then the sheathed knife across his knees; the faded denim-blue fleece blanket around his shoulders from P52 on
   eunchae: default  # TTOK messages only (P51); not drawn
 locations: [taeo_flat, taeo_building, taeo_street]
 palette_notes: >
@@ -17,12 +17,14 @@ palette_notes: >
   Amber #F2A93B appears only as Nib's eye colour: no link pulse until ch4. No red anywhere in this chapter.
 continuity_notes: >
   Room geography from world/floorplans/taeo_flat.png: looking in from the door, kitchen strip LEFT and bed RIGHT; looking out toward the door, kitchen strip RIGHT.
-  The door opens OUT; seen from inside, the lever is on the viewer's LEFT and the hinges on the RIGHT. Left over from ch1 and never tidied in this chapter:
-  the folding table shoved askew against the clothes rack, and the olive backpack (patch out) slumped at the entry step where Taeo dropped it.
+  The door opens OUT; seen from inside, the lever is on the viewer's LEFT and the hinges on the RIGHT. Left over from ch1: the folding table shoved askew against
+  the clothes rack (never tidied in this chapter), and the olive backpack (patch out) slumped at the entry step where Taeo dropped it, until he hangs it on the
+  rack's end hook off-panel at bedtime (on the hook from P52, as ch3 P07 has it).
   The summon circle and seam are gone after P04. THE CUP (white ceramic mug, one thin green band) lies on its side in a small puddle by the folding table until P30,
   then becomes Nib's water mug; at 3 a.m. it stands on the floor beside him. The lamp: toppled P01–P16, upright from P17, switched off in P52.
   Taeo's phone: face down on the kitchen counter beside the sink (P31–P40), then charging on the floor by the bed's head end (from P51).
-  Nib's knife: half drawn P01–P11, fully drawn P12, lowered P13, sheathed P14–P37, drawn at the buzz P38–P40, sheathed from P41 with his right hand on the hilt.
+  Nib's knife: half drawn P01–P11, fully drawn P12, lowered P13, sheathed P14–P37, drawn at the buzz P38–P40, sheathed from P41 with his right hand on the hilt;
+  from P52 the sheathed knife is slipped off his belt and lies across his knees (as ch3 P01 and P05 have it).
   From P43 Nib's place is the floor against the bed's storage drawers (the bed's long north side, where the summon circle stood). Taeo sleeps on top of the grey duvet, dressed.
 
 panels:
@@ -81,7 +83,7 @@ panels:
     calm: top
     sfx:
       - {text: "SHHHHHK", style: summon, at: [0.82, 0.30], size: L, rot: 90}
-    notes: "The way back closes in front of him. Nib reaches for it here; at 3 a.m. (P55) he reaches for a window at the same spot. Draw the two reaches to rhyme."
+    notes: "The way back closes in front of him. Nib reaches for it here; at 3 a.m. (P55) he reaches for a window hanging almost where the seam stood. Draw the two reaches to rhyme."
 
   - id: P04
     shape: strip
@@ -745,8 +747,9 @@ panels:
     ui:
       - {kind: phone.ttok_chat, on: screen, hand: taeo_pov_ots, title: "Eunchae", clock: "00:37", date: "WED 15 MAR", messages: [{from: them, text: "Hunters closed it. Nobody hurt.", time: "00:16"}, {from: them, text: "Manager says your eggs survived.", time: "00:16"}]}
     lines:
+      - {who: taeo, type: whisper, side: r, text: "...THE EGGS SURVIVED."}
       - {who: taeo, type: float, text: "I DIDN'T TELL HER."}
-    notes: "The message that buzzed in P38. 'Your eggs': in ch1 P33 Taeo promised the old man he'd keep them. He puts the phone on charge on the floor by the bed's head after reading it."
+    notes: "The message that buzzed in P38. 'Your eggs': in ch1 P33 Taeo promised the old man he'd keep them. The murmured aside carries the joke even if the phone text prints small on a narrow panel. He puts the phone on charge on the floor by the bed's head after reading it."
 
   - id: P52
     shape: wide
@@ -756,7 +759,8 @@ panels:
     art: >
       Taeo (taeo, default) sits on the foot end of the bed, heavy-lidded, his finger on the desk lamp's switch, about to turn it off while insisting he'll stay up.
       On the floor against the bed's drawers below him, Nib (nib) has the faded denim-blue blanket around his shoulders, the mug on the floor beside him,
-      his right hand on the sheathed knife's hilt; he looks up, dry. The phone dark on the floor by the bed's head, on its cable. No text.
+      and his knife, still in its brown wooden sheath, slipped off his belt and laid across his knees under his right hand; he looks up, dry.
+      The phone dark on the floor by the bed's head, on its cable; the olive backpack now hangs on the clothes rack's end hook. No text.
     calm: top
     lines:
       - {who: taeo, type: speech, side: l, text: "I'LL STAY UP TOO. IN CASE."}
@@ -771,8 +775,8 @@ panels:
     art: >
       3 a.m. The lamp is off. Deep blue-grey to black, with one thin sodium-orange line of streetlight at the edge of the drawn blackout curtain.
       Taeo (taeo, default) is asleep on top of the grey duvet, still dressed, mouth open, one arm hanging off the edge of the bed. On the floor against the bed's drawers,
-      Nib (nib) sits awake at his post: the blanket around his shoulders, knees up, his right hand on the sheathed knife, eyes open and catching the faint light.
-      The mug on the floor beside him; the phone dark on its cable by the bed's head; the folding table still askew. A watchman and a sleeper.
+      Nib (nib) sits awake at his post: the blanket around his shoulders, knees up, the sheathed knife across his knees under his right hand, eyes open and catching the faint light.
+      The mug on the floor beside him; the phone dark on its cable by the bed's head; the folding table still askew; the backpack on the rack's end hook. A watchman and a sleeper.
       Hard shadows, no glow. No text.
     calm: top-left
     lines:
@@ -785,16 +789,16 @@ panels:
     bg: black
     camera: "low, at floor level west of Nib, looking east along the bed's long side"
     art: >
-      In the dark, interface-cyan light suddenly flickers across Nib's face from the empty air just in front of him, over the floor where the summon circle stood
-      (leave clear empty air at upper left for a floating window; the letterer adds it). Nib (nib), against the bed's drawers at right, has gone rigid, eyes wide
-      and fixed on it, the blanket slipping off one shoulder, his hand tight on the hilt. Above him on the bed, Taeo sleeps on, mouth open, unaware.
+      In the dark, interface-cyan light suddenly flickers across Nib's face from the empty air just in front of him, above the shoved folding table at the edge
+      of where the summon circle stood (leave clear empty air at upper left for a floating window; the letterer adds it). Nib (nib), against the bed's drawers at right,
+      has gone rigid, eyes wide and fixed on it, the blanket slipping off one shoulder, his hand tight on the sheathed knife across his knees. Above him on the bed, Taeo sleeps on, mouth open, unaware.
       The light is hard-edged and flickering, in bands of cyan and navy, with no glow haze. No text.
     calm: top-left
     ui:
       - {kind: system.glitch, on: float, headline: "[ARRIVAL LOGGED — CATEG█RY 7]", at: [0.34, 0.05], tilt: -5}
     sfx:
       - {text: "D-DING", style: summon, at: [0.86, 0.12], size: M, rot: 0}
-    notes: "PLANT P01. The interface flickers on by itself while its operator sleeps, and only Nib sees it (contrast P05, where he could not see the card). The window is damaged; narrator: read 'CATEG—RY SEVEN', clipped."
+    notes: "PLANT P01. The interface flickers on by itself while its operator sleeps, and only Nib sees it (contrast P05, where he could not see the card). It hangs above the folding table, where the first window floated in ch1 P50; ch3 P03 has Nib glance at that air. The window is damaged; narrator: read 'CATEG—RY SEVEN', clipped."
 
   - id: P55
     shape: strip
@@ -845,7 +849,8 @@ panels:
     art: >
       The phone lights up on the floor by the bed's head at left, right beside Nib, face up but seen almost edge-on, so only its cold white light shows:
       on the ceiling, the bed's edge and Nib's face. Drawn motion ticks around it. Nib (nib) snaps his head toward it with a deadpan glare, hand on the hilt.
-      Above him, Taeo (taeo, default) stirs, eyes squeezed shut, one arm groping down over the edge of the bed. No visible screen. No text.
+      Above him, Taeo (taeo, default) stirs, eyes squeezed shut, one arm groping down over the edge of the bed. The sheathed knife across Nib's knees.
+      No visible screen. No text.
     calm: top
     sfx:
       - {text: "BZZZZT", style: phone, at: [0.20, 0.72], size: M, rot: -6}
@@ -882,7 +887,7 @@ panels:
     calm: top
     lines:
       - {who: taeo, type: speech, side: r, text: "...IT SAYS I HAVE THREE DAYS."}
-    notes: "HOOK. Taeo keeps 'may be seized' from Nib, who cannot read: his control flaw (STORY_BIBLE section 6) is there from chapter 2. Ch3 opens on the morning call to the AAO."
+    notes: "HOOK. His first answer is about himself ('I HAVE THREE DAYS'); 'seized' is on the screen, not in his mouth, and Nib cannot read. That beat of deciding what Nib should hear is the control flaw (STORY_BIBLE section 6). Ch3 P01–P03 picks up minutes later: Taeo has reread it, sitting on the bed's edge, and Nib has the word 'SEIZED' from him."
 
   - id: P61
     kind: end

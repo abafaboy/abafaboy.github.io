@@ -731,7 +731,7 @@ def main():
     ap.add_argument("script")
     ap.add_argument("art")
     ap.add_argument("out")
-    ap.add_argument("--kit", default=str(Path.home() / "msgf-kit"))
+    ap.add_argument("--kit", default="/home/claude/msgf-kit")
     ap.add_argument("--width", type=int, default=1080)
     ap.add_argument("--seg-max", type=int, default=2400)
     ap.add_argument("--seg-min", type=int, default=700)

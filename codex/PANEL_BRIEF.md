@@ -53,5 +53,12 @@ Redo an image up to 2 times if it fails any of these:
 - When every panel and `END.png` exist, write `chapters/chNNN/art/DONE.md` with the panel count and any panels you are unsure about.
 - Do not stop to ask questions. Finish the chapter.
 
+## 6b. Split chapters
+When your task names a panel range (for example "panels P21–P40, part 2 of 3"), draw only the panels in that range, in order.
+- Other Codex chats are drawing the other parts of the same chapter at the same time. Never write, overwrite or delete a panel outside your range.
+- Write your progress to `chapters/chNNN/art/PROGRESS_<part>.md` and, when every panel in your range exists, `chapters/chNNN/art/DONE_<part>.md` (for example `PROGRESS_2.md` and `DONE_2.md`). Do not touch `PROGRESS.md` or `DONE.md`.
+- Only the part whose range includes the `kind: end` panel draws `END.png`.
+- Keep characters, outfits, props and lighting consistent with the panels just before your range: if they already exist, look at them before you start.
+
 ## 7. TECHNIQUE BLOCK (put it in every prompt)
 > Korean webtoon (manhwa) panel drawn by a professional webtoon artist in Clip Studio Paint. Digital ink line art with a G-pen brush: confident tapered strokes, thick outer contours, thin inner lines, heavier line weight on the shadow side. Flat colour fills. ONE hard-edged cel shadow tone per material, with no gradients, no airbrush and no soft blending on skin, hair or clothes. Small sharp white highlights on hair and eyes only. Korean webtoon face construction: defined brow, a single shadow shape along the nose bridge, angular jaw, thick upper lash line with one catchlight, the mouth as one expressive line. Clothes with a few decisive fold lines and shadow shapes. A simplified drawn background. No bloom, no haze, no glow, no depth-of-field blur. Not 3D, not painterly, not a glossy anime illustration.
