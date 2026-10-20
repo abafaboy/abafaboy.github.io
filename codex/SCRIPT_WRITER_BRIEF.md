@@ -8,6 +8,7 @@ You write ONE chapter script as YAML. Many writers work in parallel, one chapter
 - `/home/claude/msgf-bible/SCRIPT_FORMAT.md`: the YAML format, including the "Letterer features" section. Follow it exactly.
 - `/home/claude/msgf-bible/ART_BIBLE.md`: Part A (art briefs, the A4 colour script, A5b chibi), B3 bubble types, B4 system windows, B5 phones, and Part C.
 - `/home/claude/msgf-bible/world/LOCATIONS.md` and `/home/claude/msgf-bible/world/README.md`, if they exist: the canonical places, layouts, travel times and location ids. Use those ids in `locations:` and those layouts in art briefs.
+- `/home/claude/msgf-bible/world/keys/<id>/`: the artist's drawn keys (key_wide.jpg, key_reverse.jpg, notes.md) for locations that have them. Look at the keys for every location your chapter uses. They are canonical for how a place looks: describe rooms, furniture and windows as the keys show them, and use the key's camera directions (notes.md) to stay consistent. If LOCATIONS.md and a key disagree, follow the key.
 - `/home/claude/msgf-bible/scripts/ch001.yaml`: the gold standard. Match its detail in art briefs and its lettering.
 - `/home/claude/msgf-bible/research/STORY_DIGEST.md`: the published edition being remade. Reuse its best lines where the beats keep them.
 - The previous chapter's script, `/home/claude/msgf-bible/scripts/ch<N-1>.yaml`, if it exists when you start: read its last 10 panels and its end card. It may still be being written; if it is missing, work from the beats.

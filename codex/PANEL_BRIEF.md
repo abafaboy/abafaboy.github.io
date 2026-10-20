@@ -9,7 +9,7 @@ The owner chose **method B**: one image-generation pass per panel, using the TEC
 - `bible/ART_BIBLE.md`: Part A (drawing rules, the A4 colour script, proportions, continuity locks, A5b chibi) and Part C (the anti-AI checklist).
 - `style_test/abcd/STUDY_NOTES.md` and the TECHNIQUE BLOCK in section 7.
 - `characters/<id>/`: `turnaround.png`, `expressions.png`, `details.png` and `chibi.png`, whichever exist. **Pass the sheet of every character in the panel as a reference image**, so faces, hair, colours and props stay on model.
-- `locations/<id>/` and `world/floorplans/<id>.png`, when they exist. Pass the location key as a reference image for every panel set there. Keep doors, windows and furniture where the floor plan puts them.
+- `locations/<id>/` and `world/floorplans/<id>.png`, when they exist. Pass the location key as a reference image for every panel set there. Read the floor plan as a layout note only, and never pass a floor plan to image generation. Where a floor plan and a location key disagree, follow the key.
 - `world/LOCATIONS.md`, when it exists, for location details.
 
 If a character or location has no sheet yet, follow the description in the script and the bible, and note it in PROGRESS.md.

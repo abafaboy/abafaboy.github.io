@@ -1,0 +1,954 @@
+chapter: 17
+title: Thirty Seconds
+when: "Thursday, the same day as ch 13-16 (spring; no date lettered). Inside the gate the boss dies at 4:01 PM and every return mark fires 30 seconds later; the ambulance leaves about 4:10 PM; the general contractor's sedan arrives about 4:25 PM; the kerb from 4:40 PM to about 4:55 PM."
+story_beats: PART_ONE_BEATS.md#17
+cast:
+  taeo: outdoor     # navy zip jacket over the black hoodie, black cargo trousers, black sneakers with one white stripe; over the jacket a borrowed red-orange Ryu Survey safety vest (site rules; decided here unless ch 13-16 dressed him otherwise). His white hard hat lies on the gravel by the radio table and stays there. Dried blood under his nose from the ch 16 recoil; fresh bleeding from P17; a twist of tissue in his LEFT nostril from P46. The olive backpack with the faded orange patch: on the radio table, then on the pavement at his feet on the kerb
+  nib: default      # barefoot; V-notch in the LEFT ear; small lower fang on the LEFT; brown rope belt; leather pouch on the RIGHT hip (the dark shard he pocketed in ch 16 is inside it: never shown, never mentioned); brown wooden sheath on the LEFT hip. Dust-caked from P02. From P16 a graze across his RIGHT shoulder blade, grey with dust (no blood colour shown). From P45 a silver foil emergency blanket round his shoulders, worn like a cape
+  minho: default    # brown work jacket, grey T-shirt, olive cargo trousers, black knee pads, brown boots; radio clipped high on his LEFT chest; watch on his LEFT wrist; grey streak at the LEFT temple (visibly whiter from P38). Inside the gate: a white hard hat with a headlamp and a short steel pry bar, bent from P25. Dust-grey all over after P29
+  sejin: default    # field medic gear and chest rig, cropped hair (CHARACTER_BRIEF_2 #3); an elastic-strap headlamp inside the gate; a bag-valve mask in both hands from P02 to P32; a med bag on her hip
+  mansu: default    # Kwak Mansu, 58 (STORY_BIBLE; CHARACTER_BRIEF_2's "40s" is superseded, so grey his stubble and hair if the sheet reads younger): heavy-set, a back brace over his work clothes, a cheap hi-vis porter vest; dust-caked; one trouser leg torn over a bruised shin (pinned in ch 15-16); unconscious until P34; clear oxygen mask from P32
+  dami: default     # Gu Dami, 19: cheap hi-vis porter vest over a hoodie, hard hat, cargo straps, worn gloves. She holds Kwak's jacket (the one she brought Taeo in ch 14; drop it if ch 14-16 left it elsewhere) until she lays it over him in P33
+  dokgo: default    # Dokgo Chul: windbreaker, clipboard tablet, two phones, an unlit cigarette he never lights
+extras:
+  ironclad: "the clear team, Ironclad Seven (ch 18's KNN headline): seven hunters, men and women in their twenties and thirties, in matching polished gunmetal-grey armour vests and shoulder plates over black tactical wear, each with the same small sponsor patch on the chest (a plain coloured block, no letters); swords, a spear, a round shield, two short axes; clean, barely dusty, at ease"
+  ironclad_lead: "the clear team's leader: a broad man in his thirties with a buzz cut and a showman's grin, a two-handed warhammer on his shoulder"
+  reporter: "KNN 24 field reporter: a man in his thirties in a navy suit, neat side-parted hair, a handheld mic with a blank cube logo"
+  camera_op: "KNN 24 camera operator: a man in a black cap and black jacket with a shoulder camera, its viewfinder dark"
+  paramedic: "two 119 paramedics in navy uniforms with orange reflective panels, no lettering: an older man with grey stubble (the one who speaks) and a young woman; a wheeled stretcher, a green oxygen cylinder, a clear oxygen mask"
+  gc_manager: "the general contractor's site manager: a man in his late forties in a crisp navy company windbreaker with a blank logo patch, a white hard hat with one blue stripe, spotless boots, a rugged tablet; a phone almost always at his ear; tired, polite, flat. He never looks toward the ambulance"
+  porters: "three Dokgo porters in cheap hi-vis vests, sitting on blue plastic crates by the hoarding, hard hats on their knees"
+locations: [guro_gate_interior, guro_side_gallery, guro_pit, guro_pit_street]
+location_notes:
+  _status: "None of these ids are in world/LOCATIONS.md yet, and ch 13-16 were not written when this script was. Everything below is decided here; if ch 13-16 fix a different layout, sky colour, threshold frame or id, theirs wins and this file should be updated to match."
+  guro_gate_interior: "Inside the C-grade Guro gate. A vast quarry-like dungeon of stepped, broken pale stone open to a saturated sulphur-yellow sky (the wrong colour), with violet shadows. The boss's territory lies deep inside; in this chapter the boss is seen only once, as a silhouette (P01)."
+  guro_side_gallery: "The collapsed side gallery off the survey line where Nib found Kwak (ch 15). A low tunnel about 2 m high and 3 m wide just under the dungeon's surface, walled and roofed in pale layered stone. Its mouth (the way back) is blocked by a rubble fall (ch 16). On the floor: the tilted slab that pinned Kwak (ch 15-16) and loose rock. The ceiling is one cracked slab layer with a web of fresh cracks (ch 16 hook); through the cracks come thin lines of the sulphur-yellow sky, widening as the countdown runs. Light: Minho's helmet headlamp and Sejin's elastic-strap headlamp (flat, hard-edged white cones), the return marks' white glow and the yellow crack light. Group positions, locked for P02-P27: Kwak on his back in the middle, head toward the blocked mouth; Sejin kneeling at his head with the bag-valve mask; Nib kneeling at Kwak's RIGHT side, holding Kwak's right hand in his own LEFT hand (his RIGHT stays free); Minho on Kwak's far (left) side, under the worst of the ceiling."
+  guro_pit: "A construction pit in Guro-gu for a future apartment tower's basement: about 40 x 25 m and 8 m deep, long axis east-west. Shotcrete walls braced by steel soldier piles and horizontal waling beams; an idle tower crane on the north rim; rebar bundles and stacked formwork. The street and site gate are on the SOUTH side; a gravel ramp runs down from the gate (south-west corner) eastward along the south wall. On a gravel apron near the NORTH-EAST corner stands the gate (a door-height black-violet slit with a cold white rim) inside Ryu Survey's portable steel threshold frame: two scaffold-tube uprights and a crossbar, faded yellow-and-black hazard tape round the uprights. This is the 'frame' of the knock (ch 10); match ch 10-16 if they drew it differently. Beside it: Ryu Survey's folding radio table (radios, a closed laptop, Taeo's backpack) and Dokgo's porter staging (blue plastic crates, haul sledges, a pallet of bottled water). Late-afternoon sun from the west: the west wall's shadow covers the west end of the floor, and the gate end is in sun."
+  guro_pit_street: "The two-lane street along the site's south side, running east-west. On the site (north) side: a tall steel hoarding printed with a huge glossy render of the tower to be built and a smiling family on a balcony (no text; the developer's logo a blank block), with a sliding mesh site gate near its WEST end. The kerb where Taeo and Nib sit is a few metres east of the gate, in front of the render; facing the street they face south, and Nib sits at Taeo's LEFT. Opposite (south side): low two-to-four-storey shops (a hardware shop, a closed karaoke, a convenience store; signs as blank blocks), overhead wires, a plane tree. Vehicles: a white ambulance with an orange stripe and a red light bar stops at the site gate (the site's standby ambulance since the clear team arrived, decided here); the KNN 24 van with a roof dish (blank logo) parks east of the gate on the site side; the general contractor's black sedan pulls in at the gate. The late sun comes from the west, along the street."
+palette_notes: "Inside the gate (ART_BIBLE A4 'Inside gates'): a saturated sulphur-yellow sky, seen in the side gallery only through cracks and holes; violet shadows; flat white headlamp cones. The return marks are thin rings of cold white light, the gate rim's white: never interface cyan #3FE3F2, never amber. The art itself has no red inside the gate; red appears there only in the letterer's last countdown numbers (3, 2, 1, 0). The pit (a construction site, not in A4, so built from the survey-yard row): dusty ochre and concrete grey, warm brown shadows, sky blue; the red-orange vests and the faded yellow-and-black hazard tape are the accents (never the link amber); the gate is a violet-black core with a cold white rim. The street: warm grey pavement, blue-grey shadows, the hoarding render's glossy sky blue and white as the accent; the ambulance's red light bar is the only red. Late-afternoon sun from the west in every outside panel. Amber #F2A93B appears only as Nib's eyes and in Taeo's palm (P17, P22). Taeo's nosebleed is a thin line of dark red. There are no operator-interface windows in this chapter: the interface stays dark until ch 19."
+
+panels:
+
+  # ---------------- COLD OPEN: the boss dies ----------------
+  - id: P01
+    shape: tall
+    gap: none
+    bg: black
+    camera: "extreme long shot, low, across a vast cavern floor toward the boss"
+    art: >
+      Inside the Guro gate (guro_gate_interior), far from the side gallery. A vast quarry-like cavern of stepped, broken pale stone
+      under a saturated sulphur-yellow sky (the wrong colour), violet shadows. Far off in the middle ground, the dungeon's boss drawn
+      ONLY as a solid near-black silhouette: a hill-sized, many-legged armoured crawler reared up on its hind legs, head thrown back,
+      toppling. One hard straight line of white light, a hunter's finishing strike, cuts diagonally through its neck. At its feet, tiny,
+      the seven hunters of the clear team (extras.ironclad) as small dark figures with weapon glints, one with a two-handed warhammer
+      swung high. Chunks of rubble flying, hard-edged; a few sharp particles at the strike only. The bottom third of the frame is dark
+      broken foreground rock. No detail inside the boss silhouette (if ch 13-16 drew the boss, match its outline). No red. No letters
+      or numbers anywhere.
+    calm: top
+    lines:
+      - {who: narr, type: tag, text: "INSIDE THE GURO GATE · 4:01 PM"}
+    sfx:
+      - {text: "GRRRAAAAAH—", style: impact, at: [0.50, 0.16], size: XL, rot: -8}
+    notes: "Continues ch 16's hook (3:58 PM: deep inside, the boss roars; above Nib and Kwak, the ceiling cracks). The clear team arrived late (ch 16) and kills it at 4:01 PM. The dash is the roar being cut off by the strike."
+
+  - id: P02
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, eye level with the floor, side-on across the side gallery"
+    art: >
+      The collapsed side gallery (guro_side_gallery): a low tunnel of pale layered stone, dark. Left to right: Kwak Mansu (mansu) on his
+      back on the stone floor, unconscious, grey-lipped, face slack, his hi-vis vest and back brace grey with dust. Sejin (sejin) kneeling
+      at his head, both gloved hands sealing a bag-valve mask over his mouth and nose, mid-squeeze, her headlamp beam on his face, eyes
+      narrowed and steady. Nib (nib: V-notch LEFT ear, pouch RIGHT hip, wooden sheath LEFT hip, barefoot) kneeling at Kwak's RIGHT side,
+      holding Kwak's limp right hand in his own LEFT, his long ears snapped upright, his eyes turned up toward the ceiling, listening.
+      Minho (minho, white hard hat with headlamp) crouched on Kwak's far side with a short steel pry bar, his headlamp cone thrown up
+      across the ceiling. The ceiling is one slab layer webbed with fresh cracks; a thin trickle of grit falls from one; two hairline
+      cracks let in knife-thin lines of sulphur-yellow light. At the right edge, the rubble fall that blocks the way back. All four are
+      dust-caked. Light: two flat, hard-edged headlamp cones (no glow, no god rays) and violet dark. No marks glowing yet. No blood.
+    calm: top-left
+    lines:
+      - {who: nib, type: speech, side: c, text: "IT'S DEAD."}
+      - {who: minho, type: speech, side: r, text: "THEN THIS WHOLE PLACE COMES DOWN."}
+    notes: "Boss death begins the dungeon's collapse (the v3 rule kept by the bible). Sejin is breathing for Kwak with the bag: the asthma attack in the dust (ch 15-16) has left him barely breathing on his own; the inhaler Nib carried was used in ch 16. Group positions are locked in location_notes for P02-P27."
+
+  - id: P03
+    shape: full
+    gap: short
+    bg: white
+    camera: "establishing, high angle from halfway down the gravel ramp, looking north-east at the gate"
+    art: >
+      The Guro construction pit (guro_pit): a rectangular excavation about 8 m deep, shotcrete walls braced by steel soldier piles and
+      horizontal waling beams, the gravel ramp running down in the foreground, an idle tower crane on the rim, rebar bundles and stacked
+      formwork. On the gravel apron by the far wall stands the gate: a door-height black-violet slit hanging in the air inside the
+      crew's portable steel threshold frame (two scaffold-tube uprights and a crossbar, faded yellow-and-black hazard tape on the
+      uprights). Its rim has just FLARED: a hard ring of cold white light round the slit throws everyone's shadows flat across the
+      gravel, away from the gate. By the frame: Taeo (taeo, outdoor, red-orange Ryu Survey vest) standing with one forearm up against the
+      glare, dried blood under his nose; Dami (dami) gripping a man's jacket to her chest. Left, by the porters' blue crates: Dokgo
+      (dokgo) with one phone at his ear, turning toward the light. Up on the ramp, a KNN camera operator (extras.camera_op) swinging his
+      shoulder camera toward the flash. Ryu Survey's folding radio table with radios and Taeo's olive backpack (faded orange patch);
+      Taeo's white hard hat on the gravel. Late-afternoon sun from the west: the west wall's shadow over half the floor, the gate in sun.
+      Palette: dusty ochre and concrete grey, warm brown shadows, sky blue, red-orange vests; the gate's violet-black core and cold
+      white rim. Signs, crane and hoarding carry no letters.
+    calm: top-right
+    lines:
+      - {who: dokgo, type: speech, side: l, text: "IT'S DOWN, SIR. THE BOSS IS DOWN."}
+    sfx:
+      - {text: "VWOOOM", style: gate, at: [0.80, 0.50], size: L, rot: -6}
+    notes: "The rim flare is the public sign of a boss kill (the ch 10 briefing film). From now on entry is closed. Dokgo is reporting up the chain to the general contractor, who arrives in P38. The jacket in Dami's arms is Kwak's (ch 14)."
+
+  - id: P04
+    shape: strip
+    gap: short
+    bg: black
+    silent: true
+    camera: "extreme close-up, top-down on two clasped hands on the stone"
+    art: >
+      Extreme close-up, the subject in the middle third: Nib's olive-green LEFT hand (faint pale scars on the forearm, scraped knuckles)
+      holding Kwak's big, limp, dust-grey right hand on the stone floor. On the inside of each wrist a ring-shaped mark the size of a
+      thumbnail has just lit: a thin, hard ring of cold white light (the gate rim's white: NOT interface cyan, NOT amber), drawn flat with
+      crisp edges, laying a small white glow on the skin. Grit on the knuckles. Everything else violet-black. No glyphs inside the rings.
+    calm: none
+    notes: "Return marks: every living entrant got one on crossing, and they light when the boss dies. The look is decided here (a thin white ring on the inside of the wrist); match ch 10's briefing film if it drew them otherwise."
+
+  - id: P05
+    shape: full
+    gap: short
+    bg: black
+    camera: "high angle, straight down through the cracked ceiling onto the four of them"
+    art: >
+      The camera is above the side gallery's ceiling slab (guro_side_gallery), looking straight down through its jagged fresh cracks: dark
+      rock edges fill the near foreground and frame the view, with thin sulphur-yellow light falling between them in hard lines. Below,
+      on the dark stone floor, the four of them small in a tight cluster: Kwak (mansu) on his back in the middle; Sejin (sejin) at his
+      head squeezing the bag-valve mask; Nib (nib) at his right side holding his hand; Minho (minho) on one knee on his far side, pry
+      bar across his knee, headlamp cone up toward us. On four wrists, four small rings of cold white light glow in the dark like four
+      small moons: the brightest things in the frame. Rubble and the tilted slab around them; the blocked gallery mouth at the top edge.
+      Violet shadows, hard edges, no haze.
+    calm: bottom-right
+    lines:
+      - {who: minho, type: speech, side: r, text: "MARKS ARE LIVE."}
+    sfx:
+      - {text: "30", style: impact, at: [0.20, 0.24], size: XL, rot: -4}
+    notes: "The countdown device: from here to P27 a big lettered number marks the second of every non-silent panel (impact style, red alert style for 3, 2, 1, 0). Thirty seconds after the boss dies, every mark returns its bearer to the outside threshold, conscious or not."
+
+  - id: P06
+    kind: title
+    gap: long
+    bg: black
+    title_text: "CHAPTER 17 · THIRTY SECONDS"
+
+  # ---------------- THE COUNT: who goes early ----------------
+  - id: P07
+    shape: wide
+    gap: long
+    bg: black
+    camera: "low angle up at Minho from beside Kwak's head"
+    art: >
+      Low angle from the floor beside Kwak's head: the rim of the bag-valve mask and Sejin's gloved hands in the near foreground, lower
+      left. Minho (minho: white hard hat with headlamp, radio on his LEFT chest) on one knee, the pry bar in his right hand, holds up his
+      LEFT wrist so the others can see its white ring. His face is hard and practical: the licensed lead giving the safe order, firmly,
+      not coldly. His headlamp beam cuts across the frame. Behind him the cracked ceiling with one thin yellow line. Dust on everything;
+      violet shadows.
+    calm: top-left
+    lines:
+      - {who: minho, type: speech, side: r, text: "THUMB ON IT AND GO. ALL OF YOU."}
+    sfx:
+      - {text: "29", style: impact, at: [0.86, 0.18], size: L, rot: 6}
+    notes: "A conscious bearer can trigger their mark at once by pressing it with a thumb (the method is decided here; match ch 10 if it showed another). Minho gives the textbook order."
+
+  - id: P08
+    shape: full
+    gap: none
+    bg: white
+    camera: "eye level on the gravel apron, three-quarter toward the threshold frame"
+    art: >
+      The gravel apron at the gate (guro_pit), the slit's rim still bright cold white. Out of the black-violet slit, in flat flashes of
+      white, the clear team (extras.ironclad) step out one after another onto the gravel, already relaxed and pleased with themselves.
+      Their leader (extras.ironclad_lead) points his free hand up at the KNN camera on the ramp with a big showman's grin, warhammer on his
+      shoulder. In the foreground right, Taeo (taeo, outdoor, red-orange vest, dried blood under his nose) has stepped toward the frame
+      and is searching the faces past their armoured shoulders, tense, eyes jumping from one to the next; Dami (dami) behind him on her
+      toes, Kwak's jacket bunched in her arms. The steel threshold frame with its faded hazard tape. Late sun from the west; gravel and
+      ochre. Sponsor patches are blank blocks.
+    calm: top-left
+    lines:
+      - {who: ironclad_lead, type: speech, side: l, text: "CLEAN CLEAR, IRONCLAD! SMILE FOR KNN!"}
+      - {who: taeo, type: float, text: "CONSCIOUS PEOPLE CAN COME OUT AT ONCE."}
+    sfx:
+      - {text: "28", style: impact, at: [0.10, 0.84], size: L, rot: -6}
+      - {text: "FWSH", style: gate, at: [0.44, 0.34], size: M, rot: -10}
+      - {text: "FWSH", style: gate, at: [0.56, 0.46], size: S, rot: 8}
+    notes: "The clear team pressed their marks the instant the boss died; each bearer returns to the threshold they crossed. They are clean and unhurt, and they never knew about the side gallery."
+
+  - id: P09
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close-up, front, Taeo's face past a hunter's armoured shoulder"
+    art: >
+      Close-up of Taeo (taeo): dried blood under his nose, the small mole under his RIGHT eye, sweat at the temple, dust on his cheek. His
+      eyes have stopped searching. The last hunter's gunmetal shoulder plate slides out of frame at the left edge. His face is very still:
+      the floor dropping out from under him. Plain warm-ochre background.
+    calm: left
+    lines:
+      - {who: taeo, type: float, text: "NIB WAS CONSCIOUS."}
+    sfx:
+      - {text: "27", style: impact, at: [0.16, 0.16], size: M, rot: -4}
+
+  - id: P10
+    shape: wide
+    gap: none
+    bg: black
+    camera: "over Minho's right shoulder, looking down at Nib"
+    art: >
+      Over Minho's right shoulder (his brown jacket and the pry bar in the near foreground, right), looking down. Nib (nib) does not touch
+      his mark. Still kneeling, still holding Kwak's hand in his LEFT, he shifts his body so that his chest and shoulders cover Kwak's head
+      and face, between him and the ceiling: ears flat, jaw set, his amber eyes up at Minho, unblinking. Sejin, under him, keeps squeezing
+      the bag. Headlamp light, violet shadows, grit falling.
+    calm: top
+    lines:
+      - {who: minho, type: speech, side: r, text: "HIS MARK BRINGS HIM AT ZERO."}
+      - {who: minho, type: speech, side: r, text: "YOURS WON'T CARRY HIM."}
+    sfx:
+      - {text: "26", style: impact, at: [0.08, 0.22], size: L, rot: -5}
+    notes: "The rule, shown honestly: a mark carries its bearer and their worn or carried gear, not another person. Kwak cannot press his own; it will take him at zero by itself."
+
+  - id: P11
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close-up, Sejin from Kwak's eye line"
+    art: >
+      Close-up of Sejin (sejin): headlamp on its elastic strap, cropped hair grey with dust, tired eyes fixed on Kwak's chest rising, not
+      on Minho; both gloved hands on the bag-valve mask mid-squeeze. Her face is flat and certain: a medic stating a fact. The white ring
+      on her wrist. Dark background, falling grit.
+    calm: right
+    lines:
+      - {who: sejin, type: speech, side: l, text: "IF THE ROOF GETS HIM FIRST, HIS MARK BRINGS OUT A BODY."}
+      - {who: sejin, type: speech, side: l, text: "A MARK ISN'T A STRETCHER."}
+    sfx:
+      - {text: "25", style: impact, at: [0.84, 0.14], size: M, rot: 5}
+    notes: "Marks do not heal or revive, and they bring back the dead too (the v3 rule). This answers Dokgo's ch 14 logic ('the return marks will bring Kwak out'). It echoes her 'SUMMONED IS NOT A DIAGNOSIS.' (ch 10)."
+
+  - id: P12
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up, Nib's eyes in the headlamp light"
+    art: >
+      Extreme close-up strip of Nib's eyes and brow, the subject in the middle third: amber eyes, dust in his eyebrows, the V-notch of his
+      LEFT ear at the frame edge, grit falling past. Not angry: decided. A small white glow from below (his mark). Violet-black around.
+    calm: right
+    lines:
+      - {who: nib, type: speech, side: l, text: "I STAY."}
+    sfx:
+      - {text: "24", style: impact, at: [0.90, 0.50], size: M, rot: 0}
+
+  - id: P13
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, side-on, Minho rising into a brace over the group"
+    art: >
+      Low, side-on. Minho (minho) looks at the three of them for one beat, then stands into a wide, low brace right over the group, his
+      back and helmet under the worst of the cracks, the pry bar held across in both hands. His face: a short breath out through the nose,
+      half a curse, then focus. His headlamp swings up across the crack web; three cracks now show sulphur-yellow. Below him, Nib and
+      Sejin bent over Kwak.
+    calm: top-right
+    lines:
+      - {who: minho, type: speech, side: r, text: "...THEN NOBODY GOES EARLY."}
+      - {who: minho, type: announce, side: r, text: "TWENTY-THREE."}
+    sfx:
+      - {text: "23", style: impact, at: [0.10, 0.80], size: L, rot: -6}
+    notes: "Minho changes his own order: the licensed lead chooses to share the porter's risk. From here he counts aloud."
+
+  - id: P14
+    shape: wide
+    gap: none
+    bg: white
+    camera: "medium, low, beside the steel frame, Taeo kneeling"
+    art: >
+      Medium, low, at the foot of the steel threshold frame (guro_pit): Taeo (taeo) kneels on the gravel with one hand on the frame's taped
+      upright, staring into the black-violet slit, lips moving as he counts under his breath. Dami (dami) stands behind him clutching
+      Kwak's jacket, frightened, looking from the slit to Taeo. In the background, small: Dokgo (dokgo) has lowered his phone and is
+      watching the gate too, the unlit cigarette between his fingers, his face unreadable; the clear team walking up the ramp toward the
+      KNN camera. Late sun; the gate rim's cold white edge light on Taeo's face. Ochre, concrete grey, red-orange vest.
+    calm: top
+    lines:
+      - {who: taeo, type: whisper, side: l, text: "...TWENTY-ONE."}
+      - {who: dami, type: speech, side: r, text: "WHERE ARE THEY?"}
+      - {who: taeo, type: speech, side: l, text: "WAITING. FOR HIM."}
+    sfx:
+      - {text: "21", style: impact, at: [0.90, 0.16], size: L, rot: 6}
+    notes: "Taeo cannot hear or see inside; he knows Nib. Taeo counts the same seconds as Minho without either hearing the other."
+
+  - id: P15
+    shape: tall
+    gap: none
+    bg: black
+    camera: "low, from the floor, looking straight up at the ceiling"
+    art: >
+      From the side gallery floor looking straight UP: the ceiling slab splits in a web of jagged cracks, and knives of saturated
+      sulphur-yellow light from the dungeon sky slice down through them into the dark. Rocks the size of fists and bricks break loose and
+      fall toward the camera as hard-edged chunks with speed lines; grit streams. At the bottom of the frame, foreshortened: Minho's braced
+      shoulders and helmet, headlamp blazing, pry bar up; the top of Nib's spiky black head bent over Kwak. Violet shadows, yellow light,
+      the white ring on Minho's wrist. The light is flat-edged shapes: no haze, no glowing dust, no god rays.
+    calm: top-left
+    lines:
+      - {who: minho, type: shout, side: c, text: "HEADS DOWN!"}
+    sfx:
+      - {text: "KRRRRRAAK", style: impact, at: [0.66, 0.30], size: XL, rot: 12}
+      - {text: "19", style: impact, at: [0.14, 0.10], size: L, rot: -6}
+
+  - id: P16
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close, from above and behind Nib"
+    art: >
+      From above and behind Nib (nib): a brick-sized rock smashes onto his RIGHT shoulder blade as he curls over Kwak's head; impact lines,
+      a burst of grit. His face, half turned toward us: eyes squeezed shut, teeth clenched on the sound, his small lower LEFT fang showing;
+      no cry. His LEFT hand still holds Kwak's. A fresh graze across the shoulder blade, grey with dust; no blood colour. Adult and wiry,
+      never cute. Violet-black background.
+    calm: left
+    sfx:
+      - {text: "THUD", style: impact, at: [0.56, 0.30], size: L, rot: -10}
+      - {text: "17", style: impact, at: [0.86, 0.86], size: M, rot: 4}
+
+  - id: P17
+    shape: wide
+    gap: none
+    bg: white
+    camera: "low, front on Taeo as he doubles over"
+    art: >
+      BIG REACTION. At the frame (guro_pit), Taeo (taeo) jack-knifes forward as if struck across the back, clutching his RIGHT wrist with
+      his left hand: his right palm flares with hard-edged amber (#F2A93B) light under the skin, the one saturated warm note. Eyes huge,
+      pupils pinpricks, mouth open on a gasp; a thin line of fresh dark-red blood runs from his nose over the dried. Dami (dami) has
+      dropped to her knees to grab his shoulder, terrified, the jacket sliding from her arm. Focus lines behind them. Late sun, ochre gravel.
+    calm: top
+    lines:
+      - {who: dami, type: shout, side: r, text: "TAEO!"}
+    sfx:
+      - {text: "THUD", style: impact, at: [0.28, 0.66], size: L, rot: -12}
+      - {text: "16", style: impact, at: [0.90, 0.16], size: L, rot: 6}
+    notes: "The link carries pressure across a threshold for seconds at a time (ch 13). Taeo feels the rock that hit Nib, and it recoils as pain and a nosebleed. He cannot route or share load yet ([LOAD SHARE] is ch 27): feeling it is all he can do."
+
+  # ---------------- THE KNOCK ----------------
+  - id: P18
+    shape: narrow-l
+    gap: short
+    bg: white
+    camera: "full figure, side-on, Taeo hauling himself up the frame"
+    art: >
+      Full figure, side-on: Taeo (taeo) hauls himself upright by the steel upright of the threshold frame with his left hand and raises his
+      RIGHT fist to knock on the crossbar, knuckles drawn back. Blood on his upper lip; his face set, eyes wet. The black-violet edge of the
+      slit at the panel's edge; faded yellow-and-black hazard tape round the upright. Plain pale sky above.
+    calm: top
+    lines:
+      - {who: taeo, type: float, text: "TWO KNOCKS MEANS COME BACK."}
+    sfx:
+      - {text: "14", style: impact, at: [0.78, 0.88], size: M, rot: -4}
+    notes: "Motif: the knock (ch 10). Two knocks from outside mean 'come back': here, 'press your mark now and leave him'."
+
+  - id: P19
+    shape: strip
+    gap: short
+    bg: white
+    camera: "extreme close-up, side-on, the fist and the steel"
+    art: >
+      Extreme close-up, side-on, the subject in the middle third: Taeo's right fist stopped a finger's width from the steel crossbar,
+      trembling (small shake lines), the hazard-tape stripes behind it, his knuckles scraped and grey with dust.
+    calm: none
+    lines:
+      - {who: taeo, type: float, text: "IT WASN'T MY CALL."}
+    sfx:
+      - {text: "13", style: impact, at: [0.90, 0.30], size: M, rot: 0}
+    notes: "Taeo's arc beat (15-17): he backs someone else's judgement. Contrast ch 14's 'FINISH THE LINE, NIB.' Do not let him apologise for ch 14 here: that is ch 19."
+
+  - id: P20
+    shape: inset-l
+    gap: short
+    bg: white
+    silent: true
+    camera: "close, three-quarter, Taeo's hand and face at the frame"
+    art: >
+      Close, three-quarter: Taeo opens the fist and lays his RIGHT palm flat on the cold steel crossbar, fingers spread, and rests his
+      forehead against his own wrist, eyes shut. A man choosing not to call someone back. Simplified background: steel, tape, pale sky.
+    calm: none
+    notes: "He does not knock. Unexplained echo of Nib's palm on the wall (ch 6 hook)."
+
+  - id: P21
+    shape: wide
+    gap: none
+    bg: black
+    camera: "floor level beside Nib's free hand"
+    art: >
+      Floor level in the side gallery: Nib (nib), curled over Kwak's head and still holding Kwak's hand in his LEFT, raps the knuckles of his
+      RIGHT hand on the stone floor beside Kwak's ear: three deliberate knocks. His face close to the floor: calm, eyes open, sure. Grit
+      jumps at each knock. The white rings on both their wrists. Yellow light streaks across the floor from the cracks above; Sejin's knees
+      and the bag at the frame edge.
+    calm: top
+    sfx:
+      - {text: "TOK", style: quiet, at: [0.58, 0.62], size: M, rot: -6}
+      - {text: "TOK", style: quiet, at: [0.68, 0.56], size: M, rot: 0}
+      - {text: "TOK", style: quiet, at: [0.78, 0.50], size: M, rot: 6}
+      - {text: "10", style: impact, at: [0.10, 0.18], size: L, rot: -6}
+    notes: "Three knocks from inside mean 'coming' (ch 10). Nib is nowhere near the frame, so he sends them through the link: the link works only when he permits it, and he does."
+
+  - id: P22
+    shape: strip
+    gap: none
+    bg: white
+    silent: true
+    camera: "extreme close-up, Taeo's palm flat on the steel"
+    art: >
+      Extreme close-up, the subject in the middle third: Taeo's right palm flat on the steel crossbar; under the skin, three small,
+      hard-edged amber (#F2A93B) flares in a row across the palm, as if pressed by three knuckles, the third the brightest. They are the
+      only colour in the panel: steel grey and faded hazard tape around them.
+    calm: none
+    notes: "The three knocks arrive. No sound effect: silence."
+
+  - id: P23
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close-up, slightly low, Taeo lifting his face"
+    art: >
+      Close-up, slightly low: Taeo lifts his face off his wrist: wet eyes, blood on his lip, and a breath that is half a laugh and half a
+      sob, the corners of his mouth shaking upward. Dami's gloved hand on his shoulder at the frame edge. Plain pale background.
+    calm: left
+    lines:
+      - {who: "offpanel:dami", type: speech, side: l, text: "WHAT? WHAT IS IT?"}
+      - {who: taeo, type: speech, side: r, text: "THEY'RE COMING."}
+    sfx:
+      - {text: "8", style: impact, at: [0.84, 0.16], size: M, rot: 6}
+
+  # ---------------- FIVE, THREE, ZERO ----------------
+  - id: P24
+    shape: wide
+    gap: none
+    bg: black
+    camera: "Dutch tilt, medium, inside the gallery toward Minho"
+    art: >
+      Dutch tilt, medium: a table-sized ceiling slab cracks free right above the group and sags, saturated yellow sky blazing through the
+      gap it opens. Minho (minho) rams the end of his pry bar into a fissure in the wall at a steep angle and drives his shoulder up under
+      the slab's falling edge, roaring, his headlamp knocked crooked. Below him: Nib over Kwak's head, Sejin still squeezing the bag. Grit
+      pours off the slab's edge in hard-edged streams. Yellow and violet, the white rings.
+    calm: top-left
+    lines:
+      - {who: minho, type: shout, side: r, text: "FIVE!"}
+    sfx:
+      - {text: "KRAK", style: impact, at: [0.60, 0.16], size: L, rot: 10}
+      - {text: "5", style: impact, at: [0.90, 0.80], size: L, rot: 0}
+
+  - id: P25
+    shape: tall
+    gap: none
+    bg: black
+    camera: "low angle up from beside Kwak's head"
+    art: >
+      From the floor beside Kwak's head, looking up: the slab has come down onto Minho's wedged pry bar and onto his shoulder; the bar bends
+      in a visible curve. Minho, down on one knee, holds it with both hands and his back, his face contorted in a roar, the cords of his
+      neck standing out, his white ring blazing. A wedge of sulphur-yellow sky glares through the hole above the slab. In the foreground,
+      Nib's arm and back over Kwak's face, and Sejin's hands on the bag. Dust pours off the slab's edges in hard-edged streams. No red in the
+      art.
+    calm: top
+    lines:
+      - {who: minho, type: shout, side: c, text: "THREE—!"}
+    sfx:
+      - {text: "KRRANNNG", style: impact, at: [0.70, 0.44], size: L, rot: 10}
+      - {text: "3", style: alert, at: [0.14, 0.18], size: XL, rot: -6}
+    notes: "Red enters only now, in the letterer's last countdown numbers: real danger. Minho is awakened and strong, but he is buying seconds, not holding a roof."
+
+  - id: P26
+    shape: strip
+    gap: none
+    bg: black
+    camera: "extreme close-up, the two clasped hands and their marks"
+    art: >
+      Extreme close-up, the subject in the middle third: Nib's olive hand gripping Kwak's grey one harder; both white rings flaring to their
+      brightest, flat white shapes swallowing the skin around them (no bloom, no glow haze). Grit falling across them like rain.
+    calm: none
+    lines:
+      - {who: "offpanel:minho", type: announce, side: r, text: "TWO."}
+      - {who: "offpanel:minho", type: announce, side: r, text: "ONE."}
+    sfx:
+      - {text: "2", style: alert, at: [0.10, 0.50], size: L, rot: -6}
+      - {text: "1", style: alert, at: [0.90, 0.50], size: XL, rot: 6}
+
+  - id: P27
+    shape: full
+    gap: fade-white
+    bg: white
+    camera: "wide, eye level, the empty gallery floor"
+    art: >
+      Wide, eye level: the side-gallery floor where the four of them were is EMPTY. The great slab slams down onto bare stone, cracking it,
+      in a burst of rubble and grit. Around the impact, four fading rings of cold white light lie on the floor where four people were a
+      moment ago. No bodies and no gear left behind. Yellow sky pours through the broken ceiling. Hard-edged debris, violet shadows.
+    calm: top
+    sfx:
+      - {text: "KA-THOOM", style: impact, at: [0.50, 0.36], size: XL, rot: -4}
+      - {text: "0", style: alert, at: [0.12, 0.14], size: XL, rot: 0}
+    notes: "At zero every mark fired, exactly at thirty seconds, as the rule says. The slab lands on nothing. The marks took their bearers' worn and carried gear too (the bent pry bar, the bag-valve mask, Nib's pouch with the ch 16 shard)."
+
+  - id: P28
+    shape: strip
+    gap: none
+    bg: white
+    silent: true
+    camera: "extreme close-up, Taeo's palm on the steel"
+    art: >
+      Extreme close-up, the subject in the middle third: Taeo's right palm flat on the steel crossbar exactly as before, but the amber is
+      GONE: plain skin, no light at all. His fingers have tightened, knuckles pale. Nothing else.
+    calm: none
+    notes: "The link goes dark at the threshold (ch 10 hook). One held breath."
+
+  - id: P29
+    shape: bleed
+    gap: none
+    bg: white
+    camera: "low, at gravel level, the slit filling the top of the frame"
+    art: >
+      THE RETURN. Low, at gravel level, the slit filling the top of the frame, its rim blazing cold white. Out of it the four TUMBLE in a
+      tangled heap onto the gravel at the foot of the frame, in a blast of grey dust: Minho (minho) on his back with the bent pry bar across
+      his chest; Sejin (sejin) landing on her knees and ALREADY squeezing the bag-valve mask over Kwak's face; Kwak (mansu) limp and grey,
+      unconscious, brought out by his own mark and no better for it; Nib (nib) curled over Kwak's head, still gripping his hand. Taeo (taeo)
+      has thrown himself down to meet them, arms out, catching Nib by the shoulders. The dust rolls outward across the apron toward the
+      clear team posing up on the ramp in the background. Hard-edged dust shapes and debris; a few sharp particles at the slit only. The
+      panel's bottom edge breaks its border. Late sun from the west.
+    calm: top
+    sfx:
+      - {text: "WHUMP!!", style: impact, at: [0.46, 0.60], size: XL, rot: -8}
+      - {text: "FWOOSH", style: impact, at: [0.82, 0.82], size: L, rot: 10}
+    notes: "The rule shown honestly: at zero the mark brings the unconscious man out, and does nothing for him. Everyone who went into the side gallery is out. New injuries since ch 16: Nib's grazed and bruised right shoulder blade; Minho's strained shoulder."
+
+  # ---------------- AFTER ----------------
+  - id: P30
+    shape: wide
+    gap: short
+    bg: white
+    camera: "medium, eye level, the heap untangling"
+    art: >
+      Medium, eye level: the heap untangling in the settling dust. Sejin (sejin), on her knees at Kwak's head, keeps squeezing the bag and
+      whips her head round toward the ramp, shouting. Minho (minho) rolls onto an elbow, coughing, dust pouring off him. Taeo holds Nib by
+      both shoulders and searches his face; Nib, dazed, blinking dust, still holding Kwak's hand. In the background, two paramedics
+      (extras.paramedic) run down the ramp with a wheeled stretcher and a green oxygen cylinder. Late sun; grey dust over everything.
+    calm: top-right
+    lines:
+      - {who: sejin, type: shout, side: l, text: "PARAMEDICS! HE'S NOT BREATHING ON HIS OWN!"}
+    notes: "The site's standby ambulance has waited at the street gate since the clear team arrived (decided here)."
+
+  - id: P31
+    shape: full
+    gap: short
+    bg: white
+    silent: true
+    camera: "straight on at the threshold frame, from a few metres back"
+    art: >
+      Straight on, a few metres back: the steel threshold frame on the gravel apron (guro_pit), and inside it the gate closing: the
+      black-violet slit narrowed to a hairline crack hanging in the air, its cold white rim shrinking with it, a few sharp particles at the
+      very tips. At the left, small: the dusty group and the paramedics kneeling round Kwak. The frame stands round almost nothing. Long
+      late-afternoon shadows.
+    calm: top
+    notes: "The gate is closed for good: closing is local to this connection (F17)."
+
+  - id: P32
+    shape: wide
+    gap: short
+    bg: white
+    camera: "three-quarter, high, over the paramedics working"
+    art: >
+      Three-quarter, high, over the paramedics: the older paramedic (extras.paramedic) fits a clear oxygen mask from a green cylinder over
+      Kwak's face while the young one slides a board under him. Sejin (sejin), kneeling, hands over in a clipped professional voice, the
+      bag-valve mask lowered. Nib (nib) kneels on the other side, still holding Kwak's hand and not letting go; Taeo beside Nib, one hand on
+      Nib's back below the graze. Dust, late sun.
+    calm: top
+    lines:
+      - {who: sejin, type: speech, side: l, text: "ASTHMA. DUST. HIS LEG WAS PINNED."}
+      - {who: paramedic, type: speech, side: r, text: "GOT HIM."}
+    sfx:
+      - {text: "SSSS", style: quiet, at: [0.30, 0.62], size: S, rot: 0}
+
+  - id: P33
+    shape: full
+    gap: long
+    bg: white
+    camera: "establishing, eye level from the far pavement across the street"
+    art: >
+      Establishing, from the far pavement (guro_pit_street): the two-lane street; along its far side runs the site's tall steel hoarding,
+      printed with a huge glossy render of the apartment tower to be built and a smiling family on a balcony (the developer's logo a blank
+      block), its sliding mesh gate open near the left end. At the gate, a white ambulance with an orange stripe and a red light bar (no
+      lettering), back doors open; the paramedics wheel the stretcher with Kwak (mansu, oxygen mask) toward it. Dami (dami) at the
+      stretcher's side lays Kwak's jacket over his chest, crying openly; Nib walks beside it, still holding Kwak's hand; Taeo a step behind
+      with his sleeve at his nose; Sejin with her med bag. To the right along the hoarding: the KNN 24 van with a roof dish (blank logo)
+      and the clear team grouped for the camera; three porters (extras.porters) on crates. Overhead wires, a plane tree; on this side, the
+      edge of a shop awning. Late-afternoon sun from the left (west), long shadows to the right. Palette: warm grey pavement, the render's
+      glossy sky blue and white, ochre site dust; the red light bar the only red. No letters anywhere.
+    calm: top
+    lines:
+      - {who: narr, type: tag, text: "GURO-GU, SEOUL · 4:09 PM"}
+
+  - id: P34
+    shape: wide
+    gap: short
+    bg: white
+    camera: "medium close at the head of the stretcher"
+    art: >
+      Medium close at the stretcher's head: Kwak (mansu) under the clear oxygen mask, his eyes opened a sliver, unfocused, trying to
+      reassure. Dami (dami), bent over him, sobbing with her mouth wide, tears cutting tracks through the dust on her face, one gloved hand
+      on his jacket. The ambulance's open white door behind. Late sun.
+    calm: top
+    lines:
+      - {who: mansu, type: whisper, side: l, text: "...IT'S FINE."}
+      - {who: dami, type: shout, side: r, text: "IT'S NOT FINE, AJUSSI!"}
+    notes: "Unexplained callback to Kwak's ch 13 line about his inhaler ('IT'S FINE.'). The oxygen woke him a little; the mark did not."
+
+  - id: P35
+    shape: inset-l
+    gap: short
+    bg: white
+    silent: true
+    camera: "close, at stretcher height, three hands"
+    art: >
+      Close at stretcher height: Nib (nib) lays Kwak's big grey hand into Dami's gloved hands, carefully, his olive fingers the last to let
+      go. Above, Dami's tear-streaked face stares at him. Nib's face is deadpan; his hands are gentle. The edge of the ambulance's white door.
+    calm: none
+
+  - id: P36
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "medium, at the ambulance's open back doors"
+    art: >
+      Medium, at the ambulance's open back doors: the older paramedic on the back step, half inside, looks down at Dami; Dami wipes her face
+      with the back of her glove and lifts her chin. Inside, the stretcher and the green cylinder.
+    calm: left
+    lines:
+      - {who: paramedic, type: speech, side: r, text: "FAMILY?"}
+      - {who: dami, type: speech, side: l, text: "PARTNER. HIS PORTER PARTNER."}
+      - {who: paramedic, type: speech, side: r, text: "GET IN."}
+    notes: "Dami rides to the hospital with Kwak (ch 18 opens with him in hospital)."
+
+  - id: P37
+    shape: wide
+    gap: short
+    bg: white
+    silent: true
+    camera: "over the KNN camera operator's shoulder"
+    art: >
+      Over the KNN camera operator's shoulder (extras.camera_op: the shoulder camera in the near foreground, left, its viewfinder dark). In
+      front of the lens, against the glossy render on the hoarding, the clear team (extras.ironclad) pose for the shot, arms folded, the
+      leader's warhammer on his shoulder, the reporter (extras.reporter) beside them with his mic; one hunter brushes grey dust from the
+      heap off his polished shoulder plate for the camera. At the far right of OUR panel, outside the camera's framing, the ambulance pulls
+      away down the street with its light bar flashing. Late sun.
+    calm: none
+    notes: "Sets up ch 18 ('IRONCLAD SEVEN CLEARS GURO GATE — NO CASUALTIES'). Unexplained: the camera faces away from the ambulance."
+
+  # ---------------- THE CLAUSE ----------------
+  - id: P38
+    shape: wide
+    gap: long
+    bg: white
+    camera: "side-on at the site gate, level with the sedan's rear window"
+    art: >
+      Side-on at the site gate: a black sedan, clean and expensive with tinted windows, has just rolled in over the dust and stopped. Minho
+      (minho), dust-grey from head to boots, his hard hat in one hand and the bent pry bar under his arm, catches his reflection in its dark
+      rear window: in the reflection, the grey streak at his LEFT temple has become a thick white stripe. His face: deadpan, appalled. Late
+      sun on the car roof.
+    calm: top
+    sfx:
+      - {text: "KRSSSH", style: quiet, at: [0.18, 0.84], size: S, rot: 0}
+    notes: "Runner: Minho's grey streak gains hairs (ch 7)."
+
+  - id: P39
+    shape: inset-r
+    gap: short
+    bg: white
+    style: chibi
+    camera: "chibi gag"
+    art: >
+      CHIBI gag (derive chibi Minho from his model sheet: grey-streaked hair, brown jacket, radio on his LEFT chest). Chibi Minho points at
+      his own now-huge white streak with one hand and jabs the other thumb over his shoulder at a tiny chibi Taeo far off on the kerb, who
+      has turned to white stone. A sparkle on the streak. Flat ochre background with screentone dots.
+    calm: left
+    lines:
+      - {who: minho, type: speech, side: l, text: "THAT'S YOU. THAT ONE'S YOU."}
+      - {who: "offpanel:taeo", type: speech, side: r, text: "...SORRY."}
+    notes: "Minho has no chibi sheet yet: derive him from his model sheet, as in ch 7."
+
+  - id: P40
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, from the gravel at car-door height"
+    art: >
+      Low, from the gravel at car-door height: the sedan's rear door open; the general contractor's site manager (extras.gc_manager) steps
+      out onto the dust in spotless boots, phone at his ear, a rugged tablet under his arm, not looking toward the street where the
+      ambulance went. Dokgo (dokgo) hurries over from the gate, already bowing deep, the unlit cigarette pinched behind his back, a second
+      phone buzzing in his windbreaker pocket. Minho stands a few steps off, watching. Late sun on the car.
+    calm: top-right
+    lines:
+      - {who: gc_manager, type: speech, side: l, text: "DOKGO CONTRACTING."}
+      - {who: dokgo, type: speech, side: r, text: "SIR. I'M SORRY, SIR—"}
+    notes: "The general contractor is Dokgo's boss: the man counting minutes on Dokgo's phone since ch 13."
+
+  - id: P41
+    shape: wide
+    gap: short
+    bg: white
+    camera: "over Dokgo's bowed shoulder, toward the manager"
+    art: >
+      Over Dokgo's bowed shoulder (his windbreaker and greying hair in the near foreground, left): the manager holds the tablet out at chest
+      height, its screen toward Dokgo and us: screen: green. His face is tired, polite and completely flat; the phone is still at his other
+      ear, with his own boss on the line. Behind him, the sedan and the hoarding's glossy render.
+    calm: top
+    ui:
+      - {kind: phone.info_card, on: screen, title: "PENALTY NOTICE", text: "Clause 9 · Late completion: ₩5,000,000 per hour · Dokgo Contracting · Sign to acknowledge"}
+    lines:
+      - {who: gc_manager, type: speech, side: r, text: "CLAUSE NINE. FIVE MILLION AN HOUR."}
+      - {who: dokgo, type: speech, side: l, text: "I HAD A MAN MISSING—"}
+      - {who: gc_manager, type: speech, side: r, text: "THE CLAUSE HAS NO LINE FOR THAT."}
+    notes: "PAYOFF P08 (1 of 2): the ₩5,000,000-an-hour clause that Dokgo's porter app counted down in ch 13 is what decided his orders ('KEEP MOVING', ch 13; 'TIME COSTS FIVE MILLION AN HOUR', ch 14). The manager is squeezed too: hence the phone."
+
+  - id: P42
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close and high, on Dokgo's finger on the tablet"
+    art: >
+      Close and high: Dokgo's thick finger dragging a signature across the tablet (a plain pale screen with one dark scribble line, no
+      interface), the unlit cigarette held between two knuckles of the same hand. Past the tablet's edge, the manager's other hand already
+      holds a plain white envelope out sideways toward someone off-panel, without looking.
+    calm: right
+    lines:
+      - {who: dokgo, type: speech, side: l, text: "THE SURVEY LINE WAS LATE TOO. NOT MY PEOPLE."}
+      - {who: gc_manager, type: speech, side: r, text: "THEN RYU SURVEY TAKES ITS SHARE."}
+    notes: "The squeeze runs down the chain: client, Dokgo, Ryu Survey, and next Taeo. Dokgo is partly right: the survey line was late, because Ryu's licensed team left it to save his porter. Dokgo's own fine is never lettered."
+
+  - id: P43
+    shape: narrow-r
+    gap: short
+    bg: white
+    silent: true
+    camera: "full figure, Minho holding the envelope"
+    art: >
+      Full figure: Minho (minho), dust-grey, the bent pry bar under one arm, holds the white envelope at his side unopened and looks along
+      the pavement toward the kerb where Taeo sits (off-panel left). Jaw tight; the white streak catching the sun. The sedan's black flank
+      behind him.
+    calm: none
+
+  # ---------------- THE KERB ----------------
+  - id: P44
+    shape: wide
+    gap: long
+    bg: white
+    camera: "eye level, side-on along the kerb"
+    art: >
+      Eye level, side-on along the kerb (guro_pit_street), the hoarding behind: Taeo (taeo) sits on the kerb with his elbows on his knees
+      and his head tipped BACK, blood under his nose. Sejin (sejin) crouches in front of him and pushes his forehead forward and down with
+      two fingers, her other hand reaching to pinch the soft of his nose. His olive backpack (faded orange patch) on the pavement at his
+      feet. Nib (nib) sits beyond him on the kerb, at Taeo's left, dust-caked, barefoot, knees up, the graze on his shoulder blade. Late sun
+      from the west; the glossy render looms above.
+    calm: top
+    lines:
+      - {who: narr, type: tag, text: "4:40 PM"}
+      - {who: sejin, type: speech, side: r, text: "FORWARD, NOT BACK. YOU'LL SWALLOW IT."}
+    notes: "Correct nosebleed first aid: lean forward and pinch. Sejin is Ryu Survey's paid medic on this job (ch 10)."
+
+  - id: P45
+    shape: wide
+    gap: short
+    bg: white
+    camera: "three-quarter, slightly high, on Nib"
+    art: >
+      Three-quarter, slightly high, on Nib: Sejin (sejin) snaps open a silver foil emergency blanket and drapes it round Nib's shoulders in
+      one practised move; Nib (nib) looks down at it, then up at her, deadpan. Taeo, head forward now and pinching his own nose, watches
+      sideways. Pavement, the hoarding's base, late sun glinting off the foil in a few crisp highlights.
+    calm: top-right
+    lines:
+      - {who: nib, type: speech, side: l, text: "I'M FINE."}
+      - {who: sejin, type: speech, side: r, text: "'FINE' ISN'T A DIAGNOSIS."}
+    sfx:
+      - {text: "FWAP", style: quiet, at: [0.30, 0.30], size: S, rot: -6}
+
+  - id: P46
+    shape: inset-l
+    gap: short
+    bg: white
+    style: chibi
+    camera: "chibi gag"
+    art: >
+      CHIBI gag. Chibi Nib sits wrapped up to his ears in the crinkly silver foil blanket like a baked sweet potato, only his deadpan face,
+      the notched LEFT ear and his bare green toes poking out; a tiny curl of steam rises off him. Beside him, chibi Taeo, a tissue up one
+      nostril, shakes with laughter he is trying to hide (squeezed eyes, sweat drops). Flat warm-grey background with screentone.
+    calm: right
+    lines:
+      - {who: taeo, type: nervous, side: r, text: "IT'S... PROCEDURE."}
+      - {who: nib, type: speech, side: l, text: "I HATE PROCEDURE."}
+    sfx:
+      - {text: "CRINKLE", style: comic, at: [0.70, 0.84], size: S, rot: 8}
+    notes: "Runner: Nib against things put on him (shoes until ch 43)."
+
+  - id: P47
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close, eye level, between them"
+    art: >
+      Close, eye level: Nib (nib, the foil blanket round his shoulders like a cape; he still sits like a soldier) has unscrewed a small
+      bottle of water from Sejin's kit and holds it out to Taeo at arm's length: plain, firm, not a question. Taeo's hand comes in from the
+      frame edge to take it. Nib's face is deadpan; his eyes are not.
+    calm: left
+    lines:
+      - {who: nib, type: speech, side: r, text: "YOU FIRST."}
+    notes: "Motif: 'YOU FIRST.' (ch 2), now as care."
+
+  - id: P48
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low two-shot from road level, looking up at the pair on the kerb"
+    art: >
+      Low two-shot from road level, looking up at the pair on the kerb: Taeo (taeo) lowers the bottle after drinking, blood under his nose
+      and a twist of tissue in his left nostril, and looks at Nib: tired, wrecked, quietly proud of him; not smiling yet. Nib (nib, foil
+      blanket), on the right of frame, takes the bottle back. Behind them, the hoarding's glossy render. The low sun lights their faces from
+      the left (west).
+    calm: top
+    lines:
+      - {who: taeo, type: speech, side: l, text: "YOU WENT."}
+
+  - id: P49
+    shape: strip
+    gap: short
+    bg: white
+    camera: "close, Nib in profile"
+    art: >
+      Close on Nib in profile, the subject in the middle third: he lowers the bottle from his mouth and speaks without looking at Taeo, eyes
+      on the street ahead, his ears relaxed for the first time today. The foil blanket's crinkled edge at his chin; dust in his hair.
+    calm: left
+    lines:
+      - {who: nib, type: speech, side: r, text: "YOU CALLED IT."}
+    notes: "Nib means 'OUT! NIB, OUT NOW!' (ch 15 hook), the call he trusted in ch 16."
+
+  - id: P50
+    shape: vignette
+    gap: short
+    bg: white
+    silent: true
+    camera: "from behind and low, the two backs on the kerb"
+    art: >
+      From behind and low: Taeo and Nib sit side by side on the kerb facing the street, Nib on the left with the foil blanket on his
+      shoulders. Their long late-sun shadows stretch together along the pavement to the left: one tall, one short. Nib's right hand rests
+      closed over the leather pouch on his RIGHT hip (the pouch is shut; nothing glows). Taeo's backpack, patch outward, at his feet. The
+      far side of the street simplified. The edges fade into the white page.
+    calm: none
+    notes: "The dark shard Nib pocketed in ch 16 is in the pouch: it came out with him as carried gear. Do not show it or any glow: that is ch 18's hook."
+
+  # ---------------- THE INVOICE ----------------
+  - id: P51
+    shape: wide
+    gap: long
+    bg: white
+    camera: "over Taeo's shoulder, Minho crouching at the kerb"
+    art: >
+      Over Taeo's shoulder (his vest strap and the edge of his hair in the near foreground, left): Minho (minho) has walked over and crouches
+      on his heels in the road at the kerb, eyes level with Taeo, holding out one printed sheet from the opened envelope. His face is plain,
+      unhappy and honest. The bent pry bar lies on the asphalt beside him. Late sun on his dusty shoulder.
+    calm: top
+    lines:
+      - {who: minho, type: speech, side: r, text: "RYU SURVEY'S SHARE."}
+
+  - id: P52
+    shape: strip
+    gap: short
+    bg: white
+    camera: "extreme close-up, top-down on the invoice in Taeo's hands"
+    art: >
+      Extreme close-up, top-down, the sheet in the middle third: the single sheet in Taeo's dusty hands. A printed invoice with a blank-block
+      letterhead, rows of squiggle lines, a ruled table, and two clean blank boxes for the letterer: one mid-sheet, and a larger one at the
+      bottom right. A blank margin and a signature line at the very bottom. A thumbprint of dried blood on one corner. No legible letters or
+      numbers drawn.
+    calm: none
+    ui:
+      - {kind: label, text: "CLAUSE 9 · ₩5,000,000 / HOUR LATE", at: [0.40, 0.42], size: 30, rot: 0, color: "#2B2523", notes: "printed type: move onto the mid-sheet box once the art exists"}
+      - {kind: label, text: "RYU SURVEY SHARE: ₩3,400,000", at: [0.66, 0.66], size: 38, rot: 0, color: "#B3261E", notes: "printed in red: move onto the bottom-right box once the art exists"}
+    lines:
+      - {who: narr, type: footnote, text: "*₩3,400,000 ≈ US$2,500"}
+    notes: "The price tag. The rate is the ch 13 clause; the share is the beats' figure."
+
+  - id: P53
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close, Nib leaning in to look at the sheet"
+    art: >
+      Close: Nib (nib, foil blanket) leans in over Taeo's arm to look at the sheet, lips moving on the number, deadpan; then his amber eyes
+      slide up to Taeo. Taeo's dusty hand holding the sheet at the frame edge.
+    calm: right
+    lines:
+      - {who: nib, type: speech, side: l, text: "THREE HUNDRED AND FORTY LUNCHES."}
+      - {who: taeo, type: speech, side: r, text: "...YOU DID THE MATHS."}
+    notes: "Runner: Taeo's unit of money is 'my lunches' (ch 4: ₩50,000,000 is about five thousand; ch 7: ₩20,000 is two). Nib converts it himself now."
+
+  - id: P54
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level, Minho in three-quarter view, the street behind him"
+    art: >
+      Eye level, Minho in three-quarter view, still crouched: he looks away down the street instead of at Taeo while he speaks, jaw tight,
+      the white streak catching the light, dust in his eyebrows. Taeo's shoulder and the sheet in the near foreground right, simplified. The
+      KNN van's roof dish in the far background.
+    calm: top-left
+    lines:
+      - {who: minho, type: speech, side: l, text: "IF IT WERE MINE, I'D TEAR IT UP."}
+      - {who: minho, type: speech, side: l, text: "IT'S BLUEBIRD'S. ALL OF IT IS."}
+    notes: "Ryu Survey owes Bluebird Capital (the figure stays hidden until ch 26), and Bluebird towed one of its vans in ch 12. Minho isn't taking the money for himself."
+
+  - id: P55
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close, Taeo holding out his hand"
+    art: >
+      Close on Taeo (taeo): blood under his nose, the mole under his RIGHT eye, tired eyes steady now. He holds out his open right hand for
+      Minho's pen, palm up. A small, crooked, decided smile.
+    calm: left
+    lines:
+      - {who: "offpanel:minho", type: speech, side: l, text: "YOU SAID IT BEFORE YOU KNEW THE NUMBER."}
+      - {who: taeo, type: speech, side: r, text: "NOW I KNOW IT."}
+      - {who: taeo, type: speech, side: r, text: "WHERE DO I SIGN?"}
+    notes: "Ch 15: 'THEN TAKE IT FROM MY DEPOSIT.' He says yes again, knowing the number."
+
+  - id: P56
+    shape: tall
+    gap: short
+    bg: white
+    camera: "from across the street, slightly low, the hoarding rising above"
+    art: >
+      THE HOOK. A tall frame composed top to bottom, from across the street, slightly low. Top half: the site hoarding's huge glossy printed
+      render: a gleaming apartment tower against a perfect blue sky and a smiling family waving from a balcony (the developer's logo a blank
+      block). Middle, small, at the left by the open mesh gate: the KNN reporter (extras.reporter) doing his stand-up into the camera
+      (extras.camera_op), with the seven polished hunters (extras.ironclad) posed behind him, the leader's warhammer on his shoulder.
+      Bottom right, larger: Taeo (taeo) on the kerb, bent over Minho's clipboard on his knee with the invoice clipped to it, writing on its
+      blank bottom margin with Minho's pen, the pen mid-stroke. Minho (minho) crouches on the asphalt to the left of him in profile,
+      watching the pen, his face unreadable. Nib (nib, foil blanket) sits on Taeo's other side, watching Taeo's face, not the paper. The
+      olive backpack with the faded orange patch at Taeo's feet. Late sun from the left (west) throws their long shadows to the right along
+      the pavement. A little dried blood under Taeo's nose. Palette: the render's glossy sky blue and white above; warm grey street and
+      ochre dust below. No legible marks drawn on the paper or anywhere else.
+    calm: top
+    ui:
+      - {kind: label, text: "₩3,400,000 FROM MY RENT DEPOSIT. — YOON TAEO", at: [0.70, 0.88], size: 26, rot: -4, color: "#2B2523", notes: "Taeo's handwriting on the invoice's bottom margin: move onto the paper once the art exists"}
+    lines:
+      - {who: reporter, type: speech, side: l, text: "...A CLEAN CLEAR. NO CASUALTIES."}
+      - {who: taeo, type: float, text: "₩1,600,000 LEFT."}
+      - {who: taeo, type: float, text: "IT'S FINE."}
+      - {who: narr, type: footnote, text: "*₩1,600,000 ≈ US$1,150"}
+    notes: "HOOK. PAYOFF P08 (2 of 2): Taeo pays a share. The ₩5,000,000 rental deposit (ch 15) now has ₩1,600,000 left, the balance on ch 21's notice; this sets up arc III's eviction. Unexplained callbacks: ch 1's 'IT'S FINE.' and Kwak's (P34). The reporter's line leads into ch 18's KNN headline."
+
+  - id: P57
+    kind: end
+    gap: long
+    bg: white
+    end_text: "TO BE CONTINUED"
+    next: "NEXT · CHAPTER 18 · THE NEWS DOESN'T SAY PORTER"
+    chibi_gag: "Chibi Taeo has turned to white stone mid-signature, pen still in his hand. Chibi Nib, wrapped in the foil blanket like a baked sweet potato, knocks on his stone head three times, and a tiny crack appears."

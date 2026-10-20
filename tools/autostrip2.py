@@ -480,7 +480,12 @@ def choose_bubble(kind_entries, tw, th, maxw, minwh, nlines=1):
 def card_html(card, fills, W):
     """A full-width kit card (title / end / intro) with its text boxes filled."""
     png, meta = card
-    x0, y0, x1, y1 = meta.get("art_bounds") or [0, 0, meta["size"][0], meta["size"][1]]
+    bounds = meta.get("art_bounds")
+    if not bounds:  # the kit cards sit on a transparent margin: crop to the painted card so it fills the strip width
+        with Image.open(png) as im_:
+            bounds = list(im_.convert("RGBA").getchannel("A").point(lambda a: 255 if a > 8 else 0).getbbox()
+                          or (0, 0, meta["size"][0], meta["size"][1]))
+    x0, y0, x1, y1 = bounds
     cw, ch = x1 - x0, y1 - y0
     k = W / cw
     texts = []
@@ -492,7 +497,7 @@ def card_html(card, fills, W):
         fs = (b.get("sample_size") or bh * 0.5) * k
         texts.append(f'<div class="ctx" style="left:{(x - x0) * k:.1f}px;top:{(y - y0) * k:.1f}px;width:{bw * k:.1f}px;height:{bh * k:.1f}px;'
                      f'color:{b.get("color", "#F7F5EE")}"><span style="font-size:{fs:.1f}px">{fmt_text(v)}</span></div>')
-    return (f'<div class="blk card" style="height:{ch * k:.0f}px;background-image:url({uri(png)});background-size:{meta["size"][0] * k:.1f}px auto;'
+    return (f'<div class="blk card" style="height:{ch * k:.0f}px;background-color:#101218;background-image:url({uri(png)});background-size:{meta["size"][0] * k:.1f}px auto;'
             f'background-position:{-x0 * k:.1f}px {-y0 * k:.1f}px">{"".join(texts)}</div>')
 
 
@@ -606,6 +611,39 @@ SYS_JS = r"""
   return true;
 }
 """
+SFX_JS = r"""
+() => {
+  // SFX sit above everything in the panel overlay. Nudge each one off any bubble, system window or nameplate it covers,
+  // by the smallest move that keeps its centre inside the panel; shrink it when no move fits.
+  const pad = 12;
+  const boxes = [...document.querySelectorAll('.lt:not(.t-tag), .syswin, .intro')].map(e => e.getBoundingClientRect());
+  let moved = 0; const stuck = [];
+  for (const s of document.querySelectorAll('.sfx')) {
+    const pov = s.parentElement.getBoundingClientRect();
+    let shrinks = 0;
+    for (let it = 0; it < 10; it++) {
+      const r = s.getBoundingClientRect();
+      const hit = boxes.find(b => r.left < b.right + pad && r.right > b.left - pad && r.top < b.bottom + pad && r.bottom > b.top - pad);
+      if (!hit) break;
+      const best = [[0, hit.bottom + pad - r.top], [0, hit.top - pad - r.bottom], [hit.right + pad - r.left, 0], [hit.left - pad - r.right, 0]]
+        .map(([dx, dy]) => {
+          const cx = (r.left + r.right) / 2 + dx - pov.left, cy = (r.top + r.bottom) / 2 + dy - pov.top;
+          const inside = cx > pov.width * 0.06 && cx < pov.width * 0.94 && cy > pov.height * 0.06 && cy < pov.height * 0.94;
+          return {dx, dy, cost: Math.abs(dx) + Math.abs(dy) + (inside ? 0 : 1e6)};
+        }).sort((a, b) => a.cost - b.cost)[0];
+      if (best.cost >= 1e6) {
+        if (shrinks++ >= 3) { stuck.push(s.textContent.trim()); break; }
+        s.style.fontSize = (parseFloat(s.style.fontSize) * 0.84).toFixed(1) + 'px';
+        continue;
+      }
+      s.style.left = (parseFloat(s.style.left) + best.dx / pov.width * 100).toFixed(2) + '%';
+      s.style.top = (parseFloat(s.style.top) + best.dy / pov.height * 100).toFixed(2) + '%';
+      moved++;
+    }
+  }
+  return {moved, stuck};
+}
+"""
 
 
 def strip_css(W):
@@ -625,7 +663,7 @@ def strip_css(W):
 .row{{display:flex;align-items:center;gap:26px;padding:0 40px;position:relative;z-index:2}}
 .row .pnl{{flex:none;margin:0}}
 .beside{{flex:1;display:flex;flex-direction:column;gap:22px;align-items:center;justify-content:center;min-height:160px;position:relative;z-index:3}}
-.gut{{position:relative;z-index:3;display:flex;flex-direction:column;gap:12px;padding-top:26px}}
+.gut{{position:relative;z-index:3;display:flex;flex-direction:column;gap:18px;padding-top:26px}}
 .gut.after{{padding-top:0;padding-bottom:22px}}
 .lt{{position:relative;flex:none;z-index:4}}
 .pair{{display:flex;justify-content:space-between;align-items:flex-start;padding:0 {int(W * .05)}px;position:relative;z-index:4}}
@@ -1124,6 +1162,8 @@ def main():
         page.wait_for_timeout(400)
         page.evaluate(SYS_JS)
         ntails = page.evaluate(TAIL_JS, kit.profiles_js())
+        sfx_fix = page.evaluate(SFX_JS)
+        warnings += [f"SFX COVERS A BUBBLE (no room to move it): {t_}" for t_ in sfx_fix["stuck"]]
         page.wait_for_timeout(200)
         geo = page.evaluate("""() => {
           const r = e => { const b = e.getBoundingClientRect(); return {x0:b.left, y0:b.top+scrollY, x1:b.right, y1:b.bottom+scrollY}; };
