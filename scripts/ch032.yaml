@@ -1,0 +1,930 @@
+chapter: 32
+title: Change the Angle
+when: "Raid morning, directly after ch 31's early charge. The fight lasts seconds; returns and treatment follow, then fragment integration while the central crew finishes returning. No calendar date is lettered."
+story_beats: PART_ONE_BEATS.md#32
+cast:
+  taeo: outdoor # Navy zip jacket over black hoodie, black cargos, black low sneakers with one white stripe. Mole under RIGHT eye. Olive backpack with faded orange OLD shield-and-open-door patch beside the operator table. Never crosses.
+  nib: default # Adult, 105 cm, barefoot; V-notch LEFT ear, single lower LEFT fang, brown rope belt, pouch RIGHT hip, brown wooden sheath LEFT hip. Dinosaur sticker on pouch. Matte black 8x30 binoculars, strap knot at LEFT neck, Kett's mark on hinge. Drilled white site hard hat, chin strap fastened.
+  orrin: default # Adult stoneback; 230 cm long, 135 cm shell height, four columnar legs with three blunt nails each, stacked-slate shell, grey-olive skin, heavy-lidded adult face. Haein's removable scaffold-clamp rim brace; shell does NOT crack here.
+  haein: default # Slate-blue bib overalls, beige tee, brown tool belt, jaw-length black bob, clear safety glasses. Outside at survey base station.
+  sejin: default # Sage scrubs, olive medic rig, charcoal cargos, dark boots, cropped black hair. Paid safety officer, outside throughout.
+  minho: default # Brown work jacket, grey tee, olive cargos, black knee pads, brown boots; grey streak LEFT temple, chest radio, LEFT wristwatch. Returns from central route.
+extras:
+  central_crew: "Two adult Ryu survey workers, one stocky man and one lean woman, in muted orange work vests and white hard hats; dusty but walking unaided, carrying closed deposit cases."
+  bridge_boss: "Adult-sized dungeon ram-beast, far larger than Nib: squat blocky stone shoulders, four heavy cloven feet, coarse dark clay plates, low red slit eyes, two ridged mineral horns. The outer horn has a pale layered tip. No equipment, no return mark, no comic expression."
+locations: [terrace_gate_east, terrace_gate_rim]
+location_notes:
+  terrace_gate_east: "No drawn key supplied. Follow ch 31's terraces if its art exists. Green dusk sky, clay shelves, violet shadows, black void below. At the east bridge approach the cliff is inland and the drop is outboard. Orrin occupies a broad stable shelf beside an oblique projecting cliff face; the narrow bridge leads the charging boss onto it. Nib's outboard escape pocket is behind Orrin's shoulder. The extracted deposit cases are shut and lashed together on Orrin's upper shell, away from the rim brace. Ryu's white cable, blue bands each metre, follows the inland edge to grey relay tripods every 50 m."
+  terrace_gate_rim: "Outside Terrace Gate's east connection: packed gravel staging apron, scaffold threshold frame, operator table and first-aid mat to its left, clear return landing in front. The central connection's separately licensed exit is farther across the same apron. Local connections close on their own bosses; an east clear does not cancel Minho's central run. Table holds the grey survey base station, coiled white/blue survey cable and dark medical displays."
+props:
+  brace: "Haein's ch 30 scaffold-clamp rim brace, with padded contact along Orrin's rim and diagonal struts; final lower locking pin is still open in P02. It spreads a glancing load, never makes the rim invulnerable."
+  turning_line: "Short plain survey safety rope clipped to the brace's outboard eye. Nib uses a loose bight to catch the boss horn and give its head a lateral cue. Orrin and the angled brace carry the tension; Nib releases before the load peaks. Not the white radio cable."
+  horn_fragment: "Palm-length pale grey layered mineral tip, dark clay at its broken base. Breaks off against the cliff before the boss falls. Nib retrieves it from the safe shelf; consumed by integration at P45. Window 4's first new kind, +34%."
+palette_notes: "A4 inside-gate green dusk with violet shadows; threat red only in the boss's eyes. Outside: dusty ochre gravel, warm brown shadows, washed blue morning sky; blood is the single grit red. Nib link amber #F2A93B and Orrin link slate-green remain distinct in Taeo's RIGHT palm. Interface cyan #3FE3F2 on deep navy is reserved for windows/integration. Return marks are cold-white rings with violet edges, never interface cyan. Hard cel shadows, no bloom, haze, decorative particles or generated lettering throughout."
+
+panels:
+  - id: P01
+    shape: tall
+    gap: none
+    bg: black
+    camera: "low behind Orrin's unfinished brace, up the bridge toward the charging ram"
+    art: >
+      terrace_gate_east, continuing the last instant of ch 31. Orrin (orrin, default stoneback design)
+      fills the lower right, body half turned, one forefoot still seeking purchase. Nib (nib, default,
+      drilled white hard hat, full belt and binocular locks) crouches at the open clamp beside him.
+      The stone ram-beast already charges down the bridge from upper left, head lowered, clay plates
+      thrown forward. ACTING: Orrin sharply alert, Nib's jaw set at the lost second. Green dusk from
+      above, violet undercuts, one threat-red eye. Keep the void visible below the bridge; no shell
+      crack, no people falling, no letters or effects drawn into the art.
+    calm: top
+    sfx:
+      - {text: "DRRRM", style: impact, at: [0.24, 0.33], size: XL, rot: 24}
+    notes: "Starts at ch 31's hook: the charge is early and the brace is not yet set. ch031.yaml was absent when this batch began; the beats supply the handoff."
+
+  - id: P02
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up across the open lower clamp and Nib's hands"
+    art: >
+      Nib's olive-green hands (nib, default cuffs absent, pale forearm scars) press the brace's lower
+      steel pin toward its socket. The holes are visibly misaligned by a finger's width because Orrin
+      has not planted his forefoot. Five fingers on each hand, believable grip; the rope eye sits
+      outboard, separate from the white survey cable farther inland. Green sky light on dull steel,
+      violet shadow under the rim at terrace_gate_east. No fracture in the slate, no readable marks.
+    calm: top
+    lines:
+      - {who: nib, type: speech, side: l, text: "FOOT. DOWN."}
+
+  - id: P03
+    shape: wide
+    gap: short
+    bg: black
+    camera: "outside, front three-quarter on Taeo at the operator table"
+    art: >
+      terrace_gate_rim. Taeo (taeo, outdoor, RIGHT-eye mole) has risen halfway from his folding chair,
+      gripping the base-station handset in his LEFT hand, RIGHT palm open. Sejin (sejin, sage scrubs,
+      olive rig) slides the blood-pressure cuff clear of his elbow without pulling his arm. Haein
+      (haein, overalls, safety glasses) holds the cable socket steady. ACTING: Taeo recognises the
+      sound before he is ready; both women become wholly attentive. Morning sun from left, ochre
+      gravel and brown shadows, gate rim cold beyond them. Screens dark; backpack patch visible;
+      no figures inside the interface, no drawn words.
+    calm: top
+    lines:
+      - {who: nib, type: phone, side: l, text: "EARLY."}
+      - {who: taeo, type: float, text: "I HAD A WHOLE SENTENCE PREPARED."}
+
+  - id: P04
+    shape: inset-r
+    gap: short
+    bg: black
+    silent: true
+    camera: "eye-level close-up on Nib looking past the camera at the charge"
+    art: >
+      Nib (nib, default and drilled hard hat), close at terrace_gate_east: narrow adult amber eyes,
+      flat mouth, LEFT ear notch, one LEFT lower fang just visible. He looks past us toward the ram,
+      then down toward the rope in his hand at the bottom edge. Fear is present and contained in a
+      tightened jaw. Binoculars ride high, black strap knotted LEFT. Green dusk catches his cheek,
+      violet shadow beneath the hard-hat brim. No cute proportions, no dialogue or marks in art.
+    calm: none
+
+  - id: P05
+    kind: title
+    gap: long
+    bg: white
+    title_text: "CHAPTER 32 · CHANGE THE ANGLE"
+
+  - id: P06
+    shape: full
+    gap: short
+    bg: white
+    camera: "high overhead oblique showing the complete turn and escape pocket"
+    art: >
+      Establish the geometry at terrace_gate_east in one clean view. Bridge enters lower left;
+      cliff projects diagonally across the upper side of the broad shelf; void lies along its
+      bottom side. Orrin (orrin, default) angles his braced shoulder toward the incoming charge,
+      forelegs spread over sound ground, closed deposit cases secured on the upper shell.
+      Nib (nib, default, drilled hat, binoculars, bare feet) moves outboard with the loose rope bight;
+      his escape pocket lies behind Orrin, away from the cliff collision. The white/blue survey cable
+      stays inland. Green dusk, violet shadows; no diagram arrows, words, duplicated bodies or moving ground.
+    calm: top
+    lines:
+      - {who: taeo, type: phone, side: l, text: "ORRIN. CAN YOU SET THE ANGLE?"}
+
+  - id: P07
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low beside Orrin's cheek, Nib near his foreleg"
+    art: >
+      Orrin (orrin, adult slate stoneback) turns his heavy-lidded face toward Nib while lowering his
+      near forefoot. Nib (nib, default with hat and binoculars) keeps one palm on the clamp and the
+      loose rope in his other hand, not looking away from the ram. ACTING: Orrin deliberate and
+      certain, asking for a brief precise action; Nib listens. The closed load stays high on the
+      shell, never on the vulnerable lip. terrace_gate_east, green overhead light, violet shell
+      shadows. No cute features, no reins, no neck harness, no written fittings.
+    calm: top
+    lines:
+      - {who: orrin, type: speech, side: r, text: "YES. NIB, WAIT FOR MY FOOT."}
+      - {who: nib, type: speech, side: l, text: "WAITING."}
+
+  - id: P08
+    shape: strip
+    gap: short
+    bg: white
+    silent: true
+    camera: "ground-level extreme close-up of Orrin planting his forefeet"
+    art: >
+      At terrace_gate_east, Orrin's two grey-olive forefeet (orrin, default, three blunt nails per
+      foot) settle into two shallow stable hollows in the clay shelf. Knees angle outward; the legs
+      are under the load path, not splayed toward the void. Tiny loose clay grains shift beneath
+      actual contact only. One lower strut enters from above. Green sky light and hard violet
+      shadow show the weight settling. No glowing ground, no hoof anatomy, no extra feet or lettering.
+    calm: none
+
+  - id: P09
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close side angle on Nib closing the locking pin"
+    art: >
+      Nib (nib, default, hat brim and left ear notch at the top edge) drives the now-aligned pin home
+      with his thumb and swings the retaining catch shut. His face is partially visible, satisfied
+      only for the instant needed to verify it. Rope hangs loose below his free hand; the knife
+      remains in its brown wooden sheath on his LEFT hip. terrace_gate_east, green dusk on worn
+      steel, violet beneath the slate. Clear separate fingers and fittings; no shell cracks or words.
+    calm: right
+    sfx:
+      - {text: "KLAK", style: quiet, at: [0.62, 0.59], size: M, rot: -12}
+
+  - id: P10
+    shape: wide
+    gap: short
+    bg: white
+    camera: "outside, over Haein's shoulder onto Taeo and his open palm"
+    art: >
+      At terrace_gate_rim the foreground is Haein's slate-blue overall shoulder and the grey speaker
+      grille, white cable plugged in with its blue band visible. Beyond, Taeo (taeo, outdoor) opens
+      his RIGHT hand beside the handset in his LEFT. Amber and slate-green pulses sit separately
+      in the same palm. ACTING: Taeo terrified, chin held level by effort; Sejin watches him from
+      the right, hands ready. Sun from left, dusty ochre and brown; no floating readout yet,
+      no amber in his left hand, no legible base-station screen.
+    calm: top
+    lines:
+      - {who: orrin, type: phone, side: l, text: "SET. I'M WITH YOU."}
+      - {who: nib, type: phone, side: l, text: "WITH YOU."}
+      - {who: taeo, type: speech, side: r, text: "ON YOUR WORD, ORRIN."}
+    notes: "Both linked people explicitly permit the prepared manoeuvre. The intact Ryu line carries every cross-threshold voice; the links are brief pulses, not permanent telepathy."
+
+  - id: P11
+    shape: strip
+    gap: short
+    bg: white
+    camera: "tight profile on Taeo's face and the handset"
+    art: >
+      Taeo (taeo, outdoor), profile at terrace_gate_rim, handset pressed close without hiding his
+      mouth. His lips part; he swallows a private fear rather than issuing another instruction.
+      The mole under his RIGHT eye is on the visible cheek. A hard line of morning sun picks out
+      the sweat at his temple; brown and blue-grey simplified canopy shadows behind. One hand
+      only at the handset. No interface, no lettering and no smile that makes the danger trivial.
+    calm: top
+    lines:
+      - {who: taeo, type: float, text: "I WANT TO SAY COME BACK ALREADY."}
+
+  - id: P12
+    shape: full
+    gap: short
+    bg: white
+    camera: "from just above the ram's horns toward Nib at the bridge mouth"
+    art: >
+      terrace_gate_east from the charging ram's approach. Its two stone horns frame Nib (nib,
+      default, drilled hat and all locked props), who stands apparently exposed in the middle of
+      the lane. Bare feet are planted obliquely; rope bight is low and slack, its far end clipped
+      to Orrin's brace to the right. Orrin's angled shoulder makes a ramp toward the inland cliff,
+      not a wall across the bridge. ACTING: Nib's stare is flat and deliberate, no grin. Green
+      dusk, violet drop, threat red only at the ram's eye edge. No energy weapon or glowing rope.
+    calm: top
+    lines:
+      - {who: nib, type: speech, side: c, text: "HERE."}
+
+  - id: P13
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on the ram's eye turning toward the bait"
+    art: >
+      The bridge_boss at terrace_gate_east: a narrow red eye shifts toward Nib off frame, and the
+      near mineral horn tilts a fraction outboard. Coarse dark clay plates crowd the eye socket,
+      pale layered horn tip at the lower edge. This is animal attention, not villainous amusement.
+      Green dusk cuts across the upper plates, violet in the crevices. Keep the background nearly
+      flat, the motion readable through the changed horn angle. No symbols, words or human pupils.
+    calm: left
+    sfx:
+      - {text: "HRRRF", style: quiet, at: [0.36, 0.72], size: M, rot: -6}
+
+  - id: P14
+    shape: wide
+    gap: short
+    bg: white
+    camera: "outside, at Taeo's knee level as Sejin steadies the chair"
+    art: >
+      Taeo (taeo, outdoor) bends his knees at terrace_gate_rim, lowering his weight before the
+      impact; Sejin (sejin, default medic gear) plants a boot against the chair leg and braces
+      one hand behind his shoulder. He has not yet fallen. His right palm faces upward, both
+      distinct pulses visible; left hand holds the handset. ACTING: a raw frightened half-smile
+      that dies as he listens. Morning side light, ochre ground, warm brown shadows. Backpack
+      with old orange patch beside table; no magic armour, no additional screens or lettering.
+    calm: top
+    lines:
+      - {who: sejin, type: speech, side: l, text: "I'VE GOT YOU."}
+      - {who: taeo, type: float, text: "PLEASE LET THAT BE ENOUGH."}
+
+  - id: P15
+    shape: tall
+    gap: short
+    bg: black
+    camera: "side elevation across the void, ram closing the last stretch"
+    art: >
+      terrace_gate_east, side elevation preserving the bridge, stable shelf and inland cliff.
+      The ram's heavy forequarters clear the bridge and reach the shelf; Nib (nib, default, full
+      locks) is a small upright target just ahead of the horn. Orrin (orrin, default and locked
+      rim brace) stands diagonal behind him, forelegs now planted, cargo secured on the shell.
+      The white radio cable is safely inland. Green dusk silhouettes, hard violet underside;
+      motion lines follow the ram horizontally. No crushed Nib, no moving cliff or figures below.
+    calm: top
+    sfx:
+      - {text: "DUM DUM DUM", style: impact, at: [0.24, 0.34], size: L, rot: 22}
+
+  - id: P16
+    shape: strip
+    gap: short
+    bg: black
+    silent: true
+    camera: "extreme close-up on Nib's feet beginning the turn"
+    art: >
+      Nib's bare olive-green feet (nib, default) pivot at terrace_gate_east: the rear heel lifts,
+      front toes press into clay, knees already angled toward the safe pocket behind Orrin.
+      The loose rope crosses ahead of his ankles, never wraps them. At the top edge the hem of
+      charcoal shorts and brown wooden sheath remain separate from the line. Green overhead
+      light, violet foot shadows, a few displaced grit grains. No boots, no glowing footprints,
+      no additional feet, no words; hold the deliberate instant before the yank.
+    calm: none
+
+  - id: P17
+    shape: wide
+    gap: short
+    bg: black
+    camera: "three-quarter above Nib's shoulder as he casts the bight"
+    art: >
+      Nib (nib, adult, default with drilled hard hat and binoculars) casts the loose rope bight
+      across the near horn's base and steps sideways, out of the charging lane. His arms extend
+      diagonally toward the brace eye, showing the rope's endpoint on Orrin (orrin, default).
+      ACTING: Nib's teeth set, eyes measuring; Orrin watches the point of contact. The rope
+      changes the head angle by a little, not the ram's whole momentum. terrace_gate_east,
+      green dusk, violet shadows. No lasso round the neck, no cute face or energy tether.
+    calm: top
+    lines:
+      - {who: nib, type: speech, side: l, text: "TURN."}
+    sfx:
+      - {text: "FWIP", style: quiet, at: [0.55, 0.33], size: M, rot: -18}
+
+  - id: P18
+    shape: strip
+    gap: short
+    bg: black
+    camera: "tight on Nib's two hands pulling the lateral cue"
+    art: >
+      Nib's scarred forearms (nib, default) make one hard lateral wrench on the rope, hands
+      low and separate, with all fingers gripped properly. Behind the hands the horn rotates
+      into the oblique steel brace. Nib's body is already passing out of the direct lane;
+      his hands will open next, before full load arrives. terrace_gate_east, green reflected
+      sky, violet dark behind. No blood, no bent fingers, no claim that he stops the ram
+      by muscle, no signs or words.
+    calm: none
+    sfx:
+      - {text: "KRRK", style: quiet, at: [0.75, 0.46], size: M, rot: -12}
+
+  - id: P19
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low front three-quarter on Orrin as the horn starts to slide along the brace"
+    art: >
+      Orrin (orrin, adult stacked-slate carrier, default) lowers his shoulder a fraction at
+      terrace_gate_east. The ram's horn begins a glancing slide along the diagonal brace,
+      pushing near the rim rather than striking its face square. Orrin's angled forelegs
+      are directly beneath the braced side. ACTING: heavy eyelids wide with effort, jaw tight,
+      utterly present. Nib is already clear in the lower outboard corner, rope hands opening.
+      Green dusk, hard violet shadows, dull steel; no shell fracture or red decorative sparks.
+    calm: top
+    lines:
+      - {who: orrin, type: speech, side: r, text: "NOW."}
+
+  - id: P20
+    shape: strip
+    gap: short
+    bg: black
+    camera: "outside, extreme close-up on Taeo's right palm and wrist"
+    art: >
+      Taeo's RIGHT palm (taeo, navy jacket and black hoodie cuffs pushed back) at terrace_gate_rim.
+      Amber and slate-green pulse together but remain two separate hard lines; tendons stand
+      up and the older purple bruise on his forearm darkens at its edge. Five fingers spread
+      in effort, not a claw. Morning sunlight from the left, muted ochre ground out of focus
+      as simplified shapes. Leave top air clear. No pulse on the left hand, no interface
+      text in the skin, no blood magic.
+    calm: top
+    lines:
+      - {who: taeo, type: float, text: "ONCE. JUST DO IT ONCE."}
+
+  - id: P21
+    shape: tall
+    gap: short
+    bg: navy
+    camera: "outside, low full figure on Taeo as the recoil buckles him"
+    art: >
+      BIG REACTION. Taeo (taeo, outdoor, RIGHT-eye mole) at terrace_gate_rim screams as his knees
+      buckle, face distorted by actual pain, tears forced from squeezed eyes. His RIGHT palm
+      remains open; LEFT hand still holds the handset. Sejin (sejin, default) catches his upper
+      body and guides him toward the gravel, not back onto a rolling chair. Haein (haein,
+      overalls) keeps the line connected. Upper third empty for the window. Morning light,
+      brown shadows, cyan from the future composite. No chibi, no split skin or shell imagery.
+    calm: top
+    ui:
+      - {kind: system.notice, on: float, text: "[LOAD SHARE 21%]", at: [0.5, 0.06], tilt: -5}
+    lines:
+      - {who: taeo, type: shout, side: r, text: "AAAAH!"}
+    sfx:
+      - {text: "DING", style: summon, at: [0.84, 0.16], size: M, rot: 0}
+    notes: "Required power beat. Taeo redirects 21% of the dangerous rim load through Orrin's prepared foreleg path into the ground and takes transfer recoil. The remaining force glances along the brace; he does not absorb the whole charge. Mechanical force only; no storage, healing or permanent 21% guarantee."
+
+  - id: P22
+    shape: full
+    gap: short
+    bg: black
+    camera: "inside, ground-level under the brace following struts to Orrin's forelegs"
+    art: >
+      terrace_gate_east. A clean mechanical composition: ram horn sliding rightward along the
+      padded brace above; diagonal steel struts descending to Orrin's (orrin, default) planted
+      foreleg line below; broad feet compressing clay into low ridges on solid shelf. The shell
+      rim flexes minimally and remains intact. The boss passes across, not into, Orrin's body.
+      Green sky light, violet underside; tiny stone chips only where horn scrapes steel.
+      No magical arrows, floating percentages, blue aura, broken leg or new shell crack.
+    calm: top
+    sfx:
+      - {text: "GRRNNK", style: impact, at: [0.58, 0.30], size: XL, rot: -18}
+
+  - id: P23
+    shape: wide
+    gap: short
+    bg: black
+    camera: "from the escape pocket toward Nib releasing and the boss swinging inland"
+    art: >
+      Nib (nib, default, hat and binoculars) releases the rope completely and drops into the
+      safe pocket behind Orrin's shoulder, hands open and empty. His face is fierce with
+      concentration. Beyond, the ram's head and shoulders rotate inland along the brace,
+      hindquarters still carried forward by its charge. Orrin (orrin, default) holds the
+      planted stance. terrace_gate_east, green dusk and violet; outboard edge remains behind
+      Nib rather than beneath his feet. No rope around his wrists, no extra limbs or words.
+    calm: top
+    lines:
+      - {who: nib, type: shout, side: l, text: "CLEAR!"}
+
+  - id: P24
+    shape: full
+    gap: short
+    bg: black
+    camera: "high from the cliff, looking down the new collision line"
+    art: >
+      The ram slams head and forward shoulder into the oblique cliff at terrace_gate_east.
+      The angled impact throws its weight back toward the unguarded outer edge; the near
+      pale layered horn tip breaks against rock and skips onto the safe shelf beside Nib.
+      Nib (nib, default and full locks) crouches behind Orrin (orrin, default), both clearly
+      outside the collision. Cargo stays shut on the upper shell. Green dusk above, violet
+      cleft and black void below; impact debris only at the cliff. No blood spray or letters.
+    calm: top
+    sfx:
+      - {text: "KRAAAM", style: impact, at: [0.42, 0.24], size: XL, rot: -9}
+
+  - id: P25
+    shape: strip
+    gap: short
+    bg: black
+    camera: "tight side-on on the ram's rear hooves losing the shelf"
+    art: >
+      Two heavy cloven rear hooves of bridge_boss scrape across the clay lip at terrace_gate_east,
+      finding no purchase as the head's collision rotates the body. One hoof has already left
+      the shelf; a clean black gap opens beneath it. The stable shelf under Orrin is farther
+      inland and does not collapse. Green dusk edge light, violet shadow, black negative space.
+      A few chips accompany this actual impact only. No human hands, return mark, cracked
+      shell or printed motion effects.
+    calm: none
+    sfx:
+      - {text: "SKRRR", style: impact, at: [0.60, 0.47], size: L, rot: 12}
+
+  - id: P26
+    shape: bleed
+    gap: long
+    bg: black
+    silent: true
+    camera: "from the shelf lip looking steeply down after the falling boss"
+    art: >
+      The bridge_boss falls away into the enormous black void at terrace_gate_east, body small
+      and tumbling beneath tier after tier of green-lit clay. In the upper sliver of the
+      frame, Nib (nib, adult default, hat and binoculars) is on safe ground beside Orrin's
+      braced foreleg, looking down with a grim breath leaving him. The pale broken horn tip
+      lies near Nib, never below the rim. Violet terrace undersides, wrong green sky limited
+      to the top. No comic fall, gore, return flash on the native boss or decorative particles.
+    calm: none
+    notes: "The boss falls into the void; its death is confirmed by the local connection closing in P29. Horn was broken onto the safe shelf before the fall, not collected from a disappearing corpse."
+
+  - id: P27
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "inside, close on Nib lifting the broken horn tip from the shelf"
+    art: >
+      Nib (nib, default, drilled hat, binoculars high) picks the palm-length pale mineral horn
+      tip off the safe clay shelf at terrace_gate_east. His scarred hand closes firmly around
+      its dark broken base; eyes flick from it to Orrin rather than linger on loot. Pouch on
+      RIGHT hip carries the green dinosaur sticker, wooden sheath on LEFT remains closed.
+      Green dusk light, violet hard shadow. No glowing fragment, floating value, written label
+      or extra shard in the other hand.
+    calm: right
+    lines:
+      - {who: nib, type: speech, side: l, text: "ORRIN."}
+
+  - id: P28
+    shape: wide
+    gap: short
+    bg: white
+    camera: "outside, low at gravel level beside Taeo and Sejin"
+    art: >
+      Taeo (taeo, outdoor) sits on the gravel at terrace_gate_rim, leaning forward against
+      Sejin's steadying arm. A narrow nosebleed reaches his upper lip; his eyes search the
+      speaker at table height. Sejin (sejin, default) stays beside him, a folded gauze pad
+      ready in one hand. Haein's overall-clad legs remain at the base station. Sun from left,
+      ochre gravel and brown shadows, single blood-red accent. No healing glow, unconscious
+      smile, readable medical numbers or abandoned live connection.
+    calm: top
+    lines:
+      - {who: taeo, type: nervous, side: r, text: "ORRIN?"}
+      - {who: orrin, type: phone, side: l, text: "HERE. LEGS UNDER ME."}
+
+  - id: P29
+    shape: full
+    gap: short
+    bg: white
+    camera: "outside, side view of the east threshold beginning to seal"
+    art: >
+      terrace_gate_rim. The door-height black-violet east slit narrows inward inside its
+      scaffold frame. The cold white rim hardens into a fine closed plane: entry is shutting.
+      Haein (haein, overalls) points to it, eyes sharp; Taeo (taeo, outdoor) remains safely on
+      gravel at the left with Sejin. The intact white/blue survey cable still reaches the
+      frame. Farther across the apron the central exit remains its own connection. Morning
+      sun and violet-white gate light; no hunter walking into a closed gate or generated signs.
+    calm: top
+    lines:
+      - {who: haein, type: speech, side: l, text: "EAST ENTRY'S SHUT. BOSS DOWN."}
+    sfx:
+      - {text: "VMMMM", style: gate, at: [0.64, 0.24], size: L, rot: 90}
+
+  - id: P30
+    shape: strip
+    gap: short
+    bg: white
+    camera: "inside, close on Nib's wrist and Orrin's near foreleg mark"
+    art: >
+      At terrace_gate_east, Nib's RIGHT wrist (nib, default, pale scars) and Orrin's planted
+      near foreleg (orrin, default) each carry a thin cold-white return ring edged in violet.
+      Both rings brighten now that the boss is dead. Nib holds the horn in his LEFT hand;
+      his right fingertips hover beside his own ring. The steel brace lies above Orrin's
+      intact rim and the closed deposit cases are just visible high behind. Green dusk
+      and cold return light; no cyan interface, numbers or mark on the fallen native boss.
+    calm: top
+    lines:
+      - {who: taeo, type: phone, side: l, text: "YOU CAN TRIGGER THEM. THIRTY SECONDS IF YOU DON'T."}
+    notes: "Return rule: conscious bearers may trigger immediately after boss death; automatic return is at 30 seconds and includes worn/carried gear. The marks do not heal."
+
+  - id: P31
+    shape: wide
+    gap: short
+    bg: white
+    camera: "inside, eye-level two-shot of Nib checking Orrin before return"
+    art: >
+      Nib (nib, default with hat and locked props) stands by Orrin's cheek at terrace_gate_east,
+      horn tip held low in his LEFT hand. Orrin (orrin, default, braced and loaded) lifts his
+      chin and deliberately meets Nib's eyes, awake and tired. Nib checks the secured cases
+      with one glance, then Orrin's face. ACTING: both want the other to be ready first.
+      Green dusk and violet, return rings cold-white. No petting, no cracked shell, no falling
+      cargo or fresh excavation after the boss died.
+    calm: top
+    lines:
+      - {who: nib, type: speech, side: l, text: "READY."}
+      - {who: orrin, type: speech, side: r, text: "YES. BOTH OF US."}
+
+  - id: P32
+    shape: strip
+    gap: short
+    bg: white
+    silent: true
+    camera: "inside, close diagonal across both activated marks"
+    art: >
+      Nib (nib, default) presses his RIGHT wrist ring with the fingers of his horn-holding
+      left hand while Orrin (orrin, default) deliberately triggers his own near-foreleg mark
+      with his muzzle. Both cold-white rings flare, each with a distinct violet edge.
+      Bodies, brace and closed cargo cases remain physically attached to their bearers.
+      terrace_gate_east green dusk is cut by the return light. No healing skin, cyan summon
+      circle, scattered sparkles or merging anatomy; the activation is a deliberate shared instant.
+    calm: none
+
+  - id: P33
+    shape: full
+    gap: short
+    bg: white
+    camera: "outside, wide across the empty landing as the two return"
+    art: >
+      At terrace_gate_rim, Nib (nib, default, hat and full prop locks) and Orrin (orrin, default,
+      intact shell, braced, deposit cases still secured) return onto the clear gravel landing,
+      outlined in hard cold-white light with violet edges. Nib's horn remains in his hand.
+      Taeo (taeo, outdoor) has turned from the medical mat to face them, one blood streak at
+      his nose, face opening in relief. Sejin keeps a hand on his shoulder. Morning sun from
+      left, ochre and brown. No cyan floor circle, healing, lost cargo or occupied landing spot.
+    calm: top
+    sfx:
+      - {text: "FWHUM", style: gate, at: [0.58, 0.33], size: L, rot: 0}
+
+  - id: P34
+    shape: vignette
+    gap: long
+    bg: white
+    silent: true
+    camera: "low beside Taeo's shoulder as Nib reaches his hand"
+    art: >
+      terrace_gate_rim, borderless held beat. Taeo (taeo, outdoor) extends his trembling RIGHT
+      hand from where he sits on gravel. Nib (nib, adult default, hat, binoculars and belt
+      locks) places his hand underneath it without squeezing the bruised forearm. Orrin's
+      intact slate shoulder fills the right background at reachable distance. ACTING: Taeo
+      overwhelmed and almost disbelieving; Nib quietly checking him. Return marks fade away
+      outside. Morning light, ochre and warm brown. No restorative glow, cute Nib or words.
+    calm: none
+
+  - id: P35
+    shape: wide
+    gap: short
+    bg: white
+    camera: "front on Taeo sitting beneath the much larger returned shell"
+    art: >
+      Taeo (taeo, outdoor) sits on gravel at terrace_gate_rim beneath the edge of Orrin's intact
+      shell, nose bleeding into a gauze pad, grinning helplessly with wet eyes. Nib (nib,
+      default and full locks) stands beside him, sternly relieved; Orrin (orrin, default)
+      lowers his adult face into the edge of frame. Sejin's gloved hand checks Taeo's wrist,
+      careful and purposeful. Morning sun, ochre ground, brown shadows, one red blood accent.
+      No silly injury, no healing flash, no gold reward pile or written readout.
+    calm: top
+    lines:
+      - {who: taeo, type: speech, side: r, text: "EVERYBODY?"}
+      - {who: nib, type: speech, side: l, text: "EVERYBODY."}
+      - {who: taeo, type: float, text: "I DIDN'T KNOW A WORD COULD WEIGH THAT MUCH."}
+
+  - id: P36
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close side view of Sejin examining Taeo's forearms"
+    art: >
+      Sejin (sejin, sage scrub sleeves rolled, olive rig) at terrace_gate_rim examines Taeo's
+      exposed forearm below the pushed-back outdoor sleeve. Older purple bruising has a
+      fresh dark band; skin is unbroken. ACTING: her mouth is flat, attention exact; Taeo
+      looks at her instead of pretending nothing happened. Gauze remains at his nose in his
+      other hand. Hard morning light from left, simplified brown background. No medical
+      display, comedy face, healed bruise or writing on skin.
+    calm: left
+    lines:
+      - {who: sejin, type: speech, side: r, text: "STAY SITTING. I'M CHECKING ALL THREE OF YOU."}
+      - {who: taeo, type: speech, side: l, text: "YES. SORRY."}
+
+  - id: P37
+    shape: wide
+    gap: long
+    bg: white
+    camera: "later, full group beside the first-aid mat after the initial checks"
+    art: >
+      A little later at terrace_gate_rim. Sejin (sejin, default) closes her examination pouch,
+      still seated beside Taeo (taeo, outdoor); his nosebleed has stopped, used gauze folded
+      away, cuffs still up over bruises. Haein (haein, overalls) loosens Orrin's removable
+      brace after his checked feet are square on the gravel. Orrin (orrin, default) exhales;
+      Nib (nib, default with hat and binoculars) watches every clamp. ACTING: weary relief.
+      Morning sun, dusty ochre and brown. No shell damage, active load share or lettering.
+    calm: top
+    lines:
+      - {who: sejin, type: speech, side: l, text: "NO MORE CARRYING TODAY. THAT INCLUDES THE EQUIPMENT."}
+      - {who: taeo, type: speech, side: r, text: "I CAN MANAGE A SANDWICH."}
+
+  - id: P38
+    shape: inset-l
+    gap: short
+    bg: white
+    style: chibi
+    camera: "chibi gag, tiny Taeo negotiating a lunch inspection"
+    art: >
+      Comedy inset after the danger and initial medical checks. Chibi Taeo (taeo, outdoor,
+      identical patch on backpack, no active nosebleed) holds a tiny sandwich in both hands
+      while chibi Sejin (sejin, sage scrubs and olive rig) sternly inspects it with a
+      magnifier-like squint. Chibi Nib (nib, all ear, fang, belt, pouch, sheath, binocular
+      and bare-foot locks) points at the sandwich with official gravity. Flat pale ochre
+      screentone replacing terrace_gate_rim, simple morning colour. No blood gag, danger or words.
+    calm: right
+    lines:
+      - {who: nib, type: speech, side: l, text: "CUT IT SMALLER."}
+      - {who: taeo, type: speech, side: r, text: "SORRY. I'LL APPLY FOR THE HALF."}
+
+  - id: P39
+    shape: full
+    gap: short
+    bg: white
+    camera: "normal style, overhead across the secured deposit and removed brace"
+    art: >
+      Back to normal proportions at terrace_gate_rim. Closed deposit cases sit on a clean
+      tarp, unloaded after Sejin's checks; the removed brace is set beside them intact,
+      one contact pad scraped. Haein (haein, overalls) runs a finger over that scrape,
+      then looks with fierce pride at Orrin (orrin, default). Nib (nib, default, hat and
+      binoculars) holds the horn fragment separately, not inside a sale case. Taeo remains
+      seated on the first-aid mat. Morning sun, ochre and slate, no readable case labels.
+    calm: top
+    lines:
+      - {who: haein, type: speech, side: l, text: "THE PAD TOOK IT. YOUR RIM DIDN'T."}
+      - {who: orrin, type: speech, side: r, text: "I AM VERY ATTACHED TO MY RIM."}
+    notes: "Extracted deposit was secured while the boss lived in ch 31. No post-clear excavation. The brace can be reused after inspection; Orrin's first shell cracking remains ch 37."
+
+  - id: P40
+    shape: wide
+    gap: short
+    bg: white
+    camera: "seated eye-level two-shot as Nib offers Taeo the horn"
+    art: >
+      Nib (nib, default, drilled hat, weathered adult face and all locked props) holds out
+      the pale horn fragment at terrace_gate_rim. Taeo (taeo, outdoor) sits at Nib's eye
+      level, both palms open but not yet taking it; bruises remain visible and there is
+      a faint dried nosebleed trace. ACTING: Nib purposeful; Taeo asks rather than assuming.
+      Orrin's grey-olive face enters from the right, attentive. Morning light, ochre ground,
+      warm brown shadows. No magical glow before contact or legible label on the fragment.
+    calm: top
+    lines:
+      - {who: nib, type: speech, side: l, text: "IT BROKE OFF. DIFFERENT KIND."}
+      - {who: taeo, type: speech, side: r, text: "MAY I?"}
+      - {who: nib, type: speech, side: l, text: "YES."}
+
+  - id: P41
+    shape: strip
+    gap: short
+    bg: white
+    camera: "extreme close-up of the horn laid in Taeo's left palm"
+    art: >
+      The palm-length layered horn fragment lies in Taeo's LEFT palm (taeo, navy sleeve cuff
+      pushed up) at terrace_gate_rim. Nib's scarred olive-green fingers have just released
+      it. A few cracks in the mineral catch hard interface cyan at contact; the rest is
+      pale grey with dark clay at the base. Five human fingers, five goblin fingers, separate.
+      Morning sun from left, subdued ochre beneath. No amber link flare, second sample,
+      green screen, diagram or text embedded in the horn.
+    calm: none
+    sfx:
+      - {text: "TIK", style: quiet, at: [0.65, 0.51], size: S, rot: 0}
+
+  - id: P42
+    shape: wide
+    gap: short
+    bg: white
+    camera: "over Taeo's left shoulder toward the empty air above his hand"
+    art: >
+      terrace_gate_rim, over Taeo's (taeo, outdoor) left shoulder. His left palm with the
+      cyan-cracked horn is low in frame; upper two-thirds remain quiet canopy shade for
+      a floating interface. Nib (nib, default, hat and binoculars) watches his face from
+      frame right, unable to see the window. ACTING: Taeo surprised by the changed increment,
+      then carefully attentive. Morning light and hard cyan reflection on fingers, muted
+      ochre outside the shade. No generated interface, reflected readable words or green screen.
+    calm: top
+    ui:
+      - {kind: system.window, on: float, headline: "[ANCHOR FRAGMENT DETECTED]", body: "[KIND: BRIDGE-BOSS HORN (NEW)]\n[ROUTE ALIGNMENT 0%]", button: "[INTEGRATE?]", at: [0.5, 0.06], tilt: -6}
+    sfx:
+      - {text: "DING", style: summon, at: [0.87, 0.13], size: M, rot: 0}
+
+  - id: P43
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Orrin's face from Taeo's seated height"
+    art: >
+      Orrin (orrin, adult grey-olive stoneback, default) at terrace_gate_rim, heavy eyelids
+      narrowed thoughtfully at Taeo off frame. His intact slate shell rises behind the
+      head, brace now removed. He tips his chin toward the horn without trying to see the
+      private interface. ACTING: calm curiosity, some weariness in the creased mouth.
+      Morning sun from left, slate and ochre palette, hard brown-violet shadow under his
+      jaw. No cute eye enlargement, harness, renewed return mark or words in art.
+    calm: left
+    lines:
+      - {who: orrin, type: speech, side: r, text: "A DOOR?"}
+      - {who: taeo, type: speech, side: l, text: "A START."}
+
+  - id: P44
+    shape: strip
+    gap: short
+    bg: white
+    camera: "tight side-on on Taeo tapping the composite button"
+    art: >
+      Taeo's right index finger (taeo, outdoor cuff pushed back over bruised forearm) taps
+      a small empty plane of hard cyan light above his LEFT palm holding the horn.
+      terrace_gate_rim ground behind is simple dusty ochre, lit by morning sun. The contact
+      gesture is small and controlled, no impact or load transfer; his remaining fingers
+      curl loosely, five in all. No glowing bruise, new palm wound, visible letters,
+      second fragment or extra hand.
+    calm: none
+    sfx:
+      - {text: "TAP", style: quiet, at: [0.68, 0.55], size: S, rot: 0}
+
+  - id: P45
+    shape: tall
+    gap: short
+    bg: navy
+    camera: "front three-quarter on seated Taeo with the integration result above him"
+    art: >
+      Taeo (taeo, outdoor) at terrace_gate_rim watches the last pale horn layers sink into
+      his LEFT palm as a single hard-edged cyan ring; the fragment is entirely consumed.
+      His bruised arms remain bruised. Nib (nib, default, hat and binoculars) stands beside
+      the mat, watching his face, and Orrin (orrin, default) rests behind them. Leave upper
+      half plain navy canopy shade for a compact result window. ACTING: tired hope, no
+      celebration of a new arrival yet. Morning side light plus cyan; no particles or text.
+    calm: top
+    ui:
+      - {kind: system.notice, on: float, text: "[NEW KIND: BRIDGE-BOSS HORN · +34%]\n[ROUTE ALIGNMENT 34%]", at: [0.5, 0.07], tilt: 0}
+    sfx:
+      - {text: "DING", style: summon, at: [0.84, 0.15], size: M, rot: 0}
+    notes: "Window 4 begins: horn is first new kind, +34%, total 34%. No contact window opens. Exchange-gate sample in ch 41 adds 33%, arcade glass in ch 45 adds 33%. Horn is consumed and cannot be sold or carried later. No new ledger plant is due in ch 32."
+
+  - id: P46
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye-level group from the cargo tarp toward the first-aid mat"
+    art: >
+      At terrace_gate_rim Taeo (taeo, outdoor) lowers his empty left hand and explains the
+      result to Nib (nib, default with hat and binoculars) and Orrin (orrin, default).
+      Sejin (sejin, default) offers Taeo water, her eyes still on his colour. The closed
+      deposit cases occupy the near edge; Haein's removed brace rests beside them. ACTING:
+      Taeo tired and honest, Nib accepting the longer road without a tantrum. Morning sun,
+      ochre and warm brown. All screens dark; no window visible to the companions or words.
+    calm: top
+    lines:
+      - {who: taeo, type: speech, side: r, text: "THIRTY-FOUR. WE NEED TWO MORE NEW KINDS THIS TIME."}
+      - {who: nib, type: speech, side: l, text: "THEN TWO."}
+      - {who: sejin, type: speech, side: l, text: "AFTER LUNCH."}
+
+  - id: P47
+    shape: vignette
+    gap: long
+    bg: white
+    camera: "quiet side view of Taeo drinking with his companions beside him"
+    art: >
+      Borderless terrace_gate_rim held breath. Taeo (taeo, outdoor) drinks water first from
+      the offered cup, hands trembling a little less. Nib (nib, default, hat and all
+      locked props) waits beside him; Orrin (orrin, default) lowers his chin to the sunlit
+      gravel, awake and resting. Sejin stays in reach at the mat's far edge. ACTING: quiet
+      exhaustion that leaves room for relief. Morning sun, dusty ochre, warm brown shadows,
+      plain cup. No restored skin, stage applause, glowing link or generated writing.
+    calm: top
+    lines:
+      - {who: taeo, type: float, text: "I'D LIKE TO BE GOOD AT THIS AGAIN TOMORROW."}
+
+  - id: P48
+    shape: full
+    gap: short
+    bg: white
+    camera: "wide across the apron from the east mat toward the central exit"
+    art: >
+      Across terrace_gate_rim's gravel apron the separately framed central exit sheds its
+      last cold-white return light. Minho (minho, default brown jacket, grey tee, olive
+      cargos, knee pads, boots, grey LEFT-temple streak) walks from it with the two central_crew,
+      all dusty and carrying closed deposit cases. He looks toward Taeo's group first,
+      not toward the sale desk. East frame in foreground is dark and closed. Morning sun
+      from the left, ochre gravel and pale blue sky. No active east gate, vehicles or readable signs.
+    calm: top
+    lines:
+      - {who: haein, type: speech, side: l, text: "CENTRAL'S OUT."}
+
+  - id: P49
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on Taeo turning toward Minho"
+    art: >
+      Taeo (taeo, outdoor, RIGHT-eye mole) turns on the first-aid mat at terrace_gate_rim,
+      water cup lowered and a faint dried nosebleed trace still at his lip. ACTING: the
+      quick anxious question before he hears the answer, then recognition of Minho's
+      unhurried walk. His bruised right forearm remains in frame, no bandage hiding it.
+      Morning sun across his cheek, simplified ochre and brown behind. No cyan interface,
+      new injury or generated labels.
+    calm: right
+    lines:
+      - {who: taeo, type: speech, side: l, text: "CENTRAL?"}
+
+  - id: P50
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye-level on dusty Minho approaching, cargo team behind him"
+    art: >
+      Minho (minho, default, chest radio and LEFT wristwatch) approaches Taeo at terrace_gate_rim.
+      Clay dust marks his brown jacket and grey LEFT-temple streak. He has a small clean
+      scrape on one cheek but is walking easily. Behind him the central_crew set their
+      closed cases down as a pair, making the successful central haul visible. ACTING:
+      Minho spent and quietly satisfied, then his gaze catches Taeo's bruises. Morning
+      side light, ochre ground, brown shadows. No sneer, central loss, giant cheque or written figures.
+    calm: top
+    lines:
+      - {who: minho, type: speech, side: r, text: "CLEAN. YOU LOOK TERRIBLE."}
+      - {who: taeo, type: speech, side: l, text: "SORRY. I PRACTISED THE OTHER PART."}
+
+  - id: P51
+    shape: strip
+    gap: short
+    bg: white
+    camera: "close at Taeo's seated height on Minho's offered right hand"
+    art: >
+      At terrace_gate_rim Minho's RIGHT hand (minho, dusty brown work-jacket cuff) opens
+      toward Taeo at his seated height, palm tilted for a handshake rather than a haul
+      to his feet. Taeo's bruised RIGHT forearm rests just below it, hesitation in the
+      half-open fingers. Sejin's sage sleeve is at the edge, observing. Morning sun,
+      dusty ochre background. Five fingers per hand, no left wristwatch on the right,
+      no rings or generated words.
+    calm: none
+
+  - id: P52
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Minho's face, slightly below"
+    art: >
+      Minho (minho, default) at terrace_gate_rim looks down at seated Taeo with the familiar
+      strong brows, dusty LEFT grey streak and tired eyes. ACTING: one corner of the
+      mouth lifts in unwilling affection; his scrutiny is fair, the competition over
+      for today. Morning sun from left, flat pale-blue sky and warm brown shadow beneath
+      his jaw. No gloating, tearful confession, gold aura, sponsor marks or readable radio display.
+    calm: left
+    lines:
+      - {who: minho, type: speech, side: r, text: "YOU LISTENED TO YOUR CREW."}
+      - {who: taeo, type: speech, side: l, text: "THEY HAD NOTES."}
+
+  - id: P53
+    shape: wide
+    gap: short
+    bg: white
+    silent: true
+    camera: "from behind Minho, seeing all three east partners and the intact brace"
+    art: >
+      At terrace_gate_rim, Minho's brown-jacketed shoulder in the near left frames the
+      whole east team. Taeo (taeo, outdoor) sits on the mat beside Nib (nib, adult default,
+      hat, barefoot, all locks); Orrin (orrin, default) rests with intact shell and legs.
+      The scraped but whole brace and closed deposit cases lie between them. Taeo begins
+      lifting his hand toward Minho's; Nib looks at Orrin and Orrin returns the look.
+      Morning light, ochre and brown. No interface, applause crowd, injuries erased or words.
+    calm: none
+
+  - id: P54
+    shape: strip
+    gap: short
+    bg: white
+    camera: "extreme close-up of Taeo deciding to take the offered hand"
+    art: >
+      Taeo's RIGHT hand (taeo, outdoor cuff pushed back, purple forearm still visible)
+      rises and closes around Minho's offered RIGHT hand (minho, dusty brown cuff).
+      The handshake is gentle and horizontal; nobody pulls Taeo up against Sejin's order.
+      At terrace_gate_rim the gravel below is dusty ochre in hard morning light, warm
+      brown shadows between separate fingers. The link is released, no amber or slate-green
+      pulses visible. No extra hands, money changing hands, badge or readable label.
+    calm: none
+    notes: "Minho offers; Taeo takes. Respect is reciprocal and Taeo remains seated for treatment."
+
+  - id: P55
+    shape: tall
+    gap: long
+    bg: white
+    camera: "low beside their joined hands, up past Taeo and Minho to the blue sky"
+    art: >
+      THE HOOK at terrace_gate_rim. Joined hands dominate the lower centre: dusty Minho
+      (minho, default) standing on the left, battered Taeo (taeo, outdoor, RIGHT-eye mole,
+      dried nosebleed trace) seated on the right, looking up with a small real smile.
+      Behind Taeo stand Nib (nib, adult default, drilled hat, barefoot, binoculars and
+      full belt locks) and Orrin (orrin, intact slate shell). Both sets of closed haul
+      cases are visible low behind. Morning sky blue over ochre gravel, hard brown shadows.
+      Leave upper sky quiet. No new attack, ownership pose, congratulatory signs or interface.
+    calm: top
+    lines:
+      - {who: minho, type: speech, side: l, text: "EAST TERRACE. CLEAN."}
+    notes: "Required final story panel and hook. Minho has also won central. The clean east clear is acknowledged by the rival who fairly beat Taeo; their money is settled in ch 33."
+
+  - id: P56
+    kind: end
+    gap: long
+    bg: white
+    end_text: "TO BE CONTINUED"
+    next: "NEXT · CHAPTER 33 · SURPLUS"
+    chibi_gag: "Chibi Orrin gravely presents his intact rim to chibi Haein, who measures it with a tiny caliper; chibi Nib holds a sandwich under the same caliper while chibi Taeo, outdoor outfit and old backpack patch intact, waits with a hungry sweat drop. Flat ochre dots; no injury or danger gag."

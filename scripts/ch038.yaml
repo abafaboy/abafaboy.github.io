@@ -1,0 +1,856 @@
+chapter: 38
+title: The Last Person Out
+when: "The Sinjeong surge night, continuing directly from Orrin's shell cracking in ch 37; the final evacuation and the first thinning of the night. No calendar date or casualty total is assigned."
+story_beats: PART_ONE_BEATS.md#38
+cast:
+  taeo: outdoors # Navy zip jacket over black hoodie, black cargos, single-white-stripe sneakers; dusty olive backpack, old orange shield-and-open-door patch. Never enters a gate.
+  nib: default # Adult; barefoot. Full prop locks below apply throughout, including the binoculars.
+  orrin: default # 230 cm adult stoneback; no clothing, saddle or harness. Shell crack persists.
+  minho: default # Brown jacket, grey tee, olive cargos, knee pads, work boots; LEFT-temple grey streak, LEFT-chest radio, LEFT-wrist watch.
+  sejin: default # Sage scrubs, olive medic rig, charcoal cargos, work boots.
+  seoryun: default # Olive field jacket, black tee, dark tactical trousers, boots; LOW ponytail, LEFT-eyebrow scar, hexagonal shield.
+  dami: default # Grey hoodie, muted hi-vis vest, olive cargos, gloves, cargo straps; retain preceding chapter's site hard hat.
+extras:
+  last_child: "A four-year-old boy, about 95 cm, cropped black hair, dusty blue padded jacket, grey leggings, socked feet. Nib's final passenger from F."
+  child_guardian: "A young father in a grey sweatshirt and torn navy trousers, waiting at the street-side F landing with a medic."
+  sector_survivor: "An elderly woman in a plum cardigan and navy trousers; exhausted, one shoe missing, supported by Seoryun."
+  reunited_mother: "A woman about thirty-five, chin-length black hair, beige raincoat over pyjamas, scraped palms."
+  reunited_child: "Her six-year-old daughter in a yellow raincoat and striped leggings, carried out earlier by Dami; distinct from Nib's last child."
+  ryu_crew: "Two Ryu survey workers, red-orange vests, work clothes, white hard hats, gloves; one carries a steel rescue prop."
+  responders: "Mixed municipal firefighters, freelance medics, porters and guild crews; practical dirty field clothing, separate jobs and tools."
+  reporter: "KNN 24 field reporter in a navy rain shell with a plain microphone; camera operator in charcoal with a shoulder camera."
+locations: [sinjeong_arcade_f, sinjeong_stairwell, sinjeong_street]
+location_notes:
+  sinjeong_arcade_f: "Unkeyed. Use the ch 34–37 set if available at drawing time. Earth-side underground service passage F, reached through the shop storeroom Nib found; a buckled steel service door at the escape end, street stair beyond. Collapsing low concrete ceiling, ruptured conduits, dusty tiles. Orrin faces inward while backing toward the service door. This corridor is not a newly entered dungeon."
+  sinjeong_stairwell: "Unkeyed. The ch 34 street-side stairwell: tiled stairs, steel handrail, battered door and jamb at the lower service landing; Taeo remains on the safe street side of that door. Preserve previous set geography."
+  sinjeong_street: "Unkeyed. Sinjeong Station arcade exits behind an emergency cordon; F stairhead at one side, Seoryun's deeper-sector stairhead across the working area. Triage canopy, command tent, vans and a kerb used for crew rest. Do not invent a station exit number."
+prop_locks: >
+  Nib: 105 cm, wiry adult with angular weathered face, V-notch LEFT ear, one lower LEFT fang;
+  pinkish-tan torn wrap top, charcoal knee shorts, BROWN rope belt, pouch RIGHT hip with green
+  dinosaur sticker, BROWN WOODEN sheath LEFT hip, bare feet. Matte black 8x30 binoculars high
+  on chest, black woven strap knotted LEFT side of neck, Kett's three-line fork on hinge;
+  secure binoculars beneath one forearm while carrying the child. Pale-blue ID, folded PAPER
+  watch-post drawing and cobalt pencil with Kett's mark remain protected in pouch.
+  Taeo: one mole beneath RIGHT eye, cracked dark-grey phone with green dinosaur sticker;
+  amber Nib pulse and separate slate-green Orrin pulse only in RIGHT palm. Recoil bruises
+  on forearms and fresh nosebleed, never healed by a return mark. Seoryun's present sleeve
+  patch has the redesigned door; Taeo's backpack keeps the OLD door. Follow the brief over
+  the matching-emblem shorthand in her older card.
+palette_notes: >
+  Disaster extension of A4: concrete and smoke blue-grey under portable cold-white work lamps,
+  hard violet spill only from actual nearby breaches; a small danger-red accent for blood or
+  emergency equipment, not decorative red light everywhere. Street sodium is muted brown-orange,
+  never link amber. Final street panels ease into desaturated pre-dawn blue. Flat cel colour,
+  warm near-black varied ink, one hard shadow tone; no bloom, motes, flare or photographic blur.
+  All signs, roster fields, cameras and devices remain blank or dark unless a UI entry fills them.
+
+panels:
+  - id: P01
+    shape: strip
+    gap: none
+    bg: black
+    camera: "extreme close-up across Orrin's loaded shell, almost level with the slate layers"
+    art: >
+      sinjeong_arcade_f. Orrin (orrin, default) is planted beneath the sagging concrete ceiling;
+      only a rigid shoulder and the shell's stacked slate fill the middle third. The existing
+      crack parts a fraction farther as grit drops into it. His visible eye at the edge is
+      narrowed with deliberate effort. Cold work-lamp light from the exit, violet shadow farther
+      in. No new broken limb, blood spray, harness, glowing shell or readable marks.
+    calm: top
+    sfx:
+      - {text: "KRK", style: impact, at: [0.64, 0.49], size: M, rot: -7}
+    notes: "Direct continuation of ch 37's shell-crack hook. Match its exact crack position at art handoff; do not introduce a second independent injury."
+
+  - id: P02
+    shape: wide
+    gap: none
+    bg: black
+    camera: "low three-quarter view of Taeo at the street-side landing"
+    art: >
+      sinjeong_stairwell. Taeo (taeo, outdoors) folds at the knees, his RIGHT hand locked open,
+      separate amber and slate-green pulses thin beneath the skin. His eyes lose focus and a
+      fresh red thread reaches his lip. Sejin (sejin, sage scrubs and olive rig) catches the
+      back of his navy jacket, jaw set, bracing both feet. A lamp above the landing cuts hard
+      blue-grey shadows. Backpack still on him; no dungeon beyond his feet, no magic armour.
+    calm: top
+    lines:
+      - {who: sejin, type: shout, side: r, text: "TAEO!"}
+
+  - id: P03
+    shape: strip
+    gap: none
+    bg: black
+    silent: true
+    camera: "Taeo's failing point of view, at floor height"
+    art: >
+      sinjeong_stairwell through Taeo's blackout: a nearly black frame containing only a thin
+      off-centre wedge of cold-white lamp and the blunt edge of the steel door. No figure,
+      time display or supernatural tunnel; the lamp wedge ends abruptly against black.
+      A held absence of perception, not a change of place. Hard flat shapes only.
+    calm: none
+
+  - id: P04
+    shape: full
+    gap: short
+    bg: black
+    camera: "close front view as Sejin pulls Taeo's face toward the lamp"
+    art: >
+      sinjeong_stairwell. BIG REACTION: Taeo (outdoors) comes round with a frightened gulp,
+      huge eyes and a hand clawed into Sejin's sleeve; the RIGHT-eye mole and nosebleed remain.
+      Sejin (default) crouches at his right, firm rather than soothing, fingers supporting his
+      shoulder. His open right palm lies below frame, not gripping her. Portable lamp from
+      camera left; concrete blue-grey behind. No smile, chibi, healed bruises or extra fingers.
+    calm: top
+    lines:
+      - {who: taeo, type: nervous, side: l, text: "HOW LONG?"}
+      - {who: sejin, type: speech, side: r, text: "ONE SECOND. STAY WITH ME."}
+      - {who: taeo, type: float, text: "I COULDN'T AFFORD ANOTHER ONE."}
+
+  - id: P05
+    kind: title
+    gap: long
+    bg: white
+    title_text: "CHAPTER 38 · THE LAST PERSON OUT"
+
+  - id: P06
+    shape: full
+    gap: short
+    bg: navy
+    camera: "establishing from the F service door, looking back through the low passage"
+    art: >
+      sinjeong_arcade_f. Orrin (default, adult 230 cm stoneback) stands wedged beneath a tilted
+      concrete slab, all four columnar legs trembling, head facing away from the exit. Nib
+      (default, all prop locks, barefoot adult) crouches beyond his left flank with last_child
+      clinging to his shoulders. Minho (default) and one Ryu worker bring steel rescue props
+      along the cleared side. Exit lamp gives cold-white light; violet falls from a distant
+      breach around a bend, no visible sky or new threshold. No saddles or legible shop signs.
+    calm: top
+    lines:
+      - {who: nib, type: speech, side: l, text: "LAST CHILD. ON MY BACK."}
+      - {who: orrin, type: speech, side: r, text: "I AM STILL HERE."}
+
+  - id: P07
+    shape: inset-l
+    gap: short
+    bg: navy
+    camera: "close profile of Nib checking the child's grip"
+    art: >
+      sinjeong_arcade_f. Nib (default) turns his adult angular face toward last_child, who
+      grips his wrap top at both shoulders. One scarred hand supports the boy's thigh; the
+      other steadies the matte binoculars against his own chest. LEFT-ear notch and sole
+      lower LEFT fang visible. Acting: a calm instruction, no coaxing smile. Exit-lamp rim,
+      blue-grey concrete. No boots, new bag, baby proportions or readable objects.
+    calm: right
+    lines:
+      - {who: nib, type: speech, side: l, text: "HOLD THE CLOTH. NOT MY EARS."}
+
+  - id: P08
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "floor-level view under Orrin's shell toward the rescue prop"
+    art: >
+      sinjeong_arcade_f. Minho (default, brown jacket, knee pads) drives an adjustable steel prop
+      under the slab beside Orrin's shoulder while ryu_crew squares its foot on an intact tile
+      bed. Orrin (default) keeps every leg planted, mouth compressed with pain. Nib's bare feet
+      and the child's dangling socks pass in the background. Cold lamp from the door; muted
+      concrete, slate and brown. No fragment collecting, floating load or unsupported jack.
+    calm: top
+    lines:
+      - {who: minho, type: speech, side: l, text: "PROP'S SEATED. DON'T MOVE YET."}
+      - {who: orrin, type: speech, side: r, text: "I HAD NOT PLANNED TO."}
+
+  - id: P09
+    shape: strip
+    gap: short
+    bg: navy
+    camera: "extreme close-up down onto Taeo's right palm"
+    art: >
+      sinjeong_stairwell. Taeo's RIGHT palm (navy cuff, black hoodie underneath) rests open on
+      his knee. A slate-green pulse bears down in a thin hard-edged line; a separate amber
+      trace is weaker beside it. Five spread fingers shudder. Sejin's supporting glove touches
+      his wrist without closing his hand. Cold lamp; grey skin shadows, one dark red nosebleed
+      spot on trouser fabric. No percentage increase, cyan window or glowing left hand.
+    calm: top
+    lines:
+      - {who: taeo, type: whisper, side: l, text: "ORRIN. I'M HERE."}
+    notes: "Mechanical load only. Existing willing links continue; no new power or higher load-share ceiling is granted by the blackout."
+
+  - id: P10
+    shape: tall
+    gap: short
+    bg: navy
+    camera: "at child height looking toward the service door from inside F"
+    art: >
+      sinjeong_arcade_f. Nib (default, adult with full locked belt gear and binoculars secured)
+      comes toward the exit carrying last_child piggyback, both hands under the boy's thighs,
+      knees bent for the load. His bare feet find clean tiles between sharp fragments. Behind
+      him Orrin and Minho remain beneath the slab. Door lamp ahead silhouettes the boy's dusty
+      blue jacket. Tight purposeful face, no heroic grin. No new footwear or lettering.
+    calm: top
+    lines:
+      - {who: nib, type: speech, side: c, text: "DOOR."}
+
+  - id: P11
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "from behind Sejin toward Taeo and the steel door"
+    art: >
+      sinjeong_stairwell. Sejin (default) holds Taeo's shoulder while Taeo (outdoors) leans from
+      his seated position and raps the battered steel jamb with his LEFT knuckles. His RIGHT
+      hand stays open on his knee. The physical service door is propped open a narrow amount;
+      it separates an Earth-side corridor from stairs. Cold work lamp, muted slate palette.
+      Backpack patch at the edge. No gate surface, return-mark flash or readable notice.
+    calm: top
+    sfx:
+      - {text: "TTOK TTOK", style: quiet, at: [0.66, 0.39], size: M, rot: -5}
+    notes: "Two from outside: come back. Physical knock through F's service jamb, not a new gate crossing."
+
+  - id: P12
+    shape: narrow-r
+    gap: short
+    bg: navy
+    silent: true
+    camera: "thin profile through the open door gap"
+    art: >
+      sinjeong_stairwell. Nib (default) passes the door sideways with last_child on his back,
+      carefully protecting the child's head from the bent handle. His adult face is taut,
+      LEFT-ear notch clear, binocular strap knotted at his left neck. Child's eyes fixed on
+      daylightless stairs. Cold landing lamp; blue-grey steel. No cute proportions, extra
+      child, boots, gate rim or return ring on anyone.
+    calm: none
+
+  - id: P13
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "reverse from the stair above, looking down at the handoff"
+    art: >
+      sinjeong_stairwell. child_guardian kneels and takes last_child from Nib's back while a
+      responder supports the boy's legs. Nib (default) releases only after the father has him;
+      his face shows concentration that has not yet become relief. Taeo (outdoors) watches
+      from Sejin's hold beside the jamb. Cold lamp, dusty blue-grey stairs, plain handrail.
+      No cameras, second rescue child, readable badges or instant healing.
+    calm: top
+    lines:
+      - {who: child_guardian, type: speech, side: r, text: "I'VE GOT YOU. I'VE GOT YOU."}
+      - {who: nib, type: speech, side: l, text: "TAKE HIM UP."}
+
+  - id: P14
+    shape: inset-r
+    gap: short
+    bg: navy
+    camera: "close on the survey handset beside Taeo's knee"
+    art: >
+      sinjeong_stairwell. A grey Ryu field handset rests in Taeo's LEFT hand; its coiled cord
+      leads to a relay box fixed near the landing. White survey cable with blue metre bands
+      runs along the intact stair wall, not under the falling slab. Taeo's tense jaw above,
+      right-eye mole partly cropped. Cold lamp on grey plastic, no active screen or glyphs.
+    calm: left
+    lines:
+      - {who: minho, type: phone, side: l, text: "CHILD'S CLEAR?"}
+      - {who: taeo, type: speech, side: r, text: "CLEAR. ORRIN NEXT."}
+    notes: "Retain Ryu's white/blue-band line and grey relay equipment. No radio magically transmitting through an unlined gate threshold."
+
+  - id: P15
+    shape: full
+    gap: short
+    bg: navy
+    camera: "high angle over Minho and two props beside Orrin"
+    art: >
+      sinjeong_arcade_f. Two rescue props now support the slab beside Orrin (default). Minho
+      (default) watches their heads take the load; ryu_crew clears a straight backing lane
+      through the service door. Orrin shifts only one hind foot, pain tight around the eyes,
+      terraced shell and existing crack fully visible. Work lamps at the door and crew hands;
+      concrete blue-grey with brown workwear. No lifted entire ceiling, salvage pile or saddle.
+    calm: top
+    lines:
+      - {who: minho, type: speech, side: l, text: "BACK ONE STEP. THEN WAIT."}
+      - {who: orrin, type: speech, side: r, text: "ONE IS AVAILABLE."}
+
+  - id: P16
+    shape: strip
+    gap: short
+    bg: navy
+    silent: true
+    camera: "tight low view of Orrin's rear foot finding sound floor"
+    art: >
+      sinjeong_arcade_f. Orrin's rear foot (default anatomy, three blunt nails) lowers slowly
+      onto an intact tile beyond a crack in the floor. Weight bulges the leathery toe planes;
+      the other leg remains braced. A rescue prop foot stays square in the background. Lamp
+      from the exit makes a hard white strip along the nails, slate-violet shadows elsewhere.
+      No human shoes, extra toes, healing light or floating debris.
+    calm: none
+
+  - id: P17
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "close side view of Taeo and Sejin below the handrail"
+    art: >
+      sinjeong_stairwell. Taeo (outdoors) presses his shoulder into the wall rather than standing,
+      teeth clenched, RIGHT palm opening farther as the slate-green pulse thins. Sejin (default)
+      watches his eyes and keeps a steady hand under his forearm. Jacket sleeve rides up just
+      enough to expose purple recoil bruising. Portable lamp above left, cold blue-grey palette;
+      one red trace at his lip. No full load transfer, easy smile or medical miracle.
+    calm: top
+    lines:
+      - {who: sejin, type: speech, side: r, text: "LET THE PROPS TAKE IT."}
+      - {who: taeo, type: speech, side: l, text: "I AM. SORRY. I'M TRYING."}
+
+  - id: P18
+    shape: tall
+    gap: short
+    bg: navy
+    camera: "low view from behind Orrin toward the exit, matching his backing direction"
+    art: >
+      sinjeong_arcade_f. Orrin (default) backs toward the door, rear half already clear of the
+      slab, enormous shell scraping a dangling conduit. Minho (default) walks beside his head,
+      directing a second worker out ahead. The prop nearest the crack bows slightly under
+      remaining concrete. Orrin's mouth set, heavy eyelids fierce with effort. Exit lamp white,
+      slate shell against violet-blue darkness. No speed leap, harness or new injury location.
+    calm: top
+    lines:
+      - {who: minho, type: speech, side: l, text: "ANOTHER STEP. I'M WITH YOU."}
+    sfx:
+      - {text: "SKRRR", style: quiet, at: [0.73, 0.47], size: M, rot: 18}
+
+  - id: P19
+    shape: strip
+    gap: short
+    bg: navy
+    camera: "close on Minho's glove tapping the interior face of the service jamb"
+    art: >
+      sinjeong_arcade_f at the service door. Minho's gloved hand (default brown sleeve, LEFT
+      wristwatch edge) taps three times on the INNER steel jamb while Orrin's last shell edge
+      approaches behind it. His knuckles act deliberately; blue-banded survey cable remains
+      clipped clear of the door. Exit lamp from beyond, muted steel blue-grey. No gate plane,
+      chopped cable, readable sign or visible faces.
+    calm: top
+    sfx:
+      - {text: "TTOK TTOK TTOK", style: quiet, at: [0.50, 0.40], size: M, rot: 0}
+    notes: "Three from inside: coming. Orrin backs out; Minho supplies the reply because Orrin cannot reach the jamb with his feet planted."
+
+  - id: P20
+    shape: full
+    gap: short
+    bg: navy
+    camera: "from the upper stair down toward the open service doorway"
+    art: >
+      sinjeong_stairwell. Orrin (default) clears the doorway backwards, cracked slate shell
+      squeezing under the bent top edge. Minho (default) follows at his head and pulls the
+      Ryu worker through. Nib (default, barefoot) stands aside indicating the open stair width;
+      Taeo remains seated, held by Sejin. Cold-white lamps, grey concrete. Orrin can turn only
+      on the broader landing; no instant recovery, pet tack or readable equipment.
+    calm: top
+    lines:
+      - {who: nib, type: speech, side: l, text: "ALL OUT."}
+
+  - id: P21
+    shape: wide
+    gap: none
+    bg: black
+    camera: "from behind the crew as Minho pulls the service door shut"
+    art: >
+      sinjeong_stairwell. Minho (default) slams the steel service door shut as the now-empty
+      passage collapses beyond it. A violent inward dent hits the door; dust ejects beneath
+      it in a single impact cloud. Orrin's rear shell and Nib's protective crouch fill the near
+      edge; both safely clear. Cold work lamp catches concrete grit. No fireball, death, gate
+      closure or decorative airborne particles away from the impact.
+    calm: top
+    sfx:
+      - {text: "GROOOM", style: impact, at: [0.62, 0.40], size: XL, rot: -8}
+    notes: "Physical F escape route lost after everyone clears. Does not kill any of the seven bosses or resolve the whole surge."
+
+  - id: P22
+    shape: inset-l
+    gap: long
+    bg: white
+    silent: true
+    camera: "close-up of Taeo's face as his hand finally relaxes"
+    art: >
+      sinjeong_stairwell. Taeo (outdoors) stares at Orrin off frame, breathing through his open
+      mouth; relief arrives as an ugly trembling almost-cry. Dust on messy hair, mole beneath
+      RIGHT eye, nosebleed drying. His right hand below his chin has no remaining link light.
+      Sejin's steady sage shoulder at the edge. Cold lamp, blue-grey shadows. No grin, healed
+      forearms, sparkles or narration inside the image.
+    calm: none
+
+  - id: P23
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level with Orrin on the broad stair landing"
+    art: >
+      sinjeong_stairwell broad landing. Orrin (default) has turned and lowered himself carefully,
+      expression exhausted but alert. Sejin (default) checks the shell crack with a penlight;
+      Nib (default) rests one scarred palm against an undamaged slate layer. Taeo (outdoors)
+      sits opposite without trying to touch the injury. Portable lamp cold white, slate and
+      sage palette. No bandage yet, instant mend, new shell pattern or petting gesture.
+    calm: top
+    lines:
+      - {who: taeo, type: speech, side: l, text: "ORRIN. I'M SORRY."}
+      - {who: orrin, type: speech, side: r, text: "COUNT FIRST."}
+
+  - id: P24
+    shape: strip
+    gap: short
+    bg: white
+    camera: "close on Minho's dirty glove counting across a folded roster"
+    art: >
+      sinjeong_stairwell. Minho's glove (default) touches blank check boxes on a folded damp
+      roster, deliberately reaching the final box. His radio and wristwatch edge are present;
+      neither display is readable. Nib's bare toes and Orrin's blunt foot stand together in
+      the background. Cold work light from the stair above, muted grey-blue and brown.
+      No invented numerical rescue total, legible list or money bag.
+    calm: top
+    lines:
+      - {who: minho, type: speech, side: r, text: "F'S CREW ACCOUNTED FOR. LAST CHILD HANDED OVER."}
+      - {who: taeo, type: float, text: "I HAD NEVER LIKED A BORING ANSWER SO MUCH."}
+
+  - id: P25
+    shape: full
+    gap: long
+    bg: white
+    camera: "establishing across the street cordon toward the two separate stairheads"
+    art: >
+      sinjeong_street at deep night. F's crew emerges at the side stairhead: Orrin (default)
+      moving slowly between Minho and ryu_crew, Nib (default) clearing his lane, Sejin supporting
+      Taeo (outdoors). Across the working area Seoryun's sector stairhead still sends up dust.
+      Responders guide civilians toward triage; command tent and vans behind the cordon.
+      Portable white floodlights, blue-grey street and muted sodium pools. Signs blank; no
+      victory crowd, newly closed seven gates or readable vehicle markings.
+    calm: top
+    lines:
+      - {who: narr, type: tag, text: "SINJEONG STATION · STREET LEVEL"}
+
+  - id: P26
+    shape: wide
+    gap: short
+    bg: white
+    camera: "from Taeo's seated kerb height toward Seoryun's stairhead"
+    art: >
+      sinjeong_street. Taeo (outdoors) settles onto a kerb, Sejin just behind; he raises his
+      head toward the other exit. Farther away Seoryun (default, olive field jacket, low dark
+      ponytail, hexagonal shield on her free arm) appears supporting sector_survivor. Her face
+      is tired and assessing, never posing. Cold stair lamp underlights them; blue-grey street
+      beyond. Backpack on Taeo's lap, old patch outward. No camera flash or magical healing.
+    calm: top
+    lines:
+      - {who: taeo, type: float, text: "I KNEW THAT WALK."}
+
+  - id: P27
+    shape: tall
+    gap: short
+    bg: white
+    camera: "low at the deeper-sector stair lip as Seoryun brings up its final survivor"
+    art: >
+      sinjeong_street, deeper-sector stairhead. Seoryun (default, LEFT-eyebrow scar, current-door
+      sleeve patch) climbs the last steps with sector_survivor's arm across her shoulders.
+      The elderly woman drags her unshod foot, eyes on the waiting stretcher. Seoryun places
+      her own boots firmly, shield edge guarding the stair side. White emergency lamp above,
+      blue-grey and muted olive. No glamorous hair fan, doorway redesign on Taeo's old patch,
+      unearned aura or legible emblems beyond their drawn door geometry.
+    calm: top
+    lines:
+      - {who: seoryun, type: speech, side: l, text: "ONE MORE STEP. THEY HAVE YOU."}
+
+  - id: P28
+    shape: strip
+    gap: short
+    bg: white
+    silent: true
+    camera: "extreme close-up of Seoryun's hand releasing the survivor to a medic"
+    art: >
+      sinjeong_street. Seoryun's bare hand (olive cuff, default) releases sector_survivor's
+      plum sleeve only when a medic's gloved hand has taken her wrist securely. Dust, a
+      scraped knuckle, five plausible fingers per hand. Hard cold lamp highlights and slate
+      shadows, no golden light. Frame crops out faces, shield and devices; no readable tags,
+      touch-healing effects or ornamental particles.
+    calm: none
+
+  - id: P29
+    shape: wide
+    gap: none
+    bg: navy
+    camera: "over the medic's shoulder as Seoryun looks back down the steps"
+    art: >
+      sinjeong_street. Seoryun (default) turns her shoulders back toward the stair opening,
+      mouth tightening at a fresh shudder below. The medic guides sector_survivor away in
+      foreground. Her hexagonal shield rotates with the arm, grip and strap physically clear.
+      Deeper-sector lamp flickers, cold-white blocks against violet shadow. Street clutter
+      simplified. No hidden extra civilian, flourish, second shield arm or readable signage.
+    calm: top
+    lines:
+      - {who: seoryun, type: speech, side: r, text: "KEEP THEM MOVING."}
+
+  - id: P30
+    shape: bleed
+    gap: short
+    bg: navy
+    silent: true
+    camera: "low frontal view from outside the cordon, the famous turning-back composition"
+    art: >
+      sinjeong_street. Seoryun (default) has walked the final survivor clear and turns back
+      alone to COVER the empty exit. One boot at the stair lip, shield arm extended: crisp
+      interlocking hexagonal barrier planes close over the opening as falling masonry
+      strikes from below. Her face in three-quarter is exhausted and intent. The elder
+      and medic retreat at the bottom edge; camera operator small at one side. Cold-white
+      floodlight, violet-black stair shadow, muted olive. No glamour glow, new rescue trip,
+      readable broadcast graphics or implication that all sectors are hers.
+    calm: none
+    notes: "Required image: her famous rescue silhouette, happening live before Taeo. She turns to cover the sector after its last person is out. Only bleed of chapter."
+
+  - id: P31
+    shape: inset-r
+    gap: long
+    bg: white
+    camera: "close front view on Taeo watching from the kerb"
+    art: >
+      sinjeong_street. Taeo (outdoors) watches with the expression of someone unexpectedly
+      young: eyes wide, lower lip trembling, the RIGHT-eye mole visible through grime.
+      Backpack clutched against his chest, old patch partly covered by one thumb. Cold lamp
+      from the covered stair and faint sodium side light; pale blue-grey background. No
+      memory inset, fourteen-year-old costume, smile or healed nosebleed.
+    calm: left
+    lines:
+      - {who: taeo, type: float, text: "I WAS TWENTY-THREE. I DIDN'T FEEL IT."}
+
+  - id: P32
+    shape: wide
+    gap: short
+    bg: white
+    camera: "behind the news camera operator facing the covered stair"
+    art: >
+      sinjeong_street. reporter's operator raises a shoulder camera toward Seoryun (default)
+      at the covered stair; reporter brings up the microphone, excited but dusty and tired.
+      Camera monitor is dark from this side, lens held level. Seoryun keeps watching the
+      barrier rather than them. Floodlights cut hard shadows over concrete and muted navy.
+      No readable station logo, invented quote on clothing or decorative flash.
+    calm: top
+    lines:
+      - {who: reporter, type: speech, side: l, text: "WE HAVE HER. STAY ON HER."}
+
+  - id: P33
+    shape: narrow-l
+    gap: short
+    bg: white
+    camera: "flat news-feed insert, no physical screen"
+    art: >
+      sinjeong_street as the news feed's clean crop: Seoryun (default) turning with the
+      hexagonal shield, the supported survivor exiting the lower edge. Draw only the video
+      image beneath an empty lower margin. Cold-white light and blue-grey destruction,
+      same pose geography as P30. No camera frame, generated letters, extra rescuer,
+      timestamps or glossy broadcast effects inside the illustration.
+    calm: none
+    ui:
+      - {kind: tv.lowerthird, on: panel, text: "LIVE · SINJEONG STATION", ticker: "HAN SEORYUN · THE RETURNING CAPTAIN"}
+    notes: "Broadcast praise is an editorial crop. Its lowerthird is composited by the letterer."
+
+  - id: P34
+    shape: full
+    gap: long
+    bg: white
+    camera: "high view over the triage working area, away from the cameras"
+    art: >
+      sinjeong_street. Responders work in distinct groups: municipal crew braces a stairhead,
+      medics lift a stretcher, porters bring blankets and water, Meridian workers roll a cable
+      drum away from evacuees. Minho (default) checks his survey crew beside Orrin (default),
+      Sejin kneels at a patient, Nib (default) moves rubble from a clear lane. Faces exhausted,
+      movements practised. Floodlight white, navy shadows, subdued workwear. No readable
+      logos, row of hero poses or single-person rescue attribution.
+    calm: top
+    lines:
+      - {who: "offpanel:responders", type: phone, side: l, text: "F EVACUATION CLEAR. RECEIVED."}
+
+  - id: P35
+    shape: strip
+    gap: short
+    bg: white
+    camera: "close on the command-tent receiver and an anonymous hand logging the call"
+    art: >
+      sinjeong_street command tent edge. A responder's gloved hand ticks a blank field on a
+      clipboard beside a grey receiver, sleeve dirty and damp. Through the tent gap, the
+      blue-grey cordon and ongoing work remain. White task lamp overhead; muted slate and
+      canvas palette. All map blocks and roster fields blank, no screen in frame, no
+      casualty count or final all-seven-gates clearance invented.
+    calm: top
+    lines:
+      - {who: responders, type: speech, side: r, text: "MARK F. KEEP THE OTHER CHANNELS OPEN."}
+
+  - id: P36
+    shape: wide
+    gap: short
+    bg: white
+    camera: "at shell height under the triage canopy"
+    art: >
+      sinjeong_street triage canopy. Sejin (default) places a clean dressing over the exposed
+      edge of Orrin's shell crack and checks beneath it with her penlight; the dressing is
+      protective, not structural repair. Orrin (default) keeps his face toward her, heavy
+      eyes patient. Nib (default) holds the supply pouch open. Cold task light with sage
+      and slate tones. No pet harness, whole-shell wrap, healed fissure or readable packet.
+    calm: top
+    lines:
+      - {who: sejin, type: speech, side: l, text: "NO CARRYING. I'M NOT NEGOTIATING WITH A CEILING."}
+      - {who: orrin, type: speech, side: r, text: "IT WAS A POOR NEGOTIATOR."}
+
+  - id: P37
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on Minho sitting beside the discarded rescue prop"
+    art: >
+      sinjeong_street. Minho (default) sits on a crate, dirty glove over his closed eyes,
+      premature grey streak at LEFT temple visible. Bent prop beside his boots; his empty
+      hands have no fragment cluster. He looks relieved and still angry at the lost money.
+      Portable lamp from upper right, brown jacket in blue-grey shadow. No gold glint,
+      salvaged fragments, Bluebird notification or readable equipment plate.
+    calm: right
+    lines:
+      - {who: minho, type: speech, side: l, text: "SIXTY MILLION. STILL THINKING ABOUT IT."}
+      - {who: "offpanel:taeo", type: speech, side: r, text: "ME TOO."}
+    notes: "The ₩60,000,000 cluster from ch 37 remains abandoned. No payout from it."
+
+  - id: P38
+    shape: wide
+    gap: short
+    bg: white
+    camera: "reverse at crate height toward Taeo and Minho"
+    art: >
+      sinjeong_street. Taeo (outdoors) sits lower on the kerb, bruised wrists tucked under
+      jacket cuffs, looking toward Orrin off frame. Minho (default) sits on the crate beside
+      him, eyes open again, both too tired for a clean moral. Old patch on the lap-held
+      backpack; damaged rescue prop at their feet. Cold lamp, quiet blue-grey palette.
+      No triumphant smiles, money returned, new badge or readable signs.
+    calm: top
+    lines:
+      - {who: minho, type: speech, side: r, text: "I LEFT IT."}
+      - {who: taeo, type: speech, side: l, text: "I KNOW."}
+
+  - id: P39
+    shape: inset-r
+    gap: long
+    bg: white
+    style: chibi
+    camera: "chibi gag, isolated relief beat after medical assessment"
+    art: >
+      Flat pale-blue screentone, a symbolic sinjeong_street rest beat. CHIBI Taeo (outdoors,
+      old-patch backpack) tries to sit on a tiny folding stool that folds shut beneath him;
+      chibi Nib (full locks, binoculars, barefoot) offers a perfectly stable small rubble block
+      with grave dot eyes. Taeo's face is customer-service despair, huge sweat drop. No
+      injured Orrin, active danger, medical pain, detailed background or lettering in art.
+    calm: left
+    lines:
+      - {who: taeo, type: speech, side: r, text: "SORRY. IS ANYTHING HERE RATED FOR SITTING?"}
+      - {who: nib, type: speech, side: l, text: "ROCK."}
+
+  - id: P40
+    shape: wide
+    gap: short
+    bg: white
+    camera: "normal-style medium view beside the supply table"
+    art: >
+      sinjeong_street. Nib (default) hands seated Taeo (outdoors) a small paper water cup,
+      face back to adult weathered reserve. Taeo obeys with a tired half-smile, nose cleaned
+      but faintly stained; Sejin's gauze packet lies beside him. Binoculars high on Nib's
+      chest, belt props correctly sided. White task lamp, muted blue-grey. Cup and packet
+      blank; no glow, boots or chibi anatomy.
+    calm: top
+    lines:
+      - {who: nib, type: speech, side: l, text: "DRINK."}
+      - {who: taeo, type: speech, side: r, text: "YOU FIRST?"}
+      - {who: nib, type: speech, side: l, text: "YOU ARE FIRST."}
+
+  - id: P41
+    shape: strip
+    gap: short
+    bg: white
+    silent: true
+    camera: "close on their hands with the cup"
+    art: >
+      sinjeong_street. Taeo (navy cuff) steadies the blank paper cup with both hands while
+      Nib's scarred hand stays under its base until the trembling eases. Right palm ordinary,
+      no link pulse now. A brown rope-belt edge and dark binocular strap identify Nib at the
+      frame margin. Cold lamp, blue-grey shadows, plain white cup. Five fingers per hand,
+      no healed bruises, new ring or readable print.
+    calm: none
+
+  - id: P42
+    shape: full
+    gap: long
+    bg: white
+    camera: "wide street view across a lane being cleared for ambulances"
+    art: >
+      sinjeong_street as night begins to pale. An ambulance lane opens between responders;
+      Dami (dami, default: nineteen, 157 cm adult, short low dark ponytail, choppy fringe,
+      grey hoodie under muted hi-vis vest, olive cargos, gloves, looped cargo straps and
+      scuffed site hard hat) walks along its edge carrying folded blankets. Her shoulders
+      sag but her gaze keeps searching evacuees. White floodlights over desaturated blue,
+      no cameras aimed at her, GO FIRST patch, readable vest number or child proportions.
+    calm: top
+    lines:
+      - {who: "offpanel:responders", type: speech, side: l, text: "BLANKETS TO REUNIFICATION."}
+      - {who: dami, type: speech, side: r, text: "ON IT."}
+
+  - id: P43
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on Dami reacting to someone calling from below frame"
+    art: >
+      sinjeong_street. Dami (default) stops and looks down, weary eyes startled into attention,
+      folded blankets half sliding on one arm. A small yellow raincoat sleeve reaches toward
+      her from below the image. Her gloves and cargo straps remain; dirt at the hard-hat rim.
+      Portable lamp left, pre-dawn blue elsewhere. No full reunion yet, readable kit, news
+      camera or flattering spotlight on Dami.
+    calm: right
+    lines:
+      - {who: "offpanel:reunited_child", type: speech, side: l, text: "THAT'S HER."}
+
+  - id: P44
+    shape: wide
+    gap: short
+    bg: white
+    camera: "child-height view toward Dami and the mother"
+    art: >
+      sinjeong_street reunification edge. reunited_child (yellow raincoat, six) points at Dami
+      (default) while reunited_mother (beige raincoat, scraped palms) looks from her daughter
+      to the porter. Dami bends slightly to listen, still holding blankets, surprised to be
+      addressed. Cold lamp, grey concrete and navy shadows. Child clearly older and clothed
+      differently from Nib's last passenger. No camera, nameplate or readable signs.
+    calm: top
+    lines:
+      - {who: reunited_child, type: speech, side: l, text: "SHE CARRIED ME PAST THE BROKEN SHOP."}
+      - {who: dami, type: speech, side: r, text: "YOU FOUND YOUR MUM."}
+    notes: "Dami was hired for the evacuation; she carried this girl earlier. Nib's final child and father are a separate reunion."
+
+  - id: P45
+    shape: strip
+    gap: short
+    bg: white
+    silent: true
+    camera: "close-up on the mother's scraped hands catching Dami's work sleeve"
+    art: >
+      sinjeong_street. reunited_mother's scraped hands take hold of Dami's dusty grey hoodie
+      sleeves just below the hi-vis vest, urgent and gentle at once. Dami's gloved fingers
+      loosen on the folded blankets. Cold-white side lamp, pale skin against charcoal and
+      muted yellow. No rings invented, blood gush, money exchange, camera lens or words.
+    calm: none
+
+  - id: P46
+    shape: wide
+    gap: short
+    bg: white
+    camera: "medium front view of the mother and Dami"
+    art: >
+      sinjeong_street. reunited_mother leans toward Dami (default), mouth working around a
+      thank-you she cannot finish. Dami's normally defensive face goes helplessly open;
+      reunited_child presses against her mother's side. Blankets slip between them, not onto
+      dirty ground. Floodlight side key, blue-grey street simplified. No chibi tears,
+      readable objects, public applause or photo being taken.
+    calm: top
+    lines:
+      - {who: reunited_mother, type: speech, side: l, text: "YOU BROUGHT HER BACK."}
+      - {who: dami, type: speech, side: r, text: "SHE WAS WAITING FOR YOU."}
+
+  - id: P47
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Taeo noticing the reunion across the working lane"
+    art: >
+      sinjeong_street. Taeo (outdoors) turns from the illuminated sector stair toward Dami,
+      eyes softening, cup forgotten just below his lip. Old backpack patch on his lap;
+      RIGHT-eye mole, dry blood stain and tired lower lids intact. Nib's notched ear at
+      lower edge also turns that way. Pre-dawn blue and cold lamp. No flashback, admiring
+      speech, new patch or cleaned wardrobe.
+    calm: left
+    lines:
+      - {who: taeo, type: float, text: "I WANTED SOMEONE ELSE TO SEE HER."}
+
+  - id: P48
+    shape: wide
+    gap: short
+    bg: white
+    camera: "behind the reporter as a radio call redirects the camera"
+    art: >
+      sinjeong_street. reporter's camera operator pivots a shoulder camera away from the
+      reunification edge toward Seoryun's lit stairhead. Dami and the mother stand small
+      behind the operator's turned back, partly hidden by supply crates. Reporter raises
+      one hand to direct the lens. Camera screen dark. Cold floodlights, muted navy and
+      concrete. No live crop containing Dami, readable branding or villainous sneer.
+    calm: top
+    lines:
+      - {who: reporter, type: speech, side: l, text: "CAPTAIN HAN'S MOVING. OVER THERE."}
+
+  - id: P49
+    shape: strip
+    gap: short
+    bg: white
+    camera: "tight view of the camera's lens turning across empty air"
+    art: >
+      sinjeong_street. A shoulder camera's long lens rotates right across the centre third,
+      leaving reunited_mother's beige sleeve cropped off at the left edge. Its black housing
+      catches a hard white lamp highlight, operator's fingers properly around the grip.
+      No monitor visible, readable make, audience counter, graphic arrow or decorative flare.
+      The framing choice is ordinary and devastating.
+    calm: top
+    lines:
+      - {who: taeo, type: float, text: "I KNEW WHERE THEY'D POINT."}
+
+  - id: P50
+    shape: full
+    gap: short
+    bg: white
+    camera: "high diagonal view holding both separate pools of work in one street"
+    art: >
+      sinjeong_street. Upper right: Seoryun (default) speaks briefly to responders beneath
+      floodlights; shoulder cameras converge on her. Lower left: Dami (default) and the
+      mother face each other beside broken tiles and supply crates, child at the mother's
+      knee. Taeo (outdoors) sits between the two sightlines at the kerb, unable to move far.
+      Pale blue horizon, navy shadows, cold work lamps. No spotlights invented for Dami,
+      readable press banners or implication that Seoryun chose the camera angle.
+    calm: top
+    lines:
+      - {who: "offpanel:reporter", type: speech, side: r, text: "CAPTAIN. THIS WAY, PLEASE."}
+
+  - id: P51
+    shape: inset-l
+    gap: long
+    bg: white
+    silent: true
+    camera: "close on Nib's eyes, looking past the cameras toward Dami"
+    art: >
+      sinjeong_street. Nib (default) in close three-quarter: adult amber eyes, old pale scars
+      at the neck edge, LEFT-ear notch clear. His gaze stays on Dami off panel; mouth held
+      flat with recognition. Binocular strap knot at LEFT neck, glasses resting on chest
+      below the crop. Cold lamp and desaturated dawn blue. No pitying grin, cute eyes,
+      link glow or new souvenir.
+    calm: none
+
+  - id: P52
+    shape: tall
+    gap: long
+    bg: white
+    silent: true
+    camera: "eye-level close medium of the reunion with all working cameras facing away"
+    art: >
+      THE HOOK. sinjeong_street, among broken tiles at the reunification edge. reunited_mother
+      hugs Dami (default) fiercely, one hand cupping the back of her scuffed hard hat; the
+      six-year-old girl in yellow folds into their side. Dami's gloved hands hover, then one
+      settles on the mother's back, stunned and undone. Her folded blankets are caught
+      safely between their hips. Across the top distance every news lens faces Seoryun's
+      illuminated sector. No one films this embrace. Cold-white task light from the side,
+      pale pre-dawn blue, hard brown-grey shadows. No words, news overlay, heroic halo,
+      GO FIRST patch or camera pointed toward Dami.
+    calm: none
+    notes: "HOOK exactly: a mother hugs the hired porter who carried her kid out; cameras swing to Seoryun. Dami is unfilmed, but the reader and Taeo see her."
+
+  - id: P53
+    kind: end
+    gap: long
+    bg: white
+    end_text: "TO BE CONTINUED"
+    next: "NEXT · CHAPTER 39 · GOOD WORK"
+    chibi_gag: "In a separate after-hours gag, chibi Taeo solemnly tests three folding stools; each folds shut before he sits. Chibi Nib, barefoot with binoculars and all belt props, labels nothing and silently offers the same perfectly stable rock."
