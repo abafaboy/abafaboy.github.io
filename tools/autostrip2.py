@@ -825,7 +825,7 @@ def main():
 
     with sync_playwright() as pw:
         br = pw.chromium.launch()
-        page = br.new_page()
+        page = br.new_page(); page.set_default_timeout(240000)
         # ------------------------------------------------ art + screens
         art_for = {}
         for p in panels:

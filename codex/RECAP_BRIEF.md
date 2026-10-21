@@ -14,7 +14,8 @@ A JSON list in reading order. Each entry is `{"panel": "<id>", "text": "<narrati
   - Say who speaks and what they mean. Quote the best lines briefly ("Nib only said: 'You first.'").
   - Explain anything a listener needs to follow the story: who someone is, what a system window says, what is at stake.
   - Keep the jokes, the warmth and the tension. End each chapter on its hook, so the listener wants the next one.
-- **Length.** About 700–1000 words per chapter in total, and at most 60 words per entry.
+- **Length.** The owner found the first recaps too slow, so keep recap-channel pace: about 12 words per drawn panel, which is roughly 550–800 words for a 55–60-panel chapter. Aim for 15–25 words per entry and never more than 35. Short sentences. Keep what matters later (names, money, rules, promises, reveals, the hook) and cut blow-by-blow detail. `recaps/ch001.json`–`ch013.json` in this repo are the model.
+- **Panels that exist.** Only use panel ids that have a PNG in the chapter's `art/` folder. Panel order must never go backwards.
 - **No invention.** Never invent events, names or numbers the script doesn't have. No stage directions, no "in this panel", no emojis.
 - Names are written normally (Taeo, Nib, Chae, Minho, Seoryun, Grandma), not in caps.
 
