@@ -49,10 +49,11 @@ panels:
       mole is clear. Grandpa watches his face rather than the object. Rolled sleeves and bruises remain.
       Simplified plywood behind, southeast morning light, ochre/brown with restrained navy. Keep both
       faces unobstructed, top gutter plain. No younger versions, chibi, magical memory or readable card.
+      Frame both from the waist up, Grandpa in the left third and Taeo in the right third.
     calm: top
     lines:
-      - {who: taeo, type: whisper, side: r, text: "I DON'T REMEMBER THAT BIRTHDAY."}
-      - {who: grandpa, type: speech, side: l, text: "I REMEMBER YOU ASKING FOR HIM."}
+      - {who: taeo, type: whisper, side: r, text: "I DON'T REMEMBER MY BIRTHDAY THAT YEAR."}
+      - {who: grandpa, type: speech, side: l, text: "I REMEMBER. YOU ASKED FOR YOUR FATHER."}
   - id: P03
     shape: inset-l
     gap: long
@@ -77,10 +78,12 @@ panels:
       low in the foreground. His mouth manages an ordinary small request. Black hoodie sleeves
       still rolled, intact bruised skin. Morning ochre and brown; plain envelope and cup separate.
       No visible pencil note, sealed evidence bag, birthday date or generated lettering.
+      Grandpa's cap and shoulder fill the lower-left foreground; Taeo sits in the right half,
+      facing him.
     calm: top
     lines:
       - {who: taeo, type: speech, side: r, text: "CAN YOU STAY FOR LUNCH?"}
-      - {who: grandpa, type: speech, side: l, text: "I BROUGHT MY BAG, DIDN'T I?"}
+      - {who: grandpa, type: speech, side: l, text: "OF COURSE. I BROUGHT MY BAG, DIDN'T I?"}
   - id: P05
     kind: title
     gap: long
@@ -94,14 +97,15 @@ panels:
     art: >
       ryu_practice_yard key geography: southwest grey office left, southeast white van right,
       fixed staggered plywood maze and three north targets beyond. minho in brown work jacket
-      places a small divided grey sample case on the west trestle. taeo approaches from left with
-      nib, adult in exact brown boots and full locked gear; sejin stands right in sage scrubs and
-      olive rig. orrin rests nearby, upper LEFT-front shell crack dressed, thoughtful adult face.
-      Late-morning sun, ochre ground and brown shadows; no active gate, relocated walls or readable brands.
+      stands in the middle of the frame behind the west trestle and places a small divided grey
+      sample case on it. taeo approaches from left with nib, adult in exact brown boots and full
+      locked gear; sejin stands right in sage scrubs and olive rig. orrin rests nearby, upper
+      LEFT-front shell crack dressed, thoughtful adult face. Late-morning sun, ochre ground and
+      brown shadows; no active gate, relocated walls or readable brands.
     calm: top
     lines:
-      - {who: minho, type: speech, side: l, text: "THE SURGE ACCOUNTING FINALLY CAUGHT UP."}
-      - {who: minho, type: speech, side: l, text: "THREE FRAGMENTS. YOUR ALLOWED APPROACH SHARE."}
+      - {who: minho, type: speech, side: c, text: "THE SINJEONG SURGE ACCOUNTING IS FINALLY DONE."}
+      - {who: minho, type: speech, side: c, text: "YOUR THREE FRAGMENTS FROM BEFORE THE EVACUATION ORDER. ALL LEGAL."}
   - id: P07
     shape: strip
     gap: short
@@ -114,12 +118,13 @@ panels:
       fields. nib's long scarred finger points to the glass; minho's gloved hand holds the lid.
       Sun from upper left, ochre wood and cool grey padding. No gems, ordinary window glass,
       extra fragments, price labels or floating window in generated art.
+      Nib's finger enters from the left edge; Minho's gloved hand holds the lid at the right edge.
     calm: top
     ui:
       - {kind: label, text: "SINJEONG · APPROACH SHARE", at: [0.77, 0.28], size: 28}
       - {kind: label, text: "3 FRAGMENTS · RELEASED", at: [0.77, 0.61], size: 28}
     lines:
-      - {who: "offpanel:nib", type: speech, side: l, text: "BEFORE THE CEILING. NOT THE CLUSTER."}
+      - {who: "offpanel:nib", type: speech, side: l, text: "WE TOOK THESE BEFORE THE CEILING FELL. NOT FROM THE BIG CLUSTER."}
     notes: "Three-fragment beat. The ₩60,000,000 exposed cluster was left behind as ordered; this case never recovers it."
   - id: P08
     shape: wide
@@ -149,10 +154,11 @@ panels:
       binoculars high with LEFT strap knot. Exact default wrap and brown belt gear remain below
       the crop. Morning sun from left, simplified dusty tan background. No cute round face,
       shown interface, shining binoculars or free-floating letters.
+      Nib's face is centred in the frame; Taeo is just beyond the left edge.
     calm: left
     lines:
-      - {who: nib, type: speech, side: r, text: "STILL ZERO."}
-      - {who: "offpanel:taeo", type: speech, side: l, text: "IT'S VERY CONSISTENT."}
+      - {who: nib, type: speech, side: c, text: "STILL ZERO PERCENT?"}
+      - {who: "offpanel:taeo", type: speech, side: l, text: "STILL ZERO. THE STONE IS VERY CONSISTENT."}
   - id: P10
     shape: wide
     gap: short
@@ -166,9 +172,11 @@ panels:
       brown four-eyelet boots, wrap and full locked belt gear folds his arms. His LEFT notch
       and high black binoculars remain. Simple 2.5-head bodies; directional morning shadow.
       Blank paper, no printed zeroes, magical ore mound or grief props.
+      Chibi minho stands in the left third, chibi taeo in the middle, chibi nib in the right
+      third.
     calm: top
     lines:
-      - {who: minho, type: speech, side: l, text: "THEY HOLD DOWN FORMS."}
+      - {who: minho, type: speech, side: l, text: "THE STONES AREN'T USELESS. THEY HOLD DOWN FORMS."}
       - {who: nib, type: speech, side: r, text: "EMPLOYED."}
   - id: P11
     shape: narrow-l
@@ -195,6 +203,7 @@ panels:
       curiosity replaces the morning's grief without erasing his tired eyes. A4 ochre/brown,
       daylight from left, cyan restricted to material/contact. No activation circle, amber link,
       consumed sample or rendered writing.
+      Taeo stands in the left third and Nib in the right third, the glass between them.
     calm: top
     ui:
       - {kind: system.window, on: float, headline: "[ANCHOR FRAGMENT DETECTED]", body: "[KIND: ARCADE GLASS (NEW)]\n[ROUTE ALIGNMENT 67%]", button: "[INTEGRATE?]", at: [0.51, 0.06]}
@@ -221,7 +230,7 @@ panels:
       - {kind: label, text: "ARCADE GLASS · 33%", at: [0.43, 0.70], size: 29}
     notes: "Window 4 arithmetic: 34 + 33 + 33 = 100. First two fragments were already consumed in ch032/ch041; notebook is an ordinary record."
   - id: P14
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "three-quarter from beside Orrin at ground level"
@@ -231,27 +240,30 @@ panels:
       protective dressing plainly retained. taeo crouches left with empty hands, nib stands
       right in exact boots. Both look to Orrin for an answer. Sun southeast, ochre ground,
       warm brown under-shell shade. No harness, pet bowl, newly repaired slate or load-bearing exercise.
+      Orrin's head and shoulders fill the middle of the tall frame; Taeo crouches full length in
+      the left third and Nib stands full length in the right third.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "IF THIS OPENS A WINDOW, DO WE WANT TO ASK?"}
-      - {who: orrin, type: speech, side: r, text: "I WOULD LIKE TO MEET WHOEVER ANSWERS."}
+      - {who: taeo, type: speech, side: l, text: "IF THE GLASS OPENS A CONTACT WINDOW, DO WE WANT TO INVITE SOMEONE?"}
+      - {who: orrin, type: speech, side: c, text: "I WOULD LIKE TO MEET WHOEVER ANSWERS."}
   - id: P15
-    shape: inset-l
+    shape: wide
     gap: short
     bg: white
-    camera: "close, Nib at eye level beside Orrin's head"
+    camera: "eye-level two-shot, Nib left and Orrin's head right"
     art: >
       nib in adult default gear at ryu_practice_yard stands beside orrin's thoughtful head,
       their faces almost level. Nib glances toward the home-container doorway off frame,
       practical rather than apprehensive. Binoculars and LEFT knot remain high; rope belt,
       RIGHT pouch and LEFT wooden sheath separate. Ochre/brown daylight, sparse background.
       No cute scale shift, patched shell disappearance, screen or written diagram.
-    calm: right
+      Frame Nib from the waist up in the left third and Orrin's head and neck in the right third.
+    calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "OUTSIDE THIS TIME."}
+      - {who: nib, type: speech, side: l, text: "THE NEXT INVITATION HAPPENS OUTSIDE. NOT IN A ROOM."}
       - {who: orrin, type: speech, side: r, text: "AN EXCELLENT INNOVATION."}
   - id: P16
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "eye-level, Sejin right placing a folding chair beside Taeo"
@@ -261,10 +273,11 @@ panels:
       half-smile, one hand resting on his bruised forearm. She indicates the seat with clinical
       finality; no examination device active. Sun higher now, ochre/brown and muted sage.
       Leave top calm. No medical clearance form, force test, bandaged new injury or funny pain effects.
+      Frame both full length: Taeo stands in the left third and Sejin in the right third.
     calm: top
     lines:
-      - {who: sejin, type: speech, side: r, text: "A MEETING. SITTING DOWN. THAT'S YOUR FIELDWORK TODAY."}
-      - {who: taeo, type: speech, side: l, text: "SORRY. VERY QUALIFIED FOR THAT."}
+      - {who: sejin, type: speech, side: r, text: "TODAY'S FIELDWORK IS A MEETING. YOU WILL BE SITTING DOWN."}
+      - {who: taeo, type: speech, side: l, text: "SORRY. I'M VERY QUALIFIED FOR SITTING."}
   - id: P17
     shape: vignette
     gap: long
@@ -280,7 +293,7 @@ panels:
       new birthday, duplicate card or loss of the envelope.
     calm: none
   - id: P18
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "over Taeo's shoulder at the low folding table by the open home door"
@@ -290,13 +303,15 @@ panels:
       him on the right; orrin's head is visible beyond the open door, shell outside. The raised
       empty upper centre is for the interface, visible only to Taeo. Cool room, ochre doorway,
       hard cyan at contact. No actual screen, rewritten rules yet, physical horn or rust-brown sample.
+      Taeo sits in the left third with his shoulder in the foreground, Nib stands in the right
+      third, and Orrin's head fills the open doorway beyond.
     calm: top
     ui:
       - {kind: system.window, on: float, headline: "[ANCHOR FRAGMENT DETECTED]", body: "[KIND: ARCADE GLASS (NEW)]\n[ROUTE ALIGNMENT 67%]", button: "[INTEGRATE?]", at: [0.51, 0.06]}
     sfx:
       - {text: "DING", style: summon, at: [0.86, 0.15], size: M}
     lines:
-      - {who: taeo, type: speech, side: l, text: "READY?"}
+      - {who: taeo, type: speech, side: l, text: "READY? I'M INTEGRATING THE GLASS NOW."}
       - {who: nib, type: speech, side: r, text: "YES."}
   - id: P19
     shape: inset-r
@@ -309,9 +324,10 @@ panels:
       and small protective dressing at LEFT-front edge. He keeps weight on all four feet.
       Afternoon ochre reflected from ground, cool doorway shadow, cyan sliver from inside.
       No reaching through a too-small door, saddle, cute smile or magically repaired plate.
+      Orrin's face is centred in the frame.
     calm: left
     lines:
-      - {who: orrin, type: speech, side: r, text: "YES."}
+      - {who: orrin, type: speech, side: c, text: "YES."}
   - id: P20
     shape: strip
     gap: short
@@ -359,23 +375,25 @@ panels:
       numerals reflected in eyes, triumphant grin, new wound, chibi or person inside the window.
     calm: none
   - id: P23
-    shape: wide
+    shape: tall
     gap: short
     bg: white
-    camera: "Taeo's view toward the doorway with a small window high in the foreground"
+    camera: "over Taeo's left shoulder toward the doorway, a small window high in the foreground"
     art: >
-      Seated taeo's view through the ryu_practice_yard home door: nib stands right of the opening,
-      adult full gear and brown boots, orrin outside beyond him. Leave upper left empty for
-      the invitation-ready window. They look toward Taeo below camera, waiting for his report.
-      Afternoon daylight, ochre and brown beyond, cool interior, controlled interface cyan.
-      No candidate image, dark-violet gate, extra windows seen by companions or generated labels.
+      Over seated taeo's left shoulder, his hair and black hoodie filling the lower-left
+      foreground, the view through the ryu_practice_yard home door: nib stands full length right
+      of the opening, adult full gear and brown boots, orrin outside beyond him. Leave upper left
+      empty for the invitation-ready window. They look toward Taeo at lower left, waiting for his
+      report. Afternoon daylight, ochre and brown beyond, cool interior, controlled interface
+      cyan. No candidate image, dark-violet gate, extra windows seen by companions or generated
+      labels.
     calm: top-left
     ui:
       - {kind: system.window, on: float, headline: "[CONTACT WINDOW 4 AVAILABLE]", body: "[ROUTE ALIGNMENT 0%]", button: "[OPEN CONTACT]", at: [0.37, 0.05], tilt: -5}
     sfx:
       - {text: "DING", style: summon, at: [0.72, 0.13], size: M}
     lines:
-      - {who: taeo, type: speech, side: l, text: "THERE'S A WINDOW. WE CAN ASK."}
+      - {who: taeo, type: speech, side: l, text: "A CONTACT WINDOW OPENED. WE CAN ASK SOMEONE TO JOIN US."}
     notes: "Meter resets on opening availability; no repeat kind credited. Contact remains unopened until the crew has set terms."
   - id: P24
     shape: tall
@@ -388,10 +406,11 @@ panels:
       taeo seated right watches him with questioning attention. Binoculars, LEFT notch, brown
       belt, RIGHT pouch, LEFT sheath and exact boots remain. Door daylight and muted ochre,
       no active window visible from this angle. Old sheet blank for lettering, no erased history.
+      Nib stands full length in the left third; Taeo sits in the right third.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "FIRST. WRITE THEM WHERE WE LIVE."}
-      - {who: taeo, type: speech, side: r, text: "ALL OF THEM?"}
+      - {who: nib, type: speech, side: l, text: "FIRST, THE RULES. WE WRITE THEM ON THE WALL WHERE WE LIVE."}
+      - {who: taeo, type: speech, side: r, text: "WE WRITE THEM? ALL OF US?"}
       - {who: nib, type: speech, side: l, text: "ALL OF US."}
   - id: P25
     shape: strip
@@ -419,11 +438,12 @@ panels:
       guiding him; his face sober, listening. Brown boots planted, full locked gear retained,
       green-banded mug away from paper. Daylight from open door, cool cream walls and warm
       table shadow. No generated lettering, cute schoolchild posture, gift pencil substitution or interface.
+      Frame both from the waist up: Nib bends in the left third, Taeo sits in the right third.
     calm: top
     ui:
       - {kind: label, text: "2. ANYONE CAN LEAVE.", at: [0.46, 0.65], size: 34}
     lines:
-      - {who: nib, type: speech, side: l, text: "EVEN IF WE NEED THEM."}
+      - {who: nib, type: speech, side: l, text: "ANYONE CAN LEAVE. EVEN WHEN WE NEED THEM."}
       - {who: taeo, type: speech, side: r, text: "EVEN THEN."}
   - id: P27
     shape: tall
@@ -436,10 +456,12 @@ panels:
       the outside apron; LEFT-front shell dressing and crack visible, no loading. Nib stands
       inside left, pencil in hand. Low afternoon sun, dusty ochre outside and blue-grey door
       shade. No new shell brace, drawn text, harness or people trapped behind him.
+      Nib stands inside at the left, Taeo's raised sheet fills the middle foreground, and Orrin
+      fills the right of the doorway.
     calm: top
     lines:
-      - {who: orrin, type: speech, side: r, text: "EVERYONE COMES BACK."}
-      - {who: orrin, type: speech, side: r, text: "THAT INCLUDES THE ONE WAITING OUTSIDE."}
+      - {who: orrin, type: speech, side: r, text: "THE THIRD RULE SHOULD BE: EVERYONE COMES BACK."}
+      - {who: orrin, type: speech, side: r, text: "AND EVERYONE INCLUDES THE ONE WHO WAITS OUTSIDE THE GATE."}
   - id: P28
     shape: inset-r
     gap: short
@@ -451,10 +473,11 @@ panels:
       mole clear, bruises unchanged below rolled cuff. The envelope on the photo shelf is a
       small plain shape behind him. Warm door light, cool blue-grey shade. No father's ghost,
       solemn pointing at the ID, new injury or readable words in art.
+      Taeo's face is centred in the frame.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: r, text: "INCLUDING ME."}
-      - {who: taeo, type: float, text: "I HAD LEFT MYSELF OUT OF THAT."}
+      - {who: taeo, type: speech, side: c, text: "INCLUDING ME."}
+      - {who: taeo, type: float, text: "I HAD LEFT MYSELF OUT OF THE RULE."}
   - id: P29
     shape: full
     gap: long
@@ -474,7 +497,7 @@ panels:
       - {kind: label, text: "3. EVERYONE COMES BACK.", at: [0.45, 0.66], size: 40}
     notes: "All three required rules, complete on the container wall. No line promises a magical guarantee; the rule governs their conduct."
   - id: P30
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "waist-up two-shot at the home door, Grandpa left and Taeo right"
@@ -484,9 +507,10 @@ panels:
       new rule sheet is out of crop inside; the old envelope stays on its shelf. Warm late
       daylight, ochre ground and navy clothing shade. No departure luggage, diagnosis, farewell
       speech or generated text. Keep both faces and the open door unobstructed.
+      Frame both full length at the step: Grandpa in the left third, Taeo in the right third.
     calm: top
     lines:
-      - {who: grandpa, type: speech, side: l, text: "AND YOU TELL US. EVERY TIME."}
+      - {who: grandpa, type: speech, side: l, text: "REMEMBER YOUR PROMISE. YOU TELL US EVERY TIME YOU CARRY."}
       - {who: taeo, type: speech, side: r, text: "I WILL."}
   - id: P31
     shape: full
@@ -500,10 +524,12 @@ panels:
       clear of the doorway, dressing retained. sejin waits beside a closed first-aid case.
       One warm home lamp reaches ochre ground, sky blue deepens to navy. No shifted maze,
       active circle yet, dark-violet gate or text on equipment.
+      Taeo's chair is in the left third and Nib stands at the lane in the right third; Orrin and
+      Sejin stay back in the middle.
     calm: top
     lines:
-      - {who: nib, type: speech, side: r, text: "DON'T BLOCK THE DOOR."}
-      - {who: taeo, type: speech, side: l, text: "I REMEMBER."}
+      - {who: nib, type: speech, side: r, text: "DON'T BLOCK THE HOME DOOR OR THE LANE."}
+      - {who: taeo, type: speech, side: l, text: "I REMEMBER. WHOEVER COMES CAN WALK AWAY ANY TIME."}
   - id: P32
     shape: inset-l
     gap: short
@@ -515,9 +541,10 @@ panels:
       attentive, one brow raised at taeo off frame. Closed medical pouch by her knee; nothing
       clinical laid out as a trap. Dusk lamp from left, muted sage and brown. No restraints,
       syringe, active screen, extra green-banded cups or generated writing.
+      Sejin's face and hands are centred on the mug; Taeo is beyond the right edge.
     calm: right
     lines:
-      - {who: sejin, type: speech, side: l, text: "ASK BEFORE YOU OFFER MEDICAL HELP TOO."}
+      - {who: sejin, type: speech, side: c, text: "RULE ONE COVERS MEDICAL HELP TOO. WE ASK BEFORE WE OFFER."}
       - {who: "offpanel:taeo", type: speech, side: r, text: "RIGHT."}
   - id: P33
     shape: strip
@@ -545,7 +572,7 @@ panels:
       active phone, public insignia or injury magically removed beneath the cuffs.
     calm: left
     lines:
-      - {who: taeo, type: float, text: "I USED TO WANT A USEFUL ANSWER."}
+      - {who: taeo, type: float, text: "I USED TO WANT USEFUL ANSWERS FROM WINDOWS. NOW I ASK PEOPLE."}
   - id: P35
     shape: tall
     gap: long
@@ -578,7 +605,7 @@ panels:
     sfx:
       - {text: "SHIIING", style: summon, at: [0.63, 0.49], size: M, rot: 0}
   - id: P37
-    shape: wide
+    shape: full
     gap: long
     bg: navy
     camera: "from behind the seam toward Taeo and the waiting crew"
@@ -588,9 +615,11 @@ panels:
       orrin rests behind, sejin farther left. No one has crossed. Cyan seam key on faces,
       warm lamp small behind, deep navy background. Reserve top right for the unseen voice.
       No visible human silhouette yet, radio, rendered window or violet gate.
+      A hairline of cyan light from the seam runs down the extreme right edge of the frame; the
+      voice comes from there.
     calm: top
     lines:
-      - {who: sera, type: phone, side: c, text: "WHO'S ASKING?"}
+      - {who: "offpanel:sera", type: phone, side: r, text: "WHO'S ASKING?"}
     notes: "Sharp wary adult human voice through the invitation channel, treated as phone/speaker voice. Sera is not physically here yet."
   - id: P38
     shape: tall
@@ -603,10 +632,11 @@ panels:
       seam just beside camera. RIGHT-eye mole, black hoodie, olive bag old patch at chair leg.
       Nib waits quietly at far right, no interruption. Cyan front key, warm lamp edge; no
       summoner command gesture, weapon, active screen or written words in generated art.
+      Taeo sits centred in the frame; Nib waits at the far right edge.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "MY NAME IS YOON TAEO."}
-      - {who: taeo, type: speech, side: l, text: "I'M ASKING IF YOU'D COME. YOU CAN SAY NO."}
+      - {who: taeo, type: speech, side: c, text: "MY NAME IS YOON TAEO."}
+      - {who: taeo, type: speech, side: c, text: "I'M ASKING IF YOU'D COME. YOU CAN SAY NO."}
   - id: P39
     shape: vignette
     gap: long
@@ -631,9 +661,10 @@ panels:
       No view of whoever is speaking. Hold the empty pause as the warm home lamp loses
       dominance to cyan, with brown ground and hard navy shadows. No arrow yet, interface
       portrait, glowing contractual symbol or words in generated art; leave the upper band calm.
+      The seam stands in the middle of the frame and the voice comes from it.
     calm: top
     lines:
-      - {who: sera, type: phone, side: c, text: "WHAT'S THE PAY?"}
+      - {who: "offpanel:sera", type: phone, side: c, text: "WHAT'S THE PAY?"}
   - id: P41
     shape: full
     gap: short
@@ -645,9 +676,10 @@ panels:
       toward the seam with immediate professional approval. Cyan key from right, warm lamp
       from left, background simplified to blue and ochre focus shapes. Black hoodie and brown
       work jacket unchanged. No financial UI, visible Sera, pain gag or generated lettering.
+      Taeo is centred; Minho leans in at the right edge behind him.
     calm: top
     lines:
-      - {who: taeo, type: nervous, side: l, text: "SORRY. I STARTED WITH THE WRONG PART."}
+      - {who: taeo, type: nervous, side: c, text: "SORRY. I SHOULD HAVE STARTED WITH THE PAY."}
   - id: P42
     shape: wide
     gap: short
@@ -661,9 +693,11 @@ panels:
       chibi nib in exact brown boots and locked belt gear gives the smallest approving nod.
       LEFT grey streak and LEFT ear notch clear. Cyan side key, warm shadow. No actual money rain,
       printed contract, candidate caricature or grief/injury props.
+      Chibi taeo stands in the left third, chibi minho with the notebook in the right third, chibi
+      nib small between them.
     calm: top
     lines:
-      - {who: minho, type: speech, side: r, text: "FOUND SOMEONE WITH SENSE."}
+      - {who: minho, type: speech, side: r, text: "THE VOICE ASKED ABOUT PAY FIRST. FINALLY, SOMEONE WITH SENSE."}
       - {who: taeo, type: speech, side: l, text: "PLEASE DON'T SOUND SO RELIEVED."}
   - id: P43
     shape: tall
@@ -676,11 +710,12 @@ panels:
       beside him without prompting the answer. Warm home doorway behind, crisp cyan front
       light, muted ochre and navy. No legible notebook, binding magical contract, new summon
       card or arriving body. Keep lower hands free and upper gutter broad for three short lines.
+      Taeo sits in the left third with Nib standing beside him; the seam is at the right edge.
     calm: top
     lines:
       - {who: taeo, type: speech, side: l, text: "FOOD AND A ROOM WHILE YOU DECIDE."}
-      - {who: taeo, type: speech, side: l, text: "EQUAL SHARES AFTER AGREED COSTS. WE SET EACH FEE TOGETHER."}
-      - {who: sera, type: phone, side: c, text: "AND A DOOR HOME?"}
+      - {who: taeo, type: speech, side: l, text: "EVERYONE ON A JOB GETS AN EQUAL SHARE AFTER AGREED COSTS. WE SET EACH FEE TOGETHER."}
+      - {who: "offpanel:sera", type: phone, side: r, text: "AND A DOOR BACK HOME?"}
     notes: "Terms offered, no guaranteed job or debt. Equal shares apply to participating crew after agreed costs; no silent reassignment of ch033's already-paid thirds."
   - id: P44
     shape: strip
@@ -693,10 +728,11 @@ panels:
       visible. Cyan side light falls across the face in one hard plane, opposite cheek
       deep blue-grey. Black hoodie at lower edge, plain navy beyond. No reflected script,
       absolving image, invented return portal or tear stream; his honest discomfort carries the panel.
+      Taeo's face is centred in the strip.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "I CAN'T OPEN IT YET. I WON'T PRETEND I CAN."}
-      - {who: taeo, type: speech, side: l, text: "I'LL HELP LOOK."}
+      - {who: taeo, type: speech, side: c, text: "I CAN'T OPEN A DOOR HOME YET. I WON'T PRETEND I CAN."}
+      - {who: taeo, type: speech, side: c, text: "BUT I'LL HELP YOU LOOK FOR ONE."}
   - id: P45
     shape: wide
     gap: short
@@ -708,11 +744,13 @@ panels:
       exact boots, high binoculars. The open walking lane extends past both into the dark
       yard. Cyan frontal key, one warm lamp patch behind. No Sera face, coercive gesture,
       newly glowing link or rendered UI. Keep all expressions and the clear lane readable.
+      Taeo sits in the left third and Nib stands in the right third; the voice comes from the seam
+      beside the camera.
     calm: top
     lines:
-      - {who: sera, type: phone, side: c, text: "IF I DON'T LIKE YOUR JOB?"}
+      - {who: "offpanel:sera", type: phone, side: c, text: "IF I DON'T LIKE YOUR JOB?"}
       - {who: taeo, type: speech, side: l, text: "SAY NO."}
-      - {who: sera, type: phone, side: c, text: "WITHOUT OWING YOU?"}
+      - {who: "offpanel:sera", type: phone, side: c, text: "AND I DON'T OWE YOU FOR THE FOOD AND ROOM?"}
   - id: P46
     shape: tall
     gap: short
@@ -724,26 +762,29 @@ panels:
       seam, quietly decided. Nib turns only his head to add his own answer, adult mouth
       unsmiling. Cyan seam at right, blue-grey dusk and warm ochre lamp sliver. No blade
       drawn yet, possessive hand on Nib, new physical map or generated letters.
+      Nib stands full length in the right third nearest the camera, Taeo sits behind him in the
+      left third; the seam is at the far right edge.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "WITHOUT OWING ME."}
-      - {who: nib, type: speech, side: r, text: "I LEFT. I CAME BACK."}
+      - {who: taeo, type: speech, side: l, text: "YOU WON'T OWE ME ANYTHING."}
+      - {who: nib, type: speech, side: r, text: "I LEFT ONCE. I CAME BACK."}
     notes: "Nib offers lived evidence of leave-and-return, without erasing the wrong of his original forced transfer."
   - id: P47
-    shape: inset-l
+    shape: wide
     gap: long
     bg: navy
-    camera: "close on the welcome mug and water jug by the home step"
+    camera: "waist-up on Nib lifting the welcome mug at the home step, seam edge at right"
     art: >
-      ryu_practice_yard home step: the original white ceramic mug with a thin green band waits
-      beside a plain jug of water. nib's scarred hand enters to lift the mug by its handle,
-      deliberate and gentle. Warm lamp from doorway, cyan seam edge from right, brown step
-      and deep navy beyond. No drink already poured, alcoholic bottle, second green-banded
-      mug, face inside a reflection or generated writing.
-    calm: right
+      ryu_practice_yard home step. nib stands in the left half, framed from the waist up, and
+      lifts the original white ceramic mug with a thin green band by its handle, deliberate and
+      gentle; a plain jug of water waits on the step beside him. His face is level and unreadable,
+      turned toward the cyan seam edge at the right. Warm lamp from the doorway, brown step and
+      deep navy beyond. No drink already poured, alcoholic bottle, second green-banded mug, face
+      inside a reflection or generated writing.
+    calm: top
     lines:
-      - {who: sera, type: phone, side: c, text: "DO YOU AT LEAST HAVE A DRINK?"}
-      - {who: "offpanel:nib", type: speech, side: l, text: "YES."}
+      - {who: "offpanel:sera", type: phone, side: r, text: "DO YOU AT LEAST HAVE A DRINK?"}
+      - {who: nib, type: speech, side: l, text: "YES."}
   - id: P48
     shape: vignette
     gap: long

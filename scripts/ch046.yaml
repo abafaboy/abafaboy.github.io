@@ -57,7 +57,7 @@ panels:
       from right, hard navy shadows. No second blade, wrong-side sheath, dropped cup or generated effects.
     calm: none
   - id: P03
-    shape: wide
+    shape: tall
     gap: short
     bg: navy
     camera: "side elevation of the stand-off, Nib left and Sera right"
@@ -67,6 +67,8 @@ panels:
       moment longer; arrow line level with Nib's upper body. taeo sits clear behind the
       firing line, horrified but still. Sera's narrowed eyes open into a delighted competitive
       grin. Cyan seam behind her, lamp warmth left; no attack, cute Nib, contact wound or words in art.
+      Frame Nib and Sera full length, Nib in the left third and Sera in the right third with the
+      arrow line between them; Taeo sits small and still at the back, clear behind the line.
     calm: top
     lines:
       - {who: sera, type: speech, side: r, text: "FAST. GOOD."}
@@ -82,9 +84,10 @@ panels:
       entrance, amused and wary at once. Cyan seam thinning behind, muted river-green and
       sand colours emerging under home lamp. No giant eyes, sexualised pose, fired arrow,
       public system card or readable clothing.
+      Sera is centred in the frame, seen from the waist up; Taeo is beyond the left edge.
     calm: top
     lines:
-      - {who: sera, type: speech, side: r, text: "I'M SERA. WHO'S PAYING?"}
+      - {who: sera, type: speech, side: c, text: "I'M SERA. WHO'S PAYING?"}
   - id: P05
     kind: title
     gap: long
@@ -101,10 +104,12 @@ panels:
       old-patch backpack beside chair. Sera's bow limb enters from right, now angled downward;
       no arrowhead crosses Taeo's face. Cyan drains as seam shuts, home lamp orange returns
       against blue-grey dusk. No injury comedy, active phone, contract appearing by magic or written UI.
+      Taeo sits centred in the frame with one hand raised; Sera's bow limb enters at the right
+      edge.
     calm: top
     lines:
-      - {who: taeo, type: nervous, side: l, text: "ME. FOR THE ROOM. JOB FEES, WE AGREE TOGETHER."}
-      - {who: taeo, type: speech, side: l, text: "SORRY. COULD WE LOWER THOSE?"}
+      - {who: taeo, type: nervous, side: c, text: "I PAY FOR THE ROOM. WE AGREE ON JOB FEES TOGETHER."}
+      - {who: taeo, type: speech, side: c, text: "SORRY. COULD YOU BOTH LOWER THE WEAPONS?"}
   - id: P07
     shape: inset-r
     gap: short
@@ -116,10 +121,12 @@ panels:
       high with LEFT strap knot; exact belt gear retained. His face is practical, neither
       impressed nor insulted. Warm home-lamp key, hard blue-grey shadow, empty brown backdrop.
       No cute glare, second fang, weapon raised at her throat or generated words.
+      Seen from beside Sera's shoulder, so Sera is just beyond the left edge; Nib's face is
+      centred.
     calm: left
     lines:
-      - {who: nib, type: speech, side: r, text: "POINT IT DOWN."}
-      - {who: "offpanel:sera", type: speech, side: l, text: "YOU TOO."}
+      - {who: nib, type: speech, side: c, text: "POINT THE ARROW DOWN."}
+      - {who: "offpanel:sera", type: speech, side: l, text: "AND YOU PUT THE KNIFE AWAY."}
   - id: P08
     shape: strip
     gap: short
@@ -135,7 +142,7 @@ panels:
       blood, interface cyan or extra hands.
     calm: none
   - id: P09
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "at Nib's eye level, cup offered left to seated Sera right"
@@ -146,6 +153,8 @@ panels:
       quiver. She takes the cup with a sceptical raised brow. Normal adult proportions,
       Nib's exact boots planted. Home lamp orange, brown wood and blue-grey dusk.
       No alcohol bottle, duplicated cup, blade still drawn or lettering in art.
+      Frame both full length: Nib stands in the left third and Sera sits on the step in the right
+      third.
     calm: top
     lines:
       - {who: nib, type: speech, side: l, text: "YOU FIRST."}
@@ -175,6 +184,7 @@ panels:
       angular face and notched ear. Their bow and knife are safely idle. Warm home lamp,
       muted green and brown with cool dusk. Empty upper band for the line; no chibi yet,
       changing drink colour, written mug label or magical glow.
+      Sera sits in the right third.
     calm: top
     lines:
       - {who: sera, type: speech, side: r, text: "NO. WATER. DISAPPOINTING."}
@@ -191,6 +201,7 @@ panels:
       cup with a grand connoisseur's frown. Chibi nib in exact brown boots and locked props
       examines the jug with dot-eyed seriousness. Warm left key, simple shadows. No prices,
       alcohol, childish archer costume, injury marks or generated text.
+      Chibi taeo stands in the left third, chibi nib in the middle, chibi sera in the right third.
     calm: top
     lines:
       - {who: taeo, type: nervous, side: l, text: "SORRY. MOST OF OUR DISAPPOINTMENTS ARE FREE."}
@@ -207,11 +218,12 @@ panels:
       and sagging thoughtful grey-olive face. Upper LEFT-front crack and protective dressing
       visible. She eyes the broad shell, he eyes her expectant smile. Warm lamp and blue-grey
       dusk. No mounting, harness, cute tortoise, repaired plate or generated writing.
+      Orrin rests in the left half; Sera approaches from the right half.
     calm: top
     lines:
-      - {who: orrin, type: speech, side: l, text: "ORRIN."}
-      - {who: sera, type: speech, side: r, text: "EXCELLENT ROOF."}
-      - {who: orrin, type: speech, side: l, text: "CURRENTLY CLOSED FOR REPAIRS."}
+      - {who: orrin, type: speech, side: l, text: "I'M ORRIN."}
+      - {who: sera, type: speech, side: r, text: "YOUR SHELL MAKES AN EXCELLENT ROOF."}
+      - {who: orrin, type: speech, side: l, text: "THE ROOF IS CURRENTLY CLOSED FOR REPAIRS."}
   - id: P14
     shape: tall
     gap: long
@@ -223,12 +235,14 @@ panels:
       arrows above RIGHT shoulder, flute RIGHT hip, bow LEFT; her half-profile has lost
       its grin in unguarded strangeness. Lamp warmth on shoulder, cool ordinary sky,
       navy shadow. No wrong-colour gate sky, fantasy skyline, portal home or decorative stars.
+      Sera stands in the right third, seen from behind and slightly below, her half-profile lifted
+      toward the sky that fills the upper left.
     calm: top
     lines:
       - {who: sera, type: speech, side: r, text: "YOUR SKY'S FAR TOO BLUE."}
-      - {who: taeo, type: float, text: "I HADN'T THOUGHT TO WARN HER ABOUT THAT."}
+      - {who: taeo, type: float, text: "I HADN'T THOUGHT TO WARN HER ABOUT THE SKY."}
   - id: P15
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "eye-level, Sejin left offering an unopened medical pouch to Sera right"
@@ -239,10 +253,12 @@ panels:
       Nib waits outside the exchange at far edge. Home lamp left, muted sage/river-green
       and brown, blue-grey dusk. No compulsory restraint, syringe, glowing healing,
       arrow injury or written medical form.
+      Frame both full length: Sejin in the left third, Sera in the right third, Nib small at the
+      far right edge.
     calm: top
     lines:
-      - {who: sejin, type: speech, side: l, text: "IM SEJIN. MEDIC. MAY I CHECK WHETHER THE CROSSING HURT YOU?"}
-      - {who: sera, type: speech, side: r, text: "YOU MAY ASK ME THAT FIRST. YES."}
+      - {who: sejin, type: speech, side: l, text: "I'M SEJIN, THE MEDIC. MAY I CHECK WHETHER THE TRIP THROUGH THE SEAM HURT YOU?"}
+      - {who: sera, type: speech, side: r, text: "YOU ASKED BEFORE TOUCHING. GOOD. YES."}
   - id: P16
     shape: strip
     gap: short
@@ -268,11 +284,13 @@ panels:
       boots and gear retained. Orrin rests near his reachable plain basin, shell dressing
       visible, never harnessed. minho perches with a bowl at far left. Lamp-orange key,
       deep blue-grey dusk. No new guild sign, alcohol or readable packaging.
+      Taeo's dark cracked phone lies face down beside his bowl. Nib stands at the left end of the
+      table next to Sejin; Taeo sits in the middle and Sera eats at the right end.
     calm: top
     lines:
-      - {who: sera, type: speech, side: r, text: "SO YOUR MONEY IS NUMBERS IN A BRICK?"}
-      - {who: nib, type: speech, side: l, text: "IT SHOUTS TOO."}
-      - {who: taeo, type: speech, side: c, text: "ONLY WHEN I OWE SOMEONE."}
+      - {who: sera, type: speech, side: r, text: "SO YOUR MONEY IS ONLY NUMBERS ON A PHONE?"}
+      - {who: nib, type: speech, side: l, text: "THE PHONE ALSO SHOUTS."}
+      - {who: taeo, type: speech, side: c, text: "IT ONLY SHOUTS WHEN I OWE SOMEONE MONEY."}
   - id: P18
     shape: inset-l
     gap: short
@@ -284,10 +302,11 @@ panels:
       test. River-green tunic, thick braid, bead necklace and LEFT bracer fixed. Bow rests
       safely by her chair; neither finger touches a string. Warm lamp orange, brown tabletop,
       navy background. No demand for gratitude, exposed map, new bill or generated lettering.
+      Sera's face is centred; Taeo is beyond the right edge.
     calm: right
     lines:
-      - {who: sera, type: speech, side: l, text: "AND IF I WANT THE ROOM WITHOUT YOUR JOB?"}
-      - {who: "offpanel:taeo", type: speech, side: r, text: "SAME ROOM. WHILE YOU DECIDE."}
+      - {who: sera, type: speech, side: c, text: "AND IF I TAKE THE ROOM BUT NOT YOUR JOB?"}
+      - {who: "offpanel:taeo", type: speech, side: r, text: "THE ROOM IS YOURS WHILE YOU DECIDE."}
   - id: P19
     shape: vignette
     gap: long
@@ -303,7 +322,7 @@ panels:
       possessive staging, rewritten rules, sleeping child or magical light.
     calm: none
   - id: P20
-    shape: wide
+    shape: tall
     gap: long
     bg: white
     camera: "Sunday morning at the north target line, Sera right and Minho left behind the firing point"
@@ -314,10 +333,12 @@ panels:
       indicating the empty lane; taeo and nib also safely behind. Bright southeast sun,
       A4 dusty ochre/brown/sky blue. No body ahead of the bow, altered maze walls,
       released projectile yet, target lettering or magical glow.
+      Sera stands at the firing point in the right third; Minho stands behind her in the left
+      third indicating the lane; Taeo and Nib wait farther back, all safely behind the bow.
     calm: top
     lines:
       - {who: narr, type: tag, text: "SUNDAY · RYU SURVEY YARD"}
-      - {who: minho, type: speech, side: l, text: "CLEAR LANE. NORTH TARGET."}
+      - {who: minho, type: speech, side: l, text: "THE NORTH LANE IS CLEAR. THE TARGET IS YOURS."}
       - {who: sera, type: speech, side: r, text: "FINALLY. SOMETHING I UNDERSTAND."}
   - id: P21
     shape: tall
@@ -349,7 +370,7 @@ panels:
     sfx:
       - {text: "TOK", style: quiet, at: [0.49, 0.46], size: M}
   - id: P23
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "reverse from behind the firing point, Sera right turning to the witnesses"
@@ -359,6 +380,8 @@ panels:
       nib stands beside him adult and still; orrin behind with dressing retained. All
       observers behind the firing point, target out of this view. Morning ochre/brown,
       hard shadows and clear sky. No change of arrows, mocking faces, danger or generated text.
+      Sera stands in the right third, turned to the crew with her bow lowered; Taeo, Nib and Orrin
+      are grouped in the left half, Orrin behind the other two.
     calm: top
     lines:
       - {who: sera, type: speech, side: r, text: "THAT WAS YOUR CUE TO APPLAUD."}
@@ -376,9 +399,11 @@ panels:
       conspicuously still. Chibi orrin's four blunt feet cannot clap. Sejin's cropped head
       enters at side with one raised brow. Southeast light, simple brown shadows.
       No actual stage, sponsor banner, firearm, shell-pain joke or generated lettering.
+      Chibi sera bows in the right third, chibi taeo and chibi nib stand in the middle with chibi
+      orrin behind them, and Sejin's cropped head enters at the left edge.
     calm: top
     lines:
-      - {who: sejin, type: speech, side: l, text: "SAVE SOME FOR THE JOB."}
+      - {who: sejin, type: speech, side: l, text: "SAVE SOME OF THAT ENERGY FOR THE JOB."}
       - {who: sera, type: speech, side: r, text: "I HAVE A RESERVE."}
   - id: P25
     shape: full
@@ -408,11 +433,12 @@ panels:
       lanyard; closed blue folio tablet beside her. Her expression is efficient and
       protective without becoming a welcome mascot. East blind daylight, clean blue-white
       key/slate shade. Dark monitor edge below. No Pyo yet, new permit badge or drawn form lettering.
+      Chae's face is centred; Sera is beyond the right edge.
     calm: right
     lines:
-      - {who: chae, type: speech, side: l, text: "AND YOU CHOSE TO COME?"}
+      - {who: chae, type: speech, side: c, text: "DID YOU CHOOSE TO COME HERE?"}
       - {who: "offpanel:sera", type: speech, side: r, text: "YES. I NEGOTIATED."}
-      - {who: chae, type: speech, side: l, text: "GOOD. YOUR ANSWER GOES ON YOUR RECORD."}
+      - {who: chae, type: speech, side: c, text: "GOOD. I'LL PUT YOUR ANSWER ON YOUR RECORD."}
   - id: P27
     shape: strip
     gap: short
@@ -438,9 +464,11 @@ panels:
       sage tie, black shoes and blank institute lanyard. He carries a slim closed grey
       folio. sera's braid and RIGHT quiver low foreground; weapons idle. Institutional
       blue-white/slate, east daylight. No sinister shadows, press entourage, readable badge or new doorway.
+      Pyo stands full length in the right third at the glass door; Chae's desk is beyond the left
+      edge.
     calm: top
     lines:
-      - {who: dr_pyo, type: speech, side: r, text: "MAY I?"}
+      - {who: dr_pyo, type: speech, side: r, text: "MS. CHAE, MAY I COME IN? I WON'T TAKE LONG."}
       - {who: "offpanel:chae", type: speech, side: l, text: "FIVE MINUTES, DR. PYO."}
   - id: P29
     shape: wide
@@ -454,6 +482,7 @@ panels:
       sharply rather than shrinking. East window daylight, blue-white/slate/navy. Keep
       Pyo's rimless glasses and sage tie, Taeo's old-patch bag. No lit screens, shadowy
       institute crest, written folio or coercive physical proximity.
+      Pyo stands in the right third, Taeo sits in the left third, and Sera sits between them.
     calm: top
     lines:
       - {who: dr_pyo, type: speech, side: r, text: "THREE ARRIVALS, MR. YOON."}
@@ -471,10 +500,11 @@ panels:
       clear. Two separate chairs, no possessive touch between them. Clean blue-white
       daylight from east, slate shade. Blank papers, dark monitor edges. No shared
       signature, contract chain, anger aura or generated dialogue.
+      Taeo sits in the left third and Sera in the right third.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "THEN THEY HAVE THREE PEOPLE TO ASK."}
-      - {who: sera, type: speech, side: r, text: "AND HE DOESN'T GIVE MY ANSWER."}
+      - {who: taeo, type: speech, side: l, text: "THEN THE ASSEMBLY HAS THREE PEOPLE TO ASK."}
+      - {who: sera, type: speech, side: r, text: "AND TAEO DOESN'T ANSWER FOR ME."}
       - {who: taeo, type: speech, side: l, text: "RIGHT. SORRY."}
   - id: P31
     shape: tall
@@ -490,8 +520,8 @@ panels:
       readable proposal or committee chamber imagined behind him.
     calm: top
     lines:
-      - {who: dr_pyo, type: speech, side: r, text: "A LEGAL FRAMEWORK WOULD CLARIFY WORK, HOUSING, RESPONSIBILITY."}
-      - {who: dr_pyo, type: speech, side: r, text: "I'M ADVISING MEMBERS WHO WANT ONE."}
+      - {who: dr_pyo, type: speech, side: r, text: "A LEGAL FRAMEWORK WOULD CLARIFY WORK, HOUSING AND RESPONSIBILITY FOR ARRIVALS."}
+      - {who: dr_pyo, type: speech, side: r, text: "I'M ADVISING ASSEMBLY MEMBERS WHO WANT SUCH A FRAMEWORK."}
     notes: "Open lobbying, not a passed Arrival Work Permit or its first-reading payoff. No P05 payoff advanced from ch070."
   - id: P32
     shape: wide
@@ -504,9 +534,10 @@ panels:
       lanyard, expression level and unhurried. Pyo's closed folio remains at right edge,
       never placed over the form. East daylight, clean blue-white and slate, monitors
       dark. No court gavel, angry stamp, new law seal, institution logo or words in art.
+      Chae sits centred at the desk.
     calm: top
     lines:
-      - {who: chae, type: speech, side: c, text: "REGISTRATION IS TODAY. ANY NEW BILL ISN'T."}
+      - {who: chae, type: speech, side: c, text: "TODAY IS REGISTRATION. A NEW BILL IS NOT TODAY'S BUSINESS."}
       - {who: chae, type: speech, side: c, text: "PLEASE KEEP THE TWO SEPARATE."}
   - id: P33
     shape: inset-r
@@ -519,9 +550,10 @@ panels:
       smile gone, eyes alert. River-green/cream outfit and thick brown braid fixed.
       East blind daylight, blue-white/slate background, no people looming over her.
       No fear tears, new wrist mark, permit tag, bow in use or readable form.
+      Sera's face is centred; Chae is beyond the left edge.
     calm: left
     lines:
-      - {who: sera, type: speech, side: r, text: "CAN I LEAVE THE MAN?"}
+      - {who: sera, type: speech, side: c, text: "CAN I SIGN WITHOUT TALKING TO DR. PYO?"}
       - {who: "offpanel:chae", type: speech, side: l, text: "YES. YOUR ARRIVAL RECORD IS YOURS."}
   - id: P34
     shape: strip
@@ -535,6 +567,7 @@ panels:
       stroke. Taeo's hands do not enter. Clean east daylight, blue-white/slate, pen
       and silver hand plate separate. No ownership deed, ranked licence, future work
       permit, readable art signature or glowing document.
+      Sera's hand enters from the right edge.
     calm: none
     ui:
       - {kind: label, text: "REGISTERED ARRIVAL · SERA", at: [0.54, 0.35], size: 31}
@@ -542,7 +575,7 @@ panels:
       - {who: "offpanel:sera", type: speech, side: r, text: "THEN I SIGN."}
     notes: "Sera registered under the existing arrival route. This is not Taeo's operator licence or a new sponsor-tied work permit."
   - id: P35
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "from the west bench toward the office door as Pyo leaves"
@@ -552,11 +585,13 @@ panels:
       Pyo with a scout's level face, exact boots and all belt props retained. Sera right
       holds her own folded record. East daylight, navy upholstery and slate shade.
       No sinister backlight, confiscated papers, news cameras or readable corridor sign.
+      Chae sits at the desk in the left third, Nib stands by the west bench left of centre, Sera
+      stands in the middle holding her record, and Pyo pauses at the door at the far right edge.
     calm: top
     lines:
-      - {who: dr_pyo, type: speech, side: r, text: "I'LL REQUEST A CONVERSATION."}
-      - {who: chae, type: speech, side: l, text: "IN WRITING."}
-      - {who: sera, type: speech, side: r, text: "WITH ME."}
+      - {who: dr_pyo, type: speech, side: r, text: "I'LL REQUEST A CONVERSATION WITH THE ARRIVALS."}
+      - {who: chae, type: speech, side: l, text: "PUT THE REQUEST IN WRITING."}
+      - {who: sera, type: speech, side: c, text: "AND SEND THE REQUEST TO ME."}
   - id: P36
     shape: tall
     gap: long
@@ -585,10 +620,11 @@ panels:
       RIGHT flute fixed. Blue-white institutional light, simple slate shapes behind.
       No legible form, imagined brother, arm injury, magical pulse or unearned familiarity
       with Hangul. The paper matters because it belongs to her.
+      Sera's face is centred; Taeo walks beyond the right edge.
     calm: right
     lines:
-      - {who: sera, type: speech, side: l, text: "I'LL NEED PAPER FOR THE WORK I WANT."}
-      - {who: "offpanel:taeo", type: speech, side: r, text: "WHAT WORK?"}
+      - {who: sera, type: speech, side: c, text: "I'LL NEED PAPERWORK FOR THE WORK I WANT."}
+      - {who: "offpanel:taeo", type: speech, side: r, text: "WHAT KIND OF WORK?"}
   - id: P38
     shape: full
     gap: long
@@ -601,6 +637,8 @@ panels:
       and LEFT-front shell crack unchanged, face lifting at their return. Taeo still in
       navy jacket/backpack, Sera carrying own record and relaxed bow. Sun southeast,
       A4 ochre/brown/sky blue. No gate, new people, relabelled building or drawn signs.
+      Taeo and Nib walk in the left half; Sera, carrying her record, walks in the right half;
+      Orrin rests near the trestle.
     calm: top
     lines:
       - {who: sera, type: speech, side: r, text: "FINDING SOMEONE."}
@@ -631,10 +669,11 @@ panels:
       follow. Dark-brown braid, cream bead and one small necklace, tunic and LEFT bracer
       unchanged. RIGHT hand on flute at lower edge, no playing. Warm daylight from left,
       cool brown shadow. No Ilan flashback, letter, dated message, injury or drawn words.
+      Sera's face is centred.
     calm: left
     lines:
-      - {who: sera, type: speech, side: r, text: "SAID HE WAS LEAVING 'FOR RESPONSIBILITIES'."}
-      - {who: sera, type: speech, side: r, text: "HE LIKED IMPORTANT WORDS."}
+      - {who: sera, type: speech, side: c, text: "ILAN SAID HE WAS LEAVING 'FOR RESPONSIBILITIES'."}
+      - {who: sera, type: speech, side: c, text: "HE LIKED IMPORTANT WORDS."}
     notes: "Required reason as Sera recalls it; no dated message or proof of Ilan's present duties is revealed before ch080."
   - id: P41
     shape: strip
@@ -655,14 +694,15 @@ panels:
     bg: white
     camera: "reverse from Sera's shoulder toward Taeo left, Orrin beyond"
     art: >
-      taeo at ryu_practice_yard's west trestle leans forward a little, listening without
-      reaching to console. His one RIGHT-eye mole, tired brown eyes and old-patch backpack
-      beside chair remain. orrin beyond keeps his head turned toward Sera, cracked shell
-      dressed, body resting. Sunlit ochre and warm brown, pale sky strip. Sera's shoulder
-      low right. No pity montage, active interface, imagined Ilan, cured injuries or words in art.
+      taeo at ryu_practice_yard's west trestle leans forward a little, listening without reaching
+      to console. His one RIGHT-eye mole, tired brown eyes and old-patch backpack beside chair
+      remain. orrin beyond keeps his head turned toward Sera, cracked shell dressed, body resting.
+      Sunlit ochre and warm brown, pale sky strip. Sera's shoulder, braid and half-profile face
+      fill the low right foreground. No pity montage, active interface, imagined Ilan, cured
+      injuries or words in art.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "DID HE WRITE?"}
+      - {who: taeo, type: speech, side: l, text: "DID ILAN WRITE TO YOU?"}
       - {who: sera, type: speech, side: r, text: "NEVER."}
   - id: P43
     shape: tall
@@ -676,10 +716,11 @@ panels:
       on trestle. Morning sky blue and ochre ground behind, hard brown shadows.
       No pleading pose, tears effect, missing-person poster, clue glowing through oilskin
       or generated writing. Leave upper margin generous for her two short lines.
+      Sera stands centred, seen from the waist up, with Taeo beyond the left edge.
     calm: top
     lines:
-      - {who: sera, type: speech, side: r, text: "I'D RATHER ARGUE WITH HIM THAN HIS EMPTY BED."}
-      - {who: sera, type: speech, side: r, text: "WHEN YOU SAID ANOTHER WORLD, I THOUGHT HE MIGHT HAVE FOUND A DOOR TOO."}
+      - {who: sera, type: speech, side: c, text: "I'D RATHER ARGUE WITH ILAN THAN STARE AT HIS EMPTY BED."}
+      - {who: sera, type: speech, side: c, text: "WHEN YOU SAID ANOTHER WORLD, I THOUGHT HE MIGHT HAVE FOUND A DOOR TOO."}
   - id: P44
     shape: inset-l
     gap: short
@@ -691,12 +732,13 @@ panels:
       after a breath. Navy jacket, black hoodie and single RIGHT-eye mole, plain closed
       notebook at lower edge. Warm daylight and blue-grey cheek shadow, simplified tan
       backdrop. No system answer, prophecy, pictured reunion, reaching hand or generated lettering.
+      Taeo's face is centred; Sera stands beyond the right edge.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: l, text: "I CAN HELP ASK. I CAN'T PROMISE HE'S HERE."}
-      - {who: sera, type: speech, side: r, text: "GOOD. DON'T SELL ME A REUNION."}
+      - {who: taeo, type: speech, side: c, text: "I CAN HELP YOU LOOK FOR ILAN. I CAN'T PROMISE HE'S HERE."}
+      - {who: "offpanel:sera", type: speech, side: r, text: "GOOD. DON'T SELL ME A REUNION."}
   - id: P45
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "eye-level three-shot across the trestle, Nib left, Taeo centre, Sera right"
@@ -707,11 +749,12 @@ panels:
       rests against trestle safely to LEFT side, right-hip flute visible. Ordinary
       late-morning sun, ochre/brown and pale sky. No new search contract, assigned rate,
       bright interface, magically located brother or generated text.
+      Nib stands in the left third, Taeo sits in the middle, Sera stands in the right third.
     calm: top
     lines:
-      - {who: sera, type: speech, side: r, text: "PAID WORK. MONEY FOR THE SEARCH."}
+      - {who: sera, type: speech, side: r, text: "I'LL TAKE PAID WORK. THE MONEY FUNDS THE SEARCH."}
       - {who: nib, type: speech, side: l, text: "CLEAR TERMS."}
-      - {who: taeo, type: speech, side: c, text: "THEN WE START THERE."}
+      - {who: taeo, type: speech, side: c, text: "THEN WE START WITH PAID WORK."}
   - id: P46
     shape: strip
     gap: short
@@ -738,10 +781,11 @@ panels:
       watches from the short end, exact boots and binoculars. Warm sun, ochre wood and
       river-green sleeves. No letter cylinder, glowing chart, named settlement label,
       readable note or rearranged yard furniture.
+      Taeo sits in the left third; Sera stands in the right third untying the packet.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "CAN YOU SHOW US WHERE YOU LAST SAW HIM?"}
-      - {who: sera, type: speech, side: r, text: "I BROUGHT THE WAY."}
+      - {who: taeo, type: speech, side: l, text: "CAN YOU SHOW US WHERE YOU LAST SAW ILAN?"}
+      - {who: sera, type: speech, side: r, text: "I BROUGHT A MAP."}
   - id: P48
     shape: tall
     gap: long

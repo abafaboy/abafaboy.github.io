@@ -33,7 +33,7 @@ props:
 palette_notes: "A4 yard dusty ochre/warm brown/sky blue, home evening lamp orange/blue-grey. Gate rim concrete grey with muted ochre equipment; gate violet-black #1A1026/cold white-cyan rim. Inside lavender wrong-colour noon/violet shadows, one danger-red eye accent. Return marks cold white/violet edge, no Sera link colour. News blue-white/slate. Interface stays absent; all phones are ordinary apps. Flat cel hard shadows, warm varied contours; no haze, bloom or decorative particles. Papers/signs blank for ui.label."
 panels:
   - id: P01
-    shape: wide
+    shape: tall
     gap: none
     bg: white
     camera: "same low map axis as ch046 hook, Sera right and Nib beyond the trestle"
@@ -44,26 +44,29 @@ panels:
       clear. Taeo sits left listening, navy jacket and old-patch backpack. Southeast
       sun, cream paper and warm brown table, cool shadow. No world-map overlay, flashback,
       located brother, new fragment or art lettering.
+      Taeo sits in the left third, Nib stands behind the trestle in the middle, and Sera leans
+      over the map in the right third.
     calm: top
     lines:
-      - {who: sera, type: speech, side: r, text: "BY YOUR WALL?"}
-      - {who: nib, type: speech, side: l, text: "BY THE LOWER PATH."}
+      - {who: sera, type: speech, side: r, text: "IS THE WHITE BIT BY YOUR WALL?"}
+      - {who: nib, type: speech, side: c, text: "BY THE LOWER PATH."}
     notes: "Direct continuation of P07 payoff. Recognition is geographical evidence, not proof of Ilan's location or a portal home."
   - id: P02
-    shape: strip
+    shape: wide
     gap: long
     bg: white
-    camera: "overhead, Sera folding her map into the oilskin packet"
+    camera: "waist-up two-shot across the trestle, Nib left and Sera right"
     art: >
-      At ryu_practice_yard west trestle, sera carefully refolds her creased map along its
-      old folds. nib's hand stays near his closed RIGHT pouch, his own PAPER drawing
-      not yet opened. Taeo's dark-grey phone lies face-down nearby with dinosaur sticker
-      and single top-left glass crack when its edge tilts. Morning sun, ochre wood,
-      cream paper and muted river-green sleeve. No doubled landmark, generated writing,
-      glowing chart or disappearing evidence.
+      At ryu_practice_yard west trestle, sera stands in the right third and carefully refolds her
+      creased map along its old folds. nib stands in the left third, his hand near his closed
+      RIGHT pouch, his own PAPER drawing not yet opened. Taeo's dark-grey phone lies face-down on
+      the trestle between them with dinosaur sticker and single top-left glass crack when its edge
+      tilts. Frame both from the waist up. Morning sun, ochre wood, cream paper and muted
+      river-green sleeve. No doubled landmark, generated writing, glowing chart or disappearing
+      evidence.
     calm: top
     lines:
-      - {who: sera, type: speech, side: r, text: "YOU'LL SHOW ME YOUR DRAWING?"}
+      - {who: sera, type: speech, side: r, text: "WILL YOU SHOW ME YOUR DRAWING OF YOUR WATCH POST?"}
       - {who: nib, type: speech, side: l, text: "YES."}
   - id: P03
     shape: narrow-r
@@ -77,7 +80,7 @@ panels:
     sfx:
       - {text: "BZZT", style: phone, at: [0.80, 0.16], size: S, rot: -8}
     lines:
-      - {who: minho, type: phone, side: l, text: "FILM CREW STUCK IN A D-GRADE GATE. THREE PEOPLE."}
+      - {who: "offpanel:minho", type: phone, side: l, text: "A FILM CREW IS STUCK IN A D-GRADE GATE. THREE PEOPLE."}
   - id: P04
     shape: tall
     gap: short
@@ -90,9 +93,10 @@ panels:
       oilskin map now safe inside tunic; nib left has not moved. Ochre sunlit ground,
       brown shadows, navy clothes. Phone back visible only. No new bruise, load pulse,
       summoned command gesture or art-generated screen content.
+      Taeo stands in the middle of the frame, Nib in the left third, Sera in the right third.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "WE CAN GO NOW. SORT THE MONEY AFTER."}
+      - {who: taeo, type: speech, side: c, text: "WE CAN GO NOW. WE'LL SORT OUT THE MONEY LATER."}
   - id: P05
     kind: title
     gap: long
@@ -110,10 +114,12 @@ panels:
       metre bands going through. sejin at east first-aid mat checks a folded support
       sling, outside. Midday sun, grey concrete/ochre equipment and cold gate rim.
       Cases/signs blank, no green screen, empty return lane maintained.
+      Minho stands at the operator table in the right third; Sejin works at her first-aid mat in
+      the left third.
     calm: top
     lines:
-      - {who: minho, type: phone, side: r, text: "THEY WENT PAST THE WARNING. CAMERA OPERATOR'S ANKLE IS HURT."}
-      - {who: minho, type: phone, side: r, text: "MY LINE'S INTACT. THE PRODUCTION COMPANY IS STILL DISCUSSING THE BILL."}
+      - {who: minho, type: phone, side: r, text: "THE CREW WENT PAST THE WARNING SIGN. THEIR CAMERA OPERATOR HURT HER ANKLE."}
+      - {who: minho, type: phone, side: r, text: "MY SURVEY LINE IS INTACT. THE PRODUCTION COMPANY IS STILL DISCUSSING THE RESCUE FEE."}
     notes: "He is heard through Taeo's phone despite the cut to his physical position. No unconnected radio crosses the threshold."
   - id: P07
     shape: inset-l
@@ -126,11 +132,12 @@ panels:
       flute and quiver, braid fixed. She has not drawn an arrow or stepped toward the
       exit. Sun from left, muted ochre and brown, plain background. No villain coding,
       coward sweat, pleading smile, injury or text in generated art.
+      Her face is centred in the frame.
     calm: right
     lines:
-      - {who: sera, type: speech, side: l, text: "I DON'T WORK FOR FREE."}
+      - {who: sera, type: speech, side: c, text: "I DON'T WORK FOR FREE."}
   - id: P08
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "eye-level two-shot, Sera left and Taeo right beside the trestle"
@@ -140,10 +147,11 @@ panels:
       urgency and hearing her. She is adult and resolute, not cruel; a packed map edge
       safely hidden in tunic. A4 ochre/brown, warm daylight, navy clothing shade.
       No chibi, danger happening in this yard, implied ownership, weapon threat or readable phone.
+      Frame both full length: Sera in the left third, Taeo in the right third.
     calm: top
     lines:
       - {who: sera, type: speech, side: l, text: "AND I DON'T DIE FOR STRANGERS WHO IGNORED A SIGN."}
-      - {who: taeo, type: nervous, side: r, text: "I CAN COVER—"}
+      - {who: taeo, type: nervous, side: r, text: "I CAN COVER YOUR PAY."}
   - id: P09
     shape: tall
     gap: short
@@ -156,9 +164,11 @@ panels:
       exact brown boots planted. His expression is plain, disappointed enough to hurt.
       Southeast sun, dusty ochre and hard brown shadows. No arm grab, cute scolding,
       phantom rule text or glowing hand.
+      Nib stands centred in the frame; the clear lane runs along the left edge and Taeo is at the
+      right edge.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "ASK. DON'T SEND."}
+      - {who: nib, type: speech, side: c, text: "ASK. DON'T SEND."}
   - id: P10
     shape: strip
     gap: long
@@ -174,7 +184,7 @@ panels:
       floating moral caption, extra hand or ripped strap.
     calm: none
   - id: P11
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "front on Taeo lowering himself back to the chair, Sera and Nib at edges"
@@ -184,11 +194,13 @@ panels:
       no customer smile. nib left waits with folded arms, adult and unsoftened.
       Sunlit ochre, navy jacket and brown shadows, plain upper wall. No chibi, hung-up
       call, self-punishment pose, new injury or art lettering.
+      Taeo sits in the middle of the frame, Nib stands in the left third, and Sera stands in the
+      right third.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: c, text: "SORRY. I DID IT AGAIN."}
-      - {who: taeo, type: speech, side: c, text: "IF THERE'S A PAYING CONTRACT, WILL YOU HEAR IT?"}
-      - {who: sera, type: speech, side: r, text: "I'LL HEAR IT."}
+      - {who: taeo, type: speech, side: c, text: "SORRY. I DECIDED FOR YOU AGAIN."}
+      - {who: taeo, type: speech, side: c, text: "IF I GET A PAYING CONTRACT, WILL YOU HEAR THE TERMS?"}
+      - {who: sera, type: speech, side: r, text: "I'LL HEAR THE TERMS."}
   - id: P12
     shape: narrow-l
     gap: short
@@ -199,7 +211,7 @@ panels:
     ui:
       - {kind: phone.ttok_call, on: screen, hand: taeo_right_front, caller: "Production · Duty Producer", clock: "11:49"}
     lines:
-      - {who: producer, type: phone, side: r, text: "THEY WERE TOLD TO STAY INSIDE THE FILMING STRIP."}
+      - {who: "offpanel:producer", type: phone, side: r, text: "THE CREW WAS TOLD TO STAY INSIDE THE FILMING LIMIT."}
     notes: "Minho supplies the responsible company's duty number off panel. No public real company or personal contact invented."
   - id: P13
     shape: tall
@@ -213,11 +225,13 @@ panels:
       old-patch bag at chair, persistent bruises under cuffs. Daylight ochre/brown,
       clear top gutter. No sinister bargaining smile, UI visible to crew, guild licence
       badge or generated contract text.
+      Taeo sits in the left third, Nib listens beside him at the far left edge, and Sera listens
+      in the right third.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "THEY STILL NEED TO COME OUT."}
-      - {who: taeo, type: speech, side: l, text: "THREE MILLION WON. LINE, MEDIC, TWO INSIDE, ME OUTSIDE."}
-      - {who: producer, type: phone, side: r, text: "WE HAVE INSURANCE. CAN'T YOU INVOICE AFTER?"}
+      - {who: taeo, type: speech, side: l, text: "BUT YOUR CREW STILL NEEDS TO COME OUT. THE FEE IS THREE MILLION WON."}
+      - {who: taeo, type: speech, side: l, text: "IT PAYS FOR THE LINE, A MEDIC, TWO RESCUERS INSIDE AND ME OUTSIDE."}
+      - {who: "offpanel:producer", type: phone, side: r, text: "WE HAVE INSURANCE. CAN'T YOU INVOICE US AFTERWARD?"}
   - id: P14
     shape: strip
     gap: short
@@ -229,9 +243,10 @@ panels:
       making himself finish the job he began badly. Pale sky reflected on cheek,
       ochre backdrop and cool navy jacket shadow. No price reflected in pupils,
       blood, gacha advert, heroic aura or generated writing.
+      Taeo's face is centred in the frame.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "YOUR INSURER CAN REIMBURSE YOU. I NEED YOUR COMPANY'S PAID ORDER NOW."}
+      - {who: taeo, type: speech, side: c, text: "YOUR INSURER CAN REIMBURSE YOU LATER. I NEED YOUR COMPANY TO PAY FIRST."}
   - id: P15
     shape: wide
     gap: short
@@ -246,8 +261,8 @@ panels:
       or readable case labels.
     calm: top
     lines:
-      - {who: minho, type: phone, side: l, text: "D GRADE. THREE PEOPLE. SURVEYED EXIT. NO BOSS FIGHT."}
-      - {who: minho, type: phone, side: l, text: "MY CREW KEEPS THE LINE. SEJIN KEEPS THE EXIT."}
+      - {who: minho, type: phone, side: l, text: "IT'S A D-GRADE GATE. THREE PEOPLE INSIDE. THE EXIT IS SURVEYED. NO BOSS FIGHT."}
+      - {who: minho, type: phone, side: l, text: "MY CREW KEEPS THE LINE OPEN. SEJIN KEEPS THE EXIT CLEAR."}
     notes: "Existing Ryu contract plus added rescue order; operator candidate Taeo is not suddenly licensed to dispatch his own guild."
   - id: P16
     shape: narrow-r
@@ -259,7 +274,7 @@ panels:
     ui:
       - {kind: phone.info_card, on: screen, hand: taeo_left_tilt, title: "RYU SURVEY · EMERGENCY ORDER", text: "Production-authorised rescue · D-grade · 3 people\nFee ₩3,000,000 prepaid\nLine/dispatch + medic ₩600,000\nCrew remainder ₩2,400,000 · 3 equal shares"}
     lines:
-      - {who: producer, type: phone, side: r, text: "AUTHORISED. SENDING PAYMENT."}
+      - {who: "offpanel:producer", type: phone, side: r, text: "RESCUE AUTHORISED. SENDING THE PAYMENT."}
     notes: "Agreed costs and equal shares shown before anyone enters. No balance or earlier earnings overwritten."
   - id: P17
     shape: wide
@@ -272,10 +287,11 @@ panels:
       pause. Sera has her bow safely down LEFT; Nib adult in exact boots, belt gear
       and binoculars. Daylight ochre/brown, restrained navy/river-green. No link,
       consent pop-up, compelled stance or printed terms in art; leave space over all three faces.
+      Taeo sits in the left third; Nib and Sera stand in the right half, Nib nearer the centre.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "EIGHT HUNDRED THOUSAND EACH AFTER THOSE COSTS. WILL YOU TAKE THE RESCUE?"}
-      - {who: sera, type: speech, side: r, text: "I CHOOSE THE SHOT. IF I CALL RETREAT, WE RETREAT."}
+      - {who: taeo, type: speech, side: l, text: "EACH OF US GETS EIGHT HUNDRED THOUSAND WON AFTER COSTS. WILL YOU TAKE THE RESCUE?"}
+      - {who: sera, type: speech, side: r, text: "I CHOOSE MY SHOTS. IF I CALL RETREAT, WE RETREAT."}
       - {who: taeo, type: speech, side: l, text: "AGREED."}
   - id: P18
     shape: tall
@@ -309,16 +325,17 @@ panels:
     shape: wide
     gap: short
     bg: white
-    camera: "close at the home doorway, Taeo left explaining to resting Orrin right"
+    camera: "at the home doorway, Taeo left crouching to explain to resting Orrin right"
     art: >
       ryu_practice_yard home apron. taeo crouches beside resting orrin, looking at his
       adult face rather than damaged shell. Orrin's upper LEFT-front crack/protective
       dressing unchanged, four feet unloaded. nib and sera wait behind with gear.
       Sunlit ochre, warm brown and navy shade. No packed cargo, harness, guilt on
       Orrin's face or ready-to-carry pose. Envelope stays on home shelf, no generated writing.
+      Taeo is in the left third and Orrin rests across the right half.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "YOU'RE STILL RESTING. WE'LL BE BACK."}
+      - {who: taeo, type: speech, side: l, text: "YOU'RE STAYING HERE TO REST. WE'LL BE BACK."}
       - {who: orrin, type: speech, side: r, text: "THEN I WILL KEEP YOUR CHAIRS."}
   - id: P21
     shape: vignette
@@ -352,22 +369,24 @@ panels:
       - {kind: label, text: "D-GRADE · AUTHORISED ACCESS", at: [0.18, 0.40], size: 30}
       - {kind: label, text: "FILMING LIMIT 20 M · DO NOT CROSS", at: [0.80, 0.52], size: 30}
   - id: P23
-    shape: strip
+    shape: wide
     gap: short
     bg: white
-    camera: "close on the marked route sketch under Minho's gloved finger"
+    camera: "waist-up briefing at the west table, Minho left tracing the route sketch, Sejin right"
     art: >
-      mapo_film_gate_rim west table. minho's glove traces an ordinary blank route sketch:
-      straight inland path, one turnback bar and a root alcove beside a relay mark.
-      Taeo's open hands stay away from any force test, Sejin's medic pouch at edge.
-      White cable with blue band exits the base below. Concrete grey, sunlight ochre
-      and brown shade. No boss room, readable map text, green screen or magical route suggestion.
+      mapo_film_gate_rim west table, waist-up briefing. minho stands in the left third, his gloved
+      finger tracing an ordinary blank route sketch: straight inland path, one turnback bar and a
+      root alcove beside a relay mark. Taeo sits between them with open hands kept away from any
+      force test; sejin stands in the right third with her medic pouch at her hip, listening; nib
+      in the drilled helmet waits just behind the table. White cable with blue band exits the base
+      below. Concrete grey, sunlight ochre and brown shade. No boss room, readable map text, green
+      screen or magical route suggestion.
     calm: top
     lines:
-      - {who: minho, type: speech, side: l, text: "ROOT ALCOVE. NEAR THE FIFTY-METRE RELAY. YOU COME OUT THE SAME WAY."}
-      - {who: sejin, type: speech, side: r, text: "NO EXTRA SALVAGE. NO CARRYING TESTS."}
+      - {who: minho, type: speech, side: l, text: "THE FILM CREW IS IN A ROOT ALCOVE NEAR THE FIFTY-METRE RELAY. COME OUT THE SAME WAY."}
+      - {who: sejin, type: speech, side: r, text: "NO SALVAGE. TAEO, NO CARRYING TESTS."}
   - id: P24
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "eye-level between seated Taeo left and Nib right before entry"
@@ -378,10 +397,11 @@ panels:
       a limit without apology. Afternoon sun, ochre/concrete and cold gate edge.
       No amber or slate-green pulse, fresh bruise, hidden reservoir, drawn knife
       or unreal screen content.
+      Frame Nib full length in the right third and Taeo seated in the left third.
     calm: top
     lines:
       - {who: nib, type: speech, side: r, text: "NO CARRYING TODAY."}
-      - {who: taeo, type: speech, side: l, text: "I'M ON THE LINE."}
+      - {who: taeo, type: speech, side: l, text: "NO CARRYING. I'LL STAY ON THE SURVEY LINE."}
     notes: "Honours ch044 rest/injury promise. Taeo contributes communication, logistics and paid consent, not another concealed injury."
   - id: P25
     shape: tall
@@ -441,10 +461,12 @@ panels:
       in drilled helmet and exact boots raises an empty palm. All faces frightened,
       no caricature stupidity. Lavender light, pale stone/violet shadow. No blood,
       active camera screen, dying victim or written folio.
+      Nib stands in the left third; the director kneels in the right third beside the camera
+      operator, with the sound operator crouching behind.
     calm: top
     lines:
       - {who: director, type: speech, side: r, text: "WE ONLY NEEDED ONE WIDE SHOT."}
-      - {who: nib, type: speech, side: l, text: "LEAVE THE CASES."}
+      - {who: nib, type: speech, side: l, text: "LEAVE THE EQUIPMENT HERE."}
   - id: P29
     shape: strip
     gap: short
@@ -461,7 +483,7 @@ panels:
     sfx:
       - {text: "SKRK", style: quiet, at: [0.52, 0.66], size: S, rot: -8}
   - id: P30
-    shape: wide
+    shape: tall
     gap: short
     bg: navy
     camera: "side-on to Sera covering the alcove, sound operator starting to rise"
@@ -472,10 +494,12 @@ panels:
       to stand with his boom, frightened; nib between him and the injured operator
       stays low. Lavender sky, pale stone and violet shade. No magic, severed cable,
       target behind a person or chibi in danger.
+      Frame Sera full length in the left third; the sound operator starts to rise at the right,
+      and Nib stays low between him and the camera operator.
     calm: top
     lines:
       - {who: sera, type: shout, side: l, text: "DON'T RUN."}
-      - {who: sera, type: speech, side: l, text: "THREE STEPS LEFT. UNDER THE ROOT. THEN FOLLOW HIM."}
+      - {who: sera, type: speech, side: l, text: "MOVE THREE STEPS LEFT, UNDER THE ROOT. THEN FOLLOW NIB."}
   - id: P31
     shape: tall
     gap: short
@@ -489,6 +513,8 @@ panels:
       cord; no human in its trajectory. Nib's face focused over shoulder. Lavender
       light/violet shade, white cable and blue bands distinct. No lift onto cracked
       shell, forced load share, impossible crawling scale or readable equipment.
+      Nib leads in the left third, the three adults follow in the middle, and Sera stands on the
+      clear shelf in the right third.
     calm: top
     lines:
       - {who: nib, type: speech, side: l, text: "THIS WAY."}
@@ -539,7 +565,7 @@ panels:
     sfx:
       - {text: "FWHUMP", style: impact, at: [0.75, 0.48], size: L, rot: -8}
   - id: P35
-    shape: wide
+    shape: full
     gap: short
     bg: navy
     camera: "on the cable path, Nib left offering his shoulder to the camera operator right"
@@ -551,10 +577,11 @@ panels:
       Sera covers rear, no shot aimed through them. Lavender light, violet shadows,
       white cable/blue bands clear. No comic smallness, new injury, carried camera
       case or written warning in art.
+      Nib stands in the left third and the camera operator in the right third.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "ARM?"}
-      - {who: camera_operator, type: speech, side: r, text: "PLEASE."}
+      - {who: nib, type: speech, side: l, text: "USE MY SHOULDER."}
+      - {who: camera_operator, type: speech, side: r, text: "YES, PLEASE."}
   - id: P36
     shape: tall
     gap: short
@@ -568,9 +595,10 @@ panels:
       screened far right, no pursuit magically stopped forever. Lavender sky,
       violet shade and pale stone. No wireless-only threshold call, second arrow,
       interface or generated lettering.
+      Sera stands at the relay tripod in the right third.
     calm: top
     lines:
-      - {who: sera, type: speech, side: r, text: "THREE ON THE LINE. COMING OUT."}
+      - {who: sera, type: speech, side: r, text: "WE HAVE ALL THREE FILMMAKERS. WE'RE COMING OUT."}
     notes: "Sera speaks physically into the relay handset; in the next panel her voice is phone through the intact survey line."
   - id: P37
     shape: wide
@@ -586,8 +614,8 @@ panels:
       showing internal vision, force channel, panicked new injury or written log.
     calm: top
     lines:
-      - {who: sera, type: phone, side: l, text: "CAMERA OPERATOR NEEDS AN ARM. EVERYONE'S CONSCIOUS."}
-      - {who: taeo, type: speech, side: l, text: "SEJIN'S READY. CLEAR RETURN LANE."}
+      - {who: "offpanel:sera", type: phone, side: l, text: "THE CAMERA OPERATOR NEEDS HELP WALKING. EVERYONE IS CONSCIOUS."}
+      - {who: taeo, type: speech, side: l, text: "SEJIN IS READY. THE RETURN LANE IS CLEAR."}
   - id: P38
     shape: strip
     gap: short
@@ -637,7 +665,7 @@ panels:
     calm: none
     notes: "Job done: all three clients and both rescuers out alive. Gate remains open for its licensed clear crew; equipment was left inside deliberately."
   - id: P41
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "at the first-aid mat, Sejin centre checking rescuers while clients sit beyond"
@@ -687,7 +715,7 @@ panels:
       vanished injuries, shared account screen or art lettering.
     calm: top
     lines:
-      - {who: sera, type: speech, side: r, text: "BETTER THAN YOUR WATER."}
+      - {who: sera, type: speech, side: r, text: "THE PAY IS BETTER THAN YOUR WATER."}
       - {who: taeo, type: speech, side: l, text: "HIGH PRAISE."}
   - id: P44
     shape: wide
@@ -701,11 +729,12 @@ panels:
       from small relief toward the report. Tablet frame rectangular, no phone
       brand. Late daylight ochre and brown, pale screen key on lower faces.
       No public floating interface, readable paperwork or generated news image.
+      The tablet stands in the lower left foreground; the crew sit and stand behind it.
     calm: top
     ui:
       - {kind: tv.lowerthird, on: screen, text: "RESCUE-NETWORK BILL · COMMITTEE VOTE", ticker: "KNN 24 · HEARING FOOTAGE"}
     lines:
-      - {who: newsreader, type: phone, side: l, text: "DIRECTOR BAEK HOJIN DEFENDED THE EXISTING RESPONSE CONTRACT SYSTEM."}
+      - {who: "offpanel:newsreader", type: phone, side: l, text: "DIRECTOR BAEK HOJIN DEFENDED THE BIDDING SYSTEM FOR RESPONSE CONTRACTS."}
     notes: "Ryu tablet carries an ordinary TV stream. P45 supplies the full-frame broadcast image for the composite; no actual television added to the home layout."
   - id: P45
     shape: full
@@ -743,7 +772,7 @@ panels:
     ui:
       - {kind: tv.lowerthird, on: screen, text: "HAN SEORYUN'S RESCUE-NETWORK BILL FAILS IN COMMITTEE", ticker: "RESPONSE BIDDING RULES REMAIN IN PLACE"}
     lines:
-      - {who: newsreader, type: phone, side: c, text: "THE RESCUE-NETWORK BILL FAILED IN COMMITTEE THIS AFTERNOON."}
+      - {who: "offpanel:newsreader", type: phone, side: c, text: "HAN SEORYUN'S RESCUE-NETWORK BILL FAILED IN COMMITTEE THIS AFTERNOON."}
   - id: P47
     shape: inset-r
     gap: long
@@ -773,7 +802,7 @@ panels:
     calm: top
     lines:
       - {who: sera, type: speech, side: r, text: "WHO PAYS WHEN THERE ISN'T A PRODUCTION COMPANY?"}
-      - {who: sejin, type: speech, side: l, text: "THAT WAS THE BILL."}
+      - {who: sejin, type: speech, side: l, text: "THE RESCUE-NETWORK BILL WAS THE ANSWER."}
   - id: P49
     shape: strip
     gap: long
@@ -788,7 +817,7 @@ panels:
       written vow, system directive or healing glow.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "I COULDN'T FIX THEIR VOTE."}
+      - {who: taeo, type: float, text: "I COULDN'T CHANGE THE COMMITTEE'S VOTE."}
   - id: P50
     shape: tall
     gap: short
@@ -803,8 +832,8 @@ panels:
       No actual guild sign, sponsorship, licence already issued or generated words.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "I WANT A WAY TO TAKE THE JOB WITHOUT BORROWING SOMEBODY ELSE'S NAME."}
-      - {who: sera, type: speech, side: r, text: "THEN GET THE PAPER FOR THAT."}
+      - {who: taeo, type: speech, side: l, text: "I WANT TO TAKE RESCUE JOBS WITHOUT BORROWING RYU SURVEY'S NAME."}
+      - {who: sera, type: speech, side: r, text: "THEN GET YOUR OWN LICENCE."}
   - id: P51
     shape: narrow-l
     gap: short
@@ -815,7 +844,7 @@ panels:
     ui:
       - {kind: phone.aao_booking, on: screen, hand: taeo_left_tilt, title: "AAO · OPERATOR LICENCE EXAM", text: "Yoon Taeo\nWritten examination + supervised practical\nApplication ready · SUBMIT"}
     lines:
-      - {who: taeo, type: float, text: "THERE WAS A FORM I COULD FINISH."}
+      - {who: taeo, type: float, text: "THERE WAS AN EXAM FORM I COULD FINISH."}
     notes: "Licence examination registration only. He has not taken the written or practical; ch048/ch049 retain those events."
   - id: P52
     shape: strip
@@ -846,9 +875,10 @@ panels:
       approval, adult scout in exact boots and locked props. Dusk blue-grey,
       warm home lamp across cheeks, one RIGHT-eye mole. No licence card,
       graduation robe, new interface window or generated lettering.
+      Taeo sits in the left third; Nib stands in the right third beside his chair.
     calm: top
     lines:
-      - {who: taeo, type: nervous, side: l, text: "REGISTERED."}
+      - {who: taeo, type: nervous, side: l, text: "I'M REGISTERED FOR THE LICENCE EXAM."}
       - {who: nib, type: speech, side: r, text: "GOOD. STUDY."}
     notes: "Irreversible choice: application submitted and received. No exam fee, date, result or rank invented. Confirmation is read aloud; no exposed screen needing a composite."
   - id: P54
@@ -867,11 +897,11 @@ panels:
     calm: top
     lines:
       - {who: taeo, type: speech, side: c, text: "ONE DAY WE'RE A GUILD. OURS."}
-      - {who: sera, type: speech, side: r, text: "ON PAID TERMS."}
-      - {who: taeo, type: speech, side: c, text: "ON PAID TERMS."}
+      - {who: sera, type: speech, side: r, text: "AS LONG AS EVERY JOB IS ON PAID TERMS."}
+      - {who: taeo, type: speech, side: c, text: "AGREED. ON PAID TERMS."}
     notes: "Arc decision and changed relationship: she joins work on negotiated terms, not as a grateful rescue volunteer. No guild founded before ch100."
   - id: P55
-    shape: wide
+    shape: tall
     gap: long
     bg: white
     camera: "from the home step toward Minho arriving with a white cake box"
@@ -882,11 +912,13 @@ panels:
       old-patch backpack set inside. Nib and Sera behind leave room for him.
       Warm lamp from home, dusk blue and ochre/brown. No candles, birthday
       banner, new bakery brand, expensive gift ribbon or generated words.
+      Frame Minho and Taeo from the knees up: Minho in the left third with the cake box, Taeo in
+      the doorway in the right third.
     calm: top
     lines:
-      - {who: minho, type: speech, side: l, text: "FOR THE JOB. YOU ACTUALLY ASKED."}
+      - {who: minho, type: speech, side: l, text: "THIS IS FOR TODAY'S JOB. YOU ACTUALLY ASKED FIRST."}
       - {who: taeo, type: speech, side: r, text: "YOU BOUGHT A CAKE?"}
-      - {who: minho, type: speech, side: l, text: "TAKE IT BEFORE I CHANGE MY MIND."}
+      - {who: minho, type: speech, side: l, text: "TAKE THE CAKE BEFORE I CHANGE MY MIND."}
   - id: P56
     shape: wide
     gap: short
@@ -902,9 +934,11 @@ panels:
       down, exasperated; Taeo hoodie/backpack patch fixed, sweats behind them.
       Warm lamp key, simple brown shadows. Plain cake, no candles, injury joke
       or text in art.
+      Chibi minho stands in the left third, chibi nib in the middle, and chibi sera in the right
+      third.
     calm: top
     lines:
-      - {who: sera, type: speech, side: r, text: "IS CAKE AN AGREED COST?"}
+      - {who: sera, type: speech, side: r, text: "IS THE CAKE AN AGREED COST?"}
       - {who: minho, type: speech, side: l, text: "IT IS NOW."}
   - id: P57
     shape: full
@@ -919,9 +953,11 @@ panels:
       beside his own reachable low crate/plate, upper LEFT-front dressing
       intact. Door propped open behind, lamp orange/blue-grey shadows, ochre
       ground. No pet feeding, birthday candles, guild banner or readable box.
+      Taeo serves cake in the left third to Sejin and Minho; Sera and Nib stand in the middle with
+      their plates; Orrin rests in the right third beside his low crate.
     calm: top
     lines:
-      - {who: orrin, type: speech, side: r, text: "AN EXCELLENT USE FOR A TABLE."}
+      - {who: orrin, type: speech, side: r, text: "CAKE IS AN EXCELLENT USE FOR A TABLE."}
       - {who: taeo, type: speech, side: l, text: "WE'RE DEVELOPING STANDARDS."}
   - id: P58
     shape: vignette
@@ -940,7 +976,7 @@ panels:
     calm: none
     notes: "Open door motif; remains propped all evening. Father ID and rules retained without new grief exposition."
   - id: P59
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "outside the home step, Sera right standing with plate and Taeo left looking up"
@@ -951,9 +987,11 @@ panels:
       continues eating. Braid, tunic, LEFT bracer and RIGHT flute fixed.
       Home-lamp warmth, navy night and ochre ground. No farewell bag,
       locked gate, discarded wage envelope, new injury or generated words.
+      Frame Sera full length in the right third holding her plate, and Taeo seated in the left
+      third looking up at her.
     calm: top
     lines:
-      - {who: sera, type: speech, side: r, text: "GETTING SOME AIR. SAVE THAT PIECE."}
+      - {who: sera, type: speech, side: r, text: "I'M GETTING SOME AIR. SAVE MY PIECE OF CAKE."}
       - {who: taeo, type: speech, side: l, text: "IT'S YOURS."}
     notes: "She announces an ordinary choice and leaves the table freely. Joining paid work does not close the door behind her."
   - id: P60
@@ -968,9 +1006,10 @@ panels:
       bruise. Beyond crop, south fence is where Minho pinned the matching
       poster while returning with cake. Warm lamp orange, cream paper/brown
       table, blue-grey shadow. No generated text, guild seal or licence card.
+      Minho stands just beyond the left edge; only his hand enters the frame.
     calm: top
     lines:
-      - {who: minho, type: speech, side: l, text: "WHILE YOU'RE APPLYING FOR THINGS. LOOK AT THE FENCE."}
+      - {who: "offpanel:minho", type: speech, side: l, text: "SINCE YOU'RE APPLYING FOR THINGS NOW, LOOK AT THE SOUTH FENCE."}
   - id: P61
     shape: tall
     gap: long
