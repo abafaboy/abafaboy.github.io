@@ -4,5 +4,6 @@ One file per chapter: a JSON list of `{"panel": "<id>", "text": "<narration>"}` 
 
 - ch001–ch005: written by Claude at the pace the owner approved (about 500–700 words).
 - ch006–ch013: Codex's first recaps tightened to the same pace (about 600–800 words for 55–60 panels).
-- **ch006.json is a stopgap.** Chapter 6 art stops at P35, so its last four entries summarise P36–P55 over P35. Rewrite it when P36–P55 are drawn; `ch006_full_codex.json` is Codex's full-length version to start from.
+- **ch006.json is a stopgap.** Chapter 6 art stops at P35, so its last entries summarise P36–P55 over P35. Rewrite it when P36–P55 are drawn, starting from Codex's full-length version.
+- `codex_original/` keeps Codex's first, longer recaps for chapters 6–13 (on the laptop they are in `recap/`).
 - Panel ids must have art in the chapter's `art/` folder, and the order must never go backwards (the camera only scrolls down).
