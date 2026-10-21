@@ -15,6 +15,11 @@ When all 100 chapters are done, upload them to YouTube through YouTube Studio in
 - Chapters 1–100 together in one large video.
 - It is a long narrated 16:9 compilation, titled "[1-100] ..." with the name My Summons Go First, with a thumbnail in the style above.
 
+## YouTube limits (YouTube Help, answer 71673, checked 21 Oct 2026)
+- The maximum upload is 256 GB or 12 hours, whichever is smaller.
+- Uploads are limited to 15 minutes until the Google account is phone-verified.
+- If the narrated 1–100 cut runs over 12 hours, tell Abafa before cutting anything. The options are tightening the pacing, or splitting it into Part 1 and Part 2.
+
 ## Before publishing
 - Publishing is public: show Abafa the title, the thumbnail and the visibility settings, and wait for his OK before clicking Publish.
 - Font licence: Blambot's free terms cover indie comics flattened into images, and promotional videos for them. A monetised full-chapter video is not clearly covered. Check this, or get Blambot's commercial licence, before upload.
