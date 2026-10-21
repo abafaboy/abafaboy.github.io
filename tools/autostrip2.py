@@ -757,7 +757,27 @@ def main():
     ap.add_argument("--webp-q", type=int, default=88)
     ap.add_argument("--placeholders", action="store_true")
     ap.add_argument("--only", default=None, help="panel range, e.g. P01-P20")
+    ap.add_argument("--letter-font", default="/home/claude/msgf-fonts/anime_ace_2",
+                    help="folder with the lettering TTF/OTF files (Anime Ace 2.0 BB, the owner's pick); falls back to Shantell Sans. "
+                         "Licensed for flattened use only: never commit these files or publish them.")
     A = ap.parse_args()
+    global FONTS
+    lf = Path(A.letter_font) if A.letter_font else None
+    ttfs = (sorted(lf.glob("*.[tT][tT][fF]")) + sorted(lf.glob("*.[oO][tT][fF]"))) if lf and lf.is_dir() else []
+    if ttfs:
+        faces = []
+        for f_ in ttfs:
+            n_ = f_.stem.lower()
+            bold = any(k in n_ for k in ("bld", "bold"))
+            ital = any(k in n_ for k in ("ital", "obl"))
+            st_ = "italic" if ital else "normal"
+            for w_ in ((700, 800) if bold else (400, 500, 600)):
+                for fam_ in ("Letter", "LetterSoft"):
+                    faces.append(f"@font-face{{font-family:'{fam_}';src:url('{uri(f_)}');font-weight:{w_};font-style:{st_}}}")
+        FONTS = "\n".join([x_ for x_ in FONTS.split("\n") if "'Letter'" not in x_ and "'LetterSoft'" not in x_] + faces)
+        print("lettering font:", ", ".join(f_.name for f_ in ttfs))
+    else:
+        print(f"lettering font: Shantell Sans (no font files in {lf})")
     W = A.width
     S = load_script(A.script)
     ART, OUT = Path(A.art), Path(A.out)
