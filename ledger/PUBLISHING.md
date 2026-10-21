@@ -11,8 +11,9 @@ When all 100 chapters are done, upload them to YouTube through YouTube Studio in
 - **Thumbnails.** 16:9 and very saturated. The hero in the foreground, often with a before/after split or a power effect. Big outlined yellow or white words: FULL, SSS, BEFORE / AFTER, CH.1-102, #1-250, DAY 01 / DAY 365.
 - **Format.** Long narrated compilations (about 1 to 19 hours) covering many chapters.
 
-## Working reading (confirm with Abafa before building)
-- One long narrated 16:9 compilation of chapters 1–100, titled "[1-100] ..." with the name My Summons Go First, and a thumbnail in the style above.
+## Format (confirmed by Abafa, 21 October 2026)
+- Chapters 1–100 together in one large video.
+- It is a long narrated 16:9 compilation, titled "[1-100] ..." with the name My Summons Go First, with a thumbnail in the style above.
 
 ## Before publishing
 - Publishing is public: show Abafa the title, the thumbnail and the visibility settings, and wait for his OK before clicking Publish.
