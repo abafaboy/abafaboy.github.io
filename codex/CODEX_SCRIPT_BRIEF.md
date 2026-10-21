@@ -30,6 +30,13 @@ Claude wrote chapters 1–22 (`scripts/ch001.yaml` … `scripts/ch022.yaml`). Yo
 - Continuity: start where the previous chapter's hook leaves off and end on your chapter's hook. Times, prices, counts and ages must match the bible and earlier chapters.
 - Make it genuinely good: real laughs, real ache, natural dialogue, stakes, and a hook that makes the next chapter unmissable.
 
+## 3b. Clarity rules (from the owner's feedback on chapters 1–4)
+Follow every rule in `SCRIPT_CLARITY_BRIEF.md` section 3. In short:
+- every spoken line comes from someone drawn in that panel, or is marked `offpanel:<id>` with the side they stand on;
+- in a close-up, only the person shown speaks, plus at most one off-panel line;
+- the dialogue is plain enough to follow at scroll speed;
+- full bodies go in tall, bleed or full panels, never in strips.
+
 ## 4. Validate
 After each chapter run `python tools/validate_script.py scripts/chNNN.yaml` and fix every ERROR (and every warning you sensibly can) before you start the next chapter. If PyYAML is missing, install it with pip.
 

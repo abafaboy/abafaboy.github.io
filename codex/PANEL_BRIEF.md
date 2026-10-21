@@ -14,6 +14,8 @@ The owner chose **method B**: one image-generation pass per panel, using the TEC
 
 If a character or location has no sheet yet, follow the description in the script and the bible, and note it in PROGRESS.md.
 
+The scripts were revised on 21 October for clearer dialogue and staging. Re-read `scripts/chNNN.yaml` before each panel, even if you read it before.
+
 ## 2. What to draw
 For each panel in the script, in order. Skip `kind: title`; for `kind: end`, see section 3.
 - **Size by shape.**
@@ -27,6 +29,8 @@ For each panel in the script, in order. Skip `kind: title`; for `kind: end`, see
 - **"screen: green"**: that screen is a flat, evenly lit, pure **#00FF00** area with crisp edges. No reflections, no glare, no UI; fingers may cover part of it. Never put green on any other screen.
 - **Never draw text**: no letters, numbers, words, logos with words, speech bubbles, SFX lettering or interface windows. Signs, name tags and screens without "screen: green" stay blank or abstract.
 - **`silent: true`** panels are acting beats: the faces and bodies must carry the moment.
+- **Where speakers stand.** Follow the art brief's left/right placement exactly. Where it gives none, put each speaker on the side given by `side` in their script lines (`l` left, `r` right).
+- **Bodies need room.** Never squash or stretch a figure to fit the frame. If a whole body doesn't fit naturally, frame it from the waist or knees up.
 
 ## 3. The end card
 The `kind: end` panel has a `chibi_gag`. Draw it as `END.png`: 1024×1024, chibi style, plain white background, no text.
@@ -46,9 +50,23 @@ Redo an image up to 2 times if it fails any of these:
 4. The calm region is clear.
 5. The method B look: flat colour, one hard-edged shadow tone per material, crisp tapered lines; no airbrush, haze, bloom or glow fog.
 6. The right size and orientation for the shape.
+7. Anatomy. Every body could exist:
+   - count arms, legs, hands and fingers;
+   - limbs attach in the right place and joints bend the right way;
+   - the torso and legs are the right length for the character's height, and the head is the right size;
+   - no figure is squashed or stretched;
+   - no body merges with another body or with furniture.
 
 ## 6. Progress and finishing
 - After every panel, append one line to `chapters/chNNN/art/PROGRESS.md`: `P07 done`, or `P07 redo: <reason>`.
+- After every panel, also record where each character's head is. Add the panel to `chapters/chNNN/art/REVIEW_art.json` (in a split chapter, `REVIEW_<part>.json`), using the format in `PANEL_REVIEW_BRIEF.md` section 3, and keep the file valid JSON. Example: `{"P07": {"heads": {"taeo": [0.42, 0.18, 0.55, 0.40]}, "verdict": "ok", "problems": []}}`.
+
+## 6a. Redraws first
+If `chapters/chNNN/art/REDRAW.md` exists, redraw the panels it lists before you draw anything new (in a split chapter, only those in your range). For each one:
+- move the old PNG to `_rejects/`;
+- draw the panel again, fixing the listed problems and following the current script;
+- record its heads as above;
+- write `P07 redrawn` in your PROGRESS file.
 - If you are restarted, read PROGRESS.md and continue from the first panel not marked done.
 - When every panel and `END.png` exist, write `chapters/chNNN/art/DONE.md` with the panel count and any panels you are unsure about.
 - Do not stop to ask questions. Finish the chapter.

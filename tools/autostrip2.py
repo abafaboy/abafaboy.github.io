@@ -521,11 +521,30 @@ TAIL_JS = r"""
     const side = el.dataset.side || 'c', where = el.dataset.where;
     const fx = side === 'l' ? 0.26 : side === 'r' ? 0.74 : 0.5;
     const dy = Math.min(240, Math.max(80, pr.height * 0.24));
-    let T;
-    if (where === 'before') T = [pr.left + pr.width * fx, pr.top + dy];
-    else if (where === 'after') T = [pr.left + pr.width * fx, pr.bottom - dy];
-    else if (where === 'beside') T = [(r.left >= pr.right - 4) ? pr.right - 70 : pr.left + 70, pr.top + pr.height * 0.40];
-    else return;
+    let T = null;
+    if (el.dataset.off === '1') {
+      // speaker not drawn in this panel: the tail points out past the panel edge, toward where they stand
+      const cxr = r.left + r.width / 2, toLeft = side === 'l' || (side === 'c' && cxr < pr.left + pr.width / 2);
+      T = [toLeft ? Math.min(pr.left, r.left) - 600 : Math.max(pr.right, r.right) + 600, r.top + r.height * 0.55];
+    } else if (el.dataset.hx) {
+      // aim at the speaker's head as located by the panel review (maps through object-fit: cover)
+      const img = panel.querySelector('img.art');
+      if (img && img.naturalWidth) {
+        const ir = img.getBoundingClientRect(), W0 = img.naturalWidth, H0 = img.naturalHeight;
+        const s = Math.max(ir.width / W0, ir.height / H0);
+        const pos = getComputedStyle(img).objectPosition.split(/\s+/);
+        const off = (tok, free) => tok && tok.endsWith('%') ? free * parseFloat(tok) / 100 : (tok ? parseFloat(tok) : free / 2);
+        const hx = ir.left + off(pos[0], ir.width - W0 * s) + (+el.dataset.hx) * W0 * s;
+        const hy = ir.top + off(pos[1], ir.height - H0 * s) + (+el.dataset.hy) * H0 * s;
+        if (hx > pr.left + 8 && hx < pr.right - 8 && hy > pr.top + 8 && hy < pr.bottom - 8) T = [hx, hy];
+      }
+    }
+    if (!T) {
+      if (where === 'before') T = [pr.left + pr.width * fx, pr.top + dy];
+      else if (where === 'after') T = [pr.left + pr.width * fx, pr.bottom - dy];
+      else if (where === 'beside') T = [(r.left >= pr.right - 4) ? pr.right - 70 : pr.left + 70, pr.top + pr.height * 0.40];
+      else return;
+    }
     const C = [P.cx * sx, P.cy * sy];
     const Tl = [T[0] - r.left, T[1] - r.top];
     const ang = Math.atan2(Tl[1] - C[1], Tl[0] - C[0]);
@@ -753,6 +772,37 @@ def main():
         ids = [p["id"] for p in panels]
         panels = panels[ids.index(a_): ids.index(b_) + 1]
 
+    # Speaker positions from Codex's panel review (art/REVIEW.json, then REVIEW_*.json written by art chats, later wins).
+    # A visible speaker's bubble goes on the side where they are drawn and its tail aims at their head; a speaker who
+    # is not drawn in the panel (or is marked offpanel:) gets an off-panel tail that points out past the panel edge.
+    heads = {}
+    for rv in sorted(ART.glob("REVIEW*.json"), key=lambda q: (q.name != "REVIEW.json", q.name)):
+        try:
+            for pid_, v_ in json.loads(rv.read_text(encoding="utf-8")).items():
+                if isinstance(v_, dict) and isinstance(v_.get("heads"), dict):
+                    heads[pid_] = v_["heads"]
+        except Exception as ex_:
+            warnings.append(f"REVIEW FILE UNREADABLE: {rv.name}: {ex_}")
+    SPEAKER_TYPES = {"speech", "nervous", "thought", "whisper", "shout", "menace", "monster"}
+    n_aim = n_off = 0
+    for p in panels:
+        H = heads.get(p["id"])
+        for ln in p.get("lines") or []:
+            if not isinstance(ln, dict) or ln.get("type", "speech") not in SPEAKER_TYPES:
+                continue
+            who = str(ln.get("who", ""))
+            sid = who.split(":", 1)[1] if who.startswith("offpanel:") else who
+            box = (H or {}).get(sid)
+            if who.startswith("offpanel:") or (H is not None and not box):
+                ln["_off"] = True
+                n_off += 1
+            elif isinstance(box, (list, tuple)) and len(box) == 4:
+                cx = (box[0] + box[2]) / 2
+                ln["_head"] = (cx, box[1] + (box[3] - box[1]) * 0.6)
+                ln["side"] = "l" if cx < 0.42 else "r" if cx > 0.58 else "c"
+                n_aim += 1
+    print(f"speakers: {n_aim} tails aimed at drawn heads, {n_off} off-panel lines, review for {len(heads)} panels")
+
     with sync_playwright() as pw:
         br = pw.chromium.launch()
         page = br.new_page()
@@ -923,6 +973,10 @@ def main():
                 attr = f' data-a="L{state["line_no"]}"'
                 lines_meta.append({"i": state["line_no"], "who": ln.get("who", "narr"), "type": t, "text": ln["text"], "panel_id": it["panel"]})
             common = f'data-panel="{E(it["panel"])}" data-side="{side}" data-where="{where}" data-type="{t}"'
+            if ln.get("_off"):
+                common += ' data-off="1"'
+            elif ln.get("_head"):
+                common += f' data-hx="{ln["_head"][0]:.3f}" data-hy="{ln["_head"][1]:.3f}"'
             if t in BITMAP_TYPES:
                 e, sx, sy = it["blank"], it["sx"], it["sy"]
                 rx, ry, rw, rh = e["rect"]
