@@ -67,8 +67,8 @@ panels:
       The grey-blue curtain behind his head is closed. Hard-edged shadow shapes; no glow haze.
     calm: top-left
     lines:
-      - {who: narr, type: tag, text: "2:46 AM"}
-      - {who: taeo, type: float, text: "IN THE TUNNEL, I COULDN'T FEEL HIM. NOT ONCE."}
+      - {who: "narr", type: "tag", text: "2:46 AM"}
+      - {who: "taeo", type: "float", text: "IN THE TUNNEL, I COULDN'T FEEL NIB. NOT ONCE."}
     notes: "The same night as ch 11's hook (the late news about the Dokgo porter). No green screen: the screen faces away."
 
   - id: P03
@@ -84,8 +84,8 @@ panels:
       The door's lever handle and the grey shoe cabinet as dark simple shapes.
     calm: none
     lines:
-      - {who: nib, type: speech, side: r, text: "TURN OFF THE SHOUTING BRICK."}
-      - {who: "offpanel:taeo", type: whisper, side: l, text: "SORRY. ONE MORE."}
+      - {who: "nib", type: "speech", side: "r", text: "TURN OFF THE SHOUTING BRICK."}
+      - {who: "offpanel:taeo", type: "whisper", side: "l", text: "SORRY. ONE MORE LECTURE."}
     notes: "Runner: Nib calls Taeo's phone 'the shouting brick'. His sleeping place by the door follows ch 6 P01."
 
   - id: P04
@@ -99,9 +99,20 @@ panels:
     ui:
       - {kind: phone.info_card, on: screen, hand: taeo_pov_ots, title: "AAO OPEN LECTURES", text: "THE CARTOGRAPHER'S BASICS: ATTENTION AND CONTROL · Lecture 9 of 12 · Park Doyun, S-rank summoner · Now playing: audience questions"}
     lines:
-      - {who: park_doyun, type: phone, side: l, text: "IF IT SEEMS TO WANT SOMETHING, ASK WHAT **YOU** WANT."}
-      - {who: "offpanel:nib", type: speech, side: r, text: "I WANT SLEEP."}
+      - {who: "offpanel:park_doyun", type: "phone", side: "c", text: "IF IT SEEMS TO WANT SOMETHING, ASK WHAT **YOU** WANT."}
     notes: "Kit art taeo_pov_ots: Taeo's hand holding his phone in a dark bedroom with a lamp. The series title is the beats' title. 'AAO Open Lectures', the public library that hosts it, is decided here. Doyun is answering an audience question: he believes a construct that seems to want things is a mirror (he holds this view until ch 89)."
+
+  - id: P04a
+    shape: "tall"
+    gap: "short"
+    bg: "black"
+    camera: "medium from near the bed, straight toward Nib seated by the door"
+    art: >
+      Taeo's flat at 2:46 AM (taeo_flat key). Nib (nib, default: adult, wiry, olive-green, V-notch in the LEFT ear, one lower fang on the left, brown rope belt, pouch on the RIGHT hip with Haru's small green dinosaur sticker, brown wooden sheath on the LEFT hip, barefoot) sits centred by the door with his blanket over his head and shoulders, knees up. One amber eye is open, trained toward Taeo off to the left, utterly deadpan and exhausted. His long limbs and bare feet fit comfortably in this tall frame. Simplified grey shoe cabinet and closed door behind him. A little warm desk-lamp orange reaches his cheek from the right; most of the room is deep blue-grey. Hard cel shading. No interface light, no lettering, no extra people.
+    calm: "top"
+    lines:
+      - {who: "nib", type: "speech", side: "c", text: "I WANT SLEEP."}
+    notes: "Clarity split of P04: Doyun's recorded advice stays on the phone insert. Nib's reply gets his own visible reaction, preserving the sleep joke. New panel has no art yet."
 
   - id: P05
     kind: title
@@ -141,9 +152,9 @@ panels:
       phone, caught by the question. Fence and orange mesh simplified behind them; a strip of sky.
     calm: right
     lines:
-      - {who: nib, type: speech, side: l, text: "WHAT'S 'VOLUNTARILY'?"}
-      - {who: taeo, type: speech, side: r, text: "ON HIS OWN."}
-      - {who: nib, type: speech, side: l, text: "THEN SOMEBODY SAW HIM GO. WHO?"}
+      - {who: "nib", type: "speech", side: "l", text: "WHAT'S 'VOLUNTARILY'?"}
+      - {who: "taeo", type: "speech", side: "c", text: "BY HIS OWN CHOICE."}
+      - {who: "nib", type: "speech", side: "l", text: "THEN SOMEBODY SAW THE PORTER LEAVE. WHO?"}
 
   - id: P08
     shape: strip
@@ -155,8 +166,8 @@ panels:
       Flat pale background; one hard shadow under the brow.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: r, text: "...IT DOESN'T SAY."}
-      - {who: "offpanel:nib", type: speech, side: l, text: "THEN NOBODY SAW."}
+      - {who: "taeo", type: "speech", side: "r", text: "THE REPORT DOESN'T NAME A WITNESS."}
+      - {who: "offpanel:nib", type: "speech", side: "l", text: "THEN NO WITNESS."}
     notes: "Nib's watchman logic: if he walked off, someone watched him go. Arc II issue: porters erased."
 
   - id: P09
@@ -170,9 +181,9 @@ panels:
       Ochre dirt begins at their feet; the street behind them in morning sun.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "IN THERE, I PRESSED THE WALL. LIKE AT YOUR STORE."}
-      - {who: taeo, type: speech, side: r, text: "...I DIDN'T FEEL ANYTHING."}
-      - {who: nib, type: speech, side: l, text: "THEN FIND OUT."}
+      - {who: "nib", type: "speech", side: "l", text: "IN THE TUNNEL GATE, I PRESSED THE WALL. LIKE AT YOUR STORE."}
+      - {who: "taeo", type: "speech", side: "r", text: "I DIDN'T FEEL THE PRESSURE."}
+      - {who: "nib", type: "speech", side: "l", text: "THEN FIND OUT WHY."}
     notes: "'In there': inside the ch 10–11 tunnel gate. 'Like at your store': ch 6's hook, when Nib pressed his palm to the Hanbit Mart break-room wall and Taeo felt it in the stockroom. 'THEN FIND OUT.' is Nib's ch 2 line. Motif: Taeo holds the door and Nib goes first. Point none of this out."
 
   - id: P10
@@ -207,9 +218,9 @@ panels:
       Nib watches the mule from a step back with a professional's disdain. Hard sun, ochre dirt, plywood grain.
     calm: top
     lines:
-      - {who: crew_man, type: shout, side: l, text: "I SAID 'GO AROUND AND STOP'!"}
-      - {who: taeo, type: speech, side: r, text: "SORRY, UM. ONE WORD AT A TIME. JUST 'STOP.'"}
-      - {who: crew_man, type: speech, side: l, text: "...STOP."}
+      - {who: "crew_man", type: "shout", side: "l", text: "I SAID 'GO AROUND AND STOP'!"}
+      - {who: "taeo", type: "speech", side: "r", text: "SORRY. ONE COMMAND AT A TIME. JUST SAY 'STOP.'"}
+      - {who: "crew_man", type: "speech", side: "l", text: "STOP."}
     sfx:
       - {text: "SKRITCH SKRITCH", style: comic, at: [0.24, 0.84], size: S, rot: 0}
     notes: "Beats: Doyun's lectures help with constructs. One verb at a time."
@@ -244,8 +255,8 @@ panels:
       stands with his arms folded, completely unaffected: one big flat stare. Flat pale ochre background with screentone dots.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: l, text: "LECTURE FOUR. 'HOLD YOUR CONSTRUCT IN ONE POINT OF ATTENTION.'"}
-      - {who: nib, type: speech, side: r, text: "I'M NOT IN LECTURE FOUR."}
+      - {who: "taeo", type: "speech", side: "c", text: "LECTURE FOUR. 'FOCUS YOUR ATTENTION ON ONE CONSTRUCT.'"}
+      - {who: "nib", type: "speech", side: "r", text: "I'M NOT IN LECTURE FOUR."}
     notes: "Beats: the lectures explain nothing about Nib. 'One point' returns in P26, where it helps Taeo's half of the link."
 
   - id: P14
@@ -259,9 +270,9 @@ panels:
       Simplified background: the radio rack and a strip of sky-blue.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "IN THE TUNNEL, IT WENT DARK AT THE THRESHOLD."}
-      - {who: haein, type: speech, side: r, text: "DARK HOW? ALL AT ONCE, OR FADING?"}
-      - {who: taeo, type: speech, side: l, text: "...I WAS TOO SCARED TO NOTICE."}
+      - {who: "taeo", type: "speech", side: "l", text: "MY PALM'S AMBER PULSE WENT DARK WHEN NIB CROSSED THE TUNNEL GATE."}
+      - {who: "haein", type: "speech", side: "r", text: "DID THE LIGHT STOP AT ONCE, OR FADE?"}
+      - {who: "taeo", type: "speech", side: "l", text: "I WAS TOO SCARED TO NOTICE."}
     notes: "ch 10's hook: the amber pulse went dark at the threshold. Haein sat with him at the radio table in ch 11."
 
   - id: P15
@@ -274,7 +285,7 @@ panels:
       One crisp highlight on the lenses. Plain sky-blue behind.
     calm: left
     lines:
-      - {who: haein, type: speech, side: c, text: "THEN WE MEASURE IT."}
+      - {who: "haein", type: "speech", side: "r", text: "THEN WE MEASURE THE PULSE."}
 
   - id: P16
     shape: wide
@@ -304,9 +315,9 @@ panels:
       temple catches the sun. Simple background.
     calm: left
     lines:
-      - {who: minho, type: speech, side: r, text: "A RADIO TELLS ME WHERE MY SCOUT IS."}
-      - {who: minho, type: speech, side: r, text: "NOT THAT THE PROP HE'S HOLDING IS SLIPPING."}
-      - {who: minho, type: speech, side: r, text: "ONE HOUR. THE ACADEMY PAYS FOR IT BY THE HOUR."}
+      - {who: "minho", type: "speech", side: "c", text: "RADIOS TELL ME WHERE MY SCOUT IS."}
+      - {who: "minho", type: "speech", side: "c", text: "THEY DON'T TELL ME WHEN HIS SUPPORT BEAM IS SLIPPING."}
+      - {who: "minho", type: "speech", side: "c", text: "ONE HOUR. THE ACADEMY PAYS TO RENT THIS GATE."}
     notes: "Why Minho cares (v3 power ladder, 10–20: radios report positions but cannot say a support is about to slip). Sets up ch 15. Lending the gate costs him rental income; nobody else uses the cage today, so the chalk line and Taeo's footprints are still there at dusk (P60)."
 
   # ---------------- THE TRAINING GATE ----------------
@@ -343,9 +354,9 @@ panels:
       Haein, right, holds the open mesh door and explains with a shrug, as if it were obvious. The slit's green-violet glow sits low behind them.
     calm: top
     lines:
-      - {who: minho, type: speech, side: l, text: "ONE RULE. NOBODY STEPS ON THE BOSS."}
-      - {who: taeo, type: nervous, side: c, text: "THE... BOSS?"}
-      - {who: haein, type: speech, side: r, text: "A SNAIL. IF IT DIES, THE GATE CLOSES AND WE LOSE THE LICENCE."}
+      - {who: "minho", type: "speech", side: "l", text: "ONE RULE. NOBODY STEPS ON THE BOSS."}
+      - {who: "taeo", type: "nervous", side: "c", text: "THIS GATE HAS A BOSS?"}
+      - {who: "haein", type: "speech", side: "r", text: "A SNAIL. IF IT DIES, THE GATE CLOSES AND WE LOSE THE LICENCE."}
     notes: "World rule shown as a joke: killing a dungeon's boss closes its gate (STORY_BIBLE §5)."
 
   - id: P20
@@ -359,9 +370,9 @@ panels:
       The slit hums behind her, its green light on the dirt. Ochre ground, grey mesh.
     calm: top
     lines:
-      - {who: haein, type: speech, side: l, text: "THREE IDENTICAL BEAMS IN THERE, PROPPING UP A BOARD OF SANDBAGS."}
-      - {who: haein, type: speech, side: l, text: "HE PULLS THIS PIN ON ONE. HIS CHOICE. THEN LEANS ON ALL THREE, IN ORDER."}
-      - {who: haein, type: speech, side: l, text: "YOU SIT BEHIND THIS LINE, BLINDFOLDED, AND TELL ME WHICH SLIPS."}
+      - {who: "haein", type: "speech", side: "c", text: "THREE IDENTICAL BEAMS HOLD UP THE SANDBAGS. NIB WILL REMOVE ONE BEAM'S PIN."}
+      - {who: "haein", type: "speech", side: "c", text: "NIB CHOOSES WHICH BEAM. THEN HE LEANS ON ALL THREE, LEFT TO RIGHT."}
+      - {who: "haein", type: "speech", side: "c", text: "THREE TESTS. YOU SIT BEHIND THIS LINE, BLINDFOLDED, AND TELL ME WHICH BEAM SLIPS."}
     notes: "Lock the chalk line: Taeo crosses it in P39, and Minho's hook (P60–P61) is about the footprints over it. Nobody outside knows which beam Nib rigs."
 
   - id: P21
@@ -376,9 +387,9 @@ panels:
       Flat ochre background, screentone dots.
     calm: left
     lines:
-      - {who: taeo, type: nervous, side: l, text: "IS THIS A SOCK?"}
-      - {who: haein, type: speech, side: r, text: "IT'S CLEAN."}
-      - {who: haein, type: speech, side: r, text: "MOSTLY."}
+      - {who: "taeo", type: "nervous", side: "c", text: "IS THIS A SOCK?"}
+      - {who: "haein", type: "speech", side: "r", text: "IT'S CLEAN."}
+      - {who: "haein", type: "speech", side: "r", text: "MOSTLY."}
 
   - id: P22
     shape: wide
@@ -392,9 +403,9 @@ panels:
       stopwatch; Minho stands behind them with folded arms. The rim's cold light falls on Nib's back.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "DON'T GUESS."}
-      - {who: nib, type: speech, side: l, text: "IF YOU FEEL NOTHING, SAY NOTHING."}
-      - {who: taeo, type: speech, side: r, text: "...OKAY."}
+      - {who: "nib", type: "speech", side: "l", text: "DON'T GUESS."}
+      - {who: "nib", type: "speech", side: "l", text: "IF YOU FEEL NOTHING, SAY NOTHING."}
+      - {who: "taeo", type: "speech", side: "r", text: "OKAY."}
     notes: "Nib's rule echoes Minho's ch 7 rule ('NOBODY GUESSES')."
 
   - id: P23
@@ -410,7 +421,7 @@ panels:
       Ochre dirt; the gate's violet, the cold rim and the green are the only saturated colours. A few sharp particles at the rim only.
     calm: top
     lines:
-      - {who: haein, type: speech, side: r, text: "RUN ONE."}
+      - {who: "haein", type: "speech", side: "l", text: "RUN ONE."}
     sfx:
       - {text: "VMMMM", style: gate, at: [0.82, 0.20], size: L, rot: 90}
       - {text: "TIK", style: quiet, at: [0.80, 0.88], size: S, rot: 0}
@@ -457,8 +468,8 @@ panels:
       it flickers. His fingers twitch. Plain background.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "ONE POINT. HOLD STILL."}
-      - {who: taeo, type: whisper, side: c, text: "ONE... HOLDING."}
+      - {who: "taeo", type: "float", text: "ONE BEAM AT A TIME. HOLD THE LINK."}
+      - {who: "offpanel:taeo", type: "whisper", side: "c", text: "BEAM ONE HOLDS."}
     notes: "Doyun's lecture-four advice (P13) helps Taeo's half of the link. The link crosses the threshold in pieces a few seconds long."
 
   - id: P27
@@ -485,8 +496,7 @@ panels:
       clench by reflex. Plain background.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: c, text: "TWO."}
-      - {who: taeo, type: speech, side: c, text: "TWO'S MOVING."}
+      - {who: "offpanel:taeo", type: "speech", side: "c", text: "BEAM TWO IS MOVING."}
 
   - id: P29
     shape: wide
@@ -499,8 +509,8 @@ panels:
       her eyebrows go up. Behind them, Minho unfolds his arms.
     calm: top
     lines:
-      - {who: haein, type: speech, side: l, text: "TWO FINGERS. YOU SAID TWO."}
-      - {who: haein, type: speech, side: l, text: "...THAT'S A HIT."}
+      - {who: "haein", type: "speech", side: "l", text: "NIB'S HOLDING UP TWO FINGERS. YOU CALLED BEAM TWO."}
+      - {who: "haein", type: "speech", side: "l", text: "THAT'S A HIT."}
     sfx:
       - {text: "TTOK TTOK TTOK", style: quiet, at: [0.82, 0.26], size: M, rot: 0}
     notes: "Motif: three knocks on the rim from inside mean 'coming' (ch 10). Nib knocks before every exit."
@@ -527,8 +537,8 @@ panels:
       Taeo, blindfolded, chews his lip as the seconds drag, then decides, too fast. At the panel's left edge, Haein's pencil hovers over the clipboard.
     calm: left
     lines:
-      - {who: haein, type: speech, side: l, text: "CALL IT."}
-      - {who: taeo, type: nervous, side: r, text: "...TWO?"}
+      - {who: "offpanel:haein", type: "speech", side: "l", text: "CALL IT."}
+      - {who: "taeo", type: "nervous", side: "c", text: "TWO?"}
 
   - id: P32
     shape: wide
@@ -540,9 +550,9 @@ panels:
       Facing him beyond the chalk line: Taeo, blindfolded on his crate; Haein tapping the clipboard with her pencil; Minho, stone-faced.
     calm: top
     lines:
-      - {who: haein, type: speech, side: r, text: "ONE FINGER. MISS."}
-      - {who: nib, type: speech, side: l, text: "THAT WAS A GUESS."}
-      - {who: taeo, type: nervous, side: r, text: "SORRY—"}
+      - {who: "haein", type: "speech", side: "r", text: "NIB'S HOLDING UP ONE FINGER. YOU MISSED."}
+      - {who: "nib", type: "speech", side: "l", text: "THAT WAS A GUESS."}
+      - {who: "taeo", type: "nervous", side: "c", text: "SORRY."}
     notes: "Taeo's flaw on the page, small: he would rather guess than say he has nothing (ch 14 grows it)."
 
   - id: P33
@@ -569,8 +579,8 @@ panels:
       the slit, not the man. Haein's thumb on the stopwatch.
     calm: top
     lines:
-      - {who: haein, type: speech, side: r, text: "RUN THREE."}
-      - {who: taeo, type: float, text: "DON'T GUESS."}
+      - {who: "offpanel:haein", type: "speech", side: "r", text: "RUN THREE."}
+      - {who: "taeo", type: "float", text: "DON'T GUESS."}
     sfx:
       - {text: "VMMMM", style: gate, at: [0.70, 0.30], size: M, rot: 90}
 
@@ -583,8 +593,7 @@ panels:
       Taeo's palm: an amber press comes, steady and clear; on the right half of the strip, a second clear press. The fingers stay still.
     calm: top
     lines:
-      - {who: taeo, type: whisper, side: c, text: "ONE. HOLDING."}
-      - {who: taeo, type: whisper, side: c, text: "TWO. HOLDING."}
+      - {who: "offpanel:taeo", type: "whisper", side: "c", text: "BEAM ONE HOLDS. BEAM TWO HOLDS."}
 
   - id: P36
     shape: inset-r
@@ -640,7 +649,7 @@ panels:
       Haein half-rises behind him, the clipboard sliding off her knees. Focus lines. Hard sun.
     calm: top
     lines:
-      - {who: taeo, type: shout, side: c, text: "THREE!! NIB—!"}
+      - {who: "taeo", type: "shout", side: "c", text: "BEAM THREE! NIB!"}
     sfx:
       - {text: "KLATTER", style: impact, at: [0.16, 0.82], size: M, rot: 14}
     notes: "He calls the right beam, then goes toward the gate himself, blind. This is what Minho saw (P46, P60–P61)."
@@ -695,7 +704,7 @@ panels:
       He does not know his upper lip is red. The edges fade into the white page.
     calm: bottom
     lines:
-      - {who: taeo, type: speech, side: c, text: "TWO OUT OF THREE."}
+      - {who: "taeo", type: "speech", side: "c", text: "TWO RIGHT OUT OF THREE TESTS."}
 
   - id: P44
     shape: wide
@@ -721,9 +730,9 @@ panels:
       unexpectedly gentle hands. Nib's face: close, deadpan, watching.
     calm: left
     lines:
-      - {who: nib, type: speech, side: l, text: "HEAD FORWARD. PINCH."}
-      - {who: nib, type: speech, side: l, text: "IS THAT FROM ME?"}
-      - {who: taeo, type: speech, side: r, text: "...I DON'T KNOW."}
+      - {who: "nib", type: "speech", side: "c", text: "HEAD FORWARD. PINCH."}
+      - {who: "nib", type: "speech", side: "c", text: "IS YOUR NOSEBLEED FROM MY LINK?"}
+      - {who: "taeo", type: "speech", side: "r", text: "I DON'T KNOW."}
     notes: "Kett's mark on the pencil (ch 5), unremarked. This time Taeo answers honestly instead of guessing."
 
   - id: P46
@@ -737,9 +746,9 @@ panels:
       Hard sun, ochre, the slit's green glow behind.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "GOOD ANSWER."}
-      - {who: haein, type: speech, side: r, text: "THREE RUNS. TWO HITS. ONE NOSEBLEED."}
-      - {who: taeo, type: speech, side: c, text: "IT COMES THROUGH IN PIECES. A FEW SECONDS AT A TIME."}
+      - {who: "nib", type: "speech", side: "c", text: "GOOD ANSWER."}
+      - {who: "haein", type: "speech", side: "r", text: "THREE RUNS. TWO HITS. ONE NOSEBLEED."}
+      - {who: "taeo", type: "speech", side: "c", text: "I FEEL NIB'S PRESSURE THROUGH THE GATE. ONLY A FEW SECONDS AT A TIME."}
     notes: "Power (v3, 10–20): Taeo feels one linked person's pressure across one threshold, in pieces a few seconds long; it cannot tell him why. Minho is looking at Taeo's footprints over the line (paid off in P60)."
 
   - id: P47
@@ -754,9 +763,9 @@ panels:
       Chibi Nib beside him, arms folded, nods once. Flat ochre background with screentone.
     calm: right
     lines:
-      - {who: minho, type: speech, side: l, text: "THE BOSS?"}
-      - {who: nib, type: speech, side: r, text: "ALIVE."}
-      - {who: minho, type: speech, side: l, text: "...THAT ONE'S YOU."}
+      - {who: "minho", type: "speech", side: "l", text: "DID THE SNAIL SURVIVE?"}
+      - {who: "nib", type: "speech", side: "r", text: "ALIVE."}
+      - {who: "minho", type: "speech", side: "l", text: "THAT NEW WHITE HAIR IS YOURS, TAEO."}
     notes: "Runner (STORY_BIBLE §9, started ch 7 P16): Minho's grey streak gains a hair. This one is for Taeo walking at the gate."
 
   # ---------------- THE TOW ----------------
@@ -787,10 +796,10 @@ panels:
       reading off it. Minho, facing him, does not take the stylus; he looks past him at the van, fists in his jacket pockets.
     calm: top
     lines:
-      - {who: repo_man, type: speech, side: l, text: "RYU SURVEY. VEHICLE ONE OF THREE. NOTHING PERSONAL."}
-      - {who: repo_man, type: speech, side: l, text: "TOWING'S TWO HUNDRED TWENTY THOUSAND. IT GOES ON YOUR BALANCE."}
-      - {who: minho, type: speech, side: r, text: "...THE KEYS ARE IN IT."}
-      - {who: narr, type: footnote, text: "*₩220,000 ≈ US$160"}
+      - {who: "repo_man", type: "speech", side: "l", text: "BLUEBIRD IS REPOSSESSING ONE OF YOUR THREE VANS. NOTHING PERSONAL."}
+      - {who: "repo_man", type: "speech", side: "l", text: "THE ₩220,000 TOWING FEE GOES ON YOUR DEBT."}
+      - {who: "minho", type: "speech", side: "r", text: "THE KEYS ARE IN THE VAN."}
+      - {who: "narr", type: "footnote", text: "*₩220,000 ≈ US$160"}
     notes: "Bluebird's man is reasonable and doing his job (STORY_BIBLE §4 rule 3). 'One of three': ch 23 takes the second van, ch 28–29 the last. The total debt (₩310,000,000) stays hidden until ch 26."
 
   - id: P50
@@ -803,7 +812,7 @@ panels:
       pressed to her chest with both arms. Face set, eyes dry, mouth tight.
     calm: right
     lines:
-      - {who: haein, type: speech, side: l, text: "DAD'S NOTEBOOKS. THEY DON'T GET THOSE."}
+      - {who: "haein", type: "speech", side: "c", text: "DAD'S NOTEBOOKS. THEY DON'T GET THOSE."}
 
   - id: P51
     shape: wide
@@ -816,9 +825,8 @@ panels:
       Taeo's hand rests on Nib's shoulder.
     calm: top
     lines:
-      - {who: haein, type: speech, side: r, text: "IT WAS DAD'S FIRST VAN."}
-      - {who: nib, type: speech, side: r, text: "THEY'RE TAKING IT."}
-      - {who: "offpanel:minho", type: speech, side: l, text: "THEY'RE ALLOWED."}
+      - {who: "haein", type: "speech", side: "r", text: "IT WAS DAD'S FIRST VAN."}
+      - {who: "offpanel:minho", type: "speech", side: "l", text: "BLUEBIRD CAN TAKE THE VAN. WE OWE THEM."}
     sfx:
       - {text: "KLAK KLAK KLAK", style: quiet, at: [0.34, 0.52], size: M, rot: -20}
 
@@ -889,8 +897,8 @@ panels:
       Taeo looks up at Minho as the word lands: Guro. His eyes widen; last night's news is in his face (no flashback image). Dusk light.
     calm: left
     lines:
-      - {who: "offpanel:minho", type: speech, side: l, text: "PORTERS FROM DOKGO CONTRACTING."}
-      - {who: taeo, type: speech, side: r, text: "DOKGO... THE MISSING PORTER?"}
+      - {who: "offpanel:minho", type: "speech", side: "l", text: "PORTERS FROM DOKGO CONTRACTING."}
+      - {who: "taeo", type: "speech", side: "r", text: "THE COMPANY FROM THE MISSING PORTER STORY?"}
 
   - id: P57
     shape: inset-l
@@ -901,7 +909,7 @@ panels:
       Minho, backlit by the low sun, looks down at Taeo: he knows exactly what he is doing and he hates it. A hard, tired face.
     calm: right
     lines:
-      - {who: minho, type: speech, side: l, text: "I KNOW."}
+      - {who: "minho", type: "speech", side: "c", text: "I KNOW WHICH COMPANY."}
 
   - id: P58
     shape: wide
@@ -913,9 +921,9 @@ panels:
       answers at once without looking at Taeo. Then Minho's eyes move to Taeo on the crate between them, mouth half open. Dusk gold, long shadows.
     calm: top
     lines:
-      - {who: minho, type: speech, side: r, text: "YOU'D WALK OUR SURVEY LINE. IF YOU WANT IT."}
-      - {who: nib, type: speech, side: l, text: "I'M IN."}
-      - {who: minho, type: speech, side: r, text: "YOU STAY OUTSIDE."}
+      - {who: "minho", type: "speech", side: "r", text: "NIB. YOU'D SCOUT OUR SURVEY LINE, IF YOU WANT THE JOB."}
+      - {who: "nib", type: "speech", side: "l", text: "I'M IN."}
+      - {who: "minho", type: "speech", side: "r", text: "TAEO. YOU STAY OUTSIDE."}
     notes: "Nib chooses for himself. 'I'M IN' against 'YOU STAY OUTSIDE'. Nib's Thursday day rate is not stated here."
 
   - id: P59
@@ -927,7 +935,7 @@ panels:
       Taeo, napkin in his nostril, answers too quickly, almost offended: of course he does. A small defensive frown.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: r, text: "I ALWAYS STAY OUTSIDE."}
+      - {who: "taeo", type: "speech", side: "c", text: "I ALWAYS STAY OUTSIDE."}
 
   - id: P60
     shape: strip
@@ -947,12 +955,8 @@ panels:
     bg: white
     camera: "low, from just beside the slit's rim, looking out at the three of them"
     art: >
-      THE HOOK. From low beside the squat slit: its cold white-cyan rim frames the left edge and its green-violet light falls on everyone from below.
-      Top: the dusk sky and Minho's head. Minho stands between the gate and Taeo, close to camera, looking down at Taeo, one finger pointing down at
-      the scuffed chalk line and the prints in front of Taeo's sneakers. Middle: Taeo on the crate, napkin in his nostril, dried blood on his lip,
-      eyes lifting from the prints to Minho: caught. Nib, beside the crate, looks not at Minho but at Taeo.
-      Bottom: the broken chalk line, the prints, Taeo's backpack with the faded orange patch.
-      Golden-orange dusk behind them; cold rim light on their faces. Adult faces, quiet and heavy; Nib never cute.
+      THE HOOK. From low beside the squat slit: its cold white-cyan rim frames the left edge and its green-violet light falls on everyone from below. Top: the dusk sky and Minho's head. Minho stands between the gate and Taeo, close to camera, looking down at Taeo, one finger pointing down at the scuffed chalk line and the prints in front of Taeo's sneakers. Middle: Taeo on the crate, napkin in his nostril, dried blood on his lip, eyes lifting from the prints to Minho: caught. Nib, beside the crate, looks not at Minho but at Taeo. Bottom: the broken chalk line, the prints, Taeo's backpack with the faded orange patch. Golden-orange dusk behind them; cold rim light on their faces. Adult faces, quiet and heavy; Nib never cute.
+      Minho stands in the middle third, Taeo sits on the right, and Nib sits on the left beside the crate. Leave full height for Minho and ample room around both seated figures.
     calm: top
     lines:
       - {who: minho, type: speech, side: c, text: "YOU **STAY** OUTSIDE."}

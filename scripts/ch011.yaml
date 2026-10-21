@@ -96,8 +96,8 @@ panels:
     ui:
       - {kind: label, text: "06:12", at: [0.47, 0.62], size: 30, color: "#2B2523", rot: 0, notes: "the stopwatch LCD; move onto its face once the art exists"}
     lines:
-      - {who: narr, type: tag, text: "SUBWAY MAINTENANCE TUNNEL · OUTSIDE THE GATE · 6 MINUTES IN"}
-      - {who: haein, type: speech, side: l, text: "STILL NOTHING."}
+      - {who: "narr", type: "tag", text: "SUBWAY MAINTENANCE TUNNEL · OUTSIDE THE GATE · 6 MINUTES IN"}
+      - {who: "haein", type: "speech", side: "l", text: "STILL NO RADIO SIGNAL."}
     sfx:
       - {text: "KSSSHHHH", style: quiet, at: [0.40, 0.56], size: S, rot: -4}
       - {text: "VMMMM", style: gate, at: [0.20, 0.32], size: M, rot: 90}
@@ -114,8 +114,8 @@ panels:
       tool belt, red-orange vest. Plain grey wall behind and a sliver of violet light at the edge.
     calm: right
     lines:
-      - {who: haein, type: speech, side: l, text: "LOW BAND, HIGH BAND. NOTHING CROSSES A THRESHOLD."}
-      - {who: haein, type: speech, side: l, text: "I KEEP TRYING ANYWAY."}
+      - {who: "haein", type: "speech", side: "c", text: "LOW BAND, HIGH BAND. NO RADIO SIGNAL GETS THROUGH."}
+      - {who: "haein", type: "speech", side: "c", text: "I KEEP TRYING ANYWAY."}
     notes: "Ch 10's rule (P47–P48, the beacon on a pole), restated by the one person who tests it: radios drop out at thresholds. 'I KEEP TRYING ANYWAY' is answered at P18 (why) and P45a (how)."
 
   - id: P06
@@ -130,8 +130,8 @@ panels:
       arms windmilling a little, a big sweat drop. The steel frame and the violet slit at the right edge. Hard white light, simple concrete.
     calm: top-left
     lines:
-      - {who: haein, type: speech, side: l, text: "LINE."}
-      - {who: taeo, type: nervous, side: r, text: "S-SORRY."}
+      - {who: "haein", type: "speech", side: "l", text: "STAY BEHIND THE TAPE."}
+      - {who: "taeo", type: "nervous", side: "r", text: "S-SORRY."}
     sfx:
       - {text: "TUG", style: comic, at: [0.42, 0.40], size: M, rot: -8}
     notes: "Comedy face (ART_BIBLE A5)."
@@ -147,8 +147,8 @@ panels:
       Wall and cable tray simplified.
     calm: left
     lines:
-      - {who: sejin, type: speech, side: r, text: "FORTY MINUTES, THEN YOU KNOCK. IT'S BEEN SIX."}
-      - {who: taeo, type: speech, side: l, text: "...I KNOW."}
+      - {who: "sejin", type: "speech", side: "r", text: "KNOCK AFTER FORTY MINUTES INSIDE. IT'S BEEN SIX."}
+      - {who: "offpanel:taeo", type: "speech", side: "l", text: "I KNOW."}
     notes: "The plan from ch 10 (P48, P51): a 40-minute first leg; at 40:00 Taeo knocks twice on the frame ('come back'); three knocks from inside mean 'coming'."
 
   - id: P08
@@ -233,8 +233,8 @@ panels:
       streak in the cliff a little nearer.
     calm: bottom-right
     lines:
-      - {who: nib, type: phone, side: l, text: "GRIT ON THE LEFT. KEEP RIGHT."}
-      - {who: minho, type: speech, side: r, text: "SEEN."}
+      - {who: "nib", type: "phone", side: "l", text: "GRIT ON THE LEFT. KEEP RIGHT."}
+      - {who: "minho", type: "speech", side: "l", text: "SEEN."}
     notes: "Radios work between people on the same side of a threshold. Nib's voice comes out of Minho's chest radio, so it is a phone-voice bubble with its tail to the radio. 'SEEN.' is Minho's radio word (ch 7). Nib's palm on the wall is a quiet test of the link, as he pressed the frame in ch 10 P55 and the wall in ch 6; outside, Taeo feels nothing. Ch 12 P09 refers back to it ('IN THERE, I PRESSED THE WALL'). Don't explain it here."
 
   # ---------------- OUTSIDE: TWENTY MINUTES ----------------
@@ -266,9 +266,9 @@ panels:
       back of his neck, ears pink. Simplified background.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: r, text: "...SORRY."}
-      - {who: sejin, type: speech, side: l, text: "I'M PAID TO WAIT. YOU'RE NOT. SIT DOWN."}
-      - {who: taeo, type: speech, side: r, text: "I'M FINE."}
+      - {who: "taeo", type: "speech", side: "r", text: "SORRY."}
+      - {who: "sejin", type: "speech", side: "l", text: "I'M PAID TO WAIT. YOU'RE NOT. SIT DOWN."}
+      - {who: "taeo", type: "speech", side: "r", text: "I'M FINE."}
     notes: "Ch 10: Sejin is on ₩300,000 a day to wait at the mouth; Taeo is unpaid. He does not sit until his legs decide for him (P39)."
 
   - id: P15
@@ -283,8 +283,8 @@ panels:
       on his cheek.
     calm: top
     lines:
-      - {who: haein, type: speech, side: l, text: "WHY DON'T YOU JUST GO IN WITH HIM?"}
-      - {who: taeo, type: speech, side: r, text: "...I CAN'T."}
+      - {who: "haein", type: "speech", side: "l", text: "WHY DON'T YOU JUST GO IN WITH HIM?"}
+      - {who: "taeo", type: "speech", side: "r", text: "I CAN'T GO IN."}
     notes: "Echoes ch 9: '...I CAN'T GO IN.' Nobody explains why."
 
   - id: P16
@@ -297,8 +297,8 @@ panels:
       fact, without looking at him: the bluntness is how she carries it. Safety glasses on her head, red-orange vest. Plain background.
     calm: left
     lines:
-      - {who: haein, type: speech, side: r, text: "DAD USED TO GO IN FIRST. EVERY JOB."}
-      - {who: haein, type: speech, side: r, text: "NOW MINHO DOES."}
+      - {who: "haein", type: "speech", side: "c", text: "DAD USED TO GO IN FIRST. EVERY JOB."}
+      - {who: "haein", type: "speech", side: "c", text: "NOW MINHO DOES."}
     notes: "Ryu Dongsik has used a wheelchair since a survey accident (ch 10 P40: pinned inside a gate, 'MINE TOOK NINE HOURS'). The line echoes Grandpa's ch 8 hook ('YOUR FATHER WENT IN FIRST TOO') without anyone saying so. Never point at it."
 
   - id: P17
@@ -322,7 +322,7 @@ panels:
       back to the board. Simplified background, violet edge light.
     calm: right
     lines:
-      - {who: haein, type: speech, side: l, text: "I BUILD THINGS SO I DON'T HAVE TO STAND THERE LIKE YOU."}
+      - {who: "haein", type: "speech", side: "c", text: "I BUILD THINGS SO I CAN HELP FROM OUT HERE."}
     notes: "Answers P05. Haein waits outside too; she has had more practice."
 
   # ---------------- INSIDE: THE STRUT ----------------
@@ -368,9 +368,9 @@ panels:
       Nib points, headlamp on, seeing nothing yet: an honest frown. The white stone band glows in the background past the bend.
     calm: top-left
     lines:
-      - {who: nib, type: speech, side: l, text: "THAT ONE. TOP TO MIDDLE."}
-      - {who: minho, type: speech, side: r, text: "...I DON'T SEE—"}
-      - {who: nib, type: speech, side: l, text: "THE GRIT'S MOVING."}
+      - {who: "nib", type: "speech", side: "l", text: "THE LAST STRUT. THERE'S A CRACK FROM TOP TO MIDDLE."}
+      - {who: "minho", type: "speech", side: "r", text: "I DON'T SEE A CRACK."}
+      - {who: "nib", type: "speech", side: "l", text: "THE GRIT'S MOVING."}
 
   - id: P22
     shape: inset-r
@@ -382,7 +382,7 @@ panels:
       sets; the grey streak at his LEFT temple shows under the hard hat's rim. Simplified stone behind.
     calm: left
     lines:
-      - {who: minho, type: speech, side: r, text: "...SEEN."}
+      - {who: "minho", type: "speech", side: "c", text: "SEEN."}
 
   - id: P23
     shape: wide
@@ -395,9 +395,9 @@ panels:
       when he speaks he looks at Minho. The mule waits, blank. Lavender light, hard violet shadows.
     calm: top
     lines:
-      - {who: minho, type: speech, side: r, text: "THE LINE ENDS AT THE WHITE ROCK. PROP IT. ONE AT A TIME."}
-      - {who: minho, type: speech, side: r, text: "THE MULE STAYS THIS SIDE."}
-      - {who: nib, type: speech, side: l, text: "I'LL GO FIRST."}
+      - {who: "minho", type: "speech", side: "r", text: "THE WHITE OUTCROP IS OUR LAST SURVEY STATION. BRACE THE STRUT. ONE PERSON AT A TIME."}
+      - {who: "minho", type: "speech", side: "r", text: "THE MULE STAYS HERE."}
+      - {who: "nib", type: "speech", side: "l", text: "I'LL GO FIRST."}
     notes: "The survey line's last station is the white outcrop: that is the job, and it is also where Nib wants to be. Out and back: Nib first, then Minho; the crew member and the mule wait on the near side."
 
   - id: P24
@@ -427,8 +427,8 @@ panels:
       only colour.
     calm: top
     lines:
-      - {who: narr, type: tag, text: "OUTSIDE · 39 MINUTES IN"}
-      - {who: haein, type: speech, side: l, text: "TEN SECONDS."}
+      - {who: "narr", type: "tag", text: "OUTSIDE · 39 MINUTES IN"}
+      - {who: "haein", type: "speech", side: "c", text: "TEN SECONDS UNTIL FORTY MINUTES."}
     notes: "From here to P37 the page is black: dread."
 
   - id: P26
@@ -478,7 +478,7 @@ panels:
       Violet light on his face. Black background.
     calm: left
     lines:
-      - {who: taeo, type: float, text: "IF HE'S FINE, I'M NEVER SPEAKING TO HIM AGAIN."}
+      - {who: "taeo", type: "float", text: "IF NIB'S FINE, I'M NEVER SPEAKING TO HIM AGAIN."}
     notes: "Taeo gets funnier when he's scared (STORY_BIBLE §6)."
 
   - id: P30
@@ -506,8 +506,8 @@ panels:
       already on the medical pouch of her chest rig. Her face is the answer. Black background, violet edge light.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: l, text: "...TRAIN?"}
-      - {who: sejin, type: speech, side: r, text: "NOT FROM THERE."}
+      - {who: "taeo", type: "speech", side: "l", text: "TRAIN?"}
+      - {who: "sejin", type: "speech", side: "r", text: "THAT SOUND CAME THROUGH THE GATE."}
 
   - id: P32
     shape: wide
@@ -520,7 +520,7 @@ panels:
       flakes. The slit's violet on him.
     calm: top-left
     lines:
-      - {who: taeo, type: intense, side: c, text: "COME ON."}
+      - {who: "taeo", type: "intense", side: "c", text: "COME ON, NIB."}
     sfx:
       - {text: "TTOK TTOK", style: impact, at: [0.70, 0.38], size: XL, rot: 10}
     notes: "The second pair of knocks (still 'come back'). The grit-accent red is this knuckle only."
@@ -563,7 +563,7 @@ panels:
       from the slit on one side, white work light on the other.
     calm: top
     lines:
-      - {who: taeo, type: nervous, side: c, text: "...THREE."}
+      - {who: "taeo", type: "nervous", side: "c", text: "THREE."}
 
   # ---------------- OUT ----------------
   - id: P36
@@ -608,9 +608,9 @@ panels:
       it, red-eyed, still breathing hard. The slit glows behind them.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "IT'S THE SAME KIND."}
-      - {who: taeo, type: speech, side: r, text: "...THE SAME KIND AS WHAT?"}
-      - {who: nib, type: speech, side: l, text: "THE WHITE BIT. BY MY WALL."}
+      - {who: "nib", type: "speech", side: "l", text: "IT'S THE SAME KIND."}
+      - {who: "taeo", type: "speech", side: "r", text: "THE SAME KIND AS WHAT?"}
+      - {who: "nib", type: "speech", side: "l", text: "THE WHITE BIT. BY MY WALL."}
     notes: "PLANT P07. Nib's first words out of his first gate. The white bit is the blank outline beside the lower path in his ch 4 drawing of his watch post ('YOU COULD SEE THE LOWER PATH. AND THE WHITE BIT.'); ch 10 P41 has Taeo call it 'THE WHITE BIT BY YOUR WALL'. The pebble is plain stone, not an anchor fragment, and never glows (the first fragment is the ch 16 shard that glows in ch 18). Pays off in ch 46 (Sera's map: 'THAT'S THE WHITE BIT')."
 
   - id: P39
@@ -625,7 +625,7 @@ panels:
       the walkway edge a clean concrete line.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: c, text: "SORRY. MY LEGS JUST—"}
+      - {who: "taeo", type: "speech", side: "c", text: "SORRY. MY LEGS GAVE OUT."}
     sfx:
       - {text: "THUMP", style: comic, at: [0.40, 0.70], size: M, rot: -6}
 
@@ -640,7 +640,7 @@ panels:
       behind his head, simplified.
     calm: right
     lines:
-      - {who: nib, type: speech, side: l, text: "YOU LOOK WORSE THAN ME."}
+      - {who: "nib", type: "speech", side: "c", text: "YOU LOOK WORSE THAN ME."}
 
   - id: P41
     shape: wide
@@ -653,9 +653,9 @@ panels:
       behind, the lamp's hard light.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "YOU DIDN'T ANSWER."}
-      - {who: nib, type: speech, side: r, text: "WE WERE FAR. HE WASN'T THROUGH YET."}
-      - {who: nib, type: speech, side: r, text: "THEN I RAN."}
+      - {who: "taeo", type: "speech", side: "l", text: "YOU DIDN'T ANSWER THE KNOCKS."}
+      - {who: "nib", type: "speech", side: "r", text: "WE WERE TOO FAR TO HEAR. MINHO HADN'T CROSSED THE DAMAGED STRUT YET."}
+      - {who: "nib", type: "speech", side: "r", text: "ONCE MINHO WAS SAFE, I RAN BACK."}
     notes: "'Far': a knock carries through a rim only if you're close (ch 10 P50), so at 40:00 nobody near the bend could hear it. 'He' is Minho, the last one back under the propped strut: Nib would not leave until the man behind him was through (a sentry waits to be relieved; ch 8: 'SOMEBODY ALWAYS COMES TO TAKE OVER'). Then he ran 150 m to answer. Taeo does not know about the strut yet."
 
   - id: P42
@@ -668,9 +668,9 @@ panels:
       dry. Taeo squints, too tired to argue. Simplified background.
     calm: left
     lines:
-      - {who: sejin, type: speech, side: r, text: "SAY 'AH'."}
-      - {who: taeo, type: speech, side: l, text: "I WASN'T EVEN IN THERE."}
-      - {who: sejin, type: speech, side: r, text: "NO. YOU WERE OUT HERE."}
+      - {who: "sejin", type: "speech", side: "r", text: "SAY 'AH'."}
+      - {who: "taeo", type: "speech", side: "c", text: "I WASN'T EVEN IN THERE."}
+      - {who: "sejin", type: "speech", side: "r", text: "NO. YOU WERE OUT HERE."}
     notes: "Callback to Sejin's ch 10 check of Nib (P26: 'SAY AH' / 'YOU FIRST.'). Taeo's courage is the outside kind (STORY_BIBLE §5): she is the first to say so, in five words."
 
   - id: P43
@@ -702,9 +702,9 @@ panels:
       from the slit behind them.
     calm: top
     lines:
-      - {who: minho, type: speech, side: r, text: "IT CAME DOWN BEHIND ME. PROP AND ALL."}
-      - {who: minho, type: speech, side: r, text: "THE LINE'S DONE. THE BEND'S BLOCKED."}
-      - {who: haein, type: speech, side: l, text: "...YOU'RE GREY."}
+      - {who: "minho", type: "speech", side: "r", text: "THE CRACKED STRUT FELL BEHIND ME. STEEL PROP AND ALL."}
+      - {who: "minho", type: "speech", side: "r", text: "OUR SURVEY IS FINISHED. THE FALL BLOCKED THE BEND."}
+      - {who: "haein", type: "speech", side: "l", text: "MINHO. YOU'RE GREY."}
     notes: "The strut fell just after Minho, the last one, came back under it (P30's boom). Nobody is hurt. The survey line reached its last station (the white rock) before the fall, so the full survey is complete: ch 9's clock ('IT'S STILL OPEN. FOR NOW.') now runs toward a clear team and the gate closing. The gallery is blocked at the bend and the white outcrop is cut off; the gate itself is still open and uncleared."
 
   - id: P45
@@ -720,9 +720,9 @@ panels:
       chibi Taeo on a tiny kerb with a huge sweat drop. Flat pale grey background with screentone dots.
     calm: right
     lines:
-      - {who: minho, type: speech, side: l, text: "YOU WENT UNDER IT FIRST."}
-      - {who: minho, type: speech, side: l, text: "THAT ONE'S YOU."}
-      - {who: nib, type: speech, side: r, text: "...YOU'RE WELCOME."}
+      - {who: "minho", type: "speech", side: "l", text: "YOU WALKED UNDER THAT CRACKED STRUT FIRST."}
+      - {who: "minho", type: "speech", side: "l", text: "THIS NEW WHITE HAIR IS YOURS."}
+      - {who: "nib", type: "speech", side: "r", text: "YOU'RE WELCOME."}
     notes: "Runner: Minho's grey streak (ch 7: 'THAT'S YOU. THAT ONE'S YOU.'). Minho has no chibi sheet yet: derive him from his model sheet."
 
   - id: P45a
@@ -736,9 +736,9 @@ panels:
       pushed up on her head, red-orange vest. The slit's violet light on her face; simplified background.
     calm: left
     lines:
-      - {who: haein, type: speech, side: r, text: "A KNOCK GETS THROUGH. IT JUST DOESN'T CARRY FAR."}
-      - {who: haein, type: speech, side: r, text: "A CABLE WOULD."}
-      - {who: "offpanel:minho", type: speech, side: l, text: "...HOW MUCH?"}
+      - {who: "haein", type: "speech", side: "c", text: "KNOCKS GET THROUGH THE GATE, BUT WE CAN'T HEAR THEM FAR AWAY."}
+      - {who: "haein", type: "speech", side: "c", text: "A CABLE COULD CARRY A RADIO SIGNAL."}
+      - {who: "offpanel:minho", type: "speech", side: "l", text: "PRICE THE CABLE FIRST."}
     notes: "Inserted after numbering was shared: ch 9 and ch 10 cite ch 11 P47 and other ids, so they keep their numbers. Haein conceives the relay that ch 13–16 use (ch 13: a survey-line cable with a relay post every 50 m; ch 14: a hard cable through the rim carries the signal out, the way a knock carries through the frame). Answers P05's 'I KEEP TRYING ANYWAY'. Minho's question is the family's debt talking."
 
   - id: P46
@@ -752,9 +752,9 @@ panels:
       watching, the water bottle in both hands. Simplified tunnel wall.
     calm: top
     lines:
-      - {who: minho, type: speech, side: r, text: "YOU SAW IT BEFORE I DID. IT GOES IN THE REPORT UNDER YOUR NAME."}
-      - {who: nib, type: speech, side: l, text: "JUST NIB."}
-      - {who: minho, type: speech, side: r, text: "...JUST NIB."}
+      - {who: "minho", type: "speech", side: "r", text: "YOU SPOTTED THE CRACK FIRST. I'LL CREDIT YOU IN THE SURVEY REPORT."}
+      - {who: "nib", type: "speech", side: "l", text: "JUST NIB."}
+      - {who: "minho", type: "speech", side: "r", text: "JUST NIB."}
     notes: "Callback to ch 7's receipt ('FULL NAME?' / 'NIB.' / '...JUST NIB?'). A worker credited by name, the arc's issue the right way round; the hook is a porter nobody credits."
 
   # ---------------- THAT NIGHT ----------------
@@ -777,11 +777,11 @@ panels:
       away from us. A plaster on his right knuckle.
     calm: top-left
     lines:
-      - {who: narr, type: tag, text: "11:48 PM"}
-      - {who: nib, type: speech, side: l, text: "SIXTY THOUSAND. FOR FORTY-THREE MINUTES."}
-      - {who: taeo, type: speech, side: r, text: "IT'S A DAY RATE."}
-      - {who: nib, type: speech, side: l, text: "I LIKE DAY RATES."}
-      - {who: narr, type: footnote, text: "*₩60,000 ≈ US$44"}
+      - {who: "narr", type: "tag", text: "11:48 PM"}
+      - {who: "nib", type: "speech", side: "l", text: "₩60,000. FOR FORTY-THREE MINUTES."}
+      - {who: "taeo", type: "speech", side: "r", text: "IT'S A DAY RATE."}
+      - {who: "nib", type: "speech", side: "l", text: "I LIKE DAY RATES."}
+      - {who: "narr", type: "footnote", text: "*₩60,000 ≈ US$44"}
     notes: "Minho paid the full day rate (ch 10 P14: ₩60,000 a day) for a day the collapse cut short. The pouch holds only today's pay; his savings are in the tin (ch 9 P07). The drawing is ch 4's (P39–P40 there), kept folded in his pouch since."
 
   - id: P48
@@ -808,8 +808,8 @@ panels:
       not wanting to push. Warm lamp light on half his face, blue-grey on the other half. The edges fade into the white page.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: r, text: "DOES IT MEAN HOME'S CLOSE?"}
-      - {who: "offpanel:nib", type: speech, side: l, text: "IT MEANS IT'S THE SAME KIND."}
+      - {who: "taeo", type: "speech", side: "r", text: "DOES THE WHITE STONE MEAN HOME'S CLOSE?"}
+      - {who: "offpanel:nib", type: "speech", side: "l", text: "ONLY THAT THE STONE MATCHES."}
     notes: "Nib will not hope out loud. Nobody says more than this: the shared region is Part Two. Ch 10 P38 set the ache ('...SO IT BRINGS ME BACK HERE.')."
 
   - id: P50
@@ -842,10 +842,21 @@ panels:
     ui:
       - {kind: tv.lowerthird, on: panel, text: "PORTER MISSING AFTER DOKGO CONTRACTING JOB IN GURO", ticker: "GATE SAFETY KOREA: SIX ADVISORIES IN SEOUL TONIGHT · SUMEX REPORTS RECORD DRAW-TICKET SALES"}
     lines:
-      - {who: reporter, type: phone, side: l, text: "A DAY-RATE PORTER IN HIS SIXTIES HAS NOT BEEN HOME SINCE A GATE JOB IN GURO."}
-      - {who: "offpanel:nib", type: speech, side: r, text: "A PORTER. LIKE THE MULE?"}
-      - {who: "offpanel:taeo", type: speech, side: r, text: "...NO. A PERSON."}
+      - {who: "reporter", type: "phone", side: "l", text: "A PORTER IN HIS SIXTIES IS MISSING AFTER A DOKGO CONTRACTING JOB IN GURO."}
     notes: "Issue: porters erased. The missing man is not named. 'DAY-RATE' lands four panels after Nib's 'I LIKE DAY RATES.' In this world 'porter' can mean a construct or a person (STORY_BIBLE §5), so Nib's question is a fair one; ch 12 P06–P08 has him ask about the porter and the word 'voluntarily' next morning."
+
+  - id: P51a
+    shape: "tall"
+    gap: "short"
+    bg: "white"
+    camera: "medium two-shot from the foot of the bed, Nib on the left and Taeo on the right"
+    art: >
+      Taeo's flat at 11:48 PM (taeo_flat key), continuing the news clip at P51. Nib (nib, default: adult, wiry, V-notch in the LEFT ear, one lower fang on the left, brown rope belt, dinosaur sticker on the RIGHT-hip pouch, brown wooden sheath on the LEFT hip, barefoot) sits at the folding table on the LEFT, turned toward Taeo with an earnest, puzzled frown. The white pebble rests on his folded PAPER watch-post drawing beside the biscuit tin and receipts. Taeo (taeo, default: black hoodie, mole under his RIGHT eye, plaster on his right knuckle) is propped on the bed on the RIGHT with his dark-grey phone in his hand. Its screen faces him, away from us; the case has the green dinosaur sticker and hairline crack at the top-left. Taeo looks across at Nib, tired and suddenly serious. Warm desk-lamp orange from the right, deep blue-grey shadows. Give both seated figures comfortable height in this tall frame. Hard cel shading; no interface light, no lettering.
+    calm: "top"
+    lines:
+      - {who: "nib", type: "speech", side: "l", text: "A PORTER. LIKE THE MULE?"}
+      - {who: "taeo", type: "speech", side: "r", text: "NO. A HUMAN PORTER."}
+    notes: "Clarity split of P51: the news stays in P51 and this reaction shows both speakers. Same night, same exchange; the reporter's final sentence remains over Dami in P52. New panel has no art yet."
 
   - id: P52
     shape: tall
@@ -864,7 +875,7 @@ panels:
     ui:
       - {kind: tv.lowerthird, on: panel, text: "PORTER MISSING AFTER DOKGO CONTRACTING JOB IN GURO", ticker: "GATE SAFETY KOREA: SIX ADVISORIES IN SEOUL TONIGHT · SUMEX REPORTS RECORD DRAW-TICKET SALES"}
     lines:
-      - {who: reporter, type: phone, side: l, text: "THE COMPANY SAYS HE LEFT THE SITE VOLUNTARILY."}
+      - {who: "reporter", type: "phone", side: "l", text: "DOKGO SAYS HE LEFT THE SITE VOLUNTARILY."}
     notes: "HOOK. Ch 12 opens the same night at 2:46 AM; its hook names Dokgo Contracting for Thursday's Guro job; ch 13 introduces Dami by name and has Taeo say he saw her on the news. She stays in the background of the clip and the shot only drifts to her. She is waiting for someone who has not come out; Taeo waited 43 minutes today. Nobody says so."
 
   - id: P53

@@ -41,7 +41,7 @@ panels:
     calm: none
 
   - id: P02
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "at Orrin's eye level, Taeo above him on left and Haein crouched right"
@@ -51,10 +51,11 @@ panels:
       Taeo in navy jacket has folded the map against his thigh. Haein crouches in slate-blue overalls,
       tools safely lowered. Afternoon sun southwest, A4 ochre/brown yard, grey shell. No pet posture,
       cute face, harness, brace yet or readable diagram.
+      Taeo stands on the left, Orrin in the centre, Haein crouches on the right; all faces visible.
     calm: top
     lines:
-      - {who: orrin, type: speech, side: c, text: "THAT EDGE LIFTS WHEN I BREATHE."}
-      - {who: taeo, type: speech, side: l, text: "I DIDN'T KNOW."}
+      - {who: "orrin", type: "speech", text: "MY SHELL RIM LIFTS WHEN I BREATHE.", side: "c"}
+      - {who: "taeo", type: "speech", text: "I DIDN'T KNOW.", side: "l"}
 
   - id: P03
     shape: tall
@@ -67,6 +68,7 @@ panels:
       and measuring sketch occupy one edge; Haein's calipers the other. Bare ochre air above the shell
       gives the line space. Southwest sun, hard brown shadows, muted slate. No impact, cracks, nameplate,
       props worn by Orrin or decorative light.
+      Orrin occupies the centre, Taeo's sleeve at left and Haein's calipers at right.
     calm: top
     lines:
       - {who: orrin, type: speech, side: c, text: "YOU MEASURED ME. YOU DIDN'T ASK ME."}
@@ -92,7 +94,7 @@ panels:
     calm: none
 
   - id: P06
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "profile two-shot as Taeo kneels properly in front of Orrin"
@@ -102,6 +104,7 @@ panels:
       Orrin studies him, head steady. Haein steps out of their direct eye line with her tools. Sun from
       southwest, ochre dirt and brown cel shadows against slate shell. No glow, touch without permission
       or imposed animal pose.
+      Taeo kneels on the left, Orrin faces him from the right; Haein is cropped to a seated-height shoulder behind.
     calm: top
     lines:
       - {who: taeo, type: speech, side: l, text: "YOU'RE RIGHT. SORRY."}
@@ -123,7 +126,7 @@ panels:
     calm: none
 
   - id: P08
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "front three-quarter on Orrin demonstrating the lowered stance"
@@ -132,10 +135,11 @@ panels:
       one heavy eyelid at Taeo, who leans forward listening. Nib, repaired RIGHT shorts seam and binoculars
       clear, stands beside the far foot observing like another tradesman. Southwest sun on slate layers,
       A4 ochre and brown yard. No side-saddle rider, cargo harness, active pulse or shell crack.
+      Orrin fills the centre, Nib stands on the left and Taeo kneels on the right; show the complete stance.
     calm: top
     lines:
-      - {who: orrin, type: speech, side: c, text: "HERE. INTO THE LEGS. DOWN."}
-      - {who: orrin, type: speech, side: c, text: "THE EDGE KEEPS THINGS OUT. IT DOESN'T HOLD ME UP."}
+      - {who: "orrin", type: "speech", text: "THE PRESSURE GOES THROUGH MY FORELEGS INTO THE GROUND.", side: "c"}
+      - {who: "orrin", type: "speech", text: "MY RIM PROTECTS ME. IT DOESN'T HOLD MY WEIGHT.", side: "c"}
 
   - id: P09
     shape: inset-r
@@ -147,13 +151,14 @@ panels:
       stops to look into Orrin's face first. Short black bob, clear glasses on crown, slate-blue bib
       overalls and beige tee, tool belt. Her expression is newly curious, no defensive grin. Afternoon
       southwest light, ochre and slate background. No labels on the pad or tool touching his shell.
+      Haein's face fills the right third; Orrin remains beyond the left edge.
     calm: left
     lines:
-      - {who: haein, type: speech, side: r, text: "WOULD SUPPORT UNDER THE RIM HURT?"}
-      - {who: orrin, type: speech, side: l, text: "NARROW SUPPORT WOULD."}
+      - {who: "haein", type: "speech", text: "WOULD SUPPORT UNDER YOUR RIM HURT?", side: "r"}
+      - {who: "offpanel:orrin", type: "speech", text: "NARROW SUPPORT WOULD.", side: "l"}
 
   - id: P10
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "over Orrin's lowered shoulder toward Haein's pad and Taeo listening"
@@ -163,14 +168,15 @@ panels:
       by shifting his neck toward two points on the rim; Taeo's hands stay on his own knees. Nib leans
       over the map on the ground. Southwest sun, tan paper, ochre and slate, hard brown shadows.
       No glowing diagram, new machinery or contact without permission.
+      Orrin on the left, Taeo kneeling in the centre and Haein on the right with the pad; all three faces visible.
     calm: top
     lines:
-      - {who: orrin, type: speech, side: l, text: "WIDE. SOFT UNDER IT. ROOM FOR MY SHOULDER."}
-      - {who: haein, type: speech, side: r, text: "I HAVE SCAFFOLD CLAMPS."}
-      - {who: taeo, type: speech, side: c, text: "AND I HAVE AN ARROW TO ERASE."}
+      - {who: "orrin", type: "speech", text: "MAKE THE SUPPORT WIDE. PAD UNDERNEATH. LEAVE ROOM FOR MY SHOULDER.", side: "l"}
+      - {who: "haein", type: "speech", text: "I HAVE SCAFFOLD CLAMPS.", side: "r"}
+      - {who: "taeo", type: "speech", text: "AND I HAVE AN ARROW TO ERASE.", side: "c"}
 
   - id: P11
-    shape: inset-l
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -181,6 +187,7 @@ panels:
       calmly lays a second blank sheet beneath it, deadpan; LEFT notch, rope belt, RIGHT pouch/sticker,
       LEFT wooden sheath, binoculars and bare feet intact. Chibi Orrin's heavy lids watch from one side.
       Simple afternoon light. No written annotations, real injury or serious confession in chibi.
+      Chibi Nib on the left, Taeo on the right, Orrin behind; show the full paper-and-eraser gag.
     calm: right
     lines:
       - {who: nib, type: speech, side: l, text: "YOU'VE MADE A TUNNEL."}
@@ -198,6 +205,7 @@ panels:
       enough to consult, head level with the work; Taeo holds the new blank sketch and Nib sorts blunt
       bolts. Empty southeast van space, fixed maze behind. Late southwest sun, A4 ochre/brown with dull
       grey metal. No sparks, motors, reservoir, text or drilling through Orrin.
+      Haein works on the left, Orrin watches on the right; Taeo and Nib occupy the centre.
     calm: top
     lines:
       - {who: haein, type: speech, side: l, text: "RIM BRACE. THE CLAMPS JOIN THE METAL. NOTHING GOES THROUGH YOUR SHELL."}
@@ -214,12 +222,13 @@ panels:
       Two scaffold half-couplers secure channel halves to each other. A hinge and a folded short prop
       sit clear at the outside edge. Low southwest sun, muted steel grey, canvas tan, warm brown bench.
       No printed instructions, electronics, spikes, pinching jaw against skin or fasteners through shell.
+      Haein speaks from beyond the left edge; the frame shows only her hands and the brace.
     calm: top
     lines:
-      - {who: haein, type: speech, side: l, text: "THIS BUYS A GLANCING HIT. NOT A HEAD-ON ONE."}
+      - {who: "offpanel:haein", type: "speech", text: "THE BRACE CAN TAKE A GLANCING HIT. NOT A HEAD-ON CHARGE.", side: "l"}
 
   - id: P14
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "at Orrin's left rim, profile, Haein holding the finished piece short of contact"
@@ -229,11 +238,12 @@ panels:
       and gives a deliberate nod. Taeo crouches at the head watching his expression; Sejin stands
       nearby with hands on her medic rig. Warm afternoon sun southwest, ochre/brown and slate grey.
       No straps over Orrin's back, armour suit, boss or injury.
+      Haein on the left, Orrin on the right, Taeo crouched in the centre; Sejin stands behind.
     calm: top
     lines:
-      - {who: haein, type: speech, side: l, text: "TRY THE FIT?"}
-      - {who: orrin, type: speech, side: r, text: "SLOWLY."}
-      - {who: haein, type: speech, side: l, text: "YOUR SPEED."}
+      - {who: "haein", type: "speech", text: "MAY I FIT THE BRACE?", side: "l"}
+      - {who: "orrin", type: "speech", text: "SLOWLY.", side: "r"}
+      - {who: "haein", type: "speech", text: "YOUR SPEED.", side: "l"}
 
   - id: P15
     shape: narrow-r
@@ -245,6 +255,7 @@ panels:
       The heavy adult eyes narrow in concentration, then one lid eases; his mouth gives a tiny dry
       sideways movement. Slate layers rise behind the head, no crack. Sun southwest, grey-olive skin
       and ochre reflected light, hard brown shadow. No smile of a pet, saddle, restraint or extra limbs.
+      Orrin's face fills the right third, Haein works below the left edge.
     calm: left
     lines:
       - {who: orrin, type: speech, side: r, text: "LEFT SIDE. A LITTLE FORWARD."}
@@ -264,7 +275,7 @@ panels:
     calm: none
 
   - id: P17
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "side view of the safe static lean with all three partners visible"
@@ -274,11 +285,12 @@ panels:
       Taeo kneels at his face to listen rather than staring at a gauge. Haein watches shoulder clearance,
       Sejin watches Taeo. Late sun from southwest, ochre/brown, slate and muted canvas. No impact,
       active share, glowing hands, cracks or strain lines implying danger.
+      Nib on the left, Orrin in the centre and Taeo kneeling on the right; Haein and Sejin behind.
     calm: top
     lines:
-      - {who: orrin, type: speech, side: c, text: "THERE. THAT GOES DOWN."}
-      - {who: taeo, type: speech, side: r, text: "HOW DOES IT FEEL?"}
-      - {who: orrin, type: speech, side: c, text: "LIKE SOMEBODY ASKED."}
+      - {who: "orrin", type: "speech", text: "THE PRESSURE GOES INTO THE GROUND.", side: "c"}
+      - {who: "taeo", type: "speech", text: "HOW DOES THE BRACE FEEL?", side: "r"}
+      - {who: "orrin", type: "speech", text: "LIKE SOMEBODY ASKED.", side: "c"}
 
   - id: P18
     shape: inset-l
@@ -292,11 +304,11 @@ panels:
       Late southwest light, muted navy against ochre, brown shadow. No new window or restored confidence grin.
     calm: right
     lines:
-      - {who: taeo, type: float, text: "I WANTED A PLAN THAT DIDN'T NEED CORRECTING."}
-      - {who: taeo, type: float, text: "HE NEEDED ONE THAT COULD BE."}
+      - {who: "taeo", type: "float", text: "I WANTED A PLAN THAT DIDN'T NEED CORRECTING."}
+      - {who: "taeo", type: "float", text: "ORRIN NEEDED A PLAN WE COULD CHANGE."}
 
   - id: P19
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low side view as Haein folds the props up for travel"
@@ -307,11 +319,12 @@ panels:
       head turned to check the compact travel position. Nib, repaired charcoal shorts and bare feet,
       removes the practice paving slab from the path. Sunset approaching from southwest, A4 ochre and
       warm brown with steel grey. No complete dismantling, straps round neck or unlettered safety tags.
+      Haein on the left, Orrin in the centre and Nib on the right; show their faces and the folded props.
     calm: top
     lines:
-      - {who: haein, type: speech, side: l, text: "FOLDED FOR WALKING. FEET DOWN ONLY ON FIRM STONE."}
-      - {who: nib, type: speech, side: r, text: "I'LL SET THEM."}
-      - {who: orrin, type: speech, side: c, text: "I'LL CHOOSE THE STONE."}
+      - {who: "haein", type: "speech", text: "PROPS FOLDED FOR WALKING. SET THEIR FEET ON FIRM STONE.", side: "l"}
+      - {who: "nib", type: "speech", text: "I'LL SET THE PROPS.", side: "r"}
+      - {who: "orrin", type: "speech", text: "I'LL CHOOSE THE STONE.", side: "c"}
     notes: "Travel state locked for ch 31. Brace is fitted but NOT SET for impact until both props are swung down and seated."
 
   # FRIDAY: WHOSE NAME, WHOSE MONEY
@@ -330,6 +343,7 @@ panels:
       Haein carries the compact tool roll. Orrin waits beside Nib, LEFT
       rim brace props are clipped up, shell intact. Pale sun south, ochre gravel and blue-grey shadows,
       muted safety orange. All boards blank, no third gate, vans or green device screens.
+      The contracts clerk sits on the left: Korean woman about forty-five, short dark hair, steel-grey work jacket, navy trousers, blank lanyard, ink-stained index finger, tired and competent. Minho faces her in the centre; the waiting east team stands to the right.
     calm: top
     lines:
       - {who: narr, type: tag, text: "TERRACE GATE · FRIDAY · CONTRACT ALLOCATION"}
@@ -337,7 +351,7 @@ panels:
     notes: "Central and east have separately licensed local connections on the same apron, matching ch 32. Killing the east boss closes east, allowing the central run to finish independently."
 
   - id: P21
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "across the contract table toward Minho receiving his allocation"
@@ -348,6 +362,7 @@ panels:
       grey streak LEFT temple, watch LEFT wrist, eyes creased shut for one unguarded beat. Seonhee behind
       him puts one hand over her ledger. South daylight,
       dusty ochre gravel, blue-grey shadow. Paper headings and cabin signs blank until labels.
+      Minho in the centre-right receives the folder; Seonhee stands at the far right, her face unobscured; clerk at left.
     calm: top
     ui:
       - {kind: label, text: "CENTRAL ROUTE · RYU SURVEY · AWARDED", at: [0.51, 0.75], size: 32, notes: "place on the folder's blank allocation header"}
@@ -365,13 +380,14 @@ panels:
       mouth lifting in genuine competitive pleasure. Brown jacket, LEFT grey streak and chest radio
       match sheet. A plain grey cabin wall drops the setting to simple shapes; south daylight casts
       a clean blue-grey jaw shadow. No gloating sneer, new rank badge or van.
+      Minho fills the right third; Taeo stands beyond the left edge.
     calm: left
     lines:
-      - {who: minho, type: speech, side: r, text: "TRY TO BRING SOMETHING BACK BESIDES MY SISTER'S CLAMPS."}
-      - {who: taeo, type: speech, side: l, text: "I'D LIKE THE CLAMPS BACK TOO."}
+      - {who: "minho", type: "speech", text: "TRY TO BRING SOMETHING BACK BESIDES MY SISTER'S CLAMPS.", side: "r"}
+      - {who: "offpanel:taeo", type: "speech", text: "I'D LIKE THE CLAMPS BACK TOO.", side: "l"}
 
   - id: P23
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "from behind the clerk toward the east crew lined up at the same table"
@@ -381,6 +397,7 @@ panels:
       no one stands on him. Seonhee is fully visible: fifty-five, grey-templed low bun, glasses, pencil
       LEFT ear, moss-grey cardigan, cream rolled shirt, slate trousers, brown shoes. Her face is sharp
       and tired, determined now. South sun, dusty ochre and blue-grey. Papers blank, no ownership form.
+      Clerk's face in three-quarter at foreground left, Seonhee on the right, Taeo and Nib in the centre; Orrin behind.
     calm: top
     lines:
       - {who: contracts_clerk, type: speech, side: l, text: "EAST TERRACE. ALSO UNDER THE RYU SURVEY LICENCE?"}
@@ -404,7 +421,7 @@ panels:
     notes: "Her signature commits the family licence because she believes in the team. No transfer of guild ownership."
 
   - id: P25
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "medium across the table, Taeo turning toward Seonhee"
@@ -413,11 +430,12 @@ panels:
       above the tabletop. She meets his eyes over low reading glasses, ledger closed, face a bookkeeper's
       deliberate decision. Nib watches from below table height; Orrin remains quiet behind him. South
       daylight, ochre gravel and blue-grey, muted moss cardigan. No glowing documents or personal-debt waiver.
+      Taeo stands on the left, Seonhee on the right; Nib and Orrin remain visible between them.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "ARE YOU SURE? AFTER THE VAN—"}
-      - {who: seonhee, type: speech, side: r, text: "I CAN COUNT PEOPLE AS WELL AS LOSSES."}
-      - {who: seonhee, type: speech, side: r, text: "SIGN YOUR PART."}
+      - {who: "taeo", type: "speech", text: "ARE YOU SURE WE CAN USE YOUR LICENCE? YOU'VE ALREADY LOST THE VAN.", side: "l"}
+      - {who: "seonhee", type: "speech", text: "I CAN COUNT PEOPLE AS WELL AS LOSSES.", side: "r"}
+      - {who: "seonhee", type: "speech", text: "SIGN YOUR PART.", side: "r"}
 
   - id: P26
     shape: narrow-l
@@ -429,11 +447,12 @@ panels:
       finger at its blank total box. Taeo's black cuff and worn wallet enter at the lower edge. Paper
       numbers and writing reserved for the label entry. South daylight, cool grey table with hard
       blue-grey hand shadows, no active terminal screen or visible bank balance.
+      The clerk speaks from outside the left edge while her finger indicates the fee slip.
     calm: none
     ui:
       - {kind: label, text: "EAST TERRACE · ENTRY FEE ₩2,000,000", at: [0.50, 0.38], size: 32, notes: "on the blank fee slip"}
     lines:
-      - {who: contracts_clerk, type: speech, side: l, text: "TWO MILLION. BEFORE ENTRY."}
+      - {who: "offpanel:contracts_clerk", type: "speech", text: "TWO MILLION. BEFORE ENTRY.", side: "l"}
 
   - id: P27
     shape: wide
@@ -445,10 +464,11 @@ panels:
       trying not to flinch. Nib's scarred olive hand enters from the lower side carrying a square folded
       envelope. Seonhee waits without reaching for either person's money. South light, muted navy,
       grey tabletop and blue-grey shadows. No invented full bank balance, bright gold coins or drawn print.
+      Taeo's face fills the right third; Nib's hand enters from below left, his face outside the frame.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "I COUNTED IT AGAIN. IT HADN'T GOT SMALLER."}
-      - {who: nib, type: speech, side: l, text: "MOVE YOUR HAND."}
+      - {who: "taeo", type: "float", text: "I COUNTED THE FEE AGAIN. IT HADN'T GOT SMALLER."}
+      - {who: "offpanel:nib", type: "speech", text: "MOVE YOUR HAND.", side: "l"}
 
   - id: P28
     shape: strip
@@ -466,7 +486,7 @@ panels:
     notes: "Nib's own saved wages: 30 × ₩10,000 = ₩300,000. Not all his savings, no remaining total stated."
 
   - id: P29
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "at Nib's eye level beside the table, Taeo crouching toward him"
@@ -476,10 +496,11 @@ panels:
       appeal, adult amber eyes under spiky hair, LEFT notch and lower fang. Default outfit, repaired
       RIGHT thigh, binoculars, bare feet, correct belt sides. South sun, ochre gravel and blue-grey with
       pale sage notes high in frame. No pleading cute face or grabbed wrist.
+      Nib stands on the left and Taeo crouches on the right; include both faces and the money on the table.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "NIB. YOU DON'T HAVE TO—"}
-      - {who: nib, type: speech, side: l, text: "MY MONEY. MY ROUTE TOO."}
+      - {who: "taeo", type: "speech", text: "SORRY. I'D PLANNED TO PAY THE WHOLE FEE.", side: "r"}
+      - {who: "nib", type: "speech", text: "MY MONEY. MY ROUTE TOO.", side: "l"}
 
   - id: P30
     shape: inset-r
@@ -495,7 +516,7 @@ panels:
     calm: none
 
   - id: P31
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "three-quarter across the table as clerk issues the paid receipt"
@@ -505,17 +526,18 @@ panels:
       watching the page. Seonhee has written the contributions in her ledger as unreadable strokes.
       South sun, grey table and cream paper, blue-grey shadows. No live cash terminal, ownership tags
       or invented change; printed fields blank for labels.
+      Nib on the left, Taeo on the right, Orrin behind in the centre, clerk seated at the table's far left edge.
     calm: top
     ui:
       - {kind: label, text: "ENTRY PAID · ₩2,000,000", at: [0.49, 0.57], size: 32, notes: "receipt header"}
       - {kind: label, text: "NIB ₩300,000 · YOON TAEO ₩1,700,000", at: [0.53, 0.78], size: 27, notes: "receipt contribution line"}
     lines:
       - {who: taeo, type: speech, side: r, text: "THANK YOU."}
-      - {who: nib, type: speech, side: l, text: "KEEP THE RECEIPT."}
+      - {who: nib, type: speech, side: l, text: "I'LL KEEP THE RECEIPT."}
     notes: "Fee paid in full. No gift to Taeo and no private IOU created. Route is their shared choice."
 
   - id: P32
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low two-shot on Orrin and Nib leaving the contract table"
@@ -524,6 +546,7 @@ panels:
       rearward. Nib folds the receipt flat before putting it in his RIGHT pouch, binoculars against
       chest. Orrin's heavy eyes slide toward the pouch with dry interest, not jealousy. South daylight,
       pale ochre gravel, blue-grey shadows, muted slate shell. No harness, coins attached to him or cartoon expression.
+      Orrin walks on the left and Nib on the right; show full figures and the receipt going into Nib's pouch.
     calm: top
     lines:
       - {who: orrin, type: speech, side: l, text: "I OWN VERY LITTLE THAT FITS ON A TABLE."}
@@ -542,11 +565,12 @@ panels:
       navy jacket open over hoodie, phone propped beside the folded route map. Nib sits on the crate
       at his own height cleaning the matte binocular lenses. Orrin rests nearby with props folded,
       intact shell in blue-grey shadow. Warm lamp orange against deep blue-grey, no spare van or active screen yet.
+      Taeo sits on the right, Nib on the left, Orrin rests in the centre behind the trestle.
     calm: top
     lines:
-      - {who: narr, type: tag, text: "FRIDAY EVENING · RYU SURVEY YARD"}
-      - {who: taeo, type: speech, side: r, text: "I SHOULD TELL THEM THE CONTRACT'S PAID."}
-      - {who: nib, type: speech, side: l, text: "THEN TELL THEM."}
+      - {who: "narr", type: "tag", text: "FRIDAY EVENING · RYU SURVEY YARD"}
+      - {who: "taeo", type: "speech", text: "I SHOULD TELL MY GRANDPARENTS THE ENTRY FEE IS PAID.", side: "r"}
+      - {who: "nib", type: "speech", text: "THEN CALL THEM.", side: "l"}
 
   - id: P34
     shape: narrow-r
@@ -573,12 +597,13 @@ panels:
       kitchenette and dark west-wall TV cabinet match the key. He leans toward camera, shyly pleased
       to be called, one work-worn hand too close to the lens. Warm amber pendant, brown shadows, cream
       walls. No readable interface in generated image, no phone screen inside this video frame.
+      Grandpa is centred in the video; Taeo's outgoing call voice comes from the right gutter.
     calm: bottom
     ui:
       - {kind: phone.ttok_video_call, on: panel, caller: "Grandpa", own_video: "taeo"}
     lines:
-      - {who: grandpa, type: phone, side: c, text: "AH. THERE. IS THAT YOUR NEW PLACE?"}
-      - {who: taeo, type: speech, side: r, text: "THE OUTSIDE OF IT. VERY AFFORDABLE WALLPAPER."}
+      - {who: "grandpa", type: "phone", text: "AH. THERE. IS THAT YOUR NEW PLACE?", side: "c"}
+      - {who: "offpanel:taeo", type: "phone", text: "THE OUTSIDE OF MY NEW PLACE. VERY AFFORDABLE WALLPAPER.", side: "r"}
 
   - id: P36
     shape: wide
@@ -591,6 +616,7 @@ panels:
       still on the good news; he has not noticed the exposed arm. Nib's black binocular barrels at
       frame edge, grey office wall behind. Work lamp warm from upper left, deep blue-grey shadows.
       No phone rendered in this view, fresh bleeding, left-arm bruise or interfaces.
+      Taeo is centred waist-up, the bruised right arm and mug in the lower foreground.
     calm: top
     lines:
       - {who: taeo, type: speech, side: c, text: "WE GOT THE EAST ROUTE. NIB HELPED WITH THE FEE."}
@@ -618,10 +644,11 @@ panels:
       only from its dark back and top-left cracked edge, display facing away. His hand pauses with
       the mug above the table. Navy jacket, black hood, mole under RIGHT eye; Nib quietly watches him.
       Work lamp orange from left, deep blue-grey background. Old bruise purple, no new wound or drawn UI.
+      Taeo sits on the right, Nib watches from the centre; Grandpa's call voice comes from the phone at left.
     calm: top
     lines:
-      - {who: grandpa, type: phone, side: l, text: "YOUR ARM."}
-      - {who: taeo, type: nervous, side: r, text: "TRAINING. I'M PAYING A MEDIC TO WATCH ME."}
+      - {who: "offpanel:grandpa", type: "phone", text: "YOUR ARM.", side: "l"}
+      - {who: "taeo", type: "nervous", text: "TRAINING. I'M PAYING A MEDIC TO WATCH ME.", side: "r"}
 
   - id: P39
     shape: tall
@@ -634,6 +661,7 @@ panels:
       upright than before. Faded cap, grey multi-pocket jacket, dark blue shirt; lined face quietly
       searching. Warm amber pendant and brown shadow, dark TV cropped at left. No interface words in
       art, handcart indoors, tears or speech mouth on Taeo as though physically present.
+      Grandpa sits centred in the video image.
     calm: top
     ui:
       - {kind: phone.ttok_video_call, on: panel, caller: "Grandpa", own_video: "taeo"}
@@ -650,6 +678,7 @@ panels:
       His RIGHT hand draws the navy sleeve down over the bruise below the frame; mole RIGHT eye,
       black hood and messy fringe. Warm work lamp lights one cheek, blue-grey shadow the other, blank
       grey office wall behind. No reassuring glow, fresh injury or chibi expression.
+      Taeo fills the right third, looking toward the phone just outside the left edge.
     calm: left
     lines:
       - {who: taeo, type: speech, side: r, text: "...IT'S FINE."}
@@ -679,11 +708,12 @@ panels:
       old crack only visible at glass edge. Nib, default outfit and repaired shorts, sits beside the
       table looking elsewhere to give privacy. Work lamp orange, blue-grey evening shadows, grey metal
       wall. No interface or drawn dialogue, no call ending yet.
+      Frame seated Taeo from the waist up on the right, Nib seated beside him in the centre; the phone is left.
     calm: top
     lines:
-      - {who: grandpa, type: phone, side: l, text: "CALL AFTER."}
-      - {who: taeo, type: speech, side: r, text: "I WILL."}
-      - {who: grandpa, type: phone, side: l, text: "WITH THE ARM IN THE PICTURE."}
+      - {who: "offpanel:grandpa", type: "phone", text: "CALL AFTER THE RAID.", side: "l"}
+      - {who: "taeo", type: "speech", text: "I WILL.", side: "r"}
+      - {who: "offpanel:grandpa", type: "phone", text: "WITH YOUR ARM IN THE PICTURE.", side: "l"}
 
   - id: P43
     shape: vignette
@@ -713,13 +743,14 @@ panels:
       kit; Minho and two Ryu survey adults prepare the central staging lane. At east staging Nib buckles the chin strap of the white Ryu site hard hat with two drilled ear holes,
       his LEFT notch clear above it. Orrin waits beside him, brace props clipped up. East morning sun, dusty ochre, cool shadows, muted orange cordon.
       No Ryu van, third gate, words on signs or active screen.
+      Sejin stands on the left beside Taeo; Haein in the centre, Nib and Orrin at right east staging.
     calm: top
     lines:
-      - {who: narr, type: tag, text: "TERRACE GATE · RAID MORNING"}
-      - {who: sejin, type: speech, side: l, text: "SIT. BASELINE FIRST."}
+      - {who: "narr", type: "tag", text: "TERRACE GATE · RAID MORNING"}
+      - {who: "sejin", type: "speech", text: "TAEO, SIT. BASELINE BLOOD PRESSURE FIRST.", side: "l"}
 
   - id: P45
-    shape: inset-r
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -730,13 +761,14 @@ panels:
       chibi Haein points a spanner at the crooked chair leg as though inspecting another patient.
       Taeo's navy jacket, black hood, old orange backpack patch remain; Sejin sage and olive, Haein
       slate-blue bibs. East-light flat cel shadow. No blood, monsters, needles, written gauge or injury gag.
+      Chibi Sejin on the left, Taeo seated on the right and Haein between them; full gag poses have room.
     calm: left
     lines:
       - {who: taeo, type: nervous, side: r, text: "I'M SITTING VERY SAFELY."}
       - {who: sejin, type: speech, side: l, text: "FOR ONCE, THE EQUIPMENT AGREES."}
 
   - id: P46
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "at the canopy table, looking from the line handset toward Nib"
@@ -746,11 +778,12 @@ panels:
       blue bands runs between them toward the gate; first grey relay tripod and cable coil ready by
       Orrin, no load harness. Taeo in navy jacket watches, LEFT upper-arm cuff temporarily loosened.
       East sun, dusty ochre and cool blue shadow, muted orange cordon. Device screens dark, no interface.
+      Haein on the left, Taeo in the centre and Nib on the right; all three faces visible with the cable below.
     calm: top
     lines:
-      - {who: haein, type: speech, side: l, text: "NO CABLE, NO VOICE THROUGH THE RIM."}
-      - {who: nib, type: speech, side: r, text: "TWO KNOCKS. COME BACK."}
-      - {who: taeo, type: speech, side: c, text: "THREE. COMING."}
+      - {who: "haein", type: "speech", text: "NO CABLE, NO VOICE THROUGH THE GATE.", side: "l"}
+      - {who: "nib", type: "speech", text: "TWO KNOCKS FROM OUTSIDE. COME BACK.", side: "r"}
+      - {who: "taeo", type: "speech", text: "THREE FROM INSIDE. COMING.", side: "c"}
     notes: "Ryu survey-line rule preserved. Knock code rehearsal is spoken, not an actual return signal. Nib will lead the cable in."
 
   - id: P47
@@ -768,7 +801,7 @@ panels:
     calm: none
 
   - id: P48
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low at Orrin's left foreleg, Haein checking the folded brace"
@@ -778,29 +811,31 @@ panels:
       once to confirm clearance; Nib waits with the first grey relay tripod and white cable coil.
       East sun, slate grey and muted canvas, ochre gravel/cool shadows. No brace feet planted yet, harness,
       crack, motor, glowing load path or boss.
+      Haein on the left, Orrin on the right and Nib in the centre, the folded brace clearly visible.
     calm: top
     lines:
       - {who: haein, type: speech, side: l, text: "ANY PINCHING?"}
       - {who: orrin, type: speech, side: r, text: "ONLY FROM THE PRICE OF ENTRY."}
 
   - id: P49
-    shape: inset-l
+    shape: wide
     gap: short
     bg: white
-    camera: "close on Minho passing Taeo on his way toward the central staging lane"
+    camera: "medium two-shot at the chair, Minho left and seated Taeo right"
     art: >
       Minho at terrace_gate_rim stops beside seated Taeo for one brief word, brown jacket, LEFT grey
       streak and wristwatch, radio high on chest. Taeo looks up, pale but attentive, olive backpack
       with old orange patch hooked onto the chair behind him. Gate rim cold at the far right, east
       sunlight and dusty ochre, blue-grey shadows. No awarded loot, victory handshake or taunting grin.
+      Frame Minho from the waist up on the left and seated Taeo on the right; both faces fully visible.
     calm: right
     lines:
-      - {who: minho, type: speech, side: l, text: "DON'T CHASE MY TIME."}
-      - {who: taeo, type: speech, side: r, text: "I'M NOT GOING ANYWHERE."}
-      - {who: minho, type: speech, side: l, text: "I KNOW. DO YOUR JOB THERE."}
+      - {who: "minho", type: "speech", text: "DON'T TRY TO BEAT MY CLEAR TIME.", side: "l"}
+      - {who: "taeo", type: "speech", text: "I'M NOT GOING ANYWHERE.", side: "r"}
+      - {who: "minho", type: "speech", text: "I KNOW. DO YOUR JOB OUT HERE.", side: "l"}
 
   - id: P50
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "from the gate frame looking back at Nib and Taeo"
@@ -810,6 +845,7 @@ panels:
       crossing. His body faces the cold-rimmed slit but his head turns back to Taeo, who has come only
       as far as the outside frame. Navy sleeve covers Taeo's bruise. East sun outside, violet-black
       gate light, cool-shadowed gravel. No return ring yet, green screen or unbuckled site helmet.
+      Nib stands on the left at the threshold and Taeo on the right, wholly outside.
     calm: top
     lines:
       - {who: nib, type: speech, side: l, text: "KNOCK WHEN YOU WANT ME BACK."}
@@ -824,6 +860,7 @@ panels:
       crossing. Face tired and nakedly sincere, mole under RIGHT eye, navy jacket over black hood.
       The white survey cable passes below frame; pale east sun and cold rim light divide his face
       against a simplified grey warehouse wall. No pulse, new wound, window or dreamy soft-focus effect.
+      Taeo fills the right third, Nib remains outside the left edge.
     calm: left
     lines:
       - {who: taeo, type: speech, side: r, text: "I'LL ALWAYS WANT YOU BACK."}
@@ -842,6 +879,7 @@ panels:
       violet edge begins only on the portion of his RIGHT wrist now inside. Orrin waits behind with
       LEFT rim props clipped up. Taeo remains wholly outside at frame edge. East daylight yields to
       saturated green dusk through the slit, violet shadows. No new summon circle, boots, cute face or drawn words.
+      Nib occupies the centre, Orrin waits behind on the left and Taeo remains at the right outside frame edge.
     calm: top
     lines:
       - {who: nib, type: speech, side: c, text: "...DON'T BE WEIRD."}

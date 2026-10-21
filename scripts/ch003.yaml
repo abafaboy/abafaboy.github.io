@@ -50,7 +50,7 @@ panels:
       Hard cel shadows, no glow haze. No text anywhere.
     calm: top-left
     lines:
-      - {who: taeo, type: float, text: "I READ IT ELEVEN TIMES."}
+      - {who: taeo, type: float, text: "I READ THE SEIZURE NOTICE ELEVEN TIMES."}
     notes: "Starts where ch2's hook ends ('...IT SAYS I HAVE THREE DAYS.'): Nib still at his post against the bed with ch2's blanket, knife and cup; the folding table still askew from ch1. Looking west from the window end, the kitchenette is on the RIGHT (world/floorplans/taeo_flat.png)."
 
   - id: P02
@@ -63,7 +63,7 @@ panels:
     ui:
       - {kind: phone.info_card, on: screen, hand: taeo_left_tilt, title: "GATE SAFETY KOREA", text: "An unregistered summoning was detected at your address. · Register within 72 hours. · Unregistered entities may be seized. · Time left: 71 h · Deadline: Sat 18 Mar"}
     lines:
-      - {who: taeo, type: float, text: "THE NUMBER ONLY WENT DOWN."}
+      - {who: taeo, type: float, text: "THE TIME LEFT KEPT GETTING SHORTER."}
     notes: "Ch2's notice (ch2 P59, received about 3:06 AM Wednesday 15 March), reread; its first three paragraphs are ch2's wording. The app's detail view adds the time left in whole hours and the deadline: about 3 AM on Saturday 18 March. Ch4 P11 clears it."
 
   - id: P03
@@ -79,9 +79,9 @@ panels:
       A weathered adult face, lines under the eyes, not cute. Flat dark background. No text.
     calm: right
     lines:
-      - {who: nib, type: speech, side: l, text: "SEIZED."}
-      - {who: "offpanel:taeo", type: speech, side: r, text: "TAKEN AWAY."}
-      - {who: nib, type: speech, side: l, text: "BY WHO?"}
+      - {who: nib, type: speech, side: c, text: "SEIZED."}
+      - {who: "offpanel:taeo", type: speech, side: l, text: "TAKEN AWAY."}
+      - {who: nib, type: speech, side: c, text: "BY WHO?"}
     notes: "Nib's glance at the empty air is a wordless callback to ch2's 3 AM glitch (P01), which only he saw. Don't explain it."
 
   - id: P04
@@ -95,8 +95,8 @@ panels:
       Deep blue-grey behind him. The phone is only a dark edge at the bottom of the frame; its screen is not visible. No text.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: r, text: "PEOPLE WITH FORMS, PROBABLY."}
-      - {who: taeo, type: speech, side: r, text: "I'VE NEVER HAD ANYTHING WORTH SEIZING."}
+      - {who: taeo, type: speech, side: c, text: "PEOPLE WITH FORMS, PROBABLY."}
+      - {who: taeo, type: speech, side: c, text: "I'VE NEVER HAD ANYTHING WORTH SEIZING."}
     notes: "Without meaning to, Taeo jokes about Nib as something he has. Nobody remarks on it; P05 is Nib's answer."
 
   - id: P05
@@ -142,7 +142,7 @@ panels:
     calm: top-left
     lines:
       - {who: narr, type: tag, text: "8:55 AM"}
-      - {who: nib, type: speech, side: r, text: "THE SHOUTING BRICK. AGAIN."}
+      - {who: nib, type: speech, side: c, text: "THE SHOUTING BRICK. AGAIN."}
     sfx:
       - {text: "BRRRRR", style: phone, at: [0.24, 0.66], size: M, rot: -10}
     notes: "Runner (STORY_BIBLE 6): Nib calls the phone 'the shouting brick'. Callback to ch2 P58 ('YOUR BRICK IS SHOUTING.'): 'AGAIN' counts the 3 AM notice. Reverse angle of P05."
@@ -159,7 +159,7 @@ panels:
       Morning grey-blue light; flat pale-blue background with a few speed lines. No text.
     calm: left
     lines:
-      - {who: taeo, type: nervous, side: r, text: "I'M UP. I'M UP."}
+      - {who: taeo, type: nervous, side: c, text: "I'M UP. I'M UP."}
       - {who: "offpanel:nib", type: speech, side: l, text: "IT'S BEEN LIGHT FOR TWO HOURS."}
 
   - id: P09
@@ -174,8 +174,8 @@ panels:
       Morning light, the band of sun on the floor behind them, background reduced to flat grey-blue shapes. No text.
     calm: top
     lines:
-      - {who: nib, type: speech, side: r, text: "WHY ARE WE STARING AT IT?"}
-      - {who: taeo, type: speech, side: l, text: "THEY OPEN AT NINE."}
+      - {who: nib, type: speech, side: r, text: "WHY ARE WE STARING AT YOUR PHONE?"}
+      - {who: taeo, type: speech, side: c, text: "THE ASSESSMENT OFFICE OPENS AT NINE."}
       - {who: nib, type: speech, side: r, text: "IS IT NINE?"}
 
   - id: P10
@@ -188,7 +188,7 @@ panels:
     ui:
       - {kind: phone.ttok_notification, on: screen, hand: phone_on_table, clock: "08:59", sender: "Eunchae", text: "Manager says come in at 4."}
     lines:
-      - {who: taeo, type: speech, side: r, text: "...IT'S 8:59."}
+      - {who: "offpanel:taeo", type: speech, side: l, text: "IT'S 8:59."}
     notes: "Eunchae's message: the store has reopened after the gate, and Taeo has a 4 PM shift today (the beats put ch5 at the store). She doesn't know he awakened."
 
   - id: P11
@@ -204,8 +204,8 @@ panels:
     calm: top
     lines:
       - {who: narr, type: tag, text: "9:00 AM"}
-      - {who: receptionist, type: phone, side: c, text: "ABILITY ASSESSMENT OFFICE, MAPO BRANCH."}
-      - {who: taeo, type: nervous, side: l, text: "HI. SORRY. GOOD MORNING. I GOT A NOTICE LAST NIGHT—"}
+      - {who: "offpanel:receptionist", type: phone, side: c, text: "ABILITY ASSESSMENT OFFICE, MAPO BRANCH."}
+      - {who: taeo, type: nervous, side: c, text: "HI. SORRY. GOOD MORNING. I GOT A SUMMONING NOTICE LAST NIGHT."}
 
   - id: P12
     shape: inset-l
@@ -218,8 +218,7 @@ panels:
       Flat pale grey-blue background. No text.
     calm: right
     lines:
-      - {who: receptionist, type: phone, side: c, text: "AN UNREGISTERED SUMMONING IN MANGWON-DONG. IT'S ON OUR SYSTEM."}
-      - {who: "offpanel:taeo", type: speech, side: r, text: "...ALREADY?"}
+      - {who: "offpanel:receptionist", type: phone, side: c, text: "YOUR SUMMONING'S ON FILE. ELEVEN TODAY. BRING YOUR ID. BRING IT."}
     notes: "The state already knows. Gate Safety Korea's detection reached the AAO overnight."
 
   - id: P13
@@ -233,9 +232,8 @@ panels:
       Morning light, the kitchenette behind him simplified. The phone's screen is not visible. No text.
     calm: top
     lines:
-      - {who: receptionist, type: phone, side: c, text: "ELEVEN O'CLOCK TODAY. BRING ID. AND BRING IT."}
-      - {who: taeo, type: speech, side: r, text: "HIM."}
-      - {who: receptionist, type: phone, side: c, text: "...BRING HIM."}
+      - {who: taeo, type: speech, side: r, text: "YOU KNOW ABOUT MY SUMMON ALREADY? AND YOU MEAN 'HIM'."}
+      - {who: "offpanel:receptionist", type: phone, side: c, text: "BRING HIM."}
     notes: "Beat line 'BRING ID. BRING HIM.' delivered as a correction: the chapter's issue (categories that don't fit people) in one word."
 
   - id: P14
@@ -291,8 +289,8 @@ panels:
       ACTING: earnest and anxious, a big brother's briefing; he believes he is being responsible. Simplified background, the edge of the grey steel door. No text.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: l, text: "OKAY. RULES. STAY CLOSE. THE KNIFE STAYS IN ITS SHEATH."}
-      - {who: taeo, type: speech, side: l, text: "AND I DO THE TALKING, SO—"}
+      - {who: taeo, type: speech, side: c, text: "OKAY. STAY CLOSE. KEEP YOUR KNIFE IN ITS SHEATH."}
+      - {who: taeo, type: speech, side: c, text: "AND LET ME DO THE TALKING."}
     notes: "Taeo's flaw (STORY_BIBLE 6): he confuses taking responsibility with keeping control."
 
   - id: P18
@@ -306,7 +304,7 @@ panels:
       Behind him the room: the folding table and the window light, simplified to flat grey-blue shapes. No text.
     calm: top-right
     lines:
-      - {who: nib, type: speech, side: l, text: "YOU DON'T DECIDE WHERE I GO."}
+      - {who: nib, type: speech, side: c, text: "YOU DON'T DECIDE WHERE I GO."}
 
   - id: P19
     shape: tall
@@ -333,8 +331,8 @@ panels:
       ACTING: perfect deadpan dignity, no embarrassment at all. Bright corridor daylight behind him. Simplified background. No text.
     calm: left
     lines:
-      - {who: nib, type: speech, side: r, text: "...WHICH WAY?"}
-      - {who: "offpanel:taeo", type: speech, side: l, text: "RIGHT. THEN DOWN."}
+      - {who: nib, type: speech, side: c, text: "WHICH WAY?"}
+      - {who: "offpanel:taeo", type: speech, side: l, text: "TURN RIGHT. THEN TAKE THE STAIRS DOWN."}
     notes: "The stairs are at the corridor's north end: right, coming out of unit 402 (LOCATIONS.md)."
 
   # ---------------- THE STREET DOOR ----------------
@@ -368,7 +366,7 @@ panels:
       Blue-grey shadow in the recess, daylight beyond. Simplified background. No text.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: r, text: "WE CAN WAIT A MINUTE."}
+      - {who: taeo, type: speech, side: l, text: "WE CAN WAIT A MINUTE."}
 
   - id: P23
     shape: tall
@@ -416,8 +414,8 @@ panels:
       ACTING: Nib puzzled and unsettled; Taeo matter-of-fact. Daylight, background simplified to flat shapes. No text.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "THEY'RE NOT LOOKING AT IT."}
-      - {who: taeo, type: speech, side: r, text: "PEOPLE SEE SUMMONS HERE."}
+      - {who: nib, type: speech, side: l, text: "NO ONE'S LOOKING AT THAT MANNEQUIN."}
+      - {who: taeo, type: speech, side: r, text: "SUMMONS ARE COMMON HERE."}
 
   - id: P26
     shape: inset-l
@@ -465,8 +463,9 @@ panels:
     calm: none
     focus: [0.5, 0.5]
     lines:
-      - {who: nib, type: speech, side: r, text: "FOR SPEARS?"}
-      - {who: taeo, type: speech, side: l, text: "FOR AN AIRLINE."}
+      - {who: nib, type: speech, side: c, text: "FOR SPEARS?"}
+      - {who: taeo, type: speech, side: c, text: "FOR AN AIRLINE."}
+      - {who: nib, type: speech, side: c, text: "WHAT'S ON THAT SCREEN?"}
 
   - id: P29
     shape: narrow-r
@@ -481,9 +480,7 @@ panels:
     ui:
       - {kind: phone.hunterlink_rank, on: screen, clock: "10:46", heading: "WEEKLY FAN RANKING", ranks: [{name: "SEO JIWON · SUNLINE", votes: "1,284,500 fan votes"}, {name: "HAN SEORYUN", votes: "961,200 fan votes"}, {name: "PARK DOYUN", votes: "702,800 fan votes"}], sponsor: "SPONSOR · HANEUL AIR", text: "WEEKLY FAN RANKING · 1 SEO JIWON (SUNLINE) · 2 HAN SEORYUN · 3 PARK DOYUN · SPONSOR: HANEUL AIR"}
     lines:
-      - {who: nib, type: speech, side: l, text: "WHAT'S THAT?"}
-      - {who: taeo, type: speech, side: l, text: "WHO PEOPLE LIKE MOST. THIS WEEK."}
-      - {who: nib, type: speech, side: l, text: "THEY COUNT IT?"}
+      - {who: "offpanel:taeo", type: speech, side: l, text: "A FAN RANKING. THEY COUNT WHO PEOPLE LIKE MOST THIS WEEK."}
     notes: "Beat: the HunterLink rank chart on a bus-stop screen. Seoryun at #2 seeds the TV interview (P35); the sponsor matches the banner (P22). Arc V texture (fame as a number)."
 
   # ---------------- THE ASSESSMENT OFFICE ----------------
@@ -502,6 +499,7 @@ panels:
     calm: top
     lines:
       - {who: narr, type: tag, text: "ABILITY ASSESSMENT OFFICE · 10:53 AM"}
+      - {who: nib, type: speech, side: c, text: "THEY COUNT WHO PEOPLE LIKE?"}
 
   - id: P31
     shape: wide
@@ -542,8 +540,8 @@ panels:
       ACTING: deadpan and unruffled, as if it all went to plan. Behind him the glass wings still turning. Clean blue-white lobby light, simplified background. No text.
     calm: left
     lines:
-      - {who: nib, type: speech, side: r, text: "I WAS CHECKING BOTH SIDES."}
-      - {who: "offpanel:taeo", type: speech, side: l, text: "...MM."}
+      - {who: nib, type: speech, side: c, text: "I WAS CHECKING BOTH SIDES."}
+      - {who: "offpanel:taeo", type: speech, side: l, text: "MM."}
 
   - id: P34
     shape: full
@@ -561,8 +559,8 @@ panels:
     calm: top
     lines:
       - {who: receptionist, type: speech, side: l, text: "YOU HAVE AN APPOINTMENT. YOU DON'T NEED A NUMBER."}
-      - {who: nib, type: speech, side: l, text: "I'LL KEEP IT."}
-      - {who: receptionist, type: speech, side: l, text: "...TAKE A SEAT. THE ASSESSOR WILL CALL YOU."}
+      - {who: nib, type: speech, side: l, text: "I'LL KEEP THE TICKET."}
+      - {who: receptionist, type: speech, side: l, text: "TAKE A SEAT. THE ASSESSOR WILL CALL YOU."}
     notes: "Runner (STORY_BIBLE 6): Nib loves pockets. The ticket stays in his pouch (end-card gag)."
 
   - id: P35
@@ -585,7 +583,7 @@ panels:
     ui:
       - {kind: tv.lowerthird, on: panel, text: "HAN SEORYUN • S-RANK HUNTER", ticker: "EULJIRO GATE · 12 PORTERS BROUGHT OUT OVERNIGHT · CLEARING CONTINUES"}
     lines:
-      - {who: seoryun, type: phone, side: l, text: "THE NEXT TEAM IS ALREADY THERE. MINE ARE GOING HOME TO SLEEP."}
+      - {who: seoryun, type: phone, side: c, text: "THE NEXT TEAM IS ALREADY THERE. MINE ARE GOING HOME TO SLEEP."}
     notes: "She is answering a reporter's question we don't hear (will her team go back in today?). Her shoulder emblem here and Taeo's patch in P38 are the same design (his is a faded fan copy; ch43). No intro plate: the lower third names her; save the nameplate for when she appears in person."
 
   - id: P36
@@ -600,8 +598,8 @@ panels:
       he has stopped watching the doors and is watching Taeo's face instead. Blue-white light, light slate shadows, background simplified. No text.
     calm: top
     lines:
-      - {who: nib, type: speech, side: r, text: "YOU KNOW HER?"}
-      - {who: taeo, type: speech, side: l, text: "I'VE WATCHED HER FOR YEARS."}
+      - {who: nib, type: speech, side: r, text: "YOU KNOW HAN SEORYUN?"}
+      - {who: taeo, type: speech, side: c, text: "I'VE WATCHED HER FOR YEARS."}
 
   - id: P37
     shape: inset-l
@@ -615,7 +613,7 @@ panels:
     calm: right
     lines:
       - {who: "offpanel:nib", type: speech, side: r, text: "WHY?"}
-      - {who: taeo, type: speech, side: l, text: "SHE KEPT GOING BACK FOR PEOPLE."}
+      - {who: taeo, type: speech, side: c, text: "SHE KEPT GOING BACK FOR PEOPLE."}
     notes: "PLANT P03 (the line). Payoff ch39–40: Seoryun sees the patch; the porter story. No flashback and no mention of his parents here."
 
   - id: P38
@@ -633,18 +631,21 @@ panels:
     notes: "PLANT P03 (the image): Nib looks at the faded patch on Taeo's backpack. Same design as the emblem on Seoryun's shoulder in P35. Don't explain it."
 
   - id: P39
-    shape: wide
+    shape: tall
     gap: short
     bg: white
-    camera: "over Nib's left shoulder, across the lobby to the TV"
+    camera: "from the end of the chair row, full figure of Nib looking across the lobby toward the TV"
     art: >
-      Over Nib's LEFT shoulder (the V-notch of his ear sharp in the foreground) across the lobby (aao_lobby): the TV high on the side wall, showing only simple flat shapes
-      (an olive figure walking away, a white van shape; no text), and the rows of waiting people below it.
-      ACTING, in the set of his jaw and ear: Nib gone very still, looking past the screen at something far away. Blue-white light, background simplified. No text.
+      Nib (nib, default) stands in the left third of the AAO lobby (aao_lobby), his adult figure visible from head to bare feet,
+      with room above and below. The notch in his LEFT ear, pouch on his RIGHT hip and wooden sheath on his LEFT hip remain visible.
+      Across the lobby, the TV high on the side wall shows simple flat shapes: an olive figure walking away and a white van, no text.
+      The waiting people remain small in the background below the TV; nobody else speaks.
+      ACTING: Nib has gone very still, looking past the screen at something far away, his jaw set and his ears lowered.
+      Blue-white ceiling light, pale slate shadows, background simplified. No text.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "SOMEONE WAS COMING TO TAKE OVER FROM ME."}
-      - {who: nib, type: speech, side: l, text: "AT MY POST."}
+      - {who: nib, type: speech, side: l, text: "ANOTHER SCOUT WAS COMING TO TAKE OVER FROM ME."}
+      - {who: nib, type: speech, side: l, text: "AT MY WATCH POST."}
     notes: "Seoryun's 'THE NEXT TEAM IS ALREADY THERE' sets him off: her people have a relief. So did he."
 
   - id: P40
@@ -655,11 +656,12 @@ panels:
     art: >
       Borderless vignette, the edges fading into the white page: Nib's face (nib) in three-quarter view, his LEFT side to us (V-notch clear),
       eyes lowered and far away, the hard set of his mouth softened by one degree. Pale blue-white light, one hard shadow tone.
+      Keep Nib's face in the centre third, framed from the shoulders up.
       Nothing else: no image of anyone else, no landscape, no other world. No text.
     calm: left
     lines:
-      - {who: nib, type: speech, side: r, text: "HE'D FIND MY PLACE EMPTY."}
-      - {who: nib, type: speech, side: r, text: "HE'D GO LOOKING."}
+      - {who: nib, type: speech, side: c, text: "HE'D FIND MY PLACE EMPTY."}
+      - {who: nib, type: speech, side: c, text: "HE'D GO LOOKING."}
     notes: "PLANT P02 (continued). In ch2 (P56–P57) Nib whispered '...KETT.' and these two lines to no one while Taeo slept; now he says them to Taeo. Payoff ch100: Kett's message via Granny Moon. Ch8 and ch9 repeat the line; keep the wording."
 
   - id: P41
@@ -668,12 +670,12 @@ panels:
     bg: white
     camera: "close-up, reverse: Taeo looking at Nib"
     art: >
-      Taeo (taeo, outdoor) has turned from the TV to look at Nib. ACTING: the smile gone; he has just understood that someone on the other side is waiting for Nib,
+      Taeo (taeo, outdoor), centred and framed from the chest up, has turned from the TV to look at Nib. ACTING: the smile gone; he has just understood that someone on the other side is waiting for Nib,
       and that he never asked. Quiet, ashamed, very still. Flat pale slate background. No text.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: r, text: "...WHO?"}
-      - {who: "offpanel:nib", type: speech, side: l, text: "KETT."}
+      - {who: taeo, type: speech, side: c, text: "WHO WAS COMING?"}
+      - {who: "offpanel:nib", type: speech, side: r, text: "KETT."}
       - {who: taeo, type: float, text: "I'D NEVER ASKED WHO WAS WAITING."}
     notes: "Taeo hears the name Kett for the first time (in ch2 Nib said it to no one while Taeo slept)."
 
@@ -711,8 +713,7 @@ panels:
     lines:
       - {who: narr, type: tag, text: "ASSESSMENT ROOM · 11:16 AM"}
       - {who: chae, type: speech, side: c, text: "THE CALL NOTE SAYS YOUR SUMMON TALKS."}
-      - {who: nib, type: speech, side: r, text: "I DO."}
-      - {who: chae, type: speech, side: c, text: "GOOD. THAT SAVES TIME."}
+      - {who: nib, type: speech, side: l, text: "I DO."}
     notes: "Follow world/keys/aao_office (see location_notes). Same camera as ch4's establishing shot (ch4 P06)."
 
   - id: P44
@@ -727,8 +728,8 @@ panels:
       ACTING: Taeo trying too hard to relax; Chae neutral and exact; Nib intent. Blue-white light, window daylight across the desk, background simplified. No text.
     calm: top
     lines:
-      - {who: chae, type: speech, side: r, text: "PALM FLAT. DON'T PUSH."}
-      - {who: chae, type: speech, side: r, text: "JUST LET IT READ."}
+      - {who: chae, type: speech, side: r, text: "GOOD. PALM FLAT. DON'T PUSH."}
+      - {who: chae, type: speech, side: r, text: "LET THE PLATE TAKE A READING."}
 
   - id: P45
     shape: strip
@@ -757,8 +758,8 @@ panels:
       Flat pale-blue background with a screentone dot pattern. No text.
     calm: left
     lines:
-      - {who: "offpanel:chae", type: speech, side: l, text: "IT'S NOT A SCALE, MR. YOON."}
-      - {who: taeo, type: speech, side: r, text: "SORRY."}
+      - {who: "offpanel:chae", type: speech, side: r, text: "IT'S NOT A SCALE, MR. YOON."}
+      - {who: taeo, type: speech, side: c, text: "SORRY."}
     notes: "Taeo says sorry too much (STORY_BIBLE 6). Chae stays off-panel, so no chae chibi sheet is needed."
 
   - id: P47
@@ -771,8 +772,8 @@ panels:
       ACTING: kind by being plain; no pity in her face. Blue-white light, flat slate background. No text.
     calm: right
     lines:
-      - {who: chae, type: speech, side: l, text: "YOUR OUTPUT IS LOW."}
-      - {who: chae, type: speech, side: l, text: "I'M NOT ASSIGNING A RANK YET."}
+      - {who: chae, type: speech, side: c, text: "YOUR OUTPUT IS LOW."}
+      - {who: chae, type: speech, side: c, text: "I'M NOT ASSIGNING A RANK YET."}
 
   - id: P48
     shape: inset-r
@@ -784,7 +785,7 @@ panels:
       ACTING: a small, familiar disappointment swallowed with a crooked mouth; he has heard 'low' before. Blue-white light, flat background. No text.
     calm: left
     lines:
-      - {who: taeo, type: float, text: "HEAD OFFICE COULD HAVE TOLD HER THAT."}
+      - {who: taeo, type: float, text: "I'D HOPED MAGIC WOULD MAKE ME HARDER TO REPLACE."}
     notes: "Callback to ch1: Hanbit Mart's head office is putting a construct stocker on his nights."
 
   - id: P49
@@ -798,7 +799,7 @@ panels:
       ACTING: Chae courteous and curious, the tiny interested smile; Nib wary, chin up. Blue-white light, background simplified. No text.
     calm: top
     lines:
-      - {who: chae, type: speech, side: r, text: "NIB. RAISE YOUR LEFT HAND, PLEASE."}
+      - {who: chae, type: speech, side: c, text: "NIB. RAISE YOUR LEFT HAND, PLEASE."}
       - {who: nib, type: speech, side: l, text: "WHY?"}
 
   - id: P50
@@ -825,8 +826,8 @@ panels:
       ACTING: precise and quietly intrigued, choosing her words like an assessor who has just seen something she cannot file. Blue-white light, flat background. No text.
     calm: right
     lines:
-      - {who: chae, type: speech, side: l, text: "A CONSTRUCT DOESN'T ASK WHY."}
-      - {who: chae, type: speech, side: l, text: "HIS RESPONSES DON'T MATCH WHAT I'D EXPECT FROM AN ORDINARY SUMMON."}
+      - {who: chae, type: speech, side: c, text: "A CONSTRUCT DOESN'T ASK WHY."}
+      - {who: chae, type: speech, side: c, text: "NIB DOESN'T RESPOND LIKE AN ORDINARY SUMMON."}
 
   - id: P52
     shape: wide
@@ -857,9 +858,9 @@ panels:
       ACTING: Chae matter-of-fact, already suspecting that neither box will do; Taeo anxious and quick. Blue-white light, the filing shelves simplified behind. No text.
     calm: top
     lines:
-      - {who: chae, type: speech, side: r, text: "CONSTRUCT IS REGISTERED EQUIPMENT. LIKE A COURIER'S GOLEM."}
+      - {who: chae, type: speech, side: r, text: "CONSTRUCTS ARE REGISTERED EQUIPMENT. LIKE A COURIER'S GOLEM."}
       - {who: chae, type: speech, side: r, text: "A PERSON NEEDS AN ID AND AN AWAKENING RECORD."}
-      - {who: taeo, type: speech, side: l, text: "HE DOESN'T HAVE—"}
+      - {who: taeo, type: speech, side: c, text: "NIB DOESN'T HAVE AN ID."}
 
   - id: P54
     shape: wide
@@ -887,7 +888,7 @@ panels:
       He is easy to miss. Blue-white light. No text.
     calm: top
     lines:
-      - {who: nib, type: speech, side: c, text: "I'M NOT A BOX."}
+      - {who: nib, type: speech, side: r, text: "I'M NOT A BOX."}
     notes: "Beat: 'I'M NOT A BOX.' The tiny grey suit far down the corridor is Dr. Pyo (unnamed here), already in the building before any alert; the hook (P60) brings him to the glass."
 
   - id: P56
@@ -917,7 +918,7 @@ panels:
     ui:
       - {kind: phone.info_card, on: screen, title: "AAO · SUMMON REGISTRATION (FORM S-1)", text: "[  ] CONSTRUCT (registered equipment) · [  ] AWAKENED PERSON · REMARKS: Subject states: \"I'm not a box.\""}
     lines:
-      - {who: chae, type: speech, side: l, text: "THEN I'LL WRITE DOWN WHAT YOU SAID."}
+      - {who: chae, type: speech, side: r, text: "THEN I'LL WRITE DOWN WHAT YOU SAID."}
     sfx:
       - {text: "TAK TAK TAK", style: quiet, at: [0.32, 0.84], size: S, rot: -4}
     notes: "Chae records his words as his words and leaves both boxes empty. That choice trips the registry in P58 (ch4: she goes looking for a third box)."
@@ -952,7 +953,7 @@ panels:
       ACTING: the first crack in her calm: eyes wide and fixed, lips parted, going over the words again. Dark background. No text.
     calm: right
     lines:
-      - {who: chae, type: whisper, side: l, text: "...I'VE NEVER SEEN THIS SCREEN."}
+      - {who: chae, type: whisper, side: c, text: "I'VE NEVER SEEN THIS ALERT."}
       - {who: "offpanel:taeo", type: speech, side: r, text: "WHAT'S KANGHAN?"}
 
   - id: P60
@@ -975,7 +976,7 @@ panels:
       The corridor behind him is cool blue-white; the alert red stays inside the room and on the glass. No text.
     calm: top-left
     lines:
-      - {who: nib, type: speech, side: r, text: "HE BROUGHT TWO CUPS."}
+      - {who: nib, type: speech, side: c, text: "HE BROUGHT TWO CUPS."}
     notes: "HOOK (beats: through the glass, a man in a grey suit is already in the corridor, smiling, holding two coffees). 11:34 AM: ch4 P01 restates this exact frame and goes on. Unnamed until ch4 (no intro plate). Ch4 reveals neither cup is for Nib; ch6 calls back the two coffees. The 72-hour clock is still running: nothing has been registered. Cup motif (ch2's 'YOU FIRST')."
 
   - id: P61

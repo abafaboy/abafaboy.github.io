@@ -1,0 +1,709 @@
+chapter: 94
+title: Yeoju, Day One
+when: "Contest day one, immediately after ch93's dawn knock test through late afternoon."
+story_beats: PART_ONE_BEATS.md#94
+cast:
+  taeo: outdoor
+  nib: default
+  orrin: default
+  sera: default
+  kesh: default
+  dara: default
+  haein: default
+  sejin: default
+  chae: default
+  do_gangjin: default
+  ironvow_captain: default
+extras:
+  depot_keeper: "Adult Korean woman about 50, cropped hair, grey work jacket and trousers, work gloves; practical depot custodian."
+  field_assistant: "Adult male scout about 30, plain olive field vest, grey work trousers, white hard hat and boots. Assists Nib; no invented named crew membership."
+  ironvow_members: "Adult hunters of mixed genders in dark-steel plate, charcoal undersuits and muted dark-red inset/waist tabs; two-link clasp LEFT collar."
+locations: [yeoju_anchor_field, yeoju_gate_a, yeoju_gate_b, yeoju_supply_depot]
+location_notes:
+  yeoju_anchor_field: "Continue ch93: five independent framed door-height gates A-E west-east; depot north, exterior operator canopy southwest, medical shelter south. A/B pair joined by exterior white blue-banded communication cable and separate grey force couplers, not a physical passage between dungeons. Each frame has paired knock plates, one reachable from each face."
+  yeoju_gate_a: "No key. Lavender morning sky, pale ochre stone like flattened reeds, broad firm landing and low extraction terraces. Stock seam north of landing; boss alive beyond a distant folded ridge. Landing has ample room for Orrin and a braced timber stock sledge; cable and tripod every 50 m along surveyed lane."
+  yeoju_gate_b: "No key. Same wrong lavender sky, violet shadows, darker reed-stone ribs. Entry landing opens east along a narrow causeway to a broad extraction shelf. South/right side is a deep dry ravine; north/left side solid rib wall. A transverse stone tooth projects from north wall across the causeway's far end; a firm upper notch lies behind it. Iron Vow approaches from shelf's north-east side. Near-threshold causeway is already weathered; no fault-induced collapse."
+  yeoju_supply_depot: "North side of exterior apron: corrugated lean-to, paired scales, locked fuel cage east, stock tables west, plain overhead work lamps powered by a depot anchor module. Venn fuel belongs to depot equipment, not Haein's relay rig."
+continuity_notes: >
+  Nib: adult 105 cm, LEFT V-notch and lower LEFT fang; brown rope belt, RIGHT pouch/dinosaur sticker,
+  LEFT brown wooden sheath, matte black 8x30 binoculars with strap knotted LEFT and fork on hinge.
+  Ch43 chosen boots retained; provisional dark-brown lace-up ankle boots, rounded toes, low black rubber soles
+  until the parallel ch43 script supplies final description. PAPER drawing, pale-blue ID and cobalt pencil stay secured.
+  Taeo outside throughout: navy jacket/black hoodie/cargos/striped black sneakers; RIGHT-eye mole; olive old-patch backpack.
+  Nib amber pulse only in Taeo's RIGHT palm; Orrin slate-green. No new companion link colours shown.
+  Marks inside are thin cold-white wrist rings with violet edges, fading on voluntary outward crossing.
+  Ordinary exit remains possible while a boss lives; there is no automatic recall without a boss death.
+  All collected stock is extracted before a boss clear. No boss killed in this chapter.
+  Kesh handles physical survey-line communication; the mechanical couplers do not substitute for intact communication cable.
+palette_notes: "Exterior: cool daylight, slate and ochre. Interior: A4 wrong lavender sky/violet shadow, pale reed-stone. Depot: cool institutional white work lamps and grey-brown. Red for danger only; cyan interface reserved, no decorative particles or bloom."
+panels:
+  - id: P01
+    shape: wide
+    gap: none
+    bg: navy
+    camera: "close side view of A's physical inside knock plate"
+    art: >
+      At yeoju_gate_a, Nib's scarred olive forearm completes the third tap on the inside steel knock plate;
+      his cold-white/violet RIGHT wrist mark shows. His adult profile is intent rather than playful. Lavender
+      sky light enters the reed-stone landing, violet shadows. LEFT ear notch and wooden sheath correct.
+      No lettering, magic sound rings or floating interface.
+    calm: top
+    sfx:
+      - {text: "TTOK", style: quiet, at: [0.56, 0.44], size: M, rot: 0}
+    notes: "Exact continuation of ch93's three-answer hook; this is the third tap already begun, not a fourth."
+  - id: P02
+    shape: strip
+    gap: short
+    bg: navy
+    camera: "ground-level close on Nib's boots stepping onto exterior gravel"
+    art: >
+      At yeoju_anchor_field A, Nib's chosen dark-brown lace-up boots step from pale inside stone onto exterior
+      gravel. At the upper crop his RIGHT wrist mark is already fading. Cold dawn, slate with violet-white rim
+      reflection. Keep the door-height slit narrow and the soles grounded. No text or remaining mark outside.
+    calm: none
+    silent: true
+  - id: P03
+    shape: inset-r
+    gap: short
+    bg: navy
+    camera: "close three-quarter on Taeo letting out his breath"
+    art: >
+      Taeo in outdoor clothes at yeoju_anchor_field A looks down at Nib off panel, relief loosening his tired
+      face. RIGHT-eye mole clear, old patched backpack at his feet. Cold dawn, slate and violet rim light.
+      No nosebleed, active screen, cute face or lettering.
+    calm: left
+    lines:
+      - {who: taeo, type: speech, side: r, text: "BOTH WAYS?"}
+      - {who: nib, type: speech, side: l, text: "BOTH WAYS."}
+  - id: P04
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "low at Nib's shoulder as he turns back toward A"
+    art: >
+      Nib at yeoju_anchor_field A tugs his RIGHT pouch flap secure, leaving the dinosaur sticker visible,
+      then turns back to the first threshold. His face is serious; Taeo stands behind him without blocking him.
+      Cold dawn on gravel and cold rim white; slate palette. No cute pose, new accessories or print.
+    calm: top
+    lines:
+      - {who: nib, type: speech, side: l, text: "NOW THE WORK."}
+      - {who: taeo, type: float, text: "THE TEST WAS THE EASY PART."}
+  - id: P05
+    kind: title
+    gap: long
+    bg: white
+    title_text: "CHAPTER 94 · YEOJU, DAY ONE"
+  - id: P06
+    shape: full
+    gap: long
+    bg: white
+    camera: "establishing inside A from behind the newly arriving crew"
+    art: >
+      yeoju_gate_a opens under a WRONG lavender sky: flattened pale ochre reed-stone terraces, broad landing,
+      stock seam north and distant folded ridge hiding the living boss. Nib leads the field_assistant along
+      white blue-banded cable; Sera covers behind with LEFT-hand bow low. Orrin steps carefully through the
+      door-height slit. Violet shadows, flat cel colour. No harvest after closure, readable markers or fantasy glitter.
+    calm: top
+    lines:
+      - {who: narr, type: tag, text: "TERRITORY A · APPROACH"}
+      - {who: nib, type: speech, side: l, text: "WALK IN MY PRINTS. TEST EVERY THIRD SLAB."}
+  - id: P07
+    shape: strip
+    gap: short
+    bg: white
+    camera: "close on Nib probing a stone edge with his knife's flat"
+    art: >
+      At yeoju_gate_a, Nib in chosen boots kneels to probe under a reed-stone lip with the flat of his plain
+      knife, keeping fingers clear. His expression is clinical. Brown wooden sheath remains LEFT, RIGHT pouch
+      closed; pale wrist return mark. Lavender overhead, violet shadow. No marked treasure, lettering or glow.
+    calm: none
+    sfx:
+      - {text: "TIK", style: quiet, at: [0.52, 0.67], size: S, rot: 0}
+  - id: P08
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low diagonal along the newly exposed safe stock seam"
+    art: >
+      At yeoju_gate_a north seam, Nib holds a loose slab aside while the adult field_assistant wedges it safely.
+      Several dull anchor fragments lie embedded beneath, finite and irregular, not replenishing. Nib checks the
+      scout's footing before looking at the stock. Lavender sky, ochre stone and violet shadows.
+      No boss corpse, precious-gem sparkle, legible labels or text.
+    calm: top
+    lines:
+      - {who: nib, type: speech, side: l, text: "THERE. LEAVE THE SUPPORTING STONE."}
+      - {who: field_assistant, type: speech, side: r, text: "GOT IT."}
+  - id: P09
+    shape: vignette
+    gap: short
+    bg: white
+    camera: "long lens-like drawn composition toward the far ridge, without blur"
+    art: >
+      Inside yeoju_gate_a, a huge slow shadow shifts beyond the distant folded ridge while the foreground
+      extraction seam remains safe and still. Nib in default clothes is small below it, binoculars to his eyes,
+      LEFT neck knot visible. Wrong lavender sky, violet rock shadow. No boss reveal, readable writing or decorative haze.
+    calm: none
+    silent: true
+    notes: "The territorial boss is visibly alive while extraction takes place. It is neither fought nor cleared here."
+  - id: P10
+    shape: wide
+    gap: short
+    bg: white
+    camera: "at shell height beside Orrin and a secured removable stock tray"
+    art: >
+      Orrin at yeoju_gate_a lowers his slate-stacked shell beside the extraction seam so the field_assistant can
+      set a shallow padded stock tray level across it. The tray has its own retaining lip; no straps wrap his
+      body. Orrin looks at each placement, dignified and exacting. Lavender light, ochre/violet.
+      No saddle, pet harness, open shell crack or lettering.
+    calm: top
+    lines:
+      - {who: orrin, type: speech, side: l, text: "CENTRE IT. I AM BROAD. I AM NOT A TABLE."}
+  - id: P11
+    shape: inset-r
+    gap: short
+    bg: white
+    style: chibi
+    camera: "chibi profile gag with Orrin and a hovering lunch box"
+    art: >
+      Flat lavender comedy: chibi Orrin gives the field_assistant's empty lunch box a long affronted stare as
+      it hovers above his shell. Chibi Sera in river-green snatches the box back with a guilty bright smile.
+      Preserve the slate shell and Sera's LEFT bracer and RIGHT flute. Simple overhead colour blocks.
+      No stock falling, danger or lettering.
+    calm: left
+    lines:
+      - {who: sera, type: speech, side: r, text: "THAT WASN'T MINE."}
+      - {who: orrin, type: speech, side: l, text: "IT WAS REACHING."}
+  - id: P12
+    shape: wide
+    gap: short
+    bg: white
+    camera: "over Sera's right shoulder along the cleared sight line"
+    art: >
+      Normal style at yeoju_gate_a: Sera in river-green/cream layers, sand trousers and brown boots watches a
+      small hooked reed-stone crawler approach from the seam's far side. She draws her LEFT-hand wooden bow
+      away from the workers, face alert and pleased to have a clean lane. Lavender sky, violet shadows.
+      Return mark separate from LEFT bracer; no injury, text or glowing arrow.
+    calm: top
+    lines:
+      - {who: sera, type: speech, side: r, text: "HEADS LOW. SMALL ONE ON THE RIDGE."}
+    sfx:
+      - {text: "TWANG", style: quiet, at: [0.55, 0.31], size: M, rot: -10}
+  - id: P13
+    shape: strip
+    gap: short
+    bg: white
+    camera: "close on the crawler pinned safely beyond the work lane"
+    art: >
+      At yeoju_gate_a, Sera's ordinary arrow pins the small non-boss crawler's joint to a dead reed-stone stump
+      well outside the survey cable lane. No human is in the arrow's path. Workers' boots remain planted in
+      background. Lavender light and violet shadows, no blood accent needed. No boss death, lettering or particles.
+    calm: none
+    lines:
+      - {who: sera, type: speech, side: r, text: "WORK ON."}
+  - id: P14
+    shape: wide
+    gap: short
+    bg: white
+    camera: "kneeling eye level at Dara treating the assistant's nicked hand"
+    art: >
+      At yeoju_gate_a seam, Dara treats field_assistant's shallow knuckle cut. She is a broad 42-year-old adult,
+      square weathered face, grey-templed short dark braid, matte slate armour over oatmeal wrap, scarred bare
+      forearms, surgical kit LEFT and cloth roll RIGHT. Her fingers close the small wound while she judges his
+      pale face. Lavender/violet light, one tiny red cut. No replenished blood, flashy spell or lettering.
+    calm: top
+    lines:
+      - {who: dara, type: speech, side: l, text: "CLOSED. NOW WATER AND A BREAK."}
+      - {who: field_assistant, type: speech, side: r, text: "BUT IT'S HEALED."}
+      - {who: dara, type: speech, side: l, text: "YOUR BAD BREAKFAST ISN'T."}
+  - id: P15
+    shape: full
+    gap: short
+    bg: white
+    camera: "exterior view through A as Orrin brings the first stock out"
+    art: >
+      Orrin emerges voluntarily from A at yeoju_anchor_field with the balanced padded stock tray. He ducks his
+      adult head and clears the door-height slit without widening it; return ring fades on his foreleg.
+      Haein and depot staff wait to unload before he turns. Taeo is at exterior canopy beyond, not in gate.
+      Morning daylight, slate/ochre and violet rim. No boss-clear flash, harness or readable tally.
+    calm: top
+    lines:
+      - {who: taeo, type: speech, side: r, text: "FIRST LOAD OUT. TAKE YOUR TIME."}
+  - id: P16
+    shape: narrow-l
+    gap: short
+    bg: white
+    camera: "close on the weighing table and Chae's tablet hand"
+    art: >
+      At yeoju_supply_depot west stock table, Chae in navy cardigan and plain safety vest checks the first tray against physical
+      sealed weight blocks. Her tablet is dark and tilted away, not a green insert. She looks satisfied but
+      keeps her pen poised for the safety entry. Cool white work lamp and daylight, grey-brown.
+      Scale dial and seals blank for lettering, no invented currency figure.
+    calm: right
+    lines:
+      - {who: chae, type: speech, side: l, text: "RECORDED. SAFETY CHECK NEXT."}
+  - id: P17
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye-level on Kesh at the exterior A/B relay junction"
+    art: >
+      At yeoju_anchor_field's exterior junction Kesh is a 198 cm adult moth-like keeper, narrow mature grey-tan
+      face, dark eyes, feather antenna pair, four grey-brown wing panels folded like a cloak, olive tunic, dark
+      trousers and wrapped shoes. Two arms only; one holds a survey handset, the other points toward B.
+      Morning slate light. No lit wand, eye spots, magical radio waves or lettering.
+    calm: top
+    lines:
+      - {who: kesh, type: speech, side: l, text: "A IS STEADY. B'S LINE IS READY FOR YOUR SCOUT."}
+      - {who: taeo, type: speech, side: r, text: "NIB, YOUR CALL ON THE CROSSING."}
+  - id: P18
+    shape: wide
+    gap: short
+    bg: white
+    camera: "from just inside B looking out at Nib entering"
+    art: >
+      Nib enters yeoju_gate_b from exterior gravel, knife sheathed, binoculars lowered, fresh cold-white/violet
+      return ring on RIGHT wrist. Behind him Sera and Dara wait their turns outside. His boots meet weathered
+      reed-stone landing. Lavender inside light opposes ordinary blue daylight beyond the door-height slit.
+      No teleport between A and B, lettering or instant attack.
+    calm: top
+    lines:
+      - {who: nib, type: speech, side: r, text: "I'M GOING. SERA, WATCH THE RIGHT EDGE."}
+  - id: P19
+    shape: full
+    gap: short
+    bg: white
+    camera: "high establishing view from B's entry landing toward the eastern shelf"
+    art: >
+      yeoju_gate_b geography: narrow weathered causeway from entry landing to broad eastern extraction shelf,
+      dry ravine on SOUTH/right, solid rib wall NORTH/left. The transverse stone tooth projects from the north
+      wall across the far end; firm upper notch behind it. Nib tests the near causeway while Sera watches right.
+      WRONG lavender sky, violet shadows, white blue-banded cable. No printed map or newly appearing crack.
+    calm: top
+    lines:
+      - {who: nib, type: phone, side: l, text: "B HAS A NARROW NECK. SOUTH EDGE IS BAD."}
+    notes: "Line addressed to Taeo via intact survey cable; the outside listener determines phone voice. Establish the escape geometry before pressure."
+  - id: P20
+    shape: strip
+    gap: short
+    bg: white
+    camera: "extreme close-up at Nib's boot toe beside an old fracture"
+    art: >
+      On yeoju_gate_b causeway Nib's dark-brown boot toe stops short of an OLD pale fracture dusted with grit.
+      A tiny loose flake drops toward the south ravine; his foot stays on sound stone. Lavender overhead light,
+      violet below. Keep cable on the north side, clear of the fracture. No text or magically spreading fault.
+    calm: none
+    silent: true
+  - id: P21
+    shape: wide
+    gap: short
+    bg: white
+    camera: "over Taeo's right shoulder at his exterior two-threshold board"
+    art: >
+      At yeoju_anchor_field operator canopy, Taeo in navy jacket slides a plain physical marker from A's frame
+      sketch toward B's; drawings contain shapes only. Sejin stands beside his chair with cuff ready. Two separate
+      handset cords and flat coupler leads stay orderly. Daylight, slate/ochre; old backpack patch on chair.
+      No readable map, interface view for Sejin or lettering in art.
+    calm: top
+    lines:
+      - {who: taeo, type: speech, side: r, text: "B'S SOUTH EDGE CLOSED TO LOADS. KEEP THE LINE NORTH."}
+      - {who: taeo, type: speech, side: r, text: "ORRIN, CAN YOU HOLD A'S FIRM LANDING?"}
+  - id: P22
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low frontal on Orrin newly back inside A beside the timber stock sledge"
+    art: >
+      Orrin is back at yeoju_gate_a's firm landing after unloading, unharnessed adult slate shell, all four feet
+      planted beside a timber stock sledge and padded stop. His foreleg return ring is visible again. He checks
+      the floor before answering, patient and deliberate. Lavender/violet palette. No cargo on shell now, boss corpse or text.
+    calm: top
+    lines:
+      - {who: orrin, type: phone, side: l, text: "I CAN. THIS GROUND IS HONEST."}
+  - id: P23
+    shape: strip
+    gap: short
+    bg: white
+    camera: "extreme close on Taeo's two waiting pulses in his right hand"
+    art: >
+      At exterior yeoju_anchor_field control seat, thin amber and slate-green pulses sit separate in Taeo's
+      RIGHT palm, fingers relaxed by effort. Bruises on his forearm are old; Sejin's cuff surrounds the other arm.
+      Ordinary daylight and slate shade, no new link hues, green phone screen, cyan window or text.
+    calm: none
+    lines:
+      - {who: taeo, type: float, text: "TWO DOORS. TWO ANSWERS. NEITHER ONE IS MINE."}
+  - id: P24
+    shape: wide
+    gap: short
+    bg: white
+    camera: "side view along B's extraction shelf with Nib directing"
+    art: >
+      On yeoju_gate_b shelf Nib guides the field_assistant onto solid north ground, not across the south fracture.
+      Sera watches the far ridge with LEFT-hand bow; Dara checks the assistant's dressed hand. Their return
+      marks stay white/violet and distinct from gear. Lavender sky, violet shadows, muted ochre stone.
+      No boss corpse, automatic stock respawn, lettering or danger gag.
+    calm: top
+    lines:
+      - {who: nib, type: speech, side: l, text: "ONE TRAY AT A TIME. NO SHORTCUT."}
+  - id: P25
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Sera lowering her bow slightly to speak to Nib"
+    art: >
+      Sera on yeoju_gate_b shelf flicks her eyes toward the slowly growing tray pile with a money-minded grin,
+      bow still directed clear of people. Nib's notched ear appears foreground. LEFT bracer and RIGHT flute correct.
+      Lavender light, violet shadow and river-green fabric. No selfie phone, glamour glow or lettering.
+    calm: left
+    lines:
+      - {who: sera, type: speech, side: r, text: "SLOW MONEY IS STILL MONEY."}
+      - {who: nib, type: speech, side: l, text: "ALIVE MONEY."}
+  - id: P26
+    shape: wide
+    gap: long
+    bg: white
+    camera: "medium from depot doorway toward the exterior canopy"
+    art: >
+      Midday at yeoju_supply_depot: trays are sealed on the west table, Haein brings spare clamps from the
+      east fuel cage side. Taeo remains visible outside at his canopy with Sejin. A hanging depot work lamp
+      blinks off then on, making Haein stop with one foot raised. White/grey-brown daylight. Blank tags;
+      no Venn device connected to the crew's relay box, readable print or gratuitous sparks.
+    calm: top
+    sfx:
+      - {text: "TIK", style: quiet, at: [0.45, 0.17], size: S, rot: 0}
+  - id: P27
+    shape: narrow-l
+    gap: short
+    bg: white
+    camera: "close on Haein looking up at the flickering fixture"
+    art: >
+      Haein at yeoju_supply_depot tilts her blunt-bobbed head toward the lamp, eyes narrowing; slate-blue
+      overalls, beige tee, spanner RIGHT and screwdriver LEFT. She is irritated by a familiar sound, not alarmed
+      by an explosion. Cool white lamp and daylight, grey/brown. Keep fixture ordinary; no text or decorative electrical arcs.
+    calm: right
+    lines:
+      - {who: haein, type: speech, side: l, text: "DID THAT JUST SKIP?"}
+  - id: P28
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye-level two-shot at the depot counter"
+    art: >
+      depot_keeper in grey work clothes at yeoju_supply_depot sets a hand on a rattling lamp ballast box,
+      resigned. Haein puts her spare clamps down and watches the adjacent anchor module instead.
+      Cool lamp mixed with noon daylight, institutional grey/brown. Labels and fuel canister marks blank.
+      No spilled fuel, accident, villain pose or lettering.
+    calm: top
+    lines:
+      - {who: depot_keeper, type: speech, side: r, text: "CHEAP LAMP. IT DOES THAT."}
+      - {who: haein, type: speech, side: l, text: "THE LAMP DIDN'T MAKE THAT NOISE."}
+  - id: P29
+    shape: inset-r
+    gap: short
+    bg: white
+    style: chibi
+    camera: "chibi frontal gag, Haein sternly examining an innocent lamp"
+    art: >
+      Flat grey-brown comedy at yeoju_supply_depot: chibi Haein in overalls holds the lamp housing up with
+      exaggerated detective severity; the adult keeper shrugs with flat eyes. No faces drawn on the lamp,
+      no electrical danger and no real diagnostic conclusion yet. Cool white block lighting; correct tool belt.
+      No wording, bubbles or symbols in the art.
+    calm: left
+    lines:
+      - {who: depot_keeper, type: speech, side: r, text: "FIRST PERSON HERE TO DEFEND THE LAMP."}
+  - id: P30
+    shape: wide
+    gap: short
+    bg: white
+    camera: "top-down on Haein opening the depot module's service hatch"
+    art: >
+      Normal style at yeoju_supply_depot: with the keeper holding the power isolator OFF, Haein opens a small
+      service hatch on the depot's modified anchor module. Its plain fuel canister has a blank rectangular label.
+      Her glasses are down and gloves on, face focused. Daylight now supplies the light, grey/brown palette.
+      No exposed live arc, replica of crew equipment or readable print.
+    calm: top
+    lines:
+      - {who: haein, type: speech, side: l, text: "KEEP IT ISOLATED. I'LL READ THE STORED TRACE."}
+    ui:
+      - {kind: label, text: "VENN LOGISTICS", at: [0.61, 0.64], notes: "Letterer places on depot fuel canister's blank label."}
+  - id: P31
+    shape: narrow-r
+    gap: short
+    bg: white
+    camera: "kit phone close-up of Haein's comparison record via a table-mounted device"
+    art: "KIT HAND"
+    calm: left
+    ui:
+      - kind: phone.info_card
+        on: screen
+        hand: phone_on_table
+        title: "HAEIN · TEST LOG"
+        text: "EARLIER SITE: MODIFIED ANCHOR / YEOJU DEPOT: MODIFIED ANCHOR / RECORDED PULSE FAULT: MATCH"
+    notes: "Device is on the depot table, not Taeo's handheld phone. Comparison uses ch88's saved trace without inventing exact waveform parameters."
+  - id: P32
+    shape: strip
+    gap: short
+    bg: white
+    camera: "extreme close-up on Haein's eyes recognising the match"
+    art: >
+      Haein at yeoju_supply_depot stares down at the stored comparison, eyes abruptly wide behind lowered
+      clear safety glasses. Her jaw-length bob casts one hard shadow across her cheek. Cool daylight, grey-brown
+      shapes behind. No reflected readable graph, text, new screen colour or decorative glow.
+    calm: none
+    silent: true
+  - id: P33
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low diagonal across the isolated canister toward Haein and keeper"
+    art: >
+      At yeoju_supply_depot the isolated modified anchor fills the lower-left foreground, blank Venn canister
+      beside it. Haein in overalls looks sharply toward the keeper, one hand planted on the saved log device,
+      face openly shocked by recognition. Keeper's humour has gone. Noon daylight, grey-brown hard shadows.
+      No villain reveal, culprit silhouette, sparks or readable printed art.
+    calm: top
+    lines:
+      - {who: haein, type: speech, side: r, text: "SAME FAULT."}
+      - {who: depot_keeper, type: speech, side: l, text: "SAME AS WHAT?"}
+      - {who: haein, type: speech, side: r, text: "ANOTHER SITE. ANOTHER SHIPMENT."}
+    notes: "PLANT P20: second unrelated modified Venn anchor reproduces ch88's saved pulse fault. It is an infrastructure clue, not the cause of Iron Vow's displacement or a solved conspiracy."
+  - id: P34
+    shape: wide
+    gap: short
+    bg: white
+    camera: "from inside depot looking toward Chae arriving with tablet"
+    art: >
+      At yeoju_supply_depot Chae arrives from the exterior apron, navy cardigan and plain safety vest, tablet dark in hand.
+      Haein indicates the isolated module and keeper's delivery envelope without touching its blank label.
+      Both act fast and matter-of-fact. Cool daylight, grey-brown institutional palette. No readable paperwork,
+      alarm crowd, inferred sabotage or floating system visible to Chae.
+    calm: top
+    lines:
+      - {who: haein, type: speech, side: l, text: "KEEP THE MODULE AND DELIVERY RECORD TOGETHER."}
+      - {who: chae, type: speech, side: r, text: "SEALED. BACKUP POWER FOR THE DEPOT."}
+  - id: P35
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "medium on Taeo hearing Haein through the exterior handset"
+    art: >
+      Taeo at yeoju_anchor_field exterior canopy holds the wired handset, brows tightening. The second
+      handset and separate coupler leads remain orderly; olive backpack's faded old orange patch faces out.
+      Sejin watches his breathing. Noon daylight, slate shade. No active screen, green light or new wound.
+    calm: right
+    lines:
+      - {who: haein, type: phone, side: l, text: "DEPOT ONLY. OUR RELAYS ARE SEPARATE."}
+      - {who: taeo, type: speech, side: r, text: "LOG IT. DON'T THROW IT AWAY."}
+  - id: P36
+    shape: full
+    gap: long
+    bg: white
+    camera: "high wide exterior over the depot and both operating thresholds"
+    art: >
+      Afternoon at yeoju_anchor_field: depot keeper wheels in an ordinary backup power cart north while
+      Chae seals the isolated module. Haein returns to A/B exterior couplers; Taeo remains at southwest canopy.
+      White blue-banded survey cables remain intact and taped clear of foot lanes. Daylight slants from west,
+      slate and ochre with cold violet gates. No defect spreading, readable seals or magical connection between gates.
+    calm: top
+    lines:
+      - {who: taeo, type: float, text: "I WRITE DOWN THE THINGS I DON'T KNOW."}
+      - {who: taeo, type: float, text: "I USED TO CALL THAT WAITING."}
+  - id: P37
+    shape: wide
+    gap: short
+    bg: white
+    camera: "inside B from the shelf facing the northern approach"
+    art: >
+      At yeoju_gate_b, Do Gangjin leads three ironvow_members onto the north-east side of the broad extraction
+      shelf, dark-steel plates and muted red tabs forming a compact front. Nib's group works west of them by
+      the narrow causeway. Both teams have wrist return marks. Lavender sky, violet shadows.
+      No giant army, weapons at civilians, readable territory lines or actual blow yet.
+    calm: top
+    lines:
+      - {who: do_gangjin, type: speech, side: r, text: "YOU'VE BEEN BUSY."}
+      - {who: nib, type: speech, side: l, text: "WORK DOES THAT."}
+  - id: P38
+    shape: strip
+    gap: short
+    bg: white
+    camera: "close on Gangjin's boot finding solid north stone"
+    art: >
+      At yeoju_gate_b shelf Gangjin's heavy armoured boot settles on the firm NORTH rib, far from the weathered
+      southern edge. His muted red waist tab enters the upper crop. Lavender overhead light, violet stone shadow.
+      Clear stable footing, not a secret trap; no text, sparks or an anchor fault effect.
+    calm: none
+    sfx:
+      - {text: "KTHK", style: quiet, at: [0.55, 0.65], size: M, rot: 0}
+  - id: P39
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye-level on Sera and Nib from the rival formation's side"
+    art: >
+      Sera at yeoju_gate_b lowers her arrow point away from human bodies, expression hard; Nib has already
+      turned toward the north-side retreat route with the assistant's tray. Dara stands closest to the assistant.
+      Lavender sky, violet shadows, river-green and slate clothes. All feet remain grounded and adult.
+      No cheerful combat grin, drawn text or mistaken automatic-return glow.
+    calm: top
+    lines:
+      - {who: sera, type: speech, side: r, text: "THE NORTH SEAM IS STILL OPEN."}
+      - {who: do_gangjin, type: speech, side: l, text: "WE'RE TAKING THIS ONE."}
+  - id: P40
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low across Gangjin's gauntlets to his compact team"
+    art: >
+      At yeoju_gate_b shelf Gangjin raises one gauntleted hand; his adult armoured team sets knees and hips
+      together in a practised pressure stance, calm and efficient. Their faces show effort rather than hatred.
+      Lavender light, violet shadows, dark steel with muted red panels. No beams, force blades, text or foot-induced earthquake.
+    calm: top
+    lines:
+      - {who: do_gangjin, type: speech, side: r, text: "MOVE THEM. KEEP IT CLEAN."}
+  - id: P41
+    shape: strip
+    gap: short
+    bg: white
+    camera: "extreme close on the first skid of Nib's boot"
+    art: >
+      At yeoju_gate_b shelf Nib's chosen boot skids a handspan across dust despite a deep planted stance.
+      A loose fragment slides beside it toward the south/right causeway edge. Lavender light, violet shadows;
+      dust rises only at the skid. The north-side white survey cable stays intact. No text, shockwave rings or wound.
+    calm: none
+    sfx:
+      - {text: "SKRR", style: quiet, at: [0.57, 0.72], size: M, rot: -6}
+  - id: P42
+    shape: wide
+    gap: short
+    bg: white
+    camera: "outside at the relay desk as Kesh snaps toward B"
+    art: >
+      Kesh at yeoju_anchor_field exterior A/B junction jerks his antennae toward B, adult face suddenly strained,
+      one delicate hand clamped on the wired handset. Taeo turns in his chair; Haein freezes over the coupler.
+      West daylight, slate and ochre. Wand unlit and wings folded; no supernatural radar picture, print or interface.
+    calm: top
+    lines:
+      - {who: nib, type: phone, side: l, text: "PRESSURE. B. THEY'RE TURNING US SOUTH."}
+      - {who: kesh, type: speech, side: r, text: "BOTH ENDS CAN STILL HEAR."}
+  - id: P43
+    shape: wide
+    gap: short
+    bg: white
+    camera: "side-on at B's shelf, the whole group sliding toward the causeway"
+    art: >
+      At yeoju_gate_b shelf Nib grabs the field_assistant's load strap to steer him NORTH, not to carry his
+      weight. Dara braces the assistant's back; Sera walks backward with bow lowered, heel testing each slab.
+      Their bodies all lean against the same diagonal pressure. Lavender/violet; fractured causeway behind them.
+      No punch contact, blood, comic deformation or text.
+    calm: top
+    lines:
+      - {who: nib, type: shout, side: l, text: "DROP THE TRAY. NORTH WALL."}
+      - {who: dara, type: speech, side: r, text: "KEEP YOUR KNEES BENT."}
+  - id: P44
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Taeo with the wired handset at his mouth"
+    art: >
+      Taeo at yeoju_anchor_field exterior canopy has gone pale, RIGHT-eye mole beneath wide eyes, jaw tight
+      with the temptation to rush. He grips the handset with one hand while leaving his RIGHT palm open.
+      Sejin's steady hand rests on the cut-off beside him. West daylight, slate shade. No new blood or lettering.
+    calm: left
+    lines:
+      - {who: taeo, type: speech, side: r, text: "ORRIN. WILL YOU TAKE IT?"}
+      - {who: orrin, type: phone, side: l, text: "READY AT A."}
+  - id: P45
+    shape: strip
+    gap: short
+    bg: white
+    camera: "tight on the causeway's old south fracture opening under fresh load"
+    art: >
+      At yeoju_gate_b's causeway mouth, the old pale south fracture widens under the group's displaced weight.
+      A fist-sized stone drops into the dry ravine, leaving a black notch. Nib's boot remains just north of it.
+      Lavender light ends sharply at violet depth. No Venn pulse, glowing crack, lettering or complete collapse yet.
+    calm: none
+    silent: true
+  - id: P46
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low from the causeway toward Sera warning the rival front"
+    art: >
+      Sera at yeoju_gate_b turns a furious face toward Gangjin while her left shoulder braces the north wall;
+      her bow remains low, arrow safely down. Gangjin beyond is still pushing, eyes narrowing as he notices
+      the stone shift too late. Lavender/violet palette, no gore or magic beam. Keep all combatants human proportioned.
+    calm: top
+    lines:
+      - {who: sera, type: shout, side: l, text: "THE EDGE IS GOING! BACK OFF!"}
+      - {who: do_gangjin, type: shout, side: r, text: "EASE!"}
+  - id: P47
+    shape: wide
+    gap: short
+    bg: white
+    camera: "operator-side view across Chae and Haein as the warning arrives"
+    art: >
+      Chae at yeoju_anchor_field exterior runs toward B, tablet secured, safety expression stripped of ceremony.
+      Haein kneels at the B coupler with gloved hand waiting for Taeo's permission. He stays seated within reach
+      of Sejin. West daylight, slate/ochre, cold gate violet. No stopping the clock by magic, text or powered depot module.
+    calm: top
+    lines:
+      - {who: chae, type: shout, side: l, text: "HOLD CONTEST ACTIVITY AT B. SAFETY INCIDENT."}
+      - {who: haein, type: speech, side: r, text: "PAIR'S PREPARED. YOUR CALL."}
+  - id: P48
+    shape: strip
+    gap: short
+    bg: white
+    camera: "extreme close-up on Taeo's right palm opening fully"
+    art: >
+      At yeoju_anchor_field exterior control seat Taeo opens his bruised RIGHT forearm and palm toward the
+      paired grey coupler lead. Thin amber pulse answers a distinct slate-green pulse. His fingers shake.
+      West daylight, slate canopy shade. No percentage increase, cyan UI, actual beam from skin or lettering.
+    calm: none
+    lines:
+      - {who: taeo, type: whisper, side: c, text: "NIB. I NEED YOUR YES."}
+  - id: P49
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "near-ground eye level on Nib fighting the slide at B"
+    art: >
+      Nib at yeoju_gate_b causeway, default clothes, exact locked belt props and chosen boots, clamps one hand
+      around sound north rib stone. His adult face is fierce with effort; the field_assistant and Dara crowd
+      safely north behind him. Return ring cold-white/violet on RIGHT wrist. Lavender/violet with deep ravine below.
+      No chibi, broken bone, lettered marks or miraculous grip.
+    calm: top
+    lines:
+      - {who: nib, type: speech, side: l, text: "YES. NOW."}
+  - id: P50
+    shape: strip
+    gap: short
+    bg: navy
+    camera: "outside close on Taeo's heel braced under his chair"
+    art: >
+      Taeo at yeoju_anchor_field exterior canopy plants his striped black sneaker against the chair's rear
+      foot, hands out of frame, preparing to route. Sejin's dark work boot stops beside his, ready to intervene.
+      West daylight is cut by canopy shade, slate and ochre. No text, blood, interface or physical entry into a gate.
+    calm: none
+    lines:
+      - {who: taeo, type: float, text: "WE PRACTISED WITH A SLED."}
+  - id: P51
+    shape: bleed
+    gap: black
+    bg: navy
+    camera: "high from B's north rib across the collapsing south edge"
+    art: >
+      THE HOOK at yeoju_gate_b: Iron Vow's displacement has shoved Nib's group onto the weathered causeway
+      mouth. Its south lip breaks away beneath Sera's retreating heel; Nib, Dara and the assistant strain toward
+      the north wall. The ravine opens vertically below them, stone falling only from the actual break. Gangjin's
+      formation is receding upstage, trying to stop. Lavender sky, violet depths, one danger-red grit accent.
+      No fallen person yet, magical fault pulse, cute acting, text or completed rescue.
+    calm: top
+    sfx:
+      - {text: "KRRRAK", style: impact, at: [0.66, 0.61], size: XL, rot: 12}
+    notes: "HOOK: displacement at threshold B shoves Nib's team toward collapse. Pressure can stop while displaced weight and failing stone still move. ch95 begins this instant."
+  - id: P52
+    kind: end
+    gap: long
+    bg: white
+    end_text: "TO BE CONTINUED"
+    next: "NEXT · CHAPTER 95 · PRESSURE"
+    chibi_gag: "Chibi Orrin holds up an empty tray to forbid lunch boxes on his shell. Chibi Sera produces a second, smaller lunch box from behind her RIGHT-side flute; chibi Nib silently shuts his own RIGHT pouch. This is a detached depot lunch gag, with no collapse or danger."

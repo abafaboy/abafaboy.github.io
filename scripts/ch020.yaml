@@ -42,8 +42,8 @@ panels:
       Hard cel shadows; cyan only on surfaces that face the window. Not: haze, glowing dust, the desk lamp lit, any text.
     calm: top-right
     lines:
-      - {who: narr, type: tag, text: "3:56 AM"}
-      - {who: taeo, type: float, text: "I'VE READ IT ELEVEN TIMES."}
+      - {who: "narr", type: "tag", text: "3:56 AM"}
+      - {who: "taeo", type: "float", text: "I'VE READ THE CONSENT LOG ELEVEN TIMES."}
     ui:
       - {kind: system.log, on: float, at: [0.5, 0.38], headline: "[INTERFACE LOG]", lines: ["TRANSFER 0001 · ROUTE: EMERGENCY", "CATEGORY 7", "CONSENT: NOT REQUESTED", "OPERATOR: AUTO-SELECT (DAMAGED)"]}
     notes: "Continues ch 19 P58–P61: the log remains open from just before midnight into 3:56 AM. Its wording is unchanged. The operator line reprises ch 19's P09 plant; it is not a new plant. Route alignment stands at 50% (ch 19)."
@@ -75,6 +75,7 @@ panels:
       the blanket still over his shoulders, the binocular strap at his neck. He has been awake for a while.
       Background, small: Taeo as a dark hunched shape at the folding table, writing in the dark.
       Not: any cyan light, any window shape, any text.
+      Nib's speaking face is in the left third; Taeo remains a distant silent shape on the right.
     calm: right
     lines:
       - {who: nib, type: speech, side: l, text: "YOUR PENCIL IS LOUD."}
@@ -89,11 +90,12 @@ panels:
     art: >
       Taeo (default) caught out: he has flattened his palm over the notepad page and turned it face down, too fast. Cyan light from above on his face again (his view);
       his eyes slide toward the door, guilty, and he tries to make his face ordinary. The pencil rolls away across the table. Plain dark background behind him.
+      Taeo's face is on the right. Nib speaks from outside the frame to the left.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: r, text: "SORRY. THE INTERFACE IS OPEN. IT'S BRIGHT FOR ME."}
-      - {who: "offpanel:nib", type: speech, side: l, text: "WHAT DOES IT SAY?"}
-      - {who: taeo, type: nervous, side: r, text: "...JUST NUMBERS. GO BACK TO SLEEP."}
+      - {who: "taeo", type: "speech", side: "r", text: "SORRY. THE INTERFACE IS OPEN. I CAN SEE ITS LIGHT."}
+      - {who: "offpanel:nib", type: "speech", side: "l", text: "WHAT DOES THE WINDOW SAY?"}
+      - {who: "taeo", type: "nervous", side: "r", text: "JUST NUMBERS. GO BACK TO SLEEP."}
     notes: "The lie that the hook undoes. 'Just numbers' is half true: ch 19's window showed ROUTE ALIGNMENT 50%."
 
   - id: P05
@@ -106,9 +108,10 @@ panels:
       Taeo sits motionless in profile at the folding table, his palm still flat on the face-down page, shoulders up near his ears, staring at nothing.
       At frame left by the door, Nib's eyes have closed again under the blanket; the binoculars rise and fall on his chest.
       Two hard shadow tones only. Not: cyan, amber, any text.
+      Frame Taeo's seated profile on the right from the waist up; Nib sleeps farther left by the door.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "I'LL TELL HIM IN THE MORNING."}
+      - {who: "taeo", type: "float", text: "I'LL TELL NIB ABOUT THE LOG IN THE MORNING."}
 
   - id: P06
     kind: title
@@ -142,13 +145,13 @@ panels:
       Low peach-orange sun from the west (frame left), long hard shadows across the dirt, blue-violet shadow sides. A drawn background. Not: readable text, signs with letters, a third van.
     calm: top-left
     lines:
-      - {who: narr, type: tag, text: "RYU SURVEY YARD · 7:05 PM"}
-      - {who: taeo, type: float, text: "I DIDN'T TELL HIM IN THE MORNING."}
-      - {who: taeo, type: float, text: "OR AT LUNCH."}
+      - {who: "narr", type: "tag", text: "RYU SURVEY YARD · 7:05 PM"}
+      - {who: "taeo", type: "float", text: "I DIDN'T TELL NIB IN THE MORNING."}
+      - {who: "taeo", type: "float", text: "OR AT LUNCH."}
     notes: "Two vans: Bluebird towed the third in ch 12. The empty bay is the debt made visible; nobody mentions it."
 
   - id: P09
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "Nib's point of view through his binoculars, from the roof down to the yard gate"
@@ -158,30 +161,31 @@ panels:
       her other arm hooked under Kwak's (mansu, default: checked flannel, back brace over it, hospital wristband, aluminium cane), steering him over the gate's sill;
       Kwak walks stiffly, smiling at the ground. Behind them Eunchae (eunchae, default) carries an enormous paper bag with lettuce leaves spilling over the top,
       and Sejin (sejin, default) comes last with her medic bag on one shoulder. Peach-orange light, blue-violet shadows. Not: text, a crosshair or any HUD.
+      Keep the four arrivals in a tall binocular field with room from head to feet as they cross the sill.
     calm: top
     lines:
-      - {who: "offpanel:nib", type: speech, side: r, text: "FOUR. ONE WITH A STICK. ONE WITH GREEN BOTTLES."}
-      - {who: "offpanel:nib", type: speech, side: r, text: "ONE WITH LEAVES. AND THE 'SAY AH' ONE."}
+      - {who: "offpanel:nib", type: "speech", side: "r", text: "FOUR. KWAK'S STICK. DAMI'S GREEN BOTTLES. EUNCHAE'S LEAVES. AND SEJIN, THE 'SAY AH' ONE."}
     notes: "Callback: Sejin's 'SUMMONED IS NOT A DIAGNOSIS. SAY AH.' (ch 10)."
 
   - id: P10
-    shape: inset-l
+    shape: tall
     gap: short
     bg: white
-    camera: "medium close-up at the parapet, Haein and Nib side by side"
+    camera: "medium three-shot at the parapet, Haein, Nib and Taeo"
     art: >
       Haein (default), safety glasses pushed up, leans on the parapet rail beside Nib and stares at his binoculars the way other people stare at cake.
       Nib has lowered them and holds them flat against his chest with both hands, flat-eyed. Behind them Taeo is building a tower of paper cups on the table, glancing over.
       Peach dusk light; the bulb string and the sky behind, simplified.
+      Haein leans on the left, Nib stands in the centre, and Taeo stands on the right at the cups. Keep all three faces clearly visible and leave room for their bodies.
     calm: right
     lines:
-      - {who: haein, type: speech, side: l, text: "CAN I TAKE THOSE APART?"}
-      - {who: nib, type: speech, side: l, text: "NO."}
-      - {who: taeo, type: speech, side: r, text: "SHE'D HAVE A SCREW LEFT OVER."}
+      - {who: "haein", type: "speech", side: "l", text: "CAN I TAKE YOUR BINOCULARS APART?"}
+      - {who: "nib", type: "speech", side: "c", text: "NO."}
+      - {who: "taeo", type: "speech", side: "r", text: "SHE'D HAVE A SCREW LEFT OVER."}
     notes: "Callback to ch 7 P11, where Taeo noticed the screw Haein left over after rebuilding the radio."
 
   - id: P11
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "side-on at roof level beside the top of the steel stair"
@@ -190,6 +194,7 @@ panels:
       Nib has dropped off the parapet and stands at the top step; without fuss he takes Kwak's elbow over the last step, one soldier helping another.
       Kwak looks down at him and gives a small, serious bow of the head, as to an equal. Nib nods once.
       The green roof paint, the water tank, the bulbs (not lit yet) and the low sun behind them. Dusk palette. Not: Nib drawn small or childlike beside Kwak's bulk.
+      Nib stands on the left at the stair head; Kwak is on the right with Dami behind him. Give the stair, cane and all three standing bodies vertical room.
     calm: top
     lines:
       - {who: nib, type: speech, side: l, text: "YOU'RE WALKING."}
@@ -197,18 +202,19 @@ panels:
     notes: "Their first meeting since the hospital (ch 18). Kwak's injuries stay general (stiff, a cane, careful breathing); match ch018 if it names them."
 
   - id: P12
-    shape: inset-r
+    shape: full
     gap: short
     bg: white
-    camera: "close two-shot, Sejin at Kwak's elbow"
+    camera: "medium two-shot, Sejin taking Kwak's pulse"
     art: >
       Sejin (default, medic bag on her shoulder) has two fingers on Kwak's wrist above the hospital band, taking his pulse while he pretends not to notice;
       she looks at her watch, not at him, deadpan and tired. Kwak gazes over at the grill. Simple flat dusk background.
+      Kwak stands on the left, Sejin on the right. Frame them from the knees up so both faces and Sejin's pulse check are visible.
     calm: left
     lines:
-      - {who: sejin, type: speech, side: r, text: "CHEST?"}
-      - {who: mansu, type: speech, side: l, text: "IT'S FINE."}
-      - {who: sejin, type: speech, side: r, text: "THAT'S ONE."}
+      - {who: "sejin", type: "speech", side: "r", text: "ANY CHEST PAIN?"}
+      - {who: "mansu", type: "speech", side: "l", text: "IT'S FINE."}
+      - {who: "sejin", type: "speech", side: "r", text: "FIRST 'IT'S FINE' TONIGHT."}
     notes: "Runner set up: Sejin counts every 'IT'S FINE' tonight (the second is Taeo's, P24–P25)."
 
   # ---------------- THE PARTY ----------------
@@ -235,7 +241,7 @@ panels:
     notes: "Runner: Eunchae's food-licence exam at the worst moments. No exam date is said here (ch 22 sets 'three weeks')."
 
   - id: P14
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "medium two-shot across the south-west corner of the table, eye level"
@@ -243,6 +249,7 @@ panels:
       Dami has come round to Nib's crate with a green bottle and filled a paper cup for him. Nib holds the cup straight back out to her at arm's length, motionless, deadpan.
       Dami takes it and throws it back in one go, delighted, eyes squeezed shut, the hi-vis vest catching the bulb light, the bottle already tilting to refill.
       Bulbs and navy sky behind, simplified. Not: text on the bottle label.
+      Nib sits on the crate on the left; Dami stands on the right with the bottle. Leave room for her full standing figure and his outstretched arm.
     calm: top
     lines:
       - {who: nib, type: speech, side: l, text: "YOU FIRST."}
@@ -250,7 +257,7 @@ panels:
     notes: "Motif: YOU FIRST (whoever offers a drink drinks it first)."
 
   - id: P15
-    shape: inset-r
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -259,6 +266,7 @@ panels:
       CHIBI gag (A5b). Chibi Nib (ear notch, brown belt, pouch, wooden sheath and binoculars all present) has taken one sip of the refill: his whole face has
       crumpled into a wrinkled knot, ears shot straight back, steam blasting from both ears, tongue out, the paper cup held as far away as his short arm reaches.
       Chibi Dami cackles behind him in a burst of sparkles. Flat pale-green background with a screentone dot pattern.
+      Chibi Nib occupies the centre; chibi Dami is on the right behind him. Leave room for their complete chibi figures.
     calm: top
     lines:
       - {who: nib, type: speech, side: c, text: "WHO DID THIS TO WATER?"}
@@ -266,24 +274,25 @@ panels:
       - {text: "HAHAHA", style: comic, at: [0.78, 0.2], size: S, rot: 8}
 
   - id: P16
-    shape: inset-l
+    shape: wide
     gap: short
     bg: white
-    camera: "medium close-up, Taeo and Nib side by side on the south side of the table"
+    camera: "medium two-shot, Taeo and Nib seated beside each other"
     art: >
       Normal style again. A plastic water bottle now stands by Nib's crate and his cup holds water. He holds out a lettuce wrap he has built himself: far too big,
       three leaves, four strips of pork, a whole clove of garlic and a heroic smear of paste, held together by will alone in his long green fingers.
       He offers it flatly without looking at Taeo. Taeo looks at it, then at him, caught off guard by the kindness: a tired, real, lopsided smile.
       Warm-white bulb light; navy behind.
+      Frame the seated pair from the waist up, Nib on the left with the giant lettuce wrap and Taeo on the right.
     calm: right
     lines:
-      - {who: nib, type: speech, side: l, text: "EAT. YOU DIDN'T SLEEP."}
-      - {who: taeo, type: speech, side: r, text: "...THANKS."}
+      - {who: "nib", type: "speech", side: "l", text: "EAT. YOU DIDN'T SLEEP."}
+      - {who: "taeo", type: "speech", side: "r", text: "THANKS."}
     notes: "Nib noticed the sleepless night (P03). Food as care, as in ch 7's 'THEN EAT. YOURS IS GOING COLD.' From here Nib's cup holds water, which matters in P46."
 
   # ---------------- KWAK'S LIST ----------------
   - id: P17
-    shape: wide
+    shape: tall
     gap: long
     bg: white
     camera: "low angle from table height at the west end, looking up the table at Kwak standing at its head"
@@ -292,10 +301,11 @@ panels:
       Dami hovers with both hands half out in case he tips. Around the table everyone goes still and quiet, cups lowering.
       Kwak's face: a shy, heavy, unshowy man about to say something he rehearsed in the dark. The bulbs hang behind his head; navy sky; the water tank in silhouette.
       Not: a microphone, a banner, any text.
+      Kwak stands in the centre at the head of the table; Dami stands to his right. Leave room for the cane, his raised cup and both standing bodies.
     calm: top
     lines:
-      - {who: mansu, type: speech, side: c, text: "I'M NOT A SPEECH MAN."}
-      - {who: mansu, type: speech, side: c, text: "UNDER THAT SLAB I MADE A LIST. THINGS I'D DO IF I GOT OUT."}
+      - {who: "mansu", type: "speech", side: "c", text: "I'M NOT A SPEECH MAN."}
+      - {who: "mansu", type: "speech", side: "c", text: "UNDER THE SLAB, I LISTED WHAT I'D DO IF I SURVIVED."}
 
   - id: P18
     shape: inset-r
@@ -304,6 +314,7 @@ panels:
     camera: "close-up, Kwak's face, straight on"
     art: >
       Kwak, utterly deadpan, eyes half shut, as if reading item one off the inside of his eyelids. Flat warm background.
+      Kwak's face is on the right.
     calm: left
     lines:
       - {who: mansu, type: speech, side: r, text: "NUMBER ONE WAS PORK."}
@@ -312,7 +323,7 @@ panels:
       - {text: "HA!", style: comic, at: [0.82, 0.86], size: S, rot: 10}
 
   - id: P19
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "over Kwak's shoulder, looking down the table at Nib on his crate"
@@ -320,10 +331,11 @@ panels:
       The laughter has settled. Kwak has turned his cup and his stiff body toward Nib; in the near foreground, the back of his shoulder and the brace strap.
       Nib, on his crate, looks up with his deadpan face and does not know what to do with his hands; he gives one small nod.
       Beside him Taeo had started to raise his own cup and has stopped. Bulb light; the city glow beyond the south parapet.
+      Kwak's shoulder and partial speaking profile are on the left, Nib sits in the centre, and Taeo sits on the right. Frame them from the knees up.
     calm: top
     lines:
-      - {who: mansu, type: speech, side: l, text: "NUMBER TWO. THANK THE ONE WHO CAME BACK FOR ME."}
-      - {who: mansu, type: speech, side: l, text: "NOBODY ASKED HIM TO. HE CAME ANYWAY."}
+      - {who: "mansu", type: "speech", side: "l", text: "NUMBER TWO. THANK NIB FOR COMING BACK FOR ME."}
+      - {who: "mansu", type: "speech", side: "l", text: "NOBODY ASKED NIB TO COME. HE CAME ANYWAY."}
 
   - id: P20
     shape: strip
@@ -338,17 +350,18 @@ panels:
     notes: "The word 'asked' lands on him."
 
   - id: P21
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "three-quarter from behind Eunchae's shoulder as Kwak turns to Taeo"
     art: >
       Kwak turns his cup and his whole stiff body toward Taeo. Taeo straightens, alarmed to be the subject, and makes a small no-no wave with his free hand.
       In the near foreground, Eunchae's shoulder and ponytail. Across the table Minho chews and watches. Bulb light, navy shadows, simplified background.
+      Kwak stands on the left; Taeo sits on the right. Eunchae's shoulder is in the centre foreground and Minho watches behind. Give Kwak and the cane their full height.
     calm: top
     lines:
-      - {who: mansu, type: speech, side: l, text: "NUMBER THREE. DAMI SAYS SOMEONE PAID FOR THE HOURS THEY SPENT ON ME."}
-      - {who: taeo, type: nervous, side: r, text: "THAT WAS THE CONTRACT. IT WASN'T YOUR—"}
+      - {who: "mansu", type: "speech", side: "l", text: "NUMBER THREE. DAMI SAYS TAEO PAID THE PENALTY FOR KEEPING OUR RESCUE GOING."}
+      - {who: "taeo", type: "nervous", side: "r", text: "THE PENALTY WAS FOR LATE HANDOVER. MR. KWAK, YOU DON'T OWE ME."}
 
   - id: P22
     shape: wide
@@ -358,16 +371,16 @@ panels:
     art: >
       Minho, mid-chew, turns a strip of pork with the clean tongs and says it flatly without looking up: no malice, just a man who does the accounts.
       At the right edge Taeo turns to him with a betrayed, pleading face. Grill smoke curls in one hard-edged ribbon. Bulb light.
+      Keep Minho on the left and Taeo on the right, both seated and framed from the waist up.
     calm: top-left
     lines:
-      - {who: minho, type: speech, side: l, text: "THREE MILLION FOUR HUNDRED THOUSAND. OUT OF HIS DEPOSIT."}
-      - {who: taeo, type: speech, side: r, text: "MINHO."}
-      - {who: minho, type: speech, side: l, text: "WHAT? HE ASKED."}
-      - {who: narr, type: footnote, text: "*₩3,400,000 ≈ US$2,500"}
+      - {who: "minho", type: "speech", side: "l", text: "THREE MILLION FOUR HUNDRED THOUSAND WON. OUT OF TAEO'S RENT DEPOSIT."}
+      - {who: "taeo", type: "speech", side: "r", text: "MINHO."}
+      - {who: "minho", type: "speech", side: "l", text: "WHAT? MR. KWAK ASKED."}
     notes: "Ryu Survey's share of the Guro lateness penalty, signed away in ch 17 from his ₩5,000,000 flat deposit (ch 15)."
 
   - id: P23
-    shape: full
+    shape: tall
     gap: short
     bg: white
     camera: "side-on, low, along the length of the table"
@@ -375,23 +388,25 @@ panels:
       Kwak bows: a full, deep, ninety-degree bow from the waist toward Taeo, cane braced, paper cup still in his hand, the bulbs swinging above him.
       Taeo has shot halfway up off his stool with both hands out, mortified, a sweat drop at his temple. Dami lunges for Kwak's elbow; Sejin half rises.
       Nib watches from his crate, very still. Everyone else has frozen mid-bite. A real bow, played straight, with the comedy only in Taeo's panic.
+      Dami is on the left of Kwak, who bows in the centre; Taeo rises on the right. Give the bow and all three bodies vertical room.
     calm: top
     lines:
-      - {who: taeo, type: nervous, side: r, text: "PLEASE— SORRY— DON'T, YOU GOT OUT OF HOSPITAL TODAY—"}
-      - {who: dami, type: shout, side: l, text: "AHJUSSI, YOUR BACK!"}
+      - {who: "taeo", type: "nervous", side: "r", text: "PLEASE, DON'T BOW. SORRY. YOU JUST GOT OUT OF HOSPITAL."}
+      - {who: "dami", type: "shout", side: "l", text: "AHJUSSI, YOUR BACK!"}
 
   - id: P24
-    shape: inset-l
+    shape: wide
     gap: short
     bg: white
-    camera: "close two-shot, Eunchae leaning in beside Taeo"
+    camera: "medium two-shot of Eunchae leaning toward the seated Taeo"
     art: >
       The same minute: Kwak is sitting again. Eunchae leans in close to Taeo's ear, quiet, sharp-eyed, not letting it go.
       Taeo answers with his polite, exhausted smile, the one he uses on customers. Plain warm background.
+      Frame Eunchae on the left and Taeo on the right from the waist up, with both seated faces visible.
     calm: right
     lines:
-      - {who: eunchae, type: whisper, side: l, text: "WHAT'S LEFT OF THE DEPOSIT?"}
-      - {who: taeo, type: speech, side: r, text: "ONE POINT SIX MILLION. IT'S FINE."}
+      - {who: "eunchae", type: "whisper", side: "l", text: "HOW MUCH OF YOUR RENT DEPOSIT IS LEFT?"}
+      - {who: "taeo", type: "speech", side: "r", text: "ONE MILLION SIX HUNDRED THOUSAND WON. IT'S FINE."}
     notes: "₩5,000,000 − ₩3,400,000 = ₩1,600,000: the balance the ch 21 zoning notice prints."
 
   - id: P25
@@ -402,12 +417,13 @@ panels:
     art: >
       Sejin, across the table, does not look up from the lettuce wrap she is folding: one eyebrow up, deadpan, two fingers raised.
       Flat navy background.
+      Sejin's face and her two raised fingers are on the right.
     calm: left
     lines:
-      - {who: sejin, type: speech, side: r, text: "THAT'S TWO."}
+      - {who: "sejin", type: "speech", side: "r", text: "SECOND 'IT'S FINE' TONIGHT."}
 
   - id: P26
-    shape: wide
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -416,9 +432,10 @@ panels:
       CHIBI gag (A5b). Chibi Minho holds the grey streak at his LEFT temple out between two fingers like evidence, a magnifying glass in his other hand,
       and points it at chibi Taeo, who has turned to stone with one giant sweat drop. A tiny sparkle marks one brand-new grey hair.
       Flat pale-blue background with speed lines.
+      Chibi Minho stands on the left and the stone chibi Taeo on the right; keep both full figures in frame.
     calm: top
     lines:
-      - {who: minho, type: speech, side: l, text: "THAT'S YOU. THAT ONE'S YOU."}
+      - {who: "minho", type: "speech", side: "l", text: "THIS NEW GREY HAIR? YOU DID THAT."}
     notes: "Runner (STORY_BIBLE §9): Minho's grey streak gaining hairs, this one earned by 'take it from my deposit' (ch 15)."
 
   - id: P27
@@ -430,16 +447,17 @@ panels:
       Normal style. Haein has dragged her stool round to squeeze in beside Taeo, elbows on her knees; she has taken his right hand by the wrist and turned the palm up
       under a bulb, peering at it as if it were an engine part that makes a strange noise, with a hungry mechanic's grin. Taeo lets her, wary, interested despite himself.
       The table carries on behind them, simplified. Night sky. Not: any glow in his palm.
+      Frame the seated pair from the waist up, Haein on the left and Taeo on the right, with his open right palm between them.
     calm: top
     lines:
-      - {who: haein, type: speech, side: l, text: "YOU FELT A SLAB SLIP. FROM OUTSIDE A C-GRADE."}
-      - {who: haein, type: speech, side: l, text: "IF YOU CAN FEEL IT, I CAN MEASURE IT. IF I CAN MEASURE IT, WE CAN MOVE IT."}
-      - {who: taeo, type: speech, side: r, text: "...MOVE IT WHERE?"}
+      - {who: "haein", type: "speech", side: "l", text: "YOU FELT THE SHORING PROP SLIP FROM OUTSIDE A C-GRADE GATE."}
+      - {who: "haein", type: "speech", side: "l", text: "I CAN MEASURE THAT PRESSURE. THEN WE CAN TEST HOW TO MOVE THE FORCE."}
+      - {who: "taeo", type: "speech", side: "r", text: "SORRY. THAT SOUNDS LIKE MORE BRUISES."}
     notes: "Arc III seed (invention): the sandbag tests and [LOAD SHARE] in ch 27. Haein saw his first recoil nosebleed in ch 12. She does not answer; the grin is the answer."
 
   # ---------------- THE CITY ----------------
   - id: P28
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "from behind Nib on the east parapet, looking out over the city to the east"
@@ -448,28 +466,30 @@ panels:
       Beyond him, the low roofs of Mapo and lit apartment towers; between two of them, small and far, a violet-black glow with a cold white-cyan rim,
       ringed by tiny blue-and-red cordon lights: a gate, somewhere in Hapjeong-dong. Below and behind him on the table (lower left), three phones light up at once,
       their screens plain pale rectangles with a red bar shape and no text. The bulb string; navy sky. Not: haze, a readable alert, a fourth light colour.
+      Nib stands in the centre on the rail, head to bare feet. Give the water tank and skyline room above and below him.
     calm: top-right
     lines:
-      - {who: narr, type: tag, text: "8:52 PM"}
-      - {who: nib, type: speech, side: c, text: "VIOLET. THAT WAY."}
-      - {who: nib, type: speech, side: c, text: "...NOW THE BRICKS SHOUT."}
+      - {who: "narr", type: "tag", text: "8:52 PM"}
+      - {who: "nib", type: "speech", side: "c", text: "A GATE. EAST OF THE YARD."}
+      - {who: "nib", type: "speech", side: "c", text: "NOW THE SHOUTING BRICKS NOTICE."}
     sfx:
       - {text: "BEEEP", style: alert, at: [0.14, 0.78], size: S, rot: -8}
       - {text: "BEEEP", style: alert, at: [0.3, 0.88], size: S, rot: 6}
     notes: "Nib sees it before the Emergency Alert arrives. Runner: phones are 'shouting bricks'. Arc III seed: the Hapjeong gate advisory zone declared in ch 21."
 
   - id: P29
-    shape: inset-l
+    shape: wide
     gap: short
     bg: white
-    camera: "medium close-up, Minho reading his phone, Eunchae at the frame edge"
+    camera: "medium two-shot, Minho and Eunchae responding to the phone alert"
     art: >
       Minho reads the alert on his phone (the screen turned away from us, a pale glow on his face), jaw tight, the grey streak catching the bulb light.
       At the frame edge Eunchae has stopped wrapping lettuce and is unsmiling, a different person for one second. Plain navy background.
+      Frame Minho on the left and Eunchae on the right from the waist up, both faces clear above the table.
     calm: right
     lines:
-      - {who: minho, type: speech, side: l, text: "HAPJEONG. THIRD ONE THIS MONTH."}
-      - {who: eunchae, type: speech, side: r, text: "THEY'LL ZONE IT. THEN THE RENTS JUMP."}
+      - {who: "minho", type: "speech", side: "l", text: "ANOTHER GATE IN HAPJEONG. THIRD THIS MONTH."}
+      - {who: "eunchae", type: "speech", side: "r", text: "THEY'LL DECLARE A GATE ZONE. THEN THE RENTS JUMP."}
     notes: "Eunchae's flicker plants her lost jeonse deposit (revealed ch 22) without telling it."
 
   # ---------------- DREAMS SAID OUT LOUD ----------------
@@ -481,19 +501,21 @@ panels:
     art: >
       Dami slaps her paper cup down on the table and points round the table with a lettuce leaf like a conductor's baton, cheeks pink from soju, refusing the mood.
       Kwak beside her in the armchair, amused. Bulbs; navy sky.
+      Frame Dami seated in the centre from the waist up, with Kwak seated on her right.
     calm: top
     lines:
-      - {who: dami, type: speech, side: c, text: "NOPE. NO RENT TALK AT A PORK PARTY."}
-      - {who: dami, type: speech, side: c, text: "AHJUSSI MADE A LIST. EVERYBODY SAYS THEIR BIG ONE."}
+      - {who: "dami", type: "speech", side: "c", text: "NOPE. NO RENT TALK AT A PORK PARTY."}
+      - {who: "dami", type: "speech", side: "c", text: "AHJUSSI LISTED WHAT HE WANTS. EVERYONE SAY YOUR BIGGEST DREAM."}
 
   - id: P31
-    shape: inset-r
+    shape: wide
     gap: short
     bg: white
     camera: "two-shot, Haein and Sejin on the north side"
     art: >
       Haein, back on her own stool, holds up both palms: not playing. Sejin beside her answers at once, dry, looking into her cup, as if she has had it ready for years.
       Flat warm background.
+      Haein sits on the left and Sejin on the right. Frame both from the waist up with their faces and cups visible.
     calm: left
     lines:
       - {who: haein, type: speech, side: l, text: "I'M NOT DRUNK ENOUGH."}
@@ -523,11 +545,12 @@ panels:
     art: >
       Minho, his palm flat on the face-down phone (it is still buzzing), says it with total deadpan, looking at nobody, and the table cracks up around him.
       At the frame edge Dami holds up her own phone and waggles it: same club. Bulb light, navy sky.
+      Frame Minho seated on the left and Dami on the right from the waist up.
     calm: top
     lines:
-      - {who: minho, type: speech, side: l, text: "GET MY FAMILY OUT OF DEBT."}
-      - {who: minho, type: speech, side: l, text: "AND NEVER ANSWER A BLUEBIRD CALL AGAIN."}
-      - {who: dami, type: speech, side: r, text: "THEY CALL ME TOO."}
+      - {who: "minho", type: "speech", side: "l", text: "GET MY FAMILY OUT OF DEBT."}
+      - {who: "minho", type: "speech", side: "l", text: "AND NEVER ANSWER A BLUEBIRD CALL AGAIN."}
+      - {who: "dami", type: "speech", side: "r", text: "BLUEBIRD CALLS ME TOO."}
     notes: "Minho's dream (beat). The Ryu debt figure (₩310,000,000) stays hidden until ch 26. Dami's draw loan (₩2,100,000, ch 13) is also owed to Bluebird."
 
   - id: P34
@@ -538,11 +561,12 @@ panels:
     art: >
       Eunchae says hers plainly and seriously, a lettuce wrap forgotten in her hand, eyes on the city lights. Dami gapes at her, delighted and appalled.
       Eunchae answers without turning her head, dry. Bulbs; the city glow beyond the parapet.
+      Eunchae sits on the left and Dami on the right; frame both from the waist up.
     calm: top
     lines:
-      - {who: eunchae, type: speech, side: l, text: "MY OWN PLACE. MY NAME OVER THE DOOR. FAIR RENT."}
-      - {who: dami, type: speech, side: r, text: "FAIR RENT? IN SEOUL?"}
-      - {who: eunchae, type: speech, side: l, text: "I SAID DREAM."}
+      - {who: "eunchae", type: "speech", side: "l", text: "MY OWN RESTAURANT. MY NAME OVER THE DOOR. FAIR RENT."}
+      - {who: "dami", type: "speech", side: "r", text: "FAIR RENT? IN SEOUL?"}
+      - {who: "eunchae", type: "speech", side: "l", text: "I SAID DREAM."}
     notes: "Eunchae's dream (beat). Paid off in ch 99 (Eunchae's, at fair rent)."
 
   - id: P35
@@ -553,11 +577,12 @@ panels:
     art: >
       Dami, her cup held in both hands, tries to say it as a joke and it comes out true: a crooked grin that wobbles, eyes bright.
       Kwak's shoulder and brace strap in the near foreground. Plain warm background.
+      Dami's face is on the right. Haein calls from outside the frame on the left; Kwak's shoulder is low in the left foreground.
     calm: top
     lines:
-      - {who: haein, type: speech, side: l, text: "YOU STARTED THIS. GO."}
-      - {who: dami, type: speech, side: r, text: "THE NEWS SAID 'NO CASUALTIES.' NOBODY SAID AHJUSSI'S NAME."}
-      - {who: dami, type: speech, side: r, text: "TO BE A PORTER PEOPLE SAY THE NAME OF."}
+      - {who: "offpanel:haein", type: "speech", side: "l", text: "YOUR TURN, DAMI. TELL US YOUR DREAM."}
+      - {who: "dami", type: "speech", side: "r", text: "THE NEWS NEVER SAID KWAK MANSU'S NAME. JUST 'NO CASUALTIES.'"}
+      - {who: "dami", type: "speech", side: "r", text: "A PORTER WHOSE NAME PEOPLE SAY OUT LOUD."}
     notes: "Dami's dream (beat). Callbacks: ch 18's KNN headline ('NO CASUALTIES') and the porters' chat ('AGAIN NOBODY SAYS OUR NAMES')."
 
   - id: P36
@@ -567,12 +592,13 @@ panels:
     camera: "close-up, Nib on his crate, looking down the table at Dami"
     art: >
       Nib says it at once and plainly, like a name read off a duty roster, looking straight at her: deadpan, utterly serious, no smile. Plain flat background.
+      Nib's face is in the left third, with the binoculars visible below his chin.
     calm: right
     lines:
       - {who: nib, type: speech, side: l, text: "GU DAMI."}
 
   - id: P37
-    shape: full
+    shape: tall
     gap: short
     bg: white
     camera: "high angle over the table from above the grill, cups rising toward Dami"
@@ -580,6 +606,7 @@ panels:
       BIG REACTION. Kwak lifts his cup first, then everyone does, cups raised toward Dami from all round the table: Minho, Haein, Sejin, Eunchae, Taeo, Nib.
       Dami, at the east end, laughs and cries at once, mouth open, tears running, scrubbing her eyes with the sleeve of her grey hoodie under the hi-vis vest.
       Bulb light on every raised hand; the grill's blue flame in the centre. Not: haze or sparkles in normal style.
+      Kwak's raised cup and face are on the left, Dami is on the right, and the other six faces form the centre of the group. Give every raised arm room above the table.
     calm: top-left
     lines:
       - {who: mansu, type: speech, side: l, text: "GU DAMI."}
@@ -588,17 +615,18 @@ panels:
     notes: "The inherited will in miniature: a porter's name said out loud (her GO FIRST patch, ch 100)."
 
   - id: P38
-    shape: inset-r
+    shape: wide
     gap: short
     bg: white
-    camera: "medium close-up, Dami pointing her cup at Nib"
+    camera: "medium two-shot, Dami asking Nib for his dream"
     art: >
       Dami, still sniffing, eyes red, points her cup at Nib like a microphone. Nib, at the frame edge, has already gone back to eating, unbothered. Flat background.
+      Nib sits on the left and Dami sits on the right. Frame both from the waist up so both faces are clear above the cups.
     calm: left
     lines:
-      - {who: dami, type: speech, side: r, text: "SCOUT. YOU."}
-      - {who: nib, type: speech, side: l, text: "NOT TONIGHT."}
-      - {who: dami, type: speech, side: r, text: "BOO!"}
+      - {who: "dami", type: "speech", side: "r", text: "NIB. YOUR DREAM."}
+      - {who: "nib", type: "speech", side: "l", text: "NOT TONIGHT."}
+      - {who: "dami", type: "speech", side: "r", text: "BOO!"}
     notes: "Callback: ch 2, when Nib looked out of the open door and closed it himself: 'NOT TONIGHT.' His dream is spoken in ch 31."
 
   - id: P39
@@ -609,13 +637,14 @@ panels:
     art: >
       Every head turns to Taeo. Taeo, holding his lettuce wrap, makes the full customer-service retreat: shoulders up, polite smile, a sweat drop, leaning away.
       In the near foreground, Eunchae's ponytail and her finger pointing at him. Bulb light.
+      Eunchae's speaking profile and pointing hand enter from the left; Taeo's face is on the right. Frame the seated pair from the waist up.
     calm: top
     lines:
-      - {who: eunchae, type: speech, side: l, text: "THEN TAEO."}
-      - {who: taeo, type: nervous, side: r, text: "ME? NO, I'M— I'M JUST HERE FOR THE PORK—"}
+      - {who: "eunchae", type: "speech", side: "l", text: "TAEO. YOUR TURN."}
+      - {who: "taeo", type: "nervous", side: "r", text: "ME? SORRY. I ONLY CAME FOR THE PORK."}
 
   - id: P40
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "low angle from beside the grill, Minho leaning in, the others behind him"
@@ -623,11 +652,12 @@ panels:
       Minho leans across the table with the clean tongs pointed at Taeo like a gavel, not smiling, entirely serious: he means it.
       Behind him Dami and Haein bang the table with their fists and paper cups, grinning; Kwak claps the arm of his chair. A comedy pile-on with a true centre.
       Bulbs; navy sky.
+      Minho is on the left. The chanting Dami and Haein are drawn on the right with Kwak beside them. Frame the seated group from the knees up.
     calm: top
     lines:
-      - {who: minho, type: speech, side: l, text: "YOU SIGNED AWAY YOUR DEPOSIT FOR A MAN YOU MET THAT MORNING."}
-      - {who: minho, type: speech, side: l, text: "YOU'VE GOT ONE. SAY IT."}
-      - {who: crowd, type: shout, side: r, text: "SAY IT! SAY IT!"}
+      - {who: "minho", type: "speech", side: "l", text: "YOU SIGNED AWAY YOUR DEPOSIT FOR A MAN YOU MET THAT MORNING."}
+      - {who: "minho", type: "speech", side: "l", text: "YOU'VE GOT A DREAM. SAY IT."}
+      - {who: "crowd", type: "shout", side: "r", text: "SAY IT! SAY IT!"}
     sfx:
       - {text: "BAM BAM", style: impact, at: [0.82, 0.8], size: M, rot: -6}
 
@@ -641,7 +671,7 @@ panels:
       the city lights reflected as tiny points in his pupils. Something old is surfacing. Navy, one warm bulb highlight. Nothing else in frame.
     calm: right
     lines:
-      - {who: taeo, type: float, text: "I'VE NEVER SAID IT OUT LOUD."}
+      - {who: "taeo", type: "float", text: "I'VE NEVER SAID MY DREAM OUT LOUD."}
 
   - id: P42
     shape: tall
@@ -654,6 +684,7 @@ panels:
       the first time we have seen him look sure of anything. The city's cool glow lights his face from the front; the warm bulbs rim him from behind.
       At his feet the olive backpack, its faded orange shield-and-door patch catching the light. Above him the string of bulbs and a deep navy sky with no moon.
       Hard shadows. Not: glow haze, amber, a heroic wind, any text.
+      Taeo's speaking face is centred above the backpack; give his turned seated body natural proportions.
     calm: top
     lines:
       - {who: taeo, type: speech, side: c, text: "I'LL CLEAR THE HARDEST GATE IN THIS COUNTRY WITHOUT SETTING FOOT IN IT."}
@@ -661,7 +692,7 @@ panels:
     notes: "Taeo's dream (STORY_BIBLE §6, iconic). The patch is Seoryun's team emblem: his straw hat."
 
   - id: P43
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     silent: true
@@ -682,6 +713,7 @@ panels:
       BIG REACTION. Minho's composure breaks: a laugh bursts out of him that he did not expect, doubled over, the tongs dropped, one hand over his eyes, tears of laughter.
       Not a sneer: the helpless laugh you give a friend who has said something enormous, and his other hand is reaching for Taeo's shoulder.
       Flat warm background with a few burst lines.
+      Minho's face and reaching hand occupy the right third; keep this a waist-up view of his seated laugh.
     calm: left
     lines:
       - {who: minho, type: speech, side: r, text: "YOU CAN'T EVEN GET A LICENCE."}
@@ -716,6 +748,7 @@ panels:
       Behind and above him, the string of bulbs and the deep navy sky; the table edge and one of Taeo's paper cups in the near foreground.
       Warm-white bulb light on one side of his face, navy shadow on the other; amber only in his eyes. Weathered, adult, never cute.
       The panel's bottom edge breaks its border. Not: glow haze, light rays, a smile.
+      Nib's standing figure is centred, with room from the raised cup down to his bare feet on the crate.
     calm: top
     lines:
       - {who: nib, type: speech, side: c, text: "THEN DON'T SEND ME."}
@@ -723,7 +756,7 @@ panels:
     notes: "Iconic line (STORY_BIBLE §2): Nib defends the dream. His cup holds water since P16, the cup of ch 2."
 
   - id: P47
-    shape: full
+    shape: tall
     gap: short
     bg: white
     camera: "high angle straight down over the table onto the ring of raised cups"
@@ -731,6 +764,7 @@ panels:
       From straight above: a ring of paper cups meeting over the grill, every hand reaching in toward Nib's cup: Dami's, Minho's, Haein's, Sejin's, Eunchae's,
       and Kwak's heavy hand with the hospital wristband. Laughing faces tipped up round the rim of the frame. Taeo's cup arrives last, and lower than the others.
       Bulb light, the blue flame in the centre, green roof paint round the table.
+      Dami's shouting face is on the left; the other raised cups and cheering faces occupy the centre and right. Leave room for every arm.
     calm: top
     lines:
       - {who: dami, type: shout, side: l, text: "YOU HEARD HIM! TO ASKING!"}
@@ -746,12 +780,13 @@ panels:
       Taeo, seated, while everyone else drinks: he cannot laugh. The corner of his mouth tries to lift and fails; his eyes are on Nib (off panel left) and wet at the rims.
       In the foreground his right hand holds his paper cup, still full and untouched; in that palm, under the cup, one thin amber pulse (#F2A93B), faint:
       Nib is letting the link through. Bulb light; plain navy background.
+      Taeo's seated face is in the right third, Nib remains off-panel left.
     calm: none
     notes: "The link pulse appears only when the companion permits it (STORY_BIBLE §5). The only amber in the chapter outside Nib's eyes."
 
   # ---------------- LATE ----------------
   - id: P49
-    shape: vignette
+    shape: tall
     gap: long
     bg: white
     silent: true
@@ -762,11 +797,12 @@ panels:
       Sejin and Eunchae stacking plates; Minho and Haein folding stools. On the parapet rail Nib sits alone with his own paper cup, carefully scoring Kett's mark,
       a small three-line fork, into its side with the tip of his knife, about to tuck the cup into his pouch. Taeo, at the table, watches him do it.
       Night roof palette. The edges fade softly into the white page.
+      Preserve the borderless fade while giving the standing helpers, Nib's seated body and the sleeping Kwak natural proportions.
     calm: none
     notes: "The worker is saved: Kwak sleeps safe under a porter's vest. Motif: Kett's mark on things Nib cares about (ch 5). He keeps the cup from the toast."
 
   - id: P50
-    shape: wide
+    shape: tall
     gap: long
     bg: white
     camera: "medium wide on the pavement outside the yard gate, eye level"
@@ -774,6 +810,7 @@ panels:
       The yard gate on the street (ryu_yard_street), sodium-orange streetlight: a plain white taxi at the kerb, Dami helping Kwak into the back seat.
       Eunchae presses a foil parcel in a black plastic bag into Taeo's hands with a stern look; Minho stands in the open gate with his arms folded;
       Nib already waits on the pavement a few steps up the street, facing home. Deep navy shadows. Not: readable taxi signage.
+      Eunchae stands on the left facing Taeo in the centre; Minho stands on the right in the gate, Nib farther right up the street. Dami and Kwak are behind the taxi door on the left. Give every foreground standing figure room.
     calm: top
     lines:
       - {who: narr, type: tag, text: "10:41 PM"}
@@ -783,7 +820,7 @@ panels:
 
   # ---------------- THE WALK HOME ----------------
   - id: P51
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "wide, from across the street, the two of them small"
@@ -796,18 +833,19 @@ panels:
       - {who: taeo, type: float, text: "TWELVE MINUTES TO MY DOOR."}
 
   - id: P52
-    shape: inset-l
+    shape: tall
     gap: short
     bg: white
-    camera: "low, in front of Nib as he walks toward the camera"
+    camera: "low, full-figure view of Nib walking toward the camera, Taeo visible behind him"
     art: >
       Nib walks toward the camera without turning his head back, eyes ahead, saying it to the street. Taeo is a small dark shape behind him, simplified, not blurred.
       Streetlight orange across Nib's shoulders and the binoculars.
+      Nib walks in the left third, head to bare feet, speaking without looking back. Taeo is clearly drawn in the right background, still holding the leftovers and wearing his backpack. Leave room for both full figures.
     calm: right
     lines:
-      - {who: nib, type: speech, side: l, text: "MINHO'S WRONG."}
-      - {who: "offpanel:taeo", type: speech, side: r, text: "ABOUT THE LICENCE? HE'S RIGHT."}
-      - {who: nib, type: speech, side: l, text: "ABOUT THE DREAM. HARD ISN'T STUPID."}
+      - {who: "nib", type: "speech", side: "l", text: "MINHO'S WRONG ABOUT YOUR DREAM."}
+      - {who: "taeo", type: "speech", side: "r", text: "HE'S RIGHT. I DON'T EVEN HAVE A LICENCE."}
+      - {who: "nib", type: "speech", side: "l", text: "A HARD DREAM ISN'T A STUPID DREAM."}
     notes: "Nib defends the dream a second time, in private."
 
   - id: P53
@@ -832,6 +870,7 @@ panels:
       Taeo has stopped dead in the cone of a single streetlight, the only light on this stretch. Nib, a few steps further on at the soft edge of the light, keeps walking,
       his back to Taeo, the binocular strap across his shoulder blades. Between them: bare pavement, the kerb, a gas meter on the wall.
       Taeo's face is turned down toward the pocket where his hand is. Sodium orange from straight above, hard shadows straight down, navy beyond.
+      Taeo stands on the left beneath the streetlight; Nib is on the right at its edge. Keep both whole figures and the pavement between them in frame.
     calm: top
     lines:
       - {who: taeo, type: speech, side: l, text: "NIB."}
@@ -845,25 +884,27 @@ panels:
     art: >
       Taeo takes the folded notepad page out of his pocket and opens it under the light with both hands, looking at the page and not at Nib, because that is easier.
       The light falls hard on his hair and the paper; his eyes are in shadow. The plastic bag of leftovers hangs from his wrist.
+      Taeo's face is on the right, the opened page below his chin.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: r, text: "THE INTERFACE KEEPS A LOG."}
-      - {who: taeo, type: speech, side: r, text: "LAST NIGHT IT SHOWED ME YOURS."}
+      - {who: "taeo", type: "speech", side: "r", text: "THE INTERFACE KEEPS A LOG."}
+      - {who: "taeo", type: "speech", side: "r", text: "LAST NIGHT I FOUND THE RECORD OF YOUR ARRIVAL."}
 
   - id: P56
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "over Taeo's right shoulder: the open page in the foreground, Nib up the street beyond it"
     art: >
       Over Taeo's right shoulder: the open notepad page in his hands, crisp and close, with three lines of pencil handwriting drawn as strokes only (the letterer sets the words).
       Beyond the page, up the street at the edge of the light, Nib's small back; his steps have slowed. Sodium orange; navy dark beyond.
+      Taeo's shoulder is on the left, Nib's standing back is on the right. Give Nib's full figure room beyond the foreground page.
     calm: top
     ui:
       - {kind: label, text: "TRANSFER 0001 — EMERGENCY\nCATEGORY 7\nCONSENT: NOT REQUESTED", at: [0.36, 0.56], size: 34, color: "#3a3d44", rot: -2, notes: "pencil handwriting, the same hand as P02; fit onto the three stroke lines once the art exists"}
     lines:
-      - {who: taeo, type: speech, side: l, text: "IT CALLS YOU TRANSFER ZERO-ZERO-ZERO-ONE."}
-      - {who: taeo, type: speech, side: l, text: "ROUTE: EMERGENCY."}
+      - {who: "taeo", type: "speech", side: "l", text: "YOUR ARRIVAL IS TRANSFER ZERO-ZERO-ZERO-ONE."}
+      - {who: "taeo", type: "speech", side: "l", text: "THE ROUTE WAS AN EMERGENCY TRANSFER."}
     notes: "PAYOFF P01 (part 1 of 2): Nib is told what the log says. The 3 a.m. flicker he saw on his first night (ch 2, '[ARRIVAL LOGGED — CATEG█RY 7]') was this record."
 
   - id: P57
@@ -874,10 +915,10 @@ panels:
     art: >
       Taeo lifts his eyes from the page to Nib's back. His face in the hard top light carries no excuse: scared and saying it anyway, jaw tight, eyes wet, not crying.
       The streetlight's cone above him; plain navy around.
+      Taeo's face is in the left third; the streetlight is above him.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: l, text: "THE DRAW THAT BROUGHT YOU..."}
-      - {who: taeo, type: speech, side: l, text: "IT DIDN'T ASK YOU."}
+      - {who: "taeo", type: "speech", side: "l", text: "THE DRAW THAT BROUGHT YOU HERE DIDN'T ASK YOUR PERMISSION."}
 
   - id: P58
     shape: strip
@@ -887,11 +928,12 @@ panels:
     art: >
       Extreme close-up: Taeo's thumb just under the third pencil line on the page, the paper trembling very slightly, sodium light on the graphite.
       Nothing else in frame.
+      Taeo's hand and thumb enter from the left; his face remains outside the frame to the left.
     calm: top
     ui:
       - {kind: label, text: "CONSENT: NOT REQUESTED", at: [0.5, 0.52], size: 46, color: "#3a3d44", rot: -2, notes: "the same handwriting as P02 and P56"}
     lines:
-      - {who: taeo, type: speech, side: l, text: "IT SAYS 'CONSENT: NOT REQUESTED.'"}
+      - {who: "offpanel:taeo", type: "speech", side: "l", text: "THE LOG SAYS 'CONSENT: NOT REQUESTED.'"}
     notes: "PAYOFF P01: the log line from ch 19 (planted ch 2), told to Nib in the beat's own words."
 
   - id: P59

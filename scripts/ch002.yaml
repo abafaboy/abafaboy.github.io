@@ -50,7 +50,7 @@ panels:
     calm: top
     lines:
       - {who: taeo, type: nervous, side: l, text: "Y-YOU CAN TALK."}
-      - {who: nib, type: speech, side: r, text: "WHERE."}
+      - {who: nib, type: speech, side: r, text: "WHERE AM I?"}
     notes: "Picks up the instant ch1 P54 ends on 'WHERE AM I?'. Taeo is on the bed (he scrambled onto it in ch1 P52, knocking the lamp over). The mug is THE CUP (LOCATIONS taeo_flat key props); it tipped over in ch1 P52."
 
   - id: P02
@@ -66,7 +66,7 @@ panels:
     lines:
       - {who: taeo, type: nervous, side: c, text: "U-UNIT 402. MANGWON-DONG, MAPO-GU."}
       - {who: taeo, type: speech, side: c, text: "SEOUL?"}
-      - {who: taeo, type: speech, side: c, text: "...EARTH?"}
+      - {who: taeo, type: speech, side: c, text: "EARTH?"}
     notes: "He answers 'WHERE' like a delivery address (unit 402, Mangwon-dong, Mapo-gu: LOCATIONS taeo_flat). Every word is useless to Nib, which is the joke."
 
   - id: P03
@@ -113,7 +113,7 @@ panels:
     sfx:
       - {text: "DING", style: summon, at: [0.93, 0.10], size: M, rot: 0}
     lines:
-      - {who: taeo, type: float, text: "IT READ LIKE A RECEIPT."}
+      - {who: taeo, type: float, text: "THE SUMMON CARD LOOKED LIKE A RECEIPT."}
     notes: "The draw's result card; only Taeo sees it (ART_BIBLE B4). That Nib cannot see this window matters: at 3 a.m. (P54) he sees one. Taeo quotes the card in P27."
 
   - id: P06
@@ -141,7 +141,7 @@ panels:
     calm: top
     lines:
       - {who: narr, type: tag, text: "11:58 PM"}
-      - {who: taeo, type: nervous, side: l, text: "I'M JUST GOING TO... GET SOME AIR."}
+      - {who: taeo, type: nervous, side: r, text: "I'M JUST GOING TO GET SOME AIR."}
     notes: "A gag in normal style: Taeo tries to sneak out of his own flat. The bed's head is at the window (east) wall; the desk sits between the bed's foot and the bathroom."
 
   - id: P08
@@ -157,7 +157,7 @@ panels:
       blue-grey everywhere else. No text.
     calm: top
     lines:
-      - {who: nib, type: speech, side: c, text: "STAND AWAY FROM THE DOOR."}
+      - {who: nib, type: speech, side: l, text: "STAND AWAY FROM THE DOOR."}
 
   - id: P09
     shape: inset-r
@@ -211,7 +211,7 @@ panels:
       The shoe cabinet to the right of the door, the backpack at their feet. Warm lamp light from the room, deep blue-grey shadows. No text.
     calm: top-right
     lines:
-      - {who: taeo, type: whisper, side: r, text: "IT'S THE HANDLE. IT PUSHES DOWN."}
+      - {who: taeo, type: whisper, side: l, text: "PUSH THE DOOR HANDLE DOWN."}
 
   - id: P13
     shape: wide
@@ -226,7 +226,7 @@ panels:
       the street below. No text.
     calm: top-right
     lines:
-      - {who: taeo, type: speech, side: l, text: "IT'S OPEN. YOU CAN GO."}
+      - {who: taeo, type: speech, side: c, text: "IT'S OPEN. YOU CAN GO."}
       - {who: taeo, type: float, text: "IT WAS THE ONLY DOOR I KNEW HOW TO OPEN."}
     notes: "Motif: the open door, its first appearance (STORY_BIBLE section 7). Taeo steps aside so Nib can leave. Don't point it out."
 
@@ -271,7 +271,7 @@ panels:
       shoe cabinet, staring down at him. The toppled lamp's warm wedge from behind the camera, blue-grey shadows. No text.
     calm: top-left
     lines:
-      - {who: nib, type: speech, side: l, text: "NOT TONIGHT."}
+      - {who: nib, type: speech, side: c, text: "NOT TONIGHT."}
     sfx:
       - {text: "KA-CHUNK", style: quiet, at: [0.30, 0.62], size: S, rot: 0}
     notes: "He closes it himself: his choice, for now (STORY_BIBLE section 6, Nib's arc step 1)."
@@ -302,7 +302,7 @@ panels:
     calm: top
     lines:
       - {who: nib, type: speech, side: r, text: "WHAT DID YOU DO."}
-      - {who: taeo, type: speech, side: l, text: "A WINDOW OPENED IN THE AIR. IT SAID 'DRAW.' SO I PRESSED IT."}
+      - {who: taeo, type: speech, side: l, text: "A WINDOW OPENED IN THE AIR. I PRESSED ITS 'DRAW' BUTTON."}
       - {who: nib, type: speech, side: r, text: "WHY."}
 
   - id: P19
@@ -315,7 +315,7 @@ panels:
       Warm lamp light from the side, blue-grey shadow, plain background. No text.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: l, text: "I WANTED TO SEE WHAT WOULD HAPPEN."}
+      - {who: taeo, type: speech, side: c, text: "I WANTED TO SEE WHAT WOULD HAPPEN."}
     notes: "Echoes his ch1 line 'I JUST WANT TO SEE.'"
 
   - id: P20
@@ -332,16 +332,19 @@ panels:
       - {who: taeo, type: speech, side: r, text: "I DIDN'T KNOW IT WOULD BE SOMEONE."}
 
   - id: P21
-    shape: strip
+    shape: tall
     gap: short
     bg: white
-    camera: "low, at Taeo's sitting eye level, looking west at Nib's face"
+    camera: "low, at Taeo's sitting eye level, full figure of Nib at the door"
     art: >
-      Nib's face (nib), level and hard, the grey steel door behind him: a demand, and under it a thread of hope. Amber eyes steady, the notch in the LEFT ear visible,
-      the small lower fang on the left just showing. Lamp light on half his face. No text.
+      Nib (nib) stands in the centre third, fully visible from his notched LEFT ear to his bare feet,
+      with the grey steel door behind him. His right hand rests on the knife hilt at his LEFT hip;
+      the pouch stays on his RIGHT hip. His weathered adult face is level and hard: a demand, with a thread of hope.
+      Amber eyes steady, the small lower fang on the left just showing. Warm lamp light on half his face,
+      deep blue-grey on the other. Leave space above his head and below his feet. No text.
     calm: right
     lines:
-      - {who: nib, type: speech, side: l, text: "SEND ME BACK."}
+      - {who: nib, type: speech, side: c, text: "SEND ME BACK."}
 
   - id: P22
     shape: inset-r
@@ -352,7 +355,7 @@ panels:
       Taeo (taeo, default), helpless and guilty, his open hands lifted a little from his knees. Warm side light, blue-grey shadow, plain background. No text.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: c, text: "I DON'T KNOW HOW."}
+      - {who: taeo, type: speech, side: c, text: "I DON'T KNOW HOW TO SEND YOU BACK."}
       - {who: "offpanel:nib", type: speech, side: l, text: "THEN FIND OUT."}
 
   - id: P23
@@ -365,7 +368,7 @@ panels:
       squinting, like a man testing a lift button. Nothing is there. Plain lamp-lit wall behind him. No text.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: l, text: "...DRAW?"}
+      - {who: taeo, type: speech, side: c, text: "DRAW?"}
 
   - id: P24
     shape: inset-r
@@ -406,8 +409,8 @@ panels:
       Taeo (taeo, default) looks up, earnest and unsure, trying; he risks using the name. Warm side light, soft blue-grey background. No text.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: l, text: "I'LL FIND OUT. SOMEHOW."}
-      - {who: taeo, type: speech, side: l, text: "...NIB?"}
+      - {who: taeo, type: speech, side: c, text: "I'LL FIND OUT HOW."}
+      - {who: taeo, type: speech, side: c, text: "NIB?"}
 
   - id: P27
     shape: wide
@@ -421,8 +424,8 @@ panels:
     calm: top
     lines:
       - {who: nib, type: speech, side: r, text: "WHO GAVE YOU MY NAME?"}
-      - {who: taeo, type: speech, side: l, text: "IT WAS WRITTEN BESIDE YOU."}
-      - {who: taeo, type: speech, side: l, text: "'NIB. GOBLIN SCOUT.'"}
+      - {who: taeo, type: speech, side: l, text: "A WINDOW APPEARED BESIDE YOU."}
+      - {who: taeo, type: speech, side: l, text: "THE WINDOW SAID 'NIB. GOBLIN SCOUT.'"}
     notes: "Taeo is quoting the card from P05."
 
   - id: P28
@@ -437,7 +440,7 @@ panels:
       clearly visible. Plain blue-grey background, lamp light on one side. No text.
     calm: left
     lines:
-      - {who: nib, type: speech, side: c, text: "...NIB."}
+      - {who: nib, type: speech, side: c, text: "NIB."}
     notes: "He keeps the name and drops the category. It sets up ch3's 'I'M NOT A BOX.' without saying it."
 
   - id: P29
@@ -468,7 +471,7 @@ panels:
       to pick it up. Lamp light glints on the water. Nothing else in frame. No text.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: l, text: "...YOU MUST BE THIRSTY."}
+      - {who: "offpanel:taeo", type: speech, side: l, text: "YOU MUST BE THIRSTY."}
     notes: "THE CUP (LOCATIONS taeo_flat key props), tipped over in ch1 P52."
 
   - id: P31
@@ -483,7 +486,7 @@ panels:
     calm: top-left
     lines:
       - {who: nib, type: speech, side: r, text: "WATER FROM THE WALL?"}
-      - {who: taeo, type: speech, side: l, text: "...FROM THE WALL."}
+      - {who: taeo, type: speech, side: c, text: "YES. FROM THE WALL."}
     notes: "Plant the phone face down on the counter here; it buzzes in P38."
 
   - id: P32
@@ -496,8 +499,8 @@ panels:
       Nib's olive-green arm and one pointing finger enter, pointing down at the floor between them. Simplified kitchen behind. No text.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: l, text: "WHERE DO YOU WANT IT?"}
-      - {who: nib, type: speech, side: r, text: "THERE."}
+      - {who: taeo, type: speech, side: c, text: "WHERE DO YOU WANT THE MUG?"}
+      - {who: "offpanel:nib", type: speech, side: r, text: "ON THE FLOOR."}
 
   - id: P33
     shape: full
@@ -549,7 +552,7 @@ panels:
       deadpan relief. Nib (nib), still crouched, reaches out with his left hand and takes the mug, his eyes never leaving Taeo. Lamp light, simplified background. No text.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "...STILL ALIVE."}
+      - {who: taeo, type: speech, side: l, text: "STILL ALIVE."}
 
   - id: P37
     shape: strip
@@ -589,8 +592,8 @@ panels:
       frozen against the counter with his hands up, points one finger at the phone. The phone face down on the counter. Lamp light, simplified kitchen behind. No text.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "IT'S MINE. JUST A MESSAGE."}
-      - {who: nib, type: speech, side: r, text: "I WASN'T ASKING."}
+      - {who: taeo, type: speech, side: l, text: "THAT'S MY PHONE. JUST A MESSAGE."}
+      - {who: nib, type: speech, side: c, text: "I WASN'T ASKING."}
 
   - id: P40
     shape: inset-r
@@ -617,7 +620,7 @@ panels:
       The upright lamp throws their long shadows across the floor. No text.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "I'M SORRY I BROUGHT YOU HERE."}
+      - {who: taeo, type: speech, side: c, text: "I'M SORRY I BROUGHT YOU HERE."}
     notes: "The 'sorry' that answers P09's 'FOR WHAT.'"
 
   - id: P42
@@ -629,8 +632,8 @@ panels:
       Nib (nib) looks down into the water in the mug: not forgiving, tired, honest. The towel and Taeo's hand at the bottom edge. Warm light on his face. No text.
     calm: right
     lines:
-      - {who: nib, type: speech, side: l, text: "YOU STILL DID."}
-      - {who: "offpanel:taeo", type: speech, side: r, text: "I KNOW."}
+      - {who: nib, type: speech, side: c, text: "YOU STILL DID."}
+      - {who: "offpanel:taeo", type: speech, side: l, text: "I KNOW."}
 
   - id: P43
     shape: full
@@ -657,8 +660,8 @@ panels:
       Plain background. No text.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: l, text: "I THOUGHT... SUMMONS ONLY FOLLOW COMMANDS."}
-      - {who: taeo, type: speech, side: l, text: "CARRY. FOLLOW. STOP."}
+      - {who: taeo, type: speech, side: c, text: "I THOUGHT SUMMONS ONLY FOLLOWED COMMANDS."}
+      - {who: taeo, type: speech, side: c, text: "LIKE BAE'S GOLEM. CARRY. FOLLOW. STOP."}
     notes: "Quotes Bae and his golem from ch1 P14: 'CARRY, FOLLOW, STOP. THAT'S MOST OF IT.'"
 
   - id: P45
@@ -682,7 +685,7 @@ panels:
       Taeo's eyes and brow (taeo; the mole under his RIGHT eye), meeting Nib's gaze and conceding, quietly. Blue-grey light. Nothing else in frame. No text.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: l, text: "NO. YOU'RE NOT."}
+      - {who: taeo, type: speech, side: c, text: "NO. YOU'RE NOT."}
 
   - id: P47
     shape: wide
@@ -732,9 +735,9 @@ panels:
       The half-open drawer shows a folded, faded denim-blue fleece blanket. Taeo: apologetic reflex. Nib: flat curiosity. No text.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: c, text: "SORRY. CAN I...?"}
-      - {who: nib, type: speech, side: c, text: "FOR WHAT."}
-      - {who: taeo, type: speech, side: c, text: "...HABIT."}
+      - {who: taeo, type: speech, side: c, text: "SORRY. CAN I OPEN THE DRAWER?"}
+      - {who: nib, type: speech, side: r, text: "FOR WHAT."}
+      - {who: taeo, type: speech, side: c, text: "HABIT."}
     notes: "Callback to P09. The blanket is Nib's from now on (ch6 P01 has it over his head like a hood)."
 
   - id: P51
@@ -747,8 +750,8 @@ panels:
     ui:
       - {kind: phone.ttok_chat, on: screen, hand: taeo_pov_ots, title: "Eunchae", clock: "00:37", date: "WED 15 MAR", messages: [{from: them, text: "Hunters closed it. Nobody hurt.", time: "00:16"}, {from: them, text: "Manager says your eggs survived.", time: "00:16"}]}
     lines:
-      - {who: taeo, type: whisper, side: r, text: "...THE EGGS SURVIVED."}
-      - {who: taeo, type: float, text: "I DIDN'T TELL HER."}
+      - {who: "offpanel:taeo", type: whisper, side: r, text: "THE EGGS SURVIVED."}
+      - {who: taeo, type: float, text: "I DIDN'T TELL EUNCHAE ABOUT NIB."}
     notes: "The message that buzzed in P38. 'Your eggs': in ch1 P33 Taeo promised the old man he'd keep them. The murmured aside carries the joke even if the phone text prints small on a narrow panel. He puts the phone on charge on the floor by the bed's head after reading it."
 
   - id: P52
@@ -763,7 +766,7 @@ panels:
       The phone dark on the floor by the bed's head, on its cable; the olive backpack now hangs on the clothes rack's end hook. No text.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "I'LL STAY UP TOO. IN CASE."}
+      - {who: taeo, type: speech, side: l, text: "I'LL STAY UP TOO. JUST IN CASE."}
       - {who: nib, type: speech, side: r, text: "IN CASE OF WHAT."}
 
   # ---------------- 3 A.M. ----------------
@@ -822,7 +825,7 @@ panels:
       The weathered adult face, very tired, lines under the eyes; the notched LEFT ear in silhouette. No text.
     calm: left
     lines:
-      - {who: nib, type: whisper, side: c, text: "...KETT."}
+      - {who: nib, type: whisper, side: c, text: "KETT."}
     notes: "PLANT P02 (the name). Nobody hears it."
 
   - id: P57
@@ -836,8 +839,8 @@ panels:
       No text.
     calm: top
     lines:
-      - {who: nib, type: whisper, side: c, text: "HE'D FIND MY PLACE EMPTY."}
-      - {who: nib, type: whisper, side: c, text: "HE'D GO LOOKING."}
+      - {who: nib, type: whisper, side: l, text: "KETT WILL FIND MY POST EMPTY."}
+      - {who: nib, type: whisper, side: l, text: "HE'LL GO LOOKING."}
     notes: "PLANT P02: Nib, to no one, about Kett, the younger scout who was coming to relieve him (STORY_BIBLE section 6). Payoff ch100 (Kett's message via Granny Moon); ch8 and ch9 repeat the line."
 
   # ---------------- HOOK ----------------
@@ -855,7 +858,7 @@ panels:
     sfx:
       - {text: "BZZZZT", style: phone, at: [0.20, 0.72], size: M, rot: -6}
     lines:
-      - {who: nib, type: speech, side: r, text: "YOUR BRICK IS SHOUTING."}
+      - {who: nib, type: speech, side: c, text: "YOUR BRICK IS SHOUTING."}
 
   - id: P59
     shape: tall
@@ -886,7 +889,7 @@ panels:
       Darkness all around. The top edge of the panel breaks its border. Hard shadows, no haze. No readable screen. No text.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "...IT SAYS I HAVE THREE DAYS."}
+      - {who: taeo, type: speech, side: c, text: "IT SAYS I HAVE THREE DAYS."}
     notes: "HOOK. His first answer is about himself ('I HAVE THREE DAYS'); 'seized' is on the screen, not in his mouth, and Nib cannot read. That beat of deciding what Nib should hear is the control flaw (STORY_BIBLE section 6). Ch3 P01–P03 picks up minutes later: Taeo has reread it, sitting on the bed's edge, and Nib has the word 'SEIZED' from him."
 
   - id: P61

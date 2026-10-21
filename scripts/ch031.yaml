@@ -53,7 +53,7 @@ panels:
     calm: none
 
   - id: P03
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "front three-quarter on Nib at the threshold relay, slit behind right shoulder"
@@ -63,14 +63,15 @@ panels:
       the unfamiliar terraces. The tripod has a speaker grille, coiled-cord handset and steady white
       lamp, no readable controls. RIGHT return ring, binoculars, repaired shorts and belt sides intact.
       Green dusk sky provides key light, violet shadows, slate landing. No wireless signal graphic or threat yet.
+      Nib stands on the left beside the relay; Taeo's voice comes from its speaker on the right.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "IN. GOOD STONE."}
-      - {who: taeo, type: phone, side: r, text: "I HEAR YOU."}
+      - {who: "nib", type: "speech", text: "I'M INSIDE. LANDING IS SOLID.", side: "l"}
+      - {who: "offpanel:taeo", type: "phone", text: "I HEAR YOU.", side: "r"}
     notes: "Threshold relay established before first through-gate speech. Nib spoke his first line only after connecting it."
 
   - id: P04
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "outside at the operations table, from the speaker toward Taeo's right palm"
@@ -81,10 +82,11 @@ panels:
       a fearful half-smile. Sejin in sage scrubs watches him, Haein feeds cable beyond. East morning
       sun, ochre gravel and blue-grey shade, old orange backpack patch on chair. No left-palm glow,
       slate-green pulse yet, new blood or interface.
+      Taeo sits on the right, Sejin on the left and Haein feeds the cable in the centre background.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "ONE."}
-      - {who: sejin, type: speech, side: l, text: "AND ONE BREATH. TAKE IT."}
+      - {who: "taeo", type: "speech", text: "NIB'S LINK. ONE PULSE.", side: "r"}
+      - {who: "sejin", type: "speech", text: "NOW TAKE ONE BREATH.", side: "l"}
     notes: "Nib deliberately opens his channel after the voice check; a short permitted sample, not involuntary control."
 
   - id: P05
@@ -106,10 +108,13 @@ panels:
       Two EMPTY low grey mineral cases and folded relay tripods rest on a broad canvas pad at middle
       shell tier, no rider or body harness. Nib guides clearance with an open hand. Green sky and cold
       rim light, violet shadows, rust clay beyond. No shell crack, pet accessories or words on cases.
+      Nib on the left guides Orrin through on the right, full bodies visible.
+      Nib holds the keyed relay handset toward Orrin with one hand and guides clearance with the other.
     calm: top
     lines:
       - {who: nib, type: speech, side: l, text: "CLEAR ON THE LEFT."}
       - {who: orrin, type: speech, side: r, text: "A GENEROUS DOOR. BY RECENT STANDARDS."}
+      - {who: orrin, type: speech, side: r, text: "I'M INSIDE. YOU MAY CHECK MY LINK."}
 
   - id: P07
     shape: strip
@@ -130,18 +135,18 @@ panels:
     shape: wide
     gap: short
     bg: white
-    camera: "outside, front close on Taeo and Sejin beside the table"
+    camera: "medium two-shot of seated Taeo right and Sejin left beside the operations table"
     art: >
       BIG REACTION outside at terrace_gate_rim: Taeo's eyes fly wide as a second distinct slate-green
       pulse appears beside amber in his RIGHT palm. He almost lifts from the chair, then plants both
       feet at Sejin's level stare; wonder and fear break across the same tired face. Navy jacket,
       LEFT upper-arm cuff, old RIGHT forearm bruise, patched backpack on chair. Morning east sun,
       blue-grey canopy shade, ochre gravel. No fresh pain, nosebleed, system window or blended pulse.
+      Show Taeo on the right and Sejin on the left, both faces and the right palm clearly visible.
     calm: top
     lines:
-      - {who: orrin, type: phone, side: l, text: "IN. YOU MAY LISTEN."}
-      - {who: taeo, type: speech, side: r, text: "TWO."}
-      - {who: sejin, type: speech, side: l, text: "STILL ONE BREATH AT A TIME."}
+      - {who: "taeo", type: "speech", text: "TWO PULSES.", side: "r"}
+      - {who: "sejin", type: "speech", text: "STILL ONE BREATH AT A TIME.", side: "l"}
     notes: "Second willing sample across intact line. Same two colours established ch 25; no new power unlock."
 
   - id: P09
@@ -162,7 +167,7 @@ panels:
     notes: "Taeo's own floating narration accompanies the cut; it is not a vision feed. He never sees these images through the link."
 
   - id: P10
-    shape: wide
+    shape: tall
     gap: short
     bg: navy
     camera: "profile from the void side, Orrin placing a foot on a low stair shelf"
@@ -172,6 +177,7 @@ panels:
       near the RIGHT cliff, one hand on the next stone, watching Orrin's face for a signal. Empty
       cases and folded tripods sit low on middle shell, LEFT rim props travel-clipped. Green sky key,
       violet shadow, rust clay and grey stone. No cliff fracture, speed rush, saddle or heroic riding pose.
+      Nib stands on the left at the next step and Orrin climbs on the right, keeping their entire stances readable.
     calm: top
     lines:
       - {who: nib, type: speech, side: l, text: "YOU CHECK EVERY STEP."}
@@ -192,7 +198,7 @@ panels:
     calm: none
 
   - id: P12
-    shape: wide
+    shape: full
     gap: short
     bg: navy
     camera: "binocular point of view toward the far mineral shelf and lower patrol lane"
@@ -203,10 +209,10 @@ panels:
       shell height at shoulder, slab skull, TWO ridged mineral horns, outer horn with a pale layered tip,
       four blocky legs with split hooves, russet-grey plates, low dark-red slit eyes.
       Green dusk skylight, violet shadows. No cyan fragment glow, return mark, charge dust or text.
+      Nib speaks from behind the binocular viewpoint at the left edge; no scout face is visible in the lens image.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "DEPOSIT ABOVE THE RUN."}
-      - {who: nib, type: speech, side: l, text: "BOSS IS WALKING. WE KEEP IT THAT WAY."}
+      - {who: "offpanel:nib", type: "speech", text: "MINERAL DEPOSIT ABOVE THE BRIDGE. BOSS WALKING BELOW. WE KEEP THE RAM WALKING.", side: "l"}
     notes: "Boss design locked here. The deposit is accessible without killing it. Two ridged horns; pale outer tip is the ch 32 fragment. No break before that fight."
 
   - id: P13
@@ -220,12 +226,15 @@ panels:
       crop. The hoof is walking at a heavy regular pace, not charging, no fresh damage. Green sky
       light, violet shadow, dark drop beyond the bridge edge. No return ring, blazing hoofprint,
       drawn sound or red warning rune.
+      Nib's radio report carries over the hoof detail from beyond the left edge, through the intact survey line.
     calm: top
+    lines:
+      - {who: "offpanel:nib", type: "phone", text: "FIFTY METRES. FIRST LINE POST UP.", side: "l"}
     sfx:
       - {text: "TOK", style: quiet, at: [0.59, 0.65], size: M, rot: -5}
 
   - id: P14
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "outside, over Haein's shoulder at the marked cable drum"
@@ -235,14 +244,14 @@ panels:
       open on his knee, link light currently dark between samples. Sejin checks the manual gauge
       beside his LEFT upper arm, all markings plain. East morning sun, dusty ochre, cool blue-grey
       shade and muted orange cordon. No screen UI, permanent tether, new bruise or changing sky outside.
+      Taeo sits on the right and Sejin on the left; Haein's cable drum shoulder frames the left foreground.
     calm: top
     lines:
-      - {who: nib, type: phone, side: l, text: "FIFTY. FIRST LINE POST UP."}
-      - {who: taeo, type: speech, side: r, text: "COPY. DEPOSIT BEFORE BOSS. NO HURRY."}
-      - {who: sejin, type: speech, side: l, text: "THAT LAST PART APPLIES HERE TOO."}
+      - {who: "taeo", type: "speech", text: "COPY. COLLECT THE MINERALS BEFORE FIGHTING THE BOSS. NO HURRY.", side: "r"}
+      - {who: "sejin", type: "speech", text: "NO HURRY OUT HERE EITHER.", side: "l"}
 
   - id: P15
-    shape: narrow-l
+    shape: tall
     gap: short
     bg: navy
     camera: "at the inside fifty-metre relay, Nib looks up as Orrin passes"
@@ -252,13 +261,14 @@ panels:
       LEFT belt clear of wooden sheath, binoculars high, RIGHT return ring. Orrin's LEFT brace props
       remain folded, empty grey cases low on pad. Green sky and violet shadows, slate and rust clay.
       No labels on the relay, snagged cable or cue of a time limit.
+      Nib stands at the relay on the left and Orrin passes on the right, both faces and feet visible.
     calm: right
     lines:
-      - {who: nib, type: speech, side: l, text: "HE SAYS NO HURRY."}
-      - {who: orrin, type: speech, side: r, text: "A MOST COMPATIBLE EMPLOYER."}
+      - {who: "nib", type: "speech", text: "TAEO SAYS NO HURRY.", side: "l"}
+      - {who: "orrin", type: "speech", text: "A MOST COMPATIBLE EMPLOYER.", side: "r"}
 
   - id: P16
-    shape: inset-r
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -270,6 +280,7 @@ panels:
       patient; a little stack of imagined pillows appears behind his head as he waits, purely gag
       imagery. LEFT notch, rope belt, RIGHT pouch/sticker, LEFT sheath, bare feet and binoculars intact.
       Orrin's brace folded. Green key, violet flat shadow, no lettering or speed claims.
+      Chibi Orrin occupies the left, Nib sits on his separate rock at right; full gag poses have room.
     calm: left
     lines:
       - {who: nib, type: speech, side: r, text: "I HAVE TIME TO SCOUT TOMORROW."}
@@ -288,14 +299,15 @@ panels:
       a white lamp and folded-away handset. Pale mint-white mineral seam glows at image right, safe
       above the distant boss run. Green dusk key, violet shadow, rust clay/grey capstone. No charging
       boss, opened new contact window, van or third companion inside.
+      Nib stands on the left at the seam and Orrin arrives on the right.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "HERE."}
-      - {who: orrin, type: speech, side: r, text: "GOOD. I WAS BEGINNING TO MISS THE STAIRS."}
+      - {who: "nib", type: "speech", text: "THE MINERAL SHELF.", side: "l"}
+      - {who: "orrin", type: "speech", text: "GOOD. I WAS BEGINNING TO MISS THE STAIRS.", side: "r"}
 
   # TAKE THE DEPOSIT WHILE THE BOSS LIVES
   - id: P18
-    shape: wide
+    shape: tall
     gap: short
     bg: navy
     camera: "side-on along the safe mineral shelf, Nib inspecting the seam"
@@ -306,10 +318,11 @@ panels:
       of the working area. Nib's adult face is concentrated, bare toes on good capstone, RIGHT wrist
       return ring. Green sky key plus natural pale mint-white seam light, violet shadows. No interface
       cyan, broken shell, fresh mark in the rock or readable case labels.
+      Nib works on the left and Orrin lowers his forebody on the right; include their faces, seam and cases.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "MIDDLE OF YOUR BACK?"}
-      - {who: orrin, type: speech, side: r, text: "BOTH CASES. KEEP THE WEIGHT EVEN."}
+      - {who: "nib", type: "speech", text: "SHALL I LOAD THE CASES ON YOUR MIDDLE SHELL TIER?", side: "l"}
+      - {who: "orrin", type: "speech", text: "BOTH CASES. KEEP THE WEIGHT EVEN.", side: "r"}
 
   - id: P19
     shape: strip
@@ -326,7 +339,7 @@ panels:
     calm: none
 
   - id: P20
-    shape: wide
+    shape: full
     gap: short
     bg: navy
     camera: "across the open first case toward Nib and the distant still-walking boss"
@@ -336,14 +349,15 @@ panels:
       careful. In the far background below the side shelf, clearly small, the bridge_boss is still
       WALKING past the clay buttress, intact horn and all four legs visible. Green dusk overhead,
       violet shadows, natural mint-white cargo glow. No boss death, gate closure, integration or readable print.
+      Nib's face and shoulders are visible on the left above the case; Taeo's voice comes through the radio at right.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "ONE CASE STARTED. BOSS STILL WALKING."}
-      - {who: taeo, type: phone, side: r, text: "COPY."}
+      - {who: "nib", type: "speech", text: "ONE CASE STARTED. BOSS STILL WALKING.", side: "l"}
+      - {who: "offpanel:taeo", type: "phone", text: "COPY.", side: "r"}
     notes: "Extraction visibly precedes the boss's death. No new-kind fragment integrated; the sale deposit stays physical cargo."
 
   - id: P21
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "outside, eye level across the operations table, Taeo listening without interrupting"
@@ -369,10 +383,11 @@ panels:
       crop; first case filled, still open nearby. LEFT rim brace and toes stay clear of the void.
       Green dusk light, pale mint-white seam reflection, violet shadows. No eating the mineral,
       cute smile, head pat, shell crack or extra cases.
+      Orrin fills the left third; Nib works outside the right edge, only his raised case lid in view.
     calm: right
     lines:
-      - {who: orrin, type: speech, side: l, text: "HE'S VERY QUIET."}
-      - {who: nib, type: speech, side: r, text: "HE'S WORKING HARD AT IT."}
+      - {who: "orrin", type: "speech", text: "TAEO'S VERY QUIET.", side: "l"}
+      - {who: "offpanel:nib", type: "speech", text: "HE'S WORKING HARD AT STAYING QUIET.", side: "r"}
 
   - id: P23
     shape: strip
@@ -391,7 +406,7 @@ panels:
     notes: "Patrol continues while both cases are filled. No fixed patrol countdown promised to the reader."
 
   - id: P24
-    shape: wide
+    shape: tall
     gap: short
     bg: navy
     camera: "high angle over Nib and Orrin, both cases now full"
@@ -401,10 +416,11 @@ panels:
       canvas pad to keep both cases square and balanced; Nib acknowledges with an appreciative ear tilt.
       Natural seam is visibly depleted where they worked, not infinitely regrowing. Green dusk key,
       violet shadows, pale mint-white cargo. No third case, interface integration, boss death or written count.
+      Nib stands on the left beside the cases and Orrin on the right; both faces visible with the cargo.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "TWO CASES. EVEN."}
-      - {who: orrin, type: speech, side: r, text: "THEN WE CAN STOP STEALING THE VIEW FROM THEM."}
+      - {who: "nib", type: "speech", text: "TWO CASES. EVEN WEIGHT.", side: "l"}
+      - {who: "orrin", type: "speech", text: "LET'S STOP BLOCKING THE MINERALS' VIEW.", side: "r"}
 
   - id: P25
     shape: strip
@@ -417,14 +433,17 @@ panels:
       on the broad canvas pad nested against Orrin's central slate tier; no strap passes around body
       or throat. LEFT rim brace props remain folded at distant lower edge. Green sky key, violet
       shadow, dull grey cases; glow disappears under lids. Inventory plates blank, no magical storage.
+      Keep the image on Nib's hands and the closed catches; his report comes from above the left edge into his keyed belt radio.
     calm: top
+    lines:
+      - {who: "offpanel:nib", type: "speech", text: "DEPOSIT PACKED. BOTH CASES.", side: "l"}
     sfx:
       - {text: "KLIK", style: quiet, at: [0.34, 0.52], size: S, rot: -4}
       - {text: "KLIK", style: quiet, at: [0.70, 0.57], size: S, rot: 4}
     notes: "Exactly two filled cases, both carried by Orrin through the remaining chapter. No sale price yet; settlement is ch 33."
 
   - id: P26
-    shape: wide
+    shape: tall
     gap: short
     bg: navy
     camera: "from the hundred-and-fifty-metre relay's side along the shelf, Nib reporting into his radio"
@@ -434,14 +453,14 @@ panels:
       grey cases balanced on his middle pad, travel brace folded. The intact white cable lies against
       the RIGHT cliff, blue bands obvious. Green dusk key, violet shadow, rust clay. No signboard,
       new fragment, sudden attack or readable device display.
+      Nib stands on the left and Orrin in the centre-right. After hearing Taeo at the right-hand radio speaker, Nib holds the keyed radio toward Orrin's mouth for the answer.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "DEPOSIT PACKED. BOTH CASES."}
-      - {who: taeo, type: phone, side: r, text: "HOW ARE YOU TWO?"}
-      - {who: orrin, type: speech, side: c, text: "READY TO SIT WITHOUT GOING ANYWHERE."}
+      - {who: "offpanel:taeo", type: "phone", text: "HOW ARE YOU TWO?", side: "r"}
+      - {who: "orrin", type: "speech", text: "READY TO SIT WITHOUT GOING ANYWHERE.", side: "c"}
 
   - id: P27
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "outside three-quarter at the operations table, Taeo listening to Orrin's answer"
@@ -451,10 +470,11 @@ panels:
       marks the cable log with a plain stroke and keeps feeding the white blue-banded line. Navy
       jacket, LEFT cuff, existing purple RIGHT forearm, patched backpack. East sun, ochre gravel and
       blue-grey shade. No bank balance, new bruise, system percentage or fresh blood.
+      Taeo sits on the right, Sejin attends him on the left and Haein remains behind at the drum.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "TAKE THE REST. I'LL BE HERE."}
-      - {who: sejin, type: speech, side: l, text: "SO WILL I."}
+      - {who: "taeo", type: "speech", text: "TAKE A REST. I'LL BE HERE.", side: "r"}
+      - {who: "sejin", type: "speech", text: "SO WILL I.", side: "l"}
 
   # THE LEDGE: WHAT THEY WANT AFTER
   - id: P28
@@ -484,11 +504,12 @@ panels:
       charcoal repair in shorts and brown rope belt visible. His ears relax a fraction toward Orrin,
       adult eyes still checking the bridge between breaths. Green dusk from left, violet cliff shadow,
       slate ledge. No glowing broadcast icon, boots or written controls.
+      Nib fills the left third of the close-up; Orrin rests beyond the right edge.
     calm: right
     lines:
-      - {who: nib, type: speech, side: l, text: "THAT ONE SOUNDS LIKE HOME."}
-      - {who: orrin, type: speech, side: r, text: "THE SKY?"}
-      - {who: nib, type: speech, side: l, text: "HIM WAITING."}
+      - {who: "nib", type: "speech", text: "TAEO SOUNDS LIKE HOME.", side: "l"}
+      - {who: "offpanel:orrin", type: "speech", text: "BECAUSE HE'S WAITING?", side: "r"}
+      - {who: "nib", type: "speech", text: "YES.", side: "l"}
     notes: "Private conversation; neither has the transmit switch down. Taeo does not overhear the dreams."
 
   - id: P30
@@ -502,10 +523,11 @@ panels:
       adult side-eye. Two grey cases and folded brace keep their positions. Green dusk edges the
       figures, violet shadow under overhang, rust-clay background simplified. No sentimental aura,
       flashback, knife in hand yet or on-air radio.
+      Both seated-height faces visible, Nib on the left and Orrin on the right; frame from waist height upward.
     calm: top
     lines:
-      - {who: orrin, type: speech, side: r, text: "WHEN THAT DOOR DOES OPEN. WHAT THEN?"}
-      - {who: nib, type: speech, side: l, text: "I WALK THROUGH."}
+      - {who: "orrin", type: "speech", text: "WHEN YOU FIND A DOOR HOME, WHAT WILL YOU DO?", side: "r"}
+      - {who: "nib", type: "speech", text: "I WALK THROUGH.", side: "l"}
 
   - id: P31
     shape: narrow-r
@@ -517,9 +539,10 @@ panels:
       sharpened by an honest question. Slate layers frame his grey-olive neck, three blunt nails
       of one forefoot at bottom crop. Green sky light from left, violet cliff shadow right, muted
       rust behind. No cute curiosity, frown of accusation, crack, collar or pet bowl.
+      Orrin fills the right third, Nib outside the left edge.
     calm: left
     lines:
-      - {who: orrin, type: speech, side: r, text: "EVEN IF THE NEXT VOICE IS GIVING ORDERS?"}
+      - {who: "orrin", type: "speech", text: "EVEN IF SOMEONE ELSE CHOOSES THAT DOOR FOR YOU?", side: "r"}
 
   - id: P32
     shape: strip
@@ -576,11 +599,12 @@ panels:
       forefeet, head lowered with the embarrassment of wanting something ordinary. Two cases stay
       on the shell, brace folded, receive-only radio by Nib's thigh. Green sky, violet shadow,
       rust-clay wall. No comedic face or dream-image overlay.
+      Nib on the left and Orrin on the right, seated-height faces and upper bodies only.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "YOU."}
-      - {who: orrin, type: speech, side: r, text: "MINE'S RATHER SMALL."}
-      - {who: nib, type: speech, side: l, text: "SAY IT."}
+      - {who: "nib", type: "speech", text: "WHAT'S YOUR DREAM?", side: "l"}
+      - {who: "orrin", type: "speech", text: "MY DREAM'S RATHER SMALL.", side: "r"}
+      - {who: "nib", type: "speech", text: "SAY IT.", side: "l"}
 
   - id: P36
     shape: tall
@@ -594,6 +618,7 @@ panels:
       the lower edge. Nib is a small listening shoulder at left. Green dusk key and violet cel
       shadows, quiet rust clay. No literal garden superimposed, imagined human hands, collar,
       pet expression or decorative particles.
+      Orrin's face occupies the right third, Nib's listening shoulder at left.
     calm: top
     lines:
       - {who: orrin, type: speech, side: r, text: "A GARDEN ON A ROOF."}
@@ -611,11 +636,12 @@ panels:
       catches the glance and answers with one heavy eyebrow. Nib's adult default outfit and bare
       feet, two cases on shell, props still folded. Green dusk softens only through flat colour,
       violet hard shadows; no chibi, fantasy house, literal flowerpot or new possession.
+      Nib on the left and Orrin on the right, both faces in a waist-up resting two-shot.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "BIG ROOF."}
-      - {who: orrin, type: speech, side: r, text: "I DID SAY MINE WAS SMALL. I MAY HAVE LIED."}
-      - {who: nib, type: speech, side: l, text: "GOOD DREAM."}
+      - {who: "nib", type: "speech", text: "THAT NEEDS A BIG ROOF.", side: "l"}
+      - {who: "orrin", type: "speech", text: "I SAID MY DREAM WAS SMALL. I MAY HAVE LIED.", side: "r"}
+      - {who: "nib", type: "speech", text: "GOOD DREAM.", side: "l"}
 
   - id: P38
     shape: strip
@@ -642,10 +668,11 @@ panels:
       draw in slightly, face private. Orrin watches without leaning over him. Radio beside thigh
       remains receive-only, cases atop shell, brace clipped. Green dusk from left, violet wall
       shadow, grey stone and rust clay. No glowing rune, name written on stone or vision of Kett.
+      Nib sits on the left over the stone, Orrin's watching face visible on the right; crop above Nib's knees.
     calm: top
     lines:
-      - {who: orrin, type: speech, side: r, text: "FOR SOMEONE?"}
-      - {who: nib, type: speech, side: l, text: "KETT."}
+      - {who: "orrin", type: "speech", text: "IS THE MARK FOR SOMEONE?", side: "r"}
+      - {who: "nib", type: "speech", text: "KETT.", side: "l"}
 
   - id: P40
     shape: strip
@@ -664,10 +691,10 @@ panels:
     notes: "Kett's mark motif recurs as required in ch 31. No new ledger plant or premature Granny Moon language payoff. The mark is left here."
 
   - id: P41
-    shape: wide
+    shape: tall
     gap: long
     bg: white
-    camera: "outside close over Taeo's left shoulder onto his right palm and Sejin's cuff"
+    camera: "outside medium two-shot, Taeo right with open right palm and Sejin left at the cuff"
     art: >
       Outside at terrace_gate_rim Taeo holds his RIGHT palm open for a short deliberate check: two
       thin separate pulses, amber and slate-green, between long dark intervals. His LEFT upper arm
@@ -675,11 +702,11 @@ panels:
       valve. Haein's steady cable hand at the edge, old RIGHT forearm bruise unchanged. East morning
       sun, dusty ochre and blue-grey shade. No telepathic pictures, permanently glowing threads,
       numerical reading, fresh blood or system notice.
+      Show Taeo's face on the right and Sejin on the left, his palm below; Nib's voice comes from the base speaker on the left.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "JUST CHECKING. BOTH?"}
-      - {who: nib, type: phone, side: l, text: "BOTH. WE'RE HERE."}
-      - {who: sejin, type: speech, side: l, text: "AND YOUR PRESSURE'S HOLDING. RELEASE IT BETWEEN CHECKS."}
+      - {who: "taeo", type: "speech", text: "MAY I CHECK BOTH LINKS?", side: "r"}
+      - {who: "offpanel:nib", type: "phone", text: "YES. BOTH OF US. WE'RE HERE.", side: "l"}
     notes: "The two pulses are renewed with permission, not continuous control. Sejin measures blood pressure; no unsupported diagnosis or new medical condition."
 
   - id: P42
@@ -693,15 +720,17 @@ panels:
       fringe, mole below RIGHT eye, plain grey canopy wall behind. His RIGHT hand below frame is
       dark again. East daylight, blue-grey shadow, no supernatural glow, fresh nosebleed or vision
       of the ledge conversation.
+      Taeo fills the right third; Sejin speaks from outside the left edge.
     calm: left
     lines:
-      - {who: taeo, type: float, text: "TWO PEOPLE COULD WANT TOMORROW IN DIFFERENT WAYS."}
-      - {who: taeo, type: float, text: "I COULD WANT IT FOR BOTH OF THEM."}
+      - {who: "offpanel:sejin", type: "speech", text: "YOUR BLOOD PRESSURE'S STEADY. RELEASE THE LINKS BETWEEN CHECKS.", side: "l"}
+      - {who: "taeo", type: "float", text: "TWO PEOPLE COULD WANT TOMORROW IN DIFFERENT WAYS."}
+      - {who: "taeo", type: "float", text: "I COULD WANT TOMORROW FOR BOTH OF THEM."}
     notes: "Narration is Taeo's general thought while waiting; he has not overheard their particular dreams."
 
   # THE LAST CHECK IS INTERRUPTED
   - id: P43
-    shape: wide
+    shape: tall
     gap: short
     bg: navy
     camera: "inside at ground level as Nib rises beside the carved ledge stone"
@@ -711,10 +740,11 @@ panels:
       starts to rise slowly behind, two grey cases still square on middle tier. White blue-banded
       cable intact against RIGHT cliff, relay lamp steady. Green dusk key, violet shadow, rust and
       slate. No glowing mark, forgotten pencil, cargo left behind or active boss in this crop.
+      Nib rises on the left and Orrin behind on the right, full figures with the carved stone below.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "READY?"}
-      - {who: orrin, type: speech, side: r, text: "FOR THIS BIT. THE ROOF CAN WAIT."}
+      - {who: "nib", type: "speech", text: "READY?", side: "l"}
+      - {who: "orrin", type: "speech", text: "FOR THE BOSS. THE ROOF CAN WAIT.", side: "r"}
 
   - id: P44
     shape: full
@@ -728,10 +758,11 @@ panels:
       Far end, the square clay buttress partly hides the walking ram; one pale horn tip and rear hoof
       show. Two cases carried, brace folded, white line tucked safely against inner wall to 200 m relay.
       Green dusk key, violet shadows, rust clay. No collision, deployed brace or labelled arrows in art.
+      Nib on the left and Orrin on the right of the foreground shelf, their chosen firm capstone clearly visible.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "HE'S TURNING AT THE FAR END."}
-      - {who: orrin, type: speech, side: r, text: "THIS STONE."}
+      - {who: "nib", type: "speech", text: "THE RAM'S TURNING AT THE FAR END.", side: "l"}
+      - {who: "orrin", type: "speech", text: "I'LL BRACE ON THIS CAPSTONE.", side: "r"}
 
   - id: P45
     shape: strip
@@ -748,7 +779,7 @@ panels:
     calm: none
 
   - id: P46
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "outside side view across Taeo's open hand to Haein at the speaker"
@@ -758,14 +789,15 @@ panels:
       hovers over the sound control, cable steady. Navy jacket and old forearm bruise unchanged,
       old orange patch on chair. East morning sun, dusty ochre and blue-grey canopy shade.
       No window, prematurely active diversion, blood or radio reaching across an absent line.
+      Taeo sits on the right, Sejin on the left and Haein stands behind the speaker at centre-left; frame them waist-up.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "TELL ME WHEN THE BRACE IS SET. THEN WE PREPARE THE LOAD."}
-      - {who: nib, type: phone, side: l, text: "NOT YET."}
+      - {who: "taeo", type: "speech", text: "TELL ME WHEN THE BRACE IS SET. THEN WE PREPARE THE LOAD TRANSFER.", side: "r"}
+      - {who: "offpanel:nib", type: "phone", text: "NOT YET.", side: "l"}
     notes: "No load-share act yet. Their planned sequence is brace set, prepared bounded path, then deliberate bait."
 
   - id: P47
-    shape: wide
+    shape: tall
     gap: short
     bg: navy
     camera: "inside close beside Orrin's left rim, Nib working the first clip"
@@ -776,10 +808,11 @@ panels:
       two closed grey cases on middle shell remain balanced. Nib's radio clipped LEFT belt has
       transmit released, binoculars hang forward but safely above the prop. Green dusk key, violet
       shadow, slate capstone. No fully locked brace yet, boss contact, load glow or missing return rings.
+      Nib crouches on the left and Orrin on the right, their faces and both brace props fully visible.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "FIRST FOOT DOWN."}
-      - {who: orrin, type: speech, side: r, text: "NOT ON THE JOINT. LEFT A LITTLE."}
+      - {who: "nib", type: "speech", text: "INNER PROP FOOT DOWN.", side: "l"}
+      - {who: "orrin", type: "speech", text: "THE OUTER FOOT IS ON A JOINT. MOVE THE FOOT LEFT.", side: "r"}
 
   - id: P48
     shape: strip
@@ -810,7 +843,7 @@ panels:
     calm: none
 
   - id: P50
-    shape: wide
+    shape: tall
     gap: none
     bg: navy
     camera: "low on the straight bridge run as the ram pivots out from the buttress"
@@ -838,9 +871,11 @@ panels:
       the threat, forelegs already angled but shell unsupported at the rim. Two closed cases carried,
       return rings visible. Green dusk, deep violet shadows, slate and rust. No chibi, collision,
       completed setup or active load-share light.
+      Nib's face fills the left third, Orrin's head at right; Taeo's question comes through Nib's radio on the right.
     calm: top
     lines:
-      - {who: nib, type: shout, side: l, text: "EARLY!"}
+      - {who: "nib", type: "shout", text: "THE RAM'S CHARGING EARLY!", side: "l"}
+      - {who: "offpanel:taeo", type: "phone", text: "IS THE BRACE SET?", side: "r"}
 
   - id: P52
     shape: strip
@@ -853,10 +888,10 @@ panels:
       pulse answer, not an impact flare; old RIGHT forearm bruise, navy cuff. Sejin's hand reaches
       toward the cuff valve on his opposite side. East morning sun and blue-grey shade, grey table.
       No new wound, mechanical diversion arrows, 21% window or nosebleed.
+      Nib's answer comes from the base speaker at left; only Taeo's hand and the cuff detail are visible.
     calm: top
     lines:
-      - {who: taeo, type: nervous, side: r, text: "THE BRACE?"}
-      - {who: nib, type: phone, side: l, text: "NOT SET."}
+      - {who: "offpanel:nib", type: "phone", text: "THE BRACE IS NOT SET.", side: "l"}
 
   - id: P53
     shape: bleed

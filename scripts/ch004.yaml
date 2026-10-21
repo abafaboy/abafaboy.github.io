@@ -39,8 +39,7 @@ panels:
     lines:
       - {who: narr, type: tag, text: "ABILITY ASSESSMENT OFFICE · MAPO BRANCH · 11:34 AM"}
       - {who: taeo, type: speech, side: l, text: "WHO'S THAT?"}
-      - {who: chae, type: speech, side: r, text: "KANGHAN INSTITUTE."}
-      - {who: chae, type: speech, side: r, text: "THEY STUDY WHAT WE CAN'T FILE."}
+      - {who: chae, type: speech, side: r, text: "A KANGHAN INSTITUTE RESEARCHER. THEY STUDY CASES OUR OFFICE CAN'T CLASSIFY."}
     notes: "Picks up ch3's hook: the red ANOMALOUS ENTITY flag (NOTIFY KANGHAN INSTITUTE, STATE CONTRACT) on Chae's monitor, and the grey-suited man with two coffees already in the corridor. The flag is a plain red shape here; ch3 showed its words. Keep the three layers: red monitor, Taeo and Nib turned round, Pyo behind the glass."
 
   - id: P02
@@ -54,8 +53,7 @@ panels:
       One pale hard-edged reflection band across the glass. Keep the hand and the lock in the middle third. No text.
     calm: right
     lines:
-      - {who: chae, type: speech, side: l, text: "THE FLAG WENT OUT TEN SECONDS AGO."}
-      - {who: chae, type: speech, side: l, text: "HE WAS ALREADY HERE."}
+      - {who: "offpanel:chae", type: speech, side: l, text: "THE ALERT WENT OUT TEN SECONDS AGO. HE WAS ALREADY HERE."}
     sfx:
       - {text: "KLIK", style: impact, at: [0.36, 0.55], size: M, rot: -6}
     notes: "Pyo arrived before the flag: Kanghan knew before the office told it. Nobody explains how. In the lobby (P50) his only answer is 'I WAS EARLY'. The key has no blind on the corridor glass, so Chae locks the door instead."
@@ -88,7 +86,7 @@ panels:
     lines:
       - {who: chae, type: speech, side: c, text: "GIVE ME FOUR MINUTES."}
       - {who: taeo, type: speech, side: l, text: "FOR WHAT?"}
-      - {who: chae, type: speech, side: c, text: "A THIRD BOX."}
+      - {who: chae, type: speech, side: c, text: "A THIRD REGISTRATION CATEGORY."}
     notes: "Callback to ch3's 'I'M NOT A BOX.' Name caption: ch003.yaml did not exist when this was written, so Chae gets her intro here. If ch3 already gives her one, delete this intro."
 
   - id: P05
@@ -111,8 +109,9 @@ panels:
       Clean blue-white light, light slate shadows, navy chairs. A detailed, drawn establishing shot with simplified shapes. No text.
     calm: top
     lines:
-      - {who: chae, type: speech, side: r, text: "THE FORM HAS TWO BOXES. THE LAW BEHIND IT HAS THREE."}
-      - {who: chae, type: speech, side: r, text: "THEY TOOK ONE OFF THE FORM. NOBODY TOOK IT OUT OF THE LAW."}
+      - {who: chae, type: speech, side: c, text: "THE FORM HAS TWO BOXES. THE LAW BEHIND IT HAS THREE."}
+      - {who: chae, type: speech, side: c, text: "THE THIRD CATEGORY IS MISSING FROM THE FORM. IT'S STILL IN THE LAW."}
+      - {who: chae, type: speech, side: c, text: "THE LAW DATES TO 1995. NOBODY'S USED THIS CATEGORY IN TWENTY YEARS."}
     sfx:
       - {text: "TAK TAK TAK", style: quiet, at: [0.58, 0.40], size: S, rot: -6}
     notes: "Beat: Chae finds a third box. Lock the room for the chapter: corridor glass and locked door behind the visitors (south), desk and Chae north, filing shelves west, window east."
@@ -129,8 +128,7 @@ panels:
     ui:
       - {kind: phone.info_card, on: screen, title: "AAO REGISTRY · CLASSIFY: 'NIB'", text: "1   CONSTRUCT — registered equipment · 2   AWAKENED PERSON · 3   ARRIVAL — status pending (1995 Act, legacy code)"}
     lines:
-      - {who: "offpanel:chae", type: speech, side: r, text: "1995. NOBODY'S USED IT IN TWENTY YEARS."}
-      - {who: "offpanel:taeo", type: speech, side: l, text: "...WHAT'S AN ARRIVAL?"}
+      - {who: "offpanel:taeo", type: speech, side: l, text: "WHAT DOES 'ARRIVAL' MEAN?"}
     notes: "Beat: from a 1995 law, unused for twenty years. ch6 (P17) quotes 'twenty years': keep the figure. Do not tie 1995 to the Long Night on the page."
 
   - id: P08
@@ -144,9 +142,9 @@ panels:
       half raised, about to answer for Nib. Blue-white light, the filing shelves simplified behind. No text.
     calm: top
     lines:
-      - {who: chae, type: speech, side: r, text: "SOMEONE WHO CAME THROUGH. THE LAW NEVER SAYS FROM WHERE."}
-      - {who: taeo, type: speech, side: l, text: "THEN THAT'S HIM. HE'S—"}
-      - {who: chae, type: speech, side: r, text: "I'M ASKING HIM."}
+      - {who: taeo, type: speech, side: r, text: "THAT'S NIB. HE CAME THROUGH A SEAM OF LIGHT."}
+      - {who: chae, type: speech, side: l, text: "'ARRIVAL' DOESN'T DEFINE WHAT HE IS. LET NIB ANSWER."}
+      - {who: taeo, type: whisper, side: r, text: "SORRY."}
     notes: "Taeo's flaw (STORY_BIBLE §6: he speaks over people and decides for them), caught by Chae. 'Came through' is all the law says; the reader can wonder who it was written for."
 
   - id: P09
@@ -159,9 +157,8 @@ panels:
       ACTING: wary, then decided; not grateful, not soft. Plain pale-slate background. No text.
     calm: right
     lines:
-      - {who: "offpanel:taeo", type: whisper, side: r, text: "...SORRY."}
-      - {who: "offpanel:chae", type: speech, side: r, text: "IT DOESN'T SAY WHAT YOU ARE. ONLY THAT YOU'RE HERE."}
-      - {who: nib, type: speech, side: l, text: "...THAT ONE."}
+      - {who: "offpanel:chae", type: speech, side: l, text: "THE LAW SAYS YOU CAME HERE. IT DOESN'T SPECIFY FROM WHERE."}
+      - {who: nib, type: speech, side: c, text: "FILE ME AS AN ARRIVAL."}
     notes: "Nib chooses his own category: the filing is his choice as well as Chae's."
 
   - id: P10
@@ -189,8 +186,8 @@ panels:
     ui:
       - {kind: phone.info_card, on: screen, title: "AAO REGISTRY · FILED 11:38", text: "NIB · ARRIVAL — STATUS PENDING · Protected from seizure: 30 days · Classification review: to be scheduled · 72-hour notice: cleared"}
     lines:
-      - {who: taeo, type: speech, side: l, text: "WHAT DID YOU JUST DO?"}
-      - {who: chae, type: speech, side: r, text: "BOUGHT HIM THIRTY DAYS."}
+      - {who: taeo, type: speech, side: r, text: "WHAT DID YOU JUST DO?"}
+      - {who: chae, type: speech, side: c, text: "NIB NOW HAS THIRTY DAYS OF PROTECTION."}
     notes: "Beat: she files it. Filed at 11:38, four minutes after the flag: she kept her word. The ch2 72-hour registration notice is cleared; the new clock is 30 days of protection from seizure until a classification review. The review date is set later (ch6: on Thursday Pyo already knows it is 23 days away, inside the 30)."
 
   - id: P12
@@ -204,9 +201,9 @@ panels:
       Blue-white light, daylight from the east window behind them; simplified background. No text.
     calm: top
     lines:
-      - {who: chae, type: speech, side: r, text: "NOBODY CAN SEIZE HIM UNTIL A REVIEW DECIDES WHAT HE IS."}
-      - {who: nib, type: speech, side: l, text: "I KNOW WHAT I AM."}
-      - {who: chae, type: speech, side: r, text: "I KNOW. NOW THREE STRANGERS HAVE TO AGREE."}
+      - {who: chae, type: speech, side: l, text: "NIB'S PROTECTED FOR THIRTY DAYS, UNTIL A REVIEW DECIDES HIS STATUS."}
+      - {who: nib, type: speech, side: c, text: "I KNOW WHAT I AM."}
+      - {who: chae, type: speech, side: l, text: "I KNOW. THREE REVIEWERS STILL HAVE TO AGREE."}
     notes: "Three strangers: the GMA panel of three at ch9."
 
   - id: P13
@@ -219,9 +216,9 @@ panels:
       Her blank ID card on its lanyard. Plain pale-blue background. No text.
     calm: left
     lines:
-      - {who: chae, type: speech, side: r, text: "MY SUPERVISOR WILL ASK WHY."}
-      - {who: "offpanel:taeo", type: speech, side: l, text: "WHAT WILL YOU SAY?"}
-      - {who: chae, type: speech, side: r, text: "THAT I CAN READ."}
+      - {who: chae, type: speech, side: c, text: "MY SUPERVISOR WILL ASK WHY."}
+      - {who: "offpanel:taeo", type: speech, side: r, text: "WHAT WILL YOU SAY?"}
+      - {who: chae, type: speech, side: c, text: "THAT I CAN READ."}
     notes: "Laugh. Plants Chae's career risk (ch9: her boss stares at her through the hearing). The desk phone pays it off in P48."
 
   - id: P14
@@ -235,8 +232,8 @@ panels:
       which is where Nib stands. Blue-white light, hard slate shadows. No text.
     calm: top
     lines:
-      - {who: chae, type: speech, side: r, text: "IF THEY FILE HIM AS A CONSTRUCT, HE'S YOUR PROPERTY."}
-      - {who: chae, type: speech, side: r, text: "AND PROPERTY CAN BE SOLD."}
+      - {who: chae, type: speech, side: l, text: "IF THEY FILE NIB AS A CONSTRUCT, HE'S YOUR PROPERTY."}
+      - {who: chae, type: speech, side: l, text: "AND PROPERTY CAN BE SOLD."}
       - {who: taeo, type: float, text: "I'D NEVER OWNED ANYTHING ANYONE WANTED."}
     notes: "Beat lines, verbatim. Shot from Nib's eye line: he is being discussed over his head. Sets up ch5's hook ('HOW MUCH AM I?' ... 'THEN SELL.'). Taeo's float is the first flicker of the temptation the lobby tests."
 
@@ -265,7 +262,7 @@ panels:
     calm: top
     lines:
       - {who: chae, type: speech, side: r, text: "THE REVIEW WILL WANT EVIDENCE. LET'S GET SOME."}
-      - {who: chae, type: speech, side: r, text: "THESE ONLY MEASURE. THEY DON'T DO ANYTHING TO YOU."}
+      - {who: chae, type: speech, side: r, text: "THESE SENSORS ONLY MEASURE. THEY WON'T CHANGE WHAT YOU FEEL."}
     notes: "Beat: the connection test, sensor fobs on both wrists. Lock: Taeo wears his on the LEFT wrist (his RIGHT hand stays bare and empty: the link pulse is always in his RIGHT palm); Nib wears his on the LEFT wrist (his RIGHT hand does the pressing)."
 
   - id: P17
@@ -278,8 +275,8 @@ panels:
       onto his LEFT wrist, a big sweat drop at his temple. Plain pale background. No text.
     calm: right
     lines:
-      - {who: nib, type: speech, side: l, text: "YOU FIRST."}
-      - {who: taeo, type: speech, side: r, text: "...RIGHT. SORRY."}
+      - {who: nib, type: speech, side: r, text: "YOU FIRST."}
+      - {who: taeo, type: speech, side: l, text: "RIGHT. SORRY."}
     notes: "Runner 'YOU FIRST.' (ch2): whoever offers goes first, to prove it's safe. Deliberately not used on Pyo here: ch6 owns the juice."
 
   - id: P18
@@ -294,7 +291,7 @@ panels:
       Blue-white light, daylight shapes on the floor. No text.
     calm: top
     lines:
-      - {who: chae, type: speech, side: r, text: "TAEO, LOOK AT HIM. DON'T TRY TO GIVE HIM AN ORDER."}
+      - {who: chae, type: speech, side: c, text: "TAEO, LOOK AT NIB. DON'T TRY TO GIVE HIM AN ORDER."}
       - {who: taeo, type: speech, side: l, text: "I DON'T GIVE ORDERS."}
       - {who: nib, type: speech, side: r, text: "YOU SAID 'STAY.'"}
     notes: "Callback to ch1 ('S-STAY.') and ch2 ('I'M NOT THAT ONE.')."
@@ -311,8 +308,8 @@ panels:
       sheath and bare feet all intact) leans back away from him with a dot-eyed deadpan stare. No text.
     calm: top
     lines:
-      - {who: nib, type: speech, side: r, text: "DO YOU HAVE TO DO THAT?"}
-      - {who: taeo, type: speech, side: l, text: "DO WHAT?"}
+      - {who: nib, type: speech, side: r, text: "DO YOU HAVE TO STARE LIKE THAT?"}
+      - {who: taeo, type: speech, side: l, text: "LIKE WHAT?"}
     notes: "Chibi sheets: taeo, nib."
 
   - id: P20
@@ -325,19 +322,20 @@ panels:
       ACTING: patient and dry; she has calmed a hundred nervous new summoners. Plain pale-blue background. No text.
     calm: right
     lines:
-      - {who: chae, type: speech, side: l, text: "BREATHE."}
-      - {who: chae, type: speech, side: l, text: "YOU'RE LOOKING FOR A FEELING, NOT TRYING TO MAKE SOMETHING HAPPEN."}
+      - {who: chae, type: speech, side: c, text: "BREATHE."}
+      - {who: chae, type: speech, side: c, text: "NOTICE WHAT YOU FEEL. DON'T TRY TO MAKE ANYTHING HAPPEN."}
     notes: "Beat line, verbatim. A normal first exercise for new summoners; Chae does not know what Taeo's link will do."
 
   - id: P21
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     silent: true
-    camera: "three-quarter, over Taeo's left shoulder toward Nib"
+    camera: "three-quarter, over Taeo's right shoulder toward Nib; vertical frame"
     art: >
       Over Taeo's RIGHT shoulder: he lets out a long breath, his shoulders drop and his empty RIGHT hand opens loosely at his side.
-      Facing him, Nib has lost interest in the staring and fusses with his oversized strap: he traps the dangling loose end against the fob with his RIGHT thumb
+      Taeo's shoulder fills only the left foreground. Nib stands in the right third, visible from his notched ear to his bare feet,
+      with room above and below his wiry adult figure. Facing him, Nib has lost interest in the staring and fusses with his oversized strap: he traps the dangling loose end against the fob with his RIGHT thumb
       and presses it flat. An ordinary thumb, ordinary pressure: no light, no effect. Blue-white light, plain background. No text.
     calm: none
     notes: "The accidental discovery: Nib's thumb presses here; Taeo's empty palm feels it in P22."
@@ -354,8 +352,8 @@ panels:
       The background drops to flat pale slate with focus lines. The palm's lower edge breaks the frame toward the reader. Flat cel colour; no bloom, no haze, no particles. No text.
     calm: top
     lines:
-      - {who: taeo, type: intense, side: c, text: "...WAIT."}
-      - {who: taeo, type: float, text: "IT WASN'T MINE."}
+      - {who: taeo, type: intense, side: c, text: "WAIT."}
+      - {who: taeo, type: float, text: "THE PRESSURE FELT LIKE SOMEONE ELSE'S TOUCH."}
     notes: "First appearance of the amber pulse motif (STORY_BIBLE §7: ch4). The amber shows the reader what Taeo feels; nobody else sees a light and nobody in the room reacts to one. Power: the link begins."
 
   - id: P23
@@ -368,9 +366,9 @@ panels:
       Chae swivels her chair toward them, alert, pen up. The amber in Taeo's palm has faded to a faint, small amber spot. Blue-white light. No text.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "THERE'S SOMETHING THERE."}
-      - {who: chae, type: speech, side: r, text: "WHAT DOES IT FEEL LIKE?"}
-      - {who: taeo, type: speech, side: l, text: "LIKE SOMEONE PRESSING IT."}
+      - {who: taeo, type: speech, side: l, text: "I FEEL SOMETHING IN MY RIGHT PALM."}
+      - {who: chae, type: speech, side: r, text: "WHAT DOES THE SENSATION FEEL LIKE?"}
+      - {who: taeo, type: speech, side: l, text: "LIKE SOMEONE PRESSING MY PALM."}
     notes: "Beat line, verbatim. Title drop."
 
   - id: P24
@@ -384,9 +382,9 @@ panels:
       Taeo leans in on the far side. Chae, beside the screen, has the tiny smile of someone interested. No text.
     calm: top
     lines:
-      - {who: chae, type: speech, side: r, text: "BOTH READINGS CHANGED THERE."}
-      - {who: nib, type: speech, side: l, text: "IS THAT THE WAY BACK?"}
-      - {who: chae, type: speech, side: r, text: "IT'S A THREAD. NOT A DOOR."}
+      - {who: chae, type: speech, side: c, text: "BOTH SENSORS CHANGED AT THE SAME TIME."}
+      - {who: nib, type: speech, side: l, text: "CAN THAT CONNECTION TAKE ME HOME?"}
+      - {who: chae, type: speech, side: c, text: "IT'S A THREAD BETWEEN YOU TWO. WE HAVEN'T FOUND A DOOR HOME."}
     notes: "Chae is honest: a result, not a way home. 'Thread' quietly names the amber thread of later link panels (ch6's hook) and 'door' is the open-door motif. Underline neither."
 
   - id: P25
@@ -400,8 +398,8 @@ panels:
       with one fingertip, suspicious. Taeo's legs and sneakers in the background. Blue-white light. No text.
     calm: top
     lines:
-      - {who: chae, type: speech, side: r, text: "NIB, PRESS THIS WHEN I POINT."}
-      - {who: chae, type: speech, side: r, text: "TAEO. FACE THE SHELVES."}
+      - {who: chae, type: speech, side: l, text: "NIB, PRESS THE FOAM PAD WHEN I POINT."}
+      - {who: chae, type: speech, side: l, text: "TAEO. FACE THE SHELVES."}
     sfx:
       - {text: "PFF", style: quiet, at: [0.40, 0.66], size: S, rot: 0}
 
@@ -415,8 +413,8 @@ panels:
       like a schoolboy sent to the corner, a sweat drop at his temple, his eyes sliding sideways as far as they will go. Simplified binders. No text.
     calm: left
     lines:
-      - {who: taeo, type: nervous, side: r, text: "...LIKE THIS?"}
-      - {who: "offpanel:nib", type: speech, side: l, text: "YOU LOOK PUNISHED."}
+      - {who: taeo, type: nervous, side: c, text: "FACING THE SHELVES LIKE THIS?"}
+      - {who: "offpanel:nib", type: speech, side: r, text: "YOU LOOK PUNISHED."}
 
   - id: P27
     shape: full
@@ -430,7 +428,7 @@ panels:
       The open floor fills the lower part of the frame, with daylight shapes from the east window (right) across it; hard-edged shadows straight down. Blue-white light. No text.
     calm: bottom
     lines:
-      - {who: taeo, type: speech, side: c, text: "NOW."}
+      - {who: taeo, type: speech, side: l, text: "NOW. I FELT THE PRESSURE."}
     sfx:
       - {text: "PFF", style: quiet, at: [0.46, 0.56], size: S, rot: 0}
     notes: "Beat: the blind test. Hit one of two. Taeo cannot see Nib, the pad or Chae's hand."
@@ -457,9 +455,9 @@ panels:
       sharply, his empty RIGHT hand twitching open at his side. Chae's pointing hand at the frame edge. Blue-white light. No text.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "THERE."}
-      - {who: nib, type: speech, side: l, text: "WHICH HAND?"}
-      - {who: taeo, type: speech, side: r, text: "MY LEFT."}
+      - {who: taeo, type: speech, side: l, text: "I FELT THAT PRESS."}
+      - {who: nib, type: speech, side: c, text: "WHICH HAND?"}
+      - {who: taeo, type: speech, side: l, text: "MY RIGHT."}
     sfx:
       - {text: "PFF", style: quiet, at: [0.25, 0.80], size: S, rot: 0}
     notes: "Hit two. Nib pressed with his RIGHT hand; Taeo felt it in his RIGHT palm."
@@ -474,8 +472,8 @@ panels:
       A small comedy beat in normal style: one sweat drop. Plain background. No text.
     calm: left
     lines:
-      - {who: "offpanel:nib", type: speech, side: l, text: "I MEAN MINE."}
-      - {who: taeo, type: speech, side: r, text: "...I DON'T KNOW."}
+      - {who: "offpanel:nib", type: speech, side: r, text: "WHICH OF MY HANDS PRESSED?"}
+      - {who: taeo, type: speech, side: c, text: "I DON'T KNOW."}
     notes: "The feeling is not a copy of Nib's body: Taeo cannot tell which hand."
 
   - id: P31
@@ -501,7 +499,7 @@ panels:
       He lays his RIGHT hand flat over the pad without pressing yet. ACTING: a decision of his own; testing something that concerns him, not performing for anyone. Plain background. No text.
     calm: left
     lines:
-      - {who: nib, type: speech, side: r, text: "ONCE MORE."}
+      - {who: nib, type: speech, side: c, text: "ONCE MORE."}
     notes: "Nib's initiative. Chae nods; Taeo stays facing the shelves."
 
   - id: P33
@@ -526,8 +524,8 @@ panels:
       Behind him, Nib leans his weight into the pad, pressing harder than before, jaw set. Chae half rises from her chair with one hand up. Blue-white light. No text.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "...NOTHING."}
-      - {who: chae, type: speech, side: r, text: "DON'T PRESS HARDER, NIB."}
+      - {who: taeo, type: speech, side: l, text: "I CAN'T FEEL THE PRESSURE."}
+      - {who: chae, type: speech, side: c, text: "DON'T PRESS HARDER, NIB."}
     sfx:
       - {text: "PFFFF", style: quiet, at: [0.68, 0.72], size: S, rot: -4}
     notes: "The miss."
@@ -543,9 +541,9 @@ panels:
       his face gives nothing away, and he is not surprised. Blue-white light. No text.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "I HAD IT."}
-      - {who: chae, type: speech, side: r, text: "YOU DID. AND THIS TIME YOU DIDN'T."}
-      - {who: taeo, type: float, text: "AND THEN IT WAS JUST MY HAND."}
+      - {who: taeo, type: speech, side: l, text: "I COULD FEEL THE PRESSURE BEFORE."}
+      - {who: chae, type: speech, side: c, text: "YOU DID. THIS TIME YOU COULDN'T."}
+      - {who: taeo, type: float, text: "I WANTED THE CONNECTION BACK."}
     notes: "Beat lines, verbatim. Two hits, then a miss."
 
   # ---------------- THE WATCH POST ----------------
@@ -559,8 +557,8 @@ panels:
       Chae answers straight, without looking away. Taeo at the edge of frame holds his own unbuckled fob. Blue-white light. No text.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "BUT YOU CAN'T SEND ME BACK."}
-      - {who: chae, type: speech, side: r, text: "I CAN'T DO THAT WITH WHAT WE'VE FOUND."}
+      - {who: nib, type: speech, side: l, text: "BUT YOU CAN'T SEND ME HOME."}
+      - {who: chae, type: speech, side: c, text: "WE HAVEN'T FOUND A WAY TO SEND YOU HOME."}
 
   - id: P37
     shape: vignette
@@ -584,7 +582,7 @@ panels:
       Plain pale background. No text.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: l, text: "THERE MUST BE SOMETHING WE CAN LOOK FOR."}
+      - {who: taeo, type: speech, side: c, text: "WHAT COULD HELP US FIND YOUR HOME?"}
       - {who: "offpanel:nib", type: speech, side: r, text: "MY WATCH POST."}
 
   - id: P39
@@ -599,8 +597,8 @@ panels:
       Chae watches his hand, not his face. Blue-white light, daylight shapes on the tiles. No text.
     calm: top-right
     lines:
-      - {who: chae, type: speech, side: r, text: "SHOW ME."}
-      - {who: nib, type: speech, side: l, text: "WALL HERE. TREE BEHIND IT."}
+      - {who: chae, type: speech, side: c, text: "DRAW YOUR POST."}
+      - {who: nib, type: speech, side: l, text: "A WALL HERE. A TREE BEHIND THE WALL."}
     sfx:
       - {text: "SKRITCH", style: quiet, at: [0.55, 0.78], size: S, rot: -10}
     notes: "Beat: Nib draws his post. The short pencil stub sets up ch5 (Eunchae gives him 'A LONGER ONE'). Nib keeps it (P47)."
@@ -617,24 +615,24 @@ panels:
       Keep the drawing in the middle third. No text.
     calm: none
     lines:
-      - {who: "offpanel:nib", type: speech, side: l, text: "YOU COULD SEE THE LOWER PATH."}
-      - {who: "offpanel:nib", type: speech, side: l, text: "AND THE WHITE BIT."}
+      - {who: "offpanel:nib", type: speech, side: r, text: "FROM MY POST, I COULD SEE THE LOWER PATH AND THE WHITE BIT."}
     notes: "Beat lines, verbatim. 'The white bit' is drawn as a blank outline: white paper. It is what ch11 picks up (ledger P07, white stone, 'THE SAME KIND'); it is not logged as a plant here. No Kett's mark: it first appears in ch5."
 
   - id: P41
-    shape: inset-r
+    shape: full
     gap: short
     bg: white
     style: chibi
     camera: "chibi gag"
     art: >
-      CHIBI gag (2.5 heads) on a flat screentone background. Chibi Taeo crouches by the drawing with a huge sweat drop and a confused little spiral above his head.
+      CHIBI gag (2.5 heads) on a flat screentone background. Give the figures room in a full panel:
+      Taeo on the left, Nib on the right, Chae small in the centre background. Chibi Taeo crouches by the drawing with a huge sweat drop and a confused little spiral above his head.
       Chibi Nib holds the paper up beside his face with a dot-eyed, perfectly flat deadpan stare, as if the answer were obvious.
       Small in the corner, chibi Chae hides a tiny smile behind her blue tablet. All locks intact (Nib's ear notch, belt, pouch, sheath, bare feet; Chae's bob and lanyard). No text.
     calm: top
     lines:
       - {who: taeo, type: speech, side: l, text: "WHAT WHITE BIT?"}
-      - {who: nib, type: speech, side: r, text: "THE WHITE BIT."}
+      - {who: nib, type: speech, side: r, text: "THE WHITE BIT BESIDE THE PATH."}
     notes: "Chibi sheets: taeo, nib, chae (if chae has none yet, keep her as a tiny silhouette with the bob and the tablet)."
 
   - id: P42
@@ -649,7 +647,7 @@ panels:
     calm: top
     lines:
       - {who: taeo, type: speech, side: l, text: "HOW TALL WAS THE WALL?"}
-      - {who: nib, type: speech, side: r, text: "HERE."}
+      - {who: nib, type: speech, side: r, text: "CHEST HIGH."}
     notes: "Taeo asks instead of guessing (contrast P08)."
 
   - id: P43
@@ -662,7 +660,7 @@ panels:
     ui:
       - {kind: phone.info_card, on: screen, hand: chae_tablet, title: "PUBLIC GATE SURVEYS", text: "Search: stone wall, tree, high ground · 6 recordings"}
     lines:
-      - {who: chae, type: speech, side: l, text: "SIX SURVEY RECORDINGS. A WALL, A TREE, HIGH GROUND."}
+      - {who: "offpanel:chae", type: speech, side: c, text: "SIX SURVEY RECORDINGS MATCH: A WALL, A TREE, HIGH GROUND."}
     notes: "Beat: Chae's PUBLIC GATE SURVEYS archive has six recordings for his description."
 
   - id: P44
@@ -675,9 +673,9 @@ panels:
       Plain pale-blue background. No text.
     calm: right
     lines:
-      - {who: chae, type: speech, side: l, text: "THESE ARE FROM INSIDE GATES. IT DOESN'T MEAN YOU'RE FROM ONE."}
+      - {who: chae, type: speech, side: c, text: "THESE RECORDINGS SHOW GATES. THEY MAY NOT SHOW YOUR HOME."}
       - {who: "offpanel:nib", type: speech, side: r, text: "THEN WHY LOOK?"}
-      - {who: chae, type: speech, side: l, text: "BECAUSE IT'S WHAT WE HAVE."}
+      - {who: chae, type: speech, side: c, text: "THESE ARE THE ONLY RECORDINGS WE HAVE."}
 
   - id: P45
     shape: wide
@@ -692,7 +690,7 @@ panels:
     calm: top-left
     lines:
       - {who: narr, type: tag, text: "PUBLIC GATE SURVEYS · RECORDING 1 OF 6"}
-      - {who: taeo, type: float, text: "I WANTED IT TO BE HIS WALL."}
+      - {who: taeo, type: float, text: "I WANTED THIS RECORDING TO SHOW HIS WALL."}
     notes: "The first of the six. Inside a gate the sky is the wrong colour (STORY_BIBLE §5); keep it quiet here, the motif proper starts at ch11. It is NOT his post: no white bit anywhere in it."
 
   - id: P46
@@ -706,8 +704,8 @@ panels:
       The small lower fang on the LEFT just shows. Face in the middle third. No text.
     calm: none
     lines:
-      - {who: nib, type: speech, side: c, text: "NOT THAT."}
-      - {who: "offpanel:chae", type: speech, side: r, text: "FIVE MORE. I'LL SEND YOU ALL SIX."}
+      - {who: nib, type: speech, side: c, text: "THAT'S NOT MY POST."}
+      - {who: "offpanel:chae", type: speech, side: r, text: "FIVE RECORDINGS LEFT. I'LL SEND ALL SIX TO TAEO."}
     notes: "Beat line, verbatim. Chae will send the six recordings to Taeo's phone."
 
   - id: P47
@@ -721,9 +719,9 @@ panels:
       he loves pockets. Blue-white light, daylight from the window. No text.
     calm: top
     lines:
-      - {who: chae, type: speech, side: r, text: "I'M WRITING 'INTERMITTENT SENSORY RESPONSE.'"}
-      - {who: taeo, type: speech, side: l, text: "IS THAT GOOD?"}
-      - {who: chae, type: speech, side: r, text: "IT'S TRUE."}
+      - {who: chae, type: speech, side: l, text: "I'M WRITING 'INTERMITTENT SENSORY RESPONSE.' SOMETIMES YOU FEEL WHAT NIB TOUCHES."}
+      - {who: taeo, type: speech, side: r, text: "IS THAT GOOD?"}
+      - {who: chae, type: speech, side: l, text: "IT'S TRUE."}
     notes: "Chae's written finding (output low, no rank yet, from ch3). Nib keeps the original drawing and the pencil stub; Chae has photographed the drawing with her tablet. Runner: Nib loves pockets."
 
   - id: P48
@@ -737,8 +735,8 @@ panels:
       beside her monitors rattles and lights. She stops mid-word and looks down at it with dry, total resignation. Blue-white corridor light. No text.
     calm: top
     lines:
-      - {who: chae, type: speech, side: r, text: "TAEO. WHATEVER HE OFFERS YOU—"}
-      - {who: chae, type: whisper, side: r, text: "...THAT'LL BE MY SUPERVISOR."}
+      - {who: chae, type: speech, side: l, text: "TAEO. WHATEVER THE KANGHAN RESEARCHER OFFERS YOU—"}
+      - {who: chae, type: whisper, side: l, text: "THAT'LL BE MY SUPERVISOR."}
     sfx:
       - {text: "BRRRRT", style: phone, at: [0.78, 0.58], size: M, rot: -8}
     notes: "Pays off P13 at once and cuts off her warning, so Taeo walks into the lobby unwarned. Taeo holding the door while Nib goes out first is the open-door motif; don't point it out."
@@ -762,8 +760,8 @@ panels:
       - {kind: tv.lowerthird, on: screen, text: "KANGHAN INSTITUTE RENEWS STATE RESEARCH CONTRACT", ticker: "HAPJEONG-DONG STORE GATE CLEARED OVERNIGHT · NO CASUALTIES · RESCUE NETWORK BILL DELAYED AGAIN"}
     lines:
       - {who: narr, type: tag, text: "12:52 PM"}
-      - {who: dr_pyo, type: speech, side: r, text: "MR. YOON."}
-      - {who: dr_pyo, type: speech, side: r, text: "AND YOU MUST BE NIB."}
+      - {who: dr_pyo, type: speech, side: c, text: "MR. YOON."}
+      - {who: dr_pyo, type: speech, side: c, text: "AND YOU MUST BE NIB."}
     notes: "Beat: Dr. Pyo Jaesung, Kanghan Institute, courteous and genuinely curious. He has waited 78 minutes. He uses both names unasked: the flag sent him the file. The ticker keeps ch1's store gate and Han Seoryun's stalled rescue-network bill in the world; nobody reads it aloud."
 
   - id: P50
@@ -776,9 +774,9 @@ panels:
       and finds it cold. Nib stands between them at belt height, looking from the cup to Pyo. Pyo keeps the other cup. Simplified lobby behind: seats, the ficus, daylight. No text.
     calm: top
     lines:
-      - {who: dr_pyo, type: speech, side: r, text: "FORGIVE THE AMBUSH. THE OFFICE SHARES ITS FILES WITH US."}
-      - {who: dr_pyo, type: speech, side: r, text: "THIS ONE'S YOURS. IT WENT COLD. I WAS EARLY."}
-      - {who: taeo, type: speech, side: l, text: "...THANK YOU. SORRY."}
+      - {who: dr_pyo, type: speech, side: r, text: "FORGIVE THE SURPRISE. THE OFFICE SHARES ITS FILES WITH KANGHAN."}
+      - {who: dr_pyo, type: speech, side: r, text: "THIS COFFEE IS YOURS. SORRY IT'S COLD. I WAS EARLY."}
+      - {who: taeo, type: speech, side: l, text: "THANK YOU. SORRY."}
     notes: "'I WAS EARLY' is his only answer to P02 ('HE WAS ALREADY HERE'). Taeo keeps the cold coffee, undrunk, in his LEFT hand to the end of the chapter."
 
   - id: P51
@@ -791,8 +789,8 @@ panels:
       The V-notch in his LEFT ear, amber eyes. Plain pale background. No text.
     calm: left
     lines:
-      - {who: nib, type: speech, side: c, text: "NONE FOR ME."}
-      - {who: "offpanel:dr_pyo", type: speech, side: r, text: "...I DIDN'T KNOW YOU'D WANT ONE."}
+      - {who: nib, type: speech, side: c, text: "NO COFFEE FOR ME."}
+      - {who: "offpanel:dr_pyo", type: speech, side: r, text: "I DIDN'T KNOW YOU'D WANT COFFEE."}
       - {who: nib, type: speech, side: c, text: "I DON'T."}
     notes: "Laugh with an edge: Pyo didn't think of Nib as someone who wants things. By ch6 he has learned ('I GUESSED JUICE')."
 
@@ -809,7 +807,7 @@ panels:
     lines:
       - {who: dr_pyo, type: speech, side: r, text: "MAY I ASK YOU ONE THING?"}
       - {who: nib, type: speech, side: l, text: "NO."}
-      - {who: dr_pyo, type: whisper, side: r, text: "...WONDERFUL."}
+      - {who: dr_pyo, type: whisper, side: r, text: "WONDERFUL."}
     notes: "He takes the refusal as a finding."
 
   - id: P53
@@ -834,7 +832,7 @@ panels:
       in the lower foreground. Daylight, blue-white. No text.
     calm: top
     lines:
-      - {who: dr_pyo, type: speech, side: r, text: "KANGHAN WOULD LIKE TO OFFER YOU AN EXCLUSIVE OBSERVATION CONTRACT."}
+      - {who: dr_pyo, type: speech, side: r, text: "KANGHAN WANTS NIB TO LIVE WITH US UNDER AN EXCLUSIVE OBSERVATION CONTRACT."}
       - {who: dr_pyo, type: speech, side: r, text: "FIFTY MILLION WON."}
       - {who: narr, type: footnote, text: "*₩50,000,000 ≈ US$36,000"}
     notes: "Beat line. The offer goes to the summoner, over Nib's head. Same contract as ch6 (EXCLUSIVE OBSERVATION AGREEMENT, fee to summoner ₩50,000,000). Footnote rate as ch1 and ch6."
@@ -848,7 +846,7 @@ panels:
       Pyo close: kind, sincere, a little sad on Taeo's behalf, his free hand laid lightly over his heart. He believes every word. Soft daylight, plain background. No text.
     calm: right
     lines:
-      - {who: dr_pyo, type: speech, side: l, text: "HE'D BE VERY WELL LOOKED AFTER."}
+      - {who: dr_pyo, type: speech, side: c, text: "WE'D LOOK AFTER NIB VERY WELL."}
     notes: "Beat line, verbatim."
 
   - id: P56
@@ -887,8 +885,8 @@ panels:
       above the counter has just changed (blank shapes). Daylight. No text.
     calm: top
     lines:
-      - {who: dr_pyo, type: speech, side: r, text: "YOU CAN SAY NO, OF COURSE."}
-      - {who: receptionist, type: announce, side: l, text: "NOW SERVING 214. COUNTER TWO."}
+      - {who: dr_pyo, type: speech, side: l, text: "YOU CAN SAY NO, OF COURSE."}
+      - {who: receptionist, type: phone, side: r, text: "NOW SERVING 214. COUNTER TWO."}
     notes: "Beat: Taeo doesn't say no. Pyo offers him the word; the lobby's public address fills the silence where it should have been."
 
   - id: P59
@@ -913,7 +911,7 @@ panels:
       Through the glass, the bright street. Taeo and Nib are two small figures at the edge of the seats in the foreground. No text.
     calm: top
     lines:
-      - {who: dr_pyo, type: speech, side: r, text: "TAKE YOUR TIME, MR. YOON."}
+      - {who: dr_pyo, type: speech, side: c, text: "TAKE YOUR TIME, MR. YOON."}
     sfx:
       - {text: "WHUM... WHUM...", style: quiet, at: [0.78, 0.55], size: S, rot: 0}
     notes: "The revolving door that beat Nib twice in ch3 gives Pyo no trouble at all. No business card changes hands: ch6 owns the card. Pyo has Taeo's number from the file (ch6 opens with his text)."
@@ -932,7 +930,7 @@ panels:
     calm: top
     lines:
       - {who: nib, type: speech, side: r, text: "HOW MUCH IS FIFTY MILLION?"}
-      - {who: taeo, type: speech, side: l, text: "...ABOUT FIVE THOUSAND OF MY LUNCHES."}
+      - {who: taeo, type: speech, side: c, text: "ABOUT FIVE THOUSAND OF MY LUNCHES."}
     notes: "HOOK, beat lines verbatim. Taeo has not said no. ₩50,000,000 ÷ 5,000 = ₩10,000 a lunch (ch6 and ch7 use the same sum). Taeo still holds Pyo's cold coffee."
 
   - id: P62

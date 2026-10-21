@@ -1,0 +1,559 @@
+chapter: 57
+title: The Chant
+when: "Same exhibition day as ch 56, afternoon. Final draw ends; the timed final begins after the course reset. Ends with 0.8 seconds on the heat clock."
+story_beats: PART_ONE_BEATS.md#57
+cast:
+  taeo: outdoor
+  nib: default
+  orrin: default
+  sera: default
+  haein: default
+  sejin: default
+  minho: default
+  do_gangjin: default
+  bangbang: default
+extras:
+  ironvow_bracer: "Adult Korean woman, muscular, blunt black bob, charcoal padded field jacket, dark-steel chest harness and small pauldrons, dark-red chest strip and waist tabs, grey cargos, heavy boots."
+  ironvow_runner: "Adult Korean man, lean, short black hair, same Iron Vow member uniform; padded practice shield, no sharp weapon."
+  official: "Adult woman in grey exhibition polo, slate trousers, headset and blank credential, as ch 56."
+  fans: "Mixed adult spectators in muted casual clothing, several with blank round fan paddles; the chanting group is a small cluster near BangBang, not the entire audience."
+locations: [exhibition_draw_stage, exhibition_arena, exhibition_stands]
+location_notes:
+  exhibition_draw_stage: "Same ramp, officials' desk and blank bracket board as ch 56."
+  exhibition_arena: >
+    Carry forward ch 50-56 arena. Operator box outside course behind near clear barrier, opposite VIP box,
+    two identical independent lanes. Final is a fixed-time score heat: five one-point preliminary obstacles,
+    followed by a three-point final relay. A bypass lane allows attempts to be abandoned for zero.
+    Maximum eight points; score at horn decides, time breaks a tie. These rules are public before starting.
+    Final relay in each lane: padded ram beside LEFT wall; grey receiving pad stored there; pressure shoe
+    under a weighted shutter; shoe drives an enclosed hydraulic linkage to a short rising shooting carriage;
+    Sera can stand on carriage, ordinary blunt-arrow target above far end. Three lamps correspond to shoe,
+    carriage stop and target. Stored force boosts Orrin's voluntary push, never directly enchants the arrow.
+    Safety stops and floor pads catch a miss. No actual gate, no return marks, no threshold-radio issue.
+  exhibition_stands: "Tiered muted navy seating over the near service corridor, adult fans, safety rail, BangBang filming from an accredited aisle position."
+wardrobe_locks: >
+  Exact ch 56 outfits. Taeo navy jacket, hoodie, black cargos, single-white-stripe sneakers; mole RIGHT eye;
+  olive backpack with OLD orange shield/open-door patch on operator chair. Dark-grey cracked dinosaur phone face-down.
+  Nib adult 105 cm, notched LEFT ear, LEFT lower fang, pinkish-tan wrap, charcoal shorts, brown rope belt,
+  RIGHT dinosaur pouch, LEFT wooden sheath, high matte-black binoculars with LEFT strap knot and fork-marked hinge;
+  ch 43 matte dark-brown ankle-high leather work boots, broad round toes, four pairs dull gunmetal round eyelets,
+  dark-brown round laces in small double knots, black lug soles/low heels, heel pull tabs, oat-grey short socks
+  inside collars; no logo, hooks, buckles, bright trim or visible steel cap, never barefoot.
+  ID, paper drawing and cobalt fork-marked pencil secured in pouch.
+  Sera river-green wrap, cream sleeves, sand trousers, braid, LEFT bow/bracer, RIGHT quiver/flute, blunt arrows.
+  Orrin adult terraced-slate shell, healed crack seam unchanged, no harness. Reservoir construction follows ch 52-56.
+props:
+  reservoir: "Match ch 50: hand-sized rectangular dull-steel housing, split copper retaining band, ivory ceramic inspection window, two capped coupling ports, short grey webbing strap, analogue white indicator tab and manual release. Known 0.8-second leak remains; no screen."
+palette_notes: >
+  A4 institutional extension: arena overhead blue-white lamps, slate shadows and navy seats; steel and grey rubber course.
+  Iron Vow red is dark muted fabric, not the danger accent. Cyan only for Taeo's interface if present; none appears here.
+  Amber only Nib's permitted RIGHT-palm pulse, separate slate-green for Orrin. Screens dark or abstract shapes;
+  scoreboards blank for label UI. No bloom, floating debris, readable art, bubbles or effects drawn as words.
+panels:
+  - id: P01
+    shape: wide
+    gap: none
+    camera: "level across draw stage, Taeo between Nib and Gangjin"
+    art: >
+      exhibition_draw_stage under white truss lamps. taeo in navy jacket faces do_gangjin, 22, powerful,
+      short hard black hair, narrow eyes, angular jaw, dark-steel/red plate armour and LEFT collar clasp.
+      Nib stands beside Taeo, adult face held flat. Slate shadows, blank bracket board. No pet imagery or weapon.
+    calm: top
+    lines:
+      - {who: taeo, type: speech, side: l, text: "THEY HAVE NAMES."}
+      - {who: do_gangjin, type: speech, side: r, text: "PUT THEM ON THE BOARD, THEN."}
+    notes: "Direct continuation of ch 56 insult. Gangjin fully described on his first appearance this chapter."
+  - id: P02
+    shape: strip
+    silent: true
+    camera: "close on Nib looking past Taeo toward the course entrance"
+    art: >
+      nib, locked adult scout model, LEFT ear notch and single LEFT fang visible, looks beyond the
+      argument to exhibition_arena's open service doors. His eyes sharpen; his hand remains off his knife.
+      White stage lamps, cool slate background. No cute proportions, new accessory or readable sign.
+    calm: none
+  - id: P03
+    shape: inset-r
+    camera: "Nib's eye level, Taeo kneeling just enough to listen"
+    art: >
+      exhibition_draw_stage, white roof key and slate shadows. taeo in navy bends to listen, anger still
+      in his brow; nib in wrap and chosen boots points toward the course, perfectly matter-of-fact.
+      Binoculars on chest. Leave side gutter clean; no paternal head pat, bared knife or crowd invasion.
+    calm: left
+    lines:
+      - {who: nib, type: speech, side: r, text: "SAVE YOUR BREATH."}
+      - {who: nib, type: speech, side: r, text: "YOU NEED IT TO COUNT."}
+  - id: P04
+    kind: title
+    gap: long
+    bg: white
+    title_text: "CHAPTER 57 · THE CHANT"
+  - id: P05
+    shape: full
+    gap: long
+    camera: "high establishing across final course toward stands"
+    art: >
+      exhibition_arena's two reset lanes, five preliminary stations leading to tall final shutters. Crew
+      waits at near start, Iron Vow opposite. Operator box remains outside barrier. official in grey points
+      to a blank rules board. White overhead lamps, slate pads, navy seats. No gate, drawn words or saturated crowd lights.
+    calm: top
+    ui:
+      - {kind: label, text: "FINAL · FIVE OBSTACLES × 1 · FINAL RELAY × 3", at: [0.5, 0.18]}
+      - {kind: label, text: "SCORE AT HORN WINS · TIE: TIME · BYPASS: 0", at: [0.5, 0.26]}
+    lines:
+      - {who: official, type: phone, side: c, text: "THE FINAL RELAY COUNTS THREE. EVERY EARLIER OBSTACLE COUNTS ONE."}
+      - {who: official, type: phone, side: c, text: "SCORE AT THE HORN. IDENTICAL LANES."}
+      - {who: official, type: phone, side: c, text: "ALL THREE CHECKS COMPLETE THE RELAY. PARTIAL RUNS SCORE ZERO."}
+    notes: "Fair scoring established before the reversal. Maximum 8; final relay has three mechanically registered checks."
+  - id: P06
+    shape: wide
+    camera: "low along final relay mechanism with Haein outside rail"
+    art: >
+      exhibition_arena: haein in slate overalls studies the final pressure shoe, enclosed hydraulic linkage,
+      rising carriage and high target from outside the safety rail. Three blank lamp sockets sit on the
+      frame. White lamps, grey metal, slate shadows. No hydraulic line open to spectators, diagrams or readable labels.
+    calm: top
+    lines:
+      - {who: haein, type: speech, side: l, text: "ONE PUSH. THREE CHECKS."}
+      - {who: taeo, type: speech, side: r, text: "THE SAME DIRECTION ALL THE WAY."}
+  - id: P07
+    shape: strip
+    camera: "extreme close-up on reservoir and Taeo's left thumb"
+    art: >
+      exhibition_arena operator desk: taeo's LEFT thumb tests the reservoir release without charging it.
+      RIGHT palm stays open beside the plain metal casing, not yet lit. White roof key, cool slate mat.
+      Reuse established device details. No written gauge, limitless energy glow or thumb touching two controls impossibly.
+    calm: right
+    lines:
+      - {who: haein, type: speech, side: l, text: "ZERO POINT EIGHT. SAME LEAK."}
+      - {who: taeo, type: speech, side: r, text: "I KNOW."}
+    notes: "P14 continuity: known leak remains. No new ledger plant or payoff is claimed; payoff belongs in ch 60."
+  - id: P08
+    shape: inset-l
+    style: chibi
+    camera: "chibi side view of Haein guarding the desk"
+    art: >
+      Flat pale-blue exhibition_arena gag background, white key. Chibi haein in slate overalls leans over
+      the reservoir like a very stern brooding hen. Chibi taeo in navy jacket peeks around her shoulder,
+      two hands politely raised. No threat, cracked casing, feathers on a real character or readable words.
+    calm: right
+    lines:
+      - {who: haein, type: speech, side: l, text: "I'M TELLING THE DEVICE."}
+  - id: P09
+    shape: wide
+    camera: "floor-level crew huddle beside the starting rail"
+    art: >
+      nib in locked wrap and boots, adult orrin and sera in river-green face taeo through exhibition_arena's
+      clear barrier. Taeo places both palms on its outside rail, earnest and a little scared. Overhead
+      white light, slate floor. No ownership pose, leash, glowing window or sharpened exhibition arrow.
+    calm: top
+    lines:
+      - {who: taeo, type: speech, side: l, text: "IF THE LINE ISN'T THERE, DON'T TAKE IT."}
+      - {who: nib, type: speech, side: r, text: "I KNOW."}
+      - {who: sera, type: speech, side: r, text: "YOU TOO."}
+  - id: P10
+    shape: full
+    camera: "opposing start low angle on Gangjin's planted gauntlet"
+    art: >
+      do_gangjin in dark-steel/red plate crouches at exhibition_arena start, one gauntlet on grey floor,
+      sneer replaced by concentration. ironvow_bracer and ironvow_runner in member uniforms lean into ready
+      stances behind. White roof key, slate shadows. Powerful compact silhouettes, no aura, forbidden weapons or sabotage.
+    calm: top
+    lines:
+      - {who: do_gangjin, type: speech, side: c, text: "KEEP UP. DON'T FIX WHAT'S ALREADY CLEARED."}
+    notes: "Iron Vow is a skilled, coordinated team, not a cheat whose mistake hands over the match."
+  - id: P11
+    shape: wide
+    camera: "start official foreground, both lanes launching away"
+    art: >
+      official in grey lowers one arm as nib and Iron Vow launch down exhibition_arena's parallel lanes.
+      Orrin begins his measured drive, Sera's braid streams behind. Taeo sits outside in the near box.
+      Blue-white overhead lamps, slate floor. No premature scoreboard numbers, spectators on track or gate light.
+    calm: top
+    sfx:
+      - {text: "PAAAN", style: alert, at: [0.17, 0.15], size: L, rot: 0}
+  - id: P12
+    shape: tall
+    camera: "low beside Iron Vow's first weighted barrier"
+    art: >
+      do_gangjin in dark-steel/red drives the first padded barrier upward, legs and back in a coherent
+      push; bracer catches its side stop and runner passes beneath. Focused adult faces. exhibition_arena
+      white roof lamps, slate machinery. No crushed fingers, attack on another lane or magical explosion.
+    calm: top
+    sfx:
+      - {text: "GUM", style: impact, at: [0.45, 0.48], size: L, rot: 4}
+  - id: P13
+    shape: wide
+    camera: "crew lane from the barrier's far side"
+    art: >
+      orrin braces under his lane's first barrier while nib and sera clear its edge. Orrin's adult
+      heavy-lidded face is calm but effort creases his neck. Nib in chosen boots spots the far stop.
+      exhibition_arena white key, slate shadows. Shell seam intact, no harness, words or impossible extra legs.
+    calm: top
+    lines:
+      - {who: nib, type: speech, side: l, text: "CLEAR."}
+  - id: P14
+    shape: strip
+    camera: "scoreboard seen level over the official's shoulder"
+    art: >
+      exhibition_arena's plain score board above official's grey shoulder; sockets and score plates left
+      empty for labels. She tracks both lanes with a level, neutral gaze. White roof light, navy seating,
+      slate shadows. No active computer screen, written art or biased gesture.
+    calm: none
+    ui:
+      - {kind: label, text: "YOON 1 · IRON VOW 1", at: [0.50, 0.34]}
+  - id: P15
+    shape: full
+    camera: "overhead across moving stepping platforms"
+    art: >
+      exhibition_arena second obstacle: Iron Vow runner leaps the final moving platform while bracer
+      stabilises it from the first. In crew lane Nib pauses on a grey pad to judge Orrin's broad shell
+      clearance. Sera waits behind him. White roof lights, slate shadows. No falling body, return marks or secret shortcut.
+    calm: top
+    lines:
+      - {who: nib, type: speech, side: l, text: "TOO NARROW."}
+  - id: P16
+    shape: inset-r
+    camera: "Taeo at box in three-quarter profile"
+    art: >
+      taeo in navy jacket checks Orrin's cramped lane through exhibition_arena's clear barrier. His hand
+      starts toward the reservoir then stops, deciding instead of panicking. White roof light, slate desk.
+      RIGHT-eye mole, old bruises only. No lit phone, floating solution window or new link colour.
+    calm: left
+    lines:
+      - {who: taeo, type: speech, side: r, text: "BYPASS IT. ZERO IS BETTER THAN STUCK."}
+  - id: P17
+    shape: wide
+    camera: "from the bypass turn toward crew leaving platform station"
+    art: >
+      nib in chosen boots leads orrin through the legal wide bypass lane while sera follows, frustrated
+      mouth set. Official's grey sleeve points along it. exhibition_arena white roof key, slate rubber mats;
+      platform stays untouched behind. No collision, injury, gate or readable signs.
+    calm: top
+    lines:
+      - {who: sera, type: speech, side: r, text: "I HATE GIVING THAT ONE AWAY."}
+      - {who: orrin, type: speech, side: c, text: "I WOULD HATE LIVING THERE."}
+  - id: P18
+    shape: strip
+    silent: true
+    camera: "extreme close-up of Taeo's fingertips on his sleeve seam"
+    art: >
+      taeo's fingers pinch the navy cuff seam at exhibition_arena desk, then let it go. His RIGHT palm
+      is unlit, skin damp. Reservoir remains uncharged in background. White overhead light, slate mat.
+      No blood, cracked device, magical battery charge or drawn symbols.
+    calm: none
+  - id: P19
+    shape: tall
+    camera: "low across Iron Vow's angled sled station"
+    art: >
+      Iron Vow bracer and do_gangjin in steel/red hit an angled padded sled together with shoulders,
+      runner landing at its far sensor. Their timing is excellent and practiced. exhibition_arena white
+      lamps, cool slate shadows, compact motion lines at feet. No cruel celebration, attack or shattered course hardware.
+    calm: top
+    sfx:
+      - {text: "THUD", style: impact, at: [0.50, 0.50], size: L, rot: -6}
+  - id: P20
+    shape: wide
+    camera: "crew lane side view as Orrin finds sled angle"
+    art: >
+      orrin adjusts his feet before the crew's angled sled, nib indicating a lower contact point with
+      an open hand. Sera covers the next target lane, brows tense. exhibition_arena white roof light, grey
+      padding and slate shadows. No extra Orrin harness, cute face or line of energy already transferring.
+    calm: top
+    lines:
+      - {who: orrin, type: speech, side: c, text: "ONE MOMENT."}
+      - {who: nib, type: speech, side: l, text: "YOU HAVE IT."}
+  - id: P21
+    shape: wide
+    camera: "support rail at Minho's shoulder toward score board"
+    art: >
+      minho in brown work jacket, LEFT-temple grey streak and LEFT-chest radio, grips exhibition_arena's
+      support rail. sejin in sage/olive watches Taeo, not the scoreboard. Board face blank for overlay.
+      White roof key, muted navy seats and slate shadows. No casual phone distraction or readable art.
+    calm: top
+    ui:
+      - {kind: label, text: "YOON 2 · IRON VOW 3", at: [0.64, 0.20]}
+    lines:
+      - {who: minho, type: whisper, side: l, text: "STILL ONE BACK."}
+  - id: P22
+    shape: full
+    camera: "from stands toward BangBang behind his camera"
+    art: >
+      exhibition_stands: bangbang, stocky young adult streamer with short styled dark hair, expressive round
+      face, loud patterned bomber jacket and headset, aims a compact camera at the operator box. Match
+      characters/bangbang sheet styling and colours. Adult fans cluster behind him. Cold roof lamps, navy/slate seating.
+      Camera screen dark; paddles blank. No real brand or crowd-wide identical faces.
+    calm: top
+    lines:
+      - {who: bangbang, type: speech, side: l, text: "SAME PREMIUM SEAT. EVERY ROUND."}
+    notes: "His comment is local speech to nearby fans; any voice through stadium audio would require phone type."
+  - id: P23
+    shape: strip
+    camera: "close on a fan paddle tapping a rail"
+    art: >
+      exhibition_stands: adult fan in a muted grey sweatshirt taps a blank round paddle twice against
+      the safety rail while glancing at BangBang's camera. Nearby hands join. White roof light, slate metal,
+      navy seat shapes. No readable slogan on paddle or aggressive action toward the crew.
+    calm: top
+    lines:
+      - {who: crowd, type: shout, side: c, text: "HIS SUMMONS GO FIRST!"}
+  - id: P24
+    shape: wide
+    camera: "across chanting cluster toward silent spectators farther away"
+    art: >
+      exhibition_stands: the small BangBang fan cluster chants with cupped hands and pleased faces; an
+      older woman and two students farther along look uncomfortable and stay quiet. All adult proportions.
+      White roof lamps, slate/navy palette, blank paddles. No uniformly hostile stadium, readable banners or confetti.
+    calm: top
+    lines:
+      - {who: crowd, type: shout, side: l, text: "HIS SUMMONS GO FIRST! HIS SUMMONS GO FIRST!"}
+  - id: P25
+    shape: inset-l
+    silent: true
+    camera: "close on Nib under the arena lights"
+    art: >
+      nib's weathered adult face in exhibition_arena, eyes briefly flicking toward the chanting stands
+      and then down the course. LEFT ear notch, single LEFT fang, matte binocular strap. His jaw tightens
+      with hurt he will not perform. White roof key, slate background. No chibi, tear gag or pet silhouette.
+    calm: right
+  - id: P26
+    shape: strip
+    camera: "extreme close-up of Taeo's eyes above the rail"
+    art: >
+      taeo in navy collar at exhibition_arena box holds his gaze forward, eyes wet from strain rather
+      than tears. RIGHT-eye mole visible below the crop. White lamp key with a slate brow shadow.
+      No caption in art, imagined crowd monster, green screen or heroic glow.
+    calm: right
+    lines:
+      - {who: taeo, type: float, text: "I WANTED TO MAKE THEM STOP."}
+  - id: P27
+    shape: wide
+    camera: "Sera's shooting side toward the fourth station"
+    art: >
+      sera, river-green tunic and LEFT bracer, takes the fourth station's narrow target with a blunt arrow,
+      eyes hard and mouth confident. Orrin and Nib are clear of the shooting lane. exhibition_arena white
+      roof lamps, slate target surround. No magical arrow, audience-directed shot or readable target ring numbers.
+    calm: top
+    lines:
+      - {who: sera, type: speech, side: r, text: "WATCH THIS SIDE, THEN."}
+    sfx:
+      - {text: "TAK", style: quiet, at: [0.20, 0.40], size: M, rot: 0}
+  - id: P28
+    shape: full
+    camera: "parallel lane view of the fourth sensors registering"
+    art: >
+      exhibition_arena: Sera's target tips back in crew lane while Iron Vow runner strikes their same
+      station with a blunt practice throw. Both sensors register with ordinary small white lamps. Nib runs
+      on, Gangjin already ahead. Roof blue-white key, slate machinery. No drawn scores, explosive contact or sabotage.
+    calm: top
+    ui:
+      - {kind: label, text: "YOON 3 · IRON VOW 4", at: [0.50, 0.17]}
+  - id: P29
+    shape: narrow-r
+    camera: "Haein at the operator rail from below"
+    art: >
+      haein in slate overalls, beige tee, safety glasses on black bob, looks from course to reservoir
+      with her lips pressed flat. A spanner hangs RIGHT and screwdriver LEFT on belt. exhibition_arena
+      roof white key, plain slate background. No control in her hands, lit diagnostic screen or magical fix.
+    calm: left
+    lines:
+      - {who: haein, type: speech, side: r, text: "KEEP IT EMPTY UNTIL THE LINE EXISTS."}
+  - id: P30
+    shape: wide
+    camera: "low forward along fifth obstacle's climbing lattice"
+    art: >
+      exhibition_arena fifth station, a short steep padded lattice: Iron Vow bracer plants a shield to
+      help runner over its lip while Gangjin powers up behind. In crew lane Orrin assesses a turn too
+      tight for his shell. White roof light, slate mats. No actual cliff, falling person or shell damage.
+    calm: top
+    lines:
+      - {who: nib, type: speech, side: l, text: "WE CAN CLEAR IT. SLOWLY."}
+  - id: P31
+    shape: strip
+    camera: "Taeo's hand and physical heat-clock face in the distance"
+    art: >
+      exhibition_arena operator desk, taeo's open hand in foreground and blank large heat-clock face high
+      beyond. His fingertips curl once at the choice. Reservoir uncharged beside him, phone face-down beneath
+      jacket edge. White roof key, cool slate. No readable clock drawn in art or injured hand.
+    calm: none
+    ui:
+      - {kind: label, text: "00:07.0", at: [0.72, 0.24]}
+    lines:
+      - {who: taeo, type: float, text: "SEVEN SECONDS IS A VERY SMALL BRAVE."}
+  - id: P32
+    shape: wide
+    camera: "operator box across barrier toward Nib"
+    art: >
+      taeo in navy leans toward mic at exhibition_arena's barrier while nib, chosen boots braced at
+      fifth station, turns to listen. Orrin waits with no implied shame at his size; Sera reads the
+      final relay ahead. White overhead key, slate pads. No ownership gesture or active screen.
+    calm: top
+    lines:
+      - {who: taeo, type: speech, side: l, text: "BYPASS. THE LAST RELAY IS THREE."}
+      - {who: nib, type: speech, side: r, text: "SEEN."}
+  - id: P33
+    shape: tall
+    camera: "far target height looking down at both teams approaching final relay"
+    art: >
+      exhibition_arena: Iron Vow reaches its final relay first with all five preliminary lamps registered;
+      crew uses the wide fifth bypass, three preliminary lamps registered. Two clear separate lanes converge
+      only in perspective. White roof light, slate shutter towers, muted navy stands. No gate, readable lamp names or midair figures.
+    calm: top
+    ui:
+      - {kind: label, text: "YOON 3 · IRON VOW 5 · FINAL RELAY REMAINS", at: [0.50, 0.13]}
+    notes: "Two preliminary obstacles behind, one three-point final obstacle left. Crew deliberately bypassed #2 and #5."
+  - id: P34
+    shape: wide
+    camera: "front of final shoe as Gangjin begins compressing it"
+    art: >
+      do_gangjin in dark-steel/red armour plants both boots and drives the final shoe into its heavy
+      spring. His bracer takes the shooting carriage, runner checks the far alignment. His cheeks strain,
+      coordination remains clean. exhibition_arena white lamp key, slate shadows. No malfunction or deliberate damage.
+    calm: top
+    lines:
+      - {who: do_gangjin, type: speech, side: c, text: "HOLD YOUR AIM. I'VE GOT THE WEIGHT."}
+  - id: P35
+    shape: inset-r
+    camera: "Taeo front close with chanting stands out of focus as simple blocks"
+    art: >
+      BIG REACTION: taeo in navy jacket hears the chant swell and winces, eyes wide, teeth clenched,
+      then inhales through his nose. RIGHT-eye mole, no new bleeding. exhibition_arena overhead white key,
+      stands simplified navy/slate, no photographic blur, grotesque fans or UI window.
+    calm: left
+    lines:
+      - {who: crowd, type: phone, side: l, text: "HIS SUMMONS GO FIRST!"}
+    notes: "Chant heard through the box's ordinary monitor speaker; hence phone type."
+  - id: P36
+    shape: strip
+    silent: true
+    camera: "Taeo's eyes over the switched-down monitor speaker"
+    art: >
+      taeo in navy sleeve turns exhibition_arena box's crowd-monitor volume knob down with LEFT hand;
+      his eyes return to Nib. Other communication channel untouched. White desk light, slate case and plain
+      knob. No readable controls, green screen, magical noise cancellation or crowd suddenly silenced in stadium.
+    calm: none
+  - id: P37
+    shape: full
+    camera: "high plan of crew final relay positions"
+    art: >
+      exhibition_arena final station: nib stands near LEFT padded ram, borrowed grey receiving pad within
+      reach. Orrin faces pressure shoe on centre line. Sera steps onto low firing carriage to RIGHT of
+      linkage, high target far ahead. White roof lights, matte grey/slate mechanics. No connecting magic threads, words or unguarded hydraulic gears.
+    calm: top
+    lines:
+      - {who: nib, type: speech, side: l, text: "RAM ON THE LEFT. SAME HIT AS PRACTICE."}
+      - {who: orrin, type: speech, side: c, text: "MY LINE IS CLEAR."}
+  - id: P38
+    shape: narrow-l
+    camera: "Sera profile on the low firing carriage"
+    art: >
+      sera in river-green, brown boots on carriage deck, LEFT bow ready, RIGHT drawing fingers loose,
+      nods toward Orrin. Competitive stillness, braid down back. exhibition_arena roof white key, slate shutter
+      behind; no camera pose, hand beyond safety guard or sharp exhibition arrow.
+    calm: right
+    lines:
+      - {who: sera, type: speech, side: l, text: "I'LL TAKE THE RIDE."}
+  - id: P39
+    shape: strip
+    camera: "extreme close-up of Taeo's right palm opening beside reservoir"
+    art: >
+      taeo's RIGHT palm opens at exhibition_arena desk, thin permitted amber pulse along the scarless skin,
+      separate slate-green at heel. LEFT thumb rests ready on established reservoir release. White overhead
+      key, slate mat. No blend to cyan, storage already charged or new luminous tattoo.
+    calm: right
+    lines:
+      - {who: taeo, type: float, text: "I DON'T NEED TO ANSWER THEM YET."}
+  - id: P40
+    shape: wide
+    camera: "over Nib's shoulder toward swinging padded ram"
+    art: >
+      nib in locked wrap and chosen boots lifts the plain grey receiving pad at exhibition_arena's
+      LEFT wall. The padded ram retracts visibly for its next repeatable sweep; his eyes count its travel.
+      White lamps, slate shadows, secured binoculars on chest. No impact yet, danger chibi or sharpened blade.
+    calm: top
+    lines:
+      - {who: nib, type: speech, side: l, text: "I CAN TAKE IT."}
+    notes: "Explicit willing participation before Taeo's final instruction; Nib can veto the prepared line."
+  - id: P41
+    shape: wide
+    camera: "support rail toward Sejin watching Taeo's grip"
+    art: >
+      sejin in sage scrubs and olive rig leans closer to exhibition_arena box, hands ready but off Taeo.
+      haein watches the empty reservoir, Minho the course. Focused adult faces, white roof key and slate
+      shadows. No pre-emptive bandaging, screens or anyone overriding the operator controls.
+    calm: top
+    lines:
+      - {who: sejin, type: speech, side: l, text: "BREATHE THROUGH IT."}
+      - {who: taeo, type: speech, side: r, text: "TRYING."}
+  - id: P42
+    shape: strip
+    camera: "score board framed between the final shutter towers"
+    art: >
+      exhibition_arena board face blank above both final shutter towers. Gangjin's shoe nears its full
+      travel in the right lane; crew's shoe has not moved. White overhead light, slate machinery, navy
+      seats beyond. No heat-clock numerals in generated art, early winner sign or device failure.
+    calm: none
+    ui:
+      - {kind: label, text: "YOON 3 · IRON VOW 5", at: [0.50, 0.24]}
+      - {kind: label, text: "00:01.2", at: [0.50, 0.38]}
+  - id: P43
+    shape: inset-r
+    silent: true
+    camera: "close on Orrin's face just above pressure shoe"
+    art: >
+      orrin, adult heavy-lidded face, lowers his neck into the prepared push position at exhibition_arena's
+      pressure shoe. His eyes flick toward Nib once, trusting rather than anxious. Stacked-slate shell seam
+      visible. White roof key, slate shadows. No saddle, pet accessories, grin gag or actual force release.
+    calm: left
+  - id: P44
+    shape: strip
+    camera: "Sera's drawing fingers and cheek in extreme close-up"
+    art: >
+      sera's RIGHT fingers draw the bowstring past her cheek, LEFT bracer and bow edge opposite, blunt
+      arrow correctly nocked. Adult focused eye looks down the line. exhibition_arena white lamp key and
+      slate shutter background. No extra finger, enchanted shaft or premature release.
+    calm: right
+    lines:
+      - {who: sera, type: whisper, side: l, text: "COME ON."}
+  - id: P45
+    shape: wide
+    camera: "Taeo low front at the operator box"
+    art: >
+      taeo in navy jacket wraps LEFT hand around the reservoir's release body while RIGHT palm stays
+      open against input contact. He sets his jaw and looks directly toward Nib's LEFT wall position.
+      exhibition_arena white roof lamps, slate shadows. No charged-device aura, fresh nosebleed or green phone screen.
+    calm: top
+    lines:
+      - {who: taeo, type: float, text: "I NEED TO ASK HIM ONE THING."}
+  - id: P46
+    shape: strip
+    camera: "from behind crew lane toward unmarked heat clock"
+    art: >
+      exhibition_arena heat-clock face above the far targets stays blank for compositing; below, the
+      crew is poised on the prepared line, and Iron Vow's shooter is still waiting for full carriage height.
+      White roof key, slate frames, navy seats. No finished target, beam or confetti.
+    calm: none
+    ui:
+      - {kind: label, text: "00:00.8", at: [0.50, 0.25]}
+    notes: "Freeze the action here through the hook. Ch 58 starts the same 0.8-second interval; no off-page countdown consumed."
+  - id: P47
+    shape: tall
+    gap: long
+    bg: navy
+    camera: "from behind Taeo's gripping hands down the prepared force line"
+    art: >
+      THE HOOK. taeo's navy sleeves and hands large in foreground at exhibition_arena's outside box,
+      RIGHT palm thin amber, LEFT gripping intact reservoir. Beyond clear rail, nib adult and booted by
+      LEFT wall with receiving pad; orrin braced at shoe, sera drawn on carriage. Clock blank high above.
+      Cold white lamps, slate shadows. No impact yet, cute pose, magic beam or readable art.
+    calm: bottom
+    lines:
+      - {who: taeo, type: speech, side: c, text: "NIB. LEFT WALL. TAKE THE HIT."}
+    notes: "Exact hook. Two one-point preliminary obstacles behind with one three-point final relay left; 0.8 seconds remain."
+  - id: P48
+    kind: end
+    gap: long
+    bg: white
+    end_text: "TO BE CONTINUED"
+    next: "NEXT · CHAPTER 58 · 0.8 SECONDS"
+    chibi_gag: "Separate after-card comedy: chibi Orrin examines a miniature narrow competition doorway, then calmly walks around its freestanding frame. Chibi Haein follows with a tape measure; chibi Nib in his chosen boots solemnly approves. No chant, injury or impending hit in the gag."

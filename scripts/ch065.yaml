@@ -1,0 +1,739 @@
+chapter: 65
+title: A Festival So Loud
+when: "The same Seoul evening as ch 64's completion window. Kesh's invitation, arrival and first hours at the Mapo tyre-shop base; no overnight jump."
+story_beats: PART_ONE_BEATS.md#65
+cast:
+  taeo: outdoors # Navy jacket over black hoodie, black cargos, white-stripe sneakers; jacket unzipped at home base. Olive backpack with OLD faded orange patch; one RIGHT-eye mole.
+  nib: default # Ch 43 boots; adult, 105 cm, full notch/fang/belt/hip locks, black 8x30 binoculars and LEFT strap knot; right pouch's dinosaur sticker, pencil, ID, paper drawing.
+  orrin: default # Adult stoneback, 230 cm long, 135 cm shell height; slate strata, pale old shell-crack seam; no harness or saddle.
+  sera: default # River-green wrap, cream sleeves, sand trousers, brown boots; bow/bracer LEFT, quiver RIGHT shoulder, bone flute RIGHT hip, thick brown braid.
+  haein: default # Slate-blue overalls, beige tee, tool belt; clear glasses pushed up.
+  sejin: default # Sage scrubs, olive medic rig, charcoal cargos, boots; medical case nearby.
+  kesh: default # FIRST APPEARANCE, intro P20. Adult male moth-like signal keeper, 198 cm, exact model sheet; never plush or a child.
+extras:
+  meridian_lead: "Recorded voice only, same upstream leader as ch 63–64, never physically present in Seoul."
+  neighbours: "Eight to twelve ordinary adult neighbours and returning shift workers in jackets, a few helmets in hands; no mob, phones all dark or pocketed."
+locations: [mapo_tyre_base, mapo_tyre_lane]
+location_notes:
+  mapo_tyre_base: "Ch 33 tyre-shop compound, use that layout when available. Open workshop bay and broad forecourt for Orrin; scarred worktable, tyre racks, task lamp, crew rules on wall. Clear a 2 m open floor area just inside the raised shutter for the cyan summon circle; broad side passage remains open. No finished key at drafting. Not Taeo's Ryu-yard container home."
+  mapo_tyre_lane: "No separate key; lane immediately outside the compound's forecourt gate. Low workshops and brick villas, one streetlamp, ordinary evening pedestrian flow, distant plain bus-stop shape. Keep it attached to the same open forecourt; no teleport to a festival."
+props:
+  boots: "Exact ch 43 pair, confirmed at final check: matte dark-brown ankle-high leather lace-ups, broad round toes, four dull gunmetal round eyelet pairs, dark-brown round laces double-knotted small, black low-heeled lug soles and heel pull tabs; oat-grey short socks inside collars. No visible steel cap, hooks, buckles, logo, bright trim or metal plate. Same pair, overrides barefoot sheet."
+  kesh_wand: "Small plain unlit signal wand, dark wood with a forked dull-metal head, held in RIGHT hand initially; a craft tool, not a glowing combat staff. Match details sheet."
+  recordings: "Haein's ordinary grey field recorder holds the real warning and later repeated transmissions from ch 63–64; physical playback through its speaker. No magical live hearing across hundreds of kilometres."
+palette_notes: "A4 workshop extension: warm task-lamp brown/ochre, blue-grey evening shadow. Summon alone replaces this with cyan #3FE3F2/deep navy #0B1530. Lane sodium peach and blue-grey, never link amber. Kesh grey-brown/olive model colours remain muted; no glitter. His eventual link colour reserved here as pale lilac #B7A0D3, NOT activated in this chapter."
+panels:
+  - id: P01
+    shape: strip
+    gap: none
+    bg: navy
+    camera: "extreme close on Taeo's empty left palm, private window light falling across it"
+    art: >
+      mapo_tyre_base, immediately after ch 64: taeo's LEFT palm is empty, the last cyan ring
+      fading, navy cuff at the wrist and old recoil bruise farther up. Two empty sample
+      compartments below. Hard cyan from the completion window off frame, deep navy shadows,
+      warm task lamp at edge. No reed iron, written numerals, amber link or scar from integration.
+    calm: top
+    lines:
+      - {who: taeo, type: speech, side: l, text: "SORRY. I DON'T KNOW IF IT LETS ME ASK FOR A SPECIALITY."}
+  - id: P02
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "across the sample table toward Sera putting her bow aside"
+    art: >
+      sera, default at mapo_tyre_base, lays her LEFT-hand bow flat away from the cleared floor,
+      keeping the string undrawn, then looks at taeo with one level brow. Bone flute on RIGHT
+      hip, quiver RIGHT shoulder, braid over river-green tunic. Cyan private-window key on
+      her face, brown worktable with navy shadows. No nocked arrow, candidate menu or magical selection wheel.
+    calm: top
+    lines:
+      - {who: sera, type: speech, side: r, text: "THEN ASK A PERSON. THEY CAN TELL YOU WHAT THEY DO."}
+  - id: P03
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close three-quarter on Nib beside the open side passage"
+    art: >
+      nib, adult default with binoculars at mapo_tyre_base, moves a stool out of the broad
+      side passage. V-notch LEFT ear, one lower LEFT fang, brown belt, RIGHT pouch and LEFT
+      wooden sheath all retained; chosen boots planted square. His expression is dry and
+      certain. Warm task lamp returns at frame edge, cool blue-grey shadow. No locked door or cute face.
+    calm: right
+    lines:
+      - {who: nib, type: speech, side: l, text: "AND DON'T STAND IN THE DOOR."}
+  - id: P04
+    shape: wide
+    gap: short
+    bg: white
+    camera: "high diagonal down on the crew clearing a circle of floor"
+    art: >
+      mapo_tyre_base: taeo in navy jacket and haein in slate overalls move chairs clear of an
+      open patch of concrete inside the shutter; sejin slides a folded mat within reach but
+      outside it. orrin watches from broad forecourt, no blocked exit. Everyone acts like
+      hosts preparing for an adult guest. Warm lamp, brown/ochre and blue-grey. No cyan floor
+      circle yet, chalk ritual, restraints or obvious medical emergency.
+    calm: none
+    silent: true
+  - id: P05
+    kind: title
+    gap: long
+    bg: white
+    title_text: "CHAPTER 65 · A FESTIVAL SO LOUD"
+  - id: P06
+    shape: tall
+    gap: long
+    bg: navy
+    camera: "over Taeo's right shoulder into clear air above the table"
+    art: >
+      taeo, navy jacket/black hood at mapo_tyre_base, lifts his RIGHT fingertip toward empty
+      upper air reserved for the contact window. His face in profile is determined and wary.
+      nib and sera beyond keep their eyes on him, not his invisible UI. Cyan key, deep navy
+      surround, task lamp as small warm edge. No generated letters, portrait slot filled with
+      Kesh early, physical monitor or candidate shopping list.
+    calm: top
+    ui:
+      - {kind: system.window, on: float, headline: "[CONTACT WINDOW 5 OPEN]", body: "[INVITATION ONLY]\n[ROUTE ALIGNMENT 0%]", button: "[SEND INVITATION?]", at: [0.5, 0.07], tilt: -6}
+    sfx:
+      - {text: "DING", style: summon, at: [0.86, 0.12], size: M, rot: 0}
+    notes: "Window 5 opens and meter resets. No skill-selection mechanic introduced. Invitation may be refused or time out."
+  - id: P07
+    shape: strip
+    gap: short
+    bg: navy
+    camera: "macro side view of Taeo's finger pressing the invitation plane"
+    art: >
+      mapo_tyre_base, taeo's RIGHT index presses a small cyan plane while his other fingers
+      curl naturally, navy cuff visible. At the back of frame the clear side passage stays
+      open. Interface cyan hard key, deep navy and faint warm concrete edge. No written
+      button, blood, amber pressure pulse, drawn glyphs or physical summon before consent.
+    calm: none
+    sfx:
+      - {text: "TAP", style: quiet, at: [0.71, 0.58], size: S, rot: 0}
+  - id: P08
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "front on Taeo speaking toward the empty air, crew behind him"
+    art: >
+      taeo, outdoors at mapo_tyre_base, speaks with hands open and shoulders held politely
+      straight, trying not to sound like a recruitment advert. sera stands back, river-green
+      and attentive, while nib rests one hand on the moved stool. Cyan contact key with
+      navy shadows, lamp-brown floor. No visible addressee, face in a screen or public UI.
+    calm: top
+    lines:
+      - {who: taeo, type: speech, side: l, text: "HELLO. I'M YOON TAEO. WE'RE LOOKING FOR SOMEONE WHO KNOWS RIVER SIGNALS."}
+      - {who: taeo, type: speech, side: l, text: "YOU CAN SAY NO."}
+  - id: P09
+    shape: inset-r
+    gap: long
+    bg: navy
+    camera: "close on Taeo listening, his mouth half open after the greeting"
+    art: >
+      taeo at mapo_tyre_base, navy collar/black hood, waits with raised brows and a small
+      awkward smile, single mole under RIGHT eye. His hand lowers to leave space for an
+      answer. Cyan from upper left, deep navy background. No countdown clock, visible
+      silhouette, telepathic glow in his palm or moving lips for the other voice.
+    calm: left
+    lines:
+      - {who: kesh, type: phone, side: r, text: "RIVER SIGNALS? OH. WHICH RIVER? WHO LOST THE LINE?"}
+    notes: "Kesh's unseen voice is heard through the contact channel, hence phone. Delighted curiosity before arrival, not a command response."
+  - id: P10
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "profile two-shot, Taeo repeating Sera's information toward the channel"
+    art: >
+      At mapo_tyre_base, sera points at the Chungju survey still's nonalphabetic stone
+      grooves; taeo, navy jacket, turns between her and the empty air, careful not to
+      embellish. The paper is on a table, no projected map. Cyan key/navy shadows and
+      muted river-green cloth. No deep-river route, proof of Ilan or generated inscription.
+    calm: top
+    lines:
+      - {who: sera, type: speech, side: r, text: "STONE CEILING. OLD POSTS. A WARNING KEEPS COMING BACK."}
+      - {who: taeo, type: speech, side: l, text: "WE DON'T KNOW WHY. WE NEED SOMEONE TO HELP US LISTEN."}
+  - id: P11
+    shape: strip
+    gap: short
+    bg: navy
+    camera: "close on Sera's right hand stopping over her bone flute"
+    art: >
+      sera at mapo_tyre_base, RIGHT hand lightly closes around the bone flute at her
+      RIGHT hip, without lifting it. Brown belt and muted river-green wrap fill the
+      middle third. Her fingers are tense, not performing. Cyan channel light from
+      above, navy shadow; no sound swirls, active link, written music or tattoo marks.
+    calm: top
+    lines:
+      - {who: kesh, type: phone, side: l, text: "YOU HAVE ACTUAL PEOPLE TO LISTEN TO IT?"}
+      - {who: sera, type: speech, side: r, text: "VERY ACTUAL. MOSTLY IMPATIENT."}
+  - id: P12
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level with Nib as he quietly sets a cup beside Taeo"
+    art: >
+      nib, default and boots at mapo_tyre_base, sets a plain water cup beside taeo's elbow,
+      binoculars high and strap knot LEFT. He keeps his adult face still as the distant
+      voice answers. taeo, navy jacket, looks down, then speaks honestly toward the channel.
+      Cyan hard key and warm lamp margin, no visible candidate, promise of an exit portal
+      or ready-made route home.
+    calm: top
+    lines:
+      - {who: taeo, type: speech, side: l, text: "THERE'S PAY FOR WORK. AND YOU CAN LEAVE THE WORK."}
+      - {who: taeo, type: speech, side: l, text: "BUT WE HAVEN'T FOUND A ROUTE BACK TO YOUR WORLD."}
+  - id: P13
+    shape: inset-l
+    gap: long
+    bg: navy
+    camera: "close on Nib listening to the silence after that admission"
+    art: >
+      nib at mapo_tyre_base, adult weathered face, amber eyes down, one hand on his
+      black binocular hinge where Kett's tiny three-line fork is scratched. V-notch
+      LEFT ear and pinkish-tan wrap catch the cyan edge. The other side is deep navy.
+      No translucent flashback, cute expression, otherworldly voice written in art
+      or active amber link.
+    calm: none
+    silent: true
+  - id: P14
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "slightly high across the table, the open passage framing Taeo"
+    art: >
+      At mapo_tyre_base taeo, navy jacket, waits rather than filling the silence. The
+      broad side passage lies plainly open behind him, crew held back from it.
+      haein's slate-overall shoulder at right, sera's river-green at left. Cyan key,
+      navy floor shadows, warm task lamp beyond. No candidate window portrait,
+      cosmic landscape, route guarantee or overlaid symbols in art.
+    calm: top
+    lines:
+      - {who: kesh, type: phone, side: r, text: "I HAVE A CRAFT AND NOBODY TO TEACH IT TO."}
+      - {who: kesh, type: phone, side: r, text: "PERHAPS YOUR IMPATIENT PEOPLE WOULD LIKE TO LEARN."}
+  - id: P15
+    shape: inset-r
+    gap: short
+    bg: navy
+    camera: "close front on Haein leaning into the conversation"
+    art: >
+      haein, slate-blue overalls/beige tee at mapo_tyre_base, leans forward before
+      catching herself and waiting at the circle's edge. Clear glasses on crown,
+      blunt bob, eyes bright with professional interest. Cyan key, navy background,
+      tool belt at bottom. No newly functioning reservoir, electric sparks or
+      private interface reflected as words in her glasses.
+    calm: left
+    lines:
+      - {who: haein, type: speech, side: r, text: "ONE OF US BUILDS RADIOS."}
+      - {who: kesh, type: phone, side: l, text: "EXCELLENT. I CAN ASK WHAT THAT IS WHEN I GET THERE."}
+  - id: P16
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "three-quarter on Taeo giving the final choice room to stand"
+    art: >
+      taeo, navy jacket at mapo_tyre_base, straightens with a nervous half-smile and
+      open empty hands. nib and sera leave him physically clear; sejin in sage scrubs
+      waits beside the folded mat. Cyan contact light and navy shadows, brown task-lamp
+      edge. No coercive pointing, tether, summoned body or acceptance shown in generated art.
+    calm: top
+    lines:
+      - {who: taeo, type: speech, side: l, text: "THEN I'M ASKING. WOULD YOU LIKE TO COME?"}
+      - {who: kesh, type: phone, side: r, text: "YES. I'M KESH. PLEASE DON'T PUT THE KETTLE ON MY WINGS."}
+  - id: P17
+    shape: tall
+    gap: long
+    bg: navy
+    camera: "over Taeo's shoulder, accepted notice above the clear concrete floor"
+    art: >
+      mapo_tyre_base: taeo's navy shoulder in lower LEFT, his startled adult smile in
+      profile; upper air empty for the accepted notice. A hard-edged cyan circle
+      begins spreading across the previously cleared concrete, no person inside yet.
+      nib's purchased boots remain outside the ring. Cyan/navy dominates, lamp warmth
+      compressed to edge. No sparkles, glyphs, binding chain or physical portal to Chungju.
+    calm: top
+    ui:
+      - {kind: system.notice, on: float, text: "[INVITATION: ACCEPTED]", at: [0.5, 0.08], tilt: -5}
+    sfx:
+      - {text: "DING", style: summon, at: [0.85, 0.12], size: M, rot: 0}
+    notes: "PAYOFF P11: three new river kinds enabled a willing adult signal keeper's invitation; no repeated-kind farming. Acceptance is Kesh's choice, not a skill draw purchase."
+  - id: P18
+    shape: full
+    gap: short
+    bg: navy
+    camera: "high angle onto the cleared circle, seam rising between the crew"
+    art: >
+      At mapo_tyre_base a thin vertical seam rises from the hard cyan floor circle,
+      identical to earlier arrivals. taeo, navy jacket, steps back; sera's LEFT bow
+      remains safely on the table; orrin watches from open forecourt, calm adult eyes.
+      Cyan light casts clean hard shadows across concrete and tyre racks. No shower
+      of particles, materialisation, summoning runes in art or person grabbed through.
+    calm: top
+    sfx:
+      - {text: "SHIIING", style: summon, at: [0.78, 0.31], size: L, rot: 90}
+  - id: P19
+    shape: tall
+    gap: short
+    bg: navy
+    camera: "low from beside the mat, a wrapped shoe stepping through the seam"
+    art: >
+      kesh steps physically through the seam at mapo_tyre_base: first a narrow leg
+      in dark trousers and wrapped shoe, then a very tall slight adult silhouette
+      with four folded grey-brown wing panels draped like a cloak and two feathered
+      antennae. His RIGHT hand holds an unlit signal wand. Cyan backlight, deep navy
+      hard shadow. No extra limbs, glitter, eye spots, mandibles or flying infant shape.
+    calm: none
+    silent: true
+  - id: P20
+    shape: full
+    gap: short
+    bg: white
+    camera: "low frontal adult introduction, Kesh to the right of centre"
+    art: >
+      kesh's full first appearance at mapo_tyre_base: adult male moth-like signal keeper,
+      198 cm, very tall and slight, narrow mature grey-tan face, wispy grey-brown head
+      fur, large near-black eyes with no white sclera, heavy lids, small expressive mouth.
+      TWO feathered antennae, FOUR muted grey-brown wing panels folded cloak-like with simple
+      diagonal bands/no eye spots; olive sleeveless knee tunic, cloth sash, dark narrow
+      trousers, wrapped shoes, two arms/two legs, delicate five-finger hands. Unlit wand
+      RIGHT. He leans eagerly forward, antennae spread, dazzled by ordinary human company.
+      Warm lamp returns under fading cyan seam. Keep lower LEFT plain concrete for intro;
+      no plush proportions, glow, extra limbs, floating UI or readable signs.
+    calm: bottom
+    intro: "KESH · ARRIVAL · SIGNAL KEEPER"
+    lines:
+      - {who: kesh, type: speech, side: r, text: "OH. YOU'RE ALL DIFFERENT!"}
+  - id: P21
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level across Kesh's suddenly overwhelmed delighted face"
+    art: >
+      BIG REACTION at mapo_tyre_base: kesh, exact adult tunic/wing model, turns toward
+      laughter from the lane, antennae quivering, huge dark eyes bright and mouth
+      open in ecstatic disbelief. His long knees start to buckle; the emotion is
+      joy crossing into sensory strain, not injury. Warm lamp/blue-grey evening,
+      muted olive and grey-brown. No chibi, pain sparkle or antenna beams.
+    calm: top
+    lines:
+      - {who: kesh, type: shout, side: r, text: "SO MANY PEOPLE! SO LOUD!"}
+      - {who: kesh, type: speech, side: r, text: "I LOVE IT!"}
+      - {who: kesh, type: nervous, side: r, text: "I NEED TO LIE DOWN!"}
+  - id: P22
+    shape: strip
+    gap: none
+    bg: white
+    camera: "close side view of Sejin's open palm stopping short of Kesh's forearm"
+    art: >
+      At mapo_tyre_base sejin's bare adult hand stops beside kesh's grey-tan forearm,
+      asking before touching; his delicate LEFT five-finger hand reaches to accept
+      it. Sage sleeve, olive tunic, folded grey-brown wing kept separate from arms.
+      Warm task-lamp key, cool shadow. No grab at antennae, forced sedation, blood
+      or merged fingers.
+    calm: top
+    lines:
+      - {who: sejin, type: speech, side: l, text: "ARM?"}
+      - {who: kesh, type: speech, side: r, text: "YES. THANK YOU. WINGS ARE NOT HANDLES."}
+  - id: P23
+    shape: wide
+    gap: short
+    bg: white
+    camera: "high diagonal as Kesh sits on the mat with his own folded wings clear"
+    art: >
+      kesh at mapo_tyre_base lowers himself onto the mat with sejin's offered support,
+      then leans back on a rolled blanket; all four folded wing panels lie uncrushed
+      beside and behind him, unlit wand placed safely RIGHT. taeo crouches at arm's
+      length, worried and attentive, navy jacket open. Warm lamp, ochre/brown floor
+      with blue-grey shadow. No dramatic collapse, cute cocoon, straps or touch to antennae.
+    calm: top
+    lines:
+      - {who: taeo, type: nervous, side: l, text: "SORRY. WE CAN MAKE IT QUIETER."}
+      - {who: kesh, type: speech, side: r, text: "A LITTLE QUIETER. NOT EMPTY."}
+  - id: P24
+    shape: inset-r
+    gap: long
+    bg: white
+    camera: "close three-quarter on Kesh resting while listening to ordinary talk"
+    art: >
+      kesh, adult model at mapo_tyre_base, rests half-reclined with mature narrow face
+      turned toward the crew's low conversation. His heavy lids relax, small mouth
+      curves upward, two antennae lower without going limp. Olive tunic and muted
+      grey-brown wings, warm task lamp from left, blue-grey shadow. No otherworld
+      flashback, baby pose, glowing eyes or active signal effects.
+    calm: none
+    silent: true
+  - id: P25
+    shape: wide
+    gap: short
+    bg: white
+    camera: "mat height, Nib offering water to the seated adult keeper"
+    art: >
+      nib, adult default and boots at mapo_tyre_base, offers a plain water cup to
+      kesh without putting it in his hand. Their differing adult proportions remain
+      clear even seated: weathered 105 cm scout and tall slight 198 cm keeper.
+      LEFT notch, binocular knot and belt props exact. Warm lamp key, blue-grey
+      shadow, no mascot staging or straps around either partner.
+    calm: top
+    lines:
+      - {who: nib, type: speech, side: l, text: "WATER."}
+      - {who: kesh, type: speech, side: r, text: "DO YOU DRINK FIRST OR DO I?"}
+      - {who: nib, type: speech, side: l, text: "HE DOES."}
+  - id: P26
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on Taeo drinking while Kesh watches off frame"
+    art: >
+      taeo at mapo_tyre_base, navy jacket/black hood, takes a deliberate sip from the
+      offered cup and lowers it, eyebrows raised in dry resignation. Single mole
+      under RIGHT eye, five fingers around cup handle. Warm task lamp and muted
+      brown shelving, blue-grey shadow. No second mysterious drink, active interface
+      or comic scalding.
+    calm: right
+    lines:
+      - {who: taeo, type: speech, side: l, text: "MY MOST CONSISTENT QUALIFICATION."}
+  - id: P27
+    shape: strip
+    gap: short
+    bg: white
+    camera: "extreme close on two sets of hands passing the cup without gripping each other"
+    art: >
+      mapo_tyre_base: taeo's human hand transfers the plain water cup to kesh's
+      delicate grey-tan five-finger hand, accepted by the handle. His unlit wand
+      lies well away to the RIGHT. Warm work lamp, muted brown mat and blue-grey
+      shadow. No link pulse, tether, order seal, glowing liquid or extra insect limbs.
+    calm: none
+    silent: true
+  - id: P28
+    shape: wide
+    gap: short
+    bg: white
+    style: chibi
+    camera: "chibi side tableau of Kesh's antennae meeting a hanging work rag"
+    art: >
+      Harmless comedy at mapo_tyre_base reduced to flat beige/screentone and one
+      task-lamp cel shadow. Chibi kesh, 2.5 heads, olive tunic/four wing panels/two
+      feathered antennae, finds a hanging clean rag brushing his antenna tip;
+      chibi taeo in navy jacket solemnly raises the rag pole. Chibi nib in boots,
+      binoculars and full locks measures the new clearance with his gaze. No distress
+      medical gag, bright moth lure, fire, baby wings or extra arms.
+    calm: top
+    lines:
+      - {who: kesh, type: speech, side: r, text: "YOUR CEILINGS HAVE OPINIONS."}
+      - {who: nib, type: speech, side: l, text: "ORRIN OBJECTED FIRST."}
+  - id: P29
+    shape: wide
+    gap: short
+    bg: white
+    camera: "normal medium at seated eye level, Kesh and Orrin across the forecourt edge"
+    art: >
+      Normal adult style at mapo_tyre_base. orrin, stacked-slate shell and old pale
+      seam, rests beside the open shutter; kesh sits on the mat, folded wings clear,
+      giving him an eager conspiratorial lean. Both faces show dry recognition of
+      poorly sized buildings. Warm work lamp, brown floor, blue-grey forecourt.
+      No saddle, petting, tiny mascot Orrin or magical voice effects.
+    calm: top
+    lines:
+      - {who: orrin, type: speech, side: l, text: "DOORWAYS ARE MOSTLY A LOCAL MISUNDERSTANDING."}
+      - {who: kesh, type: speech, side: r, text: "GOOD. I'D HATE TO HAVE ARRIVED BADLY SHAPED."}
+  - id: P30
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Sejin checking Kesh's agreement before moving the mat"
+    art: >
+      sejin, sage scrubs/olive rig at mapo_tyre_base, kneels beside kesh's mat with
+      one raised brow and no instrument pressed onto him. kesh, adult tunic and
+      four folded wings, points LEFT toward a quieter wall himself. Warm task lamp,
+      muted olive/grey-brown and blue-grey shadow. No diagnosis by species, restraints,
+      unexplained cure or antenna examination without permission.
+    calm: left
+    lines:
+      - {who: sejin, type: speech, side: l, text: "THAT CORNER QUIETER?"}
+      - {who: kesh, type: speech, side: r, text: "YES. I STILL WANT TO HEAR THE LAUGHING."}
+  - id: P31
+    shape: wide
+    gap: short
+    bg: white
+    camera: "table height, Kesh's wand beside Haein's unopened relay case"
+    art: >
+      At mapo_tyre_base haein, slate overalls and glasses on crown, sets an unopened
+      grey relay case on the table opposite kesh's plain unlit signal wand. kesh,
+      seated upright now in olive tunic, tilts his mature head with professional
+      curiosity. Four folded wing panels hang behind the chair. Warm lamp key,
+      brown tabletop and slate shadow. No powered test, prebuilt new device or glowing staff.
+    calm: top
+    lines:
+      - {who: haein, type: speech, side: l, text: "OPEN IT? NO POWER YET."}
+      - {who: kesh, type: speech, side: r, text: "PLEASE. I LIKE MY FIRST MISTAKES QUIET."}
+  - id: P32
+    shape: strip
+    gap: short
+    bg: white
+    camera: "macro overhead, Kesh tracing a cable path without altering it"
+    art: >
+      At mapo_tyre_base kesh's delicate RIGHT five-finger hand follows the insulated
+      path inside the open unpowered relay, fingertip hovering above a connector;
+      haein's separate hand holds the lid. Olive sash and slate sleeve edges,
+      warm lamp over grey circuitry, brown wood and cool shadow. No sparks, glowing
+      symbols, rewritten radio, supernatural calibration or antenna reaching into electronics.
+    calm: none
+    silent: true
+  - id: P33
+    shape: wide
+    gap: short
+    bg: white
+    camera: "three-quarter as Sera puts a folded pay sheet between herself and Taeo"
+    art: >
+      sera, river-green outfit at mapo_tyre_base, places a blank work sheet by
+      kesh's elbow rather than signing for him. taeo, navy jacket, leans back to
+      let them speak. Kesh watches her with eager adult attention, wings clear
+      of table. Warm task lamp, paper tan, brown/slate shadows. No readable contract,
+      ownership registration, glowing bond or instant work assignment.
+    calm: top
+    lines:
+      - {who: sera, type: speech, side: l, text: "DISCUSS PAY BEFORE YOU FALL IN LOVE WITH HIS BROKEN EQUIPMENT."}
+      - {who: kesh, type: speech, side: r, text: "I HAVEN'T EVEN HEARD IT COMPLAIN YET."}
+  - id: P34
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on Taeo accepting Sera's correction"
+    art: >
+      taeo at mapo_tyre_base, navy jacket open over black hoodie, holds a pencil
+      but leaves the work sheet between the adults. His smile is sheepish and
+      receptive, RIGHT-eye mole visible. Warm task lamp left, blue-grey shadow
+      against simplified tyre rack. No proud recruitment pose, signed amount,
+      private interface or patronising hand on Kesh.
+    calm: right
+    lines:
+      - {who: taeo, type: speech, side: l, text: "SORRY. YES. NOTHING STARTS TONIGHT UNLESS YOU WANT IT TO."}
+  - id: P35
+    shape: full
+    gap: long
+    bg: white
+    camera: "wide from the open forecourt toward neighbours pausing at the lane gate"
+    art: >
+      mapo_tyre_lane at the base entrance: eight to twelve ordinary neighbours and
+      returning workers pause, leaving a clear route, curious about the very tall
+      adult with folded wings. kesh, olive tunic and wrapped shoes, stands beside
+      sera at the open forecourt gate; her bow is stowed back in the workshop.
+      One streetlamp gives peach light, blue-grey buildings and muted cloth.
+      No festival decorations, mob, pointed phones, readable shops or celebrity stage.
+    calm: top
+    lines:
+      - {who: kesh, type: speech, side: r, text: "IS THIS A FESTIVAL?"}
+      - {who: sera, type: speech, side: l, text: "NO ADMISSION FEE. IT'S JUST PEOPLE GOING HOME."}
+  - id: P36
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close low on Kesh turning toward layered ordinary street sounds"
+    art: >
+      kesh, exact mature moth-like design at mapo_tyre_lane, turns toward unseen
+      conversation with two antennae lifted and dark eyes wide; his small mouth
+      holds a delighted open smile. Four grey-brown wing panels folded, olive
+      tunic, no glow. Streetlamp peach side key, blue-grey lane shadow. No music
+      aura, remote Chungju hearing, butterfly glitter or extra limbs.
+    calm: left
+    lines:
+      - {who: kesh, type: whisper, side: r, text: "THEY ALL HAVE SOMEWHERE TO TELL SOMEONE ABOUT THEIR DAY."}
+  - id: P37
+    shape: wide
+    gap: short
+    bg: white
+    camera: "profile three-shot, Kesh talking too quickly while Taeo offers a chair"
+    art: >
+      At mapo_tyre_base forecourt beside the lane gate, kesh, adult olive tunic,
+      leans toward two neighbours gossiping without invading their space; his
+      thin knees tremble and he presses one hand to the offered chair back.
+      taeo, navy jacket, slides the chair into reach; sera smiles with recognition.
+      Peach streetlamp and warm workshop lamp, blue-grey shadow. No dangerous faint,
+      forced touch, screaming crowd or portal effects.
+    calm: top
+    lines:
+      - {who: kesh, type: speech, side: r, text: "WHO DISAGREED WITH WHOM? NO, DON'T SUMMARISE. I'VE ONLY JUST GOT HERE."}
+      - {who: taeo, type: speech, side: l, text: "YOU CAN HEAR THE REST SITTING DOWN."}
+  - id: P38
+    shape: wide
+    gap: short
+    bg: white
+    style: chibi
+    camera: "chibi view, Kesh sitting with antennae still turned toward gossip"
+    art: >
+      Harmless comedy at mapo_tyre_base forecourt, flat peach/blue-grey screentone
+      and one streetlamp-side shadow. Chibi kesh, olive tunic/four folded wings/
+      two antennae, sits obediently while both antennae comically lean toward
+      chibi neighbours swapping gossip. Chibi taeo, navy jacket, holds a tiny
+      blanket with an exhausted line-mouth. No pain, sedation, moth-to-flame gag or extra antennae.
+    calm: top
+    lines:
+      - {who: kesh, type: speech, side: r, text: "MY LEGS HAVE RESIGNED. MY EARS HAVE NOT."}
+      - {who: taeo, type: speech, side: l, text: "THEY CAN NEGOTIATE AFTER WATER."}
+  - id: P39
+    shape: vignette
+    gap: long
+    bg: white
+    camera: "normal rear view of Kesh in the chair among people leaving room around him"
+    art: >
+      mapo_tyre_base forecourt: kesh sits upright, long folded grey-brown wings
+      hanging clear behind the chair, neighbours now seated nearby at a respectful
+      distance. He listens, mature face softened by uncomplicated happiness; the
+      open lane gate remains in view. Warm workshop lamp and peach streetlamp,
+      muted brown/olive with blue-grey shadows. No fantasy festival or narrator illustration.
+    calm: none
+    silent: true
+  - id: P40
+    shape: wide
+    gap: short
+    bg: white
+    camera: "seated eye level, Sera asking Kesh across the forecourt"
+    art: >
+      sera, default with RIGHT-hip bone flute at mapo_tyre_base, sits across from
+      kesh, exact adult model and folded wings, after the neighbours move on.
+      She rests one finger on her flute while he cradles the empty cup, antennae
+      relaxed. Both are curious, unguarded. Warm lamp from shutter, blue-grey
+      evening, no paid performance, sky gate or active link.
+    calm: top
+    lines:
+      - {who: sera, type: speech, side: l, text: "WHAT DO YOU WANT, WHEN THE JOB'S DONE?"}
+      - {who: kesh, type: speech, side: r, text: "A FESTIVAL SO LOUD BOTH WORLDS HEAR IT."}
+    notes: "Kesh's dream, exact beat line. Aspirational, not proof sound currently crosses worlds unaided."
+  - id: P41
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close three-quarter on Kesh's mature face as the joke turns earnest"
+    art: >
+      kesh at mapo_tyre_base, grey-tan narrow mature face, two feathered antennae
+      and dark heavy-lidded eyes, smiles at a thought bigger than his tired body.
+      Olive collar, muted grey-brown wings behind; five-finger hand around cup.
+      Warm lamp key, blue-grey background. No glitter, dewy child eyes, sound
+      bridge literally joining worlds or imaginary apprentice drawn in.
+    calm: right
+    lines:
+      - {who: kesh, type: speech, side: l, text: "AND SOMEONE WHO CAN TAKE THE NEXT SHIFT."}
+  - id: P42
+    shape: strip
+    gap: short
+    bg: white
+    camera: "close overhead as Nib sets Kesh's wand within his reach"
+    art: >
+      At mapo_tyre_base nib's adult scarred hand sets the unlit signal wand on
+      the chair's RIGHT side within kesh's reach; kesh's long five-finger hand
+      relaxes beside it. Brown wooden sheath at Nib's LEFT hip visible at edge,
+      binocular hinge above. Warm task-lamp pool, muted wood/olive and cool
+      shadow. No gift of ownership, binding thread, active link colour or readable mark added.
+    calm: none
+    silent: true
+  - id: P43
+    shape: wide
+    gap: long
+    bg: white
+    camera: "inside the bay, Haein setting the recorder beside the Chungju map"
+    art: >
+      mapo_tyre_base worktable again: haein, slate overalls/beige tee, sets an
+      ordinary grey recorder beside the survey map and sealed recording card.
+      kesh sits at its RIGHT with wings clear, taeo at LEFT, nib on low crate,
+      sera standing back. Warm task lamp, brown wood and blue-grey night.
+      Recorder has physical buttons and dark display; no visible UI, powered relay tests or new expedition.
+    calm: top
+    lines:
+      - {who: haein, type: speech, side: l, text: "ONLY IF YOU WANT. ONE RECORDING, LOW VOLUME."}
+      - {who: kesh, type: speech, side: r, text: "ONE. I'D LIKE TO KNOW WHO WE'RE LISTENING FOR."}
+  - id: P44
+    shape: strip
+    gap: short
+    bg: white
+    camera: "macro on Haein's finger pressing physical play"
+    art: >
+      mapo_tyre_base, haein's clean five-finger hand presses the recorder's
+      ordinary round physical play key, no lit screen. kesh's unlit wand rests
+      parallel at RIGHT, map with blank shapes beyond. Warm task lamp over
+      grey plastic and brown wood, cool shadow. No time readouts, waveform,
+      magic entering the antennae or generated words.
+    calm: top
+    lines:
+      - {who: meridian_lead, type: phone, side: l, text: "UPSTREAM TEAM: ROCKFALL AT MARKER 9, HOLD POSITION."}
+    notes: "PLANT P15: playback of the actual saved transmission, not a new spontaneous broadcast in Seoul. Same sentence and voice as ch 63–64."
+  - id: P45
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Kesh, antennae turning as his smile fades into concentration"
+    art: >
+      kesh, exact adult olive tunic and grey-brown folded wings at mapo_tyre_base,
+      tilts his head toward the recorder. The two antennae turn asymmetrically
+      toward the small speaker, dark eyes narrow, mouth closes. Warm lamp key
+      from left, blue-grey background. No pain gag, glowing feelers, loop map,
+      time travel imagery or remote live reception.
+    calm: left
+    silent: true
+  - id: P46
+    shape: wide
+    gap: short
+    bg: white
+    camera: "across the table, Taeo offering context while Kesh watches the recorder"
+    art: >
+      taeo, navy jacket at mapo_tyre_base, points to the recording card, not to
+      a solved map; he looks embarrassed about having no explanation. kesh at
+      RIGHT listens with focused mature eyes, wand untouched. sera's green
+      shoulder beyond. Warm task lamp, brown/slate palette. No radio broadcasting
+      through a city wall, interface verdict or new pulse test.
+    calm: top
+    lines:
+      - {who: taeo, type: speech, side: l, text: "SHE WAS STANDING BESIDE US WHEN THAT CAME THROUGH."}
+      - {who: taeo, type: speech, side: l, text: "SHE SAYS SHE DIDN'T SEND IT."}
+      - {who: kesh, type: speech, side: r, text: "MAY I HEAR THE OTHER ONE?"}
+  - id: P47
+    shape: strip
+    gap: short
+    bg: white
+    camera: "top-down, Kesh's left fingertip tracing from the recorder toward the map edge"
+    art: >
+      At mapo_tyre_base kesh's LEFT five-finger hand rests beside the recorder,
+      then traces the paper route toward the Chungju inset map's blank heading
+      field. His RIGHT hand remains by the unlit wand. Warm lamp, paper tan,
+      muted grey/brown; the map contains shapes only. No pulse beam travelling
+      kilometres, calculated equal intervals or written explanation in art.
+    calm: none
+    ui:
+      - {kind: label, text: "CHUNGJU · RIVER SURVEY", at: [0.70, 0.28], notes: "On map's blank heading, not generated text."}
+    silent: true
+  - id: P48
+    shape: wide
+    gap: short
+    bg: white
+    camera: "side view, Haein stopping playback before Kesh's request"
+    art: >
+      haein, slate overalls at mapo_tyre_base, stops the recorder with one
+      physical key after a second saved clip; kesh's two antennae remain
+      turned toward the Chungju map, head lifted in recognition but not certainty.
+      taeo watches his face, hands still. Warm lamp from above, blue-grey
+      night shadows, no active interface, complete solution, mirrored person or monster.
+    calm: top
+    lines:
+      - {who: haein, type: speech, side: l, text: "THAT'S ENOUGH FOR TONIGHT."}
+      - {who: kesh, type: whisper, side: r, text: "THAT'S NOT QUITE ALL OF IT, IS IT?"}
+  - id: P49
+    shape: tall
+    gap: long
+    bg: black
+    camera: "low across the Chungju map toward Kesh's listening profile"
+    art: >
+      THE HOOK at mapo_tyre_base. Foreground: Chungju paper map, the small
+      grey recorder now paused, unlit signal wand at RIGHT. kesh's narrow
+      adult face rises above it, dark eyes intent, TWO feathered antennae
+      twitching toward the river position on the map; folded grey-brown wings
+      form a calm silhouette, olive tunic at bottom. taeo's navy sleeve at
+      LEFT edge. Warm lamp cone and deep blue-grey shadows, ample plain top.
+      No magic ray, live sound from kilometres away, predator or solved loop.
+    calm: top
+    lines:
+      - {who: kesh, type: speech, side: r, text: "SOMEONE DOWN THERE IS REPEATING HIMSELF."}
+    notes: "PLANT P15. Hook is Kesh's inference from saved river audio and its mapped origin. Do not identify the delay mechanism, prove a sender, or pre-empt ch 67's timing observation. Kesh has not linked or undertaken field work."
+  - id: P50
+    kind: end
+    gap: long
+    bg: white
+    end_text: "TO BE CONTINUED"
+    next: "NEXT · CHAPTER 66 · STYLES"
+    chibi_gag: "Chibi Kesh asks for a whispering festival. Chibi Sera enthusiastically mimes applause while chibi Nib, boots/binoculars and all locks intact, holds up one stern finger. Chibi Orrin slowly turns his huge head to listen; Kesh is delighted that even silence has spectators."

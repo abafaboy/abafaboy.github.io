@@ -59,7 +59,7 @@ panels:
       Cyan light from the shard and from above; deep blue-grey everywhere else. Hard cel shadows, no glow fog. No text.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "IT HADN'T SAID A WORD SINCE THE NIGHT HE CAME."}
+      - {who: "taeo", type: "float", text: "THE INTERFACE HAD BEEN QUIET SINCE NIB ARRIVED."}
     ui:
       - {kind: system.notice, on: float, text: "[ANCHOR FRAGMENT DETECTED]", at: [0.5, 0.10]}
     sfx:
@@ -77,7 +77,7 @@ panels:
       ACTING: wary, low and steady. Cyan light from the shard below catches his jaw; blue-grey beyond. Never cute. No text.
     calm: right
     lines:
-      - {who: nib, type: speech, side: l, text: "WHAT DOES IT SAY?"}
+      - {who: "nib", type: "speech", side: "c", text: "WHAT DOES YOUR INTERFACE SAY?"}
     notes: "Echo of ch 2's hook ('WHAT DOES IT SAY?' / '...IT SAYS I HAVE THREE DAYS.')."
 
   - id: P04
@@ -92,7 +92,7 @@ panels:
       The dark room behind him simplified to blue-grey shapes. No text.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: c, text: "...IT SAYS IT KNOWS WHAT THAT IS."}
+      - {who: "taeo", type: "speech", side: "c", text: "THE WINDOW SAYS YOUR SHARD IS AN ANCHOR FRAGMENT."}
 
   - id: P05
     kind: title
@@ -133,8 +133,8 @@ panels:
     sfx:
       - {text: "DING", style: summon, at: [0.86, 0.14], size: M, rot: 0}
     lines:
-      - {who: taeo, type: speech, side: l, text: "IT SAYS 'STONE, NEW.' AND 'ROUTE ALIGNMENT: ZERO PERCENT.'"}
-      - {who: taeo, type: speech, side: l, text: "AND THERE'S A BUTTON. 'INTEGRATE?'"}
+      - {who: "taeo", type: "speech", side: "l", text: "THE FRAGMENT IS STONE. A NEW KIND. ROUTE ALIGNMENT IS ZERO PERCENT."}
+      - {who: "taeo", type: "speech", side: "l", text: "THERE'S AN 'INTEGRATE' BUTTON. I DON'T KNOW WHAT IT DOES."}
     notes: "The notice of P02 expands into a full window at his touch, as in ch 1 P50. ROUTE ALIGNMENT is the counter readers will track: 0% here, 50% at P56."
 
   - id: P08
@@ -148,8 +148,7 @@ panels:
       Simplified blue-grey background, a thin cyan edge light from the shard below. No text.
     calm: left
     lines:
-      - {who: nib, type: speech, side: r, text: "ROUTE."}
-      - {who: nib, type: speech, side: r, text: "A ROUTE GOES SOMEWHERE."}
+      - {who: "nib", type: "speech", side: "c", text: "ROUTE ALIGNMENT. A ROUTE GOES SOMEWHERE."}
 
   - id: P09
     shape: inset-l
@@ -164,8 +163,8 @@ panels:
       brown rope belt, pouch RIGHT hip, brown wooden sheath LEFT hip, barefoot. Flat pale-blue background with screentone dots. No text.
     calm: top
     lines:
-      - {who: taeo, type: nervous, side: l, text: "AND 'INTEGRATE'... I THINK IT MEANS I TAKE IT IN?"}
-      - {who: nib, type: speech, side: r, text: "DON'T EAT IT."}
+      - {who: "taeo", type: "nervous", side: "l", text: "INTEGRATE. AM I SUPPOSED TO SWALLOW THE SHARD?"}
+      - {who: "nib", type: "speech", side: "r", text: "DON'T EAT THE ROCK."}
 
   - id: P10
     shape: narrow-r
@@ -195,7 +194,7 @@ panels:
       The mole under his RIGHT eye. Dim blue-grey around. Nothing else in frame. No text.
     calm: none
     lines:
-      - {who: taeo, type: float, text: "RENT IS FOUR HUNDRED AND FIFTY."}
+      - {who: "taeo", type: "float", text: "MY RENT IS ₩450,000 A MONTH."}
     notes: "Rent is ₩450,000 a month (ch 5); his deposit went on the Guro penalty (ch 17). The temptation stays private: he never says it aloud."
 
   - id: P12
@@ -210,9 +209,9 @@ panels:
       (Taeo's finger is off it). Behind Taeo, the dim room and the far yellow line at the curtain. No text.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "IT'S YOURS. YOU FOUND IT."}
-      - {who: nib, type: speech, side: l, text: "YOU NEED IT."}
-      - {who: taeo, type: speech, side: r, text: "...IT'S STILL YOURS."}
+      - {who: "taeo", type: "speech", side: "c", text: "THE SHARD IS YOURS. YOU FOUND IT."}
+      - {who: "nib", type: "speech", side: "l", text: "SELL THE SHARD. YOU NEED THE MONEY."}
+      - {who: "taeo", type: "speech", side: "c", text: "YOU STILL GET TO CHOOSE."}
 
   - id: P13
     shape: vignette
@@ -236,25 +235,21 @@ panels:
       The V-notch in his LEFT ear and the small LEFT lower fang. Flat blue-grey background with a faint cyan edge light from the left. No text.
     calm: left
     lines:
-      - {who: nib, type: speech, side: r, text: "IF IT MIGHT OPEN THE DOOR, IT'S MINE TO GIVE."}
+      - {who: "nib", type: "speech", side: "c", text: "IF THIS SHARD MIGHT OPEN A DOOR HOME, IT'S MINE TO GIVE."}
 
   - id: P15
-    shape: strip
+    shape: tall
     gap: short
     bg: white
     silent: true
-    camera: "extreme close-up on their hands, side view"
+    camera: "low side angle, their hands large in the foreground with both seated figures above"
     art: >
-      Extreme close-up strip of hands, in the middle third: Nib's olive-green hand (faint pale scars on the forearm) has turned Taeo's larger RIGHT hand palm-up,
-      laid the dark shard in it, and now folds Taeo's fingers closed over it with his own fingers, gently, like closing a door.
-      Through the gaps between Taeo's fingers the shard's cracks light cyan #3FE3F2; and on the heel of Taeo's palm, where Nib's thumb presses,
-      sits a small crisp spot of amber light #F2A93B: the link. Two hard-edged lights side by side, never blended, no haze. Black hoodie cuff on Taeo's wrist.
-      Dim blue-grey around. No text.
+      Low side angle in taeo_flat, dim blue-grey morning with the blackout curtain drawn. Nib sits on the right against the entry wall, adult and wiry, V-notch LEFT ear, lower LEFT fang, rope belt, pouch RIGHT hip, wooden sheath LEFT hip, barefoot. Taeo in a black hoodie kneels on the left. Their joined hands fill the lower foreground: Nib turns Taeo's RIGHT hand palm-up, lays the glassy black shard in it and gently closes Taeo's fingers over the stone. Its fine cracks shine hard cyan between his fingers; at the heel of Taeo's palm beneath Nib's thumb, a separate crisp amber link light. Both faces remain visible above the hands: Nib quietly certain, Taeo stunned. Leave natural space down to their knees and feet. Preserve the square plaster across Taeo's right palm. No haze, particles, lettering or new interface window.
     calm: none
     notes: "He gives it. Nib is 'unexpectedly kind with his hands'; the gesture mirrors Taeo closing Dami's fingers over the inhaler in ch 14. The amber is the link in Taeo's RIGHT palm (Nib permits it: he presses on purpose); the cyan is the interface."
 
   - id: P16
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "profile two-shot at floor level, Taeo on the left, Nib on the right"
@@ -262,28 +257,41 @@ panels:
       Profile two-shot at floor level: Taeo (default) kneels holding his closed right fist against his chest, cyan light leaking between his fingers,
       leaning toward Nib to protest; Nib sits back against the wall with his arms folded now, unmoved. ACTING: Taeo anguished and embarrassed;
       Nib flat and certain. Seen from the kitchen side: behind them, simplified, the bathroom door and, at the right, the entry step. Blue-grey; cyan from the fist. No text.
+      Give the kneeling Taeo on the left and seated Nib on the right their full natural proportions.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "NIB. I CAN'T TAKE FOUR HUNDRED THOUSAND FROM YOU."}
-      - {who: nib, type: speech, side: r, text: "YOU'RE NOT TAKING."}
-      - {who: nib, type: speech, side: r, text: "I'M GIVING."}
+      - {who: "taeo", type: "speech", side: "l", text: "NIB. I CAN'T ACCEPT A FRAGMENT WORTH FOUR HUNDRED THOUSAND WON."}
+      - {who: "nib", type: "speech", side: "r", text: "YOU'RE NOT TAKING THE SHARD."}
     notes: "Taking versus giving: the hook (CONSENT: NOT REQUESTED) and ch 21 ('YOU TOOK ME.') turn on it. Nobody remarks on it here."
 
+  - id: P16a
+    shape: "tall"
+    gap: "short"
+    bg: "white"
+    camera: "medium, from beside Taeo's glowing fist toward Nib at the entry wall"
+    art: >
+      taeo_flat by day, dim blue-grey with a thin yellow line of light from the closed curtain. Nib, default, sits on the right against the entry wall with his arms folded, hands now empty, calmly meeting Taeo's eyes. His adult wiry figure has room from the V-notch in his LEFT ear to his bare feet; lower LEFT fang, rope belt, pouch RIGHT hip, wooden sheath LEFT hip, healing RIGHT shoulder-blade graze. Taeo, black hoodie, kneels in the left foreground with the closed right fist near his chest; keep his face visible in profile, anguished and listening. The shard's hard cyan leaks between his fingers. Nib's empty hands and steady face make the choice clear. No lettering, screens or new interface windows.
+    calm: "top"
+    lines:
+      - {who: "nib", type: "speech", side: "r", text: "I'M GIVING."}
+    notes: "Clarity split from P16: Nib's existing final line gets its own reaction beat. No new story event."
+
   - id: P17
-    shape: inset-l
+    shape: tall
     gap: short
     bg: white
-    camera: "close-up from below on Taeo's face and his raised fist"
+    camera: "low angle, Taeo kneeling beneath the empty air where the window hangs"
     art: >
       From below: Taeo (default) holds his glowing right fist up near his face, eyes lifted to the empty air above it (the window is still there; not drawn).
       His thumb starts to rise toward the air, then stops. ACTING: wanting and dreading at once; a hard swallow.
       Cyan light up from the fist across his chin and nose; the dark ceiling behind. No text.
+      Taeo occupies the left third from his raised fist down to his knees; give the empty air above his hesitant thumb room. Nib stays outside the frame to the right.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: l, text: "...TONIGHT."}
+      - {who: "taeo", type: "speech", side: "l", text: "I'LL PRESS 'INTEGRATE' TONIGHT."}
 
   - id: P18
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "medium shot from the window side of the folding table, toward the door"
@@ -292,16 +300,17 @@ panels:
       the cracks going dark in mid-fall. He is already turning toward the bed, rubbing his face with the heel of his other hand, wrecked with tiredness.
       Nib's paper drawing with the white pebble lies beside the cup. Behind them by the door, Nib sits against the wall, arms folded, watching.
       Dim blue-grey, the yellow curtain line across the floor. No text.
+      Taeo kneels on the left at the table; Nib sits in the right third by the door. Show both faces and give their bodies vertical room.
     calm: top
     sfx:
       - {text: "PLINK", style: quiet, at: [0.38, 0.62], size: S, rot: -6}
     lines:
-      - {who: taeo, type: speech, side: l, text: "SORRY. I'VE BEEN UP ALL NIGHT. I'M NOT PRESSING ANYTHING HALF ASLEEP."}
-      - {who: nib, type: speech, side: r, text: "TONIGHT."}
+      - {who: "taeo", type: "speech", side: "l", text: "SORRY. I'VE BEEN UP ALL NIGHT. I'M NOT PRESSING THAT BUTTON HALF ASLEEP."}
+      - {who: "nib", type: "speech", side: "r", text: "WE TRY THE FRAGMENT TONIGHT."}
     notes: "The window closes when he lets go of the shard; it reopens at his touch in P53. Taeo's 'SORRY' 1 of 2 (the river scene counts on it)."
 
   - id: P19
-    shape: vignette
+    shape: tall
     gap: short
     bg: white
     camera: "from the foot of the bed along its length toward the curtained window"
@@ -309,13 +318,14 @@ panels:
       Borderless vignette: Taeo (default, socks) lies on top of the grey duvet on his side, facing the curtained window, his back to the room,
       one forearm over his eyes. The hard yellow line of daylight at the curtain's edge crosses his shoulder. ACTING: the stillness of someone pretending to sleep;
       his free hand is a fist on the duvet. Blue-grey tones fading to white at the edges. No text.
+      Frame Taeo's whole reclining body diagonally down the tall composition, leaving room for the bed and the closed curtain. Preserve the borderless fade.
     calm: top-left
     lines:
-      - {who: taeo, type: float, text: "IF IT OPENS A DOOR, HE GOES THROUGH IT."}
-      - {who: taeo, type: float, text: "I WANTED ONE MORE DAY."}
+      - {who: "taeo", type: "float", text: "IF THE SHARD OPENS A DOOR HOME, NIB WILL LEAVE."}
+      - {who: "taeo", type: "float", text: "I WANTED ONE MORE DAY."}
 
   - id: P20
-    shape: narrow-l
+    shape: tall
     gap: short
     bg: white
     silent: true
@@ -325,12 +335,24 @@ panels:
       lips moving without sound. The notes are plain coloured rectangles with no numbers, faces or words (props.banknotes): mostly pale sage-green, a few brick-orange and pale blue.
       On the pouch flap at his RIGHT hip, the small dinosaur sticker Haru gave him (ch 8); the knife sheathed on his LEFT hip.
       ACTING: private and careful, a man who has done this count many times. Dim blue-grey day light. No text.
+      Give Nib's seated body natural proportions, with room from his ears down to his bare feet and the banknotes on his knee.
     calm: none
     notes: "His saved wages from spotter and day-rate jobs (ch 7, ch 9, ch 11, ch 13–17). The total is never stated."
 
   # ---------------- THE CAMPING STORE ----------------
+  - id: P20a
+    shape: "tall"
+    gap: "short"
+    bg: "white"
+    camera: "high angle from the doorway, Nib and the banknotes on his knee"
+    art: >
+      taeo_flat in the same dim blue-grey morning light with the curtain closed. From high at the doorway, Nib in default clothes sits alone against the entry wall, his face visible below his notched LEFT ear, his body framed naturally down to his bare feet. He holds the counted plain-colour banknotes flat on his knee, one olive finger resting on the last note, still and careful after the count. Rope belt, pouch RIGHT hip with the green dinosaur sticker, wooden sheath LEFT hip. Leave open floor above the small seated figure. The banknotes carry no words, numbers or portraits. No new objects, light effects or text.
+    calm: "none"
+    silent: true
+    notes: "Clarity extension of P20's existing wage count, held before the shop scene; the total remains unstated."
+
   - id: P21
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "establishing, exterior from across the bus street, eye level"
@@ -340,6 +362,7 @@ panels:
       a small dome tent, a mannequin in a hiking jacket, lanterns, folding chairs and coiled rope; at the front of the window, on a little wooden stand, one pair of plain black binoculars.
       In front of the window, small in frame: Nib, hands at his sides, not touching the glass, staring in. A few steps behind him Taeo (taeo, outdoor: navy zip jacket over the hoodie,
       olive backpack with the faded orange patch) yawns hugely, his hair flattened on one side from sleep. Muted daylight greys and red brick. Every sign blank. No text.
+      Nib stands on the left in front of the display and Taeo stands to his right, a few steps behind. Leave room for their full figures below the awning.
     calm: top
     lines:
       - {who: narr, type: tag, text: "MANGWON-DONG · 5:40 PM"}
@@ -369,9 +392,9 @@ panels:
       Speed lines behind the owner. His cobalt-blue jacket is the one saturated colour on the street. No text.
     calm: top
     lines:
-      - {who: shop_owner, type: shout, side: l, text: "YOU AGAIN!"}
-      - {who: shop_owner, type: speech, side: l, text: "THE GOBLIN WHO STANDS AT MY WINDOW!"}
-      - {who: nib, type: speech, side: r, text: "I DON'T TOUCH THE GLASS."}
+      - {who: "shop_owner", type: "shout", side: "l", text: "YOU AGAIN!"}
+      - {who: "shop_owner", type: "speech", side: "l", text: "YOU'VE BEEN WATCHING MY BINOCULARS THROUGH THE WINDOW!"}
+      - {who: "nib", type: "speech", side: "c", text: "I DON'T TOUCH THE GLASS."}
 
   - id: P24
     shape: inset-l
@@ -383,8 +406,8 @@ panels:
       Simplified street background. No text.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: l, text: "...YOU COME HERE?"}
-      - {who: nib, type: speech, side: r, text: "SINCE THE FIRST JOB."}
+      - {who: "taeo", type: "speech", side: "l", text: "YOU'VE BEEN COMING TO THIS SHOP?"}
+      - {who: "nib", type: "speech", side: "c", text: "SINCE MY FIRST PAID JOB."}
     notes: "The first job: Minho's one hour at ₩20,000 (ch 7)."
 
   - id: P25
@@ -397,7 +420,7 @@ panels:
       The display window's lanterns behind him reduced to flat, simple shapes. No text.
     calm: right
     lines:
-      - {who: taeo, type: float, text: "I NEVER ASKED WHAT HE WAS SAVING FOR."}
+      - {who: "taeo", type: "float", text: "I NEVER ASKED WHAT NIB WAS SAVING FOR."}
 
   - id: P26
     shape: full
@@ -426,9 +449,9 @@ panels:
       The boot wall behind them. No text.
     calm: top
     lines:
-      - {who: shop_owner, type: speech, side: l, text: "NO SHOES? ON SEOUL PAVEMENT?"}
-      - {who: shop_owner, type: speech, side: l, text: "SIR, I HAVE BOOTS IN EVERY SIZE—"}
-      - {who: nib, type: speech, side: r, text: "NO."}
+      - {who: "shop_owner", type: "speech", side: "l", text: "NO SHOES? ON SEOUL PAVEMENT?"}
+      - {who: "shop_owner", type: "speech", side: "l", text: "SIR, I HAVE BOOTS IN EVERY SIZE."}
+      - {who: "offpanel:nib", type: "speech", side: "c", text: "NO."}
     notes: "Runner: Nib refuses shoes until he chooses boots himself (ch 43)."
 
   - id: P28
@@ -443,9 +466,9 @@ panels:
       one hand raised in apology (olive backpack with the orange patch). Nib's locks identical. Flat warm-khaki background with speed lines. No text.
     calm: top
     lines:
-      - {who: shop_owner, type: speech, side: l, text: "SANDALS? SOCKS? INSOLES?"}
-      - {who: nib, type: speech, side: r, text: "NO. NO. NO."}
-      - {who: taeo, type: nervous, side: c, text: "SORRY. HE DOESN'T DO SHOES."}
+      - {who: "shop_owner", type: "speech", side: "l", text: "SANDALS? SOCKS? INSOLES?"}
+      - {who: "nib", type: "speech", side: "c", text: "NO. NO. NO."}
+      - {who: "taeo", type: "nervous", side: "r", text: "SORRY. HE DOESN'T DO SHOES."}
     notes: "Taeo's 'SORRY' 2 of 2."
 
   - id: P29
@@ -462,7 +485,7 @@ panels:
     sfx:
       - {text: "TING", style: quiet, at: [0.60, 0.36], size: S, rot: 0}
     lines:
-      - {who: shop_owner, type: speech, side: l, text: "IF YOU'RE SERIOUS: THREE HUNDRED AND FORTY THOUSAND. WATERPROOF. FOG-PROOF."}
+      - {who: "shop_owner", type: "speech", side: "l", text: "THREE HUNDRED AND FORTY THOUSAND WON. WATERPROOF. FOG-PROOF."}
 
   - id: P30
     shape: inset-l
@@ -474,9 +497,9 @@ panels:
       One finger checks the focus wheel. ACTING: certain; a craftsman's satisfaction, held flat. The V-notch in his LEFT ear. Simplified khaki background. No text.
     calm: right
     lines:
-      - {who: nib, type: speech, side: l, text: "THESE."}
-      - {who: shop_owner, type: speech, side: r, text: "THOSE ARE THE CHEAP ONES."}
-      - {who: nib, type: speech, side: l, text: "THESE DON'T SHINE."}
+      - {who: "nib", type: "speech", side: "c", text: "I WANT THE MATTE BLACK PAIR."}
+      - {who: "offpanel:shop_owner", type: "speech", side: "r", text: "THE BLACK PAIR IS THE CHEAP ONE."}
+      - {who: "nib", type: "speech", side: "c", text: "BLACK DOESN'T SHINE."}
 
   - id: P31
     shape: inset-r
@@ -488,8 +511,8 @@ panels:
       Simplified background with a few focus lines. No text.
     calm: left
     lines:
-      - {who: shop_owner, type: speech, side: r, text: "...WHY DOES THAT MATTER?"}
-      - {who: "offpanel:nib", type: speech, side: l, text: "SHINE GETS YOU SEEN."}
+      - {who: "shop_owner", type: "speech", side: "r", text: "WHY DOES SHINY TRIM MATTER?"}
+      - {who: "offpanel:nib", type: "speech", side: "l", text: "SHINE GETS YOU SEEN."}
     notes: "A scout's reason: a glint gives a watcher away. Nib does not explain further."
 
   - id: P32
@@ -503,9 +526,9 @@ panels:
       Down the street: red-brick roofs, wires and the far end of the street in warm late light; on a tiled roof two streets away, a tiny calico cat (extras.bori), a speck. No text.
     calm: top
     lines:
-      - {who: nib, type: speech, side: c, text: "THERE'S A CAT ON THAT ROOF. TWO STREETS DOWN."}
-      - {who: taeo, type: speech, side: r, text: "...WHAT ROOF?"}
-      - {who: shop_owner, type: speech, side: l, text: "THAT'S BORI. SHE'S ALWAYS UP THERE."}
+      - {who: "nib", type: "speech", side: "c", text: "A CAT. ON THE TILED ROOF TWO STREETS DOWN."}
+      - {who: "taeo", type: "speech", side: "l", text: "WHICH TILED ROOF?"}
+      - {who: "shop_owner", type: "speech", side: "c", text: "THAT'S BORI. SHE'S ALWAYS ON THAT ROOF."}
 
   - id: P33
     shape: inset-r
@@ -517,8 +540,8 @@ panels:
       The till's display is a dark blank shape. Warm fluorescent light. No text.
     calm: left
     lines:
-      - {who: shop_owner, type: speech, side: r, text: "EIGHTY-NINE THOUSAND."}
-      - {who: narr, type: footnote, text: "*₩89,000 ≈ US$65"}
+      - {who: "shop_owner", type: "speech", side: "r", text: "EIGHTY-NINE THOUSAND WON."}
+      - {who: "narr", type: "footnote", text: "*₩89,000 ≈ US$65"}
 
   - id: P34
     shape: strip
@@ -556,9 +579,9 @@ panels:
       the binoculars now in his own two hands. ACTING: the owner kind and a little moved; Nib plain and serious. No text.
     calm: top
     lines:
-      - {who: shop_owner, type: speech, side: l, text: "EXACT CHANGE. YOUR FIRST PAIR?"}
-      - {who: nib, type: speech, side: r, text: "FIRST THING I CHOSE."}
-      - {who: shop_owner, type: speech, side: l, text: "...THEN HAVE SOME FREE SOCKS."}
+      - {who: "shop_owner", type: "speech", side: "l", text: "EXACT CHANGE. YOUR FIRST BINOCULARS?"}
+      - {who: "nib", type: "speech", side: "r", text: "FIRST THING I CHOSE TO BUY."}
+      - {who: "shop_owner", type: "speech", side: "l", text: "THEN HAVE SOME FREE SOCKS."}
     notes: "Beat: his first chosen purchase. Everything else he owns was given to him (Eunchae's pencil, Haru's sticker, the ID card) or found (the white pebble). The words also sit against the hook's CONSENT: NOT REQUESTED; nobody points it out."
 
   - id: P37
@@ -592,9 +615,9 @@ panels:
       The sunlight peach and rose-gold, pinker than the link amber. No lens flare, no god rays, no haze. No text.
     calm: top
     lines:
-      - {who: narr, type: tag, text: "MANGWON HANGANG PARK · 6:40 PM"}
-      - {who: taeo, type: speech, side: l, text: "WATER?"}
-      - {who: nib, type: speech, side: r, text: "YOU FIRST."}
+      - {who: "narr", type: "tag", text: "MANGWON HANGANG PARK · 6:40 PM"}
+      - {who: "taeo", type: "speech", side: "l", text: "WATER?"}
+      - {who: "nib", type: "speech", side: "c", text: "YOU FIRST."}
     notes: "Runner: 'YOU FIRST.' (Taeo drinks first, off panel.) The parapet is chest-high on Nib, like the wall at his post (ch 4, ch 9); nobody says so."
 
   - id: P39
@@ -609,7 +632,7 @@ panels:
     calm: none
 
   - id: P40
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     silent: true
@@ -620,20 +643,22 @@ panels:
       A single-file line of five porters (extras.porters_far) carries crates toward the slit; the last, an older man, has stopped with his hands on his knees.
       At the tape, three hunters (extras.hunters_far) pose together for a selfie on a phone stick, the phone's screen dark. Golden low light on the far bank;
       silver water across the bottom of the circles. No blur. No text.
+      Use a tall binocular field with the distant porter line descending toward the gate; give every small standing porter natural proportions. Keep the hunters posing at the side and the resting older porter at the back.
     calm: none
     notes: "Arc II's issue, shown and not said: the ones who carry go in first."
 
   - id: P41
-    shape: inset-l
+    shape: tall
     gap: short
     bg: white
-    camera: "close-up on Nib from the front, binoculars still raised"
+    camera: "low medium shot of Nib standing at the parapet with binoculars raised"
     art: >
       Nib (nib), the binoculars still at his eyes, so only his mouth, jaw and the notched LEFT ear show beneath them.
       ACTING: the mouth flat; a muscle working in the jaw. Peach light across him. No text.
+      Nib stands in the left third, head to bare feet, with the parapet at chest height. Keep his jaw and mouth readable below the binoculars, and the strap knot on the left of his neck.
     calm: right
     lines:
-      - {who: nib, type: speech, side: l, text: "THE ONES WITH THE BOXES GO IN FIRST."}
+      - {who: "nib", type: "speech", side: "l", text: "THE PORTERS CARRYING BOXES GO IN FIRST."}
 
   - id: P42
     shape: inset-r
@@ -656,8 +681,8 @@ panels:
       the olive backpack beside Taeo with its faded orange patch toward us. Taeo has turned his head toward Nib; Nib still faces the water, binoculars up. No text.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "NIB."}
-      - {who: taeo, type: speech, side: l, text: "AT GURO, I TOLD YOU TO FINISH THE LINE."}
+      - {who: "taeo", type: "speech", side: "c", text: "NIB."}
+      - {who: "taeo", type: "speech", side: "c", text: "AT GURO, I MADE YOU FINISH THE SURVEY LINE BEFORE LOOKING FOR KWAK."}
     notes: "The apology beat. Ch 14 P35: 'FINISH THE LINE, NIB.'"
 
   - id: P44
@@ -693,8 +718,8 @@ panels:
       a tired, rueful half-smile. The riverside path and the trees behind them; warm side light from the left of frame. ACTING: Nib curious and dry; Taeo honest. No text.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "YOU DIDN'T SAY SORRY."}
-      - {who: taeo, type: speech, side: r, text: "SORRY'S FOR CUSTOMERS."}
+      - {who: "nib", type: "speech", side: "c", text: "YOU DIDN'T SAY SORRY."}
+      - {who: "taeo", type: "speech", side: "c", text: "SORRY'S FOR CUSTOMERS."}
     notes: "He said 'SORRY' twice today out of habit (P18, P28) and not once in the real apology."
 
   - id: P47
@@ -708,8 +733,8 @@ panels:
       ACTING: calm and direct, almost gentle; for once Taeo, seated, is at his eye level. Long hard shadows. No lens flare, no haze. No text.
     calm: top
     lines:
-      - {who: nib, type: speech, side: r, text: "YOU WERE SCARED. I COULD HEAR IT."}
-      - {who: nib, type: speech, side: r, text: "NEXT TIME, BE SCARED OUT LOUD."}
+      - {who: "nib", type: "speech", side: "c", text: "YOU WERE SCARED. I HEARD THE FEAR."}
+      - {who: "nib", type: "speech", side: "c", text: "NEXT TIME, BE SCARED OUT LOUD."}
     notes: "Ch 14 P36: Nib 'heard something in that voice'. Ch 14's note: Taeo 'does not say he is scared'."
 
   - id: P48
@@ -775,9 +800,9 @@ panels:
       Lamp-warm on Taeo's side, blue-grey on Nib's. ACTING: Nib matter-of-fact, already half asleep; Taeo's shoulders tense. No text.
     calm: top
     lines:
-      - {who: nib, type: speech, side: r, text: "DO IT."}
-      - {who: nib, type: speech, side: r, text: "WAKE ME IF A DOOR OPENS."}
-      - {who: taeo, type: speech, side: l, text: "...OKAY."}
+      - {who: "nib", type: "speech", side: "c", text: "TRY THE FRAGMENT."}
+      - {who: "nib", type: "speech", side: "c", text: "WAKE ME IF A DOOR OPENS."}
+      - {who: "taeo", type: "speech", side: "l", text: "OKAY."}
     notes: "Nib usually keeps watch while Taeo sleeps (ch 2, ch 6). Tonight he leaves the watch to Taeo."
 
   - id: P53
@@ -839,8 +864,7 @@ panels:
       - {text: "DING", style: summon, at: [0.12, 0.12], size: M, rot: 0}
       - {text: "DING", style: summon, at: [0.88, 0.36], size: M, rot: 0}
     lines:
-      - {who: taeo, type: whisper, side: c, text: "FIFTY PERCENT..."}
-      - {who: taeo, type: whisper, side: c, text: "...OF WHAT?"}
+      - {who: "taeo", type: "whisper", side: "c", text: "ROUTE ALIGNMENT. FIFTY PERCENT TOWARD WHAT?"}
     notes: "Route alignment: stone is the first of window 2's two kinds (+50%); salt-iron completes it in ch 22. He whispers because Nib is asleep."
 
   - id: P57
@@ -895,7 +919,7 @@ panels:
       the lines of the window, and his eyes have stopped on the fourth. A bead of sweat at the temple. Nothing else in frame. No text.
     calm: none
     lines:
-      - {who: taeo, type: float, text: "TRANSFER 0001 WAS A TUESDAY."}
+      - {who: "taeo", type: "float", text: "TRANSFER 0001. THE TUESDAY I SUMMONED NIB."}
     notes: "Ch 1 was a Tuesday night. He knows exactly which transfer this is."
 
   - id: P61

@@ -40,7 +40,7 @@ panels:
     notes: "Straight on from ch 14's last panels: his thumb hovered over the key (P51) while Nib's palm on the rubble glowed in his; then Nib spoke first (P52). Now he presses. Mirrors ch 14 P34, where he pressed the key hard to say 'FINISH THE LINE'."
 
   - id: P02
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low angle from the gravel, Taeo half-risen at the radio table, the gate behind him"
@@ -50,14 +50,15 @@ panels:
       the gate: scared, and decided anyway. Brows together, jaw set, a bead of sweat under the hard hat's brim. At the left end of the table
       Haein (haein, default: overalls, red-orange vest, safety glasses pushed up under a white hard hat worn far back, headphones round her
       neck) has turned on her stool, screwdriver stopped in the air. Beyond the canopy's edge the struts grid the sky; hard bars of shadow.
+      Taeo is on the right, Haein at the left end of the table; allow room for Taeo's half-standing figure.
     calm: top-left
     lines:
-      - {who: taeo, type: speech, side: r, text: "GO."}
+      - {who: taeo, type: speech, side: r, text: "GO LOOK FOR KWAK."}
       - {who: taeo, type: speech, side: r, text: "I'LL PAY THE PENALTY."}
     notes: "Beat line ('GO. I'LL PAY THE PENALTY.'). It answers Dokgo's ch 14 question 'WHO PAYS THAT? YOU?'. Arc beat (STORY_BIBLE §6): he backs someone else's judgement at a cost."
 
   - id: P03
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "over Taeo's shoulder toward Minho at the right end of the table"
@@ -66,6 +67,7 @@ panels:
       default: brown work jacket under a Ryu red-orange vest, white hard hat, grey streak at his LEFT temple under the brim, radio clipped
       high on his LEFT chest) is already on his feet, one hand flat on his closed rugged laptop: angry and frightened for his family's
       business, not cruel. Shade under the white canopy; the gate's violet edge far behind him.
+      Minho stands fully visible on the right; Taeo's shoulder stays in the left foreground.
     calm: top-right
     lines:
       - {who: minho, type: intense, side: r, text: "IT'S NOT YOUR PENALTY, IT'S MY CONTRACT."}
@@ -122,15 +124,16 @@ panels:
       shoulder with half a triangle kimbap frozen at her mouth. Taeo in the middle, small and stubborn, the handset in his LEFT hand. On the
       table: the grey rugged relay case with its two stub antennas and speaker grille, Minho's laptop, Taeo's cracked phone face-down, and an
       faded navy canvas work jacket with frayed cuffs (Kwak's). Focus lines behind the group; strut-shadow bars across them.
+      Frame the group from the knees up: Haein left, Taeo centre, Minho right, Sejin beside Taeo.
     calm: top
     lines:
-      - {who: minho, type: speech, side: r, text: "...YOUR DEPOSIT?"}
-      - {who: taeo, type: speech, side: c, text: "MY FLAT. FIVE MILLION."}
+      - {who: minho, type: speech, side: r, text: "YOUR RENTAL DEPOSIT?"}
+      - {who: taeo, type: speech, side: c, text: "MY FLAT'S DEPOSIT. FIVE MILLION WON."}
       - {who: narr, type: footnote, text: "*₩5,000,000 ≈ US$3,600"}
     notes: "Kwak's jacket remains faded navy canvas, with its LEFT chest pocket, as in ch 13 P30 and P55."
 
   - id: P08
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "two-shot in profile at the canopy's edge, Dokgo on the left, Taeo on the right"
@@ -139,11 +142,12 @@ panels:
       under his arm, an unlit cigarette) has walked over with the porter-app phone in his hand; he points the cigarette at Taeo, almost
       gently: tired, nearly pitying arithmetic. Taeo answers with a small, wretched, polite smile and a slight bow of the head, a sweat drop at
       his temple. Plain dusty background with the grey line of a strut.
+      Dokgo stands on the left and Taeo on the right, both fully visible.
     calm: top
     lines:
       - {who: dokgo, type: speech, side: l, text: "YOU'LL PAY?"}
-      - {who: dokgo, type: speech, side: l, text: "FIVE MILLION IS ONE HOUR, KID."}
-      - {who: taeo, type: nervous, side: r, text: "...SORRY. I ONLY HAVE THE ONE FLAT."}
+      - {who: dokgo, type: speech, side: l, text: "FIVE MILLION WON ONLY COVERS ONE LATE HOUR, KID."}
+      - {who: taeo, type: nervous, side: r, text: "SORRY. I ONLY HAVE THE ONE FLAT."}
     notes: "PAYOFF P08: the clause prices Taeo's only savings at exactly one late hour. Taeo gets funnier when he is scared."
 
   - id: P09
@@ -169,10 +173,11 @@ panels:
       lines ending in a flat bar (plain shapes, no letters). Talking to Taeo without looking at him, he thumbs the radio on his LEFT chest for
       the second line: a survey lead who trusts his plot, testing the one who disagrees with it. Haein, beyond him, watches the relay's
       status lamps. Shade under the canopy.
+      Crop Minho at the waist on the right, with Haein behind him on the left.
     calm: top-left
     lines:
-      - {who: minho, type: speech, side: c, text: "MY MOTHER SIGNED THAT CONTRACT."}
-      - {who: minho, type: speech, side: c, text: "NIB. MY MAP SAYS SOLID ROCK BEHIND THAT WALL."}
+      - {who: minho, type: speech, side: r, text: "MY MOTHER SIGNED THE SURVEY CONTRACT."}
+      - {who: minho, type: speech, side: r, text: "NIB. MY MAP SAYS SOLID ROCK BEHIND THAT WALL."}
     notes: "Ryu Seonhee runs Ryu Survey's books (ch 10) and signs its contracts (ch 30). The radio is half-duplex: Nib hears only what is said with a key pressed."
 
   - id: P11
@@ -185,7 +190,7 @@ panels:
       lamps lit beside it, one stub antenna. The navy canvas jacket's frayed cuff at the frame's edge. Flat light under the canopy.
     calm: right
     lines:
-      - {who: nib, type: phone, side: l, text: "THEN YOUR MAP IS OLD."}
+      - {who: "offpanel:nib", type: phone, side: l, text: "THEN YOUR MAP IS OLD."}
     sfx:
       - {text: "KSSH", style: quiet, at: [0.30, 0.34], size: S, rot: -4}
 
@@ -198,10 +203,11 @@ panels:
       Over Minho's left shoulder (his brown jacket and red-orange vest fill the left foreground; the grey streak at his LEFT temple at the frame
       edge). Taeo has turned to face him across the table's corner, the handset lowered in his LEFT hand, and speaks quietly: scared but steady,
       brows drawn together, eyes up to Minho's. Behind Taeo, the gate's violet slit small in the shade, 8 m off.
+      Taeo is on the right, Minho's shoulder on the left; frame from the waist up.
     calm: top-right
     lines:
-      - {who: taeo, type: speech, side: r, text: "YOU TOLD ME, AT THE YARD."}
-      - {who: taeo, type: speech, side: r, text: "LET HIM FINISH LOOKING."}
+      - {who: taeo, type: speech, side: r, text: "AT THE YARD, YOU TOLD ME TO LET NIB FINISH LOOKING."}
+      - {who: taeo, type: speech, side: r, text: "LET NIB FINISH LOOKING NOW."}
     notes: "Callback: Minho said 'LET HIM FINISH LOOKING.' to Taeo in ch 7; ch 14 P32 notes that nobody said it then. Taeo backs Nib's judgement with Minho's own rule."
 
   - id: P13
@@ -224,10 +230,11 @@ panels:
       Side-on along the table (guro_pit): Taeo leans in to the relay case's speaker grille with the handset at his mouth, thumb on the key, his
       head bowed: an apology and a question at once. Haein, at the left end, watches him with one headphone cup lifted, a small approving
       look. The navy canvas jacket on the table between them. Shade under the canopy, the gravel bright beyond.
+      Taeo is on the right, Haein on the left; frame both at the waist.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "NIB. AT FOURTEEN, YOU HEARD SOMETHING."}
-      - {who: taeo, type: speech, side: r, text: "SORRY. I CUT YOU OFF. FINISH."}
+      - {who: taeo, type: speech, side: r, text: "NIB. AT STAKE FOURTEEN, YOU HEARD SOMETHING."}
+      - {who: taeo, type: speech, side: r, text: "SORRY I CUT YOU OFF. TELL ME WHAT YOU HEARD."}
     notes: "Ch 14 P33–P34: at stake 14 Nib said 'AND I HEARD—' and Taeo keyed over him with 'FINISH THE LINE, NIB.' Now he lets him finish (ch 7's title, 'Let Him Finish')."
 
   - id: P15
@@ -242,10 +249,11 @@ panels:
       pale slabs at his face height, eyes half closed, listening; the radio at his mouth in his LEFT hand; the fingers of his right hand rest on
       a wedge stone jammed in the crack that will not move. A thin ribbon of dust drifts out past his cheek. Green-dusk light, violet shadow on
       the slab. Weathered adult, never cute.
+      Nib's face and ear are on the left, the crack on the right; frame from his chest up.
     calm: top-left
     lines:
       - {who: nib, type: speech, side: l, text: "A WHISTLE IN THE STONE. IT STOPS. THEN IT COMES BACK."}
-      - {who: nib, type: speech, side: l, text: "LIKE SOMEONE TIRED. IT'S HERE TOO."}
+      - {who: nib, type: speech, side: l, text: "SOUNDS LIKE SOMEONE STRUGGLING TO BREATHE. I HEAR THE SAME WHISTLE THROUGH THIS WALL."}
     notes: "Nib's evidence: rhythm. Wind through a crack does not stop to rest. He heard it at stake 14's passage (ch 14) and hears it now under the draught at the wall. The jammed wedge is why he cannot go through alone (P30–P32)."
 
   - id: P16
@@ -256,13 +264,14 @@ panels:
     art: >
       Sejin outside at the table (guro_pit), the half-eaten triangle kimbap lowered from her mouth, her tired eyes suddenly sharp and very
       still: a medic hearing a symptom. Plain background, a bar of strut shadow.
+      Sejin's face is in the left third.
     calm: right
     lines:
-      - {who: sejin, type: speech, side: l, text: "...THAT'S A WHEEZE."}
+      - {who: sejin, type: speech, side: l, text: "THAT WHISTLE SOUNDS LIKE WHEEZING."}
     notes: "Kwak has asthma and no inhaler (ch 13–14)."
 
   - id: P17
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "medium, side-on, Minho at the end of the table"
@@ -270,14 +279,16 @@ panels:
       Minho (guro_pit) keeps his white hard hat and red-orange vest on, straps a headlamp round the helmet and takes up his telescoping steel survey pole with a hooked head, already moving; he checks the watch on his LEFT wrist (a plain
       face, no numbers). His face is hard and decided: he has made it his own call. The radio stays clipped high on his LEFT chest. Behind him,
       Haein at the relay. Shade under the canopy.
+      Minho stands fully visible on the right; Haein remains seated on the left.
     calm: top-left
     lines:
-      - {who: minho, type: speech, side: r, text: "THIRTY MINUTES OFF THE LINE."}
-      - {who: minho, type: speech, side: r, text: "HE DOESN'T LEAVE IT ON HIS OWN. I'M THE LICENCE."}
+      - {who: minho, type: speech, side: r, text: "NIB GETS THIRTY MINUTES TO SEARCH OFF THE LINE."}
+      - {who: minho, type: speech, side: r, text: "I'M THE LICENSED LEAD. I'M GOING WITH HIM."}
+      - {who: haein, type: speech, side: l, text: "I'LL KEEP THE RELAY RUNNING."}
     notes: "Beat: Minho gives Nib 30 minutes off the line and comes too, as the licensed team. Gate kit as ch 16 (headlamp band round his white hard hat, the hooked survey pole). He never answers 'TAKE IT FROM MY DEPOSIT' in words; ch 17's invoice is his answer."
 
   - id: P18
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low, from beside the relay case, looking up at Minho with Haein in the foreground"
@@ -285,28 +296,29 @@ panels:
       Low from beside the relay case (guro_pit): in the near foreground Haein, both hands on the relay's dials, headphones pulled up over one ear.
       Above and beyond her, Minho keys the radio on his LEFT chest, the hooked pole on his shoulder, headlamp band on, looking toward the gate.
       The struts grid the pale sky behind him.
+      Haein sits on the left, Minho stands on the right; give his pole and full figure room.
     calm: top-right
     lines:
       - {who: minho, type: speech, side: r, text: "NIB. WAIT AT THE WALL."}
-      - {who: nib, type: phone, side: c, text: "THEN WALK FAST."}
-      - {who: haein, type: speech, side: l, text: "I'LL HOLD THE RELAY."}
+      - {who: "offpanel:nib", type: phone, side: r, text: "THEN WALK FAST."}
     sfx:
       - {text: "KSSH", style: quiet, at: [0.50, 0.40], size: S, rot: 4}
 
   - id: P19
-    shape: inset-r
+    shape: tall
     gap: short
     bg: white
     camera: "medium close-up, Sejin at her aid station"
     art: >
       At the aid station by the ramp foot (guro_pit), Sejin swings a trauma bag onto her back, pulls nitrile gloves on with a snap and fits a headlamp band round her white hard hat, deadpan, already walking. A water bottle clipped to the bag. Plain background.
+      Sejin's full figure is on the right, walking toward the gate with space around her trauma bag.
     calm: left
     lines:
       - {who: sejin, type: speech, side: r, text: "AND THIS IS WHY I WANT A CLINIC."}
     notes: "Beat: Sejin follows. Her want (STORY_BIBLE §6): a clinic with predictable hours. Kit as ch 16."
 
   - id: P20
-    shape: wide
+    shape: tall
     gap: long
     bg: white
     camera: "eye level at the threshold frame, Dami stepping out between Minho and Sejin"
@@ -315,6 +327,7 @@ panels:
       worn gloves, an empty shoulder frame on her back) has walked over from the radio table and stops beside Minho (headlamp
       band, hooked pole) and Sejin (trauma bag), who are walking in. Her face turns from one to the other: wary, then afraid to hope. The cold
       rim lights the three of them; the white cable with blue bands runs through the frame's lower LEFT corner.
+      Minho stands left, Dami centre, Sejin right. Show all three at natural full height.
     calm: top
     lines:
       - {who: dami, type: speech, side: c, text: "WHERE ARE YOU GOING?"}
@@ -322,7 +335,7 @@ panels:
     notes: "Dami returned at ch 14 P42 (1:55 PM) and has stayed outside since. This is not another crossing."
 
   - id: P21
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "over Dokgo's shoulder toward the porters rising"
@@ -330,10 +343,11 @@ panels:
       Over Dokgo's shoulder at his staging (guro_pit), the porter-app phone raised in his fist like a stopwatch (back of the case to us): he
       shouts at the porters, who rise from their plastic stools with groans and shoulder frames loaded with crates and battery packs. Two of
       them exchange a look. Dust kicked up; strut-shadow bars on the gravel; hard sun.
+      Dokgo occupies the left foreground; give the porters' standing figures and their loads room on the right.
     calm: top
     lines:
-      - {who: dokgo, type: shout, side: l, text: "DOUBLE RUNS! MY CREWS ARE OUT BY THREE!"}
-      - {who: dokgo, type: speech, side: l, text: "IF ANYONE'S LATE, IT'S ON RYU."}
+      - {who: dokgo, type: shout, side: l, text: "DOUBLE RUNS! MY PORTERS MUST BE OUT BY THREE!"}
+      - {who: dokgo, type: speech, side: l, text: "IF THE HANDOVER'S LATE, RYU PAYS THE PENALTY."}
     notes: "PAYOFF P08: the clause decides the boss's orders. He drives his porters harder so any lateness lands on Ryu Survey's crew, not his (he falsely reports EIGHT OF EIGHT at 3:00 PM in ch 16 P38; ch 17 fines him anyway)."
 
   - id: P22
@@ -350,23 +364,24 @@ panels:
       The cold white-cyan rim flares round their silhouettes; a few sharp particles at the rim only. Strut-shadow bars on the ground.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "EVERYONE GOES IN BUT ME."}
+      - {who: taeo, type: float, text: "I'M STILL THE ONE WHO STAYS OUTSIDE."}
     sfx:
       - {text: "VMMMM", style: gate, at: [0.70, 0.44], size: L, rot: 90}
     notes: "Return marks (STORY_BIBLE §5; colour as ch 13). Taeo stays outside (ch 12: 'YOU STAY OUTSIDE'). Motif: the team patch watches people go back for a porter."
 
   - id: P23
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "medium, eye level, Dami sitting down at the end of the radio table"
     art: >
-      At the radio table (guro_pit). Dami drags an upturned crate to the end of the table beside Taeo's chair and sits on it hard, Kwak's green
+      At the radio table (guro_pit). Dami drags an upturned crate to the end of the table beside Taeo's chair and sits on it hard, Kwak's navy canvas
       jacket pulled off the table into her lap, her arms folded over it. She stares across the gravel at Dokgo: chin up, eyes wet and furious,
       done obeying. Taeo, standing, looks down at her, startled. Haein at the relay glances over. Shade under the canopy.
+      Dami sits on the left; Taeo stands to the right, Haein behind. Allow full height for Taeo.
     calm: top
     lines:
-      - {who: dami, type: intense, side: l, text: "DOCK ME."}
+      - {who: dami, type: intense, side: l, text: "DOCK MY PAY, DOKGO. I'M STAYING HERE."}
     notes: "Dami refuses the double run: her day rate is ₩90,000 and she owes ₩2,100,000 on her draw loan (ch 13). Now the bottom of the chain says no, as Nib does. She stays on this crate into ch 16."
 
   - id: P24
@@ -390,13 +405,14 @@ panels:
       At the radio table (guro_pit). Taeo lowers himself back into his chair; Dami, on her crate beside him with the navy canvas jacket in her lap,
       looks up at him hard, searching his face for the catch. She is small and fierce; he is tall, tired, a little embarrassed. He answers simply.
       The relay case's status lamps between them. Shade under the canopy.
+      Dami sits left, Taeo right. Frame the two seated figures from the waist up.
     calm: top
     lines:
-      - {who: dami, type: speech, side: l, text: "YOU DON'T EVEN KNOW HIM."}
+      - {who: dami, type: speech, side: l, text: "YOU DON'T EVEN KNOW KWAK."}
       - {who: taeo, type: speech, side: r, text: "SORRY. I KNOW NIB."}
 
   - id: P26
-    shape: inset-r
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -406,6 +422,7 @@ panels:
       Chibi Taeo sits bolt upright on his folding chair clutching the relay handset to his chest, waterfall tears pouring, sweat drops flying.
       Above his head floats a big rounded counter panel like a giant price display, empty and white (leave it blank: the letterer adds the
       figure). Beside him, a tiny chibi Dami on her crate stares at him with a flat deadpan face. Flat pale-blue background with screentone dots.
+      Taeo sits on the right, Dami on the left, both fully visible beneath the counter.
     calm: left
     ui:
       - {kind: label, text: "₩4,916,667", at: [0.5, 0.2], size: 54, color: "#2B2523", rot: 0, notes: "centre it on the blank counter panel once the art exists"}
@@ -445,7 +462,7 @@ panels:
     notes: "Motif: Kett's mark, scratched by Nib in ch 14 on a place he meant to come back to. Nobody comments on it."
 
   - id: P29
-    shape: wide
+    shape: tall
     gap: short
     bg: black
     camera: "eye level at the rubble wall: Nib facing the camera, the two arriving from the left"
@@ -453,6 +470,7 @@ panels:
       At the rubble wall (guro_gate_inside). Nib stands with his arms folded and his weight on one leg, deadpan, the radio hooked in his LEFT hand,
       as Minho and Sejin arrive from the left, breathing hard. Minho presses a button on the watch on his LEFT wrist (a plain face, no numbers).
       Behind Nib the enormous pale slabs rise out of frame, the dark crack at his face height; the green-dusk sky darkens toward violet at this end.
+      Minho stands left, Sejin centre, Nib right. Give all three full figures clear space.
     calm: top
     lines:
       - {who: nib, type: speech, side: r, text: "TOOK YOU LONG ENOUGH."}
@@ -471,10 +489,11 @@ panels:
       hooked head of his survey pole into the crack and looks down at Nib for direction. Nib's right arm reaches forward into the frame, pointing
       at one particular stone: a small, fist-sized wedge jammed low among the rubble packed into the crack. Green-dusk light, violet shadow in the
       seam between the giant slabs.
+      Use a waist-up view: Nib's shoulder left, Minho right, with the wedge clearly visible between them.
     calm: top-right
     lines:
-      - {who: minho, type: speech, side: r, text: "WHICH ONE?"}
-      - {who: nib, type: speech, side: l, text: "THAT ONE."}
+      - {who: minho, type: speech, side: r, text: "WHICH STONE DO I PULL?"}
+      - {who: nib, type: speech, side: l, text: "THE FIST-SIZED WEDGE AT THE BOTTOM."}
     notes: "Minho asks first now (the lesson of ch 7). The arc in small: backing someone else's eyes."
 
   - id: P31
@@ -485,13 +504,14 @@ panels:
     art: >
       A comedy face in NORMAL style (guro_gate_inside): Minho stares down at the tiny wedge, then at Nib: deadpan disbelief, one eye twitching, a
       single big sweat drop at the edge of his headlamp band. Plain green-tinted background.
+      Minho's face fills the left third; Nib is off-panel to his right.
     calm: right
     lines:
-      - {who: minho, type: speech, side: l, text: "...THAT ONE?"}
-      - {who: "offpanel:nib", type: speech, side: r, text: "THAT ONE."}
+      - {who: minho, type: speech, side: l, text: "THE TINY WEDGE?"}
+      - {who: "offpanel:nib", type: speech, side: r, text: "THE TINY WEDGE."}
 
   - id: P32
-    shape: wide
+    shape: tall
     gap: short
     bg: black
     camera: "medium, side-on and slightly low, the crack opening"
@@ -501,6 +521,7 @@ panels:
       gusts out: drawn drift lines of dust stream past them. Minho leans back with a blank comedy face (still normal style); Sejin raises a
       forearm against the dust; Nib, unimpressed, already has one foot up on the slab's lip. At the edge of the opened crack, embedded in the
       broken stone, a thumb-sized dark glassy shard: unremarked, just visible, not glowing.
+      Minho stands left, Sejin centre, Nib right, all fully visible at the opening.
     calm: top
     sfx:
       - {text: "KRRSSHH", style: impact, at: [0.55, 0.60], size: L, rot: -6}
@@ -508,7 +529,7 @@ panels:
     notes: "The dark shard at the crack's edge is the fragment Nib pockets in ch 16 (it glows cyan at Taeo's touch in ch 18): do NOT light it. The crack is the only way in; ch 16 finds it choked."
 
   - id: P33
-    shape: narrow-l
+    shape: tall
     gap: short
     bg: black
     camera: "full figure, side-on, Nib crouched in the mouth of the crack"
@@ -516,6 +537,7 @@ panels:
       Nib crouches in the low black mouth of the opened crack (guro_gate_inside), his LEFT hand on its broken edge with the radio hooked in his
       fingers, looking back over his shoulder at the two humans who will have to squeeze. Deadpan. The gap is exactly his size. Pale slab, green
       light on his back, darkness ahead. Adult and wiry, never cute.
+      Nib's crouched full figure fills the left third with clear space around his feet and hard hat.
     calm: right
     lines:
       - {who: nib, type: speech, side: l, text: "ME FIRST."}
@@ -523,7 +545,7 @@ panels:
     notes: "Motif turned round: Nib goes first because he is better at it."
 
   - id: P34
-    shape: vignette
+    shape: full
     gap: long
     bg: black
     silent: true
@@ -564,9 +586,10 @@ panels:
       for air. He squints up into the light with a small, embarrassed attempt at a smile. Round him lie his split crate and three short
       telescopic steel shoring props (grey posts with base plates, head plates and threaded collars), and his dented hard hat. A bar of green
       fissure light crosses his chest. Nib is already crouched at his side. Dust hangs as a few flat drawn shapes, not haze.
+      Kwak is centred below the slab, Nib crouches at his right, Minho is at the left edge.
     calm: top
     lines:
-      - {who: mansu, type: whisper, side: c, text: "...IT'S FINE."}
+      - {who: mansu, type: whisper, side: c, text: "IT'S FINE."}
     notes: "Beat: Kwak pinned under a slab, wheezing. 'IT'S FINE' echoes his ch 13–14 line ('MY INHALER'S IN MY JACKET. IT'S FINE.'). The props are his porter load; ch 16 uses one (P44–P46 here)."
 
   - id: P37
@@ -578,10 +601,11 @@ panels:
       In the gallery (guro_side_gallery). Nib kneels at Kwak's shoulder and lays his RIGHT palm flat on Kwak's heaving chest, gently, feeling the
       breaths: unexpectedly kind with his hands while his face stays unchanged. Kwak looks down at the small green hand on his chest, then at Nib.
       Headlamp light from above right, hard-edged; a bar of green fissure light; violet-black shadow.
+      Frame from the knees up: Kwak left, Nib right, both faces clearly visible.
     calm: top-left
     lines:
-      - {who: nib, type: speech, side: r, text: "YOU SAID THAT THIS MORNING."}
-      - {who: mansu, type: whisper, side: l, text: "...I SAY IT A LOT."}
+      - {who: nib, type: speech, side: r, text: "YOU SAID 'IT'S FINE' THIS MORNING."}
+      - {who: mansu, type: whisper, side: l, text: "I SAY IT A LOT."}
 
   - id: P38
     shape: inset-r
@@ -592,23 +616,25 @@ panels:
       In the gallery (guro_side_gallery). Sejin kneels at Kwak's side with two gloved fingers on the inside of his right wrist for a pulse; under
       them a small, faint, dormant return mark glows palely (cold white, faint violet edge). Her face above, lit by her own headlamp: flat,
       professional, grim.
+      Sejin's face occupies the right third above Kwak's wrist.
     calm: left
     lines:
-      - {who: sejin, type: speech, side: r, text: "HIS MARK'S FINE."}
-      - {who: sejin, type: speech, side: r, text: "HE ISN'T."}
+      - {who: sejin, type: speech, side: r, text: "KWAK'S RETURN MARK WORKS."}
+      - {who: sejin, type: speech, side: r, text: "HIS LUNGS ARE STRUGGLING."}
     notes: "Ch 14 P20's warning that four o'clock is too long in the dust, made flesh. Marks do not heal or revive anyone."
 
   - id: P39
     shape: wide
     gap: short
     bg: black
-    camera: "over Kwak's shoulder toward Nib"
+    camera: "medium two-shot at floor level, Kwak left and Nib right"
     art: >
-      In the gallery (guro_side_gallery). Over Kwak's shoulder: his big dusty hand closes round Nib's thin wrist, and Nib lets him. Kwak's eyes
+      In the gallery (guro_side_gallery). Kwak in left profile, his face visible: his big dusty hand closes round Nib's thin wrist, and Nib lets him. Kwak's eyes
       search Nib's face with the only question he has. Nib answers plainly, steady. Headlamp light, hard shadow.
+      Nib's face is fully visible on the right. Frame both from the chest up.
     calm: top
     lines:
-      - {who: mansu, type: whisper, side: l, text: "...DAMI?"}
+      - {who: mansu, type: whisper, side: l, text: "IS DAMI SAFE?"}
       - {who: nib, type: speech, side: r, text: "OUTSIDE. SAFE."}
     notes: "Nib does not mention the inhaler: Kwak learns where it came from in ch 16 P19 ('DAMI.')."
 
@@ -622,10 +648,11 @@ panels:
       both gloved hands over her mouth, eyes squeezed shut and streaming, her shoulders shaking. Taeo sags back in his folding chair with the
       handset (in his LEFT hand now) pressed to his forehead, eyes closed, the breath going out of him. Haein, one headphone cup to her ear, grins
       at the relay case. Behind them, porters with shoulder frames stop mid-step to listen. The gate's violet slit 8 m off. Strut-shadow bars.
+      Dami left, Taeo centre, Haein right. Frame the foreground group from the waist up.
     calm: top
     lines:
-      - {who: minho, type: phone, side: r, text: "WE'VE GOT KWAK. HE'S ALIVE."}
-      - {who: minho, type: phone, side: r, text: "PINNED UNDER A SLAB. SEJIN'S ON HIM."}
+      - {who: "offpanel:minho", type: phone, side: r, text: "WE'VE FOUND KWAK. HE'S ALIVE."}
+      - {who: "offpanel:minho", type: phone, side: r, text: "KWAK'S LEGS ARE PINNED UNDER A SLAB. SEJIN'S TREATING HIM."}
     sfx:
       - {text: "KSSH", style: quiet, at: [0.62, 0.42], size: S, rot: 0}
     notes: "Minho says the porter's name on the air (ch 18: the news never does). About 2:30 PM."
@@ -658,7 +685,7 @@ panels:
     notes: "Beat: a scuttling thing moves in the dark. Match ch 16's scuttler (no eyes); it bursts from this fissure in ch 16 P16."
 
   - id: P43
-    shape: wide
+    shape: tall
     gap: short
     bg: black
     camera: "low angle from the chamber floor by Kwak, looking up at Minho"
@@ -666,10 +693,11 @@ panels:
       Low angle from the floor (guro_side_gallery): Minho, stooped under the low ceiling, plants himself between the fissure and the others with the
       telescoping survey pole levelled in both hands, its hooked head toward the hole, his headlamp's hard white cone fixed on it. Calm, scared,
       steady. Behind him, Sejin kneels at Kwak; Nib at the slab. Green fissure light, violet-black shadow.
+      Minho stands hunched on the left, Sejin and Kwak centre, Nib right. Preserve natural proportions under the ceiling.
     calm: top-right
     lines:
-      - {who: minho, type: speech, side: l, text: "SEJIN. WORK."}
-      - {who: minho, type: speech, side: l, text: "I'VE GOT THE HOLE."}
+      - {who: minho, type: speech, side: l, text: "SEJIN. TREAT KWAK."}
+      - {who: minho, type: speech, side: l, text: "I'LL WATCH THE CREATURE'S FISSURE."}
 
   - id: P44
     shape: wide
@@ -681,10 +709,11 @@ panels:
       ceiling, points up: from a crack in the ceiling above the slab, a thin stream of grit is trickling down onto it. Nib sets his radio down on a
       flat rock beside the slab, its small status light lit, and reaches for one of Kwak's spilled props. Kwak follows the trickle with his eyes.
       Headlamp light, green fissure bars, violet-black shadow.
+      Sejin kneels left, Kwak centre, Nib right. Frame from the knees up around the slab.
     calm: top
     lines:
-      - {who: sejin, type: speech, side: l, text: "THE CEILING'S MOVING. GET HIM OUT FIRST."}
-      - {who: nib, type: speech, side: r, text: "I LIFT. YOU PULL."}
+      - {who: sejin, type: speech, side: l, text: "THE CEILING'S MOVING. GET KWAK OUT FIRST."}
+      - {who: nib, type: speech, side: r, text: "I LIFT THE SLAB. YOU PULL KWAK."}
     notes: "Triage: the weight and the ceiling first, the inhaler after (ch 16 P19). The radio on the rock is where ch 16 P01 finds it, and where the slab crushes it in ch 16 P04."
 
   - id: P45
@@ -697,9 +726,10 @@ panels:
       prop on the loose pale grit beside Kwak's knees and fits its head plate under the slab's low edge, spinning the threaded collar by hand; his
       radio sits on the flat rock just right of the prop. Sejin kneels at Kwak's side with one fist bunched in his vest's shoulder strap, ready to
       pull. Kwak, propped on his elbows, grits his teeth. Headlamp light, a bar of green fissure light, violet-black shadow, pale grit.
+      Sejin kneels left, Kwak centre, Nib right; use knees-up framing.
     calm: top
     lines:
-      - {who: sejin, type: speech, side: l, text: "A HAND'S WIDTH. THEN WE PULL."}
+      - {who: sejin, type: speech, side: l, text: "RAISE THE SLAB A HAND'S WIDTH. THEN WE PULL KWAK."}
     notes: "Staged for ch 16 P01–P03: Nib's hands on the prop, Sejin at Kwak's side with a fist in his vest strap, about to count. The prop's foot sits on loose grit: that is what slips in P47."
 
   - id: P46
@@ -713,9 +743,10 @@ panels:
       finger's width off Kwak's shins; dust and grit pour off it in drawn streams. Sejin leans back on the vest strap; Kwak's face twists. In the
       background, Minho's back and his headlamp cone toward the fissure. Speed lines on the falling grit, hard shadows. Adult, wiry, straining:
       never cute.
+      Sejin is left, Kwak centre, Nib right; Minho guards the fissure in the background.
     calm: top
     lines:
-      - {who: sejin, type: speech, side: l, text: "MORE."}
+      - {who: sejin, type: speech, side: l, text: "HIGHER. KWAK'S LEGS ARE STILL PINNED."}
     sfx:
       - {text: "GRRRK", style: impact, at: [0.62, 0.30], size: L, rot: -8}
 
@@ -744,7 +775,7 @@ panels:
       No other glow, no soft bloom.
     calm: none
     lines:
-      - {who: taeo, type: float, text: "THE ONE THAT'S SLIPPING."}
+      - {who: taeo, type: float, text: "I RECOGNISED THE SLIP FROM THE BEAM TEST."}
     notes: "Beat: Taeo's palm SCREAMS; through Nib's hands he feels the support slipping. Callback to ch 12, where Taeo, blindfolded, called which of three beams was slipping."
 
   - id: P49
@@ -759,6 +790,7 @@ panels:
       the table, as if he could reach it from here; he cannot, and he stays. Beside him Dami jerks round on her crate, Kwak's navy canvas jacket sliding off
       her lap; at the far end Haein grabs the relay case with both hands. The amber is the only warm colour; the gate's cold rim is the only light
       behind him. The panel's top edge breaks its border. Hard shadows, no haze, no interface windows.
+      Taeo is centred, Dami at the left, Haein at the right; all three faces stay clear.
     calm: top
     lines:
       - {who: taeo, type: shout, side: c, text: "OUT! NIB, OUT NOW!"}

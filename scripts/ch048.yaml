@@ -22,6 +22,8 @@ location_notes:
   aao_exam_hall: "New room in the AAO building, not Chae's keyed office: north wall clock, east high windows, spaced single grey desks, south double doors, front collection table. Navy seats and blank green exit plaques."
   aao_practical_hall: "New ground-floor AAO gym: south double entrance, operator rail along east wall, grey padded floor with a central lane, north equipment doors. Blue-white overhead strips, high west daylight. No dungeon gate."
 props:
+  boots: "Nib's ch043 pair: matte dark-brown ankle-high leather lace-up work boots, broad round toe, four pairs of dull gunmetal round eyelets, dark-brown round laces in small double knots, plain black lug soles/low heel, heel pull tabs, oat-grey short socks inside collars. No hooks, buckles, logos, bright trim or visible steel caps."
+  orrin_shell: "Preserve the existing ch037 shell injury and any subsequent established repair; this chapter adds no damage and does not heal it by omission."
   nib_locks: "Adult 105 cm scout; LEFT-ear V-notch, one lower LEFT fang, brown rope belt, RIGHT pouch with green dinosaur sticker, LEFT brown wooden sheath. Ch043 chosen boots, identical to that chapter; no barefoot regression. Matte-black 8x30 binoculars high on chest, black woven strap knotted LEFT of neck, Kett fork scratched on hinge. Pale-blue ID, folded PAPER watch-post drawing, cobalt pencil with carved fork remain in pouch."
   taeo_locks: "ONE mole below RIGHT eye; olive backpack with faded orange OLD shield-and-open-door patch; dark-grey phone with top-left hairline crack and green dinosaur sticker. Residual forearm bruises from carrying, no fresh injury this chapter."
 palette_notes: "A4 yard dusty ochre/warm brown/sky blue; evening study uses one warm practical lamp and blue-grey shadow. Academy and AAO adopt A4 institutional blue-white/slate/navy. All generated boards, papers, tags and signs blank; readable matter only ui.label. Screens dark unless filled by same-panel UI. Flat cel colour, warm near-black varied contours; no bloom, photographic blur or decorative particles."
@@ -35,12 +37,13 @@ panels:
       At ryu_practice_yard immediately after ch047, taeo's black hoodie cuff and one long finger rest under a blank
       category strip on the exhibition poster. The paper corner lifts against the chain link. Evening container
       lamp from left, ochre paper and brown shadows. A second blank block holds the grant figure. No invented seal or writing.
+      Taeo speaks from beyond the left edge of this poster detail.
     calm: top
     ui:
       - {kind: label, text: "REMOTE OPERATIONS", at: [0.52, 0.45]}
       - {kind: label, text: "EQUIPMENT GRANTS ₩500,000,000", at: [0.53, 0.75]}
     lines:
-      - {who: taeo, type: speech, side: l, text: "...REMOTE OPERATIONS."}
+      - {"who": "offpanel:taeo", "type": "speech", "side": "l", "text": "REMOTE OPERATIONS."}
     notes: "Pickup from ch047's specified poster hook; its script was absent at drafting. Total exhibition grant pool, not a cash prize."
   - id: P02
     shape: wide
@@ -51,11 +54,12 @@ panels:
       taeo outdoor holds a blank application leaflet, cautious hope on his tired face. minho default, LEFT grey streak,
       points to a small blank eligibility box. The keyed yard's south gate and southeast van recede behind them.
       Container lamp light against evening sky blue and ochre. Backpack old orange patch visible; no active screens.
+      Frame both men from the waist up, Taeo on the left and Minho on the right.
     calm: top
     lines:
-      - {who: minho, type: speech, side: r, text: "PROVISIONAL OPERATORS CAN ENTER."}
-      - {who: taeo, type: speech, side: l, text: "I HAVEN'T PASSED ANYTHING YET."}
-      - {who: minho, type: speech, side: r, text: "THEN YOU HAVE A SCHEDULE."}
+      - {"who": "minho", "type": "speech", "side": "r", "text": "YOU CAN ENTER WITH A PROVISIONAL OPERATOR LICENCE."}
+      - {"who": "taeo", "type": "speech", "side": "l", "text": "I HAVEN'T PASSED ANYTHING YET."}
+      - {"who": "minho", "type": "speech", "side": "r", "text": "THEN START WITH THE LICENCE EXAMS."}
   - id: P03
     shape: narrow-r
     gap: short
@@ -68,7 +72,7 @@ panels:
     lines:
       - {who: taeo, type: float, text: "MY HOPE ALREADY HAS A TUITION FEE."}
   - id: P04
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low two-shot at Nib's eye level beside the fence"
@@ -76,17 +80,18 @@ panels:
       nib default with ch043 boots, binoculars and locked belt props folds a corner of the blank leaflet into taeo's
       hand, holding his gaze without smiling. Taeo crouches beside him, sheepish. Evening lamp catches Nib's LEFT
       notch and weathered adult profile. Yard fence simplified brown and blue; no mascot proportions or magical light.
+      Nib stands on the left, Taeo crouches on the right, with room around their whole poses.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "TAKE THE FREE PART."}
-      - {who: taeo, type: speech, side: r, text: "THAT PART I QUALIFY FOR."}
+      - {"who": "nib", "type": "speech", "side": "l", "text": "TAKE THE FREE INTRODUCTORY CLASS."}
+      - {"who": "taeo", "type": "speech", "side": "r", "text": "FREE. A REQUIREMENT I CAN MEET."}
   - id: P05
     kind: title
     gap: long
     bg: white
     title_text: "CHAPTER 48 · SPEC"
   - id: P06
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "establishing from the academy's rear doorway along the centre aisle"
@@ -95,10 +100,11 @@ panels:
       right. Anxious adult hunters compare immaculate binders. taeo outdoor sits at the back with a thin borrowed
       book and olive backpack. academy_tutor stands by the blank board. Cool fluorescent blue-white, slate shadows,
       muted navy seats. No readable slides, hovering interface or schoolchildren.
+      Keep the tutor standing on the right with full height; seated Taeo is at the back left.
     calm: top
     lines:
-      - {who: narr, type: tag, text: "FREE INTRODUCTORY CLASS"}
-      - {who: academy_tutor, type: speech, side: r, text: "YOUR RANK IS YOUR STARTING POINT. YOUR SPEC IS WHAT YOU ADD."}
+      - {"who": "narr", "type": "tag", "text": "FREE INTRODUCTORY CLASS"}
+      - {"who": "academy_tutor", "type": "speech", "side": "r", "text": "YOUR RANK IS YOUR STARTING POINT. YOUR SPEC MEANS YOUR QUALIFICATIONS: LICENCES, TRAINING, CLEARS."}
   - id: P07
     shape: strip
     gap: short
@@ -122,11 +128,12 @@ panels:
       candidate_hood in maroon hoodie leans across the aisle toward taeo outdoor, his own fingers picking at a
       navy wallet. Taeo attempts a sociable smile, shoulders already raised defensively. Academy west daylight
       edges their faces over blue-white tube fill. Simplified desks behind; assessment card face down, no screen.
+      Frame both seated candidates from the waist up, candidate_hood on the left and Taeo on the right.
     calm: top
     lines:
-      - {who: candidate_hood, type: speech, side: l, text: "WHAT'S YOUR OUTPUT?"}
-      - {who: taeo, type: speech, side: r, text: "E."}
-      - {who: candidate_hood, type: speech, side: l, text: "OH. FIRST ATTEMPT?"}
+      - {"who": "candidate_hood", "type": "speech", "side": "l", "text": "WHAT'S YOUR OUTPUT RANK?"}
+      - {"who": "taeo", "type": "speech", "side": "r", "text": "E-RANK."}
+      - {"who": "candidate_hood", "type": "speech", "side": "l", "text": "OH. FIRST ATTEMPT?"}
   - id: P09
     shape: inset-l
     gap: short
@@ -136,10 +143,11 @@ panels:
       taeo outdoor, mole below RIGHT eye, smiles the small employee smile he uses when a conversation changes.
       One hand keeps the thin workbook open. Academy tube light from above, blue-white against flat slate.
       Honest tired acting rather than cartoon distress. No phone, extra mole or marks on the page.
+      Taeo's face is in the left third.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: l, text: "AT THIS ONE. YES."}
-      - {who: taeo, type: float, text: "HE MEANT WELL. THAT MADE IT WORSE."}
+      - {"who": "taeo", "type": "speech", "side": "l", "text": "FIRST OPERATOR LICENCE EXAM. YES."}
+      - {"who": "taeo", "type": "float", "text": "HE MEANT WELL. THAT MADE IT WORSE."}
   - id: P10
     shape: wide
     gap: short
@@ -149,6 +157,7 @@ panels:
       candidate_vest turns from her beautifully tabbed binder, addressing the maroon-hooded candidate rather than
       taeo. Her confidence is casual, not sneering. Taeo's shoulder stays in the near foreground, listening.
       Academy west daylight and hard fluorescent fill, slate and paper white. No legible binder tabs or fantasy weapons.
+      Draw candidate_hood seated on the left and candidate_vest seated on the right, both faces visible from the waist up; Taeo's shoulder remains near foreground.
     calm: top
     lines:
       - {who: candidate_vest, type: speech, side: r, text: "E-RANK OPERATORS USUALLY DO WAREHOUSE COMPLIANCE."}
@@ -173,6 +182,7 @@ panels:
       academy_tutor gestures toward a blank timed-test diagram; nearly every adult hunter raises a hand before
       taeo has found the page. His lone hunched figure at the back remains visible. Cool academy tubes and west
       daylight; navy and slate with cream paper. Raised hands anatomically distinct; no projected questions generated in art.
+      The tutor stands on the right; candidate_vest is clearly visible seated in the left foreground with her hand raised.
     calm: top
     lines:
       - {who: academy_tutor, type: speech, side: r, text: "A COLLAPSE BLOCKS THE CONTRACT ROUTE. WHAT DO YOU SECURE FIRST?"}
@@ -186,11 +196,12 @@ panels:
       taeo outdoor stops searching the book. His mouth settles and his eyes become focused: this question has
       a physical memory behind it. A small frayed backpack strap lies against his chair. Blue-white academy light,
       plain slate background. No flashback figures, gate or imagined casualty; let his adult face carry the beat.
+      Taeo's face occupies the right third.
     calm: left
     lines:
       - {who: taeo, type: whisper, side: r, text: "AND COUNT WHO'S STILL INSIDE."}
   - id: P14
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "across the classroom as the tutor points toward the back"
@@ -198,12 +209,13 @@ panels:
       academy_tutor points openly toward taeo, approving his addition without making a spectacle. Several candidates
       turn; candidate_hood looks surprised. Taeo has accidentally straightened in his chair. Blank board at right,
       cool tube light, slate shadows. No rank aura, celebrity imagery or extra writing.
+      The tutor stands on the right and seated Taeo is on the left; leave room for the standing figure.
     calm: top
     lines:
       - {who: academy_tutor, type: speech, side: r, text: "YES. PERSONNEL ACCOUNTING. THAT'S ANOTHER POINT."}
       - {who: taeo, type: nervous, side: l, text: "SORRY. WAS THAT OUT LOUD?"}
   - id: P15
-    shape: inset-l
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -212,12 +224,13 @@ panels:
       CHIBI academy_tutor presents a huge stack of blank binders to tiny chibi taeo whose wallet exhales one
       flat cartoon moth silhouette. His old orange backpack patch and navy jacket remain correct. Flat
       institutional pale-blue screentone, imagined academy gag under tube-light colour. No detailed classroom, readable covers or live magic.
+      Chibi tutor is on the left and chibi Taeo on the right; fit both full gag poses without squeezing them.
     calm: right
     lines:
-      - {who: academy_tutor, type: speech, side: l, text: "THE FULL COURSE CORRECTS THESE GAPS."}
-      - {who: taeo, type: speech, side: r, text: "DOES IT ACCEPT GAPS AS PAYMENT?"}
+      - {"who": "academy_tutor", "type": "speech", "side": "l", "text": "THE FULL COURSE FILLS THE GAPS IN YOUR PREPARATION."}
+      - {"who": "taeo", "type": "speech", "side": "r", "text": "DOES IT ACCEPT GAPS AS PAYMENT?"}
   - id: P16
-    shape: wide
+    shape: tall
     gap: long
     bg: white
     camera: "high from the rear stair landing, end of the free class"
@@ -225,10 +238,11 @@ panels:
       At awakened_cram_academy's south exit, candidates queue to pay at a small table. taeo outdoor instead
       returns a sample binder carefully, retaining only the free worksheet. Tutor gives a practical nod. Late
       daylight from west windows falls across grey steps; blue-white and slate. No card numbers or tuition signage in art.
+      Taeo stands on the left returning the binder to the tutor on the right, with room for the waiting queue.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "THANK YOU. I'LL STUDY THIS FIRST."}
-      - {who: academy_tutor, type: speech, side: r, text: "THE PUBLIC QUESTION BANK IS FREE, TOO."}
+      - {"who": "taeo", "type": "speech", "side": "l", "text": "THANK YOU. I'LL STUDY THE FREE WORKSHEET FIRST."}
+      - {"who": "academy_tutor", "type": "speech", "side": "r", "text": "THE PUBLIC QUESTION BANK IS FREE, TOO."}
   - id: P17
     shape: narrow-r
     gap: short
@@ -241,7 +255,7 @@ panels:
     lines:
       - {who: taeo, type: float, text: "FREE WAS STILL A WORD I COULD READ."}
   - id: P18
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "establishing from the keyed yard gate toward the equipment trestle"
@@ -250,11 +264,12 @@ panels:
       three north targets. At west trestle taeo has removed his jacket and spread free worksheets; eunchae in
       cream rolled sleeves and grey-green vest sets down a kitchen timer. Dusty ochre, warm brown, sky blue;
       afternoon sun southeast. No moved maze walls or active gate.
+      Taeo sits on the left and Eunchae stands on the right, with room for her whole figure.
     calm: top
     lines:
-      - {who: eunchae, type: speech, side: r, text: "I FAILED MY PRACTICAL BY TWO POINTS. MY WRITTEN WAS GOOD."}
-      - {who: taeo, type: speech, side: l, text: "YOU DON'T HAVE TO—"}
-      - {who: eunchae, type: speech, side: r, text: "I KNOW. START THE TIMER."}
+      - {"who": "eunchae", "type": "speech", "side": "r", "text": "I FAILED MY PRACTICAL BY TWO POINTS. MY WRITTEN WAS GOOD."}
+      - {"who": "taeo", "type": "speech", "side": "l", "text": "SORRY. YOU DON'T HAVE TO TUTOR ME."}
+      - {"who": "eunchae", "type": "speech", "side": "r", "text": "I KNOW. START THE TIMER."}
   - id: P19
     shape: strip
     gap: short
@@ -264,11 +279,12 @@ panels:
       eunchae's short borrowed pencil taps beside taeo's plain black exam pen on a blank ruled answer sheet.
       Her dog-eared hygiene workbook with tabs props one end of the pages. At ryu_practice_yard, late sun warms
       the wood and makes hard brown shadows. No substitution for Nib's cobalt pencil, no written answers or timer numerals.
+      Eunchae speaks from beyond the right edge of this pencil detail.
     calm: top
     lines:
-      - {who: eunchae, type: speech, side: r, text: "READ THE QUESTION THEY ASKED. NOT THE ONE YOU FEAR."}
+      - {"who": "offpanel:eunchae", "type": "speech", "side": "r", "text": "READ THE QUESTION THEY ASKED. NOT THE ONE YOU FEAR."}
   - id: P20
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low side view along the study table"
@@ -276,13 +292,14 @@ panels:
       taeo default bends over his paper, trying hard; nib default with boots stands on the ground beside the
       table, binoculars resting high against his wrap top, eyes narrowed at the generous gutter left on a
       worksheet. Eunchae waits opposite. Yard afternoon sun, ochre and brown, plain plywood behind. All paper blank.
+      Nib stands on the left, Taeo sits at centre and Eunchae waits on the right; give the standing figures full height.
     calm: top
     lines:
       - {who: nib, type: speech, side: l, text: "WHY SO MUCH EMPTY PAPER?"}
       - {who: eunchae, type: speech, side: r, text: "WORKING SPACE."}
       - {who: nib, type: speech, side: l, text: "HE'S WORKING IN ALL OF IT."}
   - id: P21
-    shape: inset-r
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -291,11 +308,12 @@ panels:
       CHIBI taeo is buried waist-deep in a fortress of blank practice sheets, clutching a tiny pen like a
       shovel. Chibi eunchae stands outside with a timer and one merciless raised brow. Flat ochre screentone
       associated with the yard's warm sun; black hoodie and cream shirt retained. No readable numbers or realistic debris.
+      Chibi Taeo is on the right and chibi Eunchae stands on the left, both gag poses given room.
     calm: left
     lines:
       - {who: taeo, type: nervous, side: r, text: "I'M EXPANDING THE WORKING SPACE."}
   - id: P22
-    shape: vignette
+    shape: tall
     gap: long
     bg: white
     silent: true
@@ -305,6 +323,7 @@ panels:
       lit by one warm desk lamp, open door framing the navy evening. Outside, nib default in chosen boots
       turns his binoculars away from the lamp to watch the fence. Old backpack patch hangs by the door.
       Blue-grey shadows, warm paper; no legible pages or magically lit eyes.
+      Give the standing Nib full height outside the doorway while Taeo studies inside.
     calm: none
   - id: P23
     shape: wide
@@ -315,6 +334,7 @@ panels:
       orrin default fills the outdoor half of the open doorway with stacked-slate shell and adult heavy-lidded
       face; he remains outside rather than squeezing through. Taeo looks up from his papers, sleep-starved.
       Ryu yard lamp light warms Orrin's olive-grey cheek against navy. No harness, saddle, cute tortoise face or shifted door frame.
+      Crop Orrin to his face and front shell on the right; show seated Taeo from the waist up on the left.
     calm: top
     lines:
       - {who: orrin, type: speech, side: r, text: "DOES THIS TEST HAVE A BEDTIME?"}
@@ -328,11 +348,21 @@ panels:
       At the residential study table, taeo's hand accepts the plain white mug with one thin green band;
       nib's scarred hand has set it beyond the spread of blank worksheets. Warm desk lamp left, brown shadows,
       blue-grey doorway beyond. Water clear, no glowing link, no coffee branding or written tally.
+      Nib speaks from beyond the right edge of this cup-and-hands detail.
     calm: top
     lines:
-      - {who: nib, type: speech, side: r, text: "DRINK."}
-      - {who: taeo, type: speech, side: l, text: "YOU FIRST?"}
-      - {who: nib, type: speech, side: r, text: "YOU LOOK WORSE."}
+      - {"who": "offpanel:nib", "type": "speech", "side": "r", "text": "DRINK."}
+  - id: P24a
+    shape: "tall"
+    gap: "short"
+    bg: "white"
+    camera: "medium two-shot from the open residential doorway, both faces and the cup visible"
+    art: "At ryu_practice_yard, show Taeo (default black hoodie) seated on the left with the plain white mug and its thin green band. Nib (default adult scout in his exact ch043 dark-brown boots, full locked belt gear and high binoculars) stands on the right, eyes narrowed at Taeo's sleep-starved face. Taeo attempts a tired polite joke; Nib stays dry and practical. Give the standing figure full height. Warm desk lamp from the left, brown shadows and blue-grey night through the unchanged doorway. Keep study papers blank; no link glow, healing, extra cup or generated writing."
+    calm: "top"
+    lines:
+      - {"who":"taeo","type":"speech","side":"l","text":"YOU FIRST?"}
+      - {"who":"nib","type":"speech","side":"r","text":"YOU LOOK WORSE."}
+
   - id: P25
     shape: wide
     gap: long
@@ -342,6 +372,7 @@ panels:
       minho default leans over taeo's returned practice sheet, one finger on a blank section near the bottom.
       Taeo default sits with pen poised, defensive joke giving way to attention. Minho's LEFT temple grey and
       LEFT chest radio correct. Yard sun southeast, dusty ochre and warm brown. No red correction marks generated.
+      Frame seated Taeo from the waist up on the left and leaning Minho from the waist up on the right.
     calm: top
     lines:
       - {who: minho, type: speech, side: r, text: "YOU KNOW THE SAFETY WORK. YOU LOSE POINTS ON THE FORMS."}
@@ -358,9 +389,9 @@ panels:
       across flat ochre background. No black eye, active palm light, spare hands or writing on his skin.
     calm: right
     lines:
-      - {who: taeo, type: float, text: "I WAS STARTING TO WANT THE POINTS."}
+      - {"who": "taeo", "type": "float", "text": "I WAS STARTING TO WANT A GOOD SCORE."}
   - id: P27
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "establishing from the south doors of the AAO written hall"
@@ -369,12 +400,13 @@ panels:
       windows, navy chairs, invigilator's front table. Anxious young adult hunters clutch transparent pen pouches.
       Taeo outdoor stands small at the south doors, olive backpack secure. Clean A4 blue-white daylight and slate
       shadows. Not Chae's office; no summoned companions seated as candidates.
+      Give arriving Taeo and the anxious standing candidates their full height.
     calm: top
     lines:
       - {who: narr, type: tag, text: "WRITTEN EXAMINATION · CHECK-IN"}
       - {who: taeo, type: float, text: "I'D RATHER WAIT OUTSIDE A GATE."}
   - id: P28
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "hallway bench at Nib's eye level, before the exam doors"
@@ -383,6 +415,7 @@ panels:
       beside him, old patch out. Sera default leans against the wall, braid, LEFT bracer, RIGHT-hip flute and
       unstrung bow retained; competitive smile. Taeo stands right holding admission slip. Blue-white overhead light;
       no exposed blade, arrow nocked or readable pass.
+      Sera stands on the left, Nib sits at centre, Taeo stands on the right; give the standing figures room.
     calm: top
     lines:
       - {who: sera, type: speech, side: l, text: "IS THERE A PRIZE FOR FIRST?"}
@@ -408,6 +441,7 @@ panels:
       taeo default removes his navy jacket onto his chair and lays two pens parallel on his aao_exam_hall desk.
       candidate_hood at the next desk rubs bitten nails together, spotting him. East daylight from right,
       institutional blue-white and navy. Backpack left outside with Nib, all exam papers face down and blank.
+      Show both seated faces from the waist up, candidate_hood on the left and Taeo on the right.
     calm: top
     lines:
       - {who: candidate_hood, type: whisper, side: l, text: "YOU DIDN'T BUY THE COURSE?"}
@@ -421,9 +455,10 @@ panels:
       candidate_hood in maroon hoodie tries a shaky smile at his aao_exam_hall desk. His document wallet is
       shut under the chair; his hand grips one pen painfully hard. Blue-white east daylight catches the nails,
       slate plain background. No smug caricature or readable exam information.
+      Candidate_hood's nervous mouth and face are in the right third.
     calm: left
     lines:
-      - {who: candidate_hood, type: whisper, side: r, text: "CAN I BORROW THE OTHER?"}
+      - {"who": "candidate_hood", "type": "whisper", "side": "r", "text": "CAN I BORROW YOUR SPARE PEN?"}
   - id: P32
     shape: strip
     gap: short
@@ -436,7 +471,7 @@ panels:
       paper cream and slate shadow. Neither candidate sees an answer sheet. No writing or supernatural effect.
     calm: none
   - id: P33
-    shape: full
+    shape: tall
     gap: short
     bg: white
     camera: "high from the front wall looking back over bent heads"
@@ -444,6 +479,7 @@ panels:
       aao_exam_hall candidates turn their blank papers face up together as invigilator in navy cardigan lowers
       his clipboard. Taeo default is mid-row, shoulders tight, his spare pen now at the next desk. Morning east
       light makes orderly hard slate shadows. Blank clock overhead, no answer glyphs or exaggerated perspective distortion.
+      Keep the standing invigilator clearly visible on the right with room for his whole figure.
     calm: top
     lines:
       - {who: invigilator, type: speech, side: r, text: "NINETY MINUTES. BEGIN."}
@@ -462,7 +498,7 @@ panels:
     ui:
       - {kind: label, text: "1. SELECT THE REQUIRED FORM.", at: [0.48, 0.35]}
     lines:
-      - {who: taeo, type: thought, text: "OF COURSE IT'S YOU."}
+      - {"who": "taeo", "type": "thought", "text": "OF COURSE. A FORMS QUESTION."}
   - id: P35
     shape: strip
     gap: short
@@ -485,6 +521,7 @@ panels:
       taeo default bends over the exam with a regular working posture now, pen moving, free hand holding
       the corner flat. Behind him candidate_vest pauses with eyes closed and releases a breath; anxiety is shared.
       Aao_exam_hall east daylight and overhead tubes, slate desks. Blank paper texture, no literal answers or cute exaggeration.
+      Frame both seated candidates from the waist up across their desks.
     calm: none
   - id: P37
     shape: narrow-r
@@ -507,9 +544,10 @@ panels:
       taeo default runs the capped end of his pen down the edge of a blank answer grid, counting alignments
       carefully; his mouth moves in silent counting, not speech. Invigilator's soft shoes pass in the aisle.
       AAO blue-white tubes with east daylight; no legible answers or superimposed memories, hard cel shadow under wrist.
+      The invigilator speaks from above the right edge, with only his passing shoes visible in the aisle.
     calm: top
     lines:
-      - {who: invigilator, type: speech, side: r, text: "FIVE MINUTES."}
+      - {"who": "offpanel:invigilator", "type": "speech", "side": "r", "text": "FIVE MINUTES."}
   - id: P39
     shape: strip
     gap: short
@@ -522,7 +560,7 @@ panels:
       paper white and slate-grey desk. No score yet, no rank stamps or glowing effects.
     calm: none
   - id: P40
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "from the hallway bench toward the opening exam doors"
@@ -530,12 +568,13 @@ panels:
       taeo outdoor emerges from aao_exam_hall into the corridor, jacket back on, face emptied by concentration.
       nib default in boots rises from the bench with his backpack; sera default has been practising finger
       placement on the small bone flute at her RIGHT hip. Blue-white overhead fixtures, navy bench. No live music effects or readable signs.
+      Nib rises on the left, Taeo emerges on the right, Sera remains between them, with room for their standing bodies.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "BACK."}
-      - {who: taeo, type: speech, side: r, text: "MOST OF ME."}
+      - {"who": "nib", "type": "speech", "side": "l", "text": "YOU CAME BACK."}
+      - {"who": "taeo", "type": "speech", "side": "r", "text": "MOST OF ME."}
   - id: P41
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "across the corridor as the borrowed pen returns"
@@ -543,10 +582,11 @@ panels:
       candidate_hood offers taeo his borrowed black pen, giving a sincere little bow. Taeo has his olive
       backpack back on one shoulder; Nib watches without intruding. Sera stands behind in green tunic.
       AAO corridor tube light, slate and blue-white. No paper score revealed yet or mocking crowd.
+      Candidate_hood stands on the left, Taeo on the right; Nib and Sera wait behind them with room for all figures.
     calm: top
     lines:
-      - {who: candidate_hood, type: speech, side: l, text: "THANKS. WHAT DID YOU PUT FOR THE COLLAPSE ONE?"}
-      - {who: taeo, type: nervous, side: r, text: "SORRY. I CAN'T TAKE IT AGAIN WHILE STANDING UP."}
+      - {"who": "candidate_hood", "type": "speech", "side": "l", "text": "THANKS. WHAT DID YOU ANSWER FOR THE COLLAPSE QUESTION?"}
+      - {"who": "taeo", "type": "nervous", "side": "r", "text": "SORRY. I CAN'T TAKE THE EXAM AGAIN WHILE STANDING UP."}
   - id: P42
     shape: narrow-l
     gap: long
@@ -568,12 +608,13 @@ panels:
       BIG REACTION: taeo outdoor at ryu_practice_yard stares at his phone facing away from us, eyes huge,
       mouth opening into startled laughter. He has forgotten the second pen still held behind his ear.
       Afternoon sun warms ochre fence dust and navy jacket; RIGHT-eye mole correct. No screen visible or confetti effects.
+      Keep Taeo's face at centre.
     calm: top
     lines:
       - {who: taeo, type: speech, side: c, text: "I PASSED."}
       - {who: taeo, type: speech, side: c, text: "I ACTUALLY PASSED."}
   - id: P44
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low reverse across the trestle toward the crew"
@@ -581,11 +622,12 @@ panels:
       nib default in boots nudges the chair toward taeo, ears relaxed; orrin default inclines his broad head
       in slow approval; sera default holds out an expectant palm for the phone. Taeo's hand enters right.
       Ryu yard ochre sunlight, brown shadows, muted green garments. No human harness on Orrin or sudden link light.
+      Nib stands on the left, Orrin's face is at centre, Sera stands on the right; all three speakers are clearly visible with room for their bodies.
     calm: top
     lines:
-      - {who: sera, type: speech, side: r, text: "SEVENTY-EIGHT. DID ANYONE SCORE HIGHER?"}
-      - {who: nib, type: speech, side: l, text: "HE PASSED."}
-      - {who: orrin, type: speech, side: c, text: "LET THAT BE THE WHOLE NUMBER TODAY."}
+      - {"who": "sera", "type": "speech", "side": "r", "text": "SEVENTY-EIGHT. DID ANYONE SCORE HIGHER?"}
+      - {"who": "nib", "type": "speech", "side": "l", "text": "HE PASSED."}
+      - {"who": "orrin", "type": "speech", "side": "c", "text": "SEVENTY-EIGHT WAS ENOUGH TO PASS. LET THAT BE ENOUGH TODAY."}
   - id: P45
     shape: vignette
     gap: short
@@ -598,7 +640,7 @@ panels:
       his relieved half-smile at the top edge. Afternoon sun, ochre and blue-grey. No readable worksheet, redesigned patch or fame imagery.
     calm: none
   - id: P46
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "establishing from AAO practical hall's east operator rail toward south entrance"
@@ -607,10 +649,11 @@ panels:
       east operator rail in foreground. Taeo outdoor waits beside nib default with boots, orrin default and sera
       default, all adult and attentive. Other candidates stand back. Institutional blue-white fixtures, slate shadows.
       No dungeon slit, return marks or lit screens.
+      Place Taeo on the left beside his crew, with full height for all standing figures.
     calm: top
     lines:
-      - {who: narr, type: tag, text: "PRACTICAL ASSESSMENT · NEXT SCHEDULED SESSION"}
-      - {who: taeo, type: speech, side: l, text: "SEVENTY-EIGHT DOESN'T COME WITH ME, DOES IT?"}
+      - {"who": "narr", "type": "tag", "text": "PRACTICAL ASSESSMENT · NEXT SCHEDULED SESSION"}
+      - {"who": "taeo", "type": "speech", "side": "l", "text": "MY WRITTEN SCORE WON'T HELP WITH THE PRACTICAL, WILL IT?"}
   - id: P47
     shape: strip
     gap: short
@@ -632,9 +675,10 @@ panels:
       taeo outdoor recognises the newcomer, eyebrows climbing and breath caught halfway to a greeting.
       Nib's LEFT notched ear and binocular strap frame the near left. AAO blue-white ceiling strips and west
       daylight; plain slate behind. No imaginary training-video frame, star sparkles or chibi switch during this serious turn.
+      Taeo's face occupies the right third; Nib's ear remains only a foreground edge.
     calm: left
     lines:
-      - {who: taeo, type: whisper, side: r, text: "I LEARNED FROM HIS VIDEOS."}
+      - {"who": "taeo", "type": "whisper", "side": "r", "text": "THE MAN FROM MY TRAINING VIDEOS."}
   - id: P49
     shape: tall
     gap: long

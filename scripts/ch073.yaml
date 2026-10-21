@@ -1,0 +1,730 @@
+chapter: 73
+title: Guilt
+when: "Late on the day of Sera's evacuation, through the following dawn. Hospital and gate staging both in Chungju; no trip back to Seoul."
+story_beats: PART_ONE_BEATS.md#73
+cast:
+  taeo: outdoor # Same clothing through hospital night; clean cloth at nose, RIGHT forearm wrapped after examination.
+  nib: default # Exact ch043 boots, binoculars and permanent belt/pouch props.
+  orrin: default
+  sera: default # Hospital gown, padded LEFT arm splint; opening only, then remains a patient offstage.
+  kesh: default
+  sejin: default # Stays with Sera when the consortium returns.
+  minho: default
+  haein: default
+extras:
+  ward_nurse: "Korean man about 35, short hair, pale-blue scrub top, dark trousers, practical soft shoes."
+  upstream_lead: "Continue ch070 upstream lead: adult Korean woman about 35, close braid, navy Meridian field gear, white helmet, radio at LEFT shoulder; no new nameplate."
+  consortium_medic: "Adult Korean man about 45, stocky, short salt-and-pepper hair, teal field vest over grey shirt, square olive medical pack, white hard hat. Independent consortium medic, not Sejin."
+  survey_crew: "Two adult Ryu survey workers, one stocky man and one short-haired woman, dusty orange vests and white helmets, cable reel and rulers."
+props:
+  nib_boots: >
+    Exact ch043 pair: matte dark-brown ankle-high leather lace-up work boots, broad round toe,
+    no visible steel cap; four pairs of dull gunmetal round eyelets; dark-brown round laces in
+    small double knots; plain black lug soles, low heel, heel pull tab; oat-grey short socks
+    just inside collar. No logo, hooks, buckles, bright trim or exposed metal plate.
+locations: [chungju_hospital, chungju_river_gate, chungju_river_inside]
+location_notes:
+  topology_lock: >
+    ch070 master view: entry landing downstream; right-bank survey shelf runs upstream, current toward
+    landing. At marker 9, A is LEFT stepped dry shelf and B RIGHT low water-covered shortcut past split
+    pillar. Local waterward-left descriptions are relative to the right-bank approach, not an A/B swap.
+    Muted lilac mineral seams fill hard white survey lamps. The metal frame has an exposed tapping plate.
+  chungju_hospital: >
+    Continue ch072's cream/slate corridor, three linked grey seats, operating doors and service entrance.
+    Ward room has a bed on the right, bedside cupboard on the left, plain pale curtain, blue-white overhead
+    fluorescent and a small shaded night lamp. The small family waiting alcove has a plain table and water dispenser.
+  chungju_river_gate: >
+    ch071 gravel staging site: scaffold-braced slit, radio table under white canopy, ambulance lane behind.
+    White survey cable with blue bands every metre, grey relay tripod every 50 m, speaker, coiled handset,
+    white lamp. Radio works across threshold only while this line is intact. No drawn location key available.
+  chungju_river_inside: >
+    ch071 right-bank dry shelf, Channel B waterward left under low lip, high triage alcove, continuous
+    stone ceiling and NO SKY. First-sector entry landing with a scale rod left beside the water by Ryu;
+    no ancient lettering invented. Survey lamps white, shadows violet, river ink-dark. Boss remains alive.
+continuity_notes: >
+  Nib is an adult, LEFT notch and single lower LEFT fang, brown rope belt, RIGHT pouch with dinosaur,
+  LEFT wooden sheath, matte 8x30 binoculars with LEFT knot and hinge mark; ID, PAPER drawing and cobalt
+  pencil stay protected inside his pouch. Boots inherit ch043, never new shoes here. Taeo's old orange
+  shield/open-door patch, cracked dark-grey phone with dinosaur and single RIGHT-eye mole remain locked.
+  Sera has no LEFT bracer; bow, quiver and flute returned to her bedside through Sejin. No arm use or
+  discharge. No public failure record yet: the public test record belongs to ch079. No apology accepted.
+palette_notes: >
+  Hospital A4 institutional blue-white/slate; night lamp muted cream, no orange that competes with links.
+  Dawn staging cool grey-blue. Inside the skyless gate violet stone and hard white lamps; warning red
+  used sparingly on social UI. No drawn lettering, photographic blur, bloom or particles.
+panels:
+  - id: P01
+    shape: strip
+    gap: none
+    bg: white
+    silent: true
+    camera: "extreme close-up of Taeo's mouth after Sera's accusation"
+    art: >
+      taeo, outdoor, at chungju_hospital, lips parted on no word, throat held rigid above the black
+      hoodie collar. ACTING: a man with several excuses and none he can bear to say. The lower
+      edge of his bruised RIGHT wrist enters the middle third. Blue-white fluorescent, slate shadows.
+      No tear spray, speaking mouth shape, reflected interface, extra mole or lettering.
+    calm: none
+    notes: "Directly after ch072's hook. He gives Sera no answer."
+  - id: P02
+    shape: wide
+    gap: short
+    bg: white
+    camera: "corridor, from behind Taeo as Sera's trolley resumes moving"
+    art: >
+      At chungju_hospital, sejin, default teal medical clothes, resumes walking beside sera's trolley
+      toward the ward. sera, gown and padded LEFT splint, has closed her eyes again. taeo, outdoor,
+      remains by the grey seats with both hands down. ACTING: Sera spent, Taeo unable to follow.
+      Blue-white fluorescent, cream walls and slate floor. No forgiveness gesture, bow in her hand or lettering.
+    calm: top
+    lines:
+      - {who: sejin, type: speech, side: l, text: "SHE NEEDS REST."}
+      - {who: taeo, type: speech, side: r, text: "YES."}
+  - id: P03
+    shape: narrow-r
+    gap: short
+    bg: white
+    camera: "kit phone hand, Taeo reading beside the corridor seats"
+    art: "KIT HAND"
+    calm: none
+    ui:
+      - {kind: phone.info_card, on: screen, hand: taeo_left_tilt, title: "HUNTERLINK · TRENDING", text: "MY SUMMONS GO FIRST. TO DIE.\nWindow boy stays dry.\nAnyone checked on the archer?"}
+    notes: "The first comment twists the reclaimed phrase; the last asks a fair question. This is public speculation, not a leaked medical chart."
+  - id: P04
+    kind: title
+    gap: long
+    bg: white
+    title_text: "CHAPTER 73 · GUILT"
+  - id: P05
+    shape: wide
+    gap: long
+    bg: white
+    camera: "eye level along the linked corridor seats toward Taeo"
+    art: >
+      taeo, outdoor, sits at chungju_hospital, scrolling his cracked dark-grey phone held low;
+      only its back and green dinosaur sticker face us. ACTING: fixed exhausted attention, as if
+      he is performing a necessary punishment. Olive backpack with old orange open-door patch between
+      his shoes. Blue-white fluorescent, cream wall, slate seats. No readable screen, notifications floating in art or lettering.
+    calm: top
+    lines:
+      - {who: taeo, type: float, text: "THAT ONE ISN'T WRONG ABOUT THE DRY PART."}
+  - id: P06
+    shape: strip
+    gap: short
+    bg: white
+    camera: "top-down on Taeo's right forearm and the phone in his other hand"
+    art: >
+      At chungju_hospital, taeo's RIGHT sleeve has ridden up to show the purple pressure bruise;
+      his LEFT thumb continues scrolling the phone, screen turned away. ACTING through the hands:
+      he covers the bruise with his cuff rather than looking at it. Hard blue-white fluorescent
+      on navy cloth and skin, slate chair below. No hidden extra injury, link glow or lettering.
+    calm: none
+    lines:
+      - {who: taeo, type: float, text: "MINE WILL STOP HURTING FIRST."}
+  - id: P07
+    shape: wide
+    gap: short
+    bg: white
+    camera: "corridor, over Nib's shoulder toward Taeo on the seat"
+    art: >
+      nib, adult default and exact chosen boots, stands beside taeo at chungju_hospital, small in
+      height but square in stance. Taeo tilts the phone away like hiding a receipt. ACTING: Nib
+      unimpressed by the evasion, Taeo ashamed of being seen. Matte binoculars on chest, LEFT strap
+      knot, old patched backpack below. Blue-white/slate. No cute Nib, unreadable dramatic screen glow or lettering.
+    calm: top
+    lines:
+      - {who: nib, type: speech, side: l, text: "WHAT ARE YOU DOING?"}
+      - {who: taeo, type: speech, side: r, text: "CHECKING."}
+      - {who: nib, type: speech, side: l, text: "SHE IS BEHIND THAT DOOR."}
+  - id: P08
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on Nib's level adult stare"
+    art: >
+      nib, default, at chungju_hospital: adult weathered face, angular jaw, notched LEFT ear and
+      single lower LEFT fang. ACTING: plain refusal to let taeo confuse a feed with the patient.
+      The cream corridor behind is simplified, blue-white fluorescent above, slate shadow below his brow.
+      Keep the RIGHT pouch and LEFT sheath sides consistent at crop edge. No anger gag or lettering.
+    calm: right
+    lines:
+      - {who: nib, type: speech, side: l, text: "NOT IN THE BRICK."}
+  - id: P09
+    shape: wide
+    gap: short
+    bg: white
+    camera: "reverse from beside the door toward Taeo rising"
+    art: >
+      taeo, outdoor, stands at chungju_hospital too quickly, sways, then catches the seat back
+      with his LEFT hand. ACTING: eager obedience masking the wish to be forgiven immediately.
+      nib stays beside the phone on the seat without taking it. Blue-white light, cream wall,
+      slate vinyl, old orange backpack patch visible. No collapsed unconscious body, magical recovery or lettering.
+    calm: top
+    lines:
+      - {who: taeo, type: nervous, side: r, text: "RIGHT. I SHOULD—"}
+  - id: P10
+    shape: wide
+    gap: short
+    bg: white
+    camera: "ward doorway, eye-level two-shot with the nurse blocking no one physically"
+    art: >
+      ward_nurse, Korean man about 35 in pale-blue scrub top, dark trousers and soft shoes, meets
+      taeo, outdoor, at chungju_hospital's ward door. ACTING: the nurse kind and definite, Taeo stopped
+      mid-sentence. Plain cream curtain through the gap, night lamp muted behind it. Blue-white/slate
+      corridor palette. No hostile staff posture, readable patient board, glimpse of undressed patient or lettering.
+    calm: top
+    lines:
+      - {who: ward_nurse, type: speech, side: l, text: "SHE DOESN'T WANT VISITORS NOW."}
+      - {who: taeo, type: speech, side: r, text: "...OKAY. THANK YOU."}
+  - id: P11
+    shape: strip
+    gap: long
+    bg: white
+    silent: true
+    camera: "close on Taeo's shoes stopping outside the open ward door"
+    art: >
+      At chungju_hospital, taeo's black sneakers with one white side stripe stop short of the
+      ward threshold. The door remains open a hand-width; he steps back instead of putting a
+      foot in it. ACTING in the stance: a small, difficult acceptance. Blue-white corridor light,
+      cream spill from the ward lamp, slate floor. No gate effects, text or exaggerated symbolism.
+    calm: none
+  - id: P12
+    shape: wide
+    gap: short
+    bg: white
+    camera: "hospital waiting alcove, overhead across the small table"
+    art: >
+      At chungju_hospital's waiting alcove, sejin, default medical rig loosened, examines taeo's
+      bruised RIGHT forearm across a small plain table. ACTING: Sejin tired and unsentimental, Taeo
+      staring at the empty water cup beside his elbow. A plain water dispenser behind, overhead
+      blue-white fluorescent, slate shadows. No diagnostic writing, screen, healing aura or exposed Sera injury.
+    calm: top
+    lines:
+      - {who: sejin, type: speech, side: l, text: "ANY DIZZINESS?"}
+      - {who: taeo, type: speech, side: r, text: "YES."}
+      - {who: sejin, type: speech, side: l, text: "GOOD. AN ANSWER I CAN USE."}
+  - id: P13
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close three-quarter of Taeo watching the dressing being applied"
+    art: >
+      taeo, outdoor, at chungju_hospital, watches sejin apply a light protective wrap over his
+      RIGHT forearm. ACTING: ashamed relief that someone still treats him. One mole under RIGHT
+      eye, dried nosebleed cleaned away except a faint red edge. Blue-white fluorescent, cream wall,
+      muted navy clothing. No instantly vanished bruises, link pulse, dramatic transfusion or lettering.
+    calm: left
+    lines:
+      - {who: taeo, type: speech, side: r, text: "I DON'T NEED—"}
+      - {who: sejin, type: speech, side: l, text: "FINISH THAT SENTENCE CAREFULLY."}
+  - id: P14
+    shape: wide
+    gap: short
+    bg: white
+    camera: "side-on along the waiting-alcove table"
+    art: >
+      sejin, default teal field shirt, sits opposite taeo, outdoor, at chungju_hospital; her gloved
+      hands are still for a beat on the table. ACTING: exacting concern; he drops his gaze,
+      finally listening. Protective wrap visible on RIGHT forearm, plain cup between them. Overhead
+      blue-white and slate shadow. No smile of absolution, readable medical packet or lettering.
+    calm: top
+    lines:
+      - {who: taeo, type: speech, side: r, text: "SORRY."}
+      - {who: sejin, type: speech, side: l, text: "NO LOAD SHARING UNTIL YOU'VE BEEN CLEARED."}
+      - {who: sejin, type: speech, side: l, text: "EAT. DRINK. SLEEP."}
+  - id: P15
+    shape: strip
+    gap: short
+    bg: white
+    camera: "table-level close-up of the full water cup beside Taeo's hand"
+    art: >
+      At chungju_hospital, a plain paper cup full of water stands beside taeo's motionless LEFT
+      hand; the wrapped RIGHT arm lies beyond it. ACTING through his hesitant fingers: struggling
+      to perform the smallest sensible instruction. Blue-white fluorescent makes a hard white oval
+      on the water; slate table shadow. No ceramic home mug, amber light, price label or lettering.
+    calm: none
+    lines:
+      - {who: taeo, type: float, text: "I CAN EVEN FAIL AT A CUP OF WATER."}
+  - id: P16
+    shape: wide
+    gap: long
+    bg: white
+    camera: "normal-style two-shot in the far waiting alcove, Kesh and Orrin"
+    art: >
+      Away from the ward door at chungju_hospital, kesh, default adult olive tunic and folded
+      grey-brown wings, sits beside orrin, adult terraced shell low against the wall. ACTING: Kesh
+      listening curiously to a plain wrapped snack, Orrin politely sceptical. Their faces have softened
+      after the surgical news. Blue-white overhead, slate floor, cream wall. Wrapper and receipt blank;
+      no injury comedy or lettering.
+      kesh design lock for this first appearance: adult 198 cm, narrow mature grey-tan face, near-black eyes without white sclera, two feather antennae, four grey-brown diagonal-banded wing panels folded cloak-like without eye spots; olive sleeveless knee tunic, cloth sash, dark narrow trousers, wrapped shoes, unlit signal wand; exactly two arms, two legs and five-finger hands. Only the stated camera crop is visible; preserve these off-crop locks. orrin design lock for this first appearance: adult 230 cm nose-to-tail stoneback, terraced overlapping dark slate shell, olive-grey leathery skin, sagging mature face and heavy-lidded pale-olive eyes; four columnar legs with three blunt nails each, short tail; no clothes, saddle or harness. Keep the stabilised old shell injury, no fresh crack.
+    calm: top
+    lines:
+      - {who: kesh, type: speech, side: l, text: "THE NIGHT STAFF SAID THIS HELPS YOU SLEEP."}
+      - {who: orrin, type: speech, side: r, text: "THAT IS COFFEE BREAD."}
+  - id: P17
+    shape: wide
+    gap: short
+    bg: white
+    style: chibi
+    camera: "chibi frontal gag, Kesh presenting a snack as a scientific instrument"
+    art: >
+      At the separate chungju_hospital waiting alcove, 2.5-head kesh, default antennae and folded
+      wings, solemnly listens to a blank-wrapped coffee bun like an oracle. chibi orrin gives
+      a huge line-eyed sideways stare. ACTING: Kesh's sleep-deprived hope, Orrin's patient disbelief.
+      Flat cream background, one blue-grey overhead cel shadow, no detailed ward, injured patient,
+      grief distortion, readable wrapper or lettering.
+    calm: top
+    lines:
+      - {who: kesh, type: speech, side: l, text: "IT HASN'T DENIED ANYTHING."}
+      - {who: orrin, type: speech, side: r, text: "ASK IT IN THE MORNING."}
+    notes: "Contained ordinary food joke after immediate medical danger is resolved; never chibi Taeo's guilt or Sera's injury."
+  - id: P18
+    shape: vignette
+    gap: short
+    bg: white
+    camera: "normal style, from the alcove entrance toward the exhausted crew"
+    art: >
+      Back in normal adult style at chungju_hospital, kesh falls asleep holding the unopened bun;
+      orrin quietly tilts his shell to give him a place to lean without trapping wings. nib sets
+      a folded plain jacket behind Kesh's head. ACTING: practical gentleness, exhausted trust. Blue-white
+      fluorescent softened by simplified cream background, slate shadows. No cutesy moth anatomy,
+      harness, readable signs or lettering.
+    calm: bottom
+    lines:
+      - {who: nib, type: speech, side: l, text: "DIDN'T NEED THE BREAD."}
+  - id: P19
+    shape: narrow-l
+    gap: long
+    bg: navy
+    camera: "kit phone hand, Taeo alone again at the corridor seats"
+    art: "KIT HAND"
+    calm: none
+    ui:
+      - {kind: phone.info_card, on: screen, hand: taeo_left_tilt, title: "HUNTERLINK · REPLIES", text: "HIS SUMMONS GO FIRST. HE GOES HOME.\nStop sending them.\nDid the operator overrule her?"}
+    notes: "No new factual leak established; a question and hostile speculation land on something he knows is true."
+  - id: P20
+    shape: strip
+    gap: short
+    bg: navy
+    camera: "extreme close-up of Taeo's eyes over the dark back of his phone"
+    art: >
+      taeo, outdoor, at chungju_hospital: tired brown eyes above the phone's dark-grey back,
+      single mole under RIGHT eye. ACTING: exhausted mind narrowing toward one terrible solution.
+      White phone spill below, blue-grey fluorescent shadow above; dinosaur sticker edge in the
+      middle third. No words reflected in pupils, second mole, chibi face or lettering.
+    calm: none
+    lines:
+      - {who: taeo, type: float, text: "THERE IS A BUTTON FOR STOPPING."}
+  - id: P21
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "hospital corridor, low across the floor toward Taeo and Nib"
+    art: >
+      taeo, outdoor, sits with the provisional registration folder open on his knees at chungju_hospital;
+      its forms are blank blocks. nib, adult default and boots, stands facing him. ACTING: Taeo's
+      false calm before flight, Nib's watchful stillness. Backpack old orange patch at the floor,
+      blue-white overhead, navy night window beyond. No phone confirmation screen, signature, new legal order or lettering.
+    calm: top
+    lines:
+      - {who: taeo, type: speech, side: r, text: "MINHO CAN RUN THE LINE."}
+      - {who: nib, type: speech, side: l, text: "YES."}
+      - {who: taeo, type: speech, side: r, text: "HE SHOULD RUN EVERYTHING."}
+  - id: P22
+    shape: inset-l
+    gap: short
+    bg: navy
+    camera: "close on Nib from Taeo's seated eye line"
+    art: >
+      nib, adult default, at chungju_hospital, looks straight into taeo's eyes rather than at
+      the folder. ACTING: not surprised, not offering reassurance. LEFT notch, lone lower LEFT fang,
+      matte binoculars and LEFT strap knot all clear. Fluorescent blue-white on olive skin, slate
+      shadow, cream wall simplified behind. No cute proportions, snarling caricature, window or lettering.
+    calm: right
+    lines:
+      - {who: nib, type: speech, side: l, text: "SAY THE REST."}
+  - id: P23
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "reverse over Nib's notched ear toward Taeo"
+    art: >
+      taeo, outdoor, at chungju_hospital, finally looks up from the unmarked papers. ACTING:
+      face crumpling with shame, wet eyes, jaw fighting a tremor; the big reaction stays adult
+      and quiet. Wrapped RIGHT forearm held close, old patched backpack between his feet. Blue-white
+      fluorescent, slate seats, cream wall. No melodramatic fist striking, tears as gag, UI or lettering.
+    calm: top
+    lines:
+      - {who: taeo, type: speech, side: r, text: "IF I STOP, I CAN'T DO THAT TO YOU AGAIN."}
+      - {who: nib, type: speech, side: l, text: "YOU CAN LEAVE."}
+      - {who: nib, type: speech, side: l, text: "DON'T CALL IT SAVING US."}
+    notes: "Anyone can leave applies to Taeo too. Nib refuses the self-excusing abandonment, not Taeo's right to choose."
+  - id: P24
+    shape: strip
+    gap: long
+    bg: navy
+    silent: true
+    camera: "close-up of the open folder and Taeo's hands not closing it"
+    art: >
+      At chungju_hospital, taeo's LEFT hand rests on the provisional registration folder without
+      signing or tearing anything; wrapped RIGHT forearm stays beside it. ACTING: a decision suspended,
+      the fingers loosening. Blue-white fluorescent on cream paper with blank fields, slate chair
+      beneath. No hidden completed cancellation, readable law, glowing signature, magical contract or lettering.
+    calm: none
+  - id: P25
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level, side-on at the corridor seats"
+    art: >
+      nib, adult default boots, sits on the adjacent grey seat at chungju_hospital, feet not
+      quite reaching the floor; his posture remains a soldier's. taeo, outdoor, holds the open
+      folder. ACTING: Nib blunt and attentive, Taeo frightened by being addressed as useful. Overhead
+      blue-white, slate shadow, cream wall. No comfort cuddle, cute dangling-foot emphasis, UI or lettering.
+    calm: top
+    lines:
+      - {who: nib, type: speech, side: l, text: "SHE NEEDED A HOSPITAL. YOU GOT ONE READY."}
+      - {who: taeo, type: speech, side: r, text: "AFTER I—"}
+      - {who: nib, type: speech, side: l, text: "AFTER. YES."}
+  - id: P26
+    shape: inset-r
+    gap: short
+    bg: navy
+    camera: "close three-quarter on Taeo looking at the ward door"
+    art: >
+      taeo, outdoor, at chungju_hospital, watches the ward door rather than Nib, eyes red with
+      fatigue. ACTING: unable to forgive himself, not being asked to. One RIGHT-eye mole, clean
+      mouth now, bruise wrap at the lower edge. Blue-white fluorescent, slate shadow, plain cream
+      door beyond. No reflection of Sera's face, chibi, window or lettering.
+    calm: left
+    lines:
+      - {who: taeo, type: speech, side: r, text: "I'M STILL SORRY."}
+  - id: P27
+    shape: tall
+    gap: long
+    bg: navy
+    camera: "low from beside the empty cup toward Nib facing Taeo"
+    art: >
+      nib, adult default, sits squarely at chungju_hospital with amber eyes level on taeo out
+      of frame. ACTING: unvarnished certainty, a tiny softening only at the mouth. V-notch LEFT,
+      one LEFT lower fang, brown belt and correctly sided props, boots retained. Empty plain cup
+      low foreground. Blue-white fluorescent against slate-blue night shadow. No heroic aura, cute pose or lettering.
+    calm: top
+    lines:
+      - {who: nib, type: speech, side: l, text: "YOU CAN BE SORRY AND STILL BE USEFUL."}
+    notes: "Exact required line. This is a task offered, not forgiveness for Sera."
+  - id: P28
+    shape: strip
+    gap: short
+    bg: navy
+    silent: true
+    camera: "extreme close-up of Taeo lifting the cup with his left hand"
+    art: >
+      At chungju_hospital, taeo finally raises the plain paper water cup with his LEFT hand;
+      his wrapped RIGHT forearm remains on his knee. ACTING in the controlled grip: one ordinary
+      action chosen. The cup dents slightly under five plausible fingers. Blue-white fluorescent,
+      navy cuff and slate seat. No glow, ceremonial illustration, speech mouth, written cup design or lettering.
+    calm: none
+  - id: P29
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "overhead across the small waiting-alcove table"
+    art: >
+      taeo, outdoor, at chungju_hospital's small waiting table, opens the physical radio log beside
+      a sealed recorder and sets his phone face-down. nib sits across, attentive. ACTING: Taeo
+      frightened but beginning work; Nib lets the silence hold. Blue-white fluorescent, cream paper
+      blank in two ruled columns, slate table. No public upload, working reservoir, ancient map or lettering.
+    calm: top
+    lines:
+      - {who: taeo, type: speech, side: r, text: "WILL YOU CHECK WHAT I HEARD?"}
+      - {who: nib, type: speech, side: l, text: "AND WHAT YOU IGNORED."}
+      - {who: taeo, type: speech, side: r, text: "YES."}
+  - id: P30
+    shape: strip
+    gap: short
+    bg: navy
+    camera: "top-down extreme close-up of the new incident-log leaf"
+    art: >
+      At chungju_hospital, taeo's LEFT hand steadies a blank ruled leaf while his RIGHT fingers,
+      forearm supported, write slowly with a plain black pen. ACTING through the careful grip:
+      refusing to smooth the sequence over. White fluorescent falls across blank columns and a
+      clear margin reserved for labels; slate table edge. No generated handwriting, erased entry,
+      medical diagnosis, link effect or lettering.
+    calm: none
+    ui:
+      - {kind: label, text: "SERA: MOVEMENT IN B", at: [0.44, 0.31], notes: "First ruled row."}
+      - {kind: label, text: "TAEO: GO B", at: [0.44, 0.59], notes: "Next row; do not replace his actual order with a euphemism."}
+    notes: "Private contemporaneous incident record; public filing remains ch079."
+  - id: P31
+    shape: inset-l
+    gap: short
+    bg: navy
+    camera: "close on Nib's hand pointing below the second row"
+    art: >
+      nib's adult scarred green hand at chungju_hospital points to the next blank ruled row of
+      taeo's log. Brown rope belt and matte binoculars enter the upper crop; no knife is drawn.
+      ACTING in the index finger: exact placement, no accusation performed for an audience. White
+      fluorescent, cream paper and slate tabletop. No readable pen strokes, fork carving, glow or lettering.
+    calm: right
+    lines:
+      - {who: nib, type: speech, side: l, text: "SHE SAID IT TWICE."}
+      - {who: taeo, type: speech, side: r, text: "I'LL PUT BOTH IN."}
+    notes: "The first warning is ch069's hook; the renewed objection is the ch070 choice beat. Do not invent a third report."
+  - id: P32
+    shape: wide
+    gap: long
+    bg: navy
+    camera: "waiting alcove, at floor level past Orrin toward the working table"
+    art: >
+      orrin, default adult stoneback, lies at chungju_hospital with kesh asleep against his shell;
+      beyond them taeo and nib work at the table. ACTING: Orrin's eyes remain open, guarding without
+      commentary. Blue-white overhead light, cream walls and slate floor; wings folded clear of doorways.
+      The log is only plain lines at this distance. No instant emotional recovery, pet bedding or lettering.
+    calm: top
+    lines:
+      - {who: taeo, type: float, text: "BEING NEEDED ISN'T THE SAME AS BEING RIGHT."}
+  - id: P33
+    shape: full
+    gap: fade-black
+    bg: navy
+    camera: "hospital ward doorway, looking only at Sejin and the bedside objects"
+    art: >
+      At chungju_hospital after visiting closes, sejin, default teal shirt, places sera's wrapped
+      bow upright against the bedside cupboard and her clear flute/quiver effects bag on it.
+      Sera herself is hidden by the plain pale curtain. ACTING: Sejin's careful economy, exhaustion
+      in rounded shoulders. Small muted cream night lamp, blue-grey shadows. No patient exposure,
+      readable label, invitation to Taeo or lettering.
+    calm: top
+    lines:
+      - {who: sejin, type: whisper, side: r, text: "YOUR THINGS ARE HERE."}
+  - id: P34
+    shape: vignette
+    gap: long
+    bg: navy
+    silent: true
+    camera: "high corner view of Taeo finally sleeping in the waiting alcove"
+    art: >
+      taeo, outdoor jacket over his shoulders, sleeps sitting at chungju_hospital's waiting table,
+      RIGHT forearm supported on a folded cloth. nib sits awake beside the closed private log;
+      the phone lies face-down. ACTING: exhausted surrender and a scout keeping watch. Blue-white
+      overhead strip, slate shadows, cream wall fading to navy page. No peaceful absolution smile,
+      dream image, glowing window or lettering.
+    calm: none
+  - id: P35
+    shape: full
+    gap: fade-white
+    bg: white
+    camera: "dawn establishing view across Chungju gate staging"
+    art: >
+      chungju_river_gate at dawn: white canopy, folding radio table, scaffold-braced violet-black
+      slit, white banded cable entering at its base. minho, default grey streak LEFT, confers with
+      upstream_lead, braided adult woman in navy Meridian field gear, white helmet and LEFT shoulder radio. ACTING: serious tired calculation. Grey-blue dawn, violet gate accent;
+      all vehicle signs and maps blank. No Seoul skyline or lettering.
+    calm: top
+    lines:
+      - {who: narr, type: tag, text: "CHUNGJU · THE FOLLOWING DAWN"}
+      - {who: upstream_lead, type: speech, side: l, text: "THE WATERLINE MOVED OVERNIGHT."}
+  - id: P36
+    shape: strip
+    gap: short
+    bg: navy
+    camera: "inside gate, close-up of Ryu's measuring rod against wet stone"
+    art: >
+      In chungju_river_inside's entry landing, a Ryu measuring rod with blank fine ticks stands
+      against the dry shelf. Fresh water reaches a higher dark wet boundary than the earlier
+      chalk witness mark. An adult survey_crew worker's gloved hand points between levels. ACTING:
+      businesslike concern. White portable lamp, violet stone, ink river and solid stone ceiling.
+      No sky, generated numbers, ancient inscriptions or lettering.
+    calm: none
+    ui:
+      - {kind: label, text: "+12 CM", at: [0.65, 0.48], notes: "Measurement annotation beside the two witness levels."}
+    notes: "New local observation, not a prediction of an exact breach time."
+  - id: P37
+    shape: wide
+    gap: short
+    bg: white
+    camera: "outside, eye-level across the canopy table toward the consortium leads"
+    art: >
+      minho, default, and upstream_lead, navy field jacket, at chungju_river_gate, face a paper
+      map on the table. ACTING: disagreement disciplined by the same worsening river. haein, default
+      overalls and goggles, sets fresh radio batteries beside the intact line. Grey-blue dawn,
+      navy shadows, dull violet gate behind. Map has blank route strokes only; no screen glow or lettering.
+    calm: top
+    lines:
+      - {who: upstream_lead, type: speech, side: l, text: "WE NEED THE REMAINING SURVEY BEFORE ITS TERRITORY SPREADS."}
+      - {who: minho, type: speech, side: r, text: "FIRST SECTOR. NO CLEAR ATTEMPT."}
+      - {who: upstream_lead, type: speech, side: l, text: "AGREED."}
+  - id: P38
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "Taeo arriving beside the canopy, three-quarter close-up"
+    art: >
+      taeo, outdoor, arrives at chungju_river_gate with the closed private incident log tucked
+      under LEFT arm, olive backpack and old orange patch on his back. ACTING: slept a little,
+      still afraid, no attempt at looking cured. RIGHT forearm wrap visible. Grey-blue dawn,
+      hard cold gate rim behind. No fresh vomit, heroic grin, intact reservoir or lettering.
+    calm: left
+    lines:
+      - {who: minho, type: speech, side: l, text: "SEJIN CLEARED YOU?"}
+      - {who: taeo, type: speech, side: r, text: "FOR RADIO WORK. NO CARRYING."}
+  - id: P39
+    shape: wide
+    gap: short
+    bg: white
+    camera: "side-on near the cable drum, Minho facing Taeo"
+    art: >
+      minho, default with LEFT-temple grey streak, at chungju_river_gate, studies taeo's wrapped
+      RIGHT forearm before meeting his eyes. ACTING: fair anger that has not cooled; Taeo receives
+      it without flinching away. White cable drum behind them, haein checks its connector. Grey-blue
+      dawn and navy canopy shadow. No forgiveness handshake, commanding system window, readable log or lettering.
+    calm: top
+    lines:
+      - {who: minho, type: speech, side: l, text: "I'LL CALL ROUTES INSIDE. YOU KEEP THE RECORD AND THE LINE."}
+      - {who: taeo, type: speech, side: r, text: "YES."}
+      - {who: minho, type: speech, side: l, text: "THAT IS WORK. DO IT."}
+  - id: P40
+    shape: narrow-l
+    gap: short
+    bg: white
+    camera: "kit phone hand, Taeo receiving Sejin's message at staging"
+    art: "KIT HAND"
+    calm: none
+    ui:
+      - {kind: phone.ttok_chat, on: screen, hand: taeo_left_tilt, title: "Sejin", messages: [{from: them, text: "She's resting. I'm staying here. Radio only for you today.", time: "DAWN"}, {from: me, text: "Understood. Her things reached her?", time: "DAWN"}, {from: them, text: "Yes.", time: "DAWN"}]}
+    notes: "Medical restriction continues into ch074; Sejin stays at the Chungju hospital with Sera."
+  - id: P41
+    shape: strip
+    gap: short
+    bg: white
+    silent: true
+    camera: "outside, close-up of the space where Sera usually stands beside the bow cases"
+    art: >
+      At chungju_river_gate, an empty clean patch of gravel separates nib's booted feet from
+      orrin's broad forefoot. No bow, quiver or flute fills it. ACTING: Nib's hand hangs still
+      beside his RIGHT pouch; Orrin's head turns toward the vacancy. Grey-blue dawn, violet rim
+      reflection. No ghost Sera, memorial object, death implication, drawn marks or lettering.
+    calm: none
+  - id: P42
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low in front of Nib checking his belt and binocular strap"
+    art: >
+      nib, adult default, at chungju_river_gate, checks the LEFT knot of his binocular strap,
+      then the brown wooden sheath at LEFT hip; RIGHT pouch dinosaur sticker visible. ACTING:
+      resolute attention, no bravado. orrin, default adult, waits beside him. Exact ch043 boots,
+      grey-blue dawn and cold gate rim. No extra weapons, mask, changed outfit, readable kit tags or lettering.
+    calm: top
+    lines:
+      - {who: taeo, type: speech, side: r, text: "YOU DON'T HAVE TO GO."}
+      - {who: nib, type: speech, side: l, text: "I KNOW."}
+  - id: P43
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Orrin facing Taeo at the canopy edge"
+    art: >
+      orrin, default adult stoneback, at chungju_river_gate, looks up toward taeo out of frame.
+      ACTING: quiet decision, heavy eyelids lifted a fraction. Stacked-slate shell unchanged, no new
+      load harness or roof furnishings. Grey-blue dawn along shell ridges, navy shadow under neck;
+      an unmarked water crate behind. No cartoon smile, baby tortoise proportions, lettered markings or glow.
+    calm: left
+    lines:
+      - {who: orrin, type: speech, side: r, text: "I AM GOING TOO."}
+  - id: P44
+    shape: wide
+    gap: short
+    bg: white
+    camera: "table-height view of Kesh and Haein checking a lamp and radio"
+    art: >
+      kesh, default mature moth keeper, at chungju_river_gate, adjusts his unlit signal wand
+      beside haein, default overalls and goggles, checking a plain radio and spare lamp. ACTING:
+      Kesh tired but choosing to attend, Haein exact and unsmiling. Four folded wing panels clear
+      of the cable drum, two hands only. Grey-blue dawn, slate shadows. No ancient relay solution,
+      readable schematic or lettering.
+    calm: top
+    lines:
+      - {who: kesh, type: speech, side: l, text: "I WANT TO HEAR IT WHILE EVERYONE IS LOOKING."}
+      - {who: haein, type: speech, side: r, text: "THEN STAY WHERE THEY CAN SEE YOU."}
+  - id: P45
+    shape: full
+    gap: long
+    bg: white
+    camera: "high angle of the assembled survey party at the threshold"
+    art: >
+      At chungju_river_gate, minho, nib, orrin and kesh assemble with two Ryu survey_crew workers
+      in dusty orange vests and white helmets, upstream_lead in navy, and consortium_medic, stocky
+      man about 45 with salt-and-pepper hair, teal field vest, grey shirt, olive medical pack and
+      white hard hat. ACTING: cautious readiness. Grey-blue dawn, cold violet slit, intact white line.
+      No Sera or Sejin among them, signs blank.
+    calm: top
+    lines:
+      - {who: minho, type: speech, side: r, text: "VISUAL CHECKS. NO ONE GOES OUT OF SIGHT ALONE."}
+  - id: P46
+    shape: wide
+    gap: short
+    bg: white
+    camera: "outside, over Taeo's shoulder toward the team's faces"
+    art: >
+      taeo, outdoor, stands behind the base station at chungju_river_gate, LEFT hand on the
+      handset, wrapped RIGHT forearm supported. Across the table nib, minho and kesh look at him;
+      orrin is lower at the side. ACTING: Taeo wants a promise and asks for an action instead.
+      Dawn grey-blue, navy shadows. Empty air without system UI, blank log, no lettering.
+    calm: top
+    lines:
+      - {who: taeo, type: speech, side: l, text: "TELL ME WHAT YOU SEE. I'LL WRITE EXACTLY THAT."}
+      - {who: minho, type: speech, side: r, text: "START WITH SERA NOT BEING HERE."}
+      - {who: taeo, type: speech, side: l, text: "YES."}
+  - id: P47
+    shape: strip
+    gap: short
+    bg: navy
+    camera: "inside, extreme close-up of Nib's right wrist acquiring its return ring"
+    art: >
+      nib, adult default, physically crosses into chungju_river_inside; his RIGHT wrist gains a
+      thin cold-white ring edged violet, hand holding the radio low. The RIGHT pouch and sticker
+      sit behind it, LEFT wooden sheath separate across his belt. ACTING in his steady hand:
+      chosen commitment. Cold rim-white and violet slate. No amber return ring, summon circle,
+      green screen or lettering.
+    calm: none
+    lines:
+      - {who: nib, type: speech, side: l, text: "IN."}
+  - id: P48
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "outside, frontal view of Taeo seated at the recording table"
+    art: >
+      taeo, outdoor, sits at chungju_river_gate with the private incident record retained beneath
+      a new blank survey sheet. ACTING: fear still present, mouth set around work rather than
+      reassurance. haein, default, monitors the intact cable beside him. RIGHT forearm wrap supported,
+      old patched backpack on chair. Grey-blue dawn and navy shade. No public stream, system glow,
+      readable handwritten text or lettering.
+    calm: top
+    lines:
+      - {who: taeo, type: speech, side: r, text: "RECORDED."}
+      - {who: taeo, type: float, text: "I DON'T GET TO SKIP THE NEXT PART."}
+  - id: P49
+    shape: tall
+    gap: black
+    bg: navy
+    camera: "inside, behind the returning consortium as its lamp finds the river"
+    art: >
+      THE HOOK: in chungju_river_inside, nib, adult booted scout, steps onto the first dry shelf;
+      orrin, kesh, minho and the consortium follow in a compact visible group. A lamp reveals
+      water licking above yesterday's chalk boundary. ACTING: faces tense, looking down where the
+      absent archer once led. Stone ceiling fills the top; no sky. Hard white lamps and violet-black
+      river. No Sera, Sejin, boss death or lettering.
+    calm: top
+    lines:
+      - {who: minho, type: speech, side: r, text: "FINISH THE SURVEY BEFORE IT TAKES THE SHELF."}
+    notes: "HOOK: the consortium returns without Sera before the predator's territory spreads. Not a clear attempt; Sera remains in hospital."
+  - id: P50
+    kind: end
+    gap: long
+    bg: white
+    end_text: "TO BE CONTINUED"
+    next: "NEXT · CHAPTER 74 · THERE WAS NO KNOCK"
+    chibi_gag: "At the safe hospital waiting alcove earlier: chibi Kesh and chibi Orrin both sleep beside an unopened coffee bun; booted chibi Nib puts a tiny plain blanket over the bun with a solemn face. No injury or guilt gag."

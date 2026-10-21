@@ -128,9 +128,9 @@ panels:
       - {kind: tv.lowerthird, on: screen, text: "RETAIL CHAINS TO TRIAL CONSTRUCT NIGHT STAFF", ticker: "GATE ADVISORY · SEOGYO-DONG, MAPO-GU · AVOID THE AREA"}
     notes: "The TV news plants the construct-stocker announcement in P10."
     lines:
-      - {who: customer_woman, type: speech, side: l, text: "THESE WERE TWO FOR ONE."}
-      - {who: taeo, type: speech, side: r, text: "THAT ENDED YESTERDAY."}
-      - {who: customer_woman, type: speech, side: l, text: "THE SIGN STILL SAYS—"}
+      - {who: customer_woman, type: speech, side: l, text: "THESE NOODLES WERE TWO FOR ONE."}
+      - {who: taeo, type: speech, side: c, text: "SORRY. THE SALE ENDED YESTERDAY."}
+      - {who: customer_woman, type: speech, side: l, text: "THE SIGN STILL SAYS TWO FOR ONE."}
 
   - id: P08
     shape: inset-l
@@ -142,7 +142,7 @@ panels:
       His face is apologetic and the customer is out of frame.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: l, text: "SORRY. I'LL TAKE IT DOWN."}
+      - {who: taeo, type: speech, side: l, text: "SORRY. I'LL TAKE THE OLD SIGN DOWN."}
 
   - id: P09
     shape: inset-r
@@ -156,7 +156,7 @@ panels:
       Flat pale-green background with a screentone dot pattern. Simple and funny.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "TWENTY-THREE. NIGHT SHIFT. FOURTEEN MONTHS."}
+      - {who: taeo, type: float, text: "I'M TWENTY-THREE. I'VE WORKED NIGHTS HERE FOR FOURTEEN MONTHS."}
 
   - id: P10
     shape: wide
@@ -169,10 +169,9 @@ panels:
       Shelves of snacks behind them drawn simply. Fluorescent light.
     calm: top
     lines:
-      - {who: manager, type: speech, side: l, text: "TAEO. HEAD OFFICE CALLED."}
-      - {who: manager, type: speech, side: l, text: "THEY'RE TRIALLING A CONSTRUCT STOCKER ON NIGHTS. FROM NEXT MONTH."}
-      - {who: taeo, type: speech, side: r, text: "...AND ME?"}
-      - {who: manager, type: speech, side: l, text: "YOU'LL GET WEEKENDS. PROBABLY."}
+      - {who: manager, type: speech, side: r, text: "TAEO. HEAD OFFICE'S TRIALLING A CONSTRUCT STOCKER ON NIGHTS NEXT MONTH."}
+      - {who: taeo, type: speech, side: c, text: "WHAT HAPPENS TO MY SHIFTS?"}
+      - {who: manager, type: speech, side: r, text: "YOU'LL GET WEEKENDS. PROBABLY."}
 
   - id: P11
     shape: strip
@@ -196,7 +195,7 @@ panels:
       ducks under the frame, carrying two plastic crates in its rope harness. The doorbell above swings.
     calm: top-left
     lines:
-      - {who: courier, type: speech, side: l, text: "QUICKHAUL! TWO CRATES, SIGN HERE—"}
+      - {who: courier, type: speech, side: c, text: "QUICKHAUL! TWO CRATES. SIGN HERE, PLEASE."}
     sfx:
       - {text: "JINGLE", style: quiet, at: [0.50, 0.12], size: S, rot: 8}
 
@@ -223,9 +222,9 @@ panels:
       glancing at his wrist screen. Simplified store background.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "CAN IT DO... \"GENTLY\"?"}
-      - {who: courier, type: speech, side: l, text: "STILL WORKING ON THAT."}
-      - {who: courier, type: speech, side: l, text: "CARRY, FOLLOW, STOP. THAT'S MOST OF IT."}
+      - {who: taeo, type: speech, side: l, text: "CAN THE GOLEM DO \"GENTLY\"?"}
+      - {who: courier, type: speech, side: r, text: "STILL WORKING ON THAT."}
+      - {who: courier, type: speech, side: r, text: "CARRY, FOLLOW, STOP. THAT'S MOST OF IT."}
 
   - id: P15
     shape: strip
@@ -251,7 +250,7 @@ panels:
       Seen through the glass door with the night street beyond. Motion lines on Bae, none on the golem (it is slow).
     calm: top
     lines:
-      - {who: courier, type: shout, side: c, text: "FOLLOW!"}
+      - {who: courier, type: speech, side: l, text: "FOLLOW!"}
     sfx:
       - {text: "THUD THUD", style: impact, at: [0.55, 0.75], size: M, rot: 0}
 
@@ -265,8 +264,8 @@ panels:
       Her dog-eared food-hygiene workbook with sticky tabs is tucked under her arm. She rolls her eyes toward the door.
     calm: right
     lines:
-      - {who: eunchae, type: speech, side: l, text: "HE'S LATE EVERY NIGHT. THE APP TAKES IT OUT OF HIS PAY."}
-      - {who: taeo, type: speech, side: r, text: "MM."}
+      - {who: eunchae, type: speech, side: c, text: "BAE'S LATE EVERY NIGHT. THE APP DOCKS HIS PAY."}
+      - {who: "offpanel:taeo", type: speech, side: r, text: "MM."}
 
   # ---------------- BREAK ROOM ----------------
   - id: P18
@@ -303,7 +302,7 @@ panels:
       - {kind: phone.ttok_video_call, on: panel, caller: "Grandma", own_video: "taeo"}
     lines:
       - {who: haru, type: phone, side: c, text: "HYUNG! DID YOU KNOW STEGOSAURUS HAD A BRAIN THE SIZE OF A WALNUT?"}
-      - {who: taeo, type: speech, side: r, text: "LIKE ME AT WORK."}
+      - {who: "offpanel:taeo", type: speech, side: r, text: "LIKE ME AT WORK."}
 
   - id: P20
     shape: inset-r
@@ -325,9 +324,9 @@ panels:
       pushes a spoonful of fish and rice toward his mouth from out of frame. Haru dodges and the spoon follows.
     calm: top
     lines:
-      - {who: grandma, type: phone, side: l, text: "EAT. TALK LATER."}
-      - {who: taeo, type: speech, side: r, text: "GRANDMA. I SAW THAT."}
-      - {who: grandma, type: phone, side: l, text: "GOOD. TELL THIS ONE TO EAT."}
+      - {who: "offpanel:grandma", type: phone, side: r, text: "EAT. TALK LATER."}
+      - {who: "offpanel:taeo", type: speech, side: l, text: "GRANDMA. I SAW THAT."}
+      - {who: "offpanel:grandma", type: phone, side: r, text: "GOOD. TELL HARU TO EAT."}
 
   - id: P22
     shape: wide
@@ -342,8 +341,8 @@ panels:
       - {kind: phone.ttok_video_call, on: screen, caller: "Grandma"}
       - {kind: label, text: "TAEO", at: [0.7, 0.3], notes: "move onto the SUNDAY box once the art exists"}
     lines:
-      - {who: haru, type: phone, side: l, text: "ARE YOU COMING THIS SUNDAY?"}
-      - {who: taeo, type: speech, side: r, text: "I'LL ASK ABOUT SWAPPING."}
+      - {who: haru, type: phone, side: r, text: "ARE YOU COMING THIS SUNDAY?"}
+      - {who: taeo, type: speech, side: c, text: "I'LL ASK ABOUT SWAPPING SHIFTS."}
 
   - id: P23
     shape: strip
@@ -354,8 +353,8 @@ panels:
       The video call, cropped tight on Haru's face. He is unimpressed: half-lidded eyes, puffed cheek, chopsticks in his mouth.
     calm: right
     lines:
-      - {who: haru, type: phone, side: l, text: "YOU SAID THAT LAST TIME."}
-      - {who: taeo, type: speech, side: r, text: "...I KNOW."}
+      - {who: haru, type: phone, side: c, text: "YOU SAID THAT LAST TIME."}
+      - {who: "offpanel:taeo", type: speech, side: r, text: "I KNOW. SORRY, BOSS."}
 
   - id: P24
     shape: narrow-r
@@ -408,7 +407,7 @@ panels:
       Taeo looks up from his stool.
     calm: top
     lines:
-      - {who: eunchae, type: speech, side: l, text: "TAEO? COME LOOK AT THIS."}
+      - {who: eunchae, type: speech, side: r, text: "TAEO? COME LOOK IN AISLE TWO."}
 
   - id: P28
     shape: full
@@ -434,7 +433,7 @@ panels:
       wide eyes, mouth open in a shout. Speed lines behind him.
     calm: top
     lines:
-      - {who: taeo, type: shout, side: c, text: "DON'T TOUCH THAT!"}
+      - {who: taeo, type: nervous, side: c, text: "DON'T TOUCH THE CRACK!"}
 
   - id: P30
     shape: strip
@@ -472,8 +471,8 @@ panels:
       The customer_mauve clutches her full basket in protest. The aisle glows violet behind them.
     calm: top
     lines:
-      - {who: eunchae, type: shout, side: l, text: "EVERYONE OUTSIDE. LEAVE YOUR BASKETS."}
-      - {who: customer_mauve, type: speech, side: r, text: "BUT I ALREADY—"}
+      - {who: eunchae, type: shout, side: r, text: "EVERYONE OUTSIDE. LEAVE YOUR BASKETS."}
+      - {who: customer_mauve, type: speech, side: l, text: "BUT I'VE ALREADY PICKED MY GROCERIES!"}
 
   - id: P33
     shape: wide
@@ -485,9 +484,9 @@ panels:
       The old man won't let go of his basket of eggs. Taeo is gentle and quick, glancing over his shoulder.
     calm: top-right
     lines:
-      - {who: taeo, type: speech, side: r, text: "LEAVE IT. WE'LL KEEP IT HERE."}
-      - {who: elderly_man, type: speech, side: l, text: "MY EGGS..."}
-      - {who: taeo, type: speech, side: r, text: "I'LL KEEP THE EGGS."}
+      - {who: taeo, type: speech, side: c, text: "LEAVE THE BASKET. WE'LL KEEP IT HERE."}
+      - {who: elderly_man, type: speech, side: l, text: "MY EGGS!"}
+      - {who: taeo, type: speech, side: c, text: "I'LL KEEP YOUR EGGS SAFE."}
 
   - id: P34
     shape: inset-l
@@ -522,8 +521,8 @@ panels:
       Casual dark tactical vests and boots, a short sword on one hip. The officer lifts the tape for them.
     calm: top
     lines:
-      - {who: hunter1, type: speech, side: l, text: "E-GRADE? IN A MART?"}
-      - {who: hunter2, type: speech, side: r, text: "IN AND OUT BY ONE."}
+      - {who: hunter1, type: speech, side: l, text: "AN E-GRADE GATE? IN A MART?"}
+      - {who: hunter2, type: speech, side: c, text: "WE'LL BE OUT BY ONE."}
 
   - id: P37
     shape: strip
@@ -534,8 +533,8 @@ panels:
       Taeo behind the tape, watching the hunters go in. Eunchae beside him with her phone lowered, glancing at him.
     calm: top
     lines:
-      - {who: eunchae, type: speech, side: l, text: "YOU OKAY?"}
-      - {who: taeo, type: speech, side: r, text: "...YEAH."}
+      - {who: eunchae, type: speech, side: c, text: "YOU OKAY?"}
+      - {who: taeo, type: speech, side: l, text: "YEAH."}
 
   - id: P38
     shape: tall
@@ -564,7 +563,7 @@ panels:
       Focus lines behind him.
     calm: top
     lines:
-      - {who: taeo, type: nervous, side: c, text: "WHAT—"}
+      - {who: taeo, type: nervous, side: c, text: "WHAT'S THIS WINDOW?"}
 
   - id: P40
     shape: inset-l
@@ -576,8 +575,8 @@ panels:
       Taeo glances between her and the empty air.
     calm: top
     lines:
-      - {who: eunchae, type: speech, side: l, text: "WHAT?"}
-      - {who: taeo, type: speech, side: r, text: "...NOTHING."}
+      - {who: eunchae, type: speech, side: r, text: "WHAT WINDOW?"}
+      - {who: taeo, type: speech, side: l, text: "SORRY. NOTHING."}
 
   - id: P41
     shape: inset-r
@@ -591,7 +590,7 @@ panels:
       Flat background with speed lines.
     calm: top
     lines:
-      - {who: manager, type: shout, side: c, text: "I'LL DEAL WITH THE STORE! GO HOME, BOTH OF YOU!"}
+      - {who: manager, type: speech, side: c, text: "I'LL DEAL WITH THE STORE! GO HOME, BOTH OF YOU!"}
 
   # ---------------- WALK HOME ----------------
   - id: P42
@@ -683,7 +682,7 @@ panels:
     ui:
       - {kind: system.notice_small, on: float, text: "[FIRST SUMMON AVAILABLE]"}
     lines:
-      - {who: taeo, type: speech, side: l, text: "I'M NOT GOING INTO A DUNGEON."}
+      - {who: taeo, type: speech, side: r, text: "I'M NOT GOING INTO A DUNGEON."}
 
   - id: P49
     shape: strip
@@ -694,7 +693,7 @@ panels:
       Extreme close-up of Taeo's eyes, the cyan of the window reflected in them as two small squares. Curiosity winning.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: l, text: "I JUST WANT TO SEE."}
+      - {who: taeo, type: speech, side: c, text: "I JUST WANT TO SEE WHAT I SUMMON."}
 
   - id: P50
     shape: wide
@@ -745,7 +744,7 @@ panels:
       In the foreground, Taeo's hand is raised palm-out, trembling.
     calm: top
     lines:
-      - {who: taeo, type: nervous, side: l, text: "S-STAY."}
+      - {who: "offpanel:taeo", type: nervous, side: l, text: "S-STAY."}
 
   - id: P54
     shape: bleed
@@ -759,7 +758,8 @@ panels:
       steps out of the seam of light in a low crouch, hand on his knife, the blade half drawn.
       His amber eyes catch the light. He is weathered, dangerous, scared and NOT cute.
       Cyan rim light, hard shadows, a few sharp particles at the seam only.
-      Taeo is pressed against the bed at the frame's edge, small. The frame's bottom edge breaks its border.
+      Nib occupies the centre third. Taeo is pressed against the bed at the right edge, small.
+      Leave both figures room from head to foot. The frame's bottom edge breaks its border.
     calm: top
     lines:
       - {who: nib, type: speech, side: c, text: "WHERE AM I?"}

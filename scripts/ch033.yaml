@@ -1,0 +1,940 @@
+chapter: 33
+title: Surplus
+when: "The morning after the Terrace clear, then the following week. Lease and move happen during that week; Eunchae's second-practical result and the Sinjeong alert land at the final evening meal. No calendar date is lettered."
+story_beats: PART_ONE_BEATS.md#33
+cast:
+  taeo: outdoor # Navy jacket over black hoodie, black cargos, black low sneakers with one white stripe. Jacket off inside his new room. Mole RIGHT eye. Old orange shield-and-open-door patch on olive backpack. Forearm recoil bruises persist, fading through the week; no active nosebleed.
+  nib: default # Adult, barefoot, LEFT ear V-notch and one LEFT lower fang. Pinkish-tan wrap, charcoal shorts with repaired RIGHT outer thigh, brown rope belt, RIGHT pouch with dinosaur sticker, LEFT brown wooden sheath. Matte black 8x30 binoculars with LEFT neck knot and Kett's hinge mark. Site hard hat has been returned to the kit rack.
+  orrin: default # Adult, 230 cm long and 135 cm shell height, terraced slate shell intact, four columnar legs, three blunt nails each, grey-olive adult face. No brace outside work, no saddle or pet accessories.
+  minho: default # Brown work jacket, grey tee, olive cargos, black knee pads, brown boots, LEFT grey streak, chest radio, LEFT wristwatch. Independent Ryu Survey lead.
+  haein: default # Slate-blue overalls, beige tee, brown tool belt, jaw-length black bob, glasses on crown.
+  sejin: default # Sage scrubs, olive medic rig, charcoal cargos, boots, cropped black hair. Paid safety officer, dinner guest at the new base.
+  seonhee: default # 55, Ryu bookkeeper; fully described at P03, follow current turnaround.
+  dongsik: default # 58, wheelchair user; fully described at P13, follow current turnaround.
+  eunchae: default # Brown high ponytail, cream rolled-sleeve shirt, grey-green work vest with blank tag, black trousers, black-and-white canvas shoes, tabbed food-hygiene workbook. Arrives after her shift.
+  sunline: default # Printed billboard only, P32; white-gold battle outfit, chestnut ponytail, charcoal-shaft spear. No physical appearance or new nameplate.
+extras:
+  dispatch: "GMA emergency dispatcher, voice on Taeo's phone only; clear, clipped, working through a call list."
+locations: [ryu_practice_yard, tyre_shop_base, world_cup_ro]
+location_notes:
+  ryu_practice_yard: "Use locations/ryu_practice_yard/key_wide.png and key_reverse.png: chain-link south vehicle gate, grey corrugated office southwest, fixed central plywood maze, north targets, west equipment trestle. The repossessed vans are absent now; do not restore the key's parked van. Office doorway close-ups may show the accessibility ramp added for Dongsik; do not reconfigure the maze. Taeo's ch 28 container home remains at the yard until the move."
+  tyre_shop_base: "New, no drawn key. Old tyre-shop compound in a Mapo gate zone: south double metal gate, cracked concrete court, a single-storey former repair bay along the north, two separate lockable back rooms off its east corridor, small washroom and sink at the corridor end. West lean-to shed opens directly onto the court, clear height and width ample for Orrin. Low solid workshop roof is NOT load-rated for him. His dry sleeping mat goes under the shed; no roof garden yet. Tyre rack and disconnected lift stay inert at the bay's back. Dinner trestle goes in the court beside the shed; short removable board ramp over the bay threshold accommodates Dongsik. Blank old fascia remains blank; no guild name yet."
+  world_cup_ro: "Use ch 3 P27's north-side seven-storey building and banner frame across the top three floors, on the avenue by Mangwon station. This is the SAME frame, reskinned for Sunline's new sponsor. Daylight, plane trees now leafier, shop signs blank."
+money_notes: >
+  The east CREW'S net settlement is exactly ₩38,000,000 after the entry fee and contracted costs;
+  do not deduct the ₩2,000,000 entry fee again. Equal beneficial ownership is one third each.
+  Since integer won do not divide by three, each receives ₩12,666,666 cash and the remaining
+  ₩2 stays jointly owned, equally, with no extra won assigned to Taeo. This is explicit in P10.
+  All three later choose to contribute ₩10,000,000 each to the ₩30,000,000 refundable lease
+  deposit and ₩200,000 each to the first month's ₩600,000 rent. Deposit ownership remains
+  equal, the lease names all three. Each retains ₩2,466,666 before personal purchases; ₩2
+  joint remains separate. The earlier ₩40,000,000 advertised yard deposit is remembered;
+  this shop's owner accepts a smaller deposit against higher monthly rent, not a gift or loan.
+  Ryu Survey's separate central proceeds make a posted ₩120,000,000 Bluebird principal payment:
+  the locked ₩310,000,000 balance falls to ₩190,000,000. Central gross is not specified.
+palette_notes: "A4 yard dusty ochre, warm brown shadows and sky blue. Office and new rooms: muted daylight cream with cool blue-grey shadows; evening court: warm work-lamp amber/brown with steam white, following A4 kitchen. World Cup-ro: pale daylight and blue-grey shadows, banner's navy/white/gold accent. Alert red appears only at the final emergency. No interface windows or active link this chapter. Flat cel colour, hard shadows, no haze, bloom or decorative particles; all signage, forms and tags blank until lettered."
+
+panels:
+  - id: P01
+    shape: narrow-r
+    gap: none
+    bg: white
+    camera: "kit phone hand, straight-on settlement notification"
+    art: "KIT HAND"
+    calm: none
+    ui:
+      - {kind: phone.info_card, on: screen, hand: taeo_right_front, title: "RYU SURVEY · EAST TERRACE", text: "NET CREW SETTLEMENT\n₩38,000,000\nEntry and contract costs settled"}
+    sfx:
+      - {text: "DING", style: phone, at: [0.19, 0.24], size: M, rot: -8}
+    notes: "Cold open. Next morning after ch 32's handshake. This is the crew's total, not Taeo's personal share; amount is net, entry fee already accounted for."
+
+  - id: P02
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on Taeo at the Ryu office table, looking over his phone"
+    art: >
+      Taeo (taeo, outdoor, one mole under RIGHT eye) sits at the grey office container's
+      folding table at ryu_practice_yard. He holds the dark grey phone below his chin,
+      cracked top-left glass turned away, dinosaur case visible. ACTING: the polite smile
+      has frozen because the number feels mistaken; eyebrows lift, mouth slightly open.
+      Bruised forearms rest on the table, no active nosebleed. Cool morning doorway light,
+      cream office and blue-grey shadows. No restored bruises, rich-man fantasy or drawn words.
+    calm: right
+    lines:
+      - {who: taeo, type: speech, side: l, text: "SORRY. IS THERE AN EXTRA ZERO?"}
+
+  - id: P03
+    shape: wide
+    gap: short
+    bg: white
+    camera: "across the ledger at seated eye level toward Seonhee"
+    art: >
+      Ryu Seonhee (seonhee, 55, 162 cm, practical Korean bookkeeper with strong Ryu brows,
+      angular cheeks, warm brown eyes, dark low bun grey at the temples, thin reading
+      glasses down for the ledger, pencil behind LEFT ear) sits opposite Taeo at
+      ryu_practice_yard's office table. Moss-grey cardigan over cream rolled-sleeve work
+      shirt, slate trousers, scuffed brown shoes. She taps a blank ruled settlement page,
+      sharply patient but pleased. Daylight from the open door, cream and cool slate shadows.
+      Calculator screen dark; no legible figures, forms, nametags or floating interface.
+    calm: top
+    lines:
+      - {who: seonhee, type: speech, side: l, text: "I CHECKED TWICE. IT'S FOR ALL THREE OF YOU."}
+      - {who: taeo, type: speech, side: r, text: "THREE TIMES, PLEASE."}
+
+  - id: P04
+    shape: strip
+    gap: short
+    bg: white
+    camera: "table-height three-shot, Nib placing three plain saucers in a row"
+    art: >
+      At the ryu_practice_yard office doorway, Nib (nib, adult default, binoculars and
+      full belt locks, barefoot) puts three mismatched empty saucers along the table edge,
+      practical rather than ceremonial. Taeo (taeo, outdoor) is seated behind them;
+      Orrin's (orrin, default) adult face appears through the open doorway, his body
+      safely outside. ACTING: Nib flatly certain, Taeo still blinking, Orrin curious.
+      Cool morning daylight, cream tabletop, brown shadows. No coins yet, no written names or screens.
+    calm: top
+    lines:
+      - {who: nib, type: speech, side: l, text: "DIVIDE."}
+
+  - id: P05
+    kind: title
+    gap: long
+    bg: white
+    title_text: "CHAPTER 33 · SURPLUS"
+
+  - id: P06
+    shape: wide
+    gap: short
+    bg: white
+    camera: "over Seonhee's shoulder toward Taeo and Nib at the table"
+    art: >
+      Taeo (taeo, outdoor) at ryu_practice_yard turns his dark phone face-down and points
+      once to each saucer. Nib (nib, default with binoculars, LEFT notch and full locks)
+      stands at the table's end, chin lifted to meet him. Orrin remains at the open door,
+      visible beyond Nib, not squeezed inside. ACTING: Taeo nervous but decided, Nib
+      testing whether the words will hold. Cool daylight from doorway, pale wood and
+      slate-blue shadows. Ledger spaces blank, no imaginary banknotes or generated lettering.
+    calm: top
+    lines:
+      - {who: taeo, type: speech, side: r, text: "ONE THIRD EACH. THE WHOLE SHARE."}
+      - {who: seonhee, type: speech, side: l, text: "NO OPERATOR'S PREMIUM?"}
+      - {who: taeo, type: speech, side: r, text: "WE EACH DID THE PART THE OTHERS COULDN'T."}
+
+  - id: P07
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Nib, table light reflected under his eyes"
+    art: >
+      Nib (nib, adult default) at ryu_practice_yard considers Taeo off frame, eyes narrowing
+      before the lower lids soften a fraction. LEFT notch clear, one lower LEFT fang,
+      binoculars matte black at his chest with LEFT strap knot. His hands rest on the
+      edge of the table rather than clutching the money saucer. ACTING: approving without
+      making a performance. Morning daylight, cream and blue-grey, hard cel shadow under
+      the brow. No cute proportions, gold shine, currency or words in the art.
+    calm: left
+    lines:
+      - {who: nib, type: speech, side: r, text: "EQUAL IS GOOD."}
+
+  - id: P08
+    shape: wide
+    gap: short
+    bg: white
+    style: chibi
+    camera: "chibi gag, Orrin's proposed denomination"
+    art: >
+      CHIBI comedy at the now-safe settlement. Chibi Orrin (orrin, identical stacked-slate
+      shell, grey-olive skin, three blunt nails per foot) points his chin toward a
+      ludicrously tall pile of plain soil sacks in his imagination. Chibi Taeo (taeo,
+      outdoor, backpack's old orange patch) stares up with a huge calculator-shaped
+      sweat drop; chibi Nib (nib, all locked props and binoculars, barefoot) inspects
+      one sack seriously. Flat pale ochre screentone replaces ryu_practice_yard; morning colour.
+      No prices, banknotes, decorative glow or letters on sacks.
+    calm: top
+    lines:
+      - {who: orrin, type: speech, side: l, text: "I'D LIKE MINE IN SOIL."}
+      - {who: taeo, type: nervous, side: r, text: "ALL OF IT?"}
+      - {who: nib, type: speech, side: c, text: "HE COUNTS SLOWLY."}
+
+  - id: P09
+    shape: wide
+    gap: short
+    bg: white
+    camera: "normal style, low from the doorway toward Orrin in the yard"
+    art: >
+      Back to normal. Orrin (orrin, default) rests outside the ryu_practice_yard office,
+      the grey corrugated wall beside his intact shell. Taeo (taeo, outdoor) crouches
+      within the doorway, not climbing on him. Nib (nib, default, binoculars and belt
+      locks) leans against the jamb. ACTING: Orrin slow, dry, wholly serious about the
+      garden; Taeo's startled expression loosens into a real smile. Morning sun from
+      southeast, dusty ochre and brown shadows. No brace, soil mountain or written sign.
+    calm: top
+    lines:
+      - {who: orrin, type: speech, side: l, text: "PERHAPS A BAG FIRST. THE ROOF CAN WAIT."}
+      - {who: taeo, type: speech, side: r, text: "A BAG I UNDERSTAND."}
+
+  - id: P10
+    shape: full
+    gap: short
+    bg: white
+    camera: "top-down over the final distribution ledger and two tiny coins"
+    art: >
+      The office table at ryu_practice_yard: Seonhee's moss-grey sleeve and five-fingered
+      hand hold a ruler under three equally sized blank ledger rows. Two tiny plain
+      aluminium coins rest in a fourth shallow joint-expense dish; the three personal
+      saucers are equally spaced. Taeo's black sleeve and Nib's scarred hand sit at
+      opposite edges, hands relaxed now. Cool doorway light, cream paper, blue-grey
+      shadows. Leave the ledger face unobstructed. Coin values and ledger figures stay
+      blank; calculator dark. The payout itself is electronic, not a pile of cash.
+    calm: top
+    ui:
+      - {kind: label, text: "EQUAL OWNERSHIP: 1/3 EACH\nCASH: ₩12,666,666 EACH\n₩2 REMAINDER: JOINT, EQUAL SHARES", at: [0.5, 0.40], size: 30, notes: "Set on the blank ledger, keeping both coins clear."}
+    lines:
+      - {who: taeo, type: float, text: "I'D NEVER HAD TO WORRY ABOUT TWO WON LEFT OVER."}
+    notes: "Exact thirds of ₩38,000,000 are fractional won. Equal cash payments total ₩37,999,998; ₩2 stays jointly and equally owned. No rounding bonus to the operator. Saucer/coin image is bookkeeping, not a cash payout of millions."
+
+  - id: P11
+    shape: narrow-l
+    gap: long
+    bg: white
+    camera: "kit phone hand showing Ryu's separate central debt payment"
+    art: "KIT HAND"
+    calm: none
+    ui:
+      - {kind: phone.bank_transfer, on: screen, hand: taeo_pov_ots, to: "BLUEBIRD CAPITAL · RYU SURVEY", amount: "₩120,000,000", text: "CENTRAL SETTLEMENT · PRINCIPAL PAYMENT POSTED\nBALANCE: ₩310,000,000 → ₩190,000,000"}
+    notes: "Seonhee shows Taeo the posted receipt on his phone. Ryu's central proceeds are separate from the east trio's ₩38,000,000. New continuity decision: ₩120,000,000 pays principal, ₩190,000,000 remains; central gross and interest schedule unstated."
+
+  - id: P12
+    shape: full
+    gap: short
+    bg: white
+    camera: "front close-medium on Seonhee, the ledger suddenly beyond her control"
+    art: >
+      BIG REACTION at the ryu_practice_yard office table. Seonhee (seonhee, 55, default
+      moss cardigan and cream shirt, low grey-templed bun, reading glasses) stares down
+      at the receipt, then covers her mouth. Tears spill before she can tidy them away;
+      shoulders shake, glasses slip, pencil stays behind LEFT ear. Her free hand presses
+      the blank ledger flat as if work could contain it. Daylight from the open door,
+      cream and cool slate. No comic tear rivers, debt collector, readable paper or gloss.
+    calm: top
+    lines:
+      - {who: seonhee, type: speech, side: l, text: "THE NUMBER WENT DOWN."}
+      - {who: seonhee, type: whisper, side: l, text: "IT ACTUALLY WENT DOWN."}
+
+  - id: P13
+    shape: wide
+    gap: short
+    bg: white
+    silent: true
+    camera: "side view across Seonhee to Dongsik arriving beside her chair"
+    art: >
+      Ryu Dongsik (dongsik, 58, broad-shouldered Korean man with square jaw, strong Ryu
+      brows, short dark hair strongly grey at temples, brown eyes, clean shaven, weathered
+      large hands) rolls beside Seonhee at ryu_practice_yard's office. Old brown survey
+      jacket, grey-beige shirt, olive-grey trousers, brown shoes; muted sage lap blanket.
+      Real manual steel-grey wheelchair: two large spoked rear wheels with hand rims,
+      two front casters, twin footplates, black seat and worn grips. He offers a folded
+      handkerchief, eyes wet but mouth steady. Seonhee is still crying. Doorway daylight,
+      cream/slate shadows. No standing Dongsik, hospital gear, chibi or words.
+    calm: none
+
+  - id: P14
+    shape: wide
+    gap: short
+    bg: white
+    camera: "over Dongsik's seated shoulder toward Seonhee, Minho behind her"
+    art: >
+      Dongsik (dongsik, default, seated in the same manual wheelchair) faces Seonhee
+      (seonhee, moss cardigan, reading glasses) at ryu_practice_yard. She grips the
+      handkerchief in one hand and has forgotten the pencil still behind her LEFT ear.
+      Minho (minho, default brown jacket, LEFT grey streak) stands behind her with
+      Haein (haein, overalls, jaw-length bob), his hand lightly on his mother's chair
+      back. ACTING: tenderness without anyone making a speech. Morning doorway light,
+      cream and slate; all paper blank, no returned vans, standing father or readable screens.
+    calm: top
+    lines:
+      - {who: dongsik, type: speech, side: l, text: "YOU CAN PUT THE PENCIL DOWN."}
+      - {who: seonhee, type: speech, side: r, text: "I DON'T KNOW WHERE IT IS."}
+      - {who: haein, type: speech, side: r, text: "WE'LL FIND IT AFTER."}
+
+  - id: P15
+    shape: wide
+    gap: long
+    bg: white
+    camera: "outside the office, level two-shot of Minho and Taeo"
+    art: >
+      At the grey container outside ryu_practice_yard, Minho (minho, default, LEFT grey
+      streak) stands beside Taeo (taeo, outdoor, RIGHT-eye mole). Behind the open door,
+      the family's shapes remain together at the table; keep their faces private.
+      Minho looks toward his mother, then to Taeo, shoulders finally lower. Taeo holds
+      the phone by his side, bruises still visible below cuffs. Morning sun southeast,
+      ochre ground and warm brown shadows. No triumphant poses, collector, equipment
+      magically returned or readable signs.
+    calm: top
+    lines:
+      - {who: minho, type: speech, side: l, text: "NEXT TIME, WE BOTH GET A ROUTE."}
+      - {who: taeo, type: speech, side: r, text: "NEXT TIME, I PACK A BETTER LUNCH."}
+      - {who: minho, type: speech, side: l, text: "GOOD. YOU'RE LEARNING."}
+    notes: "Minho remains an independent professional and rival, now treating the east trio as a crew worth working alongside. Debt is reduced, not erased."
+
+  - id: P16
+    shape: full
+    gap: long
+    bg: white
+    camera: "establishing from the south gate across the fixed Ryu yard"
+    art: >
+      ryu_practice_yard follows key_wide: southwest grey office, west equipment trestle,
+      central staggered plywood maze and north targets, chain-link perimeter. The old
+      southeast van parking spot is empty after repossession. Taeo (taeo, outdoor) steps
+      out beside Nib (nib, default and full locks); Orrin (orrin, default) waits where
+      the court is broad enough, Haein's dismantled brace on the trestle behind him.
+      ACTING: relief gives way to a practical new question as Taeo turns toward them.
+      Morning southeast sun, ochre/brown and sky blue. No extra vans, altered maze or lettering.
+    calm: top
+    lines:
+      - {who: taeo, type: speech, side: r, text: "CAN WE GO LOOK AT A PLACE?"}
+      - {who: nib, type: speech, side: l, text: "WE CAN LOOK."}
+
+  - id: P17
+    shape: full
+    gap: long
+    bg: white
+    camera: "new location establishing from the south gate into the tyre-shop court"
+    art: >
+      tyre_shop_base in midday light, a day later. Through the open south double metal
+      gate, cracked concrete leads to a north repair bay, disconnected lift and empty
+      tyre rack at the back. East corridor opens to two back-room doors; west lean-to
+      shed has a dry floor and generous clear span. Blank faded fascia above the bay.
+      Taeo (taeo, outdoor), Nib (nib, adult default, binoculars and belt locks) and Orrin
+      (orrin, default) stand in the court with Seonhee (seonhee, moss cardigan, glasses).
+      ACTING: cautiously assessing. Daylight cream, cool slate shadows, sky blue; no active gate,
+      roof garden, business name, new guild emblem or readable sign.
+    calm: top
+    lines:
+      - {who: narr, type: tag, text: "MAPO GATE ZONE · THE NEXT DAY"}
+      - {who: seonhee, type: speech, side: l, text: "TYRE SHOP. TWO BACK ROOMS. THAT SHED'S INCLUDED."}
+
+  - id: P18
+    shape: narrow-r
+    gap: short
+    bg: white
+    camera: "down the east corridor, Nib testing one back-room door"
+    art: >
+      tyre_shop_base east corridor, seen along its length toward the small washroom and
+      sink. Nib (nib, default, full locked props and binoculars, barefoot) opens one
+      room door from inside and looks at its ordinary latch with grave professional
+      interest. The second room's separate closed door is visible behind him, not
+      connected through his room. ACTING: the prospect of privacy almost startles him.
+      Daylight from the court, cream plaster and cool blue-grey shadows. No numbered
+      rooms, wall slogans, furnished luxury or drawn lettering.
+    calm: left
+    lines:
+      - {who: nib, type: speech, side: r, text: "SEPARATE DOORS."}
+
+  - id: P19
+    shape: narrow-l
+    gap: short
+    bg: white
+    camera: "kit phone hand showing the revised lease offer"
+    art: "KIT HAND"
+    calm: none
+    ui:
+      - {kind: phone.info_card, on: screen, hand: taeo_left_tilt, title: "TYRE-SHOP COMPOUND · REVISED OFFER", text: "Advertised deposit ₩40,000,000\nAgreed deposit ₩30,000,000\nHigher monthly rent: ₩600,000 · Fixed term: 12 months"}
+    lines:
+      - {who: seonhee, type: speech, side: l, text: "SMALLER DEPOSIT. HIGHER RENT. THAT'S WHAT THE OWNER WILL TAKE."}
+    notes: "Remembers ch 22's ₩40,000,000 deposit barrier. This is a negotiated lease, no magical purchase or cancellation of the gate-zone housing problem. It costs ₩30,000,000 deposit plus ₩600,000 per month."
+
+  - id: P20
+    shape: wide
+    gap: short
+    bg: white
+    camera: "court-level three-shot, Taeo lowering himself to speak to both companions"
+    art: >
+      At tyre_shop_base Taeo (taeo, outdoor) squats carefully on the court, phone away,
+      facing Nib (nib, default and full locks) and Orrin (orrin, default). The two
+      back-room doors and broad shed occupy opposite background edges. Taeo's bruised
+      forearms rest on his knees, he does not hide them from his partners. ACTING:
+      he wants this badly and makes himself ask plainly. Midday light from the south,
+      pale concrete, cream walls, slate shadows. No signed papers yet, forced smiles,
+      cyan link, property ownership certificate or readable fascia.
+    calm: top
+    lines:
+      - {who: taeo, type: speech, side: r, text: "WOULD YOU PUT IN TEN MILLION EACH? FOR THE DEPOSIT."}
+      - {who: taeo, type: speech, side: r, text: "TWO HUNDRED THOUSAND EACH FOR RENT. ONLY IF YOU WANT THIS PLACE."}
+    notes: "Ask-first motif becomes a concrete financial choice. He does not commit their equal shares before consent. Each keeps ownership of one third of the refundable deposit."
+
+  - id: P21
+    shape: tall
+    gap: long
+    bg: white
+    silent: true
+    camera: "low behind Orrin beneath the lean-to, following his gaze to its roof beams"
+    art: >
+      Orrin (orrin, default) walks under tyre_shop_base's west shed roof and stops on
+      its dry concrete, checking overhead clearance with his eyes rather than ducking
+      on command. Intact slate shell clears the beams comfortably; no cargo or brace.
+      The higher workshop roof is visible beyond, inaccessible to him. ACTING: a long
+      still look at the ceiling, guarded hope in heavy adult eyes. Midday court light
+      enters from the east, cream concrete and cool slate shadows. No garden, plants
+      on his shell, cute face, harness or lettering.
+    calm: none
+
+  - id: P22
+    shape: wide
+    gap: short
+    bg: white
+    camera: "from within the shed looking out at Taeo and Nib"
+    art: >
+      Orrin (orrin, default) stands beneath the tyre_shop_base lean-to in foreground,
+      turning his adult face toward Taeo (taeo, outdoor), who remains in the court
+      beside Nib (nib, adult default and all locks). A plain wall and stationary beam
+      frame the empty sleeping area. ACTING: Orrin asks one serious condition, Taeo
+      answers without a salesman smile. Midday light across the court, cool slate
+      shed shadow, muted cream. No vehicle bed, cage, feed bucket, roof garden or words.
+    calm: top
+    lines:
+      - {who: orrin, type: speech, side: l, text: "I SLEEP HERE? NOT ON SOMETHING THAT LEAVES?"}
+      - {who: taeo, type: speech, side: r, text: "HERE."}
+      - {who: orrin, type: speech, side: l, text: "THEN YES."}
+
+  - id: P23
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "eye-level close-up of Nib looking toward the unsigned lease"
+    art: >
+      Nib (nib, default) at tyre_shop_base looks down at the blank lease held by Seonhee
+      just out of frame. His hand rests on the pouch at his RIGHT hip, where the
+      pale-blue ID is safely stored, dinosaur sticker on flap; wooden sheath remains
+      LEFT and binoculars high on chest. ACTING: practical suspicion easing into a
+      decision, not gratitude for permission. Midday side light, muted cream and slate
+      shadows. No newly invented signature, glowing ID, cute proportions or readable paper.
+    calm: right
+    lines:
+      - {who: nib, type: speech, side: l, text: "ALL THREE NAMES."}
+      - {who: taeo, type: speech, side: r, text: "ALL THREE."}
+      - {who: nib, type: speech, side: l, text: "YES."}
+
+  - id: P24
+    shape: full
+    gap: short
+    bg: white
+    camera: "overhead on the lease on a clean board across two trestles"
+    art: >
+      At tyre_shop_base Seonhee (seonhee, moss cardigan, glasses down) steadies the
+      lease on a clean board. Taeo's human hand, Nib's scarred olive hand and Orrin's
+      broad three-nailed forefoot enter from separate edges beside three blank assent
+      spaces; Orrin's pad touches a plain ink sponge before making his deliberate
+      mark. His weight stays on the concrete, never on the trestle. ACTING is carried
+      by their careful hands and the lean of Seonhee's head. Midday light, cream paper,
+      slate shadows. No generated names, false hand anatomy or accidental ink on clothing.
+    calm: top
+    ui:
+      - {kind: label, text: "LESSEES: YOON TAEO · NIB · ORRIN\nDEPOSIT ₩30,000,000 · RENT ₩600,000 / MONTH\nFIXED TERM: 12 MONTHS · DEPOSIT OWNERSHIP: EQUAL THIRDS", at: [0.5, 0.31], size: 28, notes: "Letter the blank document; assent spaces remain separate and clear."}
+    notes: "Irreversible arc-end choice: all three enter the lease together, each choosing an equal stake. No guild is founded or named here. Orrin makes his own mark, never represented as equipment or signed for by Taeo."
+
+  - id: P25
+    shape: narrow-r
+    gap: short
+    bg: white
+    camera: "kit phone hand confirming the three voluntary lease contributions"
+    art: "KIT HAND"
+    calm: none
+    ui:
+      - {kind: phone.info_card, on: screen, hand: taeo_thumb_tap, title: "SAEBOM BANK · LEASE SETTLEMENT", text: "Deposit: 3 × ₩10,000,000 = ₩30,000,000\nFirst rent: 3 × ₩200,000 = ₩600,000\nContributors: Yoon Taeo · Nib · Orrin · Posted"}
+    sfx:
+      - {text: "TAP", style: quiet, at: [0.72, 0.70], size: S, rot: 0}
+    notes: "Pooled payment records three separately authorised contributions, not Taeo appropriating the arrivals' wages. Each retains ₩2,466,666 before personal purchases. The ₩2 joint remainder is still joint and is not absorbed into rent."
+
+  - id: P26
+    shape: full
+    gap: long
+    bg: white
+    camera: "moving montage as one wide court composition, no repeated bodies"
+    art: >
+      tyre_shop_base, later in the week. Open south gate, boxes carried through the
+      court toward two separate back rooms. Haein (haein, default overalls) carries
+      the folded trestle; Minho (minho, default) carries a chair. Taeo (taeo, outdoor)
+      carries only his light olive backpack, old patch visible. Nib (nib, default,
+      full locks) carries the white green-banded mug wrapped safely in cloth. Orrin
+      (orrin, default) directs placement from his shed, not used as unpaid furniture.
+      Afternoon light from west, cream and slate. No returned Ryu vans, identical duplicate
+      figures, new moving truck ownership, roof garden or lettering.
+    calm: top
+    lines:
+      - {who: narr, type: tag, text: "LATER THAT WEEK"}
+      - {who: minho, type: speech, side: l, text: "THAT CHAIR GOES WHERE?"}
+      - {who: orrin, type: speech, side: r, text: "LEFT. THE ROOF DRIPS ON THE RIGHT."}
+    notes: "Taeo and Nib move out of the ch 28 yard container; Ryu's yard and family remain independent. A few recovery days pass; Taeo takes only light objects. The old cup makes the second move."
+
+  - id: P27
+    shape: vignette
+    gap: short
+    bg: white
+    silent: true
+    camera: "from Nib's doorway looking down onto him unpacking his paper drawing"
+    art: >
+      In his own back room at tyre_shop_base, Nib (nib, adult default, barefoot, all
+      belt and binocular locks) carefully unfolds the PAPER drawing of his watch post
+      onto a low shelf. The pale-blue ID and cobalt-blue pencil with pink eraser,
+      silver ferrule and tiny three-line fork near the eraser sit beside it. His
+      head is bent, one hand smoothing a fold with unexpected gentleness. The door
+      remains open behind us. Afternoon court light, cream walls, cool slate shadows.
+      No cardboard, new writing on the drawing, cute posture or emotional effect symbols.
+    calm: none
+    notes: "Locked props: paper watch-post drawing, pale-blue ID, Eunchae's cobalt pencil carrying Kett's mark. No new ledger plant; inherited motifs remain active without explanation."
+
+  - id: P28
+    shape: strip
+    gap: short
+    bg: white
+    camera: "close across Taeo's new shelf, his hands placing the family photo"
+    art: >
+      Taeo's hands (taeo, black hoodie, navy jacket now hung at the room door) place
+      the framed family photo on a modest shelf at tyre_shop_base: two parents,
+      a fourteen-year-old boy and a baby as the existing photograph, not new likenesses.
+      Beside it stands the old white mug with one thin green band; the olive backpack
+      with faded orange OLD shield-and-open-door patch hangs from a sturdy wall hook
+      behind. ACTING in his hands is careful relief. Late afternoon light, cream and
+      blue-grey. No shrine candles, fresh parents, changed patch or written dedication.
+    calm: top
+    lines:
+      - {who: taeo, type: float, text: "I DIDN'T HAVE TO FIT EVERYTHING UNDER MY BED."}
+
+  - id: P29
+    shape: wide
+    gap: short
+    bg: white
+    camera: "from inside Taeo's back room toward Nib at its open door"
+    art: >
+      Taeo (taeo, black hoodie, jacket on door hook) stands inside his new back room
+      at tyre_shop_base, one ordinary room key held in his hand. Nib (nib, default,
+      all locked props and binoculars) stands on the corridor side with his own key.
+      Both room doors are open; the washroom is far beyond. ACTING: Taeo sheepishly
+      pleased at a small luxury; Nib assessing the latch with scout seriousness.
+      Late afternoon light from the court, cream walls, cool blue-grey shadows.
+      Keys plain, tags blank, no guild badge, celebratory writing or sudden healed arms.
+    calm: top
+    lines:
+      - {who: taeo, type: speech, side: r, text: "I CAN CLOSE IT."}
+      - {who: nib, type: speech, side: l, text: "YOU CAN OPEN IT."}
+      - {who: taeo, type: speech, side: r, text: "THAT TOO."}
+    notes: "The open-door motif is now a choice about privacy and welcome. Neither man locks the other in or owns the other's room."
+
+  - id: P30
+    shape: full
+    gap: short
+    bg: white
+    camera: "low from Orrin's sleeping mat beneath the shed toward Haein"
+    art: >
+      tyre_shop_base west shed. Orrin (orrin, adult default, shell intact) settles on
+      a broad dry folded mat, his own site-gate key on a low shelf within reach.
+      Haein (haein, overalls, glasses on crown) sets a single modest plain sack of
+      potting soil beside the shelf; a little empty planting tray sits nearby, not
+      yet filled. Orrin's eyes follow the sack with quiet pleasure. ACTING: Haein
+      solemnly honours the purchase. Afternoon light from court, cream and slate;
+      no roof access, soil dumped on his shell, dog bed or readable bag branding.
+    calm: top
+    lines:
+      - {who: haein, type: speech, side: l, text: "ONE BAG. FROM YOUR SHARE."}
+      - {who: orrin, type: speech, side: r, text: "EXCELLENT. I OWN SOME GROUND."}
+    notes: "Orrin voluntarily buys one bag of soil; small personal cost intentionally unstated. It stays bagged under his shed. He has no roof garden until ch 99."
+
+  - id: P31
+    shape: vignette
+    gap: long
+    bg: white
+    silent: true
+    camera: "from the court, intimate view of Orrin under his fixed roof"
+    art: >
+      Orrin (orrin, adult default) lies awake beneath tyre_shop_base's stationary shed
+      roof, chin resting on the dry mat. His heavy-lidded eyes are on the roof beam,
+      mouth in the faintest crooked adult smile. The single soil sack and empty tray
+      stand on the low shelf. Beyond his resting shell an open back-room door reveals
+      a small square of light. Late afternoon goes cooler, cream concrete and slate-blue
+      shadows, warm door reflection. No garden yet, plant sprouting instantly, cage,
+      pet accessories, decorative particles or words.
+    calm: none
+
+  - id: P32
+    shape: tall
+    gap: long
+    bg: white
+    camera: "same very low pavement angle as ch 3 P27 up the seven-storey building"
+    art: >
+      world_cup_ro, the SAME north-side seven-storey mid-rise and top-three-floor vinyl
+      banner frame as ch 3 P27. New banner: Sunline (sunline, printed image only,
+      athletic adult woman, chestnut high ponytail, white-gold battle outfit, charcoal
+      spear with steel leaf blade and gold collar) smiles at camera beside a large
+      plain phone silhouette against navy. New sponsor symbol is three white offset
+      rounded bars, replacing Haneul Air's wing and sun; no airliner. Taeo (taeo,
+      outdoor, backpack patch) and Nib (nib, default, full locks) are tiny at lower RIGHT,
+      carrying light table supplies. Daylight blue-grey street; banner navy/white/gold.
+      Banner and all sponsor patches blank for lettering, no generated words or nameplate.
+    calm: top
+    ui:
+      - {kind: label, text: "MORU MOBILE · STAY CONNECTED", at: [0.49, 0.37], size: 32, notes: "Place on the new blank sponsor strip of the vinyl banner."}
+    notes: "PLANT P22 continued: ch 3 P27's Haneul Air banner on THIS World Cup-ro building has changed to MORU MOBILE. New white offset-bar mark, navy background and phone replace plane/wing/sun. Keep frame/building fixed for ch 61's third sponsor. Sunline is a printed advertisement only."
+
+  - id: P33
+    shape: wide
+    gap: short
+    bg: white
+    camera: "street level two-shot walking away from the billboard"
+    art: >
+      On world_cup_ro, Nib (nib, adult default, binoculars, LEFT notch and all belt
+      locks) carries a stack of plain lightweight plastic plates at waist height.
+      Taeo (taeo, outdoor, old backpack patch) carries a bag of paper napkins, leaving
+      heavy purchases to others. The banner's edge is high behind, now a navy slash
+      with the same white phone shape; pavement shops and trees are simplified.
+      ACTING: Nib dryly puzzled, Taeo's smile tired but amused. Daylight cream and
+      cool slate shadows. No second banner building, real-brand bags or readable signs.
+    calm: top
+    lines:
+      - {who: nib, type: speech, side: l, text: "SHE SOLD THE PLANE."}
+      - {who: taeo, type: speech, side: r, text: "CHANGED SPONSORS."}
+      - {who: nib, type: speech, side: l, text: "SMALLER LUGGAGE."}
+
+  - id: P34
+    shape: full
+    gap: long
+    bg: white
+    camera: "from the new base's court toward Eunchae at the south gate"
+    art: >
+      tyre_shop_base, early evening at the end of the week. Eunchae (eunchae, brown
+      high ponytail, cream rolled-sleeve shirt, grey-green work vest with blank tag,
+      black trousers, black-and-white canvas shoes) stands in the open south gate
+      holding her dog-eared tabbed hygiene workbook and a dark phone. Taeo (taeo,
+      outdoor) turns from laying the new plastic plates on the dinner trestle; Nib
+      (nib, default, binoculars and belt locks) is beside him. ACTING: Eunchae's
+      expression is hard to contain but not yet spoken. Warm work-lamp cream over
+      cool dusk slate, drawn compound layout; phone dark, no food-business sign or words.
+    calm: top
+    lines:
+      - {who: eunchae, type: speech, side: l, text: "CHECK YOUR PHONE."}
+
+  - id: P35
+    shape: narrow-r
+    gap: short
+    bg: white
+    camera: "kit phone hand, Taeo opening Eunchae's result message"
+    art: "KIT HAND"
+    calm: none
+    ui:
+      - {kind: phone.ttok_chat, on: screen, hand: taeo_right_front, title: "Eunchae", date: "TODAY", messages: [{from: them, text: "SECOND PRACTICAL. PASSED.", time: "18:12"}, {from: them, text: "I checked three times. Don't make me check four.", time: "18:13"}]}
+    sfx:
+      - {text: "DING", style: phone, at: [0.18, 0.22], size: M, rot: -8}
+    notes: "Eunchae passes the FOOD-BUSINESS licence practical on her second try. Not an AAO result and not a third attempt. Her stolen ₩180,000,000 deposit remains unrecovered."
+
+  - id: P36
+    shape: wide
+    gap: short
+    bg: white
+    camera: "front on Eunchae as the others look up from the phone"
+    art: >
+      Eunchae (eunchae, default work clothes and tabbed workbook) in tyre_shop_base's
+      court tries to deliver the news briskly, then breaks into a huge disbelieving
+      smile, eyes suddenly wet. One hand lifts halfway to cover it and stops. Taeo
+      (taeo, outdoor) and Nib (nib, adult default and full locks) are foreground
+      shoulder silhouettes, listening rather than cheering over her. Warm lamp from
+      the bay, cool dusk shadows, cream and slate. No chibi tears, changed certificate,
+      restaurant opening, drawn confetti or writing.
+    calm: top
+    lines:
+      - {who: eunchae, type: speech, side: l, text: "I PASSED."}
+      - {who: taeo, type: speech, side: r, text: "I KNOW. SAY IT AGAIN IF YOU WANT."}
+      - {who: eunchae, type: speech, side: l, text: "I PASSED."}
+
+  - id: P37
+    shape: vignette
+    gap: long
+    bg: white
+    silent: true
+    camera: "close side-on on Eunchae lowering her workbook for the first time"
+    art: >
+      At tyre_shop_base Eunchae (eunchae, work vest, cream shirt) lets the dog-eared
+      workbook hang at her side instead of clamping it to her chest. Her shoulder
+      drops with a long breath; one small tear rests beneath the wide real smile.
+      Nib (nib, adult default, full locks) stands nearby, face calm and satisfied,
+      hands by his own sides. Warm work-lamp light from left, cool dusk shadow,
+      cream/brown palette. Tabbed pages remain blank shapes. No free shop keys,
+      transferred exam pencil, magical licence or words.
+    calm: none
+
+  - id: P38
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low two-shot at Nib's eye level as Eunchae crouches beside the table"
+    art: >
+      Eunchae (eunchae, default, ponytail and workbook) crouches to place the book
+      safely on a dry chair at tyre_shop_base, now level with Nib (nib, adult default,
+      binoculars and all belt locks). ACTING: she can look him in the eye about the
+      thing she failed before; he offers no sermon, just quiet certainty. The dinner
+      trestle's empty plates are above them. Warm bay lamp, brown shadows, cool dusk
+      beyond the gate. No cute Nib, hug that lifts him, readable book cover or shop lease.
+    calm: top
+    lines:
+      - {who: nib, type: speech, side: l, text: "YOU DID IT."}
+      - {who: eunchae, type: speech, side: r, text: "I DID. NOW I HAVE TO SAVE FOR EVERYTHING ELSE."}
+      - {who: nib, type: speech, side: l, text: "AFTER DINNER."}
+
+  - id: P39
+    shape: inset-r
+    gap: short
+    bg: white
+    style: chibi
+    camera: "chibi gag, Eunchae taking a strictly voluntary night off"
+    art: >
+      CHIBI comedy: Eunchae (eunchae, same ponytail and work clothes) hugs her tabbed
+      workbook like a trophy and puts her feet firmly up on a tiny imaginary cushion.
+      Chibi Taeo (taeo, outdoor, old backpack patch) already holds a ladle and looks
+      at it with dot-eyed uncertainty. Chibi Nib (nib, all locks, binoculars, barefoot)
+      presents an empty plate with a flat official stare. Flat warm cream dots replace
+      tyre_shop_base, lamp-orange accent and brown shadows. No uncooked food emergency,
+      grief, readable signs or magic cooking.
+    calm: left
+    lines:
+      - {who: eunchae, type: speech, side: r, text: "PASSING DOESN'T MEAN I'M COOKING TONIGHT."}
+      - {who: taeo, type: speech, side: l, text: "UNDERSTOOD. VERY CLEAR LICENSING CONDITION."}
+
+  - id: P40
+    shape: full
+    gap: long
+    bg: white
+    camera: "normal-style establishing from the open gate across the evening meal"
+    art: >
+      tyre_shop_base court at evening: trestle dinner beside Orrin's open shed, warm
+      bay work lamp on the left, cool dusk overhead. Taeo (taeo, outdoor), Nib (nib,
+      adult default, full locks), Minho (minho, default), Haein (haein, overalls),
+      Sejin (sejin, medic gear), Eunchae (eunchae, work clothes) and Seonhee (seonhee,
+      moss cardigan) gather around home-cooked dishes. Dongsik (dongsik, default) has
+      a clear wheelchair space and board ramp by the bay threshold. Orrin (orrin,
+      default) rests at table end on his own dry mat, broad bowl in reach, included
+      at the same height by a low side board. ACTING: happy, hungry, talking over
+      dinner. Cream/brown and steam white. All phone screens dark; no feast luxury,
+      pet feeding dish, completed garden, guild sign or generated words.
+    calm: top
+    lines:
+      - {who: seonhee, type: speech, side: l, text: "MOVE THAT PLATE. THE STEW'S COMING."}
+      - {who: minho, type: speech, side: r, text: "I'VE MOVED IT TWICE."}
+      - {who: haein, type: speech, side: r, text: "AND LEARNED NOTHING."}
+
+  - id: P41
+    shape: wide
+    gap: short
+    bg: white
+    camera: "across the dinner board, Seonhee opposite Taeo"
+    art: >
+      Seonhee (seonhee, moss cardigan, low bun and LEFT-ear pencil) at tyre_shop_base
+      places kimchi beside Taeo (taeo, outdoor) with the brisk care of someone who
+      has finally stopped counting for the night. She pauses to look around the table,
+      blinking back fresh emotion. Dongsik (dongsik, default, seated
+      in manual wheelchair with sage blanket) eats beside her. ACTING: Taeo wants
+      to thank her and can only make a tired joke. Warm lamp from left, cream/brown,
+      steam white. Plain bowls, dark phones, no visible debt collectors or writing.
+    calm: top
+    lines:
+      - {who: taeo, type: speech, side: r, text: "WE DIDN'T PUT YOUR DINNER IN THE LEASE."}
+      - {who: seonhee, type: speech, side: l, text: "THEN DON'T LOOK SO PLEASED. IT ISN'T GUARANTEED."}
+      - {who: dongsik, type: speech, side: l, text: "IT'S PRETTY GUARANTEED."}
+
+  - id: P42
+    shape: vignette
+    gap: long
+    bg: white
+    silent: true
+    camera: "from the shed behind Orrin, the arguing dinner framed under his roof"
+    art: >
+      Orrin (orrin, adult default, intact shell) is near foreground beneath his
+      stationary shed roof at tyre_shop_base, heavy-lidded face turned toward the
+      dinner table. Beyond him, Nib (nib, default, full locks) defends a plate with
+      one hand while Haein (haein, overalls) reaches for it; Taeo (taeo, outdoor)
+      laughs, Eunchae (eunchae, work clothes) leans back smiling, others present in
+      simplified shapes. ACTING: Orrin's small crooked smile is private. Warm lamp
+      cream and brown beneath cool dusk slate; unopened soil sack and empty tray
+      sit at his side. No roof garden, dream flashback, cute face or dialogue in art.
+    calm: none
+    notes: "Quiet emotional echo of ch 31's roof-garden dream: people argue about dinner under a roof. He has the people and a shed, not the promised final garden."
+
+  - id: P43
+    shape: wide
+    gap: short
+    bg: white
+    camera: "close two-shot across the old mug between Taeo and Nib"
+    art: >
+      At tyre_shop_base's dinner table Taeo (taeo, outdoor jacket loosened over black
+      hoodie) offers Nib (nib, adult default, binoculars and full belt locks) water
+      in the old white mug with its thin green band. Nib's eyes go from cup to Taeo,
+      mouth flat with the smallest suggestion of amusement. Taeo's bruised forearm
+      is visible, supported on the table rather than held out straining. Warm lamp
+      left, brown shadows, cream crockery. No amber link, extra cups, magical healing
+      or letters on the mug.
+    calm: top
+    lines:
+      - {who: taeo, type: speech, side: r, text: "WATER?"}
+      - {who: nib, type: speech, side: l, text: "YOU FIRST."}
+      - {who: taeo, type: speech, side: r, text: "I THOUGHT OWNING A DOOR MIGHT CHANGE THAT."}
+    notes: "Runner: Taeo drinks first. 'Owning a door' is his joke about having his own room; the compound is leased, as explicitly shown, not purchased."
+
+  - id: P44
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Taeo after the first sip, looking beyond the cup"
+    art: >
+      Taeo (taeo, outdoor, one mole under RIGHT eye) lowers the green-banded mug at
+      tyre_shop_base and looks past it at the people around his table. ACTING: an
+      unguarded little smile, tired eyelids finally not braced for something bad.
+      His phone lies face-down just beyond his elbow, clear case and green dinosaur
+      sticker visible; bruises remain below pushed-back cuff. Warm lamp from left,
+      cream and brown background simplified to faces and chairs. No premonition,
+      ominous silhouette, glowing phone screen or words in art.
+    calm: left
+    lines:
+      - {who: taeo, type: float, text: "I WANTED THIS EVENING TO BE BORING."}
+
+  - id: P45
+    shape: wide
+    gap: short
+    bg: white
+    camera: "along the table toward Eunchae and Minho in easy conversation"
+    art: >
+      At tyre_shop_base Eunchae (eunchae, default work clothes) pushes her workbook
+      a little farther from the stew with a possessive finger; Minho (minho,
+      default, LEFT grey streak) leans back, full and amused. Taeo (taeo, outdoor)
+      is near right, the old mug just set down. Orrin's (orrin, adult default)
+      resting face is visible under the shed behind them. ACTING: playful plans,
+      people comfortable enough to disagree. Warm lamp, cream/brown and steam white,
+      cool dusk beyond. Phones face-down, book lettering blank, no alert imagery yet.
+    calm: top
+    lines:
+      - {who: minho, type: speech, side: l, text: "NEXT DINNER, HE COOKS."}
+      - {who: eunchae, type: speech, side: l, text: "I'LL INSPECT."}
+      - {who: taeo, type: speech, side: r, text: "CAN I APPEAL TO SOMEONE WITHOUT A LICENCE?"}
+
+  - id: P46
+    shape: strip
+    gap: short
+    bg: white
+    camera: "extreme close-up of Taeo's face-down phone jumping against a spoon"
+    art: >
+      On the tyre_shop_base dinner trestle Taeo's dark grey phone (taeo's locked prop,
+      clear case, small green dinosaur sticker) vibrates face-down against the handle
+      of a plain metal spoon. One edge lifts a fraction, physical vibration only.
+      The green-banded mug sits safely upright beyond it; his hand stops beside the
+      cup, fingers half uncurling. Warm lamp on wood, brown shadows, cool dusk at
+      the far edge. Screen invisible, no generated words, cracks added to the case,
+      spilled boiling liquid or decorative red glow.
+    calm: none
+    sfx:
+      - {text: "BRRRR", style: phone, at: [0.59, 0.43], size: M, rot: -6}
+
+  - id: P47
+    shape: full
+    gap: short
+    bg: black
+    camera: "high above the table as every phone sounds and faces change"
+    art: >
+      tyre_shop_base court from above. Taeo, Minho, Haein, Sejin, Eunchae and Seonhee
+      all turn toward phones at their places or in their hands; Dongsik's hand
+      stops on his wheelchair rim. Use their default chapter outfits. Nib (nib,
+      adult default, full locks) turns toward the gate rather than a phone he
+      does not own; Orrin (orrin, default) lifts his head under the shed. ACTING:
+      laughter cut off, alertness spreading at once. Warm lamp remains steady,
+      cream/brown under cool slate dusk. Visible screens are plain dark shapes
+      seen edge-on; no generated notifications, gate in the court or chibi alarm faces.
+    calm: top
+    sfx:
+      - {text: "BEEEP", style: alert, at: [0.17, 0.21], size: L, rot: -12}
+      - {text: "BEEEP", style: alert, at: [0.52, 0.43], size: L, rot: 7}
+      - {text: "BEEEP", style: alert, at: [0.82, 0.65], size: L, rot: -8}
+
+  - id: P48
+    shape: tall
+    gap: short
+    bg: black
+    camera: "kit phone hand, the emergency text held absolutely still"
+    art: "KIT HAND"
+    calm: none
+    ui:
+      - {kind: phone.emergency_alert, on: screen, hand: taeo_right_front, text: "[Emergency Alert] Gate surge at Sinjeong Station underground arcade. 300+ trapped."}
+    notes: "Required surge alert, exact location and count. Public phone UI, never Taeo's private floating system. The same alert reaches every phone around the table. No seven-gate count or Side Passage F assignment revealed before ch 34."
+
+  - id: P49
+    shape: strip
+    gap: long
+    bg: black
+    silent: true
+    camera: "extreme close-up of Taeo's eyes over the phone's top edge"
+    art: >
+      Taeo (taeo, outdoor), at tyre_shop_base, eyes above the cracked top-left edge
+      of his phone. The small mole is under his RIGHT eye. ACTING: his face has
+      gone still; the number has reached him, and he is making himself keep
+      reading. Warm lamp on one cheek, hard cool phone light on the lower lids,
+      brown and slate shadows. No window reflected as legible text, no Seoryun
+      image, parents' flashback, new nosebleed or heroic smile.
+    calm: none
+
+  - id: P50
+    shape: narrow-l
+    gap: short
+    bg: black
+    camera: "kit phone hand, an incoming dispatch call replacing the alert"
+    art: "KIT HAND"
+    calm: none
+    ui:
+      - {kind: phone.ttok_call, on: screen, hand: taeo_thumb_tap, caller: "GMA EMERGENCY DISPATCH"}
+    sfx:
+      - {text: "BRRRR", style: phone, at: [0.81, 0.31], size: L, rot: -8}
+
+  - id: P51
+    shape: wide
+    gap: short
+    bg: black
+    camera: "court-level three-shot, phone in Taeo's hand between him and his companions"
+    art: >
+      Taeo (taeo, outdoor) at tyre_shop_base presses answer and holds the phone on
+      speaker, back toward us with the dinosaur sticker visible. Nib (nib, adult
+      default, binoculars and full locks) stands at his left and Orrin (orrin,
+      default) has risen under the shed, head level with them. ACTING: Taeo
+      frightened and listening, Nib intent, Orrin slow and fully awake. Minho's
+      brown sleeve enters from the far side of the table. Warm work lamp, cool
+      slate dusk, cream/brown held subdued. No active link, new gate or drawn UI.
+    calm: top
+    lines:
+      - {who: taeo, type: speech, side: r, text: "YOON TAEO. RYU SURVEY REGISTRATION."}
+    notes: "Taeo still works under Ryu Survey's licence. He has not founded a guild or earned the full operator licence, whose exam registration is ch 47."
+
+  - id: P52
+    shape: tall
+    gap: short
+    bg: black
+    camera: "from the open south gate, dinner in foreground and the listening crew beyond"
+    art: >
+      THE HOOK at tyre_shop_base. In the foreground the open gate frames the lit
+      dinner court, ordinary stew bowls and half-eaten rice still on the trestle.
+      Centre: Taeo (taeo, outdoor, old-patch backpack on chair behind him) stands
+      holding his phone on speaker, screen angled away. Nib (nib, adult default,
+      barefoot, binoculars and full locks) stands beside him; Orrin (orrin,
+      intact adult stoneback) faces outward from the shed. Minho (minho, default)
+      and Sejin (sejin, medic rig) listen on the other side. Haein, Eunchae,
+      Seonhee and seated Dongsik remain behind the table in their chapter outfits.
+      ACTING: the room they chose has just become a place they must leave from.
+      Warm lamp cream/brown, cool slate night beyond gate. No visible disaster,
+      guild emblem, summon circle, new shell damage or written alert in the art.
+    calm: top
+    lines:
+      - {who: dispatch, type: phone, side: r, text: "GMA EMERGENCY DISPATCH."}
+      - {who: dispatch, type: phone, side: r, text: "ALL REGISTERED SURVEY CREWS IN MAPO AND YANGCHEON, REPORT."}
+    notes: "Required final story hook: the Sinjeong Station underground-arcade surge, 300+ trapped, triggers a GMA dispatch call. The chapter ends during that call at the new base; travel and the bidding system begin in ch 34."
+
+  - id: P53
+    kind: end
+    gap: long
+    bg: white
+    end_text: "TO BE CONTINUED"
+    next: "NEXT · CHAPTER 34 · SURGE"
+    chibi_gag: "Detached earlier-afternoon gag only: chibi Orrin guards his one modest soil sack with a solemn adult side-eye while chibi Nib, all locked props and binoculars intact, offers a tiny empty pot; chibi Haein measures the pot instead of the roof. Flat cream dots. No emergency setting, alarm comedy or distress gag."

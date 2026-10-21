@@ -53,8 +53,8 @@ panels:
       No text: the coach livery, the stop sign and any gate-zone board are blank shapes.
     calm: top-left
     lines:
-      - {who: taeo, type: float, text: "GRANDPA SAYS \"IT'S FINE\" ABOUT EVERYTHING."}
-      - {who: taeo, type: float, text: "NOT ABOUT THAT."}
+      - {who: "taeo", type: "float", text: "GRANDPA SAYS \"IT'S FINE\" ABOUT EVERYTHING."}
+      - {who: "taeo", type: "float", text: "HE TOLD ME NEVER TO ENTER A GATE."}
     notes: "Picks up straight after ch 8's hook (Grandpa at the bus door: 'YOUR FATHER WENT IN FIRST TOO, YOU KNOW. ...DON'T YOU EVER.'). 'IT'S FINE' is Grandpa's runner (ch 8). Ledger P06 stays alive here without explanation; its payoff is ch 40 and 43. If ch008 sets the departure in daylight or puts the stop elsewhere, keep ch008's geography and light."
 
   - id: P02
@@ -71,8 +71,8 @@ panels:
       Dark navy interior, one cold strip of aisle light on the floor; the only warm notes are Nib's eyes and a glint on the foil. No text.
     calm: top
     lines:
-      - {who: nib, type: speech, side: r, text: "HE SAID SOMETHING. AT THE DOOR."}
-      - {who: taeo, type: speech, side: l, text: "IT WAS NOTHING."}
+      - {who: "nib", type: "speech", side: "r", text: "YOUR GRANDPA SAID SOMETHING. AT THE BUS DOOR."}
+      - {who: "taeo", type: "speech", side: "l", text: "IT WAS NOTHING."}
     notes: "Taeo's 'IT WAS NOTHING' is his own 'IT'S FINE'. Grandma feeds everyone (runner); drop the foil parcel if ch008's bus-door panels show Nib empty-handed. Seat sides (Taeo window LEFT, Nib aisle RIGHT) hold for P03–P04."
 
   - id: P03
@@ -99,7 +99,7 @@ panels:
       Deep blue-grey, one violet line, three red dots. No text.
     calm: left
     lines:
-      - {who: taeo, type: float, text: "TWENTY DAYS UNTIL THEY DECIDE WHAT HE IS."}
+      - {who: "taeo", type: "float", text: "TWENTY DAYS UNTIL THEY DECIDE WHAT NIB IS."}
     notes: "The clock, in ch 7 P01's words ('TWENTY-TWO DAYS UNTIL THEY DECIDE WHAT HE IS.'). Sunday 19 March is twenty days before Saturday 8 April."
 
   - id: P05
@@ -122,9 +122,9 @@ panels:
       forward, watching. Dusty ochre ground, warm brown shadows, sky-blue sky, red-orange vests. No text.
     calm: top-right
     lines:
-      - {who: narr, type: tag, text: "RYU SURVEY YARD · 19 DAYS"}
-      - {who: nib, type: speech, side: l, text: "LAST SCREEN. THE FOOT'S BENT. IT'LL TIP."}
-      - {who: taeo, type: float, text: "I GOT VERY GOOD AT WATCHING."}
+      - {who: "narr", type: "tag", text: "RYU SURVEY YARD · 19 DAYS TO THE REVIEW"}
+      - {who: "nib", type: "speech", side: "r", text: "LAST SCREEN. ITS METAL FOOT IS BENT. THE SCREEN WILL TIP."}
+      - {who: "taeo", type: "float", text: "I GOT VERY GOOD AT WATCHING."}
     notes: "Beat: the montage's spotter jobs. This is job 2 of nine (ch 7's was job 1). Monday 20 March. Same pallet stack as ch 7 P30. Nib's radio stays in his LEFT hand (ch 7)."
 
   - id: P07
@@ -157,9 +157,9 @@ panels:
     ui:
       - {kind: label, text: "닙", at: [0.30, 0.38], size: 64, color: "#2B2523", rot: 0, notes: "Hangul for NIB in black marker on the card Eunchae holds up; move it onto the card once the art exists"}
     lines:
-      - {who: narr, type: tag, text: "HANBIT MART · 11:40 PM · 12 DAYS"}
-      - {who: eunchae, type: speech, side: l, text: "AGAIN. THIS ONE'S YOUR NAME."}
-      - {who: nib, type: speech, side: r, text: "...NIB."}
+      - {who: "narr", type: "tag", text: "HANBIT MART · 11:40 PM · 12 DAYS TO THE REVIEW"}
+      - {who: "eunchae", type: "speech", side: "l", text: "AGAIN. READ YOUR NAME."}
+      - {who: "nib", type: "speech", side: "r", text: "NIB."}
     notes: "Beat: Eunchae teaches Nib Hangul with flashcards. Monday 27 March during Taeo's night shift (nights go to the unit only from the 1st); Nib waits in the break room as in ch 6. The rubber-banded pile is her food-licence exam cards (runner)."
 
   - id: P09
@@ -176,8 +176,8 @@ panels:
     ui:
       - {kind: label, text: "교차오염", at: [0.36, 0.40], size: 46, color: "#2B2523", rot: -4, notes: "Korean for 'cross-contamination', one of her food-hygiene exam cards; move it onto the card"}
     lines:
-      - {who: nib, type: speech, side: l, text: "CROSS... CONTAMINATION."}
-      - {who: eunchae, type: speech, side: r, text: "...WRONG PILE."}
+      - {who: "nib", type: "speech", side: "c", text: "CROSS... CONTAMINATION."}
+      - {who: "eunchae", type: "speech", side: "r", text: "WRONG PILE. THAT'S MY EXAM CARD."}
     notes: "Runner: Eunchae's exam flashcards at the worst moment (STORY_BIBLE §9). He can sound out Hangul he can't understand yet."
 
   - id: P10
@@ -193,9 +193,9 @@ panels:
       not Taeo. The red two-for-one tag on the promo end cap is the one saturated note. Grey-green shadows. No text.
     calm: top-left
     lines:
-      - {who: narr, type: tag, text: "SUNDAY · 7:58 AM · 6 DAYS"}
-      - {who: taeo, type: float, text: "NIGHTS WENT TO THE UNIT. I GOT WEEKENDS."}
-      - {who: taeo, type: speech, side: l, text: "MORNING."}
+      - {who: "narr", type: "tag", text: "SUNDAY · 7:58 AM · 6 DAYS TO THE REVIEW"}
+      - {who: "taeo", type: "float", text: "NIGHTS WENT TO THE UNIT. I GOT WEEKENDS."}
+      - {who: "taeo", type: "speech", side: "l", text: "MORNING."}
     sfx:
       - {text: "JINGLE", style: quiet, at: [0.10, 0.10], size: S, rot: 8}
     notes: "Beat: the construct stocker works nights; Taeo on weekends only. Sunday 2 April, the morning after the unit's first night (ch 5: 'FROM THE FIRST, NIGHTS GO TO THE UNIT'; ch 1: 'YOU'LL GET WEEKENDS. PROBABLY.')."
@@ -212,9 +212,9 @@ panels:
       Fluorescent grey-green; cartons on the racks as simple shapes. No text.
     calm: top
     lines:
-      - {who: nib, type: speech, side: c, text: "WHO RELIEVES IT?"}
-      - {who: taeo, type: speech, side: r, text: "NOBODY. IT DOESN'T GET TIRED."}
-      - {who: nib, type: speech, side: c, text: "THEN NOBODY COMES FOR IT."}
+      - {who: "nib", type: "speech", side: "c", text: "WHO TAKES OVER FROM THE STOCKER?"}
+      - {who: "taeo", type: "speech", side: "r", text: "NOBODY. THE CONSTRUCT DOESN'T GET TIRED."}
+      - {who: "nib", type: "speech", side: "c", text: "THEN NOBODY COMES FOR IT."}
     notes: "The quiet setup for P41 ('I'M SOMEONE'S RELIEF'): 'relieve' in the soldier's sense, to take over a watch. A watch nobody relieves belongs to a thing. Grandpa's ch 8 line ('SOMEBODY ALWAYS COMES TO TAKE OVER') sits underneath. Don't underline it."
 
   - id: P12
@@ -229,9 +229,9 @@ panels:
       in his sentry pose, wide awake, watching Taeo's back. Warm lamp orange on the desk side, deep blue-grey on Nib's side. Edges fade into the white page. No text.
     calm: top-right
     lines:
-      - {who: narr, type: tag, text: "11:50 PM · 1 DAY"}
-      - {who: taeo, type: float, text: "I WROTE DOWN EVERYTHING I'D SAY FOR HIM."}
-      - {who: nib, type: speech, side: r, text: "THEY'LL ASK ME."}
+      - {who: "narr", type: "tag", text: "11:50 PM · THE NIGHT BEFORE THE REVIEW"}
+      - {who: "taeo", type: "float", text: "I WROTE DOWN EVERYTHING I'D SAY FOR HIM."}
+      - {who: "nib", type: "speech", side: "r", text: "THE PANEL WILL ASK ME."}
     notes: "Taeo's pen stops at Nib's line; he doesn't answer. Sets up P32–P34, where he folds these notes away unread. His control flaw (STORY_BIBLE §6): he plans to speak for Nib."
 
   # ---------------- REVIEW DAY ----------------
@@ -275,9 +275,9 @@ panels:
       Cool daylight through the glass front, pale slate shadows. No text.
     calm: top
     lines:
-      - {who: taeo, type: nervous, side: r, text: "SORRY. HE'S ATTACHED TO IT."}
-      - {who: guard, type: speech, side: l, text: "YOU'LL GET IT BACK ON THE WAY OUT."}
-      - {who: nib, type: speech, side: c, text: "IT'S A GOOD KNIFE. DON'T DROP IT."}
+      - {who: "taeo", type: "nervous", side: "r", text: "SORRY. HE'S ATTACHED TO HIS KNIFE."}
+      - {who: "guard", type: "speech", side: "l", text: "YOU'LL GET YOUR KNIFE BACK ON THE WAY OUT."}
+      - {who: "nib", type: "speech", side: "c", text: "IT'S A GOOD KNIFE. DON'T DROP IT."}
     notes: "Nib goes into the hearing unarmed: the sheath on his LEFT hip is EMPTY from P16 to P52, and the knife comes back in P53."
 
   - id: P16
@@ -295,8 +295,8 @@ panels:
       Cool white ceiling light. No text.
     calm: top-left
     lines:
-      - {who: dr_pyo, type: speech, side: r, text: "GOOD MORNING, NIB."}
-      - {who: taeo, type: nervous, side: r, text: "...M-MORNING."}
+      - {who: "dr_pyo", type: "speech", side: "c", text: "GOOD MORNING, NIB."}
+      - {who: "taeo", type: "nervous", side: "c", text: "M-MORNING."}
     notes: "Pyo's two coffees (ch 3 hook, ch 6): today one goes to Chae's boss. Kanghan holds a state contract (ch 3); the coffee says how well they know each other. Nib does not answer."
 
   - id: P17
@@ -311,9 +311,9 @@ panels:
     calm: top
     intro: "CHAE'S SUPERVISOR · ABILITY ASSESSMENT OFFICE"
     lines:
-      - {who: aao_supervisor, type: speech, side: l, text: "WITHDRAW THE FILING, YURI. LET KANGHAN HAVE THIS ONE."}
-      - {who: chae, type: speech, side: r, text: "HE ISN'T THEIRS."}
-      - {who: aao_supervisor, type: speech, side: l, text: "THEN IT'S YOUR NAME ON THE REPORT."}
+      - {who: "aao_supervisor", type: "speech", side: "l", text: "WITHDRAW YOUR ARRIVAL REPORT, YURI. LET KANGHAN CLASSIFY NIB."}
+      - {who: "chae", type: "speech", side: "r", text: "NIB ISN'T THEIRS."}
+      - {who: "aao_supervisor", type: "speech", side: "l", text: "THEN YOU'LL HAVE TO DEFEND YOUR REPORT."}
     notes: "Beat setup: Chae's career at risk (planted in ch 4: 'MY SUPERVISOR WILL ASK WHY.' / 'THAT I CAN READ.'). The supervisor is her mentor and friend (the friendship breaks only at ch 92): he is protecting her, not threatening her. 'HE ISN'T THEIRS' echoes ch 6's 'HE'S NOT MINE TO SELL.'"
 
   - id: P18
@@ -326,7 +326,7 @@ panels:
       Her lanyard ID card hangs at her collar, blank. Window light on one side of her face, a hard shadow on the other. Plain pale background. No text.
     calm: right
     lines:
-      - {who: chae, type: speech, side: l, text: "IT ALREADY IS."}
+      - {who: "chae", type: "speech", side: "c", text: "MY NAME IS ALREADY ON THE REPORT."}
 
   # ---------------- THE HEARING ----------------
   - id: P19
@@ -354,36 +354,32 @@ panels:
     notes: "Lock this layout for P20–P48. 'ONE DOOR' sets up P36 and P45. The empty gallery seat is Bae's (P29)."
 
   - id: P20
-    shape: wide
+    shape: "tall"
     gap: short
     bg: white
     camera: "over the shoulders of Taeo and Nib at the respondent's table, toward the dais"
     art: >
-      From behind the respondent's table: Taeo's shoulder and messy hair in the near left foreground, Nib's spiky head and notched LEFT ear in the near right, both small
-      against the dais rising in front of them. The panel chair (extras.panel_chair) reads from a single sheet into her microphone without looking up, half-moon glasses low
-      on her nose; the technical member is already typing; the legal member uncaps a fountain pen. Taeo's hand has tightened on the folder at the word IT.
-      Blue-white light. The nameplates are blank. No text.
+      From behind the respondent's table: Taeo's shoulder and messy hair in the near left foreground, Nib's spiky head and notched LEFT ear in the near right, both small against the dais rising in front of them. The panel chair (extras.panel_chair) reads from a single sheet into her microphone without looking up, half-moon glasses low on her nose; the technical member is already typing; the legal member uncaps a fountain pen. Taeo's hand has tightened on the folder at the word IT. Blue-white light. The nameplates are blank. No text.
+      Frame the standing respondents with room above and below them. Taeo is at the left, Nib at the right, and the panel chair is centred on the dais.
     calm: top
     lines:
-      - {who: panel_chair, type: speech, side: c, text: "CLASSIFICATION REVIEW. ENTITY: NIB. FILED AS ARRIVAL, STATUS PENDING."}
-      - {who: panel_chair, type: speech, side: c, text: "THE KANGHAN INSTITUTE PETITIONS TO REFILE IT AS A CONSTRUCT."}
+      - {who: "panel_chair", type: "speech", side: "c", text: "CLASSIFICATION REVIEW. NIB IS CURRENTLY FILED AS AN ARRIVAL, STATUS PENDING."}
+      - {who: "panel_chair", type: "speech", side: "c", text: "KANGHAN ASKS US TO RECLASSIFY IT AS A CONSTRUCT."}
     notes: "The chair's word for Nib changes through the chapter: IT (here), THE ARRIVAL and HIM (P35), PERSON (P47)."
 
   - id: P21
-    shape: wide
+    shape: "tall"
     gap: short
     bg: white
     camera: "side-on from the left end of the gallery, Pyo beside the projected slide"
     art: >
-      Pyo stands beside the pull-down screen on the left wall with the remote in one hand and the other hand open toward the panel: courteous and unhurried, a good teacher.
-      The projected slide fills most of the screen: draw that projected area as one flat pure green rectangle with crisp edges (screen: green), Pyo's hand just short of it.
-      Behind him at the petitioner's table his laptop stands open. At the far right edge, a sliver of the respondent's table: Nib's notched ear, Taeo's still hands.
-      Blue-white light, dimmed a little for the projector. No text.
+      Pyo stands beside the pull-down screen on the left wall with the remote in one hand and the other hand open toward the panel: courteous and unhurried, a good teacher. The projected slide fills most of the screen: draw that projected area as one flat pure green rectangle with crisp edges (screen: green), Pyo's hand just short of it. Behind him at the petitioner's table his laptop stands open. At the far right edge, a sliver of the respondent's table: Nib's notched ear, Taeo's still hands. Blue-white light, dimmed a little for the projector. No text.
+      Pyo stands in the left third with his whole figure comfortably inside the tall frame; the slide remains readable beside him.
     calm: top-right
     ui:
       - {kind: phone.info_card, on: screen, title: "KANGHAN INSTITUTE", text: "**VERBAL MIMICRY IN ADVANCED CONSTRUCTS** · Case: arrival entity \"NIB\" (status pending) · Finding: speech consistent with learned imitation · Request: refile as construct; observation under state contract"}
     lines:
-      - {who: dr_pyo, type: speech, side: l, text: "ADVANCED CONSTRUCTS LEARN THE SHAPE OF SPEECH FROM THE PEOPLE AROUND THEM."}
+      - {who: "dr_pyo", type: "speech", side: "l", text: "ADVANCED CONSTRUCTS CAN COPY HUMAN SPEECH."}
     notes: "Beat: Dr. Pyo's slides, 'VERBAL MIMICRY IN ADVANCED CONSTRUCTS'. Pyo believes every word; he is reasonable, and that is the danger (STORY_BIBLE §4)."
 
   - id: P22
@@ -392,12 +388,12 @@ panels:
     bg: white
     camera: "close-up on Pyo, slightly from above (the panel's eye line)"
     art: >
-      Pyo in close-up from slightly above: kind, patient, genuinely sorry about a conclusion he is sure of. The projector's pale light lies along one lens of his rimless
-      glasses as a crisp shape, not a glow. Plain cool background. No text.
+      Pyo in close-up from slightly above: kind, patient, genuinely sorry about a conclusion he is sure of. The projector's pale light lies along one lens of his rimless glasses as a crisp shape, not a glow. Plain cool background. No text.
+      Pyo's head and shoulders occupy the middle third.
     calm: left
     lines:
-      - {who: dr_pyo, type: speech, side: r, text: "THEY LEARN WHAT MOVES US."}
-      - {who: dr_pyo, type: speech, side: r, text: "THAT ISN'T THE SAME AS MEANING IT."}
+      - {who: "dr_pyo", type: "speech", side: "c", text: "THEY LEARN WHICH WORDS MOVE US."}
+      - {who: "dr_pyo", type: "speech", side: "c", text: "COPYING THOSE WORDS DOESN'T MEAN THEY UNDERSTAND THEM."}
 
   - id: P23
     shape: strip
@@ -424,8 +420,8 @@ panels:
       Blue-white light, pale slate shadows. No text.
     calm: top-left
     lines:
-      - {who: chae, type: speech, side: r, text: "THE 1995 ACT HAS A THIRD CATEGORY. NOBODY HAS USED IT IN TWENTY YEARS."}
-      - {who: chae, type: speech, side: r, text: "I USED IT."}
+      - {who: "chae", type: "speech", side: "r", text: "THE 1995 ACT HAS AN ARRIVAL CATEGORY. NOBODY HAS USED IT IN TWENTY YEARS."}
+      - {who: "chae", type: "speech", side: "r", text: "I FILED NIB IN THAT CATEGORY."}
     notes: "Beat: Chae presents the arrival report while her boss stares at her (her career at risk). '1995' and 'twenty years' agree with ch 4 and ch 6 P17."
 
   - id: P25
@@ -438,8 +434,8 @@ panels:
       has stopped above her notepad. Beyond it, Chae looks up at the dais with the smallest glint of humour she allows herself at work. Plain background. No text.
     calm: right
     lines:
-      - {who: chae, type: speech, side: l, text: "I SHOWED HIM THE TWO BOXES."}
-      - {who: chae, type: speech, side: l, text: "HE TOLD ME HE WASN'T A BOX."}
+      - {who: "chae", type: "speech", side: "c", text: "I SHOWED NIB THE FORM. TWO BOXES: HUNTER OR CONSTRUCT."}
+      - {who: "chae", type: "speech", side: "c", text: "HE TOLD ME HE WASN'T A BOX."}
     notes: "Callback to ch 3 ('I'M NOT A BOX.')."
 
   - id: P26
@@ -453,9 +449,9 @@ panels:
       a man who would rather be on site. The technical member leans in, sceptical, tapping his pen. Blue-white light. No text.
     calm: top-right
     lines:
-      - {who: minho, type: speech, side: c, text: "NINE JOBS. TWENTY THOUSAND EACH. PAID TO HIM, NOT TO MR. YOON."}
-      - {who: narr, type: footnote, text: "*₩180,000 ≈ US$130"}
-      - {who: panel_tech, type: speech, side: r, text: "THAT PROVES HOW YOU PAID HIM. NOT WHAT HE IS."}
+      - {who: "minho", type: "speech", side: "r", text: "NINE JOBS. ₩20,000 EACH. PAID TO NIB, NOT TO MR. YOON."}
+      - {who: "narr", type: "footnote", text: "*₩180,000 ≈ US$130"}
+      - {who: "panel_tech", type: "speech", side: "l", text: "THAT PROVES HOW YOU PAID HIM. NOT WHAT HE IS."}
     notes: "Beat: Minho's receipts. Nine jobs including ch 7's: ₩180,000. Minho brings the carbons from his pad (ch 7 P34); Nib's originals are in Taeo's folder."
 
   - id: P27
@@ -468,8 +464,8 @@ panels:
       LEFT chest. Plain background. No text.
     calm: left
     lines:
-      - {who: minho, type: speech, side: r, text: "HE TURNED DOWN A TENTH JOB."}
-      - {who: minho, type: speech, side: r, text: "HE HAD A HANGUL LESSON."}
+      - {who: "minho", type: "speech", side: "c", text: "NIB TURNED DOWN A TENTH JOB."}
+      - {who: "minho", type: "speech", side: "c", text: "HE HAD A HANGUL LESSON."}
     notes: "Refusal is the evidence: a construct can't turn down work. Comedy played straight."
 
   - id: P28
@@ -483,8 +479,8 @@ panels:
       of a smile left over from the Hangul lesson. Blue-white light from above. No text.
     calm: top-left
     lines:
-      - {who: minho, type: speech, side: c, text: "I DON'T VOUCH FOR WHAT I HAVEN'T SEEN."}
-      - {who: minho, type: speech, side: c, text: "I'VE SEEN HIM."}
+      - {who: "minho", type: "speech", side: "c", text: "I ONLY VOUCH FOR WHAT I'VE SEEN."}
+      - {who: "minho", type: "speech", side: "c", text: "I'VE SEEN NIB CHOOSE HIS OWN WORK."}
     notes: "Callback to ch 7 P09 ('I DON'T VOUCH FOR WHAT I HAVEN'T SEEN.') and Chae's ch 6 text ('get someone to vouch'). Not a ledger item."
 
   - id: P29
@@ -515,8 +511,8 @@ panels:
       glasses. No text.
     calm: top-right
     lines:
-      - {who: courier, type: speech, side: l, text: "HE SAVED MY DELIVERY."}
-      - {who: panel_chair, type: speech, side: r, text: "...IS THAT THE WHOLE STATEMENT?"}
+      - {who: "courier", type: "speech", side: "c", text: "HE SAVED MY DELIVERY."}
+      - {who: "panel_chair", type: "speech", side: "l", text: "IS THAT YOUR WHOLE STATEMENT?"}
     notes: "Beat: Bae's statement (the crate, ch 6)."
 
   - id: P31
@@ -529,8 +525,8 @@ panels:
       draw the screen as a plain red-lit rectangle, nothing readable. Plain background. No text.
     calm: left
     lines:
-      - {who: courier, type: speech, side: r, text: "I PAY ₩640,000 A MONTH FOR A CONSTRUCT."}
-      - {who: courier, type: speech, side: r, text: "I KNOW WHAT ONE IS. HE ISN'T."}
+      - {who: "courier", type: "speech", side: "c", text: "I PAY ₩640,000 A MONTH FOR A CONSTRUCT."}
+      - {who: "courier", type: "speech", side: "c", text: "I KNOW WHAT A CONSTRUCT IS. NIB ISN'T ONE."}
     sfx:
       - {text: "BEEP", style: alert, at: [0.80, 0.84], size: S, rot: 0}
     notes: "The beep is QuickHaul's LATE penalty (ch 1: 'LATE −₩500'). This time he doesn't run: he stays to the end of Nib's answer (P43). ₩640,000 a month and the draw loan are ch 6."
@@ -546,8 +542,8 @@ panels:
       in the gallery behind. The microphone's gooseneck crosses the top corner. Blue-white light. No text.
     calm: top-right
     lines:
-      - {who: panel_chair, type: speech, side: l, text: "MR. YOON."}
-      - {who: panel_chair, type: speech, side: l, text: "WHAT IS HE?"}
+      - {who: "panel_chair", type: "speech", side: "l", text: "MR. YOON."}
+      - {who: "panel_chair", type: "speech", side: "l", text: "WHAT IS NIB?"}
 
   - id: P33
     shape: strip
@@ -571,8 +567,8 @@ panels:
       Plain pale background. No text.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: r, text: "...YOU SHOULD ASK HIM."}
-      - {who: "offpanel:panel_chair", type: speech, side: r, text: "VERY WELL. THE LECTERN, PLEASE."}
+      - {who: "taeo", type: "speech", side: "c", text: "YOU SHOULD ASK NIB."}
+      - {who: "offpanel:panel_chair", type: "speech", side: "l", text: "VERY WELL. THE LECTERN, PLEASE."}
     notes: "Taeo's arc in miniature: he lets someone speak for himself. His control flaw stays alive for later (ch 20)."
 
   - id: P35
@@ -587,7 +583,7 @@ panels:
       Normal style, played straight. Blue-white light. No text.
     calm: top
     lines:
-      - {who: panel_chair, type: speech, side: c, text: "...COULD THE ARRIVAL STAND WHERE WE CAN SEE HIM?"}
+      - {who: "offpanel:panel_chair", type: "speech", side: "c", text: "COULD THE ARRIVAL STAND WHERE WE CAN SEE HIM?"}
     notes: "Comedy face (Taeo). The lectern top is about 115 cm; Nib is 105 cm."
 
   - id: P36
@@ -603,9 +599,9 @@ panels:
       Never cute. Blue-white light from above, his short hard shadow pooled at his bare feet. No text.
     calm: top
     lines:
-      - {who: nib, type: speech, side: c, text: "HERE. I CAN SEE THE DOOR."}
-      - {who: panel_chair, type: speech, side: r, text: "IS THE DOOR A PROBLEM?"}
-      - {who: nib, type: speech, side: c, text: "THERE'S ONLY ONE. I'M AFRAID IN ROOMS WITH ONE DOOR."}
+      - {who: "nib", type: "speech", side: "c", text: "HERE. I CAN SEE THE DOOR."}
+      - {who: "panel_chair", type: "speech", side: "c", text: "IS THE DOOR A PROBLEM?"}
+      - {who: "nib", type: "speech", side: "c", text: "THERE'S ONLY ONE. I'M AFRAID IN ROOMS WITH ONE DOOR."}
     notes: "He says he is afraid plainly, the way a scout reports a fact. P45 turns on it."
 
   - id: P37
@@ -618,8 +614,8 @@ panels:
       to listen. Tired, fair, curious despite herself. Plain pale wall behind her. No text.
     calm: right
     lines:
-      - {who: panel_chair, type: speech, side: l, text: "...NOTED."}
-      - {who: panel_chair, type: speech, side: l, text: "WHAT ARE YOU?"}
+      - {who: "panel_chair", type: "speech", side: "c", text: "NOTED."}
+      - {who: "panel_chair", type: "speech", side: "c", text: "WHAT ARE YOU?"}
     notes: "Beat: the panel asks, 'WHAT ARE YOU?'"
 
   - id: P38
@@ -648,7 +644,7 @@ panels:
       small, slight figure is climbing toward the wall, too far away for a face: the one warm colour. Desaturated cool greys and grey-greens; a pale, colourless sky. No text.
     calm: top
     lines:
-      - {who: "offpanel:nib", type: speech, side: c, text: "SOMEONE WAS COMING TO TAKE OVER."}
+      - {who: "offpanel:nib", type: "speech", side: "c", text: "KETT WAS COMING TO TAKE OVER MY WATCH."}
     notes: "Flashback palette (ART_BIBLE A4): desaturated, cool, soft-edged, one warm colour for the remembered person. The figure is Kett: keep him far and faceless (his sheet is for later chapters). The layout follows ch004 P40's drawing (wall along a ridge, crooked tree, the path, the white bit beside it); the white bit is chalk-white stone, the kind in ch 11's gallery."
 
   - id: P40
@@ -662,7 +658,7 @@ panels:
       the tree's shadow lies across it. Desaturated cool greys, soft edges fading to white. No face. No text.
     calm: top
     lines:
-      - {who: "offpanel:nib", type: speech, side: c, text: "HE'LL FIND MY PLACE EMPTY AND HE'LL GO LOOKING."}
+      - {who: "offpanel:nib", type: "speech", side: "c", text: "KETT WILL FIND MY POST EMPTY. HE'LL GO LOOKING."}
     notes: "The empty place. Ledger P02's thread ('HE'D FIND MY PLACE EMPTY. HE'D GO LOOKING.', ch 2–3) stays alive; its payoff is ch 100."
 
   - id: P41
@@ -695,16 +691,14 @@ panels:
     notes: "The link carries only what the companion permits (STORY_BIBLE §5): Nib lets Taeo feel his clenched fist. No new power: same room, same pressure as ch 4 and ch 6."
 
   - id: P43
-    shape: wide
+    shape: "tall"
     gap: long
     bg: white
     silent: true
     camera: "reverse angle from behind Nib, wide across the room to the gallery and the door"
     art: >
-      Reverse angle from behind Nib (his back, the notched LEFT ear, the empty sheath on his LEFT hip, bare heels): the whole room has stopped. At the respondent's table
-      Taeo sits with one hand flat on his folded notes and the other out of sight below the table, his eyes wet. Chae has lowered her tablet. In the gallery the supervisor holds
-      his coffee halfway to his mouth; Minho has his arms folded and his eyes on the floor; at the back by the door Bae stands with his crushed cap pressed to his chest,
-      his wrist screen glowing red and ignored. Through the door's narrow window, the golem's stone face. Pyo, at his table, is very still. Blue-white light, quiet. No text.
+      Reverse angle from behind Nib (his back, the notched LEFT ear, the empty sheath on his LEFT hip, bare heels): the whole room has stopped. At the respondent's table Taeo sits with one hand flat on his folded notes and the other out of sight below the table, his eyes wet. Chae has lowered her tablet. In the gallery the supervisor holds his coffee halfway to his mouth; Minho has his arms folded and his eyes on the floor; at the back by the door Bae stands with his crushed cap pressed to his chest, his wrist screen glowing red and ignored. Through the door's narrow window, the golem's stone face. Pyo, at his table, is very still. Blue-white light, quiet. No text.
+      Give the standing people full height in this vertical composition; Nib is centred in the foreground, Taeo and Chae on the right, Pyo on the left.
     calm: none
     notes: "Bae ignores the LATE penalty and stays. Let the silence breathe."
 
@@ -718,7 +712,7 @@ panels:
       Plain cool background. No text.
     calm: left
     lines:
-      - {who: dr_pyo, type: speech, side: r, text: "MIMICRY CAN BE VERY SOPHISTICATED."}
+      - {who: "dr_pyo", type: "speech", side: "c", text: "MIMICRY CAN BE VERY SOPHISTICATED."}
 
   - id: P45
     shape: full
@@ -760,9 +754,9 @@ panels:
       Bae's chairs are empty. Blue-white light warmed by the sun bars. No text.
     calm: top
     lines:
-      - {who: narr, type: tag, text: "4:10 PM"}
-      - {who: panel_chair, type: announce, side: c, text: "THE PETITION IS DENIED."}
-      - {who: panel_chair, type: announce, side: c, text: "REGISTERED ARRIVAL. PERSON. STATUS PENDING, TWELVE MONTHS, RENEWABLE."}
+      - {who: "narr", type: "tag", text: "4:10 PM · AFTER THE RECESS"}
+      - {who: "panel_chair", type: "announce", side: "c", text: "KANGHAN'S PETITION IS DENIED."}
+      - {who: "panel_chair", type: "announce", side: "c", text: "NIB IS A REGISTERED ARRIVAL. A PERSON. STATUS PENDING FOR TWELVE MONTHS, RENEWABLE."}
     notes: "Beat: the ruling. Six hours of waiting sit in the gap and the tag. Minho and Bae left at the recess. The 'linked partner' wording is on the card (P51)."
 
   - id: P48
@@ -792,9 +786,9 @@ panels:
       his shoulder. Supervisor on the LEFT, walking out of frame; Chae on the RIGHT. Behind them the hearing-room door stands open. No text.
     calm: top
     lines:
-      - {who: aao_supervisor, type: speech, side: l, text: "IT GOES IN YOUR REVIEW, YURI. EITHER WAY."}
-      - {who: chae, type: speech, side: r, text: "I KNOW."}
-      - {who: aao_supervisor, type: speech, side: l, text: "...GOOD REPORT, THOUGH."}
+      - {who: "aao_supervisor", type: "speech", side: "l", text: "YOUR ARRIVAL REPORT GOES IN YOUR STAFF REVIEW, YURI. WHATEVER THE RULING."}
+      - {who: "chae", type: "speech", side: "r", text: "I KNOW."}
+      - {who: "aao_supervisor", type: "speech", side: "l", text: "GOOD REPORT, THOUGH."}
     notes: "Chae's price: the arrival filing goes on her review record whatever the ruling. He is still her friend (ch 92 breaks it)."
 
   # ---------------- THE CARD ----------------
@@ -810,8 +804,8 @@ panels:
       The sheath on Nib's hip is still empty. Cool lobby light, warm sun from the glass front. No text.
     calm: top-left
     lines:
-      - {who: clerk, type: speech, side: l, text: "LOOK AT THE LENS. AND... SMILE?"}
-      - {who: nib, type: speech, side: r, text: "NO."}
+      - {who: "clerk", type: "speech", side: "l", text: "LOOK AT THE LENS. CAN YOU SMILE?"}
+      - {who: "nib", type: "speech", side: "r", text: "NO."}
     sfx:
       - {text: "PSHK", style: quiet, at: [0.30, 0.20], size: M, rot: -6}
     notes: "Beat: the ID card photo, Nib scowling."
@@ -829,9 +823,7 @@ panels:
     ui:
       - {kind: phone.info_card, on: screen, title: "REGISTERED ARRIVAL · PERSON", text: "Name: **NIB** · Status: PENDING · Term: 12 months, renewable · Linked partner: YOON TAEO"}
     lines:
-      - {who: "offpanel:nib", type: speech, side: l, text: "LINKED... PARTNER."}
-      - {who: "offpanel:taeo", type: speech, side: r, text: "YOU CAN READ THAT?"}
-      - {who: "offpanel:nib", type: speech, side: l, text: "SLOWLY."}
+      - {who: "offpanel:nib", type: "speech", side: "l", text: "LINKED... PARTNER."}
     notes: "The relationship changes: partners on paper (arc-end rule). Nib reads his own card: Eunchae's lessons (P08) and 'don't rush his vowels' (P14)."
 
   - id: P52
@@ -846,7 +838,9 @@ panels:
       rope belt, pouch with the sticker, sheath and bare feet intact). No text.
     calm: left
     lines:
-      - {who: nib, type: speech, side: r, text: "WHAT."}
+      - {who: "taeo", type: "speech", side: "c", text: "YOU CAN READ THAT?"}
+      - {who: "nib", type: "speech", side: "r", text: "SLOWLY."}
+      - {who: "nib", type: "speech", side: "r", text: "WHAT."}
 
   # ---------------- PYO LEAVES ----------------
   - id: P53
@@ -875,7 +869,7 @@ panels:
       Gold side light; one lens catches it as a crisp shape. Plain background. No text.
     calm: right
     lines:
-      - {who: dr_pyo, type: speech, side: l, text: "PENDING ISN'T PERMANENT, MR. YOON."}
+      - {who: "dr_pyo", type: "speech", side: "c", text: "PENDING ISN'T PERMANENT, MR. YOON."}
     notes: "Beat: Pyo, leaving. Twelve months, renewable: Kanghan can petition again at renewal. Ledger P05 (ch 6) is untouched; its payoff is ch 70."
 
   - id: P55
@@ -901,8 +895,8 @@ panels:
       long shadows across the granite. No text.
     calm: top
     lines:
-      - {who: chae, type: speech, side: r, text: "THE ARCHIVE IS ALL OLD SURVEYS."}
-      - {who: chae, type: speech, side: r, text: "THIS IS TODAY'S LIST. GATES STILL OPEN."}
+      - {who: "chae", type: "speech", side: "r", text: "THE ARCHIVE YOU SAW ONLY HAS OLD GATE SURVEYS."}
+      - {who: "chae", type: "speech", side: "r", text: "THESE GATES ARE STILL OPEN TODAY."}
     notes: "Ch 4's PUBLIC GATE SURVEYS archive was recordings; this is the live list."
 
   - id: P57
@@ -927,8 +921,8 @@ panels:
       band of white stone far along it (small here; P59 shows it close). Taeo stands one step above, looking down at both of them. Late gold light. No text.
     calm: top
     lines:
-      - {who: chae, type: speech, side: l, text: "ONE STILL FROM THE ENTRANCE SURVEY. I PRINTED IT."}
-      - {who: chae, type: speech, side: l, text: "YOU LIKE PAPER."}
+      - {who: "chae", type: "speech", side: "l", text: "THE TUNNEL GATE'S ENTRANCE SURVEY. I PRINTED THE PHOTO."}
+      - {who: "chae", type: "speech", side: "l", text: "YOU LIKE PAPER."}
 
   - id: P59
     shape: strip
@@ -952,22 +946,22 @@ panels:
     bg: white
     camera: "close on Nib's face over the pictures"
     art: >
-      Nib in close-up, looking down at the two pictures: his amber eyes widen by a fraction and his ears lift; his mouth stays flat. Wanting, held in.
-      Late gold light on one side of his face. Plain background. No text.
+      Nib in close-up, looking down at the two pictures: his amber eyes widen by a fraction and his ears lift; his mouth stays flat. Wanting, held in. Late gold light on one side of his face. Plain background. No text.
+      Nib is centred; Chae stands beyond the right edge of the panel.
     calm: right
     lines:
-      - {who: nib, type: speech, side: l, text: "THE WHITE BIT."}
-      - {who: "offpanel:chae", type: speech, side: r, text: "IT'S STILL OPEN. FOR NOW."}
+      - {who: "nib", type: "speech", side: "c", text: "THE WHITE STONE. LIKE THE WHITE BIT BY MY WALL."}
+      - {who: "offpanel:chae", type: "speech", side: "r", text: "THE TUNNEL GATE IS STILL OPEN. FOR NOW."}
     notes: "The new clock for Arc II: once the full survey is done, a clear team kills the boss and the gate closes."
 
   - id: P61
-    shape: wide
+    shape: "tall"
     gap: short
     bg: white
     camera: "low, from beside Nib, looking up the steps at Taeo"
     art: >
-      Nib turns and looks up at Taeo, the print in one hand and the folded drawing and his new ID card in the other; ears up, eyes steady: he has decided.
-      Taeo, one step above, is caught with his mouth slightly open. Chae, at the edge of frame, watches Taeo, not Nib. Long gold shadows across the granite. No text.
+      Nib turns and looks up at Taeo, the print in one hand and the folded drawing and his new ID card in the other; ears up, eyes steady: he has decided. Taeo, one step above, is caught with his mouth slightly open. Chae, at the edge of frame, watches Taeo, not Nib. Long gold shadows across the granite. No text.
+      Nib stands in the left third, Taeo in the right third, and Chae in the middle behind them. Give all standing figures full height and clear space.
     calm: top
     lines:
       - {who: nib, type: speech, side: l, text: "I WANT TO GO IN."}
@@ -978,12 +972,12 @@ panels:
     bg: white
     camera: "close on Taeo at eye level"
     art: >
-      Taeo in close-up, gold light on one side of his face and shadow on the other: the old fear arriving in his eyes like weather, the tear tracks from the hearing still
-      there. He looks past Nib, at something far away. The one mole under his RIGHT eye. Plain background. No text.
+      Taeo in close-up, gold light on one side of his face and shadow on the other: the old fear arriving in his eyes like weather, the tear tracks from the hearing still there. He looks past Nib, at something far away. The one mole under his RIGHT eye. Plain background. No text.
+      Taeo's head and shoulders are centred.
     calm: left
     lines:
-      - {who: taeo, type: float, text: "...DON'T YOU EVER."}
-      - {who: taeo, type: speech, side: r, text: "...I CAN'T GO IN."}
+      - {who: "taeo", type: "float", text: "GRANDPA'S WORDS: DON'T YOU EVER."}
+      - {who: "taeo", type: "speech", side: "c", text: "I CAN'T GO IN."}
     notes: "Grandpa's words from ch 8's hook, in Taeo's head. Ledger P06 kept alive (payoff ch 40, 43)."
 
   - id: P63
@@ -992,12 +986,8 @@ panels:
     bg: white
     camera: "low, from a step below Nib, looking up past him at Taeo"
     art: >
-      THE HOOK. A tall panel on the GMA's front steps in low gold sun. In the lower half, close to us, Nib (nib, default: V-notch in the LEFT ear, brown rope belt, pouch on
-      the RIGHT hip with Haru's dinosaur sticker, the knife back in the brown wooden sheath on his LEFT hip, barefoot on the granite) stands one step below Taeo, turned back
-      up toward him, and holds his new ID card up at arm's length between two fingers, photo side out (the scowl), the way a scout shows a pass at a checkpoint; the survey
-      print is tucked under his other arm. His face: steady, deadpan, amber eyes level, the decision already made. Adult, weathered, never cute.
-      In the upper half, a step above and behind him, Taeo stands frozen, his face caught between the fear and something that looks almost like relief; the faded orange
-      patch on his backpack shows at his shoulder. Behind them one of the building's glass side doors stands open. Hard gold light from the left, long shadows. No text.
+      THE HOOK. A tall panel on the GMA's front steps in low gold sun. In the lower half, close to us, Nib (nib, default: V-notch in the LEFT ear, brown rope belt, pouch on the RIGHT hip with Haru's dinosaur sticker, the knife back in the brown wooden sheath on his LEFT hip, barefoot on the granite) stands one step below Taeo, turned back up toward him, and holds his new ID card up at arm's length between two fingers, photo side out (the scowl), the way a scout shows a pass at a checkpoint; the survey print is tucked under his other arm. His face: steady, deadpan, amber eyes level, the decision already made. Adult, weathered, never cute. In the upper half, a step above and behind him, Taeo stands frozen, his face caught between the fear and something that looks almost like relief; the faded orange patch on his backpack shows at his shoulder. Behind them one of the building's glass side doors stands open. Hard gold light from the left, long shadows. No text.
+      Nib stands in the middle third below Taeo, who stands in the right third. Both figures have full height and comfortable breathing room.
     calm: top
     lines:
       - {who: nib, type: speech, side: c, text: "I DIDN'T ASK YOU TO."}

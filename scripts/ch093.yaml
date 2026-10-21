@@ -38,7 +38,7 @@ continuity_notes: >
 palette_notes: "Demo and yard: A4 dusty ochre, brown shadows, sky blue. Yeoju dawn: cool slate daylight, violet gate rims. Flat cel shadows; cyan only for interface, amber only for Nib's link/eyes; red reserved for danger. All boards, tags and screens blank or dark unless filled by UI."
 panels:
   - id: P01
-    shape: wide
+    shape: tall
     gap: none
     bg: white
     camera: "low side view across the demo ring, opponent on the right"
@@ -47,6 +47,7 @@ panels:
       LEFT collar iron clasp) plants a boot and drives his gauntleted palm forward. The adult demo_scout skids
       backward toward the padded east boundary, jaw clenched, arms still raised to fight. Afternoon sun from west;
       ochre gravel, brown shadows. Pressure bends dust only at the sliding soles. No energy beam, lettering or injuries.
+      Gangjin stands left, the demo scout right; show both complete figures and the boundary behind her.
     calm: top
     lines:
       - {who: do_gangjin, type: speech, side: l, text: "STILL STANDING?"}
@@ -71,11 +72,12 @@ panels:
       Do Gangjin in his same dark-steel/red armour at yeoju_demo_ring, breathing easily, gives the displaced scout
       an almost friendly sideways look. The two-link clasp stays LEFT. West sun picks out one repaired plate edge;
       simplified ochre background. He is smug, not snarling. No weapon, aura or print.
+      Gangjin's face is in the right third, cropped at the chest.
     calm: left
     lines:
       - {who: do_gangjin, type: speech, side: r, text: "THEN STAND SOMEWHERE ELSE."}
   - id: P04
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "over Nib's shoulder toward Taeo behind the spectators"
@@ -83,10 +85,11 @@ panels:
       At the west side of yeoju_demo_ring, Taeo (outdoor, old patched backpack) stares past Nib's notched LEFT ear.
       Nib, adult and booted, has his binoculars lowered in one hand, mouth flat. Both understand the demonstration.
       West sun on their faces; ochre and blue-grey. Leave spectators simplified and their phones dark. No lettering.
+      Nib stands left, Taeo right, both faces visible. Nib's chosen boots are matte dark-brown ankle-high leather, broad round toes, four pairs of dull gunmetal round eyelets, dark-brown round laces in small double knots, plain black lug soles and low heels, heel pull tabs and oat-grey socks inside the collars; no logo, hooks, buckles, bright trim or visible steel cap.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "SHE DIDN'T LOSE A FIGHT."}
-      - {who: nib, type: speech, side: l, text: "SHE LOST THE GROUND."}
+      - {who: taeo, type: speech, side: r, text: "THE SCOUT'S STILL ABLE TO FIGHT."}
+      - {who: nib, type: speech, side: l, text: "BUT SHE LOST HER PLACE INSIDE THE BOUNDARY."}
   - id: P05
     kind: title
     gap: long
@@ -107,7 +110,7 @@ panels:
       - {who: narr, type: tag, text: "RYU SURVEY · PREPARATION"}
       - {who: taeo, type: float, text: "I'D LIKE ONE PROBLEM THAT ISN'T GOOD AT ITS JOB."}
   - id: P07
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "table-height view across Haein's little physical model"
@@ -115,12 +118,13 @@ panels:
       On the ryu_practice_yard trestle, Haein pushes a wooden block toward the edge of a plain sand tray.
       Taeo's spread hand stops short of catching it. Her face is impatient; his is attentive and chastened.
       Their default/outdoor clothes stay exact. Southeast sun, ochre reflected light, brown shadows; no drawn arrows or words.
+      Haein stands on the left, Taeo on the right; show both faces above the model.
     calm: top
     lines:
-      - {who: haein, type: speech, side: l, text: "THEY DON'T NEED TO BREAK ORRIN."}
+      - {who: haein, type: speech, side: l, text: "IRON VOW DOESN'T NEED TO HURT ORRIN."}
       - {who: haein, type: speech, side: l, text: "THEY ONLY NEED TO MOVE HIM OFF THE DEPOSIT."}
   - id: P08
-    shape: narrow-l
+    shape: tall
     gap: short
     bg: white
     camera: "low portrait of Orrin beside the tray"
@@ -128,6 +132,7 @@ panels:
       Orrin (orrin, adult slate-stacked shell, four columnar legs, heavy-lidded olive eyes) peers down at the tiny
       wooden block at ryu_practice_yard. His adult face is politely offended. No saddle or pet gear; an old healed
       shell seam remains closed. Southeast daylight; muted ochre background. No text or bright effects.
+      Orrin occupies the left third, with space for his full body beside the tiny tray.
     calm: right
     lines:
       - {who: orrin, type: speech, side: l, text: "I'D PREFER A LARGER REPRESENTATIVE."}
@@ -143,7 +148,7 @@ panels:
     calm: none
     silent: true
   - id: P10
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "reverse two-shot across the trestle, Nib left and Taeo right"
@@ -151,10 +156,11 @@ panels:
       Nib, in default clothes and chosen boots, taps the tray edge at ryu_practice_yard; Taeo leans in without
       reaching across him. The height difference stays 105 to 181 cm. Nib's look is exacting, Taeo's hopeful
       but wary. Southeast sun, ochre/brown palette. Background reduces to container planes. No text.
+      Nib stands left, Taeo right, with their natural height difference and room beside the trestle.
     calm: top
     lines:
       - {who: nib, type: speech, side: l, text: "WHERE DOES THE PUSH GO?"}
-      - {who: taeo, type: speech, side: r, text: "SOMEWHERE WE CHOOSE BEFORE IT COMES."}
+      - {who: taeo, type: speech, side: r, text: "WE SEND PART TO ORRIN. WE PREPARE HIS PUSH FIRST."}
   - id: P11
     shape: full
     gap: short
@@ -165,10 +171,11 @@ panels:
       A white blue-banded survey cable and separate flat grey force couplers connect to Haein's control box.
       Nib stands against the padded sled by one frame; Orrin braces behind a timber stop at the other.
       Taeo stays between and behind them. Southeast sun, dusty ochre. No supernatural portals, captions or arrows.
+      Nib is left at the sled, Orrin right behind the timber stop and Taeo centre at the controls.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: c, text: "NIB RECEIVES. ORRIN ACCEPTS A SLICE THROUGH THE SECOND RELAY."}
-      - {who: taeo, type: speech, side: c, text: "WE SET THE EXIT DIRECTION FIRST."}
+      - {who: taeo, type: speech, side: c, text: "NIB TAKES THEIR PUSH. I SEND PART OF THE LOAD THROUGH BOTH RELAYS TO ORRIN."}
+      - {who: taeo, type: speech, side: c, text: "WE CHOOSE WHERE ORRIN PUSHES BACK BEFORE NIB TAKES THE HIT."}
   - id: P12
     shape: inset-r
     gap: short
@@ -178,11 +185,12 @@ panels:
       Haein's work-gloved hand locks a flat grey force coupler onto the test-frame base at ryu_practice_yard.
       Beside it, distinct and uncut, the white communication cable carries its blue metre band. Her safety glasses
       are down as she checks the latch. Southeast sunlight, ochre and slate. No invented reservoir, text or screen glow.
+      Only Haein's gloved hand and the coupler are framed; her face stays beyond the right edge as she speaks.
     calm: left
     lines:
-      - {who: haein, type: speech, side: r, text: "A FRACTION. WE STILL LOSE PLENTY."}
+      - {who: "offpanel:haein", type: speech, side: r, text: "ONLY PART OF THE FORCE REACHES ORRIN. THE TRANSFER STILL WASTES PLENTY."}
   - id: P13
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "eye-level group view from the medic's side of the test"
@@ -191,13 +199,14 @@ panels:
       Dara, 42, broad square weathered face, grey-templed dark braid, matte slate plates over oatmeal surgeon wrap,
       scarred bare forearms, LEFT surgical kit and RIGHT cloth roll, points firmly at a chair. Taeo sits, resigned.
       Southeast sun, A4 ochre/brown. Medical displays dark; no lettering, spikes or cute proportions.
+      Dara stands left, Sejin centre and Taeo sits right; all three faces are clearly visible.
     calm: top
     lines:
-      - {who: dara, type: speech, side: l, text: "AND SOME OF THAT PLENTY STILL GOES THROUGH YOU."}
-      - {who: sejin, type: speech, side: l, text: "SAME STOP RULE AS THE SUPERVISED TEST."}
+      - {who: dara, type: speech, side: l, text: "TAEO, YOU STILL CARRY PART OF THE IMPACT."}
+      - {who: sejin, type: speech, side: c, text: "WE STOP THE MOMENT EITHER MEDIC SAYS STOP."}
       - {who: taeo, type: speech, side: r, text: "YES, BOTH OF YOU."}
   - id: P14
-    shape: inset-l
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -207,11 +216,12 @@ panels:
       between chibi Sejin in sage scrubs and chibi Dara in matte slate armour. Both point at the same chair.
       His line-eyed smile trembles; theirs are matching professional scowls. Preserve five fingers and outfits.
       Flat southeast-lit colour blocks; no ECG crisis, magic or lettering.
+      Chibi Sejin stands left, Taeo sits centre and Dara stands right, all three full figures visible.
     calm: right
     lines:
-      - {who: taeo, type: nervous, side: l, text: "A VERY THOROUGH CHAIR."}
+      - {who: taeo, type: nervous, side: c, text: "TWO MEDICS. ONE VERY SUPERVISED CHAIR."}
   - id: P15
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "ground-level side view of the sled meeting Nib's pad"
@@ -220,6 +230,7 @@ panels:
       He stands low in chosen boots, notched ear angled back, teeth set; the pad takes the contact squarely.
       Haein holds the release cord out of the wheel path. Southeast sun, ochre/brown, dust only at impact.
       No field combat, visible injury or lettering.
+      Nib stands on the right behind the pad, Haein on the left clear of the sled wheels.
     calm: top
     lines:
       - {who: nib, type: speech, side: r, text: "READY."}
@@ -234,12 +245,13 @@ panels:
       At the yard control seat Taeo's RIGHT palm shows a thin amber pulse; the separate slate-green response
       reaches the heel of the same hand. His fingers tense without closing. Existing forearm bruises show below
       rolled navy sleeve. Southeast sun, restrained ochre shadows. No cyan window, extra fingers or glow on his left palm.
+      Only Taeo's palm and wrist are framed. His quiet instruction comes from above the centre edge.
     calm: none
     lines:
-      - {who: taeo, type: whisper, side: c, text: "ON YOUR PUSH, ORRIN."}
+      - {who: "offpanel:taeo", type: whisper, side: c, text: "ORRIN, PUSH WHEN THE LOAD REACHES YOU."}
     notes: "Willing Nib-to-Taeo-to-Orrin mechanical transfer only; pulse colours retain the earlier locks."
   - id: P17
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low diagonal on Orrin's forelegs and the timber stop"
@@ -248,25 +260,27 @@ panels:
       timber stop forward a small distance. His shell stays level; the old healed seam does not reopen.
       His face shows concentration, not pain. Southeast sun; slate shell against ochre, brown shadows.
       No airborne blast, magical strength gain or text.
+      Orrin is on the right, his face and all four braced legs visible beside the stop.
     calm: top
     lines:
       - {who: orrin, type: speech, side: r, text: "NOW."}
     sfx:
       - {text: "KRRK", style: quiet, at: [0.31, 0.78], size: M, rot: 0}
   - id: P18
-    shape: inset-r
+    shape: tall
     gap: short
     bg: white
-    camera: "medium close on Nib after the pad slides sideways"
+    camera: "three-quarter full figure of Nib after the pad slides sideways"
     art: >
       Nib at ryu_practice_yard looks down at the pad now twisted across his chest, one boot pushed backward.
       His expression is wholly unimpressed; his adult proportions, LEFT notch and LEFT fang remain clear.
       Southeast sun, simplified warm plywood shapes. Keep all belt props attached. No injury, text or floating effects.
+      Nib occupies the right third; show his shifted boot and twisted pad without compressing his body.
     calm: left
     lines:
-      - {who: nib, type: speech, side: r, text: "WRONG EXIT."}
+      - {who: nib, type: speech, side: r, text: "I'M STILL SLIDING SIDEWAYS."}
   - id: P19
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "over Taeo's shoulder to Haein turning a physical coupler stop"
@@ -274,12 +288,13 @@ panels:
       Haein kneels at the second frame in ryu_practice_yard, changes its coupler angle by one detent and looks
       back at Taeo. He studies her hands, embarrassed rather than defensive. Sejin keeps a hand on his cuff.
       Southeast sun, dusty ochre and brown. The control screen stays dark; no drawn numbers, diagrams or letters.
+      Haein kneels left at the coupler, Taeo sits right and Sejin stands behind his chair.
     calm: top
     lines:
-      - {who: haein, type: speech, side: l, text: "YOU PREPARED FOR STRAIGHT. THEY PUSH DIAGONALLY."}
-      - {who: taeo, type: speech, side: r, text: "SORRY. AGAIN, IF YOU BOTH AGREE?"}
+      - {who: haein, type: speech, side: l, text: "YOU BRACED FOR A STRAIGHT SHOVE. IRON VOW PUSHES AT AN ANGLE."}
+      - {who: taeo, type: speech, side: r, text: "SORRY. NIB, ORRIN, MAY WE TRY AGAIN?"}
   - id: P20
-    shape: vignette
+    shape: full
     gap: short
     bg: white
     camera: "eye-level on Nib and Orrin exchanging a look across the test frames"
@@ -287,6 +302,7 @@ panels:
       In ryu_practice_yard, Nib rests his palm on the pad and Orrin settles his feet behind the timber stop.
       They meet each other's eyes and give the smallest matching nod. Nib's boots and Orrin's unharnessed slate shell
       remain exact. Southeast daylight, ochre fading into white. No dialogue marks, magic or lettering.
+      Nib stands left by the pad and Orrin right behind the stop, with clear room between the frames.
     calm: none
     silent: true
   - id: P21
@@ -305,7 +321,7 @@ panels:
     sfx:
       - {text: "THUNK", style: impact, at: [0.74, 0.72], size: M, rot: 6}
   - id: P22
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "reaction two-shot at the far stop, Haein foreground right"
@@ -313,9 +329,10 @@ panels:
       Haein at ryu_practice_yard shoots upright from her crouch, safety glasses askew, delighted disbelief breaking
       through her usual flat expression. Behind her, Orrin regards the moved stop as if it has finally behaved.
       Morning sun, ochre and sky blue; no effects except a single comic sweat bead. No labels or extra tools.
+      Haein stands right, Orrin left behind the moved stop; leave room for both figures.
     calm: top
     lines:
-      - {who: haein, type: shout, side: r, text: "THAT ONE! KEEP THAT ANGLE!"}
+      - {who: haein, type: shout, side: r, text: "THAT ANGLE WORKS! KEEP IT!"}
       - {who: orrin, type: speech, side: l, text: "I WAS PLANNING TO."}
   - id: P23
     shape: inset-l
@@ -326,12 +343,13 @@ panels:
       Taeo in his navy jacket at the ryu_practice_yard chair starts a tired smile, then looks toward Sejin's hand
       already flattening on the control cut-off. His mole stays under the RIGHT eye. Existing bruising only.
       Southeast light, simplified ochre. No nosebleed, active screen, interface or lettering.
+      Taeo's face is on the left. Only Sejin's hand enters from the right; she answers from outside that edge.
     calm: right
     lines:
       - {who: taeo, type: speech, side: l, text: "ONE MORE?"}
-      - {who: sejin, type: speech, side: r, text: "AFTER A REST."}
+      - {who: "offpanel:sejin", type: speech, side: r, text: "AFTER A REST."}
   - id: P24
-    shape: wide
+    shape: full
     gap: long
     bg: white
     camera: "table-height group view, afternoon light crossing the empty cup"
@@ -340,12 +358,13 @@ panels:
       narrow mature grey-tan face, dark lid-heavy eyes, two feather antennae, four grey-brown wing panels folded
       as a cloak, olive sleeveless tunic, dark trousers and wrapped shoes; two arms only. He points with his unlit
       signal wand while Sera in river-green tunic listens. West sun, ochre/brown. No eye spots, glitter or text.
+      Kesh stands left beside the model, Sera right, both faces visible.
     calm: top
     lines:
-      - {who: kesh, type: speech, side: l, text: "I CAN TELL YOU WHEN BOTH SIDES ARE READY."}
-      - {who: kesh, type: speech, side: l, text: "I CAN'T MAKE A LATE ANSWER EARLY."}
+      - {who: kesh, type: speech, side: l, text: "I'LL CALL WHEN BOTH RELAY TEAMS ARE READY."}
+      - {who: kesh, type: speech, side: l, text: "IF A TEAM ANSWERS LATE, WE WAIT."}
   - id: P25
-    shape: narrow-r
+    shape: tall
     gap: short
     bg: white
     camera: "portrait of Sera measuring a line with her bow held low"
@@ -353,11 +372,12 @@ panels:
       At ryu_practice_yard Sera (sera, river-green wrap, cream underlayer, sand cropped trousers, brown boots,
       LEFT bracer, long braid, flute RIGHT hip) sights along a clear lane while keeping her wooden recurve bow
       lowered in her LEFT hand. Her eyes brighten competitively. West sun, muted ochre. No nocked arrow or text.
+      Sera stands in the right third, with room for her full body and lowered bow.
     calm: left
     lines:
-      - {who: sera, type: speech, side: r, text: "GIVE ME THAT OPENING. I'LL USE IT."}
+      - {who: sera, type: speech, side: r, text: "WHEN ORRIN PUSHES IRON VOW BACK, I'LL HAVE A CLEAR SHOT."}
   - id: P26
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "eye-level across Nib and Sera, target fence behind them"
@@ -365,10 +385,11 @@ panels:
       Nib at ryu_practice_yard lays two fingers on the clear lane's start, watchful and unsmiling. Sera kneels to
       meet his eye line, her confidence tempered into professional attention. Their belt props stay on their locked
       sides; three round targets remain north. West sun, ochre and brown. No diagram, sparkles or lettering.
+      Nib stands left, Sera kneels right; keep their bodies and the lane start clearly separated.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "WHEN IT EXISTS."}
-      - {who: sera, type: speech, side: r, text: "YES. WHEN IT EXISTS."}
+      - {who: nib, type: speech, side: l, text: "WAIT UNTIL THE SHOT IS CLEAR."}
+      - {who: sera, type: speech, side: r, text: "YES. I'LL WAIT UNTIL I SEE THE OPENING."}
   - id: P27
     shape: strip
     gap: short
@@ -390,10 +411,11 @@ panels:
       Nib, default and booted, at ryu_practice_yard looks from the revised model to Taeo, who holds still and waits
       at the right edge. Nib's expression gives a little ground without becoming friendly. The binocular strap knot
       stays LEFT. West light, ochre fading into white. No cute face, magic or print.
+      Frame Nib's face and shoulders on the left; Taeo's waiting chest and shoulder are cropped at the right edge.
     calm: none
     silent: true
   - id: P29
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "side-on low two-shot, Taeo crouched to Nib's eye level"
@@ -401,11 +423,12 @@ panels:
       At ryu_practice_yard, Taeo crouches beside the trestle, palms resting on his own knees, face open and anxious.
       Nib stands upright in chosen boots, LEFT fang just visible, gaze direct. Afternoon west sun, ochre/brown;
       keep the doorway of the grey container open behind them. No lettering or melodramatic lighting.
+      Nib stands left, Taeo crouches right, with enough room to show both poses naturally.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "DOES THIS CHANGE YOUR VOTE?"}
-      - {who: nib, type: speech, side: l, text: "NO. I ALREADY VOTED."}
-      - {who: nib, type: speech, side: l, text: "IT CHANGES THE PLAN."}
+      - {who: taeo, type: speech, side: r, text: "DOES THE TEST CHANGE YOUR VOTE?"}
+      - {who: nib, type: speech, side: l, text: "NO. I ALREADY VOTED YES."}
+      - {who: nib, type: speech, side: l, text: "THE TEST CHANGES HOW WE FIGHT."}
   - id: P30
     shape: inset-r
     gap: short
@@ -415,11 +438,12 @@ panels:
       Taeo in outdoor clothes at ryu_practice_yard looks down, then gives a small unforced nod. He is tired,
       relieved and still ashamed of the earlier bet. His old orange backpack patch sits blurred only by simplified
       drawing behind his shoulder, not lens blur. West sun, ochre and brown. No tears, text or interface.
+      Taeo's face fills the right third.
     calm: left
     lines:
       - {who: taeo, type: speech, side: r, text: "RIGHT. THANK YOU."}
   - id: P31
-    shape: wide
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -429,10 +453,11 @@ panels:
       replacement model. Chibi Haein sparkles with engineering delight; chibi Nib, LEFT notch and locked belt
       props intact, points at the tiny wooden block balanced on Orrin's shell. Warm west colour blocks.
       No real furniture collapse, danger or lettering.
+      Chibi Nib stands left, Haein centre and Orrin right across the tabletop, all three clearly drawn.
     calm: top
     lines:
       - {who: orrin, type: speech, side: r, text: "BETTER SCALE."}
-      - {who: nib, type: speech, side: l, text: "NO TABLE."}
+      - {who: nib, type: speech, side: l, text: "NOW THERE'S NO TABLE LEFT."}
   - id: P32
     shape: full
     gap: long
@@ -443,6 +468,7 @@ panels:
       Haein unplugs the test coupler, Sejin folds the cuff, Kesh sits with antennae drooping, Nib puts the pad away.
       Taeo obeys Dara's raised stop-hand without argument. Late west sunlight, long ochre/brown shadows.
       No new powerful device, text or injury.
+      Dara stands left with her stop-hand raised, Taeo right near his chair; keep the crew separate.
     calm: top
     lines:
       - {who: dara, type: speech, side: l, text: "SIX TRIALS. FINISHED."}
@@ -460,11 +486,11 @@ panels:
         hand: taeo_left_tilt
         title: "BOSS"
         messages:
-          - {from: haru, text: "Rest day. No excuses. I practised the feathers.", time: "20:41"}
-          - {from: taeo, text: "I'll be there, boss.", time: "20:42"}
+          - {from: haru, text: "REST DAY. NO EXCUSES. I PRACTISED THE FEATHERS.", time: "20:41"}
+          - {from: taeo, text: "I'LL BE THERE, BOSS.", time: "20:42"}
     notes: "Haru's ch92 re-run promise stays fixed to the rest day. Phone case remains dark grey, top-left crack, dinosaur sticker."
   - id: P34
-    shape: wide
+    shape: full
     gap: short
     bg: navy
     camera: "side view at the yard container step, Nib checking laces"
@@ -472,11 +498,12 @@ panels:
       At ryu_practice_yard's grey container step, Nib checks his chosen boot laces while Taeo puts the cracked phone
       away, old patched backpack beside him. Nib looks up once, serious; Taeo answers the look. A plain work lamp
       casts warm orange onto the step, deep blue-grey yard shadows. No new calendar, readable print or active link.
+      Nib sits left checking his boot, Taeo sits right putting his phone away; leave room for legs and props.
     calm: top
     lines:
       - {who: nib, type: speech, side: l, text: "YOUR BROTHER?"}
       - {who: taeo, type: speech, side: r, text: "YES."}
-      - {who: nib, type: speech, side: l, text: "KEEP THAT ONE TOO."}
+      - {who: nib, type: speech, side: l, text: "KEEP YOUR PROMISE TO HARU TOO."}
   - id: P35
     shape: strip
     gap: short
@@ -488,7 +515,7 @@ panels:
       from left, blue-grey shadow right. No blood, glowing teeth, print or additional props.
     calm: none
     lines:
-      - {who: taeo, type: float, text: "THAT ONE SHOULDN'T NEED A SAFETY PLAN."}
+      - {who: taeo, type: float, text: "SHOWING UP FOR HARU SHOULDN'T NEED A SAFETY PLAN."}
   - id: P36
     shape: full
     gap: fade-black
@@ -504,18 +531,19 @@ panels:
       - {who: narr, type: tag, text: "YEOJU · CONTEST DAY ONE · DAWN"}
       - {who: taeo, type: float, text: "I THOUGHT I'D BE LESS AFRAID BY NOW."}
   - id: P37
-    shape: wide
+    shape: full
     gap: short
     bg: navy
     camera: "eye-level from the operator canopy toward Chae checking the frames"
     art: >
-      At yeoju_anchor_field, Chae (chae, navy field jacket over institutional clothes, short neat dark bob, tablet)
+      At yeoju_anchor_field, Chae (chae, navy cardigan, white collar, plain safety vest, chin-length brown bob, tablet)
       checks the blank seals on A and B while Haein in overalls secures the separate flat grey force couplers.
       Taeo watches from the exterior canopy, fastening his sleeve. Cold dawn, A4 blue-white institutional accents
       in slate surroundings. Tablet dark. No hidden window visible to Chae, print or misplaced cable.
+      Chae stands left by the frames, Haein centre at the couplers and Taeo right at the canopy.
     calm: top
     lines:
-      - {who: chae, type: speech, side: l, text: "STOCK, SAFETY, CLEARS. ALL THREE STAY ON THE RECORD."}
+      - {who: chae, type: speech, side: l, text: "LOG THE FRAGMENTS, SAFETY CHECKS AND BOSS CLEARS."}
       - {who: taeo, type: speech, side: r, text: "UNDERSTOOD."}
   - id: P38
     shape: strip
@@ -529,7 +557,7 @@ panels:
     calm: none
     silent: true
   - id: P39
-    shape: wide
+    shape: full
     gap: short
     bg: navy
     camera: "low angle toward Iron Vow's captain across the apron"
@@ -538,10 +566,11 @@ panels:
       temples, square clean-shaven face and single diagonal CHIN scar, checks his team. Dark-steel repaired plate,
       charcoal undersuit, muted red chest inset and waist tabs, LEFT two-link collar clasp; no spikes. Gangjin
       waits beside him. Dawn slate and violet rim light; no sneering villain pose or readable insignia.
+      The Iron Vow captain stands left and Gangjin centre. Taeo answers from beyond the right edge.
     calm: top
     lines:
       - {who: ironvow_captain, type: speech, side: l, text: "YOU CAME."}
-      - {who: taeo, type: speech, side: r, text: "WE REGISTERED."}
+      - {who: "offpanel:taeo", type: speech, side: r, text: "WE REGISTERED."}
   - id: P40
     shape: inset-r
     gap: short
@@ -551,11 +580,12 @@ panels:
       Nib, adult default and chosen boots, at frame A of yeoju_anchor_field tightens the black woven binocular
       strap's LEFT neck knot. His LEFT notch and lower fang show in profile; his pouch remains RIGHT, sheath LEFT.
       He looks levelly toward Iron Vow. Cold dawn and violet rim light, restrained slate. No round cute face or print.
+      Nib's face occupies the right third; crop at his chest.
     calm: left
     lines:
-      - {who: nib, type: speech, side: r, text: "SO DID I."}
+      - {who: nib, type: speech, side: r, text: "I REGISTERED TOO."}
   - id: P41
-    shape: wide
+    shape: tall
     gap: short
     bg: navy
     camera: "from behind Taeo as the five companions gather at A"
@@ -564,13 +594,14 @@ panels:
       Sera holds her bow low, Kesh's folded wings avoid the cable, Dara fastens her LEFT surgical kit.
       Taeo stands outside in navy jacket, backpack at his feet. Cold dawn, slate-blue and violet.
       Correct adult scale, no crowding five bodies through one frame, text or decoration.
+      Orrin stands left, Taeo centre, Sera right; Nib is near the frame, with Kesh and Dara behind. All three speakers have clearly visible faces.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: c, text: "THE PLAN STILL NEEDS YOUR YES."}
-      - {who: sera, type: speech, side: r, text: "YOU HAVE IT."}
+      - {who: taeo, type: speech, side: c, text: "DO YOU STILL AGREE TO THIS PLAN?"}
+      - {who: sera, type: speech, side: r, text: "YES. I AGREE."}
       - {who: orrin, type: speech, side: l, text: "YES."}
   - id: P42
-    shape: wide
+    shape: tall
     gap: short
     bg: navy
     camera: "reverse on Kesh and Dara with Nib nearest the frame"
@@ -578,11 +609,12 @@ panels:
       Kesh at yeoju_anchor_field A raises one delicate five-fingered hand, antennae attentive despite his fatigue.
       Dara gives Taeo a brisk nod and holds her other hand over the medical release strap. Nib studies the threshold,
       not Taeo's face. Dawn slate and cold rim white, violet shadows. Default outfits exact; no glow from Kesh's wand.
+      Kesh stands left, Nib centre and Dara right; show all three complete figures and faces.
     calm: top
     lines:
       - {who: kesh, type: speech, side: l, text: "YES. WITH BREAKS."}
-      - {who: dara, type: speech, side: r, text: "YES. WITH MY STOP."}
-      - {who: nib, type: speech, side: c, text: "YES. I STILL HATE IT."}
+      - {who: dara, type: speech, side: r, text: "YES. WHEN I CALL STOP, WE STOP."}
+      - {who: nib, type: speech, side: c, text: "YES. I STILL HATE THIS BET."}
   - id: P43
     shape: inset-l
     gap: short
@@ -592,9 +624,10 @@ panels:
       Taeo at yeoju_anchor_field outside A smiles once, very briefly, at Nib's answer. His tired lids, RIGHT-eye
       mole and navy jacket remain exact. Behind him the exterior chair and Sejin's folded cuff await, not a throne.
       Cold dawn, muted slate, one white gate reflection on cheek. No active window or lettering.
+      Taeo's face is on the left third.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: l, text: "HEARD."}
+      - {who: taeo, type: speech, side: l, text: "I HEARD EVERY CONDITION."}
   - id: P44
     shape: tall
     gap: short
@@ -605,12 +638,13 @@ panels:
       posture low and alert. The return mark forms a thin cold-white ring edged violet on his RIGHT wrist.
       Through the narrow opening, ochre reed-stone and a wrong lavender sky. Taeo remains outside at left.
       Dawn slate outside, lavender/violet within. No readable signs, giant doorway or summon circle.
+      Nib is on the right crossing into A; Taeo stands left outside.
     calm: top
     lines:
-      - {who: nib, type: speech, side: r, text: "WAIT FOR MY LINE."}
+      - {who: nib, type: speech, side: r, text: "WAIT UNTIL I'VE CHECKED THE RADIO LINE."}
       - {who: taeo, type: speech, side: l, text: "I WILL."}
   - id: P45
-    shape: wide
+    shape: full
     gap: short
     bg: navy
     camera: "side view outside A as Haein pays out cable"
@@ -618,9 +652,10 @@ panels:
       At yeoju_anchor_field A, Haein in overalls feeds white blue-banded survey cable after Nib while Orrin waits
       with adult patient concentration. A grey relay tripod with speaker, handset and white lamp stands outside;
       no radio voice crosses before the line is ready. Cold dawn, slate and violet. No print or active phone screen.
+      Haein stands right feeding cable; Orrin waits left clear of the frame, both full figures visible.
     calm: top
     lines:
-      - {who: haein, type: speech, side: r, text: "LINE SEATED. BOTH COUPLERS STILL ISOLATED."}
+      - {who: haein, type: speech, side: r, text: "RADIO LINE CONNECTED. BOTH FORCE COUPLERS ARE STILL OFF."}
   - id: P46
     shape: vignette
     gap: long
@@ -641,12 +676,13 @@ panels:
       At yeoju_anchor_field A the exterior relay speaker sits beside Taeo's listening face; its single white lamp
       is steady. Beyond him, Sejin checks her kit by the canopy. Taeo's jaw unclenches when the report arrives.
       Cold dawn, slate and violet. No drawn radio waveform, active screen or lettered marks in art.
+      Frame only the speaker grille on the right and Taeo's ear and cheek at left. Sejin stays outside the crop. Nib is inside, heard from the right-hand speaker.
     calm: none
     lines:
-      - {who: nib, type: phone, side: r, text: "FIRST LEDGE. CLEAR. TEST THE KNOCK."}
+      - {who: "offpanel:nib", type: phone, side: r, text: "FIRST LEDGE IS CLEAR. TEST THE KNOCK."}
     notes: "Voice reaches outside over the now-intact Ryu survey line. Two/three remains the independent fallback."
   - id: P48
-    shape: wide
+    shape: tall
     gap: short
     bg: navy
     camera: "side-on at Taeo's knuckles against A's external steel plate"
@@ -654,6 +690,7 @@ panels:
       Taeo at yeoju_anchor_field knocks twice with his RIGHT hand on A's physical steel plate. His expression
       holds fear and resolve together. The adjacent violet-black slit reflects cold white on his navy sleeve;
       all of his feet remain on exterior gravel. Cold dawn slate. No text or sound marks painted into the art.
+      Show Taeo's full figure outside A, including both feet on the gravel as his right hand knocks.
     calm: top
     sfx:
       - {text: "TTOK TTOK", style: quiet, at: [0.54, 0.44], size: M, rot: 0}

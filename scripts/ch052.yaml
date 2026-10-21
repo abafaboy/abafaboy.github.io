@@ -18,8 +18,9 @@ location_notes:
   ryu_practice_yard: "Use locations/ryu_practice_yard/key_wide.png and key_reverse.png: grey container southwest, white van southeast facing west, fixed central plywood maze, trestle west, three targets north. Workshop scenes use that trestle under a portable work lamp; do not relocate the container or turn the maze into an indoor room. Taeo's container home is in the same compound, off this view."
   exhibition_service_corridor: "Venue service passage beside the course: concrete floor, off-white walls, exposed grey conduit, equipment doors, waist-high queue barrier. Daylight enters from the open loading door at the far end; overhead practical strips supplement it. Public course is beyond the barrier; backstage access remains controlled. Signs and passes blank until lettered."
 continuity_notes:
-  nib: "105 cm, wiry weathered adult; olive skin, spiky black hair, amber eyes, V-notch LEFT ear, sole LEFT lower fang; pinkish-tan sleeveless wrap, charcoal shorts, brown rope belt, pouch RIGHT hip with green dinosaur sticker, brown wooden sheath LEFT hip. Matte-black 8x30 binoculars ride high on chest, strap knot LEFT neck, Kett's fork on hinge. ID, folded PAPER watch-post drawing and cobalt pencil remain in pouch. Boots are the pair bought in ch 43: copy that script's exact design when available; do not introduce a second pair."
-  reservoir: "The same unfinished reservoir Haein introduced in ch 50; retain its housing, contact and control geometry. A force-storage device, not a battery for electricity. Its mechanical charge dissipates; no liquid leaks and no cyan magic dust. Measurements here use an external instrument, whose figures are lettered with label entries."
+  nib: "105 cm, wiry weathered adult; olive skin, spiky black hair, amber eyes, V-notch LEFT ear, sole LEFT lower fang; pinkish-tan sleeveless wrap, charcoal shorts, brown rope belt, pouch RIGHT hip with green dinosaur sticker, brown wooden sheath LEFT hip. Matte-black 8x30 binoculars ride high on chest, strap knot LEFT neck, Kett's fork on hinge. ID, folded PAPER watch-post drawing and cobalt pencil remain in pouch. Ch 43 boots are specified below and retained in every panel."
+  boots: "Confirmed against ch 43: matte dark-brown ankle-high leather lace-up work boots, broad round toes, four pairs of dull gunmetal round eyelets, dark-brown round laces in small double knots, plain black lug soles/low heel, heel pull tabs, oat-grey short socks inside collars. No hooks, buckles, logos, bright trim or visible steel caps. Identical pair throughout."
+  reservoir: "Confirmed against ch 50: hand-sized rectangular dull-steel housing, split copper retaining band, small ivory ceramic inspection window, two capped coupling ports, short grey webbing hand strap and white analogue indicator tab in a mechanical slot. Taeo's RIGHT palm rests in that strap at the coupling contact; LEFT hand operates the manual release. No screen in the device. Mechanical force storage only, not electricity; no liquid or cyan dust. Measurement figures belong to a separate external test instrument, lettered with labels. Device stays off the competition course until inspected in ch 53."
   power: "Nib's permitted link is amber in Taeo's RIGHT palm; Orrin's is slate-green. No new Sera link colour is established in this chapter. Mechanical impact only; no new faculty, percentage or capacity increase."
 palette_notes: "Night yard: A4 ochre/brown under a cream work lamp, deep blue-grey outside its pool. Day yard: A4 dusty ochre, warm brown, sky blue. Venue: blue-white institutional practical light, light slate shadows. Amber belongs to Nib's eyes/link; interface cyan only to actual operator windows. Screens dark unless a same-panel UI fills them. Flat cel shadows, warm near-black contours; no bloom, haze or decorative particles."
 panels:
@@ -39,9 +40,10 @@ panels:
     bg: black
     camera: "extreme close-up on Taeo's eyes above the top edge of his phone"
     art: >
-      taeo, outdoor, at the ryu_practice_yard trestle at night. Only tired eyes, brow, RIGHT-eye mole and dark-grey phone edge;
+      taeo, outdoor, at his residential-container doorway in ryu_practice_yard, exactly after ch 51's hook. Only tired eyes,
+      brow, RIGHT-eye mole and dark-grey phone edge;
       the top-left hairline crack is visible, the screen faces away. He tries to look bored and cannot stop reading.
-      Cream work-lamp light from frame left, blue-grey shadow, flat cel planes. No reflected words, extra mole or decorative glow.
+      Warm residential-lamp light from frame left, blue-grey yard beyond, flat cel planes. No reflected words, extra mole or decorative glow.
     calm: top
     lines:
       - {who: taeo, type: float, text: "I FOUND ONE NICE COMMENT."}
@@ -55,15 +57,17 @@ panels:
     ui:
       - {kind: phone.live_stream, on: screen, hand: taeo_right_front, title: "REPLIES", text: "That goblin ran better than he thinks.", comments: ["I meant the goblin.", "Not him."]}
   - id: P04
-    shape: wide
+    shape: tall
     gap: long
     bg: black
     silent: true
-    camera: "side-on at table height, phone and untouched dinner in foreground"
+    camera: "side-on through the open residential doorway as Taeo takes the dinner outside"
     art: >
-      taeo, black hoodie with navy jacket hung on his chair, sets the cracked phone face-down beside a closed dinner tub at
-      ryu_practice_yard. His hand stays on it, holding it still as though it might move. Olive pack and old orange patch on chair.
-      Cream work lamp makes a bounded pool on the trestle; cold blue-grey yard beyond. Mouth pulled tight. No active screen or words.
+      taeo, still outdoor, turns his cracked phone face-down against the closed dinner tub and lifts BOTH from his
+      residential table in ryu_practice_yard. The open door ahead leads toward the separate west trestle, whose portable
+      cream lamp is lit. His mouth pulls tight as he chooses company instead of the closed room. Olive pack with old
+      orange patch over shoulder. Warm residential lamp behind, cold blue-grey yard ahead. No active screen or words.
+      Give Taeo's walking figure full height between the table and doorway.
     calm: none
   - id: P05
     kind: title
@@ -71,15 +75,17 @@ panels:
     bg: white
     title_text: "CHAPTER 52 · LEAKS"
   - id: P06
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "establishing from the south gate across the night yard"
     art: >
       ryu_practice_yard key, fixed plywood maze and north targets in deep blue-grey; grey southwest container and southeast white
-      van unchanged. At the west trestle taeo in black hoodie answers his phone, small under the cream work lamp. nib, default
+      van unchanged. At the west trestle taeo has hung his navy jacket and olive pack over the chair; in his black hoodie
+      he answers his phone, small under the cream work lamp. nib, default
       with ch 43 boots and binoculars, watches from the open container step. Adult soldier's posture, no pet proportions.
       Signs blank, phone screen turned away, no gate or supernatural light.
+      Place Taeo seated on the right under the work lamp, Nib at the left container step with full adult height.
     calm: top
     lines:
       - {who: narr, type: tag, text: "RYU SURVEY · THAT EVENING"}
@@ -87,7 +93,7 @@ panels:
     sfx:
       - {text: "BZZT", style: phone, at: [0.69, 0.59], size: S, rot: -5}
   - id: P07
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "medium three-quarter on Taeo, Orrin resting beyond the trestle"
@@ -95,11 +101,12 @@ panels:
       taeo, hoodie, sits upright too quickly at ryu_practice_yard, phone at his ear, a false bright smile on his tired face.
       orrin, adult 230 cm slate-backed quadruped, rests beyond the table, heavy lids quietly attentive; preserve any healed
       shell repair from the surge. Cream lamp on faces, brown and navy shadows. Neither is dressed for performance. No screen or writing.
+      Frame seated Taeo from the waist up on the right; Grandma is heard through the phone at his right ear.
     calm: top
     lines:
-      - {who: grandma, type: phone, side: r, text: "WHO IS THIS BANG BOY."}
-      - {who: grandma, type: phone, side: r, text: "I'LL CALL HIS MOTHER."}
-      - {who: taeo, type: nervous, side: r, text: "PLEASE DON'T JOIN HUNTERLINK."}
+      - {"who": "offpanel:grandma", "type": "phone", "side": "r", "text": "WHO IS THIS BANG BOY."}
+      - {"who": "offpanel:grandma", "type": "phone", "side": "r", "text": "I'LL CALL HIS MOTHER."}
+      - {"who": "taeo", "type": "nervous", "side": "r", "text": "PLEASE DON'T JOIN HUNTERLINK."}
   - id: P08
     shape: inset-l
     gap: short
@@ -109,11 +116,12 @@ panels:
       nib, default and ch 43 boots, at the ryu_practice_yard step. His weathered face is gravely interested, sole LEFT fang
       showing slightly, binocular strap knot LEFT neck. One ear tilts toward the phone. Work-lamp edge light over ochre and
       blue-grey. Keep the RIGHT pouch and LEFT sheath distinct; no grin, baby cheeks or active screen.
+      Nib's visible face occupies the left third.
     calm: right
     lines:
-      - {who: nib, type: speech, side: l, text: "SHE HAS A PLAN."}
+      - {"who": "nib", "type": "speech", "side": "l", "text": "YOUR GRANDMOTHER HAS A PLAN."}
   - id: P09
-    shape: wide
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -122,10 +130,11 @@ panels:
       CHIBI taeo in black hoodie, old-patch pack beside his chair, tries to hold back a toppling tower of blank notification
       tiles while his ordinary phone sits at his ear. Waterfall sweat, terrified customer-service smile. nib with all belt
       props, binoculars and ch 43 boots calmly offers another blank tile. Flat dusty-ochre screentone, work-lamp cream. No drawn text.
+      Chibi Taeo is on the left and Nib on the right, with room for both complete gag poses. Grandma's voice comes from Taeo's phone toward the right.
     calm: top
     lines:
-      - {who: grandma, type: phone, side: r, text: "I ALREADY ASKED HARU HOW TO MAKE AN ACCOUNT."}
-      - {who: taeo, type: intense, side: l, text: "BOSS, THAT IS A BETRAYAL."}
+      - {"who": "offpanel:grandma", "type": "phone", "side": "r", "text": "I ALREADY ASKED HARU HOW TO MAKE AN ACCOUNT."}
+      - {"who": "taeo", "type": "intense", "side": "l", "text": "HARU, BOSS. THAT'S A BETRAYAL."}
   - id: P10
     shape: wide
     gap: short
@@ -135,10 +144,11 @@ panels:
       Back to normal, ryu_practice_yard. taeo's smile collapses into an honest little exhale; he picks at the dinner tub latch,
       phone at his ear. nib is foreground profile, notched LEFT ear sharp. Cream lamp from above left, blue-grey beyond the
       trestle. Keep empty upper space for the voice; no phone display, lettering or comic distortion.
+      Frame Taeo from the waist up on the right, Nib's profile on the left; the phone remains at Taeo's right ear.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "I DID LOSE, GRANDMA."}
-      - {who: grandma, type: phone, side: r, text: "DID I ASK ABOUT THAT?"}
+      - {"who": "taeo", "type": "speech", "side": "r", "text": "I DID LOSE, GRANDMA."}
+      - {"who": "offpanel:grandma", "type": "phone", "side": "r", "text": "DID I ASK ABOUT THE SCORE?"}
   - id: P11
     shape: inset-r
     gap: short
@@ -148,25 +158,27 @@ panels:
       taeo, hoodie at ryu_practice_yard, listening instead of preparing another reassurance. His mouth softens, eyes lower,
       thumb still on the dinner latch. RIGHT-eye mole, near-black fringe, phone correctly gripped. Cream lamp highlights one
       cheek; flat cool shadow on the other. The background drops to navy. No tears gag or screen.
+      Taeo's face is in the right third, with Grandma's voice from the phone at his right ear.
     calm: left
     lines:
-      - {who: grandma, type: phone, side: r, text: "HAVE YOU EATEN?"}
-      - {who: taeo, type: speech, side: r, text: "...NOT YET."}
+      - {"who": "offpanel:grandma", "type": "phone", "side": "r", "text": "HAVE YOU EATEN?"}
+      - {"who": "taeo", "type": "speech", "side": "r", "text": "NOT YET."}
   - id: P12
     shape: wide
     gap: short
     bg: white
-    camera: "low across the dinner tub as Nib opens it"
+    camera: "medium two-shot above the dinner tub as Nib opens it, both faces visible"
     art: >
       At the ryu_practice_yard trestle, nib's long olive fingers open the tub taeo has left closed. Fish, rice and a small
       packet of seaweed, ordinary food. nib looks at the food with practical focus; taeo keeps the phone at his ear and
       watches his hands. Cream work-lamp light, ochre tabletop, brown shadows. No lettering, floating UI or cute Nib.
+      Show Nib's face on the left and seated Taeo's face on the right from the waist up; the tub and hands fill the lower foreground.
     calm: top
     lines:
-      - {who: grandma, type: phone, side: r, text: "EAT WHILE IT'S STILL THE SAME DAY."}
-      - {who: taeo, type: speech, side: r, text: "YES, GRANDMA."}
+      - {"who": "offpanel:grandma", "type": "phone", "side": "r", "text": "EAT WHILE IT'S STILL THE SAME DAY."}
+      - {"who": "taeo", "type": "speech", "side": "r", "text": "YES, GRANDMA."}
   - id: P13
-    shape: vignette
+    shape: full
     gap: long
     bg: white
     silent: true
@@ -186,9 +198,9 @@ panels:
     ui:
       - {kind: phone.info_card, on: screen, hand: taeo_thumb_tap, title: "EXHIBITION · OFFICIAL REPLAY", text: "STANDARDIZED TIMED EVENT · YOON TAEO / PARK DOYUN · FRAME STEP"}
     lines:
-      - {who: taeo, type: speech, side: l, text: "SORRY. ONE MORE VIDEO."}
+      - {"who": "offpanel:taeo", "type": "speech", "side": "l", "text": "SORRY. ONE MORE REPLAY."}
   - id: P15
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "table-height two-shot, Nib standing beside the seated operator"
@@ -196,12 +208,13 @@ panels:
       nib, default with boots, examines taeo's face at ryu_practice_yard rather than his phone. taeo turns the dark-grey
       cracked phone toward himself; screen hidden. He is embarrassed but purposeful now, a little rice still on his
       chopsticks. Cream work lamp, brown tabletop, navy yard. Nib adult and direct, binoculars high; no drawn UI or words.
+      Nib stands on the left and Taeo sits on the right, with full height for Nib's adult figure.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "THE SHOUTING ONE?"}
-      - {who: taeo, type: speech, side: r, text: "THE ONE WHERE WE LOST. WITHOUT THE SHOUTING."}
+      - {"who": "nib", "type": "speech", "side": "l", "text": "THE SHOUTING MAN'S VIDEO?"}
+      - {"who": "taeo", "type": "speech", "side": "r", "text": "OUR OFFICIAL REPLAY. WITHOUT BANGBANG'S SHOUTING."}
   - id: P16
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "replay insert, high course camera over the turn where Doyun pulled ahead"
@@ -210,11 +223,12 @@ panels:
       sports lighting, slate floor: nib, boots and binoculars secured against his chest, turns around a padded divider;
       a jointed unlit construct of park_doyun is already moving into the next gap. No wounds or sinister magic. Upper left
       plain for replay label; no generated timer, logo or letters.
+      Give Nib's running figure full height in the replay. Taeo's live analysis comes from outside the replay image, to the right.
     calm: top
     ui:
       - {kind: label, text: "OFFICIAL REPLAY · FRAME STEP", at: [0.28, 0.09], size: 30}
     lines:
-      - {who: taeo, type: speech, side: r, text: "HERE. YOU TURNED BEFORE I FINISHED THE CALL."}
+      - {"who": "offpanel:taeo", "type": "speech", "side": "r", "text": "NIB, YOU TURNED BEFORE I FINISHED CALLING THE ROUTE."}
     notes: "Reconstruct the same loss, not a new obstacle or a rematch. Match ch 51's course and Doyun-construct designs."
   - id: P17
     shape: strip
@@ -225,11 +239,12 @@ panels:
       ryu_practice_yard trestle, nib's olive fingertip rests on the bezel of taeo's phone without touching its screen. Phone
       screen: green; hairline top-left crack intact. taeo's chopsticks lie set aside parallel to a ruled notebook, pages
       blank. Cream work-lamp source, hard brown shadows. No extra fingers, invented screen glyphs or supernatural effects.
+      Nib speaks from above the left edge of this fingertip-and-phone detail.
     calm: none
     ui:
       - {kind: phone.info_card, on: screen, title: "FRAME STEP", text: "DOYUN: TURN BEGINS · TAEO: ROUTE CHANGE PENDING", notes: "Same paused course replay; UI is analytical overlay, not an operator window."}
     lines:
-      - {who: nib, type: speech, side: l, text: "I COULD SEE THE GAP."}
+      - {"who": "offpanel:nib", "type": "speech", "side": "l", "text": "I COULD SEE THE GAP AHEAD."}
   - id: P18
     shape: inset-r
     gap: short
@@ -241,22 +256,23 @@ panels:
       tired lower lids. No reflected words, smile for applause or full-face glow.
     calm: left
     lines:
-      - {who: taeo, type: float, text: "I WANTED THE VIDEO TO BE UNFAIR."}
+      - {"who": "taeo", "type": "float", "text": "I WANTED THE REPLAY TO MAKE THE LOSS LOOK UNFAIR."}
   - id: P19
     shape: wide
     gap: short
     bg: white
-    camera: "over Taeo's shoulder toward Sera joining the trestle"
+    camera: "medium two-shot across the trestle of Sera and Taeo studying the replay"
     art: >
       sera, default river-green wrap tunic, cream underlayer, sand cropped trousers, brown boots, LEFT bracer, long brown
       braid and RIGHT-hip bone flute, leans over the ryu_practice_yard trestle. Bow unstrung safely at her LEFT side, quiver
       RIGHT shoulder. She scrutinises the replay, chin forward, competitive frown. taeo, hoodie, foreground. Lamp cream and
       brown shadows; phone turned away, no screen marks.
+      Show both faces from the waist up, Sera on the left and Taeo on the right.
     calm: top
     lines:
-      - {who: sera, type: speech, side: l, text: "GO BACK. BEFORE THE SECOND TURN."}
-      - {who: taeo, type: speech, side: r, text: "YOU THINK HE MISSED SOMETHING?"}
-      - {who: sera, type: speech, side: l, text: "NO. I DID."}
+      - {"who": "sera", "type": "speech", "side": "l", "text": "REWIND TO BEFORE THE SECOND TURN."}
+      - {"who": "taeo", "type": "speech", "side": "r", "text": "DO YOU THINK DOYUN MISSED SOMETHING?"}
+      - {"who": "sera", "type": "speech", "side": "l", "text": "NO. I DID."}
   - id: P20
     shape: strip
     gap: short
@@ -269,7 +285,7 @@ panels:
       faintly visible. Cream work lamp, brown shadow, eraser crumbs confined to the rub. No fresh injury or glowing hand.
     calm: none
   - id: P21
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "replay insert from the operator-box side, three-quarter view"
@@ -278,12 +294,12 @@ panels:
       the course boundary, one precise long-fingered hand moving minimally. Across the divider his established unlit
       construct changes direction. taeo's box is visible far off; keep all actual screens dark shapes. No green holograms,
       attack beams, villains' sneer or generated text. Upper left plain for replay label.
+      Give Doyun's standing figure full height in the replay. Taeo's live analysis comes from outside the replay image, to the right.
     calm: top
     ui:
       - {kind: label, text: "OFFICIAL REPLAY · SLOW MOTION", at: [0.31, 0.08], size: 30}
     lines:
-      - {who: taeo, type: speech, side: r, text: "HE DIDN'T WAIT TO SEE THE NEXT OPENING."}
-      - {who: taeo, type: speech, side: r, text: "HE PREPARED THE TURN BEFORE IT."}
+      - {"who": "offpanel:taeo", "type": "speech", "side": "r", "text": "DOYUN DIDN'T WAIT TO SEE THE NEXT OPENING."}
   - id: P22
     shape: inset-l
     gap: short
@@ -293,11 +309,13 @@ panels:
       orrin, adult slateback, at ryu_practice_yard. Heavy olive eyes lift toward taeo above frame; mouth slowly crooks with
       dry understanding. Slate terraces on shell, no smooth scutes or harness. Cream work lamp on broad cheek, brown and
       deep blue-grey shadows. Table leg establishes his real scale. No pet smile, clothing or writing.
+      Orrin's face is on the left; Taeo speaks from above the right edge.
     calm: right
     lines:
-      - {who: orrin, type: speech, side: l, text: "HE KNEW WHERE HE WOULD BE SLOW."}
+      - {"who": "offpanel:taeo", "type": "speech", "side": "r", "text": "HE PREPARED HIS NEXT TURN BEFORE THE GAP OPENED."}
+      - {"who": "orrin", "type": "speech", "side": "l", "text": "DOYUN KNEW WHICH TURN WOULD SLOW HIM DOWN."}
   - id: P23
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "high angle across the trestle, all four working around one small phone"
@@ -305,11 +323,12 @@ panels:
       taeo, hoodie, draws a simple turn on blank paper at ryu_practice_yard. nib, boots and all scout props, points from
       the left; sera folds her arms on the right, gaze intent; orrin's head rises beyond the far table edge. Tiny phone
       screen dark at this angle. Cream lamp isolates the group against night. Distinct hands, adult proportions, no letters.
+      Nib is on the left, Taeo at centre, Sera on the right and Orrin beyond the table; give the standing figures room.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "I KEPT TRYING TO CATCH HIM."}
-      - {who: sera, type: speech, side: l, text: "WE NOTICED."}
-      - {who: taeo, type: speech, side: r, text: "SORRY. NEXT TIME, WE PREPARE SOMETHING WORTH CATCHING."}
+      - {"who": "taeo", "type": "speech", "side": "c", "text": "I KEPT REACTING TO DOYUN'S MOVES."}
+      - {"who": "sera", "type": "speech", "side": "r", "text": "WE NOTICED."}
+      - {"who": "taeo", "type": "speech", "side": "c", "text": "SORRY. NEXT TIME, WE PLAN OUR TURN BEFORE WE REACH IT."}
   - id: P24
     shape: narrow-r
     gap: long
@@ -332,7 +351,7 @@ panels:
     lines:
       - {who: taeo, type: float, text: "THERE WAS A BETTER WAY TO WASTE MY NIGHT."}
   - id: P26
-    shape: vignette
+    shape: full
     gap: long
     bg: white
     camera: "overhead, later, at the same lamp pool"
@@ -340,13 +359,14 @@ panels:
       ryu_practice_yard trestle from above. taeo, hoodie, has filled several pages with simple course arrows, no words;
       one empty dinner tub and one half-full cup remain, phone face-down. nib sits on the step beyond the table with his
       boots planted, binoculars on. Taeo's face is tired but absorbed. Cream lamp, blue-grey night, no giant paper pile or montage ghosts.
+      Nib is seated on the left step and Taeo sits on the right at the trestle; both faces are visible.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "SLEEP."}
-      - {who: taeo, type: speech, side: r, text: "ONE MORE FRAME."}
-      - {who: nib, type: speech, side: l, text: "YOU LOST THAT FRAME TOO. SLEEP."}
+      - {"who": "nib", "type": "speech", "side": "l", "text": "SLEEP."}
+      - {"who": "taeo", "type": "speech", "side": "r", "text": "ONE MORE REPLAY FRAME."}
+      - {"who": "nib", "type": "speech", "side": "l", "text": "THAT FRAME CAN WAIT. SLEEP."}
   - id: P27
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "side view at the open container door"
@@ -354,9 +374,10 @@ panels:
       taeo, hoodie, carries his notebook toward his off-view home past the ryu_practice_yard container step, mouth opening
       for a protest and closing on a reluctant smile. nib, boots and binoculars, reaches past to turn off the portable
       lamp. Navy night with one cream plane before it dies. Door stays open behind them; no relocation of key furniture or text.
+      Taeo walks on the right and Nib reaches for the lamp on the left; give both complete figures room.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "...RIGHT. GOOD NIGHT."}
+      - {"who": "taeo", "type": "speech", "side": "r", "text": "RIGHT. GOOD NIGHT."}
   - id: P28
     shape: full
     gap: fade-white
@@ -370,7 +391,7 @@ panels:
       Passes and door signs blank; no crowd surrounding him, gate or active screen.
     calm: none
   - id: P29
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "medium from the public side of the barrier as Doyun emerges"
@@ -379,6 +400,7 @@ panels:
       map case LEFT hip and strap RIGHT shoulder, pauses inside exhibition_service_corridor's barrier. taeo, outdoor, bows
       a little too deeply on the public side. Doyun mildly curious, no contemptuous smirk. Blue-white overhead strips and
       loading daylight, slate shadows. Signs blank, no constructs floating decoratively.
+      Doyun stands on the left of the barrier, Taeo on the right; give both standing figures full height.
     calm: top
     lines:
       - {who: narr, type: tag, text: "THE FOLLOWING MORNING"}
@@ -393,11 +415,12 @@ panels:
       taeo, outdoor cuffs, holds an open notebook at exhibition_service_corridor's waist barrier. His geometric diagram
       has one turn circled; no written explanation. park_doyun's long fingers rest on his own map-case strap, not taking
       the book yet. Blue-white practical light, slate floor simplified. Five fingers per visible hand, no glowing diagrams or letters.
+      Taeo speaks from beyond the right edge of this notebook detail.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: r, text: "COULD I ASK ABOUT THIS TURN?"}
+      - {"who": "offpanel:taeo", "type": "speech", "side": "r", "text": "COULD I ASK ABOUT THE CIRCLED TURN?"}
   - id: P31
-    shape: wide
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -407,12 +430,13 @@ panels:
       exhibition_service_corridor barrier; his knees wobble, huge sweat drop. CHIBI park_doyun, charcoal coat and LEFT map
       case, inspects it with ruler-straight posture. Flat pale-slate screentone, white strip-light source indicated by hard
       shadows. No enormous magical map or drawn lettering.
+      Chibi Doyun is on the left and Taeo on the right, with room for their complete gag poses.
     calm: top
     lines:
-      - {who: park_doyun, type: speech, side: l, text: "YOU HAVE PRACTISED ASKING THIS."}
-      - {who: taeo, type: nervous, side: r, text: "THE NOTEBOOK WAS VERY SUPPORTIVE."}
+      - {"who": "park_doyun", "type": "speech", "side": "l", "text": "YOU HAVE PRACTISED ASKING FOR HELP."}
+      - {"who": "taeo", "type": "nervous", "side": "r", "text": "THE NOTEBOOK WAS VERY SUPPORTIVE."}
   - id: P32
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "normal-proportion two-shot over the notebook, Doyun now leaning toward it"
@@ -421,11 +445,12 @@ panels:
       points just before the circled turn, wrist relaxed. taeo, outdoor, follows the fingertip with alert, hungry eyes.
       Blue-white practical strips and light slate shadows; simplified conduit behind. No smugness, floating route display
       or letters on notebook.
+      Doyun stands on the left and Taeo on the right, both faces clearly visible with room around their standing bodies.
     calm: top
     lines:
-      - {who: park_doyun, type: speech, side: l, text: "YOU CHANGED THE DESTINATION HERE."}
-      - {who: park_doyun, type: speech, side: l, text: "I HAD ALREADY PREPARED THE NEXT DIRECTION."}
-      - {who: taeo, type: speech, side: r, text: "CAN I LEARN TO DO IT THAT QUICKLY?"}
+      - {"who": "park_doyun", "type": "speech", "side": "l", "text": "YOU CHANGED YOUR CREW'S ROUTE HERE."}
+      - {"who": "park_doyun", "type": "speech", "side": "l", "text": "I HAD ALREADY PREPARED THE NEXT DIRECTION."}
+      - {"who": "taeo", "type": "speech", "side": "r", "text": "CAN I LEARN TO PREPARE TURNS THAT QUICKLY?"}
   - id: P33
     shape: inset-r
     gap: short
@@ -435,9 +460,10 @@ panels:
       park_doyun, default charcoal coat and high grey collar, at exhibition_service_corridor. Cool brown eyes give the
       question real consideration. Head inclines a few degrees, long face still. Loading-door daylight from frame right,
       blue-white overhead fill, slate background. No malicious grin, beauty bloom or UI.
+      Doyun's face occupies the left third.
     calm: left
     lines:
-      - {who: park_doyun, type: speech, side: l, text: "EVENTUALLY. YOU WILL NOT LEARN IT BY TOMORROW."}
+      - {"who": "park_doyun", "type": "speech", "side": "l", "text": "EVENTUALLY. YOU CANNOT LEARN THAT SPEED BY TOMORROW."}
   - id: P34
     shape: wide
     gap: short
@@ -447,10 +473,11 @@ panels:
       taeo, outdoor with old-patch backpack, nods once at exhibition_service_corridor. His wince becomes an earnest,
       slightly embarrassed smile; he does not close the notebook. Doyun's charcoal shoulder foreground left. Blue-white
       practical lamps, light slate walls. Leave calm upper space. No inspirational rays or active screens.
+      Frame Taeo from the waist up on the right and Doyun's shoulder at the left foreground.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "THEN SOMEDAY. A TECHNICAL REMATCH."}
-      - {who: taeo, type: speech, side: r, text: "SAME CONDITIONS. WHEN I'VE GOT A BETTER QUESTION."}
+      - {"who": "taeo", "type": "speech", "side": "r", "text": "COULD WE HAVE A TECHNICAL REMATCH SOMEDAY?"}
+      - {"who": "taeo", "type": "speech", "side": "r", "text": "SAME CONDITIONS. AFTER I'VE PRACTISED A BETTER METHOD."}
   - id: P35
     shape: strip
     gap: short
@@ -460,6 +487,7 @@ panels:
       park_doyun at exhibition_service_corridor, only cool brown eyes and a straight dark brow. The clinical focus shifts
       from paper to taeo; one upper lid lifts with genuine curiosity. Blue-white strip light from above, sharp light-slate
       shadow. No glowing pupils, words or invented scar.
+      Doyun's eyes occupy the left third of the detail.
     calm: top
     lines:
       - {who: park_doyun, type: speech, side: l, text: "YES. SEND ME YOUR METHOD FIRST."}
@@ -475,7 +503,7 @@ panels:
       dissolves into white at the edges, blue-white overhead practical light. No triumphant crowd, trophy or text.
     calm: none
   - id: P37
-    shape: wide
+    shape: tall
     gap: long
     bg: white
     camera: "long view after Doyun leaves, Taeo small by the barrier"
@@ -483,9 +511,10 @@ panels:
       exhibition_service_corridor, park_doyun's charcoal coat receding toward an equipment door. taeo, outdoor, remains
       on the public side, already opening his notebook again, shoulders no longer folded inward. The attendant tends
       her blank clipboard. Daylight and blue-white strips, long light-slate planes. No readable signage or new backstage access.
+      Give Taeo, the attendant and the receding Doyun full height in the corridor.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "HE HADN'T CALLED IT IMPOSSIBLE."}
+      - {"who": "taeo", "type": "float", "text": "DOYUN HADN'T CALLED A REMATCH IMPOSSIBLE."}
   - id: P38
     shape: narrow-l
     gap: short
@@ -518,11 +547,12 @@ panels:
       ryu_practice_yard trestle: slate-blue bib overalls, beige tee, brown tool belt, spanner RIGHT, screwdriver LEFT,
       dark work boots, clear safety glasses on crown. She holds ch 50's reservoir in one hand, unimpressed. taeo, outdoor,
       watches from right. Afternoon sun, ochre/brown, sky-blue accent. Instruments blank, no sparks or liquid.
+      Frame Haein from the waist up on the left and Taeo from the waist up on the right.
     calm: top
     lines:
-      - {who: haein, type: speech, side: l, text: "GOOD NEWS. IT'S CONSISTENT."}
-      - {who: taeo, type: speech, side: r, text: "THAT SOUNDS DANGEROUSLY LIKE GOOD NEWS."}
-      - {who: haein, type: speech, side: l, text: "CONSISTENTLY BAD."}
+      - {"who": "haein", "type": "speech", "side": "l", "text": "GOOD NEWS. THE RESERVOIR'S CONSISTENT."}
+      - {"who": "taeo", "type": "speech", "side": "r", "text": "THAT SOUNDS DANGEROUSLY LIKE GOOD NEWS."}
+      - {"who": "haein", "type": "speech", "side": "l", "text": "CONSISTENTLY BAD."}
   - id: P41
     shape: strip
     gap: short
@@ -533,13 +563,13 @@ panels:
       taeo's navy cuff enter opposite sides; Haein steadies the test contact, Taeo lays his RIGHT palm against its operator
       contact. Bare mechanical test rig and external dark display, no charged light yet. Sun from upper left, ochre wood,
       cool metal, brown shadows. No liquid, glyphs or new design.
+      Haein speaks from above the left edge of this reservoir-and-hands detail.
     calm: none
     lines:
-      - {who: haein, type: speech, side: l, text: "SMALL INPUT. SAME DIRECTION. NO EXTRA LOAD."}
-      - {who: taeo, type: speech, side: r, text: "UNDERSTOOD."}
+      - {"who": "offpanel:haein", "type": "speech", "side": "l", "text": "STORE A SMALL PUSH. KEEP THE DIRECTION FIXED. NO EXTRA LOAD."}
     notes: "PLANT P14: repeatable controlled test of the existing leaking reservoir; no improved capacity is claimed."
   - id: P42
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "side-on on Orrin nudging the padded test plate, Taeo visible beyond"
@@ -547,9 +577,11 @@ panels:
       orrin, adult slateback, at ryu_practice_yard, makes a very small deliberate push into a padded test plate braced at
       the trestle's end. taeo, outdoor, at the contact beyond, feels it with his RIGHT palm; a thin slate-green pulse,
       not cyan, under the skin. Haein watches the instrument. Ochre/brown afternoon sun, no harness or force beam.
+      Orrin pushes on the left, Taeo stands on the right with his face visible and Haein watches between them; leave room for the standing bodies.
     calm: top
     lines:
-      - {who: orrin, type: speech, side: l, text: "READY."}
+      - {"who": "taeo", "type": "speech", "side": "r", "text": "UNDERSTOOD."}
+      - {"who": "orrin", "type": "speech", "side": "l", "text": "READY."}
     sfx:
       - {text: "TUK", style: quiet, at: [0.38, 0.62], size: S, rot: 0}
     notes: "Orrin explicitly permits this low-load test. Taeo diverts only the agreed slice; the bench is not an infinite force source."
@@ -580,7 +612,7 @@ panels:
       - {kind: label, text: "0.80 s · RETAINED: 0", at: [0.52, 0.69], size: 32}
     notes: "PLANT P14: charge leaks away at the observed limit. This is loss, not saturation or breakage; payoff remains ch 60."
   - id: P45
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "front medium on Sejin checking Taeo's forearm, Haein at left"
@@ -588,36 +620,39 @@ panels:
       sejin, sage scrub shirt, olive medic rig, charcoal cargos and dark boots, cropped near-black hair, tired square face,
       checks taeo's exposed forearm at ryu_practice_yard. He has pushed back his navy and hoodie cuffs; old bruising remains,
       no fresh nosebleed. haein, overalls, studies her failed trace. A4 afternoon ochre/brown sun; signs blank, no healing glow.
+      Haein stands on the left, Sejin at centre and Taeo on the right; all three faces are visible with room for their standing bodies.
     calm: top
     lines:
-      - {who: sejin, type: speech, side: l, text: "ANY PAIN?"}
-      - {who: taeo, type: speech, side: r, text: "NOT FROM THAT. I'LL SAY IF THERE IS."}
-      - {who: haein, type: speech, side: l, text: "IT WON'T SAVE A LATE DECISION."}
+      - {"who": "sejin", "type": "speech", "side": "c", "text": "ANY PAIN?"}
+      - {"who": "taeo", "type": "speech", "side": "r", "text": "NO PAIN FROM THE TEST. I'LL TELL YOU IF THAT CHANGES."}
+      - {"who": "haein", "type": "speech", "side": "l", "text": "THE RESERVOIR WON'T HELP IF YOU CHOOSE THE RELEASE DIRECTION TOO LATE."}
   - id: P46
-    shape: inset-r
+    shape: wide
     gap: short
     bg: white
     camera: "close on Taeo looking from the meter to the notebook"
     art: >
-      taeo, outdoor at ryu_practice_yard, looks sharply sideways between the external meter and his open notebook.
-      His brow unknits, mouth slightly open; the first real connection, not a victory pose. Afternoon sun across RIGHT-eye
+      BIG REACTION: taeo, outdoor at ryu_practice_yard, snaps his head up from external meter to open notebook,
+      eyes suddenly wide, mouth open on a surprised breath; the first real connection, not a victory pose. Afternoon sun across RIGHT-eye
       mole, hard brown shadow beneath fringe. Notebook diagram only; no floating calculation, decorative sparks or text.
+      Taeo's face occupies the right third.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: r, text: "WHAT IF IT ISN'T LATE?"}
+      - {"who": "taeo", "type": "speech", "side": "r", "text": "WHAT IF WE CHOOSE THE RELEASE DIRECTION BEFORE THE HIT?"}
   - id: P47
-    shape: wide
+    shape: tall
     gap: short
     bg: white
-    camera: "over Haein's shoulder onto the course sketch and Taeo's hands"
+    camera: "medium three-shot across the trestle, all faces and the course sketch visible"
     art: >
       ryu_practice_yard trestle: taeo, outdoor cuffs, places his notebook beside the intact reservoir and traces a straight
       line BEFORE the circled turn. haein, slate overalls, in near foreground, follows his fingertip; nib, boots, leans in
       from the other side. Afternoon sun, ochre/brown cel planes. No lettering on paper, spontaneous third channel or force arrows in the air.
+      Show Nib on the left, Haein at centre and Taeo on the right, all three faces visible with room for their standing bodies around the sketch.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "DON'T STORE IT UNTIL WE NEED A PLAN."}
-      - {who: nib, type: speech, side: l, text: "HAVE THE PLAN FIRST."}
+      - {"who": "taeo", "type": "speech", "side": "r", "text": "WE STORE A HIT WE'VE ALREADY PLANNED TO USE."}
+      - {"who": "nib", "type": "speech", "side": "l", "text": "HAVE THE PLAN FIRST."}
   - id: P48
     shape: strip
     gap: long
@@ -630,7 +665,7 @@ panels:
       brown shadow; five separate plausible fingers. His phone remains face-down beyond the notebook, green dinosaur sticker visible.
     calm: none
   - id: P49
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "medium on Haein lifting the reservoir between herself and Taeo"
@@ -638,6 +673,7 @@ panels:
       haein, overalls and safety glasses on crown, holds ch 50 reservoir at chest height at ryu_practice_yard. Her blunt
       stare asks whether taeo has really heard the limitation; taeo, outdoor, stands right of frame, eyes fixed on the device.
       orrin's slate shell low behind. Warm afternoon sun, ochre/brown, sky-blue accent. Device intact, no sparks or readable casing marks.
+      Haein stands on the left and Taeo on the right, with room for both figures and the device between them.
     calm: top
     lines:
       - {who: haein, type: speech, side: l, text: "IT HOLDS A CHARGE FOR 0.8 SECONDS."}
@@ -665,6 +701,7 @@ panels:
       outdoor, has turned toward the fixed plywood practice lane, notebook in hand, a steady idea in his tired face.
       nib in ch 43 boots and binoculars stands at the lane entrance, listening; orrin beyond him, full adult scale.
       Afternoon sun, A4 ochre ground and warm brown shadows, clear sky blue above. No force effect, generated diagrams or lettering.
+      Taeo stands on the right; Nib waits at the left lane entrance and Orrin beyond.
     calm: top
     lines:
       - {who: taeo, type: speech, side: r, text: "0.8 SECONDS IS ENOUGH."}

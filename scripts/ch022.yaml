@@ -65,11 +65,12 @@ panels:
     notes: "Starts where ch 21's hook left off (the notice on Taeo's door), a few hours later. ch 21 showed one door; this pulls back to all twelve. The zone is hapjeong_gate_zone (LOCATIONS.md)."
 
   - id: P02
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "on the 4F corridor, eye level, looking north along the doors toward the stairs"
     art: >
+      Taeo stands right, Nib sits left by the rail; the neighbour and toddler are farther back on the right.
       The 4F open-air corridor (taeo_building key) at dawn: the cold white tube lights still on under the corridor roof, the waist-high
       metal rail on the LEFT with the street below, the slate-grey steel doors on the RIGHT, the stairs at the far end.
       Near foreground: Taeo (taeo, default: black hoodie, black cargo trousers, socks, his sneakers trodden down at the heel; tired lower
@@ -108,6 +109,7 @@ panels:
     bg: white
     camera: "high angle from Taeo's eye line down at Nib on the corridor floor"
     art: >
+      Crop Nib from the waist up in the right third; Taeo stands off frame to the left.
       From Taeo's eye line, looking down: Nib (nib, default: V-notch in the LEFT ear, one small lower fang on the left, brown rope belt,
       pouch on the RIGHT hip with Haru's dinosaur sticker on its flap, brown wooden sheath on the LEFT hip, barefoot, binoculars on his chest)
       has taken the notice and holds it close in both hands, one olive-green finger under a line, sounding it out with total concentration,
@@ -115,9 +117,9 @@ panels:
       Blue-grey concrete floor and the rail's shadow bars behind him.
     calm: left
     lines:
-      - {who: nib, type: speech, side: r, text: "THIR-TY. DAYS."}
-      - {who: taeo, type: speech, side: l, text: "...YOU CAN READ IT."}
-      - {who: nib, type: speech, side: r, text: "THEN WE HAVE THIRTY DAYS."}
+      - {"who": "nib", "type": "speech", "text": "THIR-TY. DAYS.", "side": "r"}
+      - {"who": "offpanel:taeo", "type": "speech", "text": "YOU CAN READ THE NOTICE.", "side": "l"}
+      - {"who": "nib", "type": "speech", "text": "THEN WE HAVE THIRTY DAYS.", "side": "r"}
     notes: "Nib reads numbers and some Hangul from Eunchae's flashcards (ch 9). 'WE': after ch 21 he stays, as a partner, for the door. He ignores the compliment."
 
   - id: P05
@@ -128,11 +130,12 @@ panels:
 
   # ---------------- THE LANDLORD ----------------
   - id: P06
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "establishing, eye level inside the ground-floor piloti, from beside the stair foot toward the street door"
     art: >
+      Taeo stands right, phone at his right ear. Nib sits left by the stairs. The landlord is heard only through the phone.
       The ground-floor piloti of Taeo's building (taeo_building key) in the morning: a low concrete ceiling on square columns, two parked
       cars and a scooter, oil stains, the glass street door on the right with the bright bus street beyond.
       On the left wall, a bank of twelve grey steel mailboxes (four rows of three), and out of EVERY slot juts the same glossy black-and-gold
@@ -146,9 +149,9 @@ panels:
       No letters or numbers in the art.
     calm: top
     lines:
-      - {who: narr, type: tag, text: "8:30 AM"}
-      - {who: landlord, type: phone, side: l, text: "MR. YOON. YES. I'M SORRY ABOUT THE NOTICE."}
-      - {who: landlord, type: phone, side: l, text: "MY INSURER DROPPED THE BUILDING THE DAY THE MAP CHANGED."}
+      - {"who": "narr", "type": "tag", "text": "8:30 AM"}
+      - {"who": "offpanel:landlord", "type": "phone", "text": "MR. YOON. YES. I'M SORRY ABOUT THE NOTICE.", "side": "r"}
+      - {"who": "offpanel:landlord", "type": "phone", "text": "MY INSURER DROPPED THE BUILDING THE DAY THE MAP CHANGED.", "side": "r"}
     ui:
       - {kind: label, text: "WE BUY GATE-ZONE BUILDINGS\nCASH IN 7 DAYS", at: [0.16, 0.50], size: 20, rot: -6, color: "#b8902e", notes: "on one flyer jutting from a mailbox slot"}
     notes: "The landlord is a voice only (extras.landlord): squeezed, not a villain (STORY_BIBLE §4 rule 3). Cash buyers circling by morning is why he can sell fast."
@@ -157,17 +160,18 @@ panels:
     shape: wide
     gap: short
     bg: white
-    camera: "medium close, three-quarter front on Taeo against the mailboxes"
+    camera: "medium waist-up, three-quarter front on Taeo against the mailboxes"
     art: >
+      Taeo is on the right, phone at the right side of his face; frame him from the waist up.
       Closer on Taeo by the mailbox bank, phone at his RIGHT ear, the crumpled gold flyer in his left fist at his side. His face shifts as
       he listens: the polite neutral of a man taking bad news from someone older, one corner of his mouth pinned; a bead of sweat at the
       temple. Behind him the grey mailbox doors in a grid, the flyers' gold edges cut off by the frame. Flat cool daylight; one shadow tone.
       No letters or numbers in the art.
     calm: top-right
     lines:
-      - {who: landlord, type: phone, side: l, text: "NO INSURANCE, THE BANK CALLS IN MY LOAN. SO I'M SELLING."}
-      - {who: landlord, type: phone, side: l, text: "BUYERS WANT IT AT THE NEW RENT. OR EMPTY."}
-      - {who: taeo, type: speech, side: r, text: "...AND MY DEPOSIT?"}
+      - {"who": "offpanel:landlord", "type": "phone", "text": "NO INSURANCE, THE BANK CALLS IN MY LOAN. SO I'M SELLING.", "side": "r"}
+      - {"who": "offpanel:landlord", "type": "phone", "text": "BUYERS WANT THE BUILDING AT THE NEW RENT. OR EMPTY.", "side": "r"}
+      - {"who": "taeo", "type": "speech", "text": "AND MY DEPOSIT?", "side": "r"}
 
   - id: P08
     shape: inset-l
@@ -175,30 +179,45 @@ panels:
     bg: white
     camera: "close-up, side profile on Taeo and the phone"
     art: >
+      Taeo's profile and phone occupy the left third. The landlord is heard through that phone.
       Side-profile close-up: Taeo with the phone pressed to his ear, eyes shut for one second, jaw tight, asking the question he does not
       want answered. A plain grey concrete column behind him.
     calm: right
     lines:
-      - {who: landlord, type: phone, side: r, text: "YOU'LL GET IT WHEN IT SELLS."}
-      - {who: taeo, type: speech, side: l, text: "AND IF IT DOESN'T SELL?"}
-      - {who: landlord, type: phone, side: r, text: "I HAVE ELEVEN MORE TENANTS TO CALL, MR. YOON."}
-    sfx:
-      - {text: "TUK", style: phone, at: [0.78, 0.30], size: S, rot: 0}
+      - {"who": "offpanel:landlord", "type": "phone", "text": "YOU'LL GET YOUR DEPOSIT WHEN THE BUILDING SELLS.", "side": "l"}
+      - {"who": "taeo", "type": "speech", "text": "AND IF THE BUILDING DOESN'T SELL?", "side": "l"}
     notes: "Twelve units (P01), so eleven other tenants. Taeo's deposit balance is ₩1,600,000 (ch 17: ₩3,400,000 of the ₩5,000,000 signed away; ch 21 hook)."
 
+  - id: P08a
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "front close-up on Taeo holding the phone at his ear"
+    art: >
+      Taeo's face fills the right third beside a grey piloti column (taeo_building), cool morning daylight.
+      He keeps his dark grey phone against his right ear as his polite expression tightens. The landlord is not drawn.
+      Show the mole under Taeo's RIGHT eye and the olive backpack strap. No text in the art.
+    calm: left
+    lines:
+      - {who: "offpanel:landlord", type: phone, side: r, text: "I HAVE ELEVEN MORE TENANTS TO CALL, MR. YOON."}
+    sfx:
+      - {text: "TUK", style: phone, at: [0.78, 0.30], size: S, rot: 0}
+    notes: "The landlord ends the call without answering when the deposit will be returned."
+
   - id: P09
-    shape: narrow-r
+    shape: tall
     gap: short
     bg: white
     camera: "full figure from low: Nib on the bottom stair, Taeo's legs at the frame edge"
     art: >
+      Nib is fully visible right; Taeo's legs and lowered phone are at the left edge.
       Nib (nib, default) on the bottom stair, full figure from low: he has lowered the binoculars to his chest and looks up at Taeo, of whom
       we see only the black trousers, the sneakers and the hand hanging at his side with the dead phone. A practical question on Nib's face,
       nothing more: ears level, head tilted. Concrete step and the stair's steel rail. Cool daylight.
     calm: none
     lines:
       - {who: nib, type: speech, side: r, text: "FORTY PERCENT. IS THAT A LOT?"}
-      - {who: taeo, type: speech, side: l, text: "₩630,000 A MONTH. MORE THAN I EARN."}
+      - {who: "offpanel:taeo", type: speech, side: l, text: "₩630,000 A MONTH. MORE THAN I EARN."}
       - {who: narr, type: footnote, text: "*₩630,000 ≈ US$460"}
     notes: "Nib's 'IS THAT A LOT?' (ch 5). Taeo works weekend days only since the construct stocker took nights (ch 5, ch 18), so the new rent is more than his pay."
 
@@ -209,6 +228,7 @@ panels:
     bg: white
     camera: "establishing, inside Hanbit Mart from the north end of aisle 2 toward the counter and the glass front"
     art: >
+      Eunchae stands right behind the counter, Manager Oh beside her at centre; Taeo and Nib enter left.
       Hanbit Mart (hanbit_mart key) at two in the afternoon: daylight cream through the south glass front makes warm patches on the front
       strip while the aisles stay fluorescent green-white.
       At the counter across the northwest rear, facing south, with cigarette shelves on the north wall, Eunchae (eunchae, work: high ponytail,
@@ -237,6 +257,7 @@ panels:
     bg: white
     camera: "over Eunchae's shoulder across the counter at Taeo"
     art: >
+      Frame the standing figures from the waist up: Eunchae left, Taeo right, Nib just left of him.
       Over Eunchae's shoulder (her ponytail and the vest half off one arm in the near foreground, left), across the counter at Taeo, who
       stands with one hand on his backpack strap giving a small, tired shrug that is trying to be a joke and is not. Nib beside him at
       counter height, his eyes on Eunchae.
@@ -245,18 +266,19 @@ panels:
       Fluorescent light behind them, daylight on the counter top; snack shelves simplified.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "...MY DOOR TOO."}
-      - {who: taeo, type: speech, side: r, text: "HE SAYS I GET MY DEPOSIT BACK WHEN IT SELLS."}
-      - {who: eunchae, type: speech, side: l, text: "...COME WITH ME. I'LL SHOW YOU WHAT 'WHEN IT SELLS' LOOKS LIKE."}
+      - {who: taeo, type: speech, side: r, text: "MY DOOR GOT A NOTICE TOO."}
+      - {who: taeo, type: speech, side: r, text: "MY LANDLORD SAYS I GET MY DEPOSIT WHEN THE BUILDING SELLS."}
+      - {who: eunchae, type: speech, side: l, text: "COME WITH ME. I'LL SHOW YOU WHAT 'WHEN IT SELLS' LOOKS LIKE."}
     notes: "Eunchae is warning a friend, not rescuing anyone (STORY_BIBLE §6: brisk, kind, not anyone's secretary)."
 
   # ---------------- THE GOSIWON ----------------
   - id: P12
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "establishing, eye level from the shoe rack at the head of the gosiwon corridor"
     art: >
+      Taeo removes his sneaker left; Nib is at centre, Eunchae farther right; the resident peeks out near centre.
       A gosiwon (eunchae_gosiwon) on the third floor above a PC bang: a long corridor barely wider than a person, lined both sides with
       beige-painted plywood doors set so close together they look like lockers, each with a small blank number plate. Grey-green linoleum,
       a strip of cold white LED light down the ceiling, a tangle of ducting overhead. At the far end, a shared kitchen nook: a big rice
@@ -282,6 +304,7 @@ panels:
     bg: white
     camera: "from the doorway, slightly high, the whole room in one view"
     art: >
+      Taeo crouches at the doorway in the lower centre with his speaking profile visible above his knees; Eunchae sits left, Nib on the stool right.
       Eunchae's room seen whole from its doorway, because it can be seen whole: about 5 m², 1.8 m wide and under 3 m deep.
       Along the left wall, a narrow single bed on a raised platform with a grey quilt; a shelf above it with folded clothes, a small rice
       cooker and a small framed photo of her with her parents; at the bed's foot a built-in desk with a stool, a mini-fridge under the desk,
@@ -296,25 +319,26 @@ panels:
     calm: top
     lines:
       - {who: eunchae, type: speech, side: l, text: "FIVE SQUARE METRES."}
-      - {who: taeo, type: speech, side: c, text: "...THE WHOLE THING?"}
+      - {who: taeo, type: speech, side: c, text: "THE WHOLE ROOM?"}
       - {who: eunchae, type: speech, side: l, text: "THE FRIDGE COUNTS."}
     notes: "Lock this room for P14–P26: bed on the left, desk and stool at its foot, the bare square above the pillow (Nib's drawing goes there in P26)."
 
   - id: P14
-    shape: inset-l
+    shape: full
     gap: short
     bg: white
     style: chibi
     camera: "chibi gag"
     art: >
+      Chibi Taeo is in the doorway left, Nib perches at centre, Eunchae sits right. Give their full figures room.
       CHIBI gag. Chibi Taeo is folded into the doorway like a deckchair, knees up at his ears, arms wrapped round them, one huge sweat drop.
       Chibi Nib (V-notch ear, brown rope belt, pouch and wooden sheath all present, binoculars) perches on the desk like an owl, perfectly
       content. Chibi Eunchae sits on the bed flipping a flashcard, unbothered, little sparkles of efficiency round her head.
       Flat pale-yellow background with a screentone dot pattern.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: l, text: "WHERE DO GUESTS GO?"}
-      - {who: eunchae, type: speech, side: l, text: "HOME."}
+      - {"who": "taeo", "type": "speech", "text": "WHERE DO GUESTS GO?", "side": "l"}
+      - {"who": "eunchae", "type": "speech", "text": "HOME.", "side": "r"}
 
   - id: P15
     shape: inset-r
@@ -322,6 +346,7 @@ panels:
     bg: white
     camera: "close two-shot at desk height: Nib on the stool, Eunchae leaning from the bed"
     art: >
+      Frame seated Eunchae left and Nib right from the waist up.
       Back to normal style. Eunchae, leaning from the bed, has taken three small cans of barley tea out of the mini-fridge and holds one out
       to Nib. Nib, on the stool, does not take it: he looks at the can, then at her, with flat deadpan suspicion, and tips two fingers toward
       her: drink first. Eunchae's eyebrows go up, amused despite herself. The card wall behind, simplified into rows of pale shapes.
@@ -336,15 +361,16 @@ panels:
     shape: inset-l
     gap: short
     bg: white
-    camera: "low, from the floor, up at Nib on the stool as he turns to look round the walls"
+    camera: "low medium close-up on Nib's face and shoulders as he scans the walls"
     art: >
+      Nib's face occupies the left third; Eunchae speaks from her bed off frame to the right.
       From low on the floor: Nib on the desk stool, an opened can of barley tea in his hand now, turns his whole head slowly round the room
       the way he scans a ridge: wall, wall, ceiling, wall. Ears up, eyes narrowed; puzzlement sharpening into something like alarm.
       The wall of flashcards all around him; the cold ceiling light above.
     calm: right
     lines:
-      - {who: nib, type: speech, side: l, text: "WHERE'S THE WINDOW?"}
-      - {who: eunchae, type: speech, side: r, text: "WINDOWS ARE ₩50,000 MORE."}
+      - {"who": "nib", "type": "speech", "text": "WHERE'S THE WINDOW?", "side": "l"}
+      - {"who": "offpanel:eunchae", "type": "speech", "text": "WINDOWS ARE ₩50,000 MORE.", "side": "r"}
     notes: "Eunchae drank first between P15 and P16. In many real gosiwons a room with an outside window costs more each month; ₩50,000 is this chapter's figure."
 
   - id: P17
@@ -359,7 +385,7 @@ panels:
     calm: center
     lines:
       - {who: nib, type: speech, side: l, text: "THEN HOW DO YOU SEE WHAT'S COMING?"}
-      - {who: eunchae, type: speech, side: r, text: "...YOU DON'T."}
+      - {who: eunchae, type: speech, side: r, text: "YOU DON'T."}
 
   - id: P18
     shape: wide
@@ -367,6 +393,7 @@ panels:
     bg: white
     camera: "medium, eye level from the doorway, Eunchae on the bed"
     art: >
+      Seated Eunchae is right, Nib at centre; Taeo's shoulder remains left. Crop seated figures from the waist up.
       Eunchae sits on the bed with her workbook closed on her knees and both hands flat on it, telling it plainly, as if it were a stock
       count, looking at a point on the wall rather than at them. Nib on the stool, very still, the can in his hands. Taeo's shoulder and
       knee at the left frame edge in the doorway. The card wall behind her; the small framed photo of her with her parents on the shelf
@@ -379,11 +406,12 @@ panels:
     notes: "STORY_BIBLE §6: her family lost a ₩180,000,000 jeonse deposit when the landlord vanished (revealed in ch 22)."
 
   - id: P19
-    shape: vignette
+    shape: tall
     gap: short
     bg: white
     camera: "memory, medium, inside a new villa's empty living room"
     art: >
+      Young Eunchae stands on the ladder at centre, father left and mother right. Present-day Eunchae tells the memory from outside the frame, left.
       MEMORY (desaturated and cooler, per ART_BIBLE A4). Four years earlier: a bright new two-room villa, empty of furniture. Eunchae at 21
       (the eunchae sheet, four years younger: hair loose to the shoulders, a grey sweatshirt and jeans) stands on a stepladder smoothing a
       strip of wallpaper onto the wall with both palms, laughing over her shoulder. Below her, her father holds the roll steady and her
@@ -391,14 +419,15 @@ panels:
       pattern. Everything else is cool grey. The edges fade into the white page.
     calm: bottom
     lines:
-      - {who: eunchae, type: speech, side: c, text: "IT WAS NEW. I PICKED THE WALLPAPER."}
+      - {"who": "offpanel:eunchae", "type": "speech", "text": "THE VILLA WAS NEW. I PICKED THE WALLPAPER.", "side": "l"}
 
   - id: P20
-    shape: vignette
+    shape: tall
     gap: short
     bg: white
     camera: "memory, wide, the same room two years later, from the front door"
     art: >
+      Young Eunchae stands at centre foreground; her parents sit behind her. Present-day Eunchae's account continues from outside the memory frame, left.
       MEMORY, the same room two years later and colder still: the furniture gone, cardboard boxes stacked against the buttercream wallpaper
       (still the one warm colour). Her father sits on a box with a phone to his ear, waiting, his free hand over his eyes; her mother sits
       beside him with a folder of papers on her knees, staring at nothing. In the foreground, Eunchae at 23 (ponytail, a navy padded jacket)
@@ -406,9 +435,9 @@ panels:
       The edges fade into the white page.
     calm: top
     lines:
-      - {who: eunchae, type: speech, side: c, text: "HE SAID WE'D GET IT BACK WHEN THE NEXT TENANT PAID IN."}
-      - {who: eunchae, type: speech, side: c, text: "THEN HE STOPPED ANSWERING. HE OWNED FORTY-ONE VILLAS."}
-      - {who: eunchae, type: speech, side: c, text: "HE WAS ALREADY ABROAD."}
+      - {"who": "offpanel:eunchae", "type": "speech", "text": "OUR LANDLORD SAID WE'D GET OUR DEPOSIT WHEN THE NEXT TENANT PAID IN.", "side": "l"}
+      - {"who": "offpanel:eunchae", "type": "speech", "text": "THEN HE STOPPED ANSWERING. HE OWNED FORTY-ONE VILLAS.", "side": "l"}
+      - {"who": "offpanel:eunchae", "type": "speech", "text": "HE WAS ALREADY ABROAD.", "side": "l"}
     notes: "The landlord who fled abroad is the bible's. The 'next tenant' promise and the many villas follow the pattern of real Korean jeonse-fraud cases. It rhymes with Taeo's 'WHEN IT SELLS' (P08); nobody says so."
 
   - id: P21
@@ -417,13 +446,14 @@ panels:
     bg: white
     camera: "close-up, Eunchae, present day"
     art: >
+      Eunchae's face occupies the right third; Taeo is off frame left in the doorway.
       Present day, full colour again: close on Eunchae on the bed. Dry-eyed. Her mouth is a flat line and her thumb presses hard into the
       corner of a flashcard in her lap, bending it. Cold light.
     calm: left
     lines:
-      - {who: eunchae, type: speech, side: r, text: "MY PARENTS STILL PAY THE LOAN."}
-      - {who: eunchae, type: speech, side: r, text: "ON MONEY WE'LL NEVER SEE."}
-      - {who: taeo, type: speech, side: l, text: "...I'M SORRY."}
+      - {"who": "eunchae", "type": "speech", "text": "MY PARENTS STILL PAY THE LOAN.", "side": "r"}
+      - {"who": "eunchae", "type": "speech", "text": "FOR A DEPOSIT WE'LL NEVER GET BACK.", "side": "r"}
+      - {"who": "offpanel:taeo", "type": "speech", "text": "I'M SORRY.", "side": "l"}
 
   - id: P22
     shape: wide
@@ -431,14 +461,15 @@ panels:
     bg: white
     camera: "over Taeo's shoulder from the doorway, Eunchae holding up a flashcard"
     art: >
+      Eunchae sits left, Nib at centre; Taeo's speaking cheek is in the right foreground. Frame them from the waist up.
       Over Taeo's shoulder in the doorway (the back of his messy hair and his hoodie in the near foreground, right): Eunchae holds a flashcard
       up between two fingers like a quiz-show host, chin up, brisk again by force of will. Taeo's visible cheek has a sweat drop: caught
       completely off guard. Nib on the stool looks from her to the card. Card wall behind.
     calm: top-left
     lines:
-      - {who: eunchae, type: speech, side: l, text: "YOU SAY THAT TOO MUCH."}
+      - {who: eunchae, type: speech, side: l, text: "YOU SAY SORRY TOO MUCH."}
       - {who: eunchae, type: speech, side: l, text: "REHEATED FOOD. CORE TEMPERATURE?"}
-      - {who: taeo, type: nervous, side: r, text: "...WHAT?"}
+      - {who: taeo, type: nervous, side: r, text: "WHAT?"}
     notes: "Runner: Eunchae's exam flashcards at the worst moments (STORY_BIBLE §9)."
 
   - id: P23
@@ -447,12 +478,13 @@ panels:
     bg: white
     camera: "eye level, side-on across the room"
     art: >
+      Frame Eunchae left and Taeo right from the waist up; the card and bare square remain visible.
       Side-on: Eunchae flips the card to check the answer, then sticks it back into its row on the wall with a flat slap of her palm, as if
       filing the whole subject away. She talks while she does it, practical and unbothered, and finally looks straight at Taeo. Taeo in the
       doorway on the right, listening hard. The wall of cards fills the background; the bare square above the pillow is visible.
     calm: top
     lines:
-      - {who: eunchae, type: speech, side: l, text: "SEVENTY-FIVE DEGREES, ONE MINUTE. EXAM'S IN THREE WEEKS."}
+      - {who: eunchae, type: speech, side: l, text: "SEVENTY-FIVE DEGREES CELSIUS, ONE MINUTE. MY FOOD-LICENCE EXAM'S IN THREE WEEKS."}
       - {who: eunchae, type: speech, side: l, text: "NO DEPOSIT HERE. ₩350,000 A MONTH."}
       - {who: eunchae, type: speech, side: l, text: "NOBODY RUNS OFF WITH MONEY I NEVER HANDED OVER."}
     notes: "Food-safety fact: reheat to a core temperature of 75°C for at least one minute. Her food-licence exam is in three weeks; ch 28 has her fail the practical by 2 points."
@@ -485,19 +517,20 @@ panels:
     notes: "Kett's mark (motif). The view is Nib's watch post (ch 4: 'WALL HERE. TREE BEHIND IT. YOU COULD SEE THE LOWER PATH. AND THE WHITE BIT.'). Do not explain it."
 
   - id: P26
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "from beside the bed, looking up at the wall over the pillow"
     art: >
+      Eunchae sits left; Nib stands on the bed right; Taeo is behind them in the centre doorway.
       Nib, standing on the bed in his bare feet, reaches up and presses the card onto the one bare square of wall above Eunchae's pillow,
       smoothing it flat with his thumb. Eunchae, sitting below it, has turned to look up at it with her lips parted: undone for one second,
       the brisk face gone. Taeo in the doorway behind, very still. The grid of pale-yellow cards all around; the drawn window is the only
       thing on the wall that is not a rule to memorise.
     calm: top-right
     lines:
-      - {who: eunchae, type: speech, side: l, text: "...THAT'S A BETTER VIEW THAN THE ₩50,000 ONE."}
-      - {who: nib, type: speech, side: r, text: "IT'S MINE. I'M LENDING IT."}
+      - {who: eunchae, type: speech, side: l, text: "YOUR DRAWING HAS A BETTER VIEW THAN THE ₩50,000 WINDOW."}
+      - {who: nib, type: speech, side: r, text: "IT'S MY VIEW. I'M LENDING IT."}
     notes: "'LENDING': he means to take that view home one day. Let the reader find it. The drawing stays on her wall."
 
   - id: P27
@@ -510,16 +543,17 @@ panels:
     ui:
       - {kind: phone.ttok_chat, on: screen, hand: taeo_thumb_tap, title: "Landlord", clock: "14:51", date: "TODAY", messages: [{from: me, text: "Hello, this is Yoon Taeo, unit 402. Could you confirm in writing when my ₩1,600,000 deposit will be returned? Sorry to bother you.", time: "14:51"}]}
     lines:
-      - {who: "offpanel:eunchae", type: speech, side: r, text: "AND TAEO. GET HIS DATE IN WRITING. TODAY."}
+      - {who: "offpanel:eunchae", type: speech, side: r, text: "TAEO. GET THE DEPOSIT RETURN DATE IN WRITING. TODAY."}
     notes: "Eunchae calls it from her door as they leave; he is already typing on the gosiwon stairs. No reply in this chapter."
 
   # ---------------- THE STREET ----------------
   - id: P28
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low angle on the pavement outside the gosiwon building"
     art: >
+      Taeo stands centre, Nib ahead on the right; keep both figures at natural height.
       The street outside the gosiwon building (gosiwon_street) in mid-afternoon sun: a busy commercial side street near Hapjeong station.
       The building's ground floor has a small real-estate agency with its window plastered in white listing cards, a fried-chicken shop
       beside it and a PC bang sign above (all blank); on the third floor, a few small frosted windows far apart.
@@ -538,6 +572,7 @@ panels:
     bg: white
     camera: "over Nib's shoulder at the agency window, close"
     art: >
+      Frame Nib left and Taeo right from the waist up, listing card between them.
       Over Nib's shoulder at the real-estate agency's window, close. A gag in normal style: Nib has his binoculars pressed to his eyes, aimed
       at a listing card about one metre away; Taeo beside him gives him a sideways look. Front and centre on the glass, one white listing card
       with a big blank space, a small photo of a fenced, weedy concrete yard with a shed, and a bright star-shaped sticker in its corner
@@ -548,8 +583,8 @@ panels:
       - {kind: label, text: "CHEAPEST YARD IN THE ZONE!\nDEPOSIT ₩40,000,000", at: [0.52, 0.56], size: 24, rot: -2, color: "#1d1917", notes: "on the front listing card's blank space"}
     lines:
       - {who: nib, type: speech, side: l, text: "HOW MUCH IS FORTY MILLION?"}
-      - {who: taeo, type: speech, side: r, text: "...ABOUT FOUR THOUSAND OF MY LUNCHES."}
-      - {who: taeo, type: float, text: "I HAD FOUR PERCENT OF THAT. IF HE PAYS ME BACK."}
+      - {who: taeo, type: speech, side: r, text: "ABOUT FOUR THOUSAND OF MY LUNCHES."}
+      - {who: taeo, type: float, text: "MY DEPOSIT WAS FOUR PERCENT OF THE YARD DEPOSIT. IF MY LANDLORD PAYS ME BACK."}
       - {who: narr, type: footnote, text: "*₩40,000,000 ≈ US$29,000"}
     notes: "The beat 'the cheapest yard in a gate zone needs a ₩40,000,000 deposit'. Callback to ch 4: ₩50,000,000 was 'ABOUT FIVE THOUSAND OF MY LUNCHES' (a ₩10,000 lunch). Runner: Taeo's won counter (₩1,600,000 is 4% of ₩40,000,000)."
 
@@ -559,6 +594,7 @@ panels:
     bg: white
     camera: "close two-shot: Nib lowering the binoculars, Taeo above him"
     art: >
+      Crop to both faces: Nib right, Taeo above him on the left.
       Close two-shot: Nib lowers the binoculars and looks up at Taeo with a perfectly flat deadpan, the faintest glint of a dark joke in his
       amber eyes. Taeo looks down at him with his mouth open, appalled, at the very start of a laugh he is refusing. The agency window's
       reflections behind them, simplified.
@@ -571,11 +607,12 @@ panels:
 
   # ---------------- THE SURVEY ----------------
   - id: P31
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "establishing, high angle from across the street over a row of emptied villas"
     art: >
+      Minho briefs Taeo and Nib on the right of the steps; Haein carries her table down at the left.
       A redevelopment block in Seongsan-dong, Mapo-gu (seongsan_redevelopment) in late-afternoon sun: a row of emptied four-storey red-brick
       villas waiting for demolition, their windows crossed with X's of packing tape or boarded up; a sofa and a child's plastic slide abandoned
       in a car park; front doors left open. On the nearest wall, one red spray-painted circle with a cross through it (no letters): the only
@@ -589,7 +626,7 @@ panels:
     calm: top
     lines:
       - {who: narr, type: tag, text: "SEONGSAN-DONG, MAPO-GU · 3:50 PM"}
-      - {who: minho, type: speech, side: r, text: "D-GRADE. A CAVE. WE MAP TO THE BOSS'S EDGE AND BACK. NINETY MINUTES."}
+      - {who: minho, type: speech, side: r, text: "D-GRADE CAVE. NINETY-MINUTE LIMIT. FORTY-MINUTE CHECK-IN. MAP TO THE BOSS'S EDGE, THEN COME BACK."}
       - {who: haein, type: speech, side: l, text: "THE DEVELOPER WANTS IT CLEARED BY FRIDAY. THEN THE DIGGERS."}
     notes: "Ryu Survey has two vans left. Nib is on his day rate (₩60,000, ch 10); Taeo is the unpaid radio trainee and stays outside. Nobody comments on the emptied street."
 
@@ -599,6 +636,7 @@ panels:
     bg: white
     camera: "in the basement corridor, low, beside the storeroom doorway"
     art: >
+      Frame crouched Taeo right and standing Nib left from the knees up, their eyes level.
       The basement corridor of the middle villa (seongsan_redevelopment): bare concrete, pipes, a tripod work lamp throwing hard white light,
       Haein's folding radio table against the left wall with two radios, a battery box and a battered analogue gauge. At the corridor's end the
       storeroom's steel door hangs open, and standing inside its steel frame is the gate: a door-height black-violet slit (#1A1026) with a
@@ -610,7 +648,7 @@ panels:
     calm: top
     lines:
       - {who: taeo, type: speech, side: r, text: "NIB. BEFORE YOU GO."}
-      - {who: taeo, type: speech, side: r, text: "THE LINK. ...CAN I?"}
+      - {who: taeo, type: speech, side: r, text: "MAY I USE OUR LINK FOR THE SURVEY?"}
     notes: "'1. ASK FIRST.' (ch 21) applied: the link works only when the companion permits it (STORY_BIBLE §5). Lock this corridor for P35, P37, P41, P42: the table on the left wall, the doorframe with the pencil marks, the lamp behind the table."
 
   - id: P33
@@ -619,12 +657,13 @@ panels:
     bg: white
     camera: "close-up on Nib at the threshold, at Taeo's crouching eye level"
     art: >
+      Nib's face occupies the left third; Taeo remains off frame right.
       Close on Nib at the threshold, the gate's cold rim light along one cheek and the lime spill on the other. He looks at Taeo's open palm,
       then at Taeo, for a long measuring beat. Not forgiving; not refusing. Ears level; the small lower fang on the left just showing;
       binoculars on his chest.
     calm: right
     lines:
-      - {who: nib, type: speech, side: l, text: "...FOR WORK."}
+      - {who: nib, type: speech, side: l, text: "FOR WORK."}
 
   - id: P34
     shape: strip
@@ -661,6 +700,7 @@ panels:
     bg: white
     camera: "establishing, wide, inside the gate from a salt ledge"
     art: >
+      Minho and the crew are on the left below the ledge; Nib crouches on the right.
       Inside the gate (salt_iron_cave): a vast cave of salt. Walls and columns of white and pale-grey salt crystal, faceted, veined through
       with dark rust-red iron like rebar in broken concrete. Black-green brine pools on the floor, each with slow rings spreading on its surface
       in the same rhythm, as if something is breathing. High overhead a sinkhole opens on a WRONG sky: a flat, saturated lime-yellow noon sky
@@ -671,7 +711,7 @@ panels:
     calm: top
     lines:
       - {who: minho, type: speech, side: l, text: "PIN EVERY TWENTY METRES. TOUCH NOTHING."}
-      - {who: nib, type: speech, side: r, text: "IT'S BREATHING."}
+      - {who: nib, type: speech, side: r, text: "THE BOSS IS BREATHING."}
     notes: "Motif: the wrong-coloured sky. Salt-iron is a kind of fragment Taeo has not integrated before."
 
   - id: P37
@@ -680,6 +720,7 @@ panels:
     bg: white
     camera: "medium close on Taeo at the radio table"
     art: >
+      Taeo's face and torso occupy the left third, Haein sits at the right frame edge; keep both visible.
       Outside, at the radio table in the basement corridor: the radio in front of Taeo hisses with empty static, its little light blinking;
       his trainee's clipboard log lies beside it with the pen dropped on it. Haein, perched on the table edge with her plain black stopwatch
       running in one hand, fiddles with an antenna without hope. Taeo, in the borrowed red-orange vest, is not looking at the radio: he sits
@@ -696,6 +737,7 @@ panels:
     bg: white
     camera: "low, over Nib's shoulder at the edge of the spike field"
     art: >
+      Nib lies in the left foreground, Minho crouches right; crop both from the waist up.
       Inside. From low behind Nib, who lies on his belly on the salt at the edge of the boss's ground: ahead, a field of rust-red iron spikes
       juts out of the salt like the back of a buried giant urchin, motionless. At the field's very edge stands a salt column, and embedded in
       it at knee height is a fist-sized crystal, salt-white with a dark iron heart. It does not glow. Nib has lowered his binoculars and points
@@ -708,18 +750,19 @@ panels:
     notes: "Anchor fragments lie in the ground round a boss territory and are taken during the approach, while the boss lives (STORY_BIBLE §5). Finder's share (ch 18): it is Nib's."
 
   - id: P39
-    shape: strip
+    shape: wide
     gap: short
     bg: black
-    camera: "close, side-on: Nib's knife in the salt column, a brine pool behind him"
+    camera: "medium close-up, side-on: Nib at the salt column with the brine pool behind"
     art: >
+      Nib's face, hands, knife and crystal are visible left, framed from the waist up. Minho is off frame right.
       Side-on and close: Nib's knife blade levers the crystal out of the salt column, grains spraying in hard white flecks; the crystal drops
       into his olive-green palm. Behind him the surface of a brine pool has gone completely glass-still: the rings have stopped, and his own
       reflection lies flat in it. His ears are swivelling back toward the spike field. Lime light, violet shadow.
     calm: center
     lines:
-      - {who: minho, type: whisper, side: r, text: "...IT STOPPED BREATHING."}
-      - {who: nib, type: whisper, side: l, text: "IT'S LISTENING."}
+      - {"who": "offpanel:minho", "type": "whisper", "text": "THE BOSS STOPPED BREATHING.", "side": "r"}
+      - {"who": "nib", "type": "whisper", "text": "IT'S LISTENING.", "side": "l"}
     sfx:
       - {text: "KRIK", style: quiet, at: [0.40, 0.40], size: S, rot: -10}
 
@@ -729,6 +772,7 @@ panels:
     bg: black
     camera: "low angle in front of the running team, the spike field rising behind them"
     art: >
+      Minho runs at centre behind Nib at the right front; keep each running body uncompressed.
       The spike field HEAVES. Iron spikes as tall as a man rise out of the salt in a wave, like hackles on a giant's back, salt crust bursting
       off them in hard white chunks; their tips catch a hard red glint, the one red in the panel. Something enormous is under them, never seen.
       In the foreground the team runs toward us along the orange-flagged pins: Minho has grabbed a crew member by the vest and hauls him,
@@ -748,6 +792,7 @@ panels:
     bg: white
     camera: "in the basement corridor, side-on at the doorframe"
     art: >
+      Frame Taeo left and Haein behind on the right from the knees up; keep his knocking hand and jamb visible.
       Outside, side-on at the storeroom doorframe: the amber spot in Taeo's RIGHT palm has flared hard, a crisp burst of #F2A93B with a few
       sharp impact lines, and he (in the borrowed red-orange vest) is already up from the table and at the frame, rapping the knuckles of his LEFT hand on the steel jamb beside
       the child's pencil height marks, his right hand open at his side, his whole face open with fear. Behind him Haein is half out of her
@@ -779,17 +824,18 @@ panels:
     notes: "Three knocks from inside mean 'coming' (gate-style SFX because they come through the gate, as ch 11 P34). Nib's new return mark fades outside. Everyone is out unhurt, about 4:25 PM, before the forty-minute check-in. Echo of ch 11 (Taeo sits down hard on the kerb)."
 
   - id: P43
-    shape: inset-r
+    shape: wide
     gap: short
     bg: white
     camera: "close two-shot at floor level"
     art: >
+      Crop to Taeo's face left and Nib's face right, keeping their full bodies outside this two-shot.
       Close two-shot at floor level: Nib stands over Taeo brushing salt off his arms, deadpan. Taeo, still sitting against the wall in the
       borrowed red-orange vest, looks up at him with a tired, knowing, slightly too pleased face. Nib's ears twitch back: caught.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: l, text: "YOU JUMPED. I FELT IT."}
-      - {who: nib, type: speech, side: r, text: "...I SAID FOR WORK."}
+      - {who: taeo, type: speech, side: l, text: "YOU WERE STARTLED. I FELT IT."}
+      - {who: nib, type: speech, side: r, text: "I SAID FOR WORK."}
 
   - id: P44
     shape: inset-l
@@ -798,22 +844,24 @@ panels:
     style: chibi
     camera: "chibi gag"
     art: >
+      Chibi Minho's head and shoulders occupy the left half, chibi Nib's the right.
       CHIBI gag. Chibi Minho (grey streak at his LEFT temple, brown jacket, headlamp askew) points deadpan at TWO new white hairs sprouting from
       his grey streak, each one sparkling. His other hand points at chibi Nib, who holds the crystal up with a dot-eyed blank face.
       Flat grey background with speed lines.
     calm: right
     lines:
-      - {who: minho, type: speech, side: l, text: "THAT ONE'S YOU."}
-      - {who: minho, type: speech, side: l, text: "THAT ONE'S THE ROCK."}
-    notes: "Minho's grey-streak runner (ch 7: 'THAT'S YOU. THAT ONE'S YOU.')."
+      - {who: minho, type: speech, side: l, text: "THIS WHITE HAIR'S YOU."}
+      - {who: minho, type: speech, side: l, text: "THIS WHITE HAIR'S THE ROCK."}
+    notes: "Minho's grey-streak runner (ch 7: 'THAT'S YOU. THIS WHITE HAIR'S YOU.')."
 
   # ---------------- THE ROOF: THE INVITATION ----------------
   - id: P45
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "establishing, high angle over the Ryu yard at sunset"
     art: >
+      On the roof Haein kneels left, Taeo sits left of centre, Nib sits centre-right and Minho stands right.
       The Ryu Survey yard (ryu_practice_yard) at sunset, from high above the fence: packed ochre dirt going brown, the plywood maze and its observation
       platform, the grey office container southwest with its short wheelchair ramp; beyond the northwest fence the workshop and its west stair. The fleet still has TWO white vans: one southeast facing west, the other at the northwest service bay; across the side-door
       seam of one, a fresh bright blue sticker with a simple white bird silhouette and a red paper seizure strip (as on the first van in ch 7),
@@ -835,14 +883,15 @@ panels:
     bg: white
     camera: "eye level on the roof, over Haein's shoulder"
     art: >
+      Crop from the waist up: Minho left, Taeo right, Nib at the far right edge, Haein's shoulder in the left foreground.
       On the roof at eye level, over Haein's shoulder (her safety glasses pushed up, the gauge in her lap): Minho, standing, glances at Taeo
       with dry sympathy. Taeo, on a crate with the wrapped crystal on his knees, does not look at it: he turns his whole body to Nib on the roof
       edge and asks properly. Sunset light warm on their faces from the left; cool blue shadow.
     calm: top
     lines:
       - {who: minho, type: speech, side: l, text: "THAT'S NEARLY A MONTH OF YOUR NEW RENT."}
-      - {who: taeo, type: speech, side: r, text: "IT'S HIS."}
-      - {who: taeo, type: speech, side: r, text: "NIB. WHAT DO YOU WANT TO DO WITH IT?"}
+      - {who: taeo, type: speech, side: r, text: "THE CRYSTAL'S NIB'S."}
+      - {who: taeo, type: speech, side: r, text: "NIB. WHAT DO YOU WANT TO DO WITH THE CRYSTAL?"}
     notes: "The new rent is ₩630,000 (P09). ASK FIRST."
 
   - id: P47
@@ -851,12 +900,13 @@ panels:
     bg: white
     camera: "close-up on Nib on the roof edge, the low sun behind him"
     art: >
+      Nib's face occupies the left third.
       Close on Nib on the roof edge, the low sun rimming his ears and spiky hair in warm orange. He looks at the crystal, then straight at
       Taeo: serious and simple, ears forward. A plain sky behind him.
     calm: right
     lines:
-      - {who: nib, type: speech, side: l, text: "YOU SAID THE NEXT ONE ASKS."}
-      - {who: nib, type: speech, side: l, text: "I WANT TO SEE IT ASK."}
+      - {who: nib, type: speech, side: l, text: "YOU SAID THE NEXT SUMMON GETS ASKED."}
+      - {who: nib, type: speech, side: l, text: "I WANT TO SEE THE INVITATION."}
     notes: "ch 21: Chae and the interface manual show that contact windows invite from now on. v3: Nib takes part in the first invitation."
 
   - id: P48
@@ -891,7 +941,7 @@ panels:
     sfx:
       - {text: "DING", style: summon, at: [0.88, 0.08], size: M, rot: 0}
     lines:
-      - {who: taeo, type: speech, side: l, text: "...IT'S ASKING ME."}
+      - {who: taeo, type: speech, side: l, text: "THE INTERFACE IS ASKING TO INTEGRATE THE CRYSTAL."}
       - {who: nib, type: speech, side: r, text: "THEN ANSWER."}
     notes: "The window repeats ch 19's format (P53 there: '[KIND: STONE (NEW)]', '[ROUTE ALIGNMENT 0%]', '[INTEGRATE?]'). The meter stands at 50% from ch 19."
 
@@ -901,6 +951,7 @@ panels:
     bg: white
     camera: "low angle up at Taeo against the dusk sky"
     art: >
+      Frame Taeo centre, Haein left and Minho right from the waist up; keep upper half clear for windows.
       Low angle: Taeo's right fingertip has just tapped the air (the button: a flat plane of cyan light with tiny hard ripple lines, no
       markings), and in his open LEFT palm the crystal turns translucent and SINKS into the skin like a stone into still water, leaving one
       hard cyan ring rippling out across his palm; the palm itself stays unmarked. His head is tipped back toward the empty air above him:
@@ -914,8 +965,8 @@ panels:
       - {text: "HMMMMMN", style: summon, at: [0.08, 0.56], size: M, rot: 90}
       - {text: "DING", style: summon, at: [0.90, 0.26], size: M, rot: 0}
     lines:
-      - {who: taeo, type: speech, side: c, text: "...A HUNDRED PERCENT."}
-      - {who: haein, type: speech, side: l, text: "IT'S GONE. MY GAUGE IS PINNED."}
+      - {who: taeo, type: speech, side: c, text: "ROUTE ALIGNMENT. A HUNDRED PERCENT."}
+      - {who: haein, type: speech, side: l, text: "THE CRYSTAL'S GONE. MY GAUGE IS PINNED."}
     notes: "Route alignment window 2 (STORY_BIBLE §5): stone (ch 19, 50%) + salt-iron (here, +50%) = 100%. Integration as ch 19 P54–P56: tap, the fragment sinks into the palm (HMMMMMN), the notices cascade. The others see the glow and the crystal vanish, never the windows."
 
   - id: P51
@@ -925,6 +976,7 @@ panels:
     camera: "front on Taeo from slightly above, his face in the lower half looking up"
     focus: [0.5, 0.6]
     art: >
+      Taeo's face is centred; Haein speaks from off frame left, with only her hand visible.
       BIG REACTION. The upper half of the frame is empty deep navy (#0B1530) with hard focus lines converging on its centre: the letterer
       floats the contact window there, so keep it clear. Lower half: Taeo's face and shoulders, close and front on, tipped up toward that
       window: he has half stood up off the crate, eyes huge, pupils pinpricks, two small cyan squares reflected in them, mouth open, cyan light
@@ -936,8 +988,8 @@ panels:
     sfx:
       - {text: "DU-DUN", style: summon, at: [0.88, 0.12], size: L, rot: 0}
     lines:
-      - {who: taeo, type: nervous, side: c, text: "I-IT'S OPEN. IT'S COUNTING DOWN—"}
-      - {who: haein, type: speech, side: l, text: "WHAT IS?"}
+      - {"who": "taeo", "type": "nervous", "text": "THE INVITATION WINDOW'S OPEN. I HAVE ONE MINUTE.", "side": "c"}
+      - {"who": "offpanel:haein", "type": "speech", "text": "WHO ARE YOU INVITING?", "side": "l"}
 
   - id: P52
     shape: bleed
@@ -957,11 +1009,12 @@ panels:
     notes: "The candidate's identity is deliberately left open: wings only, no face or species detail. The firelight says they have somewhere to be. The decline itself is logged at P56."
 
   - id: P53
-    shape: wide
+    shape: tall
     gap: none
     bg: navy
     camera: "side-on two-shot: Taeo leaning toward the empty air, Nib beside him"
     art: >
+      Taeo stands left, Nib right; leave vertical room for both full bodies.
       Side-on on the roof, the world around them dimmed to navy dusk: Taeo leans toward the empty air in front of him, both hands open at his
       sides, whispering, his face soft and frightened and polite all at once: someone talking to a stranger through a door. Nib has stood up
       on the roof beside him, and his long ears have turned toward Taeo's voice. Cyan light on Taeo's face only.
@@ -984,7 +1037,7 @@ panels:
     calm: left
 
   - id: P55
-    shape: wide
+    shape: full
     gap: short
     bg: navy
     silent: true
@@ -1002,6 +1055,7 @@ panels:
     bg: white
     camera: "medium, front on Taeo from slightly below, deep blue sky above him"
     art: >
+      Frame Taeo centre, Minho left and Haein right from the waist up.
       Back on the roof in real dusk colour. The upper half of the frame is clear deep blue sky (the letterer stacks two window bars there).
       Lower half: the cyan has gone out of Taeo's face. He stands with his hands still a little raised, his shoulders dropping, staring up at
       the empty air where the window was: not crushed, emptied. Behind him, lower in the frame, Minho and Haein look at each other.
@@ -1014,7 +1068,7 @@ panels:
       - {text: "DING", style: summon, at: [0.88, 0.10], size: S, rot: 0}
     lines:
       - {who: taeo, type: float, text: "I WANTED A YES SO BADLY."}
-      - {who: taeo, type: speech, side: c, text: "...THEY SAID NO."}
+      - {who: taeo, type: speech, side: c, text: "THEY SAID NO."}
     notes: "PLANT P10: the first invitation is DECLINED (F04). The refusal consumes the window; no one is charged or punished (v3). For ledger/PLANTED.md: ch 22, P56, [INVITATION DECLINED]."
 
   - id: P57
@@ -1023,6 +1077,7 @@ panels:
     bg: white
     camera: "low angle on Nib against the dusk sky"
     art: >
+      Frame Nib centre from the waist up; Taeo remains off frame.
       Low angle: Nib stands on the workshop roof against the darkening sky, the early star above his shoulder, binoculars on his chest,
       looking at Taeo off frame. His deadpan has cracked into something fierce and quiet: vindication, and a relief he would never call relief.
       One hand closed at his side. Lantern light warm on his face from below.
@@ -1033,11 +1088,12 @@ panels:
     notes: "Nib was taken without being asked (ch 19–21). That is why the refusal matters to him."
 
   - id: P58
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "high angle over the workshop roof, all four"
     art: >
+      Taeo sits left, Haein right; Minho is behind her at the stair rail, Nib at the roof edge behind Taeo.
       High angle over the workshop roof: the four of them round the lantern and the cooling cup noodles. Taeo sits back down on his crate,
       rubbing his face with both hands. Haein, cross-legged, peels the fobs off his wrists and squints at her gauge, doing sums in her head.
       Minho leans on the stair rail. Nib still stands at the roof edge. Leave clear air above Taeo for one faded window. Deep blue dusk;
@@ -1046,7 +1102,7 @@ panels:
     ui:
       - {kind: system.notice_small, on: float, text: "[ROUTE ALIGNMENT 0%]", at: [0.36, 0.10]}
     lines:
-      - {who: taeo, type: speech, side: l, text: "BACK TO ZERO."}
+      - {who: taeo, type: speech, side: l, text: "ROUTE ALIGNMENT IS BACK TO ZERO."}
       - {who: haein, type: speech, side: r, text: "SO EVERY 'NO' COSTS YOU TWO FRAGMENT RUNS?"}
       - {who: taeo, type: speech, side: l, text: "YES."}
     notes: "The meter resets after a window (STORY_BIBLE §5). Window 3 needs two new kinds (ch 23: terrace clay and copper moss; repeat kinds add 0%, P11)."
@@ -1057,6 +1113,7 @@ panels:
     bg: white
     camera: "from roof level just behind Taeo's shoulder toward Nib, the yard below"
     art: >
+      Taeo's shoulder is lower left, Nib at centre, Minho right and Haein beside the lantern left.
       THE HOOK. Tall, from roof level just behind Taeo's shoulder (his messy hair and hoodie in the near foreground, lower left).
       Upper half: Nib at the roof edge, against the deep blue sky and its one early star, raises his cup noodle toward Taeo like a toast,
       completely deadpan, his eyes kind. Haein beside the lantern has burst out laughing; Minho at the stair rail gives a short laugh through

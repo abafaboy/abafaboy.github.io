@@ -55,6 +55,7 @@ panels:
       will cover them, leaving only the tops of their heads and the crates showing. That is the point of the panel.
       Palette: warm late sun, the render's glossy sky blue and white, charcoal and steel; the porters' hi-vis yellow-green is the only saturated note.
       Flat cel colour, hard shadows. No TV frame, no channel graphics, no letters anywhere, no blood, no ambulance (the camera faces away from it).
+      The reporter's face and microphone stay in the left third.
     calm: top-left
     ui:
       - {kind: tv.lowerthird, on: panel, text: "IRONCLAD SEVEN CLEARS GURO GATE — NO CASUALTIES", ticker: "GMA CLEAR REPORT · HUNTER CASUALTIES: 0 · GURO-GU C-GRADE GATE CLOSED AT 16:00:30"}
@@ -63,7 +64,7 @@ panels:
     notes: "The footage is ch 17's camera setup and stand-up (P44, P56) from the KNN camera's side. The lower third sits over the porters on purpose: 'the porters aren't mentioned' is shown, not said. The ticker's 'HUNTER CASUALTIES: 0' is the only place the counting rule shows; it sits first so the clipped ticker keeps it. No line on the TV ever says 'porter'. The boss died at 4:00 PM; automatic returns and gate closure followed at 16:00:30 (ch 17)."
 
   - id: P02
-    shape: wide
+    shape: tall
     gap: short
     bg: black
     camera: "pull back: the ER waiting area from the opposite corner, slightly high"
@@ -80,13 +81,14 @@ panels:
       In the next row, small: the boy with the cast and his mother (extras.boy, extras.mother); further off the er_patients. The double doors to treatment at the right.
       Palette: cold blue-white and pale slate; Dami's yellow-green vest is the only saturated note. Nib is a weathered adult, not cute.
       No readable signs, no blood beyond the dried line under Taeo's nose.
+      Taeo sits on the left, Dami in the centre, and Nib on the right. The unseen reporter's voice comes from the TV at upper left. Give the seated trio room below the television.
     calm: top-right
     ui:
       - {kind: tv.lowerthird, on: screen, text: "IRONCLAD SEVEN CLEARS GURO GATE — NO CASUALTIES", ticker: "GMA CLEAR REPORT · HUNTER CASUALTIES: 0 · GURO-GU C-GRADE GATE"}
     lines:
-      - {who: narr, type: tag, text: "GURO-GU · 7:12 PM"}
-      - {who: reporter, type: phone, side: l, text: "ALL SEVEN HUNTERS CAME HOME. A CLEAN CLEAR. NO CASUALTIES."}
-      - {who: taeo, type: float, text: "THEY READ OUT SEVEN NAMES."}
+      - {who: "narr", type: "tag", text: "GURO-GU · 7:12 PM"}
+      - {who: "offpanel:reporter", type: "phone", side: "l", text: "ALL SEVEN HUNTERS CAME HOME. A CLEAN CLEAR. NO CASUALTIES."}
+      - {who: "taeo", type: "float", text: "THEY READ OUT SEVEN NAMES."}
     notes: "About two and a quarter hours after ch 17's hook. Dami was refused the ambulance ride at ch 17 P36. She followed to hospital WITH Taeo and Nib after the 5:00 PM signing. 'A CLEAN CLEAR. NO CASUALTIES.' is the reporter's ch 17 line, now on air. The folded invoice is in Taeo's jacket (seen in P53)."
 
   - id: P03
@@ -111,6 +113,7 @@ panels:
       Amber eyes flat and unimpressed, mouth a hard line, the small lower fang showing on the left; dust in his spiky black hair;
       the V-notch clear in the top of his LEFT ear; the crinkled edge of the silver foil blanket at his chin. A weathered adult soldier, not cute.
       Plain pale-slate background.
+      Nib's face is in the right third.
     calm: left
     lines:
       - {who: nib, type: speech, side: r, text: "THEY CAN'T COUNT."}
@@ -147,6 +150,7 @@ panels:
       In the next row the boy (extras.boy) bounces in his seat, holding the phone up to his exhausted mother (extras.mother) with his good hand,
       face blazing with hero worship; the mother, mid-sigh, does not look at the screen. At the right edge Taeo (taeo, outdoor), slumped,
       turns his head to watch the boy: a tired, unreadable face. Simplified waiting-room background, cold fluorescent light.
+      Frame everyone from the waist up. Dami's shoulder is at far left; the boy sits in the centre and his mother to his right, with Taeo's watching face at the far right edge.
     calm: top
     lines:
       - {who: boy, type: shout, side: c, text: "MUM! IRONCLAD SEVEN'S NUMBER ONE! I'M GOING TO BE A HUNTER!"}
@@ -183,7 +187,7 @@ panels:
 
   # ---------------- THE BAY: Kwak ----------------
   - id: P10
-    shape: wide
+    shape: tall
     gap: long
     bg: white
     camera: "from the waiting area's double doors, looking down the treatment corridor"
@@ -192,23 +196,25 @@ panels:
       Halfway down, the nurse (extras.nurse) stands at one bay's curtain, clipboard raised, calling up the corridor.
       In the foreground Dami is already on her feet and moving, the hard hat forgotten in her hand; behind her Taeo is half out of his chair,
       and Nib drops lightly from his seat to the floor. Cold blue-white light, slate shadows.
+      The nurse is on the right by the curtain. Dami moves from the left foreground toward her; Taeo and Nib follow on the left. Show their bodies without compressing the corridor.
     calm: top
     lines:
       - {who: nurse, type: shout, side: r, text: "GUARDIAN FOR KWAK MANSU?"}
 
   - id: P11
-    shape: inset-r
+    shape: tall
     gap: short
     bg: white
-    camera: "medium close-up at the curtain gap"
+    camera: "medium two-shot at the curtain gap, Dami and the nurse"
     art: >
       The nurse (extras.nurse) blocks a gap in the mint curtain with her clipboard, firm and tired; Dami (dami) in front of her, small and dusty,
       one gloved hand gripping the curtain edge, chin up, pleading. Simplified corridor behind.
+      Dami stands on the left and the nurse on the right. Frame both from the knees up, with both faces visible.
     calm: left
     lines:
-      - {who: nurse, type: speech, side: r, text: "ONE GUARDIAN ONLY."}
-      - {who: dami, type: speech, side: l, text: "HE'S GOT NOBODY HERE. THEY'RE WHY HE'S ALIVE."}
-      - {who: nurse, type: speech, side: r, text: "...FIVE MINUTES."}
+      - {who: "nurse", type: "speech", side: "r", text: "ONE GUARDIAN ONLY."}
+      - {who: "dami", type: "speech", side: "l", text: "MR. KWAK HAS NOBODY HERE. TAEO AND NIB SAVED HIM. PLEASE."}
+      - {who: "nurse", type: "speech", side: "r", text: "FIVE MINUTES."}
 
   - id: P12
     shape: full
@@ -236,12 +242,13 @@ panels:
     art: >
       Kwak (mansu) close on the pillow, the cannula under his nose, turning his head toward Nib (off-frame, low). A slow smile that crinkles his eyes;
       his breath is short. Pale mint curtain behind, simplified.
+      Kwak's face is on the left.
     calm: right
     lines:
-      - {who: mansu, type: whisper, side: l, text: "THERE HE IS. THE ONE WHO LOOKED."}
+      - {who: "mansu", type: "whisper", side: "l", text: "NIB. YOU CAME LOOKING FOR ME."}
 
   - id: P14
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "over Kwak's shoulder on the pillow toward the bedside"
@@ -249,28 +256,30 @@ panels:
       Over Kwak's shoulder and the back of his head on the pillow (mansu, left foreground, the cannula tube looped over his ear).
       Beyond him at the bedside: Dami looks away at the curtain, lips pressed tight; Taeo (taeo, outdoor) meets Kwak's eyes and makes himself answer;
       Nib between them, lower, watching Kwak. Cold light, simplified background.
+      Kwak's head is on the left in the foreground, Dami stands centre-left, Nib in the centre, and Taeo on the right. Frame the standing visitors from the knees up.
     calm: top-right
     lines:
       - {who: mansu, type: speech, side: l, text: "DID THE NEWS SAY MY NAME?"}
       - {who: taeo, type: speech, side: r, text: "...NO."}
 
   - id: P15
-    shape: strip
+    shape: full
     gap: short
     bg: white
-    camera: "a two-face strip: Kwak on the left, Dami on the right"
+    camera: "medium two-shot across the bedside, Kwak and Dami"
     art: >
       A horizontal strip of two faces. Left: Kwak (mansu), a wry, pained grin, one eyebrow up, the cannula under his nose. Right: Dami (dami), furious and tearful,
       eyes brimming, mouth open. Flat pale background split by one diagonal band of slate shadow.
+      Keep Kwak on the left and Dami on the right, both visible from the waist up at the bedside. Preserve the wry grin and Dami's furious tears.
     calm: none
     lines:
-      - {who: mansu, type: speech, side: l, text: "NO CASUALTIES? ...THEN I'M FINE."}
-      - {who: dami, type: intense, side: r, text: "THAT'S NOT FUNNY."}
-      - {who: mansu, type: speech, side: l, text: "IT'S A LITTLE FUNNY."}
+      - {who: "mansu", type: "speech", side: "l", text: "THE NEWS SAYS NO CASUALTIES? THEN I MUST BE FINE."}
+      - {who: "dami", type: "intense", side: "r", text: "THAT'S NOT FUNNY."}
+      - {who: "mansu", type: "speech", side: "l", text: "IT'S A LITTLE FUNNY."}
     notes: "Kwak's 'it's fine' habit is from ch 13 ('MY INHALER'S IN MY JACKET. IT'S FINE.')."
 
   - id: P16
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "side view of the bed at standing height"
@@ -278,9 +287,11 @@ panels:
       Side view of the bed. Kwak (mansu) lifts his IV hand weakly toward the clear plastic belongings bag; Dami has picked it up and holds it open
       on the blanket; Kwak's other hand is already inside it, drawing out a pair of battered knee pads by their straps. His folded work clothes, the back brace
       and a pair of dusty boots show through the plastic. Nib and Taeo watch from the foot of the bed. Cold light.
+      Kwak lies on the left, Dami holds his bag open in the centre, and Nib and Taeo watch on the right. Give the bed and standing visitors vertical room.
     calm: top
     lines:
-      - {who: mansu, type: speech, side: l, text: "DAMI. MY BAG."}
+      - {who: "mansu", type: "speech", side: "l", text: "DAMI. OPEN MY BELONGINGS BAG."}
+      - {who: "mansu", type: "speech", side: "l", text: "I TOLD YOU TO GET KNEE PADS, SON."}
 
   - id: P17
     shape: strip
@@ -291,11 +302,10 @@ panels:
       Extreme close-up: Kwak's thick, scarred, work-cracked hands, the IV cannula taped on the back of the left one, holding out two battered knee pads by
       their straps: black hard-plastic caps cracked and scuffed white at the edges, the foam flattened, the elastic straps frayed, one strap mended with silver tape.
       They are held toward the right of the frame, toward someone small. Hard cel light. Nothing else in frame.
+      Kwak's hands enter from the left; his face remains outside the frame to the left.
     calm: none
     lines:
-      - {who: mansu, type: speech, side: l, text: "I TOLD YOU TO GET KNEE PADS, SON."}
-      - {who: mansu, type: speech, side: l, text: "THIRTY YEARS ON MY KNEES IN OTHER PEOPLE'S GATES."}
-      - {who: mansu, type: speech, side: l, text: "TAKE THEM."}
+      - {who: "offpanel:mansu", type: "speech", side: "l", text: "THIRTY YEARS IN OTHER PEOPLE'S GATES. TAKE MY KNEE PADS."}
     notes: "Callback to ch 13 P26-P27 ('GET YOURSELF SOME KNEE PADS.' / Nib: 'I'M SHORT.'); Kwak calls everyone 'son' (ch 13). Thirty years: gates have opened for 31 (STORY_BIBLE §5), so he has portered since he was about 28. Whether he goes back to portering is left open (ch 13: Dokgo 'doesn't pick wheezers', and the asthma is on the record now)."
 
   - id: P18
@@ -306,6 +316,7 @@ panels:
     art: >
       Nib (nib) at the bedside, his head level with the mattress, the foil blanket on his shoulders, arms at his sides, not reaching for the knee pads
       held out at the left edge of frame. A level amber gaze, dust in his hair, the notched left ear. Proud, not cold. A weathered adult. Plain mint background.
+      Nib's face is on the right, Kwak's offered knee pads enter from the left.
     calm: left
     lines:
       - {who: nib, type: speech, side: r, text: "I WAS PAID."}
@@ -317,12 +328,13 @@ panels:
     camera: "close-up, Kwak, straight on"
     art: >
       Kwak (mansu) close, straight on: the smile gone, his eyes steady, kind and very firm. The cannula, the bruised cheekbone. Plain pale background.
+      Kwak's face is in the left third.
     calm: right
     lines:
       - {who: mansu, type: speech, side: l, text: "NOT BY ME."}
 
   - id: P20
-    shape: wide
+    shape: full
     gap: short
     bg: white
     silent: true
@@ -346,7 +358,7 @@ panels:
     notes: "Motif: the amber pulse. Nib lets Taeo feel how hard he is holding them; nobody comments."
 
   - id: P22
-    shape: inset-r
+    shape: tall
     gap: short
     bg: white
     style: chibi
@@ -356,12 +368,13 @@ panels:
       onto his leg: on him it covers everything from ankle to hip like a knight's greave. Chest out, the silver foil blanket flaring behind him like a knight's cape,
       he holds the second pad up like a shield. Same locks: notched left ear, brown rope belt, pouch on the right hip, wooden sheath on the left hip, barefoot.
       Flat pale-mint background with screentone dots.
+      Keep Nib's entire chibi figure in the right third with room above his ears and below the oversized knee pad.
     calm: left
     lines:
       - {who: nib, type: speech, side: r, text: "GOOD ARMOUR."}
 
   - id: P23
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "wide, from the curtain gap"
@@ -370,6 +383,7 @@ panels:
       one hand on his ribs; Dami laughs and cries at once, steadying his shoulder; Taeo (taeo, outdoor) smiles his rare lopsided smile;
       Nib (normal style, foil cape, NOT wearing the pads) holds the knee pads against his chest. In the foreground the nurse's head pokes in through the curtain, deadpan.
       Cold light, warmed by the faces.
+      The nurse's speaking face is centred in the curtain gap. Frame the visitors from the knees up beside the bed, rather than shrinking whole figures.
     calm: top
     lines:
       - {who: nurse, type: speech, side: c, text: "FIVE MINUTES WAS FIVE MINUTES AGO."}
@@ -389,7 +403,7 @@ panels:
     notes: "Why Taeo works a weeknight at all: since ch 5 and ch 9 he has had weekend days only, and Eunchae has covered nights beside the stocker. Tonight is the store's last staffed night and Taeo's last weeknight. He texted at 17:06, right after signing the invoice at the kerb (ch 17)."
 
   - id: P25
-    shape: vignette
+    shape: tall
     gap: long
     bg: navy
     camera: "inside a Line 2 car on the river bridge, three-quarter view toward the windows"
@@ -425,7 +439,7 @@ panels:
       - {who: narr, type: tag, text: "HAPJEONG-DONG · 10:04 PM"}
 
   - id: P27
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "from behind the counter, Eunchae in the foreground, toward the door"
@@ -434,6 +448,7 @@ panels:
       the grey-green vest with a blank name tag), a handheld barcode scanner in one hand and a stock clipboard in the other, doing a double take, eyebrows up.
       Just inside the door Taeo (still in his navy jacket, dusty, the tissue in his nose) gives a sheepish half wave; Nib beside him, grey with dust, the knee pads under his arm.
       The kiosk by the door, screen dark; the red sale tag on the promo end cap is the only saturated note. Pale fluorescent green-white light.
+      Taeo and Nib stand on the left by the door; Eunchae stands behind the counter on the right. Keep all their bodies comfortably in frame.
     calm: top-left
     lines:
       - {who: eunchae, type: speech, side: r, text: "YOU LOOK LIKE SOMETHING THE GOLEM DROPPED."}
@@ -441,7 +456,7 @@ panels:
       - {who: eunchae, type: speech, side: r, text: "WASH. THEN COUNT."}
 
   - id: P28
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "down aisle 2 from the drinks fridges, looking south toward the door, eye level"
@@ -450,9 +465,10 @@ panels:
       (the reverse of ch 1 P28's view). Taeo (taeo, work: the Hanbit Mart vest over the hoodie, nose washed, the plaster on his right palm) crouches,
       counting packet noodles with a handheld scanner. Right behind him the stocker (extras.stocker) bends with identical, perfect motions and nudges every pack
       he has just touched a millimetre straighter. Taeo looks back over his shoulder at it with a completely flat, deadpan face. Fluorescent green-white light.
+      Taeo crouches on the left; the stocker bends behind him on the right. Give the aisle and both bodies vertical room.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "...I WAS GOING TO DO THAT."}
+      - {who: "taeo", type: "speech", side: "l", text: "I WAS GOING TO STRAIGHTEN THOSE NOODLES."}
 
   - id: P29
     shape: wide
@@ -464,6 +480,7 @@ panels:
       A night interview at the Guro site: the Ironclad Seven leader (extras.ironclad: broad man in his thirties, buzz cut, gunmetal-grey armour vest and shoulder plates, black tactical wear, warhammer resting at his shoulder) in a medium close-up, helmet under his arm, an easy, genuinely pleased grin; a cluster of microphones with blank flags pokes in from the bottom right.
       Behind him, floodlights on the pit and the dark tower crane against a navy sky. He means every word.
       Keep the bottom fifth free of important detail. Floodlight white and night navy. No letters anywhere, no TV frame.
+      Keep the Ironclad leader's face on the left half of the interview frame.
     calm: top-left
     ui:
       - {kind: tv.lowerthird, on: panel, text: "IRONCLAD SEVEN • TEAM LEADER", ticker: "HUNTER CASUALTIES: 0 · GURO-GU GATE CLOSED · THREE NEW GATE ADVISORIES IN SEOUL TODAY"}
@@ -472,7 +489,7 @@ panels:
     notes: "This is the store's small TV above the cigarette shelves (seen in P30, where Nib answers it). The leader is partly right: the boss kill triggered the return marks (ch 17). He was not in the side gallery when Nib dragged Kwak out (ch 16), and his team arrived late (ch 16). Keep any line off the panel's top-right corner, where the letterer puts the KNN bug."
 
   - id: P30
-    shape: wide
+    shape: tall
     gap: long
     bg: white
     camera: "from just inside the glass door, looking north-east into the shop past Dokgo's shoulder"
@@ -484,12 +501,13 @@ panels:
       Right half of the frame: the counter running away from us, the cigarette shelves behind it and, high on its bracket above their north end, the small TV, screen: green.
       Nib sits on a blue plastic crate at the counter's far (north) end on the customer side, the knee pads on his lap, looking up at the TV; Taeo behind the counter.
       Fluorescent light; the black street reflected in the glass at the far left.
+      Dokgo stands on the left, Taeo behind the counter in the centre, and Nib sits at the counter's right end. Leave room for the standing figures and TV above.
     calm: top-left
     ui:
       - {kind: tv.lowerthird, on: screen, text: "IRONCLAD SEVEN • TEAM LEADER", ticker: "HUNTER CASUALTIES: 0 · GURO-GU GATE CLOSED"}
     lines:
-      - {who: narr, type: tag, text: "11:40 PM"}
-      - {who: nib, type: speech, side: r, text: "HE WASN'T THERE."}
+      - {who: "narr", type: "tag", text: "11:40 PM"}
+      - {who: "nib", type: "speech", side: "r", text: "THE IRONCLAD LEADER WASN'T IN THE GALLERY."}
     sfx:
       - {text: "JINGLE", style: quiet, at: [0.12, 0.22], size: S, rot: -8}
     notes: "Nib answers the TV leader (P29). Dokgo walks in under the hero on TV at that moment; he never went in either. He found the store through Minho (P33)."
@@ -504,28 +522,30 @@ panels:
       just set down by Dokgo's hand; Taeo's hands, on pure reflex, have already picked up the till scanner and are scanning its barcode;
       Dokgo's other hand lays a battered bank card on the counter. At the counter's edge, Nib's spiky head and notched left ear at counter height.
       The till, the card reader, a coffee cup. Fluorescent light, hard shadows.
+      Taeo's scanning hands enter from the right; his face is off-panel right.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "THAT'S TWELVE THOUSAND NINE HUNDRED."}
-      - {who: narr, type: footnote, text: "*₩12,900 ≈ US$9"}
+      - {who: "offpanel:taeo", type: "speech", side: "r", text: "TWELVE THOUSAND NINE HUNDRED WON."}
+      - {who: "narr", type: "footnote", text: "*₩12,900 ≈ US$9"}
     sfx:
       - {text: "BEEP", style: quiet, at: [0.66, 0.42], size: S, rot: 0}
 
   - id: P32
-    shape: inset-l
+    shape: full
     gap: short
     bg: white
-    camera: "medium close-up two-shot across the counter"
+    camera: "medium two-shot across the counter"
     art: >
       Across the counter: Dokgo (dokgo) pushes the gift box back toward Taeo with two fingers, eyes on the box, not on anyone;
       Taeo (taeo, work) holds the scanner, deadpan, eyebrows slowly rising. Simplified shelves behind.
+      Dokgo stands on the left, Taeo on the right. Frame both from the waist up with their faces and the gift box visible.
     calm: right
     lines:
-      - {who: dokgo, type: speech, side: l, text: "FOR YOU. BOTH OF YOU."}
-      - {who: taeo, type: speech, side: r, text: "...YOU BOUGHT IT HERE."}
+      - {who: "dokgo", type: "speech", side: "l", text: "THE DRINKS ARE FOR YOU AND NIB."}
+      - {who: "taeo", type: "speech", side: "r", text: "YOU BOUGHT OUR THANK-YOU GIFT HERE."}
 
   - id: P33
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "over Taeo's shoulder toward Dokgo across the counter"
@@ -533,10 +553,11 @@ panels:
       Over Taeo's shoulder (taeo, work: the vest and the back of his messy hair in the foreground). Across the counter Dokgo (dokgo) rubs the back of his neck,
       gruff and unpractised; his eyes slide down to the knee pads in Nib's lap (he knows that taped strap), flinch, and slide away to the shelves.
       The unlit cigarette behind his ear, the second phone in his chest pocket. Fluorescent light, simplified shelves.
+      Taeo's shoulder enters from the left; Dokgo stands in the right third, his face fully visible above the counter.
     calm: top-left
     lines:
-      - {who: dokgo, type: speech, side: r, text: "RYU SAID YOU'D BE HERE."}
-      - {who: dokgo, type: speech, side: r, text: "...SORRY FOR THE TROUBLE TODAY."}
+      - {who: "dokgo", type: "speech", side: "r", text: "MINHO SAID YOU'D BE HERE."}
+      - {who: "dokgo", type: "speech", side: "r", text: "SORRY FOR THE TROUBLE AT GURO."}
 
   - id: P34
     shape: inset-r
@@ -546,12 +567,13 @@ panels:
     art: >
       Nib (nib) on his blue crate at the counter end, close, looking up at Dokgo with a flat, unblinking deadpan stare; the knee pads in his lap.
       Skin washed now, clothes still streaked with grey dust. Plain pale green-white background.
+      Nib's face is in the right third.
     calm: left
     lines:
       - {who: nib, type: speech, side: r, text: "TROUBLE."}
 
   - id: P35
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "profile two-shot across the counter, from the mouth of aisle 2"
@@ -559,15 +581,16 @@ panels:
       From the side: Dokgo (dokgo) at the counter spreads both hands, defensive, voice rising, a squeezed man explaining himself;
       Taeo (taeo, work) behind the counter, quiet, giving him nothing; Nib small on his crate at the counter end between them.
       Fluorescent light; the TV's glow high on the back wall.
+      Dokgo is on the left, Nib is in the centre on his crate, and Taeo stands on the right behind the counter. Give the standing pair full height.
     calm: top
     lines:
-      - {who: dokgo, type: speech, side: l, text: "THE CLEAR TEAM WAS LATE. THE CLIENT HAD FIVE MILLION AN HOUR ON MY NECK."}
-      - {who: dokgo, type: speech, side: l, text: "IT WAS A BAD CALL."}
-      - {who: dokgo, type: speech, side: l, text: "...IT WAS THE CALL I HAD."}
+      - {who: "dokgo", type: "speech", side: "l", text: "THE CLEAR TEAM WAS LATE. THE CLIENT FINES ME FIVE MILLION WON AN HOUR."}
+      - {who: "dokgo", type: "speech", side: "l", text: "LEAVING KWAK BEHIND WAS A BAD CALL."}
+      - {who: "dokgo", type: "speech", side: "l", text: "I THOUGHT I HAD NO OTHER CHOICE."}
     notes: "The ₩5,000,000-an-hour lateness penalty (ch 13; ledger P08, resolved in ch 14-17) is only referred to here."
 
   - id: P36
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low Dutch tilt from counter height"
@@ -575,10 +598,11 @@ panels:
       Dutch tilt from counter height: Dokgo (dokgo) half turned away with his second phone at his ear, bobbing his head to it again and again as if the caller
       could see him bow, his free hand pinching the bridge of his nose. Taeo and Nib drawn simply at the frame edge, watching (no blur).
       Fluorescent light; the dark street through the glass behind him.
+      Dokgo occupies the left third with the phone at his ear; Taeo and Nib watch from the right.
     calm: top
     lines:
-      - {who: gc_director, type: phone, side: r, text: "SIX A.M., MY OFFICE. OR I FIND ANOTHER SUBCONTRACTOR."}
-      - {who: dokgo, type: speech, side: l, text: "YES, DIRECTOR. SIX. YES."}
+      - {who: "offpanel:gc_director", type: "phone", side: "l", text: "SIX A.M., MY OFFICE. OR I FIND ANOTHER SUBCONTRACTOR."}
+      - {who: "dokgo", type: "speech", side: "l", text: "YES, DIRECTOR. SIX. YES."}
     notes: "The squeeze from above (STORY_BIBLE §4, rule 3): Dokgo is as replaceable as the porters below him."
 
   - id: P37
@@ -589,6 +613,7 @@ panels:
     art: >
       Counter-level close-up: Dokgo's hand has cracked open one small brown vitamin-drink bottle and slid it across the counter to Nib;
       behind the bottle, Nib (nib) looks at it, then up at Dokgo, level and unmoved. Simplified background.
+      Nib's face is on the right; Dokgo's hand and the offered bottle enter from the left.
     calm: right
     lines:
       - {who: nib, type: speech, side: r, text: "YOU FIRST."}
@@ -607,21 +632,22 @@ panels:
       - {text: "GLUK GLUK", style: comic, at: [0.70, 0.30], size: M, rot: 8}
 
   - id: P39
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "over Nib's shoulder toward Dokgo and Taeo"
     art: >
       Over Nib's shoulder (nib: spiky black hair and the V-notched left ear large in the left foreground). Dokgo (dokgo) wipes his mouth with the back of his hand
       and points the empty bottle at Nib; behind the counter Taeo (taeo, work) cuts in, quiet and firm, holding Dokgo's eyes. Fluorescent light.
+      Nib's shoulder is on the left, Dokgo in the centre, and Taeo on the right. Frame the standing pair from the waist up.
     calm: top-right
     lines:
-      - {who: dokgo, type: speech, side: c, text: "YOUR GOBLIN SAW THAT WALL BEFORE ANY OF MY PEOPLE."}
-      - {who: taeo, type: speech, side: r, text: "NIB."}
-      - {who: dokgo, type: speech, side: c, text: "...NIB."}
+      - {who: "dokgo", type: "speech", side: "c", text: "YOUR GOBLIN SPOTTED THE DANGER IN THAT WALL BEFORE MY PEOPLE DID."}
+      - {who: "taeo", type: "speech", side: "r", text: "HIS NAME IS NIB."}
+      - {who: "dokgo", type: "speech", side: "c", text: "NIB."}
 
   - id: P40
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "wide, from behind the counter's north end (staff side)"
@@ -629,11 +655,12 @@ panels:
       From behind the counter's north end, beside the stockroom door: Dokgo (dokgo) leans both forearms on the counter and tilts toward Nib like a salesman
       closing; Nib (nib) on his crate looks back at him; Taeo (taeo, work) stands stiff at the till end. Behind Dokgo, in aisle 2, the stocker keeps stocking
       without a pause; beyond it the dark glass front. Fluorescent light, hard shadows.
+      Dokgo stands in the centre, Nib sits on the left, and Taeo stands on the right. Leave vertical room for both standing men.
     calm: top
     lines:
-      - {who: dokgo, type: speech, side: c, text: "I NEED EYES LIKE THAT ON MY CREWS. EVERY DAY, NOT JUST WHEN RYU HAS WORK."}
-      - {who: dokgo, type: speech, side: c, text: "FORTY-FIVE THOUSAND A DAY. CASH."}
-      - {who: narr, type: footnote, text: "*₩45,000 ≈ US$33"}
+      - {who: "dokgo", type: "speech", side: "c", text: "I NEED NIB ON MY CREWS EVERY DAY, NOT JUST WHEN RYU HAS WORK."}
+      - {who: "dokgo", type: "speech", side: "c", text: "FORTY-FIVE THOUSAND WON A DAY. CASH."}
+      - {who: "narr", type: "footnote", text: "*₩45,000 ≈ US$33"}
     notes: "Lower than Ryu Survey's day rate for Nib (₩60,000, ch 10) and half the porters' ₩90,000 (ch 13). Cash means no receipt, and Nib's status renewal rests on documented work (ch 6-9)."
 
   - id: P41
@@ -643,10 +670,11 @@ panels:
     camera: "medium close-up, Taeo"
     art: >
       Taeo (taeo, work) close, jaw tight, eyes narrowing: the polite clerk's face slipping. The one small mole under his right eye. Plain pale background.
+      Taeo's face is on the left; Dokgo speaks from outside the frame on the right.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: l, text: "YOUR PORTERS GET NINETY."}
-      - {who: dokgo, type: speech, side: r, text: "PORTERS CARRY. HE LOOKS."}
+      - {who: "taeo", type: "speech", side: "l", text: "YOUR PORTERS GET NINETY THOUSAND WON."}
+      - {who: "offpanel:dokgo", type: "speech", side: "r", text: "PORTERS CARRY. NIB SCOUTS."}
 
   - id: P42
     shape: strip
@@ -670,12 +698,13 @@ panels:
       Kwak's knee pads hang from his left hand; his right hand lies flat on the counter top. Shoulders square, a soldier's stillness,
       amber eyes steady, the lower fang just showing. Dokgo's shoulder and the back of his head are a dark shape at the right edge.
       Above Nib the fluorescent tube and, high on the back wall, the TV's glow. Weathered adult, not cute; the knife stays in its sheath.
+      Nib stands in the centre on the crate, Dokgo's shoulder and head enter at the right edge.
     calm: top
     lines:
       - {who: nib, type: speech, side: c, text: "NO."}
 
   - id: P44
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "from behind Nib toward the door"
@@ -683,9 +712,10 @@ panels:
       From behind Nib (his back, the brown rope belt, the wooden sheath on his left hip, standing on his crate in the foreground). Dokgo (dokgo) walks to the door,
       tucking the cigarette back behind his ear, a phone already buzzing in his hand with its screen turned away; the door swings open on the black street,
       the bell swinging. He does not look back. The gift box sits on the counter where he left it. Fluorescent light.
+      Nib's standing back is on the left; Dokgo walks away on the right. Preserve room for both full figures.
     calm: top
     lines:
-      - {who: dokgo, type: speech, side: r, text: "...EVERYONE SAYS NO THE FIRST TIME."}
+      - {who: "dokgo", type: "speech", side: "r", text: "EVERYONE SAYS NO THE FIRST TIME."}
     sfx:
       - {text: "JINGLE", style: quiet, at: [0.78, 0.12], size: S, rot: -6}
 
@@ -697,14 +727,15 @@ panels:
     art: >
       Eunchae (eunchae, work) at the end of aisle 1, scanner in hand, leaning on the shelf end with one eyebrow up: she has watched all of it.
       Simplified shelves, fluorescent light.
+      Frame Eunchae from the waist up on the right. Taeo remains outside the frame to the left at the till.
     calm: left
     lines:
-      - {who: eunchae, type: speech, side: r, text: "HE PAID FOR HIS APOLOGY AT OUR TILL."}
-      - {who: taeo, type: speech, side: l, text: "TWELVE THOUSAND NINE HUNDRED."}
-      - {who: eunchae, type: speech, side: r, text: "CHEAP."}
+      - {who: "eunchae", type: "speech", side: "r", text: "HE PAID FOR HIS APOLOGY AT OUR TILL."}
+      - {who: "offpanel:taeo", type: "speech", side: "l", text: "THE DRINKS COST TWELVE THOUSAND NINE HUNDRED WON."}
+      - {who: "eunchae", type: "speech", side: "r", text: "CHEAP."}
 
   - id: P46
-    shape: wide
+    shape: full
     gap: long
     bg: white
     camera: "high angle from the upper corner by the rota whiteboard"
@@ -712,14 +743,14 @@ panels:
       The break room (hanbit_breakroom) from high in the corner by the whiteboard. Taeo (taeo, work) on the blue-grey stool at the east-wall table, the two west-wall lockers opposite him; Eunchae on an upturned green crate across the pale folding table; between them triangle kimbap in wrappers, two canned coffees and a spread of stock sheets.
       Nib sits in the open doorway on watch, his back against the jamb, the knee pads in his lap, facing the dark shop floor. The rota whiteboard at the near edge:
       a grid of days with names as squiggles, the night row left blank for a label. One fluorescent tube over the table, warmer cream light.
+      Taeo sits on the left, Eunchae across from him on the right, and Nib sits in the doorway in the background.
     calm: top-left
     ui:
       - {kind: label, text: "NIGHTS: THE UNIT", at: [0.30, 0.24], size: 34, notes: "blue marker on the whiteboard's night row; move onto it once the art exists"}
     lines:
-      - {who: narr, type: tag, text: "3:10 AM"}
-      - {who: eunchae, type: speech, side: r, text: "MONDAY I START MORNINGS. SIX A.M."}
-      - {who: eunchae, type: speech, side: r, text: "FROM TONIGHT IT'S THE KIOSK AND THE HAT."}
-      - {who: taeo, type: speech, side: l, text: "SO THIS IS THE LAST NIGHT SHIFT."}
+      - {who: "narr", type: "tag", text: "3:10 AM"}
+      - {who: "eunchae", type: "speech", side: "r", text: "MONDAY I START MORNINGS AT SIX. TONIGHT THE KIOSK AND STOCKER TAKE OVER NIGHTS."}
+      - {who: "taeo", type: "speech", side: "l", text: "SO THIS IS OUR LAST NIGHT SHIFT."}
     notes: "'Tonight' is Friday night: the first unstaffed night. Eunchae starts mornings (6 AM) on Monday."
 
   - id: P47
@@ -730,11 +761,12 @@ panels:
     art: >
       Eunchae (eunchae, work) close, chin on her fist, tired eyes, a wry mouth; her dog-eared food-hygiene workbook with sticky tabs under her elbow.
       Warm cream fluorescent light, plain background.
+      Eunchae's face is on the left; Taeo answers from outside the frame to the right.
     calm: right
     lines:
-      - {who: eunchae, type: speech, side: l, text: "NO NIGHT PAY. NO QUIET HOURS TO STUDY."}
-      - {who: taeo, type: speech, side: r, text: "I'M SORRY."}
-      - {who: eunchae, type: speech, side: l, text: "YOU DIDN'T BUY THE HAT."}
+      - {who: "eunchae", type: "speech", side: "l", text: "NO NIGHT PAY. NO QUIET HOURS TO STUDY."}
+      - {who: "offpanel:taeo", type: "speech", side: "r", text: "I'M SORRY."}
+      - {who: "eunchae", type: "speech", side: "l", text: "YOU DIDN'T HIRE THE MANNEQUIN."}
 
   - id: P48
     shape: wide
@@ -745,15 +777,16 @@ panels:
       At table level from the side: Taeo (taeo, work) leans in, earnest, about to say something heartfelt; Eunchae (eunchae) snaps a small blank flashcard up between
       their faces like a referee's card, her face brisk and carefully unsentimental, a thumbnail of a smile at one corner. Kimbap wrappers on the table.
       Warm cream fluorescent light.
+      Frame the seated pair from the waist up, Taeo on the left and Eunchae on the right.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "EUNCHAE. FOR WHAT IT'S WORTH, ALL THOSE NIGHTS—"}
-      - {who: eunchae, type: speech, side: r, text: "HOT HOLDING TEMPERATURE. GO."}
-      - {who: taeo, type: speech, side: l, text: "...SIXTY DEGREES?"}
+      - {who: "taeo", type: "speech", side: "l", text: "EUNCHAE. THANK YOU FOR ALL THOSE NIGHT SHIFTS."}
+      - {who: "eunchae", type: "speech", side: "r", text: "HOT HOLDING TEMPERATURE. GO."}
+      - {who: "taeo", type: "speech", side: "l", text: "SIXTY DEGREES?"}
     notes: "Runner: Eunchae's exam flashcards at the worst moments (her food-business licence exam, ch 22). Hot food is held at 60 °C or above, so Taeo is right."
 
   - id: P49
-    shape: wide
+    shape: tall
     gap: long
     bg: white
     camera: "from the middle of the shop floor, eye level, looking south toward the glass front and the door, first light outside"
@@ -763,17 +796,17 @@ panels:
       the kiosk beside it (extras.kiosk, protective film peeled off now, on the front strip east of the west-return entrance), whose touchscreen glows, screen: green.
       At the northwest rear: the counter and till; Taeo (taeo, work) beside it, halfway out of his vest, and Nib with the knee pads under his arm.
       Centre foreground, back to us: the stocker straightening the promo end cap. Tired dawn faces.
+      Taeo and Nib are on the left by the counter; Manager Oh is on the right by the kiosk. Give the standing bodies vertical room.
     calm: top
     ui:
       - {kind: phone.info_card, on: screen, title: "HANBIT MART · SELF-CHECKOUT", text: "Unstaffed hours 22:00–06:00 · Tap your bank card at the door to enter · Thank you for shopping with us"}
     lines:
-      - {who: narr, type: tag, text: "5:58 AM"}
-      - {who: manager, type: speech, side: r, text: "COUNT DONE? GOOD."}
-      - {who: manager, type: speech, side: r, text: "YOU'VE STILL GOT WEEKEND DAYS."}
-      - {who: taeo, type: nervous, side: l, text: "...PROBABLY?"}
+      - {who: "narr", type: "tag", text: "5:58 AM"}
+      - {who: "manager", type: "speech", side: "r", text: "COUNT DONE? GOOD. YOU'VE STILL GOT WEEKEND DAYS."}
+      - {who: "taeo", type: "nervous", side: "l", text: "PROBABLY?"}
 
   - id: P50
-    shape: inset-r
+    shape: tall
     gap: short
     bg: white
     style: chibi
@@ -783,13 +816,13 @@ panels:
       a crack zigzagging down from the top of his head, one sweat drop frozen in mid-air. Flat pale-green background with screentone dots.
     calm: left
     lines:
-      - {who: "offpanel:manager", type: speech, side: l, text: "...PROBABLY."}
+      - {who: "offpanel:manager", type: "speech", side: "l", text: "PROBABLY."}
     sfx:
       - {text: "KRAK", style: comic, at: [0.72, 0.22], size: M, rot: 10}
     notes: "Callback to ch 1 P10: 'YOU'LL GET WEEKENDS. PROBABLY.'"
 
   - id: P51
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "low angle from behind the kiosk as Taeo passes"
@@ -798,13 +831,14 @@ panels:
       the folded vest over his arm, the olive backpack on one shoulder, patch out) walks past it toward the door; the kiosk's screen has brightened at him,
       seen edge-on as a plain pale glow. He gives it a tired sideways look. Nib already holds the door open for him with his shoulder.
       First light through the glass, blue-grey with a pale gold edge.
+      The kiosk and its speaker are on the left, Taeo passes on the right, and Nib holds the door farther right. Frame Taeo and Nib from the knees up.
     calm: top-right
     lines:
-      - {who: kiosk, type: phone, side: l, text: "THANK YOU FOR SHOPPING AT HANBIT MART!"}
-      - {who: taeo, type: speech, side: r, text: "...I WORKED HERE."}
+      - {who: "kiosk", type: "phone", side: "l", text: "THANK YOU FOR SHOPPING AT HANBIT MART!"}
+      - {who: "taeo", type: "speech", side: "r", text: "I WORKED HERE."}
 
   - id: P52
-    shape: full
+    shape: tall
     gap: short
     bg: white
     camera: "down the street, eye level, the two walking toward the camera"
@@ -855,7 +889,7 @@ panels:
     ui:
       - {kind: phone.ttok_call, on: screen, hand: phone_on_table, caller: "Chae Yuri · AAO", clock: "09:01", title: "TTOK", text: "Incoming call · Chae Yuri · AAO"}
     lines:
-      - {who: nib, type: speech, side: r, text: "THE SHOUTING BRICK."}
+      - {who: "offpanel:nib", type: "speech", side: "r", text: "THE SHOUTING BRICK."}
     sfx:
       - {text: "BZZZT", style: phone, at: [0.50, 0.85], size: S, rot: -6}
     notes: "Runner: Nib calls Taeo's phone 'the shouting brick'."
@@ -868,10 +902,12 @@ panels:
     art: >
       Medium side shot: Taeo (taeo, default) on the floor against the bed's drawers, the phone at his ear, the other hand rubbing his eyes, the invoice slipping
       off his knee. Nib at the table behind him has stopped carving and is listening. Morning grey-blue light, the yellow band on the floor.
+      Taeo's face is on the right, Nib is behind him on the left. Chae's phone voice comes from the left side of Taeo's head.
     calm: top
     lines:
-      - {who: chae, type: phone, side: l, text: "TAEO. I READ THE GURO CLEAR REPORT. ARE YOU BOTH ALL RIGHT?"}
-      - {who: taeo, type: speech, side: r, text: "WE'RE FINE."}
+      - {who: "offpanel:chae", type: "phone", side: "l", text: "TAEO. I READ THE GURO CLEAR REPORT. ARE YOU BOTH ALL RIGHT?"}
+      - {who: "taeo", type: "speech", side: "r", text: "WE'RE FINE."}
+      - {who: "offpanel:chae", type: "phone", side: "l", text: "THE GURO CLEAR TEAM FILED FOUR ANCHOR FRAGMENTS FOUND BEFORE THE BOSS DIED."}
 
   - id: P57
     shape: inset-r
@@ -881,11 +917,10 @@ panels:
     art: >
       Taeo (taeo) close, straight on, the phone at his ear: tired, red-rimmed eyes sharpening as he listens. The mole under his right eye.
       Plain soft-blue background.
+      Taeo's listening face is on the right; the phone is at his left ear.
     calm: left
     lines:
-      - {who: chae, type: phone, side: l, text: "THE BOSS TERRITORY SHED ANCHOR FRAGMENTS. THE CLEAR TEAM FILED FOUR."}
-      - {who: chae, type: phone, side: l, text: "ANYONE WHO RECOVERED ONE DURING THE APPROACH IS OWED A FINDER'S SHARE."}
-      - {who: chae, type: phone, side: l, text: "ARRIVALS INCLUDED. I CHECKED."}
+      - {who: "offpanel:chae", type: "phone", side: "l", text: "ANYONE WHO FOUND A FRAGMENT BEFORE THE BOSS DIED GETS A SHARE."}
     notes: "World rule (STORY_BIBLE §5): fragments are collected during the approach, while the boss lives. Nib took the shard before the kill (ch 16). Its price (₩400,000) is left for ch 19."
 
   - id: P58
@@ -897,9 +932,11 @@ panels:
       Over Nib's shoulder (nib: the notched left ear and spiky hair in the left foreground, the knife laid down beside the half-carved knee pad).
       Nib's right hand has gone to the leather pouch on his right hip and rests on its flap. Beyond, Taeo on the floor against the bed, phone at his ear,
       answering, not looking at Nib. Morning light.
+      Nib's shoulder stays on the left, Taeo's face on the right; the phone remains at Taeo's left ear.
     calm: top-right
     lines:
-      - {who: taeo, type: speech, side: r, text: "WE WERE PULLING A MAN OUT FROM UNDER A SLAB. NOBODY WAS—"}
+      - {who: "offpanel:chae", type: "phone", side: "l", text: "THAT INCLUDES ARRIVALS. I CHECKED."}
+      - {who: "taeo", type: "speech", side: "r", text: "WE WERE RESCUING MR. KWAK. NOBODY WAS COLLECTING FRAGMENTS."}
 
   - id: P59
     shape: inset-r
@@ -909,9 +946,10 @@ panels:
     art: >
       Nib (nib) close, three-quarter, turning to look at Taeo: amber eyes steady, a decision already made. Plain soft-blue background.
       Adult, weathered, not cute.
+      Nib's face is on the right.
     calm: left
     lines:
-      - {who: nib, type: speech, side: r, text: "I WAS."}
+      - {who: "nib", type: "speech", side: "r", text: "I FOUND A SHARD."}
     notes: "Nib cuts Taeo off, for once (ch 7: 'I CUT YOU OFF')."
 
   - id: P60
@@ -921,9 +959,7 @@ panels:
     silent: true
     camera: "extreme close-up, Nib's palm held out"
     art: >
-      Extreme close-up: Nib sits against the wall beside the entry step; Taeo has crossed from the bed and kneels in front of him; his olive hand has tipped out the leather pouch (Haru's small green dinosaur sticker
-      on its flap) and a thumb-length shard of dark, glassy grey-black stone lies on his palm, held out. Fine hairline cracks run through it. It is dull and dead.
-      Taeo's knee drawn simply behind (no blur). Morning light. No glow yet.
+      Extreme close-up beside the entry step in taeo_flat: Nib's olive hand enters from the right, palm up, with a thumb-length dark glassy grey-black shard resting on it. Fine hairline cracks run through the dull, unlit stone. His tipped leather pouch, with Haru's small green dinosaur sticker on its flap, is at the right edge. Only Taeo's knee appears at the left edge; the two faces and bodies remain outside the crop. Grey-blue morning light, hard shadows. No glow and no text.
     calm: none
     notes: "The dark shard Nib pocketed from the crack's edge in ch 16. It is the 'stone' kind (window 2 in STORY_BIBLE §5, integrated in ch 19)."
 
@@ -943,8 +979,8 @@ panels:
       No system window or interface panel anywhere. The bottom edge of the frame breaks its border.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "LAST TIME THIS ROOM WENT THIS COLOUR, NIB CAME OUT OF THE FLOOR."}
-      - {who: chae, type: phone, side: l, text: "...TAEO?"}
+      - {who: "taeo", type: "float", text: "THE SAME CYAN LIGHT AS THE NIGHT NIB ARRIVED."}
+      - {who: "offpanel:chae", type: "phone", side: "l", text: "TAEO? ARE YOU THERE?"}
     sfx:
       - {text: "HMMMMMM", style: summon, at: [0.94, 0.34], size: L, rot: 90}
     notes: "Hook. Nib sees the glow too. The interface itself stays dark: ch 19 opens with [ANCHOR FRAGMENT DETECTED — INTEGRATE?]. Chae is still on the line."

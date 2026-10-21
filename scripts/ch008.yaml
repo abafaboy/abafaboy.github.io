@@ -43,7 +43,7 @@ panels:
     calm: top-left
     lines:
       - {who: narr, type: tag, text: "HAESEONG · SUNDAY · 11:46 AM"}
-      - {who: taeo, type: float, text: "THREE HOURS ON THE BUS. I STILL HAVEN'T WORKED OUT WHAT TO TELL THEM."}
+      - {who: taeo, type: float, text: "THREE HOURS ON THE BUS. I STILL DON'T KNOW HOW TO TELL MY FAMILY."}
     sfx:
       - {text: "VMMMM", style: gate, at: [0.78, 0.66], size: S, rot: 90}
     notes: "The sea gate never closes (STORY_BIBLE §5). It stands offshore south of the harbour mouth (haeseong_port key). Taeo's want for the chapter: how to tell them."
@@ -65,7 +65,7 @@ panels:
     calm: top
     lines:
       - {who: nib, type: speech, side: l, text: "THAT DOOR IS OPEN."}
-      - {who: taeo, type: speech, side: r, text: "IT NEVER CLOSES."}
+      - {who: taeo, type: speech, side: r, text: "THE SEA GATE NEVER CLOSES."}
     notes: "Nib names things by what they do (a phone is 'the shouting brick'): a gate is a door. Taeo's own narration calls them doors too (ch 1)."
 
   - id: P03
@@ -80,7 +80,7 @@ panels:
       highlight. Nothing else in frame.
     calm: right
     lines:
-      - {who: nib, type: speech, side: l, text: "WHO KEEPS WATCH ON IT?"}
+      - {who: nib, type: speech, side: l, text: "WHO KEEPS WATCH ON THE SEA GATE?"}
     notes: "The question the chapter answers on the breakwater (P46: 'SOMEBODY SHOULD.'). Rhymes with the hook (P61), where the gate is reflected in the coach door over Taeo's face."
 
   - id: P04
@@ -127,7 +127,7 @@ panels:
     lines:
       - {who: grandpa, type: speech, side: r, text: "YOU'D BE NIB."}
       - {who: nib, type: speech, side: l, text: "YES."}
-      - {who: grandpa, type: speech, side: r, text: "I'M HIS GRANDFATHER. WELCOME."}
+      - {who: grandpa, type: speech, side: r, text: "I'M TAEO'S GRANDFATHER. WELCOME."}
     sfx:
       - {text: "PSSHH", style: quiet, at: [0.16, 0.22], size: S, rot: -6}
     notes: "Nib gets off first, so Grandpa greets him first. He treats Nib as a grown guest. He knows the name from Grandma (ch 7's call)."
@@ -143,8 +143,8 @@ panels:
       the handle. Simplified harbour background in flat grey-blue.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: l, text: "GRANDPA. YOU DON'T HAVE TO DO THE CART ANYMORE."}
-      - {who: grandpa, type: speech, side: r, text: "IT'S FINE. IT WAS ON THE WAY."}
+      - {who: taeo, type: speech, side: l, text: "GRANDPA, YOU DON'T HAVE TO COLLECT CARDBOARD ANYMORE."}
+      - {who: "offpanel:grandpa", type: speech, side: r, text: "IT'S FINE. THE SCRAP YARD WAS ON THE WAY."}
     notes: "Grandpa's 'IT'S FINE', 1 of 3 (STORY_BIBLE: he says it too often; ch 44: 'YOUR FATHER SAID IT'S FINE TOO')."
 
   - id: P08
@@ -161,8 +161,8 @@ panels:
     calm: top
     lines:
       - {who: nib, type: speech, side: l, text: "WHY ARE THE BOATS ASLEEP?"}
-      - {who: grandpa, type: speech, side: r, text: "THE FISH ARE ALL INSIDE THE BUOYS."}
-      - {who: grandpa, type: speech, side: r, text: "AND NOBODY'S ALLOWED INSIDE THE BUOYS."}
+      - {who: grandpa, type: speech, side: r, text: "THE FISH ARE INSIDE THE GATE BUOYS."}
+      - {who: grandpa, type: speech, side: r, text: "AND NOBODY'S ALLOWED INSIDE THOSE BUOYS."}
     notes: "The issue, said plainly by a man it happened to. No speech about policy."
 
   - id: P09
@@ -181,7 +181,7 @@ panels:
       - {kind: label, text: "64 KG", at: [0.70, 0.36], size: 30, color: "#E0362C", rot: 0, notes: "move onto the readout window once the art exists"}
     lines:
       - {who: scrap_dealer, type: speech, side: r, text: "SIXTY-FOUR KILOS."}
-      - {who: scrap_dealer, type: speech, side: r, text: "FIFTY WON A KILO. THREE THOUSAND TWO HUNDRED."}
+      - {who: scrap_dealer, type: speech, side: r, text: "FIFTY WON A KILO. THREE THOUSAND TWO HUNDRED WON FOR THE LOT."}
     sfx:
       - {text: "KLANK", style: quiet, at: [0.30, 0.80], size: S, rot: 4}
     notes: "Real rate: collectors get about ₩50 a kilo from dealers (Korea JoongAng Daily, 24 Jan 2026); a full cart is 100 kg or more, so 64 kg is a morning's part load. The Health Ministry's 2023 survey put collectors' pay at ₩1,226 an hour."
@@ -213,7 +213,7 @@ panels:
       drawn simply.
     calm: left
     lines:
-      - {who: nib, type: speech, side: l, text: "I GOT TWENTY THOUSAND FOR AN HOUR OF LOOKING."}
+      - {who: nib, type: speech, side: l, text: "I EARNED TWENTY THOUSAND WON FOR AN HOUR OF SCOUTING."}
       - {who: grandpa, type: speech, side: r, text: "THEN DON'T TAKE UP CARDBOARD."}
       - {who: taeo, type: float, text: "I SEND MONEY EVERY MONTH. HE STILL PULLS THE CART."}
     notes: "The sum the chapter leaves to the reader: Nib's ₩20,000 for an hour (ch 7) against Grandpa's ₩3,200 for a morning."
@@ -258,8 +258,7 @@ panels:
     calm: top
     intro: "YOON HARU · TAEO'S BROTHER"
     lines:
-      - {who: haru, type: speech, side: r, text: "...YOU'RE SHORTER THAN ME."}
-      - {who: nib, type: speech, side: l, text: "YOU'RE YOUNGER THAN ME."}
+      - {who: haru, type: speech, side: c, text: "YOU'RE SHORTER THAN ME."}
     sfx:
       - {text: "SKRRT", style: comic, at: [0.74, 0.86], size: S, rot: -10}
     notes: "Scale lock: Haru 138 cm, Nib 105 cm (ART_BIBLE A10)."
@@ -275,6 +274,7 @@ panels:
       notched LEFT ear), unmoved.
     calm: top
     lines:
+      - {who: nib, type: speech, side: l, text: "YOU'RE YOUNGER THAN ME."}
       - {who: haru, type: speech, side: r, text: "ARE GOBLINS OLDER THAN DINOSAURS? HAVE YOU SEEN A DINOSAUR? HOW FAST CAN YOU RUN?"}
       - {who: haru, type: speech, side: r, text: "WHO WOULD WIN, A GOBLIN OR A T. REX?"}
     notes: "Beat: Haru erupts with questions, goblins against dinosaurs. Nib answers only the last one; the rest stay unanswered (no lore about his side)."
@@ -289,9 +289,9 @@ panels:
       a real T. rex. The small lower fang on the left just shows. Plain warm background.
     calm: right
     lines:
-      - {who: nib, type: speech, side: l, text: "THE ONE WHO SEES THE OTHER FIRST."}
-      - {who: "offpanel:haru", type: speech, side: r, text: "...THAT'S NOT AN ANSWER."}
-      - {who: nib, type: speech, side: l, text: "IT'S THE ONLY ONE."}
+      - {who: nib, type: speech, side: l, text: "WHOEVER SEES THE ENEMY FIRST WINS."}
+      - {who: "offpanel:haru", type: speech, side: r, text: "THAT'S NOT AN ANSWER."}
+      - {who: nib, type: speech, side: l, text: "IT'S THE ONLY ANSWER."}
 
   - id: P16
     shape: inset-r
@@ -320,7 +320,7 @@ panels:
       Hard noon sun; the grey metal gate open behind them.
     calm: top
     lines:
-      - {who: haru, type: speech, side: c, text: "...THE SPICY ONES?"}
+      - {who: haru, type: speech, side: c, text: "THE SPICY SEAWEED SNACKS?"}
       - {who: taeo, type: speech, side: l, text: "OBVIOUSLY."}
       - {who: haru, type: speech, side: c, text: "FINE. YOU CAN STAY."}
     notes: "Beat: the spicy seaweed snacks (Taeo remembered: Grandma's ch 7 message asked for them)."
@@ -340,7 +340,7 @@ panels:
     calm: top
     intro: "KIM OKJA · GRANDMA"
     lines:
-      - {who: grandma, type: speech, side: r, text: "SO. YOU'RE THE ONE WHO ASKED."}
+      - {who: grandma, type: speech, side: r, text: "YOU ASKED TO VISIT US."}
       - {who: nib, type: speech, side: l, text: "YES."}
       - {who: grandma, type: speech, side: r, text: "GOOD. YOU'LL EAT."}
     notes: "First time her face is shown (ch 7 held it). From Saturday's call she knows that Nib asked to come."
@@ -357,7 +357,7 @@ panels:
       the peg beside the doors, next to Grandpa's cap.
     calm: none
     lines:
-      - {who: taeo, type: speech, side: l, text: "SORRY, GRANDMA. YOU DIDN'T HAVE TO SEND BUS MONEY."}
+      - {who: taeo, type: speech, side: l, text: "SORRY, GRANDMA. YOU DIDN'T HAVE TO PAY OUR BUS FARES."}
       - {who: "offpanel:grandma", type: speech, side: r, text: "YOU'D HAVE WALKED."}
     notes: "Grandma paid the coach fares: Taeo has had under ₩20,000 since ch 7's noodles (₩24,800 in ch 1, minus ₩7,000). Runner: Nib against shoes."
 
@@ -378,24 +378,20 @@ panels:
       courtyard behind us.
     calm: top
     lines:
-      - {who: haru, type: speech, side: l, text: "IT'S FROM NORWAY! IT SAID ON THE PACKET."}
-      - {who: grandma, type: speech, side: l, text: "FORTY YEARS I SOLD FISH OUT OF THAT WATER."}
+      - {who: haru, type: speech, side: l, text: "THE MACKEREL'S FROM NORWAY! THE PACKET SAID SO."}
+      - {who: grandma, type: speech, side: l, text: "FORTY YEARS I SOLD FISH FROM OUR OWN HARBOUR."}
     notes: "Seating lock in location_notes. Grandma sold fish at Haeseong market for 40 years (STORY_BIBLE §6). True detail: Norway supplies about half of South Korea's Atlantic mackerel (Norwegian Seafood Council: 48%). The photo is the ch 1 / ch 6 frame (the parents, Taeo at 14, baby Haru in a first-birthday hanbok)."
 
   - id: P21
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "from the east end of the table over Grandpa's shoulder, looking west"
     art: >
-      Over Grandpa's shoulder (near foreground right, white hair, grey jacket). Nib, on the right side of the table, eats with his
-      fingers: quick, neat field hands. He has split his mackerel along the back and is lifting the whole spine and its ribs out in one
-      clean pull, the skeleton intact and the flesh left whole on the plate. On the left side, Haru is frozen with his chopsticks in the
-      air. At the far end, Grandma, facing us with the TV cabinet behind her, has raised her eyebrows over her glasses: a fishmonger's
-      professional respect. Amber light, steam.
+      Over Grandpa's shoulder (near foreground right, white hair, grey jacket). Nib, on the right side of the table, eats with his fingers: quick, neat field hands. He has split his mackerel along the back and is lifting the whole spine and its ribs out in one clean pull, the skeleton intact and the flesh left whole on the plate. On the left side, Haru is frozen with his chopsticks in the air. At the far end, Grandma, facing us with the TV cabinet behind her, has raised her eyebrows over her glasses: a fishmonger's professional respect. Amber light, steam. Haru is on the left, Grandma in the centre, Nib on the right, with Grandpa’s cropped shoulder at the right edge. Give the fish, hands and seated figures vertical room in the tall frame; frame the diners from the waist up.
     calm: top
     lines:
-      - {who: grandma, type: speech, side: c, text: "...HE CAN BONE A MACKEREL."}
+      - {who: grandma, type: speech, side: c, text: "NIB CAN BONE A MACKEREL."}
       - {who: haru, type: speech, side: l, text: "WITH HIS HANDS!"}
     sfx:
       - {text: "SHLLK", style: quiet, at: [0.66, 0.56], size: S, rot: 0}
@@ -424,7 +420,7 @@ panels:
       grain of rice flies out of his nose; chibi Taeo hides his face in his hands. Flat warm-orange background with screentone dots.
     calm: left
     lines:
-      - {who: haru, type: speech, side: l, text: "HE'S HOLDING THEM LIKE KNIVES!"}
+      - {who: haru, type: speech, side: r, text: "NIB'S HOLDING THE CHOPSTICKS LIKE KNIVES!"}
       - {who: nib, type: speech, side: l, text: "THEY'RE BAD KNIVES."}
     notes: "The chapter's laugh (beats: chopsticks). Ch 7 saved this for Grandma's table (Nib used only a spoon there)."
 
@@ -440,8 +436,8 @@ panels:
       behind his hand. At the left end, Grandpa smiles into his rice. Beyond them, the bright courtyard through the open glass doors.
     calm: top
     lines:
-      - {who: grandma, type: speech, side: r, text: "PUT THEM DOWN. HANDS ARE OLDER THAN CHOPSTICKS."}
-      - {who: nib, type: speech, side: c, text: "...THANK YOU."}
+      - {who: grandma, type: speech, side: r, text: "PUT THE CHOPSTICKS DOWN. HANDS ARE OLDER THAN CHOPSTICKS."}
+      - {who: nib, type: speech, side: c, text: "THANK YOU."}
 
   - id: P25
     shape: strip
@@ -454,7 +450,7 @@ panels:
       a little steam.
     calm: right
     lines:
-      - {who: "offpanel:grandma", type: speech, side: r, text: "NOT YOU TWO."}
+      - {who: "offpanel:grandma", type: speech, side: r, text: "GRANDPA! HARU! USE YOUR CHOPSTICKS."}
     notes: "Grandpa and Haru eat with their hands so the guest is not alone in it. Nobody remarks on it."
 
   # ---------------- TELLING THEM ----------------
@@ -469,7 +465,7 @@ panels:
       spoon down and straightens: the face of a man called to the front of the class. Haru, between them, stops chewing.
     calm: top-right
     lines:
-      - {who: grandma, type: speech, side: l, text: "NOW."}
+      - {who: grandma, type: speech, side: l, text: "NOW. TELL US WHAT HAPPENED."}
       - {who: grandma, type: speech, side: l, text: "FROM THE BEGINNING."}
     notes: "Beat: Taeo tells them everything. Grandma knows from ch 7's call only that he awakened, went to the assessment office, and summoned Nib, a goblin who talks and asked to come. Grandpa and Haru know what she told them. Nobody knows about the store gate, Kanghan, the offer or the review."
 
@@ -485,8 +481,8 @@ panels:
     calm: top
     lines:
       - {who: taeo, type: speech, side: c, text: "A GATE OPENED IN THE SHOP ON TUESDAY. EVERYONE GOT OUT."}
-      - {who: taeo, type: speech, side: c, text: "AND I AWAKENED. A SUMMONER. A WEAK ONE. LOW OUTPUT."}
-      - {who: haru, type: speech, side: r, text: "GOOD."}
+      - {who: taeo, type: speech, side: c, text: "I AWAKENED AS A SUMMONER, BUT MY OUTPUT IS LOW."}
+      - {who: haru, type: speech, side: r, text: "GOOD. YOU CAN STAY HOME."}
     notes: "Haru does not want a hunter for a brother; he wants one who comes on Sundays (STORY_BIBLE §6)."
 
   - id: P28
@@ -500,7 +496,7 @@ panels:
     lines:
       - {who: grandma, type: speech, side: r, text: "TUESDAY."}
       - {who: grandma, type: speech, side: r, text: "ON TUESDAY YOU WROTE 'TELL HER I ATE.'"}
-      - {who: "offpanel:taeo", type: speech, side: l, text: "...I HAD EATEN."}
+      - {who: "offpanel:taeo", type: speech, side: l, text: "I HAD EATEN."}
     notes: "Callback to ch 1 P44: Taeo's 23:32 reply, an hour after the gate. He gets funnier when he is scared."
 
   - id: P29
@@ -573,9 +569,9 @@ panels:
       including him; Nib gives one short nod. Amber light.
     calm: top-left
     lines:
-      - {who: grandma, type: speech, side: l, text: "LOOK AT ME. ARE YOU GOING INTO GATES?"}
-      - {who: taeo, type: speech, side: r, text: "NO. HE SCOUTS. HE GOES AHEAD AND TELLS ME WHAT'S THERE."}
-      - {who: taeo, type: speech, side: r, text: "I STAY BEHIND."}
+      - {who: "offpanel:grandma", type: speech, side: l, text: "LOOK AT ME. ARE YOU GOING INTO GATES?"}
+      - {who: taeo, type: speech, side: r, text: "NO. NIB'S A SCOUT. HE GOES AHEAD AND TELLS ME WHAT'S THERE."}
+      - {who: taeo, type: speech, side: r, text: "I STAY OUTSIDE."}
     notes: "Set-up for the hook's ledger plant (P06, at P59): Grandpa hears that Nib goes first. Taeo's answer is still the true 'No' he gave on the phone in ch 7."
 
   - id: P34
@@ -602,8 +598,8 @@ panels:
       from the rice in the foreground.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "AND AN INSTITUTE WANTS HIM. KANGHAN. TO STUDY HIM FOR FIVE YEARS."}
-      - {who: taeo, type: speech, side: l, text: "THEY OFFERED FIFTY MILLION WON."}
+      - {who: taeo, type: speech, side: l, text: "KANGHAN INSTITUTE WANTS TO STUDY NIB FOR FIVE YEARS."}
+      - {who: taeo, type: speech, side: l, text: "THEY OFFERED ME FIFTY MILLION WON."}
     notes: "The terms of ch 6's contract: 5 years, ₩50,000,000 paid to the summoner."
 
   - id: P36
@@ -620,7 +616,7 @@ panels:
     calm: top
     lines:
       - {who: grandma, type: shout, side: l, text: "FIFTY MILLION?!"}
-      - {who: haru, type: shout, side: c, text: "HOW MANY SNACKS IS THAT?!"}
+      - {who: haru, type: shout, side: c, text: "HOW MANY SNACKS COULD FIFTY MILLION BUY?!"}
     sfx:
       - {text: "KLATTER", style: impact, at: [0.56, 0.80], size: M, rot: 12}
     notes: "The chapter's big reaction."
@@ -638,7 +634,7 @@ panels:
     lines:
       - {who: grandma, type: speech, side: r, text: "DID YOU SAY NO?"}
       - {who: nib, type: speech, side: r, text: "EVENTUALLY."}
-      - {who: taeo, type: nervous, side: l, text: "...I SAID HE'S NOT MINE TO SELL."}
+      - {who: taeo, type: nervous, side: l, text: "I SAID NIB'S NOT MINE TO SELL."}
     notes: "True to ch 5–6: Taeo told Kanghan 'I'M... THINKING ABOUT IT' before 'HE'S NOT MINE TO SELL'. Nib is not holding a grudge (ch 6: 'NOW YOU'RE NOT'); he is being accurate."
 
   - id: P38
@@ -652,8 +648,8 @@ panels:
       on explaining, quieter now. Amber light, a curl of steam.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "THERE'S A REVIEW IN TWENTY DAYS. A PANEL. IF THEY FILE HIM AS A CONSTRUCT, HE'S PROPERTY."}
-      - {who: taeo, type: speech, side: r, text: "AND PROPERTY CAN BE SOLD."}
+      - {who: taeo, type: speech, side: c, text: "IN TWENTY DAYS, A PANEL DECIDES IF NIB IS A PERSON OR A CONSTRUCT."}
+      - {who: taeo, type: speech, side: c, text: "IF THEY CALL NIB A CONSTRUCT, HE CAN BE SOLD AS PROPERTY."}
     notes: "20 days: ch 6 said 'TWENTY-THREE DAYS' on Thursday 16 March, so the review falls on 8 April. Echoes Chae's ch 4 line. Runner: Grandma feeds everyone fish."
 
   - id: P39
@@ -668,7 +664,7 @@ panels:
     lines:
       - {who: haru, type: speech, side: l, text: "A T. REX CALLED SUE GOT SOLD FOR EIGHT MILLION DOLLARS."}
       - {who: nib, type: speech, side: r, text: "WAS SHE ALIVE?"}
-      - {who: haru, type: speech, side: l, text: "...NO."}
+      - {who: haru, type: speech, side: l, text: "NO."}
     notes: "Runner: Haru's dinosaur facts at gravity moments. True: the fossil T. rex 'Sue' sold at auction in 1997 for $8.36 million."
 
   - id: P40
@@ -680,7 +676,7 @@ panels:
       Nib, deadpan, moves his eyes from Haru to Taeo. Not angry: exact. Plain warm background.
     calm: right
     lines:
-      - {who: nib, type: speech, side: l, text: "THEN SHE DIDN'T GET A SAY."}
+      - {who: nib, type: speech, side: l, text: "THEN SUE DIDN'T GET A SAY."}
     notes: "Theme: every summon is a person who can say no."
 
   - id: P41
@@ -695,8 +691,8 @@ panels:
       light, the courtyard's cool light along the table edge.
     calm: top
     lines:
-      - {who: grandma, type: speech, side: r, text: "HE BONED A MACKEREL AT MY TABLE. HE'S A PERSON."}
-      - {who: grandma, type: speech, side: r, text: "TELL YOUR PANEL I SAID SO."}
+      - {who: grandma, type: speech, side: r, text: "NIB BONED A MACKEREL AT MY TABLE. HE'S A PERSON."}
+      - {who: grandma, type: speech, side: r, text: "TELL THE REVIEW PANEL I SAID SO."}
       - {who: grandpa, type: speech, side: l, text: "IT'S FINE. IT'LL BE FINE."}
     notes: "Beats: Grandma's direct questions are answered; Grandpa: 'IT'S FINE.' (2 of 3). Callback to ch 7's 'DOES HE EAT FISH?'"
 
@@ -715,8 +711,8 @@ panels:
     calm: top
     lines:
       - {who: narr, type: tag, text: "2:35 PM"}
-      - {who: grandma, type: speech, side: r, text: "HE DOESN'T TAKE ANYONE TO THE WALL."}
-      - {who: taeo, type: speech, side: l, text: "WHY NOT?"}
+      - {who: grandma, type: speech, side: r, text: "GRANDPA DOESN'T TAKE ANYONE TO THE BREAKWATER. HE CALLS IT THE WALL."}
+      - {who: taeo, type: speech, side: l, text: "WHY DOES HE GO ALONE?"}
       - {who: grandma, type: speech, side: r, text: "ASK HIM. HE'LL SAY IT'S FINE."}
     notes: "Locals call the breakwater 'the wall'. It rhymes with Nib's post ('WALL HERE', ch 4); don't point it out."
 
@@ -763,7 +759,7 @@ panels:
     calm: left
     lines:
       - {who: nib, type: speech, side: l, text: "YOU DRANK FIRST."}
-      - {who: "offpanel:grandpa", type: speech, side: r, text: "ALWAYS. ON WATCH."}
+      - {who: "offpanel:grandpa", type: speech, side: r, text: "WE ALWAYS DRANK FIRST ON WATCH."}
 
   - id: P46
     shape: wide
@@ -776,7 +772,7 @@ panels:
       RIGHT). Between and beyond them, framed exactly: the sea gate on the water inside its ring of buoys. Wind, glitter on the sea.
     calm: top
     lines:
-      - {who: nib, type: speech, side: r, text: "YOU WATCH IT."}
+      - {who: nib, type: speech, side: r, text: "YOU WATCH THE SEA GATE."}
       - {who: grandpa, type: speech, side: l, text: "SOMEBODY SHOULD."}
     notes: "Answers the cold open's 'WHO KEEPS WATCH ON IT?' (P03). Nobody is paid to; the old man does it anyway."
 
@@ -790,9 +786,9 @@ panels:
       moment. Nib at the right edge on the wall top, turned toward him, listening.
     calm: top-left
     lines:
-      - {who: grandpa, type: speech, side: l, text: "I STOOD WATCH ON A COAST LIKE THIS. A CONSCRIPT. THREE YEARS OF NIGHTS."}
+      - {who: grandpa, type: speech, side: l, text: "I WAS A CONSCRIPT ON A COAST LIKE THIS. THREE YEARS OF NIGHT WATCHES."}
       - {who: nib, type: speech, side: r, text: "ALONE?"}
-      - {who: grandpa, type: speech, side: l, text: "TWO HOURS AT A TIME. THEN YOUR RELIEF CAME."}
+      - {who: grandpa, type: speech, side: l, text: "TWO HOURS AT A TIME. THEN YOUR RELIEF CAME TO TAKE THE NEXT WATCH."}
     notes: "Beat: Grandpa was a conscript at a coastal post. Army service was 36 months from 1968 to 1977 (Defense White Paper 2020), which fits a 74-year-old's early-1970s service."
 
   - id: P48
@@ -807,8 +803,8 @@ panels:
       flashlight: the relief. The flashlight beam is the one warm colour in the panel. The relief's face is not shown.
     calm: top
     lines:
-      - {who: "offpanel:grandpa", type: speech, side: c, text: "THE COLD WASN'T THE HARD PART. THE LAST HOUR WAS."}
-      - {who: "offpanel:grandpa", type: speech, side: c, text: "BUT SOMEBODY ALWAYS COMES TO TAKE OVER."}
+      - {who: "offpanel:grandpa", type: speech, side: c, text: "THE LAST HOUR OF WATCH WAS WORSE THAN THE COLD."}
+      - {who: "offpanel:grandpa", type: speech, side: c, text: "SOMEBODY ALWAYS COMES TO TAKE OVER."}
     notes: "Beat line, verbatim: 'SOMEBODY ALWAYS COMES TO TAKE OVER.' It gives Nib the word 'relief' that he uses at the review (ch 9: 'I'M SOMEONE'S RELIEF')."
 
   - id: P49
@@ -822,7 +818,7 @@ panels:
       the far left of the strip.
     calm: right
     lines:
-      - {who: nib, type: speech, side: l, text: "HE'LL FIND MY PLACE EMPTY."}
+      - {who: nib, type: speech, side: l, text: "MY RELIEF WILL FIND MY POST EMPTY."}
     notes: "Beat line. It echoes his ch 2–3 line about Kett (no new ledger row)."
 
   - id: P50
@@ -835,7 +831,7 @@ panels:
       question. In the near foreground at the right edge: Nib's left shoulder and his notched LEFT ear. Plain sky behind.
     calm: right
     lines:
-      - {who: grandpa, type: speech, side: l, text: "YOUR RELIEF?"}
+      - {who: grandpa, type: speech, side: l, text: "WHO'S YOUR RELIEF?"}
       - {who: nib, type: speech, side: r, text: "KETT. I TRAINED HIM."}
     notes: "The first time Nib tells anyone who Kett is (STORY_BIBLE §6: the younger scout he trained)."
 
@@ -897,8 +893,8 @@ panels:
       sticker, then at Taeo's pocket where the phone is, then back. Gold light.
     calm: top
     lines:
-      - {who: haru, type: speech, side: l, text: "FOR YOUR POUCH. IT'S THE SAME AS HYUNG'S PHONE."}
-      - {who: nib, type: speech, side: r, text: "...THE SHOUTING BRICK HAS ONE."}
+      - {who: haru, type: speech, side: l, text: "I BROUGHT YOU A DINOSAUR STICKER. IT MATCHES THE ONE ON HYUNG'S PHONE."}
+      - {who: nib, type: speech, side: r, text: "THE SHOUTING BRICK HAS A DINOSAUR."}
       - {who: haru, type: speech, side: l, text: "THE SHOUTING BRICK!"}
     notes: "Beat: Haru's gift. Runner: Nib calls the phone 'the shouting brick' (STORY_BIBLE §6). Haru will now too."
 
@@ -941,8 +937,8 @@ panels:
       with the cart. Gold light, long shadows.
     calm: top
     lines:
-      - {who: grandma, type: speech, side: l, text: "SIDE DISHES. EAT THEM."}
-      - {who: grandma, type: speech, side: l, text: "AND CALL. NOT 'I ATE.' CALL."}
+      - {who: grandma, type: speech, side: l, text: "SIDE DISHES FOR YOU AND NIB. EAT THEM."}
+      - {who: grandma, type: speech, side: l, text: "AND CALL ME. TYPING 'I ATE' DOESN'T COUNT."}
       - {who: taeo, type: speech, side: r, text: "I'LL CALL."}
     sfx:
       - {text: "SKREEE", style: quiet, at: [0.86, 0.72], size: S, rot: 0}
@@ -958,8 +954,8 @@ panels:
       knuckles; plain background.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: r, text: "GRANDPA. THAT'S YOUR CARDBOARD."}
-      - {who: grandpa, type: speech, side: l, text: "IT'S FINE."}
+      - {who: taeo, type: speech, side: r, text: "GRANDPA, YOU EARNED THIS MONEY FROM YOUR CARDBOARD."}
+      - {who: "offpanel:grandpa", type: speech, side: l, text: "IT'S FINE."}
     notes: "The ₩3,200 from P10: an old man's bus money for his grandson. 'IT'S FINE', 3 of 3; the hook is the one time he doesn't say it."
 
   - id: P59

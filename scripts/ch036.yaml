@@ -32,7 +32,7 @@ location_notes:
   archive_rescue_site: "Last year's tablet footage only: anonymous grey gate-site underpass, concrete columns, olive rescue crew and barriers. Desaturated cool flashback palette with olive as remembered colour. No real location, named victim or Kang identification."
 panels:
   - id: P01
-    shape: wide
+    shape: tall
     gap: none
     bg: black
     camera: "pharmacy rear, profile of Nib receiving Taeo's last transmission"
@@ -40,10 +40,11 @@ panels:
       sinjeong_pharmacy WEST door: Nib (adult default, barefoot, binoculars) holds his LEFT-hand radio beside his cheek, free hand
       on the key ring. Ten civilians and intact-shelled orrin wait behind; minho watches the blocked EAST exit. Torch-white/red
       lamp, smoke-grey and violet shadow. Nib listens without triumph; no floating map, return ring or smile at Taeo's mistake.
+      Nib RIGHT at the rear door, Minho LEFT at the shutter, civilians and Orrin behind; leave the full group vertical room. Taeo's radio voice comes from the LEFT.
     calm: top
     lines:
-      - {who: taeo, type: phone, side: l, text: "I'M SORRY. YOU LEAD."}
-      - {who: nib, type: speech, side: r, text: "YES. LISTEN."}
+      - {who: "offpanel:taeo", type: phone, side: l, text: "I'M SORRY. YOU LEAD."}
+      - {who: "nib", type: speech, side: r, text: "I'LL FIND A ROUTE. LISTEN."}
   - id: P02
     shape: strip
     gap: short
@@ -65,11 +66,12 @@ panels:
       Nib (default) at sinjeong_pharmacy WEST jamb tilts his notched LEFT ear toward a faint tapping beyond the door; amber eyes
       track the draft under it. Single lower LEFT fang, adult angular jaw, binocular strap knot at LEFT neck. White torch grazes
       his cheek, red light behind. No supernatural radar, cute ears or interface reflected in the eye.
+      Nib's face and notched ear occupy the LEFT of this close-up.
     calm: right
     lines:
-      - {who: nib, type: speech, side: l, text: "AIR GOES THROUGH. SOMEONE'S WITH IT."}
+      - {who: "nib", type: speech, side: l, text: "AIR DRAWS UNDER THE DOOR. PEOPLE ARE TAPPING BEYOND IT."}
   - id: P04
-    shape: wide
+    shape: full
     gap: short
     bg: black
     camera: "over Nib's shoulder toward pharmacist handing him the correct key"
@@ -77,10 +79,11 @@ panels:
       sinjeong_pharmacy: pharmacist (cream cardigan, scraped knuckles) picks one key from her ring and presses it between Nib's
       fingers, concentrating fiercely. Minho (brown jacket) directs torch toward the ordinary metal lock. Orrin waits calmly with
       two civilians seated low on intact shell. Torch-white key, smoke-grey palette, violet shadow; blank cabinets, no new passage already open.
+      Waist-up group view: Nib LEFT, pharmacist RIGHT, Minho CENTRE; Orrin's face and seated passengers beyond.
     calm: top
     lines:
-      - {who: pharmacist, type: speech, side: r, text: "SMALL ONE. IT STICKS. PULL THE HANDLE TOWARD YOU."}
-      - {who: nib, type: speech, side: l, text: "SHOW ME."}
+      - {who: "pharmacist", type: speech, side: r, text: "USE THE SMALL KEY. THE LOCK STICKS. PULL THE HANDLE TOWARD YOU."}
+      - {who: "nib", type: speech, side: l, text: "SHOW ME HOW."}
   - id: P05
     kind: title
     gap: long
@@ -95,10 +98,11 @@ panels:
       sinjeong_stockrooms pharmacy section: narrow NORTH shelves of blank cartons, low concrete ceiling, shared service door at
       NORTH end. Nib (adult default) leads with torch low, pharmacist right behind; minho tests the overhead pipe clearance for
       Orrin's 135 cm slate shell. Smoke flows toward the far door. White torch and distant red lamp, violet-grey shade; no dungeon sky, new gate or tiny cute carrier.
+      Nib LEFT leading, pharmacist CENTRE, Minho RIGHT and Orrin behind; leave the standing figures room. Taeo's radio reply comes from the RIGHT.
     calm: top
     lines:
-      - {who: nib, type: phone, side: l, text: "BACK OF PHARMACY. NORTH DOOR. DON'T PUT IT ON THE OLD MAP."}
-      - {who: taeo, type: phone, side: r, text: "I'M WRITING WHAT YOU SAY."}
+      - {who: "nib", type: phone, side: l, text: "BACK OF PHARMACY. NORTH DOOR. DON'T USE THE OLD MAP."}
+      - {who: "offpanel:taeo", type: phone, side: r, text: "I'M WRITING DOWN YOUR ROUTE."}
   - id: P07
     shape: strip
     gap: short
@@ -108,11 +112,12 @@ panels:
       sinjeong_f_stair trestle: taeo's navy cuffs frame a FRESH sheet beside the face-down old map. His pencil draws a plain
       dogleg only after hearing the radio. Little blue shoe sits beside the grey base; all white lamps steady. Cold work light,
       blue-grey paper. No prefilled direction labels, floating system guidance or automatically moving pencil.
+      Hands and route sheet only. Taeo speaks from outside this detail crop to the LEFT.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "BACK OF PHARMACY. NORTH DOOR. REPEATING ONLY."}
+      - {who: "offpanel:taeo", type: speech, side: l, text: "BACK OF PHARMACY. NORTH DOOR. I'M RECORDING YOUR ROUTE."}
   - id: P08
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "eye level in stockroom as Minho and worker move cartons aside"
@@ -120,12 +125,13 @@ panels:
       sinjeong_stockrooms: minho (default) and one ryu_crew worker slide stacked blank cartons away from a wall without breaking
       them. Orrin waits, knees flexed to lower shell; Nib watches the available width, one palm measuring nothing more than space.
       Hard torch highlights, grey/violet shadow, muted orange vest. No magic strength flare, crushed supplies or adult passengers standing on shell.
+      Orrin LEFT, Nib CENTRE, Minho RIGHT beside the worker; leave all full figures room around the shelves.
     calm: top
     lines:
-      - {who: minho, type: speech, side: r, text: "WE CAN MAKE THAT WIDTH."}
-      - {who: orrin, type: speech, side: l, text: "WIDTH IS OFTEN A NEGOTIATION WITH FURNITURE."}
+      - {who: "minho", type: speech, side: r, text: "WE CAN MOVE THESE CARTONS TO MAKE ROOM."}
+      - {who: "orrin", type: speech, side: l, text: "I FIND FURNITURE EASIER TO MOVE THAN WALLS."}
   - id: P09
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "low beside the NORTH shared door as Nib opens it"
@@ -133,9 +139,10 @@ panels:
       Nib (adult default, LEFT notch, brown hip props, binoculars) in sinjeong_stockrooms eases the NORTH door inward with his
       shoulder, not knife. Behind it stand coat rails in clear blank garment bags, and a small hand grips one lower rail. Minho's
       white torch stops at the hand. Grey stockroom, violet shadows, distant red lamp; no scare-face monster or new portal.
+      Waist-up view: Nib LEFT opening the door, Minho RIGHT behind him; the small hand appears near lower CENTRE.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "PEOPLE. I'M OPENING IT."}
+      - {who: "nib", type: speech, side: l, text: "RESCUE CREW. I'M OPENING THE DOOR."}
   - id: P10
     shape: full
     gap: short
@@ -146,23 +153,25 @@ panels:
       leggings sits with both socked feet exposed. reunited_child holds reunited_mother's beige
       sleeve; two grey-apron shop staff and a brown-jacket rider crouch behind. Nib (adult default) lowers his torch away from eyes,
       sympathetic but brisk. White beam/red spill, grey-violet palette; no printed clothing brands or blood.
+      Nib LEFT at the open door and the speaking mother RIGHT among the six civilians; show standing figures with room.
     calm: top
     lines:
-      - {who: reunited_mother, type: speech, side: r, text: "THE FRONT TURNED INTO STONE."}
-      - {who: nib, type: speech, side: l, text: "THIS SIDE DIDN'T. CAN YOU WALK?"}
+      - {who: "reunited_mother", type: speech, side: r, text: "STONE BLOCKED THE FRONT EXIT."}
+      - {who: "nib", type: speech, side: l, text: "THIS DOOR IS CLEAR. CAN YOU WALK?"}
   - id: P11
-    shape: inset-r
+    shape: tall
     gap: short
     bg: white
     silent: true
-    camera: "close on Nib seeing the boy's mismatched feet"
+    camera: "silent medium view of Nib crouching beside the boy's two socked feet"
     art: >
       sinjeong_stockrooms: Nib (default, weathered adult) crouches at last_child's level, eyes dropping to the two white-socked
       feet and the missing-shoe marks in the dust. His face registers a private connection, then returns to the child's eyes. Torch
       on grey floor, violet shadows; binoculars against chest. No explanatory flashback, second shoe appearing or cute treatment of Nib.
+      Pull back to a silent medium view: Nib crouches LEFT, the sock-footed boy sits RIGHT. Show the child's whole figure and both socked feet without compressing either body.
     calm: none
   - id: P12
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "side-on Nib offering the boy a hand while transmitting"
@@ -170,13 +179,14 @@ panels:
       sinjeong_stockrooms clothing section: Nib (default) holds LEFT radio near his mouth and offers his free RIGHT hand to the
       last_child, who hesitates before taking it. Minho (brown jacket) counts the six new faces behind him, pen on blank notebook.
       Hard white torch, smoky grey/violet; no shoe handed over, unsafe blade or amber link carrying speech.
+      Waist-up group: Nib LEFT, boy CENTRE, Minho RIGHT behind him. Taeo's radio voice comes from the RIGHT.
     calm: top
     lines:
-      - {who: nib, type: phone, side: l, text: "SIX MORE. TWO CHILDREN. ONE'S LOST HIS SHOES."}
-      - {who: taeo, type: phone, side: r, text: "I HAVE A BLUE ONE."}
-      - {who: nib, type: speech, side: l, text: "HE'S KEEPING IT."}
+      - {who: "nib", type: phone, side: l, text: "SIX MORE PEOPLE. TWO CHILDREN. THE BOY HAS LOST BOTH SHOES."}
+      - {who: "offpanel:taeo", type: phone, side: r, text: "I HAVE ONE BLUE SHOE HERE."}
+      - {who: "nib", type: speech, side: l, text: "THE MAN AT THE EXIT IS KEEPING THE SHOE SAFE."}
   - id: P13
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "rear three-quarter of Nib reading the EAST exit's air gap"
@@ -184,6 +194,7 @@ panels:
       sinjeong_stockrooms EAST end: Nib (barefoot default, binoculars) holds the hem of an empty garment bag close to a push-bar
       exit's lower gap; the plastic lifts toward it in the draft. His posture is steady scout work, not magic. Pharmacist and
       minho watch, ready. White torch, cool grey walls and violet shade; no readable exit lettering, glowing route or opened sky.
+      Waist-up three-shot: Nib LEFT at the door gap, pharmacist CENTRE and Minho RIGHT.
     calm: top
     lines:
       - {who: nib, type: speech, side: l, text: "COOLER HERE. SMOKE'S GOING OUT."}
@@ -197,9 +208,10 @@ panels:
       sinjeong_stockrooms exit opens onto a narrow service dogleg, NORTH then EAST around a cream concrete pier. A familiar white
       cable and red emergency lamp are visible through the far EAST opening: F NORTH of the blocked T. Nib (adult default) peers
       first, minho's torch behind; faces show guarded relief. Grey/red and violet shadow; no new gate, daylight or impossible straight sight through the pier.
+      Nib LEFT at the open door, Minho RIGHT with torch. Leave both standing figures vertical room.
     calm: top
     lines:
-      - {who: nib, type: phone, side: l, text: "NORTH. THEN EAST. BACK TO F, ABOVE THE WALL."}
+      - {who: "nib", type: phone, side: l, text: "NORTH. THEN EAST. BACK TO F, NORTH OF THE WALL."}
   - id: P15
     shape: strip
     gap: short
@@ -209,11 +221,12 @@ panels:
       sinjeong_stockrooms dogleg: two ryu_crew workers' gloved hands feed a spare WHITE cable with BLUE metre bands around the
       pier, protecting it from the EAST door swing. Existing line remains connected behind; a grey tripod relay stands at the
       junction where spacing requires it. White lamps/torch, grey tile, violet shade. No severed wire, improvised wireless miracle or numerals.
+      Workers' hands and cable only. Haein's radio voice enters from outside the crop to the LEFT.
     calm: top
     lines:
-      - {who: haein, type: phone, side: l, text: "BYPASS LOOP CONNECTED. DON'T PULL THE OLD RUN YET."}
+      - {who: "offpanel:haein", type: phone, side: l, text: "BYPASS CABLE CONNECTED. DON'T REMOVE THE OLD CABLE YET."}
   - id: P16
-    shape: full
+    shape: tall
     gap: short
     bg: white
     camera: "wide from the dogleg as the combined group moves through"
@@ -221,10 +234,11 @@ panels:
       sinjeong_stockrooms dogleg: Nib (default) leads the last_child by one hand; sixteen civilians now move, including two
       seated low on Orrin's intact shell. Yellow-raincoat girl follows her mother; minho guards the rear. Ryu worker holds EAST exit
       open, cable along safe edge. White torch/red emergency key, grey-violet shadows. Keep people distinct, no mass duplicated faces or crowd crossing a gate.
+      Nib LEFT with the boy, Orrin CENTRE carrying two, Minho RIGHT at rear; give the entire moving group full height. Taeo's radio reply arrives from the LEFT.
     calm: top
     lines:
-      - {who: minho, type: phone, side: r, text: "SIXTEEN COMING THROUGH. NEW ROUTE VERIFIED ON FOOT."}
-      - {who: taeo, type: phone, side: l, text: "F IS READY. MEDIC'S WAITING."}
+      - {who: "minho", type: phone, side: r, text: "SIXTEEN COMING THROUGH. NEW ROUTE VERIFIED ON FOOT."}
+      - {who: "offpanel:taeo", type: phone, side: l, text: "F IS READY. MEDIC'S WAITING."}
   - id: P17
     shape: inset-l
     gap: short
@@ -234,12 +248,13 @@ panels:
       pharmacist (cream cardigan, short perm) at sinjeong_stockrooms EAST exit looks back at her blank cartons and coat rails, keys
       pressed to her chest. Her mouth tightens over the shop she is leaving. Nib's hand holds the door at edge, patient. Cold torch,
       muted cream and violet; no speech-bearing signs, loot, fire consuming the shop or tear fountain.
+      Pharmacist RIGHT in a head-and-shoulders crop. Only Nib's hand is seen at LEFT; he speaks from outside that edge.
     calm: right
     lines:
-      - {who: pharmacist, type: whisper, side: r, text: "I OPENED THAT SHOP TWENTY-THREE YEARS AGO."}
-      - {who: nib, type: speech, side: l, text: "KEEP THE KEY."}
+      - {who: "pharmacist", type: whisper, side: r, text: "I OPENED MY PHARMACY TWENTY-THREE YEARS AGO."}
+      - {who: "offpanel:nib", type: speech, side: l, text: "KEEP THE KEY."}
   - id: P18
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "street side, reporter approaching the north base with tablet"
@@ -247,12 +262,13 @@ panels:
       sinjeong_street by F: reporter, adult man in charcoal press vest and pale blue shirt, approaches taeo (outdoors) with a dark
       tablet hugged to his chest and bulky camera bag over shoulder. Haein (overalls) points him away from the medical lane,
       blunt rather than angry. Cold white work lights, navy shadows. All press tags blank; no green screen, live close-up of injured civilians or readable logos.
+      Taeo LEFT, Haein CENTRE, reporter RIGHT with tablet; all standing bodies have room.
     calm: top
     lines:
-      - {who: reporter, type: speech, side: r, text: "CAN WE GET THE CAPTAIN'S RADIO ON THIS?"}
-      - {who: taeo, type: speech, side: l, text: "PLEASE KEEP THAT LANE CLEAR."}
+      - {who: "reporter", type: speech, side: r, text: "CAN WE RECORD CAPTAIN HAN'S RADIO TRAFFIC ON MY TABLET?"}
+      - {who: "taeo", type: speech, side: l, text: "PLEASE KEEP THE MEDICAL LANE CLEAR."}
   - id: P19
-    shape: inset-r
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -261,12 +277,13 @@ panels:
       Flat pale slate gag ground representing sinjeong_street's SAFE media staging area. Chibi reporter stands primly behind a
       barrier while his enormous square camera bag occupies the whole lane; chibi haein (overalls, bob, glasses) points at the bag
       with a carpenter's absolute disapproval. Cold work-light colours. No suffering civilians, monsters, injury comedy or readable press credential.
+      Roomy full gag composition: Haein LEFT, reporter RIGHT, the bag CENTRE.
     calm: left
     lines:
       - {who: reporter, type: speech, side: r, text: "I'M BEHIND THE LINE."}
       - {who: haein, type: speech, side: l, text: "YOUR BAG ISN'T."}
   - id: P20
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "over Taeo's shoulder as reporter moves his bag and wakes tablet"
@@ -274,26 +291,28 @@ panels:
       sinjeong_street: reporter has moved bag behind the barrier and holds tablet toward himself and taeo (outdoors), screen: green.
       His brows brighten with a familiar ready-made archive; Taeo keeps one ear on LEFT-hand radio. Work lamp and tablet edge light,
       blue-grey palette, old patch visible. No generated app wording or Seoryun portrait in the green area; letterer supplies archive presentation.
+      Waist-up two-shot: Taeo LEFT, reporter RIGHT, tablet between them.
     calm: top
     ui:
       - {kind: phone.live_stream, on: screen, title: "KNN 24 · ARCHIVE", text: "Last year's rescue briefing · Clip 00:24"}
     lines:
-      - {who: reporter, type: speech, side: r, text: "WE'VE GOT LAST YEAR'S PACKAGE READY. SHE ALWAYS GOES BACK."}
+      - {who: "reporter", type: speech, side: r, text: "WE HAVE LAST YEAR'S RESCUE FOOTAGE READY. SHE ALWAYS GOES BACK."}
   - id: P21
-    shape: wide
+    shape: tall
     gap: short
     bg: white
-    camera: "tablet archive video expanded full-frame, frontal briefing two-shot"
+    camera: "tablet archive video expanded full-frame, standing two-shot of the command handoff"
     art: >
       VIDEO IMAGE ONLY from reporter's tablet, archive_rescue_site: seoryun (olive kit, low ponytail, LEFT brow scar) hands a radio
       handset to archive_vice, adult woman in olive rescue gear with tied-back dark hair, side profile. Seoryun looks tired but
       deliberately trusting; vice takes it firmly. Desaturated cool grey memory palette, olive remembered colour, concrete underpass under work lights.
       No UI drawn, name tag, Kang likeness or present-day injuries.
+      Archive Seoryun LEFT and vice-captain RIGHT, both fully visible during the handoff; give the standing pair vertical room.
     calm: top
     ui:
       - {kind: phone.live_stream, on: panel, title: "KNN 24 · ARCHIVE", text: "00:24 · VICE-CAPTAIN TAKES COMMAND"}
     lines:
-      - {who: seoryun, type: phone, side: l, text: "YOU HAVE COMMAND. TAKE THEM OUT BY THE EAST LINE."}
+      - {who: seoryun, type: phone, side: l, text: "YOU HAVE COMMAND. TAKE THE CREW OUT BY THE EAST LINE."}
       - {who: archive_vice, type: phone, side: r, text: "I HAVE COMMAND. EAST LINE."}
     notes: "PLANT P12: first half of the old tablet clip. Hand-off at 00:24; no backstory explanation or judgement."
   - id: P22
@@ -311,20 +330,21 @@ panels:
       - {kind: phone.live_stream, on: panel, title: "KNN 24 · ARCHIVE", text: "00:30"}
     notes: "PLANT P12: show the vice-captain actually carrying out the instruction before it is overridden."
   - id: P23
-    shape: wide
+    shape: full
     gap: short
     bg: white
-    camera: "tablet archive, reverse over deputy's shoulder as Seoryun reaches back"
+    camera: "tablet archive, medium two-shot as Seoryun takes the handset back"
     art: >
       VIDEO IMAGE ONLY, archive_rescue_site: seoryun (olive kit, low ponytail, LEFT scar) steps back into frame and takes the
       offered handset back from archive_vice. Her face tight with concern, not spite; vice's half-raised directing hand stops for
       one beat. Desaturated cool grey concrete, hard white work light, olive accent. No villain pose, casualty montage, readable nameplate or UI drawn.
+      Waist-up archive two-shot: Seoryun LEFT, vice-captain RIGHT, both faces and the returned handset visible.
     calm: top
     ui:
       - {kind: phone.live_stream, on: panel, title: "KNN 24 · ARCHIVE", text: "00:34 · TEN SECONDS LATER"}
     lines:
-      - {who: seoryun, type: phone, side: l, text: "WAIT. I'LL TAKE IT. USE THE WEST LINE."}
-      - {who: archive_vice, type: phone, side: r, text: "COPY. WEST."}
+      - {who: "seoryun", type: phone, side: l, text: "WAIT. I'LL TAKE COMMAND BACK. USE THE WEST LINE."}
+      - {who: "archive_vice", type: phone, side: r, text: "COPY. WEST."}
     notes: "PLANT P12: command taken back at 00:34, exactly TEN SECONDS after 00:24. Required plant complete; no payoff or lecture."
   - id: P24
     shape: inset-l
@@ -335,10 +355,11 @@ panels:
       taeo (outdoors) beside sinjeong_f_stair turns away from reporter's tablet, screen now facing away, toward his own radio.
       His eyes pause for a fraction, then sharpen on the real voices downstairs. Cold white street lamp, navy shadow, RIGHT-eye
       mole. Old patch edge at shoulder; no thought portrait, knowing smirk or spoken analysis of Seoryun.
+      Taeo's face is RIGHT in the inset. Nib's radio voice enters from outside the frame to the LEFT.
     calm: right
     lines:
-      - {who: nib, type: phone, side: l, text: "NEW ROUTE'S OPEN. WE'RE AT THE FIRE DOOR."}
-      - {who: taeo, type: speech, side: r, text: "HEARD. KEEP LEADING."}
+      - {who: "offpanel:nib", type: phone, side: l, text: "BYPASS OPEN. WE'RE AT THE FIRE DOOR."}
+      - {who: "taeo", type: speech, side: r, text: "HEARD. KEEP LEADING."}
   - id: P25
     shape: full
     gap: short
@@ -348,14 +369,15 @@ panels:
       sinjeong_arcade F landing NORTH of obstruction: Nib (default) guides reunited_mother, two grey-apron staff and the brown-jacket
       rider toward the open fire door; ryu_crew worker receives them at stair. The two children remain behind with pharmacist and
       the ten-person pharmacy group. Orrin's shell intact. Torch-white, red emergency, violet-grey tile. No automatic return effects or detached children wandering alone.
+      Nib LEFT foreground, mother RIGHT foreground, and Minho RIGHT behind her with his chest radio raised to transmit. All three speakers are visibly drawn; give the standing group room.
     calm: top
     lines:
-      - {who: reunited_mother, type: speech, side: r, text: "MY DAUGHTER—"}
-      - {who: nib, type: speech, side: l, text: "BEHIND ME. THEY'LL SEE YOUR BREATHING UPSTAIRS."}
-      - {who: minho, type: phone, side: r, text: "FOUR TO MEDIC. TWELVE WITH US BELOW."}
+      - {who: "reunited_mother", type: speech, side: r, text: "WHERE'S MY DAUGHTER?"}
+      - {who: "nib", type: speech, side: l, text: "YOUR DAUGHTER'S BEHIND ME. THE MEDIC WILL CHECK YOUR BREATHING UPSTAIRS."}
+      - {who: "minho", type: phone, side: r, text: "FOUR TO MEDIC. TWELVE WITH US BELOW."}
     notes: "Of sixteen, four exit first: girl's mother, two shop assistants, rider. Twelve remain: ten pharmacy civilians plus boy and girl. Mother is breathless; separation is a supervised short handoff."
   - id: P26
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "casualty bay, Taeo delivering the mother to Sejin"
@@ -363,10 +385,11 @@ panels:
       sinjeong_street NORTH bay: taeo (outdoors) guides beige-raincoat reunited_mother to sejin (sage scrubs/olive rig), who places a
       chair under her immediately and listens to her breathing. Two staff and rider move behind to another responder. White work
       lamp, blue-grey road, restrained beige. Mother's face is fear for her child, not delirium; no miraculous healing or camera shoved at her.
+      Waist-up handoff: mother LEFT, Sejin CENTRE, Taeo RIGHT; the other responders remain behind.
     calm: top
     lines:
-      - {who: reunited_mother, type: speech, side: l, text: "YELLOW RAINCOAT. PLEASE DON'T LOSE HER."}
-      - {who: taeo, type: speech, side: r, text: "I HEARD YOU. I'LL TELL THEM."}
+      - {who: "reunited_mother", type: speech, side: l, text: "YELLOW RAINCOAT. PLEASE DON'T LOSE HER."}
+      - {who: "taeo", type: speech, side: r, text: "I'LL TELL NIB TO KEEP YOUR DAUGHTER CLOSE."}
   - id: P27
     shape: strip
     gap: short
@@ -379,7 +402,7 @@ panels:
       each, aching restraint rather than melodrama; no force transfer, new bruise, blood or written promise.
     calm: none
   - id: P28
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "from the base station toward east street cordon, Taeo returning to frame"
@@ -387,10 +410,11 @@ panels:
       sinjeong_street: taeo (outdoors) returns to the WEST-of-F trestle, radio up. Beyond F's EAST side, cordon_team shields brace
       near a collapsed lightwell where the rim of one existing gate now reaches street level. Cold work lights, concrete blue-grey,
       violet at lightwell, restrained red warning. Haein watches the SAME connected base. No eighth gate, cable break or visible hound yet.
+      Taeo LEFT and Haein RIGHT foreground, cordon farther RIGHT behind them; leave the standing figures room. Nib's radio reply comes from the RIGHT.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "YELLOW RAINCOAT'S MOTHER IS WITH SEJIN. PLEASE KEEP HER CLOSE."}
-      - {who: nib, type: phone, side: r, text: "SHE'S HERE."}
+      - {who: "taeo", type: speech, side: l, text: "THE GIRL'S MOTHER IS WITH SEJIN. KEEP THE GIRL CLOSE, PLEASE."}
+      - {who: "offpanel:nib", type: phone, side: r, text: "THE GIRL'S WITH ME."}
   - id: P29
     shape: strip
     gap: short
@@ -404,7 +428,7 @@ panels:
     sfx:
       - {text: KLANG, style: impact, at: [0.57, 0.45], size: L, rot: -12}
   - id: P30
-    shape: full
+    shape: tall
     gap: short
     bg: black
     camera: "wide across north pavement as the defensive line gives way"
@@ -412,12 +436,13 @@ panels:
       sinjeong_street EAST of F: THREE lean charcoal hound-shaped creatures spill through the expanded existing gate at the collapsed
       lightwell, driving cordon_team back toward concrete barriers. One shield falls; responders remain alive and scrambling. F stair
       hood is WEST foreground, evacuation lane behind. Cold work light/red warning, violet gate rim. No demon wings, decorative flames or additional monsters off-model.
+      A grey-helmeted cordon responder on the RIGHT calls the warning while retreating; leave standing responders and all three hounds room.
     calm: top
     lines:
       - {who: crowd, type: shout, side: r, text: "EAST CORDON'S BROKEN! BACK FROM THE STAIR!"}
     notes: "The OUTSIDE DEFENSIVE LINE breaks. The WHITE RADIO CABLE stays intact; do not draw it severed."
   - id: P31
-    shape: wide
+    shape: tall
     gap: short
     bg: black
     camera: "front on Taeo, street threat behind his shoulder"
@@ -425,12 +450,13 @@ panels:
       BIG REACTION: taeo (outdoors) at sinjeong_f_stair flinches toward three hounds EAST, pupils tiny, teeth bared in a helpless
       intake. He keeps LEFT radio at his mouth while his RIGHT hand finds the stair rail. Haein (overalls) reaches for the base
       box to move it clear. Hard white light, navy shadow, single red warning. No chibi, fainting or sudden combat weapon.
+      Taeo LEFT, Haein RIGHT reaching for the base, hounds far RIGHT behind; both standing figures have room. Nib replies by radio from the RIGHT.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "NIB. STREET'S NOT SAFE. HOLD YOUR TWELVE AT THE LANDING."}
-      - {who: nib, type: phone, side: r, text: "HEARD. HOLDING."}
+      - {who: "taeo", type: speech, side: l, text: "NIB. THE STREET'S NOT SAFE. HOLD ALL TWELVE CIVILIANS AT THE LANDING."}
+      - {who: "offpanel:nib", type: phone, side: r, text: "HEARD. HOLDING THEM."}
   - id: P32
-    shape: wide
+    shape: tall
     gap: short
     bg: black
     camera: "low from bottom of F stair as fire door begins closing on late walkers"
@@ -438,9 +464,10 @@ panels:
       sinjeong_f_stair: steel fire door's closer pulls it toward shut as the ryu_crew worker makes room for waiting evacuees inside.
       Two walkers already on the stair hurry UP toward taeo (outdoors), who bends down from street top, alarmed at the door swing.
       White blue-banded cable remains protected at WEST edge. Cold white above/red below, grey steel. No gate, civilian crushed in door or altered hinge side.
+      The shouting Ryu worker is lower LEFT on the stair, second worker behind; Taeo is upper RIGHT. Give all three full figures room.
     calm: top
     lines:
-      - {who: crowd, type: shout, side: l, text: "THE DOOR!"}
+      - {who: "crowd", type: shout, side: l, text: "THE FIRE DOOR'S CLOSING!"}
     notes: "These two are support workers guiding the group, not extra uncounted civilian exits; twelve civilians remain below."
   - id: P33
     shape: tall
@@ -451,9 +478,10 @@ panels:
       taeo (outdoors, backpack) hurries down sinjeong_f_stair's EARTH-side steps to the bottom steel door, takes the stored steel
       wedge from its jamb and kicks it beneath the EAST-hinged door opened against EAST wall. He never steps beyond it. Two Ryu
       workers ascend past him, cable protected WEST. Cold white above, red below; frightened urgency. No dungeon threshold, glowing mark or injury comedy.
+      Taeo RIGHT beside the door, two ascending Ryu workers LEFT; preserve the full figures and all fourteen steps.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "KEEP IT OPEN. PLEASE KEEP IT OPEN."}
+      - {who: "taeo", type: speech, side: r, text: "KEEP THE FIRE DOOR OPEN. PLEASE!"}
   - id: P34
     shape: strip
     gap: short
@@ -467,7 +495,7 @@ panels:
     sfx:
       - {text: SKK, style: quiet, at: [0.53, 0.62], size: M, rot: -6}
   - id: P35
-    shape: wide
+    shape: tall
     gap: short
     bg: black
     camera: "from landing looking north as Taeo retreats up the open stair"
@@ -475,10 +503,11 @@ panels:
       sinjeong_f_stair: taeo (outdoors) backs UP to street top, RIGHT hand following railing, LEFT radio tight. Behind camera,
       twelve civilians remain protected in landing; only minho's brown sleeve and Nib's ear enter edges below. The wedged steel
       door stays against EAST wall. White exit light, red below, grey-violet steps. No omniscient crowd in the road or return flare.
+      Taeo LEFT ascending in full view. Only Minho's sleeve enters lower RIGHT; his radio voice comes from outside the RIGHT edge.
     calm: top
     lines:
-      - {who: minho, type: phone, side: r, text: "TAEO, GET BEHIND SOMETHING."}
-      - {who: taeo, type: speech, side: l, text: "THEY COME UP HERE. I HAVE TO TELL THEM WHERE TO GO."}
+      - {who: "offpanel:minho", type: phone, side: r, text: "TAEO, GET BEHIND SOMETHING."}
+      - {who: "taeo", type: speech, side: l, text: "THE CIVILIANS COME UP HERE. I HAVE TO SHOW THEM WHERE TO GO."}
   - id: P36
     shape: wide
     gap: short
@@ -488,11 +517,12 @@ panels:
       haein (overalls, glasses down) crouches behind sinjeong_street's WEST concrete barrier with the grey base box in her hands,
       cable still connected and paid out without tension. Her face is fierce practical fear; she gestures toward taeo outside the
       cover at stair opening. Cold work lamp, blue-grey road, restrained red. No reservoir device, cut circuit or tranquil neutral face.
+      Frame crouching Haein on the LEFT from the waist up, with the connected box in her hands.
     calm: right
     lines:
       - {who: haein, type: shout, side: l, text: "THE BOX CAN MOVE. SO CAN YOU!"}
   - id: P37
-    shape: wide
+    shape: full
     gap: short
     bg: black
     camera: "Taeo's eye line across the street entrance toward the eastern hounds"
@@ -500,6 +530,7 @@ panels:
       sinjeong_street EAST of F: one charcoal hound crouches atop the broken curb and fixes on taeo (navy shoulder foreground).
       Two more gather behind it near the lightwell; cordon_team retreating shields leave the direct path empty. Cold white lamps
       make hard shadows, red warning reflects in wet concrete. No talking monster, extra teeth everywhere or second street gate.
+      Give the three full hound bodies room across the full composition; only Taeo's navy shoulder enters foreground.
     calm: none
     sfx:
       - {text: GRRR, style: quiet, at: [0.66, 0.53], size: M, rot: 0}
@@ -515,7 +546,7 @@ panels:
       shadow below. No amber power attack, return ring, written vow or impossible gripping angle.
     calm: none
   - id: P39
-    shape: wide
+    shape: tall
     gap: short
     bg: black
     camera: "front low of Taeo at open street stair, all protection behind him"
@@ -523,10 +554,11 @@ panels:
       taeo (outdoors, old-patch bag, RIGHT-eye mole) stands exposed at sinjeong_f_stair's STREET mouth, knees shaking visibly, not
       in a fighter stance. His left radio points toward his mouth, right arm indicates WEST casualty bay for whoever comes next.
       Work-light white against navy night, red stair edge. No shield of his own, weapon, clenched heroic grin or empty street beyond.
+      Taeo LEFT of centre at full height, shaking knees visible; give his pointing arm space.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "I COULD STILL RUN."}
-      - {who: taeo, type: float, text: "I WANTED TO. THAT DIDN'T CHANGE."}
+      - {who: "taeo", type: float, text: "I COULD STILL RUN."}
+      - {who: "taeo", type: float, text: "I STILL WANTED TO RUN."}
   - id: P40
     shape: full
     gap: short
@@ -536,9 +568,10 @@ panels:
       sinjeong_street: lead hound compresses its too-long forelegs and launches WEST toward taeo at F stair; two hounds remain
       behind near lightwell. Taeo (outdoors) jolts backwards one half step, still outside the rail. Hard work light, slate body and
       navy shadow, one red warning lamp. Clear spatial distance, no gore, random speed dust or shield visible before its arrival.
+      Taeo LEFT in full view, lunging hound RIGHT and two hounds farther RIGHT by the lightwell.
     calm: top
     lines:
-      - {who: taeo, type: nervous, side: l, text: "SORRY. I'M GOING TO BE VERY BAD AT THIS."}
+      - {who: taeo, type: nervous, side: l, text: "SORRY. I'M GOING TO BE VERY BAD AT FIGHTING."}
   - id: P41
     shape: strip
     gap: short
@@ -575,7 +608,7 @@ panels:
     sfx:
       - {text: WHUM, style: impact, at: [0.57, 0.50], size: L, rot: -5}
   - id: P44
-    shape: wide
+    shape: full
     gap: short
     bg: black
     camera: "street-side profile as Taeo folds down behind the shield"
@@ -583,6 +616,7 @@ panels:
       taeo (outdoors) at sinjeong_f_stair drops his centre of gravity behind the descending shield, frightened obedience outrunning
       thought. seoryun's olive boot plants beside him from WEST, shield rear strap taut on LEFT forearm. Airborne hound remains
       EAST, contact imminent. Work-light white, slate/navy palette, red warning far off. No three-monster strike yet, injuries or chibi.
+      Leave crouching Taeo LEFT room in the full frame; only Seoryun's boot and shield strap enter from the RIGHT.
     calm: none
   - id: P45
     shape: bleed
@@ -595,6 +629,7 @@ panels:
       Her LEFT arm holds rear grip/strap, RIGHT palm steadies the rim; eyes absolute command, adult tired face. White work light
       strikes shield edge and current redesigned-door emblem; navy night, restrained red stair lamp. One sharp impact at rim only,
       no hero halo, operator cyan or monster flattened before ch 37.
+      Seoryun RIGHT above crouching Taeo lower LEFT; the hound remains beyond her shield.
     calm: bottom
     lines:
       - {who: seoryun, type: speech, side: r, text: "DOWN."}

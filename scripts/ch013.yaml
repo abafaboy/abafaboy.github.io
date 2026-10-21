@@ -71,9 +71,9 @@ panels:
     calm: top
     intro: "DOKGO CHUL · DOKGO CONTRACTING"
     lines:
-      - {who: gc_manager, type: phone, side: r, text: "SEVEN HOURS. FOUR HUNDRED AND TWENTY MINUTES."}
-      - {who: gc_manager, type: phone, side: r, text: "I'M COUNTING THEM."}
-      - {who: dokgo, type: speech, side: r, text: "YES, SIR. ON SCHEDULE, SIR."}
+      - {who: "offpanel:gc_manager", type: phone, side: c, text: "SEVEN HOURS. FOUR HUNDRED AND TWENTY MINUTES."}
+      - {who: "offpanel:gc_manager", type: phone, side: c, text: "I'M COUNTING EVERY MINUTE."}
+      - {who: dokgo, type: speech, side: c, text: "YES, SIR. ON SCHEDULE, SIR."}
     notes: "Beat: Dokgo's phone rings every hour with the general contractor counting minutes (9:00, 10:00, 11:00, 12:00 and 1:00 in this chapter). The deadline is the 16:00 site handover: 420 minutes from 9:00."
 
   - id: P03
@@ -103,8 +103,8 @@ panels:
       stretch across the gravel toward Dokgo.
     calm: top
     lines:
-      - {who: dokgo, type: speech, side: c, text: "SEVEN HOURS, PEOPLE."}
-      - {who: dokgo, type: speech, side: c, text: "HE'S COUNTING MINUTES."}
+      - {who: dokgo, type: speech, side: c, text: "SEVEN HOURS TO HAND THE SITE BACK, PEOPLE."}
+      - {who: dokgo, type: speech, side: c, text: "THE GENERAL CONTRACTOR IS COUNTING EVERY MINUTE."}
     notes: "The same words, passed one link down the chain. Dami and Kwak stand in this line but are introduced at their first featured panels (P15, P26)."
 
   - id: P05
@@ -152,7 +152,7 @@ panels:
       Simplified pit background, gravel underfoot.
     calm: top
     lines:
-      - {who: minho, type: speech, side: r, text: "SITE RULES. HARD HAT."}
+      - {who: minho, type: speech, side: c, text: "SITE RULES. HARD HAT."}
       - {who: nib, type: speech, side: l, text: "IT'S SITTING ON MY EARS."}
 
   - id: P08
@@ -183,9 +183,9 @@ panels:
       and pile-wall background.
     calm: none
     lines:
-      - {who: nib, type: speech, side: l, text: "...BETTER."}
-      - {who: minho, type: speech, side: r, text: "AND BOOTS?"}
-      - {who: nib, type: speech, side: l, text: "NO."}
+      - {who: nib, type: speech, side: c, text: "BETTER."}
+      - {who: "offpanel:minho", type: speech, side: r, text: "AND BOOTS?"}
+      - {who: nib, type: speech, side: c, text: "NO."}
     notes: "Runner: Nib vs. shoes (he chooses boots himself in ch 43). Continuity: Nib wears this drilled Ryu hard hat for site work through the Guro job (ch 13 to 17). It is Ryu kit, not his."
 
   - id: P10
@@ -200,8 +200,8 @@ panels:
       blank ruled log sheet (squiggles only) and taps it once with a finger. Simplified pit and gate frame behind.
     calm: top
     lines:
-      - {who: haein, type: speech, side: l, text: "THE LINE CARRIES THE RADIO THROUGH. WHILE IT HOLDS."}
-      - {who: minho, type: speech, side: l, text: "YOU LOG HIS CALLS. AND YOU **STAY** OUTSIDE."}
+      - {who: haein, type: speech, side: l, text: "THE CABLE CARRIES RADIO SIGNALS THROUGH THE GATE. KEEP THE CABLE INTACT."}
+      - {who: minho, type: speech, side: c, text: "TAEO, LOG NIB'S CALLS. AND YOU **STAY** OUTSIDE."}
       - {who: taeo, type: speech, side: r, text: "YOU'VE SAID THAT TWICE."}
     notes: "Rule (decided here): radios drop out at thresholds (ch 10), but Ryu's survey line is a cable with a relay post every 50 m, and it carries radio through the threshold for as long as it is intact. Inside, radios work within reach of the line. The knock stays the fallback. 'STAY' is the callback to ch 12's hook."
 
@@ -218,8 +218,8 @@ panels:
     calm: top-left
     lines:
       - {who: minho, type: speech, side: r, text: "I'LL SAY IT AGAIN AT TEN."}
-      - {who: dokgo, type: speech, side: l, text: "YOUR SPOTTER GOES IN AT TEN. NOT TEN-OH-ONE."}
-      - {who: minho, type: speech, side: r, text: "HE GOES IN WHEN THE FRAME'S CHECKED."}
+      - {who: dokgo, type: speech, side: l, text: "YOUR SCOUT GOES IN AT TEN. NOT TEN-OH-ONE."}
+      - {who: minho, type: speech, side: r, text: "NIB GOES IN WHEN THE FRAME'S CHECKED."}
 
   - id: P12
     shape: strip
@@ -236,7 +236,7 @@ panels:
       - {kind: label, text: "SUBCONTRACT · THIRD TIER", at: [0.28, 0.20], size: 34, notes: "move onto the header block once the art exists"}
       - {kind: label, text: "9.3  LATE HANDOVER: ₩5,000,000 PER HOUR", at: [0.52, 0.58], size: 38, notes: "move onto the highlight band once the art exists"}
     lines:
-      - {who: dokgo, type: speech, side: r, text: "CLAUSE NINE. READ IT."}
+      - {who: "offpanel:dokgo", type: speech, side: r, text: "CLAUSE NINE. READ IT."}
       - {who: narr, type: footnote, text: "*₩5,000,000 ≈ US$3,600"}
     notes: "PLANT P08 (the clause): the client contract's ₩5,000,000-an-hour lateness penalty. It decides Dokgo's orders in this chapter (P43 to P45, P57) and in ch 14 to 17, where Taeo pays a share."
 
@@ -252,9 +252,9 @@ panels:
       Pale sky above the H-pile walls; steel struts cross the top of the frame.
     calm: top-right
     lines:
-      - {who: taeo, type: speech, side: l, text: "FIVE MILLION WON. AN HOUR?"}
-      - {who: dokgo, type: speech, side: r, text: "IT STARTS UP THERE."}
-      - {who: dokgo, type: speech, side: r, text: "AND IT ROLLS DOWNHILL."}
+      - {who: taeo, type: speech, side: c, text: "FIVE MILLION WON. AN HOUR?"}
+      - {who: dokgo, type: speech, side: c, text: "THE GENERAL CONTRACTOR CHARGES ME FOR DELAYS."}
+      - {who: dokgo, type: speech, side: c, text: "I PASS THE COST TO MY WORKERS."}
     notes: "The chain in one gesture: client, contractor, the tiers, Dokgo, then the porters, who are not on the page at all."
 
   - id: P14
@@ -304,7 +304,7 @@ panels:
     calm: top
     lines:
       - {who: dami, type: speech, side: l, text: "YOU'RE STARING."}
-      - {who: taeo, type: nervous, side: r, text: "SORRY. I THINK I SAW YOU ON THE NEWS."}
+      - {who: taeo, type: nervous, side: c, text: "SORRY. I THINK I SAW YOU ON THE NEWS."}
       - {who: dami, type: speech, side: l, text: "THE BACK OF ME. THEY FILMED THE HUNTERS."}
 
   - id: P17
@@ -317,8 +317,8 @@ panels:
       teeth. Hard and bitter, not tearful. Plain background.
     calm: left
     lines:
-      - {who: dami, type: whisper, side: r, text: "AND HE TOLD THEM THE MAN 'LEFT VOLUNTARILY'."}
-      - {who: taeo, type: speech, side: l, text: "THEN WHY DO YOU STILL WORK FOR HIM?"}
+      - {who: dami, type: whisper, side: r, text: "DOKGO TOLD THE NEWS THE MISSING PORTER 'LEFT VOLUNTARILY'."}
+      - {who: "offpanel:taeo", type: speech, side: l, text: "THEN WHY DO YOU STILL WORK FOR DOKGO?"}
     notes: "'LEFT VOLUNTARILY' quotes the ch 11 news. The earlier missing porter stays unnamed and unresolved here; the hook repeats Dokgo's habit."
 
   - id: P18
@@ -333,7 +333,8 @@ panels:
     ui:
       - {kind: phone.info_card, on: screen, title: "BLUEBIRD CAPITAL", text: "Draw loan reminder · Instalment due tomorrow · Balance owed: ₩2,100,000"}
     lines:
-      - {who: dami, type: speech, side: l, text: "THAT'S WHY."}
+      - {who: "offpanel:dami", type: speech, side: r, text: "I STILL OWE BLUEBIRD. I NEED THE WORK."}
+      - {who: narr, type: footnote, text: "*₩2,100,000 ≈ US$1,500"}
     sfx:
       - {text: "BZZT", style: phone, at: [0.78, 0.12], size: S, rot: -6}
 
@@ -349,14 +350,13 @@ panels:
       gravel; the cable drum behind.
     calm: top
     lines:
-      - {who: dami, type: speech, side: l, text: "DRAW LOAN AT EIGHTEEN. I PULLED TWO COMMONS."}
-      - {who: dami, type: speech, side: l, text: "I LEASE THEM TO A WAREHOUSE. THIRTY THOUSAND A MONTH EACH."}
+      - {who: dami, type: speech, side: l, text: "TOOK A DRAW LOAN AT EIGHTEEN. GOT TWO COMMON CONSTRUCTS."}
+      - {who: dami, type: speech, side: l, text: "I LEASE THEM TO A WAREHOUSE. THIRTY THOUSAND WON EACH, EVERY MONTH."}
       - {who: dami, type: speech, side: l, text: "THE INTEREST PULLED BETTER THAN I DID."}
-      - {who: narr, type: footnote, text: "*₩2,100,000 ≈ US$1,500"}
     notes: "The footnote glosses the balance on P18's screen; it sits here so the strip can be cut cleanly under P18. Beat facts, exact: a draw loan at 18; two commons; leased out at ₩30,000 a month each; ₩2,100,000 owed (P18). Her commons stack boxes in a warehouse, a safer job than hers. Parallel: Bae's golem (₩640,000 a month, ch 6)."
 
   - id: P20
-    shape: inset-r
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -366,10 +366,11 @@ panels:
       present) stares at chibi Dami's vest with dot eyes gone wide and tiny sparkles in them, his mouth a small flat line: deadpan
       longing. A few sparkles float round the pockets. Chibi Dami leans away with a big suspicious sweat drop, hugging her vest
       shut. Flat pale background with screentone dots.
+      Nib stands on the left; Dami stands on the right, both fully visible with room above their hats.
     calm: left
     lines:
-      - {who: dami, type: speech, side: r, text: "...ARE YOU LOOKING AT MY POCKETS?"}
-      - {who: nib, type: speech, side: l, text: "FOURTEEN."}
+      - {who: dami, type: speech, side: r, text: "ARE YOU LOOKING AT MY POCKETS?"}
+      - {who: nib, type: speech, side: l, text: "FOURTEEN POCKETS."}
       - {who: dami, type: speech, side: r, text: "SIXTEEN. TWO INSIDE."}
     notes: "Runner: Nib loves pockets."
 
@@ -385,8 +386,8 @@ panels:
     calm: top
     lines:
       - {who: dami, type: speech, side: l, text: "WHAT ARE THEY PAYING YOU?"}
-      - {who: nib, type: speech, side: r, text: "SIXTY THOUSAND A DAY."}
-      - {who: dami, type: speech, side: l, text: "...THEY GOT YOU CHEAPER THAN ME."}
+      - {who: nib, type: speech, side: r, text: "SIXTY THOUSAND WON A DAY."}
+      - {who: dami, type: speech, side: l, text: "THEY GOT YOU CHEAPER THAN ME."}
     notes: "Nib's rate is Ryu Survey's ₩60,000 day rate from ch 10, unchanged for the C-grade."
 
   - id: P22
@@ -398,8 +399,8 @@ panels:
       Dami turns on her crate and looks up at Taeo with a wry half-smile and one eyebrow up: her turn to ask. Plain background.
     calm: right
     lines:
-      - {who: dami, type: speech, side: l, text: "WE GET NINETY. NO INSURANCE. YOU?"}
-      - {who: taeo, type: speech, side: r, text: "NOTHING. I STAY OUTSIDE."}
+      - {who: dami, type: speech, side: l, text: "NINETY THOUSAND A DAY. NO INSURANCE. WHAT DO YOU GET?"}
+      - {who: "offpanel:taeo", type: speech, side: r, text: "NOTHING. I STAY OUTSIDE."}
       - {who: narr, type: footnote, text: "*₩90,000 ≈ US$65"}
     notes: "Beat: porters on ₩90,000 a day, no insurance. Taeo is Ryu's unpaid radio trainee (ch 10)."
 
@@ -413,8 +414,8 @@ panels:
       gone, and something guilty shows underneath. Plain background.
     calm: left
     lines:
-      - {who: dami, type: speech, side: l, text: "THEN YOU'RE NOT CHEAP. YOU'RE LUCKY."}
-      - {who: taeo, type: float, text: "A MINUTE LATE COSTS NEARLY ONE OF HER DAYS."}
+      - {who: "offpanel:dami", type: speech, side: r, text: "THEN YOU'RE NOT CHEAP. YOU'RE LUCKY."}
+      - {who: taeo, type: float, text: "ONE MINUTE OF PENALTY COSTS NEARLY A DAY OF HER PAY."}
     notes: "₩83,333 (one minute of penalty) against ₩90,000 (her day). Let the reader do the sum."
 
   - id: P24
@@ -428,7 +429,7 @@ panels:
       side by chance: Dami, rising from her crate, and Nib. Minho is already at the frame checking its bolts.
     calm: top
     lines:
-      - {who: dokgo, type: speech, side: c, text: "SPOTTER FIRST. THEN PORTERS. IRONCLAD SEVEN AT THREE."}
+      - {who: dokgo, type: speech, side: c, text: "OUR SCOUT GOES IN FIRST. THEN PORTERS. THE CLEAR TEAM, IRONCLAD SEVEN, ENTERS AT THREE."}
       - {who: dokgo, type: speech, side: c, text: "THE CHEAP ONES GO FIRST."}
     notes: "Ironclad Seven is the clear team (named in ch 18's news). Schedule: spotter in at 10:00, porters behind him, Ironclad Seven in at 15:00, boss down and site handed back at 16:00."
 
@@ -476,7 +477,7 @@ panels:
       level on his head. Plain background.
     calm: right
     lines:
-      - {who: nib, type: speech, side: l, text: "I'M SHORT."}
+      - {who: nib, type: speech, side: c, text: "I'M SHORT."}
 
   - id: P28
     shape: wide
@@ -490,7 +491,7 @@ panels:
       with his ears tilted. The navy jacket is still on Kwak's shoulder, the blue inhaler cap peeking from its chest pocket.
     calm: top
     lines:
-      - {who: dami, type: speech, side: l, text: "INHALER."}
+      - {who: dami, type: speech, side: c, text: "INHALER."}
       - {who: mansu, type: speech, side: r, text: "MY INHALER'S IN MY JACKET."}
       - {who: mansu, type: speech, side: r, text: "IT'S FINE."}
     sfx:
@@ -508,7 +509,7 @@ panels:
       toward Dokgo's table off panel. The wheeze is still in his chest. Plain background.
     calm: left
     lines:
-      - {who: mansu, type: whisper, side: r, text: "NOT IN FRONT OF HIM."}
+      - {who: mansu, type: whisper, side: r, text: "DON'T MENTION MY ASTHMA NEAR DOKGO."}
       - {who: mansu, type: whisper, side: r, text: "DOKGO DOESN'T PICK WHEEZERS."}
     notes: "Why the inhaler stays outside: Kwak hides his asthma so that he keeps getting picked for day work."
 
@@ -540,7 +541,7 @@ panels:
     calm: top
     lines:
       - {who: narr, type: tag, text: "10:00 AM"}
-      - {who: gc_manager, type: phone, side: r, text: "SIX HOURS. IS YOUR SPOTTER IN?"}
+      - {who: "offpanel:gc_manager", type: phone, side: r, text: "SIX HOURS. IS YOUR SPOTTER IN?"}
       - {who: dokgo, type: speech, side: r, text: "GOING IN NOW, SIR."}
     notes: "Minho keeps his promise from P11 ('I'LL SAY IT AGAIN AT TEN') without saying anything."
 
@@ -590,7 +591,7 @@ panels:
       the base station with both hands to stop it sliding and glares at him. Speed lines.
     calm: top
     lines:
-      - {who: taeo, type: nervous, side: c, text: "THE GROUND—"}
+      - {who: taeo, type: nervous, side: c, text: "THE GROUND'S TILTING!"}
     sfx:
       - {text: "THUD", style: impact, at: [0.30, 0.66], size: L, rot: -10}
       - {text: "SKRRK", style: quiet, at: [0.80, 0.82], size: S, rot: 8}
@@ -606,8 +607,8 @@ panels:
       still holding the base station, looks at him flatly, then down at his palm. Plain background.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: l, text: "IT TILTED."}
-      - {who: haein, type: speech, side: r, text: "YOURS DIDN'T."}
+      - {who: taeo, type: speech, side: l, text: "I FELT THE GROUND TILT."}
+      - {who: haein, type: speech, side: r, text: "OUR GROUND DIDN'T MOVE. YOU FELT NIB'S."}
 
   - id: P36
     shape: strip
@@ -619,7 +620,8 @@ panels:
       slightly damp palm with the fingers spread. Gravel dust on the table. Nothing else in frame.
     calm: none
     lines:
-      - {who: taeo, type: float, text: "THREE SECONDS. THEN ONLY MY OWN GROUND."}
+      - {who: "offpanel:nib", type: phone, side: l, text: "INSIDE. ALL THE GROUND HERE SLOPES LEFT."}
+      - {who: taeo, type: float, text: "THREE SECONDS. THEN I COULDN'T FEEL NIB ANYMORE."}
 
   - id: P37
     shape: wide
@@ -632,8 +634,7 @@ panels:
       clinical interest. Minho stands behind them with his radio at his mouth.
     calm: top
     lines:
-      - {who: nib, type: phone, side: l, text: "IN. EVERYTHING HERE LEANS LEFT."}
-      - {who: taeo, type: speech, side: r, text: "...AM I BLEEDING?"}
+      - {who: taeo, type: speech, side: c, text: "AM I BLEEDING?"}
       - {who: haein, type: speech, side: r, text: "NOT YET."}
     notes: "Callback to ch 12's first recoil ('YOUR NOSE IS BLEEDING')."
 
@@ -702,7 +703,7 @@ panels:
     calm: right
     lines:
       - {who: narr, type: tag, text: "11:00 AM"}
-      - {who: gc_manager, type: phone, side: l, text: "FIVE HOURS."}
+      - {who: "offpanel:gc_manager", type: phone, side: c, text: "FIVE HOURS."}
       - {who: dokgo, type: speech, side: l, text: "YES SIR. YES SIR. YES SIR."}
     notes: "Dokgo is squeezed from above (STORY_BIBLE §4, rule 3). The last laugh before the turn."
 
@@ -718,8 +719,8 @@ panels:
       cable running off toward the gate frame. Quiet, patient work. The edges fade into the white page.
     calm: bottom-right
     lines:
-      - {who: nib, type: phone, side: l, text: "LOOSE SLAB. TWO METRES LEFT OF THE LINE."}
-      - {who: minho, type: speech, side: r, text: "MARKED."}
+      - {who: "offpanel:nib", type: phone, side: c, text: "LOOSE SLAB. TWO METRES LEFT OF THE LINE."}
+      - {who: minho, type: speech, side: c, text: "MARKED."}
       - {who: taeo, type: float, text: "THE WAITING DOESN'T GET EASIER. I JUST GET QUIETER."}
 
   - id: P43
@@ -734,9 +735,8 @@ panels:
     calm: top
     lines:
       - {who: narr, type: tag, text: "12:00 PM"}
-      - {who: gc_manager, type: phone, side: l, text: "FOUR HOURS. YOUR FORWARD CAMP IS TWENTY MINUTES BEHIND."}
-      - {who: gc_manager, type: phone, side: l, text: "TWENTY MINUTES IS ₩1,666,666, MR. DOKGO."}
-      - {who: dokgo, type: speech, side: r, text: "I'LL FIX IT, SIR."}
+      - {who: "offpanel:gc_manager", type: phone, side: c, text: "FOUR HOURS. YOUR FORWARD CAMP IS TWENTY MINUTES BEHIND. THAT'S ₩1,666,666 IN PENALTIES, MR. DOKGO."}
+      - {who: dokgo, type: speech, side: c, text: "I'LL FIX IT, SIR."}
     notes: "20 minutes at ₩83,333 a minute. The GC reads the porter app's run data. 'Behind' means the forward camp will not be stocked for Ironclad Seven at 15:00, so the 16:00 handover slips."
 
   - id: P44
@@ -750,7 +750,7 @@ panels:
       large in the near foreground, its status lamps lit.
     calm: top
     lines:
-      - {who: haein, type: speech, side: l, text: "THAT'S A SURVEY LINE. NOT YOUR PHONE."}
+      - {who: haein, type: speech, side: l, text: "THAT HANDSET'S FOR SURVEY CALLS. ASK BEFORE YOU USE IT."}
       - {who: dokgo, type: speech, side: r, text: "MY PORTERS CARRY YOUR CABLE."}
       - {who: dokgo, type: speech, side: r, text: "SPLIT THE PAIRS. EVEN NUMBERS TAKE THE LOWER GALLERY."}
     notes: "The turn: the penalty makes Dokgo split the porter pairs and send the even numbers (02, 04, 06, 08) through the unsurveyed shortcut. Kwak is 08."
@@ -767,7 +767,7 @@ panels:
     lines:
       - {who: minho, type: speech, side: l, text: "THE LOWER GALLERY ISN'T SURVEYED."}
       - {who: dokgo, type: speech, side: r, text: "IT'S FORTY METRES SHORTER."}
-      - {who: dokgo, type: speech, side: r, text: "IT'S NOT ON YOUR LINE. SO IT'S NOT YOUR PROBLEM."}
+      - {who: dokgo, type: speech, side: r, text: "THE GALLERY ISN'T ON YOUR SURVEY LINE. SO IT'S NOT YOUR PROBLEM."}
     notes: "Ryu's contract is the survey line (ch 14: 'OUR CONTRACT IS THE SURVEY LINE'). Dokgo believes he is being reasonable: porters have run shortcuts before."
 
   - id: P46
@@ -792,7 +792,7 @@ panels:
       hard-hat brim. Nothing else in frame.
     calm: none
     lines:
-      - {who: minho, type: speech, side: r, text: "CREW. TAPE THE LOWER GALLERY. BOTH ENDS."}
+      - {who: minho, type: speech, side: l, text: "CREW. TAPE THE LOWER GALLERY. BOTH ENDS."}
     notes: "What Minho can do inside his contract: mark the hazard, not stop it."
 
   - id: P48
@@ -809,9 +809,8 @@ panels:
     calm: top-right
     lines:
       - {who: narr, type: tag, text: "12:31 PM"}
-      - {who: dami, type: speech, side: r, text: "LET ME TAKE THE LOW ONE."}
-      - {who: mansu, type: speech, side: l, text: "YOU'RE FASTER UP TOP. GO ON, KID."}
-      - {who: mansu, type: speech, side: l, text: "IT'S FINE."}
+      - {who: dami, type: speech, side: r, text: "LET ME TAKE THE LOWER GALLERY."}
+      - {who: mansu, type: speech, side: l, text: "YOU'RE FASTER ON THE UPPER RUN. GO ON, KID. IT'S FINE."}
     notes: "Kwak takes the shorter route because he is the slower porter; Dami takes the longer upper run. He has no inhaler (P30)."
 
   - id: P49
@@ -841,7 +840,7 @@ panels:
     calm: top
     lines:
       - {who: narr, type: tag, text: "1:00 PM"}
-      - {who: gc_manager, type: phone, side: r, text: "THREE HOURS, MR. DOKGO. STILL BEHIND."}
+      - {who: "offpanel:gc_manager", type: phone, side: l, text: "THREE HOURS, MR. DOKGO. STILL BEHIND."}
       - {who: dokgo, type: speech, side: l, text: "ROLL CALL. ONE TO EIGHT."}
 
   - id: P51
@@ -859,8 +858,7 @@ panels:
     calm: top-right
     lines:
       - {who: porter, type: speech, side: r, text: "SIX. HERE."}
-      - {who: dokgo, type: phone, side: r, text: "SEVEN."}
-      - {who: dami, type: speech, side: l, text: "DAMI. FORWARD CAMP."}
+      - {who: "offpanel:dokgo", type: phone, side: r, text: "SEVEN."}
     notes: "Porter 06 took the lower gallery and came through it. Dami answers with her name, not her number. Nib is back at the forward camp for a coil of cable; the survey line carries on past the camp toward the boss territory."
 
   - id: P52
@@ -873,7 +871,8 @@ panels:
       the table. A little impatience, nothing more yet. Plain background.
     calm: right
     lines:
-      - {who: dokgo, type: speech, side: l, text: "EIGHT."}
+      - {who: "offpanel:dami", type: phone, side: c, text: "DAMI. FORWARD CAMP."}
+      - {who: dokgo, type: speech, side: c, text: "EIGHT."}
 
   - id: P53
     shape: strip
@@ -896,8 +895,8 @@ panels:
       up from the tablet for the first time. Taeo's pen has stopped on the log.
     calm: top
     lines:
-      - {who: dokgo, type: speech, side: l, text: "EIGHT. KWAK."}
-      - {who: nib, type: phone, side: r, text: "HE NEVER CAME OUT AT THIS END."}
+      - {who: dokgo, type: speech, side: l, text: "EIGHT. KWAK MANSU. ANSWER."}
+      - {who: "offpanel:nib", type: phone, side: r, text: "KWAK NEVER REACHED THE FORWARD CAMP."}
     notes: "Nib has watched every porter arrive at the forward camp."
 
   - id: P55
@@ -923,8 +922,7 @@ panels:
       goes quiet. Plain background.
     calm: left
     lines:
-      - {who: dami, type: phone, side: r, text: "KWAK MANSU WENT INTO THE LOWER GALLERY AT HALF TWELVE."}
-      - {who: dami, type: phone, side: r, text: "ALONE."}
+      - {who: "offpanel:dami", type: phone, side: r, text: "KWAK MANSU WENT INTO THE LOWER GALLERY ALONE AT HALF TWELVE."}
 
   - id: P57
     shape: narrow-r
@@ -958,8 +956,8 @@ panels:
       shadows, no haze. Adult, weathered, never cute.
     calm: bottom
     lines:
-      - {who: dokgo, type: phone, side: l, text: "HE'S RESTING SOMEWHERE."}
-      - {who: dokgo, type: phone, side: l, text: "KEEP MOVING."}
+      - {who: "offpanel:dokgo", type: phone, side: l, text: "HE'S RESTING SOMEWHERE."}
+      - {who: "offpanel:dokgo", type: phone, side: l, text: "KEEP MOVING."}
     notes: "HOOK (beat): the roll call inside; Kwak doesn't answer; Dokgo: 'HE'S RESTING SOMEWHERE. KEEP MOVING.' It is 13:02. Lettered below the image so the order lands last; the voice comes from the relay post's speaker (bottom left), so the tails point at it. It echoes 'LEFT VOLUNTARILY' (P17) without saying so."
 
   - id: P59

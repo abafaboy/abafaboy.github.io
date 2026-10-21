@@ -21,12 +21,12 @@ location_notes:
   chungju_gate_site: "New, no drawn key. Fictional fenced service cutting in Chungju. A short concrete access tunnel ends at a steel scaffold frame around a door-height violet-black slit. Outside it, left looking in: white consortium canopy and map table; right: Sejin's medical canopy; van parking in the open cutting behind. Haein's grey base station stands beside the frame. Ordinary daylight reaches the tunnel mouth; work lamps illuminate the final approach."
   chungju_river_gate: "New, no drawn key. No sky: an unbroken low stone ceiling above a broad underground river. From the entry landing the river flows from distant upper-right toward lower-left/downstream; a walkable near-bank shelf follows it upstream. Recessed stone signal posts stand above old flood lines, with scored channels and paired sockets, always unlit initially. A carved settlement sign lies on the first shelf, away from the water. Marker 9 is farther upstream and remains unseen. Ryu white cable, blue band every metre, grey tripod relay every 50 m; cool white lamps, wet violet shadows, muted teal water. Never draw stars, a horizon sky or a predator yet."
 props:
-  boots: "Use the exact boots Nib buys in ch 43, including colour, fastenings and soles; that script was unavailable at drafting. Do not invent a second pair or follow the barefoot sheet below the ankles."
+  boots: "Confirmed against ch 43 at final continuity check: matte dark-brown ankle-high leather lace-up work boots, broad round toes, four pairs of dull gunmetal round eyelets, dark-brown round laces in small double knots, plain black low-heeled lug soles, heel pull tabs; oat-grey short socks just inside collars. No visible steel cap, hooks, buckles, logo, bright trim or metal plate. Exact same purchased pair throughout; overrides barefoot sheet."
   relay: "Ryu wired survey line: white cable, blue band each metre; grey relay tripod every 50 m, speaker grille, coiled handset and white status lamp. New grant-funded cases do not change this standard. No wireless threshold reception."
 palette_notes: "A4 base/yard extension: dusty ochre, warm brown, cool daylight. Chungju surface: cool concrete grey with muted blue shadows. River: the A4 gate violet shadows under actual cold-white survey lamps, muted teal water; there is NO SKY. Interface cyan #3FE3F2/deep navy #0B1530 only for Taeo's windows, amber #F2A93B only for Nib's link and eyes. Return marks cold white/violet. No decorative glow, dust, fog or readable markings."
 panels:
   - id: P01
-    shape: wide
+    shape: full
     gap: none
     bg: white
     camera: "table height, across the Mapo worktable toward Sera rising"
@@ -35,9 +35,10 @@ panels:
       her stool tilts behind her. Her LEFT hand closes on her recurve bow; her face loses its performance smile.
       taeo, outdoors, holds his dark-grey cracked phone near the table. Cool workshop daylight, ochre wood and brown
       shadows per A4 yard extension. Keep the phone face away, documents blank; no generated words or effects.
+      Taeo stands on the left with the phone, Sera on the right; Chae's voice comes from that phone at left.
     calm: top
     lines:
-      - {who: chae, type: phone, side: l, text: "THE CARVING MATCHES THE STYLE ON SERA'S MAP."}
+      - {who: "offpanel:chae", type: phone, side: l, text: "THE CARVING MATCHES THE STYLE ON SERA'S MAP."}
       - {who: sera, type: speech, side: r, text: "SHOW ME."}
     notes: "Start at the previous hook, with Sera standing. Ch 62 absent at drafting; the phone call remains live."
   - id: P02
@@ -61,11 +62,12 @@ panels:
       taeo, navy jacket and black hood at mapo_tyre_base, watches sera off left rather than her map. His tired eyes
       are careful, the mole under his RIGHT eye visible, mouth hesitant. Shutter daylight from left, blue-grey
       shadow against simplified warm plywood. Backpack strap crosses one shoulder; no screen or interface.
+      Taeo is framed chest up on the right.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: r, text: "SORRY. SAME STYLE DOESN'T MEAN HE'S THERE."}
+      - {who: taeo, type: speech, side: r, text: "SORRY. A MATCHING CARVING DOESN'T MEAN ILAN IS THERE."}
   - id: P04
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "low profile two-shot, bow crossing the space between them"
@@ -74,10 +76,11 @@ panels:
       She looks directly at taeo, outdoors, with an impatient adult certainty; his hand leaves the paper to her.
       Daylight on muted river-green cloth and brown tabletop, hard violet-grey shadows. Do not depict Ilan,
       a portal to her village or a guaranteed rescue destination. Leave the top plain.
+      Sera stands on the left, Taeo on the right, with room for both figures.
     calm: top
     lines:
-      - {who: sera, type: speech, side: l, text: "IT MEANS THERE'S SOMETHING TO ASK."}
-      - {who: taeo, type: speech, side: r, text: "THEN WE ASK."}
+      - {who: sera, type: speech, side: l, text: "THE CARVING MEANS SOMEONE MAY KNOW ABOUT ILAN."}
+      - {who: taeo, type: speech, side: r, text: "THEN WE'LL ASK ABOUT HIM."}
   - id: P05
     kind: title
     gap: long
@@ -108,9 +111,9 @@ panels:
     ui:
       - {kind: phone.gate_status, on: screen, hand: taeo_left_tilt, title: "GATE SAFETY KOREA", text: "CHUNGJU RIVER · A-GRADE · OPEN · CONSORTIUM SURVEY · NO CLEAR AUTHORISED"}
     lines:
-      - {who: taeo, type: float, text: "THERE WERE SEVERAL LARGER WAYS TO DIE HERE."}
+      - {who: taeo, type: float, text: "WORKING WITH BIGGER TEAMS DID NOT MAKE ME FEEL SAFER."}
   - id: P08
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "eye level across the consortium map table"
@@ -120,10 +123,12 @@ panels:
       cropped dark hair, broad nose, navy waterproof jacket with plain silver shoulder tab, charcoal trousers,
       navy helmet and black gloves; her measuring look is professional. Other crews wait behind. Cool daylight,
       concrete grey and muted navy. The map has shapes and blank tabs only; no floating UI.
+      The Meridian leader stands on the left, Minho on the right; keep both faces clear above the map.
     calm: top
     lines:
-      - {who: meridian_lead, type: speech, side: l, text: "MERIDIAN TAKES THE UPSTREAM SECTION. RYU, THE COMMUNICATIONS SPINE."}
-      - {who: minho, type: speech, side: r, text: "OUR LINE. OUR STOP ORDER IF IT FAILS."}
+      - {who: meridian_lead, type: speech, side: l, text: "MERIDIAN SURVEYS UPSTREAM. RYU MAINTAINS THE RADIO LINE."}
+      - {who: minho, type: speech, side: r, text: "IF OUR LINE FAILS, WE STOP THE SURVEY."}
+      - {who: meridian_lead, type: speech, side: l, text: "AGREED. ONE SHARED MAP. EACH TEAM COMMANDS ITS OWN PEOPLE."}
   - id: P09
     shape: strip
     gap: short
@@ -135,25 +140,24 @@ panels:
       beside the entry edge. Hands remain separate, anatomically clear. Morning daylight, muted parchment and grey.
       No complete deep-river map, marked-safe channel, words or unexplored path represented as surveyed.
     calm: top
-    lines:
-      - {who: meridian_lead, type: speech, side: l, text: "AGREED. WE SHARE A MAP. WE KEEP OUR OWN PEOPLE."}
-      - {who: taeo, type: speech, side: r, text: "AND EVERYONE HEARS EVERY STOP."}
   - id: P10
-    shape: inset-l
+    shape: full
     gap: short
     bg: white
-    camera: "close at chest level on the clerk's clipboard and face"
+    camera: "medium two-shot across the register, clerk left and Taeo right"
     art: >
       consortium_clerk at chungju_gate_site, thinning hair, grey vest over blue shirt, reading glasses low, checks
       a blank ruled register with a blunt pencil. His expression is patient but unwilling to erase a missing name.
       taeo's navy sleeve enters at right holding a separate roster. Cold-white tunnel lamp mixes with cool daylight;
       slate shadows, no readable forms, screen or agency insignia in art.
+      Show the clerk and Taeo from the waist up with both faces visible.
     calm: right
     lines:
-      - {who: consortium_clerk, type: speech, side: l, text: "INDIVIDUAL NAMES. NOT THREE ITEMS UNDER YOUR LICENCE."}
+      - {who: taeo, type: speech, side: r, text: "EVERY TEAM MUST HEAR EVERY STOP ORDER."}
+      - {who: consortium_clerk, type: speech, side: l, text: "LIST EACH PERSON BY NAME. YOUR COMPANIONS ARE NOT EQUIPMENT."}
       - {who: taeo, type: speech, side: r, text: "YES. THANK YOU."}
   - id: P11
-    shape: wide
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -163,6 +167,7 @@ panels:
       Chibi orrin, stacked slate shell, looks gravely at the open rear of the grant-bought van; chibi haein in
       slate overalls proudly flourishes a tape measure. Chibi taeo, navy jacket and patched olive backpack,
       beams prematurely. The doorway is comfortably broad. No harness, cargo on Orrin or readable badges.
+      Chibi Haein stands left, Taeo centre and Orrin right, with separate full silhouettes.
     calm: top
     lines:
       - {who: haein, type: speech, side: l, text: "A DOOR BIG ENOUGH FOR YOU."}
@@ -171,16 +176,16 @@ panels:
     shape: strip
     gap: short
     bg: white
-    camera: "low extreme close-up on Nib checking a boot and binocular strap"
+    camera: "extreme close-up of Nib's scarred hand testing his boot sole"
     art: >
-      At chungju_gate_site, nib crouches, testing the sole of his unchanged ch 43 boot against dry concrete.
-      Matte black 8x30 binoculars hang high on their black strap, knot at LEFT neck; Kett's three-line fork
-      scratched on the hinge. Brown rope belt, right pouch's green dinosaur sticker at frame edge.
-      Hard white tunnel light, cool grey/brown palette. Adult scarred hands; no bare feet or extra equipment.
+      At chungju_gate_site, nib's adult scarred hand presses the sole of his unchanged ch 43 boot against dry concrete.
+      Only the hand, broad round toe, dark-brown laces, dull round eyelets and black lug sole are framed.
+      Hard white tunnel light, cool grey and brown, a crisp grounded shadow. No face or full crouching figure,
+      no bare feet, new footwear or extra equipment.
     calm: none
     silent: true
   - id: P13
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "medium from behind Haein at the grey base station"
@@ -189,27 +194,29 @@ panels:
       with a blue band each metre passes through the frame's lower LEFT corner. taeo, outdoors, braces the dry
       outer frame; minho holds a handset opposite. White work lamp above, muted concrete and slate. Status lamps
       are white, not green data screens. No wireless beam, reservoir prototype or replacement device.
+      Haein stands left by the base station, Taeo centre at the frame and Minho right with the handset.
     calm: top
     lines:
-      - {who: haein, type: speech, side: l, text: "LINE EVERY FIFTY METRES. CABLE BREAKS, RADIO STOPS AT THE RIM."}
-      - {who: minho, type: speech, side: r, text: "AND WE COME BACK."}
+      - {who: haein, type: speech, side: l, text: "A RELAY EVERY FIFTY METRES. WITHOUT THE CABLE, RADIO CAN'T CROSS THE GATE."}
+      - {who: minho, type: speech, side: r, text: "IF THE CABLE BREAKS, WE COME BACK."}
   - id: P14
-    shape: inset-r
+    shape: full
     gap: short
     bg: white
-    camera: "close on Sejin's gloved hand stopping Taeo rolling down his sleeve"
+    camera: "medium two-shot at the medical canopy as Sejin catches Taeo's cuff"
     art: >
       sejin in sage scrubs/olive rig at chungju_gate_site gently catches taeo's navy cuff before it covers his
       forearm. Old yellow-purple recoil bruising remains, no fresh wound. His face, partly visible, is sheepish;
       her square-jawed profile is unimpressed. Cold-white work lamp, grey-blue shadows; the proper med kit sits
       open below. No active load light, needle, miraculous recovery or extra blood.
+      Sejin stands left, Taeo right; keep both faces and the bruised forearm clearly visible.
     calm: left
     lines:
       - {who: sejin, type: speech, side: l, text: "TELL ME BEFORE YOU CARRY ANYTHING."}
       - {who: taeo, type: speech, side: r, text: "INCLUDING MY CONFIDENCE?"}
       - {who: sejin, type: speech, side: l, text: "THAT WON'T STRAIN YOU."}
   - id: P15
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "profile at the threshold, Sera facing Taeo on the dry side"
@@ -218,10 +225,11 @@ panels:
       Her left bow points down, right hand rests on her map case; fear shows beneath her raised chin.
       He keeps his palms open, listening. Cold rim light from violet-black slit, white lamp on grey concrete,
       muted green cloth. Both remain outside in this panel; no mark yet, no interface or reaching through bodies.
+      Taeo stands left and Sera right on the outer side of the frame; leave room for their bodies.
     calm: top
     lines:
       - {who: taeo, type: speech, side: l, text: "YOU CAN SAY NO TO THE JOB. EVEN NOW."}
-      - {who: sera, type: speech, side: r, text: "I KNOW. I'M SAYING YES TO THE SIGN."}
+      - {who: sera, type: speech, side: r, text: "I KNOW. I WANT TO SEE THAT CARVING."}
   - id: P16
     shape: tall
     gap: short
@@ -259,13 +267,14 @@ panels:
       amber eyes narrow with unfamiliar discomfort; LEFT ear notch silhouettes against plain wet stone.
       Cool-white torch key from below, violet shadows, muted olive skin. No link glow, cute face, sky light
       or hidden creature in the background. Keep the opposite gutter clear.
+      Nib's face is left. Taeo is outside the gate, heard through the wired handset at the right edge.
     calm: right
     lines:
       - {who: nib, type: speech, side: l, text: "NO SKY."}
-      - {who: taeo, type: phone, side: r, text: "WHAT COLOUR?"}
-      - {who: nib, type: speech, side: l, text: "NONE."}
+      - {who: "offpanel:taeo", type: phone, side: r, text: "IS THE SKY DARK, OR A STRANGE COLOUR?"}
+      - {who: nib, type: speech, side: l, text: "STONE CEILING. NO SKY."}
   - id: P19
-    shape: wide
+    shape: tall
     gap: short
     bg: black
     camera: "bank-level three-quarter as Orrin and Sera step onto the landing"
@@ -274,27 +283,29 @@ panels:
       shell's old pale seam visible. sera emerges beside him, bow LEFT and quiver RIGHT shoulder, scanning the
       bank, not the ceiling. Each bears a cold-white violet-edged wrist/foreleg return ring. The entry slit
       stands behind; a white lamp lights muted teal water and violet rock. No harness, healed-new shell or sun.
+      Orrin is left, Sera right; show their full bodies clearing the threshold.
     calm: top
     lines:
       - {who: orrin, type: speech, side: l, text: "A ROOF. NOT A HOME."}
       - {who: sera, type: speech, side: r, text: "NOT YET."}
   - id: P20
-    shape: strip
+    shape: wide
     gap: short
     bg: white
-    camera: "outside, extreme close on Taeo's right palm hovering over the log"
+    camera: "outside medium view of Taeo at his log, face and right palm visible"
     art: >
       At chungju_gate_site, taeo's RIGHT palm opens above the blank survey log, navy sleeve pushed to the fading
       bruise. A single thin amber pulse appears at the heel, permitted by nib's deliberate contact with his
       own linked hand inside; no shared damage. Grey base-station cord beside the wrist, cold work-lamp key,
       muted slate background. No pulse in his left palm, no reservoir or alphabet in art.
+      Show Taeo seated from the waist up on the right, with his face in frame above the log. Nib's voice comes from the wired handset at left.
     calm: none
     lines:
-      - {who: nib, type: phone, side: l, text: "GROUND HOLDS. I ALLOW THE LINK."}
+      - {who: "offpanel:nib", type: phone, side: l, text: "GROUND IS STABLE. YOU CAN CHECK THE LINK."}
       - {who: taeo, type: speech, side: r, text: "JUST CHECKING. NO CARRYING."}
     notes: "Consent explicit; Nib amber in Taeo's RIGHT palm. No new load percentage or endurance claim."
   - id: P21
-    shape: wide
+    shape: full
     gap: short
     bg: black
     camera: "over Sera's shoulder toward the carved sign on the first shelf"
@@ -304,9 +315,10 @@ panels:
       hand remains suspended above it while her LEFT keeps the bow low. nib watches her rather than the sign.
       White torch side light across the grooves, muted teal reflections, violet shadows. No modern label,
       brother, message cylinder or proof of a living settlement.
+      Sera stands on the right by the slab, Nib on the left, with space for their separate bodies.
     calm: top
     lines:
-      - {who: sera, type: speech, side: r, text: "THAT'S OUR MARK."}
+      - {who: sera, type: speech, side: r, text: "THAT'S MY SETTLEMENT'S MARK."}
   - id: P22
     shape: inset-r
     gap: short
@@ -320,7 +332,7 @@ panels:
     calm: left
     silent: true
   - id: P23
-    shape: wide
+    shape: tall
     gap: short
     bg: black
     camera: "side two-shot at Sera's knee height, Nib beside the sign"
@@ -329,9 +341,10 @@ panels:
       He points to the dry bank route rather than the deep water; she straightens from the carving, swallowing
       disappointment before it hardens into purpose. Return rings visible. Survey lamp from the landing gives
       cool white edges, violet shadows and muted teal river. No move farther upstream yet, no drawn lettering.
+      Nib stands left, Sera right, both visible beside the slab.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "HOW OLD?"}
+      - {who: nib, type: speech, side: l, text: "HOW OLD IS THE CARVING?"}
       - {who: sera, type: speech, side: r, text: "OLDER THAN ME. THAT'S ALL I CAN TELL YOU."}
   - id: P24
     shape: full
@@ -344,9 +357,10 @@ panels:
       people clear of the water. nib and sera remain at the first shelf with orrin. White practical lamps
       define islands under continuous black stone ceiling, teal water and violet shadows. No infinite light
       range, wireless arcs, readably named flags, opposite threshold or second gate.
+      Minho is left beside the relay, the Meridian leader right with her upstream team.
     calm: top
     lines:
-      - {who: minho, type: speech, side: l, text: "FIRST SHELF ONLY FOR US. NO SIDE PASSAGES TODAY."}
+      - {who: minho, type: speech, side: l, text: "RYU AND TAEO'S CREW STAY ON THIS SHELF. NO SIDE PASSAGES TODAY."}
       - {who: meridian_lead, type: speech, side: r, text: "UPSTREAM MOVING."}
   - id: P25
     shape: inset-l
@@ -360,8 +374,8 @@ panels:
       phone display, smile of mastery or inside return mark on him.
     calm: right
     lines:
-      - {who: taeo, type: float, text: "SHE HAD COME FOR A PERSON."}
-      - {who: taeo, type: float, text: "I COULD OFFER A CHECKLIST."}
+      - {who: taeo, type: float, text: "SERA HAD COME TO FIND HER BROTHER."}
+      - {who: taeo, type: float, text: "I ONLY HAD SAFETY CHECKS TO OFFER."}
   - id: P26
     shape: strip
     gap: short
@@ -376,7 +390,7 @@ panels:
     sfx:
       - {text: "TIK", style: quiet, at: [0.63, 0.59], size: S, rot: -12}
   - id: P27
-    shape: wide
+    shape: tall
     gap: short
     bg: black
     camera: "eye level with Nib holding the fragment for Sera"
@@ -385,6 +399,7 @@ panels:
       palm. sera, bow left, bends slightly to compare its layers with the nearby bank, her professional
       focus returning; orrin watches in background with a heavy-lidded patient face. Cold-white practical
       lamp, muted green cloth, violet shadow. No trophy pose, regenerated deposit, cyan meter or cute Nib.
+      Nib stands left holding the fragment, Sera right and Orrin behind, all with room to stand.
     calm: top
     lines:
       - {who: nib, type: speech, side: l, text: "NEW KIND."}
@@ -400,11 +415,12 @@ panels:
       without putting weight on the edge. His pale olive eyes judge the bank's shape, one lid raised.
       Layered slate shell, pale old crack seam, no gear. White relay lamp side key, teal reflection under
       chin and violet shadows. Do not give him a saddle, human hands or underwater sight.
+      Orrin's face fills the right third.
     calm: left
     lines:
       - {who: orrin, type: speech, side: r, text: "THE RIVER HAS BEEN HERE LONGER THAN THE STEPS."}
   - id: P29
-    shape: wide
+    shape: tall
     gap: short
     bg: black
     camera: "oblique overhead, Nib beside a slipping empty sample tray"
@@ -413,6 +429,7 @@ panels:
       nib's boot pins its handle in one sharp ordinary movement; his upright adult expression is annoyed,
       not afraid. sera catches the river-stone pouch before it tips. White practical lamp casts distinct
       shadows on violet slate, muted teal water below. No person falls, monster wake or active load transfer.
+      Nib stands left over the tray, Sera right with the sample pouch; show feet and the bank edge.
     calm: top
     sfx:
       - {text: "SKRK", style: quiet, at: [0.45, 0.68], size: M, rot: -15}
@@ -429,12 +446,13 @@ panels:
       lamp stays steady; white blue-banded cable is taut but intact along dry rock. His brown jacket sleeve
       and LEFT watch show. Cool lamp white over slate/violet, muted teal reflected in the lower edge.
       No smashed equipment, electronic display, monster silhouette or readable glyphs.
+      The Meridian leader is farther upstream, outside the frame; her voice comes from the handset at left.
     calm: top
     lines:
-      - {who: meridian_lead, type: phone, side: l, text: "UPSTREAM TEAM: ROCKFALL AT MARKER 9, HOLD POSITION."}
+      - {who: "offpanel:meridian_lead", type: phone, side: l, text: "UPSTREAM TEAM: ROCKFALL AT MARKER 9, HOLD POSITION."}
     notes: "PLANT P15: the real earlier transmission, source is the actual upstream team. Do not underline a delay or explain the later repeat."
   - id: P31
-    shape: wide
+    shape: tall
     gap: short
     bg: black
     camera: "bank-level side view of the crew obeying the stop"
@@ -443,6 +461,7 @@ panels:
       to the Ryu crew and orrin settles on all four feet. Everyone holds on the first shelf away from water.
       Their acting is alert and practised, not panic. Continuous stone ceiling overhead, white relay lamp,
       violet shadow, teal river. No falling debris here, magical shield or motion toward marker 9.
+      Minho is visibly drawn at left holding the handset; Nib is right, Sera centre and Orrin behind.
     calm: top
     lines:
       - {who: minho, type: speech, side: l, text: "HOLDING. COUNT YOUR PEOPLE."}
@@ -457,12 +476,13 @@ panels:
       of reaching toward an imaginary control. His jaw tightens, mole beneath RIGHT eye, eyes on the gate.
       sejin's sage shoulder appears beside him. Hard white work lamp, grey-blue concrete, muted brown patch
       at the chair. No blood, new bruising, load pulse, mark or panic chibi.
+      Taeo's face is on the left. Sera is inside, heard through the handset at right.
     calm: right
     lines:
       - {who: taeo, type: speech, side: l, text: "IS EVERYONE CLEAR OF THE WATER?"}
-      - {who: sera, type: phone, side: r, text: "YES. I'M NOT GOING ANYWHERE."}
+      - {who: "offpanel:sera", type: phone, side: r, text: "YES. I'M NOT GOING ANYWHERE."}
   - id: P33
-    shape: wide
+    shape: full
     gap: short
     bg: black
     camera: "over Minho's shoulder toward the first shelf crew"
@@ -471,12 +491,13 @@ panels:
       sera has set her wrapped map back in its case; nib ties the river-stone sample bag; orrin watches
       the path toward the entry. Their held bodies loosen one degree. White lamp on pale hands and cable,
       violet slate, muted teal water. No upstream route drawn safe, falling rocks or distant rescuer.
+      Minho is in the right foreground, face visible in profile. The upstream leader's voice comes from the handset to his left.
     calm: top
     lines:
-      - {who: meridian_lead, type: phone, side: l, text: "ALL UPSTREAM ACCOUNTED FOR. WE'RE WITHDRAWING TO THE JOIN."}
-      - {who: minho, type: speech, side: r, text: "FIRST STAGE ENDS HERE."}
+      - {who: "offpanel:meridian_lead", type: phone, side: l, text: "ALL UPSTREAM ACCOUNTED FOR. WE'RE RETURNING TO THE FIRST SHELF."}
+      - {who: minho, type: speech, side: r, text: "WE'RE ENDING THE FIRST SURVEY NOW."}
   - id: P34
-    shape: vignette
+    shape: tall
     gap: long
     bg: black
     camera: "rear view of Sera taking one last look at the carved slab"
@@ -485,6 +506,7 @@ panels:
       at the settlement slab. Her bow remains in her LEFT hand, braid heavy against river-green cloth;
       her mouth is a hard line against wanting to stay. The crew's cold-white lamp leaves the emblem
       half in violet shadow. Edges fade to black, no imaginary brother, readable inscription or sky.
+      Keep Sera's full figure and her companions ahead visible, with space beneath the low ceiling.
     calm: none
     silent: true
   - id: P35
@@ -501,7 +523,7 @@ panels:
     silent: true
     notes: "Routine withdrawal through still-open gate. Boss lives; return marks fade outside, no 30-second countdown."
   - id: P36
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "eye level near the medical canopy as the crew rejoins Taeo"
@@ -510,10 +532,11 @@ panels:
       and the stoneback with his eyes. Relief softens his tired face. nib, default and boots, places the
       closed sample bag on the table instead of into Taeo's hand. White work lights with daylight beyond,
       muted grey-blue and brown. No reunion embrace, belongings on Orrin or private UI yet.
+      Nib stands left by the sample table, Taeo right; Orrin passes through the clear centre.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "FOUND IT AT THE EDGE."}
-      - {who: taeo, type: speech, side: r, text: "YOU WANT TO USE IT?"}
+      - {who: nib, type: speech, side: l, text: "RIVER STONE FROM THE BANK'S EDGE."}
+      - {who: taeo, type: speech, side: r, text: "YOU WANT TO USE THE FRAGMENT?"}
   - id: P37
     shape: inset-r
     gap: short
@@ -524,12 +547,13 @@ panels:
       V-notch LEFT ear and binocular knot on LEFT neck visible. His scarred hand rests on the sample bag,
       guarding the choice rather than the money. Overhead white work light, warm skin against slate shadow,
       simplified canopy canvas. No glowing eyes, cute grin or missing belt props.
+      Nib's face is on the right third.
     calm: left
     lines:
       - {who: nib, type: speech, side: r, text: "YES."}
       - {who: nib, type: speech, side: r, text: "ONE DOOR CLOSER."}
   - id: P38
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "three-quarter across the sample table, Haein sealing the remaining field record"
@@ -538,13 +562,14 @@ panels:
       paper before passing it to taeo at chungju_gate_site. sera watches with practical interest, bow
       laid safely beside her, not nocked. White canopy daylight, cool grey shadows and muted teal sample
       stone. Separate sample bags and log; no alphabet in the rubbing, screen or replacement reservoir.
+      Haein stands left, Nib centre and Taeo right, all three faces clear. Sera watches behind.
     calm: top
     lines:
-      - {who: haein, type: speech, side: l, text: "LET ME RECORD IT BEFORE YOU EAT THE EVIDENCE."}
-      - {who: taeo, type: speech, side: r, text: "I HAVE NEVER EATEN ONE."}
-      - {who: nib, type: speech, side: l, text: "I STOPPED HIM."}
+      - {who: haein, type: speech, side: l, text: "LET ME RECORD THE FRAGMENT BEFORE YOU EAT THE EVIDENCE."}
+      - {who: taeo, type: speech, side: r, text: "I HAVE NEVER EATEN AN ANCHOR."}
+      - {who: nib, type: speech, side: c, text: "I STOPPED HIM."}
   - id: P39
-    shape: inset-l
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -554,10 +579,11 @@ panels:
       jacket, hugs the unopened bag well away from his mouth, waterfall embarrassment. Chibi nib, boots,
       binoculars, LEFT ear notch and all belt props intact, holds a tiny empty spoon confiscated from
       lunch with a solemn face. White lamp key implied by one cel shadow. No real ingestion or UI.
+      Chibi Taeo stands left and Nib right, both complete figures.
     calm: right
     lines:
-      - {who: taeo, type: nervous, side: l, text: "SORRY. THAT STORY HAS GROWN TEETH."}
-      - {who: nib, type: speech, side: r, text: "STILL DON'T EAT IT."}
+      - {who: taeo, type: nervous, side: l, text: "SORRY. I STILL HAVEN'T EATEN A ROCK."}
+      - {who: nib, type: speech, side: r, text: "KEEP IT THAT WAY."}
   - id: P40
     shape: strip
     gap: long
@@ -595,10 +621,11 @@ panels:
       toward nib, checking once more. His tired eyes are earnest, a small mole beneath RIGHT eye,
       mouth curled with dry nerves. Cyan from lower left, cool daylight right, navy shadow. Nothing
       floats visibly in the drawing; no pupil glyphs, blood or triumphant expression.
+      Taeo's face is on the right. Nib speaks from outside the left edge.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: r, text: "RIVER STONE. NEW. STARTING AT ZERO AGAIN."}
-      - {who: nib, type: speech, side: l, text: "GO ON."}
+      - {who: taeo, type: speech, side: r, text: "RIVER STONE IS NEW. THE ALIGNMENT METER IS AT ZERO."}
+      - {who: "offpanel:nib", type: speech, side: l, text: "GO ON."}
   - id: P43
     shape: strip
     gap: short
@@ -613,7 +640,7 @@ panels:
     sfx:
       - {text: "TAP", style: quiet, at: [0.73, 0.67], size: S, rot: 0}
   - id: P44
-    shape: wide
+    shape: full
     gap: short
     bg: navy
     camera: "three-quarter from behind Taeo as his empty palm turns upward"
@@ -622,6 +649,7 @@ panels:
       reserve the upper half for a single result window. His shoulders release a fraction. Beyond,
       haein stores the rubbing in a dry sleeve. Navy/grey shadows, daylight at the canopy edge.
       The fragment is completely gone; no new seam, physical injury, second sample or public UI.
+      Taeo is left by the table and Haein right storing the rubbing; leave room for both standing figures.
     calm: top
     ui:
       - {kind: system.notice, on: float, text: "[NEW KIND: RIVER STONE · +34%]\n[ROUTE ALIGNMENT 34%]", at: [0.5, 0.10], tilt: -5}
@@ -629,7 +657,7 @@ panels:
       - {text: "DING", style: summon, at: [0.84, 0.14], size: M, rot: 0}
     notes: "Window 5: river stone first (+34%). Ch 64 needs echo coral +33% and one distinct third river kind +33%. No contact window yet."
   - id: P45
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "profile two-shot as Sera gathers her bow beside Taeo"
@@ -638,9 +666,10 @@ panels:
       a deliberate mask over impatience. He lowers his hand and meets her gaze. Flute RIGHT hip,
       quiver RIGHT shoulder; navy jacket, old backpack patch beside him. White work lamp, grey concrete,
       river-green cloth. No active link or second invitation visible in art.
+      Sera stands left, Taeo right, their full figures separate beside the table.
     calm: top
     lines:
-      - {who: sera, type: speech, side: l, text: "THIRTY-FOUR IS MORE THAN ZERO."}
+      - {who: sera, type: speech, side: l, text: "THIRTY-FOUR PERCENT IS BETTER THAN ZERO."}
       - {who: taeo, type: speech, side: r, text: "I'M TRYING TO TAKE COMFORT IN MATHS."}
   - id: P46
     shape: full
@@ -653,6 +682,7 @@ panels:
       blue-banded cable remains inside under live watch, grey base station on a locked bench;
       no unguarded disconnected circuit. sera rolls her map by the van, orrin rests clear of wheels.
       Slant afternoon daylight and white tunnel lamps, grey/blue palette. No closed gate or sunset times fixed.
+      Minho stands at the left table and the Meridian leader at the right table, both faces visible.
     calm: top
     lines:
       - {who: minho, type: speech, side: l, text: "SMALL SAMPLE RUN NEXT. FULL SECOND DESCENT AFTER THE REVIEW."}
@@ -697,7 +727,7 @@ panels:
     sfx:
       - {text: "KKT", style: quiet, at: [0.72, 0.46], size: S, rot: -5}
   - id: P50
-    shape: wide
+    shape: tall
     gap: short
     bg: black
     camera: "front on the consortium table, every face turning toward the handset"
@@ -707,6 +737,7 @@ panels:
       in navy helmet, looks straight at the base station without moving her mouth. haein stops
       winding a spare cable. Hard white work-lamp key, grey/navy and violet shadows. No chibi,
       mouth matching the broadcast, signal origin shown or system window.
+      Taeo stands left, Minho centre, the Meridian leader right and Haein behind; leave room for every body.
     calm: top
     lines:
       - {who: taeo, type: speech, side: l, text: "DID SOMEONE GO BACK IN?"}
@@ -722,9 +753,10 @@ panels:
       Her broad-nosed face is suddenly pale, jaw tight. taeo's navy shoulder at left edge.
       White lamp overhead, deep violet tunnel; upper half plain black concrete for the warning.
       No fallen rocks, underwater face, doubled person, loop diagram or time distortion.
+      The warning comes from the foreground speaker at left, repeating the leader's recorded voice. Only the real leader at right moves her mouth for the replies.
     calm: top
     lines:
-      - {who: meridian_lead, type: phone, side: l, text: "UPSTREAM TEAM: ROCKFALL AT MARKER 9, HOLD POSITION."}
+      - {who: "offpanel:meridian_lead", type: phone, side: l, text: "UPSTREAM TEAM: ROCKFALL AT MARKER 9, HOLD POSITION."}
       - {who: meridian_lead, type: speech, side: r, text: "WE DIDN'T SEND THAT."}
       - {who: meridian_lead, type: speech, side: r, text: "WE'RE ALL HERE."}
     notes: "PLANT P15. The warning from P30 repeats on the wired consortium radio after the upstream crew has returned. Denial refers to THIS transmission. Exact phrase retained for ch 64–67; cause unresolved until ch 77."
