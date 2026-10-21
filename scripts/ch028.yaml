@@ -89,6 +89,7 @@ panels:
     bg: white
     camera: "floor-height two-shot across the open packing carton at the folding table"
     art: >
+      Frame kneeling Taeo left and Nib right from the waist up across the carton; keep the cup and Nib's face visible.
       Taeo (taeo, black hoodie, socks, right sleeve loose over purple forearm) kneels beside
       an open carton at taeo_flat; Nib (nib, adult default, barefoot, high binoculars,
       full belt locks) stands opposite holding the green-banded cup upright by its handle.
@@ -97,9 +98,9 @@ panels:
       Cartons and packing paper blank, no readable labels or magic.
     calm: top
     lines:
-      - {who: nib, type: speech, side: r, text: "THAT ONE COMES."}
-      - {who: taeo, type: speech, side: l, text: "I WAS PACKING IT."}
-      - {who: nib, type: speech, side: r, text: "NOT IN THAT."}
+      - {who: nib, type: speech, side: r, text: "THE CUP COMES WITH US."}
+      - {who: taeo, type: speech, side: l, text: "I WAS PACKING THE CUP."}
+      - {who: nib, type: speech, side: r, text: "NOT IN A BOX."}
 
   - id: P03
     shape: inset-r
@@ -107,6 +108,7 @@ panels:
     bg: white
     camera: "close-up on Taeo looking at the cup, half amused and half caught"
     art: >
+      Taeo's face is in the right third; Nib stands off frame left with the cup.
       Taeo (taeo, default hoodie, RIGHT-eye mole) at taeo_flat looks from Nib's off-frame
       mug to Nib's face. His tired smile catches on a memory, small and unperformed.
       Loose right cuff at lower edge; one folded carton behind him. Cool morning grey-blue,
@@ -115,7 +117,7 @@ panels:
     calm: left
     lines:
       - {who: taeo, type: speech, side: r, text: "IT'S A PERFECTLY GOOD BOX."}
-      - {who: "offpanel:nib", type: speech, side: l, text: "I CARRY IT."}
+      - {who: "offpanel:nib", type: speech, side: l, text: "I CARRY THE CUP."}
 
   - id: P04
     shape: wide
@@ -123,6 +125,7 @@ panels:
     bg: white
     camera: "from beside the window toward the desk shelf as Taeo reaches for the family photo"
     art: >
+      Frame Taeo left and Nib right from the waist up, with the photo and lamp visible at the shelf.
       At taeo_flat Taeo (taeo, hoodie, socks) uses his LEFT hand to lift the small framed
       family photo from the shelf above the desk left of the keyed window. His bruised RIGHT
       arm stays close to his body. Nib (nib, default, full locks) behind him holds the mug
@@ -131,7 +134,7 @@ panels:
       human shapes, no readable caption or added family members.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "ALL RIGHT. I'LL TAKE THESE."}
+      - {who: taeo, type: speech, side: l, text: "ALL RIGHT. I'LL PACK THE PHOTO AND LAMP."}
 
   - id: P05
     kind: title
@@ -162,6 +165,7 @@ panels:
     bg: white
     camera: "extreme close-up on the old orange patch as the backpack pocket folds around the frame"
     art: >
+      Taeo's face is off frame left; only his hand, the bag and patch are drawn.
       Taeo's olive backpack at taeo_flat lies open on the folding table, family frame
       wrapped in plain cloth inside its padded sleeve. Taeo's LEFT hand closes the fastening
       while the faded orange embroidered shield-and-open-door patch catches daylight on the
@@ -170,7 +174,7 @@ panels:
       lettering, detached patch, spotlight glow or logos on packing cloth.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: l, text: "THAT STAYS ON."}
+      - {who: "offpanel:taeo", type: speech, side: l, text: "THE PATCH STAYS ON THE BAG."}
     notes: "Patch is packed by preserving the backpack it is sewn to, not magically detached. Motif only; no early P03 payoff."
 
   - id: P08
@@ -179,6 +183,7 @@ panels:
     bg: white
     camera: "side-on at Nib's eye level, his paper drawing held above the open backpack"
     art: >
+      Draw both speaking faces, Taeo left and Nib right, framed from the waist up beside the open backpack.
       Nib (nib, default, adult, LEFT notch, high binoculars, correct belt props, barefoot)
       at taeo_flat checks his folded PAPER watch-post drawing and small white pebble, then
       slides both into a separate cloth sleeve in the open olive backpack. Cup rests safely
@@ -187,8 +192,8 @@ panels:
       Drawing may show wall/tree/path shapes, no words, no cardboard or second lent flashcard.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "PHOTO POCKET. IT WON'T BEND."}
-      - {who: nib, type: speech, side: r, text: "SEPARATE SLEEVE."}
+      - {who: taeo, type: speech, side: l, text: "THE PHOTO POCKET WILL KEEP YOUR DRAWING FLAT."}
+      - {who: nib, type: speech, side: r, text: "MY DRAWING GETS A SEPARATE SLEEVE."}
       - {who: taeo, type: speech, side: l, text: "YES. SORRY."}
 
   - id: P09
@@ -197,6 +202,7 @@ panels:
     bg: white
     camera: "close-up on Taeo lifting the first-rule paper from the wall near the entrance"
     art: >
+      Taeo's face occupies the right third beside the rule sheet.
       Taeo (taeo, hoodie) at taeo_flat uses his LEFT fingertips to peel the old rule sheet
       from the wall near the entrance, taking the tape with it rather than tearing the paper.
       His mouth is set in careful concentration, bruised right arm relaxed. Broad blank
@@ -206,14 +212,15 @@ panels:
     ui:
       - {kind: label, text: "1. ASK FIRST.", at: [0.52, 0.43]}
     lines:
-      - {who: taeo, type: speech, side: r, text: "THIS TOO."}
+      - {who: taeo, type: speech, side: r, text: "THE RULE COMES WITH US."}
 
   - id: P10
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "from the flat's doorway as Haein shoulders the rolled duvet"
     art: >
+      Draw all three speakers clearly: Haein left, Minho centre and Taeo right; Nib waits behind with the cup.
       At taeo_flat Haein (haein, overalls, beige tee, tool belt, glasses up) shoulders the
       rolled grey duvet; Minho (minho, brown jacket, LEFT streak, olive cargo trousers) picks
       up the collapsed clothes rack. Taeo (taeo, hoodie, socks) reaches with his LEFT hand
@@ -223,8 +230,8 @@ panels:
     calm: top
     lines:
       - {who: haein, type: speech, side: l, text: "NO LIFTING. SEJIN SAID."}
-      - {who: taeo, type: speech, side: r, text: "IT'S ONLY MY SOCKS."}
-      - {who: minho, type: speech, side: l, text: "APPARENTLY YOU OWN EIGHT KILOS OF SOCKS."}
+      - {who: taeo, type: speech, side: r, text: "THE CARTON'S ONLY MY SOCKS."}
+      - {who: minho, type: speech, side: c, text: "APPARENTLY YOU OWN EIGHT KILOS OF SOCKS."}
 
   - id: P11
     shape: tall
@@ -249,6 +256,7 @@ panels:
     bg: white
     camera: "eye-level close-up on Nib standing by the flat's open door with the mug"
     art: >
+      Frame Nib from the waist up in the left third, holding the cup at the lower crop.
       Nib (nib, default, adult weathered face, LEFT notch, high binoculars, full belt locks,
       barefoot) at taeo_flat holds the green-banded mug securely against his waist, waiting
       for Taeo. He looks back into the stripped room, ears angled attentively, not mournfully
@@ -259,11 +267,12 @@ panels:
       - {who: nib, type: speech, side: l, text: "NOTHING LEFT UNDER THE BED."}
 
   - id: P13
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low from the entry shoe recess toward Taeo after the others have gone down"
     art: >
+      Taeo sits in the right third to put on his shoes; allow his bent legs and hands room.
       Taeo (taeo, hoodie, black cargo trousers) at taeo_flat eases his striped black sneakers
       onto his feet from the entry recess using his LEFT hand, keeping bruised RIGHT arm loose.
       The olive backpack waits at the doorway for Haein's last trip; Nib (nib, default, cup)
@@ -272,7 +281,7 @@ panels:
       readable note or magically healed arm.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "RIGHT. JUST US."}
+      - {who: taeo, type: speech, side: r, text: "JUST US LEFT, THEN."}
 
   - id: P14
     shape: full
@@ -320,15 +329,16 @@ panels:
       the wrong wall, summon effects or writing.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "I DON'T THINK THAT ANYMORE."}
+      - {who: taeo, type: float, text: "SAFE DOESN'T HAVE TO MEAN ALONE."}
     notes: "Third and last first-night narration line; not a new prophecy or backstory exposition."
 
   - id: P17
-    shape: wide
+    shape: tall
     gap: long
     bg: white
     camera: "exterior corridor, side view of Taeo and Nib turning away from the old door"
     art: >
+      Nib waits left and Taeo closes the door at right, with room for both standing figures.
       taeo_building's fourth-floor open-air corridor: Taeo (taeo, hoodie, sneakers, right cuff
       loose) draws the steel flat door shut with his LEFT hand. Nib (nib, adult default,
       binoculars and full locks, barefoot) waits beside him with the white green-banded mug.
@@ -361,6 +371,7 @@ panels:
     bg: white
     camera: "street-level three-quarter of Orrin waiting in the piloti with the moving load"
     art: >
+      Place Taeo left, Nib centre and Orrin's face right; Haein checks the load behind them.
       At taeo_building's ground-level piloti Orrin (orrin, default, adult slate terraces,
       four huge legs, bare olive-grey neck) stands under a deliberately low stable stack:
       two cartons, rolled duvet, folded table and collapsed rack on a padded cloth atop the
@@ -371,17 +382,18 @@ panels:
       overloaded neck, readable labels or loose glass.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "ALL RIGHT TO CARRY IT? WE CAN MAKE TWO TRIPS."}
-      - {who: orrin, type: speech, side: r, text: "THIS IS LESS THAN THE BED."}
-      - {who: nib, type: speech, side: l, text: "I HAVE THE CUP."}
+      - {who: taeo, type: speech, side: l, text: "ALL RIGHT TO CARRY OUR THINGS? WE CAN MAKE TWO TRIPS."}
+      - {who: orrin, type: speech, side: r, text: "YOUR THINGS WEIGH LESS THAN YOUR BED."}
+      - {who: nib, type: speech, side: c, text: "I HAVE THE CUP."}
     notes: "Orrin voluntarily carries all packed household belongings after Minho/Haein bring them down; Nib takes the cup."
 
   - id: P20
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "slightly high at a pavement corner with the party considering two routes"
     art: >
+      Place Haein left, Taeo centre and Orrin right; Nib waits clear behind with the cup.
       taeo_street, daylight: Orrin (orrin, loaded as P19) pauses before a narrow pavement
       turn with a drain grate; he angles toward the wider next crossing. Haein (haein,
       overalls) holds a mapless dark phone at her side; Taeo (taeo, hoodie) steps aside with
@@ -390,18 +402,19 @@ panels:
       readable shop signs, active screens or instant travel jump.
     calm: top
     lines:
-      - {who: haein, type: speech, side: l, text: "THE YARD'S LEFT."}
-      - {who: orrin, type: speech, side: r, text: "AFTER THE NEXT CROSSING. THIS DRAIN IS TOO NARROW."}
+      - {who: haein, type: speech, side: l, text: "THE YARD'S TO THE LEFT."}
+      - {who: orrin, type: speech, side: r, text: "AFTER THE NEXT CROSSING. THIS CORNER IS TOO NARROW."}
       - {who: taeo, type: speech, side: c, text: "I SHOULD HAVE ASKED YOU FOR DIRECTIONS."}
     notes: "Orrin's spatial memory has practical use; he recalls the wider crossing from his arrival at the yard."
 
   - id: P21
-    shape: wide
+    shape: full
     gap: short
     bg: white
     style: chibi
     camera: "chibi moving procession viewed in profile against a flat street-colour field"
     art: >
+      Place chibi Taeo left, Orrin centre and Nib right, with room for their full figures and moving load.
       CHIBI comedy on taeo_street: 2.5-head Nib (nib, LEFT notch, LEFT fang, rope belt,
       RIGHT sticker pouch, LEFT wooden sheath, barefoot, high black binoculars) marches with
       exaggerated solemn care, green-banded mug in both hands. Behind him enormous chibi
@@ -411,17 +424,18 @@ panels:
       broken cup, drawn words, harness or pet ears.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "WE COULD PUT IT ON TOP."}
+      - {who: taeo, type: speech, side: l, text: "WE COULD PUT THE CUP ON TOP."}
       - {who: nib, type: speech, side: r, text: "NO."}
-      - {who: orrin, type: speech, side: c, text: "HE HAS THE DELICATE LOAD."}
+      - {who: orrin, type: speech, side: c, text: "NIB HAS THE DELICATE LOAD."}
 
   # THE TEMPORARY HOME IS A HOME WHILE THEY ARE HERE.
   - id: P22
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "establishing from the yard south gate, exact wide-key office/van/maze arrangement"
     art: >
+      Haein heads toward the home in the left third; Orrin enters right with Nib beside him and Taeo behind.
       ryu_practice_yard in late morning: grey office LEFT, last white van RIGHT facing west
       with blank blue sticker, fixed maze, north targets, west equipment trestle. Orrin
       (orrin, chosen moving load) enters through the wide double gate; Nib (nib, adult default,
@@ -442,6 +456,7 @@ panels:
     bg: white
     camera: "from behind Taeo as he opens the spare container with his new key"
     art: >
+      Draw Haein at left beside the door, giving advice to Taeo at right; Nib waits centre with the cup.
       West annex at ryu_practice_yard: Taeo (taeo, black hoodie) uses the silver spare-home
       key in his LEFT hand, right arm loose, opens the east-facing door from ch 26. Small
       window directly north of door; Haein's workshop next north, tools seen only as dark
@@ -454,11 +469,12 @@ panels:
       - {who: haein, type: speech, side: l, text: "LIFT THE HANDLE FIRST."}
 
   - id: P24
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "side-on between the home door and Haein's adjacent workshop door"
     art: >
+      Place Haein left at her workshop, Taeo centre and Nib right, with room for the three standing figures.
       Haein (haein, overalls, bob, tool belt) at ryu_practice_yard's west annex leans against
       her workshop door north of the spare home, proud and awkward about the gift. Taeo
       (taeo, hoodie) looks toward the neatly hung tools; Nib (nib, default, binoculars, full
@@ -467,15 +483,16 @@ panels:
     calm: top
     lines:
       - {who: haein, type: speech, side: l, text: "WORKSHOP NEXT DOOR. TOOLS STOP AT SIX."}
-      - {who: nib, type: speech, side: r, text: "WHICH SIX."}
+      - {who: nib, type: speech, side: r, text: "SIX IN THE MORNING?"}
       - {who: haein, type: speech, side: l, text: "WE'LL NEGOTIATE."}
 
   - id: P25
-    shape: full
+    shape: tall
     gap: short
     bg: white
     camera: "interior establishing from the new east-facing doorway toward north and west walls"
     art: >
+      Minho sets the carton down at left, Haein works centre, Taeo stands right and Nib stays by the west wall.
       New container home at ryu_practice_yard per location_notes: narrow plywood room,
       low platform north, empty shelf on west wall, rack southwest, clear aisle to the east
       door. Haein (haein, overalls) unrolls Taeo's grey duvet onto the platform; Minho (minho,
@@ -489,11 +506,12 @@ panels:
       - {who: taeo, type: speech, side: r, text: "FOR THE FIRE BRIGADE."}
 
   - id: P26
-    shape: inset-l
+    shape: tall
     gap: short
     bg: white
     camera: "low along the west wall, Nib deciding where his sleeping mat goes"
     art: >
+      Nib sits in the left third beside his full sleeping mat; Taeo stands off frame to the right.
       Nib (nib, default, weathered adult, barefoot, high binoculars, full belt locks) in the
       ryu_practice_yard home rolls his sleeping mat along the west wall and sits to check
       his direct sightline to the open east-facing door. He holds the green-banded mug
@@ -501,7 +519,7 @@ panels:
       No childlike nest, cage, lock on the inside of a person or readable floor marks.
     calm: right
     lines:
-      - {who: nib, type: speech, side: l, text: "HERE."}
+      - {who: nib, type: speech, side: l, text: "MY MAT GOES HERE."}
       - {who: "offpanel:taeo", type: speech, side: r, text: "YOU CAN SEE THE DOOR."}
       - {who: nib, type: speech, side: l, text: "YES."}
 
@@ -526,6 +544,7 @@ panels:
     bg: white
     camera: "from inside the home toward Taeo smoothing the rule sheet by the shelf"
     art: >
+      Frame Taeo right from the waist up beside the rule sheet; seated Nib's upper body is left.
       Taeo (taeo, hoodie, bruised right arm kept loose) in the ryu_practice_yard home
       presses the rescued rule sheet onto the west wall beside the family shelf using his
       LEFT palm. Nib (nib, default, full locks) watches from the chosen mat, no longer holding
@@ -535,7 +554,7 @@ panels:
     ui:
       - {kind: label, text: "1. ASK FIRST.", at: [0.42, 0.32]}
     lines:
-      - {who: taeo, type: speech, side: r, text: "STILL THE FIRST THING UP."}
+      - {who: taeo, type: speech, side: r, text: "NEW HOME. SAME FIRST RULE."}
     notes: "Only rule 1 here. The complete three-rule wall belongs to ch 45."
 
   - id: P29
@@ -544,6 +563,7 @@ panels:
     bg: white
     camera: "late-afternoon medium from the doorway as Seonhee arrives with kimchi tubs"
     art: >
+      Frame Seonhee left and Taeo right from the waist up across the table.
       Seonhee (seonhee: about 55, strong Ryu brows, tired brown eyes, grey-templed low bun,
       glasses up, pencil LEFT ear, moss-grey cardigan over cream shirt, slate trousers,
       scuffed brown shoes) at ryu_practice_yard's home doorway carries a modest red-lidded
@@ -553,16 +573,17 @@ panels:
     calm: top
     lines:
       - {who: seonhee, type: speech, side: l, text: "KIMCHI. THE FRIDGE IS IN THE OFFICE."}
-      - {who: taeo, type: speech, side: r, text: "THAT'S A LOT."}
+      - {who: taeo, type: speech, side: r, text: "THAT'S A LOT OF KIMCHI."}
       - {who: seonhee, type: speech, side: l, text: "I KNOW HOW MANY PEOPLE LIVE HERE."}
 
   # THE FIRST DINNER TOGETHER.
   - id: P30
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "dinner establishing across two tables outside the home with a clear wheelchair approach"
     art: >
+      Place serving Seonhee left and Dongsik's wheelchair at the right end; keep the level approach and full chair visible.
       ryu_practice_yard west open strip before sunset: two folding tables pushed together
       outside the home, bowls of rice, fish, kimchi and soup. Dongsik (dongsik: about 58,
       broad shoulders, strong Ryu brows, square jaw, short grey-templed dark hair, weathered
@@ -585,6 +606,7 @@ panels:
     bg: white
     camera: "at table height with Nib on a plain raised crate, Taeo seated beside him"
     art: >
+      Frame seated Nib left and Taeo right from the waist up beside the cup.
       Nib (nib, adult default, full belt locks, binoculars high, bare feet resting on crate
       rung) sits on a stable crate at the ryu_practice_yard dinner table. Taeo (taeo, hoodie,
       right cuff loose over bruise) uses his LEFT hand to pour water into THE CUP, fetched
@@ -616,6 +638,7 @@ panels:
     bg: white
     camera: "three-quarter on Orrin's open side of the dinner table, Haein leaning toward him"
     art: >
+      Frame Haein left from the waist up and Orrin's speaking face right beside the basin.
       Orrin (orrin, default, adult olive-grey face, intact broad slate shell) at the
       ryu_practice_yard dinner uses a broad basin on a low stable stand he can reach with
       his own mouth. Haein (haein, overalls, glasses up) offers a serving spoon of kimchi,
@@ -624,7 +647,7 @@ panels:
       readable food label, sparkles or shell crack.
     calm: top
     lines:
-      - {who: haein, type: speech, side: l, text: "DO YOU WANT SOME?"}
+      - {who: haein, type: speech, side: l, text: "WOULD YOU LIKE SOME KIMCHI?"}
       - {who: orrin, type: speech, side: r, text: "IS EVERY MEAL HERE AN EXAMINATION?"}
       - {who: haein, type: speech, side: l, text: "ONLY THE FIRST TEN."}
 
@@ -634,6 +657,7 @@ panels:
     bg: white
     camera: "across the table from Taeo's side toward Minho, Seonhee and Dongsik"
     art: >
+      Frame Minho left, Seonhee centre and Dongsik right from the waist up at the table.
       At ryu_practice_yard's dinner Minho (minho, brown jacket, LEFT grey streak) has his
       bowl lifted while Seonhee (seonhee, cardigan, low bun, LEFT-ear pencil) adds another
       spoon of rice without waiting. Dongsik (dongsik, default, sage lap blanket, manual chair)
@@ -641,9 +665,9 @@ panels:
       Low sun, warm amber-brown, steam white, no cost ledger on table or readable packaging.
     calm: top
     lines:
-      - {who: minho, type: speech, side: l, text: "WE'VE GOT TO MAKE THIS LAST."}
-      - {who: seonhee, type: speech, side: c, text: "IT WON'T LAST LONGER IN YOUR MOUTH IF YOU KEEP TALKING."}
-      - {who: dongsik, type: speech, side: r, text: "I'VE TESTED THAT. SHE'S RIGHT."}
+      - {who: minho, type: speech, side: l, text: "WE'VE GOT TO MAKE THE FOOD LAST."}
+      - {who: seonhee, type: speech, side: c, text: "THE RICE IS GETTING COLD. YOUR BUDGET SPEECH CAN WAIT."}
+      - {who: dongsik, type: speech, side: r, text: "I'VE TRIED THAT SPEECH. SHE'S RIGHT."}
 
   - id: P35
     shape: inset-r
@@ -651,6 +675,7 @@ panels:
     bg: white
     camera: "close-up on Taeo trying to apologise for the meal"
     art: >
+      Taeo's face occupies the right third; Seonhee stands off frame to the left.
       Taeo (taeo, black hoodie, RIGHT-eye mole) at ryu_practice_yard's dinner opens his
       mouth with the familiar apologetic smile, then catches Seonhee's off-frame look.
       He holds his spoon in his LEFT hand; right sleeve loose and arm resting on thigh.
@@ -658,7 +683,7 @@ panels:
       No comic pain effect, new bruise, scorecard or readable label.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: r, text: "SOR—"}
+      - {who: taeo, type: speech, side: r, text: "SORRY."}
       - {who: "offpanel:seonhee", type: speech, side: l, text: "EAT."}
       - {who: taeo, type: speech, side: r, text: "YES, MA'AM."}
 
@@ -668,6 +693,7 @@ panels:
     bg: white
     camera: "eye-level wide from the home doorway, whole dinner table laughing"
     art: >
+      Seonhee serves from the left and Orrin's speaking face is on the right; keep the whole seated table uncrowded.
       BIG REACTION, normal proportions: ryu_practice_yard's first dinner, Taeo (taeo, hoodie)
       laughs unexpectedly, eyes squeezed, LEFT spoon hand halted in midair. Minho (minho)
       and Haein (haein) laugh across the table; Dongsik (dongsik, manual chair) hides a smile
@@ -677,7 +703,7 @@ panels:
       No chibi, glitter, healing light, readable signs or missing wheelchair wheels.
     calm: top
     lines:
-      - {who: orrin, type: speech, side: r, text: "I THINK I HAVE PASSED."}
+      - {who: orrin, type: speech, side: r, text: "I THINK I PASSED THE DINNER EXAM."}
       - {who: seonhee, type: speech, side: l, text: "HAVE SOME MORE."}
     notes: "Required first found-family dinner. Warmth is real while the debt and temporary housing remain unresolved."
 
@@ -715,6 +741,7 @@ panels:
     bg: white
     camera: "from inside the south gate toward Eunchae arriving in the dusk"
     art: >
+      Taeo waits left and Eunchae enters right; allow both full standing figures room.
       Eunchae (eunchae, model: 25-year-old Korean woman, high brown ponytail, strong brows,
       cream rolled-sleeve shirt, black trousers, black-and-white canvas sneakers) enters
       ryu_practice_yard with her food-hygiene workbook in a cloth bag and a folded result
@@ -733,6 +760,7 @@ panels:
     bg: white
     camera: "side-on at the home canopy, Orrin looking up as Eunchae approaches"
     art: >
+      Frame Eunchae left from the waist up and Orrin's face right; Taeo and Nib's upper bodies remain behind her.
       At ryu_practice_yard's home canopy Eunchae (eunchae, cream shirt, ponytail) pauses
       beside Orrin (orrin, default, adult heavy-lidded face, intact slate terraces). Her
       workbook bag hangs heavy against her knee. Taeo (taeo, hoodie) keeps a respectful
@@ -742,15 +770,16 @@ panels:
     calm: top
     lines:
       - {who: orrin, type: speech, side: r, text: "WOULD YOU LIKE TO SIT?"}
-      - {who: eunchae, type: speech, side: l, text: "I DON'T THINK I'D FIT IN YOUR HOUSE."}
+      - {who: eunchae, type: speech, side: l, text: "I DON'T THINK I'D FIT THROUGH YOUR DOOR."}
       - {who: orrin, type: speech, side: r, text: "NEITHER DO I."}
 
   - id: P41
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low from beside the stable stepping crate as Eunchae asks to sit on the shell"
     art: >
+      Eunchae stands left, Nib sets the step at centre and Orrin's face is right; Taeo waits behind Eunchae.
       Orrin (orrin, default) at ryu_practice_yard lowers his front slightly under the
       high canopy, while Nib (nib, adult default, full locks) places a stable plain crate
       as a step. Eunchae (eunchae, cream shirt, black trousers) gestures to the broad upper
@@ -759,7 +788,7 @@ panels:
       No saddle, hand on shell rim, forced lifting, readable sign or chibi.
     calm: top
     lines:
-      - {who: eunchae, type: speech, side: l, text: "ON YOU? IS THAT ALL RIGHT?"}
+      - {who: eunchae, type: speech, side: l, text: "SIT ON YOUR SHELL? IS THAT ALL RIGHT?"}
       - {who: orrin, type: speech, side: r, text: "YES. I'LL STAY STILL."}
 
   - id: P42
@@ -784,6 +813,7 @@ panels:
     bg: white
     camera: "top-down close-up on Eunchae's folded practical result in her lap"
     art: >
+      Eunchae's face is off frame at centre above the result sheet; only her hands and lap are shown.
       Eunchae's hands (eunchae, cream rolled sleeves) at ryu_practice_yard open the folded
       result sheet on her lap atop the slate shell. Her fingers have crumpled one corner
       despite trying to keep it neat. Wide blank result band for letterer, other rows only
@@ -793,7 +823,7 @@ panels:
     ui:
       - {kind: label, text: "FOOD-LICENCE PRACTICAL · NOT PASSED\n2 POINTS BELOW PASS", at: [0.50, 0.49]}
     lines:
-      - {who: eunchae, type: whisper, side: c, text: "TWO POINTS."}
+      - {who: "offpanel:eunchae", type: whisper, side: c, text: "I FAILED BY TWO POINTS."}
     notes: "Required result exactly: failed by two points. This is not an AAO result and no pass-mark score is invented."
 
   - id: P44
@@ -802,6 +832,7 @@ panels:
     bg: white
     camera: "close-up from Orrin's shoulder level onto Eunchae as she starts explaining"
     art: >
+      Eunchae's speaking face occupies the left third.
       Eunchae (eunchae, cream shirt, high ponytail loose at temples) on Orrin's shell at
       ryu_practice_yard tries to hold a brisk customer-service face together. One corner of
       her mouth pulls up; her eyes brim despite it. Folded result in both hands, workbook
@@ -809,8 +840,8 @@ panels:
       Normal adult proportions, no chibi, funny tear fountains, flashback kitchen or readable paper.
     calm: top
     lines:
-      - {who: eunchae, type: speech, side: l, text: "I KNEW THE ORDER. I KNEW IT THE WHOLE WAY THERE."}
-      - {who: eunchae, type: speech, side: l, text: "THEN SOMEONE SAID 'TIME', AND I COULDN'T FIND MY HANDS."}
+      - {who: eunchae, type: speech, side: l, text: "I KNEW EVERY STEP OF THE PRACTICAL ON THE WAY THERE."}
+      - {who: eunchae, type: speech, side: l, text: "THEN SOMEONE CALLED OUT THE TIME, AND MY HANDS FROZE."}
 
   - id: P45
     shape: full
@@ -818,6 +849,7 @@ panels:
     bg: white
     camera: "eye-level close from the side, Eunchae crying openly while Orrin stays still"
     art: >
+      Eunchae's speaking face stays left; Orrin's listening eye is lower right.
       BIG REACTION, entirely serious: Eunchae (eunchae, cream shirt, ponytail) on Orrin's
       slate shell at ryu_practice_yard covers her mouth with one hand and cries, eyes tightly
       shut, the practiced briskness finally broken. Real modest tears, hunched adult shoulders,
@@ -826,8 +858,9 @@ panels:
       No chibi, dramatic red, glitter, glowing tears, captions or comic sound effects.
     calm: top
     lines:
-      - {who: eunchae, type: speech, side: l, text: "IF IT WERE TWENTY, I COULD HATE IT PROPERLY."}
-      - {who: eunchae, type: whisper, side: l, text: "TWO JUST FEELS LIKE ME."}
+      - {who: eunchae, type: speech, side: l, text: "IF I'D FAILED BY TWENTY POINTS, I COULD BE ANGRY AT THE EXAM."}
+      - {who: eunchae, type: whisper, side: l, text: "BUT TWO POINTS MAKES ME FEEL LIKE I LET MYSELF DOWN."}
+      - {who: eunchae, type: speech, side: l, text: "MY ROOM'S RENT. THE NEXT EXAM FEE. ALL THE SHIFTS I SWAPPED."}
 
   - id: P46
     shape: inset-r
@@ -835,6 +868,7 @@ panels:
     bg: white
     camera: "close-up on Taeo looking up at Eunchae from his low seat"
     art: >
+      Taeo's listening face occupies the right third; Eunchae sits above him off frame to the left.
       Taeo (taeo, black hoodie, RIGHT-eye mole) on the crate at ryu_practice_yard looks up
       at Eunchae beyond frame. His mouth almost forms a quick reassuring answer, then he
       stops and lets her finish. His LEFT hand holds the covered dinner plate; bruised
@@ -842,8 +876,7 @@ panels:
       plain brown background. No narration, comic face, unsolicited hug or active phone screen.
     calm: left
     lines:
-      - {who: eunchae, type: speech, side: l, text: "THE ROOM'S RENT. THE NEXT FEE. EVERY SHIFT I SWAPPED."}
-      - {who: eunchae, type: speech, side: l, text: "I DON'T WANT TO ADD IT UP TONIGHT."}
+      - {who: "offpanel:eunchae", type: speech, side: l, text: "I DON'T WANT TO ADD UP THE COST TONIGHT."}
 
   - id: P47
     shape: strip
@@ -860,11 +893,12 @@ panels:
     calm: none
 
   - id: P48
-    shape: wide
+    shape: tall
     gap: long
     bg: white
     camera: "eye-level two-shot of Nib standing below and Eunchae seated on the shell"
     art: >
+      Nib stands left below the shell, Eunchae sits right above him; give their different eye heights room.
       Nib (nib, adult weathered face, default, LEFT notch, LEFT fang, binoculars high,
       brown rope belt and correct hip props) at ryu_practice_yard meets Eunchae's eyes from
       below Orrin's broad shell terrace. Eunchae (eunchae, cream shirt, wet lashes) lowers
@@ -882,6 +916,7 @@ panels:
     bg: white
     camera: "close-up on Eunchae with the first almost-laugh still caught in tears"
     art: >
+      Reverse from Nib's side: Eunchae's face occupies the left third; Nib stands off frame to the right.
       Eunchae (eunchae, cream shirt, ponytail) seated on Orrin at ryu_practice_yard looks
       down at Nib off frame. Her wet face moves toward an incredulous half-laugh, mouth
       trembling, eyes still red. Cloth in one hand, result folded on lap.
@@ -893,11 +928,12 @@ panels:
       - {who: "offpanel:nib", type: speech, side: r, text: "YES."}
 
   - id: P50
-    shape: wide
+    shape: tall
     gap: long
     bg: white
     camera: "from the open home door toward the three listeners and Eunchae in the yard"
     art: >
+      Place Taeo left, Nib centre and seated Eunchae right on Orrin; keep every standing figure uncrowded.
       At ryu_practice_yard Taeo (taeo, hoodie) places the saved plate on the broad flat
       shell terrace beside Eunchae (eunchae, cream shirt), using his LEFT hand. Nib (nib,
       adult default, full locks, barefoot) steadies the covered bowl by its base, not Eunchae.
@@ -906,7 +942,7 @@ panels:
       No forced feeding, moving shell, visible new wound, written moral or decorative light.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "YOU DON'T HAVE TO ADD ANYTHING UP HERE."}
+      - {who: taeo, type: speech, side: l, text: "YOU DON'T HAVE TO COUNT THE COST TONIGHT."}
       - {who: eunchae, type: speech, side: r, text: "JUST TONIGHT."}
       - {who: taeo, type: speech, side: l, text: "JUST TONIGHT."}
 
@@ -917,6 +953,7 @@ panels:
     silent: true
     camera: "quiet medium from outside the canopy, Eunchae taking the first bite"
     art: >
+      Frame Nib and seated Taeo left from the waist up, Eunchae seated right above Orrin's settled head.
       ryu_practice_yard under the high canopy: Eunchae (eunchae, cream shirt, ponytail)
       remains seated on Orrin's broad shell, folded failed result safely under the workbook
       bag, and takes a small bite of saved rice. Nib (nib, adult default, binoculars, full
@@ -929,11 +966,12 @@ panels:
 
   # DAWN: THE PEOPLE AT THE TABLE STILL HAVE PAPERWORK TO DEFEND.
   - id: P52
-    shape: full
+    shape: tall
     gap: fade-black
     bg: navy
     camera: "dawn establishing from north targets toward the south gate and the last van"
     art: >
+      The collector stands in the left third with his two crew behind; Minho opens the gate at right.
       ryu_practice_yard next dawn, exact reverse-key geography: last white west-facing van
       LEFT, grey office RIGHT, maze foreground. A Bluebird flatbed recovery truck waits
       OUTSIDE the south gate, not yet loaded. Lead collector (bluebird_collector: about 40,
@@ -946,14 +984,15 @@ panels:
     calm: top
     lines:
       - {who: narr, type: tag, text: "NEXT DAWN"}
-      - {who: bluebird_collector, type: speech, side: l, text: "LAST VEHICLE. WE'LL KEEP THE ACCESS CLEAR."}
+      - {who: bluebird_collector, type: speech, side: l, text: "WE'RE HERE FOR THE LAST VAN. WE'LL KEEP THE ACCESS CLEAR."}
 
   - id: P53
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "from beside the collector toward Orrin awake at the home canopy"
     art: >
+      Place the collector left, Orrin's face right and Taeo and Nib at centre by the home door.
       At ryu_practice_yard the collector (bluebird_collector, suit without tie, tablet LEFT)
       stops on his way to the van and looks toward Orrin (orrin, default, adult slate shell,
       no moving load now) under the home canopy. One windbreaker crew pauses behind; the
@@ -963,7 +1002,7 @@ panels:
       All screens dark, no IDs produced yet, collar, price tag or readable warning on Orrin.
     calm: top
     lines:
-      - {who: bluebird_collector, type: speech, side: l, text: "UNREGISTERED CONSTRUCT ON GUILD PREMISES? THAT'S COLLATERAL."}
+      - {who: bluebird_collector, type: speech, side: l, text: "UNREGISTERED CONSTRUCT ON GUILD PREMISES? THAT COUNTS AS COLLATERAL FOR THE DEBT."}
     notes: "Collector's assumption is false: Orrin registered as a person in ch 25. Never stage a real registry scan confirming it."
 
   - id: P54
@@ -972,6 +1011,7 @@ panels:
     bg: white
     camera: "low from behind Taeo toward Orrin lifting his own head to answer"
     art: >
+      Frame Taeo left and Nib centre from the waist up, Orrin's speaking face right.
       Orrin (orrin, default, adult olive-grey face, heavy eyelids, intact terraced slate shell)
       at ryu_practice_yard lifts his head beneath the open canopy and looks directly at the
       collector beyond frame. Taeo (taeo, hoodie) has begun to step forward, then stops to
@@ -988,6 +1028,7 @@ panels:
     bg: navy
     camera: "eye-level from beside Orrin toward the collector blocking the line to the truck"
     art: >
+      The collector's speaking face occupies the left third, Orrin's cheek right; the two crew stay behind the collector.
       THE HOOK at ryu_practice_yard. Foreground frame RIGHT: part of Orrin's adult cheek
       and stacked slate shell, solid and alive. Beyond him the collector (bluebird_collector,
       no-tie charcoal suit, dark tablet held LEFT) extends an empty RIGHT palm, expression

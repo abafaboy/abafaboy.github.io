@@ -58,7 +58,7 @@ panels:
     ui:
       - {kind: label, text: "CHAE YURI · REGIONAL SAFETY OFFICER", at: [0.5, 0.40], notes: "Appointment-letter heading, not a repeat intro nameplate."}
   - id: P02
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "eye level beside the southwest waiting bench toward the desk"
@@ -68,6 +68,7 @@ panels:
       sets two plain coffee cups on her desk. Kind careful face, proud but worried. Chae in navy
       cardigan, white collar, black trousers and brown bob stands beside her chair. East window light,
       blue-white/slate. No readable cup brand, new nameplate or screen.
+      The supervisor stands on the left beside the visitor chair, Chae on the right behind her desk.
     calm: top
     lines:
       - {who: aao_supervisor, type: speech, side: l, text: "THE REGIONAL POST. YOU GOT IT."}
@@ -82,6 +83,7 @@ panels:
       many old conversations. Reading glasses stay on his forehead; his careful smile has genuine
       affection. Grey cardigan, dark tie, blank lanyard. East daylight lights his face, clean slate
       shadow. No sinister silhouette, readable appointment or coffee text.
+      Frame the seated supervisor from the chest up on the left.
     calm: right
     lines:
       - {who: aao_supervisor, type: speech, side: l, text: "NOW LET SOMEONE ELSE TAKE THE ARRIVAL CASES."}
@@ -95,16 +97,17 @@ panels:
       the offered coffee. Navy cuff, blank ID edge, pale desk. The appointment letter remains
       beside it, untouched for a breath. East window light, blue-white and slate shadows.
       No grip crushing the folio, active tablet, written field or glow.
+      Only Chae's hand is drawn; Chae sits outside the right edge.
     calm: none
     lines:
-      - {who: chae, type: speech, side: r, text: "WHO?"}
+      - {who: offpanel:chae, type: speech, side: r, text: "WHO WILL TAKE THE ARRIVAL CASES?"}
   - id: P05
     kind: title
     gap: long
     bg: white
     title_text: "CHAPTER 92 · REGIONAL SAFETY OFFICER"
   - id: P06
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "establishing from the southeast corridor door into the keyed office"
@@ -114,10 +117,11 @@ panels:
       one visitor chair; second chair empty. Twin monitors dark, silver hand plate visitor-right,
       fobs in tray, two coffee cups. Morning east daylight, A4 blue-white/slate/navy. Keep green exit
       plaque blank and room topology exact, no mirrored furniture or print.
+      The supervisor sits on the left of this view, Chae on the right; give the keyed office its full depth.
     calm: top
     lines:
-      - {who: aao_supervisor, type: speech, side: l, text: "HEAD OFFICE CAN ASSIGN THEM."}
-      - {who: chae, type: speech, side: r, text: "WHO HAS ASKED TO TAKE THEM?"}
+      - {who: aao_supervisor, type: speech, side: l, text: "HEAD OFFICE CAN ASSIGN ANOTHER ASSESSOR."}
+      - {who: chae, type: speech, side: r, text: "HAS AN ASSESSOR ACTUALLY AGREED TO TAKE THE CASES?"}
   - id: P07
     shape: wide
     gap: short
@@ -128,10 +132,11 @@ panels:
       beside his coffee, buying a moment. His face is tired and protective, not angry. Chae's
       brown bob and navy shoulder frame the view. East morning light, pale desk and slate
       shadows. No readable files, threatening fist or luminous tablet.
+      The aao_supervisor is visible on the left; Chae's shoulder enters from the right, her face outside frame.
     calm: top
     lines:
       - {who: aao_supervisor, type: speech, side: l, text: "YURI. YOU HAVE A REGION TO LOOK AFTER NOW."}
-      - {who: chae, type: speech, side: r, text: "THEY LIVE IN IT."}
+      - {who: offpanel:chae, type: speech, side: r, text: "THE ARRIVALS LIVE IN MY REGION TOO."}
   - id: P08
     shape: inset-r
     gap: short
@@ -142,9 +147,10 @@ panels:
       the mouth. Chin-length brown bob, navy cardigan, white collar, charcoal lanyard with blank ID.
       The blue folio sits closed before her. East daylight, blue-white face planes, slate shadow.
       No crusader grin, tears for effect, official print or glow.
+      Chae's face fills the right third.
     calm: left
     lines:
-      - {who: chae, type: speech, side: r, text: "I'LL TRANSFER A CASE WHEN THERE'S SOMEONE TO RECEIVE THE PERSON."}
+      - {who: chae, type: speech, side: r, text: "I'LL TRANSFER CASES WHEN AN ASSESSOR AGREES TO LOOK AFTER THE ARRIVALS."}
   - id: P09
     shape: strip
     gap: short
@@ -167,6 +173,7 @@ panels:
       colleague he helped train. Chae sits upright, fingers on the closed folio, hearing the cost
       without retreating. East daylight profiles, blue-white and slate. Both cups stay on desk.
       No shouting faces, readable document or villain lighting.
+      Frame both seated colleagues from the waist up: supervisor on the left, Chae on the right.
     calm: top
     lines:
       - {who: aao_supervisor, type: speech, side: l, text: "I TAUGHT YOU TO PICK THE CASE YOU COULD WIN."}
@@ -181,10 +188,11 @@ panels:
       before. Kind eyes look older, hurt crossing them before professional composure returns. Thinning
       neat grey hair, grey cardigan collar and dark tie. East morning light, blue-white and slate.
       No hidden smirk, blacked-out eyes or readable lenses.
+      The supervisor's face fills the left third. Chae sits outside the right edge.
     calm: right
     lines:
-      - {who: aao_supervisor, type: speech, side: l, text: "I CAN'T KEEP MAKING YOUR EXCEPTIONS SOUND ROUTINE."}
-      - {who: chae, type: speech, side: r, text: "THEN DON'T. KEEP WHAT I WROTE."}
+      - {who: aao_supervisor, type: speech, side: l, text: "I CAN'T KEEP DEFENDING YOUR ARRIVAL RULINGS TO HEAD OFFICE."}
+      - {who: offpanel:chae, type: speech, side: r, text: "THEN SUBMIT MY REPORTS AS I WROTE THEM."}
   - id: P12
     shape: wide
     gap: short
@@ -195,9 +203,10 @@ panels:
       rather than claiming a trophy. Her hand is steady, jaw set. The blue folio remains beside
       it, not pushed aside. East light comes from camera side, slate shadows under desk objects.
       No pen signing yet, readable stamp, triumphant pose or screen.
+      Frame seated Chae from the waist up on the right, her mentor outside the left edge.
     calm: top
     lines:
-      - {who: chae, type: speech, side: r, text: "I'M ACCEPTING THE POST. I'M KEEPING THE CASES UNTIL THEY'RE SAFELY HANDED OVER."}
+      - {who: chae, type: speech, side: r, text: "I ACCEPT THE POST. I'LL KEEP THE CASES UNTIL ANOTHER ASSESSOR CAN TAKE THEM SAFELY."}
   - id: P13
     shape: strip
     gap: long
@@ -211,7 +220,7 @@ panels:
     calm: none
     silent: true
   - id: P14
-    shape: vignette
+    shape: tall
     gap: long
     bg: white
     camera: "medium on the supervisor standing beside the visitor chair"
@@ -220,6 +229,7 @@ panels:
       looks at chae with the formal distance he normally saves for strangers. His face remains
       kind and tired, no longer intimate. East window light, grey cardigan against slate files.
       No threat pose, new nameplate, readable ID or glow.
+      The supervisor stands on the left beside the chair; Chae remains seated on the right.
     calm: top
     lines:
       - {who: aao_supervisor, type: speech, side: l, text: "THEN GOOD LUCK, OFFICER CHAE."}
@@ -233,6 +243,7 @@ panels:
       from someone who always called her Yuri. Her mouth nearly forms his familiar address, then
       firms. Brown bob, navy cardigan and white collar. East daylight, flat blue-white background,
       hard slate shadow. No tears spilling for comedy, glow or lettering.
+      Chae's face fills the right third.
     calm: left
     lines:
       - {who: chae, type: speech, side: r, text: "THANK YOU, SIR."}
@@ -250,7 +261,7 @@ panels:
     calm: none
     silent: true
   - id: P17
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "reverse from behind Chae toward the southeast glass door"
@@ -259,6 +270,7 @@ panels:
       back. Chae remains behind the north desk, small in foreground, shoulders straight with effort.
       Southwest navy bench and blank green exit plaque retain key positions. East daylight,
       clean blue-white and slate. No slammed door, lurking listener, readable plaque or glow.
+      Chae sits on the right in the foreground; her supervisor leaves through the door at the left.
     calm: top
     lines:
       - {who: chae, type: whisper, side: r, text: "I WANTED TO TELL YOU FIRST."}
@@ -273,7 +285,7 @@ panels:
       - {kind: phone.info_card, on: screen, hand: chae_tablet, title: "REGIONAL SAFETY OFFICE · ASSIGNMENT", text: "Yeoju anchor-field contest · Official safety observer: Chae Yuri · Independent stop authority · Report before day-one dawn"}
     notes: "Public administrative assignment; not an operator system window."
   - id: P19
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "medium from the waiting bench as Chae gathers both sets of work"
@@ -282,11 +294,12 @@ panels:
       in her work bag. The two coffee cups remain on the desk behind her, one still close to
       the empty visitor chair. Her face is composed with a tired crease at the eyes. East
       morning daylight, blue-white/slate. No overflowing dossier, text or screen.
+      Chae stands on the right beside the desk, packing both documents; leave room for her full figure.
     calm: top
     lines:
-      - {who: chae, type: speech, side: r, text: "ONE POST. THE SAME PEOPLE."}
+      - {who: chae, type: speech, side: r, text: "MY NEW JOB DOESN'T MAKE THE ARRIVAL CASES DISAPPEAR."}
   - id: P20
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "establishing through Ryu yard's south gate before noon"
@@ -295,6 +308,7 @@ panels:
       van. chae enters carrying blue folio; taeo in navy jacket rises from the container step while
       nib in chosen boots stands by the trestle. Orrin rests beside the awning. A4 ochre/brown,
       sky blue under southeast sun. Blank badges and van sticker, no gate anomaly or festive banner.
+      Chae enters on the left, Taeo rises on the right, Nib stands in the middle distance.
     calm: top
     lines:
       - {who: taeo, type: speech, side: r, text: "REGIONAL SAFETY OFFICER?"}
@@ -309,12 +323,13 @@ panels:
       LEFT fang visible, black binoculars high against his wrap. His nod is small and exact,
       recognizing work already done. Southeast daylight, ochre and muted grey.
       No cute grin, salute as a servant, fresh boots or readable badge.
+      Nib's face fills the right third; Chae stands outside the left edge.
     calm: left
     lines:
       - {who: nib, type: speech, side: r, text: "ABOUT TIME."}
-      - {who: chae, type: speech, side: l, text: "THAT IS NOT THE OFFICIAL RESPONSE."}
+      - {who: offpanel:chae, type: speech, side: l, text: "THE OFFICIAL RESPONSE IS CONGRATULATIONS."}
   - id: P22
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "three-shot at the container step, Chae standing opposite Taeo and Nib"
@@ -323,13 +338,14 @@ panels:
       face returning. Taeo listens upright; nib stands beside him rather than behind. The newly
       pinned blank crew-vote sheet is visible inside the open container doorway. Southeast daylight,
       ochre/brown, slate-blue shade. No officer bribe, readable clauses or magical aura.
+      Chae stands on the left; Taeo and Nib stand on the right, with space for Nib's adult height.
     calm: top
     lines:
       - {who: chae, type: speech, side: l, text: "I'M YEOJU'S SAFETY OBSERVER. I MAY HAVE TO STOP YOU."}
       - {who: taeo, type: speech, side: r, text: "THEN STOP US."}
       - {who: nib, type: speech, side: r, text: "WRITE THAT DOWN."}
   - id: P23
-    shape: full
+    shape: tall
     gap: short
     bg: white
     camera: "medium at the medical awning, both medics joining the conversation"
@@ -338,12 +354,13 @@ panels:
       broad square face, dark short braid/grey temples, slate plate over oatmeal wrap, scarred forearms,
       LEFT kit and RIGHT cloth roll. Both look pleased to hear enforceable limits. Chae faces them
       with blue folio. Noon sun, ochre and cool awning shade. No healing light, injury crisis or print.
+      Sejin stands on the left, Dara in the centre, Chae on the right.
     calm: top
     lines:
       - {who: sejin, type: speech, side: l, text: "WE'VE ALREADY GOT A STOP RULE."}
-      - {who: dara, type: speech, side: l, text: "GOOD. NOW IT HAS A WITNESS."}
+      - {who: dara, type: speech, side: c, text: "GOOD. NOW AN OFFICIAL CAN ENFORCE THE STOP TOO."}
   - id: P24
-    shape: wide
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -353,10 +370,11 @@ panels:
       a single blank form with a hopeful face. Chibi Chae in navy cardigan hands back a stack
       three times taller, professionally serene. Chibi Dara in exact slate armour slowly backs away.
       Flat daylight blue-white and ochre blocks. No friendship grief, injured person, print or danger.
+      Show waist-up chibi figures: Haein on the left, Chae on the right, Dara retreating in the centre.
     calm: top
     lines:
       - {who: haein, type: speech, side: l, text: "DOES PROMOTION MEAN FEWER FORMS?"}
-      - {who: chae, type: speech, side: r, text: "A WIDER GEOGRAPHICAL RANGE OF THEM."}
+      - {who: chae, type: speech, side: r, text: "MORE TOWNS. MORE FORMS."}
   - id: P25
     shape: vignette
     gap: long
@@ -381,7 +399,7 @@ panels:
     sfx:
       - {text: "BZZT", style: phone, at: [0.78, 0.17], size: S, rot: -6}
   - id: P27
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "medium on Taeo stepping aside to answer, phone at his ear"
@@ -390,11 +408,12 @@ panels:
       and green dinosaur sticker visible, screen facing his ear. His tired face softens immediately,
       RIGHT-eye mole clear. Chae turns toward the medical awning in background, giving privacy.
       Noon sun, ochre ground and white van, no second active screen or lettering.
+      Frame Taeo from the waist up on the right. Haru is heard through the phone from the left.
     calm: top
     lines:
       - {who: taeo, type: speech, side: r, text: "YES, BOSS?"}
-      - {who: haru, type: phone, side: l, text: "THEY'RE LETTING ME DO IT AGAIN."}
-      - {who: taeo, type: speech, side: r, text: "THE DINOSAURS?"}
+      - {who: offpanel:haru, type: phone, side: l, text: "THE SCHOOL'S LETTING ME DO MY DINOSAUR PRESENTATION AGAIN."}
+      - {who: taeo, type: speech, side: r, text: "WHO'S COMING?"}
   - id: P28
     shape: inset-l
     gap: short
@@ -405,12 +424,13 @@ panels:
       navy sleeve exposing old bruises. His eyes search nothing in the van's dark mirror; the
       green dinosaur sticker faces camera. Noon light, muted white and ochre, slate shadows.
       No Haru physically present, video image, generated message or magical reflection.
+      Taeo's face occupies the left third; Haru's voice comes through the phone at the left edge.
     calm: right
     lines:
-      - {who: haru, type: phone, side: l, text: "MY CLASSROOM. GRANDMA'S BRINGING PEOPLE."}
-      - {who: haru, type: phone, side: l, text: "SHE SAID THEY'LL CLAP IF I FEED THEM FIRST."}
+      - {who: offpanel:haru, type: phone, side: l, text: "GRANDMA'S BRINGING PEOPLE TO MY CLASSROOM. SHE'S PROMISED FOOD FOR APPLAUSE."}
+
   - id: P29
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "side view along the van, Nib walking past without interrupting"
@@ -419,10 +439,11 @@ panels:
       with full attention. nib walks past with a coiled plain strap, adult posture, exact chosen
       boots and belt gear, giving the call room. Noon ochre and sky blue, hard shadows.
       No chibi at the ache, readable van sticker or extra phone screen.
+      Taeo stands on the right, Nib walks past on the left. Haru remains a voice through Taeo's phone.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "STRONG TACTIC. WHEN IS IT?"}
-      - {who: haru, type: phone, side: l, text: "I SENT THE CARD. READ ALL OF IT."}
+      - {who: taeo, type: speech, side: r, text: "STRONG TACTIC. WHEN IS THE RE-RUN?"}
+      - {who: offpanel:haru, type: phone, side: l, text: "I SENT THE INVITATION. READ THE WHOLE CARD."}
   - id: P30
     shape: narrow-l
     gap: short
@@ -445,7 +466,7 @@ panels:
       No visible screen, green rectangle, printed message or link pulse.
     calm: none
     lines:
-      - {who: taeo, type: float, text: "HE HAD LEFT A CHAIR EMPTY BEFORE."}
+      - {who: taeo, type: float, text: "HARU HAD SAVED ME AN EMPTY CHAIR BEFORE."}
   - id: P32
     shape: wide
     gap: short
@@ -456,10 +477,11 @@ panels:
       serious rather than over-bright. Black fringe, RIGHT-eye mole, navy jacket and old bruises;
       dinosaur sticker on phone back. Noon sunlight, white van behind reduced to simple shapes.
       No heroic pose, tears, video picture or lettering.
+      Frame Taeo's face and shoulders on the right; Haru's phone voice enters from the left.
     calm: top
     lines:
       - {who: taeo, type: speech, side: r, text: "TWO O'CLOCK. YOUR CLASSROOM IN HAESEONG. I'LL BE THERE."}
-      - {who: haru, type: phone, side: l, text: "THE WHOLE THING?"}
+      - {who: offpanel:haru, type: phone, side: l, text: "THE WHOLE THING?"}
       - {who: taeo, type: speech, side: r, text: "THE WHOLE THING. I PROMISE."}
   - id: P33
     shape: inset-r
@@ -471,9 +493,10 @@ panels:
       while he waits for Haru to believe him. His eyes are soft and apprehensive, lower lids
       tired. Noon daylight, white and muted ochre, phone screen hidden at his ear.
       No cute gag face, rendered call timer, glow or child in frame.
+      Taeo's face fills the right third; Haru's voice comes from the phone at the left.
     calm: left
     lines:
-      - {who: haru, type: phone, side: l, text: "I'LL PUT YOUR NAME ON THE CHAIR."}
+      - {who: offpanel:haru, type: phone, side: l, text: "I'LL PUT YOUR NAME ON THE CHAIR."}
       - {who: taeo, type: speech, side: r, text: "LARGE LETTERS. I'M BAD AT FINDING MY SEAT."}
   - id: P34
     shape: strip
@@ -485,12 +508,13 @@ panels:
       breaking through his fatigue. RIGHT-eye mole, navy collar, green dinosaur sticker at lower edge.
       Noon sunlight, pale white van and warm skin planes, one slate shadow under fringe.
       No printed call UI, magic, exaggerated childlike features or new injury.
+      Only Taeo's smile is drawn; Haru's final phone reply enters from the left.
     calm: none
     lines:
-      - {who: haru, type: phone, side: l, text: "I KNOW. THAT'S WHY IT'LL BE HUGE."}
+      - {who: offpanel:haru, type: phone, side: l, text: "I KNOW. THAT'S WHY IT'LL BE HUGE."}
     notes: "Haru's last line comes through the phone before the call ends; voice remains type phone."
   - id: P35
-    shape: vignette
+    shape: tall
     gap: long
     bg: white
     camera: "high from the container awning onto Taeo making a note"
@@ -499,13 +523,14 @@ panels:
       next to the contest packet, not underneath it. His pen pauses over the card with care.
       Nib watches from the side, binoculars at rest. Noon ochre/brown, sky-blue shade, no active
       screen or written words in generated art.
+      Taeo sits at the table on the right, Nib watches on the left; keep the new card unobstructed.
     calm: top
     ui:
       - {kind: label, text: "REST DAY · HARU · HAESEONG · 2:00 PM", at: [0.56, 0.61], notes: "The fresh card, beside rather than covering the contest packet."}
     lines:
-      - {who: taeo, type: float, text: "THIS TIME I WROTE IT WHERE I COULD SEE IT."}
+      - {who: taeo, type: float, text: "MY PROMISE TO HARU NEEDED A PLACE ON THE SCHEDULE."}
   - id: P36
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "eye-level on the table's medical side, Taeo addressing both medics"
@@ -514,11 +539,12 @@ panels:
       so neither has to crane. Sejin's tired face warms; Dara's broad face stays clinically stern.
       Sage rig, slate armour, exact LEFT kit/RIGHT roll. Noon sunlight, ochre and warm cream.
       No doctor's guarantee, magical cure or readable card within art.
+      Sejin stands on the left, Dara in the centre, Taeo on the right.
     calm: top
     lines:
       - {who: taeo, type: speech, side: r, text: "REST DAY. I'M GOING TO HAESEONG FOR HARU."}
       - {who: sejin, type: speech, side: l, text: "PUT THE TRAVEL IN THE PLAN TOO."}
-      - {who: dara, type: speech, side: l, text: "AND THE SLEEP. YOU'RE NOT BORROWING MINE."}
+      - {who: dara, type: speech, side: c, text: "AND THE SLEEP. YOU'RE NOT BORROWING MINE."}
   - id: P37
     shape: inset-l
     gap: short
@@ -529,9 +555,10 @@ panels:
       by a fraction. LEFT ear notch and lower LEFT fang, high black binoculars with LEFT strap
       knot, pinkish-tan wrap. His chosen brown boots stay grounded. Noon light, ochre/brown,
       no cute grin, written words, pulse or premature final-ch96 dialogue.
+      Nib's face fills the left third.
     calm: right
     lines:
-      - {who: nib, type: speech, side: l, text: "KEEP THAT PROMISE TOO."}
+      - {who: nib, type: speech, side: l, text: "KEEP YOUR PROMISE TO HARU."}
   - id: P38
     shape: full
     gap: long
@@ -542,12 +569,13 @@ panels:
       west spectators. taeo, nib, sera, kesh, haein and medics watch from west rail; chae stands
       separately with blue folio as observer. Iron Vow armour figures wait north. Warm west sun,
       A4 ochre/brown/sky blue. Public phones dark, blank depot signs, no gate or live extraction.
+      Sera stands on the left of the west rail; Taeo and Nib watch to her right. Keep the ring geography clear.
     calm: top
     lines:
       - {who: narr, type: tag, text: "YEOJU · PUBLIC FIELD DEMONSTRATION · AFTERNOON"}
       - {who: sera, type: speech, side: l, text: "THEY INVITED THEIR OPPONENTS. VERY GENEROUS."}
   - id: P39
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low from inside the north side of the ring onto Iron Vow's captain"
@@ -557,11 +585,12 @@ panels:
       plate, thick pauldrons, charcoal undersuit, dark-red chest inset/waist tabs, two-link clasp LEFT collar,
       greaves and heavy boots. He watches calmly, few words. West sun, ochre/brown, no spikes, aura,
       weapon, evil grin or readable emblem.
+      The captain stands on the right with room from head to boots; the ring remains left of him.
     calm: top
     lines:
       - {who: ironvow_captain, type: speech, side: r, text: "WATCH THEIR FEET."}
   - id: P40
-    shape: full
+    shape: tall
     gap: short
     bg: white
     camera: "side establishing of Gangjin and the consenting demo scout"
@@ -571,6 +600,7 @@ panels:
       inset/waist tabs, LEFT two-link collar clasp, black undersuit and heavy boots. Opposite him east
       stands demo_scout, adult woman, cropped brown hair, grey padded vest, black trousers/boots, alert
       and consenting. West sunlight, ochre/brown. No energy aura, weapon, readable badge or injury.
+      Gangjin stands on the left, the scout on the right, both given room from head to boots.
     calm: top
     lines:
       - {who: do_gangjin, type: speech, side: l, text: "READY?"}
@@ -590,7 +620,7 @@ panels:
     sfx:
       - {text: "GRK", style: quiet, at: [0.50, 0.67], size: M, rot: -5}
   - id: P42
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low side view across the scout's braced stance"
@@ -599,6 +629,7 @@ panels:
       shield held before her chest. Gangjin's gauntleted palm meets its outer face, no strike at
       her head. Her face is confident and ready. West light, ochre gravel and grey padding,
       hard brown shadows. No strapped restraint, readable shield or energy beam.
+      do_gangjin stands on the left, the scout on the right behind her chest-high shield.
     calm: top
     lines:
       - {who: do_gangjin, type: speech, side: l, text: "KEEP YOUR GUARD."}
@@ -626,10 +657,11 @@ panels:
       One hand clamps the rail. RIGHT-eye mole, black fringe, navy jacket; the old orange
       patch on his olive backpack edges frame. West light on face, ochre background.
       No chibi, glowing strategic map, printed score or new heart crisis.
+      Taeo's face and rail hand fill the right third. Nib stands just outside the left edge.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: r, text: "SHE BLOCKED IT."}
-      - {who: nib, type: speech, side: l, text: "WATCH HER FEET."}
+      - {who: taeo, type: speech, side: r, text: "SHE BLOCKED HIS PUSH."}
+      - {who: offpanel:nib, type: speech, side: l, text: "WATCH HER FEET."}
   - id: P45
     shape: strip
     gap: short
@@ -644,7 +676,7 @@ panels:
     silent: true
     notes: "ch93 cold open finishes the visible crossing. Do not resolve the demonstration before its hook handoff."
   - id: P46
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "medium at the west spectator rail, Chae apart from the crew"
@@ -653,10 +685,11 @@ panels:
       padded contact and scout, no alliance pose with either team. Sejin stands a pace away,
       professionally intent. West light, navy cardigan, sage rig, ochre gravel. Screens hidden,
       no pre-written official judgement, magical window or applause.
+      Frame Sejin from the waist up on the left, Chae on the right.
     calm: top
     lines:
       - {who: sejin, type: speech, side: l, text: "HE ISN'T TRYING TO HURT HER."}
-      - {who: chae, type: speech, side: r, text: "HE DOESN'T NEED TO."}
+      - {who: chae, type: speech, side: r, text: "HE ONLY NEEDS TO PUSH HER OUT."}
   - id: P47
     shape: vignette
     gap: long
@@ -669,7 +702,7 @@ panels:
       No link glow, drawn solution arrows, cute fear or lettering.
     calm: none
     lines:
-      - {who: taeo, type: float, text: "I HAD PAID FOR THE SAME GROUND HE WAS TAKING AWAY."}
+      - {who: taeo, type: float, text: "I'D BET OUR BASE MONEY ON HOLDING GROUND AGAINST THAT PUSH."}
   - id: P48
     shape: tall
     gap: long
@@ -681,10 +714,11 @@ panels:
       slide toward the padded east boundary within one final boot-length. West spectators recede
       behind the action; Iron Vow's captain remains composed at north edge. West sun, ochre/brown,
       dark steel, hard speed lines at gravel only. No injury, beam, readable sign or completed crossing.
+      do_gangjin drives from the left, the scout yields on the right; ironvow_captain is visible at the upper right.
     calm: top
     lines:
-      - {who: ironvow_captain, type: speech, side: r, text: "DISPLACEMENT."}
-      - {who: ironvow_captain, type: speech, side: r, text: "YOU DON'T HAVE TO FALL. YOU ONLY HAVE TO LEAVE."}
+      - {who: ironvow_captain, type: speech, side: r, text: "DISPLACEMENT. WE PUSH YOU OUT OF YOUR TERRITORY."}
+      - {who: ironvow_captain, type: speech, side: r, text: "YOU CAN STAY STANDING AND STILL LOSE."}
     notes: "HOOK: public demo reveals territorial displacement by sheer mechanical pressure. ch93 opens on the same ongoing push, scout crosses east line, then study/counter begins. No counterstroke solution supplied early."
   - id: P49
     kind: end

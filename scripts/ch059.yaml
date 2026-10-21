@@ -72,6 +72,7 @@ panels:
       taeo, navy jacket and RIGHT-eye mole, holds his cracked dark-grey phone below frame at
       exhibition_arena box. His winning smile is gone; he searches for the first useful word. White roof
       light, slate wall, discarded clean gauze beside water cup. No fresh bleed, dramatic tears or readable screen.
+      Taeo's face is on the right, cropped at his shoulders; he is alone in this shot.
     calm: top
     lines:
       - {who: taeo, type: speech, side: r, text: "BOSS?"}
@@ -92,6 +93,7 @@ panels:
       Video image only: haru, ten, cowlick and missing upper tooth, yellow dinosaur tee, stands in
       haeseong_school_corridor holding his model below crop. His face is angry and ordinary, trying not
       to cry, chin set. Cool LEFT daylight, mint wall and blank navy door behind. No chibi or catastrophic grief pose.
+      Haru's face stays centred in the video image, with his shoulders below.
     calm: top
     ui:
       - {kind: phone.ttok_video_call, on: panel, caller: "Haru", own_video: "taeo"}
@@ -103,7 +105,7 @@ panels:
     bg: white
     title_text: "CHAPTER 59 · THE DINOSAUR PRESENTATION"
   - id: P06
-    shape: full
+    shape: tall
     gap: long
     camera: "call image wider from Haru's low held phone"
     art: >
@@ -111,6 +113,7 @@ panels:
       low bench, feathered dinosaur tucked against his chest. Behind him a parent helps a child pack
       a cardboard volcano; teacher carries blank boards into navy classroom door. Cool LEFT daylight, mint/cream walls.
       No disaster, bullying, readable school name or performance still underway.
+      Haru stands at centre foreground, teacher and packing family separate behind him.
     calm: top
     ui:
       - {kind: phone.ttok_video_call, on: panel, caller: "Haru", own_video: "taeo"}
@@ -123,9 +126,10 @@ panels:
       taeo in navy jacket sits heavily in exhibition_arena box, phone held facing him away from us,
       RIGHT forearm resting because it hurts. Lips part around a failed explanation. Overhead white lamps,
       slate shadows, old backpack patch on chair. No active visible display, chibi or renewed blood.
+      Taeo's head and shoulders occupy the left side; keep the phone below his face.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: l, text: "I THOUGHT THE FINAL WAS—"}
+      - {who: taeo, type: speech, side: l, text: "I THOUGHT THE FINAL WOULD FINISH EARLIER."}
   - id: P08
     shape: strip
     silent: true
@@ -142,6 +146,7 @@ panels:
       taeo in navy jacket looks straight at his phone, chin lowered to the small camera, making
       himself face Haru. nib's notched ear at foreground edge as he turns away to give privacy.
       exhibition_arena white roof lamps, slate background. Phone display away, no overheard advice or intrusive cameras.
+      Taeo's face is on the right, Nib's cropped ear at the left edge; frame Taeo from the waist up.
     calm: top
     lines:
       - {who: taeo, type: speech, side: r, text: "I FORGOT. I PROMISED, AND I FORGOT."}
@@ -153,12 +158,13 @@ panels:
       Video image only: haru in yellow tee at haeseong_school_corridor bench looks down at his
       dinosaur's bent paper feathers, picking one straight with a careful small finger. Angry tired face,
       eyes damp. LEFT-window blue-grey light, mint wall. No shame caricature, shattered model, readable notes or chibi.
+      Haru's face and shoulders remain centred, the dinosaur's feathers just below his chin.
     calm: top
     ui:
       - {kind: phone.ttok_video_call, on: panel, caller: "Haru", own_video: "taeo"}
     lines:
-      - {who: haru, type: phone, side: c, text: "I LEFT THE CHAIR EMPTY."}
-      - {who: haru, type: phone, side: c, text: "TEACHER PUT THE BAGS THERE AFTER."}
+      - {who: haru, type: phone, side: c, text: "I SAVED YOU A CHAIR."}
+      - {who: haru, type: phone, side: c, text: "AFTER MY PRESENTATION, TEACHER PUT THE BAGS ON YOUR CHAIR."}
   - id: P11
     shape: strip
     camera: "Taeo's right hand opening on his knee"
@@ -168,8 +174,8 @@ panels:
       bruises under rolled navy cuff. No fresh catastrophic injury, glowing pulse or magically connected family bond.
     calm: right
     lines:
-      - {who: taeo, type: float, text: "I HAD A SEAT FOR HIM IN MY HEAD."}
-      - {who: taeo, type: float, text: "HE NEEDED ONE IN THE ROOM."}
+      - {who: taeo, type: float, text: "I WANTED HARU TO BE PROUD OF ME."}
+      - {who: taeo, type: float, text: "I HAD LEFT HIM WAITING."}
   - id: P12
     shape: wide
     camera: "Taeo profile toward open service doorway"
@@ -177,22 +183,24 @@ panels:
       taeo in navy jacket leans toward phone at exhibition_arena box, trying to offer something real.
       Through open service doorway a distant official carries blank ceremony cards, outside his attention.
       White roof and corridor fluorescent light, slate shadows. No award displayed, active screen or self-pitying performance.
+      Frame Taeo from the waist up on the left, with the official distant in the doorway.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "CAN YOU TELL ME HOW IT WENT?"}
+      - {who: taeo, type: speech, side: l, text: "CAN YOU TELL ME HOW THE PRESENTATION WENT?"}
   - id: P13
-    shape: full
+    shape: tall
     camera: "call image low angle on Haru and the corridor bench"
     art: >
       Video image only: haru in yellow tee and blue shorts sits at haeseong_school_corridor bench,
       dinosaur balanced carefully on knees, small Velcro trainers square on floor. He stares past phone
       toward empty classroom. LEFT-window cool light, mint/cream walls. No deserted scary school, humiliating classmates or broken model.
+      Haru sits at centre, feet and dinosaur model fully visible against the low bench.
     calm: top
     ui:
       - {kind: phone.ttok_video_call, on: panel, caller: "Haru", own_video: "taeo"}
     lines:
-      - {who: haru, type: phone, side: c, text: "IT WENT FINE."}
-      - {who: haru, type: phone, side: c, text: "I DID THE WHOLE THING."}
+      - {who: haru, type: phone, side: c, text: "THE PRESENTATION WENT FINE."}
+      - {who: haru, type: phone, side: c, text: "I DID THE WHOLE PRESENTATION."}
   - id: P14
     shape: inset-r
     camera: "close on Taeo receiving a small piece of good news"
@@ -200,6 +208,7 @@ panels:
       taeo in navy at exhibition_arena box lets out a tiny relieved breath, not a forgiving smile.
       His eyes stay fixed below camera at Haru. White roof key, slate shadows, RIGHT-eye mole clear.
       Phone facing away. No triumph gag, sparkling eyes or instant emotional reconciliation.
+      Taeo's face occupies the right side; he stays seated and still.
     calm: left
     lines:
       - {who: taeo, type: speech, side: r, text: "YOU DID? GOOD JOB, BOSS."}
@@ -210,10 +219,11 @@ panels:
       Video image only: haru's ordinary child eyes turn from the classroom back toward his phone
       at haeseong_school_corridor bench. Black cowlick edge, yellow collar, lips pressed. Cool LEFT daylight,
       mint background. No giant tear streams, chibi, accusatory finger or video chrome inside the drawing.
+      Haru's eyes and mouth occupy the left third of this tight face detail.
     calm: right
     lines:
-      - {who: haru, type: phone, side: l, text: "I KNOW."}
-      - {who: haru, type: phone, side: l, text: "YOU DIDN'T SEE IT."}
+      - {who: haru, type: phone, side: l, text: "I KNOW I DID WELL."}
+      - {who: haru, type: phone, side: l, text: "YOU DIDN'T SEE MY PRESENTATION."}
   - id: P16
     shape: wide
     camera: "Taeo front on, phone just below frame"
@@ -221,6 +231,7 @@ panels:
       taeo in navy jacket at exhibition_arena box has no answer ready. He nods once, ashamed and
       listening, hands still. White overhead key, slate wall, old patch behind shoulder. No crowd, monitor,
       imagined funeral imagery or punishment through sudden worsening injury.
+      Taeo's face is centred in a head-and-shoulders crop.
     calm: top
     lines:
       - {who: taeo, type: speech, side: c, text: "NO. I DIDN'T."}
@@ -231,11 +242,12 @@ panels:
       Video image only: haru in yellow tee at haeseong_school_corridor bench eases the feathered
       dinosaur into a plain cardboard carrying tray. He keeps working while speaking; jaw set with tired
       anger. LEFT-window cool light, mint/cream wall. No destroyed prop, snatched phone or apologetic smile.
+      Haru's face stays centred above the tray in this waist-up video crop.
     calm: top
     ui:
       - {kind: phone.ttok_video_call, on: panel, caller: "Haru", own_video: "taeo"}
     lines:
-      - {who: haru, type: phone, side: c, text: "I HAVE TO PACK THIS."}
+      - {who: haru, type: phone, side: c, text: "I HAVE TO PACK MY DINOSAUR."}
       - {who: haru, type: phone, side: c, text: "I DON'T WANT TO TALK NOW."}
   - id: P18
     shape: inset-l
@@ -244,6 +256,7 @@ panels:
       taeo in navy jacket at exhibition_arena box holds eye contact with the phone's small lens,
       making himself accept the boundary. His eyebrows pull together, mouth quiet. White roof key,
       slate background, RIGHT-eye mole. No coercive pleading, speech in art or visible screen.
+      Taeo's face occupies the left side, phone below the crop.
     calm: right
     lines:
       - {who: taeo, type: speech, side: l, text: "OKAY. I'LL LET YOU GO."}
@@ -266,7 +279,7 @@ panels:
     ui:
       - {kind: phone.info_card, on: screen, hand: taeo_left_tilt, title: "HARU", text: "VIDEO CALL ENDED"}
   - id: P21
-    shape: full
+    shape: tall
     silent: true
     camera: "high from operator-box corner, Taeo small at desk"
     art: >
@@ -275,23 +288,25 @@ panels:
       intact reservoir and old backpack patch remain. Cool slate quiet. No consoling mob, ongoing video image or chibi.
     calm: none
   - id: P22
-    shape: wide
+    shape: tall
     camera: "bench-level outside operator box with Nib in foreground"
     art: >
       exhibition_service_corridor, cold fluorescent cream/slate. nib adult in locked wrap and chosen
       boots waits beside bench, binoculars high, facing away from Taeo's call. Taeo in navy comes
       through open door, phone now pocketed. Nib's face attentive, no demand. No new stranger, TV or readable sign.
+      Nib waits on the left beside the bench; Taeo enters on the right.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "HARU."}
+      - {who: nib, type: speech, side: l, text: "HARU IS ANGRY."}
       - {who: taeo, type: speech, side: r, text: "I MISSED HIS PRESENTATION."}
   - id: P23
     shape: strip
-    camera: "Taeo's bowed head and old backpack patch in profile"
+    camera: "detail of Taeo's bowed face and backpack patch"
     art: >
       taeo in navy jacket at exhibition_service_corridor bench bows his head slightly, olive backpack
       on shoulder with faded orange OLD open-door patch. One hand grips strap; sore forearm supported.
       Fluorescent white key, slate wall shadow. No self-striking, funeral memory, readable poster or glowing link.
+      Crop to Taeo's face, shoulder and backpack patch on the left; no full torso or legs.
     calm: right
     lines:
       - {who: taeo, type: speech, side: l, text: "I TOLD HIM I'D BE THERE."}
@@ -302,9 +317,10 @@ panels:
       taeo in navy sits on exhibition_service_corridor bench so nib in chosen boots stands at his
       eye height. Nib studies him with grave weathered patience, hands loose beside correct belt props.
       Cold fluorescent key, cream/slate wall. No moralising pose, cute comfort hug or drawn speech.
+      Taeo sits on the left and Nib stands right; frame both from the waist up at their shared eye level.
     calm: top
     lines:
-      - {who: nib, type: speech, side: r, text: "HE GETS TO BE ANGRY."}
+      - {who: nib, type: speech, side: r, text: "HARU GETS TO BE ANGRY."}
       - {who: taeo, type: speech, side: l, text: "I KNOW."}
   - id: P25
     shape: vignette
@@ -316,16 +332,17 @@ panels:
       Fluorescent white key, cream/slate soft edges. No text, kneeling servant pose or claim of fixing Haru's absence.
     calm: none
   - id: P26
-    shape: wide
+    shape: tall
     camera: "corridor doorway toward Sera and Orrin waiting for Taeo"
     art: >
       sera in river-green and adult orrin wait by exhibition_service_corridor's wide stage doors, not
       crowding the bench. Sera holds her bow low, happiness tempered by concern. Orrin's shell seam
       unchanged. Cold fluorescent key, slate shadows. No selfie attempt, open phone, jokes about Haru or consolation speech.
+      Sera stands right, Orrin rests centre. Taeo is outside the left edge beside the bench.
     calm: top
     lines:
       - {who: sera, type: speech, side: r, text: "DO YOU WANT US TO WAIT?"}
-      - {who: taeo, type: speech, side: l, text: "NO. YOU EARNED TODAY."}
+      - {who: "offpanel:taeo", type: speech, side: l, text: "NO. YOU EARNED YOUR AWARD."}
   - id: P27
     shape: inset-r
     camera: "Sera close, chin lowered rather than posing"
@@ -333,9 +350,10 @@ panels:
       sera adult in river-green at exhibition_service_corridor door considers Taeo, then nods once.
       Her competitive smile returns small, not triumphant at his expense. LEFT bracer, RIGHT braid bead
       visible. Fluorescent white key, slate wall. No teasing grin, photograph or miraculous reassurance.
+      Sera's face occupies the right side, her shoulders below.
     calm: left
     lines:
-      - {who: sera, type: speech, side: r, text: "SO DID YOU. BOTH THINGS HAPPENED."}
+      - {who: sera, type: speech, side: r, text: "YOU EARNED THE AWARD. YOU CAN BE HAPPY AND SORRY."}
   - id: P28
     shape: strip
     camera: "extreme close-up of Taeo tucking the phone securely away"
@@ -345,7 +363,7 @@ panels:
       backpack on floor. No notification, readable screen or thrown-away gift.
     calm: right
     lines:
-      - {who: taeo, type: float, text: "I COULDN'T SWAP ONE FOR THE OTHER."}
+      - {who: taeo, type: float, text: "WINNING DIDN'T MAKE UP FOR MISSING HARU'S PRESENTATION."}
   - id: P29
     shape: wide
     camera: "Sejin sitting beside Taeo to dress his forearm"
@@ -353,37 +371,40 @@ panels:
       sejin in sage scrubs and olive rig sits beside taeo in navy at exhibition_service_corridor bench,
       applying a light support wrap to the sore forearm from ch 58. He offers it willingly, face
       tired and honest. White fluorescent key, slate shadows. No blood renewal, needle, invented fracture or instant cure.
+      Frame Sejin on the left and Taeo on the right from the waist up, his forearm between them.
     calm: top
     lines:
-      - {who: sejin, type: speech, side: l, text: "FOREARM?"}
+      - {who: sejin, type: speech, side: l, text: "HOW'S YOUR FOREARM?"}
       - {who: taeo, type: speech, side: r, text: "SORE. SAME PLACE. NO WORSE."}
-      - {who: sejin, type: speech, side: l, text: "TELL ME IF THAT CHANGES."}
+      - {who: sejin, type: speech, side: l, text: "TELL ME IF THE PAIN CHANGES."}
   - id: P30
-    shape: full
+    shape: tall
     gap: long
     camera: "wide corridor as ceremony official arrives with grant board"
     art: >
       official in grey exhibition polo wheels a large blank equipment-grant board into exhibition_service_corridor.
       haein in slate overalls and minho in brown jacket follow, trying to contain large delighted smiles.
       Taeo rises from bench, Nib beside him. Fluorescent white key, cream/slate walls. No actual cash, readable art or failure in reservoir.
+      The official stands left of the board; Taeo and Nib face her on the right, Haein and Minho behind.
     calm: top
     lines:
       - {who: official, type: speech, side: l, text: "YOUR EQUIPMENT ALLOCATION. PLEASE CHECK THE NAME."}
     ui:
       - {kind: label, text: "YOON TAEO'S CREW · EQUIPMENT GRANT ₩150,000,000", at: [0.50, 0.58]}
   - id: P31
-    shape: wide
+    shape: full
     camera: "frontal reaction on Haein and Minho behind the board"
     art: >
       BIG REACTION: haein in slate overalls stares at exhibition_service_corridor grant board with huge
       eyes and both hands over her open mouth; minho in brown jacket laughs in outright disbelief,
       LEFT grey streak visible. White fluorescent key, slate shadows. Board faces away, no cash shower or sponsor logos.
+      Frame Haein left and Minho right from the waist up behind the board.
     calm: top
     lines:
       - {who: haein, type: speech, side: l, text: "ONE HUNDRED AND FIFTY MILLION."}
       - {who: minho, type: speech, side: r, text: "IN EQUIPMENT."}
   - id: P32
-    shape: inset-l
+    shape: full
     style: chibi
     camera: "chibi Haein trying to measure a grant board"
     art: >
@@ -391,17 +412,19 @@ panels:
       slate overalls unrolls a tape measure around an oversized blank grant board, eyes sparkling at
       possibilities; chibi minho in brown jacket keeps its wheel straight. No Haru or distressed Taeo,
       readable number or banknotes in the gag.
+      Chibi Haein is left and chibi Minho right, full figures beside the wheeled board.
     calm: right
     lines:
-      - {who: haein, type: speech, side: l, text: "HOW MANY RELAYS IS THAT?"}
-      - {who: minho, type: speech, side: r, text: "MEASURE WITH A CALCULATOR."}
+      - {who: haein, type: speech, side: l, text: "HOW MANY RELAYS CAN WE BUY?"}
+      - {who: minho, type: speech, side: r, text: "TRY A CALCULATOR."}
   - id: P33
-    shape: wide
+    shape: full
     camera: "side-on official explaining the board to the crew"
     art: >
       official in grey polo holds a blank allocation form while haein in slate and taeo in navy
       listen in exhibition_service_corridor. Taeo has a small sincere smile for Haein's excitement; Nib
       stands clear of wheeled board. White fluorescent key, slate shadows. No readable terms drawn or cash passed hand to hand.
+      Frame the official left, Taeo centre and Haein right from the waist up; Nib waits beside the board.
     calm: top
     lines:
       - {who: official, type: speech, side: l, text: "APPROVED EQUIPMENT ORDERS. IT ISN'T A CASH TRANSFER."}
@@ -409,19 +432,20 @@ panels:
       - {who: official, type: speech, side: l, text: "YES."}
     notes: "Exact ₩150,000,000 grant; not liquid prize cash, not a new ₩150m bank balance. Ch 62 may buy relays, van, med kit."
   - id: P34
-    shape: wide
+    shape: tall
     camera: "Orrin's eye level toward Sera and the grant form"
     art: >
       adult orrin in exhibition_service_corridor looks from the allocation form to sera in river-green,
       heavy eyelid raised. Sera rests LEFT bow against her boot, examining possibilities with a sly
       grin. White fluorescent key, slate shadows, old shell seam. No pet prop, rooftop deed or actual shopping underway.
+      Orrin rests on the left, his whole shell given room; Sera stands right beside the form.
     calm: top
     lines:
       - {who: orrin, type: speech, side: l, text: "IS A WIDER DOOR EQUIPMENT?"}
-      - {who: sera, type: speech, side: r, text: "WE'LL ASK EXPENSIVELY."}
+      - {who: sera, type: speech, side: r, text: "WE'LL ASK FOR AN EXPENSIVE ONE."}
   - id: P35
     shape: strip
-    camera: "Taeo close at shoulder height hearing the crew laugh"
+    camera: "detail of Taeo's face as he hears the crew laugh"
     art: >
       taeo in navy jacket at exhibition_service_corridor doorway smiles despite the ache, eyes soft
       toward Orrin. RIGHT-eye mole, stopped nosebleed, light forearm wrap. White fluorescent key, slate
@@ -431,7 +455,7 @@ panels:
       - {who: taeo, type: float, text: "I WAS STILL HAPPY."}
       - {who: taeo, type: float, text: "THAT MADE IT HARDER TO LOOK AT MY PHONE."}
   - id: P36
-    shape: full
+    shape: tall
     gap: long
     camera: "establishing from press pit across award stage and ramp"
     art: >
@@ -439,32 +463,35 @@ panels:
       board rear; shallow press pit SOUTH with WEST rostrum, white lighting truss intact above west pit. host in navy suit
       readies cards while camera_operator in grey vest/navy polo adjusts shoulder camera below. White stage lamps,
       slate shadows and navy stands. No failing rig, falling person or readable board.
+      The host stands at centre onstage; the cameraman works below at the west rostrum.
     calm: top
     lines:
       - {who: host, type: phone, side: c, text: "OUR REMOTE OPERATIONS CHAMPIONS. YOON TAEO'S CREW."}
   - id: P37
-    shape: wide
+    shape: tall
     camera: "ramp-level crew walking toward stage"
     art: >
       taeo removes his navy jacket at exhibition_award_stage WEST ramp, laying it and olive backpack on
       west equipment table, transferring dinosaur phone to hoodie pocket; black hoodie and light forearm wrap now visible. Nib in chosen boots stops beside
       adult Orrin at ramp foot, Sera continues up. White stage lamps, slate floor. No narrow steps or altered rescue patch.
+      Nib stands left beside Orrin at the ramp foot; Taeo is right by the table, Sera farther up the ramp.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "THAT'S A PROPER DOOR."}
-      - {who: taeo, type: speech, side: r, text: "NO DOOR."}
+      - {who: nib, type: speech, side: l, text: "A PROPER ENTRANCE."}
+      - {who: taeo, type: speech, side: r, text: "THERE ISN\u0027T EVEN A DOOR."}
       - {who: nib, type: speech, side: l, text: "BETTER."}
   - id: P38
-    shape: wide
+    shape: tall
     camera: "side-stage Haein steering the demonstration cart beside lectern"
     art: >
       haein in slate overalls wheels a low grey cart holding intact reservoir to lectern's LEFT
       on exhibition_award_stage. Sejin in sage/olive watches from ramp with Minho in brown. Haein looks
       proud and careful. White truss lamps, slate stage. No recharge, green diagnostic screen, cracked casing or unattended live experiment.
+      Haein stands right of the cart. The official calls from outside the left edge; Sejin and Minho wait behind.
     calm: top
     lines:
-      - {who: official, type: speech, side: l, text: "THE DEVICE FOR THE TECHNICAL PHOTO, PLEASE."}
-      - {who: haein, type: speech, side: r, text: "I'M COMING WITH IT."}
+      - {who: "offpanel:official", type: speech, side: l, text: "THE DEVICE FOR THE TECHNICAL PHOTO, PLEASE."}
+      - {who: haein, type: speech, side: r, text: "I'M COMING WITH THE RESERVOIR."}
     notes: "Reservoir on cart within Taeo's reach sets ch 60 access. Intact, empty, no repairs; this is not yet ch 61 official crew photo."
   - id: P39
     shape: strip
@@ -482,42 +509,45 @@ panels:
       sera in river-green at exhibition_award_stage gives the applauding stands her finest delighted
       adult smile, chin slightly raised. Bone necklace, braid and RIGHT quiver correct, bow lowered LEFT.
       White stage key, slate shadow, navy seats simplified behind. No celebrity sparkles, magical glamour or Haru-related gag.
+      Sera's face fills the right side of a head-and-shoulders crop.
     calm: left
     lines:
-      - {who: sera, type: whisper, side: r, text: "I COULD GET USED TO THIS."}
+      - {who: sera, type: whisper, side: r, text: "I COULD GET USED TO THIS APPLAUSE."}
   - id: P41
-    shape: wide
+    shape: tall
     camera: "audience view of grant board and crew on platform"
     art: >
       exhibition_award_stage under steady white truss lamps: host in navy suit stands by blank giant
       equipment grant board, taeo in black hoodie beside her, Sera by WEST equipment table. Haein at cart,
       Nib and Orrin at WEST ramp foot. Slate shadows, navy crowd. No cash, readable art or collapsing hardware.
+      The host is centre, Taeo right beside her; the crew remains by the west table and ramp to the left.
     calm: top
     ui:
       - {kind: label, text: "REMOTE OPERATIONS · EQUIPMENT GRANT ₩150,000,000", at: [0.50, 0.23]}
     lines:
       - {who: host, type: phone, side: c, text: "ONE HUNDRED AND FIFTY MILLION WON IN EQUIPMENT GRANTS."}
   - id: P42
-    shape: wide
+    shape: full
     camera: "stage-right profile as official hands over grant folder"
     art: >
       taeo in black hoodie accepts a plain grant folder with his uninjured LEFT hand from official
       in grey at exhibition_award_stage. RIGHT forearm light wrap visible; his small bow is automatic
       and sincere. White truss key, slate shadows. Folder blank, no bank cheque, new licence or actual cash transfer.
+      Frame the official left and Taeo right from the waist up above the folder.
     calm: top
     lines:
       - {who: taeo, type: speech, side: r, text: "THANK YOU."}
       - {who: official, type: speech, side: l, text: "GOOD RUN."}
   - id: P43
     shape: strip
-    camera: "Taeo's jacket pocket beside the grant folder"
+    camera: "detail of Taeo's hoodie pocket beside the grant folder"
     art: >
       Close at exhibition_award_stage: plain grant folder rests against taeo's black hoodie while
       dinosaur-sticker phone corner protrudes from black hoodie pocket. His LEFT hand steadies folder; RIGHT
       wrap visible at side. White stage lamp, slate hard shadow. Screen hidden and dark, no fresh notification or readable title.
     calm: right
     lines:
-      - {who: taeo, type: float, text: "THE FOLDER DIDN'T WEIGH ANYTHING."}
+      - {who: taeo, type: float, text: "I DIDN'T WANT TO CALL HARU JUST TO TELL HIM I'D WON."}
   - id: P44
     shape: full
     camera: "from behind host toward audience and BangBang aisle"
@@ -525,21 +555,23 @@ panels:
       host in navy suit faces exhibition_stands from exhibition_award_stage, microphone in hand; taeo
       in black hoodie waits centre, crew at west table and ramp. At accredited aisle BangBang in sheet-matched patterned bomber/headset
       aims camera, fans leaning together nearby. White roof lamps, navy/slate crowd. No drawn chant sign, apology video or failing truss.
+      The host is centre foreground with Taeo to her right; keep the entire crew and stands in the roomy full frame.
     calm: top
     lines:
       - {who: host, type: phone, side: c, text: "MR. YOON. A FEW WORDS?"}
   - id: P45
-    shape: wide
+    shape: full
     camera: "side-on microphone handoff at centre stage"
     art: >
       host in navy offers black wireless mic to taeo in black hoodie at exhibition_award_stage. He sets grant
       folder on lectern and accepts with LEFT hand. Haein settles intact empty reservoir's grey hand strap over
       his RIGHT hand for technical photo, light forearm wrap visible. White stage key, slate shadows; no reply yet or text in art.
+      The host stands left, Taeo right and Haein centre beside his right arm; give all three standing figures room.
     calm: top
     lines:
       - {who: taeo, type: nervous, side: r, text: "OH. NOW?"}
   - id: P46
-    shape: strip
+    shape: tall
     camera: "press-pit rail toward camera operator and steady truss above"
     art: >
       camera_operator, adult man in grey utility vest over navy polo and dark trousers, stands safe
@@ -554,9 +586,10 @@ panels:
       exhibition_stands: adult fan in muted grey sweatshirt near BangBang's aisle looks at the mic
       in Taeo's hand and grins toward friends, blank paddle tilted. White roof key, slate rail,
       navy seat shapes. No uniform all-stadium hostility, drawn slogan or violence.
+      The speaking fan's face and shoulders are on the left, with friends cropped at the right edge.
     calm: right
     lines:
-      - {who: crowd, type: whisper, side: l, text: "GO ON. ASK HIM."}
+      - {who: crowd, type: whisper, side: l, text: "GO ON. ASK YOON WHO GOES FIRST."}
   - id: P48
     shape: wide
     camera: "low from audience toward Taeo lifting the mic"
@@ -564,19 +597,21 @@ panels:
       taeo in black hoodie at exhibition_award_stage lifts LEFT-hand black mic, RIGHT hand holding intact
       empty reservoir in grey strap below chest height, light forearm wrap visible. He looks across faces,
       almost ready to thank crew at west table and ramp. White truss lamps, slate backdrop. No answer or accident starting.
+      Frame Taeo from the waist up at centre, both mic and reservoir in view.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: c, text: "I—"}
+      - {who: taeo, type: speech, side: c, text: "THANK YOU."}
   - id: P49
     shape: strip
-    camera: "BangBang fans' cupped hands across a row of seats"
+    camera: "detail of chanting fans' cupped hands"
     art: >
       exhibition_stands: BangBang's small fan cluster cups hands and launches a familiar chant; farther
       spectators are still applauding or turning in confusion. White roof light, navy/slate seats and
       blank paddles. No printed insults, microphone in fan hands or every spectator joining.
+      Crop to cupped hands at centre; keep the chanting fans' faces outside the central near edge.
     calm: top
     lines:
-      - {who: crowd, type: shout, side: c, text: "HIS SUMMONS GO FIRST!"}
+      - {who: "offpanel:crowd", type: shout, side: c, text: "HIS SUMMONS GO FIRST!"}
   - id: P50
     shape: tall
     gap: long
@@ -588,9 +623,10 @@ panels:
       Nib at WEST ramp foot holds adult flat stare; Sera by WEST table loses her stage smile. Haein at cart,
       Orrin beside WEST ramp near SOUTH press pit; Sejin and Minho offstage. White lamps, slate shadows;
       truss still intact, no falling object, answer, speech lettering or cute reaction.
+      The chanting fans stand outside the central near edge in front of the stage; their voices come from there.
     calm: bottom
     lines:
-      - {who: crowd, type: shout, side: c, text: "HIS SUMMONS GO FIRST! HIS SUMMONS GO FIRST!"}
+      - {who: "offpanel:crowd", type: shout, side: c, text: "HIS SUMMONS GO FIRST! HIS SUMMONS GO FIRST!"}
     notes: "Exact hook: award stage, mic in Taeo's hand, BangBang fans resume chant. No YES answer before ch 61; no saturation or collapse before ch 60."
   - id: P51
     kind: end

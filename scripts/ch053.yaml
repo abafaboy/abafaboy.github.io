@@ -30,11 +30,11 @@ panels:
     camera: "extreme close-up, side-on on Nib's eye and the approaching foam head"
     art: >
       At ryu_practice_yard, nib, default, watches a grey padded practice arm held still a palm-width from his raised LEFT
-      shield pad. His amber eye narrows, adult jaw set, V-notch LEFT ear clear. Haein's gloved hand holds the rig's lever
+      shield pad. His amber eye fills the left third and narrows, adult jaw set, V-notch LEFT ear clear. Haein's gloved hand holds the rig's lever
       in the background. Afternoon sun, ochre/brown, sky blue. No contact yet, no flying text or glowing weapon.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "SAY THE LINE."}
+      - {who: nib, type: speech, side: l, text: "NAME THE FORCE ROUTE FIRST."}
     notes: "Starts at the lane chosen in ch 52. First attempted drill; the pad has not struck him before consent."
   - id: P02
     shape: wide
@@ -43,26 +43,27 @@ panels:
     camera: "medium on Taeo at the operator chair, rig visible beyond him"
     art: >
       taeo, outdoor, sits at the ryu_practice_yard west lane with ch 50 reservoir at his contact hand and notebook open.
-      He looks from nib's LEFT pad to orrin's sled, opens his mouth and hesitates. Old-patch pack hangs on chair. A4 ochre
+      Waist-up, Taeo occupies the right third. He looks from nib's LEFT pad to orrin's sled, opens his mouth
+      and hesitates. Haein remains off-panel at the rig to the left. Old-patch pack hangs on chair. A4 ochre
       ground, warm afternoon sun and brown shadows; no active phone or operator UI, no force transfer yet.
     calm: top
     lines:
-      - {who: taeo, type: nervous, side: r, text: "FROM YOUR LEFT PAD TO..."}
-      - {who: haein, type: speech, side: l, text: "HOLDING."}
+      - {who: taeo, type: nervous, side: r, text: "NIB'S LEFT PAD INTO THE RESERVOIR. THEN..."}
+      - {who: "offpanel:haein", type: speech, side: l, text: "I'M KEEPING THE PRACTICE ARM LOCKED."}
   - id: P03
-    shape: inset-r
+    shape: tall
     gap: short
     bg: white
     camera: "low on Orrin beside the stationary sled"
     art: >
       orrin, adult slateback with four columnar feet and stacked shell, waits at ryu_practice_yard west lane, chin above
-      the low wooden sled. He looks toward taeo with patient dry scepticism. Three blunt nails per foot, old healed shell
+      the low wooden sled. Orrin occupies the left third and looks toward taeo with patient dry scepticism. Three blunt nails per foot, old healed shell
       seam retained. Afternoon sun, ochre ground, brown shadows. No harness, moving sled, force beam or writing.
     calm: left
     lines:
-      - {who: orrin, type: speech, side: l, text: "I WOULD LIKE THE REST BEFORE THE HIT."}
+      - {who: orrin, type: speech, side: l, text: "I WOULD LIKE THE REST OF THE PLAN BEFORE THE HIT."}
   - id: P04
-    shape: wide
+    shape: full
     gap: short
     bg: white
     silent: true
@@ -86,11 +87,12 @@ panels:
       ryu_practice_yard key, maze unchanged to the RIGHT, portable foam arm and sled/shutter drill in open west lane.
       haein, slate overalls over beige tee, jaw-length black bob and safety glasses on crown, stands at the arm latch.
       sejin, sage scrubs and olive rig, marks a stop boundary with plain tape. sera, river-green default, inspects the
-      north backstop, bow lowered LEFT. A4 ochre/brown sun, sky blue; no text, gate or arena crowd.
+      north backstop, bow lowered LEFT. Sejin stands left, Haein right, Sera farther back at centre.
+      A4 ochre/brown sun, sky blue; no text, gate or arena crowd.
     calm: top
     lines:
       - {who: sejin, type: speech, side: l, text: "ONE SMALL HIT. THEN EVERYBODY CHECKS IN."}
-      - {who: haein, type: speech, side: r, text: "AND THE MACHINE GETS A VOTE. IT CAN SAY EMPTY."}
+      - {who: haein, type: speech, side: r, text: "CHECK THE METER TOO. AN EMPTY RESERVOIR CAN'T HELP ORRIN PUSH."}
   - id: P07
     shape: strip
     gap: short
@@ -102,15 +104,16 @@ panels:
       faint bruising above cuff; no link active. Sunlight from upper left, ochre tabletop, brown shadows. No automatic route diagram or text.
     calm: none
     lines:
-      - {who: taeo, type: speech, side: r, text: "LEFT PAD. BANK A SLICE. RELEASE FORWARD THROUGH ORRIN'S PUSH."}
+      - {who: "offpanel:taeo", type: speech, side: r, text: "STORE PART OF NIB'S HIT. RELEASE THE FORCE FORWARD TO HELP ORRIN PUSH THE SLED."}
   - id: P08
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "eye-level two-shot of Haein and Sejin over the foam arm"
     art: >
       haein, overalls, presses the foam head to demonstrate its give at ryu_practice_yard; sejin, sage scrubs/olive rig,
-      watches taeo off frame with a level stare and folded arms. Rig latch locked. A4 sunlit ochre/brown, sky blue;
+      watches taeo off frame with a level stare and folded arms. Haein stands left, Sejin right.
+      Rig latch locked. A4 sunlit ochre/brown, sky blue;
       tools sit separate on trestle, no broken device or active display.
     calm: top
     lines:
@@ -118,7 +121,7 @@ panels:
       - {who: sejin, type: speech, side: r, text: "CHEAPER THAN NEW TEETH. STOP MEANS STOP."}
     notes: "Concrete small training cost; no crew account balance or prize is invented."
   - id: P09
-    shape: wide
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -126,7 +129,8 @@ panels:
     art: >
       CHIBI taeo in outdoor clothes presents a comically long roll of blank safety checkboxes at ryu_practice_yard;
       CHIBI sejin in sage rig holds the top, unimpressed. CHIBI nib, boots, binoculars and full belt locks, has fallen
-      asleep standing while waiting for the roll to end. Flat ochre screentone, sunlit cream key. No readable checkboxes or injury.
+      asleep standing while waiting for the roll to end. Taeo stands right, Sejin left, Nib centre.
+      Flat ochre screentone, sunlit cream key. No readable checkboxes or injury.
     calm: top
     lines:
       - {who: taeo, type: nervous, side: r, text: "I WROTE A CONSENT FORM."}
@@ -139,24 +143,26 @@ panels:
     art: >
       nib, default, at ryu_practice_yard west lane, LEFT shield pad strapped securely. Weathered face steady and attentive;
       notched LEFT ear, sole lower LEFT fang, binocular strap knot LEFT. He looks at taeo directly, not the machine.
+      Nib's face occupies the left third; Taeo stands off-panel to the right.
       Warm afternoon sunlight, ochre/brown background simplified. No cute round face or active glow before his reply.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: r, text: "NIB. THIS HIT, THIS LINE. YES?"}
+      - {who: "offpanel:taeo", type: speech, side: r, text: "NIB, MAY WE USE ONE SMALL HIT FOR THAT FORWARD PUSH?"}
       - {who: nib, type: speech, side: l, text: "YES."}
   - id: P11
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low three-quarter on Orrin settling his feet behind the sled"
     art: >
       orrin at ryu_practice_yard deliberately plants four heavy feet behind the portable sled, head aligning to its padded
       rear plate. His broad adult face is calm, eyes measuring the forward line to the shutter. taeo, outdoor, kneels
-      briefly beside the chair at frame right to meet his gaze. Sunlit ochre/brown, no harness or glowing road.
+      briefly beside the chair at frame right to meet his gaze. Orrin occupies the left third.
+      Sunlit ochre/brown, no harness or glowing road.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "ORRIN? SAME LINE."}
-      - {who: orrin, type: speech, side: l, text: "YES. FORWARD."}
+      - {who: taeo, type: speech, side: r, text: "ORRIN, MAY I ADD THE STORED FORCE TO YOUR FORWARD PUSH?"}
+      - {who: orrin, type: speech, side: l, text: "YES. STRAIGHT FORWARD."}
   - id: P12
     shape: strip
     gap: short
@@ -176,11 +182,12 @@ panels:
     art: >
       sera, river-green wrap/cream underlayer, sand trousers, brown boots, thick braid, LEFT bracer and LEFT bow hand,
       RIGHT quiver and bone flute, at ryu_practice_yard north backstop. She sights the shutter aperture without drawing,
-      lips pursed in calculation. Warm sun, dusty ochre and brown shadows, sky blue above fence. No person in line of fire or words.
+      lips pursed in calculation. Frame Sera waist-up in the left third, Taeo off-panel to the right at his chair.
+      Warm sun, dusty ochre and brown shadows, sky blue above fence. No person in line of fire or words.
     calm: top
     lines:
       - {who: sera, type: speech, side: l, text: "I SHOOT WHEN THE SHUTTER LIFTS."}
-      - {who: taeo, type: speech, side: r, text: "ON MY RELEASE CALL."}
+      - {who: "offpanel:taeo", type: speech, side: r, text: "I'LL CALL WHEN I RELEASE THE STORED FORCE."}
       - {who: sera, type: speech, side: l, text: "THEN MAKE IT A GOOD CALL."}
   - id: P14
     shape: strip
@@ -194,7 +201,7 @@ panels:
       mechanical hinge and stop, sunlit ochre/brown. No autonomous mechanism, weapon edge, sparks or writing.
     calm: none
   - id: P15
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "side action shot as the padded arm meets Nib's raised pad"
@@ -213,10 +220,10 @@ panels:
     art: >
       taeo, outdoor, at ryu_practice_yard, shoulders tighten at the transferred slice. RIGHT contact palm pulses amber,
       veins and knuckles natural; LEFT hand hovers at release. A little shock in his tired eyes, mole RIGHT. Warm sun,
-      hard brown shadows. No blood, explosive magic or full-body glow.
+      His face occupies the right third. Hard brown shadows. No blood, explosive magic or full-body glow.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: r, text: "BANKED."}
+      - {who: taeo, type: speech, side: r, text: "FORCE STORED."}
   - id: P17
     shape: strip
     gap: none
@@ -230,31 +237,33 @@ panels:
     ui:
       - {kind: label, text: "0.46 s", at: [0.51, 0.47], size: 34}
   - id: P18
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low along the sled as Orrin pushes after the stored slice has already escaped"
     art: >
       ryu_practice_yard west lane, orrin makes his planned push, but the sled only bumps the shutter and fails to open it
       fully. He looks toward taeo with patient raised eyelid. sera, river-green, beyond the safe side line, has not loosed
-      an arrow. A4 sunlit ochre/brown, small movement strokes, no force beam, collision with people or broken parts.
+      an arrow. Taeo is off-panel to the right, Haein off-panel to the left at the rig.
+      A4 sunlit ochre/brown, small movement strokes, no force beam, collision with people or broken parts.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "RELEASE—"}
-      - {who: haein, type: speech, side: l, text: "EMPTY."}
+      - {who: "offpanel:taeo", type: speech, side: r, text: "RELEASE NOW."}
+      - {who: "offpanel:haein", type: speech, side: l, text: "TOO LATE. THE CHARGE HAS LEAKED AWAY."}
     notes: "First failure: Taeo waited for Orrin to start instead of cueing a prepared push. Total delay exceeded 0.8 seconds."
   - id: P19
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "front three-shot, Nib lowers the pad while Taeo rises too quickly"
     art: >
       taeo, outdoor, rises from his ryu_practice_yard operator chair, frustrated at himself, ready to call another try.
       nib, default/boots, lowers his LEFT pad and watches; sejin in sage scrubs lifts one flat hand between them. Sunlight
-      frame left, ochre ground and brown shadows. Old-patch backpack stays on chair. No active meter, smile or unexplained wound.
+      frame left, ochre ground and brown shadows. Taeo stands right, Sejin left, Nib centre.
+      Old-patch backpack stays on chair. No active meter, smile or unexplained wound.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "SORRY. AGAIN, I CAN—"}
+      - {who: taeo, type: speech, side: r, text: "SORRY. CAN WE TRY AGAIN?"}
       - {who: sejin, type: speech, side: l, text: "CHECK IN FIRST."}
   - id: P20
     shape: inset-l
@@ -264,27 +273,29 @@ panels:
     art: >
       taeo rolls back navy and black cuffs at ryu_practice_yard, points with LEFT fingertip to one small tender new
       patch on the outside of his forearm. sejin's practical hands inspect without squeezing hard. His mouth is flat
-      in the upper edge, no pretended smile. Ochre/brown sunlight. No severe swelling, fresh blood, magical healing or text.
+      in the upper-right edge, no pretended smile. Sejin's face is off-panel to the left.
+      Ochre/brown sunlight. No severe swelling, fresh blood, magical healing or text.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: r, text: "HERE. IT STUNG."}
-      - {who: sejin, type: speech, side: l, text: "THEN WE DO THE TIMING WITHOUT THE HIT."}
+      - {who: taeo, type: speech, side: r, text: "MY OUTER FOREARM STUNG."}
+      - {who: "offpanel:sejin", type: speech, side: l, text: "THEN WE REHEARSE THE TIMING WITHOUT A HIT."}
     notes: "Recoil is disclosed at once, honouring ch 44. Small lateral forearm bruise only; no broken bone or concealed nosebleed."
   - id: P21
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "medium on Haein setting the reservoir down beyond reach"
     art: >
       haein, slate overalls and glasses down, at ryu_practice_yard trestle puts the reservoir on a folded cloth and caps
-      its test contact. Her face is bluntly patient; taeo, outdoor, remains seated, forearm in sejin's view. Afternoon sun,
+      its test contact. Frame waist-up: Haein left, Taeo seated right, Sejin centre inspecting his forearm.
+      Her face is bluntly patient; taeo, outdoor, remains seated, forearm in sejin's view. Afternoon sun,
       ochre/brown, sky-blue sliver. Intact machine, no tool repair miracle or screen.
     calm: top
     lines:
-      - {who: haein, type: speech, side: l, text: "WE CAN'T PRACTISE YOUR BODY INTO HOLDING IT LONGER."}
-      - {who: taeo, type: speech, side: r, text: "RIGHT. THE CALL GETS SHORTER."}
+      - {who: haein, type: speech, side: l, text: "MORE HITS WON'T MAKE THE RESERVOIR HOLD CHARGE LONGER."}
+      - {who: taeo, type: speech, side: r, text: "RIGHT. I NEED TO GIVE THE RELEASE CUE SOONER."}
   - id: P22
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "high overhead of an unloaded walk-through beside the fixed maze"
@@ -292,12 +303,12 @@ panels:
       ryu_practice_yard, taeo in outdoor clothes walks the EMPTY drill lane beside nib in boots, pointing from the
       locked pad rig toward orrin's sled. orrin follows at an unhurried pace; sera marks a waiting spot safely outside
       the arrow lane. Reservoir capped on west trestle, no active link. Afternoon ochre/brown sunlight, maze topology unchanged,
-      chalk lines plain and unlettered.
+      chalk lines plain and unlettered. Taeo is right, Orrin left, Nib and Sera centre behind them.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "I SAY BANK. YOU'RE ALREADY SET TO PUSH."}
-      - {who: orrin, type: speech, side: l, text: "SET IS NOT MOVING."}
-      - {who: taeo, type: speech, side: r, text: "THEN RELEASE. BOTH OF US."}
+      - {who: taeo, type: speech, side: r, text: "WHEN I SAY 'FORCE STORED,' ORRIN GETS READY TO PUSH."}
+      - {who: orrin, type: speech, side: l, text: "READY. NOT MOVING YET."}
+      - {who: taeo, type: speech, side: r, text: "THEN I SAY 'RELEASE.' YOU PUSH WHILE I RELEASE THE FORCE."}
   - id: P23
     shape: wide
     gap: short
@@ -306,13 +317,14 @@ panels:
     art: >
       sera, default river-green and sand, stands in ryu_practice_yard safe shooting position, bow held undrawn LEFT.
       RIGHT fingertips tap her LEFT bracer in a short musical rhythm as she watches taeo rehearse off frame. Competitive
-      mouth turns thoughtful; braid and RIGHT-hip bone flute visible. Warm sun, ochre/brown, no musical notes drawn into art or force effect.
+      mouth turns thoughtful; braid and RIGHT-hip bone flute visible at the lower crop edge.
+      Frame Sera waist-up on the left. Warm sun, ochre/brown, no musical notes drawn into art or force effect.
     calm: top
     lines:
-      - {who: sera, type: speech, side: l, text: "YOU SAY RELEASE AFTER YOU'VE DECIDED TO RELEASE."}
-      - {who: sera, type: speech, side: l, text: "WE'RE WAITING FOR A WORD YOU DON'T NEED."}
+      - {who: sera, type: speech, side: l, text: "YOU DECIDE TO RELEASE, THEN SPEND TIME SAYING THE WORD."}
+      - {who: sera, type: speech, side: l, text: "GIVE ORRIN A HAND SIGNAL. YOU CAN MOVE TOGETHER."}
   - id: P24
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     style: chibi
@@ -320,7 +332,8 @@ panels:
     art: >
       CHIBI sera, river-green tunic and LEFT bow, conducts with one finger; CHIBI taeo, navy jacket, claps late with a
       giant sweat drop. CHIBI orrin, stacked slate shell and broad face, has one heavy foot raised exactly on time.
-      Flat dusty-ochre screentone, sunlit cream key; no detailed yard, words, musical glyphs or moving arrow.
+      Sera stands left, Orrin right, Taeo centre. Flat dusty-ochre screentone, sunlit cream key;
+      no detailed yard, words, musical glyphs or moving arrow.
     calm: top
     lines:
       - {who: sera, type: speech, side: l, text: "EVEN THE ROCK HAS RHYTHM."}
@@ -333,11 +346,11 @@ panels:
     art: >
       taeo, outdoor at ryu_practice_yard, listens, mouth closing on the unnecessary second command. His shoulders drop;
       eyes steady on orrin beyond frame. RIGHT-eye mole, tired lids, no triumphant grin. A4 ochre/brown sunlight, simple
-      sky-blue background. No clock floating beside his head or fresh injury.
+      sky-blue background. Taeo's face occupies the right third. No clock floating beside his head or fresh injury.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: r, text: "ONE CUE. YOU PUSH ON MY HAND."}
-      - {who: taeo, type: float, text: "I WAS USING WORDS TO KEEP HOLD OF IT."}
+      - {who: taeo, type: speech, side: r, text: "ONE CUE. PUSH WHEN I LOWER MY LEFT HAND."}
+      - {who: taeo, type: float, text: "I KEPT TALKING BECAUSE I WAS AFRAID TO TRUST THEM."}
   - id: P26
     shape: strip
     gap: short
@@ -350,21 +363,37 @@ panels:
       Sunlit ochre, brown shadows, slate shell. Five fingers on the hand, no speech, pet expression or new prop.
     calm: none
   - id: P27
-    shape: wide
+    shape: tall
     gap: long
     bg: white
     camera: "two-shot at the trestle, Sejin examining Taeo before the next low-load test"
     art: >
       sejin, sage scrubs/olive rig, finishes checking taeo's small forearm sore spot at ryu_practice_yard. taeo, outdoor,
       waits for her answer with both hands open. haein, glasses lowered, reconnects the unchanged reservoir beside them.
+      Sejin stands left, Taeo sits right, Haein stands centre behind the trestle.
       Late-afternoon sunlight, ochre/brown, sky blue; no new medical dressing, active phone or magic healing.
     calm: top
     lines:
       - {who: sejin, type: speech, side: l, text: "ONE LOWER-LOAD TRY. THEN REST."}
-      - {who: taeo, type: speech, side: r, text: "NIB? ORRIN?"}
-      - {who: nib, type: speech, side: l, text: "YES. SAME LINE."}
+      - {who: taeo, type: speech, side: r, text: "NIB, ORRIN. ONE SMALLER HIT, SAME FORWARD ROUTE?"}
+  - id: P27a
+    shape: tall
+    gap: short
+    bg: white
+    camera: "medium two-shot from the stopped rig toward Nib and Orrin before contact"
+    art: >
+      At ryu_practice_yard west drill lane, nib default stands left with his LEFT shield pad still lowered;
+      orrin default waits right behind the unmoving sled. Both adult faces are visible as they answer Taeo
+      off-panel at the chair. Nib is steady, Orrin patient and ready. Keep Nib's exact chosen boots, scout
+      kit and Orrin's established shell seam. Foam arm remains latched clear of Nib. Late-afternoon sun,
+      dusty ochre and brown with sky blue beyond. No impact, active glow, harness or writing.
+    calm: top
+    lines:
+      - {who: nib, type: speech, side: l, text: "YES. SAME ROUTE."}
+      - {who: orrin, type: speech, side: r, text: "YES. READY TO PUSH."}
+    notes: "Both renewed answers occur before the second controlled strike. Moved from P27 and P28."
   - id: P28
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low action profile of Nib receiving the second controlled padded strike"
@@ -373,8 +402,6 @@ panels:
       swing than before. His breathing is measured, eyes trained and certain. Brown rope belt, RIGHT sticker pouch,
       LEFT wooden sheath, binoculars secured high. Sunlight ochre/brown, simple motion strokes. No bruise close-up, head strike or sharp blade.
     calm: top
-    lines:
-      - {who: orrin, type: speech, side: r, text: "YES. SET."}
     sfx:
       - {text: "THUP", style: impact, at: [0.41, 0.48], size: M, rot: -4}
   - id: P29
@@ -388,9 +415,9 @@ panels:
       sunlight, ochre wood and brown shadow. Charge is invisible inside the unchanged housing; no numbers or magic beam.
     calm: none
     lines:
-      - {who: taeo, type: speech, side: r, text: "BANK."}
+      - {who: "offpanel:taeo", type: speech, side: r, text: "FORCE STORED."}
   - id: P30
-    shape: wide
+    shape: tall
     gap: none
     bg: white
     camera: "ground-level along Orrin's feet toward the sled"
@@ -440,18 +467,19 @@ panels:
       - {text: "TWANG", style: quiet, at: [0.33, 0.43], size: M, rot: -11}
     notes: "Sera times a conventional shot to the reservoir-assisted shutter opening. Save the arrow riding the released force for ch 58."
   - id: P34
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "front reaction on Taeo and Haein as the arrow lands"
     art: >
       BIG REACTION at ryu_practice_yard: taeo, outdoor, half stands, eyes huge and a real surprised laugh breaking;
       haein in overalls opens her mouth on an involuntary delighted shout before catching herself. Reservoir intact
-      on table, old-patch pack on chair. Warm sun, ochre/brown, simplified focus strokes. No giant new magic effect, screen or words.
+      on table, old-patch pack on chair. Frame both waist-up, Haein left and Taeo right.
+      Warm sun, ochre/brown, simplified focus strokes. No giant new magic effect, screen or words.
     calm: top
     lines:
-      - {who: haein, type: shout, side: l, text: "THERE!"}
-      - {who: taeo, type: speech, side: r, text: "WE DID IT."}
+      - {who: haein, type: shout, side: l, text: "THE STORED FORCE OPENED THE SHUTTER!"}
+      - {who: taeo, type: speech, side: r, text: "WE GOT THE TIMING RIGHT."}
   - id: P35
     shape: inset-l
     gap: short
@@ -460,38 +488,41 @@ panels:
     art: >
       sera, river-green default, at ryu_practice_yard north target, studies her blunt arrow one ring off centre with
       theatrical displeasure. Bow lowered LEFT, bracer LEFT, bone flute RIGHT hip; ordinary human ears. Afternoon sun,
-      ochre/brown, target rings without numerals. No magical arrow, chibi deformation or text.
+      ochre/brown, target rings without numerals. Sera's face is left; Taeo remains off-panel right.
+      No magical arrow, chibi deformation or text.
     calm: right
     lines:
-      - {who: sera, type: speech, side: l, text: "I WAS EARLY."}
-      - {who: taeo, type: speech, side: r, text: "YOU HIT IT."}
+      - {who: sera, type: speech, side: l, text: "I LOOSED TOO EARLY."}
+      - {who: "offpanel:taeo", type: speech, side: r, text: "YOU STILL HIT THE TARGET."}
       - {who: sera, type: speech, side: l, text: "I HAVE STANDARDS."}
   - id: P36
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "medium across Sejin's outstretched hand blocking the reservoir contact"
     art: >
       sejin, sage scrubs and olive rig, covers the inactive contact with her own empty palm at ryu_practice_yard, calmly
       ending the session. taeo, outdoor, looks at her, smile still there but sitting back obediently. nib lowers his
-      pad behind, boots planted. Warm late sun, ochre/brown. No grabbing injury, active charge or comic distortion.
+      pad behind, boots below crop. Frame waist-up, Sejin left, Taeo right and Nib centre behind them.
+      Warm late sun, ochre/brown. No grabbing injury, active charge or comic distortion.
     calm: top
     lines:
-      - {who: sejin, type: speech, side: l, text: "GOOD. STOP WHILE THAT'S TRUE."}
+      - {who: sejin, type: speech, side: l, text: "GOOD TEST. STOP BEFORE YOU HURT YOUR ARM AGAIN."}
       - {who: taeo, type: speech, side: r, text: "YES."}
   - id: P37
-    shape: inset-r
+    shape: wide
     gap: long
     bg: white
-    camera: "close low two-shot, Nib unfastening his pad beside Taeo's chair"
+    camera: "waist-up two-shot, Nib unfastening his pad beside Taeo's chair"
     art: >
       nib, adult default with boots and binoculars, unfastens his LEFT drill pad at ryu_practice_yard beside seated taeo,
       outdoor. Nib glances from taeo's rolled cuff to his face, brows flat but attentive. Taeo's happy expression quiets.
-      Sun lower now, ochre/brown with long blue-grey shadow. No hidden bleeding or speech in art.
+      Nib stands left, Taeo sits right, both framed waist-up. Sun lower now, ochre/brown with long blue-grey
+      shadow. No hidden bleeding or speech in art.
     calm: left
     lines:
-      - {who: nib, type: speech, side: l, text: "YOU CAN LIKE IT AND STILL STOP."}
-      - {who: taeo, type: speech, side: r, text: "...I KNOW. I'M LEARNING THAT BIT TOO."}
+      - {who: nib, type: speech, side: l, text: "YOU CAN ENJOY A GOOD TEST AND STILL STOP."}
+      - {who: taeo, type: speech, side: r, text: "I KNOW. I'M STILL LEARNING WHEN TO STOP."}
   - id: P38
     shape: strip
     gap: short
@@ -511,13 +542,15 @@ panels:
     art: >
       nib, default/boots, offers a plain water cup to taeo, outdoor, at ryu_practice_yard. His hand is gentle, face
       expressionless. Taeo reaches with the uninjured side, a tired smile, no embarrassment for an audience. orrin
-      rests behind at full scale. Low sun, ochre/brown, blue-grey shadow. No pet posture, active screen or lettering.
+      rests behind at full scale. Frame waist-up, Nib standing left and Taeo seated right,
+      Orrin's head centre behind.
+      Low sun, ochre/brown, blue-grey shadow. No pet posture, active screen or lettering.
     calm: top
     lines:
       - {who: nib, type: speech, side: l, text: "YOU FIRST."}
-      - {who: taeo, type: speech, side: r, text: "THAT ONE I'VE PRACTISED."}
+      - {who: taeo, type: speech, side: r, text: "DRINKING WATER. FINALLY, A DRILL I KNOW."}
   - id: P40
-    shape: vignette
+    shape: tall
     gap: fade-white
     bg: white
     silent: true
@@ -529,18 +562,19 @@ panels:
       changed maze, added gate or text.
     calm: none
   - id: P41
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "medium at the rig as Minho inspects its hinge without changing the power"
     art: >
       minho, default dark survey clothes, grey streak LEFT temple, radio LEFT chest and watch LEFT wrist, at
       ryu_practice_yard checks the drill shutter's hinge with an ordinary hand. taeo, outdoor, listens; haein, overalls,
-      watches with crossed arms. Morning A4 ochre/brown, sky blue. Mechanism plain, no secret device modification or letters.
+      watches with crossed arms. Minho stands left, Taeo right, Haein centre.
+      Morning A4 ochre/brown, sky blue. Mechanism plain, no secret device modification or letters.
     calm: top
     lines:
-      - {who: minho, type: speech, side: l, text: "THE ADAPTIVE COURSE WON'T LEAVE THE SHUTTER HERE."}
-      - {who: taeo, type: speech, side: r, text: "MOVE THE PRACTICE ONE. WE'LL DECLARE THE LINE AGAIN."}
+      - {who: minho, type: speech, side: l, text: "THE ADAPTIVE COURSE MOVES ITS OBSTACLES. YOU WON'T GET THIS SAME PUSH EVERY TIME."}
+      - {who: taeo, type: speech, side: r, text: "MOVE OUR PRACTICE SHUTTER. WE'LL PLAN A NEW FORCE ROUTE."}
   - id: P42
     shape: strip
     gap: short
@@ -554,18 +588,19 @@ panels:
     lines:
       - {who: taeo, type: float, text: "THERE WAS NO SHORTCUT THROUGH THE BORING PART."}
   - id: P43
-    shape: wide
+    shape: tall
     gap: long
     bg: white
     camera: "low on the new sled line, another attempted shutter opening falls short"
     art: >
       ryu_practice_yard drill at the new portable angle: orrin pushes the sled but stops a little short of opening the
       shutter; nib, boots, has already stepped clear of the locked foam arm. taeo, outdoor, raises a stop hand. sera
-      keeps her arrow nocked but bow lowered safely. Sunlit ochre/brown, no hit on a person, exploding gear or letters.
+      keeps her arrow nocked but bow lowered safely. Taeo stands right; Minho is off-panel to the left.
+      Sunlit ochre/brown, no hit on a person, exploding gear or letters.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "TOO LATE. RESET AFTER THE CHECK."}
-      - {who: minho, type: speech, side: l, text: "BETTER CALL."}
+      - {who: taeo, type: speech, side: r, text: "MY RELEASE WAS TOO LATE. CHECK EVERYONE BEFORE WE RESET."}
+      - {who: "offpanel:minho", type: speech, side: l, text: "GOOD. YOU CALLED THE STOP SOONER."}
   - id: P44
     shape: full
     gap: long
@@ -589,43 +624,47 @@ panels:
     art: >
       sera, default river-green, at ryu_practice_yard holds her bow lowered LEFT and turns her good side toward haein's
       offscreen practice recording. Delighted self-satisfaction, arched brow; RIGHT bone flute and ordinary ears. Sunlit
-      ochre/brown, target rings behind. No selfie screen yet, glamour bloom or fan crowd.
+      ochre/brown, target rings behind. Sera's face occupies the left third, Haein is off-panel to the right.
+      No selfie screen yet, glamour bloom or fan crowd.
     calm: right
     lines:
-      - {who: sera, type: speech, side: l, text: "DID YOU GET THAT?"}
-      - {who: haein, type: speech, side: r, text: "THE METER. I FILMED THE METER."}
+      - {who: sera, type: speech, side: l, text: "DID YOU FILM MY SHOT?"}
+      - {who: "offpanel:haein", type: speech, side: r, text: "THE METER. I FILMED THE METER."}
   - id: P46
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "three-quarter at the trestle as Nib steps out of a casual recording frame"
     art: >
       haein, overalls, lowers an ordinary dark-screen recording phone at ryu_practice_yard. sera, river-green, leans in
       to request another take; nib, default/boots, quietly steps behind the fixed maze wall, out of the lens line,
-      face flat. taeo, outdoor, notices the movement. Afternoon ochre/brown and sky blue. No readable screen or staged privacy fight yet.
+      face flat. taeo, outdoor, notices the movement. Sera stands left, Nib right, Haein and Taeo centre.
+      Afternoon ochre/brown and sky blue. No readable screen or staged privacy fight yet.
     calm: top
     lines:
       - {who: sera, type: speech, side: l, text: "ONE MORE. FOR MY ANGLE."}
       - {who: nib, type: speech, side: r, text: "WITHOUT ME."}
     notes: "Character continuity into ch 55: Sera enjoys being seen; Nib chooses not to be in incidental footage. Their actual fight remains ch 55."
   - id: P47
-    shape: strip
+    shape: tall
     gap: long
     bg: white
-    camera: "extreme close-up of Haein packing the intact reservoir next to its external readout"
+    camera: "medium two-shot at the trestle, Haein packing the reservoir as Taeo watches"
     art: >
-      haein's five-fingered hands pack the unchanged reservoir at ryu_practice_yard trestle, test leads coiled separately.
+      haein in slate overalls stands left, taeo outdoor right, both adult faces visible over the
+      ryu_practice_yard trestle. Her five-fingered hands pack the unchanged reservoir, test leads coiled separately.
+      She is stern about the limit; he gives a tired, dry smile.
       Blank readout plate lies beside the cloth. No casing crack or repair that removes the leak. Evening cream work
       lamp from left, ochre wood with deep blue-grey yard outside pool. No smoke, drips, electrical lightning or lettering in art.
     calm: none
     ui:
       - {kind: label, text: "HOLD LIMIT · 0.8 s", at: [0.52, 0.63], size: 31}
     lines:
-      - {who: haein, type: speech, side: l, text: "STILL LEAKS. DON'T FALL IN LOVE WITH IT."}
+      - {who: haein, type: speech, side: l, text: "THE RESERVOIR STILL LEAKS. DON'T FALL IN LOVE WITH IT."}
       - {who: taeo, type: speech, side: r, text: "I'LL TRY TO REMAIN PROFESSIONAL."}
     notes: "Reaffirms P14 limit without adding an out-of-range plant due in this chapter; ch 60 still breaks the device at saturation."
   - id: P48
-    shape: wide
+    shape: tall
     gap: long
     bg: white
     camera: "venue public barrier, bracket board being uncovered from the attendant's side"
@@ -635,7 +674,8 @@ panels:
       device; she now pins the blank bracket sheet on the PUBLIC noticeboard. haein in slate overalls holds the case.
       taeo, outdoor with old-patch pack, and
       nib, boots/binoculars, wait beyond the barrier; sera peers around taeo's shoulder, eager. No backstage trespass,
-      crowd crush or generated words; leave the bracket's central row clear.
+      crowd crush or generated words; leave the bracket's central row clear. Sera stands left,
+      Taeo centre, Nib centre-right, Haein and the official right by the case.
     calm: top
     lines:
       - {who: narr, type: tag, text: "EXHIBITION · ADAPTIVE OBSTACLE BRACKET"}
@@ -651,10 +691,11 @@ panels:
     art: >
       taeo, outdoor, at exhibition_service_corridor noticeboard, a hopeful eyebrow slowly lowering as he reads. RIGHT-eye
       mole, tired mouth pulling sideways into a dry grimace. One edge of nib's notched LEFT ear below, adult scale.
-      Blue-white practical source, slate shadow. No readable bracket reflected in pupils, blood or glowing aura.
+      Taeo's face occupies the right third. Blue-white practical source, slate shadow.
+      No readable bracket reflected in pupils, blood or glowing aura.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: r, text: "SORRY. APPARENTLY WE USED OUR EASY ONE ON THE SHUTTER."}
+      - {who: taeo, type: speech, side: r, text: "SORRY. EVEN THE PRACTICE SHUTTER WASN'T EASY."}
   - id: P50
     shape: tall
     gap: long

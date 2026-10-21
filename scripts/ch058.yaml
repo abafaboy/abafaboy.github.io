@@ -62,7 +62,7 @@ panels:
     calm: none
     notes: "Continues ch 57's TAKE THE HIT; the instruction is not repeated and no reaction delay is inserted."
   - id: P02
-    shape: wide
+    shape: tall
     camera: "ground-level profile as padded ram meets Nib's pad"
     art: >
       nib in locked wrap and chosen boots receives the ram on a broad grey practice pad across
@@ -80,7 +80,7 @@ panels:
       mat, old forearm bruises. No text, full-device cyan glow, extra finger or unlimited energy orb.
     calm: right
     lines:
-      - {who: taeo, type: float, text: "PLEASE LET THE PRACTICE COUNT."}
+      - {who: taeo, type: float, text: "PLEASE LET ALL THAT PRACTICE BE ENOUGH."}
   - id: P04
     kind: title
     gap: long
@@ -98,7 +98,7 @@ panels:
       - {kind: label, text: "0.00 s · BANK", at: [0.50, 0.16]}
     notes: "Editorial timing label, not a new device UI. Bounded fraction banked; Nib still absorbs ordinary padded remainder."
   - id: P06
-    shape: wide
+    shape: tall
     camera: "low three-quarter of Nib finishing the received impact"
     art: >
       nib, adult and booted, yields a short controlled distance on bent knees as ram pressure leaves
@@ -153,7 +153,7 @@ panels:
       white light, slate barrier. No collapse, broken arm or stadium audience seeing his private link.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "I KNOW THIS PART."}
+      - {who: taeo, type: float, text: "THE RECOIL STILL SCARED ME."}
   - id: P12
     shape: strip
     silent: true
@@ -166,7 +166,7 @@ panels:
     ui:
       - {kind: label, text: "0.31 s · RELEASE", at: [0.50, 0.14]}
   - id: P13
-    shape: wide
+    shape: tall
     camera: "side profile along Orrin's body into pressure shoe"
     art: >
       orrin, adult 230 cm slate carrier, extends his already braced legs into the pressure shoe;
@@ -216,7 +216,7 @@ panels:
       white roof lamps, slate target surround. Arrow blunt, no words on target or supernatural projectile trail.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "THE REST IS HERS."}
+      - {who: taeo, type: float, text: "NOW I HAD TO TRUST SERA."}
     notes: "Shot belongs to Sera. The reservoir boosts Orrin and the physical carriage, not remote control of her hands."
   - id: P18
     shape: strip
@@ -251,7 +251,7 @@ panels:
     sfx:
       - {text: "TAK", style: impact, at: [0.50, 0.52], size: L, rot: -4}
   - id: P21
-    shape: wide
+    shape: tall
     camera: "across Iron Vow's final station at the same instant"
     art: >
       do_gangjin, young cropped black hair, angular clean-shaven face, dark-steel/red plate and LEFT two-link
@@ -259,7 +259,7 @@ panels:
       coordinated and too late by a fraction. exhibition_arena white roof light, slate shadows. No equipment failure or cheap pratfall.
     calm: top
   - id: P22
-    shape: full
+    shape: tall
     camera: "from official's stop switch toward both target towers"
     art: >
       exhibition_arena official in grey stops the timed heat. Crew's three final flags are up; Iron
@@ -285,16 +285,18 @@ panels:
       haein in slate overalls and beige tee leans over the intact reservoir in exhibition_arena box,
       eyes enormous behind safety glasses now pushed up again, mouth half open. White roof light,
       slate background. No celebration glitter or unreadable display; she has just seen it work under pressure.
+      Haein's face is on the left, framed with her shoulders and the intact casing below.
     calm: left
     lines:
-      - {who: haein, type: whisper, side: l, text: "IT HELD."}
+      - {who: haein, type: whisper, side: l, text: "THE CASING HELD."}
   - id: P25
-    shape: wide
+    shape: full
     camera: "Gangjin's shoulder toward official inspecting final flags"
     art: >
       do_gangjin in steel/red looks toward the official as she checks crew's three flags against his
       two incomplete checks. His brows tighten; he understands before she speaks. exhibition_arena white roof
       lamps, slate metal. No tantrum, tampered flag, new armour damage or readable art.
+      Frame the official clearly at centre and Gangjin on the right, both from the waist up.
     calm: top
     lines:
       - {who: official, type: phone, side: c, text: "ALL THREE CHECKS BEFORE THE HORN. THREE POINTS TO YOON'S CREW."}
@@ -317,6 +319,7 @@ panels:
       mouths open, arms raised. Foreground Sera throws her free RIGHT fist up, Nib exhales with pad
       lowered, Orrin tilts his heavy face upward. White roof lamps, slate floor. No confetti, fantasy beams,
       identical fan clones or pet poses. The tall frame breaks at its top edge.
+      The cheering spectator faces are centred in the stands above the crew, their mouths visibly open.
     calm: top
     lines:
       - {who: crowd, type: shout, side: c, text: "AAAAAAH!"}
@@ -328,6 +331,7 @@ panels:
       taeo in navy jacket at exhibition_arena desk finally exhales, one small fresh red line beneath
       his nose. His smile arrives before he notices it. White roof key, slate backdrop, RIGHT-eye mole.
       Blood is the only saturated danger accent. No collapse, broken teeth or large hemorrhage.
+      Taeo's lower face occupies the left third; keep the crop on his nose, mouth and fist.
     calm: right
     lines:
       - {who: taeo, type: nervous, side: l, text: "OH."}
@@ -338,34 +342,37 @@ panels:
       taeo in navy opens his sore RIGHT forearm toward sejin in sage/olive, pointing to the tender
       region with LEFT fingertips. She already has gauze for his small nosebleed. exhibition_arena white
       lamps, slate desk, intact reservoir kept clear. No hidden damage, miraculous healing or premature heavy bandages.
+      Frame Sejin left and seated Taeo right from the waist up, his offered forearm between them.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "HERE. NEW PAIN. AND MY NOSE."}
+      - {who: taeo, type: speech, side: r, text: "MY RIGHT FOREARM HURTS. MY NOSE IS BLEEDING."}
       - {who: sejin, type: speech, side: l, text: "GOOD REPORT. SIT STILL."}
     notes: "Honours ch 44 TELL US. EVERY TIME; small recoil, not the ch 60 collapse."
   - id: P30
-    shape: inset-l
+    shape: full
     style: chibi
     camera: "chibi Haein hugging the closed reservoir case"
     art: >
       Flat pale-blue exhibition_arena gag background with white roof-light cue. Chibi haein in slate
       overalls hugs the safely closed reservoir case, huge proud grin; chibi minho in brown jacket points
       at himself with a wounded pout. No injured Taeo in this joke, device misuse or readable words.
+      Chibi Minho stands left and chibi Haein right, with room for their complete figures.
     calm: right
     lines:
       - {who: minho, type: speech, side: l, text: "I'M ALSO YOUR FAMILY."}
       - {who: haein, type: speech, side: r, text: "YOU DIDN'T HOLD A CHARGE."}
   - id: P31
-    shape: wide
+    shape: tall
     camera: "finish rail at Nib's eye level as crew regroups"
     art: >
       nib in locked scout gear and chosen boots hands the borrowed grey receiving pad back to official
       at exhibition_arena's finish. Adult face tired, satisfied. Sera still beams beside him; Orrin approaches,
       shell seam unchanged. White roof key, slate pads. No fresh limb injury, prop left behind or photographer grabbing Nib.
+      Nib stands left and the official right, their faces clear above the pad; Sera and Orrin wait behind.
     calm: top
     lines:
-      - {who: official, type: speech, side: r, text: "ARM ALL RIGHT?"}
-      - {who: nib, type: speech, side: l, text: "PAD WORKED."}
+      - {who: official, type: speech, side: r, text: "YOUR ARM ALL RIGHT?"}
+      - {who: nib, type: speech, side: l, text: "THE PAD DID ITS JOB."}
   - id: P32
     shape: inset-r
     camera: "Sera from below, one celebratory hand toward the stands"
@@ -373,16 +380,18 @@ panels:
       sera in river-green, LEFT bow lowered safely, RIGHT hand to her ear invites exhibition_stands'
       applause with a delighted adult grin. Braid, RIGHT quiver and flute fixed. White roof light,
       navy seats and slate shadows. No undercut to her skill, shining magical arrow or camera shoved into Nib's space.
+      Sera's face and raised hand occupy the right, cropped at her chest.
     calm: left
     lines:
-      - {who: sera, type: speech, side: r, text: "YES. THAT LOUD."}
+      - {who: sera, type: speech, side: r, text: "YES. KEEP THE APPLAUSE THAT LOUD."}
   - id: P33
-    shape: wide
+    shape: tall
     camera: "low over Orrin's shell toward Sera and Nib"
     art: >
       orrin in exhibition_arena finish lane looks sideways up at sera with slow adult amusement; nib
       in boots holds his binoculars away from the rail to avoid a bump. White roof key, slate shell,
       grey floor. No petting, saddle, trophy on shell or repaired seam disappearing.
+      Orrin's face is centre, Sera stands right and Nib left; show Orrin's complete resting length.
     calm: top
     lines:
       - {who: orrin, type: speech, side: c, text: "IS THERE A VOLUME THAT COUNTS AS ENOUGH?"}
@@ -403,45 +412,48 @@ panels:
       baek, 55, tall silver-templed man in navy command coat over charcoal suit, pale shirt and navy
       tie, silver LEFT-lapel pin, watches taeo receive first aid. Thoughtful calm face. exhibition_arena
       VIP enclosure, overhead white key and slate shadows. Closed dark folio beside him, no written contract or predatory smile.
+      Frame Baek on the right from the waist up, his gaze directed toward the operator box.
     calm: top
     lines:
-      - {who: baek, type: speech, side: r, text: "AND THERE'S THE COST."}
+      - {who: baek, type: speech, side: r, text: "THAT RECOIL IS THE COST."}
     notes: "Interest continues without an offer or invented scheme."
   - id: P36
-    shape: full
+    shape: tall
     camera: "operator-box entrance from inside as crew returns through wide access"
     art: >
       exhibition_arena operator-box service entrance stays wide open for adult orrin. nib in boots
       steps in first, sera immediately behind; taeo in navy sits with gauze under nose, smiling at
       them. Haein holds closed device case, Sejin close. White lamps, slate walls. No threshold glow, narrow impossible Orrin doorway or cameras inside.
+      Nib enters on the left, Taeo sits right, Orrin fills the broad centre access and Sera follows beside him.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "ALL HERE?"}
+      - {who: taeo, type: speech, side: r, text: "DID EVERYONE MAKE IT BACK?"}
       - {who: nib, type: speech, side: l, text: "COUNT US."}
   - id: P37
     shape: strip
-    camera: "Taeo's eyes at seated eye level with Nib"
+    camera: "detail of Taeo's eyes as he counts from his seat"
     art: >
-      taeo in navy jacket looks at nib at equal seated eye height, gauze held beneath nose with
-      LEFT hand, RIGHT arm resting. His eyes crease into a real relieved smile. exhibition_arena box
+      taeo in navy jacket looks toward Nib at equal seated eye height. Crop to Taeo's eyes and
+      RIGHT-eye mole on the left of frame; his eyes crease into a real relieved smile. exhibition_arena box
       white light, slate background. No tears shower, new bandage or readable phone.
     calm: right
     lines:
       - {who: taeo, type: speech, side: l, text: "THREE."}
   - id: P38
-    shape: wide
+    shape: full
     camera: "over Nib's shoulder toward Taeo and the support crew"
     art: >
       nib, adult locked scout with LEFT ear notch, raises one finger toward seated taeo, then
       indicates haein, sejin and minho behind him. Taeo's relieved face softens further. exhibition_arena
       white roof key, slate box. Orrin and Sera visible at frame edges; no text, ownership pose or extra character.
+      Nib stands on the left, seated Taeo on the right; keep the support crew's separate faces visible behind Taeo.
     calm: top
     lines:
       - {who: nib, type: speech, side: l, text: "BAD COUNT."}
       - {who: taeo, type: speech, side: r, text: "RIGHT. SORRY."}
     notes: "Seven present: Taeo, Nib, Orrin, Sera, Haein, Sejin, Minho. Not yet the official photo."
   - id: P39
-    shape: vignette
+    shape: tall
     gap: long
     silent: true
     camera: "high angle on seven people and chairs around the operator desk"
@@ -457,40 +469,44 @@ panels:
       minho in brown work jacket, premature grey LEFT temple, radio LEFT chest, tries a restrained
       congratulatory smile and fails into a broad one. exhibition_arena box overhead white light, plain
       slate wall. No new debt figure, official cash cheque, sponsored cap or exaggerated ageing.
+      Minho's face fills the right side; Taeo answers from outside the left edge below him.
     calm: left
     lines:
       - {who: minho, type: speech, side: r, text: "YOU WON A FINAL."}
-      - {who: taeo, type: speech, side: l, text: "I KEEP CHECKING."}
+      - {who: "offpanel:taeo", type: speech, side: l, text: "I KEEP CHECKING THE SCORE."}
   - id: P41
-    shape: wide
+    shape: full
     camera: "low along table as Haein checks reservoir beside Sera's arrow"
     art: >
       haein in slate overalls examines the intact reservoir casing on exhibition_arena desk without
       dismantling it. sera in river-green lays the recovered blunt winning arrow beside it, eyes bright.
       White roof key, slate equipment, grey mat. No saturation damage, new warning screen or electronics replaced.
+      Frame Haein left and Sera right from the waist up above the desk, device and arrow visible between them.
     calm: top
     lines:
-      - {who: haein, type: speech, side: l, text: "EMPTY. SAME LEAK. NO CRACK."}
+      - {who: haein, type: speech, side: l, text: "EMPTY. SAME LEAK. THE CASING'S INTACT."}
       - {who: sera, type: speech, side: r, text: "KEEP THE ARROW."}
-      - {who: haein, type: speech, side: l, text: "YOU KEEP IT. I MADE THE BOX."}
+      - {who: haein, type: speech, side: l, text: "YOU KEEP THE ARROW. I MADE THE RESERVOIR."}
   - id: P42
-    shape: inset-l
+    shape: full
     style: chibi
     camera: "chibi Sera guarding her blunt arrow"
     art: >
       Flat pale-blue exhibition_arena gag background, white light. Chibi sera in exact river-green outfit
       hugs the blunt arrow horizontally while chibi haein hugs reservoir case, each wearing identical
       proud line-eyed expressions. Sera LEFT bow and RIGHT flute remain correct. No injury gag, cash or drawn words.
+      Chibi Sera stands left and chibi Haein right, both complete figures with their treasured objects.
     calm: right
     lines:
-      - {who: sera, type: speech, side: l, text: "GOOD. I WASN'T REALLY GIVING IT."}
+      - {who: sera, type: speech, side: l, text: "GOOD. I WASN'T REALLY GIVING THE ARROW AWAY."}
   - id: P43
-    shape: wide
+    shape: full
     camera: "operator doorway level with official outside"
     art: >
       official in grey polo stops at exhibition_arena operator entrance with blank ceremony cards.
       Taeo in navy looks up while Sejin checks his now-stopped nosebleed. Orrin leaves ample access space.
       White overhead key, slate walls. No press invasion, new medal, readable card or active camera screen.
+      Frame the official left, Taeo right and Sejin beside him from the waist up; Orrin remains outside the crop.
     calm: top
     lines:
       - {who: official, type: speech, side: l, text: "AWARDS AFTER THE RESET. STAY NEARBY."}
@@ -512,9 +528,10 @@ panels:
       sera in river-green holds her own phone facing away from us at exhibition_arena box, grinning
       toward taeo. Nib deliberately steps outside its framing at left, calm and unsurprised. White overhead
       light, slate background. No green screen, coerced selfie, readable phone face or official group photo.
+      Frame Taeo on the left and Sera on the right from the waist up; only Nib's cropped shoulder exits left.
     calm: top
     lines:
-      - {who: sera, type: speech, side: r, text: "ONE FOR ME? NIB'S NOT IN IT."}
+      - {who: sera, type: speech, side: r, text: "A PHOTO WITH YOU, TAEO? NIB'S OUT OF FRAME."}
       - {who: taeo, type: speech, side: l, text: "ONE SECOND."}
   - id: P46
     shape: narrow-r
@@ -544,7 +561,7 @@ panels:
       kitchen table. Warm hand and face against cool memory tones. Leave card blank. No new promise dialogue, catastrophe or calendar date.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "I HAD PROMISED HIM FIRST."}
+      - {who: taeo, type: float, text: "I HAD PROMISED HARU FIRST."}
     notes: "Brief memory of the promise, not a new event or call. Haru's actual hurt and presentation are ch 59."
   - id: P49
     shape: wide
@@ -553,6 +570,7 @@ panels:
       sera in river-green lowers her selfie phone, watching taeo in navy go very still over his own
       phone at exhibition_arena desk. Nib turns from outside frame into concern. White roof key, slate
       background, seven-person gathering unchanged. No new call connected, green screen or interrupted award speech.
+      Frame Taeo left and Sera right from the waist up; Nib's face enters at the far left edge.
     calm: top
     lines:
       - {who: sera, type: speech, side: r, text: "TAEO?"}
@@ -563,9 +581,10 @@ panels:
       taeo's LEFT thumb stops above the edge of his dark-grey phone, hairline crack at top-left of
       glass visible from side, green dinosaur sticker on back. exhibition_arena white roof key, slate desk.
       His RIGHT forearm rests beside it, sore. No visible display or words in art.
+      Only hands and phone are shown. Taeo's voice enters from outside the left edge above his phone.
     calm: right
     lines:
-      - {who: taeo, type: whisper, side: l, text: "TODAY."}
+      - {who: "offpanel:taeo", type: whisper, side: l, text: "HARU'S PRESENTATION IS TODAY."}
   - id: P51
     shape: tall
     gap: long

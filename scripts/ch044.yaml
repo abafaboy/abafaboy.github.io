@@ -22,7 +22,7 @@ props:
 palette_notes: "A4 yard ochre/warm brown/sky blue. Container interior morning: cool grey-blue daylight from open door, plain cream walls, brown table, no dramatic glow. Family video Haeseong amber/brown kitchen light. Injuries muted violet/yellow-grey, skin intact. No actual transfer or new interface in this chapter."
 panels:
   - id: P01
-    shape: wide
+    shape: tall
     gap: none
     bg: white
     camera: "reverse of ch 43 hook from yard toward Grandpa at container door"
@@ -31,6 +31,7 @@ panels:
       one hand on the plain jamb. taeo faces him from the sunlit step, black hoodie sleeves still down, caught between obedience and reassurance.
       nib stands aside in exact brown ankle boots and adult default gear, leaving room.
       Southeast morning sun, ochre outside and cool grey inside. No new injury, envelope, nameplate or chibi.
+      Grandpa stands on the left in the doorway, Taeo on the right at the step, and Nib in the middle set back beside them.
     calm: top
     lines:
       - {who: taeo, type: speech, side: r, text: "ALL RIGHT."}
@@ -68,9 +69,10 @@ panels:
       grey pocket collar and blue-grey shirt. His lips press together as he counts marks he has never been told to count.
       BIG REACTION restrained to a tightening jaw and wide wet eyes, no spill of tears yet.
       Morning side light, cool grey and muted warm skin. No scolding caricature, flashback figure or generated text.
+      Grandpa's face occupies the left third of the close-up.
     calm: left
     lines:
-      - {who: grandpa, type: speech, side: l, text: "HOW LONG?"}
+      - {who: "grandpa", type: "speech", side: "l", text: "HOW LONG HAVE YOU BEEN GETTING HURT?"}
   - id: P05
     kind: title
     gap: long
@@ -86,11 +88,12 @@ panels:
       Taeo keeps sleeves rolled, hands resting palms up rather than hidden under table. Grandpa has removed cap and put it beside his cup.
       Family photograph on shelf, old-patch olive bag beneath. Cool morning door light, cream wall and warm brown wood.
       No private hospital equipment, changed keyed office interior, envelope reveal or readable photo date.
+      Seated waist-up two-shot: Grandpa on the left, Taeo on the right, both faces and exposed forearms visible.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "SINCE I LEARNED TO TAKE SOME OF THE FORCE."}
-      - {who: taeo, type: nervous, side: r, text: "IT LOOKS WORSE THAN—"}
-      - {who: grandpa, type: speech, side: l, text: "YOUR FATHER SAID 'IT'S FINE' TOO."}
+      - {who: "taeo", type: "speech", side: "r", text: "SINCE I LEARNED TO SHARE NIB AND ORRIN'S IMPACTS."}
+      - {who: "taeo", type: "nervous", side: "r", text: "I THOUGHT THE BRUISES WEREN'T SERIOUS."}
+      - {who: "grandpa", type: "speech", side: "l", text: "YOUR FATHER SAID 'IT'S FINE' TOO."}
   - id: P07
     shape: strip
     gap: short
@@ -113,6 +116,7 @@ panels:
       His expression becomes urgent, almost fourteen again without changing his adult proportions: he needs one reassurance to be true.
       Morning door light from left, blue-grey shadow beneath tired eyes; family photo a simple frame behind him.
       No flashback overlay, cute face, text, new injury or imagined gate opening.
+      Taeo alone occupies the right third, framed head and shoulders.
     calm: right
     lines:
       - {who: taeo, type: speech, side: r, text: "I DON'T GO IN, GRANDPA."}
@@ -126,11 +130,12 @@ panels:
       Cap off, white hair flat where it sat, grey jacket and blue-grey shirt unbuttoned at throat.
       His own hands remain still beside the cup, no pointing finger to soften this into a scolding.
       Cool morning daylight and brown table shadow, plain cream wall. No accusatory aura, generated writing or new character.
+      Frame Grandpa from the waist up on the left; only Taeo's forearms enter from the right.
     calm: top
     lines:
       - {who: grandpa, type: speech, side: l, text: "NO. YOU LET IT HIT YOU FROM OUT HERE."}
   - id: P10
-    shape: vignette
+    shape: full
     gap: long
     bg: white
     silent: true
@@ -140,6 +145,7 @@ panels:
       Taeo's shoulders sink; Grandpa finally allows his own stoop. Nib's exact brown boots just visible outside beside jamb,
       toes pointed away to give them privacy, no eavesdropping face. Cream, blue-grey and muted brown morning palette.
       No hovering father, interface, shut door, decorative dust or letters.
+      Allow room from both seated faces down to their hands and knees; the small glimpse of Nib's boots stays at the open doorway edge.
     calm: none
   - id: P11
     shape: wide
@@ -151,11 +157,12 @@ panels:
       with the other, using a simple gesture instead of performing a transfer. Grandpa follows the hands, jaw set but listening.
       Both remain seated, sleeves rolled versus grey jacket, photo shelf behind. Cool doorway daylight, warm brown table.
       No real load, glowing schematic, new training apparatus or written diagram.
+      Both sit in a waist-up two-shot, Grandpa on the left and Taeo on the right.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "WHEN A LOAD HITS THEM, I CAN TAKE A PART."}
-      - {who: taeo, type: speech, side: r, text: "ONLY IF THEY AGREE. ONLY WHAT I CAN ROUTE."}
-      - {who: grandpa, type: speech, side: l, text: "AND THIS?"}
+      - {who: "taeo", type: "speech", side: "r", text: "WHEN NIB OR ORRIN TAKES AN IMPACT, I CAN TAKE PART OF THE FORCE."}
+      - {who: "taeo", type: "speech", side: "r", text: "ONLY WITH THEIR PERMISSION. ONLY AS MUCH AS I CAN REDIRECT."}
+      - {who: "grandpa", type: "speech", side: "l", text: "WHAT CAUSED THE FRESH BRUISE?"}
   - id: P12
     shape: strip
     gap: short
@@ -166,9 +173,10 @@ panels:
       His grandson leaves the arm offered, palm open, no pull away. Older fading marks stay visible beneath the new dull violet one.
       Morning cool light and warm brown tabletop, grey jacket cuff opposite black rolled cuff.
       No healing contact, pain stars, amber pulse, blood or diagnosis text.
+      Only hands and forearms appear in this detail. Taeo sits beyond the right edge, Grandpa beyond the left.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "YESTERDAY. FIFTEEN PERCENT. ONE CHECK. WE STOPPED."}
+      - {who: "offpanel:taeo", type: "speech", side: "r", text: "YESTERDAY'S CHECK. FIFTEEN PERCENT OF THE FORCE. WE STOPPED AFTER ONE TRY."}
     notes: "Matches ch 42: Friday's controlled check at 15%, deliberately below previously achieved 21%; no new transfer Saturday."
   - id: P13
     shape: inset-r
@@ -180,9 +188,10 @@ panels:
       He looks beyond the fresh bruise to the older fading marks, the expression of a man hearing an answer smaller than his question.
       Cool morning side light, plain cream wall with warm brown shadow.
       No flashback, literal tally marks, readout, comic anger or accusing pointed hand.
+      Grandpa's face occupies the left third of this close-up.
     calm: left
     lines:
-      - {who: grandpa, type: speech, side: l, text: "AND THE ONES UNDER IT?"}
+      - {who: "grandpa", type: "speech", side: "l", text: "AND THE OLDER BRUISES?"}
   - id: P14
     shape: wide
     gap: short
@@ -193,10 +202,11 @@ panels:
       where daylight outlines the yard, then makes himself look back at grandpa rather than escape into useful work.
       Forearms remain offered, not flexed to prove strength; single RIGHT-eye mole, tired mouth.
       Blue-grey morning interior, ochre slice outside, plain photo frame. No graphic replay, new shell crack or readable objects.
+      Frame Taeo from the waist up on the right; Grandpa's cropped shoulder is on the left.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "SINJEONG. ORRIN WAS HOLDING THE CEILING."}
-      - {who: taeo, type: speech, side: r, text: "I LOST A SECOND. SEJIN KNOWS. I DIDN'T TELL YOU."}
+      - {who: "taeo", type: "speech", side: "r", text: "SINJEONG. ORRIN WAS HOLDING THE CEILING."}
+      - {who: "taeo", type: "speech", side: "r", text: "I BLACKED OUT FOR A SECOND. SEJIN KNOWS. I DIDN'T TELL YOU."}
     notes: "Acknowledges ch 38's brief blackout, not a new injury or secret from the paid safety officer."
   - id: P15
     shape: strip
@@ -220,10 +230,11 @@ panels:
       grandpa listens with hands open, hurt visible. Both seated at equal visual weight; no looming authority pose.
       Old orange backpack patch under shelf and family photo above it remain ordinary possessions.
       Cool doorway light, cream wall and brown wood. No ghost parents, chibi, emotional lens flare or readable text.
+      Seated waist-up two-shot: Grandpa on the left and Taeo on the right.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "I THOUGHT, IF I CAME HOME, I HADN'T MADE YOU WORRY."}
-      - {who: grandpa, type: speech, side: l, text: "YOU ONLY MADE US WORRY LATER."}
+      - {who: "taeo", type: "speech", side: "r", text: "I THOUGHT COMING HOME ALIVE MEANT YOU WOULDN'T HAVE TO WORRY."}
+      - {who: "grandpa", type: "speech", side: "l", text: "YOU ONLY MADE US WORRY LATER."}
   - id: P17
     shape: inset-l
     gap: short
@@ -234,11 +245,12 @@ panels:
       His mouth starts an habitual apology; he catches it long enough to mean the words he chooses.
       Eyes wet without tears falling, adult face with defined lids. Morning grey-blue light and muted warm skin,
       simple cream background. No chibi, caption in image, imaginary fourteen-year-old double or magical pulse.
+      Taeo's face occupies the right third of this close-up.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: r, text: "I DIDN'T WANT TO BRING THIS HOME."}
+      - {who: "taeo", type: "speech", side: "r", text: "I DIDN'T WANT TO BRING MY PAIN HOME."}
   - id: P18
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "from open doorway, Grandpa reaching across the small table"
@@ -247,6 +259,7 @@ panels:
       Taeo lets him. The small ordinary table and plain green-banded mug stay between their knees; open door admits warm ochre daylight.
       Grandpa's face holds fear and a decision, cap off, grey jacket. Cool grey-blue interior, warm brown furniture.
       No healing light, closed threshold, child-size Taeo, swelling wounds or generated words.
+      Grandpa sits on the left, Taeo on the right; leave space for both adult figures and the offered hand between them.
     calm: top
     lines:
       - {who: grandpa, type: speech, side: l, text: "THEN YOU CARRY IT HOME TO US TOO."}
@@ -272,10 +285,11 @@ panels:
       His gaze stays directly on taeo, one hand still offered across the table. He does not bargain for a job abandoned,
       only for the truth to have a place at home. Cool morning grey-blue and brown shadow, plain cream wall.
       No punitive finger, tears effect, badge, written oath or new medical device.
+      Grandpa occupies the left third in a waist-up view; Taeo remains beyond the right edge.
     calm: top
     lines:
-      - {who: grandpa, type: speech, side: l, text: "TELL US. EVERY TIME."}
-      - {who: grandpa, type: speech, side: l, text: "BEFORE WE HAVE TO FIND IT ON YOUR ARMS."}
+      - {who: "grandpa", type: "speech", side: "l", text: "TELL US. EVERY TIME."}
+      - {who: "grandpa", type: "speech", side: "l", text: "BEFORE WE HAVE TO FIND THE BRUISES OURSELVES."}
   - id: P21
     shape: inset-r
     gap: long
@@ -286,6 +300,7 @@ panels:
       He lifts his eyes to grandpa, a real answer without a smile to blunt it. One mole beneath RIGHT eye,
       brown eyes wet in ordinary morning light. Cool blue-grey and cream, muted warm cheek.
       No hero aura, chibi, hidden crossed fingers, faded bruise or literal vow lettering in image.
+      Taeo's face occupies the right third of the close-up.
     calm: left
     lines:
       - {who: taeo, type: speech, side: r, text: "I PROMISE. I'LL TELL YOU."}
@@ -300,12 +315,13 @@ panels:
       and exhales through a small tired smile that cannot make the fear disappear. Taeo sits with sleeves still rolled,
       not instantly made cheerful. Plain cup and old-patch bag in place.
       Morning cool-grey door light, warm brown tabletop, no supernatural change, new injury or readable note.
+      Crop the seated pair at the waist, Grandpa on the left and Taeo on the right.
     calm: top
     lines:
       - {who: grandpa, type: speech, side: l, text: "I'M STILL GOING TO WORRY."}
       - {who: taeo, type: speech, side: r, text: "I KNOW."}
   - id: P23
-    shape: vignette
+    shape: tall
     gap: long
     bg: white
     silent: true
@@ -317,7 +333,7 @@ panels:
       A4 ochre/brown outside and cool grey within. No door slammed, magically healed arms, text or intrusive bystanders.
     calm: none
   - id: P24
-    shape: full
+    shape: tall
     gap: short
     bg: white
     camera: "establishing high across the keyed yard as the two watchmen start their walk"
@@ -326,6 +342,7 @@ panels:
       grandpa and nib walk along the clear perimeter aisle, not through relocated walls. Nib's exact new brown boots
       keep pace with old dark shoes; both have the listening posture of former sentries.
       Morning southeast sun, dusty ochre/warm brown and sky blue. No guards on parade, new gate anomaly, readable targets or duplicate home container.
+      Grandpa walks in the left third, Nib in the right; preserve the height difference and both pairs of shoes.
     calm: top
     lines:
       - {who: grandpa, type: speech, side: l, text: "GOOD SOLES."}
@@ -343,7 +360,7 @@ panels:
       No dramatic footprints carved in earth, mismatched boots, barefoot frame, labels or speed-line rush.
     calm: none
   - id: P26
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "eye level with Nib beside the south fence, Grandpa seen from low side"
@@ -352,9 +369,10 @@ panels:
       Nib looks ahead, adult wiry scout in locked wrap and hip gear, matte binoculars high. His new boots steady under him.
       Chain-link and keyed van far beyond, morning ochre and brown with sky-blue sliver.
       No looming interrogation, hand on Nib's head, cute proportions, text or drawn link thread.
+      Grandpa walks in the left third, Nib in the right; leave vertical room for both faces and their feet.
     calm: top
     lines:
-      - {who: grandpa, type: speech, side: l, text: "YOU'LL BRING HIM BACK?"}
+      - {who: "grandpa", type: "speech", side: "l", text: "YOU'LL BRING TAEO BACK?"}
   - id: P27
     shape: inset-l
     gap: short
@@ -365,11 +383,12 @@ panels:
       He thinks before answering a request he cannot truthfully take as a simple guarantee. Brown rope belt and RIGHT pouch edge,
       high black binoculars with LEFT strap knot. Morning side light, ochre/brown background simplified.
       No cute smile, promise aura, blade drawn, bare feet or speech in art.
+      Nib's adult profile occupies the right third of this head-and-shoulders close-up.
     calm: right
     lines:
       - {who: nib, type: speech, side: r, text: "HE STAYS OUTSIDE."}
   - id: P28
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "facing both watchmen from the gate, Nib right and Grandpa left"
@@ -380,7 +399,8 @@ panels:
       Morning ochre/brown, clear blue sky. No magical barrier, extra crew, readable gate notice or glowing binoculars.
     calm: top
     lines:
-      - {who: nib, type: speech, side: r, text: "I BRING ME BACK. HE BRINGS THE REST."}
+      - {who: "nib", type: "speech", side: "r", text: "I BRING ME BACK. HE BRINGS THE REST."}
+      - {who: "nib", type: "speech", side: "r", text: "TAEO HELPS OUR CREW COME HOME."}
     notes: "Exact required watchman answer across P27-P28: HE STAYS OUTSIDE. I BRING ME BACK. HE BRINGS THE REST. No false guarantee that Nib controls Taeo's safety."
   - id: P29
     shape: strip
@@ -394,7 +414,7 @@ panels:
       Morning sun from southeast, warm brown shadows and muted tan. No smiling relief wipe, text, glowing tear or heroic lens flare.
     calm: none
   - id: P30
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "side wide toward Orrin at the shaded equipment trestle"
@@ -403,12 +423,13 @@ panels:
       toward returning grandpa and nib. A cup on table is much too small to serve his drinking needs; a plain basin sits nearby.
       Grandpa's face at last permits ordinary curiosity. Nib in exact boots stays beside him.
       Dusty ochre and warm brown, sky-blue edge; no shell healed, bottle labels or magical cup.
+      Grandpa is on the left, Nib in the middle, Orrin on the right beneath the trestle shade. Keep all their faces visible.
     calm: top
     lines:
       - {who: grandpa, type: speech, side: l, text: "THAT CUP'S NO USE TO YOU."}
       - {who: orrin, type: speech, side: r, text: "I HAVE BEEN TOO POLITE TO MENTION IT."}
   - id: P31
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     style: chibi
@@ -418,6 +439,7 @@ panels:
       with solemn hospitality; chibi orrin gives a slow delighted nod; chibi nib presents one tiny teabag as if it solves the scale problem.
       Correct clothing, slate shell with existing crack, Nib new brown boots and all locks retained in 2.5-head proportions.
       Hard simple shadows, no injury or grief joke, lettering, glow or extra limbs.
+      Nib stands on the left holding the teabag, Grandpa in the middle with the basin, Orrin on the right.
     calm: top
     lines:
       - {who: nib, type: speech, side: l, text: "ONE TEABAG."}
@@ -432,11 +454,12 @@ panels:
       He hears the basin discussion and a small tired smile returns on its own. No pretending earlier conversation vanished.
       One RIGHT-eye mole, messy hair, no backpack worn indoors-to-yard. Morning sun, ochre/brown and soft navy.
       No chibi face here, healed skin, hidden cuffs, readable signs or new phone screen.
+      Crop Taeo to his head, shoulders and rolled forearms; the step and full figure stay outside this close-up.
     calm: left
     lines:
-      - {who: taeo, type: float, text: "HE HADN'T LEFT."}
+      - {who: "taeo", type: "float", side: "r", text: "GRANDPA HAD STAYED."}
   - id: P33
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "across west trestle as Taeo sets his phone upright for a call"
@@ -445,6 +468,7 @@ panels:
       dinosaur sticker visible. grandpa beside him in grey jacket and blue cap waits, hands loose. Nib stands within view in boots,
       orrin rests beyond without being made a prop for the call. Morning ochre/brown, ordinary daylight.
       No screen green, magical video projection, readout or hidden injuries.
+      Grandpa stands on the left, Taeo on the right by the phone, Nib in the middle; Orrin rests behind with ample room.
     calm: top
     lines:
       - {who: taeo, type: speech, side: r, text: "I SHOULD CALL GRANDMA."}
@@ -460,12 +484,13 @@ panels:
       tousled dark hair and cowlick. Kitchen north, east window, modern WEST TV dark, no CRT.
       Her face is concerned and direct; his curious but listening. Warm amber kitchen light and brown shadows.
       Draw video image only, no device chrome, lettering or infant Haru.
+      Grandma occupies the left third of the video image; Haru leans in from the middle. Taeo is heard from the yard end of the call beyond the right edge.
     calm: top
     ui:
       - {kind: phone.ttok_video_call, on: panel, caller: "GRANDMA", own_video: "taeo"}
     lines:
-      - {who: grandma, type: phone, side: l, text: "YOUR GRANDFATHER SAID YOU HAD SOMETHING TO TELL ME."}
-      - {who: taeo, type: phone, side: r, text: "I DO. I GET HURT DOING THE CARRYING."}
+      - {who: "grandma", type: "phone", side: "l", text: "YOUR GRANDFATHER SAID YOU HAD SOMETHING TO TELL ME."}
+      - {who: "offpanel:taeo", type: "phone", side: "r", text: "I DO. WHEN I SHARE AN IMPACT, I CAN GET HURT."}
     notes: "Both voices use phone because this panel is seen through the family video feed, including Taeo's audio from the other end."
   - id: P35
     shape: wide
@@ -477,11 +502,12 @@ panels:
       rolls neither cuff down, both bruised arms in the family camera's view. He looks at the lens with plain frightened honesty.
       Grandpa stays beside him, giving him the turn to speak. Morning ochre/brown and navy, no onscreen UI visible,
       hidden sleeves, new transfer, theatrical tears or readers' view of display.
+      Waist-up seated view: Taeo on the right, Grandpa in the middle. The phone and unseen Grandma voice come from the left.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "SEJIN CHECKS ME. BUT I SHOULD HAVE TOLD YOU BEFORE."}
-      - {who: grandma, type: phone, side: l, text: "YES. YOU SHOULD."}
-      - {who: taeo, type: speech, side: r, text: "I WILL. EVERY TIME."}
+      - {who: "taeo", type: "speech", side: "r", text: "SEJIN CHECKS ME. BUT I SHOULD HAVE TOLD YOU BEFORE."}
+      - {who: "offpanel:grandma", type: "phone", side: "l", text: "YES. YOU SHOULD."}
+      - {who: "taeo", type: "speech", side: "r", text: "I WILL. EVERY TIME."}
   - id: P36
     shape: inset-l
     gap: short
@@ -492,10 +518,11 @@ panels:
       leans close from his cushion with the kind of simple worry that has not learned polite disguise.
       Grandma's plaid shoulder at left, low table edge below, warm amber lamp and brown shadows.
       No infant proportions, chibi, floating screen chrome, tears effect, readable workbook or change to room layout.
+      Haru occupies the right third of the close-up; Grandma is only a cropped shoulder at the left edge. Taeo is heard from the yard end of the call beyond the left edge.
     calm: right
     lines:
-      - {who: haru, type: phone, side: l, text: "DOES IT STILL HURT NOW?"}
-      - {who: taeo, type: phone, side: r, text: "A LITTLE, BOSS. I'M RESTING TODAY."}
+      - {who: "haru", type: "phone", side: "r", text: "DO YOUR ARMS STILL HURT NOW?"}
+      - {who: "offpanel:taeo", type: "phone", side: "l", text: "A LITTLE, BOSS. I'M RESTING TODAY."}
   - id: P37
     shape: strip
     gap: long
@@ -509,7 +536,7 @@ panels:
       No amber link, typed words, finger on hang-up control or magically healed bruise.
     calm: none
   - id: P38
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "yard side, Nib stepping into family camera range beside the trestle"
@@ -518,11 +545,12 @@ panels:
       exact matte brown ankle boots below, double-knotted brown laces and black lug soles. He holds one boot briefly forward
       as a factual report, not a cute modelling pose. Taeo makes room without touching his head.
       Sun southeast, dusty ochre/brown, phone back only. No new outfit, bare feet, screen content or generated lettering.
+      Taeo sits in the middle, Nib stands on the right with room for boots and face. The phone carrying Haru's unseen voice is on the left.
     calm: top
     lines:
-      - {who: haru, type: phone, side: l, text: "NIB! YOU HAVE SHOES!"}
-      - {who: nib, type: speech, side: r, text: "BOOTS."}
-      - {who: haru, type: phone, side: l, text: "DINOSAURS DIDN'T NEED THOSE."}
+      - {who: "offpanel:haru", type: "phone", side: "l", text: "NIB! YOU HAVE SHOES!"}
+      - {who: "nib", type: "speech", side: "r", text: "BOOTS."}
+      - {who: "offpanel:haru", type: "phone", side: "l", text: "DINOSAURS DIDN'T NEED BOOTS."}
   - id: P39
     shape: inset-r
     gap: short
@@ -533,11 +561,12 @@ panels:
       He considers a ten-year-old's information with complete professional seriousness. One brow lowers, no cartoon confusion.
       Ordinary southeast morning light, dusty tan background and dark phone back at lower edge.
       No actual dinosaur, new monster, baby goblin expression, bare feet or lettered gag effects in art.
+      Nib's face occupies the right third of this close-up; the dark phone back is on the left.
     calm: left
     lines:
-      - {who: nib, type: speech, side: r, text: "THEY SHOULD HAVE ASKED THE SHOP."}
+      - {who: "nib", type: "speech", side: "r", text: "DINOSAURS SHOULD HAVE ASKED THE SHOP."}
   - id: P40
-    shape: vignette
+    shape: tall
     gap: long
     bg: white
     silent: true
@@ -558,6 +587,7 @@ panels:
       grandpa pulls his worn dark overnight bag close and opens one ordinary inner pocket. taeo clears a space without asking yet,
       bare bruised arms visible, black hoodie cuffs at elbows. Nib gives them a little distance beside Orrin.
       Morning sun higher, ochre and warm brown, no envelope contents visible, coded lock or generated labels.
+      Waist-up framing at the trestle: Grandpa on the left, Taeo on the right; Nib and Orrin appear as cropped upper-body silhouettes farther back.
     calm: top
     lines:
       - {who: grandpa, type: speech, side: l, text: "I BROUGHT SOMETHING ELSE."}
@@ -573,7 +603,7 @@ panels:
       Grey jacket cuff, warm brown table, soft side daylight. No wax seal, guild crest, readable name, blood stain or magical glow.
     calm: none
   - id: P43
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "eye-level two-shot with envelope held between them above the table"
@@ -582,6 +612,7 @@ panels:
       Taeo's expression turns careful, smile fading, single RIGHT-eye mole. His hand remains open on tabletop.
       Both in locked outfits, bruises unchanged, old man blue cap and grey jacket. Morning ochre/brown and pale sky.
       No opened ID, visible handwriting, scene-changing flashback or onlookers crowding the exchange.
+      Grandpa stands on the left, Taeo on the right, the envelope held between them.
     calm: top
     lines:
       - {who: grandpa, type: speech, side: l, text: "YOUR FATHER'S PORTER CARD. THEY RECOVERED IT AT SEOGANG."}
@@ -595,9 +626,10 @@ panels:
       He recognizes the kind of object before seeing it: glance to envelope, then to grandpa, no accusatory flare.
       Small RIGHT-eye mole and honest open mouth. Morning side daylight, muted tan and navy, plain background.
       No flashback image, glowing memory, generated handwriting or hidden wound change.
+      Taeo's face occupies the right third of this close-up.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: r, text: "YOU KEPT IT?"}
+      - {who: "taeo", type: "speech", side: "r", text: "YOU KEPT DAD'S CARD?"}
   - id: P45
     shape: wide
     gap: short
@@ -608,10 +640,11 @@ panels:
       His thumb hovers a moment over the familiar crease, then returns to his own side. Blue cap, grey pocket jacket,
       deep facial lines; he looks tired of deciding alone what grief another person can carry.
       Morning ochre/brown, soft sky-blue edge. No aura, hidden second letter, readable seal or tear splash.
+      Frame Grandpa from the waist up on the left, with Taeo's receiving hand entering from the right.
     calm: top
     lines:
-      - {who: grandpa, type: speech, side: l, text: "I THOUGHT I'D KNOW WHEN YOU WERE OLD ENOUGH."}
-      - {who: grandpa, type: speech, side: l, text: "THEN I KEPT THINKING IT."}
+      - {who: "grandpa", type: "speech", side: "l", text: "I THOUGHT I'D KNOW WHEN YOU WERE OLD ENOUGH."}
+      - {who: "grandpa", type: "speech", side: "l", text: "I KEPT PUTTING OFF GIVING YOU THE CARD."}
   - id: P46
     shape: strip
     gap: long
@@ -634,11 +667,12 @@ panels:
       short dark hair, angular jaw and blue-grey work shirt, about forty-five, not present Taeo wearing a costume.
       Card has blank pale category bands for lettering, worn grey laminate and damaged empty slot. Taeo leans over it, breath held.
       Warm daylight, brown table and cool card grey. No reverse handwriting visible, readable art, company invented or magical repair.
+      Taeo's face occupies the right third, card and hands in the middle of a waist-up reaction crop.
     calm: top
     ui:
       - {kind: label, text: "SEOGANG CAMP · CONTRACT PORTER", at: [0.56, 0.63], size: 30, notes: "Front category band beside father's photograph; do not invent father's given name or contract company."}
     lines:
-      - {who: taeo, type: whisper, side: r, text: "HE LOOKS TIRED."}
+      - {who: "taeo", type: "whisper", side: "r", text: "DAD LOOKS TIRED."}
   - id: P48
     shape: inset-r
     gap: short
@@ -649,6 +683,7 @@ panels:
       He meets taeo's observation without finding a brighter memory to cover it. Mouth small, eyes steady and wet.
       Ordinary morning sunlight, ochre/brown plain background, no younger son behind him or sleeve concealing ID.
       No chibi, generated writing, tears effect or hidden new document.
+      Grandpa's face occupies the left third of this close-up.
     calm: left
     lines:
       - {who: grandpa, type: speech, side: l, text: "HE WAS."}
@@ -662,9 +697,10 @@ panels:
       front portrait passing out of view, reverse still at too oblique an angle for words. Grandpa's hand rests near,
       not directing the turn. Same water-clouded lower edge and cracked empty slot.
       Morning warm brown tabletop, cool pale card, violet forearm bruise. No legible writing yet, glow, barcode or second card.
+      Only hands and card are visible in this detail. Grandpa stands beyond the left edge, Taeo beyond the right.
     calm: top
     lines:
-      - {who: grandpa, type: speech, side: l, text: "HE WROTE ON THE BACK."}
+      - {who: "offpanel:grandpa", type: "speech", side: "l", text: "HE WROTE ON THE BACK OF THE CARD."}
   - id: P50
     shape: inset-l
     gap: long

@@ -45,6 +45,7 @@ panels:
       nib offered. His eyes remain level with the standing scout, who watches without smiling. Nib's
       notched LEFT ear edges the foreground. Clear afternoon daylight, cream paper and slate coat,
       hard cel shadows. No applause, ritual glow, readable cup design or new test.
+      Only Doyun's face, cup and Nib's ear fill the horizontal crop; bodies remain outside frame.
     calm: none
     silent: true
     notes: "Complete ch89's hook: Doyun takes the first drink. No additional apology scene."
@@ -59,6 +60,7 @@ panels:
       suit, pale shirt, navy tie, silver split-bar circle pin LEFT lapel; attentive, reasonable. Minho's brown
       jacket, LEFT grey streak and chest radio look work-worn here. Blue-white daylight, slate shadows.
       Closed blank folios, no readable skyline advertising or screen.
+      Minho sits at screen left, Baek at screen right, matching the west and east table ends.
     calm: top
     lines:
       - {who: narr, type: tag, text: "MERIDIAN TOWER · LATER"}
@@ -73,10 +75,11 @@ panels:
       tired brown eyes, premature grey streak at LEFT temple; brown work jacket over grey tee.
       His hand lies flat beside the closed folio, not over it. Window light from north, blue-white and
       slate. No sneer, expensive replacement suit or readable page.
+      Minho's head and shoulders fill the left third; Baek answers from off-panel right across the table.
     calm: right
     lines:
-      - {who: minho, type: speech, side: l, text: "WHO DECIDES WHERE THEY GO?"}
-      - {who: baek, type: speech, side: r, text: "OUR OPERATIONS BOARD."}
+      - {who: minho, type: speech, side: l, text: "WHO DECIDES WHICH JOBS OUR VANS TAKE?"}
+      - {who: offpanel:baek, type: speech, side: r, text: "OUR OPERATIONS BOARD."}
   - id: P04
     shape: strip
     gap: short
@@ -87,9 +90,10 @@ panels:
       stone with one clean movement. Brown work cuff and worn wristwatch visible; no signature has
       been made. North daylight, cool slate shadows, muted leather brown. Keep every page hidden,
       no shaking fist, broken cup or lettering.
+      Only the moving hand and folio are visible; Minho speaks from off-panel left above his brown cuff.
     calm: none
     lines:
-      - {who: minho, type: speech, side: l, text: "THEN IT WOULD ONLY BE OUR NAME."}
+      - {who: offpanel:minho, type: speech, side: l, text: "THEN WE'D KEEP THE NAME AND LOSE THE CHOICE."}
   - id: P05
     kind: title
     gap: long
@@ -105,6 +109,7 @@ panels:
       patient face serious. Minho meets his eyes from the other end, shoulders square rather than
       triumphant. City window north lights their profiles; blue-white table, slate shadows, navy coat.
       The south doorway stays empty. No looming villain pose, banners or readable objects.
+      Waist-up seated view of Minho left and Baek right along the table, both faces visible.
     calm: top
     lines:
       - {who: baek, type: speech, side: r, text: "INDEPENDENCE DOESN'T PAY AN INSURANCE PREMIUM."}
@@ -119,12 +124,13 @@ panels:
       has gone without anger replacing it. Navy field coat, dark suit, LEFT silver guild pin.
       His fingers release the folio edge. Clean institutional blue-white, slate shade. No glowing eyes,
       malicious grin, threats painted on glass or text.
+      Baek's head and shoulders fill the right third; Minho answers from off-panel left.
     calm: left
     lines:
-      - {who: baek, type: speech, side: r, text: "YOU HAVE ANOTHER OFFER."}
-      - {who: minho, type: speech, side: l, text: "ANOTHER TABLE."}
+      - {who: baek, type: speech, side: r, text: "YOU HAVE ANOTHER OFFER FOR RYU SURVEY."}
+      - {who: offpanel:minho, type: speech, side: l, text: "A COALITION. WE KEEP OUR VOTE."}
   - id: P08
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "over Baek's shoulder as Minho lays down a separate folder"
@@ -133,27 +139,29 @@ panels:
       It has a blank cover and uneven tabs, evidence of work rather than prestige. His face is
       confident but tired. North daylight, pale stone and cool slate. LEFT grey streak clear;
       no readable coalition seal, phone screen or instant debt clearance.
+      Minho is on the left, Baek's shoulder on the right; leave room for the folder gesture and Minho's body.
     calm: top
     lines:
-      - {who: minho, type: speech, side: l, text: "REGIONAL SURVEY CREWS. SHARED DISPATCH, SHARED COVER."}
+      - {who: minho, type: speech, side: l, text: "REGIONAL SURVEY CREWS. SHARED DISPATCH, SHARED INSURANCE."}
       - {who: minho, type: speech, side: l, text: "RYU STAYS RYU. EACH CREW KEEPS ITS VOTE."}
     notes: "PLANT P21: Minho chooses an independent regional coalition instead of Meridian absorption."
   - id: P09
-    shape: strip
+    shape: full
     gap: short
     bg: white
-    camera: "close on the two folders separated by Minho's hand"
+    camera: "medium seated two-shot above the two closed folders"
     art: >
       At meridian_meeting_room two closed folders, thin brown and thick navy, rest a hand-span apart.
       minho's hand withdraws from between them, leaving the choice physically separate. Baek's pale
       shirt cuff appears at the far edge without reaching for either. North daylight, cream stone,
       slate shadows. No legible cover, diagram, badge or currency.
+      Minho sits left, Baek right, both faces visible above the two closed folders in the foreground.
     calm: none
     lines:
-      - {who: baek, type: speech, side: r, text: "THE DEBT DOESN'T DIVIDE ITSELF THAT NEATLY."}
-      - {who: minho, type: speech, side: l, text: "NO. THAT PART'S STILL OURS."}
+      - {who: baek, type: speech, side: r, text: "JOINING A COALITION WON'T ERASE YOUR FAMILY'S DEBT."}
+      - {who: minho, type: speech, side: l, text: "NO. RYU'S DEBT STAYS OURS."}
   - id: P10
-    shape: vignette
+    shape: full
     gap: long
     bg: white
     camera: "medium side view as Minho stands by the south door"
@@ -162,12 +170,13 @@ panels:
       other hand on the handle. He turns back for a courteous nod, mouth set and eyes clear.
       Baek remains seated in the depth, acknowledging it. Cool north window light, slate and brown.
       No slammed door, bowed servant, visible text or magic.
+      Minho stands left at the south doorway, Baek sits right in depth; give Minho full standing height.
     calm: top
     lines:
       - {who: minho, type: speech, side: l, text: "THANK YOU FOR THE OFFER. I'M REFUSING IT."}
-      - {who: baek, type: speech, side: r, text: "I HOPE YOUR TABLE HOLDS."}
+      - {who: baek, type: speech, side: r, text: "I HOPE YOUR COALITION HOLDS."}
   - id: P11
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "establishing through Ryu's south gate toward the southwest container"
@@ -176,13 +185,14 @@ panels:
       container left, white van southeast facing west. minho walks in carrying his brown folder.
       taeo in navy jacket waits beside the open container step; orrin rests on the apron, too broad
       to use the little door. Warm west sun, brown shadows, sky blue. Blank van sticker and signs.
+      Taeo waits left at the container step, Minho enters right and Orrin rests centre, all with room around them.
     calm: top
     lines:
       - {who: taeo, type: speech, side: l, text: "HOW DID IT GO?"}
       - {who: minho, type: speech, side: r, text: "I STILL OWN THREE VANS' WORTH OF PROBLEMS."}
     notes: "Vans' worth is Minho's family-guild scale, not a new count of vehicles physically parked in the key."
   - id: P12
-    shape: inset-l
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -192,12 +202,13 @@ panels:
       a guilty inspector. Chibi minho shields that temple with his brown folder, offended line eyes
       and a giant sweat drop. Flat sunlit ochre and sky-blue blocks; tiny chest radio, outfits and
       Taeo's RIGHT-eye mole retained. No floating money, legible folder or danger.
+      Chibi Taeo stands left and chibi Minho right; give both bodies room beside the folder and grey-streak gag.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: l, text: "YOU HAVE ANOTHER GREY ONE."}
+      - {who: taeo, type: speech, side: l, text: "YOU HAVE ANOTHER GREY HAIR."}
       - {who: minho, type: speech, side: r, text: "THAT ONE'S YOURS."}
   - id: P13
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "normal-style eye-level two-shot at the container step"
@@ -206,11 +217,12 @@ panels:
       his elbow, amusement fading into a tired honest smile. taeo sits on the step to keep the
       doorway clear, knees together, hands open. Warm west sunlight, ochre earth and corrugated grey.
       Old patch on backpack beside him, no active phone or print.
+      Taeo sits left on the step, Minho stands right against the container; show clear adult proportions.
     calm: top
     lines:
-      - {who: minho, type: speech, side: r, text: "I SAID NO."}
-      - {who: taeo, type: speech, side: l, text: "TO BAEK?"}
-      - {who: minho, type: speech, side: r, text: "TO HIS BOARD."}
+      - {who: minho, type: speech, side: r, text: "I REFUSED MERIDIAN'S OFFER."}
+      - {who: taeo, type: speech, side: l, text: "YOU TOLD BAEK NO?"}
+      - {who: minho, type: speech, side: r, text: "YES. HIS BOARD WOULD CHOOSE RYU'S JOBS."}
   - id: P14
     shape: strip
     gap: short
@@ -223,24 +235,25 @@ panels:
       No pulse, freshly healed skin, banknotes or lettering.
     calm: none
     lines:
-      - {who: taeo, type: float, text: "I WAS RELIEVED. THEN I WAS ASHAMED OF THAT."}
+      - {who: taeo, type: float, text: "I WAS RELIEVED MINHO HAD REFUSED. I HADN'T ASKED WHAT HE NEEDED."}
   - id: P15
-    shape: wide
+    shape: full
     gap: short
     bg: white
-    camera: "over Minho's shoulder onto Taeo seated below"
+    camera: "three-quarter two-shot showing Minho's and Taeo's faces by the step"
     art: >
       taeo at ryu_practice_yard looks up from the container step, face apologetic before the question
       has finished. minho's brown jacket and LEFT chest radio frame him. The patched backpack stays
       to Taeo's side. West sunlight, warm ochre and cool container grey, hard cel shadows.
       No triumphant solidarity pose, print or screen.
+      Taeo sits left and Minho stands right; both faces and natural body positions remain clearly visible.
     calm: top
     lines:
       - {who: taeo, type: speech, side: l, text: "DOES THE COALITION NEED YOUR WHOLE CREW?"}
       - {who: minho, type: speech, side: r, text: "ASK WHAT YOU MEAN."}
       - {who: taeo, type: speech, side: l, text: "SORRY. CAN YOU STILL HELP AT YEOJU?"}
   - id: P16
-    shape: full
+    shape: tall
     gap: short
     bg: white
     camera: "medium three-shot, Nib walking up beside the step"
@@ -249,10 +262,11 @@ panels:
       trestle, booted adult scout with binoculars, LEFT ear notch, RIGHT pouch and LEFT wooden sheath;
       his eyes move between the two men. Warm west sun catches Minho's grey streak. Ochre,
       brown, muted sky blue. No contract handshake yet, readable badges or glow.
+      Nib stands left, Taeo sits centre and Minho stands right, all three faces clearly visible.
     calm: top
     lines:
       - {who: minho, type: speech, side: r, text: "I PROMISED A SUPPORT CREW. YOU'LL GET ONE."}
-      - {who: minho, type: speech, side: r, text: "COALITION CREW. OUR TERMS. WHEN YOU CALL."}
+      - {who: minho, type: speech, side: r, text: "A COALITION CREW. WE SET OUR TERMS. CALL WHEN YOU NEED US."}
       - {who: nib, type: speech, side: l, text: "GOOD TERMS."}
     notes: "PLANT P21: explicit promised coalition support for Yeoju; payoff due ch97. Independence does not cancel his contribution."
   - id: P17
@@ -265,9 +279,10 @@ panels:
       not deferential. Brown cuff, plain wristwatch, grey streak LEFT, chest radio. The folder remains
       tucked under his opposite arm. Warm west light, simplified sky-blue background.
       No subordinate bow, new guild patch, written promise or magical link.
+      Frame Minho's face and offered hand in the right third, without fitting in his full body.
     calm: left
     lines:
-      - {who: minho, type: speech, side: r, text: "AND DON'T PUT ME ON YOUR PAYROLL IN YOUR HEAD."}
+      - {who: minho, type: speech, side: r, text: "AND DON'T START THINKING I'M YOUR EMPLOYEE."}
   - id: P18
     shape: strip
     gap: short
@@ -281,7 +296,7 @@ panels:
     calm: none
     silent: true
   - id: P19
-    shape: vignette
+    shape: tall
     gap: long
     bg: white
     camera: "wide from inside the container doorway looking out"
@@ -290,11 +305,12 @@ panels:
       orrin rests between them and the plywood maze, head lifted to listen. The open container
       doorway frames ordinary space and leaves room to pass. Warm west sun, brown ground, sky blue.
       No gate, new vehicles, readable folio or celebratory banner.
+      Leave full standing height for Minho walking away and Nib beside seated Taeo, with Orrin behind.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "HE COULD SAY NO TO ONE THING AND YES TO ANOTHER."}
+      - {who: taeo, type: float, text: "MINHO COULD REFUSE A MERGER AND STILL HELP US."}
   - id: P20
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "establishing beside the southwest container medical table next morning"
@@ -304,11 +320,12 @@ panels:
       dara, adult 42-year-old armoured surgeon, broad square face, dark braid/grey temples, oatmeal wrap,
       scarred forearms, LEFT surgical kit, RIGHT cloth roll, sits opposite sage-scrubbed sejin. Dara looks
       certain; Sejin raises a patient brow. Southeast sun, ochre/brown, cool awning shade. No patient or readable packet.
+      Dara sits left and Sejin right, practice pad between them; leave space for their seated bodies and supplies.
     calm: top
     lines:
       - {who: narr, type: tag, text: "NEXT MORNING · RYU SURVEY"}
       - {who: dara, type: speech, side: l, text: "THAT THREAD IS TOO THIN."}
-      - {who: sejin, type: speech, side: r, text: "FOR YOUR WRAP. NOT FOR HIS SKIN."}
+      - {who: sejin, type: speech, side: r, text: "FOR YOUR CLOTH WRAP, YES. FOR A PATIENT'S SKIN, NO."}
   - id: P21
     shape: strip
     gap: short
@@ -319,9 +336,10 @@ panels:
       silicone practice pad; dara's large scarred hand rests beside it without interfering. Needle holder
       and thread physically gripped, practice pad distinct from flesh. Southeast sun filtered by awning,
       warm cream and sage. No blood, wound gore, procedural diagram, doses or printed packet.
+      Hands-and-pad detail only. Sejin speaks from off-panel right above her gloved hands.
     calm: none
     lines:
-      - {who: sejin, type: speech, side: r, text: "SAME AIM. DIFFERENT MATERIALS."}
+      - {who: offpanel:sejin, type: speech, side: r, text: "SAME AIM: CLOSE A WOUND. DIFFERENT THREAD FOR DIFFERENT TISSUE."}
   - id: P22
     shape: inset-l
     gap: short
@@ -332,10 +350,11 @@ panels:
       automatic scowl. One brow rises in reluctant interest; scarred forearms exposed below slate upper-arm
       plates, surgical kit LEFT. Awning shade with southeast light across grey temples, oatmeal and sage
       palette. No wonder-child expression, pin-up face or glow.
+      Dara's head and shoulders fill the left third; Sejin answers from off-panel right across the table.
     calm: right
     lines:
-      - {who: dara, type: speech, side: l, text: "DO THAT TURN AGAIN."}
-      - {who: sejin, type: speech, side: r, text: "SAY PLEASE."}
+      - {who: dara, type: speech, side: l, text: "SHOW ME THAT STITCH AGAIN."}
+      - {who: offpanel:sejin, type: speech, side: r, text: "SAY PLEASE."}
   - id: P23
     shape: wide
     gap: short
@@ -346,6 +365,7 @@ panels:
       courtesy. Sejin holds the needle tool still and waits, dry smile limited to one corner.
       Slate armour opposite sage rig, practice pad centred between them. Southeast daylight, warm ochre
       bounce and brown shadows. No student infantilisation, danger, blood or lettering.
+      Waist-up seated framing: Dara left, Sejin right, both faces visible above the practice pad.
     calm: top
     lines:
       - {who: dara, type: speech, side: l, text: "PLEASE. BEFORE I DIE OF POLITENESS."}
@@ -366,15 +386,16 @@ panels:
     shape: wide
     gap: short
     bg: white
-    camera: "over Dara's shoulder as Sejin lays out sealed medicine cartons"
+    camera: "three-quarter waist-up two-shot across the sealed medicine cartons"
     art: >
       sejin at ryu_practice_yard separates two plain sealed medicine cartons on the medical table,
       then taps an empty field on a blank patient card. dara watches with a serious professional
       frown, needle holder set safely down. Clear southeast daylight, muted sage, cream and slate.
       Packets have only plain colour bands; no drug names, measurements, readable dosing or magical cure.
+      Frame seated Dara left and seated Sejin right from the waist up, both faces visible above the cartons.
     calm: top
     lines:
-      - {who: sejin, type: speech, side: r, text: "LOCAL DRUGS. LOCAL ALLERGIES. ASK BEFORE YOU USE ANYTHING."}
+      - {who: sejin, type: speech, side: r, text: "THESE MEDICINES ARE NEW TO YOU. ASK ABOUT ALLERGIES AND OTHER MEDICINES FIRST."}
       - {who: dara, type: speech, side: l, text: "YOU THINK I GUESS?"}
       - {who: sejin, type: speech, side: r, text: "I THINK YOU'RE NEW HERE."}
   - id: P26
@@ -387,9 +408,10 @@ panels:
       ache of knowing what ignorance costs. Thick brows pull together, mouth straight, dark eyes still.
       Grey temples and braid, slate plate, oatmeal collar. Awning shade, warm reflected ochre.
       No flashback corpse, tears for comedy, healing glow or writing.
+      Dara's head and shoulders fill the left third, patient card at the lower edge.
     calm: left
     lines:
-      - {who: dara, type: speech, side: l, text: "THEN TEACH ME THE QUESTIONS."}
+      - {who: dara, type: speech, side: l, text: "THEN TEACH ME WHAT TO ASK."}
   - id: P27
     shape: vignette
     gap: short
@@ -400,9 +422,10 @@ panels:
       meeting at the table centre without touching. Sejin's face softens with professional respect;
       Dara accepts the pen as carefully as a surgical tool. Daylight cream, sage and slate,
       brown shadows. No patient treatment, readable list or magical oath.
+      Waist-up seated view of Dara left and Sejin right, the pen and card between them.
     calm: top
     lines:
-      - {who: sejin, type: speech, side: r, text: "FIRST, WHAT DID YOU TAKE BEFORE YOU GOT HERE?"}
+      - {who: sejin, type: speech, side: r, text: "FIRST QUESTION: WHAT MEDICINE DID YOU TAKE BEFORE YOU CAME HERE?"}
       - {who: dara, type: speech, side: l, text: "THAT ONE WORKS IN BOTH WORLDS."}
   - id: P28
     shape: strip
@@ -414,9 +437,10 @@ panels:
       replaces it with a stack of blank insurance forms, every field empty. Dara's bare fingers pause
       above the much taller stack. Southeast sunlight, cream paper, sage cuff, grey armour edge.
       No legible policy numbers, actual patient data or ominous magical scroll.
+      Only hands, pad and forms appear; Sejin speaks from off-panel right above her sage sleeve.
     calm: none
     lines:
-      - {who: sejin, type: speech, side: r, text: "NOW THE INSURANCE FORMS."}
+      - {who: offpanel:sejin, type: speech, side: r, text: "NOW THE INSURANCE FORMS."}
   - id: P29
     shape: wide
     gap: short
@@ -428,12 +452,13 @@ panels:
       white-stone with shock behind a comically tall blank paper stack. Chibi sejin in sage rig
       holds up a single additional sheet with a dry line mouth. LEFT kit/RIGHT cloth roll retained.
       Flat daylight cream, sage and slate; no injured person, words or medical danger.
+      Waist-up chibi crop only: Dara left, Sejin right, the tall stack of forms between them.
     calm: top
     lines:
-      - {who: dara, type: intense, side: l, text: "THE WOUND HAS SIX PAGES."}
+      - {who: dara, type: intense, side: l, text: "ONE WOUND NEEDS SIX PAGES OF FORMS."}
       - {who: sejin, type: speech, side: r, text: "SEVEN IF IT HAPPENED AT WORK."}
   - id: P30
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "normal wide from the awning edge, Taeo passing the table"
@@ -442,11 +467,12 @@ panels:
       stops at dara's exhausted glare over the paperwork and tries an apologetic smile. Sejin quietly
       squares the pages. Taeo's old bruises show at cuffs; no link is active. Southeast daylight,
       ochre yard, cream forms, cool slate shade. No legible folder or screens.
+      Dara sits left, Sejin sits centre and Taeo stands right; all three faces are clearly visible.
     calm: top
     lines:
       - {who: taeo, type: speech, side: r, text: "HOW'S THE EXCHANGE GOING?"}
-      - {who: dara, type: speech, side: l, text: "SHE'S TAUGHT ME THREE NEW WAYS TO SUFFER."}
-      - {who: sejin, type: speech, side: l, text: "SHE DID SAY PLEASE."}
+      - {who: dara, type: speech, side: l, text: "SEJIN'S TAUGHT ME THREE NEW WAYS TO SUFFER."}
+      - {who: sejin, type: speech, side: c, text: "SHE DID SAY PLEASE."}
   - id: P31
     shape: inset-l
     gap: short
@@ -457,9 +483,10 @@ panels:
       points with her pen in the soft background. Messy hair, tired brown eyes, mole under RIGHT eye,
       navy collar over black hoodie. Clear late-morning light, warm ochre and cream.
       No medical miracle, halo, phone glow or readable marks.
+      Taeo's head and shoulders fill the foreground; Dara and Sejin remain small seated figures behind.
     calm: right
     lines:
-      - {who: taeo, type: float, text: "SHE'D FOUND SOMETHING SHE DIDN'T KNOW."}
+      - {who: taeo, type: float, text: "DARA COULD ADMIT SHE HAD SOMETHING TO LEARN."}
   - id: P32
     shape: strip
     gap: short
@@ -472,9 +499,9 @@ panels:
       printed budget or crushed object.
     calm: none
     lines:
-      - {who: taeo, type: float, text: "I SHOULD HAVE STAYED TO LEARN THAT PART."}
+      - {who: taeo, type: float, text: "I SHOULD HAVE LEARNED HOW TO ADMIT I WAS WRONG."}
   - id: P33
-    shape: wide
+    shape: tall
     gap: long
     bg: white
     camera: "eye level across the south-apron finance table"
@@ -483,9 +510,10 @@ panels:
       dark phone; nib stands opposite with binoculars pushed secure against his chest. Haein coils
       gear well behind them; the fixed maze remains untouched. Taeo is eager under fatigue, Nib
       sceptical. Noon daylight, dusty ochre and blue-grey shadows. Packet boxes blank, phone dark.
+      Taeo stands left and Nib right across the finance table, with full standing height; Haein stays behind.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "THE YEOJU ENTRY NEEDS THE COMMITMENT TODAY."}
+      - {who: taeo, type: speech, side: l, text: "THE YEOJU BID NEEDS OUR FINANCIAL COMMITMENT TODAY."}
       - {who: nib, type: speech, side: r, text: "HOW MUCH?"}
   - id: P34
     shape: strip
@@ -501,7 +529,7 @@ panels:
     ui:
       - {kind: label, text: "TOTAL YEOJU COMMITMENT · ₩210,000,000", at: [0.5, 0.48], notes: "Place within the packet's large boxed figure."}
   - id: P35
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low from beside Nib, Taeo across the table"
@@ -510,10 +538,11 @@ panels:
       notched LEFT ear angled back. Taeo's smile falters but he keeps one hand on the paperwork.
       Adult scale clear: table edge near Nib's chest, Taeo leaning down. Noon ochre and brown,
       sky blue behind. No giant goblin, unreadable glyphs or glowing threat.
+      Taeo is left and Nib right, both faces visible over the packet with space for their different heights.
     calm: top
     lines:
-      - {who: nib, type: speech, side: r, text: "MOST OF IT."}
-      - {who: taeo, type: speech, side: l, text: "MOST OF THE AVAILABLE CAPITAL. YES."}
+      - {who: nib, type: speech, side: r, text: "THAT'S MOST OF OUR CAPITAL."}
+      - {who: taeo, type: speech, side: l, text: "YES. MOST OF OUR AVAILABLE CAPITAL."}
       - {who: nib, type: speech, side: r, text: "TAKE THE SMALLER CONTRACT."}
   - id: P36
     shape: inset-r
@@ -525,10 +554,11 @@ panels:
       thinks is reassurance. RIGHT-eye mole, tired lower lids, navy jacket and black hood. His face
       is hungry for a future, not greedy for coins. Noon daylight, muted ochre background.
       No confident aura, new rank badge or printed prize.
+      Taeo's head and shoulders fill the left third; Nib answers from off-panel right across the table.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: l, text: "THE SMALL ONE WON'T BUY THE BASE."}
-      - {who: nib, type: speech, side: r, text: "WE'LL STILL BE IN IT."}
+      - {who: taeo, type: speech, side: l, text: "THE SMALL CONTRACT WON'T EARN ENOUGH TO BUY OUR BASE."}
+      - {who: offpanel:nib, type: speech, side: r, text: "WE'LL STILL BE ALIVE IN THE BASE WE HAVE."}
   - id: P37
     shape: vignette
     gap: long
@@ -539,11 +569,12 @@ panels:
       olive backpack on the step with its faded orange old door patch facing out. Ordinary worn
       mugs and a folded blanket sit inside, shapes only. His shoulders tense in foreground.
       Noon daylight, ochre ground and cool blue interior shade. No eviction notice, magical doorway or text.
+      Crop Taeo at the shoulders in the foreground while showing the container doorway and backpack beyond.
     calm: top
     lines:
       - {who: taeo, type: float, text: "I COULD ALREADY SEE THE DOOR WE'D OWN."}
   - id: P38
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "side two-shot along the finance table"
@@ -552,6 +583,7 @@ panels:
       touching either. His adult face is flat and definite. Taeo has turned back, polite smile now
       a tight line. Noon light, warm brown tabletop, grey-blue shade. Nib's RIGHT pouch and LEFT
       sheath remain correct. No drawn words, childish pout or active pulse.
+      Taeo stands left, Nib right; give their standing bodies space above and below the table.
     calm: top
     lines:
       - {who: nib, type: speech, side: r, text: "I OBJECT."}
@@ -570,7 +602,7 @@ panels:
     calm: none
     silent: true
   - id: P40
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "medium from the van side, Sera and Kesh in the background"
@@ -579,9 +611,10 @@ panels:
       In background sera in river-green wrap, cream underlayer, sand trousers, LEFT bracer and bow,
       RIGHT quiver/flute, notices the silence; kesh, mature moth keeper in olive tunic and folded
       grey-brown wings, turns from coiled cable. Noon ochre and brown, sky blue. Screens face away; no text.
+      Add Nib visibly on the right across the table from Taeo on the left; Sera and Kesh remain behind.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "MINHO'S CREW IS COMING. WE HAVE A WAY TO HOLD TWO THRESHOLDS."}
+      - {who: taeo, type: speech, side: l, text: "MINHO'S CREW IS COMING. OUR RELAY CAN HELP TWO TEAMS IN SEPARATE GATES."}
       - {who: nib, type: speech, side: r, text: "YOU HAVE HALF A SECOND AND A BAD HEART."}
   - id: P41
     shape: inset-l
@@ -593,10 +626,11 @@ panels:
       His eyes are bright with the fear of losing the opportunity; one old bruise lies above the
       navy cuff. Noon daylight, simplified container grey and ochre. No laugh, heroic grin,
       visible phone interface or new injury.
+      Taeo's head and shoulders fill the left third; Nib answers from off-panel right beside the packet.
     calm: right
     lines:
       - {who: taeo, type: speech, side: l, text: "I CAN CARRY MY SHARE."}
-      - {who: nib, type: speech, side: r, text: "THIS ISN'T ONLY YOUR SHARE."}
+      - {who: offpanel:nib, type: speech, side: r, text: "YOU'RE RISKING OUR LIVES TOO."}
   - id: P42
     shape: narrow-r
     gap: short
@@ -608,7 +642,7 @@ panels:
       - {kind: phone.info_card, on: screen, hand: taeo_thumb_tap, title: "YEOJU BID · FINAL CONFIRMATION", text: "Commit total: ₩210,000,000 · Applicant: Yoon Taeo's crew · Confirm commitment?"}
     notes: "Review screen, not yet committed. No gross balance or speculative guaranteed winnings."
   - id: P43
-    shape: full
+    shape: tall
     gap: short
     bg: white
     camera: "wide over Sera's shoulder toward the table"
@@ -617,10 +651,11 @@ panels:
       curiosity into warning. Kesh stops coiling. Nib remains at the table, booted feet planted.
       Taeo holds the phone too close to his chest. Noon sun, ochre ground, muted river green
       and blue-grey. No battle pose, arrows drawn, readable screen or magic.
+      Sera approaches from the left, Kesh centre-left, Nib centre and Taeo right; give all figures clear height.
     calm: top
     lines:
-      - {who: sera, type: speech, side: l, text: "TAEO. PUT THAT DOWN A MOMENT."}
-      - {who: taeo, type: speech, side: r, text: "IF I WAIT, I WON'T DO IT."}
+      - {who: sera, type: speech, side: l, text: "TAEO. PUT THE PHONE DOWN A MOMENT."}
+      - {who: taeo, type: speech, side: r, text: "IF I WAIT, I WON'T COMMIT THE MONEY."}
   - id: P44
     shape: strip
     gap: short
@@ -647,7 +682,7 @@ panels:
       - {text: "TAP", style: quiet, at: [0.72, 0.78], size: S, rot: 0}
     notes: "The commitment is now concrete, over Nib's express objection. This is total crew exposure recorded for the bid, not an additional ₩210m on top of sponsor financing."
   - id: P46
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "frontal group reaction from behind Taeo's shoulder"
@@ -656,11 +691,12 @@ panels:
       and nib looks utterly still. Haein has come up behind them holding the unpowered grey
       coupler, eyes wide. Taeo's navy shoulder and phone back fill the near corner. Noon daylight,
       ochre and slate shadows. No comedy faces, sparks, readouts or spectacle.
+      Sera stands left, Kesh centre-left, Nib centre-right and Haein right; Taeo's shoulder stays near right.
     calm: top
     lines:
-      - {who: sera, type: intense, side: l, text: "YOU JUST DID IT?"}
+      - {who: sera, type: intense, side: l, text: "YOU JUST COMMITTED OUR MONEY?"}
   - id: P47
-    shape: vignette
+    shape: full
     gap: long
     bg: white
     camera: "low at Nib's eye height, the empty space between him and Taeo"
@@ -669,6 +705,7 @@ panels:
       mouth beginning an apology that has not come. The plain bid packet sits in the broad empty
       space between them. Nib's adult posture remains straight, chosen boots firm, binoculars still.
       Hard noon sun, muted brown and cool grey. No glow, tears or print.
+      Reverse the view: Nib stands on the left, Taeo on the right, both with space beside the silent table.
     calm: none
     silent: true
   - id: P48
@@ -682,6 +719,7 @@ panels:
       brown rope belt, RIGHT dinosaur-sticker pouch, LEFT wooden sheath, marked binoculars all retained.
       Taeo's hand hangs with the committed phone at frame edge. Noon daylight, dusty ochre,
       brown shadows and a large plain sky-blue upper zone. No cute fury, weapons drawn or lettering.
+      Nib stands on the left and Taeo on the right at the frame edge, matching the final line's side.
     calm: top
     lines:
       - {who: nib, type: speech, side: l, text: "NEXT TIME, ASK ME BEFORE YOU BET MY LIFE TOO."}

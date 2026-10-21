@@ -28,7 +28,7 @@ props:
 palette_notes: "A4 workshop extension: ochre/brown, warm task lamp at night, cool daylight next morning. TV has ordinary blue-white studio light; no sinister Pyo palette. Van afternoon muted grey-blue. Chungju night actual white work lamps, concrete grey, violet-black gate rim. No supernatural sky in this chapter, no link or load transfer. Kesh pale lilac #B7A0D3 reserved for a later consenting link, not active."
 panels:
   - id: P01
-    shape: wide
+    shape: tall
     gap: none
     bg: white
     camera: "table height, Kesh still listening after the recorder has stopped"
@@ -40,10 +40,11 @@ panels:
       Unlit fork-headed wand at RIGHT. His delighted face has become intent, antennae toward
       paused grey recorder. Warm task lamp, brown wood and blue-grey night; no glitter,
       extra limbs, plush face, new transmission or magical remote hearing.
+      Frame kesh seated in the right third with head and antennae clear; taeo is visible waist-up at left.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "REPEATING WHAT, EXACTLY?"}
-      - {who: kesh, type: speech, side: r, text: "I NEED TO SEE WHAT CARRIED IT."}
+      - {who: taeo, type: speech, side: l, text: "WHICH SIGNAL IS BEING REPEATED?"}
+      - {who: kesh, type: speech, side: r, text: "SHOW ME THE SIGNAL POSTS ALONG THE RIVER."}
   - id: P02
     shape: strip
     gap: short
@@ -67,9 +68,10 @@ panels:
       without touching it, two antennae angled forward. His dark eyes track the dogleg groove,
       lips parting in professional recognition, not mystical trance. Warm lamp from lower left,
       blue-grey background. No glowing pupils, alphabetic runes, time symbols or named maker.
+      Kesh's face fills the right third; leave the left margin plain.
     calm: left
     lines:
-      - {who: kesh, type: speech, side: r, text: "UNDER THE LIP. THERE. THAT TURN."}
+      - {who: kesh, type: speech, side: r, text: "THE GROOVE TURNS UNDER THE SOCKET LIP."}
   - id: P04
     shape: wide
     gap: short
@@ -81,6 +83,7 @@ panels:
       and haein, slate overalls, look at the images, not at invisible signals. The
       gesture is precise, his mature profile certain about craft alone. Warm lamp,
       brown wood/grey stone pictures, cool shadows. No actual old stone removed from gate.
+      Seated group framed waist-up: haein at left, taeo centre, kesh's speaking profile at right.
     calm: top
     lines:
       - {who: kesh, type: speech, side: r, text: "THE SAME HAND MADE THESE."}
@@ -94,17 +97,19 @@ panels:
     shape: full
     gap: long
     bg: white
-    camera: "establishing next morning from the open forecourt into the same bay"
+    camera: "morning group view, Haein at left addressing Kesh seated at right"
     art: >
       mapo_tyre_base next morning: same raised shutter, scarred table, tyre racks and
       broad forecourt. kesh sits rested at the table with wings clear behind the chair,
       haein across from him; taeo brings water, nib checks gear on a low crate, sera
       oils her bowstring safely. orrin rests outside. Cool daylight, A4 ochre/brown
       with blue-grey shadows. No new lab, TV on yet, paperwork ownership stamp or readable board.
+      Haein sits at left and Kesh at right with the survey photos between them; Taeo brings water in the centre.
     calm: top
     lines:
       - {who: narr, type: tag, text: "THE NEXT MORNING · SEOUL"}
-      - {who: taeo, type: float, text: "HE SLEPT. WE HAD TO BE TOLD TO."}
+      - {who: taeo, type: float, text: "KESH SLEPT. THE REST OF US NEEDED REMINDING."}
+      - {who: haein, type: speech, side: l, text: "IS THAT GROOVE A SIGNATURE?"}
   - id: P07
     shape: strip
     gap: short
@@ -116,12 +121,12 @@ panels:
       separate hand steadies the photo. Olive and slate cuffs, five fingers per hand.
       Cool daylight over tan paper and brown tabletop, hard blue-grey shadows. No
       powered relay, electronics solved, glyph writing or diagram of the river loop.
+      Only hands, wire and photo are drawn. Kesh sits off-panel right, beside his olive-cuffed hand.
     calm: top
     lines:
-      - {who: haein, type: speech, side: l, text: "A SIGNATURE?"}
-      - {who: kesh, type: speech, side: r, text: "A HABIT. YOU TUCK THE RETURN WHERE THE WATER CAN'T GET AT IT."}
+      - {who: "offpanel:kesh", type: speech, side: r, text: "A CRAFT HABIT. TUCK THE RETURN CHANNEL UNDER THE LIP TO KEEP WATER OUT."}
   - id: P08
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "profile two-shot, Taeo leaning toward Kesh's demonstration"
@@ -131,10 +136,11 @@ panels:
       gentle hand before that hope runs ahead. Wire stays on paper. Cool daylight,
       ochre/brown workroom, blue-grey shadows. No projected network, proof of who
       made the interface or magical interface light.
+      Taeo occupies the left third and Kesh the right; keep both speaking faces clear.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "THEN YOU KNOW WHO BUILT THE LINE?"}
-      - {who: kesh, type: speech, side: r, text: "NO. SOMEONE COULD HAVE LEARNED THE SAME WAY."}
+      - {who: taeo, type: speech, side: l, text: "THEN YOU KNOW WHO BUILT THE RIVER RELAYS?"}
+      - {who: kesh, type: speech, side: r, text: "NO. DIFFERENT MAKERS CAN LEARN THE SAME CRAFT."}
   - id: P09
     shape: inset-l
     gap: short
@@ -159,12 +165,13 @@ panels:
       a playful teacher's smile and relaxed antennae. Unlit wand at RIGHT; all
       equipment still unpowered. Cool daylight, brown wood/slate shadows. No brand
       lettering, finished invention or premature three-anchor load routing.
+      Frame both seated characters waist-up: haein left, kesh right, both faces and tools visible.
     calm: top
     lines:
-      - {who: haein, type: speech, side: l, text: "TEACH ME WHY THAT TURN MATTERS."}
+      - {who: haein, type: speech, side: l, text: "TEACH ME WHY THE GROOVE TURNS UNDER THE SOCKET."}
       - {who: kesh, type: speech, side: r, text: "GLADLY. FIRST TEACH ME WHICH OF YOUR BOXES SHOUTS."}
   - id: P11
-    shape: wide
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -175,12 +182,13 @@ panels:
       ordinary unlit alarm clock while chibi kesh, olive tunic/four wings/two
       antennae, leans toward it with delighted suspicion. Chibi taeo, navy jacket,
       holds up both hands. No clock rings, sensory pain, magic or readable dial.
+      Haein stands left, Taeo centre and Kesh right; leave vertical room for their chibi bodies.
     calm: top
     lines:
-      - {who: haein, type: speech, side: l, text: "NOT THAT ONE. IT'S OFF DUTY."}
+      - {who: haein, type: speech, side: l, text: "LEAVE THE ALARM CLOCK. IT'S OFF DUTY."}
       - {who: kesh, type: speech, side: r, text: "I RESPECT A UNIONISED BOX."}
   - id: P12
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "from inside the bay toward Chae entering through the raised shutter"
@@ -190,6 +198,7 @@ panels:
       blue-folio tablet. Her competent face is drawn tired around the eyes. taeo,
       navy jacket, takes a chair out for her; orrin leaves the entry broad. Cool
       daylight, A4 ochre/brown and slate shadow. Envelope plain, tablet dark, no enforcement escort.
+      Chae stands in the right third; Kesh is seated visibly at left, looking up to answer her.
     calm: top
     lines:
       - {who: chae, type: speech, side: r, text: "KESH? I'M CHAE YURI. I'D LIKE TO FILE YOUR ARRIVAL REPORT."}
@@ -205,10 +214,11 @@ panels:
       professional; kesh's grey-tan hand waits beside the pen. Daylight from left,
       paper white and muted navy/brown shadows. No ownership field filled, signature
       generated in art, electronic green screen or newly passed law.
+      Chae's speaking face is in the right third with her pen hand below; Kesh stays off-frame left.
     calm: left
     lines:
       - {who: chae, type: speech, side: r, text: "YES. IT'S YOUR NAME."}
-      - {who: chae, type: speech, side: r, text: "THIS FORM IS EXISTING LAW. THE OTHER THING ISN'T. YET."}
+      - {who: chae, type: speech, side: r, text: "THE ARRIVAL REPORT IS REQUIRED. THE WORK PERMIT BILL ISN'T LAW."}
   - id: P14
     shape: wide
     gap: short
@@ -220,11 +230,12 @@ panels:
       it; chae, navy cardigan, keeps the arrival form flat on the table. Their faces
       tighten with recognition of the subject. Cool daylight, brown workroom,
       blue-grey shadows. No generated news image, words, public interface or villain lighting.
+      Frame taeo and chae waist-up beneath the TV at left; the unseen reporter's voice comes from that TV.
     calm: top
     ui:
       - {kind: tv.lowerthird, on: screen, text: "ARRIVAL WORK PERMIT BILL · PROPOSAL", ticker: "KANGHAN INSTITUTE BACKS REGISTERED-SPONSOR SCHEME · NOT YET LAW"}
     lines:
-      - {who: reporter, type: phone, side: l, text: "DR. PYO, WHY TIE A PERMIT TO A SINGLE SPONSOR?"}
+      - {who: "offpanel:reporter", type: phone, side: l, text: "DR. PYO, WHY TIE A PERMIT TO A SINGLE SPONSOR?"}
   - id: P15
     shape: full
     gap: short
@@ -237,6 +248,7 @@ panels:
       plain press-room wall with microphones. His patient expression is sincerely
       explanatory, not sinister. Blue-white studio light and light slate shadows,
       muted institutional palette. No generated banner, lettering or leering smile.
+      Pyo is centred waist-up, his entire speaking face visible.
     calm: top
     ui:
       - {kind: tv.lowerthird, on: panel, text: "DR. PYO JAESUNG · KANGHAN INSTITUTE", ticker: "PROPOSED ARRIVAL WORK PERMIT BILL"}
@@ -272,6 +284,7 @@ panels:
       V-notch LEFT ear, high matte binoculars, rope belt and belt props intact.
       Cool daylight on muted olive/pinkish-tan, brown wall and blue-grey shadow.
       No cute anger, danger aura or chibi under this line.
+      Nib's face sits in the left third, looking toward Taeo off-panel right.
     calm: right
     lines:
       - {who: nib, type: speech, side: l, text: "SO WE'RE YOURS AGAIN. ON PAPER."}
@@ -286,9 +299,10 @@ panels:
       lies between him and nib's scarred hand, not under his control. Cool daylight,
       brown tabletop and grey-blue shadows. No chibi, imaginary chains, angry glow
       or triumphant sponsor signature.
+      Taeo's face occupies the right third above the paper, cropped from the waist up.
     calm: top
     lines:
-      - {who: taeo, type: nervous, side: r, text: "NO. THAT'S NOT WHAT WE—"}
+      - {who: taeo, type: nervous, side: r, text: "NO. WE NEVER AGREED TO OWNERSHIP."}
   - id: P19
     shape: strip
     gap: short
@@ -313,9 +327,10 @@ panels:
       face intent. kesh watches his own form; taeo sits back. Closed blue tablet
       remains on the bench. Cool daylight, brown/grey shadows. No stamp of seizure,
       cooperative charter, ready legal loophole or enacted bill graphic.
+      Seated waist-up composition: chae left, taeo centre, kesh right; the two documents remain separate.
     calm: top
     lines:
-      - {who: chae, type: speech, side: l, text: "THIS ISN'T LAW TODAY. DON'T LET THE BROADCAST MAKE IT LAW IN THIS ROOM."}
+      - {who: chae, type: speech, side: l, text: "THE SPONSOR BILL IS ONLY A PROPOSAL. YOU HAVEN'T LOST YOUR RIGHT TO LEAVE."}
       - {who: chae, type: speech, side: l, text: "KESH STILL FILES AS AN ARRIVAL. UNDER HIS OWN NAME."}
   - id: P21
     shape: inset-r
@@ -328,12 +343,13 @@ panels:
       together, braid over river-green wrap, LEFT bracer visible. Cool daylight,
       muted green and slate/brown. No brother in the background, lost arm foreshadow
       injury, dramatic tears or active link.
+      Sera's face occupies the right third. Chae stands off-panel left beside the table.
     calm: left
     lines:
       - {who: sera, type: speech, side: r, text: "AND IF THE SPONSOR STOPS PAYING?"}
-      - {who: chae, type: speech, side: l, text: "THE DRAFT STILL SAYS YOU CAN'T CHANGE EMPLOYERS."}
+      - {who: "offpanel:chae", type: speech, side: l, text: "THE DRAFT STILL SAYS YOU CAN'T CHANGE EMPLOYERS."}
   - id: P22
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "mat-height normal two-shot of Orrin and Kesh beside the worktable"
@@ -343,10 +359,11 @@ panels:
       clear chair. Neither is posed as a pet. Kesh's delicate hand rests on his
       own arrival form, troubled but steady. Cool doorway daylight, ochre/brown
       and blue-grey shadow. No chains, brand, signed ownership or crowd tableau.
+      Orrin occupies the left third and Kesh sits at right; give Orrin's shell and Kesh's wings vertical room.
     calm: top
     lines:
-      - {who: orrin, type: speech, side: l, text: "THAT IS A VERY LONG WORD FOR A SHORT ROPE."}
-      - {who: kesh, type: speech, side: r, text: "I ASKED WHETHER I COULD LEAVE THE WORK."}
+      - {who: orrin, type: speech, side: l, text: "SPONSOR IS A LONG WORD FOR A SHORT ROPE."}
+      - {who: kesh, type: speech, side: r, text: "I ASKED TO TAKE A JOB. NOT TO LOSE THE RIGHT TO LEAVE."}
   - id: P23
     shape: wide
     gap: short
@@ -358,11 +375,12 @@ panels:
       from left. His sympathetic frown treats the objection as real, without
       abandoning his view. Blue-white studio key, light slate shadows, blank
       wall and badge. No sinister grin, generated subtitle or legislative victory scene.
+      Pyo is waist-up at right; the unseen reporter and microphone source are off-panel left.
     calm: top
     ui:
       - {kind: tv.lowerthird, on: panel, text: "SINGLE-SPONSOR PROPOSAL DRAWS QUESTIONS", ticker: "ARRIVAL WORK PERMIT BILL · NOT YET LAW"}
     lines:
-      - {who: reporter, type: phone, side: l, text: "WHAT IF THE RELATIONSHIP BREAKS DOWN?"}
+      - {who: "offpanel:reporter", type: phone, side: l, text: "WHAT IF THE RELATIONSHIP BREAKS DOWN?"}
       - {who: dr_pyo, type: phone, side: r, text: "OVERSIGHT IS ESSENTIAL. BUT SOMEONE MUST BE ACCOUNTABLE."}
   - id: P24
     shape: strip
@@ -378,7 +396,7 @@ panels:
     calm: none
     silent: true
   - id: P25
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "profile of Taeo starting to reassure, Nib holding his gaze"
@@ -388,10 +406,11 @@ panels:
       hand on his own edge of the table and looks up at him, expression flat.
       Cool daylight, muted brown/olive and slate shadow. No clasped contract,
       shouted ownership vow, load pulse or chibi.
+      Nib sits at left, Taeo at right, both faces and their separate hands visible.
     calm: top
     lines:
       - {who: taeo, type: speech, side: r, text: "I WON'T LET THEM DECIDE FOR YOU."}
-      - {who: nib, type: speech, side: l, text: "YOU DON'T GET THAT JOB EITHER."}
+      - {who: nib, type: speech, side: l, text: "YOU DON'T GET TO DECIDE FOR US EITHER."}
   - id: P26
     shape: inset-r
     gap: short
@@ -403,12 +422,13 @@ panels:
       escaping into an apology smile. Single mole under RIGHT eye. Cool daylight,
       simple brown/grey background. No anguish spectacle, control interface
       or signed pledge in the drawing.
+      Taeo's speaking face sits in the right third.
     calm: left
     lines:
       - {who: taeo, type: speech, side: r, text: "RIGHT. SORRY."}
       - {who: taeo, type: speech, side: r, text: "I WON'T SIGN AWAY YOUR CHOICE. I'LL STAND WITH YOU."}
   - id: P27
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "across Kesh's shoulder toward Chae and the crew's open hands"
@@ -418,6 +438,7 @@ panels:
       remain on separate papers, no leader gathering signatures. Daylight from
       open shutter, olive/river-green cloth against brown/slate. No boxed speech
       in art, finished cooperative solution, new guild seal or legal victory.
+      Show Kesh's speaking profile at left and Chae's face at right across the table.
     calm: top
     lines:
       - {who: kesh, type: speech, side: l, text: "I'D LIKE MY OBJECTION FILED UNDER MY OWN NAME TOO."}
@@ -436,7 +457,7 @@ panels:
     calm: none
     silent: true
   - id: P29
-    shape: wide
+    shape: tall
     gap: long
     bg: white
     camera: "reverse toward Minho arriving at the open shutter with the departure board"
@@ -446,27 +467,29 @@ panels:
       sees the serious faces and pauses before raising the schedule. taeo,
       navy jacket, stands to listen; kesh keeps his own form. Afternoon cool
       daylight, ochre/brown and blue-grey shadow. No rushed command or anonymous cargo tally.
+      Minho stands left and Kesh sits at right; Taeo stands in the middle with clear space around all three.
     calm: top
     lines:
       - {who: minho, type: speech, side: l, text: "SECOND FULL DESCENT'S SET FOR DAWN. DO YOU STILL WANT IN?"}
       - {who: kesh, type: speech, side: r, text: "I'D LIKE TO SEE THE STONES. WITH SOMEWHERE QUIET TO STOP."}
   - id: P30
-    shape: inset-l
+    shape: tall
     gap: short
     bg: white
-    camera: "close on Sejin writing a rest condition on a separate field card"
+    camera: "seated medium two-shot of Sejin at left and Kesh at right agreeing on breaks"
     art: >
       sejin, sage scrubs and olive medic rig at mapo_tyre_base, sets her own
       blank field card beside minho's schedule, eyebrows raised toward kesh,
       asking him rather than diagnosing by species. He is partly visible at
       right, adult olive tunic. Afternoon daylight, paper tan/brown and slate
       shadow. No sedatives, species restraint, miraculous stamina booster or readable card in art.
+      Show both faces: Sejin at left with her field card, Kesh seated at right with his wand.
     calm: right
     lines:
       - {who: sejin, type: speech, side: l, text: "TEN MINUTES AT A TIME. STOP WHEN IT HURTS."}
       - {who: kesh, type: speech, side: r, text: "I'LL STOP BEFORE I START ADMIRING THE FLOOR."}
   - id: P31
-    shape: wide
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -478,27 +501,29 @@ panels:
       pride. Chibi sejin, sage scrubs/olive rig, hands him its carrying
       strap, while chibi minho's LEFT grey streak seems to droop. No pain,
       collapse, restraints, magical chair or readable certification.
+      Sejin stands left, Minho centre, Kesh right beside the chair; show their full chibi bodies with room.
     calm: top
     lines:
       - {who: kesh, type: speech, side: r, text: "EXCELLENT. MY FIRST LOCAL APPRENTICE."}
-      - {who: sejin, type: speech, side: l, text: "IT HAS ONE SKILL. LEARN IT."}
+      - {who: sejin, type: speech, side: l, text: "THE CHAIR SITS STILL. LEARN FROM IT."}
   - id: P32
-    shape: strip
+    shape: tall
     gap: short
     bg: white
-    camera: "macro as Kesh takes the unlit wand instead of the chair strap"
+    camera: "medium two-shot of Taeo at left and Kesh at right taking his unlit wand"
     art: >
       Back to normal at mapo_tyre_base. kesh's delicate RIGHT five-finger
       hand closes on his unlit fork-headed signal wand; sejin's separate
       hand folds the field chair nearby. Olive sash, sage sleeve, cool
       daylight on dull metal/wood and brown table, blue-grey shadow.
       No link glow, weapon transformation, sponsor tag or binding cord.
+      Show Kesh at right taking the wand, his face steady; Taeo at left meets his eyes to answer. Sejin folds the chair behind them.
     calm: top
     lines:
-      - {who: kesh, type: speech, side: r, text: "I CHOOSE THE JOB. NOT THE ROPE."}
+      - {who: kesh, type: speech, side: r, text: "I CHOOSE THE JOB. I CAN STILL LEAVE."}
       - {who: taeo, type: speech, side: l, text: "UNDERSTOOD."}
   - id: P33
-    shape: vignette
+    shape: full
     gap: long
     bg: white
     camera: "inside the grant-bought van, diagonal across properly belted passenger seats"
@@ -510,12 +535,13 @@ panels:
       belted seat. Equipment cases secured independently. Soft cool road
       daylight and blue-grey interior, no readable signs, handheld screens,
       teleportation montage or harness on Orrin.
+      Frame seated passengers waist-up: sera left, taeo centre, kesh right, with belts and wing clearance visible.
     calm: top
     lines:
       - {who: kesh, type: speech, side: r, text: "DO PEOPLE LIVE IN EVERY ONE OF THOSE BUILDINGS?"}
       - {who: sera, type: speech, side: l, text: "WAIT UNTIL THEY ALL HAVE OPINIONS."}
   - id: P34
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "establishing the Chungju cutting at dusk from the familiar vehicle ramp"
@@ -530,9 +556,9 @@ panels:
     calm: top
     lines:
       - {who: narr, type: tag, text: "CHUNGJU · SURFACE CAMP · DUSK"}
-      - {who: taeo, type: float, text: "THE PAPER HAD FOLLOWED US WITHOUT COMING ALONG."}
+      - {who: taeo, type: float, text: "I WAS STILL THINKING ABOUT THE SPONSOR BILL."}
   - id: P35
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "at base-station height, Haein showing Kesh the physical line through the frame"
@@ -543,9 +569,10 @@ panels:
       stands dry-side with unlit wand RIGHT; he examines with hands off.
       White lamp key, grey concrete/violet shadows. No wireless threshold
       signal, old posts outside, active interface or descent yet.
+      Haein stands left and Kesh right, both wholly outside the threshold with their faces visible.
     calm: top
     lines:
-      - {who: haein, type: speech, side: l, text: "TRIPODS EVERY FIFTY METRES. CUT THIS, THE VOICES DON'T CROSS THE THRESHOLD."}
+      - {who: haein, type: speech, side: l, text: "RELAY TRIPODS EVERY FIFTY METRES. IF THIS CABLE BREAKS, VOICES CAN'T CROSS THE GATE."}
       - {who: kesh, type: speech, side: r, text: "SHOW ME THE JOIN. DON'T DISCONNECT IT."}
   - id: P36
     shape: strip
@@ -562,7 +589,7 @@ panels:
     calm: none
     silent: true
   - id: P37
-    shape: wide
+    shape: full
     gap: short
     bg: black
     camera: "low across the base-station speaker toward the actual upstream leader"
@@ -573,10 +600,11 @@ panels:
       turn toward it. kesh's tall olive-clad profile at the edge listens,
       antennae upright. White work-lamp key, blue-grey night and violet
       tunnel shadow. No matching moving mouth, villain pose or chibi.
+      The recorded voice comes from the speaker at left. Minho stands centre and the actual meridian_lead at right.
     calm: top
     lines:
-      - {who: meridian_lead, type: phone, side: l, text: "UPSTREAM TEAM: ROCKFALL AT MARKER 9, HOLD POSITION."}
-      - {who: meridian_lead, type: speech, side: r, text: "NO TRANSMISSION FROM MY SET. AGAIN."}
+      - {who: "offpanel:meridian_lead", type: phone, side: l, text: "UPSTREAM TEAM: ROCKFALL AT MARKER 9, HOLD POSITION."}
+      - {who: meridian_lead, type: speech, side: r, text: "MY RADIO NEVER TRANSMITTED THAT WARNING. AGAIN."}
     notes: "PLANT P15: a new repeat on the intact wired river line, denied by the physically present source team. No cause identified."
   - id: P38
     shape: inset-r
@@ -589,10 +617,11 @@ panels:
       face losing its social smile. His RIGHT hand steadies the unlit
       wand against his leg, no spell. White lamp side key, slate/violet
       shadow. No glowing pulse, timing formula, pain caricature or hidden caller.
+      Kesh's face sits at right; Haein is off-panel left beside the base station.
     calm: left
     lines:
       - {who: kesh, type: whisper, side: r, text: "MAY I STAY HERE AND LISTEN FOR A LITTLE?"}
-      - {who: haein, type: speech, side: l, text: "WITH THE VOLUME LOW. I'LL SIT WITH YOU."}
+      - {who: "offpanel:haein", type: speech, side: l, text: "WITH THE VOLUME LOW. I'LL SIT WITH YOU."}
   - id: P39
     shape: strip
     gap: long
@@ -608,7 +637,7 @@ panels:
     calm: none
     silent: true
   - id: P40
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "medium across the canopy table as Sejin puts a cup into Kesh's reach"
@@ -619,6 +648,7 @@ panels:
       haein keeps the recorder running physically beside the live
       base station. White work lamp, muted olive/brown and violet-grey
       concrete. No active link, medical cure, exhaustion erased or inside return marks.
+      Sejin stands left, Haein sits centre at the recorder, Kesh sits right; keep all faces visible.
     calm: top
     lines:
       - {who: sejin, type: speech, side: l, text: "BREAK NOW. YOU AGREED."}
@@ -636,14 +666,15 @@ panels:
       board is blank with one large empty departure field. White work
       lamps, grey concrete/navy/violet shadow. No deep-route map certified
       safe, boss plan or accusation showdown before ch 67.
+      Minho stands in the left third, meridian_lead in the right third; give the assembled standing crew room.
     calm: top
     ui:
       - {kind: label, text: "SECOND DESCENT · DAWN · 05:30", at: [0.51, 0.29], notes: "On board's blank departure field."}
     lines:
-      - {who: minho, type: speech, side: l, text: "SECOND FULL DESCENT. DAWN. CONFIRM EVERY TEAM BEFORE MOVEMENT."}
+      - {who: minho, type: speech, side: l, text: "SECOND FULL DESCENT AT DAWN. EVERY TEAM MUST CONFIRM BEFORE ANYONE MOVES."}
       - {who: meridian_lead, type: speech, side: r, text: "ANY UNVERIFIED WARNING: HOLD, THEN CHECK. NO CHASING A VOICE."}
   - id: P42
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low near Orrin's face under the canopy edge, dinner bowls above"
@@ -654,15 +685,16 @@ panels:
       at the other end, chair stable; nib in boots on low crate. Steam
       from ordinary food, white work lamp with muted brown/slate shadows.
       No harness, load of bowls on Orrin or scenic festival lighting.
+      Orrin's face and shell occupy the left third; Sera sits at right, Kesh and Nib further behind.
     calm: top
     lines:
       - {who: orrin, type: speech, side: l, text: "THE TENT HAS NO DOOR. IMPROVEMENT."}
       - {who: sera, type: speech, side: r, text: "DON'T GIVE THEM IDEAS. THEY'LL CHARGE RENT."}
   - id: P43
-    shape: inset-l
+    shape: tall
     gap: short
     bg: white
-    camera: "close at Nib's eye line, his boot scraping dried river grit off the sole"
+    camera: "seated three-quarter view at Nib's eye line, his face and lifted boot both visible"
     art: >
       nib at chungju_gate_site, adult default with his exact ch 43
       chosen boots, cleans dry grit from one sole with a short twig,
@@ -670,13 +702,14 @@ panels:
       pouch and brown LEFT sheath retained. His face is composed,
       attentive toward the speaker off right. White lamp, muted brown
       and slate-violet shadow. No barefoot change, new damage or text.
+      Nib is seated at left with his knee raised, boot supported on a low crate; show his adult face and boot together.
     calm: none
     silent: true
   - id: P44
-    shape: wide
+    shape: tall
     gap: short
     bg: white
-    camera: "profile two-shot at the dry frame, Taeo demonstrating the knock to Kesh"
+    camera: "three-person view at the dry frame, Taeo left, Nib centre and Kesh right"
     art: >
       taeo, navy jacket at chungju_gate_site, shows kesh the outer
       scaffold crossbrace with two relaxed knuckles held near it,
@@ -685,14 +718,15 @@ panels:
       cable passes below; all stay dry-side. White work lamp and
       violet gate rim, grey concrete. No recall activated, live test,
       hidden imitator or text painted on metal.
+      Show all three speaking faces: Taeo at left, Nib in the middle on a low crate, Kesh at right.
     calm: top
     lines:
       - {who: taeo, type: speech, side: l, text: "IF THE LINE FAILS: TWO KNOCKS FROM OUTSIDE MEAN COME BACK."}
-      - {who: nib, type: speech, side: r, text: "THREE FROM INSIDE. COMING."}
+      - {who: nib, type: speech, side: c, text: "THREE KNOCKS FROM INSIDE MEAN WE'RE COMING."}
       - {who: kesh, type: speech, side: r, text: "GOOD. FEWER WORDS TO GET LOST."}
     notes: "Knock continuity only; predator mimicry is not introduced. No actual recall while all are outside."
   - id: P45
-    shape: vignette
+    shape: full
     gap: long
     bg: white
     camera: "high wide view over the camp as people settle by their own equipment"
@@ -704,6 +738,7 @@ panels:
       open canopy edge. kesh sits beside a dimmed recorder, resting.
       White work lamps give hard pools on concrete, blue-grey/violet
       shadow. No festive glitter, sleeping unattended gate or inside sky.
+      Use the full panel height for the standing camp workers and seated listeners.
     calm: top
     lines:
       - {who: taeo, type: float, text: "I COULD SAY THE RULES. I WAS STILL LEARNING TO KEEP THEM."}
@@ -715,9 +750,9 @@ panels:
     art: "KIT HAND"
     calm: none
     ui:
-      - {kind: phone.ttok_chat, on: screen, hand: taeo_left_tilt, title: "CHAE YURI · AAO", messages: [{from: them, text: "Arrival report received. Kesh's objection is attached to my submission. No outcome promised.", time: "21:08"}, {from: me, text: "Thank you. I'll tell him.", time: "21:09"}]}
+      - {kind: phone.ttok_chat, on: screen, hand: taeo_left_tilt, title: "CHAE YURI · AAO", messages: [{from: them, text: "ARRIVAL REPORT RECEIVED. KESH'S OBJECTION IS ATTACHED TO MY SUBMISSION. NO OUTCOME PROMISED.", time: "21:08"}, {from: me, text: "THANK YOU. I'LL TELL HIM.", time: "21:09"}]}
     lines:
-      - {who: taeo, type: float, text: "ONE PAGE WAS NOT A DOOR. IT WAS SOMETHING."}
+      - {who: taeo, type: float, text: "AN OBJECTION ON RECORD. SOMETHING I COULD ACTUALLY DO."}
     notes: "These are fictional TTOK messages, not dialogue bubbles. Chae records objections; no co-op solution or legislative success yet."
   - id: P47
     shape: strip
@@ -734,7 +769,7 @@ panels:
     calm: none
     silent: true
   - id: P48
-    shape: wide
+    shape: tall
     gap: short
     bg: black
     camera: "side view, Taeo pausing beside Kesh with the phone face down"
@@ -745,10 +780,11 @@ panels:
       wings, keeps his gaze on the quiet receiver. Haein has moved
       a second chair within reach. White work-lamp key, slate/violet
       shadow. No glowing UI, ready order, imaginary river through wall or alarm.
+      Taeo stands left, Kesh sits right, Haein is behind the spare chair in the centre.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "CHAE FILED IT. IN YOUR NAME."}
-      - {who: kesh, type: speech, side: r, text: "THANK YOU. TAEO—STAY A MOMENT?"}
+      - {who: taeo, type: speech, side: l, text: "CHAE FILED YOUR OBJECTION UNDER YOUR NAME."}
+      - {who: kesh, type: speech, side: r, text: "THANK YOU. TAEO, WILL YOU STAY A MOMENT?"}
   - id: P49
     shape: inset-l
     gap: long
@@ -779,6 +815,7 @@ panels:
       White lamp hard key, deep violet/blue-grey shadows, ample
       plain upper dark. No loop diagram, equal-delay solution,
       predator, time distortion, dawn sunlight or person crossing.
+      Kesh sits in the right third, Taeo in the left third; both remain outside the gate.
     calm: top
     lines:
       - {who: kesh, type: whisper, side: r, text: "THE REPEATS ARE GETTING CLOSER TOGETHER."}

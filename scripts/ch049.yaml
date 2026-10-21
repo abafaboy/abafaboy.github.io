@@ -27,7 +27,7 @@ props:
 palette_notes: "AAO A4 blue-white, slate, navy; test dummy muted safety orange, mechanical constructs ivory-grey without interface cyan. Yard ochre/warm brown/sky blue by day, amber practical lamp and navy evening. Draw hall institutional blue-white/slate adapted to west glass. Cyan reserved for Taeo's private interface; amber in his RIGHT palm only for Nib, slate-green for Orrin."
 panels:
   - id: P01
-    shape: wide
+    shape: tall
     gap: none
     bg: white
     camera: "over Doyun's shoulder toward the east operator rail"
@@ -35,6 +35,7 @@ panels:
       Continue aao_practical_hall: park_doyun default charcoal coat and LEFT map case foreground; taeo outdoor
       straightens with involuntary deference at the east rail. Nib default in chosen boots stands beside him,
       weathered and watchful. High west daylight, A4 blue-white/slate. No celebrity flashes, new nameplate or glowing constructs.
+      Doyun stands in the left foreground, Nib in the middle, Taeo in the right third. Keep Doyun's speaking profile visible.
     calm: top
     lines:
       - {who: taeo, type: nervous, side: r, text: "MR. PARK. I'VE WATCHED YOUR FOOTWORK LESSON SIX TIMES."}
@@ -52,7 +53,7 @@ panels:
     sfx:
       - {text: "TIK TIK TIK", style: quiet, at: [0.46, 0.66], size: S, rot: -8}
   - id: P03
-    shape: full
+    shape: tall
     gap: short
     bg: white
     silent: true
@@ -72,16 +73,17 @@ panels:
       nib default studies the constructs' feet offscreen, eyes sharp under spiky hair, LEFT notch clear.
       Binoculars hang high, brown belt props and chosen boots retained below crop. Aao_practical_hall ceiling
       light, flat blue-white background. Adult angular jaw, not round; no weapon drawn or amber aura.
+      Nib's face occupies the left third of this head-and-shoulders close-up.
     calm: right
     lines:
-      - {who: nib, type: speech, side: l, text: "THEY DON'T WASTE A STEP."}
+      - {who: "nib", type: "speech", side: "l", text: "THE CONSTRUCTS DON'T WASTE A STEP."}
   - id: P05
     kind: title
     gap: long
     bg: white
     title_text: "CHAPTER 49 · THE CARTOGRAPHER"
   - id: P06
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "side-on along the folding-wall station"
@@ -90,9 +92,10 @@ panels:
       without touching them; three wait at the bridge station in the background. Their faceless wedge heads
       remain physically upright while torsos pivot. West daylight, blue-white walls and slate shadows; no blur,
       magic trails or hidden additional frames.
+      The constructs fill the course; Doyun stands beyond the right edge of the panel at the operator rail.
     calm: top
     lines:
-      - {who: park_doyun, type: speech, side: r, text: "PLAN THE EXIT BEFORE THE ENTRY."}
+      - {who: "offpanel:park_doyun", type: "speech", side: "r", text: "PLAN THE EXIT BEFORE THE ENTRY."}
   - id: P07
     shape: strip
     gap: none
@@ -106,7 +109,7 @@ panels:
     sfx:
       - {text: "TIK", style: quiet, at: [0.69, 0.51], size: S, rot: 0}
   - id: P08
-    shape: full
+    shape: tall
     gap: short
     bg: white
     camera: "north-side reverse across the bridge demonstration"
@@ -119,7 +122,7 @@ panels:
     lines:
       - {who: taeo, type: float, text: "SIX VIDEOS. I STILL MISSED WHAT HIS HAND DID."}
   - id: P09
-    shape: inset-r
+    shape: wide
     gap: short
     bg: white
     style: chibi
@@ -128,12 +131,13 @@ panels:
       CHIBI taeo outdoor tries to count seven tasks on his own five fingers and runs out, sweat drop
       enormous. Chibi nib with LEFT notch, boots, binoculars and correct belt props simply folds his arms.
       Flat AAO pale-blue screentone; overhead-light colour. No literal extra fingers or duplication of either character.
+      Crop both chibi figures at the waist: Nib on the left, Taeo on the right, counting hands in the middle.
     calm: left
     lines:
       - {who: taeo, type: nervous, side: r, text: "I BROUGHT THREE PEOPLE AND ONE BRAIN."}
       - {who: nib, type: speech, side: l, text: "WE BROUGHT OURS."}
   - id: P10
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "across the east operator rail, examiner opposite candidate"
@@ -141,10 +145,11 @@ panels:
       park_doyun default places a blank score sheet on the rail between himself and taeo outdoor; seven
       constructs stand quietly beyond him. Taeo listens, brow furrowed; his crew waits at south start.
       Aao_practical_hall overhead blue-white and west daylight, slate rail. No summoned UI, readable rubric or smirk.
+      Doyun stands on the left across the rail from Taeo on the right; keep the seven constructs distinct behind him.
     calm: top
     lines:
-      - {who: park_doyun, type: speech, side: l, text: "SAME ROUTE. THREE STATIONS. RECOVER THE DUMMY."}
-      - {who: park_doyun, type: speech, side: l, text: "I SCORE YOUR DECISIONS. NOT THEIR OUTPUT."}
+      - {who: "park_doyun", type: "speech", side: "l", text: "SAME ROUTE. THREE STATIONS. RECOVER THE DUMMY."}
+      - {who: "park_doyun", type: "speech", side: "l", text: "I SCORE YOUR DECISIONS, NOT HOW MUCH FORCE YOUR COMPANIONS PRODUCE."}
   - id: P11
     shape: strip
     gap: short
@@ -159,7 +164,7 @@ panels:
       - {kind: label, text: "PASS: 60 / 100", at: [0.37, 0.28]}
       - {kind: label, text: "UNCONTROLLED IMPACT: IMMEDIATE STOP", at: [0.43, 0.55]}
   - id: P12
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "from course start across the three companions toward Taeo"
@@ -167,20 +172,22 @@ panels:
       nib default in chosen boots, orrin default and sera default face taeo outdoor at aao_practical_hall's
       south start. Taeo has moved to their eye line, hands open, asking rather than pointing. Sera's bow
       lowered LEFT, flute RIGHT; Orrin unladen. Overhead blue-white, slate floor. No active hazard or link without consent.
+      Sera stands in the left third, Nib in the middle, Taeo on the right; Orrin faces Taeo just behind Nib. All four faces are visible.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "NIB, SCOUT. ORRIN, BRACE. SERA, WATCH THE SHUTTER. ALL RIGHT?"}
-      - {who: sera, type: speech, side: l, text: "YOUR EXAM. OUR KNEES."}
-      - {who: nib, type: speech, side: c, text: "AGREED."}
+      - {who: "taeo", type: "speech", side: "r", text: "NIB, SCOUT. ORRIN, BRACE. SERA, WATCH THE SHUTTER. ALL RIGHT?"}
+      - {who: "sera", type: "speech", side: "l", text: "IT'S YOUR EXAM. WE TAKE THE KNOCKS."}
+      - {who: "nib", type: "speech", side: "c", text: "AGREED."}
   - id: P13
-    shape: inset-l
+    shape: full
     gap: short
     bg: white
-    camera: "low three-quarter close on Orrin"
+    camera: "low three-quarter view of Orrin settling into a stable stance"
     art: >
       orrin default lowers his broad slate-backed body into a stable stance, heavy-lidded eyes on taeo
       outside the aao_practical_hall lane. His expression is gently matter-of-fact, not obedient vacancy.
       West daylight edges stacked shell, blue-white floor reflects faintly beneath. No saddle, straps, cute smile or glowing scutes.
+      Orrin occupies the left third; leave room for his adult body and braced forefeet.
     calm: right
     lines:
       - {who: orrin, type: speech, side: l, text: "ASK FOR WHAT I CAN CARRY."}
@@ -197,7 +204,7 @@ panels:
     calm: none
     notes: "Consent established P12–P13. Nib amber, Orrin slate-green; preparatory mechanical channel only. Sera unlinked here."
   - id: P15
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low inside first wall gap, Nib moving toward camera"
@@ -206,11 +213,12 @@ panels:
       soft, fingers feeling its moving edge without grabbing. Binoculars secured flat by one forearm; belt
       props correct. Two ivory-grey constructs move the remote wall sections beyond. Blue-white tube light,
       slate shadows, no drawn knife or violent attack.
+      Nib occupies the left third moving through the gap; frame him with room from boots to face.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "RIGHT GAP. IT OPENS TWICE."}
+      - {who: "nib", type: "speech", side: "l", text: "RIGHT GAP. USE ITS SECOND OPENING."}
   - id: P16
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "over Taeo's shoulder through the east rail"
@@ -218,10 +226,11 @@ panels:
       taeo outdoor watches two wall openings at once, gaze caught at the wrong one for a beat. Through
       the nearer gap Orrin waits patiently; Nib points to the second. Doyun observes from north rail with
       blank clipboard. AAO blue-white and slate, fixed padded lane. No ambiguous teleport or hidden course switch.
+      Taeo occupies the right foreground, with his speaking profile visible; Nib points from the left through the second gap. Orrin waits in the middle, Doyun farther back.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "ORRIN, WAIT FOR THE—"}
-      - {who: nib, type: speech, side: l, text: "SECOND OPENING. NOW."}
+      - {who: "taeo", type: "speech", side: "r", text: "ORRIN, WAIT FOR THE RIGHT GAP."}
+      - {who: "nib", type: "speech", side: "l", text: "SECOND OPENING. NOW."}
   - id: P17
     shape: tall
     gap: short
@@ -246,9 +255,9 @@ panels:
       Aao_practical_hall west daylight, blue-white/slate; no readable deduction mark or invisible screen.
     calm: left
     lines:
-      - {who: taeo, type: float, text: "HE SAW THE WAIT I COULDN'T AFFORD."}
+      - {who: "taeo", type: "float", side: "r", text: "DOYUN SAW EVERY SECOND I WASTED."}
   - id: P19
-    shape: full
+    shape: tall
     gap: short
     bg: white
     camera: "side establishing of the bridge station"
@@ -257,10 +266,11 @@ panels:
       dummy on its near edge, padded counterweight arm swinging in a visible fixed arc. Nib scouts the hinge,
       Orrin approaches deck squarely, Sera studies north shutter. Three constructs operate apparatus; four
       stand clear north. Overhead blue-white light, slate and muted orange. No lethal fall or dungeon.
+      Sera stands in the right third by the shutter, Nib checks the hinge in the middle, Orrin approaches from the left. Taeo remains outside the crop to the left at the rail.
     calm: top
     lines:
-      - {who: sera, type: speech, side: r, text: "SHUTTER CYCLES AFTER THE ARM."}
-      - {who: taeo, type: speech, side: l, text: "ONE THING AT A TIME."}
+      - {who: "sera", type: "speech", side: "r", text: "THE SHUTTER OPENS AFTER THE PADDED ARM SWINGS."}
+      - {who: "offpanel:taeo", type: "speech", side: "l", text: "ONE THING AT A TIME."}
   - id: P20
     shape: strip
     gap: short
@@ -270,24 +280,26 @@ panels:
       nib's scarred olive hand checks the hard stop behind the padded arm, stopping well outside the
       pinch line. Brown rope belt and chosen boot toe at lower edge, AAO rubber padding above. Cool ceiling
       light, slate mechanics. Clear physical hinge and intact safety stop, no knife used as a prybar or readable measurements.
+      Keep the crop on Nib's hand, the hinge and padding. Nib is beyond the left edge, Orrin farther left outside the crop.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "I CAN TAKE THIS. LEFT TO ORRIN."}
+      - {who: "offpanel:nib", type: "speech", side: "l", text: "I CAN TAKE THE ARM'S PRESSURE. SEND SOME LEFT TO ORRIN."}
   - id: P21
-    shape: wide
+    shape: tall
     gap: short
     bg: white
-    camera: "front three-quarter on Taeo outside the course"
+    camera: "front three-quarter full-figure view of Taeo outside the course"
     art: >
       taeo outdoor braces feet outside aao_practical_hall east rail, RIGHT hand low and open, gaze along
       the prepared line between Nib and Orrin. Small amber and slate-green points under palm skin, existing
       forearm bruise unchanged. Blue-white overhead light, slate floor. No large energy beam, reservoir device or interface statistic.
+      Taeo occupies the right third. Orrin is beyond the left edge inside the course.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "LEFT TO ORRIN. READY?"}
-      - {who: orrin, type: speech, side: l, text: "READY."}
+      - {who: "taeo", type: "speech", side: "r", text: "PRESSURE FROM NIB TO ORRIN. READY?"}
+      - {who: "offpanel:orrin", type: "speech", side: "l", text: "READY."}
   - id: P22
-    shape: wide
+    shape: full
     gap: none
     bg: white
     camera: "low across Nib's braced shoulder toward Orrin's planted forefeet"
@@ -296,6 +308,7 @@ panels:
       Orrin's planted forefeet accept a bounded share of pressure, deck settling level beneath him. Both
       faces concentrated, not suffering. Ceiling blue-white and slate, short physical impact lines only. No glow
       on their bodies, cracked shell, dangerous strike or new wound.
+      Nib occupies the left third and Orrin the right; preserve room for Nib's planted boots and Orrin's planted forefeet.
     calm: top
     sfx:
       - {text: "THUP", style: impact, at: [0.30, 0.40], size: M, rot: -6}
@@ -320,6 +333,7 @@ panels:
       canvas drag mat, hands actually gripping the loops. Sera's bow rests slung safely out of the way.
       Taeo remains outside east rail. West light, blue-white/slate and one muted orange dummy; no person carried
       astride Orrin, harness or cheerful victory pose yet.
+      Taeo occupies the right edge outside the rail, face visible; Nib and Sera cross with the dummy in the middle, Orrin braces on the left.
     calm: top
     lines:
       - {who: taeo, type: speech, side: r, text: "CLEAR THE HINGE. THEN LET GO."}
@@ -332,9 +346,10 @@ panels:
       sera default plants herself just outside the sliding shutter's path, LEFT bracer visible as she points
       with the free right hand. Angular adult face intent, braid over her back and flute RIGHT hip.
       Aao_practical_hall north station overhead blue-white, slate shutter; no arrow fired into equipment or link glow.
+      Waist-up crop of Sera on the left; include her face and pointing hand, with feet outside frame.
     calm: right
     lines:
-      - {who: sera, type: speech, side: l, text: "IT'S OPEN. SAY GO."}
+      - {who: "sera", type: "speech", side: "l", text: "THE SHUTTER'S OPEN. SAY GO."}
   - id: P26
     shape: inset-r
     gap: short
@@ -344,9 +359,10 @@ panels:
       taeo outdoor looks back at Orrin's bridge stance instead of north shutter, trying to confirm one
       safety condition too many. Brow contracted, mouth halfway through a word. AAO ceiling strip light and
       plain slate station shapes; no photographic depth blur, injury grimace or magical time stop.
+      Taeo's face occupies the right third of this close-up.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: r, text: "WAIT. ORRIN'S FOOT—"}
+      - {who: "taeo", type: "speech", side: "r", text: "WAIT. IS ORRIN'S FOOT CLEAR?"}
   - id: P27
     shape: strip
     gap: none
@@ -360,7 +376,7 @@ panels:
       shapes, no readable clock or impact sparks.
     calm: none
   - id: P28
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "from behind the closed shutter's guardrail toward the crew"
@@ -368,12 +384,13 @@ panels:
       nib and sera wait with the dummy, frustrated but attentive; orrin stands free of the bridge now,
       forefeet plainly stable. Taeo outside east rail sees that his concern was already resolved. Doyun
       quietly observes north-right. Aao_practical_hall overhead blue-white, slate shadows. No time penalty displayed yet.
+      Orrin occupies the left third, Nib and Sera the middle with the dummy, Taeo the right beyond the rail; Doyun observes farther back.
     calm: top
     lines:
-      - {who: orrin, type: speech, side: l, text: "MY FOOT WAS ALREADY BACK."}
-      - {who: taeo, type: speech, side: r, text: "SORRY. NEXT OPENING. ON SERA'S CALL."}
+      - {who: "orrin", type: "speech", side: "l", text: "MY FOOT WAS ALREADY CLEAR."}
+      - {who: "taeo", type: "speech", side: "r", text: "SORRY. NEXT OPENING. ON SERA'S CALL."}
   - id: P29
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low north mat facing the opening exit"
@@ -382,6 +399,7 @@ panels:
       front loop and Orrin nudges the rear mat with his broad shoulder; all cross into the north recovery
       zone together. Blue-white west light, slate padding and orange canvas. No broken mechanism, fabricated new
       power or congratulatory crowd.
+      Sera calls from the left, Nib pulls in the middle, Orrin nudges from the right; keep all three full figures and the dummy visible.
     calm: top
     lines:
       - {who: sera, type: speech, side: l, text: "NOW."}
@@ -398,7 +416,7 @@ panels:
       ceiling source, flat slate behind. Backpack patch hangs from chair outside the lane. No comic proportions.
     calm: right
     lines:
-      - {who: taeo, type: float, text: "ASKING FOR ONE MORE SECOND ADDED UP."}
+      - {who: "taeo", type: "float", side: "r", text: "ALL MY LITTLE DELAYS HAD ADDED UP."}
   - id: P31
     shape: strip
     gap: short
@@ -411,10 +429,10 @@ panels:
     calm: none
     ui:
       - {kind: label, text: "61 / 100 · PASS", at: [0.47, 0.38]}
-      - {kind: label, text: "DECISION LATENCY · RECHECK BEFORE FULL LICENCE", at: [0.48, 0.68]}
+      - {kind: label, text: "SLOW DECISIONS · RECHECK BEFORE FULL LICENCE", at: [0.48, 0.68]}
     notes: "Practical 61/100 against 60 threshold: barely passes. Slow decisions lose points; no critical safety failure."
   - id: P32
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "front on Taeo, score sheet held below his face"
@@ -422,12 +440,13 @@ panels:
       BIG REACTION: taeo outdoor nearly folds over the aao_practical_hall rail with relief, eyes enormous,
       mouth open in an exhausted laugh. Nib default stands beside him in boots, unimpressed by the gap
       between terror and celebration. Overhead blue-white, slate background. No medal, graduation cap or chibi transformation.
+      Nib stands in the left third, Taeo bends at the rail in the right third; leave room for both bodies.
     calm: top
     lines:
-      - {who: taeo, type: nervous, side: r, text: "ONE POINT."}
-      - {who: nib, type: speech, side: l, text: "IT'S ON THE CORRECT SIDE."}
+      - {who: "taeo", type: "nervous", side: "r", text: "ONE POINT ABOVE PASSING."}
+      - {who: "nib", type: "speech", side: "l", text: "ABOVE IS THE CORRECT SIDE."}
   - id: P33
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "eye-level from beside the cleared course, Doyun addressing Taeo"
@@ -435,9 +454,11 @@ panels:
       park_doyun default speaks to taeo outdoor at the rail with sincere professional approval. Nib default
       is clearly within hearing, slightly forward of Taeo, angular jaw and LEFT notch unmissable. Seven
       constructs stand at north equipment doors. AAO west daylight, blue-white and slate. No sneer, cages or ownership gesture.
+      Doyun stands on the left, Nib in the middle, Taeo on the right. Keep all three faces visible.
     calm: top
     lines:
-      - {who: park_doyun, type: speech, side: l, text: "YOUR GOBLIN IS EXCELLENT. AS MIMICRY GOES."}
+      - {who: "park_doyun", type: "speech", side: "l", text: "YOUR GOBLIN IS EXCELLENT. AS MIMICRY GOES."}
+      - {who: "park_doyun", type: "speech", side: "l", text: "IT SOUNDS LIKE A PERSON."}
   - id: P34
     shape: inset-l
     gap: short
@@ -447,11 +468,12 @@ panels:
       nib default lifts only his chin at Doyun; anger is held in one set jaw muscle and a steady amber
       stare. Binocular strap LEFT knot, adult narrow face, fang LEFT if mouth opens. Aao_practical_hall ceiling
       blue-white, plain slate background. No puffed mascot cheeks, comic rage symbols or blade drawn.
+      Nib's face occupies the left third of this close-up.
     calm: right
     lines:
       - {who: nib, type: speech, side: l, text: "I CAN HEAR YOU."}
   - id: P35
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low two-shot from beside Nib, Doyun opposite"
@@ -459,10 +481,11 @@ panels:
       park_doyun default inclines his head a fraction, genuine curiosity in cool eyes; nib remains rigid
       foreground left. Taeo outdoor watches between them with relief leaving his face. AAO high west light,
       blue-white and charcoal. Map case LEFT hip, no apology smile, threatening aura or magical wire.
+      Nib stands at the far left, Taeo in the middle behind him, Doyun on the right. Keep all speaking faces visible.
     calm: top
     lines:
-      - {who: park_doyun, type: speech, side: r, text: "I KNOW. THAT'S WHAT'S INTERESTING."}
-      - {who: taeo, type: speech, side: l, text: "HIS NAME IS NIB."}
+      - {who: "park_doyun", type: "speech", side: "r", text: "I KNOW. THAT'S WHAT'S INTERESTING."}
+      - {who: "taeo", type: "speech", side: "c", text: "HIS NAME IS NIB."}
   - id: P36
     shape: strip
     gap: long
@@ -484,10 +507,11 @@ panels:
       east blinds and southwest navy bench. aao_clerk sits behind desk holding out a blank provisional card
       to taeo outdoor in visitor chair; nib default stands beside chair in boots. East daylight, A4 blue-white/slate.
       No new desk layout, lit screens or Chae substituted for the clerk.
+      Clerk sits on the left behind the desk, Taeo in the right visitor chair, Nib in the middle beside him.
     calm: top
     lines:
-      - {who: aao_clerk, type: speech, side: l, text: "PROVISIONAL. THIS ISN'T A GUILD CHARTER."}
-      - {who: taeo, type: speech, side: r, text: "ONE DOOR AT A TIME."}
+      - {who: "aao_clerk", type: "speech", side: "l", text: "YOUR OPERATOR LICENCE IS PROVISIONAL. A GUILD CHARTER IS SEPARATE."}
+      - {who: "taeo", type: "speech", side: "r", text: "ONE DOOR AT A TIME."}
   - id: P38
     shape: narrow-r
     gap: short
@@ -499,7 +523,7 @@ panels:
       - {kind: phone.aao_result, on: screen, hand: taeo_right_front, title: "ABILITY ASSESSMENT OFFICE", text: "YOON TAEO · OPERATOR LICENCE · PROVISIONAL · Written 78/100 · Practical 61/100 · Status: ISSUED"}
     notes: "Licence issued here. Output rank stays E; provisional operator credential does not promote hunter rank or establish a guild."
   - id: P39
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "through AAO office glass toward the corridor"
@@ -509,9 +533,9 @@ panels:
       window light through keyed glass, blue-white and slate. No card lettering generated or triumphant crowd.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "IT WAS SMALLER THAN THE WORK."}
+      - {who: "taeo", type: "float", side: "r", text: "THE LICENCE CARD FELT SMALLER THAN THE WORK."}
   - id: P40
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "evening yard trestle from beside the fixed plywood maze"
@@ -520,10 +544,11 @@ panels:
       Taeo outdoor lays the provisional card beside an exhibition leaflet. Minho default leans on the table;
       Sera default studies two blank event boxes, competitive grin growing. Ochre/brown turning navy, lamp warm.
       Phone face down; no new base or extra active screen.
+      Minho stands on the left, Taeo in the middle, Sera on the right, with room for all three bodies around the trestle.
     calm: top
     lines:
-      - {who: minho, type: speech, side: l, text: "THERE. NOW YOU CAN ENTER THE REMOTE EVENTS."}
-      - {who: sera, type: speech, side: r, text: "THIS ONE. SOLO ARCHERY."}
+      - {who: "minho", type: "speech", side: "l", text: "THERE. NOW YOU CAN ENTER THE REMOTE EVENTS."}
+      - {who: "sera", type: "speech", side: "r", text: "I WANT THE SOLO ARCHERY SHOWCASE."}
   - id: P41
     shape: strip
     gap: short
@@ -538,7 +563,7 @@ panels:
       - {kind: label, text: "SOLO ARCHERY SHOWCASE", at: [0.30, 0.30]}
       - {kind: label, text: "REMOTE TEAM EVENTS", at: [0.68, 0.65]}
   - id: P42
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "across the trestle, Taeo left and Sera right"
@@ -560,11 +585,12 @@ panels:
       sera default lowers her chin to meet taeo's eyes, no smile now: a working adult setting terms,
       not throwing a tantrum. Thick braid and necklace correct. At ryu_practice_yard the single work lamp
       warms one cheek, plain navy background. No tears, chibi marks or phone selfie yet.
+      Sera's face occupies the right third of the close-up.
     calm: left
     lines:
-      - {who: sera, type: speech, side: r, text: "THEN ASK THE ORGANISER. DON'T CANCEL ME FIRST."}
+      - {who: "sera", type: "speech", side: "r", text: "THEN ASK THE ORGANISER. DON'T CANCEL MY SOLO ENTRY FIRST."}
   - id: P44
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "reverse over Sera's shoulder to Taeo and Minho"
@@ -572,11 +598,12 @@ panels:
       taeo outdoor takes his hand completely off the solo box, sheepish recognition on his face. Minho
       default quietly rotates the timetable page toward him, LEFT temple grey under warm work light.
       Yard ochre tabletop, navy evening beyond. Blank schedule grid, no takeover by Minho or visible phone display.
+      Taeo stands in the left third, Minho in the middle. Sera remains beyond the right edge, only her shoulder framing the view.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "RIGHT. SORRY. I'LL ASK."}
-      - {who: sera, type: speech, side: r, text: "AND THE SOLO MONEY IS MINE."}
-      - {who: taeo, type: speech, side: l, text: "ALL OF IT."}
+      - {who: "taeo", type: "speech", side: "l", text: "RIGHT. SORRY. I'LL ASK."}
+      - {who: "offpanel:sera", type: "speech", side: "r", text: "AND THE SOLO PRIZE MONEY IS MINE."}
+      - {who: "taeo", type: "speech", side: "l", text: "ALL OF IT."}
   - id: P45
     shape: narrow-l
     gap: short
@@ -588,7 +615,7 @@ panels:
       - {kind: phone.info_card, on: screen, hand: taeo_thumb_tap, title: "EXHIBITION ENTRY DESK", text: "Dual entry approved: SERA · Solo showcase award paid to individual · Standardized timed match and adaptive obstacle bracket are separate events · Team members required at team check-in"}
     notes: "Competition continuity: standard timed event is independent of later adaptive elimination bracket. Losing to Doyun in ch051 does not eliminate the crew from ch053–58. Both entry permissions and solo prize ownership confirmed."
   - id: P46
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low from the trestle end, Sera signing her own entry"
@@ -596,12 +623,13 @@ panels:
       sera default signs her own blank entry box with taeo's spare black exam pen, satisfied and intent.
       Taeo watches without holding the page down for her; nib in boots stands at left, Orrin's adult head
       beyond the trestle. Warm yard work lamp and navy shadows. No legible signature generated or new contract imposed.
+      Nib stands on the left, Taeo in the middle, Sera on the right. Orrin rests beyond with his head visible.
     calm: top
     lines:
       - {who: sera, type: speech, side: r, text: "THEN YOU GET AN ARCHER. I GET TWO CHANCES TO BE CHEERED."}
       - {who: nib, type: speech, side: l, text: "ONE WOULD BE PLENTY."}
   - id: P47
-    shape: inset-l
+    shape: wide
     gap: short
     bg: white
     style: chibi
@@ -610,6 +638,7 @@ panels:
       CHIBI sera holds two imaginary blank trophies, grinning at an imaginary audience. Chibi nib in
       boots and all scout locks blocks his ears with two fingers, binoculars still high on chest. Flat
       warm-brown screentone, navy gag stars shaped as applause hands. No real awards won, detailed yard or text.
+      Crop both chibi figures at the waist: Nib on the left, Sera on the right, with both trophy tops visible.
     calm: right
     lines:
       - {who: sera, type: speech, side: r, text: "YOU CAN CLAP FOR BOTH."}
@@ -624,12 +653,13 @@ panels:
       rows of chairs and central aisle. Taeo outdoor, nib default in boots, sera default and minho default
       stand at rear, Orrin beside the wide aisle without blocking an exit. West daylight, institutional
       blue-white and slate. Sponsor panels blank, all other devices dark or turned away.
+      Taeo and his crew stand at the rear. The host is outside the crop on the centre stage ahead; the PA carries his voice from the middle.
     calm: top
     lines:
-      - {who: narr, type: tag, text: "NATIONAL GATE SKILLS EXHIBITION · BRACKET DRAW"}
-      - {who: exhibition_host, type: phone, text: "STANDARDIZED TIMED MATCHES FIRST. ADAPTIVE PAIRINGS FOLLOW AFTER COURSE INSPECTION."}
+      - {who: "narr", type: "tag", side: "c", text: "NATIONAL GATE SKILLS EXHIBITION · BRACKET DRAW"}
+      - {who: "offpanel:exhibition_host", type: "phone", side: "c", text: "STANDARDIZED TIMED MATCHES FIRST. ADAPTIVE PAIRINGS FOLLOW AFTER COURSE INSPECTION."}
   - id: P49
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "rear three-quarter on Doyun across the foyer"
@@ -638,9 +668,10 @@ panels:
       behind, blank badge and slate blazer. Taeo outdoor spots him from the aisle and nods in respectful
       recognition; Doyun gives a small measured nod back. West-window blue-white light, slate chairs. No glowing
       construct entourage, rivalry scowl or new nameplate.
+      Taeo occupies the left third in the aisle, Doyun the right beside the official; keep the nod and speaking profile clear.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "HE'S DOING A DEMONSTRATION, I THINK."}
+      - {who: "taeo", type: "speech", side: "l", text: "I THINK DOYUN'S HERE TO GIVE A DEMONSTRATION."}
   - id: P50
     shape: strip
     gap: short
@@ -661,10 +692,11 @@ panels:
       taeo outdoor lifts his head to the north screen, expression changing from polite interest to disbelief.
       Minho default beside him winces with the tenderness of a man watching a bad draw; LEFT grey streak
       correct. Exhibition west light, plain blue-white/slate background. Screen outside crop; no inset app or gag style.
+      Waist-up reaction two-shot: Taeo on the left, Minho on the right. The unseen host speaks through the PA from centre stage ahead.
     calm: top
     lines:
-      - {who: exhibition_host, type: phone, text: "STANDARDIZED TIMED EVENT. OPENING MATCH."}
-      - {who: minho, type: whisper, side: r, text: "THAT'S EDUCATIONAL."}
+      - {who: "offpanel:exhibition_host", type: "phone", side: "c", text: "STANDARDIZED TIMED EVENT. OPENING MATCH."}
+      - {who: "minho", type: "whisper", side: "r", text: "YOU'LL LEARN PLENTY IN THAT MATCH."}
   - id: P52
     shape: tall
     gap: long
@@ -676,11 +708,12 @@ panels:
       across the aisle. Doyun default is quietly attentive; Nib default in boots studies both men, Sera
       raises an interested eyebrow. West daylight, blue-white and slate. No readable pairing in generated art,
       eighth construct, victory trophy or triumphant antagonist grin.
+      Taeo occupies the left third below the screen, Nib the middle, Doyun the right across the aisle; Sera stands beside Nib.
     calm: bottom
     ui:
       - {kind: phone.info_card, on: screen, title: "STANDARDIZED TIMED EVENT · ROUND 1", text: "YOON TAEO'S TEAM vs PARK DOYUN · MATCH 01"}
     lines:
-      - {who: taeo, type: speech, side: l, text: "...THE DEMONSTRATION IS ME."}
+      - {who: "taeo", type: "speech", side: "l", text: "I'M THE DEMONSTRATION."}
     notes: "HOOK: standard timed round one pairs Taeo's crew with Doyun. Separate event from the adaptive bracket."
   - id: P53
     kind: end

@@ -53,10 +53,11 @@ panels:
       whose display faces her, not reader. Her tired brows rise in surprise at finding
       herself included; one hand hovers over a medical case. Roller-door daylight from
       south, warm wood and cool slate shadow. No readable screen, logos or glamour lighting.
+      Sejin's head and shoulders are at left; Taeo sits off-frame right.
     calm: right
     lines:
-      - {who: sejin, type: speech, side: l, text: "I LOOK TIRED."}
-      - {who: taeo, type: speech, side: r, text: "IT'S VERY ACCURATE."}
+      - {who: "sejin", type: "speech", side: "l", text: "I LOOK TIRED."}
+      - {who: "offpanel:taeo", type: "speech", side: "r", text: "THE PHOTO'S VERY ACCURATE."}
 
   - id: P03
     shape: strip
@@ -74,7 +75,7 @@ panels:
     notes: "He checks that the people he agreed to stand beside remain in the image; no new solo publicity."
 
   - id: P04
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "at table height across Nib toward Sera and Taeo"
@@ -84,11 +85,12 @@ panels:
       in navy jacket sits with forearms dressed and small nose patch. South roller
       opening daylight, dusty ochre court beyond, brown/slate shadows. Screens turned
       away, no texts in art or claiming Nib enjoyed interviews.
+      Nib stands at left and Sera at right; Taeo sits in the middle behind the table.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "THEY LEFT EVERYONE IN."}
-      - {who: sera, type: speech, side: r, text: "THEY LEFT MY BAD SIDE IN."}
-      - {who: nib, type: speech, side: l, text: "YOU CHOSE THAT ONE."}
+      - {who: "nib", type: "speech", side: "l", text: "THEY LEFT EVERYONE IN."}
+      - {who: "sera", type: "speech", side: "r", text: "THEY LEFT MY BAD SIDE IN."}
+      - {who: "nib", type: "speech", side: "l", text: "YOU CHOSE YOUR ANGLE."}
 
   - id: P05
     kind: title
@@ -112,7 +114,7 @@ panels:
     notes: "Exact allocation of the ch 59 award; 48 + 72 + 30 = 150 million. Vendor purchases, not cash in Taeo's personal account."
 
   - id: P07
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "establishing from the south compound gate into the forecourt"
@@ -123,6 +125,7 @@ panels:
       haein in overalls kneels delightedly by a case, minho checks a blank delivery
       clipboard, bandaged taeo watches from table. Afternoon south sun, dusty ochre
       concrete and brown shadows. No guild sign, new building or cash pile.
+      Haein kneels in the left third, her face unobstructed above the case.
     calm: top
     lines:
       - {who: narr, type: tag, text: "MAPO BASE · THREE DAYS AFTER THE FINAL"}
@@ -136,24 +139,26 @@ panels:
     art: >
       tyre_shop_base table: haein's five-finger gloved hands open a grey case onto
       white cable with a blue band every metre, grey tripod relay sections, grille
-      and coiled handset. Her glasses lowered for inspection, pleased concentration.
+      and coiled handset. Only her hands and the open case fill this detail crop;
+      Haein's face is off-frame above the left side.
       South daylight, warm wood and slate shadows; every switch label blank.
       No new wireless antenna, glowing signal path or readable calibration chart.
     calm: top
     lines:
-      - {who: haein, type: speech, side: l, text: "WE CAN TEST A SECOND SET WITHOUT STRIPPING THE FIRST."}
+      - {who: "offpanel:haein", type: "speech", side: "l", text: "WE CAN TEST A SECOND RELAY SET WITHOUT STRIPPING THE FIRST."}
 
   - id: P09
     shape: wide
     gap: short
     bg: white
-    camera: "low beside Sejin's open medical transport case"
+    camera: "low medium two-shot beside Sejin's open medical transport case"
     art: >
       sejin in tyre_shop_base kneels beside a proper rigid medical case: separate
       dressing drawers, compact monitor with screen dark, sealed supplies and folded
       transport equipment. Sage sleeves rolled, face unguardedly pleased, hands testing
       a latch. South daylight, ochre floor, hard brown/slate shadows. No magical
       healing device, red cross insignia, readable packaging or cured Taeo.
+      Sejin kneels at left; seated Taeo is visible from the waist up at right, facing her.
     calm: top
     lines:
       - {who: sejin, type: speech, side: l, text: "I CAN STOP BORROWING THE GOOD SCISSORS."}
@@ -161,7 +166,7 @@ panels:
       - {who: sejin, type: speech, side: l, text: "EXTREMELY."}
 
   - id: P10
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "from the van's open rear doors toward Orrin waiting in the court"
@@ -171,13 +176,14 @@ panels:
       tape, haein checks a blank load-rating sheet, sejin inspects removable ramp.
       Sun from south, ochre court, brown shadows, off-white bodywork. No squeezing
       Orrin, saddle, human seat belt around his neck or logo on the van.
+      Minho stands at left; Orrin waits at right, with Haein and Sejin farther back.
     calm: top
     lines:
       - {who: minho, type: speech, side: l, text: "CLEARANCE AND PAYLOAD CHECKED. YOU FIT."}
       - {who: orrin, type: speech, side: r, text: "A NEW EXPERIENCE."}
 
   - id: P11
-    shape: inset-l
+    shape: tall
     gap: short
     bg: white
     style: chibi
@@ -188,6 +194,7 @@ panels:
       shell. Chibi haein holds out both arms in proud presentation. Flat dusty-ochre
       screentone, white sunshine patch; correct overalls, no strap or pet expression,
       readable measurement marks or existing-door damage.
+      Orrin fills the left half and Haein stands at right, both with room above and below.
     calm: right
     lines:
       - {who: orrin, type: speech, side: l, text: "DID YOU BUY TOO MUCH DOOR?"}
@@ -209,7 +216,7 @@ panels:
     notes: "The grant buys time and parts to study a safer rebuild; the broken device is not restored off-panel."
 
   - id: P13
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "across the table between Haein and Taeo, Minho behind"
@@ -219,23 +226,24 @@ panels:
       the unit. minho rests blank delivery clipboard against one hip behind.
       South daylight, ochre and warm brown with slate shadows. No new device,
       cash balance or private system window.
+      Haein stands at left, Minho at centre, and Taeo sits at right; all three faces are visible.
     calm: top
     lines:
-      - {who: haein, type: speech, side: l, text: "THE NEXT ONE NEEDS A LIMIT THAT DOESN'T USE YOUR ARMS."}
-      - {who: taeo, type: speech, side: r, text: "YES. AFTER WE CHECK WHAT FAILED."}
-      - {who: minho, type: speech, side: l, text: "AFTER YOUR DAY OFF, TOO."}
+      - {who: "haein", type: "speech", side: "l", text: "THE NEXT RESERVOIR NEEDS AN OVERLOAD CUTOFF THAT DOESN'T USE YOUR ARMS."}
+      - {who: "taeo", type: "speech", side: "r", text: "YES. FIRST, WE FIND OUT WHY THIS RESERVOIR FAILED."}
+      - {who: "minho", type: "speech", side: "c", text: "AFTER YOUR DAY OFF, TOO."}
 
   - id: P14
     shape: narrow-r
     gap: short
     bg: white
-    camera: "kit phone hand on a saved Haeseong travel note"
+    camera: "kit phone hand on a saved Haeseong travel note, Taeo off-frame right"
     art: "KIT HAND"
     calm: none
     ui:
       - {kind: phone.info_card, on: screen, hand: taeo_left_tilt, title: "TOMORROW · HAESEONG", text: "Coach 10:00–13:00\nStay overnight\nNo work booking", notes: "Personal travel note, no bus company or fare invented. Three hours each way."}
     lines:
-      - {who: taeo, type: speech, side: r, text: "THAT PART'S BOOKED."}
+      - {who: "offpanel:taeo", type: "speech", side: "r", text: "MY TRIP TO HARU'S BOOKED."}
 
   - id: P15
     shape: wide
@@ -254,7 +262,7 @@ panels:
       - {who: taeo, type: float, text: "I HADN'T WORKED OUT WHAT TO SAY."}
 
   - id: P16
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "keyed northwest bus shelter view southeast across the port"
@@ -265,31 +273,32 @@ panels:
       dull orange buoys. grandpa in faded blue cap waits with two-wheel cardboard
       cart, weathered face carefully neutral. Cool sea daylight, muted blues/concrete
       grey, no active new gate, fishing fleet or readable shelter board.
+      Grandpa and his cart stand at left; Taeo approaches from the coach at right.
     calm: top
     lines:
-      - {who: narr, type: tag, text: "HAESEONG · 1:00 PM"}
-      - {who: grandpa, type: speech, side: l, text: "HE'S AT HOME."}
+      - {who: "narr", type: "tag", text: "HAESEONG · 1:00 PM"}
+      - {who: "grandpa", type: "speech", side: "l", text: "HARU'S AT HOME."}
     notes: "Three-hour coach from 10:00. Offshore gate stays the existing permanent sea gate, unrelated to Chungju."
 
   - id: P17
-    shape: strip
+    shape: full
     gap: short
     bg: white
-    camera: "close at cart-handle height on Grandpa noticing the dressed wrists"
+    camera: "medium two-shot at cart-handle height, Grandpa left and Taeo right"
     art: >
       haeseong_port: grandpa's work-worn hand loosens on the cart's U-handle as
       he notices taeo's clean white forearm dressings. Taeo keeps them visible
       rather than tugging navy sleeves down. Cool sea daylight, grey concrete,
-      muted brown cardboard. Faces partly cropped, no fresh blood, magic healing,
+      muted brown cardboard. Both faces and the dressed wrists clearly visible, no fresh blood, magic healing,
       readable carton branding or hidden extra hand.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "SEJIN CHECKED THEM THIS MORNING. THEY'RE HEALING."}
-      - {who: grandpa, type: speech, side: l, text: "GOOD. TELL HIM THE OTHER PART YOURSELF."}
+      - {who: "taeo", type: "speech", side: "r", text: "SEJIN CHECKED MY ARMS THIS MORNING. THEY'RE HEALING."}
+      - {who: "grandpa", type: "speech", side: "l", text: "GOOD. TELL HARU WHY YOU MISSED HIS PRESENTATION YOURSELF."}
     notes: "The reporting promise holds; Grandpa does not have to expose another concealed injury."
 
   - id: P18
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "from the south courtyard threshold north into the keyed family room"
@@ -300,6 +309,7 @@ panels:
       card and homemade feathered dinosaur model. taeo in navy waits just inside
       south sliding doors, gift box held low. grandma at sink does not interrupt.
       Afternoon daylight and warm pendant, amber/brown, no new furniture or readable cards.
+      Taeo is at left by the threshold; seated Haru is at right across the table.
     calm: top
     lines:
       - {who: taeo, type: speech, side: l, text: "HI, BOSS."}
@@ -312,8 +322,9 @@ panels:
     silent: true
     camera: "from Haru's seat toward the gift in Taeo's hands"
     art: >
-      grandparents_house: taeo kneels outside the low table's reach and opens the
-      plain paper box, revealing small matte-green plastic triceratops. His fingers
+      grandparents_house: detail crop of taeo's dressed hands opening the
+      plain paper box, revealing small matte-green plastic triceratops. Taeo kneels outside
+      the crop, beyond the low table. His fingers
       pause before offering it; navy jacket sleeves show clean dressings. Afternoon
       south/east light, warm amber wood and brown shadows. No readable price tag,
       sparkling luxury effect or hand forcing the toy toward Haru.
@@ -360,11 +371,12 @@ panels:
       He meets haru's eyes, mouth uneven, no protective joke. Low table and
       north kitchenette simplified behind. Afternoon amber/brown, no remembered
       arena overlay, excuse props or phone in hand.
+      Medium two-shot: Haru sits at left, Taeo at right, both faces visible across the low table.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "I PROMISED. I MISSED IT. I'M SORRY."}
-      - {who: haru, type: speech, side: l, text: "YOU DIDN'T EVEN REMEMBER."}
-      - {who: taeo, type: speech, side: r, text: "I DIDN'T."}
+      - {who: "taeo", type: "speech", side: "r", text: "I PROMISED TO COME. I MISSED YOUR PRESENTATION. I'M SORRY."}
+      - {who: "haru", type: "speech", side: "l", text: "YOU DIDN'T EVEN REMEMBER."}
+      - {who: "taeo", type: "speech", side: "r", text: "I DIDN'T."}
 
   - id: P23
     shape: inset-l
@@ -377,9 +389,10 @@ panels:
       sleeves and beige vest. She hears the brothers and deliberately stays
       at her task, worried soft face. Afternoon east light, warm amber and
       brown shadows. No intervening lecture, TV broadcast or readable dishes.
+      Grandma's head and shoulders are at left; Taeo speaks from the table off-frame right.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: r, text: "CAN YOU TELL ME WHAT I MISSED?"}
+      - {who: "offpanel:taeo", type: "speech", side: "r", text: "CAN YOU TELL ME WHAT I MISSED?"}
 
   - id: P24
     shape: wide
@@ -392,10 +405,11 @@ panels:
       him; toy gift remains on Taeo's side below frame. Late afternoon amber
       daylight, brown table shadows. Card blank for art, no invented school
       trophy, prodigy diagram or chibi expression.
+      Haru sits in the left third, facing Taeo's right-foreground shoulder; crop both above the waist.
     calm: top
     lines:
-      - {who: haru, type: speech, side: l, text: "I KEPT LOOKING AT THE DOOR."}
-      - {who: haru, type: speech, side: l, text: "THEN I FORGOT THE NEXT BIT."}
+      - {who: "haru", type: "speech", side: "l", text: "I KEPT LOOKING AT THE DOOR."}
+      - {who: "haru", type: "speech", side: "l", text: "THEN I FORGOT WHAT TO SAY NEXT."}
 
   - id: P25
     shape: inset-r
@@ -408,6 +422,7 @@ panels:
       face crumpling only a little. Black hoodie, nose patch, RIGHT-eye mole.
       Late afternoon warm side light, brown shadow, plain wall. No theatrical
       waterfall tears, chibi, arena applause or text.
+      Taeo's face occupies the right third.
     calm: left
     lines:
       - {who: taeo, type: speech, side: r, text: "I'M LISTENING."}
@@ -437,10 +452,11 @@ panels:
       lowered, hands still. Dark present-day flat TV and existing family photo
       at WEST cabinet in foreground. Late afternoon amber/brown, no repaired
       relationship grin, readable school text or relocated furniture.
+      The seated brothers are framed from the waist up, Haru at left and Taeo at right.
     calm: top
     lines:
-      - {who: haru, type: speech, side: l, text: "THE TEACHER SAID WE MIGHT DO IT AGAIN."}
-      - {who: taeo, type: speech, side: r, text: "THE RE-RUN. I WILL BE THERE."}
+      - {who: "haru", type: "speech", side: "l", text: "THE TEACHER SAID WE MIGHT GIVE OUR PRESENTATIONS AGAIN."}
+      - {who: "taeo", type: "speech", side: "r", text: "THE RE-RUN. I WILL BE THERE."}
 
   - id: P28
     shape: inset-l
@@ -453,10 +469,11 @@ panels:
       fingers flatten the card as if keeping the promise from drifting away.
       Warm afternoon light, brown shadow, plain cream wall. No smart-adult
       expression, sparkles, chibi or text.
+      Haru's face and hands occupy the left third; Taeo sits outside the frame to the right.
     calm: right
     lines:
-      - {who: haru, type: speech, side: l, text: "IN THE ROOM."}
-      - {who: taeo, type: speech, side: r, text: "IN THE ROOM. TELL ME WHEN THEY SET IT."}
+      - {who: "haru", type: "speech", side: "l", text: "IN THE ROOM."}
+      - {who: "offpanel:taeo", type: "speech", side: "r", text: "IN THE ROOM. TELL ME WHEN THEY SET THE DATE."}
     notes: "Promise made, date NOT set. School re-run date is established at ch 92; actual attendance at ch 96. Do not stage the full re-run now."
 
   - id: P29
@@ -471,11 +488,12 @@ panels:
       Taeo listens without reaching for phone. Grandma sets down a plain side
       dish. Pendant warm amber as daylight softens, brown shadows. No slides,
       audience, full school re-run or readable labels.
+      Waist-up view of the seated brothers: Haru at left, Taeo at right; Grandma's serving hand enters behind them.
     calm: top
     lines:
-      - {who: haru, type: speech, side: l, text: "THIS PART'S A FEATHER. EVERYONE THOUGHT IT WAS GRASS."}
-      - {who: taeo, type: speech, side: r, text: "THAT'S A VERY GOOD FEATHER."}
-      - {who: haru, type: speech, side: l, text: "IT IS A BIT LIKE GRASS."}
+      - {who: "haru", type: "speech", side: "l", text: "I MADE THIS FEATHER. EVERYONE THOUGHT IT WAS GRASS."}
+      - {who: "taeo", type: "speech", side: "r", text: "THAT'S A VERY GOOD FEATHER."}
+      - {who: "haru", type: "speech", side: "l", text: "IT IS A BIT LIKE GRASS."}
 
   - id: P30
     shape: inset-r
@@ -489,14 +507,15 @@ panels:
       chibi haru takes the smaller plate with solemn speed. Flat warm-amber
       screentone and pendant-light patch. Preserve plaid/beige vest, black hoodie,
       nose dressing and yellow dinosaur tee. No sadness mocked or readable plate text.
+      Crop at table height: Grandma's face and serving hands at left, seated Taeo at right, Haru in the middle.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: r, text: "GRANDMA. THAT'S A SECOND DINOSAUR."}
-      - {who: grandma, type: speech, side: l, text: "EAT BEFORE IT GETS AWAY."}
+      - {who: "taeo", type: "speech", side: "r", text: "GRANDMA. THAT FISH COULD EAT MY DINOSAUR."}
+      - {who: "grandma", type: "speech", side: "l", text: "EAT BEFORE IT GETS AWAY."}
     notes: "Comedy releases tension after the promise, without making Haru's disappointment the gag."
 
   - id: P31
-    shape: vignette
+    shape: tall
     gap: long
     bg: navy
     silent: true
@@ -510,7 +529,7 @@ panels:
     calm: none
 
   - id: P32
-    shape: wide
+    shape: tall
     gap: long
     bg: white
     camera: "morning from south courtyard gate toward the house doorway"
@@ -520,10 +539,11 @@ panels:
       He waits at the courtyard gate while haru at south sliding door hugs
       his homemade model, grandpa behind in work cap, grandma holding a foil
       food parcel. Morning daylight, A4 warm amber/brown, no rushing call or readable sign.
+      Haru is at the left side of the doorway; Taeo waits at the right side of the courtyard gate.
     calm: top
     lines:
-      - {who: haru, type: speech, side: l, text: "I'LL TELL YOU THE DATE."}
-      - {who: taeo, type: speech, side: r, text: "I'LL KEEP IT."}
+      - {who: "haru", type: "speech", side: "l", text: "I'LL TELL YOU THE RE-RUN DATE."}
+      - {who: "taeo", type: "speech", side: "r", text: "I'LL BE THERE."}
 
   - id: P33
     shape: strip
@@ -542,7 +562,7 @@ panels:
     notes: "Return trip lasts three hours; final meeting happens after he is back in Mapo that afternoon."
 
   - id: P34
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "from inside the north repair bay toward Taeo arriving through the south gate"
@@ -553,11 +573,12 @@ panels:
       cable; sera at the table rolls her worn map, orrin rests under west
       lean-to. New off-white van parked without blocking gate. South daylight,
       ochre/brown, no erased roof limits, guild sign or changed compound layout.
+      Nib is at left by the cable coil; Taeo enters at right through the south gate.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "YOU STAYED."}
-      - {who: taeo, type: speech, side: r, text: "OVERNIGHT."}
-      - {who: nib, type: speech, side: l, text: "GOOD."}
+      - {who: "nib", type: "speech", side: "l", text: "YOU STAYED WITH HARU."}
+      - {who: "taeo", type: "speech", side: "r", text: "OVERNIGHT."}
+      - {who: "nib", type: "speech", side: "l", text: "GOOD."}
 
   - id: P35
     shape: strip
@@ -574,7 +595,7 @@ panels:
     calm: none
 
   - id: P36
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "table-level between two empty small scaffold-frame models"
@@ -584,13 +605,14 @@ panels:
       taeo in navy points between them, excited despite fatigue; minho watches
       with cautious curiosity, sejin arms folded. Afternoon shutter daylight,
       dusty ochre and warm brown/slate. No force arcs, cyan windows or live two-threshold circuit.
+      Taeo sits at left, Minho stands at right; Haein and Sejin stand behind the table models.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "I WANT TO TAKE THE METHOD PAST ONE GATE."}
-      - {who: minho, type: speech, side: r, text: "HOW FAR PAST?"}
+      - {who: "taeo", type: "speech", side: "l", text: "I WANT TO PLAN AN EXPEDITION BEYOND A SINGLE GATE."}
+      - {who: "minho", type: "speech", side: "r", text: "HOW MANY GATE THRESHOLDS?"}
 
   - id: P37
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "over Minho's shoulder toward Taeo, Nib and the two blank frames"
@@ -600,11 +622,12 @@ panels:
       his side, adult wary gaze fixed on Taeo rather than props, binoculars
       and belt locks clear. Afternoon south daylight, warm wood/slate shadows.
       No dungeon entry by Taeo, active return marks or completed invention.
+      Medium group view: Taeo sits at left, Nib stands at centre, Haein stands fully visible at right.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "A TWO-THRESHOLD EXPEDITION."}
-      - {who: haein, type: speech, side: r, text: "WE HAVEN'T TESTED A SECOND THRESHOLD."}
-      - {who: taeo, type: speech, side: l, text: "THEN THAT'S THE FIRST TEST."}
+      - {who: "taeo", type: "speech", side: "l", text: "TWO. WE'D TEST A RELAY LINE THROUGH EACH THRESHOLD."}
+      - {who: "haein", type: "speech", side: "r", text: "WE HAVEN'T TESTED A SECOND THRESHOLD."}
+      - {who: "taeo", type: "speech", side: "l", text: "THEN WE START WITH THAT TEST."}
     notes: "Irreversible intention begins here. This proposes staged route/relay research beyond a single gate, not already-working simultaneous two-threshold force exchange. First supervised working relay tests remain ch 89."
 
   - id: P38
@@ -617,13 +640,14 @@ panels:
       case, other on hip, level dry gaze directed at taeo. Sage scrub shirt,
       olive rig, tired eyes and squared jaw. Afternoon shutter daylight,
       ochre case edge and brown/slate shadows. No magical monitor glow or readable checklist.
+      Sejin is in the left third; Taeo sits off-frame to her right.
     calm: right
     lines:
-      - {who: sejin, type: speech, side: l, text: "PAPER FIRST. RECOVERY FIRST. THEN A FIELD TEST."}
-      - {who: taeo, type: speech, side: r, text: "AGREED."}
+      - {who: "sejin", type: "speech", side: "l", text: "WRITE A TEST PLAN. LET YOUR ARMS RECOVER. THEN TEST."}
+      - {who: "offpanel:taeo", type: "speech", side: "r", text: "AGREED."}
 
   - id: P39
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "from the west lean-to opening, Orrin facing the table group"
@@ -633,27 +657,29 @@ panels:
       taeo and crew at the worktable remain visible through broad bay opening;
       afternoon sun from south, dusty ochre, warm brown/slate shadows. No roof
       garden, harness, cute face or actual portal in either table model.
+      Orrin fills the left foreground; Haein's face is clearly visible at right by the table.
     calm: top
     lines:
-      - {who: orrin, type: speech, side: l, text: "TWO DOORS NEED TWO WAYS BACK."}
-      - {who: haein, type: speech, side: r, text: "TWO INDEPENDENT LINES. NO SHARED FAILURE POINT."}
+      - {who: "orrin", type: "speech", side: "l", text: "TWO DOORS NEED TWO WAYS BACK."}
+      - {who: "haein", type: "speech", side: "r", text: "TWO SEPARATE RELAY LINES. ONE MUST KEEP WORKING IF THE OTHER FAILS."}
     notes: "A design requirement, not an achieved no-failure promise. Ryu radio still needs intact physical cable through each threshold."
 
   - id: P40
-    shape: strip
+    shape: full
     gap: short
     bg: white
-    camera: "overhead on Taeo's finger beside the public proposal control"
+    camera: "medium two-shot across the table, Taeo's hand and phone in the foreground"
     art: >
       tyre_shop_base worktable, taeo's RIGHT hand hovers beside dark-grey
       cracked phone, display angled away, green dinosaur sticker on case edge.
       White forearm dressing, a slight tremor. Haein's bagged dead reservoir
       at far edge. Afternoon sunlight, warm wood and brown shadows. No
       secret UI, green screen or drawing of app controls.
+      Minho stands at left and Taeo sits at right; both faces and Taeo's hovering hand are visible.
     calm: top
     lines:
-      - {who: minho, type: speech, side: l, text: "IF YOU PUT THIS UP, THEY'LL WATCH EVERY TEST."}
-      - {who: taeo, type: speech, side: r, text: "THAT'S HOW WE GET THE NEXT CONTRACT."}
+      - {who: "minho", type: "speech", side: "l", text: "PUBLISH YOUR PROPOSAL, AND PEOPLE WILL WATCH EVERY TEST."}
+      - {who: "taeo", type: "speech", side: "r", text: "THAT'S HOW WE GET THE NEXT CONTRACT."}
     notes: "The public success now has a cost: Taeo's ambition and financial need both favour a visible commitment. His control flaw is not cured by the award."
 
   - id: P41
@@ -667,10 +693,11 @@ panels:
       binoculars clear. The official print is a small blurred-by-simplification
       rectangle behind, not an altered new photograph. Afternoon daylight,
       warm wood/slate shadows. No chibi, angry knife gesture or link aura.
+      Nib's face is at right; Taeo sits off-frame to the left.
     calm: left
     lines:
-      - {who: nib, type: speech, side: r, text: "THEY'LL WATCH US STOP, TOO."}
-      - {who: taeo, type: speech, side: l, text: "I KNOW."}
+      - {who: "nib", type: "speech", side: "r", text: "THEY'LL SEE US CALL OFF A TEST TOO."}
+      - {who: "offpanel:taeo", type: "speech", side: "l", text: "I KNOW."}
     notes: "He says he knows; the harder test is admitting a failure with everyone watching in the river arc."
 
   - id: P42
@@ -703,11 +730,11 @@ panels:
       cosmic aura, new patch or public acclaim drawn behind him.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "I LIKED HAVING SOMETHING TO PROVE."}
-      - {who: taeo, type: float, text: "I DIDN'T COUNT THE PEOPLE WATCHING."}
+      - {who: "taeo", type: "float", text: "I LIKED HAVING SOMETHING TO PROVE."}
+      - {who: "taeo", type: "float", text: "ADMITTING FAILURE WAS GOING TO BE HARDER NOW."}
 
   - id: P44
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "table-height from beside Sera's rolled map toward Haein"
@@ -717,10 +744,11 @@ panels:
       worn river map beside the cleared work space, flute at RIGHT hip,
       bow resting within LEFT reach. Afternoon daylight, dusty ochre and
       brown/slate shadows. No new geographical discovery or legible map words yet.
+      Haein stands at left and Sera at right, both visible behind the worktable.
     calm: top
     lines:
-      - {who: haein, type: speech, side: l, text: "I'M KEEPING THE STOP IN THE FIRST LINE."}
-      - {who: sera, type: speech, side: r, text: "KEEP MY RATE THERE TOO."}
+      - {who: "haein", type: "speech", side: "l", text: "THE TEST PLAN STARTS WITH WHEN WE STOP."}
+      - {who: "sera", type: "speech", side: "r", text: "PUT MY PAY RATE NEAR THE TOP TOO."}
 
   - id: P45
     shape: inset-l
@@ -733,10 +761,11 @@ panels:
       signed anything. Navy jacket, RIGHT-eye mole and healing nose mark.
       Afternoon south light, flat warm wood/slate background. No free-labour
       gag, altered fee amount, chibi or readable contract.
+      Taeo's face is at left; only Sera's waiting hand enters from off-frame right.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: l, text: "OF COURSE."}
-      - {who: sera, type: speech, side: r, text: "GOOD. SOMEBODY LEARNS."}
+      - {who: "taeo", type: "speech", side: "l", text: "OF COURSE. YOUR WORK IS PAID."}
+      - {who: "offpanel:sera", type: "speech", side: "r", text: "GOOD. YOU'RE LEARNING."}
     notes: "Sera's paid terms remain intact; no fee figure or solo prize amount invented. Her assent to the research idea is not automatic consent to every future descent."
 
   - id: P46
@@ -759,16 +788,16 @@ panels:
     shape: narrow-r
     gap: short
     bg: white
-    camera: "kit phone hand, the live call screen"
+    camera: "kit phone hand, the live call screen, Taeo speaking from off-frame right"
     art: "KIT HAND"
     calm: none
     ui:
       - {kind: phone.ttok_call, on: screen, hand: taeo_right_front, caller: "CHAE YURI · AAO", text: "CONNECTED · SPEAKER", notes: "Only ordinary call UI. No new promotion or work permit law yet."}
     lines:
-      - {who: taeo, type: speech, side: r, text: "MS. CHAE? YOU'RE ON SPEAKER."}
+      - {who: "offpanel:taeo", type: "speech", side: "r", text: "MS. CHAE? YOU'RE ON SPEAKER."}
 
   - id: P48
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "across the worktable, Sera listening before anyone turns toward her"
@@ -778,9 +807,10 @@ panels:
       still, performance smile gone. haein and minho look toward the device,
       nib listens without moving. Afternoon south daylight, warm ochre and
       slate shadows. No private cyan system, readable map or imaginary brother.
+      Taeo and the phone are at left; Sera is opposite at right. Chae's voice comes from that phone.
     calm: top
     lines:
-      - {who: chae, type: phone, side: l, text: "AN UNDERGROUND RIVER GATE OPENED IN CHUNGJU. A-GRADE."}
+      - {who: "offpanel:chae", type: "phone", side: "l", text: "AN UNDERGROUND RIVER GATE OPENED IN CHUNGJU. A-GRADE."}
     notes: "Chae is informing the crew of a lead, not ordering them straight into an A-grade gate while Taeo is injured. Consortium preparation belongs to ch 63."
 
   - id: P49
@@ -809,9 +839,10 @@ panels:
       watches her instead of his proposal screen. Afternoon south daylight,
       warm ochre and slate shadows. No tears, triumphant rescue promise,
       already-drawn bow or visible Ilan.
+      Waist-up view: Sera at right, Taeo and his live phone at left; Chae is heard only through the phone.
     calm: top
     lines:
-      - {who: chae, type: phone, side: l, text: "SURVEY STILLS SHOW A CARVED SETTLEMENT SIGN."}
+      - {who: "offpanel:chae", type: "phone", side: "l", text: "SURVEY STILLS SHOW A CARVED SETTLEMENT SIGN."}
 
   - id: P51
     shape: tall
@@ -828,9 +859,10 @@ panels:
       closing on recurve bow by table, face intent. taeo in navy holds live
       phone near table, sejin and nib watch. Warm shutter daylight and brown
       shadows below. No predator, brother, living settlement, starry sky or text in art.
+      In the lower scene Sera stands at right; Taeo and the live phone remain at left.
     calm: top
     lines:
-      - {who: chae, type: phone, side: l, text: "SAME STYLE AS SERA'S MAP."}
+      - {who: "offpanel:chae", type: "phone", side: "l", text: "SAME STYLE AS SERA'S MAP."}
     notes: "ARC V FINALE HOOK: Chungju A-grade underground river, carved sign, Sera stands. Phone remains live; ch 63 P01 begins at THIS Mapo worktable. Top insert is evidence seen in a survey still, not the crew already inside. No river-stone integration or P15 warning yet."
 
   - id: P52

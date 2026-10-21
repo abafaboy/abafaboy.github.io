@@ -25,7 +25,7 @@ props:
 palette_notes: "Yard follows A4 dusty ochre/warm brown/sky blue. Memorial: cool stone grey, pale blue daylight, violet-grey shade; single white flower. No link-colour use except the brief consenting yard test; amber RIGHT palm, slate-green Orrin channel. Service remains normal proportions."
 panels:
   - id: P01
-    shape: wide
+    shape: tall
     gap: none
     bg: white
     camera: "south yard gate, reverse of ch 41 hook, Grandpa foreground"
@@ -34,12 +34,13 @@ panels:
       taeo, hoodie under navy jacket, takes one handle without pulling it away; his surprise is turning to a worried welcome.
       Keyed grey office southwest and white van southeast frame the fixed maze beyond.
       Southeast morning sun, dusty ochre and warm brown shadows. No cart, exposed bruises, ambulance or readable gate sign.
+      Grandpa enters on the left and Taeo stands on the right, both full figures with room around the bag.
     calm: top
     lines:
       - {who: taeo, type: speech, side: r, text: "YOU COULD HAVE CALLED FROM THE TERMINAL."}
       - {who: grandpa, type: speech, side: l, text: "THEN YOU'D HAVE COME TO THE TERMINAL."}
   - id: P02
-    shape: inset-l
+    shape: tall
     gap: short
     bg: white
     camera: "low two-shot, Nib and Grandpa meeting at the gate"
@@ -48,6 +49,7 @@ panels:
       Grandpa bends slightly from his ordinary stoop to meet Nib's eyes; they recognize fellow watchmen without ceremony.
       LEFT ear notch and LEFT fang clear; old man holds his cap brim in greeting.
       Morning daylight, ochre ground, blue sky. No cute scout proportions, handshake with extra fingers or nameplate.
+      Nib stands on the left and Grandpa bends slightly on the right; keep their faces and full natural proportions clear.
     calm: right
     lines:
       - {who: grandpa, type: speech, side: r, text: "KEEPING WATCH?"}
@@ -62,6 +64,7 @@ panels:
       with its unrepaired Sinjeong fracture. taeo reaches for the kettle, expecting questions; nib watches the old man's face.
       All in locked outfits and scale, Orrin 2.3 m long, Nib's crown at Taeo's belt.
       Sun southeast, ochre/brown and washed blue. No healed shell, fearful mob, new window or readable equipment labels.
+      Grandpa is on the left, Taeo and Nib in the centre, Orrin on the right beside the table.
     calm: top
     lines:
       - {who: grandpa, type: speech, side: l, text: "YOUR GRANDMOTHER SENT FISH."}
@@ -72,7 +75,7 @@ panels:
     bg: white
     title_text: "CHAPTER 42 · THE PLAQUE"
   - id: P05
-    shape: wide
+    shape: tall
     gap: long
     bg: white
     camera: "eye-level along the west trestle, Grandpa seated and Taeo standing"
@@ -81,13 +84,14 @@ panels:
       taeo tries to hide concern behind the task of pouring water, navy sleeves covering his forearms.
       Nib checks the tied handle, not rummaging inside the bag. Keyed grey office behind, southeast light and dusty ochre/brown.
       No envelope reveal, medical report content, hospital wristband or magically steaming cold parcel.
+      Grandpa sits on the left, Nib stands in the centre and Taeo stands on the right. Give the figures room above the trestle.
     calm: top
     lines:
       - {who: taeo, type: speech, side: r, text: "THE CHECK-UP'S STILL JUST A CHECK-UP?"}
-      - {who: grandpa, type: speech, side: l, text: "TEN O'CLOCK. SAME AS THE PAPER SAYS."}
-      - {who: grandpa, type: speech, side: l, text: "DON'T MAKE A SECOND APPOINTMENT IN YOUR HEAD."}
+      - {who: grandpa, type: speech, side: l, text: "JUST A CHECK-UP. TEN O'CLOCK, LIKE THE APPOINTMENT SLIP SAYS."}
+      - {who: grandpa, type: speech, side: l, text: "YOUR WORRY DOESN'T NEED ITS OWN APPOINTMENT."}
   - id: P06
-    shape: inset-r
+    shape: tall
     gap: short
     bg: white
     style: chibi
@@ -97,9 +101,10 @@ panels:
       each blank, while chibi grandpa in blue cap calmly stamps a single blank real slip.
       Chibi nib holds the fish parcel as the only practical person. Preserve Nib notch, belt sides, binoculars and bare feet.
       Flat dusty ochre, hard little shadows, no medical threat, charts, letters or real extra appointment.
+      Chibi Taeo stands on the left, Grandpa sits in the centre and Nib stands on the right. Leave room for all bodies and slips.
     calm: left
     lines:
-      - {who: nib, type: speech, side: r, text: "ONE PATIENT. THREE WORRIERS."}
+      - {who: nib, type: speech, side: r, text: "ONE PATIENT. THREE APPOINTMENTS."}
   - id: P07
     shape: narrow-l
     gap: short
@@ -110,22 +115,23 @@ panels:
     ui:
       - {kind: phone.ttok_chat, on: screen, hand: taeo_right_front, title: "YEO ARA", messages: [{from: them, text: "Yearly Long Night service, 11 AM. The memorial park. You and Nib are welcome.", time: "08:16"}, {from: them, text: "No uniform needed.", time: "08:17"}]}
   - id: P08
-    shape: wide
+    shape: tall
     gap: short
     bg: white
-    camera: "over Taeo's shoulder onto Grandpa seated at the trestle"
+    camera: "medium group view at the trestle, Grandpa and Taeo both clearly visible"
     art: >
       ryu_practice_yard. taeo holds the phone back toward camera, dinosaur sticker visible, explaining an invitation.
       grandpa folds his blank appointment paper into his jacket pocket, eyes on his grandson rather than the device.
       Nib stands left with a cup in both hands, listening. Normal adult proportions restored.
       Morning sun through chain-link, ochre/brown and navy. No appointment diagnosis, readable screen or hidden glowing window.
+      Grandpa sits on the left, Nib stands in the centre and Taeo stands on the right, both speaking faces visible.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "THE RESCUE TEAM'S MEMORIAL. I CAN STAY WITH YOU INSTEAD."}
+      - {who: taeo, type: speech, side: r, text: "SEORYUN'S TEAM INVITED US TO A MEMORIAL SERVICE. I CAN COME TO THE HOSPITAL INSTEAD."}
       - {who: grandpa, type: speech, side: l, text: "I CAN FIND A HOSPITAL."}
       - {who: grandpa, type: speech, side: l, text: "GO. WE'LL HAVE TEA AFTER."}
   - id: P09
-    shape: vignette
+    shape: full
     gap: short
     bg: white
     silent: true
@@ -147,9 +153,10 @@ panels:
       Firm grip, five distinct fingers, pale adult scars; marked binocular hinge at edge. He remembers yesterday's lesson with the hands.
       Warm morning sun and brown table shade; navy sleeve of taeo enters only to offer a place to coil it.
       No load, knife, written diagram, boot or amber light.
+      Only Nib's hands and the rope fill the middle detail band; Nib himself remains beyond the left edge.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "IT HOLDS. IT ALSO LETS GO."}
+      - {who: "offpanel:nib", type: speech, side: l, text: "THE KNOT HOLDS. THE RELEASE WORKS."}
   - id: P11
     shape: full
     gap: long
@@ -165,7 +172,7 @@ panels:
     lines:
       - {who: narr, type: tag, text: "LONG NIGHT MEMORIAL PARK · 10:52 AM"}
   - id: P12
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "eye-level medium on Ara greeting them without leaving the flower table"
@@ -175,13 +182,14 @@ panels:
       She sets spare plain paper cups beside a water flask, then gives nib room to stand beside the adults.
       Taeo is right, Nib left, both uncertain how to arrive. Pale daylight, stone grey/olive.
       No repeated intro, sponsor insignia, readable cup branding or ceremonial medals.
+      Nib stands on the left, Ara in the centre and Taeo on the right, with each face and natural height clearly visible.
     calm: top
     lines:
-      - {who: yeo_ara, type: speech, side: l, text: "THANK YOU FOR COMING."}
+      - {who: yeo_ara, type: speech, side: c, text: "THANK YOU FOR COMING."}
       - {who: taeo, type: speech, side: r, text: "WE WEREN'T SURE WHERE TO STAND."}
-      - {who: yeo_ara, type: speech, side: l, text: "HERE'S FINE."}
+      - {who: yeo_ara, type: speech, side: c, text: "HERE'S FINE."}
   - id: P13
-    shape: inset-l
+    shape: tall
     gap: short
     bg: white
     camera: "low through the mourners' legs onto Nib finding his place"
@@ -190,11 +198,12 @@ panels:
       A mourner shifts one foot sideways to make space. Brown rope belt, RIGHT pouch sticker, LEFT sheath and high binoculars intact.
       Flat pale daylight on cool paving, violet-grey shadows, simple coats beyond.
       No crowd recoiling, child-height metaphor graphics, glowing eyes, readable wall names or new shoes.
+      Nib stands in the left third, his entire adult body given room between the mourners' legs.
     calm: right
     lines:
       - {who: taeo, type: float, text: "I ALWAYS EXPECT A RULE I MISSED."}
   - id: P14
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "across the court toward Seoryun at the north wall"
@@ -203,9 +212,10 @@ panels:
       olive field jacket over charcoal, current LEFT-sleeve open-door team patch. She removes her work gloves before bowing,
       her face tired and entirely present. Ara stands aside, not behind a lectern; mourners ordinary and unarranged.
       Diffuse blue-white daylight, stone grey and olive shadows. No cameras, halo, microphone, readable memorial names or old patch substituted.
+      Seoryun stands in the centre; Ara and mourners remain to either side, all with natural standing height.
     calm: top
     lines:
-      - {who: seoryun, type: speech, side: c, text: "WE'LL KEEP A MINUTE."}
+      - {who: seoryun, type: speech, side: c, text: "A MINUTE OF SILENCE."}
   - id: P15
     shape: full
     gap: long
@@ -230,7 +240,7 @@ panels:
       Pale overcast daylight, slate and navy with skin a muted warm tone. No link light, bruise reveal, prayer charm or extra hand.
     calm: none
   - id: P17
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "west-side oblique along the memorial flower shelf"
@@ -239,12 +249,13 @@ panels:
       one person adjusts a stem so it does not roll. nib watches the practical care with his eyes lowered, default outfit unchanged.
       taeo remains beside him, not hurrying him. Plaque face angled away so inscriptions stay unseen.
       Blue-white daylight, cool grey stone and dull green stems. No readable names, dead bodies, hidden marks or floating narration art.
+      Nib stands on the left and Taeo on the right beside the shelf. Give both full bodies room.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "THE NAMES ARE HERE?"}
-      - {who: taeo, type: speech, side: r, text: "SOME OF THEM."}
+      - {who: nib, type: speech, side: l, text: "THE DEAD HAVE NAMES HERE?"}
+      - {who: taeo, type: speech, side: r, text: "SOME OF THEIR NAMES."}
   - id: P18
-    shape: narrow-r
+    shape: tall
     gap: short
     bg: white
     camera: "single full figure of Seoryun leaving along the east path"
@@ -253,11 +264,12 @@ panels:
       toward the wall before duty carries her away. She is a working adult in olive gear, no glamorous stride.
       Ara remains far behind with the mourners; taeo only at frame edge, seeing her leave.
       Pale midday sun through clouds, cool stone and muted olive. No emergency spectacle, screen, camera entourage or old uniform patch.
+      Seoryun walks in the right third, full body visible with generous space above and below.
     calm: left
     lines:
       - {who: seoryun, type: speech, side: r, text: "ARA. I'LL CALL AFTER THE SITE CHECK."}
   - id: P19
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "from behind Nib and Taeo as they approach the west sloping plaque"
@@ -266,6 +278,7 @@ panels:
       nib steps nearer, hands loose, reading posture unmistakable; taeo stands half a step back so he can see.
       Plaque rows are recessed blank horizontal bands, flower shelf beneath. Binoculars hang at Nib's chest rather than being used.
       Cool grey daylight, violet-grey shadows and dull greenery beyond. No generated letters, magical glow, Kett fork on plaque or duplicate memorial.
+      Nib stands on the left near the plaque and Taeo on the right just behind; both full figures retain natural proportions.
     calm: top
     lines:
       - {who: taeo, type: float, text: "HE DOESN'T ASK ME TO READ THINGS NOW."}
@@ -313,15 +326,16 @@ panels:
     shape: tall
     gap: long
     bg: white
-    camera: "low three-quarter portrait on Moon at the sloping plaque"
+    camera: "low medium two-shot of Nib and Moon at the sloping plaque"
     art: >
       granny_moon at long_night_memorial: very tall elderly grey-skinned woman with long pointed ears, silver hair in low bun,
       tired narrow eyes, spectacles on a neck cord, dark olive cardigan over cream blouse, cream work apron, dark trousers, brown slip-ons.
       She has come straight from ordinary work. She bends carefully toward the empty lower flower shelf, one white chrysanthemum in hand.
       Nib at frame edge recognizes her. Pale daylight, stone grey/olive. No intro plate, occult costume, disguised skin or legible engraving in art.
+      Nib stands on the left with his face fully visible; Moon bends at the plaque on the right. Keep their height difference natural.
     calm: top
     lines:
-      - {who: nib, type: whisper, side: l, text: "THE LAUNDRY WOMAN."}
+      - {who: nib, type: whisper, side: l, text: "THE WOMAN FROM THE LAUNDROMAT."}
   - id: P24
     shape: wide
     gap: short
@@ -350,7 +364,7 @@ panels:
       No coloured aura, reflected letters, crying effect, younger Moon inset or secret facility flashback.
     calm: none
   - id: P26
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     silent: true
@@ -360,6 +374,7 @@ panels:
       her tall figure inclines slightly toward him, hands now empty. taeo stands a pace aside, seeing a meeting he cannot translate.
       The single flower stays at the lower shelf, blossom right. Cool stone/olive, pale daylight.
       No hand contact, whispered secret, Kett sign, childlike Nib or system interface.
+      Nib stands on the left, Moon on the right and Taeo a pace behind in the centre. Give all three room at full height.
     calm: none
     notes: "PLANT P13: Moon and Nib meet eyes. This is a present-tense memorial gesture, not the ch 76 language payoff."
   - id: P27
@@ -367,15 +382,16 @@ panels:
     gap: short
     bg: white
     silent: true
-    camera: "three-quarter from Taeo's side on Moon straightening"
+    camera: "close three-quarter portrait of Moon's face and shoulders as she straightens"
     art: >
       granny_moon at long_night_memorial straightens slowly, one hand smoothing the plain cream apron where she knelt.
       Her eyes lower first. She does not smile to make either younger person comfortable.
       The edge of nib's LEFT notched ear in foreground, binocular strap below. Diffuse daylight, slate grey and muted olive.
       No revelation, dialogue art, flower carried away, covert note or carved mark.
+      Crop Moon from the chest up; Nib's notched ear remains a small edge detail at lower left.
     calm: none
   - id: P28
-    shape: vignette
+    shape: full
     gap: long
     bg: white
     silent: true
@@ -387,7 +403,7 @@ panels:
       Grey daylight, violet-grey tree shadows, white edges fading. No secret observer, magical trail, duplicate bloom or readable wall names.
     calm: none
   - id: P29
-    shape: wide
+    shape: tall
     gap: long
     bg: white
     camera: "south bench two-shot, Nib standing and Taeo sitting to his eye level"
@@ -396,6 +412,7 @@ panels:
       nib stands left, adult default outfit and bare feet, hands resting against high binoculars rather than using them.
       He looks toward the wall, asking a practical question with a weight he cannot name.
       Pale daylight, cool grey stone and muted green leaves. No plaque text in art, phantom casualties or sentimental petting.
+      Nib stands on the left and Taeo sits on the right, retaining their natural heights and clear faces.
     calm: top
     lines:
       - {who: nib, type: speech, side: l, text: "WHAT WAS THE LONG NIGHT?"}
@@ -409,10 +426,11 @@ panels:
       He answers carefully, aware he knows this from school rather than life. Navy jacket collar loose, hands empty.
       Daylight through leaves makes one simple hard shadow at his shoulder; cool grey/blue palette.
       No explanatory historical montage, interface, new casualty count or shame exaggerated into tears.
+      Taeo fills the right third in a head-and-shoulders crop.
     calm: right
     lines:
       - {who: taeo, type: speech, side: r, text: "THE FIRST NIGHT THE DOORS OPENED."}
-      - {who: taeo, type: speech, side: r, text: "FOUR HUNDRED AT ONCE. I WASN'T BORN."}
+      - {who: taeo, type: speech, side: r, text: "FOUR HUNDRED GATES AT ONCE. I WASN'T BORN YET."}
   - id: P31
     shape: strip
     gap: short
@@ -426,7 +444,7 @@ panels:
       No extra fork on stone, glow, route message, knife or generated words.
     calm: none
   - id: P32
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "reverse across the bench toward Nib with the plaque far behind"
@@ -435,9 +453,10 @@ panels:
       His ears angle toward the court sounds; the plaque is too far away for any writing, one white flower tiny below it.
       Taeo sits in foreground with shoulders quiet, listening as Ara taught him. Cool grey noon light and violet-grey shade.
       No answered mystery, flashback to Long Night, cute face or floating text in art.
+      Nib stands on the left and Taeo sits on the right in visible three-quarter profile. Both faces are clear.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "DID THEY COUNT EVERYONE?"}
+      - {who: nib, type: speech, side: l, text: "DID THE MEMORIAL COUNT EVERYONE WHO DIED?"}
       - {who: taeo, type: speech, side: r, text: "I DON'T KNOW."}
   - id: P33
     shape: full
@@ -451,7 +470,7 @@ panels:
       No police arrival, flower stolen, hidden doorway, camera or label generated in the art.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "I WAS GRATEFUL HE LET THAT BE MY ANSWER."}
+      - {who: taeo, type: float, text: "I WAS GRATEFUL NIB DIDN'T ASK ME TO PRETEND I KNEW."}
   - id: P34
     shape: narrow-r
     gap: short
@@ -463,7 +482,7 @@ panels:
       - {kind: phone.ttok_notification, on: screen, hand: taeo_left_tilt, title: "GRANDPA", text: "Back at your yard. They gave me tea. Take your time."}
     notes: "Grandpa's check-up is complete off panel. Results remain unspecified, no illness escalation."
   - id: P35
-    shape: wide
+    shape: full
     gap: long
     bg: white
     camera: "establishing from the south gate into the keyed Ryu yard"
@@ -472,24 +491,27 @@ panels:
       taeo and nib enter; orrin rests in open west shade near the trestle, cracked shell unchanged.
       grandpa is inside the office with tea_helper, mostly hidden by its open door, his blue cap visible through the side window.
       Higher sun, dusty ochre and warm brown, sky blue. No new gate anomaly, missing walls, fresh boots or readable stickers.
+      Taeo enters on the right with Nib centre-right. Grandpa speaks from inside the southwest office beyond the left edge; his cap is only a distant glimpse.
     calm: top
     lines:
       - {who: taeo, type: speech, side: r, text: "GRANDPA? WE'RE BACK."}
-      - {who: grandpa, type: speech, side: l, text: "FINISH YOUR WORK. I'M SITTING."}
+      - {who: "offpanel:grandpa", type: speech, side: l, text: "FINISH YOUR WORK. I'M SITTING."}
   - id: P36
-    shape: wide
+    shape: tall
     gap: short
     bg: white
-    camera: "low three-quarter toward Sejin at the west trestle"
+    camera: "eye-level group view of Sejin, Taeo and Orrin at the west trestle"
     art: >
       sejin at ryu_practice_yard, adult short black hair, muted teal field top, tan medical chest rig, dark trousers and practical shoes.
       She lays down a blank log beside a small padded compression rig, expression businesslike and ready to stop it.
       taeo removes navy jacket, black hoodie sleeves still down; nib and orrin wait rather than being positioned by others.
       Afternoon sun, A4 ochre/brown, no medical miracle, injected device, lit screen or legible log.
+      Sejin stands on the left, Orrin rests in the centre and Taeo stands on the right. Show all three speaking faces; Nib waits just behind Taeo.
     calm: top
     lines:
-      - {who: sejin, type: speech, side: l, text: "YOU ASKED TO LOG THE CONTROLLED TRANSFER. STILL WANT TO?"}
-      - {who: taeo, type: speech, side: r, text: "ONE. IF THEY BOTH AGREE."}
+      - {who: sejin, type: speech, side: l, text: "READY FOR THE PRESSURE TEST YOU ASKED ME TO SUPERVISE?"}
+      - {who: taeo, type: speech, side: r, text: "ONE PRESSURE PULSE. IF NIB AND ORRIN BOTH AGREE."}
+      - {who: orrin, type: speech, side: c, text: "ONE PULSE IS AGREEABLE."}
     notes: "One supervised low-load control check, not training escalation or a reservoir prototype. Sejin remains paid safety officer."
   - id: P37
     shape: strip
@@ -501,10 +523,10 @@ panels:
       on the matching ground-level pad, away from his cracked shell. Taeo's hands remain separate beside the simple release lever.
       Each has chosen a position, no restraints. Sun from upper left, tan padding, brown shadows and slate shell edge.
       No giant weights, spring launch, glowing apparatus, cuffs or readable mechanism labels.
+      Nib's hand enters from the left, Orrin's forefoot from the right. Nib's face is beyond the left edge of this detail.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "ONE."}
-      - {who: orrin, type: speech, side: r, text: "ONE IS AGREEABLE."}
+      - {who: "offpanel:nib", type: speech, side: l, text: "ONE PULSE."}
   - id: P38
     shape: wide
     gap: short
@@ -530,11 +552,12 @@ panels:
       taeo at ryu_practice_yard, black hoodie, tries to maintain an ordinary expression when the small mechanical recoil arrives.
       His lower lids tighten and a breath catches; the single RIGHT-eye mole remains. Not a huge injury spectacle.
       Work trestle shade, warm brown and cool navy, no bleeding nose, large power flare, smile of pleasure or system art.
+      Taeo fills the left third in a face-and-shoulders crop.
     calm: right
     lines:
-      - {who: taeo, type: nervous, side: l, text: "THAT'S ENOUGH."}
+      - {who: taeo, type: nervous, side: l, text: "STOP THE PRESSURE TEST."}
   - id: P40
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "high across the released rig toward Sejin and the consenting pair"
@@ -543,11 +566,12 @@ panels:
       Taeo's open right palm is dark again. His shoulders sag in relief as Sejin taps the closed log with one finger.
       Nib looks toward him, not injured; Orrin's shell crack unchanged, never used as a load surface.
       Afternoon daylight, dusty ochre/brown, no further repetition, imaginary gauges, text or glow.
+      Sejin stands on the left, Nib in the centre and Taeo on the right, each speaking face visible; Orrin rests behind.
     calm: top
     lines:
-      - {who: sejin, type: speech, side: l, text: "STOP LOGGED. WE'RE DONE."}
-      - {who: nib, type: speech, side: r, text: "YOU SAID IT."}
-      - {who: taeo, type: speech, side: r, text: "LEARNING."}
+      - {who: sejin, type: speech, side: l, text: "I'VE RECORDED THE STOP. NO MORE TESTS TODAY."}
+      - {who: nib, type: speech, side: c, text: "YOU ASKED TO STOP."}
+      - {who: taeo, type: speech, side: r, text: "I'M LEARNING."}
   - id: P41
     shape: inset-r
     gap: short
@@ -558,6 +582,7 @@ panels:
       Existing Sinjeong shell fracture clear in side light, one practical old eye soft with dry humour.
       Tan skin and slate plates, warm brown shadow, pale sky beyond.
       No new fracture, medicine bottle, cute expression, wearable clothing or readable office sign.
+      Orrin's face fills the right third, with only the near edge of his shell in view.
     calm: left
     lines:
       - {who: orrin, type: speech, side: r, text: "THE TEA HAS BEEN WAITING LONGER THAN I HAVE."}
@@ -571,9 +596,10 @@ panels:
       He pushes his sleeves toward his elbows with the back of one hand, trying to be useful while he settles after the test.
       Sejin tidies the simple rig at far edge; nib coils his practice rope, default gear unchanged.
       Afternoon sun, ochre ground and brown table shadow, water dull white. No active windows, new sink plumbing or generated labels.
+      Taeo is on the right, framed from the waist up with both cups and the bowl in view. Sejin and Nib are seated at the far trestle edge.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "SORRY. I'LL MAKE FRESH."}
+      - {who: taeo, type: speech, side: r, text: "SORRY. I'LL MAKE FRESH TEA."}
   - id: P43
     shape: strip
     gap: short
@@ -588,7 +614,7 @@ panels:
     calm: none
     notes: "Fresh superficial recoil from the single controlled check over older Sinjeong bruising. Not a new magical effect or increase in capacity."
   - id: P44
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "from behind Taeo at the bowl toward the office door"
@@ -597,6 +623,7 @@ panels:
       The grey office door opens behind him and grandpa steps out in blue cap and grey jacket, tea cup empty in one hand.
       Old man's first expression is simply a pleased welcome back. Maze topology fixed beyond, afternoon sun and ochre/brown.
       No ominous lighting change, threatened fall, lettered diagnosis or new household layout.
+      Grandpa emerges on the left and Taeo stands on the right at the bowl, both at full natural height.
     calm: top
     lines:
       - {who: grandpa, type: speech, side: l, text: "NO RUSH, I SAID."}
@@ -624,7 +651,7 @@ panels:
       Hard afternoon sun, warm brown table and ceramic off-white. No shattered cup, spill sound, amber pulse or text.
     calm: none
   - id: P47
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "side-on at the washing bowl, Taeo catching the change in Grandpa"
@@ -633,20 +660,22 @@ panels:
       Black hoodie sleeves remain rolled, old and fresh forearm bruises fully present; one cup dripping over the metal bowl.
       Grandpa stands still beyond him, blue cap shadowing his eyes. Nib notices from the rope station but does not intervene.
       Warm ochre daylight, brown shadows. No comedy, hidden sleeves, sudden nosebleed or printed signs.
+      Grandpa stands on the left and Taeo on the right; Nib remains centred behind the rope station. Leave room for their bodies.
     calm: top
     lines:
       - {who: taeo, type: speech, side: r, text: "GRANDPA?"}
   - id: P48
-    shape: vignette
+    shape: tall
     gap: long
     bg: white
     silent: true
-    camera: "from Nib's low eye line across the space between the two men"
+    camera: "from Nib's low eye line between Taeo and Grandpa, with natural standing height"
     art: >
       ryu_practice_yard. Hold the distance: taeo at bowl on right, uncovered bruised arms; grandpa on left with an empty cup.
       Nib's low eye line makes the hands central, not the faces. His practice rope lies neatly coiled in foreground.
       Ordinary afternoon light continues, dusty ochre and warm brown; no theatrical darkness to rescue them from being seen.
       No dialogue, phantom father, new wound or legible log sheet.
+      Grandpa stands on the left and Taeo on the right. Show both uncovered forearms without compressing either standing figure.
     calm: none
   - id: P49
     shape: tall
@@ -659,9 +688,10 @@ panels:
       Taeo's hand still holds the harmless cup over the washing bowl. His eyes lift to Grandpa, caught.
       Grandpa's profile is very still. Hard afternoon sunlight, dusty ochre/brown, muted violet skin marks.
       No wound glow, melodramatic bleeding, concealing jacket or generated words.
+      Grandpa occupies the left third in clear profile; Taeo stands on the right, both faces and bruised forearms visible.
     calm: top
     lines:
-      - {who: grandpa, type: speech, side: l, text: "THOSE ARE NEW."}
+      - {who: grandpa, type: speech, side: l, text: "THOSE BRUISES ARE NEW."}
     notes: "HOOK: Grandpa has been waiting at yard; sleeves rolled reveal fresh bruises. Ch 43 first answers this look, then frames the nine-year flashback and next-morning boots."
   - id: P50
     kind: end

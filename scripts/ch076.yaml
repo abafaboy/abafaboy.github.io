@@ -30,7 +30,7 @@ palette_notes: >
   No interface cyan, amber link pulse, decorative particles or readable generated surfaces.
 panels:
   - id: P01
-    shape: wide
+    shape: tall
     gap: none
     bg: white
     camera: "same table level as ch075 hook, now looking across Kesh's paper toward Nib"
@@ -40,9 +40,11 @@ panels:
       folds his diagram carefully. Four grey-brown wing panels cloak an olive tunic, dark trousers and wrapped shoes.
       Nib (nib, adult default, boots, locked binoculars/belt props) watches without taking the paper. Warm task lamp
       meets cool southeast dawn on ochre wood; his cobalt pencil lies between them. No words on diagram or glowing wings.
+      Kesh stands on the left and Nib on the right, with their height difference and folded wings given full vertical room.
+      Nib is in the right third with face visible. Kesh is in the left third with face visible.
     calm: top
     lines:
-      - {who: nib, type: speech, side: r, text: "AFTER SLEEP."}
+      - {who: nib, type: speech, side: r, text: "WE DISCUSS THE PLAN AFTER SLEEP."}
       - {who: kesh, type: speech, side: l, text: "I HAD SEVERAL IDEAS ABOUT SLEEP."}
       - {who: nib, type: speech, side: r, text: "USE ONE."}
     notes: "Directly follows Kesh's use-the-loop proposal; diagnosis remains for ch077."
@@ -59,18 +61,20 @@ panels:
       No text, magical beam or third hand.
     calm: none
   - id: P03
-    shape: inset-l
+    shape: full
     gap: short
     bg: white
-    camera: "low close view of Nib looking down at his knee"
+    camera: "low medium view of Nib bending to inspect his torn shorts"
     art: >
       Nib (nib, adult default, boots and full locks) at ryu_practice_yard pinches the NEW torn right knee hem of his
       charcoal shorts, eyes narrowed in practical displeasure. The older charcoal repair higher on RIGHT thigh
       remains sound. Dawn from southeast, warm task-lamp edge, ochre/brown palette. No exposed underwear,
       cute face, broken boots or loose knife.
+      Frame Nib at natural adult proportions with room between his face, hands and torn knee.
+      Nib is in the left third with face visible.
     calm: right
     lines:
-      - {who: nib, type: speech, side: l, text: "I HAVE A REPAIR."}
+      - {who: nib, type: speech, side: l, text: "ONE MORE REPAIR."}
   - id: P04
     shape: wide
     gap: short
@@ -81,10 +85,11 @@ panels:
       diagram to Nib off frame. He starts to gesture toward the paper, then lets his hand rest. Kesh is folded with
       fatigue, antennae low, adult wings closed. Cool dawn and task lamp, ochre wood and slate-blue shadow.
       No interface, clock readout or active equipment.
+      Crop people waist-up, retaining the acting hands; do not compress full figures. Taeo is in the left third with face visible. Nib's voice comes from off-frame right.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "THE RELAY?"}
-      - {who: nib, type: speech, side: r, text: "MY SHORTS."}
+      - {who: taeo, type: speech, side: l, text: "THE RELAY NEEDS REPAIR?"}
+      - {who: "offpanel:nib", type: speech, side: r, text: "MY SHORTS DO."}
   - id: P05
     kind: title
     gap: long
@@ -120,17 +125,19 @@ panels:
     shape: inset-r
     gap: short
     bg: white
-    camera: "waist-height view of Nib stopping before the open glass door"
+    camera: "close on Nib's face and hands as he frees the bag handle; boots below the crop"
     art: >
       Nib (nib, adult default and boots) at moon_laundromat's southeast doorway inspects the plain laundry bag
       handle caught on his RIGHT pouch flap; he unhooks it carefully, deadpan. Binoculars stay on his chest,
       wooden sheath LEFT, green dinosaur sticker visible. South daylight with warm pendant spill,
       cream/teal interior behind. No readable shop notice or smiling mascot face.
+      Keep the framing chest-up with the caught bag handle raised into view; the boots are below frame.
+      Nib is in the right third with face visible.
     calm: left
     lines:
       - {who: nib, type: speech, side: r, text: "ONE BAG. THREE HANDLES. USELESS."}
   - id: P09
-    shape: wide
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -140,11 +147,12 @@ panels:
       solemnly attempts to put one oversized laundry-bag handle into his small pouch. The other two handles
       stick out like absurd antennae. Flat pale-teal background at moon_laundromat entry, warm overhead shadow.
       Comic flat mouth and one sweat drop; no Kesh double, extra limbs, words or unsafe knife.
+      Nib is in the centre third with face visible.
     calm: top
     lines:
       - {who: nib, type: speech, side: c, text: "THE POCKET IS BETTER."}
   - id: P10
-    shape: full
+    shape: tall
     gap: short
     bg: white
     silent: true
@@ -160,16 +168,17 @@ panels:
     shape: strip
     gap: short
     bg: white
-    camera: "close view across the folding table to Nib's hand testing the old thigh repair"
+    camera: "detail of Nib's hands testing the intact thigh patch above the new knee tear"
     art: >
       At moon_laundromat Nib's green fingers press the intact charcoal backing and neat stitches at his RIGHT
       outer thigh, above the fresh knee tear. His brown pouch with dinosaur sticker hangs safely higher.
       Warm dome light over cream/teal background, hard brown shadow. No exposed skin beyond normal hem,
       blood, lettering or knife.
+      Show only the repair and his testing fingers; Nib speaks from above the right edge.
+      Nib's voice comes from off-frame right.
     calm: top
     lines:
-      - {who: nib, type: speech, side: r, text: "YOUR REPAIR HELD."}
-      - {who: nib, type: speech, side: r, text: "THE REST DIDN'T."}
+      - {who: "offpanel:nib", type: speech, side: r, text: "YOUR THIGH PATCH HELD. MY SHORTS TORE AT THE KNEE."}
   - id: P12
     shape: tall
     gap: short
@@ -182,9 +191,10 @@ panels:
       Five long bony fingers hold a folded cream towel. Her expression is practical recognition, not surprise.
       Nib (adult default, boots) stands foreground right. Warm pendants and south daylight, cream/teal/brown.
       No introduction plate, speech from Moon, message cloth or readable tags.
+      Nib is in the right third with face visible.
     calm: top
     lines:
-      - {who: nib, type: speech, side: r, text: "SAME PROBLEM. LOWER DOWN."}
+      - {who: nib, type: speech, side: r, text: "SAME SHORTS. NEW TEAR AT THE KNEE."}
     notes: "Moon is already introduced in ch029; no duplicate nameplate."
   - id: P13
     shape: inset-l
@@ -199,7 +209,7 @@ panels:
       No supernatural eye glow, lettered estimate or second face.
     calm: none
   - id: P14
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "side two-shot in central aisle toward northeast staff door"
@@ -208,9 +218,11 @@ panels:
       hand toward the northeast staff door, the same privacy arrangement as ch029. Nib (adult default, boots)
       takes it with a small nod. Four west washers remain behind; warm pendant light, cream tiles/teal trim.
       No undressing, readable doors, new back room or word from Moon.
+      Moon stands left and Nib stands right, both full figures with clear space between them.
+      Nib is in the right third with face visible.
     calm: top
     lines:
-      - {who: nib, type: speech, side: r, text: "I REMEMBER."}
+      - {who: nib, type: speech, side: r, text: "I REMEMBER WHERE TO CHANGE."}
   - id: P15
     shape: narrow-r
     gap: short
@@ -224,7 +236,7 @@ panels:
       lock sign, text or extra character.
     calm: none
   - id: P16
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "counter-height from the west end toward the stool"
@@ -234,9 +246,11 @@ panels:
       across his lap; binoculars remain worn. He lays his cobalt pencil on the counter while Moon spreads
       the charcoal shorts over a dark felt sewing mat. Her face intent, his patient. Warm pendants, cream/teal,
       brown shadows. Mat conceals old mark; no nudity, text or fresh fork carving.
+      Moon sits on the left and Nib on the right; give both seated bodies and the gear on his lap room.
+      Nib is in the right third with face visible.
     calm: top
     lines:
-      - {who: nib, type: speech, side: r, text: "MORE CLOTH INSIDE. HERE."}
+      - {who: nib, type: speech, side: r, text: "MORE CLOTH INSIDE THE KNEE, PLEASE."}
       - {who: nib, type: speech, side: r, text: "I KNEEL ON STONE."}
     notes: "He states what his work needs; mending is collaboration. Pencil remains on counter until P46."
   - id: P17
@@ -261,11 +275,12 @@ panels:
       backing off frame. Weathered angular face, LEFT notch and lone LEFT fang, binocular strap knot LEFT neck.
       His attention is exact and pleased. Warm lamp light, muted cream/teal background, no cute round eyes
       or speculative memory image.
+      Nib is in the left third with face visible.
     calm: right
     lines:
-      - {who: nib, type: speech, side: l, text: "YES. THAT."}
+      - {who: nib, type: speech, side: l, text: "KEEP THE BACKING FOLDED."}
   - id: P19
-    shape: wide
+    shape: tall
     gap: long
     bg: white
     silent: true
@@ -275,6 +290,7 @@ panels:
       charcoal cloth. Nib (wrap top, secure towel, gear on lap, boots) sits straight with hands flat, watching her
       work rather than her face. The cobalt pencil lies near his old fork cut in the counter lip; felt covers
       the adjacent area. Warm dome light and south daylight, cream/teal, brown shadows. No old mark or words.
+      Moon sits on the left and Nib on the right; retain their full seated proportions.
     calm: none
   - id: P20
     shape: strip
@@ -286,9 +302,10 @@ panels:
       projecting wooden lip. His marked cobalt pencil rests nearby, angle echoing the stem. Dark felt drapes over
       the counter six centimetres to the WEST, concealing the adjacent older wood. Warm overhead lamp,
       cream wood and hard brown shadow. Only the one visible counter mark; no readable writing or aura.
+      Nib's voice comes from off-frame right.
     calm: top
     lines:
-      - {who: nib, type: speech, side: r, text: "STILL THERE."}
+      - {who: "offpanel:nib", type: speech, side: r, text: "MY COUNTER MARK IS STILL HERE."}
     notes: "PAYOFF P04: retain ch029's exact north-counter carving. Do not reveal the older one until the hook."
   - id: P21
     shape: inset-r
@@ -313,9 +330,11 @@ panels:
       Moon sews just off right. Through the glass late workers pass as plain small silhouettes. Nib watches
       the open door with trained alertness. Warm pendant cream inside, cooler afternoon grey-blue outside.
       No lettering, gate, named stranger or older counter mark.
+      Show Nib waist-up on the right; Moon sews just beyond the right edge, facing the storefront.
+      Crop people waist-up, retaining the acting hands; do not compress full figures. Nib is in the right third with face visible.
     calm: top
     lines:
-      - {who: nib, type: speech, side: r, text: "YOU ALWAYS FACE THE DOOR."}
+      - {who: nib, type: speech, side: r, text: "YOU ALWAYS KEEP THE DOOR IN SIGHT."}
   - id: P23
     shape: narrow-l
     gap: short
@@ -338,11 +357,12 @@ panels:
       an ordinary passing footstep outside, then looks back at Moon. His binoculars sit high, one hand flat
       on his lap gear. Warm pendant key, muted teal background and brown shadow. No predator, comic alarm
       or extra person entering.
+      Nib is in the right third with face visible.
     calm: left
     lines:
-      - {who: nib, type: speech, side: r, text: "GOOD CHAIR."}
+      - {who: nib, type: speech, side: r, text: "GOOD CHAIR FOR A WATCH."}
   - id: P25
-    shape: wide
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -352,6 +372,8 @@ panels:
       Granny Moon's two broad apron pockets with grave professional envy. Chibi Moon, same grey skin/moss
       cardigan/apron, gently closes the sewing tin before his gaze can inventory it. Flat cream and teal,
       warm lamp shadow, one small sparkle on Nib's eye for the joke only. No words, new pouch or older mark.
+      Place chibi Nib on the left and chibi Moon on the right, each fully separate.
+      Nib is in the left third with face visible.
     calm: top
     lines:
       - {who: nib, type: speech, side: l, text: "GOOD POCKETS TOO."}
@@ -369,7 +391,7 @@ panels:
       No wholly new shorts, text, second fork or injury.
     calm: none
   - id: P27
-    shape: narrow-r
+    shape: tall
     gap: long
     bg: white
     silent: true
@@ -381,7 +403,7 @@ panels:
       cream staff door and muted teal. No changing view, new uniform, paper words or cute body.
     calm: none
   - id: P28
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low full-figure view beside the north counter"
@@ -390,9 +412,11 @@ panels:
       reinforcement, then starts rising. His expression registers relief at a small useful improvement.
       Granny Moon (default) watches, hands resting on the counter. Warm dome lamp, cream/teal and brown shadows.
       No broken knee, fresh wound, older mark or lettering.
+      Moon stands left and Nib kneels on the right, the whole kneeling figure comfortably inside the frame.
+      Nib is in the right third with face visible.
     calm: top
     lines:
-      - {who: nib, type: speech, side: r, text: "BETTER."}
+      - {who: nib, type: speech, side: r, text: "THE KNEE PATCH FEELS BETTER."}
       - {who: nib, type: speech, side: r, text: "HOW MUCH?"}
   - id: P29
     shape: strip
@@ -415,11 +439,12 @@ panels:
       Nib (nib, adult default, boots below crop) at moon_laundromat looks up at Moon, jaw set with a workman's
       concern. His marked binocular hinge catches a small flat white highlight, no shine flare. LEFT notch and
       lone LEFT fang clear. Warm dome light, cream/teal background, no grin or misplaced belt gear.
+      Nib is in the left third with face visible.
     calm: right
     lines:
-      - {who: nib, type: speech, side: l, text: "THIS IS WORK."}
+      - {who: nib, type: speech, side: l, text: "MENDING IS WORK. YOU SHOULD BE PAID."}
   - id: P31
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "at Moon's elbow, her hands folding the returned towel"
@@ -428,9 +453,11 @@ panels:
       tin, then points with one open finger to Nib's binoculars and another toward the door. Her lined face is
       calm, seeing his work too. Nib (adult default, boots) stands to the right, listening. Warm pendants,
       cream/teal with brown shadows. No written bargain, new mark, explanatory montage or magic.
+      Moon is on the left and Nib stands on the right, both visible at full height.
+      Nib is in the right third with face visible.
     calm: top
     lines:
-      - {who: nib, type: speech, side: r, text: "I WATCH. THEY COME BACK."}
+      - {who: nib, type: speech, side: r, text: "I WATCH THE DOOR. MY PEOPLE COME BACK."}
   - id: P32
     shape: vignette
     gap: long
@@ -464,10 +491,12 @@ panels:
       with unbearable familiarity for one instant. Nib (adult default, boots and full scout locks) has not yet moved,
       hands by his sides, chin lifted to hear. Warm overhead cream light with muted moss and teal, brown cel shadows.
       Counter lip concealed at bottom edge; no older fork, flashback, glowing eyes or lettering.
+      Moon stands left and Nib right, with both full adult figures clearly visible.
+      Granny Moon is in the left third with face visible.
     calm: top
     lines:
       - {who: granny_moon, type: whisper, side: l, text: "THAR."}
-      - {who: narr, type: footnote, text: "WATCHMAN — IN THE SCOUTS' SPEECH."}
+      - {who: narr, type: footnote, text: "WATCHMAN. IN THE SCOUTS' SPEECH."}
     notes: "PAYOFF P04: Granny Moon speaks exactly one word in Nib's language, the scouts' occupational word for watchman. THAR is a phonetic rendering, not a proper name. Footnote translates the single spoken word."
   - id: P35
     shape: wide
@@ -502,6 +531,7 @@ panels:
       camera, shoulders square, fingers releasing the strap. His eyes are fierce with hope he did not consent
       to show. Her moss shoulder fills one edge. Warm pendant light, cream/teal background, brown shadows.
       No drawn older mark, demand gesture with knife or supernatural effect.
+      Crop people waist-up, retaining the acting hands; do not compress full figures. Nib is in the right third with face visible.
     calm: top
     lines:
       - {who: nib, type: speech, side: r, text: "...WHO TAUGHT YOU THAT WORD?"}
@@ -528,6 +558,8 @@ panels:
       mat; its edge still conceals the older fork. Nib (adult default, boots, repaired shorts) remains very still
       beside the stool. She faces the storefront, an ordinary closing routine with an extraordinary silence.
       Warm domes, cream/teal and brown shadow. No hurried escape, second door or written answer.
+      Frame Moon on the left and Nib on the right from the waist up.
+      Crop people waist-up, retaining the acting hands; do not compress full figures. Nib is in the right third with face visible.
     calm: top
     lines:
       - {who: nib, type: speech, side: r, text: "YOU HEARD ME."}
@@ -566,6 +598,8 @@ panels:
       folding table. Her face is turned away but a tight jaw remains visible. Nib (adult default, boots) in the
       aisle makes no move to block her. Warm pendant light, cream folded laundry and muted teal basket,
       evening navy beyond glass. No readable CLOSED sign, old mark or added words.
+      Frame Moon at left and Nib at right from the waist up; show her blind-pulling hand.
+      Crop people waist-up, retaining the acting hands; do not compress full figures. Nib is in the right third with face visible.
     calm: top
     lines:
       - {who: nib, type: speech, side: r, text: "I CAN COME BACK."}
@@ -591,11 +625,12 @@ panels:
       window to his plain laundry bag and cobalt pencil still on the NORTH counter. His face regains its
       discipline, hope held tight in the jaw. Warm pendants, cream/teal with brown shadows. No knife drawn,
       accusation pose or older counter mark visible.
+      Crop people waist-up, retaining the acting hands; do not compress full figures. Nib is in the centre third with face visible.
     calm: top
     lines:
-      - {who: nib, type: speech, side: c, text: "MY THINGS. THEN I GO."}
+      - {who: nib, type: speech, side: c, text: "I'LL GET MY BAG AND PENCIL. THEN I GO."}
   - id: P45
-    shape: narrow-l
+    shape: tall
     gap: short
     bg: white
     silent: true
@@ -632,7 +667,7 @@ panels:
     calm: none
     notes: "The caught mat lifts enough to uncover the older mark; reveal is held for final story panel."
   - id: P48
-    shape: wide
+    shape: tall
     gap: long
     bg: white
     silent: true
@@ -642,6 +677,7 @@ panels:
       one hand suspended with pencil and bag. His body hides the counter detail. Far down the aisle Granny
       Moon (default) stands at the darkened southwest window, back partly turned; southeast exit remains available.
       Warm domes in cream/teal room, brown shadow and navy glass. No vanishing Moon, readable sign or text.
+      Retain the long aisle and full standing figures without squeezing their height.
     calm: none
   - id: P49
     shape: tall

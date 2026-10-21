@@ -30,6 +30,7 @@ panels:
     bg: navy
     camera: "from the flat's entrance low across the cleared floor toward the window"
     art: >
+      Taeo kneels in the left third; Nib stands in the right third at the entrance. Keep both full figures uncrowded.
       Continue ch023 in taeo_flat: taeo default kneels beside the folding table, head snapped toward the floor; nib default
       stands by the entrance, one hand steadying binoculars. A cyan circle spreads between bed RIGHT and desk LEFT; a thin
       vertical cyan-white seam rises, already wider than the first summon's. Intact centred window beyond. Cyan light beats
@@ -51,7 +52,7 @@ panels:
     sfx:
       - {text: "DUM", style: impact, at: [0.60, 0.72], size: L}
   - id: P03
-    shape: wide
+    shape: tall
     gap: short
     bg: navy
     camera: "high oblique from the kitchenette corner across Orrin's emerging shell"
@@ -77,7 +78,7 @@ panels:
     calm: top
     intro: "ORRIN · STONEBACK CARRIER · ARRIVAL"
     lines:
-      - {who: orrin, type: speech, side: r, text: "...THIS IS A VERY SMALL HOUSE."}
+      - {who: orrin, type: speech, side: r, text: "THIS IS A VERY SMALL HOUSE."}
     notes: "Orrin's FIRST WORDS. Person has physically arrived only now; no harness, no clothes, no smooth turtle scutes. Nameplate once, lower-left clear, speaking face right."
   - id: P05
     kind: title
@@ -90,20 +91,22 @@ panels:
     bg: white
     camera: "front close view of Taeo backed against the desk"
     art: >
+      Frame Taeo from the chest up in the right third. Orrin's face is off frame to the left; only his shell crosses the foreground.
       BIG REACTION in taeo_flat: taeo default, socks, grips LEFT desk edge behind him, eyes enormous, mouth in a strangled
       customer-service smile, one mole under RIGHT eye. Orrin's slate shell fills the lower foreground like a wall. Orange lamp
       key under Taeo's chin, hard blue-grey room shadows. Simple focus lines for panic, no chibi proportions, no floating window.
     calm: top
     lines:
-      - {who: taeo, type: nervous, side: r, text: "IT'S EIGHTEEN SQUARE METRES."}
-      - {who: orrin, type: speech, side: l, text: "WHICH PART IS THE REST?"}
-      - {who: taeo, type: speech, side: r, text: "THIS IS THE REST."}
+      - {who: taeo, type: nervous, side: r, text: "THE WHOLE FLAT IS EIGHTEEN SQUARE METRES."}
+      - {who: "offpanel:orrin", type: speech, side: l, text: "AND THE OTHER ROOMS?"}
+      - {who: taeo, type: speech, side: r, text: "YOU'RE IN ALL OF THEM."}
   - id: P07
-    shape: strip
+    shape: wide
     gap: short
     bg: white
-    camera: "close on Nib's hand rescuing the binoculars from the table edge"
+    camera: "medium two-shot from the table edge, Nib and Orrin both visible"
     art: >
+      Frame Nib's face and upper body in the left third and Orrin's lowered face in the right third; legs stay below frame.
       taeo_flat: nib default steadies his own matte 8x30 binoculars against his chest with one hand and folds the empty sample
       tin shut with the other, moving it clear of Orrin's foot. Adult long fingers, black strap knot LEFT neck visible at crop.
       Orange lamp from left, slate shell in cool shadow right; no amber pulse, no touching Orrin without warning.
@@ -117,6 +120,7 @@ panels:
     bg: white
     camera: "side-on between the desk and the shell, Taeo and Orrin's faces level"
     art: >
+      Frame crouching Taeo left and Orrin's lowered head right from the waist up.
       In taeo_flat, taeo default crouches in the narrow LEFT aisle to face orrin's lowered head. Orrin's eyes are gently
       assessing; Taeo forces himself to breathe and opens one apologetic palm. Stacked shell behind, bed pinned RIGHT, lamp LEFT.
       Warm orange key and deep blue-grey shadow, no cyan now. Leave top calm, no extra door or magically widened room.
@@ -126,51 +130,54 @@ panels:
       - {who: orrin, type: speech, side: r, text: "ORRIN."}
       - {who: orrin, type: speech, side: r, text: "PERHAPS QUIETLY. THE WALLS SEEM THIN."}
   - id: P09
-    shape: narrow-l
+    shape: tall
     gap: short
     bg: white
     camera: "from the corridor through the outward-open flat door toward Orrin"
     art: >
+      Nib stands in the left third inside the doorway, with room for his full adult figure. Taeo stands off frame to the right.
       taeo_building corridor view through 402's OUTWARD-open slate-grey door: nib default stands just inside at the shoe step,
       looking from door width to orrin's huge shell beyond. Normal adult scale: Nib 105 cm, shell 135 cm high and much broader.
       Cold corridor tube behind camera, warm flat lamp beyond. Brass door plate and rezoning sheet blank, no extra hall exit.
     calm: right
     lines:
-      - {who: nib, type: speech, side: l, text: "NO."}
-      - {who: taeo, type: speech, side: r, text: "I DIDN'T ASK YET."}
+      - {who: nib, type: speech, side: l, text: "YOU WON'T FIT THROUGH THE DOOR."}
+      - {who: "offpanel:taeo", type: speech, side: r, text: "I DIDN'T ASK YET."}
       - {who: nib, type: speech, side: l, text: "THE DOOR DID."}
   - id: P10
     shape: strip
     gap: short
     bg: white
-    camera: "top-down on Taeo's tape measure between the jambs"
+    camera: "top-down detail of Taeo's hands measuring between the door jambs"
     art: >
-      taeo default stretches a borrowed steel tape between the taeo_flat door jambs, then looks back at the broad shell
-      visible in the room. His shoulders sink; nib's bare foot stands safely behind the entry step. Warm lamp on hands, cold
+      Only taeo default's hands stretch a borrowed steel tape between the taeo_flat door jambs; the broad shell
+      beyond exceeds the opening. Nib's bare foot stays at the frame edge behind the entry step. Warm lamp on hands, cold
       tube along grey steel. Tape has unlettered ticks only, sheet on door blank. No attempt to force Orrin into the doorway.
     calm: top
     lines:
       - {who: taeo, type: float, text: "I HAD NEVER HATED A MEASUREMENT BEFORE."}
   - id: P11
-    shape: inset-r
+    shape: full
     gap: short
     bg: white
     style: chibi
     camera: "chibi diagram-like side view of impossible doorway"
     art: >
+      Place chibi Orrin left, chibi Nib centre and chibi Taeo right, with room for their complete figures.
       CHIBI taeo default holds a tiny doorframe in front of chibi orrin, whose stacked shell projects comically far to each
       side. Orrin's heavy lids show patient scepticism; Taeo sweats, nib default examines the frame with flat eyes and binoculars.
       2.5-head comedy proportions with correct Nib locks. Flat blue-grey screentone, lamp-orange shadow edge; no labels, no pushing.
     calm: left
     lines:
-      - {who: taeo, type: nervous, side: r, text: "DO YOU... FOLD?"}
+      - {who: taeo, type: nervous, side: r, text: "DO YOU FOLD?"}
       - {who: orrin, type: speech, side: l, text: "NOT TWICE."}
   - id: P12
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "corridor eye level as the building manager arrives at the open door"
     art: >
+      The caretaker stands left and Taeo stands right in the doorway; give both full figures clear space.
       taeo_building fourth-floor corridor: building_manager, woman about 60 with tight curls, plum fleece, striped shirt,
       loose black trousers and slippers, stops at 402 with brass keys clutched to chest. Her face explodes in horrified alarm
       at the slate shell beyond taeo default in the doorway. Cold white tube, blue-grey shadows, sodium light below corridor rail.
@@ -179,13 +186,14 @@ panels:
     lines:
       - {who: building_manager, type: shout, side: l, text: "WHAT HAVE YOU PUT IN THERE?"}
       - {who: taeo, type: speech, side: r, text: "HIS NAME IS ORRIN."}
-      - {who: building_manager, type: shout, side: l, text: "THAT WAS NOT THE DIMENSION I ASKED ABOUT!"}
+      - {who: building_manager, type: shout, side: l, text: "I ASKED HOW BIG HE IS!"}
   - id: P13
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "long corridor view past two neighbours toward Taeo's doorway"
     art: >
+      The worried neighbour stands left, the filming neighbour centre and Taeo right; give the standing figures room.
       taeo_building corridor: neighbour_403 in grey shirt and track trousers leans out, worried; neighbour_film in tan vest
       raises a vertical plain phone to film the open room, screen facing away. taeo default stands between them and Orrin's face,
       embarrassed, trying to block the shot without touching anyone. Cold tubes, blue-grey corridor, warm room rectangle.
@@ -200,6 +208,7 @@ panels:
     bg: white
     camera: "close on Orrin's eye from the narrow desk aisle"
     art: >
+      Orrin's speaking face occupies the left third.
       orrin default in taeo_flat, adult heavy-lidded olive eye and sagging cheek close, turns his gaze down toward the floor
       instead of the people in the doorway. His mouth presses thin with familiar embarrassment. Warm orange lamp at left,
       deep slate shadow under shell. No cute watery eyes, no glitter, no cyan, no cracked shell.
@@ -212,6 +221,7 @@ panels:
     bg: white
     camera: "from behind Orrin's lowered face toward Taeo returning from the doorway"
     art: >
+      Frame Orrin's face left and Taeo right from the waist up; Nib's upper body stays centre behind them.
       taeo default comes back along taeo_flat LEFT aisle, phone dark in his lowered hand, eyes going immediately to Orrin's
       face. orrin keeps every foot carefully planted; his shell pins the bed but does not move. nib default stands by the
       desk, alert. Lamp orange left, deep blue-grey elsewhere, centred cracked window behind shell. No forced smile on Orrin.
@@ -237,6 +247,7 @@ panels:
     bg: white
     camera: "low two-shot from beside the green-band mug on the desk"
     art: >
+      Frame Taeo left, Nib's profile centre and Orrin's face right from the waist up.
       taeo_flat, white green-band mug foreground on LEFT desk. taeo default crouches facing orrin's lowered face, tired but
       direct, both hands open and empty. Orrin meets his eyes rather than the floor. Nib's weathered profile behind Taeo.
       Orange lamp at desk end, warm side light against deep blue-grey. No touch imposed, no bloom or sentimental sparkle.
@@ -252,13 +263,14 @@ panels:
     art: "KIT HAND"
     calm: none
     ui:
-      - {kind: phone.ttok_chat, on: screen, hand: taeo_thumb_tap, title: "RYU HAEIN", messages: [{from: me, text: "He said yes. He is 230 cm long. Can you help?", time: "21:07"}, {from: them, text: "What did you measure BEFORE that?", time: "21:07"}, {from: me, text: "Sorry.", time: "21:08"}, {from: them, text: "Don't move him. Calling a ladder truck and a glazier.", time: "21:08"}]}
+      - {kind: phone.ttok_chat, on: screen, hand: taeo_thumb_tap, title: "RYU HAEIN", messages: [{from: me, text: "Orrin accepted. He's 230 cm long. Can you help?", time: "21:07"}, {from: them, text: "What did you measure BEFORE inviting him?", time: "21:07"}, {from: me, text: "Sorry.", time: "21:08"}, {from: them, text: "Don't move Orrin. Calling a ladder truck and a glazier.", time: "21:08"}]}
   - id: P19
     shape: inset-l
     gap: short
     bg: white
     camera: "front close view of Nib beside the room door"
     art: >
+      Nib's face and mug occupy the left third.
       nib default at taeo_flat entry has found the dry practical answer: he lifts the green-band mug, compares its opening
       to Orrin's broad face off frame, and lowers it untouched with a flat stare. LEFT notch, single lower fang, binoculars,
       brown belt props correct. Lamp-orange edge, cool corridor backlight, simple blue-grey background. No drink yet, no chibi.
@@ -271,6 +283,7 @@ panels:
     bg: white
     camera: "rear-lane establishing looking up to fourth-floor balcony"
     art: >
+      Place the truck operator left, Haein centre and Taeo right, with room for the truck and full standing figures.
       taeo_rear_lane at night, drawn brick facades and overhead cables, narrow strip of sky. A goods ladder truck parks under
       the fourth-floor balcony, outriggers deploying; broad platform folded low. truck_operator in navy coveralls, muted orange
       vest and hard hat talks to haein default in safety glasses; taeo outdoor arrives from alley mouth carrying olive pack.
@@ -280,18 +293,19 @@ panels:
       - {who: narr, type: tag, text: "REAR LANE · LATER THAT NIGHT"}
       - {who: truck_operator, type: speech, side: l, text: "I CHECK THE LOAD. THEN WE MOVE. NOBODY IMPROVISES."}
   - id: P21
-    shape: strip
+    shape: tall
     gap: short
     bg: white
-    camera: "inside the flat, close on contractor's measurements beside the shell"
+    camera: "medium view of Haein and Orrin beside the glazier measuring the opening"
     art: >
+      Haein is left, the glazier centre and Orrin's listening face right; keep every speaker's face visible.
       taeo_flat: glazier in navy jacket, grey trousers, gloves and protective glasses measures the full window frame; haein
       default records the shell clearance with a plain pencil and notebook. orrin default holds his head low and still, watching
       them work. Warm desk lamp plus portable white contractor lamp, blue-grey shadows. Measurement ticks unlettered, no unreal
       widening of shell or frame; no tool presses into Orrin's skin.
     calm: top
     lines:
-      - {who: haein, type: speech, side: l, text: "BOTH PANELS OUT. DIAGONAL THROUGH THE OPENING."}
+      - {who: haein, type: speech, side: l, text: "REMOVE BOTH WINDOW PANELS. ORRIN CAN GO THROUGH DIAGONALLY."}
       - {who: orrin, type: speech, side: r, text: "DIAGONAL I CAN DO."}
   - id: P22
     shape: wide
@@ -299,6 +313,7 @@ panels:
     bg: white
     camera: "Orrin's eye level across the desk aisle toward Haein and Taeo"
     art: >
+      Frame kneeling Haein's upper body left, Taeo waist-up centre and Orrin's cheek and mouth right.
       At taeo_flat, haein default kneels clear of orrin's feet, diagram notebook closed on her knee; she addresses his face,
       not his shell. taeo outdoor stands behind, contrite; Orrin's olive-grey cheek foreground right. White contractor lamp
       from window side and warm desk orange, flat slate shadows. No drawn loading diagram or interface, no chibi expression.
@@ -312,6 +327,7 @@ panels:
     bg: white
     camera: "profile two-shot at the window, Taeo asking Orrin before work starts"
     art: >
+      Frame Taeo left and Orrin's face right from the waist up; the waiting glazier is centred behind them.
       taeo outdoor, no backpack in the tight workspace, rests hands at his own sides and looks directly at orrin default.
       Behind them the glazier waits with suction handles lowered instead of starting. taeo_flat centred window cracked, bed
       RIGHT still pinned. White work lamp against orange desk light, blue-grey shadows. No hand placed on Orrin, no straps.
@@ -320,7 +336,7 @@ panels:
       - {who: taeo, type: speech, side: l, text: "WE FOUND A WAY OUT. WILL YOU TRY IT?"}
       - {who: orrin, type: speech, side: r, text: "YES. SLOWLY."}
   - id: P24
-    shape: full
+    shape: tall
     gap: short
     bg: white
     camera: "from the flat entrance as both sliding window panels are lifted out"
@@ -351,6 +367,7 @@ panels:
     bg: white
     camera: "from desk side close on Orrin checking the opening with his eyes"
     art: >
+      Keep Orrin's speaking face in the left third; show only his head, shoulder and raised forefoot.
       orrin default in taeo_flat, long adult neck angled toward the cleared window, studies the diagonal path with a thoughtful
       half-lid rather than panic. Forefoot lifted just above floor, not moving until signalled. Slate strata on shell, intact
       nails, no saddle. Cool work lamp at right, orange lamp at left, navy night outside. No equipment mounted to his body.
@@ -375,6 +392,7 @@ panels:
     bg: white
     camera: "corridor view at the doorway, building manager facing Taeo"
     art: >
+      Frame the caretaker left and Taeo right from the waist up.
       taeo_building fourth-floor corridor: building_manager plum fleece grips keys, worry drawn into a hard frown; taeo outdoor
       stands in 402's open doorway, ashamed but attentive. Behind him the white contractor light, no view of Orrin's face.
       Cold tube overhead, sodium below rail, blue-grey shadows. Rezoning notice remains blank and taped; no invoice amount
@@ -383,21 +401,22 @@ panels:
     lines:
       - {who: building_manager, type: speech, side: l, text: "THE WINDOW. THE RAIL. WHO PAYS FOR THIS?"}
       - {who: taeo, type: speech, side: r, text: "PUT THE DAMAGE UNDER MY NAME."}
-      - {who: taeo, type: float, text: "I WAS GOOD AT THAT PART."}
+      - {who: taeo, type: float, text: "I KNEW HOW TO PUT ANOTHER BILL IN MY NAME."}
   - id: P29
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "inside flat from the shell's left, Nib guiding toward the opening"
     art: >
+      Nib stands left, Orrin's face is right and Haein watches from the centre background.
       taeo_flat: nib default, barefoot, stands clear beside the LEFT desk and raises a flat palm for stop. orrin default
       rotates only a few degrees at a time, rear shell just freeing the grey bed frame RIGHT. haein default watches the rear
       clearance by entry, safety glasses down. White work lamp through window, orange desk light; no people in squeeze gaps,
       no strained super-strength from Nib, no amber link.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "STOP. YOUR BACK CORNER."}
-      - {who: orrin, type: speech, side: r, text: "LEFT REAR. I REMEMBER IT."}
+      - {who: nib, type: speech, side: l, text: "STOP. YOUR SHELL'S BACK CORNER IS CLOSE TO THE BED."}
+      - {who: orrin, type: speech, side: r, text: "LEFT REAR. I KNOW WHERE THE BED IS."}
   - id: P30
     shape: strip
     gap: short
@@ -411,11 +430,12 @@ panels:
     sfx:
       - {text: "TUK", style: quiet, at: [0.67, 0.61], size: S}
   - id: P31
-    shape: full
+    shape: tall
     gap: short
     bg: white
     camera: "exterior rear-lane low angle up the ladder to the balcony"
     art: >
+      Keep the truck operator in the left third at the landing, clearly visible beside his controller.
       taeo_rear_lane at night: deployed ladder truck and broad platform docked at fourth-floor balcony, outriggers on solid pads,
       neighbours small behind a ground cordon. Orrin's forequarters begin passing diagonally through the cleared two-panel opening;
       rear feet still inside the flat. truck_operator watches the pendant, truck_assistant guards the platform approach.
@@ -429,13 +449,14 @@ panels:
     bg: white
     camera: "from the platform looking back through the window toward Orrin's face"
     art: >
+      Frame Nib's upper body left and Orrin's head right; Taeo's shoulders are behind Nib.
       orrin default stretches his adult neck through the taeo_flat opening toward the guarded truck platform, concentration
       in heavy olive eyes. nib default waits by LEFT sill inside, hand held steady; taeo outdoor watches from behind him,
       not crowding. Bridge plates supported across balcony, one rail section folded aside. White truck light front, warm lamp
       behind. No harness, no smooth shell, no cartoon height terror.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "THE EDGE IS THERE."}
+      - {who: nib, type: speech, side: l, text: "THE BRIDGE PLATE ENDS HERE."}
       - {who: orrin, type: speech, side: r, text: "I KNOW. I'M TAKING MY TIME."}
   - id: P33
     shape: strip
@@ -452,11 +473,12 @@ panels:
       - {text: "KNNK", style: quiet, at: [0.72, 0.64], size: M, rot: -8}
     notes: "Balcony rail bends as Orrin climbs onto platform. Keep this bent rail through ch028; he does not stand whole on the 0.9 m balcony. Crew pauses before continuing."
   - id: P34
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "platform side view, operator signals pause while assistant clears the bent rail"
     art: >
+      Place the operator left, assistant centre and Orrin's speaking face right; leave room for their working positions.
       At taeo_flat balcony, orrin default has stopped exactly where signalled, anxious but composed. truck_assistant secures the
       bent folded rail clear of his next step while truck_operator holds a flat halt hand from the fixed landing position.
       nib default watches from inside. Guarded deck and cribbed plates distinct, cool white work lamps, navy shadow.
@@ -483,6 +505,7 @@ panels:
     bg: white
     camera: "ground level close on the filming neighbour lowering her phone"
     art: >
+      The neighbour's face occupies the right third.
       neighbour_film in tan vest at taeo_rear_lane cordon lowers her vertical phone, screen turned inward and dark. Her curious
       smile has slipped into embarrassed uncertainty as she sees Orrin's adult face on the descending deck. A cool truck lamp
       lights her cheek; brick and navy shapes behind. No legible live feed, no mocked species reaction, no chibi effect.
@@ -495,6 +518,7 @@ panels:
     bg: white
     camera: "lane eye level, Orrin off the deck facing Taeo"
     art: >
+      Frame Taeo left from the knees up and Orrin's head and upper shell right; feet stay below the crop.
       taeo_rear_lane: platform now grounded and still; orrin default has walked onto level paving and lowers his head toward
       taeo outdoor. Taeo's eyes are tired, relieved and ashamed, one hand still holding the rolled route folder from his pack.
       haein default talks to the contractor in background, screens absent. Cool work light, sodium-orange lane edge, slate shadows.
@@ -502,13 +526,14 @@ panels:
     calm: top
     lines:
       - {who: taeo, type: speech, side: l, text: "WHY DID YOU ACCEPT?"}
-      - {who: orrin, type: speech, side: r, text: "I ACCEPTED BECAUSE THE VOICE ASKED."}
+      - {who: orrin, type: speech, side: r, text: "BECAUSE YOU ASKED ME TO COME."}
   - id: P38
     shape: wide
     gap: short
     bg: white
     camera: "close profile on Orrin under the lane light, Taeo's shoulder foreground"
     art: >
+      Keep Orrin's face in the right third, Taeo's shoulder left.
       orrin default in taeo_rear_lane, adult sagging cheeks and heavy eyes, looks at the warm fourth-floor opening rather than
       Taeo. His mouth holds the faintest self-mocking bend; huge slate shell fills background without theatrical scars.
       Sodium side light and cool truck lamp, flat slate/olive planes. Taeo outdoor's navy shoulder at left, no flashback army,
@@ -529,13 +554,14 @@ panels:
       faded orange door-patch edge behind. Cool truck light, warm sodium rim, slate background. Folder words blank, no link glow.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "I HAD A JOB WAITING BEFORE HE HAD A NAME."}
+      - {who: taeo, type: float, text: "I'D PLANNED ORRIN'S JOB BEFORE I EVEN KNEW HIS NAME."}
   - id: P40
     shape: wide
     gap: short
     bg: white
     camera: "two-shot at Orrin's face level, Taeo answering"
     art: >
+      Frame Taeo left from the waist up and Orrin's lowered face right; the carrier's feet remain below frame.
       taeo outdoor in taeo_rear_lane puts the rolled folder away instead of presenting it. He bows his head slightly toward
       orrin default, gratitude plain and awkward. Orrin watches patiently, weight settled on four sturdy legs. Sodium lamp
       warmth against cool truck-light slate shadows. Background quiet brick, no watchers centred, no new window or magic effect.
@@ -544,11 +570,12 @@ panels:
       - {who: taeo, type: speech, side: l, text: "THANK YOU FOR WAITING WHILE WE FIXED MY MISTAKE."}
       - {who: orrin, type: speech, side: r, text: "THAT IS A START."}
   - id: P41
-    shape: full
+    shape: tall
     gap: short
     bg: white
     camera: "low across a clean bucket toward Nib and Orrin"
     art: >
+      Nib stands left with the bucket and Orrin's face lowers from the right; allow their full height difference.
       taeo_rear_lane, nib default comes from the piloti carrying a clean broad grey bucket of fresh tap water with both hands.
       Adult arms braced, barefoot, binoculars secured against chest, LEFT notch and single lower fang. orrin default lowers his
       broad face toward the bucket with quiet curiosity, giant and small at equal eye level. Cool lamp, sodium edge, muted grey
@@ -575,6 +602,7 @@ panels:
     bg: white
     camera: "level with Nib, Orrin's broad face beside him"
     art: >
+      Frame Nib left from the waist up and Orrin's face right; Taeo's upper body stays centre behind them.
       taeo_rear_lane: nib default folds his arms beside the bucket, measuring Orrin with professional interest; orrin default
       lifts his head with a slight crooked smile. Their silhouettes contrast wiry upright scout and immense slate carrier,
       both adults. taeo outdoor smiles faintly in background. Cool lamp, slate and muted olive, sodium rim; no chibi proportions,
@@ -585,12 +613,13 @@ panels:
       - {who: nib, type: speech, side: l, text: "BIGGEST I COULD FIND."}
       - {who: orrin, type: speech, side: r, text: "THEN I SHOULD THANK YOU BEFORE I EMPTY IT."}
   - id: P44
-    shape: inset-l
+    shape: full
     gap: short
     bg: white
     style: chibi
     camera: "chibi front view, bucket etiquette"
     art: >
+      Place chibi Nib left, chibi Taeo centre and Orrin's head right; keep complete figures uncrowded.
       CHIBI orrin's enormous adult-featured head hovers politely above the bucket with exactly one drop left inside; chibi nib
       default studies it flat-eyed, hands on hips, correct LEFT notch, binoculars and belt props. Chibi taeo outdoor behind
       offers his tiny green-band mug with a defeated smile. Flat cold-grey screentone, sodium-orange side shadow. No printed
@@ -600,7 +629,7 @@ panels:
       - {who: orrin, type: speech, side: r, text: "I LEFT YOU SOME."}
       - {who: nib, type: speech, side: l, text: "GENEROUS."}
   - id: P45
-    shape: vignette
+    shape: tall
     gap: long
     bg: white
     camera: "rear low view along the lane as the group starts walking"
@@ -623,11 +652,12 @@ panels:
     ui:
       - {kind: phone.ttok_notification, on: screen, hand: taeo_left_tilt, title: "BUILDING CARETAKER", text: "Glazier is refitting the taped panels. Temporary guard on balcony. We'll send the repair bill."}
   - id: P47
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "yard establishing from south double gate toward grey office"
     art: >
+      Orrin enters in the right third, Nib beside him at centre; Minho waits by the office on the left.
       ryu_practice_yard after midnight, canonical grey container LEFT and lone white work van RIGHT, unchanged plywood maze
       and targets beyond. orrin default enters the opened double gate, head low to check the threshold but shell clears easily.
       nib default beside him; taeo outdoor and haein default follow. minho default waits at office ramp with a chair for his mother.
@@ -642,6 +672,7 @@ panels:
     bg: white
     camera: "eye level across Seonhee's chair to Orrin under the canopy"
     art: >
+      Frame seated Seonhee left from the waist up, Minho's upper body centre and Orrin's face right.
       seonhee, about 55, grey-templed low bun, Ryu brows, reading glasses, pencil behind LEFT ear, moss-grey cardigan over cream
       shirt, slate trousers, brown shoes, sits at ryu_practice_yard office doorway, tired and recovering. orrin default stands
       under a freestanding canvas canopy beside pallets, head turned attentively to her. minho default rests a hand on the
@@ -653,11 +684,12 @@ panels:
       - {who: seonhee, type: speech, side: l, text: "THAT'S WHY I SAID WORK."}
     notes: "Seonhee remains seated after ch023's collapse. Orrin consents to a lodging-for-hauling arrangement, not unpaid client labour. No cash wage figure set."
   - id: P49
-    shape: inset-r
+    shape: wide
     gap: short
     bg: white
-    camera: "close low on Haein studying the shell without touching"
+    camera: "medium two-shot of Haein and Orrin's face beside the shell"
     art: >
+      Frame Haein's upper body right and Orrin's eye and speaking mouth left; neither is cropped to a detail.
       haein default at ryu_practice_yard canopy kneels beside orrin's slate shell, safety glasses down, eyes suddenly alight
       with delighted engineering curiosity. She holds her own hands clasped against her chest to prevent reaching without asking.
       Orrin's adult olive eye watches her from above. Warm doorway key, blue night shadow, slate-blue overalls. No diagrams
@@ -672,6 +704,7 @@ panels:
     bg: white
     camera: "side view as Haein asks before examining a shell edge"
     art: >
+      Frame Haein left, Nib centre and Orrin's speaking face right from the waist up.
       At ryu_practice_yard canopy, haein default points one gloved finger toward a shell overlap without touching; orrin default
       tilts his head in clear permission, amused. nib default stands beside his front leg with flat eyes, binoculars on.
       Warm work lamp now lights the canopy, deep blue night beyond, dusty ochre ground. No tool inserted into shell, no repair
@@ -680,13 +713,14 @@ panels:
     lines:
       - {who: haein, type: speech, side: l, text: "MAY I LOOK CLOSER?"}
       - {who: orrin, type: speech, side: r, text: "ONE QUESTION PER LAYER."}
-      - {who: nib, type: speech, side: l, text: "SHE'LL RUN OUT OF SHELL."}
+      - {who: nib, type: speech, side: c, text: "SHE'LL RUN OUT OF SHELL."}
   - id: P51
     shape: vignette
     gap: short
     bg: white
     camera: "wide held view of smallest and largest under the yard canopy"
     art: >
+      Frame seated Nib left from the waist up beside Orrin's resting head right; keep their faces adult.
       ryu_practice_yard: orrin default settles on four folded legs under the freestanding canopy, adult face relaxed for the
       first time. nib default sits on an upturned crate beside him, binoculars to eyes, keeping outward watch; their heads nearly
       level. A fresh grey bucket of water within reach, no reins. Warm canopy lamp, ochre dirt, navy fence beyond. No written
@@ -699,6 +733,7 @@ panels:
     bg: white
     camera: "equipment-trestle level, Taeo's route folder foreground and Minho opposite"
     art: >
+      Frame Taeo left and Minho right from the waist up across the trestle.
       ryu_practice_yard equipment trestle: taeo outdoor unrolls the Terrace Gate folder beneath a small work lamp, rubbing one
       tired eye; minho default stands opposite, looking down. The near-landing route is a narrow ascending series of shelves,
       drawn abstractly with one blank width annotation space. Orrin's canopy sits beyond behind Taeo. Lamp-warm ochre, brown
@@ -718,13 +753,14 @@ panels:
       no exact width invented. Warm work lamp, dusty wood and blue-brown shadows, no active screen or operator window.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "I WAS STILL TRYING TO MAKE HIM FIT."}
+      - {who: taeo, type: float, text: "I WAS STILL TRYING TO FIT ORRIN INTO MY PLAN."}
   - id: P54
     shape: wide
     gap: short
     bg: white
     camera: "medium profile of Taeo and Minho, canopy clear behind them"
     art: >
+      Frame Taeo left and Minho centre from the waist up; Orrin's listening head and Nib remain visible at right.
       taeo outdoor at the ryu_practice_yard trestle stares at the folder, shame and exhaustion sharpening into thoughtless words.
       minho default looks past Taeo toward the canopy, about to interrupt. In background orrin default has lifted his adult head;
       nib default lowers binoculars. Warm trestle lamp on tired faces, ochre/brown with blue night. Keep Orrin visible enough
@@ -749,6 +785,7 @@ panels:
     bg: navy
     camera: "low from the route folder toward Orrin facing Taeo beneath the canopy"
     art: >
+      Orrin's speaking face occupies the right third, with Nib at centre beside him.
       HOOK at ryu_practice_yard: the narrow route sketch lies low in foreground beside taeo outdoor's frozen hand. Above it,
       orrin default faces him from under the canopy: enormous stacked slate shell, adult gentle face now completely direct,
       no anger performance and no wounded-animal pleading. nib default is small beside him, watching Taeo. Warm canopy lamp

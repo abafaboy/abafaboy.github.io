@@ -40,7 +40,7 @@ panels:
       - {kind: label, text: "VENN LOGISTICS", at: [0.50, 0.57], size: 40}
     notes: "Direct continuation of ch 87 hook; existing brand reveal, not a new fault or proof connecting the clinic to the next site's incident."
   - id: P02
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "from the alcove threshold toward Sejin and Nurse Oh's off-frame position"
@@ -51,9 +51,10 @@ panels:
       armour over oatmeal surgeon's wrap, scarred bare forearms, LEFT surgical kit, RIGHT cloth roll) studies the closed cabinet.
       Warm treatment-room doorway behind, cool white task lamp in front. Both curious, not suspicious;
       notebook illegible, all machinery normal.
+      Waist-up framing: Sejin left, Dara right; Nurse Oh stays off-panel beyond the alcove threshold.
     calm: top
     lines:
-      - {who: sejin, type: speech, side: l, text: "CONTACT, DELIVERY DAY, ORDER SIZE. I'LL START WITH QUESTIONS."}
+      - {who: sejin, type: speech, side: l, text: "SUPPLIER CONTACT, DELIVERY DAY, ORDER SIZE. I'LL START WITH QUESTIONS."}
       - {who: dara, type: speech, side: r, text: "YOU'LL NEED MORE PAPER."}
   - id: P03
     shape: vignette
@@ -68,7 +69,7 @@ panels:
       No alarm, medical crisis or supernatural foreshadowing glow.
     calm: none
   - id: P04
-    shape: full
+    shape: tall
     gap: fade-white
     bg: white
     camera: "establishing from the south gate of a separate equipment apron"
@@ -78,18 +79,19 @@ panels:
       beige tee, tool belt, glasses down) checks a grey unit while Taeo (outdoor) and
       Nib wait behind the barrier. Responsible supervisor in orange vest watches. Blue-white daylight,
       muted grey/orange, all badges blank. No clinic, Yeoju territory or gate.
+      Haein stands left, the supervisor right; Taeo and Nib remain behind the barrier in the background.
     calm: top
     lines:
       - {who: narr, type: tag, text: "NEXT DAY · AN UNRELATED SERVICE SITE"}
-      - {who: haein, type: speech, side: l, text: "YOU SAID IT MISSES A BEAT?"}
-      - {who: site_supervisor, type: speech, side: r, text: "ONLY SINCE THEY FITTED THE NEW UNIT."}
+      - {who: haein, type: speech, side: l, text: "YOU SAID THE ANCHOR UNIT MISSES A BEAT?"}
+      - {who: site_supervisor, type: speech, side: r, text: "THE SLED STARTED JOLTING WHEN THEY FITTED THIS UNIT."}
   - id: P05
     kind: title
     gap: long
     bg: white
     title_text: "CHAPTER 88 · FAULT"
   - id: P06
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low along the captive test rail toward Haein"
@@ -98,9 +100,10 @@ panels:
       municipal_service_site safety barrier, not over the rail. The sandbag sled is stationary,
       north padded catch secured; anchor casing sits separate beside the cradle. Her expression
       is focused. Blue-white daylight, concrete/slate and muted orange; no person in the load path.
+      Haein stands in the left third with full height beside the isolated rail and catch.
     calm: top
     lines:
-      - {who: haein, type: speech, side: l, text: "EMPTY LANE. CATCH SET. RECORD BEFORE THE LOAD MOVES."}
+      - {who: haein, type: speech, side: l, text: "LANE CLEAR. SAFETY CATCH SET. START THE RECORDER BEFORE THE SLED MOVES."}
   - id: P07
     shape: strip
     gap: short
@@ -111,9 +114,10 @@ panels:
       matte grey casing, added off-centre brass bridge and silver crimp on its RIGHT end.
       Haein's gloved hand rests safely beyond the casing; she has not opened it. Daylight grey/brown,
       ordinary equipment, no glyphs, supplier plate facing away.
+      Unit detail only. The supervisor stands off-panel right by the barrier.
     calm: top
     lines:
-      - {who: site_supervisor, type: speech, side: r, text: "MODIFIED TO FIT THE OLD CRADLE. SUPPLIER SIGNED IT OFF."}
+      - {who: offpanel:site_supervisor, type: speech, side: r, text: "THE UNIT WAS MODIFIED TO FIT OUR OLD CRADLE. THE SUPPLIER APPROVED THE CHANGE."}
   - id: P08
     shape: inset-l
     gap: short
@@ -123,6 +127,7 @@ panels:
       Haein (bob, clear glasses down, slate overalls) watches an independent recorder at the
       municipal_service_site west shelter. Her eyes sharpen behind the glass, lips flatten. Recorder
       display faces away; grey-blue daylight, brown shadow and one muted orange cable sheath. No interface window or exact trace yet.
+      Haein's head and shoulders fill the left third, recorder just below the crop.
     calm: right
     lines:
       - {who: haein, type: speech, side: l, text: "WAIT."}
@@ -142,7 +147,7 @@ panels:
       - {kind: label, text: "PRE-LOAD RECORD", at: [0.50, 0.83], size: 29}
     notes: "PLANT P20: independent pre-load pulse signature. Draw only the specified simple trace geometry, not a real clinical or electrical waveform. Two short forward teeth, flat gap, one reverse tooth; preserve for ch 94."
   - id: P10
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "side-on full view of the captive sled hitting its padded catch"
@@ -151,12 +156,13 @@ panels:
       captive rail and stops against the padded north catch, still contained. A thin
       detached OUTER service tab drops beside the unit, no broken core. Haein and supervisor
       remain behind barrier, shocked. Grey daylight, concrete and one red stop cap; no explosion or person struck.
+      Give the sled rail horizontal depth and the two standing observers full height above the barrier.
     calm: top
     sfx:
       - {text: THUNK, style: impact, at: [0.62, 0.59], size: M, rot: -4}
     notes: "PLANT P20: modified anchor unit fails with the strange pulse preceding the mechanical jolt. The captive load is contained; no human recoil or gate closure."
   - id: P11
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low from behind the barrier onto Haein and supervisor"
@@ -165,6 +171,7 @@ panels:
       catching daylight as she points away from the isolated cradle. Supervisor's gloved hand
       presses the red emergency stop. Taeo and Nib stay behind the marked barrier. Concrete
       grey, muted orange vest and single red cap. No powered contact with the crew.
+      Haein stands left, the supervisor right at the stop; Taeo and Nib remain visible behind them.
     calm: top
     lines:
       - {who: haein, type: shout, side: l, text: "STOP. NOBODY TOUCH THE UNIT."}
@@ -184,16 +191,17 @@ panels:
     shape: wide
     gap: short
     bg: white
-    camera: "inside the west shelter over the supervisor's shoulder"
+    camera: "medium seated two-shot in the west instrument shelter"
     art: >
       At municipal_service_site's west instrument shelter Haein checks the saved record, not a
       second live test. Supervisor holds a plain shutdown checklist. Taeo watches from outside
       shelter, hands empty. Haein's face is skeptical and calm again. Cool blue shade, cream
       paper and slate cases; recorder screen plain abstract shapes, no new pulse.
+      Waist-up seated view of Haein left and the supervisor right, both faces clearly visible above the saved record.
     calm: top
     lines:
-      - {who: site_supervisor, type: speech, side: r, text: "OVERLOAD?"}
-      - {who: haein, type: speech, side: l, text: "THE ODD PULSE CAME FIRST. BEFORE THE SLED MOVED."}
+      - {who: site_supervisor, type: speech, side: r, text: "WAS THE LOAD TOO HEAVY?"}
+      - {who: haein, type: speech, side: l, text: "THE ODD PULSE CAME BEFORE THE SLED MOVED. THE LOAD DIDN'T CAUSE THE PULSE."}
   - id: P14
     shape: inset-r
     gap: short
@@ -204,10 +212,11 @@ panels:
       studies the empty load lane at municipal_service_site, then Taeo. He looks dissatisfied with
       easy explanations. Blue-white daylight, flat slate background. Knife remains in LEFT wooden sheath;
       no amber link light or return mark.
+      Nib's head and shoulders fill the right third; Taeo answers from off-panel left.
     calm: left
     lines:
-      - {who: nib, type: speech, side: r, text: "THE WINDOW DIDN'T DO THAT."}
-      - {who: taeo, type: speech, side: l, text: "NO. IT WASN'T EVEN OPEN."}
+      - {who: nib, type: speech, side: r, text: "YOUR SYSTEM WINDOW DIDN'T CAUSE THE FAULT."}
+      - {who: offpanel:taeo, type: speech, side: l, text: "NO. MY SYSTEM WINDOW WASN'T EVEN OPEN."}
     notes: "No operator UI appears in this chapter. The physical fault is independently observed."
   - id: P15
     shape: strip
@@ -223,7 +232,7 @@ panels:
     ui:
       - {kind: label, text: "OUT OF SERVICE · RETAIN UNIT", at: [0.54, 0.65], size: 29}
   - id: P16
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "over Haein's shoulder onto the turned supplier plate"
@@ -245,9 +254,10 @@ panels:
       Haein lifts her clear glasses to her crown inside municipal_service_site's west shelter.
       Bob hair, slate overalls, beige tee and tool belt match her sheet. Her expression
       is precise, not excited by a mystery. Cool blue shade and brown-grey cases; no evidence bag yet.
+      Frame Haein's head and shoulders in the left third.
     calm: right
     lines:
-      - {who: haein, type: speech, side: l, text: "PHOTOGRAPH THE BRIDGE. KEEP THE DELIVERY RECORD."}
+      - {who: haein, type: speech, side: l, text: "PHOTOGRAPH THE ADDED BRASS BRIDGE. KEEP THE DELIVERY RECORD."}
   - id: P18
     shape: strip
     gap: short
@@ -272,10 +282,11 @@ panels:
       page at municipal_service_site shelter; Haein places the recording beside it. Both are
       tired, responsible and annoyed by lost work. Cool blue shade, grey/orange and cream.
       No hush money, villain grin or restarting test.
+      Waist-up seated view: supervisor left, Haein right, their incident page between them.
     calm: top
     lines:
-      - {who: site_supervisor, type: speech, side: l, text: "SUPPLIER WILL SAY THE CRADLE DID IT."}
-      - {who: haein, type: speech, side: r, text: "THEN THEY CAN READ THE RECORD WITH US."}
+      - {who: site_supervisor, type: speech, side: l, text: "THE SUPPLIER WILL BLAME OUR OLD CRADLE."}
+      - {who: haein, type: speech, side: r, text: "THEN THE SUPPLIER CAN EXPLAIN THE RECORDED PULSE TO US."}
   - id: P20
     shape: narrow-r
     gap: short
@@ -287,7 +298,7 @@ panels:
       - {kind: phone.info_card, on: screen, hand: taeo_right_front, title: "HAEIN · INCIDENT COPY", text: "SITE MS-01 · Modified anchor unit · Two forward pulses / gap / reverse pulse BEFORE load motion · Video + independent trace saved · Unit quarantined · Cause undetermined"}
     notes: "PLANT P20: Haein logs a durable comparison record. MS-01 is her local incident identifier, not a supplier lot. Do not assign this lot to the later Yeoju shipment."
   - id: P21
-    shape: inset-r
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -297,12 +308,13 @@ panels:
       simplified grey service-site table. Chibi Nib (boots, locked pouch, sheath and binoculars)
       solemnly offers a much larger empty pocket; she pulls the bag away. Flat pale
       grey-blue dots, symbolic daylight, no live hazard or injured character.
+      Give both chibi figures room: Haein left with the bag, Nib right offering his pocket.
     calm: left
     lines:
-      - {who: nib, type: speech, side: r, text: "I CAN CARRY IT."}
-      - {who: haein, type: speech, side: l, text: "YOU CAN'T KEEP IT."}
+      - {who: nib, type: speech, side: r, text: "I CAN CARRY THE BAG."}
+      - {who: haein, type: speech, side: l, text: "YOU CAN'T KEEP THE TAB."}
   - id: P22
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "normal side two-shot beside the captive rail, well outside the barrier"
@@ -311,9 +323,10 @@ panels:
       sandbag held by the mechanical catch. Taeo's face has become intent in a way
       she knows too well. His hands remain empty, her glasses on crown. Concrete daylight,
       cool grey and muted orange; no powered equipment or palm glow.
+      Taeo stands left and Haein right, both clear of the rail and framed with full standing height.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "THE CATCH TOOK WHAT THE CRADLE COULDN'T."}
+      - {who: taeo, type: speech, side: l, text: "THE CATCH STOPPED THE SLED WHEN THE ANCHOR UNIT FAILED."}
       - {who: haein, type: speech, side: r, text: "YES. A SEPARATE CATCH. NOT YOUR RIBS."}
   - id: P23
     shape: strip
@@ -328,7 +341,7 @@ panels:
     lines:
       - {who: taeo, type: float, text: "THERE WAS A GOOD IDEA HERE. I DIDN'T GET TO SKIP THE COST."}
   - id: P24
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "three-quarter group from the site's clear east evacuation lane"
@@ -337,12 +350,13 @@ panels:
       rather than the machinery. Taeo looks at him before speaking, almost asking permission
       to have an idea. Haein folds her arms. Daylight concrete grey, blue shadow,
       muted orange barrier ends. No hand on Nib or requested live load.
+      Taeo stands left, Haein centre and Nib right with space above and below each figure.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "CAN WE PUT IT ON PAPER FIRST?"}
+      - {who: taeo, type: speech, side: l, text: "MAY WE DRAW UP A RELAY IDEA FIRST?"}
       - {who: nib, type: speech, side: r, text: "PAPER DOESN'T BRUISE."}
   - id: P25
-    shape: full
+    shape: tall
     gap: fade-black
     bg: navy
     camera: "evening establishing from the south gate toward the west trestle"
@@ -353,11 +367,12 @@ panels:
       and Orrin gather, tired and curious. Kesh is an adult 198 cm moth-like signal keeper,
       narrow mature grey-tan face, dark eyes, two feathered antennae, four folded grey-brown wing
       panels, olive tunic, dark trousers and wrapped shoes; two arms only. A4 ochre/brown with hard navy shadows; no active gates.
+      Preserve full height for the gathering crew around the two empty practice frames.
     calm: top
     lines:
       - {who: narr, type: tag, text: "RYU SURVEY · THAT EVENING"}
   - id: P26
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "over the trestle onto Sejin and Haein comparing their notes"
@@ -366,6 +381,7 @@ panels:
       service-site incident copy at the yard trestle. Dara (slate armour) leans in, serious.
       Neither page shows patient names. Cream work lamp, muted sage/slate over brown wood;
       no clinical alarm, secret document or private Venn portrait.
+      Sejin sits left and Haein right, Dara leaning in at centre; keep all faces visible.
     calm: top
     lines:
       - {who: sejin, type: speech, side: l, text: "SAME SUPPLIER. THE CLINIC'S MACHINES WERE STEADY."}
@@ -384,7 +400,7 @@ panels:
       olive sleeves. No records merged or destroyed, no loose fragment or writing in art.
     calm: none
   - id: P28
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "profile group around two empty practice frames on the apron"
@@ -393,10 +409,11 @@ panels:
       pointing OUTSIDE both. Nib stands beyond the left frame, Orrin beyond the right;
       Kesh watches from a chair. Empty openings show ordinary fixed plywood maze behind.
       Cream work lamp over ochre/navy. No gate shimmer, tunnel or actual link.
+      Add Haein visibly on the right beside Orrin; Nib left and Taeo centre, Kesh seated farther back.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: c, text: "NIB IN ONE GATE. ORRIN IN ANOTHER. ME OUTSIDE BOTH."}
-      - {who: haein, type: speech, side: r, text: "TWO PAIRS OF RELAYS?"}
+      - {who: taeo, type: speech, side: c, text: "NIB INSIDE ONE GATE. ORRIN INSIDE ANOTHER. I ROUTE IMPACT BETWEEN THEM FROM OUTSIDE."}
+      - {who: haein, type: speech, side: r, text: "A PAIR OF FORCE RELAYS AT EACH THRESHOLD?"}
   - id: P29
     shape: inset-l
     gap: short
@@ -406,9 +423,10 @@ panels:
       Taeo (outdoor) at the yard apron rubs his brow, tired and concentrating on the cost.
       RIGHT-eye mole, jacket collar and black cuff; the empty practice frame runs beside
       his shoulder. Cream work lamp, flat navy behind and ochre bounce light. No system help window.
+      Frame Taeo's head and shoulders on the left with the practice frame beside him.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: l, text: "ONE DIRECTION. NIB TO ORRIN. THROUGH ME, OUTSIDE."}
+      - {who: taeo, type: speech, side: l, text: "ONE DIRECTION ONLY. IMPACT FROM NIB TO ORRIN. THROUGH ME, OUTSIDE."}
   - id: P30
     shape: wide
     gap: short
@@ -435,10 +453,11 @@ panels:
       feathered antennae, four folded grey-brown wing panels, olive tunic, dark trousers, wrapped
       shoes) leans from a chair toward the yard trestle diagram. His expression is bright
       but cautious. Cream lamp, brown/olive/navy. Two arms only, no glowing signal wand.
+      Frame Kesh's face on the right; Taeo answers from off-panel left beside the table.
     calm: top
     lines:
-      - {who: kesh, type: speech, side: r, text: "THE TIMING AT A WON'T BE THE TIMING AT B."}
-      - {who: taeo, type: speech, side: l, text: "THAT'S WHY I NEED YOU TO ARGUE WITH IT."}
+      - {who: kesh, type: speech, side: r, text: "THE TWO GATES WILL HAVE DIFFERENT RELAY DELAYS."}
+      - {who: offpanel:taeo, type: speech, side: l, text: "THAT'S WHY I NEED YOU TO CHECK THE TIMING."}
   - id: P32
     shape: strip
     gap: short
@@ -449,35 +468,38 @@ panels:
       the yard trestle paper, delicate five-finger hand steady. Haein holds the far corner.
       Cream lamp and muted olive/brown; no glowing map, old relay inscription or reproduced
       P16 maker-style mark. Diagram remains abstract, no readable notation.
+      Only hands, wand and timing marks appear. Kesh sits off-panel right beyond his wand hand.
     calm: top
     lines:
-      - {who: kesh, type: speech, side: r, text: "THEN START WITH THE LATE ARRIVAL. IT'S ALWAYS THE RUDEST GUEST."}
+      - {who: offpanel:kesh, type: speech, side: r, text: "START WITH THE LATE PULSE. IT'S ALWAYS THE RUDEST GUEST."}
   - id: P33
-    shape: wide
+    shape: tall
     gap: short
     bg: white
-    camera: "from behind Orrin's shell across the two empty frames"
+    camera: "three-quarter view showing Orrin's face beyond the right practice frame"
     art: >
       Orrin (adult stoneback, no harness) stands beside the right empty practice frame on
       the yard apron; Nib stands by the left. Both face Taeo outside the frames.
       Orrin's heavy-lidded face asks a serious question; Nib waits. Cream work lamp, slate
       shell and ochre/brown. No physical exchange, gates or body impact.
+      Nib stands left, Taeo centre and Orrin right, his head visible in profile past his shell.
     calm: top
     lines:
-      - {who: orrin, type: speech, side: r, text: "AND WHAT HAPPENS TO THE PART YOU CANNOT PASS ON?"}
+      - {who: orrin, type: speech, side: r, text: "WHAT HAPPENS TO THE IMPACT THAT STAYS IN YOUR BODY?"}
   - id: P34
-    shape: inset-r
+    shape: full
     gap: short
     bg: white
-    camera: "close-up on Taeo with Dara behind his shoulder"
+    camera: "medium two-shot of Taeo facing Dara on the yard apron"
     art: >
       Taeo (outdoor) turns toward Dara at the yard apron before answering Orrin. Dara's
       square weathered face, grey braid temples, matte slate armour and scarred forearms frame
       his shoulder; her gaze is immovable. Cream lamp, navy shadow. No healthy glow
       through Taeo's chest or hand on a live control.
+      Show Taeo on the left and Dara on the right from the knees up, both faces clear.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: l, text: "WE MEASURE IT. BEFORE WE ASK ANYONE TO USE IT."}
+      - {who: taeo, type: speech, side: l, text: "WE MEASURE THE RECOIL BEFORE ANYONE USES THE RELAY ON A JOB."}
       - {who: dara, type: speech, side: r, text: "INCLUDING YOU."}
   - id: P35
     shape: strip
@@ -494,7 +516,7 @@ panels:
       - {kind: label, text: "CLINICAL REVIEW · MEASUREMENT ONLY", at: [0.53, 0.43], size: 29}
     notes: "Clinicians review the existing resting record and treatment log here before authorising a limited supervised measurement at P36. No operational clearance, repaired heart or safe recoil limit; ch 89 measures the limit and can be stopped."
   - id: P36
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "across the trestle from Sejin toward Taeo and Haein"
@@ -504,12 +526,13 @@ panels:
       gives one guarded nod. Haein points at an unplugged grey clamp pair
       on the table. Serious planning, not secret rebellion. Cream lamp, brown wood and
       navy background. No active reservoir or modified Venn unit here.
+      Sejin sits left, Dara centre-left, Taeo centre-right and Haein right; all faces visible above the table.
     calm: top
     lines:
-      - {who: sejin, type: speech, side: l, text: "WE'VE REVIEWED YOUR RECORD. SUPERVISED MEASUREMENT ONLY. I CONTROL THE STOP."}
-      - {who: haein, type: speech, side: r, text: "AND INDEPENDENT RECORDING. NO MODIFIED SUPPLY UNIT IN THE TEST."}
+      - {who: sejin, type: speech, side: l, text: "WE'VE REVIEWED YOUR MEDICAL RECORD. SUPERVISED MEASUREMENT ONLY. I CONTROL THE STOP."}
+      - {who: haein, type: speech, side: r, text: "AND AN INDEPENDENT RECORDER. WE KEEP THE MODIFIED ANCHOR OUT OF THIS TEST."}
   - id: P37
-    shape: inset-l
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -519,12 +542,13 @@ panels:
       pebble between two tiny empty cardboard doorframes. Chibi Dara and Sejin each hold a
       giant stop paddle, utterly overqualified for paper. Flat cream/ochre dots under symbolic yard
       lamp. No body injury, cardiac distress or magic.
+      Chibi Taeo sits left, Sejin centre and Dara right; leave clear room around each figure and paddle.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: l, text: "CAN I MOVE THIS ONE?"}
+      - {who: taeo, type: speech, side: l, text: "MAY I MOVE THE PAPER PEBBLE?"}
       - {who: dara, type: speech, side: r, text: "WE'LL ALLOW IT."}
   - id: P38
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "normal low shot of Nib tapping the empty frame upright"
@@ -533,10 +557,11 @@ panels:
       portable frame on the yard apron, asking about the fallback before agreeing. Taeo
       listens from outside its opening, hands away from equipment. Cream work lamp over
       ochre and navy. No real threshold, return mark, voice mimic or powered test.
+      Nib stands left touching the empty frame, Taeo right outside its opening; allow full height.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "IF THE RADIOS GO?"}
-      - {who: taeo, type: speech, side: r, text: "TWO FROM ME. THREE FROM YOU. EACH FRAME SEPARATELY."}
+      - {who: nib, type: speech, side: l, text: "IF THE RADIOS FAIL?"}
+      - {who: taeo, type: speech, side: r, text: "I KNOCK TWICE TO CALL YOU BACK. YOU ANSWER WITH THREE. EACH GATE SEPARATELY."}
   - id: P39
     shape: strip
     gap: short
@@ -551,7 +576,7 @@ panels:
     sfx:
       - {text: "TTOK TTOK", style: quiet, at: [0.54, 0.49], size: M, rot: 0}
   - id: P40
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "reverse through the empty opening toward Nib's answering hand"
@@ -560,13 +585,14 @@ panels:
       the yard's EMPTY left practice frame, then looks at the unused right frame.
       Taeo watches attentively outside. Cream lamp and muted ochre/brown/navy; ordinary maze visible
       through both openings, no teleportation or anomaly.
+      Nib stands on the right side of the empty opening, Taeo on the left outside it.
     calm: top
     sfx:
       - {text: "TTOK TTOK TTOK", style: quiet, at: [0.34, 0.54], size: M, rot: 0}
     lines:
       - {who: nib, type: speech, side: r, text: "DON'T MIX UP THE DOORS."}
   - id: P41
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "eye-level discussion with Kesh seated between the drawing and frames"
@@ -575,13 +601,14 @@ panels:
       coils of white survey cable with blue metre bands; grey relay tripods stand folded
       nearby. Haein listens, Taeo notes his correction. Cream work lamp, brown wood and
       grey-blue hardware. No cable actually crosses a threshold, no maker-style reveal.
+      Kesh sits left, Taeo centre and Haein stands right; show all faces and room for the cable coils.
     calm: top
     lines:
-      - {who: kesh, type: speech, side: l, text: "TWO INTACT SURVEY LINES. THE FORCE COUPLERS DON'T CARRY YOUR VOICES."}
+      - {who: kesh, type: speech, side: l, text: "EACH GATE NEEDS AN INTACT SURVEY CABLE FOR RADIO. FORCE COUPLERS ONLY HELP TRANSFER IMPACT."}
       - {who: haein, type: speech, side: r, text: "DIFFERENT JOBS. DIFFERENT CABLES."}
     notes: "Radios need Ryu white cable with blue bands every metre, grey relay tripod every 50 m. Proposed flat grey force-coupler pairs are separate mechanical-transfer aids; not a replacement radio system or a shortcut into another dungeon."
   - id: P42
-    shape: inset-r
+    shape: wide
     gap: short
     bg: white
     camera: "close-up of Taeo glancing from his phone to Nib"
@@ -590,10 +617,11 @@ panels:
       with its screen away. He looks at Nib before sending a technical invitation,
       earnest and wary of reopening an old wound. Cream lamp, ochre bounce and
       navy jacket shadow; phone dinosaur sticker and top-left crack retained.
+      Close view of Taeo's face and phone on the left; Nib answers from off-panel right by the frame.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: l, text: "DOYUN WANTS A REMATCH. MAY I ASK HIM TO CHECK THIS?"}
-      - {who: nib, type: speech, side: r, text: "HE CAN CHECK IT. I STILL ANSWER FOR ME."}
+      - {who: taeo, type: speech, side: l, text: "DOYUN WANTS A REMATCH. MAY I ASK HIM TO REVIEW THE RELAY PLAN?"}
+      - {who: offpanel:nib, type: speech, side: r, text: "HE CAN CHECK THE PLAN. I STILL ANSWER FOR ME."}
   - id: P43
     shape: narrow-l
     gap: short
@@ -605,7 +633,7 @@ panels:
       - {kind: phone.ttok_chat, on: screen, hand: taeo_thumb_tap, title: "Park Doyun", date: "TODAY", messages: [{from: me, text: "Two-threshold relay proposal. Technical review? Live work only after medical approval, with supervision.", time: "20:16"}, {from: them, text: "Tomorrow morning. Bring your measurements, including the ones you dislike.", time: "20:18"}]}
     notes: "Fictional in-story message only. Doyun agrees to review, not a rematch result or an apology; his personal turn belongs to ch 89."
   - id: P44
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "high shot of the trestle as Haein folds the two-frame proposal"
@@ -614,12 +642,13 @@ panels:
       project folder, separate from the quarantined-unit incident record. Taeo helps hold the
       corners; Dara and Sejin remain beside them. Cream lamp, brown wood, slate sleeves
       and hard navy. No successful transfer, medical clearance or new money on the table.
+      Haein stands left, Taeo right, Dara and Sejin behind; give their bodies space around the trestle.
     calm: top
     lines:
-      - {who: haein, type: speech, side: l, text: "LICENSED TEST SITE. EXISTING GATES. NO IMPROVISED DOORS IN MY YARD."}
+      - {who: haein, type: speech, side: l, text: "WE USE EXISTING GATES AT A LICENSED TEST SITE. NO IMPROVISED GATES IN MY YARD."}
       - {who: taeo, type: speech, side: r, text: "I WAS GOING TO SAY PLEASE."}
   - id: P45
-    shape: vignette
+    shape: tall
     gap: long
     bg: white
     silent: true
@@ -629,6 +658,7 @@ panels:
       before the two empty yard frames. Through one he sees Taeo resting in his
       chair, through the other Orrin patiently waiting. His mouth tight, neither reassured nor
       abandoning them. Cream lamp islands on ochre, deep navy beyond. No gate light.
+      Give Nib full height in the foreground and keep Taeo seated through one frame, Orrin through the other.
     calm: none
   - id: P46
     shape: strip
@@ -642,7 +672,7 @@ panels:
       No GO FIRST emblem, official revised Seoryun patch or readable charter.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "AN IDEA WASN'T A PROMISE YET. I COULD STILL GET THAT PART RIGHT."}
+      - {who: taeo, type: float, text: "I HAD A PLAN. I STILL HAD TO ASK EVERYONE BEFORE I PROMISED ANYTHING."}
   - id: P47
     shape: inset-l
     gap: short
@@ -653,13 +683,14 @@ panels:
       her phone, screen turned away. Her brows go up; one hand stops folding
       the project cover. Cream lamp, slate-blue cloth and ochre ground. No green screen
       or interface window. Phone light a small plain white reflection only.
+      Frame Haein's head and shoulders in the left third; phone at the lower edge.
     calm: right
     sfx:
       - {text: BZZT, style: phone, at: [0.73, 0.68], size: S, rot: -6}
     lines:
       - {who: haein, type: speech, side: l, text: "YEOJU HAS POSTED THE FORMAT."}
   - id: P48
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "across the two empty frames toward Taeo and Nib"
@@ -668,9 +699,10 @@ panels:
       Nib watching from the left empty frame. Hope sharpens Taeo's face too quickly;
       Nib notices it. Orrin and Kesh wait behind. Cream lamp over ochre, hard navy
       shadows. No declaration of bid stake, signed financing or successful experiment.
+      Nib stands left and Taeo rises on the right; Orrin and Kesh wait behind with clear space around them.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "TWO TEAMS? AT THE SAME TIME?"}
+      - {who: taeo, type: speech, side: r, text: "THE CONTEST USES TWO TEAMS AT THE SAME TIME?"}
       - {who: nib, type: speech, side: l, text: "READ ALL OF IT."}
   - id: P49
     shape: strip

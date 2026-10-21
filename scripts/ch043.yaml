@@ -35,7 +35,7 @@ props:
 palette_notes: "Memory: A4 desaturated cool blue-grey, soft-edged panel borders, one restrained warm person accent at a time, never full sepia. Parents' remembered hands can carry warm ochre skin. TV cyan-white is ordinary screen light, not interface cyan. Present yard: ochre/brown; container night: lamp orange/blue-grey; shop: khaki/tan with cobalt jacket. No chibi during grief."
 panels:
   - id: P01
-    shape: wide
+    shape: tall
     gap: none
     bg: white
     camera: "same trestle axis as ch 42 hook, Taeo turning from Grandpa"
@@ -44,12 +44,13 @@ panels:
       above the washing bowl. grandpa in blue cap and grey pocket jacket sees them without moving closer.
       Taeo starts the familiar reassuring smile, then cannot quite finish it. Warm southeast light, dusty ochre and brown shadows.
       No sleeve hiding, new blood, magical light, shouting or generated text.
+      Grandpa occupies the left third; Taeo occupies the right third. Give both standing figures vertical room.
     calm: top
     lines:
-      - {who: taeo, type: nervous, side: r, text: "IT'S—"}
-      - {who: grandpa, type: speech, side: l, text: "DON'T FINISH THAT YET."}
+      - {who: "taeo", type: "nervous", side: "r", text: "SORRY. ABOUT MY ARMS."}
+      - {who: "grandpa", type: "speech", side: "l", text: "DON'T TELL ME YOU'RE FINE YET."}
   - id: P02
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "three-quarter from Sejin's side, all three adults in the yard"
@@ -58,6 +59,7 @@ panels:
       She stands between equipment and open space, not between family members. Taeo keeps his bare bruised arms still;
       grandpa sets his empty cup down, expression contained. Afternoon ochre/brown, teal muted.
       No diagnosis display, medical cure, new test, comforting hand over injuries or spoken words in art.
+      Sejin stands in the left third, Taeo in the middle, and Grandpa in the right third; keep all three visible.
     calm: top
     lines:
       - {who: sejin, type: speech, side: l, text: "I STOPPED THE CHECK. HE'S OFF FOR TODAY."}
@@ -85,10 +87,11 @@ panels:
       nib, adult default gear, barefoot, waits across from him. His binoculars rest high, not removed for tenderness.
       Olive backpack with faded old patch by the shelf, plain white mug with one thin green band on table.
       Lamp orange from left, deep blue-grey shadows. No grandfather overhearing in doorway, chibi or text on photo.
+      Seated two-shot framed from the waist up: Nib on the left, Taeo on the right; photo and mug visible between them.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "YOU TOLD THE CAPTAIN."}
-      - {who: taeo, type: speech, side: r, text: "YES. I SHOULD TELL YOU TOO."}
+      - {who: "nib", type: "speech", side: "l", text: "YOU TOLD THE CAPTAIN ABOUT YOUR PARENTS."}
+      - {who: "taeo", type: "speech", side: "r", text: "YES. I SHOULD TELL YOU TOO."}
   - id: P05
     kind: title
     gap: long
@@ -103,9 +106,10 @@ panels:
       taeo in home container at ryu_practice_yard, black hoodie collar, single mole under RIGHT eye.
       His face is tired and unguarded as he begins a memory; photograph below frame, eyes on nib rather than a window.
       One warm lamp plane on cheek and blue-grey shadow at the brow. No cyan interface, transparent parents, chibi or visible photo words.
+      Taeo alone occupies the right third of this head-and-shoulders close-up.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: r, text: "HE USED TO CHECK THE DOOR TWICE."}
+      - {who: "taeo", type: "speech", side: "r", text: "MY DAD USED TO CHECK THE DOOR TWICE."}
   - id: P07
     shape: full
     gap: fade-white
@@ -117,10 +121,11 @@ panels:
       over rolled blue-grey work shirt, grey cargos, brown work boots, gloves at belt, yellowed blank helmet in hand.
       He checks the door latch with a habitual tug, smiling back. A4 cool desaturated blue-grey, warm hand accent, soft border.
       No present patch, futuristic gear, readable labels or adult Taeo in memory.
+      Father stands in the right third, latch beside his hand.
     calm: top
     lines:
-      - {who: narr, type: tag, text: "NINE YEARS EARLIER · TAEO, 14 · HARU, 1"}
-      - {who: taeo_father, type: speech, side: r, text: "THAT'S THE LOCK. DON'T LEAVE IT ON THE CHAIN."}
+      - {who: "narr", type: "tag", side: "c", text: "NINE YEARS EARLIER · TAEO, 14 · HARU, 1"}
+      - {who: "taeo_father", type: "speech", side: "r", text: "LOCK THE DOOR. THE CHAIN ALONE WON'T HOLD."}
   - id: P08
     shape: wide
     gap: short
@@ -132,10 +137,11 @@ panels:
       He supports ONE-YEAR-OLD haru under seat and upper back: black tuft, brown infant eyes, sage-beige overalls and ivory shirt.
       Boy is mildly put upon, baby intent on his tie. Cool window light, desaturated blue-grey, restrained warm infant skin.
       No ten-year-old Haru, adult proportions, chibi, patch or lettering.
+      Waist-up seated crop: young Taeo on the left holding Haru. Father remains beyond the right edge at the entry.
     calm: top
     lines:
-      - {who: taeo_young, type: speech, side: l, text: "I KNOW HOW THE DOOR WORKS, DAD."}
-      - {who: taeo_father, type: speech, side: r, text: "THEN YOU'RE THE FOREMAN UNTIL WE'RE BACK."}
+      - {who: "taeo_young", type: "speech", side: "l", text: "I KNOW HOW THE DOOR WORKS, DAD."}
+      - {who: "offpanel:taeo_father", type: "speech", side: "r", text: "THEN YOU'RE THE FOREMAN UNTIL WE'RE BACK."}
   - id: P09
     shape: inset-l
     gap: short
@@ -147,11 +153,12 @@ panels:
       washed sage blouse, stone-beige apron with one lower pocket, charcoal calf skirt, leggings, worn low brown shoes.
       She lifts a plain food bag, explaining a practical choice, not delivering a farewell prophecy.
       Cool desaturated daylight, one warm cheek accent. No glamour, armour, readable work badge or present-day kitchen.
+      Head-and-shoulders close-up: Mother's face on the left, the raised food bag at the lower edge.
     calm: right
     lines:
       - {who: taeo_mother, type: speech, side: l, text: "THE CAMP NEEDS ANOTHER COOK. IT'S EXTRA MONEY."}
   - id: P10
-    shape: wide
+    shape: tall
     gap: short
     bg: "#DCE0E3"
     camera: "side-on family group between low table and entry"
@@ -160,11 +167,12 @@ panels:
       the teenager holds the infant safely, resigned, while taeo_father laughs into his helmet rim at the entry.
       Locked cheap workwear and school uniform, ordinary cramped room. Gentle daylight from north window,
       desaturated blue-grey, warm mother hand as one accent. Full normal proportions, no chibi, future emblem or extra infant.
+      Mother occupies the left third, Father the middle at the entry, and young Taeo with Haru the right third. Keep every face visible.
     calm: top
     lines:
-      - {who: taeo_mother, type: speech, side: l, text: "HE'S HAD LUNCH. YOU HAVEN'T."}
-      - {who: taeo_young, type: speech, side: r, text: "I WAS BUSY BEING FOREMAN."}
-      - {who: taeo_father, type: speech, side: l, text: "BAD UNION. TAKE YOUR BREAK."}
+      - {who: "taeo_mother", type: "speech", side: "l", text: "HARU'S HAD LUNCH. YOU HAVEN'T."}
+      - {who: "taeo_young", type: "speech", side: "r", text: "I WAS BUSY BEING FOREMAN."}
+      - {who: "taeo_father", type: "speech", side: "c", text: "BAD UNION. TAKE YOUR BREAK."}
   - id: P11
     shape: strip
     gap: short
@@ -177,7 +185,7 @@ panels:
       North-window cool light, restrained warm skin accent, soft panel edges. No wedding-ring close-up invented, words, symbols or mystical glow.
     calm: none
   - id: P12
-    shape: narrow-r
+    shape: tall
     gap: short
     bg: "#DCE0E3"
     camera: "teenage Taeo's view through the open entry as his parents leave"
@@ -186,12 +194,13 @@ panels:
       turning his kind tired face back for an ordinary last answer. taeo_young's blazer shoulder at foreground, baby supported below.
       Flat cool exterior daylight, blue-grey shadows, mother's bag a dull warm brown.
       No ominous red sky, gate at home, death aura, young father mistaken for Taeo or readable site sign.
+      Father is on the right, Mother in the middle, and young Taeo with Haru at the left foreground edge; leave height for the departing adults.
     calm: left
     lines:
-      - {who: taeo_father, type: speech, side: r, text: "IT'S FINE. THEY'VE DONE THIS CAMP BEFORE."}
+      - {who: "taeo_father", type: "speech", side: "r", text: "IT'S FINE. WE'VE WORKED AT THE SEOGANG CAMP BEFORE."}
     notes: "PAYOFF P06: father went in as contracted porter. His ordinary reassurance sets the inherited phrase against ch 44."
   - id: P13
-    shape: vignette
+    shape: tall
     gap: long
     bg: "#CBD1D8"
     silent: true
@@ -203,7 +212,7 @@ panels:
       Cool fading north-window light, desaturated blue-grey, soft border. No phone alert, text, phantom footsteps or cute sleep bubble.
     calm: none
   - id: P14
-    shape: wide
+    shape: tall
     gap: long
     bg: "#CBD1D8"
     camera: "floor-level view at the old home as the first news breaks"
@@ -212,11 +221,12 @@ panels:
       infant haru safely seated in a low padded cot beside the table, no unattended height. TV screen: green, framed sharply.
       His expression is puzzled first, school tie loose, no present jacket or patch.
       Cool room with ordinary pale TV light, muted blue-grey. No generated screen text, impact beam or adult Taeo.
+      Young Taeo stands on the right, Haru in the low cot in the middle. The TV and its unseen newsreader voice are on the left.
     calm: top
     ui:
       - {kind: tv.lowerthird, on: screen, text: "SEOGANG GATE-SITE CAMP COLLAPSE", ticker: "CONTRACT WORKERS AND CAMP STAFF UNACCOUNTED FOR"}
     lines:
-      - {who: newsreader, type: phone, side: l, text: "THE COLLAPSE REACHED THE WORKERS' CAMP."}
+      - {who: "offpanel:newsreader", type: "phone", side: "l", text: "THE COLLAPSE REACHED THE WORKERS' CAMP."}
   - id: P15
     shape: strip
     gap: short
@@ -229,7 +239,7 @@ panels:
       Cool desaturated blue-grey, no interface cyan, tears yet, extra mole, reflection words or comic shock symbols.
     calm: none
   - id: P16
-    shape: full
+    shape: tall
     gap: fade-black
     bg: "#5A626E"
     camera: "establishing across the community relief waiting room toward the cordon windows"
@@ -238,10 +248,11 @@ panels:
       blue cap and less stoop, speaks at a plain desk. grandma, memory sixty-two with partly grey curls, plaid blouse, cream vest and glasses,
       opens a baby bottle beside him. Beyond glass, response vans stand idle. High-mounted box TV dark here.
       Cold fluorescent blue-grey, one warm infant blanket. No gate crossing, readable forms, body bags or armed guards.
+      Young Taeo with Haru occupies the right third; Grandpa stands on the left at the desk, Grandma beside him in the middle.
     calm: top
     lines:
-      - {who: taeo_young, type: speech, side: r, text: "DAD'S A PORTER. MUM'S IN THE KITCHEN."}
-      - {who: taeo_young, type: speech, side: r, text: "THEY'LL BE IN DIFFERENT PLACES."}
+      - {who: "taeo_young", type: "speech", side: "r", text: "DAD'S A PORTER. MUM'S IN THE KITCHEN."}
+      - {who: "taeo_young", type: "speech", side: "r", text: "THEY'LL BE IN DIFFERENT PARTS OF THE CAMP."}
   - id: P17
     shape: inset-r
     gap: short
@@ -252,13 +263,14 @@ panels:
       free arm no longer holding baby because grandma cradles him safely just outside frame.
       Boy's face carries stubborn belief that a precise fact will fix the delay. Cold overhead fluorescent light,
       desaturated slate and white; no display screen, readable phone numbers, present phone sticker or heroic low angle.
+      Young Taeo is on the right in a face-and-receiver close-up; the corded phone base is beyond the left edge.
     calm: left
     lines:
-      - {who: taeo_young, type: speech, side: r, text: "WE CALLED THAT COMPANY. THEY SENT US TO YOU."}
-      - {who: response_operator, type: phone, side: l, text: "THE SITE CONTRACT WAS SUBCONTRACTED AGAIN. I'M CONNECTING YOU."}
+      - {who: "taeo_young", type: "speech", side: "r", text: "WE CALLED THE CAMP CONTRACTOR. THEY SENT US TO YOU."}
+      - {who: "offpanel:response_operator", type: "phone", side: "l", text: "THE SITE CONTRACT WAS SUBCONTRACTED AGAIN. I'M CONNECTING YOU."}
     notes: "Anonymous relief desk operator, not the newsreader. Three subcontract tiers are made explicit P18."
   - id: P18
-    shape: wide
+    shape: tall
     gap: short
     bg: "#5A626E"
     camera: "over Grandpa's shoulder at the desk phone while Taeo listens"
@@ -267,10 +279,11 @@ panels:
       teenage taeo looks from that hand to the idle vans through glass. His school blazer hangs too large at the shoulders.
       Baby haru safe with grandma on chair beyond, ivory shirt and sage overalls.
       Cool fluorescent blue-grey, small warm hand accent. No readable subcontract documents, branded villains, gate or present orange patch.
+      Grandpa occupies the right foreground, young Taeo the middle; the phone receiver is to the left. Grandma and Haru stay seated beyond.
     calm: top
     lines:
-      - {who: response_operator, type: phone, side: l, text: "THREE SUBCONTRACTS BELOW THE SITE HOLDER. WE'RE CONFIRMING WHO AUTHORISES RESPONSE."}
-      - {who: grandpa, type: speech, side: r, text: "WHO AUTHORISES OPENING THE DOOR?"}
+      - {who: "offpanel:response_operator", type: "phone", side: "l", text: "THREE SUBCONTRACTORS BELOW THE SITE HOLDER. WE'RE CHECKING WHO CAN APPROVE THE RESCUE."}
+      - {who: "grandpa", type: "speech", side: "r", text: "WHO CAN APPROVE OPENING THE DOOR?"}
     notes: "PAYOFF P06: three-tier cheap subcontract chain and priced response, not Seoryun's operation. Anonymous line voice uses phone."
   - id: P19
     shape: tall
@@ -308,12 +321,13 @@ panels:
       taeo_young sits rigid beside her, blazer creased, gaze locked on the glass entrance. Grandpa stands farther away at desk,
       his back readable as someone holding himself upright. Cool blue-grey fluorescence and one dull warm blanket.
       No depicted death notification content, graphic remains, theatrical rain indoors or unlettered screen made green.
+      Waist-up view of the seated pair: Grandma and Haru on the left, young Taeo on the right. Only a cropped shoulder of Grandpa at the distant desk.
     calm: top
     lines:
-      - {who: taeo_young, type: speech, side: r, text: "THEY DIDN'T KNOW WHERE TO LOOK."}
-      - {who: grandma, type: speech, side: l, text: "COME HERE."}
+      - {who: "taeo_young", type: "speech", side: "r", text: "THE RESCUERS DIDN'T KNOW WHERE TO LOOK."}
+      - {who: "grandma", type: "speech", side: "l", text: "COME HERE."}
   - id: P22
-    shape: vignette
+    shape: tall
     gap: black
     bg: black
     silent: true
@@ -339,11 +353,11 @@ panels:
       - {who: narr, type: narr_dark, text: "THEY CAME HOME TOGETHER."}
     notes: "Taeo's present narration over memory. Neither parent's death is visually subordinated to the other."
   - id: P24
-    shape: inset-l
+    shape: tall
     gap: long
     bg: black
     silent: true
-    camera: "close side view of young Taeo kneeling with his hands on his knees"
+    camera: "close side view of kneeling young Taeo, with vertical room from his face to both hands on his knees"
     art: >
       taeo_young at funeral_hall, fourteen, school uniform and black armband, single mole RIGHT eye.
       He holds both palms flat on his knees as if obeying instructions precisely can keep his face from breaking.
@@ -351,7 +365,7 @@ panels:
       soft border. No adult face, stylish funeral suit, speech graphics or tears used as decoration.
     calm: none
   - id: P25
-    shape: wide
+    shape: tall
     gap: short
     bg: black
     camera: "reverse behind the portrait stands toward Taeo, Haru and grandparents"
@@ -360,9 +374,10 @@ panels:
       confused by the room's stillness. Young Taeo looks at the reaching hand and finally loses his careful expression.
       Grandpa's own hand opens beside his knee without knowing where to go. Normal proportions, cold desaturated palette,
       warm infant hand. BIG REACTION: boy's grief, no chibi, crying effect symbols, readable cards or ghost parents.
+      Leave vertical room for the seated family: young Taeo on the right, Grandma and Haru on the left, Grandpa in the middle; all faces and Grandpa's hand beside his knee remain visible.
     calm: top
     lines:
-      - {who: taeo_young, type: whisper, side: r, text: "HE DOESN'T KNOW."}
+      - {who: "taeo_young", type: "whisper", side: "r", text: "HARU DOESN'T KNOW THEY'RE GONE."}
   - id: P26
     shape: strip
     gap: long
@@ -376,7 +391,7 @@ panels:
       No price, readable packet, solemn symbolic flower beside food or active TV.
     calm: none
   - id: P27
-    shape: full
+    shape: tall
     gap: fade-white
     bg: "#DCE0E3"
     camera: "establishing from Haeseong south courtyard through the grandparents' communal room"
@@ -399,11 +414,12 @@ panels:
       taeo_young holds infant haru safely against his chest, both turned toward the TV; boy's face absent until a voice catches him.
       Folded bedding stays northwest, east window at frame left from this reverse. Cool desaturated room, ordinary pale screen light.
       No interface blue, current thin TV, present rescue-team patch or generated broadcast text.
+      Frame young Taeo and Haru from the waist up on the right; the west CRT, source of the unseen newsreader voice, is on the left.
     calm: top
     ui:
       - {kind: tv.lowerthird, on: screen, text: "DAEGU GATE RESCUE · HAN SEORYUN", ticker: "CAPTAIN RE-ENTERS FOR CONTRACT PORTERS", notes: "Composite archival rescue footage from P29 into CRT behind the lower-third kit."}
     lines:
-      - {who: newsreader, type: phone, side: l, text: "HAN SEORYUN HAS GONE BACK IN FOR THE PORTERS."}
+      - {who: "offpanel:newsreader", type: "phone", side: "l", text: "HAN SEORYUN HAS GONE BACK IN FOR THE PORTERS."}
     notes: "Separate Daegu incident, same month; she did not command Seogang. No causal implication between her response and parents' deaths."
   - id: P29
     shape: full
@@ -415,6 +431,7 @@ panels:
       OLD shield-and-open-door patch LEFT sleeve. She escorts a weary middle-aged porter past a black-violet slit with cold rim,
       turns to count those still inside, face fierce with exhausted concentration. Plain response barriers, ordinary news framing.
       Memory desaturated blue-grey, cold rim only. No young Taeo on scene, current patch, returned parents, glamour or drawn TV chrome.
+      Seoryun occupies the right third, the escorted porter the left. Both full figures have room around the gate frame.
     calm: top
     ui:
       - {kind: tv.lowerthird, on: panel, text: "DAEGU · HAN SEORYUN", ticker: "THIRD RETURN INTO GATE"}
@@ -442,9 +459,10 @@ panels:
       His shoulders have begun shaking but he is trying not to startle the infant. Haru looks up toward his chin, curious.
       Grandpa freezes at north kitchen sink in far background. Cold TV light, muted blue-grey room, warm baby skin.
       No current ten-year-old Haru, chibi grief, unheld infant or generated text.
+      Frame young Taeo and Haru from the waist up in the right third; Grandpa is only a cropped upper-body silhouette at the distant sink.
     calm: top
     lines:
-      - {who: taeo_young, type: whisper, side: r, text: "SHE WENT BACK."}
+      - {who: "taeo_young", type: "whisper", side: "r", text: "CAPTAIN SEORYUN WENT BACK."}
   - id: P32
     shape: strip
     gap: long
@@ -468,11 +486,12 @@ panels:
       mouth trying to make an apology small enough not to scare him. RIGHT-eye mole, adolescent jaw, white shirt.
       Baby safely supported, tiny hand against boy's collar. Cool screen light, muted blue-grey with warm cheek accent.
       No chibi, joke, extra infant hand, red danger accent or magical broadcast glow.
+      Young Taeo occupies the right third of this face-and-infant close-up.
     calm: left
     lines:
       - {who: taeo_young, type: whisper, side: r, text: "SORRY, BOSS. SORRY."}
   - id: P34
-    shape: vignette
+    shape: tall
     gap: long
     bg: "#DCE0E3"
     silent: true
@@ -484,7 +503,7 @@ panels:
       Desaturated cool daylight and pale TV spill, one warm hand accent. No readable news, judgement face or future crew.
     calm: none
   - id: P35
-    shape: wide
+    shape: tall
     gap: long
     bg: "#DCE0E3"
     camera: "establishing along Haeseong market lane the next day"
@@ -493,9 +512,10 @@ panels:
       grandpa age sixty-five in blue cap and grey jacket stops before inexpensive embroidered patches on blank backing cards.
       He is not haggling yet; his gaze fixes on one orange shield with an OLD open door.
       Cool desaturated daylight under canopy, patch the sole muted warm colour. No official guild store, current redesign, logos or readable price tags.
+      Grandpa stands in the right third looking at the pegboard; the vendor remains beyond the left edge behind her stall.
     calm: top
     lines:
-      - {who: market_vendor, type: speech, side: l, text: "THE CAPTAIN ONE? THAT'S A COPY."}
+      - {who: "offpanel:market_vendor", type: "speech", side: "l", text: "SEORYUN'S PATCH? THIS IS A COPY."}
   - id: P36
     shape: strip
     gap: short
@@ -510,7 +530,7 @@ panels:
     ui:
       - {kind: label, text: "₩3,000", at: [0.78, 0.72], size: 32, notes: "Price tab on cheap copy at market; no claim of official licensing."}
   - id: P37
-    shape: wide
+    shape: tall
     gap: short
     bg: "#DCE0E3"
     camera: "stall-side medium on Grandpa choosing rather than bargaining"
@@ -519,9 +539,10 @@ panels:
       holds the copy patch carefully in the other. market_vendor, middle-aged perm, maroon vest and grey top with apron,
       looks at his care and stops her sales patter. Cool canopy daylight, desaturated slate, orange patch retained.
       No counterfeit brand text, extra payment amount, grand pose or young Taeo watching the purchase.
+      Grandpa stands on the right, vendor on the left across the counter; keep the patch and payment between them.
     calm: top
     lines:
-      - {who: grandpa, type: speech, side: r, text: "HE'LL KNOW WHAT IT MEANS."}
+      - {who: "grandpa", type: "speech", side: "r", text: "TAEO WILL KNOW WHAT THE PATCH MEANS."}
     notes: "PAYOFF P06 and patch history: Grandpa buys a knock-off; no official sponsorship or secret gift from Seoryun."
   - id: P38
     shape: wide
@@ -533,10 +554,11 @@ panels:
       white shirt and grey trousers, tired face still raw. baby haru lies safely in grandma's lap in background,
       awake and fed, no dramatic pose. WEST CRT dark, north kitchen fixed. Cool desaturated afternoon daylight,
       orange patch warm accent. No finished GO FIRST badge, reading slip or adult Taeo body.
+      Seated waist-up framing: Grandpa on the left, young Taeo on the right; Grandma and Haru remain seated in the background.
     calm: top
     lines:
-      - {who: grandpa, type: speech, side: l, text: "IT'S NOT THE REAL ONE."}
-      - {who: taeo_young, type: speech, side: r, text: "I KNOW."}
+      - {who: "grandpa", type: "speech", side: "l", text: "IT'S A COPY OF HER TEAM PATCH."}
+      - {who: "taeo_young", type: "speech", side: "r", text: "I KNOW."}
   - id: P39
     shape: inset-l
     gap: short
@@ -553,18 +575,19 @@ panels:
     shape: vignette
     gap: fade-black
     bg: navy
-    camera: "match cut from patch in young hands to patch on present olive bag"
+    camera: "detail match cut from patch in young hands to patch on present olive bag"
     art: >
       Back to Friday night, ryu_practice_yard home container. SAME cheap old orange patch now sewn on the olive backpack,
       frayed lower corner older, border still slightly crooked. Present taeo's black hoodie sleeve steadies the bag beside the family photograph.
       Nib's adult hand rests on his own knee at frame edge, listening, no touch of ownership.
       Warm lamp orange and deep blue-grey, crisp cel shading. No ghost figures, current patch, generated words or amber light.
+      Keep faces outside this detail crop. Taeo sits beyond the right edge; Nib's hand enters from the left.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "THAT'S THE REAL ONE TO ME."}
+      - {who: "offpanel:taeo", type: "speech", side: "r", text: "THIS PATCH IS THE REAL ONE TO ME."}
     notes: "PAYOFF P06 completed; echoes patch payoff P03 without replacing ch 39-40. Nib has now heard the story Friday night."
   - id: P41
-    shape: wide
+    shape: tall
     gap: long
     bg: navy
     camera: "floor-level across the low table toward Nib's adult face"
@@ -573,6 +596,7 @@ panels:
       looks from the family photo to taeo's covered forearms. His face offers no easy line to tidy the story.
       High matte binoculars catch one lamp highlight; LEFT knot and ear notch clear. Warm lamp side light, blue-grey beyond.
       No tears compelled from Nib, cute consoling pose, spoon-feeding or readable objects.
+      Nib's seated adult figure occupies the left third, with vertical room for face, belt and bare feet.
     calm: top
     lines:
       - {who: nib, type: speech, side: l, text: "I HEARD."}
@@ -602,7 +626,7 @@ panels:
     lines:
       - {who: narr, type: tag, text: "SATURDAY MORNING"}
   - id: P44
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "inside at boot-wall height as the owner spots Nib"
@@ -611,6 +635,7 @@ panels:
       cobalt hiking jacket, grey trousers, whistle lanyard and pencil behind RIGHT ear, looks down in cheerful recognition.
       nib stands adult and businesslike before LEFT boot wall, default locks, binoculars high, bare feet plainly visible.
       Window daylight and fluorescent cream, khaki/tan with one cobalt accent. TV above back counter dark; no written sale tags.
+      Owner stands in the left third, Nib in the right; keep their feet and faces comfortably in frame.
     calm: top
     lines:
       - {who: shop_owner, type: speech, side: l, text: "BACK FOR SOCKS?"}
@@ -626,6 +651,7 @@ panels:
       visor and cobalt jacket intact; chibi nib waits with line-eyed deadpan, LEFT notch and fang, belt sides,
       RIGHT dinosaur pouch, LEFT wooden sheath and binoculars retained, still barefoot.
       2.5-head comedy only, hard shadows. No funeral, parents, Grandpa sorrow, bruises, supernatural glow or letters in art.
+      Crop the chibi figures at the waist: owner on the left and Nib on the right; belt gear stays visible at the lower edge.
     calm: top
     lines:
       - {who: shop_owner, type: shout, side: l, text: "I KNEW THIS DAY WOULD COME!"}
@@ -640,12 +666,12 @@ panels:
       broad round toe, plain black lug sole and low heel. Four dull round eyelet pairs, dark-brown round laces, heel pull tab;
       no hooks, buckles or visible steel cap. He tests flexibility and quietness like a working scout.
       Fluorescent cream and side daylight, tan/wood shadows. No logos, price print or gleaming decorative metal.
+      Only Nib's hand and the boot are visible. Nib stands beyond the left edge; keep his voice tail outside the crop.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "NO SHINE. NO HARD EDGE HERE."}
-      - {who: shop_owner, type: speech, side: r, text: "WIDE TOE. SOFT COLLAR. TRY BOTH."}
+      - {who: "offpanel:nib", type: "speech", side: "l", text: "MATTE LEATHER. NO HARD EDGE AT THE COLLAR."}
   - id: P47
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low at fitting bench, Nib testing both laced boots on his feet"
@@ -654,18 +680,20 @@ panels:
       oat-grey short socks barely inside collars, four gunmetal eyelet pairs each, brown laces and black low-heeled lug soles.
       He rises onto toes to judge clearance; owner crouches aside without grabbing his feet. LEFT sheath and RIGHT pouch clear.
       Morning cream/daylight, khaki and warm wood, cobalt jacket. No child shoe sizing, mismatched pair, oversized clown toes or generated labels.
+      Nib occupies the left third on the bench, owner crouches in the right third. Leave room for both faces and both boots.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "THESE."}
-      - {who: shop_owner, type: speech, side: r, text: "SIXTY-EIGHT THOUSAND, WITH THE SOCKS."}
+      - {who: "shop_owner", type: "speech", side: "r", text: "WIDE TOE. SOFT COLLAR. HOW DO THEY FIT?"}
+      - {who: "nib", type: "speech", side: "l", text: "I'LL TAKE THESE BOOTS."}
+      - {who: "shop_owner", type: "speech", side: "r", text: "SIXTY-EIGHT THOUSAND, WITH THE SOCKS."}
   - id: P48
     shape: inset-r
     gap: short
     bg: white
-    camera: "over the glass counter onto Nib laying out his own cash"
+    camera: "close detail over the glass counter onto Nib's hand laying out his own cash"
     art: >
       camping_store back counter. nib places six plain pale-green banknotes, one brick-orange and three pale-blue notes,
-      squared carefully by his adult fingers. Boots are back off for the sale, paired neatly beside him, bare feet below counter.
+      squared carefully by his adult fingers. Boots are back off for the sale, paired beside the cash; feet and face stay outside the detail crop.
       RIGHT pouch open, dinosaur sticker on flap and marked cobalt pencil visible; no full money balance stated.
       Fluorescent cream, tan wood, brown shadows. Notes have no readable figures or portraits, TV dark, no gifted or loaned shoes.
     calm: left
@@ -698,7 +726,7 @@ panels:
       Morning sun, khaki/tan shop behind, cool blue-grey street. No Taeo, new outfit, huge emotional grin or readable signs.
     calm: none
   - id: P51
-    shape: wide
+    shape: tall
     gap: long
     bg: white
     camera: "south gate into keyed Ryu yard, Taeo recognizing the new footsteps"
@@ -707,20 +735,22 @@ panels:
       sleeves lowered, turns from the trestle when nib enters alone. He notices the matte dark-brown ankle boots,
       precise four-eyelet pair and double knots retained. Nib stands squarely rather than presenting a gift.
       Southeast sun, dusty ochre and warm brown, sky blue. No changed shell, new badge, shoe confetti or generated words.
+      Nib stands in the left third, Taeo in the right third; show both full figures and the new boots.
     calm: top
     lines:
       - {who: taeo, type: speech, side: r, text: "YOU BOUGHT BOOTS."}
       - {who: nib, type: speech, side: l, text: "YES."}
   - id: P52
-    shape: inset-l
+    shape: tall
     gap: short
     bg: white
-    camera: "low medium on Nib, boots and face visible in one clear figure"
+    camera: "low full-figure view of Nib with room between his boots and face"
     art: >
       nib at ryu_practice_yard, adult and weathered, LEFT V-notch and single LEFT lower fang, default wrap, charcoal shorts,
       brown rope belt, RIGHT pouch, LEFT wooden sheath, binoculars high. He plants his new matte brown ankle boots
       naturally in the dirt, expression plain and certain. Small double-knotted laces, black lug soles and broad toes clear.
       Morning ochre/brown, warm side light. No cute bravado, vow aura, shifted belt props or steel armour boots.
+      Nib occupies the left third of the tall frame; his boots, adult stance and face remain visible together.
     calm: right
     lines:
       - {who: nib, type: speech, side: l, text: "IF YOU'RE CARRYING, I'LL WALK PROPERLY."}
@@ -735,10 +765,11 @@ panels:
       He looks from nib's boots to his face, surprised into a laugh that fails halfway and becomes wet-eyed instead.
       His hand lifts, then stays at his own side; no patting Nib's head. Plywood maze behind simplified.
       Morning southeast sunlight, dusty ochre and navy, no chibi, cure glow, exposed injury or text.
+      Taeo alone occupies the right third in this chest-up reaction. Nib stands beyond the left edge.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "SORRY. I DON'T HAVE A GOOD ANSWER TO THAT."}
-      - {who: nib, type: speech, side: l, text: "THEN DON'T."}
+      - {who: "taeo", type: "speech", side: "r", text: "SORRY. I DON'T KNOW WHAT TO SAY ABOUT THE BOOTS."}
+      - {who: "offpanel:nib", type: "speech", side: "l", text: "THEN DON'T."}
   - id: P54
     shape: strip
     gap: long
@@ -762,6 +793,7 @@ panels:
       taeo stands outside in black hoodie, sleeves still down, his smile gone. nib beside him in EXACT chosen brown boots,
       adult posture and locked gear. Morning ochre/brown outside, cool grey container shade within.
       No shove, injury cure, chibi, envelope reveal, readable door label or current rescue patch.
+      Grandpa occupies the left foreground in the doorway, Taeo the right third outside, Nib the middle beside Taeo.
     calm: top
     lines:
       - {who: grandpa, type: speech, side: l, text: "SHOW ME YOUR ARMS."}

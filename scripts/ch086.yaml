@@ -21,7 +21,7 @@ location_notes:
 palette_notes: "Night opening: cream work lamp, ochre and hard navy. Morning/afternoon A4 yard: dusty ochre and plywood brown, sky-blue light, warm brown shadows, muted orange safety gear. Medical materials dull sage/cream. Danger accent confined to the captain's muted dark-red uniform inset. Flat cel drawing, weighted warm ink, no decorative glow."
 panels:
   - id: P01
-    shape: wide
+    shape: tall
     gap: none
     bg: navy
     camera: "reverse of ch 85 hook across Taeo's exposed arms"
@@ -30,6 +30,7 @@ panels:
       Taeo's bruised forearms, chin level and eyes hard. Dara's slate shoulder enters left;
       Taeo (black hoodie, sleeves raised) looks between them. Cream task lamp, deep navy beyond.
       The folder lies beside the green-banded mug; no new wound.
+      Dara is left, Taeo seated centre and Sejin right; include the three faces above the exposed arms.
     calm: top
     lines:
       - {who: sejin, type: speech, side: r, text: "START WITH HIS ARMS. YOU CAN INSULT ME AFTER THE EXAMINATION."}
@@ -54,11 +55,12 @@ panels:
       thick brows, dark braid with grey temples, slate plates over oatmeal surgeon's wrap,
       scarred forearms, LEFT kit and RIGHT cloth roll) looks at Taeo rather than Sejin.
       Her anger becomes attention. Cream yard task lamp, hard navy background. No glamour or spikes.
+      Dara is in the left third of the close-up.
     calm: right
     lines:
-      - {who: dara, type: speech, side: l, text: "FAIR. START TALKING."}
+      - {"who": "dara", "type": "speech", "side": "l", "text": "FAIR. TELL ME ABOUT THE RECOIL."}
   - id: P04
-    shape: wide
+    shape: tall
     gap: short
     bg: navy
     camera: "table-level two-shot of Taeo and Sejin"
@@ -66,10 +68,11 @@ panels:
       Taeo (black hoodie, sleeves raised) sits right of Sejin at the yard trestle. She opens
       the treatment log; he looks at its thickness and swallows. His jacket hangs on his
       chair, old patch visible on backpack. Cream lamp, ochre paper and navy shadows; entries abstract and blank for overlays.
+      Sejin sits left and Taeo right, both faces above the treatment log.
     calm: top
     lines:
-      - {who: sejin, type: speech, side: l, text: "EVERY REPORTED LOAD. EVERY RECOVERY PERIOD."}
-      - {who: taeo, type: speech, side: r, text: "...REPORTED."}
+      - {"who": "sejin", "type": "speech", "side": "l", "text": "I LOGGED EVERY LOAD YOU REPORTED, AND THE REST I PRESCRIBED."}
+      - {"who": "taeo", "type": "speech", "side": "r", "text": "NOT EVERY LOAD IS IN THAT LOG."}
   - id: P05
     kind: title
     gap: long
@@ -84,11 +87,12 @@ panels:
       Sejin (cropped near-black hair, sage scrubs) looks up at Taeo across the night yard
       trestle. No anger performance: her tired brown eyes stop moving. Fingers rest flat on
       the folder. Cream lamp from above, hard olive and navy shadows. No tears, no accusatory finger.
+      Sejin is in the right third of the close-up.
     calm: left
     lines:
-      - {who: sejin, type: speech, side: r, text: "WHICH ONES DIDN'T YOU TELL ME?"}
+      - {"who": "sejin", "type": "speech", "side": "r", "text": "WHICH LOADS DIDN'T YOU REPORT?"}
   - id: P07
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "profile of Taeo with Nib at the chair's far side"
@@ -96,10 +100,11 @@ panels:
       Taeo (black hoodie, bruised arms) stares at his hands at the yard trestle. Nib (adult,
       chosen boots, high binoculars and locked belt gear) stands beside the chair, refusing to
       rescue him from answering. Cream lamp on Taeo's RIGHT-eye mole, ochre table and navy fence beyond.
+      Taeo sits in the left third and Nib stands in the right third.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "THE ONES THAT DIDN'T LOOK DIFFERENT."}
-      - {who: nib, type: speech, side: r, text: "THEY STILL HAPPENED."}
+      - {"who": "taeo", "type": "speech", "side": "l", "text": "I LEFT OUT LOADS THAT DIDN'T LEAVE NEW BRUISES."}
+      - {"who": "nib", "type": "speech", "side": "r", "text": "YOUR BODY STILL TOOK THEM."}
   - id: P08
     shape: strip
     gap: short
@@ -111,9 +116,9 @@ panels:
       beside them. Cream task light, dull sage and paper beige, brown shadows. No legible writing or medical diagram.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "I'D MADE HER RECORDS WRONG BY LEAVING MYSELF OUT."}
+      - {"who": "taeo", "type": "float", "text": "I'D LEFT THE DAMAGE OUT OF HER RECORDS."}
   - id: P09
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "eye-level across the trestle with Dara facing both"
@@ -121,10 +126,11 @@ panels:
       Dara (slate armour) studies Sejin's folder at the yard; Sejin points to a rest interval
       and meets her gaze. Taeo sits quietly to the right. Professional heat, no gloating.
       Cream lamp, muted oatmeal/olive and navy background. Folder pages remain abstract strokes, no magical diagnosis.
+      Dara stands left, Sejin centre and Taeo sits right; show both clinicians faces above the log.
     calm: top
     lines:
-      - {who: dara, type: speech, side: l, text: "YOU LET HIM REPEAT IT?"}
-      - {who: sejin, type: speech, side: r, text: "I SET LIMITS. I DIDN'T KNOW HE WAS SPENDING THEM TWICE."}
+      - {"who": "dara", "type": "speech", "side": "l", "text": "YOU LET HIM CARRY THROUGH THE BRUISING?"}
+      - {"who": "sejin", "type": "speech", "side": "c", "text": "I SET REST PERIODS. HE HID LOADS FROM ME."}
   - id: P10
     shape: inset-l
     gap: short
@@ -134,9 +140,10 @@ panels:
       Dara's face at the yard trestle: her brows ease by one degree as she revises her
       first judgment. Grey temple strands, tight braid, oatmeal collar above matte slate chestplate.
       Cream lamp upper left, hard navy field behind. Keep the face weathered and adult, not softened into chibi.
+      Dara is in the left third of the close-up.
     calm: right
     lines:
-      - {who: dara, type: speech, side: l, text: "THEN WE HAVE A DIFFERENT PROBLEM."}
+      - {"who": "dara", "type": "speech", "side": "l", "text": "THEN OUR PATIENT IS HIDING THE DAMAGE."}
   - id: P11
     shape: full
     gap: fade-white
@@ -151,7 +158,7 @@ panels:
     lines:
       - {who: narr, type: tag, text: "THE NEXT MORNING · GROUND PRACTICE"}
   - id: P12
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low view along the cot toward Dara and the watching crew"
@@ -161,12 +168,13 @@ panels:
       two feathered antennae, four folded grey-brown wing panels over olive tunic, dark trousers,
       wrapped shoes, two arms and two legs. Orrin waits in clear space. Sejin holds the practice checklist, Taeo empty-handed.
       Dara's expression is mercilessly practical. Morning sun, dusty ochre and warm brown shadows. No weapons drawn.
+      Dara stands left and Taeo right; listening crew and the cot occupy the middle with room.
     calm: top
     lines:
-      - {who: dara, type: speech, side: l, text: "SHOW ME YOUR WORST DAY."}
-      - {who: taeo, type: nervous, side: r, text: "WE HAVE A SELECTION."}
+      - {"who": "dara", "type": "speech", "side": "l", "text": "SHOW ME YOUR EMERGENCY DRILL."}
+      - {"who": "taeo", "type": "nervous", "side": "r", "text": "WHICH EMERGENCY? WE HAVE A SELECTION."}
   - id: P13
-    shape: inset-r
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -175,12 +183,13 @@ panels:
       Chibi Dara (slate armour, LEFT kit, RIGHT roll) points at chibi Taeo's folding chair
       as if it were disgraceful enemy fortification. Chibi Taeo (black hoodie, RIGHT-eye mole)
       hugs it, appalled. Flat ochre screentone and a stylised blue morning-sky band; no injury or cardiac joke.
+      Chibi Dara stands left and Taeo right with the chair between them.
     calm: left
     lines:
       - {who: dara, type: speech, side: l, text: "WHY IS YOUR OPERATOR'S CHAIR SO FAR FROM HIS MEDIC?"}
       - {who: taeo, type: speech, side: r, text: "I THOUGHT I WAS FURNITURE."}
   - id: P14
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "normal style overhead map-like view of the apron"
@@ -188,10 +197,11 @@ panels:
       Haein slides Taeo's folding chair beside the canopy cot at ryu_practice_yard, moving the
       chair only, never a maze wall. Sejin uncoils a monitor lead while Dara checks the
       clear path to the south gate. Taeo looks sheepishly useful carrying the blanket. A4 morning ochre/brown/blue; all displays dark.
+      Sejin stands left, Haein centre-left with the chair, Taeo centre-right with the blanket, Dara right.
     calm: top
     lines:
-      - {who: sejin, type: speech, side: l, text: "I'VE ASKED FOR THAT DISTANCE TO CHANGE."}
-      - {who: dara, type: speech, side: r, text: "NOW THERE ARE TWO OF US ASKING."}
+      - {"who": "sejin", "type": "speech", "side": "l", "text": "I'VE ASKED TAEO TO MOVE CLOSER."}
+      - {"who": "dara", "type": "speech", "side": "r", "text": "NOW TWO MEDICS ARE ASKING."}
   - id: P15
     shape: strip
     gap: short
@@ -213,10 +223,11 @@ panels:
       seated on a low pad. Kesh (folded grey-brown wings, olive tunic) relays a report;
       Orrin waits outside the narrow corridor. Sera observes with supported arm. Everyone intent. Morning ochre/brown/sky-blue;
       no actual wound, active gate, return marks or magical impact.
+      Draw Dara in slate armour at right inspecting Orrin, Kesh reporting at left, Nib seated centre; Sera observes behind.
     calm: top
     lines:
-      - {who: kesh, type: speech, side: l, text: "ONE WALKING. ONE CARRIER. ROUTE IS OPEN."}
-      - {who: dara, type: speech, side: r, text: "WHO CHECKED THE CARRIER?"}
+      - {"who": "kesh", "type": "speech", "side": "l", "text": "ONE WALKING CASUALTY. ORRIN WILL CARRY. THE ROUTE IS OPEN."}
+      - {"who": "dara", "type": "speech", "side": "r", "text": "WHO CHECKED THE CARRIER?"}
   - id: P17
     shape: inset-l
     gap: short
@@ -226,11 +237,12 @@ panels:
       Orrin (adult layered slate shell, heavy olive eyes) stands beside the yard maze, patient
       but stung that his own condition is often overlooked. No harness or cargo. Morning
       sun catches an old repaired shell seam without making a fresh crack; ochre wall and brown shadows.
+      Orrin is in the left third of the close-up.
     calm: right
     lines:
-      - {who: orrin, type: speech, side: l, text: "I WAS ABOUT TO MENTION THAT."}
+      - {"who": "orrin", "type": "speech", "side": "l", "text": "I WAS ABOUT TO ASK FOR MY OWN CHECK."}
   - id: P18
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "medium shot from inside the south maze gap toward both clinicians"
@@ -238,28 +250,30 @@ panels:
       Sejin (sage scrubs) indicates the stretcher staging position at the yard gap; Dara (slate
       armour) objects with an open palm. Nib watches from the pad, utterly unsentimental about
       the demonstration. Bright southeast sun, ochre plywood, brown shade. No blocked real exit or live casualty.
+      Sejin stands left, Nib sits centre on the pad and Dara stands right, all three faces visible.
     calm: top
     lines:
-      - {who: sejin, type: speech, side: l, text: "THIS SPOT LETS ME SEE THE WHOLE TEAM."}
-      - {who: dara, type: speech, side: r, text: "IT ALSO PUTS YOUR BACK TO THE EXIT."}
-      - {who: nib, type: speech, side: c, text: "SHE'S RIGHT ABOUT THE EXIT."}
+      - {"who": "sejin", "type": "speech", "side": "l", "text": "FROM HERE I CAN SEE THE WHOLE TEAM."}
+      - {"who": "dara", "type": "speech", "side": "r", "text": "AND THE EXIT IS BEHIND YOU."}
+      - {"who": "nib", "type": "speech", "side": "c", "text": "DARA'S RIGHT. KEEP THE EXIT IN VIEW."}
   - id: P19
-    shape: strip
+    shape: full
     gap: short
     bg: white
-    camera: "close-up on Sejin rotating the practice checklist"
+    camera: "medium two-shot of Sejin left and Dara right above the rehearsal checklist"
     art: >
       Sejin turns a plain clipboard and redraws the rehearsal position as abstract boxes at
       the yard trestle. Dara's scarred finger stops on an access path, not on Sejin's
       hand. Their gestures have become collaborative. Morning cream paper over ochre; navy ink shapes remain unreadable.
+      Show both faces and their collaborative hands: Sejin left and Dara right; keep the checklist footer clear.
     calm: top
     lines:
-      - {who: sejin, type: speech, side: l, text: "HALF A TURN. SAME VIEW. BETTER EXIT."}
-      - {who: dara, type: speech, side: r, text: "DO IT AGAIN."}
+      - {"who": "sejin", "type": "speech", "side": "l", "text": "TURN THE STRETCHER HALFWAY AROUND. SAME VIEW. CLEAR EXIT."}
+      - {"who": "dara", "type": "speech", "side": "r", "text": "REPEAT THE DRILL."}
     ui:
       - {kind: label, text: "DRY REHEARSAL · 00:46", at: [0.50, 0.78], size: 28, notes: "On the blank checklist footer. Ground-rehearsal duration only; not a safe load or cardiac limit."}
   - id: P20
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "across the shaded canopy to Taeo sitting beside the cot"
@@ -267,10 +281,11 @@ panels:
       Taeo (black hoodie) sits beside the yard cot, watching the second ground rehearsal. Dara
       turns from the practice toward him; Sejin is already at his side with the pulse
       recorder. Taeo's smile is too quick again. Blue canopy shade over muted ochre, warm sun outside. No connected load apparatus.
+      Dara stands left, Sejin centre beside the recorder and Taeo sits right by the cot.
     calm: top
     lines:
-      - {who: dara, type: speech, side: l, text: "NOW YOUR BASELINE. BEFORE ANY CARRYING."}
-      - {who: taeo, type: speech, side: r, text: "I FEEL FINE SITTING DOWN."}
+      - {"who": "dara", "type": "speech", "side": "l", "text": "NOW WE CHECK YOU AT REST. BEFORE ANY LOAD SHARE."}
+      - {"who": "taeo", "type": "speech", "side": "r", "text": "I FEEL FINE SITTING DOWN."}
   - id: P21
     shape: narrow-r
     gap: short
@@ -282,7 +297,7 @@ panels:
       cool blue shade, ochre ground below. No drawn pulse icons or manual diagnostic instructions.
     calm: left
     lines:
-      - {who: sejin, type: speech, side: r, text: "DARA."}
+      - {"who": "offpanel:sejin", "type": "speech", "side": "r", "text": "DARA. CHECK THIS PULSE."}
   - id: P22
     shape: strip
     gap: long
@@ -295,7 +310,7 @@ panels:
       blue, one warm sun edge on his black hair. No glowing chest, pain burst or chibi exaggeration.
     calm: none
   - id: P23
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "side view of Taeo on the cot with the privacy screen behind"
@@ -303,10 +318,11 @@ panels:
       At the yard canopy Sejin helps Taeo settle on the portable cot for a supervised
       cardiac recording behind a plain folding privacy screen. Dara stands by his head, watchful.
       Hoodie loosened only as required, blanket over torso; no anatomical procedure detail. Cool cream/blue shade, sunlit ochre beyond, monitor plain shapes.
+      Sejin is left, Dara centre by the head of the cot, Taeo right with his face visible above the blanket.
     calm: top
     lines:
-      - {who: sejin, type: speech, side: l, text: "WE'RE RECORDING IT. DON'T GUESS FOR US."}
-      - {who: taeo, type: nervous, side: r, text: "SORRY. WHAT IS IT?"}
+      - {"who": "sejin", "type": "speech", "side": "l", "text": "WE'RE RECORDING YOUR HEART RHYTHM. DON'T GUESS FOR US."}
+      - {"who": "taeo", "type": "nervous", "side": "r", "text": "SORRY. WHAT'S WRONG?"}
   - id: P24
     shape: inset-l
     gap: short
@@ -316,6 +332,7 @@ panels:
       Dara (armour, oatmeal wrap) sits low enough to meet Taeo's eyes under the yard canopy.
       Her mouth is blunt, her gaze unexpectedly careful. Grey temple hair, dark braid, LEFT
       kit closed. Cool blue shade and cream bounced light. No healing light, no casual certainty about a cure.
+      Dara is in the left third of the close-up.
     calm: right
     lines:
       - {who: dara, type: speech, side: l, text: "YOUR HEART ISN'T KEEPING A REGULAR RHYTHM."}
@@ -333,7 +350,7 @@ panels:
       - {kind: label, text: "IRREGULAR RHYTHM · RESTING RECORD", at: [0.50, 0.80], size: 30}
     notes: "Story diagnosis: irregular resting heart rhythm, discovered before any live test. Do not specify a named arrhythmia, treatment regimen or numeric safe threshold."
   - id: P26
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "Taeo's point of view from the cot toward both clinicians"
@@ -341,10 +358,11 @@ panels:
       Sejin (sage scrubs) holds the paper recording under the yard canopy; Dara (slate armour)
       stands beside her, equally serious. They speak to Taeo, not over him. Nib waits beyond
       the privacy screen, worried adult face. Cool cream/blue, muted ochre background. No fantasy pulse joining anyone.
+      Sejin stands left, Dara right, Nib waits centre beyond the screen; keep both clinicians faces visible.
     calm: top
     lines:
-      - {who: sejin, type: speech, side: l, text: "THE RECOIL ISN'T JUST WHAT SHOWS ON YOUR ARMS."}
-      - {who: dara, type: speech, side: r, text: "AND TODAY YOU ARE NOT TESTING ANOTHER LOAD."}
+      - {"who": "sejin", "type": "speech", "side": "l", "text": "REPEATED RECOIL HAS AFFECTED MORE THAN YOUR ARMS."}
+      - {"who": "dara", "type": "speech", "side": "r", "text": "NO MORE LOAD TESTS TODAY."}
   - id: P27
     shape: inset-r
     gap: short
@@ -354,11 +372,12 @@ panels:
       Taeo (black hoodie, blanket) on the yard cot reacts hugely but silently for a beat:
       eyes wide, mouth open, his apparent harmless position outside suddenly stripped away. RIGHT-eye mole,
       adult proportions. Cool blue canopy shade, white recording paper at frame edge. No nosebleed or collapse.
+      Taeo is in the right third of the close-up.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: r, text: "I WAS OUTSIDE."}
+      - {"who": "taeo", "type": "speech", "side": "r", "text": "I WAS OUTSIDE THE GATE."}
   - id: P28
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low side shot of Nib at the cot and Dara behind"
@@ -366,12 +385,13 @@ panels:
       Nib (adult, boots, binoculars, LEFT notch and locked belt gear) stands at Taeo's cot
       in the yard canopy. He looks scared without letting his stance loosen. Dara waits
       behind him. Cool blue shade, cream blanket, ochre ground; no link pulse or glow.
+      Nib stands left, Taeo rests centre on the cot with his listening face visible, Dara waits right.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "YOU WERE STILL THERE."}
-      - {who: taeo, type: float, text: "I'D NEVER REALLY BELIEVED THEY WERE WAITING FOR ME TOO."}
+      - {"who": "nib", "type": "speech", "side": "l", "text": "YOUR BODY STILL TOOK THE IMPACT."}
+      - {"who": "taeo", "type": "float", "text": "I'D NEVER REALLY BELIEVED THEY WERE WAITING FOR ME TOO."}
   - id: P29
-    shape: vignette
+    shape: full
     gap: long
     bg: white
     silent: true
@@ -380,9 +400,10 @@ panels:
       Beyond the privacy screen at ryu_practice_yard, Sera's sound hand rests on Orrin's slate
       shell; Kesh's antennae droop, Haein has put down her spanner. All look toward the
       canopy, unable to help by working harder. Southeast sun over muted ochre, brown shadows. No grief chibi or public crowd.
+      Give the waiting crew room: Sera left, Orrin centre, Kesh centre-right and Haein right.
     calm: none
   - id: P30
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "across Sejin's shoulder toward Dara at the canopy table"
@@ -390,25 +411,27 @@ panels:
       Sejin (sage scrubs) and Dara (armour) review Taeo's recording privately at the yard canopy
       table while he rests in soft background shapes. Sejin's jaw is tight; Dara listens
       with scarred arms folded loosely. Cool blue/cream shade and dull olive. No tablets with invented readable data.
+      Sejin stands left and Dara right, Taeo rests quietly in the centre background.
     calm: top
     lines:
-      - {who: sejin, type: speech, side: l, text: "YOU CAN CLOSE TISSUE. CAN YOU REVERSE THIS?"}
-      - {who: dara, type: speech, side: r, text: "NO. NOT BY MAKING HIM LOOK HEALED."}
+      - {"who": "sejin", "type": "speech", "side": "l", "text": "CAN YOUR HEALING FIX HIS HEART RHYTHM?"}
+      - {"who": "dara", "type": "speech", "side": "r", "text": "NO. CLOSING A WOUND WON'T FIX HIS HEART RHYTHM."}
   - id: P31
-    shape: strip
+    shape: full
     gap: short
     bg: white
-    camera: "close-up of Dara's scarred forearms beside the unused dressing tray"
+    camera: "medium two-shot of Sejin left and Dara right, scarred forearms and dressing tray below"
     art: >
       Dara rests both scarred forearms beside the unused dressing tray on the yard canopy
       table. Her hands stay open and still, no miracle offered. Sejin's folder remains within
       reach. Blue shade, cream cloth and matte slate edge; no light from hands, blood or open tools.
+      Show both clinicians faces above the unused tray: Sejin left, Dara right with her hands open.
     calm: top
     lines:
-      - {who: dara, type: speech, side: r, text: "A CLOSED WOUND ISN'T NEW BLOOD. IT ISN'T REST."}
-      - {who: sejin, type: speech, side: l, text: "THAT, WE AGREE ON."}
+      - {"who": "dara", "type": "speech", "side": "r", "text": "I CAN CLOSE WOUNDS. I CAN'T REPLACE BLOOD OR ERASE EXHAUSTION."}
+      - {"who": "sejin", "type": "speech", "side": "l", "text": "WE AGREE ON THOSE LIMITS."}
   - id: P32
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "eye-level seated discussion beside Taeo's cot"
@@ -416,11 +439,12 @@ panels:
       Sejin shows Taeo a plain referral envelope at the yard cot; Dara waits beside her,
       giving Sejin the lead. Taeo listens with his whole face, shame turning to attention.
       Cool blue canopy shade and cream paper, sunlit ochre outside. No address, prescription detail or new diagnosis on envelope.
+      Sejin sits left with the envelope, Taeo centre on the cot and Dara sits right; all three speakers are drawn.
     calm: top
     lines:
-      - {who: sejin, type: speech, side: l, text: "A PROPER REVIEW. REST. WE REVISE YOUR LIMITS FROM THE FINDINGS."}
-      - {who: taeo, type: speech, side: r, text: "AND UNTIL THEN?"}
-      - {who: dara, type: speech, side: r, text: "NO LIVE LOAD TESTS."}
+      - {"who": "sejin", "type": "speech", "side": "l", "text": "YOU NEED A MEDICAL REVIEW AND REST. WE'LL SET NEW LIMITS AFTER THE FINDINGS."}
+      - {"who": "taeo", "type": "speech", "side": "c", "text": "UNTIL THE REVIEW?"}
+      - {"who": "dara", "type": "speech", "side": "r", "text": "NO LIVE LOAD TESTS."}
   - id: P33
     shape: inset-l
     gap: short
@@ -430,9 +454,10 @@ panels:
       Taeo (black hoodie, blanket on knees) sits at the yard cot, eyes on Sejin instead
       of an invisible interface. His hand deliberately leaves the equipment alone. Cool cream and
       blue shade, RIGHT-eye mole clear; no active monitor values or new bruise.
+      Taeo is in the left third of the close-up.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: l, text: "YES. PLEASE WRITE THAT DOWN WHERE I CAN'T MISUNDERSTAND IT."}
+      - {"who": "taeo", "type": "speech", "side": "l", "text": "YES. PLEASE WRITE THE RESTRICTION DOWN WHERE I CAN SEE IT."}
   - id: P34
     shape: strip
     gap: short
@@ -456,25 +481,27 @@ panels:
       the wide outside path, Kesh reports beside them; Sera observes. Taeo remains seated by
       the canopy calling timings without linking. Dara and Sejin watch the handover together. A4 ochre/brown/sky-blue;
       no powered equipment, gate, impacts or new injury.
+      Taeo sits left by the canopy; Orrin follows the wide path at right, Nib and Kesh centre.
     calm: top
     lines:
       - {who: taeo, type: speech, side: l, text: "STOP HERE. CHECK ORRIN BEFORE THE NEXT HANDOVER."}
       - {who: orrin, type: speech, side: r, text: "AN EXCELLENT NEW TRADITION."}
   - id: P36
-    shape: inset-r
+    shape: full
     gap: short
     bg: white
-    camera: "close-up of Sejin's hands showing Dara a local dressing wrapper"
+    camera: "medium two-shot of Sejin left and Dara right examining the sealed dressing"
     art: >
       Sejin's gloved hands show Dara a sealed sterile dressing at the yard trestle; Dara's
       bare fingers stop before opening it. Her brows show genuine curiosity. Afternoon sun, pale
       cream wrapper and muted sage; all packaging blank. No live wound treatment or detailed procedure.
+      Show both faces and the wrapper, Sejin left and Dara right, with room above the trestle.
     calm: left
     lines:
-      - {who: dara, type: speech, side: r, text: "YOU CAN GET THESE ALL THE SAME SIZE?"}
-      - {who: sejin, type: speech, side: l, text: "WHEN SOMEBODY PAYS THE INVOICE."}
+      - {"who": "dara", "type": "speech", "side": "r", "text": "YOUR DRESSINGS ALL COME IN ONE STANDARD SIZE?"}
+      - {"who": "sejin", "type": "speech", "side": "l", "text": "WHEN SOMEBODY PAYS THE INVOICE."}
   - id: P37
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "reverse from the trestle toward Dara demonstrating on the practice roll"
@@ -482,12 +509,13 @@ panels:
       Dara (slate armour, LEFT kit, RIGHT roll) demonstrates an unfamiliar quick-release fastening on
       a cloth PRACTICE bundle at the yard trestle; Sejin watches closely and tests its release
       with one finger. Their faces are absorbed. Afternoon ochre/cream and brown shadows. No patient or instructional step diagram.
+      Dara stands left and Sejin right with the practice fastening between them.
     calm: top
     lines:
-      - {who: dara, type: speech, side: l, text: "THIS COMES OFF WHEN YOUR HANDS ARE SHAKING."}
-      - {who: sejin, type: speech, side: r, text: "SHOW ME AGAIN."}
+      - {"who": "dara", "type": "speech", "side": "l", "text": "THIS FASTENING RELEASES EVEN WHEN YOUR HANDS SHAKE."}
+      - {"who": "sejin", "type": "speech", "side": "r", "text": "SHOW ME AGAIN."}
   - id: P38
-    shape: inset-l
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -497,13 +525,14 @@ panels:
       Both lean forward with fierce bargaining faces while chibi Haein reaches for a roll
       as a cable tie and is stopped by two hands at once. Flat yard-ochre dots,
       symbolic afternoon sun, slate/sage costumes and LEFT-kit RIGHT-roll lock. No medical distress.
+      Chibi Sejin is left, Haein centre and Dara right; all three speaking faces are visible above the supplies.
     calm: right
     lines:
-      - {who: haein, type: speech, side: c, text: "CAN I BORROW—"}
-      - {who: sejin, type: speech, side: l, text: "NO."}
-      - {who: dara, type: speech, side: r, text: "NO."}
+      - {"who": "haein", "type": "speech", "side": "c", "text": "CAN I BORROW A ROLL?"}
+      - {"who": "sejin", "type": "speech", "side": "l", "text": "NO."}
+      - {"who": "dara", "type": "speech", "side": "r", "text": "NO."}
   - id: P39
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "normal eye-level shot along the shaded trestle"
@@ -511,12 +540,13 @@ panels:
       Sejin and Dara, normal adult proportions, share a reluctant crooked smile at the yard
       trestle after Haein retreats to her toolbox. Their exchanged dressing and cloth roll lie
       between them. Afternoon warm side light, muted olive/slate and brown. No full reconciliation embrace or medical miracle.
+      Dara stands left and Sejin right, with their exchanged supplies between them.
     calm: top
     lines:
       - {who: dara, type: speech, side: l, text: "I WAS WRONG ABOUT YOUR HANDS."}
       - {who: sejin, type: speech, side: r, text: "YOUR MOUTH STILL NEEDS WORK."}
   - id: P40
-    shape: vignette
+    shape: full
     gap: long
     bg: white
     silent: true
@@ -525,6 +555,7 @@ panels:
       Taeo (black hoodie) watches Dara and Sejin bent together over the practice bundle at
       the yard trestle. His shoulders settle; his hands lie idle on his knees. Olive
       backpack with faded orange old patch on chair, empty chair space beside him. Warm afternoon ochre/brown, no link.
+      Taeo sits foreground centre; Dara and Sejin stand left and right at the trestle, with room around them.
     calm: none
   - id: P41
     shape: strip
@@ -537,9 +568,9 @@ panels:
       ochre and navy sleeve; no electrical connection, amber pulse, interface notice or numbers in art.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "USEFUL WAS GOING TO HAVE TO INCLUDE STOPPING."}
+      - {"who": "taeo", "type": "float", "text": "I HAD TO LEARN WHEN TO STOP."}
   - id: P42
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "side two-shot of Dara and Sejin packing beside the cot"
@@ -547,24 +578,26 @@ panels:
       Sejin packs a plain referral envelope in her bag under the yard canopy; Dara folds
       her practice roll, attentive to the small local equipment. Both tired, newly curious rather
       than defeated. Afternoon blue shade, cream cloth and sage/grey plates. No insurance forms taught yet, no clinic opened.
+      Dara stands left and Sejin right, both faces visible above the packed kit.
     calm: top
     lines:
-      - {who: dara, type: speech, side: l, text: "I WANT TO SEE WHERE YOU TAKE PEOPLE AFTER THIS."}
-      - {who: sejin, type: speech, side: r, text: "I KNOW A CLINIC. OUT OF SEOUL."}
+      - {"who": "dara", "type": "speech", "side": "l", "text": "I WANT TO SEE WHERE YOUR PATIENTS GO AFTER FIELD CARE."}
+      - {"who": "sejin", "type": "speech", "side": "r", "text": "I KNOW A CLINIC. OUTSIDE SEOUL."}
   - id: P43
-    shape: inset-r
+    shape: tall
     gap: short
     bg: white
-    camera: "close-up at Nib's height near the south gate"
+    camera: "single full-figure view of Nib turning toward a footstep at the south gate"
     art: >
       Nib (adult, LEFT-notch ear, LEFT fang, high black binoculars) at the yard's south gate
       turns toward an approaching footstep. His chosen boots are planted, RIGHT pouch and LEFT
-      wooden sheath visible at frame bottom. Late afternoon sun, ochre fence and cool street beyond. No raised knife.
+      wooden sheath visible at his hips. Late afternoon sun, ochre fence and cool street beyond. No raised knife.
+      Give Nib room from his adult face to his exact boots; keep him in the right third.
     calm: left
     sfx:
       - {text: THUD, style: quiet, at: [0.81, 0.78], size: S, rot: 0}
   - id: P44
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "from the south gate looking back toward Taeo's chair"
@@ -572,9 +605,10 @@ panels:
       Nib stands foreground at the open yard gate, looking toward Taeo (black hoodie) still
       seated beside the canopy cot. Taeo straightens, puzzled, Sejin's bag on the trestle beside
       him. Long afternoon ochre/brown shadows, pale sky-blue highlights; no contest documents or visitor face yet.
+      Nib stands left at the gate with his face turned in profile toward Taeo, seated right.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "VISITOR."}
+      - {"who": "nib", "type": "speech", "side": "l", "text": "TAEO. THERE'S A VISITOR."}
   - id: P45
     shape: strip
     gap: short
@@ -582,13 +616,13 @@ panels:
     camera: "ground-level detail of heavy armoured boots stopping at the gate line"
     art: >
       A pair of heavy dark-steel boots stops on the public-street side of the yard's
-      south threshold; worn articulated greaves above, narrow muted dark-red waist tabs barely at frame
-      top. Firm deliberate stance. Late sun from west, ochre dust inside, cold street grey outside. No stomp damage.
+      south threshold; worn articulated greaves rise only to the crop above the boots.
+      Firm deliberate stance. Late sun from west, ochre dust inside, cold street grey outside. No stomp damage.
     calm: none
     sfx:
       - {text: KLIK, style: quiet, at: [0.62, 0.66], size: S, rot: 0}
   - id: P46
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "from behind the visitor's shoulder toward Taeo and Nib"
@@ -596,6 +630,7 @@ panels:
       A heavy dark-steel shoulder frames Taeo and Nib inside the yard south gate. Taeo
       has risen slowly from his chair, Sejin watching from the canopy; Nib stays forward,
       expression flat. Late sun, dusty ochre and hard brown shadows. Visitor remains outside; no crowd or drawn weapon.
+      Taeo stands in the right third, Nib centre-left; the visitor is only a shoulder at far left.
     calm: top
     lines:
       - {who: taeo, type: speech, side: r, text: "CAN I HELP YOU?"}
@@ -625,7 +660,7 @@ panels:
     intro: "IRON VOW · GUILD CAPTAIN"
     notes: "First appearance; match characters/ironvow_captain/turnaround.png, same armour family as Do Gangjin. No below-panel dialogue on the nameplate."
   - id: P49
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "profile three-shot along the open south gate"
@@ -633,6 +668,7 @@ panels:
       Taeo stands inside the yard on the right, Nib one step forward at centre; the
       Iron Vow captain stands outside on the left, looking past Taeo toward Nib. Taeo's
       politeness tightens; Nib's jaw sets. Late sun, dusty ochre and hard cool shadows. No transfer of money or ownership.
+      The captain stands outside left, Nib inside centre and Taeo right; give all three figures room.
     calm: top
     lines:
       - {who: ironvow_captain, type: speech, side: l, text: "YOON TAEO."}
@@ -648,6 +684,7 @@ panels:
       gate. The Iron Vow captain towers outside, calm, dark-steel plates and muted red inset;
       Taeo stays just behind Nib, no hand on him. Late light cuts ochre ground, deep
       navy framing; Nib is small in scale and absolutely immovable in acting. No weapon raised.
+      The captain stands left beyond the gate, Nib right inside it and Taeo behind Nib at centre-right.
     calm: bottom
     lines:
       - {who: ironvow_captain, type: speech, side: l, text: "WE'RE BIDDING YEOJU. WITHDRAW AND WE'LL HIRE YOUR GOBLIN."}

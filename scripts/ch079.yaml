@@ -47,7 +47,7 @@ continuity_notes: >
 
 panels:
   - id: P01
-    shape: wide
+    shape: tall
     gap: none
     bg: white
     camera: "medical-canopy chair height, facing Sera after the clear"
@@ -56,10 +56,11 @@ panels:
       the last tears drying on her cheeks. Sejin (default scrubs and medical rig) slides a plain clipboard toward her.
       ACTING: Sera's huge grin meets Sejin's immovable eyebrow. Overcast daylight, slate and river-green. No healed arm,
       form lettering or open gate.
+      COMPOSITION: Sera sits on the left; Sejin stands on the right. Leave vertical room around the chair and sling.
     calm: top
     lines:
-      - {who: sera, type: speech, side: l, text: "THEY'LL SING THAT ONE."}
-      - {who: sejin, type: speech, side: r, text: "THEY CAN SING WHILE YOU REST."}
+      - {who: "sera", type: "speech", side: "l", text: "THEY'LL SING ABOUT THAT SHOT."}
+      - {who: "sejin", type: "speech", side: "r", text: "THEY CAN SING WHILE YOU REST."}
     notes: "Direct continuation of ch 78's hook; the laugh becomes a recovery instruction."
 
   - id: P02
@@ -83,9 +84,10 @@ panels:
       Taeo (outdoor, mole under RIGHT eye) at chungju_gate_site looks down at the recorder rather than Sera. His nose
       is clean now; fresh bruising shows at the cuffs. ACTING: relief receding before work he does not want to do.
       Grey daylight, plain slate background, no ghostly replay image or screen.
+      COMPOSITION: Taeo fills the right third of this head-and-shoulders close-up.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: r, text: "I NEED THE CHANNEL B FILE TOO."}
+      - {who: "taeo", type: "speech", side: "r", text: "I NEED THE CHANNEL B RECORDING TOO."}
 
   - id: P04
     kind: title
@@ -94,7 +96,7 @@ panels:
     title_text: "CHAPTER 79 · AFTERMATH"
 
   - id: P05
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "establishing across the closed gate site toward the control trestle"
@@ -103,6 +105,7 @@ panels:
       Haein (default overalls) lays out recorder, timing cards and battered test sheets at the left trestle. Taeo (outdoor)
       takes a chair opposite her; Nib (default, exact ch 43 boots and full scout props) sits nearby with the CLOSED
       recovery net at his feet. Grey daylight, cool slate shadows; no active slit or readable tags.
+      COMPOSITION: Haein is left, Nib seated in the middle, and Taeo seated on the right; give each figure room vertically.
     calm: top
     lines:
       - {who: narr, type: tag, text: "CHUNGJU · THAT AFTERNOON"}
@@ -118,10 +121,11 @@ panels:
       Haein (default) at chungju_gate_site taps two plain folders, one thin and one thick, without pushing either toward
       Taeo. ACTING: tired bluntness, mouth straight, waiting for him to decide. His navy shoulder and the old patch on
       the backpack behind his chair frame the left. Grey daylight, paper cream and slate. No lettering or lit displays.
+      COMPOSITION: Frame Haein waist up on the right; Taeo is only a left foreground shoulder.
     calm: top
     lines:
-      - {who: haein, type: speech, side: r, text: "CLIENT SUMMARY. FULL RECORD."}
-      - {who: haein, type: speech, side: r, text: "THE FIRST ONE'S MOSTLY THE PART WHERE IT WORKED."}
+      - {who: "haein", type: "speech", side: "r", text: "A SHORT CLIENT SUMMARY AND THE FULL TEST RECORD."}
+      - {who: "haein", type: "speech", side: "r", text: "THE SUMMARY MOSTLY SHOWS THE PART WHERE THE TEST WORKED."}
 
   - id: P07
     shape: strip
@@ -147,12 +151,13 @@ panels:
       Taeo (outdoor) at chungju_gate_site keeps his hand beside his own quoted order and looks toward Haein. ACTING:
       a wince he does not hide with a smile. The recorder stays dark below the crop. Grey daylight, navy and slate.
       No dramatic halo, lettering or magically cleaned bruises.
+      COMPOSITION: Taeo fills the left third of the close-up.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: l, text: "THE FULL ONE. INCLUDING MY ORDER."}
+      - {who: "taeo", type: "speech", side: "l", text: "PUBLISH THE FULL RECORD. INCLUDE MY CHANNEL B ORDER."}
 
   - id: P09
-    shape: wide
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -161,13 +166,14 @@ panels:
       At chungju_gate_site simplified to flat grey screentone, chibi Taeo (outdoor, old patch on backpack) raises a tiny
       correcting pencil before an enormous paper stack. Chibi Haein (overalls, goggles) flattens it with one wrench-shaped
       paperweight, deadpan. 2.5-head comedy faces, identical props and clothes, no injury slapstick or readable paper.
+      COMPOSITION: Chibi Taeo is left and chibi Haein right, with room for both figures and the paper stack.
     calm: top
     lines:
       - {who: taeo, type: nervous, side: l, text: "CAN I AT LEAST CORRECT THE SPELLING?"}
       - {who: haein, type: speech, side: r, text: "ONLY IN THE SUMMARY. YOU MISSPELLED YOUR OWN NAME."}
 
   - id: P10
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "normal-style reverse from Haein toward Taeo and Nib"
@@ -175,11 +181,12 @@ panels:
       At chungju_gate_site Taeo (outdoor) lowers the pencil and exhales. Nib (default, boots and locked scout props) sits
       with a plain witness sheet, adult brow drawn tight as he reads it. ACTING: Taeo ruefully caught, Nib alert for
       ownership hidden in wording. Grey daylight, slate and olive. Recovery net remains closed under Nib's chair; no lettering.
+      COMPOSITION: Taeo sits on the left and Nib on the right, with adult proportions and space below the table.
     calm: top
     lines:
-      - {who: nib, type: speech, side: r, text: "THIS SAYS I FOLLOWED THE RETURN ORDER."}
-      - {who: nib, type: speech, side: r, text: "I DIDN'T. IT WAS FALSE."}
-      - {who: taeo, type: speech, side: l, text: "THEN WE CORRECT THAT."}
+      - {who: "nib", type: "speech", side: "r", text: "MY WITNESS STATEMENT SAYS I OBEYED THE RETURN SIGNAL."}
+      - {who: "nib", type: "speech", side: "r", text: "I DIDN'T. THE SIGNAL WAS FALSE."}
+      - {who: "taeo", type: "speech", side: "l", text: "THEN WE CORRECT YOUR STATEMENT. THE ORIGINAL LOG STAYS."}
 
   - id: P11
     shape: strip
@@ -194,7 +201,7 @@ panels:
     calm: none
 
   - id: P12
-    shape: full
+    shape: tall
     gap: short
     bg: white
     camera: "medical-chair height, Taeo kneeling at a respectful distance from Sera"
@@ -202,11 +209,12 @@ panels:
       At chungju_gate_site Taeo (outdoor) crouches beside Sera's chair, a loose copy of the witness form on his knees.
       Sera (default, LEFT brace and sling) studies it with her RIGHT hand; Sejin rests the bow case against the chair.
       ACTING: he asks plainly, she considers rather than reassuring him. Grey daylight, green cloth and slate. No signatures or text in art.
+      COMPOSITION: Taeo crouches on the left; Sera sits on the right; Sejin stands behind the chair in the middle.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "MAY I INCLUDE YOUR STATEMENT? YOU CAN KEEP IT PRIVATE."}
-      - {who: sera, type: speech, side: r, text: "INCLUDE IT. DON'T MAKE THE ARM A BEFORE-AND-AFTER PICTURE."}
-      - {who: taeo, type: speech, side: l, text: "I WON'T."}
+      - {who: "taeo", type: "speech", side: "l", text: "MAY I INCLUDE YOUR STATEMENT? YOU CAN KEEP IT PRIVATE."}
+      - {who: "sera", type: "speech", side: "r", text: "INCLUDE MY STATEMENT. DON'T USE THE SHOT TO CLAIM MY ARM IS BETTER."}
+      - {who: "taeo", type: "speech", side: "l", text: "I WON'T."}
 
   - id: P13
     shape: inset-r
@@ -217,10 +225,11 @@ panels:
       Sera (default river clothes, LEFT sling) at chungju_gate_site gives Taeo a level, unsmiling look over the paper.
       ACTING: authority about her own injury, pride in the shot still present beneath fatigue. Diffuse grey daylight,
       braid against river-green, plain slate background. No absolving smile or healed skin.
+      COMPOSITION: Sera fills the right third of the portrait.
     calm: left
     lines:
-      - {who: sera, type: speech, side: r, text: "THE SHOT WORKED. MY ARM IS STILL HURT."}
-      - {who: sera, type: speech, side: r, text: "PUT BOTH THINGS IN."}
+      - {who: "sera", type: "speech", side: "r", text: "THE SHOT WORKED. MY ARM IS STILL HURT."}
+      - {who: "sera", type: "speech", side: "r", text: "PUT BOTH FACTS IN THE REPORT."}
 
   - id: P14
     shape: wide
@@ -231,10 +240,11 @@ panels:
       At chungju_gate_site Sejin (default scrubs) points to the outcome sheet, not to Sera's body. Taeo (outdoor) adds
       an annotation to a blank field. ACTING: Sejin precise, Taeo listening with tired eyes. The medical chart stays closed
       under Sejin's hand. Cool daylight, muted green and slate, no readable marks or active screens.
+      COMPOSITION: Show Sejin waist up on the left in three-quarter view, with Taeo waist up on the right.
     calm: top
     lines:
-      - {who: sejin, type: speech, side: l, text: "ONE SUPPORTED SHOT. THAT ISN'T A RETURN-TO-WORK TEST."}
-      - {who: taeo, type: speech, side: r, text: "AND THE BANK EXPIRES AT POINT EIGHT. EVEN IF THE TARGET DOESN'T COOPERATE."}
+      - {who: "sejin", type: "speech", side: "l", text: "ONE SUPPORTED SHOT DOESN'T PROVE SERA CAN RETURN TO WORK."}
+      - {who: "taeo", type: "speech", side: "r", text: "AND THE RESERVOIR ONLY HOLDS FORCE FOR 0.8 SECONDS. EVEN IF THE TARGET WON'T COOPERATE."}
 
   - id: P15
     shape: narrow-r
@@ -258,8 +268,8 @@ panels:
       Screen faces away and is not drawn active. No glowing interface or text.
     calm: right
     lines:
-      - {who: taeo, type: float, text: "I WANTED THEM TO KNOW I COULD DO IT."}
-      - {who: taeo, type: float, text: "THIS PART HAD TO GO WITH IT."}
+      - {who: "taeo", type: "float", text: "I WANTED CLIENTS TO SEE MY METHOD WORK."}
+      - {who: "taeo", type: "float", text: "THEY NEEDED TO SEE WHERE I FAILED TOO."}
 
   - id: P17
     shape: narrow-l
@@ -287,7 +297,7 @@ panels:
     calm: none
 
   - id: P19
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low from the control table toward Haein packing the recorder"
@@ -295,11 +305,12 @@ panels:
       Haein (default overalls) at chungju_gate_site coils the recorder lead while Taeo (outdoor) watches the blank table
       spot where his phone lay. ACTING: she is matter-of-fact about consequences; he folds the summary instead of reaching
       for the device. Overcast daylight, slate, dull steel and paper cream. No fan comments or new screens.
+      COMPOSITION: Haein stands left beside the recorder; Taeo sits on the right. Keep both figures comfortably in frame.
     calm: top
     lines:
-      - {who: haein, type: speech, side: l, text: "SOME CLIENTS WON'T LIKE IT."}
-      - {who: taeo, type: speech, side: r, text: "I DON'T LIKE IT EITHER."}
-      - {who: taeo, type: speech, side: r, text: "LEAVE IT UP."}
+      - {who: "haein", type: "speech", side: "l", text: "SOME CLIENTS WON'T LIKE SEEING THAT FAILURE."}
+      - {who: "taeo", type: "speech", side: "r", text: "I DON'T LIKE SEEING MY ORDER EITHER."}
+      - {who: "taeo", type: "speech", side: "r", text: "LEAVE THE FULL RECORD UP."}
 
   - id: P20
     shape: narrow-r
@@ -327,7 +338,7 @@ panels:
     calm: none
 
   - id: P22
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "establishing from AAO southeast glass doorway toward the northern desk"
@@ -336,6 +347,7 @@ panels:
       two visitor chairs, navy waiting bench near us. Chae (default navy cardigan, white collar) sets down a thick file.
       Taeo (outdoor) and Sera (default, LEFT brace/sling) take the visitor chairs; Nib waits on the bench. Blue-white
       daylight through blinds, slate shadows. Blank signs and IDs, no extra doors or active screens.
+      COMPOSITION: Chae stands right behind the desk; Taeo sits left and Sera in the middle; Nib waits on the bench.
     calm: top
     lines:
       - {who: narr, type: tag, text: "SEOUL · AAO · THE FOLLOWING AFTERNOON"}
@@ -350,13 +362,14 @@ panels:
       Taeo (outdoor, bruised cuffs, RIGHT-eye mole) sits in aao_office, folder balanced on his knees. ACTING: a miserable
       polite half-smile, eyes lifting to Chae. Cool institutional window light from right, light slate shadows, navy collar.
       No medical recovery glow or lettering.
+      COMPOSITION: Taeo is left in close-up. Chae remains outside the frame to the right behind her desk.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: l, text: "SORRY. IT'S LONG."}
-      - {who: chae, type: speech, side: r, text: "IT NEEDED TO BE."}
+      - {who: "taeo", type: "speech", side: "l", text: "SORRY. THE REPORT'S LONG."}
+      - {who: "offpanel:chae", type: "speech", side: "r", text: "THE REPORT NEEDED TO BE."}
 
   - id: P24
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "reverse from behind Chae's north chair toward the visitors"
@@ -365,11 +378,12 @@ panels:
       Chae (default) turns a separate ordinary permit folder toward Taeo and Sera. Nib (default, boots, binoculars and
       full props) has sat forward on the bench. ACTING: Chae purposeful, visitors wary. Blue-white daylight and slate;
       all monitors dark, pages blank for lettering.
+      COMPOSITION: Chae is visible in central foreground; Sera sits on the left and Taeo on the right beyond her.
     calm: top
     lines:
-      - {who: chae, type: speech, side: c, text: "THE PERMIT RULE STILL TIES WORK TO A REGISTERED SPONSOR."}
-      - {who: sera, type: speech, side: l, text: "SO MY NEXT CLIENT GETS TO DECIDE WHEN THIS ARM IS READY?"}
-      - {who: chae, type: speech, side: c, text: "THAT'S THE PART I'VE BEEN READING."}
+      - {who: "chae", type: "speech", side: "c", text: "THE PERMIT RULE STILL TIES WORK TO A REGISTERED SPONSOR."}
+      - {who: "sera", type: "speech", side: "l", text: "SO MY SPONSOR STILL GETS A SAY IN WHEN THIS ARM IS READY?"}
+      - {who: "chae", type: "speech", side: "c", text: "I'VE BEEN LOOKING FOR A WAY YOU COULD CHOOSE YOUR SPONSOR."}
 
   - id: P25
     shape: strip
@@ -380,14 +394,15 @@ panels:
       At Chae's aao_office desk her finger rests beneath a blank underlined clause on an ordinary photocopy.
       A second file, closed blue folio tablet and navy sleeve remain distinct. Blue-white daylight from east, light slate
       finger shadow, cream paper. No generated writing, electronic screen or floating system border.
+      COMPOSITION: Only the paper and Chae's hand are shown. Chae sits beyond the right edge.
     calm: none
     ui:
       - {kind: label, text: "REGISTERED SPONSOR: LEGAL BODY", at: [0.50, 0.45], notes: "Fictional permit provision, on paper."}
     lines:
-      - {who: chae, type: speech, side: r, text: "IT SAYS WHAT THE SPONSOR MUST BE. NOT WHO MUST OWN IT."}
+      - {who: "offpanel:chae", type: "speech", side: "r", text: "THE SPONSOR MUST BE A LEGAL ORGANIZATION. THE LAW DOESN'T SAY WHO MUST OWN THAT ORGANIZATION."}
 
   - id: P26
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "lateral desk-height view, Chae left and Sera right"
@@ -395,11 +410,12 @@ panels:
       In aao_office Chae (default) lays a second blank ownership diagram beside the permit copy. Sera (default, LEFT
       sling) leans forward a little, her RIGHT palm open on her knee. ACTING: Chae's guarded hope; Sera's suspicion
       changing into attention. Blue-white window light, slate shadows. Paper edges distinct; no new screen or readable diagram.
+      COMPOSITION: Chae is left and Sera right, with clear vertical room around the chairs and desk.
     calm: top
     lines:
-      - {who: chae, type: speech, side: l, text: "AN ARRIVAL-OWNED COOPERATIVE COULD BE THE SPONSOR."}
-      - {who: chae, type: speech, side: l, text: "YOU WOULD OWN THE BODY THAT SIGNS THE WORK."}
-      - {who: sera, type: speech, side: r, text: "AND VOTE ON IT?"}
+      - {who: "chae", type: "speech", side: "l", text: "AN ARRIVAL-OWNED COOPERATIVE COULD SPONSOR ITS OWN MEMBERS."}
+      - {who: "chae", type: "speech", side: "l", text: "YOU WOULD OWN THE ORGANIZATION THAT SIGNS YOUR WORK CONTRACTS."}
+      - {who: "sera", type: "speech", side: "r", text: "AND VOTE ON THE WORK WE TAKE?"}
 
   - id: P27
     shape: inset-r
@@ -410,12 +426,13 @@ panels:
       Chae (default navy cardigan, white collar, brown bob) in aao_office pauses with her pen held level, not promising
       more than the page permits. ACTING: precise, protective, a little excited despite herself. East daylight, blue-white
       and slate, plain background. No signed certificate or active tablet.
+      COMPOSITION: Chae fills the right third of the head-and-shoulders close-up.
     calm: left
     lines:
-      - {who: chae, type: speech, side: r, text: "YOU WRITE THE GOVERNANCE. THEN WE TEST THE APPLICATION."}
+      - {who: "chae", type: "speech", side: "r", text: "YOU WRITE THE RULES. THEN WE TEST WHETHER THE AAO ACCEPTS THEM."}
 
   - id: P28
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "from the west bench, Nib foreground facing the desk"
@@ -423,10 +440,11 @@ panels:
       Nib (default, boots, full scout props) stands from the west bench in aao_office and faces Chae across the side
       of the desk. Taeo remains in his chair and does not answer for him. ACTING: Nib's adult gaze sharp, Chae ready
       to hear the exact question. East daylight, slate floor and navy furniture. No mascot stance or extra chair.
+      COMPOSITION: Nib stands on the left, Chae is on the right behind the desk, and Taeo stays seated in the middle.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "CAN I SAY NO TO A JOB?"}
-      - {who: chae, type: speech, side: r, text: "THAT NEEDS TO BE IN YOUR RULES. WITH AN EXIT THAT WORKS."}
+      - {who: "nib", type: "speech", side: "l", text: "CAN I SAY NO TO A JOB?"}
+      - {who: "chae", type: "speech", side: "r", text: "WRITE THAT RIGHT INTO YOUR RULES. INCLUDE A WAY TO LEAVE THE COOPERATIVE."}
 
   - id: P29
     shape: strip
@@ -449,11 +467,12 @@ panels:
       At aao_office Chae (default) opens an unused application cover without putting a seal on it. Taeo's navy shoulder
       frames one side; Nib's notched LEFT ear frames the other. ACTING: her level look acknowledges the risk of being
       first. Blue-white daylight, cream paper and slate. No approval stamp, floating UI or drawn writing.
+      COMPOSITION: Frame Chae waist up on the right; only Taeo's left shoulder and Nib's central ear edge enter foreground.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "HAS ANYONE DONE THIS?"}
-      - {who: chae, type: speech, side: r, text: "NOBODY'S TRIED."}
-      - {who: chae, type: speech, side: r, text: "IT ISN'T FORBIDDEN."}
+      - {who: "taeo", type: "speech", side: "l", text: "HAS ANYONE APPLIED WITH AN ARRIVAL-OWNED COOPERATIVE?"}
+      - {who: "chae", type: "speech", side: "r", text: "NOBODY'S TRIED."}
+      - {who: "chae", type: "speech", side: "r", text: "IT ISN'T FORBIDDEN."}
     notes: "Required legal-path beat. It is a route to apply, not instantaneous work freedom or a guild licence."
 
   - id: P31
@@ -465,9 +484,10 @@ panels:
       Sera (default, LEFT brace/sling) in aao_office looks down at the fixed buckles, lips pressed in a stubborn line.
       Her RIGHT thumb rubs her own knuckle. ACTING: she can imagine declining work without begging permission.
       Blue-white window light, muted river-green and slate. No miracle recovery or decorative motes.
+      COMPOSITION: Sera fills the left third of the close-up.
     calm: right
     lines:
-      - {who: sera, type: speech, side: l, text: "I WANT THAT COPY."}
+      - {who: "sera", type: "speech", side: "l", text: "I WANT A COPY OF THE COOPERATIVE PROPOSAL."}
 
   - id: P32
     shape: strip
@@ -478,9 +498,10 @@ panels:
       On aao_office's pale-grey desk Chae divides two ordinary copies, sliding one toward Sera's uninjured RIGHT hand
       and one toward Nib's long olive fingers. Taeo's hands stay on his own folder. Blue-white daylight and slate shadows.
       ACTING in the hands: separate readers, no ceremonial signing. Pages blank, tablet closed, no money or text.
+      COMPOSITION: Only hands and papers are shown; Chae sits beyond the right edge of the desk.
     calm: none
     lines:
-      - {who: chae, type: speech, side: r, text: "TAKE YOUR TIME. THIS IS YOUR PAPERWORK TOO."}
+      - {who: "offpanel:chae", type: "speech", side: "r", text: "TAKE YOUR TIME. THE APPLICATION BELONGS TO YOU TOO."}
 
   - id: P33
     shape: wide
@@ -491,10 +512,11 @@ panels:
       Taeo (outdoor) and Sera (default, LEFT sling) sit side by side in aao_office, each holding a separate copy.
       ACTING: he starts to turn toward her, then waits; she reads to the end of the page, not needing a rescue from
       the silence. East daylight, navy and river-green, slate chair legs. No linked hand glow or readable pages.
+      COMPOSITION: Frame seated Taeo on the left and Sera on the right from the waist up.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "I COULD START REACHING FOR EVERY PAGE."}
-      - {who: taeo, type: float, text: "I KEPT MY HANDS ON MINE."}
+      - {who: "taeo", type: "float", text: "I WANTED TO TAKE OVER THE PAPERWORK."}
+      - {who: "taeo", type: "float", text: "I LEFT THEIR COPIES ALONE."}
 
   - id: P34
     shape: inset-r
@@ -505,12 +527,13 @@ panels:
       Nib (default, binoculars high on chest, LEFT notch visible) in aao_office folds his cooperative copy carefully
       above the brown rope belt, keeping it apart from the folded PAPER watch-post drawing in his RIGHT pouch.
       ACTING: solemn practical interest. East daylight, slate and warm leather. No new card, cute face or writing.
+      COMPOSITION: Nib fills the right third of the close-up, with his face, hands and folded document visible.
     calm: left
     lines:
-      - {who: nib, type: speech, side: r, text: "THIS NEEDS A POCKET."}
+      - {who: "nib", type: "speech", side: "r", text: "THIS DOCUMENT NEEDS A POCKET."}
 
   - id: P35
-    shape: wide
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -519,14 +542,15 @@ panels:
       aao_office becomes flat pale-blue screentone. Chibi Nib (exact boots, LEFT notch/fang, rope belt, RIGHT stickered
       pouch, LEFT wooden sheath, binoculars) gravely measures a huge rolled document against his small pouch. Chibi Chae
       offers a perfectly normal document sleeve; chibi Taeo holds a second empty sleeve, defeated. No words or injury humour.
+      COMPOSITION: Chae stands left, Taeo in the middle, and Nib on the right; leave room for their figures and the sleeve gag.
     calm: top
     lines:
-      - {who: chae, type: speech, side: l, text: "I CAN GIVE YOU A FOLDER."}
-      - {who: nib, type: speech, side: r, text: "A PORTABLE POCKET."}
-      - {who: taeo, type: speech, side: l, text: "SORRY. EVERYTHING ENDS UP THERE."}
+      - {who: "chae", type: "speech", side: "l", text: "I CAN GIVE YOU A FOLDER."}
+      - {who: "nib", type: "speech", side: "r", text: "A PORTABLE POCKET."}
+      - {who: "taeo", type: "speech", side: "c", text: "SORRY. EVERY DOCUMENT BECOMES LUGGAGE."}
 
   - id: P36
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "normal reverse from Chae's chair toward the corridor door"
@@ -534,6 +558,7 @@ panels:
       Back to normal aao_office reverse key. Taeo (outdoor) rises slowly, Sera (default, LEFT sling) stays seated while
       Chae (default) gives her the sleeve. Nib stands clear of the glass doorway, reading. ACTING: no victory pose;
       useful work has started. East daylight LEFT, filing shelves RIGHT, blue-white and slate. Dark monitors, no licence on wall.
+      COMPOSITION: Taeo rises on the left; Sera stays seated centrally, Chae stands right, and Nib reads beside the doorway.
     calm: top
     lines:
       - {who: chae, type: speech, side: r, text: "I'LL PREPARE THE REQUIREMENTS. DON'T PRINT A GUILD SIGN YET."}
@@ -562,13 +587,14 @@ panels:
       Sera (default, LEFT sling, bone flute at belt) in aao_office lifts her head from the cooperative copy. Taeo's dark
       phone back enters the foreground, dinosaur sticker visible. ACTING: she notices attention moving toward the river
       again and braces herself. East daylight, river-green and slate. No active screen, instant message revelation or glowing relic.
+      COMPOSITION: Sera is right in close-up; Taeo stands just outside the left edge with his phone entering foreground.
     calm: left
     lines:
-      - {who: sera, type: speech, side: r, text: "WHAT?"}
-      - {who: taeo, type: speech, side: l, text: "SOMETHING IN THE RECOVERY NET."}
+      - {who: "sera", type: "speech", side: "r", text: "WHAT DID HAEIN FIND?"}
+      - {who: "offpanel:taeo", type: "speech", side: "l", text: "A SEALED OBJECT IN NIB'S RECOVERY NET."}
 
   - id: P39
-    shape: wide
+    shape: tall
     gap: long
     bg: white
     camera: "from the west bench toward Haein entering the glass doorway"
@@ -577,9 +603,10 @@ panels:
       carrying the opened recovery net in a shallow dull-steel tray. Nib (default, boots) watches from the bench; Chae
       clears space beside the desk without shifting furniture. ACTING: Haein curious, Nib cautious. Blue-white daylight,
       slate shadows, blank tags; no live gate material or added corridor.
+      COMPOSITION: Haein enters on the left with the cart, Nib is central at the bench, and Chae clears desk space on the right.
     calm: top
     lines:
-      - {who: haein, type: speech, side: l, text: "UNDER THE BROKEN RELAY CASING. I HAVEN'T OPENED IT."}
+      - {who: "haein", type: "speech", side: "l", text: "THE SEALED OBJECT WAS UNDER THE BROKEN RELAY CASING. I LEFT THE SEAL INTACT."}
 
   - id: P40
     shape: strip
@@ -594,7 +621,7 @@ panels:
     calm: none
 
   - id: P41
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low across the cart toward Nib and Haein"
@@ -602,10 +629,11 @@ panels:
       At the temporary cart in aao_office Nib (default, boots, scout props) points to the broken cable sleeve while Haein
       cradles the metal cylinder in a cloth. ACTING: Nib remembering a specific eddy, Haein intent. Chae's desk remains
       behind them, monitors dark. Blue-white daylight, slate and dull bronze. The cylinder's engraved side faces away; no text.
+      COMPOSITION: Nib stands on the left and Haein on the right beside the cart. Show their faces and hands with vertical room.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "THE WAVE BROKE THAT LOOSE."}
-      - {who: haein, type: speech, side: r, text: "WATERPROOF COLLAR. STILL SEALED."}
+      - {who: "nib", type: "speech", side: "l", text: "THE WAVE BROKE THAT CABLE SLEEVE LOOSE."}
+      - {who: "haein", type: "speech", side: "r", text: "THE CYLINDER HAS A WATERPROOF COLLAR. STILL SEALED."}
 
   - id: P42
     shape: narrow-r
@@ -620,7 +648,7 @@ panels:
     calm: none
 
   - id: P43
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "Sera's seated eye line across the tray toward the turned cylinder"
@@ -628,9 +656,10 @@ panels:
       At aao_office Haein (default) rolls the cylinder just enough to inspect its body, bringing a worn engraved mark
       toward Sera. Sera (default, LEFT sling) goes utterly still in the RIGHT visitor chair. Taeo stands beside his own
       chair, leaving her a clear view. Blue-white window light, bronze and slate. Mark copies ch 62 exactly; no invented writing.
+      COMPOSITION: Haein is left holding the cylinder, Taeo stands in the middle, and Sera sits on the right.
     calm: top
     lines:
-      - {who: sera, type: whisper, side: r, text: "TURN IT BACK."}
+      - {who: "sera", type: "whisper", side: "r", text: "TURN THE CYLINDER BACK TOWARD ME."}
 
   - id: P44
     shape: inset-l
@@ -641,6 +670,7 @@ panels:
       Taeo (outdoor, bruised cuffs, RIGHT-eye mole) in aao_office stops mid-reach and looks at Sera. ACTING: he sees the
       change in her face and takes his hand away. Pale east daylight, navy and slate, blank filing shelves reduced to
       shapes behind him. No possessive grip, active phone or text.
+      COMPOSITION: Taeo fills the left third of the close-up.
     calm: right
     lines:
       - {who: taeo, type: speech, side: l, text: "SERA?"}
@@ -654,9 +684,10 @@ panels:
       Sera (default) in aao_office, extreme close-up in the middle third: pupils wide, brows lifted, tears gathering
       before she can decide what she feels. The shadow of her braid crosses one cheek. Blue-white east light, warm skin
       and slate. No reflected words, generic smiling recognition or supernatural eye glow.
+      COMPOSITION: Sera's eyes and face are centred within the detail strip.
     calm: none
     lines:
-      - {who: sera, type: whisper, side: r, text: "I KNOW THAT MARK."}
+      - {who: "sera", type: "whisper", side: "c", text: "I KNOW THE ENGRAVING."}
 
   - id: P46
     shape: vignette
@@ -671,7 +702,7 @@ panels:
     calm: none
 
   - id: P47
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "chair-height side view, Sera holding the cylinder over the cloth"
@@ -680,9 +711,10 @@ panels:
       lap. Her thumb traces the exact settlement mark from ch 62. Taeo stands back, Haein keeps the tray ready. ACTING:
       BIG REACTION: Sera's face opens into shock and aching recognition, eyes wide, lips parted, tears starting before she blinks.
       Blue-white daylight, river-green and bronze, no new emblem or text.
+      COMPOSITION: Sera sits right with the cylinder on her lap; Taeo stands left and Haein centrally behind the tray.
     calm: top
     lines:
-      - {who: sera, type: speech, side: r, text: "THAT'S HOME."}
+      - {who: "sera", type: "speech", side: "r", text: "THAT'S MY SETTLEMENT'S MARK."}
 
   - id: P48
     shape: tall
@@ -696,7 +728,7 @@ panels:
       muted bronze against river-green and slate. No opened cap, name, date, letter, new mark or glow.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "I DIDN'T DARE SAY HIS NAME."}
+      - {who: "taeo", type: "float", text: "I DIDN'T DARE SAY ILAN'S NAME."}
     notes: "HOOK: sealed waterproof message cylinder from boss-territory debris, engraved with Sera's settlement mark. Identity and date wait for ch 80."
 
   - id: P49

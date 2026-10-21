@@ -36,7 +36,7 @@ continuity_notes: >
 palette_notes: "Interior A/B: A4 lavender sky, violet shadow, ochre reed-stone. Exterior: west daylight, slate shade. Red only on Taeo's blood and actual danger. Flat cel, no haze or glitzy force beams. Chibi only in the settled medical pause."
 panels:
   - id: P01
-    shape: wide
+    shape: tall
     gap: none
     bg: navy
     camera: "side view of B's broken lip from just above the ravine"
@@ -47,9 +47,10 @@ panels:
       scarred bare forearms, LEFT surgical kit and RIGHT cloth roll. Her face is fiercely practical.
       Lavender light, violet ravine, fragments only at break. Default costumes and wrist marks exact.
       No completed fall, beam, lettering or comic face.
+      Nib braces on the left, Sera centrally, Dara and the assistant on the right; give all bodies vertical room.
     calm: top
     lines:
-      - {who: nib, type: shout, side: l, text: "NORTH!"}
+      - {who: nib, type: shout, side: l, text: "GET TO THE NORTH WALL!"}
     sfx:
       - {text: "KRAK", style: impact, at: [0.72, 0.73], size: L, rot: 15}
   - id: P02
@@ -61,11 +62,12 @@ panels:
       Outside at yeoju_anchor_field control seat, Taeo's RIGHT fingers jerk as thin amber and slate-green
       pulses tighten across his palm. His existing purple forearm bruise deepens at the edge of the sleeve.
       West daylight, slate canopy shade. No pulse on left palm, cyan window, written percentage or extra fingers.
+      Only Taeo's right hand is drawn; his face is above the centre of the crop.
     calm: none
     lines:
-      - {who: taeo, type: speech, side: c, text: "TAKING A SLICE. ORRIN, PUSH ON MY COUNT."}
+      - {who: offpanel:taeo, type: speech, side: c, text: "TAKING PART OF B'S PRESSURE. ORRIN, PUSH ON MY COUNT."}
   - id: P03
-    shape: wide
+    shape: tall
     gap: short
     bg: navy
     camera: "low at Orrin's feet inside A, padded stock sledge ahead"
@@ -73,13 +75,14 @@ panels:
       At yeoju_gate_a landing Orrin's four columnar legs brace and his shoulder drives the padded timber
       sledge stop. His face is strained but deliberate, old healed shell seam closed. Foreleg return ring
       remains cold-white/violet. Lavender sky, violet shadows on ochre stone. No cargo harness, shell blast or lettering.
+      Orrin occupies the left half with all four feet grounded; Taeo's voice comes from the handset on the right.
     calm: top
     lines:
-      - {who: taeo, type: phone, side: r, text: "NOW."}
+      - {who: offpanel:taeo, type: phone, side: r, text: "NOW."}
     sfx:
       - {text: "THOOM", style: impact, at: [0.57, 0.69], size: L, rot: -5}
   - id: P04
-    shape: wide
+    shape: tall
     gap: short
     bg: navy
     camera: "high oblique across B as the slide slows but the floor keeps falling"
@@ -88,9 +91,10 @@ panels:
       Below them the unsupported south slab continues rotating into the ravine. Nib's adult face shifts from
       hope to calculation as he sees the remaining motion. Lavender/violet, one danger-red stone edge accent.
       No full reversal, safe bridge, text or attack from rivals.
+      Nib stands on the left, Sera on the right, both above the rotating slab.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "LESS PUSH. STILL NO FLOOR."}
+      - {who: nib, type: speech, side: l, text: "THE PUSH IS WEAKER. THE FLOOR IS STILL FALLING."}
   - id: P05
     kind: title
     gap: long
@@ -109,10 +113,11 @@ panels:
       tunic, dark trousers and wrapped shoes, two arms only. His face is strained and listening.
       West sun and slate shadows; no eye spots, glitter, exploding equipment,
       snapped cable yet, readable meters or green screen.
+      Haein is on the left, Kesh in the centre, Taeo in his chair on the right.
     calm: top
     lines:
-      - {who: haein, type: shout, side: l, text: "EXIT ANGLE'S LATE. CUT IT!"}
-      - {who: taeo, type: speech, side: r, text: "CUTTING."}
+      - {who: haein, type: shout, side: l, text: "THE PRESSURE'S COMING OUT TOO LATE. CUT THE TRANSFER!"}
+      - {who: taeo, type: speech, side: r, text: "CUTTING THE TRANSFER."}
   - id: P07
     shape: tall
     gap: short
@@ -123,6 +128,7 @@ panels:
       starts as one thin red line; he has bitten his lower lip. His RIGHT hand is open and shaking, both pulses
       thinning. Navy jacket, RIGHT-eye mole, slate canopy shade and west sun. Leave upper space for letterer.
       No lightning, healing effect, readable window or collapse into unconsciousness.
+      Taeo occupies the centre, with the warning window above his head.
     calm: top
     ui:
       - {kind: system.warning, on: float, text: "[LOAD SHARE]\n[TRANSFER PARTIAL]\n[TRANSFER ENDED]", at: [0.5, 0.06], tilt: -5}
@@ -141,7 +147,7 @@ panels:
     calm: none
     silent: true
   - id: P09
-    shape: wide
+    shape: tall
     gap: short
     bg: navy
     camera: "inside B from the north pocket toward the tooth"
@@ -150,12 +156,13 @@ panels:
       Dara wedges a short rigid support under a loose outer slab from the safe side, face set. The pocket's
       floor is visibly part of solid wall rock, not floating debris. Lavender/violet. No active push, ongoing fall
       under their feet, lettering or instant repair.
+      Nib stands on the left, Sera and the assistant settle centrally, Dara braces the slab on the right.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "HERE. SOUND STONE. STAY AGAINST IT."}
-      - {who: dara, type: speech, side: r, text: "THIS WILL HOLD WHILE YOU DON'T ARGUE WITH IT."}
+      - {who: nib, type: speech, side: l, text: "HERE. THE NORTH POCKET IS SOLID. STAY AGAINST THE WALL."}
+      - {who: dara, type: speech, side: r, text: "THE BRACE WILL HOLD. DON'T LEAN ON THE LOOSE SLAB."}
   - id: P10
-    shape: wide
+    shape: tall
     gap: short
     bg: navy
     camera: "from north side behind Gangjin's halted formation"
@@ -163,6 +170,7 @@ panels:
       Do Gangjin at yeoju_gate_b shelf orders his dark-steel/red team fully back into their north-east lane.
       His gauntleted hand is flat down, face now sober as he sees the broken causeway. Nib's group rests in
       north pocket beyond. Lavender sky, violet shadows. No victorious smirk, fresh attack, lettering or injured rival.
+      do_gangjin stands on the right directing his team to the left; Nib's group rests deeper in the north pocket.
     calm: top
     lines:
       - {who: do_gangjin, type: shout, side: r, text: "PRESSURE OFF. EVERYONE BACK."}
@@ -175,12 +183,13 @@ panels:
       Dara at yeoju_gate_b north pocket holds the survey handset to her ear, matte slate upper-arm plate
       ending above scarred bare forearm. Her square face tightens as Sejin's report arrives. Intact white cable
       follows the north wall behind her. Lavender/violet, no lit wand, text or broken line yet.
+      Dara's face fills the left third; Sejin is heard through her handset at the left edge.
     calm: right
     lines:
-      - {who: sejin, type: phone, side: l, text: "DARA. RHYTHM. I NEED YOU OUTSIDE."}
+      - {who: offpanel:sejin, type: phone, side: l, text: "DARA. TAEO'S HEARTBEAT IS IRREGULAR. I NEED YOU OUTSIDE."}
       - {who: dara, type: speech, side: l, text: "COMING."}
   - id: P12
-    shape: wide
+    shape: tall
     gap: short
     bg: navy
     camera: "low behind Dara taking the still-passable north foot strip toward the entry"
@@ -189,35 +198,39 @@ panels:
       the entry landing, hands free to balance, surgical kit LEFT and cloth roll RIGHT. Nib watches her foot
       placement from the pocket. Lavender/violet; south causeway is visibly broken. No leap yet, superhuman flight,
       lettering or abandoning the assistant on unsafe ground.
+      Dara takes the strip on the left; Nib is visible on the right in the pocket behind her.
     calm: top
     lines:
-      - {who: nib, type: speech, side: r, text: "TAKE THE WALL. DON'T LOOK SOUTH."}
+      - {who: nib, type: speech, side: r, text: "FOLLOW THE NORTH WALL. DON'T LOOK INTO THE RAVINE."}
   - id: P13
     shape: strip
     gap: short
     bg: navy
-    camera: "ground-level outside B as Dara's boots reach gravel"
+    camera: "ground-level detail of Dara's boots reaching exterior gravel"
     art: >
-      Dara crosses voluntarily OUT of B at yeoju_anchor_field, her cold-white/violet wrist return mark fading.
-      Chae holds the exterior walking lane clear; default navy cardigan, white collar and dark trousers under a
-      plain safety vest. West daylight, slate and cold gate rim. No boss-death flash, magical recall or lettering.
+      At yeoju_anchor_field B, frame only Dara's boots stepping voluntarily onto exterior gravel.
+      Her lowered RIGHT wrist enters the upper crop with its cold-white/violet return mark fading.
+      Chae's gloved hand at the far edge keeps the walking-lane barrier clear; the rest of both
+      women is outside the detail crop. West daylight, slate ground and cold gate rim.
+      No boss-death flash, magical recall or lettering.
     calm: none
     sfx:
       - {text: "THK", style: quiet, at: [0.48, 0.76], size: S, rot: 0}
   - id: P14
-    shape: wide
+    shape: full
     gap: short
     bg: navy
-    camera: "tight two-shot at Taeo's chair, Dara leaning in and Sejin beside her"
+    camera: "medium three-shot at Taeo's chair, both medics' faces visible"
     art: >
       At yeoju_anchor_field canopy, Dara reaches Taeo's chair and checks him with Sejin. Dara's square face
       changes sharply at the irregular beat; Sejin is already bringing plain monitoring leads. Taeo remains
       conscious, blood on lip and one wiped nose streak, frightened eyes. West sun, slate shadow, one red accent.
       No flatline, drawn ECG text, healing glow or unconscious body.
+      Frame Dara on the left, seated Taeo in the centre and Sejin on the right from the waist up.
     calm: top
     lines:
       - {who: dara, type: intense, side: l, text: "HIS HEART—"}
-      - {who: sejin, type: speech, side: r, text: "I HEARD IT. LEADS ARE READY."}
+      - {who: sejin, type: speech, side: r, text: "IRREGULAR. MONITOR LEADS ARE READY."}
   - id: P15
     shape: strip
     gap: short
@@ -229,9 +242,9 @@ panels:
       under brow. No reflected readable screen, tears for effect, aura or lettering.
     calm: none
     lines:
-      - {who: taeo, type: float, text: "THAT IS A TERRIBLE SENTENCE TO LEAVE UNFINISHED."}
+      - {who: taeo, type: float, text: "I NEEDED TO KNOW HOW BAD MY HEART WAS."}
   - id: P16
-    shape: wide
+    shape: tall
     gap: short
     bg: navy
     camera: "inside A low on Orrin releasing his brace"
@@ -240,9 +253,10 @@ panels:
       has shifted to the wrong side of the groove, showing the mistimed output. He looks toward the survey
       handset with adult concern. Lavender/violet, slate shell and ochre floor. No equipment explosion, shell crack,
       text or magical awareness of Taeo's heartbeat.
+      Orrin stands on the left beside the shifted sledge stop; leave room for his shell and grounded feet.
     calm: top
     lines:
-      - {who: orrin, type: phone, side: l, text: "I HAVE NO LOAD. IS HE ANSWERING?"}
+      - {who: orrin, type: phone, side: l, text: "THE TRANSFER'S STOPPED. IS TAEO ANSWERING?"}
   - id: P17
     shape: inset-r
     gap: short
@@ -252,9 +266,10 @@ panels:
       Taeo at yeoju_anchor_field chair lifts his head toward the wired handset Sejin holds, not gripping it
       himself. Dara keeps one hand on his pulse. His lips are pale except the small bitten red edge, tired eyes
       earnest. Navy clothes, west light and slate. No bright window, fresh transfer or lettering.
+      Taeo's face fills the right third; only Sejin's handset hand enters from the left.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: r, text: "YES. STAY WHERE YOU'RE SAFE."}
+      - {who: taeo, type: speech, side: r, text: "I'M ANSWERING. STAY ON A'S FIRM LANDING."}
   - id: P18
     shape: full
     gap: long
@@ -265,9 +280,10 @@ panels:
       beside them studying the still-passable narrow wall strip, stone tooth and firm upper notch toward entry.
       Fallen south slabs rest far below. Survey cable stays north and intact. Wrong lavender sky, violet depth.
       No one currently falling, repair miracle, floating arrows or lettering.
+      Nib stands on the left, Sera and the assistant sit on the right in the sound pocket.
     calm: top
     lines:
-      - {who: nib, type: phone, side: l, text: "WE'RE STILL. SAFE POCKET. WE NEED A WAY OUT."}
+      - {who: nib, type: phone, side: l, text: "WE'RE SAFE IN B'S NORTH POCKET. WE NEED A WAY OUT."}
     notes: "A real stationary pause. The initial emergency has settled; the next danger is withdrawing across damaged ground."
   - id: P19
     shape: wide
@@ -278,10 +294,11 @@ panels:
       At yeoju_anchor_field B, Chae in navy cardigan/white collar with plain safety vest closes the approach
       lane to new contest traffic. Kesh sits on a crate with folded wing cloak and handset, antennae exhausted
       but attentive. West daylight, slate and ochre. Blank barrier tag, no celebratory crowd, active screen or lettering.
+      Frame Chae on the left and seated Kesh on the right from the waist up.
     calm: top
     lines:
       - {who: chae, type: speech, side: l, text: "B STAYS SUSPENDED UNTIL EVERYONE IS OUT."}
-      - {who: kesh, type: speech, side: r, text: "I'LL KEEP THE WORDS GOING."}
+      - {who: kesh, type: speech, side: r, text: "I'LL KEEP THE SURVEY LINE OPEN."}
   - id: P20
     shape: strip
     gap: short
@@ -302,12 +319,13 @@ panels:
       Sera at yeoju_gate_b north pocket crouches so the adult assistant can meet her eyes. Her bow is slung
       safely low beside her left knee, braid behind RIGHT-shoulder quiver. She is calm but unsentimental; he
       looks sick at the abandoned stock. Lavender sky, violet shadows. No grin at danger, healing effect or lettering.
+      Frame the seated field_assistant on the left and crouching Sera on the right from the waist up.
     calm: top
     lines:
       - {who: field_assistant, type: speech, side: l, text: "I DROPPED THE WHOLE TRAY."}
       - {who: sera, type: speech, side: r, text: "GOOD. IT WASN'T BREATHING."}
   - id: P22
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "outside medium on Dara and Sejin completing the immediate assessment"
@@ -316,9 +334,10 @@ panels:
       Dara adjusts Taeo's seated posture. His breathing is slower and he follows her fingers, still pale.
       Slate armour, sage scrubs and navy jacket; west sun in warm narrow bands, cool slate shade.
       Screen dark from this angle, no readable ECG or miraculous treatment.
+      Frame Dara on the left, seated Taeo in the centre, Sejin on the right from the waist up.
     calm: top
     lines:
-      - {who: dara, type: speech, side: l, text: "SETTLING. YOU STAY SEATED."}
+      - {who: dara, type: speech, side: l, text: "YOUR HEART RHYTHM'S SETTLING. STAY SEATED."}
       - {who: sejin, type: speech, side: r, text: "NO MORE FORCE TRANSFER TODAY."}
       - {who: taeo, type: speech, side: c, text: "UNDERSTOOD."}
   - id: P23
@@ -330,12 +349,13 @@ panels:
       Taeo at exterior yeoju_anchor_field raises his unlinked RIGHT hand a few centimetres, palm empty, to
       ask before moving. His tentative apologetic smile returns. Dara's slate sleeve enters foreground; no active
       pulse. West daylight, slate shade and muted skin; monitor stays outside frame. No blood gag, text or power effect.
+      Taeo's face and raised hand occupy the left third; Dara remains outside the right edge.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: l, text: "MAY I USE THE RADIO?"}
-      - {who: dara, type: speech, side: r, text: "YOUR MOUTH STILL WORKS."}
+      - {who: taeo, type: speech, side: l, text: "MAY I USE THE SURVEY HANDSET?"}
+      - {who: offpanel:dara, type: speech, side: r, text: "YOUR MOUTH STILL WORKS."}
   - id: P24
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "medium three-shot from the desk, the medics sharing one look"
@@ -344,12 +364,13 @@ panels:
       tired professional look. No one is in motion or immediate danger. His right palm is unlit, the handset
       resting within reach. West daylight, slate and ochre; correct armour/scrub/jacket outfits.
       No active monitor insert, wounds exaggerated for comedy or lettering.
+      Frame Dara on the left, Taeo in the centre and Sejin on the right from the waist up.
     calm: top
     lines:
       - {who: taeo, type: speech, side: c, text: "IS THAT THE MEDICAL OPINION?"}
       - {who: sejin, type: speech, side: r, text: "UNANIMOUS."}
   - id: P25
-    shape: inset-r
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -359,11 +380,12 @@ panels:
       Dara while chibi Sejin holds his handset just beyond reach. Taeo's polite smile is absurdly grateful;
       medics are flat-eyed. Navy jacket, slate armour, sage rig and old patch preserved. No bleeding, heartbeat
       crisis, imperilled companions, actual official text or magic.
+      Crop the three chibi figures from the waist up: Dara on the left, Taeo in the centre, Sejin on the right.
     calm: left
     lines:
       - {who: dara, type: speech, side: l, text: "SPEAKING LICENCE. VERY LIMITED."}
   - id: P26
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "normal-style close group around Haein's coupler set on the desk"
@@ -371,12 +393,13 @@ panels:
       Normal style at yeoju_anchor_field canopy: Haein sets the disconnected mechanical coupler lead on the
       table in front of Taeo, making the limit tangible. He nods without touching it. Sejin gives him the wired
       communication handset. West sun, ochre table and slate shade. Screens dark; no bypassed cut-off, bright pulse or text.
+      Frame Haein on the left, Sejin centrally and Taeo on the right from the waist up across the desk.
     calm: top
     lines:
-      - {who: haein, type: speech, side: l, text: "YOU GET THE WORDS. I KEEP THE SWITCH."}
+      - {who: haein, type: speech, side: l, text: "YOU HANDLE THE CALLS. I KEEP THE POWER SWITCH."}
       - {who: taeo, type: speech, side: r, text: "YES."}
   - id: P27
-    shape: full
+    shape: tall
     gap: short
     bg: white
     camera: "inside B from entry toward Nib testing the narrow north strip"
@@ -385,10 +408,11 @@ panels:
       probing a seam, boots close to the solid wall. Sera belays him with a plain rope from a sound rib; the
       assistant waits behind her. Transverse tooth and upper notch clearly ahead. Lavender/violet.
       No solo unprotected leap, magic rope or readable markers.
+      Nib tests the strip on the left, Sera belays on the right, the assistant waits behind her.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "I'LL TEST IT. STAY ON THE BELAY."}
-      - {who: sera, type: speech, side: r, text: "I'M HERE."}
+      - {who: nib, type: speech, side: l, text: "I'LL TEST THE WALL STRIP. SERA, KEEP ME ON BELAY."}
+      - {who: sera, type: speech, side: r, text: "I'VE GOT YOUR ROPE."}
   - id: P28
     shape: strip
     gap: short
@@ -402,7 +426,7 @@ panels:
     sfx:
       - {text: "KIK", style: quiet, at: [0.53, 0.71], size: M, rot: 5}
   - id: P29
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "side view on Nib retreating to the sound tooth base"
@@ -410,10 +434,12 @@ panels:
       Nib at yeoju_gate_b backs onto the sound base of the transverse tooth, face controlled and calculating.
       The newly failed strip hangs below him, cutting the easy walking route Dara used earlier. Sera holds
       the belay in the north pocket. Lavender/violet; correct LEFT notch and belt props. No panic gag, flight or text.
+      Frame Nib on the left at the tooth, Sera farther back on the right from the knees up.
+      Taeo remains outside, heard through the handset from the right.
     calm: top
     lines:
-      - {who: nib, type: phone, side: l, text: "WALKING ROUTE'S GONE. TOOTH IS SOUND."}
-      - {who: taeo, type: phone, side: r, text: "DESCRIBE THE UPPER SIDE."}
+      - {who: nib, type: phone, side: l, text: "THE WALKING ROUTE BROKE. THE STONE TOOTH IS SOUND."}
+      - {who: offpanel:taeo, type: phone, side: r, text: "DESCRIBE THE ROCK ABOVE THE TOOTH."}
   - id: P30
     shape: tall
     gap: short
@@ -424,12 +450,13 @@ panels:
       uneven top a SHORT physical gap opens to the firm upper notch leading WEST toward the gate landing.
       The outer south face drops into ravine; belay rope tracks north. Wrong lavender sky, violet shadow.
       No platform materialising, drawn route arrows or text.
+      Nib is behind the camera, speaking from below the left edge into the working survey handset.
     calm: top
     lines:
-      - {who: nib, type: phone, side: l, text: "A STEP UP. A SHORT JUMP WEST. THEN SOUND ROCK."}
-      - {who: nib, type: phone, side: l, text: "CAN'T SEE THE LANDING FACE FROM HERE."}
+      - {who: offpanel:nib, type: phone, side: l, text: "STEP UP. JUMP WEST TO THE NOTCH. CAN'T SEE THE LANDING FACE."}
+
   - id: P31
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "outside toward Haein at B's safe inner landing, Taeo beyond frame"
@@ -438,9 +465,10 @@ panels:
       landing face, wearing overalls, safety glasses and work boots. A thin cold-white/violet wrist mark forms.
       She stays on firm entry rock, survey handset at shoulder, chalk held unused. Lavender inside and west
       daylight beyond slit. No operator entry, text, force transfer or unsafe reach across gap.
+      Haein stands on the right on the entry landing, leaving the unsafe gap to the left.
     calm: top
     lines:
-      - {who: haein, type: phone, side: r, text: "I CAN CHECK IT FROM OUR SIDE."}
+      - {who: haein, type: phone, side: r, text: "I CAN CHECK THE LANDING FROM THE ENTRY SIDE."}
   - id: P32
     shape: strip
     gap: short
@@ -453,7 +481,7 @@ panels:
     calm: none
     silent: true
   - id: P33
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "exterior profile on Taeo listening without reaching for coupler"
@@ -462,10 +490,12 @@ panels:
       flat and unlit on his knee; Haein's disconnected coupler remains on the desk. Dara watches his breathing,
       Sejin the ordinary monitor turned away. West daylight, slate and navy, blood dried at lip.
       No power activation, readability on screen or lettering in art.
+      Frame seated Taeo on the right, Dara on the left and Sejin centrally from the waist up.
+      Haein's voice arrives through the handset at the left.
     calm: top
     lines:
-      - {who: haein, type: phone, side: l, text: "SOUND LANDING. I'LL FIX THE SECOND ROPE."}
-      - {who: taeo, type: speech, side: r, text: "NIB. NO CARRYING. JUST THE WAY OUT."}
+      - {who: offpanel:haein, type: phone, side: l, text: "THE LANDING'S SOLID. I'LL SECURE THE SECOND SAFETY ROPE."}
+      - {who: taeo, type: speech, side: r, text: "NIB. NO FORCE TRANSFER. WE'LL GUIDE YOU OUT."}
   - id: P34
     shape: inset-l
     gap: short
@@ -475,24 +505,26 @@ panels:
       Nib at yeoju_gate_b tooth base glances at the thin cold-white/violet ring on his RIGHT wrist, adult
       mouth flat. His own amber eyes do not project a link. Lavender/violet; RIGHT pouch closed and LEFT
       wooden sheath secure. No glowing button, selectable menu, frightened cute face or lettering.
+      Nib's face and raised wrist occupy the left third.
     calm: right
     lines:
-      - {who: nib, type: speech, side: l, text: "BOSS STILL BREATHES. WE WALK OUT."}
+      - {who: nib, type: speech, side: l, text: "THE BOSS IS ALIVE. RETURN MARKS WON'T BRING US OUT."}
     notes: "Return mark is not an on-demand teleport before boss death. No clear is attempted to shortcut the withdrawal."
   - id: P35
-    shape: wide
+    shape: tall
     gap: short
     bg: white
-    camera: "at Sera's shoulder as Nib checks his safety rope and knife sheath"
+    camera: "side two-shot on Nib and Sera checking the safety ropes"
     art: >
       At yeoju_gate_b pocket edge Sera checks Nib's plain waist belay knot without covering his brown rope
       belt or moving RIGHT pouch and LEFT wooden sheath. Nib checks that his knife is fully sheathed and
       binoculars tucked flat, soldierly and focused. Lavender/violet; old arm scars visible.
       No harness redesign, flirting, chibi or text.
+      Nib stands on the left, Sera on the right, with room for their bodies and both safety knots.
     calm: top
     lines:
       - {who: sera, type: speech, side: r, text: "I CAN GO FIRST."}
-      - {who: nib, type: speech, side: l, text: "I FIT THE TOOTH."}
+      - {who: nib, type: speech, side: l, text: "THE STONE TOOTH HAS ROOM FOR ME."}
   - id: P36
     shape: strip
     gap: short
@@ -502,6 +534,7 @@ panels:
       Nib at yeoju_gate_b fixes mature amber eyes on the upper notch, lids narrow and jaw set below frame.
       LEFT notched ear enters the edge, weathered skin not rounded. Lavender skylight, one hard violet shadow
       at brow; amber stays natural eye colour, not activated magic. No text, flashback montage or cute shine.
+      Nib's eyes fill the centre of the strip.
     calm: none
     lines:
       - {who: nib, type: speech, side: c, text: "I'LL GO FIRST. I ALWAYS DO."}
@@ -519,7 +552,7 @@ panels:
     sfx:
       - {text: "SKT", style: quiet, at: [0.43, 0.72], size: S, rot: -8}
   - id: P38
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "entry-side view as Haein guides her rope toward Nib"
@@ -528,9 +561,10 @@ panels:
       rigid pole from safe ground. He takes it with one hand while keeping three points on the tooth, face
       intent. Her wrist mark and his remain cold-white/violet. Lavender sky, violet stone.
       No impossible pole length, open hook near his face, text or superhuman reach.
+      Nib braces on the left at the tooth, Haein stands on the right at the notch; show the short gap between.
     calm: top
     lines:
-      - {who: haein, type: speech, side: r, text: "SECOND LINE. LOCK IT BEFORE YOU MOVE."}
+      - {who: haein, type: speech, side: r, text: "SECOND SAFETY ROPE. LOCK THE ROPE BEFORE YOU MOVE."}
       - {who: nib, type: speech, side: l, text: "LOCKED."}
   - id: P39
     shape: strip
@@ -555,11 +589,12 @@ panels:
       lamp goes dark. Feather antennae flatten from listening effort; he puts down the dead handset rather
       than speaking into it. Grey-brown folded wing cloak, olive tunic; west daylight, slate shadow.
       No magical hearing across realms, text or working wireless radio.
+      Frame Kesh from the waist up on the left beside the dead relay lamp.
     calm: top
     lines:
-      - {who: kesh, type: speech, side: l, text: "B'S WORDS STOPPED. THE KNOCK PLATE IS STILL THERE."}
+      - {who: kesh, type: speech, side: l, text: "B'S SURVEY LINE IS DEAD. WE STILL HAVE THE KNOCK PLATES."}
   - id: P41
-    shape: wide
+    shape: tall
     gap: short
     bg: navy
     camera: "from exterior B along Haein's body leaning out of the rim"
@@ -568,10 +603,11 @@ panels:
       keeping her boots on the firm inside landing. She calls directly to seated Taeo outside; her second rope
       remains secured behind her. West daylight outside, lavender rim behind. Safety glasses down, worried face.
       No radio trick, disembodied voice, force transfer or lettering.
+      Haein leans out on the left. Taeo is seated outside on the right, with her secured rope visible inside.
     calm: top
     lines:
-      - {who: haein, type: shout, side: l, text: "NIB'S SECURED. LANDING IS SOUND."}
-      - {who: haein, type: shout, side: l, text: "HE NEEDS TO WAIT FOR THE LOOSE STONE TO FINISH MOVING."}
+      - {who: haein, type: shout, side: l, text: "NIB HAS BOTH SAFETY ROPES. THE LANDING IS SOUND."}
+      - {who: haein, type: shout, side: l, text: "HE'S WAITING FOR THE LOOSE STONE TO STOP."}
   - id: P42
     shape: strip
     gap: short
@@ -583,9 +619,9 @@ panels:
       him. West light, slate and navy, plain skin. No pulse, window, energy store, hidden treatment or lettering.
     calm: none
     lines:
-      - {who: taeo, type: float, text: "MY HAND WANTS TO DO SOMETHING STUPID."}
+      - {who: taeo, type: float, text: "I WANTED TO USE MY HAND. THE MEDICS HAD SAID STOP."}
   - id: P43
-    shape: wide
+    shape: tall
     gap: short
     bg: navy
     camera: "inside B on Nib waiting, Sera behind on belay"
@@ -594,10 +630,11 @@ panels:
       settling. Sera stays in the north pocket, hands steady on belay and eyes intent. The assistant sits safe.
       Lavender/violet; no one dangling freely or sliding now. Binoculars flat, pouch shut.
       No floating system, comedy, readable instructions or jump yet.
+      Nib waits on the left at the tooth, Sera belays on the right in the pocket, the assistant behind her.
     calm: top
     lines:
-      - {who: sera, type: speech, side: r, text: "HE'LL FIND A WORD WAY."}
-      - {who: nib, type: speech, side: l, text: "HE HAS MANY WORDS."}
+      - {who: sera, type: speech, side: r, text: "TAEO WILL FIND A WAY TO SEND INSTRUCTIONS."}
+      - {who: nib, type: speech, side: l, text: "HE HAS ENOUGH WORDS."}
   - id: P44
     shape: strip
     gap: short
@@ -610,7 +647,7 @@ panels:
     calm: none
     silent: true
   - id: P45
-    shape: wide
+    shape: full
     gap: short
     bg: navy
     camera: "outside profile, Taeo speaking to Haein at the physical rim"
@@ -618,12 +655,13 @@ panels:
       Taeo at yeoju_anchor_field exterior B is moved in his chair beside the frame by Sejin, never walking
       into the gate. He addresses Haein whose head is physically outside the rim. Dara watches his pulse.
       West sun, slate and white-violet rim; blood dry on lip. No active transfer, radio connection or lettering in art.
+      Taeo sits on the right, Haein leans through the rim on the left; Sejin and Dara stand behind the chair.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "TELL HIM I'LL CALL HIM BACK WHEN YOUR LANDING IS READY."}
-      - {who: taeo, type: speech, side: r, text: "THE SAME TWO KNOCKS. TOWARD HOME."}
+      - {who: taeo, type: speech, side: r, text: "TELL NIB TO WAIT UNTIL YOUR LANDING IS CLEAR."}
+      - {who: taeo, type: speech, side: r, text: "THEN I'LL KNOCK TWICE TO CALL HIM BACK TOWARD THE EXIT."}
   - id: P46
-    shape: wide
+    shape: full
     gap: short
     bg: navy
     camera: "inside entry-side view of Haein relaying the instruction to Nib"
@@ -632,9 +670,10 @@ panels:
       who can hear her ordinary voice. His adult expression is utterly attentive; Sera's belay stays secure.
       Wrong lavender light, violet shadows. The severed survey cable remains visibly slack below.
       No speech crossing a dead radio, text, improvised third code or activation effect.
+      Haein stands on the right at the notch; Nib is visible on the left across the short gap.
     calm: top
     lines:
-      - {who: haein, type: shout, side: r, text: "TAEO SAYS—"}
+      - {who: haein, type: shout, side: r, text: "TAEO SAYS TO WAIT FOR TWO KNOCKS."}
   - id: P47
     shape: bleed
     gap: black
@@ -645,6 +684,7 @@ panels:
       bitten lip and one wiped red nose streak. His RIGHT knuckles are lifted but have NOT struck. He looks
       directly at Haein at the rim, speaking the words for her to carry inside. His face is afraid and certain
       of the small task he can still do. West daylight, deep slate shadow, cold rim white. No pulse or lettering.
+      Taeo sits on the right beside the plate; Haein's face is physically outside the rim on the left.
     calm: top
     lines:
       - {who: taeo, type: intense, side: r, text: "NIB. WHEN I KNOCK, YOU JUMP."}

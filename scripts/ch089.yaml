@@ -41,7 +41,7 @@ panels:
       - {kind: phone.info_card, on: screen, hand: taeo_right_front, title: "YEOJU · CONTEST FORMAT", text: "Five territories · Two teams simultaneously · Scoring: extracted stock, safety, clears"}
     notes: "Carry ch88's final reveal forward. This is a public notice on a phone, not operator UI."
   - id: P02
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "over Taeo's shoulder toward the open south yard gate"
@@ -50,6 +50,7 @@ panels:
       trestle. park_doyun enters through the south gate, charcoal knee coat, high grey collar, flat brown map
       case at LEFT hip. His precise face studies two empty practice frames on the apron, not the people.
       Southeast morning sun, A4 ochre/brown/sky blue. Keep the fixed maze beyond. No actual anomaly or print.
+      Taeo stands left by the trestle, Doyun enters on the right; give both figures full standing height.
     calm: top
     lines:
       - {who: park_doyun, type: speech, side: r, text: "YOU PROMISED ME A REMATCH."}
@@ -64,9 +65,10 @@ panels:
       Inside are folded plain plans and a steel ruler, nothing luminous. The careful grip has paused,
       betraying interest under his formality. Southeast sunlight, ochre reflection on grey coat. No readable marks,
       construct glyphs, jewellery or extra fingers.
+      Only the clasp and hand appear; Doyun speaks from off-panel right above the map case.
     calm: none
     lines:
-      - {who: park_doyun, type: speech, side: r, text: "THEN WE SHALL MEASURE BOTH."}
+      - {who: offpanel:park_doyun, type: speech, side: r, text: "THEN WE SHALL MEASURE BOTH THRESHOLDS."}
   - id: P04
     shape: inset-l
     gap: short
@@ -77,16 +79,17 @@ panels:
       without offering his hand. Binoculars hang on the LEFT-knotted strap over his pinkish-tan wrap.
       His wary stillness contrasts with the visitors' movement. Morning sun catches the hinge fork;
       flat warm-brown background, no cute proportions or readable marks beyond the carved motif.
+      Frame Nib's head and shoulders only; retain the binoculars at the lower edge.
     calm: right
     lines:
-      - {who: taeo, type: float, text: "I HAD WANTED HIM TO SAY IT WAS POSSIBLE."}
+      - {who: taeo, type: float, text: "I WANTED DOYUN TO SAY MY RELAY PLAN COULD WORK."}
   - id: P05
     kind: title
     gap: long
     bg: white
     title_text: "CHAPTER 89 · TWO THRESHOLDS"
   - id: P06
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "establishing high three-quarter from the training site's south-west corner"
@@ -96,13 +99,14 @@ panels:
       instrument table east, water west. taeo sits facing both. haein in slate-blue bib overalls checks separate
       grey clamp plates beside white blue-banded cable. nib waits at A, orrin at B. Concrete blue-grey,
       violet rims, hard shadows. Blank frame tabs, no connected tunnel or yard maze.
+      Haein stands on the right at the instrument table, Taeo seated centre, Nib left and Orrin right at B.
     calm: top
     lines:
       - {who: narr, type: tag, text: "LICENSED RELAY TEST SITE · 10:40 AM"}
-      - {who: haein, type: speech, side: r, text: "SURVEY LINES FIRST. FORCE COUPLERS STAY OPEN."}
+      - {who: haein, type: speech, side: r, text: "CONNECT THE RADIO CABLES FIRST. KEEP THE FORCE COUPLERS DISCONNECTED."}
     notes: "Actual test gates are at a separate licensed site; never put them into the canonical yard key."
   - id: P07
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "eye level beside the medical cot, looking north"
@@ -111,12 +115,13 @@ panels:
       grey temples, matte slate plate over oatmeal surgeon wrap, scarred bare forearms, surgical kit LEFT,
       cloth roll RIGHT. She plants herself beside taeo's chair, expression blunt and immovable. sejin in sage
       scrubs and olive medic rig sets electrodes ready. Daylight, blue-grey concrete; no glowing hands or text.
+      Dara stands left, Taeo sits centre and Sejin stands right beside the chair; show each face clearly.
     calm: top
     lines:
       - {who: dara, type: speech, side: l, text: "THIS IS A TEST. NOT AN AUDITION FOR A FUNERAL."}
-      - {who: sejin, type: speech, side: r, text: "I STOP IT. SHE MAKES YOU STAY STOPPED."}
+      - {who: sejin, type: speech, side: r, text: "I STOP THE TEST. DARA MAKES YOU STAY STOPPED."}
   - id: P08
-    shape: inset-r
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -126,26 +131,28 @@ panels:
       chibi dara, who holds it down with one finger. Chibi sejin points him back into it with a flat
       exhausted expression. All outfits and taeo's RIGHT-eye mole retained. Flat daylight blue-grey with
       comic sweat drops; no medical alarm, injuries, gate danger or writing.
+      Chibi Taeo sits left, Sejin centre and Dara right, with room for the chair and each body.
     calm: left
     lines:
       - {who: taeo, type: nervous, side: l, text: "DOES THE CHAIR GET A VOTE?"}
       - {who: dara, type: speech, side: r, text: "IT HAS BETTER JUDGEMENT."}
   - id: P09
-    shape: strip
+    shape: full
     gap: short
     bg: white
-    camera: "top-down close view of the paper test plan"
+    camera: "waist-up two-shot of Doyun and Haein above the paper test plan"
     art: >
       On relay_test_site's instrument table, park_doyun's steel ruler separates two blank drawn rectangles;
       haein's screwdriver indicates the exterior space between them. Their charcoal and beige cuffs frame
       a simple plan with no readable characters. Daylight from upper right, concrete-grey and paper cream.
       Keep hands distinct and plan physically flat; no magic diagram or interface.
+      Show Doyun on the left and Haein on the right, both faces visible above their plan and hands.
     calm: top
     lines:
-      - {who: park_doyun, type: speech, side: l, text: "TWO THRESHOLDS. ONE PREPARED DIRECTION."}
-      - {who: haein, type: speech, side: r, text: "NIB TO ORRIN. THROUGH TAEO, OUTSIDE."}
+      - {who: park_doyun, type: speech, side: l, text: "TWO SEPARATE GATES. THE IMPACT TRAVELS IN ONE PREPARED DIRECTION."}
+      - {who: haein, type: speech, side: r, text: "FROM NIB TO ORRIN, THROUGH TAEO. TAEO STAYS OUTSIDE BOTH GATES."}
   - id: P10
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "side view of A with Taeo's chair in the near foreground"
@@ -154,10 +161,11 @@ panels:
       hand plate from haein. His adult face is sceptical, eye on its fastening rather than Doyun.
       taeo stays seated on exterior concrete, both feet visible. Cold gate rim meets daylight;
       grey padding, muted ochre straps. No restraints tying Nib to frame, readable gauge or light weapon.
+      Taeo sits left outside the gate, Nib stands right holding the pad, Haein centre handing it over.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "NIB. WILL YOU TAKE THE FIRST LIGHT PUSH?"}
-      - {who: nib, type: speech, side: r, text: "ONE. THEN ASK AGAIN."}
+      - {who: taeo, type: speech, side: l, text: "NIB. WILL YOU TAKE ONE LIGHT PUSH FROM THE TEST SLED?"}
+      - {who: nib, type: speech, side: r, text: "ONE PUSH. THEN ASK AGAIN."}
   - id: P11
     shape: tall
     gap: short
@@ -168,6 +176,7 @@ panels:
       shell, four heavy columnar legs and three blunt nails per foot, heavy-lidded olive eyes. His head turns
       back with patient concentration. A thin cold-white violet-edged return ring forms around his foreleg
       wrist. Wrong green sky beyond, violet shadows. No saddle, cargo harness, pet expression or readable tag.
+      Place Orrin in the right third with full room for his shell and all four legs.
     calm: top
     lines:
       - {who: orrin, type: speech, side: r, text: "I HAVE CHOSEN A VERY SOLID BIT OF FLOOR."}
@@ -184,7 +193,7 @@ panels:
     calm: none
     silent: true
   - id: P13
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "inside A looking back toward the bright threshold"
@@ -193,9 +202,10 @@ panels:
       pad against his palm. The white cable with blue metre bands runs safely beside him to a grey
       tripod speaker with steady white lamp. Deeper route remains cordoned in background. He listens,
       serious and still. Violet shadows, no boss, ore extraction, print or radio working without cable.
+      Nib stands right, fully framed; Haein speaks from off-panel left through the grey wired speaker.
     calm: top
     lines:
-      - {who: haein, type: phone, side: l, text: "BOTH LINES INTACT. CAN YOU HEAR ME?"}
+      - {who: offpanel:haein, type: phone, side: l, text: "BOTH RADIO CABLES ARE INTACT. CAN YOU HEAR ME?"}
       - {who: nib, type: speech, side: r, text: "YES. TOO WELL."}
   - id: P14
     shape: inset-l
@@ -207,10 +217,11 @@ panels:
       eyes, two feathered antennae, four grey-brown wing panels folded cloaklike over olive tunic,
       dark trousers and wrapped shoes. Two delicate five-finger hands hold an unlit wand and ear protection.
       He leans forward, delighted by precision. White daylight, muted slate. No extra arms, luminous wings or print.
+      Kesh's head and shoulders fill the left third. Haein answers from off-panel right at the same table.
     calm: right
     lines:
-      - {who: kesh, type: speech, side: l, text: "B ANSWERS LATE. HALF A BREATH."}
-      - {who: haein, type: speech, side: r, text: "LOGGED. NO LIVE LOAD YET."}
+      - {who: kesh, type: speech, side: l, text: "GATE B ANSWERS LATE. HALF A BREATH."}
+      - {who: offpanel:haein, type: speech, side: r, text: "DELAY LOGGED. NO IMPACT TEST YET."}
   - id: P15
     shape: strip
     gap: short
@@ -221,11 +232,12 @@ panels:
       paper, his steel ruler held flat by his other hand. His wrist has stopped at Kesh's report;
       the slight pressure dents the sheet. Blue-grey daylight, cream paper, warm brown map case nearby.
       No readable figures or glowing construct geometry.
+      Only Doyun's pencil, hands and log appear; he speaks from off-panel left above the page.
     calm: none
     lines:
-      - {who: park_doyun, type: speech, side: l, text: "CORRECT THE DELAY. DON'T COMPENSATE WITH YOUR BODY."}
+      - {who: offpanel:park_doyun, type: speech, side: l, text: "CORRECT THE RELAY DELAY. DON'T COMPENSATE WITH YOUR BODY."}
   - id: P16
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "from behind Taeo, both gate frames separated ahead"
@@ -234,12 +246,13 @@ panels:
       A thin amber pulse and a separate slate-green pulse cross its heel without blending. Left hand
       rests unlit on his knee; bruised forearms visible below rolled cuffs. Both distant thresholds stay
       separate. Daylight grey, small coloured pulses only; no connecting light tunnel, screen or lettering.
+      Keep Taeo fully seated at centre with his raised right hand and both separate frames ahead.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "I CAN FEEL HOW FAR AWAY THEY ARE."}
+      - {who: taeo, type: float, text: "THEY WERE TRUSTING MY HANDS AGAIN."}
     notes: "Willing Nib/amber and Orrin/slate-green links in Taeo's RIGHT palm only."
   - id: P17
-    shape: full
+    shape: tall
     gap: short
     bg: white
     camera: "profile inside A, test rig and scout both fully visible"
@@ -248,14 +261,15 @@ panels:
       into nib's hand plate. He bends at knees and elbow, teeth set, choosing to receive its light push.
       Track ends in a mechanical catch. Lavender sky, pale stone, violet shadows; chosen boots grounded.
       No monster blow, projectile weapon, tied limbs, lettering or energy beam.
+      Give Nib full standing height beside the short rig; Haein speaks from off-panel left through the wired speaker.
     calm: top
     sfx:
       - {text: "TUK", style: impact, at: [0.58, 0.59], size: M, rot: -5}
     lines:
-      - {who: haein, type: phone, side: l, text: "TEN-KILO SLED. LOW RELEASE. NOW."}
+      - {who: offpanel:haein, type: phone, side: l, text: "TEN-KILO SLED. LOW RELEASE. NOW."}
     notes: "Sled mass is a repeatable rig descriptor, not a claim about force or field tolerance."
   - id: P18
-    shape: wide
+    shape: tall
     gap: none
     bg: white
     camera: "inside B, low beside Orrin's receiving pad"
@@ -264,6 +278,7 @@ panels:
       moving a chalk-dusted wooden slider along a short rulerless track. His adult face stays concentrated,
       other three feet firm. A faint vibration lifts one grain at the pad, not decorative dust.
       Wrong green sky, violet shadows. No new cracks, harness, laser path or writing.
+      Allow Orrin's head, shell and all four legs clear room beside the slider and receiving pad.
     calm: top
     sfx:
       - {text: "KRRK", style: quiet, at: [0.56, 0.74], size: M, rot: 0}
@@ -277,25 +292,27 @@ panels:
       of B's movement. Messy black fringe, RIGHT-eye mole, tired lower lids; sweat at one temple.
       His navy sleeve is rolled over old purple bruises. Clear daylight, simplified concrete-blue background.
       No victory aura, blood or medical alarm.
+      Taeo's head and shoulders fill the right third; Orrin replies from off-panel left through the radio.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: r, text: "DID THAT COUNT?"}
-      - {who: orrin, type: phone, side: l, text: "THE FLOOR AND I THINK SO."}
+      - {who: taeo, type: speech, side: r, text: "DID THE IMPACT REACH GATE B?"}
+      - {who: offpanel:orrin, type: phone, side: l, text: "THE SLIDER MOVED. THE FLOOR AND I NOTICED."}
   - id: P20
     shape: strip
     gap: short
     bg: white
-    camera: "top view of Haein's gloved hand closing the isolation catch"
+    camera: "top view of Haein's gloved hand opening the force-coupler catch"
     art: >
       haein at relay_test_site opens the separate force-coupler circuit with a blunt mechanical catch,
       safety glasses down, beige sleeve at frame edge. Adjacent white blue-banded survey cable remains
       plugged in; its speaker lamp stays white. Daylight grey with brown tool belt edge. No shared
       switch that kills radio, readable gauge, screen or lettering.
+      Only Haein's gloved hand and catch appear; she speaks from off-panel right above her sleeve.
     calm: none
     lines:
-      - {who: haein, type: speech, side: r, text: "HALF A SECOND. CLEAN RELEASE."}
+      - {who: offpanel:haein, type: speech, side: r, text: "HALF A SECOND OF TRANSFER. CLEAN RELEASE."}
   - id: P21
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "eye-level exterior two-shot, Doyun behind Taeo's chair"
@@ -304,10 +321,11 @@ panels:
       posture. taeo flexes sore fingers once, relieved. Doyun's map case stays LEFT, his ruler down by
       his thigh rather than aimed like a wand. White daylight, charcoal and concrete blue-grey.
       No visible interface for Doyun or print.
+      Doyun stands on the left behind the chair, Taeo sits on the right; keep both faces clear.
     calm: top
     lines:
-      - {who: park_doyun, type: speech, side: l, text: "NOT A COPY OF HIS MOTION. A TRANSFER OF ITS LOAD."}
-      - {who: taeo, type: speech, side: r, text: "ONLY WHERE WE SET IT TO GO."}
+      - {who: park_doyun, type: speech, side: l, text: "NIB'S MOTION WASN'T COPIED. THE IMPACT PASSED FROM NIB TO ORRIN."}
+      - {who: taeo, type: speech, side: r, text: "ONLY IN THE DIRECTION WE PREPARED."}
   - id: P22
     shape: inset-l
     gap: short
@@ -318,11 +336,12 @@ panels:
       clear, angular jaw flat. He has lowered the pad rather than waiting obediently with it raised.
       Pale stone and wrong lavender light, violet shadow under brows. Binoculars secured on chest.
       No smile for approval, cute eyes, lettering or enemy.
+      Nib's head and shoulders fill the left third beside the speaker.
     calm: right
     lines:
-      - {who: nib, type: speech, side: l, text: "ASK AGAIN."}
+      - {who: nib, type: speech, side: l, text: "ASK BEFORE THE NEXT PUSH."}
   - id: P23
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "over Haein's shoulder toward Taeo and the live cable handset"
@@ -331,11 +350,27 @@ panels:
       not toward park_doyun. haein's overalls and screwdriver frame him in foreground; sejin's fingers
       remain on the separate medical lead. Blue-grey daylight, muted field gear. The phone in taeo's
       pocket stays dark. No operator window or written plan.
+      Taeo sits right, Haein stands foreground left and Sejin behind. Nib answers from off-panel left over the radio.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "SAME LIGHT LOAD. SIX-TENTHS OF A SECOND. WILL YOU BOTH TRY?"}
-      - {who: nib, type: phone, side: l, text: "YES."}
-      - {who: orrin, type: phone, side: l, text: "YES."}
+      - {who: taeo, type: speech, side: r, text: "SAME LIGHT PUSH. THIS TIME, SIX-TENTHS OF A SECOND. WILL YOU BOTH TRY?"}
+      - {who: offpanel:nib, type: phone, side: l, text: "YES."}
+  - id: P23a
+    shape: tall
+    gap: short
+    bg: white
+    camera: "inside B, three-quarter view of Orrin beside the receiving pad"
+    art: >
+      At relay_test_site B, adult orrin stands on the dark-slate vestibule floor in the
+      right third, head turned toward the grey wired speaker on the left. His four
+      columnar legs have clear room beneath the terraced slate shell. Return ring stays
+      cold-white with a violet edge on his foreleg wrist; receiving pad remains unloaded.
+      He gives a deliberate, willing nod. Wrong green sky and hard violet shadows,
+      daylight through the threshold behind. No harness, new cracks, lettering or link beam.
+    calm: top
+    lines:
+      - {who: orrin, type: speech, side: r, text: "YES."}
+    notes: "Orrin's separate answer to Taeo's P23 request, before the second light-load test starts."
   - id: P24
     shape: vignette
     gap: long
@@ -362,7 +397,7 @@ panels:
     sfx:
       - {text: "TK", style: quiet, at: [0.71, 0.58], size: S, rot: 0}
   - id: P26
-    shape: full
+    shape: tall
     gap: none
     bg: white
     camera: "frontal three-quarter at the operator chair, slight Dutch angle"
@@ -371,9 +406,10 @@ panels:
       a word. One hand clutches his chest while the RIGHT stays open on the armrest. dara is already
       reaching his shoulder; sejin reaches the stop. Tilt the concrete horizon slightly, not anatomy.
       Harsh daylight, drained grey-blue, one red medical lamp. No collapse into a gate or comedy styling.
+      Taeo is centre, Dara left and Sejin right, with room for both medics to reach the chair.
     calm: top
     lines:
-      - {who: taeo, type: nervous, side: c, text: "MY—"}
+      - {who: taeo, type: nervous, side: c, text: "MY CHEST."}
       - {who: sejin, type: shout, side: r, text: "CUT THE LOAD."}
   - id: P27
     shape: strip
@@ -398,9 +434,10 @@ panels:
       pulse with intent precision; her other hand steadies his shoulder. sejin checks the medical leads.
       Taeo is conscious, frightened and obeying, navy jacket opened over black hoodie. Clear daylight,
       slate armour, white cot sheet behind. No healing halo, fresh wound, heroic grin or written screen.
+      Taeo reclines on the left, Dara supports him on the right, Sejin stays centre behind the medical leads.
     calm: top
     lines:
-      - {who: dara, type: speech, side: r, text: "LOOK AT ME. NO CARRYING. BREATHE."}
+      - {who: dara, type: speech, side: r, text: "LOOK AT ME. STOP SHARING THE LOAD. BREATHE."}
       - {who: taeo, type: nervous, side: l, text: "SORRY."}
       - {who: dara, type: speech, side: r, text: "AFTER. BREATHE NOW."}
   - id: P29
@@ -413,10 +450,11 @@ panels:
       back, jaw working silently; the anger has not yet found a person. Cold-white violet-edged return
       mark on RIGHT wrist, strap and pouch secure. Lavender overhead, violet shadows. No link glow,
       cute distress, new injury or print.
+      Only Nib's head, shoulders and lowered pad appear; wrist mark stays at the lower edge.
     calm: none
     silent: true
   - id: P30
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "exterior from beside A, Doyun holding the wired handset"
@@ -425,10 +463,11 @@ panels:
       by his rigid posture. He stops himself from gesturing the way he commands a construct. At far
       right dara still attends seated taeo. Daylight concrete blue-grey, cold violet rim. No readable
       data, floating model or command aura.
+      Doyun stands left; Nib replies from inside A off-panel right via the wired handset. Dara and Taeo remain far right.
     calm: top
     lines:
       - {who: park_doyun, type: speech, side: l, text: "NIB. STEP BACK FROM THE RIG."}
-      - {who: nib, type: phone, side: r, text: "NO. THE SLED CATCH IS LOOSE."}
+      - {who: offpanel:nib, type: phone, side: r, text: "NO. THE SLED CATCH IS LOOSE."}
   - id: P31
     shape: strip
     gap: short
@@ -443,7 +482,7 @@ panels:
     sfx:
       - {text: "TIK", style: quiet, at: [0.57, 0.52], size: S, rot: 0}
   - id: P32
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "medium outside both frames as the companions return"
@@ -452,12 +491,13 @@ panels:
       taeo's chair. Their return marks fade as they pass into daylight, no automatic-return flash.
       Doyun steps out of their path, eyes on the repaired sled catch through A. Concrete grey,
       violet rims, pale sun. No closed gate, boss kill or new wounds.
+      Nib exits on the left, Orrin on the right, with Doyun at centre stepping clear of both.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "NOW."}
-      - {who: orrin, type: speech, side: r, text: "HE DIDN'T ASK THE FLOOR FIRST EITHER."}
+      - {who: nib, type: speech, side: l, text: "THE CATCH IS SECURE NOW."}
+      - {who: orrin, type: speech, side: r, text: "DOYUN DIDN'T ASK IF MY FLOOR WAS SAFE EITHER."}
   - id: P33
-    shape: vignette
+    shape: full
     gap: long
     bg: white
     camera: "side close two-shot beside the reclined chair"
@@ -466,11 +506,12 @@ panels:
       He lays the disconnected hand plate on concrete beyond Taeo's reach. Taeo watches the hand,
       ashamed and relieved; old purple forearm bruises exposed. Quiet daylight, muted blue-grey,
       worn brown props. No pulse, cute gesture, healed bruises or print.
+      Nib stands left beside Taeo seated right; give both figures room around the reclined chair.
     calm: top
     lines:
       - {who: taeo, type: float, text: "EVERYONE GOT BACK BEFORE I COULD ASK."}
   - id: P34
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "eye level across the medical cot, Sejin and Dara facing each other"
@@ -479,11 +520,12 @@ panels:
       black hair and sage rig opposite dark braid, grey temples and slate plate. Dara looks furious with
       the problem, not with Sejin; Sejin's dry face holds steady. Taeo rests in background. Daylight
       blue-grey, no magical treatment or readable monitor.
+      Sejin is on the left, Dara on the right and Taeo is visibly resting at centre behind them.
     calm: top
     lines:
-      - {who: sejin, type: speech, side: l, text: "ANOTHER IRREGULAR RUN. IT SETTLED WHEN WE STOPPED."}
+      - {who: sejin, type: speech, side: l, text: "TAEO'S HEART RHYTHM WENT IRREGULAR AGAIN. IT SETTLED WHEN WE STOPPED THE TEST."}
       - {who: dara, type: speech, side: r, text: "SETTLED IS NOT FIXED."}
-      - {who: taeo, type: speech, side: l, text: "I HEARD THAT."}
+      - {who: taeo, type: speech, side: c, text: "I HEARD THAT."}
   - id: P35
     shape: inset-l
     gap: short
@@ -494,9 +536,10 @@ panels:
       up into her jaw-length black bob. Her mouth is pressed flat with fear she refuses to dress as
       irritation. Slate-blue overalls, beige tee, brown belt. Clear daylight, cream paper background.
       No smile, tears for comedy, readable calculations or new screen.
+      Haein's head and shoulders fill the left third, log at the lower edge.
     calm: right
     lines:
-      - {who: haein, type: speech, side: l, text: "CLEAN AT POINT FIVE. SYMPTOMS AT POINT SIX."}
+      - {who: haein, type: speech, side: l, text: "HALF A SECOND WORKED. SIX-TENTHS CAUSED CHEST SYMPTOMS."}
   - id: P36
     shape: strip
     gap: short
@@ -512,7 +555,7 @@ panels:
       - {kind: label, text: "TWO-THRESHOLD TEST · 0.5 s MAX · SAME LIGHT LOAD ONLY", at: [0.5, 0.48], notes: "Place within boxed test-log cell."}
     notes: "New measured provisional ceiling: half-second paired routing at this tested light rig load. Not a safe field load, not a new LOAD SHARE percentage."
   - id: P37
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "from low beside Taeo's chair toward the adviser"
@@ -521,11 +564,12 @@ panels:
       adult face has lost its clinical distance. He keeps the log on his own knee. Taeo's hand has
       stopped shaking but remains empty. White daylight, charcoal coat against concrete. No handshake
       over a monitor, victory glow or writing.
+      Doyun crouches on the left beside Taeo reclined on the right; leave room for both bodies and the chair.
     calm: top
     lines:
-      - {who: park_doyun, type: speech, side: l, text: "A CEILING IS NOT A TARGET."}
-      - {who: park_doyun, type: speech, side: l, text: "A HEAVIER LOAD MAY GIVE YOU LESS THAN THAT."}
-      - {who: taeo, type: speech, side: r, text: "THEN WE PLAN BELOW IT."}
+      - {who: park_doyun, type: speech, side: l, text: "HALF A SECOND IS THE LIMIT, NOT THE GOAL."}
+      - {who: park_doyun, type: speech, side: l, text: "A HEAVIER IMPACT MAY GIVE YOU LESS THAN HALF A SECOND."}
+      - {who: taeo, type: speech, side: r, text: "THEN WE PLAN FOR LESS THAN HALF A SECOND."}
   - id: P38
     shape: inset-r
     gap: short
@@ -536,11 +580,12 @@ panels:
       attempt at a plan. Grey temples, dark braid, slate plate and oatmeal wrap, old forearm scars.
       Her hand keeps the test log shut. Daylight white, hard slate shadow, no healing glow,
       softened pin-up features or readable page.
+      Dara's head and shoulders fill the right third.
     calm: left
     lines:
       - {who: dara, type: speech, side: r, text: "TODAY YOU PLAN LYING DOWN."}
   - id: P39
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "high wide view of the shut-down training apron"
@@ -549,11 +594,12 @@ panels:
       wings folded and shoulders drooping with fatigue. orrin shades the chair without touching taeo;
       nib carries cups toward the western water table. Doyun stands apart, looking at both companions.
       Early afternoon sun, muted concrete and blue-grey, violet gates still open. No crowd, closing bosses or print.
+      Leave full height for the standing crew, Orrin and the chair during shutdown.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "HE DIDN'T ASK TO REPEAT IT."}
+      - {who: taeo, type: float, text: "DOYUN DIDN'T ASK FOR ANOTHER TEST."}
   - id: P40
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "medium at the water table, Doyun approaching Nib from the side"
@@ -562,10 +608,11 @@ panels:
       adult face absorbed in practical work. park_doyun approaches with empty hands, map case still LEFT.
       He stops beyond Nib's reach and waits. White daylight, muted brown tabletop and blue-grey concrete.
       No bowing Nib, magical construct, labels or screen.
+      Nib stands on the left at the water table and Doyun on the right with space for both adult bodies.
     calm: top
     lines:
-      - {who: park_doyun, type: speech, side: r, text: "YOU SAW THE CATCH BEFORE I DID."}
-      - {who: nib, type: speech, side: l, text: "I WAS NEXT TO IT."}
+      - {who: park_doyun, type: speech, side: r, text: "YOU SAW THE LOOSE SLED CATCH BEFORE I DID."}
+      - {who: nib, type: speech, side: l, text: "I WAS NEXT TO THE SLED."}
   - id: P41
     shape: inset-l
     gap: short
@@ -576,10 +623,11 @@ panels:
       Long angular face, centre-parted black hair, cool brown eyes now directed at a person below him.
       Charcoal collar, pale grey shirt. Early afternoon light from right, simplified blue-grey background.
       No grand smile, villain shadows, written diagram or glow.
+      Doyun's head and shoulders fill the right third; Nib answers from off-panel left across the table.
     calm: right
     lines:
-      - {who: park_doyun, type: speech, side: r, text: "THAT WAS NOT MY QUESTION."}
-      - {who: nib, type: speech, side: l, text: "IT WAS MY ANSWER."}
+      - {who: park_doyun, type: speech, side: r, text: "THAT WAS MEANT AS A COMPLIMENT."}
+      - {who: offpanel:nib, type: speech, side: l, text: "MINE WAS AN ANSWER."}
   - id: P42
     shape: strip
     gap: short
@@ -593,7 +641,7 @@ panels:
     calm: none
     silent: true
   - id: P43
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "from the medical chair toward the distant water table"
@@ -602,11 +650,12 @@ panels:
       distance Doyun stands facing nib beside the two cups. dara sits between Taeo and the open
       test log, firm guard rather than jailer. Afternoon white daylight, slate and muted brown.
       No active pulses, readable speech in art or triumphant crowd.
+      Taeo reclines foreground right, Dara sits centre, and Nib left and Doyun right are visible at the distant table.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "I WANTED TO HELP. FOR ONCE, I KEPT QUIET."}
+      - {who: taeo, type: float, text: "I WANTED TO HELP DOYUN APOLOGISE. FOR ONCE, I KEPT QUIET."}
   - id: P44
-    shape: vignette
+    shape: full
     gap: long
     bg: white
     camera: "two-shot at Nib's eye height across the water table"
@@ -615,6 +664,7 @@ panels:
       without strain. No audience composition: water cups in foreground, the empty concrete apron behind.
       Nib's face stays guarded; Doyun's hand rests open on his own knee. Clear afternoon light,
       soft-edged white border, hard cel faces. No supplication pose or written objects.
+      Nib stands on the left and Doyun kneels on the right, both with clear faces and natural proportions.
     calm: top
     lines:
       - {who: park_doyun, type: speech, side: r, text: "I CALLED YOUR ANSWERS A PERFORMANCE."}
@@ -629,6 +679,7 @@ panels:
       angular weathered cheeks, amber eyes and single LEFT lower fang. Brown rope belt and high-riding
       binoculars at lower edge, no change to adult proportions. Daylight from right, muted cream
       background. No cute forgiveness smile or writing.
+      Nib's head and shoulders fill the left third.
     calm: left
     lines:
       - {who: nib, type: speech, side: l, text: "SAY IT TO ME."}
@@ -644,7 +695,7 @@ panels:
     calm: none
     silent: true
   - id: P47
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "profile close two-shot, neither figure higher in the composition"
@@ -653,6 +704,7 @@ panels:
       Nib standing in worn wrap and chosen boots. Doyun draws one quiet breath; Nib picks up a full cup,
       wrist level and deliberate. Afternoon daylight, cream cups against slate background. No glow,
       public applause, cute proportions or text.
+      Nib stands left, Doyun kneels right; show both full poses without compressing their bodies.
     calm: none
     silent: true
   - id: P48
@@ -666,6 +718,7 @@ panels:
       Doyun grave and exact, Nib level-eyed with the tiniest dry lift of one brow. LEFT notch and
       LEFT fang clear. Afternoon daylight, muted slate and warm paper cream. No ceremonial kneeling
       audience, drink already swallowed, lettering or magic.
+      Nib stands on the left and Doyun kneels on the right; their faces and offered cup remain clear.
     calm: top
     lines:
       - {who: park_doyun, type: speech, side: r, text: "THIS IS REAL. I WAS WRONG ABOUT MIMICRY. NIB, I APOLOGISE."}

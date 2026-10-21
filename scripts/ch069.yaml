@@ -93,10 +93,10 @@ panels:
   silent: true
   notes: Continue ch068 hook, same moment. No sky or new outside location.
 - id: P02
-  shape: wide
+  shape: tall
   gap: short
   bg: white
-  camera: interior medium from behind Sera's drawn shoulder
+  camera: interior medium three-quarter two-shot, Sera's speaking profile left and Nib right
   art: 'sera in river-green/cream tunic, sand trousers and brown boots; long braid, bow LEFT, bracer LEFT,
     flute RIGHT, quiver RIGHT shoulder; nib, adult wiry scout in pinkish-tan wrap/charcoal shorts and his matte
     dark-brown leather ankle boots from ch043, broad round toes, four dull gunmetal eyelet pairs, dark-brown
@@ -107,7 +107,8 @@ panels:
     ACTING: her pride becomes professional concentration; his face closes. Location chungju_river_gate. Hard
     white headlamp/portable lamp key, lilac mineral fill, violet shadows and opaque dark teal water; continuous
     stone ceiling, NO SKY. Flat cel shadows, varied warm near-black outlines; keep calm zone plain. No generated
-    lettering, bubbles, readable signs/runes or UI; incidentals screens dark.'
+    lettering, bubbles, readable signs/runes or UI; incidentals screens dark. Sera stands in the left third,
+    Nib crouches right; show both speaking faces and her safe archery stance.'
   calm: top
   lines:
   - who: sera
@@ -116,25 +117,27 @@ panels:
     side: l
   - who: nib
     type: speech
-    text: IT TURNED.
+    text: THE BODY TURNED AGAINST THE CURRENT.
     side: r
 - id: P03
   shape: strip
   gap: short
   bg: white
-  camera: macro on Kesh's antennae and folded-wing edge
+  camera: extreme close-up of Kesh's strained eyes and paired antenna roots
   art: 'kesh, mature 198 cm moth-like signal keeper, paired feather antennae, four folded grey-brown wing panels,
     olive tunic, dark trousers and wrapped shoes; two arms/two legs. Both antennae flatten toward opposite
     walls. His hand grips his own sleeve rather than the wand. ACTING: sudden overload, controlled enough to
     report it. Location chungju_river_gate. Hard white headlamp/portable lamp key, lilac mineral fill, violet
     shadows and opaque dark teal water; continuous stone ceiling, NO SKY. Flat cel shadows, varied warm near-black
     outlines; keep calm zone plain. No generated lettering, bubbles, readable signs/runes or UI; incidentals
-    screens dark.'
+    screens dark. Crop to Kesh''s eyes and antenna roots in the centre; no full body fits inside this detail
+    strip.'
   calm: bottom
   lines:
   - who: kesh
     type: whisper
-    text: TWO DIRECTIONS. ONE MOVEMENT.
+    text: ONE MOVEMENT IN THE WATER. THE SOUND COMES FROM BOTH WALLS.
+    side: c
 - id: P04
   shape: full
   gap: long
@@ -160,10 +163,25 @@ panels:
   bg: white
   title_text: CHAPTER 69 · THE PREDATOR
 - id: P06
-  shape: wide
+  shape: strip
   gap: short
   bg: white
-  camera: outside medium across the gate lane and command table
+  camera: outside extreme close detail of the live receiver as Sera reports
+  art: chungju_gate_site, outside at the command table. Extreme close detail of the live grey receiver grille,
+    white status lamp and the intact white blue-banded cable at left. No whole character is drawn. Sera reports
+    from inside over the wired line. Early daylight and hard white work-lamp key, cool blue-grey shadows and
+    muted orange safety mesh. No generated lettering, bubbles, readable signs or UI; displays dark.
+  calm: top
+  lines:
+  - who: offpanel:sera
+    type: phone
+    text: RIVER PREDATOR. IT CAN REACH EVERYONE ON THIS SHELF.
+    side: l
+- id: P06a
+  shape: full
+  gap: short
+  bg: white
+  camera: outside medium command view, consortium leader left, Minho centre and Taeo right
   art: 'taeo in navy jacket/black hoodie and cargo trousers, one RIGHT-eye mole; Korean woman about 45, square
     face, close-cropped greying hair, charcoal waterproof field coat, white hard hat and a plain grey command
     folder; efficient and responsible, increasingly afraid.; minho in brown work jacket, grey tee, olive cargos/knee
@@ -171,12 +189,10 @@ panels:
     the empty lane to the map. The lead closes her folder. ACTING: fear becoming a procedure. Location chungju_gate_site.
     Early daylight and a hard white work lamp, cool blue-grey shadows with muted orange safety mesh. Flat cel
     shadows, varied warm near-black outlines; keep calm zone plain. No generated lettering, bubbles, readable
-    signs/runes or UI; incidentals screens dark.'
+    signs/runes or UI; incidentals screens dark. Show the leader standing left, Minho centre and Taeo right,
+    all faces clear with room for their full figures.'
   calm: top
   lines:
-  - who: sera
-    type: phone
-    text: RIVER PREDATOR. BIG ENOUGH TO HUNT THE WHOLE SHELF.
   - who: consortium_lead
     type: speech
     text: ALL TEAMS HOLD.
@@ -186,18 +202,22 @@ panels:
     text: PLEASE ACKNOWLEDGE YOUR POSITIONS.
     side: r
 - id: P07
-  shape: inset-r
+  shape: full
   gap: short
   bg: white
-  camera: outside desk close-up, before-descent comedy insert
+  camera: outside pre-descent comedy memory, full chibi bodies beside the equipment desk
   art: 'taeo in navy jacket/black hoodie and cargo trousers, one RIGHT-eye mole; haein in slate-blue bib overalls/beige
     tee, jaw-length black bob, tool belt and clear safety glasses. Earlier safe equipment check, outside before
     the descent. Chibi Taeo holds a checklist twice his height while Haein offers one absurdly small spare
     pencil. ACTING: his waterfall tears, her line-eyed practicality. No gate danger or creature in this flashback.
     CHIBI comedy flashback before descent: 2.5-head bodies, flat pale ochre with screentone, locked outfits
-    and props. No generated lettering, bubbles, readable signs/runes or UI; incidentals screens dark.'
+    and props. No generated lettering, bubbles, readable signs/runes or UI; incidentals screens dark. Taeo
+    stands left and Haein right beside the desk; leave room for both full chibi bodies and the tall checklist.'
   calm: left
   lines:
+  - who: narr
+    type: tag
+    text: EARLIER · BEFORE THE DESCENT
   - who: taeo
     type: nervous
     text: DOES THE SPARE KIT HAVE A SPARE OPERATOR?
@@ -219,14 +239,14 @@ panels:
     in hand: a man wanting every problem to fit the sheet. Location chungju_gate_site. Early daylight and a
     hard white work lamp, cool blue-grey shadows with muted orange safety mesh. Flat cel shadows, varied warm
     near-black outlines; keep calm zone plain. No generated lettering, bubbles, readable signs/runes or UI;
-    incidentals screens dark.'
+    incidentals screens dark. Crop strictly to Taeo''s pencil hand and microphone.'
   calm: bottom
   lines:
   - who: taeo
     type: float
-    text: I HAD PRACTISED GIVING THE CALM ANSWER.
+    text: I HAD PRACTISED SOUNDING CALM.
 - id: P09
-  shape: wide
+  shape: tall
   gap: short
   bg: white
   camera: inside side view, upstream captain beside two workers
@@ -237,15 +257,17 @@ panels:
     down. ACTING: disciplined, uneasy stillness. Location chungju_river_gate. Hard white headlamp/portable
     lamp key, lilac mineral fill, violet shadows and opaque dark teal water; continuous stone ceiling, NO SKY.
     Flat cel shadows, varied warm near-black outlines; keep calm zone plain. No generated lettering, bubbles,
-    readable signs/runes or UI; incidentals screens dark.'
+    readable signs/runes or UI; incidentals screens dark. The meridian_lead stands at left, with both workers
+    visible beside her on the high ledge.'
   calm: top
   lines:
   - who: meridian_lead
     type: speech
     text: UPSTREAM HOLDING. THREE AT THE HIGH LEDGE.
+    side: l
   notes: Three people visible in this local subgroup, not a definitive whole-consortium headcount.
 - id: P10
-  shape: wide
+  shape: tall
   gap: short
   bg: white
   camera: inside downstream reverse, south team at the crosswalk
@@ -256,12 +278,13 @@ panels:
     they trust. Location chungju_river_gate. Hard white headlamp/portable lamp key, lilac mineral fill, violet
     shadows and opaque dark teal water; continuous stone ceiling, NO SKY. Flat cel shadows, varied warm near-black
     outlines; keep calm zone plain. No generated lettering, bubbles, readable signs/runes or UI; incidentals
-    screens dark.'
+    screens dark. The south_lead stands at right, with both workers fully visible to his left.'
   calm: top
   lines:
   - who: south_lead
     type: speech
     text: SOUTH HOLDING. THREE AT THE CROSSWALK.
+    side: r
 - id: P11
   shape: strip
   gap: short
@@ -275,13 +298,14 @@ panels:
     as it expels a tiny pressure bubble. No words, symbols or glow in art. Location chungju_river_gate. Hard
     white headlamp/portable lamp key, lilac mineral fill, violet shadows and opaque dark teal water; continuous
     stone ceiling, NO SKY. Flat cel shadows, varied warm near-black outlines; keep calm zone plain. No generated
-    lettering, bubbles, readable signs/runes or UI; incidentals screens dark.'
+    lettering, bubbles, readable signs/runes or UI; incidentals screens dark. Crop strictly to the throat slit,
+    receiving groove and pressure bubble; no entire eel body in this strip.'
   calm: none
   silent: true
   notes: Reader sees physical proximity and use of relay acoustics, not a complete explanatory cutaway. P15's
     full network answer remains ch077.
 - id: P12
-  shape: wide
+  shape: tall
   gap: short
   bg: white
   camera: inside low on the south relay grille and three waiting figures
@@ -292,19 +316,22 @@ panels:
     chungju_river_gate. Hard white headlamp/portable lamp key, lilac mineral fill, violet shadows and opaque
     dark teal water; continuous stone ceiling, NO SKY. Flat cel shadows, varied warm near-black outlines; keep
     calm zone plain. No generated lettering, bubbles, readable signs/runes or UI; incidentals screens dark.
+    The false voice comes from the receiver at left. Show the actual south_lead at right with both workers
+    behind him.
   calm: top
   lines:
-  - who: meridian_lead
+  - who: offpanel:meridian_lead
     type: phone
     text: UPSTREAM READY. CROSSWALK CLEAR.
+    side: l
   - who: south_lead
     type: speech
-    text: YOU'RE MOVING ALREADY?
+    text: UPSTREAM, HAVE YOU STARTED CROSSING?
     side: r
   notes: False response carried by unisolated old routes into survey microphones. Local test branch remains
     open. Do not label this as the genuine upstream captain.
 - id: P13
-  shape: wide
+  shape: tall
   gap: short
   bg: white
   camera: inside frontal on genuine upstream captain with both hands visible
@@ -315,12 +342,14 @@ panels:
     reaction, eyes wide, face angry and alarmed. Location chungju_river_gate. Hard white headlamp/portable
     lamp key, lilac mineral fill, violet shadows and opaque dark teal water; continuous stone ceiling, NO SKY.
     Flat cel shadows, varied warm near-black outlines; keep calm zone plain. No generated lettering, bubbles,
-    readable signs/runes or UI; incidentals screens dark.'
+    readable signs/runes or UI; incidentals screens dark. The captain''s speaking face sits in the centre with
+    both workers held back behind her.'
   calm: top
   lines:
   - who: meridian_lead
     type: shout
     text: NO! WE'RE STILL HOLDING!
+    side: c
 - id: P14
   shape: strip
   gap: short
@@ -331,16 +360,18 @@ panels:
     wrist: recognising the controlled test did not tame the river. Location chungju_gate_site. Early daylight
     and a hard white work lamp, cool blue-grey shadows with muted orange safety mesh. Flat cel shadows, varied
     warm near-black outlines; keep calm zone plain. No generated lettering, bubbles, readable signs/runes or
-    UI; incidentals screens dark.'
+    UI; incidentals screens dark. Only Haein''s hand, pencil and recorders are shown; her head is off-panel
+    left above the crop.'
   calm: bottom
   lines:
-  - who: haein
+  - who: offpanel:haein
     type: speech
-    text: THAT DIDN'T COME FROM THE OPEN BRANCH.
+    text: THE REPEATS ARE USING ANOTHER STONE PATH. OUR TEST BRANCH IS STILL DISCONNECTED.
+    side: l
   notes: The locally isolated spur has not mysteriously reconnected. Another untraced old acoustic path is
     active.
 - id: P15
-  shape: wide
+  shape: tall
   gap: short
   bg: white
   camera: inside medium on Kesh crouched beside Nib
@@ -354,16 +385,17 @@ panels:
     his hand. ACTING: Kesh distressed by the false pairing, Nib increasingly certain of a hunter. Location
     chungju_river_gate. Hard white headlamp/portable lamp key, lilac mineral fill, violet shadows and opaque
     dark teal water; continuous stone ceiling, NO SKY. Flat cel shadows, varied warm near-black outlines; keep
-    calm zone plain. No generated lettering, bubbles, readable signs/runes or UI; incidentals screens dark.'
+    calm zone plain. No generated lettering, bubbles, readable signs/runes or UI; incidentals screens dark.
+    Kesh crouches left and Nib kneels right, with both speaking faces and the protected microphone visible.'
   calm: top
   lines:
   - who: kesh
     type: speech
-    text: IT BORROWED HIS ANSWER.
+    text: THE PREDATOR COPIED THE UPSTREAM CAPTAIN'S VOICE.
     side: l
   - who: nib
     type: speech
-    text: IT WANTS THEM MOVING.
+    text: THE PREDATOR WANTS THE TEAMS MOVING.
     side: r
   notes: Do not formulate the no-knock distinction here; P17 plant belongs to ch072.
 - id: P16
@@ -381,14 +413,16 @@ panels:
     positions. ACTING in tiny workers: recoiling without running. Location chungju_river_gate. Hard white headlamp/portable
     lamp key, lilac mineral fill, violet shadows and opaque dark teal water; continuous stone ceiling, NO SKY.
     Flat cel shadows, varied warm near-black outlines; keep calm zone plain. No generated lettering, bubbles,
-    readable signs/runes or UI; incidentals screens dark.'
+    readable signs/runes or UI; incidentals screens dark. The command comes through a survey receiver at right;
+    the outside consortium leader is not drawn here.'
   calm: top
   lines:
-  - who: consortium_lead
+  - who: offpanel:consortium_lead
     type: phone
     text: BACK TO THE CENTRAL SHELF. ONE TEAM AT A TIME.
+    side: r
 - id: P17
-  shape: wide
+  shape: full
   gap: short
   bg: white
   camera: outside over the lead's shoulder at the plain map board
@@ -399,7 +433,8 @@ panels:
     toward her so his crew hears the same plan. Taeo positions two plain counters on the paper. Location chungju_gate_site.
     Early daylight and a hard white work lamp, cool blue-grey shadows with muted orange safety mesh. Flat cel
     shadows, varied warm near-black outlines; keep calm zone plain. No generated lettering, bubbles, readable
-    signs/runes or UI; incidentals screens dark.
+    signs/runes or UI; incidentals screens dark. Show the consortium_lead left, Minho centre and Taeo right,
+    with standing room and all three speaking faces clear.
   calm: top
   lines:
   - who: consortium_lead
@@ -408,14 +443,14 @@ panels:
     side: l
   - who: minho
     type: speech
-    text: KEEP THEIR SIGHTLINES OPEN.
-    side: r
+    text: KEEP BOTH TEAMS IN SIGHT WHILE THEY CROSS.
+    side: c
   - who: taeo
     type: speech
     text: SERA WILL COVER THE CROSSING.
     side: r
 - id: P18
-  shape: wide
+  shape: tall
   gap: short
   bg: white
   camera: inside low profile on Sera braced above the crosswalk
@@ -429,12 +464,13 @@ panels:
     ACTING: no vanity in her face now, pure competence. Location chungju_river_gate. Hard white headlamp/portable
     lamp key, lilac mineral fill, violet shadows and opaque dark teal water; continuous stone ceiling, NO SKY.
     Flat cel shadows, varied warm near-black outlines; keep calm zone plain. No generated lettering, bubbles,
-    readable signs/runes or UI; incidentals screens dark.'
+    readable signs/runes or UI; incidentals screens dark. Sera stands left in a full archery stance; Nib stands
+    right nearer the wall, both faces visible.'
   calm: top
   lines:
   - who: sera
     type: speech
-    text: I CAN COVER FEET. NOT THE WHOLE RIVER.
+    text: I CAN COVER THE CROSSING. I CAN'T WATCH THE WHOLE RIVER.
     side: l
   - who: nib
     type: speech
@@ -451,11 +487,12 @@ panels:
     to pull back. The next stone is dry under the headlamp. Location chungju_river_gate. Hard white headlamp/portable
     lamp key, lilac mineral fill, violet shadows and opaque dark teal water; continuous stone ceiling, NO SKY.
     Flat cel shadows, varied warm near-black outlines; keep calm zone plain. No generated lettering, bubbles,
-    readable signs/runes or UI; incidentals screens dark.
+    readable signs/runes or UI; incidentals screens dark. Only the captain's boot, first crossing stone and
+    ledge appear in this strip.
   calm: none
   silent: true
 - id: P20
-  shape: wide
+  shape: tall
   gap: short
   bg: white
   camera: inside downstream profile, false voice at south's receiver
@@ -466,20 +503,22 @@ panels:
     Location chungju_river_gate. Hard white headlamp/portable lamp key, lilac mineral fill, violet shadows
     and opaque dark teal water; continuous stone ceiling, NO SKY. Flat cel shadows, varied warm near-black
     outlines; keep calm zone plain. No generated lettering, bubbles, readable signs/runes or UI; incidentals
-    screens dark.'
+    screens dark. The false command comes from the receiver at left; south_lead stands right with his two workers
+    beside him.'
   calm: top
   lines:
-  - who: consortium_lead
+  - who: offpanel:consortium_lead
     type: phone
-    text: SOUTH NOW. THEY'RE THROUGH.
+    text: SOUTH NOW. UPSTREAM IS THROUGH.
+    side: l
   - who: south_lead
     type: speech
-    text: WE DON'T SEE THEM.
+    text: WE CAN'T SEE THE UPSTREAM TEAM.
     side: r
   notes: False consortium-lead response, not the real outside command. Source ambiguity intentional; no radio
     transmitting through threshold without intact cable.
 - id: P21
-  shape: wide
+  shape: full
   gap: short
   bg: white
   camera: outside frontal on the real lead, microphone lowered
@@ -489,7 +528,8 @@ panels:
     her closed folder. Taeo turns abruptly toward her. ACTING: she is stunned by hearing her own order, then
     furious. Location chungju_gate_site. Early daylight and a hard white work lamp, cool blue-grey shadows
     with muted orange safety mesh. Flat cel shadows, varied warm near-black outlines; keep calm zone plain.
-    No generated lettering, bubbles, readable signs/runes or UI; incidentals screens dark.'
+    No generated lettering, bubbles, readable signs/runes or UI; incidentals screens dark. Show the real consortium_lead
+    left and Taeo right waist-up, both faces and their microphones clear.'
   calm: top
   lines:
   - who: consortium_lead
@@ -538,11 +578,12 @@ panels:
     and connected to arms. ACTING: desperate care between workers. Location chungju_river_gate. Hard white
     headlamp/portable lamp key, lilac mineral fill, violet shadows and opaque dark teal water; continuous stone
     ceiling, NO SKY. Flat cel shadows, varied warm near-black outlines; keep calm zone plain. No generated
-    lettering, bubbles, readable signs/runes or UI; incidentals screens dark.'
+    lettering, bubbles, readable signs/runes or UI; incidentals screens dark. Crop strictly to the two workers''
+    hands, connected wrists and dry rock.'
   calm: none
   silent: true
 - id: P24
-  shape: wide
+  shape: tall
   gap: short
   bg: white
   camera: inside level on south's isolated low island
@@ -553,14 +594,16 @@ panels:
     rock. ACTING: frightened relief with no safe route out. Location chungju_river_gate. Hard white headlamp/portable
     lamp key, lilac mineral fill, violet shadows and opaque dark teal water; continuous stone ceiling, NO SKY.
     Flat cel shadows, varied warm near-black outlines; keep calm zone plain. No generated lettering, bubbles,
-    readable signs/runes or UI; incidentals screens dark.'
+    readable signs/runes or UI; incidentals screens dark. The south_lead is at right helping both workers onto
+    the island, all three full figures visible.'
   calm: top
   lines:
   - who: south_lead
     type: shout
     text: SOUTH CUT OFF! THREE HERE!
+    side: r
 - id: P25
-  shape: wide
+  shape: tall
   gap: short
   bg: white
   camera: inside upstream long-lens view across the broken gap
@@ -571,12 +614,14 @@ panels:
     with a plain white work lamp facing the central shelf. ACTING: containment, not panic. Location chungju_river_gate.
     Hard white headlamp/portable lamp key, lilac mineral fill, violet shadows and opaque dark teal water; continuous
     stone ceiling, NO SKY. Flat cel shadows, varied warm near-black outlines; keep calm zone plain. No generated
-    lettering, bubbles, readable signs/runes or UI; incidentals screens dark.'
+    lettering, bubbles, readable signs/runes or UI; incidentals screens dark. The meridian_lead stands left
+    with the two workers behind her on the high ledge.'
   calm: top
   lines:
   - who: meridian_lead
     type: shout
     text: UPSTREAM CUT OFF TOO. ALL THREE STANDING.
+    side: l
 - id: P26
   shape: strip
   gap: short
@@ -587,14 +632,15 @@ panels:
     practiced calm fails at the sight of small objects standing for people. Location chungju_gate_site. Early
     daylight and a hard white work lamp, cool blue-grey shadows with muted orange safety mesh. Flat cel shadows,
     varied warm near-black outlines; keep calm zone plain. No generated lettering, bubbles, readable signs/runes
-    or UI; incidentals screens dark.'
+    or UI; incidentals screens dark. Crop to Taeo''s eyes, paper and fallen counters; no whole figure in this
+    strip.'
   calm: bottom
   lines:
   - who: taeo
     type: float
-    text: I KNEW HOW TO DRAW THEM TOGETHER.
+    text: ON PAPER, BRINGING EVERYONE HOME HAD LOOKED EASY.
 - id: P27
-  shape: wide
+  shape: full
   gap: short
   bg: white
   camera: outside medium, lead admitting the plan's failure
@@ -605,23 +651,24 @@ panels:
     Taeo rather than at the symbols. Minho takes the idle microphone from its cradle. ACTING: responsibility
     without an excuse. Location chungju_gate_site. Early daylight and a hard white work lamp, cool blue-grey
     shadows with muted orange safety mesh. Flat cel shadows, varied warm near-black outlines; keep calm zone
-    plain. No generated lettering, bubbles, readable signs/runes or UI; incidentals screens dark.'
+    plain. No generated lettering, bubbles, readable signs/runes or UI; incidentals screens dark. Show consortium_lead
+    left, Minho centre and Taeo right, all three speaking faces visible above the map.'
   calm: top
   lines:
   - who: consortium_lead
     type: speech
-    text: MY PLAN PUT THEM ON THE CROSSING.
+    text: MY PLAN PUT BOTH TEAMS ON THE CROSSING.
     side: l
   - who: minho
     type: speech
-    text: NOW WE GET THEM OFF IT.
-    side: r
+    text: THEN WE GET BOTH TEAMS BACK.
+    side: c
   - who: taeo
     type: speech
-    text: ORRIN. THE SOUTH PIER.
+    text: ORRIN, CAN YOU BRACE THE SOUTH PIER?
     side: r
 - id: P28
-  shape: wide
+  shape: tall
   gap: short
   bg: white
   camera: inside low on Orrin facing a falling overhang
@@ -635,44 +682,57 @@ panels:
     toward him. ACTING: Orrin''s calm is muscular effort, Nib focused. Location chungju_river_gate. Hard white
     headlamp/portable lamp key, lilac mineral fill, violet shadows and opaque dark teal water; continuous stone
     ceiling, NO SKY. Flat cel shadows, varied warm near-black outlines; keep calm zone plain. No generated
-    lettering, bubbles, readable signs/runes or UI; incidentals screens dark.'
+    lettering, bubbles, readable signs/runes or UI; incidentals screens dark. Orrin braces at left; Nib approaches
+    from right, with his face and full running posture visible.'
   calm: top
   lines:
   - who: orrin
     type: speech
-    text: I CAN HOLD IT. NOT FOREVER.
+    text: I CAN BRACE THE STONE CAP. NOT FOREVER.
     side: l
   - who: nib
     type: speech
-    text: DON'T LIFT. BRACE.
+    text: HOLD THE CAP. DON'T LIFT IT.
     side: r
 - id: P29
-  shape: wide
+  shape: full
   gap: short
   bg: white
-  camera: outside close two-shot, Taeo asks at the radio while Sejin listens
+  camera: outside waist-up two-shot, Taeo left and Sejin right listening to Orrin on the radio
   art: 'taeo in navy jacket/black hoodie and cargo trousers, one RIGHT-eye mole; sejin in sage scrubs, olive
     medic rig and charcoal cargos, cropped hair and tired eyes. Taeo extends his RIGHT palm open beside the
     handset and looks at Sejin before the channel. Sejin puts a hand near his elbow, ready to stop him. ACTING:
     he asks clearly, not hiding the strain. Location chungju_gate_site. Early daylight and a hard white work
     lamp, cool blue-grey shadows with muted orange safety mesh. Flat cel shadows, varied warm near-black outlines;
     keep calm zone plain. No generated lettering, bubbles, readable signs/runes or UI; incidentals screens
-    dark.'
+    dark. Frame Taeo left and Sejin right waist-up. Orrin''s reply comes from the radio centred between them.'
   calm: top
   lines:
   - who: taeo
     type: speech
-    text: ORRIN, CAN I TAKE THE IMPACT?
+    text: ORRIN, MAY I TAKE PART OF THE IMPACT?
     side: l
-  - who: orrin
+  - who: offpanel:orrin
     type: phone
     text: ONE HIT.
-  - who: sejin
-    type: speech
-    text: ONE. THEN YOU TELL ME.
-    side: r
+    side: c
   notes: 'Consented bounded mechanical transfer only. No reservoir: Haein''s prototype broke in ch060; no working
     replacement established.'
+- id: P29a
+  shape: inset-r
+  gap: short
+  bg: white
+  camera: outside close-up on Sejin confirming the limit before the shared impact
+  art: sejin in sage scrubs, olive medic rig and charcoal cargos at chungju_gate_site. Her adult face occupies
+    the right third, eyes fixed on Taeo off-panel left. She holds one finger up and keeps her other hand near
+    his elbow below frame, firm and ready to stop him. Early daylight and hard white work lamp, cool blue-grey
+    shadows, muted orange mesh behind. No new injury, blood, link glow, generated lettering or UI.
+  calm: left
+  lines:
+  - who: sejin
+    type: speech
+    text: ONE HIT. THEN TELL ME WHERE IT HURTS.
+    side: r
 - id: P30
   shape: strip
   gap: short
@@ -683,13 +743,13 @@ panels:
     not touch the transmit switch. ACTING in hand: controlled willingness. Location chungju_gate_site. Early
     daylight and a hard white work lamp, cool blue-grey shadows with muted orange safety mesh. Flat cel shadows,
     varied warm near-black outlines; keep calm zone plain. No generated lettering, bubbles, readable signs/runes
-    or UI; incidentals screens dark.'
+    or UI; incidentals screens dark. Only Taeo''s right palm, cuff and radio are drawn.'
   calm: none
   silent: true
   notes: Orrin's consented link only, slate-green. No amber, no Sera or Kesh link colour established by this
     script.
 - id: P31
-  shape: full
+  shape: tall
   gap: short
   bg: white
   camera: inside low action, cap stone landing against Orrin's shell
@@ -705,7 +765,8 @@ panels:
     breathing. Location chungju_river_gate. Hard white headlamp/portable lamp key, lilac mineral fill, violet
     shadows and opaque dark teal water; continuous stone ceiling, NO SKY. Flat cel shadows, varied warm near-black
     outlines; keep calm zone plain. No generated lettering, bubbles, readable signs/runes or UI; incidentals
-    screens dark.'
+    screens dark. Give Orrin''s whole bracing stance, Nib''s rope work and Sera''s cover position full vertical
+    room.'
   calm: top
   sfx:
   - text: THUD
@@ -728,16 +789,18 @@ panels:
     in his curled fingers: pain restrained but visible. Location chungju_gate_site. Early daylight and a hard
     white work lamp, cool blue-grey shadows with muted orange safety mesh. Flat cel shadows, varied warm near-black
     outlines; keep calm zone plain. No generated lettering, bubbles, readable signs/runes or UI; incidentals
-    screens dark.'
+    screens dark. Only Taeo''s right forearm, curled hand and Sejin''s supporting hand appear; Taeo''s head
+    is off-panel right.'
   calm: bottom
   lines:
-  - who: taeo
+  - who: offpanel:taeo
     type: nervous
-    text: RIGHT ARM. I'M TELLING YOU.
+    text: MY RIGHT FOREARM HURTS. I'M TELLING YOU.
+    side: r
   notes: 'New injury for handoff: purple right forearm bruise after one shared hit; no vomiting or severe recoil
     before ch071.'
 - id: P33
-  shape: wide
+  shape: tall
   gap: short
   bg: white
   camera: inside medium, Nib throwing a safety rope across the low gap
@@ -752,7 +815,8 @@ panels:
     other. Location chungju_river_gate. Hard white headlamp/portable lamp key, lilac mineral fill, violet shadows
     and opaque dark teal water; continuous stone ceiling, NO SKY. Flat cel shadows, varied warm near-black
     outlines; keep calm zone plain. No generated lettering, bubbles, readable signs/runes or UI; incidentals
-    screens dark.'
+    screens dark. Nib stands at left and south_lead at right across the gap; give both full throwing and catching
+    postures room.'
   calm: top
   lines:
   - who: nib
@@ -777,14 +841,14 @@ panels:
     No one is pulled in. Location chungju_river_gate. Hard white headlamp/portable lamp key, lilac mineral
     fill, violet shadows and opaque dark teal water; continuous stone ceiling, NO SKY. Flat cel shadows, varied
     warm near-black outlines; keep calm zone plain. No generated lettering, bubbles, readable signs/runes or
-    UI; incidentals screens dark.'
+    UI; incidentals screens dark. Only the eel''s back ridge, water surface and hanging rope loop are shown.'
   calm: none
   silent: true
 - id: P35
-  shape: wide
+  shape: tall
   gap: short
   bg: white
-  camera: inside close two-shot, Sera checking Kesh's posture
+  camera: inside medium two-shot, Sera left checking kneeling Kesh at right
   art: 'sera in river-green/cream tunic, sand trousers and brown boots; long braid, bow LEFT, bracer LEFT,
     flute RIGHT, quiver RIGHT shoulder; kesh, mature 198 cm moth-like signal keeper, paired feather antennae,
     four folded grey-brown wing panels, olive tunic, dark trousers and wrapped shoes; two arms/two legs. Kesh
@@ -792,7 +856,8 @@ panels:
     between him and the water, bow still free. ACTING: she asks without infantilising him. Location chungju_river_gate.
     Hard white headlamp/portable lamp key, lilac mineral fill, violet shadows and opaque dark teal water; continuous
     stone ceiling, NO SKY. Flat cel shadows, varied warm near-black outlines; keep calm zone plain. No generated
-    lettering, bubbles, readable signs/runes or UI; incidentals screens dark.'
+    lettering, bubbles, readable signs/runes or UI; incidentals screens dark. Show Sera''s speaking face at
+    left and Kesh''s at right, with room for her standing guard and his kneeling posture.'
   calm: top
   lines:
   - who: sera
@@ -808,7 +873,7 @@ panels:
     text: THEN GIVE ME DIRECTIONS, NOT NAMES.
     side: l
 - id: P36
-  shape: wide
+  shape: full
   gap: short
   bg: white
   camera: outside over the lead's shoulder, two route options on paper
@@ -819,26 +884,27 @@ panels:
     drawing one toward B; Minho points at the unstable cap position. Taeo watches his own empty palm, still
     sore. Location chungju_gate_site. Early daylight and a hard white work lamp, cool blue-grey shadows with
     muted orange safety mesh. Flat cel shadows, varied warm near-black outlines; keep calm zone plain. No generated
-    lettering, bubbles, readable signs/runes or UI; incidentals screens dark.
+    lettering, bubbles, readable signs/runes or UI; incidentals screens dark. Show consortium_lead left, Minho
+    centre and Taeo right, all three faces clear above the route map.
   calm: top
   lines:
   - who: consortium_lead
     type: speech
-    text: A IS DRY. BUT THE CAP IS COMING DOWN.
+    text: CHANNEL A IS DRY. THE STONE CAP ABOVE IT IS FAILING.
     side: l
   - who: minho
     type: speech
-    text: B WOULD BYPASS THE BROKEN CROSSWALK.
-    side: r
+    text: CHANNEL B BYPASSES THE BROKEN CROSSWALK.
+    side: c
   - who: taeo
     type: speech
-    text: IF B IS OPEN.
+    text: IF CHANNEL B IS CLEAR.
     side: r
 - id: P37
-  shape: wide
+  shape: tall
   gap: short
   bg: white
-  camera: inside from Sera's shoulder along channel A
+  camera: inside profile two-shot with Nib left and Sera right, both faces visible beside Channel A
   art: 'sera in river-green/cream tunic, sand trousers and brown boots; long braid, bow LEFT, bracer LEFT,
     flute RIGHT, quiver RIGHT shoulder; nib, adult wiry scout in pinkish-tan wrap/charcoal shorts and his matte
     dark-brown leather ankle boots from ch043, broad round toes, four dull gunmetal eyelet pairs, dark-brown
@@ -849,16 +915,17 @@ panels:
     with one forearm and eyes its footing. ACTING: both dislike how little room there is. Location chungju_river_gate.
     Hard white headlamp/portable lamp key, lilac mineral fill, violet shadows and opaque dark teal water; continuous
     stone ceiling, NO SKY. Flat cel shadows, varied warm near-black outlines; keep calm zone plain. No generated
-    lettering, bubbles, readable signs/runes or UI; incidentals screens dark.'
+    lettering, bubbles, readable signs/runes or UI; incidentals screens dark. Nib crouches left measuring the
+    passage; Sera stands right looking into Channel A, her speaking profile clear.'
   calm: top
   lines:
   - who: nib
     type: speech
-    text: A IS NARROW.
+    text: CHANNEL A IS NARROW.
     side: l
   - who: sera
     type: speech
-    text: NARROW ISN'T EMPTY.
+    text: NARROW DOESN'T MEAN SAFE.
     side: r
 - id: P38
   shape: strip
@@ -870,12 +937,13 @@ panels:
     A white work-lamp reflection measures the creeping rise against the stone. Location chungju_river_gate.
     Hard white headlamp/portable lamp key, lilac mineral fill, violet shadows and opaque dark teal water; continuous
     stone ceiling, NO SKY. Flat cel shadows, varied warm near-black outlines; keep calm zone plain. No generated
-    lettering, bubbles, readable signs/runes or UI; incidentals screens dark.
+    lettering, bubbles, readable signs/runes or UI; incidentals screens dark. Only a worker's boot welt, waterline
+    and wet stone are shown.
   calm: none
   silent: true
   notes: South island remains occupied and threatened; no drowning or new named injury.
 - id: P39
-  shape: wide
+  shape: full
   gap: short
   bg: white
   camera: outside medium, Sejin hearing the worker channel
@@ -884,28 +952,31 @@ panels:
     her voice low so the worker hears one calm person. Taeo holds his right forearm with his left hand, listening.
     Location chungju_gate_site. Early daylight and a hard white work lamp, cool blue-grey shadows with muted
     orange safety mesh. Flat cel shadows, varied warm near-black outlines; keep calm zone plain. No generated
-    lettering, bubbles, readable signs/runes or UI; incidentals screens dark.
+    lettering, bubbles, readable signs/runes or UI; incidentals screens dark. Show Sejin left and Taeo centre
+    waist-up; the distressed worker is heard through the receiver at right.
   calm: top
   lines:
-  - who: survey_workers
+  - who: offpanel:survey_workers
     type: phone
     text: MY BOOTS ARE FILLING.
+    side: r
   - who: sejin
     type: speech
     text: KEEP HOLDING EACH OTHER. YOU'RE BOTH STILL STANDING.
     side: l
 - id: P40
-  shape: vignette
+  shape: strip
   gap: long
   bg: white
-  camera: inside high quiet view of two hands clasped on the island
+  camera: high extreme close detail of two workers' hands gripping each other's forearms
   art: Adult mixed survey crews in muted slate work clothes, white hard hats and plain orange safety vests;
     no children.. Two adult workers grip each other's forearms above the rising black water; one has shut his
     eyes for a breath, the other watches for the next rope instruction. Human scale, hard flat light, no injury
     focus. Location chungju_river_gate. Hard white headlamp/portable lamp key, lilac mineral fill, violet shadows
     and opaque dark teal water; continuous stone ceiling, NO SKY. Flat cel shadows, varied warm near-black
     outlines; keep calm zone plain. No generated lettering, bubbles, readable signs/runes or UI; incidentals
-    screens dark.
+    screens dark. Crop strictly to the clasped hands and forearms against dark water, with no whole workers
+    in this strip.
   calm: none
   silent: true
 - id: P41
@@ -917,14 +988,16 @@ panels:
     his uninjured hand toward empty air without touching anything. ACTING: a frightened man requesting certainty;
     no smirk or confidence yet. Location chungju_gate_site. Early daylight and a hard white work lamp, cool
     blue-grey shadows with muted orange safety mesh. Flat cel shadows, varied warm near-black outlines; keep
-    calm zone plain. No generated lettering, bubbles, readable signs/runes or UI; incidentals screens dark.'
+    calm zone plain. No generated lettering, bubbles, readable signs/runes or UI; incidentals screens dark.
+    Taeo''s speaking face occupies the right third, framed waist-up above his open hand.'
   calm: top
   lines:
   - who: taeo
     type: speech
-    text: SERA. CHECK B FROM THE DRY LIP. PLEASE.
+    text: SERA, CHECK CHANNEL B FROM THE DRY BANK. PLEASE.
+    side: r
 - id: P42
-  shape: wide
+  shape: tall
   gap: short
   bg: white
   camera: inside following low angle behind Sera, bank approach only
@@ -938,12 +1011,13 @@ panels:
     body. Nib holds a loose safety end and keeps pace one step back. ACTING: deliberate caution. Location chungju_river_gate.
     Hard white headlamp/portable lamp key, lilac mineral fill, violet shadows and opaque dark teal water; continuous
     stone ceiling, NO SKY. Flat cel shadows, varied warm near-black outlines; keep calm zone plain. No generated
-    lettering, bubbles, readable signs/runes or UI; incidentals screens dark.'
+    lettering, bubbles, readable signs/runes or UI; incidentals screens dark. Sera walks left along the dry
+    bank and Nib follows at right; give both full cautious stances room.'
   calm: top
   lines:
   - who: sera
     type: speech
-    text: I'M LOOKING. I HAVEN'T CHOSEN IT.
+    text: I'M CHECKING CHANNEL B. I HAVEN'T AGREED TO ENTER.
     side: l
   - who: nib
     type: speech
@@ -964,22 +1038,24 @@ panels:
   calm: none
   silent: true
 - id: P44
-  shape: wide
+  shape: tall
   gap: short
   bg: white
-  camera: inside close-up from front beside Sera's bow hand
+  camera: inside three-quarter view of Sera stopped at the dry lip, her face and planted foot visible
   art: 'sera in river-green/cream tunic, sand trousers and brown boots; long braid, bow LEFT, bracer LEFT,
     flute RIGHT, quiver RIGHT shoulder. Sera stops her forward foot completely, jaw tight, eyes fixed below
     the water ahead. Her right hand hovers near one arrow; left bracer dry. ACTING: seeing danger and trusting
     her own skill. Location chungju_river_gate. Hard white headlamp/portable lamp key, lilac mineral fill,
     violet shadows and opaque dark teal water; continuous stone ceiling, NO SKY. Flat cel shadows, varied warm
     near-black outlines; keep calm zone plain. No generated lettering, bubbles, readable signs/runes or UI;
-    incidentals screens dark.'
+    incidentals screens dark. Sera occupies the left third with her face and planted boot visible; she remains
+    on dry rock.'
   calm: top
   lines:
   - who: sera
     type: speech
     text: WAIT.
+    side: l
 - id: P45
   shape: wide
   gap: short
@@ -995,7 +1071,7 @@ panels:
   lines:
   - who: taeo
     type: float
-    text: THEN SOMETHING SOUNDED CERTAIN.
+    text: I WANTED AN ANSWER THAT DIDN'T SOUND AFRAID.
   notes: Pre-hook onset of cyan only; window itself appears next panel with DING. No system content shown early.
 - id: P46
   shape: tall
@@ -1008,12 +1084,14 @@ panels:
     below, upper half empty for a confident plain window. No Sera body composited into camp. Location chungju_gate_site.
     Early daylight and a hard white work lamp, cool blue-grey shadows with muted orange safety mesh. Flat cel
     shadows, varied warm near-black outlines; keep calm zone plain. No generated lettering, bubbles, readable
-    signs/runes or UI; incidentals screens dark.
+    signs/runes or UI; incidentals screens dark. Sera's live reply comes from the receiver at right beside
+    Taeo; she remains inside and is not drawn at camp.
   calm: top
   lines:
-  - who: sera
+  - who: offpanel:sera
     type: phone
     text: IT ISN'T. I CAN SEE SOMETHING IN B.
+    side: r
   ui:
   - kind: system.notice
     'on': float

@@ -42,7 +42,7 @@ props:
 palette_notes: "Concourse/course adapt A4 institutional blue-white/slate with navy stands. Aerial field has ordinary blue sky, clean daylight, cool slate shadows; Sunline's white and muted-gold kit stays material colour, never Nib's amber or a supernatural aura. Corridor white practical strips, cream walls. No active link, cyan windows, gate sky, return marks, bloom, haze or decorative particles. Generated signs and sponsor patches blank; UI labels supply all words."
 panels:
   - id: P01
-    shape: wide
+    shape: tall
     gap: none
     bg: white
     camera: "over Taeo's shoulder from the arena service doorway, continuing the semifinal reveal"
@@ -50,11 +50,12 @@ panels:
       exhibition_arena, taeo outdoor with old-patch pack looks toward disciplined navy/silver Meridian juniors below
       the opposite VIP enclosure. nib default/boots stands beside him, sera river-green on the other side. The team
       remain outside the course, semifinal not started. Cool white sports practicals and slate/navy. No new Baek
-      close-up, readable board or early semifinal action.
+      close-up, readable board or early semifinal action. Sera stands left, Nib centre, Taeo right,
+      all three faces visible in profile toward the arena.
     calm: top
     lines:
       - {who: taeo, type: speech, side: r, text: "ONE ROUND AT A TIME."}
-      - {who: sera, type: speech, side: l, text: "WE HAVE TIME FOR MY ANGLE."}
+      - {who: sera, type: speech, side: l, text: "WE HAVE TIME FOR PHOTOS BEFORE THE SEMIFINAL."}
   - id: P02
     shape: narrow-r
     gap: short
@@ -76,7 +77,7 @@ panels:
       it. Binoculars high; cold roof daylight, slate shadow. No cute pout, threatening knife, visible phone screen or text.
     calm: none
   - id: P04
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "reverse toward Sera cheerfully stepping into the fan's desired frame"
@@ -84,10 +85,11 @@ panels:
       sera, river-green default, at exhibition_concourse turns the other way into the phone's frame, chin lifted,
       bright delighted smile. LEFT hand keeps bow safely lowered, RIGHT hand smooths her braid. taeo outdoor behind
       her tries to work out which direction to stand. Roof daylight blue-white, slate floor, signs blank. No glamour
-      aura, active screen or fan touching her without permission.
+      aura, active screen or fan touching her without permission. Sera stands left, Taeo centre behind,
+      fan phone at the right edge.
     calm: top
     lines:
-      - {who: sera, type: speech, side: l, text: "THIS SIDE. THE LIGHT IS BETTER."}
+      - {who: sera, type: speech, side: l, text: "PHOTOGRAPH MY LEFT SIDE. THE LIGHT IS BETTER."}
   - id: P05
     kind: title
     gap: long
@@ -103,14 +105,15 @@ panels:
       fan_artist in mauve sweatshirt with sketchbook, fan_friend in pale-grey hoodie holding dark-screen phone.
       sera river-green stands willingly with them, grinning; taeo outdoor keeps broad route open for orrin, nib
       default/boots waits outside the frame near west wall. Blue-white/slate daylight. Blank banners; no huge swarm,
-      force barrier or readable sketchbook words.
+      force barrier or readable sketchbook words. Fan artist stands left, Sera centre, Taeo right,
+      all three speaking faces visible; fan friend beside the artist.
     calm: top
     lines:
-      - {who: fan_artist, type: speech, side: l, text: "YOU'RE THE ARCHER! COULD WE—"}
-      - {who: sera, type: speech, side: r, text: "YES."}
+      - {who: fan_artist, type: speech, side: l, text: "YOU'RE THE ARCHER! COULD WE TAKE A PHOTO WITH YOU?"}
+      - {who: sera, type: speech, side: c, text: "YES."}
       - {who: taeo, type: speech, side: r, text: "SHE'S VERY APPROACHABLE TODAY."}
   - id: P07
-    shape: wide
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -119,11 +122,11 @@ panels:
       CHIBI sera, river-green tunic, braid, LEFT bracer and RIGHT flute, cycles through THREE small pose thumbnails
       around a main proud pose, all clearly a gag. CHIBI taeo outdoor holds her bow safely unstrung, arms exhausted,
       old-patch pack on back. Flat pale-blue screentone and indicated roof daylight. No Nib in selfie, readable phone,
-      real multiple bodies or seductive pin-up pose.
+      real multiple bodies or seductive pin-up pose. Main Sera stands left, Taeo right.
     calm: top
     lines:
       - {who: sera, type: speech, side: l, text: "WHICH SIDE LOOKS MORE EXPENSIVE?"}
-      - {who: taeo, type: speech, side: r, text: "THE ONE MY ARM CAN STILL HOLD."}
+      - {who: taeo, type: speech, side: r, text: "THE ONE WHERE YOU TAKE YOUR BOW BACK."}
   - id: P08
     shape: inset-l
     gap: short
@@ -138,43 +141,46 @@ panels:
     ui:
       - {kind: label, text: "THE ARCHER FROM NOWHERE", at: [0.51, 0.15], size: 29}
   - id: P09
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "front on Sera looking at the drawing rather than her phone"
     art: >
       sera, default river-green at exhibition_concourse, has stopped posing. She studies her fan drawing in genuine
       surprised pleasure, mouth softening, then points at its overlarge shoulder with a proud grin. fan_artist mauve
-      at left waits shyly. Roof daylight blue-white/slate, blank banners and no visible phone screens.
+      at left waits shyly. Sera stands right with the drawing visible between them.
+      Roof daylight blue-white/slate, blank banners and no visible phone screens.
     calm: top
     lines:
       - {who: sera, type: speech, side: r, text: "YOU MADE MY SHOULDERS SMALLER."}
-      - {who: fan_artist, type: nervous, side: l, text: "I CAN FIX THAT."}
-      - {who: sera, type: speech, side: r, text: "I LOVE IT."}
+      - {who: fan_artist, type: nervous, side: l, text: "I CAN MAKE THE SHOULDERS BIGGER."}
+      - {who: sera, type: speech, side: r, text: "I LOVE THE DRAWING."}
   - id: P10
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "side at the concourse wall, fan friend turning phone toward Nib"
     art: >
       fan_friend pale-grey hoodie at exhibition_concourse starts to include nib in a wider photo, phone screen away
       from reader. nib default/boots by wall turns his whole torso out of the line, face flat. taeo outdoor, old-patch
-      pack, steps into the gap with an open hand, no aggression. Roof blue-white/slate, no paparazzi crush or camera touching Nib.
+      pack, steps into the gap with an open hand, no aggression. Fan friend stands left, Taeo centre,
+      Nib right, all three faces visible. Roof blue-white/slate, no paparazzi crush or camera touching Nib.
     calm: top
     lines:
-      - {who: fan_friend, type: speech, side: l, text: "COULD THE GOBLIN COME IN TOO?"}
-      - {who: taeo, type: speech, side: r, text: "ASK NIB."}
+      - {who: fan_friend, type: speech, side: l, text: "COULD THE GOBLIN JOIN OUR PHOTO?"}
+      - {who: taeo, type: speech, side: c, text: "ASK NIB."}
       - {who: nib, type: speech, side: r, text: "NO."}
   - id: P11
-    shape: inset-r
+    shape: full
     gap: short
     bg: white
-    camera: "close on Sera and the respectful fan pair making room"
+    camera: "medium three-shot of Sera and the respectful fan pair making room"
     art: >
       sera river-green at exhibition_concourse keeps her smile for the fan pair as they move their phone away from
       nib's direction. She angles her own head into the clearer background, enjoying the light. Ordinary braid and
       bone ornament, LEFT bow still lowered. Roof daylight, pale blue-white/slate. No Nib trapped in reflections,
-      visible screen or villainous fan expressions.
+      visible screen or villainous fan expressions. Fan friend stands left, fan artist centre, Sera right,
+      all faces visible.
     calm: left
     lines:
       - {who: fan_friend, type: speech, side: l, text: "OH. OKAY."}
@@ -188,7 +194,8 @@ panels:
       exhibition_service_corridor alcove, cream concrete and white strip light, crew bench set back from public
       doorway. sera river-green raises her own dark-slate phone for a triumphant selfie, bow resting safely beside
       bench. Behind her nib default/boots sits with eyes closed and binoculars in both hands, resting, not posing.
-      taeo outdoor notices him in the lens line. Slate shadows, blank equipment cases; phone screen faces away.
+      taeo outdoor notices him in the lens line. Sera stands left, Nib sits centre behind her, Taeo right.
+      Slate shadows, blank equipment cases; phone screen faces away.
     calm: top
     lines:
       - {who: sera, type: speech, side: l, text: "ONE FOR THE SEMIFINAL."}
@@ -201,26 +208,28 @@ panels:
     art: >
       nib, adult weathered default, seated at exhibition_service_corridor recovery bench opens his amber eyes, mouth
       immediately flat. LEFT notch and sole lower LEFT fang visible; binoculars held low, strap still round neck.
-      White practical strip from upper left, slate shadows. No cute sleepy expression, recording icon in art or violent reaction.
+      Nib's face fills the left third. White practical strip from upper left, slate shadows.
+      No cute sleepy expression, recording icon in art or violent reaction.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "DELETE IT."}
+      - {who: nib, type: speech, side: l, text: "DELETE THAT PHOTO."}
   - id: P14
-    shape: wide
+    shape: full
     gap: short
     bg: white
-    camera: "over Nib's shoulder toward Sera holding the unsent photo draft"
+    camera: "eye-level across the bench, Nib and Sera in readable profile with the phone between them"
     art: >
       sera river-green at exhibition_service_corridor lowers her phone enough to look at nib, irritated surprise
       replacing pleasure. Phone screen turned to her and hidden from reader, unsent image on it in story. taeo
       outdoor stands just behind the bench, unsure. White strip practicals, cream/slate. No hand snatching phone,
-      public press crowd or text.
+      public press crowd or text. Nib sits left with his speaking face visible in profile, Sera stands right,
+      Taeo centre behind the bench.
     calm: top
     lines:
       - {who: sera, type: speech, side: r, text: "YOU'RE ONLY IN THE BACKGROUND."}
       - {who: nib, type: speech, side: l, text: "IT'S STILL ME."}
   - id: P15
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low two-shot from beside the recovery bench, both now standing"
@@ -228,11 +237,11 @@ panels:
       nib rises from exhibition_service_corridor bench, exact brown boots planted, adult posture rigid. sera
       river-green stands with phone at her own chest, defensive chin raised, not physically towering for a threat.
       Their faces are angry in different ways. taeo outdoor at far edge. White strip practical light, cool slate shadows;
-      no cute gag, knife, grabbed throat or magical intimidation.
+      no cute gag, knife, grabbed throat or magical intimidation. Nib stands left, Sera right, Taeo centre behind.
     calm: top
     lines:
       - {who: sera, type: speech, side: r, text: "WE WON. LET ME HAVE ONE GOOD THING."}
-      - {who: nib, type: speech, side: l, text: "HAVE YOUR FACE. NOT MINE."}
+      - {who: nib, type: speech, side: l, text: "TAKE YOUR OWN PHOTO. LEAVE ME OUT."}
   - id: P16
     shape: strip
     gap: short
@@ -244,7 +253,7 @@ panels:
       White practical light, cream bone and muted river-green, slate shadow. Five fingers, no blood, crushed ornament or lettering.
     calm: none
     lines:
-      - {who: sera, type: speech, side: r, text: "I'M ALLOWED TO LIKE THIS."}
+      - {who: "offpanel:sera", type: speech, side: r, text: "I'M ALLOWED TO ENJOY THE ATTENTION."}
   - id: P17
     shape: wide
     gap: short
@@ -253,12 +262,13 @@ panels:
     art: >
       nib default at exhibition_service_corridor, weathered face fully angry, ears angled back, hands at sides and
       away from sheathed knife. Brown rope belt, RIGHT pouch and binoculars unchanged, exact boots below frame.
-      White strip catches one cheek, slate background. Maintain adult dignity, no menace magic, chibi anger symbol or words.
+      His face occupies the left third. White strip catches one cheek, slate background.
+      Maintain adult dignity, no menace magic, chibi anger symbol or words.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "I'M ALLOWED NOT TO."}
+      - {who: nib, type: speech, side: l, text: "I'M ALLOWED TO KEEP MY FACE OFF CAMERA."}
   - id: P18
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "front three-shot, Taeo stepping between the competing eye lines"
@@ -269,9 +279,9 @@ panels:
       No physical separation, held wrists or comedy distortion.
     calm: top
     lines:
-      - {who: taeo, type: nervous, side: c, text: "SORRY. WE COULD JUST STOP ALL THE CREW PHOTOS—"}
-      - {who: sera, type: shout, side: r, text: "YOU MEAN MINE."}
-      - {who: nib, type: speech, side: l, text: "I DIDN'T SAY THAT."}
+      - {who: taeo, type: nervous, side: c, text: "SORRY. COULD WE STOP TAKING CREW PHOTOS?"}
+      - {who: sera, type: shout, side: r, text: "SO I'D HAVE TO STOP TAKING MY PHOTOS TOO?"}
+      - {who: nib, type: speech, side: l, text: "I DIDN'T ASK FOR A BAN."}
   - id: P19
     shape: inset-l
     gap: long
@@ -285,18 +295,19 @@ panels:
     lines:
       - {who: taeo, type: float, text: "I WANTED THEM QUIET. THAT WASN'T THE SAME AS LISTENING."}
   - id: P20
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "side three-shot, Taeo taking a seat to leave their space open"
     art: >
       taeo outdoor sits on the edge of exhibition_service_corridor recovery bench, no longer physically between
       nib and sera. Both stand facing one another with room to step away. nib default/boots, sera river-green,
-      phone lowered. Cream concrete and white practical strip, cool slate. No forced handshake, conciliatory hug or screen words.
+      phone lowered. Nib stands left, Sera right, Taeo sits centre. Cream concrete and white practical strip,
+      cool slate. No forced handshake, conciliatory hug or screen words.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: c, text: "THAT WAS MY EASY ANSWER. IT WASN'T YOURS."}
-      - {who: taeo, type: speech, side: c, text: "SAY WHAT YOU WANT. I'LL SHUT UP."}
+      - {who: taeo, type: speech, side: c, text: "I WAS TRYING TO END THE ARGUMENT. I DIDN'T LISTEN."}
+      - {who: taeo, type: speech, side: c, text: "SAY WHAT YOU EACH WANT. I'LL SHUT UP."}
   - id: P21
     shape: wide
     gap: short
@@ -305,11 +316,12 @@ panels:
     art: >
       nib adult default at exhibition_service_corridor holds matte-black binoculars, Kett's fork hinge facing up,
       LEFT strap knot clear. Eyes steady on sera, anger still there, voice in story now level. White practical light,
-      slate/cream background. RIGHT sticker pouch and LEFT sheath distinct; no chibi sadness, tear or drawn text.
+      slate/cream background. Nib's face occupies the left third. RIGHT sticker pouch and LEFT sheath
+      distinct at the lower crop edge; no chibi sadness, tear or drawn text.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "YOU ASK BEFORE YOU KEEP MY FACE."}
-      - {who: nib, type: speech, side: l, text: "EVEN WHEN YOU LIKE THE PICTURE."}
+      - {who: nib, type: speech, side: l, text: "ASK BEFORE YOU PHOTOGRAPH ME."}
+      - {who: nib, type: speech, side: l, text: "I CAN SAY NO EVEN IF YOU LIKE THE PICTURE."}
   - id: P22
     shape: wide
     gap: short
@@ -318,25 +330,27 @@ panels:
     art: >
       sera river-green at exhibition_service_corridor looks toward the fan drawing tucked into her open gear case,
       then back to nib; defensive pride drops enough to show how much the praise matters. Braid, ordinary ears,
-      LEFT bracer and RIGHT flute retained. Phone screen hidden. White strip practicals, cream/slate, no vanity gag or tears.
+      LEFT bracer and RIGHT flute retained. Sera's face is right, Nib stands off-panel left.
+      Phone screen hidden. White strip practicals, cream/slate, no vanity gag or tears.
     calm: top
     lines:
-      - {who: sera, type: speech, side: r, text: "AND I GET TO KEEP MINE."}
-      - {who: sera, type: speech, side: r, text: "I LIKE THEM CALLING ME AN ARCHER."}
-      - {who: nib, type: speech, side: l, text: "THAT IS YOUR FACE."}
+      - {who: sera, type: speech, side: r, text: "I GET TO KEEP PHOTOS OF MYSELF."}
+      - {who: sera, type: speech, side: r, text: "I LIKE BEING KNOWN FOR MY ARCHERY."}
+      - {who: "offpanel:nib", type: speech, side: l, text: "YOUR FACE. YOUR CHOICE."}
   - id: P23
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "medium on Taeo, waiting for both before offering the small practical agreement"
     art: >
       taeo outdoor at exhibition_service_corridor bench looks from nib to sera without a ready smile, palms open
-      on his knees. The two companions remain at frame edges, still separately angry. White practical key, light
+      on his knees. Nib stands left, Taeo sits centre, Sera stands right, all faces visible and still
+      separately angry. White practical key, light
       slate shadows, plain cream wall and no phone display. No judge pose, crew contract or ownership emblem.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: c, text: "SERA'S PHOTOS STAY HERS. NIB CHOOSES WHETHER HE'S IN ONE."}
-      - {who: taeo, type: speech, side: c, text: "AND THE RECOVERY BENCH IS OFF CAMERA UNLESS WE ASK."}
+      - {who: taeo, type: speech, side: c, text: "SERA CAN KEEP HER OWN PHOTOS. NIB CHOOSES WHETHER HE'S IN ANY PHOTO."}
+      - {who: taeo, type: speech, side: c, text: "ASK EVERYONE ON THE RECOVERY BENCH BEFORE TAKING A PHOTO THERE."}
   - id: P24
     shape: strip
     gap: short
@@ -350,20 +364,21 @@ panels:
     ui:
       - {kind: phone.info_card, on: screen, title: "PHOTO DRAFT", text: "UNSENT PHOTO DELETED", notes: "The offending private-bench selfie was never posted. One deleted draft; no claim to erase public match footage."}
   - id: P25
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "eye-level two-shot across a real gap, Sera offering the apology without stepping closer"
     art: >
       sera river-green at exhibition_service_corridor sets the phone face-down on her own case, looks at nib rather
       than taeo. Her jaw is still tight, but she means the apology. nib default/boots stands with binoculars hanging,
-      shoulders not relaxed yet. White strip practical, cream/slate, no hug, comic sweat, visible screen or text.
+      shoulders not relaxed yet. Nib stands left, Sera right. White strip practical, cream/slate,
+      no hug, comic sweat, visible screen or text.
     calm: top
     lines:
-      - {who: sera, type: speech, side: r, text: "I HEARD YOU THE FIRST TIME. I SHOULD HAVE LISTENED."}
+      - {who: sera, type: speech, side: r, text: "YOU ALREADY SAID NO TO PHOTOS. I SHOULD HAVE ASKED BEFORE TAKING ANOTHER."}
       - {who: nib, type: speech, side: l, text: "YES."}
   - id: P26
-    shape: vignette
+    shape: full
     gap: long
     bg: white
     silent: true
@@ -375,7 +390,7 @@ panels:
       Broad path for Orrin, no shut door, active screen or forced group photo.
     calm: none
   - id: P27
-    shape: wide
+    shape: full
     gap: long
     bg: white
     camera: "front from a marked public camera position as Sera returns to a solo frame"
@@ -383,13 +398,14 @@ panels:
       exhibition_concourse, sera river-green takes her chosen solo picture against a plain event wall. Her strong
       shoulders square, chin lifts, LEFT bow lowered and RIGHT flute visible. fan_artist mauve waits with phone
       held screen away; taeo outdoor stands well outside frame. Daylight through roof trusses, blue-white/slate.
+      Fan artist stands left, Sera right, Taeo beyond the shot's frame.
       No Nib in reflection or background, generated words, glamour glow or sensual pose.
     calm: top
     lines:
       - {who: fan_artist, type: speech, side: l, text: "JUST YOU?"}
       - {who: sera, type: speech, side: r, text: "JUST ME. MAKE THE SHOULDERS HONEST."}
   - id: P28
-    shape: wide
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -397,7 +413,8 @@ panels:
     art: >
       CHIBI sera in river-green points grandly to the very last corner of an imaginary photo frame. CHIBI taeo
       outdoor with old-patch pack bends sideways to remove one stray sleeve from it, huge apologetic sweat drop.
-      Fan_artist mauve holds phone from behind. Flat pale-blue screentone, roof-light cream key. Nib absent, no drawn text.
+      Fan_artist mauve holds phone from behind at centre. Sera stands left, Taeo right.
+      Flat pale-blue screentone, roof-light cream key. Nib absent, no drawn text.
     calm: top
     lines:
       - {who: sera, type: speech, side: l, text: "YOUR ELBOW IS FAMOUS NOW."}
@@ -421,13 +438,14 @@ panels:
     art: >
       orrin adult slateback at exhibition_service_corridor alcove rests his broad head near nib's boots, not on
       them. His heavy eyes look up gently; nib default keeps eyes half-closed, mouth easing slightly. Shell terraces
-      and healed seam intact. White practical strip light, slate/cream, no pet nuzzling, harness or crowd.
+      and healed seam intact. Orrin's head fills the left third, seated Nib's speaking profile the right.
+      White practical strip light, slate/cream, no pet nuzzling, harness or crowd.
     calm: top
     lines:
-      - {who: orrin, type: speech, side: l, text: "BETTER?"}
+      - {who: orrin, type: speech, side: l, text: "IS THE ALCOVE BETTER?"}
       - {who: nib, type: speech, side: r, text: "QUIETER."}
   - id: P31
-    shape: wide
+    shape: tall
     gap: long
     bg: white
     camera: "concourse three-quarter as an announcement draws Sera and Taeo toward the aerial viewing tier"
@@ -435,11 +453,12 @@ panels:
       taeo outdoor and sera river-green at exhibition_concourse turn toward west mesh doors, hearing the PA.
       Sera's public grin gives way to athlete's interest; Taeo looks suddenly young with expectation. Sunline's
       distant white/gold silhouette warms up beyond mesh, never poster-size face. Roof daylight, slate floor,
-      banners blank and no active screen.
+      banners blank and no active screen. Sera stands left, Taeo right; announcement comes from the
+      overhead PA, with record official off-panel at the course.
     calm: top
     lines:
-      - {who: record_official, type: phone, side: c, text: "SUNLINE. AERIAL-CLASS SOLO RECORD ATTEMPT. VIEWING TIER OPEN."}
-      - {who: sera, type: speech, side: l, text: "THAT, I WANT TO SEE."}
+      - {who: "offpanel:record_official", type: phone, side: c, text: "SUNLINE. AERIAL-CLASS SOLO RECORD ATTEMPT. VIEWING TIER OPEN."}
+      - {who: sera, type: speech, side: l, text: "I WANT TO SEE SUNLINE'S RUN."}
   - id: P32
     shape: full
     gap: long
@@ -455,7 +474,7 @@ panels:
     lines:
       - {who: narr, type: tag, text: "AERIAL-CLASS SOLO · PERSONAL RECORD ATTEMPT"}
   - id: P33
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "medium in the adjoining warm-up bay, Sunline checking with her manager"
@@ -464,7 +483,8 @@ panels:
       exhibition_aerial_bay. White/muted-gold battle jacket with split tails and shoulder protection over dark
       joint undersuit, white trousers/flat combat boots, five-finger gauntlets; leaf-bladed spear with charcoal
       shaft and gold collar RIGHT hand. Beige-blazer manager shows stopwatch, tablet back visible. Sunline focused,
-      no media smile yet. Roof daylight, white/slate, blank sponsor patches; no golden aura or text.
+      no media smile yet. Manager stands left, Sunline right. Roof daylight, white/slate, blank sponsor
+      patches; no golden aura or text.
     calm: top
     lines:
       - {who: sunline_manager, type: speech, side: l, text: "CROSSWIND'S UP."}
@@ -482,9 +502,9 @@ panels:
       setting, illegible runes, sparks or lettering.
     calm: none
     lines:
-      - {who: sunline, type: speech, side: r, text: "THEN KEEP THE CAMERA STILL."}
+      - {who: "offpanel:sunline", type: speech, side: r, text: "WIND'S FINE. KEEP THE CAMERA STILL."}
   - id: P35
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low from the launch deck with physical timing board beyond"
@@ -514,7 +534,7 @@ panels:
     sfx:
       - {text: "KRAK", style: impact, at: [0.72, 0.32], size: L, rot: -15}
   - id: P37
-    shape: wide
+    shape: tall
     gap: none
     bg: white
     camera: "side-on from a fixed gantry camera position, two target levels in one composition"
@@ -549,9 +569,9 @@ panels:
       Clear daylight from open roof, cool slate shadows. No sparkling pupils, reflected words or overt resentment at Sunline.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "I WANTED EVERYONE TO LOOK AT ME LIKE THAT."}
+      - {who: taeo, type: float, text: "I WANTED PEOPLE TO CHEER FOR SOMETHING I COULD DO."}
   - id: P40
-    shape: wide
+    shape: tall
     gap: none
     bg: white
     camera: "long-lens view from protected fixed camera line toward the final two discs"
@@ -590,7 +610,7 @@ panels:
     sfx:
       - {text: "THOOM", style: impact, at: [0.49, 0.76], size: L, rot: 0}
   - id: P43
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "frontal view of physical result board with Sunline in profile below it"
@@ -598,7 +618,8 @@ panels:
       exhibition_aerial_course physical dark blank result board above protected rail, sunline white/gold below
       in profile, head tipped back to read, one exhausted half-smile appearing. Official grey polo holds six fingers
       in two separate normal hands toward manager; nobody celebrates before clean confirmation. Open-roof daylight,
-      slate/white and muted gold. Board blank for labels, no hologram or confetti.
+      slate/white and muted gold. Official stands centre, Sunline right, manager left; all faces visible.
+      Board blank for labels, no hologram or confetti.
     calm: top
     ui:
       - {kind: label, text: "6 / 6 CLEAN · 8.67 s", at: [0.50, 0.25], size: 36}
@@ -607,7 +628,7 @@ panels:
       - {who: record_official, type: phone, side: c, text: "SIX CLEAN. EIGHT POINT SIX SEVEN. NEW PERSONAL RECORD."}
     notes: "Required spectacular record payoff. 8.67 s replaces her own 8.91 s, a 0.24-second improvement. Not the crew reservoir's 0.8-second limit."
   - id: P44
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "big reaction at the protected viewing tier"
@@ -615,11 +636,11 @@ panels:
       BIG REACTION, taeo outdoor at exhibition_aerial_course tier lets out an unguarded delighted shout, mouth wide,
       eyes bright, both hands clapping. sera river-green whistles loudly, LEFT bow safely lowered beside rail.
       Nearby fans cheer; not every spectator in a single identical pose. Clear daylight, slate/navy and sky blue,
-      no victory aura, giant sweat icons or readable signs.
+      no victory aura, giant sweat icons or readable signs. Sera stands left, Taeo right.
     calm: top
     lines:
       - {who: taeo, type: shout, side: r, text: "YES!"}
-      - {who: sera, type: speech, side: l, text: "THAT LAST TURN. THAT WAS BEAUTIFUL."}
+      - {who: sera, type: speech, side: l, text: "SUNLINE'S LAST TURN WAS BEAUTIFUL."}
   - id: P45
     shape: inset-l
     gap: short
@@ -632,9 +653,9 @@ panels:
       No copied Sunline power, score in his own name or active reservoir.
     calm: right
     lines:
-      - {who: taeo, type: float, text: "AND I STILL HAD TO DO MY OWN WORK."}
+      - {who: taeo, type: float, text: "I STILL HAD MY OWN WORK TO DO."}
   - id: P46
-    shape: vignette
+    shape: tall
     gap: long
     bg: white
     silent: true
@@ -646,7 +667,7 @@ panels:
       mesh, cool slate shadows, edges white. No exhausted collapse, wound, broken gear or screen.
     calm: none
   - id: P47
-    shape: wide
+    shape: tall
     gap: long
     bg: white
     camera: "medium at the service-corridor trestle, Sera choosing her own solo picture"
@@ -654,14 +675,15 @@ panels:
       exhibition_service_corridor, sera river-green holds her phone screen toward herself and smiles at the solo
       frame, then looks across to nib default/boots resting beside orrin. She lowers the phone before turning
       toward him. taeo outdoor gathers notebook at trestle; haein overalls checks intact reservoir case.
+      Sera stands right, Nib rests left beside Orrin, Taeo and Haein centre at the trestle.
       White strip practicals, cream/slate. No Nib in selfie reflection, forced reconciliation or readable screen.
     calm: top
     lines:
-      - {who: sera, type: speech, side: r, text: "I KEPT MY GOOD ONE."}
+      - {who: sera, type: speech, side: r, text: "I KEPT MY SOLO PHOTO."}
       - {who: nib, type: speech, side: l, text: "GOOD."}
     notes: "They have a workable boundary, not identical feelings about fame. Nib remains camera-averse; Sera keeps enjoying publicity."
   - id: P48
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "corridor eye level as Sunline passes with her manager, noticing Taeo"
@@ -669,13 +691,14 @@ panels:
       sunline white/gold walks through exhibition_service_corridor after record, RIGHT spear upright and safely
       capped for transit. Beige-blazer manager behind with dark tablet back visible. Sunline recognises taeo,
       outdoor, by the trestle, raises one eyebrow in wry interest. Nib default/boots remains in alcove away from
-      lens lines. White practical strip key, cool slate/cream. No camera crew invited in, sponsor text or recruitment contract.
+      lens lines. Sunline stands left, Taeo right, manager centre behind Sunline, Nib deeper in the alcove.
+      White practical strip key, cool slate/cream. No camera crew invited in, sponsor text or recruitment contract.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "CONGRATULATIONS. THAT LAST TURN—"}
+      - {who: taeo, type: speech, side: r, text: "CONGRATULATIONS. YOUR LAST TURN WAS INCREDIBLE."}
       - {who: sunline, type: speech, side: l, text: "I KNOW. I WAS THERE."}
   - id: P49
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "medium two-shot from the corridor wall, Sunline testing his answer without a sales smile"
@@ -683,7 +706,8 @@ panels:
       sunline white/gold at exhibition_service_corridor rests one hand on her grounded spear and considers taeo
       outdoor with an experienced, dry half-smile. Taeo's delighted expression turns wary. Behind him the intact
       reservoir case and notebook, Nib outside immediate crop. White practical strip, slate shadow, blank sponsor
-      patches. No evil celebrity grin, glowing power or readable phone.
+      patches. Sunline stands left, Taeo right, both speaking faces visible.
+      No evil celebrity grin, glowing power or readable phone.
     calm: top
     lines:
       - {who: sunline, type: speech, side: l, text: "YOUR GOBLIN'S CLIP DID MORE THAN MY WHOLE CAMPAIGN."}
@@ -709,7 +733,7 @@ panels:
       taeo outdoor at exhibition_service_corridor looks sunline directly in the eyes. He has to swallow first;
       polite, tired face resolves, no smug righteousness. RIGHT-eye mole, old-patch pack, notebook under LEFT arm.
       Cool white practical source, slate/cream background. Nib is not dragged into shot or spoken for with a
-      celebratory gesture; no active screen, floating window or lettering.
+      celebratory gesture; no active screen, floating window or lettering. Taeo's face occupies the right third.
     calm: top
     lines:
       - {who: taeo, type: speech, side: r, text: "...NO."}
@@ -724,7 +748,8 @@ panels:
       RIGHT spear capped upright, chestnut ponytail swinging; one small real approving smile reaches her tired
       eyes instead of her practised campaign grin. taeo outdoor at frame right looks startled. Foreground
       trestle holds intact reservoir case, notebook now in Taeo's hand. White practical strip light, cream/slate,
-      sponsor patches blank. No agency handshake, contract, crowd applause or extra story beat after the line.
+      sponsor patches blank. Sunline occupies the left third, Taeo right, manager centre behind her.
+      No agency handshake, contract, crowd applause or extra story beat after the line.
     calm: top
     lines:
       - {who: sunline, type: speech, side: l, text: "GOOD ANSWER."}

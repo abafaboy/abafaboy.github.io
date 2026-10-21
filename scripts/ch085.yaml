@@ -44,10 +44,11 @@ panels:
       longing and alarm pull his tired face in opposite directions. Nib (nib, default with chosen boots
       and locked binoculars) stands on his RIGHT, level and watchful. Violet rim beyond the mesh,
       blue dusk above grey gravel. No entry by Taeo, no other window.
+      Taeo stands in the left third; Nib stands in the right third.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "ANOTHER PERSON."}
-      - {who: nib, type: speech, side: r, text: "ANOTHER ANSWER. IT CAN BE NO."}
+      - {"who": "taeo", "type": "speech", "side": "l", "text": "ANOTHER CHANCE TO INVITE SOMEONE."}
+      - {"who": "nib", "type": "speech", "side": "r", "text": "WE ASK. THEY CAN SAY NO."}
   - id: P03
     shape: inset-r
     gap: short
@@ -60,7 +61,7 @@ panels:
       Dusk from frame left, flat slate-blue background. No fresh blood, no link light.
     calm: none
   - id: P04
-    shape: wide
+    shape: tall
     gap: short
     bg: navy
     camera: "low two-shot beside the packed sample cases"
@@ -68,10 +69,11 @@ panels:
       Nib (chosen boots, pouch RIGHT, sheath LEFT) closes an empty sample case at yeoju_field_rim.
       Taeo (outdoor) lifts his backpack, meeting Nib's eyes instead of looking toward the gate.
       Their faces are serious. Last pale dusk across gravel, violet gate small behind; no new extraction.
+      Nib stands left at the case and Taeo right with the backpack; both faces remain visible.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "AT THE YARD. WITH EVERYONE THERE."}
-      - {who: nib, type: speech, side: l, text: "GOOD."}
+      - {"who": "taeo", "type": "speech", "side": "r", "text": "WE'LL SEND THE INVITATION AT THE YARD. WITH EVERYONE THERE."}
+      - {"who": "nib", "type": "speech", "side": "l", "text": "GOOD."}
   - id: P05
     kind: title
     gap: long
@@ -91,7 +93,7 @@ panels:
     lines:
       - {who: narr, type: tag, text: "RYU SURVEY · THAT EVENING"}
   - id: P07
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "medium group from the west trestle toward the van"
@@ -101,12 +103,13 @@ panels:
       leans forward eagerly beside Sera (sera, river-green wrap, long braid, bone flute RIGHT hip,
       recovering LEFT bow arm braced and supported, bow unstrung). Yard lamps warm their attentive faces; brown/navy palette.
       No cute insect face or extra limbs.
+      Kesh stands left and Sera right, her braced arm supported; give both figures room.
     calm: top
     lines:
       - {who: kesh, type: speech, side: l, text: "SHOULD WE LOOK BUSY?"}
       - {who: sera, type: speech, side: r, text: "I ALWAYS LOOK EXPENSIVE."}
   - id: P08
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low shot along the trestle surface"
@@ -115,6 +118,7 @@ panels:
       a covered dressing tray and a folded blanket on the yard's west trestle. Her practiced hands
       contrast with guarded eyes. Haein (haein, slate bib overalls, beige tee, tool belt, glasses on crown)
       quietly moves an oily spanner away. Cream work lamp, ochre and olive; no active screens.
+      Sejin stands left and Haein right; show their faces above the trestle and the spanner.
     calm: top
     lines:
       - {who: sejin, type: speech, side: l, text: "DON'T MAKE THE FIRST THING THEY SEE A WEAPON."}
@@ -129,11 +133,12 @@ panels:
       Orrin (orrin, adult slate-terraced stoneback, heavy-lidded olive eyes, no harness) waits on
       the yard's southern apron, leaving a broad open path to the south gate. His expression is
       patient and gently skeptical. Cream lamp across layered slate, cool navy shadow. No pet accessories.
+      Orrin is in the left third of the close-up.
     calm: right
     lines:
-      - {who: orrin, type: speech, side: l, text: "I HAVE LEFT ROOM."}
+      - {"who": "orrin", "type": "speech", "side": "l", "text": "I HAVE LEFT ROOM FOR OUR GUEST."}
   - id: P10
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "over Taeo's right shoulder into the empty apron"
@@ -141,6 +146,7 @@ panels:
       Taeo (outdoor, RIGHT hand raised) faces clear air above the southern yard ground;
       Nib watches his face from the right, binoculars resting high on his chest. Taeo's jaw is
       tense but his hand steady. Lamp-lit ochre ground, navy background; reserve centre for interface.
+      Taeo stands left of centre and Nib at right; give the two standing figures room.
     calm: top
     ui:
       - {kind: system.window, on: float, headline: "[CONTACT WINDOW 6]", body: "[INVITATION AVAILABLE]", button: "[INVITE]", at: [0.50, 0.17], tilt: -7}
@@ -160,14 +166,16 @@ panels:
     lines:
       - {who: taeo, type: float, text: "I USED TO THINK READY MEANT NOT BEING SCARED."}
   - id: P12
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "front three-quarter on Taeo, crew spaced behind"
     art: >
       Taeo (outdoor) addresses the contact point on the yard apron with an awkward formal bow;
+      his RIGHT hand has just completed one deliberate tap in empty air to send the invitation.
       Sejin and Nib stand well back, attentive. His smile is small, earnest and unpracticed.
       Cream lamp and thin cyan side light over ochre/navy; no crowd pressing on the arrival space.
+      Taeo bows at centre, Nib and Sejin well behind to either side; keep the arrival ground open.
     calm: top
     lines:
       - {who: taeo, type: speech, side: c, text: "I'M YOON TAEO. WE WORK AROUND GATES."}
@@ -184,7 +192,7 @@ panels:
       Keep his RIGHT-eye mole; no imaginary candidate portrait or answering silhouette yet.
     calm: none
   - id: P14
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "slight low angle on Taeo reacting to the contact"
@@ -192,11 +200,12 @@ panels:
       Taeo (outdoor) abruptly straightens at the yard contact point, eyes large at a voice
       nobody else can hear yet. Nib, at right, studies him rather than the empty air.
       Hard cyan on Taeo's face against work-lamp ochre; no physical Dara yet, no drawn window.
+      Taeo stands left and Nib right. Dara is a private mediated voice beyond the right edge, with no body drawn.
     calm: top
     lines:
-      - {who: dara, type: phone, text: "IS ANYONE BLEEDING?"}
-      - {who: taeo, type: speech, side: l, text: "NO."}
-      - {who: dara, type: phone, text: "THEN WHY ARE YOU CALLING?"}
+      - {"who": "offpanel:dara", "type": "phone", "text": "IS ANYONE BLEEDING?", "side": "r"}
+      - {"who": "taeo", "type": "speech", "side": "l", "text": "NO."}
+      - {"who": "offpanel:dara", "type": "phone", "text": "THEN WHY ARE YOU CALLING?", "side": "r"}
     notes: "First answer, required exact exchange. The angular phone type denotes mediated contact; only Taeo hears this private invitation audio."
   - id: P15
     shape: inset-l
@@ -207,11 +216,12 @@ panels:
       Taeo (outdoor) at the yard almost apologises, catches himself and looks up honestly.
       The tired eyes soften. Cyan contact light from his right, warm work-lamp edge from left;
       simple navy background, mole under RIGHT eye. No added props or candidate image.
+      Taeo is in the left third of the close-up.
     calm: right
     lines:
-      - {who: taeo, type: nervous, side: l, text: "SORRY. WE'VE BEEN CALLING TOO LATE."}
+      - {"who": "taeo", "type": "nervous", "side": "l", "text": "SORRY. WE NEED HELP BEFORE SOMEONE STARTS BLEEDING."}
   - id: P16
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "profile of Taeo with Sejin across the far trestle"
@@ -219,12 +229,13 @@ panels:
       Taeo (outdoor) keeps facing the private contact, but his glance reaches Sejin (medic rig)
       checking her supply bag at the yard trestle. He looks ashamed, she busy and unaware
       of the words. Cream lamp and cyan edge over muted ochre/olive. No live treatment or fresh bleeding.
+      Taeo stands left, Sejin works at the trestle right; she cannot hear Dara's private contact.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "OUR MEDIC HAS BEEN KEEPING US TOGETHER."}
-      - {who: taeo, type: speech, side: l, text: "I'D LIKE HER TO HAVE HELP BEFORE SOMETHING BREAKS."}
+      - {"who": "taeo", "type": "speech", "side": "l", "text": "OUR MEDIC HANDLES EVERY INJURY."}
+      - {"who": "taeo", "type": "speech", "side": "l", "text": "I'D LIKE HER TO HAVE HELP BEFORE THE NEXT EMERGENCY."}
   - id: P17
-    shape: inset-r
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -234,12 +245,13 @@ panels:
       straight interview posture while sweat runs down both cheeks. Chibi Nib (chosen boots,
       LEFT notch, brown belt, RIGHT pouch, LEFT sheath and binoculars) evaluates him with line eyes.
       Flat dusty-ochre screentone under a symbolic cream yard lamp. No danger or grief.
+      Chibi Taeo stands left and Nib right, both faces clearly visible.
     calm: left
     lines:
       - {who: nib, type: speech, side: r, text: "HE'S DOING THE CUSTOMER FACE."}
       - {who: taeo, type: whisper, side: l, text: "IT'S THE ONLY FORMAL ONE I HAVE."}
   - id: P18
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "normal-style low view past Taeo's hands to his face"
@@ -247,10 +259,11 @@ panels:
       Back to normal adult proportions. Taeo (outdoor) opens both hands at the yard contact,
       palms empty. He looks embarrassed but direct. The open south gate lies beyond him;
       cream lamps, hard navy shadows and faint cyan on his sleeves. No binding thread or restraint.
+      Taeo stands at centre; Dara remains a private voice beyond the right edge.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: c, text: "YOU CAN REFUSE. COMING DOESN'T MAKE YOU MINE."}
-      - {who: dara, type: phone, text: "CAN YOU SEND ME HOME?"}
+      - {"who": "taeo", "type": "speech", "side": "c", "text": "YOU CAN REFUSE. COMING DOESN'T MAKE YOU MINE."}
+      - {"who": "offpanel:dara", "type": "phone", "text": "CAN YOU SEND ME HOME?", "side": "r"}
   - id: P19
     shape: strip
     gap: short
@@ -260,11 +273,12 @@ panels:
       Taeo's eyes at the yard, no smile now; the RIGHT-eye mole just within frame.
       Shame and resolve, no averted gaze. Cyan contact reflection on the lower lids, cream
       work-lamp line above, everything else navy. No fantasy return portal behind him.
+      Taeo's eyes occupy the centre of this detail strip.
     calm: bottom
     lines:
       - {who: taeo, type: speech, side: c, text: "NOT YET. I CAN'T PROMISE WHEN."}
   - id: P20
-    shape: wide
+    shape: tall
     gap: long
     bg: white
     camera: "high angle on Taeo inside the crew's loose semicircle"
@@ -272,10 +286,11 @@ panels:
       Taeo (outdoor) stands alone in the clear yard apron while Nib, Orrin, Sera, Kesh,
       Sejin and Haein leave him room. Everyone waits without crowding him. His shoulders lower
       as the answer arrives. Cream pools of work light over ochre, hard navy perimeter. No summoning yet.
+      Taeo stands centre within the listening semicircle. Dara speaks only through the private contact off right.
     calm: top
     lines:
-      - {who: dara, type: phone, text: "GOOD. THAT ANSWER SOUNDED EXPENSIVE."}
-      - {who: dara, type: phone, text: "I'M BRINGING MY TOOLS."}
+      - {"who": "offpanel:dara", "type": "phone", "text": "GOOD. HONEST ANSWERS USUALLY COST SOMETHING.", "side": "r"}
+      - {"who": "offpanel:dara", "type": "phone", "text": "I'M BRINGING MY TOOLS.", "side": "r"}
   - id: P21
     shape: tall
     gap: long
@@ -337,11 +352,12 @@ panels:
       Taeo (outdoor) at the yard looks up at Dara, whole face opening into an enormous
       relieved expression before he remembers his manners. RIGHT-eye mole; raised hands halfway between
       welcome and surrender. Arrival cyan fading, cream work lamp returning over ochre/navy. No nosebleed.
+      Taeo is in the right third of the close-up.
     calm: left
     lines:
       - {who: taeo, type: nervous, side: r, text: "WELCOME. I'M THE ONE WHO CALLED."}
   - id: P26
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "Dara's point of view across the waiting crew"
@@ -349,24 +365,26 @@ panels:
       At the yard, Nib (adult, boots and locked gear) faces Dara levelly; Orrin waits
       behind, Sera's recovering arm supported, Kesh with wings folded, Sejin beside the trestle.
       Their welcome is cautious, not a receiving line. Cream lamps and navy shadows; arrival seam has closed.
+      Sejin stands in the right third, Nib left and the waiting crew centre. Dara speaks from beyond the left edge.
     calm: top
     lines:
-      - {who: dara, type: speech, side: l, text: "WHICH ONE IS IN CHARGE OF NOT BLEEDING?"}
-      - {who: sejin, type: speech, side: r, text: "APPARENTLY I'VE BEEN PROMOTED."}
+      - {"who": "offpanel:dara", "type": "speech", "side": "l", "text": "WHICH ONE IS IN CHARGE OF NOT BLEEDING?"}
+      - {"who": "sejin", "type": "speech", "side": "r", "text": "APPARENTLY I'VE BEEN PROMOTED."}
   - id: P27
-    shape: narrow-l
+    shape: tall
     gap: short
     bg: white
-    camera: "close-up on Dara's empty bare hand extended"
+    camera: "medium single portrait of Dara left, face above her open hand and hip kit"
     art: >
       Dara (slate armour, oatmeal wrap) extends her bare scarred forearm into the yard lamplight,
       palm open to ask for a working introduction. Her surgical kit sits LEFT, cloth roll RIGHT.
       Intent, unsentimental face at frame top. Cream light, warm grey/navy shadows; no healing effect.
+      Dara is on the left; show her face and extended hand together, with room below her armour.
     calm: right
     lines:
       - {who: dara, type: speech, side: l, text: "DARA. SURGEON."}
   - id: P28
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "side-on at trestle height, Sejin and Dara shaking hands"
@@ -374,12 +392,13 @@ panels:
       Sejin (sage scrubs, olive rig) and Dara (slate armour, scarred forearms) shake hands over
       the yard trestle. Sejin's eyebrow rises; Dara's mouth curls with dry professional curiosity.
       Cream work lamp on their joined hands, muted olive and slate. No domination pose or crushed grip.
+      Sejin stands left and Dara right, both faces and their handshake visible.
     calm: top
     lines:
       - {who: sejin, type: speech, side: l, text: "IM SEJIN. FIELD MEDIC. SAFETY OFFICER."}
       - {who: dara, type: speech, side: r, text: "TWO JOBS. THERE'S YOUR FIRST PROBLEM."}
   - id: P29
-    shape: inset-l
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -388,12 +407,13 @@ panels:
       Chibi Nib (all locked props and chosen boots) solemnly counts pockets on chibi Dara's
       LEFT surgical kit without touching it. Dara (slate armour, RIGHT cloth roll) pulls it
       protectively aside with a raised brow. Flat cream screentone suggests the yard lamp; no medical crisis.
+      Chibi Nib stands left and Dara right, with her surgical kit between them.
     calm: right
     lines:
-      - {who: nib, type: speech, side: l, text: "GOOD POCKETS."}
-      - {who: dara, type: speech, side: r, text: "BAD THINGS IN THEM. ASK FIRST."}
+      - {"who": "nib", "type": "speech", "side": "l", "text": "GOOD POCKETS."}
+      - {"who": "dara", "type": "speech", "side": "r", "text": "SHARP THINGS IN THEM. ASK FIRST."}
   - id: P30
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "normal medium shot toward the open south gate"
@@ -401,12 +421,13 @@ panels:
       Nib (adult, default with boots) points toward the open south gate of ryu_practice_yard;
       Dara follows the gesture, expression briefly stripped of humour. Her scarred hand rests
       on her closed kit, not a weapon. Cream lamp on their profiles, navy street beyond. No locked gate.
+      Nib stands left and Dara right, with the open gate beyond.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "THAT'S OUT."}
-      - {who: dara, type: speech, side: r, text: "I NOTICED."}
+      - {"who": "nib", "type": "speech", "side": "l", "text": "THE YARD GATE STAYS OPEN."}
+      - {"who": "dara", "type": "speech", "side": "r", "text": "I NOTICED."}
   - id: P31
-    shape: vignette
+    shape: full
     gap: long
     bg: white
     silent: true
@@ -415,9 +436,10 @@ panels:
       Dara (armour, LEFT kit, RIGHT roll) stands at the yard's south opening and looks
       out at a plain unfamiliar Seoul industrial street. Her shoulders stay braced, one hand
       closes on the roll. Cream yard light stops at her feet; cool blue street beyond. No remembered battlefield.
+      Give Dara's full figure room at the open yard gate.
     calm: none
   - id: P32
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "three-quarter two-shot at the gate, Taeo keeping a step back"
@@ -425,6 +447,7 @@ panels:
       Taeo (outdoor) stays inside ryu_practice_yard behind Dara, giving her the opening and her
       space. She turns one eye toward him, testing. His hands remain visible and empty.
       Cream lamp from inside, cool blue street light on armour edge; ochre ground. No enclosing crowd.
+      Taeo stands left, keeping a step back; Dara stands right with the exit clear.
     calm: top
     lines:
       - {who: taeo, type: speech, side: l, text: "YOU DON'T HAVE TO WORK TONIGHT."}
@@ -438,11 +461,12 @@ panels:
       Dara's adult square face at the yard gate, dark eyes tracking the crew's fatigue rather
       than the unfamiliar buildings. The abrasive grin has gone; she is counting without moving
       her lips. Cream lamplight, hard slate shadows, grey temple strands. No supernatural diagnostic vision.
+      Dara is in the right third of the close-up.
     calm: left
     lines:
       - {who: dara, type: speech, side: r, text: "WHO IS WALKING HURT?"}
   - id: P34
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "eye-level group beside the west trestle"
@@ -450,26 +474,28 @@ panels:
       Sera (river clothes, supported recovering arm) raises her sound hand at the yard trestle.
       Kesh (folded wings) reluctantly raises his beside her; Orrin, adult slate shell, lifts
       his chin. Dara listens, Sejin beside her with records. Cream lamps, muted olive/slate/ochre. No fresh wounds.
+      Sera sits left, Kesh centre and Dara stands right; Sejin listens beside Dara, Orrin behind.
     calm: top
     lines:
       - {who: sera, type: speech, side: l, text: "HURT. STILL EXPENSIVE."}
       - {who: kesh, type: speech, side: c, text: "DOES TIRED COUNT?"}
       - {who: dara, type: speech, side: r, text: "BEFORE IT KILLS YOU, YES."}
   - id: P35
-    shape: strip
+    shape: tall
     gap: short
     bg: white
-    camera: "close-up across Sejin's closed record folder and Dara's hand"
+    camera: "medium two-shot of Sejin left and Dara right above the closed medical folder"
     art: >
       At the yard trestle Sejin's hand holds a closed plain medical folder; Dara's scarred
       hand stops just short of it, waiting. Neither grabs. Respect is tentative in their
       still wrists. Cream work lamp on dull paper and skin, brown shadow. No legible patient data.
+      Show both faces and their waiting hands: Sejin stands left, Dara right; no hand-only conversation.
     calm: top
     lines:
-      - {who: sejin, type: speech, side: l, text: "THESE BELONG TO THEM."}
-      - {who: dara, type: speech, side: r, text: "THEN ASK THEM."}
+      - {"who": "sejin", "type": "speech", "side": "l", "text": "THE MEDICAL RECORDS BELONG TO THE PATIENTS."}
+      - {"who": "dara", "type": "speech", "side": "r", "text": "THEN ASK THE PATIENTS."}
   - id: P36
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "reverse across the trestle, patients facing both clinicians"
@@ -477,10 +503,11 @@ panels:
       Sera and Kesh nod to Sejin at the yard trestle; Orrin gives a slow deliberate dip
       of his head. Nib remains standing, calm, hands off his knife. Sejin opens the folder
       only after the nods; Dara watches closely. Cream lamps, ochre and navy; notes only abstract strokes.
+      Sera sits in the left third, Orrin rests right, Kesh and Nib centre; the clinicians face them.
     calm: top
     lines:
-      - {who: sera, type: speech, side: l, text: "YES. MY ARM FIRST. MY HUMILIATIONS AFTER DINNER."}
-      - {who: orrin, type: speech, side: r, text: "MINE MAY TAKE LONGER."}
+      - {"who": "sera", "type": "speech", "side": "l", "text": "YES. MY ARM FIRST. MY HUMILIATIONS AFTER DINNER."}
+      - {"who": "orrin", "type": "speech", "side": "r", "text": "MY INJURY LIST MAY TAKE LONGER."}
   - id: P37
     shape: inset-l
     gap: short
@@ -492,21 +519,22 @@ panels:
       low over bruises. Cream lamp, brown tabletop and navy background. No new cup design.
     calm: right
     lines:
-      - {who: taeo, type: float, text: "SOMETHING I COULD DO WITHOUT MAKING IT WORSE."}
+      - {"who": "taeo", "type": "float", "text": "AT LEAST I KNEW HOW TO OFFER WATER."}
   - id: P38
-    shape: wide
+    shape: full
     gap: short
     bg: white
-    camera: "side two-shot between the trestle and the arrival space"
+    camera: "medium three-shot of Taeo left, Nib centre and Dara right with the mug"
     art: >
       Taeo (outdoor) offers Dara the green-banded mug at ryu_practice_yard. Dara (armour and
       locked kit) looks at the water, then at him, suspicious of ceremony. He waits politely.
       Cream lamp on mug and faces, hard navy behind, dusty ochre below. No link between them.
+      Draw Nib's face in the centre between Taeo at left and Dara at right; all three speakers are visible.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "WATER?"}
-      - {who: dara, type: speech, side: r, text: "IS THIS A TEST?"}
-      - {who: nib, type: speech, side: r, text: "HIS."}
+      - {"who": "taeo", "type": "speech", "side": "l", "text": "WATER?"}
+      - {"who": "dara", "type": "speech", "side": "r", "text": "IS THIS A TEST?"}
+      - {"who": "nib", "type": "speech", "side": "c", "text": "TAEO DRINKS FIRST."}
   - id: P39
     shape: strip
     gap: short
@@ -519,7 +547,7 @@ panels:
       the mug rim, deep blue shadow under his chin. No magic, no floating toast or price tag.
     calm: none
   - id: P40
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "three-quarter from behind Sejin toward Dara taking the mug"
@@ -527,10 +555,11 @@ panels:
       Dara takes the mug from Taeo at the yard trestle, her hard expression easing only
       at the eyes. Sejin, foreground in sage scrubs, watches with a dry half-smile. The
       medical folder lies closed again. Cream lamp, oatmeal wrap and muted olive; no healing aura.
+      Sejin stands left in listening profile, Taeo centre and Dara right taking the mug.
     calm: top
     lines:
-      - {who: dara, type: speech, side: r, text: "ODD TRIAGE."}
-      - {who: sejin, type: speech, side: l, text: "YOU GET USED TO THE CUP."}
+      - {"who": "dara", "type": "speech", "side": "r", "text": "ODD WAY TO WELCOME A SURGEON."}
+      - {"who": "sejin", "type": "speech", "side": "l", "text": "YOU GET USED TO THE CUP."}
   - id: P41
     shape: full
     gap: long
@@ -543,7 +572,7 @@ panels:
       pools, ochre and hard navy. No clinic sign, building purchase or armour change.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "I WANTED HELP TO LOOK LESS TIRED."}
+      - {"who": "taeo", "type": "float", "text": "I THOUGHT ANOTHER MEDIC WOULD MEAN LESS WORRY."}
   - id: P42
     shape: inset-r
     gap: short
@@ -553,18 +582,20 @@ panels:
       Dara (slate armour, square mature face) catches sight of Taeo's sleeve riding up as he
       lifts a chair at the yard. Her eyes sharpen, mouth closes. Cream lamp catches grey
       temple hair and one scarred forearm; navy behind. No magical x-ray, no diagnosis graphic.
+      Dara is in the right third of the close-up; Taeo remains beyond the frame.
     calm: left
     lines:
-      - {who: dara, type: speech, side: r, text: "YOU. STOP TIDYING."}
+      - {"who": "dara", "type": "speech", "side": "r", "text": "TAEO. STOP TIDYING."}
   - id: P43
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "front medium shot of Taeo caught holding the chair"
     art: >
       Taeo (outdoor) freezes with a folding chair in his hands at ryu_practice_yard, anxious
-      customer smile returning too quickly. Sejin at right has already understood, her expression
+      customer smile returning too quickly. Sejin at centre has already understood, her expression
       turning guarded. Cream lamp over ochre/navy, chair feet actually gripped and clear of his boots.
+      Draw Dara, slate armour and oatmeal wrap, on the right facing Taeo left; Sejin listens in the centre.
     calm: top
     lines:
       - {who: taeo, type: nervous, side: l, text: "SORRY. I'M NOT A PATIENT."}
@@ -580,7 +611,7 @@ panels:
       Taeo's posture, visible at knee level, yields reluctantly. Cream work light, brown shadows. No fall or fainting.
     calm: top
     lines:
-      - {who: dara, type: speech, side: r, text: "SIT. MAY I LOOK?"}
+      - {"who": "offpanel:dara", "type": "speech", "side": "r", "text": "SIT. MAY I EXAMINE YOUR ARMS?"}
   - id: P45
     shape: inset-l
     gap: short
@@ -590,11 +621,12 @@ panels:
       Taeo sits at the yard trestle and looks first at Sejin, then up at Dara. His
       polite smile goes, leaving embarrassment and trust. Cream lamp on his RIGHT-eye mole,
       navy jacket collar framing the face; plain ochre background. No new bruise shape on the face.
+      Taeo is in the left third of the close-up.
     calm: right
     lines:
       - {who: taeo, type: speech, side: l, text: "YES."}
   - id: P46
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "over Dara's shoulder onto Taeo removing the jacket"
@@ -603,9 +635,10 @@ panels:
       Both forearms show layered purple-brown bruising of different ages. Dara kneels level with
       him, controlled alarm in her jaw; Sejin places the record folder beside his elbow.
       Cream lamp, muted brown/navy; no fresh bleeding, no glowing healing.
+      Taeo sits right removing his jacket, Dara kneels left and Sejin stands centre beside the folder.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "IT'S RECOIL. FROM CARRYING."}
+      - {"who": "taeo", "type": "speech", "side": "r", "text": "LOAD SHARE LETS ME TAKE SOME IMPACT FOR MY COMPANIONS. THE BRUISES ARE RECOIL."}
   - id: P47
     shape: strip
     gap: short
@@ -629,9 +662,9 @@ panels:
       her ribs. Cream work lamp from upper left, hard olive/slate shadows. No meek or defeated pose.
     calm: left
     lines:
-      - {who: taeo, type: float, text: "HELP DIDN'T MEAN I GOT TO KEEP HIDING."}
+      - {"who": "taeo", "type": "float", "text": "GETTING HELP MEANT LETTING SOMEONE SEE ME TOO."}
   - id: P49
-    shape: wide
+    shape: tall
     gap: long
     bg: white
     camera: "side two-shot of the clinicians with Taeo seated between"
@@ -639,10 +672,11 @@ panels:
       Dara and Sejin face one another across Taeo's exposed forearms at the yard trestle.
       Dara's anger is focused on the damage, Sejin's gaze unflinching. Taeo has stopped trying
       to smile. Behind them the open south gate is a cool blue rectangle; cream lamp over ochre.
+      Dara is left, Taeo seated centre and Sejin right; all faces visible above the bruised arms.
     calm: top
     lines:
-      - {who: dara, type: speech, side: l, text: "HOW LONG?"}
-      - {who: taeo, type: speech, side: c, text: "LONGER THAN IT SHOULD HAVE BEEN."}
+      - {"who": "dara", "type": "speech", "side": "l", "text": "HAVE THESE BRUISES HAD TIME TO HEAL?"}
+      - {"who": "taeo", "type": "speech", "side": "c", "text": "NOT BEFORE THE NEXT JOB."}
   - id: P50
     shape: strip
     gap: short

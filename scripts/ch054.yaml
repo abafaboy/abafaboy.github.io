@@ -64,13 +64,14 @@ panels:
       jacket, dull iron-grey shoulders, black trousers and flat combat boots, studies her route leaflet without looking
       for cameras; junior_runner, lean adult man with short hair and blunt staff, and broad cropped-haired junior_bracer
       with foam shield follow in matching kit. taeo outdoor at right. Cool practical white/slate light. Documents blank;
-      no Do Gangjin, evil grins or drawn text.
+      Junior lead stands left, Taeo right, runner and bracer centre behind her.
+      No Do Gangjin, evil grins or drawn text.
     calm: top
     lines:
       - {who: ironvow_junior_lead, type: speech, side: l, text: "WE WATCHED YOUR TIMED RUN."}
-      - {who: taeo, type: speech, side: r, text: "...I'M SORRY TO HEAR THAT."}
+      - {who: taeo, type: speech, side: r, text: "I'M SORRY TO HEAR THAT."}
   - id: P03
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "medium reverse, junior lead now eye-level with Nib"
@@ -78,13 +79,13 @@ panels:
       ironvow_junior_lead crouches slightly at exhibition_service_corridor to address nib directly, neither looming nor
       petting him. nib, default/boots and all scout props, meets her eyes flatly; taeo outdoor stands right. She points
       to his boots with respectful assessment of footwork, not touch. Blue-white practical light and slate shadows.
-      No cat ears, cute Nib or lettering.
+      Junior lead is left, Nib right, Taeo centre behind Nib. No cat ears, cute Nib or lettering.
     calm: top
     lines:
-      - {who: ironvow_junior_lead, type: speech, side: l, text: "YOUR TURN WAS GOOD. KEEP IT OFF MY LANE."}
-      - {who: nib, type: speech, side: r, text: "USE YOUR OWN TURN."}
+      - {who: ironvow_junior_lead, type: speech, side: l, text: "NICE FOOTWORK IN THE TIMED RUN. STAY IN YOUR LANE TODAY."}
+      - {who: nib, type: speech, side: r, text: "YOU HAVE YOUR OWN LANE."}
   - id: P04
-    shape: wide
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -92,7 +93,8 @@ panels:
     art: >
       CHIBI taeo, outdoor with old-patch pack, tries to squeeze a huge rolled blank course leaflet into a normal pocket.
       CHIBI nib, chosen boots, binoculars and locked belt props, opens his RIGHT pouch with flat smug satisfaction.
-      Flat pale-slate screentone, corridor white practical key. No text, deep pocket void effect or humiliation from spectators.
+      Taeo stands left, Nib right. Flat pale-slate screentone, corridor white practical key.
+      No text, deep pocket void effect or humiliation from spectators.
     calm: top
     lines:
       - {who: taeo, type: nervous, side: l, text: "I SHOULD HAVE BOUGHT MORE POCKETS."}
@@ -115,9 +117,9 @@ panels:
     calm: top
     lines:
       - {who: narr, type: tag, text: "ADAPTIVE OBSTACLE · QUARTERFINAL"}
-      - {who: official, type: phone, side: c, text: "IDENTICAL CHANGES IN BOTH LANES. FASTEST CLEAN EXIT ADVANCES."}
+      - {who: "offpanel:official", type: phone, side: c, text: "OBSTACLES CHANGE IDENTICALLY IN BOTH LANES. FASTEST CLEAN EXIT ADVANCES."}
   - id: P07
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "course-level profile as an official demonstrates the counterweight rail"
@@ -125,7 +127,8 @@ panels:
       official in grey polo at exhibition_arena shutter stands clear of both lanes and points along its right-side
       sliding counterweight rail. Closed weighted door, small movable sled nearby, foam-faced edges. nib, default/boots,
       examines the rail from the start-side sightline, sharp adult gaze. White practical lamps, slate padded floor.
-      Rail visible and legal from the beginning; no hidden switch, generated diagram or text.
+      Official stands centre, Nib left near the start. Rail visible and legal from the beginning;
+      no hidden switch, generated diagram or text.
     calm: top
     lines:
       - {who: official, type: phone, side: c, text: "USE ANY MARKED COURSE FITTING. STAY IN YOUR LANE."}
@@ -137,12 +140,13 @@ panels:
     camera: "close on Minho at the operator barrier beside Taeo"
     art: >
       minho, default survey kit, LEFT grey streak, LEFT chest radio and LEFT watch, at exhibition_arena barrier, gives
-      taeo outdoor a small nod rather than a pep-talk grin. His eyes follow the rail. White overhead key, slate shadows,
+      taeo outdoor off-panel to the right a small nod rather than a pep-talk grin. Minho's face fills the left third.
+      His eyes follow the rail. White overhead key, slate shadows,
       blank safety rail decal. No active radio exchange across a gate or lettering.
     calm: left
     lines:
-      - {who: minho, type: speech, side: l, text: "YOU DON'T GET THE YARD BACK."}
-      - {who: taeo, type: speech, side: r, text: "I KNOW. I'VE ASKED VERY POLITELY."}
+      - {who: minho, type: speech, side: l, text: "YOU CAN'T JUST REPEAT THE YARD DRILL HERE."}
+      - {who: "offpanel:taeo", type: speech, side: r, text: "I KNOW. THE ORGANIZERS WOULDN'T MOVE THE YARD HERE."}
   - id: P09
     shape: strip
     gap: short
@@ -151,35 +155,38 @@ panels:
     art: >
       nib, default at exhibition_arena start, only weathered eyes and LEFT-ear notch, amber eye colour unlit. His gaze
       meets taeo across clear barrier, not the overhead cameras. LEFT pad strap at lower edge, binoculars high. Sports
-      lamp from above, cool slate shadow. No mascot face, laser eyes or words.
+      lamp from above, cool slate shadow. Nib's eyes occupy the left third.
+      No mascot face, laser eyes or words.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "SAME AGREEMENT. ASK IF THE LINE CHANGES."}
+      - {who: nib, type: speech, side: l, text: "SAME AGREEMENT. ASK IF THE FORCE ROUTE CHANGES."}
   - id: P10
     shape: wide
     gap: short
     bg: white
-    camera: "over Haein's shoulder on Taeo's hands and reservoir in the operator box"
+    camera: "waist-up two-shot of Haein and Taeo over the reservoir in the operator box"
     art: >
       taeo, outdoor, in exhibition_arena operator box rests RIGHT palm at unchanged reservoir contact, LEFT hand open
       for the agreed cue. haein, slate overalls and glasses on crown, checks a lead beside him, brows firm. Old-patch
-      pack on chair, cracked phone face-down. Institutional blue-white/slate, no active phone or machine labels in art.
+      pack on chair, cracked phone face-down. Haein left and Taeo right, both faces and hands visible,
+      waist-up crop. Institutional blue-white/slate, no active phone or machine labels in art.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "YES. SMALL BANK. PLANNED LINE ONLY."}
-      - {who: haein, type: speech, side: l, text: "AND YOU CAN LET IT GO."}
+      - {who: taeo, type: speech, side: r, text: "YES. STORE A SMALL LOAD. ONLY USE THE ROUTE WE AGREED."}
+      - {who: haein, type: speech, side: l, text: "IF THE ROUTE CLOSES, LET THE CHARGE LEAK AWAY."}
   - id: P11
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low along the opposing lane as the junior lead sets her team"
     art: >
       ironvow_junior_lead, charcoal/iron-grey adult uniform, at exhibition_arena start gives a short practiced hand
       cue. Lean runner lowers his staff, broad bracer plants foam shield, both attentive and competent. Parallel lane
-      geometry clear, no crossover. Cool overhead blue-white and slate; no malicious grin, Gangjin resemblance or generated numbers.
+      geometry clear, no crossover. Junior lead left, runner centre, bracer right. Cool overhead blue-white
+      and slate; no malicious grin, Gangjin resemblance or generated numbers.
     calm: top
     lines:
-      - {who: ironvow_junior_lead, type: speech, side: l, text: "PLATES. TARGET. DOOR. CLEAN."}
+      - {who: ironvow_junior_lead, type: speech, side: l, text: "CROSS THE PLATES. HIT THE TARGET. OPEN THE DOOR."}
   - id: P12
     shape: strip
     gap: short
@@ -201,12 +208,12 @@ panels:
       nib, default with exact ch 43 boots, crosses exhibition_arena pivot plates with compact trained balance, one boot
       just lifting before a plate tilts. LEFT pad close, binoculars secured high, pouch RIGHT and sheath LEFT remain
       separate. He scans the next plate, not the cameras. Cool overhead lamps, slate floor, plain motion strokes.
-      No airborne mascot leap, knife draw or force effect.
+      Nib occupies the left third. No airborne mascot leap, knife draw or force effect.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "SECOND ONE ROCKS LEFT."}
+      - {who: nib, type: speech, side: l, text: "SECOND PLATE TILTS LEFT."}
   - id: P14
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "high view across both lanes as the Iron Vow runner clears ahead"
@@ -217,7 +224,7 @@ panels:
       interference, disabled-access shortcut or score lettering.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "THEY WERE FAST. THAT WAS ALLOWED."}
+      - {who: taeo, type: float, text: "IRON VOW HADN'T CHEATED. WE HAD TO FIND OUR OWN ANSWER."}
   - id: P15
     shape: wide
     gap: short
@@ -226,7 +233,8 @@ panels:
     art: >
       sera, river-green default and LEFT bow/bracer, looses a blunt arrow at the first exhibition_arena trigger target.
       Confident focused face, strong stable shoulder, RIGHT quiver and flute. orrin waits at the shutter sled beyond
-      but safely outside the arrow lane. White overhead light, slate hard shadows. Normal trajectory, no Sera link or magical arrow.
+      but safely outside the arrow lane; show only his head beyond waist-up Sera in the foreground.
+      White overhead light, slate hard shadows. Normal trajectory, no Sera link or magical arrow.
     calm: top
     sfx:
       - {text: "TAK", style: impact, at: [0.80, 0.31], size: M, rot: 5}
@@ -244,7 +252,7 @@ panels:
     sfx:
       - {text: "KLAK-KLAK", style: quiet, at: [0.53, 0.55], size: M, rot: 0}
   - id: P17
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "side action view of Nib deliberately meeting the foam pendulum on his pad"
@@ -265,23 +273,25 @@ panels:
     art: >
       taeo, outdoor at exhibition_arena operator box, has amber under RIGHT contact palm from nib's bank; his LEFT
       cue hand stops mid-motion as his eyes find orrin's blocked angle. The RIGHT-eye mole clear. Blue-white sports
-      lamp, slate shadow, reservoir unchanged. No new force percentage or window, no blood.
+      lamp, slate shadow, reservoir unchanged. Taeo's face occupies the right third.
+      No new force percentage or window, no blood.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: r, text: "BANK—"}
+      - {who: taeo, type: speech, side: r, text: "FORCE STORED."}
   - id: P19
-    shape: wide
+    shape: tall
     gap: none
     bg: white
     camera: "low from inside the lane looking up along Orrin's blocked forward line"
     art: >
       orrin, adult slateback in exhibition_arena, arrests his prepared push before starting: new shutter position
       puts its weighted rail squarely across that line. Nib beyond pendulum looks up, spots the block, hand flat in
-      stop signal. Sera holds her bow lowered. Cool sports lamps, slate floor. No shell crack reopening, collision or drawn words.
+      stop signal. Nib is left, Orrin centre, Sera right with bow lowered; Taeo is off-panel beyond
+      the right barrier. Cool sports lamps, slate floor. No shell crack reopening, collision or drawn words.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "CANCEL. NO LINE."}
-      - {who: taeo, type: speech, side: r, text: "CANCELLED."}
+      - {who: nib, type: speech, side: l, text: "STOP. THE FORWARD ROUTE IS BLOCKED."}
+      - {who: "offpanel:taeo", type: speech, side: r, text: "CANCELLED. I'LL LET THE CHARGE DRAIN."}
   - id: P20
     shape: strip
     gap: short
@@ -301,11 +311,12 @@ panels:
     art: >
       haein, slate overalls and glasses on crown, watches external meter at exhibition_arena box; taeo, outdoor,
       exhales sharply and looks back to nib rather than down at his device. His LEFT hand remains away from control.
-      Blue-white/slate lamps, dark meter face from camera angle. No wrecked reservoir, new UI or fresh bleeding.
+      Waist-up frame, Haein left and Taeo right. Blue-white/slate lamps, dark meter face from camera angle.
+      No wrecked reservoir, new UI or fresh bleeding.
     calm: top
     lines:
-      - {who: haein, type: speech, side: l, text: "GONE."}
-      - {who: taeo, type: speech, side: r, text: "BETTER THAN THE WRONG PLACE."}
+      - {who: haein, type: speech, side: l, text: "THE CHARGE IS GONE."}
+      - {who: taeo, type: speech, side: r, text: "BETTER THAN RELEASING FORCE INTO A BLOCKED ROUTE."}
     notes: "Canceled charge dissipates after 0.8 s; no recovery, pause button, capacity increase or time extension."
   - id: P22
     shape: full
@@ -316,7 +327,8 @@ panels:
       exhibition_arena both lanes, identical shutters reconfigured. Iron Vow bracer strains against his foam shield,
       junior lead examining her counterweight; they are losing seconds honestly. In taeo's lane nib moves toward
       the right rail while orrin holds position, sera waits clear. White overhead lamps, slate floor, muted navy stands.
-      No opponent sabotage or villain reaction; blank physical clock board above.
+      Junior lead is on the left in the opposing lane, her bracer beside her. No opponent sabotage
+      or villain reaction; blank physical clock board above.
     calm: top
     lines:
       - {who: ironvow_junior_lead, type: speech, side: l, text: "STOP PUSHING. CHECK THE BALANCE."}
@@ -331,7 +343,7 @@ panels:
       Cold white sports light, slate metal and grey foam. No text, hand through solid metal or secret switch.
     calm: left
     lines:
-      - {who: nib, type: speech, side: r, text: "DON'T PUSH THE DOOR. MOVE WHAT CLOSES IT."}
+      - {who: "offpanel:nib", type: speech, side: r, text: "THE COUNTERWEIGHT CLOSES THE DOOR. PUSH THE WEIGHT ASIDE."}
   - id: P24
     shape: wide
     gap: short
@@ -340,13 +352,14 @@ panels:
     art: >
       taeo, outdoor, at exhibition_arena operator box leans toward nib's position beyond the barrier, listening with
       mouth closed for one beat. RIGHT hand lifted clear, no charge active. RIGHT-eye mole, old-patch pack behind.
-      Blue-white/slate institutional light, calm upper space, no magical earpiece, phone screen or words.
+      Taeo's face is right; Nib is off-panel to the left in the lane. Blue-white/slate institutional
+      light, calm upper space, no magical earpiece, phone screen or words.
     calm: top
     lines:
       - {who: taeo, type: speech, side: r, text: "SHOW ORRIN. I'LL WAIT."}
-      - {who: nib, type: speech, side: l, text: "THE SLED. TURN IT RIGHT."}
+      - {who: "offpanel:nib", type: speech, side: l, text: "ORRIN. TURN THE SLED RIGHT, UNDER THE COUNTERWEIGHT."}
   - id: P25
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low on Orrin moving the empty course sled by ordinary strength"
@@ -354,10 +367,10 @@ panels:
       orrin, adult slateback, in exhibition_arena nudges the UNLOADED movable sled into alignment with the shutter's
       low right-side counterweight slot. Three blunt nails per foot, thoughtful strained face, old shell seam intact.
       nib, boots/LEFT pad, guides by pointing from a safe spot. White overhead sports lamps, slate floor. No load
-      magic during positioning, harness or rail broken off.
+      magic during positioning, harness or rail broken off. Orrin occupies the left third, Nib the right.
     calm: top
     lines:
-      - {who: orrin, type: speech, side: l, text: "THIS I CAN PUSH."}
+      - {who: orrin, type: speech, side: l, text: "I CAN PUSH THE SLED ALONG THIS RAIL."}
   - id: P26
     shape: wide
     gap: short
@@ -366,26 +379,28 @@ panels:
     art: >
       taeo, outdoor at exhibition_arena box, traces the new physical direction toward orrin's sled with his LEFT
       index finger, RIGHT hand not yet banking force. Haein, overalls, watches his timing, face tense. White-blue
-      sports key, slate shadows, blank tabletops and dark phone. No holographic route, third pulse or words in art.
+      sports key, slate shadows, blank tabletops and dark phone. Waist-up crop, Taeo right, Haein left,
+      both faces visible. No holographic route, third pulse or words in art.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "NEW LINE. NIB'S LEFT PAD. ORRIN, STRAIGHT INTO THAT SLOT."}
-      - {who: taeo, type: speech, side: r, text: "BOTH AGREE?"}
+      - {who: taeo, type: speech, side: r, text: "NIB'S HIT INTO THE RESERVOIR. ORRIN, I'LL RELEASE FORWARD ALONG THE COUNTERWEIGHT RAIL."}
+      - {who: taeo, type: speech, side: r, text: "DO YOU BOTH AGREE TO THAT ROUTE?"}
   - id: P27
-    shape: strip
+    shape: tall
     gap: short
     bg: white
     camera: "low two-shot in the lane, Nib and Orrin answering toward the box"
     art: >
       exhibition_arena, nib adult default/boots in foreground with LEFT shield pad ready, orrin full adult slateback
       behind the aligned sled, both look toward taeo outside frame. Nib's jaw firm; Orrin's heavy eyelid lifts with
-      certainty. Cool sports lamps, slate padded floor, no active beams or lettering. Their own hands/feet stay outside each other's path.
+      certainty. Nib stands left, Orrin right. Cool sports lamps, slate padded floor, no active beams or
+      lettering. Their own hands/feet stay outside each other's path.
     calm: top
     lines:
       - {who: nib, type: speech, side: l, text: "YES."}
-      - {who: orrin, type: speech, side: r, text: "YES. SET."}
+      - {who: orrin, type: speech, side: r, text: "YES. READY TO PUSH."}
   - id: P28
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "side action at the foam pendulum's next natural swing"
@@ -434,12 +449,12 @@ panels:
       sera, river-green/cream default, LEFT bow/bracer, RIGHT quiver and flute, shoots a blunt arrow into the small
       exposed latch target at exhibition_arena far backstop. Chin level, competitive fierce concentration; she uses
       the opening Orrin made. White-blue practical lamps, slate floor, normal arrow motion, no force coating or new
-      link colour. All other crew clear of firing line.
+      link colour. Frame Sera from waist up. All other crew clear of firing line.
     calm: top
     sfx:
       - {text: "TAK", style: impact, at: [0.79, 0.31], size: M, rot: 7}
   - id: P32
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "high angle across the finishing shutters, both teams finding answers"
@@ -447,7 +462,8 @@ panels:
       exhibition_arena, taeo's shutter locks up and nib, orrin and sera pass through its broad exit. Opposite, Iron Vow
       junior lead has solved her counterweight by levering with the runner's staff; her bracer turns to call them
       through, only a moment later. Both teams visibly capable, lanes separated. Cool sports lights, slate floor,
-      muted navy crowd shapes. No tripping, interference or giant magically opened doors.
+      muted navy crowd shapes. Junior lead is clearly visible on the left in her lane.
+      No tripping, interference or giant magically opened doors.
     calm: top
     lines:
       - {who: ironvow_junior_lead, type: shout, side: l, text: "THROUGH!"}
@@ -477,38 +493,39 @@ panels:
       storm or unreal magic aura. Boards blank from this distance.
     calm: top
     lines:
-      - {who: official, type: phone, side: c, text: "YOON TAEO'S TEAM ADVANCES."}
+      - {who: "offpanel:official", type: phone, side: c, text: "YOON TAEO'S TEAM ADVANCES."}
     sfx:
       - {text: "BWAAAM", style: alert, at: [0.81, 0.12], size: L, rot: 0}
   - id: P35
     shape: wide
     gap: short
     bg: white
-    camera: "big reaction close on Taeo and Haein in the operator box"
+    camera: "waist-up reaction two-shot of Taeo and Haein in the operator box"
     art: >
       BIG REACTION: taeo outdoor in exhibition_arena box folds forward over the desk in astonished breathless laughter,
       both hands away from device; haein, overalls, slaps his uninjured shoulder with an open palm, eyes huge in a
       delighted grin. Reservoir intact, pack on chair. Cool blue-white/slate, ordinary focus lines. No nosebleed,
-      victory aura or words in art.
+      victory aura or words in art. Haein is left, Taeo right, both framed waist-up.
     calm: top
     lines:
-      - {who: taeo, type: nervous, side: r, text: "...WAS THAT US?"}
-      - {who: haein, type: shout, side: l, text: "THAT WAS THE BORING PART!"}
+      - {who: taeo, type: nervous, side: r, text: "DID WE JUST WIN?"}
+      - {who: haein, type: shout, side: l, text: "YES! ALL THAT BORING PRACTICE PAID OFF!"}
   - id: P36
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "eye-level at the lane exit, opposing lead offering Nib an adult handshake"
     art: >
       exhibition_arena exit, ironvow_junior_lead in charcoal kit offers nib her ordinary hand, palm sideways, no head
       pat. nib default/boots studies it briefly then takes it, LEFT pad lowered. She is disappointed but respectful;
-      he is matter-of-fact. White sports lamps, slate floor. Both have plausible five fingers, no crowd pressing between them or text.
+      he is matter-of-fact. Junior lead stands left, Nib right. White sports lamps, slate floor.
+      Both have plausible five fingers, no crowd pressing between them or text.
     calm: top
     lines:
       - {who: ironvow_junior_lead, type: speech, side: l, text: "GOOD EYES."}
-      - {who: nib, type: speech, side: r, text: "YOU FOUND IT TOO."}
+      - {who: nib, type: speech, side: r, text: "YOU FOUND THE COUNTERWEIGHT TOO."}
   - id: P37
-    shape: wide
+    shape: full
     gap: long
     bg: white
     camera: "medium at the service-corridor trestle, Sejin checking the crew before press"
@@ -516,14 +533,14 @@ panels:
       exhibition_service_corridor, sejin sage scrubs/olive rig checks taeo's rolled-back forearm, eyebrow raised; he
       points to the sore place willingly. nib default/boots has removed his LEFT sports pad onto trestle, full scout
       props unchanged. haein packs intact reservoir. White strip practicals, cream wall/slate shadow. No new wound,
-      bandage, fracture or blue healing light.
+      bandage, fracture or blue healing light. Sejin stands left, Nib centre, Taeo right, Haein centre behind.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "SORE. SAME PLACE."}
+      - {who: taeo, type: speech, side: r, text: "MY FOREARM IS SORE IN THE SAME PLACE."}
       - {who: sejin, type: speech, side: l, text: "REST UNTIL I CHECK IT AGAIN."}
-      - {who: nib, type: speech, side: l, text: "MY ARM IS FINE."}
+      - {who: nib, type: speech, side: c, text: "MY ARM IS FINE."}
   - id: P38
-    shape: inset-r
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -531,7 +548,7 @@ panels:
     art: >
       CHIBI taeo, outdoor with old-patch pack, proudly holds a blank advancement slip. CHIBI sejin, sage kit, replaces
       it with a plain water cup and points at the bench; his grin freezes. Flat pale-slate screentone, corridor white
-      practical key. No mocking disability, injury gag, readable paper or magic medicine.
+      practical key. Sejin stands left, Taeo right. No mocking disability, injury gag, readable paper or magic medicine.
     calm: left
     lines:
       - {who: sejin, type: speech, side: l, text: "THE WINNER CAN SIT DOWN."}
@@ -544,25 +561,27 @@ panels:
       exhibition_media_concourse, grey acoustic ceiling, white strip lamps, daylight through upper glazing. taeo,
       outdoor with pack, emerges service door RIGHT with nib default/boots beside him, sera river-green behind and
       orrin using broad clear passage. reporter in cream jacket lifts foam microphone at rope, camera_operator dark
-      polo shoulders camera. Empty accessible path remains. Slate/navy palette; all backdrop signs blank, no camera flash haze.
+      polo shoulders camera. Reporter stands left, Taeo and Nib right, camera operator centre-left, Sera and Orrin
+      centre behind the crew. Empty accessible path remains. Slate/navy palette; all backdrop signs blank, no camera flash haze.
     calm: top
     lines:
       - {who: reporter, type: speech, side: l, text: "ONE QUESTION FOR YOUR GOBLIN?"}
   - id: P40
-    shape: inset-l
+    shape: wide
     gap: short
     bg: white
-    camera: "close on Taeo beginning to answer, Nib moving ahead into view"
+    camera: "waist-up two-shot of Taeo beginning to answer as Nib moves ahead"
     art: >
       taeo outdoor at exhibition_media_concourse turns toward the reporter, reflexively ready to speak. nib default,
       boots and high binoculars, steps forward half a pace, jaw set. Taeo catches himself, closes his mouth. Daylight
-      and white practical strips, cool slate shadow. RIGHT-eye mole visible, no active screen, camera glare or text.
+      and white practical strips, cool slate shadow. Nib left, Taeo right, both framed waist-up with faces visible.
+      RIGHT-eye mole visible, no active screen, camera glare or text.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: r, text: "HE—"}
+      - {who: taeo, type: speech, side: r, text: "HE..."}
       - {who: nib, type: speech, side: l, text: "ASK ME."}
   - id: P41
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low at Nib's eye level, reporter lowering her microphone to speak to him"
@@ -570,10 +589,10 @@ panels:
       exhibition_media_concourse, reporter in cream jacket lowers foam microphone to nib's actual adult mouth height,
       leaving space. nib, default/boots, straightens soldier's back, eyes level and unsmiling; camera operator kneels
       slightly behind rope to frame him. taeo outdoor waits right. Blue-white practicals/slate. No pet-angle head pat,
-      nose-height microphone jab or text in art.
+      nose-height microphone jab or text in art. Reporter is left, Nib right, Taeo centre-right behind him.
     calm: top
     lines:
-      - {who: nib, type: speech, side: r, text: "STAND THERE."}
+      - {who: nib, type: speech, side: r, text: "STAY BEHIND THE ROPE."}
       - {who: reporter, type: speech, side: l, text: "ALL RIGHT. HOW DOES IT FEEL TO BE SUMMONED?"}
   - id: P42
     shape: tall
@@ -602,7 +621,7 @@ panels:
       Cold white practical light, slate shadows, otherwise plain cream wall. No reassuring touch on Nib or lettering.
     calm: none
   - id: P44
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "reporter reaction over the microphone, Nib in near profile"
@@ -610,13 +629,14 @@ panels:
       reporter, cream jacket at exhibition_media_concourse, lowers her eyes for a beat, surprised and chastened by
       the answer; microphone does not move closer. nib, adult default in near profile, remains level and still,
       LEFT-ear notch visible. taeo outdoor farther right, face quiet. Daylight/white practical light, cool slate.
+      Reporter is left, Nib right in near profile, Taeo centre-right behind him.
       No comic sweat, melodramatic tears or speech in art.
     calm: top
     lines:
-      - {who: reporter, type: speech, side: l, text: "...THANK YOU FOR ANSWERING."}
+      - {who: reporter, type: speech, side: l, text: "THANK YOU FOR ANSWERING."}
       - {who: nib, type: speech, side: r, text: "I'M GOING NOW."}
   - id: P45
-    shape: vignette
+    shape: tall
     gap: short
     bg: white
     silent: true
@@ -638,7 +658,7 @@ panels:
       - {kind: phone.live_stream, on: panel, title: "NIB ANSWERS THE QUESTION", text: "LIKE BEING PICKED UP BY THE NECK. · SHARED CLIP", comments: ["He answered the question she asked.", "Maybe ask whether he wanted it.", "He told her where to stand first.", "His name is Nib."], notes: "Positive counter-current spreading through repost arrows and reply rows. No invented exact view total or claim that all harassment has ended."}
     notes: "Required viral reversal belongs to Nib's statement, not Taeo's later slogan. BangBang's old clip still exists; ch 57's hostile chant remains possible."
   - id: P47
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "medium inside the service corridor after the press exit, Sera with her own phone lowered"
@@ -646,10 +666,11 @@ panels:
       sera, river-green default, at exhibition_service_corridor holds a plain dark-screen phone, impressed smile
       restrained as she looks at nib. nib default/boots stands beside orrin, hands on his own binoculars, expression
       closed. taeo outdoor at right watches him rather than the phone. Cool practical white/slate. No publicity
-      celebration imposed on Nib, screen words or chibi face.
+      celebration imposed on Nib, screen words or chibi face. Sera stands left, Nib right,
+      Taeo centre-right, Orrin centre behind them.
     calm: top
     lines:
-      - {who: sera, type: speech, side: l, text: "THEY'RE SHARING IT EVERYWHERE."}
+      - {who: sera, type: speech, side: l, text: "NIB, YOUR ANSWER IS BEING SHARED EVERYWHERE."}
       - {who: nib, type: speech, side: r, text: "I ANSWERED ONE PERSON."}
   - id: P48
     shape: inset-r
@@ -662,9 +683,9 @@ panels:
       practical, slate shadows and plain cream background. No touching Nib, halo, phone light or words.
     calm: left
     lines:
-      - {who: taeo, type: float, text: "I DIDN'T GET TO MAKE THAT ANSWER EASIER."}
+      - {who: taeo, type: float, text: "NIB DIDN'T OWE ME A GENTLER ANSWER."}
   - id: P49
-    shape: wide
+    shape: tall
     gap: long
     bg: white
     camera: "from behind the official's shoulder as a new bracket row is posted"
@@ -672,12 +693,12 @@ panels:
       exhibition_service_corridor PUBLIC board, official grey polo pins another blank bracket slip. taeo outdoor,
       nib default/boots and sera river-green turn toward it from a short distance; orrin's slate shell below.
       White practical strips, cream paper and light slate shadows. Board text entirely blank for labels, no active
-      screens or private VIP access granted.
+      screens or private VIP access granted. Minho remains off-panel to the left beside the board.
     calm: top
     ui:
       - {kind: label, text: "SEMIFINAL · SEOUL MERIDIAN JUNIORS", at: [0.55, 0.41], size: 34}
     lines:
-      - {who: minho, type: speech, side: l, text: "MERIDIAN. LOOK UP."}
+      - {who: "offpanel:minho", type: speech, side: l, text: "MERIDIAN NEXT. LOOK UP AT THE VIP BOX."}
     notes: "Semifinal posting after the quarterfinal. The next chapter covers the media day/record before this semifinal starts in ch 56."
   - id: P50
     shape: wide
@@ -689,7 +710,7 @@ panels:
       rectangular face and calm brown eyes, sits at exhibition_arena VIP rail. Navy field-command coat with restrained
       silver tabs over charcoal suit, pale-grey shirt/navy tie, silver split-bar incomplete-circle pin LEFT lapel.
       He leans forward, attentive, closed dark folio under one hand. Overhead white sports lamps, cool slate/navy.
-      No evil grin, recruitment contract, readable pass or hologram.
+      Frame seated Baek from the knees up. No evil grin, recruitment contract, readable pass or hologram.
     calm: top
     notes: "Full first-panel description for unfinished-sheet rule. Baek watches a promising method; no offer or merger pitch yet."
   - id: P51

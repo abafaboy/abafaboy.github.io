@@ -29,11 +29,12 @@ panels:
     camera: "ground-level view of the empty public side of the yard gate"
     art: >
       Morning at ryu_practice_yard's open south gate. The Iron Vow captain is gone; his heavy
-      boot impressions stop outside. Nib's chosen boots remain planted just inside, RIGHT pouch and
-      LEFT sheath at frame top. Dusty ochre in sun, grey street and brown shadows. No captain, contract or weapon.
+      boot impressions stop outside. Only Nib's chosen boots remain visible just inside the gate.
+      Dusty ochre in sun, grey street and brown shadows. No captain, contract or weapon.
+      Detail crop contains only boots and ground. Taeo stands off-panel to the right.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "YOU DIDN'T LET ME GET TO THE POLITE PART."}
+      - {who: offpanel:taeo, type: speech, side: r, text: "YOU DIDN'T LET ME GET TO THE POLITE PART."}
   - id: P02
     shape: inset-r
     gap: short
@@ -43,11 +44,12 @@ panels:
       Nib (adult, default with boots, LEFT notch, LEFT fang and locked high binoculars) looks
       along the street outside the yard gate. His face is wholly untroubled by his refusal.
       Morning sun from the southeast, ochre/brown palette and blue street shadow. No smug baby face.
+      Frame Nib's head and shoulders in the right third.
     calm: left
     lines:
-      - {who: nib, type: speech, side: r, text: "I DID."}
+      - {who: nib, type: speech, side: r, text: "I WAS POLITE."}
   - id: P03
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "from the yard trestle toward the van's open side door"
@@ -58,12 +60,13 @@ panels:
       surgeon's wrap, scarred bare forearms, LEFT surgical kit and RIGHT cloth roll) leans in with fierce curiosity; Taeo
       (outdoor, backpack) waits, sleeves down. Nib walks toward them. Morning A4 ochre and sky blue;
       van sticker a blank blue block, no active screen.
+      Dara stands on the left, Taeo at centre and Sejin on the right; Nib approaches behind.
     calm: top
     lines:
       - {who: dara, type: speech, side: l, text: "CLINIC. YOU PROMISED."}
       - {who: sejin, type: speech, side: r, text: "WE'RE EXPECTED. TRY INTRODUCING YOURSELF BEFORE THE INSULTS."}
   - id: P04
-    shape: inset-l
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -72,6 +75,7 @@ panels:
       Chibi Dara (slate plates, oatmeal wrap, LEFT kit and RIGHT roll) tries a rigid smile
       beside a flat blue rectangle suggesting the yard van. Chibi Sejin folds her arms,
       one brow raised; chibi Taeo looks professionally appalled at the smile. Flat ochre screentone, symbolic morning sun.
+      Show the chibi trio with room for their bodies: Dara left, Sejin centre, Taeo right.
     calm: right
     lines:
       - {who: dara, type: speech, side: l, text: "GOOD MORNING. YOUR BANDAGES ARE INTERESTING."}
@@ -82,7 +86,7 @@ panels:
     bg: white
     title_text: "CHAPTER 87 · DIALYSIS"
   - id: P06
-    shape: full
+    shape: tall
     gap: fade-white
     bg: white
     camera: "establishing from across the provincial street"
@@ -91,11 +95,12 @@ panels:
       bus stop across the quiet low shopping street. Sejin, Dara, Taeo and Nib approach
       on foot from a parked plain vehicle off frame, curious and reserved. Late-morning daylight,
       institutional blue-white and cream with slate shadows; all signs blank, no instant travel montage.
+      Give all four approaching figures full height and clear space above and below.
     calm: top
     lines:
       - {who: narr, type: tag, text: "A PROVINCIAL CLINIC · LATE MORNING"}
   - id: P07
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "from behind reception across the waiting room toward the entrance"
@@ -104,6 +109,7 @@ panels:
       over pale blue shirt and charcoal trousers) meets Sejin at provincial_clinic reception RIGHT.
       Dara waits behind, imposing slate armour in a small room; Taeo and Nib stand aside.
       Lim's face is warmly businesslike. White ceiling panels and window daylight, blue-white/slate palette. Badge blank.
+      Dr. Lim stands left facing Sejin on the right; Dara, Taeo and Nib stay in the background.
     calm: top
     lines:
       - {who: clinic_doctor, type: speech, side: l, text: "IM SEJIN. STILL TAKING EVERY SHIFT?"}
@@ -118,11 +124,12 @@ panels:
       and grey temples, slate plates over oatmeal wrap, scarred forearms, surgical kit LEFT,
       cloth roll RIGHT) attempts a local bow at provincial_clinic reception. She is sincere and
       deeply awkward. Cool white ceiling light, pale slate background. No weapon or healing effect.
+      Head-and-shoulders crop only, Dara on the right; show the bow without squeezing in her body.
     calm: left
     lines:
-      - {who: dara, type: speech, side: r, text: "DARA. SURGEON. MAY I LOOK?"}
+      - {who: dara, type: speech, side: r, text: "DARA. SURGEON. MAY I WATCH YOU WORK?"}
   - id: P09
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "side three-shot at the treatment-room door"
@@ -130,12 +137,13 @@ panels:
       Dr. Lim holds provincial_clinic's rear RIGHT treatment-room door half open, facing Dara and
       Sejin. She is polite, firm, hand on the door rather than blocking a body. Taeo
       waits back near reception, attentive. Blue-white ceiling light and warm spill beyond; plain badge and notice board.
+      Dr. Lim stands left, Sejin centre and Dara right, each with clear standing height.
     calm: top
     lines:
-      - {who: clinic_doctor, type: speech, side: l, text: "WITH THEIR PERMISSION. THEY'RE PATIENTS, NOT DEMONSTRATIONS."}
+      - {who: clinic_doctor, type: speech, side: l, text: "ASK THE PATIENTS FIRST. THEY DECIDE WHO WATCHES."}
       - {who: dara, type: speech, side: r, text: "GOOD."}
   - id: P10
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "establishing treatment room from the south staff desk"
@@ -145,9 +153,10 @@ panels:
       others unoccupied; enclosed machines have calm abstract displays, tidy tubing and covered access sites,
       no procedural close detail. Dara stands at the doorway, armour suddenly still. Warm window
       daylight on cream blankets, institutional blue-white/slate elsewhere. No readable device text or blood bags.
+      Place Dara at the doorway in the left third; leave full height for the room and stations.
     calm: top
     lines:
-      - {who: dara, type: speech, side: l, text: "WHAT DO THESE DO?"}
+      - {who: dara, type: speech, side: l, text: "WHAT DO THESE MACHINES DO?"}
   - id: P11
     shape: strip
     gap: short
@@ -157,9 +166,10 @@ panels:
       At provincial_clinic's east-row front station, Ms. Han's aged hand rests on a cream blanket
       beside a repaired navy tote, the stitches careful and small. Her arm's clinical access
       is outside frame. Warm east-window light, blue-white chair shadow. No visible wound, fuel or lettering.
+      Hand-and-tote detail only. Sejin speaks from off-panel right beside Ms. Han's station.
     calm: top
     lines:
-      - {who: sejin, type: speech, side: r, text: "HELP THEIR BLOOD DO WHAT THEIR KIDNEYS CAN'T."}
+      - {who: offpanel:sejin, type: speech, side: r, text: "THE DIALYSIS MACHINES FILTER BLOOD WHEN THE PATIENT'S KIDNEYS CAN'T."}
   - id: P12
     shape: inset-l
     gap: short
@@ -172,7 +182,7 @@ panels:
       east daylight across one cheek, slate-blue shadow on the other. No chibi, battlefield memory or glowing tears.
     calm: none
   - id: P13
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "eye-level from Ms. Han's seated position toward the visitors"
@@ -181,6 +191,7 @@ panels:
       trousers, repaired navy tote) sits comfortably at the east-row front station of provincial_clinic.
       Dara and Sejin stand beyond her clear working space, waiting. Han's look is lively,
       amused and self-possessed. Warm window light, blue-white/slate; covered access site, no intrusive camera.
+      Ms. Han sits on the left, with Dara at centre and Sejin on the right beyond her working space.
     calm: top
     lines:
       - {who: han_patient, type: speech, side: l, text: "YOU MAY LOOK. YOU MAY ALSO STOP STANDING LIKE I'VE ALREADY DIED."}
@@ -193,6 +204,7 @@ panels:
       Dara takes a visitor chair beside Ms. Han's station at provincial_clinic, below the patient's
       eye level rather than looming. Sejin remains near the staff side. Han smiles at
       the adjustment; Dara is awkwardly respectful. Warm daylight, cream blanket and muted mauve/slate armour. No touching tubing.
+      Frame seated Ms. Han on the left and seated Dara on the right from the waist up; Sejin is beyond.
     calm: top
     lines:
       - {who: dara, type: speech, side: r, text: "HOW OFTEN DO YOU COME?"}
@@ -206,11 +218,12 @@ panels:
       Dr. Lim (white coat, rectangular glasses) at provincial_clinic's south desk lets one corner
       of her mouth move. She checks a paper roster without hiding from the joke.
       Ceiling blue-white and warm east-window edge, muted slate desk, screens dark. No legible names or diagnoses.
+      Frame only Dr. Lim's head and shoulders on the right.
     calm: left
     lines:
-      - {who: clinic_doctor, type: speech, side: r, text: "SHE CHECKS."}
+      - {who: clinic_doctor, type: speech, side: r, text: "MS. HAN CHECKS MY ATTENDANCE."}
   - id: P16
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "three-quarter along the west row toward Mr. Jang"
@@ -219,9 +232,11 @@ panels:
       shirt, dark trousers, black slip-ons) sits at provincial_clinic's west-row front station, flat cap
       in his lap. Nib stands clear, hands behind him, listening seriously. Jang looks anxious
       toward the clock's blank face. Blue-white light, brown/cream accents; no close procedure detail.
+      Jang sits on the left and Nib stands on the right, with room for his adult body.
     calm: top
     lines:
-      - {who: jang_patient, type: speech, side: l, text: "DO YOU THINK THEY'LL FINISH BEFORE THE BUS?"}
+      - {who: jang_patient, type: speech, side: l, text: "WILL MY TREATMENT FINISH BEFORE THE BUS COMES?"}
+      - {who: jang_patient, type: speech, side: l, text: "IF I MISS THE BUS, A TAXI COSTS ₩18,000."}
       - {who: nib, type: speech, side: r, text: "I DON'T KNOW."}
   - id: P17
     shape: strip
@@ -232,10 +247,10 @@ panels:
       Mr. Jang's fingers turn his old flat cap on the cream blanket at provincial_clinic.
       Worn brown cardigan cuffs and black slip-ons at frame edge; dignity in the careful
       grip. Cool ceiling light, warm window reflection on hands. No money shown, no shaking patient caricature.
+      Only Jang's hands and cap fill the crop; his face is off-panel left.
     calm: top
     lines:
-      - {who: jang_patient, type: speech, side: l, text: "MISS IT AND IT'S ₩18,000 FOR A TAXI."}
-      - {who: jang_patient, type: speech, side: l, text: "I USED TO DRIVE THAT ROUTE."}
+      - {who: offpanel:jang_patient, type: speech, side: l, text: "I USED TO DRIVE THE BUS ON THAT ROUTE."}
     notes: "Invented local taxi fare is Jang's personal cost, not a public tariff. No new expense is charged to Taeo's crew."
   - id: P18
     shape: inset-l
@@ -246,11 +261,12 @@ panels:
       Nib (adult, LEFT notch and fang, matte binoculars high, chosen boots below frame)
       looks toward provincial_clinic's waiting-room door, calculating time without pretending medical expertise. Morning
       blue-white institutional light, cream wall and slate shadow. His knife stays sheathed, no return mark or magic.
+      Nib's head and shoulders occupy the left third.
     calm: right
     lines:
-      - {who: nib, type: speech, side: l, text: "I WILL WATCH FOR IT."}
+      - {who: nib, type: speech, side: l, text: "I WILL WATCH FOR THE BUS."}
   - id: P19
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "across the south desk toward Nurse Oh greeting Sejin"
@@ -259,13 +275,14 @@ panels:
       grey soft shoes) gives Sejin a familiar nod at provincial_clinic's south desk. Dara
       listens beside her, one scarred hand on her closed LEFT kit. Bright blue-white light,
       slate surfaces and cream roster; badges and pages blank.
+      Show Nurse Oh on the left, Sejin at centre and Dara on the right, all three faces visible.
     calm: top
     lines:
-      - {who: clinic_nurse, type: speech, side: l, text: "SHE USED TO COVER OUR SATURDAYS."}
-      - {who: dara, type: speech, side: r, text: "DID SHE SLEEP THEN?"}
+      - {who: clinic_nurse, type: speech, side: l, text: "SEJIN USED TO COVER OUR SATURDAYS."}
+      - {who: dara, type: speech, side: r, text: "DID SEJIN SLEEP THEN?"}
       - {who: clinic_nurse, type: speech, side: l, text: "WE ASSUMED SHE DID THAT ELSEWHERE."}
   - id: P20
-    shape: inset-r
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -274,10 +291,11 @@ panels:
       Chibi Sejin and chibi Dara stand by a simplified provincial_clinic vending machine, each
       pointing accusingly at a tiny paper coffee cup in the other's hand. Slate armour,
       sage scrubs, LEFT-kit RIGHT-roll locks; flat pale-blue screentone and symbolic ceiling lamp. No actual patients or danger.
+      Give the chibi figures room: Sejin left, Dara right, coffee cups clearly visible.
     calm: left
     lines:
-      - {who: sejin, type: speech, side: l, text: "THAT ISN'T SLEEP."}
-      - {who: dara, type: speech, side: r, text: "THEN WHY DOES IT TASTE LIKE A THREAT?"}
+      - {who: sejin, type: speech, side: l, text: "COFFEE ISN'T SLEEP."}
+      - {who: dara, type: speech, side: r, text: "DOES SLEEP TASTE THIS BAD?"}
   - id: P21
     shape: wide
     gap: short
@@ -288,10 +306,11 @@ panels:
       a plain referral envelope on his lap. Sejin sits beside him momentarily; Dara pauses
       outside the open doorway. His smile is honest and small. Blue-white ceiling light, slate chairs,
       cream walls; no specialist results or clearance visible.
+      Waist-up framing: Sejin seated on the left, Taeo seated on the right, Dara beyond at the doorway.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "I'M KEEPING THE APPOINTMENT. YOU CAN GO LOOK."}
-      - {who: sejin, type: speech, side: l, text: "I'LL BE BACK FOR THE REVIEW."}
+      - {who: taeo, type: speech, side: r, text: "I'M KEEPING MY CHECKUP APPOINTMENT. YOU CAN GO BACK TO THE TREATMENT ROOM."}
+      - {who: sejin, type: speech, side: l, text: "I'LL BE BACK FOR YOUR CHECKUP."}
     notes: "Taeo's follow-up is arranged, not resolved on page. No live-load clearance or numerical recoil limit is established here."
   - id: P22
     shape: strip
@@ -306,7 +325,7 @@ panels:
     lines:
       - {who: taeo, type: float, text: "FOR ONCE, I WAS WHERE SOMEONE HAD TOLD ME TO BE."}
   - id: P23
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "from the treatment room's east windows toward the west sink"
@@ -315,10 +334,11 @@ panels:
       equipment. Beyond, Ms. Han talks to Nurse Oh and Mr. Jang waits with his cap.
       Dara's shoulders have lowered as she takes in the ordinary rhythm. Warm daylight across
       cream blankets, cool blue-white walls, muted mauve/teal. No failing machine or alarm.
+      Dara stands left and Sejin right, with both figures clear of the occupied stations.
     calm: top
     lines:
-      - {who: dara, type: speech, side: l, text: "AT HOME, I COULD CLOSE THE CUT."}
-      - {who: dara, type: speech, side: l, text: "SOME OF THEM STILL DIED WITH PERFECT SKIN."}
+      - {who: dara, type: speech, side: l, text: "AT HOME, MY HEALING COULD CLOSE A CUT."}
+      - {who: dara, type: speech, side: l, text: "SOME PATIENTS STILL DIED WITH PERFECT SKIN."}
   - id: P24
     shape: inset-l
     gap: long
@@ -331,7 +351,7 @@ panels:
       east light on one cheek, blue-white institutional shadow. Background simplified to cream and slate. No tragic flashback.
     calm: none
   - id: P25
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "side two-shot with the occupied stations deep behind"
@@ -339,10 +359,11 @@ panels:
       Dara and Sejin stand clear of provincial_clinic's west sink, both watching the occupied
       stations. Dara's hand lies flat on her closed kit; Sejin's hand rests on her
       own supply pouch. Their faces are quiet, adult. Window warmth, blue-white/slate room. No clinical cure or blood replacement effect.
+      Dara stands left and Sejin right; show their adult proportions with ample vertical space.
     calm: top
     lines:
-      - {who: dara, type: speech, side: l, text: "THESE KEEP HELPING AFTER THE WOUND IS GONE."}
-      - {who: sejin, type: speech, side: r, text: "WHEN WE KEEP THEM RUNNING."}
+      - {who: dara, type: speech, side: l, text: "THESE MACHINES HELP PEOPLE MY HEALING COULD NEVER CURE."}
+      - {who: sejin, type: speech, side: r, text: "AS LONG AS WE KEEP THE MACHINES RUNNING."}
   - id: P26
     shape: strip
     gap: short
@@ -353,11 +374,12 @@ panels:
       fixed wall trunking low behind the station. Patient lines remain clearly separate and
       outside this detail. Orderly installation, not a repair scene. Blue-white ceiling light, pale slate
       casing and cream wall. Machine screen out of frame; no exposed fuel.
+      Cable detail only. Dara asks from off-panel left beside Sejin.
     calm: top
     lines:
-      - {who: dara, type: speech, side: l, text: "WHAT FEEDS THEM?"}
+      - {who: offpanel:dara, type: speech, side: l, text: "WHAT POWERS THE MACHINES?"}
   - id: P27
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "from behind Nurse Oh at the north service door"
@@ -366,9 +388,10 @@ panels:
       treatment floor clear. His posture is everyday practical; Dara follows with intense interest.
       Six-station layout remains fixed behind. Blue-white room light, cool grey alcove beyond; supplier plates turn away,
       no canister brand reveal yet.
+      Nurse Oh stands left holding the door, Sejin centre and Dara right.
     calm: top
     lines:
-      - {who: clinic_nurse, type: speech, side: l, text: "PROCESSED ANCHOR FRAGMENTS. ENCLOSED MODULE IN HERE."}
+      - {who: clinic_nurse, type: speech, side: l, text: "PROCESSED ANCHOR FRAGMENTS. THE POWER MODULE IS IN HERE."}
   - id: P28
     shape: full
     gap: short
@@ -381,21 +404,21 @@ panels:
       White task lamp, cool grey/navy shadows. No exposed raw shard, patient line or magical aura.
     calm: top
     lines:
-      - {who: clinic_nurse, type: speech, side: l, text: "THE FIELD STOCK GETS REFINED. THESE ARE SEALED FUEL UNITS."}
+      - {who: clinic_nurse, type: speech, side: l, text: "FRAGMENTS FROM GATES GET REFINED AND SEALED IN THESE CANISTERS."}
     notes: "PLANT P19: this clinic's dialysis machines depend on processed anchor fragments via an enclosed medical power module. Working normally now."
   - id: P29
     shape: strip
     gap: short
     bg: white
     silent: true
-    camera: "detail across Dara's hand on the closed service cabinet"
+    camera: "extreme close-up across Dara's fingertips on the closed service cabinet"
     art: >
       Dara's scarred bare fingertips stop on the OUTSIDE of provincial_clinic's shut service cabinet,
       not on a valve. Reflected in its dull face is her thoughtful square jaw. White
       task lamp, matte grey and cool navy. Canister plates remain hidden; no pulses, fault, opened fuel or instructional cutaway.
     calm: none
   - id: P30
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "reverse from the module side toward the three adults"
@@ -404,10 +427,11 @@ panels:
       has the expression of someone seeing a purchase she can almost afford, then remembering
       the rest of its cost. Nurse Oh holds a blank stock sheet. White task light,
       cool grey/navy and muted olive. No screen or visible supplier logo.
+      Waist-up framing: Sejin on the left, Nurse Oh at centre, Dara on the right.
     calm: top
     lines:
-      - {who: dara, type: speech, side: r, text: "GATES CAN POWER THIS?"}
-      - {who: sejin, type: speech, side: l, text: "THIS. FRIDGES. STABILISERS. ALL THE THINGS AFTER THE RESCUE."}
+      - {who: dara, type: speech, side: r, text: "GATE FRAGMENTS CAN POWER A WHOLE CLINIC?"}
+      - {who: sejin, type: speech, side: l, text: "YES. TREATMENT MACHINES, FRIDGES, STABILISERS. ALL THE EQUIPMENT WE NEED AFTER A RESCUE."}
   - id: P31
     shape: inset-r
     gap: short
@@ -417,11 +441,12 @@ panels:
       Nurse Oh (teal scrubs) closes the fuel ledger at provincial_clinic's service door. He
       looks matter-of-fact, no sinister concern; the cover is blank. Cool task-lamp white behind,
       warmer treatment-room daylight ahead. Keep supplier canisters off frame and all machine status normal.
+      Frame Nurse Oh's head and shoulders on the right, ledger at the bottom edge.
     calm: left
     lines:
-      - {who: clinic_nurse, type: speech, side: r, text: "AND THE ORDER STILL HAS TO ARRIVE ON TUESDAY."}
+      - {who: clinic_nurse, type: speech, side: r, text: "BUT THE FUEL ORDER STILL HAS TO ARRIVE EVERY TUESDAY."}
   - id: P32
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "at the staff desk looking over Sejin's shoulder at the empty roster space"
@@ -430,9 +455,10 @@ panels:
       station columns indicated by simple blocks. Dr. Lim stands beside her, watching her face
       with recognition. Dara stays back. Noon blue-white light, cream paper, slate desk; leave clear label space,
       no patient names or legible notes.
+      Dr. Lim stands on the left and Sejin on the right; Dara remains behind them.
     calm: top
     lines:
-      - {who: clinic_doctor, type: speech, side: l, text: "YOU'RE DOING THAT LOOK AGAIN."}
+      - {who: clinic_doctor, type: speech, side: l, text: "YOU'RE LOOKING AT OUR CLINIC LIKE THAT AGAIN."}
       - {who: sejin, type: speech, side: r, text: "WHAT LOOK?"}
     ui:
       - {kind: label, text: "SIX STATIONS · WEEKLY ROTA", at: [0.49, 0.72], size: 29}
@@ -447,7 +473,7 @@ panels:
       rims the glasses; blue-white ceiling fill and slate background. No angelic glow, badge words or extra charts.
     calm: right
     lines:
-      - {who: clinic_doctor, type: speech, side: l, text: "PUTTING YOUR OWN NAME ABOVE A DOOR."}
+      - {who: clinic_doctor, type: speech, side: l, text: "YOU'RE PICTURING A CLINIC WITH YOUR NAME ON IT."}
   - id: P34
     shape: vignette
     gap: long
@@ -459,6 +485,7 @@ panels:
       a spare chair, Ms. Han's tote, Nurse Oh pulling a blanket straight. Nothing transforms
       into a fantasy building. Noon light on cream and institutional blue-white, warm faces, soft border
       fade only. No sign, future architecture, purchase or imaginary patients.
+      The doorway view crops Nurse Oh at the waist as he straightens the blanket.
     calm: none
   - id: P35
     shape: wide
@@ -470,10 +497,12 @@ panels:
       them. Sejin draws a few room rectangles; Dara watches with an unfamiliar hopeful frown.
       Her kit remains LEFT and cloth roll RIGHT. White ceiling light with warm window edge,
       muted sage/slate and cream. No settled floor plan or readable clinic sign.
+      Frame seated Sejin on the left and seated Dara on the right from the waist up, sketch visible below.
     calm: top
     lines:
       - {who: sejin, type: speech, side: l, text: "A PLACE PEOPLE KNOW WILL OPEN AGAIN TOMORROW."}
       - {who: dara, type: speech, side: r, text: "A ROOM FOR THE ONES WHO DON'T GET BETTER IN ONE NIGHT."}
+      - {who: sejin, type: speech, side: l, text: "AND SOMEONE TO COVER OUR SHIFTS. SO ONE OF US CAN GO HOME."}
   - id: P36
     shape: strip
     gap: short
@@ -483,12 +512,12 @@ panels:
       Sejin adds one simple chair shape beside another on the rough room sketch at
       provincial_clinic's staff table. Dara's scarred hand holds down a curling corner, careful not
       to claim the pencil. Blue-white light, cream paper and brown hand shadows; no words or final building design.
+      Only hands and sketch appear. Dara comments from off-panel right; Sejin sits off-panel left.
     calm: top
     lines:
-      - {who: sejin, type: speech, side: l, text: "AND COVER. SO ONE OF US CAN GO HOME."}
-      - {who: dara, type: speech, side: r, text: "THAT SOUNDS OBSCENELY LUXURIOUS."}
+      - {who: offpanel:dara, type: speech, side: r, text: "THAT SOUNDS OBSCENELY LUXURIOUS."}
   - id: P37
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "from the waiting-room side of the staff door toward Sejin and Taeo"
@@ -497,10 +526,11 @@ panels:
       staff doorway and catches Sejin folding the rough sketch. He looks interested without reaching
       for it; she looks caught wanting something. Dara sits beyond. Blue-white light, warm cream
       wall; no diagnosis results visible and no financing agreement.
+      Taeo stands on the left of the staff doorway; Sejin sits on the right, Dara farther back.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "YOU DON'T HAVE TO HIDE IT."}
-      - {who: sejin, type: speech, side: r, text: "IT'S NOT A QUOTE. IT'S A WISH."}
+      - {who: taeo, type: speech, side: l, text: "YOU DON'T HAVE TO HIDE YOUR CLINIC SKETCH."}
+      - {who: sejin, type: speech, side: r, text: "THE SKETCH IS A WISH. I HAVEN'T PRICED A CLINIC YET."}
   - id: P38
     shape: inset-r
     gap: short
@@ -510,9 +540,10 @@ panels:
       Taeo (outdoor) at provincial_clinic's staff door starts to speak, catches his impulse
       to solve everything, and smiles smaller. RIGHT-eye mole, tired lower lids, closed referral
       envelope at frame edge. Soft warm window edge over blue-white light and slate background. No imaginary money screen.
+      Taeo's head and shoulders fill the right third.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: r, text: "CAN I SEE IT WHEN YOU'RE READY?"}
+      - {who: taeo, type: speech, side: r, text: "MAY I SEE THE SKETCH WHEN YOU'RE READY?"}
   - id: P39
     shape: wide
     gap: short
@@ -522,6 +553,7 @@ panels:
       Sejin slides the folded wish-sketch into her own medic pouch at provincial_clinic, smiling
       with one raised brow. Dara stays seated beside her, satisfied by Taeo's question.
       Blue-white institutional light, cream tabletop, muted olive and slate. No contract signed, money paid or premature co-ownership claim.
+      Waist-up view of seated Dara on the left and seated Sejin on the right; Taeo stays foreground left.
     calm: top
     lines:
       - {who: sejin, type: speech, side: r, text: "YES. AFTER YOU KEEP YOUR OWN REVIEW APPOINTMENTS."}
@@ -536,9 +568,10 @@ panels:
       the waiting-room glass. Across the road a small bus approaches; all destination panels blank.
       Behind Nib, Mr. Jang now wears his flat cap and waits with Nurse Oh,
       treatment completed off-panel. Afternoon cream sunlight, slate-blue glass reflections. No hurried disconnection or patient tubing visible.
+      Nib stands in the left third; keep Jang and Nurse Oh clearly visible waiting behind him.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "IT'S COMING."}
+      - {who: nib, type: speech, side: l, text: "THE BUS IS COMING."}
   - id: P41
     shape: strip
     gap: short
@@ -552,7 +585,7 @@ panels:
       aid forced on him or sentimental sparkles.
     calm: none
   - id: P42
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "eye-level two-shot from the street beside the ramp"
@@ -561,6 +594,7 @@ panels:
       ramp foot. The bus remains at its stop across the street, driver a simple distant
       shape. Jang looks relieved but refuses fuss; Nib accepts that. Afternoon cream/ochre and slate-blue shadows,
       no traffic danger or carrying pose.
+      Jang stands left and Nib right, full height beside the ramp with space around their feet.
     calm: top
     lines:
       - {who: jang_patient, type: speech, side: l, text: "I CAN WALK."}
@@ -574,11 +608,12 @@ panels:
       Dara (armour, grey-templed braid) watches Nib and Mr. Jang from provincial_clinic's glass entrance.
       Her eyes are wet with recognition but her mouth stays dry and crooked. No laughter
       at the patient. Afternoon light warms scarred fingers on the door jamb, institutional blue-white behind. No fantasy healing.
+      Dara's head and shoulders fill the left third beside the glass entrance.
     calm: right
     lines:
-      - {who: dara, type: speech, side: l, text: "YOUR SCOUT DOES DISCHARGE TOO."}
+      - {who: dara, type: speech, side: l, text: "YOUR SCOUT HELPS PATIENTS GET HOME TOO."}
   - id: P44
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "from the entrance back toward Sejin and the treatment doorway"
@@ -587,26 +622,28 @@ panels:
       room, holding her own supply bag close. Taeo stands back, letting her look. Her face
       is full of a want she has finally allowed herself. Warm doorway light, institutional
       blue-white and slate; no future clinic sign.
+      Taeo stands on the left and Sejin on the right, both with room to turn toward the treatment room.
     calm: top
     lines:
-      - {who: sejin, type: speech, side: r, text: "I WANT THIS TO BE PART OF THE JOB."}
-      - {who: taeo, type: speech, side: l, text: "THE BIT AFTER?"}
-      - {who: sejin, type: speech, side: r, text: "THE BIT THAT KEEPS HAPPENING."}
+      - {who: sejin, type: speech, side: r, text: "I WANT A CLINIC TO BE PART OF OUR WORK."}
+      - {who: taeo, type: speech, side: l, text: "CARING FOR PEOPLE AFTER THE RESCUE?"}
+      - {who: sejin, type: speech, side: r, text: "CARING FOR THEM AS LONG AS THEY NEED US."}
   - id: P45
-    shape: strip
+    shape: wide
     gap: short
     bg: white
-    camera: "close-up at Ms. Han's station on a folded repair laid aside"
+    camera: "medium close view of Ms. Han and her repaired tote"
     art: >
       At provincial_clinic Ms. Han places her repaired navy tote beside the chair after
       finishing a neat seam off-panel, face visible above it in a small satisfied smile.
       Her treatment continues normally, clinical access covered and distant. Warm east-window light, cream blanket
       and muted mauve; no alarm, fuel connection or failing display.
+      Frame Ms. Han from the waist up with the tote below her face; keep clinical access distant.
     calm: top
     lines:
       - {who: taeo, type: float, text: "I'D BEEN CALLING THE WAY HOME THE END OF THE JOB."}
   - id: P46
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "medium shot of Nurse Oh crossing to the north service door"
@@ -614,10 +651,11 @@ panels:
       Nurse Oh carries an empty light-grey protective canister case along provincial_clinic's clear
       north service route, away from patient lines. Dara asks from beside the staff desk,
       Sejin attentive. Oh looks practical, unsurprised. Afternoon white/blue light, muted teal and slate. Case supplier plate faces away.
+      Dara stands left, Sejin centre and Nurse Oh right, carrying the case along the clear route.
     calm: top
     lines:
       - {who: dara, type: speech, side: l, text: "WHO BRINGS THE FUEL?"}
-      - {who: clinic_nurse, type: speech, side: r, text: "SMALL ORDER. MOST SUPPLIERS WON'T DO THE DRIVE."}
+      - {who: clinic_nurse, type: speech, side: r, text: "WE ONLY NEED A SMALL ORDER. MOST SUPPLIERS WON'T DRIVE OUT HERE."}
   - id: P47
     shape: inset-r
     gap: short
@@ -627,9 +665,10 @@ panels:
       Sejin stands outside provincial_clinic's north service alcove, absorbing an ordinary constraint on
       her clinic wish. Her gaze moves to the stock ledger shelf; Dara's slate shoulder
       borders frame. Cool task light, muted olive and navy shadows. No suspicion face or fantasy corporation projection.
+      Close view of Sejin on the right with Dara's shoulder at left; Nurse Oh speaks from off-panel left.
     calm: left
     lines:
-      - {who: clinic_nurse, type: speech, side: l, text: "THIS ONE DOES. EVERY TUESDAY."}
+      - {who: offpanel:clinic_nurse, type: speech, side: l, text: "OUR SUPPLIER DELIVERS EVERY TUESDAY."}
   - id: P48
     shape: strip
     gap: short
@@ -644,7 +683,7 @@ panels:
     calm: none
     notes: "PLANT P19 visual continuity: record this sealed medical-fuel canister design for ch 100. The clinic still works normally. Brand lettering is withheld to final story panel."
   - id: P49
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "from the alcove cabinet toward Dara and Sejin in the doorway"
@@ -653,10 +692,11 @@ panels:
       alcove. Their faces hold the same practical question; the open treatment-room door behind
       them frames cream daylight and a steady machine silhouette. White task lamp, cool slate/olive.
       Supplier plate lies below frame, no faulty operation or private villain scene.
+      Sejin stands on the left, Dara at centre; Nurse Oh answers from off-panel right beside the cabinet.
     calm: top
     lines:
       - {who: sejin, type: speech, side: l, text: "I'LL NEED THE SUPPLIER DETAILS."}
-      - {who: clinic_nurse, type: speech, side: r, text: "ON THE CANISTERS."}
+      - {who: offpanel:clinic_nurse, type: speech, side: r, text: "ON THE CANISTERS."}
   - id: P50
     shape: tall
     gap: long

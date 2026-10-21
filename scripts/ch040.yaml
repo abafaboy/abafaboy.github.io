@@ -60,30 +60,32 @@ panels:
       embroidery. He does not tear it loose. Cold dawn grazes canvas and the slightly
       shaking fingers, slate shadows below. No readable text, active link, patch redesign,
       blood on the emblem or memory scene hidden inside it.
+      The patch and hands fill the middle detail band; Taeo remains above and beyond the left edge.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "I HAD NEVER SAID IT TO THE PERSON WHO ASKED."}
+      - {who: taeo, type: float, text: "I'D NEVER IMAGINED TELLING HER ABOUT MY PARENTS."}
 
   - id: P02
-    shape: inset-r
+    shape: tall
     gap: short
     bg: white
     style: chibi
-    camera: "brief chibi hesitation before the subject turns serious"
+    camera: "chibi medium two-shot of the seated pair before the serious conversation"
     art: >
       Flat pale dawn-blue screentone, symbolic sinjeong_street. Chibi Taeo (navy jacket,
       black hoodie, old-patch backpack) sits bolt upright like a clerk greeting an impossible
       customer, eyes tiny with one huge nervous sweat drop. Chibi Seoryun (olive field kit,
       low ponytail, LEFT scar) sits relaxed, a practical small smile. No injuries used as
       joke, grief imagery, rescue danger, hearts, shrine effects or readable objects.
+      Taeo sits on the left and Seoryun on the right. Leave room for both chibi bodies and the backpack.
     calm: left
     lines:
-      - {who: taeo, type: nervous, side: l, text: "CAPTAIN HAN. IS THAT— SORRY. IS THAT RIGHT?"}
-      - {who: seoryun, type: speech, side: r, text: "THAT ONE WORKS."}
+      - {who: taeo, type: nervous, side: l, text: "SORRY. MAY I CALL YOU CAPTAIN HAN?"}
+      - {who: seoryun, type: speech, side: r, text: "CAPTAIN HAN IS FINE."}
     notes: "Only chibi story panel. The serious confession has not begun; return to normal immediately."
 
   - id: P03
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "normal-style level two-shot on the kerb"
@@ -93,10 +95,11 @@ panels:
       boot, no attempt to finish his answer. Cold grey-blue dawn, slate shadows, plain
       emergency vehicles in distance. Faces honest and tired. No chibi proportions,
       romantic light, readable street furniture or new injuries.
+      Taeo sits on the left and Seoryun on the right with both faces visible and natural seated proportions.
     calm: top
     lines:
       - {who: taeo, type: speech, side: l, text: "I'M TWENTY-THREE."}
-      - {who: taeo, type: speech, side: l, text: "I WAS FOURTEEN WHEN I FIRST SAW YOU."}
+      - {who: taeo, type: speech, side: l, text: "I WAS FOURTEEN WHEN I FIRST SAW YOUR RESCUE BROADCAST."}
 
   - id: P04
     shape: inset-l
@@ -129,9 +132,10 @@ panels:
       on his mat a few paces away; Sejin (default) checks supplies. Porters carry an empty
       stretcher behind the resting crews. Cool dawn, slate shadows, muted workwear. No
       public confession stage, visible phone screen, healed shell or readable signage.
+      Taeo sits on the left and Seoryun on the right, with Nib and Orrin behind the centre of the conversation.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "SEOGANG. NINE YEARS AGO."}
+      - {who: taeo, type: speech, side: l, text: "THE SEOGANG CAMP COLLAPSE. NINE YEARS AGO."}
 
   - id: P07
     shape: strip
@@ -143,6 +147,7 @@ panels:
       narrows her gaze, then concern stills it. No shock streaks or new tears. Pale dawn
       from camera left, hard slate shadow beneath the brow. Background reduced to cool
       grey. No flashback yet, TV reflection, interface or implied personal responsibility.
+      Seoryun's eyes occupy the right third of the detail band.
     calm: top
     lines:
       - {who: seoryun, type: speech, side: r, text: "THE CAMP COLLAPSE?"}
@@ -151,22 +156,24 @@ panels:
     shape: wide
     gap: short
     bg: white
-    camera: "over Seoryun's shoulder toward Taeo's lowered hands and face"
+    camera: "medium view toward Taeo with Seoryun in foreground profile"
     art: >
       sinjeong_street. Taeo (outdoors) nods once, both hands on the backpack, thumb no
       longer worrying the seam. His face does not perform grief for her; it grows flat
       with an old effort. RIGHT-eye mole visible, sleeves covering recoil. Seoryun's
       olive shoulder in foreground. Grey-blue dawn, slate shadows. No younger body,
       corpse imagery, active glow or readable object.
+      Taeo is on the left and Seoryun in right foreground profile. Frame them from the waist up.
     calm: top
     lines:
       - {who: taeo, type: speech, side: l, text: "YES. MY FATHER WAS A PORTER."}
+      - {who: taeo, type: speech, side: l, text: "MY PARENTS BOTH WORKED AT SEOGANG."}
 
   - id: P09
     shape: vignette
     gap: long
     bg: white
-    camera: "remembered medium portrait of Taeo's father taking up his work straps"
+    camera: "remembered waist-up portrait of Taeo's father adjusting his work straps"
     art: >
       seogang_camp_memory, narrated portrait. taeo_father (about 45, 176 cm, lean working
       adult, Taeo's angular jaw and kind tired brown eyes, short dark hair, NO mole) adjusts
@@ -175,16 +182,17 @@ panels:
       hat; face turned toward someone outside frame with a tired small smile. Camp trestle
       simplified behind. Desaturated cold daylight, one warm trace on his face. No readable
       porter ID, modern patch, accident reenactment or child at the job site.
+      Father fills the centre, framed from the waist up. Present-day Taeo's account continues from beyond the left edge; Father does not speak.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "CONTRACT WORK. HE COULD CARRY MORE THAN ANYONE I KNEW."}
+      - {who: "offpanel:taeo", type: speech, side: l, text: "CONTRACT WORK. HE COULD CARRY MORE THAN ANYONE I KNEW."}
     notes: "PAYOFF P06: the father who 'went in first' has a job and a face. Narrated memory, not a new first-person witness account."
 
   - id: P10
     shape: vignette
     gap: short
     bg: white
-    camera: "remembered medium from the serving side of the camp kitchen"
+    camera: "remembered waist-up portrait from the serving side of the camp kitchen"
     art: >
       seogang_camp_memory. taeo_mother (about 42, 160 cm, warm brown eyes, soft oval jaw,
       dark hair beneath brown-grey headscarf tied at nape) holds a metal ladle over a plain
@@ -192,10 +200,10 @@ panels:
       work shoes. Her smile is work-worn and affectionate, not saintly. Camp serving trestle
       and bowls as simple shapes. Desaturated cool daylight, one restrained warm note at her
       face. No text, modern guild emblem, death scene, funeral flowers or heat shimmer.
+      Mother fills the centre, framed from the waist up at the trestle. Present-day Taeo's account continues from beyond the left edge.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "MY MOTHER COOKED AT THE CAMP."}
-      - {who: taeo, type: speech, side: l, text: "THEY WORKED AT THE SAME SITE."}
+      - {who: "offpanel:taeo", type: speech, side: l, text: "MY MOTHER COOKED AT THE CAMP."}
     notes: "PAYOFF P03 and PAYOFF P06. Preserve mother's camp-cook role; she was not a hunter or porter."
 
   - id: P11
@@ -209,9 +217,10 @@ panels:
       invented company identity. The final pair grips a thin near-empty envelope. Cold
       office-tube light, desaturated blue-grey paper and cuffs, hard shadows, soft vignette
       edges. No readable contract, price, signature, badge or visual claim Taeo was present.
+      Keep folders and hands in the centre band. Present-day Taeo's account comes from beyond the left edge.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "THE JOB WAS SUBCONTRACTED THREE TIMES."}
+      - {who: "offpanel:taeo", type: speech, side: l, text: "THE JOB WAS SUBCONTRACTED THREE TIMES."}
     notes: "Exact subcontract depth from canon. Visual is an account of the chain, not literal remembered paperwork."
 
   - id: P12
@@ -225,9 +234,10 @@ panels:
       is painfully controlled. Old patch on the bag remains near his hand; no contract
       graphic overlays the present. Cold dawn blue-grey, weakening work lamp. Phone screen
       faces away and is dark; no accusation aimed at a named current worker or readable rates.
+      Taeo sits on the left and Seoryun on the right, framed from the waist up; background responder remains a small distant shape.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "AFTER THE COLLAPSE, RESCUE WAITED WHILE THEY PRICED THE CONTRACTS."}
+      - {who: taeo, type: speech, side: l, text: "AFTER THE COLLAPSE, CREWS WAITED FOR AGREEMENT ON THE RESCUE PRICE."}
 
   - id: P13
     shape: vignette
@@ -254,10 +264,11 @@ panels:
       nosebleed stain, no attempt to smile. Dawn cold-white across his cheek, hard slate
       shadow under the chin. Backpack edge below. No tear fountain, chibi, flashback
       body or new family relic in his hands.
+      Taeo fills the right third in a face-and-shoulders crop.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: r, text: "NEITHER OF THEM CAME HOME."}
-      - {who: taeo, type: float, text: "IT STILL SOUNDED LIKE SOMETHING I COULD FIX BY SAYING IT RIGHT."}
+      - {who: taeo, type: speech, side: r, text: "MY MOTHER AND FATHER NEVER CAME HOME."}
+      - {who: taeo, type: float, text: "I STILL WANTED THE RIGHT WORDS TO CHANGE WHAT HAPPENED."}
 
   - id: P15
     shape: wide
@@ -271,6 +282,7 @@ panels:
       shoulders remains. Beyond them medics carry folded bedding toward the casualty bay.
       Cool dawn and long slate shadows. No consoling touch demanded, public audience,
       glamour rim light, magical healing or readable sign.
+      Taeo sits on the left and Seoryun on the right; frame the seated pair from the knees up.
     calm: none
 
   - id: P16
@@ -284,9 +296,10 @@ panels:
       below, unchanged. His forearm bruising stays largely covered. Cool grey-blue dawn,
       hard canvas shadows. No photo taken from the bag, new ID, readable embroidery,
       left-palm light or supernatural effect.
+      Taeo remains above and beyond the left edge of the hand detail.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "HARU WAS ONE. I WAS FOURTEEN."}
+      - {who: "offpanel:taeo", type: speech, side: l, text: "MY BROTHER HARU WAS ONE. I WAS FOURTEEN."}
 
   - id: P17
     shape: full
@@ -302,14 +315,15 @@ panels:
       cabinet, screen a dark blue shape from this angle. TV-blue light and dim pendant,
       desaturated cool memory palette. No present flat-screen, funeral tableau, school
       lettering, old patch on young Taeo or current ten-year-old Haru.
+      Young Taeo and baby Haru sit left of centre, the old TV to their left. Present-day Taeo's account continues from beyond the left edge; the boy is not speaking.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "A WEEK AFTER THE FUNERAL, HARU WOULDN'T SLEEP."}
-      - {who: taeo, type: speech, side: l, text: "WE WATCHED THE TV AT MY GRANDPARENTS'."}
+      - {who: "offpanel:taeo", type: speech, side: l, text: "A WEEK AFTER THEIR FUNERAL, HARU WOULDN'T SLEEP."}
+      - {who: "offpanel:taeo", type: speech, side: l, text: "WE WATCHED THE TV AT MY GRANDPARENTS'."}
     notes: "PAYOFF P03 and PAYOFF P06. A brief anchor for the confession; full funeral/market/patch flashback remains ch 43."
 
   - id: P18
-    shape: wide
+    shape: full
     gap: short
     bg: navy
     camera: "over young Taeo's shoulder toward the old CRT on the west cabinet"
@@ -320,6 +334,7 @@ panels:
       Fixed low cabinet, northeast kitchen beyond, no furniture relocation. Desaturated
       blue light from the TV and weak warm pendant. No modern thin television, readable
       cabinet items, school badge letters or patch on the boy.
+      The CRT and its speaker are on the left; young Taeo and securely held Haru are on the right, cropped from the waist up.
     calm: top
     ui:
       - {kind: tv.lowerthird, on: screen, text: "DAEGU · PORTERS STILL INSIDE", ticker: "HAN SEORYUN RETURNS TO THE GATE", notes: "Composite an old news image of adult Seoryun at about 29, olive field kit and OLD door emblem, leading khaki-vested porters outward. No footage of Seogang."}
@@ -337,12 +352,13 @@ panels:
       third, looks at Seoryun off frame with remembered concentration rather than fan
       excitement. One blink stops before closing. Cool dawn, hard slate-blue brow
       shadow. No old TV reflection, younger face, interface count or decorative tear.
+      Taeo's eyes occupy the left third of the middle detail band.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "DAEGU. YOU WENT BACK THREE TIMES. FOR THE PORTERS."}
+      - {who: taeo, type: speech, side: l, text: "YOU WENT BACK INTO THAT DAEGU GATE THREE TIMES. FOR THE PORTERS."}
 
   - id: P20
-    shape: vignette
+    shape: tall
     gap: short
     bg: navy
     camera: "isolated remembered news image, low outside the Daegu gate"
@@ -354,12 +370,13 @@ panels:
       She has a physical hexagonal shield; LEFT brow obscured by angle. Desaturated
       cold rescue lamps, one muted warm patch. No false Seogang geography, repeated
       three bodies of Seoryun, captions, readable TV graphics or flashy aura.
+      Young adult Seoryun stands on the right beside the porter on the left; give both full figures room beside the gate.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "I REMEMBERED THE MEN WITH THE BOXES."}
+      - {who: taeo, type: float, text: "I REMEMBERED THE PORTERS, EVEN MORE THAN THE CAPTAIN."}
 
   - id: P21
-    shape: inset-l
+    shape: tall
     gap: long
     bg: navy
     silent: true
@@ -371,6 +388,7 @@ panels:
       frame, grief arrested by a new possibility, mouth closed. Old television blue
       from WEST, dim pendant behind, desaturated palette. No patch yet, funeral
       flowers, current ten-year-old brother, smile or words in the image.
+      Young Taeo sits left of centre, holding Haru securely with room for the entire baby and his supporting forearms.
     calm: none
 
   - id: P22
@@ -384,8 +402,10 @@ panels:
       directly, no defence in her posture. OLD patch on olive bag between their knees,
       current door on her LEFT sleeve. Cool dawn-white, slate shadows, street pared
       to plain shapes. No TV image behind her, chibi, halo or accusation pose.
+      Taeo sits on the left and Seoryun on the right, both faces visible across the backpack.
     calm: top
     lines:
+      - {who: taeo, type: speech, side: l, text: "MY FATHER CARRIED LOADS JUST LIKE THOSE PORTERS."}
       - {who: taeo, type: speech, side: l, text: "YOU WENT BACK FOR PEOPLE LIKE HIM. NOBODY WENT BACK FOR HIM."}
     notes: "PAYOFF P03 and PAYOFF P06: exact required line. Seoryun was not responsible for Seogang; his idol was the opposite of what happened there."
 
@@ -404,20 +424,22 @@ panels:
     calm: none
 
   - id: P24
-    shape: wide
+    shape: tall
     gap: short
     bg: white
-    camera: "profile from beside the shield toward Taeo and Seoryun"
+    camera: "medium two-shot beside the shield, both seated faces visible"
     art: >
       sinjeong_street. Taeo (outdoors) looks down too quickly after the confession,
       old reflex to soften what he has said. Seoryun (default) leans only enough to
       keep their eye line possible, hands still her own. Shield rests at outer boot,
       backpack unchanged between them. Grey-blue daylight and hard slate shadows.
       No pitying pat, autograph offered, new object or readable street sign.
+      Taeo sits on the left and Seoryun on the right. Keep both faces and the backpack clear.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "SORRY. I KNOW IT WASN'T YOUR SITE."}
+      - {who: taeo, type: speech, side: l, text: "SORRY. I KNOW SEOGANG WASN'T YOUR SITE."}
       - {who: seoryun, type: speech, side: r, text: "YOU DON'T NEED TO APOLOGISE FOR TELLING ME."}
+      - {who: taeo, type: speech, side: l, text: "I KEPT THE PATCH WHERE I COULD SEE IT."}
 
   - id: P25
     shape: strip
@@ -430,14 +452,14 @@ panels:
       embroidery stays intact; olive canvas looks much older under dawn light. His
       other hand holds the pack steady. Flat rust, grey-green and slate shadow. No
       inscription, recovered parents' possession, fresh tear or cyan light.
+      Taeo remains above and beyond the left edge of this hand-and-patch detail.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "I THOUGHT MAYBE I COULD DO ONE THING LIKE THAT."}
-      - {who: taeo, type: speech, side: l, text: "I KEPT IT WHERE I COULD SEE IT."}
+      - {who: "offpanel:taeo", type: speech, side: l, text: "I THOUGHT I COULD HELP BRING PEOPLE HOME, TOO."}
     notes: "PAYOFF P03: why he wears the patch. Acquisition and knock-off reveal remain ch 43."
 
   - id: P26
-    shape: wide
+    shape: tall
     gap: long
     bg: white
     silent: true
@@ -449,25 +471,27 @@ panels:
       His expression is grave and newly understanding, not pity. Sejin's sage sleeve
       at the side. Cool dawn, slate and muted olive. No hidden device, tears, boots
       or claim Nib now knows the unrevealed funeral details.
+      Nib stands at centre beside resting Orrin, with natural height and room around his full adult body.
     calm: none
 
   - id: P27
-    shape: wide
+    shape: tall
     gap: short
     bg: white
-    camera: "close medium of Seoryun with both hands on her knees"
+    camera: "medium portrait of Seoryun with both hands on her knees"
     art: >
       sinjeong_street. Seoryun (default) looks at her own work-worn hands, not away
       from Taeo in embarrassment. LEFT-eyebrow scar, low dark ponytail, olive jacket
       and dark trousers; shield's rear strap visible at boot. Her face settles into
       a decision to answer honestly. Cold daylight, slate shadows. No sentimental
       token, dog tag, new wound or readable object.
+      Seoryun sits in the right third with room for her knees and shield; Taeo remains outside the left edge.
     calm: top
     lines:
-      - {who: seoryun, type: speech, side: r, text: "MY VICE-CAPTAIN WAS CALLED KANG."}
+      - {who: seoryun, type: speech, side: r, text: "MY FORMER VICE-CAPTAIN WAS CALLED KANG."}
 
   - id: P28
-    shape: vignette
+    shape: tall
     gap: long
     bg: navy
     camera: "Seoryun's brief remembered view across a fractured slab toward Kang"
@@ -480,9 +504,10 @@ panels:
       beyond camera with urgent concentration. Dim work lamp, cool desaturated slate
       and one distant lavender wrong-colour opening. No readable badge, last words,
       resemblance to Minho or invented model-sheet reference.
+      Kang occupies the left beyond the slab. Present-day Seoryun's account continues from beyond the right edge; Kang does not speak.
     calm: top
     lines:
-      - {who: seoryun, type: speech, side: r, text: "THE CEILING WENT. CIVILIANS ON ONE SIDE. KANG ON THE OTHER."}
+      - {who: "offpanel:seoryun", type: speech, side: r, text: "THE CEILING COLLAPSED. A SLAB SEPARATED KANG FROM THE CIVILIANS."}
     notes: "Kang design selected only for this undated memory; do not silently identify him as the vice-captain in ch 36's archive clip. No date or location assigned to his loss."
 
   - id: P29
@@ -500,19 +525,20 @@ panels:
     calm: none
 
   - id: P30
-    shape: wide
+    shape: tall
     gap: short
     bg: white
-    camera: "present close two-shot with Seoryun holding Taeo's gaze"
+    camera: "present medium two-shot with Seoryun holding Taeo's gaze"
     art: >
       sinjeong_street. Seoryun (default) looks directly at Taeo (outdoors) when she
       names her choice. She does not ask his permission to have made it; tired jaw
       set, shoulders loose. Taeo's face attentive and shocked by her plainness, old
       patch still beneath his hand. Dawn blue-white with slate shadows. No courtroom,
       approving crowd, visual condemnation or invented tally.
+      Taeo sits on the left and Seoryun on the right; keep their faces clear with room for natural seated postures.
     calm: top
     lines:
-      - {who: seoryun, type: speech, side: r, text: "I CHOSE THE CIVILIANS."}
+      - {who: seoryun, type: speech, side: r, text: "I CHOSE TO SAVE THE CIVILIANS FIRST."}
 
   - id: P31
     shape: inset-l
@@ -525,9 +551,10 @@ panels:
       mole, near-black fringe and weary lids unchanged. Cool dawn from open road,
       simple slate background. No childish face replacement, reassuring flashback,
       tears on cue or generated type.
+      Taeo fills the left third in a head-and-shoulders crop.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: l, text: "DID YOU GO BACK?"}
+      - {who: taeo, type: speech, side: l, text: "DID YOU GO BACK FOR KANG?"}
 
   - id: P32
     shape: strip
@@ -540,10 +567,11 @@ panels:
       the narrow face angle, low ponytail behind. Cold dawn-white edge, slate-blue
       shadow, empty background. No romantic tear, injury reconstruction, caption
       inside the drawing or physical object added to remember Kang.
+      Seoryun fills the right third, her face confined to the middle detail band.
     calm: top
     lines:
       - {who: seoryun, type: speech, side: r, text: "YES."}
-      - {who: seoryun, type: speech, side: r, text: "TOO LATE."}
+      - {who: seoryun, type: speech, side: r, text: "I REACHED KANG TOO LATE."}
 
   - id: P33
     shape: tall
@@ -561,7 +589,7 @@ panels:
     calm: none
 
   - id: P34
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "level medium portrait of Seoryun beside the old patch"
@@ -572,6 +600,7 @@ panels:
       patch is low in foreground. She speaks as a working captain, no grand pose.
       Grey-blue dawn, plain slate background. No trophy, halo, public microphone,
       tears, glow or generated lettering.
+      Seoryun sits in the right third and the old patch stays low on the left, with no need to compress her posture.
     calm: top
     lines:
       - {who: seoryun, type: speech, side: r, text: "I DON'T ALWAYS COME BACK WITH EVERYONE. I JUST NEVER STOP COUNTING."}
@@ -588,24 +617,26 @@ panels:
       seam. No pulse in the RIGHT palm; dark hoodie inside navy cuff. Cold daylight,
       grey-green and muted rust, hard slate shadow. No symbol changing shape,
       disappearing patch, tear or magical mend.
+      Taeo's hand and patch fill the middle detail band; his face remains above the left edge.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "I HAD WANTED HER TO MAKE IT SIMPLE."}
+      - {who: taeo, type: float, text: "I WANTED THERE TO BE A WAY TO SAVE EVERYONE."}
 
   - id: P36
-    shape: wide
+    shape: tall
     gap: short
     bg: white
-    camera: "from behind Seoryun's shoulder toward Taeo asking a smaller question"
+    camera: "medium two-shot with Taeo and Seoryun facing each other"
     art: >
       sinjeong_street. Taeo (outdoors) lifts his eyes to Seoryun (default), face
       tired and searching rather than worshipful. She stays turned toward him,
       elbows on knees, listening. Backpack and shield unchanged. Dawn cold blue-white,
       slate shadows, simplified relief trucks behind. No interview staging, new
       rank insignia, relaxed magical aura or readable sign.
+      Taeo sits on the left and Seoryun on the right, both speaking faces visible.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "DOES THE COUNTING EVER GET EASIER?"}
+      - {who: taeo, type: speech, side: l, text: "DOES COUNTING THE PEOPLE YOU LOST EVER GET EASIER?"}
       - {who: seoryun, type: speech, side: r, text: "NO. YOU GET BETTER AT THE WORK."}
 
   - id: P37
@@ -619,13 +650,14 @@ panels:
       only a tired brow crease and tight mouth. RIGHT-eye mole visible, collar
       dusty. Cold daylight, plain navy tent planes behind. No active screen,
       new invoice in hand or implication he has spoken to legislators.
+      Taeo fills the right third; Seoryun sits beyond the left edge in this reverse close-up.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: r, text: "THE RATES KEPT GOING UP TONIGHT."}
+      - {who: taeo, type: speech, side: r, text: "THE GUILDS KEPT RAISING THEIR RESCUE RATES TONIGHT."}
       - {who: "offpanel:seoryun", type: speech, side: l, text: "I SAW."}
 
   - id: P38
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "side view as Seoryun takes a small folded policy brief from her field pocket"
@@ -635,10 +667,11 @@ panels:
       only; her grip is familiar and faintly exasperated. Taeo (outdoors) watches.
       Shield remains at boot, radio on her field kit dark. Cool dawn and slate shadows.
       No written policy in generated art, new bill number, official seal or cash.
+      Taeo sits on the left and Seoryun on the right, both faces and the folded paper clear.
     calm: top
     lines:
-      - {who: seoryun, type: speech, side: r, text: "I HAVE A RESCUE-NETWORK BILL IN THE ASSEMBLY."}
-      - {who: seoryun, type: speech, side: r, text: "STANDING CREWS. FUNDED BEFORE THE CALL. DISPATCH INDEPENDENT OF GUILD BIDDING."}
+      - {who: seoryun, type: speech, side: r, text: "MY BILL FOR A NATIONAL RESCUE NETWORK IS IN THE ASSEMBLY."}
+      - {who: seoryun, type: speech, side: r, text: "PAID CREWS READY BEFORE AN EMERGENCY. DISPATCH WITHOUT WAITING FOR GUILD BIDS."}
 
   - id: P39
     shape: narrow-l
@@ -657,7 +690,7 @@ panels:
       - {kind: label, text: "ASSEMBLY REVIEW · PENDING", at: [0.5, 0.64], notes: "Place on the blank status field. No rejection yet; committee failure belongs to ch 47."}
 
   - id: P40
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "across the unfolded paper toward Taeo's face and Seoryun beside him"
@@ -667,11 +700,12 @@ panels:
       crooked, refusal to dress delay as success. No readable print from this angle,
       no bills in Taeo's hands. Cold dawn-white, muted olive and slate. No passed-law
       badge, press cameras, new deadline or hopeful golden flare.
+      Taeo sits on the left and Seoryun on the right, with room for both faces and hands.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "STILL WAITING?"}
+      - {who: taeo, type: speech, side: l, text: "IS THE ASSEMBLY STILL REVIEWING THE BILL?"}
       - {who: seoryun, type: speech, side: r, text: "STILL IN COMMITTEE."}
-      - {who: seoryun, type: speech, side: r, text: "THE CREWS NEED WAGES WHILE THERE ISN'T AN EMERGENCY, TOO."}
+      - {who: seoryun, type: speech, side: r, text: "THOSE CREWS NEED WAGES BETWEEN EMERGENCIES, TOO."}
 
   - id: P41
     shape: strip
@@ -684,6 +718,7 @@ panels:
       His eyes wet again, jaw steady, RIGHT-eye mole clear. Cool pale road behind,
       hard slate cheek shadow. No literal parent ghost, new memory scene, chibi,
       glowing phone or graphic inside the art.
+      Taeo's face fills the left third of the middle detail band.
     calm: top
     lines:
       - {who: taeo, type: speech, side: l, text: "MY FATHER WOULD HAVE LIKED SOMEONE TO ANSWER THE PHONE."}
@@ -698,6 +733,7 @@ panels:
       paper rests in one hand at her knee; olive sleeve and current patch visible,
       LEFT-eyebrow scar, low dark ponytail. Cold dawn-white, plain grey-blue background.
       No hand over heart, campaign smile, instant law passage, tear cascade or readable paper.
+      Seoryun fills the left third in a head-and-shoulders crop.
     calm: right
     lines:
       - {who: seoryun, type: speech, side: l, text: "YES."}
@@ -728,11 +764,12 @@ panels:
       Face out of frame. Cool dawn, flat charcoal device and slate shadow. Screen
       dark, controls plain shapes, five fingers. No civilian monitor, system window,
       readable agency logo or warning light invented.
+      The radio is on the right of this detail; the incoming dispatch voice comes from that device beyond the right edge.
     calm: top
     sfx:
       - {text: "KSSHT", style: quiet, at: [0.63, 0.45], size: S, rot: -6}
     lines:
-      - {who: dispatch, type: phone, side: r, text: "CAPTAIN HAN. NEW RESCUE REQUEST. CAN YOU MOVE?"}
+      - {who: "offpanel:dispatch", type: phone, side: r, text: "CAPTAIN HAN. NEW RESCUE REQUEST. CAN YOU MOVE?"}
 
   - id: P45
     shape: wide
@@ -745,6 +782,7 @@ panels:
       her work reassert itself without taking the conversation back. Shield grip
       within reach at boot. Grey-blue daylight, slate shadows. No new fire scene,
       instantaneous disappearance, readable location on device or heroic light.
+      Taeo sits on the left and Seoryun on the right, both framed from the waist up.
     calm: top
     lines:
       - {who: seoryun, type: speech, side: r, text: "SEND THE LOCATION. I'M MOVING."}
@@ -762,6 +800,7 @@ panels:
       bruises, bag across his knees again. Her face intent but still turned partly
       toward him. Cold dawn, muted olive and slate. No superhuman launch, salute,
       new emblem or injury cured by standing.
+      Taeo sits on the left and standing Seoryun is on the right with full natural height.
     calm: top
     lines:
       - {who: taeo, type: speech, side: l, text: "THANK YOU FOR TELLING ME ABOUT KANG."}
@@ -776,13 +815,14 @@ panels:
       returning without cancelling what she has said. LEFT-brow scar, low ponytail,
       olive collar, radio lowered. Dawn from upper left, slate-blue plain background.
       No inspirational speech pose, fan hearts, paper handed over, new badge or readable kit.
+      Seoryun fills the right third in a head-and-shoulders crop.
     calm: left
     lines:
-      - {who: seoryun, type: speech, side: r, text: "THANK YOU FOR TELLING ME ABOUT THEM."}
+      - {who: seoryun, type: speech, side: r, text: "THANK YOU FOR TELLING ME ABOUT YOUR PARENTS."}
     notes: "No new proper names are assigned to Taeo's parents."
 
   - id: P48
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "from Nib's side as Seoryun notices him waiting beside Orrin"
@@ -792,10 +832,11 @@ panels:
       than retreating. Seoryun (default) pauses mid-departure, shield held safely
       low; Taeo (outdoors) still seated behind her. Cool dawn, slate shadows,
       muted olive and brown. No new invitation contract, camera, chibi or pet harness.
+      Nib stands on the left, Orrin rests in the centre and Seoryun stands on the right; Taeo remains seated behind.
     calm: top
     lines:
       - {who: nib, type: speech, side: l, text: "COME BACK."}
-      - {who: seoryun, type: speech, side: r, text: "I'LL DO THE WORK."}
+      - {who: seoryun, type: speech, side: r, text: "I'LL DO MY BEST."}
 
   - id: P49
     shape: strip
@@ -822,9 +863,10 @@ panels:
       eyes wet and thoughtful, mouth nearly easing. RIGHT-eye mole and dry lip
       stain unchanged. Cold daylight, simple grey-blue lane behind. No magically
       brightened embroidery, new design, hidden letter, cured bruise or smile halo.
+      Taeo is centred in a waist-up crop with the bag fully supported on his knees.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "IT STILL MEANT SOMETHING. MORE THAN BEFORE."}
+      - {who: taeo, type: float, text: "THE PATCH MEANT MORE TO ME NOW."}
 
   - id: P51
     shape: tall
@@ -841,6 +883,7 @@ panels:
       self-correcting pause. Orrin remains resting with Sejin beside him. Cool
       dawn-white, slate shadows, open working lane. No sponsorship banner,
       contract, forced consent, new rescue footage or generated words in art.
+      Nib stands on the left, seated Taeo is centre foreground and departing Seoryun is on the right. Keep her face visible as she looks back.
     calm: bottom
     lines:
       - {who: seoryun, type: speech, side: r, text: "MY TEAM RUNS A TRAINING EXCHANGE ON THURSDAYS."}

@@ -39,10 +39,10 @@ panels:
       At chungju_river_gate, the grey survey speaker and Taeo's motionless hand on its handset cord fill the middle third.
       Taeo's navy jacket cuff is frayed; a faded recoil bruise shows above it. Cold gate rim light from left,
       grey-blue dawn shadows. The lamp beside the speaker is steady. No monitor, readable markings or interface.
+      Nib's voice comes from off-frame left.
     calm: top
     lines:
-      - {who: nib, type: phone, side: l, text: "WHEN YOU WANT ME, KNOCK."}
-      - {who: nib, type: phone, side: l, text: "EVERYTHING ELSE IS THE RIVER LYING."}
+      - {who: "offpanel:nib", type: phone, side: l, text: "WHEN YOU WANT ME, KNOCK. EVERYTHING ELSE IS THE RIVER LYING."}
     notes: "Direct continuation of ch074 hook; Nib is on the intact Ryu survey line. P17 was paid off in ch074, not newly solved here."
   - id: P02
     shape: wide
@@ -55,6 +55,7 @@ panels:
       His frightened profile is attentive; wrapped RIGHT forearm rests against his body. White blue-banded cable crosses
       into the violet-black slit. Dawn and rim light pick out his knuckles and RIGHT-eye mole.
       Grey canvas beyond; no palm light, new striking motion or readable signs.
+      Keep this a waist-up profile with his hands and the metal upright visible.
     calm: top-right
     notes: "Ch074 already supplied two outside/three inside knocks. Hold the existing contact; no repeat recall."
   - id: P03
@@ -67,12 +68,13 @@ panels:
       At chungju_river_gate, cold rim light from right cuts across his cheek; muted navy background.
       His LEFT hand leaves the brace, unlit; RIGHT forearm remains wrapped. His expression loosens at Nib's final report.
       No window, screen or second Taeo.
+      Nib's voice comes from off-frame right.
     calm: left
     lines:
-      - {who: nib, type: phone, side: r, text: "LAST OUT."}
+      - {who: "offpanel:nib", type: phone, side: r, text: "LAST OUT."}
     notes: "Nib completes the last-person check established in ch074."
   - id: P04
-    shape: full
+    shape: tall
     gap: short
     bg: white
     silent: true
@@ -91,7 +93,7 @@ panels:
     bg: white
     title_text: "CHAPTER 75 · SORRY PROPERLY"
   - id: P06
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "establishing from the ward corridor toward the closed door"
@@ -100,10 +102,11 @@ panels:
       Taeo (taeo, outdoor, olive backpack with faded orange old shield-and-open-door patch) stands beside it, unable to sit.
       Sejin (sejin, sage scrubs and olive medic rig) stands between him and the door, tired and appraising.
       A wall clock has plain hands but no numerals; all door plates blank, no branded medical signage or active screens.
+      Sejin is in the left third with face visible. Taeo is in the right third with face visible.
     calm: top
     lines:
       - {who: narr, type: tag, text: "CHUNGJU · THAT EVENING"}
-      - {who: sejin, type: speech, side: l, text: "SHE SAID YOU CAN COME IN. TWELVE MINUTES."}
+      - {who: sejin, type: speech, side: l, text: "SERA SAID YOU CAN COME IN. TWELVE MINUTES."}
       - {who: taeo, type: speech, side: r, text: "DOES SHE NEED ANYTHING?"}
   - id: P07
     shape: inset-l
@@ -114,6 +117,7 @@ panels:
       Sejin (sejin, default) at chungju_hospital looks toward the ward, brows level and mouth firm, one hand on the door handle.
       Her bare forearms and beige-banded medical pouch are visible. Overhead blue-white light, slate shadow behind jaw.
       Simplified cream background, no instruments, labels or halo lighting.
+      Sejin is in the left third with face visible.
     calm: right
     lines:
       - {who: sejin, type: speech, side: l, text: "ASK HER."}
@@ -139,11 +143,13 @@ panels:
       the hand is visible, swollen, fingers at rest. She studies Taeo (outdoor) entering with deliberate wariness.
       Bedside cabinet holds a water cup and her small ivory bone flute. Clinical overhead light, slate shadows,
       dark curtained window. No bow, arrows, wounds exposed, readable chart or monitor display.
+      Frame Sera and the entering Taeo from the waist up; Taeo enters at left.
+      Crop people waist-up, retaining the acting hands; do not compress full figures. Sera is in the right third with face visible.
     calm: top
     lines:
       - {who: sera, type: speech, side: r, text: "SHUT THE DOOR, PLEASE."}
   - id: P10
-    shape: narrow-l
+    shape: tall
     gap: short
     bg: white
     camera: "full figure from bed height toward Taeo at the door"
@@ -151,12 +157,13 @@ panels:
       Taeo (taeo, outdoor) closes the ward door carefully behind himself at chungju_hospital.
       He faces Sera off frame rather than hiding his face in a bow; olive backpack still on his shoulder, patch outward.
       Tired eyes, tight jaw. Blue-white ceiling light, plain cream door and slate floor. No interface or readable plates.
+      Taeo is in the left third with face visible. Sera's voice comes from off-frame right.
     calm: right
     lines:
       - {who: taeo, type: speech, side: l, text: "MAY I SIT?"}
-      - {who: sera, type: speech, side: r, text: "THAT CHAIR."}
+      - {who: "offpanel:sera", type: speech, side: r, text: "TAKE THE VISITOR CHAIR."}
   - id: P11
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "side two-shot across the gap between visitor chair and bed"
@@ -165,9 +172,10 @@ panels:
       maintaining the distance Sera chose. Sera (hospital variation, LEFT sling) faces him without smiling.
       The unoccupied gap between them is central. Cold overhead light, cream walls, light-slate shadows.
       No clasped hands, bow, screen or decorative particles.
+      Taeo sits on the left; Sera sits in bed on the right, with full breathing room around both.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "I WANTED HER TO MAKE THIS EASIER."}
+      - {who: taeo, type: float, text: "I WANTED SERA TO MAKE THE APOLOGY EASIER."}
   - id: P12
     shape: strip
     gap: long
@@ -179,9 +187,9 @@ panels:
       nor to launch a prepared speech. No tears exaggerated into comedy, no UI or other faces.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "THAT WOULD HAVE BEEN ANOTHER JOB FOR HER."}
+      - {who: taeo, type: float, text: "ASKING FOR COMFORT WOULD GIVE HER ANOTHER JOB."}
   - id: P13
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "eye level from Sera's right side onto Taeo"
@@ -189,6 +197,7 @@ panels:
       Taeo (taeo, outdoor) sits square in his chair at chungju_hospital, looking directly at Sera beyond the camera,
       hands spread on his knees. ACTING: frightened, ashamed, fully present; mole under RIGHT eye visible.
       Overhead blue-white light, plain cream background. No illusion of a window in the air, no bow or smile.
+      Taeo is in the left third with face visible.
     calm: top
     lines:
       - {who: taeo, type: speech, side: l, text: "I TRUSTED THE INTERFACE BECAUSE IT MADE ME FEEL IN CONTROL."}
@@ -214,10 +223,12 @@ panels:
       Sera (sera, LEFT arm dressed and in sling) rests her uninjured RIGHT hand on the mattress at chungju_hospital,
       looking down at the protected arm for a beat rather than at Taeo. His navy shoulder is low in the foreground.
       East cabinet water cup and flute remain untouched. Blue-white light, cream and light slate; no exposed trauma or bow.
+      Sera occupies the right third; Taeo's listening profile remains at the lower left.
+      Crop people waist-up, retaining the acting hands; do not compress full figures. Sera is in the right third with face visible.
     calm: top
     lines:
-      - {who: sera, type: speech, side: r, text: "I SAW IT MOVE."}
-      - {who: sera, type: speech, side: r, text: "I TOLD YOU WHERE."}
+      - {who: sera, type: speech, side: r, text: "I SAW THE PREDATOR IN CHANNEL B."}
+      - {who: sera, type: speech, side: r, text: "I TOLD YOU THE PREDATOR WAS THERE."}
   - id: P16
     shape: inset-l
     gap: short
@@ -227,6 +238,7 @@ panels:
       Taeo (taeo, outdoor) in the ward chair at chungju_hospital holds Sera's off-frame gaze, eyes wet but not asking
       to be comforted. One hand curls into the fabric on his own knee. Clinical top light, muted slate background,
       no interface reflection, phone or consoling hand entering frame.
+      Taeo is in the left third with face visible.
     calm: right
     lines:
       - {who: taeo, type: speech, side: l, text: "YES."}
@@ -243,7 +255,7 @@ panels:
       Cream sheet, clinical blue-white overhead light, hard light-slate shadow. No bleeding, magic healing or lettering.
     calm: none
   - id: P18
-    shape: full
+    shape: tall
     gap: short
     bg: white
     camera: "low medium on Sera above the foot of the bed"
@@ -252,6 +264,7 @@ panels:
       lift of her chin. Her adult face is cool, exhausted and exact. Bed rails frame her without trapping her.
       At chungju_hospital the overhead light is blue-white, slate shadows below the pillows, dark window right.
       No victory glow, smile, weapon or interface.
+      Sera is in the right third with face visible.
     calm: top
     lines:
       - {who: sera, type: speech, side: r, text: "GOOD."}
@@ -266,11 +279,12 @@ panels:
       Taeo (taeo, outdoor) leans forward a fraction at chungju_hospital, one index finger starting upward as an idea
       arrives, then visibly stopping it. His eyebrows draw together: he has caught his own reflex.
       Clinical light, plain cream background, hands empty. No notebook already full of answers or interface.
+      Taeo is in the left third with face visible.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: l, text: "I CAN—"}
+      - {who: taeo, type: speech, side: l, text: "I CAN MAKE A PLAN."}
   - id: P20
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "level two-shot from beside the dark curtained window"
@@ -278,6 +292,7 @@ panels:
       Taeo (outdoor) settles back into the visitor chair at chungju_hospital, finger lowered, facing Sera
       (hospital shirt, LEFT sling) in the bed. She waits with one eyebrow lifted, not rescuing his sentence.
       Overhead clinical light, slate shadows, the physical gap between them held clear. No screen or visible interface.
+      Taeo is in the left third with face visible. Sera is in the right third with face visible.
     calm: top
     lines:
       - {who: taeo, type: speech, side: l, text: "WHAT DO YOU NEED THE PLAN TO DO?"}
@@ -291,21 +306,24 @@ panels:
       Sera (sera, hospital variation) at chungju_hospital keeps her eyes on Taeo off left, lips thin with held anger.
       LEFT sling remains below the crop; braid and bone bead visible on the right. Blue-white top light, cream pillow,
       hard slate shadow. No flashback creature or imagined healthy arm.
+      Sera is in the right third with face visible.
     calm: left
     lines:
-      - {who: sera, type: speech, side: r, text: "WHILE I'M STILL SAYING IT."}
+      - {who: sera, type: speech, side: r, text: "STOP BEFORE I'M TOO HURT TO SPEAK."}
   - id: P22
     shape: wide
     gap: short
     bg: white
-    camera: "from the bed's left foot toward Taeo and the unused bag"
+    camera: "medium two-shot across the bed foot, Taeo left and Sera right"
     art: >
       Taeo (taeo, outdoor) nods once, seriously, at chungju_hospital. His olive backpack sits on the floor with its old
       orange door patch toward us. His hands stay on his own knees. Clinical ceiling light, cream and slate palette,
       no handshake or implied reconciliation embrace.
+      Show Sera's face above her LEFT sling in the right third, listening to Taeo at left.
+      Crop people waist-up, retaining the acting hands; do not compress full figures. Taeo is in the left third with face visible. Sera is in the right third with face visible.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "YOU GET THE STOP. EVERY TIME."}
+      - {who: taeo, type: speech, side: l, text: "YOU CAN CALL STOP. EVERY TIME."}
       - {who: sera, type: speech, side: r, text: "AND IF YOUR WINDOW DISAGREES?"}
       - {who: taeo, type: speech, side: l, text: "WE STOP."}
   - id: P23
@@ -317,9 +335,10 @@ panels:
       Sera (sera, hospital shirt, LEFT sling edge visible) at chungju_hospital holds the gaze a moment longer,
       checking the answer rather than accepting its sound. Her mouth has a faint hard line of professional approval,
       eyes still tired. Clinical overhead light, simplified cream background. No softened romantic expression.
+      Sera is in the right third with face visible.
     calm: left
     lines:
-      - {who: sera, type: speech, side: r, text: "PUT THAT IN THE PLAN."}
+      - {who: sera, type: speech, side: r, text: "WRITE MY STOP RULE INTO THE PLAN."}
   - id: P24
     shape: strip
     gap: short
@@ -331,9 +350,9 @@ panels:
       Clinical light, black cargo fabric, slate chair edge. No symbolic strings, magical cure or UI.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "I COULD PROMISE THAT SITTING DOWN."}
+      - {who: taeo, type: float, text: "PROMISING TO STOP WAS EASY IN A HOSPITAL CHAIR."}
   - id: P25
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "medium reverse from the doorway toward Sera and Taeo's profile"
@@ -341,10 +360,11 @@ panels:
       At chungju_hospital Sera (LEFT sling) studies Taeo (outdoor) as he looks from his hands back to her.
       She remains in bed; he stays beside it. The bedside flute lies horizontal beside the water cup.
       Blue-white clinical ceiling light, cream wall and slate shadows. No discharge papers, phone or bow.
+      Sera is in the right third with face visible. Taeo is in the left third with face visible.
     calm: top
     lines:
-      - {who: sera, type: speech, side: r, text: "YOU'LL WANT TO FINISH. PEOPLE WILL BE WATCHING."}
-      - {who: taeo, type: speech, side: l, text: "THEN SOMEONE ELSE GETS TO STOP ME TOO."}
+      - {who: sera, type: speech, side: r, text: "YOU'LL WANT TO FINISH THE JOB. PEOPLE WILL BE WATCHING."}
+      - {who: taeo, type: speech, side: l, text: "SOMEONE ELSE CAN CALL STOP IF I WON'T."}
   - id: P26
     shape: inset-l
     gap: short
@@ -354,10 +374,11 @@ panels:
       Taeo (taeo, outdoor) at chungju_hospital looks toward the closed door where Sejin waits outside,
       then back at Sera, expression earnest rather than inspired. Blue-white light cuts the cheek with the RIGHT mole.
       Plain slate-cream background; no window, camera crew or drawn words.
+      Taeo is in the left third with face visible.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: l, text: "SEJIN. NIB. ANYONE ON THE LINE."}
-      - {who: taeo, type: speech, side: l, text: "I'LL WRITE IT DOWN."}
+      - {who: taeo, type: speech, side: l, text: "SEJIN. NIB. ANYONE ON THE RADIO."}
+      - {who: taeo, type: speech, side: l, text: "I'LL WRITE DOWN EVERYONE'S RIGHT TO STOP ME."}
   - id: P27
     shape: vignette
     gap: long
@@ -379,9 +400,11 @@ panels:
       The bone flute is large in the foreground at chungju_hospital. Sera (LEFT sling) looks back at Taeo in the visitor chair,
       eyes fierce and suddenly exposed. He listens with no move toward her. Clinical overhead light on ivory,
       cool slate shadows and cream linen. No played instrument, spectral brother or flashback.
+      Show Sera on the right and Taeo on the left in a waist-up two-shot behind the flute.
+      Crop people waist-up, retaining the acting hands; do not compress full figures. Sera is in the right third with face visible. Taeo is in the left third with face visible.
     calm: top
     lines:
-      - {who: sera, type: speech, side: r, text: "I DON'T KNOW WHEN I CAN PLAY THAT AGAIN."}
+      - {who: sera, type: speech, side: r, text: "I DON'T KNOW WHEN I CAN PLAY THE FLUTE AGAIN."}
       - {who: taeo, type: speech, side: l, text: "I DON'T KNOW EITHER."}
   - id: P29
     shape: strip
@@ -394,8 +417,8 @@ panels:
       No reflected window, tears in comic streams or image of the attack.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "I WANTED TO GIVE HER A DATE."}
-      - {who: taeo, type: float, text: "I HAD ALREADY GIVEN HER ONE FALSE CERTAINTY."}
+      - {who: taeo, type: float, text: "I WANTED TO TELL HER WHEN HER ARM WOULD HEAL."}
+      - {who: taeo, type: float, text: "I'D ALREADY HURT HER BY PRETENDING I WAS CERTAIN."}
   - id: P30
     shape: wide
     gap: short
@@ -405,10 +428,11 @@ panels:
       Sera (sera, cream patient shirt, LEFT sling) at chungju_hospital exhales and leans back against her pillows,
       exhausted by the conversation. Her RIGHT hand points toward the water cup without strain.
       Blue-white overhead light, cream cabinet and slate shadows, dark window. No recovered arm motion or bow.
+      Crop people waist-up, retaining the acting hands; do not compress full figures. Sera is in the right third with face visible. Taeo's voice comes from off-frame left.
     calm: top
     lines:
-      - {who: sera, type: speech, side: r, text: "WATER. CLOSE ENOUGH FOR THIS HAND."}
-      - {who: taeo, type: speech, side: l, text: "YES."}
+      - {who: sera, type: speech, side: r, text: "MOVE THE WATER CUP BY MY RIGHT HAND."}
+      - {who: "offpanel:taeo", type: speech, side: l, text: "YES."}
   - id: P31
     shape: inset-r
     gap: short
@@ -421,7 +445,7 @@ panels:
       Clinical light, cream wood, hard light-slate shadows. No touching the injured LEFT arm, no words or halo.
     calm: none
   - id: P32
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "side view from the window, Taeo rising beside the chair"
@@ -429,25 +453,27 @@ panels:
       Taeo (outdoor) rises at chungju_hospital, collecting his olive backpack by its handle. Sera (hospital variation,
       LEFT sling) has set the cup down after drinking; her good hand rests by it. She is drained, composed, no longer
       avoiding his eyes. Clinical overhead light, cream and slate. No embrace, weapon or fresh wound.
+      Sera is in the right third with face visible. Taeo is in the left third with face visible.
     calm: top
     lines:
-      - {who: sera, type: speech, side: r, text: "BRING ME THE DRAFT. BEFORE IT'S FINISHED."}
+      - {who: sera, type: speech, side: r, text: "BRING ME THE PLAN WHILE I CAN STILL CHANGE IT."}
       - {who: taeo, type: speech, side: l, text: "I WILL."}
   - id: P33
     shape: inset-l
     gap: short
     bg: white
-    camera: "close on Sera with cup at her right elbow"
+    camera: "close on Sera at right, Taeo off-frame left"
     art: >
       Sera (sera, LEFT sling) at chungju_hospital glances at a plain sealed snack packet protruding from Taeo's bag
       at the frame edge. One eyebrow climbs with a first small return of her competitive vanity.
       Blue-white overhead light, cream pillow, slate shadows. Packet blank, no broad smile or healed arm.
+      Sera is in the right third with face visible. Taeo's voice comes from off-frame left.
     calm: right
     lines:
-      - {who: sera, type: speech, side: l, text: "IS THAT THE HOSPITAL BISCUIT?"}
-      - {who: taeo, type: speech, side: r, text: "THEY GAVE ME ONE."}
+      - {who: sera, type: speech, side: r, text: "IS THAT THE HOSPITAL BISCUIT?"}
+      - {who: "offpanel:taeo", type: speech, side: l, text: "THEY GAVE ME ONE."}
   - id: P34
-    shape: wide
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -457,6 +483,7 @@ panels:
       hand like an exacting treasurer. Chibi Taeo (navy jacket, olive backpack with orange patch) offers the single
       plain biscuit packet with comically solemn care. Flat pale-slate background, crisp ceiling-light shadow.
       Sera's expression is imperious, Taeo's apologetically obedient. No coins, medical miracle or readable packaging.
+      Sera is in the right third with face visible. Taeo is in the left third with face visible.
     calm: top
     lines:
       - {who: sera, type: speech, side: r, text: "VISITOR TAX."}
@@ -471,10 +498,11 @@ panels:
       Normal style: Sera (sera, hospital variation, LEFT sling) at chungju_hospital lays the unopened biscuit beside
       the flute with her RIGHT hand. The slight humour has gone; she looks at Taeo with deliberate seriousness.
       Dark curtained window, blue-white ceiling light and slate shadow. No gag marks, cleared sling or readable packet.
+      Sera is in the right third with face visible. Taeo's voice comes from off-frame left.
     calm: top
     lines:
       - {who: sera, type: speech, side: r, text: "I'M STILL ANGRY."}
-      - {who: taeo, type: speech, side: l, text: "I HEARD YOU."}
+      - {who: "offpanel:taeo", type: speech, side: l, text: "I HEAR YOU, SERA."}
   - id: P36
     shape: strip
     gap: short
@@ -495,10 +523,11 @@ panels:
       Sejin (sejin, default) waits outside the ward at chungju_hospital with her arms folded. Taeo (outdoor, backpack)
       closes the door, face tired and steadier. She reads his expression rather than asking for an account of Sera.
       Blue-white bars overhead, cream walls, slate shadows. Door plate blank; no screen.
+      Crop people waist-up, retaining the acting hands; do not compress full figures. Sejin is in the left third with face visible. Taeo is in the right third with face visible.
     calm: top
     lines:
       - {who: sejin, type: speech, side: l, text: "WHAT NOW?"}
-      - {who: taeo, type: speech, side: r, text: "WE WRITE A STOP THAT I CAN'T OVERRULE."}
+      - {who: taeo, type: speech, side: r, text: "WE WRITE A STOP RULE THAT I CAN'T OVERRULE."}
   - id: P38
     shape: inset-r
     gap: short
@@ -508,9 +537,10 @@ panels:
       Sejin (sejin, sage scrubs, olive medic rig) at chungju_hospital lifts her chin with a small, dry nod.
       The hard set of her eyes eases only one degree. Blue-white overhead light, slate jaw shadow,
       simplified cream corridor. No cheerful absolution, logo or medical equipment.
+      Sejin is in the right third with face visible.
     calm: left
     lines:
-      - {who: sejin, type: speech, side: r, text: "START WITH THAT."}
+      - {who: sejin, type: speech, side: r, text: "START WITH THE STOP RULE."}
   - id: P39
     shape: narrow-l
     gap: short
@@ -532,9 +562,9 @@ panels:
       Clinical light, cream background, no readable display or interface.
     calm: left
     lines:
-      - {who: taeo, type: float, text: "THERE WAS STILL WORK I WAS ALLOWED TO DO."}
+      - {who: taeo, type: float, text: "I COULD STILL HELP IF I LISTENED."}
   - id: P41
-    shape: full
+    shape: tall
     gap: fade-black
     bg: navy
     camera: "yard establishing from the south vehicle gate toward the western trestle"
@@ -560,16 +590,17 @@ panels:
       pushes a blank sheet toward Taeo (outdoor), his expression blunt and expectant. His torn right shorts knee shows.
       The task lamp lights their hands warmly, deep blue shadow behind; diagram sheets remain unreadable shapes.
       No interface, extra knife or replacement shorts.
+      Crop people waist-up, retaining the acting hands; do not compress full figures. Nib is in the left third with face visible. Taeo is in the right third with face visible.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "WHAT DID SHE SAY?"}
-      - {who: taeo, type: speech, side: r, text: "SHE WANTS TO SEE THE PLAN BEFORE WE CALL IT ONE."}
+      - {who: nib, type: speech, side: l, text: "WHAT DID SERA SAY?"}
+      - {who: taeo, type: speech, side: r, text: "SHE WANTS TO HELP WRITE THE PLAN."}
       - {who: nib, type: speech, side: l, text: "GOOD."}
   - id: P43
     shape: tall
     gap: short
     bg: navy
-    camera: "high three-quarter view over Kesh's shoulder and crowded tabletop"
+    camera: "high medium three-shot over the tabletop, Kesh left, Taeo centre, Haein right"
     art: >
       Kesh (kesh), adult 198-cm moth-like signal keeper at ryu_practice_yard, leans over the trestle: mature narrow grey-tan
       face, near-black eyes, wispy grey-brown head fur, two feathered antennae, two arms and two legs, five delicate
@@ -577,10 +608,13 @@ panels:
       shoes; unlit signal wand beside him. He draws with Nib's cobalt pencil, concentration fighting fatigue.
       Haein (slate-blue overalls, beige tee, glasses on head) aligns spare connector blocks. Task-lamp ochre light,
       warm brown and deep navy shadows. Papers show loops and dots only, no words, extra limbs or glowing wings.
+      Taeo stands at centre beside the table, face and empty hands visible as he asks to help.
+      Kesh is in the left third with face visible. Haein is in the right third with face visible. Taeo is in the centre third with face visible.
     calm: top
     lines:
       - {who: kesh, type: speech, side: l, text: "PLEASE DON'T MOVE THE CUP."}
       - {who: haein, type: speech, side: r, text: "IT'S HOLDING DOWN YOUR ONLY EMPTY CORNER."}
+      - {who: taeo, type: speech, side: c, text: "CAN I HELP WITH THE DIAGRAM?"}
   - id: P44
     shape: strip
     gap: short
@@ -590,10 +624,10 @@ panels:
       At ryu_practice_yard Kesh's delicate five-finger hand uses Eunchae's cobalt-blue pencil; Kett's little three-line
       fork is carved near its eraser. The point joins two abstract drawn routes on paper beside a plain cup.
       Warm task-lamp light, ochre wood and brown shadows. No legible coordinates, formulae, words or magical thread.
+      Kesh's voice comes from off-frame left.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "CAN I HELP?"}
-      - {who: kesh, type: speech, side: l, text: "TELL ME WHERE YOU WERE WHEN YOU HEARD YOURSELF."}
+      - {who: "offpanel:kesh", type: speech, side: l, text: "SHOW ME WHERE YOU STOOD WHEN THE RIVER COPIED YOUR VOICE."}
     notes: "P15 evidence is being assembled; the actual mechanism and payoff belong to ch077."
   - id: P45
     shape: wide
@@ -605,12 +639,14 @@ panels:
       beside the too-small work area, patient but pointed. Nib (default, boots, binoculars) shifts a stack of paper off
       the empty bench end, still facing the diagrams. Warm task lamp from left, navy yard behind, ochre ground.
       No stool under Orrin, saddle, fresh shell damage or text.
+      Orrin is on the left, Nib on the right. Taeo answers from beyond the right edge.
+      Crop people waist-up, retaining the acting hands; do not compress full figures. Orrin is in the left third with face visible. Taeo's voice comes from off-frame right.
     calm: top
     lines:
       - {who: orrin, type: speech, side: l, text: "IF ANYONE IS PLANNING TO USE MY BACK, I SHOULD HEAR THAT PART."}
-      - {who: taeo, type: speech, side: r, text: "YES. PLEASE STAY."}
+      - {who: "offpanel:taeo", type: speech, side: r, text: "YES. PLEASE STAY."}
   - id: P46
-    shape: inset-l
+    shape: full
     gap: long
     bg: navy
     style: chibi
@@ -620,12 +656,14 @@ panels:
       diagram across chibi Taeo's arms, while chibi Nib (all belt/ear/binocular locks and boots) protects one cup-sized
       empty patch with both hands. Comedy exhaustion, dot eyes, one sweat drop. Flat dusty-ochre background,
       warm task-lamp shadow. No readable notes, extra arms or danger imagery.
+      Keep the two chibi bodies and Taeo's seated upper body separate: Nib left, Taeo centre, Kesh right.
+      Nib is in the left third with face visible. Kesh is in the right third with face visible.
     calm: top
     lines:
       - {who: nib, type: speech, side: l, text: "THIS IS THE DINNER AREA."}
-      - {who: kesh, type: speech, side: r, text: "IT WAS."}
+      - {who: kesh, type: speech, side: r, text: "NOT TONIGHT."}
   - id: P47
-    shape: vignette
+    shape: tall
     gap: long
     bg: navy
     silent: true
@@ -640,17 +678,18 @@ panels:
     shape: wide
     gap: short
     bg: navy
-    camera: "over Nib's shoulder onto Taeo and the new rule sheet"
+    camera: "eye-level medium two-shot across the rule sheet, Nib left and Taeo right"
     art: >
       At ryu_practice_yard Taeo (taeo, black hoodie) points to a plain ruled area on his paper, expression sober.
       Nib's notched LEFT ear and binocular strap knot frame the foreground; Kesh's wing edge remains by the lamp.
       Warm ochre task light and brown shadows. Sheet reserved blank for label; no interface or illustrated writing.
+      Crop people waist-up, retaining the acting hands; do not compress full figures. Taeo is in the right third with face visible. Nib is in the left third with face visible.
     calm: top
     ui:
       - {kind: label, text: "ANYONE CALLS STOP. OPERATOR STOPS. NO OVERRIDE.", at: [0.57, 0.73], size: 28, notes: "Place on the rule sheet, not over a face or hand."}
     lines:
-      - {who: taeo, type: speech, side: r, text: "THIS IS THE FIRST LINE."}
-      - {who: nib, type: speech, side: l, text: "KEEP IT FIRST."}
+      - {who: taeo, type: speech, side: r, text: "THE STOP RULE GOES FIRST."}
+      - {who: nib, type: speech, side: l, text: "KEEP THE STOP RULE FIRST."}
     notes: "Concrete result of apology: operator cannot overrule crew's stop. This is an operating rule, not the later guild charter."
   - id: P49
     shape: inset-r
@@ -673,9 +712,11 @@ panels:
       eyes huge, mouth half open, as Kesh's hand places the completed diagram in front of him. Nib (default, boots,
       binoculars) is already standing beside his bench. Cool dawn blue and ochre lamplight, crisp movement lines.
       No interface, falling medical gear or readable diagram text.
+      Frame Taeo waist-up at left and Nib waist-up at right, keeping Kesh's diagram hand visible.
+      Crop people waist-up, retaining the acting hands; do not compress full figures. Taeo is in the left third with face visible.
     calm: top
     lines:
-      - {who: taeo, type: nervous, side: l, text: "YOU FOUND SOMETHING?"}
+      - {who: taeo, type: nervous, side: l, text: "DID YOU FIND A WAY TO USE THE LOOP?"}
   - id: P51
     shape: tall
     gap: long
@@ -687,6 +728,7 @@ panels:
       The marked cobalt pencil rests in his hand; abstract looped routes fill the lower foreground, no writing.
       Taeo and Nib are small at opposite edges, listening. Southeast dawn makes cool sky-blue edges on the wings,
       warm task light under the hands, ochre table and brown shadows. No active relic or interface revelation.
+      Kesh is in the centre third with face visible.
     calm: top
     lines:
       - {who: kesh, type: speech, side: c, text: "I THINK WE CAN USE THE LOOP."}

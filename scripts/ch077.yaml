@@ -65,7 +65,7 @@ panels:
       is added. Warm dome lamp, cream counter, brown cel shadows. No lifted sample, hidden paper or text.
     calm: none
   - id: P03
-    shape: wide
+    shape: tall
     gap: long
     bg: white
     silent: true
@@ -76,9 +76,10 @@ panels:
       silver bun, moss cardigan and oatmeal apron) holds the southeast door open, letting him go.
       Warm pendant light behind, navy street ahead, cream/teal interior and brown shadows. No answers,
       cloth message, readable sign, disappearance or trapped exit.
+      Give both standing figures full vertical room: Nib in the foreground and Moon behind him.
     calm: none
   - id: P04
-    shape: wide
+    shape: tall
     gap: long
     bg: white
     camera: "morning table-height on Nib facing Taeo in the yard"
@@ -87,10 +88,12 @@ panels:
       folded relay drawing. Taeo (outdoor, RIGHT forearm wrapped, patched backpack on chair) studies Nib's face,
       concerned. Nib's mouth is flat, eyes guarded. Southeast daylight, ochre table/ground, warm-brown shadows,
       blue sky. No second carving brought home, photograph of Moon or readable diagram.
+      Nib is on the left and Taeo on the right, with their full height difference visible.
+      Nib is in the left third with face visible. Taeo is in the right third with face visible.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "SHE KNEW A WORD FROM HOME."}
-      - {who: taeo, type: speech, side: r, text: "DO YOU WANT TO GO BACK?"}
+      - {who: nib, type: speech, side: l, text: "MOON KNEW A WORD FROM HOME."}
+      - {who: taeo, type: speech, side: r, text: "DO YOU WANT TO VISIT MOON AGAIN?"}
       - {who: nib, type: speech, side: l, text: "I WILL."}
   - id: P05
     kind: title
@@ -98,7 +101,7 @@ panels:
     bg: white
     title_text: "CHAPTER 77 · THE LOOP"
   - id: P06
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "establishing from south gate onto the west trestle, fixed maze beyond"
@@ -109,11 +112,13 @@ panels:
       unlit fork-headed wand rests beside paper. Taeo, Nib and Haein (overalls, beige tee, glasses up) gather;
       Orrin's bare slate back waits beside them. Keyed yard walls stay fixed. Southeast daylight, ochre/brown,
       sky blue. No readable paper, new gate or glowing wings.
+      Kesh stands left, Taeo right, Nib near centre; Haein is farther back and Orrin beside the table.
+      Kesh is in the left third with face visible. Taeo is in the right third with face visible.
     calm: top
     lines:
       - {who: narr, type: tag, text: "RYU SURVEY · THE FOLLOWING MORNING"}
-      - {who: kesh, type: speech, side: l, text: "I HAVE A SMALL ANSWER."}
-      - {who: taeo, type: speech, side: r, text: "SMALL IS GOOD."}
+      - {who: kesh, type: speech, side: l, text: "I CAN EXPLAIN THE ECHO NOW."}
+      - {who: taeo, type: speech, side: r, text: "PLEASE KEEP THE EXPLANATION SHORT."}
   - id: P07
     shape: strip
     gap: short
@@ -124,12 +129,13 @@ panels:
       log sheets. Its speaker grille is visible, display dark; Taeo's wrapped RIGHT forearm rests at edge.
       Paper has two empty rows reserved for labels. Morning daylight, cream paper, dull grey plastic,
       ochre table and hard brown shadow. No system UI, written marks or duplicate device.
+      Taeo's voice comes from off-frame left.
     calm: none
     ui:
       - {kind: label, text: "REAL TAEO · 06:31:00", at: [0.46, 0.38], size: 27, notes: "Original-source row on retained ch067 record."}
       - {kind: label, text: "COPY · 06:31:12", at: [0.46, 0.63], size: 27, notes: "Recorded return row."}
     lines:
-      - {who: taeo, type: phone, side: l, text: "NIB, OUT NOW."}
+      - {who: "offpanel:taeo", type: phone, side: l, text: "NIB, OUT NOW."}
     notes: "PAYOFF P15: playback of ch067 source and copy, not a new live command. Do not use speech for the recorder."
   - id: P08
     shape: wide
@@ -140,11 +146,12 @@ panels:
       Kesh (adult default, folded wings) at ryu_practice_yard points first to one blank log row, then the next.
       Nib (adult default, boots) follows with a scout's unsoftened attention; he has set his unrelated question aside.
       Morning southeast daylight, muted olive/grey-brown, ochre wood and brown shadow. No glowing path or text in art.
+      Crop people waist-up, retaining the acting hands; do not compress full figures. Kesh is in the left third with face visible. Nib is in the right third with face visible.
     calm: top
     lines:
-      - {who: kesh, type: speech, side: l, text: "TWELVE SECONDS AFTER YOU SPOKE. NEVER BEFORE."}
-      - {who: nib, type: speech, side: r, text: "THE TEAM DIDN'T SEND IT AGAIN."}
-      - {who: kesh, type: speech, side: l, text: "THE PATH DID."}
+      - {who: kesh, type: speech, side: l, text: "THE COPY ARRIVED TWELVE SECONDS AFTER YOU SPOKE. NEVER BEFORE."}
+      - {who: nib, type: speech, side: r, text: "THE UPSTREAM TEAM DIDN'T REPEAT THE WARNING."}
+      - {who: kesh, type: speech, side: l, text: "THE OLD RELAYS REPEATED THE WARNING."}
     notes: "PAYOFF P15: denial of a new transmission is consistent with delayed recirculation. Not evidence of sabotage."
   - id: P09
     shape: full
@@ -157,11 +164,12 @@ panels:
       traces the loop; Nib's green finger touches the join he physically opened; Taeo's LEFT finger waits at the start.
       Leave upper margin blank for labels. Morning light, cream paper/charcoal/stone-grey and brown table shadow.
       No map words, future scenes, energy arrows or loop conflated with the survey cable.
+      Kesh's voice comes from off-frame left.
     calm: top
     ui:
       - {kind: label, text: "OLD RELAY LOOP: SOUND RETURNS LATE", at: [0.5, 0.16], size: 29}
     lines:
-      - {who: kesh, type: speech, side: l, text: "STONE TO STONE. A PHYSICAL ROUTE ROUND THE CAVERN."}
+      - {who: "offpanel:kesh", type: speech, side: l, text: "THE SOUND GOES STONE TO STONE, ROUND THE CAVERN."}
   - id: P10
     shape: inset-r
     gap: short
@@ -171,28 +179,30 @@ panels:
       Haein (haein, overalls and beige tee, glasses on head) at ryu_practice_yard props up a log sheet without
       obscuring her face, expression bluntly satisfied. The sheet is blank for label overlay. Southeast daylight,
       cream paper, slate-blue fabric and warm-brown shadows. No green screen, interface or celebratory confetti.
+      Haein is in the right third with face visible.
     calm: left
     ui:
       - {kind: label, text: "05 CLOSED +12s / 06 OPEN — / 07 CLOSED +12s / 08 OPEN —", at: [0.54, 0.75], size: 22, notes: "On the old paper record, four short rows."}
     lines:
-      - {who: haein, type: speech, side: r, text: "CLOCKS ALREADY AGREED. OPEN THE BRANCH, THE COPY STOPS."}
+      - {who: haein, type: speech, side: r, text: "OUR CLOCKS MATCHED. BREAK THE RELAY PATH, AND THE COPY STOPS."}
     notes: "PAYOFF P15. Ch068's controlled times are preserved in props; this condenses them without pretending to perform new clock tests."
   - id: P11
     shape: wide
     gap: short
     bg: white
-    camera: "low reverse past the recorder toward Taeo"
+    camera: "medium view of Taeo at the table, Kesh off-frame left"
     art: >
       Taeo (taeo, outdoor, wrapped RIGHT forearm) at ryu_practice_yard looks from the recorder to Kesh, lips parted
       around a question he is embarrassed to need. His RIGHT-eye mole and tired lower lids show. Morning light,
       plain ochre background and hard brown shadow; recorder dark, no system window or visionary flashback.
+      Crop people waist-up, retaining the acting hands; do not compress full figures. Taeo is in the right third with face visible. Kesh's voice comes from off-frame left.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "SO NOTHING WENT BACK IN TIME."}
-      - {who: kesh, type: speech, side: l, text: "NO. IT WENT THE LONG WAY ROUND."}
+      - {who: taeo, type: speech, side: r, text: "THE SOUND NEVER WENT BACK IN TIME?"}
+      - {who: "offpanel:kesh", type: speech, side: l, text: "NO. THE SOUND TOOK THE LONG WAY ROUND."}
     notes: "PAYOFF P15, explicit narrow answer: delayed relay loop, no time travel."
   - id: P12
-    shape: wide
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -202,12 +212,14 @@ panels:
       into an absurdly long route around chibi Taeo, who has a small sheepish sweat drop. Chibi Nib (all locks,
       boots) points to the simple gap that breaks the circuit. Flat cream/ochre with clear top-light shadow.
       No time machine, actual restraint, readable words or implied new power.
+      Keep chibi Taeo left, chibi Kesh centre and chibi Nib right, each separate from the coiled cable.
+      Taeo is in the left third with face visible. Nib is in the right third with face visible.
     calm: top
     lines:
       - {who: taeo, type: nervous, side: l, text: "I LOST SLEEP OVER A VERY LONG WIRE."}
       - {who: nib, type: speech, side: r, text: "YOU LOST SLEEP BEFORE THE WIRE."}
   - id: P13
-    shape: full
+    shape: tall
     gap: short
     bg: white
     camera: "normal-style table-height along the open bench-loop assembly"
@@ -216,10 +228,12 @@ panels:
       low-power bench replica: grooved carriers form a visible long folded physical path. Nib (adult default,
       boots) holds a removable tongue beside a branch; Haein watches two ordinary blank-faced timing instruments.
       Southeast daylight, stone-grey/cream/ochre and brown shadow. No force glow, water tank or readable screens.
+      Kesh is left, Nib centre and Haein right, with both faces and the contact layout visible.
+      Kesh is in the left third with face visible. Haein is in the right third with face visible.
     calm: top
     lines:
-      - {who: kesh, type: speech, side: l, text: "A SMALL COPY OF THE JOIN. SIGNAL ONLY."}
-      - {who: haein, type: speech, side: r, text: "NO LOAD IN IT."}
+      - {who: kesh, type: speech, side: l, text: "THIS MODEL COPIES THE RELAY JOIN. SIGNALS ONLY."}
+      - {who: haein, type: speech, side: r, text: "THE MODEL CARRIES NO IMPACT."}
   - id: P14
     shape: strip
     gap: short
@@ -244,7 +258,7 @@ panels:
       art, particles or magic.
     calm: none
   - id: P16
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "side medium on Kesh replacing the tongue, Taeo taking notes"
@@ -253,9 +267,12 @@ panels:
       Taeo (outdoor, supported RIGHT forearm) writes carefully with his LEFT hand on a blank log area.
       Their faces are attentive, not triumphant. Morning ochre/brown with sky-blue fill; no system log,
       force storage, readable writing or computer monitor.
+      Kesh stands left, Nib at centre and Taeo on the right, all given vertical space around the table.
+      Kesh is in the left third with face visible.
     calm: top
     lines:
-      - {who: kesh, type: speech, side: l, text: "CLOSE IT. THE SIGNAL HAS A WAY HOME AGAIN."}
+      - {who: kesh, type: speech, side: l, text: "CLOSE THE BRANCH. THE SIGNAL CAN RETURN AGAIN."}
+      - {who: kesh, type: speech, side: l, text: "WE CAN ADD CONTACTS THAT TAP AS THE SIGNAL PASSES."}
   - id: P17
     shape: strip
     gap: short
@@ -265,12 +282,12 @@ panels:
       At ryu_practice_yard the dull receiving tongue tips against its mate after the restored low-power signal
       traverses the bench route. Nib's hand is clear, five fingers relaxed. White chalk dots on stone are plain,
       not letters. Southeast daylight, grey contact/ochre table and brown hard shadows. No bright energy or water.
+      Kesh's voice comes from off-frame left.
     calm: top
     sfx:
       - {text: "TIK", style: quiet, at: [0.57, 0.52], size: S, rot: 0}
     lines:
-      - {who: kesh, type: speech, side: l, text: "WE CAN PLACE TAPS ALONG THE ROUTE."}
-      - {who: kesh, type: speech, side: l, text: "DIFFERENT ARRIVAL TIMES. SAME START."}
+      - {who: "offpanel:kesh", type: speech, side: l, text: "EACH CONTACT TAPS LATER. ALL THREE FOLLOW THE SAME SIGNAL."}
   - id: P18
     shape: inset-r
     gap: short
@@ -280,12 +297,13 @@ panels:
       Taeo (taeo, outdoor, RIGHT-eye mole) at ryu_practice_yard looks sharply from one contact to the next,
       brows rising with discovery and apprehension. His wrapped RIGHT arm stays supported on the table.
       Morning light, plain ochre/slate background. No superhuman insight aura, instant finished blueprint or interface.
+      Taeo is in the right third with face visible.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: r, text: "A FIRING INTERVAL."}
-      - {who: taeo, type: float, text: "AN ANSWER I COULD CHECK WITH SOMEONE ELSE."}
+      - {who: taeo, type: speech, side: r, text: "WE CAN TIME THE SHOT WITH THOSE TAPS."}
+      - {who: taeo, type: float, text: "A PLAN I COULD CHECK WITH THE PEOPLE TAKING THE RISK."}
   - id: P19
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "eye-level group shot, Nib facing Taeo across the diagram"
@@ -294,13 +312,15 @@ panels:
       diagram; Taeo (outdoor) keeps his hand away from it, considering. Kesh watches Nib, antennae forward.
       Haein's blunt profile appears at side. Southeast sun, ochre/brown and sky blue, all paper unlettered.
       No monster physically present or imagined safe Channel B window.
+      Nib is left, Kesh centre and Taeo right; Haein listens at the far edge.
+      Nib is in the left third with face visible. Taeo is in the right third with face visible.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "IT STILL LIES."}
-      - {who: taeo, type: speech, side: r, text: "THEN WE DON'T USE WORDS FOR THE SHOT."}
-      - {who: taeo, type: speech, side: r, text: "SERA SEES. KESH TIMES. BOTH HAVE TO AGREE."}
+      - {who: nib, type: speech, side: l, text: "THE PREDATOR STILL COPIES VOICES."}
+      - {who: taeo, type: speech, side: r, text: "THEN THE RELAY TAPS CHECK THE TIMING. A VOICE ALONE ISN'T ENOUGH."}
+      - {who: taeo, type: speech, side: r, text: "SERA CHOOSES THE TARGET. KESH CHECKS THE TIMING. BOTH MUST AGREE."}
   - id: P20
-    shape: narrow-l
+    shape: tall
     gap: short
     bg: white
     camera: "full figure of Kesh leaning on the table after standing too long"
@@ -308,11 +328,12 @@ panels:
       Kesh (adult default, four wings folded) at ryu_practice_yard braces both delicate hands on the trestle,
       antennae sagging with fatigue although his expression stays keen. His unlit wand rests within reach.
       Southeast daylight, grey-brown/olive and ochre shadows. No wings flying, endless stamina or extra limbs.
+      Kesh is in the left third with face visible.
     calm: right
     lines:
-      - {who: kesh, type: speech, side: l, text: "I CAN KEEP THREE TAPS. NOT EVERY VOICE."}
+      - {who: kesh, type: speech, side: l, text: "I CAN TRACK THREE TAPS. I CAN'T CHECK EVERY VOICE."}
   - id: P21
-    shape: full
+    shape: tall
     gap: short
     bg: white
     camera: "high view of Taeo laying out the plan with separate physical pieces"
@@ -321,14 +342,16 @@ panels:
       a broad slate block for Orrin, a short spring cartridge, a bow-shaped wooden template. Kesh spaces three
       dull signal pegs; Nib adds a separate dry-route strip. Haein examines the cartridge. Faces show work,
       not sudden certainty. Morning ochre and cream, blue fill and brown hard shadows. No words or energy arrows.
+      Taeo is on the right, Kesh at centre, Nib left and Haein behind the cartridge; show faces above the separate props.
+      Taeo is in the right third with face visible.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "WE TAKE A SMALL PART OF ITS SURGE THROUGH ORRIN."}
-      - {who: taeo, type: speech, side: r, text: "BANK IT. HAND IT THROUGH ME TO A SUPPORTED SHOT."}
-      - {who: taeo, type: speech, side: r, text: "AT THE INTERVAL WE TEST. WITH EVERYONE AGREEING."}
+      - {who: taeo, type: speech, side: r, text: "ORRIN'S COLLECTOR TAKES A SMALL PART OF THE PREDATOR'S WAVE."}
+      - {who: taeo, type: speech, side: r, text: "THE RESERVOIR STORES THE IMPACT. I PASS IT TO SERA'S SUPPORTED BOW."}
+      - {who: taeo, type: speech, side: r, text: "WE RELEASE AT THE TESTED INTERVAL. ONLY WITH EVERYONE'S PERMISSION."}
     notes: "Taeo authors the practical three-anchor hand-off with Kesh/Nib. No full-wave, full-water or unlimited reservoir claim."
   - id: P22
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low two-shot, Orrin's thoughtful face and Taeo crouched beside him"
@@ -337,11 +360,12 @@ panels:
       repaired old crack) at ryu_practice_yard regards Taeo (outdoor), who crouches without leaning on his shell.
       Orrin's face is dry and measuring. Morning sun on slate planes, dusty ochre, brown shadows.
       No saddle, harness, pet nuzzle or already attached collector.
+      Taeo is in the right third with face visible. Orrin is in the left third with face visible.
     calm: top
     lines:
       - {who: taeo, type: speech, side: r, text: "WILL YOU HOLD THE COLLECTOR IF THE TEST IS SAFE?"}
-      - {who: orrin, type: speech, side: l, text: "A PIECE OF THE WAVE. I AM NOT THE BANK."}
-      - {who: taeo, type: speech, side: r, text: "A PIECE."}
+      - {who: orrin, type: speech, side: l, text: "A SMALL PART OF THE WAVE. THE CARTRIDGE IS THE BANK."}
+      - {who: taeo, type: speech, side: r, text: "ONLY A SMALL PART."}
   - id: P23
     shape: wide
     gap: short
@@ -352,11 +376,12 @@ panels:
       a DRY escape shelf beside the river diagram, then places his own plain token on it. Taeo listens from right,
       hands still. Southeast sunlight, ochre table and brown shadow, pale blue background. No new channel,
       water under his feet or sword drawn for a fantasy attack.
+      Crop people waist-up, retaining the acting hands; do not compress full figures. Nib is in the left third with face visible. Taeo is in the right third with face visible.
     calm: top
     lines:
       - {who: nib, type: speech, side: l, text: "I CHOOSE THE LURE PATH. AND THE WAY OUT."}
-      - {who: taeo, type: speech, side: r, text: "YES. NO SHORTCUT THROUGH B."}
-      - {who: nib, type: speech, side: l, text: "NONE."}
+      - {who: taeo, type: speech, side: r, text: "YES. CHANNEL B STAYS OFF OUR ROUTE."}
+      - {who: nib, type: speech, side: l, text: "NO CHANNEL B."}
   - id: P24
     shape: full
     gap: long
@@ -368,10 +393,11 @@ panels:
       Taeo (outdoor, RIGHT wrap) looks at the damaged piece without touching it. Her face is strict, not proud
       of a miracle. Warm work lamp over daylight ochre/brown, steel grey. No intact resurrected original,
       readable brand, glowing fill or infinite reservoir.
+      Haein is in the left third with face visible.
     calm: top
     lines:
-      - {who: haein, type: speech, side: l, text: "NEW HOUSING. REPLACEMENT STACK. THE OLD ONE STAYS BROKEN."}
-      - {who: haein, type: speech, side: l, text: "SAME LIMIT. ZERO POINT EIGHT SECONDS."}
+      - {who: haein, type: speech, side: l, text: "NEW CASING AND SPRINGS. THE ORIGINAL STAYS BROKEN."}
+      - {who: haein, type: speech, side: l, text: "SAME STORAGE LIMIT. ZERO POINT EIGHT SECONDS."}
   - id: P25
     shape: strip
     gap: short
@@ -382,13 +408,14 @@ panels:
       padded brace receives the lever's release path. A blank beige calibration card lies beside it for the letterer.
       Task lamp, dull steel, cream paper and hard brown shadow. No electrical lightning, water inside housing
       or screen; components clearly separated and mechanically plausible.
+      Haein's voice comes from off-frame left.
     calm: top
     ui:
       - {kind: label, text: "0.8 s MAX · DUMP TO BRACE", at: [0.5, 0.76], size: 28, notes: "On the calibration card."}
     lines:
-      - {who: haein, type: speech, side: l, text: "MISS THE OPENING, DUMP. WE DON'T WAIT HARDER."}
+      - {who: "offpanel:haein", type: speech, side: l, text: "MISS THE OPENING, DUMP THE STORED IMPACT. NO WAITING."}
   - id: P26
-    shape: wide
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -397,6 +424,8 @@ panels:
       Chibi Orrin, same slate shell and no harness, at ryu_practice_yard watches chibi Taeo set a comically tiny
       spring cartridge beside an enormous paper river model. Chibi Haein has the dump lever in hand and a flat
       unimpressed mouth. Flat dusty-ochre background, top-light shadow, no danger, load effect, words or actual flood.
+      Place chibi Orrin left, chibi Haein centre and chibi Taeo right.
+      Orrin is in the left third with face visible. Taeo is in the right third with face visible.
     calm: top
     lines:
       - {who: orrin, type: speech, side: l, text: "YOUR BANK HAS VERY LITTLE MONEY."}
@@ -405,19 +434,20 @@ panels:
     shape: wide
     gap: short
     bg: white
-    camera: "normal-style over Taeo's shoulder onto the separate stop-rule sheet"
+    camera: "normal-style medium view across the stop-rule sheet toward Taeo at right"
     art: >
       Normal style at ryu_practice_yard. Taeo (outdoor, RIGHT arm supported) places the ch075 rule sheet ABOVE
       the timing diagram. Nib (adult default and boots) keeps one green finger on its top blank row; Kesh and
       Haein listen. Morning daylight, cream paper, ochre wood and brown hard shadows. No handwritten words,
       interface window or pledge glow.
+      Crop people waist-up, retaining the acting hands; do not compress full figures. Taeo is in the right third with face visible.
     calm: top
     ui:
       - {kind: label, text: "ANYONE CALLS STOP. OPERATOR STOPS. NO OVERRIDE.", at: [0.53, 0.31], size: 26}
     lines:
-      - {who: taeo, type: speech, side: r, text: "THIS STILL COMES FIRST."}
+      - {who: taeo, type: speech, side: r, text: "EVERYONE'S STOP RULE STILL COMES FIRST."}
   - id: P28
-    shape: full
+    shape: tall
     gap: long
     bg: white
     camera: "wide across the safe bench test with padded pendulum and empty cradle"
@@ -427,20 +457,23 @@ panels:
       a broad base, its catch shielded. Taeo (outdoor) operates the prepared controls with supported arms;
       Orrin stands BESIDE the unloaded rim brace, Nib holds the stop lever, Kesh watches taps, Haein records.
       Daylight ochre/brown and steel grey, faces intent. No live arrow, dangerous weight, human impact or text.
+      Haein stands on the left; show the full bench rig and the separate standing crew without flattening their bodies.
+      Haein is in the left third with face visible.
     calm: top
     lines:
-      - {who: haein, type: speech, side: l, text: "DRY TEST. NO PERSON CARRIES THIS LOAD."}
+      - {who: haein, type: speech, side: l, text: "DRY TEST. THE RIG TAKES THE LOAD. NO ONE LINKS."}
     notes: "Initial low-power hardware test bypasses living links; ch078 remains first full surge hand-off."
   - id: P29
     shape: wide
     gap: short
     bg: white
-    camera: "tight two-shot, Nib making the test deliberately stop"
+    camera: "medium waist-up two-shot of Nib left and Taeo right during the stop test"
     art: >
       Nib (adult default, boots) at ryu_practice_yard gives Taeo a flat direct look and raises his empty hand.
       Taeo (outdoor, RIGHT wrap) immediately moves the mechanical dump control with his LEFT hand. Both
       expressions serious; the bench frame sits behind them, no danger. Morning sun, ochre/slate and brown shadow.
       No hesitation toward an interface, projectile or injury.
+      Crop people waist-up, retaining the acting hands; do not compress full figures. Nib is in the left third with face visible. Taeo is in the right third with face visible.
     calm: top
     lines:
       - {who: nib, type: speech, side: l, text: "STOP."}
@@ -483,10 +516,11 @@ panels:
       Haein's verified timing cue. Nib watches the dry exit board; Orrin observes collector placement. Faces
       relieved by a measurement, not victory. Noon daylight, ochre/brown, dull steel. No arrow, living load,
       written timing digits or supernatural light.
+      Haein is in the left third with face visible. Kesh is in the right third with face visible.
     calm: top
     lines:
-      - {who: haein, type: speech, side: l, text: "SIX TENTHS. INSIDE THE LIMIT."}
-      - {who: kesh, type: speech, side: r, text: "AND THE OLD COPY STILL COMES LATER."}
+      - {who: haein, type: speech, side: l, text: "RELEASE AT SIX TENTHS OF A SECOND. WITHIN THE LIMIT."}
+      - {who: kesh, type: speech, side: r, text: "THE OLD VOICE COPY STILL ARRIVES AFTER TWELVE SECONDS."}
     notes: "A successful low-power timed release; full-scale danger remains for ch078."
   - id: P33
     shape: inset-l
@@ -499,7 +533,7 @@ panels:
       Daylight, simple ochre/slate background, no interface, triumphant smile or imagined recovered Sera.
     calm: right
     lines:
-      - {who: taeo, type: float, text: "A WORKING DEVICE WAS THE EASIEST PERSON TO PLEASE."}
+      - {who: taeo, type: float, text: "SERA HAD MORE AT STAKE THAN A SUCCESSFUL TEST."}
   - id: P34
     shape: narrow-r
     gap: short
@@ -521,12 +555,14 @@ panels:
       Sejin (default sage scrubs/medic rig) stands by her LEFT elbow, watchful. Bow/quiver/flute remain bedside
       effects; pale curtain, blue-white overhead and cream night-lamp base. Ward geometry follows earlier chapters.
       No recovered left motion, readable chart or new medical gadget.
+      Sera sits on the right; Sejin stands beside the injured elbow; the call tablet sits to the left.
+      Sera is in the right third with face visible. Taeo's voice comes from off-frame left.
     calm: top
     ui:
       - {kind: phone.ttok_video_call, on: screen, caller: "Taeo · Kesh · Nib · Haein", own_video: "sera"}
     lines:
-      - {who: sera, type: speech, side: r, text: "YOU LEFT THE ARCHER OFF YOUR SHOT PLAN."}
-      - {who: taeo, type: phone, side: l, text: "I LEFT YOUR PART BLANK."}
+      - {who: sera, type: speech, side: r, text: "YOU LEFT THE ARCHER OUT OF THE SHOT PLAN."}
+      - {who: "offpanel:taeo", type: phone, side: l, text: "I LEFT YOUR PART FOR YOU TO WRITE."}
   - id: P36
     shape: wide
     gap: short
@@ -537,13 +573,14 @@ panels:
       eyes bright and challenging at the tablet beyond camera. Her RIGHT hand marks a small aim motion
       above the sheet; LEFT stays protected. Blue-white clinical light, cream/slate, tablet back dark.
       No bow held, screen visible, healing effect or bed wheeled toward a gate.
+      Crop people waist-up, retaining the acting hands; do not compress full figures. Sera is in the right third with face visible. Taeo's voice comes from off-frame left.
     calm: top
     lines:
-      - {who: sera, type: speech, side: r, text: "I'M TAKING IT."}
-      - {who: taeo, type: phone, side: l, text: "SERA, YOU'RE STILL IN BED."}
-      - {who: sera, type: speech, side: r, text: "THEN YOU NEED MY PART BEFORE I GET OUT."}
+      - {who: sera, type: speech, side: r, text: "I'M TAKING THE SHOT."}
+      - {who: "offpanel:taeo", type: phone, side: l, text: "SERA, YOU'RE STILL IN A HOSPITAL BED."}
+      - {who: sera, type: speech, side: r, text: "THEN PLAN MY PART BEFORE I LEAVE THE HOSPITAL."}
   - id: P37
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "yard reverse across the standing tablet toward Taeo and Kesh"
@@ -552,9 +589,11 @@ panels:
       mouth just open. Kesh (adult default) and Nib (adult default, boots) stand beside him; Haein holds the
       padded cradle template where the camera can see it. Afternoon sun, ochre/brown and blue-slate shade.
       No remote bow action, visible screen UI or image of Sera inside the yard.
+      Taeo stands right, Kesh centre, Nib beside him and Haein farther right with the template. The call tablet is at left.
+      Sera's voice comes from off-frame left. Taeo is in the right third with face visible.
     calm: top
     lines:
-      - {who: sera, type: phone, side: l, text: "I'M COMING BACK."}
+      - {who: "offpanel:sera", type: phone, side: l, text: "I'M COMING BACK TO THE GATE."}
       - {who: taeo, type: speech, side: r, text: "WHAT WOULD MAKE ONE SHOT POSSIBLE?"}
     notes: "She insists on physical return, not an implausible shot from her hospital bed. Taeo asks rather than secretly removing her."
   - id: P38
@@ -566,9 +605,10 @@ panels:
       Sejin (sejin, default) at chungju_hospital looks from Sera's supported LEFT elbow to the tablet off frame,
       expression unsentimental. She keeps hands off the arm while speaking. Clinical overhead light,
       sage/cream/slate palette, no medical screen, approval stamp or magical aura.
+      Sejin is in the right third with face visible.
     calm: left
     lines:
-      - {who: sejin, type: speech, side: r, text: "WE ASK HER TREATING TEAM. AND BUILD THE SUPPORT FIRST."}
+      - {who: sejin, type: speech, side: r, text: "WE ASK HER DOCTORS. AND BUILD THE SUPPORT FIRST."}
   - id: P39
     shape: strip
     gap: long
@@ -589,11 +629,12 @@ panels:
       Sera (hospital variation, LEFT sling) at chungju_hospital looks at Sejin instead of performing for the call.
       Sejin (default) answers her face to face, arms relaxed but gaze firm. Tablet shows only its dark back
       at frame edge. Clinical blue-white/cream/slate, no discharge costume or screen content.
+      Crop people waist-up, retaining the acting hands; do not compress full figures. Sera is in the right third with face visible. Sejin is in the left third with face visible.
     calm: top
     lines:
       - {who: sera, type: speech, side: r, text: "ONE SHOT. MY CHOICE."}
-      - {who: sejin, type: speech, side: l, text: "YOUR CHOICE INCLUDES THE CONDITIONS."}
-      - {who: sera, type: speech, side: r, text: "TELL ME THEM."}
+      - {who: sejin, type: speech, side: l, text: "YOUR CHOICE STILL NEEDS SAFETY CONDITIONS."}
+      - {who: sera, type: speech, side: r, text: "TELL ME THE CONDITIONS."}
   - id: P41
     shape: full
     gap: long
@@ -607,25 +648,27 @@ panels:
       calendar dates, new injuries, readable notes or dangerous live arrows.
     calm: top
     lines:
-      - {who: narr, type: tag, text: "OVER THE FOLLOWING RECOVERY AND TESTING SESSIONS"}
+      - {who: narr, type: tag, text: "DURING RECOVERY AND TESTING"}
       - {who: taeo, type: float, text: "WE STOPPED SAYING TOMORROW UNTIL WE HAD A REASON."}
     notes: "Intentional unnumbered time interval. No overnight recovery of a nearly lost arm; boss territory remains under consortium monitoring."
   - id: P42
-    shape: wide
+    shape: tall
     gap: short
     bg: white
-    camera: "later hospital visit from bedside onto Sera testing the unloaded support"
+    camera: "medium group view of Sejin left, Taeo centre and Sera right, with the unloaded cradle below"
     art: >
       Later at chungju_hospital, Sera (cream shirt, LEFT dressings now inside rigid protective brace) sits with
       her elbow supported by Sejin. An UNLOADED padded cradle rests on a plain stable stand; Sera's LEFT
       fingers guide its empty grip while RIGHT fingers open the harmless release. Taeo (outdoor, RIGHT arm support)
       and Haein (default) watch from a respectful distance. Blue-white/cream/slate, no bow string, arrow,
       legible medical paper, glow or full range of injured-arm motion.
+      Keep all three speaking faces visible: Sejin left, Taeo centre, Sera right. Haein watches from behind.
+      Sejin is in the left third with face visible. Sera is in the right third with face visible. Taeo is in the centre third with face visible.
     calm: top
     lines:
-      - {who: sejin, type: speech, side: l, text: "THE FRAME TAKES THE DRAW AND RECOIL. YOU ONLY ALIGN."}
-      - {who: sera, type: speech, side: r, text: "AND IF I CAN'T ALIGN, WE STOP."}
-      - {who: taeo, type: speech, side: r, text: "CHECK MY ARM TOO. BEFORE ANY LIVE LOAD."}
+      - {who: sejin, type: speech, side: l, text: "THE FRAME TAKES THE DRAW AND RECOIL. YOU ONLY AIM."}
+      - {who: sera, type: speech, side: r, text: "IF I CAN'T AIM, WE STOP."}
+      - {who: taeo, type: speech, side: c, text: "CHECK MY ARM TOO. BEFORE I CARRY ANY LIVE IMPACT."}
   - id: P43
     shape: inset-l
     gap: short
@@ -635,6 +678,7 @@ panels:
       Taeo (taeo, outdoor, RIGHT-eye mole) at chungju_hospital nods immediately toward Sera off frame as her
       test pauses. His LEFT hand closes the empty release cover. Old bruising and RIGHT support remain.
       Clinical blue-white, cream/slate background. No disappointed glare, interface or coerced retest.
+      Taeo is in the left third with face visible.
     calm: right
     lines:
       - {who: taeo, type: speech, side: l, text: "STOPPED."}
@@ -650,27 +694,31 @@ panels:
       at the release, jaw tight with concentration. Haein watches fit, not power. Taeo's RIGHT support has also
       been checked and retained. Clinical light,
       cream/green/slate and hard shadows. No strong draw, arrow, instant cure or signed clearance in art.
+      Use a medium waist-up group composition with Sejin left and Sera right; Haein watches beyond them.
+      Crop people waist-up, retaining the acting hands; do not compress full figures. Sejin is in the left third with face visible. Sera is in the right third with face visible.
     calm: top
     lines:
-      - {who: sejin, type: speech, side: l, text: "HER TEAM ALLOWS THIS SUPPORT TRIAL. NO ORDINARY COMBAT."}
-      - {who: sera, type: speech, side: r, text: "I KNOW WHAT I'M ASKING TO RISK."}
-      - {who: sejin, type: speech, side: l, text: "TAEO'S CHECKED TOO. BOUNDED LOAD ONLY. MY STOP STANDS."}
+      - {who: sejin, type: speech, side: l, text: "HER DOCTORS ALLOW THIS SUPPORTED TRIAL. ORDINARY COMBAT IS STILL OUT."}
+      - {who: sera, type: speech, side: r, text: "I KNOW THE RISK TO MY ARM."}
+      - {who: sejin, type: speech, side: l, text: "TAEO'S CHECKED TOO. LIMITED IMPACT ONLY. I CAN STILL STOP HIM."}
     notes: "Treating-team review is acknowledged; Sejin does not independently erase surgical restrictions. Exact interval stays unnumbered."
   - id: P45
-    shape: full
+    shape: tall
     gap: long
     bg: white
-    camera: "gate staging day, establishing over Minho's shoulder onto the actual plan"
+    camera: "gate-side group view of Minho left, Nib centre and Taeo right"
     art: >
       At chungju_river_gate EXTERIOR, Minho (minho, brown jacket/grey tee/olive cargos/knee pads, LEFT grey streak,
       chest radio) studies the private plan with Taeo, Kesh, Nib and Haein beneath the canopy. Orrin waits beside
       his removable rim brace/collector. Sera and Sejin are not here yet. Real blue-banded white cable enters
       the scaffold foot; gate violet rim and overcast grey light, muted orange barriers. All paper surfaces blank.
       No entry, bow shot, new worker party or readable signs.
+      Minho stands left, Nib centre and Taeo right, each face clearly visible while the others listen.
+      Minho is in the left third with face visible. Nib is in the centre third with face visible. Taeo is in the right third with face visible.
     calm: top
     lines:
       - {who: minho, type: speech, side: l, text: "THE LOWER SPUR IS GONE. HIGH APPROACH ONLY."}
-      - {who: nib, type: speech, side: r, text: "I CHECKED THE NEAR-SHELF EXIT ON THE LAST SURVEY."}
+      - {who: nib, type: speech, side: c, text: "I CHECKED THE DRY EXIT SHELF DURING THE LAST SURVEY."}
       - {who: taeo, type: speech, side: r, text: "WE VERIFY IT AGAIN BEFORE THE LURE."}
     notes: "Preserves ch074 lost spur, unsafe B and intact high detour. No new offpanel descent by this crew is invented."
   - id: P46
@@ -684,41 +732,45 @@ panels:
       Three dull pegs sit along an old contour loop; a separate straight white blue-banded survey cable stays apart.
       Taeo's LEFT finger indicates the protected sight line. Overcast grey/cream/slate, blank margin for labels.
       No sky, new passage, force stored in stones or generated letters.
+      Taeo's voice comes from off-frame right.
     calm: top
     ui:
       - {kind: label, text: "NIB: LURE / ORRIN: BANK / KESH: INTERVAL / SERA: AIM", at: [0.5, 0.18], size: 24}
     lines:
-      - {who: taeo, type: speech, side: r, text: "HER EYES DECIDE IF THE OPENING EXISTS."}
-      - {who: taeo, type: speech, side: r, text: "THE TAPS ONLY TELL HER WHEN."}
+      - {who: "offpanel:taeo", type: speech, side: r, text: "SERA'S EYES CHOOSE THE OPENING. THE TAPS TELL HER WHEN TO SHOOT."}
   - id: P47
-    shape: wide
+    shape: full
     gap: short
     bg: white
-    camera: "low from the scaffold foot toward Kesh laying out three station contacts"
+    camera: "medium three-shot of Kesh left, Taeo centre and kneeling Nib right beside the contacts"
     art: >
       Kesh (adult default, four wings folded, sash radio not attached to wings) at chungju_river_gate lays
       three measured station contacts beside his unlit wand. Nib (adult default, exact boots, two shorts repairs)
       kneels to check each one's hand release. Both faces intent. Grey daylight, dull stone and slate-violet rim,
       no live interface, readable marks or force channel.
+      Taeo stands in the centre with his face visible. Kesh is left and Nib kneels on the right, all three inside the frame.
+      Kesh is in the left third with face visible. Nib is in the right third with face visible. Taeo is in the centre third with face visible.
     calm: top
     lines:
-      - {who: kesh, type: speech, side: l, text: "FIRST TAP ARMS THE BANK. SECOND AND THIRD CONFIRM THE INTERVAL."}
+      - {who: kesh, type: speech, side: l, text: "FIRST TAP ARMS THE RESERVOIR. NEXT TWO CONFIRM THE TIMING."}
       - {who: nib, type: speech, side: r, text: "ONE BAD TAP. NO SHOT."}
-      - {who: taeo, type: speech, side: r, text: "NO SHOT."}
+      - {who: taeo, type: speech, side: c, text: "NO SHOT."}
   - id: P48
-    shape: wide
+    shape: full
     gap: short
     bg: white
-    camera: "side close on Orrin allowing the rim brace to be fitted"
+    camera: "medium group view of Orrin left, Taeo centre and Haein right fitting the brace"
     art: >
       At chungju_river_gate Orrin (adult bare terraced slate shell, repaired old crack) lowers the chosen shell rim
       toward the collector brace while Haein fits a removable scaffold clamp to the rim fixture, clear of old damage.
       Taeo (outdoor, RIGHT support) waits for Orrin's answer before touching controls. Overcast grey and violet rim,
       dull steel/slate palette, no restraining harness, fresh crack or pulse light.
+      Show Orrin's face left, Taeo's face centre and Haein's face right above her fitting hands.
+      Orrin is in the left third with face visible. Haein is in the right third with face visible. Taeo is in the centre third with face visible.
     calm: top
     lines:
-      - {who: orrin, type: speech, side: l, text: "YES. THIS POSITION."}
-      - {who: haein, type: speech, side: r, text: "DUMP GOES THROUGH THE BRACE INTO STONE. CLEAR OF THE OLD CRACK."}
+      - {who: orrin, type: speech, side: l, text: "YES. THIS COLLECTOR POSITION."}
+      - {who: haein, type: speech, side: r, text: "MISSED SHOT? THE BRACE DUMPS THE STORED IMPACT INTO STONE, CLEAR OF YOUR OLD CRACK."}
   - id: P49
     shape: inset-r
     gap: short
@@ -729,12 +781,12 @@ panels:
       timing card. Folder cover and paper have blank label fields, recorder display dark. Taeo's LEFT hand
       keeps the old folder separate from new successful test sheets. Overcast light, dull grey and cream,
       slate shadow. No erasing, public app, system log or readable art.
+      Haein's voice comes from off-frame right.
     calm: none
     ui:
       - {kind: label, text: "CHANNEL B FAILURE · RETAIN ORIGINAL", at: [0.5, 0.63], size: 26}
     lines:
-      - {who: haein, type: speech, side: r, text: "THE BAD CALL STAYS IN THE RECORD."}
-      - {who: taeo, type: speech, side: l, text: "ALL OF IT."}
+      - {who: "offpanel:haein", type: speech, side: r, text: "THE CHANNEL B FAILURE STAYS IN THE RECORD."}
     notes: "Preserves ch079 public disclosure; this chapter only retains the complete private evidence."
   - id: P50
     shape: strip
@@ -758,24 +810,29 @@ panels:
       boots) checks his free path, Kesh rests seated with stations packed, Orrin waits in agreed collector position.
       Taeo (outdoor) watches the road from hospital, hand still off the controls. Haein's record case is shut.
       Overcast grey, dull steel/slate, sparse muted orange. No extra entrants, active load or Sera silhouette yet.
+      Keep Minho left and Taeo right in a waist-up group view, with resting Kesh and Orrin behind.
+      Crop people waist-up, retaining the acting hands; do not compress full figures. Minho is in the left third with face visible. Taeo is in the right third with face visible.
     calm: top
     lines:
-      - {who: minho, type: speech, side: l, text: "FIVE ONLY. THE REST OF US HOLD OUTSIDE."}
-      - {who: taeo, type: speech, side: r, text: "AND THE PLAN DOESN'T START WITHOUT HER ANSWER."}
+      - {who: taeo, type: speech, side: r, text: "THE WHOLE CHANNEL B FAILURE."}
+      - {who: minho, type: speech, side: l, text: "FIVE GO INSIDE. EVERYONE ELSE STAYS OUTSIDE."}
+      - {who: taeo, type: speech, side: r, text: "WE DON'T START UNTIL SERA AGREES."}
   - id: P52
     shape: vignette
     gap: long
     bg: white
-    camera: "hospital-side quiet close on Sera dressed for the trip, brace foreground"
+    camera: "hospital-side medium waist-up two-shot, Sejin left and seated Sera right with brace visible"
     art: >
       At chungju_hospital Sera (sera, adult human, river-green wrap over cream short sleeves, sand trousers,
       brown ankle boots, dark braid with bone bead) sits dressed, injured LEFT arm in rigid medical brace
       over dressings. Her former leather LEFT bracer is absent. Bone flute secured RIGHT hip, quiver prepared
       beside her. Sejin (default) lifts her medical bag. Clinical blue-white, cream/slate with muted river green.
       No healed hand, concealed brace, discharge paper text or unsupported bow draw.
+      Sejin stands on the left and seated Sera occupies the right; use a waist-up composition with the brace included.
+      Sejin is in the left third with face visible. Sera is in the right third with face visible.
     calm: top
     lines:
-      - {who: sejin, type: speech, side: l, text: "ONE SUPPORTED RELEASE. I STAY AT YOUR ELBOW."}
+      - {who: sejin, type: speech, side: l, text: "ONE SUPPORTED SHOT. I STAY AT YOUR LEFT ELBOW."}
       - {who: sera, type: speech, side: r, text: "I KNOW."}
   - id: P53
     shape: strip
@@ -789,7 +846,7 @@ panels:
       ivory and slate shadows. No instrument played with one hand, written note, message cylinder or healed arm.
     calm: none
   - id: P54
-    shape: full
+    shape: tall
     gap: long
     bg: white
     silent: true
@@ -836,6 +893,8 @@ panels:
       foreground right, LEFT hand starting to rise and stopping short of her arm. BIG REACTION in his widened
       eyes and caught breath, no comic exaggeration. Overcast grey, muted green and violet rim.
       No healed pose, drawn bow, medical screen or entry crossing.
+      Use a waist-up group view; Taeo's speaking face is visible at right, Sera left and Sejin beside her.
+      Crop people waist-up, retaining the acting hands; do not compress full figures. Taeo is in the right third with face visible.
     calm: top
     lines:
       - {who: taeo, type: speech, side: r, text: "YOU CAME."}
@@ -864,6 +923,7 @@ panels:
       her own. The black-violet gate slit and exposed scaffold tapping plate rise behind, overcast grey daylight
       with cold rim light. Taeo's LEFT hand is held short, RIGHT forearm supported. No drawn bow, healed arm,
       triumph particles, active window or return mark before crossing.
+      Sera is in the left third with face visible.
     calm: top
     lines:
       - {who: sera, type: speech, side: l, text: "I SAID MY EYES COUNT. SO DO MY HANDS."}

@@ -30,7 +30,7 @@ props:
 palette_notes: "Course/concourse A4 institutional adaptation: blue-white roof work lights and glass daylight, slate shadows, navy rails, muted orange cargo and padding. Nib amber/Orrin slate-green appear only as separate permitted pulses in Taeo's RIGHT palm. Evening yard warm practical lamp against deep blue-grey/navy; private cyan interface stays absent. Red used only for public humiliation warning-style badge in composited UI, never decorative danger in course art."
 panels:
   - id: P01
-    shape: wide
+    shape: tall
     gap: none
     bg: white
     camera: "floor-level at the first corner, east lane B"
@@ -38,7 +38,8 @@ panels:
       Pick up the very first strides from ch050: nib default in chosen boots clears lane B's first
       offset corner, adult scout crouch low, binoculars secured flat with one forearm. Orrin default
       follows with orange cargo cylinder balanced between his broad forefeet and chin for a low push,
-      Sera default flanks. Exhibition roof work lights, blue-white/slate. No repeated starting horn,
+      Sera default flanks. Nib leads on the left, Orrin follows in the centre, Sera on the right.
+      Exhibition roof work lights, blue-white/slate. No repeated starting horn,
       gate mark, levitation or blade drawn.
     calm: top
     lines:
@@ -82,26 +83,27 @@ panels:
       backpack patch hanging behind him.
     calm: left
     lines:
-      - {who: taeo, type: float, text: "I KNEW HE WAS BETTER. KNOWING WAS SLOWER."}
+      - {who: taeo, type: float, text: "I KNEW DOYUN WAS BETTER. THE GAP STILL SHOCKED ME."}
   - id: P05
     kind: title
     gap: long
     bg: white
     title_text: "CHAPTER 51 · FASTER THAN ME"
   - id: P06
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "side-on across east lane's counterweight station"
     art: >
       nib default in boots reaches the padded counterweight, looks along its left-to-right swing and
       shows an open hand to taeo outside east rail. Orrin default stops the cylinder behind the safe
-      setback; Sera scans the target station ahead. White roof fixtures, blue-white/slate and muted
+      setback; Sera scans the target station ahead. Nib is left, Orrin centre-left behind him,
+      Taeo right beyond the rail, Sera centre-right farther ahead. White roof fixtures, blue-white/slate and muted
       orange padding. No live blade, impact yet or shuffled station order.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "FIRST SWING. LEFT TO ORRIN."}
-      - {who: taeo, type: speech, side: r, text: "LEFT. READY."}
+      - {who: nib, type: speech, side: l, text: "FIRST HIT. ROUTE LEFT TO ORRIN."}
+      - {who: taeo, type: speech, side: r, text: "LEFT TO ORRIN. READY."}
   - id: P07
     shape: strip
     gap: none
@@ -114,7 +116,7 @@ panels:
       linked Sera colour or visible beam across the arena.
     calm: none
   - id: P08
-    shape: wide
+    shape: tall
     gap: none
     bg: white
     camera: "low on Nib's contact and Orrin's matching brace"
@@ -127,7 +129,7 @@ panels:
     sfx:
       - {text: "THUP", style: impact, at: [0.37, 0.43], size: M, rot: -8}
   - id: P09
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "reverse along west lane, counterweight passing between constructs"
@@ -138,7 +140,7 @@ panels:
       Clear silhouettes, no speed blur, impact immunity cheat or switched hazard.
     calm: top
     lines:
-      - {who: event_announcer, type: phone, text: "PARK'S SUPPORT FRAMES ARE ALREADY IN POSITION FOR THE RETURN."}
+      - {who: "offpanel:event_announcer", type: phone, side: c, text: "PARK'S CONSTRUCTS ARE ALREADY READY FOR THE RETURN SWING."}
   - id: P10
     shape: strip
     gap: short
@@ -146,12 +148,12 @@ panels:
     camera: "close side view of the east counterweight reversing at its physical stop"
     art: >
       EAST B counterweight reaches its marked mechanical stop and starts the ordinary return swing.
-      Nib's eye follows it; clear gap remains before contact. Its padded face and pivot match ch050.
+      Nib's eye at the left edge follows it; clear gap remains before contact. Its padded face and pivot match ch050.
       Exhibition roof white light, slate metal and muted orange pad. No surprise new mechanism,
       sabotage, accelerated motor or legible warning label.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "RETURN. OTHER SIDE."}
+      - {who: nib, type: speech, side: l, text: "RETURN SWING. REVERSE THE ROUTE."}
   - id: P11
     shape: inset-l
     gap: none
@@ -159,25 +161,27 @@ panels:
     camera: "Taeo close from just outside the east rail"
     art: >
       taeo outdoor moves his RIGHT fingers to reassign the line while his eyes are still measuring
-      the old brace position. Lips parted on an unfinished instruction; existing cuff bruise visible.
+      the old brace position. His face fills the left third, lips parted as he calls too late;
+      existing cuff bruise visible.
       Exhibition white roof fixture light, flat slate field. No interface solving it for him,
       reservoir device, raised scream or exaggerated terror.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: l, text: "ORRIN, CHANGE TO—"}
+      - {who: taeo, type: speech, side: l, text: "ORRIN, BRACE ON THE RIGHT."}
   - id: P12
-    shape: wide
+    shape: tall
     gap: none
     bg: white
     camera: "floor-height on Nib stepping outside the arc"
     art: >
       nib default in chosen boots steps cleanly back behind the counterweight's safe line before
       contact; the padded arm sweeps past his empty former position. Orrin waits with cylinder;
-      Sera watches Taeo for the next plan. Roof white light, blue-white/slate and orange. No hit
+      Sera watches Taeo for the next plan. Nib stands left, Orrin centre, Sera right.
+      Roof white light, blue-white/slate and orange. No hit
       while unprepared, near-lethal gag or disobedience framed as sabotage.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "LINE'S NOT READY. WE WAIT."}
+      - {who: nib, type: speech, side: l, text: "ROUTE'S NOT READY. WE WAIT."}
   - id: P13
     shape: strip
     gap: short
@@ -191,7 +195,7 @@ panels:
       No digits, frozen time, damage or glowing force left in the air.
     calm: none
   - id: P14
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "high south view comparing west bridge and east waiting station"
@@ -202,21 +206,22 @@ panels:
       blue-white/slate. No crossed lanes, unequal loads or laughing audience inserted behind the action.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "THEY WERE READY. I WAS STILL CHANGING MY MIND."}
+      - {who: taeo, type: float, text: "DOYUN HAD PLANNED BOTH SWINGS. I HAD ONLY PLANNED THE FIRST."}
   - id: P15
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "east bridge end, Orrin measuring his stance"
     art: >
       orrin default sets his forefeet on the hinged deck one at a time, adult heavy-lidded face
       calculating its give. Nib default in boots catches the cylinder with both hands; Sera shifts
-      LEFT-hand bow clear before reaching for a drag loop. Exhibition roof light, slate deck and
+      LEFT-hand bow clear before reaching for a drag loop. Orrin is left, Nib centre, Sera right;
+      Taeo remains off-panel beyond the right rail. Exhibition roof light, slate deck and
       muted orange canvas. No harness, bridge collapse or cartoon weight joke.
     calm: top
     lines:
-      - {who: orrin, type: speech, side: l, text: "DECK IS MINE. MOVE THE CYLINDER."}
-      - {who: taeo, type: speech, side: r, text: "AGREED."}
+      - {who: orrin, type: speech, side: l, text: "I'LL HOLD THE DECK. MOVE THE CYLINDER."}
+      - {who: "offpanel:taeo", type: speech, side: r, text: "READY TO SHARE THE PRESSURE."}
   - id: P16
     shape: strip
     gap: short
@@ -230,7 +235,7 @@ panels:
     calm: none
     notes: "New small pressure bruise only; disclosed to Sejin P33. No escalation of capacity or heat transfer."
   - id: P17
-    shape: wide
+    shape: tall
     gap: none
     bg: white
     camera: "east bridge from the north landing, cylinder moving toward camera"
@@ -254,16 +259,17 @@ panels:
       counted on west. Roof white lights, ivory/blue-white/slate and orange. No exclusive west shortcut or new ranged weapon.
     calm: top
     lines:
-      - {who: event_announcer, type: phone, text: "PARK CHANGES FORMATION WITHOUT A RESET."}
+      - {who: "offpanel:event_announcer", type: phone, side: c, text: "PARK'S CONSTRUCTS CHANGE JOBS WITHOUT STOPPING."}
   - id: P19
     shape: strip
     gap: short
     bg: white
-    camera: "Sera's eye line along the first blunt scoring arrow"
+    camera: "extreme close-up of Sera's eyes and first blunt scoring arrow"
     art: >
-      sera default draws one event-approved blunt scoring arrow, bow in LEFT hand, LEFT forearm
-      bracer correct, RIGHT fingers at string. Her adult face brightens with fierce professional
-      pleasure. Exhibition_course roof work light, slate target beyond, no lethal broadhead,
+      Detail only: sera default's eyes in the left third above one event-approved blunt scoring
+      arrow; RIGHT fingertips at the string edge, bow held out of crop in her LEFT hand.
+      Her eyes brighten with fierce professional pleasure. Exhibition_course roof work light,
+      slate target beyond, no lethal broadhead,
       magic arrow, camera posing or altered necklace.
     calm: top
     lines:
@@ -282,18 +288,18 @@ panels:
     sfx:
       - {text: "TAK TAK TAK", style: impact, at: [0.55, 0.38], size: M, rot: -4}
   - id: P21
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "across east shutter as the crew passes through"
     art: >
       Sera default holds the last safe switch with her arrow lodged in its catch; nib default
       and Orrin default move the cylinder beneath the opening EAST B shutter. Their adult faces
-      concentrate, practical teamwork recovering time. Taeo outside rail nods sharply. Roof white
+      concentrate, practical teamwork recovering time. Taeo at the right outside rail nods sharply. Roof white
       work lights, slate and orange. No miraculous catch-up beside Doyun or new link colour.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "CLEAN. KEEP GOING."}
+      - {who: taeo, type: speech, side: r, text: "ALL THREE TARGETS. KEEP GOING."}
   - id: P22
     shape: strip
     gap: short
@@ -347,19 +353,20 @@ panels:
     lines:
       - {who: taeo, type: float, text: "WE STILL HAD A FINISH TO REACH."}
   - id: P26
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low northward within east final zigzag"
     art: >
       nib default in boots walks backward guiding the cylinder around the final offset corner,
       Sera default pulling sling to keep its edge clear while Orrin pushes slowly and squarely.
+      Nib is left, Orrin centre, Sera right. Taeo remains off-panel beyond the right rail.
       All three breathe hard but remain coordinated. Exhibition roof white light, slate walls,
       orange cylinder. No new hazard, injury, crowds entering course or defeated slump before completion.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "LAST CORNER. WIDE."}
-      - {who: taeo, type: speech, side: r, text: "YOU HAVE THE ROOM."}
+      - {who: nib, type: speech, side: l, text: "LAST CORNER. TAKE A WIDE TURN."}
+      - {who: "offpanel:taeo", type: speech, side: r, text: "THE RIGHT SIDE IS CLEAR."}
   - id: P27
     shape: tall
     gap: short
@@ -388,18 +395,19 @@ panels:
       - {kind: phone.info_card, on: screen, title: "STANDARDIZED TIMED MATCH · RESULT", text: "PARK DOYUN · 44.20 SEC · 0 PENALTIES\nYOON TAEO'S TEAM · 76.80 SEC · 0 PENALTIES\nWINNER: PARK DOYUN"}
     notes: "Fair clean loss by 32.60 seconds. Standard timed result only; adaptive bracket eligibility unaffected."
   - id: P29
-    shape: wide
+    shape: full
     gap: long
     bg: white
     camera: "outside north recovery rail, Taeo meeting his crew"
     art: >
       taeo outdoor leaves his outside box by the perimeter walkway to meet nib, orrin and sera at
-      NORTH recovery rail, not across the course. His posture apologetic, theirs winded but intact.
+      NORTH recovery rail, not across the course. Taeo is right, Nib left, Orrin centre,
+      Sera centre-left behind Nib. His posture apologetic, theirs winded but intact.
       Roof white work lights, slate rail, blue-white floor. Nib's boots and binoculars correct,
       no new wound, injured companion being carried or private window.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "I COULDN'T CHANGE THE LINE FAST ENOUGH. SORRY."}
+      - {who: taeo, type: speech, side: r, text: "I COULDN'T REVERSE THE FORCE ROUTE FAST ENOUGH. SORRY."}
       - {who: nib, type: speech, side: l, text: "TRUE."}
       - {who: orrin, type: speech, side: c, text: "WE ALSO FINISHED."}
   - id: P30
@@ -408,27 +416,27 @@ panels:
     bg: white
     camera: "close-up of Taeo receiving the loss without excuse"
     art: >
-      taeo outdoor gives a short honest nod at exhibition_course recovery rail, face still hot
+      taeo outdoor, face in the left third, gives a short honest nod at exhibition_course recovery rail, face still hot
       with effort and embarrassment, no defensive smile. RIGHT-eye mole, messy dark hair and old
       backpack patch over shoulder. White roof light, flat slate behind. No excuses visualised
       as sabotaged course or hateful spectator caricatures.
     calm: right
     lines:
-      - {who: taeo, type: speech, side: l, text: "WE FINISHED. HE FINISHED FIRST."}
+      - {who: taeo, type: speech, side: l, text: "WE FINISHED. DOYUN FINISHED FIRST."}
   - id: P31
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "two-shot beside the north rail as Doyun approaches"
     art: >
       park_doyun default approaches by the same outside recovery walkway, flat brown map case
-      LEFT hip. Taeo outdoor meets his eyes; Nib default nearby watches guardedly. Doyun's expression
+      LEFT hip. Doyun is left, Taeo outdoor right meeting his eyes; Nib default centre watches guardedly. Doyun's expression
       analytical rather than consoling or triumphant. Seven constructs wait distant west. Roof white
       lights, blue-white/slate. No apology for winning, handshake forced on Nib or recruits offered.
     calm: top
     lines:
-      - {who: park_doyun, type: speech, side: l, text: "YOU PREPARED FOR THE IMPACT. I PREPARED THE CHANGE AFTER IT."}
-      - {who: taeo, type: speech, side: r, text: "YES. I SAW."}
+      - {who: park_doyun, type: speech, side: l, text: "YOU PREPARED FOR ONE HIT. I PREPARED MY CONSTRUCTS FOR THE NEXT MOVE TOO."}
+      - {who: taeo, type: speech, side: r, text: "YES, SIR. I SAW THE DIFFERENCE."}
   - id: P32
     shape: strip
     gap: short
@@ -442,28 +450,29 @@ panels:
       of his views about Nib.
     calm: none
   - id: P33
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "concourse recovery bench, front three-quarter"
     art: >
-      On exhibition_concourse recovery bench, taeo outdoor rolls back RIGHT cuff voluntarily for
-      sejin default's inspection. New faint pressure stripe beside older bruises, palm unlit.
+      Waist-up at exhibition_concourse recovery bench, taeo outdoor on the left rolls back RIGHT
+      cuff voluntarily for sejin default's inspection on the right. Nib's head is centre behind them.
+      New faint pressure stripe beside older bruises, palm unlit.
       She looks at him with dry approval for reporting; Nib in boots watches. Roof daylight,
       A4 blue-white/slate, sage medic shirt. No nosebleed, major contusion, healing glow or hidden injury.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "THIS ONE'S NEW. IT HURTS A LITTLE."}
-      - {who: sejin, type: speech, side: r, text: "GOOD REPORT. BAD TIMING REMAINS TREATABLE."}
+      - {who: taeo, type: speech, side: l, text: "THE THIN BRUISE IS NEW. IT HURTS A LITTLE."}
+      - {who: sejin, type: speech, side: r, text: "THANK YOU FOR TELLING ME. YOU CAN PRACTISE YOUR TIMING AFTER WE CHECK YOUR ARM."}
     notes: "Maintains ch044 promise to tell crew every time. P16 new mild pressure stripe; no undisclosed recoil."
   - id: P34
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "across recovery bench toward Sera and the marshal"
     art: >
       sera default, still holding LEFT bow safely lowered, asks event_marshal with bright calculating
-      eyes; taeo outdoor behind her drinks water and nearly laughs into the cup. Orrin rests
+      eyes; Sera is left, the marshal right; taeo outdoor centre behind her drinks water and nearly laughs into the cup. Orrin rests
       unladen beside the wide aisle. Exhibition roof daylight, blue-white/slate and muted green.
       No interview mob, victory trophy or arrow aimed at an official.
     calm: top
@@ -471,13 +480,13 @@ panels:
       - {who: sera, type: speech, side: l, text: "DO WE GET ANYTHING FOR FINISHING?"}
       - {who: event_marshal, type: speech, side: r, text: "YOUR COMPLETION RECORD. AND WATER."}
   - id: P35
-    shape: inset-r
+    shape: full
     gap: short
     bg: white
     style: chibi
     camera: "chibi recovery-table gag"
     art: >
-      CHIBI sera holds two tiny paper cups like the two trophies from ch049; chibi Orrin peers
+      CHIBI sera on the right holds two tiny paper cups like the two trophies from ch049; chibi Orrin on the left peers
       into one with solemn interest, slate shell simplified. Chibi taeo outdoor suppresses a laugh,
       old orange patch intact. Flat institutional blue-white screentone, roof-daylight colour.
       No real trophies, detailed crowd, shame tears or danger.
@@ -498,7 +507,7 @@ panels:
       successful output, impact injury or live course connection.
     calm: top
     lines:
-      - {who: haein, type: speech, side: l, text: "IT STILL WON'T WAIT FOR ME."}
+      - {who: "offpanel:haein", type: speech, side: l, text: "THE RESERVOIR STILL LOSES CHARGE BEFORE I CAN RELEASE ANY."}
     notes: "PLANT P14: postmatch diagnostic preload bleeds away, just as ch050. Still no quantified duration; 0.8-second measurement belongs to ch052. No prototype use in race."
   - id: P37
     shape: wide
@@ -512,21 +521,21 @@ panels:
       navy and brown. No bank-and-release plan, notebook calculations or measured holding-time reveal.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "SOMETHING WAS WRONG IN A WAY I COULD STUDY."}
+      - {who: taeo, type: float, text: "AT LEAST A BROKEN MACHINE WOULD LET ME STUDY WHAT WENT WRONG."}
   - id: P38
     shape: wide
     gap: long
     bg: white
     camera: "side aisle on BangBang reviewing his turned-away phone"
     art: >
-      bangbang default stands just outside exhibition_course, RIGHT gimbal lowered while he reviews
+      Waist-up: bangbang default on the right stands just outside exhibition_course, RIGHT gimbal lowered while he reviews
       phone with display facing him, reader sees only black back. His ash-blond dark-root fringe
       and plum/mustard bomber correct, LEFT mini tripod retained. Roof white lights, slate rail.
       He watches Taeo's earlier operator-box shot with a grin forming. No literal devil shadow,
       on-screen art glyphs or illuminated ring light.
     calm: top
     lines:
-      - {who: bangbang, type: speech, side: r, text: "THE TIME'S BORING. THE BOX IS FUNNY."}
+      - {who: bangbang, type: speech, side: r, text: "RACE TIMES ARE BORING. TAEO SITTING OUTSIDE IS FUNNY."}
   - id: P39
     shape: tall
     gap: short
@@ -542,8 +551,8 @@ panels:
     ui:
       - {kind: phone.live_stream, on: panel, title: "BangBang · CLIP", text: "HIS SUMMONS GO FIRST LMAO — COWARD-TIER SUMMONER.", viewers: "43,812 views", chat: []}
     lines:
-      - {who: bangbang, type: phone, text: "HIS SUMMONS GO FIRST!"}
-      - {who: bangbang, type: phone, text: "COWARD-TIER SUMMONER. LOOK AT HIM SITTING THERE."}
+      - {who: "offpanel:bangbang", type: phone, side: c, text: "HIS SUMMONS GO FIRST!"}
+      - {who: "offpanel:bangbang", type: phone, side: c, text: "COWARD-TIER SUMMONER. LOOK AT TAEO SITTING THERE."}
     notes: "The clip's actual photographed pose is real; the context is dishonest. Both operators were required to remain outside. This is the insult's first appearance, not its reclamation."
   - id: P40
     shape: strip
@@ -564,14 +573,14 @@ panels:
     bg: white
     camera: "low across the recovery bench onto Taeo and Minho"
     art: >
-      taeo outdoor leans toward Minho's phone, its screen now out of crop. A small embarrassed
+      Waist-up: taeo outdoor on the left leans toward Minho on the right and his phone, its screen now out of crop. A small embarrassed
       smile appears by reflex, the same appeasing smile from customer work, then stalls. Minho
       default's face is flat with anger. Concourse roof daylight, institutional blue-white/slate.
       No laughing companions, hate-comment hallucinations or chibi switch.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "HE LEFT OUT THE OTHER BOX."}
-      - {who: minho, type: speech, side: r, text: "HE KNOWS."}
+      - {who: taeo, type: speech, side: l, text: "BANGBANG CROPPED OUT DOYUN'S OPERATOR BOX."}
+      - {who: minho, type: speech, side: r, text: "HE KNOWS BOTH OPERATORS HAD TO STAY OUTSIDE."}
   - id: P42
     shape: inset-l
     gap: short
@@ -591,15 +600,16 @@ panels:
     bg: white
     camera: "side from Nib's standing eye level beside the bench"
     art: >
-      nib default in chosen boots faces taeo at nearly equal eye level while Taeo is seated.
+      Waist-up two-shot: nib default on the left, in chosen boots below crop, faces taeo on the right
+      at nearly equal eye level while Taeo is seated.
       Nib's hand rests on his own binocular hinge, fork visible, expression held and serious.
       Taeo looks at him rather than phone. Concourse roof daylight, slate/blue-white. No cute
       reassurance face, blade, scolding crowd or ownership gesture.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "WE AGREED TO RUN."}
-      - {who: taeo, type: speech, side: r, text: "I KNOW."}
-      - {who: nib, type: speech, side: l, text: "THEN REMEMBER IT."}
+      - {who: nib, type: speech, side: l, text: "WE CHOSE TO RUN THE COURSE."}
+      - {who: taeo, type: speech, side: r, text: "I KNOW. YOU ALL SAID YES."}
+      - {who: nib, type: speech, side: l, text: "REMEMBER OUR ANSWERS. NOT HIS."}
   - id: P44
     shape: strip
     gap: short
@@ -639,18 +649,19 @@ panels:
     lines:
       - {who: narr, type: tag, text: "THAT EVENING · RYU YARD"}
   - id: P47
-    shape: wide
+    shape: tall
     gap: short
     bg: navy
     camera: "inside residential doorway looking out at the crew"
     art: >
       taeo outdoor has stopped just inside his open residential container door, olive backpack
-      old patch beside him. Nib default in boots stands outside, Sera default farther back with
+      old patch beside him. Taeo is left in the doorway, nib default in boots centre outside,
+      sera default right farther back with
       a closed dinner tub; Orrin adult face visible beyond. Crew-rule sheets on interior wall blank
       in art. Warm lamp left, blue-grey yard. No printed slogans or shut door between partners.
     calm: top
     lines:
-      - {who: sera, type: speech, side: r, text: "EAT BEFORE YOU WATCH THAT THING AGAIN."}
+      - {who: sera, type: speech, side: r, text: "EAT BEFORE YOU WATCH BANGBANG'S CLIP AGAIN."}
       - {who: taeo, type: speech, side: l, text: "IN A MINUTE. SORRY."}
   - id: P48
     shape: strip

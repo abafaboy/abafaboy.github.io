@@ -69,19 +69,20 @@ palette_notes: >
   alone brings interface cyan #3FE3F2/deep navy #0B1530. No link amber, decorative motes, bloom or generated lettering.
 panels:
   - id: P01
-    shape: strip
+    shape: full
     gap: none
     bg: white
-    camera: "extreme close overhead on cups being counted at a yard table"
+    camera: "medium two-shot of Nib left and Taeo right counting cups on the table"
     art: >
       At ryu_practice_yard southern apron, taeo's navy-sleeved hand sets out plain mismatched cups, including
       the white ceramic mug with thin green band. A tea tin and kettle stand safely
       away from paper. ACTING through hands: nervous hospitality. Southeast sun, cream ceramics/ochre table,
-      hard brown shadows. No tea brand, figures, signs or written art.
+      hard brown shadows. No tea brand, signs or written art.
+      Show both faces above the cups: Nib stands left, Taeo right. Keep the hands and kettle in the lower frame.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "HOW MANY DID SHE SAY?"}
-      - {who: nib, type: speech, side: l, text: "THE CHAIRMAN."}
+      - {"who": "taeo", "type": "speech", "side": "r", "text": "HOW MANY PEOPLE IS GRANDMA BRINGING?"}
+      - {"who": "nib", "type": "speech", "side": "l", "text": "SHE SAID ONE. THE CHAIRMAN."}
   - id: P02
     shape: full
     gap: short
@@ -92,12 +93,13 @@ panels:
       quilted vest, dark trousers and plain travelling shoes, strides through the gate with a
       fish parcel. Three older co-op visitors follow carrying plain document bags. ACTING: Grandma
       entirely in charge. Southeast daylight, ochre/brown and sky blue. No bus in yard, readable bags or gate anomaly.
+      Grandma enters in the left third; draw Taeo, outdoor, waiting inside the gate at right, facing her.
     calm: top
     lines:
       - {who: grandma, type: speech, side: l, text: "I BROUGHT PEOPLE WHO ASK QUESTIONS."}
       - {who: taeo, type: speech, side: r, text: "I SEE THAT."}
   - id: P03
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "high angle onto two temporary tables and Orrin between them"
@@ -106,12 +108,13 @@ panels:
       slate shell, leaving a clear route south. Older visitors pull chairs toward him while
       taeo, outdoor, discovers he has seated Orrin exactly in the meeting's middle. Nib stands
       near. Southeast sun, ochre/brown. No harness, dishes on shell, moved maze or print.
+      Draw Grandma on the left, Orrin resting right, Taeo centre and Nib centre-left. Keep the exit clear.
     calm: top
     lines:
       - {who: grandma, type: speech, side: l, text: "GOOD. EVERYONE CAN SEE HIM."}
       - {who: orrin, type: speech, side: r, text: "I HAD NOT REALISED I WAS THE AGENDA."}
   - id: P04
-    shape: inset-r
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -121,6 +124,7 @@ panels:
       as though he is the chairman. Chibi taeo, navy jacket and patch, hovers with
       the real chairman's empty chair. Orrin's heavy-lidded face is magnificently resigned. Flat ochre,
       implied morning sun. No actual obstacle, pet accessories, written placards or dangerous loading.
+      Chibi Orrin rests at right; Taeo stands centre with the chair and the seated delegates fill the left.
     calm: left
     lines:
       - {who: orrin, type: speech, side: r, text: "I ABSTAIN FROM BEING THE TABLE."}
@@ -139,16 +143,17 @@ panels:
       short grey hair, sparse jaw stubble, brown-grey flat cap, navy padded vest over beige
       knit sweater, blue-grey trousers tucked into dark rubber boots. He sits frame RIGHT,
       assessing Taeo with lively scepticism. Southeast sun, ochre/brown. Lower-left plain; no words or glowing props.
+      Grandma, plaid shirt and beige vest, sits left and the chairman sits right; keep the lower-left nameplate space plain.
     calm: top
     intro: "HAESEONG FISHERIES CO-OP · CHAIRMAN"
     lines:
-      - {who: grandma, type: speech, side: l, text: "HE'S TWENTY-THREE. YOU CAN ASK HIM HARD ONES."}
+      - {who: grandma, type: speech, side: l, text: "TAEO'S TWENTY-THREE. YOU CAN ASK HIM HARD QUESTIONS."}
       - {who: coop_chairman, type: speech, side: r, text: "I INTEND TO."}
   - id: P07
-    shape: wide
+    shape: tall
     gap: short
     bg: white
-    camera: "reverse from chairman toward Taeo and the whole crew"
+    camera: "three-quarter group view including the chairman left and Taeo right among the crew"
     art: >
       At ryu_practice_yard, taeo, outdoor, sits among nib, adult booted default, sera, LEFT arm
       supported in brace, and kesh, an adult 198 cm moth-like keeper with mature narrow grey-tan face,
@@ -156,12 +161,13 @@ panels:
       and wrapped shoes, exactly two arms with delicate five-finger hands. sejin, sage scrubs, and haein,
       blue overalls, share the adjoining table; Orrin remains between ends. Taeo starts an
       introduction without standing over anyone. Southeast sun, ochre/brown. No readable documents or new badges.
+      Show the chairman in the left third and Taeo in the right, both faces visible; keep all listening crew between and behind them.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "THIS IS THE CREW. THE ARRIVAL MEMBERS WOULD BE CO-OWNERS."}
-      - {who: coop_chairman, type: speech, side: l, text: "I EXPECTED TO SPEAK TO THEM TOO."}
+      - {"who": "taeo", "type": "speech", "side": "r", "text": "HERE'S OUR CREW. THE ARRIVAL MEMBERS WOULD BE CO-OWNERS."}
+      - {"who": "coop_chairman", "type": "speech", "side": "l", "text": "I EXPECTED TO SPEAK TO THEM TOO."}
   - id: P08
-    shape: inset-l
+    shape: tall
     gap: short
     bg: white
     camera: "close on the fisherwoman's face above her cup"
@@ -170,9 +176,10 @@ panels:
       ryu_practice_yard sets her cup down, eyes shrewd and friendly. Her plain document bag
       stays closed on her lap. Southeast sunlight, ochre background and warm brown shadow.
       No exaggerated wrinkles, caricature, brand label or signature.
+      The fisherwoman is in the left third, looking toward the crew off right.
     calm: right
     lines:
-      - {who: fisherwoman, type: speech, side: l, text: "OKJA SAYS YOU KNOW WHAT IT COSTS WHEN OTHERS OWN THE ENTRANCE."}
+      - {"who": "fisherwoman", "type": "speech", "side": "l", "text": "YOUR GRANDMA SAYS YOU KNOW WHAT HAPPENS WHEN SOMEONE ELSE CONTROLS YOUR WORK."}
   - id: P09
     shape: strip
     gap: long
@@ -195,10 +202,11 @@ panels:
       navy vest/beige sweater, unpacks a plain reserve statement. Her tone is matter-of-fact,
       eyes hard; he has heard this for years. Southeast light, dusty ochre and brown.
       No tearful appeal, lettering, actual banknotes or evil sea-gate vision.
+      Crop both seated delegates waist-up: Grandma left, chairman right, papers between.
     calm: top
     lines:
-      - {who: grandma, type: speech, side: l, text: "THE FISH DIDN'T STOP BEING THERE. THEY PUT A FENCE BETWEEN US."}
-      - {who: coop_chairman, type: speech, side: r, text: "THE COMPENSATION HAS BEEN WAITING LONGER THAN SOME OF OUR BOATS."}
+      - {"who": "grandma", "type": "speech", "side": "l", "text": "THE SEA GATE FENCED OFF OUR FISHING GROUNDS. THE FISH ARE STILL THERE."}
+      - {"who": "coop_chairman", "type": "speech", "side": "r", "text": "OUR COMPENSATION FUND'S BEEN SITTING IDLE LONGER THAN SOME OF OUR BOATS."}
   - id: P11
     shape: strip
     gap: short
@@ -215,7 +223,7 @@ panels:
       - {kind: label, text: "MEMBER MANDATE · NEGOTIATE INVESTMENT TERMS", at: [0.5, 0.72]}
     notes: "Delegates have a documented member mandate; this is not Grandma spending others' money on her own."
   - id: P12
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "table-height profile of chairman and Taeo"
@@ -224,11 +232,12 @@ panels:
       as taeo, outdoor, listens across the table. ACTING: the older man's good humour
       has become exact; Taeo takes the risk seriously. Southeast sunlight, ochre/brown and navy.
       No reassuring glow, signed agreement, readable page or weapons.
+      The chairman sits left and Taeo right; show their faces above the reserve statement.
     calm: top
     lines:
-      - {who: coop_chairman, type: speech, side: l, text: "THIS ISN'T SPARE MONEY. IT BELONGS TO PEOPLE WHO LOST THEIR WORK."}
-      - {who: taeo, type: speech, side: r, text: "I CAN'T PROMISE WE WIN YEOJU."}
-      - {who: coop_chairman, type: speech, side: l, text: "GOOD. START WITH WHAT YOU CAN PROMISE."}
+      - {"who": "coop_chairman", "type": "speech", "side": "l", "text": "THE COMPENSATION FUND BELONGS TO PEOPLE WHO LOST THEIR WORK."}
+      - {"who": "taeo", "type": "speech", "side": "r", "text": "I CAN'T PROMISE WE'LL WIN YEOJU."}
+      - {"who": "coop_chairman", "type": "speech", "side": "l", "text": "GOOD. START WITH WHAT YOU CAN PROMISE."}
   - id: P13
     shape: inset-r
     gap: short
@@ -241,17 +250,18 @@ panels:
       warm brown. No regenerated arm, hidden pay clause or art words.
     calm: left
     lines:
-      - {who: sera, type: speech, side: r, text: "THE COSTS INCLUDE OUR WAGES. AND FINISHING MY TREATMENT."}
+      - {"who": "offpanel:sera", "type": "speech", "side": "r", "text": "THE COSTS INCLUDE OUR WAGES. AND FINISHING MY TREATMENT."}
   - id: P14
     shape: wide
     gap: short
     bg: white
-    camera: "reverse on the old fisherman beside the chairman"
+    camera: "waist-up seated three-shot, fisherman left, chairman centre and fisherwoman right"
     art: >
       fisherman, about 76, navy knit cap, grey-brown work jacket, hearing aid and alert eyes,
       at ryu_practice_yard leans forward so he can hear Sera without her repeating. coop_chairman
       waits beside him. ACTING: dry recognition from labour, not pity. Southeast sun, ochre/brown.
       No dentures gag, infantilising posture, print or medical devices beyond hearing aid.
+      Draw the fisherwoman at right in teal windbreaker, responding to the fisherman at left; chairman listens between them.
     calm: top
     lines:
       - {who: fisherman, type: speech, side: l, text: "WE USED TO GET PAID BEFORE THE BOAT OWNER TOOK HIS SHARE."}
@@ -272,7 +282,7 @@ panels:
       - {kind: label, text: "CO-OP SHARE · 30% NET FIELD-SALE SURPLUS AFTER AGREED COSTS", at: [0.5, 0.5]}
       - {kind: label, text: "INVESTMENT AT RISK · NO GUARANTEED YIELD", at: [0.5, 0.76]}
   - id: P16
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "eye-level three-shot, chairman between Taeo and Nib"
@@ -281,11 +291,12 @@ panels:
       on his right, nib, adult booted default, on his left. The chairman's expression
       is stern but engaged. Southeast sun, ochre and muted navy, broad clear tabletop.
       No signature, lucky effect, finance app or text in art.
+      Nib is left, the chairman centre and Taeo right; all three faces and the terms are visible.
     calm: top
     lines:
-      - {who: coop_chairman, type: speech, side: c, text: "THIRTY PERCENT OF WHAT REMAINS. AND IF NOTHING REMAINS?"}
-      - {who: taeo, type: speech, side: r, text: "I WON'T DISGUISE THE RISK AS A GUARANTEED RETURN."}
-      - {who: nib, type: speech, side: l, text: "NO DEBT AGAINST A PERSON."}
+      - {"who": "coop_chairman", "type": "speech", "side": "c", "text": "THIRTY PERCENT OF NET SURPLUS. WHAT IF THERE'S A LOSS?"}
+      - {"who": "taeo", "type": "speech", "side": "r", "text": "THEN YOUR INVESTMENT IS AT RISK. WE CAN'T GUARANTEE YOUR MONEY BACK."}
+      - {"who": "nib", "type": "speech", "side": "l", "text": "NO DEBT AGAINST A PERSON."}
   - id: P17
     shape: inset-l
     gap: long
@@ -299,7 +310,7 @@ panels:
       brown face shadow. No tears, exaggerated wrinkles, montage or words.
     calm: none
   - id: P18
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "low from Orrin's side toward Nib and the chairman"
@@ -308,12 +319,13 @@ panels:
       the cooperative draft, not his knife. coop_chairman meets his eye without condescension;
       orrin's slate shoulder foreground remains dignified. Southeast daylight, ochre/brown/navy. No ownership tag,
       extra clause art, dramatic shadow or physical threat.
+      Nib stands left and the chairman sits right; Orrin remains a quiet foreground shoulder.
     calm: top
     lines:
       - {who: nib, type: speech, side: l, text: "WHO CHOOSES THE JOBS?"}
       - {who: coop_chairman, type: speech, side: r, text: "YOU DO. I'VE NO BUSINESS TELLING A SCOUT WHERE TO PUT HIS FEET."}
   - id: P19
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "reverse toward the chairman laying one finger on the sea chart"
@@ -322,40 +334,43 @@ panels:
       chart and points to a fenced sea shape. grandma, plaid and quilted vest,
       looks at it without smiling. Taeo's navy shoulder foreground is still. Southeast sun,
       cream chart and ochre/brown. No readable chart names, solved route or gate spectacle.
+      The chairman sits left, Grandma centre and Taeo listens at right.
     calm: top
     lines:
-      - {who: coop_chairman, type: speech, side: l, text: "BUT WE WANT ONE JOB WRITTEN IN. SURVEY THE HAESEONG SEA GATE."}
-      - {who: coop_chairman, type: speech, side: l, text: "WITHIN TWO YEARS."}
+      - {"who": "coop_chairman", "type": "speech", "side": "l", "text": "IN RETURN, SURVEY THE HAESEONG SEA GATE."}
+      - {"who": "coop_chairman", "type": "speech", "side": "l", "text": "WITHIN TWO YEARS OF THIS AGREEMENT."}
   - id: P20
-    shape: inset-r
+    shape: tall
     gap: short
     bg: white
-    camera: "close on Taeo with Grandma beyond his shoulder"
+    camera: "medium two-shot of Grandma left and Taeo right responding to the chairman"
     art: >
       taeo, outdoor at ryu_practice_yard, glances at grandma, then deliberately back to the
       chairman. ACTING: the child who wants to promise everything and the adult
       stopping him. RIGHT-eye mole visible. Southeast sun, cream/ochre with brown shadow. No
       tears, imaginary open fishing grounds, heroic glow or written forms.
+      Show both faces clearly, Grandma left and Taeo right, with the sea chart below.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: r, text: "A SURVEY. I CAN'T PROMISE A CLEAR OR YOUR FISHING GROUNDS BACK."}
-      - {who: grandma, type: speech, side: l, text: "THEN DON'T. PROMISE THE SURVEY."}
+      - {"who": "taeo", "type": "speech", "side": "r", "text": "I CAN PROMISE A SURVEY. I CAN'T PROMISE A CLEAR OR OPEN FISHING GROUNDS."}
+      - {"who": "grandma", "type": "speech", "side": "l", "text": "THEN DON'T. PROMISE THE SURVEY."}
   - id: P21
-    shape: strip
+    shape: full
     gap: short
     bg: white
-    camera: "overhead as Sejin places the safety leaf beside the sea chart"
+    camera: "medium two-shot, Sejin left and chairman right, safety leaf below their faces"
     art: >
       At ryu_practice_yard, sejin's bare hand and sage scrub cuff place the medical-stop
       leaf beside the blank sea chart. nib's cobalt pencil aligns the edges without
       writing. Southeast sun, cream/ochre, brown hard shadows. No red medical logo, guaranteed
       clear clause, signature or unreadable legal scribbles.
+      Sejin stands left, chairman sits right, both faces visible over the safety sheet; Nib contributes only his pencil hand.
     calm: none
     lines:
-      - {who: sejin, type: speech, side: l, text: "THE SURVEY GETS ITS OWN SAFETY PLAN. NO ONE WAIVES MY STOP AUTHORITY."}
-      - {who: coop_chairman, type: speech, side: r, text: "PUT IT IN."}
+      - {"who": "sejin", "type": "speech", "side": "l", "text": "THE SEA-GATE SURVEY GETS A SAFETY PLAN. I KEEP THE AUTHORITY TO STOP THE SURVEY."}
+      - {"who": "coop_chairman", "type": "speech", "side": "r", "text": "PUT YOUR STOP AUTHORITY IN WRITING."}
   - id: P22
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "medium group as the proposed terms turn to each reader"
@@ -364,10 +379,11 @@ panels:
       supported LEFT brace, kesh with folded wings, sejin and haein. The chairman
       waits while they read; Orrin's lowered head remains at table height. Southeast sun,
       ochre/brown and muted clothes. No stacked celebratory fists, readable pages or licence seal.
+      Taeo stands right, Sera sits left with her brace supported; keep the other readers centre and behind.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "THE TERMS GO TO EVERY MEMBER. FINAL PAPERWORK STILL HAS TO CLEAR THE LICENCE REQUIREMENTS."}
-      - {who: sera, type: speech, side: l, text: "AND THIS AGREES FINANCING. IT DOESN'T PICK OUR CONTEST SPENDING."}
+      - {"who": "taeo", "type": "speech", "side": "r", "text": "EVERY MEMBER READS THE TERMS. WE STILL NEED FINAL DOCUMENTS FOR THE LICENCE."}
+      - {"who": "sera", "type": "speech", "side": "l", "text": "WE'RE AGREEING TO FINANCING. WE'LL DECIDE CONTEST SPENDING SEPARATELY."}
   - id: P23
     shape: inset-l
     gap: short
@@ -378,10 +394,11 @@ panels:
       Yeoju map. His weathered face softens once toward Grandma, then becomes practical
       again. LEFT notch/fang, high black binoculars exact. Southeast light, plain ochre/brown.
       No smile of full contest consent, glowing route home or cute acting.
+      Nib is in the left third of the close-up.
     calm: right
     lines:
-      - {who: nib, type: speech, side: l, text: "THE SEA SURVEY. YES."}
-      - {who: nib, type: speech, side: l, text: "THE YEOJU STAKE IS ANOTHER QUESTION."}
+      - {"who": "nib", "type": "speech", "side": "l", "text": "THE SEA-GATE SURVEY. YES."}
+      - {"who": "nib", "type": "speech", "side": "l", "text": "THE YEOJU STAKE IS A SEPARATE DECISION."}
   - id: P24
     shape: strip
     gap: long
@@ -406,12 +423,13 @@ panels:
       clean dry tray and puts fish portions on the tables. coop_chairman laughs;
       the crew relaxes around orrin's still-central slate shell. Sera's LEFT brace stays
       supported. Southeast sunlight, ochre/brown and tea cream. No papers under food, dishes on shell or lettering.
+      Grandma stands left and Orrin rests right; leave room for the seated crew and the tables between.
     calm: top
     lines:
       - {who: grandma, type: speech, side: l, text: "NOW EAT. YOU CAN WORRY BETTER AFTER."}
       - {who: orrin, type: speech, side: r, text: "AT LAST. AN AGENDA I UNDERSTAND."}
   - id: P26
-    shape: inset-r
+    shape: full
     gap: short
     bg: white
     style: chibi
@@ -422,12 +440,13 @@ panels:
       terraced shell and silently swaps for a bigger empty plate. Chibi Orrin
       waits with solemn gratitude. Flat warm ochre, implied daylight. No force-feeding,
       fish heap, written menu or pet bowl collar.
+      Chibi Grandma stands left with the plate; chibi Orrin rests right with his full shell in frame.
     calm: left
     lines:
-      - {who: grandma, type: speech, side: l, text: "WHY DIDN'T ANYONE TELL ME HIS SIZE?"}
-      - {who: orrin, type: speech, side: r, text: "I SENT A REPRESENTATIVE VIEW."}
+      - {"who": "grandma", "type": "speech", "side": "l", "text": "WHY DIDN'T ANYONE TELL ME HIS SIZE?"}
+      - {"who": "orrin", "type": "speech", "side": "r", "text": "I AM DIFFICULT TO OVERLOOK."}
   - id: P27
-    shape: vignette
+    shape: full
     gap: long
     bg: white
     silent: true
@@ -437,9 +456,10 @@ panels:
       navy jacket sleeve over his old bruises, without exposing them. He stands
       still and looks down at her with a small tender worry. Late afternoon
       west light, ochre and blue-grey. No cash gift, new wound, written promise or chibi.
+      Grandma stands left and Taeo right; include both faces, her smoothing hand and room below their shoulders.
     calm: none
   - id: P28
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "eye-level two-shot at the south gate, departure bags behind"
@@ -448,11 +468,12 @@ panels:
       outdoor, as the chairman and delegates collect bags behind her. ACTING:
       affectionate firmness, not blessing a dangerous bet. West sunlight, ochre/brown, pale
       sky. No bus inside yard, readable papers, forced hug or magical light.
+      Grandma stands left and Taeo right, delegates gathering bags in the centre background.
     calm: top
     lines:
-      - {who: grandma, type: speech, side: l, text: "THEY'RE INVESTING IN WORK. YOU DON'T OWE THEM A MIRACLE."}
-      - {who: taeo, type: speech, side: r, text: "I KNOW."}
-      - {who: grandma, type: speech, side: l, text: "KNOW IT WHEN YOU'RE EXCITED TOO."}
+      - {"who": "grandma", "type": "speech", "side": "l", "text": "THE CO-OP IS INVESTING IN WORK. YOU DON'T OWE THEM A MIRACLE."}
+      - {"who": "taeo", "type": "speech", "side": "r", "text": "I KNOW."}
+      - {"who": "grandma", "type": "speech", "side": "l", "text": "REMEMBER THAT WHEN YOU'RE EXCITED TOO."}
   - id: P29
     shape: strip
     gap: short
@@ -466,7 +487,7 @@ panels:
       shadows. No readable copy, torn paper, lost deposit, signature or active screen.
     calm: none
   - id: P30
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "profile of Nib and Taeo at the west trestle"
@@ -475,10 +496,11 @@ panels:
       smaller slip. taeo, outdoor, has already reached toward the Yeoju folder
       and stops. ACTING: Nib calmly persistent, Taeo caught wanting speed. Late
       west sunlight, ochre/brown, fixed maze beyond. No argument crowd, drawn words or power effects.
+      Nib stands left and Taeo right, both faces visible over the two job folders.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "TWO DAYS. FIXED PAY. NO BOSS."}
-      - {who: taeo, type: speech, side: r, text: "ENOUGH FOR NEXT WEEK. YEOJU COULD PAY FOR YEARS."}
+      - {"who": "nib", "type": "speech", "side": "l", "text": "THE LOCAL JOB. TWO DAYS. FIXED PAY. NO BOSS FIGHT."}
+      - {"who": "taeo", "type": "speech", "side": "r", "text": "THE LOCAL JOB PAYS FOR NEXT WEEK. YEOJU COULD PAY FOR YEARS."}
   - id: P31
     shape: inset-l
     gap: short
@@ -489,12 +511,13 @@ panels:
       eyes level and ear tips still. His LEFT notch and LEFT lower
       fang retain their shapes. No sulk; a scout naming uncertainty. Late
       west sun, plain brown/ochre background. No cute head, visible weapon blade or lettering.
+      Nib is in the left third of the close-up.
     calm: right
     lines:
-      - {who: nib, type: speech, side: l, text: "COULD."}
-      - {who: nib, type: speech, side: l, text: "I PREFER ENOUGH."}
+      - {"who": "nib", "type": "speech", "side": "l", "text": "YEOJU MIGHT PAY. THE LOCAL JOB WILL."}
+      - {"who": "nib", "type": "speech", "side": "l", "text": "I PREFER RELIABLE PAY."}
   - id: P32
-    shape: inset-r
+    shape: tall
     gap: short
     bg: white
     camera: "reverse close on Taeo with both job folders below"
@@ -504,12 +527,13 @@ panels:
       rests on the larger folder's corner, not a pen. RIGHT-eye mole
       clear. West sun, ochre and navy. No angry villain framing, spoken
       vote, contract signature or imagined building.
+      Taeo is in the right third; Nib speaks from beyond the left edge.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: r, text: "I WANT SOMETHING THEY CAN'T TAKE BACK NEXT MONTH."}
-      - {who: nib, type: speech, side: l, text: "SO DO I. I WANT US ALIVE IN IT."}
+      - {"who": "taeo", "type": "speech", "side": "r", "text": "I WANT A BASE WE CAN'T LOSE WHEN THE RENT CHANGES."}
+      - {"who": "offpanel:nib", "type": "speech", "side": "l", "text": "SO DO I. I WANT US ALIVE TO USE THE BASE."}
   - id: P33
-    shape: wide
+    shape: full
     gap: long
     bg: white
     camera: "wide along the trestle, space between the two men"
@@ -519,10 +543,11 @@ panels:
       watches that choice without relaxing his expression. Sejin crosses background
       carrying an ordinary medical kit. West sunlight, ochre/brown; no written
       resolution, reconciliation hug, new injury or link.
+      Nib stands left and Taeo right with clear space between; Sejin crosses the centre background.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "THEN WE DO THE SURVEY. COME BACK. TALK WITH REAL FIGURES."}
-      - {who: nib, type: speech, side: l, text: "THE SURVEY. YES."}
+      - {"who": "taeo", "type": "speech", "side": "r", "text": "WE DO THE SURVEY. COME BACK. THEN DISCUSS THE ACTUAL COSTS."}
+      - {"who": "nib", "type": "speech", "side": "l", "text": "THE SURVEY. YES."}
     notes: "Disagreement remains live. This consent covers the limited survey, never the ch90 stake."
   - id: P34
     shape: narrow-r
@@ -532,7 +557,7 @@ panels:
     art: "KIT HAND"
     calm: none
     ui:
-      - {kind: phone.info_card, on: screen, hand: taeo_right_front, title: "YEOJU FIELD AUTHORITY · SURVEY PERMIT", text: "Pre-contract landing survey approved for tomorrow · Named survey party only · Three consumptive analysis chips authorised · No stock extraction rights granted · No boss engagement"}
+      - {"kind": "phone.info_card", "on": "screen", "hand": "taeo_right_front", "title": "YEOJU FIELD AUTHORITY · SURVEY PERMIT", "text": "PRE-CONTRACT LANDING SURVEY APPROVED FOR TOMORROW · NAMED SURVEY PARTY ONLY · THREE SAMPLE CHIPS AUTHORISED FOR TESTING THAT CONSUMES THEM · NO STOCK EXTRACTION RIGHTS GRANTED · NO BOSS ENGAGEMENT"}
     sfx:
       - {text: "BZZT", style: phone, at: [0.22, 0.18], size: S, rot: -5}
   - id: P35
@@ -546,6 +571,7 @@ panels:
       blue overalls/crown goggles, unload plain cases. minho, brown field clothes,
       confers with field_attendant, grey jacket/orange vest/white hard hat. Late
       daylight, slate palette. No contest grandstands, five-gate reveal, readable tags or crowd.
+      The attendant stands left, Minho centre-left, Haein centre and Taeo right.
     calm: top
     lines:
       - {who: narr, type: tag, text: "YEOJU · NEXT DAY · PRE-CONTRACT SURVEY"}
@@ -565,7 +591,7 @@ panels:
     ui:
       - {kind: label, text: "THREE ANALYSIS CHIPS · CONSUMPTIVE TEST AUTHORISED", at: [0.5, 0.35]}
   - id: P37
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "side view beside the survey control trestle"
@@ -575,13 +601,14 @@ panels:
       listens. orrin's repaired slate shell waits behind; haein uncoils white
       cable with blue metre bands. Cool daylight, slate and muted orange.
       No Sera or Kesh entering, fresh wound, harness or readable equipment.
+      Sejin stands left, Nib centre and Orrin rests right; all three speaking faces are visible, Haein works behind them.
     calm: top
     lines:
-      - {who: sejin, type: speech, side: l, text: "NO LOAD TEST. NO FIGHT. I CALL THE TURNAROUND."}
-      - {who: nib, type: speech, side: r, text: "AGREED."}
-      - {who: orrin, type: speech, side: r, text: "I AM EXCELLENT AT NOT HURRYING."}
+      - {"who": "sejin", "type": "speech", "side": "l", "text": "NO LOAD TEST. NO FIGHT. I DECIDE WHEN THE SURVEY TURNS BACK."}
+      - {"who": "nib", "type": "speech", "side": "c", "text": "AGREED."}
+      - {"who": "orrin", "type": "speech", "side": "r", "text": "I AM EXCELLENT AT NOT HURRYING."}
   - id: P38
-    shape: wide
+    shape: full
     gap: short
     bg: white
     camera: "over Taeo's shoulder toward Nib at the scaffold frame"
@@ -591,6 +618,7 @@ panels:
       sejin in sage gear approach the frame. Orrin follows at
       ordinary ground level. White banded cable enters lower-left. Cool
       daylight, violet rim; no active reservoir, transfer link or drawn words.
+      Taeo is outside at right, Nib approaches the frame at left, Minho and Sejin centre; Orrin follows with room.
     calm: top
     lines:
       - {who: taeo, type: speech, side: r, text: "LINE CHECK. SAMPLE ROUTE. THEN HOME."}
@@ -621,10 +649,11 @@ panels:
       route; minho, sejin and orrin wait by the first grey
       relay tripod. Violet shadows, hard sky light. No other territories,
       fight, readable stakes or floating map.
+      Nib scouts in the left third; Minho stands right, Sejin and Orrin centre by the tripod.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "NEW GROUND. OLD RULES."}
-      - {who: minho, type: speech, side: r, text: "STAY INSIDE THE STAKES."}
+      - {"who": "nib", "type": "speech", "side": "l", "text": "NEW GROUND. SAME SURVEY RULES."}
+      - {"who": "minho", "type": "speech", "side": "r", "text": "STAY INSIDE THE STAKES."}
   - id: P41
     shape: wide
     gap: short
@@ -654,7 +683,7 @@ panels:
       magical flash or concealed stock extraction.
     calm: top
     lines:
-      - {who: minho, type: speech, side: r, text: "REEDSTONE. FIRST CHIP."}
+      - {"who": "offpanel:minho", "type": "speech", "side": "r", "text": "REEDSTONE. FIRST CHIP."}
   - id: P43
     shape: inset-l
     gap: short
@@ -667,6 +696,7 @@ panels:
       measures time and distance, not mineral value. Lavender
       sky light, violet loam shadow. No ingestion, poison symptom,
       glowing crystal or written label.
+      Sejin is in the left third; keep her face and Minho's sample hand together in frame.
     calm: right
     lines:
       - {who: sejin, type: speech, side: l, text: "ROOT SALT. SECOND. WE DON'T NEED THE WHOLE ROOT."}
@@ -684,9 +714,9 @@ panels:
       extra ore, drawn words or blood.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "FIELD ORE. THIRD."}
+      - {"who": "offpanel:nib", "type": "speech", "side": "l", "text": "FIELD ORE. THIRD."}
   - id: P45
-    shape: wide
+    shape: tall
     gap: short
     bg: navy
     camera: "low group profile on the permitted shelf, threshold behind them"
@@ -698,9 +728,10 @@ panels:
       no danger escalation. Lavender sky and violet ground,
       banded cable intact. No harness, extra ore bag,
       drawn sample labels or boss approach.
+      Sejin stands left, Minho centre with the case, Nib centre-right at the latch and Orrin rests right.
     calm: top
     lines:
-      - {who: orrin, type: speech, side: r, text: "MY SMALLEST LOAD."}
+      - {who: orrin, type: speech, side: r, text: "FINALLY. A LOAD THAT DOESN'T NEED ME."}
       - {who: sejin, type: speech, side: l, text: "THEN WE'RE DONE ON TIME."}
   - id: P46
     shape: narrow-r
@@ -716,7 +747,7 @@ panels:
       display text, private interface, active load share or blood.
     calm: left
     lines:
-      - {who: nib, type: phone, side: l, text: "THREE. CASE SHUT. WE'RE AT THE FRAME."}
+      - {"who": "offpanel:nib", "type": "phone", "side": "l", "text": "THREE CHIPS. CASE SHUT. WE'RE BACK AT THE FRAME."}
     notes: "Radio voice carried by the visibly intact Ryu survey line, not unaided through the threshold."
   - id: P47
     shape: strip
@@ -765,9 +796,10 @@ panels:
       rather than touching the case. Dusk slate,
       cold violet rim; no closing gate, healed
       bruises, dropped chip or words.
+      Give the returning party room: Nib left, Minho centre-left, Sejin centre, Orrin right; Taeo and Haein wait to one side.
     calm: none
   - id: P50
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "table-height across the sample tray and field attendant"
@@ -779,10 +811,11 @@ panels:
       ACTING: ordinary accountable handover. Last daylight,
       slate metal and muted orange. No fourth
       chip, cash, private window or generated print.
+      The attendant stands left, Minho listens centre and Taeo stands right over the three-chip tray.
     calm: top
     lines:
-      - {who: field_attendant, type: speech, side: l, text: "THREE ACCOUNTED FOR. CONSUMPTIVE TESTING IS AUTHORISED ON YOUR COPY."}
-      - {who: taeo, type: speech, side: r, text: "THANK YOU. I'LL RECORD EACH RESULT."}
+      - {"who": "field_attendant", "type": "speech", "side": "l", "text": "ALL THREE CHIPS ACCOUNTED FOR. YOUR PERMIT ALLOWS TESTING THAT CONSUMES THEM."}
+      - {"who": "taeo", "type": "speech", "side": "r", "text": "THANK YOU. I'LL RECORD EACH RESULT."}
     notes: "Three authorised analysis chips assigned to this test. No general extraction rights or public stock theft."
   - id: P51
     shape: strip
@@ -801,7 +834,7 @@ panels:
       cyan activation yet, written tag or amber.
     calm: none
   - id: P52
-    shape: wide
+    shape: tall
     gap: short
     bg: navy
     camera: "side two-shot of Taeo and Nib beside the sample trestle"
@@ -814,10 +847,11 @@ panels:
       ACTING: permission for this test, not
       shared enthusiasm for the contest. Dusk
       slate, no interface yet or print.
+      Nib stands left and Taeo right with the tray between them.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: r, text: "THE NEW KINDS MAY OPEN ANOTHER CONTACT WINDOW. WE CAN TEST THEM HERE."}
-      - {who: nib, type: speech, side: l, text: "TEST. ASK WHEN YOU CALL."}
+      - {"who": "taeo", "type": "speech", "side": "r", "text": "THREE NEW KINDS MAY OPEN A CONTACT WINDOW. WE CAN TEST THE CHIPS HERE."}
+      - {"who": "nib", "type": "speech", "side": "l", "text": "TEST THE CHIPS. ASK BEFORE YOU INVITE SOMEONE."}
   - id: P53
     shape: strip
     gap: short
@@ -855,6 +889,7 @@ panels:
       key, navy dusk, field ore remains
       in third recess. No amber, duplicate
       roots or drawn windows.
+      Frame Taeo waist-up in partial profile, with his face, right palm and tray visible together.
     calm: top
     ui:
       - {kind: system.notice_small, on: float, text: "[NEW KIND: ROOT SALT · +33%]", at: [0.5, 0.10], tilt: -6}
@@ -878,12 +913,13 @@ panels:
       spill from the test hand off
       left. No readable figures, lit screen,
       magic antennae or extra chip.
+      Haein is on the right. Taeo reports his results from beyond the left edge.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: l, text: "SIXTY-SEVEN. ONE LEFT."}
-      - {who: haein, type: speech, side: r, text: "RECORDED. DON'T RUSH THE LAST ONE."}
+      - {"who": "offpanel:taeo", "type": "speech", "side": "l", "text": "ROUTE ALIGNMENT: SIXTY-SEVEN PERCENT. ONE CHIP LEFT."}
+      - {"who": "haein", "type": "speech", "side": "r", "text": "RECORDED. DON'T RUSH THE LAST ONE."}
   - id: P56
-    shape: wide
+    shape: tall
     gap: long
     bg: navy
     camera: "low two-shot with the untouched field ore foreground"
@@ -897,10 +933,11 @@ panels:
       Taeo's impatience checked once more.
       Dusk slate/navy, no active new
       window, amber or drawn words.
+      Nib stands left and Taeo right; keep their faces and the final chip visible.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "THIS ISN'T A VOTE FOR YEOJU."}
-      - {who: taeo, type: speech, side: r, text: "I KNOW."}
+      - {"who": "nib", "type": "speech", "side": "l", "text": "TESTING THE CHIPS ISN'T A VOTE FOR YEOJU."}
+      - {"who": "taeo", "type": "speech", "side": "r", "text": "I KNOW."}
     notes: "The smaller secure-job preference survives the co-op deal and successful survey."
   - id: P57
     shape: strip

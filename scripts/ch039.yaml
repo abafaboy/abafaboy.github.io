@@ -43,10 +43,10 @@ palette_notes: >
 
 panels:
   - id: P01
-    shape: wide
+    shape: full
     gap: none
     bg: white
-    camera: "close side view continuing the embrace at the reunification crates"
+    camera: "medium side view continuing the embrace at the reunification crates"
     art: >
       sinjeong_street. Dami (default, nineteen-year-old small wiry adult in dusty porter gear)
       is still caught in reunited_mother's embrace; the yellow-coated daughter holds her
@@ -54,28 +54,30 @@ panels:
       shut for one breath. Folded blankets between their hips. Cameras remain distant and
       turned away. Cold task lamp, first pale blue horizon. No GO FIRST patch, chibi face,
       invented reporter or readable kit.
+      Mother is on the left and Dami on the right; crop both from the waist up, child visible between them.
     calm: top
     lines:
       - {who: reunited_mother, type: whisper, side: l, text: "THANK YOU."}
 
   - id: P02
-    shape: inset-r
+    shape: tall
     gap: short
     bg: white
-    camera: "medium close on Dami as the mother eases back"
+    camera: "medium two-shot of Dami and the mother as the embrace eases"
     art: >
       sinjeong_street. Dami (default) stands right of frame, startled into a crooked unguarded
       smile, one glove still on reunited_mother's sleeve. Her scuffed site hat, short low
       ponytail, grey hoodie, cargo straps and muted hi-vis vest remain. Mother at left has
       wet eyes but a steady gaze. Cold-white lamp, desaturated blue-grey background. No
       camera lens, nameplate, new badge or lettering on clothing.
+      Mother is on the left and Dami on the right, both faces and relaxed hands visible with room around their bodies.
     calm: left
     lines:
       - {who: reunited_mother, type: speech, side: l, text: "WHAT'S YOUR NAME?"}
       - {who: dami, type: speech, side: r, text: "DAMI."}
 
   - id: P03
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "from Nib's height beside the blanket table toward a newly seated civilian"
@@ -85,6 +87,7 @@ panels:
       clutching the bandaged wrist to himself, eyes fixed on Nib's skin. A relief worker
       reaches over from beside them. Nib's expression stays professional. Cold lamp and
       pale dawn, slate shadows. No threatening knife gesture, cute anatomy or readable tags.
+      Nib stands on the left, the responder in the centre and the seated blanket man on the right.
     calm: top
     lines:
       - {who: blanket_man, type: speech, side: r, text: "CAN SOMEONE KEEP THAT THING AWAY?"}
@@ -124,10 +127,10 @@ panels:
     calm: top
     lines:
       - {who: narr, type: tag, text: "SINJEONG STATION · DAWN"}
-      - {who: taeo, type: float, text: "I HAD AN ANSWER READY FOR EVERY WORD EXCEPT THAT ONE."}
+      - {who: taeo, type: float, text: "I WANTED TO DEFEND NIB. I DIDN'T KNOW WHAT HE WANTED."}
 
   - id: P07
-    shape: vignette
+    shape: tall
     gap: short
     bg: white
     camera: "earlier-night memory, from behind Nib in the pharmacy evacuation lane"
@@ -138,6 +141,7 @@ panels:
       before the ch 37 shell damage; a work lamp lights pharmacy shelving as blank blocks.
       Desaturated blue-grey, soft vignette edge, no new blood or cute pleading face. No
       present-day intact F, legible medicine boxes or news cameras.
+      Nib crouches on the left; the refusing woman stands on the right, with Orrin beyond them.
     calm: top
     lines:
       - {who: narr, type: tag, text: "EARLIER THAT NIGHT"}
@@ -159,7 +163,7 @@ panels:
     calm: none
 
   - id: P09
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "memory profile along the evacuation lane as Nib points the way"
@@ -169,9 +173,10 @@ panels:
       She keeps her handbag between them. Nib looks toward the next person waiting, doing
       the job anyway. Cold work lamp above, concrete blue-grey and violet shadows. Orrin
       distant, undamaged at this earlier point. No forced carry, moral speech or readable signs.
+      Nib stands on the left, pointing along the clear left-hand evacuation lane; the woman and supporting responder walk on the right.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "THEN WALK. LEFT SIDE."}
+      - {who: nib, type: speech, side: l, text: "THEN WALK. KEEP TO THE LEFT."}
 
   - id: P10
     shape: strip
@@ -188,7 +193,7 @@ panels:
     calm: none
 
   - id: P11
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "seated eye-level two-shot of Taeo and Nib at the kerb"
@@ -198,9 +203,10 @@ panels:
       Taeo starts speaking too quickly, anxious to help; Nib looks at the cloth. Orrin's
       resting shell blurred only by simplified drawn shapes behind, no photographic blur.
       Cool dawn from left, slate shadows. No link, boots or readable notice.
+      Taeo sits on the left and Nib stands on the right. Give Nib his full adult height beside the kerb.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "HE WAS SCARED."}
+      - {who: taeo, type: speech, side: l, text: "THE MAN WHO REFUSED THE BLANKET WAS SCARED."}
       - {who: nib, type: speech, side: r, text: "I KNOW."}
 
   - id: P12
@@ -213,9 +219,10 @@ panels:
       his brows, mouth level; he is neither forgiving on cue nor asking to be defended.
       LEFT-ear notch, LEFT fang and high black binoculars visible. Cool dawn edge light,
       plain slate-blue background. Weathered adult face, no cute sadness, halo or new prop.
+      Nib fills the right third in a head-and-shoulders crop; Taeo remains beyond the left edge.
     calm: left
     lines:
-      - {who: nib, type: speech, side: r, text: "HE HAD TIME TO CHOOSE THE WORD."}
+      - {who: nib, type: speech, side: r, text: "HE STILL CHOSE TO CALL ME A THING."}
 
   - id: P13
     shape: strip
@@ -227,25 +234,27 @@ panels:
       Brown eyes tired, one mole beneath RIGHT eye, dust caught along the hairline, faint
       stain at upper lip. His fingers bunch olive canvas beneath the old orange patch.
       Dawn blue-grey, no active phone light, new wound or stylised thought cloud.
+      Taeo fills the left third; keep his face and backpack edge in the middle band.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "...YES. SORRY."}
-      - {who: taeo, type: float, text: "THAT WAS AN ANSWER FOR ME."}
+      - {who: taeo, type: speech, side: l, text: "YES. SORRY."}
+      - {who: taeo, type: float, text: "I WANTED A REASON THE INSULT WOULDN'T HURT."}
 
   - id: P14
-    shape: wide
+    shape: tall
     gap: short
     bg: white
-    camera: "from behind Nib's shoulder toward Taeo lowering his head"
+    camera: "medium two-shot facing Taeo and Nib at the kerb"
     art: >
       sinjeong_street. Nib (default) finishes cleaning his binoculars and lets them settle
       high on his chest. Taeo (outdoors) sits opposite, making himself listen rather than
       continue. A blanket folded on the water carton between them remains unoffered.
       Pale blue dawn from street side, hard grey shadows, simplified canopy behind.
       No embracing correction, new ID display, glowing palm or readable words in art.
+      Taeo sits on the left and Nib stands on the right. Both faces remain visible, not hidden behind a shoulder.
     calm: top
     lines:
-      - {who: taeo, type: speech, side: l, text: "DO YOU WANT ME TO SAY SOMETHING TO HIM?"}
+      - {who: taeo, type: speech, side: l, text: "DO YOU WANT ME TO SPEAK TO THE MAN WHO INSULTED YOU?"}
       - {who: nib, type: speech, side: r, text: "NO."}
       - {who: taeo, type: speech, side: l, text: "ALL RIGHT."}
 
@@ -261,7 +270,7 @@ panels:
     notes: "Plain read-and-reply uses kit hand. Eunchae stays off-site and is not assigned a new job. No exact calendar or clock added."
 
   - id: P16
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "at canopy level as the relief worker offers a seat to Orrin"
@@ -271,13 +280,14 @@ panels:
       notices the scale problem mid-gesture and freezes. Orrin watches with one heavy
       eyebrow lifted. Sejin (default) packs gauze nearby, catching the mistake. Cool dawn
       and last cold task lamp, muted slate and sage. No lifting Orrin, harness or legible forms.
+      The responder stands on the left with the chair, Sejin is in the centre and Orrin rests on the right.
     calm: top
     lines:
-      - {who: responder, type: speech, side: l, text: "PLEASE TAKE A SEAT WHILE WE—"}
-      - {who: orrin, type: speech, side: r, text: "WHICH PART?"}
+      - {who: responder, type: speech, side: l, text: "PLEASE TAKE A SEAT WHILE WE FINISH."}
+      - {who: orrin, type: speech, side: r, text: "WHICH PART OF ME?"}
 
   - id: P17
-    shape: inset-l
+    shape: tall
     gap: short
     bg: white
     style: chibi
@@ -288,6 +298,7 @@ panels:
       olive rig) points firmly at a large floor mat. Orrin is absent so the injury is not
       the gag. Tiny chair, huge sweat drop, no detailed disaster scenery, readable form,
       floating system or additional character body parts.
+      The chibi responder stands on the left and Sejin on the right; show their gestures and the floor mat without compressing bodies.
     calm: right
     lines:
       - {who: sejin, type: speech, side: r, text: "THE FLOOR HAS EXCELLENT CAPACITY."}
@@ -304,10 +315,11 @@ panels:
       squares the mat edge clear of Orrin's front foot, an ordinary useful kindness.
       Orrin's heavy eyes calm but weary. Grey-blue dawn, warm-brown mat and sage cloth.
       No healed shell, pet bedding, collar, harness or readable medical packet.
+      Orrin rests on the left, Nib crouches in the centre and Sejin kneels on the right. Frame people from the knees up.
     calm: top
     lines:
       - {who: orrin, type: speech, side: l, text: "THIS SEAT IS ACCEPTABLE."}
-      - {who: sejin, type: speech, side: r, text: "GOOD. STAY IN IT."}
+      - {who: sejin, type: speech, side: r, text: "GOOD. STAY ON THE MAT."}
 
   - id: P19
     shape: strip
@@ -324,7 +336,7 @@ panels:
     calm: none
 
   - id: P20
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "over Orrin's front shoulder toward Nib beside the water carton"
@@ -333,9 +345,10 @@ panels:
       paper cup held at his chest. Nib's face is reserved; his full-sized adult posture
       resembles a sentry off shift. Binoculars and LEFT strap knot visible. Taeo (outdoors)
       remains seated in the rear. Blue-grey dawn, no active devices, new shoes or readable cup.
+      Orrin is on the left and standing Nib on the right, with Taeo seated behind them. Give Nib natural body proportions.
     calm: top
     lines:
-      - {who: orrin, type: speech, side: l, text: "YOU HAVE NOT DRUNK THAT."}
+      - {who: orrin, type: speech, side: l, text: "YOU HAVEN'T TOUCHED YOUR WATER."}
       - {who: nib, type: speech, side: r, text: "IT IS HOT."}
 
   - id: P21
@@ -348,9 +361,10 @@ panels:
       water bottles, heavy eyelid sceptical but kind. His crack dressing is a small edge
       in the crop, not a new bandage across the face. Cold dawn, muted slate and brown.
       Bottles blank and transparent without lettering, no pet accessory, smile halo or glow.
+      Orrin fills the right third in a head crop. Nib stands with his cup beyond the left edge in this reverse angle.
     calm: left
     lines:
-      - {who: orrin, type: speech, side: r, text: "IT IS WATER."}
+      - {who: orrin, type: speech, side: r, text: "IT IS COLD WATER."}
       - {who: "offpanel:nib", type: speech, side: l, text: "I KNOW."}
 
   - id: P22
@@ -364,12 +378,13 @@ panels:
       responders holding battered rescue tools, looking each speaker in the face. Mixed
       teams rest along the kerb rather than stand for inspection. Dawn blue-white, slate
       shadows, muted olive. No press escort staged in formation, readable logos or glamour.
+      Seoryun walks in the right third, facing the resting crews on the left.
     calm: top
     lines:
       - {who: seoryun, type: speech, side: r, text: "WHO HELD THE NORTH STAIR?"}
 
   - id: P23
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "across two municipal workers toward Seoryun listening"
@@ -379,9 +394,10 @@ panels:
       the answer, shield resting safely at her side. Creased blue and grey field clothing,
       orange tool handle muted. Dawn from upper left, no golden praise light, readable
       medal, new nameplate or implication she performed their work.
+      The speaking worker is on the left, the older worker in the centre and Seoryun on the right; all three faces visible.
     calm: top
     lines:
-      - {who: crews, type: speech, side: l, text: "SHE DID. I BROUGHT THE PROPS."}
+      - {who: crews, type: speech, side: l, text: "SHE HELD THE STAIR. I BROUGHT THE SUPPORT STRUTS."}
       - {who: seoryun, type: speech, side: r, text: "BOTH OF YOU. THANK YOU."}
 
   - id: P24
@@ -399,7 +415,7 @@ panels:
       - {who: taeo, type: float, text: "I HAD PRACTISED A SENTENCE FOR NINE YEARS."}
 
   - id: P25
-    shape: inset-l
+    shape: tall
     gap: short
     bg: white
     style: chibi
@@ -410,13 +426,14 @@ panels:
       fingers at the corners of his mouth. It becomes an awful service smile. Chibi
       Minho (brown jacket, LEFT grey streak) stares with flat eyes. No visible bruising
       as gag, detailed disaster, Seoryun shrine, readable word or heart effects.
+      Minho stands on the left and Taeo on the right. Give both chibi figures and the backpack room.
     calm: right
     lines:
-      - {who: minho, type: speech, side: l, text: "DON'T DO THAT FACE."}
+      - {who: minho, type: speech, side: l, text: "DON'T MAKE YOUR CUSTOMER SERVICE FACE."}
       - {who: taeo, type: nervous, side: r, text: "IT'S MY ONLY AVAILABLE FACE."}
 
   - id: P26
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "normal-style medium as Seoryun reaches the Ryu crew"
@@ -426,10 +443,11 @@ panels:
       half-rise from the kerb; Sejin (default) puts one palm on his shoulder and keeps
       him seated. Nib (default) watches from beside Orrin. Cool daylight, muted slate,
       brown and olive. No new ranks, readable roster or forced salute.
+      Seoryun stands on the left and Minho on the right; Taeo and Sejin are centred below, Nib and Orrin behind.
     calm: top
     lines:
-      - {who: seoryun, type: speech, side: l, text: "RYU SURVEY. F?"}
-      - {who: minho, type: speech, side: r, text: "F. CREW'S ALL HERE."}
+      - {who: seoryun, type: speech, side: l, text: "RYU SURVEY. YOU HAD SIDE PASSAGE F?"}
+      - {who: minho, type: speech, side: r, text: "YES. THE WHOLE CREW IS HERE."}
 
   - id: P27
     shape: strip
@@ -441,26 +459,28 @@ panels:
       narrowing with concern rather than strategic interest. LEFT-eyebrow scar and dust
       at her temple clear, low ponytail behind neck. Dawn cold-white across one cheek,
       slate shadow on the other. No shocked chibi face, recruitment grin or readable device.
+      Seoryun fills the left third in a face crop, looking toward Orrin outside the right edge.
     calm: top
     lines:
-      - {who: seoryun, type: speech, side: l, text: "THE CARRIER. YOUR NAME?"}
+      - {who: seoryun, type: speech, side: l, text: "YOU HELD UP THE CEILING. WHAT'S YOUR NAME?"}
 
   - id: P28
-    shape: wide
+    shape: tall
     gap: short
     bg: white
-    camera: "low eye level with Orrin as Seoryun crouches at a respectful distance"
+    camera: "low medium group view with Orrin, Seoryun and Sejin all visible"
     art: >
       sinjeong_street. Orrin (default) rests on his mat; Seoryun (default) crouches near
       his head without touching the cracked shell. Sejin (default) stands at his side,
       medical pouch closed. Orrin's heavy eyes are alert, not meek. Nib (default) visible
       beyond the shell. Cool dawn, subdued olive, sage and slate. No pet gesture, saddle,
       readable ID or healed fissure.
+      Orrin rests on the left, Sejin stands in the centre and Seoryun crouches on the right; Nib is behind Orrin. All three speakers show clear faces.
     calm: top
     lines:
       - {who: orrin, type: speech, side: l, text: "ORRIN."}
-      - {who: seoryun, type: speech, side: r, text: "ORRIN. THAT CEILING HELD BECAUSE OF YOU."}
-      - {who: sejin, type: speech, side: r, text: "AND HE'S FINISHED HOLDING THINGS TODAY."}
+      - {who: seoryun, type: speech, side: r, text: "ORRIN. YOU KEPT THE CEILING UP FOR THE EVACUATION."}
+      - {who: sejin, type: speech, side: c, text: "AND HE'S FINISHED HOLDING THINGS TODAY."}
 
   - id: P29
     shape: inset-r
@@ -472,9 +492,10 @@ panels:
       tired mouth almost smiling. Sejin's sage shoulder at the edge remains level and
       immovable. Low ponytail and LEFT scar intact; hexagonal shield edge below frame.
       Dawn blue-white, plain slate backdrop. No purchase offer, new rank badge or readable form.
+      Seoryun fills the right third in a head-and-shoulders crop.
     calm: left
     lines:
-      - {who: seoryun, type: speech, side: r, text: "THEN HE'S FINISHED."}
+      - {who: seoryun, type: speech, side: r, text: "THEN ORRIN RESTS."}
 
   - id: P30
     shape: tall
@@ -487,6 +508,7 @@ panels:
       meets his eyes, leaving enough distance that she does not loom over him. Taeo
       (outdoors) watches from the kerb. Cool dawn from open street, slate shadows. No
       handshake forced, new ID check, camera setup or cute proportions.
+      Nib stands on the left, Seoryun on the right and Taeo sits in the centre background.
     calm: top
     lines:
       - {who: seoryun, type: speech, side: r, text: "NIB, WAS IT? GOOD WORK."}
@@ -506,7 +528,7 @@ panels:
     calm: none
 
   - id: P32
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "profile at Nib's eye level with Seoryun slightly bent toward him"
@@ -516,10 +538,11 @@ panels:
       shield down, no phone between them. Black binoculars ride high, LEFT strap knot and
       correct belt gear visible. Pale blue dawn, grey shadows, no interviewer microphone,
       nameplate or new uniform.
+      Nib stands on the left and Seoryun bends slightly on the right, both shown with natural proportions.
     calm: top
     lines:
-      - {who: nib, type: speech, side: l, text: "F IS CLEAR."}
-      - {who: seoryun, type: speech, side: r, text: "I HEARD. FROM MORE THAN ONE CREW."}
+      - {who: nib, type: speech, side: l, text: "SIDE PASSAGE F IS CLEAR."}
+      - {who: seoryun, type: speech, side: r, text: "I HEARD. MORE THAN ONE CREW TOLD ME."}
 
   - id: P33
     shape: inset-l
@@ -536,20 +559,21 @@ panels:
     calm: none
 
   - id: P34
-    shape: wide
+    shape: tall
     gap: short
     bg: white
-    camera: "from behind Seoryun toward Taeo and Nib, both included"
+    camera: "medium group view facing Seoryun and Taeo at the kerb"
     art: >
       sinjeong_street. Seoryun (default) turns slightly to Taeo (outdoors) at the kerb,
       while keeping Nib (default) within the same conversation. Taeo's attempt to stand
       remains thwarted by Sejin's hand on his shoulder; his face now nakedly embarrassed.
       Nib's chin remains quietly higher. Dawn blue-white, olive backpack patch outward.
       No injury disappearance, new clasped hands or readable object.
+      Seoryun stands on the left, Nib in the centre and Taeo sits on the right with Sejin behind him. Both speakers show their faces.
     calm: top
     lines:
-      - {who: seoryun, type: speech, side: l, text: "AND YOU HELD THE DOOR."}
-      - {who: taeo, type: nervous, side: r, text: "YES. SORRY. IT WAS THE JOB WITH THE FEWEST DIRECTIONS."}
+      - {who: seoryun, type: speech, side: l, text: "AND YOU KEPT THE EXIT OPEN, TAEO."}
+      - {who: taeo, type: nervous, side: r, text: "YES. SORRY. I PICKED THE JOB WHERE I COULDN'T GET LOST."}
 
   - id: P35
     shape: inset-r
@@ -561,9 +585,10 @@ panels:
       eyes creasing, scar through LEFT eyebrow still clear. A practical person finding
       one dry joke funny after a hard night. Low ponytail at nape, olive collar open.
       Pale daylight, hard slate shadow. No glamorous fanservice, romantic blush or halo.
+      Seoryun fills the right third in a face-and-shoulders crop.
     calm: left
     lines:
-      - {who: seoryun, type: speech, side: r, text: "DIDN'T MEAN IT WAS THE EASY ONE."}
+      - {who: seoryun, type: speech, side: r, text: "KEEPING THE EXIT OPEN WASN'T EASY."}
 
   - id: P36
     shape: full
@@ -576,9 +601,10 @@ panels:
       Sejin (default) rolls her eyes. Nib (default) stays almost straight-faced, private
       pride intact; Orrin (default) rests on his mat. Seoryun (default) accepts the moment.
       Cool dawn, muted workwear. No healed injuries, chibi anatomy or cheering crowd.
+      Minho is seated on the left and Taeo on the right, both laughing faces clear; the other crew members are between and behind them.
     calm: top
     lines:
-      - {who: minho, type: speech, side: l, text: "HE STILL TRIED TO APOLOGISE TO IT."}
+      - {who: minho, type: speech, side: l, text: "HE STILL TRIED TO APOLOGISE TO THE DOOR."}
       - {who: taeo, type: speech, side: r, text: "IT WAS A VERY DIFFICULT DOOR."}
 
   - id: P37
@@ -596,7 +622,7 @@ panels:
       - {who: taeo, type: float, text: "I FORGOT THE SENTENCE. I WAS GLAD HE HEARD HIS NAME."}
 
   - id: P38
-    shape: wide
+    shape: tall
     gap: long
     bg: white
     camera: "low at kerb height as Taeo shifts the backpack to make room"
@@ -606,9 +632,10 @@ panels:
       patch turns fully toward Seoryun, who remains standing nearby. Taeo's tired face is
       finally relaxed. Cold daylight, slate pavement, muted olive and rust. No patch
       redesign, new pack pocket, visible money or readable cloth label.
+      Sejin is on the left, Taeo sits on the right and Seoryun stands behind the backpack at centre.
     calm: top
     lines:
-      - {who: sejin, type: speech, side: l, text: "STAY SEATED. THAT ORDER ALSO HAS ONE DIRECTION."}
+      - {who: sejin, type: speech, side: l, text: "STAY SEATED. THAT ORDER ONLY HAS ONE STEP."}
       - {who: taeo, type: speech, side: r, text: "I'M QUALIFIED."}
 
   - id: P39
@@ -636,13 +663,14 @@ panels:
       canvas underneath a lifted corner. His thumb rests near it without covering the
       old door shape. Cool dawn, flat rust and grey-green. No letters in the emblem,
       current-door substitution, new tear, glow or portrait embroidered in it.
+      Seoryun stands beyond the left edge; Taeo and the backpack are on the right side of this detail angle.
     calm: top
     lines:
       - {who: "offpanel:seoryun", type: speech, side: l, text: "THAT PATCH."}
     notes: "PAYOFF P03 begins: the ch 3 patch becomes an object Seoryun recognises. Retain its exact earlier geometry."
 
   - id: P41
-    shape: wide
+    shape: tall
     gap: short
     bg: white
     camera: "medium two-shot from beside the backpack, Seoryun above Taeo"
@@ -652,9 +680,10 @@ panels:
       its door shape without touching his bag. Her current LEFT-sleeve patch is visible
       for comparison: broader opening, simplified upright jamb. Pale blue daylight,
       muted olive and faded rust. No readable emblem words or replacing the old patch.
+      Taeo sits on the left and Seoryun stands on the right, with room for the natural height difference.
     calm: top
     lines:
-      - {who: taeo, type: nervous, side: l, text: "AH. YES. SORRY, IT'S—"}
+      - {who: taeo, type: nervous, side: l, text: "SORRY. I KNOW THE PATCH IS OLD."}
       - {who: seoryun, type: speech, side: r, text: "THAT'S FROM BEFORE WE CHANGED THE DOOR."}
     notes: "PAYOFF P03: required exact line. Current versus old door is a design distinction, not a claim this is issued team gear. Knock-off origin stays for ch 43."
 
@@ -669,26 +698,28 @@ panels:
       stain intact. His shoulders shrink into the navy jacket without becoming chibi.
       Pale cold dawn, plain grey-blue behind. No flashback uniform, blush hearts,
       sponsor mark or invented autograph.
+      Taeo fills the right third in a face-and-shoulders crop.
     calm: left
     lines:
-      - {who: taeo, type: speech, side: r, text: "YOU REMEMBER THE OLD ONE."}
+      - {who: taeo, type: speech, side: r, text: "YOU REMEMBER THE OLD DOOR DESIGN."}
 
   - id: P43
-    shape: wide
+    shape: tall
     gap: short
     bg: white
-    camera: "profile across Seoryun's shoulder toward the patch between them"
+    camera: "medium profile two-shot with both faces and the patch visible"
     art: >
       sinjeong_street. Seoryun (default) looks at the old patch on Taeo's bag with a
       small practical smile; Taeo (outdoors) follows her gaze. Her shield rests against
       her boot with grip and strap intact. The newer door on her olive sleeve and the
       faded old one on olive canvas stay distinct. Cold dawn, slate shadows. No text,
       trophy pose, new weapon or glowing patch.
+      Taeo sits on the left and Seoryun stands on the right; keep both door designs visible with no compressed figures.
     calm: top
     lines:
-      - {who: seoryun, type: speech, side: r, text: "WE ARGUED ABOUT THE NEW ONE FOR A WEEK."}
+      - {who: seoryun, type: speech, side: r, text: "WE ARGUED ABOUT THE NEW DOOR DESIGN FOR A WEEK."}
       - {who: taeo, type: speech, side: l, text: "A WEEK?"}
-      - {who: seoryun, type: speech, side: r, text: "HUNTERS. GIVE THEM A MEETING, THEY'LL CLEAR IT BADLY."}
+      - {who: seoryun, type: speech, side: r, text: "HUNTERS. WE CAN CLEAR A GATE FASTER THAN A MEETING."}
 
   - id: P44
     shape: strip
@@ -703,7 +734,7 @@ panels:
       falling onto it or literal image inside the door.
     calm: top
     lines:
-      - {who: taeo, type: float, text: "SHE HAD BEEN REAL THE WHOLE TIME."}
+      - {who: taeo, type: float, text: "I'D NEVER THOUGHT ABOUT HER HAVING AN ORDINARY DAY."}
 
   - id: P45
     shape: tall
@@ -731,9 +762,10 @@ panels:
       Behind, porters pass with empty blanket crates; this is still an active response.
       Nib (default) stays within earshot beside Orrin. Cool dawn, muted workwear, plain
       roadway above them. No entourage, readable screen, new order or grief chibi.
+      Taeo sits on the left and Seoryun on the right, framed from the waist up.
     calm: top
     lines:
-      - {who: seoryun, type: speech, side: r, text: "DOES IT MEAN SOMETHING?"}
+      - {who: seoryun, type: speech, side: r, text: "DOES THE PATCH MEAN SOMETHING TO YOU?"}
       - {who: taeo, type: speech, side: l, text: "YES."}
 
   - id: P47
@@ -747,6 +779,7 @@ panels:
       under RIGHT eye, a thumb holding olive canvas at the bottom edge. Dawn light
       from the open street, slate-blue background. No tears yet, memory montage,
       younger body, active link or generated letters.
+      Taeo fills the left third in a head-and-shoulders crop.
     calm: right
     lines:
       - {who: taeo, type: speech, side: l, text: "IT DOES."}
@@ -769,7 +802,7 @@ panels:
     shape: tall
     gap: long
     bg: white
-    camera: "close two-shot at kerb height, Seoryun turned fully to listen"
+    camera: "medium two-shot at kerb height, Seoryun turned fully to listen"
     art: >
       THE HOOK. sinjeong_street. Seoryun (default) sits beside Taeo (outdoors), turns
       her tired face toward him and waits without filling the silence. Taeo's hand
@@ -777,6 +810,7 @@ panels:
       sleeve door remains visible and different. Nib's adult silhouette stands near
       Orrin behind, not intruding. Cool dawn, pale open street above, hard slate shadows.
       No flashback, rescue-network paperwork, romantic effects or readable art.
+      Taeo sits on the left and Seoryun on the right, both faces visible above the old patch.
     calm: bottom
     lines:
       - {who: seoryun, type: speech, side: r, text: "WHY THE PATCH?"}
