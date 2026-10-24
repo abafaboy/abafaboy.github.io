@@ -9,6 +9,7 @@ This is the rulebook for the rebuilt *My Summons Go First*. Every script, panel 
 | **[R]** | Seen directly: real episodes read slice by slice on WEBTOON (official English), Oct 2026. Notes in `MANHWA_CORPUS.md`. |
 | **[K]** | Korean industry or academic source: platform data, creator surveys, PD interviews, papers. Numbered in the source list at the end of `KOREAN_CRAFT_REPORT.md`. |
 | **[pacing report]** | Arc and chapter data in `PACING_REPORT.md` (partial; it says where its data is thin). |
+| **[reader report]** | Reader forums, reviews and editorials in `READER_GENRE_REPORT.md` (section K). |
 | **[S]** | The earlier survey of 103 episode-1s (`VISUAL_SURVEY.md`). |
 | **[I]** | Our own inference from the above. Treat as a default, not a law. |
 
@@ -236,7 +237,41 @@ Each pattern is named so a script can call it ("use NAME CARD", "SPEECH IN BITES
 - **Text sizes:** typically 12–30 px on an 800 px canvas, larger than print [K12, K17].
 - Keep bubbles in gutters and negative space, never over faces or hands. Read top-left to bottom-right [K23, K24].
 
-## K. Chapter checklist (a script fails if any answer is no)
+## K. What readers complain about (and the rule that answers it)
+
+Taken from `READER_GENRE_REPORT.md`, which covers reader forums, reviews and editorials. Numbers in brackets are that report's sources.
+
+| Complaint | Evidence | Our rule |
+|---|---|---|
+| Power outruns stakes: "no challenge in his fights" | Consensus [7][8][10][11][31] | Summons have costs and limits: seals, the call timer, CARRY pain, refusals. Every arc's enemy must be able to beat the current team. |
+| Thin, forgettable side characters | Consensus [1][2][4][6][9][28][31] | Every named character has a want, a voice and a running joke, and gets at least one scene where they decide something. |
+| Repetitive fights; slow arcs and filler | Consensus [2][5][7][8][11][12][28] | Each fight adds one new element: a rule, a mechanic, a terrain trick or a reveal. Every arc has a concrete goal. Training arcs carry a deadline and end in a real fight. |
+| The "underestimated, then everyone is shocked" beat used as a formula | Single, but pointed [28][14]; "cheering squads" disliked [16] | Use the public reversal sparingly (ch 5, ch 12, ch 21 in Part One) and vary every other payoff: a plan working, a reveal, an evolution, a rescue. Bystanders react with their bodies (they step back, drop weapons, freeze), not with speeches of praise [43]. |
+| Frequent bad jokes interrupt the plot | Single [11] | Humour comes from character or premise. Use one or two short laughs per chapter, never inside a tense beat except as the set-up for a TONE FLIP. |
+| Generic, "dime a dozen" feel | [3][5][17] | The title's rule ("summons go first") is a world law, a strategy, an insult turned into a chant, and finally a reversal. Nobody else's power works like CARRY → STORE. |
+| A summon that is only a mascot | [43][59][34] | Summons grow: seal breaks change their look and power, and their losses matter. |
+
+**What readers love** (Consensus):
+- visible, earned, compounding upgrades [6][31][32];
+- a weak lead who wins with knowledge and choices [23][24];
+- an army that grows past what chapter 1 implied [32];
+- money as a survival stake that is shown once and then drives choices [46][31].
+
+**Lettering grammar (Blambot, traditional) [62]:**
+- an ellipsis is exactly three periods;
+- a double dash marks an interruption;
+- "?!" is only for a shouted question;
+- inner monologue goes in captions;
+- burst balloons for shouting, wavy balloons for distress;
+- SFX are unpunctuated.
+
+**WEBTOON's own handbook [63]:**
+- 3 bubbles or fewer per panel, 1–2 sentences each, stacked in a diamond;
+- 800×1280 images;
+- 200 px between panels, 600–1,000 px at scene changes;
+- launch with three episodes.
+
+## L. Chapter checklist (a script fails if any answer is no)
 
 1. Does something dangerous, funny or strange happen in the first 5 panels?
 2. Is the title card placed after the hook (15–40%), not at a fixed panel?
@@ -249,4 +284,6 @@ Each pattern is named so a script can call it ("use NAME CARD", "SPEECH IN BITES
 9. Are there SFX on every action beat, and at least one impact panel?
 10. Do the last 1–3 panels open a question (threat, mystery, system, arrival, power, countdown), different in type from the last chapter's hook?
 11. Does the MC do something smart on the page (predict, plan, read a rule, combo), not just react?
-12. Did someone laugh?
+12. Did someone laugh, briefly and in character, without breaking a tense beat?
+13. Does this chapter's fight add something new (a rule, mechanic, terrain trick or reveal), and can the enemy really win?
+14. If bystanders react to power, do they react with their bodies rather than with praise speeches?
