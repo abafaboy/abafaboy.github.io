@@ -3,7 +3,7 @@
 ## What changed
 - **A new story.** The owner rebuilt *My Summons Go First* from the ground up: a new lead (Kang Jaeha, an F-rank trap-tester), a new cast and a new plot. Only Nib carries over as a character, and he is redesigned. A few old names reappear in new roles (see `bible/NAME_SHEET.md`).
 - **Retired work.** The old scripts, the art for old chapters 1–13 and every old character sheet are retired. They stay on disk, but they are never used as references.
-- **A new look.** The art style is being rebuilt from a direct study of real Korean webtoons. Your first job is a style test; the owner picks the look from it.
+- **A new look.** The art style was rebuilt from a direct study of real Korean webtoons. The style is chosen: **V2 · Cinematic cel**.
 
 ## Read in this order (laptop paths)
 
@@ -11,10 +11,10 @@
 |---|---|---|
 | 1 | `bible/STORY_BIBLE_v4.md` | The story: world, powers, cast, arcs, chapters 1–12 |
 | 2 | `bible/NAME_SHEET.md` | Exact spellings, file ids, retired names |
-| 3 | `MANHWA_STYLE_GUIDE.md` | **The look:** line, light, colour, effects, the three variants, prompt blocks, the image check |
+| 3 | `MANHWA_STYLE_GUIDE.md` | **The look:** line, light, colour, effects, the V2 style block, the image check |
 | 4 | `MANHWA_ART_DIRECTION.md` | **Staging:** panel recipes, action grammar, colour flips, summon colours |
 | 5 | `CHARACTER_DESIGNS_v2.md` | **Who looks like what:** cast, monsters, locations, props, all approved by the owner. |
-| 6 | `STYLE_TEST_BRIEF.md` | **Your first job** |
+| 6 | `STYLE_TEST_BRIEF.md`, then `MODEL_SHEETS_BRIEF.md` | **Your first job:** a two-panel V2 check, then Jaeha's and Nib's sheets |
 
 **Reference, when you need it:**
 - `research/RENDERING_STUDY.md`: what real webtoons do, panel by panel.
@@ -36,8 +36,13 @@
 ## The job queue
 
 Each job starts only when its brief exists or the owner says go (Claude will add it).
-1. **Style test** (`STYLE_TEST_BRIEF.md`), then STOP. The owner picks V1, V2 or V3.
-2. **Model sheets** (`MODEL_SHEETS_BRIEF.md`, once Claude says go) in the chosen style, in a NEW folder `characters_v2/<id>/`, never in the old `characters/`. Each character gets a turnaround, an expressions sheet and a details sheet; Jaeha, Nib, Yerin, Seoa and Bomi also get a chibi sheet. Jaeha and Nib come first, then you stop for the owner's check.
+1. **The V2 check and the first sheets.**
+   - Draw two check panels in V2 (`STYLE_TEST_BRIEF.md`).
+   - If they pass, draw Jaeha's and Nib's sheets (`MODEL_SHEETS_BRIEF.md` step 1).
+   - Then STOP. The owner sees the finished sheets.
+2. **The rest of the model sheets** (`MODEL_SHEETS_BRIEF.md` step 2), after the owner's OK on Jaeha and Nib.
+   - They go in V2, in a NEW folder `characters_v2/<id>/`, never in the old `characters/`.
+   - Each character gets a turnaround, an expressions sheet and a details sheet; Jaeha, Nib, Yerin, Seoa and Bomi also get a chibi sheet.
    - **Order:** Jaeha, Nib, Yerin, Mok, the six Black Hound hunters, the husk, the hushed knight-commander, stone lizards, Seoa, Bomi, Choi, then Jaeha's black coat, Kett, and the seven summon silhouettes. `MODEL_SHEETS_BRIEF.md` has the details.
    - **Then:** `characters_v2/scale_chart_v2.png`.
 3. **Location keys** in `locations_v2/`:

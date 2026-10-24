@@ -1,13 +1,15 @@
-# MODEL SHEETS BRIEF (job 2): the new cast in the chosen style
+# MODEL SHEETS BRIEF: the new cast in style V2
 
-**Do not start** until the owner has picked a style from the style test. Claude will write the choice at the top of `MANHWA_STYLE_GUIDE.md` and tell you to begin. Use only the chosen variant's STYLE BLOCK.
+**When.** Step 1 (Jaeha and Nib) follows straight on from the V2 style check in `STYLE_TEST_BRIEF.md`, if both check panels passed. Step 2 waits for the owner's OK on Jaeha and Nib.
+
+**Style.** V2 · Cinematic cel, the only STYLE BLOCK to use (`MANHWA_STYLE_GUIDE.md` 10.1).
 
 **Read first:**
 - `README_START_HERE.md`;
 - `MANHWA_STYLE_GUIDE.md`;
 - `CHARACTER_DESIGNS_v2.md`: every section, and use the prompt snippets in section 8 word for word;
 - `bible/ART_BIBLE.md` A5b (chibi);
-- the owner's verdict on the style test, in `style_test_v2/OWNER_PICK.md` (Claude writes it).
+- your own `style_test_v2/REPORT.md`, so the sheets avoid what went wrong in the check panels.
 
 ## What a set contains
 

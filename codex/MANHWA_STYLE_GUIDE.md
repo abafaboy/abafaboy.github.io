@@ -14,7 +14,10 @@
 | A2 (line), A5 (faces) and A8 (effects) | Refined here; where they differ, this file wins |
 | A5b (chibi), A6, A7, A9 (no text in art) and A10 (continuity), and Parts B and C | Still apply |
 
-**The style is not chosen yet.** Your first job is `STYLE_TEST_BRIEF.md`: the same two panels in the three variants of section 3. The owner picks one. From then on, use only the chosen variant's block.
+**The style is chosen: V2 · Cinematic cel.** On 25 October the owner asked Claude to pick, and Claude chose V2 (section 3 says why).
+- Use only the V2 STYLE BLOCK.
+- V1 and V3 stay in this file as background and never go into a prompt.
+- Your first job is `STYLE_TEST_BRIEF.md`: two check panels in V2, then Jaeha's and Nib's sheets.
 
 ---
 
@@ -64,7 +67,7 @@ Our old panels had clean ink and one hard shadow, and the owner liked that. They
    - **Ours:** mild expressions.
    - **Rule:** section 6.
 
-## 3. The three style variants (for the test)
+## 3. The three style variants, and the choice (V2)
 
 All three keep: drawn ink lines, hard-edged cel shadows on forms, no airbrushed skin and no text. They differ in line weight, how much light and atmosphere is painted on top, and how saturated the colour is.
 
@@ -79,12 +82,12 @@ All three keep: drawn ink lines, hard-edged cel shadows on forms, no airbrushed 
 | **Strengths** | Reads best at phone size; the least "AI" look; easiest to keep consistent | Closest to the hunter titles the genre's readers know; keeps the ink and hard shadows the owner chose on 21 October | The most dramatic and premium-looking |
 | **Risks** | Loud and cartoony, which can undercut the real-danger tone | The light wash and rim need discipline, or they turn glossy | Hardest to keep consistent; its haze and soft painting are close to the airbrushed first character sheets the owner called "too AI" in October |
 
-**Claude's recommendation: V2.**
+**Chosen: V2.** The owner delegated the pick to Claude on 25 October. Claude chose V2 because:
 - It sits closest to the modern hunter titles.
 - It keeps method B's ink and hard shadows.
 - It adds the light, rim and value that our panels lacked.
 
-Whatever the owner picks, section 4 says when each layer turns on, so peak beats always get more than talk panels.
+Section 4 says when each layer turns on, so peak beats always get more than talk panels.
 
 ## 4. The rendering stack
 
@@ -246,7 +249,7 @@ The architecture of each place is described in `CHARACTER_DESIGNS_v2.md` section
 ## 10. Prompt kit
 
 **Order of every image prompt:**
-1. the variant's STYLE BLOCK (10.1);
+1. the V2 STYLE BLOCK (10.1);
 2. the recipe line: shape, camera, key light and calm zone (10.2);
 3. the scene: who, where, the action, the acting;
 4. the prompt snippet of every character in the panel (`CHARACTER_DESIGNS_v2.md` section 8), word for word. Where the scene changes something (a prop in a hand, a hood up, a different outfit), the scene wins: drop or change the clashing words;
@@ -254,15 +257,15 @@ The architecture of each place is described in `CHARACTER_DESIGNS_v2.md` section
 
 Pass the model sheet of every character in the panel as a reference image, once the sheets exist. Never pass real webtoon images, the old cast's sheets (Taeo, the old Nib) or old chapter panels.
 
-### 10.1 STYLE BLOCKS (paste exactly)
+### 10.1 STYLE BLOCK (paste the V2 block exactly; V1 and V3 are not used)
 
-**V1 · Bold ink**
+**V1 · Bold ink** (not used; kept for reference)
 > Korean webtoon panel, digitally inked and cel-coloured by a professional webtoon artist. Bold black G-pen ink: thick tapered outer contours, much thinner inner lines, hair cut into angular clumps. Flat saturated colour with one hard-edged cel shadow per material, no soft blending on skin, hair or clothes. Strong warm-against-cool colour contrast. Places are drawn in flat colour planes with little detail; behind reactions and action, the background drops to flat colour, a two-colour gradient or crisp radial speed lines. Effects are solid graphic shapes: white speed lines, black focus lines, jagged burst shapes. Expressive, exaggerated faces. Reads clearly at phone size.
 
-**V2 · Cinematic cel**
+**V2 · Cinematic cel** (THE style block)
 > Korean webtoon panel, digitally inked and coloured by a professional webtoon studio. Crisp black ink with tapered strokes, heavier on the outer silhouette, the jaw, the hair mass and where forms overlap. Flat local colour with one hard-edged cool cel shadow per material. One named key light: its colour washes smoothly over the lit side. If the scene names a back light, it draws a thin crisp rim along the figure's silhouette. Everything else stays flat. Muted cool base palette of slate, navy and grey-blue, so the light source and the character's signature colour carry the saturation. Background simplified and lower in contrast than the characters. Small crisp highlights; glossy specular only on metal and wet surfaces.
 
-**V3 · Painted cinematic**
+**V3 · Painted cinematic** (not used; kept for reference)
 > Korean webtoon panel with cinematic painted lighting by a professional webtoon studio. Thin precise ink lines under bold lighting: large hard-edged near-black shadow masses, a strong rim light from behind, under-lighting from fire or power. Painterly sky, smoke and dust with visible brush texture, while the figures stay cel-shaded and sharp. High contrast between near-black shadow and one intense light colour. Painted motion smears only on fast limbs and weapons, never on faces. Floating embers or ash only where something burns.
 
 ### 10.2 The recipe line (light and value per recipe)
