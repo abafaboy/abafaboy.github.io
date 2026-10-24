@@ -106,4 +106,4 @@
 | the Ash Knight | Caldric, the Bell General |
 | LOAD SHARE; reservoir; relay; lattice; fusion; draws | CARRY; STORE / RELEASE; PASS II; PASS III; UNISON; CALL |
 
-**Names that carried over.** Nib, Kett and Ilan were also in the old story, in similar roles, and all three appear in the approved storyboard. Only the names carry over. The old designs in `characters/nib`, `characters/kett`, `characters/ilan` and `characters/baek` are retired.
+**Names that carried over.** Nib, Kett and Ilan, and the surname Baek, were also in the old story. The owner confirmed on 25 October that these names stay. Only the names carry over. The old designs in `characters/nib`, `characters/kett`, `characters/ilan` and `characters/baek` are retired.

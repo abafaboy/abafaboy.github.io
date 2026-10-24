@@ -596,7 +596,7 @@ The owner chose the recommended option for all six decisions.
 
 | Decision | Approved |
 | --- | --- |
-| Names | New names (Kang Jaeha, Seoa and the rest), keeping only Nib |
+| Names | New names (Kang Jaeha, Seoa and the rest), keeping only Nib. On 25 October the owner also kept the names Kett and Ilan and the surname Baek, with new designs. |
 | Jaeha's starting job | Trap-tester |
 | Tone | Real danger, with deaths shown through silhouettes and splashes, and short character comedy |
 | When Jaeha fights himself | First kill at ch 40, front line from ch 70, "Today, I go first" at ch 97 |
