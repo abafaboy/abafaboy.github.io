@@ -14,7 +14,7 @@
 **Rules for this check:**
 - **No reference images.** The new cast has no sheets yet. Never attach the old sheets (Taeo, the old Nib), old chapter panels, or any real webtoon image.
 - **No real title, studio or artist names** in any prompt.
-- **No text** in the art (the one exception: the block-letter T on Jaeha's vest patch).
+- **No text** in the art. The one exception is the block-letter T on Jaeha's vest patch, and only in T1. Never put a letter on anyone else (your first T2 attempt put a T on Yerin's sleeve).
 - **No character snippets.** Do not add the snippets from `CHARACTER_DESIGNS_v2.md` section 8. The scene text below already describes everyone as this panel needs them.
 - Judge the *style*, not every continuity lock. Still, get the big locks right: Jaeha's orange vest and fringe over the LEFT eye; Nib's charcoal cloak, red scarf, amber eyes and grey-green skin, adult and not cute.
 

@@ -292,7 +292,7 @@ Pass the model sheet of every character in the panel as a reference image, once 
 | `splash` | The effect is the key light; everything takes its colour; the peak of the chapter's contrast |
 
 ### 10.3 NEGATIVE BLOCK (paste exactly, every prompt)
-> No text, letters, numbers, speech bubbles, captions, sound-effect lettering, interface windows or readable signs, except the single block letter T on Jaeha's vest patch. Emblems without letters are fine; no brand logos or wordmarks. Not a 3D render, not a photograph, no photographic background. No airbrushed skin, no plastic gloss on skin or hair, no haze or bloom over the whole image, no depth-of-field blur, no lens flare unless a real camera flash is in the scene. No watermark or signature. Correct hands with five fingers. No chibi proportions unless the brief says chibi.
+> No text, letters, numbers, speech bubbles, captions, sound-effect lettering, interface windows or readable signs. Emblems without letters are fine; no brand logos or wordmarks. Not a 3D render, not a photograph, no photographic background. No airbrushed skin, no plastic gloss on skin or hair, no haze or bloom over the whole image, no depth-of-field blur, no lens flare unless a real camera flash is in the scene. No watermark or signature. Correct hands with five fingers. No chibi proportions unless the brief says chibi.
 
 ## 11. Check every image before you accept it
 
@@ -306,7 +306,7 @@ Redo it (up to 3 tries) if any answer is no:
 7. Does anything glow in a reserved colour that doesn't own it?
 8. Does every character match their design sheet and locks (`CHARACTER_DESIGNS_v2.md`)?
 9. Is the calm zone empty and simple?
-10. No text except the vest's T. Correct anatomy (count fingers, check joints). Nobody cute who shouldn't be.
+10. No text, except the T on Jaeha's vest patch when Jaeha is in the image (his snippet asks for it; nobody else ever wears a letter). Correct anatomy (count fingers, check joints). Nobody cute who shouldn't be.
 11. Does it look drawn, not rendered? Check for: ink lines, hard shadow edges, no plastic skin, no haze.
 
 ## 12. Ours against real, in one line each

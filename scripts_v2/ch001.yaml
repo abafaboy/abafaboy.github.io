@@ -1,0 +1,989 @@
+chapter: 1
+title: Bait
+format: SCRIPT_FORMAT_v2.md
+when: "Flash-forward: a night six months from now. Main story: a Thursday night in early spring, 9:40 PM to 11:15 PM."
+story_beats: STORY_BIBLE_v4.md#chapter-1-bait-about-70-panels
+cast:
+  kang_jaeha: vest          # flash-forward (P01–P07): coat
+  song_yerin: default
+  mok_hangyu: default
+  bh_spear: default
+  bh_axe: default
+  bh_sword: default
+  bh_mage: default
+  bh_crossbow: default
+  bh_shield: default
+  husk: default
+  stone_lizard: default
+  knight_commander: default
+  nib: mask                 # P62 onward; his husk-mask look
+locations: [gwanghwamun, gate0912_site, gate0912_fortress, boss_room]
+plants:
+  - "PLANT P34: the knight's snapped chains are modern factory steel (pays off in Arc 4)."
+  - "PLANT P56: SENT FIRST 312 TIMES / LEFT SOMEONE BEHIND 0 TIMES (pays off in ch 100)."
+  - "PLANT P03–P07: the flash-forward at Gwanghwamun (pays off in ch 97)."
+hook_type: arrival
+
+panels:
+
+  # ================= COLD OPEN: FLASH-FORWARD (P01–P08) =================
+  - id: P01
+    recipe: establish
+    shape: tall
+    gap: none
+    bg: black
+    camera: "high and wide over Gwanghwamun Square at night, looking up the square toward the palace gate"
+    light: "key: the red sky; the gate's pale rim the brightest edge"
+    art: >
+      Gwanghwamun Square at night under a blood-red sky (location gwanghwamun). Above the square hangs the
+      S-grade gate: a vertical tear in the sky many storeys tall, black-violet inside, with a cold pale rim,
+      like a wound. Cracked pavement, abandoned cars at angles, the palace gate and the ridge behind it as
+      dark shapes. Tiny figures far below for scale. Embers drift only near the burning cars.
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "GWANGHWAMUN, SEOUL."}
+    sfx:
+      - {text: "VVVMMMMM", style: gate, at: [0.5, 0.35], size: XL, rot: 0}
+
+  - id: P02
+    recipe: chorus
+    shape: wide
+    gap: short
+    bg: black
+    camera: "a livestream drone's view, slightly high, of one man walking alone across the cracked square toward the gate"
+    light: "key: the red sky; the gate behind him"
+    art: >
+      A livestream drone camera's point of view: a lone man in a long black coat (kang_jaeha, coat) walks across
+      the empty, cracked square toward the giant gate, seen small from above and behind. Debris, a dropped
+      shield, a scorched bus. Leave the left half calmer for the chat overlay.
+    calm: left
+    ui:
+      - kind: phone.live_stream
+        "on": float
+        at: [0.26, 0.10]
+        chat:
+          - "[skyline_99]: A SUMMONER IS GOING IN FIRST??"
+          - "[hunter_fan]: Summoners are bait. Everyone knows that."
+          - "[mina.k]: Who even is this guy?"
+    sfx:
+      - {text: "BZZZ", style: quiet, at: [0.86, 0.12], size: S, rot: 0}
+
+  - id: P03
+    recipe: monster-reveal
+    shape: full
+    gap: short
+    bg: black
+    camera: "low angle from behind a line of figures, the gate filling the sky ahead of them"
+    light: "back light: the gate's pale rim, drawing a thin rim on every silhouette; the red sky above"
+    art: >
+      From low behind them: the man in the black coat (kang_jaeha, coat) stands facing the gate, his back to us.
+      Behind him stands a line of seven strange silhouettes, all solid black shapes with a thin pale rim: a
+      2.4 m figure with a stacked stone shell, a tall archer with a long bow, a small fluffy figure with antennae
+      and folded wings, a broad figure with a bone saw, a 2.1 m figure in bell-shaped armour with a mace, a small
+      young goblin, and at the very front, closest to the man, the smallest: a cloaked goblin scout with long
+      ears. Use the shapes in characters_v2/summon_silhouettes.png. No faces visible.
+    calm: top
+    silent: true
+    notes: "PLANT P03–P07. The silhouettes must match the seven summons' later designs."
+
+  - id: P04
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close, from the side: the cloaked goblin looking up at the man"
+    light: "rim: the gate's pale light on the edge of his hood; his face mostly in shadow"
+    art: >
+      The smallest silhouette, a cloaked goblin scout (nib), looks up at the man beside him. Only the outline of
+      his hood, one long ear and the glint of one amber eye show; the rest stays in shadow. Deadpan.
+    calm: right
+    lines:
+      - {who: nib, type: speech, text: "YOU FIRST?", side: l}
+
+  - id: P05
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of the man's eyes under a long fringe"
+    light: "red light across the eyes only"
+    face: private
+    art: >
+      Extreme close-up: Jaeha's eyes (kang_jaeha), calm and narrowed, the long fringe over his LEFT eye,
+      the red sky and the gate's tear reflected in the visible eye. No fear.
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: speech, text: "NOT YET.", side: r}
+
+  - id: P06
+    recipe: splash
+    shape: wide
+    gap: short
+    bg: black
+    camera: "behind the man at waist height, the line of summons stepping past him on both sides"
+    light: "key: the gate; every figure rimmed in its pale light"
+    art: >
+      The seven silhouettes stride past the man in the black coat (kang_jaeha, coat) toward the gate, cloaks and
+      shapes streaming, still solid black with pale rims. He stands still, one hand in his coat pocket.
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "MY SUMMONS GO FIRST.", side: c}
+    sfx:
+      - {text: "TAK TAK TAK", style: impact, at: [0.70, 0.78], size: M, rot: -6}
+
+  - id: P07
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, tilted 15 degrees, the silhouettes leaping into the gate's mouth"
+    light: "no scene light: a white flash with ice-blue edges as they hit the gate"
+    art: >
+      The silhouettes leap into the black-violet tear, the gate's rim flaring white around them. Speed lines
+      radiate from the gate's mouth. Faceted debris lifts off the square. The man in the coat is a small dark
+      shape at the bottom of the frame.
+    calm: top-left
+    sfx:
+      - {text: "VWOOOOM", style: gate, at: [0.30, 0.20], size: XL, rot: -12}
+
+  - id: P08
+    kind: caption
+    shape: strip
+    gap: long
+    bg: black
+    lines:
+      - {who: kang_jaeha, type: narr_dark, text: "SIX MONTHS EARLIER, I WAS THE BAIT."}
+
+  # ================= THE TRAP-TESTER (P09–P23) =================
+  - id: P09
+    recipe: establish
+    shape: full
+    gap: long
+    bg: black
+    camera: "high, from the street edge looking down into a subway construction pit"
+    light: "key: cold white LED floodlights on poles"
+    art: >
+      Gate 0912 (location gate0912_site) at night: a deep cut-and-cover subway construction pit in a Seoul street,
+      steel pile walls, timber boards, scaffold stairs, blue tarps, puddles. At the bottom, between steel struts,
+      a door-height black-violet slit with a pale rim: the gate. Seven hunters in black guild jackets gear up on
+      the pit floor beside a Hunter Association tent. One figure in an orange vest stands apart at the edge.
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "GATE 0912. A SUBWAY DIG IN MAPO, SEOUL."}
+    sfx:
+      - {text: "BRRRRRRR", style: quiet, at: [0.82, 0.20], size: S, rot: 0}
+
+  - id: P10
+    recipe: insert
+    shape: narrow-r
+    gap: short
+    bg: white
+    camera: "close on a gloved hand holding a phone"
+    light: "hard top light from a floodlight; the screen glow on the glove"
+    art: >
+      A hunter's black-gloved hand holds a phone. Screen: green. The cuff of a black guild jacket with a small
+      red hound's head shows at the wrist.
+    calm: left
+    ui:
+      - kind: phone.gate_status
+        "on": screen
+        text: "GATE 0912 · GRADE C · PARTY: BLACK HOUND GUILD (7 HUNTERS) · TRAP-TESTERS: 1 · PAID PER TRAP"
+
+  - id: P11
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "over the shoulder from behind Jaeha toward the raid leader"
+    light: "key: a floodlight from the upper left, flattening the big man's shadow across the wet concrete"
+    face: public
+    art: >
+      Over Jaeha's shoulder (kang_jaeha, vest; the back of his orange vest with its big T patch fills the right
+      foreground, cropped). Facing him, the raid leader Mok (mok_hangyu): huge, black guild jacket, gold chain,
+      tower shield on his back, a lazy grin. Hunters behind him check their weapons and don't look at Jaeha.
+    calm: top
+    lines:
+      - {who: mok_hangyu, type: speech, text: "SUMMONER, YOU KNOW THE RULE.", side: l}
+      - {who: kang_jaeha, type: speech, text: "YES, SIR. SUMMONS GO FIRST.", side: r}
+
+  - id: P12
+    recipe: summon-arrival
+    shape: wide
+    gap: short
+    bg: white
+    camera: "three-quarter, waist height, Jaeha and the husk stepping out beside him"
+    light: "key: the thin white seam of the husk's call; a floodlight from behind"
+    face: public
+    art: >
+      Jaeha (kang_jaeha, vest) holds out his right hand politely. Beside him a thin vertical white seam opens in
+      the air, and a faceless white doll (husk) steps out of it stiffly, arms hanging. No circle and no cyan:
+      this is an ordinary summoner's husk call. He smiles at Mok like a waiter.
+    calm: top-right
+    lines:
+      - {who: kang_jaeha, type: speech, text: "MY HUSK IS READY, SIR. IT'S A VERY BRAVE HUSK.", side: l}
+    sfx:
+      - {text: "SHIFF", style: quiet, at: [0.62, 0.40], size: S, rot: 0}
+
+  - id: P13
+    recipe: chibi
+    style: chibi
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "flat"
+    light: "flat"
+    art: >
+      Chibi gag: chibi Jaeha gives the expressionless chibi husk a proud thumbs-up with sparkles. The husk
+      stares at nothing. Pale gag background with sparkle shapes.
+    calm: left
+    lines:
+      - {who: bh_axe, type: speech, text: "DID THE RAT JUST COMPLIMENT HIS DOLL?", side: l}
+
+  - id: P14
+    recipe: establish
+    shape: full
+    gap: long
+    bg: black
+    camera: "inside the gate, low in a ruined corridor, the party small behind the husk"
+    light: "key: a sickly green-dusk sky through cracks in the vaulted roof; violet shadows"
+    art: >
+      Inside Gate 0912 (location gate0912_fortress): a ruined fortress corridor of pale limestone, collapsed
+      arches, arrow slits, the wrong-coloured green-dusk sky through cracks. Square floor stones with engraved
+      borders. The husk walks first down the middle, stiffly. Jaeha follows ten steps behind with an open notebook.
+      The black-jacketed hunters walk well back, chatting.
+    calm: top
+    lines:
+      - {who: bh_spear, type: speech, text: "KEEP YOUR LITTLE DOLL MOVING, TRAP RAT. WE'RE NOT PAYING YOU TO SIGHTSEE.", side: r}
+
+  - id: P15
+    recipe: insert
+    shape: strip
+    gap: short
+    bg: black
+    camera: "close on the husk's white foot pressing down a square floor stone"
+    light: "green-dusk top light, a hard shadow under the foot"
+    art: >
+      The husk's smooth white foot sinks a square floor stone with an engraved border a finger's width into the
+      floor. Dust puffs from the joint.
+    calm: none
+    sfx:
+      - {text: "CLICK", style: quiet, at: [0.70, 0.40], size: M, rot: 0}
+
+  - id: P16
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, tilted 15 degrees, from the floor beside the husk"
+    light: "no scene light: a white flash at the moment of the hit"
+    art: >
+      Iron spikes burst from both walls and shred the husk in mid-step: it breaks like eggshell into white
+      faceted shards and powder. No blood. Speed lines radiate from the spikes.
+    calm: top-left
+    sfx:
+      - {text: "SHHNNK", style: impact, at: [0.32, 0.22], size: XL, rot: -14}
+
+  - id: P17
+    recipe: chorus
+    shape: wide
+    gap: short
+    bg: white
+    camera: "flat, straight on: three hunters laughing"
+    light: "even green-dusk light"
+    art: >
+      Three Black Hound hunters (bh_spear, bh_axe, bh_crossbow) laugh at the white powder drifting down the
+      corridor. One slaps his knee. The crossbow woman smirks without looking up from her weapon.
+    calm: top
+    lines:
+      - {who: bh_spear, type: speech, text: "WHY DO WE EVEN BRING A TRAP RAT ALONG?", side: l}
+      - {who: bh_axe, type: speech, text: "BECAUSE A TRAP RAT IS CHEAPER THAN A HEALING POTION.", side: r}
+    sfx:
+      - {text: "HAHAHA", style: comic, at: [0.50, 0.85], size: M, rot: 4}
+
+  - id: P18
+    recipe: name-card
+    shape: wide
+    gap: short
+    bg: white
+    camera: "bust, three-quarter, slight low angle, Jaeha turned toward the image's right"
+    light: "key: green-dusk light from the right; back light: a floodlight glow from the gate behind, rimming his left edge"
+    face: public
+    intro: "KANG JAEHA (24) · F-RANK SUMMONER · TRAP-TESTER, 4 YEARS · 312 RAIDS · 0 KILLS"
+    art: >
+      Jaeha (kang_jaeha, vest), polite smile, brushing white husk powder off his notebook. Tired eyes, but they
+      are watching the corridor ahead, not the laughing hunters. The corridor behind him is simplified and lower
+      in contrast. Leave the left third calm for the name card.
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: inner, text: "THEY LAUGH EVERY TIME. THEY ALSO GO HOME EVERY TIME."}
+
+  - id: P19
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: white
+    camera: "over his shoulder, close on the notebook page as he writes"
+    light: "green-dusk light on the page; his hand's hard shadow"
+    art: >
+      Jaeha's fingerless-gloved hand writes in his battered black notebook with a short yellow pencil. The page
+      is full of small sketches of monsters with arrows and tick marks; leave a blank band on the page where the
+      letterer adds his note. No readable text.
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: note, text: "STONE LIZARDS. TAIL SWEEP AFTER THE THIRD BITE. BLIND ON THE LEFT."}
+
+  - id: P20
+    recipe: monster-reveal
+    shape: full
+    gap: short
+    bg: black
+    camera: "low, behind the shield-bearer, three stone lizards rounding the corner ahead"
+    light: "green-dusk shafts; the lizards' stone backs catch the light; one red glint in a lead lizard's good eye"
+    art: >
+      Three stone lizards (stone_lizard) come round the corner in a pack: squat, heavy-legged, slate-stone hides
+      in rough dry-brush texture, club tails. Every lizard's LEFT eye is milky white. The lead lizard bites the
+      shield-bearer's shield (bh_shield, back to us in the foreground). Sparks fly from the shield rim.
+    calm: top-left
+    sfx:
+      - {text: "CRUNCH", style: impact, at: [0.62, 0.48], size: L, rot: -10}
+    lines:
+      - {who: kang_jaeha, type: inner, text: "ONE BITE."}
+
+  - id: P21
+    recipe: anticipation
+    shape: tall
+    gap: short
+    bg: white
+    camera: "three-quarter, from beside the lizard's flank, its tail coiling back toward a young healer"
+    light: "green-dusk key from above; the healer pale and frozen in it"
+    art: >
+      The lizard bites the shield again, and its club tail coils back hard, aimed at a small freckled young woman
+      in an oversized off-white healer's jacket (song_yerin) who stands frozen against the wall, both hands on her
+      bag strap. In the background, Jaeha looks up from his notebook.
+    calm: top-right
+    sfx:
+      - {text: "CRUNCH", style: impact, at: [0.30, 0.18], size: M, rot: 8}
+    lines:
+      - {who: kang_jaeha, type: inner, text: "TWO BITES. THE TAIL COMES AFTER THE THIRD."}
+      - {who: kang_jaeha, type: speech, text: "TAKE ONE STEP TO YOUR LEFT, PLEASE.", side: r}
+
+  - id: P22
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low and wide, tilted, the tail whipping through the space where she stood"
+    light: "no scene light: a hot orange field behind the swing"
+    art: >
+      The third bite lands, and the club tail sweeps through exactly where the healer stood. She has taken one
+      small step to her left: the tail misses her face by a finger's width and smashes the wall behind, stone
+      exploding in faceted chunks. Her ponytail flies sideways in the wind of it.
+    calm: top
+    sfx:
+      - {text: "WHAAM", style: impact, at: [0.55, 0.30], size: XL, rot: -12}
+
+  - id: P23
+    recipe: name-card
+    shape: wide
+    gap: short
+    bg: white
+    camera: "half body, three-quarter, the healer staring across the corridor"
+    light: "key: green-dusk light from the left; dust in the air settling"
+    intro: "SONG YERIN (20) · E-RANK HEALER · FIRST RAID"
+    art: >
+      Yerin (song_yerin) flat against the cracked wall, eyes wide, staring across the corridor at Jaeha, who has
+      already gone back to his notebook. Dust and stone grit on her jacket. Leave the right third calm.
+    calm: right
+    lines:
+      - {who: song_yerin, type: speech, text: "HOW DID YOU KNOW IT WOULD DO THAT?", side: l}
+
+  - id: P24
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close, three-quarter, Jaeha with a polite smile"
+    light: "front-side green light; a flat pale gradient behind"
+    face: public
+    art: >
+      Jaeha (kang_jaeha, vest) gives her a small polite smile, pencil back behind his RIGHT ear.
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: speech, text: "JUST A LUCKY GUESS. ARE YOU ALL RIGHT?", side: r}
+      - {who: kang_jaeha, type: inner, text: "IT WASN'T A GUESS."}
+
+  - id: P25
+    kind: title
+    shape: full
+    gap: long
+    bg: black
+    title_card: "MY SUMMONS GO FIRST · CHAPTER 1 · BAIT"
+    notes: "Title card at panel 25 of 66 (38%), after the hook and the name cards."
+
+  # ================= LIVE BAIT (P26–P36) =================
+  - id: P26
+    recipe: establish
+    shape: tall
+    gap: long
+    bg: black
+    camera: "low, at the end of a long corridor, the party small before a giant iron door"
+    light: "key: a lamp above the door burning RED; green-dusk light behind the party"
+    art: >
+      The boss room door (location boss_room, door view): a tall riveted iron door in the fortress wall, with an
+      iron lamp bracket above it burning danger red. The red light spills across the floor stones. The party stops
+      in front of it, small in frame.
+    calm: top
+    sfx:
+      - {text: "HMMMMM", style: quiet, at: [0.50, 0.12], size: S, rot: 0}
+
+  - id: P27
+    recipe: name-card
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low angle on the raid leader, big in frame"
+    light: "key: red lamp light from above; a cold green rim on his shoulders"
+    intro: "MOK HANGYU (38) · BLACK HOUND GUILD RAID LEADER · B-RANK TANK"
+    art: >
+      Mok (mok_hangyu) turns to Jaeha with his camera smile, the red lamp light carving his heavy jaw. His tower
+      shield is on his arm now. Leave the left third calm for the name card.
+    calm: left
+    lines:
+      - {who: mok_hangyu, type: speech, text: "THE BOSS IN THERE ONLY WAKES FOR SOMETHING ALIVE. HUSKS DON'T COUNT.", side: r}
+
+  - id: P28
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "two-shot from the side, Mok's shield nudging Jaeha toward the door"
+    light: "red lamp light from the right; the party's shadows long behind them"
+    face: public
+    art: >
+      Mok (mok_hangyu) rests his shield edge against Jaeha's back (kang_jaeha, vest), pointing him at the door.
+      Two hunters (bh_sword, bh_mage) behind them exchange a look.
+    calm: top
+    lines:
+      - {who: mok_hangyu, type: speech, text: "SO YOU WALK IN, IT COMES FOR YOU, AND WE KILL IT FROM BEHIND.", side: l}
+      - {who: mok_hangyu, type: speech, text: "SUMMONS GO FIRST. THEN SUMMONERS.", side: l}
+
+  - id: P29
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close, Jaeha glancing up"
+    light: "red light from above on his face; a flat dark gradient behind"
+    face: public
+    art: >
+      Jaeha (kang_jaeha, vest) keeps his polite smile, but a sweat drop runs down his temple and his eyes have gone
+      up to the lamp.
+    calm: right
+    lines:
+      - {who: kang_jaeha, type: speech, text: "SIR, THAT LAMP ABOVE THE DOOR IS RED.", side: l}
+
+  - id: P30
+    recipe: insert
+    shape: strip
+    gap: short
+    bg: black
+    camera: "close on the lamp"
+    light: "the lamp is the only light"
+    art: >
+      The iron lamp above the door: an old cage of iron around a burning red glow, cracked glass, rust.
+    calm: none
+    lines:
+      - {who: offpanel:kang_jaeha, type: speech, text: "ON EVERY SURVEY I'VE SEEN, RED MEANS THE GRADE IS WRONG."}
+
+  - id: P31
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, Mok shoving Jaeha forward with the shield"
+    light: "red lamp light; Mok's face half in hard shadow"
+    art: >
+      Mok's camera smile drops: flat dead eyes. He shoves Jaeha (kang_jaeha, vest) toward the door with the edge
+      of his tower shield. Jaeha stumbles a step.
+    calm: top
+    lines:
+      - {who: mok_hangyu, type: speech, text: "THEN YOU'D BETTER RUN FAST.", side: l}
+    sfx:
+      - {text: "THUD", style: impact, at: [0.60, 0.70], size: M, rot: 0}
+
+  - id: P32
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up, Jaeha's eyes in profile, turned toward the door"
+    light: "red light across the eyes only"
+    face: private
+    art: >
+      Extreme close-up: Jaeha's narrowed eyes (kang_jaeha), the polite mask gone, measuring the door.
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: inner, text: "IF THEY CLOSE THAT DOOR, THERE'S ONE WAY OUT. THROUGH THE BOSS."}
+
+  - id: P33
+    recipe: monster-reveal
+    shape: tall
+    gap: long
+    bg: black
+    camera: "low from behind Jaeha in the doorway, the hall stretching away to a kneeling giant"
+    light: "back light: green-dusk shafts from a broken roof onto the far end; Jaeha a dark silhouette"
+    art: >
+      Through the open door (location boss_room): a vast pillared hall, green-dusk light falling in shafts from
+      a broken roof. At the far end kneels a giant armoured knight (knight_commander), head bowed, wrapped in
+      snapped chains whose broken ends trail from steel plates in the floor. Where his face should be there is a
+      dark hole leaking violet ash. A bronze sigil of a wall with nine towers shows on his chest plate.
+      Jaeha (kang_jaeha, vest) is small in the foreground, his back to us.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "GRRRNNK", style: quiet, at: [0.12, 0.80], size: M, rot: 0}
+
+  - id: P34
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close on a chain cuff at the knight's wrist"
+    light: "green-dusk light from above; cold hard highlights on the steel"
+    art: >
+      A heavy chain cuff on the knight's armoured wrist. The chain is modern factory steel: matte black, uniform
+      links, machined rivets, completely out of place against the old dented armour. One link is stamped with a
+      small mark (a shape, never letters). The last link is snapped open.
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: inner, text: "WHO PUTS A BOSS IN FACTORY CHAINS?"}
+    notes: "PLANT P34 (Arc 4)."
+
+  - id: P35
+    recipe: insert
+    shape: strip
+    gap: short
+    bg: black
+    camera: "low, close on Jaeha's boot stepping onto the hall floor"
+    light: "green-dusk light; his boot's hard shadow"
+    art: >
+      Jaeha's black work boot takes one step onto the dusty stone floor of the hall.
+    calm: none
+    sfx:
+      - {text: "TAK", style: quiet, at: [0.55, 0.45], size: M, rot: 0}
+
+  - id: P36
+    recipe: tone-flip
+    shape: strip
+    gap: black
+    bg: black
+    camera: "extreme close-up of the dark hole in the knight's helm"
+    light: "black and red only"
+    art: >
+      Extreme close-up: the dark hole in the knight's helm, its cracked rim leaking violet ash. Deep inside,
+      a light switches on: danger red, filling the hole.
+    calm: none
+    sfx:
+      - {text: "VMMM", style: alert, at: [0.80, 0.50], size: L, rot: 0}
+
+  # ================= THE AMBUSH FAILS (P37–P49) =================
+  - id: P37
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low and tilted, the knight rising to his full height"
+    light: "key: the red face-hole; green shafts behind"
+    art: >
+      The knight (knight_commander) rises to his full 4.5 m in one motion, snapped chains swinging, the long
+      sword dragging up off the floor. Jaeha is a tiny figure at the bottom of the frame. Faceted stone chips jump
+      off the floor around the knight's feet.
+    calm: top-left
+    sfx:
+      - {text: "KRRRSSH", style: impact, at: [0.28, 0.20], size: XL, rot: -10}
+
+  - id: P38
+    recipe: chorus
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high, the hunters charging in from the doorway along both sides of the hall"
+    light: "green shafts; the hunters' weapons catch the red light"
+    art: >
+      The Black Hound hunters (bh_spear, bh_axe, bh_sword, bh_mage) charge in along both sides of the hall, behind
+      the pillars, to flank the knight, as planned. Mok (mok_hangyu) stays at the door with his shield up.
+    calm: top
+    lines:
+      - {who: mok_hangyu, type: shout, text: "NOW! HIT IT FROM BEHIND WHILE IT'S BUSY!", side: l}
+    sfx:
+      - {text: "TATATAT", style: impact, at: [0.70, 0.75], size: M, rot: 6}
+
+  - id: P39
+    recipe: tone-flip
+    shape: tall
+    gap: short
+    bg: black
+    camera: "no figure: a tall panel of streaked dark speed texture"
+    light: "black and red only"
+    art: >
+      No figure. A tall panel of streaked dark speed lines with one red smear across the middle, the shape of a
+      huge sword's path. The letterer places a giant SFX here. The violence happens between panels.
+    calm: none
+    sfx:
+      - {text: "SHHRRRAAAANG", style: impact, at: [0.50, 0.50], size: XL, rot: -70}
+
+  - id: P40
+    recipe: aftermath
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, still, across the hall"
+    light: "low green-dusk light; dust hanging in the shafts"
+    art: >
+      Aftermath in silhouette: two hunters' dark shapes lie still beside a cracked pillar; a dark splash on the
+      pillar; a broken spear; a staff rolling to a stop, its small core cracked and dim. No gore. The knight's legs
+      stand in the dust in the background.
+    calm: top
+    lines:
+      - {who: offpanel:bh_crossbow, type: shout, text: "THIS THING ISN'T A C-GRADE BOSS AT ALL!"}
+    sfx:
+      - {text: "THUD", style: impact, at: [0.30, 0.80], size: M, rot: 0}
+
+  - id: P41
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from behind Mok's shield as the sword hits it"
+    light: "no scene light: a white flash at the contact point"
+    art: >
+      The long sword slams into Mok's tower shield (mok_hangyu). Sparks and a white burst at the contact point;
+      Mok skids back across the floor, boots gouging the stone, teeth gritted.
+    calm: top-right
+    sfx:
+      - {text: "KLANNNG", style: impact, at: [0.40, 0.30], size: XL, rot: -8}
+
+  - id: P42
+    recipe: eyes
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close, Jaeha behind a pillar, notebook open, eyes on the knight"
+    light: "green-dusk light from the left on half his face; the other half in shadow"
+    face: private
+    art: >
+      Jaeha (kang_jaeha, vest) crouched behind a pillar, notebook open, pencil moving, sweat on his face, eyes
+      narrowed and calculating as he watches the knight turn. A pillar edge cuts the left of the frame.
+    calm: right
+    lines:
+      - {who: kang_jaeha, type: inner, text: "IT'S SLOW TO TURN IN ALL THAT ARMOUR."}
+
+  - id: P43
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "high, the knight's sword sweeping across whatever stands in front of it"
+    light: "red face-light; green shafts"
+    art: >
+      High angle: the knight's sword sweeps flat through the space directly in front of him. A dropped round
+      buckler spins away. Nobody stands to his sides.
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: inner, text: "AND IT ALWAYS HITS WHATEVER IS IN FRONT OF IT."}
+
+  - id: P44
+    recipe: anticipation
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, the knight turning toward a frozen young healer in the open"
+    light: "red face-light falling on her"
+    art: >
+      Yerin (song_yerin) stands frozen in the open floor, hands locked on her bag strap. The knight's red
+      face-hole turns toward her, his sword drawing back.
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: shout, text: "GET OUT OF ITS WAY! DON'T STAND IN FRONT OF IT!", side: r}
+
+  - id: P45
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, tilted, Jaeha diving to drag her clear as the sword smashes the floor"
+    light: "no scene light: a hot orange field"
+    art: >
+      Jaeha (kang_jaeha, vest) dives out from the pillar, grabs Yerin's wrist and drags her behind it. The sword
+      smashes the floor where she stood: stone bursting up in faceted chunks, a crack racing across the floor.
+      Speed lines along Jaeha's body.
+    calm: top-left
+    sfx:
+      - {text: "KRAKOOOM", style: impact, at: [0.55, 0.62], size: XL, rot: 10}
+
+  - id: P46
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "close two-shot behind the pillar"
+    light: "red light leaking round the pillar edge; their faces in green shadow"
+    face: private
+    art: >
+      Behind the pillar: Jaeha (kang_jaeha, vest) holds Yerin's shoulder against the stone, low and calm. She is
+      shaking, eyes wide. A pillar edge fills the left of the frame.
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "STAY BEHIND ME AND KEEP YOUR BACK TO THE PILLAR.", side: r}
+      - {who: song_yerin, type: nervous, text: "I CAN'T FEEL MY LEGS. I CAN'T MOVE THEM.", side: l}
+
+  - id: P47
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "across the hall: Mok and two hunters backing toward the door"
+    light: "red lamp light from the doorway behind them"
+    art: >
+      Mok (mok_hangyu) and the two surviving hunters (bh_crossbow, bh_shield) back through the iron door,
+      shields up. Mok looks back over the hall with a cold, flat face.
+    calm: top
+    lines:
+      - {who: mok_hangyu, type: shout, text: "PULL BACK, ALL OF YOU! SHUT THAT DOOR!", side: l}
+      - {who: mok_hangyu, type: speech, text: "THE TRAP RAT WILL KEEP IT BUSY.", side: l}
+
+  - id: P48
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, the door slamming, the lamp above flaring"
+    light: "the red lamp flares; a thin line of light at the closing gap"
+    art: >
+      The iron door slams shut. Dust bursts from the frame. Above it, the red lamp flares and a heavy iron bolt
+      shoots across the outside of the door.
+    calm: top
+    sfx:
+      - {text: "KA-CHUNK", style: impact, at: [0.50, 0.40], size: XL, rot: 0}
+
+  - id: P49
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close, Yerin turning toward the sound"
+    light: "red light from the door on one side of her face"
+    art: >
+      Yerin (song_yerin) turns toward the slammed door, mouth open, the colour gone from her face.
+    calm: right
+    lines:
+      - {who: song_yerin, type: whisper, text: "THEY... THEY LOCKED US IN HERE WITH IT?", side: l}
+      - {who: kang_jaeha, type: inner, text: "OF COURSE THEY DID."}
+
+  # ================= THE LAST HUSK (P50–P60) =================
+  - id: P50
+    recipe: monster-reveal
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low from behind the pillar, the knight looming round it"
+    light: "back light: green shafts behind the knight; his face-hole red"
+    art: >
+      The knight (knight_commander) looms round the pillar, filling the frame, chains swinging, his red face-hole
+      looking down. The bronze nine-tower sigil on his chest catches the green light clearly. Jaeha and Yerin are small shapes at the bottom of the frame.
+    calm: top-left
+    sfx:
+      - {text: "DOOM", style: impact, at: [0.20, 0.30], size: L, rot: 0}
+      - {text: "DOOM", style: impact, at: [0.30, 0.48], size: M, rot: 0}
+
+  - id: P51
+    recipe: insert
+    shape: strip
+    gap: short
+    bg: black
+    camera: "close on Jaeha's open hand, trembling"
+    light: "a faint white glow in his palm; green shadow around it"
+    art: >
+      Jaeha's fingerless-gloved hand, open and trembling, a faint white glow flickering weakly in the palm.
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: inner, text: "I HAVE ONE HUSK LEFT IN ME TODAY. ONLY ONE."}
+
+  - id: P52
+    recipe: anticipation
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from beside Yerin, the knight's sword rising high over her"
+    light: "red face-light from above; the blade's edge catching it"
+    art: >
+      Yerin (song_yerin) has fallen to the floor in the open beside the pillar. The knight raises his long sword
+      high over her, both hands on the grip, chains hanging from his wrists.
+    calm: top
+    silent: true
+
+  - id: P53
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of Jaeha's eyes"
+    light: "light across the eyes only, red"
+    face: private
+    art: >
+      Extreme close-up: Jaeha's eyes (kang_jaeha), the decision made. No smile.
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: intense, text: "GO FIRST. ONE MORE TIME.", side: r}
+
+  - id: P54
+    recipe: summon-arrival
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low angle, the husk stepping out in front of Yerin"
+    light: "key: cyan light from the husk's cracks, lighting Yerin and Jaeha from below; the rest of the hall darker"
+    art: >
+      The husk (husk) steps out of a white seam and plants itself between Yerin and the knight, arms spread.
+      But this husk is wrong: hairline cracks run all over its white shell, glowing cyan, glitching at the edges
+      with offset red and blue fringes. The cyan light catches Jaeha's face behind it.
+    calm: top
+    sfx:
+      - {text: "VZZZT", style: summon, at: [0.75, 0.30], size: L, rot: 0}
+
+  - id: P55
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "the character facing the reader, lit cyan from the front"
+    light: "cyan front light on his face; the window area left empty and dark"
+    face: private
+    art: >
+      Jaeha (kang_jaeha, vest), lit cyan from the front, stares at something in the air in front of him. Leave
+      the upper half of the frame empty and dark for the window.
+    calm: top
+    ui:
+      - {kind: system.glitch, "on": float, at: [0.5, 0.08], text: "[OPERATOR CANDIDATE DETECTED]"}
+    sfx:
+      - {text: "D-DING", style: summon, at: [0.85, 0.20], size: M, rot: 0}
+
+  - id: P56
+    recipe: system
+    shape: tall
+    gap: short
+    bg: navy
+    camera: "two old windows stacked down the scroll, Jaeha's wide eyes below"
+    light: "cyan from the windows"
+    art: >
+      Jaeha's wide eyes at the bottom of the frame, cyan light on them. The upper two-thirds are empty and dark
+      for two windows.
+    calm: top
+    ui:
+      - {kind: system.glitch, "on": float, at: [0.5, 0.06], text: "[SENT FIRST: 312 TIMES]"}
+      - {kind: system.glitch, "on": float, at: [0.5, 0.36], text: "[LEFT SOMEONE BEHIND: 0 TIMES]"}
+    notes: "PLANT P56 (ch 100: Operator #1's record was the reverse)."
+
+  - id: P57
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "the husk's chest splitting with light, Jaeha behind it"
+    light: "cyan from the husk's chest"
+    art: >
+      The husk's chest is splitting along its glowing cracks like a door outline. Jaeha (kang_jaeha, vest) behind
+      it, confused. Leave the top third empty for the window.
+    calm: top
+    ui:
+      - {kind: system.glitch, "on": float, at: [0.5, 0.06], text: "[EMERGENCY CALL: 1 · THE HUSK WILL BE USED AS A DOOR]"}
+    lines:
+      - {who: kang_jaeha, type: speech, text: "A DOOR? WHAT KIND OF DOOR, AND TO WHERE?", side: r}
+
+  - id: P58
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, tilted, the sword coming down at the husk and Yerin"
+    light: "no scene light: a red field"
+    art: >
+      The knight's long sword comes down in a vertical strike at the husk and Yerin. Speed lines along the blade.
+      The husk stands firm, glowing.
+    calm: top-left
+    sfx:
+      - {text: "SHHHRAANG", style: impact, at: [0.30, 0.25], size: XL, rot: -75}
+
+  - id: P59
+    kind: caption
+    shape: strip
+    gap: black
+    bg: black
+    ui:
+      - {kind: system.glitch, "on": float, at: [0.5, 0.35], text: "[SOMEONE ANSWERED.]"}
+
+  # ================= THE ANSWER (P60–P63) =================
+  - id: P60
+    recipe: splash
+    shape: bleed
+    gap: none
+    bg: black
+    camera: "low, close to the floor, tilted 10 degrees; the blades meeting is the brightest point, about 40% from the top"
+    light: "key: cyan glow from the cracking shell, under-lighting the goblin's face; back light: red from the knight's face above, a thin red rim on his shoulders and along the blade"
+    art: >
+      The husk's white shell bursts outward in faceted shards. Out of it, crouched low: Nib (nib, mask; hood down),
+      a 105 cm goblin scout, an adult veteran, never cute. He has caught the knight's huge blade on two short knives
+      crossed above his head, an inch from Yerin's face; sparks burst where steel meets steel. The cracked white
+      upper-left piece of the husk's face still covers his left eye like a broken mask. Long red scarf whipping,
+      charcoal cloak with too many pockets, brass binoculars at his chest, bare feet braced on the stone. In the
+      foreground at the bottom left, cropped: Yerin on the floor in profile from below, eyes wide. Above, the
+      knight's gauntlet with a snapped modern chain cuff, and high above, the red face-hole.
+    calm: top-left
+    sfx:
+      - {text: "KRANNNG", style: impact, at: [0.25, 0.14], size: XL, rot: -12}
+
+  - id: P61
+    recipe: reaction
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of Yerin's eye, the blade's edge a finger away"
+    light: "red and cyan cross-light"
+    art: >
+      Extreme close-up: Yerin's wide eye and freckled cheek; the knight's blade edge hangs a finger's width away,
+      trembling against the crossed knives just out of frame.
+    calm: none
+    silent: true
+
+  - id: P62
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "over the goblin's shoulder: he looks back at Jaeha, the blade still held above him"
+    light: "cyan under-light on his face; red rim from above"
+    art: >
+      Nib (nib, mask) holds the blade above him one-handed now, the other knife still crossed, and looks back
+      over his shoulder at Jaeha with one amber eye under the cracked white mask. Deadpan, unbothered.
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "WHO'S IN CHARGE HERE?", side: l}
+
+  - id: P63
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close, Jaeha frozen, one finger half raised"
+    light: "cyan from below"
+    face: public
+    art: >
+      Jaeha (kang_jaeha, vest) on one knee behind the pillar, stunned, half raising one finger like a student
+      who isn't sure of the answer.
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: speech, text: "I THINK... IT'S ME?", side: r}
+
+  - id: END
+    kind: end
+    chibi_gag: "Chibi Nib holds a door open with one hand and gestures 'you first' with the other; chibi Jaeha, sweating, sends the chibi husk through first."
