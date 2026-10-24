@@ -1,16 +1,15 @@
-# STYLE CHECK BRIEF (job 1, part 1): two panels in V2, then Jaeha's and Nib's sheets
+# STYLE CHECK BRIEF (chat C1): two panels in V2
 
 **Goal.** The style is chosen: V2 · Cinematic cel. Before the character sheets, check that the V2 STYLE BLOCK works in real scenes.
 - Draw these two panels in V2 and write an honest report.
-- Then go straight on to `MODEL_SHEETS_BRIEF.md` step 1 (Jaeha and Nib).
-- The owner sees only the finished sheets.
+- This is chat C1. Other chats draw the character sheets and location keys at the same time, so touch only `style_test_v2/`.
+- Claude reads your report and adjusts the other chats if the style needs fixing.
 
 **Read first:**
 - `README_START_HERE.md`;
 - `MANHWA_STYLE_GUIDE.md` (the whole file);
 - `CHARACTER_DESIGNS_v2.md` sections 2.1, 2.2, 2.3, 3, 4.2 and 5;
-- `MANHWA_ART_DIRECTION.md` (the `splash` recipe; T1 is a medium shot that leaves room for a name card);
-- `MODEL_SHEETS_BRIEF.md` (your next step).
+- `MANHWA_ART_DIRECTION.md` (the `splash` recipe; T1 is a medium shot that leaves room for a name card).
 
 **Rules for this check:**
 - **No reference images.** The new cast has no sheets yet. Never attach the old sheets (Taeo, the old Nib), old chapter panels, or any real webtoon image.
@@ -102,8 +101,6 @@ There are two images: T1 and T2, both in V2. Each prompt is, in this order:
 - which locks failed (ear notch, fang side, fringe side, and so on);
 - anything in the V2 STYLE BLOCK you think should change, and why. Do not change the block yourself.
 
-## Then
+## Then STOP
 
-- **If both panels pass,** go straight on to `MODEL_SHEETS_BRIEF.md` step 1: Jaeha's and Nib's sheets. Stop after `characters_v2/READY_JAEHA_NIB.md`.
-- **If either panel still fails check 2, 3 or 11 after 3 tries** (it looks glossy, rendered or flat-lit), do not start the sheets. Write what failed in `REPORT.md` and stop.
-- Do not start other characters, location keys or chapter panels.
+When both panels and the report exist, stop. If a panel still fails check 2, 3 or 11 after 3 tries (it looks glossy, rendered or flat-lit), say so at the top of `REPORT.md`.

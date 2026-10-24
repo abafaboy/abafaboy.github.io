@@ -14,7 +14,7 @@
 | 3 | `MANHWA_STYLE_GUIDE.md` | **The look:** line, light, colour, effects, the V2 style block, the image check |
 | 4 | `MANHWA_ART_DIRECTION.md` | **Staging:** panel recipes, action grammar, colour flips, summon colours |
 | 5 | `CHARACTER_DESIGNS_v2.md` | **Who looks like what:** cast, monsters, locations, props, all approved by the owner. |
-| 6 | `STYLE_TEST_BRIEF.md`, then `MODEL_SHEETS_BRIEF.md` | **Your first job:** a two-panel V2 check, then Jaeha's and Nib's sheets |
+| 6 | `STYLE_TEST_BRIEF.md`, `MODEL_SHEETS_BRIEF.md` or `LOCATION_KEYS_BRIEF.md` | **Your job:** the entry your chat was given |
 
 **Reference, when you need it:**
 - `research/RENDERING_STUDY.md`: what real webtoons do, panel by panel.
@@ -35,20 +35,14 @@
 
 ## The job queue
 
-Each job starts only when its brief exists or the owner says go (Claude will add it).
-1. **The V2 check and the first sheets.**
-   - Draw two check panels in V2 (`STYLE_TEST_BRIEF.md`).
-   - If they pass, draw Jaeha's and Nib's sheets (`MODEL_SHEETS_BRIEF.md` step 1).
-   - Then STOP. The owner sees the finished sheets.
-2. **The rest of the model sheets** (`MODEL_SHEETS_BRIEF.md` step 2), after the owner's OK on Jaeha and Nib.
-   - They go in V2, in a NEW folder `characters_v2/<id>/`, never in the old `characters/`.
-   - Each character gets a turnaround, an expressions sheet and a details sheet; Jaeha, Nib, Yerin, Seoa and Bomi also get a chibi sheet.
-   - **Order:** Jaeha, Nib, Yerin, Mok, the six Black Hound hunters, the husk, the hushed knight-commander, stone lizards, Seoa, Bomi, Choi, then Jaeha's black coat, Kett, and the seven summon silhouettes. `MODEL_SHEETS_BRIEF.md` has the details.
-   - **Then:** `characters_v2/scale_chart_v2.png`.
-3. **Location keys** in `locations_v2/`:
-   - first the Gate 0912 site, the ruined fortress, the boss room and the rooftop room;
-   - then Gwanghwamun (the chapter 1 flash-forward), the Ninth Wall (the chapter 3 flashback), the gate exit, the memorial hall and the Kanghan monitoring room.
-4. **Chapter panels.** Only after the owner approves the new chapter 1 script. A v2 panel brief comes with it.
+Claude opens the Codex chats on the owner's computer and checks every result. Each chat does one entry and writes only in its own folders.
+
+1. **Now, in parallel chats:**
+   - **C1:** two V2 check panels (`STYLE_TEST_BRIEF.md`);
+   - **S1–S12:** the model sheets, one chat per character (`MODEL_SHEETS_BRIEF.md`), in a NEW folder `characters_v2/`, never in the old `characters/`;
+   - **L1–L5:** the location keys (`LOCATION_KEYS_BRIEF.md`), in `locations_v2/`.
+2. **Last:** S13, the scale chart, once S1–S11 are done.
+3. **Chapter panels:** only after the owner approves the new chapter 1 script. A v2 panel brief comes with it.
 
 ## Hard rules for every job
 - **No text in the art,** except the single block letter T on Jaeha's vest patch. Emblems without letters are fine; brand logos and wordmarks are not. The letterer adds every word, sound effect and window. Screens that need content are flat #00FF00.
