@@ -249,7 +249,7 @@ The architecture of each place is described in `CHARACTER_DESIGNS_v2.md` section
 ## 10. Prompt kit
 
 **Order of every image prompt:**
-1. the V2 STYLE BLOCK (10.1);
+1. the V2 STYLE BLOCK (10.1), followed by the CLEAN-UP LINE (10.4);
 2. the recipe line: shape, camera, key light and calm zone (10.2);
 3. the scene: who, where, the action, the acting;
 4. the prompt snippet of every character in the panel (`CHARACTER_DESIGNS_v2.md` section 8), word for word. Where the scene changes something (a prop in a hand, a hood up, a different outfit), the scene wins: drop or change the clashing words;
@@ -294,7 +294,12 @@ Pass the model sheet of every character in the panel as a reference image, once 
 ### 10.3 NEGATIVE BLOCK (paste exactly, every prompt)
 > No text, letters, numbers, speech bubbles, captions, sound-effect lettering, interface windows or readable signs. Emblems without letters are fine; no brand logos or wordmarks. Not a 3D render, not a photograph, no photographic background. No airbrushed skin, no plastic gloss on skin or hair, no haze or bloom over the whole image, no depth-of-field blur, no lens flare unless a real camera flash is in the scene. No watermark or signature. Correct hands with five fingers. No chibi proportions unless the brief says chibi.
 
+### 10.4 CLEAN-UP LINE (paste right after the STYLE BLOCK, every prompt, from 25 October)
+> Hand-made webtoon colouring: each garment has only a few large, opaque, clean-edged shadow shapes, placed in its real folds; no scattered translucent streaks, zigzag shards or crumpled-foil folds. Worn cloth shows a few small frayed notches and loose threads, never sawtooth edges along every edge. Plain shoes and clothes with no logos, stripes or brand marks. Every strap, buckle, pocket and seam is attached and has a purpose; no stray stitch marks. Matte skin, hair and stone; no 3D, low-poly or plastic look.
+
 ## 11. Check every image before you accept it
+
+**From 25 October, the owner's order: be strict.** An image that looks AI-made, or has any weird detail, is a reject even when the locks are right. Run 11b on every image as well as the list below.
 
 Redo it (up to 3 tries) if any answer is no:
 1. Can you point to the key light, and does it match the location key? (In `splash` and `impact` panels, the effect or the colour field is the key.)
@@ -308,6 +313,19 @@ Redo it (up to 3 tries) if any answer is no:
 9. Is the calm zone empty and simple?
 10. No text, except the T on Jaeha's vest patch when Jaeha is in the image (his snippet asks for it; nobody else ever wears a letter). Correct anatomy (count fingers, check joints). Nobody cute who shouldn't be.
 11. Does it look drawn, not rendered? Check for: ink lines, hard shadow edges, no plastic skin, no haze.
+
+### 11b. The strict checks: no AI look, no weird details
+
+Reject the image if any of these show. Look at it full size, then at 200 px wide.
+1. **Shard shading.** Shadows broken into many small translucent streaks, zigzags or triangles. A webtoon colourist puts a few large opaque shapes per garment: under the collar and chin, under the arms, along the side away from the light, under pocket flaps and straps, and in the 3–6 folds the garment really has (elbows, waist, where a strap pulls).
+2. **Sawtooth wear.** Every edge cut into jagged teeth, or cloth shredded into strips. Worn cloth gets a few small notches and loose threads in two or three places; a scorched hem is uneven and darkened, not shredded.
+3. **Brand marks.** A swoosh, three stripes, a checkmark, a wordmark, or a famous branded shoe or bag shape. Shoes are plain.
+4. **Nonsense gear.** A strap that starts or ends nowhere, a buckle with no strap, a pocket on top of a pocket, a duplicated prop, stitch or staple marks scattered over cloth, a ring or tag hanging for no reason. Every strap, buckle, pocket and seam has a job.
+5. **Template faces.** A generic pretty face that ignores the design. Check the face line by line against the design text: skull, brow, nose, mouth, jaw, eyes.
+6. **3D or plastic look.** Glossy skin or hair, airbrushed gradients, bevelled low-poly shapes, a CG sheen on cloth, stone or skin.
+7. **Anatomy.** Count the fingers and toes; check every joint bends the right way; eyes level; limbs the same length in every view.
+8. **Background.** Sheets: flat #E9E9EC only, no vignette, gradient or texture, and no shadow pool larger than a soft contact shadow under the feet.
+9. **Modesty.** Kang Seoa is 15: her skirt reaches the top of her knee, and nothing in her images is styled to show skin. Adults wear exactly the design's clothes.
 
 ## 12. Ours against real, in one line each
 

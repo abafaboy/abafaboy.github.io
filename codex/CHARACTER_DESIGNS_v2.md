@@ -6,6 +6,17 @@
 
 **Approved.** The owner approved all 15 of Claude's design proposals (section 7) on 25 October. Everything in this file is now the design to draw.
 
+**Clarified the same day,** after Claude's strict review of the first model sheets (`REVIEW_FIXES.md`):
+- Nib's goblin face and his belted, sleeveless cloak;
+- Kett's goblin face;
+- plain shoes for Yerin and Bomi, and Bomi's 90 cm bow;
+- Seoa's knee-length skirt and unlit keychain;
+- the husk's simplified mannequin body;
+- the lizards' heads, hides and teeth;
+- the knight's plain helm and sigil badge;
+- Maud is a woman;
+- the gate opens in the pit's far wall.
+
 **Colours** are given as base / shadow hex codes for the flat colour and the one hard cel shadow.
 
 ---
@@ -44,7 +55,7 @@ Make `characters_v2/scale_chart_v2.png` with all of them standing in a row, afte
 | **Hair** | Messy near-black #1F1E26 with navy-grey shine bands #46506A. Medium length; a long fringe falls over his **LEFT eye**. |
 | **Skin** | #EFD0BE / #D2A49A (a night-shift pallor) |
 | **Grey hoodie** | Heather grey #8E9198 / #6B6E77, hood down, worn under the vest |
-| **Trap-tester vest** | Safety orange #F26A1B / #C14F12. Two silver-grey reflective stripes (#D5D9DD / #A9AEB4) around the torso; two chest pockets and two flapped hip pockets; frayed edges. A large white square patch with a black block-letter **T** on the back, and a small one on the right chest. The T is the only glyph allowed in his art. |
+| **Trap-tester vest** | Safety orange #F26A1B / #C14F12. Two silver-grey reflective stripes (#D5D9DD / #A9AEB4) around the torso; two chest pockets and two flapped hip pockets; worn edges with a few small frayed notches and loose threads at the hem corners (never sawtooth all round). A large white square patch with a black block-letter **T** on the back, and a small one on the right chest. The T is the only glyph allowed in his art. |
 | **Gloves** | Fingerless, black #27272B with grey knuckle pads #55565C |
 | **Trousers and boots** | Dark navy cargo work trousers #2A3142 / #1D2230 with grey knee patches; black steel-toe work boots #1F1F22 with grey soles |
 | **The notebook (lock)** | Battered black #1C1C20 with greyed corners #4A4A50, an elastic band and yellowed page edges #E9DFC5. It sticks out of his **left** chest pocket. |
@@ -84,7 +95,7 @@ Make `characters_v2/scale_chart_v2.png` with all of them standing in a row, afte
 | **Eyes** | Amber-yellow #F2A93B with small round black pupils and heavy, lined lower lids (weathered) |
 | **Hair** | Shaggy black #1C1D21, seen when the hood is down |
 | **Skin** | Grey-green #7D8A6C / #5B6650. Faint pale scars on both forearms #A9B39A. |
-| **Cloak** | Charcoal #3B3C42 / #27282D, hooded, knee-length, with a frayed, scorched hem. It is covered in small pockets, pouches and loops (the "too many pockets" gag). A plain dark-iron clasp at the throat. **Hood down by default**, so his ears show; up only when the script says. |
+| **Cloak** | Charcoal #3B3C42 / #27282D, hooded, knee-length, with a frayed, scorched hem (a few notches and darkened patches, never shredded strips). He wears it belted at the waist like a scout's coat, with no sleeves: wide armholes let his long bare arms swing free. It is covered in small pockets, pouches and loops sewn onto the cloak (the "too many pockets" gag). A plain dark-iron clasp at the throat. **Hood down by default**, so his ears show; up only when the script says. |
 | **Scarf** | Red #B4262F / #7F1A21, long, wrapped twice round the neck, the ends trailing. Use the ends to show wind and motion. |
 | **Knives (lock)** | Two short knives in crossed sheaths at the small of his back, handles up, so he can draw both at once. Dark steel blades #8A9098 with a bright edge #D0D5DA; leather-wrapped grips #5A3E2B. |
 | **Binoculars (lock)** | Compact dented brass binoculars #B48F55 / #8A6A3C on a leather strap round his neck, resting on his chest |
@@ -128,7 +139,7 @@ Chapters 20, 55 and 88 are designed later.
 | **Skin** | #F3D6C4 / #D6A79C |
 | **Jacket** | Oversized healer's jacket, off-white #ECEEEE / #C9CDD0, with mint-green trim #5FC2A8 and a plain mint cross on the left sleeve. The sleeves come past her wrists. |
 | **Bag** | A pink first-aid bag #F09AAE / #C97488 on a cross-body strap, with a white cross on the flap |
-| **Below** | Black leggings #232328, white sneakers |
+| **Below** | Black leggings #232328; plain white low-top canvas sneakers with white soles, no logo or side panel |
 | **Healing light** | Soft mint-white #BFF2E4. Never the Operator cyan. |
 | **Name-card background** | Gradient, rose #E9A6B3 to cream #F6EADF |
 
@@ -172,8 +183,8 @@ Deaths happen between panels, in silhouette and splashes (style guide section 9)
 | | |
 |---|---|
 | **Look** | 158 cm. A short black bob with a straight fringe #1E1D24, round thin-framed glasses, sharp eyebrows. |
-| **School uniform** | Navy blazer #22294A, white shirt, a dark red tie, a grey plaid skirt, navy socks |
-| **Lock** | A small calculator keychain on her bag |
+| **School uniform** | Navy blazer #22294A, white shirt, a dark red tie, a grey plaid pleated skirt that reaches the top of her knee, navy socks |
+| **Lock** | A small calculator keychain on her bag, with an unlit grey screen |
 | **Acting** | Arms crossed; a withering look; furious and crying at once in chapter 5 |
 | **Name-card background** | Gradient, mustard #C9A43A to cream |
 
@@ -182,7 +193,7 @@ Deaths happen between panels, in silhouette and splashes (style guide section 9)
 | | |
 |---|---|
 | **Look** | 163 cm. A high ponytail, black with bleached-blonde ends; a big grin. |
-| **Clothes and gear** | A neon-yellow jacket #E6F01E / #B7C010 over a black top; a compact bow she rarely hits anything with |
+| **Clothes and gear** | A neon-yellow jacket #E6F01E / #B7C010 over a black top; plain black trainers with grey soles, no stripes or logo; a compact recurve bow, about 90 cm, that she rarely hits anything with |
 | **Lock** | A white camera drone with a red recording light, always near her |
 | **Acting** | Talks to the drone and points; overreacts |
 | **Name-card background** | Gradient, hot pink #E8458B to deep blue #2A3A8C |
@@ -205,9 +216,9 @@ In the chapter 1 flash-forward, all seven summons stand behind Jaeha as black si
 | **Borro**, stoneback carrier | ch 10 | 2.4 m, slow-eyed, slate-grey skin, a shell of stacked slate plates with moss and tiny flowers, a door-sized iron shield. Signature colour: moss green. |
 | **Lyra**, river archer | ch 18 | Tall, blue-grey skin with silver freckles, a long braid strung with river beads, a white longbow, a flute at her belt. Signature colours: river blue and silver. |
 | **Pim**, moth-folk signal keeper | ch 36 | 1.4 m of fluffy cream fur, huge black eyes, feathery antennae, soft wings folded like a cape, a PC-bang headset. Signature colours: moon cream and lilac. |
-| **Maud**, field surgeon | ch 48 | 1.9 m and broad, a burn-scarred face, cropped white hair, surgeon's plate over stitched leather aprons, a bone saw and a needle case. Signature colours: bone white and oxblood. |
+| **Maud**, field surgeon | ch 48 | A woman, 1.9 m and broad, a burn-scarred face, cropped white hair, surgeon's plate over stitched leather aprons, a bone saw and a needle case. Signature colours: bone white and oxblood. |
 | **Caldric**, the Bell General | ch 68 | 2.1 m, cracked bronze armour shaped like a great bell, a bell-headed mace whose every hit rings |
-| **Kett**, young goblin scout | ch 88 (and the chapter 3 flashback) | Nib's apprentice; talks too much. About 95 cm, slighter than Nib, smoother grey-green skin, long ears with no notch, an oversized hand-me-down charcoal scout cloak, one short knife, a mustard-yellow scarf #D9A62E, an eager open face. A young soldier, never a mascot. |
+| **Kett**, young goblin scout | ch 88 (and the chapter 3 flashback) | Nib's apprentice; talks too much. About 95 cm, slighter than Nib, smoother grey-green skin, a goblin face like Nib's but young (a pointed nose, shorter and straighter than Nib's; a narrow pointed chin; an angular skull), long ears with no notch, an oversized hand-me-down charcoal scout cloak, one short knife, a mustard-yellow scarf #D9A62E, an eager open face. A young soldier, never a mascot. |
 | **Moon Ahin**, "the Puppeteer" | ch 12 | 22, a white coat, a silver hair ribbon, a conductor's baton. Her 40 husks are flawless and polished. |
 | **Director Baek Taegun** | ch 5 (silhouette), ch 12 | 54, a grey suit, silver glasses, a cane with a core in the handle. Name card (ch 12): gradient, black #0E0E10 to smoky violet #4A3A66. |
 | **Auntie Geum Okran** | ch 33 | 62, an apron over a tracksuit, one prosthetic arm, a ladle she fights with |
@@ -220,7 +231,7 @@ In the chapter 1 flash-forward, all seven summons stand behind Jaeha as black si
 | | |
 |---|---|
 | **What it is** | A normal summoner's summon: a faceless white doll, 175 cm |
-| **Look** | Smooth matte white #E8E6E1 / #C4C1BA, with thin grey seam lines #9C9890 at the shoulders, elbows, hips and knees, like a mannequin. An oval face with no features. No clothes. It walks stiffly with its arms hanging. |
+| **Look** | Smooth matte white #E8E6E1 / #C4C1BA, with thin grey seam lines #9C9890 at the shoulders, elbows, hips and knees, like a jointed mannequin: the hip seams are rings round the top of each thigh. Smooth, simplified forms with no navel, cleft or muscle lines; simple feet. An oval face with no features. No clothes. It walks stiffly with its arms hanging. |
 | **When hit** | It cracks like eggshell and falls apart into white shards and powder. No blood. |
 | **Jaeha's last husk (chapter 1)** | It glows "the wrong colour": hairline cracks fill with cyan light #3FE3F2, glitching at the edges with offset red and blue fringes. Then the shell bursts open from inside, and Nib is there. |
 | **Moon Ahin's husks** (later) | Flawless and slightly polished, with elegant proportions; they move in unison |
@@ -230,9 +241,9 @@ In the chapter 1 flash-forward, all seven summons stand behind Jaeha as black si
 ### 4.1 Stone lizards (chapter 1)
 | | |
 |---|---|
-| **Size and body** | 1.5 m long with the tail, 60 cm at the shoulder. Squat and heavy-legged, with a club tail. |
-| **Hide** | Slate-grey stone plates #5E646B / #3F444A with dark cracks, in rough dry-brush texture |
-| **Mouth and eyes** | Blunt grinding teeth; small dull yellow eyes |
+| **Size and body** | 1.5 m long with the tail, 60 cm at the shoulder. Squat and heavy-legged, with a club tail. A low, long, heavy head and jaw, like a crocodile crossed with a tortoise. |
+| **Hide** | Slate-grey stone plates #5E646B / #3F444A: irregular hand-inked slabs with chipped edges and dark cracks, in rough dry-brush texture. Never bevelled or low-poly. |
+| **Mouth and eyes** | Blunt, worn, uneven grinding teeth, grey-yellow and chipped (never neat like human teeth); small dull yellow eyes under a heavy brow plate |
 | **The tell** | The **LEFT eye is milky white and blind** on every lizard, so Jaeha's note "Blind on the left" can be seen |
 | **Behaviour** | A tail sweep after the third bite. They hunt in threes. |
 
@@ -245,8 +256,8 @@ In the chapter 1 flash-forward, all seven summons stand behind Jaeha as black si
 | **Size** | 4.5 m standing, about 3 m kneeling |
 | **Armour** | Dark iron plate #3A3D45 / #24262C with tarnished bronze trim #8A6A3A, dented and battered. The **left pauldron is cracked and loose**, so it dips before every sweep: the tell in chapter 2. |
 | **Cloak** | A torn, faded wall-blue cloak #2F4A6E hanging from the shoulders |
-| **The sigil (lock)** | **The Ninth Wall sigil on the chest:** a wall with nine towers, embossed in bronze. It must be visible from chapter 1, because Nib recognises it in chapter 2. |
-| **Face** | A closed great helm whose face opening is a black-violet hole #1A1026 with cracked edges leaking violet ash #6B4C9A. It glows danger red #E0322B when the script says he is hostile. In chapter 4 a red crack appears in the rim: the weak point. |
+| **The sigil (lock)** | **The Ninth Wall sigil on the chest:** a wall with nine round towers, embossed in bronze as one badge on the breastplate, with the towers countable. It must be visible from chapter 1, because Nib recognises it in chapter 2. |
+| **Face** | A plain closed great helm, flat-topped or slightly domed, with no battlements on it, in proportion with the body (about a seventh of his height). The whole face of the helm is a black-violet hole #1A1026 with cracked edges leaking violet ash #6B4C9A. It glows danger red #E0322B when the script says he is hostile. In chapter 4 a red crack appears in the rim: the weak point. |
 | **Chains** | Heavy manacles on the wrists, ankles and neck. The links are snapped, and the broken ends still trail from steel anchor plates in the floor, so he is free to move. They are **modern industrial steel**: matte black, uniform links, machined rivets, out of place next to the old armour. One link carries a stamped mark (a shape, never letters). This plants Kanghan's kept gates for Arc 4. |
 | **Weapon** | The Ninth Wall blade (section 6) |
 | **Released (chapter 4)** | For one panel, a real face: an old soldier's, scarred and grey-bearded. Then ash. |
@@ -259,7 +270,7 @@ Colour keys are in `MANHWA_STYLE_GUIDE.md` table 5.3.
 
 | Location | Chapters | Design |
 |---|---|---|
-| **Gate 0912 site: a subway construction pit** | 1, 4 | A cut-and-cover subway dig in a Seoul street at night. A deep rectangular pit lined with steel piles and timber boards; scaffold stairs; white LED floodlights on poles; yellow-and-black hazard barriers; blue tarps; puddles. The gate is a door-height black-violet slit with a cold white-cyan rim, standing at the bottom of the pit between the steel struts. A Hunter Association checkpoint tent with tape, and Black Hound's black van with the red hound. |
+| **Gate 0912 site: a subway construction pit** | 1, 4 | A cut-and-cover subway dig in a Seoul street at night. A deep rectangular pit lined with steel piles and timber boards; scaffold stairs; white LED floodlights on poles; yellow-and-black hazard barriers; blue tarps; puddles. The gate is a door-height black-violet slit with a cold white-cyan rim, opening in the pit's far wall at the bottom, between the steel struts. A Hunter Association checkpoint tent with tape, and Black Hound's black van with the red hound. |
 | **Inside Gate 0912: the ruined fortress** | 1–4 | A broken piece of a Far Side fortress: pale grey-gold limestone blocks #B9AD8F, collapsed arches, arrow slits, fallen towers. A sickly green-dusk sky through the cracks. Old pressure plates in the floor (square stones with an engraved border), spike holes in the walls and a portcullis (all used in chapter 3). Corridors scratched by lizard claws. |
 | **The boss room** | 1–4 | A tall iron door with a lamp above it that burns red (dungeon lamps burn white-blue; red means the boss is above the gate's grade). Inside: a vast pillared hall with a broken roof and green-dusk light falling in shafts. The knight kneels at the far end in snapped chains, free to move, the broken ends trailing from the floor anchors. Pressure plates across the floor. |
 | **The gate exit at night** | 4 | The same street with Gate Rescue Corps vehicles, red and blue strobes, wet asphalt and gold foil blankets. A giant billboard across the street is a flat #00FF00 screen (the letterer adds the press conference). |
@@ -322,30 +333,30 @@ Use the snippet of every character in the panel, word for word, so the descripti
 > Kang Jaeha: a lean 24-year-old Korean man, 178 cm; narrow oval face, defined cheekbones, straight nose, heavy upper eyelids with faint tired lines, dark brown eyes; messy near-black hair with navy-grey shine, a long fringe over his LEFT eye; a yellow pencil behind his RIGHT ear; a heather-grey hoodie under a frayed safety-orange trap-tester vest with two silver reflective stripes and a small white patch with a black block letter T on the right chest (this T is the only letter allowed anywhere in the image); a battered black notebook in the left chest pocket; black fingerless gloves; dark navy cargo work trousers; black work boots.
 
 **Nib**
-> Nib: an adult goblin scout and veteran soldier, 105 cm, wiry and long-limbed with long bony hands; grey-green skin; a narrow angular head, long pointed ears swept back with a V-notch near the tip of the LEFT ear; a long slightly hooked nose; one small lower fang on the left; amber-yellow eyes with heavy lined lower lids; shaggy black hair; a knee-length charcoal hooded cloak (hood down) covered in small pockets, a long red scarf wrapped twice round his neck, compact brass binoculars on a strap at his chest, two short knives in crossed sheaths at the small of his back, bare feet. Deadpan, never cute.
+> Nib: an adult goblin scout and veteran soldier, 105 cm, wiry and long-limbed with long bony hands; grey-green skin; a narrow angular head with a heavy brow ridge, hollow cheeks and a narrow pointed chin, long pointed ears swept back with a V-notch near the tip of the LEFT ear; a long pointed nose with a slight hook that sticks out clearly in profile; a thin, wide mouth with one small lower fang on the left; amber-yellow eyes with heavy lined lower lids; shaggy black hair; a knee-length charcoal hooded cloak (hood down), belted at the waist, sleeveless with wide armholes, small pockets sewn onto it and a frayed, scorched hem; a long red scarf wrapped twice round his neck, compact brass binoculars on a strap at his chest, two short knives in crossed sheaths at the small of his back, bare feet. Deadpan, never cute.
 > *Add in public and in chapter 1:* the cracked white upper-left piece of a featureless doll face covers his left eye like a broken mask.
 
 **Song Yerin**
-> Song Yerin: a small freckled 20-year-old Korean woman, 155 cm; a round face, large worried dark-brown eyes, dark brown hair in a low loose ponytail with wispy bangs; an oversized off-white healer's jacket with mint-green trim and a plain mint cross on the left sleeve, sleeves past her wrists; a pink first-aid bag with a white cross on a cross-body strap; black leggings; white sneakers.
+> Song Yerin: a small freckled 20-year-old Korean woman, 155 cm; a round face, large worried dark-brown eyes, dark brown hair in a low loose ponytail with wispy bangs; an oversized off-white healer's jacket with mint-green trim and a plain mint cross on the left sleeve, sleeves past her wrists; a pink first-aid bag with a white cross on a cross-body strap; black leggings; plain white canvas sneakers with no logo.
 
 **Mok Hangyu**
 > Mok Hangyu: a big, broad 38-year-old Korean man, 190 cm, thick neck; a square face, heavy stubbled jaw, small hard eyes; slicked-back near-black hair with an undercut; a black guild jacket with a red hound's-head emblem small on the left chest and large on the back; a gold chain over a black T-shirt; black tactical trousers; heavy boots; a black steel tower shield with the red hound's head; a short broad sword at his hip.
 
 **Kang Seoa**
-> Kang Seoa: a 15-year-old Korean girl, 158 cm; a short black bob with a straight fringe, round thin-framed glasses, sharp eyebrows; a navy school blazer, white shirt, dark red tie, grey plaid skirt and navy socks; a small calculator keychain on her school bag.
+> Kang Seoa: a 15-year-old Korean girl, 158 cm; a short black bob with a straight fringe, round thin-framed glasses, sharp eyebrows; a navy school blazer, white shirt, dark red tie, a grey plaid pleated skirt that reaches the top of her knee, and navy socks; a small calculator keychain with an unlit grey screen on her school bag.
 
 **Yoo Bomi**
-> Yoo Bomi: a 21-year-old Korean woman, 163 cm, with a big grin; a high ponytail, black with bleached-blonde ends; a neon-yellow jacket over a black top; a compact bow; a small white camera drone with a red recording light hovering near her.
+> Yoo Bomi: a 21-year-old Korean woman, 163 cm, with a big grin; a high ponytail, black with bleached-blonde ends; a neon-yellow jacket over a black top; plain black trainers with no stripes or logo; a compact recurve bow about 90 cm long; a small white camera drone with a red recording light hovering near her.
 
 **Choi Dongmin**
 > Choi Dongmin: a 34-year-old Korean man, 175 cm; messy hair, stubble, deep permanent eye bags, a tired smirk; a navy rescue jacket with hi-vis yellow-green panels and silver reflective stripes; a paper coffee cup in his hand.
 
 **A husk**
-> A husk: a 175 cm faceless white doll like a smooth matte mannequin, with thin grey seam lines at the shoulders, elbows, hips and knees, an oval face with no features, no clothes, standing stiffly with its arms hanging.
+> A husk: a 175 cm faceless white doll like a smooth matte jointed mannequin, with thin grey seam lines at the shoulders, elbows and knees and rings round the top of each thigh; smooth simplified forms with no navel or muscle lines; an oval face with no features, no clothes, standing stiffly with its arms hanging.
 
 **The hushed knight-commander**
-> The hushed knight-commander: a giant armoured knight, 4.5 m tall (3 m kneeling), in battered dark iron plate armour with tarnished bronze trim; the left shoulder plate cracked and loose; a torn, faded blue cloak; a bronze emblem of a wall with nine towers on the chest; a closed great helm whose face opening is a black-violet hole with cracked edges leaking violet ash; heavy modern matte-black steel manacles with snapped chains on the wrists, ankles and neck; a long straight sword, 2.2 m, with a bronze crossguard shaped like a fortress wall with nine small towers.
+> The hushed knight-commander: a giant armoured knight, 4.5 m tall (3 m kneeling), in battered dark iron plate armour with tarnished bronze trim; the left shoulder plate cracked and loose; a torn, faded blue cloak; a bronze badge of a wall with nine round towers embossed on the breastplate; a plain closed great helm, in proportion with the body, whose whole face is a black-violet hole with cracked edges leaking violet ash; heavy modern matte-black steel manacles with snapped chains on the wrists, ankles and neck; a long straight sword, 2.2 m, with a bronze crossguard shaped like a fortress wall with nine small towers.
 > *Add when the scene says he is hostile:* the hole in his helm glows red.
 
 **Stone lizards**
-> Stone lizards: squat, heavy-legged lizards 1.5 m long with club tails; hides of slate-grey stone plates with dark cracks in rough dry-brush texture; blunt grinding teeth; small dull yellow eyes, except the LEFT eye of every lizard, which is milky white and blind.
+> Stone lizards: squat, heavy-legged lizards 1.5 m long with club tails and low, long, heavy heads like a crocodile crossed with a tortoise; hides of irregular hand-inked slate-grey stone slabs with chipped edges and dark cracks in rough dry-brush texture; blunt, worn, uneven grinding teeth; small dull yellow eyes under a heavy brow plate, except the LEFT eye of every lizard, which is milky white and blind.
