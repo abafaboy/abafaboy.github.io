@@ -1,6 +1,8 @@
 # My Summons Go First, Part One: chapter beats 1–100
 
-Canon is defined in `STORY_BIBLE.md`.
+> **RETIRED on 25 October 2026.** These beats belong to the old Yoon Taeo story. Canon is now `STORY_BIBLE_v4.md`. Kept for history only.
+
+Canon was defined in `STORY_BIBLE.md` (also retired).
 
 Each chapter lists:
 - its beats, in order;

@@ -1,5 +1,14 @@
 # PANEL BRIEF: draw one chapter of "My Summons Go First" (method B)
 
+> **Rebuild note (25 October 2026).** This brief was written for the old story. Until a v2 brief replaces it:
+> - **Still apply:** sizes by shape (section 2), the anatomy and no-text checks (section 5) and the progress-file habit (section 6).
+> - **Replaced:**
+>   - the TECHNIQUE BLOCK (section 7), by the chosen variant's STYLE BLOCK and the NEGATIVE BLOCK in `MANHWA_STYLE_GUIDE.md` section 10;
+>   - the Taeo and old-Nib locks (section 5.2), by `CHARACTER_DESIGNS_v2.md`;
+>   - the old chibi and model sheets (sections 1 and 2), by `characters_v2/`;
+>   - the old `chapters/` folders (section 4): the v2 panel brief will name the new ones.
+> - **Do not draw chapter panels** until the owner has picked a style and approved the new scripts. See `README_START_HERE.md`.
+
 You draw every panel of ONE chapter from its script. Several Codex sessions run at the same time, one per chapter, so touch only your own chapter's folder.
 
 The owner chose **method B**: one image-generation pass per panel, using the TECHNIQUE BLOCK below plus `style_test/abcd/STUDY_NOTES.md`.

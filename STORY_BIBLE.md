@@ -1,6 +1,8 @@
 # My Summons Go First: story bible (remake edition, Part One = chapters 1–100)
 
-**Status.** This is the working canon for the remake.
+> **RETIRED on 25 October 2026.** The owner approved a full rebuild. Canon is now `STORY_BIBLE_v4.md`, with spellings in `NAME_SHEET.md`. This file is kept for history only. Do not draw or write from it.
+
+**Status (old).** This was the working canon for the remake.
 
 **Sources.**
 - Abafadot's *private story architecture v3* (224-chapter plan, `msgf-source/source/revised_production/planning/`). Its spine, power ladder and long arcs are KEPT.

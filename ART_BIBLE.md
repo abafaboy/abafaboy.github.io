@@ -1,5 +1,18 @@
 # My Summons Go First: art and lettering bible (remake edition)
 
+> **Partly superseded on 25 October 2026 (the rebuild).**
+> - **Replaced:** A1 (the look), A3 (colour), A4 (locations) and A11 (characters), by `codex/MANHWA_STYLE_GUIDE.md` and `codex/CHARACTER_DESIGNS_v2.md`.
+> - **Refined:** A2, A5 and A8 are refined there; where they differ, the style guide wins.
+> - **Still in force as rules, ignoring the old examples:**
+>   - A5b (chibi): new chibi sheets go in `characters_v2/`.
+>   - A6.
+>   - A7 (camera): panel counts are now 60–75, see `codex/MANHWA_ART_DIRECTION.md`.
+>   - A9 (no text in art): its two exceptions, drawn-in screens and named signs, are withdrawn. The letterer adds all text; the only drawn glyph is the T on Jaeha's vest.
+>   - A10 (continuity): sheets now come from `characters_v2/`, locks from `CHARACTER_DESIGNS_v2.md`.
+> - **Part B** (lettering and UI) is the letterer's. Its examples and window colours belong to the old story and will be revised; amber now belongs to Nib.
+> - **Part C** (the anti-AI checklist) applies, except that its old Nib locks (belt, pouch, sheath) are replaced by `CHARACTER_DESIGNS_v2.md`.
+> - Taeo, Hanbit Mart and the rest of the old cast below are retired.
+
 This bible is built from a direct survey of episode 1 of 103 Korean webtoons. Every image slice was viewed, and the UI and lettering were checked at full size. The survey log is in `research/VISUAL_SURVEY.md`.
 
 It replaces every earlier style instruction for this series. The story bible decides what happens; this file decides how it looks.

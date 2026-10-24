@@ -2,9 +2,16 @@
 
 **Who this is for.** Codex, when drawing panels for the rebuilt *My Summons Go First*.
 
-**What it adds.** This brief adds the action and staging grammar our first chapters were missing. Everything in `ART_BIBLE.md` still applies (line art, the flat cel look, chibi rules, the anti-AI checklist), except where this file says it supersedes it.
+**What it adds.** This brief adds the action and staging grammar our first chapters were missing.
+- **The look** (line, shading, light, colour, effects) is in `MANHWA_STYLE_GUIDE.md`, and the designs are in `CHARACTER_DESIGNS_v2.md`.
+- **`ART_BIBLE.md`** still applies (chibi rules, no text in art, continuity, the anti-AI checklist), except where this file or the style guide supersedes it.
 
-**Where the rules come from.** Claude read 13 real episodes panel by panel: *Omniscient Reader*, *The Lone Necromancer*, *My S-Class Hunters*, *Eleceed*, *The Greatest Estate Developer* and *Max-Level Newbie*. Claude also read Korean industry sources (see `research/MANHWA_CRAFT_BIBLE.md`). You never see those images, and you must never imitate a specific title's characters or panels. This file describes the *grammar*: shot types, rhythm, effects and colour.
+**Where the rules come from.** Claude read 14 real episodes panel by panel: 12 Korean episodes plus two Chinese titles read only as genre references.
+- **The Korean episodes:** *Omniscient Reader*, *The Lone Necromancer*, *My S-Class Hunters*, *Eleceed*, *The Greatest Estate Developer* and *I'm the Max-Level Newbie*.
+- **Rendering:** a closer study of six titles is in `research/RENDERING_STUDY.md`.
+- **Industry sources:** Claude also read Korean industry sources (see `research/MANHWA_CRAFT_BIBLE.md`).
+
+You never see those images, and you must never imitate a specific title's characters or panels. This file describes the *grammar*: shot types, rhythm, effects and colour.
 
 ---
 
@@ -25,10 +32,10 @@ Scripts now name a `recipe` on each panel. Draw the recipe exactly; the `art` fi
 | `reaction` | inset or strip | close-up | one strong emotion; sweat, shine, a gasp | flat colour, gradient, focus lines | small calm corner |
 | `eyes` | strip (3:1) | extreme close-up | eyes only; the decision or the dread | black, white or a mood wash | usually none (silent) |
 | `insert` | inset or narrow | close-up on hands or an object | the notebook, a core, a knife, a phone (green screen) | plain | small |
-| `name-card` | tall or wide | bust or half body, three-quarter view, slight low angle | the character's look and attitude, iconic pose | gradient in the character's signature colour | one clear side (about 35% of the width) for the name card |
+| `name-card` | tall or wide | bust or half body, three-quarter view, slight low angle | the character's look and attitude, iconic pose | gradient in the character's name-card colours (`CHARACTER_DESIGNS_v2.md`) | one clear side (about 35% of the width) for the name card |
 | `monster-reveal` | full or tall | low angle from behind the MC | the creature FILLS the frame; the MC is small in the foreground, back to us | dark; one red accent | calm top-left |
 | `anticipation` | inset or tall | three-quarter, foreshortened | the wind-up a moment before the hit: coiled body, weapon drawn back | muted, tension lines | small |
-| `impact` | wide, tall or bleed, tilted 10–20° | dynamic diagonal | the hit at its peak: speed lines radiating from the contact point, debris, a motion smear on the moving limb | white flash or hot orange or red | **large SFX space along the diagonal** |
+| `impact` | wide, tall or bleed, tilted 10–20° | dynamic diagonal | the hit at its peak: speed lines radiating from the contact point, debris, speed lines along the moving limb (in V3, a painted motion smear) | white flash or hot orange or red | **large SFX space along the diagonal** |
 | `aftermath` | wide | eye level, still | dust settling, a body on the ground, the winner's back; no motion lines | drawn, quiet | calm at the top |
 | `tone-flip` | strip, then tall | extreme close-up, then empty | (a) a glowing eye or hollow on black; (b) a tall panel of streaked dark speed texture with NO figure (the letterer puts a giant SFX there) | black or red | (b) is all SFX space |
 | `summon-arrival` | tall or bleed | low angle | a cyan floor circle, a vertical seam of light, the summon stepping through (ART_BIBLE A8); in a fight, the summon blocking a strike mid-motion | dark scene, cyan light on faces | calm at the top |
@@ -47,22 +54,22 @@ Scripts now name a `recipe` on each panel. Draw the recipe exactly; the `art` fi
 2. **The angle changes every panel:** low, high, overhead, the MC's eye level, behind the monster. Never two panels in a row from the same position (this tightens ART_BIBLE A7's limit of 2).
 3. **Screen direction.** Within one fight, the MC's side attacks left to right unless the script says the momentum has turned. If it turns, the flip is the point.
 4. **The summon goes first; the MC reads the fight.** Between hits, the script puts a `reaction` or `eyes` panel of Jaeha watching. His face must show calculation (narrowed eyes, sweat, lips moving as he counts), not just fear.
-5. **Effect lines are drawn, never blurred.** Use the ART_BIBLE line art style: crisp, tapered black or white strokes.
+5. **Effect lines are drawn, never blurred.** Use the chosen style's ink: crisp, tapered black or white strokes. V3 alone may add a painted smear on a fast limb or weapon, never on a face (`MANHWA_STYLE_GUIDE.md` section 7).
    - **Speed lines:** parallel, in the direction of motion.
    - **Focus lines:** radial, toward a face or point.
    - **Impact radials:** short, thick and burst-shaped at the contact point.
    - No airbrush blur and no depth-of-field.
-6. **Debris and particles appear only at an impact,** a summon or a gate (ART_BIBLE A8 still applies).
+6. **Debris and particles appear only at an impact,** a summon or a gate (`MANHWA_STYLE_GUIDE.md` section 7).
 7. **Violence happens between panels.** Show the moment before, then a `tone-flip` or `impact`, then the aftermath.
    - No gore close-ups. Blood is a splash on a wall or a silhouette.
    - The platform-safe version is the only version.
 8. **Size means importance.** The biggest or tallest panel in a chapter is its peak beat. Use 1–3 `impact`, `splash` or bleed panels per chapter and spend your best effort there.
 
-## 4. Colour flips (supersedes nothing; extends ART_BIBLE A3 and A4)
+## 4. Colour flips (the full table, with hex codes, is `MANHWA_STYLE_GUIDE.md` section 5)
 
 | Mood or beat | Palette |
 |---|---|
-| Daily life | muted, one hue per location (ART_BIBLE A4) |
+| Daily life | muted, one hue per location (style guide table 5.3) |
 | Inside a gate | the wrong-coloured sky (lavender noon, green dusk); violet shadows |
 | Danger arriving | the scene desaturates, and ONE red accent appears (an eye, a door, a warning) |
 | Hit or impact | hot orange or yellow background, or a pure white flash panel |
@@ -73,7 +80,7 @@ Scripts now name a `recipe` on each panel. Draw the recipe exactly; the `art` fi
 
 ## 5. Power and summon signature colours
 
-Each colour is reserved for one thing. Never use it for anything else.
+These colours are reserved **as light** (a glow, a thread, an eye-shine, a beam): nothing else glows in them. Costumes and sets may use neighbouring colours as long as they are not glowing. The full rule is in `MANHWA_STYLE_GUIDE.md` section 5.2.
 
 | Thing | Colour | Where it shows |
 |---|---|---|
@@ -81,20 +88,20 @@ Each colour is reserved for one thing. Never use it for anything else.
 | LINK thread | the linked summon's signature colour | a thin thread or an eye glow in `link-view` |
 | CARRY | translucent white impact ring | on Jaeha's body |
 | STORE / RELEASE | pale gold rings around his fist or blade, then a white-gold shockwave | from Arc 5 on |
-| The Hollow (bosses) | a black-violet hole where the face should be, cracked armour leaking violet ash; it glows red when hostile | every hollowed boss |
+| The Hush (bosses) | a black-violet hole (#1A1026) where the face should be, cracked armour leaking violet ash (#6B4C9A); it glows danger red (#E0322B) when the script says it is hostile | every hushed hero in human form; beast-shaped bosses carry only a small crack (style guide section 9) |
 | Nib | amber #F2A93B | his eyes and his link |
-| Borro | moss green | |
-| Lyra | river blue and silver | |
-| Pim | moon cream and lilac | |
-| Maud | bone white and oxblood | |
-| Caldric | ember orange in black ash | |
+| Borro | moss green #6E8B3D | his LINK and seal-break light |
+| Lyra | river blue #4A90C2 and silver #C9D3DC | her LINK and seal-break light |
+| Pim | moon cream #F3EAD3 and pale lilac #C8B6E2 | his LINK and seal-break light |
+| Maud | bone white #EDE6D6 and oxblood #6A1E22 | her LINK and seal-break light |
+| Caldric, the Bell General | his look: cracked bell bronze; his LINK colour is decided before chapter 68 | (the old "ember orange in black ash" belonged to the retired Ash Knight) |
 
 ## 6. Monsters and bosses
 
 - **Silhouette first.** A monster must read at phone size as a black shape. Give it one exaggerated feature (the beak, the tail or the horns), not ten small ones.
 - **One weak point that glows.** The script will use it (Jaeha finds tells).
 - **Scale is shown, never told.** A person, a door or a car in the same panel gives a big monster its size.
-- **Hollowed heroes** keep traces of who they were: a sigil on the armour, a torn banner, a surgeon's apron. The reveal in Arc 6 depends on these being drawn consistently from chapter 1 on.
+- **Hushed heroes** keep traces of who they were: a sigil on the armour, a torn banner, a surgeon's apron. The reveal in Arc 6 depends on these being drawn consistently from chapter 1 on.
 
 ## 7. Faces and acting (extends ART_BIBLE A5)
 

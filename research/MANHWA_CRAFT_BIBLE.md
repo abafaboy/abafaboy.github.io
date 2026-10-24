@@ -13,7 +13,7 @@ This is the rulebook for the rebuilt *My Summons Go First*. Every script, panel 
 | **[S]** | The earlier survey of 103 episode-1s (`VISUAL_SURVEY.md`). |
 | **[I]** | Our own inference from the above. Treat as a default, not a law. |
 
-**The corpus read slice by slice (13 episodes):**
+**The corpus read slice by slice (14 episodes: 12 Korean, 2 Chinese):**
 - *Omniscient Reader* (ORV) eps 0, 1, 2, 3
 - *The Lone Necromancer* (LN) eps 1, 2, 6
 - *Eleceed* ep 1
@@ -23,6 +23,8 @@ This is the rulebook for the rebuilt *My Summons Go First*. Every script, panel 
 - Two Chinese manhua as genre references only: *The Summoner: Apocalypse Rewinds* ep 1, *Necromancer, the Ultimate Scourge* ep 1
 
 Episode titles for MSCH 1–66, LN 1–7 and *Surviving the Game as a Barbarian* 1–60 were read from the official lists for arc lengths.
+
+For how these titles are drawn and coloured (line, light, colour, effects), see `RENDERING_STUDY.md`. It adds *I'm the Max-Level Newbie* ep 1 and *The Return of the Disaster-Class Hero*'s prologue.
 
 ---
 
