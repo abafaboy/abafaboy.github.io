@@ -77,7 +77,7 @@ All three keep: drawn ink lines, hard-edged cel shadows on forms, no airbrushed 
 | **Backgrounds** | Places in flat colour planes with little detail; flat colour, a two-colour gradient or speed lines behind reactions and action | Drawn and slightly softened in establishing shots; gradient, flat or speed lines elsewhere | Painted skies, smoke and haze with visible brushwork; figures stay sharp |
 | **Effects** | Solid white or black speed lines, burst shapes, figures breaking panel borders | Radial lines, faceted debris; glow only around a real light source | Painted motion smears on limbs and weapons, embers, glows |
 | **Strengths** | Reads best at phone size; the least "AI" look; easiest to keep consistent | Closest to the hunter titles the genre's readers know; keeps the ink and hard shadows the owner chose on 21 October | The most dramatic and premium-looking |
-| **Risks** | Loud and cartoony, which can undercut the real-danger tone | The light wash and rim need discipline, or they turn glossy | Hardest to keep consistent; haze and soft painting are what the owner called "too AI" in October |
+| **Risks** | Loud and cartoony, which can undercut the real-danger tone | The light wash and rim need discipline, or they turn glossy | Hardest to keep consistent; its haze and soft painting are close to the airbrushed first character sheets the owner called "too AI" in October |
 
 **Claude's recommendation: V2.**
 - It sits closest to the modern hunter titles.
@@ -158,7 +158,7 @@ The architecture of each place is described in `CHARACTER_DESIGNS_v2.md` section
 | Rooftop room, morning | Cool grey-blue daylight | Soft blue | Yellow sun on the laundry line |
 | Gate exit, rescue scene | Red and blue emergency strobes on wet asphalt | Dark navy | Silver reflective stripes; a gold foil blanket |
 | Flashback: the Han River gate, 4 years ago | Desaturated grey-blue | Soft | Minseok's orange vest, the one warm colour |
-| Flashback: the Ninth Wall (chapter 3, "8 grey panels") | Grey, desaturated | Soft | Kett's mustard scarf, the one warm colour (P) |
+| Flashback: the Ninth Wall (chapter 3, "8 grey panels") | Grey, desaturated | Soft | Kett's mustard scarf, the one warm colour |
 
 **The Hush stays the darkest thing in the panel.** Its black-violet #1A1026 must never sit on a shadow as dark as itself. Keep scene shadows around it at #2B2833 or lighter, and edge the hole with violet ash.
 
@@ -240,7 +240,7 @@ The architecture of each place is described in `CHARACTER_DESIGNS_v2.md` section
 - **Hushed heroes in human form keep who they were** (the knight-commander; later Maud and Caldric): a sigil, a torn banner, a surgeon's apron.
   - Their face is a black-violet hole with cracked edges leaking violet ash.
   - It glows danger red only when the script says they are hostile.
-- **Beast-shaped bosses** (the drowned hound in chapter 8, the serpent in chapter 12, and so on) carry only a small black-violet crack leaking violet ash somewhere on the body (P). That way the chapter 50 reveal, that they were people too, still lands.
+- **Beast-shaped bosses** (the drowned hound in chapter 8, the serpent in chapter 12, and so on) carry only a small black-violet crack leaking violet ash somewhere on the body. That way the chapter 50 reveal, that they were people too, still lands.
 - **Violence happens between panels.** No gore close-ups.
 
 ## 10. Prompt kit

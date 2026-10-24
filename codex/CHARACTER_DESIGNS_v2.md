@@ -4,7 +4,7 @@
 
 **Retired.** Every old sheet in `characters/` is retired: Taeo, the old green Nib in the pink wrap, and the rest. Never pass an old sheet as a reference.
 
-**Approved.** The owner approved Claude's design proposals 1–12 (section 7) on 25 October. Details still marked **** came out of the review afterwards (section 7, items 13–15) and await his yes or no; draw them as written unless he changes them.
+**Approved.** The owner approved all 15 of Claude's design proposals (section 7) on 25 October. Everything in this file is now the design to draw.
 
 **Colours** are given as base / shadow hex codes for the flat colour and the one hard cel shadow.
 
@@ -207,7 +207,7 @@ In the chapter 1 flash-forward, all seven summons stand behind Jaeha as black si
 | **Pim**, moth-folk signal keeper | ch 36 | 1.4 m of fluffy cream fur, huge black eyes, feathery antennae, soft wings folded like a cape, a PC-bang headset. Signature colours: moon cream and lilac. |
 | **Maud**, field surgeon | ch 48 | 1.9 m and broad, a burn-scarred face, cropped white hair, surgeon's plate over stitched leather aprons, a bone saw and a needle case. Signature colours: bone white and oxblood. |
 | **Caldric**, the Bell General | ch 68 | 2.1 m, cracked bronze armour shaped like a great bell, a bell-headed mace whose every hit rings |
-| **Kett**, young goblin scout | ch 88 (and the chapter 3 flashback) | Nib's apprentice; talks too much. About 95 cm, slighter than Nib, smoother grey-green skin, long ears with no notch, an oversized hand-me-down charcoal scout cloak, one short knife, a mustard-yellow scarf #D9A62E, an eager open face. A young soldier, never a mascot (P). |
+| **Kett**, young goblin scout | ch 88 (and the chapter 3 flashback) | Nib's apprentice; talks too much. About 95 cm, slighter than Nib, smoother grey-green skin, long ears with no notch, an oversized hand-me-down charcoal scout cloak, one short knife, a mustard-yellow scarf #D9A62E, an eager open face. A young soldier, never a mascot. |
 | **Moon Ahin**, "the Puppeteer" | ch 12 | 22, a white coat, a silver hair ribbon, a conductor's baton. Her 40 husks are flawless and polished. |
 | **Director Baek Taegun** | ch 5 (silhouette), ch 12 | 54, a grey suit, silver glasses, a cane with a core in the handle. Name card (ch 12): gradient, black #0E0E10 to smoky violet #4A3A66. |
 | **Auntie Geum Okran** | ch 33 | 62, an apron over a tracksuit, one prosthetic arm, a ladle she fights with |
@@ -266,8 +266,8 @@ Colour keys are in `MANHWA_STYLE_GUIDE.md` table 5.3.
 | **Black Hound memorial event** | 5 | A guild hall lobby set up for a memorial: a framed portrait with black ribbons and white chrysanthemums, press cameras on tripods, a black backdrop (no text). Outside, Bomi and her drone. |
 | **The rooftop room, Mangwon-dong** | 5 onward | A small rooftop room on top of a four-storey villa building. The roof floor is painted green waterproofing #4E8F5A, with a water tank, laundry lines, plastic chairs and the Mapo skyline and Han River bridges in the distance. Inside: one room and a tiny kitchen, old wallpaper, a fold-out table, Seoa's desk with a laptop (#00FF00 screen). |
 | **Kanghan Tower monitoring room** | 5 (hook) | A dark glass-walled room high in a corporate tower; a wall of monitors (#00FF00); a man in silver glasses seen from behind. |
-| **Gwanghwamun, the flash-forward** | 1 (opening) | Gwanghwamun Square at night under a red sky. The palace gate and the mountain ridge behind it are dark shapes; cracked pavement, abandoned cars, a hovering livestream drone. Above the square hangs the S-grade gate: a vertical tear in the sky many storeys tall, black-violet inside with a cold white-cyan rim. Jaeha, in his black coat, stands in front of the line of summon silhouettes (P). |
-| **The Ninth Wall** | 3 (grey flashback) | A great curtain wall of pale limestone across a mountain pass, with nine round towers and wall-blue banners #2F4A6E trimmed in bronze, under siege by Hush-spawn (black shapes leaking violet ash). Far off, a fortress with a great bell rings the retreat. Drawn in grey, with Kett's mustard scarf as the one warm colour (P). |
+| **Gwanghwamun, the flash-forward** | 1 (opening) | Gwanghwamun Square at night under a red sky. The palace gate and the mountain ridge behind it are dark shapes; cracked pavement, abandoned cars, a hovering livestream drone. Above the square hangs the S-grade gate: a vertical tear in the sky many storeys tall, black-violet inside with a cold white-cyan rim. Jaeha, in his black coat, stands in front of the line of summon silhouettes. |
+| **The Ninth Wall** | 3 (grey flashback) | A great curtain wall of pale limestone across a mountain pass, with nine round towers and wall-blue banners #2F4A6E trimmed in bronze, under siege by Hush-spawn (black shapes leaking violet ash). Far off, a fortress with a great bell rings the retreat. Drawn in grey, with Kett's mustard scarf as the one warm colour. |
 
 ---
 
@@ -283,7 +283,7 @@ Colour keys are in `MANHWA_STYLE_GUIDE.md` table 5.3.
 
 ---
 
-## 7. Design proposals (1–12 approved by the owner on 25 October)
+## 7. Design proposals (all 15 approved by the owner on 25 October)
 
 1. **Jaeha's continuity details:**
    - fringe over his LEFT eye;
@@ -306,7 +306,7 @@ Colour keys are in `MANHWA_STYLE_GUIDE.md` table 5.3.
 11. **Places:** the green-painted rooftop.
 12. **Props:** the Ninth Wall blade; smoky violet cores; items drawn from a cyan slit.
 
-**Added after the review (25 October), awaiting the owner's yes or no:**
+**Added after the review (25 October), also approved:**
 
 13. **Kett's look:** about 95 cm, a mustard scarf, a hand-me-down cloak. He appears in the chapter 3 flashback, long before he joins.
 14. **Two places for chapters 1 and 3:** Gwanghwamun under the red sky, and the Ninth Wall in the grey flashback.

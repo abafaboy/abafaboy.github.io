@@ -13,7 +13,7 @@
 | 2 | `bible/NAME_SHEET.md` | Exact spellings, file ids, retired names |
 | 3 | `MANHWA_STYLE_GUIDE.md` | **The look:** line, light, colour, effects, the three variants, prompt blocks, the image check |
 | 4 | `MANHWA_ART_DIRECTION.md` | **Staging:** panel recipes, action grammar, colour flips, summon colours |
-| 5 | `CHARACTER_DESIGNS_v2.md` | **Who looks like what:** cast, monsters, locations, props. Items marked (P) are proposals; draw them as written. |
+| 5 | `CHARACTER_DESIGNS_v2.md` | **Who looks like what:** cast, monsters, locations, props, all approved by the owner. |
 | 6 | `STYLE_TEST_BRIEF.md` | **Your first job** |
 
 **Reference, when you need it:**
