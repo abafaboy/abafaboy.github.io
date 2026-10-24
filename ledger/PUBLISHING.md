@@ -11,6 +11,18 @@ When all 100 chapters are done, upload them to YouTube through YouTube Studio in
 - **Thumbnails.** 16:9 and very saturated. The hero in the foreground, often with a before/after split or a power effect. Big outlined yellow or white words: FULL, SSS, BEFORE / AFTER, CH.1-102, #1-250, DAY 01 / DAY 365.
 - **Format.** Long narrated compilations (about 1 to 19 hours) covering many chapters.
 
+## Thumbnails: an attractive woman (Abafa, 25 October 2026)
+- **His finding:** "the youtube thumbnails with an attractive woman do well". He sent two examples:
+  - "#1 NECROMANCER Reincarnates As POWERLESS But Can STEAL ANY..." (Frieren Manhwa, 174K views in 22 hours, 3:43:50). The hero leans over a white-haired woman pinned to a wall; big yellow labels with arrows: ANGEL and SS-RANK HUNTER.
+  - The recap he pointed to for the acting study ("He Activated a System That Summons Monsters...", Tyler's Manhwa, 3:46:32). A panicking hoodie hero labelled SUMMONER stands beside his summons: a horned winged demon woman, a green hooded goblin with a giant sword, and a white-haired woman knight, all on glowing summoning circles in his bedroom.
+- **The formula:** custom key art, not a panel from the chapter. One big label word with an arrow; the hero reacting; an attractive adult woman as large as the hero.
+- **For us:** an attractive adult woman goes into the MSGF thumbnail. Who she is is still Abafa's call; the options are in Claude's message of 25 October.
+- **YouTube's limit** (Thumbnails policy, support.google.com/youtube/answer/9229980, checked 25 Oct 2026):
+  - Thumbnails can't show nudity or sexually gratifying imagery.
+  - Where breasts, buttocks or genitals are the focal point, or the pose or clothing is meant to arouse, YouTube may age-restrict the video or remove the thumbnail.
+  - An age restriction on a 12-hour compilation would cut its reach, so the focal point stays on faces, the pose and the conflict.
+- **Never** Kang Seoa, who is 15.
+
 ## Format (confirmed by Abafa, 21 October 2026)
 - Chapters 1–100 together in one large video.
 - It is a long narrated 16:9 compilation, titled "[1-100] ..." with the name My Summons Go First, with a thumbnail in the style above.

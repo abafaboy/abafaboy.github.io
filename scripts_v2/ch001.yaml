@@ -56,6 +56,9 @@ panels:
       A livestream drone camera's point of view: a lone man in a long black coat (kang_jaeha, coat) walks across
       the empty, cracked square toward the giant gate, seen small from above and behind. Debris, a dropped
       shield, a scorched bus. Leave the left half calmer for the chat overlay.
+    acting:
+      kang_jaeha: "walking at an unhurried, even pace across the debris, right hand in his coat pocket, left arm swinging loose, head level toward the gate, coat tails lifting behind him"
+    eyeline: "Jaeha → the gate"
     calm: left
     ui:
       - kind: phone.live_stream
@@ -82,6 +85,10 @@ panels:
       and folded wings, a broad figure with a bone saw, a 2.1 m figure in bell-shaped armour with a mace, a small
       young goblin, and at the very front, closest to the man, the smallest: a cloaked goblin scout with long
       ears. Use the shapes in characters_v2/summon_silhouettes.png. No faces visible.
+    acting:
+      kang_jaeha: "standing still with his weight on his right leg, left hand in his coat pocket, head tilted up a little at the gate"
+      summon_silhouettes: "each silhouette in its own stance: the stone giant hunched forward with his shield's edge resting on the ground; the archer with her bow held low and her weight on one hip; the moth-folk hugging his folded wings; the surgeon with her arms folded; the bell general planted with his mace on his shoulder; the young goblin up on his toes; Nib at the front, slightly stooped, one hand resting on a knife handle at his back"
+    eyeline: "everyone → the gate"
     calm: top
     silent: true
     notes: "PLANT P03–P07. The silhouettes must match the seven summons' later designs."
@@ -96,6 +103,10 @@ panels:
     art: >
       The smallest silhouette, a cloaked goblin scout (nib), looks up at the man beside him. Only the outline of
       his hood, one long ear and the glint of one amber eye show; the rest stays in shadow. Deadpan.
+    acting:
+      nib: "head tipped back to look up at the man beside him, shoulders squared like a soldier reporting, one hand resting on a knife handle at the small of his back"
+    eyeline: "Nib → Jaeha (up)"
+    foreground: "the edge of Jaeha's black coat, cropped, down the right side of the frame"
     calm: right
     lines:
       - {who: nib, type: speech, text: "YOU FIRST?", side: l}
@@ -111,6 +122,9 @@ panels:
     art: >
       Extreme close-up: Jaeha's eyes (kang_jaeha), calm and narrowed, the long fringe over his LEFT eye,
       the red sky and the gate's tear reflected in the visible eye. No fear.
+    acting:
+      kang_jaeha: "head turned three-quarters and tipped down toward the goblin, eyes narrowed with the lower lids raised, mouth relaxed and closed; the fringe hangs over his LEFT eye"
+    eyeline: "Jaeha → Nib (down, to the left)"
     calm: none
     lines:
       - {who: kang_jaeha, type: speech, text: "NOT YET.", side: r}
@@ -125,6 +139,9 @@ panels:
     art: >
       The seven silhouettes stride past the man in the black coat (kang_jaeha, coat) toward the gate, cloaks and
       shapes streaming, still solid black with pale rims. He stands still, one hand in his coat pocket.
+    acting:
+      kang_jaeha: "perfectly still among the motion, weight on one leg, chin slightly down, one hand in his coat pocket; his coat stirs in the wind of them passing"
+    eyeline: "Jaeha → the gate"
     calm: top
     lines:
       - {who: kang_jaeha, type: speech, text: "MY SUMMONS GO FIRST.", side: c}
@@ -167,6 +184,9 @@ panels:
       steel pile walls, timber boards, scaffold stairs, blue tarps, puddles. At the bottom, between steel struts,
       a door-height black-violet slit with a pale rim: the gate. Seven hunters in black guild jackets gear up on
       the pit floor beside a Hunter Association tent. One figure in an orange vest stands apart at the edge.
+    acting:
+      kang_jaeha: "a tiny figure alone at the pit's edge, hugging his notebook to his chest with both arms, shoulders rounded"
+      black_hound: "the hunters stand in two loose clusters on the pit floor, turned toward each other: one stretching, one laughing, one checking a weapon"
     calm: top
     lines:
       - {who: offpanel:crowd, type: tag, text: "GATE 0912. A SUBWAY DIG IN MAPO, SEOUL."}
@@ -201,6 +221,13 @@ panels:
       Over Jaeha's shoulder (kang_jaeha, vest; the back of his orange vest with its big T patch fills the right
       foreground, cropped). Facing him, the raid leader Mok (mok_hangyu): huge, black guild jacket, gold chain,
       tower shield on his back, a lazy grin. Hunters behind him check their weapons and don't look at Jaeha.
+    acting:
+      mok_hangyu: "weight on his left leg, right knee loose; tower shield slung on his back; left thumb hooked in his belt, right hand flicking two fingers toward the gate as if shooing a dog; chin up, looking down his nose at Jaeha; a lazy half-grin with eyes that are not smiling"
+      kang_jaeha: "seen from behind: shoulders rounded forward in a polite half-bow, head dipped, both hands holding the notebook against his chest, so only his elbows show"
+      bh_spear: "in the background, tightening a glove strap with his teeth, not looking at Jaeha"
+      bh_axe: "in the background, axe resting across his shoulders like a yoke, mid-yawn"
+    eyeline: "Mok → Jaeha (down); Jaeha → Mok (up, unseen); the two hunters → their own gear"
+    foreground: "Jaeha's right shoulder, the back of his head and the white T patch on the back of his orange vest fill the right third, cropped by the top and right edges of the frame"
     calm: top
     lines:
       - {who: mok_hangyu, type: speech, text: "SUMMONER, YOU KNOW THE RULE.", side: l}
@@ -218,6 +245,11 @@ panels:
       Jaeha (kang_jaeha, vest) holds out his right hand politely. Beside him a thin vertical white seam opens in
       the air, and a faceless white doll (husk) steps out of it stiffly, arms hanging. No circle and no cyan:
       this is an ordinary summoner's husk call. He smiles at Mok like a waiter.
+    acting:
+      kang_jaeha: "half-turned toward Mok off-panel left, bowing slightly from the waist, right hand held out palm-up toward the husk like a waiter presenting a dish, notebook tucked under his left arm; eyes creased in a customer-service smile"
+      husk: "steps out of the seam stiffly, arms hanging, head level and perfectly symmetrical: the only figure allowed to stand like a mannequin"
+    eyeline: "Jaeha → Mok (off-panel left); the husk → nothing"
+    foreground: "the dark edge of a hunter's shoulder, cropped, down the left side"
     calm: top-right
     lines:
       - {who: kang_jaeha, type: speech, text: "MY HUSK IS READY, SIR. IT'S A VERY BRAVE HUSK.", side: l}
@@ -235,6 +267,10 @@ panels:
     art: >
       Chibi gag: chibi Jaeha gives the expressionless chibi husk a proud thumbs-up with sparkles. The husk
       stares at nothing. Pale gag background with sparkle shapes.
+    acting:
+      kang_jaeha: "chibi: chest puffed out, one fist on his hip, the other hand giving a big thumbs-up, eyes shut in a proud grin"
+      husk: "chibi: standing stiff with its arms hanging, staring at nothing"
+    eyeline: "Jaeha → the husk; the husk → nothing"
     calm: left
     lines:
       - {who: bh_axe, type: speech, text: "DID THE RAT JUST COMPLIMENT HIS DOLL?", side: l}
@@ -251,6 +287,11 @@ panels:
       arches, arrow slits, the wrong-coloured green-dusk sky through cracks. Square floor stones with engraved
       borders. The husk walks first down the middle, stiffly. Jaeha follows ten steps behind with an open notebook.
       The black-jacketed hunters walk well back, chatting.
+    acting:
+      husk: "walking stiffly down the middle, arms hanging"
+      kang_jaeha: "ten steps behind, head down over his open notebook, writing as he walks"
+      black_hound: "well back in a loose clump: the spearman with his spear across his shoulders, two others elbowing each other and laughing"
+    eyeline: "Jaeha → his notebook and the floor ahead; the hunters → each other"
     calm: top
     lines:
       - {who: bh_spear, type: speech, text: "KEEP YOUR LITTLE DOLL MOVING, TRAP RAT. WE'RE NOT PAYING YOU TO SIGHTSEE.", side: r}
@@ -293,6 +334,11 @@ panels:
     art: >
       Three Black Hound hunters (bh_spear, bh_axe, bh_crossbow) laugh at the white powder drifting down the
       corridor. One slaps his knee. The crossbow woman smirks without looking up from her weapon.
+    acting:
+      bh_spear: "doubled over laughing, slapping his knee, eyes squeezed shut"
+      bh_axe: "head thrown back in a big open-mouthed laugh, one hand on his belly"
+      bh_crossbow: "leaning a shoulder on the wall, smirking without looking up as she winds her crossbow"
+    eyeline: "spearman → the drifting powder; axeman → the spearman; crossbow woman → her crossbow"
     calm: top
     lines:
       - {who: bh_spear, type: speech, text: "WHY DO WE EVEN BRING A TRAP RAT ALONG?", side: l}
@@ -313,9 +359,14 @@ panels:
       Jaeha (kang_jaeha, vest), polite smile, brushing white husk powder off his notebook. Tired eyes, but they
       are watching the corridor ahead, not the laughing hunters. The corridor behind him is simplified and lower
       in contrast. Leave the left third calm for the name card.
+    acting:
+      kang_jaeha: "turned three-quarters to the image's right, shoulders still rounded in his public slouch, flicking white husk powder off the notebook's cover with the back of his fingers; head slightly down but eyes lifted, watching the corridor ahead past the laughing hunters; a polite closed-mouth smile on one side only"
+    eyeline: "Jaeha → the corridor ahead (off-panel right)"
     calm: left
     lines:
       - {who: kang_jaeha, type: inner, text: "THEY LAUGH EVERY TIME. THEY ALSO GO HOME EVERY TIME."}
+    sfx:
+      - {text: "FLICK FLICK", style: quiet, at: [0.30, 0.62], size: S, rot: 0}
 
   - id: P19
     recipe: insert
@@ -343,6 +394,10 @@ panels:
       Three stone lizards (stone_lizard) come round the corner in a pack: squat, heavy-legged, slate-stone hides
       in rough dry-brush texture, club tails. Every lizard's LEFT eye is milky white. The lead lizard bites the
       shield-bearer's shield (bh_shield, back to us in the foreground). Sparks fly from the shield rim.
+    acting:
+      bh_shield: "braced low with his legs wide, his shoulder driven into the back of his shield, being shoved back half a step by the bite"
+    eyeline: "the lead lizard → the shield"
+    foreground: "bh_shield's back and shield fill the bottom-left third, cropped"
     calm: top-left
     sfx:
       - {text: "CRUNCH", style: impact, at: [0.62, 0.48], size: L, rot: -10}
@@ -360,6 +415,10 @@ panels:
       The lizard bites the shield again, and its club tail coils back hard, aimed at a small freckled young woman
       in an oversized off-white healer's jacket (song_yerin) who stands frozen against the wall, both hands on her
       bag strap. In the background, Jaeha looks up from his notebook.
+    acting:
+      song_yerin: "frozen flat against the wall, both hands locked on her bag strap at her chest, shoulders up by her ears, knees locked"
+      kang_jaeha: "small in the background, pencil stopped mid-word, head snapping up from the notebook toward her"
+    eyeline: "Yerin → the coiling tail; Jaeha → Yerin"
     calm: top-right
     sfx:
       - {text: "CRUNCH", style: impact, at: [0.30, 0.18], size: M, rot: 8}
@@ -378,6 +437,8 @@ panels:
       The third bite lands, and the club tail sweeps through exactly where the healer stood. She has taken one
       small step to her left: the tail misses her face by a finger's width and smashes the wall behind, stone
       exploding in faceted chunks. Her ponytail flies sideways in the wind of it.
+    acting:
+      song_yerin: "she has taken one small step to her left, body still rigid, eyes squeezed shut, ponytail flying sideways in the wind of the tail"
     calm: top
     sfx:
       - {text: "WHAAM", style: impact, at: [0.55, 0.30], size: XL, rot: -12}
@@ -393,9 +454,15 @@ panels:
     art: >
       Yerin (song_yerin) flat against the cracked wall, eyes wide, staring across the corridor at Jaeha, who has
       already gone back to his notebook. Dust and stone grit on her jacket. Leave the right third calm.
+    acting:
+      song_yerin: "back pressed flat to the cracked wall beside the new crater, shoulders up by her ears, both hands still locked on her bag strap at her chest, knees bent and pressed together; head turned three-quarters toward Jaeha, eyes wide with small pupils, mouth open mid-question; stone grit in her hair and a loose strand across her cheek"
+    eyeline: "Yerin → Jaeha (off-panel right, across the corridor)"
+    foreground: "the broken edge of the wall crater at the left edge, grit still falling from it"
     calm: right
     lines:
       - {who: song_yerin, type: speech, text: "HOW DID YOU KNOW IT WOULD DO THAT?", side: l}
+    sfx:
+      - {text: "TREMBLE", style: quiet, at: [0.40, 0.72], size: S, rot: 0}
 
   - id: P24
     recipe: reaction
@@ -407,6 +474,9 @@ panels:
     face: public
     art: >
       Jaeha (kang_jaeha, vest) gives her a small polite smile, pencil back behind his RIGHT ear.
+    acting:
+      kang_jaeha: "head tilted a little to his right, eyebrows raised in mild apology, a small closed-lip smile; right hand sliding the pencil back behind his RIGHT ear, notebook tucked under his left arm"
+    eyeline: "Jaeha → Yerin (off-panel left)"
     calm: left
     lines:
       - {who: kang_jaeha, type: speech, text: "JUST A LUCKY GUESS. ARE YOU ALL RIGHT?", side: r}
@@ -432,6 +502,10 @@ panels:
       The boss room door (location boss_room, door view): a tall riveted iron door in the fortress wall, with an
       iron lamp bracket above it burning danger red. The red light spills across the floor stones. The party stops
       in front of it, small in frame.
+    acting:
+      black_hound: "the party bunched in a loose half-circle at different depths, nobody in a line: Mok in front with the shield on his arm, the hunters shifting their weight, one rolling his neck"
+      kang_jaeha: "a step apart at the edge of the group, notebook against his chest, looking up at the lamp"
+    eyeline: "Jaeha → the red lamp; Mok → the door"
     calm: top
     sfx:
       - {text: "HMMMMM", style: quiet, at: [0.50, 0.12], size: S, rot: 0}
@@ -447,6 +521,9 @@ panels:
     art: >
       Mok (mok_hangyu) turns to Jaeha with his camera smile, the red lamp light carving his heavy jaw. His tower
       shield is on his arm now. Leave the left third calm for the name card.
+    acting:
+      mok_hangyu: "body still facing the door but head and shoulders turned back toward Jaeha; tower shield up on his left arm with its bottom edge resting on the floor; right thumb jabbing back over his shoulder at the door; a big white-toothed camera smile with cold eyes"
+    eyeline: "Mok → Jaeha (off-panel right, looking down)"
     calm: left
     lines:
       - {who: mok_hangyu, type: speech, text: "THE BOSS IN THERE ONLY WAKES FOR SOMETHING ALIVE. HUSKS DON'T COUNT.", side: r}
@@ -462,10 +539,18 @@ panels:
     art: >
       Mok (mok_hangyu) rests his shield edge against Jaeha's back (kang_jaeha, vest), pointing him at the door.
       Two hunters (bh_sword, bh_mage) behind them exchange a look.
+    acting:
+      mok_hangyu: "stepping in close behind Jaeha with the tower shield on his left arm, its edge pressed into Jaeha's back and his weight leaning into it; his right arm reaching past Jaeha's head to point at the door; camera smile on, eyes flat"
+      kang_jaeha: "pushed half a step forward, upper body bent back against the push, heels braced; both hands raised at chest height, palms out, placating; a strained polite smile with a sweat drop; eyes sliding sideways and up toward the red lamp"
+      bh_sword: "behind them, arms folded, weight on one hip, glancing sideways at the mage"
+      bh_mage: "short staff held loosely across his body, raising one eyebrow back at the swordsman: a shared look of 'this again'"
+    eyeline: "Mok → the door; Jaeha → the lamp (up); the swordsman ↔ the mage"
     calm: top
     lines:
       - {who: mok_hangyu, type: speech, text: "SO YOU WALK IN, IT COMES FOR YOU, AND WE KILL IT FROM BEHIND.", side: l}
       - {who: mok_hangyu, type: speech, text: "SUMMONS GO FIRST. THEN SUMMONERS.", side: l}
+    sfx:
+      - {text: "NUDGE", style: quiet, at: [0.46, 0.58], size: S, rot: 0}
 
   - id: P29
     recipe: reaction
@@ -478,9 +563,14 @@ panels:
     art: >
       Jaeha (kang_jaeha, vest) keeps his polite smile, but a sweat drop runs down his temple and his eyes have gone
       up to the lamp.
+    acting:
+      kang_jaeha: "still leaning back against the push, hands half-raised with palms out; the polite smile frozen with one corner twitching, a sweat drop at his temple; eyes rolled up to the lamp above"
+    eyeline: "Jaeha → the lamp (up, off-panel)"
     calm: right
     lines:
       - {who: kang_jaeha, type: speech, text: "SIR, THAT LAMP ABOVE THE DOOR IS RED.", side: l}
+    sfx:
+      - {text: "TWITCH", style: quiet, at: [0.66, 0.62], size: S, rot: 0}
 
   - id: P30
     recipe: insert
@@ -505,6 +595,11 @@ panels:
     art: >
       Mok's camera smile drops: flat dead eyes. He shoves Jaeha (kang_jaeha, vest) toward the door with the edge
       of his tower shield. Jaeha stumbles a step.
+    acting:
+      mok_hangyu: "smile gone, flat dead eyes, jaw set; drives the shield's edge into Jaeha's back with his whole weight behind it, front foot planted"
+      kang_jaeha: "stumbling forward a step, arms out for balance, the notebook nearly slipping from his fingers"
+    eyeline: "Mok → Jaeha's back; Jaeha → the floor ahead"
+    foreground: "the dark rim of the tower shield, cropped, across the left edge"
     calm: top
     lines:
       - {who: mok_hangyu, type: speech, text: "THEN YOU'D BETTER RUN FAST.", side: l}
@@ -521,6 +616,9 @@ panels:
     face: private
     art: >
       Extreme close-up: Jaeha's narrowed eyes (kang_jaeha), the polite mask gone, measuring the door.
+    acting:
+      kang_jaeha: "eyes narrowed, lower lids raised, brows level and low, the fringe over his LEFT eye; no smile"
+    eyeline: "Jaeha → the iron door (off-panel)"
     calm: none
     lines:
       - {who: kang_jaeha, type: inner, text: "IF THEY CLOSE THAT DOOR, THERE'S ONE WAY OUT. THROUGH THE BOSS."}
@@ -538,6 +636,9 @@ panels:
       snapped chains whose broken ends trail from steel plates in the floor. Where his face should be there is a
       dark hole leaking violet ash. A bronze sigil of a wall with nine towers shows on his chest plate.
       Jaeha (kang_jaeha, vest) is small in the foreground, his back to us.
+    acting:
+      kang_jaeha: "seen from behind in the doorway, weight back on his heels, left hand gripping the door frame, notebook pressed against his chest with the right"
+    eyeline: "Jaeha → the kneeling knight"
     calm: top
     silent: true
     sfx:
@@ -612,6 +713,10 @@ panels:
     art: >
       The Black Hound hunters (bh_spear, bh_axe, bh_sword, bh_mage) charge in along both sides of the hall, behind
       the pillars, to flank the knight, as planned. Mok (mok_hangyu) stays at the door with his shield up.
+    acting:
+      black_hound: "the four hunters running low and fast, each carrying their weapon differently: the spear levelled, the axe held two-handed over the shoulder, the sword drawn low behind, the mage's short staff thrust forward with its core glowing"
+      mok_hangyu: "planted in the doorway behind his raised shield, half-turned, shouting with his free hand cupped at his mouth"
+    eyeline: "Mok → the hunters; the hunters → the knight"
     calm: top
     lines:
       - {who: mok_hangyu, type: shout, text: "NOW! HIT IT FROM BEHIND WHILE IT'S BUSY!", side: l}
@@ -659,6 +764,8 @@ panels:
     art: >
       The long sword slams into Mok's tower shield (mok_hangyu). Sparks and a white burst at the contact point;
       Mok skids back across the floor, boots gouging the stone, teeth gritted.
+    acting:
+      mok_hangyu: "shoulder jammed into the shield, both hands on its grip, knees bent low, boots gouging the floor as he skids back, teeth gritted, one eye squeezed shut"
     calm: top-right
     sfx:
       - {text: "KLANNNG", style: impact, at: [0.40, 0.30], size: XL, rot: -8}
@@ -674,6 +781,10 @@ panels:
     art: >
       Jaeha (kang_jaeha, vest) crouched behind a pillar, notebook open, pencil moving, sweat on his face, eyes
       narrowed and calculating as he watches the knight turn. A pillar edge cuts the left of the frame.
+    acting:
+      kang_jaeha: "crouched on the balls of his feet with his back to the pillar, notebook propped on one knee, pencil moving fast; head turned to peer round the pillar edge with one eye; sweat on his temple; face calm and calculating"
+    eyeline: "Jaeha → the knight (off-panel)"
+    foreground: "the pillar edge cuts the left of the frame"
     calm: right
     lines:
       - {who: kang_jaeha, type: inner, text: "IT'S SLOW TO TURN IN ALL THAT ARMOUR."}
@@ -702,9 +813,14 @@ panels:
     art: >
       Yerin (song_yerin) stands frozen in the open floor, hands locked on her bag strap. The knight's red
       face-hole turns toward her, his sword drawing back.
+    acting:
+      song_yerin: "alone in the open floor, knees locked together and trembling, both fists locked on her bag strap, shoulders hunched up, eyes wide with tiny pupils fixed on the knight's face"
+    eyeline: "Yerin → the knight's face; the knight → Yerin"
     calm: top
     lines:
       - {who: kang_jaeha, type: shout, text: "GET OUT OF ITS WAY! DON'T STAND IN FRONT OF IT!", side: r}
+    sfx:
+      - {text: "SHAKE SHAKE", style: quiet, at: [0.40, 0.80], size: S, rot: 0}
 
   - id: P45
     recipe: impact
@@ -717,6 +833,9 @@ panels:
       Jaeha (kang_jaeha, vest) dives out from the pillar, grabs Yerin's wrist and drags her behind it. The sword
       smashes the floor where she stood: stone bursting up in faceted chunks, a crack racing across the floor.
       Speed lines along Jaeha's body.
+    acting:
+      kang_jaeha: "fully stretched in a low dive, his right hand clamped on Yerin's wrist, the notebook flying from his left"
+      song_yerin: "yanked off her feet, ponytail and bag strap flying, mouth open"
     calm: top-left
     sfx:
       - {text: "KRAKOOOM", style: impact, at: [0.55, 0.62], size: XL, rot: 10}
@@ -732,10 +851,17 @@ panels:
     art: >
       Behind the pillar: Jaeha (kang_jaeha, vest) holds Yerin's shoulder against the stone, low and calm. She is
       shaking, eyes wide. A pillar edge fills the left of the frame.
+    acting:
+      kang_jaeha: "down on one knee facing her, his left hand pressing her shoulder gently back against the stone, his right hand flat on the pillar beside her head like a shield; head turned slightly toward the danger side but eyes on her; a low, calm face with level brows"
+      song_yerin: "sitting against the pillar with her legs folded awkwardly under her, both hands clutching the bag strap to her chest, shaking, eyes wide and wet, mouth trembling"
+    eyeline: "Jaeha ↔ Yerin"
+    foreground: "the pillar edge fills the left of the frame"
     calm: top
     lines:
       - {who: kang_jaeha, type: speech, text: "STAY BEHIND ME AND KEEP YOUR BACK TO THE PILLAR.", side: r}
       - {who: song_yerin, type: nervous, text: "I CAN'T FEEL MY LEGS. I CAN'T MOVE THEM.", side: l}
+    sfx:
+      - {text: "SHAKE SHAKE", style: quiet, at: [0.30, 0.78], size: S, rot: 0}
 
   - id: P47
     recipe: talk
@@ -747,6 +873,12 @@ panels:
     art: >
       Mok (mok_hangyu) and the two surviving hunters (bh_crossbow, bh_shield) back through the iron door,
       shields up. Mok looks back over the hall with a cold, flat face.
+    acting:
+      mok_hangyu: "backing out with short steps, shield raised in front of him, looking back over his shoulder at the hall with a flat, bored face, his free hand already reaching for the edge of the door"
+      bh_crossbow: "walking backwards beside him with her crossbow raised, glancing nervously toward the knight"
+      bh_shield: "already halfway through the door, hauling it with both hands"
+    eyeline: "Mok → the hall (toward Jaeha); the crossbow woman → the knight; the shield-bearer → the door"
+    foreground: "the red-lit edge of the iron door, cropped, down the right side"
     calm: top
     lines:
       - {who: mok_hangyu, type: shout, text: "PULL BACK, ALL OF YOU! SHUT THAT DOOR!", side: l}
@@ -775,6 +907,9 @@ panels:
     light: "red light from the door on one side of her face"
     art: >
       Yerin (song_yerin) turns toward the slammed door, mouth open, the colour gone from her face.
+    acting:
+      song_yerin: "head snapping round toward the door off-panel left while her body stays pressed to the pillar, one hand dropping off the strap, mouth open, the colour gone from her face, a sweat drop"
+    eyeline: "Yerin → the door"
     calm: right
     lines:
       - {who: song_yerin, type: whisper, text: "THEY... THEY LOCKED US IN HERE WITH IT?", side: l}
@@ -791,6 +926,10 @@ panels:
     art: >
       The knight (knight_commander) looms round the pillar, filling the frame, chains swinging, his red face-hole
       looking down. The bronze nine-tower sigil on his chest catches the green light clearly. Jaeha and Yerin are small shapes at the bottom of the frame.
+    acting:
+      kang_jaeha: "at the bottom of the frame, half-rising in front of Yerin with his left arm out to the side to keep her behind him"
+      song_yerin: "pressed to the pillar behind his arm"
+    eyeline: "Jaeha and Yerin → the knight (up)"
     calm: top-left
     sfx:
       - {text: "DOOM", style: impact, at: [0.20, 0.30], size: L, rot: 0}
@@ -819,6 +958,9 @@ panels:
     art: >
       Yerin (song_yerin) has fallen to the floor in the open beside the pillar. The knight raises his long sword
       high over her, both hands on the grip, chains hanging from his wrists.
+    acting:
+      song_yerin: "fallen on her side, propped on one elbow, her other hand raised uselessly toward the blade, legs tangled in her bag strap, face turned up at the sword"
+    eyeline: "Yerin → the sword"
     calm: top
     silent: true
 
@@ -832,6 +974,9 @@ panels:
     face: private
     art: >
       Extreme close-up: Jaeha's eyes (kang_jaeha), the decision made. No smile.
+    acting:
+      kang_jaeha: "eyes level and hard under lowered brows, the lower lids tight: the face of someone who has stopped being afraid"
+    eyeline: "Jaeha → the knight"
     calm: none
     lines:
       - {who: kang_jaeha, type: intense, text: "GO FIRST. ONE MORE TIME.", side: r}
@@ -847,6 +992,11 @@ panels:
       The husk (husk) steps out of a white seam and plants itself between Yerin and the knight, arms spread.
       But this husk is wrong: hairline cracks run all over its white shell, glowing cyan, glitching at the edges
       with offset red and blue fringes. The cyan light catches Jaeha's face behind it.
+    acting:
+      husk: "plants itself between Yerin and the knight with its arms spread wide, the one time a husk stands like a shield"
+      kang_jaeha: "behind it, down on one knee, his right arm still thrust out where he cast the call, fingers spread, face lit cyan from below, eyes wide"
+      song_yerin: "on the floor behind the husk, staring up at it"
+    eyeline: "Jaeha → the husk; Yerin → the husk"
     calm: top
     sfx:
       - {text: "VZZZT", style: summon, at: [0.75, 0.30], size: L, rot: 0}
@@ -862,6 +1012,9 @@ panels:
     art: >
       Jaeha (kang_jaeha, vest), lit cyan from the front, stares at something in the air in front of him. Leave
       the upper half of the frame empty and dark for the window.
+    acting:
+      kang_jaeha: "on one knee, upper body pulled back, mouth slightly open, staring up at the window in front of him"
+    eyeline: "Jaeha → the window (toward the camera)"
     calm: top
     ui:
       - {kind: system.glitch, "on": float, at: [0.5, 0.08], text: "[OPERATOR CANDIDATE DETECTED]"}
@@ -878,6 +1031,9 @@ panels:
     art: >
       Jaeha's wide eyes at the bottom of the frame, cyan light on them. The upper two-thirds are empty and dark
       for two windows.
+    acting:
+      kang_jaeha: "eyes wide, pupils shrunk, brows lifted"
+    eyeline: "Jaeha → the windows (up)"
     calm: top
     ui:
       - {kind: system.glitch, "on": float, at: [0.5, 0.06], text: "[SENT FIRST: 312 TIMES]"}
@@ -894,6 +1050,9 @@ panels:
     art: >
       The husk's chest is splitting along its glowing cracks like a door outline. Jaeha (kang_jaeha, vest) behind
       it, confused. Leave the top third empty for the window.
+    acting:
+      kang_jaeha: "leaning sideways on one knee to look past the husk, one hand half-raised, brow knitted, mouth open on 'A DOOR?'"
+    eyeline: "Jaeha → the husk's chest"
     calm: top
     ui:
       - {kind: system.glitch, "on": float, at: [0.5, 0.06], text: "[EMERGENCY CALL: 1 · THE HUSK WILL BE USED AS A DOOR]"}
@@ -938,6 +1097,10 @@ panels:
       charcoal cloak with too many pockets, brass binoculars at his chest, bare feet braced on the stone. In the
       foreground at the bottom left, cropped: Yerin on the floor in profile from below, eyes wide. Above, the
       knight's gauntlet with a snapped modern chain cuff, and high above, the red face-hole.
+    acting:
+      nib: "crouched deep with his weight low and centred, shoulders bunched, elbows locked above his head under the crossed knives, toes gripping the stone; deadpan face under the mask, his one visible amber eye on the blade"
+      song_yerin: "flat on the floor in the foreground, propped on her elbows, eyes wide"
+    eyeline: "Nib → the blade; Yerin → Nib"
     calm: top-left
     sfx:
       - {text: "KRANNNG", style: impact, at: [0.25, 0.14], size: XL, rot: -12}
@@ -952,6 +1115,9 @@ panels:
     art: >
       Extreme close-up: Yerin's wide eye and freckled cheek; the knight's blade edge hangs a finger's width away,
       trembling against the crossed knives just out of frame.
+    acting:
+      song_yerin: "one eye wide open, pupil shrunk, a tear standing on the lower lid"
+    eyeline: "Yerin → the blade's edge"
     calm: none
     silent: true
 
@@ -960,11 +1126,15 @@ panels:
     shape: wide
     gap: short
     bg: black
-    camera: "over the goblin's shoulder: he looks back at Jaeha, the blade still held above him"
+    camera: "low, over Jaeha's shoulder from behind the pillar: Nib in the middle distance looks back at him, the blade still held above"
     light: "cyan under-light on his face; red rim from above"
     art: >
       Nib (nib, mask) holds the blade above him one-handed now, the other knife still crossed, and looks back
       over his shoulder at Jaeha with one amber eye under the cracked white mask. Deadpan, unbothered.
+    acting:
+      nib: "still braced under the blade, now holding it off with one knife, the blade's spine against his forearm; the other knife loose in a reverse grip at his hip; head turned back over his left shoulder, unhurried, eyelids half-lowered, mouth a flat line"
+    eyeline: "Nib → Jaeha"
+    foreground: "Jaeha's shoulder and the side of his head, cropped, in the bottom-right corner (he is on one knee)"
     calm: top
     lines:
       - {who: nib, type: speech, text: "WHO'S IN CHARGE HERE?", side: l}
@@ -980,9 +1150,14 @@ panels:
     art: >
       Jaeha (kang_jaeha, vest) on one knee behind the pillar, stunned, half raising one finger like a student
       who isn't sure of the answer.
+    acting:
+      kang_jaeha: "on one knee behind the pillar, frozen mid-flinch, his right index finger half-raised like a student unsure of the answer, his left hand flat on the floor; eyes wide, a sweat drop, an uncertain crooked smile"
+    eyeline: "Jaeha → Nib"
     calm: left
     lines:
       - {who: kang_jaeha, type: speech, text: "I THINK... IT'S ME?", side: r}
+    sfx:
+      - {text: "BLINK BLINK", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
 
   - id: END
     kind: end

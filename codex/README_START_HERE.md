@@ -18,6 +18,8 @@
 
 **Reference, when you need it:**
 - `research/RENDERING_STUDY.md`: what real webtoons do, panel by panel.
+- `research/ACTING_STUDY.md`: how a real summoner manhwa poses bodies, acts faces and stages talk. Its rules are in the style guide, 6b and 11c.
+- `REVIEW_FIXES.md`: Claude's strict review of the first sheets, entry by entry.
 - `research/MANHWA_CRAFT_BIBLE.md`: the chapter-writing rules.
 - `bible/VISUAL_SURVEY.md`: 103 episode-1s.
 - `bible/ART_BIBLE.md`: A5b chibi, A6, A7, A9 (no text in art), A10 (continuity) and Parts B and C still apply.
@@ -42,7 +44,8 @@ Claude opens the Codex chats on the owner's computer and checks every result. Ea
    - **S1–S12:** the model sheets, one chat per character (`MODEL_SHEETS_BRIEF.md`), in a NEW folder `characters_v2/`, never in the old `characters/`;
    - **L1–L5:** the location keys (`LOCATION_KEYS_BRIEF.md`), in `locations_v2/`.
 2. **Last:** S13, the scale chart, once S1–S11 are done.
-3. **Chapter panels:** only after the owner approves the new chapter 1 script. A v2 panel brief comes with it.
+3. **Acting test (A1):** three chapter 1 talk panels (`ACTING_TEST_BRIEF.md`), in `style_test_v2/acting/`, once Jaeha's round 1 fixes are done.
+4. **Chapter panels:** only after the owner approves the new chapter 1 script. A v2 panel brief comes with it.
 
 ## Hard rules for every job
 - **No text in the art,** except the single block letter T on Jaeha's vest patch. Emblems without letters are fine; brand logos and wordmarks are not. The letterer adds every word, sound effect and window. Screens that need content are flat #00FF00.
@@ -57,7 +60,8 @@ Claude keeps the same files in the GitHub repo `abafaboy/abafaboy.github.io`, br
 | Repo | Laptop |
 |---|---|
 | `codex/*.md` (the briefs) | the laptop folder's root |
-| `STORY_BIBLE_v4.md`, `NAME_SHEET.md`, `ART_BIBLE.md` (repo root) | `bible/` |
+| `STORY_BIBLE_v4.md`, `NAME_SHEET.md`, `ART_BIBLE.md`, `SCRIPT_FORMAT_v2.md` (repo root) | `bible/` |
+| `scripts_v2/` (the rebuilt chapter scripts) | `scripts_v2/` |
 | `research/` | `research/` (but `VISUAL_SURVEY.md` is in the laptop's `bible/`) |
 
 When a brief names a path like `codex/MANHWA_STYLE_GUIDE.md`, look for the same file name in the laptop folder.

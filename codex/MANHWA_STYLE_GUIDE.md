@@ -196,6 +196,40 @@ The architecture of each place is described in `CHARACTER_DESIGNS_v2.md` section
   - three or more silent acting panels.
 - **Bystanders act with their bodies:** stepping back, dropping a weapon, freezing, hands over mouths.
 
+## 6b. Acting and staging (from `research/ACTING_STUDY.md`, 25 October)
+
+The owner's verdict on the last manhwa was that body positions, emotions and dialogue panels looked unnatural and AI-made. These rules come from a real summoner manhwa he chose. The script now names the acting for every panel (`acting`, `eyeline` and `foreground` in `SCRIPT_FORMAT_v2.md`). Draw exactly that.
+
+**Bodies**
+1. **Only husks stand like mannequins.** Everyone else carries their weight on one leg: hips tilted one way, shoulders the other, one knee looser. Never both feet square to the camera with the arms hanging.
+2. **Every visible hand has a job.** It holds or touches something (a strap, the notebook, a cup, a weapon, a door frame, their own neck, hair or chin), gestures, or is hidden in a pocket or behind the back. The script's `acting` line names it.
+3. **Heads turn and tilt.** No level, centred, front-facing head in a talk panel. The eyes turn a little further than the head.
+4. **The body moves first.** A reaction shows in the shoulders, hands and feet (a flinch, a step back, a lean in, shoulders up), not only in the face.
+5. **Groups are staggered.** People stand at different depths and overlap, with heads at different heights, each in their own stance. No lineups, except the lineup sheet.
+6. **Show height in the frame.**
+   - Nib (105 cm) with Jaeha (178 cm): put Nib low in a corner looking up and Jaeha looking down, or put the camera at Nib's eye level and crop Jaeha at the chest.
+   - Big figures (Mok, Borro, the knight) are cropped by the top of the panel so their size presses down.
+
+**Faces**
+1. **Use the whole ladder,** from small to big: a sidelong glance; a half-lidded smirk; a strained smile with a sweat drop; wide eyes with small pupils; a scream with the mouth wide open.
+2. **Comedy faces are simplified,** not chibi bodies: blank white eyes, dot eyes, an anger vein, a scratch of the cheek on a dotted or flat pattern background. Use them only on comedy beats.
+3. **Asymmetry reads as alive:** one brow higher, one corner of the mouth, one eye narrower.
+4. **Hide the eyes on purpose:** glasses turned to white glare (Seoa when she is calculating), a dark band of shadow for dread or menace.
+5. **Use sweat drops freely** for nerves and strain.
+
+**Talk panels**
+1. **Eyelines go to the other person.** Faces are three-quarter or profile, looking off-panel toward whoever they are talking to. Only shock or comedy reactions and system panels face the camera.
+2. **Shoot over the listener's shoulder.** The listener's shoulder, the back of their head, or a big prop fills a corner, cropped and kept simple, while the speaker sits in the middle distance.
+   - Stay on the same side of the two people for the whole exchange, so they never swap sides of the frame.
+3. **Change the shot size every panel** in an exchange. A typical run: a wide shot of who is where, a two-shot, alternating close-ups, a hand or prop insert, a reaction, and an extreme close-up of an eye or mouth on the line that matters.
+4. **Crop boldly.** Cut the top of the head, cut at the chest, push a face to one edge. A full figure centred with even headroom belongs only in `establish` panels.
+5. **Frame arrivals and confrontations** between two figures seen from behind in the foreground.
+6. **Use high and low cameras:** look down on a desk, a counter or a group; look up at a confident speaker.
+
+**Small sound effects.** Reactions and small movements get a small `quiet` SFX placed near the movement: GLANCE, FLINCH, TWITCH, GULP, GRIN, SIGH, STEP STEP, SHAKE SHAKE, TAP TAP, PLOP. The script writes them; Codex leaves room for them.
+
+**Panel shape follows the shot:** tall and narrow for a full figure or two stacked faces; wide for a two-shot, a walk or a group; small for a reaction.
+
 ## 7. Effects (refines ART_BIBLE A8)
 
 | Effect | How it is drawn | Where |
@@ -251,9 +285,10 @@ The architecture of each place is described in `CHARACTER_DESIGNS_v2.md` section
 **Order of every image prompt:**
 1. the V2 STYLE BLOCK (10.1), followed by the CLEAN-UP LINE (10.4);
 2. the recipe line: shape, camera, key light and calm zone (10.2);
-3. the scene: who, where, the action, the acting;
-4. the prompt snippet of every character in the panel (`CHARACTER_DESIGNS_v2.md` section 8), word for word. Where the scene changes something (a prop in a hand, a hood up, a different outfit), the scene wins: drop or change the clashing words;
-5. the NEGATIVE BLOCK (10.3).
+3. the scene: who, where, the action;
+4. the ACTING LINES (10.5): the script's `acting`, `eyeline` and `foreground`, word for word;
+5. the prompt snippet of every character in the panel (`CHARACTER_DESIGNS_v2.md` section 8), word for word. Where the scene changes something (a prop in a hand, a hood up, a different outfit), the scene wins: drop or change the clashing words;
+6. the NEGATIVE BLOCK (10.3).
 
 Pass the model sheet of every character in the panel as a reference image, once the sheets exist. Never pass real webtoon images, the old cast's sheets (Taeo, the old Nib) or old chapter panels.
 
@@ -297,6 +332,12 @@ Pass the model sheet of every character in the panel as a reference image, once 
 ### 10.4 CLEAN-UP LINE (paste right after the STYLE BLOCK, every prompt, from 25 October)
 > Hand-made webtoon colouring: each garment has only a few large, opaque, clean-edged shadow shapes, placed in its real folds; no scattered translucent streaks, zigzag shards or crumpled-foil folds. Worn cloth shows a few small frayed notches and loose threads, never sawtooth edges along every edge. Plain shoes and clothes with no logos, stripes or brand marks. Every strap, buckle, pocket and seam is attached and has a purpose; no stray stitch marks. Matte skin, hair and stone; no 3D, low-poly or plastic look.
 
+### 10.5 ACTING LINES (every chapter panel with a character in it; not model sheets)
+- **Write the acting as physical facts, one sentence per character,** in this order: stance and weight; what each hand is doing; head and eyes; the face. Use verbs caught mid-action ("shifting his weight", "halfway through turning", "mid-step"), not adjectives like "natural" or "dynamic", which do nothing.
+- **Then the eyeline** ("Mok looks down at Jaeha; Jaeha looks up at Mok") **and the foreground** ("Jaeha's right shoulder and the back of his head fill the right third, cropped by the frame").
+- **Add this sentence to every panel prompt that passes a model sheet:**
+  > The reference images show only the characters' design (face, hair, clothes, colours, props). Do not copy their standing poses or front-facing angles: pose, camera and expression come only from the scene text.
+
 ## 11. Check every image before you accept it
 
 **From 25 October, the owner's order: be strict.** An image that looks AI-made, or has any weird detail, is a reject even when the locks are right. Run 11b on every image as well as the list below.
@@ -326,6 +367,18 @@ Reject the image if any of these show. Look at it full size, then at 200 px wide
 7. **Anatomy.** Count the fingers and toes; check every joint bends the right way; eyes level; limbs the same length in every view.
 8. **Background.** Sheets: flat #E9E9EC only, no vignette, gradient or texture, and no shadow pool larger than a soft contact shadow under the feet.
 9. **Modesty.** Kang Seoa is 15: her skirt reaches the top of her knee, and nothing in her images is styled to show skin. Adults wear exactly the design's clothes.
+
+### 11c. Acting checks (chapter and test panels only)
+
+These do not apply to model sheets, whose turnarounds stand neutral by design. Reject a panel if any of these is true:
+1. **Mannequin stance.** Someone other than a husk stands square to the camera with their weight on both feet and their arms hanging.
+2. **Idle hands.** A visible hand is limp with no job, floats, is duplicated, or does something the `acting` line did not ask for.
+3. **Wrong eyeline.** In a talk panel, the speakers look at the camera instead of at each other, or the eyelines do not match the script's `eyeline`.
+4. **Wrong emotion.** The face does not read as the script's emotion within one look at phone size, or a calm, model-like face appears on an emotional beat.
+5. **Flat staging.** In a non-`establish` panel, the subject is centred with even headroom and nothing is cropped. Or two talk panels in a row have no foreground element, crop or over-the-shoulder.
+6. **Repeated camera.** The same camera angle and shot size as the panel before.
+7. **Lineup.** Three or more people side by side at one depth with their heads at the same height.
+8. **Copied sheet pose.** A character stands in their model sheet's front-view pose.
 
 ## 12. Ours against real, in one line each
 

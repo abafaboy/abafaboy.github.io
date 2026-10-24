@@ -10,6 +10,9 @@ v2 keeps every field of `SCRIPT_FORMAT.md`, so the letterer and the video tools 
 | `light` | the key light (and back light, if any) in a few words | Codex, with style guide table 10.2 |
 | `face` | `public` or `private` (Jaeha only) | Codex: the polite mask, or the cold reader underneath |
 | `kind` | `title` (title card), `caption` (no art: narration set straight on the page background), `end` (end card with `chibi_gag`) | the letterer |
+| `acting` | a map from character id to one sentence each: stance and weight; what each hand is doing; head and eyes; face. Physical facts with verbs caught mid-action, never "natural" or "dynamic". Required for every character whose body or face is readable (not for tiny figures or silhouettes). | Codex, with style guide 6b and 10.5 |
+| `eyeline` | who looks at whom: "Mok → Jaeha (down); Jaeha → Mok (up)". "→ camera" only in shock, comedy and `system` panels. | Codex |
+| `foreground` | the framing element in front of the subject: a shoulder, the back of a head, a pillar edge, a prop, always cropped. Required on at least every other `talk` panel, and on any `talk` panel that follows another `talk` panel. | Codex |
 
 `caption` panels need no image. The letterer sets their lines on the page colour given in `bg`.
 
@@ -36,6 +39,12 @@ These come from `research/MANHWA_CRAFT_BIBLE.md` section L.
 13. A fight adds something new, and the enemy can really win.
 14. Bystanders react with their bodies, not with praise speeches.
 15. At least 3 silent panels, 1 extreme close-up and 1 big reaction. Chibi appears only on comedy beats, and the end card carries a chibi gag.
+
+**Acting rules,** added 25 October from `research/ACTING_STUDY.md`:
+
+16. Every panel where a character's body or face is readable has an `acting` line for that character, and the hands are named.
+17. In a run of talk panels, no two in a row share both the camera side and the shot size. The run moves through wide, two-shot, close-ups, an insert, a reaction and an extreme close-up.
+18. Reactions and small movements carry a small `quiet` SFX near the movement: GLANCE, FLINCH, TWITCH, GULP, GRIN, SIGH, STEP STEP, SHAKE SHAKE, TAP TAP, PLOP. Aim for at least six in a chapter.
 
 ## Ids
 - **Characters:** the ids in `NAME_SHEET.md`, plus these for chapter 1: `bh_spear`, `bh_axe`, `bh_sword`, `bh_mage`, `bh_crossbow`, `bh_shield` (Black Hound hunters 1–6 in `codex/CHARACTER_DESIGNS_v2.md` 2.5).

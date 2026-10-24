@@ -74,6 +74,10 @@ You are chat L4 for My Summons Go First. Read README_START_HERE.md in this folde
 
 You are chat L5 for My Summons Go First. Read README_START_HERE.md in this folder and the files in its reading order, then do entry L5 of LOCATION_KEYS_BRIEF.md exactly, writing only in locations_v2/memorial_hall/ and locations_v2/kanghan_monitor/. Other Codex chats are drawing other entries at the same time; never touch their folders. When the entry is done, write its DONE.md and stop. Do not stop to ask anything; finish the job.
 
+## A1 · acting test (open once Jaeha's round 1 fixes are done)
+
+You are chat A1 for My Summons Go First. Read README_START_HERE.md in this folder and the files in its reading order, then do ACTING_TEST_BRIEF.md exactly: draw the three chapter 1 talk panels, write style_test_v2/acting/PROMPTS.json and style_test_v2/acting/REPORT.md, then stop. Other Codex chats are working at the same time, so write only in style_test_v2/acting/. Do not stop to ask anything; finish the job.
+
 ## S13 · scale chart (open last)
 
 You are chat S13 for My Summons Go First. Read README_START_HERE.md in this folder and the files in its reading order, then do entry S13 of MODEL_SHEETS_BRIEF.md exactly, writing only characters_v2/scale_chart_v2.png and characters_v2/scale_chart_v2_prompts.json. Use each character's own front view in characters_v2/ as reference. Then stop. Do not stop to ask anything; finish the job.
