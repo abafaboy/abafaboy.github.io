@@ -1,0 +1,1203 @@
+chapter: 34
+title: Just One More
+format: SCRIPT_FORMAT_v2.md
+when: "Monday 4:00 AM to Tuesday night, Busan: the breakwater, the harbour fish market, Auntie Geum's stall, the stony shore under the breakwater, and a black car on the harbour road."
+story_beats: ARC5_BEATS.md#34-just-one-more-hook-threat
+cast:
+  kang_jaeha: training       # Geum's spare purple tracksuit (CHARACTER_DESIGNS_v2.md 2.20)
+  nib: mask                  # seal 3/5 armour; the cracked husk mask in public, none in Geum's tent; rest form except P50-P52
+  borro: default             # husk face in public; rest form except P50-P52
+  lyra: default              # no mask; rest form except P50-P52
+  geum_okran: default
+  market_aunties: default    # generic, three stallholders (2.20)
+  fishermen: default         # generic
+  kang_seoa: default         # on a video call only (P30); 15: never any fan service
+  yoo_bomi: default          # on the phone only (P31)
+  han_sora: kanghan          # in a parked car (P35-P37)
+  baek_taegun: default       # on the phone only (P36)
+  brine_crawler: default     # the hook (P56-P62)
+locations: [busan_breakwater, busan_fish_market, geum_stall]
+continuity:
+  - "Kang Seoa (15): her outfit as each panel says; glasses, the calculator keychain. Never any fan service. The camera stays at her eye level or above, never below."
+  - "Jaeha: Geum's spare tracksuit, faded purple like hers and too short at the wrists and ankles, a towel round his neck, his own trainers; his hands still shake a little (a faint tremor line on the fingers), a little less by Tuesday. Notebook in the LEFT chest pocket of the tracksuit top, pencil behind the RIGHT ear, fringe over the LEFT eye."
+  - "Nib: seal 3/5, the scout-captain armour (CHARACTER_DESIGNS_v2.md 2.2) over the cloak; the cracked husk mask over the upper LEFT of his face in public; no mask inside Geum's tent. Rest form (dull eyes, no outline) except the sparring on the shore, P50-P52 (field form: amber eyes, thin amber outline)."
+  - "Borro: 2.4 m, the slate shell with moss and tiny flowers, the door-sized iron shield; the white husk face tied on with cord in public. Rest form except P50-P52 (field form: moss-green glow)."
+  - "Lyra: her design exactly (2.10), no mask; rest form except P50-P52 (field form: river-blue glow). Fan service: confident and beautiful, never a camera below her waist level."
+  - "Auntie Geum Okran (2.17): apron over the purple tracksuit, headscarf, pink slippers, the steel LEFT arm, the ladle in her RIGHT hand; in P01-P09 she rides a battered red moped and shouts through a rolled-up newspaper."
+  - "The market aunties (generic, 2.20): one tall and thin in a sun visor, one round in a floral headscarf, one tiny with a gold necklace; rubber aprons, boots and arm sleeves."
+  - "Han Sora (2.16): the charcoal Kanghan jacket over a black top, her black bob, red lips; a fresh bandage round her RIGHT wrist; a new slim silver compass on a fine chain round her LEFT wrist (section 6), its needle a violet sliver of core."
+  - "The breakwater (new location busan_breakwater): a concrete breakwater running 1 km out from the harbour, a walkway 6 m wide with a low parapet, grey tetrapods piled on the seaward side, a red lighthouse 12 m tall at its end; Geum's orange tent glows at the edge of the market behind."
+  - "The fish market (new location busan_fish_market): a big covered market by the harbour: rows of tanks with live fish, crabs and octopus, ice trays, red plastic tubs, wet concrete, fluorescent tubes; at the back the cold store's insulated steel door."
+  - "A brine crawler (4d.1): a dog-sized crab-and-eel thing, black-grey carapace 80 cm long, two serrated claws, six spiny legs, a 1 m eel's tail, a round needle-toothed mouth, no eyes, violet cracks leaking ash."
+plants:
+  - "PLANT P20-P25: the window's small print: CARRY CAPACITY grows with sustained load, not peak load (Arc 5 training; STORE in ch 38)."
+  - "PLANT P35-P37: Sora watches from the harbour road with a new compass on her LEFT wrist (ch 37)."
+  - "PLANT P38-P42: dead fish with violet-tinged scales; Geum's steel arm twitches; the failing seal (ch 36: 72 hours)."
+  - "PLANT P43-P45: Geum won't talk about the man ten years ago (ch 35)."
+  - "PLANT P51: Nib hears the sea sound like a wall before it falls."
+hook_type: threat
+
+panels:
+
+  # ================= FOUR O'CLOCK (P01-P09) =================
+  - id: P01
+    recipe: establish
+    shape: wide
+    gap: none
+    bg: black
+    camera: "high and wide over the harbour in the dark: the long breakwater running out to the red lighthouse, one moped headlight crawling along it beside one staggering figure"
+    light: "no daylight: the lighthouse beam and one moped headlight; the city's lights far behind"
+    art: >
+      Black sky over Busan's harbour before dawn, from high and wide: the long concrete breakwater (location busan_breakwater) runs
+      out into the black sea toward the red lighthouse at its end, its beam sweeping. Halfway along it, one moped headlight crawls
+      beside one small staggering figure. The city's towers glitter far behind the harbour. Scale: the breakwater is 1 km long; the
+      figures are specks.
+    calm: top
+    silent: true
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "BUSAN. MONDAY, 4:00 AM."}
+    sfx:
+      - {text: "putt putt putt", style: quiet, at: [0.46, 0.66], size: S, rot: 0}
+
+  - id: P02
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, side-on along the walkway: Jaeha staggering along in the too-short purple tracksuit, Geum riding beside him on a battered red moped, shouting through a rolled-up newspaper"
+    light: "the moped's headlight raking across them; the lighthouse beam behind"
+    face: public
+    art: >
+      Side-on along the breakwater's walkway: Jaeha (kang_jaeha, training) staggers along in Geum's faded purple tracksuit, too short at
+      the wrists and ankles, a towel flapping round his neck, sweat flying; beside him Auntie Geum (geum_okran), in her apron over the
+      same purple tracksuit, putters along on a battered red moped, steering with her steel LEFT hand and shouting at him through a
+      rolled-up newspaper in her RIGHT.
+    acting:
+      kang_jaeha: "staggering forward with his arms flopping, knees barely lifting, mouth hanging open, eyes half shut"
+      geum_okran: "riding upright with the steel hand on the handlebar, the newspaper megaphone at her mouth, leaning toward him, furious and delighted"
+    eyeline: "Geum → Jaeha; Jaeha → the ground ahead"
+    foreground: "the parapet's edge, cropped, bottom"
+    calm: top
+    lines:
+      - {who: geum_okran, type: shout, text: "LIFT YOUR KNEES! YOU RUN LIKE A WET NOODLE!", side: r}
+      - {who: kang_jaeha, type: nervous, text: "AUNTIE, IT'S FOUR O'CLOCK IN THE MORNING...", side: l}
+    sfx:
+      - {text: "huff huff huff", style: quiet, at: [0.22, 0.40], size: S, rot: 0}
+
+  - id: P03
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "eye level, behind them on the walkway: the three summons jogging along behind, Lyra backwards, Nib with a flat stare, Borro walking"
+    light: "the lighthouse beam passing over them"
+    art: >
+      Behind them on the walkway: Lyra (lyra) jogs backwards with no effort at all, her braid swinging over her LEFT shoulder, yawning;
+      Nib (nib, mask) jogs beside her with a flat stare; Borro (borro, husk face) simply walks, one of his steps covering three of theirs.
+    acting:
+      lyra: "jogging backwards, hands laced behind her head, a huge yawn"
+      nib: "jogging with short neat steps, arms tight at his sides, a flat stare ahead"
+      borro: "walking slowly behind them, the shield on his back, perfectly calm"
+    eyeline: "Lyra → Nib; Nib → ahead"
+    calm: left
+    lines:
+      - {who: lyra, type: speech, text: "WHY ARE WE RUNNING IF NOTHING IS CHASING US?", side: l}
+      - {who: nib, type: speech, text: "SOMETHING IS ALWAYS CHASING.", side: r}
+    sfx:
+      - {text: "pat pat pat", style: quiet, at: [0.70, 0.82], size: S, rot: 0}
+
+  - id: P04
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, at the foot of the lighthouse: Jaeha collapsing face-down on the concrete, the red tower rising behind him"
+    light: "the lighthouse beam overhead; the moped headlight stopping on him"
+    art: >
+      At the foot of the red lighthouse at the end of the breakwater, from low: Jaeha (kang_jaeha, training) collapses face-down on the
+      concrete like a dropped coat, arms out, the towel over his head; the moped's front wheel stops right beside his ear. Scale: the
+      lighthouse is 12 m tall, six times his height.
+    acting:
+      kang_jaeha: "sprawled face-down, arms flung out, one trainer twisted, completely limp"
+    calm: top
+    sfx:
+      - {text: "THUD", style: impact, at: [0.40, 0.70], size: L, rot: -6}
+
+  - id: P05
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "eye level: Borro scooping Jaeha up and slinging him over one shoulder like a sack of rice"
+    light: "the lighthouse beam"
+    art: >
+      Borro (borro, husk face) scoops Jaeha (kang_jaeha, training) off the ground with one hand and slings him over his shoulder like a
+      sack of rice, his limp arms dangling down Borro's mossy shell.
+    acting:
+      borro: "lifting him one-handed, settling him on his shoulder, calm"
+      kang_jaeha: "hanging over Borro's shoulder, arms dangling, eyes rolled up"
+    eyeline: "Borro → Geum"
+    calm: right
+    lines:
+      - {who: borro, type: speech, text: "I WILL CARRY HIM HOME.", side: l}
+    sfx:
+      - {text: "HUP", style: comic, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P06
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low two-shot past the moped's handlebar: Geum pointing the newspaper up at Borro like a sword"
+    light: "the moped headlight from below"
+    art: >
+      Past the moped's handlebar, from low: Geum (geum_okran), still astride the moped, points the rolled newspaper straight up at Borro
+      (borro) like a sword; Borro freezes with Jaeha (kang_jaeha) over his shoulder.
+    acting:
+      geum_okran: "jabbing the newspaper up at Borro, steel hand on her hip, eyes narrowed"
+      borro: "frozen mid-step, looking down at her"
+      kang_jaeha: "dangling over Borro's shoulder"
+    eyeline: "Geum → Borro (up); Borro → Geum (down)"
+    foreground: "the moped's handlebar and mirror, cropped, left"
+    calm: top
+    lines:
+      - {who: geum_okran, type: shout, text: "PUT HIM DOWN. SUMMONS DON'T CARRY THE OPERATOR.", side: l}
+    sfx:
+      - {text: "FREEZE", style: comic, at: [0.78, 0.36], size: S, rot: 4}
+
+  - id: P07
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high, looking down on Jaeha on his back on the concrete, Geum standing over him with the newspaper on her shoulder"
+    light: "the lighthouse beam sweeping across"
+    face: public
+    art: >
+      From high: Jaeha (kang_jaeha, training) lies on his back on the concrete where Borro has set him down, chest heaving; Geum
+      (geum_okran) stands over him with the newspaper on her shoulder like a rifle.
+    acting:
+      kang_jaeha: "flat on his back, chest heaving, one hand raised weakly, a pained smile"
+      geum_okran: "standing over him with her feet planted, newspaper on her shoulder, looking down hard"
+    eyeline: "Geum → Jaeha (down); Jaeha → Geum (up)"
+    foreground: "Borro's huge foot, cropped, right"
+    calm: top
+    lines:
+      - {who: geum_okran, type: speech, text: "THE OPERATOR CARRIES FOR THEM. SO THE OPERATOR GETS STRONG.", side: r}
+      - {who: kang_jaeha, type: speech, text: "THAT'S... ACTUALLY A VERY GOOD RULE.", side: l}
+
+  - id: P08
+    recipe: system
+    shape: inset-r
+    gap: short
+    bg: navy
+    camera: "close and high on Jaeha on the concrete, a window opening over his face"
+    light: "cyan window glow on his face; the lighthouse beam"
+    face: private
+    art: >
+      Close and high on Jaeha (kang_jaeha, training) on the concrete, staring up as a window opens over his face. The upper half is
+      empty for the window.
+    acting:
+      kang_jaeha: "lying still, eyes open, reading the window, sweat on his forehead"
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.06], headline: "[QUEST: THE WALL OF BUSAN · DAY 1]", body: "CARRY CAPACITY: 100% · BODY RATING: F", button: "OK"}
+
+  - id: P09
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: black
+    camera: "high and wide from above the breakwater at first light: the harbour waking, the orange tent glowing at the edge of the market"
+    light: "first grey-pink light over the sea; bare bulbs in the tent"
+    art: >
+      High and wide at first light: the sea turns grey-pink; fishing boats start their engines in the harbour; at the edge of the fish
+      market, Geum's orange tarp tent glows with bare bulbs, steam rising from it. On the breakwater, tiny, Jaeha walks back on his own
+      feet with the summons around him. Scale: the market hall is the size of a football pitch.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "kyaa... kyaa...", style: quiet, at: [0.78, 0.20], size: S, rot: 0}
+
+  - id: P10
+    kind: title
+    shape: full
+    gap: long
+    bg: black
+    title_card: "MY SUMMONS GO FIRST · CHAPTER 34 · JUST ONE MORE"
+    notes: "Title card at panel 10 of 62 (16%)."
+
+  # ================= CARRY ICE (P11-P26) =================
+  - id: P11
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: black
+    camera: "eye level, down a long aisle of the fish market: tanks, ice trays, red tubs, aunties in rubber aprons"
+    light: "flat fluorescent tubes; wet reflections on the concrete"
+    art: >
+      Inside the harbour fish market (location busan_fish_market) at 5 AM, down a long aisle at eye level: rows of tanks full of live
+      fish, crabs and octopus, ice trays heaped with mackerel, red plastic tubs, wet concrete shining under the fluorescent tubes,
+      stallholders in rubber aprons hauling crates. Scale: the tanks are waist-high; the hall is 15 m high.
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "5:00. CARRY ICE."}
+    sfx:
+      - {text: "slosh... clatter...", style: quiet, at: [0.70, 0.80], size: S, rot: 0}
+
+  - id: P12
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, three-shot: the three market aunties side by side with folded arms and banknotes, sizing Jaeha up"
+    light: "fluorescent; the tanks glowing blue behind"
+    art: >
+      The three market aunties (market_aunties) stand side by side in their rubber aprons with folded arms, banknotes between their
+      fingers, sizing someone up: the tall thin one in a sun visor, the round one in a floral headscarf, the tiny one with a gold
+      necklace.
+    acting:
+      market_aunties: "the tall one tapping a banknote on her chin; the round one shaking her head slowly; the tiny one grinning, waving her cash"
+    eyeline: "the aunties → Jaeha (off-panel)"
+    foreground: "a stack of ice crates, cropped, left"
+    calm: top
+    lines:
+      - {who: market_aunties, type: speech, text: "TEN THOUSAND SAYS HE DROPS THE THIRD CRATE.", side: l}
+      - {who: market_aunties, type: speech, text: "THIRD? HE WON'T MAKE IT TO TWO.", side: r}
+    sfx:
+      - {text: "flap flap", style: quiet, at: [0.82, 0.30], size: S, rot: 0}
+
+  - id: P13
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Jaeha's shaking forearms under a crate of ice and mackerel"
+    light: "fluorescent; ice glittering"
+    art: >
+      Close on Jaeha's forearms (kang_jaeha, training) under a crate of ice and mackerel, the sleeves riding up, the muscles trembling,
+      ice water dripping off his elbows.
+    acting:
+      kang_jaeha: "arms locked under the crate, forearms trembling, fingers white"
+    calm: right
+    silent: true
+    sfx:
+      - {text: "WOBBLE", style: comic, at: [0.70, 0.40], size: M, rot: 8}
+
+  - id: P14
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the wet floor: the crate hitting the concrete, ice and mackerel exploding everywhere, the aunties cheering behind"
+    light: "fluorescent; ice spray catching the light"
+    art: >
+      From low on the wet floor: the crate hits the concrete and bursts, ice and silver mackerel skidding everywhere; Jaeha (kang_jaeha,
+      training) stands over it with his arms still out; behind him the three aunties (market_aunties) cheer and swap banknotes.
+    acting:
+      kang_jaeha: "standing frozen with empty arms held out, staring down at the mess"
+      market_aunties: "throwing up their hands, slapping banknotes into each other's palms, laughing"
+    calm: top
+    sfx:
+      - {text: "KRSSSHH", style: impact, at: [0.40, 0.72], size: L, rot: -6}
+
+  - id: P15
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: Borro carrying four crates stacked on his shoulder, the aunties gazing up at him"
+    light: "fluorescent"
+    art: >
+      Borro (borro, husk face) walks down the aisle with four crates of ice stacked on one shoulder as if they were empty; the aunties
+      (market_aunties) gaze up at him with their hands clasped.
+    acting:
+      borro: "walking slowly, four crates balanced on one shoulder, one hand steadying them"
+      market_aunties: "hands clasped under their chins, gazing up at him, the tiny one pressing a fish cake into his free hand"
+    eyeline: "the aunties → Borro (up); Borro → ahead"
+    foreground: "a tank of octopus, cropped, right"
+    calm: top
+    lines:
+      - {who: market_aunties, type: speech, text: "THE BIG ONE CAN STAY FOREVER.", side: l}
+      - {who: borro, type: speech, text: "I LIKE IT HERE. IT SMELLS LIKE THE SEA. MOSTLY.", side: r}
+    sfx:
+      - {text: "STEP... STEP...", style: quiet, at: [0.30, 0.86], size: S, rot: 0}
+
+  - id: P16
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close two-shot at a tank: Lyra holding her nose at a glaring octopus, Nib behind her stealing a fish cake"
+    light: "the tank's blue glow on her face"
+    art: >
+      At a tank of octopus: Lyra (lyra) pinches her nose and leans away from an octopus glaring at her through the glass; behind her, Nib
+      (nib, mask) quietly slides a fish cake off a stall tray.
+    acting:
+      lyra: "pinching her nose with her RIGHT hand, leaning back, lip curled"
+      nib: "sliding a fish cake off the tray with two fingers, eyes flat, looking the other way"
+    eyeline: "Lyra → the octopus; the octopus → Lyra"
+    calm: left
+    lines:
+      - {who: lyra, type: speech, text: "EVERYTHING HERE IS DEAD AND STARING AT ME.", side: l}
+    sfx:
+      - {text: "snitch", style: quiet, at: [0.78, 0.70], size: S, rot: 0}
+
+  - id: P17
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, side-on: Geum slapping a fresh crate into Jaeha's arms"
+    light: "fluorescent"
+    face: public
+    art: >
+      Side-on: Geum (geum_okran) slaps a fresh crate of ice into Jaeha's arms (kang_jaeha, training) with her steel hand; he staggers.
+    acting:
+      geum_okran: "shoving the crate into his arms with the steel hand, the ladle tucked under her RIGHT arm, unimpressed"
+      kang_jaeha: "staggering under the crate, knees bending, a pleading face"
+    eyeline: "Geum → Jaeha; Jaeha → Geum"
+    foreground: "the edge of an ice tray, cropped, bottom"
+    calm: top
+    lines:
+      - {who: geum_okran, type: speech, text: "AGAIN.", side: l}
+      - {who: kang_jaeha, type: nervous, text: "MY ARMS ARE SHAKING, AUNTIE.", side: r}
+      - {who: geum_okran, type: speech, text: "GOOD. THAT MEANS THEY'RE WORKING.", side: l}
+    sfx:
+      - {text: "THUNK", style: comic, at: [0.50, 0.50], size: S, rot: 0}
+
+  - id: P18
+    recipe: system
+    shape: inset-l
+    gap: short
+    bg: navy
+    camera: "close on Jaeha holding the crate, a small window glowing beside his ear"
+    light: "cyan window glow"
+    art: >
+      Close on Jaeha (kang_jaeha, training) holding the crate, glancing at a small window beside his ear. The right side is calm for the
+      window.
+    acting:
+      kang_jaeha: "holding the crate, eyes sliding sideways to the window"
+    calm: right
+    silent: true
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.66, 0.40], text: "[CARRY CAPACITY 100% → 100.4%]"}
+
+  - id: P19
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of Jaeha's eyes narrowing at the window"
+    light: "cyan glow in his eyes"
+    face: private
+    art: >
+      Extreme close-up of Jaeha's eyes (kang_jaeha), narrowing, the cyan of the window reflected in them. Fill the canvas edge to edge.
+    acting:
+      kang_jaeha: "eyes narrowing, reading closely, the polite look gone"
+    calm: none
+    silent: true
+
+  - id: P20
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: navy
+    camera: "close on the window, the small print expanding under his finger"
+    light: "cyan"
+    art: >
+      Close on the window as Jaeha's fingertip drags it open: a second line of small print unfolds under the first. Keep the panel plain
+      for the window.
+    acting:
+      kang_jaeha: "one finger dragging the window open, the crate balanced on his other forearm"
+    calm: all
+    silent: true
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.18], headline: "[CARRY CAPACITY]", body: "GROWS WITH SUSTAINED LOAD · PEAK LOAD HAS NO EFFECT", button: "OK"}
+
+  - id: P21
+    recipe: talk
+    shape: narrow-l
+    gap: short
+    bg: black
+    camera: "close on Jaeha's face, calm and cold behind the shaking arms"
+    light: "fluorescent; a cyan edge from the window"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha, training), his arms still shaking under the crate, but his face gone calm and cold.
+    acting:
+      kang_jaeha: "jaw set, eyes level, a faint cold smile"
+    calm: right
+    lines:
+      - {who: kang_jaeha, type: inner, text: "IT DOESN'T CARE HOW HEAVY. IT CARES HOW LONG."}
+
+  - id: P22
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, over Geum's shoulder: Jaeha setting the crate down and talking to her"
+    light: "fluorescent"
+    face: public
+    art: >
+      Over Geum's shoulder (geum_okran, cropped, left): Jaeha (kang_jaeha, training) sets the crate down carefully and straightens up to
+      talk to her, polite again.
+    acting:
+      kang_jaeha: "setting the crate down, straightening, one hand raised like a student asking a question"
+      geum_okran: "seen from behind, the ladle stopping halfway to her shoulder"
+    eyeline: "Jaeha → Geum"
+    foreground: "Geum's headscarf and shoulder, cropped, left"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "AUNTIE, DON'T GIVE ME THE HEAVIEST THING.", side: r}
+      - {who: kang_jaeha, type: speech, text: "GIVE ME THE THING I CAN HOLD THE LONGEST.", side: r}
+
+  - id: P23
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Geum, the gold tooth slowly showing in a grin"
+    light: "fluorescent"
+    art: >
+      Close on Geum (geum_okran): one corner of her mouth goes up, and the gold tooth slowly shows.
+    acting:
+      geum_okran: "a slow crooked grin spreading, the gold tooth glinting, eyes narrowing with approval"
+    calm: right
+    silent: true
+    sfx:
+      - {text: "GRIN", style: quiet, at: [0.70, 0.40], size: S, rot: 0}
+
+  - id: P24
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, wide: Jaeha sitting on an upturned tub holding a tray of ice level on his forearms, writing in his notebook on his knee, the aunties staring"
+    light: "fluorescent; the ice melting into a puddle under him"
+    art: >
+      Wide, at eye level: Jaeha (kang_jaeha, training) sits on an upturned red tub holding a full tray of ice perfectly level on his
+      forearms, and writes in his notebook propped on one knee with the pencil; a big puddle of meltwater has spread under him. The
+      aunties (market_aunties) stand in a row staring at him; Borro (borro, husk face) watches from behind a stack of crates.
+    acting:
+      kang_jaeha: "sitting upright, the tray level on his forearms, writing small with the pencil, arms trembling a little"
+      market_aunties: "standing in a row with their hands on their hips, heads tilted, baffled"
+      borro: "peering over the crates, slow and curious"
+    eyeline: "the aunties → Jaeha; Jaeha → the notebook"
+    foreground: "the puddle and a dropped mackerel, cropped, bottom"
+    calm: top
+    lines:
+      - {who: market_aunties, type: speech, text: "HE'S BEEN HOLDING THAT TRAY FOR AN HOUR.", side: l}
+      - {who: market_aunties, type: speech, text: "IS HE WRITING A NOVEL IN THERE?", side: r}
+    sfx:
+      - {text: "drip... drip...", style: quiet, at: [0.40, 0.86], size: S, rot: 0}
+
+  - id: P25
+    recipe: system
+    shape: inset-r
+    gap: short
+    bg: navy
+    camera: "close on Jaeha's hand closing into a fist under the tray, a window glowing"
+    light: "cyan"
+    face: private
+    art: >
+      Close on Jaeha's RIGHT hand (kang_jaeha) under the tray, slowly closing into a quiet fist; the trembling is a little less. The upper
+      part is empty for the window.
+    acting:
+      kang_jaeha: "his fist closing slowly and firmly under the tray"
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.08], text: "[CARRY CAPACITY 100% → 104%]"}
+
+  - id: P26
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "eye level from behind the tanks: Geum turning away with the ladle on her shoulder, muttering"
+    light: "fluorescent; tank blue"
+    art: >
+      From behind a row of tanks: Geum (geum_okran) turns away with the ladle on her shoulder, muttering to herself, not letting anyone
+      see her face.
+    acting:
+      geum_okran: "turning away, ladle on her shoulder, lips moving, a small proud smile she hides"
+    calm: right
+    lines:
+      - {who: geum_okran, type: whisper, text: "...HEAD S-RANK.", side: l}
+
+  # ================= THE TENT (P27-P34) =================
+  - id: P27
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: black
+    camera: "eye level, inside the orange tent: everyone squeezed along the counter with paper cups of tteokbokki, steam, the sunrise through the flap"
+    light: "bare bulbs; the pan's red glow; gold sunrise through the tent flap"
+    art: >
+      Inside Geum's orange tent (location geum_stall) at sunrise: Jaeha (kang_jaeha, training), Lyra (lyra) and Nib (nib, no mask) sit
+      squeezed along the counter on plastic stools with paper cups of red tteokbokki; Borro (borro, no husk face) sits on the ground
+      outside the flap with his head inside the tent; steam rolls off the big pan; the gold sunrise shows through the flap behind them.
+    acting:
+      kang_jaeha: "hunched over his cup, eating hungrily, eyes closed with relief"
+      lyra: "blowing on a fish cake on a skewer, picky"
+      nib: "sitting very upright, cup in both hands"
+      borro: "kneeling outside with only his head and one shoulder through the flap, a lettuce leaf in his fingers"
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "6:00. TTEOKBOKKI."}
+    sfx:
+      - {text: "bloop... bloop...", style: quiet, at: [0.50, 0.70], size: S, rot: 0}
+
+  - id: P28
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level two-shot across the counter: Geum setting a stool and a bowl of soup in front of Nib"
+    light: "bare bulbs; steam"
+    art: >
+      Across the counter: Geum (geum_okran) sets down a plastic stool and a bowl of fish-cake soup in front of Nib (nib, no mask), who has
+      been standing at attention by the tent pole.
+    acting:
+      geum_okran: "putting the bowl down with the steel hand, pushing the stool out with her slipper"
+      nib: "standing at attention, looking from the stool to her, ears lifting"
+    eyeline: "Geum → Nib; Nib → Geum"
+    foreground: "the steaming pan's rim, cropped, bottom"
+    calm: top
+    lines:
+      - {who: geum_okran, type: speech, text: "SIT, SOLDIER. YOU'VE STOOD ENOUGH.", side: l}
+      - {who: nib, type: speech, text: "...THANK YOU, MA'AM.", side: r}
+    sfx:
+      - {text: "clunk", style: quiet, at: [0.40, 0.80], size: S, rot: 0}
+
+  - id: P29
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Nib sitting with the bowl, Geum's steel hand resting on the counter beside it"
+    light: "bare bulbs"
+    art: >
+      Close on Nib (nib, no mask) sitting on the stool with the bowl in both hands; Geum's steel hand (geum_okran) rests on the counter
+      beside the bowl.
+    acting:
+      nib: "holding the bowl in both hands, ears twitching, eyes down"
+      geum_okran: "her steel hand flat on the counter, leaning a little on it"
+    eyeline: "Nib → the soup"
+    foreground: "steam from the pan, cropped, top"
+    calm: left
+    lines:
+      - {who: geum_okran, type: speech, text: "YOU HELD A WALL ONCE. I CAN TELL BY HOW YOU STAND.", side: l}
+    sfx:
+      - {text: "TWITCH", style: quiet, at: [0.70, 0.20], size: S, rot: 0}
+
+  - id: P30
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, close on Jaeha's phone propped against a soy-sauce bottle on the counter, a video call with Seoa getting ready for school"
+    light: "phone glow; bare bulbs"
+    art: >
+      On the counter, Jaeha's phone leans against a soy-sauce bottle: a video call. On its screen, drawn, Seoa (kang_seoa) at home in her
+      school uniform, tying her tie with one hand and holding the phone too close with the other; her laptop's budget sheet glows behind
+      her. Jaeha's hand (kang_jaeha) holds a skewer at the edge of the frame.
+    acting:
+      kang_seoa: "on the screen, tying her tie, glaring into the camera over her glasses"
+      kang_jaeha: "only his hand, the skewer paused halfway"
+    eyeline: "Seoa → the camera (on the call)"
+    foreground: "a paper cup of tteokbokki, cropped, left"
+    calm: top
+    ui:
+      - {kind: phone.ttok_video_call, "on": panel, caller: "SEOA", duration: "00:42"}
+    lines:
+      - {who: kang_seoa, type: phone, text: "THE BUDGET SAYS YOU'RE HOME BY FRIDAY. THE BUDGET IS NEVER WRONG.", side: r}
+      - {who: kang_jaeha, type: speech, text: "FRIDAY. DINNER AT SEVEN. I PROMISE.", side: l}
+
+  - id: P31
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Geum snatching the buzzing phone off the counter, Bomi's voice shouting out of it"
+    light: "bare bulbs"
+    art: >
+      Close: Geum (geum_okran) snatches the buzzing phone off the counter with her steel hand and holds it away from her ear; Bomi's voice
+      blares out of it.
+    acting:
+      geum_okran: "holding the phone at arm's length in the steel hand, wincing, thumb going for the red button"
+    calm: right
+    lines:
+      - {who: yoo_bomi, type: phone, text: "TRAP RATS IN BUSAN! LET ME COME DOWN AND STREAM IT!", side: r}
+      - {who: geum_okran, type: shout, text: "NO CAMERAS IN MY TENT.", side: l}
+    sfx:
+      - {text: "BEEP", style: comic, at: [0.70, 0.70], size: S, rot: 0}
+
+  - id: P32
+    recipe: chibi
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "chibi gag, flat"
+    light: "flat"
+    art: >
+      Chibi gag: chibi Geum (geum_okran) hangs up with a smug tiny gold tooth; chibi Jaeha (kang_jaeha) weeps rivers beside her, his
+      paper cup trembling.
+    acting:
+      geum_okran: "chibi, smug, phone held up between two steel fingers"
+      kang_jaeha: "chibi, weeping rivers, clutching his cup"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "click", style: quiet, at: [0.30, 0.30], size: S, rot: 0}
+
+  # ================= ONE MORE SET (P33-P37) =================
+  - id: P33
+    recipe: establish
+    shape: tall
+    gap: long
+    bg: black
+    camera: "eye level from the stony shore, full figure, three-quarter: Lyra standing knee-deep in the surf at dawn, wringing out her braid"
+    light: "key: the low gold sun behind her; rim light on her hair and shoulders; spray glittering"
+    art: >
+      A glamour panel. On the stony shore under the breakwater at dawn, at eye level: Lyra (lyra) stands knee-deep in the surf where she
+      has waded in to wash the fish-market smell off, wringing the water out of her long silver-white braid over her LEFT shoulder; her
+      river-blue outfit is soaked and dark, her pale skin beaded with water, the low gold sun behind her outlining her in light; the
+      whole figure in frame, confident and beautiful. Behind her on the breakwater, small, two fishermen have stopped dead.
+    acting:
+      lyra: "standing knee-deep with her weight on one hip, wringing the braid over her LEFT shoulder with both hands, eyes closed, a pleased smile"
+      fishermen: "small on the breakwater, frozen, one net dangling"
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "7:00. ONE MORE SET."}
+    sfx:
+      - {text: "shhhh...", style: quiet, at: [0.80, 0.86], size: S, rot: 0}
+
+  - id: P34
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level on the breakwater: the fishermen's net sliding into the sea, Jaeha with a sack of rice on his shoulders walking into a lamppost, Nib unimpressed"
+    light: "gold morning"
+    art: >
+      On the breakwater: two fishermen (fishermen) let their net slide off the parapet into the sea, jaws hanging open; behind them,
+      Jaeha (kang_jaeha, training), carrying a sack of rice across his shoulders for training, walks straight into a lamppost; Nib (nib,
+      mask) watches with a flat stare.
+    acting:
+      fishermen: "jaws open, staring at the shore, the net slipping from their hands"
+      kang_jaeha: "bouncing off the lamppost face-first, the rice sack sliding, a sweat drop, blushing"
+      nib: "standing with his arms folded, a flat stare"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "......", side: r}
+    sfx:
+      - {text: "BONK", style: comic, at: [0.50, 0.40], size: M, rot: -8}
+      - {text: "splosh", style: quiet, at: [0.20, 0.80], size: S, rot: 0}
+
+  - id: P35
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: black
+    camera: "eye level from across the harbour road: a black sedan parked in the shade of a tree, tinted windows, the market behind"
+    light: "morning; hard shade under the tree"
+    art: >
+      Across the harbour road, at eye level: a black sedan with tinted windows sits parked in the shade of a tree, engine off, the fish
+      market and the orange tent small beyond it.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "tik... tik...", style: quiet, at: [0.30, 0.70], size: S, rot: 0}
+
+  - id: P36
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level from the passenger seat: Sora in the driver's seat with binoculars, the phone at her ear, the bandaged right wrist on the wheel"
+    light: "dim car interior; bright windscreen"
+    art: >
+      Inside the sedan, from the passenger seat: Han Sora (han_sora, kanghan) lounges in the driver's seat with binoculars to her eyes and
+      a phone tucked against her shoulder; her bandaged RIGHT wrist rests on the wheel; a new slim silver compass hangs on a fine chain
+      round her LEFT wrist.
+    acting:
+      han_sora: "slouched back, binoculars up in her LEFT hand, the phone pinned with her shoulder, a lazy amused smile"
+    eyeline: "Sora → the harbour"
+    foreground: "the gear stick and the dashboard, cropped, bottom"
+    calm: top
+    lines:
+      - {who: han_sora, type: speech, text: "HIS HANDS STILL SHAKE, DIRECTOR. AN OLD WOMAN HAS HIM CARRYING FISH.", side: l}
+      - {who: baek_taegun, type: phone, text: "THEN LET HIM CARRY. AND KEEP WATCHING.", side: r}
+
+  - id: P37
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on the compass on Sora's left wrist, the violet needle leaning loosely toward the harbour"
+    light: "a shaft of sun through the windscreen"
+    art: >
+      Close on the new slim silver compass on Sora's LEFT wrist: its violet needle leans loosely toward the harbour and trembles.
+    calm: right
+    silent: true
+    sfx:
+      - {text: "tik.", style: quiet, at: [0.70, 0.40], size: S, rot: 0}
+
+  # ================= THE SEA (P38-P45) =================
+  - id: P38
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: black
+    camera: "low, on the stony shore in the afternoon: dead fish washed up in a line along the tideline, two fishermen poking at them"
+    light: "flat afternoon light; a grey sky coming in"
+    art: >
+      From low on the stony shore under the breakwater in the afternoon: a line of dead fish lies along the tideline, silver bellies up;
+      two fishermen (fishermen) poke at them with a stick; Jaeha (kang_jaeha, training) and Geum (geum_okran) walk up behind them.
+    acting:
+      fishermen: "crouched, poking a dead fish with a stick, frowning"
+      kang_jaeha: "walking up, towel round his neck, slowing as he sees them"
+      geum_okran: "walking with the ladle over her shoulder, face hardening"
+    calm: top
+    sfx:
+      - {text: "crunch crunch", style: quiet, at: [0.70, 0.86], size: S, rot: 0}
+
+  - id: P39
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on a dead fish's scales shimmering violet along a faint crack"
+    light: "flat afternoon light"
+    art: >
+      Close on a dead fish's side: its silver scales shimmer faintly violet along a thin dark crack, as if something leaked into it.
+    calm: left
+    silent: true
+
+  - id: P40
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level two-shot: the old fisherman looking up at Geum, Geum silent with her arms folded"
+    light: "flat afternoon light"
+    art: >
+      The older fisherman (fishermen) looks up at Geum (geum_okran) from his crouch; she stands with her arms folded and says nothing.
+    acting:
+      fishermen: "crouching, looking up at her, worried"
+      geum_okran: "arms folded, the steel one over the other, staring out to sea, silent"
+    eyeline: "the fisherman → Geum (up); Geum → the sea"
+    foreground: "a dead fish on the stones, cropped, bottom"
+    calm: top
+    lines:
+      - {who: fishermen, type: speech, text: "THIRD DAY RUNNING, AUNTIE. THE SEA KEEPS SPITTING THEM OUT.", side: l}
+
+  - id: P41
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Geum's steel forearm, the fingers twitching by themselves, the painted wave catching the light"
+    light: "flat afternoon light"
+    art: >
+      Close on Geum's steel LEFT forearm folded over her other arm: the three thick steel fingers twitch by themselves, the plates
+      clicking, the faded painted wave catching the light.
+    calm: right
+    silent: true
+    sfx:
+      - {text: "klik klik", style: quiet, at: [0.70, 0.40], size: S, rot: 0}
+
+  - id: P42
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level behind Jaeha on the shore, a red window flickering over the grey sea"
+    light: "grey sea light; a red window glow"
+    art: >
+      Behind Jaeha (kang_jaeha, training) on the shore: he looks out over the grey sea as a red window flickers in the air in front of
+      him. The upper half is open sea and sky, empty for the window.
+    acting:
+      kang_jaeha: "standing still, the towel in one fist, eyes on the horizon"
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.08], text: "[WARNING: A SEALED GATE IS FAILING · NEAR]"}
+
+  - id: P43
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, side-on along the shore: Jaeha turning to Geum, Geum still looking at the sea"
+    light: "grey afternoon"
+    face: private
+    art: >
+      Side-on along the shore: Jaeha (kang_jaeha, training) turns to Geum (geum_okran); she keeps looking at the sea.
+    acting:
+      kang_jaeha: "turning to her, serious, the towel hanging from one hand"
+      geum_okran: "arms folded, eyes on the horizon, jaw set"
+    eyeline: "Jaeha → Geum; Geum → the sea"
+    foreground: "the tetrapods' grey edges, cropped, right"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "AUNTIE. THE MAN TEN YEARS AGO. WHO WAS HE?", side: l}
+
+  - id: P44
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Geum's face, not turning to him"
+    light: "grey afternoon"
+    art: >
+      Close on Geum (geum_okran), not turning to him, her face set like the breakwater.
+    acting:
+      geum_okran: "eyes on the sea, mouth a hard line, the headscarf fluttering"
+    foreground: "Jaeha's shoulder, cropped, right"
+    calm: left
+    lines:
+      - {who: geum_okran, type: speech, text: "ONE MORE SET.", side: l}
+
+  - id: P45
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "two-shot from behind them: Geum walking away up the shore, Jaeha left standing"
+    light: "grey afternoon"
+    art: >
+      From behind them: Geum (geum_okran) walks away up the stones with the ladle on her shoulder; Jaeha (kang_jaeha, training) is left
+      standing.
+    acting:
+      geum_okran: "walking away, slippers slapping, not looking back"
+      kang_jaeha: "standing still, watching her go"
+    eyeline: "Jaeha → Geum"
+    foreground: "a dead fish on the stones, cropped, bottom"
+    calm: right
+    lines:
+      - {who: kang_jaeha, type: speech, text: "THAT'S NOT AN ANSWER.", side: r}
+      - {who: geum_okran, type: speech, text: "IT'S THE ONLY ONE YOU'RE GETTING TODAY.", side: l}
+    sfx:
+      - {text: "slap slap", style: quiet, at: [0.30, 0.86], size: S, rot: 0}
+
+  # ================= TUESDAY (P46-P53) =================
+  - id: P46
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: black
+    camera: "high and wide over the breakwater before dawn again: the moped headlight and the running figure, upright this time"
+    light: "the lighthouse beam; the moped headlight"
+    art: >
+      High and wide over the breakwater before dawn again: the moped headlight putters along beside one running figure, still slow, but
+      upright, his knees lifting. Scale: the figures are specks on the 1 km breakwater.
+    calm: top
+    silent: true
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "TUESDAY, 4:00 AM."}
+    sfx:
+      - {text: "putt putt putt", style: quiet, at: [0.46, 0.66], size: S, rot: 0}
+
+  - id: P47
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha's hands carrying a full paper cup of tteokbokki at a walk, the sauce almost still"
+    light: "the tent's bare bulbs"
+    art: >
+      Close on Jaeha's hands (kang_jaeha) carrying a full paper cup of red tteokbokki as he walks; the tremor in his fingers is smaller,
+      and the sauce barely ripples.
+    acting:
+      kang_jaeha: "walking steadily, both hands round the cup, eyes on the sauce"
+    calm: left
+    silent: true
+
+  - id: P48
+    recipe: system
+    shape: inset-l
+    gap: short
+    bg: navy
+    camera: "close on the cup and a small window floating over it"
+    light: "cyan"
+    art: >
+      Close on the cup in his hands and a small window floating over it. The upper half is empty for the window.
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.10], text: "[CARRY CAPACITY 104% → 107% · BODY RATING: F]"}
+
+  - id: P49
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, two-shot at the counter: Lyra and Geum watching Jaeha walk past with the cup"
+    light: "bare bulbs; steam"
+    art: >
+      At the counter: Lyra (lyra) leans on her elbows beside Geum (geum_okran), both watching Jaeha walk past with his cup.
+    acting:
+      lyra: "chin on her hand, judging, one eyebrow up"
+      geum_okran: "stirring the pan, eyes following him, deadpan"
+    eyeline: "both → Jaeha (off-panel)"
+    foreground: "the pan's steam, cropped, bottom"
+    calm: top
+    lines:
+      - {who: lyra, type: speech, text: "HE'S STILL GARBAGE.", side: l}
+      - {who: geum_okran, type: speech, text: "SLIGHTLY LESS GARBAGE.", side: r}
+    sfx:
+      - {text: "stir stir", style: quiet, at: [0.80, 0.80], size: S, rot: 0}
+
+  - id: P50
+    recipe: carry
+    shape: wide
+    gap: long
+    bg: black
+    camera: "high over the shore in the afternoon: Nib and Lyra sparring in field form, Borro holding his shield for them, Jaeha kneeling behind with the load running into him"
+    light: "afternoon; amber, river-blue and moss-green glows"
+    art: >
+      High over the stony shore in the afternoon: Nib (nib, field form: amber eyes and outline) and Lyra (lyra, field form: river-blue
+      glow) spar at full speed, knife against bow-stave; Borro (borro, field form: moss green) takes their stray blows on his shield;
+      behind them Jaeha (kang_jaeha, training) kneels on the stones with thin threads of light running from all three into his chest,
+      teeth clenched, holding it. Geum (geum_okran) times him with a cheap stopwatch.
+    acting:
+      nib: "lunging low with both knives, cloak flaring"
+      lyra: "parrying with the bow-stave, laughing, braid flying"
+      borro: "shield raised, sliding a step as a blow lands"
+      kang_jaeha: "kneeling, fists on his thighs, teeth clenched, a thin nosebleed, eyes open"
+      geum_okran: "standing with the stopwatch up in the steel hand, eyes on him"
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.88], text: "[CARRY · 3 SUMMONS · SUSTAINED · 09:40]"}
+    sfx:
+      - {text: "KLANG", style: impact, at: [0.40, 0.40], size: M, rot: -8}
+
+  - id: P51
+    recipe: talk
+    shape: wide
+    gap: long
+    bg: black
+    camera: "eye level at the end of the breakwater at night: Jaeha and Nib sitting on the parapet under the lighthouse, looking at the black sea"
+    light: "the lighthouse beam sweeping over them; city lights behind"
+    face: private
+    art: >
+      Night at the end of the breakwater: Jaeha (kang_jaeha, training) and Nib (nib, mask pushed up on his head) sit on the parapet under
+      the red lighthouse, looking at the black sea; the beam sweeps over them.
+    acting:
+      kang_jaeha: "sitting with his elbows on his knees, the towel round his neck, listening"
+      nib: "sitting very still, ears turned toward the sea, eyes narrowed"
+    eyeline: "both → the sea"
+    foreground: "the lighthouse's red railing, cropped, top left"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "THE SEA SOUNDS WRONG TONIGHT.", side: r}
+      - {who: kang_jaeha, type: speech, text: "YOU HEAR IT TOO?", side: l}
+      - {who: nib, type: speech, text: "A WALL SOUNDS LIKE THAT BEFORE IT FALLS.", side: r}
+    sfx:
+      - {text: "shhhhh... shhhhh...", style: quiet, at: [0.50, 0.86], size: S, rot: 0}
+
+  - id: P52
+    recipe: system
+    shape: inset-r
+    gap: short
+    bg: navy
+    camera: "close on Nib's dull eye under the pushed-up mask, a small window beside it"
+    light: "the lighthouse beam"
+    art: >
+      Close on Nib's eye (nib), dull and tired, the mask pushed up on his head. The right side is calm for the window.
+    acting:
+      nib: "eyes heavy, ears drooping a little"
+    calm: right
+    silent: true
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.62, 0.50], text: "[FIELD FORM COOLDOWN · OUTSIDE A GATE · 03:12:00]"}
+
+  - id: P53
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "eye level at the tent: Geum pulling the flap shut, shouting down the breakwater"
+    light: "the tent's bare bulbs going off one by one"
+    art: >
+      At the orange tent: Geum (geum_okran) pulls the flap half shut and shouts down toward the breakwater, the bulbs inside going off one
+      by one behind her.
+    acting:
+      geum_okran: "one hand on the flap, the ladle pointing down the breakwater, yawning"
+    calm: right
+    lines:
+      - {who: geum_okran, type: shout, text: "BED! FOUR O'CLOCK COMES EARLY!", side: l}
+    sfx:
+      - {text: "click... click...", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  # ================= THE TETRAPODS (P54-P62) =================
+  - id: P54
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: black
+    camera: "high and wide over the dark breakwater near midnight: the lighthouse, one fisherman's lantern at the far end, Jaeha and Nib walking back"
+    light: "the lighthouse beam; one lantern"
+    art: >
+      High and wide near midnight: the breakwater lies dark under the lighthouse; at its far end one old fisherman (fishermen) sits with
+      a rod and a little lantern on the tetrapods; halfway back, Jaeha and Nib walk toward the harbour. Scale: the fisherman is a speck
+      on the tetrapods, each tetrapod as big as a car.
+    acting:
+      fishermen: "a tiny figure hunched over a rod on the tetrapods"
+    calm: top
+    silent: true
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "11:40 PM."}
+
+  - id: P55
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close and low on the black water between two tetrapods, bubbling, a violet glow rising"
+    light: "a violet glow from below the water"
+    art: >
+      Close and low on the black water between two grey tetrapods: it bubbles, and a faint violet glow rises through it from below.
+    calm: left
+    silent: true
+    sfx:
+      - {text: "blub... blub...", style: quiet, at: [0.40, 0.60], size: S, rot: 0}
+
+  - id: P56
+    recipe: monster-reveal
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low on the tetrapods by the fisherman's lantern: a brine crawler dragging itself out of the sea, claws up"
+    light: "the lantern's warm glow from one side; violet cracks glowing on the thing"
+    art: >
+      Low on the tetrapods by the fisherman's lantern: a brine crawler (brine_crawler) drags itself out of the black water onto the
+      concrete, a crab's front with two serrated claws raised, six spiny legs scraping, an eel's tail slapping the water behind; a round
+      mouth of needle teeth opens under its shell; violet cracks glow along its carapace; weed hangs off it. Scale: it is as long as a
+      big dog.
+    acting:
+      brine_crawler: "hauling itself up with both claws raised, mouth opening, tail lashing"
+    calm: top
+    sfx:
+      - {text: "KLIK KLIK KLIK", style: impact, at: [0.70, 0.30], size: M, rot: 6}
+
+  - id: P57
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on the old fisherman falling back off his stool, the rod flying"
+    light: "the lantern swinging"
+    art: >
+      Close on the old fisherman (fishermen) falling backwards off his stool, the rod flying out of his hands, the lantern swinging.
+    acting:
+      fishermen: "falling back, arms flung up, mouth wide in a scream"
+    calm: right
+    lines:
+      - {who: fishermen, type: shout, text: "AAAAH! WHAT IS THAT?!", side: l}
+
+  - id: P58
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, running: Jaeha sprinting toward the scream, Nib beside him, a window cutting across"
+    light: "the lighthouse beam; the lantern far ahead"
+    face: private
+    art: >
+      Jaeha (kang_jaeha, training) sprints down the walkway toward the scream; Nib (nib, mask) runs beside him with his knives out but his
+      eyes dull. A small red window cuts across the bottom of the frame.
+    acting:
+      kang_jaeha: "running hard, one hand reaching ahead, face cold"
+      nib: "running with both knives drawn, eyes dull, ears flat"
+    eyeline: "both → the fisherman"
+    calm: top
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.86], text: "[FIELD FORM UNAVAILABLE · COOLDOWN 02:58:00]"}
+    lines:
+      - {who: kang_jaeha, type: shout, text: "NIB!", side: l}
+      - {who: nib, type: speech, text: "I HAVE NO FIELD FORM, OPERATOR. NOT FOR THREE HOURS.", side: r}
+    sfx:
+      - {text: "TAP TAP TAP", style: quiet, at: [0.30, 0.86], size: S, rot: 0}
+
+  - id: P59
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, side-on on the tetrapods: Jaeha shoving the fisherman aside and taking the claw across his forearm"
+    light: "the lantern; a spray of water"
+    art: >
+      Low and side-on on the tetrapods: Jaeha (kang_jaeha, training) shoves the old fisherman (fishermen) clear and takes the crawler's
+      claw across his raised LEFT forearm; the tracksuit sleeve tears and blood flies; the crawler (brine_crawler) lunges after him.
+    acting:
+      kang_jaeha: "shoving the man clear with his RIGHT hand, LEFT forearm up as a shield, wincing"
+      fishermen: "tumbling out of the way onto the walkway"
+      brine_crawler: "lunging, claw slashing, mouth wide"
+    calm: top
+    sfx:
+      - {text: "SKRAK", style: impact, at: [0.50, 0.30], size: L, rot: -8}
+
+  - id: P60
+    recipe: anticipation
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from behind Jaeha on his back: the crawler rearing over him, a second one bubbling up out of the water behind it"
+    light: "violet cracks; the lantern rolling on the concrete"
+    art: >
+      From low behind Jaeha (kang_jaeha, training), sprawled on his back on the concrete: the crawler (brine_crawler) rears over him with
+      both claws open; behind it, the water bubbles violet and a second claw breaks the surface.
+    acting:
+      kang_jaeha: "on his back, propped on one elbow, his bleeding forearm up, eyes on the claws"
+      brine_crawler: "rearing up, claws wide, needle mouth open"
+    calm: top
+    sfx:
+      - {text: "HSSSSS", style: alert, at: [0.60, 0.20], size: M, rot: 0}
+
+  - id: P61
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close and low on pink rubber slippers stepping between Jaeha and the claws, the ladle hanging beside them"
+    light: "the lighthouse beam"
+    art: >
+      Close and low: a pair of pink rubber slippers steps onto the concrete between Jaeha and the claws, the long steel ladle hanging
+      beside them in a broad RIGHT hand; the hem of a checked apron. Geum (geum_okran) is only legs and ladle in this frame.
+    acting:
+      geum_okran: "planting her feet, the ladle hanging loose and ready"
+    calm: left
+    lines:
+      - {who: geum_okran, type: speech, text: "GET BEHIND ME, KID.", side: l}
+    sfx:
+      - {text: "slap.", style: quiet, at: [0.70, 0.86], size: S, rot: 0}
+
+  - id: P62
+    recipe: splash
+    shape: full
+    gap: short
+    bg: black
+    camera: "low and wide behind Jaeha: the short old woman in her apron facing the rearing monster with the ladle raised, the lighthouse beam behind her, the sea glowing violet"
+    light: "key: the lighthouse beam behind her; violet light from the sea; the lantern on the ground"
+    art: >
+      Low and wide from behind Jaeha (kang_jaeha, training) on the ground: Auntie Geum (geum_okran), short and broad in her apron and
+      headscarf, stands between him and the rearing brine crawler (brine_crawler) with the long ladle raised in her RIGHT hand and her
+      steel LEFT fist clenched at her side; the lighthouse beam blazes behind her; beyond the tetrapods the black sea glows violet in
+      patches, and more claws break the surface. Scale: she is half the height of the reared crawler.
+    acting:
+      geum_okran: "feet planted wide, ladle raised like a sword, steel fist clenched, chin up"
+      kang_jaeha: "on the ground behind her, looking up at her back, eyes wide"
+      brine_crawler: "reared up over her, claws wide"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "KLIK KLIK KLIK KLIK", style: alert, at: [0.80, 0.30], size: M, rot: 6}
+
+  - id: END
+    kind: end
+    chibi_gag: "Chibi Geum holds a stopwatch over chibi Jaeha, who is holding a tteokbokki cup perfectly still with tears streaming; behind them the three chibi market aunties pass banknotes, betting on how long he'll last."
