@@ -10,11 +10,12 @@
 | # | File | What it gives you |
 |---|---|---|
 | 1 | `bible/STORY_BIBLE_v4.md` | The story: world, powers, cast, arcs, chapters 1–12 |
+| 1b | `bible/ARC3_4_BEATS.md` | Chapters 13–33, beat by beat (read it for any Arc 3–4 entry or chapter) |
 | 2 | `bible/NAME_SHEET.md` | Exact spellings, file ids, retired names |
 | 3 | `MANHWA_STYLE_GUIDE.md` | **The look:** line, light, colour, effects, the V2 style block, the image check |
 | 4 | `MANHWA_ART_DIRECTION.md` | **Staging:** panel recipes, action grammar, colour flips, summon colours |
 | 5 | `CHARACTER_DESIGNS_v2.md` | **Who looks like what:** cast, monsters, locations, props, all approved by the owner. |
-| 6 | `STYLE_TEST_BRIEF.md`, `MODEL_SHEETS_BRIEF.md` or `LOCATION_KEYS_BRIEF.md` | **Your job:** the entry your chat was given |
+| 6 | The brief your prompt names: `MODEL_SHEETS_BRIEF.md`, `LOCATION_KEYS_BRIEF.md`, `ASSETS_ARC2_BRIEF.md`, `ASSETS_ARC3_BRIEF.md` or `PANEL_BRIEF_v2.md` | **Your job:** the entry or chapter part your chat was given |
 
 **Reference, when you need it:**
 - `research/RENDERING_STUDY.md`: what real webtoons do, panel by panel.
@@ -48,6 +49,7 @@ Claude opens the Codex chats on the owner's computer and checks every result. Ea
 4. **Round 2 fixes** (`REVIEW_FIXES.md`, "Round 2") and **S15, Moon Ahin** (`MODEL_SHEETS_BRIEF.md`), drawn early for the owner's sheets.
 5. **Acting sheets P1–P6** (`ACTING_SHEETS_BRIEF.md`): body-language poses and dialogue faces for Jaeha, Nib, Yerin, Mok, Lyra and Bomi.
 6. **Chapter panels (now):** chapter 1 is finished and the owner approved it. Chapter 2 is drawn in nine parallel parts (`PANEL_BRIEF_v2.md` section 9), into `chapters_v2/ch002/art/`, and every later chapter the same way. Read `PANEL_BRIEF_v2.md` section 4b first: the owner asked for much stricter proportions, scale and perspective.
+7. **Arc 2 sheets and keys** (`ASSETS_ARC2_BRIEF.md`: S2b, S16–S19, M1–M4, L6–L12), then **Arcs 3–4 sheets and keys** (`ASSETS_ARC3_BRIEF.md`: S20–S25, M5–M9, L13–L20, P1). Chapters 3–5 need S2b; chapters 6–12 need the Arc 2 entries; chapters 13–33 need the Arcs 3–4 entries. A chapter's parts open only when the sheets its rules name are done.
 
 ## Hard rules for every job
 - **No text in the art,** except the single block letter T on Jaeha's vest patch. Emblems without letters are fine; brand logos and wordmarks are not. The letterer adds every word, sound effect and window. Screens that need content are flat #00FF00.
@@ -63,7 +65,7 @@ Claude keeps the same files in the GitHub repo `abafaboy/abafaboy.github.io`, br
 | Repo | Laptop |
 |---|---|
 | `codex/*.md` (the briefs) | the laptop folder's root |
-| `STORY_BIBLE_v4.md`, `NAME_SHEET.md`, `ART_BIBLE.md`, `SCRIPT_FORMAT_v2.md` (repo root) | `bible/` |
+| `STORY_BIBLE_v4.md`, `ARC3_4_BEATS.md`, `NAME_SHEET.md`, `ART_BIBLE.md`, `SCRIPT_FORMAT_v2.md` (repo root) | `bible/` |
 | `scripts_v2/` (the rebuilt chapter scripts) | `scripts_v2/` |
 | `research/` | `research/` (but `VISUAL_SURVEY.md` is in the laptop's `bible/`) |
 
