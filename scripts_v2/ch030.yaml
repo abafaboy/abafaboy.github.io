@@ -1,0 +1,1090 @@
+chapter: 30
+title: The Rim
+format: SCRIPT_FORMAT_v2.md
+when: "Friday, about 2:40 AM, the rim sealing from 06:00 to 01:58: the shaft, the sludge mouth on the canyon face, and the gap to the rim ledge."
+story_beats: ARC3_4_BEATS.md#30-the-rim
+cast:
+  kang_jaeha: crew
+  nib: mask
+  borro: default
+  lyra: default
+  moon_ahin: default
+  ahin_husks: default        # 30, then 29 (P27); No. 1 anchors the far end
+  crew_pyo: default
+  crew_dami: default
+  crew_woo: default
+  crew_ho: default
+  han_sora: kanghan
+  kanghan_tactical: default
+locations: [farm_drains, farm_canyon]
+continuity:
+  - "Jaeha: the crew kit, the bloody scarf, Minseok's lamp; still in overload from ch 29 (a nosebleed, grey at the edges of his sight). From P34 thin white threads run from him to every husk in the bridge, and dark bruises bloom across his forearms and neck as the husks crack."
+  - "The shaft (P01-P13): as ch 29: 120 m long, 30 degrees steep, the walkway up one side, the water up the other; Sora's barricade of shields at the top. Halfway up, in the side wall, a round dark sludge mouth 2 m across."
+  - "The canyon face (P14 onward): the sludge mouth opens onto a lip of stone on the sheer canyon wall near its top, 300 m above the river. Across a 40 m gap: the rim ledge, a broad stone shelf at the top of the wall, with the gate's inner rim set into the rock behind it: a tall ellipse of white light 8 m high inside Kanghan's steel iris frame, whose plates are closing in sparks, the white getting narrower. The stumps of an old collapsed walkway stick out from both sides of the gap. A side door from the pump room opens onto the rim ledge."
+  - "The husk bridge (P24 onward): Moon Ahin's thirty husks leap out one after another and lock wrists to ankles and arms to shoulders into a lattice that spans the gap, sagging in the middle, its top a walkable line of polished backs and shoulders; No. 1 holds the far end on the old walkway stump at the rim ledge. Each husk keeps its silver numeral on the back of its neck."
+  - "Field forms: Borro from P05 (CARRY), Lyra from P07 (CARRY); from P33 Jaeha drops their CARRY to carry the husks; Nib in field form from P41, not carried."
+  - "Sora in Kanghan colours, wet hair slicked back."
+plants:
+  - "PLANT P20-P22: Moon Ahin speaks to No. 1 (ch 32: she names it)."
+  - "PLANT P31-P36: Jaeha can LINK and CARRY husks: they are summons too, only empty (Arc 5)."
+  - "PLANT P54-P58: Sora on the far end of the bridge (ch 31)."
+hook_type: threat
+
+panels:
+
+  # ================= THE SHAFT (P01-P13) =================
+  - id: P01
+    recipe: plan
+    shape: wide
+    gap: none
+    bg: paper
+    camera: "top-down on the notebook page: a long steep line for the shaft, a row of tiny shields at the top, twelve little arrows pointing down it, a word crossed out"
+    light: "white light from above on paper"
+    art: >
+      Top-down on the notebook page: a long steep pencil line for the shaft; a row of tiny shields at the top; twelve little arrows pointing
+      down it; a single word written and crossed out with three hard strokes.
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: note, text: "120 M UP A SHOOTING GALLERY. NO."}
+    sfx:
+      - {text: "SKRTCH", style: quiet, at: [0.80, 0.80], size: S, rot: 0}
+
+  - id: P02
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close two-shot at the foot of the shaft: Uncle Pyo leaning off Borro's back to tap Jaeha's notebook, pointing halfway up"
+    light: "white from above"
+    face: private
+    art: >
+      Close and low at the foot of the shaft: Uncle Pyo (crew_pyo) leans off Borro's shell to tap Jaeha's notebook (kang_jaeha) and points
+      halfway up the shaft at a dark round opening in its side wall.
+    acting:
+      crew_pyo: "leaning down, tapping the page, then pointing up the shaft"
+      kang_jaeha: "looking where he points, eyes narrowing"
+    eyeline: "Pyo → the opening; Jaeha → the opening"
+    foreground: "the notebook, cropped, bottom"
+    calm: top
+    lines:
+      - {who: crew_pyo, type: speech, text: "HALFWAY UP. THE SLUDGE MOUTH. IT OPENS ON THE CANYON, ACROSS FROM THE RIM LEDGE.", side: l}
+      - {who: crew_pyo, type: speech, text: "BUT THE OLD WALKWAY FELL YEARS AGO. NOW IT'S A FORTY-METRE GAP.", side: l}
+
+  - id: P03
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, two-shot: Jaeha turning slowly to look at Moon Ahin; she already knows what he's going to say"
+    light: "white from above"
+    face: private
+    art: >
+      Two-shot: Jaeha (kang_jaeha) turns slowly to look at Moon Ahin (moon_ahin); she already knows what he is going to say, and her eyes go
+      to her husks.
+    acting:
+      kang_jaeha: "turning to her, quiet, steady"
+      moon_ahin: "eyes sliding to her husks, then back to him, lips pressed thin"
+    eyeline: "Jaeha → Moon Ahin; Moon Ahin → the husks"
+    foreground: "a row of husk shoulders, cropped, right"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: speech, text: "...YOU WANT A BRIDGE.", side: l}
+      - {who: kang_jaeha, type: speech, text: "TONIGHT THEY'VE BEEN A WALL AND A DOOR. THEY CAN BE A BRIDGE.", side: r}
+
+  - id: P04
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Moon Ahin, deciding"
+    light: "white from above"
+    art: >
+      Close on Moon Ahin (moon_ahin), deciding, the baton coming up in her RIGHT hand.
+    acting:
+      moon_ahin: "lifting the baton, eyes hard"
+    eyeline: "Moon Ahin → up the shaft"
+    foreground: "Jaeha's shoulder, cropped, right"
+    calm: right
+    lines:
+      - {who: moon_ahin, type: speech, text: "GET US HALFWAY UP. THEN WE'LL SEE.", side: l}
+
+  - id: P05
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, behind the column: Borro charging up the walkway with his cracked shield up, the whole team packed behind him, husks at the back"
+    light: "moss green; white from above"
+    art: >
+      From low behind the column: Borro (borro), moss-green outline blazing again, charges up the steep walkway with his cracked shield raised;
+      the whole team is packed tight behind him; the husks run at the back two by two.
+    acting:
+      borro: "charging up the slope, shield raised, head down"
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.90], text: "[BORRO · FIELD FORM 05:00]"}
+    sfx:
+      - {text: "STOMP STOMP STOMP", style: impact, at: [0.70, 0.70], size: M, rot: 0}
+
+  - id: P06
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high, from the barricade looking down: twelve carbines firing down the shaft, violet bolts slamming into Borro's shield"
+    light: "violet bolts streaking down"
+    art: >
+      High from the barricade looking down: twelve carbines (kanghan_tactical) fire down the shaft; violet bolts slam into Borro's shield in bursts
+      of sparks; the team crouches behind it.
+    acting:
+      kanghan_tactical: "firing down the shaft over their shields"
+      borro: "taking the bolts on the shield, still climbing"
+    calm: top
+    sfx:
+      - {text: "TSEW TSEW TSEW TSEW", style: impact, at: [0.40, 0.30], size: L, rot: -6}
+
+  - id: P07
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, behind Borro's shoulder: Lyra in field form shooting up the shaft over the shield, arrow after arrow knocking the troopers' shields aside"
+    light: "river blue; violet bolts"
+    art: >
+      From low behind Borro's shoulder: Lyra (lyra), river-blue outline blazing, shoots up the shaft over the rim of his shield, arrow after
+      arrow, knocking the troopers' shields aside and making them duck.
+    acting:
+      lyra: "shooting over the shield, drawing and loosing fast, eyes narrowed"
+    calm: top
+    sfx:
+      - {text: "THWIP THWIP THWIP", style: impact, at: [0.60, 0.20], size: M, rot: 6}
+
+  - id: P08
+    recipe: carry
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha climbing behind them, his body jolting with every bolt that hits the shield"
+    light: "violet sparks"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha) climbing behind them, his body jolting with every bolt that hits the shield, blood running from his nose.
+    acting:
+      kang_jaeha: "jolting, climbing anyway, one hand on Moon Ahin's arm"
+    calm: left
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.86], text: "[CARRY · BORRO · LYRA]"}
+    sfx:
+      - {text: "DN DN DN", style: impact, at: [0.30, 0.30], size: S, rot: 0}
+
+  - id: P09
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level on the walkway: a crossbow bolt punching through a gap and pinning Ho's tabard to the stone wall, Ho frozen"
+    light: "white from above"
+    art: >
+      On the walkway: a crossbow bolt punches through a gap past Borro's shield and pins Ho's tabard (crew_ho) to the stone wall beside him by
+      the shoulder; he freezes; Woo (crew_woo) rips him free.
+    acting:
+      crew_ho: "frozen against the wall, eyes huge"
+      crew_woo: "ripping the tabard free, dragging him on"
+    calm: top
+    lines:
+      - {who: crew_ho, type: shout, text: "SHE MISSED ON PURPOSE! SHE WINKED AT ME!", side: l}
+    sfx:
+      - {text: "THUNK", style: impact, at: [0.30, 0.40], size: M, rot: 0}
+
+  - id: P10
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, at the round sludge mouth: Nib diving into it first, then the crew one after another"
+    light: "white from above; darkness inside the mouth"
+    art: >
+      Low at the round sludge mouth in the shaft's side wall: Nib (nib) dives into it first; the crew follow one after another; the husks pour in
+      two by two behind Moon Ahin (moon_ahin).
+    acting:
+      nib: "diving into the opening headfirst"
+      moon_ahin: "ducking in, the coat-dress gathered in one hand"
+      ahin_husks: "pouring in two by two"
+    calm: top
+    sfx:
+      - {text: "WHOOSH", style: quiet, at: [0.50, 0.30], size: S, rot: 0}
+
+  - id: P11
+    recipe: impact
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Borro backing into the mouth last, the shield taking a final volley"
+    light: "violet sparks"
+    art: >
+      Close on Borro (borro) backing into the sludge mouth last, the shield taking a final volley in a spray of sparks.
+    acting:
+      borro: "backing in, shield up, sparks bouncing off it"
+    calm: right
+    silent: true
+    sfx:
+      - {text: "PANG PANG", style: impact, at: [0.40, 0.30], size: M, rot: 0}
+
+  - id: P12
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level at the barricade: Sora standing on the pump housing, watching them vanish into the side wall, then turning to her squad with a grin"
+    light: "white behind her"
+    art: >
+      At the barricade: Sora (han_sora) stands on the pump housing, watching them vanish into the side wall; then she turns to her squad
+      (kanghan_tactical) with a grin and points at a side door in the pump room.
+    acting:
+      han_sora: "turning, pointing at the side door with her crossbow, grinning"
+      kanghan_tactical: "standing up from behind the shields"
+    eyeline: "Sora → the squad"
+    foreground: "the barricade of shields, cropped, bottom"
+    calm: top
+    lines:
+      - {who: han_sora, type: speech, text: "THE SLUDGE MOUTH? THERE'S NOTHING THERE BUT A DROP. TO THE RIM LEDGE. MOVE.", side: l}
+
+  - id: P13
+    kind: title
+    shape: full
+    gap: long
+    bg: black
+    title_card: "MY SUMMONS GO FIRST · CHAPTER 30 · THE RIM"
+    notes: "Title card at panel 13 of 60 (22%)."
+
+  # ================= THE GAP (P14-P30) =================
+  - id: P14
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: black
+    camera: "eye level inside the short sludge tunnel: the team coming out onto a lip of stone on the open canyon face, violet-grey sky beyond"
+    light: "violet-grey twilight beyond; dark inside"
+    art: >
+      Inside the short sludge tunnel: the team comes out of its mouth onto a narrow lip of stone on the open canyon face; beyond, the violet-grey
+      twilight and empty air.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "WHOOOO", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P15
+    recipe: splash
+    shape: full
+    gap: short
+    bg: black
+    camera: "high, from above and behind the team on the lip: the 40 m gap, the rim ledge across it, the tall ellipse of white light in the rock with a steel iris closing round it"
+    light: "key: the white rim light across the gap; violet-grey below; sparks from the iris"
+    art: >
+      High from above and behind the team on the lip: across a 40 m gap of empty air, the rim ledge, a broad stone shelf at the top of the canyon
+      wall; set into the rock behind it, the gate's inner rim, a tall ellipse of white light 8 m high, and round it Kanghan's steel iris frame, its
+      plates closing in showers of sparks, the white already narrower than a door. The stumps of an old collapsed walkway stick out from both
+      sides of the gap. Below: 300 m of drop to the thread of river. Scale: the team is tiny on the lip.
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.90], text: "[GATE RIM SEALING · 05:12]"}
+    sfx:
+      - {text: "KLAK... KLAK...", style: quiet, at: [0.80, 0.30], size: S, rot: 0}
+
+  - id: P16
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level along the lip: the crew staring across the gap at the white light, Dami's hand at her mouth"
+    light: "white across the gap"
+    art: >
+      Along the lip: the crew stare across the gap at the white light; Dami (crew_dami) has a hand at her mouth; Ho (crew_ho) leans out and
+      looks down, then very quickly back.
+    acting:
+      crew_dami: "a hand at her mouth, eyes on the white light"
+      crew_ho: "leaning out, looking down, jerking back"
+    eyeline: "Dami → the rim; Ho → down"
+    foreground: "the edge of the lip, cropped, bottom"
+    calm: top
+    lines:
+      - {who: crew_dami, type: speech, text: "IT'S RIGHT THERE. HOME IS RIGHT THERE.", side: l}
+      - {who: crew_ho, type: speech, text: "AND FORTY METRES OF NOTHING IN BETWEEN.", side: r}
+
+  - id: P17
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, behind Moon Ahin at the very edge of the lip, her husks lined up behind her and back into the tunnel"
+    light: "white across the gap; the updraft lifting her hair"
+    art: >
+      From low behind Moon Ahin (moon_ahin) at the very edge of the lip: her thirty husks (ahin_husks) stand lined up behind her and back into
+      the tunnel, waiting; the updraft lifts her hair and the hem of the coat-dress.
+    acting:
+      moon_ahin: "standing at the edge, looking across the gap, the baton at her side"
+      ahin_husks: "waiting in a line, perfectly still"
+    eyeline: "Moon Ahin → the rim ledge"
+    foreground: "No. 1's polished shoulder, cropped, right"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: speech, text: "THIRTY OF THEM. FORTY METRES. AND EVERY ONE OF US ON THEIR BACKS.", side: l}
+
+  - id: P18
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha beside her, quietly"
+    light: "white"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha) beside her, quietly.
+    acting:
+      kang_jaeha: "standing beside her, looking at the husks, not at her"
+    eyeline: "Jaeha → the husks"
+    foreground: "her white shoulder, cropped, left"
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: speech, text: "YOU CAN SAY NO. THEY'RE YOURS.", side: r}
+
+  - id: P19
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Moon Ahin, surprised by that"
+    light: "white"
+    art: >
+      Close on Moon Ahin (moon_ahin), surprised by that, her eyes going to him.
+    acting:
+      moon_ahin: "eyes widening a fraction, turning to him"
+    calm: right
+    silent: true
+    sfx:
+      - {text: "...", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P20
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, close two-shot: Moon Ahin laying her gloved hand on the blank face of No. 1"
+    light: "white; the updraft"
+    art: >
+      Close two-shot: Moon Ahin (moon_ahin) lays her gloved hand on the blank polished face of No. 1 (ahin_husks), something she has never done
+      before an order.
+    acting:
+      moon_ahin: "a gloved hand on the husk's face, voice low"
+      ahin_husks: "No. 1 standing still under her hand"
+    eyeline: "Moon Ahin → No. 1"
+    foreground: "the silver numeral on No. 1's neck, cropped, bottom"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: speech, text: "NUMBER ONE. YOU TAKE THE FAR END. AND DON'T LET GO OF ME.", side: l}
+
+  - id: P21
+    recipe: splash
+    shape: full
+    gap: short
+    bg: black
+    camera: "low, side-on at the edge of the lip, a little below: Moon Ahin conducting with both arms raised, the baton flying, the coat-dress and her hair whipping in the updraft, husks leaping off the lip past her into the air"
+    light: "key: the white rim light; rim light on her; violet-grey below"
+    art: >
+      Moon Ahin's moment, low and side-on at the edge of the lip, the whole figure in frame: she conducts with both arms raised, the baton flying
+      in her RIGHT hand, the coat-dress flaring and her long black hair whipping in the updraft, the silver ribbon catching the light; past her,
+      husks (ahin_husks) leap off the lip one after another into the empty air, each catching the wrists and ankles of the one before, a chain of
+      white reaching out across the gap. Her face is fierce and alight.
+    acting:
+      moon_ahin: "both arms raised, conducting with her whole body, baton flying, face fierce and alight"
+      ahin_husks: "leaping off the lip one after another, catching each other in mid-air"
+    calm: top
+    sfx:
+      - {text: "KLAK-KLAK-KLAK-KLAK", style: impact, at: [0.70, 0.30], size: L, rot: -6}
+
+  - id: P22
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high, looking down on the gap: the chain of white husks reaching the far side, No. 1 at its head catching the old walkway stump on the rim ledge"
+    light: "white"
+    art: >
+      High, looking down on the gap: the chain of husks (ahin_husks) reaches the far side, and No. 1 at its head catches hold of the old walkway
+      stump on the rim ledge and locks on.
+    acting:
+      ahin_husks: "No. 1 seizing the stump, the chain snapping taut behind it"
+    calm: top
+    sfx:
+      - {text: "KLANK", style: impact, at: [0.80, 0.40], size: M, rot: 0}
+
+  - id: P23
+    recipe: establish
+    shape: tall
+    gap: short
+    bg: black
+    camera: "eye level from the lip, along the bridge: a sagging lattice of white husks spanning the abyss, locked wrist to ankle, its top a line of polished backs, the rim light at the far end"
+    light: "white rim light at the far end; violet-grey below"
+    art: >
+      From the lip, along the bridge: a sagging lattice of white husks (ahin_husks) spans the abyss, locked wrist to ankle and arm to shoulder,
+      its top a walkable line of polished backs and shoulders; it creaks and sways; the white rim light glows at the far end. Scale: 40 m long,
+      sagging 4 m in the middle; the river 300 m below.
+    acting:
+      ahin_husks: "locked together in a lattice, swaying, holding"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "kreeak... kreeak...", style: quiet, at: [0.50, 0.70], size: S, rot: 0}
+
+  - id: P24
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, two-shot on the lip: Jaeha staring at the bridge, Moon Ahin conducting without looking at him"
+    light: "white"
+    face: private
+    art: >
+      Two-shot on the lip: Jaeha (kang_jaeha) stares at the bridge; Moon Ahin (moon_ahin) keeps conducting small corrections without looking at him.
+    acting:
+      kang_jaeha: "staring at the bridge, lips parted"
+      moon_ahin: "conducting tiny corrections, eyes on the bridge"
+    eyeline: "both → the bridge"
+    foreground: "the baton's tip, cropped, top"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "THAT'S THE MOST BEAUTIFUL THING I'VE EVER SEEN.", side: r}
+      - {who: moon_ahin, type: speech, text: "WALK, NUMBER FOUR. BEFORE I THINK ABOUT IT.", side: l}
+
+  - id: P25
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the bridge's near end: Nib running out along the husks' backs first, light as a cat, then Dami stepping on behind him, arms out"
+    light: "white ahead"
+    art: >
+      From low at the bridge's near end: Nib (nib) runs out along the husks' backs first, light as a cat; Dami (crew_dami) steps on behind him
+      with her arms out for balance, eyes fixed on the far end.
+    acting:
+      nib: "running lightly along the backs, looking back to wave her on"
+      crew_dami: "stepping onto the first husk's back, arms out, eyes straight ahead"
+    calm: top
+    sfx:
+      - {text: "tp tp tp", style: quiet, at: [0.40, 0.40], size: S, rot: 0}
+
+  - id: P26
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, side-on along the bridge: Woo and Ho crossing hand in hand, Borro stepping on behind them with Pyo on his shell, the whole bridge dipping"
+    light: "white; violet-grey below"
+    art: >
+      Side-on along the bridge: Woo (crew_woo) and Ho (crew_ho) cross hand in hand; Borro (borro) steps on behind them with Uncle Pyo (crew_pyo)
+      on his cracked shell, and the whole bridge dips under his weight with a deep groan.
+    acting:
+      crew_woo: "crossing, gripping his brother's hand"
+      crew_ho: "crossing, eyes squeezed shut, being led"
+      borro: "stepping on carefully, the bridge dipping"
+      crew_pyo: "clinging to Borro's shell, praying under his breath"
+    calm: top
+    sfx:
+      - {text: "GROOOAN", style: impact, at: [0.60, 0.60], size: L, rot: 0}
+
+  - id: P27
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, under the bridge: one husk in the middle cracking right through and breaking loose, tumbling away into the abyss, the lattice jerking"
+    light: "white above; violet-grey below"
+    art: >
+      From low under the bridge: one husk (ahin_husks) in the middle of the lattice cracks right through under Borro's weight and breaks loose,
+      tumbling away into the 300 m of air; the lattice jerks and sags as its neighbours grab for each other.
+    acting:
+      ahin_husks: "one husk breaking loose and falling, its neighbours lunging to close the gap"
+    calm: top
+    sfx:
+      - {text: "KRAKK", style: impact, at: [0.50, 0.30], size: L, rot: 8}
+
+  - id: P28
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Moon Ahin flinching, the baton faltering for one instant"
+    light: "white"
+    art: >
+      Close on Moon Ahin (moon_ahin) flinching as the husk falls, the baton faltering for one instant before she drives it on.
+    acting:
+      moon_ahin: "flinching, eyes following the fall, then the baton driving on"
+    calm: left
+    lines:
+      - {who: moon_ahin, type: whisper, text: "...TWENTY-NINE.", side: r}
+
+  - id: P29
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level along the bridge: cracks spidering across husk after husk under Borro's feet, the lattice creaking"
+    light: "white"
+    art: >
+      Along the bridge: cracks spider across husk after husk under Borro's feet (borro); the lattice creaks; Borro stops dead in the middle,
+      afraid to take another step.
+    acting:
+      borro: "frozen in the middle of the bridge, looking down at the cracks"
+      ahin_husks: "cracking under his weight, holding"
+    calm: top
+    sfx:
+      - {text: "krk krk krk krk", style: impact, at: [0.50, 0.70], size: M, rot: 0}
+
+  - id: P30
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close on Jaeha on the lip, watching the cracks spread, his hand rising toward the bridge"
+    light: "white"
+    face: private
+    art: >
+      Close and low on Jaeha (kang_jaeha) on the lip, watching the cracks spread; his hand rises toward the bridge.
+    acting:
+      kang_jaeha: "watching, his open hand rising toward the husks"
+    eyeline: "Jaeha → the bridge"
+    foreground: "his open hand, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: inner, text: "They're summoned, like mine. Empty, but summoned. So maybe..."}
+
+  # ================= WHY (P31-P40) =================
+  - id: P31
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level on Jaeha with his hand stretched toward the bridge, a window opening that no one has ever seen"
+    light: "the window's cyan; white beyond"
+    face: private
+    art: >
+      Jaeha (kang_jaeha) stretches his hand toward the bridge as a window opens over the gap. The upper half is empty for the window.
+    acting:
+      kang_jaeha: "hand stretched out, eyes wide on the window"
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.05], headline: "[LINK: 29 HUSKS · SUMMONER: MOON AHIN]", body: "THE HUSKS DO NOT REFUSE. CARRY THEM?", button: "CARRY"}
+
+  - id: P32
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of Jaeha's eyes, wide, then hardening"
+    light: "cyan"
+    face: private
+    art: >
+      Extreme close-up of Jaeha's eyes (kang_jaeha), wide with surprise, then hardening. Fill the canvas edge to edge.
+    acting:
+      kang_jaeha: "eyes wide, then narrowing"
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: inner, text: "Nobody has ever carried them. Not once."}
+
+  - id: P33
+    recipe: carry
+    shape: full
+    gap: short
+    bg: black
+    camera: "high, over the gap: twenty-nine thin white threads running from Jaeha on the lip to every husk in the bridge, the cracks stopping, Jaeha dropping to one knee"
+    light: "twenty-nine white threads; white rim light"
+    face: private
+    art: >
+      High over the gap: twenty-nine thin white threads run from Jaeha (kang_jaeha) on the lip to every husk in the bridge (ahin_husks); the
+      cracks stop spreading; the lattice steadies; Jaeha drops to one knee as dark bruises bloom across his forearms and up his neck. The green
+      and blue threads to Borro and Lyra go thin and pale.
+    acting:
+      kang_jaeha: "dropping to one knee, both arms out, bruises blooming on his arms and neck"
+      ahin_husks: "steadying, the cracks freezing where they are"
+    calm: top
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.90], text: "[CARRY ×29 · LOAD: 240% · CRITICAL]"}
+    sfx:
+      - {text: "DOOOOOM", style: impact, at: [0.30, 0.30], size: XL, rot: 0}
+
+  - id: P34
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, close two-shot: Moon Ahin seeing the white threads running from him to her husks, her baton slowing"
+    light: "white threads"
+    face: private
+    art: >
+      Close two-shot: Moon Ahin (moon_ahin) sees the white threads running from him to her husks, and her baton slows; Jaeha (kang_jaeha) on one
+      knee looks up at her.
+    acting:
+      moon_ahin: "staring at the threads, the baton slowing, lips parted"
+      kang_jaeha: "on one knee, bruised, looking up at her, a crooked smile"
+    eyeline: "Moon Ahin → the threads, then Jaeha; Jaeha → Moon Ahin"
+    foreground: "a white thread across the frame, cropped, top"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: speech, text: "WHY ARE YOU CARRYING MY HUSKS?", side: l}
+      - {who: kang_jaeha, type: speech, text: "BECAUSE THEY'RE CARRYING US.", side: r}
+
+  - id: P35
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Moon Ahin, her composure breaking, her eyes wet"
+    light: "white"
+    art: >
+      Close on Moon Ahin (moon_ahin): her composure breaks; her eyes fill; she turns her face to the bridge so he won't see.
+    acting:
+      moon_ahin: "eyes filling, turning her face away to the bridge, jaw trembling"
+    calm: right
+    silent: true
+    sfx:
+      - {text: "...", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P36
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level along the bridge: Borro moving again, step by careful step, the cracks under his feet holding"
+    light: "white"
+    art: >
+      Along the bridge: Borro (borro) moves again, step by careful step, and the cracks under his feet hold; ahead, Woo and Ho reach the far end
+      and are pulled onto the rim ledge by Nib.
+    acting:
+      borro: "stepping carefully, looking back at Jaeha"
+      nib: "hauling Ho onto the ledge by his tabard"
+    calm: top
+    sfx:
+      - {text: "STEP... STEP...", style: quiet, at: [0.50, 0.70], size: S, rot: 0}
+
+  # ================= THE CROSSING (P37-P60) =================
+  - id: P37
+    recipe: anticipation
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level on the rim ledge: a steel side door in the rock banging open, troopers pouring out with carbines"
+    light: "white rim light; red from inside the door"
+    art: >
+      On the rim ledge: a steel side door in the rock bangs open and troopers (kanghan_tactical) pour out of it with carbines, eight of them,
+      toward the bridge's far end where the crew stand.
+    acting:
+      kanghan_tactical: "pouring out of the door, carbines coming up"
+    calm: top
+    sfx:
+      - {text: "BANG", style: impact, at: [0.30, 0.30], size: L, rot: 0}
+
+  - id: P38
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, on the lip: Lyra on one knee shooting across the gap, an arrow knocking the first trooper's carbine out of his hands"
+    light: "river blue; white"
+    art: >
+      Low on the lip: Lyra (lyra) on one knee shoots across the gap; her arrow knocks the first trooper's carbine out of his hands and spins it
+      over the edge.
+    acting:
+      lyra: "on one knee, loosing, already reaching for the next arrow"
+    calm: top
+    lines:
+      - {who: lyra, type: shout, text: "NOBODY SHOOTS AT MY BRIDGE!", side: l}
+    sfx:
+      - {text: "THWIP — KLANG", style: impact, at: [0.70, 0.30], size: M, rot: 6}
+
+  - id: P39
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Moon Ahin, conducting, not looking round"
+    light: "white"
+    art: >
+      Close on Moon Ahin (moon_ahin), conducting, not looking round.
+    acting:
+      moon_ahin: "conducting, eyes on the bridge, a flicker of a smile"
+    eyeline: "Moon Ahin → the bridge"
+    foreground: "Lyra's bow limb, cropped, left"
+    calm: left
+    lines:
+      - {who: moon_ahin, type: speech, text: "YOUR BRIDGE?", side: r}
+
+  - id: P40
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, two-shot on the lip: Lyra loosing again, snapping back at Moon Ahin without looking"
+    light: "river blue; white"
+    art: >
+      Two-shot on the lip: Lyra (lyra) looses again and snaps back at Moon Ahin (moon_ahin) without looking at her.
+    acting:
+      lyra: "loosing again, eyes on the targets, cheeks pink"
+      moon_ahin: "conducting beside her"
+    eyeline: "Lyra → the troopers"
+    foreground: "the edge of the lip, cropped, bottom"
+    calm: top
+    lines:
+      - {who: lyra, type: speech, text: "I'M STANDING ON THE END OF IT. THAT MAKES IT PARTLY MINE.", side: l}
+    sfx:
+      - {text: "THWIP", style: impact, at: [0.80, 0.30], size: M, rot: 0}
+
+  - id: P41
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, on the rim ledge: Nib in field form leaping off the end of the bridge into the troopers, knives flashing"
+    light: "amber; white"
+    art: >
+      From low on the rim ledge: Nib (nib), amber outline blazing, leaps off the end of the bridge into the troopers (kanghan_tactical), knives
+      flashing, kicking a carbine up out of one man's hands and slicing the strap of another's.
+    acting:
+      nib: "leaping in, one knife cutting a strap, a foot kicking a carbine up"
+      kanghan_tactical: "two troopers losing their carbines, staggering"
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.88], text: "[NIB · FIELD FORM · NOT CARRIED]"}
+    sfx:
+      - {text: "SHHINK", style: impact, at: [0.40, 0.30], size: L, rot: -8}
+
+  - id: P42
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high, over the rim ledge: Nib cutting through the troopers like a gust, men going down, carbines skittering away, nobody going over the edge"
+    light: "amber; white"
+    art: >
+      High over the rim ledge: Nib (nib) goes through the troopers (kanghan_tactical) like a gust of wind; men go down holding wrists and knees;
+      carbines skitter away across the stone; he hauls one stumbling man back from the edge by his collar.
+    acting:
+      nib: "hauling a trooper back from the edge by the collar, a knife in his other hand"
+      kanghan_tactical: "going down, clutching wrists and knees"
+    calm: top
+    sfx:
+      - {text: "WHAP WHAP THUD", style: impact, at: [0.60, 0.40], size: M, rot: 6}
+
+  - id: P43
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level on the bridge's far end: the crew crowding onto the rim ledge, Borro stepping off the last husk with Pyo, a red window"
+    light: "white rim light; red window"
+    art: >
+      At the bridge's far end: the crew crowd onto the rim ledge; Borro (borro) steps off the last husk with Uncle Pyo (crew_pyo); the narrowing
+      white rim behind them. The upper half is empty for the window.
+    acting:
+      borro: "stepping off onto the ledge, setting Pyo down"
+      crew_pyo: "sliding down, reaching back to pat the last husk's head"
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.06], text: "[GATE RIM SEALING · 03:10]"}
+
+  - id: P44
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "side-on along the bridge: Lyra running across the husks' backs, turning in mid-stride to shoot behind her, her braid flying"
+    light: "river blue; white"
+    art: >
+      Side-on along the bridge: Lyra (lyra) runs across the husks' backs, light and fast, and turns in mid-stride to loose an arrow back at a
+      trooper on the ledge, her silver braid flying; a graceful action panel, the whole figure.
+    acting:
+      lyra: "running, twisting in mid-stride to loose behind her, braid flying"
+    calm: top
+    sfx:
+      - {text: "tp tp THWIP", style: impact, at: [0.70, 0.30], size: M, rot: 0}
+
+  - id: P45
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, on the lip: Jaeha struggling up from one knee, Moon Ahin holding out her arm again without a word"
+    light: "white threads"
+    face: private
+    art: >
+      Low on the lip: Jaeha (kang_jaeha) struggles up from one knee, the white threads still pouring out of him; Moon Ahin (moon_ahin) holds out
+      her LEFT arm to him without a word, the baton still conducting in her RIGHT.
+    acting:
+      kang_jaeha: "struggling up, bruised, taking her arm"
+      moon_ahin: "holding out her LEFT arm, the RIGHT still conducting"
+    eyeline: "Jaeha → the bridge; Moon Ahin → the bridge"
+    foreground: "the threads across the frame, cropped, top"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "YOU HAVE TO CROSS TOO. THEY'LL FALL IF YOU STOP CONDUCTING.", side: r}
+      - {who: moon_ahin, type: speech, text: "THEN I CONDUCT WHILE I WALK. I'M VERY GOOD.", side: l}
+
+  - id: P46
+    recipe: establish
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from the lip: the two of them stepping out onto the husk bridge together, she conducting with one arm and holding him with the other, the white rim ahead"
+    light: "white rim light ahead; violet-grey below"
+    art: >
+      From low on the lip: Moon Ahin (moon_ahin) and Jaeha (kang_jaeha) step out onto the husk bridge together, she conducting with her RIGHT arm
+      and holding him up with her LEFT, the white rim light narrowing ahead of them; the 300 m of air below.
+    acting:
+      moon_ahin: "stepping out onto the first husk's back, conducting, holding him"
+      kang_jaeha: "stepping out on her arm, threads streaming from him to the husks"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "kreeak", style: quiet, at: [0.50, 0.70], size: S, rot: 0}
+
+  - id: P47
+    recipe: link-view
+    shape: wide
+    gap: short
+    bg: black
+    camera: "Jaeha's point of view looking down: polished white backs under his boots, cracks under each one, 300 m of air beyond them, the grey closing in at the edges"
+    light: "white; a grey vignette closing in"
+    face: private
+    art: >
+      Jaeha's point of view looking down: the polished white backs of the husks under his boots, a crack frozen across each one, and 300 m of
+      empty air between them; the grey closes in at the edges; blood drips from his nose onto a husk's back.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "drip", style: quiet, at: [0.50, 0.50], size: S, rot: 0}
+
+  - id: P48
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level in the middle of the bridge: the husk under Jaeha's foot cracking through, Jaeha stumbling, Moon Ahin hauling him upright"
+    light: "white"
+    art: >
+      In the middle of the bridge: the husk under Jaeha's foot (kang_jaeha) cracks through and its neighbour lunges to take the gap; Jaeha
+      stumbles toward the edge; Moon Ahin (moon_ahin) hauls him upright by his tabard with her LEFT hand, never stopping the baton in her RIGHT.
+    acting:
+      kang_jaeha: "stumbling sideways, arms flailing"
+      moon_ahin: "hauling him back by the tabard, the baton still moving"
+      ahin_husks: "one husk cracking through, its neighbour lunging to close the gap"
+    calm: top
+    sfx:
+      - {text: "KRAK", style: impact, at: [0.40, 0.70], size: M, rot: 0}
+      - {text: "YANK", style: comic, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P49
+    recipe: carry
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha's forearm, a dark bruise blooming across it in the shape of a crack"
+    light: "white"
+    face: private
+    art: >
+      Close on Jaeha's forearm (kang_jaeha): a dark bruise blooms across it in the exact branching shape of the crack in the husk below.
+    acting:
+      kang_jaeha: "his arm shaking, the bruise spreading"
+    calm: left
+    silent: true
+    sfx:
+      - {text: "krk", style: quiet, at: [0.30, 0.30], size: S, rot: 0}
+
+  - id: P50
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, walking close two-shot on the bridge: Moon Ahin and Jaeha, her face fierce, his grey"
+    light: "white ahead"
+    face: private
+    art: >
+      Walking close two-shot on the bridge: Moon Ahin (moon_ahin), her face fierce; Jaeha (kang_jaeha), grey-faced, on her arm.
+    acting:
+      moon_ahin: "walking, conducting, holding him, eyes ahead"
+      kang_jaeha: "walking on her arm, eyes half closed, counting"
+    eyeline: "both → the far end"
+    foreground: "a husk's polished shoulder under their feet, cropped, bottom"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: speech, text: "DON'T YOU DARE FAINT ON MY HUSKS, NUMBER FOUR.", side: l}
+      - {who: kang_jaeha, type: speech, text: "WOULDN'T DREAM OF IT, MA'AM.", side: r}
+
+  - id: P51
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level on the rim ledge: Nib standing among the fallen troopers, waving them on, the white rim behind him narrower than a man"
+    light: "white; amber"
+    art: >
+      On the rim ledge: Nib (nib) stands among the fallen, groaning troopers and waves them on with both knives; behind him the white rim is
+      narrower than a man now; Borro (borro) and the crew wait at the bridge's end, reaching out.
+    acting:
+      nib: "waving them on with both knives"
+      borro: "reaching out a huge hand toward the bridge"
+    calm: top
+    lines:
+      - {who: nib, type: shout, text: "HURRY! IT'S CLOSING!", side: l}
+    sfx:
+      - {text: "KLAK... KLAK...", style: impact, at: [0.80, 0.30], size: M, rot: 0}
+
+  - id: P52
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level on the bridge from the side: the two of them three-quarters of the way across, a red window"
+    light: "white; red window"
+    art: >
+      From the side: Moon Ahin and Jaeha are three-quarters of the way across the sagging husk bridge. The upper half is empty for the window.
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.06], text: "[GATE RIM SEALING · 02:04]"}
+
+  - id: P53
+    recipe: anticipation
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, at the bridge's far end: a boot stepping out of the side door's shadow onto No. 1's back at the very end of the bridge"
+    light: "white; the side door's shadow"
+    art: >
+      Low at the bridge's far end: a black boot steps out of the side door's shadow and onto the back of No. 1 (ahin_husks), the husk anchoring the
+      very end of the bridge; Borro and the crew, looking the other way at Jaeha, don't see it.
+    acting:
+      ahin_husks: "No. 1 holding the stump, a boot on its back"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "tak", style: quiet, at: [0.40, 0.70], size: S, rot: 0}
+
+  - id: P54
+    recipe: establish
+    shape: tall
+    gap: short
+    bg: black
+    camera: "eye level, a few metres off: Han Sora standing on the end of the husk bridge with her crossbow raised to her eye, the narrowing white rim behind her"
+    light: "key: the white rim light behind her; rim light on her wet hair"
+    art: >
+      A few metres off: Han Sora (han_sora) stands on the end of the husk bridge, one boot on No. 1's back, her crossbow raised to her eye, the
+      narrowing white rim light behind her outlining her wet slicked hair and the cropped Kanghan jacket; a cold, beautiful figure blocking the
+      only way home.
+    acting:
+      han_sora: "crossbow raised to her eye, one boot on the husk, perfectly balanced, smiling along the sights"
+    calm: top
+    silent: true
+
+  - id: P55
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close, along the crossbow's rail: the bolt's tip, and far down the bridge beyond it, small, Jaeha on Moon Ahin's arm"
+    light: "white"
+    art: >
+      Close along the crossbow's rail (han_sora): the bolt's broad tip in the foreground; far down the bridge beyond it, small, Jaeha on Moon Ahin's
+      arm.
+    acting:
+      han_sora: "sighting down the rail, finger on the trigger"
+    eyeline: "Sora → Jaeha"
+    foreground: "the bolt's tip, cropped, bottom right"
+    calm: top
+    lines:
+      - {who: han_sora, type: speech, text: "HELLO AGAIN, OPERATOR. NOW HOLD STILL.", side: l}
+
+  - id: P56
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level on the bridge: Jaeha and Moon Ahin stopped dead, Moon Ahin's baton frozen in the air"
+    light: "white"
+    face: private
+    art: >
+      On the bridge: Jaeha (kang_jaeha) and Moon Ahin (moon_ahin) stop dead; Moon Ahin's baton freezes in the air; the husks under them hold
+      their breath.
+    acting:
+      kang_jaeha: "stopped, looking straight down the bolt, very still"
+      moon_ahin: "stopped, baton frozen in the air"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "...", style: quiet, at: [0.50, 0.20], size: S, rot: 0}
+
+  - id: P57
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of Sora's eye along the sights, winged eyeliner, the pupil steady"
+    light: "white"
+    art: >
+      Extreme close-up of Sora's eye (han_sora) along the crossbow's sights: the winged eyeliner, the pupil perfectly steady. Fill the canvas edge to
+      edge.
+    acting:
+      han_sora: "one eye along the sights, unblinking"
+    calm: none
+    silent: true
+
+  - id: P58
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on the bolt's tip, aimed at the centre of Jaeha's chest"
+    light: "white"
+    art: >
+      Close on the bolt's broad steel tip, aimed dead at the centre of Jaeha's chest, where the T-4 is stencilled on his tabard.
+    calm: right
+    silent: true
+
+  - id: P59
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close on Jaeha in the middle of the bridge, bruised and bleeding, looking down the bolt and smiling politely"
+    light: "white"
+    face: public
+    art: >
+      Close and low on Jaeha (kang_jaeha) in the middle of the bridge, bruised and bleeding, threads streaming from him to the husks; he looks
+      straight down the bolt and smiles politely.
+    acting:
+      kang_jaeha: "a polite, tired smile, hands open at his sides"
+    eyeline: "Jaeha → Sora"
+    foreground: "Moon Ahin's arm through his, cropped, left"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "GOOD EVENING, MISS HAN. YOU'RE STANDING ON A VERY BRAVE HUSK.", side: r}
+
+  - id: P60
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "high, the whole bridge from above: Sora at the far end, the two of them in the middle, the white rim behind Sora narrower than ever, a red window"
+    light: "white rim; red window"
+    art: >
+      High, the whole bridge from above: Sora at the far end with her crossbow raised, Jaeha and Moon Ahin in the middle, the 300 m of air below,
+      the white rim behind Sora narrower than ever. The upper half is empty for the window.
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.06], text: "[GATE RIM SEALING · 01:58]"}
+
+  - id: END
+    kind: end
+    chibi_gag: "Chibi No. 1, at the end of the bridge, very slowly turns its blank face up at chibi Sora's boot on its back, and a tiny anger mark appears on its porcelain forehead."
