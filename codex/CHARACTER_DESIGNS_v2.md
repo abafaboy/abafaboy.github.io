@@ -55,6 +55,17 @@
 | Hushed knight-commander | 4.5 m standing, about 3 m kneeling | Jaeha reaches its mid-thigh |
 | Stone lizard | 1.5 m long with the tail, 60 cm at the shoulder | its back reaches his mid-thigh |
 | Borro (from ch 10) | 2.4 m | |
+| Lyra (from ch 18) | 182 cm | a little taller than him |
+| Moon Ahin (from ch 12) | 170 cm | at his eyebrows |
+| Han Sora | 168 cm | at his eyes |
+| Director Baek | 183 cm | a little taller |
+| Auntie Geum Okran (ch 33) | 155 cm | at his chin, and twice as broad |
+| Uncle Pyo (ch 23) | 160 cm | at his nose |
+| The training construct (ch 13) | 4 m | he reaches its hip |
+| The basalt boar (ch 15) | 2.5 m at the shoulder, 5 m long | its shoulder is a head above Borro's head |
+| The Drowned Bell-Ringer (ch 17) | 6 m | he reaches its knee; Borro its waist |
+| Canyon wyvern (ch 24) | body 1.2 m, wingspan 4 m | a big dog with wings |
+| The Hushed Tide Warden (ch 26) | 30 m standing, a seven-storey building kneeling | he is the size of the Warden's fingernail |
 
 Make `characters_v2/scale_chart_v2.png` with all of them standing in a row, after the style is chosen.
 
@@ -93,6 +104,8 @@ Make `characters_v2/scale_chart_v2.png` with all of them standing in a row, afte
 8. **Laughing despite himself.**
 
 **Other looks:**
+- **Hoodie only** (outfit key `hoodie`, ch 8, 14, 22-23, 32-33): the grey hoodie and the work trousers, no vest. The notebook goes in the hoodie's front pocket.
+- **The crew kit** (outfit key `crew`, ch 23-31): grey work coveralls; an orange tabard with a big black stencilled number front and back (his is 4); a full-face respirator with a smoky tinted visor and twin round filters, so only a dark shape of a face shows behind it (often pushed down round his neck from ch 25); a yellow hard hat with a lamp; the fingerless gloves; his own boots. The notebook rides inside the tabard.
 - **The black field coat** (from Arc 5, and already in the chapter 1 flash-forward): knee-length, #18191D / #0F1013, with an orange lining #F26A1B that shows when it moves. A dark grey shirt under it, the same work trousers and boots, no vest.
 - **From chapter 97:** the Ninth Wall blade in his hands (section 6).
 
@@ -240,8 +253,8 @@ In the chapter 1 flash-forward, all seven summons stand behind Jaeha as black si
 | **Kett**, young goblin scout | ch 88 (and the chapter 3 flashback) | Nib's apprentice; talks too much. About 95 cm, slighter than Nib, smoother grey-green skin, a goblin face like Nib's but young (a pointed nose, shorter and straighter than Nib's; a narrow pointed chin; an angular skull), long ears with no notch, an oversized hand-me-down charcoal scout cloak, one short knife, a mustard-yellow scarf #D9A62E, an eager open face. A young soldier, never a mascot. |
 | **Moon Ahin**, "the Puppeteer" | ch 12 | Full design in 2.11 (drawn early for the owner's sheets). |
 | **Director Baek Taegun** | ch 5 (silhouette), ch 12 | 54, a grey suit, silver glasses, a cane with a core in the handle. Name card (ch 12): gradient, black #0E0E10 to smoky violet #4A3A66. |
-| **Auntie Geum Okran** | ch 33 | 62, an apron over a tracksuit, one prosthetic arm, a ladle she fights with |
-| **Oh Minseok** | flashbacks | The same orange vest as Jaeha's, a kind grin |
+| **Auntie Geum Okran** | ch 33 | Full design in 2.17. |
+| **Oh Minseok** | flashbacks, ch 14, 21, 22, 28 | Full spec in 2.18. |
 
 ### 2.12 Borro: stoneback carrier, summon no. 2 (from ch 9–10)
 
@@ -299,6 +312,65 @@ Recurring people get one lineup sheet (`characters_v2/neighbourhood/lineup.png`,
 | `kanghan_watcher` | A Kanghan watcher | 7 | Kanghan security (2.14) in a parked black sedan with a long-lens camera. |
 | `ahin_husks` | Moon Ahin's forty husks | 12 onward | Section 3: polished porcelain white with fine silver seams, elegant proportions; they move in perfect unison. Sheet: entry S19. |
 | `bell_silhouette` | The caller who refuses (ch 9) | 9 | Only ever a black silhouette against fire: a broad figure about 2.1 m tall in armour shaped like a great bell, holding a bell-headed mace, on a burning wall beside a huge hanging bronze bell. He is Caldric (2.9), but his face and colours are never shown before ch 68. |
+
+### 2.16 Han Sora (27): Kanghan's eyes inside Black Hound (ch 1 as hunter 5; name card ch 14)
+
+**Read at a glance.** A striking, amused woman with a crossbow and a red smile who is always watching a little brass compass on her wrist.
+
+| | |
+|---|---|
+| **Build** | About 168 cm, athletic and curvy, a relaxed hip-shot stance; she moves like a cat and sits on things she shouldn't. |
+| **Face** | A beautiful heart-shaped face, sharp winged eyeliner, dark eyes that are always amused, red lips #B3202A. |
+| **Hair** | A sleek black chin-length bob #141418, slicked straight back when wet (ch 27-32). |
+| **Black Hound look** (outfit `default`, ch 1-21) | The black guild jacket with the small red hound's head, cropped at the waist and worn open over a fitted black tank top with a low scoop neckline; fitted black tactical trousers with a thigh holster of bolts; black boots. |
+| **Kanghan look** (outfit `kanghan`, ch 27 onward) | A fitted charcoal-grey Kanghan tactical jacket #3A3C42, cropped at the waist, the silver hexagon on the LEFT shoulder, worn open over the same black scoop-neck tank top; black tactical trousers, the thigh holster, black boots. |
+| **Crossbow** | A compact black repeating crossbow with a short box magazine, slung across her back or resting on her shoulder; one heavy bolt with a violet core tip kept apart (ch 31). |
+| **The core compass (lock, until ch 31)** | Brass, the size of a coin purse, on a short chain round her RIGHT wrist like a charm; a glass face and a needle that is a sliver of smoky violet core, glowing faintly. It swings toward the nearest summon in field form. Lyra shoots it off her wrist in ch 31; from ch 32 a bandage round that wrist. |
+| **Acting** | A lazy, delighted smile; a wink; leaning on door frames; serious only when she talks about Jaeha's body. |
+| **Name-card background** | Gradient, black #0E0E10 to crimson #8A1C2A |
+
+**Fan service:** a beautiful face, confident poses, nothing explicit, never a camera aimed at her chest. She is never Jaeha's love interest.
+
+### 2.17 Auntie Geum Okran (62): retired S-rank, "the Wall of Busan" (from ch 33)
+
+**Read at a glance.** A short, broad old woman in an apron and a tracksuit, with a steel arm and a ladle, who fills any room she stands in.
+
+| | |
+|---|---|
+| **Build** | About 155 cm and broad, with a wrestler's shoulders and forearms; a low, planted stance; slippers slapping when she walks. |
+| **Face** | Sun-browned and deeply lined, a broad nose, sharp black eyes that see everything, one gold tooth on the upper left that shows when she grins. |
+| **Hair** | Short permed grey hair under a faded floral headscarf knotted at the nape. |
+| **Clothes** | A red-and-white checked apron over a faded purple tracksuit #5B4A78, the sleeves pushed up; pink rubber slippers. |
+| **The arm (lock)** | Her LEFT arm, from just above the elbow, is an old heavy prosthetic: battered gunmetal plates #4A4F55 and rivets, a faded painted wave pattern in harbour blue on the forearm, three thick fingers and a thumb; it clicks and creaks, and twitches on its own when the sea is restless. |
+| **The ladle (lock)** | A big long-handled steel ladle, always in her RIGHT hand: she points with it, pokes with it, taps people's bones with it like a doctor's hammer, and hits Choi with it. |
+| **Acting** | Loud, blunt, terrifyingly kind; reads a body like a menu; "just one more". |
+| **Name-card background** | Gradient, harbour blue #2C4A63 to rust #A8572E |
+
+### 2.18 Arcs 3-4 cast (chapters 13-33): recurring and one-off (generic, no name cards unless noted)
+
+| Id | Who | Chapters | Look |
+|---|---|---|---|
+| `oh_minseok` | Oh Minseok, Jaeha's mentor (dead four years) | 14, 21, 22, 28 | Late thirties, the same orange trap-tester vest as Jaeha's but older and more patched, a kind crooked grin, short hair going grey, a scar through one eyebrow. In his photo at the columbarium: grinning with a thumbs-up. Flashbacks are grey except the orange. |
+| `inspector_ryu` | Inspector Ryu, the Association | 13, 22, 32 | A tired, fair man in his fifties in a grey Hunter Association uniform jacket, reading glasses, a grey moustache. |
+| `deputy_hwang` | Deputy Director Hwang, the Association | 32 | 60, silver hair, a soft smiling face, rimless glasses, an Association grey suit; a small silver hexagon pin hidden on the underside of his lapel. |
+| `bh_lawyer` | Black Hound's lawyer | 13, 21 | A sleek man in his forties in an expensive grey suit, a silver tie, slicked hair, a tablet. |
+| `assoc_guard` | An Association lobby guard | 13 | A young guard in a grey uniform with a handheld scanner wand. |
+| `bh_raid`, `bh_sealers`, `bh_second` | Black Hound squads | 16-21 | Hunters in clean black guild jackets with the red hound's head, mixed weapons. The sealers carry a black steel stake 1 m long with a silver double-hexagon on its head and a backpack of cables. The second team: two swordsmen, a spearman, an archer, a mage with a core-tipped staff, the ch 7 shield-bearer. |
+| `police` | Police officers | 21, 22, 32 | Korean police in navy uniforms with fluorescent yellow-green vests and caps; white-and-blue cars. |
+| `gate_rescue` | Gate Rescue Corps responders | 21, 32 | Choi's navy and hi-vis yellow-green jacket; gold foil blankets; white vans with orange light bars. |
+| `kanghan_spokesman` | Kanghan's spokesman | 22 | A smooth man in a navy suit at a podium before the silver hexagon logo. |
+| `conv_clerk` | The convenience-store clerk | 14, 22 | A sleepy man in his twenties in a green store vest. |
+| `foreman_gu` | Foreman Gu, Kanghan site foreman | 23-25 | A thickset man in his fifties, a grey coverall with the silver hexagon emblem, a hard hat, a clipboard, a black stun baton, a respirator at his neck; bored and mean. |
+| `kanghan_engineer` | Kanghan engineers | 23-28 | Grey coveralls with the hexagon emblem, white hard hats, respirators round their necks, tablets and trolleys. The duty chief (ch 28) has grey hair. |
+| `kanghan_tactical` | Kanghan's tactical squad | 27-31 | Black tactical armour, full helmets with smoky visors, the silver hexagon on the chest, small round shields, shock batons, stubby core carbines that fire violet stun bolts; the captain has a red helmet stripe. |
+| `crew_pyo` | Uncle Pyo Dongsik, T-1 (name card ch 23) | 23-33 | 63, small and wiry, a grey crew cut, a weathered kind face with crooked teeth, a brace on his LEFT knee. |
+| `crew_dami` | Dami, T-2 | 23-33 | 34, tired, hair in a low bun, a phone with her daughter's photo as its lock screen. |
+| `dami_daughter` | Dami's daughter | 33 | About 6, a too-big yellow raincoat, a grin with a missing front tooth. A child: drawn simply and cutely, never any fan service. |
+| `crew_woo`, `crew_ho` | The Jang brothers, T-3 and T-5 | 23-33 | Brothers of 25 and 23, both lanky with the same big ears; Ho has bleached hair. They are saving to open a fried-chicken shop ("Wings of Glory"). |
+| `hospital_doctor` | A ward doctor | 33 | A tired young doctor in a white coat with a tablet. |
+| `training_construct` | The Association's test construct | 13 | A 4 m stone figure of grey granite blocks bound with brass bands, a blank rounded head, arms like pillars, a fist-sized amber test core behind a brass grille in its chest; it moves on rails of light in the floor. Jaeha reaches its hip. |
+
+**The crew kit** (all five trap-testers, ch 23-31): see Jaeha's `crew` look in 2.1, each with his or her own number (1 Pyo, 2 Dami, 3 Woo, 4 Jaeha, 5 Ho).
 
 ### 2.10 Lyra: river archer summon (from ch 18), the thumbnail woman
 
@@ -425,6 +497,25 @@ A giant serpent from a hot Far Side marsh: 20 m long, the body as thick as a sma
 ### 4b.5 The Hush in the Call (ch 9)
 Not a monster with a body: the black water of the Call itself. A long black hand with too many joints rises from it, leaking violet ash, and grips Jaeha's RIGHT ankle; frost races out from its fingers. It leaves a black-violet bruise shaped like long, thin, many-jointed fingers round his ankle (from ch 10). Never a face; never more than the hand.
 
+## 4c. Monsters, Arcs 3-4 (chapters 13-33)
+
+Every boss here is a hushed hero of the Far Side (a Hush crack leaking violet ash #6B4C9A); small monsters are Hush-spawn.
+
+### 4c.1 The basalt boar (ch 15, D-grade boss)
+A hushed boar the size of a truck: 2.5 m at the shoulder, 5 m long. Its hide is plated with slabs of black basalt with rough edges like broken paving, coarse dark bristles between the slabs; two curved tusks of glassy black obsidian; small red-brown eyes; a small violet Hush crack on its brow. It charges in straight lines and lowers its head three strides before impact (its tell). Its shoulder is a head higher than Borro's head.
+
+### 4c.2 The Drowned Bell-Ringer (ch 17-19, B-grade boss)
+A hushed giant 6 m tall: a body like drowned grey stone wrapped in rotting dark-blue robes and rusted chains; long arms, huge hands; in place of a head, a cracked bronze cathedral bell green with age, a violet Hush crack down its side leaking ash, darkness inside its mouth. Its hammer is a bell clapper the size of a tree trunk. When it tolls, a ring of force bursts out a step beyond its own reach; inside its arm's length the force passes over you. Borro reaches its waist; Jaeha its knee.
+
+### 4c.3 Canyon wyverns (ch 24, Hush-spawn)
+Small cliff-dwelling wyverns: a body the size of a large dog (1.2 m long without the tail), a 4 m wingspan; slate-grey leathery skin streaked with rust; a long whip tail ending in a hooked barb; a narrow skull with a beaky snout full of needle teeth; pale clouded eyes; Hush cracks leaking violet ash along the wing bones. They nest in crevices and dive in flocks of ten to twenty, shrieking like tearing metal.
+
+### 4c.4 The Hushed Tide Warden (ch 25-28, the kept boss of the Han River gate)
+A sea-giant, 30 m tall if he stood, kept kneeling and sagging in chains. Pale blue-grey skin like a drowned man's, with Hush cracks leaking violet ash; armour of red and white coral grown like plate, crusted with barnacles and shells; a crown of coral branches; a long beard of kelp; a broad, noble, sorrowful face. His eyes are deep sea-green, enormous and ancient (closed until ch 27). Chains as thick as tree trunks run from steel cuffs on his wrists, neck and waist to anchors in the pit walls; the chain links are matte black factory steel with one small stamped mark (the same mark as the knight's chains in ch 1 and 4: a shape, never letters). Dozens of steel pipes are driven into his body through collars bolted into the coral; smoky violet light flows out through their glass sections. A broken trident lies at his knees. Kneeling, he is as tall as a seven-storey building. His voice reaches only Far Side people, as words; humans hear a deep hum.
+
+### 4c.5 The thing under the Busan sea gate (ch 33, never shown whole)
+Only ever a curve of dark hide too big to see the end of, and the edge of something like a fin or a hand, sliding past a crack in the sealed lid on the seabed (Arc 5).
+
 ## 5. Locations, Arc 1 (make a location key for each after the style is chosen)
 
 Colour keys are in `MANHWA_STYLE_GUIDE.md` table 5.3.
@@ -465,6 +556,35 @@ Colour keys are in `MANHWA_STYLE_GUIDE.md` table 5.3.
 - `mangwon_market`: `fish_lane.png`, the fish lane with tanks and ice trays and the cold-storage stairwell glowing violet (ch 11).
 - `hanriver_gate`: `bank_dusk.png`, the riverside park and the enclosure at the blue hour from behind a stack of pallets (ch 8).
 
+## 5c. Locations, Arcs 3-4 (chapters 13-33)
+
+| Location | Id | Chapters | Design |
+|---|---|---|---|
+| **The Association lobby** | `assoc_lobby` | 13, 32 | A tall glass atrium; a grey-and-white floor with the Association's star-and-shield emblem inlaid (no letters); big screens on the walls (#00FF00); a security arch and desk. |
+| **The hearing room** | `assoc_hearing_room` | 13 | Wood-panelled; a raised panel desk; two tables facing it; a public gallery behind a rail. |
+| **The test arena** | `assoc_arena` | 13 | A round basement arena 30 m across with padded grey walls, rails of light in the floor, an observation window high on one side, a big screen. |
+| **The convenience store** | `conv_store` | 14, 22 | A bright little store on a Mangwon corner: outdoor plastic tables and chairs under an awning, a drinks fridge glowing through the glass, one streetlamp; inside, a TV above the counter. |
+| **The Han River gate, four years ago** | `hanriver_gate_flashback` | 14, 22, 26 | Drawn in greys with only orange in colour: a dark stone chamber inside the Han River gate and its tall iron door, 4 m high. |
+| **The aqueduct gate** | `aqueduct_gate` | 15 | Outside: a closed water-treatment plant, round settling tanks, the gate slit in an empty tank. Inside: a ruined Far Side aqueduct, a long stone channel 6 m wide with knee-high walls on top of tall arches over a deep gorge, shallow water, a pale yellow sky. One way in, one way out. |
+| **The dam spillway** | `dam_gate` | 16, 21 | An old concrete dam spillway in the hills outside Seoul: a huge sloping chute of stained concrete 40 m wide; at its foot a door-height gate slit; press tents, cameras, a rope line, vans. |
+| **The drowned cathedral** | `drowned_cathedral` | 16-21 | A vast Far Side cathedral half under water: a Gothic nave 60 m long and 30 m high, rows of pillars, water knee-deep in the aisles and chest-deep in the side chapels, floating pews, broken windows of pale coloured glass (abstract patterns), bronze bells hanging silent from the vault; side passages; a flooded crypt; at the far end the boss chamber's bronze double doors under a rose window with a bell above. |
+| **The bell chamber** | `boss_chamber_bells` | 17-21 | A round chamber 30 m across and 25 m high under a dome, flooded knee-deep, ringed with pillars, bronze bells of every size hanging from the dome; a stone stair up the back wall to a small doorway 6 m up. From ch 19: rubble, half the dome fallen, shafts of daylight-coloured light; the stair gone. |
+| **The columbarium** | `columbarium` | 22, 32 | A quiet modern memorial hall on a hillside: long white corridors of small glass-fronted niches floor to ceiling (8 rows, the top row 3 m up), white chrysanthemums, sunlight in long bars across a polished stone floor. |
+| **The Han River gate: the farm canyon** | `farm_canyon` | 23-25, 30-31 | Inside the gate: a vast Far Side canyon in a dim violet-grey twilight with no sun, sheer dark rock walls 400 m deep, a thread of river at the bottom; steel walkways 2 m wide bolted into the walls in zig-zags; pipes 4 m thick running down beside them, humming; work lights; cables; old Far Side trap stones (square carved plates with spiral marks) in the rock ledges; an engineers' cabin at the first landing; a locked grille gate into a cleft above level four; a stretch of wall carved with a 40 m relief of a coral-armoured giant holding back a wave; the old pipe gallery near the floor (a vaulted tunnel carved with waves) and the pipe junction chamber; the glass wall. At the top: the rim ledge, with the gate's inner rim (an 8 m ellipse of white light) inside Kanghan's steel iris frame. |
+| **The core farm pit** | `farm_pit` | 26-28 | The original boss chamber: a round pit 150 m across and 80 m deep filled with machinery; the chained Tide Warden at its centre; steel catwalks at three levels; terraces of glass tanks up the walls (each tank cap stamped with the silver hexagon and a small crescent-moon seal); a glass-fronted control room on the far wall; cranes; a freight elevator; the great glass wall forming one side; an old Far Side stone balcony high on the north wall; the great open drain half-pipe along the wall to a round hatch. Light: deep violet, white work lights; red alarm light from ch 26. |
+| **The drain tunnels** | `farm_drains` | 28-30 | Old Far Side tide channels: round stone tunnels 5 m across climbing in long switchbacks, roofs of stone arches with carved keystones, a channel of black water pumped uphill, a narrow steel walkway, caged lamps, thumping pump housings; at the top a straight shaft 120 m long and 30 degrees steep up to the pump room under the rim; halfway up it, a round sludge mouth onto the canyon face. |
+| **The Gate Rescue break room** | `gate_rescue_room` | 32 | A cramped room in a Gate Rescue station: a vending machine, folding chairs, a wall TV, foil blankets everywhere. |
+| **Sora's car** | `sora_car` | 32 | The driver's seat of a black sports car on a dark Han River overpass at dusk, the river and the bridges below. |
+| **The hospital ward** | `hospital` | 33 | A four-bed ward in a Mapo hospital: curtains, a monitor, an IV stand, a window over the city; night and grey morning. |
+| **The road south** | `expressway_night` | 33 | An expressway at night under strobing sodium lights; the inside of Choi's van by the dashboard glow. |
+| **Auntie Geum's stall** | `geum_stall` | 33 (Arc 5) | A 24-hour pojangmacha on the edge of a harbour market in Busan: an orange tarp tent lit by bare bulbs, a long counter with plastic stools, a huge flat pan of bubbling red tteokbokki, fish-cake skewers in broth, steam; outside, fishing boats, a breakwater, gulls, the open sea. |
+| **The Busan sea gate** | `busan_sea_gate` | 33 (Arc 5) | On the dark seabed far off Busan: a vast ring of white-cyan gate light 300 m across lying flat, sealed over by an ancient lattice of stone slabs and old bolted steel plates like a lid. |
+
+**Extra views for keys that already exist** (chapters 21-32 need them):
+- `hanriver_gate`: `pier7.png`, close on the bridge pier with its big faded yellow stencilled 7 and the flickering lamp with a cracked cover above it, the gate slit in its shadow; `inside_fence.png`, inside the enclosure at night with the fence open, the crane truck and the box truck of glowing crates; `sealed.png`, the slit covered by the outer half of Kanghan's steel frame, closed and dark, police tape across it (ch 31-32).
+- `rooftop_room`: `party_dusk.png`, the roof with strings of warm bulbs over the laundry lines and two fold-out tables (ch 22, 33).
+- `kanghan_office`: `day.png`, the same office in hard daylight with the blinds up (ch 21, 32).
+
 ---
 
 ## 6. Props
@@ -476,6 +596,13 @@ Colour keys are in `MANHWA_STYLE_GUIDE.md` table 5.3.
 | **Cores** | Faceted crystals, smoky violet with a faint inner glow #8F6FC4, because they come from the Hush. Small ones fit in a palm; a boss core is head-sized and pulses slowly. Baek's cane and the Black Hound mage's staff carry small ones. |
 | **Jaeha's notebook and pencil** | Section 2.1 (locks) |
 | **Seoa's calculator keychain; Bomi's drone** | Sections 2.6 and 2.7 |
+| **The Kanghan sealing stake** (ch 16-17) | A black steel stake 1 m long with a silver double-hexagon on its head (no letters) and a small glowing timer; driven into stone, it spreads a web of violet light over a door, which then won't move for an hour. Carried with a backpack of cables. |
+| **Sora's core compass** (ch 13-31) | Section 2.16. |
+| **Minseok's phone** (ch 20-22) | An old phone in a cracked safety-orange case with a small yellow thumbs-up sticker on its back (the same thumbs-up Jaeha doodles in his notebook); kept wrapped in plastic in the hollow grip of Mok's shield. |
+| **Minseok's lamp** (ch 26-32) | A rusted trap-tester's hard-hat lamp with a strip of faded orange vest cloth caught in it; Jaeha clips it to his belt, then leaves it at the niche. |
+| **The stamped chain link** (ch 4, 26) | One link of matte black factory steel, machined, with a small stamped mark (a shape, never letters); Jaeha keeps it in his chest pocket. |
+| **Choi's kimbap box** (ch 32) | A foil-lined takeaway kimbap box with an old black USB stick tucked between the rolls. |
+| **Auntie Geum's ladle and arm** | Section 2.17. |
 
 ---
 
@@ -582,6 +709,25 @@ Use the snippet of every character in the panel, word for word, so the descripti
 
 **The kimchi granny**
 > The kimchi granny: a tall, bony Korean woman in her seventies in a red rubber apron, yellow rubber gloves and a flowered headscarf, fierce, holding a huge white daikon radish.
+
+**Han Sora**
+> Han Sora: a striking 27-year-old Korean woman, 168 cm, athletic and curvy, with a relaxed hip-shot stance; a beautiful heart-shaped face, sharp winged eyeliner, amused dark eyes, red lips; a sleek black chin-length bob; a black guild jacket with a small red hound's head, cropped at the waist and worn open over a fitted black tank top with a low scoop neckline; fitted black tactical trousers with a thigh holster of bolts; black boots; a compact black repeating crossbow; a small brass compass with a glowing violet needle on a short chain round her right wrist.
+> *Kanghan look (ch 27 onward):* replace the guild jacket with a fitted charcoal-grey tactical jacket cropped at the waist with a silver hexagon on the left shoulder.
+
+**Oh Minseok**
+> Oh Minseok: a Korean man in his late thirties with a kind, crooked grin and short hair going grey, a scar through one eyebrow; an old, heavily patched safety-orange trap-tester vest over a grey hoodie; fingerless gloves.
+
+**Auntie Geum Okran**
+> Auntie Geum Okran: a short, broad 62-year-old Korean woman, 155 cm, with a wrestler's shoulders and forearms; a sun-browned, deeply lined face, sharp black eyes, one gold tooth; short permed grey hair under a faded floral headscarf; a red-and-white checked apron over a faded purple tracksuit with the sleeves pushed up; pink rubber slippers; her left arm from just above the elbow is a battered gunmetal prosthetic of plates and rivets with a faded painted blue wave on the forearm, three thick fingers and a thumb; a big long-handled steel ladle in her right hand.
+
+**The crew kit (trap-testers, ch 23-31)**
+> In grey work coveralls, an orange tabard with a big black stencilled number on the front and back, a full-face respirator with a smoky tinted visor and twin round filters that hides the face, and a yellow hard hat with a lamp.
+
+**The Hushed Tide Warden**
+> The Hushed Tide Warden: a kneeling sea-giant as tall as a seven-storey building, pale blue-grey drowned skin with cracks leaking violet ash, armour of red and white coral crusted with barnacles and shells, a crown of coral branches, a long beard of kelp, a broad noble sorrowful face with enormous sea-green eyes; chained by tree-thick matte black steel chains from cuffs on his wrists, neck and waist; dozens of steel pipes driven into his coral through bolted collars, smoky violet light flowing out through their glass sections.
+
+**Canyon wyverns**
+> Canyon wyverns: small wyverns with dog-sized bodies and 4 m wingspans, slate-grey leathery skin streaked with rust, whip tails with hooked barbs, narrow beaky snouts full of needle teeth, pale clouded eyes, violet ash leaking from cracks along the wing bones.
 
 **The swarm mother**
 > The swarm mother: a giant hunched, bony rat 1.4 m long, as high as a man's hip, with patchy hairless grey hide blotched black, a ridge of bony spurs along its back, wide cracks down its spine pouring violet ash, small eyes leaking violet ash and long yellow-brown chisel incisors.
