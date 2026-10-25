@@ -1,0 +1,1307 @@
+chapter: 12
+title: His Summons Go First
+format: SCRIPT_FORMAT_v2.md
+when: "Tuesday about 6:20 PM, the end of the Market Break (the market's edge and the fish market's freezer lane); the next three days (the clip goes viral); Kanghan Tower and the Kanghan guild hall on Thursday night; the rooftop on Friday night."
+story_beats: STORY_BIBLE_v4.md#arc-2-chapters-612-the-trap-rats-chapter-by-chapter
+cast:
+  kang_jaeha: vest
+  nib: mask
+  borro: default
+  kang_seoa: default
+  song_yerin: default
+  yoo_bomi: default
+  choi_dongmin: default
+  granny_kimchi: default    # generic, from ch 11
+  bomi_parents: default     # generic, see continuity
+  marsh_serpent: default
+  baek_taegun: default      # name card in this chapter (P50)
+  moon_ahin: default        # glamour panel, no name card until ch 24
+  ahin_husks: default       # her forty polished husks
+locations: [mangwon_market, fish_market, rooftop_room, kanghan_office, kanghan_guild_hall]
+continuity:
+  - "Jaeha in the break (P01–P34): the torn, bloody vest over the shoulder bandage, the forearm bandage, blood under his nose; from P13 both palms blistered red (he carries Borro's burns). From P35 (days later) a clean vest with Seoa's red stitches, plasters on both palms, the forearm bandage."
+  - "Nib: seal 2/5 look with the cracked husk mask in public; field form (amber) P01–P34; rest form after. At home (P61–P72) no mask."
+  - "Borro: husk face in public; field form (moss green) P01–P34; his shield glows dull red where the serpent's steam hits it (P04–P14). At home no husk face."
+  - "Kang Seoa (15): school uniform in the break and at school, a hoodie and jeans at home; glasses; never any fan service."
+  - "Yoo Bomi: her full design; no drone in the break (it broke in ch 11); from P44 a brand-new white drone with a pink ribbon tied on it."
+  - "Bomi's parents (generic, no name cards): a round, cheerful man in his fifties in a white cook's jacket, and a small woman in her fifties in an apron, outside their little restaurant (location bomi_room, outside)."
+  - "The marsh serpent (CHARACTER_DESIGNS_v2.md 4b.4): 20 m long, as thick as a small car, jade-green scales banded with dull gold, a hooded head with two backswept bone-white horns, yellow slit eyes, steam and heat shimmer pouring off it, a small Hush crack leaking violet ash on its brow. It spits scalding steam. In the cold, frost spreads over its scales and it slows: frost means it is failing."
+  - "The freezer lane (location fish_market): the back lane of the market's fish section, 4 m wide and 40 m long, a dead end at a loading wall: walk-in freezer doors along both sides, stacks of ice crates, two refrigerated trucks with their back doors open, frost on the walls, cold white mist along the ground, white fluorescent light."
+  - "Director Baek Taegun (CHARACTER_DESIGNS_v2.md 2.13, characters_v2/baek_taegun/): his face is shown for the first time (P50), with his name card. Charcoal three-piece suit, silver rectangular glasses, salt-and-pepper hair combed back, the cane with a smoky violet core in silver claws; both hands folded on the cane; he smiles with his mouth only."
+  - "Moon Ahin (CHARACTER_DESIGNS_v2.md 2.11, characters_v2/moon_ahin/): her full design: the fitted white coat-dress with the deep V neckline and the high slit up her LEFT side, sheer white thigh-high stockings with lace tops showing at the slit, white heeled knee boots, white gloves, long black hair with the silver ribbon bow, the silver baton in her RIGHT hand. Fan service per CHARACTER_DESIGNS_v2.md: a beautiful face, a confident full-figure pose, never a low angle up the slit. Her forty husks are polished porcelain white with silver seams and move in perfect unison."
+  - "The Kanghan guild hall (location kanghan_guild_hall, new): a vast white training hall with a polished pale floor, tall windows over the night city, rows of white pillars; forty polished husks standing in eight perfect rows."
+plants:
+  - "PLANT P34: the serpent's window offers only HARVEST (ch 50)."
+  - "PLANT P51: [OPERATOR PROBABILITY 91%]; Baek wants Black Hound to invite him and to watch his husks (Arc 3, ch 16)."
+  - "PLANT P55–P57: Moon Ahin has seen the clip (Arc 4)."
+hook_type: decision
+
+panels:
+
+  # ================= HEAT (P01–P15) =================
+  - id: P01
+    recipe: impact
+    shape: full
+    gap: none
+    bg: black
+    camera: "low, from the rubble of the fallen footbridge, tilted 12 degrees: the serpent's head striking down at Borro's shield"
+    light: "key: steam lit violet from the broken road; red and blue strobes; heat shimmer"
+    art: >
+      The serpent (marsh_serpent) strikes: its horned, hooded head slams down from the height of the third floor onto Borro's
+      raised iron shield in the rubble of the fallen footbridge; the impact cracks the road in a ring round Borro's feet;
+      steam explodes off its jade-and-gold scales. Nib (nib, mask; field form) leaps past its jaw with both knives. Scale:
+      its head alone is as long as a car; Borro is 2.4 m.
+    acting:
+      marsh_serpent: "head driving straight down onto the shield, jaws shut, hood flared"
+      borro: "braced under the shield with both arms, knees bending, feet sinking into the road"
+      nib: "leaping past the serpent's jaw, knives raised"
+    calm: top
+    sfx:
+      - {text: "KRANNNGGG", style: impact, at: [0.30, 0.24], size: XL, rot: -8}
+
+  - id: P02
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close and low on the serpent's neck: Nib's knives glancing off its scales in a shower of sparks"
+    light: "sparks; steam"
+    art: >
+      Close on the serpent's neck: Nib's two knives skid off the jade scales in a shower of sparks without leaving a mark.
+      Nib's eyes go wide behind his mask.
+    acting:
+      nib: "mid-air, both knives skidding off the scales, eyes wide"
+      marsh_serpent: "its neck turning, scales unmarked"
+    calm: top
+    sfx:
+      - {text: "SKRRRANG", style: impact, at: [0.50, 0.30], size: L, rot: 6}
+
+  - id: P03
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Nib landing on a slab of the fallen bridge, staring at his knives"
+    light: "amber; steam"
+    art: >
+      Close on Nib (nib, field form) landing in a crouch on a slab of the fallen bridge, staring at the notched edges of his
+      knives.
+    acting:
+      nib: "crouched, holding a knife up to look at the chipped edge, ears flat"
+    eyeline: "Nib → his knife"
+    calm: right
+    lines:
+      - {who: nib, type: speech, text: "MY KNIVES DON'T BITE IT.", side: l}
+
+  - id: P04
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, side-on: the serpent's jaws opening and blasting a jet of scalding steam onto Borro's shield"
+    light: "no scene light: white steam; the shield glowing dull red"
+    art: >
+      Side-on: the serpent's jaws gape and blast a roaring jet of scalding steam onto Borro's shield; the iron glows dull red
+      where the jet hits it; the moss on Borro's shell sizzles and smokes.
+    acting:
+      marsh_serpent: "jaws wide, steam jetting from its throat"
+      borro: "holding the glowing shield in place, moss smoking, jaw clenched behind the mask"
+    calm: top
+    sfx:
+      - {text: "FSSSHHHHHHHH", style: impact, at: [0.40, 0.30], size: XL, rot: -4}
+
+  - id: P05
+    recipe: carry
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, at the road's edge: Jaeha's palms blistering red as Borro's burns land in his hands, Yerin catching his wrists"
+    light: "a moss-green ring; strobes"
+    face: private
+    art: >
+      At the road's edge: Jaeha (kang_jaeha, torn bloody vest) holds his hands up in front of him as red blisters rise on both
+      palms, Borro's burns landing in his own skin; a moss-green ring pulses out from him. Yerin (song_yerin) catches his
+      wrists, her hands already glowing mint.
+    acting:
+      kang_jaeha: "staring at his blistering palms, teeth gritted, shaking"
+      song_yerin: "grabbing both his wrists, glowing hands closing over his palms"
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.86], text: "[CARRY · BORRO · BURNS · 40%]"}
+    sfx:
+      - {text: "TSSSS", style: impact, at: [0.30, 0.40], size: M, rot: 0}
+
+  - id: P06
+    recipe: anticipation
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high, over the road: the serpent's coils sliding out of the broken road toward the market's fish section, crushing a stall"
+    light: "steam; fluorescent from the fish section"
+    art: >
+      High over the road: the serpent's long coils slide out of the broken road toward the market's fish section, crushing a
+      fish stall; its tail drags through a spilled tray of crushed ice.
+    acting:
+      marsh_serpent: "coils sliding over the rubble, tail dragging through the ice"
+    calm: top
+    sfx:
+      - {text: "SHHHHRRRR", style: quiet, at: [0.70, 0.60], size: S, rot: 0}
+
+  - id: P07
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close and low on the serpent's tail in the spilled ice: frost spreading over the scales, the tail jerking away"
+    light: "white ice; frost glittering"
+    art: >
+      Close and low on the serpent's tail where it drags through the crushed ice: white frost spreads over the jade scales in
+      feathery lines, the tail stiffens, and then it jerks away from the ice as if burned.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "KRIK... KRIK...", style: quiet, at: [0.60, 0.40], size: S, rot: 0}
+
+  - id: P08
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: white
+    camera: "extreme close-up of Jaeha's eyes, narrowing, the steam reflected in them"
+    light: "steam; strobes"
+    face: private
+    art: >
+      Extreme close-up: Jaeha's eyes (kang_jaeha) narrowing as he watches the tail. Fill the canvas edge to edge.
+    acting:
+      kang_jaeha: "eyes narrowing, brows dropping"
+    calm: none
+    silent: true
+
+  - id: P09
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: white
+    camera: "over Jaeha's shoulder, close on his notebook in Yerin's glowing hands as he writes"
+    light: "mint glow; strobes"
+    face: private
+    art: >
+      Over Jaeha's shoulder: Yerin holds his notebook open for him because his palms are burned, and he writes with the pencil
+      gripped in his blistered fingers: a sketch of the serpent recoiling from a box of ice, a snowflake, an arrow into a lane
+      of doors. Leave a blank band for the letterer's note. No readable text.
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: note, text: "IT HATES THE ICE. COLD-BLOODED. COLD MAKES IT SLOW."}
+
+  - id: P10
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low two-shot: Jaeha on the phone to Seoa across the road, the serpent's coils sliding past in the background"
+    light: "strobes; steam"
+    face: private
+    art: >
+      Jaeha (kang_jaeha) has his phone at his ear, Yerin holding his arm; behind him the serpent's coils slide toward the fish
+      section. Across the broken road, Seoa stands with her phone in front of her fourteen people.
+    acting:
+      kang_jaeha: "phone at his ear, speaking fast, eyes on the coils"
+      song_yerin: "holding his elbow, glancing at the serpent"
+    eyeline: "Jaeha → the coils"
+    foreground: "a steaming crack in the road, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: phone, text: "SEOA. THE FISH MARKET'S FREEZERS. WHO HAS THE KEYS?", side: l}
+      - {who: offpanel:kang_seoa, type: phone, text: "THE KIMCHI GRANNY'S SON. AND THE FREEZER LANE IS A DEAD END.", side: r}
+
+  - id: P11
+    recipe: plan
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high over the fish section, desaturated, cyan lines laying out the plan"
+    light: "desaturated; cyan lines"
+    face: private
+    art: >
+      High over the fish section, desaturated, clean cyan lines and no text: the long dead-end lane of freezer doors and
+      trucks; snowflake marks on every door; a small figure running into the lane first; a long curve of the serpent
+      following it in; a heavy shape closing the lane's mouth behind it.
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: inner, text: "MAKE THE LANE A FREEZER. WALK IT IN. THEN SHUT THE DOOR BEHIND IT."}
+
+  - id: P12
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level: Jaeha pulling his hands out of Yerin's, Yerin grabbing his vest, Choi behind them with an empty extinguisher"
+    light: "strobes; steam"
+    face: private
+    art: >
+      Jaeha (kang_jaeha) pulls his blistered hands out of Yerin's; she grabs a fistful of his vest. Choi (choi_dongmin) stands
+      behind them with the empty extinguisher.
+    acting:
+      kang_jaeha: "pulling free, already turning toward the fish section"
+      song_yerin: "gripping his vest with both fists, eyes furious and wet"
+      choi_dongmin: "staring at Jaeha, extinguisher hanging"
+    eyeline: "Yerin → Jaeha; Jaeha → the fish section"
+    foreground: "Choi's empty extinguisher, cropped, bottom right"
+    calm: top
+    lines:
+      - {who: song_yerin, type: speech, text: "YOU CAN'T EVEN HOLD A PENCIL! WHAT ARE YOU GOING TO DO?", side: l}
+      - {who: kang_jaeha, type: speech, text: "WHAT I ALWAYS DO. I'M THE BAIT.", side: r}
+
+  - id: P13
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, along the fish lane: Jaeha running straight past the serpent's head, Borro running beside him with the shield"
+    light: "fluorescent from the fish stalls; steam"
+    art: >
+      Along the fish lane: Jaeha (kang_jaeha) runs straight past the serpent's lowered head, waving his arms; Borro (borro,
+      field form) runs beside him with the red-hot shield up between Jaeha and the jaws. The serpent's head swings to follow
+      the warm, running man.
+    acting:
+      kang_jaeha: "sprinting past the head, both arms waving, shouting"
+      borro: "running beside him, shield held between Jaeha and the serpent"
+      marsh_serpent: "head swinging round to follow Jaeha, tongue flicking"
+    calm: top
+    sfx:
+      - {text: "HEY! OVER HERE!", style: comic, at: [0.30, 0.30], size: M, rot: -6}
+
+  - id: P14
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level in the fish section: the kimchi granny and a man in rubber boots hauling open walk-in freezer doors, cold mist pouring out"
+    light: "white fluorescent; cold mist rolling"
+    art: >
+      In the freezer lane: the kimchi granny (granny_kimchi) and a burly man in rubber boots and an apron (her son) haul open
+      the heavy walk-in freezer doors one after another; white cold mist rolls out of each one along the ground. Further down,
+      Seoa (kang_seoa), back from the far side by the long way round, kicks open the back doors of a refrigerated truck.
+    acting:
+      granny_kimchi: "heaving a freezer door open with both rubber-gloved hands, headscarf askew"
+      kang_seoa: "kicking a truck's back door wide, the rice-cake bag still on her wrist"
+    calm: top
+    sfx:
+      - {text: "KACHUNK KACHUNK", style: impact, at: [0.40, 0.30], size: M, rot: 0}
+
+  - id: P15
+    kind: title
+    shape: full
+    gap: long
+    bg: black
+    title_card: "MY SUMMONS GO FIRST · CHAPTER 12 · HIS SUMMONS GO FIRST"
+    notes: "Title card at panel 15 of 70 (21%)."
+
+  # ================= THE FREEZER LANE (P16–P34) =================
+  - id: P16
+    recipe: establish
+    shape: tall
+    gap: long
+    bg: black
+    camera: "eye level from the dead end of the freezer lane, looking back toward its mouth: mist knee-deep, frost on the walls, Jaeha running in"
+    light: "key: white fluorescent tubes; cold white mist; steam boiling at the lane's mouth"
+    art: >
+      The freezer lane (location fish_market), from its dead end looking back toward the mouth: 4 m wide, 40 m long, walk-in
+      freezer doors open along both sides, ice crates stacked, two refrigerated trucks with their doors wide, frost on every
+      wall, cold white mist knee-deep along the ground. Jaeha (kang_jaeha) runs straight down the lane toward us; behind him at
+      the mouth, the serpent's head pushes in out of a cloud of its own steam, Borro falling back beside it. Scale: the lane is
+      as wide as two cars; the serpent's head fills half of it.
+    acting:
+      kang_jaeha: "running toward us through the mist, looking back over his shoulder"
+      marsh_serpent: "head pushing into the lane, hood half flared"
+    calm: top
+    sfx:
+      - {text: "HFF HFF HFF", style: quiet, at: [0.50, 0.80], size: S, rot: 0}
+
+  - id: P17
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, side-on in the lane: the serpent sliding in after Jaeha, ice crates toppling, mist swirling round its coils"
+    light: "fluorescent; mist; steam meeting cold and turning to fog"
+    art: >
+      Side-on in the lane: the serpent slides in after Jaeha, its coils knocking over stacks of ice crates; where its hot
+      scales meet the cold mist, the air turns to thick fog.
+    acting:
+      marsh_serpent: "sliding forward in long S-curves, knocking crates aside"
+    calm: top
+    sfx:
+      - {text: "KRASH", style: impact, at: [0.60, 0.40], size: L, rot: 6}
+
+  - id: P18
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on the serpent's scales: frost creeping across the jade and gold"
+    light: "white; frost glittering"
+    art: >
+      Close on the serpent's scales: white frost creeps across the jade and gold in feathery lines, and the steam coming off it
+      thins.
+    calm: left
+    silent: true
+    sfx:
+      - {text: "KRIK KRIK", style: quiet, at: [0.40, 0.40], size: S, rot: 0}
+
+  - id: P19
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level at the dead end: Jaeha's back hitting the loading wall, the serpent's head rising over him in the fog"
+    light: "fluorescent; fog"
+    face: private
+    art: >
+      At the dead end: Jaeha (kang_jaeha) runs out of lane, his back hitting the frosty loading wall; the serpent's head rises
+      over him out of the fog, slower now, jaws opening.
+    acting:
+      kang_jaeha: "back flat against the wall, chest heaving, looking up, a thin smile"
+      marsh_serpent: "head rising over him, jaws opening slowly, steam weak"
+    calm: top
+    sfx:
+      - {text: "THUD", style: impact, at: [0.30, 0.60], size: M, rot: 0}
+
+  - id: P20
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Jaeha against the wall, looking up at the jaws, polite"
+    light: "fluorescent; fog"
+    face: public
+    art: >
+      Close on Jaeha (kang_jaeha) against the frosty wall, looking up into the opening jaws with a polite trap-tester's smile.
+    acting:
+      kang_jaeha: "a polite smile, blistered hands raised slightly, sweat freezing on his face"
+    eyeline: "Jaeha → the jaws (up)"
+    calm: right
+    lines:
+      - {who: kang_jaeha, type: speech, text: "I'M SORRY, SIR. I WALK IN FIRST. IT'S MY JOB.", side: l}
+
+  - id: P21
+    recipe: splash
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from the lane's mouth behind the serpent: Borro slamming the shield down across the lane's mouth and wedging it there"
+    light: "fluorescent; fog; moss green"
+    art: >
+      From low at the lane's mouth behind the serpent: Borro (borro, field form) slams his iron shield down across the mouth of
+      the lane and wedges it between the walls like a door, his whole shell against it, shutting the serpent in with the cold.
+    acting:
+      borro: "shoulder and shell against the wedged shield, feet braced, head lowered"
+    calm: top
+    lines:
+      - {who: borro, type: speech, text: "THE DOOR IS SHUT.", side: r}
+    sfx:
+      - {text: "KACHUNNNG", style: impact, at: [0.30, 0.24], size: XL, rot: -6}
+
+  - id: P22
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high, over the lane: the serpent's whole body thrashing in the fog, frost spreading over it, its coils slamming freezer doors"
+    light: "fog; fluorescent tubes swinging"
+    art: >
+      High over the lane: the serpent's whole body thrashes in the fog, coils slamming into the freezer doors and trucks, but
+      every movement is slower than the last; frost spreads over its back from tail to hood.
+    acting:
+      marsh_serpent: "thrashing, coils lashing, movements heavy and slowing"
+    calm: top
+    sfx:
+      - {text: "WHAM... WHAM...", style: impact, at: [0.50, 0.40], size: L, rot: 4}
+
+  - id: P23
+    recipe: carry
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, at the lane's mouth: the serpent's tail hammering the shield, Borro holding it, Jaeha at the far end flinching with each blow"
+    light: "moss green; fog"
+    face: private
+    art: >
+      At the lane's mouth the serpent's frosted tail hammers Borro's wedged shield again and again; at the far end of the lane,
+      Jaeha flinches against the wall with every blow, a moss-green ring pulsing from his chest each time, blood running from
+      his nose.
+    acting:
+      borro: "holding the shield shut as the tail hammers it"
+      kang_jaeha: "small at the far end, flinching with every blow, nose bleeding"
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.86], text: "[CARRY · 2 SUMMONS · LOAD 130%]"}
+    sfx:
+      - {text: "BOOM BOOM BOOM", style: impact, at: [0.30, 0.40], size: L, rot: -6}
+
+  - id: P24
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "extreme close-up of the serpent's head: frost on its horns and hood, its yellow eye clouding, the Hush crack on its brow"
+    light: "white fog; violet from the crack"
+    art: >
+      Extreme close-up of the serpent's head: frost on its horns and hood, its yellow slit eye going cloudy and slow, the small
+      violet Hush crack on its brow pulsing.
+    calm: top
+    silent: true
+
+  - id: P25
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha against the wall, pointing up at the serpent's brow with a shaking, blistered hand"
+    light: "fog"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha) against the wall, pointing up at the serpent's brow with a shaking, blistered hand.
+    acting:
+      kang_jaeha: "pointing up with a trembling hand, blood on his lip, eyes cold"
+    eyeline: "Jaeha → the brow"
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: intense, text: "NIB. THE CRACK ON ITS BROW. THE SCALES ARE BRITTLE NOW.", side: r}
+
+  - id: P26
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from the lane floor: Nib running up the frozen coils like a stair, scarf streaming, toward the head"
+    light: "amber streak through white fog"
+    art: >
+      From low on the lane floor: Nib (nib, field form) runs straight up the serpent's frozen coils like a stair, scarf
+      streaming, toward its head.
+    acting:
+      nib: "sprinting up the coils on all fours, then upright, knives drawn"
+    calm: top
+    sfx:
+      - {text: "TAP TAP TAP", style: impact, at: [0.70, 0.70], size: M, rot: -8}
+
+  - id: P27
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close and low: Nib's knives cracking through the frozen scales on the serpent's brow like ice"
+    light: "no scene light: amber and violet"
+    art: >
+      Close and low: Nib drives both knives down through the frosted scales on the serpent's brow; the scales crack like ice
+      round the blades, right into the violet Hush crack.
+    acting:
+      nib: "kneeling on the brow, driving both knives down with all his weight"
+      marsh_serpent: "its head jerking, eye rolling"
+    calm: top
+    sfx:
+      - {text: "KRAKKK", style: impact, at: [0.40, 0.30], size: XL, rot: 10}
+
+  - id: P28
+    recipe: splash
+    shape: full
+    gap: short
+    bg: black
+    camera: "low, from the dead end, looking up: the serpent rearing to the lane's roof and bursting into violet ash and frost, Nib leaping clear"
+    light: "violet and white; fluorescent tubes shattering"
+    art: >
+      From low at the dead end, looking up: the serpent rears up to the lane's roof, shatters the fluorescent tubes, and bursts
+      apart into a storm of violet ash and glittering frost from the head down; Nib leaps clear with his scarf streaming;
+      Jaeha stands small against the wall below, ash and frost falling round him like snow.
+    acting:
+      marsh_serpent: "rearing and bursting apart from the head down"
+      nib: "leaping clear, knives out, cloak and scarf flaring"
+      kang_jaeha: "small at the wall, face tilted up into the falling ash"
+    calm: top
+    sfx:
+      - {text: "KSSSHHHHHHHHH", style: impact, at: [0.30, 0.20], size: XL, rot: -8}
+
+  - id: P29
+    recipe: aftermath
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level along the quiet lane: violet ash and frost settling like snow on the crates, Nib landing, Borro lowering the shield"
+    light: "dim; mist; one tube still flickering"
+    art: >
+      Quiet. Along the lane: violet ash and frost settle like snow over the crates and trucks. Nib lands lightly in the mist;
+      at the far mouth, Borro lowers his shield; at the dead end, Jaeha slides down the wall to sit.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "flicker... flicker...", style: quiet, at: [0.80, 0.10], size: S, rot: 0}
+
+  - id: P30
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "high over the lane: a head-sized violet core floating in the settling ash, a window above it"
+    light: "violet core glow; cyan window"
+    art: >
+      High over the lane: a head-sized faceted core, smoky violet with a slow pulse, floats above the settling ash where the
+      serpent's head fell. The upper half is empty for the window.
+    calm: top
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.05], headline: "[BREAK BOSS DEFEATED: MARSH SERPENT (C)]", body: "THE BREAK IS CLOSING.", button: "OK"}
+    silent: true
+
+  - id: P31
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "close and low on Jaeha sitting against the wall, looking up at a second window, cyan on his bloody face"
+    light: "cyan; violet"
+    face: private
+    art: >
+      Close and low on Jaeha (kang_jaeha) sitting against the frosty wall, looking up at a second window with a long, tired
+      look. The upper half is empty for the window.
+    acting:
+      kang_jaeha: "sitting slumped, head back against the wall, eyes on the window, mouth flat"
+    eyeline: "Jaeha → the window"
+    calm: top
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.05], headline: "[HARVEST CORE · EST. ₩30,000,000]", body: "NO OTHER OPTION IS AVAILABLE.", button: "HARVEST"}
+    silent: true
+
+  - id: P32
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Jaeha's blistered finger pressing the HARVEST button, hesitating for a moment first"
+    light: "cyan"
+    art: >
+      Close on Jaeha's blistered fingertip stopping a hair away from the HARVEST button, then pressing it.
+    calm: right
+    lines:
+      - {who: kang_jaeha, type: inner, text: "THREE TIMES NOW. ONLY HARVEST. I DON'T LIKE IT."}
+    sfx:
+      - {text: "TAP", style: quiet, at: [0.40, 0.40], size: S, rot: 0}
+
+  - id: P33
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level along the lane: the core drifting into Jaeha's hands, two windows stacked above"
+    light: "violet; cyan"
+    art: >
+      Along the lane: the core drifts down into Jaeha's cupped, blistered hands; Nib and Borro walk toward him through the
+      mist. The upper half is empty for two stacked windows.
+    acting:
+      kang_jaeha: "sitting, receiving the core in both hands, looking at it"
+      nib: "walking toward him, sheathing his knives"
+      borro: "walking toward him with the shield on his back, moss singed"
+    calm: top
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[OPERATOR LV. 4 → 5]"}
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.16], text: "[NEW BOSS KIND · +10% × LV. 5 · ROUTE ALIGNMENT 40% → 90%]"}
+    silent: true
+
+  - id: P34
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level at the lane's mouth: Choi with an Association officer and a squad of late hunters staring past Borro into the lane"
+    light: "strobes; the mist rolling out"
+    art: >
+      At the lane's mouth: a squad of Association hunters in proper armour finally arrives with Choi (choi_dongmin); they stop
+      dead and step back from Borro, who stands aside to let them see the lane full of ash, and the man sitting at the end of
+      it holding a boss core. Choi alone walks forward.
+    acting:
+      choi_dongmin: "walking forward past the hunters, tired, almost smiling"
+      borro: "standing aside, one hand on the shield's rim"
+    eyeline: "the hunters → the lane; Choi → Jaeha"
+    foreground: "a hunter's armoured shoulder and sword hilt, cropped, left"
+    calm: top
+    lines:
+      - {who: choi_dongmin, type: speech, text: "BREAK LAW. THE CORE GOES TO THE RELIEF FUND, AND YOU GET A BOUNTY AND PAPERWORK.", side: l}
+      - {who: kang_jaeha, type: speech, text: "DOES THE MARKET GET A NEW BRIDGE?", side: r}
+
+  # ================= VIRAL (P35–P48) =================
+  - id: P35
+    recipe: insert
+    shape: wide
+    gap: long
+    bg: white
+    camera: "close on a phone held in a stranger's hand on a subway train: a video thumbnail and a view counter"
+    light: "subway carriage fluorescent; the screen glow"
+    art: >
+      Close on a phone in a commuter's hand on a crowded subway train, the screen flat green; other passengers lean over to
+      look.
+    calm: top
+    ui:
+      - kind: phone.info_card
+        "on": screen
+        title: "BOMBOM TV"
+        text: "HIS SUMMONS GO FIRST! (MANGWON MARKET BREAK, FULL) · 3.1M VIEWS · 1 DAY AGO"
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "THE NEXT MORNING."}
+    sfx:
+      - {text: "KATAN KATAN", style: quiet, at: [0.80, 0.20], size: S, rot: 0}
+
+  - id: P36
+    recipe: chorus
+    shape: wide
+    gap: short
+    bg: white
+    camera: "a montage strip: people watching on phones at a bus stop, in a convenience store, in a school corridor"
+    light: "morning; screens"
+    art: >
+      A montage in one wide panel: an office worker at a bus stop, a convenience-store clerk behind the counter, and three
+      high-school students in a corridor all watch the same clip on their phones, mouths open; on one screen, tiny, a giant in
+      a husk mask holds up a bridge.
+    calm: top
+    ui:
+      - kind: phone.live_stream
+        "on": float
+        at: [0.74, 0.10]
+        viewers: "COMMENTS · 48,930"
+        chat:
+          - "[jjang_hunter]: HE CARRIED THE BRIDGE"
+          - "[real_or_cgi]: this is CGI. husks can't do that"
+          - "[minsu_0412]: TRAP RATS TRAP RATS TRAP RATS"
+    silent: true
+
+  - id: P37
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "a TV in a restaurant: a news broadcast, the screen green"
+    light: "the TV glow in a dim restaurant"
+    art: >
+      A TV mounted high in the corner of a little restaurant, the screen flat green, with the bottom quarter plain for the
+      news graphic.
+    calm: top
+    ui:
+      - {kind: tv.lowerthird, "on": screen, text: "MANGWON MARKET BREAK: 'UNUSUAL HUSKS' SAVE FOURTEEN ON A FALLING BRIDGE"}
+    silent: true
+
+  - id: P38
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level in a school classroom: classmates crowding round Seoa's desk, Seoa trying to read a book"
+    light: "classroom daylight"
+    art: >
+      A high-school classroom at break: a crowd of classmates in uniform crowd round Seoa's desk (kang_seoa), shoving phones in
+      her face; she tries to keep reading her book.
+    acting:
+      kang_seoa: "eyes on her book, glasses pushed up, a faint pink in her cheeks she is refusing to show"
+    eyeline: "the classmates → Seoa; Seoa → her book"
+    foreground: "a classmate's phone with the clip on it, cropped, bottom left"
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: speech, text: "SEOA! IS THE TRAP-TESTER REALLY YOUR BROTHER?", side: l}
+      - {who: kang_seoa, type: speech, text: "UNFORTUNATELY.", side: r}
+
+  - id: P39
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level in the market the next day: the kimchi granny on camera for a TV crew, holding up a radish"
+    light: "daylight through the arcade roof; a TV light"
+    art: >
+      In the half-wrecked market the next day, a TV crew films the kimchi granny (granny_kimchi), who holds a big white radish
+      up to the camera like a trophy.
+    acting:
+      granny_kimchi: "holding the radish up to the lens with both hands, chin high, fierce and proud"
+    eyeline: "the granny → the camera"
+    foreground: "the TV camera's lens hood, cropped, right edge"
+    calm: top
+    lines:
+      - {who: granny_kimchi, type: speech, text: "THE BIG HUSK HELD THE BRIDGE. I HELD MY ALLEY. WRITE THAT DOWN.", side: l}
+
+  - id: P40
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Bomi's phone: a subscriber counter rolling over"
+    light: "the screen glow"
+    art: >
+      Close on Bomi's phone in her trembling hands. Screen: flat green.
+    calm: left
+    ui:
+      - kind: phone.info_card
+        "on": screen
+        title: "BOMBOM TV · SUBSCRIBERS"
+        text: "99,998 · 99,999 · 100,000"
+    silent: true
+    sfx:
+      - {text: "DING", style: quiet, at: [0.30, 0.30], size: S, rot: 0}
+
+  - id: P41
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level outside a little family restaurant: Bomi screaming with joy, her parents running out of the door"
+    light: "warm afternoon"
+    art: >
+      Outside her parents' little restaurant (location bomi_room, outside), its shutter up and the chairs down for the first
+      time in weeks: Bomi (yoo_bomi) screams with joy, holding her phone up to the sky; her parents (bomi_parents) run out of
+      the door in their aprons.
+    acting:
+      yoo_bomi: "jumping with both feet off the ground, phone held up high, mouth wide in a scream of joy, tears flying"
+      bomi_parents: "the father running out in his cook's jacket with a ladle, the mother behind him with her hands on her cheeks"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "KYAAAAAA", style: comic, at: [0.30, 0.24], size: L, rot: -8}
+
+  - id: P42
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, close three-shot: Bomi hugging both her parents at once, her face buried in her mother's shoulder"
+    light: "warm"
+    art: >
+      Close and low: Bomi (yoo_bomi) hugs both her parents (bomi_parents) at once in front of the restaurant door, her face
+      in her mother's shoulder; her father pats her head with the ladle hand.
+    acting:
+      yoo_bomi: "arms round both of them, face buried, shoulders shaking"
+      bomi_parents: "holding her, the mother crying, the father patting her head with a big, wet grin"
+    eyeline: "the father → Bomi"
+    foreground: "the restaurant's door frame, cropped, left"
+    calm: top
+    lines:
+      - {who: yoo_bomi, type: speech, text: "THE SPONSORS CALLED. WE KEEP THE RESTAURANT. WE KEEP IT!", side: l}
+
+  - id: P43
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: white
+    camera: "eye level on the green rooftop at golden hour: Bomi setting up a thumbnail shoot with a ring light, the summons lined up"
+    light: "golden hour; a ring light glowing"
+    art: >
+      On the green rooftop at golden hour: Bomi has set up a ring light and a phone on a tripod for a thumbnail shoot. Borro
+      (borro, no husk face among friends) stands in the middle striking a proud pose with his shield; Nib (nib, no mask) stands
+      beside him with his arms folded; Jaeha sits on a plastic chair in the background with plasters on his palms; a brand-new
+      white drone with a pink ribbon hovers.
+    acting:
+      yoo_bomi: "crouched behind the tripod, waving them closer together"
+      borro: "chest out, shield planted, a slow proud smile"
+      nib: "arms folded, flat face"
+      kang_jaeha: "sitting back, watching, amused"
+    calm: top
+    sfx:
+      - {text: "BZZZ", style: quiet, at: [0.80, 0.20], size: S, rot: 0}
+
+  - id: P44
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, from behind the ring light: Bomi pleading with Nib, Nib not moving"
+    light: "the ring light's glow on their faces"
+    art: >
+      From low behind the ring light (its glowing circle in the foreground): Bomi (yoo_bomi) leans out from behind the tripod
+      pleading with Nib (nib, no mask), who doesn't move a single muscle.
+    acting:
+      yoo_bomi: "leaning out, palms pressed together, begging eyes"
+      nib: "arms folded, eyes half-lidded, not moving"
+    eyeline: "Bomi → Nib; Nib → nowhere"
+    foreground: "the ring light's glowing circle, cropped, left"
+    calm: top
+    lines:
+      - {who: yoo_bomi, type: speech, text: "ONE SMILE? FOR THE THUMBNAIL?", side: l}
+      - {who: nib, type: speech, text: "NO.", side: r}
+
+  - id: P45
+    recipe: chibi
+    style: chibi
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "flat"
+    light: "flat"
+    art: >
+      Chibi gag: chibi Bomi pushes the corners of chibi Nib's mouth up into a smile with two fingers; chibi Nib's eyes stay
+      completely dead; beside them chibi Borro poses with sparkles and a huge grin. Pale gag background.
+    acting:
+      yoo_bomi: "chibi: pushing Nib's mouth into a smile with her fingers, tongue out in concentration"
+      nib: "chibi: a forced smile with dead, flat eyes"
+      borro: "chibi: sparkling, flexing proudly with the shield"
+    eyeline: "Bomi → Nib"
+    calm: left
+    silent: true
+
+  - id: P46
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: white
+    camera: "close on Bomi's phone: the finished thumbnail"
+    light: "the screen glow"
+    art: >
+      Close on Bomi's phone screen, flat green, her thumb hovering over the upload button.
+    calm: top
+    ui:
+      - kind: phone.info_card
+        "on": screen
+        title: "THUMBNAIL"
+        text: "HIS SUMMONS GO FIRST! · THE TRAP RATS · (ONE OF THEM WOULDN'T SMILE)"
+    silent: true
+
+  - id: P47
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level, two-shot at the parapet at golden hour: Yerin sitting beside Jaeha, both looking at the city"
+    light: "golden hour"
+    face: private
+    art: >
+      At the parapet at golden hour: Yerin (song_yerin) sits beside Jaeha (kang_jaeha) on the low wall, both looking out at the
+      city; she holds a can of soda against his blistered palm like an ice pack.
+    acting:
+      song_yerin: "holding the cold can to his palm, looking at the city, a small proud smile"
+      kang_jaeha: "letting her, looking out at the river, tired and calm"
+    eyeline: "both → the city"
+    foreground: "the laundry line with Seoa's school socks, cropped, top"
+    calm: top
+    lines:
+      - {who: song_yerin, type: speech, text: "I DIDN'T FREEZE. NOT ONCE. I HEALED NINE PEOPLE.", side: l}
+      - {who: kang_jaeha, type: speech, text: "I SAW. YOU WERE THE BRAVEST ONE THERE.", side: r}
+
+  - id: P48
+    recipe: chorus
+    shape: wide
+    gap: short
+    bg: white
+    camera: "close on the new drone's live view of a crowd outside the market: people chanting with raised fists"
+    light: "evening; the market's lights back on"
+    art: >
+      Close on a phone showing the new drone's view of a crowd outside the half-repaired market that evening: young people,
+      grannies and delivery riders chant with their fists up; a hand-painted bedsheet banner (blank, no text) hangs from a
+      stall.
+    calm: top
+    ui:
+      - kind: phone.live_stream
+        "on": screen
+        viewers: "61,330 WATCHING"
+        chat:
+          - "[dalgona]: TRAP RATS! TRAP RATS!"
+          - "[seoul_otaku]: it was an insult and now it's a chant lol"
+          - "[real_or_cgi]: still think it's CGI"
+    sfx:
+      - {text: "TRAP RATS! TRAP RATS!", style: impact, at: [0.30, 0.70], size: L, rot: -6}
+
+  # ================= KANGHAN (P49–P58) =================
+  - id: P49
+    recipe: establish
+    shape: tall
+    gap: long
+    bg: black
+    camera: "low, from the street, looking up the glass face of Kanghan Tower at night, one top-floor window lit"
+    light: "key: cold blue night; the tower's glass reflecting the city; one lit window near the top"
+    art: >
+      Kanghan Tower at night: a sheer glass skyscraper rising over Yeouido, the silver double-hexagon emblem (no letters) on its
+      crown, the city reflected in its glass. One long window near the top is lit cold blue. Scale: the tower is 60 storeys;
+      a bus at its foot is a toy.
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "KANGHAN TOWER. THURSDAY, 11:20 PM."}
+    sfx:
+      - {text: "WHOOOO", style: quiet, at: [0.80, 0.30], size: S, rot: 0}
+
+  - id: P50
+    recipe: name-card
+    shape: tall
+    gap: short
+    bg: black
+    camera: "eye level, three-quarter, full figure: Director Baek standing at the glass wall of his office, both hands on his cane"
+    light: "key: cold blue from the city below; the violet glow of a boss core in a glass case behind him"
+    intro: "DIRECTOR BAEK TAEGUN (54) · KANGHAN GROUP CORE DIVISION"
+    art: >
+      Director Baek's office (location kanghan_office): a long dark office with a glass wall over the night city, a black desk,
+      archive shelves, and a smoky violet boss core glowing in a glass case on a plinth. Baek Taegun (baek_taegun), his face
+      shown at last, stands at the glass wall in three-quarter view: tall and lean, a charcoal three-piece suit, silver
+      rectangular glasses, salt-and-pepper hair combed back, both hands folded on his black cane, its violet core handle glowing
+      faintly between his fingers; a faint, polite smile with no warmth in the eyes. The whole figure in frame, full model-
+      sheet proportions (about 8 heads). Name-card gradient behind him, black to smoky violet. Leave the left third calm for the
+      name card.
+    acting:
+      baek_taegun: "standing perfectly still at the glass, both hands folded on the cane's handle, head turned slightly toward us, a thin smile"
+    calm: left
+    silent: true
+
+  - id: P51
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close on a tablet on Baek's black desk: a personnel file, the screen green"
+    light: "the screen glow; the core's violet glow reflected on the desk"
+    art: >
+      Close on a tablet lying on the black desk beside a silver fountain pen. Screen: flat green. The violet core's reflection
+      glows in the polished desk.
+    calm: top
+    ui:
+      - kind: phone.info_card
+        "on": screen
+        title: "FILE UPDATED"
+        text: "GATE 0912 SURVIVOR: KANG JAEHA · F-RANK SUMMONER · 'UNUSUAL HUSKS': 2 · OPERATOR PROBABILITY: 91%"
+    silent: true
+
+  - id: P52
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "over Baek's shoulder at the glass wall: the clip playing on the tablet in his hand, Borro holding the bridge, the city below"
+    light: "cold blue; the tablet's glow"
+    art: >
+      Over Baek's shoulder (his silver hair and charcoal shoulder, cropped, foreground): he holds the tablet up against the
+      night city, the clip playing on it: the masked giant holding up the bridge.
+    acting:
+      baek_taegun: "seen from behind, holding the tablet in one gloved hand, the cane in the other"
+    eyeline: "Baek → the tablet"
+    foreground: "Baek's shoulder and the side of his glasses, cropped, left third"
+    calm: top
+    lines:
+      - {who: baek_taegun, type: speech, text: "HUSKS DON'T HOLD BRIDGES. AND THEY DON'T CHOOSE WHO TO SAVE.", side: r}
+
+  - id: P53
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Baek, a phone at his ear, the faint smile, his eyes behind the silver glasses"
+    light: "cold blue; violet from below"
+    art: >
+      Close on Baek (baek_taegun) with a slim phone at his ear, the faint polite smile, his eyes cold behind the glasses.
+    acting:
+      baek_taegun: "phone held lightly to his ear, head tilted, smiling with his mouth only"
+    eyeline: "Baek → the city"
+    foreground: "the cane's violet core handle, cropped, bottom right"
+    calm: right
+    lines:
+      - {who: baek_taegun, type: phone, text: "TELL MOK TO INVITE HIM ON THE B-GRADE RAID. A RAID FOR HEROES.", side: l}
+      - {who: baek_taegun, type: phone, text: "AND WATCH WHAT HIS HUSKS DO WHEN HE'S IN DANGER.", side: l}
+
+  - id: P54
+    recipe: insert
+    shape: strip
+    gap: short
+    bg: black
+    camera: "a thin strip: the violet boss core in its glass case, pulsing slowly"
+    light: "violet"
+    art: >
+      A thin strip across the glass case: the head-sized violet boss core inside it pulses slowly, like a heartbeat. Fill the
+      canvas edge to edge.
+    calm: none
+    silent: true
+
+  - id: P55
+    recipe: establish
+    shape: tall
+    gap: long
+    bg: black
+    camera: "high, from the gallery of a vast white hall: forty polished white husks in eight perfect rows, one woman conducting them"
+    light: "key: cool white light from tall windows; the night city beyond; reflections on a polished floor"
+    art: >
+      The Kanghan guild hall (location kanghan_guild_hall), from high in its gallery: a vast white training hall with a
+      polished pale floor and rows of white pillars, tall windows over the night city. Forty polished porcelain-white husks
+      (ahin_husks) with fine silver seams stand in eight perfect rows, every one in the same fencing pose. In front of them a
+      woman in white conducts them with a small silver baton. Scale: the hall is 40 m long; the husks are 1.75 m.
+    acting:
+      ahin_husks: "forty husks frozen in the same lunge, perfectly in step"
+      moon_ahin: "small in front of them, baton raised"
+    calm: top
+    sfx:
+      - {text: "TAK TAK TAK", style: quiet, at: [0.50, 0.80], size: S, rot: 0}
+
+  - id: P56
+    recipe: splash
+    shape: tall
+    gap: short
+    bg: white
+    camera: "eye level (1.6 m), three-quarter, full figure: Moon Ahin turning from her husks, a tablet held out to her by one of them"
+    light: "key: cool white from the tall windows; a soft rim light along her hair"
+    art: >
+      Glamour panel. Moon Ahin (moon_ahin) turns away from her husks toward us, full figure, in her full design: a beautiful,
+      cold face with sharp cool grey eyes and a faint superior half-smile; long glossy black hair to her waist with the silver
+      ribbon bow; the fitted white coat-dress with its deep V neckline and the high slit up her LEFT side showing her leg in a
+      sheer white thigh-high stocking with a lace top as she steps; white gloves; white heeled knee boots; the silver baton in
+      her RIGHT hand. A polished husk beside her holds out a tablet playing the clip. Confident pose; full model-sheet
+      proportions (about 7.5 heads, long legs). The camera is level, never aimed up the slit.
+    acting:
+      moon_ahin: "mid-step, turning her head toward the tablet, chin slightly raised, the baton held loosely at her side, eyes narrowing"
+      ahin_husks: "one husk standing at her shoulder, holding the tablet out with both hands, perfectly still"
+    eyeline: "Moon Ahin → the tablet"
+    calm: top
+    silent: true
+
+  - id: P57
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "close on Moon Ahin's face over the glowing tablet, one eyebrow twitching"
+    light: "the tablet's glow from below; cool white"
+    art: >
+      Close on Moon Ahin (moon_ahin) looking down at the tablet's glow: on the screen, a small masked shape moving faster than
+      any husk; one of her straight brows twitches, and the half-smile freezes.
+    acting:
+      moon_ahin: "looking down at the tablet, one eyebrow twitching, the half-smile frozen, baton tapping her lips"
+    eyeline: "Moon Ahin → the tablet"
+    foreground: "the tablet's edge in the husk's white hands, cropped, bottom"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: speech, text: "HUSKS DON'T MOVE LIKE THAT.", side: r}
+
+  - id: P58
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: white
+    camera: "high, over the rows: all forty husks turning their faceless heads at the same instant to look at the tablet"
+    light: "cool white"
+    art: >
+      High over the rows: at one small flick of her baton, all forty husks turn their faceless heads at the same instant to look
+      at the tablet in her hand.
+    acting:
+      ahin_husks: "forty heads snapping round together toward the tablet"
+      moon_ahin: "a tiny flick of the baton"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "SHAK", style: impact, at: [0.50, 0.30], size: L, rot: 0}
+
+  # ================= THE INVITATION (P59–P72) =================
+  - id: P59
+    recipe: reaction
+    shape: inset-r
+    gap: long
+    bg: black
+    camera: "back on the rooftop at night: close on Jaeha sneezing violently into a bowl of tteokbokki, Nib beside him unimpressed"
+    light: "warm bulbs; the night"
+    art: >
+      Friday night on the rooftop: Jaeha (kang_jaeha, hoodie, plasters on his palms) sneezes violently over a bowl of
+      tteokbokki; Nib (nib, no mask) beside him stares at him, unimpressed.
+    acting:
+      kang_jaeha: "mid-sneeze, eyes squeezed shut, the chopsticks flying up"
+      nib: "flat stare, holding his own bowl out of the way"
+    eyeline: "Nib → Jaeha"
+    calm: left
+    lines:
+      - {who: nib, type: whisper, text: "......", side: r}
+    sfx:
+      - {text: "HATCHOO", style: comic, at: [0.30, 0.30], size: L, rot: -8}
+
+  - id: P60
+    recipe: establish
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high (4 m) over the green rooftop at night: Borro's welcome dinner, a pan of tteokbokki, everyone round the plastic table"
+    light: "warm: a string of bulbs, the portable stove's blue flame; the city and bridges beyond"
+    art: >
+      Night on the rooftop: Borro's welcome dinner at last. A big pan of bubbling red tteokbokki on a portable stove on the
+      plastic table; Seoa (kang_seoa, hoodie) ladles it out; Yerin, Bomi, Jaeha and Nib sit round it; Borro sits cross-legged
+      on the roof itself so that his head is level with theirs, the tarp behind him and his styrofoam box with one green sprout
+      in it beside him. The new drone with the pink ribbon hovers. The city lights glow beyond the parapet.
+    acting:
+      kang_seoa: "ladling tteokbokki into a bowl, proud"
+      song_yerin: "holding out her bowl"
+      yoo_bomi: "filming the pan with the drone"
+      borro: "sitting cross-legged on the roof, holding a tiny bowl in his huge hands"
+      nib: "holding his bowl, waiting for someone else to eat first"
+      kang_jaeha: "wiping his nose, laughing"
+    calm: top
+    sfx:
+      - {text: "BUBBLE BUBBLE", style: quiet, at: [0.50, 0.70], size: S, rot: 0}
+
+  - id: P61
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, close on Borro holding up one rice cake on a toothpick between two enormous fingers"
+    light: "warm"
+    art: >
+      Close on Borro (borro, no husk face) holding up one small rice cake on a toothpick between two enormous fingers,
+      studying it gravely; Seoa watches him, waiting.
+    acting:
+      borro: "holding the rice cake up close to his eyes, studying it with great seriousness"
+      kang_seoa: "leaning forward on her elbows, watching him, hopeful"
+    eyeline: "Borro → the rice cake; Seoa → Borro"
+    foreground: "the edge of the steaming pan, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kang_seoa, type: speech, text: "THESE ARE THE RICE CAKES I SAVED FROM THE BREAK. EAT.", side: r}
+
+  - id: P62
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Borro chewing slowly, his eyes widening, a tiny flower on his shell trembling"
+    light: "warm"
+    art: >
+      Close on Borro (borro) chewing very slowly, his heavy-lidded eyes widening; a tiny white flower on his shoulder trembles.
+    acting:
+      borro: "chewing slowly, eyes opening wide, then a slow, enormous smile"
+    eyeline: "Borro → Seoa"
+    calm: right
+    lines:
+      - {who: borro, type: speech, text: "...I LIKE RICE CAKES. DEFINITELY.", side: l}
+
+  - id: P63
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha's phone buzzing on the plastic table beside his bowl, the screen green"
+    light: "the screen glow; warm bulbs"
+    art: >
+      Close on Jaeha's phone buzzing on the plastic table beside his bowl of tteokbokki. Screen: flat green.
+    calm: left
+    ui:
+      - kind: phone.info_card
+        "on": screen
+        title: "BLACK HOUND GUILD · INVITATION"
+        text: "B-GRADE RAID · 'A RAID FOR HEROES' · WE WOULD BE HONOURED IF THE HERO OF MANGWON MARKET WOULD WALK IN WITH US · MOK HANGYU"
+    silent: true
+    sfx:
+      - {text: "BZZT BZZT", style: quiet, at: [0.30, 0.30], size: S, rot: 0}
+
+  - id: P64
+    recipe: chorus
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level round the table: everyone leaning over to read the phone, the laughter gone"
+    light: "warm bulbs; the screen glow"
+    art: >
+      Round the table, everyone leans over to read the phone; the laughter has gone out of their faces.
+    acting:
+      kang_seoa: "slamming her ladle down, glaring"
+      song_yerin: "both hands over her mouth"
+      yoo_bomi: "lowering the drone controller, mouth open"
+      nib: "ears flat back, eyes narrowed"
+      borro: "setting his bowl down slowly"
+      kang_jaeha: "reading, expressionless"
+    eyeline: "all → the phone"
+    calm: top
+    lines:
+      - {who: kang_seoa, type: speech, text: "NO.", side: l}
+      - {who: song_yerin, type: speech, text: "HE CLOSED THE DOOR ON YOU. HE LEFT YOU TO DIE.", side: r}
+
+  - id: P65
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Nib, ears flat, speaking one word"
+    light: "warm; the screen glow on his face"
+    art: >
+      Close on Nib (nib, no mask), ears flat, yellow eyes hard.
+    acting:
+      nib: "ears flat back, eyes narrowed to slits, mouth a hard line"
+    eyeline: "Nib → the phone"
+    calm: right
+    lines:
+      - {who: nib, type: speech, text: "DOORS. HE LIKES CLOSING THEM.", side: l}
+
+  - id: P66
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low two-shot: Bomi leaning in, worried; Jaeha looking at the phone without moving"
+    light: "warm; screen glow"
+    face: private
+    art: >
+      Bomi (yoo_bomi) leans in toward Jaeha, worried; Jaeha (kang_jaeha) looks at the phone without moving.
+    acting:
+      yoo_bomi: "leaning in, both hands on the table"
+      kang_jaeha: "still, eyes on the phone, a pencil turning slowly in his plastered fingers"
+    eyeline: "Bomi → Jaeha; Jaeha → the phone"
+    foreground: "the steaming pan, cropped, bottom"
+    calm: top
+    lines:
+      - {who: yoo_bomi, type: speech, text: "IT'S A TRAP. EVERYONE IN SEOUL CAN SEE IT'S A TRAP.", side: l}
+      - {who: kang_jaeha, type: speech, text: "I KNOW. I'M A TRAP-TESTER.", side: r}
+
+  - id: P67
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "over Jaeha's shoulder, close on the notebook: a new page with three names on it"
+    light: "warm bulbs on the page"
+    face: private
+    art: >
+      Over Jaeha's shoulder: on a clean notebook page he writes, in his careful hand: a shield with a hound's head, a crossbow,
+      a door with a lamp above it. Leave a blank band for the letterer's note. No readable text.
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: note, text: "B-GRADE RAID. MOK. HIS CROSSBOW. A DOOR THAT CLOSES."}
+
+  - id: P68
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of Jaeha's eyes, cold, the warm bulbs reflected in them"
+    light: "warm bulbs reflected; the face in shadow"
+    face: private
+    art: >
+      Extreme close-up: Jaeha's eyes (kang_jaeha), cold and level, half in shadow under the fringe. Fill the canvas edge to
+      edge.
+    acting:
+      kang_jaeha: "eyes level, cold, unblinking"
+    calm: none
+    silent: true
+
+  - id: P69
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on the notebook snapping shut in Jaeha's plastered hand"
+    light: "warm"
+    art: >
+      Close on the battered black notebook snapping shut in Jaeha's plastered hand, the elastic band flicking.
+    calm: left
+    silent: true
+    sfx:
+      - {text: "SNAP", style: quiet, at: [0.40, 0.40], size: M, rot: 0}
+
+  - id: P70
+    recipe: talk
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from the roof: Jaeha standing up from the table, the notebook in his hand, the night city and the lit bridge behind him"
+    light: "warm bulbs from below; the city's glow; his face half in shadow"
+    face: private
+    art: >
+      From low on the roof: Jaeha (kang_jaeha) stands up from the table with the closed notebook in his hand, everyone looking
+      up at him; behind him the night city, and far off, the bridge's orange lights over the river.
+    acting:
+      kang_jaeha: "standing tall for once, shoulders straight, the closed notebook at his side, a small cold smile"
+    eyeline: "Jaeha → the city"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "TELL HIM YES. THIS TIME, I'M THE ONE SETTING THE TRAP.", side: r}
+
+  - id: END
+    kind: end
+    chibi_gag: "Chibi Borro tucks the single green sprout in its styrofoam box under a tiny blanket for the night, while chibi Nib, already asleep, is curled up inside his shell like a hermit crab and chibi Gomi the cat sits on top of both."
