@@ -326,6 +326,350 @@ Chapters 6–12 need the Arc 2 sheets and keys in `ASSETS_ARC2_BRIEF.md` (Borro 
 | `I` | P57–P63 | The husks turn; the rooftop dinner. |
 | `J` | P64–P70 and `END.png` | P68 ECU strip; P70 the last panel. |
 
+### Arc 3-4 sheets come first
+Chapters 13-33 need the sheets, keys and props in `ASSETS_ARC3_BRIEF.md` (Han Sora S20, Nib's seal 3/5 S21, Minseok S22, the crew and Kanghan staff S23, Auntie Geum S24, the Arcs 3-4 cast S25, the monsters M5-M9, the places L13-L20 and the props sheet P1). A part may start only when every sheet it names exists and has a `DONE.md`. Every sheet carries a faint 178 cm silhouette: use it to check the scale of every giant and monster (section 4b). Fan service as in chapters 6-12: Lyra, Moon Ahin, Han Sora and Bomi get confident glamour panels, never a camera aimed up a skirt, down a top or at the chest; Seoa (15), Yerin and Dami's daughter never.
+
+### Chapter 13: The Hearing (`scripts_v2/ch013.yaml`)
+
+**Chapter 13 rules:** Jaeha wears the vest with the collar of a borrowed white shirt showing (Seoa insisted), plasters on both palms, the bite bandage on his LEFT forearm. Nib (seal 2/5, mask) and Borro (husk face) stay in rest form all chapter and play husks, badly: stiff, arms hanging; Borro ducks under every doorway. Places: `assoc_lobby/key.png`, `assoc_hearing_room/key.png`, `assoc_arena/key.png`. The training construct: `training_construct/` (4 m; Jaeha reaches its hip; it moves on rails of light). Mok wears a navy suit with the small red hound's-head pin. Inspector Ryu, the lawyer and the guard: `arc3_cast/lineup.png`. The crossbow woman in the gallery is Han Sora in her Black Hound look (`han_sora/`), the brass compass in her lap at the hook.
+
+| Part | Panels to draw | Notes |
+|---|---|---|
+| `A` | P01–P09 | No art for P10 (`title`). |
+| `B` | P11–P17 | - |
+| `C` | P18–P24 | P22 ECU strip |
+| `D` | P25–P30 | - |
+| `E` | P31–P38 | P32 window (keep the top half calm); P33 phone screen #00FF00; P34 ECU strip |
+| `F` | P39–P46 | P41 `carry`; P42 `plan` |
+| `G` | P47–P54 | P47 phone screen #00FF00; P51 phone screen #00FF00 |
+| `H` | P55–P60 | P58 `chibi` |
+| `I` | P61–P66 and `END.png` | P65 strip |
+
+### Chapter 14: The Compass (`scripts_v2/ch014.yaml`)
+
+**Chapter 14 rules:** Han Sora's first glamour panel (P03) and name card (P05): `han_sora/` Black Hound look, the compass on its chain round her RIGHT wrist; never a camera aimed at her chest. Jaeha wears the hoodie only (no vest), the notebook in the hoodie's front pocket. Nib wears the mask at the store and none at home; he flashes into field form for one second under the table twice (P17, P19: an amber eye, a thin amber outline). The store at night: `conv_store/key.png`. The flashback (P38-P44) is grey with only the two orange vests in colour: `hanriver_gate_flashback/key.png`, Minseok and the young cast in `oh_minseok/`.
+
+| Part | Panels to draw | Notes |
+|---|---|---|
+| `A` | P01–P07 | P02 strip; P03 splash; P05 name card; P06 ECU strip |
+| `B` | P08–P12 | No art for P13 (`title`). |
+| `C` | P14–P19 | P14 ECU strip; P16 `link-view` |
+| `D` | P20–P24 | - |
+| `E` | P25–P32 | P27 `chibi`; P29 phone screen #00FF00; P30 ECU strip |
+| `F` | P33–P40 | P38 strip |
+| `G` | P41–P47 | P44 strip |
+| `H` | P48–P54 | P52 ECU strip |
+| `I` | P55–P60 and `END.png` | P58 strip; P59 phone screen #00FF00 |
+
+### Chapter 15: Pass (`scripts_v2/ch015.yaml`)
+
+**Chapter 15 rules:** The aqueduct gate: `aqueduct_gate/outside.png` and `key.png`: one stone channel 6 m wide on tall arches over a gorge under a pale yellow sky, one way in and one way out. The basalt boar: `basalt_boar/` (its shoulder a head above Borro's head; it lowers its head three strides before it hits). Nib (amber) and Borro (moss green) are in field form most of the chapter. Bomi's new drone with the pink ribbon stays OFF in her hands. P34 is the PASS splash.
+
+| Part | Panels to draw | Notes |
+|---|---|---|
+| `A` | P01–P07 | P01 the reveal; P03 window (keep the top half calm); P06 `carry` |
+| `B` | P08–P12 | No art for P13 (`title`). |
+| `C` | P14–P19 | P15 `carry`; P16 ECU strip |
+| `D` | P20–P25 | P24 `carry` |
+| `E` | P26–P30 | P29 `plan`; P30 window (keep the top half calm) |
+| `F` | P31–P37 | P33 strip; P34 splash |
+| `G` | P38–P44 | P40 window (keep the top half calm); P41 window (keep the top half calm); P44 `chibi` |
+| `H` | P45–P50 | P48 window (keep the top half calm); P50 window (keep the top half calm) |
+| `I` | P51–P55 | P51 window (keep the top half calm); P53 ECU strip |
+| `J` | P56–P60 and `END.png` | P58 window (keep the top half calm) |
+
+### Chapter 16: The Hero Raid (`scripts_v2/ch016.yaml`)
+
+**Chapter 16 rules:** The dam spillway: `dam_gate/key.png` (press tents, cameras, the rope line); the drowned cathedral: `drowned_cathedral/key.png`, `crypt.png`, `doors.png`. Black Hound in clean jackets; the sealers carry the Kanghan stake (`props_v2/arc3/props.png`). Jaeha carries a box of chalk; his chalk arrows mark every junction, and one points the wrong way. Nib stays in rest form (Sora's compass is near); Borro is in field form only P35-P42; Bomi's drone hides in Borro's moss from P61, its lens peeking out between the flowers.
+
+| Part | Panels to draw | Notes |
+|---|---|---|
+| `A` | P01–P06 | P05 phone screen #00FF00 |
+| `B` | P07–P10 | P10 ECU strip; No art for P11 (`title`). |
+| `C` | P12–P18 | P13 window (keep the top half calm) |
+| `D` | P19–P25 | P23 strip |
+| `E` | P26–P30 | - |
+| `F` | P31–P38 | P35 window (keep the top half calm); P37 splash; P38 `carry` |
+| `G` | P39–P45 | - |
+| `H` | P46–P53 | - |
+| `I` | P54–P60 | P55 `link-view` |
+| `J` | P61–P68 and `END.png` | P68 ECU strip |
+
+### Chapter 17: Thirty Seconds (`scripts_v2/ch017.yaml`)
+
+**Chapter 17 rules:** The bell chamber: `boss_chamber_bells/key.png` (intact). The stake's web of violet light spreads over the bronze doors. The Drowned Bell-Ringer: `bell_ringer/` (6 m: Borro reaches its waist, Jaeha its knee); its toll is a ring of force a step beyond its reach (`toll.png`). Mok is soaked from P03. Splashes P30 and P52; the enrage timer windows keep the top half calm.
+
+| Part | Panels to draw | Notes |
+|---|---|---|
+| `A` | P01–P08 | - |
+| `B` | P09–P15 | No art for P16 (`title`). |
+| `C` | P17–P24 | P21 the reveal; P22 window (keep the top half calm); P24 window (keep the top half calm) |
+| `D` | P25–P32 | P27 `carry`; P30 splash |
+| `E` | P33–P40 | P39 phone screen #00FF00 |
+| `F` | P41–P47 | P46 `carry` |
+| `G` | P48–P54 | P52 splash |
+| `H` | P55–P60 | P59 window (keep the top half calm) |
+| `I` | P61–P66 and `END.png` | P62 window (keep the top half calm); P64 window (keep the top half calm); P65 ECU strip |
+
+### Chapter 18: Lyra (`scripts_v2/ch018.yaml`)
+
+**Chapter 18 rules:** The Call: `call_void/key.png`, with only the river rift open (a wide river under a silver sky). Lyra's arrival splash (P33, full height) and name card (P38): `lyra/` sheets, a confident entrance, never aimed up her skirt; Jaeha flustered, Nib flat. Borro is buried to the waist in rubble from P05, still holding the shield up, the drone in his moss. Nib's field form ends at P45.
+
+| Part | Panels to draw | Notes |
+|---|---|---|
+| `A` | P01–P07 | P01 window (keep the top half calm); P03 `carry` |
+| `B` | P08–P12 | P08 window (keep the top half calm); No art for P13 (`title`). |
+| `C` | P14–P19 | P14 window (keep the top half calm) |
+| `D` | P20–P25 | P24 strip |
+| `E` | P26–P31 | P31 window (keep the top half calm) |
+| `F` | P32–P38 | P33 splash; P35 phone screen #00FF00; P38 name card |
+| `G` | P39–P45 | P41 window (keep the top half calm); P45 window (keep the top half calm) |
+| `H` | P46–P50 | P49 window (keep the top half calm); P50 strip |
+| `I` | P51–P57 | P51 ECU strip |
+| `J` | P58–P64 and `END.png` | P63 ECU strip |
+
+### Chapter 19: Borrowed Thunder (`scripts_v2/ch019.yaml`)
+
+**Chapter 19 rules:** The chamber is ruined from P10: `boss_chamber_bells/ruined.png` (half the dome fallen, shafts of light, the doorway 6 m up the back wall with no stair). Lyra's first arrow stays wedged in the bell's crack from P07. Mok holds Jaeha up from behind for the second try. P34 is the Borrowed Thunder splash. Sora appears in the high doorway at the end.
+
+| Part | Panels to draw | Notes |
+|---|---|---|
+| `A` | P01–P06 | P01 window (keep the top half calm); P02 `carry`; P04 `carry` |
+| `B` | P07–P11 | P10 splash; No art for P12 (`title`). |
+| `C` | P13–P19 | - |
+| `D` | P20–P26 | P24 window (keep the top half calm) |
+| `E` | P27–P33 | - |
+| `F` | P34–P38 | P34 splash |
+| `G` | P39–P44 | P40 window (keep the top half calm); P41 window (keep the top half calm); P44 window (keep the top half calm) |
+| `H` | P45–P50 | P47 phone screen #00FF00; P49 window (keep the top half calm) |
+| `I` | P51–P55 | - |
+| `J` | P56–P60 | P57 ECU strip |
+| `K` | P61–P65 and `END.png` | - |
+
+### Chapter 20: Three of Five (`scripts_v2/ch020.yaml`)
+
+**Chapter 20 rules:** `boss_chamber_bells/ruined.png`, with two ropes hanging from the high doorway from P03. Mok's second team: six hunters (two swords, a spear, an archer, a core-staff mage, the ch 7 shield-bearer). Only Nib is in field form; every hit he takes opens on Jaeha: LEFT upper arm (P23), RIGHT thigh (P27), RIGHT forearm (P31), cheek (P35). P41 is the seal 3/5 armour splash: `nib/turnaround_seal3.png`. Minseok's phone in its cracked orange case: `props_v2/arc3/props.png`.
+
+| Part | Panels to draw | Notes |
+|---|---|---|
+| `A` | P01–P06 | - |
+| `B` | P07–P10 | P08 window (keep the top half calm); P10 ECU strip; No art for P11 (`title`). |
+| `C` | P12–P20 | P13 window (keep the top half calm); P18 strip; P20 `carry` |
+| `D` | P21–P27 | P23 `carry`; P27 `carry` |
+| `E` | P28–P34 | P31 `carry` |
+| `F` | P35–P39 | P35 `carry`; P39 ECU strip |
+| `G` | P40–P45 | P40 window (keep the top half calm); P41 splash |
+| `H` | P46–P51 | - |
+| `I` | P52–P56 | P53 splash |
+| `J` | P57–P61 | - |
+| `K` | P62–P66 and `END.png` | P62 ECU strip; P66 phone screen #00FF00 |
+
+### Chapter 21: Ask Him (`scripts_v2/ch021.yaml`)
+
+**Chapter 21 rules:** The climb up the ropes (P03), the collapsing passage (P04), then the spillway at midday (`dam_gate/key.png`). Jaeha is bandaged and carried on Yerin's back P03-P05; the head-sized core rides in a sling on his chest. Nib wears the seal 3/5 armour from now on. P09 is Lyra's glamour flourish, framed from the knees up. Bomi's drone lifts out of Borro's moss at P17. P35 is the ECU of Mok's eyes. The video (P44-P52) is drawn as a shaky phone image: Minseok close, lit by his phone, no rim in view. Police: `arc3_cast/lineup.png`. The rooftop (P64) and Baek's office with the blinds half down (P65-P67, `kanghan_office/day.png`).
+
+| Part | Panels to draw | Notes |
+|---|---|---|
+| `A` | P01–P07 | - |
+| `B` | P08–P12 | No art for P13 (`title`). |
+| `C` | P14–P18 | - |
+| `D` | P19–P23 | - |
+| `E` | P24–P30 | P29 phone screen #00FF00 |
+| `F` | P31–P37 | P35 ECU strip; P36 phone screen #00FF00 |
+| `G` | P38–P43 | P42 phone screen #00FF00; P43 strip |
+| `H` | P44–P49 | - |
+| `I` | P50–P55 | P51 strip; P54 phone screen #00FF00 |
+| `J` | P56–P63 | - |
+| `K` | P64–P67 and `END.png` | - |
+
+### Chapter 22: The Last Seconds (`scripts_v2/ch022.yaml`)
+
+**Chapter 22 rules:** P01-P03 are news footage drawn as TV images with the bottom fifth calm for the lower third; P04 is the store's TV (#00FF00). Jaeha is bandaged and limps with a walking stick at the columbarium (`columbarium/key.png`, `niche.png`). P24 is the grey memory: young Mok slipping the orange phone out of young Jaeha's vest. The rooftop party at dusk: `rooftop_room/party_dusk.png`; P32 chibi; Bomi's glamour leap (P33, from the knees up) and Lyra on the water tank (P40). Moon Ahin conducts alone in the guild hall (P47 glamour; `kanghan_guild_hall/key.png`, `ahin_husk/formation.png`). P56 is the video's last seconds: pier 7 through the white shimmer of the rim (`hanriver_gate/pier7.png`).
+
+| Part | Panels to draw | Notes |
+|---|---|---|
+| `A` | P01–P06 | P01 TV footage (keep the bottom fifth calm); P02 TV footage (keep the bottom fifth calm); P03 TV footage (keep the bottom fifth calm); P06 phone screen #00FF00 |
+| `B` | P07–P10 | No art for P11 (`title`). |
+| `C` | P12–P19 | - |
+| `D` | P20–P27 | P23 strip |
+| `E` | P28–P33 | P32 `chibi` |
+| `F` | P34–P39 | P34 phone screen #00FF00; P36 phone screen #00FF00 |
+| `G` | P40–P45 | - |
+| `H` | P46–P50 | P46 strip; P48 phone screen #00FF00 |
+| `I` | P51–P58 | P55 strip; P57 ECU strip; P58 `link-view` |
+| `J` | P59–P66 and `END.png` | P60 phone screen #00FF00; P66 strip |
+
+### Chapter 23: Under the Bridge (`scripts_v2/ch023.yaml`)
+
+**Chapter 23 rules:** P01-P10 are through Nib's eyes in a thin amber vignette, over `hanriver_gate/inside_fence.png` and `pier7.png`. From P26 the crew kit: `crew/lineup_kit.png` (Jaeha is number 4); Pyo's name card at P28. P35 is underwater: Borro walking on the riverbed, Lyra swimming beside him, graceful. P38 is the canyon splash (`farm_canyon/key.png`); the walkways and trap stones: `farm_canyon/walkway.png`. Foreman Gu and the engineers: `crew/kanghan_lineup.png`. Moon Ahin arrives at the end with her forty husks (`ahin_husk/`).
+
+| Part | Panels to draw | Notes |
+|---|---|---|
+| `A` | P01–P06 | P01 `link-view`; P03 `link-view`; P04 `link-view`; P06 phone screen #00FF00 |
+| `B` | P07–P10 | P07 `link-view`; No art for P11 (`title`). |
+| `C` | P12–P18 | P16 `plan` |
+| `D` | P19–P24 | - |
+| `E` | P25–P32 | P28 name card |
+| `F` | P33–P40 | P38 splash; P40 `link-view` |
+| `G` | P41–P47 | P44 window (keep the top half calm); P45 ECU strip |
+| `H` | P48–P54 | - |
+| `I` | P55–P61 | P60 strip |
+| `J` | P62–P66 and `END.png` | P66 strip |
+
+### Chapter 24: The Puppeteer (`scripts_v2/ch024.yaml`)
+
+**Chapter 24 rules:** Moon Ahin's name card is a tall full-figure glamour panel (P02); then the visor-fog gag (P03) and Nib's flat stare (P04). Canyon wyverns: `canyon_wyvern/` (dog-sized bodies, 4 m wings), diving in a flock. P21: three husks fall away still in formation; P22: the ECU of her eyebrow twitching. Nib in field form P25-P36. P47 is Lyra on Borro's shell in the river. The carved coral giant (P48, `farm_canyon/relief.png`); the locked grille and the cleft from P50.
+
+| Part | Panels to draw | Notes |
+|---|---|---|
+| `A` | P01–P09 | P02 name card; No art for P10 (`title`). |
+| `B` | P11–P18 | P16 the reveal |
+| `C` | P19–P26 | P22 ECU strip |
+| `D` | P27–P32 | P30 `plan`; P32 `carry` |
+| `E` | P33–P38 | P36 window (keep the top half calm) |
+| `F` | P39–P44 | - |
+| `G` | P45–P52 | - |
+| `H` | P53–P60 and `END.png` | P53 strip; P58 `link-view`; P60 strip |
+
+### Chapter 25: Same Kind (`scripts_v2/ch025.yaml`)
+
+**Chapter 25 rules:** The ladder down the cleft, then `farm_canyon/pipe_gallery.png`, `junction.png` and `glass_wall.png`. Borro and Lyra join at P12, out of a side channel of water. Ash hounds: `ash_hound/`; the alpha howls before the pack moves. P41 is the Borrowed Thunder splash through the pinned alpha. No. 17 shatters (P38). A smudge of dust on Moon Ahin's white coat-dress.
+
+| Part | Panels to draw | Notes |
+|---|---|---|
+| `A` | P01–P09 | No art for P10 (`title`). |
+| `B` | P11–P18 | - |
+| `C` | P19–P25 | - |
+| `D` | P26–P33 | P27 `plan`; P30 the reveal; P33 window (keep the top half calm) |
+| `E` | P34–P41 | P36 the reveal; P40 `carry`; P41 splash |
+| `F` | P42–P47 | - |
+| `G` | P48–P54 | - |
+| `H` | P55–P60 and `END.png` | P58 ECU strip |
+
+### Chapter 26: Core Farm (`scripts_v2/ch026.yaml`)
+
+**Chapter 26 rules:** The side passage and the iron door from the ch 14 flashback, propped open with cables through it; the scratched words are added by the letterer as a label (P09). P06 is the grey memory. P15 is the pit splash: `farm_pit/key.png` with the Warden (`tide_warden/`, eyes closed until his lid lifts at P59). The chain-link comparison (P32-P35, props sheet). Red alarm light from P53: `farm_pit/alarm.png`.
+
+| Part | Panels to draw | Notes |
+|---|---|---|
+| `A` | P01–P07 | P05 strip |
+| `B` | P08–P12 | No art for P13 (`title`). |
+| `C` | P14–P21 | P15 splash; P16 window (keep the top half calm) |
+| `D` | P22–P29 | - |
+| `E` | P30–P37 | P30 `plan`; P31 ECU strip; P32 `link-view` |
+| `F` | P38–P44 | - |
+| `G` | P45–P52 | P51 phone screen #00FF00 |
+| `H` | P53–P60 and `END.png` | P55 strip; P57 `link-view` |
+
+### Chapter 27: Alarm (`scripts_v2/ch027.yaml`)
+
+**Chapter 27 rules:** The great drain half-pipe along the pit wall: `farm_pit/drain_pipe.png`. Sora returns in Kanghan colours (`han_sora/turnaround_kanghan.png`) with the tactical squad (`crew/kanghan_lineup.png`): a tall glamour panel stepping off the elevator (P11), and soaked after the flood (P37, from the knees up). P36 is the flood splash. The Warden's eye opens (ECU) and he speaks; to humans it is only a hum.
+
+| Part | Panels to draw | Notes |
+|---|---|---|
+| `A` | P01–P09 | P01 `plan`; No art for P10 (`title`). |
+| `B` | P11–P17 | - |
+| `C` | P18–P24 | P18 `carry` |
+| `D` | P25–P31 | P28 `carry` |
+| `E` | P32–P37 | P36 splash |
+| `F` | P38–P45 | - |
+| `G` | P46–P53 | P46 ECU strip; P47 the reveal |
+| `H` | P54–P60 and `END.png` | P54 strip |
+
+### Chapter 28: Not Equipment (`scripts_v2/ch028.yaml`)
+
+**Chapter 28 rules:** Moon Ahin's video (P23-P31): her phone in her RIGHT hand, the recording screen drawn plainly with a red dot, and what it shows drawn inside its frame. P18 is a soft sea-green memory: Minseok sitting cross-legged at the Warden's feet. P36 is the splash of Borro tearing out the pipe. The rim's iris closing far above (P44). The drain tunnels from P52: `farm_drains/key.png`.
+
+| Part | Panels to draw | Notes |
+|---|---|---|
+| `A` | P01–P07 | P06 window (keep the top half calm); P07 ECU strip |
+| `B` | P08–P14 | - |
+| `C` | P15–P20 | No art for P21 (`title`). |
+| `D` | P22–P26 | - |
+| `E` | P27–P31 | P31 strip |
+| `F` | P32–P38 | P33 ECU strip; P36 splash; P37 `carry` |
+| `G` | P39–P44 | P43 window (keep the top half calm) |
+| `H` | P45–P52 | - |
+| `I` | P53–P60 and `END.png` | P59 window (keep the top half calm) |
+
+### Chapter 29: Sandbags (`scripts_v2/ch029.yaml`)
+
+**Chapter 29 rules:** The drain tunnel's arches and keystones; the slab on Borro; P16 shows three threads pouring into Jaeha at once. Draw a soft grey vignette on Jaeha's point-of-view panels from P17. The crew lever the slab off Borro (P30). The shaft and the barricade of shields at the top: `farm_drains/shaft.png` (P52-P60).
+
+| Part | Panels to draw | Notes |
+|---|---|---|
+| `A` | P01–P07 | P02 window (keep the top half calm); P05 `carry` |
+| `B` | P08–P10, P12–P14 | P08 `plan`; No art for P11 (`title`).; P12 window (keep the top half calm); P14 window (keep the top half calm) |
+| `C` | P15–P21 | P15 ECU strip; P16 `carry`; P17 `link-view`; P20 window (keep the top half calm) |
+| `D` | P22–P29 | P23 window (keep the top half calm) |
+| `E` | P30–P37 | P37 window (keep the top half calm) |
+| `F` | P38–P45 | - |
+| `G` | P46–P53 | P47 window (keep the top half calm) |
+| `H` | P54–P60 and `END.png` | P54 strip; P59 window (keep the top half calm) |
+
+### Chapter 30: The Rim (`scripts_v2/ch030.yaml`)
+
+**Chapter 30 rules:** The charge up the shaft; the sludge mouth; the canyon face and the rim ledge (`farm_canyon/rim_ledge.png`) across a 40 m gap, the iris closing in sparks (P15 splash). Moon Ahin's conducting splash (P21) and the husk bridge, a lattice locked wrist to ankle (P23). From P33, white threads run from Jaeha to all 29 husks; P49: a bruise blooms on his forearm in the shape of a crack. Sora at the far end: P54 tall, P57 the ECU along her sights.
+
+| Part | Panels to draw | Notes |
+|---|---|---|
+| `A` | P01–P07 | P01 `plan` |
+| `B` | P08–P12 | P08 `carry`; No art for P13 (`title`). |
+| `C` | P14–P19 | P15 splash |
+| `D` | P20–P25 | P21 splash |
+| `E` | P26–P30 | - |
+| `F` | P31–P36 | P31 window (keep the top half calm); P32 ECU strip; P33 `carry` |
+| `G` | P37–P44 | P43 window (keep the top half calm) |
+| `H` | P45–P52 | P47 `link-view`; P49 `carry`; P52 window (keep the top half calm) |
+| `I` | P53–P60 and `END.png` | P57 ECU strip; P60 window (keep the top half calm) |
+
+### Chapter 31: Two Pulses (`scripts_v2/ch031.yaml`)
+
+**Chapter 31 rules:** The standoff on the husk bridge; Sora's repeating crossbow, the heavy violet-tipped bolt and the compass on her RIGHT wrist. P25 is the Borrowed Thunder II splash; P26 the compass shattering. Borro holds the iris plates apart at the slit (P36). P44 is a red window on black. Outside under the bridge from P45 (`hanriver_gate/sealed.png`, night, mud): Jaeha's phone screen and his shaking hands.
+
+| Part | Panels to draw | Notes |
+|---|---|---|
+| `A` | P01–P08 | No art for P09 (`title`). |
+| `B` | P10–P15 | P10 window (keep the top half calm); P12 ECU strip; P13 `link-view`; P14 window (keep the top half calm) |
+| `C` | P16–P21 | P18 window (keep the top half calm) |
+| `D` | P22–P30 | P22 `carry`; P25 splash |
+| `E` | P31–P37 | P31 window (keep the top half calm) |
+| `F` | P38–P44 | P40 window (keep the top half calm) |
+| `G` | P45–P52 | - |
+| `H` | P53–P60 and `END.png` | P55 phone screen #00FF00; P56 ECU strip; P60 strip; P60 phone screen #00FF00 |
+
+### Chapter 32: Buried (`scripts_v2/ch032.yaml`)
+
+**Chapter 32 rules:** The Gate Rescue van smashes the fence (P01); foil blankets; dawn over the river (P14); Saebyeok alone at the water's edge (P16). The Association lobby (P18); Deputy Director Hwang's lapel pin (P25); the break room's TV (`gate_rescue_room/key.png`). Moon Ahin in a fresh coat-dress, hair loose, no ribbon (P33 glamour, a Kanghan Tower corridor). Baek's office by day (`kanghan_office/day.png`). The rusted lamp on the niche's ledge (P44). Sora's car at dusk (`sora_car/key.png`). Draw a faint tremor line on Jaeha's fingers whenever his hands show.
+
+| Part | Panels to draw | Notes |
+|---|---|---|
+| `A` | P01–P09 | - |
+| `B` | P10–P16 | P11 phone screen #00FF00; No art for P17 (`title`). |
+| `C` | P18–P25 | P22 TV footage (keep the bottom fifth calm); P24 ECU strip |
+| `D` | P26–P32 | - |
+| `E` | P33–P37 | - |
+| `F` | P38–P42 | - |
+| `G` | P43–P47 | - |
+| `H` | P48–P54 | - |
+| `I` | P55–P60 and `END.png` | P56 ECU strip |
+
+### Chapter 33: Garbage (`scripts_v2/ch033.yaml`)
+
+**Chapter 33 rules:** The rooftop dinner at dusk (`rooftop_room/party_dusk.png`); Dami's daughter (`crew/dami_daughter.png`); Moon Ahin's glamour on a plastic stool beside Lyra (P07); Saebyeok with the fruit basket. The chopsticks (P10-P11, ECU) and the fall (P13). The hospital (`hospital/key.png`) and the road south (`expressway_night/key.png`). Busan: `geum_stall/dawn_wide.png` and `interior.png`. Auntie Geum: `geum_okran/` sheets; her name card P31 and the verdict splash P36. The sea gate (`busan_sea_gate/key.png`, `crack.png`) P61-P63; the final splash P66 with a faint violet stain on the horizon. The tremor line on Jaeha's fingers all chapter.
+
+| Part | Panels to draw | Notes |
+|---|---|---|
+| `A` | P01–P07 | P02 phone screen #00FF00 |
+| `B` | P08–P13 | P11 ECU strip; No art for P14 (`title`). |
+| `C` | P15–P22 | P16 window (keep the top half calm); P17 ECU strip |
+| `D` | P23–P30 | - |
+| `E` | P31–P37 | P31 name card; P36 splash |
+| `F` | P38–P44 | P41 ECU strip |
+| `G` | P45–P50 | - |
+| `H` | P51–P58 | P51 window (keep the top half calm) |
+| `I` | P59–P66 and `END.png` | P60 strip; P63 the reveal; P64 window (keep the top half calm); P66 splash |
+
 ### Chapter 1 parts (done)
 
 | Part | Panels to draw | Notes |
