@@ -28,11 +28,12 @@ locations: [busan_breakwater, kanghan_barge, busan_fish_market, kanghan_office]
 continuity:
   - "Jaeha: look `training` (the purple tracksuit, the bandaged LEFT forearm, the RIGHT index finger splinted with a chopstick). Blood dried under his nose and ears from ch 39. While he holds the strike (P02-P24) his skin glows white-gold with fine cracks of light along his arms and neck, brightest in his RIGHT fist. From P24 his RIGHT forearm is broken (no gore: it hangs wrong, then is splinted by Yerin from P48 with a sling). Soaked from P36."
   - "The STORE countdown: P03 00:10, P12 00:07, P15 00:04, P16 00:03, P22 00:02, P24 release. Keep the order."
-  - "Field forms: Nib (amber), Borro (moss green), Lyra (river blue), Pim (lilac, wings open, the headset round his neck) until the gate closes at P33; rest form after (Lyra keeps field form a little longer for the dive, to P38)."
+  - "Field forms: Nib (amber), Borro (moss green), Lyra (river blue), Pim (lilac, wings open, the headset round his neck). In the break, field form comes back after a minute. When the gate closes at P33 the break is over, and each field form simply runs out its 06:00: Nib, Borro and Pim drop to rest form at P33; Lyra, who called hers last, keeps it to P38 for the dive."
+  - "Nib: seal 3/5 armour and the cracked husk mask; the white bandage round his RIGHT upper arm (ch 35)."
   - "Pim's position from P13 to P33: on top of the harbour light tower near the neck of the breakwater (ch 39 P54), wings open; his voice reaches Jaeha through LINK."
   - "The Deep Lantern (4d.3): hushed until P26 (the violet lantern, the Hush crack down her brow, dull violet eyes); freed from P27: the lantern flares pure white and sweeps the sea like a lighthouse beam, her eyes turn sea-grey and gentle; then she sinks and dissolves into light (P33). Scale: Jaeha is smaller than one of her fingers; the crack on her brow is 10 m long; the crest-spine rises 30 m from the top of her head."
   - "The Deep Lantern's core (6): a head-sized core shaped like a lantern, a cage of pale coral round a slowly pulsing white-violet light. Jaeha holds it in his LEFT hand."
-  - "Moon Ahin: the white coat-dress (2.11), white gloves, the silver baton in her RIGHT hand; her husks polished white, several cracked after P14. Fan service (adult); the camera never below her waist level."
+  - "Moon Ahin: the white coat-dress (2.11), white gloves, the silver baton in her RIGHT hand; her husks polished white, several cracked after P14. All twenty-eight come back: twelve made the stair (Saebyeok the first step, knocked into the sea at P15, cracked), sixteen held the sea wall. Fan service (adult); the camera never below her waist level."
   - "Kang Seoa (15): school uniform, glasses, the red megaphone. Never any fan service; the camera at her eye level or above."
   - "Song Yerin: the off-white healer's jacket with mint trim, the pink bag; covered; her healing light is soft mint-white."
   - "Director Baek (2.13) in his office (location kanghan_office): the charcoal three-piece suit, silver glasses, both hands folded on the cane with its violet core handle; a wall screen shows Bomi's stream (drawn: the white lighthouse beam over Busan). Deputy Director Hwang (2.18) stands beside the desk, in person."
@@ -55,11 +56,13 @@ panels:
     camera: "low and wide at the neck of the breakwater: the vast hand slamming down onto Borro's shield, Jaeha's palms on Borro's back, the blow pouring through Borro into Jaeha"
     light: "white-gold force flowing through moss green; violet lantern above"
     art: >
-      Low and wide at the neck of the breakwater: the Deep Lantern's vast webbed hand (deep_lantern) slams down onto Borro's raised shield
-      (borro, field form); Jaeha (kang_jaeha, training) stands behind Borro with both palms flat on his slate shell, and the whole blow
-      pours through Borro's body into Jaeha's hands as a torrent of white-gold light instead of crushing them; Geum (geum_okran) holds her
-      ladle up beside them. Scale: they are under one of her fingers.
+      Low and wide at the neck of the breakwater: the Deep Lantern's vast webbed hand (deep_lantern) slams down onto Borro's raised
+      shield (borro, field form); Jaeha (kang_jaeha, training) stands behind Borro with both palms flat on his slate shell, and the
+      whole blow pours through Borro's body into Jaeha's hands as a torrent of white-gold light instead of crushing them; Geum
+      (geum_okran) holds her ladle up beside them. Past them, twelve white husks (ahin_husks) race along the walkway toward her forearm,
+      which rests on the breakwater's edge. Scale: they are under one of her fingers.
     acting:
+      ahin_husks: "small, twelve of them sprinting along the walkway in a line"
       borro: "braced under the shield, eyes wide as the weight passes through him and away"
       kang_jaeha: "palms on Borro's back, head thrown back, the light pouring into his arms"
       geum_okran: "ladle up beside them, staring at Jaeha"
@@ -101,7 +104,7 @@ panels:
     calm: top
     silent: true
     ui:
-      - {kind: system.window, "on": float, at: [0.5, 0.06], headline: "[STORE: 1 STRIKE · 340%]", body: "HOLD 00:10 · RISK: BONE DAMAGE", button: "HOLD"}
+      - {kind: system.window, "on": float, at: [0.5, 0.06], headline: "[STORE: 1 STRIKE · 340%]", body: "TOO HEAVY: HOLD 00:30 → 00:10 · RISK: BONE DAMAGE", button: "HOLD"}
 
   - id: P04
     recipe: eyes
@@ -147,13 +150,15 @@ panels:
     shape: wide
     gap: short
     bg: black
-    camera: "high over the breakwater: four coloured threads and the cyan husk threads lighting up from Jaeha at once"
+    camera: "high over the breakwater: four coloured threads lighting up from Jaeha at once, and Moon Ahin's own cyan threads running from her baton to her husks"
     light: "amber, moss, river-blue, lilac and cyan threads"
     art: >
-      High over the neck of the breakwater: from the small glowing figure of Jaeha (kang_jaeha) threads light up all at once, amber to Nib
-      on a tetrapod, moss green to Borro, river blue to Lyra on the parapet, lilac to Pim on the light tower, and a single cyan thread to
-      Moon Ahin (moon_ahin) with her baton raised; above them all, the Deep Lantern's head and violet lantern.
+      High over the neck of the breakwater: from the small glowing figure of Jaeha (kang_jaeha) four threads light up all at once, amber
+      to Nib on a tetrapod, moss green to Borro, river blue to Lyra on the parapet, lilac to Pim on the light tower; a little apart, a
+      fan of thin cyan threads runs from Moon Ahin's raised baton (moon_ahin) to her twelve husks (ahin_husks), already at the
+      leviathan's forearm; above them all, the Deep Lantern's head and violet lantern.
     acting:
+      ahin_husks: "twelve small white figures at the forearm, crouched to leap"
       kang_jaeha: "small, glowing, one hand at his temple"
       moon_ahin: "small, baton raised"
     calm: top
@@ -185,10 +190,10 @@ panels:
     shape: inset-l
     gap: short
     bg: black
-    camera: "low past Lyra on the parapet: her arrows shattering bars of the lantern's coral cage, the violet glare breaking into scattered light"
+    camera: "eye level past Lyra on the parapet, framed from the waist up: her arrows shattering bars of the lantern's coral cage, the violet glare breaking into scattered light"
     light: "river-blue streaks; scattered violet"
     art: >
-      Low past Lyra (lyra, field form) on the parapet: she looses three arrows in a row high into the lantern's cage of pale coral, and
+      At eye level past Lyra (lyra, field form) on the parapet, framed from the waist up: she looses three arrows in a row high into the lantern's cage of pale coral, and
       the bars shatter; the violet glare breaks up into scattered light instead of one beam.
     acting:
       lyra: "drawing to full, aiming high, eyes cold"
@@ -201,12 +206,13 @@ panels:
     shape: tall
     gap: short
     bg: black
-    camera: "low from the walkway: Moon Ahin conducting, her husks leaping one after another and locking into a white stair up the leviathan's flank"
+    camera: "eye level on the walkway, over Moon Ahin's shoulder: Moon Ahin conducting, her twelve husks leaping one after another and locking into a white stair up the leviathan's flank"
     light: "violet; cyan; white porcelain catching the light"
     art: >
-      THE HUSK STAIR. Low from the walkway: Moon Ahin (moon_ahin) conducts with a sweep of her baton, and her husks (ahin_husks) leap one
-      after another onto the Deep Lantern's flank (deep_lantern), bracing against the coral and each other to lock into a white stair
-      climbing toward her head, Saebyeok on the first step. The camera stays at Moon Ahin's eye level.
+      THE HUSK STAIR. At eye level on the walkway, over Moon Ahin's shoulder (moon_ahin), framed from the waist up: she conducts with a
+      sweep of her baton, and up ahead her twelve husks (ahin_husks), arrived at the leviathan's forearm, leap one after another onto
+      the Deep Lantern's flank (deep_lantern), bracing against the coral and each other to lock into a white stair climbing toward her
+      head, Saebyeok on the first step. The camera stays at Moon Ahin's eye level.
     acting:
       moon_ahin: "sweeping the baton upward, chin raised, eyes blazing"
       ahin_husks: "leaping, bracing, locking into steps"
@@ -310,13 +316,13 @@ panels:
     camera: "high and tilted: her other hand swiping across the flank, smashing the lower steps, Jaeha leaping from the last husk onto the rusted plates on her back"
     light: "violet; white-gold"
     art: >
-      High and tilted: the Deep Lantern's other hand (deep_lantern) swipes across her own flank and smashes the lower steps of the stair to
-      shards; Jaeha (kang_jaeha, training) leaps from the last husk onto the rusted steel plates stuck in her back. The lower part is calm
-      for the timer.
+      High and tilted: the Deep Lantern's other hand (deep_lantern) swipes across her own flank and knocks the lower steps of the stair
+      loose, the cracked husks tumbling away into the water, Saebyeok among them; Jaeha (kang_jaeha, training) leaps from the last husk
+      onto the rusted steel plates stuck in her back. The lower part is calm for the timer.
     acting:
       deep_lantern: "swiping across her flank with the free hand"
       kang_jaeha: "leaping, arms out, glowing"
-      ahin_husks: "the lower steps shattering"
+      ahin_husks: "the lower steps knocked loose, cracked but whole, tumbling toward the water"
     calm: bottom
     ui:
       - {kind: system.notice_small, "on": float, at: [0.5, 0.9], text: "[HOLD 00:04]"}
@@ -359,8 +365,9 @@ panels:
     camera: "high behind Jaeha on her head: the harbour below, and far out on the black sea, the small lights of three fishing boats lost in the dark"
     light: "violet below; tiny boat lights"
     art: >
-      High behind Jaeha (kang_jaeha, training) on top of her head: below, the harbour and the breakwater; and far out on the black open sea,
-      the small lights of three fishing boats (fishermen) that never made it back before the break, drifting lost in the dark.
+      High behind Jaeha (kang_jaeha, training) on top of her head: below, the harbour and the breakwater; and far out on the black open
+      sea, the small lights of three fishing boats (fishermen) that never made it back before the break, drifting lost in a bank of
+      violet haze that hides the shore lights and the lighthouse from them.
     acting:
       kang_jaeha: "seen from behind, crouched, glowing, looking out to sea"
       fishermen: "only the tiny lights of their boats, drifting"
@@ -409,8 +416,8 @@ panels:
     camera: "close on one lost fishing boat on the black sea, an old fisherman at its wheel peering into the dark"
     light: "a single deck lamp; black sea"
     art: >
-      Close on one of the lost fishing boats on the black sea: an old fisherman (fishermen) at its wheel peers into the dark with no idea
-      which way the harbour is, his deck lamp the only light.
+      Close on one of the lost fishing boats on the black sea: an old fisherman (fishermen) at its wheel peers into the violet haze with
+      no idea which way the harbour is; even the lighthouse is hidden from him, and his deck lamp is the only light.
     acting:
       fishermen: "gripping the wheel, peering into the dark, lost"
     calm: left
@@ -519,9 +526,10 @@ panels:
     camera: "low from the breakwater: her lantern flaring pure white, a lighthouse beam sweeping out over the dark sea"
     light: "a pure white beam sweeping the sea"
     art: >
-      THE LIGHTHOUSE. From low on the breakwater: the Deep Lantern (deep_lantern) lifts her head, and her great lantern flares pure white;
-      a broad beam of white light sweeps out over the dark sea like a lighthouse's, brighter than the red lighthouse at the breakwater's
-      end; the violet is gone from the harbour. Small at the bottom, Geum, Borro, Lyra and Nib look up.
+      THE LIGHTHOUSE. From low on the breakwater: the Deep Lantern (deep_lantern) lifts her head, and her great lantern flares pure
+      white; a broad beam of white light sweeps out over the dark sea and burns through the haze like a lighthouse's, brighter than the
+      red lighthouse at the breakwater's end; the violet is gone from the harbour. Small at the bottom, Geum, Borro, Lyra and Nib look
+      up.
     acting:
       deep_lantern: "head raised, the lantern blazing white, at peace"
       geum_okran: "small, looking up, the ladle lowering"
@@ -757,20 +765,21 @@ panels:
     calm: top
     lines:
       - {who: pim, type: speech, text: "SHE WANTS TO GO HOME, BOSS.", side: l}
-      - {who: kang_jaeha, type: speech, text: "LAST TIME THERE WAS A RELEASE BUTTON. NOW THERE'S ONLY HARVEST.", side: r}
+      - {who: kang_jaeha, type: speech, text: "ONCE, THERE WAS A RELEASE BUTTON. NOW THERE'S ONLY HARVEST.", side: r}
 
   - id: P41
     recipe: reaction
     shape: inset-l
     gap: short
     bg: black
-    camera: "over Jaeha's shoulder: a small Kanghan boat speeding from the barge toward the spot where she sank, divers on its deck"
+    camera: "over Jaeha's shoulder: a small Kanghan boat speeding from the barge toward the core, engineers on its deck with a net pole"
     light: "the boat's searchlight"
     art: >
-      Over Jaeha's shoulder: a small black Kanghan boat speeds from the barge straight toward the glowing core hanging over the water, its
-      searchlight on it, divers in wetsuits (kanghan_engineer) on its deck reaching out with a long net pole.
+      Over Jaeha's shoulder: a small black Kanghan boat speeds from the barge straight toward the glowing core hanging over the water,
+      its searchlight on it, Kanghan engineers in grey coveralls and orange life vests (kanghan_engineer) on its deck, one reaching out
+      with a long net pole.
     acting:
-      kanghan_engineer: "small, divers pulling on masks, pointing at the water"
+      kanghan_engineer: "small, one leaning out with the net pole, another pointing at the water"
     calm: right
     silent: true
     sfx:
@@ -922,8 +931,9 @@ panels:
     light: "bulbs; steam; the lighthouse"
     art: >
       Eye level along the breakwater: the aunties (market_aunties) ladle tteokbokki and fish cakes out of big pots to everyone at the
-      folding tables: Nib (nib, mask), Borro (borro), Lyra (lyra) in a towel, Moon Ahin (moon_ahin) with her cracked husks sitting in a row
-      behind her, Choi (choi_dongmin) with a coffee, Bomi (yoo_bomi) with her drone, the fishermen and the townspeople (evacuees).
+      folding tables: Nib (nib, mask), Borro (borro), Lyra (lyra) in a towel, Moon Ahin (moon_ahin) with all twenty-eight of her husks
+      sitting in a row behind her, several cracked, the ones from the stair still dripping, Choi (choi_dongmin) with a coffee, Bomi
+      (yoo_bomi) with her drone, the fishermen and the townspeople (evacuees).
     acting:
       market_aunties: "ladling food, bossing everyone"
       nib: "holding a bowl in both hands"
@@ -1041,13 +1051,15 @@ panels:
     camera: "close on Geum throwing her head back and laughing, the lighthouse beam passing behind her"
     light: "the lighthouse beam"
     art: >
-      Close on Geum (geum_okran) throwing her head back and laughing, the lighthouse beam sweeping behind her.
+      Close on Geum (geum_okran) throwing her head back and laughing, the lighthouse beam sweeping behind her. The upper part is calm for a small window.
     acting:
       geum_okran: "head thrown back, laughing, the ladle across her knees"
-    calm: left
+    calm: top
     silent: true
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.06], headline: "[QUEST COMPLETE: THE WALL OF BUSAN]", body: "CARRY CAPACITY 100% → 118% · BODY RATING F → F+ · REWARD: RELEASE I", button: "OK"}
     sfx:
-      - {text: "HAHAHA", style: comic, at: [0.70, 0.30], size: S, rot: 0}
+      - {text: "HAHAHA", style: comic, at: [0.75, 0.62], size: S, rot: 0}
 
   # ================= SEOUL (P57-P60) =================
   - id: P57

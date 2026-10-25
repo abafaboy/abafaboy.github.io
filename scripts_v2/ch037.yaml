@@ -24,14 +24,15 @@ locations: [assoc_busan, kanghan_barge, hotel_pool, busan_beach, busan_breakwate
 continuity:
   - "Jaeha: look `training` all chapter: Geum's spare purple tracksuit, too short at the wrists and ankles, his own trainers, a towel round his neck, a clean white bandage on his LEFT forearm. Notebook and the stamped chain link (6) in the LEFT chest pocket of the tracksuit top, pencil behind the RIGHT ear, fringe over the LEFT eye. He looks badly underdressed at the hotel."
   - "Pim (2.19): the black gaming headset over the base of his antennae all chapter except his field form (P53-P60: wings open 2.6 m, eye-spots and antennae glowing lilac, the headset round his neck). No mask: strangers take him for a mascot costume."
-  - "Nib: the cracked husk mask in public; rest form. Borro: the white husk face in public; rest form; he holds a big striped beach umbrella at the beach."
+  - "The LINK leash (600 m, ch 8): the rest-form summons stay near Jaeha. At the Association branch they wait outside on the pier. The Grand Harbour hotel stands on the beachfront, so while Jaeha and Nib are up at the rooftop pool, Lyra, Borro and Bomi are on the sand right below it."
+  - "Nib: the cracked husk mask in public; rest form; a clean white bandage round his RIGHT upper arm (the cut from ch 35). Borro: the white husk face in public; rest form; he holds a big striped beach umbrella at the beach."
   - "Lyra, P28-P49: look `swimsuit` (2.20): the river-blue halter bikini with silver trim, the sheer pale-blue wrap tied at her LEFT hip, her pearl choker and silver arm cuffs, the braid over her LEFT shoulder; barefoot; no bracer or glove. From P51 on the breakwater: her own outfit (2.10). Fan service (adult): confident and beautiful; the camera never below her waist level."
   - "Han Sora, P16-P27: look `pool` (2.20): the black one-piece swimsuit with a deep plunging neckline, high-cut legs and crimson piping; big sunglasses pushed up into her black bob; red lips; the bandage on her RIGHT wrist; the slim silver compass on her LEFT wrist. A cocktail in her LEFT hand. Fan service (adult); the camera never below her waist level."
   - "Moon Ahin, from P41: look `summer` (2.20): the white sleeveless summer dress to mid-calf with a high slit up the LEFT side, the wide-brimmed white sun hat with a silver ribbon, white sandals, white lace gloves, the silver baton in a holster at her RIGHT hip; long black hair with the silver ribbon bow. Saebyeok (ahin_husks, No. 1, a polished porcelain husk, no different from the rest) holds a white parasol over her; other husks carry her luggage. Fan service (adult); the camera never below her waist level."
   - "Yoo Bomi (2.7): the cropped neon-yellow bomber worn open, the black crop top, high-waisted denim shorts, black thigh-high socks, black trainers, the ponytail with bleached ends; her white drone with its red light always near her. Fan service is fine (adult); the camera never below her waist level."
   - "Branch Chief Yang (assoc_yang, 2.20): 63, thin, bald with a grey fringe, round glasses, a brown cardigan over the grey Association shirt with the star-and-shield badge."
   - "Deputy Director Hwang (2.18), only on the video-call screen: 60, silver hair, a soft smiling face, rimless glasses, a grey Association suit; the small silver hexagon pin on the UNDERSIDE of his LEFT lapel shows for an instant at P09."
-  - "Kanghan Marine's barge (kanghan_barge, 5d): black hull, a tall crane, drill rigs lowered on cables, floodlights, containers, the silver hexagon on the hull (an emblem, no letters). Engineers in grey coveralls with the hexagon emblem and orange life vests; troopers in black armour with smoky visors and core carbines."
+  - "Kanghan Marine's barge (kanghan_barge, 5d): black hull, a tall crane, drill rigs hanging ready on cables (they only go down on Friday at 6:00), floodlights, containers, the silver hexagon on the hull (an emblem, no letters). Engineers in grey coveralls with the hexagon emblem and orange life vests; troopers in black armour with smoky visors and core carbines."
   - "Kanghan's anchors (6): black steel harpoon anchors 2 m long on chains as thick as an arm, each link stamped with the same small mark as the farm's chains (a shape, never letters)."
 plants:
   - "PLANT P11: the barge over the lid (ch 38-40)."
@@ -74,7 +75,7 @@ panels:
     light: "fluorescent; grey window light"
     art: >
       Inside the branch chief's cluttered office: a wall map of the coast with pins, old trophies on a shelf, a video-call screen on the
-      wall (flat green #00FF00, switched off); Geum (geum_okran) slams the ladle down on the desk and the papers jump; behind the desk,
+      wall (switched off, its glass black); Geum (geum_okran) slams the ladle down on the desk and the papers jump; behind the desk,
       Branch Chief Yang (assoc_yang) leans back in his chair, unsurprised.
     acting:
       geum_okran: "slamming the ladle flat on the desk, leaning over it on her steel fist"
@@ -245,8 +246,8 @@ panels:
     light: "grey morning; a violet stain on the sea"
     art: >
       Through the office window, past the port cranes: far out at sea, two kilometres off the harbour, a black-hulled crane barge sits
-      anchored over a faint violet stain on the water (location kanghan_barge, far), its tall crane and drill rigs lowered on cables,
-      the silver hexagon on its hull. Scale: the barge is a toy on the horizon.
+      anchored over a faint violet stain on the water (location kanghan_barge, far), its tall crane up and its drill rigs hanging ready
+      on cables, the silver hexagon on its hull. Scale: the barge is a toy on the horizon.
     calm: top
     lines:
       - {who: offpanel:deputy_hwang, type: phone, text: "ENJOY YOUR STAY IN BUSAN, MR. KANG."}
@@ -269,7 +270,7 @@ panels:
     eyeline: "Pim → the barge; Jaeha → Pim"
     calm: left
     lines:
-      - {who: pim, type: speech, text: "BOSS, THAT BOAT NEVER STOPS TALKING. IT DRILLS AND TALKS AND DRILLS.", side: l}
+      - {who: pim, type: speech, text: "BOSS, THAT BOAT NEVER STOPS TALKING. IT CLANKS AND TALKS AND CLANKS.", side: l}
     sfx:
       - {text: "wince", style: quiet, at: [0.70, 0.20], size: S, rot: 0}
 
@@ -328,9 +329,9 @@ panels:
     light: "bright late-morning sun; water glitter"
     art: >
       A luxury hotel's rooftop infinity pool in bright late-morning sun (location hotel_pool): white loungers, a white cabana, the
-      pool's edge running out into the sky, the city and the harbour far below; Jaeha (kang_jaeha, training) steps out of the lift in
-      his too-short tracksuit with the towel round his neck, Nib (nib, mask) beside him; a waiter with a tray stares at the tracksuit.
-      Scale: the pool is 25 m long; the loungers are tiny along it.
+      pool's edge running out into the sky, the beach directly below and the harbour along the coast; Jaeha (kang_jaeha, training) steps
+      out of the lift in his too-short tracksuit with the towel round his neck, Nib (nib, mask) beside him; a waiter with a tray stares
+      at the tracksuit. Scale: the pool is 25 m long; the loungers are tiny along it.
     acting:
       kang_jaeha: "stepping out of the lift, hands in his tracksuit pockets, looking round"
       nib: "beside him, knives hidden, eyes scanning the roof"
@@ -385,11 +386,11 @@ panels:
     shape: wide
     gap: short
     bg: black
-    camera: "low two-shot side-on: Jaeha perched stiffly on the edge of the next lounger, Sora sliding a tablet across the little table"
+    camera: "eye-level two-shot, side-on: Jaeha perched stiffly on the edge of the next lounger, Sora sliding a tablet across the little table"
     light: "bright sun; shade from the cabana"
     face: private
     art: >
-      Low two-shot, side-on: Jaeha (kang_jaeha, training) perches stiffly on the very edge of the next lounger, looking only at the tablet;
+      Eye-level two-shot, side-on: Jaeha (kang_jaeha, training) perches stiffly on the very edge of the next lounger, looking only at the tablet;
       Sora (han_sora, pool) slides a tablet across the little table between them, sunglasses still up.
     acting:
       kang_jaeha: "perched on the edge, back straight, eyes locked on the tablet"
@@ -495,11 +496,11 @@ panels:
     shape: inset-r
     gap: short
     bg: black
-    camera: "close from above: Sora lying back, flicking her sunglasses down, smiling"
+    camera: "close at Sora's eye level, side-on, framed on her face and hand: Sora lying back, flicking her sunglasses down, smiling"
     light: "sun"
     art: >
-      Close from above: Sora (han_sora, pool) lies back on the lounger and flicks her sunglasses down over her eyes with one finger,
-      smiling. The camera stays above her shoulders.
+      Close at her eye level, side-on, framed on her face and her raised hand: Sora (han_sora, pool) lies back on the lounger and flicks
+      her sunglasses down over her eyes with one finger, smiling. The frame ends at her shoulders.
     acting:
       han_sora: "lying back, flicking her sunglasses down with one finger, smiling"
     eyeline: "Sora → Jaeha (up)"
@@ -569,7 +570,7 @@ panels:
     camera: "eye level at the waterline, full figure: Lyra in a river-blue bikini wading out of the sea and posing for the drone"
     light: "key: sun from the left; sea glitter behind; water drops catching the light"
     art: >
-      LYRA TRIES THE SEA. Eye level at the waterline, full figure: Lyra (lyra, swimsuit) wades out of the calm sea in the river-blue
+      LYRA AND THE SEA. Eye level at the waterline, full figure: Lyra (lyra, swimsuit) wades out of the calm sea in the river-blue
       halter bikini with silver trim, the sheer pale-blue wrap tied at her LEFT hip clinging wet, the pearl choker and silver arm cuffs,
       the long silver-white braid over her LEFT shoulder dripping; she stops for the hovering drone with one hand on her hip and her chin
       up, a smug smile, water running off her pale skin. The camera stays at her eye level.
@@ -836,7 +837,7 @@ panels:
     light: "sun"
     art: >
       Side-on at eye level: Lyra (lyra, swimsuit) and Moon Ahin (moon_ahin, summer) stand face to face on the sand, a little too close,
-      Lyra a head taller; Jaeha (kang_jaeha, training) behind them looks resigned.
+      Lyra half a head taller; Jaeha (kang_jaeha, training) behind them looks resigned.
     acting:
       lyra: "hand on her hip, leaning down a little, eyes narrowed, smiling"
       moon_ahin: "chin raised, the half-smile, one gloved hand on her baton's holster"
@@ -1078,7 +1079,7 @@ panels:
     calm: top
     lines:
       - {who: offpanel:kanghan_engineer, type: phone, text: "ANCHOR TEAM, CONFIRM. WE DRILL THE LID AT SIX TOMORROW MORNING."}
-      - {who: offpanel:kanghan_engineer, type: phone, text: "COPY. SIX HUNDRED HOURS. ANCHORS IN BY NIGHTFALL."}
+      - {who: offpanel:kanghan_engineer, type: phone, text: "COPY. ZERO-SIX-HUNDRED. ANCHORS IN BY NIGHTFALL."}
     sfx:
       - {text: "kssht", style: quiet, at: [0.80, 0.70], size: S, rot: 0}
 
@@ -1143,10 +1144,10 @@ panels:
     shape: wide
     gap: short
     bg: black
-    camera: "low two-shot: Geum furious, Moon Ahin white, the barge on the horizon between them"
+    camera: "eye-level two-shot: Geum furious, Moon Ahin white, the barge on the horizon between them"
     light: "golden turning red"
     art: >
-      Low two-shot: Geum (geum_okran) glares out at the barge, furious; Moon Ahin (moon_ahin, summer) stands white-faced beside her; the
+      Eye-level two-shot: Geum (geum_okran) glares out at the barge, furious; Moon Ahin (moon_ahin, summer) stands white-faced beside her; the
       barge sits on the horizon between them.
     acting:
       geum_okran: "glaring at the barge, the ladle pointing at it like a sword"
@@ -1196,12 +1197,13 @@ panels:
     shape: full
     gap: short
     bg: black
-    camera: "low over the water at sunset: the black barge filling the frame, floodlights snapping on, drill rigs lowered on cables, the violet stain spreading under the hull"
+    camera: "low over the water at sunset: the black barge filling the frame, floodlights snapping on, drill rigs hanging ready, the violet stain spreading under the hull"
     light: "red sunset; white floodlights; violet under the water"
     art: >
       Low over the water at sunset: the black-hulled barge (location kanghan_barge) fills the frame, its floodlights snapping on one by
-      one, the drill rigs lowered on cables into the sea, a row of black harpoon anchors racked on deck with chains as thick as an arm,
-      the silver hexagon on the hull; under the hull, the faint violet stain spreads through the water. Scale: the crane is 50 m tall.
+      one, the drill rigs hanging ready on their cables above the water for the morning, a row of black harpoon anchors racked on deck
+      with chains as thick as an arm, the silver hexagon on the hull; under the hull, the faint violet stain spreads through the water.
+      Scale: the crane is 50 m tall.
     calm: top
     silent: true
     sfx:

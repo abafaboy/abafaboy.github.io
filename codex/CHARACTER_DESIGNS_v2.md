@@ -385,8 +385,8 @@ Recurring people get one lineup sheet (`characters_v2/neighbourhood/lineup.png`,
 | **Age and build** | An adult moth-folk, ageless; 140 cm to the top of his head, the antennae 30 cm more. A soft, round, furry body; thin dark limbs (four, like a person's) in a grey-lilac chitin #4A4256 / #2F2A38; long thin fingers, three and a thumb. |
 | **Face** | A round fluffy face; two enormous glossy black eyes with no whites and one soft highlight each (they carry every feeling: wide, narrowed, sparkling, welling up); a tiny mouth that opens very wide when he is being dramatic; no visible nose. |
 | **Fur** | Moon cream #F3EEDF / #D9CFB8: fluffy cheeks and a thick ruff round the neck like a collar; soft fur down the chest and belly. |
-| **Antennae (lock)** | Two long feathery fronds, cream with lilac tips #B9A6D6, standing up from the forehead. They swivel toward sounds, droop when he is sad, shoot straight up when he hears something. When he listens hard they glow faintly lilac; in field form they blaze. Loud places hurt them: he flattens them or covers them. |
-| **Wings (lock)** | Two pairs folded down his back to the backs of his knees like a soft cape: dusty cream scales with lilac and pale grey eye-spots. In field form they open to a 2.6 m span and the eye-spots glow lilac; rings of faint lilac signal ripple out from his antennae. |
+| **Antennae (lock)** | Two long feathery fronds, cream with lilac tips #B9A6D6, standing up from the forehead. They swivel toward sounds, droop when he is sad, shoot straight up when he hears something. When he listens hard they glow faintly lilac; in field form they blaze. Range: 200 m in rest form, 20 km in field form; anything from a gate at any range (ch 36 window). Loud places hurt them: he flattens them or covers them. |
+| **Wings (lock)** | Two pairs folded down his back to the backs of his knees like a soft cape: dusty cream scales with lilac and pale grey eye-spots. In field form they open to a 2.6 m span and the eye-spots glow lilac; rings of faint lilac signal ripple out from his antennae. They can't carry him in flight: in field form one beat turns a jump into a bound of several metres, so he goes up a tower or a mast in a few leaps. |
 | **Clothes** | A fitted lilac signal-keeper's vest #9C88C2 / #74619A with small brass buttons and a round brass mirror badge (a signal mirror, no letters) over the cream fur; coils of fine brass wire wound round both wrists like bracelets; a small satchel of brass tuning forks on a strap. |
 | **The headset (from ch 36)** | A black over-ear gaming headset with a cracked plastic band and a dead light ring, a little too big; it sits over the base of his antennae, which poke up through the gap in the band. It muffles the city. |
 | **Signature colours** | Moon cream #F3EEDF and lilac #B9A6D6 |
@@ -658,9 +658,9 @@ Colour keys are in `MANHWA_STYLE_GUIDE.md` table 5.3.
 | **The fish market** | `busan_fish_market` | 34-35, 39 | A big covered harbour fish market: rows of tanks with live fish, crabs and octopus, ice trays, red plastic tubs, wet concrete floor, fluorescent tubes, aunties in rubber aprons; at the back, the cold store's heavy insulated steel door. |
 | **The cold-store gate** | `cold_store_gate` | 35 | Behind the cold store's door, a gate slit between racks of frozen fish; inside, a flooded Far Side shrine: a sunken temple hall 25 m across with stone pillars, sea-green water knee-deep, coral on the walls, shafts of blue-green light from cracks above, a raised dais. |
 | **The Association's Busan branch** | `assoc_busan` | 37 | An old 1990s office building by the port: the branch chief's cluttered office, a wall map of the coast with pins, old trophies, a video-call screen (#00FF00), windows over the port cranes. |
-| **The hotel rooftop pool** | `hotel_pool` | 37 | A luxury hotel's rooftop infinity pool in late-afternoon sun above the harbour: white loungers, a cabana, the pool's edge running out into the sky, the city and the sea below. |
+| **The hotel rooftop pool** | `hotel_pool` | 37 | A luxury beachfront hotel's rooftop infinity pool (the Grand Harbour) in bright late-morning sun: white loungers, a cabana, the pool's edge running out into the sky, the beach directly below and the harbour along the coast. |
 | **The beach** | `busan_beach` | 37 | A broad city beach: a long crescent of pale sand, a curve of glass towers behind, calm autumn sea, a few walkers and a man with a metal detector; Bomi's drone. |
-| **Kanghan's barge** | `kanghan_barge` | 37-40 | A black-hulled crane barge anchored 2 km off the harbour over the sea gate: a tall crane, drilling rigs lowered on cables, floodlights, containers, the silver hexagon on the hull (an emblem, no letters), engineers in grey coveralls and orange life vests, troopers. |
+| **Kanghan's barge** | `kanghan_barge` | 37-40 | A black-hulled crane barge anchored 2 km off the harbour over the sea gate: a tall crane, drilling rigs hanging on cables (lowered only while drilling, ch 38), floodlights, containers, the silver hexagon on the hull (an emblem, no letters), engineers in grey coveralls and orange life vests, troopers. |
 | **The old fisherman's boat** | `fishing_boat` | 38 | A small blue-and-white wooden fishing boat, 9 m long, with a little wheelhouse with salty windows, old tyres hung along its sides as fenders, coils of rope, plastic fish crates, a smoky diesel engine. |
 | **A PC bang** | `pc_bang` | 36 | A cramped internet café: rows of gaming PCs with glowing keyboards, energy-drink cans, cup-noodle steam, a bored owner behind a counter of snacks. |
 | **Pim's tower** | `pim_tower` | 35 (seen through a rift), 36 | Inside the Call: a dark silent plain under a violet-black sky; a broken signal tower of brass and stone, its mirrors cracked, wires trailing in the wind; one small figure on top with his antennae up. |
@@ -698,7 +698,7 @@ Colour keys are in `MANHWA_STYLE_GUIDE.md` table 5.3.
    - pencil behind the RIGHT ear;
    - notebook in the LEFT chest pocket;
    - a big T patch on the back and a small one on the right chest;
-   - from Arc 5, a black coat with an orange lining.
+   - from Arc 6 (ch 41, Geum's parting gift), a black coat with an orange lining.
 2. **Nib:**
    - the husk mask over the upper left of his face;
    - field-form amber glow;

@@ -209,12 +209,12 @@ panels:
     shape: wide
     gap: long
     bg: black
-    camera: "high and wide from above the breakwater at first light: the harbour waking, the orange tent glowing at the edge of the market"
-    light: "first grey-pink light over the sea; bare bulbs in the tent"
+    camera: "high and wide from above the breakwater before dawn: the harbour waking under its lights, the orange tent glowing at the edge of the market"
+    light: "still night: the boats' deck lamps and the harbour lights; bare bulbs in the tent"
     art: >
-      High and wide at first light: the sea turns grey-pink; fishing boats start their engines in the harbour; at the edge of the fish
-      market, Geum's orange tarp tent glows with bare bulbs, steam rising from it. On the breakwater, tiny, Jaeha walks back on his own
-      feet with the summons around him. Scale: the market hall is the size of a football pitch.
+      High and wide before dawn, the sky still black over the sea: fishing boats start their engines in the harbour with their deck
+      lamps on; at the edge of the fish market, Geum's orange tarp tent glows with bare bulbs, steam rising from it. On the breakwater,
+      tiny, Jaeha walks back on his own feet with the summons around him. Scale: the market hall is the size of a football pitch.
     calm: top
     silent: true
     sfx:
@@ -414,7 +414,7 @@ panels:
     calm: all
     silent: true
     ui:
-      - {kind: system.window, "on": float, at: [0.5, 0.18], headline: "[CARRY CAPACITY]", body: "GROWS WITH SUSTAINED LOAD · PEAK LOAD HAS NO EFFECT", button: "OK"}
+      - {kind: system.window, "on": float, at: [0.5, 0.18], headline: "[CARRY CAPACITY]", body: "+4% PER HOUR HELD NEAR YOUR LIMIT · SLOWER AS IT RISES · PEAK LOAD: NO EFFECT", button: "OK"}
 
   - id: P21
     recipe: talk
@@ -533,12 +533,12 @@ panels:
     shape: wide
     gap: long
     bg: black
-    camera: "eye level, inside the orange tent: everyone squeezed along the counter with paper cups of tteokbokki, steam, the sunrise through the flap"
-    light: "bare bulbs; the pan's red glow; gold sunrise through the tent flap"
+    camera: "eye level, inside the orange tent: everyone squeezed along the counter with paper cups of tteokbokki, steam, the deep blue before sunrise through the flap"
+    light: "bare bulbs; the pan's red glow; the deep blue before sunrise through the tent flap"
     art: >
-      Inside Geum's orange tent (location geum_stall) at sunrise: Jaeha (kang_jaeha, training), Lyra (lyra) and Nib (nib, no mask) sit
+      Inside Geum's orange tent (location geum_stall) before sunrise: Jaeha (kang_jaeha, training), Lyra (lyra) and Nib (nib, no mask) sit
       squeezed along the counter on plastic stools with paper cups of red tteokbokki; Borro (borro, no husk face) sits on the ground
-      outside the flap with his head inside the tent; steam rolls off the big pan; the gold sunrise shows through the flap behind them.
+      outside the flap with his head inside the tent; steam rolls off the big pan; the deep blue of the sky before sunrise shows through the flap behind them.
     acting:
       kang_jaeha: "hunched over his cup, eating hungrily, eyes closed with relief"
       lyra: "blowing on a fish cake on a skewer, picky"
@@ -793,7 +793,7 @@ panels:
     foreground: "a dead fish on the stones, cropped, bottom"
     calm: top
     lines:
-      - {who: fishermen, type: speech, text: "THIRD DAY RUNNING, AUNTIE. THE SEA KEEPS SPITTING THEM OUT.", side: l}
+      - {who: fishermen, type: speech, text: "SECOND DAY RUNNING, AUNTIE. THE SEA KEEPS SPITTING THEM OUT.", side: l}
 
   - id: P41
     recipe: insert
@@ -957,13 +957,14 @@ panels:
     shape: wide
     gap: long
     bg: black
-    camera: "high over the shore in the afternoon: Nib and Lyra sparring in field form, Jaeha kneeling behind with the load running into him, Borro watching from the breakwater above"
-    light: "afternoon; amber and river-blue glows"
+    camera: "high over the shore at night under the lighthouse beam and one work lamp: Nib and Lyra sparring in field form, Jaeha kneeling behind with the load running into him, Borro watching from the breakwater above"
+    light: "night: a work lamp clamped to a tetrapod, the lighthouse beam sweeping over; amber and river-blue glows"
     art: >
-      High over the stony shore in the afternoon: Nib (nib, field form: amber eyes and outline) and Lyra (lyra, field form: river-blue
-      glow) spar at full speed, knife against bow-stave; behind them Jaeha (kang_jaeha, training) kneels on the stones with two thin
-      threads of light, amber and blue, running from them into his chest, teeth clenched, holding it. Geum (geum_okran) times him with a
-      cheap stopwatch. Up on the breakwater, Borro (borro, husk face, rest form) watches, eating a lettuce leaf.
+      High over the stony shore at night, under a work lamp clamped to a tetrapod and the sweep of the lighthouse beam: Nib (nib, field
+      form: amber eyes and outline) and Lyra (lyra, field form: river-blue glow) spar at full speed, knife against bow-stave; behind
+      them Jaeha (kang_jaeha, training) kneels on the stones with two thin threads of light, amber and blue, running from them into his
+      chest, teeth clenched, holding it. Geum (geum_okran) times him with a cheap stopwatch. Up on the breakwater, Borro (borro, husk
+      face, rest form) watches, eating a lettuce leaf.
     acting:
       nib: "lunging low with both knives, cloak flaring"
       lyra: "parrying with the bow-stave, laughing, braid flying"
@@ -971,8 +972,10 @@ panels:
       kang_jaeha: "kneeling, fists on his thighs, teeth clenched, a thin nosebleed, eyes open"
       geum_okran: "standing with the stopwatch up in the steel hand, eyes on him"
     calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "10:30 PM."}
     ui:
-      - {kind: system.notice_small, "on": float, at: [0.5, 0.88], text: "[CARRY · 2 SUMMONS · SUSTAINED · 09:40]"}
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.88], text: "[CARRY · 2 SUMMONS · SUSTAINED · 04:40 OF 05:00]"}
     sfx:
       - {text: "KLANG", style: impact, at: [0.40, 0.40], size: M, rot: -8}
 
@@ -1040,13 +1043,16 @@ panels:
     shape: wide
     gap: long
     bg: black
-    camera: "high and wide over the dark breakwater near midnight: the lighthouse, one fisherman's lantern at the far end, Jaeha and Nib walking back"
+    camera: "high and wide over the dark breakwater near midnight: the lighthouse, one fisherman's lantern at the far end, Jaeha and Nib walking back toward Borro and Lyra asleep halfway"
     light: "the lighthouse beam; one lantern"
     art: >
       High and wide near midnight: the breakwater lies dark under the lighthouse; at its far end one old fisherman (fishermen) sits with
-      a rod and a little lantern on the tetrapods; halfway back, Jaeha and Nib walk toward the harbour. Scale: the fisherman is a speck
-      on the tetrapods, each tetrapod as big as a car.
+      a rod and a little lantern on the tetrapods; halfway back, Jaeha and Nib walk toward the harbour, toward Borro (borro), asleep
+      against the parapet like a boulder, with Lyra (lyra) curled up asleep against his shell. Scale: the fisherman is a speck on the
+      tetrapods, each tetrapod as big as a car.
     acting:
+      lyra: "tiny, curled up against his shell, asleep"
+      borro: "a dark boulder shape against the parapet, asleep"
       fishermen: "a tiny figure hunched over a rod on the tetrapods"
     calm: top
     silent: true
@@ -1157,7 +1163,7 @@ panels:
       brine_crawler: "rearing up, claws wide, needle mouth open"
     calm: top
     lines:
-      - {who: kang_jaeha, type: inner, text: "BORRO'S ASLEEP A KILOMETRE BACK. LYRA'S SPENT. NOBODY CAN GO FIRST."}
+      - {who: kang_jaeha, type: inner, text: "BORRO'S ASLEEP FIVE HUNDRED METRES BACK. LYRA'S SPENT. NOBODY CAN GO FIRST."}
     sfx:
       - {text: "HSSSSS", style: alert, at: [0.60, 0.20], size: M, rot: 0}
 
@@ -1190,7 +1196,7 @@ panels:
       Low and wide from behind Jaeha (kang_jaeha, training) on the ground: Auntie Geum (geum_okran), short and broad in her apron and
       headscarf, stands between him and the rearing brine crawler (brine_crawler) with the long ladle raised in her RIGHT hand and her
       steel LEFT fist clenched at her side; the lighthouse beam blazes behind her; beyond the tetrapods the black sea glows violet in
-      patches, and more claws break the surface. Scale: she is half the height of the reared crawler.
+      patches, and more claws break the surface. Scale: reared up on its eel's tail, the crawler is about her height; its open claws reach her headscarf.
     acting:
       geum_okran: "feet planted wide, ladle raised like a sword, steel fist clenched, chin up"
       kang_jaeha: "on the ground behind her, looking up at her back, eyes wide"

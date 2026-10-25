@@ -45,6 +45,7 @@
 | Caldric, the Bell General | `caldric` | Heavy fighter (ch 68). "Caldric" alone in dialogue. |
 | Kett | `kett` | Young goblin scout, Nib's apprentice (ch 88) |
 | Saebyeok (SEH-byuhk) | `ahin_husks` | Not a summon: Moon Ahin's lead husk, No. 1, named "dawn" in ch 32 |
+| Haebit, Byeol, Noeul | `ahin_husks` | Not summons: three more of Moon Ahin's husks, named in ch 39 ("sunlight", "star", "sunset glow") |
 | Gomi | `gomi` | Not a summon: the fat orange stray cat that adopts the rooftop (from ch 8) |
 
 ## Monsters and summoned things
@@ -84,6 +85,8 @@
 | Busan | The sea gate (Arc 5); Auntie Geum's tteokbokki stall at the harbour (ch 33) |
 | the breakwater | Busan harbour's 1 km breakwater with the red lighthouse at its end (Arc 5) |
 | the cold-store gate | A small gate in the fish market's cold store, a flooded shrine (ch 35) |
+| the Grand Harbour | The beachfront hotel in Busan with the rooftop pool where Sora meets Jaeha (ch 37) |
+| the Northern Relay | Pim's line of signal towers on the Far Side, all fallen silent but his (ch 36) |
 | the Far Side | The dying world behind the gates |
 | the Ninth Wall | Nib's fortress: a wall with nine towers (its sigil) |
 | Ward Nine | Maud's ward |

@@ -137,7 +137,7 @@ Kang Jaeha (24) is an F-rank summoner who has survived 312 raids as bait by watc
   - Lean, 178 cm, with tired eyes and messy black hair falling over one eye.
   - A grey hoodie under an orange trap-tester vest with a white "T" patch, and fingerless gloves.
   - A battered black notebook in his chest pocket and a pencil behind his ear.
-  - Later: a black field coat from Arc 5, and the Ninth Wall blade from chapter 97.
+  - Later: a black field coat from Arc 6 (ch 41, Auntie Geum's parting gift), and the Ninth Wall blade from chapter 97.
 - **His signature: the notebook.**
   - Four years of monster patterns, trap types and every raid leader's bad habits.
   - When he is planning, he writes. When the plan is ready, he closes the notebook.

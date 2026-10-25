@@ -29,9 +29,9 @@ locations: [busan_fish_market, assoc_busan, geum_stall, busan_breakwater, kangha
 continuity:
   - "Geography: the fight is at the NECK of the breakwater, where it leaves the harbour, the same place Geum held ten years ago (ch 35): the fish market and Geum's orange tent are 200 m behind it along the harbour's edge, with a concrete pier and the sea wall in front of the market. The breakwater runs 1 km out to the red lighthouse; the sea gate is 2 km out."
   - "Jaeha: look `training` (the purple tracksuit, the towel, the bandaged LEFT forearm, the RIGHT index finger splinted with a chopstick and white tape). He bleeds from the nose from P31, and from the nose and ears from P61. The LINK lines from him are thin threads in each summon's colour; the husks' LINK lines are cyan."
-  - "The summons in field form from P17 to the end: Nib amber eyes and outline; Borro moss green; Lyra river blue; Pim lilac with his wings open 2.6 m and the headset round his neck. In a break, field form comes back after a minute, so nobody's timer matters this chapter."
+  - "The summons in field form from P17 to the end: Nib amber eyes and outline (the white bandage still round his RIGHT upper arm, ch 35); Borro moss green; Lyra river blue; Pim lilac with his wings open 2.6 m and the headset round his neck. In a break, field form comes back after a minute, so nobody's timer matters this chapter."
   - "Geum: the checked apron, the purple tracksuit, the floral headscarf, pink slippers, the steel LEFT arm, the ladle in her RIGHT hand. Her strikes ring like a bell and throw rings of white force; when she holds, the ladle's bowl glows white."
-  - "Kang Seoa (15): her school uniform (2.6), round glasses, the calculator keychain on her backpack; the market's battered red megaphone from P04. A child: never any fan service. The camera stays at her eye level or above, never below. In P52 she is lured (her eyes glazed with violet light): she walks toward the pier's edge and is pulled back; nothing worse."
+  - "Kang Seoa (15): her school uniform (2.6), round glasses, the calculator keychain on her backpack; the market's battered red megaphone from P04. A child: never any fan service. The camera stays at her eye level or above, never below. In P52 she is lured (her eyes glazed with violet light) and walks toward the pier's edge; in P55 Pim's signal wakes her and her first move is to haul a lured little boy back from the edge; nothing worse. Never a damsel."
   - "Song Yerin: her oversized off-white healer's jacket with the mint trim, the pink first-aid bag, black leggings; covered, as always. Choi: his navy and hi-vis rescue jacket; his white van with the orange light bar."
   - "Moon Ahin (from P26): her white coat-dress (2.11) with the deep V and the high slit up her LEFT side, sheer white stockings, white heeled boots, white gloves, the silver baton in her RIGHT hand, the silver ribbon bow. Fan service (adult) in battle; the camera never below her waist level. Her 28 husks are polished porcelain white with silver seams; Saebyeok (No. 1) is no different to look at."
   - "Han Sora (P44): on the barge's tilted deck in the charcoal Kanghan jacket over a black top, her crossbow, the bandaged RIGHT wrist, the slim silver compass on her LEFT wrist."
@@ -51,10 +51,10 @@ panels:
     shape: wide
     gap: none
     bg: black
-    camera: "high and wide over the harbour at dusk: sirens on poles, the sea beyond the breakwater bubbling violet, the barge listing far out"
-    light: "dusk; violet from the sea; red siren lights"
+    camera: "high and wide over the harbour at night: sirens on poles, the sea beyond the breakwater bubbling violet, the barge listing far out"
+    light: "night; violet from the sea; red siren lights"
     art: >
-      High and wide over Busan's harbour at dusk: siren horns on poles along the waterfront blare; beyond the breakwater the sea bubbles
+      High and wide over Busan's harbour at night: siren horns on poles along the waterfront blare; beyond the breakwater the sea bubbles
       and glows violet in a widening ring two kilometres out, where Kanghan's barge lists, its crane tilted; the fish market's lights
       burn at the harbour's edge. Scale: the breakwater is a 1 km thread; the barge a black chip.
     calm: top
@@ -146,10 +146,10 @@ panels:
     shape: wide
     gap: short
     bg: black
-    camera: "low on the market's flat roof: Bomi talking to her drone, the harbour and the violet sea behind her"
-    light: "dusk; violet; the drone's red light"
+    camera: "eye level on the market's flat roof: Bomi talking to her drone, the harbour and the violet sea behind her"
+    light: "night; violet; the drone's red light"
     art: >
-      Low on the market's flat roof: Yoo Bomi (yoo_bomi) talks straight into her hovering drone, pointing up the hill behind her with
+      At eye level on the market's flat roof: Yoo Bomi (yoo_bomi) talks straight into her hovering drone, pointing up the hill behind her with
       one arm; behind her the harbour and the violet sea. The camera stays above her waist level.
     acting:
       yoo_bomi: "pointing uphill with one arm, talking fast into the drone, serious for once"
@@ -626,9 +626,9 @@ panels:
       kang_jaeha: "a thin smile, blood running from his nose, eyes steady"
     calm: top
     ui:
-      - {kind: system.notice_small, "on": float, at: [0.5, 0.06], text: "[CARRY ×28 · LOAD 160%]"}
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.06], text: "[CARRY ×28 · LOAD 160% · CAPACITY 118%]"}
     lines:
-      - {who: kang_jaeha, type: inner, text: "160, NOT 240. THE ICE WORKED. IT'S STILL TOO MUCH."}
+      - {who: kang_jaeha, type: inner, text: "160, NOT 240. A WALL'S LIGHTER THAN A BRIDGE. THE ICE WORKED. STILL TOO MUCH."}
 
   - id: P32
     recipe: system
@@ -744,12 +744,13 @@ panels:
     shape: wide
     gap: short
     bg: black
-    camera: "eye level from the neck of the breakwater: the leviathan dragged to a halt 150 m off, thrashing, the chains taut back to the barge, the winches screaming"
+    camera: "eye level from the neck of the breakwater: the leviathan dragged to a halt 150 m off, thrashing, the chains taut back to the barge, which has run aground on the breakwater's tetrapods"
     light: "violet; floodlights"
     art: >
-      From the neck of the breakwater at eye level: 150 m off, the leviathan (deep_lantern) is dragged to a halt by the chains, thrashing,
-      half out of the water; the four chains run taut from her flank back to the barge, which has been towed in close behind her, its
-      winches screaming as troopers crank them; the harbour water heaves.
+      From the neck of the breakwater at eye level: 150 m off, the leviathan (deep_lantern) is dragged to a halt, thrashing, half out of
+      the water. The barge she was towing has slewed sideways into the breakwater's outer tetrapods 300 m further out and run hard
+      aground there, wedged fast, its hull tilted; the four chains run taut from her flank back to the grounded barge, and its winches
+      scream as troopers crank them. The harbour water heaves.
     acting:
       deep_lantern: "thrashing against the chains, head still under the water"
     calm: top
@@ -816,11 +817,12 @@ panels:
     shape: tall
     gap: short
     bg: black
-    camera: "low, looking up a taut chain: Nib running up it toward her flank, 30 m above the water, cloak streaming"
+    camera: "low, looking up a taut chain from the grounded barge's bow: Nib running up it toward her flank, 30 m above the water, cloak streaming"
     light: "amber streak; violet water below"
     art: >
-      Low, looking up a taut chain as thick as an arm: Nib (nib, field form) runs up it toward the leviathan's flank, 30 m above the heaving
-      violet water, his cloak streaming, an amber streak behind him.
+      Low, looking up a taut chain as thick as an arm where it leaves the bow of the grounded barge: Nib (nib, field form), who has run
+      along the tetrapods and leapt aboard, runs up the chain toward the leviathan's flank, 30 m above the heaving violet water, his
+      cloak streaming, an amber streak behind him.
     acting:
       nib: "sprinting up the chain, arms out for balance, knives in hand"
     calm: top
@@ -870,7 +872,7 @@ panels:
     light: "violet; floodlights"
     art: >
       High over the water: the last two chains whip free of the leviathan's flank and lash back across the barge's deck; troopers
-      (kanghan_tactical) dive flat; the winches spin loose; the barge rocks away.
+      (kanghan_tactical) dive flat; the winches spin loose; the grounded barge lurches on the rocks.
     acting:
       kanghan_tactical: "diving flat on the deck as the chains lash over"
     calm: top
@@ -963,9 +965,10 @@ panels:
     light: "violet rings"
     art: >
       Close on the lantern at the tip of her crest: the cage of pale coral, the core inside pulsing brighter, rings of violet light
-      washing out across the harbour.
+      washing out across the harbour; far below, the neck of the breakwater sits in the cone of shadow right under her head.
     calm: left
-    silent: true
+    lines:
+      - {who: offpanel:geum_okran, type: shout, text: "STAY CLOSE TO HER! IT'S ALWAYS DARKEST UNDER THE LAMP!"}
     sfx:
       - {text: "thoom... thoom...", style: quiet, at: [0.30, 0.70], size: S, rot: 0}
 
@@ -1025,7 +1028,7 @@ panels:
     calm: top
     lines:
       - {who: kang_jaeha, type: shout, text: "SEOA!", side: l}
-      - {who: pim, type: shout, text: "I'VE GOT HER, BOSS!", side: r}
+      - {who: pim, type: shout, text: "I'VE GOT THEM, BOSS!", side: r}
 
   - id: P54
     recipe: splash
@@ -1051,17 +1054,19 @@ panels:
     shape: wide
     gap: short
     bg: black
-    camera: "eye level on the pier's edge: Seoa blinking awake with her toes over the water, Yerin grabbing her arm and pulling her back"
+    camera: "eye level on the pier's edge: Seoa blinking awake with her toes over the water and hauling back a little boy who is still walking off the edge"
     light: "lilac washing over violet"
     art: >
-      On the pier's edge at eye level: Seoa (kang_seoa) blinks awake with the toes of her shoes over the black water; Yerin (song_yerin)
-      grabs her arm with both hands and pulls her back. The camera stays at Seoa's eye level.
+      On the pier's edge at eye level: Seoa (kang_seoa) blinks awake with the toes of her shoes over the black water, and in the same
+      moment grabs the backpack of a small boy (evacuees) beside her who is still stepping off the edge, glassy-eyed, and hauls him back
+      against her; behind them Yerin (song_yerin) comes running. The camera stays at Seoa's eye level.
     acting:
-      kang_seoa: "blinking, swaying back from the edge, clutching the megaphone"
-      song_yerin: "pulling her back by the arm with both hands, eyes squeezed shut"
+      evacuees: "a small boy, glassy-eyed, one foot over the water, yanked backwards"
+      kang_seoa: "blinking awake, one fist knotted in the boy's backpack, hauling him back, the megaphone clamped under her arm"
+      song_yerin: "running up behind them, arms out, too late to be needed"
     calm: top
     lines:
-      - {who: kang_seoa, type: speech, text: "...WHAT WAS I DOING?", side: l}
+      - {who: kang_seoa, type: speech, text: "...HEY. NO, YOU DON'T.", side: l}
     sfx:
       - {text: "yank", style: quiet, at: [0.70, 0.40], size: S, rot: 0}
 
@@ -1086,12 +1091,13 @@ panels:
     shape: inset-l
     gap: short
     bg: black
-    camera: "low on the pier: Seoa raising the megaphone again, Yerin beside her"
+    camera: "eye level on the pier: Seoa raising the megaphone again, Yerin beside her, the little boy clinging to her blazer"
     light: "lilac; violet"
     art: >
-      Low on the pier: Seoa (kang_seoa) raises the megaphone again, shaking but furious; Yerin (song_yerin) holds her other hand. The
-      camera stays at Seoa's eye level.
+      At eye level on the pier: Seoa (kang_seoa) raises the megaphone again, shaking but furious, the little boy (evacuees) clinging to
+      her blazer; Yerin (song_yerin) holds her other hand. The camera stays at Seoa's eye level.
     acting:
+      evacuees: "the little boy, awake now, clinging to her blazer, crying"
       kang_seoa: "megaphone up, shaking, furious, eyes clear"
       song_yerin: "holding Seoa's other hand, nodding hard"
     eyeline: "Seoa → the crowd"
@@ -1379,7 +1385,7 @@ panels:
     calm: top
     silent: true
     ui:
-      - {kind: system.window, "on": float, at: [0.5, 0.06], headline: "[STORE: READY]", body: "1 STRIKE · RISK: BONE DAMAGE", button: "HOLD"}
+      - {kind: system.window, "on": float, at: [0.5, 0.06], headline: "[STORE: READY]", body: "1 STRIKE · HOLD 00:30, LESS IF HEAVIER · RISK: BONE DAMAGE", button: "HOLD"}
 
   - id: P73
     recipe: anticipation
@@ -1391,14 +1397,19 @@ panels:
     art: >
       From low behind Jaeha on the cracked walkway: the Deep Lantern (deep_lantern) lifts her hand off the breakwater and raises it far
       higher than before for the next blow, fingers spread, silhouetted against her blazing violet lantern; small below it, Jaeha
-      (kang_jaeha, training) stands with his palms on Borro's back, and Geum (geum_okran) raises the ladle again.
+      (kang_jaeha, training) stands with his palms on Borro's back, and Geum (geum_okran) raises the ladle again. Far back along the
+      harbour's edge, Moon Ahin (moon_ahin) points her baton at the leviathan's flank, and twelve husks (ahin_husks) peel off the end of
+      the husk wall and sprint toward it; the rest of the wall holds the sea wall.
     acting:
+      ahin_husks: "twelve small white figures sprinting along the walkway; the rest still locked in the wall"
+      moon_ahin: "small, far back, baton pointed at the flank, already striding after them"
       deep_lantern: "raising the hand high, the lantern blazing"
       kang_jaeha: "palms on Borro's back, looking up, unmoving"
       borro: "raising the shield again"
       geum_okran: "raising the ladle again, grinning"
     calm: top
-    silent: true
+    lines:
+      - {who: moon_ahin, type: shout, text: "HE'LL WANT TO GIVE IT BACK TO HER. SAEBYEOK, TAKE ELEVEN. MAKE HIM A STAIR!", side: r}
     sfx:
       - {text: "WHOOOOOOOM", style: alert, at: [0.50, 0.20], size: XL, rot: 0}
 

@@ -21,7 +21,7 @@ continuity:
   - "Pim (2.19) exactly: 140 cm to the top of his head, the feathery cream-and-lilac antennae 30 cm more; moon-cream fur with a fluffy ruff; enormous glossy black eyes with no whites and one soft highlight; a tiny mouth that opens very wide; no nose; thin grey-lilac limbs, long fingers (three and a thumb); the lilac signal-keeper's vest with brass buttons and the round brass mirror badge; brass wire coiled round both wrists; the satchel of brass tuning forks; wings folded down his back to the backs of his knees like a soft cape. An adult officer, never a plush mascot or a baby."
   - "Pim's head: P30-P35 Geum's faded floral headscarf tied over his antennae like a bonnet, knotted under his chin, the antenna tips poking out at the top; from P37 the black over-ear gaming headset with a cracked band and a dead light ring, a little too big, his antennae poking up through the gap in the band. He carries the headscarf in his fist in P37-P38 and hands it back to Geum in P40."
   - "Pim's field form (P48-P59): the wings open to a 2.6 m span, their eye-spots glowing lilac; the antennae blaze lilac; rings of faint lilac signal ripple out from them; the headset pushed down round his neck."
-  - "Nib: seal 3/5 armour, the cracked husk mask in public; rest form. Borro: the white husk face tied on in public (the breakwater, the market); rest form. Lyra: no mask; rest form."
+  - "Nib: seal 3/5 armour, the cracked husk mask in public; rest form; the strip of towel still tied round the cut on his RIGHT upper arm (ch 35). Borro: the white husk face tied on in public (the breakwater, the market); rest form. Lyra: no mask; rest form."
   - "Auntie Geum: the checked apron over the purple tracksuit, pink slippers, the steel LEFT arm, the ladle in her RIGHT hand. Her floral headscarf comes off at P29 (she ties it on Pim): short permed grey hair bare P30-P40; she wears it again from P41."
   - "Han Sora (P34-P35, in the black car on the harbour road as in ch 34): the charcoal Kanghan jacket open over a low black top, her black bob, red lips; the bandage round her RIGHT wrist; the slim silver compass on a fine chain round her LEFT wrist. Lit by the dashboard. Fan service is fine (an adult); the camera stays at or above her shoulder level in the car."
   - "The PC bang owner (pc_bang_owner, 2.20): a sleepy man in his thirties in a grey hoodie and slippers, an unlit cigarette behind his ear; he chases Pim with a broom."
@@ -53,7 +53,7 @@ panels:
       kang_jaeha: "leaning back from him, hands half raised, a sweat drop, eyebrows up"
     calm: bottom
     ui:
-      - {kind: system.notice_small, "on": float, at: [0.5, 0.9], text: "[CALL OPEN · 00:57]"}
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.9], text: "[LISTENER · NOT ANSWERED · 00:57]"}
     lines:
       - {who: pim, type: shout, text: "YOU CALLED! YOU ACTUALLY CALLED! I HEARD YOUR MARK GO TING!", side: r}
     sfx:
@@ -299,6 +299,7 @@ panels:
     foreground: "Pim's antenna tip, cropped, right"
     calm: top
     lines:
+      - {who: kang_jaeha, type: inner, text: "HE'S TALKING, BUT HE NEVER ANSWERED. THE CLOCK WON'T HOLD FOR HIM."}
       - {who: kang_jaeha, type: speech, text: "PIM. WE HAVE TWENTY-FIVE SECONDS. WHAT DO YOU WANT?", side: l}
 
   - id: P15
@@ -555,11 +556,12 @@ panels:
     shape: wide
     gap: short
     bg: black
-    camera: "close two-shot from above: Pim flat on his back, Lyra crouching beside him, delighted"
+    camera: "close two-shot, side-on at Lyra's eye level: Pim flat on his back, Lyra crouching beside him, delighted"
     light: "the lighthouse beam"
     art: >
-      From above: Pim (pim) lies flat on his back on the concrete with his hands over his antennae and his wings spread under him; Lyra
-      (lyra) crouches beside him at his head, delighted, chin on her hand. The camera is above her shoulders.
+      Side-on at Lyra's eye level: Pim (pim) lies flat on his back on the concrete with his hands over his antennae and his wings spread
+      under him; Lyra (lyra) crouches beside his head, delighted, chin on her hand. The camera stays at her eye level, framing her from
+      the side.
     acting:
       pim: "flat on his back, hands over his antennae, eyes spinning, mouth wide"
       lyra: "crouching, chin on her hand, smiling down at him, eyes shining"
@@ -644,7 +646,7 @@ panels:
     calm: top
     silent: true
     ui:
-      - {kind: system.log, "on": float, at: [0.5, 0.04], headline: "[SUMMON NO. 4: PIM]", lines: ["SIGNAL KEEPER · SEAL 1/5", "FIELD FORM 06:00", "REST FORM: HEARS SIGNALS NEARBY", "FIELD FORM: HEARS A CITY · SENDS A SIGNAL"]}
+      - {kind: system.log, "on": float, at: [0.5, 0.04], headline: "[SUMMON NO. 4: PIM]", lines: ["SIGNAL KEEPER · SEAL 1/5", "FIELD FORM 06:00", "REST FORM: HEARS 200 M", "FIELD FORM: HEARS 20 KM · SENDS A SIGNAL", "GATE SIGNALS: ANY RANGE, ANY FORM"]}
 
   - id: P33
     recipe: talk
@@ -831,9 +833,9 @@ panels:
         messages:
           - {from: me, text: "we have a no. 4", time: "05:31"}
           - {from: them, text: "ANOTHER MOUTH??", time: "05:31"}
-          - {from: me, text: "he eats lettuce and watches dramas", time: "05:32"}
+          - {from: me, text: "he eats lettuce and watches dramas. also needed a headset. 40,000", time: "05:32"}
           - {from: them, text: "dramas are free. fine", time: "05:32"}
-          - {from: them, text: "why is there a 40,000 won headset in the budget", time: "05:33"}
+          - {from: them, text: "40,000 IS TWENTY KIMBAPS", time: "05:33"}
 
   - id: P42
     recipe: chibi
