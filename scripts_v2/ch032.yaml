@@ -1,0 +1,1111 @@
+chapter: 32
+title: Buried
+format: SCRIPT_FORMAT_v2.md
+when: "Friday: under the bridge from 2:55 AM to dawn; the Hunter Association at 9 AM; Kanghan Tower at about 2 PM; the 4 PM news in the Gate Rescue break room; the columbarium at 5:40 PM; Baek's call at dusk; the rooftop at 6:58 PM."
+story_beats: ARC3_4_BEATS.md#32-buried
+cast:
+  kang_jaeha: crew           # P01-P20; from P29 the grey hoodie (hoodie)
+  nib: mask
+  borro: default
+  lyra: default
+  song_yerin: default
+  yoo_bomi: default
+  choi_dongmin: default
+  kang_seoa: default         # voice on the phone only (P07)
+  moon_ahin: default         # muddy (P01-P15); a fresh white coat-dress, hair loose, from P38
+  ahin_husks: default        # 28 and No. 1
+  crew_pyo: default
+  crew_dami: default
+  crew_woo: default
+  crew_ho: default
+  kanghan_guard: default
+  gate_rescue: default       # generic Gate Rescue Corps responders, see continuity
+  police: default
+  inspector_ryu: default
+  deputy_hwang: default      # generic, new: the Association's deputy director, see continuity
+  baek_taegun: default
+  han_sora: kanghan          # on the phone (P53-P58)
+locations: [hanriver_gate, assoc_lobby, gate_rescue_room, kanghan_office, columbarium, sora_car]
+continuity:
+  - "Jaeha: the crew kit, filthy with mud and blood, until P20; Yerin's healing closes the cuts and the bruises fade, but his hands go on shaking all chapter (show a faint tremor line on his fingers in every panel where his hands are visible). From P29 the grey hoodie, clean, the plaster on his cheek."
+  - "Gate Rescue Corps responders (generic): Choi's navy and hi-vis yellow-green rescue jackets, gold foil blankets, white vans with orange light bars. Police: navy uniforms, fluorescent yellow-green vests."
+  - "Moon Ahin: mud-caked white coat-dress, the silver ribbon lost, hair loose and tangled, until P15. From P38: a fresh white coat-dress of the same cut, white gloves, the baton, but no ribbon, her long black hair loose, a small bandage on the back of her LEFT hand."
+  - "No. 1 is named Saebyeok ('dawn') at P16; it looks no different."
+  - "Deputy Director Hwang (generic, new): the Association's deputy director, 60, silver hair, a soft smiling face, rimless glasses, an Association grey suit; on the underside of his lapel, seen only when it flips over, a small silver hexagon-in-a-hexagon pin."
+  - "The Gate Rescue break room (new location gate_rescue_room): a cramped room in the Gate Rescue Corps station, vending machine, folding chairs, a wall TV, foil blankets everywhere."
+  - "Baek's office (kanghan_office) in the afternoon: the glass wall over Seoul in hard daylight, the blinds up, the violet core in its case."
+  - "Sora's car (new location sora_car): the driver's seat of a black sports car parked on a dark Han River overpass at dusk, the river and the bridges below; Sora with a fresh bandage round her right wrist."
+plants:
+  - "PLANT P11-P13: Choi's USB copy hidden in a kimbap box (Arc 5)."
+  - "PLANT P19, P25-P26: Deputy Director Hwang wears Kanghan's pin under his lapel (Arc 5)."
+  - "PLANT P27-P29: the video is held back from going public until it can stick (Arc 5)."
+  - "PLANT P05, P31-P32, P55: Jaeha's hands won't stop shaking (ch 33)."
+  - "PLANT P36-P42: 'Do you want the hospitals dark, Ahin?' Not yet a break (Arc 5)."
+  - "PLANT P57-P59: 'Make him come to us.' (Arc 5)"
+hook_type: threat
+
+panels:
+
+  # ================= DAWN (P01-P17) =================
+  - id: P01
+    recipe: impact
+    shape: tall
+    gap: none
+    bg: black
+    camera: "low, from the mud: the enclosure's fence gate bursting open as a white Gate Rescue van smashes through it, orange light bar blazing, guards scattering"
+    light: "orange light bars; floodlights; torch beams"
+    art: >
+      From low in the mud under the bridge (location hanriver_gate): the enclosure's chained fence gate bursts open as a white Gate Rescue van
+      smashes through it, orange light bar blazing, black tarps tearing; the Kanghan guards (kanghan_guard) scatter; behind it come police
+      cars, lights flashing.
+    acting:
+      kanghan_guard: "scattering out of the van's path, torches flying"
+    calm: top
+    sfx:
+      - {text: "KRASSSH", style: impact, at: [0.50, 0.30], size: XL, rot: -6}
+      - {text: "WEEOOO", style: alert, at: [0.80, 0.20], size: M, rot: 0}
+
+  - id: P02
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: Choi leaping out of the van's door with a megaphone, his rescue jacket flapping"
+    light: "orange light bar; floodlights"
+    art: >
+      Choi (choi_dongmin) leaps out of the van's door with a megaphone, his rescue jacket flapping; Gate Rescue responders (gate_rescue) pile out
+      behind him with stretchers and foil blankets.
+    acting:
+      choi_dongmin: "leaping down from the van, megaphone up, pointing at the guards"
+      gate_rescue: "piling out with stretchers and blankets"
+    eyeline: "Choi → the guards"
+    foreground: "the van's open door, cropped, left"
+    calm: top
+    lines:
+      - {who: choi_dongmin, type: shout, text: "GATE RESCUE CORPS! THIS IS AN UNREGISTERED GATE, SO BY LAW IT'S MINE! NOBODY MOVES!", side: l}
+
+  - id: P03
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on two Kanghan guards looking at each other, then slowly lowering their batons"
+    light: "orange light bar"
+    art: >
+      Close on two Kanghan guards (kanghan_guard) looking at each other, then slowly lowering their batons.
+    acting:
+      kanghan_guard: "two guards glancing at each other, lowering their batons"
+    calm: left
+    silent: true
+    sfx:
+      - {text: "...", style: quiet, at: [0.30, 0.30], size: S, rot: 0}
+
+  - id: P04
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level across the mud: Yerin sprinting past the van with her first-aid bag, Bomi behind her with the drone, both making for the heap of bodies"
+    light: "floodlights"
+    art: >
+      Across the mud: Yerin (song_yerin) sprints past the van with her first-aid bag bouncing, Bomi (yoo_bomi) behind her with the drone tucked
+      under her arm, both making for the heap of mud-caked bodies by the pier.
+    acting:
+      song_yerin: "sprinting, the bag bouncing, face crumpling with relief"
+      yoo_bomi: "sprinting, the drone under her arm, shouting names"
+    calm: top
+    sfx:
+      - {text: "SPLASH SPLASH", style: impact, at: [0.70, 0.80], size: M, rot: 0}
+
+  - id: P05
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close: Yerin on her knees beside Jaeha in the mud, her hands over his chest glowing green"
+    light: "a soft green healing glow; floodlights"
+    face: private
+    art: >
+      Close and low: Yerin (song_yerin) kneels beside Jaeha (kang_jaeha) in the mud with both hands over his chest, glowing soft green; the cuts
+      on his face close; the bruises fade; his hands, lying on the mud, keep shaking.
+    acting:
+      song_yerin: "hands glowing over his chest, crying and concentrating at once"
+      kang_jaeha: "lying in the mud, looking up at her, his hands trembling on the ground"
+    eyeline: "Yerin → his hands; Jaeha → Yerin"
+    foreground: "his shaking hand in the mud, cropped, bottom"
+    calm: top
+    lines:
+      - {who: song_yerin, type: speech, text: "THE CUTS ARE CLOSING. BUT WHY WON'T YOUR HANDS STOP SHAKING?", side: l}
+      - {who: kang_jaeha, type: speech, text: "THEY WILL. CAN YOU HOLD MY PHONE FOR ME?", side: r}
+
+  - id: P06
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Yerin's hand holding the muddy phone to Jaeha's ear"
+    light: "the screen glow"
+    art: >
+      Close on Yerin's hand holding the muddy phone to Jaeha's ear; his trembling fingers rest on her wrist.
+    calm: right
+    silent: true
+    sfx:
+      - {text: "brrr... klik", style: quiet, at: [0.40, 0.30], size: S, rot: 0}
+
+  - id: P07
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close on Jaeha's face with the phone at his ear, eyes closed, smiling"
+    light: "floodlights; green fading"
+    face: private
+    art: >
+      Close and low on Jaeha's face (kang_jaeha), the phone at his ear, his eyes closed, smiling.
+    acting:
+      kang_jaeha: "eyes closed, smiling, tears cutting through the mud on his cheeks"
+    eyeline: "Jaeha → nowhere"
+    foreground: "the phone and Yerin's hand, cropped, right"
+    calm: top
+    lines:
+      - {who: kang_seoa, type: phone, text: "WHAT IS 'O'? YOU SENT ME 'O' AND THEN NOTHING! ARE YOU ALIVE?", side: r}
+      - {who: kang_jaeha, type: speech, text: "I'M ALIVE. I'LL BE HOME FOR DINNER. SEVEN O'CLOCK.", side: l}
+    sfx:
+      - {text: "!!!", style: comic, at: [0.85, 0.20], size: M, rot: 6}
+
+  - id: P08
+    recipe: establish
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high, over the enclosure: responders wrapping the crew in gold foil blankets, police taping off the closed steel plate in the pier, Moon Ahin's muddy husks standing in rows"
+    light: "floodlights; orange and blue lights"
+    art: >
+      High over the enclosure: Gate Rescue responders (gate_rescue) wrap the crew in gold foil blankets; police (police) tape off the closed steel
+      plate in pier 7's shadow; Moon Ahin's muddy husks (ahin_husks) stand in two rows by the water; the summons sit together by Borro.
+    acting:
+      gate_rescue: "wrapping foil blankets round the crew"
+      police: "stretching tape across the pier"
+      ahin_husks: "standing in two muddy rows"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "krinkle krinkle", style: quiet, at: [0.30, 0.70], size: S, rot: 0}
+
+  - id: P09
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, two-shot: Uncle Pyo in a foil blanket gripping Jaeha's shaking hand in both of his"
+    light: "floodlights"
+    face: private
+    art: >
+      Two-shot: Uncle Pyo (crew_pyo), wrapped in a foil blanket, grips Jaeha's shaking hand (kang_jaeha) in both of his.
+    acting:
+      crew_pyo: "gripping Jaeha's hand in both of his, eyes wet, nodding"
+      kang_jaeha: "sitting up in his own foil blanket, letting him"
+    eyeline: "Pyo ↔ Jaeha"
+    foreground: "the gold foil blanket, cropped, bottom"
+    calm: top
+    lines:
+      - {who: crew_pyo, type: speech, text: "TWENTY YEARS. FIRST TIME I EVER CAME OUT OF A GATE AS A PERSON.", side: l}
+
+  - id: P10
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low two-shot: Moon Ahin, mud to the knees, holding out her phone to Choi, Choi looking at it and then at her"
+    light: "floodlights"
+    art: >
+      Low two-shot: Moon Ahin (moon_ahin), mud to the knees, holds out her phone to Choi (choi_dongmin); he looks at it, then at her.
+    acting:
+      moon_ahin: "holding out the phone in a muddy glove, chin up"
+      choi_dongmin: "looking at the phone, then at her, coffee in his other hand"
+    eyeline: "Moon Ahin ↔ Choi"
+    foreground: "the muddy phone, cropped, centre"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: speech, text: "GIVE THIS TO THE ASSOCIATION. MY FACE IS ON IT. THEY CAN'T BURY MY FACE.", side: l}
+      - {who: choi_dongmin, type: speech, text: "...WATCH THEM TRY, MISS.", side: r}
+
+  - id: P11
+    recipe: establish
+    shape: wide
+    gap: short
+    bg: black
+    camera: "inside the Gate Rescue van, eye level: Choi alone at a fold-down desk, the muddy phone plugged into an old laptop, a progress bar"
+    light: "the laptop screen; the van's interior light"
+    art: >
+      Inside the Gate Rescue van: Choi (choi_dongmin) sits alone at a fold-down desk with the muddy phone plugged into an old laptop and an old
+      black USB stick plugged into the other side; on the laptop, a progress bar, flat green.
+    acting:
+      choi_dongmin: "hunched over the laptop, one eye on the van's door"
+    calm: top
+    silent: true
+    ui:
+      - {kind: phone.info_card, "on": screen, title: "COPYING", text: "MOON_AHIN_SITE7.MP4 · 100%"}
+
+  - id: P12
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Choi's hands tucking the USB stick between two rolls of kimbap in a foil-lined box"
+    light: "the van's light"
+    art: >
+      Close on Choi's hands tucking the USB stick between two rolls of kimbap in a foil-lined takeaway box and closing the lid.
+    calm: left
+    silent: true
+    sfx:
+      - {text: "tuck", style: quiet, at: [0.40, 0.40], size: S, rot: 0}
+
+  - id: P13
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close on Choi sliding the kimbap box under the van's seat, talking to himself"
+    light: "the van's light"
+    art: >
+      Close and low on Choi (choi_dongmin) sliding the kimbap box under the van's seat with his foot, talking to himself.
+    acting:
+      choi_dongmin: "pushing the box under the seat with his foot, sour half-smile"
+    eyeline: "Choi → the box"
+    foreground: "the kimbap box under the seat, cropped, bottom"
+    calm: top
+    lines:
+      - {who: choi_dongmin, type: speech, text: "NOBODY IN THIS COUNTRY HAS EVER STOLEN A MAN'S KIMBAP.", side: l}
+    sfx:
+      - {text: "SHOVE", style: comic, at: [0.70, 0.70], size: S, rot: -6}
+
+  - id: P14
+    recipe: establish
+    shape: full
+    gap: long
+    bg: black
+    camera: "high, over the riverbank at dawn: everyone sitting in a row on the bank in gold foil blankets, the sky turning pink over the river, the bridge above"
+    light: "key: the first pink dawn over the river; the bridge lights going out one by one"
+    art: >
+      High over the riverbank at dawn: everyone sits in a long row on the bank in gold foil blankets, facing the water: the crew, Bomi (yoo_bomi),
+      Yerin (song_yerin), Choi (choi_dongmin), the three summons, Moon Ahin (moon_ahin) and Jaeha (kang_jaeha); behind them, the husks stand in two
+      rows; the sky turns pink over the Han River; above, the bridge's orange lights go out one by one.
+    acting:
+      kang_jaeha: "sitting with his knees up, the blanket round his shoulders, watching the sky"
+      moon_ahin: "sitting a little apart, knees drawn up, watching the husks"
+      yoo_bomi: "leaning her head on Yerin's shoulder, asleep"
+      song_yerin: "sitting very straight, holding Bomi up"
+      choi_dongmin: "sitting with a coffee, eyes closed"
+      borro: "sitting with his cracked shield across his knees"
+      nib: "sitting on Borro's shell"
+      lyra: "lying flat on her back on the grass, arms spread"
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "6:12 AM."}
+      - {who: kang_jaeha, type: inner, text: "Everyone came back. Every single one."}
+
+  - id: P15
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, two-shot on the bank: Moon Ahin sliding along to sit beside Jaeha, both in foil blankets, looking at No. 1 standing at the water's edge"
+    light: "pink dawn"
+    face: private
+    art: >
+      Two-shot on the bank: Moon Ahin (moon_ahin) slides along to sit beside Jaeha (kang_jaeha), both in foil blankets; they look at No. 1
+      (ahin_husks), standing alone at the water's edge facing the sunrise.
+    acting:
+      moon_ahin: "sitting beside him, hugging her knees, eyes on No. 1"
+      kang_jaeha: "turning his head to her"
+      ahin_husks: "No. 1 standing at the water's edge, facing the dawn"
+    eyeline: "Moon Ahin → No. 1; Jaeha → Moon Ahin"
+    foreground: "the foil blanket's crinkled edge, cropped, bottom"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: speech, text: "WHAT DO YOU NAME SOMETHING YOU DON'T WANT TO LOSE?", side: l}
+      - {who: kang_jaeha, type: speech, text: "WHATEVER IT ALREADY IS. YOU JUST HAVE TO NOTICE.", side: r}
+
+  - id: P16
+    recipe: talk
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, behind Moon Ahin: her looking at the husk at the water's edge against the rising sun, her loose hair lifting in the river wind"
+    light: "the rising sun behind the husk"
+    art: >
+      From low behind Moon Ahin (moon_ahin): she looks at No. 1 (ahin_husks) at the water's edge, a white silhouette against the rising sun; her
+      loose hair lifts in the river wind.
+    acting:
+      moon_ahin: "looking at the husk, a small, unguarded smile"
+      ahin_husks: "No. 1 standing against the sunrise"
+    foreground: "her foil blanket slipping off one shoulder, cropped, bottom left"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: speech, text: "...SAEBYEOK. HIS NAME IS SAEBYEOK.", side: l}
+
+  - id: P17
+    kind: title
+    shape: full
+    gap: long
+    bg: black
+    title_card: "MY SUMMONS GO FIRST · CHAPTER 32 · BURIED"
+    notes: "Title card at panel 17 of 60 (28%)."
+
+  # ================= BURIED (P18-P35) =================
+  - id: P18
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: white
+    camera: "eye level in the Hunter Association lobby: Choi in a clean jacket handing a sealed evidence bag to Inspector Ryu at the security desk"
+    light: "bright morning through the lobby glass"
+    art: >
+      The Hunter Association lobby (location assoc_lobby) at 9 AM: Choi (choi_dongmin), in a clean jacket, hands a sealed evidence bag with the
+      phone in it to Inspector Ryu (inspector_ryu) at the security desk.
+    acting:
+      choi_dongmin: "handing over the bag, holding on to it a second too long"
+      inspector_ryu: "taking the bag with both hands, tired, serious"
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "HUNTER ASSOCIATION. 9 AM."}
+      - {who: inspector_ryu, type: speech, text: "I'LL LOG IT MYSELF. IT WON'T LEAVE MY HANDS.", side: r}
+
+  - id: P19
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, from the lobby floor: a soft-faced older man in an Association grey suit stepping between them and holding out his hand for the bag, smiling"
+    light: "bright morning"
+    art: >
+      From low on the lobby floor: a soft-faced older man in an Association grey suit, silver hair, rimless glasses, Deputy Director Hwang
+      (deputy_hwang), steps between them and holds out his hand for the bag, smiling.
+    acting:
+      deputy_hwang: "holding out his hand, smiling warmly, head tilted"
+      inspector_ryu: "hesitating, the bag held against his chest"
+    eyeline: "Hwang → Ryu"
+    foreground: "the evidence bag, cropped, bottom"
+    calm: top
+    lines:
+      - {who: deputy_hwang, type: speech, text: "A MATTER THIS SENSITIVE GOES STRAIGHT TO MY OFFICE, INSPECTOR. THANK YOU.", side: l}
+
+  - id: P20
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Ryu's hands releasing the bag, his face behind them unhappy"
+    light: "bright morning"
+    art: >
+      Close on Ryu's hands (inspector_ryu) releasing the evidence bag into Hwang's; his face behind them is unhappy.
+    acting:
+      inspector_ryu: "letting go of the bag, mouth tight, eyes down"
+    calm: left
+    silent: true
+    sfx:
+      - {text: "...", style: quiet, at: [0.30, 0.30], size: S, rot: 0}
+
+  - id: P21
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: white
+    camera: "eye level in a cramped Gate Rescue break room: everyone crowded on folding chairs in front of a wall TV, foil blankets and vending-machine coffee everywhere"
+    light: "afternoon through a small window; the TV glow"
+    art: >
+      That afternoon, in the cramped Gate Rescue break room (location gate_rescue_room): everyone crowds on folding chairs in front of the wall TV:
+      the four crew, Bomi (yoo_bomi), Yerin (song_yerin), Choi (choi_dongmin), Jaeha (kang_jaeha) in a clean hoodie, Moon Ahin's husks lined up
+      along one wall; the summons squeezed into a corner. The TV screen is flat green.
+    acting:
+      kang_jaeha: "sitting forward, a paper cup of coffee in both shaking hands"
+      yoo_bomi: "on the edge of her chair, laptop on her knees"
+      song_yerin: "hands clasped, watching"
+      choi_dongmin: "arms folded, scowling at the TV"
+      crew_pyo: "sitting very still"
+      borro: "squeezed into the corner, his head bowed under the ceiling"
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "THAT AFTERNOON. 4 PM."}
+    ui:
+      - {kind: tv.lowerthird, "on": screen, text: "ASSOCIATION REVIEWS KANGHAN CLAIMS", ticker: "PRESS CONFERENCE LIVE FROM ASSOCIATION HEADQUARTERS"}
+
+  - id: P22
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "news footage, eye level: Deputy Director Hwang at a podium with the Association seal behind him, smiling sorrowfully"
+    light: "press-room light"
+    art: >
+      News footage, drawn as a TV image: Deputy Director Hwang (deputy_hwang) at a podium with the Association's seal behind him, smiling
+      sorrowfully into the cameras. Keep the bottom fifth calm for the lower third.
+    acting:
+      deputy_hwang: "both hands on the podium, a sorrowful smile, head shaking slightly"
+    eyeline: "Hwang → the cameras"
+    foreground: "microphones on the podium, cropped, bottom"
+    calm: top
+    lines:
+      - {who: deputy_hwang, type: phone, text: "AFTER CAREFUL REVIEW, THE FOOTAGE IS INCONCLUSIVE. IT MAY HAVE BEEN STAGED.", side: l}
+      - {who: deputy_hwang, type: phone, text: "THE WITNESSES ARE UNREGISTERED DAY LABOURERS. THEIR TESTIMONY IS UNRELIABLE.", side: l}
+    ui:
+      - {kind: tv.lowerthird, "on": panel, text: "ASSOCIATION: 'INSUFFICIENT EVIDENCE' AGAINST KANGHAN"}
+
+  - id: P23
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level along the folding chairs: the crew taking it, Ho throwing his paper cup at the wall, Dami covering her face"
+    light: "the TV glow"
+    art: >
+      Along the folding chairs: Ho (crew_ho) throws his paper cup at the wall; Dami (crew_dami) covers her face; Woo (crew_woo) grips his
+      brother's arm; Uncle Pyo (crew_pyo) doesn't move at all.
+    acting:
+      crew_ho: "throwing the paper cup, face twisted"
+      crew_dami: "covering her face with both hands"
+      crew_woo: "gripping Ho's arm"
+      crew_pyo: "motionless, staring at the screen"
+    calm: top
+    lines:
+      - {who: crew_pyo, type: speech, text: "UNRELIABLE. TWENTY YEARS, AND THAT'S THE WORD.", side: l}
+    sfx:
+      - {text: "SPLAT", style: impact, at: [0.70, 0.30], size: M, rot: 6}
+
+  - id: P24
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: white
+    camera: "extreme close-up of Jaeha's eyes on the TV, narrowing"
+    light: "the TV glow"
+    face: private
+    art: >
+      Extreme close-up of Jaeha's eyes (kang_jaeha) on the TV screen, narrowing, the small image of the podium reflected in them. Fill the canvas
+      edge to edge.
+    acting:
+      kang_jaeha: "eyes narrowing, focused"
+    calm: none
+    silent: true
+
+  - id: P25
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: white
+    camera: "news footage, close: Hwang turning from the podium, his lapel flipping over for an instant, a small silver hexagon pin on its underside"
+    light: "press-room light"
+    art: >
+      News footage, close: as Hwang turns away from the podium, his jacket's lapel flips over for an instant, and on its underside is a small
+      silver hexagon-in-a-hexagon pin.
+    calm: top
+    silent: true
+
+  - id: P26
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, close two-shot in the break room: Jaeha pointing at the frozen TV, Choi leaning in to look"
+    light: "the TV glow"
+    face: private
+    art: >
+      Close and low in the break room: Jaeha (kang_jaeha) points at the TV, where Bomi has paused it on the flipped lapel; Choi (choi_dongmin)
+      leans in to look.
+    acting:
+      kang_jaeha: "pointing at the screen, his finger trembling"
+      choi_dongmin: "leaning in, squinting, coffee stopped halfway"
+    eyeline: "both → the TV"
+    foreground: "Bomi's laptop with the paused frame, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "UNDER HIS LAPEL, SIR. THE SAME HEXAGON AS THE TANKS.", side: r}
+      - {who: choi_dongmin, type: speech, text: "THE DEPUTY DIRECTOR. OF COURSE IT IS.", side: l}
+
+  - id: P27
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level: Bomi jumping up with her laptop held out, fierce"
+    light: "the TV glow"
+    art: >
+      Bomi (yoo_bomi) jumps up with her laptop held out, fierce.
+    acting:
+      yoo_bomi: "jumping up, the laptop held out in both hands, eyes blazing"
+    eyeline: "Bomi → Jaeha"
+    foreground: "a folding chair's back, cropped, bottom left"
+    calm: top
+    lines:
+      - {who: yoo_bomi, type: shout, text: "THEN LET ME POST THE VIDEO! ONE MILLION SUBSCRIBERS! LET THEM BURY THAT!", side: l}
+    sfx:
+      - {text: "SKREEK", style: comic, at: [0.70, 0.80], size: S, rot: 0}
+
+  - id: P28
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low two-shot: Jaeha shaking his head gently, looking at Moon Ahin's husks along the wall"
+    light: "the TV glow"
+    face: private
+    art: >
+      Low two-shot: Jaeha (kang_jaeha) shakes his head gently at Bomi (yoo_bomi), looking past her at Moon Ahin's husks lined up along the wall.
+    acting:
+      kang_jaeha: "shaking his head, eyes on the husks"
+      yoo_bomi: "lowering the laptop, frustrated"
+    eyeline: "Jaeha → the husks; Bomi → Jaeha"
+    foreground: "the row of muddy husks, cropped, right"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "TONIGHT THEY'D CALL IT FAKE, AND SUE THE ONE PERSON WHOSE FACE IS IN IT.", side: r}
+      - {who: kang_jaeha, type: speech, text: "WHEN IT COMES OUT, IT HAS TO STICK. NOT YET.", side: r}
+
+  - id: P29
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on Choi patting the kimbap box on his knee"
+    light: "the TV glow"
+    art: >
+      Close on Choi (choi_dongmin) patting a foil-lined kimbap box on his knee.
+    acting:
+      choi_dongmin: "patting the box twice, a tired, sly smile"
+    eyeline: "Choi → Bomi"
+    foreground: "Bomi's laptop, cropped, right"
+    calm: right
+    lines:
+      - {who: choi_dongmin, type: speech, text: "WHEN THE TIME COMES, IT'S RIGHT HERE. WITH THE TUNA ONES.", side: l}
+
+  - id: P30
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Lyra in the corner, hearing the word 'tuna' and looking up hopefully"
+    light: "the TV glow"
+    art: >
+      Close on Lyra (lyra) squeezed into the corner, hearing the word 'tuna' and looking up hopefully.
+    acting:
+      lyra: "head popping up, eyes hopeful"
+    calm: left
+    lines:
+      - {who: lyra, type: speech, text: "...IS IT FOR SHARING?", side: r}
+    sfx:
+      - {text: "PERK", style: comic, at: [0.30, 0.20], size: S, rot: 0}
+
+  - id: P31
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: white
+    camera: "close on Jaeha's hands round the paper cup, the coffee trembling, a drop slopping over the rim onto his knee"
+    light: "the TV glow"
+    art: >
+      Close on Jaeha's hands round the paper cup: the coffee trembles in rings, and a drop slops over the rim onto his knee.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "tremble", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P32
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on Yerin watching his hands, worried, saying nothing"
+    light: "the TV glow"
+    art: >
+      Close on Yerin (song_yerin) watching his hands, worried, saying nothing.
+    acting:
+      song_yerin: "watching his hands, lips pressed together, brows drawn"
+    calm: right
+    silent: true
+
+  # ================= THE UNCLE (P33-P47) =================
+  - id: P33
+    recipe: establish
+    shape: tall
+    gap: long
+    bg: white
+    camera: "low, in a long corridor at the top of Kanghan Tower: Moon Ahin striding toward the camera past bowing secretaries, a fresh white coat-dress, hair loose, no ribbon"
+    light: "hard afternoon daylight through glass"
+    art: >
+      Earlier that afternoon, in a long glass corridor at the top of Kanghan Tower: Moon Ahin (moon_ahin) strides toward the camera past bowing
+      secretaries, in a fresh white coat-dress of the same cut, the slit opening with each step, white gloves, the baton in her RIGHT hand; no
+      ribbon now, her long black hair loose; a small bandage on the back of her LEFT hand. A glamour panel, the whole figure, and furious.
+    acting:
+      moon_ahin: "striding, baton swinging, hair loose, eyes cold and furious"
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "KANGHAN TOWER. EARLIER THAT AFTERNOON."}
+    sfx:
+      - {text: "TAK TAK TAK", style: quiet, at: [0.50, 0.86], size: S, rot: 0}
+
+  - id: P34
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level in Baek's office: Baek turning from the glass wall over Seoul, both hands on his cane, as Moon Ahin comes through the door"
+    light: "hard daylight from the glass wall; the violet core glowing in its case"
+    art: >
+      In Director Baek's office (location kanghan_office), in hard daylight: Baek Taegun (baek_taegun) turns from the glass wall over Seoul, both
+      hands on his cane, as Moon Ahin (moon_ahin) comes through the door; the violet core glows in its case between them.
+    acting:
+      baek_taegun: "turning slowly, both hands on the cane, the faint polite smile"
+      moon_ahin: "stopping inside the door, baton at her side"
+    eyeline: "Baek ↔ Moon Ahin"
+    foreground: "the glass case and the violet core, cropped, bottom"
+    calm: top
+    lines:
+      - {who: baek_taegun, type: speech, text: "AHIN. YOU'RE NOT HURT? YOUR MOTHER WAS WORRIED SICK.", side: l}
+
+  - id: P35
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, close on Moon Ahin, speaking very quietly"
+    light: "hard daylight"
+    art: >
+      Close and low on Moon Ahin (moon_ahin), speaking very quietly.
+    acting:
+      moon_ahin: "very still, voice quiet, eyes fixed on him"
+    eyeline: "Moon Ahin → Baek"
+    foreground: "the violet glow of the core, cropped, left"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: speech, text: "YOU KNEW. THE GIANT. THE PIPES. GRANDFATHER'S SEAL ON THE GLASS.", side: l}
+
+  - id: P36
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level, two-shot across the office: Baek walking slowly to the glass case and resting his gloved hand on it"
+    light: "hard daylight; violet"
+    art: >
+      Two-shot across the office: Baek (baek_taegun) walks slowly to the glass case and rests his gloved hand on it, looking at the core inside, not
+      at her.
+    acting:
+      baek_taegun: "resting a gloved hand on the glass case, looking at the core, gentle"
+      moon_ahin: "watching him, baton tight in her fist"
+    eyeline: "Baek → the core; Moon Ahin → Baek"
+    foreground: "the cane leaning against the case, cropped, bottom"
+    calm: top
+    lines:
+      - {who: baek_taegun, type: speech, text: "HALF OF SEOUL'S HOSPITALS RUN ON OUR CORES. THE INCUBATORS. THE DIALYSIS MACHINES. THE RESPIRATORS.", side: l}
+
+  - id: P37
+    recipe: talk
+    shape: tall
+    gap: short
+    bg: white
+    camera: "low, past the glowing core: Baek turning his head to look at her, gentle, kind, terrible"
+    light: "violet from below; daylight behind"
+    art: >
+      From low, past the glowing core: Baek (baek_taegun) turns his head to look at her, gentle and kind, the violet light under his face.
+    acting:
+      baek_taegun: "turning his head to her, gentle, the polite smile, eyes kind"
+    eyeline: "Baek → Moon Ahin"
+    foreground: "the glass case's edge, cropped, bottom"
+    calm: top
+    lines:
+      - {who: baek_taegun, type: speech, text: "DO YOU WANT THE HOSPITALS DARK, AHIN?", side: l}
+
+  - id: P38
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level, close on Moon Ahin: no answer, her jaw working, the baton trembling at her side"
+    light: "hard daylight"
+    art: >
+      Close on Moon Ahin (moon_ahin): no answer; her jaw works; the baton trembles at her side.
+    acting:
+      moon_ahin: "jaw working, eyes wet and furious, the baton trembling"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "...", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P39
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, over Baek's shoulder: Moon Ahin across the office, Baek's voice gentle"
+    light: "hard daylight"
+    art: >
+      Over Baek's shoulder (baek_taegun): Moon Ahin (moon_ahin) stands across the office; his voice stays gentle.
+    acting:
+      baek_taegun: "speaking gently, one hand still on the case"
+      moon_ahin: "standing rigid across the office"
+    eyeline: "Baek → Moon Ahin"
+    foreground: "Baek's shoulder and silver glasses' edge, cropped, left"
+    calm: top
+    lines:
+      - {who: baek_taegun, type: speech, text: "THE ASSOCIATION FOUND NOTHING. IT'S OVER. COME TO DINNER ON SUNDAY. YOUR MOTHER MISSES YOU.", side: l}
+
+  - id: P40
+    recipe: silent
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level: Moon Ahin turning and walking to the door without a word"
+    light: "hard daylight"
+    art: >
+      Moon Ahin (moon_ahin) turns and walks to the door without a word; Baek (baek_taegun) watches her go.
+    acting:
+      moon_ahin: "turning away, walking to the door, back straight"
+      baek_taegun: "watching her go, the smile unchanged"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "tak... tak...", style: quiet, at: [0.50, 0.80], size: S, rot: 0}
+
+  - id: P41
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, at the door: Moon Ahin stopping with her hand on it and speaking without turning round"
+    light: "hard daylight"
+    art: >
+      Low at the door: Moon Ahin (moon_ahin) stops with her gloved hand on it and speaks without turning round.
+    acting:
+      moon_ahin: "hand on the door, not turning, voice quiet"
+    eyeline: "Moon Ahin → the door"
+    foreground: "the door's steel handle, cropped, right"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: speech, text: "HIS NAME IS SAEBYEOK.", side: l}
+      - {who: baek_taegun, type: speech, text: "WHOSE NAME?", side: r}
+      - {who: moon_ahin, type: speech, text: "MY FIRST HUSK. YOU TAUGHT ME NOT TO NAME THEM.", side: l}
+
+  - id: P42
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Baek alone after the door closes, one eyebrow lifting a fraction"
+    light: "hard daylight"
+    art: >
+      Close on Baek (baek_taegun) alone after the door closes, one eyebrow lifting a fraction behind his silver glasses.
+    acting:
+      baek_taegun: "one eyebrow lifting a fraction, the smile thinning"
+    calm: left
+    silent: true
+    sfx:
+      - {text: "KLIK", style: quiet, at: [0.30, 0.30], size: S, rot: 0}
+
+  # ================= THE LAMP (P43-P50) =================
+  - id: P43
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: white
+    camera: "eye level, far down the white corridor of the columbarium: Jaeha alone in his hoodie, walking slowly, something small in his hand"
+    light: "late afternoon sun in long gold bars"
+    art: >
+      The columbarium (location columbarium) in the late afternoon: far down the white corridor of glass-fronted niches, Jaeha (kang_jaeha) walks
+      slowly alone in his hoodie, Minseok's rusted lamp in his hand; long gold bars of sun across the floor.
+    acting:
+      kang_jaeha: "walking slowly, the rusted lamp held carefully in both hands"
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "THE COLUMBARIUM. 5:40 PM."}
+
+  - id: P44
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: white
+    camera: "straight on, close: the ledge under Minseok's niche, Jaeha's trembling hands setting the rusted lamp down beside Choi's can of coffee"
+    light: "gold sun on the glass"
+    art: >
+      Straight on, close: the ledge under Minseok's niche; Jaeha's trembling hands set the rusted hard-hat lamp down beside Choi's can of coffee;
+      behind the glass, Minseok's photo grins with his thumb up, the little sticker beside it.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "tk", style: quiet, at: [0.50, 0.70], size: S, rot: 0}
+
+  - id: P45
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level, from beside the niche: Jaeha standing in front of it, talking to the photo"
+    light: "gold sun"
+    face: private
+    art: >
+      From beside the niche: Jaeha (kang_jaeha) stands in front of it and talks to the photo, his hands pushed into his hoodie pocket to hide the
+      shaking.
+    acting:
+      kang_jaeha: "hands in his hoodie pocket, a small smile, eyes wet"
+    eyeline: "Jaeha → the photo"
+    foreground: "the rusted lamp on the ledge, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "I FOUND YOUR DOOR, HYUNG. AND THE GIANT YOU TALKED TO.", side: r}
+      - {who: kang_jaeha, type: speech, text: "HE SAYS YOU WEREN'T ALONE. I'M GOING BACK FOR HIM. I PROMISED.", side: r}
+
+  - id: P46
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on the photo of Minseok behind the glass, grinning, the gold light on it"
+    light: "gold sun"
+    art: >
+      Close on the photo of Minseok behind the glass (oh_minseok), grinning his crooked grin, thumb up, the gold light falling across it.
+    acting:
+      oh_minseok: "in the photo: grinning, thumb up"
+    calm: right
+    silent: true
+
+  - id: P47
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level: Jaeha checking the time on his phone with an awkward two-handed grip, then hurrying away down the corridor"
+    light: "gold sun"
+    face: public
+    art: >
+      Jaeha (kang_jaeha) checks the time on his phone with an awkward two-handed grip, then hurries away down the gold-barred corridor.
+    acting:
+      kang_jaeha: "holding the phone in both hands to keep it still, then hurrying off"
+    eyeline: "Jaeha → the phone"
+    foreground: "the edge of the niche wall, cropped, left"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "SORRY, HYUNG. I PROMISED SEOA DINNER AT SEVEN. I'M ALWAYS LATE.", side: r}
+
+  # ================= THE CALL (P48-P60) =================
+  - id: P48
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: black
+    camera: "eye level through a car windscreen on a dark overpass at dusk: Sora in the driver's seat of a black sports car, the river and bridges below, her phone buzzing on the dash"
+    light: "dusk; the city's lights coming on; the phone's glow"
+    art: >
+      Dusk, through the windscreen of a black sports car parked on a dark Han River overpass (location sora_car): Sora (han_sora) slouches in the
+      driver's seat with her boots up on the dash, a fresh bandage round her right wrist; the river and its bridges glow below; her phone buzzes
+      on the dash.
+    acting:
+      han_sora: "slouched, boots on the dash, turning her bandaged wrist in the light, then reaching for the phone"
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "DUSK."}
+    sfx:
+      - {text: "BZZZ", style: quiet, at: [0.70, 0.60], size: S, rot: 0}
+
+  - id: P49
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close on Sora answering, the phone at her ear, a lazy smile"
+    light: "dusk; the phone's glow"
+    art: >
+      Close and low on Sora (han_sora) answering, the phone at her ear, a lazy smile.
+    acting:
+      han_sora: "phone at her ear, a lazy smile, head tipped back against the seat"
+    eyeline: "Sora → the windscreen"
+    foreground: "the bandaged wrist resting on the steering wheel, cropped, bottom"
+    calm: top
+    lines:
+      - {who: han_sora, type: speech, text: "GOOD EVENING, DIRECTOR. BEFORE YOU ASK: YES, I LOST YOUR COMPASS.", side: l}
+
+  - id: P50
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "Baek's office at dusk, eye level: Baek alone at the darkening glass wall, the phone at his ear, the city lighting up below"
+    light: "dusk; the city lights; the violet core behind him"
+    art: >
+      Baek's office at dusk: Baek (baek_taegun) stands alone at the darkening glass wall with a slim phone at his ear, the city lighting up below
+      him, the violet core glowing behind.
+    acting:
+      baek_taegun: "standing at the glass, phone at his ear, the other hand on the cane"
+    eyeline: "Baek → the city"
+    foreground: "the cane's glowing violet handle, cropped, bottom right"
+    calm: top
+    lines:
+      - {who: baek_taegun, type: phone, text: "TELL ME HOW.", side: l}
+
+  - id: P51
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close on Sora in the car, turning her bandaged wrist in the light, delighted"
+    light: "dusk"
+    art: >
+      Close and low on Sora (han_sora) in the car, turning her bandaged wrist in the light, delighted all over again.
+    acting:
+      han_sora: "turning the wrist in the light, eyes bright"
+    eyeline: "Sora → her wrist"
+    foreground: "the steering wheel, cropped, bottom"
+    calm: top
+    lines:
+      - {who: han_sora, type: speech, text: "HE MOVED MY NEEDLE. AND HIS ARCHER SHOT IT OFF MY WRIST WITHOUT TOUCHING ME. ON PURPOSE.", side: l}
+
+  - id: P52
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, close on Baek at the glass, listening, the polite smile faint"
+    light: "the city lights"
+    art: >
+      Close on Baek (baek_taegun) at the glass, listening, the polite smile faint.
+    acting:
+      baek_taegun: "listening, eyes half closed, the smile faint"
+    eyeline: "Baek → the city"
+    foreground: "his reflection in the glass, cropped, right"
+    calm: top
+    lines:
+      - {who: baek_taegun, type: phone, text: "DID HE KILL ANYONE?", side: l}
+
+  - id: P53
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close on Sora, the smile gone for once, serious"
+    light: "dusk; the phone's glow"
+    art: >
+      Close and low on Sora (han_sora), the smile gone for once, serious.
+    acting:
+      han_sora: "serious, sitting up, boots coming off the dash"
+    eyeline: "Sora → the river below"
+    foreground: "the dark windscreen, cropped, top"
+    calm: top
+    lines:
+      - {who: han_sora, type: speech, text: "NOT ONE. HE CARRIED HIS RIVAL'S HUSKS. ALL OF THEM.", side: l}
+      - {who: han_sora, type: speech, text: "AND HIS BODY IS BREAKING, DIRECTOR. I SAW HIS HANDS.", side: l}
+
+  - id: P54
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Baek's gloved hand tightening slowly on the cane's glowing handle"
+    light: "violet"
+    art: >
+      Close on Baek's gloved hand tightening slowly on the cane's glowing violet handle.
+    calm: left
+    silent: true
+    sfx:
+      - {text: "grip", style: quiet, at: [0.30, 0.30], size: S, rot: 0}
+
+  - id: P55
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close on Sora in the car: a slow, eager smile returning"
+    light: "dusk"
+    art: >
+      Close and low on Sora (han_sora) in the car: a slow, eager smile returning.
+    acting:
+      han_sora: "the smile returning slowly, eager"
+    eyeline: "Sora → the windscreen"
+    foreground: "the bandaged wrist, cropped, bottom"
+    calm: top
+    lines:
+      - {who: han_sora, type: speech, text: "SO? DO I GO AND COLLECT HIM WHILE HE CAN'T HOLD A CHOPSTICK?", side: l}
+
+  - id: P56
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of Baek's narrow grey-brown eyes behind his silver glasses, the city lights in them"
+    light: "the city lights"
+    art: >
+      Extreme close-up of Baek's narrow pale grey-brown eyes (baek_taegun) behind the silver-rimmed glasses, the city lights reflected in the
+      lenses. Fill the canvas edge to edge.
+    acting:
+      baek_taegun: "eyes still, thinking"
+    calm: none
+    silent: true
+
+  - id: P57
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, Baek at the glass from behind: the whole city below him, the bridges, the phone at his ear"
+    light: "the city lights; violet behind"
+    art: >
+      Baek (baek_taegun) at the glass from behind: the whole city spread below him, the river and its bridges glowing; the phone at his ear.
+    acting:
+      baek_taegun: "seen from behind at the glass, perfectly still, the cane at his side"
+    eyeline: "Baek → the city"
+    foreground: "the violet core's glow on the glass, cropped, right"
+    calm: top
+    lines:
+      - {who: baek_taegun, type: phone, text: "NO. DON'T TOUCH THE OPERATOR.", side: l}
+
+  - id: P58
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Sora frowning, puzzled"
+    light: "dusk"
+    art: >
+      Close on Sora (han_sora) frowning, puzzled.
+    acting:
+      han_sora: "frowning, head tilted, phone at her ear"
+    eyeline: "Sora → nowhere"
+    foreground: "the steering wheel, cropped, right"
+    calm: right
+    lines:
+      - {who: han_sora, type: speech, text: "...THEN WHAT?", side: l}
+
+  - id: P59
+    recipe: talk
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, close on Baek turning from the glass, the violet core lighting his face from below, the polite smile at its full width"
+    light: "violet from below; the city behind"
+    art: >
+      Close and low on Baek (baek_taegun) turning from the glass, the violet core lighting his face from below, the polite smile at its full width
+      for the first time.
+    acting:
+      baek_taegun: "turning from the glass, the full polite smile, eyes cold"
+    eyeline: "Baek → the camera's side"
+    foreground: "the cane's glowing handle, cropped, bottom"
+    calm: top
+    lines:
+      - {who: baek_taegun, type: phone, text: "MAKE HIM COME TO US.", side: l}
+
+  - id: P60
+    recipe: establish
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high, over Mangwon's roofs at dusk: one small rooftop strung with warm bulbs, figures setting a table, a clock reading 6:58"
+    light: "dusk; warm bulbs on one rooftop"
+    art: >
+      High over Mangwon's dark roofs at dusk: on one small rooftop, strung with warm bulbs, tiny figures set a fold-out table with dishes; one
+      small figure in a hoodie hurries up the outside stairs.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "tap tap tap tap", style: quiet, at: [0.30, 0.80], size: S, rot: 0}
+
+  - id: END
+    kind: end
+    chibi_gag: "Chibi Choi sleeps in the Gate Rescue van hugging a kimbap box like a teddy bear, while chibi Lyra creeps toward it on tiptoe with chopsticks."
