@@ -1,0 +1,1134 @@
+chapter: 5
+title: A Few Words at My Memorial
+format: SCRIPT_FORMAT_v2.md
+when: "Friday: the Black Hound memorial press event at 10 AM in Yeouido, the rooftop room in Mangwon-dong that evening, and Kanghan Tower that night."
+story_beats: STORY_BIBLE_v4.md#chapter-5-a-few-words-at-my-memorial-about-65-panels
+cast:
+  kang_jaeha: vest          # straight from the hospital: bandages (see continuity)
+  song_yerin: default
+  nib: mask                 # seal 2/5 look; rest form all chapter (dull eyes, no glow)
+  yoo_bomi: default
+  mok_hangyu: default       # a black suit for the memorial (see continuity)
+  bh_crossbow: default
+  bh_shield: default
+  kang_seoa: default
+  baek_taegun: default      # back view, silhouette and reflection only; no name card until ch 12
+locations: [memorial_hall, rooftop_room, kanghan_monitor]
+continuity:
+  - "Jaeha comes straight from a night at the Gate Rescue station: the same orange vest (dirty, a torn hem corner), a white bandage round his forehead under the fringe, a square of gauze taped on his right cheekbone, and his left hand wrapped in a bandage. Fringe over his LEFT eye, pencil behind his RIGHT ear, notebook in his LEFT chest pocket, his phone in his right chest pocket."
+  - "Nib: his seal 2/5 look (wall-blue cloak lining, bronze trim, sigil clasp; characters_v2/nib/turnaround_seal2.png), the cracked husk mask over the upper LEFT of his face, rest form all chapter (dull eyes, no glow, no outline). In public he stands perfectly still like a doll."
+  - "Mok at the memorial wears a black suit and black tie with the small red hound's-head pin, not his guild jacket; the shield is not with him."
+  - "Yoo Bomi: her design exactly (cropped neon-yellow bomber worn open over a black crop top, high-waisted denim shorts, black thigh-high socks, plain black trainers, the 90 cm recurve bow on her back, the small white camera drone with a red light hovering by her). Fan service per CHARACTER_DESIGNS_v2.md: a beautiful face, a confident pose, never a low angle up her shorts."
+  - "Kang Seoa (15): her school uniform with the skirt to the top of the knee, glasses, calculator keychain. Never any fan service."
+  - "Baek is only ever seen from behind, in silhouette, or as a reflection in dark glass; his face is never fully shown before ch 12."
+plants:
+  - "PLANT P24: the crossbow hunter studies Nib with interest and turns a small brass compass in her fingers (she is Kanghan's eyes inside Black Hound, Arc 3)."
+  - "PLANT P22: Jaeha's phone records Mok's offer (used in Arc 3)."
+  - "PLANT P50: the chain link in his pocket (Arc 4)."
+  - "PLANT P55–P59: Kanghan knows the protocol woke at Gate 0912 but not who carries it."
+hook_type: threat
+
+panels:
+
+  # ================= THE MEMORIAL (P01–P10) =================
+  - id: P01
+    recipe: establish
+    shape: full
+    gap: none
+    bg: black
+    camera: "high, from the back of a guild hall lobby: rows of press cameras facing a memorial stage"
+    light: "key: cold white studio lights on the stage; camera flashes"
+    art: >
+      The Black Hound guild hall lobby set up for a memorial press event (location memorial_hall): a black backdrop (no
+      text), a large framed portrait on an easel with black ribbons and white chrysanthemums (the portrait is a plain grey
+      placeholder), a podium, and three rows of reporters with cameras on tripods. Scale: people 1.6–1.9 m; the backdrop is
+      about 4 m tall.
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "BLACK HOUND GUILD HALL, YEOUIDO. FRIDAY, 10 AM."}
+      - {who: offpanel:mok_hangyu, type: speech, text: "KANG JAEHA WAS A BRAVE TRAP-TESTER. HE ALWAYS WALKED IN FIRST."}
+    sfx:
+      - {text: "KSHK KSHK", style: quiet, at: [0.80, 0.70], size: S, rot: 0}
+
+  - id: P02
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level, slightly low: Mok at the podium in a black suit, solemn for the cameras"
+    light: "studio light, flat and bright; camera flashes"
+    art: >
+      Mok (mok_hangyu, black suit and tie, the red hound pin) at the podium beside the grey memorial portrait and its white
+      chrysanthemums, solemn, one hand pressed to his chest. Reporters' heads in the foreground.
+    acting:
+      mok_hangyu: "gripping the podium with his left hand, right hand pressed flat to his chest, head bowed, eyes lowered, a grave camera face, mouth open mid-line"
+    eyeline: "Mok → the cameras (down)"
+    foreground: "the backs of two reporters' heads and a camera on a tripod, cropped, along the bottom"
+    calm: top
+    lines:
+      - {who: mok_hangyu, type: speech, text: "HE GAVE HIS LIFE SO MY HUNTERS COULD COME HOME. WE WILL NEVER FORGET HIM.", side: l}
+
+  - id: P03
+    recipe: name-card
+    shape: tall
+    gap: long
+    bg: white
+    camera: "full figure, slight low angle at waist height, three-quarter: a streamer on the hall's front steps"
+    light: "key: bright late-morning sun from the right; back light: the glass doors' reflection rimming her hair"
+    intro: "YOO BOMI (21) · E-RANK RANGER · STREAMER, \"BOMBOM TV\""
+    art: >
+      Glamour intro. Outside on the front steps of the guild hall: Yoo Bomi (yoo_bomi), a beautiful, curvy young woman with
+      a big grin, in her full design (cropped neon-yellow bomber open over a black crop top, bare midriff, high-waisted denim
+      shorts, black thigh-high socks, plain black trainers, the 90 cm recurve bow slung on her back), streams to a small
+      white camera drone hovering in front of her, red light on. Confident pose; the whole figure in frame, full model-sheet
+      proportions (about 7 heads, long legs). Name-card gradient behind her (her colours). Leave the left third calm for the
+      name card.
+    acting:
+      yoo_bomi: "weight on her right leg with her left knee bent and turned in, one hand on her hip, the other throwing a peace sign beside her winking eye at the drone, ponytail swinging, a huge open grin"
+    eyeline: "Bomi → the drone (camera)"
+    calm: left
+    sfx:
+      - {text: "BZZZ", style: quiet, at: [0.82, 0.24], size: S, rot: 0}
+
+  - id: P04
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "the drone's point of view: Bomi talking into the camera on the steps, the guild hall doors behind her"
+    light: "bright sun; a little lens-free glare off the glass doors"
+    art: >
+      The drone's point of view: Bomi (yoo_bomi) leans into the camera on the steps, talking fast, the guild hall's glass
+      doors behind her. Leave the left half calmer for the livestream overlay.
+    acting:
+      yoo_bomi: "leaning toward the camera with one hand cupped beside her mouth like she's sharing a secret, eyebrows up, mouth wide mid-line"
+    eyeline: "Bomi → the drone (camera)"
+    calm: left
+    ui:
+      - kind: phone.live_stream
+        "on": float
+        at: [0.26, 0.08]
+        viewers: "412 WATCHING"
+        chat:
+          - "[jjang_hunter]: rip trap rat"
+          - "[minsu_0412]: F"
+          - "[dalgona]: who even was he lol"
+    lines:
+      - {who: yoo_bomi, type: speech, text: "BOMBOM TV IS AT A HUNTER'S MEMORIAL TODAY! SMASH THAT LIKE FOR THE TRAP RAT!", side: r}
+
+  - id: P05
+    recipe: establish
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level from the street: three figures climbing the steps past the streamer"
+    light: "bright late-morning sun"
+    face: public
+    art: >
+      From the street: Jaeha (kang_jaeha, vest; bandaged forehead, gauze on his right cheek, left hand wrapped) climbs the
+      guild hall steps, with Yerin (song_yerin) beside him and a small masked figure in a hooded cloak, Nib (nib, mask; seal
+      2/5 look; rest form), stiffly behind. They pass Bomi, who is still talking to her drone. Scale: the steps are 18 cm
+      each; the glass doors 2.4 m.
+    acting:
+      kang_jaeha: "climbing the steps at an even pace, hands in his vest pockets, eyes on the doors, a calm face"
+      song_yerin: "beside him, both hands on her bag strap, glancing nervously at the doors"
+      nib: "walking stiffly behind them like a doll, arms hanging, looking straight ahead"
+      yoo_bomi: "at the side of the steps, mid-sentence to her drone, not looking at them yet"
+    eyeline: "Jaeha → the doors; Yerin → the doors; Bomi → her drone"
+    calm: top
+    sfx:
+      - {text: "TAK TAK", style: quiet, at: [0.50, 0.84], size: S, rot: 0}
+
+  - id: P06
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Bomi doing a double take, the drone swinging round"
+    light: "bright sun"
+    art: >
+      Close on Bomi (yoo_bomi) doing a huge double take, her ponytail whipping round, the white drone swinging to follow her
+      look.
+    acting:
+      yoo_bomi: "head snapped round over her shoulder, eyes bulging, mouth open, one finger pointing"
+    eyeline: "Bomi → Jaeha (off-panel left)"
+    calm: left
+    silent: true
+    sfx:
+      - {text: "WHIP", style: quiet, at: [0.30, 0.30], size: S, rot: 0}
+
+  - id: P07
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "two-shot on the steps: Bomi blocking Jaeha's way, her drone shoved in his face"
+    light: "bright sun"
+    face: public
+    art: >
+      Bomi (yoo_bomi) leaps in front of Jaeha (kang_jaeha, vest; bandaged) on the steps and shoves her hovering drone right
+      into his face. Comic beat: Jaeha leans back, flustered, a blush across his cheeks, his eyes sliding away from her
+      outfit to the sky.
+    acting:
+      yoo_bomi: "bouncing into his path on the step above, leaning in close with one hand steering the drone at his face, eyes huge, grinning"
+      kang_jaeha: "leaning back from the drone with both hands half-raised, cheeks blushing with short diagonal hatching, eyes sliding sideways and up, a sweat drop"
+    eyeline: "Bomi → Jaeha; Jaeha → the sky (away)"
+    foreground: "the white camera drone, cropped, in the bottom-right corner, red light on"
+    calm: top
+    lines:
+      - {who: yoo_bomi, type: shout, text: "WAIT, WAIT, WAIT! AREN'T YOU THE DEAD GUY?", side: l}
+
+  - id: P08
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on Nib, deadpan, beside the blushing Jaeha"
+    light: "bright sun"
+    art: >
+      Close on Nib (nib, mask; seal 2/5; rest form) standing stiffly behind Jaeha, staring flatly at Bomi.
+    acting:
+      nib: "perfectly still, arms hanging, the uncovered eye half-lidded and flat"
+    eyeline: "Nib → Bomi"
+    calm: right
+    lines:
+      - {who: nib, type: whisper, text: "......", side: l}
+
+  - id: P09
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, from the top step: Jaeha stepping round Bomi toward the doors with a polite little bow"
+    light: "bright sun; the glass doors reflecting sky"
+    face: public
+    art: >
+      From the top step: Jaeha (kang_jaeha, vest; bandaged) steps politely round Bomi toward the glass doors with a small
+      bow. Bomi spins to follow him with the drone, Yerin and Nib behind.
+    acting:
+      kang_jaeha: "a small polite bow as he steps round her, one hand raised in apology, a tired customer-service smile"
+      yoo_bomi: "spinning on her heel to follow, steering the drone after him, delighted"
+    eyeline: "Jaeha → the doors; Bomi → Jaeha"
+    foreground: "the edge of the glass door and its steel handle, cropped, down the right side"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "EXCUSE ME, MISS. I'M LATE FOR MY OWN MEMORIAL.", side: l}
+
+  # ================= THE RETURN (P10–P17) =================
+  - id: P10
+    recipe: establish
+    shape: tall
+    gap: long
+    bg: black
+    camera: "from the stage end of the hall, low: the doors at the back opening, a bandaged figure backlit in the doorway"
+    light: "back light: the bright doorway behind him; the hall dimmer; studio lights on the stage"
+    art: >
+      From the stage end of the memorial hall, low, past the backs of the reporters: the doors at the back swing open and a
+      bandaged young man (kang_jaeha, vest) stands backlit in the doorway, with a small cloaked figure and a girl behind him.
+      Every head is turning. Scale: the doors are 2.4 m; the reporters' rows run 10 m to the doors.
+    acting:
+      kang_jaeha: "standing in the doorway with his hands in his vest pockets, backlit, head level"
+    eyeline: "Jaeha → the stage"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "KLAK", style: quiet, at: [0.50, 0.70], size: M, rot: 0}
+
+  - id: P11
+    recipe: silent
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Yerin behind Jaeha in the doorway, every head in the room turning toward them"
+    light: "the bright doorway behind; studio light ahead"
+    art: >
+      Close on Yerin (song_yerin) half hidden behind Jaeha's shoulder in the doorway, gripping her bag strap, as the whole
+      room of reporters turns to stare at them.
+    acting:
+      song_yerin: "shrinking behind Jaeha's shoulder, both hands white-knuckled on her bag strap, eyes darting over the turning heads"
+    eyeline: "Yerin → the room"
+    calm: right
+    silent: true
+
+  - id: P12
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close on Mok at the podium, frozen mid-word, the colour leaving his face"
+    light: "studio light; a flash going off"
+    art: >
+      Close on Mok (mok_hangyu, black suit) at the podium, frozen mid-word, eyes wide with tiny pupils, a sweat drop
+      starting at his temple. A camera flash bursts beside him.
+    acting:
+      mok_hangyu: "frozen at the podium, mouth still open on a word, eyes wide with shrunken pupils, one hand slipping off the podium's edge"
+    eyeline: "Mok → Jaeha (down the hall)"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "FLASH", style: quiet, at: [0.82, 0.26], size: S, rot: 0}
+
+  - id: P13
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level along the aisle: Jaeha walking up between the press rows, Yerin and Nib behind, Bomi's drone overhead"
+    light: "studio lights ahead of him; flashes"
+    face: public
+    art: >
+      Jaeha (kang_jaeha, vest; bandaged) walks up the aisle between the rows of reporters with a polite smile, Yerin
+      (song_yerin) and Nib (nib, mask; rest form) behind him, Bomi's white drone hovering above. Reporters twist in their
+      seats, cameras turning.
+    acting:
+      kang_jaeha: "walking up the aisle at an even pace with a slight polite bow of the head, hands at his sides, a tired customer-service smile"
+      song_yerin: "close behind him, eyes down, hands tight on her bag strap"
+      nib: "walking stiffly behind them like a doll"
+    eyeline: "Jaeha → Mok"
+    foreground: "a reporter's shoulder and raised camera, cropped, at the left edge"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "SORRY I'M LATE, SIR. THE RESCUE TEAM KEPT ME OVERNIGHT.", side: r}
+
+  - id: P14
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, from behind the press cameras: Jaeha at the front beside his own memorial portrait, facing the room"
+    light: "studio lights full on him; flashes"
+    face: public
+    art: >
+      Jaeha (kang_jaeha, vest; bandaged) stands at the front of the hall beside his own memorial portrait (a plain grey
+      placeholder in a frame with black ribbons and white chrysanthemums), facing the cameras with a polite smile. Mok
+      stands frozen at the podium beside him.
+    acting:
+      kang_jaeha: "standing square to the cameras with a small polite bow, one hand gesturing at his own portrait, a mild smile"
+      mok_hangyu: "frozen at the podium, staring at him"
+    eyeline: "Jaeha → the cameras; Mok → Jaeha"
+    foreground: "the dark shapes of two press cameras on tripods, cropped, along the bottom"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "COULD I SAY A FEW WORDS AT MY MEMORIAL?", side: l}
+
+  - id: P15
+    kind: title
+    shape: full
+    gap: long
+    bg: black
+    title_card: "MY SUMMONS GO FIRST · CHAPTER 5 · A FEW WORDS AT MY MEMORIAL"
+    notes: "Title card at panel 15 of 59 (25%), right after the hook line."
+
+  - id: P16
+    recipe: chorus
+    shape: wide
+    gap: long
+    bg: white
+    camera: "Bomi's drone's point of view over the press rows: the whole room exploding with flashes and raised hands"
+    light: "a storm of camera flashes"
+    art: >
+      Bomi's drone's point of view from above the press rows: every reporter on their feet, cameras flashing, hands raised,
+      shouting; Jaeha small at the front beside the portrait. Leave the left half calmer for the livestream overlay.
+    acting:
+      kang_jaeha: "small at the front, a polite little wave at the cameras"
+    calm: left
+    ui:
+      - kind: phone.live_stream
+        "on": float
+        at: [0.26, 0.06]
+        viewers: "9,870 WATCHING"
+        chat:
+          - "[jjang_hunter]: HE'S ALIVE??"
+          - "[seoul_otaku]: this is 100% staged"
+          - "[minsu_0412]: summoners are still bait lol"
+          - "[dalgona]: WHO IS THIS GUY"
+    sfx:
+      - {text: "KSHK KSHK KSHK", style: quiet, at: [0.78, 0.82], size: S, rot: 0}
+
+  - id: P17
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "two-shot at the podium: Mok, camera smile back on, throwing his arms round Jaeha for the cameras"
+    light: "flashes"
+    face: public
+    art: >
+      Mok (mok_hangyu, black suit) recovers and throws his big arms round Jaeha (kang_jaeha, vest; bandaged) in a bear hug
+      for the cameras, a huge camera smile on his face. Jaeha stands stiff in the hug, his own polite smile frozen.
+    acting:
+      mok_hangyu: "crushing Jaeha in a bear hug, one hand slapping his back, head turned to the cameras with a huge white-toothed smile, eyes cold"
+      kang_jaeha: "stiff as a board inside the hug, arms pinned, a frozen polite smile with a twitch at one corner"
+    eyeline: "Mok → the cameras; Jaeha → the cameras"
+    foreground: "a raised phone filming them, cropped, at the bottom left"
+    calm: top
+    lines:
+      - {who: mok_hangyu, type: shout, text: "MY BRAVE TRAP-TESTER! IT'S A MIRACLE!", side: l}
+    sfx:
+      - {text: "SQUEEEZE", style: comic, at: [0.62, 0.62], size: M, rot: -6}
+
+  - id: P18
+    recipe: talk
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up: Mok's mouth at Jaeha's ear inside the hug"
+    light: "flash light, hard"
+    art: >
+      Extreme close-up inside the hug: Mok's mouth by Jaeha's ear, the smile still on for the cameras, the teeth clenched.
+      Jaeha's ear and the bandage at his temple. Fill the canvas edge to edge.
+    foreground: "Jaeha's ear and the white bandage at his temple fill the right side, cropped"
+    calm: none
+    lines:
+      - {who: mok_hangyu, type: menace, text: "BACK ROOM. NOW."}
+
+  # ================= THE OFFER (P18–P30) =================
+  - id: P19
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: white
+    camera: "eye level from the corner of a small back office: Mok behind a desk, two hunters by the wall, Jaeha and Yerin standing"
+    light: "a single fluorescent tube; blinds half closed"
+    art: >
+      A small back office in the guild hall: a cheap desk, half-closed blinds, a framed photo of a Black Hound raid team on
+      the wall (faces too small to read), a hound's-head emblem on a pennant (no text). Mok (mok_hangyu, black suit) sits
+      behind the desk. By the wall: the crossbow hunter (bh_crossbow) leaning with her arms folded, and the bald
+      shield-bearer (bh_shield). Jaeha (kang_jaeha, vest; bandaged) and Yerin (song_yerin) stand before the desk; Nib (nib,
+      mask; rest form) stands stiffly by the door.
+    acting:
+      mok_hangyu: "leaning back in the desk chair with his legs spread, one arm hooked over the chair back"
+      bh_crossbow: "leaning a shoulder on the wall with her arms folded, one ankle crossed over the other, watching Nib"
+      bh_shield: "standing by the wall with his arms crossed, glaring"
+      kang_jaeha: "standing before the desk with his hands clasped in front of him, a polite slight bow"
+      song_yerin: "half behind Jaeha, gripping her bag strap"
+      nib: "standing stiffly by the door like a coat stand"
+    eyeline: "Mok → Jaeha; the crossbow hunter → Nib; Jaeha → Mok"
+    calm: top
+    sfx:
+      - {text: "BZZZ", style: quiet, at: [0.50, 0.08], size: S, rot: 0}
+
+  - id: P20
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: white
+    camera: "close on the desk: Mok's big hand sliding a fat envelope and a typed statement across to Jaeha"
+    light: "fluorescent light; a hard shadow under the envelope"
+    art: >
+      Close on the desk: Mok's big hand with a gold ring slides a fat brown envelope, its flap open on a thick stack of
+      ₩50,000 notes, and a typed statement with a signature line (the typing a grey blur, no readable words) across the desk
+      toward Jaeha.
+    calm: top
+    lines:
+      - {who: offpanel:mok_hangyu, type: speech, text: "SIGN A STATEMENT SAYING YOU SET OFF THE TRAP, AND THIS TEN MILLION IS YOURS."}
+    sfx:
+      - {text: "SHHF", style: quiet, at: [0.76, 0.64], size: S, rot: 0}
+
+  - id: P21
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "over Mok's shoulder: Jaeha looking down at the envelope with his polite face on"
+    light: "fluorescent"
+    face: public
+    art: >
+      Over Mok's shoulder (cropped, left foreground): Jaeha (kang_jaeha, vest; bandaged) looks down at the envelope, then up
+      at Mok, with his politest smile.
+    acting:
+      kang_jaeha: "hands clasped in front of him, a slight bow, eyebrows raised in polite gratitude, a soft smile"
+    eyeline: "Jaeha → Mok"
+    foreground: "Mok's broad black-suited shoulder and the back of his slicked head, cropped, left third"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "THAT'S VERY GENEROUS, SIR. COULD I THINK ABOUT IT UNTIL TOMORROW?", side: r}
+
+  - id: P22
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Jaeha's right chest pocket: a phone screen glowing through the fabric gap, a red recording dot"
+    light: "fluorescent; a small red glow"
+    face: private
+    art: >
+      Close on Jaeha's right vest chest pocket: the top of his phone peeks out, its black screen showing only a small glowing
+      red dot (no text).
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: inner, text: "NOT YET, SIR. NOT YET."}
+    notes: "PLANT P22: the recording (Arc 3)."
+
+  - id: P23
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on Mok, the camera smile gone"
+    light: "fluorescent from above; his eyes in shadow"
+    art: >
+      Close on Mok (mok_hangyu, black suit): no smile now, flat dead eyes, jaw set.
+    acting:
+      mok_hangyu: "leaning forward on his elbows, brows level, lids half-lowered, jaw tight, no smile"
+    eyeline: "Mok → Jaeha"
+    calm: right
+    lines:
+      - {who: mok_hangyu, type: menace, text: "DON'T THINK TOO LONG. TRAP RATS GET LOST IN GATES ALL THE TIME.", side: l}
+
+  - id: P24
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on the crossbow hunter's fingers turning a small brass compass, her eyes on Nib"
+    light: "fluorescent"
+    art: >
+      Close on the crossbow hunter (bh_crossbow): her fingers idly turn a small brass compass with a sliver of violet
+      crystal for a needle, while her eyes, amused, study the masked "husk" by the door.
+    acting:
+      bh_crossbow: "leaning on the wall, turning the compass in her fingers, head tilted, a faint red-lipped smile, eyes on Nib"
+    eyeline: "the crossbow hunter → Nib"
+    calm: left
+    silent: true
+    notes: "PLANT P24: her compass (Arc 3)."
+
+  - id: P25
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level: Mok turning to Yerin, pointing at the statement"
+    light: "fluorescent"
+    art: >
+      Mok (mok_hangyu) turns to Yerin (song_yerin) and taps the statement with one thick finger. Yerin flinches.
+    acting:
+      mok_hangyu: "leaning toward Yerin across the desk, tapping the statement twice with his index finger, a thin smile"
+      song_yerin: "flinching back half a step, shoulders up, both hands on her bag strap"
+    eyeline: "Mok → Yerin; Yerin → the statement"
+    foreground: "the edge of the desk and the envelope, cropped, along the bottom"
+    calm: top
+    lines:
+      - {who: mok_hangyu, type: speech, text: "YOU TOO, ROOKIE. SIGN AS A WITNESS AND YOU KEEP YOUR CONTRACT.", side: l}
+
+  - id: P26
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: white
+    camera: "extreme close-up of Yerin's eyes, the fear turning into resolve"
+    light: "fluorescent"
+    art: >
+      Extreme close-up: Yerin's eyes (song_yerin), wet, the brows lowering from fear into resolve. Freckles across her nose.
+      Fill the canvas edge to edge.
+    acting:
+      song_yerin: "eyes wet but steadying, brows drawing down and together"
+    eyeline: "Yerin → Mok"
+    calm: none
+    silent: true
+
+  - id: P27
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, from beside the desk: Yerin stepping forward past Jaeha, small and furious"
+    light: "fluorescent"
+    art: >
+      Yerin (song_yerin) steps forward past Jaeha, small and furious, and slaps her Black Hound contract card down on the desk
+      on top of the statement. Jaeha (kang_jaeha, vest; bandaged) blinks at her.
+    acting:
+      song_yerin: "stepping forward, slapping a plastic contract card flat on the desk with her right palm, chin up, eyes blazing and wet"
+      kang_jaeha: "behind her, eyebrows up, mouth slightly open"
+    eyeline: "Yerin → Mok; Jaeha → Yerin"
+    foreground: "Mok's hand on the desk, cropped, in the bottom-left corner"
+    calm: top
+    lines:
+      - {who: song_yerin, type: shout, text: "NO. I WATCHED YOU CLOSE THAT DOOR.", side: l}
+      - {who: song_yerin, type: speech, text: "AND I QUIT.", side: l}
+    sfx:
+      - {text: "SLAP", style: impact, at: [0.40, 0.72], size: M, rot: 0}
+
+  - id: P28
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level at the door: Nib stopping in the doorway as the others leave, looking back at Mok"
+    light: "fluorescent behind; the corridor light ahead"
+    art: >
+      At the door: Jaeha and Yerin step out into the corridor. Nib (nib, mask; rest form) stops in the doorway and looks back
+      at Mok, one hand resting on the door's edge.
+    acting:
+      nib: "standing in the doorway, one long hand resting on the edge of the door, head turned back toward Mok, the uncovered eye flat and steady"
+    eyeline: "Nib → Mok"
+    foreground: "the door's edge and Nib's hand on it, cropped, at the right"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "DOORS. YOU LIKE CLOSING THEM.", side: l}
+
+  - id: P29
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Mok, frozen: the husk spoke"
+    light: "fluorescent"
+    art: >
+      Close on Mok (mok_hangyu) and, behind him, the crossbow hunter: both staring at the door. Mok's face slack with shock;
+      the crossbow hunter's slow smile.
+    acting:
+      mok_hangyu: "jaw dropped, eyes wide"
+      bh_crossbow: "behind him, a slow interested smile, the compass closing in her hand"
+    eyeline: "both → the door"
+    calm: left
+    silent: true
+    sfx:
+      - {text: "CLICK", style: quiet, at: [0.30, 0.74], size: S, rot: 0}
+
+  - id: P30
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level: Mok alone, crushing the statement in his fist"
+    light: "fluorescent; blinds striping his face"
+    art: >
+      Mok (mok_hangyu) alone at the desk crushes the statement in his fist; the envelope of cash lies untouched. Blind-shadows
+      stripe his face.
+    acting:
+      mok_hangyu: "standing at the desk, crushing the paper in his right fist, knuckles white, teeth bared"
+    eyeline: "Mok → the door"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "KRSHH", style: quiet, at: [0.40, 0.66], size: M, rot: 0}
+
+  - id: P31
+    recipe: silent
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level down the guild hall corridor: Jaeha, Yerin and Nib walking out between Black Hound members who step aside"
+    light: "corridor light; the bright exit at the end"
+    face: public
+    art: >
+      Down the guild hall corridor: Jaeha (kang_jaeha, vest; bandaged), Yerin (song_yerin) and Nib (nib, mask; rest form)
+      walk toward the bright exit. Black Hound members in black guild jackets along the walls step back out of their way,
+      staring, one dropping a paper cup. Scale: the corridor ceiling is 3 m.
+    acting:
+      kang_jaeha: "walking at an even pace with his hands in his vest pockets, eyes ahead"
+      song_yerin: "walking close beside him, chin up for the first time"
+      nib: "walking stiffly behind them"
+    eyeline: "Jaeha → the exit; the members → Jaeha"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "PLAP", style: quiet, at: [0.22, 0.86], size: S, rot: 0}
+
+  # ================= HOME (P30–P52) =================
+  - id: P32
+    recipe: establish
+    shape: full
+    gap: long
+    bg: white
+    camera: "high and wide over the green-painted rooftop at sunset, the Mapo skyline beyond"
+    light: "key: low orange sunset from the left; warm light from the room's open door"
+    art: >
+      The rooftop room in Mangwon-dong at sunset (location rooftop_room): the green-painted roof, the water tank, laundry
+      lines, plastic chairs, the small room with its door open and warm light inside, the Mapo skyline and the Han River
+      bridges beyond. Three small figures climb the last stair onto the roof. Scale: the room's door is 2 m; the water tank
+      2.5 m.
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "MANGWON-DONG. THAT EVENING."}
+    sfx:
+      - {text: "KAW KAW", style: quiet, at: [0.80, 0.18], size: S, rot: 0}
+
+  - id: P33
+    recipe: name-card
+    shape: wide
+    gap: short
+    bg: white
+    camera: "half body, three-quarter, eye level: a schoolgirl in the doorway, furious, crying"
+    light: "warm light from inside behind her; sunset on her face"
+    intro: "KANG SEOA (15) · HIS SISTER · RUNS THE HOUSEHOLD BUDGET"
+    art: >
+      Kang Seoa (kang_seoa) in the doorway of the rooftop room in her school uniform, round glasses fogged, tears running,
+      furious. Name-card space on the left third.
+    acting:
+      kang_seoa: "standing in the doorway with both fists clenched at her sides, shoulders shaking, chin trembling, tears streaming behind her glasses, glaring"
+    eyeline: "Seoa → Jaeha"
+    calm: left
+    silent: true
+
+  - id: P34
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "two-shot on the roof: Seoa pounding Jaeha's chest with her fists while he stands and takes it"
+    light: "sunset"
+    face: private
+    art: >
+      Seoa (kang_seoa) pounds Jaeha's chest with both fists, crying; Jaeha (kang_jaeha, vest; bandaged) stands and takes it,
+      his hands hovering helplessly. Yerin and Nib hang back by the stairs.
+    acting:
+      kang_seoa: "pounding his chest with both fists, head down, glasses askew, crying and shouting"
+      kang_jaeha: "standing still, hands hovering at her shoulders, head bowed, a guilty face"
+    eyeline: "Seoa → his chest; Jaeha → Seoa"
+    foreground: "a laundry line with a towel, cropped, across the top-right corner"
+    calm: top
+    lines:
+      - {who: kang_seoa, type: shout, text: "YOU SAID THIS WAS YOUR LAST MONTH OF TRAP-TESTING!", side: l}
+      - {who: kang_seoa, type: speech, text: "THE NEWS SAID YOU WERE DEAD. I SAW IT ON THE NEWS!", side: l}
+    sfx:
+      - {text: "THUMP THUMP", style: comic, at: [0.52, 0.66], size: M, rot: 4}
+
+  - id: P35
+    recipe: silent
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close: Jaeha pulling her into a hug"
+    light: "sunset, warm"
+    face: private
+    art: >
+      Close: Jaeha (kang_jaeha, vest; bandaged) pulls Seoa (kang_seoa) into a hug, his bandaged hand on the back of her head;
+      her face pressed into his vest.
+    acting:
+      kang_jaeha: "eyes closed, chin resting on top of her head, his wrapped left hand cradling the back of her head"
+      kang_seoa: "face buried in his vest, fists still clutching it"
+    calm: left
+    silent: true
+
+  - id: P36
+    recipe: insert
+    shape: strip
+    gap: short
+    bg: white
+    camera: "close on the rooftop room's door: a paper notice taped to it with a red stamp"
+    light: "sunset"
+    art: >
+      Close on the rooftop room's metal door: a paper notice taped to it, its typing a grey blur with no readable words, and
+      a big red stamp shape. Fill the canvas edge to edge with the door and the notice.
+    calm: none
+    silent: true
+
+  - id: P37
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on Seoa peeking over his arm at the small masked figure"
+    light: "sunset"
+    art: >
+      Seoa (kang_seoa), still in the hug, peeks over Jaeha's arm with one wet eye at the small masked figure standing stiffly
+      by the stairs.
+    acting:
+      kang_seoa: "peeking over his arm, sniffling, glasses crooked, one eye narrowing"
+    eyeline: "Seoa → Nib"
+    calm: right
+    lines:
+      - {who: kang_seoa, type: speech, text: "...AND WHO IS THAT? AND WHO IS SHE?", side: l}
+
+  - id: P38
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level on the roof: Yerin bowing politely, Nib standing stiffly beside her"
+    light: "sunset"
+    face: public
+    art: >
+      Yerin (song_yerin) bows politely and too low; beside her Nib (nib, mask; rest form) stands stiffly like a doll. Jaeha
+      (kang_jaeha, vest; bandaged) gestures at them, sheepish.
+    acting:
+      song_yerin: "bowing deeply from the waist, both hands holding her bag strap"
+      nib: "standing perfectly still, arms hanging"
+      kang_jaeha: "gesturing at them with an open hand, a sheepish smile, a sweat drop"
+    eyeline: "Jaeha → Seoa; Yerin → the floor"
+    foreground: "Seoa's shoulder and the side of her bob, cropped, bottom right"
+    calm: top
+    lines:
+      - {who: song_yerin, type: speech, text: "HI! I'M SONG YERIN. I QUIT MY JOB THIS MORNING.", side: l}
+      - {who: kang_jaeha, type: speech, text: "AND THAT'S MY HUSK. A VERY UNUSUAL HUSK.", side: r}
+
+  - id: P39
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: white
+    camera: "inside the one room, eye level from the kitchen corner: everyone squeezed round the fold-out table"
+    light: "warm ceiling light; the laptop screen's glow"
+    art: >
+      Inside the small rooftop room (location rooftop_room, interior): old wallpaper, a fold-out table on the floor, Seoa's
+      desk with her laptop (screen flat #00FF00). Seoa (kang_seoa) kneels at the laptop; Jaeha (kang_jaeha, vest; bandaged)
+      and Yerin (song_yerin) kneel at the table; Nib (nib, mask; rest form) sits very upright on a floor cushion. Scale: the
+      room is about 3 by 4 m; the ceiling 2.3 m.
+    acting:
+      kang_seoa: "kneeling at her desk, turning the laptop toward Jaeha, glasses pushed up, eyes red"
+      kang_jaeha: "kneeling at the table, leaning in to look at the screen"
+      song_yerin: "kneeling beside him, looking round the tiny room"
+      nib: "sitting bolt upright on a floor cushion, hands on his knees"
+    eyeline: "Seoa → Jaeha; Jaeha → the laptop; Yerin → the room"
+    calm: top
+    ui:
+      - kind: phone.info_card
+        "on": screen
+        title: "HOUSEHOLD BUDGET"
+        text: "RENT DUE TODAY: ₩300,000 · SAVINGS: ₩0 · SCHOOL TRIP: ₩180,000 (UNPAID)"
+    lines:
+      - {who: kang_seoa, type: speech, text: "THE LANDLORD CAME TODAY. THE RENT WAS DUE TODAY.", side: l}
+
+  - id: P40
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: white
+    camera: "close on the table: a steaming pot of instant ramen, Nib's long grey-green fingers hesitating near it"
+    light: "warm; steam"
+    art: >
+      Close on the fold-out table: a steaming pot of instant ramen with an egg cracked in it, bowls and chopsticks. Nib's
+      long grey-green fingers hover near a bowl and stop.
+    calm: top
+    sfx:
+      - {text: "SSSSS", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P41
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on Nib pushing a bowl toward Jaeha with one finger"
+    light: "warm"
+    art: >
+      Close on Nib (nib, mask; rest form) pushing a bowl of ramen across the table toward Jaeha with one long finger,
+      suspicious.
+    acting:
+      nib: "pushing the bowl away with one fingertip, leaning back from the steam, the uncovered eye narrowed"
+    eyeline: "Nib → the bowl"
+    calm: right
+    lines:
+      - {who: nib, type: speech, text: "YOU FIRST.", side: l}
+
+  - id: P42
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Seoa, chopsticks frozen"
+    light: "warm"
+    art: >
+      Close on Seoa (kang_seoa), chopsticks frozen halfway to her mouth, staring at Nib.
+    acting:
+      kang_seoa: "chopsticks frozen in mid-air, noodles dangling, mouth open, eyes huge behind her glasses"
+    eyeline: "Seoa → Nib"
+    calm: left
+    lines:
+      - {who: kang_seoa, type: speech, text: "IS YOUR HUSK... EATING?", side: r}
+
+  - id: P43
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level across the table: Nib with a mouthful of noodles, completely deadpan"
+    light: "warm"
+    art: >
+      Across the table: Nib (nib, mask; rest form) has a big mouthful of noodles hanging from his thin mouth, chopsticks held
+      wrong in his fist, completely deadpan. Jaeha beside him covers his face with one hand.
+    acting:
+      nib: "noodles hanging from his mouth, chopsticks clutched in his fist, chewing slowly, deadpan"
+      kang_jaeha: "beside him, one bandaged hand over his face, shoulders slumped"
+    eyeline: "Nib → Seoa"
+    foreground: "the edge of the ramen pot, cropped, bottom left"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "I AM NOT A HUSK. I AM HUNGRY.", side: l}
+    sfx:
+      - {text: "SLURP", style: comic, at: [0.40, 0.60], size: M, rot: 0}
+
+  - id: P44
+    recipe: chibi
+    style: chibi
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "flat"
+    light: "flat"
+    art: >
+      Chibi gag: chibi Seoa and chibi Yerin hugging each other in terror while chibi Nib slurps an enormous noodle with a
+      blank stare. Pale gag background with steam swirls.
+    acting:
+      kang_seoa: "chibi: clinging to Yerin, eyes as white circles"
+      song_yerin: "chibi: clinging to Seoa, sweat drops"
+      nib: "chibi: slurping one giant noodle, blank-faced"
+    eyeline: "the girls → Nib"
+    calm: right
+    silent: true
+    sfx:
+      - {text: "SLUUURP", style: comic, at: [0.70, 0.30], size: M, rot: 0}
+
+  - id: P45
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level: Jaeha standing in the middle of the room, a thin cyan slit opening in the air beside him"
+    light: "warm room light; cyan from the slit"
+    face: public
+    art: >
+      Jaeha (kang_jaeha, vest; bandaged) stands up in the middle of the tiny room with a small proud smile, a thin horizontal
+      cyan slit opening in the air beside him. Seoa and Yerin lean back from the table.
+    acting:
+      kang_jaeha: "standing with his right hand raised toward the slit like a magician, a small proud smile"
+      kang_seoa: "leaning back from the table, eyes wide"
+      song_yerin: "leaning back, one hand raised"
+    eyeline: "Jaeha → the girls; the girls → the slit"
+    foreground: "the edge of Seoa's desk with the laptop, cropped, left"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "ALSO, I GOT SOMETHING FROM THE BOSS. WATCH THIS.", side: r}
+
+  - id: P46
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: white
+    camera: "low, tilted: the giant blade dropping out of the slit and smashing into the floor, Jaeha yanked down with it"
+    light: "no scene light: a white flash"
+    face: public
+    art: >
+      The Ninth Wall blade, longer than Jaeha is tall, drops out of the slit; its weight slams the point through the floor's
+      vinyl into the concrete with a spray of chips, yanking Jaeha (kang_jaeha, vest; bandaged) down onto his knees still
+      clutching the grip. The ramen bowls jump.
+    acting:
+      kang_jaeha: "yanked down onto his knees, both hands clamped on the grip, eyes popping"
+    calm: top-left
+    sfx:
+      - {text: "KRAKK", style: impact, at: [0.30, 0.72], size: XL, rot: 10}
+
+  - id: P47
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "comedy two-shot at floor level: Jaeha flat on his face beside the planted sword, Nib looking down at him"
+    light: "warm"
+    face: public
+    art: >
+      Floor level: Jaeha (kang_jaeha, vest; bandaged) lies flat on his face beside the sword planted in the floor; Nib (nib,
+      mask; rest form) stands over him with a bowl of ramen, looking down.
+    acting:
+      kang_jaeha: "face down on the floor, one hand still raised on the grip, a dejected aura"
+      nib: "standing over him holding a bowl of ramen, looking down, deadpan"
+    eyeline: "Nib → Jaeha"
+    foreground: "the planted blade's crossguard, cropped, at the left edge"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "YOU'RE WEAK.", side: r}
+      - {who: kang_jaeha, type: speech, text: "I'M AWARE.", side: l}
+
+  - id: P48
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Seoa, glasses flashing white with rage"
+    light: "warm; a white flash on her glasses"
+    art: >
+      Close on Seoa (kang_seoa): her glasses flash white, a vein mark at her temple.
+    acting:
+      kang_seoa: "on her feet, pointing at the cracked floor with a shaking finger, glasses flashing white, a vein mark on her temple"
+    eyeline: "Seoa → the floor"
+    calm: left
+    lines:
+      - {who: kang_seoa, type: shout, text: "THAT'S THE LANDLORD'S FLOOR!", side: r}
+
+  - id: P49
+    recipe: silent
+    shape: wide
+    gap: long
+    bg: black
+    camera: "wide, from behind: Jaeha alone at the rooftop railing at night, the city lights below"
+    light: "night; the city glow; the room's warm doorway behind"
+    face: private
+    art: >
+      Night. From behind: Jaeha (kang_jaeha, vest; bandaged) leans alone on the rooftop railing, looking out over the lights
+      of Mapo and the Han River bridges. Behind him, the room's warm doorway. Scale: the railing is 1.1 m.
+    acting:
+      kang_jaeha: "leaning forward on the railing on his forearms, shoulders tired, head level"
+    calm: top
+    silent: true
+
+  - id: P50
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on his hand turning the black chain link under the city light"
+    light: "city glow"
+    face: private
+    art: >
+      Close on Jaeha's wrapped hand turning the matte black chain link from the boss room, its small stamped mark catching
+      the city light.
+    calm: right
+    lines:
+      - {who: kang_jaeha, type: inner, text: "SOMEBODY ON OUR SIDE PUT THAT KNIGHT IN CHAINS."}
+    notes: "PLANT P50: the link (Arc 4)."
+
+  - id: P51
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on his phone in his hand: an audio waveform on a black screen"
+    light: "the phone's glow on his bandaged fingers"
+    face: private
+    art: >
+      Close on Jaeha's phone in his wrapped hand: on the black screen, only a white audio waveform and a play triangle, no
+      text. The city lights below.
+    calm: left
+    silent: true
+
+  - id: P52
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "two-shot at the railing: Nib climbing up to sit on the railing beside Jaeha"
+    light: "city glow; the warm doorway"
+    face: private
+    art: >
+      Nib (nib, mask; rest form) climbs up and sits on the rooftop railing beside Jaeha, his bare feet dangling over the
+      street, a bowl of ramen in his hands. They both look at the city.
+    acting:
+      nib: "sitting on the railing with his bare feet dangling, holding the bowl in both hands, looking at the city"
+      kang_jaeha: "leaning on the railing beside him, glancing at him sideways"
+    eyeline: "Nib → the city; Jaeha → Nib"
+    foreground: "the end of a laundry line with a pinned sock, cropped, top left"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "YOUR SISTER IS LOUD.", side: r}
+      - {who: kang_jaeha, type: speech, text: "SHE'S THE BEST PERSON I KNOW.", side: l}
+
+  - id: P53
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Nib looking down into his ramen"
+    light: "city glow"
+    art: >
+      Close on Nib (nib, mask; rest form) looking down into his bowl, the corner of his mouth almost softening.
+    acting:
+      nib: "looking down into the bowl, the uncovered eye soft for once, the corner of his mouth nearly curling"
+    eyeline: "Nib → the bowl"
+    foreground: "the rim of the ramen bowl in his hands, cropped, along the bottom edge"
+    calm: left
+    lines:
+      - {who: nib, type: speech, text: "...SHE MAKES GOOD RAMEN.", side: r}
+    sfx:
+      - {text: "SLURP", style: quiet, at: [0.30, 0.74], size: S, rot: 0}
+
+  # ================= KANGHAN (P50–P56) =================
+  - id: P54
+    recipe: establish
+    shape: tall
+    gap: long
+    bg: black
+    camera: "low, from the street: a black glass tower rising into the night clouds"
+    light: "the tower's cold blue window light; red aircraft lights at the top"
+    art: >
+      Low from the street: Kanghan Tower, a sheer black glass skyscraper rising into the night clouds over central Seoul,
+      its windows cold blue, a hexagon emblem (no letters) high on its crown. Scale: about 60 storeys; tiny cars below.
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "KANGHAN TOWER. 11:48 PM."}
+    sfx:
+      - {text: "WHOOOO", style: quiet, at: [0.80, 0.30], size: S, rot: 0}
+
+  - id: P55
+    recipe: establish
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level from the back of a dark monitoring room: a wall of screens, a man's silhouette in front of it"
+    light: "key: the monitors' glow; the rest dark"
+    art: >
+      The Kanghan monitoring room (location kanghan_monitor): a dark glass-walled room high in the tower, a wall of monitors
+      (the big central one flat #00FF00), the city lights far below. A tall, lean man in a suit (baek_taegun) stands before
+      the monitors, seen only from behind as a silhouette, his hands folded on a cane.
+    acting:
+      baek_taegun: "seen from behind, standing very still and upright before the monitors, both hands folded on the cane's handle"
+    eyeline: "Baek → the central monitor"
+    calm: top
+    ui:
+      - kind: phone.info_card
+        "on": screen
+        title: "KANGHAN CORE DIVISION"
+        text: "GATE 0912 · BOSS CORE NOT HARVESTED · SIGNAL: OPERATOR PROTOCOL"
+    sfx:
+      - {text: "BEEP", style: quiet, at: [0.86, 0.22], size: S, rot: 0}
+
+  - id: P56
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close on five monitors in a row, each showing an ID photo"
+    light: "monitor glow"
+    art: >
+      Close on five monitors in a row, each showing one ID photo drawn as a face (no names, no text): Mok Hangyu, the
+      crossbow hunter, the bald shield-bearer, Song Yerin, and Kang Jaeha in his orange vest.
+    calm: top
+    silent: true
+
+  - id: P57
+    recipe: insert
+    shape: strip
+    gap: short
+    bg: black
+    camera: "close on a monitor: a jagged cyan signal spike on a dark graph"
+    light: "monitor glow"
+    art: >
+      Close on one monitor: a dark graph with a single jagged cyan signal spike rising far above a flat line, the spike's
+      peak pulsing. No numbers, no text. Fill the canvas edge to edge with the screen.
+    calm: none
+    silent: true
+    sfx:
+      - {text: "BEEP... BEEP...", style: quiet, at: [0.80, 0.40], size: S, rot: 0}
+
+  - id: P58
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "the man's reflection in the dark glass: only the silver glasses and a faint smile clear"
+    light: "monitor glow reflected in the glass"
+    art: >
+      The man's reflection in the dark window glass, over the city lights: only the glint of thin silver-rimmed glasses and
+      the line of a faint, polite smile are clear; the rest of his face stays in shadow.
+    calm: top
+    lines:
+      - {who: baek_taegun, type: speech, text: "THE SURVIVORS: MOK, TWO OF HIS HUNTERS, A ROOKIE HEALER...", side: r}
+      - {who: baek_taegun, type: speech, text: "...AND A TRAP-TESTER WHO SHOULD BE DEAD.", side: r}
+
+  - id: P59
+    recipe: insert
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of a hand tightening on a cane's handle, a violet crystal glowing under the fingers"
+    light: "the crystal's violet glow"
+    art: >
+      Extreme close-up: a lean hand tightens on the cane's handle, a smoky violet core crystal held in silver claws glowing
+      between the fingers. Fill the canvas edge to edge.
+    calm: none
+    lines:
+      - {who: baek_taegun, type: speech, text: "FIND OUT WHICH ONE OF THEM IT IS."}
+
+  - id: END
+    kind: end
+    chibi_gag: "Chibi Nib sits on a floor cushion holding out an empty ramen bowl with both hands, deadpan; chibi Seoa, apron on, ladles more into it with a resigned face; chibi Jaeha in the background tries and fails to lift the giant sword out of the floor."
