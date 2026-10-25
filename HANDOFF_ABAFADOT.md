@@ -1,92 +1,79 @@
-# Handoff to Abafadot: running the Codex art work for *My Summons Go First*
+# Handoff to Abafadot: drawing the art for *My Summons Go First*
 
 **From:** Claude (cloud session), 26 October 2026. **For:** Abafadot, on Abafa's instruction ("if you push everything to github i can prompt my abafadot to organize all the codex work as you want").
 
-**Why you.** Claude writes the story, briefs and prompts, reviews every image strictly, and letters, narrates, renders and uploads the chapters. Codex, on Abafa's laptop, draws. Claude normally drives Codex through a link to the laptop, but that link has been down since the laptop crashed on 25 October. Until it is back, you run the Codex side and send the results to Claude through GitHub.
+**Why you.** Claude writes the story, briefs and prompts, reviews every image strictly, and letters, narrates, renders and uploads the chapters. Codex, on Abafa's laptop, used to draw. The laptop crashed on 25 October and is off until Abafa is back (2 November), so you draw in the cloud and send the results to Claude through GitHub.
 
 **Where things are.**
-- **This branch:** `abafaboy/abafaboy.github.io`, branch `msgf-bible`. It holds everything Codex needs: briefs, scripts and designs.
-- **Laptop project folder:** `C:\Users\abafa\Videos\MySummonsGoFirst`.
-- **Codex:** the Codex app's project "My Summons Go First" ("This computer", Full access).
+- **The writing (this branch):** `abafaboy/abafaboy.github.io`, branch `msgf-bible`: briefs (`codex/`), scripts (`scripts_v2/`), designs, bible.
+- **The art: branch `msgf-art`** on the same repo. It holds every V2 image from the laptop (copied on 25 October, byte-identical): the approved style tests, the Arc 1 character sheets and location keys, chapter 1's panels and the five surviving chapter 2 panels. Its `README.md` says what each folder is and what is approved. New art comes back through its `inbox/` folder (section 4).
+- **The briefs speak of a laptop folder.** Read "this folder" in any brief or prompt as the two branches: `codex/*.md` is what the laptop root held; `STORY_BIBLE_v4.md`, `ARC3_4_BEATS.md`, `ARC5_BEATS.md`, `NAME_SHEET.md`, `ART_BIBLE.md` and `SCRIPT_FORMAT_v2.md` are the laptop's `bible\`; `scripts_v2/` and `research/` are the same; the art folders (`characters_v2/`, `locations_v2/`, `style_test_v2/`, `chapters_v2/`, and later `props_v2/`, `thumbnails_v2/`) are on `msgf-art`.
 
 **Where the season stands.**
-- All 33 chapter scripts are written, audited and fixed, with narration for each.
+- All 33 chapter scripts are written, audited and fixed, with narration for each; Arc 5 (chapters 34-40) is being written now.
 - Chapter 1 is drawn and published as an unlisted video. Three of its panels need redrawing.
-- Chapter 2 is half drawn.
+- Chapter 2: only P01, P08, P16, P23 and P30 survived. The rest is to be drawn.
 - Nothing after chapter 2 is drawn yet. The sheets for Arcs 2–4 come first.
 - At chapter 33 the whole season goes up as one public long-form video. Abafa pre-approved that.
 
 ---
 
-## 1. Sync this branch to the laptop
+## 1. Matching the style (the most important rule)
 
-Do this once now, and again before you open any chat for a new chapter. Overwrite the old copies; never delete art.
+Every new image must look like the approved art, as if the same artist drew it.
+- **Same model.** Codex drew everything with its built-in image generation (`image_gen`). Use the same kind of model.
+- **Always attach references.** For every generation, attach the approved sheets of every character in the image (`characters_v2/<id>/front.png`, `turnaround.png`, and `expressions.png` or `acting.png` for faces), the location key if there is one, and one or two images from `style_test_v2/acting/` as the style anchor.
+- **Never draw from a written brief alone**, and never use anything in a `_rejects/` folder as a reference.
+- **Check before you send.** Run each image against `codex/MANHWA_STYLE_GUIDE.md` section 11 and `codex/PANEL_BRIEF_v2.md` section 4b (proportions, scale, camera angle). Claude rejects compressed or small-looking bodies, wrong scale and camera angles that don't match the description.
 
-| From this branch | To the laptop folder |
-|---|---|
-| `codex/*.md` | the folder's **root** (`README_START_HERE.md`, `PANEL_BRIEF_v2.md`, `CHARACTER_DESIGNS_v2.md`, `ASSETS_ARC2_BRIEF.md`, `ASSETS_ARC3_BRIEF.md`, `THUMBNAIL_BRIEF.md`, `SESSIONS_TO_OPEN_5.md`, `CH001_FIXES.md`, ...) |
-| `STORY_BIBLE_v4.md`, `ARC3_4_BEATS.md`, `ARC5_BEATS.md`, `NAME_SHEET.md`, `ART_BIBLE.md`, `SCRIPT_FORMAT_v2.md` | `bible\` |
-| `scripts_v2\*.yaml` | `scripts_v2\` |
-| `research\*` | `research\` |
+## 2. The laptop steps don't apply in the cloud
 
-Never touch the art folders on the laptop: `characters_v2\`, `locations_v2\`, `props_v2\`, `thumbnails_v2\`, `chapters_v2\` and `style_test_v2\`. `tools\`, `recaps_v2\` and `ledger\` are Claude's and don't need copying.
+The old instructions to copy files to the laptop and to uninstall Valorant and Rocket League are only for when Codex runs on the laptop again. Skip them.
 
-## 2. Disk space
+## 3. The queue, in this order
 
-The laptop's disk was nearly full. Abafa authorised uninstalling **Valorant** and **Rocket League** ("I can always just reinstall the game without losing anything").
-- Use each game's own uninstaller: the Riot Client for Valorant, which also offers to remove Vanguard; the Epic Games Launcher or Steam for Rocket League.
-- Don't delete game folders by hand, and never empty the Recycle Bin.
+Work one entry at a time, or several in parallel. Each entry's prompt is written for "one Codex chat per entry"; give the same prompt to whatever runs the drawing.
 
-## 3. The Codex queue, in this order
-
-Open **one new chat per entry**, paste the prompt exactly, and don't run more than about six chats at once. On "Model at capacity", send "continue" in the same chat.
-
-**3a. Restart the stalled work first.**
-- **Chapter 2, parts B to I.** Use this prompt, with X = B, C, ... I:
-  > You are chat ch002-X (restart) for My Summons Go First. Read README_START_HERE.md in this folder and the files in its reading order, then read PANEL_BRIEF_v2.md all the way through and finish part X of chapter 2 from scripts_v2/ch002.yaml, exactly as the "Chapter 2" entry in its section 9 says. Some of this part's panels may already be in chapters_v2/ch002/art/: keep the ones that pass the checks in MANHWA_STYLE_GUIDE.md section 11 and PANEL_BRIEF_v2.md section 4b, and draw any that are missing, empty (0 bytes; P40 is) or failing, moving failed ones to chapters_v2/ch002/art/_rejects/ first. Write only the files section 8 lists for part X. Other Codex chats are drawing other parts at the same time; never touch their files. When the part is done, write DONE_X.md and stop. Do not stop to ask anything; finish the job.
-- **Chapter 1 fixes:**
-  > You are chat ch001-FIX for My Summons Go First. Read README_START_HERE.md in this folder and the files in its reading order, then read PANEL_BRIEF_v2.md all the way through and do CH001_FIXES.md exactly (P09, P21 and P22 of chapter 1), writing only the files it lists. Other Codex chats are drawing other parts at the same time; never touch their files. When the three panels are done, write DONE_FIX.md and stop. Do not stop to ask anything; finish the job.
-
-**3b. Then the new sheets and keys,** with the prompts in `SESSIONS_TO_OPEN_5.md`, in its order:
-1. **T1**, the thumbnail key art (its sheets already exist).
+**3a. The keys and sheets first,** with the prompts in `codex/SESSIONS_TO_OPEN_5.md`, in its order:
+1. **T1**, the thumbnail key art (`codex/THUMBNAIL_BRIEF.md`; its character sheets exist).
 2. **S2b**, Nib's seal 2/5 look. Chapters 3–5 need it.
-3. The rest of **Wave A** (Arc 2: S16–S19, M1–M4, L6–L12).
-4. **Wave B** (Arcs 3–4: S20–S25, M5–M9, L13–L20, P1).
+3. The rest of **Wave A** (Arc 2: S16–S19, M1–M4, L6–L12; `codex/ASSETS_ARC2_BRIEF.md`).
+4. **Wave B** (Arcs 3–4: S20–S25, M5–M9, L13–L20, P1; `codex/ASSETS_ARC3_BRIEF.md`).
 
-**3c. Chapter parts.** Open them only when two things are true:
-- every sheet the chapter's rules name (`PANEL_BRIEF_v2.md` section 9) has its `DONE.md`;
-- Claude has approved those sheets (section 4).
+**3b. The two chapter jobs** (they need only the art already on `msgf-art`):
+- **Chapter 1 fixes:**
+  > You are chat ch001-FIX for My Summons Go First. Read README_START_HERE.md in this folder and the files in its reading order, then read PANEL_BRIEF_v2.md all the way through and do CH001_FIXES.md exactly (P09, P21 and P22 of chapter 1), writing only the files it lists. Match the surrounding chapter 1 panels in chapters_v2/ch001/art/. When the three panels are done, write DONE_FIX.md and stop. Do not stop to ask anything; finish the job.
+- **Chapter 2, parts A to I.** Use this prompt, with X = A, B, C, ... I:
+  > You are chat ch002-X for My Summons Go First. Read README_START_HERE.md in this folder and the files in its reading order, then read PANEL_BRIEF_v2.md all the way through and draw part X of chapter 2 from scripts_v2/ch002.yaml, exactly as the "Chapter 2" entry in its section 9 says. P01, P08, P16, P23 and P30 already exist in chapters_v2/ch002/art/: keep them, match them, and do not redraw them unless they fail the checks in MANHWA_STYLE_GUIDE.md section 11 and PANEL_BRIEF_v2.md section 4b. Write only the files section 8 lists for part X. When the part is done, write DONE_X.md and stop. Do not stop to ask anything; finish the job.
 
-Use the chapter-part template at the end of `SESSIONS_TO_OPEN_5.md`, one chat per part letter in that chapter's table. Do the chapters in order (3, 4, 5, ...), and re-sync section 1 first: Claude may have fixed the script.
+**3c. Chapter parts from chapter 3 on.** Start a chapter only when every sheet its rules name (`codex/PANEL_BRIEF_v2.md` section 9) is **APPROVED** in `codex/reviews/`. Use the chapter-part template at the end of `codex/SESSIONS_TO_OPEN_5.md`, one job per part letter. Do the chapters in order (3, 4, 5, ...), and pull `msgf-bible` first: Claude may have fixed the script.
 
 ## 4. The review loop with Claude, through GitHub
 
-Claude reviews every image before anything is built on it: proportions and scale, camera angle, the design locks, the house rules. Codex chats do not approve their own work, and neither do you. The loop:
+Claude reviews every image before anything is built on it: proportions and scale, camera angle, the design locks, the house rules. Neither the drawing jobs nor you approve their own work.
 
-1. **Send it.** When a chat writes its `DONE.md` (or `DONE_<part>.md`), zip its output:
-   - a sheet or key: the entry's whole folder, for example `characters_v2/han_sora/`, as `S20.zip`;
-   - a chapter part: that part's PNGs plus its `PROMPTS_<part>.json`, `REVIEW_<part>.json` and `DONE_<part>.md` from `chapters_v2/chNNN/art/`, as `ch002-B.zip`. Add any `_rejects/` it made.
-   - Zip only: never resize, convert or re-save a PNG.
-2. **Where it goes.** Use a repo for the art. The recommended one is a new **private** repo `abafaboy/msgf-art`; a public branch `msgf-art` on this repo also works if that's simpler.
-   - Attach each zip as an asset on a release named `inbox` there.
-   - Add one line per zip to `INBOX.md` on that repo's default branch: the zip's name, the time, and anything odd in the chat's `DONE` file.
-   - Tell Abafa it's there. Abafa will then tell Claude.
-3. **Read the verdict.** Claude writes one file per entry on this branch: `codex/reviews/<entry>.md`.
-   - Each file says **APPROVED**, or **REDO** with each image's id, what is wrong and the exact prompt for the redo chat.
-   - `codex/reviews/STATUS.md` is the board for everything.
-   - Pull this branch to see new verdicts.
-4. **Redo.** Open the redo chat with the prompt from the verdict file. Send its output back through the inbox the same way.
-5. **Built from approved art only.** Claude letters, narrates and renders a chapter once every part of it is approved, and posts it to YouTube as an unlisted preview. While the link to the laptop is down, Claude may put a finished video on a release named `videos` in the art repo, with the title and settings to use, so you can upload it through YouTube Studio in Abafa's browser.
+1. **Send it.** When an entry is done, commit its output to the `msgf-art` branch in its own folder under `inbox/`:
+   - a sheet or key: the entry's whole output folder, as `inbox/S20/` (for example);
+   - a chapter part: that part's PNGs plus its `PROMPTS_<part>.json`, `REVIEW_<part>.json` and `DONE_<part>.md`, as `inbox/ch002-B/`. Add any rejects it made in an `_rejects/` subfolder.
+   - Never resize, convert or re-save a PNG.
+2. **Log it.** Add one line per entry to `INBOX.md` on `msgf-art`: the entry, the time, and anything odd in its `DONE` file. Then tell Abafa; Abafa tells Claude.
+3. **Read the verdict.** Claude writes one file per entry on `msgf-bible`: `codex/reviews/<entry>.md`.
+   - Each file says **APPROVED**, or **REDO** with each image's id, what is wrong and the exact prompt for the redo job.
+   - `codex/reviews/STATUS.md` is the board for everything. Pull `msgf-bible` to see new verdicts.
+   - Approved art moves from `inbox/` into its home folder on `msgf-art` (`characters_v2/<id>/`, `chapters_v2/chNNN/art/` and so on). Claude does that, or tells you to.
+4. **Redo.** Run the redo job with the prompt from the verdict file and send its output back through `inbox/` the same way.
+5. **Built from approved art only.** Claude letters, narrates and renders a chapter once every part of it is approved, and posts it to YouTube as an unlisted preview through Abafa's browser.
 
 ## 5. Never
 
-- Never edit the scripts, briefs, designs or bible on the laptop. If something in them is wrong or impossible to draw, say so in `INBOX.md` and Claude will fix it here.
+- Never edit the scripts, briefs, designs or bible. If something in them is wrong or impossible to draw, say so in `INBOX.md` and Claude will fix it on `msgf-bible`.
 - Never use an image as approved before Claude's verdict says so.
-- Never publish or upload anything public, except a video Claude has placed on the `videos` release with its settings.
+- Never publish or upload anything public beyond the `msgf-art` branch.
 - Never delete art: rejects move into `_rejects/` folders.
 - Never put the lettering font files (Anime Ace) anywhere online.
+- Fan service only ever on adults, never on Kang Seoa (15); Song Yerin stays covered; nothing explicit, and no camera angle up a skirt or at a crotch.
 
 ## 6. Who to ask
 
 - Story, art direction or a brief's meaning: Claude, through Abafa.
-- The laptop, Codex and GitHub mechanics: you decide.
+- The drawing setup and GitHub mechanics: you decide.

@@ -2,6 +2,8 @@
 
 The laptop (device "abafaboy", Tashkent) crashed on 25 October 2026. Abafa is away until 2 November and asked a colleague to switch it back on. Everything that didn't need the laptop was finished while it was off. This is the order of work once the bridge answers again.
 
+**Update, 26 October:** Abafadot now draws in the cloud (`HANDOFF_ABAFADOT.md`), with the laptop's V2 art copied to the `msgf-art` branch. When the laptop returns, first pull `msgf-art` and `codex/reviews/STATUS.md` to see what Abafadot has drawn and what is approved; only restart Codex on the laptop for entries nobody has drawn yet, and copy any approved art from `msgf-art` into the laptop's art folders.
+
 ## 0. Check the bridge
 - `device_list_dir C:\Users\abafa\Videos\MySummonsGoFirst`. If it fails, try again later; a reminder fires on 2 November.
 - This session now has a shell on the laptop (`device_bash`) when it is connected: use it for listing, copying and checking files there.
