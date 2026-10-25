@@ -1,0 +1,251 @@
+{
+  "entry": "S16",
+  "status": "INCOMPLETE \u2014 blocked after 3/3 front attempts; Claude verdict required",
+  "claude_approved": false,
+  "completed_at_UTC": "2026-10-25T22:32:31.320750+00:00",
+  "expected_images": [
+    "front.png",
+    "turnaround.png",
+    "expressions.png",
+    "details.png",
+    "chibi.png"
+  ],
+  "delivered_candidate_images": [
+    "front.png"
+  ],
+  "missing_images": [
+    "turnaround.png",
+    "expressions.png",
+    "details.png",
+    "chibi.png"
+  ],
+  "attempts_used": 3,
+  "attempt_cap": 3,
+  "blocker": "MODEL_SHEETS_BRIEF section 2 requires a passing front before using it as the reference for the other four sheets. None passed the strict silhouette scale requirement. Three total front attempts are exhausted under PANEL_BRIEF 4b/5 and style guide 11. Do not create a fourth attempt or build from a failed/unapproved front without Claude instructions.",
+  "first_image_checkpoint": "First native PNG saved and inspected before further generation. Reported scale (~0.60 vs 0.742) and background failure; preserved as original reject.",
+  "images": [
+    {
+      "id": "front_01",
+      "output": "_rejects/borro_front_01_scale_background.png",
+      "status": "FAIL \u2014 review only; not approved; never use as reference",
+      "issues": [
+        "Scale silhouette too short: major failure.",
+        "Background has tonal variation instead of exact flat #E9E9EC.",
+        "Cloth/stone texture and small angular shadows need strict style review."
+      ],
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "e93bc79675fe32ce00230279f86ec458a362df5b903c85067c2c0e932c175b5c",
+      "original_byte_equality": true,
+      "measurements": {
+        "method": "Native pixels read only; silhouette grey-mask bounds with manual crown/sole/chin/shield landmarks. Bounds are approximate +/- 3 px; no resizing, normalization, retouching or PNG re-save.",
+        "landmarks": {
+          "crown_y": 20,
+          "sole_y": 960,
+          "chin_y": 139,
+          "silhouette_top_y": 384,
+          "silhouette_bottom_y": 943,
+          "shield_top_y": 179,
+          "shield_bottom_y": 950,
+          "shield_left_x": 1048,
+          "shield_right_x": 1399
+        },
+        "borro_height_px": 940,
+        "silhouette_height_px": 559,
+        "silhouette_to_borro_ratio": 0.59468,
+        "required_silhouette_ratio": 0.7416666666666667,
+        "relative_scale_error_percent": -19.82,
+        "estimated_head_count": 7.9,
+        "shield_to_borro_height_ratio": 0.82021,
+        "required_shield_height_ratio": 0.8333333333333334,
+        "shield_width_to_height_ratio": 0.45525,
+        "required_shield_width_to_height_ratio": 0.5
+      },
+      "background_samples_RGB": {
+        "(0, 0)": [
+          227,
+          229,
+          232
+        ],
+        "(1535, 0)": [
+          228,
+          230,
+          233
+        ],
+        "(0, 1023)": [
+          229,
+          228,
+          233
+        ],
+        "(1535, 1023)": [
+          227,
+          227,
+          231
+        ],
+        "(100, 100)": [
+          231,
+          232,
+          235
+        ],
+        "(1400, 100)": [
+          230,
+          231,
+          235
+        ]
+      },
+      "visual_review": "Inspected original full frame. Gentle humanoid face, matte inked slate shell, named outfit and grounded shield visible. Strict scale/background criteria fail. No chapter-use approval."
+    },
+    {
+      "id": "front_02",
+      "output": "_rejects/borro_front_02_scale_strap.png",
+      "status": "FAIL \u2014 review only; not approved; never use as reference",
+      "issues": [
+        "Scale silhouette about 5.5% too short.",
+        "Unrequested diagonal shoulder strap: satchel should hang from rope belt.",
+        "Head rotates away from a strict front view.",
+        "Background not exact flat #E9E9EC."
+      ],
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "27de03ac5aecb9292c9a0dc8464a321fde0952d6f2233265771c8dc11d633167",
+      "original_byte_equality": true,
+      "measurements": {
+        "method": "Native pixels read only; silhouette grey-mask bounds with manual crown/sole/chin/shield landmarks. Bounds are approximate +/- 3 px; no resizing, normalization, retouching or PNG re-save.",
+        "landmarks": {
+          "crown_y": 38,
+          "sole_y": 954,
+          "chin_y": 157,
+          "silhouette_top_y": 305,
+          "silhouette_bottom_y": 947,
+          "shield_top_y": 173,
+          "shield_bottom_y": 949,
+          "shield_left_x": 1059,
+          "shield_right_x": 1436
+        },
+        "borro_height_px": 916,
+        "silhouette_height_px": 642,
+        "silhouette_to_borro_ratio": 0.70087,
+        "required_silhouette_ratio": 0.7416666666666667,
+        "relative_scale_error_percent": -5.5,
+        "estimated_head_count": 7.7,
+        "shield_to_borro_height_ratio": 0.84716,
+        "required_shield_height_ratio": 0.8333333333333334,
+        "shield_width_to_height_ratio": 0.48582,
+        "required_shield_width_to_height_ratio": 0.5
+      },
+      "background_samples_RGB": {
+        "(0, 0)": [
+          226,
+          227,
+          230
+        ],
+        "(1535, 0)": [
+          227,
+          228,
+          230
+        ],
+        "(0, 1023)": [
+          228,
+          227,
+          231
+        ],
+        "(1535, 1023)": [
+          226,
+          225,
+          229
+        ],
+        "(100, 100)": [
+          230,
+          230,
+          234
+        ],
+        "(1400, 100)": [
+          230,
+          230,
+          233
+        ]
+      },
+      "visual_review": "Inspected original full frame. Gentle humanoid face, matte inked slate shell, named outfit and grounded shield visible. Strict scale/background criteria fail. No chapter-use approval."
+    },
+    {
+      "id": "front_03",
+      "output": "front.png",
+      "status": "FAIL \u2014 review only; not approved; never use as reference",
+      "issues": [
+        "Scale silhouette about 10% too short.",
+        "Shield height and width below design ratios.",
+        "Background has subtle variation instead of exact flat #E9E9EC.",
+        "Stone/tunic texture and folds still require Claude style review; shield-grip fingers are partly occluded."
+      ],
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "64abbf83a37b26be97be54f561716ef8afb941a3b8b977b41b67b0d23f05cce0",
+      "original_byte_equality": true,
+      "measurements": {
+        "method": "Native pixels read only; silhouette grey-mask bounds with manual crown/sole/chin/shield landmarks. Bounds are approximate +/- 3 px; no resizing, normalization, retouching or PNG re-save.",
+        "landmarks": {
+          "crown_y": 20,
+          "sole_y": 959,
+          "chin_y": 153,
+          "silhouette_top_y": 311,
+          "silhouette_bottom_y": 938,
+          "shield_top_y": 200,
+          "shield_bottom_y": 947,
+          "shield_left_x": 1083,
+          "shield_right_x": 1432
+        },
+        "borro_height_px": 939,
+        "silhouette_height_px": 627,
+        "silhouette_to_borro_ratio": 0.66773,
+        "required_silhouette_ratio": 0.7416666666666667,
+        "relative_scale_error_percent": -9.97,
+        "estimated_head_count": 7.06,
+        "shield_to_borro_height_ratio": 0.79553,
+        "required_shield_height_ratio": 0.8333333333333334,
+        "shield_width_to_height_ratio": 0.4672,
+        "required_shield_width_to_height_ratio": 0.5
+      },
+      "background_samples_RGB": {
+        "(0, 0)": [
+          227,
+          229,
+          232
+        ],
+        "(1535, 0)": [
+          227,
+          228,
+          231
+        ],
+        "(0, 1023)": [
+          228,
+          227,
+          232
+        ],
+        "(1535, 1023)": [
+          226,
+          225,
+          230
+        ],
+        "(100, 100)": [
+          231,
+          231,
+          234
+        ],
+        "(1400, 100)": [
+          230,
+          230,
+          235
+        ]
+      },
+      "visual_review": "Inspected original full frame. Gentle humanoid face, matte inked slate shell, named outfit and grounded shield visible. Strict scale/background criteria fail. No chapter-use approval."
+    }
+  ],
+  "preservation": "All PNGs are byte-for-byte copies of original image_gen output. No resizing, converting, re-saving, pixel cleanup, crops or generated thumbnails. References match recorded original Git PNG SHA256 hashes. Final failed third attempt appears as front.png for easy review and a byte-identical copy in _rejects/.",
+  "scope": "Only inbox/S16/ and one INBOX.md line prepared. No main, canonical approved art, other entries, briefs, bible, scripts or font files modified. No S2b references."
+}
