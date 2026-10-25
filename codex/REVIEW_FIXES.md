@@ -150,14 +150,14 @@ All pass. In L1 the gate opens in the pit's far wall, at the bottom between the 
 | Entry | Result |
 |---|---|
 | S1 Jaeha | Round 1 redone. Claude re-checks the files before the owner's PDF. |
-| S2 Nib | **Passes**, with one fix outstanding. Claude moved the fang to his left (picture-right) in `front.png`, `turnaround.png` and the front figure of `turnaround_mask.png`. One fix is still being made: in the three-quarter figure of `turnaround_mask.png`, the mask must cover his left eye. |
+| S2 Nib | **Passes.** Claude moved the fang to his left (picture-right) in `front.png`, `turnaround.png` and the front figure of `turnaround_mask.png`. Claude's later three-quarter mask note was wrong: the original mask already covered his left eye, the near eye in that view, and the visible eye is his right. The extended mask is rejected and the original restored. |
 | S3 Yerin | **Passes.** Plain shoes, clean jacket, light blush. |
 | S4 Mok and the Black Hound | **Passes.** The mage's staff is short. |
 | S5 husk | **Passes.** A simplified mannequin. |
 | S6 knight | **Passes.** A plain helm whose whole face is the hole; a nine-tower badge, and nine towers on the crossguard; the cracked left pauldron; modern chains with a stamped link. |
 | S7 lizards | **Passes.** Hand-inked slabs, worn teeth, a crocodile-tortoise head, the blind left eye in every view. |
 | S8 Seoa | **Passes.** The skirt reaches the knee, and the keychain screen is grey. |
-| S9 Bomi | Round 1 passed. Now in round 2: the restyle from design 2.7. |
+| S9 Bomi | Round 1 passed. **Round 2 (restyle) passes:** cropped bomber, crop top, denim shorts with a belt, thigh-high socks, plain trainers; face, ponytail, bow and drone unchanged. |
 | S10 Choi | **Passes.** |
 | S11 Kett | **Passes.** A young goblin face; one real sewn patch. |
 | S12 silhouettes | **Passes** as rebuilt. One update is needed: re-mask Lyra from her approved `lyra/front.png` (design 2.10) instead of the earlier part, and re-run the composite. |
