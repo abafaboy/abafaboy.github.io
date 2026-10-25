@@ -384,6 +384,7 @@ Reject the image if any of these show. Look at it full size, then at 200 px wide
 8. **Background.** Sheets: flat #E9E9EC only, no vignette, gradient or texture, and no shadow pool larger than a soft contact shadow under the feet.
 9. **Modesty.** Kang Seoa is 15: her skirt reaches the top of her knee, and nothing in her images is styled to show skin. Adults wear exactly the design's clothes.
 10. **Left and right.** Side locks (Jaeha's fringe, pencil and notebook; Nib's ear notch, fang and mask; Yerin's sleeve cross; the lizards' blind eye; the knight's cracked pauldron; Lyra's braid, guard and quiver) must sit on the correct side in every view. The rule: a character facing the viewer has their RIGHT side on picture-left; a character facing picture-left shows their LEFT side; a character facing picture-right shows their RIGHT side; in a back view, picture-left is their LEFT. A lock on the far side is hidden or only peeks past the silhouette.
+11. **Compression or softness** (section 13). Blocky 8×8 squares in flat colour or skies; colour smearing or bleeding around red, orange or blue edges; ringing halos beside ink lines; banded steps in gradients or dark skies; or a soft, blurred, upscaled look. Look at full size and at 200%. Any of these is a reject: regenerate, never "fix" it by sharpening.
 
 ### 11c. Acting checks (chapter and test panels only)
 
@@ -407,3 +408,23 @@ The full comparison is in `research/RENDERING_STUDY.md` section 3.
 - **`style_test/p3_nib_reveal.png`:**
   - a centred, eye-level full figure, and the cyan summon light doesn't touch any face (fix with the `summon-arrival` line in 10.2 and the camera rule in section 2);
   - it also shows the OLD Nib design, which is retired.
+
+## 13. Image quality: nothing may ever look compressed
+
+**The owner, 25 October:** "make sure no images look compressed ever in the manhwa."
+
+**Measured problem.** The earlier chapter videos were 1280×720 at about 0.44 Mbps (x264 CRF 26, `veryfast`), built from a strip saved as JPEG (quality 90) and lossy WebP (quality 88). YouTube recommends about 16 Mbps for a 1440p upload at 24–30 fps (`support.google.com/youtube/answer/1722171`). That gap is why they looked compressed. The pipeline below is the fix; every step is lossless until the one final video encode.
+
+**Codex (every image job):**
+1. Save every generated image as a **PNG straight from the generator**, at the full size the brief gives (1536×1024, 1024×1536 or 1024×1024). Never save or convert to JPEG or WebP, never re-save through an image viewer, never screenshot an image to keep it.
+2. **Never shrink and re-enlarge** an image, and never enlarge one to fit. Crops for edits are composited back at their original pixel size.
+3. Zip deliveries **store** the PNGs (zip does not re-compress pixels); do not export art through any tool that re-encodes it.
+4. Run check 11b.11 on every image.
+
+**Claude's tools (so the same rules hold after Codex):**
+- `autostrip2.py`: the strip renders at 2× (a 1080 px layout becomes a 2160 px wide strip), saved as lossless PNG; the reading segments are lossless WebP; panel art that arrives as JPEG or lossy WebP is flagged.
+- `recap_video.py`: 2560×1440 at 30 fps, always a downscale of the 2× strip (area filter), H.264 High at CRF 12 with `-tune animation`, BT.709 colour, YouTube's recommended GOP (half the frame rate) and two B-frames, AAC at 48 kHz, and a fixed ±1-level dither on the blurred side panels so they do not band. The chapters are joined without re-encoding.
+- The flight bundle carries the lossless segments, never a JPEG strip.
+- PDFs and review sheets embed the PNG pixels losslessly.
+- **Upload the final video at 1440p.** YouTube re-encodes every upload. A clean, high-resolution master gives its encoder the most to work with, and many creators report that YouTube uses a higher-quality codec for uploads of 1440p and above; that report is not guaranteed by YouTube.
+

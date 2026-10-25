@@ -17,6 +17,13 @@ How it letters:
 
 Outputs (OUT_DIR): strip.png, NNN.webp segments, layout.json (voiced lines with y positions, panels, segments, warnings).
 
+Image quality (owner, 25 October: "make sure no images look compressed ever in the manhwa"):
+- the strip is rendered at --dpr (default 2): a 1080 px layout becomes a 2160 px wide strip, so a 1440p video
+  downscales it instead of upscaling it, and lettering stays sharp;
+- strip.png is lossless; the NNN.webp segments are LOSSLESS WebP (never lossy);
+- layout.json keeps every coordinate in layout (CSS) px and records "scale" (= dpr) for the strip image;
+- art that arrives as JPEG or lossy WebP is flagged in the warnings: panel art must be PNG.
+
 usage: autostrip2.py chNNN.yaml ART_DIR OUT_DIR [--kit KIT_DIR] [--placeholders] [--only P01-P20]
 """
 import argparse
@@ -44,6 +51,18 @@ LINE = "#2B2523"
 
 def uri(p):
     return Path(p).resolve().as_uri()
+
+
+def lossy_image(p):
+    """True for JPEG files and lossy WebP files (lossless WebP carries a VP8L chunk)."""
+    suf = Path(p).suffix.lower()
+    if suf in (".jpg", ".jpeg"):
+        return True
+    if suf == ".webp":
+        with open(p, "rb") as fh:
+            head = fh.read(4096)
+        return b"VP8L" not in head
+    return False
 
 
 # ----------------------------------------------------------------------------------------------- script loading
@@ -754,7 +773,7 @@ def main():
     ap.add_argument("--width", type=int, default=1080)
     ap.add_argument("--seg-max", type=int, default=2400)
     ap.add_argument("--seg-min", type=int, default=700)
-    ap.add_argument("--webp-q", type=int, default=88)
+    ap.add_argument("--dpr", type=int, default=2, help="pixel ratio of the strip image (2 = 2160 px wide for a 1080 layout)")
     ap.add_argument("--placeholders", action="store_true")
     ap.add_argument("--only", default=None, help="panel range, e.g. P01-P20")
     ap.add_argument("--letter-font", default="/home/claude/msgf-fonts/anime_ace_2",
@@ -843,6 +862,8 @@ def main():
                 placeholder(pid, p.get("shape", "wide"), p.get("art", ""), src, chibi=p.get("style") == "chibi")
                 warnings.append(f"{pid}: placeholder art")
             art_for[pid] = Path(src)
+            if lossy_image(art_for[pid]):
+                warnings.append(f"{pid}: art is a lossy {art_for[pid].suffix} file; panel art must be PNG (no compression)")
             for u in p.get("ui") or []:
                 if u.get("on") != "screen":
                     continue
@@ -1230,6 +1251,9 @@ def main():
         doc = (f'<!doctype html><html><head><meta charset="utf-8">{FONT_LINKS}<style>{strip_css(W)}</style></head>'
                f'<body>{"".join(blocks)}</body></html>')
         (OUT / "strip.html").write_text(doc, encoding="utf-8")
+        # the final strip renders at A.dpr device pixels per layout pixel (sharp lettering, no upscaling later)
+        sctx = br.new_context(device_scale_factor=A.dpr)
+        page = sctx.new_page(); page.set_default_timeout(240000)
         page.set_viewport_size({"width": W, "height": 1600})
         page.goto(uri(OUT / "strip.html"), wait_until="load")
         page.evaluate("document.fonts.ready")
@@ -1247,8 +1271,20 @@ def main():
             texts: [...document.querySelectorAll('.lt')].map(e => ({t:e.textContent.slice(0,40), cls:e.className, ...r(e)})),
             blocks: [...document.querySelectorAll('.blk')].map(r)};
         }""")
-        page.set_viewport_size({"width": W, "height": min(geo["H"], 16000)})
-        page.screenshot(path=str(OUT / "strip.png"), full_page=True)
+        # capture in bands (one full-page capture at 2x can exceed the browser's surface limits) and stitch losslessly
+        Hc = int(geo["H"])
+        page.set_viewport_size({"width": W, "height": min(Hc, 4000)})
+        strip_img = Image.new("RGB", (W * A.dpr, Hc * A.dpr), "white")
+        band = 4000
+        for y_ in range(0, Hc, band):
+            h_ = min(band, Hc - y_)
+            part = WORK / "strip_band.png"
+            page.screenshot(path=str(part), full_page=True, clip={"x": 0, "y": y_, "width": W, "height": h_})
+            with Image.open(part) as im_:
+                if im_.size != (W * A.dpr, h_ * A.dpr):
+                    warnings.append(f"STRIP BAND SIZE {im_.size} at y={y_}, expected {(W * A.dpr, h_ * A.dpr)}")
+                strip_img.paste(im_.convert("RGB"), (0, y_ * A.dpr))
+        strip_img.save(OUT / "strip.png", compress_level=6)
         br.close()
 
     # ------------------------------------------------ checks
@@ -1280,14 +1316,14 @@ def main():
         cuts.append(y)
         top = y
     bounds = [0] + cuts + [H]
-    strip = Image.open(OUT / "strip.png").convert("RGB")
+    strip = strip_img
     for old in OUT.glob("[0-9][0-9][0-9].webp"):
         old.unlink()
     segs = []
     for k in range(len(bounds) - 1):
         a, b = bounds[k], bounds[k + 1]
         name = f"{k + 1:03d}.webp"
-        strip.crop((0, a, W, b)).save(OUT / name, "WEBP", quality=A.webp_q, method=6)
+        strip.crop((0, a * A.dpr, W * A.dpr, b * A.dpr)).save(OUT / name, "WEBP", lossless=True, quality=80, method=4)
         segs.append({"file": name, "top": a, "height": b - a})
 
     def seg_of(y):
@@ -1308,7 +1344,7 @@ def main():
         s = seg_of(p["y1"] - 1)
         pls.append({"p": int(p["p"][1:]), "id": p["id"], "y_top": round(p["y0"]), "y_bottom": round(p["y1"]),
                     "segment": s["file"], "seg_y_bottom": min(s["height"], round(p["y1"] - s["top"]))})
-    layout = {"chapter": S.get("chapter"), "title": S.get("title"), "width": W, "height": H,
+    layout = {"chapter": S.get("chapter"), "title": S.get("title"), "width": W, "height": H, "scale": A.dpr,
               "segments": [[s["file"], s["height"]] for s in segs], "segment_tops": [s["top"] for s in segs],
               "lines": lines_meta, "panels": pls, "warnings": warnings}
     json.dump(layout, open(OUT / "layout.json", "w", encoding="utf-8"), indent=1, ensure_ascii=False)

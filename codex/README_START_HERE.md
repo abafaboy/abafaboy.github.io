@@ -53,6 +53,7 @@ Claude opens the Codex chats on the owner's computer and checks every result. Ea
 - **No text in the art,** except the single block letter T on Jaeha's vest patch. Emblems without letters are fine; brand logos and wordmarks are not. The letterer adds every word, sound effect and window. Screens that need content are flat #00FF00.
 - **No outside images.** Never use real webtoon images as inputs, and never put a real title, studio, artist or character name in a prompt.
 - **No old references.** Never use the old cast's sheets or old panels as references.
+- **PNG only, nothing compressed.** Save every image as a PNG straight from the generator, at full size; never JPEG or WebP, never shrink-and-enlarge (`MANHWA_STYLE_GUIDE.md` section 13, check 11b.11).
 - **Write only in your job's folder.** Do not edit `bible/`, `research/`, `scripts/` or the briefs.
 - **Nothing public.** Do not publish or upload anything.
 

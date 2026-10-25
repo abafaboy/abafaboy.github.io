@@ -45,7 +45,7 @@ For each panel in the script, in order. Skip `kind: title`; for `kind: end`, see
 The `kind: end` panel has a `chibi_gag`. Draw it as `END.png`: 1024×1024, chibi style, plain white background, no text.
 
 ## 4. Files
-- Save each panel as `chapters/chNNN/art/<id>.png` (for example `P07.png`, or `P12a.png` for an insert).
+- Save each panel as `chapters/chNNN/art/<id>.png` (for example `P07.png`, or `P12a.png` for an insert): a PNG straight from the generator, at the size above. Never JPEG or WebP, never re-saved or resized (`MANHWA_STYLE_GUIDE.md` section 13).
 - Nothing else goes in that folder except `PROGRESS.md` and `DONE.md`. Put rejects in `chapters/chNNN/_rejects/`.
 - Do not modify scripts, bible, characters, locations, world, kit or any other chapter's files.
 
