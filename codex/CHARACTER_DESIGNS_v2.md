@@ -129,11 +129,11 @@ Make `characters_v2/scale_chart_v2.png` with all of them standing in a row, afte
 | Chapter | Seal | Change |
 |---|---|---|
 | ch 3 | 2/5 | The Ninth Wall's colours return to his cloak: a wall-blue lining #2F4A6E, bronze trim #A87A3A, and the nine-tower sigil on the clasp |
-| ch 20 | 3/5 | Scout-captain armour |
+| ch 20 | 3/5 | Scout-captain armour (designed for ch 20): a close-fitting cuirass of overlapping dark wall-blue plates #2F4A6E edged in bronze #A87A3A, worn over the belted cloak; a single bronze pauldron on his LEFT shoulder embossed with the nine-tower sigil; bronze-plated bracers on both forearms; a bronze-studded belt with more pouches. The red scarf, binoculars and bare feet stay. His knives become scout-captain's long knives: 40 cm dark blades with bronze guards, still worn crossed at the small of his back. The husk mask stays on in public. A soldier's armour, never shiny or toy-like. |
 | ch 55 | 4/5 | Shadow-step: his outline trails charcoal smoke with amber flecks when he moves |
 | ch 88 | 5/5 | His full form, with the nine-tower crest |
 
-Chapters 20, 55 and 88 are designed later.
+Chapters 55 and 88 are designed later.
 
 **Acting.**
 - Deadpan; few words; distrusts doors.

@@ -1,0 +1,1141 @@
+chapter: 20
+title: Three of Five
+format: SCRIPT_FORMAT_v2.md
+when: "Saturday, the last nine minutes before the gate closes: the ruined boss chamber of the drowned cathedral."
+story_beats: ARC3_4_BEATS.md#20-three-of-five
+cast:
+  kang_jaeha: vest
+  nib: mask                 # field form; seal 2/5 → 3/5 at P40 (scout-captain armour from P41)
+  borro: default            # rest form (spent); husk face; the drone in his moss
+  lyra: default             # field form ends at P13; rest form after
+  song_yerin: default
+  mok_hangyu: default
+  han_sora: default         # in the high doorway, watching; leaves at P64
+  bh_second: default        # Mok's second team, six hunters (see continuity)
+locations: [boss_chamber_bells]
+continuity:
+  - "Jaeha: the torn orange vest, the grey hoodie, the forearm bandage, the earpiece; blood from his nose and LEFT ear. He cannot stand from P01 to P56 (kneeling, then on his hands, then lying against Borro's shell); from P20 every hit Nib takes opens on Jaeha's body instead: a gash across his LEFT upper arm (P23), an arrow wound in his RIGHT thigh (P27), a burn down his RIGHT forearm (P31), a cut across his cheek (P35)."
+  - "Nib: seal 2/5 look and the cracked husk mask, field form (amber), until P40. From P41: SEAL 3/5, the scout-captain armour (new design, CHARACTER_DESIGNS_v2.md 2.2): a close-fitting cuirass of overlapping dark wall-blue plates #2F4A6E edged in bronze #A87A3A over the belted cloak, a single bronze pauldron on his LEFT shoulder embossed with the nine-tower sigil, bronze-plated bracers on both forearms, a bronze-studded belt with more pouches; the red scarf, the brass binoculars and the bare feet stay; his two knives become scout-captain's long knives (40 cm blades, bronze guards). The husk mask stays on. Amber outline brighter."
+  - "Borro: rest form (spent, no glow), the husk face, the dented shield; Bomi's drone in his moss streaming. Lyra: rest form from P13 (no glow), two arrows left, brave anyway."
+  - "Mok: the black guild jacket, the gold chain, his cracked black tower shield with the broken red hound, the short broad sword. The shield's grip is a hollow steel tube (it matters at P60)."
+  - "Mok's second team (bh_second, generic): six Black Hound hunters in black guild jackets: two swordsmen, a spearman, an archer, a mage with a core-tipped staff (violet bolts), and the shield-bearer from ch 7. They come down ropes from the high doorway."
+  - "The chamber: ruined, flooded knee-deep, rubble heaps, half the dome open to the gate's sky in shafts of daylight-coloured light; the high doorway on the back wall with two ropes hanging from it from P03."
+plants:
+  - "PLANT P41: Nib's seal 3/5 (scout-captain armour)."
+  - "PLANT P60–P66: Minseok's phone in Mok's shield grip, one video four years old (ch 21)."
+hook_type: mystery
+
+panels:
+
+  # ================= MOK TURNS (P01–P11) =================
+  - id: P01
+    recipe: establish
+    shape: full
+    gap: none
+    bg: black
+    camera: "low, from the water in the ruined chamber, looking up the back wall: Sora in the high doorway, two ropes dropping past her"
+    light: "key: shafts of light through the broken dome; torchlight in the doorway"
+    art: >
+      The ruined, flooded boss chamber, from low in the water looking up the back wall: in the small doorway 6 m up, Han Sora
+      (han_sora) leans on the frame with her crossbow lowered; two ropes drop past her and uncoil down the wall into the water.
+      Below, Jaeha kneels with the core in his lap; the team is scattered round him.
+    acting:
+      han_sora: "leaning on the door frame, watching, the compass on her wrist"
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.92], text: "[GATE CLOSING · 09:00]"}
+    sfx:
+      - {text: "FWUMP FWUMP", style: quiet, at: [0.40, 0.40], size: S, rot: 0}
+
+  - id: P02
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level along the back wall: six Black Hound hunters sliding down the ropes into the water one after another"
+    light: "torchlight; daylight shafts"
+    art: >
+      Along the back wall: six Black Hound hunters (bh_second) slide down the ropes one after another and splash into the water,
+      drawing weapons: swords, a spear, a bow, a mage's core-tipped staff, a shield.
+    acting:
+      bh_second: "sliding down the ropes, landing in the water, drawing weapons"
+    calm: top
+    sfx:
+      - {text: "SPLASH SPLASH SPLASH", style: impact, at: [0.50, 0.70], size: M, rot: 0}
+
+  - id: P03
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, behind Mok: him walking to join his men, raising his cracked shield and drawing his sword, his back to Jaeha"
+    light: "daylight shafts"
+    art: >
+      From low behind Mok (mok_hangyu): he walks through the water to join his men, raising his cracked shield and drawing his
+      short sword; then he turns to face Jaeha with the six at his back.
+    acting:
+      mok_hangyu: "turning with the sword drawn and the cracked shield up, the six fanning out behind him"
+      bh_second: "fanning out behind Mok, weapons ready"
+    eyeline: "Mok → Jaeha"
+    foreground: "Mok's sword hand, cropped, right"
+    calm: top
+    lines:
+      - {who: mok_hangyu, type: speech, text: "GIVE ME THE CORE. AND YOUR PHONE.", side: l}
+
+  - id: P04
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, side-on: Jaeha on his knees with the core, looking up at Mok across the water"
+    light: "daylight shafts; violet from the core"
+    face: private
+    art: >
+      Side-on: Jaeha (kang_jaeha) kneels in the water with the core in his lap, looking up at Mok across the water; Yerin kneels
+      beside him.
+    acting:
+      kang_jaeha: "kneeling, the core in his arms, looking up, calm"
+      song_yerin: "kneeling beside him, gripping his sleeve"
+    eyeline: "Jaeha → Mok (up)"
+    foreground: "the core's violet glow, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "TWO MINUTES AGO YOU WERE HOLDING ME UP, SIR.", side: r}
+
+  - id: P05
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Mok, the dead eyes back"
+    light: "shadow"
+    art: >
+      Close on Mok (mok_hangyu), the dead eyes back.
+    acting:
+      mok_hangyu: "flat eyes, mouth turned down, sword raised"
+    eyeline: "Mok → Jaeha"
+    foreground: "the broken red hound on his shield, cropped, left"
+    calm: right
+    lines:
+      - {who: mok_hangyu, type: menace, text: "AND NOW I'M PUTTING YOU DOWN. LIKE I SHOULD HAVE AT GATE 0912.", side: l}
+
+  - id: P06
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, behind the six: Mok pointing his sword past Jaeha at the summons, giving orders"
+    light: "daylight"
+    art: >
+      From low behind the six hunters: Mok points his sword past Jaeha at Borro, Lyra and Nib.
+    acting:
+      mok_hangyu: "pointing with the sword, giving orders"
+      bh_second: "nodding, spreading out"
+    eyeline: "Mok → the summons"
+    foreground: "the archer's bow, cropped, left"
+    calm: top
+    lines:
+      - {who: mok_hangyu, type: speech, text: "THE HUSKS ARE SPENT. KILL THE RAT, AND NOBODY WALKS OUT BUT BLACK HOUND.", side: l}
+
+  - id: P07
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Sora in the high doorway, resting her chin on her crossbow, watching"
+    light: "torchlight"
+    art: >
+      Close on Sora (han_sora) in the high doorway, resting her chin on her crossbow, watching with interest.
+    acting:
+      han_sora: "chin resting on the crossbow, eyes amused, not moving to help anyone"
+    eyeline: "Sora → Jaeha"
+    calm: left
+    lines:
+      - {who: han_sora, type: speech, text: "DON'T MIND ME. I'M JUST HERE TO WATCH.", side: r}
+
+  - id: P08
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "Jaeha on his knees facing the reader, lit red by a warning window"
+    light: "red"
+    face: private
+    art: >
+      Jaeha (kang_jaeha) on his knees faces the reader, lit red by a warning window that opens over him. The upper half is empty
+      for the window.
+    acting:
+      kang_jaeha: "kneeling, eyes on the window, blood on his face, jaw tight"
+    eyeline: "Jaeha → the window"
+    calm: top
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.06], text: "[OPERATOR OVERLOAD · ONLY ONE SUMMON CAN STAY LINKED]"}
+    silent: true
+
+  - id: P09
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: Lyra and Borro on either side of Jaeha, the glow flickering in their eyes"
+    light: "flickering river blue and moss green"
+    art: >
+      Lyra (lyra) and Borro (borro) stand on either side of Jaeha, the glow flickering in their eyes like dying bulbs.
+    acting:
+      lyra: "the river-blue glow flickering, swaying, gripping her bow"
+      borro: "the green glow flickering, leaning heavily on his dented shield"
+    eyeline: "both → Jaeha"
+    foreground: "Mok's men in the background, blurred, cropped, top"
+    calm: top
+    lines:
+      - {who: lyra, type: speech, text: "WHY IS MY LIGHT GOING OUT? MERCHANT?", side: l}
+
+  - id: P10
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of Jaeha's eyes, choosing"
+    light: "red; amber"
+    face: private
+    art: >
+      Extreme close-up: Jaeha's eyes (kang_jaeha), choosing. Fill the canvas edge to edge.
+    acting:
+      kang_jaeha: "eyes closing for a moment, then opening, decided"
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: inner, text: "ONE LINK. ONE SUMMON. ONLY ONE OF THEM HAS HELD A WALL ALONE."}
+
+  - id: P11
+    kind: title
+    shape: full
+    gap: long
+    bg: black
+    title_card: "MY SUMMONS GO FIRST · CHAPTER 20 · THREE OF FIVE"
+    notes: "Title card at panel 11 of 66 (17%)."
+
+  # ================= ONE LINK (P12–P20) =================
+  - id: P12
+    recipe: talk
+    shape: wide
+    gap: long
+    bg: black
+    camera: "low, close two-shot: Jaeha speaking to Lyra and Borro without looking away from Mok"
+    light: "daylight; red"
+    face: private
+    art: >
+      Close and low: Jaeha (kang_jaeha) speaks to Lyra and Borro without looking away from Mok.
+    acting:
+      kang_jaeha: "kneeling, eyes on Mok, voice low and steady"
+    eyeline: "Jaeha → Mok"
+    foreground: "Lyra's bow and Borro's shield on either side, cropped"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "I'M SORRY. I CAN ONLY HOLD ONE OF YOU. PROTECT YERIN. AND STAY ALIVE.", side: r}
+
+  - id: P13
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level: the glow going out of Lyra's and Borro's eyes, both suddenly heavier, a window"
+    light: "the glows dying"
+    art: >
+      The glow goes out of Lyra's and Borro's eyes and their outlines vanish: rest form. Lyra drops to one knee; Borro sags on
+      his shield. The upper part is empty for the window.
+    acting:
+      lyra: "dropping to one knee, gasping, bow still in hand"
+      borro: "sagging on his shield, eyes dull"
+    calm: top
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[LYRA · BORRO · LINK RELEASED · REST FORM]"}
+    silent: true
+
+  - id: P14
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: Nib stepping out in front of all of them, alone, between Jaeha and the seven, knives drawn"
+    light: "daylight shafts; amber"
+    art: >
+      Nib (nib, mask; field form) steps out in front of all of them, alone, into the open water between Jaeha and the seven
+      hunters, both notched knives drawn in a reverse grip, his scarf moving.
+    acting:
+      nib: "stepping forward into a low stance, knives reversed, eyes blazing amber"
+      mok_hangyu: "facing him, sword up"
+    eyeline: "Nib → Mok; Mok → Nib"
+    foreground: "Jaeha's hand on the core, cropped, bottom left"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "WHO'S IN CHARGE HERE?", side: r}
+
+  - id: P15
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Jaeha, a bloody smile, the same answer as the first night"
+    light: "amber"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha), a bloody, crooked smile.
+    acting:
+      kang_jaeha: "a crooked smile, blood on his teeth, eyes steady on Nib's back"
+    eyeline: "Jaeha → Nib"
+    foreground: "the core in his arms, cropped, bottom"
+    calm: right
+    lines:
+      - {who: kang_jaeha, type: speech, text: "I THINK... IT'S ME. HOLD THE LINE, NIB.", side: l}
+
+  - id: P16
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, behind Nib: the seven hunters facing the small cloaked figure, Mok laughing"
+    light: "daylight"
+    art: >
+      From low behind Nib: the seven hunters face the small cloaked figure; Mok laughs.
+    acting:
+      mok_hangyu: "laughing, sword pointing at Nib"
+      bh_second: "grinning, spreading round Nib"
+      nib: "seen from behind, utterly still"
+    eyeline: "Mok → Nib"
+    foreground: "Nib's cloak and scarf, cropped, bottom"
+    calm: top
+    lines:
+      - {who: mok_hangyu, type: speech, text: "ONE HUSK AGAINST SEVEN HUNTERS? CUT IT TO PIECES.", side: l}
+
+  - id: P17
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Nib's masked face, deadpan"
+    light: "amber"
+    art: >
+      Close on Nib's masked face (nib), deadpan, his eye blazing.
+    acting:
+      nib: "flat, eye blazing, mouth a straight line"
+    eyeline: "Nib → Mok"
+    foreground: "Nib's red scarf, cropped, bottom right"
+    calm: left
+    lines:
+      - {who: nib, type: speech, text: "I HELD A WALL FOR NINE DAYS. I CAN HOLD SEVEN MEN FOR NINE MINUTES.", side: r}
+
+  - id: P18
+    recipe: insert
+    shape: strip
+    gap: short
+    bg: black
+    camera: "a thin grey memory strip: the Ninth Wall, a small figure alone on its battlements against a dark swarm"
+    light: "grey memory"
+    art: >
+      A thin grey memory strip: the Ninth Wall's long battlement, and a small cloaked figure alone on it against a dark swarm
+      leaking violet ash. Fill the canvas edge to edge.
+    calm: none
+    silent: true
+
+  - id: P19
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, tilted: three hunters charging Nib at once through the water, swords and spear"
+    light: "daylight; spray"
+    art: >
+      Three hunters charge Nib at once through the water: two swordsmen and the spearman, spray flying.
+    acting:
+      bh_second: "three hunters charging, weapons raised"
+      nib: "crouching to meet them"
+    calm: top
+    sfx:
+      - {text: "SPLSH SPLSH SPLSH", style: impact, at: [0.60, 0.70], size: L, rot: -6}
+
+  - id: P20
+    recipe: carry
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close on Jaeha: his hand pressed flat in the water, an amber thread running to Nib, his eyes closing"
+    light: "amber"
+    face: private
+    art: >
+      Close and low on Jaeha (kang_jaeha): he presses one hand flat on the water, an amber thread running from it to Nib, and
+      closes his eyes.
+    acting:
+      kang_jaeha: "kneeling, one hand flat on the water, eyes closed, lips moving"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: whisper, text: "GIVE ME EVERYTHING THAT HITS YOU.", side: r}
+
+  # ================= THE LINE (P21–P39) =================
+  - id: P21
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: Nib parrying two swords and ducking the spear, knives a blur"
+    light: "amber streaks; sparks"
+    art: >
+      Nib parries both swords and ducks under the spear, his knives a blur of sparks.
+    acting:
+      nib: "parrying two swords at once, ducking the spear"
+      bh_second: "slashing and thrusting"
+    calm: top
+    sfx:
+      - {text: "KLANG KLANG", style: impact, at: [0.40, 0.30], size: L, rot: -8}
+
+  - id: P22
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, behind a swordsman: his blade slicing across Nib's upper arm, Nib not flinching"
+    light: "a red flash"
+    art: >
+      From low behind a swordsman: his blade slices across Nib's upper arm; Nib doesn't flinch, and no blood comes from the cut.
+    acting:
+      bh_second: "following through on the slash"
+      nib: "not flinching, already turning"
+    calm: top
+    sfx:
+      - {text: "SHHK", style: impact, at: [0.50, 0.30], size: L, rot: 6}
+
+  - id: P23
+    recipe: carry
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha: a gash opening across his own LEFT upper arm, blood spilling down his sleeve"
+    light: "amber ring; red"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha): a gash opens across his own LEFT upper arm, blood spilling down his sleeve; he doesn't make a
+      sound.
+    acting:
+      kang_jaeha: "eyes squeezed shut, jaw locked, the arm jerking"
+    calm: left
+    silent: true
+    sfx:
+      - {text: "SHK", style: quiet, at: [0.30, 0.30], size: S, rot: 0}
+
+  - id: P24
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low two-shot: Yerin pressing glowing hands to Jaeha's arm, horrified, Lyra beside her with her bow raised"
+    light: "mint glow"
+    art: >
+      Yerin (song_yerin) presses glowing hands to Jaeha's arm, horrified; Lyra (lyra, rest form) kneels beside them with her bow
+      raised and an arrow notched, covering them.
+    acting:
+      song_yerin: "pressing her hands to the gash, eyes wet"
+      lyra: "kneeling, an arrow notched, eyes on the hunters, jaw set"
+    eyeline: "Yerin → Jaeha; Lyra → the hunters"
+    foreground: "Lyra's bow, cropped, left"
+    calm: top
+    lines:
+      - {who: song_yerin, type: shout, text: "HE'S TAKING ALL OF IT! EVERY CUT!", side: l}
+      - {who: lyra, type: speech, text: "THEN HEAL FASTER. I'LL SHOOT ANYONE WHO COMES CLOSE.", side: r}
+
+  - id: P25
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: Nib kicking the spearman's legs out and driving his knife hilt into the second swordsman's jaw"
+    light: "amber; spray"
+    art: >
+      Nib kicks the spearman's legs out from under him and drives a knife's hilt up into the second swordsman's jaw.
+    acting:
+      nib: "a low sweeping kick, then a rising hilt strike"
+      bh_second: "the spearman falling, the swordsman's head snapping back"
+    calm: top
+    sfx:
+      - {text: "WHAM", style: impact, at: [0.50, 0.30], size: L, rot: -6}
+
+  - id: P26
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, behind the archer: an arrow hitting Nib in the thigh"
+    light: "a flash"
+    art: >
+      From low behind the archer: an arrow hits Nib in the thigh; he staggers half a step.
+    acting:
+      bh_second: "the archer releasing"
+      nib: "staggering half a step, the arrow in his thigh"
+    calm: top
+    sfx:
+      - {text: "THUK", style: impact, at: [0.60, 0.40], size: L, rot: 0}
+
+  - id: P27
+    recipe: carry
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close and low on Jaeha: blood blooming on his RIGHT thigh where the arrow struck Nib, his body jerking"
+    light: "amber ring; red"
+    face: private
+    art: >
+      Close and low on Jaeha (kang_jaeha): blood blooms through his trousers on his RIGHT thigh exactly where the arrow struck Nib;
+      his body jerks; he falls forward onto his hands.
+    acting:
+      kang_jaeha: "falling forward onto his hands, teeth bared, blood on his thigh"
+    calm: top
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.86], text: "[CARRY · NIB · 140%]"}
+    sfx:
+      - {text: "THOOM", style: impact, at: [0.30, 0.40], size: M, rot: 0}
+
+  - id: P28
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: Nib pulling the arrow out of his leg and snapping it, walking forward"
+    light: "amber"
+    art: >
+      Nib pulls the arrow out of his thigh, snaps it in one hand, and walks forward again.
+    acting:
+      nib: "snapping the arrow, walking forward, eyes on the archer"
+    calm: top
+    sfx:
+      - {text: "SNAP", style: impact, at: [0.50, 0.30], size: M, rot: 0}
+
+  - id: P29
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Sora in the high doorway, leaning forward, her compass needle blazing at Nib"
+    light: "violet"
+    art: >
+      Close on Sora (han_sora) in the high doorway, leaning forward now, the compass needle blazing violet and pointing at Nib.
+    acting:
+      han_sora: "leaning forward, eyes bright, lips parted"
+    eyeline: "Sora → Nib"
+    calm: right
+    silent: true
+    sfx:
+      - {text: "TIK!", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P30
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, behind the mage: a violet bolt from his core staff blasting Nib across the water"
+    light: "a violet blast"
+    art: >
+      From low behind the mage: a violet bolt from his core-tipped staff blasts Nib across the water; smoke rises off Nib's cloak.
+    acting:
+      bh_second: "the mage thrusting his staff forward"
+      nib: "blasted back, skidding through the water, cloak smoking"
+    calm: top
+    sfx:
+      - {text: "KRAKOOM", style: impact, at: [0.40, 0.30], size: XL, rot: -6}
+
+  - id: P31
+    recipe: carry
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close and low on Jaeha: a burn spreading down his RIGHT forearm, smoke rising from his sleeve, his face in the water"
+    light: "violet; smoke"
+    face: private
+    art: >
+      Close and low on Jaeha (kang_jaeha): a burn spreads down his RIGHT forearm, smoke rising from the sleeve; his face drops
+      toward the water; Borro's huge hand catches his shoulder.
+    acting:
+      kang_jaeha: "face dropping toward the water, the burned arm shaking"
+      borro: "catching his shoulder with one huge hand"
+    calm: top
+    sfx:
+      - {text: "TSSSSS", style: impact, at: [0.30, 0.40], size: M, rot: 0}
+
+  - id: P32
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: Borro (rest form) lowering himself over Jaeha, his shell over him like a roof, the drone in his moss"
+    light: "daylight"
+    art: >
+      Borro (borro, rest form) lowers himself over Jaeha so that his slate shell covers him like a roof, the shield propped in
+      front; the drone's lens peeks out of the moss on his back toward the fight.
+    acting:
+      borro: "crouching over Jaeha, shell over him, the shield propped in front, calm"
+    eyeline: "Borro → Nib"
+    foreground: "the propped shield's edge, cropped, left"
+    calm: top
+    lines:
+      - {who: borro, type: speech, text: "I CANNOT FIGHT LIKE THIS. BUT I CAN STILL BE A ROOF.", side: l}
+
+  - id: P33
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the water: Nib getting up out of the water, smoking, and walking back into the middle of the seven"
+    light: "amber; smoke"
+    art: >
+      From low in the water: Nib gets up, smoking, and walks back into the middle of the seven.
+    acting:
+      nib: "walking back into them, knives low, smoke rising off him"
+      bh_second: "hesitating, glancing at each other"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "SPLSH", style: quiet, at: [0.50, 0.70], size: S, rot: 0}
+
+  - id: P34
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: Mok himself stepping in and slashing at Nib's face, the cut catching Nib's cheek below the mask"
+    light: "a red flash"
+    art: >
+      Mok himself steps in and slashes at Nib's face; the blade catches Nib's cheek below the mask.
+    acting:
+      mok_hangyu: "slashing with the short sword, teeth bared"
+      nib: "turning his head with the cut"
+    calm: top
+    sfx:
+      - {text: "SHHK", style: impact, at: [0.50, 0.30], size: L, rot: 8}
+
+  - id: P35
+    recipe: carry
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha under Borro's shell: a cut opening across his own cheek"
+    light: "dim under the shell; amber"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha) under Borro's shell: a cut opens across his own cheek; his eyes stay open, fixed on Nib.
+    acting:
+      kang_jaeha: "lying under the shell, eyes open and fixed, blood on his cheek"
+    calm: left
+    silent: true
+
+  - id: P36
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close on Nib touching his cheek where the cut should be, looking back over his shoulder at Jaeha under the shell"
+    light: "amber"
+    art: >
+      Close and low on Nib (nib): he touches his cheek where the cut should be and finds no blood; he looks back over his shoulder
+      at Jaeha lying under Borro's shell.
+    acting:
+      nib: "touching his unmarked cheek, looking back over his shoulder, eyes wide"
+    eyeline: "Nib → Jaeha"
+    foreground: "Mok's sword, cropped, top"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "YOU'RE THE ONE BLEEDING AGAIN.", side: l}
+
+  - id: P37
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Jaeha under the shell, smiling through the blood"
+    light: "dim; amber"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha) under the shell, smiling through the blood.
+    acting:
+      kang_jaeha: "a faint smile, blood on his teeth, eyes on Nib"
+    eyeline: "Jaeha → Nib"
+    foreground: "the edge of Borro's shell above him, cropped, top"
+    calm: right
+    lines:
+      - {who: kang_jaeha, type: speech, text: "THAT'S MY JOB. YOURS IS THE LINE.", side: l}
+
+  - id: P38
+    recipe: system
+    shape: inset-r
+    gap: short
+    bg: navy
+    camera: "close on a small window in the corner of Jaeha's vision"
+    light: "cyan"
+    art: >
+      Close on a small window in the corner of Jaeha's vision.
+    calm: left
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.40], text: "[GATE CLOSING · 05:40]"}
+    silent: true
+
+  - id: P39
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of Nib's uncovered eye, the amber burning brighter and brighter"
+    light: "amber flaring"
+    art: >
+      Extreme close-up: Nib's uncovered eye, the amber in it burning brighter and brighter. Fill the canvas edge to edge.
+    acting:
+      nib: "eye blazing, unblinking"
+    calm: none
+    silent: true
+
+  # ================= THREE OF FIVE (P40–P56) =================
+  - id: P40
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level: Nib standing in the middle of the seven, amber light pouring off him, two windows opening over him"
+    light: "amber pouring out; cyan"
+    art: >
+      Nib stands in the middle of the seven with amber light pouring off him in waves; the hunters step back. The upper half is
+      empty for two stacked windows.
+    acting:
+      nib: "standing straight, arms at his sides, light pouring off him"
+      bh_second: "stepping back, shielding their eyes"
+    calm: top
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.05], headline: "[NIB HELD THE LINE FOR HIS OPERATOR]", body: "SEAL 2/5 → 3/5", button: "OK"}
+    silent: true
+
+  - id: P41
+    recipe: splash
+    shape: full
+    gap: short
+    bg: black
+    camera: "low, from the water, slightly tilted: Nib in his new scout-captain armour, plates of wall-blue and bronze closing over him out of amber light"
+    light: "key: amber light bursting; bronze gleaming; daylight shafts"
+    art: >
+      SEAL 3/5. From low in the water: plates of dark wall-blue and bronze assemble out of amber light and close over Nib: a
+      close-fitting cuirass of overlapping wall-blue plates edged in bronze over his belted cloak, a single bronze pauldron on his
+      LEFT shoulder embossed with the nine-tower sigil, bronze-plated bracers on both forearms; his two knives lengthen into
+      scout-captain's long knives with bronze guards. The red scarf whips up; the cracked husk mask stays on; his bare feet in
+      the water; a brighter amber outline. A soldier, never a mascot.
+    acting:
+      nib: "standing in a low stance, the long knives reversed, scarf whipping, eye blazing"
+    calm: top
+    sfx:
+      - {text: "KRA-SHHING", style: summon, at: [0.30, 0.20], size: XL, rot: -8}
+
+  - id: P42
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, fast: Nib slipping between the two swordsmen and cutting both their sword belts and grips in one turn, swords falling"
+    light: "amber streaks"
+    art: >
+      Fast: Nib slips between the two swordsmen and in one turn cuts through both their sword grips and belts; the swords splash
+      into the water.
+    acting:
+      nib: "turning through them, both long knives flashing"
+      bh_second: "two swordsmen staring at their empty hands"
+    calm: top
+    sfx:
+      - {text: "SHK SHK", style: impact, at: [0.50, 0.30], size: L, rot: -8}
+
+  - id: P43
+    recipe: impact
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close, fast: Nib's elbow driving into one swordsman's temple, the man folding"
+    light: "amber"
+    art: >
+      Close and fast: Nib's bronze bracer drives into one swordsman's temple; the man folds into the water, out cold.
+    acting:
+      nib: "a short elbow strike"
+      bh_second: "a swordsman folding, eyes rolling"
+    calm: right
+    sfx:
+      - {text: "THOK", style: impact, at: [0.40, 0.30], size: M, rot: 0}
+
+  - id: P44
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, fast: Nib cutting the archer's bowstring and the spearman's spear in half in one leap"
+    light: "amber streaks"
+    art: >
+      Low and fast: in one leap Nib cuts the archer's bowstring and the spearman's spear in half; both men stare at their broken
+      weapons.
+    acting:
+      nib: "mid-leap between them, knives at the end of two cuts"
+      bh_second: "the archer and the spearman staring at their weapons"
+    calm: top
+    sfx:
+      - {text: "TWANG", style: impact, at: [0.30, 0.30], size: M, rot: 0}
+      - {text: "KRAK", style: impact, at: [0.70, 0.40], size: M, rot: 6}
+
+  - id: P45
+    recipe: impact
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close, fast: Nib sweeping the spearman off his feet and pinning him under one bare foot"
+    light: "amber"
+    art: >
+      Close and fast: Nib sweeps the spearman off his feet and pins him in the water under one bare foot, a long knife at his
+      throat, not touching it.
+    acting:
+      nib: "one foot on the man's chest, a knife held a finger's width from his throat"
+      bh_second: "the spearman pinned, frozen"
+    calm: left
+    lines:
+      - {who: nib, type: speech, text: "STAY DOWN.", side: r}
+
+  - id: P46
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: the mage firing another violet bolt, Nib cutting the bolt in half in mid-air with a long knife"
+    light: "a violet bolt splitting in two"
+    art: >
+      The mage fires another violet bolt; Nib cuts it in half in mid-air with one long knife; the two halves fly past him and burst
+      against the walls.
+    acting:
+      nib: "a single upward slash through the bolt"
+      bh_second: "the mage's mouth dropping open"
+    calm: top
+    sfx:
+      - {text: "SHHHRAK", style: impact, at: [0.50, 0.30], size: XL, rot: -6}
+
+  - id: P47
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, fast: Nib slicing the mage's core-tipped staff into three pieces, the core dropping into his own hand"
+    light: "violet core glow"
+    art: >
+      Low and fast: Nib slices the mage's staff into three pieces; the small core at its tip drops neatly into Nib's waiting hand;
+      the mage backs away with his hands up.
+    acting:
+      nib: "catching the falling core, knives lowered"
+      bh_second: "the mage backing away, hands up"
+    calm: top
+    sfx:
+      - {text: "SHK SHK", style: impact, at: [0.40, 0.30], size: M, rot: 0}
+
+  - id: P48
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: the ch 7 shield-bearer charging with his shield, Nib vaulting over it and landing behind him"
+    light: "amber"
+    art: >
+      The shield-bearer from chapter 7 charges behind his shield; Nib vaults clean over it and lands behind him, and the man runs
+      on into a rubble heap.
+    acting:
+      bh_second: "the shield-bearer charging, then stumbling into the rubble"
+      nib: "vaulting over the shield, landing behind him"
+    calm: top
+    sfx:
+      - {text: "HUP", style: impact, at: [0.40, 0.30], size: M, rot: -6}
+      - {text: "KRUNCH", style: impact, at: [0.76, 0.60], size: M, rot: 6}
+
+  - id: P49
+    recipe: aftermath
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high, over the chamber: six hunters down or disarmed in the water, all alive, Nib standing in the middle, Mok alone"
+    light: "daylight shafts; amber"
+    art: >
+      High over the chamber: six hunters lie in the water or sit with their hands up, disarmed, every one alive; Nib stands in the
+      middle in his new armour; Mok stands alone facing him with his cracked shield and sword.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "drip... drip...", style: quiet, at: [0.70, 0.20], size: S, rot: 0}
+
+  - id: P50
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, side-on: Nib and Mok facing each other across the water"
+    light: "daylight; amber"
+    art: >
+      Side-on: Nib (nib, scout-captain armour) and Mok (mok_hangyu) face each other across the water.
+    acting:
+      nib: "standing easy, the long knives low, head tilted"
+      mok_hangyu: "crouched behind the cracked shield, sword up, sweating"
+    eyeline: "Nib ↔ Mok"
+    foreground: "a fallen sword in the water, cropped, bottom"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "YOU FIRST.", side: l}
+
+  - id: P51
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, tilted: Mok charging with a roar behind his cracked tower shield"
+    light: "daylight; spray"
+    art: >
+      From low, tilted: Mok charges with a roar behind his cracked tower shield, sword raised over it.
+    acting:
+      mok_hangyu: "charging, roaring, shield first, sword raised"
+    calm: top
+    sfx:
+      - {text: "RRRAAAAH", style: impact, at: [0.30, 0.20], size: XL, rot: -6}
+
+  - id: P52
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: Nib meeting the charge, both long knives crossing into the crack in the shield"
+    light: "amber; sparks"
+    art: >
+      Nib meets the charge and drives both long knives crossed into the crack in the middle of Mok's shield.
+    acting:
+      nib: "both knives driving into the crack, braced"
+      mok_hangyu: "slamming into the knives behind his shield"
+    calm: top
+    sfx:
+      - {text: "KRANGG", style: impact, at: [0.50, 0.30], size: XL, rot: 8}
+
+  - id: P53
+    recipe: splash
+    shape: full
+    gap: short
+    bg: black
+    camera: "low, from the side: Mok's tower shield splitting in two down the crack, the halves flying apart, the hollow grip snapping"
+    light: "amber burst; black steel flying"
+    art: >
+      From low at the side: Mok's black tower shield splits in two down the crack through the red hound; the halves fly apart; the
+      hollow steel grip snaps in the middle; Mok stumbles through the gap and falls on his back in the water.
+    acting:
+      nib: "following through, knives crossed"
+      mok_hangyu: "stumbling through, falling backward, arms flung out"
+    calm: top
+    sfx:
+      - {text: "KRA-KAAKK", style: impact, at: [0.30, 0.20], size: XL, rot: -8}
+
+  - id: P54
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: Nib standing over Mok in the water, a long knife at his throat, not touching it"
+    light: "amber"
+    art: >
+      Nib stands over Mok on his back in the water, one long knife held a finger's width from his throat, not touching it.
+    acting:
+      nib: "standing over him, one knife at his throat, the other low, deadpan"
+      mok_hangyu: "on his back, staring up, panting"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "I WON'T KILL YOU. BUT I'LL HOLD YOU FOR HIM.", side: r}
+
+  - id: P55
+    recipe: system
+    shape: inset-l
+    gap: short
+    bg: navy
+    camera: "close on a small window in the corner of Jaeha's vision"
+    light: "cyan"
+    art: >
+      Close on a small window in the corner of Jaeha's vision.
+    calm: right
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.40], text: "[GATE CLOSING · 04:10]"}
+    silent: true
+
+  - id: P56
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, by Borro: Yerin and Lyra hauling Jaeha out from under Borro's shell, bandaged and bleeding"
+    light: "daylight; mint"
+    art: >
+      By Borro: Yerin and Lyra haul Jaeha out from under Borro's shell; he is bleeding from the arm, thigh, forearm and cheek, and
+      grinning.
+    acting:
+      song_yerin: "hauling him by one arm, crying and laughing"
+      lyra: "hauling him by the other, scowling"
+      kang_jaeha: "pulled up between them, legs dragging, grinning"
+    eyeline: "Jaeha → Nib"
+    foreground: "Borro's shell, cropped, left"
+    calm: top
+    lines:
+      - {who: lyra, type: speech, text: "THE LITTLE ONE IS TERRIFYING. I WANT ARMOUR TOO.", side: r}
+
+  # ================= THE PHONE (P57–P66) =================
+  - id: P57
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close and low on the water by Mok: the snapped hollow shield grip, something wrapped in plastic sliding out of it"
+    light: "daylight"
+    art: >
+      Close and low on the water by Mok: the snapped hollow steel grip of his shield lies in the water, and something wrapped in
+      cloudy plastic and tape slides out of it.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "plop", style: quiet, at: [0.50, 0.60], size: S, rot: 0}
+
+  - id: P58
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Mok on his back, his eyes snapping to the package, terror"
+    light: "daylight"
+    art: >
+      Close on Mok (mok_hangyu) on his back, his eyes snapping to the package in the water, terror on his face for the first time.
+    acting:
+      mok_hangyu: "eyes snapping sideways, mouth opening, a hand twitching toward it"
+    eyeline: "Mok → the package"
+    calm: left
+    lines:
+      - {who: mok_hangyu, type: shout, text: "DON'T TOUCH THAT!", side: r}
+
+  - id: P59
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the water: Jaeha dropping to his knees and crawling through the water to the package, the others watching"
+    light: "daylight shafts"
+    face: private
+    art: >
+      From low in the water: Jaeha (kang_jaeha) pulls free of Yerin and Lyra, drops to his knees, and crawls through the water to
+      the package.
+    acting:
+      kang_jaeha: "crawling on his hands and knees through the water, eyes fixed on the package"
+    eyeline: "Jaeha → the package"
+    foreground: "the snapped shield grip, cropped, bottom"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "SPLSH... SPLSH...", style: quiet, at: [0.50, 0.70], size: S, rot: 0}
+
+  - id: P60
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close on Jaeha's bloody hands tearing the plastic open: an old phone in a cracked orange case"
+    light: "daylight"
+    art: >
+      Close on Jaeha's bloody, shaking hands tearing the plastic open: inside is an old phone in a cracked safety-orange case, and
+      on the back of the case, a faded sticker of a stick figure in a vest giving a thumbs-up.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "RRRIP", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P61
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "a small grey memory inset: the doodle in the margin of the notebook's first pages, the same thumbs-up stick figure"
+    light: "grey memory"
+    art: >
+      A small grey memory inset: the doodle in the margin of the notebook's first pages, the same stick figure in a vest giving a
+      thumbs-up.
+    calm: right
+    silent: true
+
+  - id: P62
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of Jaeha's eyes filling with tears"
+    light: "daylight"
+    face: private
+    art: >
+      Extreme close-up: Jaeha's eyes (kang_jaeha), filling with tears. Fill the canvas edge to edge.
+    acting:
+      kang_jaeha: "eyes wide, filling with tears"
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: speech, text: "THIS IS HIS. THIS IS MINSEOK'S PHONE.", side: r}
+
+  - id: P63
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: Mok on his back under Nib's knife, turning his face away, everyone staring at him"
+    light: "daylight"
+    art: >
+      Mok (mok_hangyu), on his back under Nib's knife, turns his face away; Yerin, Lyra and Borro stare at him.
+    acting:
+      mok_hangyu: "turning his face away, eyes shut, jaw clenched"
+      nib: "holding the knife steady, looking down at him"
+    eyeline: "Mok → away; Nib → Mok"
+    foreground: "Nib's long knife, cropped, top"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "YOU KEPT A DEAD MAN'S PHONE IN YOUR SHIELD FOR FOUR YEARS. WHY?", side: r}
+
+  - id: P64
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on the high doorway: Sora stepping back out of the light, gone, the compass glinting once"
+    light: "torchlight fading"
+    art: >
+      Close on the high doorway: Sora steps back out of the torchlight and is gone; only the glint of the compass on her wrist as
+      she turns.
+    calm: left
+    silent: true
+
+  - id: P65
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close on the old phone in Jaeha's hands: its cracked screen flickering on after four years"
+    light: "the screen's glow"
+    art: >
+      Close on the old phone in Jaeha's shaking hands: its cracked screen flickers, then lights up after four years, its battery
+      icon nearly empty. Screen: flat green.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "BZT", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P66
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "extreme close-up of the phone's screen: one video file, a date four years ago"
+    light: "the screen's glow"
+    art: >
+      Extreme close-up of the phone's cracked screen, flat green.
+    calm: top
+    ui:
+      - kind: phone.info_card
+        "on": screen
+        title: "VIDEOS (1)"
+        text: "HAN RIVER · 4 YEARS AGO · 02:47"
+    silent: true
+
+  - id: END
+    kind: end
+    chibi_gag: "Chibi Nib, in his new armour, admires himself in a puddle from every angle, while chibi Lyra, jealous, tries to wear Borro's dented shield as a breastplate and falls over."
