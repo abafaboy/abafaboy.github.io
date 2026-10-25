@@ -22,7 +22,9 @@ Image quality (owner, 25 October: "make sure no images look compressed ever in t
   downscales it instead of upscaling it, and lettering stays sharp;
 - strip.png is lossless; the NNN.webp segments are LOSSLESS WebP (never lossy);
 - layout.json keeps every coordinate in layout (CSS) px and records "scale" (= dpr) for the strip image;
-- art that arrives as JPEG or lossy WebP is flagged in the warnings: panel art must be PNG.
+- art that arrives as JPEG or lossy WebP is flagged in the warnings: panel art must be PNG;
+- every panel image is enlarged 2x with Real-ESRGAN (upscale_art.py) before layout, so the browser only ever
+  shrinks art: a 1024 px tall panel fills 2160 px of strip without the soft, stretched look of a plain resize.
 
 usage: autostrip2.py chNNN.yaml ART_DIR OUT_DIR [--kit KIT_DIR] [--placeholders] [--only P01-P20]
 """
@@ -115,7 +117,7 @@ TYPE_FONT = {
     "announce": ("Letter", 700, 30, 1.12, "#1d1917"),
 }
 BITMAP_TYPES = set(TYPE_FONT)
-VOICED = BITMAP_TYPES | {"float", "narr", "narr_dark"}
+VOICED = BITMAP_TYPES | {"float", "narr", "narr_dark", "inner", "note"}  # inner: Jaeha's inner voice; note: his notebook
 MIN_BUBBLE = {"shout": (230, 150), "intense": (240, 180)}
 WIDTH_CANDS = list(range(140, 581, 30))
 SYS_WFRAC = {"notice": .80, "notice_small": .62, "window": .66, "summon_card": .44, "warning": .80,
@@ -196,6 +198,7 @@ FONTS = "\n".join([
     _ff("UI", "barlow-condensed", "barlow-condensed-latin-700-normal.woff2", 700),
     _ff("UI", "barlow-condensed", "barlow-condensed-latin-700-italic.woff2", 700, "italic"),
     _ff("Mono", "share-tech-mono", "share-tech-mono-latin-400-normal.woff2", 400),
+    _ff("Pencil", "patrick-hand", "patrick-hand-latin-400-normal.woff2", 400),
     _ff("App", "ibm-plex-sans-kr", "ibm-plex-sans-kr-latin-500-normal.woff2", 500),
     _ff("App", "ibm-plex-sans-kr", "ibm-plex-sans-kr-latin-700-normal.woff2", 700),
     _ff("App", "ibm-plex-sans-kr", "ibm-plex-sans-kr-korean-500-normal.woff2", 500),
@@ -717,6 +720,9 @@ def strip_css(W):
 .t-narr{{font:600 28px/1.28 'Letter',sans-serif;padding:22px 30px;text-align:center;background:#fff;border:2.5px solid {LINE};color:#1d1917;text-wrap:balance}}
 .t-narr_dark{{font:600 28px/1.28 'Letter',sans-serif;padding:22px 30px;text-align:center;background:#141113;color:#f1ede6;text-wrap:balance}}
 .dark .t-narr_dark{{border:2px solid #3a3640}}
+.t-inner{{font:600 28px/1.28 'Letter',sans-serif;padding:20px 30px;text-align:center;background:#0d0c10;color:#f4f1ec;box-shadow:0 0 0 2px #0d0c10, 0 0 0 4px #f4f1ec;text-wrap:balance}}
+.dark .t-inner{{box-shadow:0 0 0 2px #f4f1ec}}
+.t-note{{font:400 33px/40px 'Pencil','LetterSoft',cursive;color:#34343a;text-align:left;padding:10px 26px 12px;background:repeating-linear-gradient(180deg,#fbf8ef 0 38px,#c9d4e3 38px 40px);border:1.5px solid #c7bba2;transform:rotate(-1.2deg);box-shadow:2px 3px 0 rgba(0,0,0,.18);text-wrap:pretty}}
 .t-tag{{position:absolute;left:16px;top:-22px;white-space:nowrap;padding:9px 20px;font:700 22px/1 'UI',sans-serif;letter-spacing:.09em;
   background:#fff;color:#1d1917;border:2.5px solid {LINE};border-radius:99px;z-index:6}}
 .t-footnote{{text-align:right;padding:12px 60px 0 0;font:500 21px/1.2 'LetterSoft',sans-serif;color:#77706a;margin-left:auto}}
@@ -774,6 +780,8 @@ def main():
     ap.add_argument("--seg-max", type=int, default=2400)
     ap.add_argument("--seg-min", type=int, default=700)
     ap.add_argument("--dpr", type=int, default=2, help="pixel ratio of the strip image (2 = 2160 px wide for a 1080 layout)")
+    ap.add_argument("--no-upscale", action="store_true", help="skip the 2x anime upscale of panel art (tests only)")
+    ap.add_argument("--upscale-models", default="/tmp/claude-0/-home-claude/74687d11-0cc0-5bfd-9d7d-ad4189ed4d7b/scratchpad/upscale/models")
     ap.add_argument("--placeholders", action="store_true")
     ap.add_argument("--only", default=None, help="panel range, e.g. P01-P20")
     ap.add_argument("--letter-font", default="/home/claude/msgf-fonts/anime_ace_2",
@@ -805,6 +813,23 @@ def main():
     WORK.mkdir(exist_ok=True)
     kit = kitlib.Kit(A.kit)
     warnings = []
+    up_net = None
+    if not A.no_upscale:
+        import upscale_art
+        up_net = upscale_art.load_net(A.upscale_models, 2)
+
+    def upscaled(path):
+        """2x Real-ESRGAN copy of an art file (cached in _work/up); the original when upscaling is off."""
+        path = Path(path)
+        if up_net is None:
+            return path
+        dst = WORK / "up" / (path.stem + "_x2.png")
+        if not dst.exists() or dst.stat().st_mtime < path.stat().st_mtime:
+            dst.parent.mkdir(exist_ok=True)
+            import upscale_art
+            with Image.open(path) as im_:
+                upscale_art.upscale(up_net, im_).save(dst, compress_level=6)
+        return dst
     panels = S["panels"]
     if A.only:
         a_, b_ = A.only.split("-")
@@ -851,6 +876,12 @@ def main():
             if p.get("kind") in ("title", "end"):
                 continue
             pid = p["id"]
+            if p.get("kind") == "caption":  # narration straight on the page colour: a blank, borderless panel
+                cw_, ch_ = {"strip": (1536, 512), "inset-l": (1024, 1024), "inset-r": (1024, 1024)}.get(p.get("shape", "strip"), (1536, 512))
+                capf = WORK / f"{pid}_caption.png"
+                Image.new("RGB", (cw_, ch_), bg_hex(p.get("bg", "black"))).save(capf)
+                art_for[pid] = capf
+                continue
             src = next((ART / f"{pid}{x}" for x in (".png", ".jpg", ".jpeg", ".webp") if (ART / f"{pid}{x}").exists()), None)
             hand = next((u.get("hand") for u in (p.get("ui") or []) if u.get("hand")), None)
             if src is None and hand and hand in kit.hands:
@@ -861,15 +892,18 @@ def main():
                 src = WORK / f"{pid}_ph.png"
                 placeholder(pid, p.get("shape", "wide"), p.get("art", ""), src, chibi=p.get("style") == "chibi")
                 warnings.append(f"{pid}: placeholder art")
-            art_for[pid] = Path(src)
-            if lossy_image(art_for[pid]):
-                warnings.append(f"{pid}: art is a lossy {art_for[pid].suffix} file; panel art must be PNG (no compression)")
+            if lossy_image(src):
+                warnings.append(f"{pid}: art is a lossy {Path(src).suffix} file; panel art must be PNG (no compression)")
+            is_hand = bool(hand and hand in kit.hands and Path(src) == Path(kit.hands[hand][0]))
+            art_for[pid] = Path(src) if str(src).endswith("_ph.png") else upscaled(src)
             for u in p.get("ui") or []:
                 if u.get("on") != "screen":
                     continue
                 img = cv2.imread(str(art_for[pid]), cv2.IMREAD_COLOR)
-                if hand and hand in kit.hands and art_for[pid] == kit.hands[hand][0]:
+                if is_hand:
                     m = cv2.imread(str(kit.hands[hand][1]), cv2.IMREAD_GRAYSCALE)
+                    if m.shape[:2] != img.shape[:2]:  # the art was upscaled; scale the kit mask with it
+                        m = cv2.resize(m, (img.shape[1], img.shape[0]), interpolation=cv2.INTER_LINEAR)
                     mk = (m > 127).astype(np.uint8) * 255
                     quad, mask = find_green(cv2.merge([np.zeros_like(m), mk, np.zeros_like(m)]))
                 else:
@@ -980,7 +1014,7 @@ def main():
         for it in items:
             if it["type"] in BITMAP_TYPES and mode[it["panel"]] == "beside" and pick(it, it["beside_w"]) is None:
                 mode[it["panel"]] = "gutter"
-            if it["type"] in ("narr", "narr_dark") and mode[it["panel"]] == "beside" and len(it["ln"]["text"]) > 70:
+            if it["type"] in ("narr", "narr_dark", "inner", "note") and mode[it["panel"]] == "beside" and len(it["ln"]["text"]) > 70:
                 mode[it["panel"]] = "gutter"
         for it in items:
             kind = it["type"]
@@ -1032,8 +1066,10 @@ def main():
                         f'<span style="white-space:nowrap;font:{wt} {fs}px/{lh} {fam};color:{col}">{lines_html(it["toks"], it["lines"])}</span></div></div>')
             n = len(ln["text"])
             cap = it["beside_w"] if (where == "beside") else W
-            if t in ("narr", "narr_dark"):
+            if t in ("narr", "narr_dark", "inner"):
                 w = int(min(W * .74, cap, max(W * .30, 240 + n * 6.0)))
+            elif t == "note":
+                w = int(min(W * .66, cap, max(W * .34, 220 + n * 6.6)))
             elif t == "float":
                 w = int(min(W * .62, cap, max(W * .26, 190 + n * 6.2)))
             else:
@@ -1073,6 +1109,8 @@ def main():
                 continue
             if kind == "end":
                 chibi = next((ART / f"END{x}" for x in (".png", ".jpg", ".webp") if (ART / f"END{x}").exists()), None)
+                if chibi:
+                    chibi = upscaled(chibi)
                 if not chibi:
                     warnings.append("END: no chibi gag art (ART/END.png)")
                 if "end" in kit.cards:
@@ -1088,6 +1126,8 @@ def main():
             pid = p["id"]
             shape = p.get("shape", "wide")
             fw, fh, align, frame = SHAPES.get(shape, SHAPES["wide"])
+            if p.get("kind") == "caption":
+                frame = "cap"
             src = art_for[pid]
             iw, ih = Image.open(src).size
             if fh is None:

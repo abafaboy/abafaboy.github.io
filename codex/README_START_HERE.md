@@ -23,7 +23,7 @@
 - `research/MANHWA_CRAFT_BIBLE.md`: the chapter-writing rules.
 - `bible/VISUAL_SURVEY.md`: 103 episode-1s.
 - `bible/ART_BIBLE.md`: A5b chibi, A6, A7, A9 (no text in art), A10 (continuity) and Parts B and C still apply.
-- `PANEL_BRIEF.md`: sizes by shape, file naming and the anatomy checks still apply.
+- `PANEL_BRIEF_v2.md`: how chapter panels are drawn (it replaces `PANEL_BRIEF.md`).
 
 **Ignore (retired, history only):**
 - `bible/STORY_BIBLE.md`, `bible/PART_ONE_BEATS.md`;
@@ -47,7 +47,7 @@ Claude opens the Codex chats on the owner's computer and checks every result. Ea
 3. **Acting test (A1):** three chapter 1 talk panels (`ACTING_TEST_BRIEF.md`), in `style_test_v2/acting/`, once Jaeha's round 1 fixes are done. Round 2 adds a five-panel dialogue run, P27–P32.
 4. **Round 2 fixes** (`REVIEW_FIXES.md`, "Round 2") and **S15, Moon Ahin** (`MODEL_SHEETS_BRIEF.md`), drawn early for the owner's sheets.
 5. **Acting sheets P1–P6** (`ACTING_SHEETS_BRIEF.md`): body-language poses and dialogue faces for Jaeha, Nib, Yerin, Mok, Lyra and Bomi.
-6. **Chapter panels:** only after the owner approves the new chapter 1 script. A v2 panel brief comes with it.
+6. **Chapter panels (now):** the owner approved the story, the designs and the acting tests and said "continue". Chapter 1 is drawn in nine parallel parts (`PANEL_BRIEF_v2.md`), into `chapters_v2/ch001/art/`.
 
 ## Hard rules for every job
 - **No text in the art,** except the single block letter T on Jaeha's vest patch. Emblems without letters are fine; brand logos and wordmarks are not. The letterer adds every word, sound effect and window. Screens that need content are flat #00FF00.

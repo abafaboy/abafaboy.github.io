@@ -153,7 +153,11 @@ def main():
            "-c:a", "aac", "-ar", "48000", "-b:a", "128k", "-shortest", "-movflags", "+faststart", str(OUT / "recap.mp4")]
     ff = subprocess.Popen(cmd, stdin=subprocess.PIPE)
     pad = np.full((vh, W0, 3), 255, np.uint8)
-    dither = np.random.default_rng(7).uniform(-1.0, 1.0, (A.h, A.w, 1)).astype(np.float32)
+    # side panels: a blurred, dimmed copy of the view, from a 1/16 copy of the strip (cheap), dithered by +-1 level
+    q = 16
+    thumb = cv2.resize(strip, (max(1, W0 // q), max(1, H // q)), interpolation=cv2.INTER_AREA)
+    tpad = np.full((max(1, vh // q), thumb.shape[1], 3), 255, np.uint8)
+    dither = np.random.default_rng(7).uniform(-1.0, 1.0, (A.h, A.w, 3)).astype(np.float32)
     frame = np.zeros((A.h, A.w, 3), np.uint8)
     last_y = None
     for f in range(int(total * A.fps)):
@@ -162,12 +166,16 @@ def main():
             crop = strip[y0:y0 + vh]
             if crop.shape[0] < vh:
                 crop = np.vstack([crop, pad[: vh - crop.shape[0]]])
-            small = cv2.resize(crop, (16, 9), interpolation=cv2.INTER_AREA)
-            bg = cv2.resize(small, (A.w, A.h), interpolation=cv2.INTER_CUBIC).astype(np.float32)
-            frame[:] = np.clip(bg * 0.45 + dither, 0, 255).round().astype(np.uint8)
+            tc = thumb[y0 // q: y0 // q + max(1, vh // q)]
+            if tc.shape[0] < tpad.shape[0]:
+                tc = np.vstack([tc, tpad[: tpad.shape[0] - tc.shape[0]]])
+            small = cv2.resize(tc, (16, 9), interpolation=cv2.INTER_AREA).astype(np.float32) * 0.45
+            bg = cv2.resize(small, (A.w, A.h), interpolation=cv2.INTER_CUBIC)
+            cv2.add(bg, dither, dst=bg)
+            frame[:] = cv2.convertScaleAbs(bg)  # rounds and saturates to 0-255
             frame[:, x0:x0 + cw] = cv2.resize(crop, (cw, A.h), interpolation=interp)
             last_y = y0
-        ff.stdin.write(frame.tobytes())
+        ff.stdin.write(frame.data)
     ff.stdin.close()
     ff.wait()
     print(f"ch{A.chapter}: {len(rec)} entries, {missing} without a panel, {total / 60:.1f} min, {A.w}x{A.h}@{A.fps} "
