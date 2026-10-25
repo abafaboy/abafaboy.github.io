@@ -1,0 +1,1119 @@
+chapter: 19
+title: Borrowed Thunder
+format: SCRIPT_FORMAT_v2.md
+when: "Saturday, the last three seconds of the Bell-Ringer's rage and the minutes after it: the sealed boss chamber of the drowned cathedral."
+story_beats: ARC3_4_BEATS.md#19-borrowed-thunder
+cast:
+  kang_jaeha: vest
+  nib: mask                 # rest form until P24, field form P24–P40
+  borro: default            # husk face; field form; buried to the waist until P46
+  lyra: default             # field form
+  song_yerin: default
+  mok_hangyu: default
+  han_sora: default         # only at the very end, in the high doorway
+  bh_sealers: default       # voice on Mok's radio
+  yoo_bomi: default         # outside, on the stream
+  bell_ringer: default
+locations: [boss_chamber_bells, dam_gate]
+continuity:
+  - "Jaeha: the orange vest with Seoa's red stitches (now torn at the shoulder again), the grey hoodie, the forearm bandage, the earpiece; blood from his nose and his LEFT ear. From P31 his legs give out: Mok holds him up."
+  - "Nib: seal 2/5 look, the cracked husk mask; rest form (cooldown) until P24, field form (amber) P24–P40. Borro: the husk face; field form (moss green); buried to the waist in rubble until Lyra and Nib dig him out (P46); Bomi's drone in his moss. Lyra: field form (river-blue outline); her full design (CHARACTER_DESIGNS_v2.md 2.10); the camera is never aimed up her skirt."
+  - "Mok: soaked, his cracked black tower shield; from P31 he drops it to hold Jaeha up from behind."
+  - "The Bell-Ringer: as in ch 17–18; Lyra's first wedged arrow sticks out of the violet crack in its bell-head from P07."
+  - "The chamber: rubble everywhere after the great toll (P10), half the dome fallen, daylight-coloured light falling through the holes in shafts; the stair to the small door high on the back wall is gone, the doorway 6 m up the wall."
+  - "Borrowed Thunder (P34): the white-gold force of the clapper's blow runs from Borro's shield through his shell, through Jaeha's hand, through his body and up through his other hand into Lyra's heel and up her body into the arrow; the arrow leaves the bow with the deep ring of the bell itself, trailing white-gold lightning."
+plants:
+  - "PLANT P44: [HARVEST CORE · EST. ₩900,000,000 · NO OTHER OPTION] (ch 50)."
+  - "PLANT P58–P59: Jaeha names Oh Minseok to Mok (ch 20–21)."
+  - "PLANT P62–P64: Mok's second team is behind the back door; Sora in the high doorway, her compass on Lyra, then Jaeha (ch 20)."
+hook_type: threat
+
+panels:
+
+  # ================= THREE SECONDS (P01–P12) =================
+  - id: P01
+    recipe: impact
+    shape: full
+    gap: none
+    bg: black
+    camera: "low, from the water, looking straight up: the giant's clapper smashing down onto the two raised shields, Lyra at full draw on the rim"
+    light: "key: violet from the bell's crack; a white flash at the impact"
+    art: >
+      From low in the water, looking straight up: the Drowned Bell-Ringer's clapper smashes down onto Borro's iron shield and
+      Mok's cracked black shield raised side by side; Lyra (lyra) crouches on the iron shield's rim at full draw; a white flash
+      bursts from the impact; above everything, the bell-head rings.
+    acting:
+      bell_ringer: "driving the clapper down with both arms"
+      lyra: "at full draw on the rim, one eye narrowed"
+      borro: "taking the blow under his shield, buried to the waist"
+      mok_hangyu: "under his cracked shield beside Borro, knees buckling"
+    calm: top
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.06], text: "[BOSS ENRAGED · 00:03]"}
+    sfx:
+      - {text: "KRAAANNNGG", style: impact, at: [0.50, 0.30], size: XL, rot: -8}
+
+  - id: P02
+    recipe: carry
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, close on Jaeha under the shields: a white-gold pulse flooding into him through the hand on Borro's shell, his body lighting up like a wire"
+    light: "a white-gold pulse"
+    face: private
+    art: >
+      Close and low on Jaeha (kang_jaeha) under the shields: a white-gold pulse floods into him through the hand flat on Borro's
+      shell, and his body lights up like a wire; his other hand, reaching up to Lyra's heel, glows.
+    acting:
+      kang_jaeha: "rigid, head thrown back, one hand on the shell, the other at Lyra's heel, eyes wide"
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.86], text: "[PASS I · BORRO → LYRA]"}
+    sfx:
+      - {text: "VWWWMMMM", style: impact, at: [0.30, 0.30], size: L, rot: 0}
+
+  - id: P03
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: Jaeha's knees buckling under the force, his reaching hand slipping off Lyra's heel, the light in his body breaking apart"
+    light: "white-gold breaking into sparks"
+    art: >
+      Jaeha's knees buckle under the force; his reaching hand slips off Lyra's heel, and the white-gold light in his body breaks
+      apart into sparks that scatter into the water.
+    acting:
+      kang_jaeha: "knees buckling, the reaching hand slipping, face twisting in pain"
+    calm: top
+    sfx:
+      - {text: "FZZZKT", style: impact, at: [0.60, 0.40], size: L, rot: 6}
+
+  - id: P04
+    recipe: carry
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha's face: blood gushing from his nose, eyes rolling back for an instant"
+    light: "sparks; red"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha): blood gushes from his nose; his eyes roll back for an instant.
+    acting:
+      kang_jaeha: "blood gushing, eyes rolling back, mouth open"
+    calm: left
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.86], text: "[FORCE DROPPED · 70% LOST]"}
+    silent: true
+
+  - id: P05
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, behind Lyra on the rim: her arrow leaving the bow with only a thin flicker of light along it, streaking at the crack"
+    light: "a thin white flicker"
+    art: >
+      From low behind Lyra on the shield's rim: her arrow leaves the bow with only a thin flicker of white light along it,
+      streaking at the violet crack in the bell-head.
+    acting:
+      lyra: "follow-through after the release, bowstring snapping"
+    calm: top
+    sfx:
+      - {text: "TSHUNG", style: impact, at: [0.40, 0.30], size: L, rot: -8}
+
+  - id: P06
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close on the bell-head: the arrow sinking halfway into the violet crack and sticking there, the crack splitting a little wider"
+    light: "violet; a spark"
+    art: >
+      Close on the bell-head: the arrow sinks halfway into the violet crack and sticks there, quivering; the crack splits a little
+      wider round it, ash pouring out; but the bronze holds.
+    calm: top
+    sfx:
+      - {text: "THUNK", style: impact, at: [0.50, 0.30], size: L, rot: 0}
+
+  - id: P07
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Lyra on the rim, staring at her arrow stuck in the bell, furious"
+    light: "violet"
+    art: >
+      Close on Lyra (lyra) on the rim, staring at her arrow stuck in the bell, furious.
+    acting:
+      lyra: "staring, teeth gritted, nostrils flared, reaching back for another arrow"
+    eyeline: "Lyra → the bell"
+    calm: right
+    lines:
+      - {who: lyra, type: shout, text: "IT'S STUCK! MY ARROW IS STUCK IN A BELL!", side: l}
+
+  - id: P08
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "close on the red warning window flaring white at the edges"
+    light: "red flaring white"
+    art: >
+      Close on the red warning window, its edges flaring white.
+    calm: top
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.36], text: "[BOSS ENRAGED · 00:00]"}
+    silent: true
+
+  - id: P09
+    recipe: anticipation
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the water: the giant throwing its arms wide, its bell-head starting to swing on its own, every bell in the dome swinging with it"
+    light: "violet blazing from the crack"
+    art: >
+      From low in the water: the giant throws its arms wide and its bell-head starts to swing on its own like a bell in a tower;
+      every bell left hanging in the dome swings with it.
+    acting:
+      bell_ringer: "arms flung wide, the bell-head swinging back"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "......", style: quiet, at: [0.50, 0.30], size: S, rot: 0}
+
+  - id: P10
+    recipe: splash
+    shape: full
+    gap: short
+    bg: black
+    camera: "high under the dome: the great toll, a sphere of force bursting from the bell-head, half the dome blowing out, the team flattened under Borro's shield"
+    light: "a blinding bronze-violet burst; daylight bursting in through the broken dome"
+    art: >
+      THE GREAT TOLL. High under the dome: a sphere of force bursts out of the bell-head; half the dome blows out and daylight
+      bursts in through the holes; every hanging bell shatters; the water is flung into the air in sheets; the team is flattened
+      under Borro's shield, which holds.
+    acting:
+      bell_ringer: "the bell-head at the top of its swing, ringing"
+      borro: "bent over his shield, holding it over everyone"
+    calm: top
+    sfx:
+      - {text: "DOOOOOOOOOOOOOONNNNNNNG", style: impact, at: [0.50, 0.24], size: XL, rot: 0}
+
+  - id: P11
+    recipe: aftermath
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level in the ruined chamber: dust and water raining down through shafts of daylight, the team a heap under Borro's dented shield"
+    light: "shafts of daylight through dust"
+    art: >
+      In the ruined chamber: dust and water rain down through new shafts of daylight from the broken dome; the team lies in a heap
+      under Borro's dented shield; the giant stands swaying in the middle, the arrow still stuck in its bell.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "patter... patter...", style: quiet, at: [0.70, 0.20], size: S, rot: 0}
+
+  - id: P12
+    kind: title
+    shape: full
+    gap: long
+    bg: black
+    title_card: "MY SUMMONS GO FIRST · CHAPTER 19 · BORROWED THUNDER"
+    notes: "Title card at panel 12 of 65 (18%)."
+
+  # ================= THE SECOND TRY (P13–P38) =================
+  - id: P13
+    recipe: reaction
+    shape: wide
+    gap: long
+    bg: black
+    camera: "low, under the shield in the heap: Jaeha lying in the water, ears ringing, trying to push himself up and failing"
+    light: "dust; a shaft of daylight"
+    face: private
+    art: >
+      Low under the shield: Jaeha (kang_jaeha) lies in the water among the others, blood from his nose and ear, trying to push
+      himself up on his arms and failing; his legs won't answer.
+    acting:
+      kang_jaeha: "pushing up on shaking arms, legs limp, face in the water's edge"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "EEEEEEEEE", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P14
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: Yerin crawling to him through the water, her hands glowing, shouting his name with no sound"
+    light: "mint glow; dust"
+    art: >
+      Yerin (song_yerin) crawls to him through the water with her hands glowing mint, her mouth open, shouting.
+    acting:
+      song_yerin: "crawling through the water, hands glowing, shouting"
+    eyeline: "Yerin → Jaeha"
+    foreground: "a broken bell's rim in the water, cropped, bottom"
+    calm: top
+    lines:
+      - {who: song_yerin, type: shout, text: "JAEHA! CAN YOU HEAR ME? JAEHA!", side: l}
+
+  - id: P15
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Yerin's glowing hands pressing on either side of Jaeha's head, over his ears"
+    light: "mint glow"
+    art: >
+      Close on Yerin's glowing mint hands pressing on either side of Jaeha's head, over his ears.
+    calm: left
+    silent: true
+    sfx:
+      - {text: "SHIIING", style: quiet, at: [0.40, 0.30], size: S, rot: 0}
+
+  - id: P16
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close on Jaeha, the ringing fading, his eyes focusing on Yerin"
+    light: "mint"
+    face: private
+    art: >
+      Close and low on Jaeha (kang_jaeha): the ringing fades and his eyes focus on Yerin.
+    acting:
+      kang_jaeha: "eyes focusing, a weak breath, blood on his lip"
+    eyeline: "Jaeha → Yerin"
+    foreground: "Yerin's glowing wrist, cropped, left"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "I HEAR YOU. MY LEGS DON'T, THOUGH.", side: r}
+
+  - id: P17
+    recipe: anticipation
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from the water: the giant turning slowly toward them through the falling dust, the clapper dragging, the arrow stuck in its bell"
+    light: "shafts of daylight; violet"
+    art: >
+      From low in the water: the giant turns slowly toward them through the falling dust, its clapper dragging, Lyra's arrow stuck
+      in its bell, violet ash pouring from the widened crack.
+    acting:
+      bell_ringer: "turning toward them, dragging the clapper, swaying"
+    calm: top
+    sfx:
+      - {text: "KRRRK... KRRRK...", style: quiet, at: [0.60, 0.70], size: S, rot: 0}
+
+  - id: P18
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: Lyra standing up on the rim, notching her second-to-last arrow, glaring at the giant"
+    light: "daylight shafts"
+    art: >
+      Lyra (lyra) stands up on the shield's rim, notching her second-to-last arrow, glaring at the giant.
+    acting:
+      lyra: "standing on the rim, notching an arrow, braid swinging, furious"
+    eyeline: "Lyra → the giant"
+    foreground: "the dented shield's rim, cropped, bottom"
+    calm: top
+    lines:
+      - {who: lyra, type: speech, text: "TWO ARROWS LEFT, MERCHANT. TELL ME YOU HAVE A PLAN.", side: l}
+
+  - id: P19
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "over Jaeha's shoulder, close on his notebook propped on Yerin's knee, a shaking line drawn"
+    light: "daylight on the page"
+    face: private
+    art: >
+      Over Jaeha's shoulder: his notebook propped on Yerin's knee; his shaking hand draws a line from a shield through a stick figure
+      to a bow, and circles the stick figure's legs. Leave a blank band for the letterer's note. No readable text.
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: note, text: "IT WORKED. I FELL. IF I DON'T FALL, IT WORKS."}
+
+  - id: P20
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low two-shot: Jaeha looking up at Mok, who kneels in the water with his cracked shield, out of breath"
+    light: "daylight shafts"
+    face: private
+    art: >
+      Jaeha (kang_jaeha), propped against Yerin, looks up at Mok (mok_hangyu), who kneels in the water beside them with his cracked
+      shield, out of breath.
+    acting:
+      kang_jaeha: "looking up at Mok, calm, bleeding"
+      mok_hangyu: "kneeling, gasping, the cracked shield on his arm"
+    eyeline: "Jaeha → Mok (up); Mok → Jaeha"
+    foreground: "Yerin's shoulder, cropped, left"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "SIR. I NEED YOU TO HOLD ME UP.", side: r}
+      - {who: mok_hangyu, type: speech, text: "...WHAT?", side: l}
+
+  - id: P21
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Jaeha, his eyes steady on Mok"
+    light: "daylight"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha), his eyes steady on Mok.
+    acting:
+      kang_jaeha: "steady, tired eyes, blood drying on his lip"
+    eyeline: "Jaeha → Mok"
+    foreground: "the edge of Mok's shield, cropped, right"
+    calm: right
+    lines:
+      - {who: kang_jaeha, type: speech, text: "STAND BEHIND ME. HOLD ME UP. AND DON'T LET GO THIS TIME.", side: l}
+
+  - id: P22
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Mok's face, the words landing like a blow"
+    light: "daylight; dust"
+    art: >
+      Close on Mok (mok_hangyu): the words land like a blow; his jaw works; he looks away.
+    acting:
+      mok_hangyu: "flinching, jaw working, eyes sliding away"
+    calm: left
+    silent: true
+
+  - id: P23
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close on Mok's hand letting go of his cracked shield's grip, the shield falling into the water"
+    light: "daylight"
+    art: >
+      Close on Mok's big hand letting go of his cracked shield's grip; the black shield with the broken red hound falls into the
+      water.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "SPLUSH", style: quiet, at: [0.50, 0.70], size: M, rot: 0}
+
+  - id: P24
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level by the fallen bell: Nib rising, the amber flaring back into his eye, a window above"
+    light: "amber flaring; cyan"
+    art: >
+      By the fallen bell: Nib (nib, mask) rises from one knee as the amber flares back into his eye and his outline blazes; he draws
+      both notched knives. The upper part is empty for the window.
+    acting:
+      nib: "rising, knives coming out, eye blazing"
+    calm: top
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[COOLDOWN 00:00 · NIB · FIELD FORM 05:00]"}
+    silent: true
+
+  - id: P25
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, three-shot: Jaeha giving orders, Nib crouched beside him, Lyra on the rim above"
+    light: "daylight shafts; amber; river blue"
+    face: private
+    art: >
+      From low: Jaeha (kang_jaeha) gives orders, Nib crouched beside him, Lyra on the shield's rim above.
+    acting:
+      kang_jaeha: "pointing at the giant's leg, then up at Lyra, speaking fast"
+      nib: "crouched, nodding once, eyes on the giant's knee"
+      lyra: "looking down from the rim, listening"
+    eyeline: "Jaeha → Nib; Nib → the giant"
+    foreground: "the water's surface, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "NIB, BRING IT TO ITS KNEES. LYRA, WAIT FOR ITS BLOW. THIS TIME I WON'T FALL.", side: r}
+
+  - id: P26
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the water: Nib racing through the rubble and the shallow water toward the giant's leg, scarf streaming"
+    light: "amber streak; daylight shafts"
+    art: >
+      From low in the water: Nib races through the rubble toward the giant's leg, scarf streaming, leaping from stone to stone.
+    acting:
+      nib: "racing low, leaping across rubble, knives reversed"
+    calm: top
+    sfx:
+      - {text: "TAK TAK TAK", style: impact, at: [0.60, 0.70], size: M, rot: -8}
+
+  - id: P27
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level behind the giant's knee: Nib slashing both knives through the rotting robes and chains behind it"
+    light: "amber; sparks"
+    art: >
+      Behind the giant's knee: Nib slashes both knives through the rotting robes and rusted chains behind it, again and again,
+      sparks flying, chips of stone flying.
+    acting:
+      nib: "slashing behind the knee, both knives a blur"
+      bell_ringer: "its leg buckling"
+    calm: top
+    sfx:
+      - {text: "SHRAKK SHRAKK", style: impact, at: [0.50, 0.30], size: L, rot: 8}
+
+  - id: P28
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the water: the giant dropping to one knee with a crash, its bell-head coming down to the height of the shields"
+    light: "spray; daylight"
+    art: >
+      From low in the water: the giant drops to one knee with a crash; its bell-head comes down to the height of the shields, the
+      stuck arrow pointing at Lyra; it raises the clapper over them.
+    acting:
+      bell_ringer: "on one knee, raising the clapper over the shields"
+    calm: top
+    sfx:
+      - {text: "KRASHHH", style: impact, at: [0.40, 0.70], size: XL, rot: 0}
+
+  - id: P29
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level behind Jaeha: Mok behind him, both big hands gripping Jaeha's shoulders and holding him upright"
+    light: "daylight shafts"
+    face: private
+    art: >
+      From behind: Mok (mok_hangyu) stands behind Jaeha and grips his shoulders with both big hands, holding him upright; Jaeha
+      (kang_jaeha) puts one hand flat on Borro's shell and raises the other to Lyra's heel on the rim.
+    acting:
+      mok_hangyu: "standing behind Jaeha, both hands gripping his shoulders, braced, jaw clenched"
+      kang_jaeha: "held upright, one hand on Borro's shell, the other reaching up to Lyra's heel"
+    eyeline: "Mok → the clapper; Jaeha → the clapper"
+    foreground: "Mok's broad back and gold chain, cropped, bottom"
+    calm: top
+    lines:
+      - {who: mok_hangyu, type: speech, text: "I'VE GOT YOU, TRAP RAT. I'VE GOT YOU.", side: l}
+
+  - id: P30
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Jaeha's bloody fingertips touching the heel of Lyra's white boot"
+    light: "white-gold beginning to glow"
+    art: >
+      Close on Jaeha's bloody fingertips touching the heel of Lyra's white boot on the shield's rim; a faint white-gold glow begins
+      where they touch.
+    calm: right
+    silent: true
+
+  - id: P31
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close on Lyra at full draw on the rim, the stuck arrow's crack lined up in front of her"
+    light: "river blue; violet"
+    art: >
+      Close and low on Lyra (lyra) at full draw on the rim, the bell-head's crack right in front of her at point-blank range.
+    acting:
+      lyra: "at full draw, utterly still, one eye narrowed, lips barely moving"
+    eyeline: "Lyra → the crack"
+    foreground: "the giant's raised clapper, cropped, top"
+    calm: top
+    lines:
+      - {who: lyra, type: whisper, text: "COUNT THE ARROWS IF YOU WANT. I ONLY NEED THE ONE.", side: l}
+
+  - id: P32
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, looking straight up past the shields: the clapper coming down"
+    light: "the clapper's shadow"
+    art: >
+      Looking straight up past the two shields: the clapper comes down out of the falling dust.
+    acting:
+      bell_ringer: "bringing the clapper down from above"
+    calm: top
+    sfx:
+      - {text: "WHOOOOOOM", style: impact, at: [0.50, 0.24], size: XL, rot: -6}
+
+  - id: P33
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: the clapper slamming onto Borro's shield, the water exploding, Borro's arms locked"
+    light: "a white flash"
+    art: >
+      The clapper slams onto Borro's iron shield; the water explodes outward; Borro's arms lock and he does not move.
+    acting:
+      borro: "arms locked, the shield taking the full blow, buried and immovable"
+    calm: top
+    sfx:
+      - {text: "KRAAANG", style: impact, at: [0.40, 0.30], size: XL, rot: 6}
+
+  - id: P34
+    recipe: splash
+    shape: full
+    gap: short
+    bg: black
+    camera: "low, from the side, tilted 12 degrees: one blinding chain of white-gold light from the shield through Borro, through Jaeha held up by Mok, up through Lyra into the arrow"
+    light: "a blinding white-gold chain of light; everything else dark"
+    art: >
+      BORROWED THUNDER. From low at the side: one blinding chain of white-gold force runs from the clapper's impact on Borro's
+      shield, through Borro's shell, through Jaeha's hand on it, through his whole body (held upright by Mok's hands on his
+      shoulders), out through his fingertips at Lyra's heel, up through Lyra's body and her drawing arm, and into the arrow at her
+      cheek, which blazes. Jaeha's head is thrown back, his eyes and mouth full of light; Mok's knuckles are white on his
+      shoulders; Lyra is perfectly still at full draw, white-gold lightning crawling down the bow. Everything else is dark.
+    acting:
+      kang_jaeha: "held up by Mok, head thrown back, light pouring through him, both hands in place"
+      mok_hangyu: "gripping Jaeha's shoulders, braced, face lit white-gold"
+      lyra: "at full draw, blazing, perfectly still"
+      borro: "under the shield, the light running up through his shell"
+    calm: top
+    sfx:
+      - {text: "VWWWOOOOOMMMM", style: impact, at: [0.30, 0.20], size: XL, rot: -10}
+
+  - id: P35
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close on Lyra's fingers releasing the string, white-gold lightning leaping off the arrow"
+    light: "white-gold"
+    art: >
+      Close on Lyra's gloved fingers releasing the string; white-gold lightning leaps off the arrow as it goes.
+    calm: top
+    sfx:
+      - {text: "DOOOONNNG", style: impact, at: [0.50, 0.30], size: XL, rot: 0}
+
+  - id: P36
+    recipe: impact
+    shape: full
+    gap: short
+    bg: black
+    camera: "low, from behind the shields: the arrow streaking into the crack in the bell-head and blowing straight out through the other side in a burst of bronze and white-gold"
+    light: "white-gold bursting; bronze shards"
+    art: >
+      From low behind the shields: the arrow streaks into the violet crack beside the stuck arrow and blows straight out through
+      the other side of the bell-head in a burst of bronze shards and white-gold lightning; the bell splits from top to bottom; a
+      white-gold hole straight through it.
+    acting:
+      bell_ringer: "its bell-head splitting apart, arms jerking wide"
+    calm: top
+    sfx:
+      - {text: "KA-BOOOOM", style: impact, at: [0.30, 0.20], size: XL, rot: -8}
+
+  - id: P37
+    recipe: aftermath
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from the water: the giant on its knee with its split bell-head, crumbling into violet ash from the top down"
+    light: "daylight shafts; violet ash"
+    art: >
+      From low in the water: the giant kneels with its bell-head split in two, and crumbles into violet ash from the top down, its
+      robes and chains falling into the water; the clapper sinks.
+    acting:
+      bell_ringer: "kneeling, crumbling from the top down"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "KSSSSHHHHH", style: quiet, at: [0.50, 0.40], size: M, rot: 0}
+
+  - id: P38
+    recipe: silent
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level in the quiet chamber: ash settling like snow in the shafts of daylight, the team frozen in place"
+    light: "daylight shafts through settling ash"
+    art: >
+      The chamber goes quiet: violet ash settles like snow in the shafts of daylight; the team stays frozen in place: Lyra on the
+      rim with the bow lowered, Mok still holding Jaeha's shoulders, Borro under his shield, Nib by the giant's empty robes, Yerin
+      on her knees.
+    calm: top
+    silent: true
+
+  # ================= THE CORE (P39–P55) =================
+  - id: P39
+    recipe: reaction
+    shape: wide
+    gap: long
+    bg: black
+    camera: "low, close on Jaeha sagging in Mok's hands, laughing breathlessly, blood and light fading from him"
+    light: "daylight; the last white-gold fading"
+    face: private
+    art: >
+      Close and low: Jaeha (kang_jaeha) sags in Mok's hands, laughing breathlessly, the last white-gold light fading out of his
+      skin.
+    acting:
+      kang_jaeha: "sagging, laughing breathlessly, eyes half closed"
+      mok_hangyu: "still holding him up, staring at the empty robes"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "HA... HAHA...", style: quiet, at: [0.30, 0.30], size: S, rot: 0}
+
+  - id: P40
+    recipe: system
+    shape: tall
+    gap: short
+    bg: navy
+    camera: "low, from the water: a head-sized violet core rising out of the giant's empty robes, a window opening over it"
+    light: "violet; cyan"
+    art: >
+      From low in the water: a head-sized faceted violet core, pulsing slowly, rises out of the giant's empty robes and hangs in a
+      shaft of daylight. The upper part is empty for the window.
+    calm: top
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.05], headline: "[BOSS DEFEATED: HUSHED BELL-RINGER (B)]", body: "THE GATE WILL CLOSE IN 10 MINUTES.", button: "OK"}
+    silent: true
+
+  - id: P41
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "close on Jaeha in Mok's hands, looking up at a second window"
+    light: "cyan"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha), held up by Mok, looking up at a second window. The upper half is empty for the window.
+    acting:
+      kang_jaeha: "looking up, eyes narrowing, unreadable"
+    eyeline: "Jaeha → the window"
+    calm: top
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.05], headline: "[COMBO LEARNED: BORROWED THUNDER]", body: "BORRO → OPERATOR → LYRA · PASS I", button: "OK"}
+    silent: true
+
+  - id: P42
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: Lyra hopping down off the shield, flicking her braid, and walking straight past everyone to the drone in Borro's moss"
+    light: "daylight shafts"
+    art: >
+      Lyra (lyra) hops down off the shield, flicks her braid over her LEFT shoulder, and walks straight past everyone to the drone
+      peeking out of the moss on Borro's shell.
+    acting:
+      lyra: "strolling past with the bow on her shoulder, flicking her braid, chin up"
+      borro: "looking sideways at her"
+    eyeline: "Lyra → the drone"
+    foreground: "the dented shield's rim, cropped, bottom"
+    calm: top
+    lines:
+      - {who: lyra, type: speech, text: "THAT WAS MY GOOD SIDE, YES? TELL ME YOU GOT MY GOOD SIDE.", side: l}
+
+  - id: P43
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Lyra leaning down to the drone's lens with a wink and a peace sign"
+    light: "daylight"
+    art: >
+      Close on Lyra (lyra) leaning down to the drone's lens in Borro's moss with a wink and a peace sign.
+    acting:
+      lyra: "leaning in close to the lens, a wink, a peace sign beside her face, a dazzling smile"
+    eyeline: "Lyra → the camera"
+    foreground: "moss and white flowers, cropped, bottom"
+    calm: left
+    lines:
+      - {who: lyra, type: speech, text: "AND, MERCHANT? WHAT'S MY CUT?", side: r}
+
+  - id: P44
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level: the core hanging in the daylight, a third window with one button, Nib looking away"
+    light: "violet; cyan"
+    art: >
+      The core hangs in the shaft of daylight; a third window opens beside it with one button; Nib, by the empty robes, looks away.
+      The upper half is empty for the window.
+    acting:
+      nib: "looking away from the core, ears low"
+    calm: top
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.05], headline: "[HARVEST CORE · EST. ₩900,000,000]", body: "NO OTHER OPTION IS AVAILABLE.", button: "HARVEST"}
+    silent: true
+
+  - id: P45
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low two-shot: Yerin staring at the window's number, Jaeha looking at Nib"
+    light: "daylight; cyan"
+    face: private
+    art: >
+      Yerin (song_yerin) stares at the number in the window, both hands over her mouth; Jaeha (kang_jaeha) looks past it at Nib.
+    acting:
+      song_yerin: "hands over her mouth, eyes huge"
+      kang_jaeha: "looking at Nib, thoughtful, unsmiling"
+    eyeline: "Yerin → the window; Jaeha → Nib"
+    foreground: "the edge of the window's cyan glow, cropped, top"
+    calm: top
+    lines:
+      - {who: song_yerin, type: speech, text: "NINE HUNDRED MILLION WON. JAEHA, THAT'S THE RENT FOR... FOREVER.", side: l}
+      - {who: kang_jaeha, type: speech, text: "AND SEOA'S ART SCHOOL. AND AGAIN, ONLY HARVEST.", side: r}
+
+  - id: P46
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: Lyra and Nib hauling rubble off Borro, Borro rising out of the stones at last"
+    light: "daylight shafts"
+    art: >
+      Lyra and Nib haul the last stones off Borro; he rises out of the rubble at last, shaking dust from his moss, the drone
+      clinging on.
+    acting:
+      lyra: "heaving a stone aside, complaining"
+      nib: "rolling a stone away with his shoulder"
+      borro: "rising slowly out of the rubble, dust pouring off him"
+    calm: top
+    sfx:
+      - {text: "KRUNCH KRUNCH", style: impact, at: [0.50, 0.70], size: M, rot: 0}
+
+  - id: P47
+    recipe: chorus
+    shape: wide
+    gap: short
+    bg: white
+    camera: "outside, close on Bomi's phone: the live stream, the viewer count past a million"
+    light: "daylight; the screen glow"
+    art: >
+      Outside at the spillway, close on Bomi's phone, the screen flat green; Bomi's thumbs shaking; reporters crowding behind her.
+    calm: top
+    ui:
+      - kind: phone.live_stream
+        "on": screen
+        viewers: "1,104,226 WATCHING"
+        chat:
+          - "[jjang_hunter]: BORROWED THUNDER BORROWED THUNDER"
+          - "[seoul_otaku]: MOK HELD HIM UP?? I'M CRYING"
+          - "[real_or_cgi]: ok fine it's not CGI"
+    sfx:
+      - {text: "BLIPBLIPBLIP", style: quiet, at: [0.80, 0.80], size: S, rot: 0}
+
+  - id: P48
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Jaeha's finger pressing HARVEST, the core drifting into his hands"
+    light: "violet"
+    art: >
+      Close on Jaeha's bloody finger pressing HARVEST; the head-sized core drifts down into his cupped hands.
+    calm: right
+    silent: true
+    sfx:
+      - {text: "VMMM", style: quiet, at: [0.40, 0.30], size: S, rot: 0}
+
+  - id: P49
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "high over the ruined chamber: the team small in the shafts of light, the core in Jaeha's arms, two windows stacked above"
+    light: "daylight shafts; cyan"
+    art: >
+      High over the ruined chamber: the team small in the shafts of daylight, the core in Jaeha's arms. The upper half is empty
+      for two stacked windows.
+    calm: top
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[OPERATOR LV. 5 → 6]"}
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.16], text: "[NEW BOSS KIND · +10% × LV. 6 · ROUTE ALIGNMENT 0% → 60%]"}
+    silent: true
+
+  - id: P50
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: Mok letting go of Jaeha's shoulders and sitting down heavily on a broken bell in the water, staring at his hands"
+    light: "daylight"
+    art: >
+      Mok (mok_hangyu) lets go of Jaeha's shoulders and sits down heavily on a broken bell in the water, staring at his own big
+      hands; his cracked shield lies in the water at his feet.
+    acting:
+      mok_hangyu: "sitting heavily, staring at his open hands, shoulders slumped"
+    eyeline: "Mok → his hands"
+    foreground: "his cracked shield in the water, cropped, bottom"
+    calm: top
+    lines:
+      - {who: mok_hangyu, type: speech, text: "WHAT WAS THAT? WHAT ARE YOU?", side: l}
+
+  - id: P51
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low two-shot: Jaeha sitting down in the water beside Mok's broken bell, the core in his lap"
+    light: "daylight"
+    face: private
+    art: >
+      Jaeha (kang_jaeha) lowers himself to sit in the water beside Mok's broken bell, the core in his lap.
+    acting:
+      kang_jaeha: "sitting, the core in his lap, looking up at Mok, calm"
+      mok_hangyu: "looking down at him"
+    eyeline: "Jaeha ↔ Mok"
+    foreground: "the core's violet glow, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "A TRAP-TESTER, SIR. THE ONE YOU CLOSED A DOOR ON.", side: r}
+
+  - id: P52
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Mok, his eyes dropping"
+    light: "daylight"
+    art: >
+      Close on Mok (mok_hangyu), his eyes dropping.
+    acting:
+      mok_hangyu: "eyes dropping, jaw tight, a muscle jumping in his cheek"
+    calm: left
+    silent: true
+
+  - id: P53
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, three-quarter: Yerin and Lyra standing over them, Borro and Nib behind"
+    light: "daylight shafts"
+    art: >
+      Yerin (song_yerin) and Lyra (lyra) stand over the two of them; Borro and Nib stand behind, watching Mok.
+    acting:
+      song_yerin: "arms folded, glaring at Mok"
+      lyra: "leaning on her bow, curious, looking from one man to the other"
+      nib: "behind them, knives still in hand, eyes on Mok"
+    eyeline: "all → Mok"
+    foreground: "Lyra's bow, cropped, left"
+    calm: top
+    lines:
+      - {who: lyra, type: speech, text: "WHO IS THE BIG ONE? HE HAS A COWARD'S EYES.", side: l}
+
+  - id: P54
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Nib, flat"
+    light: "daylight"
+    art: >
+      Close on Nib (nib, mask), flat, his knives still out.
+    acting:
+      nib: "flat eyes on Mok, knives still drawn"
+    eyeline: "Nib → Mok"
+    foreground: "Lyra's braid hanging past, cropped, right edge"
+    calm: right
+    lines:
+      - {who: nib, type: speech, text: "HE CLOSES DOORS.", side: l}
+
+  - id: P55
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close on Jaeha's notebook falling open in his lap, the page with three words on it"
+    light: "daylight on the page"
+    face: private
+    art: >
+      Close on Jaeha's notebook falling open in his lap beside the core, at the page with three words written large and joined by
+      lines (no readable text in the art).
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: note, text: "MOK. MINSEOK. HAN RIVER."}
+
+  # ================= THE BACK DOOR (P56–P65) =================
+  - id: P56
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low two-shot: Jaeha looking up at Mok, quiet, the core glowing in his lap"
+    light: "daylight; violet"
+    face: private
+    art: >
+      From low: Jaeha (kang_jaeha) looks up at Mok, quiet, the core glowing in his lap.
+    acting:
+      kang_jaeha: "looking up at Mok, voice quiet, eyes steady"
+      mok_hangyu: "sitting on the broken bell, looking down, very still"
+    eyeline: "Jaeha → Mok (up)"
+    foreground: "the open notebook, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "FOUR YEARS AGO, YOU CLOSED ANOTHER DOOR. ON A MAN CALLED OH MINSEOK.", side: r}
+
+  - id: P57
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of Mok's eyes going flat and dead"
+    light: "daylight; shadow"
+    art: >
+      Extreme close-up: Mok's eyes (mok_hangyu) going flat and dead, the way they were at the start. Fill the canvas edge to edge.
+    acting:
+      mok_hangyu: "eyes going flat, pupils small, lids lowering"
+    calm: none
+    silent: true
+
+  - id: P58
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Mok's radio on his shoulder, crackling"
+    light: "daylight"
+    art: >
+      Close on the radio on Mok's shoulder strap, its light blinking, crackling.
+    calm: left
+    lines:
+      - {who: offpanel:bh_sealers, type: phone, text: "BOSS? WE'RE THROUGH THE CRYPT. SIX OF US. WE'RE BEHIND THE BACK DOOR.", side: r}
+    sfx:
+      - {text: "KSSHHK", style: quiet, at: [0.30, 0.30], size: S, rot: 0}
+
+  - id: P59
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: Mok standing up slowly from the broken bell, picking his cracked shield out of the water, his back to Jaeha"
+    light: "daylight; shadow over his face"
+    art: >
+      Mok (mok_hangyu) stands up slowly from the broken bell and picks his cracked shield up out of the water, his back to Jaeha,
+      his face in shadow.
+    acting:
+      mok_hangyu: "standing slowly, lifting the shield, shoulders squaring, face in shadow"
+      kang_jaeha: "sitting in the water, watching his back"
+    eyeline: "Mok → the back wall; Jaeha → Mok"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "SHLLK", style: quiet, at: [0.40, 0.70], size: S, rot: 0}
+
+  - id: P60
+    recipe: system
+    shape: inset-l
+    gap: short
+    bg: navy
+    camera: "close on a small window in the corner of Jaeha's vision: the gate timer"
+    light: "cyan"
+    art: >
+      Close on a small window in the corner of Jaeha's vision.
+    calm: right
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.40], text: "[GATE CLOSING · 09:12]"}
+    silent: true
+
+  - id: P61
+    recipe: anticipation
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the water, looking up the back wall: the small dark doorway 6 m up, a silhouette stepping into it"
+    light: "a sliver of torchlight in the doorway"
+    art: >
+      From low in the water, looking up the back wall where the stair has fallen away: in the small dark doorway 6 m up, a
+      slender silhouette steps into view, a crossbow in her hands.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "STEP", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P62
+    recipe: establish
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, looking up: Han Sora standing in the high doorway, lowering her crossbow, smiling down at them"
+    light: "torchlight behind her; daylight shafts below"
+    art: >
+      Looking up from the water: Han Sora (han_sora) stands in the small dark doorway high on the back wall with torchlight behind
+      her, lowering her crossbow, smiling down at the team below; the brass compass hangs from her wrist.
+    acting:
+      han_sora: "standing in the doorway, lowering the crossbow, one hip against the frame, a red-lipped smile"
+    eyeline: "Sora → the team (down)"
+    calm: top
+    silent: true
+
+  - id: P63
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close on the compass on her wrist: the violet needle swinging to point down at Lyra, then sliding on to point at Jaeha"
+    light: "violet"
+    art: >
+      Close on the compass on Sora's wrist: the violet needle swings to point down at Lyra; in a ghosted second image beside it, it
+      slides on and points at Jaeha.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "TIK... TIK.", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P64
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "over Sora's shoulder from the doorway: the team small in the ruined chamber far below, Jaeha with the core in his lap"
+    light: "torchlight; daylight shafts below"
+    art: >
+      Over Sora's shoulder from the high doorway (her black bob and crossbow, cropped, foreground): the team small in the ruined,
+      flooded chamber far below, Jaeha sitting with the glowing core in his lap, Mok standing apart with his shield.
+    acting:
+      han_sora: "seen from behind, crossbow lowered, looking down"
+    eyeline: "Sora → Jaeha"
+    foreground: "Sora's shoulder and black bob, cropped, left third"
+    calm: top
+    lines:
+      - {who: han_sora, type: speech, text: "CONGRATULATIONS, HERO. NOW, WHO'S GOING TO CARRY THAT CORE OUT?", side: r}
+
+  - id: P65
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha looking up at her, arms tightening round the core"
+    light: "daylight"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha) looking up at her, his arms tightening round the core in his lap.
+    acting:
+      kang_jaeha: "looking up, arms tightening round the core, eyes cold"
+    eyeline: "Jaeha → Sora (up)"
+    calm: left
+    silent: true
+
+  - id: END
+    kind: end
+    chibi_gag: "Chibi Lyra holds out her hand to chibi Jaeha with a tiny invoice that is a blank card covered in hearts and money signs, while chibi Jaeha, cradling the core like a baby, slowly backs away and chibi Borro pats Lyra on the head."
