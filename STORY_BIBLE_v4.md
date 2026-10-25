@@ -297,7 +297,7 @@ Part One climbs a ladder of villains, each one working for the next: a guild bul
 
 - **Who he was.** The first person on Earth the protocol chose. He sent his fighters first until none came back, and the Hush took him on the night the gates opened.
 - **What he wants now.** Jaeha's protocol, so he can open every gate.
-- **In Part One.** Only interface glitches ("OPERATOR #1 — STATUS: HUSHED") and the last page of chapter 100: "Operator #2. You're late."
+- **In Part One.** Only interface glitches ("OPERATOR #1 — STATUS: HUSHED"), Geum's memory of a faceless young man on the Busan breakwater on the night of the Opening (ch 35, never his face), and the last page of chapter 100: "Operator #2. You're late."
 
 **Mysteries, planted and paid off.**
 

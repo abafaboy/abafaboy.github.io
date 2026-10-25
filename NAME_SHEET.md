@@ -64,7 +64,8 @@
 | canyon wyvern | `canyon_wyvern` | Chapter 24 |
 | the Hushed Tide Warden | `tide_warden` | The kept boss of the Han River gate (ch 25-28). "The Warden" for short. |
 | brine crawlers | `brine_crawler` | Hush-spawn from the Busan sea gate (ch 34, 39-40) |
-| the Reef Hermit | `reef_hermit` | The cold-store gate's boss (ch 35). Window: REEF HERMIT (NEW KIND). |
+| the Reef Hermit | `reef_hermit` | The cold-store gate's boss (ch 35), a new boss kind. Windows: REEF HERMIT (D). |
+| the fighters made of light | `light_fighters` | Operator #1's fighters as Geum saw them on the night of the Opening (ch 35 flashback) |
 | the Deep Lantern | `deep_lantern` | The Busan sea gate's boss, a hushed hero (ch 39-40). Her real name, heard once: **Oriel**. Window: THE DEEP LANTERN. |
 
 ## Places
