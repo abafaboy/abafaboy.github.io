@@ -1,0 +1,26 @@
+{
+  "entry": "L11",
+  "location": "bomi_room",
+  "target": "interior.png",
+  "state": "HELD / missing approved reference; zero image calls",
+  "reason": "Required framed photo depicts young Bomi with her recurring parents. CHARACTER_DESIGNS_v2 section 2.15 assigns their continuity to S18 neighbourhood lineup; canonical characters_v2/neighbourhood/lineup.png and codex/reviews/S18.md are absent. HANDOFF section 1 requires approved sheets of every depicted character. No blank-photo or invented-parent replacement is authorized.",
+  "missing_inputs": [
+    "approved characters_v2/neighbourhood/lineup.png",
+    "Claude S18 approval or explicit photo-reference instruction"
+  ],
+  "available_future_refs": [
+    "characters_v2/yoo_bomi/front.png",
+    "characters_v2/yoo_bomi/turnaround.png",
+    "characters_v2/yoo_bomi/expressions.png",
+    "one approved acting house-style anchor"
+  ],
+  "potential_reference_count_with_S18": 5,
+  "attempts": 0,
+  "generation_in_flight": false,
+  "type": "Required approved-reference dependency; no tool denial",
+  "rule_citations": {
+    "HANDOFF_ABAFADOT.md section 1": "For every generation, attach the approved sheets of every character in the image.",
+    "codex/CHARACTER_DESIGNS_v2.md section 2.15": "Recurring people get one lineup sheet (characters_v2/neighbourhood/lineup.png, entry S18) so they stay the same from chapter to chapter.",
+    "codex/CHARACTER_DESIGNS_v2.md section 5b": "A framed photo of young Bomi with her parents on the restaurant opening day."
+  }
+}
