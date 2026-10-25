@@ -1,0 +1,213 @@
+{
+  "entry": "S17",
+  "status": "INCOMPLETE / REVIEW REQUIRED",
+  "complete": false,
+  "claude_approved": false,
+  "retained_candidates": [
+    "front.png",
+    "expressions.png",
+    "details.png"
+  ],
+  "missing_passing_files": [
+    "turnaround.png"
+  ],
+  "attempts_used": {
+    "front.png": 1,
+    "expressions.png": 1,
+    "details.png": 1,
+    "turnaround.png": 4
+  },
+  "generation_in_flight": false,
+  "technical": {
+    "all_seven_pngs_native_1536x1024": true,
+    "all_pngs_byte_identical_to_generator": true,
+    "every_generation_has_inspected_approved_Arc1_refs_and_two_house_style_anchors": true,
+    "maximum_reference_paths_used": 5,
+    "failed_candidates_used_as_references": false
+  },
+  "visual_self_checks": {
+    "front": "Initial visual self-check retained front before dependent views: upright lean adult, long legs, required suit, glasses, pin, folded hands and crystal cane. Approximate head-count judgment is not a measured guarantee; Claude must assess age, 8-head proportion and locks.",
+    "expressions": "Eight heads/shoulders in 4x2 grid, restrained requested acting, file reading and three-quarter-back gaze. Window is off canvas rather than drawn on the neutral sheet.",
+    "details": "Cane/core/claws, rectangular glasses, concentric-hexagon pin and naturally layered folded hands are present. Crystal/metal rendering and exact hand anatomy await Claude.",
+    "turnaround": "All four attempts preserve four character views but fail the required human comparison scale. No passing turnaround selected.",
+    "background": "Generated light-grey backgrounds have subtle tonal variation rather than perfectly uniform #E9E9EC. Bytes left untouched; flag for Claude."
+  },
+  "turnaround_measurements": [
+    {
+      "attempt": 1,
+      "file": "_rejects/baek_taegun_S17_turnaround_try1_scale.png",
+      "bounds": {
+        "baek_scalp": {
+          "roi_xyxy": [
+            180,
+            0,
+            285,
+            160
+          ],
+          "top": 13,
+          "bottom": 159
+        },
+        "baek_body": {
+          "roi_xyxy": [
+            0,
+            0,
+            415,
+            1010
+          ],
+          "top": 13,
+          "bottom": 979
+        },
+        "human": {
+          "roi_xyxy": [
+            1310,
+            0,
+            1530,
+            1010
+          ],
+          "top": 65,
+          "bottom": 965
+        }
+      },
+      "baek_whole_figure_ink_height_px": 966,
+      "human_ink_height_px": 900,
+      "human_to_baek_ink_ratio": 0.9316770186335404,
+      "nominal_178_to_183_ratio": 0.9726775956284153,
+      "result": "FAIL / rejected for visibly short comparison figure",
+      "limitations": "Approximate ink-bound diagnostic includes hair/shoe contours and antialiasing; it is not a precise scalp-to-sole anatomical measurement. Claude should inspect full-size originals."
+    },
+    {
+      "attempt": 2,
+      "file": "_rejects/baek_taegun_S17_turnaround_try2_scale.png",
+      "bounds": {
+        "baek_scalp": {
+          "roi_xyxy": [
+            140,
+            0,
+            250,
+            160
+          ],
+          "top": 12,
+          "bottom": 159
+        },
+        "baek_body": {
+          "roi_xyxy": [
+            0,
+            0,
+            395,
+            1010
+          ],
+          "top": 12,
+          "bottom": 964
+        },
+        "human": {
+          "roi_xyxy": [
+            1245,
+            0,
+            1515,
+            1010
+          ],
+          "top": 67,
+          "bottom": 953
+        }
+      },
+      "baek_whole_figure_ink_height_px": 952,
+      "human_ink_height_px": 886,
+      "human_to_baek_ink_ratio": 0.930672268907563,
+      "nominal_178_to_183_ratio": 0.9726775956284153,
+      "result": "FAIL / rejected for visibly short comparison figure",
+      "limitations": "Approximate ink-bound diagnostic includes hair/shoe contours and antialiasing; it is not a precise scalp-to-sole anatomical measurement. Claude should inspect full-size originals."
+    },
+    {
+      "attempt": 3,
+      "file": "_rejects/baek_taegun_S17_turnaround_try3_scale.png",
+      "bounds": {
+        "baek_scalp": {
+          "roi_xyxy": [
+            150,
+            0,
+            245,
+            160
+          ],
+          "top": 44,
+          "bottom": 159
+        },
+        "baek_body": {
+          "roi_xyxy": [
+            0,
+            0,
+            395,
+            1010
+          ],
+          "top": 44,
+          "bottom": 964
+        },
+        "human": {
+          "roi_xyxy": [
+            1260,
+            0,
+            1505,
+            1010
+          ],
+          "top": 100,
+          "bottom": 954
+        }
+      },
+      "baek_whole_figure_ink_height_px": 920,
+      "human_ink_height_px": 854,
+      "human_to_baek_ink_ratio": 0.9282608695652174,
+      "nominal_178_to_183_ratio": 0.9726775956284153,
+      "result": "FAIL / rejected for visibly short comparison figure",
+      "limitations": "Approximate ink-bound diagnostic includes hair/shoe contours and antialiasing; it is not a precise scalp-to-sole anatomical measurement. Claude should inspect full-size originals."
+    },
+    {
+      "attempt": 4,
+      "file": "_rejects/baek_taegun_S17_turnaround_try4_scale.png",
+      "bounds": {
+        "baek_scalp": {
+          "roi_xyxy": [
+            420,
+            0,
+            520,
+            180
+          ],
+          "top": 17,
+          "bottom": 179
+        },
+        "baek_body": {
+          "roi_xyxy": [
+            330,
+            0,
+            635,
+            990
+          ],
+          "top": 17,
+          "bottom": 966
+        },
+        "human": {
+          "roi_xyxy": [
+            20,
+            0,
+            280,
+            990
+          ],
+          "top": 57,
+          "bottom": 956
+        }
+      },
+      "baek_whole_figure_ink_height_px": 949,
+      "human_ink_height_px": 899,
+      "human_to_baek_ink_ratio": 0.9473129610115911,
+      "nominal_178_to_183_ratio": 0.9726775956284153,
+      "result": "FAIL / rejected for visibly short comparison figure",
+      "limitations": "Approximate ink-bound diagnostic includes hair/shoe contours and antialiasing; it is not a precise scalp-to-sole anatomical measurement. Claude should inspect full-size originals."
+    }
+  ],
+  "blocker": {
+    "action": "Produce a passing turnaround.png for Director Baek",
+    "target": "S17 turnaround",
+    "state": "blocked after allowed attempts; not a tool denial",
+    "reason": "Required 178 cm silhouette remains too short beside 183 cm Baek after initial plus three redos. No further generation attempted under this cap.",
+    "resolution": "Await Claude verdict and exact redo instruction before any further production."
+  },
+  "review_authority": "Claude only, through codex/reviews/S17.md on msgf-bible."
+}
