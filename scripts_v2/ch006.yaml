@@ -1,0 +1,1139 @@
+chapter: 6
+title: Trap Rats
+format: SCRIPT_FORMAT_v2.md
+when: "The next Monday: an E-grade gate in a Mapo storm drain in the afternoon, the drain outside at dusk, and Bomi's room above her parents' restaurant that night."
+story_beats: STORY_BIBLE_v4.md#arc-2-chapters-612-the-trap-rats-chapter-by-chapter
+cast:
+  kang_jaeha: vest          # healing: a plaster on his right cheekbone, no other bandages
+  nib: mask                 # seal 2/5 look; walks as a "husk" in public; field form only P26–P36
+  song_yerin: default
+  yoo_bomi: default
+  ash_rat: default
+  client_leader: default    # generic: E-rank hunter in his forties, see continuity
+  client_spear: default     # generic: E-rank hunter in his twenties, see continuity
+  landlady: default         # generic: the rooftop room's landlady, see continuity
+locations: [sewer_gate, rooftop_room, bomi_room]
+continuity:
+  - "Jaeha: the orange vest (washed, the hem corner still torn), a plaster on his right cheekbone, no other bandages. Fringe over the LEFT eye, pencil behind the RIGHT ear, notebook in the LEFT chest pocket."
+  - "Nib: seal 2/5 look (nib/turnaround_seal2.png) with the cracked husk mask over his upper LEFT face. In public he plays a husk: walking stiffly in front, arms hanging, perfectly silent (he fails). Rest form (dull eyes, no glow) except P26–P36, when he is in field form and LINKED (amber eyes, thin amber outline)."
+  - "Bomi: her full design (CHARACTER_DESIGNS_v2.md 2.7), the white camera drone with its red light always near her while she streams. She cannot hit anything with her bow (running joke)."
+  - "The client guild (generic, no name cards): two E-rank hunters in mismatched cheap gear. The leader is a balding man in his forties with a paunch, a dented breastplate over a tracksuit and a cheap sword he holds wrong (his thumb wrapped over the top of the grip). The other is a skinny man in his twenties in a hoodie and a plastic-looking chest guard with a spear."
+  - "Ash rats (CHARACTER_DESIGNS_v2.md 4b.1): about 70 cm long, hairless blotched grey hide, eyes leaking violet ash, yellow chisel teeth. The swarm mother (P38–P40) is the same creature at 1.4 m long with a ridge of bony spurs along its back."
+  - "The landlady (generic, no name card): a stout woman in her late sixties, about 150 cm, permed grey hair, a padded vest over a flowered blouse, slippers, arms always folded."
+  - "The sewer gate inside (location sewer_gate): Far Side brick vaults, ankle-deep dark water, side tunnels, white-blue caged lamps. Everyone's boots splash; Nib is barefoot in the water."
+plants:
+  - "PLANT P58–P60: Bomi's frozen frame (ch 7 deal)."
+  - "PLANT P48: 'the Trap Rats' becomes the team's name (ch 12 chant)."
+hook_type: mystery
+
+panels:
+
+  # ================= COLD OPEN (P01–P07) =================
+  - id: P01
+    recipe: establish
+    shape: full
+    gap: none
+    bg: black
+    camera: "eye level (1.6 m) down a long brick-vaulted tunnel: a small cloaked figure walking first through the water, a party behind"
+    light: "key: white-blue caged lamps every 20 m; their reflections on the black water"
+    art: >
+      Inside an E-grade gate (location sewer_gate): a long Far Side brick-vaulted tunnel, ankle-deep black water, side
+      tunnels branching off, moss and pale roots in the joints, white-blue caged lamps along the wall. A small masked figure
+      in a hooded cloak (nib, mask; seal 2/5 look) walks first, stiffly, like a husk. Behind him: Jaeha (kang_jaeha, vest)
+      with his notebook, Yerin (song_yerin), Bomi (yoo_bomi) with her white drone hovering, and two shabby hunters
+      (client_leader, client_spear). Scale: the vault is 4 m high; people are 1.6–1.8 m; Nib reaches Jaeha's belt.
+    acting:
+      nib: "walking stiffly first, arms hanging, bare feet in the water, eyes straight ahead"
+      kang_jaeha: "ten steps behind, notebook open, scanning the walls"
+      song_yerin: "walking close behind Jaeha, hands on her bag strap"
+      yoo_bomi: "walking backwards in front of her drone, talking to it"
+      client_leader: "at the back, sword out, holding it wrong"
+      client_spear: "at the back, spear clutched in both hands"
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "E-GRADE GATE 1107. A STORM DRAIN IN MAPO. MONDAY."}
+    sfx:
+      - {text: "SPLSH SPLSH", style: quiet, at: [0.70, 0.86], size: S, rot: 0}
+
+  - id: P02
+    recipe: insert
+    shape: strip
+    gap: short
+    bg: black
+    camera: "close on Nib's bare grey-green foot pressing a brick down in the water"
+    light: "white-blue lamp light; ripples"
+    art: >
+      Close on Nib's bare grey-green foot, long-toed, pressing one brick of the tunnel floor a finger's width down under the
+      black water. Ripples spread. Fill the canvas edge to edge.
+    calm: none
+    sfx:
+      - {text: "CLICK", style: quiet, at: [0.72, 0.40], size: M, rot: 0}
+
+  - id: P03
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the water, tilted: darts shooting from the wall and Nib catching one between two fingers without looking"
+    light: "no scene light: a white flash; lamp light on the darts"
+    art: >
+      Iron darts shoot out of holes in the brick wall. Nib (nib, mask; seal 2/5) catches one between two long fingers beside
+      his ear without even turning his head; the others clatter past him into the far wall. Speed lines along the darts.
+    acting:
+      nib: "still walking, one hand raised beside his ear with a dart pinched between two fingers, head facing forward, deadpan"
+    calm: top
+    sfx:
+      - {text: "SHK SHK SHK", style: impact, at: [0.40, 0.30], size: L, rot: -10}
+      - {text: "PINCH", style: quiet, at: [0.72, 0.36], size: S, rot: 0}
+
+  - id: P04
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "over the client leader's shoulder: Nib turning back to look at the sword in his hand"
+    light: "lamp light"
+    art: >
+      Over the client leader's shoulder (his balding head and dented breastplate in the left foreground, cropped): Nib (nib,
+      mask; seal 2/5) has turned round and is looking straight at the leader's cheap sword, held wrong with the thumb over the
+      top of the grip.
+    acting:
+      nib: "turned back toward the leader, the dart still between his fingers, pointing it at the sword grip; head tilted, deadpan, mouth moving on the line"
+      client_leader: "seen from behind, frozen, sword held up in front of him with his thumb wrapped over the top of the grip"
+    eyeline: "Nib → the sword grip"
+    foreground: "the client leader's balding head and shoulder, cropped, left third"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "YOUR GRIP ON THAT SWORD IS WRONG. YOU'LL LOSE A FINGER.", side: r}
+
+  - id: P05
+    recipe: chorus
+    shape: wide
+    gap: short
+    bg: black
+    camera: "flat, straight on: four faces in a row reacting"
+    light: "lamp light"
+    face: public
+    art: >
+      Straight on, in a row: the client leader (client_leader) and the spearman (client_spear) gaping; Bomi (yoo_bomi)
+      swinging her drone round, delighted; Jaeha (kang_jaeha, vest) frozen with a huge sweat drop and a strained smile.
+    acting:
+      client_leader: "jaw dropped, pointing at Nib with his sword"
+      client_spear: "clutching his spear, eyes bulging"
+      yoo_bomi: "spinning to aim the drone at Nib, mouth open in a delighted gasp"
+      kang_jaeha: "frozen mid-step, a strained customer-service smile, a giant sweat drop"
+    eyeline: "the hunters → Nib; Bomi → Nib; Jaeha → the hunters"
+    calm: top
+    lines:
+      - {who: client_leader, type: shout, text: "DID YOUR HUSK JUST TALK TO ME?", side: l}
+      - {who: kang_jaeha, type: nervous, text: "VENTRILOQUISM, SIR. IT'S A HOBBY OF MINE.", side: r}
+
+  - id: P06
+    recipe: chibi
+    style: chibi
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "flat"
+    light: "flat"
+    art: >
+      Chibi gag: chibi Jaeha on a little stool like a stage ventriloquist, a frozen showbiz grin through clenched teeth,
+      with chibi Nib perched on his knee like a wooden dummy, glaring murderously at the reader. A tiny spotlight circle.
+      Pale gag background.
+    acting:
+      kang_jaeha: "chibi: a rigid grin through clenched teeth, sweat pouring, one hand behind Nib's back"
+      nib: "chibi: sitting stiffly on Jaeha's knee like a dummy, arms limp, a dark aura, glaring sideways"
+    eyeline: "Nib → the reader"
+    calm: left
+    silent: true
+
+  - id: P07
+    recipe: chorus
+    shape: wide
+    gap: short
+    bg: black
+    camera: "the drone's point of view: Nib standing stiffly again in the water, the party behind"
+    light: "lamp light; the drone's red light reflected in the water"
+    art: >
+      The drone's point of view: Nib (nib, mask; seal 2/5) stands perfectly still in the water like a doll again, arms
+      hanging, while the people behind him argue. Leave the left half calmer for the livestream overlay.
+    acting:
+      nib: "standing rigidly in the water, arms hanging, staring at nothing"
+    calm: left
+    ui:
+      - kind: phone.live_stream
+        "on": float
+        at: [0.26, 0.08]
+        viewers: "2,301 WATCHING"
+        chat:
+          - "[jjang_hunter]: THE HUSK TALKED"
+          - "[dalgona]: ventriloquism LMAOOO"
+          - "[seoul_otaku]: this guy again??"
+    silent: true
+
+  # ================= WHY THEY'RE HERE (P08–P18) =================
+  - id: P08
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Jaeha's phone in his gloved hand, the screen green"
+    light: "lamp light on the glove; the screen glow"
+    art: >
+      Close on Jaeha's phone in his black fingerless-gloved hand. Screen: flat green.
+    calm: left
+    ui:
+      - kind: phone.gate_status
+        "on": screen
+        title: "HUNTER JOB BOARD"
+        text: "GATE 1107 · GRADE E · TRAP-TESTER WANTED · BASE ₩50,000 · ₩10,000 PER TRAP"
+    lines:
+      - {who: kang_jaeha, type: inner, text: "THE RENT IS OVERDUE. SO TODAY, I'M A TRAP-TESTER AGAIN."}
+
+  - id: P09
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the water: Bomi walking backwards in front of her drone, talking to it"
+    light: "lamp light; the drone's red light"
+    art: >
+      Bomi (yoo_bomi) walks backwards through the ankle-deep water in front of her hovering drone, talking to her viewers,
+      her bow on her back. Jaeha and Nib behind her.
+    acting:
+      yoo_bomi: "walking backwards with a bounce, one hand pointing back at Jaeha over her shoulder, a huge grin, mouth wide mid-line"
+    eyeline: "Bomi → the drone"
+    foreground: "the white drone's rotor arm, cropped, top right"
+    calm: top
+    lines:
+      - {who: yoo_bomi, type: speech, text: "TODAY ON BOMBOM TV: THE TRAP-TESTER WHO CAME BACK FROM THE DEAD!", side: l}
+
+  - id: P10
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "two-shot from the side: Yerin trudging beside Jaeha"
+    light: "lamp light"
+    face: public
+    art: >
+      Side-on two-shot: Yerin (song_yerin) trudges through the water beside Jaeha (kang_jaeha, vest), holding her pink bag
+      up out of the splashes. Jaeha writes as he walks.
+    acting:
+      song_yerin: "trudging with her shoulders slumped, holding her bag up against her chest, a miserable pout"
+      kang_jaeha: "walking and writing in his notebook, not looking up, a mild smile"
+    eyeline: "Yerin → Jaeha; Jaeha → his notebook"
+    foreground: "a moss-covered brick pillar, cropped, at the left edge"
+    calm: top
+    lines:
+      - {who: song_yerin, type: speech, text: "REMIND ME WHY I AGREED TO THIS?", side: l}
+      - {who: kang_jaeha, type: speech, text: "BECAUSE YOU QUIT YOUR JOB, AND WE BOTH NEED RENT.", side: r}
+
+  - id: P11
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "over Jaeha's shoulder, close on his notebook page"
+    light: "lamp light on the page"
+    face: private
+    art: >
+      Jaeha's fingerless-gloved hand writes in his notebook: small sketches of the tunnel's branches, a rat shape, tick marks.
+      Leave a blank band on the page for the letterer's note. No readable text.
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: note, text: "RULE 1: NIB STAYS SILENT. RULE 2: FIELD FORM ONLY WHEN NOBODY IS WATCHING."}
+
+  - id: P12
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low two-shot from the side: Jaeha bending to whisper down at Nib as they walk"
+    light: "lamp light"
+    face: private
+    art: >
+      Low, side-on: Jaeha (kang_jaeha, vest) bends down as he walks to whisper to Nib (nib, mask; seal 2/5), who walks on
+      stiffly without looking up. Scale: Nib's head reaches Jaeha's belt.
+    acting:
+      kang_jaeha: "bent at the waist, a hand shielding his mouth, a forced smile with a twitching eye"
+      nib: "walking stiffly, eyes forward, utterly unrepentant"
+    eyeline: "Jaeha → Nib; Nib → ahead"
+    foreground: "a caged wall lamp, cropped, top left"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: whisper, text: "YOU BROKE RULE ONE IN THE FIRST FIVE MINUTES.", side: l}
+      - {who: nib, type: whisper, text: "HE WAS GOING TO LOSE A FINGER.", side: r}
+
+  - id: P13
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Nib walking first, the uncovered eye sliding sideways"
+    light: "lamp light"
+    art: >
+      Close on Nib (nib, mask; seal 2/5) walking first, his uncovered eye sliding sideways toward the dark mouth of a side
+      tunnel. His notched left ear twitches.
+    acting:
+      nib: "still walking stiffly, but the uncovered eye sliding toward the side tunnel, the notched left ear twitching"
+    eyeline: "Nib → a side tunnel"
+    calm: right
+    silent: true
+    sfx:
+      - {text: "TWITCH", style: quiet, at: [0.70, 0.20], size: S, rot: 0}
+
+  - id: P14
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the water at the back of the party: the two client hunters jeering at Jaeha's back"
+    light: "lamp light"
+    face: public
+    art: >
+      From low at the back: the client spearman (client_spear) and the leader (client_leader) jeer at Jaeha's back as he
+      crouches over something in the water ahead. Nib stands stiffly beyond him.
+    acting:
+      client_spear: "leaning on his spear, cupping a hand at his mouth, smirking"
+      client_leader: "chuckling with his sword over his shoulder"
+      kang_jaeha: "small ahead, crouched over the water, not looking back"
+    eyeline: "the hunters → Jaeha; Jaeha → the water"
+    foreground: "the spearman's shoulder and spear shaft, cropped, left edge"
+    calm: top
+    lines:
+      - {who: client_spear, type: speech, text: "HURRY UP, TRAP RAT! WE'RE NOT PAYING YOU TO SIT IN THE WATER!", side: l}
+
+  - id: P15
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close and low over the water: a thin wire glinting at ankle height, Jaeha's gloved hand marking the wall beside it with chalk"
+    light: "lamp light catching the wire"
+    art: >
+      Close and low over the black water: a hair-thin wire stretched across the tunnel at ankle height, glinting in the lamp
+      light. Jaeha's black fingerless-gloved hand draws a chalk mark on the brick wall beside it: a simple arrow and a cross.
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: inner, text: "TRIPWIRE NUMBER SIX. TEN THOUSAND WON EACH."}
+    sfx:
+      - {text: "SKRITCH", style: quiet, at: [0.72, 0.30], size: S, rot: 0}
+
+  - id: P16
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, side-on: Nib walking stiffly into the wire on purpose and a weighted net crashing down where he was"
+    light: "no scene light: a white flash"
+    art: >
+      Side-on: Nib (nib, mask; seal 2/5) walks stiffly straight into the tripwire, as a husk would, and a weighted iron net
+      crashes down from the vault, but somehow he is already one step past it, still walking stiffly, the net slapping into
+      the water behind his heels. Jaeha winces.
+    acting:
+      nib: "still walking stiffly with his arms hanging, one step past the falling net, completely deadpan"
+      kang_jaeha: "behind, wincing with one eye shut, a hand half raised"
+    calm: top
+    sfx:
+      - {text: "KRASSH", style: impact, at: [0.42, 0.30], size: L, rot: -6}
+
+  - id: P17
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha, deadpan, the hunters gaping behind him"
+    light: "lamp light"
+    face: public
+    art: >
+      Close on Jaeha (kang_jaeha, vest), deadpan, while behind him the two client hunters gape at the net.
+    acting:
+      kang_jaeha: "a flat, tired face, eyes half closed, a sweat drop"
+      client_leader: "behind him, mouth open"
+    eyeline: "Jaeha → Nib"
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: speech, text: "AND THAT'S TRAP NUMBER SEVEN. VERY LUCKY HUSK.", side: r}
+
+  - id: P18
+    kind: title
+    shape: full
+    gap: long
+    bg: black
+    title_card: "MY SUMMONS GO FIRST · CHAPTER 6 · TRAP RATS"
+    notes: "Title card at panel 18 of 60 (30%)."
+
+  # ================= THE SWARM (P19–P40) =================
+  - id: P19
+    recipe: anticipation
+    shape: wide
+    gap: long
+    bg: black
+    camera: "eye level at a junction of five tunnels: the party bunching up as something skitters in the dark"
+    light: "lamp light; the side tunnels black"
+    art: >
+      A round junction where five brick tunnels meet, the water deeper here. The party bunches up in the middle, weapons out.
+      From every dark tunnel mouth comes the glint of small violet points of light: eyes. Scale: the tunnel mouths are 3 m
+      high.
+    acting:
+      client_leader: "backing into the middle, sword shaking"
+      client_spear: "spinning to face one tunnel, then another"
+      yoo_bomi: "fumbling her bow off her back"
+      song_yerin: "pressed against Jaeha's back"
+      kang_jaeha: "notebook up, eyes moving from tunnel to tunnel"
+    calm: top
+    sfx:
+      - {text: "SKRITCH SKRITCH SKRITCH", style: quiet, at: [0.50, 0.20], size: M, rot: 0}
+
+  - id: P20
+    recipe: monster-reveal
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from behind the party: ash rats pouring out of a tunnel mouth in a wave"
+    light: "lamp light; violet ash glowing at their eyes"
+    art: >
+      From low behind the party (their legs and the backs of their boots in the foreground, cropped): a wave of ash rats
+      (ash_rat) pours out of a tunnel mouth, dozens of them, climbing over each other in the water: hairless blotched grey
+      hides, violet ash leaking from their eyes, long yellow teeth. Each rat is about 70 cm long, up to a person's knee.
+    acting:
+      ash_rat: "the swarm surging forward in a wave, rats scrambling over each other's backs, the front ones leaping with their jaws wide"
+    calm: top
+    sfx:
+      - {text: "KREEEEEEE", style: impact, at: [0.50, 0.24], size: XL, rot: -6}
+
+  - id: P21
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, tilted: the client hunters swinging wildly as rats leap at them"
+    light: "no scene light: a white flash; splashes"
+    art: >
+      The client leader (client_leader) swings his sword wildly and misses; the spearman (client_spear) jabs at a leaping rat
+      and falls on his backside in the water. Rats leap from every side. Splashes everywhere.
+    acting:
+      client_leader: "swinging his sword in a wild flat arc with his eyes squeezed shut"
+      client_spear: "falling backward into the water, spear flailing upward"
+    calm: top
+    sfx:
+      - {text: "SPLASSH", style: impact, at: [0.60, 0.70], size: L, rot: 8}
+
+  - id: P22
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "medium: Bomi loosing an arrow, the arrow flying wildly into the vaulted ceiling"
+    light: "lamp light"
+    art: >
+      Bomi (yoo_bomi) looses an arrow at the swarm with her eyes shut; the arrow flies straight up into the vaulted ceiling,
+      knocks a loose brick free, and the brick drops onto a rat's head, flattening it. Bomi opens one eye.
+    acting:
+      yoo_bomi: "in a wobbly archer's stance with her eyes squeezed shut, the bowstring just released, her ponytail flying"
+    calm: top
+    sfx:
+      - {text: "TWANG", style: quiet, at: [0.30, 0.40], size: S, rot: 0}
+      - {text: "BONK", style: comic, at: [0.72, 0.60], size: M, rot: 10}
+
+  - id: P23
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Bomi, amazed at her own accident"
+    light: "lamp light"
+    art: >
+      Close on Bomi (yoo_bomi): one eye open, then both wide, pointing at the flattened rat, thrilled.
+    acting:
+      yoo_bomi: "both eyes wide, pointing at the rat with her whole arm, a huge open-mouthed grin"
+    eyeline: "Bomi → the rat"
+    calm: left
+    lines:
+      - {who: yoo_bomi, type: shout, text: "I HIT ONE! DID EVERYONE SEE THAT? I HIT ONE!", side: r}
+
+  - id: P24
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, over Jaeha's shoulder: Jaeha pointing Bomi and her drone down an empty side tunnel"
+    light: "lamp light"
+    face: public
+    art: >
+      Over Jaeha's shoulder (cropped, right foreground): he points urgently down an empty side tunnel, shouting to Bomi
+      (yoo_bomi), who swings her drone toward it.
+    acting:
+      kang_jaeha: "seen from behind and to the side, arm thrust out pointing down the empty tunnel, mouth wide on the shout"
+      yoo_bomi: "spinning to follow his point, steering the drone with both hands"
+    eyeline: "Jaeha → the side tunnel; Bomi → the side tunnel"
+    foreground: "Jaeha's shoulder, pointing arm and the side of his head, cropped, right third"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: shout, text: "BOMI! THE BIG ONE WENT DOWN THAT TUNNEL! GET IT ON CAMERA!", side: r}
+
+  - id: P25
+    recipe: insert
+    shape: strip
+    gap: short
+    bg: black
+    camera: "behind the drone as it zooms away down an empty, dark side tunnel"
+    light: "the drone's own small light; darkness ahead"
+    art: >
+      From behind: the little white drone zooms away down an empty, dark side tunnel, its red light shrinking. Nothing in the
+      tunnel at all. Fill the canvas edge to edge.
+    calm: none
+    sfx:
+      - {text: "VWEEE", style: quiet, at: [0.70, 0.40], size: S, rot: 0}
+    notes: "The smart move: the drone films nothing while Nib fights."
+
+  - id: P26
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "Jaeha facing the reader in the swarm, lit cyan from a window"
+    light: "cyan from the window; lamp light behind"
+    face: private
+    art: >
+      Jaeha (kang_jaeha, vest) faces the reader in the middle of the junction, rats swarming in the dark behind him, lit cyan.
+      The upper half is the dark vault, left empty for the window.
+    acting:
+      kang_jaeha: "standing his ground with the notebook snapped shut in his left hand, right hand out to his side toward Nib, eyes cold"
+    eyeline: "Jaeha → the window"
+    calm: top
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[NIB · FIELD FORM 05:00 · LINKED]"}
+
+  - id: P27
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, tilted 15 degrees: Nib bursting through the swarm in field form, amber eyes, knives out"
+    light: "no scene light: amber streaks; white flashes where rats burst"
+    art: >
+      Nib (nib, mask; seal 2/5 look, cloak flaring wall-blue; field form, amber eyes, thin amber outline) tears through the
+      swarm like a blade, both knives out; rats burst into clouds of violet ash around him. Speed lines; water spraying.
+    acting:
+      nib: "low and spinning through the swarm, both knives slashing in opposite directions, cloak and scarf whipping"
+    calm: top-left
+    lines:
+      - {who: offpanel:kang_jaeha, type: intense, text: "NIB. NOW. NOBODY'S WATCHING."}
+    sfx:
+      - {text: "SHK SHK SHRAKK", style: impact, at: [0.30, 0.20], size: XL, rot: -12}
+
+  - id: P28
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high, looking down at the junction: a spiral of bursting ash around a small whirling figure"
+    light: "lamp light; violet ash"
+    art: >
+      High, looking down into the junction: a spiral of rats bursting into violet ash around a small whirling figure (Nib),
+      the swarm thinning ring by ring. Jaeha, Yerin and the hunters are small at the edge.
+    calm: top
+    sfx:
+      - {text: "POF POF POF POF", style: impact, at: [0.70, 0.70], size: M, rot: 6}
+
+  - id: P29
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the water: a rat clamping onto the spearman's calf"
+    light: "no scene light: a red flash"
+    art: >
+      A rat that slipped past the whirl clamps its yellow teeth onto the client spearman's calf (client_spear); he screams
+      and topples into the water.
+    acting:
+      client_spear: "toppling sideways into the water, face twisted, both hands grabbing at his leg"
+      ash_rat: "one rat clamped onto his calf, legs braced, shaking its head"
+    calm: top
+    sfx:
+      - {text: "CHOMP", style: impact, at: [0.52, 0.56], size: L, rot: 8}
+
+  - id: P30
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "two-shot in the water: Yerin kneeling at the spearman's leg, hands glowing mint, Jaeha kicking the rat away"
+    light: "mint glow from her hands; lamp light"
+    art: >
+      Yerin (song_yerin) drops to her knees in the water beside the spearman and presses glowing mint hands to his bitten calf,
+      while Jaeha (kang_jaeha, vest) kicks the rat off into the dark.
+    acting:
+      song_yerin: "kneeling in the water, both glowing hands on the wound, jaw set, eyes steady"
+      kang_jaeha: "mid-kick, sending the rat flying, the notebook clamped under his arm"
+      client_spear: "propped on his elbows, staring at her hands"
+    eyeline: "Yerin → the wound; the spearman → Yerin"
+    foreground: "dark water splashing, cropped, along the bottom edge"
+    calm: top
+    lines:
+      - {who: song_yerin, type: speech, text: "HOLD STILL. I'VE GOT YOU. YOU'RE NOT DYING IN A SEWER.", side: l}
+    sfx:
+      - {text: "SHIIING", style: quiet, at: [0.30, 0.40], size: S, rot: 0}
+
+  - id: P31
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Bomi's phone showing the drone's feed of an empty tunnel, Bomi's thumb on the screen"
+    light: "the phone glow"
+    art: >
+      Close on Bomi's phone in her hand: the screen shows the drone's feed of an empty dark tunnel (drawn as a dark tunnel
+      image, no interface text). Her thumb hovers over the screen.
+    foreground: "her bow's upper limb, cropped, across the top-left corner"
+    calm: right
+    lines:
+      - {who: yoo_bomi, type: speech, text: "THERE'S NOTHING DOWN HERE! I'M BRINGING IT BACK!", side: l}
+
+  - id: P32
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha shouting over his shoulder, sweating"
+    light: "lamp light"
+    face: public
+    art: >
+      Close on Jaeha (kang_jaeha, vest) shouting over his shoulder at Bomi, sweating, a strained smile.
+    acting:
+      kang_jaeha: "head turned over his shoulder, a strained smile, a sweat drop, one hand waving her on"
+    eyeline: "Jaeha → Bomi"
+    foreground: "a moss-covered brick pillar edge, cropped, at the right edge"
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: shout, text: "GO DEEPER! IT'S HIDING! BIG ONES ALWAYS HIDE!", side: r}
+
+  - id: P33
+    recipe: plan
+    shape: wide
+    gap: short
+    bg: black
+    camera: "over Jaeha's shoulder: the junction slightly desaturated, cyan arrows showing where the rats will come next"
+    light: "desaturated; cyan lines"
+    face: private
+    art: >
+      Over Jaeha's shoulder (cropped, left foreground): the junction, slightly desaturated, with clean cyan lines and no text:
+      arrows from two tunnel mouths, a circle where they meet, a short path for a small figure to cut them off.
+    acting:
+      kang_jaeha: "seen from behind, utterly still, one finger tapping the closed notebook"
+    eyeline: "Jaeha → the tunnel mouths"
+    foreground: "Jaeha's shoulder and the side of his head, cropped, left third"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: inner, text: "THE NEXT WAVE COMES FROM BOTH LEFT TUNNELS. CUT THEM OFF WHERE THEY MEET."}
+
+  - id: P34
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the water: Nib landing where two streams of rats meet and slashing both ways"
+    light: "no scene light: white flash; amber outline"
+    art: >
+      Nib (nib, mask; seal 2/5; linked) lands exactly where two streams of rats pour out of the left tunnels, and slashes both
+      ways at once; the leading rats burst into ash and the rest pile into each other.
+    acting:
+      nib: "landing in a deep crouch with both arms flung out wide, knives at the end of two slashes"
+    calm: top
+    sfx:
+      - {text: "SHRRAKK", style: impact, at: [0.50, 0.24], size: XL, rot: -8}
+
+  - id: P35
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Yerin watching with her hands over her mouth, the client hunters behind her with their eyes shut"
+    light: "lamp light; violet ash drifting"
+    art: >
+      Close on Yerin (song_yerin) watching Nib with both hands over her mouth. Behind her, the two client hunters crouch in the
+      water with their arms over their heads and their eyes squeezed shut.
+    acting:
+      song_yerin: "both hands over her mouth, eyes wide, following the fight"
+      client_leader: "behind her, crouched with his arms over his head, eyes shut"
+      client_spear: "behind her, curled up in the water, eyes shut"
+    eyeline: "Yerin → Nib"
+    calm: right
+    silent: true
+
+  - id: P36
+    recipe: aftermath
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, still: Nib standing alone in a ring of drifting ash in the water"
+    light: "lamp light through drifting violet ash"
+    art: >
+      Still: Nib (nib, mask; seal 2/5) stands alone in the middle of the junction in a wide ring of drifting violet ash settling
+      on the black water, knives lowered. Not one rat left. The amber light fades out of his eyes. The top quarter is dark
+      vault, calm for a window.
+    acting:
+      nib: "standing straight, knives lowered at his sides, head bowed slightly, the amber glow fading"
+    calm: top
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[FIELD FORM ENDED · 01:12 USED · COOLDOWN 01:00]"}
+    silent: true
+
+  - id: P37
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: the drone zooming back out of the side tunnel, Bomi staring at the empty junction"
+    light: "lamp light; ash settling"
+    art: >
+      The drone zooms back out of the side tunnel to Bomi (yoo_bomi), who stares round the empty junction, baffled. Nib (nib,
+      mask; rest form) stands stiffly in the ash like a doll. The client hunters slowly uncurl.
+    acting:
+      yoo_bomi: "turning in a slow circle with her bow hanging from one hand, mouth open, eyebrows knotted"
+      nib: "standing rigidly in the ash, arms hanging, staring at nothing"
+    eyeline: "Bomi → the empty junction"
+    foreground: "the side tunnel's brick edge, cropped, down the left side"
+    calm: top
+    lines:
+      - {who: yoo_bomi, type: speech, text: "THERE WAS NOTHING DOWN THERE! WAIT. WHERE DID ALL THE RATS GO?", side: r}
+
+  - id: P38
+    recipe: monster-reveal
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from behind Jaeha: the swarm mother squeezing out of the widest tunnel"
+    light: "lamp light; violet ash pouring from the cracks along its spine"
+    art: >
+      From low behind Jaeha (his back in the bottom foreground, cropped): the swarm mother (ash_rat, 1.4 m long, a ridge of
+      bony spurs along its back) squeezes out of the widest tunnel, violet ash pouring from the cracks along its spine, its
+      long yellow teeth bared. Scale: it stands as high as Jaeha's hip.
+    acting:
+      kang_jaeha: "seen from behind, stepping back into a stance, one hand reaching for the notebook"
+      ash_rat: "the swarm mother squeezing its shoulders out of the tunnel mouth, head low, lips peeled back from its teeth"
+    eyeline: "Jaeha → the swarm mother"
+    foreground: "Jaeha's back and shoulders, cropped, bottom"
+    calm: top
+    sfx:
+      - {text: "HSSSSSK", style: impact, at: [0.30, 0.20], size: L, rot: -6}
+
+  - id: P39
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "two-shot: Jaeha pointing the client leader at the brick that fired the darts"
+    light: "lamp light"
+    face: public
+    art: >
+      Jaeha (kang_jaeha, vest) grabs the client leader (client_leader) by the shoulder and points at the dart trap's brick in
+      the floor, between them and the charging swarm mother.
+    acting:
+      kang_jaeha: "one hand on the leader's shoulder, the other pointing at a floor brick in the water, speaking fast and calm"
+      client_leader: "sword in both hands, sweating, nodding too fast"
+    eyeline: "Jaeha → the trap brick; the leader → Jaeha"
+    foreground: "the dart holes in the brick wall, cropped, along the right edge"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "SIR, WHEN IT STEPS ON THAT BRICK, THE DARTS FIRE. HIT IT RIGHT AFTER.", side: l}
+
+  - id: P40
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, tilted: the swarm mother hit by darts as it crosses the brick, the client leader driving his sword into its neck"
+    light: "no scene light: white flash"
+    art: >
+      The swarm mother charges across the trap brick: darts slam into its flank, it rears, and the client leader (client_leader)
+      drives his sword into its neck, now gripped correctly. It bursts into a cloud of violet ash.
+    acting:
+      client_leader: "lunging with his whole weight behind a two-handed thrust, eyes wide, his thumb now correctly along the grip"
+    calm: top
+    sfx:
+      - {text: "SHK SHK", style: impact, at: [0.30, 0.30], size: M, rot: -10}
+      - {text: "SHHUNK", style: impact, at: [0.62, 0.40], size: XL, rot: 8}
+
+  # ================= TRAP RATS (P41–P54) =================
+  - id: P41
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "the client leader staring at his own sword, a window above, the others behind"
+    light: "cyan-white window light"
+    art: >
+      The client leader (client_leader) stares at his sword in disbelief; the others gather behind him. The upper half is dark
+      vault, empty for the window.
+    acting:
+      client_leader: "holding the sword up in front of his face, staring at it, mouth open"
+    eyeline: "the leader → his sword"
+    calm: top
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.05], headline: "[GATE BOSS DEFEATED: SWARM MOTHER (E)]", body: "THE GATE WILL CLOSE IN 10 MINUTES.", button: "OK"}
+    silent: true
+
+  - id: P42
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, tilted: the party splashing back up the tunnel toward the pale gate slit as the brick vaults start to fade"
+    light: "the vaults dissolving into white at the far end; the gate slit's pale light ahead"
+    art: >
+      The party splashes back up the long tunnel toward the pale gate slit ahead, the brick vaults behind them beginning to
+      flake away into white light. Nib runs last, stiffly, like a husk trying to look like it can't run. Bomi's drone races
+      above them.
+    acting:
+      kang_jaeha: "running, pulling the limping spearman by the arm"
+      song_yerin: "running beside the spearman"
+      yoo_bomi: "running backwards, filming"
+      nib: "running last with stiff wooden strides"
+    calm: top
+    sfx:
+      - {text: "SPLSH SPLSH SPLSH", style: impact, at: [0.30, 0.80], size: M, rot: -6}
+
+  - id: P43
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: the client leader turning to Jaeha with his grip held up, sheepish"
+    light: "lamp light"
+    face: public
+    art: >
+      The client leader (client_leader) shows Jaeha (kang_jaeha, vest) his corrected grip, sheepish. Behind Jaeha, Nib (nib,
+      mask; rest form) stands stiffly.
+    acting:
+      client_leader: "holding up his sword hand to show the grip, a sheepish grin"
+      kang_jaeha: "a polite small bow, hands together"
+      nib: "behind Jaeha, rigid, staring at nothing"
+    eyeline: "the leader → Jaeha; Jaeha → the leader"
+    foreground: "Nib's hood and notched left ear, cropped, bottom right"
+    calm: top
+    lines:
+      - {who: client_leader, type: speech, text: "YOUR HUSK WAS RIGHT ABOUT THE GRIP.", side: l}
+      - {who: kang_jaeha, type: speech, text: "HE'S A VERY OBSERVANT HUSK, SIR.", side: r}
+
+  - id: P44
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: white
+    camera: "eye level at the storm drain outside at dusk: the party climbing out, the client hunters counting money"
+    light: "orange dusk; the drain's concrete mouth in shadow"
+    art: >
+      Outside at dusk (location sewer_gate, outside): the concrete storm-drain culvert under a road, its gate slit fading.
+      The party climbs out onto the dry bank, soaked to the shins. The client leader counts cash into Jaeha's hand. Scale:
+      the culvert mouth is 3 m high.
+    acting:
+      client_leader: "counting ₩10,000 notes into Jaeha's palm one by one"
+      kang_jaeha: "holding out his palm with a polite bow"
+      song_yerin: "wringing out the hem of her jacket"
+      yoo_bomi: "sitting on the bank with her phone, scrolling"
+      nib: "standing stiffly by the culvert"
+    calm: top
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[PAY: BASE ₩50,000 + 7 TRAPS × ₩10,000 = ₩120,000]"}
+    sfx:
+      - {text: "DRIP DRIP", style: quiet, at: [0.30, 0.80], size: S, rot: 0}
+
+  - id: P45
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level on the bank: the limping spearman bowing to Yerin"
+    light: "orange dusk"
+    face: public
+    art: >
+      On the bank at dusk, the client spearman (client_spear), his calf wrapped in a clean bandage, bows awkwardly to Yerin
+      (song_yerin), who stops wringing out her jacket hem.
+    acting:
+      client_spear: "bowing stiffly from the waist, leaning on his spear, sheepish"
+      song_yerin: "pausing mid-wring, surprised, then a small proud smile"
+    eyeline: "the spearman → Yerin; Yerin → the spearman"
+    foreground: "the culvert's concrete lip, cropped, along the bottom edge"
+    calm: top
+    lines:
+      - {who: client_spear, type: speech, text: "THANK YOU, HEALER. YOU DIDN'T EVEN FLINCH DOWN THERE.", side: l}
+      - {who: song_yerin, type: speech, text: "NOT THIS TIME.", side: r}
+
+  - id: P46
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: white
+    camera: "extreme close-up of Jaeha's eyes looking at the money in his hand"
+    light: "orange dusk"
+    face: private
+    art: >
+      Extreme close-up: Jaeha's eyes (kang_jaeha) looking down at the thin fold of notes in his hand, tired. Fill the canvas
+      edge to edge.
+    acting:
+      kang_jaeha: "eyes half-lidded, brows tilting up, tired"
+    eyeline: "Jaeha → the money"
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: inner, text: "ONE HUNDRED TWENTY THOUSAND. THE RENT IS THREE HUNDRED."}
+
+  - id: P47
+    recipe: chorus
+    shape: wide
+    gap: short
+    bg: white
+    camera: "close on Bomi's phone screen in her hand: the stream's chat"
+    light: "dusk; the screen glow"
+    art: >
+      Close on Bomi's phone in her hand, the screen flat green, her thumb scrolling. Her bow and the drone's rotor at the
+      edges.
+    calm: top
+    ui:
+      - kind: phone.live_stream
+        "on": screen
+        viewers: "ENDED · 4,812 PEAK"
+        chat:
+          - "[jjang_hunter]: lmao the TRAP RATS"
+          - "[minsu_0412]: trap rats squad assemble"
+          - "[dalgona]: rats in a sewer, perfect"
+          - "[seoul_otaku]: trap rats > black hound"
+    sfx:
+      - {text: "SCROLL", style: quiet, at: [0.80, 0.80], size: S, rot: 0}
+
+  - id: P48
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low two-shot on the bank: Bomi springing up, pointing at Jaeha; Jaeha deadpan"
+    light: "dusk"
+    face: public
+    art: >
+      Bomi (yoo_bomi) springs up on the bank and points at Jaeha (kang_jaeha, vest) with her phone, glowing with an idea.
+      Jaeha looks back at her flatly. Yerin, behind, hides a laugh.
+    acting:
+      yoo_bomi: "springing to her feet with a finger thrust at Jaeha, eyes sparkling, a huge grin"
+      kang_jaeha: "flat deadpan look, arms folded"
+      song_yerin: "behind them, a hand over her mouth"
+    eyeline: "Bomi → Jaeha; Jaeha → Bomi"
+    foreground: "the edge of the concrete culvert, cropped, right"
+    calm: top
+    lines:
+      - {who: yoo_bomi, type: shout, text: "THE TRAP RATS! THAT'S OUR TEAM NAME NOW!", side: l}
+      - {who: kang_jaeha, type: speech, text: "THAT'S AN INSULT.", side: r}
+
+  - id: P49
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on Bomi with a thumbs-up and a wink"
+    light: "dusk"
+    art: >
+      Close on Bomi (yoo_bomi), winking, a thumbs-up.
+    acting:
+      yoo_bomi: "a confident wink, thumbs-up held next to her face, tongue poking out at the corner of her grin"
+    eyeline: "Bomi → Jaeha"
+    foreground: "the white drone hovering, cropped, at the bottom-right corner"
+    calm: right
+    lines:
+      - {who: yoo_bomi, type: speech, text: "IT'S A BRAND. MY SUBSCRIBERS JUST WENT UP BY THREE THOUSAND.", side: l}
+
+  - id: P50
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "two-shot on the bank: Yerin pushing her share of the money back into Jaeha's hand"
+    light: "dusk"
+    face: private
+    art: >
+      Yerin (song_yerin) pushes the notes Jaeha tried to give her back into his hand, firm. Jaeha (kang_jaeha, vest) looks
+      surprised.
+    acting:
+      song_yerin: "closing his fingers over the notes with both of her hands, chin set, a small determined frown"
+      kang_jaeha: "eyebrows up, holding out the notes, a surprised face"
+    eyeline: "Yerin ↔ Jaeha"
+    foreground: "Bomi's shoulder and ponytail, cropped, at the left edge"
+    calm: top
+    lines:
+      - {who: song_yerin, type: speech, text: "KEEP MY SHARE FOR THE RENT. YOU CAN PAY ME WHEN WE'RE RICH.", side: l}
+
+  - id: P51
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level on the bank: Bomi crouching to shove her drone at Nib, Jaeha stepping in between"
+    light: "dusk"
+    face: public
+    art: >
+      Bomi (yoo_bomi) crouches in front of Nib (nib, mask; rest form) with the drone hovering at his face like a microphone.
+      Jaeha (kang_jaeha, vest) slides in between them with his hands up and a polite smile. Nib stares at the drone.
+    acting:
+      yoo_bomi: "crouched at Nib's eye level, one hand steering the drone at him, a bright interviewer's smile"
+      nib: "rigid, staring at the drone, the uncovered eye narrowed"
+      kang_jaeha: "sliding in sideways with both palms up, a strained customer-service smile"
+    eyeline: "Bomi → Nib; Nib → the drone; Jaeha → Bomi"
+    foreground: "the drone's rotor, cropped, top left"
+    calm: top
+    lines:
+      - {who: yoo_bomi, type: speech, text: "MISTER HUSK! ANY COMMENT FOR BOMBOM TV?", side: l}
+      - {who: kang_jaeha, type: nervous, text: "HE'S SHY. HUSKS ARE VERY SHY.", side: r}
+
+  - id: P52
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: black
+    camera: "eye level at the top of the rooftop stairs at night: a stout old landlady blocking the way"
+    light: "a bare bulb over the stair landing; the city glow behind"
+    face: public
+    art: >
+      Night, the outdoor stair landing up to the rooftop room (location rooftop_room): the stout old landlady (landlady) in
+      a padded vest and slippers blocks the top step with her arms folded. Jaeha (kang_jaeha, vest) on the step below holds out the thin
+      fold of cash with both hands and a deep bow. Nib (nib, mask; rest form) stands stiffly behind him. Scale: the steps
+      are 18 cm; the landlady is short, about 150 cm.
+    acting:
+      landlady: "arms folded, planted on the top step, one eyebrow up"
+      kang_jaeha: "bowing deeply on the step below, holding the cash out with both hands"
+      nib: "standing stiffly two steps down"
+    eyeline: "the landlady → Jaeha; Jaeha → the step"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "ONE HUNDRED TWENTY THOUSAND NOW, MA'AM. THE REST BY FRIDAY, I PROMISE.", side: r}
+    sfx:
+      - {text: "BZZZ", style: quiet, at: [0.50, 0.10], size: S, rot: 0}
+
+  - id: P53
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on the landlady snatching the cash and squinting past him at Nib"
+    light: "the bare bulb from above"
+    art: >
+      Close on the old landlady (landlady) snatching the cash and squinting past Jaeha at the small masked figure on the stairs.
+    acting:
+      landlady: "snatching the notes with one hand, the other still on her hip, squinting suspiciously past Jaeha"
+    eyeline: "the landlady → Nib"
+    calm: right
+    lines:
+      - {who: landlady, type: speech, text: "FRIDAY. AND NO PETS.", side: l}
+
+  - id: P54
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Nib on the stairs, deadpan"
+    light: "the bare bulb"
+    art: >
+      Close on Nib (nib, mask; rest form) on the stairs, staring at the landlady with total, silent offence.
+    acting:
+      nib: "rigid, the uncovered eye narrowed to a slit, mouth a flat line"
+    eyeline: "Nib → the landlady"
+    calm: left
+    lines:
+      - {who: nib, type: whisper, text: "......", side: r}
+
+  # ================= BOMI'S ROOM (P55–P60) =================
+  - id: P55
+    recipe: establish
+    shape: tall
+    gap: long
+    bg: black
+    camera: "eye level from the street at night: a small closed family restaurant, a lit window above it"
+    light: "a warm streetlamp; one lit window upstairs; the restaurant dark"
+    art: >
+      Night, an alley in Mangwon (location bomi_room, outside): a small family restaurant, closed, chairs upside down on the
+      tables behind the glass, a blank sign with no text, a "for sale" style notice shape taped to the door (blank). Above it,
+      one lit window with the glow of monitors. Scale: the restaurant door is 2.1 m.
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "THAT NIGHT. ABOVE A RESTAURANT IN MANGWON."}
+    sfx:
+      - {text: "BZZZ", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P56
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "over Bomi's shoulder at her editing desk: two monitors, a timeline scrubbing"
+    light: "monitor glow; a desk lamp"
+    art: >
+      Over Bomi's shoulder (her ponytail and the shoulder of an oversized sleep shirt in the left foreground, cropped): her
+      cramped desk with two monitors (both flat #00FF00), a microphone, cup ramen, her drone charging on the desk.
+    acting:
+      yoo_bomi: "seen from behind, hunched at the desk with her chin on her fist, scrubbing a timeline with the mouse"
+    eyeline: "Bomi → the monitor"
+    foreground: "Bomi's shoulder and ponytail, cropped, left third"
+    calm: top
+    lines:
+      - {who: yoo_bomi, type: speech, text: "ONE HUNDRED THOUSAND SUBS, AND MOM AND DAD KEEP THE RESTAURANT.", side: r}
+
+  - id: P57
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on a small framed photo propped against the monitor"
+    light: "monitor glow"
+    art: >
+      Close on a small framed photo propped against the monitor: a little girl with a ponytail (young Bomi) between her
+      smiling parents in aprons on the restaurant's opening day, a red ribbon across the door. A doodled heart on a sticky
+      note stuck to the frame. No readable text.
+    calm: right
+    silent: true
+
+  - id: P58
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close on one monitor: a paused, blurred drone frame"
+    light: "monitor glow"
+    art: >
+      Close on the monitor: a paused drone frame from the sewer junction, blurred with motion: at its edge, a small masked
+      shape in a hooded cloak caught mid-leap in a spray of water and violet ash, moving far too fast. No interface text.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "CLICK", style: quiet, at: [0.82, 0.80], size: S, rot: 0}
+
+  - id: P59
+    recipe: insert
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of the frame zoomed in: the cracked white mask and one glowing amber eye, blurred"
+    light: "monitor glow"
+    art: >
+      Extreme close-up of the zoomed-in frame on the monitor, pixel-soft but readable: the cracked white husk mask and,
+      beside it, one glowing amber eye. Fill the canvas edge to edge.
+    calm: none
+    silent: true
+
+  - id: P60
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of Bomi's eyes, lit by the monitor, narrowing"
+    light: "monitor glow"
+    art: >
+      Extreme close-up: Bomi's eyes (yoo_bomi), lit by the monitor, narrowing slowly. Fill the canvas edge to edge.
+    acting:
+      yoo_bomi: "eyes narrowing, one brow lifting"
+    eyeline: "Bomi → the monitor"
+    calm: none
+    lines:
+      - {who: yoo_bomi, type: speech, text: "HUSKS DON'T MOVE LIKE THAT.", side: r}
+
+  - id: END
+    kind: end
+    chibi_gag: "Chibi Bomi chases chibi Nib round and round with her drone; chibi Nib, deadpan, holds a 'no filming' hand up to the lens while chibi Jaeha hides behind a pillar sweating."
