@@ -1,0 +1,244 @@
+{
+  "_meta": {
+    "entry": "ch002-A",
+    "part_range": "P01–P07",
+    "status": "INCOMPLETE_BLOCKED_PENDING_CLAUDE",
+    "updated_utc": "2026-10-25 22:37:09 UTC",
+    "review_is": "production self-check observations only, never approval",
+    "checks": [
+      "MANHWA_STYLE_GUIDE section 11",
+      "11b.1–11",
+      "11c.1–11",
+      "PANEL_BRIEF_v2 section 4b"
+    ],
+    "inspection": [
+      "native generation/full PNG visual inspection",
+      "200 px thumbnails",
+      "200% face/line inspection where relevant"
+    ],
+    "scope": "inbox/ch002-A/ only, plus one INBOX.md line",
+    "all_reference_pixels_inspected_before_generation": true,
+    "reference_limit": 5,
+    "png_inventory": [
+      {
+        "path": "P01.png",
+        "sha256": "aa5575cfd80a980d804c56bd5bcec8b90415125c7b25c079d41058687b6d5dc5",
+        "bytes": 2267185,
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "format": "PNG"
+      },
+      {
+        "path": "P02.png",
+        "sha256": "1b5790eaadec95928c4f356df9e31e7c7bd0d9711659e635d5cca6affed1389b",
+        "bytes": 1998740,
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "format": "PNG"
+      },
+      {
+        "path": "P06.png",
+        "sha256": "22d994236fcd82b5d9901d2e91563d83758c64a1d6a392547c28ac389da76332",
+        "bytes": 2245432,
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "format": "PNG"
+      },
+      {
+        "path": "P07.png",
+        "sha256": "aa48d5c655e8ea7a0b54366853a64c6734defbb0c14abd71fa2bf7a39b2573f7",
+        "bytes": 1875258,
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "format": "PNG"
+      },
+      {
+        "path": "_rejects/P02_01_background_depth_blur.png",
+        "sha256": "643d6cf26e182facac2daf5660b021fbd3c7cf73a656fcbc207173c72cd1dc9a",
+        "bytes": 2061308,
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "format": "PNG"
+      },
+      {
+        "path": "_rejects/P06_01_window_space_head_too_high_depth_blur.png",
+        "sha256": "51d044f61afd2aef7bf39054a23a7e66f876c4d81449503a0af1d5cae6aa1391",
+        "bytes": 1939296,
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "format": "PNG"
+      },
+      {
+        "path": "_rejects/P06_02_head_still_inside_window_zone.png",
+        "sha256": "5a112e0c071df866b5e9460a02c89e14dfd761c72d22dbaf6510fdcb9f5d3d40",
+        "bytes": 2045143,
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "format": "PNG"
+      },
+      {
+        "path": "_rejects/P06_03_final_window_zone_still_occupied.png",
+        "sha256": "22d994236fcd82b5d9901d2e91563d83758c64a1d6a392547c28ac389da76332",
+        "bytes": 2245432,
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "format": "PNG"
+      },
+      {
+        "path": "_rejects/P07_01_closed_speaking_mouth_shredded_hem.png",
+        "sha256": "e34260a653f172d740f9ee17e8f4feb20e984ed0783e47bf18f3ede2e693da12",
+        "bytes": 1995985,
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "format": "PNG"
+      }
+    ]
+  },
+  "P01": {
+    "heads": {
+      "knight_commander": [
+        0.305,
+        0.0,
+        0.438,
+        0.215
+      ],
+      "nib": [
+        0.544,
+        0.425,
+        0.664,
+        0.57
+      ],
+      "song_yerin": [
+        0.181,
+        0.62,
+        0.277,
+        0.76
+      ]
+    },
+    "verdict": "retained_original_pending_claude",
+    "new_tries": 0,
+    "problems": [],
+    "caveats": [
+      "Original is not previously reviewed. Low camera, foreground depth and deep crouch complicate exact Nib/knight scale measurement; retained per explicit original-keep instruction without a new pass or approval.",
+      "Background is dense for talk, but this continues a sword-block action; no redraw authorized on that ambiguity."
+    ],
+    "observations": [
+      "Original bytes preserved. Low floor camera, right-side pillar, mask on upper left face, red/cyan sources visible.",
+      "No demonstrated new failure was used to justify redrawing the protected original."
+    ]
+  },
+  "P02": {
+    "heads": {
+      "kang_jaeha": [
+        0.311,
+        0.018,
+        0.818,
+        0.504
+      ]
+    },
+    "verdict": "candidate_pending_claude",
+    "tries": 2,
+    "selected_attempt": 2,
+    "problems": [],
+    "caveats": [
+      "Kneeling leg is outside close crop, so whole-body head count cannot be measured here.",
+      "Source-colour wash and cloth shadow simplicity need Claude’s strict visual verdict."
+    ],
+    "observations": [
+      "Cropped adult head/torso; right glove has two bloodied fingertips; eye turns down toward fingers, mouth open on line.",
+      "Pencil on anatomical right, fringe over left eye, notebook in left pocket; T only glyph.",
+      "Flat mood background replaces first attempt depth blur; calm left upper region, sharp pillar crop; no UI drawn."
+    ]
+  },
+  "P03": {
+    "heads": {},
+    "verdict": "blocked_not_generated",
+    "tries": 0,
+    "problems": [
+      "Six relevant required local references versus five-path cap; see PROMPTS_A.json blocked entry."
+    ]
+  },
+  "P04": {
+    "heads": {},
+    "verdict": "blocked_not_generated",
+    "tries": 0,
+    "problems": [
+      "Minimum six mandatory local references versus five-path cap; no omission or combined sheet used."
+    ]
+  },
+  "P05": {
+    "heads": {},
+    "verdict": "blocked_not_generated",
+    "tries": 0,
+    "problems": [
+      "Minimum six mandatory local references versus five-path cap; no omission or combined sheet used."
+    ]
+  },
+  "P06": {
+    "heads": {
+      "kang_jaeha": [
+        0.752,
+        0.314,
+        0.921,
+        0.573
+      ]
+    },
+    "verdict": "failed_review_only_after_three_tries",
+    "tries": 3,
+    "selected_attempt": 3,
+    "problems": [
+      "Upper half is not fully free for the window: hair/head intrudes at y≈0.31–0.57.",
+      "Cyan floor spill is broad and the background remains more detailed than this system beat needs."
+    ],
+    "caveats": [
+      "Final candidate saved only for Claude to inspect and duplicated byte-for-byte in rejects. Not accepted or approved.",
+      "No fourth try; no pixel move, crop, resize, repaint, or code patch to repair composition."
+    ],
+    "observations": [
+      "Native 1536×1024 PNG, seated adult with knees cropped, right hand under nose, left glove on knee, pencil/fringe/notebook locks retained.",
+      "No window rectangle, UI, text or lettering drawn; face lit cyan."
+    ]
+  },
+  "P07": {
+    "heads": {
+      "nib": [
+        0.121,
+        0.018,
+        0.638,
+        0.277
+      ]
+    },
+    "verdict": "candidate_pending_claude",
+    "tries": 2,
+    "selected_attempt": 2,
+    "problems": [],
+    "caveats": [
+      "Deadpan may read stern; Claude should judge expression and low-camera strength.",
+      "Right knife is parallel to the pillar; exact physical flat-against-stone contact deserves close review."
+    ],
+    "observations": [
+      "Native 1024×1536, knees at lower crop, long torso/arms and small veteran head; scale compared against seal-1 front and mask sheets.",
+      "Upper-left mask, left-ear notch, faint uncovered right amber eye, hood down, plain clasp and charcoal seal-1 cloak, no seal-2 trim or LINK outline.",
+      "Open speaking mouth; one knife in each reverse-grip hand, no extra back hilts, attached binoculars; quieter hem than first attempt.",
+      "Green-left key and thin red rim, quiet upper right third of umber-to-amber gradient."
+    ]
+  }
+}
