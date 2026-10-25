@@ -46,6 +46,12 @@ These come from `research/MANHWA_CRAFT_BIBLE.md` section L.
 17. In a run of talk panels, no two in a row share both the camera side and the shot size. The run moves through wide, two-shot, close-ups, an insert, a reaction and an extreme close-up.
 18. Reactions and small movements carry a small `quiet` SFX near the movement: GLANCE, FLINCH, TWITCH, GULP, GRIN, SIGH, STEP STEP, SHAKE SHAKE, TAP TAP, PLOP. Aim for at least six in a chapter.
 
+**Glamour beats,** the owner's direction of 25 October ("adding overall slightly more fan service is good for retention and hype"):
+
+19. When an adult woman of the main cast first appears (Bomi in ch 5, Moon Ahin in ch 12, Lyra in ch 18), her intro gets a tall full-figure glamour panel that shows off her design in a confident pose. A comedic reaction follows: Jaeha flustered (blush hatching, a sweat drop, eyes sliding away); Nib unimpressed (flat stare, "......").
+    - Lyra's arrival in ch 18 is a full-height `splash`.
+    - The fan-service rules are in `codex/CHARACTER_DESIGNS_v2.md` (top of the file). Never Kang Seoa. Song Yerin's scenes stay as written. Nothing explicit, and no camera angles aimed up a skirt or at the crotch.
+
 ## Ids
 - **Characters:** the ids in `NAME_SHEET.md`, plus these for chapter 1: `bh_spear`, `bh_axe`, `bh_sword`, `bh_mage`, `bh_crossbow`, `bh_shield` (Black Hound hunters 1–6 in `codex/CHARACTER_DESIGNS_v2.md` 2.5).
 - **Locations:**

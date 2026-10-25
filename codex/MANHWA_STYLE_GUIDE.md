@@ -208,7 +208,12 @@ The owner's verdict on the last manhwa was that body positions, emotions and dia
 5. **Groups are staggered.** People stand at different depths and overlap, with heads at different heights, each in their own stance. No lineups, except the lineup sheet.
 6. **Show height in the frame.**
    - Nib (105 cm) with Jaeha (178 cm): put Nib low in a corner looking up and Jaeha looking down, or put the camera at Nib's eye level and crop Jaeha at the chest.
+   - For a longer talk, Jaeha crouches or sits on the floor to Nib's level, as a person does with a small creature.
    - Big figures (Mok, Borro, the knight) are cropped by the top of the panel so their size presses down.
+7. **Hands work while the mouth talks.** Give talking characters a small job: holding a door, poking a fire, setting something down, writing in the notebook, checking a weapon, holding a cup.
+8. **Contrast postures in one frame:** one bows while the other stands upright; one leans in while the other leans back; an aggressor leans forward and looks down.
+9. **Fear takes the whole body:** trembling outline marks, sweat, a hand raised defensively and the other pressed to the chest.
+10. **Stopping on the way out.** A character halts at a door, hand on the handle, and looks back over the shoulder for the line that matters.
 
 **Faces**
 1. **Use the whole ladder,** from small to big: a sidelong glance; a half-lidded smirk; a strained smile with a sweat drop; wide eyes with small pupils; a scream with the mouth wide open.
@@ -216,6 +221,12 @@ The owner's verdict on the last manhwa was that body positions, emotions and dia
 3. **Asymmetry reads as alive:** one brow higher, one corner of the mouth, one eye narrower.
 4. **Hide the eyes on purpose:** glasses turned to white glare (Seoa when she is calculating), a dark band of shadow for dread or menace.
 5. **Use sweat drops freely** for nerves and strain.
+6. **Nib's deadpan beat:** a silent panel of his flat, half-lidded stare with a "......" bubble, straight after someone else overreacts.
+7. **Small marks:**
+   - question marks floating round a confused head;
+   - scratching the back of the head when embarrassed;
+   - a sparkling face beside a sweating, darkened face for comic contrast;
+   - small hand-lettered asides outside the bubbles (written by the script, set by the letterer).
 
 **Talk panels**
 1. **Eyelines go to the other person.** Faces are three-quarter or profile, looking off-panel toward whoever they are talking to. Only shock or comedy reactions and system panels face the camera.
@@ -225,6 +236,8 @@ The owner's verdict on the last manhwa was that body positions, emotions and dia
 4. **Crop boldly.** Cut the top of the head, cut at the chest, push a face to one edge. A full figure centred with even headroom belongs only in `establish` panels.
 5. **Frame arrivals and confrontations** between two figures seen from behind in the foreground.
 6. **Use high and low cameras:** look down on a desk, a counter or a group; look up at a confident speaker.
+7. **Use torso shots:** frame the speaker from neck to waist with the face cut off, and let a hand gesture carry the line.
+8. **Overlap figures in group panic:** one shouts and points while another recoils behind him.
 
 **Small sound effects.** Reactions and small movements get a small `quiet` SFX placed near the movement: GLANCE, FLINCH, TWITCH, GULP, GRIN, SIGH, STEP STEP, SHAKE SHAKE, TAP TAP, PLOP. The script writes them; Codex leaves room for them.
 

@@ -56,6 +56,7 @@ All sheets are 1536×1024 PNGs on a flat light-grey background #E9E9EC, lit by s
 | S10 | `characters_v2/choi_dongmin/` | Turnaround, expressions, details (rescue jacket, coffee cup) |
 | S11 | `characters_v2/kett/` | Turnaround, expressions, details. A young adult, never a mascot. |
 | S12 | `characters_v2/summon_silhouettes.png` | One image: the seven summons (Nib, Borro, Lyra, Pim, Maud, Caldric, Kett) as solid black silhouettes standing in a row at scale, from design 2.9, on light grey |
+| S14 | `characters_v2/lyra/` | Design 2.10. She fronts the YouTube thumbnail, so make her as attractive as the design says: a beautiful face and figure in the revealing outfit, never nudity or anything explicit, always a confident stance.<br>1. Make `front.png` first and STOP; Claude shows it to the owner.<br>2. Then the turnaround.<br>3. Then `expressions.png`: smug half-smile; showing-off laugh; vain pout; competitive glare; aiming (still, one eye narrowed); shock; eyes shining at applause or money; sad, thinking of her lost brother.<br>4. Then `details.png`: the bow; the flute; the braid beads; the chest guard, bracer and glove; the boots. |
 | S13 | `characters_v2/scale_chart_v2.png` | Claude opens this one last, after S1–S11: everyone in design section 1 standing in a row on one baseline, each from their own front view |
 
 ## 5. Never

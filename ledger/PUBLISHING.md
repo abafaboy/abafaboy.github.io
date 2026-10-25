@@ -16,7 +16,10 @@ When all 100 chapters are done, upload them to YouTube through YouTube Studio in
   - "#1 NECROMANCER Reincarnates As POWERLESS But Can STEAL ANY..." (Frieren Manhwa, 174K views in 22 hours, 3:43:50). The hero leans over a white-haired woman pinned to a wall; big yellow labels with arrows: ANGEL and SS-RANK HUNTER.
   - The recap he pointed to for the acting study ("He Activated a System That Summons Monsters...", Tyler's Manhwa, 3:46:32). A panicking hoodie hero labelled SUMMONER stands beside his summons: a horned winged demon woman, a green hooded goblin with a giant sword, and a white-haired woman knight, all on glowing summoning circles in his bedroom.
 - **The formula:** custom key art, not a panel from the chapter. One big label word with an arrow; the hero reacting; an attractive adult woman as large as the hero.
-- **For us:** an attractive adult woman goes into the MSGF thumbnail. Who she is is still Abafa's call; the options are in Claude's message of 25 October.
+- **For us:** an attractive adult woman goes into the MSGF thumbnail.
+  - **Abafa chose Lyra,** the river archer summon (25 October).
+  - He wants her "similar on the attractiveness to the thumbnail i sent u since it obviously works". Her design is in `codex/CHARACTER_DESIGNS_v2.md` 2.10, and her sheet is drawn early (S14).
+  - He was told about the age-restriction risk below and chose this level.
 - **YouTube's limit** (Thumbnails policy, support.google.com/youtube/answer/9229980, checked 25 Oct 2026):
   - Thumbnails can't show nudity or sexually gratifying imagery.
   - Where breasts, buttocks or genitals are the focal point, or the pose or clothing is meant to arouse, YouTube may age-restrict the video or remove the thumbnail.

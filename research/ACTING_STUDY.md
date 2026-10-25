@@ -1,5 +1,7 @@
 # Acting study: how a real summoner manhwa poses bodies, acts faces and stages talk
 
+**Sources.** Sections 1–5 come from one summoner manhwa watched through a recap video. Section 5b comes from four more titles read directly on WEBTOON.
+
 **Why.** The owner's verdict on the last manhwa (25 October): "the biggest issue … was the body positions, emotions and dialogue panels. they were really unnatural and ai". `STORY_DIGEST.md` 7.5–7.6 measured the same faults in the old chapters:
 - a narrow range of faces (a mild frown, mild worry, a small smile);
 - eye-level medium shots with the subject centred;
@@ -75,6 +77,38 @@ Our old chapters had eight SFX in about 355 panels (`STORY_DIGEST.md` 7.11).
 - **Tall and narrow:** a full figure, or two faces stacked (34:20, 110:24).
 - **Wide:** a two-shot, a walk, or a group (35:40, 60:32).
 - **Small and square:** a reaction (15:30, 36:20).
+
+## 5b. Read directly on WEBTOON (owner's request: "study conversation body movement … from other manhwas")
+
+**Method.** Same evening, Claude's built-in browser, official English WEBTOON. Slice numbers count from the top of the episode, as in `RENDERING_STUDY.md`. Nothing was saved, and Codex never sees these pages.
+
+| Title, episode | Talk scenes read |
+|---|---|
+| *The Greatest Estate Developer*, ep. 1 (GED) | Lloyd and the knight Javier in the manor (slices 73–88); the pub-owner apology (141–157) |
+| *Eleceed*, ep. 2 | Jiwoo and Kayden, a powerful man trapped in a fat cat's body: a small, proud creature and a kind young man, the closest match to Nib and Jaeha (slices 7–29) |
+| *Omniscient Reader*, ep. 1 (ORV) | Dokja and Sangah on the subway (22–39) |
+| *The Lone Necromancer*, ep. 3 (TLN) | A tense group argument among students (133–227) |
+
+**What they do in talk scenes:**
+1. **Hands work while the mouth talks.** People do small jobs during dialogue: poking the fire with a poker (GED 73), opening a door (GED 81), setting down a food bowl (Eleceed 24), holding a phone (ORV 24–31), holding a blanket shut (GED 75).
+2. **Contrasting postures share one frame.**
+   - One character bows low from the waist while the other stands upright with his hands behind his back (GED 150).
+   - One leans in while the other leans back (ORV 35).
+   - An aggressor leans forward and looks down (TLN 196).
+3. **A small creature is staged at floor level.**
+   - The young man kneels, sits on the floor or crouches to talk to the cat, holds it in his lap, or raises a hand like a student to ask it a question (Eleceed 9, 14, 16).
+   - Wide room shots make both figures small, with the creature sitting squarely facing him (Eleceed 16, 20).
+4. **The deadpan stare.** A silent panel of the creature's flat, half-lidded stare with a "......" bubble (Eleceed 12) follows the young man's overreaction ("DON'T DIEEEE!" while shaking it, Eleceed 8).
+5. **Stopping on the way out.** "Wait…": the other character halts at the door, hand on the handle, and looks back over his shoulder. The speaker's shoulder fills the foreground (GED 81).
+6. **Fear is a whole-body state.** Trembling outline marks, sweat, one hand raised defensively and the other pressed to the chest (GED 152).
+7. **Torso shots.** The speaker is framed from neck to waist with the face cut off, and a hand on the chest carries the line (TLN 136).
+8. **Overlapping figures in group panic.** One character shouts and points while another recoils behind him with an anger mark (TLN 212). A nervous character squints and avoids eye contact, lips pressed, sweating (TLN 193). Another rubs the back of his head (TLN 202).
+9. **Asides and marks:**
+   - small hand-lettered asides outside the bubbles for embarrassed thoughts (ORV 39; Eleceed 7);
+   - question marks floating around a confused head (Eleceed 17);
+   - a sparkling face and a sweating, darkened face side by side for comic contrast (ORV 38);
+   - scratching the back of the head when embarrassed (Eleceed 10, 21).
+10. **Every run of talk uses the full shot ladder:** a wide shot, an over-the-shoulder, a close-up, a back view, an extreme close-up of an eye or mouth, and an insert of hands (GED 73–88 in 16 slices).
 
 ## 6. Against our old chapters, in one line each
 - **Bodies:** square, symmetrical, arms hanging, hands idle → weight shifted, hands busy, bodies reacting.

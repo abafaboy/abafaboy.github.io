@@ -17,6 +17,21 @@
 - Maud is a woman;
 - the gate opens in the pit's far wall.
 
+**Fan service (the owner's direction, 25 October).** In his words: "adding overall slightly more fan service is good for retention and hype."
+- **Who:** the adult women of the main cast: Lyra (2.10), Yoo Bomi (2.7) and Moon Ahin (2.9).
+- **Never:** Kang Seoa, who is 15. Song Yerin keeps her approved look, the small, scared rookie.
+- **What it means:**
+  - attractive faces and figures;
+  - the revealing outfits as designed, and confident poses;
+  - glamour intro panels;
+  - comedic reactions from the men around them: Jaeha flustered, Nib unimpressed.
+- **What it never means:**
+  - nudity, or sexual acts or poses;
+  - camera angles aimed up a skirt or at the crotch;
+  - anything explicit.
+
+  YouTube may age-restrict a video whose images make the body the focal point (`ledger/PUBLISHING.md`).
+
 **Colours** are given as base / shadow hex codes for the flat colour and the one hard cel shadow.
 
 ---
@@ -193,7 +208,7 @@ Deaths happen between panels, in silhouette and splashes (style guide section 9)
 | | |
 |---|---|
 | **Look** | 163 cm. A high ponytail, black with bleached-blonde ends; a big grin. |
-| **Clothes and gear** | A neon-yellow jacket #E6F01E / #B7C010 over a black top; plain black trainers with grey soles, no stripes or logo; a compact recurve bow, about 90 cm, that she rarely hits anything with |
+| **Clothes and gear** | A streamer's eye-catching outfit, restyled on the owner's request (25 October):<br>- a cropped neon-yellow bomber jacket #E6F01E / #B7C010, worn open with the sleeves pushed up;<br>- a black crop top that leaves her midriff bare;<br>- high-waisted denim shorts #3E5A8A / #2C4166 with a black belt;<br>- black thigh-high socks #1E1E22;<br>- plain black trainers with grey soles, no stripes or logo;<br>- a compact recurve bow, about 90 cm, that she rarely hits anything with.<br>She knows the camera loves the look. |
 | **Lock** | A white camera drone with a red recording light, always near her |
 | **Acting** | Talks to the drone and points; overreacts |
 | **Name-card background** | Gradient, hot pink #E8458B to deep blue #2A3A8C |
@@ -214,15 +229,52 @@ In the chapter 1 flash-forward, all seven summons stand behind Jaeha as black si
 | Character | Arrives | Look (from the story bible) |
 |---|---|---|
 | **Borro**, stoneback carrier | ch 10 | 2.4 m, slow-eyed, slate-grey skin, a shell of stacked slate plates with moss and tiny flowers, a door-sized iron shield. Signature colour: moss green. |
-| **Lyra**, river archer | ch 18 | Tall, blue-grey skin with silver freckles, a long braid strung with river beads, a white longbow, a flute at her belt. Signature colours: river blue and silver. |
+| **Lyra**, river archer | ch 18 | Full design in 2.10 (drawn early: she fronts the YouTube thumbnail). Signature colours: river blue and silver. |
 | **Pim**, moth-folk signal keeper | ch 36 | 1.4 m of fluffy cream fur, huge black eyes, feathery antennae, soft wings folded like a cape, a PC-bang headset. Signature colours: moon cream and lilac. |
 | **Maud**, field surgeon | ch 48 | A woman, 1.9 m and broad, a burn-scarred face, cropped white hair, surgeon's plate over stitched leather aprons, a bone saw and a needle case. Signature colours: bone white and oxblood. |
 | **Caldric**, the Bell General | ch 68 | 2.1 m, cracked bronze armour shaped like a great bell, a bell-headed mace whose every hit rings |
 | **Kett**, young goblin scout | ch 88 (and the chapter 3 flashback) | Nib's apprentice; talks too much. About 95 cm, slighter than Nib, smoother grey-green skin, a goblin face like Nib's but young (a pointed nose, shorter and straighter than Nib's; a narrow pointed chin; an angular skull), long ears with no notch, an oversized hand-me-down charcoal scout cloak, one short knife, a mustard-yellow scarf #D9A62E, an eager open face. A young soldier, never a mascot. |
-| **Moon Ahin**, "the Puppeteer" | ch 12 | 22, a white coat, a silver hair ribbon, a conductor's baton. Her 40 husks are flawless and polished. |
+| **Moon Ahin**, "the Puppeteer" | ch 12 | 22, a cold beauty and the second thumbnail-grade woman (owner, 25 October). Her 40 husks are flawless and polished.<br>- **Hair and face:** long, straight black hair tied with a silver ribbon; pale skin; sharp grey eyes; a faint, superior smile.<br>- **Outfit:** a fitted white long coat-dress with a deep V neckline and a slit to the hip; sheer white thigh-high stockings; white heeled boots; white gloves.<br>- **Prop:** a silver conductor's baton.<br>- **Status:** full sheet drawn when she arrives. |
 | **Director Baek Taegun** | ch 5 (silhouette), ch 12 | 54, a grey suit, silver glasses, a cane with a core in the handle. Name card (ch 12): gradient, black #0E0E10 to smoky violet #4A3A66. |
 | **Auntie Geum Okran** | ch 33 | 62, an apron over a tracksuit, one prosthetic arm, a ladle she fights with |
 | **Oh Minseok** | flashbacks | The same orange vest as Jaeha's, a kind grin |
+
+### 2.10 Lyra: river archer summon (from ch 18), the thumbnail woman
+
+**Why she is drawn now.** The owner chose Lyra to front the YouTube thumbnail (25 October). He wants her as attractive as the heroines on the manhwa recap thumbnails he sent, "since it obviously works".
+- Draw a beautiful face and a curvy, athletic, long-legged figure, in a revealing outfit: a deep plunging neckline; a bare midriff, shoulders and arms; bare thighs between a short skirt and thigh-high boots.
+- After the first front, the owner asked for "more revealing" and said the skirt was "wayyy too long" (25 October). The top is now cropped and the skirt short.
+- Never nudity, nothing explicit and no sexual poses. She stands with confidence.
+
+**Read at a glance.** A tall, striking archer in river blue and silver, with a silver-white braid down to her thigh, a white longbow taller than she is, and the smug smile of someone who knows the whole room is looking.
+
+| | |
+|---|---|
+| **Age and build** | An adult who looks in her early twenties. 182 cm, a little taller than Jaeha. Slender and long-legged, with an archer's strong shoulders and back, a narrow waist and a curvy figure. |
+| **Face** | An elegant oval face, high cheekbones, a small straight nose, full lips set in a confident half-smile. Almond eyes with long lashes. |
+| **Eyes** | River blue #3E9AD6 |
+| **Skin** | Very pale with a cool blue-grey tint #DCE3EA / #AEB9C6, like river stone in moonlight. Faint silver-grey freckles #8FA1B3 across her nose and cheekbones. |
+| **Ears** | Small and pointed, with silver ear cuffs |
+| **Hair (lock)** | Long and silver-white with a faint blue sheen #E8EEF3 / #A9B8C8. Side-swept bangs, with loose strands framing her face. A thick braid hangs over her **LEFT shoulder** to her thigh, strung with small pearl and blue-glass river beads. |
+| **Top** | A cropped river-blue halter top #4A90C2 / #33688F with a deep plunging neckline trimmed in silver #C9D3DC. It ends just under the bust, leaving her shoulders, arms, upper back and midriff bare. |
+| **Archer's gear (lock)** | Worn as a right-handed archer:<br>- a dark navy leather chest guard #24324A with silver stitching over the **left** side of her chest;<br>- a silver bracer on her **left** forearm (the bow arm);<br>- a fingered leather glove on her **right** hand (the drawing hand);<br>- a white leather quiver at her **right** hip, with blue-fletched arrows. |
+| **Belt** | A white silk sash, with a pale wooden flute #D8C7A3 tucked into it |
+| **Skirt** | A short river-blue skirt, mid-thigh at its longest, split to the hip on both sides, over short fitted dark shorts. A strip of bare thigh shows between the skirt and the boots. |
+| **Boots** | White thigh-high leather boots #F2F4F6 / #C8CED6 with silver buckles |
+| **Bow** | A white longbow #F1EFE8 / #C9C4B8, as tall as she is, with silver fittings and a blue string |
+| **Jewellery** | Silver arm cuffs; a choker with a single river pearl |
+| **Signature colours** | River blue #4A90C2 and silver #C9D3DC |
+| **Name-card background** | Gradient, river blue #4A90C2 to silver #C9D3DC |
+
+**Acting.**
+- Vain, competitive and musical: a hand on her hip, chin up, a flick of the braid.
+- She plays to an audience, and her eyes light up at applause and at money.
+- Aiming, she goes still and cold, one eye narrowed. That is the only time she stops performing.
+
+**Never:**
+- the braid over her right shoulder, or the chest guard, bracer or glove on the wrong side;
+- warm or tanned skin;
+- nudity or anything explicit.
 
 ---
 
@@ -346,10 +398,13 @@ Use the snippet of every character in the panel, word for word, so the descripti
 > Kang Seoa: a 15-year-old Korean girl, 158 cm; a short black bob with a straight fringe, round thin-framed glasses, sharp eyebrows; a navy school blazer, white shirt, dark red tie, a grey plaid pleated skirt that reaches the top of her knee, and navy socks; a small calculator keychain with an unlit grey screen on her school bag.
 
 **Yoo Bomi**
-> Yoo Bomi: a 21-year-old Korean woman, 163 cm, with a big grin; a high ponytail, black with bleached-blonde ends; a neon-yellow jacket over a black top; plain black trainers with no stripes or logo; a compact recurve bow about 90 cm long; a small white camera drone with a red recording light hovering near her.
+> Yoo Bomi: a 21-year-old Korean woman, 163 cm, with a big grin; a high ponytail, black with bleached-blonde ends; a slim, curvy figure; a cropped neon-yellow bomber jacket worn open with the sleeves pushed up, over a black crop top that leaves her midriff bare; high-waisted denim shorts with a black belt; black thigh-high socks; plain black trainers with no stripes or logo; a compact recurve bow about 90 cm long; a small white camera drone with a red recording light hovering near her.
 
 **Choi Dongmin**
 > Choi Dongmin: a 34-year-old Korean man, 175 cm; messy hair, stubble, deep permanent eye bags, a tired smirk; a navy rescue jacket with hi-vis yellow-green panels and silver reflective stripes; a paper coffee cup in his hand.
+
+**Lyra**
+> Lyra: a tall, strikingly beautiful adult river-folk archer who looks in her early twenties, 182 cm, slender and long-legged with an archer's strong shoulders and a curvy figure; very pale skin with a cool blue-grey tint and faint silver-grey freckles across her nose and cheekbones; small pointed ears with silver ear cuffs; river-blue almond eyes with long lashes and a confident half-smile; long silver-white hair with side-swept bangs and a thick braid over her LEFT shoulder down to her thigh, strung with small pearl and blue-glass beads; a cropped river-blue halter top with a deep plunging silver-trimmed neckline, ending just under the bust, her shoulders, arms and midriff bare; a dark navy leather chest guard over the left side of her chest; a silver bracer on her left forearm and a fingered leather glove on her right hand; a white silk sash with a pale wooden flute tucked in it and a white quiver of blue-fletched arrows at her right hip; a short river-blue skirt, mid-thigh at its longest, split to the hip on both sides over short fitted dark shorts, with bare thighs between the skirt and her white thigh-high boots with silver buckles; a white longbow as tall as she is, with silver fittings and a blue string.
 
 **A husk**
 > A husk: a 175 cm faceless white doll like a smooth matte jointed mannequin, with thin grey seam lines at the shoulders, elbows and knees and rings round the top of each thigh; smooth simplified forms with no navel or muscle lines; an oval face with no features, no clothes, standing stiffly with its arms hanging.
