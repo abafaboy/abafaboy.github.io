@@ -1,0 +1,1123 @@
+chapter: 2
+title: Who's in Charge
+format: SCRIPT_FORMAT_v2.md
+when: "The same Thursday night, about 11:05 PM, inside the boss room of Gate 0912: the seconds right after chapter 1 ends, then Nib's five minutes of field form."
+story_beats: STORY_BIBLE_v4.md#chapter-2-whos-in-charge-about-65-panels
+cast:
+  kang_jaeha: vest
+  song_yerin: default
+  nib: mask                 # hood down; the cracked husk mask over the upper LEFT of his face
+  knight_commander: default
+locations: [boss_room]
+continuity:
+  - "Field form: Nib's eyes glow faintly amber the whole chapter."
+  - "LINK is active from P27 to the end: a thin amber outline flickers along Nib in every panel where he appears, and Jaeha's irises carry a faint amber glint. No beams, no aura."
+  - "Jaeha starts with a thin nosebleed (the emergency call cost him). After the CARRY hit (P42) it bleeds again; Yerin's healing (P50–P51) stops it, but the dried blood stays on his lip and chin."
+  - "The notebook lives in Jaeha's LEFT chest pocket until P25, then in his hands or under his left arm. When he holds it, the pocket is empty. It never flies away."
+  - "The knight's tell: his cracked, loose LEFT pauldron (picture-right when he faces us) dips before every sweep."
+  - "The pillar Jaeha and Yerin shelter behind stays the same pillar from P05 to the end, with the knight's side at picture-left."
+plants:
+  - "PLANT P47: nobody has ever taken a hit for Nib; his silence pays off in ch 3 ('Nobody came back for me')."
+  - "PLANT P57–P60: the Ninth Wall sigil on the knight's chest (ch 3 flashback; ch 4 release)."
+  - "PLANT P26: LINK RANGE 50 M (trained in ch 8)."
+  - "PLANT P39: CARRY overload means bleeding, then collapse (pays off in ch 4 and ch 33)."
+hook_type: mystery
+
+panels:
+
+  # ================= BACK IN (P01–P05) =================
+  - id: P01
+    recipe: talk
+    shape: wide
+    gap: none
+    bg: black
+    camera: "low and wide from the floor beside Yerin: the giant blade held up by the small goblin, the knight towering behind, the pillar at picture-right"
+    light: "key: faint cyan glow from the husk's broken shards on the floor, under-lighting Nib; back light: the knight's red face-hole high above, a red rim along the blade"
+    art: >
+      The exact moment chapter 1 ended. The knight's (knight_commander) huge sword presses down on Nib (nib, mask),
+      who holds it off with one short knife, the blade's spine against his left forearm, his other knife loose in a
+      reverse grip. White husk shards with a faint cyan glow lie scattered round his bare feet. Yerin (song_yerin) is
+      on the floor behind him. Nib looks back over his shoulder toward the pillar at picture-right, where Jaeha is
+      (off-panel). Sparks where steel grinds on steel. Scale: the knight is 4.5 m tall standing, so bent over the
+      sword he still towers; Nib (105 cm, a lanky 6 heads) reaches no higher than the knight's shin.
+    acting:
+      nib: "braced under the blade with his weight low, the blade's spine on his left forearm and that knife holding it off; the right knife loose in a reverse grip at his hip; head turned back over his shoulder toward the pillar, unhurried, eyelids half-lowered, mouth a flat line moving on the line"
+      song_yerin: "on the floor behind him, propped on her elbows, staring up at the blade"
+    eyeline: "Nib → Jaeha (off-panel right); Yerin → the blade"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "YOU'RE IN CHARGE? THEN WHY ARE YOU THE ONE BLEEDING?", side: l}
+    sfx:
+      - {text: "GRRRIIND", style: impact, at: [0.32, 0.22], size: L, rot: -8}
+
+  - id: P02
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close, Jaeha touching his upper lip"
+    light: "cyan from below; red from above"
+    face: public
+    art: >
+      Jaeha (kang_jaeha, vest), on one knee behind the pillar, touches his upper lip with two gloved fingers. A thin
+      line of blood runs from his nose; the fingertips come away red. He blinks at them.
+    acting:
+      kang_jaeha: "on one knee, head tipped down a little, two fingers of his right hand lifted away from under his nose so he can look at them; eyes wide, brows up, mouth slightly open; a thin trickle of blood from one nostril"
+    eyeline: "Jaeha → his own fingertips"
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: speech, text: "OH. I DIDN'T EVEN NOTICE THAT.", side: r}
+      - {who: kang_jaeha, type: inner, text: "THAT CALL TOOK A LOT MORE OUT OF ME THAN A HUSK."}
+    sfx:
+      - {text: "DRIP", style: quiet, at: [0.30, 0.80], size: S, rot: 0}
+
+  - id: P03
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, tilted 15 degrees, from beside Yerin's head: Nib spinning out from under the blade"
+    light: "no scene light: a white flash where his heel meets the flat of the blade"
+    art: >
+      Nib (nib, mask) lets the giant blade slide off his knife and spins, slamming his bare heel into the flat of the
+      sword. The sword is knocked sideways and its point bites into the floor beside them; stone bursts up in jagged,
+      hand-inked chunks. Speed lines along his kicking leg; the red scarf ends whip round him.
+    acting:
+      nib: "pivoting on his left foot, body twisted almost horizontal, right leg fully extended in a spinning heel kick against the flat of the blade, both knives held out wide for balance, face deadpan"
+    calm: top-left
+    sfx:
+      - {text: "KLANNNG", style: impact, at: [0.30, 0.20], size: XL, rot: -12}
+
+  - id: P04
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, side-on, tilted 10 degrees: the small goblin dragging two grown people across the floor toward the pillar"
+    light: "green-dusk shafts; red from the knight's face behind"
+    art: >
+      Nib (nib, mask), half their size, sprints for the pillar dragging Yerin (song_yerin) by the collar of her jacket
+      with one hand and Jaeha (kang_jaeha, vest) by the shoulder of his vest with the other. Their heels scrape the
+      floor and Yerin's bag bounces. Behind them the knight's dark shape wrenches its sword out of the floor.
+    acting:
+      nib: "leaning far forward into a sprint, both arms stretched back behind him, one fist knotted in Yerin's collar and the other in Jaeha's vest at the shoulder; face deadpan, unbothered by the weight"
+      song_yerin: "dragged along on her back with her knees up, both hands clutching her bag to her chest, mouth open in a squeak"
+      kang_jaeha: "dragged half-sitting, heels scraping, his right hand pressed to his bloody nose, eyes wide"
+    eyeline: "Nib → the pillar ahead; Yerin and Jaeha → Nib"
+    calm: top
+    sfx:
+      - {text: "SKRRRRRT", style: comic, at: [0.42, 0.82], size: M, rot: 0}
+
+  - id: P05
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high, from above the pillar: the sword smashing the floor where they were, the three of them tumbling into cover"
+    light: "no scene light: a hot orange field"
+    art: >
+      The knight's sword smashes down where the three of them were a heartbeat ago, and the floor explodes in jagged,
+      hand-inked stone chunks. Nib, Yerin and Jaeha tumble into cover behind the pillar at the bottom right of the
+      frame. Jaeha gets a white rim so he doesn't vanish in the orange.
+    calm: top
+    sfx:
+      - {text: "KRAKOOOM", style: impact, at: [0.45, 0.30], size: XL, rot: 10}
+
+  # ================= NIB'S WINDOW AND FIRST WORDS (P06–P14) =================
+  - id: P06
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "behind the pillar, Jaeha sitting against it and facing the reader, lit cyan from the front"
+    light: "cyan front light from the window; the hall dark"
+    face: private
+    art: >
+      Behind the pillar: Jaeha (kang_jaeha, vest) sits with his back against the stone, blood on his lip, staring at
+      something in the air in front of him, lit cyan. The upper half of the frame is the dark hall fading naturally
+      into shadow, left empty for the window (never a flat rectangle).
+    acting:
+      kang_jaeha: "sitting with his back to the pillar, knees up, the back of his right hand under his nose, eyes lifted to the window, brows drawn together"
+    eyeline: "Jaeha → the window (toward the camera)"
+    calm: top
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.05], headline: "[SUMMON ANSWERED: NIB]", body: "FAR SIDE SCOUT · SEAL 1/5 · FIELD FORM 05:00", button: "OK"}
+    sfx:
+      - {text: "DING", style: summon, at: [0.87, 0.22], size: M, rot: 0}
+
+  - id: P07
+    recipe: name-card
+    shape: tall
+    gap: short
+    bg: black
+    camera: "knees up, three-quarter, slight low angle: Nib at the pillar's edge"
+    light: "key: green-dusk light from the left; back light: red from the knight beyond the pillar, rimming his ears and scarf"
+    intro: "NIB · FAR SIDE SCOUT · SUMMON NO. 1"
+    art: >
+      Nib (nib, mask) stands at the edge of the pillar, peering round it toward the knight, knives in reverse grip.
+      Long ears swept back (the LEFT one notched), the long red scarf, the belted sleeveless cloak with too many
+      pockets, brass binoculars on his chest, bare feet. The cracked white husk mask covers the upper left of his
+      face; his uncovered right eye glows faintly amber. Name-card gradient behind him, dark umber to amber. Leave
+      the right third calm.
+    acting:
+      nib: "pressed side-on to the pillar's edge in a scout's stoop, peering round it; both knives in reverse grip, the right one held flat against the stone; weight on the balls of his bare feet; face deadpan"
+    eyeline: "Nib → the knight (off-panel left, round the pillar)"
+    calm: right
+    lines:
+      - {who: nib, type: speech, text: "TELL ME QUICKLY. WHAT IS THAT THING, AND WHAT ARE YOU?", side: r}
+
+  - id: P08
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "two-shot at sitting height behind the pillar: Jaeha on the left, Nib's back and ear in the right foreground"
+    light: "green-dusk light from above; red spill round the pillar's edge"
+    face: public
+    art: >
+      Jaeha (kang_jaeha, vest) answers politely, sitting against the pillar and wiping blood from his lip with the back
+      of his glove. In the right foreground, cropped: Nib's back, his long notched left ear and the red scarf.
+    acting:
+      kang_jaeha: "sitting against the pillar, wiping his lip with the back of his right glove, left hand lifted a little palm-up as he explains; a polite, tired smile, eyebrows raised"
+    eyeline: "Jaeha → Nib"
+    foreground: "Nib's shoulder, long left ear (notched) and scarf, cropped, in the right third"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "THAT'S A BOSS, AND I'M A TRAP-TESTER.", side: l}
+      - {who: kang_jaeha, type: speech, text: "I WALK IN FIRST, SO OTHER PEOPLE DON'T HAVE TO.", side: l}
+
+  - id: P09
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on Nib's face, looking back down at Jaeha"
+    light: "a flat pale gradient behind; a red rim on one ear"
+    art: >
+      Close on Nib (nib, mask): deadpan, his one uncovered amber eye half-lidded beside the cracked mask, the single
+      small lower fang on his LEFT just showing at the corner of his flat mouth.
+    acting:
+      nib: "head turned back over his shoulder, looking down at Jaeha; eyelids half-lowered, mouth flat and moving on the line, the left lower fang just showing"
+    eyeline: "Nib → Jaeha (down)"
+    calm: right
+    lines:
+      - {who: nib, type: speech, text: "THEN WE DO THE SAME JOB. MINE PAID BETTER.", side: l}
+
+  - id: P10
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close, Yerin staring at Nib"
+    light: "a flat pale gradient"
+    art: >
+      Yerin (song_yerin) stares at the small cloaked figure, pale, hugging her pink bag.
+    acting:
+      song_yerin: "sitting with her knees pulled up, hugging her pink bag to her chest with both arms, eyes wide with small pupils, mouth a small trembling line"
+    eyeline: "Yerin → Nib"
+    calm: left
+    lines:
+      - {who: song_yerin, type: whisper, text: "HUSKS CAN'T TALK. WHY IS THIS ONE TALKING?", side: r}
+    sfx:
+      - {text: "GULP", style: quiet, at: [0.28, 0.72], size: S, rot: 0}
+
+  - id: P11
+    recipe: anticipation
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, round the pillar's edge: the knight dragging his sword out of the floor and turning toward the pillar"
+    light: "key: the red face-hole; green shafts behind"
+    art: >
+      Round the pillar's edge (cropped down the right side): the knight (knight_commander) drags his long sword up out
+      of the broken floor and turns toward their pillar, slowly, armour grinding, snapped chains swinging. His red
+      face-hole fixes on the pillar.
+    foreground: "the pillar's edge, cropped, down the right side"
+    calm: top
+    sfx:
+      - {text: "GRRRNNK", style: quiet, at: [0.18, 0.30], size: M, rot: 0}
+
+  - id: P12
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "over Nib's shoulder toward Jaeha, Jaeha's face at the right"
+    light: "red light from round the pillar on Nib's side; green on Jaeha"
+    face: public
+    art: >
+      Over Nib's shoulder (his hood, notched ear and red scarf in the left foreground, cropped): Jaeha (kang_jaeha,
+      vest) pushes himself up the pillar, uncertain, half-smiling out of habit.
+    acting:
+      kang_jaeha: "pushing himself up the pillar with his left hand flat on the stone, the right hand raised in a small helpless gesture; a crooked, uncertain habit-smile with a sweat drop"
+      nib: "seen from behind, standing square to Jaeha with both knives lowered, head tilted slightly, waiting"
+    eyeline: "Jaeha ↔ Nib"
+    foreground: "Nib's hood, notched left ear and scarf, cropped, in the left third"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "YOU SAY YOU'RE IN CHARGE. SO GIVE ME AN ORDER.", side: l}
+      - {who: kang_jaeha, type: nervous, text: "UM... SUMMONS GO FIRST?", side: r}
+
+  - id: P13
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Nib turning toward the hall, the masked half of his face toward us"
+    light: "red light across the cracked mask; amber glow in the uncovered eye"
+    art: >
+      Close on Nib (nib, mask) turning away toward the hall, the cracked white mask catching the red light, and the
+      corner of his thin mouth curling in a grim little smile, the left lower fang showing.
+    acting:
+      nib: "turning his head toward the hall, chin lowering, the corner of his mouth curling in a thin grim smile; knives coming up in reverse grip"
+    eyeline: "Nib → the knight (off-panel left)"
+    calm: right
+    lines:
+      - {who: nib, type: speech, text: "THEY ALWAYS DO.", side: l}
+
+  - id: P14
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from the floor behind the pillar: Nib launching out into the open"
+    light: "no scene light: speed streaks of red and green"
+    art: >
+      Nib (nib, mask) launches out from behind the pillar low and fast, a dark streak with the red scarf trailing,
+      dust and stone grit bursting where his bare feet kicked off. The knight is a huge dark shape ahead.
+    acting:
+      nib: "launched almost horizontal, body low, both knives held back along his forearms in reverse grip, scarf and cloak hem streaming behind"
+    calm: top-left
+    sfx:
+      - {text: "TAK", style: quiet, at: [0.22, 0.86], size: M, rot: 0}
+      - {text: "SHHHT", style: impact, at: [0.55, 0.40], size: L, rot: -20}
+
+  - id: P15
+    kind: title
+    shape: full
+    gap: long
+    bg: black
+    title_card: "MY SUMMONS GO FIRST · CHAPTER 2 · WHO'S IN CHARGE"
+    notes: "Title card at panel 15 of 60 (25%), after the hook, Nib's name card and his first charge."
+
+  # ================= SUMMONS GO FIRST (P16–P25) =================
+  - id: P16
+    recipe: establish
+    shape: full
+    gap: long
+    bg: black
+    camera: "high and wide over the pillared hall"
+    light: "key: green-dusk shafts from the broken roof; the knight's red face-hole the brightest point"
+    art: >
+      High and wide over the boss room (location boss_room): the vast pillared hall, green-dusk light falling in
+      shafts through the broken roof, pressure plates across the floor, the iron door shut at the far end. In the
+      middle stands the giant knight (knight_commander), snapped chains trailing. A small dark streak (Nib) races
+      across the floor toward him. Behind a pillar at the bottom of the frame, two tiny figures: an orange vest and
+      an off-white jacket. Scale: the pillars are about 10 m tall (five or six people); the knight (4.5 m) reaches
+      halfway up a pillar; Nib is a quarter of the knight's height; the two people behind the pillar are tiny but keep
+      their full proportions.
+    calm: top
+    sfx:
+      - {text: "TATATAT", style: quiet, at: [0.40, 0.70], size: S, rot: 0}
+
+  - id: P17
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close to the floor, tilted: Nib's knives raking the back of the knight's armoured knee"
+    light: "no scene light: a white flash at the contact; sparks"
+    art: >
+      Nib (nib, mask) slides between the knight's legs and rakes both knives across the back of its armoured knee.
+      A shower of sparks, but the dark iron plate only scratches. The knight's leg is a wall of armour beside him.
+    acting:
+      nib: "sliding on one knee across the floor, both arms whipped across his body in a double slash, eyes on the joint"
+    calm: top
+    sfx:
+      - {text: "SKRANNG", style: impact, at: [0.55, 0.28], size: L, rot: -10}
+
+  - id: P18
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: black
+    camera: "medium, three-quarter: Nib skidding to a stop and glaring at his knife"
+    light: "green-dusk light; a red rim from the face-hole above"
+    art: >
+      Nib (nib, mask) skids to a stop behind the knight and glares at the thin bright scratch his knives left on the
+      armour, then at his own knife. The upper third is the dark hall, left calm for a window.
+    acting:
+      nib: "crouched low after the slide, one knife raised in front of his face as he looks at its edge, the other hand flat on the floor; mouth twisted sideways in disgust"
+    eyeline: "Nib → his knife"
+    calm: top
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[SEAL 1/5 · NIB'S POWER IS LIMITED TO 20%]"}
+
+  - id: P19
+    recipe: anticipation
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, behind Nib: the goblin running straight up the flat of the knight's lowered sword toward the helm"
+    light: "red face-light from above; green shafts"
+    art: >
+      Nib (nib, mask) runs straight up the flat of the knight's lowered sword like a ramp, toward the dark hole in
+      the helm, both knives drawn back to strike. The helm looms huge at the top of the frame.
+    acting:
+      nib: "sprinting up the slanted blade on his bare toes, body leaning into the climb, both knives drawn back over his shoulders"
+    eyeline: "Nib → the face-hole (up)"
+    calm: top-left
+    lines:
+      - {who: nib, type: speech, text: "TWENTY PERCENT OF ME. THIS IS EMBARRASSING.", side: l}
+    sfx:
+      - {text: "TAK TAK TAK", style: quiet, at: [0.66, 0.78], size: S, rot: -30}
+
+  - id: P20
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close and tilted at the helm: the knife skidding off the rim as the giant jerks its head back"
+    light: "no scene light: a white flash; red light spilling from the hole"
+    art: >
+      At the top of the blade Nib slashes at the face-hole, but the knight jerks its head back and the knife only
+      skids along the helm's rim in a spray of sparks. Violet ash puffs from the hole.
+    acting:
+      nib: "in mid-air at the end of the slash, arm fully extended, the knife skidding off the rim, his face tight with frustration"
+    calm: top-right
+    sfx:
+      - {text: "SKREEE", style: impact, at: [0.30, 0.30], size: L, rot: -6}
+
+  - id: P21
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "high past the knight's shoulder, tilted 15 degrees: the free gauntlet coming round to backhand the goblin in mid-air"
+    light: "no scene light: a white flash at the hit"
+    art: >
+      The knight's free gauntlet comes round with enormous reach and backhands Nib out of the air. White flash at the
+      contact; Nib folds round the blow, knives flying wide in his hands, scarf whipping.
+    acting:
+      nib: "folded round the blow in mid-air, back arched, mouth open in a grunt, both knives still gripped"
+    calm: top
+    sfx:
+      - {text: "WHAAM", style: impact, at: [0.45, 0.25], size: XL, rot: -12}
+
+  - id: P22
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "wide and low: Nib flying across the hall and smashing into a far pillar"
+    light: "green-dusk shafts; dust bursting in them"
+    art: >
+      Nib flies across the hall like a thrown doll and smashes into a far pillar: a crater of cracked stone, dust
+      bursting out into the light shafts. Speed lines trace his flight. Scale: the pillar is about 10 m tall and Nib
+      is 105 cm, so the crater is low on the pillar and he is small against it. The top quarter is dark roof shadow,
+      left calm for a window.
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.05], text: "[FIELD FORM 03:31]"}
+    sfx:
+      - {text: "KRASSHH", style: impact, at: [0.72, 0.40], size: XL, rot: 8}
+
+  - id: P23
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close, Jaeha at the pillar's edge, face drained"
+    light: "red from the hall on one side of his face"
+    face: public
+    art: >
+      Jaeha (kang_jaeha, vest) at the pillar's edge, the colour gone from his face, staring across the hall at where
+      Nib hit.
+    acting:
+      kang_jaeha: "gripping the pillar's edge with both hands, leaning out, eyes wide with tiny pupils, mouth open on the shout, a sweat drop; blood still on his upper lip"
+    eyeline: "Jaeha → the crater (off-panel right)"
+    calm: right
+    lines:
+      - {who: kang_jaeha, type: shout, text: "NIB!", side: l}
+    sfx:
+      - {text: "FLINCH", style: quiet, at: [0.72, 0.78], size: S, rot: 0}
+
+  - id: P24
+    recipe: aftermath
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, still: Nib sliding down the cracked pillar into the rubble"
+    light: "low green light; dust hanging in the shafts"
+    art: >
+      Nib (nib, mask) slides down the cracked pillar and lands on his feet in the rubble, one hand on his ribs, dust
+      settling round him. He spits to one side.
+    acting:
+      nib: "landing in a crouch at the foot of the cracked pillar, left hand pressed to his ribs, the right knife still in a reverse grip; head turned to spit to one side; eyes still on the knight"
+    eyeline: "Nib → the knight"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "HE'S FASTER THAN HE LOOKS, AND HIS ARMS ARE TOO LONG.", side: r}
+    sfx:
+      - {text: "PTOO", style: quiet, at: [0.26, 0.66], size: S, rot: 0}
+
+  - id: P25
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close on Jaeha's hands flipping the notebook open against his knee"
+    light: "green light on the pages; red at the edge"
+    art: >
+      Jaeha's fingerless-gloved hands pull the battered black notebook out of his left chest pocket and flip it open
+      against his knee, to a page of quick sketches of a giant armoured figure with arrows and tick marks. Leave a
+      blank band on the page for the letterer's note. No readable text.
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: note, text: "KNIGHT. SLOW TO TURN. HITS WHATEVER IS IN FRONT. LEFT SHOULDER?"}
+      - {who: kang_jaeha, type: inner, text: "I CAN'T SEE HIS SHOULDER FROM HERE. I NEED TO SEE WHAT NIB SEES."}
+    sfx:
+      - {text: "FLIP", style: quiet, at: [0.82, 0.28], size: S, rot: 0}
+
+  # ================= LINK (P26–P37) =================
+  - id: P26
+    recipe: system
+    shape: tall
+    gap: short
+    bg: navy
+    camera: "Jaeha facing the reader at the pillar's edge, his right hand reaching out of frame toward Nib"
+    light: "cyan front light from the window; a thin amber thread of light from his fingertips"
+    face: private
+    art: >
+      Jaeha (kang_jaeha, vest) faces the reader, his right hand reaching out past the pillar's edge toward Nib
+      (off-panel), a thin amber thread of light running from his fingertips out of the frame. The upper half is the
+      dark hall fading naturally, left empty for the window (never a flat rectangle, never across his head).
+    acting:
+      kang_jaeha: "kneeling at the pillar's edge, the open notebook clamped under his left arm, right arm stretched out toward Nib with the fingers spread; eyes lifted to the window; mouth set"
+    eyeline: "Jaeha → the window"
+    calm: top
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.04], headline: "[NEW SKILL: LINK]", body: "SEE THROUGH YOUR SUMMON'S EYES AND GIVE SILENT ORDERS. RANGE 50 M. YOU WILL FEEL ITS PAIN TOO.", button: "LINK"}
+    sfx:
+      - {text: "DING", style: summon, at: [0.86, 0.17], size: M, rot: 0}
+
+  - id: P27
+    recipe: link-view
+    shape: wide
+    gap: short
+    bg: black
+    camera: "split frame: left, Jaeha's face lit amber; right, Nib's point of view of the knight through a thin amber vignette"
+    light: "amber on Jaeha's face; the knight red-lit in Nib's view"
+    face: private
+    art: >
+      Split frame with a thin vertical amber seam down the middle. LEFT: Jaeha's face (kang_jaeha) lit amber from
+      below, eyes wide as he sees. RIGHT: Nib's point of view from the rubble: the knight huge and close, his red
+      face-hole turning toward us, the long sword rising, framed by a thin amber vignette.
+    acting:
+      kang_jaeha: "eyes wide, pupils shrunk, lips parted, amber light filling his eyes"
+    eyeline: "Jaeha → (through Nib) the knight"
+    calm: none
+    sfx:
+      - {text: "VMMMM", style: summon, at: [0.50, 0.12], size: M, rot: 0}
+
+  - id: P28
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close, Jaeha flinching and clutching his ribs"
+    light: "a faint amber glint in his eyes; dark behind"
+    face: private
+    art: >
+      Jaeha (kang_jaeha, vest) flinches and clutches his left side, feeling Nib's bruised ribs as if they were his
+      own. A faint amber glint in his eyes.
+    acting:
+      kang_jaeha: "hunched forward, his left hand clamped over his left ribs, teeth gritted, one eye squeezed shut, the other still glinting amber"
+    eyeline: "Jaeha → (through Nib) the knight"
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: inner, text: "HIS RIBS. I CAN FEEL HIS RIBS AS IF THEY WERE MINE."}
+    sfx:
+      - {text: "TWINGE", style: quiet, at: [0.30, 0.74], size: S, rot: 0}
+
+  - id: P29
+    recipe: insert
+    shape: strip
+    gap: short
+    bg: black
+    camera: "Nib's point of view, close on the knight's cracked LEFT pauldron (picture-right), framed by a thin amber vignette"
+    light: "red face-light; green shafts"
+    art: >
+      Through Nib's eyes (a thin amber vignette at the edges): close on the knight's cracked, loose LEFT pauldron, on
+      the picture-right side as he faces us. The broken plate hangs off its strap and dips as the giant shoulder rolls
+      back for a swing. Fill the whole canvas with armour and shadow, edge to edge.
+    calm: none
+    silent: true
+
+  - id: P30
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from beside the pillar: Jaeha leaning out and shouting across the hall"
+    light: "red light on his face from the knight; an amber glint in his eyes"
+    face: private
+    art: >
+      Jaeha (kang_jaeha, vest) leans out from the pillar, notebook open in his left hand, and shouts across the hall
+      toward Nib with his right hand cupped at his mouth.
+    acting:
+      kang_jaeha: "leaning out past the pillar with one foot braced, the open notebook in his left hand, right hand cupped at his mouth; brows down, mouth wide on the shout"
+    eyeline: "Jaeha → Nib (across the hall, off-panel right)"
+    foreground: "the pillar's edge, cropped, down the left side"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: shout, text: "HIS LEFT SHOULDER DROPS BEFORE EVERY SWEEP!", side: l}
+
+  - id: P31
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close, Nib crouched in the rubble, deadpan, a thin amber outline flickering along him"
+    light: "his amber outline; green shafts"
+    art: >
+      Nib (nib, mask) crouched in the rubble, knives ready. A thin amber outline flickers along his body now that he
+      is linked. Deadpan, one ear twitching.
+    acting:
+      nib: "crouched with both knives ready, head tilted a little as if listening to a voice inside it, the notched left ear twitching; eyelids half-lowered"
+    eyeline: "Nib → the knight"
+    calm: right
+    lines:
+      - {who: nib, type: speech, text: "STOP SHOUTING. I CAN HEAR YOU THINKING NOW.", side: l}
+    sfx:
+      - {text: "TWITCH", style: quiet, at: [0.62, 0.18], size: S, rot: 0}
+
+  - id: P32
+    recipe: plan
+    shape: wide
+    gap: short
+    bg: black
+    camera: "over Jaeha's shoulder across the hall: the knight winding up toward Nib, clean cyan tactical lines over the scene"
+    light: "the hall slightly desaturated; cyan lines"
+    face: private
+    art: >
+      Over Jaeha's shoulder (cropped, left foreground): across the slightly desaturated hall, the knight winds up a
+      sweep toward Nib, who is linked (thin amber outline). Clean cyan tactical lines with no text are drawn over the
+      scene: an arc for the sweep's path, a circle on the knight's left pauldron, and an arrow showing a low duck
+      under the arc.
+    acting:
+      kang_jaeha: "seen from behind and to one side, absolutely still, the pencil raised in his right hand like a conductor's baton"
+    eyeline: "Jaeha → the knight's left shoulder"
+    foreground: "Jaeha's shoulder and the side of his head, cropped, in the left third"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: inner, text: "NOT YET. WAIT FOR THE SHOULDER."}
+
+  - id: P33
+    recipe: insert
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up: the cracked left pauldron dropping"
+    light: "red light; a hard shadow under the plate"
+    art: >
+      Extreme close-up: the knight's cracked LEFT pauldron drops a hand's width as the shoulder loads the swing.
+      Armour fills the canvas edge to edge.
+    calm: none
+    sfx:
+      - {text: "CLNK", style: quiet, at: [0.72, 0.40], size: M, rot: 0}
+
+  - id: P34
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from the floor in front of Nib, tilted: the flat sweep passing a finger's width over him as he drops"
+    light: "no scene light: a hot orange field; Nib's amber outline"
+    art: >
+      The knight's sword sweeps flat across the hall, and Nib (nib, mask; linked, thin amber outline) drops flat under
+      it at the last instant. The blade passes a finger's width over his back and slices the tip off one scarf end.
+      Speed lines along the blade.
+    acting:
+      nib: "dropped flat to the floor on his chest, arms tucked, knives along his forearms, chin down, eyes up tracking the blade"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: intense, text: "NOW!"}
+    sfx:
+      - {text: "VSHHHHH", style: impact, at: [0.50, 0.24], size: XL, rot: -8}
+
+  - id: P35
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, tilted 15 degrees: Nib springing up inside the knight's guard, both knives ripping along the seam under its arm"
+    light: "no scene light: a white flash; violet ash spraying"
+    art: >
+      Nib (nib, mask; linked, thin amber outline) springs up inside the knight's guard while the sword is still out
+      wide and rips both knives along the seam under the knight's left arm, where the cracked pauldron has lifted
+      away. Violet ash sprays from the opened seam. Speed lines along his arms.
+    acting:
+      nib: "springing upward with his whole body uncoiling, both knives dragged through the armour seam above his head, teeth bared"
+    calm: top-left
+    sfx:
+      - {text: "SHRAKKK", style: impact, at: [0.35, 0.20], size: XL, rot: -15}
+
+  - id: P36
+    recipe: aftermath
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level across the hall: the knight staggering a step, one gauntlet clamped to the ashing seam"
+    light: "green shafts; violet ash drifting through them"
+    art: >
+      The knight staggers back a heavy step, its free gauntlet clamped over the seam under its left arm, violet ash
+      pouring between the fingers. Nib (linked, thin amber outline) lands lightly behind it, knives low. The top third
+      is dark, left calm for a window.
+    acting:
+      nib: "landing lightly on the balls of his feet behind the knight, knives held low and wide, eyes on the wound"
+    eyeline: "Nib → the knight's wound"
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.05], text: "[FIELD FORM 02:14]"}
+    sfx:
+      - {text: "DOOM", style: impact, at: [0.30, 0.72], size: M, rot: 0}
+
+  - id: P37
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close, Yerin behind the pillar staring up at Jaeha"
+    light: "green light; a red rim"
+    art: >
+      Yerin (song_yerin), behind the pillar, stares up at Jaeha with her mouth open.
+    acting:
+      song_yerin: "kneeling behind the pillar, both hands still on the bag strap but loosening, head tipped up toward Jaeha, eyes wide, mouth open"
+    eyeline: "Yerin → Jaeha (up, off-panel left)"
+    calm: left
+    lines:
+      - {who: song_yerin, type: speech, text: "YOU SAW THAT COMING FROM ALL THE WAY OVER HERE?", side: r}
+
+  # ================= CARRY (P38–P47) =================
+  - id: P38
+    recipe: anticipation
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from behind Nib: the knight twisting round and driving its bronze pommel down at him"
+    light: "red face-light from above"
+    art: >
+      The knight whirls round faster than before and drives the bronze disc pommel of its sword straight down at Nib
+      like a hammer. Nib (linked, thin amber outline), still landing, has no room to dodge: his back fills the bottom
+      foreground, cropped.
+    acting:
+      nib: "seen from behind at the bottom of the frame, still crouched from the landing, head jerking up at the falling pommel"
+    eyeline: "Nib → the pommel (up)"
+    calm: top-left
+    sfx:
+      - {text: "WHUMM", style: impact, at: [0.30, 0.20], size: L, rot: -10}
+
+  - id: P39
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "Jaeha facing the reader, lit cyan, a faint amber glint in his eyes"
+    light: "cyan from the window; amber in his eyes"
+    face: private
+    art: >
+      Jaeha (kang_jaeha, vest) at the pillar's edge, facing the reader, lit cyan, eyes still glinting amber from the
+      link. The upper half is the dark hall fading naturally, left empty for the window.
+    acting:
+      kang_jaeha: "frozen mid-step out from the pillar, left hand on the stone, the notebook under his left arm, eyes lifted to the window, mouth set"
+    eyeline: "Jaeha → the window"
+    calm: top
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.04], headline: "[NEW SKILL: CARRY]", body: "TAKE PART OF YOUR SUMMON'S DAMAGE INTO YOUR OWN BODY. OVERLOAD: BLEEDING, THEN COLLAPSE.", button: "CARRY?"}
+    sfx:
+      - {text: "D-DING", style: summon, at: [0.87, 0.17], size: M, rot: 0}
+
+  - id: P40
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of Jaeha's eyes, an amber glint in them"
+    light: "amber and cyan across the eyes"
+    face: private
+    art: >
+      Extreme close-up: Jaeha's eyes (kang_jaeha), no hesitation in them, the fringe over his LEFT eye. Eyes, brows and
+      fringe fill the canvas edge to edge.
+    acting:
+      kang_jaeha: "eyes level and hard under lowered brows"
+    eyeline: "Jaeha → the window"
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: intense, text: "YES. GIVE IT TO ME.", side: r}
+
+  - id: P41
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, tilted: the pommel slamming onto Nib's crossed knives and driving him down"
+    light: "no scene light: a white flash with an amber ring"
+    art: >
+      The pommel slams down onto Nib's crossed knives and drives him to one knee, stone cracking round his feet, but an
+      amber ring of light bursts outward from the contact point and half of the blow seems to vanish into it. Nib
+      (linked, thin amber outline) holds.
+    acting:
+      nib: "driven down to one knee under the pommel, both knives crossed overhead, arms shaking but holding"
+    calm: top
+    sfx:
+      - {text: "DOOOOM", style: impact, at: [0.55, 0.24], size: XL, rot: -8}
+
+  - id: P42
+    recipe: carry
+    shape: tall
+    gap: short
+    bg: black
+    camera: "three-quarter: Jaeha buckling at the pillar as a translucent amber impact ring hits his back"
+    light: "flat dark with amber focus lines"
+    face: private
+    art: >
+      At the same instant across the hall, Jaeha (kang_jaeha, vest) buckles as a translucent amber impact ring slams
+      into his shoulders and back: the half of the blow Nib didn't feel. He drops to his knees and blood bursts from
+      his nose again. The notebook stays crushed in his left fist. Flat dark background with amber focus lines. The
+      top third stays dark for a window.
+    acting:
+      kang_jaeha: "folded forward onto his knees and his right palm, the left fist (still gripping the notebook) pressed to his chest, back bowed under an invisible weight, teeth clenched, one eye squeezed shut, fresh blood running from his nose"
+    eyeline: "Jaeha → the floor"
+    calm: top
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[CARRY · 50% OF THE HIT MOVED TO THE OPERATOR]"}
+    sfx:
+      - {text: "THUMP", style: impact, at: [0.70, 0.38], size: L, rot: 6}
+
+  - id: P43
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close, Yerin reaching for him, horrified"
+    light: "green light; amber flicker from his back"
+    art: >
+      Yerin (song_yerin) reaches toward Jaeha, horrified: nothing touched him, but he went down as if he'd been hit.
+    acting:
+      song_yerin: "leaning toward him on her knees with both hands out, not quite touching, eyes wide and darting over him, mouth open"
+    eyeline: "Yerin → Jaeha"
+    calm: right
+    lines:
+      - {who: song_yerin, type: nervous, text: "WHAT HAPPENED? NOTHING EVEN TOUCHED YOU!", side: l}
+
+  - id: P44
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: black
+    camera: "medium: Nib shoving the pommel aside and looking back across the hall"
+    light: "red light; his amber outline"
+    art: >
+      Nib (nib, mask; linked, thin amber outline) shoves the pommel aside and rolls clear, then looks back across the
+      hall toward the pillar where Jaeha has collapsed, his uncovered eye wide.
+    acting:
+      nib: "rolling up onto one knee clear of the pommel, one knife braced on the floor, head turned sharply back toward Jaeha, the uncovered eye wide, mouth open a little: the first expression he has shown"
+    eyeline: "Nib → Jaeha (across the hall, off-panel)"
+    calm: top
+    silent: true
+
+  - id: P45
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "two-shot behind the pillar at the kneeling Jaeha's eye level; Nib standing over him"
+    light: "green light from above; red spill round the pillar"
+    face: private
+    art: >
+      Behind the pillar: Nib (nib, mask; linked, thin amber outline) has darted back and stands over Jaeha (kang_jaeha,
+      vest), who kneels with one palm on the floor, blood on his lip and chin. Nib stares down at him.
+    acting:
+      nib: "standing over Jaeha with his knives lowered at his sides, leaning down a little, head cocked, the uncovered eye narrowed in suspicion; mouth moving on the line"
+      kang_jaeha: "kneeling on one knee with his right palm on the floor, his left arm across his ribs with the notebook in that hand, head lifted to Nib; wiping blood from his chin against his shoulder"
+    eyeline: "Nib → Jaeha (down); Jaeha → Nib (up)"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "YOU TOOK MY HIT. WHY WOULD YOU DO THAT?", side: l}
+
+  - id: P46
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Jaeha from Nib's height, looking slightly down"
+    light: "green from above; a flat pale gradient behind"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha, vest) from above: blood on his lip, a crooked, tired grin. Honest, not polite.
+    acting:
+      kang_jaeha: "head tipped up, a crooked one-sided grin with blood on his teeth, eyes creased but steady"
+    eyeline: "Jaeha → Nib (up)"
+    foreground: "the end of Nib's red scarf, cropped, across the top-left corner"
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: speech, text: "BECAUSE YOU'RE THE ONE WHO CAN ACTUALLY HURT IT.", side: r}
+
+  - id: P47
+    recipe: silent
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of Nib's uncovered eye beside the cracked mask"
+    light: "amber glow; a soft red rim"
+    art: >
+      Extreme close-up: Nib's uncovered amber eye beside the cracked edge of the white mask, with something old and
+      surprised in it, the pupil wide. Fill the canvas edge to edge: brow, ear root and mask edge.
+    acting:
+      nib: "the eye wide and still, pupil open, the heavy lower lid slack for once"
+    eyeline: "Nib → Jaeha"
+    calm: none
+    silent: true
+    notes: "PLANT P47: nobody has ever taken a hit for Nib (ch 3: 'Nobody came back for me')."
+
+  # ================= YERIN (P48–P52) =================
+  - id: P48
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "three-quarter from behind Nib as he turns away toward the hall"
+    light: "red from round the pillar on his face"
+    art: >
+      Nib (nib, mask; linked, thin amber outline) turns away toward the hall, his face hidden behind his long ear and
+      the edge of his hood, and tilts his head back toward Yerin.
+    acting:
+      nib: "half-turned away toward the pillar's edge, shoulders squared, chin tilted back over his shoulder toward Yerin, one knife pointing at her"
+    eyeline: "Nib → Yerin (off-panel)"
+    calm: right
+    lines:
+      - {who: nib, type: speech, text: "STRANGE MAN. HEALER, STOP SHAKING AND FIX HIM.", side: l}
+
+  - id: P49
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: white
+    camera: "close on Yerin's small hands hovering over Jaeha's back, trembling, a mint-white glow gathering"
+    light: "soft mint-white light from her palms"
+    art: >
+      Close on Yerin's small hands, sleeves past her wrists, hovering over the back of Jaeha's orange vest with its
+      big white T patch. They tremble, and a soft mint-white light gathers in the palms anyway. Keep the top quarter
+      plain and calm for a window.
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.05], text: "[FIELD FORM 01:20]"}
+    sfx:
+      - {text: "SHAKE SHAKE", style: quiet, at: [0.24, 0.30], size: S, rot: 0}
+      - {text: "SHIIING", style: quiet, at: [0.72, 0.34], size: M, rot: 0}
+
+  - id: P50
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "close two-shot: Yerin kneeling behind Jaeha, her face lit mint from below; Jaeha's shoulder in the foreground"
+    light: "mint-white glow from her hands under her face"
+    art: >
+      Yerin (song_yerin) kneels behind Jaeha, her hands glowing mint on his back. Her eyes are wet, but her jaw is set.
+      Jaeha's (kang_jaeha, vest) orange shoulder and bloody profile in the foreground.
+    acting:
+      song_yerin: "kneeling upright behind him, both palms flat on his back and glowing mint, elbows locked to stop the shaking; jaw set, eyes wet but fixed on her hands, mouth firm on the line"
+      kang_jaeha: "in the foreground, head turned a little toward her, surprised"
+    eyeline: "Yerin → her hands; Jaeha → Yerin"
+    foreground: "Jaeha's orange shoulder and the side of his face, cropped, in the right third"
+    calm: top
+    lines:
+      - {who: song_yerin, type: speech, text: "I FROZE BEFORE. I'M NOT GOING TO FREEZE AGAIN.", side: l}
+
+  - id: P51
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Jaeha, the mint light on his cheek, a small real smile"
+    light: "mint glow from below"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha, vest): the mint light on his cheek, the nosebleed stopping (dried blood stays on his
+      lip), a small real smile.
+    acting:
+      kang_jaeha: "shoulders loosening, a small honest smile, eyes half-closed in relief"
+    eyeline: "Jaeha → Yerin (off-panel left)"
+    foreground: "Yerin's small glowing hand on his shoulder, sleeve past the wrist, cropped, in the bottom-left corner"
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: speech, text: "YOUR HANDS ARE STILL SHAKING.", side: r}
+      - {who: offpanel:song_yerin, type: speech, text: "THEY CAN SHAKE AND HEAL AT THE SAME TIME."}
+
+  - id: P52
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the pillar's base: Jaeha getting to his feet, Nib at the pillar's edge"
+    light: "green light; red spill"
+    face: private
+    art: >
+      Jaeha (kang_jaeha, vest) gets back to his feet with a hand on the pillar, the notebook open again in his left
+      hand. Nib (nib, mask; linked, thin amber outline) waits at the pillar's edge, knives ready. Yerin kneels behind
+      them.
+    acting:
+      kang_jaeha: "pushing himself upright with his right hand on the pillar, the open notebook in his left, shoulders straightening out of the public slouch"
+      nib: "at the pillar's edge in a scout's crouch, looking back at Jaeha for the next order"
+      song_yerin: "kneeling behind them, her glowing hands lowering"
+    eyeline: "Jaeha → the hall; Nib → Jaeha"
+    foreground: "the rough stone of the pillar, cropped, down the right edge"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "ONE MORE OPENING LIKE THAT, AND WE CAN END THIS.", side: l}
+
+  # ================= THE SIGIL (P53–P63) =================
+  - id: P53
+    recipe: silent
+    shape: wide
+    gap: long
+    bg: black
+    camera: "wide and still across the hall: the knight standing motionless, ash drifting"
+    light: "green shafts; the red face-hole dimming and flaring"
+    art: >
+      Wide and still: the knight (knight_commander) stands motionless in the middle of the hall, sword lowered, violet
+      ash drifting from its wound and from its face-hole. The red light in the hole dims and flares like breathing.
+      Scale: the knight (4.5 m) stands about half as tall as the pillars around him. The top quarter is dark roof
+      shadow, left calm for a window.
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.05], text: "[FIELD FORM 00:40]"}
+
+  - id: P54
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low angle: the knight throwing its head back and roaring, ash blasting from its face-hole"
+    light: "no scene light: red; shockwave rings"
+    art: >
+      The knight throws back its head and roars. Violet ash blasts out of its face-hole in a column; a shockwave ring
+      ripples across the floor and the green light shafts shudder. Dust falls from the broken roof.
+    calm: top
+    lines:
+      - {who: knight_commander, type: monster, text: "NA... VERETH... NOR TALAN!"}
+    sfx:
+      - {text: "GRAAAOOOHH", style: impact, at: [0.50, 0.32], size: XL, rot: -6}
+
+  - id: P55
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: black
+    camera: "medium, behind the pillar: Jaeha and Yerin hunched against the noise"
+    light: "red pulses; dust falling"
+    face: public
+    art: >
+      Behind the pillar: Jaeha (kang_jaeha, vest) and Yerin (song_yerin) hunch against the roar with their hands over
+      their ears, dust raining down on them.
+    acting:
+      kang_jaeha: "hunched with his shoulders up, both hands clamped over his ears, the notebook pinned under his left arm, one eye squeezed shut"
+      song_yerin: "curled small, hands over her ears, eyes shut tight"
+    eyeline: "both → down"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: shout, text: "WHAT IS IT SAYING? IS THAT EVEN A LANGUAGE?", side: l}
+    sfx:
+      - {text: "RRRMMBL", style: quiet, at: [0.82, 0.82], size: S, rot: 0}
+
+  - id: P56
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close, Nib at the pillar's edge, frozen, staring up"
+    light: "red light pulsing on his face"
+    art: >
+      Nib (nib, mask; linked, thin amber outline) at the pillar's edge doesn't cover his ears. He stares up at the
+      knight, frozen, his knives hanging loose in his hands.
+    acting:
+      nib: "standing upright, out of his crouch, knives hanging loose in his slack hands, head tilted back to look up; the uncovered eye wide, pupil shrunk, mouth slightly open"
+    eyeline: "Nib → the knight's chest (up)"
+    calm: right
+    silent: true
+
+  - id: P57
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "Nib's point of view up at the knight's breastplate, close on the bronze sigil, a thin amber vignette"
+    light: "green shafts across the bronze; red glow from above"
+    art: >
+      Through Nib's eyes (a thin amber vignette): close on the knight's dented breastplate and the bronze sigil
+      embossed on it: a wall with nine round towers, the towers countable, scratched and dirty but clear.
+    calm: top
+    silent: true
+
+  - id: P58
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from behind Jaeha's shoulder: Nib in profile at the pillar's edge, the knight huge beyond"
+    light: "red face-light; Nib's amber outline"
+    art: >
+      Over Jaeha's shoulder: Nib (nib, mask; linked, thin amber outline) in profile at the pillar's edge, looking up
+      at the giant knight beyond. His voice is quiet.
+    acting:
+      nib: "standing very still in profile, knives loose at his sides, head tilted up; mouth barely moving"
+      kang_jaeha: "seen from behind, lowering his hands from his ears, turning toward Nib"
+    eyeline: "Nib → the knight; Jaeha → Nib"
+    foreground: "Jaeha's shoulder and the back of his head, cropped, in the bottom-left corner"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "THAT'S THE SIGIL OF THE NINTH WALL.", side: r}
+
+  - id: P59
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close, Jaeha turning to Nib, puzzled"
+    light: "red light"
+    face: private
+    art: >
+      Jaeha (kang_jaeha, vest) turns to Nib, brows knitted, blood dried on his lip.
+    acting:
+      kang_jaeha: "head turned sharply toward Nib, brows knitted, mouth open on the question; the notebook in his left hand"
+    eyeline: "Jaeha → Nib"
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: speech, text: "THE NINTH WALL? NIB, DO YOU KNOW THAT KNIGHT?", side: r}
+
+  - id: P60
+    recipe: monster-reveal
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from behind Nib: the small goblin facing the giant knight, who has lowered its head to look at him"
+    light: "back light: green shafts behind the knight; the red face-hole; Nib's amber outline"
+    art: >
+      From low behind Nib (nib, mask; linked, thin amber outline): the small goblin stands alone at the pillar's edge,
+      facing the giant knight (knight_commander) across the hall. The knight has lowered its head to look down at him,
+      the red light in its face-hole steady, the nine-tower sigil on its chest catching the light. Scale: Nib (105 cm)
+      reaches the knight's knee; the knight is 4.5 m tall. Nib is close to the camera and the knight far, so the
+      perspective tapers him up and away.
+    acting:
+      nib: "seen from behind, standing straight like a soldier at attention, knives hanging at his sides, scarf ends stirring"
+    eyeline: "Nib ↔ the knight"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "THAT KNIGHT WAS MY COMMANDER.", side: l}
+
+  - id: END
+    kind: end
+    chibi_gag: "Chibi Yerin plugs chibi Jaeha's bleeding nose with two big rolled tissues while he sits with sparkly tears; chibi Nib stands beside them holding the tissue box out at arm's length, deadpan."

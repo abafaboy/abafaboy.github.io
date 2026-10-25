@@ -1,6 +1,6 @@
 # PANEL BRIEF v2: drawing the rebuilt chapters (one Codex chat per part)
 
-**Status.** The owner approved the story, every character design and the acting tests (25 October) and said "continue": chapter production starts with chapter 1. This brief replaces `PANEL_BRIEF.md`. Each chat draws one part of a chapter (the table at the end) and writes only its own files.
+**Status.** The owner approved the story, every character design and the acting tests (25 October) and said "continue". Chapter 1 is finished and the owner loved it ("holy this is great. i approve"); chapters 2 onward are drawn the same way. This brief replaces `PANEL_BRIEF.md`. Each chat draws one part of one chapter (the tables in section 9) and writes only its own files.
 
 ## 1. Read first
 1. `README_START_HERE.md`.
@@ -25,6 +25,7 @@ Pass, in this priority order:
 3. **If there is room, one acting sheet for the character whose acting carries the panel:** `acting.png` for body language, `talking.png` for a talking or listening face, or `expressions.png`. Acting and talking sheets exist for Jaeha, Nib, Yerin, Mok, Lyra and Bomi.
 
 Special looks:
+- **Continuity across chapters:** for the first part of a chapter, you may pass ONE finished panel from the end of the previous chapter (`chapters_v2/ch<previous>/art/`) so the light, the place and the looks carry over. Never pass a panel from the old `chapters/` folder.
 - **Jaeha in the black field coat** (flash-forward P01–P07): `kang_jaeha/turnaround_coat.png`.
 - **Nib with the husk mask** (from P60): `nib/turnaround_mask.png`.
 - **Black Hound hunters:** `black_hound/lineup.png`.
@@ -40,7 +41,7 @@ Add the reference sentence from 10.5 to every prompt. Never pass anything from t
 1. The STYLE BLOCK.
 2. The CLEAN-UP LINE.
 3. The recipe line for the panel's `recipe` (10.2).
-4. The panel's `camera`, `light` and `art`.
+4. The panel's `camera`, `light` and `art`, then a **scale and camera line**: the camera height and angle, where the horizon sits, the real sizes of the people and objects in the shot (section 4b), and "full model-sheet proportions, no compressed bodies; crop at the frame edge instead".
 5. Its `acting`, `eyeline` and `foreground`, word for word, then the reference sentence.
 6. The snippet of every character in the panel.
 7. The NEGATIVE BLOCK.
@@ -66,8 +67,41 @@ Add the reference sentence from 10.5 to every prompt. Never pass anything from t
 - **Chibi panels** (`style: chibi`) use the chibi sheets: 2.5 heads tall, gag faces, a simple flat background.
 - **Breaking and bursting effects** ("shards", "debris") are hand-inked jagged pieces with ink outlines and flat colour, never bevelled 3D facets (11b.6).
 
+## 4b. Proportions, scale and perspective (the owner's direction, 25 October)
+
+After chapter 1 went out, the owner and a reader both pointed at the same faults: "the body poses are weird", "the proportions", and in P09 the people were far too big for the scaffolding, the tent and the van ("they look way too small", said of the scaffolding). The owner's words: "be more strict about the proportions. the bodies sometimes look small and compressed when they shouldn't. also judge harshly on how things should look from a certain camera angle." Claude now rejects any panel that breaks these rules, so check them before you keep an image.
+
+1. **Bodies are never compressed.** Every figure keeps its model-sheet proportions in every shot, measured from the `front.png` sheets:
+   - Jaeha, Mok, Choi, Lyra and Moon Ahin: 7.5–8 heads tall;
+   - Yerin, Seoa and Bomi: about 7–7.5 heads;
+   - Nib: about 6 heads (a small head on a lanky body; his arms reach his knees; his head reaches Jaeha's belt);
+   - adults' legs are about half their height (the crotch at mid-height).
+
+   If a body doesn't fit the frame, **crop it at the frame edge** (at the knees, the waist or the chest). Never shorten legs or a torso, never enlarge a head, and never shrink a whole body to squeeze it in.
+2. **Poses carry real weight.** Every pose must be one a real body can hold: weight on a clear leg or spread between both, joints bending the way joints bend, shoulders and hips tilting against each other. No mannequin stances (the husk is the only exception), no floating feet, and no limbs at impossible angles.
+3. **One camera, one horizon.** Write the camera height into every prompt and keep every figure on it:
+   - **Eye level** (about 1.6 m): the horizon runs through the heads of all standing adults, near or far. Far figures are smaller, but their heads stay on the horizon.
+   - **High camera** (looking down): we see the tops of heads and shoulders, bodies taper toward the feet, and verticals converge downward. Figures far below are small.
+   - **Low camera** (looking up): we see chins and the undersides of arms, verticals converge upward, and figures tower.
+   - **One floor, one ground plane:** the farther away a figure stands, the higher its feet sit in the frame (still below the horizon) and the smaller it is, at the same rate for everyone.
+4. **Real-world scale.** Write the anchors your panel contains into the prompt:
+   - people: a standing adult is 1.6–1.9 m (the scale chart in `CHARACTER_DESIGNS_v2.md` section 1);
+   - fixtures: a door 2.1 m, a stair step 18 cm, a guard rail 1.1 m, a storey 3 m;
+   - sites: a scaffold level 2 m, a pop-up tent 3 m, a street-light pole 8–10 m, a cut-and-cover subway pit 15–20 m deep;
+   - vehicles: a car 1.5 m tall, a van 2 m.
+
+   Giants and monsters keep their own sizes: the knight is 4.5 m standing, and Jaeha reaches his mid-thigh.
+5. **Small people in wide shots stay correctly built.** A 15 m pit wall is about eight people tall; a 10 m pillar is five or six. Figures that small still have their full head count.
+6. **Before you keep an image, check:**
+   - Does each full figure have its head count and long enough legs?
+   - Does each figure match the others and the props and architecture around it?
+   - Does each figure sit in the room's perspective: the right horizon, the right foreshortening for the camera height, feet on the floor?
+   - Would a real camera at that height and angle see the scene this way (tops of heads from above, chins from below, converging verticals)?
+
+   If any answer is no, redraw it.
+
 ## 5. Checks (every panel)
-- Run sections 11, 11b (1–11) and 11c (1–11). Look at the full size, then at 200 px wide.
+- Run sections 11, 11b (1–11) and 11c (1–11), and the section 4b checks above. Look at the full size, then at 200 px wide.
 - Take up to 3 tries per panel. A targeted edit of your own kept image is allowed: crop, edit, then composite back at the original pixel size.
 - Rejects go to `chapters_v2/chNNN/art/_rejects/<id>_<try>_<reason>.png`.
 
@@ -101,7 +135,37 @@ After every kept panel, record the head box of every visible character in your `
 
 Never edit the script, the briefs, the sheets or another part's files.
 
-## 9. Chapter 1 parts
+## 9. Chapter parts
+
+Each chapter's table lists the panels for each part. A chat draws only its own part, of only the chapter its prompt names, into `chapters_v2/chNNN/art/`.
+
+### Chapter 2: Who's in Charge (`scripts_v2/ch002.yaml`)
+
+The whole chapter happens in the boss room (`locations_v2/boss_room/`), seconds after chapter 1 ends: green-dusk shafts from the broken roof, the knight's red face-hole, and cyan only from system windows and the husk's broken shards.
+
+**Chapter 2 rules (read them before your first panel):**
+- **Nib wears the cracked husk mask in every panel,** over the upper LEFT of his face, with the hood down. References: `nib/turnaround_mask.png` and `nib/front.png`; `nib/acting.png` or `nib/talking.png` if there is room. His eyes glow faintly amber the whole chapter (field form).
+- **From P27 on, Nib is LINKED:** a thin amber outline flickers along his body in every panel where he appears. Keep it subtle: no aura, no beams.
+- **Jaeha** is in his vest. A thin nosebleed from P02; after the CARRY hit (P42) it bleeds again; Yerin's healing stops it (P51), but dried blood stays on his lip and chin to the end. Pencil behind the RIGHT ear, fringe over the LEFT eye. The notebook is in his LEFT chest pocket until P25, then in his hands or under his left arm (and the pocket is empty).
+- **The knight's tell:** his cracked, loose LEFT pauldron, on the picture-right side when he faces us, dips before every sweep. Reference: `knight_commander/front.png`.
+- **The pillar** Jaeha and Yerin hide behind stays the same pillar from P05 to the end.
+- **Effects:** LINK and CARRY are amber (Nib's colour): a thin amber thread of light (P26), the split-frame `link-view` (P27), the amber impact ring of CARRY (P41–P42). Yerin's healing is soft mint-white, never cyan. The `plan` panel (P32) has clean cyan tactical lines with no text.
+- **Window space:** P06, P18, P22, P26, P36, P39, P42, P49 and P53 carry system windows near the top. That area is the dark hall (or plain background) fading naturally: never a flat rectangle, never across a head.
+- **Strips** (P29, P33, P40, P47) are drawn edge to edge at 1536×1024; the letterer shows the middle half.
+
+| Part | Panels to draw | Notes |
+|---|---|---|
+| `A` | P01–P07 | P01 continues chapter 1's last panels: you may pass `chapters_v2/ch001/art/P62.png` as the one continuity reference. P07 is Nib's name card. |
+| `B` | P08–P14 | No art for P15 (`title`). |
+| `C` | P16–P22 | P16 is the establishing shot of the hall from high above. |
+| `D` | P23–P29 | P26 is the LINK window panel; P27 is the split-frame `link-view`; P29 is Nib's point of view (thin amber vignette). |
+| `E` | P30–P36 | P32 is the `plan` panel. |
+| `F` | P37–P43 | P42 is the `carry` recipe. |
+| `G` | P44–P50 | P47 is an extreme close-up strip of Nib's uncovered eye. |
+| `H` | P51–P56 | P54: the knight's roar. |
+| `I` | P57–P60 and `END.png` | P57 is the sigil close-up through Nib's eyes. END: chibi gag on plain white. |
+
+### Chapter 1 parts (done)
 
 | Part | Panels to draw | Notes |
 |---|---|---|

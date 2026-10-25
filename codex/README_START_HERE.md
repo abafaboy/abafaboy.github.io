@@ -47,7 +47,7 @@ Claude opens the Codex chats on the owner's computer and checks every result. Ea
 3. **Acting test (A1):** three chapter 1 talk panels (`ACTING_TEST_BRIEF.md`), in `style_test_v2/acting/`, once Jaeha's round 1 fixes are done. Round 2 adds a five-panel dialogue run, P27–P32.
 4. **Round 2 fixes** (`REVIEW_FIXES.md`, "Round 2") and **S15, Moon Ahin** (`MODEL_SHEETS_BRIEF.md`), drawn early for the owner's sheets.
 5. **Acting sheets P1–P6** (`ACTING_SHEETS_BRIEF.md`): body-language poses and dialogue faces for Jaeha, Nib, Yerin, Mok, Lyra and Bomi.
-6. **Chapter panels (now):** the owner approved the story, the designs and the acting tests and said "continue". Chapter 1 is drawn in nine parallel parts (`PANEL_BRIEF_v2.md`), into `chapters_v2/ch001/art/`.
+6. **Chapter panels (now):** chapter 1 is finished and the owner approved it. Chapter 2 is drawn in nine parallel parts (`PANEL_BRIEF_v2.md` section 9), into `chapters_v2/ch002/art/`, and every later chapter the same way. Read `PANEL_BRIEF_v2.md` section 4b first: the owner asked for much stricter proportions, scale and perspective.
 
 ## Hard rules for every job
 - **No text in the art,** except the single block letter T on Jaeha's vest patch. Emblems without letters are fine; brand logos and wordmarks are not. The letterer adds every word, sound effect and window. Screens that need content are flat #00FF00.

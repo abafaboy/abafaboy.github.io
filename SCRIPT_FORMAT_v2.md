@@ -46,6 +46,12 @@ These come from `research/MANHWA_CRAFT_BIBLE.md` section L.
 17. In a run of talk panels, no two in a row share both the camera side and the shot size. The run moves through wide, two-shot, close-ups, an insert, a reaction and an extreme close-up.
 18. Reactions and small movements carry a small `quiet` SFX near the movement: GLANCE, FLINCH, TWITCH, GULP, GRIN, SIGH, STEP STEP, SHAKE SHAKE, TAP TAP, PLOP. Aim for at least six in a chapter.
 
+**Windows and dialogue,** learned on chapter 2:
+
+20. A system window near the top of a `wide`, `tall` or `full` panel collides with that panel's dialogue, because the letterer straddles its bubbles across the panel's top edge and the tails cross the window. Give windows panels without dialogue (an insert, a reaction, a silent beat), or put the window low in the frame (`at` y of 0.3 or more). Inset and narrow panels are fine: their bubbles sit beside them.
+
+**Proportions and camera,** the owner's direction of 25 October: every `camera` field names the camera height and angle, and wide shots name the scale of the place (how many people tall a wall or pit is), so the art can be checked against `codex/PANEL_BRIEF_v2.md` section 4b.
+
 **Glamour beats,** the owner's direction of 25 October ("adding overall slightly more fan service is good for retention and hype"):
 
 19. When an adult woman of the main cast first appears (Bomi in ch 5, Moon Ahin in ch 12, Lyra in ch 18), her intro gets a tall full-figure glamour panel that shows off her design in a confident pose. A comedic reaction follows: Jaeha flustered (blush hatching, a sweat drop, eyes sliding away); Nib unimpressed (flat stare, "......").
