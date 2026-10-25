@@ -7,13 +7,16 @@ slowly down through it when panel and lettering are taller than the view; betwee
 announcements and no title or end cards, so chapters join into one continuous video.
 
 Image quality (owner, 25 October: "make sure no images look compressed ever in the manhwa"):
-- 2560x1440 at 30 fps by default. YouTube's recommended SDR upload settings (support.google.com/youtube/answer/1722171):
-  H.264 High profile, 2 consecutive B-frames, closed GOP of half the frame rate, 4:2:0, AAC-LC at 48 kHz.
+- 2560x1440 at 30 fps by default, H.264 High profile, 2 consecutive B-frames, closed GOP, 4:2:0, AAC-LC at 48 kHz
+  (YouTube's recommended SDR upload settings, support.google.com/youtube/answer/1722171), except the keyframe interval.
 - The strip comes from autostrip2 at 2x (layout.json "scale"), so the frame is always a DOWNSCALE of the strip
   (area filter); an upscale, if ever needed, uses Lanczos. Lossless inputs only: strip.png or the lossless
   NNN.webp segments; a JPEG strip is refused.
-- x264 CRF 12 with -tune animation (visually lossless for flat cel art), BT.709 matrix and tags, and a fixed
-  +-1 level dither on the blurred side panels so their smooth dark gradients do not band after YouTube's re-encode.
+- x264 CRF 16 with -tune animation and a keyframe every 10 s (season settings, 25 October 2026). Measured on chapter 1
+  against its CRF 12 master: 5.0 Mbps at 51.4 dB PSNR, where CRF 16 with YouTube's half-second GOP needs about 11 Mbps
+  (the art holds still most of the time, so keyframes were most of the bits). That keeps a 33-chapter season near 6 GB,
+  small enough to upload through the browser. BT.709 matrix and tags, and a fixed +-1 level dither on the blurred side
+  panels so their smooth dark gradients do not band after YouTube's re-encode.
 
 Inputs: OUT_DIR from autostrip2 (strip.png or segments + layout.json), recap/chNNN.json ([{"panel", "text"}]), Kokoro.
 Output: OUT_DIR/recap.mp4
@@ -63,7 +66,8 @@ def main():
     ap.add_argument("--h", type=int, default=1440)
     ap.add_argument("--view", type=float, default=880, help="layout px of strip shown top to bottom")
     ap.add_argument("--fps", type=int, default=30)
-    ap.add_argument("--crf", type=float, default=12)
+    ap.add_argument("--crf", type=float, default=16)
+    ap.add_argument("--gop", type=int, default=300, help="keyframe interval in frames (0 = half the frame rate)")
     ap.add_argument("--preset", default="medium")
     ap.add_argument("--max-seconds", type=float, default=0, help="render only the first N seconds (tests)")
     A = ap.parse_args()
@@ -91,7 +95,10 @@ def main():
     cache.mkdir(parents=True, exist_ok=True)
     lang = "en-gb" if A.voice.startswith("b") else "en-us"
 
+    from pron import respell  # names spelled for the narrator's ear (pron.py); the recap text itself is unchanged
+
     def say(text):
+        text = respell(text)
         h = cache / (hashlib.sha1(f"{A.voice}|{A.speed}|{text}".encode()).hexdigest() + ".npy")
         if h.exists():
             return np.load(h)
@@ -164,12 +171,12 @@ def main():
         u = u * u * (3 - 2 * u)
         return ky[i] + (ky[i + 1] - ky[i]) * u
 
-    gop = max(1, A.fps // 2)
+    gop = A.gop if A.gop > 0 else max(1, A.fps // 2)
     cmd = ["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "bgr24", "-s", f"{A.w}x{A.h}", "-r", str(A.fps), "-i", "-",
            "-i", str(OUT / "recap.wav"),
            "-vf", "scale=out_color_matrix=bt709:out_range=tv:flags=lanczos+accurate_rnd+full_chroma_int,format=yuv420p",
            "-c:v", "libx264", "-preset", A.preset, "-tune", "animation", "-crf", str(A.crf), "-profile:v", "high",
-           "-g", str(gop), "-bf", "2", "-colorspace", "bt709", "-color_primaries", "bt709", "-color_trc", "bt709",
+           "-g", str(gop), "-keyint_min", str(min(gop, max(1, A.fps // 2))), "-bf", "2", "-colorspace", "bt709", "-color_primaries", "bt709", "-color_trc", "bt709",
            "-c:a", "aac", "-ar", "48000", "-b:a", "128k", "-shortest", "-movflags", "+faststart", str(OUT / "recap.mp4")]
     ff = subprocess.Popen(cmd, stdin=subprocess.PIPE)
     pad = np.full((vh, W0, 3), 255, np.uint8)

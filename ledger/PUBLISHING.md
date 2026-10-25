@@ -13,6 +13,48 @@
 - **Per-chapter previews:** each finished chapter also goes up as an **Unlisted** video so he can read along (chapter 1: https://youtu.be/HLKuVxv0gIA, uploaded 25 October 2026).
 - **Upload route** (learned on chapter 1): Studio's file picker is a native dialog the browser tools can't drive, so the file goes in through the page itself in 10 MB pieces from the container (`file_upload` into a hidden input, reassembled in the page). For a multi-hour compilation, encode at a size that keeps this practical (visually lossless for YouTube's re-encode, checked by PSNR against the master), and never hash the whole file inside the page (that froze the renderer at 588 MB).
 
+## Season one: how it ships (written 25 October 2026, while the laptop is off)
+
+**Font licence (checked 25 Oct 2026, blambot.com/pages/licenses).** Blambot's free "Non-profit/Indie Comics Use" fonts, Anime Ace among them, may be used by independent comic creators "in print, flattened into web graphics, on merchandise directly supporting your indie comic" and in videos "directly promoting your indie comic", "even if you are making money with your project". Our lettering is flattened into the comic's own pages and the video presents that comic, so it is covered. To keep the question off the thumbnail, its words use Anton (SIL Open Font License, free for any use). If the channel ever becomes a business, Blambot's paid Basic Desktop licence settles it for good.
+
+**AI disclosure.** YouTube asks for the "altered or synthetic content" label only for realistic content (a real person saying something they didn't, a real place or event changed, a realistic scene that never happened). It says creators "don't need to disclose non-realistic content that's made with AI", such as a fully animated video (support.google.com/youtube/answer/14328491, checked 25 Oct 2026). An illustrated manhwa with a narrator is non-realistic, so the answer is No.
+
+**Encode settings (measured 25 Oct 2026).** `tools/recap_video.py` renders 2560x1440 at 30 fps, x264 CRF 16, tune animation, a keyframe every 10 s (`--gop 300`), BT.709. On a 30-second stretch of chapter 1 (holds and pans) against its CRF 12 master:
+
+| Keyframes | CRF 14 | CRF 16 | CRF 18 |
+|---|---|---|---|
+| every 10 s | 6.8 Mbps, 52.9 dB | **5.0 Mbps, 51.4 dB** | 3.7 Mbps, 49.6 dB |
+| every 2 s | 8.5 Mbps, 53.4 dB | 6.4 Mbps, 51.8 dB | |
+| every 0.5 s (YouTube's suggestion) | | about 11 Mbps (60 s test: 11.2 Mbps, 50.6 dB) | |
+
+Above 50 dB the difference from the master can't be seen, and YouTube re-encodes everything anyway. Ten-second keyframes cost nothing visible because the art holds still most of the time. A season of about 165 minutes comes to about 6 GB, which the page-upload route can carry. The container's disk is tight: before the season join, free about 13 GB by deleting the old story's renders (`/home/claude/flight`, `/home/claude/flightrepo`, the scratchpad's `ep1`, `flight*` and test folders).
+
+**Steps, per chapter (as each chapter's art is reviewed and approved):**
+1. Letter: `tools/autostrip2.py scripts_v2/chNNN.yaml ART OUT --dpr 2`.
+2. Render: `tools/recap_video.py OUT recaps_v2/chNNN.json --chapter N` (the settings above are its defaults).
+3. Upload `recap.mp4` to YouTube as **Unlisted**, titled `My Summons Go First · Chapter N: <title>`, and add the link to the table at the end of this file.
+
+**Steps, at chapter 33:**
+1. Chapter 1 redrawn (P09, P21, P22), re-lettered and re-rendered with the season settings.
+2. `tools/longform_build.py --chapters 1-33 --name MSGF_S1` joins the chapters without re-encoding (they share settings), rebuilds the narration track in sync, adds MP4 chapter markers and writes the YouTube timestamps.
+3. Thumbnail: Codex draws the key art (`codex/THUMBNAIL_BRIEF.md`, chat T1); `tools/thumbnail_text.py` crops it to 16:9 and adds the words (for example OPERATOR, with an arrow to Jaeha, and a "1-33" tag). Lyra's face, smile and bow are the focal point, never her body (YouTube's thumbnail rule above).
+4. Upload as **Public** through YouTube Studio in Abafa's Chrome. Settings: not made for kids; altered content No; category Film & Animation; language English; the timestamps in the description (they become YouTube chapters); the thumbnail. Send Abafa the link the moment it is live.
+
+**Title** (recap style, with the manhwa's name; under 100 characters). First choice:
+> [1-33] The F-Rank BAIT Every Guild Sent In First Became an OPERATOR | My Summons Go First
+
+Alternatives: "[1-33] Hunters Used Him as Bait... Now His Summons Walk In First | My Summons Go First"; "[1-33] Guilds Sent the F-Rank BAIT In First... Until His Summons Did | My Summons Go First".
+
+**Description** (the timestamps come from `MSGF_S1_description.txt`):
+> Kang Jaeha is an F-rank trap-tester: the man hunter guilds send into a gate first, so the traps hit him instead of them. Then a raid leader locks him in with a boss to die, and he wakes up as something the system calls an Operator. His summons go first now. A goblin scout who never got to come home, a mossy giant who holds doors, a river archer who loves applause. And his one rule: everyone comes back.
+>
+> My Summons Go First, season one: chapters 1-33, narrated. An original manhwa by Abafaboy.
+>
+> 0:00 Chapter 1: Bait
+> ...
+>
+> #manhwa #manhwarecap #webtoon #summoner #system
+
 ## Earlier plan (21 October 2026, kept for reference)
 
 When all 100 chapters are done, upload them to YouTube through YouTube Studio in Abafa's own browser (Claude in Chrome). Use the channel **abafaboy games**, and put the manhwa's name in the title.

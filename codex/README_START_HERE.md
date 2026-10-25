@@ -15,7 +15,7 @@
 | 3 | `MANHWA_STYLE_GUIDE.md` | **The look:** line, light, colour, effects, the V2 style block, the image check |
 | 4 | `MANHWA_ART_DIRECTION.md` | **Staging:** panel recipes, action grammar, colour flips, summon colours |
 | 5 | `CHARACTER_DESIGNS_v2.md` | **Who looks like what:** cast, monsters, locations, props, all approved by the owner. |
-| 6 | The brief your prompt names: `MODEL_SHEETS_BRIEF.md`, `LOCATION_KEYS_BRIEF.md`, `ASSETS_ARC2_BRIEF.md`, `ASSETS_ARC3_BRIEF.md` or `PANEL_BRIEF_v2.md` | **Your job:** the entry or chapter part your chat was given |
+| 6 | The brief your prompt names: `MODEL_SHEETS_BRIEF.md`, `LOCATION_KEYS_BRIEF.md`, `ASSETS_ARC2_BRIEF.md`, `ASSETS_ARC3_BRIEF.md`, `THUMBNAIL_BRIEF.md` or `PANEL_BRIEF_v2.md` | **Your job:** the entry or chapter part your chat was given |
 
 **Reference, when you need it:**
 - `research/RENDERING_STUDY.md`: what real webtoons do, panel by panel.

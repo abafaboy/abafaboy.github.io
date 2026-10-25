@@ -8,6 +8,12 @@ Claude opens these on the owner's computer, one NEW chat per entry, in the proje
 
 Check each chat's first image before opening more of the same kind. Review every finished sheet strictly (proportions and scale per `PANEL_BRIEF_v2.md` 4b) before any chapter uses it.
 
+## Thumbnail (any time: the sheets it needs exist)
+
+### T1 · key art for the season-one video
+
+You are chat T1 for My Summons Go First. Read README_START_HERE.md in this folder and the files in its reading order, then do entry T1 of THUMBNAIL_BRIEF.md exactly, writing only in thumbnails_v2/; rejects go in thumbnails_v2/_rejects/. Other Codex chats are drawing other entries and chapter panels at the same time; never touch their folders. When the entry is done, write its DONE.md and stop. Do not stop to ask anything; finish the job.
+
 ## Wave A · Arc 2 (`ASSETS_ARC2_BRIEF.md`)
 
 ### S2b · Nib's seal 2/5 look
