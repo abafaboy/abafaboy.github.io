@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
-"""Add lettered chapters to the flight bundle branch and push: chNNN/strip.jpg, layout.json, recap.json."""
+"""Add lettered chapters to the flight bundle branch and push: chNNN/NNN.webp (lossless segments), layout.json, recap.json.
+
+No lossy copies (owner, 25 October: no image may ever look compressed): the strip travels as autostrip2's
+lossless WebP segments, which recap_video stacks back into the strip. Never strip.jpg."""
 import shutil
 import subprocess
 import sys
 from pathlib import Path
 
-import cv2
 
 R = Path("/home/claude/flightrepo")
 F = Path("/home/claude/flight")
@@ -18,8 +20,15 @@ for c in map(int, sys.argv[1:]):
         continue
     d = R / C
     d.mkdir(exist_ok=True)
-    img = cv2.imread(str(out / "strip.png"), cv2.IMREAD_COLOR)
-    cv2.imwrite(str(d / "strip.jpg"), img, [cv2.IMWRITE_JPEG_QUALITY, 90])
+    import json
+    lay = json.load(open(out / "layout.json", encoding="utf-8"))
+    for old in list(d.glob("strip.*")) + list(d.glob("[0-9][0-9][0-9].webp")):
+        old.unlink()
+    for name, _h in lay["segments"]:
+        with open(out / name, "rb") as fh:
+            if b"VP8L" not in fh.read(4096):
+                raise SystemExit(f"{C}/{name} is lossy WebP: re-letter with the current autostrip2")
+        shutil.copy(out / name, d / name)
     shutil.copy(out / "layout.json", d / "layout.json")
     shutil.copy(F / "recap" / f"{C}.json", d / "recap.json")
     added.append(C)
