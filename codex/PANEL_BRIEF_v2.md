@@ -215,7 +215,7 @@ The whole chapter happens in the boss room (`locations_v2/boss_room/`), seconds 
 | `H` | P54–P59 and `END.png` | Kanghan: Baek from behind only. |
 
 ### Arc 2 sheets come first
-Chapters 6–12 need the Arc 2 sheets and keys in `ASSETS_ARC2_BRIEF.md` (Borro S16, Baek S17, the neighbours S18, Moon Ahin's husks S19, the monsters M1–M4 with the swarm mother and the alpha, the places L6–L12). A part may start only when every sheet it names exists and has a `DONE.md`. Every Arc 2 sheet carries a faint 178 cm silhouette: use it to check the scale of every monster and giant in your panels (section 4b).
+Chapters 6–12 need the Arc 2 sheets and keys in `ASSETS_ARC2_BRIEF.md` (Borro S16, Baek S17, the neighbours S18, Moon Ahin's husks S19, the monsters M1–M4 with the swarm mother and the alpha, the places L6–L12). A part may start only when every sheet it names exists and has a `DONE.md`. Every Arc 2 sheet carries a faint 178 cm silhouette: use it to check the scale of every monster and giant in your panels (section 4b). Nib's seal 2/5 sheets carry none, like his base sheets: his height comes from `scale_chart_v2.png` (his head reaches a 178 cm man's belt).
 
 ### Chapter 6: Trap Rats (`scripts_v2/ch006.yaml`)
 
