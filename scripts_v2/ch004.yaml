@@ -1,0 +1,1107 @@
+chapter: 4
+title: Harvest or Release
+format: SCRIPT_FORMAT_v2.md
+when: "The same Thursday night: the end of the fight in the boss room of Gate 0912, then the gate exit on the street in Mapo at about 11:30 PM."
+story_beats: STORY_BIBLE_v4.md#chapter-4-harvest-or-release-about-70-panels
+cast:
+  kang_jaeha: vest
+  song_yerin: default
+  nib: mask                 # seal 2/5 look the whole chapter (characters_v2/nib/turnaround_seal2.png); rest form from P52
+  knight_commander: default
+  choi_dongmin: default
+  mok_hangyu: default       # on the billboard only
+locations: [boss_room, gate_exit]
+continuity:
+  - "Nib has his seal 2/5 look throughout (wall-blue cloak lining, bronze trim, the nine-tower sigil on the clasp; reference characters_v2/nib/turnaround_seal2.png) and keeps the cracked husk mask over the upper LEFT of his face. Field form and LINKED (thin amber outline, amber eyes) until P51; rest form (dull eyes, no outline) from P52."
+  - "Jaeha: dried blood on lip and chin; fresh nosebleed from the CARRY at P05, stopped by Yerin at P07; dried blood again after. Notebook in his LEFT chest pocket."
+  - "The knight's helm keeps its black-violet face-hole until the release (P31), where for ONE panel it holds a real face: an old soldier's, scarred and grey-bearded. Then ash."
+  - "The Ninth Wall blade: 2.2 m, dark iron, bronze crossguard like a wall with nine towers, wall-blue grip cloth, bronze disc pommel with the sigil. Next to Jaeha it is longer than he is tall."
+  - "At the gate exit Jaeha, Yerin and Nib wear gold foil rescue blankets. Choi Dongmin: navy rescue jacket with hi-vis yellow-green panels and silver reflective stripes, a paper coffee cup."
+plants:
+  - "PLANT P33: the stamped chain link; Jaeha pockets it (Arc 4: the same mark at the Kanghan farm, ch 26)."
+  - "PLANT P44: OPERATOR AUTHORITY CANNOT BE TRANSFERRED (why Kanghan must recruit, test or trick him)."
+  - "PLANT P38: NINTH WALL BLADE, STRENGTH 90 vs 7 (ch 97: he lifts it with stored force)."
+hook_type: threat
+
+panels:
+
+  # ================= THE LAST EXCHANGE (P01–P14) =================
+  - id: P01
+    recipe: talk
+    shape: wide
+    gap: none
+    bg: black
+    camera: "low, side-on at the locked blades: Nib under the knight's sword, the helm close above him"
+    light: "pale white flickering in the face-hole, turning back to red; Nib's amber outline"
+    art: >
+      Where chapter 3 ended: Nib (nib, mask; seal 2/5 look; linked, thin amber outline) holds the knight's huge sword
+      above him on his crossed knives. The knight's (knight_commander) helm hangs an arm's length above his face; the
+      pale light in its face-hole is flooding back to danger red, like a fever returning. Scale: the knight is 4.5 m;
+      Nib (105 cm) holds the blade at the height of the knight's knee.
+    acting:
+      nib: "braced under the blade, knees bent, both knives crossed overhead; head tilted up to the helm, the uncovered eye wet and hard; mouth moving on the line"
+    eyeline: "Nib ↔ the knight"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "I HEARD YOU, COMMANDER. I'LL END IT.", side: l}
+    sfx:
+      - {text: "GRRRIIND", style: impact, at: [0.72, 0.30], size: L, rot: -6}
+
+  - id: P02
+    recipe: tone-flip
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of the face-hole flaring red again"
+    light: "red only; violet ash"
+    art: >
+      Extreme close-up: the black-violet hole in the knight's helm floods with danger red again, violet ash boiling out
+      of its cracked rim. The voice is gone. Fill the canvas edge to edge.
+    calm: none
+    sfx:
+      - {text: "VMMMM", style: alert, at: [0.80, 0.50], size: L, rot: 0}
+
+  - id: P03
+    recipe: anticipation
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from behind Jaeha on the floor: the knight bearing down on Nib with all its weight"
+    light: "red face-light; Nib's amber outline; green shafts behind"
+    art: >
+      From low behind Jaeha (his shoulder and head in the bottom-left foreground, cropped): the knight leans its whole
+      weight onto the sword, driving Nib (nib, mask; seal 2/5; linked) down onto one knee; cracks spread through the floor
+      round Nib's bare feet.
+    acting:
+      nib: "driven down onto one knee under the blade, arms shaking, teeth bared"
+      kang_jaeha: "seen from behind, pushing himself up from the floor, one hand reaching toward Nib"
+    eyeline: "Jaeha → Nib"
+    foreground: "Jaeha's shoulder and the back of his head, cropped, bottom left"
+    calm: top
+    sfx:
+      - {text: "KRRRK", style: impact, at: [0.70, 0.80], size: M, rot: 0}
+
+  - id: P04
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of Jaeha's eyes, amber in them"
+    light: "amber and red across the eyes"
+    face: private
+    art: >
+      Extreme close-up: Jaeha's eyes (kang_jaeha), the fringe over his LEFT eye, an amber glint from the link. Fill the
+      canvas edge to edge.
+    acting:
+      kang_jaeha: "eyes level and hard, brows low"
+    eyeline: "Jaeha → Nib"
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: intense, text: "CARRY. GIVE ME HALF OF IT.", side: r}
+
+  - id: P05
+    recipe: carry
+    shape: wide
+    gap: short
+    bg: black
+    camera: "three-quarter: Jaeha buckling on one knee as an amber impact ring presses down on his shoulders"
+    light: "flat dark with amber focus lines"
+    face: private
+    art: >
+      Jaeha (kang_jaeha, vest) buckles on one knee as a translucent amber ring presses down on his shoulders: half of the
+      knight's weight. Blood runs fresh from his nose. Flat dark background with amber focus lines. The top quarter stays
+      dark for a window.
+    acting:
+      kang_jaeha: "on one knee with both palms braced on his thigh, back bowed under an invisible weight, teeth clenched, one eye squeezed shut, fresh blood running from his nose"
+    eyeline: "Jaeha → the floor"
+    calm: top
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[CARRY · 50% OF THE LOAD MOVED TO THE OPERATOR]"}
+    sfx:
+      - {text: "THOOM", style: impact, at: [0.78, 0.58], size: L, rot: 6}
+
+  - id: P06
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Nib, the weight easing, glancing back"
+    light: "amber outline; red above"
+    art: >
+      Close on Nib (nib, mask; seal 2/5; linked) as the weight on him eases: he straightens a little under the blade and
+      glances back, startled, at Jaeha.
+    acting:
+      nib: "rising off his knee under the blade, arms steadier, head snapping round toward Jaeha, the uncovered eye wide"
+    eyeline: "Nib → Jaeha"
+    calm: right
+    silent: true
+
+  - id: P07
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close two-shot: Yerin kneeling behind Jaeha, both hands glowing mint on his back"
+    light: "mint glow from her hands; red from above"
+    art: >
+      Yerin (song_yerin) slides in on her knees behind Jaeha (kang_jaeha, vest) and presses both glowing mint hands to his
+      back. Her hands still shake. His nosebleed slows.
+    acting:
+      song_yerin: "on her knees behind him, both palms flat on his back and glowing mint, jaw set, eyes wet"
+      kang_jaeha: "still on one knee, breathing out, head turning a little toward her"
+    eyeline: "Yerin → her hands; Jaeha → Nib"
+    foreground: "the edge of Jaeha's orange shoulder, cropped, in the bottom-right corner"
+    calm: top
+    lines:
+      - {who: song_yerin, type: speech, text: "KEEP GOING. I'LL KEEP YOU ON YOUR FEET.", side: l}
+    sfx:
+      - {text: "SHIIING", style: quiet, at: [0.30, 0.72], size: S, rot: 0}
+
+  - id: P08
+    recipe: link-view
+    shape: wide
+    gap: short
+    bg: black
+    camera: "split frame: left, Jaeha's face lit amber; right, Nib's point of view up into the knight's face-hole"
+    light: "amber on Jaeha; red in Nib's view"
+    face: private
+    art: >
+      Split frame with a thin vertical amber seam. LEFT: Jaeha's face (kang_jaeha) lit amber, eyes narrowing. RIGHT: Nib's
+      point of view straight up into the knight's face-hole through a thin amber vignette: the cracked rim of the hole,
+      and on its lower edge one thin crack glowing brighter red than the rest.
+    acting:
+      kang_jaeha: "eyes narrowing, lips parted"
+    eyeline: "Jaeha → (through Nib) the hole's rim"
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: inner, text: "THERE. A CRACK IN THE RIM OF THE HOLE."}
+
+  - id: P09
+    recipe: insert
+    shape: strip
+    gap: short
+    bg: black
+    camera: "Nib's point of view, extreme close-up of the red crack in the hole's rim, thin amber vignette"
+    light: "red; violet ash"
+    art: >
+      Through Nib's eyes (thin amber vignette): extreme close-up of the cracked lower rim of the knight's face-hole, one
+      thin crack glowing brighter red than the rest, pulsing. Fill the canvas edge to edge.
+    calm: none
+    silent: true
+    sfx:
+      - {text: "TH-THUM", style: quiet, at: [0.78, 0.40], size: S, rot: 0}
+
+  - id: P10
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, over Jaeha's shoulder: Nib under the blade, looking back"
+    light: "red; amber outline"
+    art: >
+      Over Jaeha's shoulder (cropped, bottom-right foreground): Nib (nib, mask; seal 2/5; linked) under the blade looks
+      back at him. Steady now.
+    acting:
+      nib: "holding the blade steadily on his crossed knives, head turned back over his shoulder, the uncovered eye level and calm; mouth moving on the line"
+    eyeline: "Nib → Jaeha"
+    foreground: "Jaeha's shoulder and the side of his head, cropped, bottom right"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "I SEE IT TOO. DO IT. HE ASKED US TO.", side: l}
+
+  - id: P11
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha, the private face, resolve"
+    light: "amber glint; red rim"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha, vest): blood on his lip, eyes level. Not polite at all.
+    acting:
+      kang_jaeha: "head up, jaw set, a small nod"
+    eyeline: "Jaeha → Nib (off-panel left)"
+    foreground: "Yerin's glowing hand on his shoulder, cropped, in the bottom-left corner"
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: speech, text: "THEN WE DO IT TOGETHER. ON MY CALL.", side: r}
+
+  - id: P12
+    recipe: anticipation
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, behind Nib: the knight tearing its sword free and rearing back for a final sweep"
+    light: "red face-light; green shafts"
+    art: >
+      The knight tears its sword free of Nib's knives and rears back for one last sweep, its cracked LEFT pauldron (on the
+      picture-right as it faces us) dipping. Nib (linked) crouches, ready. Scale: the knight 4.5 m, Nib at its knee.
+    acting:
+      nib: "crouched low, coiled to spring, knives back along his forearms"
+    eyeline: "Nib → the knight's face-hole"
+    calm: top-left
+    lines:
+      - {who: kang_jaeha, type: inner, text: "THE SHOULDER DROPS... WAIT FOR IT..."}
+    sfx:
+      - {text: "CLNK", style: quiet, at: [0.76, 0.30], size: M, rot: 0}
+
+  - id: P13
+    recipe: splash
+    shape: bleed
+    gap: short
+    bg: black
+    camera: "low, dramatic, tilted 12 degrees: Nib springing up over the sweep and driving both knives into the crack in the rim"
+    light: "key: a white-red burst from the crack; Nib's amber outline; the sweep's speed lines below him"
+    art: >
+      The sweep passes under him: Nib (nib, mask; seal 2/5 look, wall-blue lining flaring; linked) springs up off the
+      knight's own forearm and drives both knives into the glowing crack in the rim of the face-hole. White-red light
+      bursts out of the crack around the blades. His cloak and red scarf whip back. Below, the giant sword is still
+      completing its sweep. Nib keeps his full lanky proportions (about 6 heads, arms to his knees).
+    acting:
+      nib: "in mid-air at the top of his leap, both arms driving the knives down into the crack, knees tucked, the uncovered eye blazing amber"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: intense, text: "NOW!"}
+    sfx:
+      - {text: "SHRAKKK", style: impact, at: [0.28, 0.14], size: XL, rot: -12}
+
+  - id: P14
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "wide, still: the knight frozen on its knees, light leaking from cracks all over its armour; Nib standing before it"
+    light: "white light leaking from the cracks; cyan from the window"
+    art: >
+      The knight has sunk to its knees, frozen, its sword point resting on the floor. White light leaks from cracks all
+      over its armour. Nib (nib, mask; seal 2/5; linked) stands before it, knives lowered. Jaeha and Yerin small behind
+      him. The top half is the dark hall, left empty for the window.
+    acting:
+      nib: "standing very still before the kneeling knight, knives hanging, head bowed"
+    eyeline: "Nib → the knight"
+    calm: top
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.05], headline: "[BOSS DEFEATED]", body: "HUSHED KNIGHT-COMMANDER · GRADE B+ (REGISTERED AS C)", button: "OK"}
+    sfx:
+      - {text: "D-DING", style: summon, at: [0.87, 0.20], size: M, rot: 0}
+
+  - id: P15
+    kind: title
+    shape: full
+    gap: long
+    bg: black
+    title_card: "MY SUMMONS GO FIRST · CHAPTER 4 · HARVEST OR RELEASE"
+    notes: "Title card at panel 15 of 66 (23%), after the kill."
+
+  # ================= THE CHOICE (P16–P27) =================
+  - id: P16
+    recipe: system
+    shape: tall
+    gap: long
+    bg: navy
+    camera: "Jaeha facing the reader, lit cyan, two windows in the air before him"
+    light: "cyan from the windows"
+    face: private
+    art: >
+      Jaeha (kang_jaeha, vest) stands facing the reader, lit cyan, blood dried on his lip, staring at two windows in the air.
+      The upper two-thirds are the dark hall fading naturally, left empty for two windows.
+    acting:
+      kang_jaeha: "standing with his arms hanging, shoulders slumped with exhaustion, eyes lifted to the windows"
+    eyeline: "Jaeha → the windows"
+    calm: top
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.04], headline: "[HARVEST CORE]", body: "BOSS CORE · EST. ₩400,000,000", button: "HARVEST"}
+      - {kind: system.button, "on": float, at: [0.5, 0.40], text: "RELEASE"}
+    sfx:
+      - {text: "DING", style: summon, at: [0.86, 0.14], size: M, rot: 0}
+
+  - id: P17
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Yerin staring at the number"
+    light: "cyan reflected in her eyes"
+    art: >
+      Yerin (song_yerin) stares at the window's glow, mouth open.
+    acting:
+      song_yerin: "sitting back on her heels, both hands over her mouth, eyes huge"
+    eyeline: "Yerin → the window"
+    calm: right
+    lines:
+      - {who: song_yerin, type: whisper, text: "FOUR HUNDRED MILLION WON...", side: l}
+
+  - id: P18
+    recipe: silent
+    shape: wide
+    gap: short
+    bg: paper
+    camera: "memory inset: a close-up of a rooftop door with a paper notice taped to it and a school form on a table"
+    light: "desaturated warm daylight, a memory"
+    art: >
+      A desaturated memory: the green-painted rooftop door of a small rooftop room with a paper rent notice taped to it
+      (blank paper, no readable text, a red stamp shape), and on a fold-out table inside, a school trip form under a
+      calculator keychain. Soft vignette edges.
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: inner, text: "THE RENT IS DUE FRIDAY. SEOA'S SCHOOL TRIP ISN'T PAID."}
+
+  - id: P19
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of Jaeha's eyes, the window's number reflected in them"
+    light: "cyan across the eyes"
+    face: private
+    art: >
+      Extreme close-up: Jaeha's tired eyes with the window's cyan glow reflected in them. Fill the canvas edge to edge.
+    acting:
+      kang_jaeha: "eyes half-lidded, tired, the brows tilting up"
+    eyeline: "Jaeha → the window"
+    calm: none
+    silent: true
+
+  - id: P20
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "over Jaeha's shoulder at the windows, his finger hovering"
+    light: "cyan from the windows on his glove"
+    face: private
+    art: >
+      Over Jaeha's shoulder (cropped, left foreground): his gloved finger hovers between the two windows. The kneeling
+      knight is a dark shape beyond them. The upper part is dark, left for the window text.
+    foreground: "Jaeha's shoulder and the side of his head, cropped, left third"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "WAIT. WHAT DOES RELEASE ACTUALLY DO?", side: l}
+
+  - id: P21
+    recipe: system
+    shape: strip
+    gap: short
+    bg: navy
+    camera: "a dark band of the hall, empty for one line of window text"
+    light: "cyan glow"
+    art: >
+      A dark band of the hall with the kneeling knight's silhouette far off, faint light leaking from its armour. Mostly
+      empty and calm for a window. Fill the canvas edge to edge with the dark hall.
+    calm: center
+    silent: true
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.36], text: "[RELEASE: THE REMAINS RETURN TO THEIR OWN.]"}
+
+  - id: P22
+    recipe: silent
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level from beside the kneeling knight: Nib standing before his commander, his back to us"
+    light: "white light leaking from the knight's armour onto Nib"
+    art: >
+      From beside the kneeling knight: Nib (nib, mask; seal 2/5; linked) stands before his old commander with his back to
+      us, small, knives sheathed now, head bowed. White light from the knight's cracks falls on him.
+    acting:
+      nib: "standing at attention before the knight, knives sheathed, head bowed, fists clenched at his sides"
+    eyeline: "Nib → the knight"
+    calm: top
+    silent: true
+
+  - id: P23
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha looking from the window to Nib"
+    light: "cyan on one side of his face; white light from the knight on the other"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha, vest) looking past the windows at Nib's small back.
+    acting:
+      kang_jaeha: "head turned from the window toward Nib, eyes softening, mouth closed"
+    eyeline: "Jaeha → Nib"
+    calm: left
+    silent: true
+
+  - id: P24
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "close on Jaeha's gloved finger pressing the glowing RELEASE button in the air"
+    light: "cyan from the button on his glove"
+    art: >
+      Close on Jaeha's black fingerless-gloved hand: his index finger presses a glowing cyan button shape floating in the
+      air (no text on it; the letterer adds the word). Ripples of light spread from his fingertip.
+    calm: top
+    ui:
+      - {kind: system.button, "on": float, at: [0.5, 0.10], text: "RELEASE"}
+    sfx:
+      - {text: "TIK", style: quiet, at: [0.66, 0.70], size: S, rot: 0}
+
+  - id: P25
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Nib turning round, startled"
+    light: "white light from the knight; amber outline"
+    art: >
+      Close on Nib (nib, mask; seal 2/5) turning round to stare at Jaeha, the uncovered eye wide.
+    acting:
+      nib: "head turned back sharply over his shoulder, the uncovered eye wide, mouth slightly open"
+    eyeline: "Nib → Jaeha"
+    calm: right
+    lines:
+      - {who: nib, type: speech, text: "FOUR HUNDRED MILLION. YOU GAVE IT UP?", side: l}
+
+  - id: P26
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "two-shot across the floor: Jaeha with his hands in his vest pockets, Nib looking back at him"
+    light: "white light rising from the knight between them"
+    face: public
+    art: >
+      Jaeha (kang_jaeha, vest) shrugs with his hands in his vest pockets, a tired, embarrassed smile, while Nib (nib, mask;
+      seal 2/5) looks back at him from beside the kneeling knight. Light rising between them.
+    acting:
+      kang_jaeha: "shrugging with both hands in his vest pockets, head tilted, a tired embarrassed smile"
+      nib: "half-turned toward Jaeha, very still"
+    eyeline: "Jaeha ↔ Nib"
+    foreground: "the edge of the kneeling knight's gauntlet, cropped, at the left edge"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "HE WAS YOUR COMMANDER. HE SHOULD GO HOME.", side: r}
+      - {who: kang_jaeha, type: inner, text: "SEOA IS GOING TO KILL ME."}
+
+  # ================= THE RELEASE (P27–P34) =================
+  - id: P27
+    recipe: splash
+    shape: tall
+    gap: long
+    bg: black
+    camera: "low, symmetric: the kneeling knight dissolving into rising light, Nib small before it"
+    light: "key: pure white light rising from the knight; the hall dark around"
+    art: >
+      The kneeling knight (knight_commander) dissolves into rising light: cracks of white spread over the dark armour and
+      flakes of ash lift upward like embers. The face-hole fills with white. Nib (nib, mask; seal 2/5) stands small before
+      it. Scale: kneeling, the knight is 3 m; Nib reaches its knee.
+    acting:
+      nib: "standing small and straight before the dissolving knight, arms at his sides, head tilted up into the light"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "SHIIIIN", style: summon, at: [0.50, 0.12], size: L, rot: 0}
+
+  - id: P28
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close on the knight's helm: in the hole, for one panel, a real face"
+    light: "soft white from within the helm; warm for the first time"
+    art: >
+      Close on the knight's helm. Inside the hole, for this one panel, there is a real face: an old soldier's, scarred and
+      grey-bearded, with tired, kind eyes looking down at Nib. The edges of the helm are already turning to ash.
+    calm: top
+    lines:
+      - {who: knight_commander, type: speech, text: "NIB. YOU FOUND AN OPERATOR.", side: r}
+
+  - id: P29
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low two-shot in profile: the old soldier's face in the helm above, Nib looking up"
+    light: "soft white"
+    art: >
+      In profile: the old soldier's face in the dissolving helm looks down at Nib (nib, mask; seal 2/5), who looks up at
+      him with tears on his face below the mask.
+    acting:
+      nib: "standing at attention, chin up, tears running down his cheek below the mask, mouth trembling"
+    eyeline: "the knight ↔ Nib"
+    foreground: "a few large flakes of white ash drifting across the bottom edge"
+    calm: top
+    lines:
+      - {who: knight_commander, type: speech, text: "GO FIRST FOR HIM. AND MAKE SURE HE COMES BACK.", side: l}
+
+  - id: P30
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Nib saluting, fist over his heart"
+    light: "soft white light on his face"
+    art: >
+      Close on Nib (nib, mask; seal 2/5) giving the old salute, fist over his heart, as at the Ninth Wall. Tears below the
+      mask; his mouth steady.
+    acting:
+      nib: "fist pressed over his heart, chin up, tears on his cheek, mouth set"
+    eyeline: "Nib → the knight (up)"
+    calm: left
+    lines:
+      - {who: nib, type: speech, text: "YES, COMMANDER.", side: r}
+
+  - id: P31
+    recipe: silent
+    shape: tall
+    gap: short
+    bg: black
+    camera: "high, looking down: a column of ash drifting up through the green light shafts, Nib saluting below"
+    light: "green-dusk shafts; drifting ash catching the light"
+    art: >
+      High, looking down through the broken roof's shafts of green light: the knight is gone, and a column of ash drifts
+      upward through the light. Below, small, Nib (nib, mask; seal 2/5) still holds his salute; Jaeha and Yerin stand a
+      little behind him, heads bowed.
+    acting:
+      nib: "small at the bottom, still saluting"
+      kang_jaeha: "standing behind Nib with his head bowed"
+      song_yerin: "beside Jaeha, hands clasped at her chest"
+    calm: top
+    silent: true
+
+  - id: P32
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close on the floor: the snapped factory chains crumbling, one link left whole"
+    light: "green light; dust"
+    art: >
+      Close on the floor where the knight knelt: the modern matte-black chains crumble into rust-black dust, all except one
+      link, which lies whole. A small stamped mark on it: a shape, never letters.
+    calm: top
+    sfx:
+      - {text: "CRMBL", style: quiet, at: [0.76, 0.66], size: S, rot: 0}
+
+  - id: P33
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Jaeha's gloved fingers picking up the link and turning it to the light"
+    light: "green light; a glint on the steel"
+    face: private
+    art: >
+      Jaeha's fingerless-gloved fingers pick up the one surviving link and turn it to the light: matte black factory steel,
+      machined, with the small stamped mark (a shape, no letters).
+    calm: right
+    lines:
+      - {who: kang_jaeha, type: inner, text: "FACTORY STEEL. SOMEONE ON OUR SIDE CHAINED HIM HERE."}
+    notes: "PLANT P33: he pockets the link (ch 26)."
+
+  # ================= THE BLADE (P34–P39) =================
+  - id: P34
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, along the floor: the Ninth Wall blade lying where the knight fell, a thin cyan slit opening in the air above it"
+    light: "green light on the blade; cyan from the slit"
+    art: >
+      The Ninth Wall blade lies on the floor where the knight fell: 2.2 m of dark iron with a bright worn edge, a bronze
+      crossguard shaped like a wall with nine small towers, a faded wall-blue grip, a bronze disc pommel with the sigil.
+      Above it, a thin horizontal cyan slit opens in the air.
+    calm: top
+    sfx:
+      - {text: "VMMM", style: summon, at: [0.70, 0.22], size: M, rot: 0}
+
+  - id: P35
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "medium: the blade sliding up into the cyan slit, Jaeha watching, lit cyan"
+    light: "cyan"
+    face: public
+    art: >
+      The blade slides up into the thin cyan slit in the air and vanishes into it. Jaeha (kang_jaeha, vest) watches, lit
+      cyan. The upper part is dark, left for the window.
+    acting:
+      kang_jaeha: "leaning back a little in surprise, both hands raised at his sides"
+    eyeline: "Jaeha → the slit"
+    calm: top
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.05], headline: "[ITEM: NINTH WALL BLADE]", body: "STRENGTH REQUIRED 90 · YOUR STRENGTH 7", button: "DRAW"}
+
+  - id: P36
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, tilted: the blade dropping out of the slit into Jaeha's hands and smashing into the floor"
+    light: "no scene light: a white flash"
+    face: public
+    art: >
+      Jaeha (kang_jaeha, vest) draws the blade: it drops out of the cyan slit into his hands and its weight slams its point
+      straight into the floor, cracking the stone, dragging him down with it. The blade is longer than he is tall.
+    acting:
+      kang_jaeha: "both hands clamped on the grip, yanked forward and down by the weight, knees buckling, eyes popping"
+    calm: top
+    sfx:
+      - {text: "KRAKK", style: impact, at: [0.30, 0.70], size: XL, rot: 8}
+
+  - id: P37
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: black
+    camera: "comedy two-shot: Jaeha straining at the planted sword, Nib watching deadpan"
+    light: "green light"
+    face: public
+    art: >
+      Jaeha (kang_jaeha, vest) strains with both hands and one boot against the crossguard to lift the planted sword, face
+      red, veins at his temple; it doesn't move. Nib (nib, mask; seal 2/5) watches with his arms folded. Yerin covers a
+      laugh.
+    acting:
+      kang_jaeha: "heaving back with both hands on the grip and one boot braced on the crossguard, face red, teeth gritted, a vein mark at his temple"
+      nib: "standing with his arms folded, deadpan, eyelids half-lowered"
+      song_yerin: "behind them, one hand over her mouth, shoulders shaking"
+    eyeline: "Jaeha → the sword; Nib → Jaeha; Yerin → Jaeha"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "THAT WAS HIS SWORD. TRY NOT TO DROP IT AGAIN.", side: r}
+      - {who: kang_jaeha, type: nervous, text: "I'M... TRYING... VERY HARD.", side: l}
+    sfx:
+      - {text: "NNNGH", style: comic, at: [0.36, 0.30], size: M, rot: -6}
+
+  - id: P38
+    recipe: chibi
+    style: chibi
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "flat"
+    light: "flat"
+    art: >
+      Chibi gag: chibi Jaeha, flat on his back with sparkly tears, the giant sword lying across his chest pinning him down;
+      chibi Nib pokes him with one finger, deadpan. Pale gag background.
+    acting:
+      kang_jaeha: "chibi: pinned flat under the sword, arms and legs waving, sparkly tears"
+      nib: "chibi: squatting beside him, poking his cheek with one finger, deadpan"
+    eyeline: "Nib → Jaeha"
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: nervous, text: "PUT IT BACK. PLEASE PUT IT BACK.", side: l}
+    notes: "PLANT P35–P38: strength 90 vs 7 (ch 97)."
+
+  # ================= THE REWARDS (P39–P45) =================
+  - id: P39
+    recipe: system
+    shape: tall
+    gap: long
+    bg: navy
+    camera: "Jaeha facing the reader, windows cascading down the scroll"
+    light: "cyan, brighter than before"
+    face: private
+    art: >
+      Jaeha (kang_jaeha, vest) faces the reader, the blade gone back into the slit, cyan light flooding his face from a
+      cascade of windows. The upper two-thirds are empty and dark for the windows.
+    acting:
+      kang_jaeha: "standing with his mouth open, eyes moving down the windows"
+    eyeline: "Jaeha → the windows"
+    calm: top
+    ui:
+      - {kind: system.log, "on": float, at: [0.5, 0.04], headline: "[REWARDS]", lines: ["OPERATOR LV. 1 → 3", "LINK LV. 1 → 2", "CARRY LV. 1 → 2", "ROUTE ALIGNMENT 0% → 30%"]}
+    sfx:
+      - {text: "DING DING DING", style: summon, at: [0.82, 0.62], size: M, rot: 0}
+
+  - id: P40
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "a tight band: Jaeha's face lit by a title window"
+    light: "gold-white light from the title window"
+    face: private
+    art: >
+      Jaeha's face (kang_jaeha) in the lower third, lit gold-white from a title window above. The rest dark and empty.
+    acting:
+      kang_jaeha: "brows lifting, a puzzled half-smile"
+    eyeline: "Jaeha → the window"
+    calm: top
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.05], headline: "[TITLE EARNED]", body: "THE ONE WHO WENT BACK", button: "EQUIP"}
+
+  - id: P41
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "over Jaeha's shoulder at a status window"
+    light: "cyan"
+    face: private
+    art: >
+      Over Jaeha's shoulder (cropped, right foreground): a status window floats in the dark. Leave the window area empty.
+    foreground: "Jaeha's shoulder and the side of his head, cropped, right third"
+    calm: top
+    ui:
+      - {kind: system.window, "on": float, at: [0.42, 0.05], wf: 0.62, headline: "[STATUS] KANG JAEHA", body: "CLASS: OPERATOR · SHOWN TO OTHERS AS: SUMMONER (F) · SUMMONS 1/1"}
+    silent: true
+
+  - id: P42
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Jaeha, baffled"
+    light: "cyan"
+    face: public
+    art: >
+      Close on Jaeha (kang_jaeha, vest), baffled.
+    acting:
+      kang_jaeha: "head tilted, one eyebrow up, pointing at the window off-panel"
+    eyeline: "Jaeha → Nib (off-panel right)"
+    calm: right
+    lines:
+      - {who: kang_jaeha, type: speech, text: "OPERATOR? WHAT IS AN OPERATOR?", side: l}
+
+  - id: P43
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Nib, deadpan"
+    light: "green light"
+    art: >
+      Close on Nib (nib, mask; seal 2/5), deadpan.
+    acting:
+      nib: "arms folded, eyelids half-lowered, mouth flat"
+    eyeline: "Nib → Jaeha"
+    calm: left
+    lines:
+      - {who: nib, type: speech, text: "YOU ARE, APPARENTLY.", side: r}
+
+  - id: P44
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "a dark band with one red-edged window, Jaeha's eyes below"
+    light: "cold red-cyan light"
+    face: private
+    art: >
+      Jaeha's narrowed eyes at the bottom of the frame, lit by a cold window above. The rest dark and empty.
+    acting:
+      kang_jaeha: "eyes narrowing, reading carefully"
+    eyeline: "Jaeha → the window"
+    calm: top
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.05], text: "[OPERATOR AUTHORITY CANNOT BE TRANSFERRED. IF THE OPERATOR IS FORCED, THE PROTOCOL ENDS.]"}
+    notes: "PLANT P44: why nobody can simply seize him."
+
+  # ================= OUT (P45–P56) =================
+  - id: P45
+    recipe: system
+    shape: wide
+    gap: short
+    bg: black
+    camera: "wide: the hall starting to dissolve at the edges into white light"
+    light: "white light eating the edges of the hall"
+    art: >
+      Wide: the pillared hall begins to dissolve: its far walls and pillars break apart into flakes of white light from the
+      edges inward. Jaeha, Yerin and Nib are small figures in the middle. The top is calm for a window.
+    acting:
+      kang_jaeha: "small, spinning round to look"
+      song_yerin: "small, grabbing Jaeha's arm"
+      nib: "small, already turning toward the door"
+    calm: top
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.05], text: "[GATE CLOSING · 00:30]"}
+    sfx:
+      - {text: "VWOOOMMM", style: gate, at: [0.70, 0.60], size: L, rot: 0}
+
+  - id: P46
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from beside the iron door: Nib's bare foot kicking it open, the outer bolt snapping"
+    light: "no scene light: white flash; red lamp light spilling in"
+    art: >
+      Nib (nib, mask; seal 2/5; linked) kicks the bolted iron door: the bolt outside snaps and the door slams open, red lamp
+      light spilling in from the corridor.
+    acting:
+      nib: "a straight kick, his whole body behind it, cloak flaring"
+    calm: top
+    sfx:
+      - {text: "KRANG", style: impact, at: [0.40, 0.30], size: XL, rot: -8}
+
+  - id: P47
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level at the open door: Nib standing beside it, palm out, inviting them through first"
+    light: "red lamp light; white light dissolving the hall behind"
+    face: public
+    art: >
+      Nib (nib, mask; seal 2/5) stands beside the open door with one palm held out toward it, inviting the others through
+      first, completely deadpan, while the hall dissolves into light behind them. Jaeha and Yerin skid to a stop.
+    acting:
+      nib: "standing beside the door like a doorman, one open palm toward the doorway, deadpan"
+      kang_jaeha: "skidding to a stop, pointing at the dissolving hall behind them, eyes wide"
+      song_yerin: "skidding behind Jaeha, mouth open"
+    eyeline: "Nib → Jaeha; Jaeha → Nib"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "YOU FIRST.", side: r}
+      - {who: kang_jaeha, type: shout, text: "NOW?! THE WHOLE GATE IS COLLAPSING!", side: l}
+
+  - id: P48
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, tilted: the three of them sprinting up the dissolving corridor toward a pale tear of light"
+    light: "white light behind them; a cold white rim ahead"
+    art: >
+      The three of them sprint up the fortress corridor as it breaks into white flakes behind them, toward the gate's rim
+      ahead: a pale vertical tear of light. Nib runs last. Speed lines.
+    acting:
+      kang_jaeha: "sprinting flat out, pulling Yerin by the wrist"
+      song_yerin: "running, bag flying"
+      nib: "running last, glancing back"
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.05], text: "[00:04]"}
+    sfx:
+      - {text: "TATATATA", style: impact, at: [0.30, 0.80], size: M, rot: -8}
+
+  - id: P49
+    recipe: splash
+    shape: bleed
+    gap: none
+    bg: black
+    camera: "from outside, low: three figures diving out of the gate's slit into the night pit, the slit snapping shut behind them"
+    light: "white burst from the closing slit; cold floodlights"
+    art: >
+      From outside, at the bottom of the subway pit at night (location gate0912_site): Jaeha, Yerin and Nib dive out of the
+      door-height gate slit in the pit's far wall as it snaps shut behind them in a burst of white. They tumble across the wet
+      concrete. Floodlights above. Scale: the slit is 2 m tall; the pit wall above rises about 18 m.
+    acting:
+      kang_jaeha: "diving forward with Yerin pulled against him, about to hit the ground shoulder first"
+      song_yerin: "eyes shut, curled against him"
+      nib: "flipping out behind them, landing on all fours"
+    calm: top
+    sfx:
+      - {text: "SHNNK", style: gate, at: [0.62, 0.20], size: XL, rot: 0}
+
+  # ================= THE GATE EXIT (P50–P59) =================
+  - id: P50
+    recipe: establish
+    shape: full
+    gap: long
+    bg: black
+    camera: "high and wide over the street at the pit's edge: rescue vehicles, red and blue strobes on wet asphalt"
+    light: "red and blue strobes; cold white floodlights; a giant dark billboard across the street"
+    art: >
+      The gate exit at night (location gate_exit): the Mapo street at the edge of the subway pit, crowded with Gate Rescue
+      Corps vehicles, red and blue strobes on wet asphalt, police tape, a crane lowering a rescue basket into the pit. Across
+      the street a giant billboard screen, flat #00FF00. Tiny rescue workers for scale; a van is 2 m tall, a person 1.75 m.
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "GATE 0912. 11:31 PM."}
+    sfx:
+      - {text: "WEE-OOO", style: quiet, at: [0.82, 0.26], size: S, rot: 0}
+
+  - id: P51
+    recipe: name-card
+    shape: wide
+    gap: short
+    bg: white
+    camera: "half body, three-quarter, slight low angle: a rescue responder throwing a gold foil blanket over Jaeha's shoulders"
+    light: "key: strobes red and blue from the right; floodlight rim"
+    intro: "CHOI DONGMIN (34) · GATE RESCUE CORPS"
+    art: >
+      Choi Dongmin (choi_dongmin) throws a gold foil blanket over the shoulders of Jaeha (kang_jaeha, vest; dried blood on
+      his face), who sits on the bumper of an ambulance. Choi holds a paper coffee cup in his other hand. Name-card space on
+      the left third.
+    acting:
+      choi_dongmin: "leaning in to tuck the foil round Jaeha's shoulders with one hand, the coffee cup held away in the other, eyebrows up, a tired smirk, mouth open mid-line"
+      kang_jaeha: "sitting on the ambulance bumper, shoulders slumped, gripping the foil closed at his chest, a tired polite smile"
+    eyeline: "Choi → Jaeha; Jaeha → Choi"
+    calm: left
+    lines:
+      - {who: choi_dongmin, type: speech, text: "AN F-RANK AND A ROOKIE WALKED OUT OF A GATE THAT KILLED FOUR B-RANKS?", side: r}
+      - {who: choi_dongmin, type: speech, text: "I'M GOING TO NEED A LOT MORE COFFEE FOR THIS REPORT.", side: r}
+
+  - id: P52
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level, a three-shot at the ambulance: Choi pointing his coffee at the small masked figure in a foil blanket"
+    light: "strobes; floodlight"
+    face: public
+    art: >
+      Choi (choi_dongmin) points his coffee cup at Nib (nib, mask; seal 2/5; rest form now: dull eyes, no glow), who sits
+      on the ambulance step wrapped in a gold foil blanket like a tiny burrito, only his ears and the cracked mask showing.
+      Yerin (song_yerin), in foil too, sits beside Jaeha.
+    acting:
+      choi_dongmin: "pointing at Nib with the coffee cup, head tilted, squinting"
+      nib: "wrapped to the chin in foil, sitting perfectly upright and still, staring back at Choi"
+      kang_jaeha: "half-raising a hand, a quick polite smile with a sweat drop"
+      song_yerin: "wrapped in foil, looking from Choi to Nib"
+    eyeline: "Choi → Nib; Nib → Choi; Jaeha → Choi"
+    foreground: "the ambulance's open rear door edge, cropped, down the right side"
+    calm: top
+    lines:
+      - {who: choi_dongmin, type: speech, text: "AND WHAT'S THE LITTLE GUY?", side: l}
+      - {who: kang_jaeha, type: speech, text: "HE'S MY HUSK, SIR. A VERY UNUSUAL HUSK.", side: r}
+
+  - id: P53
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Nib staring at Choi's coffee cup"
+    light: "strobes"
+    art: >
+      Close on Nib (nib, mask; rest form) in his foil wrap, staring hard at the steaming coffee cup held near his face.
+    acting:
+      nib: "leaning slightly away from the cup, the uncovered eye narrowed at it in suspicion"
+    eyeline: "Nib → the coffee cup"
+    calm: left
+    lines:
+      - {who: nib, type: speech, text: "YOU FIRST.", side: r}
+    sfx:
+      - {text: "SNIFF", style: quiet, at: [0.30, 0.72], size: S, rot: 0}
+
+  - id: P54
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on Choi, slowly lowering the cup"
+    light: "strobes"
+    art: >
+      Close on Choi (choi_dongmin), slowly lowering his coffee, staring at the "husk" that just spoke.
+    acting:
+      choi_dongmin: "frozen with the cup halfway to his mouth, eyes narrowing, one eyebrow climbing"
+    eyeline: "Choi → Nib"
+    calm: right
+    lines:
+      - {who: choi_dongmin, type: speech, text: "...DID YOUR HUSK JUST TALK TO ME?", side: l}
+    sfx:
+      - {text: "BLINK", style: quiet, at: [0.66, 0.30], size: S, rot: 0}
+
+  - id: P55
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "over Choi's shoulder: Jaeha smiling very politely, Nib silent beside him"
+    light: "strobes"
+    face: public
+    art: >
+      Over Choi's shoulder (cropped, left foreground): Jaeha (kang_jaeha, vest) smiles very politely, a big sweat drop on his
+      temple; beside him Nib (nib, mask; rest form) stares straight ahead, perfectly still, like a doll.
+    acting:
+      kang_jaeha: "both hands up, palms out, a huge polite customer-service smile, a big sweat drop"
+      nib: "sitting rigidly upright in his foil wrap, staring straight ahead, unblinking"
+    eyeline: "Jaeha → Choi; Nib → nothing"
+    foreground: "Choi's shoulder and the back of his head, cropped, left third"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "IT MAKES SOUNDS WHEN IT'S TIRED, SIR. A VERY UNUSUAL HUSK.", side: r}
+
+  # ================= THE BILLBOARD (P56–P62) =================
+  - id: P56
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: black
+    camera: "low, from the ambulance across the street: the giant billboard lighting up"
+    light: "the billboard's light washing the wet street; strobes"
+    art: >
+      Low, from beside the ambulance: across the street the giant billboard lights up over the crowd of responders and
+      onlookers, who turn to look. Its screen is flat #00FF00. Rescue workers in silhouette in the foreground. Scale: the
+      billboard is about 8 m wide, high on a building.
+    calm: top
+    ui:
+      - {kind: tv.lowerthird, "on": screen, text: "BLACK HOUND GUILD · LIVE PRESS CONFERENCE", ticker: "GATE 0912 · FOUR HUNTERS DEAD · TRAP-TESTER MISSING"}
+    sfx:
+      - {text: "BZZT", style: quiet, at: [0.82, 0.16], size: S, rot: 0}
+
+  - id: P57
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "the billboard's broadcast filling the frame: Mok at a podium, solemn"
+    light: "TV studio light, flat and bright"
+    art: >
+      The broadcast fills the frame: Mok Hangyu (mok_hangyu) at a podium in a black suit and black tie, solemn, eyes
+      lowered, a black backdrop with the red hound's-head emblem (no text) behind him and camera flashes. Keep the bottom
+      quarter plain for the news graphic.
+    acting:
+      mok_hangyu: "standing behind the podium with both hands gripping its edges, head bowed slightly, eyes lowered, a grave camera face, mouth open mid-line"
+    eyeline: "Mok → the cameras (down)"
+    calm: bottom
+    ui:
+      - {kind: tv.lowerthird, "on": panel, text: "MOK HANGYU · BLACK HOUND RAID LEADER", ticker: "TRAP-TESTER KANG JAEHA (24) PRESUMED DEAD"}
+    lines:
+      - {who: mok_hangyu, type: phone, text: "OUR TRAP-TESTER SET OFF A HIDDEN BOSS. FOUR OF OUR HUNTERS DIED."}
+
+  - id: P58
+    recipe: insert
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of Mok's grave face on the screen"
+    light: "TV light"
+    art: >
+      Extreme close-up on the screen: Mok's grave face, eyes lowered, one corner of his mouth not quite grave. Fill the
+      canvas edge to edge.
+    acting:
+      mok_hangyu: "eyes lowered, mouth set, the faintest hint of a smirk at one corner"
+    calm: none
+    lines:
+      - {who: mok_hangyu, type: phone, text: "KANG JAEHA IS PRESUMED DEAD."}
+
+  - id: P59
+    recipe: chorus
+    shape: wide
+    gap: short
+    bg: black
+    camera: "flat, straight on: Yerin, Choi and Nib in a row at the ambulance, reacting to the screen"
+    light: "the billboard's flat light on their faces; strobes"
+    art: >
+      Straight on, in a row at the ambulance: Yerin (song_yerin) with her hands over her mouth, Choi (choi_dongmin) with his
+      coffee frozen halfway, and Nib (nib, mask; rest form) wrapped in foil, staring at the screen.
+    acting:
+      song_yerin: "both hands over her mouth, eyes wide and filling"
+      choi_dongmin: "coffee frozen halfway to his mouth, jaw dropped, slowly turning his head toward Jaeha"
+      nib: "staring at the screen, the uncovered eye narrowing"
+    eyeline: "Yerin → the screen; Choi → Jaeha; Nib → the screen"
+    calm: top
+    lines:
+      - {who: choi_dongmin, type: speech, text: "...YOU'RE PRESUMED DEAD, BY THE WAY.", side: r}
+
+  - id: P60
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of Jaeha's eyes, the billboard reflected in them"
+    light: "the billboard's light in his eyes; strobes red and blue"
+    face: private
+    art: >
+      Extreme close-up: Jaeha's eyes (kang_jaeha), the fringe over his LEFT eye, the billboard's glow reflected in them. Not
+      polite at all. Fill the canvas edge to edge.
+    acting:
+      kang_jaeha: "eyes narrowed, flat and cold, lower lids raised"
+    eyeline: "Jaeha → the billboard"
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: inner, text: "PRESUMED DEAD. THEN I'D BETTER GO TO MY OWN FUNERAL."}
+
+  - id: END
+    kind: end
+    chibi_gag: "Chibi Choi, frozen, holds his coffee out at arm's length while chibi Nib, wrapped in a foil blanket like a burrito, sniffs it with deep suspicion; chibi Jaeha, also in foil, bows apologetically behind them."
