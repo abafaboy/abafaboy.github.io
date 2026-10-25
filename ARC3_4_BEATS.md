@@ -4,6 +4,8 @@
 
 **Why chapter 33 matters.** The owner asked for the first ~30 chapters as one public long-form video. Chapter 33 is the arc ending nearest 30: Jaeha's body breaks, and Auntie Geum's line closes the season.
 
+**Meters carried over from Arc 2 (as written):** Operator Lv. 5, summon slots 3 (two used), Route Alignment 90%. Rule shown in ch 6: a new boss kind adds 10% × the Operator level. LINK Lv. 3 (range 600 m), CARRY Lv. 2 (two summons at once since ch 10).
+
 **Rules every chapter keeps** (`SCRIPT_FORMAT_v2.md`): danger, comedy or strangeness in the first five panels; the title card 15–40% of the way in; two turns; one smart move by Jaeha; one or two short laughs; a window with numbers for every rule, reward and limit; a fight that adds something new and that the enemy can really win; and a closing hook whose type differs from the previous chapter's.
 
 ## New faces (decisions)
@@ -39,16 +41,16 @@ Power milestones: PASS I (15); Lyra (18); "Borrowed Thunder" (19); Nib's seal 3/
 - **Hook (personal):** Jaeha writes on a clean page: MOK. MINSEOK. HAN RIVER. Then he closes the notebook.
 
 ### 15. Pass
-- **Cold open:** training in an E-grade gate Choi found for them: a ruined aqueduct full of ash hounds. Borro takes a hound's charge on his shield; the impact rattles uselessly into the ground.
-- **Problem:** Nib is fast but light; Borro is strong but slow. Neither can finish the pack leader, an ash hound twice the size of the rest.
+- **Cold open:** training in a D-grade gate Choi found for them: a ruined Far Side aqueduct. Its boss is a **basalt boar** (decision, new design: a hushed boar the size of a truck, plated in black basalt, that charges). Borro takes its charge on his shield; the impact rattles uselessly into the ground.
+- **Problem:** Nib is fast but light, and his knives skid off the basalt; Borro is strong but slow. Neither can finish it.
 - **Idea:** while CARRYing for both, Jaeha feels the impact land on Borro and pass through his own body. What if he could send it on, instead of keeping it?
-- **PASS I unlocks:** [NEW SKILL: PASS I · MOVE FORCE BETWEEN TWO LINKED SUMMONS · EACH HAND-OFF LOSES 30%]. Borro blocks the leader's charge, Jaeha PASSes it, and Nib's knife lands with a giant's weight behind it.
+- **PASS I unlocks:** [NEW SKILL: PASS I · MOVE FORCE BETWEEN TWO LINKED SUMMONS · EACH HAND-OFF LOSES 30%]. Borro blocks the boar's charge, Jaeha PASSes it, and Nib's knife lands with the boar's own weight behind it, splitting the basalt.
 - **Cost:** PASS runs through his body; his hands shake and his ears ring.
 - **Laugh:** Nib, after the hit: "I like this. Do it again." Borro: "Then you take the next charge."
-- **Hook (power):** [ROUTE ALIGNMENT 60%]. Jaeha does the arithmetic: one more new boss type, and he can CALL again.
+- **Hook (power):** a new boss kind at Operator Lv. 5: [ROUTE ALIGNMENT 90% → 100%] [A CALL IS AVAILABLE] (Arc 2 left it at 90%, and ch 12 opened a third summon slot). **Decision:** Jaeha does not call. He closes the window and keeps the call in reserve: "Not yet. I'll need it in there." The trap-tester walks into the hero raid with an ace nobody knows he holds.
 
 ### 16. The Hero Raid
-- **Cold open:** a press line outside a B-grade gate in an old dam spillway. Black Hound in clean jackets, Mok smiling for cameras, Bomi streaming live: 31,000 viewers.
+- **Cold open:** a press line outside a B-grade gate in an old dam spillway. Black Hound in clean jackets, Mok smiling for cameras, Bomi streaming live: 150,000 viewers (after the viral clip).
 - **Inside:** a drowned cathedral of the Far Side, half underwater, with bells hanging silent in the dark. The raid moves deep. Jaeha is "the hero trap-tester" at the front, as always.
 - **Smart move, set up quietly:** at every junction, Jaeha marks the floor with chalk the way trap-testers do. Nobody notices that some marks point the wrong way.
 - **Danger:** a trapped nave floods; Borro holds the doors while the raid gets through.
@@ -65,8 +67,8 @@ Power milestones: PASS I (15); Lyra (18); "Borrowed Thunder" (19); Nib's seal 3/
 
 ### 18. Lyra
 - **The fight turns bad:** the ringing shatters stone; Borro is buried to the waist; Nib's field form is at 00:40.
-- **[ROUTE ALIGNMENT 100%] [A CALL IS AVAILABLE].** Jaeha calls in the middle of the raid. The window opens on a river under a silver sky.
-- **The call is a negotiation:** a voice laughs at him. She wants applause, she wants money, and she wants someone to find her little brother, Ilan. Jaeha points at Bomi's drone: "Thirty-one thousand people are watching. Make it a good entrance."
+- **The call he held since ch 15:** Jaeha opens the reserved CALL in the middle of the raid. The window opens on a river under a silver sky (the rift glimpsed in ch 9).
+- **The call is a negotiation:** a voice laughs at him. She wants applause, she wants money, and she wants someone to find her little brother, Ilan. Jaeha points at Bomi's drone: "A hundred and fifty thousand people are watching. Make it a good entrance."
 - **Lyra arrives (full-height splash):** the river archer, longbow drawn, silver braid flying, landing on the bell-head's shoulder. The glamour beat: Jaeha flustered and blushing, Nib flat: "......". Bomi's chat explodes.
 - **Name card:** LYRA · RIVER ARCHER OF THE FAR SIDE · SUMMON NO. 3. [SEAL 1/5 · FIELD FORM 05:00]
 - **Hook (power):** her first arrow bounces off the bell. "Count the arrows if you want. I only need the one." She doesn't have the one. Not yet.
@@ -89,7 +91,7 @@ Power milestones: PASS I (15); Lyra (18); "Borrowed Thunder" (19); Nib's seal 3/
 - **Hook (mystery):** the phone's screen lights up: one video file, four years old.
 
 ### 21. Ask Him
-- **Cold open:** Bomi's drone has been streaming the whole time: 214,000 viewers.
+- **Cold open:** Bomi's drone has been streaming the whole time: 1.2 million viewers.
 - **Smart move:** Jaeha doesn't accuse Mok. He asks him quiet, polite questions, the way he always has, and lets Mok's pride answer them on stream: the lamp was red, Kanghan paid for the C-grade survey, and four years ago Kanghan told him to seal the Han River door.
 - **Minseok's recording plays** to the whole stream: Minseok, in the same orange vest, laughing nervously in a gate under a bridge: "If I don't come out, kid, it wasn't an accident."
 - **The chat flips:** "trap rat" becomes "TRAP-TESTER", and the clip spreads before Black Hound can stop it.
@@ -192,5 +194,5 @@ Arc beats from the bible: inside, Kanghan keeps a boss chained alive and drains 
 
 ## Designs and places Arcs 3–4 need (sheets before the chapters)
 - **Characters:** Han Sora (from the hunter 5 design; a full sheet), Inspector Ryu, Kanghan engineers, Oh Minseok (flashback), Auntie Geum Okran (2.9), Nib's scout-captain armour (seal 3/5), Lyra (exists), Moon Ahin (exists).
-- **Monsters:** the stone training construct (13), the pack-leader ash hound (15), the Drowned Bell-Ringer (17–19), canyon wyverns (24), the Hushed Tide Warden (26–28).
+- **Monsters:** the stone training construct (13), the basalt boar (15), the Drowned Bell-Ringer (17–19), canyon wyverns (24), the Hushed Tide Warden (26–28).
 - **Places:** the Association hall and test arena (13), the convenience store at night (14), the ruined aqueduct gate (15), the dam spillway and the drowned cathedral (16–20), the columbarium (22), the Kanghan farm canyon with its walkways, pipe galleries and pit (23–31), the hospital (33), Auntie Geum's tteokbokki stall (33).
