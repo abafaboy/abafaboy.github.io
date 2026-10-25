@@ -1,0 +1,1223 @@
+chapter: 21
+title: Ask Him
+format: SCRIPT_FORMAT_v2.md
+when: "Saturday, about 12:40 PM: inside the gate as it closes, then the foot of the dam spillway; the rooftop in Mangwon and Kanghan Tower at the same moment."
+story_beats: ARC3_4_BEATS.md#21-ask-him
+cast:
+  kang_jaeha: vest
+  nib: mask                 # seal 3/5 scout-captain armour; rest form
+  borro: default            # husk face; rest form; the drone in his moss until P17
+  lyra: default             # rest form; no mask (see continuity)
+  song_yerin: default
+  yoo_bomi: default
+  choi_dongmin: default
+  mok_hangyu: default
+  han_sora: default
+  bh_second: default
+  kang_seoa: default
+  landlady: default
+  gomi: default
+  oh_minseok: default       # on the phone's video only (P46–P52)
+  baek_taegun: default
+  police: default           # generic: Korean police officers, see continuity
+  bh_lawyer: default        # generic: Black Hound's lawyer (ch 13)
+locations: [boss_chamber_bells, drowned_cathedral, dam_gate, rooftop_room, kanghan_office]
+continuity:
+  - "Jaeha: the torn orange vest, the grey hoodie; bandaged by Yerin in the gate: his LEFT upper arm, RIGHT thigh, RIGHT forearm and a plaster on his cheek; he limps on Yerin's shoulder; the head-sized violet core in a cloth sling across his chest; Minseok's phone in his hand."
+  - "Jaeha also has dried blood from his nose and LEFT ear (ch 20). He cannot climb: Yerin carries him on her back up the rope, through the passage and out (P03–P05)."
+  - "Nib: SEAL 3/5, the scout-captain armour (CHARACTER_DESIGNS_v2.md 2.2) over the cloak, the cracked husk mask, rest form. Borro: the husk face, rest form, three unconscious hunters on his shell, then over his shoulders. Lyra: rest form, no glow, her full design (2.10); she has never worn a husk mask. The camera is never aimed up her skirt or down her top."
+  - "The six hunters of Mok's second team all come out alive: three unconscious on Borro, one unconscious dragged by Lyra, two walking with their hands on their heads."
+  - "Mok: no shield, no sword; soaked; his gold chain; his hands bound in front of him with Nib's spare cord until the police cuff him at P60."
+  - "Oh Minseok on the video (P46–P52): close on his face lit by the phone's own light, the orange vest (older, patched), short greying hair, the scar through one eyebrow, sweat, a nervous crooked laugh; behind him only darkness. A faint cold light falls on one side of his face from the gate's rim, which stays out of frame: the rim and what lies beyond it are shown only in ch 22."
+  - "Police (generic): Korean police officers in navy uniforms with fluorescent yellow-green vests and caps; white-and-blue police cars. Black Hound's lawyer (ch 13): a sleek man in his forties, expensive grey suit, silver tie, slicked hair."
+  - "The spillway (location dam_gate): the press tents, cameras, the rope line, police cars arriving, Gate Rescue vans, the closing gate slit at the foot of the concrete chute."
+  - "The rooftop room (P64): midday; Seoa in her uniform shirt and tie with the blazer off (Saturday at home). Kanghan (P65–P67): Baek's office (location kanghan_office) at midday, the blinds half down over the city, the violet core in its case."
+plants:
+  - "PLANT P34–P39: Mok names Kanghan on stream: the paid survey and the order to seal the Han River door (Arc 4)."
+  - "PLANT P52: the phone dies right after Minseok's line; its last seconds are unseen (ch 22)."
+  - "PLANT P63: Sora walks away (Arc 4)."
+  - "PLANT P67: 'Find out what else that phone recorded.' (ch 22, Arc 4)"
+hook_type: threat
+
+panels:
+
+  # ================= OUT (P01–P13) =================
+  - id: P01
+    recipe: establish
+    shape: full
+    gap: none
+    bg: white
+    camera: "high (15 m) over the foot of the dam spillway at midday: a huge crowd behind a rope line all looking down at their phones, the gate slit shrinking at the bottom of the chute"
+    light: "key: harsh midday sun; phone screens glowing in hundreds of hands"
+    art: >
+      The foot of the dam spillway at midday (location dam_gate): a huge crowd behind the rope line, reporters, fans and Black
+      Hound's outside squad, every one of them looking down at a phone; police cars and Gate Rescue vans arriving with lights on;
+      at the bottom of the concrete chute, the gate slit has shrunk to a sliver and is closing. Scale: the crowd is hundreds of
+      people; the slit is a thread of light.
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "DAM SPILLWAY, GATE 2207. SATURDAY, 12:41 PM."}
+    ui:
+      - kind: phone.live_stream
+        "on": float
+        at: [0.74, 0.10]
+        viewers: "1,212,880 WATCHING"
+        chat:
+          - "[jjang_hunter]: MOK TRIED TO KILL HIM ON LIVE STREAM"
+          - "[seoul_otaku]: THE DRONE WAS IN THE BIG ONE'S MOSS THE WHOLE TIME"
+    sfx:
+      - {text: "MURMUR MURMUR", style: quiet, at: [0.30, 0.86], size: S, rot: 0}
+
+  - id: P02
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level in the ruined, flooded boss chamber: Lyra pointing at the six disarmed hunters sitting in the water, Jaeha on Yerin's shoulder shaking his head"
+    light: "shafts of light through the broken dome; violet from the core"
+    face: public
+    art: >
+      Inside, in the ruined boss chamber flooded knee-deep: Lyra (lyra) points her white longbow at the six disarmed Black Hound
+      hunters (bh_second) sitting in the water and at Mok, bound, under Nib's knife; Jaeha (kang_jaeha), bandaged and grey-faced,
+      hangs on Yerin's shoulder (song_yerin) and shakes his head. The two ropes hang down the back wall to the high doorway.
+    acting:
+      lyra: "pointing the longbow at the hunters, scowling, her other hand on her hip"
+      kang_jaeha: "hanging on Yerin's shoulder, shaking his head, the dead-tired smile"
+      song_yerin: "holding Jaeha up, glancing at the ropes"
+      bh_second: "six men sitting in the water, hands up, terrified"
+    eyeline: "Lyra → the hunters; Jaeha → Lyra"
+    foreground: "the ropes hanging into the water, cropped, left"
+    calm: top
+    lines:
+      - {who: lyra, type: speech, text: "LEAVE THEM. THEY CAME DOWN HERE TO KILL YOU.", side: l}
+      - {who: kang_jaeha, type: speech, text: "EVERYONE COMES BACK. THAT'S THE ONLY RULE I HAVE.", side: r}
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.90], text: "[GATE CLOSING · 02:00]"}
+
+  - id: P03
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: white
+    camera: "low, looking up the back wall: everyone climbing the two ropes at once toward the high doorway"
+    light: "torchlight from the doorway above; shafts of light"
+    art: >
+      From low, looking up the back wall: everyone climbs at once. Borro (borro) goes hand over hand up one rope with three
+      unconscious hunters lashed to his mossy shell with their own belts; Nib (nib, scout-captain armour) climbs the other, towing
+      Mok (mok_hangyu) up by the cord round his wrists; Yerin (song_yerin) climbs below him with Jaeha (kang_jaeha) on her back;
+      at the top, Lyra (lyra) kneels in the doorway hauling a fourth unconscious hunter up on a loop of rope; the last two hunters
+      (bh_second) scramble up the wall stones below. Scale: the doorway is 6 m up; the people are small against the wall.
+    acting:
+      borro: "climbing steadily hand over hand, three men on his back, calm"
+      nib: "climbing one-handed, hauling Mok up by the cord"
+      mok_hangyu: "dangling and kicking against the wall, furious"
+      song_yerin: "climbing with gritted teeth, Jaeha on her back"
+      kang_jaeha: "clinging to Yerin's shoulders, the core in its sling between them"
+      lyra: "kneeling in the doorway, hauling a rope hand over hand, complaining"
+      bh_second: "two men scrambling up the wall stones"
+    calm: top
+    sfx:
+      - {text: "HUP HUP HUP", style: comic, at: [0.30, 0.60], size: M, rot: -6}
+      - {text: "CRRRK", style: quiet, at: [0.80, 0.86], size: S, rot: 0}
+
+  - id: P04
+    recipe: anticipation
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, running: the flooded stone passage beyond the doorway collapsing around them, the white gate portal at the far end shrinking"
+    light: "the white glare of the portal ahead; dust falling"
+    art: >
+      A flooded stone passage beyond the high doorway, waist-deep black water: the team wades and runs as the walls crack and stones
+      drop all around them; at the far end, the white light of the gate's way out is shrinking. Borro with the men on his back
+      ploughs a wave ahead of the others; Yerin runs with Jaeha on her back; Nib drags Mok by his cord.
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.88], text: "[GATE CLOSING · 00:09]"}
+    sfx:
+      - {text: "RUMBLLLE", style: impact, at: [0.30, 0.20], size: L, rot: -4}
+
+  - id: P05
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: white
+    camera: "low, at the foot of the chute: the team bursting out of the closing slit into the sunlight, carrying the hunters who tried to kill them"
+    light: "the slit's last white flash; harsh sun"
+    art: >
+      From low at the foot of the chute: the team bursts out of the closing slit into the sunlight in a spray of water: Borro with
+      three unconscious Black Hound hunters over his shoulders; Lyra dragging a fourth by the collar; Nib (scout-captain armour)
+      walking Mok out in front of him with a long knife at his back, Mok's hands bound; Yerin with Jaeha on her back, the core in
+      its sling between them; the last two hunters stumbling behind with their hands on their heads.
+    acting:
+      borro: "striding out with three men over his shoulders, calm"
+      lyra: "dragging a hunter by the collar, scowling, then blinking in the sunlight"
+      nib: "walking Mok forward, a long knife at his back"
+      mok_hangyu: "stumbling, hands bound, eyes on the ground"
+      song_yerin: "splashing out with Jaeha on her back, both arms hooked under his knees"
+      kang_jaeha: "on Yerin's back, squinting at the sun, one hand on the core"
+    calm: top
+    sfx:
+      - {text: "SPLASHH", style: impact, at: [0.30, 0.80], size: L, rot: -6}
+
+  - id: P06
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level: the gate slit snapping shut behind them with a flash, the concrete chute plain and empty"
+    light: "a white flash"
+    art: >
+      The gate slit snaps shut behind them with a flash and a clap of air; the concrete chute behind is plain and empty, water
+      draining.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "VWUMP", style: impact, at: [0.50, 0.40], size: XL, rot: 0}
+
+  - id: P07
+    recipe: chorus
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level along the rope line: the crowd lowering their phones and staring, a woman's hand over her mouth, a reporter frozen"
+    light: "harsh sun"
+    art: >
+      Along the rope line: the crowd lowers their phones and stares at the team; a woman puts her hand over her mouth; a reporter
+      freezes with his microphone half raised; then someone starts to clap.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "clap... clap...", style: quiet, at: [0.70, 0.40], size: S, rot: 0}
+
+  - id: P08
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: white
+    camera: "high, over the rope line: the whole crowd breaking into applause and cheers"
+    light: "harsh sun"
+    art: >
+      High over the rope line: the whole crowd breaks into applause and cheering; phones go back up; hats fly.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "WAAAAAAAH", style: impact, at: [0.50, 0.40], size: XL, rot: -4}
+
+  - id: P09
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level, framed from the knees up: Lyra dropping her hunter and stepping forward into the applause, the longbow raised over her head"
+    light: "harsh sun; a sparkle"
+    art: >
+      At the foot of the chute: Lyra (lyra) drops the hunter she was dragging, steps forward into the applause and raises her white
+      longbow over her head in both hands, turning on her heel so her silver braid flies out, glowing with delight. A glamour
+      panel: her full design (2.10), still wet from the gate, the beads in her braid catching the sun.
+    acting:
+      lyra: "longbow raised overhead in both hands, turning on her heel, braid flying, a radiant, smug smile"
+    eyeline: "Lyra → the crowd"
+    foreground: "the unconscious hunter she dropped, cropped, bottom"
+    calm: top
+    lines:
+      - {who: lyra, type: speech, text: "THANK YOU! THANK YOU! YES, IT WAS ME! THE ARROW WAS MINE!", side: l}
+    sfx:
+      - {text: "SPARKLE", style: comic, at: [0.70, 0.30], size: M, rot: 6}
+
+  - id: P10
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Nib watching her show off, flat"
+    light: "sun on his bronze pauldron"
+    art: >
+      Close on Nib (nib, scout-captain armour) watching her show off with a flat stare, the knife still at Mok's back.
+    acting:
+      nib: "flat stare, mouth a straight line"
+    eyeline: "Nib → Lyra"
+    calm: left
+    lines:
+      - {who: nib, type: whisper, text: "......", side: r}
+
+  - id: P11
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level: Choi shouldering through the crowd with police officers behind him, his face a mix of fury and relief"
+    light: "harsh sun; police lights"
+    art: >
+      Choi (choi_dongmin) shoulders through the crowd with four police officers (police) behind him, his face a mix of fury and
+      relief; Bomi (yoo_bomi) runs at his side with her phone.
+    acting:
+      choi_dongmin: "shouldering through, pointing at Mok, eyes wet"
+      yoo_bomi: "running beside him, phone up, crying and grinning"
+      police: "four officers in navy uniforms following, hands on their belts"
+    eyeline: "Choi → Jaeha"
+    foreground: "the rope line, cropped, bottom"
+    calm: top
+    lines:
+      - {who: choi_dongmin, type: shout, text: "I CALLED THE POLICE THE SECOND THAT DOOR CLOSED. ARE YOU ALIVE?", side: l}
+
+  - id: P12
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on Jaeha sitting down hard on the wet concrete, a tired smile"
+    light: "sun"
+    face: public
+    art: >
+      Close on Jaeha (kang_jaeha) sitting down hard on the wet concrete, a tired smile.
+    acting:
+      kang_jaeha: "sitting down heavily, one hand on the core, a tired, crooked smile"
+    eyeline: "Jaeha → Choi"
+    foreground: "the violet core in its cloth sling, cropped, bottom"
+    calm: right
+    lines:
+      - {who: kang_jaeha, type: speech, text: "MOSTLY, SIR.", side: l}
+
+  - id: P13
+    kind: title
+    shape: full
+    gap: long
+    bg: black
+    title_card: "MY SUMMONS GO FIRST · CHAPTER 21 · ASK HIM"
+    notes: "Title card at panel 13 of 67 (19%)."
+
+  # ================= YOUR WORD AGAINST MINE (P14–P23) =================
+  - id: P14
+    recipe: talk
+    shape: wide
+    gap: long
+    bg: white
+    camera: "eye level: Mok standing with his bound hands, the police reaching him, the arrogance coming back into his face"
+    light: "sun"
+    art: >
+      Mok (mok_hangyu) stands with his bound hands as the police reach him; the arrogance comes back into his face and he raises his
+      voice for the cameras.
+    acting:
+      mok_hangyu: "chin lifting, a sneer, raising his bound hands toward the cameras"
+      police: "an officer reaching for his arm"
+    eyeline: "Mok → the cameras"
+    foreground: "an officer's shoulder and cap, cropped, left"
+    calm: top
+    lines:
+      - {who: mok_hangyu, type: shout, text: "THIS IS AN OUTRAGE! THAT HUSK ATTACKED MY TEAM! I HAVE LAWYERS!", side: l}
+
+  - id: P15
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, close two-shot: Mok leaning down toward Jaeha sitting on the concrete, voice low, the police holding his arms"
+    light: "sun"
+    art: >
+      Close and low: held by two officers, Mok (mok_hangyu) leans down toward Jaeha (kang_jaeha) sitting on the concrete and speaks
+      low.
+    acting:
+      mok_hangyu: "leaning down, voice low, a cold smile"
+      kang_jaeha: "looking up at him, polite"
+    eyeline: "Mok → Jaeha (down); Jaeha → Mok (up)"
+    foreground: "an officer's hand on Mok's arm, cropped, top"
+    calm: top
+    lines:
+      - {who: mok_hangyu, type: whisper, text: "IT'S YOUR WORD AGAINST MINE, TRAP RAT. AND NOBODY BELIEVES A TRAP RAT.", side: l}
+
+  - id: P16
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Jaeha, the polite smile, and his eyes sliding toward Borro's shell"
+    light: "sun"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha): the polite smile stays, and his eyes slide sideways toward Borro.
+    acting:
+      kang_jaeha: "polite smile, eyes sliding sideways"
+    eyeline: "Jaeha → Borro's shell"
+    calm: left
+    silent: true
+    sfx:
+      - {text: "GLANCE", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P17
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: white
+    camera: "close on Borro's shell as he sets the hunters down: the little white drone with the pink ribbon unfolding its rotors and lifting out of the moss"
+    light: "sun on the white plastic"
+    art: >
+      Close on Borro's shell as he sets the unconscious hunters down: the little white drone with its pink ribbon unfolds its
+      rotors and lifts out of the moss and flowers, its red light on.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "vweeeee", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P18
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level: Mok staring at the drone rising out of Borro's moss, the colour leaving his face"
+    light: "sun"
+    art: >
+      Mok (mok_hangyu) stares at the drone rising out of Borro's moss; the colour leaves his face.
+    acting:
+      mok_hangyu: "staring, mouth open, the sneer collapsing"
+    eyeline: "Mok → the drone"
+    calm: top
+    silent: true
+
+  - id: P19
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, by Borro: Bomi catching her drone out of the air and kissing it, holding up her phone to Mok"
+    light: "sun"
+    art: >
+      By Borro: Bomi (yoo_bomi) catches her drone out of the air, kisses it, and holds her phone up toward Mok so he can see the
+      screen.
+    acting:
+      yoo_bomi: "kissing the drone, then holding the phone out at arm's length toward Mok, a fierce grin"
+      mok_hangyu: "staring at the phone"
+    eyeline: "Bomi → Mok"
+    foreground: "Borro's mossy shell, cropped, left"
+    calm: top
+    lines:
+      - {who: yoo_bomi, type: speech, text: "IT WAS IN THE MOSS THE WHOLE TIME, MISTER MOK. LIVE. ONE POINT TWO MILLION.", side: l}
+
+  - id: P20
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on Bomi's phone held toward Mok: the stream showing Mok himself, from the drone's view, slashing at Nib"
+    light: "the screen's glow"
+    art: >
+      Close on Bomi's phone held toward Mok: a replay on the screen shows Mok himself from the drone's view, slashing at Nib in the
+      flooded chamber.
+    calm: right
+    silent: true
+
+  - id: P21
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level: Mok's lawyer pushing through the crowd, phone to his ear, shouting at Mok to stop talking"
+    light: "sun"
+    art: >
+      At the rope line, Black Hound's lawyer (bh_lawyer) pushes through the crowd with a phone to his ear, shouting and waving at
+      Mok to keep quiet; the police hold him back.
+    acting:
+      bh_lawyer: "pushing against an officer's arm, phone to his ear, his free hand waving frantically, slicked hair coming loose"
+      police: "an officer holding the lawyer back"
+    eyeline: "the lawyer → Mok"
+    foreground: "a reporter's camera, cropped, bottom right"
+    calm: top
+    lines:
+      - {who: bh_lawyer, type: shout, text: "MR. MOK! SAY NOTHING! NOT ONE WORD!", side: l}
+
+  - id: P22
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Mok's jaw clenching, sweat running down his temple"
+    light: "sun"
+    art: >
+      Close on Mok's jaw clenching, sweat running down his temple, his eyes darting.
+    acting:
+      mok_hangyu: "jaw clenched, sweating, eyes darting from the drone to the cameras"
+    calm: left
+    silent: true
+    sfx:
+      - {text: "GULP", style: quiet, at: [0.30, 0.30], size: S, rot: 0}
+
+  - id: P23
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level: Mok drawing himself up, forcing a laugh for the cameras"
+    light: "sun"
+    art: >
+      Mok (mok_hangyu) draws himself up and forces a laugh for the cameras.
+    acting:
+      mok_hangyu: "drawing himself up, a forced laugh, chin high"
+    eyeline: "Mok → the cameras"
+    foreground: "the drone hovering, cropped, top right"
+    calm: top
+    lines:
+      - {who: mok_hangyu, type: speech, text: "SO WHAT? A FIGHT INSIDE A GATE. PROVES NOTHING ABOUT GATE 0912.", side: l}
+
+  # ================= ASK HIM (P24–P43) =================
+  - id: P24
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, from the concrete: Jaeha getting up on Yerin's arm and facing Mok, small, polite, bandaged"
+    light: "sun"
+    face: public
+    art: >
+      From low on the concrete: Jaeha (kang_jaeha) gets up on Yerin's arm and faces Mok, small and bandaged, polite, the core on his
+      chest; the drone hovers between them.
+    acting:
+      kang_jaeha: "standing on Yerin's arm, a small polite bow, hands together"
+      song_yerin: "holding him up, glaring at Mok"
+    eyeline: "Jaeha → Mok (up)"
+    foreground: "the drone's rotor, cropped, top left"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "SIR, MAY I ASK YOU A FEW QUESTIONS? THE WAY I ALWAYS DID?", side: r}
+
+  - id: P25
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on Mok, contemptuous"
+    light: "sun"
+    art: >
+      Close on Mok (mok_hangyu), contemptuous, looking down his nose.
+    acting:
+      mok_hangyu: "looking down his nose, a contemptuous half-smile"
+    eyeline: "Mok → Jaeha"
+    foreground: "Jaeha's bandaged shoulder, cropped, right"
+    calm: right
+    lines:
+      - {who: mok_hangyu, type: speech, text: "YOU ALWAYS DID ASK STUPID QUESTIONS.", side: l}
+
+  - id: P26
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level, side-on: Jaeha and Mok face to face, the drone between them, the crowd hushed behind the rope"
+    light: "sun"
+    face: public
+    art: >
+      Side-on: Jaeha (kang_jaeha) and Mok (mok_hangyu) face to face, the drone hovering between them; behind the rope, the crowd
+      has gone quiet.
+    acting:
+      kang_jaeha: "polite, head slightly bowed, eyes on Mok"
+      mok_hangyu: "arms bound in front of him, chest out"
+    eyeline: "Jaeha ↔ Mok"
+    foreground: "the rope line's post, cropped, bottom left"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "AT GATE 0912, THE LAMP OVER THE BOSS DOOR WAS RED. DID YOU NOTICE, SIR?", side: r}
+      - {who: mok_hangyu, type: speech, text: "OF COURSE I NOTICED. I'VE LED A HUNDRED RAIDS.", side: l}
+
+  - id: P27
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Choi in the crowd, his coffee cup stopping halfway to his mouth"
+    light: "sun"
+    art: >
+      Close on Choi (choi_dongmin) in the crowd, his coffee cup stopping halfway to his mouth.
+    acting:
+      choi_dongmin: "freezing with the cup halfway up, eyes widening"
+    eyeline: "Choi → Mok"
+    calm: left
+    silent: true
+
+  - id: P28
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low two-shot: Jaeha tilting his head, polite and puzzled, Mok answering at once"
+    light: "sun"
+    face: public
+    art: >
+      Jaeha (kang_jaeha) tilts his head, polite and puzzled; Mok (mok_hangyu) answers at once, irritated.
+    acting:
+      kang_jaeha: "head tilted, a puzzled polite frown"
+      mok_hangyu: "irritated, rolling his eyes"
+    eyeline: "Jaeha ↔ Mok"
+    foreground: "Yerin's hand on Jaeha's arm, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "BUT YOUR SURVEY SAID THE GATE WAS C-GRADE. WAS THAT A MISTAKE?", side: r}
+      - {who: mok_hangyu, type: speech, text: "IT WASN'T MY SURVEY. KANGHAN PAID FOR IT. ASK THEM.", side: l}
+
+  - id: P29
+    recipe: chorus
+    shape: wide
+    gap: short
+    bg: white
+    camera: "close on Bomi's phone: the chat scrolling furiously"
+    light: "the screen glow"
+    art: >
+      Close on Bomi's phone in her hand, the screen flat green.
+    calm: top
+    ui:
+      - kind: phone.live_stream
+        "on": screen
+        viewers: "1,318,402 WATCHING"
+        chat:
+          - "[dalgona]: KANGHAN?? THE CORE COMPANY??"
+          - "[seoul_otaku]: he knew the lamp was red and sent the kid in anyway"
+          - "[minsu_0412]: KEEP ASKING HIM"
+    sfx:
+      - {text: "BLIPBLIPBLIP", style: quiet, at: [0.80, 0.80], size: S, rot: 0}
+
+  - id: P30
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level, close on Jaeha asking the next question very softly"
+    light: "sun"
+    face: public
+    art: >
+      Close on Jaeha (kang_jaeha) asking the next question very softly; beside him, Yerin (song_yerin), who was locked in with him
+      that day, grips his arm harder.
+    acting:
+      kang_jaeha: "voice soft, eyes steady on Mok, hands together"
+      song_yerin: "gripping his arm, jaw tight, eyes on Mok"
+    eyeline: "Jaeha → Mok"
+    foreground: "Mok's bound hands, cropped, left"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "THEN WHY DID YOU CLOSE THE DOOR, SIR? YOU KNEW IT WOULD KILL US.", side: r}
+
+  - id: P31
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on Mok, his pride stung, snapping"
+    light: "sun"
+    art: >
+      Close on Mok (mok_hangyu), his pride stung, snapping.
+    acting:
+      mok_hangyu: "leaning in, snapping, spit flying, eyes furious"
+    eyeline: "Mok → Jaeha"
+    foreground: "an officer's hand gripping Mok's arm, cropped, left"
+    calm: right
+    lines:
+      - {who: mok_hangyu, type: shout, text: "BECAUSE A RED BOSS NEEDS BAIT! THAT'S WHAT TRAP RATS ARE FOR!", side: l}
+
+  - id: P32
+    recipe: silent
+    shape: wide
+    gap: short
+    bg: white
+    camera: "high, over the crowd: total silence, hundreds of faces turned toward Mok"
+    light: "harsh sun"
+    art: >
+      High over the crowd: total silence; hundreds of faces turned toward Mok; a reporter's microphone shaking in his hand.
+    calm: top
+    silent: true
+
+  - id: P33
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, close two-shot: Jaeha nodding slowly as if that made sense, then asking the last question"
+    light: "sun"
+    face: private
+    art: >
+      Close and low: Jaeha (kang_jaeha) nods slowly, as if that made sense, and asks the last question; his face is the cold private
+      one now.
+    acting:
+      kang_jaeha: "nodding slowly, eyes cold, voice level"
+      mok_hangyu: "breathing hard, glaring"
+    eyeline: "Jaeha ↔ Mok"
+    foreground: "the drone, cropped, top"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "AND FOUR YEARS AGO? THE HAN RIVER DOOR? OH MINSEOK? WAS HE BAIT TOO?", side: r}
+
+  - id: P34
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level: Mok exploding, stepping forward against the officers' hands"
+    light: "sun"
+    art: >
+      Mok (mok_hangyu) explodes, lunging forward against the officers' hands.
+    acting:
+      mok_hangyu: "lunging against the officers, roaring, veins standing out"
+      police: "two officers hauling him back"
+    eyeline: "Mok → Jaeha"
+    foreground: "an officer's arm across Mok's chest, cropped, bottom"
+    calm: top
+    lines:
+      - {who: mok_hangyu, type: shout, text: "I FOLLOWED ORDERS! KANGHAN TOLD ME TO SEAL THAT DOOR!", side: l}
+
+  - id: P35
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: white
+    camera: "extreme close-up of Mok's eyes as he hears what he just said, the pupils shrinking, the drone's red light reflected in them"
+    light: "harsh sun; a red dot reflected in each eye"
+    art: >
+      Extreme close-up of Mok's eyes (mok_hangyu) as he hears what he just said: the pupils shrink to points, sweat in the brows,
+      the drone's small red light reflected in each eye. Fill the canvas edge to edge.
+    acting:
+      mok_hangyu: "eyes going wide and empty, frozen"
+    calm: none
+    silent: true
+
+  - id: P36
+    recipe: chorus
+    shape: wide
+    gap: short
+    bg: white
+    camera: "close on Bomi's phone: the viewer count jumping, the chat exploding"
+    light: "the screen glow"
+    art: >
+      Close on Bomi's phone, the screen flat green, her thumb trembling.
+    calm: top
+    ui:
+      - kind: phone.live_stream
+        "on": screen
+        viewers: "1,604,117 WATCHING"
+        chat:
+          - "[jjang_hunter]: HE SAID IT. HE SAID KANGHAN."
+          - "[seoul_otaku]: CLIP IT CLIP IT CLIP IT"
+          - "[real_or_cgi]: ...holy"
+    sfx:
+      - {text: "BLIPBLIPBLIPBLIP", style: quiet, at: [0.80, 0.80], size: S, rot: 0}
+
+  - id: P37
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level: Mok stammering, trying to take it back, the lawyer in the crowd with both hands on his head"
+    light: "sun"
+    art: >
+      Mok (mok_hangyu) stammers, trying to take it back; in the crowd behind, the lawyer (bh_lawyer) stands with both hands on his
+      head.
+    acting:
+      mok_hangyu: "stammering, shaking his head, eyes darting"
+      bh_lawyer: "both hands on his head, eyes shut"
+    eyeline: "Mok → the cameras"
+    foreground: "a TV camera's lens, cropped, right"
+    calm: top
+    lines:
+      - {who: mok_hangyu, type: speech, text: "I MEAN... THAT'S NOT... IT WAS AN ACCIDENT. IT'S IN THE REPORT.", side: l}
+
+  - id: P38
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, close on Jaeha lifting the old orange phone into the light"
+    light: "sun on the cracked orange case"
+    face: private
+    art: >
+      Close and low on Jaeha (kang_jaeha) lifting the old phone in its cracked orange case into the light; the thumbs-up sticker on
+      its back faces Mok.
+    acting:
+      kang_jaeha: "holding the phone up between them, eyes cold"
+    eyeline: "Jaeha → Mok"
+    foreground: "the orange phone, cropped, centre bottom"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "THEN WHY DID YOU KEEP HIS PHONE IN YOUR SHIELD FOR FOUR YEARS?", side: r}
+
+  - id: P39
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on Mok staring at the orange phone, his lips moving with no sound"
+    light: "sun"
+    art: >
+      Close on Mok (mok_hangyu) staring at the orange phone, his lips moving with no sound.
+    acting:
+      mok_hangyu: "staring at the phone, lips moving silently, sweat pouring"
+    eyeline: "Mok → the phone"
+    calm: right
+    silent: true
+
+  - id: P40
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level: Nib stepping up beside Jaeha, looking up at Mok, flat"
+    light: "sun on his bronze pauldron"
+    art: >
+      Nib (nib, scout-captain armour) steps up beside Jaeha and looks up at Mok, flat.
+    acting:
+      nib: "standing beside Jaeha, arms folded, looking up at Mok"
+      mok_hangyu: "looking down at Nib, shaking"
+    eyeline: "Nib → Mok"
+    foreground: "Jaeha's raised hand with the phone, cropped, right"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "INSURANCE. IN CASE HIS MASTERS EVER CLOSED A DOOR ON HIM.", side: l}
+
+  - id: P41
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low two-shot: Bomi steering her drone right up to the old phone's screen, Jaeha holding it steady"
+    light: "sun; the drone's red light"
+    art: >
+      Bomi (yoo_bomi) steers her drone right up close to the old phone's screen; Jaeha (kang_jaeha) holds the phone steady for the
+      lens.
+    acting:
+      yoo_bomi: "steering the drone with both thumbs, biting her lip"
+      kang_jaeha: "holding the phone steady, his thumb over the play button"
+    eyeline: "Bomi → the phone"
+    foreground: "the drone's lens, cropped, right edge"
+    calm: top
+    lines:
+      - {who: yoo_bomi, type: speech, text: "THE WHOLE COUNTRY IS WATCHING. PLAY IT.", side: l}
+
+  - id: P42
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on the old phone's screen: the battery icon blinking red, one percent"
+    light: "the screen's glow"
+    art: >
+      Close on the old phone's screen, flat green.
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: inner, text: "One percent. One play. So everyone watches it with me."}
+    ui:
+      - kind: phone.info_card
+        "on": screen
+        title: "HAN RIVER · 02:47"
+        text: "BATTERY 1%"
+
+  - id: P43
+    recipe: insert
+    shape: strip
+    gap: short
+    bg: white
+    camera: "a thin strip: Jaeha's thumb pressing play"
+    light: "sun"
+    art: >
+      A thin strip: Jaeha's bloody thumb pressing the play button on the cracked screen. Fill the canvas edge to edge.
+    calm: none
+    silent: true
+    sfx:
+      - {text: "TAP", style: quiet, at: [0.60, 0.40], size: S, rot: 0}
+
+  # ================= THE RECORDING (P44–P55) =================
+  - id: P44
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: black
+    camera: "the video itself, a shaky phone camera in the dark: wet stone, an orange sleeve, breathing"
+    light: "darkness; the phone's own small light; a faint cold glow"
+    art: >
+      The video itself, drawn as a shaky phone image (no interface text): darkness, a faint cold light from somewhere out of frame,
+      the phone's own small light catching wet stone and an orange sleeve.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "haa... haa...", style: quiet, at: [0.50, 0.50], size: S, rot: 0}
+
+  - id: P45
+    recipe: chorus
+    shape: wide
+    gap: short
+    bg: white
+    camera: "at the spillway: the whole crowd watching their own phones, the same dark image on hundreds of screens"
+    light: "harsh sun; hundreds of screens"
+    art: >
+      At the spillway: the whole crowd watches their own phones in silence, the same dark image on hundreds of screens; a woman
+      holds her phone up so the people behind can see.
+    calm: top
+    silent: true
+
+  - id: P46
+    recipe: talk
+    shape: tall
+    gap: short
+    bg: black
+    camera: "the video: Minseok turning the phone on himself, his face close and lit from below by the phone's light, sweating, laughing nervously"
+    light: "the phone's light from below; darkness behind"
+    art: >
+      The video: Oh Minseok (oh_minseok) turns the phone on himself; his face close, lit from below by the phone's own light,
+      sweat on his forehead, the scar through one eyebrow, the orange vest's collar, a nervous, crooked laugh.
+    acting:
+      oh_minseok: "holding the phone at arm's length, a nervous crooked laugh, eyes darting to something off camera"
+    eyeline: "Minseok → the camera"
+    calm: top
+    lines:
+      - {who: oh_minseok, type: phone, text: "HEY, KID. IT'S ME. IF YOU'RE WATCHING THIS, I GUESS I WAS RIGHT.", side: r}
+
+  - id: P47
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "the video, closer: Minseok glancing over his shoulder into the dark, lowering his voice"
+    light: "the phone's light"
+    art: >
+      The video, closer: Minseok glances over his shoulder into the dark, then back, and lowers his voice.
+    acting:
+      oh_minseok: "glancing over his shoulder, then leaning in close to the phone, whispering"
+    eyeline: "Minseok → the camera"
+    foreground: "the edge of his orange collar, cropped, bottom"
+    calm: top
+    lines:
+      - {who: oh_minseok, type: phone, text: "THE SURVEY WAS FAKE. THE LAMP IS RED. AND MOK'S MEN ARE WAITING AT THE DOOR.", side: r}
+
+  - id: P48
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "at the spillway: close on Jaeha watching the screen, tears running down his face"
+    light: "sun"
+    face: private
+    art: >
+      At the spillway: close on Jaeha (kang_jaeha) watching the little screen in his hand, tears running down through the blood on
+      his face.
+    acting:
+      kang_jaeha: "watching, tears running, lips pressed together"
+    eyeline: "Jaeha → the screen"
+    calm: left
+    silent: true
+
+  - id: P49
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "the video: Minseok smiling, the kind crooked grin, his eyes wet"
+    light: "the phone's light"
+    art: >
+      The video: Minseok (oh_minseok) smiles the kind, crooked grin, his eyes wet.
+    acting:
+      oh_minseok: "a kind crooked grin, eyes wet, a small nod"
+    eyeline: "Minseok → the camera"
+    foreground: "the phone's own light flaring at the top edge, cropped"
+    calm: top
+    lines:
+      - {who: oh_minseok, type: phone, text: "YOU'RE GOING OUT FIRST TODAY, OKAY? DON'T ARGUE WITH ME.", side: r}
+
+  - id: P50
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "the video, very close: Minseok's face filling the frame, serious now"
+    light: "the phone's light"
+    art: >
+      The video, very close: Minseok's face fills the frame, serious now.
+    acting:
+      oh_minseok: "serious, steady, looking straight into the lens"
+    eyeline: "Minseok → the camera"
+    foreground: "a crack across the old phone's glass, top-left corner, so we watch through the screen"
+    calm: top
+    lines:
+      - {who: oh_minseok, type: phone, text: "AND IF I DON'T COME OUT, KID... IT WASN'T AN ACCIDENT.", side: r}
+
+  - id: P51
+    recipe: insert
+    shape: strip
+    gap: short
+    bg: black
+    camera: "a thin strip: the video's image freezing, breaking into blocks"
+    light: "the screen glitching"
+    art: >
+      A thin strip: the video's image of Minseok's face freezes and breaks into blocks of colour. Fill the canvas edge to edge.
+    calm: none
+    silent: true
+    sfx:
+      - {text: "BZZT", style: quiet, at: [0.70, 0.40], size: S, rot: 0}
+
+  - id: P52
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on the old phone in Jaeha's hand: the screen going black"
+    light: "sun"
+    art: >
+      Close on the old phone in Jaeha's hand: the screen goes black; the battery is dead.
+    calm: right
+    silent: true
+
+  - id: P53
+    recipe: silent
+    shape: wide
+    gap: short
+    bg: white
+    camera: "high, over the spillway: nobody moving, the drone hovering, the dead phone in Jaeha's hand"
+    light: "harsh sun"
+    art: >
+      High over the spillway: nobody moves; the crowd stands silent behind the rope; the drone hovers over Jaeha, who stands with
+      the dead phone in his hand; Mok stands between the officers with his head down.
+    calm: top
+    silent: true
+
+  - id: P54
+    recipe: chorus
+    shape: wide
+    gap: short
+    bg: white
+    camera: "close on Bomi's phone: the chat changing, one word over and over"
+    light: "the screen's glow"
+    art: >
+      Close on Bomi's phone in her hand, the screen flat green, a tear landing on it.
+    calm: top
+    ui:
+      - kind: phone.live_stream
+        "on": screen
+        viewers: "2,011,390 WATCHING"
+        chat:
+          - "[dalgona]: he's not a trap rat. TRAP-TESTER."
+          - "[seoul_otaku]: TRAP-TESTER TRAP-TESTER TRAP-TESTER"
+          - "[jjang_hunter]: rest in peace oh minseok"
+    sfx:
+      - {text: "blip... blip...", style: quiet, at: [0.80, 0.80], size: S, rot: 0}
+
+  - id: P55
+    recipe: chorus
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level along the rope line: a young hunter in the crowd taking off his cap, then others, a silence of respect"
+    light: "sun"
+    art: >
+      Along the rope line: a young hunter in the crowd takes off his cap and holds it to his chest; then another; then a whole row
+      of people, a silence of respect.
+    calm: top
+    silent: true
+
+  # ================= ON HIS KNEES (P56–P63) =================
+  - id: P56
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, from the concrete: Mok's legs giving way, dropping to his knees between the officers"
+    light: "sun"
+    art: >
+      From low on the concrete: Mok's legs give way and he drops to his knees between the two officers, his bound hands in front
+      of him, his head hanging.
+    acting:
+      mok_hangyu: "dropping to his knees, head hanging, shoulders shaking"
+      police: "two officers letting him sink"
+    calm: top
+    sfx:
+      - {text: "THUD", style: impact, at: [0.50, 0.70], size: M, rot: 0}
+
+  - id: P57
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level: Jaeha limping forward on Yerin's arm and stopping in front of the kneeling Mok, looking down at him"
+    light: "sun"
+    face: private
+    art: >
+      Jaeha (kang_jaeha) limps forward on Yerin's arm and stops in front of the kneeling Mok, looking down at him; for once Jaeha is
+      the taller one.
+    acting:
+      kang_jaeha: "standing over Mok, looking down, the dead phone in his hand, no anger in his face"
+      mok_hangyu: "kneeling, looking up at him at last"
+    eyeline: "Jaeha → Mok (down); Mok → Jaeha (up)"
+    foreground: "Mok's bound hands, cropped, bottom"
+    calm: top
+    lines:
+      - {who: mok_hangyu, type: speech, text: "GO ON. HIT ME. EVERYONE'S WATCHING.", side: l}
+
+  - id: P58
+    recipe: talk
+    shape: tall
+    gap: short
+    bg: white
+    camera: "low, from beside Mok: Jaeha standing over him against the bright sky, speaking quietly"
+    light: "the sun behind Jaeha's head"
+    face: private
+    art: >
+      From low beside the kneeling Mok: Jaeha (kang_jaeha) stands over him against the bright sky and speaks quietly; he doesn't
+      raise a hand.
+    acting:
+      kang_jaeha: "standing still, hands at his sides, speaking quietly, eyes steady"
+    eyeline: "Jaeha → Mok (down)"
+    foreground: "Mok's bowed head and shoulder, cropped, bottom left"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "YOU CLOSED THE DOOR ON HIM. I'M NOT GOING TO CLOSE IT ON YOU.", side: r}
+      - {who: kang_jaeha, type: speech, text: "THE POLICE WILL.", side: r}
+
+  - id: P59
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on Mok's face crumpling, tears in the dead eyes"
+    light: "sun"
+    art: >
+      Close on Mok's face (mok_hangyu) crumpling; tears in the eyes that were dead.
+    acting:
+      mok_hangyu: "face crumpling, tears running, lips shaking"
+    calm: right
+    silent: true
+
+  - id: P60
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level: the officers cuffing Mok and lifting him to his feet, cameras flashing all along the rope"
+    light: "sun; camera flashes"
+    art: >
+      The officers cut Nib's cord, cuff Mok's wrists and lift him to his feet; cameras flash all along the rope line.
+    acting:
+      police: "cuffing Mok and lifting him"
+      mok_hangyu: "lifted to his feet, head down"
+    calm: top
+    sfx:
+      - {text: "KLIK KLIK", style: quiet, at: [0.40, 0.40], size: S, rot: 0}
+      - {text: "FLASH FLASH FLASH", style: impact, at: [0.80, 0.30], size: M, rot: 0}
+
+  - id: P61
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, by the police car: Mok stopping at the open door and looking back at Jaeha over his shoulder"
+    light: "sun; police lights"
+    art: >
+      By the police car: Mok (mok_hangyu) stops at the open door and looks back at Jaeha over his shoulder.
+    acting:
+      mok_hangyu: "stopping at the car door, looking back, a broken face"
+      police: "an officer's hand on his head"
+    eyeline: "Mok → Jaeha"
+    foreground: "the police car's door, cropped, left"
+    calm: top
+    lines:
+      - {who: mok_hangyu, type: speech, text: "YOU DON'T KNOW WHAT YOU'VE STARTED. THEY'LL BURY YOU.", side: l}
+
+  - id: P62
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on the police car door shutting on Mok"
+    light: "sun on the glass"
+    art: >
+      Close on the police car's door shutting on Mok; his face behind the glass.
+    calm: left
+    silent: true
+    sfx:
+      - {text: "KLUNK", style: quiet, at: [0.40, 0.40], size: M, rot: 0}
+
+  - id: P63
+    recipe: establish
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level at the edge of the clearing: Sora walking away into the trees on the hillside, unhurried, nobody watching her"
+    light: "sun through the trees"
+    art: >
+      At the far edge of the clearing, while every camera points at the police car: Han Sora (han_sora) walks away up the wooded
+      hillside into the trees, unhurried, her crossbow on her back, the compass glinting once on her wrist; nobody watches her go.
+    acting:
+      han_sora: "walking away into the trees, one hand raised over her shoulder in a lazy wave to no one"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "crunch... crunch...", style: quiet, at: [0.60, 0.80], size: S, rot: 0}
+
+  # ================= THE SAME MOMENT (P64–P67) =================
+  - id: P64
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: black
+    camera: "eye level in a small rooftop room: Seoa on the floor with her laptop, crying with relief, the landlady beside her, the fat cat in Seoa's lap"
+    light: "midday through the window; the laptop glow"
+    art: >
+      At the same moment, in the rooftop room in Mangwon (location rooftop_room, interior): Seoa (kang_seoa), her blazer off, sits
+      on the floor with her laptop, crying with relief; the landlady (landlady) sits beside her with an arm round her shoulders; the fat
+      cat (gomi) sits in Seoa's lap.
+    acting:
+      kang_seoa: "crying with relief, glasses pushed up, one hand over her mouth"
+      landlady: "an arm round Seoa, patting her back, her own eyes wet"
+      gomi: "in Seoa's lap, purring"
+    calm: top
+    lines:
+      - {who: landlady, type: speech, text: "THERE, THERE. YOUR BROTHER'S A HERO NOW. HE CAN KEEP THE PETS.", side: r}
+    sfx:
+      - {text: "purrr...", style: quiet, at: [0.30, 0.80], size: S, rot: 0}
+
+  - id: P65
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: black
+    camera: "eye level in a long dark office: a wall of screens showing the stream, a silhouette with a cane standing before them"
+    light: "key: the glow of the screens; the blinds half down"
+    art: >
+      Kanghan Tower, Director Baek's office (location kanghan_office) at midday with the blinds half down: a wall of screens shows
+      the stream from the spillway, the police car, the crowd; Baek Taegun (baek_taegun) stands before them, both hands folded on
+      his cane, his face lit by the screens.
+    acting:
+      baek_taegun: "standing still, both hands on the cane, watching, no expression"
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "KANGHAN TOWER. AT THE SAME MOMENT."}
+    sfx:
+      - {text: "...", style: quiet, at: [0.80, 0.30], size: S, rot: 0}
+
+  - id: P66
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Baek's hand pressing a button on his cane's silver collar; the screens going dark one by one"
+    light: "the screens going dark"
+    art: >
+      Close on Baek's gloved hand pressing a small silver stud on the cane's collar; behind it, the screens go dark one by one.
+    calm: left
+    silent: true
+    sfx:
+      - {text: "TIK", style: quiet, at: [0.40, 0.40], size: S, rot: 0}
+
+  - id: P67
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close on Baek in the dark office, the violet core glowing behind him, a phone at his ear, the faint polite smile"
+    light: "the violet core behind him; darkness"
+    art: >
+      Close and low on Baek (baek_taegun) in the darkened office, the violet boss core glowing in its case behind him, a slim phone
+      at his ear, the faint polite smile.
+    acting:
+      baek_taegun: "phone at his ear, head tilted, smiling with his mouth only"
+    eyeline: "Baek → the dark screens"
+    foreground: "the cane's glowing violet handle, cropped, bottom right"
+    calm: top
+    lines:
+      - {who: baek_taegun, type: phone, text: "BURY BLACK HOUND. ALL OF IT.", side: l}
+      - {who: baek_taegun, type: phone, text: "AND FIND OUT WHAT ELSE THAT PHONE RECORDED.", side: l}
+
+  - id: END
+    kind: end
+    chibi_gag: "Chibi Lyra signs autographs for a long line of chibi fans with a feather pen, while chibi Nib stands behind her holding a tiny sign-shaped blank card and chibi Borro carries a stack of chibi unconscious hunters like firewood."
