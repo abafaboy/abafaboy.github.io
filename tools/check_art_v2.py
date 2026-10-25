@@ -2,7 +2,9 @@
 """check_art_v2: mechanical checks on a chapter's art folder before Claude's visual review (PANEL_BRIEF_v2).
 
 For every panel of scripts_v2/chNNN.yaml that needs art (not kind title/caption):
-- the file exists, is a real PNG (signature), at the brief's size for its shape (section 4);
+- the file exists, is a real PNG (signature), at the brief's size for its shape (section 4; squares may be the
+  generator's native 1254x1254);
+- no letterbox: no near-black bars across the top or bottom (strips are drawn edge to edge);
 - no lossy block grid (8x8 JPEG / 4x4 and 16x16 WebP-VP8 ratios; > 1.12 is suspicious, section 13 / 11b.11);
 - sharpness (Laplacian variance) so a soft, re-enlarged image stands out against its neighbours;
 - P-panels with a `ui` entry `on: screen` contain flat #00FF00;
@@ -75,7 +77,8 @@ def main():
             errs.append(f"{fn}: not a PNG file (signature {sig[:4]!r})")
         im = Image.open(path)
         want = (1024, 1024) if kind == "end" else allow.get(pid, SIZES.get(p.get("shape"), None))
-        if want and im.size != want:
+        square_ok = want == (1024, 1024) and im.size in ((1024, 1024), (1254, 1254))  # native generator squares
+        if want and im.size != want and not square_ok:
             errs.append(f"{fn}: size {im.size[0]}x{im.size[1]}, brief wants {want[0]}x{want[1]} for shape {p.get('shape') or kind}")
         a = np.asarray(im.convert("RGB")).astype(np.float32)
         L = 0.299 * a[..., 0] + 0.587 * a[..., 1] + 0.114 * a[..., 2]
@@ -83,6 +86,17 @@ def main():
         sh = lap_var(L)
         if max(g8, g4, g16) > 1.12:
             warns.append(f"{fn}: block-grid ratio g8={g8:.3f} g4={g4:.3f} g16={g16:.3f} (lossy compression somewhere?)")
+        # letterbox bars: near-black full-width rows at the top or bottom (strips must be drawn edge to edge)
+        g = np.asarray(im.convert("L")).astype(np.int32)
+        rmax = g.max(axis=1)
+        top = 0
+        while top < len(rmax) and rmax[top] < 14:
+            top += 1
+        bot = len(rmax)
+        while bot > 0 and rmax[bot - 1] < 14:
+            bot -= 1
+        if top > 0.04 * len(rmax) or (len(rmax) - bot) > 0.04 * len(rmax):
+            errs.append(f"{fn}: letterbox bars, picture only in rows {top}-{bot} of {len(rmax)} (draw edge to edge)")
         for u in p.get("ui") or []:
             if isinstance(u, dict) and u.get("on") == "screen":
                 rgb = np.asarray(im.convert("RGB"))

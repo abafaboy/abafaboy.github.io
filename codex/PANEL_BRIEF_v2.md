@@ -20,7 +20,7 @@
 
 ## 2. References (at most 5 images per image call; the tool refuses a sixth)
 Pass, in this priority order:
-1. **Every character who acts or speaks:** `characters_v2/<id>/front.png`.
+1. **Every character who acts or speaks:** `characters_v2/<id>/front.png` (Yoo Bomi has no `front.png`: use `yoo_bomi/source_front.png`).
 2. **The location:** `locations_v2/<id>/key.png`. Use `door.png`, `reverse.png`, `gate.png` or `details.png` instead when the camera matches them better.
 3. **If there is room, one acting sheet for the character whose acting carries the panel:** `acting.png` for body language, `talking.png` for a talking or listening face, or `expressions.png`. Acting and talking sheets exist for Jaeha, Nib, Yerin, Mok, Lyra and Bomi.
 
@@ -51,15 +51,18 @@ Add the reference sentence from 10.5 to every prompt. Never pass anything from t
 | Shape | PNG size |
 |---|---|
 | `full`, `wide`, `vignette` | 1536×1024 |
-| `strip` | 1536×1024, subject inside the middle third of the height (the letterer crops a band) |
+| `strip` | 1536×1024, drawn edge to edge; the letterer shows only the middle HALF (rows 256–768), so the subject sits there |
 | `tall`, `narrow-l`, `narrow-r`, `bleed` | 1024×1536 |
-| `inset-l`, `inset-r` | 1024×1024 |
-| `kind: end` (`END.png`) | 1024×1024 chibi gag on plain white |
+| `inset-l`, `inset-r` | square: the generator's native 1254×1254 (or 1024×1024); never resized |
+| `kind: end` (`END.png`) | square (native 1254×1254), chibi gag on plain white |
+
+- **Strips are never letterboxed.** In chapter 1, four strips (P05, P35, P36, P53) came back with black bars above and below a thin picture band, and all four had to be redrawn: the bars show up as black bands in the lettered chapter. Fill the whole canvas with the scene. For an eyes close-up, hair and forehead fill the top quarter and cheeks and nose the bottom quarter. Never leave black or empty bands.
+- **Square sizes:** the generator returns squares at 1254×1254. Keep that native size; do not spend tries trying to get 1024×1024.
 
 - **No image** for `kind: title` and `kind: caption` panels.
 - **PNG straight from the generator,** never JPEG or WebP, never resized or re-saved (section 13).
 - **No text in the art.** No letters, bubbles, sound effects or captions. The only exception is Jaeha's T patch. Leave the panel's `calm` zone simple for the lettering.
-- **Screens.** A `ui` entry with `on: screen` means the screen is flat #00FF00 (P10). `on: float` windows are added by the letterer: draw nothing for them, but leave the area the art text describes calm.
+- **Screens.** A `ui` entry with `on: screen` means the screen is flat #00FF00 (P10). Near-pure green such as (13,252,4) is fine: the letterer keys any strong green, so do not spend tries chasing exact values. `on: float` windows are added by the letterer: draw nothing for them, but leave the area the art text describes calm.
 - **Chibi panels** (`style: chibi`) use the chibi sheets: 2.5 heads tall, gag faces, a simple flat background.
 - **Breaking and bursting effects** ("shards", "debris") are hand-inked jagged pieces with ink outlines and flat colour, never bevelled 3D facets (11b.6).
 
