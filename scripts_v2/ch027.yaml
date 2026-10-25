@@ -1,0 +1,1130 @@
+chapter: 27
+title: Alarm
+format: SCRIPT_FORMAT_v2.md
+when: "Friday, about 2:10 AM: the stone balcony, the great drain pipe along the pit wall, the flooded catwalk section, and the ledge beside the Warden's chained arm."
+story_beats: ARC3_4_BEATS.md#27-alarm
+cast:
+  kang_jaeha: crew
+  nib: mask
+  borro: default
+  lyra: default
+  moon_ahin: default
+  ahin_husks: default        # 36, then 30 after holding the passage (P34)
+  crew_pyo: default
+  crew_dami: default
+  crew_woo: default
+  crew_ho: default
+  han_sora: kanghan          # new outfit, see continuity
+  kanghan_tactical: default  # generic, new, see continuity
+  kanghan_guard: default
+  tide_warden: default
+locations: [farm_pit]
+continuity:
+  - "Han Sora in Kanghan colours (new outfit key kanghan, from ch 27): the same face and hair (sleek black chin-length bob, winged eyeliner, red lips); a fitted charcoal-grey Kanghan tactical jacket cropped at the waist with the silver hexagon on the LEFT shoulder, worn open over the fitted black tank top with the low scoop neck; black tactical trousers with a thigh holster of bolts; black boots; the compact crossbow; the brass core compass on its wrist chain. Fan service per CHARACTER_DESIGNS_v2.md: a beautiful face and confident poses, nothing explicit, no camera aimed at her chest. Soaked from P32: wet hair slicked back."
+  - "Kanghan tactical squad (generic, new): black tactical armour, full helmets with smoky visors, the silver hexagon on the chest, small round shields, shock batons, and stubby core carbines that fire violet stun bolts; a captain with a red stripe on his helmet. Twelve of them with Sora."
+  - "The great drain pipe (P05 onward): an open-topped steel half-pipe 3 m wide bolted along the pit wall on brackets, carrying a fast stream of seawater ankle-deep from the Warden's body down and round the pit toward a round steel drain hatch in the east wall. It runs past the Warden's chained LEFT arm. Lower down the wall, parallel to it, a steel catwalk (section 4-C) with racks of core tanks behind it."
+  - "The fire system: red sprinkler heads over every catwalk section; steel bulkhead doors at each section's ends; a pillar-mounted panel with a flame pictogram, a wave pictogram and a big red lever (no text)."
+  - "Core tanks burn: a cracked tank's light catches as a violet fire that crawls up the rack."
+  - "Field forms from P16: Borro and Lyra (CARRY on both); Nib from P20 (not carried: Jaeha can only carry two)."
+  - "The Warden (P46 onward): his LEFT eye opens: deep sea-green, enormous, ancient, aware. His voice reaches the summons through the water in the drain pipes as words in their own language (lettered in angle brackets); to Jaeha, Moon Ahin and the crew it is only a deep hum."
+plants:
+  - "PLANT P14-P16: Director Baek has told security that Moon Ahin is not here (ch 32)."
+  - "PLANT P13: Baek wants Lyra too (Arc 5)."
+  - "PLANT P22-P27: Sora and Lyra, two archers (ch 31)."
+  - "PLANT P40-P42: Moon Ahin calls her husks back, and is proud of them for the first time (ch 30)."
+  - "PLANT P49-P60: the Warden speaks to the summons and asks to be ended or freed (ch 28)."
+hook_type: decision
+
+panels:
+
+  # ================= TWO MINUTES (P01-P10) (P01–P10) =================
+  - id: P01
+    recipe: plan
+    shape: wide
+    gap: none
+    bg: paper
+    camera: "top-down on the notebook page under red light: a fast pencil map of the pit, the balcony, a long pipe along the wall to a round hatch, a catwalk below it, a small flame and a wave"
+    light: "red light on paper"
+    art: >
+      Top-down on the notebook page under sweeping red light: a fast pencil map: the pit as a circle, the balcony, a long half-pipe
+      running along the wall to a round hatch on the far side, a catwalk below it with tank racks, a small drawn flame on the racks
+      with an arrow to a drawn wave, and a row of tiny squares plugging the balcony passage.
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: note, text: "HUSKS PLUG THE PASSAGE. DRAIN PIPE TO THE EAST HATCH. FIRE MEANS FLOOD."}
+    sfx:
+      - {text: "WEEOOO", style: alert, at: [0.80, 0.20], size: M, rot: 0}
+
+  - id: P02
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close two-shot in red light: Jaeha turning the notebook to Moon Ahin, torch beams flickering in the passage behind her"
+    light: "red; torch beams"
+    face: private
+    art: >
+      Close and low in red light: Jaeha (kang_jaeha) turns the notebook to Moon Ahin (moon_ahin); torch beams flicker in the passage
+      behind her where her husks stand in rows.
+    acting:
+      kang_jaeha: "holding the notebook up to her, pencil pointing at the plugged passage"
+      moon_ahin: "reading fast, jaw tight"
+    eyeline: "Jaeha → Moon Ahin; Moon Ahin → the page"
+    foreground: "the notebook, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "YOUR HUSKS HOLD THAT PASSAGE FOR NINETY SECONDS. THEN THEY FOLLOW US ALONG THE PIPE.", side: r}
+      - {who: moon_ahin, type: speech, text: "MY HUSKS DON'T RETREAT.", side: l}
+      - {who: kang_jaeha, type: speech, text: "THEN TONIGHT THEY LEARN. I'D LIKE THEM BACK, MA'AM.", side: r}
+
+  - id: P03
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "from inside the passage, low: thirty-six polished husks locking into a solid plug of porcelain across the passage as torch beams and guards rush at them"
+    light: "torch beams on porcelain; red behind"
+    art: >
+      From inside the passage, low: at a flick of Moon Ahin's baton, thirty-six husks (ahin_husks) lock into a solid plug of porcelain
+      across the passage, four deep, arms braced on each other's shoulders, as guards (kanghan_guard) rush at them out of the torch
+      beams.
+    acting:
+      ahin_husks: "locking together four deep, arms braced, heads down"
+      kanghan_guard: "rushing in with torches and shock batons raised"
+    calm: top
+    sfx:
+      - {text: "KA-KLAK!", style: impact, at: [0.40, 0.30], size: L, rot: 0}
+
+  - id: P04
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level at the plug: shock batons crackling against porcelain, the plug not moving an inch"
+    light: "blue-white baton sparks; red"
+    art: >
+      At the plug: shock batons crackle against porcelain in bursts of blue-white sparks; a guard (kanghan_guard) shoulders the front
+      rank; the plug does not move an inch.
+    acting:
+      kanghan_guard: "jabbing with a shock baton, shoulder against the husks, straining"
+      ahin_husks: "holding, unmoving"
+    calm: top
+    sfx:
+      - {text: "BZZAK BZZAK", style: alert, at: [0.50, 0.30], size: M, rot: -6}
+
+  - id: P05
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "high, over the balustrade: the team dropping one by one onto a huge open half-pipe of rushing seawater bolted along the pit wall"
+    light: "red sweeping; violet from the pit"
+    art: >
+      High over the balustrade: the team drops one by one onto the great drain pipe below the balcony, an open-topped steel half-pipe
+      3 m wide bolted along the pit wall, with a fast stream of seawater running ankle-deep down it: Nib (nib) first, then Jaeha
+      (kang_jaeha), Moon Ahin (moon_ahin) with her coat held up, the crew, Lyra (lyra), and Borro (borro) last with Uncle Pyo (crew_pyo)
+      over his shoulder. Scale: the pit floor is 50 m below the pipe.
+    acting:
+      nib: "landing in the water first, already running"
+      kang_jaeha: "dropping, one hand on the pipe's rim"
+      moon_ahin: "stepping down, the coat-dress gathered in one hand"
+      lyra: "jumping down lightly, bow ready"
+      borro: "dropping heavily, Pyo over one shoulder"
+      crew_pyo: "over Borro's shoulder, clinging, eyes shut"
+    calm: top
+    sfx:
+      - {text: "SPLSH SPLSH SPLSH", style: impact, at: [0.30, 0.80], size: M, rot: 0}
+
+
+  - id: P06
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level on the half-pipe: Ho's boots skidding on the wet steel toward the rim, Jaeha lunging back and grabbing his tabard"
+    light: "red; violet from below"
+    art: >
+      On the half-pipe: Ho's boots (crew_ho) skid on the wet steel and he slides toward the rim and the 50 m drop; Jaeha (kang_jaeha)
+      lunges back and grabs the back of his tabard; Woo (crew_woo) grabs Jaeha's belt.
+    acting:
+      crew_ho: "sliding on his back toward the rim, arms flailing"
+      kang_jaeha: "lunging, one fist knotted in Ho's tabard, the other hand on the pipe's rim"
+      crew_woo: "grabbing Jaeha's belt with both hands, heels braced"
+    calm: top
+    sfx:
+      - {text: "SKREEEE", style: impact, at: [0.30, 0.70], size: M, rot: -6}
+      - {text: "GRAB", style: comic, at: [0.70, 0.30], size: S, rot: 0}
+
+
+  - id: P07
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Uncle Pyo slung over Borro's shoulder, bouncing, trying to keep his dignity"
+    light: "red"
+    art: >
+      Close on Uncle Pyo (crew_pyo) slung over Borro's mossy shoulder (borro), bouncing with every step, trying to keep his dignity.
+    acting:
+      crew_pyo: "draped over the shoulder, one finger raised, then thinking better of it"
+      borro: "striding on, holding Pyo's legs with one arm"
+    eyeline: "Pyo → the drop"
+    foreground: "Borro's moss, cropped, left"
+    calm: left
+    lines:
+      - {who: crew_pyo, type: speech, text: "I CAN WALK, YOU KNOW. ...NO. NO, I CAN'T. CARRY ON, BIG ONE.", side: r}
+
+  - id: P08
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, running along the half-pipe: Jaeha in front with the water spraying round his boots, Moon Ahin behind him, the pit falling away on one side"
+    light: "red; violet"
+    face: private
+    art: >
+      Running along the half-pipe: Jaeha (kang_jaeha) in front, seawater spraying round his boots; Moon Ahin (moon_ahin) behind him; on
+      one side the pipe's rim and the pit falling away, on the other the rock wall.
+    acting:
+      kang_jaeha: "running, looking back over his shoulder"
+      moon_ahin: "running in her heeled boots, perfectly balanced, baton in hand"
+    eyeline: "Jaeha → the team behind"
+    foreground: "spray off the rim, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: shout, text: "STAY IN THE MIDDLE OF THE PIPE! DON'T STOP FOR ANYTHING!", side: r}
+    sfx:
+      - {text: "SPLASH SPLASH", style: quiet, at: [0.80, 0.80], size: S, rot: 0}
+
+  - id: P09
+    recipe: anticipation
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, across the pit: the freight elevator descending fast through the red light, a squad standing on its platform"
+    light: "red; the elevator's work lights"
+    art: >
+      Low, across the pit: the freight elevator comes down fast through the red light, empty of tanks now; a squad of armoured figures
+      stands on its platform, and at its front edge a single slimmer figure with a crossbow.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "GRRRRRRRNNN", style: impact, at: [0.70, 0.30], size: M, rot: 0}
+
+  - id: P10
+    kind: title
+    shape: full
+    gap: long
+    bg: black
+    title_card: "MY SUMMONS GO FIRST · CHAPTER 27 · ALARM"
+    notes: "Title card at panel 10 of 60 (17%)."
+
+  # ================= SORA (P11-P35) (P11–P37) =================
+  - id: P11
+    recipe: establish
+    shape: tall
+    gap: long
+    bg: black
+    camera: "eye level with the elevator platform as it stops at the catwalk level: Han Sora in Kanghan colours stepping off the edge, her squad behind her"
+    light: "key: red warning light from above; back: the violet pit; rim light on her hair"
+    art: >
+      As the elevator stops at the catwalk level: Han Sora (han_sora) steps off its edge onto the catwalk in her new Kanghan colours, a
+      tall full-figure glamour panel: the charcoal-grey Kanghan jacket cropped at the waist with the silver hexagon on the shoulder,
+      open over the black scoop-neck tank top, black tactical trousers, the thigh holster of bolts, boots; the compact crossbow resting
+      on her shoulder; the brass compass swinging on its wrist chain. Behind her, twelve armoured troopers (kanghan_tactical) with round
+      shields and stubby carbines spread out along the catwalk.
+    acting:
+      han_sora: "stepping off the platform with a sway, crossbow resting on her shoulder, a delighted red-lipped smile"
+      kanghan_tactical: "fanning out behind her, shields up, carbines raised"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "KLANK", style: quiet, at: [0.30, 0.86], size: S, rot: 0}
+
+  - id: P12
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close on Sora's wrist: the brass compass needle swinging round and pointing up at the drain pipe; her face beyond it, smiling"
+    light: "red"
+    art: >
+      Close on Sora's wrist (han_sora): the brass compass's needle, a sliver of boss core, swings round and points up the wall at the
+      drain pipe; beyond it, her face, smiling.
+    acting:
+      han_sora: "lifting her wrist to read the compass, the smile widening"
+    eyeline: "Sora → the drain pipe (up)"
+    foreground: "the compass on its chain, cropped, bottom"
+    calm: top
+    lines:
+      - {who: han_sora, type: speech, text: "THERE YOU ARE, OPERATOR. I TOLD THE DIRECTOR YOU'D COME TO THE BRIDGE.", side: l}
+
+
+  - id: P13
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Sora's eyes sliding along the drain pipe and stopping on Lyra, a slow interested smile"
+    light: "red"
+    art: >
+      Close on Sora (han_sora): her eyes slide along the drain pipe and stop on Lyra, and the smile turns slow and interested.
+    acting:
+      han_sora: "eyes narrowing on Lyra, tongue touching her lip, amused"
+    eyeline: "Sora → Lyra (up)"
+    foreground: "the crossbow's limb, cropped, right"
+    calm: right
+    lines:
+      - {who: han_sora, type: speech, text: "AND THE PRETTY ARCHER FROM THE STREAM. THE DIRECTOR WANTS YOU TOO, DARLING.", side: l}
+
+  - id: P14
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the drain pipe: Moon Ahin stepping to the rim and looking down at the squad, her voice carrying"
+    light: "red"
+    art: >
+      From low on the drain pipe: Moon Ahin (moon_ahin) steps to the rim and looks down at the squad on the catwalk below, the baton
+      pointing at them; her voice carries across the pit.
+    acting:
+      moon_ahin: "standing at the rim, the baton pointing down, chin raised"
+    eyeline: "Moon Ahin → Sora (down)"
+    foreground: "the pipe's rim and the rushing water, cropped, bottom"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: speech, text: "STAND DOWN, ALL OF YOU. I AM MOON AHIN.", side: l}
+
+  - id: P15
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level on the catwalk: Sora tilting her head up at Moon Ahin with a pitying smile, the squad not lowering their carbines"
+    light: "red"
+    art: >
+      On the catwalk: Sora (han_sora) tilts her head up at Moon Ahin with a pitying smile; behind her the troopers (kanghan_tactical)
+      do not lower their carbines.
+    acting:
+      han_sora: "head tilted, a pitying smile, the crossbow sliding off her shoulder into her hands"
+      kanghan_tactical: "carbines up, unmoved"
+    eyeline: "Sora → Moon Ahin (up)"
+    foreground: "a trooper's round shield, cropped, left"
+    calm: top
+    lines:
+      - {who: han_sora, type: speech, text: "DIRECTOR BAEK SAYS YOU'RE ASLEEP IN YOUR BED AT HOME, MISS MOON.", side: l}
+      - {who: han_sora, type: speech, text: "SO WHOEVER YOU ARE, YOU'RE TRESPASSING. FIRE.", side: l}
+
+  - id: P16
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Moon Ahin, the colour going out of her face"
+    light: "red"
+    art: >
+      Close on Moon Ahin (moon_ahin), the colour going out of her face as she understands her uncle has already decided.
+    acting:
+      moon_ahin: "eyes widening, lips parting, the baton faltering"
+    calm: left
+    silent: true
+    sfx:
+      - {text: "...", style: quiet, at: [0.30, 0.30], size: S, rot: 0}
+
+  - id: P17
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, behind the squad: twelve carbines spitting violet stun bolts up at the drain pipe, Borro leaping in front of Moon Ahin with his shield"
+    light: "violet bolts streaking; red"
+    art: >
+      From low behind the squad: twelve carbines (kanghan_tactical) spit violet stun bolts up at the drain pipe; above, Borro (borro),
+      moss-green outline blazing, leaps in front of Moon Ahin and takes the volley on his shield in a burst of sparks.
+    acting:
+      kanghan_tactical: "firing upward in a ragged line"
+      borro: "landing in front of Moon Ahin, shield up, braced"
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.90], text: "[FIELD FORM · BORRO · LYRA · CARRY ×2]"}
+    sfx:
+      - {text: "TSEW TSEW TSEW", style: impact, at: [0.40, 0.40], size: M, rot: -8}
+      - {text: "KRRANG", style: impact, at: [0.70, 0.20], size: L, rot: 6}
+
+  - id: P18
+    recipe: carry
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Jaeha flinching, his arm jerking as the volley's shock comes through to him"
+    light: "violet sparks; red"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha) flinching as the shock of the volley on Borro's shield comes through to him; his LEFT arm jerks and
+      blood spots the scarf on his shoulder again.
+    acting:
+      kang_jaeha: "flinching, LEFT arm jerking, teeth gritted"
+    calm: right
+    silent: true
+    sfx:
+      - {text: "DNN", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P19
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, behind Borro's shield on the pipe: Moon Ahin staring at the shield that saved her, Borro not looking round"
+    light: "red; sparks"
+    art: >
+      Behind Borro's shield on the pipe: Moon Ahin (moon_ahin) stares at the huge dented shield in front of her; Borro (borro) doesn't
+      look round.
+    acting:
+      moon_ahin: "staring at the shield, one hand still raised"
+      borro: "holding the shield up, eyes forward, calm"
+    eyeline: "Moon Ahin → the shield; Borro → the squad"
+    foreground: "the shield's dented rim, cropped, right"
+    calm: top
+    lines:
+      - {who: borro, type: speech, text: "STAY BEHIND ME. THE OPERATOR SAID EVERYONE COMES BACK.", side: r}
+
+  - id: P20
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high, over the pit: Nib in field form leaping off the drain pipe down onto the catwalk among the troopers"
+    light: "amber; red"
+    art: >
+      High over the pit: Nib (nib), amber outline blazing, leaps off the drain pipe down onto the catwalk among the troopers
+      (kanghan_tactical), knives out, kicking a shield aside as he lands.
+    acting:
+      nib: "landing among them, kicking a shield aside, knives already moving"
+      kanghan_tactical: "two troopers staggering back from him"
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.88], text: "[NIB · FIELD FORM · NOT CARRIED]"}
+    sfx:
+      - {text: "SHHINK", style: impact, at: [0.30, 0.30], size: M, rot: 6}
+
+  - id: P21
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha, his face tight behind the visor"
+    light: "red"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha), his face tight behind the visor.
+    acting:
+      kang_jaeha: "jaw tight, eyes on Nib far below"
+    eyeline: "Jaeha → Nib (down)"
+    foreground: "the rim of the pipe, cropped, left"
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: inner, text: "I can only carry two. Nib, every cut you take is yours."}
+
+  - id: P22
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, on the drain pipe: Lyra drawing her longbow to full, river-blue outline blazing, braid flying in the updraft"
+    light: "river blue; red"
+    art: >
+      Low on the drain pipe: Lyra (lyra) draws her white longbow to full, the river-blue outline blazing, her braid flying up in the hot
+      updraft from the pit; the whole figure, strong and graceful.
+    acting:
+      lyra: "at full draw, bow arm straight, eyes narrowed down at the catwalk"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "KRRRK", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P23
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high, side-on across the pit: two archers, Lyra on the pipe and Sora on the catwalk, an arrow and a bolt meeting in mid-air between them"
+    light: "a river-blue streak and a dark streak meeting in a spark"
+    art: >
+      High and side-on across the pit, a mirrored composition: Lyra (lyra) on the drain pipe looses a long arcing arrow; Sora (han_sora)
+      on the catwalk fires a flat, fast bolt; arrow and bolt meet in mid-air between them and burst apart in a spark.
+    acting:
+      lyra: "the release, bow arm straight"
+      han_sora: "the crossbow at her shoulder, already reloading with a flick"
+    calm: top
+    sfx:
+      - {text: "TWANG", style: impact, at: [0.20, 0.40], size: M, rot: -6}
+      - {text: "THK", style: impact, at: [0.80, 0.60], size: M, rot: 6}
+      - {text: "KTCH!", style: impact, at: [0.50, 0.30], size: L, rot: 0}
+
+  - id: P24
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level on the pipe: a crossbow bolt pinning Lyra's sleeve to the rock wall, Lyra tearing free with a furious face"
+    light: "river blue; red"
+    art: >
+      On the pipe: Sora's next bolt pins Lyra's sleeve to the rock wall behind her (lyra); she tears free, furious, the fabric ripping.
+    acting:
+      lyra: "tearing her arm free from the pinned sleeve, teeth bared"
+    calm: top
+    lines:
+      - {who: han_sora, type: speech, text: "PRETTY BOW. SLOW HANDS.", side: r}
+    sfx:
+      - {text: "THUNK", style: impact, at: [0.30, 0.30], size: M, rot: 0}
+      - {text: "RRRIP", style: quiet, at: [0.40, 0.60], size: S, rot: 0}
+
+  - id: P25
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close on Lyra nocking two arrows at once, glaring down at Sora"
+    light: "river blue"
+    art: >
+      Close and low on Lyra (lyra) nocking two arrows at once, glaring down at Sora.
+    acting:
+      lyra: "nocking two arrows together, glaring, a torn sleeve flapping"
+    eyeline: "Lyra → Sora (down)"
+    foreground: "the bolt still stuck in the rock beside her, cropped, left"
+    calm: top
+    lines:
+      - {who: lyra, type: shout, text: "PRETTY FACE. CHEAP TOY.", side: l}
+
+  - id: P26
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level on the catwalk: Lyra's two arrows knocking the carbines out of two troopers' hands, Sora ducking a third and laughing"
+    light: "river-blue streaks; red"
+    art: >
+      On the catwalk: Lyra's two arrows knock the carbines out of two troopers' hands (kanghan_tactical); Sora (han_sora) ducks under a
+      third and comes up laughing.
+    acting:
+      kanghan_tactical: "two troopers losing their carbines, clutching stung hands"
+      han_sora: "ducking under the arrow, laughing, crossbow swinging back up"
+    calm: top
+    sfx:
+      - {text: "KLANG KLANG", style: impact, at: [0.50, 0.40], size: M, rot: 0}
+
+
+  - id: P27
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, on the catwalk: a violet stun bolt slamming into Nib's side, his amber outline flickering, his knees buckling"
+    light: "violet bolt; amber flickering"
+    art: >
+      Low on the catwalk: a violet stun bolt slams into Nib's side (nib); his amber outline flickers like a failing bulb and his knees
+      buckle; a trooper (kanghan_tactical) raises a shock baton over him.
+    acting:
+      nib: "knees buckling, one hand on his side, the other knife still up"
+      kanghan_tactical: "raising a shock baton over him"
+    calm: top
+    sfx:
+      - {text: "TSZAK!", style: impact, at: [0.40, 0.40], size: L, rot: 8}
+
+
+  - id: P28
+    recipe: carry
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close and low on Jaeha on the pipe: the river-blue thread snapping loose from his hand and an amber one taking its place, his body jolting"
+    light: "blue fading; amber flaring"
+    face: private
+    art: >
+      Close and low on Jaeha (kang_jaeha) on the pipe: he lets the river-blue thread slip off one hand and seizes the amber one; the next
+      baton blow on Nib jolts through his own body; below, Nib straightens and slips the baton.
+    acting:
+      kang_jaeha: "jolting, teeth gritted, one hand releasing, the other clutching"
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.88], text: "[CARRY · LYRA → NIB]"}
+    sfx:
+      - {text: "BZZKT", style: impact, at: [0.70, 0.30], size: M, rot: 0}
+
+  - id: P29
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high over the pit: the squad pushing forward along the catwalk faster than the team can run, cutting off the route to the east hatch"
+    light: "red; violet"
+    art: >
+      High over the pit: the squad (kanghan_tactical) pushes forward along the catwalk below faster than the team can run along the pipe
+      above, a wall of shields getting ahead of them toward the east hatch; Nib (nib) fights a rearguard of three.
+    acting:
+      kanghan_tactical: "advancing at a run, shields locked, carbines over the top"
+      nib: "fighting three troopers at once, giving ground"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "STOMP STOMP STOMP", style: impact, at: [0.70, 0.70], size: M, rot: 0}
+
+  - id: P30
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, behind Borro's shield: the team pinned midway along the pipe, bolts sparking off the shield, Jaeha looking past it at a red pillar panel"
+    light: "red; violet sparks"
+    face: private
+    art: >
+      Behind Borro's shield (borro): the team is pinned midway along the pipe as bolts spark off the shield; Jaeha (kang_jaeha) looks
+      past its edge at a pillar on the catwalk below, where a red panel shows a flame pictogram, a wave pictogram and a big red lever.
+    acting:
+      borro: "holding the shield against the bolts, braced"
+      kang_jaeha: "peering past the shield's edge, eyes fixed on the red panel"
+    eyeline: "Jaeha → the panel"
+    foreground: "the shield's edge, sparks flying, cropped, left"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: inner, text: "Core tanks burn. So every section floods if it catches fire."}
+    sfx:
+      - {text: "TSEW TSEW", style: impact, at: [0.70, 0.20], size: M, rot: 0}
+
+  - id: P31
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on the pillar panel: a flame pictogram, an arrow, a wave pictogram, and red sprinkler heads in the steel over the catwalk"
+    light: "red"
+    art: >
+      Close on the pillar panel: a flame pictogram, an arrow, a wave pictogram; above it, a row of red sprinkler heads in the steel over
+      the catwalk and a steel bulkhead door folded up at the section's end.
+    calm: left
+    silent: true
+
+  - id: P32
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close two-shot behind the shield: Jaeha pointing past it, Lyra leaning in"
+    light: "red; sparks"
+    face: private
+    art: >
+      Close and low behind the shield: Jaeha (kang_jaeha) points past it at the tank racks behind the squad; Lyra (lyra) leans in.
+    acting:
+      kang_jaeha: "pointing past the shield's edge, quick and sure"
+      lyra: "leaning in, an arrow ready, eyebrows up"
+    eyeline: "Jaeha → the racks; Lyra → Jaeha"
+    foreground: "Borro's arm holding the shield, cropped, top"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "LYRA. THE TANK RACK BEHIND THEM. ONE ARROW. MAKE IT BURN.", side: r}
+      - {who: lyra, type: speech, text: "A FIRE? IN HERE? WITH US?", side: l}
+      - {who: kang_jaeha, type: speech, text: "TRUST THEIR FIRE SAFETY. THEY'RE VERY CAREFUL PEOPLE.", side: r}
+
+  - id: P33
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level along the catwalk: Lyra's arrow cracking a core tank on the rack behind the squad, violet fire bursting out and crawling up the rack"
+    light: "violet fire; red"
+    art: >
+      Along the catwalk: Lyra's arrow cracks a core tank on the rack behind the squad; violet fire bursts out of it and crawls up the
+      rack; the troopers (kanghan_tactical) spin round.
+    acting:
+      kanghan_tactical: "spinning round toward the fire, shields lowering"
+    calm: top
+    sfx:
+      - {text: "KRSSH—FWOOM", style: impact, at: [0.70, 0.30], size: L, rot: -6}
+
+  - id: P34
+    recipe: system
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, under the sprinkler heads: a horn blaring, the panel's flame pictogram lit, a voice from the speakers"
+    light: "violet fire; the panel glowing"
+    art: >
+      Low under the sprinkler heads: a horn blares; on the pillar panel the flame pictogram lights up; the bulkhead doors at both ends of
+      the catwalk section begin to unfold.
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: announce, text: "FIRE IN SECTION 4-C. FLOODING IN FIVE SECONDS. CLEAR THE CATWALK."}
+    sfx:
+      - {text: "HOOONK HOOONK", style: alert, at: [0.70, 0.20], size: L, rot: 0}
+
+  - id: P35
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level on the catwalk: the squad captain shouting and waving his men back, Sora looking up at the pipe with grudging delight"
+    light: "violet fire; red"
+    art: >
+      On the catwalk: the squad captain (kanghan_tactical) shouts and waves his men back toward the elevator; Sora (han_sora) looks up at
+      the pipe with grudging delight.
+    acting:
+      kanghan_tactical: "the captain waving his arm, men turning to run"
+      han_sora: "looking up, a slow smile, shaking her head"
+    eyeline: "Sora → Jaeha (up)"
+    foreground: "a sprinkler head above, cropped, top"
+    calm: top
+    lines:
+      - {who: kanghan_tactical, type: shout, text: "FIRE PROTOCOL! OFF THE CATWALK! MOVE!", side: l}
+      - {who: han_sora, type: speech, text: "...OH, CLEVER BOY.", side: r}
+
+  - id: P36
+    recipe: splash
+    shape: full
+    gap: short
+    bg: black
+    camera: "high, over the catwalk section: bulkheads slamming shut at both ends, torrents of seawater roaring down from every sprinkler head, the squad swept off their feet"
+    light: "white spray; red; the violet fire going out in steam"
+    art: >
+      High over the catwalk section: the bulkhead doors slam shut at both ends; torrents of seawater roar down from every sprinkler head
+      and the section fills like a tank; the troopers (kanghan_tactical) are swept off their feet against the bulkheads; the violet fire
+      goes out in a burst of steam; Nib (nib) has leapt clear onto a pipe bracket; Sora (han_sora) has jumped for the elevator's rail and
+      hangs from it, soaked to the skin, laughing.
+    acting:
+      kanghan_tactical: "swept off their feet in the flood, shields tumbling"
+      nib: "clinging to a pipe bracket above the flood"
+      han_sora: "hanging one-handed from the elevator rail, soaked, laughing"
+    calm: top
+    sfx:
+      - {text: "KACHUNK", style: impact, at: [0.20, 0.30], size: M, rot: 0}
+      - {text: "WHOOOOOSHHH", style: impact, at: [0.50, 0.60], size: XL, rot: -4}
+
+  - id: P37
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, a few metres off: Sora pulling herself up onto the elevator platform, soaked, slicking her wet hair back with one hand"
+    light: "red; steam"
+    art: >
+      A few metres off: Sora (han_sora) pulls herself up onto the elevator platform, soaked, and slicks her wet hair back with one hand,
+      the crossbow still in the other; a confident, amused glamour beat, framed from the knees up.
+    acting:
+      han_sora: "slicking her wet hair back with one hand, crossbow in the other, laughing at herself"
+    eyeline: "Sora → Jaeha (up)"
+    foreground: "steam rising off the flooded catwalk, cropped, bottom"
+    calm: top
+    lines:
+      - {who: han_sora, type: speech, text: "OKAY. THAT ONE, I'LL GIVE YOU.", side: l}
+
+  # ================= THE EYE (P40-P60) (P38–P60) =================
+
+  - id: P38
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high, back across the pit at the old balcony: the plug of husks finally bursting, porcelain shattering, guards spilling out onto the balcony"
+    light: "red; torch beams"
+    art: >
+      High, back across the pit at the old balcony: the plug of husks (ahin_husks) finally bursts; porcelain shatters; guards
+      (kanghan_guard) spill out onto the balcony with torches, pointing at the pipe.
+    acting:
+      ahin_husks: "the front rank shattering, the rest still standing"
+      kanghan_guard: "spilling onto the balcony, pointing"
+    calm: top
+    sfx:
+      - {text: "KRASSSH", style: impact, at: [0.50, 0.30], size: L, rot: 0}
+
+
+  - id: P39
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, close on Moon Ahin on the pipe raising her baton and, for the first time, calling her husks back"
+    light: "red"
+    art: >
+      Close on Moon Ahin (moon_ahin) on the pipe, raising her baton toward the balcony and drawing it back toward herself, a gesture she
+      has never made.
+    acting:
+      moon_ahin: "baton raised, then drawn back toward her chest, lips pressed tight"
+    eyeline: "Moon Ahin → the balcony"
+    foreground: "Jaeha's shoulder, cropped, right"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: speech, text: "...COME BACK TO ME. ALL OF YOU.", side: l}
+
+  - id: P40
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: black
+    camera: "low, along the drain pipe: the pipe running past the Warden's chained arm, a cliff of red-and-white coral beside the running team"
+    light: "violet from the pipes in his arm; red above"
+    art: >
+      Low along the drain pipe: it runs right past the Warden's chained LEFT arm (tide_warden), a cliff of red-and-white coral and
+      barnacles beside the running team, pipes driven into it every few metres, the steel cuff at the wrist as big as a house.
+    acting:
+      tide_warden: "his chained arm hanging, the coral heaving slightly with each breath"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "THOOM-THOOM", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P41
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, on the pipe behind the team: the husks catching up along the pipe in a perfect double column, fewer now, Moon Ahin turning to count them"
+    light: "red; violet"
+    art: >
+      On the pipe behind the team: Moon Ahin's husks (ahin_husks) catch up along it in a perfect double column, six fewer than before,
+      several cracked; Moon Ahin (moon_ahin) turns to count them as they come.
+    acting:
+      ahin_husks: "running in a perfect double column, some cracked"
+      moon_ahin: "turned back, counting with small movements of the baton"
+    eyeline: "Moon Ahin → the husks"
+    foreground: "spray from the pipe, cropped, bottom"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: speech, text: "THIRTY. THEY BROKE SIX. AND MY HUSKS HELD.", side: l}
+
+  - id: P42
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Moon Ahin, a tiny, surprised pride in her face that she doesn't hide fast enough"
+    light: "red"
+    art: >
+      Close on Moon Ahin (moon_ahin): a tiny, surprised pride shows in her face, and she doesn't hide it fast enough.
+    acting:
+      moon_ahin: "the corner of her mouth lifting, then pressed flat again"
+    calm: left
+    silent: true
+
+  - id: P43
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, at the end of the pipe: Borro straining at the wheel of a round steel hatch in the rock, the crew piling up behind him"
+    light: "red; violet"
+    art: >
+      Low at the end of the pipe: Borro (borro) has set Pyo down and strains at the big wheel of a round steel drain hatch in the rock,
+      4 m across; the crew and the husks pile up behind him; Dami (crew_dami) helps Uncle Pyo (crew_pyo) stand.
+    acting:
+      borro: "both hands on the wheel, leaning his weight into it, moss bristling"
+      crew_dami: "holding Pyo up under one arm"
+      crew_pyo: "standing on his good leg, gripping Dami"
+    eyeline: "the crew → the hatch"
+    foreground: "the hatch's rusted rim, cropped, right"
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: announce, text: "LOCKDOWN STAGE ONE. ALL SECURITY TO THE DRAIN TUNNELS."}
+    sfx:
+      - {text: "SKREEEK", style: impact, at: [0.40, 0.40], size: M, rot: 0}
+
+
+  - id: P44
+    recipe: establish
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the pipe's end: the round hatch swinging open on a dark, dripping drain tunnel, cold air pouring out"
+    light: "red; darkness beyond"
+    art: >
+      Low from the pipe's end: the round hatch swings open under Borro's hands (borro) onto a dark, dripping drain tunnel, cold air pouring
+      out of it; the seawater from the pipe spills in over the lip. The way out is open.
+    acting:
+      borro: "swinging the hatch wide, stepping back from it"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "KLUNNNG", style: impact, at: [0.30, 0.30], size: M, rot: 0}
+
+  - id: P45
+    recipe: anticipation
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level along the pipe: the stream of seawater in it suddenly standing up in ripples, the summons all stopping at once"
+    light: "violet; red"
+    art: >
+      Along the pipe: the stream of seawater running in it suddenly stands up in tight trembling ripples; Nib (nib), Lyra (lyra) and
+      Borro (borro) all stop dead at the same instant and turn toward the Warden.
+    acting:
+      nib: "stopping dead, ears springing up, turning"
+      lyra: "freezing with an arrow half drawn, turning"
+      borro: "letting go of the wheel, turning"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "mmmmmmmmm", style: quiet, at: [0.50, 0.70], size: M, rot: 0}
+
+  - id: P46
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up: an enormous eyelid lifting, a deep sea-green eye underneath"
+    light: "violet; a green glow from the eye"
+    art: >
+      Extreme close-up: the Warden's enormous eyelid lifts (tide_warden), and beneath it is a deep sea-green eye, ancient and fully
+      aware. Fill the canvas edge to edge.
+    acting:
+      tide_warden: "the eye opening fully, focusing"
+    calm: none
+    silent: true
+    sfx:
+      - {text: "...", style: quiet, at: [0.80, 0.30], size: S, rot: 0}
+
+  - id: P47
+    recipe: monster-reveal
+    shape: full
+    gap: short
+    bg: black
+    camera: "low, from the pipe beside his arm, looking up past the coral: the Warden's huge head turning in the chains, his one open eye looking down at the summons"
+    light: "the sea-green eye; violet; red"
+    art: >
+      From low on the pipe beside his arm, looking up past the coral: the Warden's huge head (tide_warden) turns slowly in the chains,
+      the steel collar at his neck groaning, and his one open sea-green eye looks down at the three summons on the pipe. The team is tiny
+      against him.
+    acting:
+      tide_warden: "head turning slowly against the neck chain, one eye open, looking down"
+      nib: "small on the pipe, looking up, very still"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "GRRROOOAN", style: impact, at: [0.70, 0.20], size: L, rot: 0}
+
+  - id: P48
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, two-shot: Jaeha and Moon Ahin with their hands over their ears, hearing only a hum"
+    light: "violet"
+    face: private
+    art: >
+      Two-shot: Jaeha (kang_jaeha) and Moon Ahin (moon_ahin) clap their hands over their ears; to them the Warden's voice is only a huge
+      deep hum shaking the pipe.
+    acting:
+      kang_jaeha: "hands over his ears, squinting up at the giant"
+      moon_ahin: "hands over her ears, the baton tucked under her arm"
+    eyeline: "both → the Warden (up)"
+    foreground: "the trembling water in the pipe, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: shout, text: "NIB! WHAT IS THAT?", side: r}
+    sfx:
+      - {text: "MMMMMMMMMMMM", style: impact, at: [0.50, 0.30], size: L, rot: 0}
+
+  - id: P49
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close on the three summons, all looking up at the eye, the water in the pipe trembling round their feet"
+    light: "the sea-green eye's glow on their faces"
+    art: >
+      Close and low on the three summons, Nib (nib), Lyra (lyra) and Borro (borro), all looking up at the eye, the water trembling round
+      their feet; they hear words.
+    acting:
+      nib: "looking up, mask pushed up, mouth open"
+      lyra: "looking up, a hand over her mouth, eyes filling"
+      borro: "looking up, very still"
+    eyeline: "the summons → the Warden (up)"
+    foreground: "Jaeha's hand on Nib's shoulder, cropped, left"
+    calm: top
+    lines:
+      - {who: tide_warden, type: monster, text: "<CHILD OF THE NINE WALLS. CHILD OF THE RIVER. CHILD OF THE STONE.>", side: l}
+
+  - id: P50
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Lyra, tears spilling over"
+    light: "sea-green glow"
+    art: >
+      Close on Lyra (lyra), tears spilling over, her lips moving as if she knows the words.
+    acting:
+      lyra: "tears spilling, lips trembling, one hand pressed to her heart"
+    calm: left
+    silent: true
+    sfx:
+      - {text: "sniff", style: quiet, at: [0.30, 0.70], size: S, rot: 0}
+
+  - id: P51
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the pipe: the Warden's eye filling the top of the frame, the summons small below it"
+    light: "the sea-green eye; violet"
+    art: >
+      From low on the pipe: the Warden's open eye (tide_warden) fills the top of the frame; the three summons stand small below it.
+    acting:
+      tide_warden: "the great eye wet, the brow above it creasing"
+    calm: bottom
+    lines:
+      - {who: tide_warden, type: monster, text: "<FOUR YEARS I HAVE SUNG INTO THE WATER. AND NO ONE FROM HOME HAS ANSWERED.>", side: l}
+
+  - id: P52
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level on the pipe: Nib dropping to one knee in the water, his fist on his chest, a scout's salute to a hero"
+    light: "sea-green; violet"
+    art: >
+      On the pipe: Nib (nib) drops to one knee in the running water, his fist on his chest in the salute of the Ninth Wall; after a
+      moment, Borro (borro) lowers his huge head.
+    acting:
+      nib: "on one knee in the water, fist on his chest, head bowed"
+      borro: "lowering his head slowly"
+    calm: top
+    sfx:
+      - {text: "SPLSH", style: quiet, at: [0.40, 0.80], size: S, rot: 0}
+
+  - id: P53
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close two-shot: Jaeha crouching beside the kneeling Nib, Nib not looking away from the eye"
+    light: "sea-green"
+    face: private
+    art: >
+      Close and low: Jaeha (kang_jaeha) crouches beside the kneeling Nib (nib); Nib doesn't look away from the eye.
+    acting:
+      kang_jaeha: "crouching, a hand on Nib's shoulder, eyes on Nib's face"
+      nib: "kneeling, staring up, voice shaking"
+    eyeline: "Jaeha → Nib; Nib → the Warden"
+    foreground: "the water in the pipe, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "WHAT DID HE SAY?", side: r}
+      - {who: nib, type: speech, text: "HE SANG FOR FOUR YEARS. NOBODY CAME. AND NOW WE'RE HERE.", side: l}
+
+  - id: P54
+    recipe: insert
+    shape: strip
+    gap: short
+    bg: black
+    camera: "a thin strip: guards' torch beams appearing far down the pipe behind them"
+    light: "torch beams; red"
+    art: >
+      A thin strip: far down the pipe behind them, torch beams appear and bob closer. Fill the canvas edge to edge.
+    calm: none
+    silent: true
+    sfx:
+      - {text: "KLANG KLANG", style: quiet, at: [0.70, 0.40], size: S, rot: 0}
+
+  - id: P55
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the pipe: the Warden's eye narrowing on Jaeha, the voice dropping"
+    light: "sea-green; red"
+    art: >
+      From low on the pipe: the Warden's eye (tide_warden) moves from the summons to Jaeha (kang_jaeha) and narrows; the hum deepens.
+    acting:
+      tide_warden: "the eye moving to Jaeha, narrowing"
+      kang_jaeha: "standing up slowly under the eye, hands open at his sides"
+    eyeline: "the Warden → Jaeha; Jaeha → the Warden (up)"
+    foreground: "Nib's bowed head, cropped, bottom left"
+    calm: top
+    lines:
+      - {who: tide_warden, type: monster, text: "<AND YOU. THE ONE THEY FOLLOW. YOU CARRY THEIR PAIN. THEN HEAR MINE.>", side: l}
+
+  - id: P56
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Nib translating, his voice barely a whisper"
+    light: "sea-green"
+    art: >
+      Close on Nib (nib) translating, his voice barely a whisper.
+    acting:
+      nib: "looking from the eye to Jaeha, whispering"
+    eyeline: "Nib → Jaeha"
+    foreground: "Jaeha's knee, cropped, right"
+    calm: right
+    lines:
+      - {who: nib, type: whisper, text: "HE SAYS YOU CARRY OUR PAIN. HE WANTS YOU TO HEAR HIS.", side: l}
+
+  - id: P57
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level along the pipe: the crew, Moon Ahin and her husks all looking from the giant eye to Jaeha"
+    light: "sea-green; red"
+    art: >
+      Along the pipe: the crew, Moon Ahin (moon_ahin) and her husks all look from the giant eye to Jaeha.
+    acting:
+      moon_ahin: "looking at Jaeha, the baton lowered"
+      crew_pyo: "staring at Jaeha, holding Dami's arm"
+      crew_ho: "gripping Woo, staring"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "GLANCE", style: quiet, at: [0.50, 0.20], size: S, rot: 0}
+
+  - id: P58
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close on Jaeha pulling his respirator off and looking up into the eye"
+    light: "sea-green on his bare face"
+    face: private
+    art: >
+      Close and low: Jaeha (kang_jaeha) pulls his respirator off and looks up into the eye with his bare face.
+    acting:
+      kang_jaeha: "pulling the respirator off, looking straight up into the eye, steady"
+    eyeline: "Jaeha → the Warden (up)"
+    foreground: "the respirator dangling from his hand, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "I'M LISTENING. TELL ME WHAT YOU WANT.", side: r}
+
+  - id: P59
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close on the Warden's chained hand slowly opening, palm up, on the pit floor far below"
+    light: "violet; sea-green"
+    art: >
+      Close on the Warden's huge chained hand (tide_warden), far below, slowly opening, palm up, the chain at the wrist drawing taut.
+    acting:
+      tide_warden: "the chained hand opening slowly, palm up"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "KLNNNG", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P60
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the pipe: the eye very close above them, wet, pleading"
+    light: "sea-green"
+    art: >
+      From low on the pipe: the Warden's eye (tide_warden), very close above them now, wet and pleading.
+    acting:
+      tide_warden: "the eye wet, the brow above it drawn together, pleading"
+    calm: bottom
+    lines:
+      - {who: tide_warden, type: monster, text: "<END ME, OR FREE ME. ONE OR THE OTHER. ONLY DO NOT LEAVE ME HERE.>", side: l}
+
+  - id: END
+    kind: end
+    chibi_gag: "Chibi Sora, soaked, wrings out her hair onto a chibi trooper's helmet, while chibi Lyra, on the far side of the pit, sticks her tongue out and waves her torn sleeve like a flag."
