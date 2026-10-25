@@ -425,6 +425,16 @@ def html_app(u, w, h):
                 f'<div style="font:700 {V(8.5)}/1 UI;margin-top:{V(5)};color:#FF4D4D">{E(late)}</div>'
                 f'<div style="position:absolute;left:{V(7)};right:{V(7)};bottom:{V(8)};height:{V(13)};border-radius:{V(3)};background:#FFB020;'
                 f'color:#14161C;font:700 {V(5)}/{V(13)} UI;text-align:center;letter-spacing:.08em">DELIVERED</div></div>')
+    elif k == "phone.gate_status":
+        parts = [p.strip() for p in str(u.get("text", "")).split("·") if p.strip()]
+        rows = "".join(
+            f'<div class="tb" style="position:relative;width:100%;height:{V(15)};justify-content:center">'
+            f'<span style="white-space:nowrap;font:800 {V(13)}/1 UI;letter-spacing:.02em;color:{"#C62828" if "PAID" in p_.upper() else "#1d2433"}">{E(p_)}</span></div>'
+            for p_ in parts)
+        body = (f'<div class="app" style="width:{w}px;height:{h}px;background:#F2F5FA;display:flex;flex-direction:column">'
+                f'<div style="background:#1F4E9A;color:#fff;padding:{V(7)} {V(5)} {V(6)};font:700 {V(6.4)}/1.1 UI;letter-spacing:.06em;text-align:center">'
+                f'{E(u.get("title", "GATE SAFETY KOREA"))}</div>'
+                f'<div style="flex:1;display:flex;flex-direction:column;justify-content:space-evenly;padding:{V(5)} {V(6)}">{rows}</div></div>')
     elif k == "phone.sumex_ad":
         parts = [p.strip() for p in u.get("text", "").split("·")]
         body = (f'<div class="app" style="width:{w}px;height:{h}px;background:linear-gradient(160deg,#3b1d6e,#e0457b);color:#fff;'
@@ -451,6 +461,22 @@ def html_app(u, w, h):
                 f'<span style="display:inline-block;width:{V(4)};height:{V(4)};border:{V(.7)} solid #fff;border-radius:{V(.8)}"></span>{E(title)}</div>'
                 f'<div style="padding:{V(4 if wide else 7)} {V(6)};font:500 {V(3.8 if wide else 4.9)}/1.42 App;color:#1d2433">{paras}</div></div>')
     return head + body + "</body></html>"
+
+
+def live_stream_html(u):
+    """A livestream chat overlay floating on the panel (drone/stream POV): LIVE badge, then the chat rows.
+    `at` is the top centre of the overlay as fractions of the panel; chat entries look like "[user]: message"."""
+    x, y = u.get("at", [0.26, 0.08])
+    cols = ["#8fd3ff", "#ffb3d1", "#c8f56b", "#ffd36b"]
+    rows = []
+    for i, c in enumerate(u.get("chat", [])):
+        m = re.match(r"^\[([^\]]+)\]:\s*(.*)$", str(c))
+        name, msg = (m.group(1), m.group(2)) if m else ("", str(c))
+        rows.append(f'<div class="ls-row"><b style="color:{cols[i % len(cols)]}">{E(name)}</b>{fmt_text(msg)}</div>' if name
+                    else f'<div class="ls-row">{fmt_text(msg)}</div>')
+    head = '<span class="ls-live">● LIVE</span>' + (f'<span class="ls-view">{E(str(u["viewers"]))}</span>' if u.get("viewers") else "")
+    return (f'<div class="lstream" style="left:{x * 100:.1f}%;top:{y * 100:.1f}%;width:{u.get("width", 0.46) * 100:.0f}%">'
+            f'<div class="ls-head">{head}</div>{"".join(rows)}</div>')
 
 
 def video_call_chrome(u, w, h):
@@ -682,6 +708,20 @@ SFX_JS = r"""
       moved++;
     }
   }
+  // SFX may break the panel frame but never run off the page: keep every one inside the strip's width.
+  const pageW = document.documentElement.clientWidth, edge = 14;
+  for (const s of document.querySelectorAll('.sfx')) {
+    const pov = s.parentElement.getBoundingClientRect();
+    for (let it = 0; it < 4; it++) {
+      const r = s.getBoundingClientRect();
+      if (r.width > pageW - 2 * edge) { s.style.fontSize = (parseFloat(s.style.fontSize) * (pageW - 2 * edge) / r.width * 0.97).toFixed(1) + 'px'; continue; }
+      let dx = 0;
+      if (r.left < edge) dx = edge - r.left; else if (r.right > pageW - edge) dx = pageW - edge - r.right;
+      if (!dx) break;
+      s.style.left = (parseFloat(s.style.left) + dx / pov.width * 100).toFixed(2) + '%';
+      moved++;
+    }
+  }
   return {moved, stuck};
 }
 """
@@ -740,6 +780,8 @@ def strip_css(W):
 .syswin.tilted{{transform:translateX(-50%) perspective(1500px) rotateY(var(--tilt)) rotateX(3deg);filter:drop-shadow(0 0 14px rgba(63,227,242,.45))}}
 .syswin.mir.tilted{{transform:translateX(-50%) perspective(1500px) rotateY(var(--tilt)) rotateX(3deg) scaleX(-1)}}
 .syswin img{{display:block;width:100%;height:100%}}
+.syswin.glitchy.tilted{{filter:drop-shadow(0 0 14px rgba(63,227,242,.45)) drop-shadow(5px 0 0 rgba(255,45,85,.42)) drop-shadow(-5px 0 0 rgba(60,230,255,.42))}}
+.syswin.glitchy .stx span{{text-shadow:2px 0 0 rgba(255,45,85,.85),-2px 0 0 rgba(60,230,255,.85),0 0 8px rgba(63,227,242,.8)}}
 .stx{{position:absolute;display:flex;align-items:center;font-family:'UI',sans-serif;font-weight:700;letter-spacing:.04em;line-height:1.12;
   text-shadow:0 0 8px rgba(63,227,242,.8)}}
 .stx.nw span{{white-space:nowrap}}
@@ -750,6 +792,14 @@ def strip_css(W):
   font:700 30px/1.05 'UI',sans-serif;letter-spacing:.06em;color:#1d1917;box-shadow:6px 6px 0 rgba(43,37,35,.85)}}
 .intro span{{display:block;font:600 19px/1.2 'UI',sans-serif;letter-spacing:.16em;color:#5d6470;margin-top:5px}}
 .label{{position:absolute;z-index:3;font-family:'Marker','Gaegu',cursive;white-space:nowrap;letter-spacing:1px;opacity:.92}}
+.lstream{{position:absolute;transform:translateX(-50%);z-index:5;background:rgba(10,12,20,.74);border:1.5px solid rgba(255,255,255,.2);
+  border-radius:14px;padding:12px 16px 14px;box-shadow:0 4px 16px rgba(0,0,0,.35)}}
+.ls-head{{display:flex;align-items:center;gap:10px;margin-bottom:4px;font:700 16px/1 'UI',sans-serif;letter-spacing:.08em;color:#fff}}
+.ls-live{{background:#e5383b;padding:5px 9px 4px;border-radius:6px}}
+.ls-view{{opacity:.85}}
+.ls-row{{font:600 21px/1.28 'App',sans-serif;color:#f4f4f6;margin-top:7px;text-wrap:pretty}}
+.ls-row b{{font-weight:700;margin-right:8px}}
+body > .blk:first-child .t-tag{{top:18px}}
 .ovl{{position:absolute;left:8%;right:8%;top:8%;padding:20px;background:rgba(255,255,255,.94);font:600 26px/1.3 'App';z-index:5;border-radius:12px}}
 iframe.appl{{position:absolute;inset:0;width:100%;height:100%;border:0;z-index:4;background:transparent}}
 .card{{position:relative;background-repeat:no-repeat}}
@@ -914,7 +964,7 @@ def main():
                     continue
                 qw, qh = quad_size(quad)
                 kind = u["kind"]
-                if kind in kit.apps and kind != "phone.ttok_chat" and qh >= qw * 0.9:
+                if kind in kit.apps and kind not in ("phone.ttok_chat", "phone.gate_status") and qh >= qw * 0.9:
                     png, meta = kit.apps[kind]
                     page.set_viewport_size({"width": meta["size"][0], "height": meta["size"][1]})
                     fills = app_fills(kind, u)
@@ -931,6 +981,7 @@ def main():
                     page.set_viewport_size({"width": uw, "height": uh})
                     load_html(page, html_app(u, uw, uh), WORK / f"{pid}_app.html")
                     page.evaluate("document.fonts.ready")
+                    page.evaluate(FIT_JS)
                     page.screenshot(path=str(WORK / f"{pid}_ui.png"), omit_background=True)
                 ui = cv2.imread(str(WORK / f"{pid}_ui.png"), cv2.IMREAD_UNCHANGED)
                 if ui.shape[2] == 3:
@@ -1100,8 +1151,11 @@ def main():
             prev_bg = bg
             dcls = " dark" if dark else ""
             if kind == "title":
+                # v2 scripts carry the line as title_card ("MY SUMMONS GO FIRST · CHAPTER 1 · BAIT"); the logo already names the series
+                ttl = p.get("title_text") or re.sub(r"^\s*MY SUMMONS GO FIRST\s*·\s*", "", str(p.get("title_card", "")), flags=re.I)
+                p["title_text"] = ttl
                 if "title" in kit.cards:
-                    blocks.append(card_html(kit.cards["title"], {"chapter": p.get("title_text", "")}, W))
+                    blocks.append(card_html(kit.cards["title"], {"chapter": ttl}, W))
                 else:
                     logo = (f'<img class="logo" src="{uri(kit.logo)}">' if kit.logo else
                             '<div class="logo-t">MY SUMMONS<br><span>GO FIRST</span></div>')
@@ -1138,6 +1192,15 @@ def main():
             floats = [u for u in ui if u.get("on") == "float"]
             for k, u in enumerate(floats):
                 kk = u["kind"].split(".", 1)[-1]
+                # A one-line glitch message would sit alone in the big glitch window (a mostly empty frame that covers the
+                # art), so it uses the compact notice bar instead, with a chromatic glitch treatment.
+                glitchy = False
+                if kk == "glitch" and not u.get("body") and not u.get("button"):
+                    glitchy = True
+                    kk = "notice_small" if len(str(u.get("text", u.get("headline", "")))) <= 26 else "notice"
+                if u["kind"] == "phone.live_stream":
+                    inner.append(live_stream_html(u))
+                    continue
                 if not u["kind"].startswith("system.") or not kit.system_tpl(kk):
                     inner.append(f'<div class="ovl">{fmt_text(u.get("text", u["kind"]))}</div>')
                     continue
@@ -1177,7 +1240,7 @@ def main():
                     top = {"top": 9, "top-left": 9, "top-right": 9, "center": 30, "bottom": 58}.get(p.get("calm"), 12) + k * 24
                 tilt = u.get("tilt", -8 if k % 2 == 0 else 7)
                 mirror = " mir" if u.get("mirror") else ""
-                inner.append(f'<div class="syswin k-{kk}{mirror}" data-tilt="{tilt}" style="--wf:{SYS_WFRAC.get(kk, .66)};left:{left}%;top:{top}%;aspect-ratio:{sw_}/{sh_}">'
+                inner.append(f'<div class="syswin k-{kk}{mirror}{" glitchy" if glitchy else ""}" data-tilt="{tilt}" style="--wf:{SYS_WFRAC.get(kk, .66)};left:{left}%;top:{top}%;aspect-ratio:{sw_}/{sh_}">'
                              f'<img src="{uri(png)}">{"".join(texts)}</div>')
                 txt = ". ".join(filter(None, [fill.get("headline"), fill.get("body"), fill.get("name"), fill.get("button")] + list(u.get("lines", []) or [])))
                 if txt:
