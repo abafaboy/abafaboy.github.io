@@ -1,0 +1,1230 @@
+chapter: 13
+title: The Hearing
+format: SCRIPT_FORMAT_v2.md
+when: "The next Wednesday: the Hunter Association's headquarters in Mapo, its lobby at 9 AM, a hearing room at 10 AM and the test arena in its basement at noon."
+story_beats: ARC3_4_BEATS.md#13-the-hearing
+cast:
+  kang_jaeha: vest          # a clean vest, a borrowed white shirt collar showing under the hoodie (see continuity)
+  nib: mask                 # rest form all chapter
+  borro: default            # husk face all chapter; rest form
+  song_yerin: default
+  choi_dongmin: default
+  yoo_bomi: default
+  mok_hangyu: default       # a navy suit, no guild jacket (see continuity)
+  bh_crossbow: default      # the Black Hound crossbow woman (Han Sora; name card in ch 14)
+  inspector_ryu: default    # generic: chairs the hearing panel, see continuity
+  bh_lawyer: default        # generic: Black Hound's lawyer, see continuity
+  assoc_guard: default      # generic: the lobby guard, see continuity
+  training_construct: default
+locations: [assoc_lobby, assoc_hearing_room, assoc_arena]
+continuity:
+  - "Jaeha: the orange vest (Seoa's red stitches on the back patch) over the grey hoodie, with the collar of a borrowed white shirt showing at the neck because Seoa insisted; plasters on both palms; the bite bandage on his LEFT forearm. Fringe over the LEFT eye, pencil behind the RIGHT ear, notebook in the LEFT chest pocket."
+  - "Nib: seal 2/5 look with the cracked husk mask; rest form all chapter (no glow). In public he plays a husk, badly. Borro: the white oval husk face tied on with cord; rest form all chapter; he must duck under every doorway (2.4 m)."
+  - "Mok Hangyu: a navy suit and tie with the small red hound's-head pin, his gold chain showing at the open collar; no shield. A thin smile for the press; dead eyes."
+  - "The Black Hound crossbow woman (bh_crossbow, CHARACTER_DESIGNS_v2.md 2.5 hunter 5): the cropped guild jacket open over the low-necked black tank top, fitted black trousers with the thigh holster, the sleek black bob, winged eyeliner, red lips; in the gallery a small brass compass in her lap. Fan service per CHARACTER_DESIGNS_v2.md: a beautiful face, a confident pose, nothing explicit."
+  - "Inspector Ryu (generic, no name card): a tired, fair man in his fifties in a grey Hunter Association uniform jacket, reading glasses, a grey moustache. Two evaluators flank him in the same uniform (a woman in her forties, a young man)."
+  - "Black Hound's lawyer (generic): a sleek man in his forties in an expensive grey suit, a silver tie, slicked hair, a tablet."
+  - "The lobby guard (generic): a young Association guard in a grey uniform with a handheld scanner wand."
+  - "The training construct (new design, see ARC3_4_BEATS.md): a 4 m stone figure of grey granite blocks bound with brass bands, a blank rounded head, arms like pillars; a fist-sized amber test core glowing behind a brass grille in the middle of its chest; slow, heavy, it moves on rails of light in the floor. Scale: Jaeha reaches its hip."
+  - "Places (new keys, see ARC3_4_BEATS.md): the Association lobby (a tall glass atrium, a grey-and-white floor with the Association's star-and-shield emblem inlaid (no letters), big screens on the walls, a security arch); the hearing room (a wood-panelled room, a raised panel desk, two tables facing it, a public gallery behind a rail); the test arena (a round basement arena 30 m across with padded grey walls, an observation window high on one side, a big screen)."
+plants:
+  - "PLANT P27: Jaeha keeps Mok's bribe recording (ch 5) back: 'A bribe gets him a fine. I want the door.' (ch 21)"
+  - "PLANT P64–P66: the crossbow woman's compass points at Jaeha (ch 14)."
+hook_type: threat
+
+panels:
+
+  # ================= THE LOBBY (P01–P10) =================
+  - id: P01
+    recipe: establish
+    shape: full
+    gap: none
+    bg: white
+    camera: "high (10 m) in a tall glass atrium: every wall screen showing the same clip of a giant holding up a bridge, people below looking up"
+    light: "key: morning daylight through the glass roof; the screens' glow"
+    art: >
+      The Hunter Association's lobby (location assoc_lobby): a tall glass atrium, a grey-and-white floor with the
+      Association's star-and-shield emblem inlaid (no letters), and big wall screens, every one playing the same clip: a
+      masked giant holding up a falling footbridge. Hunters in gear, office workers and reporters stand below, looking up at
+      the screens. Scale: the atrium is five storeys high; the people are small.
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "HUNTER ASSOCIATION HEADQUARTERS, MAPO. WEDNESDAY, 9 AM."}
+      - {who: offpanel:crowd, type: announce, text: "...TWENTY MILLION VIEWS FOR THE CLIP NOW CALLED 'HIS SUMMONS GO FIRST'..."}
+    sfx:
+      - {text: "MURMUR MURMUR", style: quiet, at: [0.70, 0.86], size: S, rot: 0}
+
+  - id: P02
+    recipe: establish
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level at the security arch: Jaeha, Yerin and Choi in the queue, Nib stiff beside them, Borro ducking to fit under the arch"
+    light: "daylight; the arch's small lights"
+    art: >
+      At the security arch: Jaeha (kang_jaeha, vest, a white shirt collar showing), Yerin (song_yerin) and Choi (choi_dongmin)
+      wait in the queue; Nib (nib, mask) stands stiffly beside them; Borro (borro, husk face) bends almost double to fit under
+      the 2.2 m arch, his shell scraping its top. Everyone in the lobby has stopped to stare at him.
+    acting:
+      kang_jaeha: "a polite small bow to the guard, both hands holding a folder"
+      song_yerin: "hugging her bag, looking round at the staring crowd"
+      choi_dongmin: "sipping coffee, deadpan, used to it"
+      nib: "standing stiffly, arms hanging"
+      borro: "bent double under the arch, shell scraping, very careful"
+    calm: top
+    sfx:
+      - {text: "BEEP BEEP BEEP", style: alert, at: [0.60, 0.30], size: M, rot: 0}
+
+  - id: P03
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, by the arch: the young guard leaning down to stare into Nib's cracked mask, his scanner wand raised"
+    light: "daylight"
+    art: >
+      By the arch: the young lobby guard (assoc_guard) leans down to stare into Nib's cracked husk mask, his scanner wand
+      raised; Nib (nib, mask) stands rigidly still like a doll.
+    acting:
+      assoc_guard: "bent at the waist, nose almost touching the mask, squinting, wand raised"
+      nib: "rigid, arms hanging, staring straight through the guard"
+    eyeline: "the guard → Nib; Nib → nowhere"
+    foreground: "the edge of the security arch, cropped, left"
+    calm: top
+    lines:
+      - {who: assoc_guard, type: speech, text: "SO THIS IS ONE OF THE FAMOUS 'UNUSUAL HUSKS'.", side: l}
+
+  - id: P04
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "extreme close-up: the guard's finger poking Nib's grey-green cheek below the mask, Nib's eye twitching"
+    light: "daylight"
+    art: >
+      Extreme close-up: the guard's finger pokes Nib's grey-green cheek just below the cracked mask, pushing it in; Nib's
+      uncovered eye twitches.
+    acting:
+      nib: "face rigid, cheek pushed in by the finger, eye twitching dangerously"
+    calm: left
+    silent: true
+    sfx:
+      - {text: "POKE", style: comic, at: [0.30, 0.30], size: M, rot: -6}
+      - {text: "TWITCH", style: quiet, at: [0.76, 0.24], size: S, rot: 0}
+
+  - id: P05
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level, three-shot: the guard poking again, Jaeha smiling too hard, Choi hiding a laugh behind his coffee"
+    light: "daylight"
+    face: public
+    art: >
+      The guard (assoc_guard) pokes Nib's cheek again; Jaeha (kang_jaeha) smiles far too hard beside them; Choi hides a laugh
+      behind his coffee cup.
+    acting:
+      assoc_guard: "poking again, frowning, puzzled"
+      kang_jaeha: "a rigid customer-service smile, a sweat drop, hands clasped on the folder"
+      choi_dongmin: "coffee cup raised to hide his mouth, shoulders shaking"
+      nib: "rigid, the eye twitching"
+    eyeline: "the guard → Nib; Jaeha → the guard"
+    foreground: "Choi's coffee cup, cropped, right"
+    calm: top
+    lines:
+      - {who: assoc_guard, type: speech, text: "IT'S WARM. WHY IS A HUSK WARM?", side: l}
+      - {who: kang_jaeha, type: nervous, text: "HE'S A WARM HUSK, SIR. WE KEEP HIM BY THE HEATER.", side: r}
+
+  - id: P06
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on Nib's masked face, perfectly still, a single bead of sweat rolling down from under the mask"
+    light: "daylight"
+    art: >
+      Close on Nib's masked face, perfectly still, a single bead of sweat rolling down from under the mask.
+    acting:
+      nib: "rigid, unblinking, a sweat bead rolling, lips pressed into a thin line"
+    calm: right
+    lines:
+      - {who: nib, type: whisper, text: "......", side: l}
+
+  - id: P07
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, behind Borro as he straightens up on the far side of the arch, the guard looking up and up at him"
+    light: "daylight"
+    art: >
+      From low behind Borro (borro, husk face) as he straightens up on the far side of the arch to his full 2.4 m; the guard
+      (assoc_guard) cranes his neck back to look up at him, the wand drooping.
+    acting:
+      borro: "straightening slowly, the shield on his back, a hand on the small of his back like an old man"
+      assoc_guard: "head tilted all the way back, mouth open, the wand drooping"
+    eyeline: "the guard → Borro (up)"
+    foreground: "Borro's shell and shield, cropped, right half"
+    calm: top
+    lines:
+      - {who: assoc_guard, type: speech, text: "AND THIS ONE IS...?", side: l}
+      - {who: offpanel:kang_jaeha, type: nervous, text: "A BIG HUSK, SIR. HE'S HARMLESS. HE GARDENS.", side: r}
+
+  - id: P08
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: white
+    camera: "eye level from the back of a wood-panelled hearing room: the raised panel desk, two tables facing it, a packed public gallery"
+    light: "key: cool overhead light; daylight through tall blinds"
+    art: >
+      The hearing room (location assoc_hearing_room), from the back: a wood-panelled room with a raised panel desk where
+      Inspector Ryu (inspector_ryu) and two evaluators sit; two tables face it. At the left table, Mok (mok_hangyu, navy suit)
+      and his lawyer (bh_lawyer); at the right, Jaeha alone, with Nib and Borro standing stiffly behind his chair. Behind a
+      wooden rail, a packed public gallery of reporters with cameras, Bomi with her phone, Yerin and Choi, and in the back row,
+      the crossbow woman (bh_crossbow) with her legs crossed.
+    acting:
+      inspector_ryu: "at the centre of the panel desk, glasses on, shuffling papers"
+      mok_hangyu: "sitting square, hands folded, a solemn face for the cameras"
+      bh_lawyer: "tapping his tablet, smiling slightly"
+      kang_jaeha: "sitting upright and small at the right table, hands on the folder"
+      bh_crossbow: "leaning back in the gallery's back row, legs crossed, watching Jaeha with amusement"
+    calm: top
+    sfx:
+      - {text: "KSHK KSHK", style: quiet, at: [0.80, 0.70], size: S, rot: 0}
+
+  - id: P09
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, from the right table: Inspector Ryu at the raised desk, tapping his microphone"
+    light: "overhead"
+    art: >
+      From low at the right table: Inspector Ryu (inspector_ryu) at the raised panel desk taps his microphone and reads from a
+      sheet, the two evaluators on either side of him.
+    acting:
+      inspector_ryu: "tapping the microphone with one finger, reading over his glasses, tired"
+    eyeline: "Ryu → the sheet"
+    foreground: "Jaeha's folder and plastered hands on the table, cropped, bottom"
+    calm: top
+    lines:
+      - {who: inspector_ryu, type: speech, text: "THIS HEARING CONCERNS GATE 0912, AND THE SO-CALLED 'UNUSUAL HUSKS' OF MR. KANG JAEHA.", side: l}
+    sfx:
+      - {text: "TAP TAP", style: quiet, at: [0.30, 0.30], size: S, rot: 0}
+
+  - id: P10
+    kind: title
+    shape: full
+    gap: long
+    bg: black
+    title_card: "MY SUMMONS GO FIRST · CHAPTER 13 · THE HEARING"
+    notes: "Title card at panel 10 of 66 (15%)."
+
+  # ================= THE HEARING (P11–P30) =================
+  - id: P11
+    recipe: talk
+    shape: wide
+    gap: long
+    bg: white
+    camera: "eye level, three-quarter on the left table: Black Hound's lawyer standing with his tablet, Mok solemn beside him"
+    light: "overhead"
+    art: >
+      At the left table, Black Hound's lawyer (bh_lawyer) stands with his tablet, smooth and confident; Mok (mok_hangyu) sits
+      beside him with a solemn, grieving face for the cameras.
+    acting:
+      bh_lawyer: "standing, one hand on the tablet, the other open toward Jaeha, a regretful smile"
+      mok_hangyu: "sitting with his hands folded, eyes lowered, jaw set, playing the grieving leader"
+    eyeline: "the lawyer → the panel"
+    foreground: "a reporter's camera lens over the gallery rail, cropped, bottom right"
+    calm: top
+    lines:
+      - {who: bh_lawyer, type: speech, text: "BLACK HOUND'S POSITION IS SIMPLE. MR. KANG SET OFF THE HIDDEN BOSS.", side: l}
+      - {who: bh_lawyer, type: speech, text: "FOUR HUNTERS DIED BECAUSE A TRAP-TESTER WENT WHERE HE SHOULDN'T.", side: l}
+
+  - id: P12
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, close on Mok standing at the witness stand, one hand on his heart, the press cameras flashing"
+    light: "camera flashes"
+    art: >
+      Close and low on Mok (mok_hangyu) at the witness stand, one big hand on his heart, his eyes glistening on cue; camera
+      flashes from the gallery.
+    acting:
+      mok_hangyu: "standing tall, one hand flat on his chest, chin trembling, eyes glistening"
+    eyeline: "Mok → the panel"
+    foreground: "the witness stand's microphone, cropped, bottom"
+    calm: top
+    lines:
+      - {who: mok_hangyu, type: speech, text: "I CARRY THOSE FOUR NAMES EVERY DAY. I SHUT THAT DOOR TO SAVE MY TEAM.", side: l}
+    sfx:
+      - {text: "FLASH FLASH", style: quiet, at: [0.80, 0.20], size: S, rot: 0}
+
+  - id: P13
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Yerin in the gallery, her hands clenched white on the rail"
+    light: "overhead"
+    art: >
+      Close on Yerin (song_yerin) in the gallery, her hands clenched white on the wooden rail, glaring at Mok.
+    acting:
+      song_yerin: "gripping the rail with both hands, knuckles white, jaw clenched, eyes wet and furious"
+    eyeline: "Yerin → Mok"
+    calm: left
+    silent: true
+    sfx:
+      - {text: "GRIP", style: quiet, at: [0.30, 0.70], size: S, rot: 0}
+
+  - id: P14
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level, side-on: the evaluator leaning toward Jaeha at the right table, Jaeha answering with a small bow"
+    light: "overhead"
+    face: public
+    art: >
+      Side-on: the woman evaluator leans toward Jaeha over the panel desk; Jaeha (kang_jaeha) answers from his table with a
+      small polite bow, Nib and Borro standing stiffly behind him.
+    acting:
+      kang_jaeha: "a small seated bow, hands flat on the folder, polite eyes"
+      nib: "standing rigidly behind the chair"
+      borro: "standing rigidly behind the chair, swaying slightly"
+    eyeline: "the evaluator → Jaeha; Jaeha → the evaluator"
+    foreground: "the panel desk's edge and a nameplate (blank), cropped, top left"
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: speech, text: "MR. KANG. DID YOU ENTER THE BOSS ROOM ON YOUR OWN?", side: l}
+      - {who: kang_jaeha, type: speech, text: "I FOLLOWED THE RAID LEADER'S ORDERS, MA'AM. SUMMONS GO FIRST. THEN SUMMONERS.", side: r}
+
+  - id: P15
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, at the witness stand: Choi in his rescue jacket, slouched, coffee cup in hand, looking straight at Mok"
+    light: "overhead"
+    art: >
+      At the witness stand: Choi (choi_dongmin) in his rescue jacket slouches with his coffee cup, looking straight across at
+      Mok.
+    acting:
+      choi_dongmin: "slouched on one elbow, coffee cup in his hand, eyes tired and steady on Mok"
+    eyeline: "Choi → Mok"
+    foreground: "the microphone, cropped, bottom left"
+    calm: top
+    lines:
+      - {who: choi_dongmin, type: speech, text: "THE BOSS ROOM'S LAMP WAS RED. RED MEANS THE BOSS IS ABOVE THE GATE'S GRADE.", side: l}
+      - {who: choi_dongmin, type: speech, text: "THE SURVEY BLACK HOUND PAID FOR CALLED IT C-GRADE.", side: l}
+
+  - id: P16
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on a photo held up by Choi: the iron boss door with its red lamp"
+    light: "overhead"
+    art: >
+      Close on a printed photo in Choi's hand: the tall iron boss door from Gate 0912 with the lamp above it burning red.
+    calm: right
+    silent: true
+
+  - id: P17
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level, over Choi's shoulder toward the panel: Choi leaning into the microphone, the panel listening"
+    light: "overhead"
+    art: >
+      Over Choi's shoulder (his messy hair and jacket, cropped, foreground): he leans into the microphone; Inspector Ryu takes
+      his glasses off to listen.
+    acting:
+      choi_dongmin: "leaning into the microphone, one finger tapping the stand"
+      inspector_ryu: "taking his glasses off, leaning forward"
+    eyeline: "Choi → the panel; Ryu → Choi"
+    foreground: "Choi's shoulder and the back of his head, cropped, left third"
+    calm: top
+    lines:
+      - {who: choi_dongmin, type: speech, text: "AN F-RANK AND A ROOKIE WALKED OUT OF A GATE THAT KILLED FOUR B-RANKS. THINK ABOUT THAT.", side: l}
+      - {who: choi_dongmin, type: speech, text: "AND BLACK HOUND ALSO HELD THE MANGWON MARKET CONTRACT. THEY POSTPONED IT TWICE.", side: l}
+
+  - id: P18
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on the lawyer leaping to his feet, one hand raised"
+    light: "overhead"
+    art: >
+      Close on Black Hound's lawyer (bh_lawyer) leaping to his feet with one hand raised.
+    acting:
+      bh_lawyer: "half out of his chair, one hand raised high, the smile gone"
+    eyeline: "the lawyer → the panel"
+    foreground: "the lawyer's tablet on the table, cropped, bottom"
+    calm: left
+    lines:
+      - {who: bh_lawyer, type: shout, text: "OBJECTION! THE MARKET BREAK IS NOT WHAT THIS HEARING IS ABOUT!", side: r}
+
+  - id: P19
+    recipe: chorus
+    shape: wide
+    gap: short
+    bg: white
+    camera: "high, over the gallery: reporters typing fast, Bomi filming on her phone, murmurs rippling"
+    light: "overhead; phone screens"
+    art: >
+      High over the gallery: reporters type fast on laptops and phones; Bomi (yoo_bomi) films on her phone held low; heads turn
+      to whisper.
+    acting:
+      yoo_bomi: "holding her phone low in her lap, filming, biting her lip with glee"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "TAK TAK TAK TAK", style: quiet, at: [0.60, 0.70], size: S, rot: 0}
+
+  - id: P20
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, at the witness stand: Yerin taking the stand, small behind the microphone, the whole room watching"
+    light: "overhead; one shaft of daylight from the blinds on her"
+    art: >
+      Yerin (song_yerin) takes the witness stand, small behind the microphone, her pink bag on the floor beside her. The whole
+      room watches her.
+    acting:
+      song_yerin: "both hands gripping the edges of the stand, shoulders up, chin raised, voice shaking but clear"
+    eyeline: "Yerin → Mok"
+    foreground: "the gallery rail, cropped, bottom"
+    calm: top
+    lines:
+      - {who: song_yerin, type: speech, text: "MY NAME IS SONG YERIN. I WAS THE HEALER ON THAT RAID. MY FIRST RAID.", side: l}
+
+  - id: P21
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level, three-quarter on the lawyer, strolling toward the stand with a kind, poisonous smile"
+    light: "overhead"
+    art: >
+      The lawyer (bh_lawyer) strolls toward the stand with a kind, poisonous smile, tablet under his arm.
+    acting:
+      bh_lawyer: "strolling with one hand in his pocket, head tilted, a gentle smile"
+      song_yerin: "at the stand, flinching slightly"
+    eyeline: "the lawyer → Yerin"
+    foreground: "the stand's corner, cropped, right"
+    calm: top
+    lines:
+      - {who: bh_lawyer, type: speech, text: "YOU FROZE ON YOUR FIRST RAID, MISS SONG. HOW DO YOU KNOW WHAT YOU SAW?", side: l}
+
+  - id: P22
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: white
+    camera: "extreme close-up of Yerin's eyes, frightened, then steadying"
+    light: "a shaft of daylight"
+    art: >
+      Extreme close-up: Yerin's eyes (song_yerin), wide and wet, then steadying. Fill the canvas edge to edge.
+    acting:
+      song_yerin: "eyes wet but steadying, brows setting"
+    calm: none
+    lines:
+      - {who: song_yerin, type: speech, text: "I FROZE. I WASN'T BLIND.", side: r}
+
+  - id: P23
+    recipe: talk
+    shape: tall
+    gap: short
+    bg: white
+    camera: "low, from the floor in front of the stand: Yerin straightening up to her full small height, pointing across the room at Mok"
+    light: "the shaft of daylight on her; the room darker round her"
+    art: >
+      From low in front of the stand: Yerin (song_yerin) straightens up to her full small height and points across the room at
+      Mok, her arm steady.
+    acting:
+      song_yerin: "standing straight, one arm extended, finger pointing at Mok, chin up, tears on her cheeks but her voice steady"
+    eyeline: "Yerin → Mok"
+    calm: top
+    lines:
+      - {who: song_yerin, type: speech, text: "I WATCHED HIM CLOSE THAT DOOR. WITH US ON THE WRONG SIDE OF IT.", side: l}
+
+  - id: P24
+    recipe: silent
+    shape: wide
+    gap: short
+    bg: white
+    camera: "high, over the whole room: no one moving, every face turned toward Mok"
+    light: "overhead; dust in the daylight shaft"
+    art: >
+      High over the whole hearing room: no one moves; the reporters' hands have stopped on their keyboards; every face in the
+      gallery and at the panel desk has turned toward Mok.
+    calm: top
+    silent: true
+
+  - id: P25
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on Mok's folded hands on the table, the knuckles going white, the gold chain glinting at his collar"
+    light: "overhead"
+    art: >
+      Close on Mok's big folded hands on the table: the knuckles go white as the fingers dig in; the gold chain glints at his
+      open collar.
+    calm: right
+    silent: true
+    sfx:
+      - {text: "KREEK", style: quiet, at: [0.40, 0.40], size: S, rot: 0}
+
+  - id: P26
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, close two-shot in the corridor at the recess: Yerin shaking, Jaeha holding her shoulders"
+    light: "a quiet corridor; daylight from a window"
+    face: private
+    art: >
+      Recess, in a quiet corridor outside the hearing room: Yerin (song_yerin) is shaking now that it's over; Jaeha (kang_jaeha)
+      holds her by the shoulders. Nib and Borro stand stiffly against the wall behind them.
+    acting:
+      song_yerin: "shaking, hugging herself, a wobbly laugh through tears"
+      kang_jaeha: "hands on her shoulders, a warm, real smile"
+    eyeline: "Yerin ↔ Jaeha"
+    foreground: "a corridor bench's armrest, cropped, bottom left"
+    calm: top
+    lines:
+      - {who: song_yerin, type: speech, text: "WHY DON'T YOU PLAY THEM YOUR RECORDING? THE BRIBE?", side: l}
+
+  - id: P27
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Jaeha, the private face, his phone half out of his chest pocket"
+    light: "window light"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha), the cold private face, tapping the phone half out of his chest pocket.
+    acting:
+      kang_jaeha: "two fingers tapping the phone in his pocket, eyes narrowed, a thin smile"
+    eyeline: "Jaeha → the hearing room door"
+    foreground: "Yerin's shoulder and ponytail, cropped, right edge"
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: speech, text: "A BRIBE GETS HIM A FINE. I WANT THE DOOR.", side: r}
+
+  - id: P28
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level at the panel desk: Inspector Ryu reading a decision, the two evaluators nodding"
+    light: "overhead"
+    art: >
+      Back in the hearing room: Inspector Ryu (inspector_ryu) reads a decision from a sheet, the evaluators nodding beside him.
+    acting:
+      inspector_ryu: "reading from the sheet, glasses on, tired but firm"
+    eyeline: "Ryu → the sheet"
+    foreground: "the back of Jaeha's head at the right table, cropped, bottom left"
+    calm: top
+    lines:
+      - {who: inspector_ryu, type: speech, text: "THE TESTIMONY CONFLICTS. SO THE PANEL WILL JUDGE WHAT IT CAN SEE.", side: l}
+      - {who: inspector_ryu, type: speech, text: "MR. KANG IS TO BE RE-TESTED TODAY, WITH HIS HUSKS. IN THE ARENA.", side: l}
+
+  - id: P29
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on Mok, a slow smile returning, leaning toward his lawyer"
+    light: "overhead"
+    art: >
+      Close on Mok (mok_hangyu): a slow smile returns to his face as he leans toward his lawyer.
+    acting:
+      mok_hangyu: "leaning sideways toward the lawyer, a slow confident smile, eyes on Jaeha"
+    eyeline: "Mok → Jaeha"
+    calm: right
+    lines:
+      - {who: mok_hangyu, type: whisper, text: "GOOD. LET EVERYONE SEE WHAT A HUSK REALLY IS.", side: l}
+
+  - id: P30
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Nib and Borro behind Jaeha's chair, both staring rigidly ahead, sweating"
+    light: "overhead"
+    art: >
+      Close on Nib and Borro behind Jaeha's chair: both stare rigidly ahead in husk pose; a sweat drop runs down from under each
+      mask.
+    acting:
+      nib: "rigid, staring ahead, one sweat drop"
+      borro: "rigid, staring ahead, one big sweat drop"
+    calm: left
+    silent: true
+    sfx:
+      - {text: "GULP", style: quiet, at: [0.50, 0.30], size: S, rot: 0}
+
+  # ================= THE RE-TEST (P31–P54) =================
+  - id: P31
+    recipe: establish
+    shape: tall
+    gap: long
+    bg: black
+    camera: "high, from the observation window: a round basement arena with padded walls, a huge stone construct standing in the middle"
+    light: "key: cold white floodlights; rails of light in the floor"
+    art: >
+      The test arena (location assoc_arena), from high at the observation window: a round basement arena 30 m across with
+      padded grey walls, a big screen on one side, and in the middle a 4 m stone construct of grey granite blocks bound with
+      brass bands (training_construct), an amber core glowing behind a brass grille in its chest, standing on rails of light.
+      Jaeha, Nib and Borro stand small at the edge. Behind the observation glass: the panel, Mok, the lawyer, the press.
+      Scale: Jaeha reaches the construct's hip; Borro reaches its chest.
+    acting:
+      training_construct: "standing dormant on its rails, arms hanging, the core glowing steadily"
+      kang_jaeha: "standing at the arena's edge with the folder under his arm"
+      nib: "standing stiffly beside him"
+      borro: "standing stiffly beside him"
+    calm: top
+    sfx:
+      - {text: "VMMMMM", style: quiet, at: [0.50, 0.80], size: S, rot: 0}
+
+  - id: P32
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level: Jaeha standing under a scanning arch of blue light, a window floating beside him that only he can see"
+    light: "the scanner's blue light; cyan from the window"
+    face: private
+    art: >
+      At the arena's edge, Jaeha (kang_jaeha) stands under a scanning arch of blue light that reads his rank; a window floats
+      beside him that only he can see. The upper half is empty for the window.
+    acting:
+      kang_jaeha: "standing with his arms at his sides, eyes sliding to the window, expressionless"
+    eyeline: "Jaeha → the window"
+    calm: top
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.05], headline: "[CLASS: OPERATOR · HIDDEN]", body: "SHOWN TO OTHERS AS: SUMMONER (F)", button: "OK"}
+    silent: true
+
+  - id: P33
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close on the arena's big screen: the test rules, the screen green"
+    light: "the screen glow"
+    art: >
+      Close on the arena's big wall screen, flat green, with a small speaker grille beside it.
+    calm: top
+    ui:
+      - kind: phone.info_card
+        "on": screen
+        title: "RE-TEST · SUMMONER (F) · KANG JAEHA"
+        text: "OPPONENT: TRAINING CONSTRUCT (B) · TIME LIMIT 05:00 · THE TEST ENDS WHEN THE CONSTRUCT'S CORE IS TOUCHED"
+    silent: true
+
+  - id: P34
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of Jaeha's eyes reading the screen, narrowing on one line"
+    light: "green screen glow"
+    face: private
+    art: >
+      Extreme close-up: Jaeha's eyes (kang_jaeha), the green glow of the screen in them, narrowing on one line. Fill the canvas
+      edge to edge.
+    acting:
+      kang_jaeha: "eyes narrowing, one brow lifting slightly"
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: inner, text: "'WHEN THE CORE IS TOUCHED.' NOT DESTROYED. TOUCHED."}
+
+  - id: P35
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, between Nib and Borro: Jaeha whispering to them without moving his lips, the construct looming ahead"
+    light: "floodlights"
+    face: private
+    art: >
+      From low between Nib and Borro: Jaeha (kang_jaeha) whispers to them without moving his lips, his eyes on the construct
+      looming ahead.
+    acting:
+      kang_jaeha: "standing still, lips barely moving, eyes on the construct"
+      nib: "rigid, but his eye sliding toward Jaeha"
+      borro: "rigid, his head tilting very slightly toward Jaeha"
+    eyeline: "Jaeha → the construct; Nib and Borro → Jaeha"
+    foreground: "Borro's shield edge, cropped, right"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: whisper, text: "REMEMBER, YOU'RE HUSKS. STIFF. SLOW. NO TALKING. NO FIELD FORM.", side: l}
+      - {who: borro, type: whisper, text: "I AM ALWAYS SLOW. THIS WILL BE EASY.", side: r}
+
+  - id: P36
+    recipe: anticipation
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, behind the construct: its blank head turning toward the three of them, the rails of light flaring under it"
+    light: "floodlights; the rails flaring amber"
+    art: >
+      From low behind the construct: its blank stone head grinds round toward Jaeha's side, and the rails of light under it
+      flare amber as it starts to move.
+    acting:
+      training_construct: "head turning with a grind of stone, one pillar arm lifting"
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.88], text: "[05:00]"}
+    silent: true
+    sfx:
+      - {text: "GRRRRIND", style: impact, at: [0.30, 0.30], size: L, rot: -4}
+
+  - id: P37
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, side-on: Borro marching forward like a toy soldier, knees locked, arms swinging stiffly, far too fast"
+    light: "floodlights"
+    art: >
+      Side-on: Borro (borro, husk face) marches forward "like a husk": knees locked, arms swinging stiffly like a wind-up toy
+      soldier, far too fast and far too heavy, cracking the arena floor with every step.
+    acting:
+      borro: "marching with locked knees and swinging arms, chin up, absolutely committed"
+    calm: top
+    sfx:
+      - {text: "KLONK KLONK KLONK", style: comic, at: [0.60, 0.70], size: M, rot: 6}
+
+  - id: P38
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: Nib walking forward stiffly with his arms flapping like a penguin's, trying too hard"
+    light: "floodlights"
+    art: >
+      Nib (nib, mask) walks forward "like a husk" with his arms held stiffly out and flapping at the wrists like a penguin's,
+      his legs straight, his chin up, trying far too hard.
+    acting:
+      nib: "walking with straight legs and flapping stiff arms, chin up, deadpan"
+    calm: top
+    sfx:
+      - {text: "FLAP FLAP", style: comic, at: [0.70, 0.30], size: M, rot: -6}
+
+  - id: P39
+    recipe: chorus
+    shape: wide
+    gap: short
+    bg: white
+    camera: "behind the observation glass: the panel, the press and Mok staring down, one evaluator's pen dropping"
+    light: "the observation room's dim light; the arena glare through the glass"
+    art: >
+      Behind the observation glass: the panel stares down at the arena; a reporter lowers his camera; the young evaluator's pen
+      drops from his fingers; Choi, at the back, has his face in his hands.
+    acting:
+      inspector_ryu: "leaning toward the glass, eyebrows high, glasses slipping"
+      choi_dongmin: "face buried in both hands at the back of the room"
+      mok_hangyu: "arms folded, a smug smile"
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: whisper, text: "...ARE THEY... DANCING?", side: l}
+    sfx:
+      - {text: "TOK", style: quiet, at: [0.40, 0.70], size: S, rot: 0}
+
+  - id: P40
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, tilted: the construct swinging a pillar arm down at Borro, Borro catching it on his shield without moving his feet"
+    light: "floodlights; dust"
+    art: >
+      The construct swings a pillar of an arm down at Borro; Borro raises his shield and catches the blow without moving his
+      feet, still in his stiff "husk" pose; dust bursts off the stone.
+    acting:
+      training_construct: "swinging its arm down in a great arc"
+      borro: "shield raised, catching the blow, stiff-legged, perfectly still"
+    calm: top
+    sfx:
+      - {text: "KRANNG", style: impact, at: [0.40, 0.30], size: XL, rot: -6}
+
+  - id: P41
+    recipe: carry
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha at the edge, flinching once, a faint moss-green ring at his chest"
+    light: "a faint moss-green ring"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha) at the arena's edge: he flinches once as the blow lands in his body, a faint moss-green ring
+      at his chest; he keeps his face blank.
+    acting:
+      kang_jaeha: "a small flinch, jaw tight, keeping his face blank"
+    calm: left
+    silent: true
+    sfx:
+      - {text: "THMP", style: quiet, at: [0.30, 0.40], size: S, rot: 0}
+
+  - id: P42
+    recipe: plan
+    shape: wide
+    gap: short
+    bg: black
+    camera: "over Jaeha's shoulder: the arena desaturated, a single cyan line running under the construct's legs and up to its chest grille"
+    light: "desaturated; one cyan line"
+    face: private
+    art: >
+      Over Jaeha's shoulder (cropped, left foreground): the arena slightly desaturated, with one clean cyan line and no text:
+      from a small figure, straight between the construct's legs, up its front to the glowing grille in its chest.
+    acting:
+      kang_jaeha: "seen from behind, utterly still"
+    eyeline: "Jaeha → the grille"
+    foreground: "Jaeha's shoulder and the side of his head, cropped, left third"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: whisper, text: "NIB. BETWEEN ITS LEGS. TOUCH THE CORE. JUST TOUCH IT.", side: r}
+
+  - id: P43
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the floor behind the construct's heels: Nib, still stiff-armed, suddenly darting between its legs"
+    light: "floodlights; the rails' amber"
+    art: >
+      From low behind the construct's heels: Nib, his arms still stiffly out like a husk's, suddenly darts straight between its
+      legs, low and fast, in rest form but a scout all the same.
+    acting:
+      nib: "darting low between the stone legs, arms still held out stiffly, eyes fixed on the chest"
+      training_construct: "legs planted, unaware"
+    calm: top
+    sfx:
+      - {text: "ZIP", style: impact, at: [0.50, 0.70], size: M, rot: -8}
+
+  - id: P44
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from the floor in front of the construct: Nib running straight up its knee and thigh like a ladder toward the grille"
+    light: "floodlights; amber from the grille"
+    art: >
+      From low in front of the construct: Nib runs straight up its knee and thigh like a ladder, using the brass bands as
+      rungs, one hand reaching for the amber glow behind the grille in its chest.
+    acting:
+      nib: "climbing fast up the stone thigh, one hand reaching up"
+    calm: top
+    sfx:
+      - {text: "TAK TAK TAK", style: impact, at: [0.70, 0.60], size: M, rot: 6}
+
+  - id: P45
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "extreme close-up: one long grey-green finger tapping the brass grille in front of the amber core"
+    light: "amber core glow"
+    art: >
+      Extreme close-up: one long grey-green finger taps the brass grille in front of the amber core.
+    calm: right
+    silent: true
+    sfx:
+      - {text: "TIK", style: quiet, at: [0.50, 0.40], size: M, rot: 0}
+
+  - id: P46
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: the construct freezing mid-swing, every brass band going dark, the rails of light going out"
+    light: "the amber dying; the floodlights steady"
+    art: >
+      The construct freezes in mid-swing as every brass band on it goes dark and the rails of light under it go out; Nib drops
+      off its chest and lands beside its foot, and stands stiffly again with his arms hanging.
+    acting:
+      training_construct: "frozen mid-swing, dark"
+      nib: "landing beside its foot and snapping back into his stiff husk pose"
+    calm: top
+    sfx:
+      - {text: "VMMmmm...", style: quiet, at: [0.50, 0.30], size: M, rot: 0}
+
+  - id: P47
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close on the big screen: the result, the screen green"
+    light: "the screen glow"
+    art: >
+      Close on the big wall screen, flat green.
+    calm: top
+    ui:
+      - kind: phone.info_card
+        "on": screen
+        title: "TEST COMPLETE"
+        text: "CORE TOUCHED · TIME 00:04"
+    silent: true
+
+  - id: P48
+    recipe: chorus
+    shape: wide
+    gap: short
+    bg: white
+    camera: "behind the observation glass: everyone frozen, Mok's smug smile gone, Choi peeking through his fingers"
+    light: "dim observation room"
+    art: >
+      Behind the observation glass: everyone frozen. Inspector Ryu's glasses have slid to the end of his nose; a reporter's
+      mouth hangs open; Mok's smug smile has frozen into a grimace; Choi peeks through his fingers.
+    acting:
+      inspector_ryu: "frozen, glasses at the end of his nose"
+      mok_hangyu: "arms still folded, the smile frozen into a grimace, a vein at his temple"
+      choi_dongmin: "peeking through his fingers, grinning"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "......", style: quiet, at: [0.50, 0.30], size: S, rot: 0}
+
+  - id: P49
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, in the arena: Jaeha bowing politely toward the observation window, Nib and Borro stiff behind him"
+    light: "floodlights"
+    face: public
+    art: >
+      In the arena: Jaeha (kang_jaeha) bows politely toward the observation window, Nib and Borro standing stiffly behind him
+      like husks again.
+    acting:
+      kang_jaeha: "a deep, polite bow toward the window, the folder under his arm"
+      nib: "rigid, arms hanging"
+      borro: "rigid, swaying slightly"
+    eyeline: "Jaeha → the window (up)"
+    foreground: "the dead construct's stone foot, cropped, left"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "THE RULES SAID 'TOUCHED', SIR. MY HUSK TOUCHED IT.", side: r}
+
+  - id: P50
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level at the observation window: the lawyer jabbing a finger at the glass, Inspector Ryu holding up a printed rule sheet"
+    light: "dim"
+    art: >
+      At the observation window: the lawyer (bh_lawyer) jabs a finger at the glass; Inspector Ryu (inspector_ryu) holds up a
+      printed rule sheet without looking at him.
+    acting:
+      bh_lawyer: "jabbing at the glass, red-faced"
+      inspector_ryu: "holding the rule sheet up beside his head, eyes closed, deadpan"
+    eyeline: "the lawyer → the arena; Ryu → nowhere"
+    foreground: "the edge of the glass, cropped, left"
+    calm: top
+    lines:
+      - {who: bh_lawyer, type: shout, text: "THAT PROVES NOTHING! IT DIDN'T EVEN FIGHT!", side: l}
+      - {who: inspector_ryu, type: speech, text: "OUR RULES SAY TOUCHED. WE WROTE THEM. NOBODY EVER READS THEM.", side: r}
+
+  - id: P51
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Jaeha's phone in his plastered hand, the screen green"
+    light: "the screen glow"
+    art: >
+      Close on Jaeha's phone in his plastered hand. Screen: flat green.
+    calm: left
+    ui:
+      - kind: phone.info_card
+        "on": screen
+        title: "HUNTER ASSOCIATION · REGISTRATION"
+        text: "KANG JAEHA · SUMMONER (F) · LICENCE KEPT · UNUSUAL HUSKS REGISTERED: 2"
+    silent: true
+
+  - id: P52
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level in the corridor outside the arena: Mok stopping in Jaeha's path, towering over him, the press behind"
+    light: "a long corridor; daylight"
+    face: public
+    art: >
+      In the corridor outside the arena: Mok (mok_hangyu) stops in Jaeha's path and towers over him, a big smile for the
+      cameras behind; Jaeha (kang_jaeha) looks up at him politely. Nib and Borro stand stiffly behind Jaeha.
+    acting:
+      mok_hangyu: "leaning down over Jaeha, one big hand on Jaeha's shoulder, a wide camera smile, dead eyes"
+      kang_jaeha: "looking up, a polite smile, perfectly calm"
+    eyeline: "Mok → Jaeha (down); Jaeha → Mok (up)"
+    foreground: "a reporter's camera, cropped, right edge"
+    calm: top
+    lines:
+      - {who: mok_hangyu, type: speech, text: "CONGRATULATIONS, HERO. I'LL SEE YOU AT THE RAID ON SATURDAY.", side: l}
+      - {who: kang_jaeha, type: speech, text: "OF COURSE, SIR. I'LL WALK IN FIRST. LIKE ALWAYS.", side: r}
+
+  - id: P53
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on Mok's hand on Jaeha's shoulder, squeezing hard, Jaeha's plastered fingers not moving"
+    light: "daylight"
+    art: >
+      Close on Mok's big hand on Jaeha's shoulder, squeezing hard enough to crease the vest; Jaeha's plastered hand hangs at his
+      side, perfectly relaxed.
+    calm: right
+    silent: true
+    sfx:
+      - {text: "SQUEEZE", style: quiet, at: [0.40, 0.30], size: S, rot: 0}
+
+  - id: P54
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Nib behind Jaeha, staring at Mok's hand, one hand drifting toward his knives"
+    light: "daylight"
+    art: >
+      Close on Nib (nib, mask) behind Jaeha, staring at Mok's hand on Jaeha's shoulder; one long hand drifts slowly toward the
+      knives at the small of his back.
+    acting:
+      nib: "staring at Mok's hand, eye narrowed, one hand drifting behind his back"
+    eyeline: "Nib → Mok's hand"
+    calm: left
+    silent: true
+    sfx:
+      - {text: "SHF", style: quiet, at: [0.70, 0.60], size: S, rot: 0}
+
+  # ================= THE GALLERY (P55–P66) =================
+  - id: P55
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, close on Jaeha's hand closing gently over Nib's wrist behind his back, without looking round"
+    light: "daylight"
+    face: private
+    art: >
+      Close and low: without looking round, Jaeha reaches behind him and closes his plastered hand gently over Nib's wrist.
+    acting:
+      kang_jaeha: "hand behind his back, holding Nib's wrist gently, face still smiling at Mok"
+      nib: "his hand stopped under Jaeha's"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: whisper, text: "NOT HERE. NOT YET.", side: r}
+
+  - id: P56
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: white
+    camera: "eye level on the Association's front steps: Jaeha and the team coming out into the sun, a crowd of reporters and fans"
+    light: "key: bright midday sun"
+    art: >
+      The Association's front steps at midday: Jaeha, Yerin, Choi, Bomi, Nib and Borro come out into the sun; a crowd of
+      reporters with microphones and young fans with phones press against a rope line; a few hold up hand-painted signs
+      (blank, no text) and a cardboard cut-out of a big husk.
+    acting:
+      kang_jaeha: "squinting in the sun, raising a hand against the flashes"
+      song_yerin: "laughing, wiping her eyes"
+      yoo_bomi: "walking backwards in front of them, filming on her phone"
+      choi_dongmin: "lighting up a sneaky victory coffee"
+      borro: "ducking under the doorway, waving shyly at the crowd"
+      nib: "stiff, staring at the cut-out of Borro"
+    calm: top
+    sfx:
+      - {text: "KYAAA! KYAAA!", style: impact, at: [0.70, 0.40], size: M, rot: 4}
+
+  - id: P57
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low two-shot on the steps: Bomi grinning at Jaeha over her phone, Yerin laughing beside him"
+    light: "midday sun"
+    face: public
+    art: >
+      On the steps: Bomi (yoo_bomi) grins at Jaeha over her phone; Yerin (song_yerin) laughs beside him.
+    acting:
+      yoo_bomi: "holding the phone up to film him, a huge grin"
+      song_yerin: "laughing with her hand over her mouth"
+      kang_jaeha: "a tired, crooked smile"
+    eyeline: "Bomi → Jaeha"
+    foreground: "a reporter's microphone poking into frame, cropped, top left"
+    calm: top
+    lines:
+      - {who: yoo_bomi, type: speech, text: "FOUR SECONDS! THE CHAT IS CALLING IT 'THE FASTEST RE-TEST IN HISTORY'!", side: l}
+
+  - id: P58
+    recipe: chibi
+    style: chibi
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "flat"
+    light: "flat"
+    art: >
+      Chibi gag: chibi Nib and chibi Borro do their "husk walks" side by side (Nib flapping like a penguin, Borro marching like a
+      toy soldier), while chibi Jaeha follows with his face in his hands and a little rain cloud over his head. Pale gag
+      background.
+    acting:
+      nib: "chibi: penguin-flapping proudly"
+      borro: "chibi: toy-soldier marching proudly"
+      kang_jaeha: "chibi: face in his hands, a rain cloud above him"
+    calm: left
+    silent: true
+
+  - id: P59
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level, two-shot by the rope line: Choi handing Jaeha a coffee, serious for a moment"
+    light: "midday sun"
+    face: private
+    art: >
+      By the rope line: Choi (choi_dongmin) hands Jaeha (kang_jaeha) a paper coffee, serious for a moment, his voice low.
+    acting:
+      choi_dongmin: "holding out a coffee, leaning in, voice low, eyes on Jaeha"
+      kang_jaeha: "taking the coffee with both hands, listening"
+    eyeline: "Choi ↔ Jaeha"
+    foreground: "the rope line's post, cropped, bottom left"
+    calm: top
+    lines:
+      - {who: choi_dongmin, type: speech, text: "YOU STILL WANT TO WALK INTO MOK'S RAID ON SATURDAY? AFTER TODAY?", side: l}
+      - {who: kang_jaeha, type: speech, text: "MORE THAN EVER, SIR.", side: r}
+
+  - id: P60
+    recipe: reaction
+    shape: wide
+    gap: long
+    bg: white
+    camera: "eye level, a slow pan up the steps: Jaeha pausing as if he felt a stare, turning his head toward the building"
+    light: "midday sun; the glass doors reflecting the sky"
+    face: private
+    art: >
+      On the steps, Jaeha (kang_jaeha) pauses with the coffee halfway to his mouth, as if he felt someone's stare on the back
+      of his neck, and turns his head toward the Association's tall glass doors.
+    acting:
+      kang_jaeha: "pausing mid-step, head turning slowly toward the doors, eyes narrowing"
+    eyeline: "Jaeha → the glass doors"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "...", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P61
+    recipe: establish
+    shape: tall
+    gap: short
+    bg: white
+    camera: "eye level through the glass doors into the atrium: the crossbow woman leaning on a pillar inside, looking straight out at him"
+    light: "the atrium's daylight; reflections on the glass"
+    art: >
+      Through the tall glass doors, in the atrium: the Black Hound crossbow woman (bh_crossbow) leans against a pillar inside
+      with her arms folded under the cropped jacket, one boot crossed over the other, looking straight out through the glass at
+      Jaeha, a faint red-lipped smile. Reflections of the crowd slide across the glass over her.
+    acting:
+      bh_crossbow: "leaning on the pillar, arms folded, head tilted, a slow amused smile, eyes on Jaeha"
+    eyeline: "the crossbow woman → Jaeha"
+    calm: top
+    silent: true
+
+  - id: P62
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on the crossbow woman's face behind the glass, her smile widening, one finger lifting in a tiny wave"
+    light: "glass reflections"
+    art: >
+      Close on the crossbow woman (bh_crossbow) behind the glass: her smile widens and she lifts one finger in a tiny wave.
+    acting:
+      bh_crossbow: "a widening red-lipped smile, one finger lifting off her arm in a tiny wave, eyes half-lidded"
+    eyeline: "the crossbow woman → Jaeha"
+    calm: right
+    silent: true
+    sfx:
+      - {text: "WAVE", style: quiet, at: [0.30, 0.30], size: S, rot: 0}
+
+  - id: P63
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Jaeha on the steps, frowning, the coffee forgotten"
+    light: "midday sun"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha) on the steps, frowning at the glass, the coffee forgotten in his hand.
+    acting:
+      kang_jaeha: "frowning, eyes narrowed, the coffee lowered"
+    eyeline: "Jaeha → the crossbow woman"
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: inner, text: "MOK'S CROSSBOW. SHE WAS BEHIND HIM WHEN HE CLOSED THE DOOR."}
+
+  - id: P64
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: white
+    camera: "close on the woman's hand inside the atrium: a small brass compass on her palm, its needle a sliver of violet crystal"
+    light: "daylight; a faint violet glow from the needle"
+    art: >
+      Close on the crossbow woman's hand inside the atrium: a small brass compass rests on her palm; its needle is a sliver of
+      smoky violet crystal, faintly glowing, and it is swinging.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "TIK TIK TIK", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P65
+    recipe: insert
+    shape: strip
+    gap: short
+    bg: white
+    camera: "extreme close-up of the compass face: the violet needle stopping dead, pointing out through the glass doors"
+    light: "violet glow"
+    art: >
+      Extreme close-up of the compass face: the violet needle swings, slows and stops dead, pointing straight out through the
+      glass doors toward the steps. Fill the canvas edge to edge.
+    calm: none
+    silent: true
+    sfx:
+      - {text: "TIK.", style: quiet, at: [0.80, 0.40], size: S, rot: 0}
+
+  - id: P66
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "over the woman's shoulder inside: the compass in her hand pointing at Jaeha on the steps outside, small through the glass"
+    light: "daylight; the needle's violet glow"
+    art: >
+      Over the crossbow woman's shoulder inside the atrium (her black bob and the cropped jacket's shoulder, cropped,
+      foreground): the compass in her hand points straight through the glass at Jaeha, small on the sunny steps outside, Nib
+      and Borro beside him.
+    acting:
+      bh_crossbow: "seen from behind, holding the compass up at eye level"
+    eyeline: "the crossbow woman → Jaeha"
+    foreground: "the woman's black bob and shoulder, cropped, left third"
+    calm: top
+    lines:
+      - {who: bh_crossbow, type: whisper, text: "THERE YOU ARE.", side: r}
+
+  - id: END
+    kind: end
+    chibi_gag: "Chibi Inspector Ryu, alone in his office, hugs a thick binder labelled with a blank label, crying tears of joy because somebody finally read the rules; chibi Jaeha bows to him through the door."
