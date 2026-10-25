@@ -1,0 +1,1335 @@
+chapter: 8
+title: Eyes
+format: SCRIPT_FORMAT_v2.md
+when: "Thursday at dusk: Mangwon's rooftops and the Han River bank under a bridge; Saturday afternoon: a D-grade gate in a flooded basement car park in Mangwon; Saturday night: the rooftop."
+story_beats: STORY_BIBLE_v4.md#arc-2-chapters-612-the-trap-rats-chapter-by-chapter
+cast:
+  kang_jaeha: vest          # hoodie only at home (P01–P24); the vest mended with red stitches (see continuity)
+  nib: mask                 # rest form except P42–P55 (field form, LINKED); seal 2/5 look
+  kang_seoa: default
+  song_yerin: default
+  yoo_bomi: default
+  gomi: default             # the street cat, see continuity
+  kanghan_guard: default    # generic Kanghan security at the river (CHARACTER_DESIGNS_v2.md 2.14)
+  drowned_hound: default
+  landlady: default         # generic, from ch 6
+locations: [rooftop_room, hanriver_gate, carpark_gate]
+continuity:
+  - "Jaeha: the plaster on his cheekbone is gone. Fringe over the LEFT eye, pencil behind the RIGHT ear, notebook in the LEFT chest pocket. At home (P01–P24) the grey hoodie only. The vest from P25: Seoa has mended the slash through the white T patch on the back with a visible line of neat red stitches. From P47 a white bandage round his LEFT forearm (the bite), showing below the pushed-up hoodie sleeve."
+  - "Nib: seal 2/5 look (nib/turnaround_seal2.png) with the cracked husk mask over his upper LEFT face whenever anyone outside the family could see him; rest form (dull eyes, no glow) except P42–P55, field form and LINKED (amber eyes, thin amber outline). Rest form means he is no stronger or faster than an ordinary person his size, which is why the cat is a real problem."
+  - "Gomi, the street cat: a huge, fat orange tabby with a torn ear and a smug face, about the size of a small dog (body 60 cm long), next to Nib's 105 cm that is big. She owns the neighbourhood."
+  - "Kang Seoa (15): her school uniform (knee-length skirt), glasses, calculator keychain; a laptop on her knees. Never any fan service."
+  - "Yoo Bomi: her design exactly (cropped neon-yellow bomber over a black crop top, high-waisted denim shorts, black thigh-high socks, plain black trainers, the 90 cm recurve bow, the white drone with its red light). Fan service per CHARACTER_DESIGNS_v2.md: a beautiful face and confident poses, never a low angle up her shorts."
+  - "The Han River enclosure (location hanriver_gate, P14–P21): under a bridge span at the blue hour, the bridge's orange sodium lights coming on; a fence hung with black tarps, two shipping containers, a humming generator, thick cables running into a gate slit in the shadow of the bridge pier; NO Association tape, cones or grade sign. Two Kanghan guards in black tactical vests over black suits, torches and batons, the silver hexagon pin on their lapels."
+  - "The car park gate (location carpark_gate, P29–P58): the lower level under 1–2 m of still black water among square concrete pillars (6 m apart) and half-sunk cars; a long, wide dry vehicle ramp up to the upper level, its lower third wet and slick; thick pipes along the 2.6 m ceiling; white-blue caged dungeon lamps; drips everywhere."
+  - "The drowned hound (CHARACTER_DESIGNS_v2.md 4b.2): a hound the size of a horse, 1.7 m at the shoulder, 3.5 m long, gaunt and heavy-boned; waterlogged black fur in clumps, river weed and barnacles; a long jaw of crooked yellow teeth; pale clouded eyes (nearly blind; it hunts by ripples and sound); water streaming off it; a small Hush crack leaking violet ash on its brow. Fast in water, clumsy on dry ground."
+plants:
+  - "PLANT P16–P21: the unregistered gate under the bridge, guarded by Kanghan (ch 22, Arc 4)."
+  - "PLANT P58: the window offers only HARVEST (ch 50)."
+  - "PLANT P60: ROUTE ALIGNMENT syncing, finished at the end (ch 9 CALL)."
+hook_type: system
+
+panels:
+
+  # ================= THE CAT (P01–P12) =================
+  - id: P01
+    recipe: establish
+    shape: full
+    gap: none
+    bg: white
+    camera: "high (25 m), looking down across Mangwon's rooftops at dusk: a tiny cloaked figure sprinting, a huge cat bounding after it"
+    light: "key: orange dusk from the west; long blue shadows across the roofs"
+    art: >
+      High above Mangwon-dong at dusk: a patchwork of flat villa rooftops, green-painted roofs, water tanks, laundry lines,
+      satellite dishes and potted chillies, the Han River glinting at the edge. Across one roof a tiny cloaked figure (Nib,
+      mask; rest form) sprints flat out, red scarf streaming, and a huge fat orange tabby cat (gomi) bounds after him. Scale:
+      each rooftop is about 12 m across; the gaps between buildings are 1.5–2 m; the figures are tiny.
+    acting:
+      nib: "sprinting flat out, arms pumping, scarf streaming, glancing back over his shoulder"
+      gomi: "bounding after him in full gallop, ears flat, tail up"
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "MANGWON-DONG. THURSDAY, 6 PM."}
+    sfx:
+      - {text: "TAP TAP TAP TAP", style: quiet, at: [0.40, 0.70], size: S, rot: 0}
+
+  - id: P02
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: white
+    camera: "Nib's point of view, glancing back over his shoulder: the cat's face in mid-pounce, filling the frame"
+    light: "orange dusk; a thin amber vignette at the edges (Nib's view)"
+    art: >
+      Nib's point of view in a thin amber vignette, looking back over his shoulder: the huge orange tabby (gomi) in mid-
+      pounce, a torn ear, whiskers forward, yellow eyes huge, claws out, filling most of the frame.
+    acting:
+      gomi: "mid-leap, front paws spread with claws out, mouth open, eyes wide and gleeful"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "MRRROWW", style: comic, at: [0.70, 0.24], size: L, rot: 8}
+
+  - id: P03
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, side-on between two buildings, looking up: Nib leaping the gap between rooftops, the cat leaping after him"
+    light: "orange sky behind; the figures dark against it"
+    art: >
+      From low between two buildings, looking up at the orange sky: Nib leaps the 2 m gap between two rooftops, cloak flaring
+      and scarf whipping, arms flung forward; a beat behind him the fat cat sails across the same gap, legs stretched out.
+      Laundry flaps on a line. Speed lines.
+    acting:
+      nib: "mid-leap, body stretched long, arms reaching for the far parapet, eyes wide behind the mask"
+      gomi: "mid-leap behind him, all four legs stretched out, belly swinging"
+    calm: top
+    sfx:
+      - {text: "HUP", style: impact, at: [0.36, 0.30], size: L, rot: -10}
+
+  - id: P04
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level on Jaeha's green rooftop: Jaeha cross-legged on a plastic chair with his eyes closed, Seoa beside him with a laptop"
+    light: "orange dusk"
+    face: private
+    art: >
+      On the green rooftop (location rooftop_room, key_day at dusk): Jaeha (kang_jaeha, grey hoodie) sits cross-legged on a
+      plastic chair with his eyes closed and two fingers at his temple, a thin amber thread of light running from him off
+      over the parapet. Beside him Seoa (kang_seoa, school uniform) sits on another plastic chair with a laptop on her knees
+      and a phone stopwatch in her hand.
+    acting:
+      kang_jaeha: "eyes squeezed shut, brow knotted, two fingers pressed to his temple, the other hand gripping the chair"
+      kang_seoa: "laptop on her knees, typing with one hand, holding up the phone stopwatch in the other, glasses pushed up"
+    eyeline: "Jaeha → nothing (eyes closed); Seoa → the laptop"
+    foreground: "the laundry line with a towel, cropped, across the top"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "SEOA. WHY IS A CAT CHASING MY SUMMON?", side: l}
+      - {who: kang_seoa, type: speech, text: "THAT'S GOMI. SHE OWNS THE NEIGHBOURHOOD.", side: r}
+
+  - id: P05
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on the laptop screen on Seoa's knees, the screen green"
+    light: "dusk; the screen glow"
+    art: >
+      Close on the laptop on Seoa's knees, a calculator keychain hanging off her bag beside it. Screen: flat green.
+    calm: left
+    ui:
+      - kind: phone.info_card
+        "on": screen
+        title: "LINK TRAINING (SEOA)"
+        text: "RUN 1: 40 M · RUN 2: 90 M · RUN 3: 160 M · HEADACHE: 6/10 · NOSEBLEEDS: 1"
+    lines:
+      - {who: offpanel:kang_seoa, type: speech, text: "IF YOU'RE GOING TO KEEP DOING THIS, I'M KEEPING THE NUMBERS.", side: l}
+
+  - id: P06
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on Jaeha, eyes still closed, a small helpless smile"
+    light: "dusk"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha), eyes still closed, a small helpless smile at his sister's words; a thin line of blood
+      starting from one nostril.
+    acting:
+      kang_jaeha: "eyes closed, the corner of his mouth lifting, a thin nosebleed starting, fingers still at his temple"
+    eyeline: "Jaeha → nothing (eyes closed)"
+    calm: right
+    silent: true
+    sfx:
+      - {text: "SNIFF", style: quiet, at: [0.30, 0.70], size: S, rot: 0}
+
+  - id: P07
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level on a far rooftop: Nib jerked to a dead stop mid-run as if by an invisible leash, the cat skidding up behind him"
+    light: "dusk; a thin amber thread snapping taut behind Nib"
+    art: >
+      On a far rooftop: Nib is jerked to a dead stop in mid-stride as if on an invisible leash, his feet flying out in front
+      of him, a thin amber thread of light snapping taut behind him back toward home. Behind him the cat skids to a stop on
+      the roof, delighted.
+    acting:
+      nib: "yanked backward mid-stride, feet off the ground, arms windmilling, mouth open"
+      gomi: "skidding to a stop, ears up, crouching to pounce"
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.50, 0.34], text: "[LINK · RANGE LIMIT 160 M · STRAIN 90%]"}
+    sfx:
+      - {text: "YANK", style: comic, at: [0.30, 0.30], size: M, rot: -8}
+
+  - id: P08
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, from the roof's surface: Seoa leaning toward Jaeha, a tissue in her hand, Jaeha bleeding from the nose"
+    light: "dusk"
+    face: private
+    art: >
+      From low on the roof: Seoa (kang_seoa) leans over and holds a tissue to Jaeha's bleeding nose with one hand, the
+      laptop sliding on her knees. Jaeha (kang_jaeha, hoodie), eyes still closed, pushes on.
+    acting:
+      kang_seoa: "leaning across, pressing a tissue to his nose, mouth tight with worry"
+      kang_jaeha: "eyes shut, jaw clenched, both fingers now at his temple, sweat on his forehead"
+    eyeline: "Seoa → Jaeha; Jaeha → nothing (eyes closed)"
+    foreground: "the plastic chair's arm, cropped, bottom left"
+    calm: top
+    lines:
+      - {who: kang_seoa, type: speech, text: "THAT'S TWO NOSEBLEEDS. YOU SAID WE'D STOP AT TWO.", side: l}
+      - {who: kang_jaeha, type: intense, text: "ONE MORE PUSH. THE CAT IS GAINING ON HIM.", side: r}
+
+  - id: P09
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "Jaeha facing the reader on the rooftop, eyes snapping open, lit cyan from a window"
+    light: "cyan from the window; dusk behind"
+    face: private
+    art: >
+      Jaeha (kang_jaeha, hoodie) faces the reader on the rooftop as his eyes snap open, lit cyan, blood on his lip. The upper
+      half is the dusk sky, empty for the window.
+    acting:
+      kang_jaeha: "eyes wide open and glowing faint cyan, one hand pressed to his temple, blood on his upper lip, a fierce grin"
+    eyeline: "Jaeha → the window"
+    calm: top
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.05], headline: "[LINK LV. 2 → 3]", body: "RANGE 160 M → 600 M · STRAIN ABOVE 90% CAUSES BLEEDING", button: "OK"}
+    silent: true
+
+  - id: P10
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: white
+    camera: "high, looking down a long street toward the river: the amber leash stretching, Nib racing along rooftops, the cat behind"
+    light: "dusk turning blue; the river glowing at the end of the street"
+    art: >
+      High over a long street running down to the Han River: the thin amber thread stretches out long across the rooftops,
+      and Nib races along them toward the river, the fat cat still bounding after him two roofs behind. The river and a
+      bridge are at the far end of the street, its lights coming on. Speed lines.
+    acting:
+      nib: "running flat out across a roof, leaping a parapet, scarf streaming"
+      gomi: "bounding over a water tank two roofs behind"
+    calm: top
+    sfx:
+      - {text: "TAP TAP TAP TAP TAP", style: impact, at: [0.50, 0.70], size: M, rot: -6}
+
+  - id: P11
+    recipe: insert
+    shape: strip
+    gap: short
+    bg: white
+    camera: "low, behind Nib's bare heels as he drops off a low wall into the riverside park"
+    light: "blue dusk; the bridge lights orange in the distance"
+    art: >
+      From low behind Nib's bare grey-green heels as he drops off a low concrete wall onto the grass of the riverside park,
+      the bridge's lit underside ahead. Fill the canvas edge to edge.
+    calm: none
+    silent: true
+    sfx:
+      - {text: "THUD", style: quiet, at: [0.30, 0.60], size: S, rot: 0}
+
+  - id: P12
+    kind: title
+    shape: full
+    gap: long
+    bg: black
+    title_card: "MY SUMMONS GO FIRST · CHAPTER 8 · EYES"
+    notes: "Title card at panel 12 of 70 (17%)."
+
+  # ================= UNDER THE BRIDGE (P13–P24) =================
+  - id: P13
+    recipe: establish
+    shape: tall
+    gap: long
+    bg: black
+    camera: "low, from the riverbank under a bridge span: a fenced enclosure of black tarps in the pier's shadow, the bridge 20 m overhead"
+    light: "key: orange sodium lights on the bridge's underside; the black river; a white-cyan glow from inside the enclosure"
+    art: >
+      Under a Han River bridge at the blue hour (location hanriver_gate): the huge concrete underside of the span 20 m
+      overhead, orange sodium lights glowing on it and reflecting in the black river. In the shadow of a bridge pier stands a
+      fenced enclosure hung with black tarps; two shipping containers, a humming generator, and thick black cables running
+      in under the tarp toward a cold white-cyan glow. A small cloaked figure (Nib) crouches behind a stack of pallets in the
+      foreground. Scale: the pier is 6 m wide; the fence is 3 m high; the containers are 2.6 m tall.
+    acting:
+      nib: "crouched behind the pallets, panting, peering round the edge"
+    calm: top
+    sfx:
+      - {text: "VMMMMMM", style: quiet, at: [0.70, 0.66], size: S, rot: 0}
+
+  - id: P14
+    recipe: link-view
+    shape: wide
+    gap: short
+    bg: black
+    camera: "split frame: left, Jaeha on the rooftop with his eyes shut; right, Nib's view through a gap in the black tarp"
+    light: "left: dusk; right: Nib's view in a thin amber vignette, cold white-cyan light"
+    face: private
+    art: >
+      Split frame with a thin jagged amber seam. LEFT: Jaeha (kang_jaeha, hoodie) on the rooftop chair, eyes shut, two
+      fingers at his temple, Seoa leaning in beside him. RIGHT: what Nib sees through a gap in the black tarp, in a thin
+      amber vignette: a door-height gate slit glowing white-cyan in the shadow of the pier, with thick cables plugged into
+      a steel frame bolted round its rim, and no tape, cones or sign anywhere.
+    acting:
+      kang_jaeha: "eyes shut, brow knotted, leaning forward on the chair"
+      kang_seoa: "leaning in, watching his face, stopwatch forgotten in her hand"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "THERE'S A GATE UNDER THE BRIDGE. AND SOMEONE HAS PLUGGED CABLES INTO IT.", side: l}
+
+  - id: P15
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Seoa's phone in her hand, the screen green, her thumb on it"
+    light: "dusk; the screen glow"
+    art: >
+      Close on Seoa's phone in her hand, the calculator keychain dangling. Screen: flat green.
+    calm: left
+    ui:
+      - kind: phone.gate_status
+        "on": screen
+        title: "GATE SAFETY KOREA"
+        text: "MANGWON HANGANG PARK · REGISTERED GATES WITHIN 1 KM: 0"
+    lines:
+      - {who: offpanel:kang_seoa, type: speech, text: "THE GATE APP SAYS THERE ARE NO GATES THERE. NOT ONE.", side: r}
+
+  - id: P16
+    recipe: link-view
+    shape: wide
+    gap: short
+    bg: black
+    camera: "Nib's point of view, low between the pallets: two guards in black tactical vests walking past with torches"
+    light: "torch beams; orange sodium light; a thin amber vignette"
+    art: >
+      Nib's point of view, low between the pallets, in a thin amber vignette: two Kanghan guards (kanghan_guard) in black
+      tactical vests over black suits walk past the fence with torches and batons. On each lapel, catching the light, a small
+      silver pin: a hexagon inside a hexagon.
+    acting:
+      kanghan_guard: "walking a slow patrol, torch beam sweeping the ground, baton on the belt, faces bored and hard"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "STEP STEP", style: quiet, at: [0.70, 0.80], size: S, rot: 0}
+
+  - id: P17
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "extreme close-up through Nib's eyes: the silver hexagon pin on a guard's lapel"
+    light: "torch light glinting on silver"
+    art: >
+      Extreme close-up through Nib's eyes (thin amber vignette): the small silver lapel pin, a hexagon inside a hexagon, with
+      no letters, on a black suit.
+    calm: right
+    lines:
+      - {who: offpanel:kang_seoa, type: speech, text: "THAT'S THE KANGHAN LOGO. IT'S ON EVERY CORE BATTERY IN SEOUL.", side: r}
+
+  - id: P18
+    recipe: anticipation
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, behind the pallets: a guard's torch beam swinging straight toward Nib's hiding place"
+    light: "a white torch beam cutting across; orange sodium"
+    art: >
+      From low behind the pallets: one guard (kanghan_guard) stops and swings his torch beam straight toward the stack where
+      Nib crouches; the beam slides along the pallets toward him. Nib presses flat.
+    acting:
+      kanghan_guard: "stopped, turning, torch raised toward the pallets, head cocked"
+      nib: "pressed flat against the pallets, holding his breath, eyes wide"
+    calm: top
+    sfx:
+      - {text: "KLIK", style: quiet, at: [0.66, 0.30], size: S, rot: 0}
+
+  - id: P19
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: the torch beam landing on the fat orange cat sitting on top of the pallets, licking a paw"
+    light: "the torch beam full on the cat"
+    art: >
+      The torch beam lands on the top of the pallet stack, where the fat orange cat (gomi) sits licking her paw in the white
+      light, perfectly calm. The guard lowers the torch.
+    acting:
+      gomi: "sitting on top of the pallets, one paw raised to her mouth, eyes half-closed in the light"
+      kanghan_guard: "lowering the torch, shoulders dropping"
+    calm: top
+    lines:
+      - {who: kanghan_guard, type: speech, text: "IT'S JUST A CAT. A VERY FAT CAT.", side: r}
+    sfx:
+      - {text: "LICK LICK", style: quiet, at: [0.40, 0.30], size: S, rot: 0}
+
+  - id: P20
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: white
+    camera: "over Jaeha's shoulder on the rooftop: his notebook open on his knee, the pencil moving"
+    light: "the last of the dusk; the rooftop bulb coming on"
+    face: private
+    art: >
+      Over Jaeha's shoulder: his notebook open on his knee, the pencil sketching a bridge pier, a fence, cables and a small
+      hexagon. A drop of blood from his nose has landed on the page's corner. Leave a blank band for the letterer's note. No
+      readable text.
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: note, text: "HAN RIVER, UNDER THE BRIDGE. A GATE NOBODY REGISTERED. KANGHAN GUARDS. CABLES."}
+
+  - id: P21
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low two-shot on the rooftop at nightfall: Seoa hugging her laptop, Jaeha wiping his nose, both looking toward the river"
+    light: "the rooftop's bare bulb; the city lights coming on"
+    face: private
+    art: >
+      Nightfall on the rooftop. Seoa (kang_seoa) hugs her closed laptop to her chest; Jaeha (kang_jaeha, hoodie) wipes his
+      nose with the back of his wrist. Both look toward the river and the lit bridges.
+    acting:
+      kang_seoa: "hugging the laptop with both arms, chin on its edge, worried eyes"
+      kang_jaeha: "wiping his nose with his wrist, the notebook closed in his other hand, eyes on the bridge"
+    eyeline: "both → the bridge"
+    foreground: "the water tank's curve, cropped, right"
+    calm: top
+    lines:
+      - {who: kang_seoa, type: speech, text: "WHY WOULD A COMPANY HIDE A GATE?", side: l}
+      - {who: kang_jaeha, type: speech, text: "I DON'T KNOW YET. BUT I'M GOING TO WRITE IT DOWN.", side: r}
+
+  - id: P22
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level at the rooftop's stair door: Nib staggering in, panting, the fat cat strolling in calmly behind him"
+    light: "the bare bulb over the door"
+    art: >
+      Nib (nib, mask; rest form) staggers through the rooftop's stair door, panting, his cloak dusty and his scarf askew.
+      Right behind him, the fat orange cat (gomi) strolls in, tail up, perfectly calm.
+    acting:
+      nib: "staggering in bent over, hands on his knees, scarf askew, glaring back over his shoulder"
+      gomi: "strolling in behind him with her tail up, eyes half-closed and smug"
+      kang_seoa: "looking up from her laptop, delighted"
+    eyeline: "Nib → the cat; Seoa → the cat"
+    foreground: "the door frame, cropped, left edge"
+    calm: top
+    lines:
+      - {who: kang_seoa, type: speech, text: "AWW. SHE FOLLOWED YOU HOME. SHE LIKES YOU.", side: r}
+      - {who: nib, type: speech, text: "SHE WANTS TO EAT ME.", side: l}
+    sfx:
+      - {text: "PANT PANT", style: quiet, at: [0.30, 0.40], size: S, rot: 0}
+
+  - id: P23
+    recipe: chibi
+    style: chibi
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "flat"
+    light: "flat"
+    art: >
+      Chibi gag: chibi Nib standing on top of the water tank with both knives out, a dark aura, while chibi Gomi sits at the
+      bottom looking up at him with huge sparkling eyes and a tiny heart. Pale gag background.
+    acting:
+      nib: "chibi: on top of the tank, knives out in a fighting crouch, sweating"
+      gomi: "chibi: sitting below, sparkly adoring eyes, tail curled into a heart"
+    eyeline: "Gomi → Nib; Nib → Gomi"
+    calm: left
+    silent: true
+
+  - id: P24
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on Jaeha's phone in his hand, the screen green"
+    light: "the bare bulb; the screen glow"
+    art: >
+      Close on Jaeha's phone in his hand. Screen: flat green.
+    calm: right
+    ui:
+      - kind: phone.gate_status
+        "on": screen
+        title: "HUNTER JOB BOARD"
+        text: "GATE 3318 · GRADE D · FLOODED CAR PARK, MANGWON · PARTY: THE TRAP RATS (3 + 1 HUSK) · SATURDAY 2 PM"
+    lines:
+      - {who: kang_jaeha, type: inner, text: "OUR FIRST GATE AS A TEAM. AND THE RENT IS STILL DUE."}
+
+  # ================= THE CAR PARK (P25–P60) =================
+  - id: P25
+    recipe: establish
+    shape: tall
+    gap: long
+    bg: black
+    camera: "high, from the top of a long dry ramp, looking down into a flooded basement car park"
+    light: "key: white-blue caged dungeon lamps on the pillars; their reflections on black, still water"
+    art: >
+      Inside Gate 3318 (location carpark_gate): from the top of a long, wide concrete vehicle ramp, looking down into a
+      flooded basement car park. The lower level lies under still black water among square concrete pillars with faded paint
+      lines; half-sunk cars, roofs just above the surface; pipes along the low ceiling; white-blue caged lamps on the pillars,
+      drips everywhere. At the top of the ramp stand Jaeha (kang_jaeha, vest), Yerin (song_yerin), Bomi (yoo_bomi) with her
+      drone, and Nib (nib, mask; rest form). Scale: the ceiling is 2.6 m; the pillars are 6 m apart; the ramp is 30 m long
+      and 6 m wide; the water is over a car's windows.
+    acting:
+      kang_jaeha: "at the top of the ramp, notebook open, looking down at the water"
+      song_yerin: "beside him, hugging her bag, peering down"
+      yoo_bomi: "holding her bow, steering the drone out over the water with her phone, excited"
+      nib: "crouched at the ramp's edge, staring at the water"
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "D-GRADE GATE 3318. A FLOODED CAR PARK, MANGWON. SATURDAY."}
+    sfx:
+      - {text: "PLIP... PLIP...", style: quiet, at: [0.70, 0.60], size: S, rot: 0}
+
+  - id: P26
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, behind Bomi at the ramp's edge: Bomi talking to her drone, Jaeha giving her a look"
+    light: "lamp light; the drone's red light"
+    face: public
+    art: >
+      From low behind Bomi (yoo_bomi): she talks brightly to her hovering drone; behind her Jaeha (kang_jaeha, vest; the red
+      stitches visible on his back patch) gives her a warning look and points at Nib, who stands stiffly at the edge.
+    acting:
+      yoo_bomi: "facing the drone, one hand on her hip, the other making a peace sign, a big camera smile"
+      kang_jaeha: "pointing at Nib with the pencil, eyebrows raised, a warning look"
+    eyeline: "Bomi → the drone; Jaeha → Bomi"
+    foreground: "the drone's white body and red light, cropped, top left"
+    calm: top
+    lines:
+      - {who: yoo_bomi, type: speech, text: "BOMBOM TV IS LIVE WITH THE TRAP RATS! THEIR FIRST GATE AS A REAL TEAM!", side: l}
+      - {who: kang_jaeha, type: speech, text: "REMEMBER THE RULES. NEVER HIS FACE.", side: r}
+
+  - id: P27
+    recipe: anticipation
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level just above the water: a long, slow wake moving between two half-sunk cars, one car rocking"
+    light: "lamp light on the ripples"
+    art: >
+      Just above the black water: a long, slow wake moves between two half-sunk cars, something big passing just under the
+      surface; one car rocks gently and bumps a pillar. Bubbles rise.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "BLUB... BLUB...", style: quiet, at: [0.40, 0.60], size: S, rot: 0}
+      - {text: "BUMP", style: quiet, at: [0.76, 0.50], size: S, rot: 0}
+
+  - id: P28
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the ramp's edge: Nib looking down at the deep water, Jaeha crouched beside him"
+    light: "lamp light"
+    face: private
+    art: >
+      At the ramp's edge, Nib (nib, mask) looks down at the black water; Jaeha (kang_jaeha, vest) crouches beside him. The
+      water by the ramp's foot comes up to a car's windows.
+    acting:
+      nib: "standing at the edge, arms folded, looking down at the water, unhappy"
+      kang_jaeha: "crouched beside him, forearms on his knees, eyes on the wake"
+    eyeline: "Nib → the water; Jaeha → the water"
+    foreground: "a caged lamp on a pillar, cropped, top right"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "I CAN'T FIGHT IN THAT. IT'S OVER MY HEAD.", side: l}
+      - {who: kang_jaeha, type: speech, text: "THEN WE DON'T FIGHT IN THE WATER.", side: r}
+
+  - id: P29
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on a dripping pipe over the water: a drop falling, ripples spreading, a huge jaw snapping up at the ripples"
+    light: "lamp light"
+    art: >
+      Close on a pipe over the water: a single drop falls and ripples spread on the black surface, and a long jaw of crooked
+      yellow teeth bursts up and snaps at the exact centre of the ripples, then sinks again.
+    calm: left
+    silent: true
+    sfx:
+      - {text: "SNAP", style: quiet, at: [0.40, 0.40], size: M, rot: 0}
+
+  - id: P30
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, behind Jaeha's hand as he tosses a pebble far out over the water, a wake surging toward where it lands"
+    light: "lamp light"
+    face: private
+    art: >
+      From low behind Jaeha's hand: he flicks a pebble far out over the water; where it lands, ripples spread, and a long wake
+      surges toward the spot from the far side of the car park. Every pillar lamp shivers in the reflection.
+    acting:
+      kang_jaeha: "only his arm and hand in frame, mid-flick, fingers open"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "PLOP", style: quiet, at: [0.66, 0.50], size: S, rot: 0}
+      - {text: "WHOOSH", style: quiet, at: [0.40, 0.70], size: S, rot: 0}
+
+  - id: P31
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "over Jaeha's shoulder, close on his notebook page"
+    light: "lamp light on the page"
+    face: private
+    art: >
+      Jaeha's gloved hand writes in his notebook: a sketch of a long-jawed hound with blank eyes, wavy ripple lines, a ramp
+      with an arrow running up it. Leave a blank band for the letterer's note. No readable text.
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: note, text: "BLIND. IT HUNTS BY RIPPLES. FAST IN WATER, CLUMSY ON DRY CONCRETE."}
+
+  - id: P32
+    recipe: plan
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high over the ramp from the ceiling: the car park slightly desaturated, cyan lines laying out the plan"
+    light: "desaturated; cyan lines"
+    face: private
+    art: >
+      High over the ramp, the scene slightly desaturated, clean cyan lines and no text: a figure at the water's edge at the
+      foot of the ramp; an arrow running up the ramp; a circle on the dry upper part of the ramp under a ceiling pipe; a
+      small figure marked on the pipe above the circle; another small figure at the top.
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: inner, text: "I SPLASH, IT COMES, AND I LEAD IT UP THE RAMP ONTO DRY GROUND."}
+
+  - id: P33
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level at the top of the ramp: Yerin grabbing Jaeha's sleeve, Jaeha gently taking her hand off"
+    light: "lamp light"
+    face: public
+    art: >
+      At the top of the ramp, Yerin (song_yerin) grabs Jaeha's sleeve as he turns to go down. Jaeha (kang_jaeha, vest) gently
+      lifts her hand off it.
+    acting:
+      song_yerin: "gripping his vest sleeve with both hands, eyes wide, brows tilted up"
+      kang_jaeha: "turned half away, gently lifting her fingers off his sleeve, a calm small smile"
+    eyeline: "Yerin → Jaeha; Jaeha → Yerin"
+    foreground: "the ramp's yellow-painted kerb, cropped, bottom"
+    calm: top
+    lines:
+      - {who: song_yerin, type: speech, text: "YOU'RE THE BAIT? AGAIN?", side: l}
+      - {who: kang_jaeha, type: speech, text: "I'M A TRAP-TESTER. BAIT IS WHAT I'M BEST AT.", side: r}
+
+  - id: P34
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "low, from the ceiling: Nib climbing up onto a thick pipe above the dry part of the ramp, knives at his back"
+    light: "lamp light from below"
+    art: >
+      From low: Nib (nib, mask; rest form) pulls himself up onto a thick pipe along the ceiling above the dry upper part of
+      the ramp and crouches on it, both knives sheathed at his back.
+    acting:
+      nib: "crouched on the pipe like a gargoyle, one hand on the pipe, the other resting on a knife hilt"
+    calm: right
+    silent: true
+    sfx:
+      - {text: "CLANK", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P35
+    recipe: establish
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, at the water's edge at the foot of the ramp: Jaeha alone, the black water stretching away among the pillars"
+    light: "lamp light; reflections"
+    face: private
+    art: >
+      At the very foot of the ramp, Jaeha (kang_jaeha, vest) stands alone ankle-deep at the water's edge, the black water
+      stretching away among the pillars and sunken cars. The ramp rises behind him into the dark; the others are tiny at the
+      top.
+    acting:
+      kang_jaeha: "standing ankle-deep, knees bent, crouching to slap the water with his open hand, eyes on the far dark"
+    calm: top
+    sfx:
+      - {text: "SPLAP SPLAP", style: quiet, at: [0.40, 0.80], size: M, rot: 0}
+
+  - id: P36
+    recipe: monster-reveal
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from the water at Jaeha's back: the drowned hound erupting out of the water a few metres away"
+    light: "lamp light; water exploding white"
+    art: >
+      From low behind Jaeha (his back and shoulders in the bottom foreground, cropped): the drowned hound (drowned_hound)
+      erupts out of the black water a few metres away, a horse-sized hound, waterlogged black fur in clumps, river weed and
+      barnacles, a long jaw of crooked yellow teeth wide open, pale clouded eyes, water exploding off it, a violet-ash Hush
+      crack on its brow. Scale: its shoulder is a head higher than Jaeha's head.
+    acting:
+      drowned_hound: "rearing out of the water, forelegs up, jaw gaping, water sheeting off its body"
+      kang_jaeha: "seen from behind, already turning to run"
+    calm: top
+    sfx:
+      - {text: "KRAASSHHH", style: impact, at: [0.40, 0.20], size: XL, rot: -8}
+
+  - id: P37
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, side-on on the ramp: Jaeha sprinting up the wet concrete, the hound bounding after him out of the water"
+    light: "lamp light; spray"
+    art: >
+      Side-on: Jaeha sprints up the wet lower third of the ramp; the hound bounds out of the water after him, far faster than
+      it should be, spray flying from its paws.
+    acting:
+      kang_jaeha: "sprinting, arms pumping, looking back over his shoulder in shock"
+      drowned_hound: "bounding up the wet ramp in a long stride, jaw open"
+    calm: top
+    sfx:
+      - {text: "SPLASH SPLASH", style: impact, at: [0.70, 0.70], size: M, rot: 6}
+
+  - id: P38
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, tilted 15 degrees: the hound's jaws clamping onto Jaeha's left forearm"
+    light: "no scene light: a red flash"
+    art: >
+      The hound's jaws clamp onto Jaeha's LEFT forearm as he throws it up to shield himself; he is yanked off his feet onto
+      the wet concrete.
+    acting:
+      kang_jaeha: "falling backward, left forearm in the hound's jaws, face twisted in pain, right hand clawing at the ground"
+      drowned_hound: "jaws clamped on his arm, head wrenching sideways"
+    calm: top
+    sfx:
+      - {text: "CHOMP", style: impact, at: [0.52, 0.30], size: XL, rot: 10}
+
+  - id: P39
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Yerin at the top of the ramp, screaming his name"
+    light: "lamp light"
+    art: >
+      Close on Yerin (song_yerin) at the top of the ramp, screaming, one hand reaching out.
+    acting:
+      song_yerin: "lunging forward against the kerb, one arm reaching down the ramp, mouth wide"
+    eyeline: "Yerin → Jaeha"
+    calm: left
+    lines:
+      - {who: song_yerin, type: shout, text: "JAEHA!", side: r}
+
+  - id: P40
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, behind the hound: Jaeha being dragged down the wet ramp toward the black water"
+    light: "lamp light; the water black ahead"
+    art: >
+      From low behind the hound: it backs down the wet ramp toward the water, dragging Jaeha by the arm, his boots scraping
+      on the concrete, a smear of water and blood behind him.
+    acting:
+      kang_jaeha: "on his back, dragged by the arm, heels scraping, teeth gritted"
+      drowned_hound: "backing toward the water, head low, dragging"
+    calm: top
+    sfx:
+      - {text: "SKRRRRK", style: impact, at: [0.40, 0.70], size: L, rot: -4}
+
+  - id: P41
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of Jaeha's eyes, gritted pain turning cold"
+    light: "lamp light; a red edge"
+    face: private
+    art: >
+      Extreme close-up: Jaeha's eyes (kang_jaeha), the pain in them turning cold and calculating. Fill the canvas edge to edge.
+    acting:
+      kang_jaeha: "eyes narrowing through the pain, brows low"
+    eyeline: "Jaeha → the pipe above"
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: intense, text: "NIB. NOW."}
+
+  - id: P42
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "high, from the ceiling pipe: Nib rising to his feet on it, amber light flaring in his eyes"
+    light: "amber flaring; lamp light below"
+    art: >
+      On the ceiling pipe, Nib (nib, mask; seal 2/5) rises from his crouch as amber light flares in his eyes and a thin amber
+      outline flickers on along him: field form. Below him, the hound drags Jaeha toward the water. The upper part of the
+      frame is dark ceiling, empty for the window.
+    acting:
+      nib: "rising on the pipe, both knives sliding out of their sheaths in a reverse grip, eyes blazing amber"
+    calm: top
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[NIB · FIELD FORM 05:00 · LINKED]"}
+    silent: true
+    sfx:
+      - {text: "SHING", style: quiet, at: [0.70, 0.60], size: S, rot: 0}
+
+  - id: P43
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "high, tilted, from above the hound: Nib dropping from the pipe onto its head, knives first"
+    light: "no scene light: amber streaks; white flash"
+    art: >
+      From high above: Nib drops from the ceiling pipe straight onto the hound's head, both knives driving down into the
+      violet Hush crack on its brow. The hound's jaws spring open and Jaeha's arm falls free.
+    acting:
+      nib: "landing on the hound's skull in a crouch, both knives buried in the brow crack, cloak and scarf flaring up"
+      drowned_hound: "jaw springing open, head jolting down"
+      kang_jaeha: "falling free onto the ramp, clutching his arm"
+    calm: top
+    sfx:
+      - {text: "SHRAKK", style: impact, at: [0.30, 0.20], size: XL, rot: -12}
+
+  - id: P44
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, side-on: the hound rearing and thrashing on the ramp, its paws skidding on the wet concrete, Nib clinging on"
+    light: "lamp light; violet ash spraying from the brow"
+    art: >
+      The hound rears and thrashes on the ramp, paws skidding out from under it on the wet concrete; Nib clings to its head
+      by one knife as it bucks; violet ash sprays from the crack.
+    acting:
+      drowned_hound: "rearing and skidding, legs splaying on the slick concrete, head whipping"
+      nib: "hanging on by one knife, legs flung out sideways"
+    calm: top
+    sfx:
+      - {text: "SKREEEK", style: impact, at: [0.60, 0.70], size: L, rot: 8}
+
+  - id: P45
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, behind Bomi at the top of the ramp: Bomi loosing an arrow, eyes shut"
+    light: "lamp light"
+    art: >
+      From low behind Bomi (yoo_bomi) at the top of the ramp: she looses an arrow down at the hound with her eyes squeezed
+      shut. It flies wide, far over the hound, toward the parked cars on the upper level.
+    acting:
+      yoo_bomi: "in a wobbly archer's stance, bowstring just released, eyes squeezed shut, ponytail swinging"
+    calm: top
+    lines:
+      - {who: yoo_bomi, type: shout, text: "GET AWAY FROM MY CO-STAR!", side: l}
+    sfx:
+      - {text: "TWANG", style: quiet, at: [0.40, 0.40], size: S, rot: 0}
+
+  - id: P46
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level on the upper level: the arrow smacking into a parked car's door, its alarm going off with flashing lights"
+    light: "the car's hazard lights flashing orange"
+    art: >
+      On the dry upper level, the arrow smacks into the door of a parked car; its alarm goes off at once, hazard lights
+      flashing orange, headlights blinking.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "WEE-OO WEE-OO WEE-OO", style: alert, at: [0.50, 0.24], size: L, rot: -4}
+
+  - id: P47
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, tilted: the blind hound swinging its whole head toward the car alarm, exposing its throat, Nib raising both knives"
+    light: "flashing orange from the car; lamp light"
+    art: >
+      The blind hound swings its whole head toward the shrieking car alarm, ears pricked, exposing the underside of its jaw
+      and the brow crack; on its head, Nib has both knives raised high together. Below, Jaeha, bleeding, sits up on the
+      ramp watching.
+    acting:
+      drowned_hound: "head snapped round toward the alarm, ears pricked, frozen"
+      nib: "kneeling on its skull, both knives raised high over the crack"
+      kang_jaeha: "sitting up on the ramp, clutching his bleeding left forearm, eyes on Nib"
+    calm: top
+    sfx:
+      - {text: "WEE-OO WEE-OO", style: alert, at: [0.80, 0.20], size: M, rot: 0}
+
+  - id: P48
+    recipe: splash
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from the ramp, looking up: Nib driving both knives into the crack, the hound bursting into ash and water"
+    light: "no scene light: amber and violet"
+    art: >
+      From low on the ramp, looking up: Nib drives both knives down into the brow crack with his whole weight; the hound
+      convulses and bursts apart into a column of violet ash and black water that crashes down over the ramp.
+    acting:
+      nib: "driving both knives down two-handed, his whole body behind it, cloak flying up"
+      drowned_hound: "head thrown back, bursting into ash and water"
+    calm: top
+    sfx:
+      - {text: "SHHUNK", style: impact, at: [0.30, 0.30], size: XL, rot: 10}
+      - {text: "KSSSHHHHH", style: impact, at: [0.66, 0.72], size: L, rot: -6}
+
+  - id: P49
+    recipe: aftermath
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level on the ramp, still: water and ash raining down, Nib standing in a puddle, Jaeha sitting holding his arm"
+    light: "lamp light through falling ash and spray"
+    art: >
+      Still: black water and violet ash rain down over the ramp. Nib stands in a spreading puddle, knives lowered; a few
+      metres down, Jaeha sits holding his bleeding forearm. The car alarm still flashes in the background.
+    acting:
+      nib: "standing straight, knives lowered at his sides, looking back at Jaeha"
+      kang_jaeha: "sitting on the ramp, left forearm clamped in his right hand, breathing hard, a small smile"
+    eyeline: "Nib → Jaeha; Jaeha → Nib"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "PATTER PATTER", style: quiet, at: [0.50, 0.20], size: S, rot: 0}
+
+  - id: P50
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high three-quarter: Yerin kneeling at Jaeha's side, glowing mint hands over his forearm, Bomi running down behind"
+    light: "mint glow from her hands; lamp light"
+    art: >
+      Yerin (song_yerin) kneels at Jaeha's side on the wet ramp, her hands glowing soft mint over the bite on his LEFT
+      forearm; Jaeha (kang_jaeha, vest) winces. Bomi (yoo_bomi) runs down the ramp behind them with her bow.
+    acting:
+      song_yerin: "kneeling, both glowing hands over the bite, lips pressed tight, eyes steady"
+      kang_jaeha: "wincing, holding the arm out to her, a weak grin"
+      yoo_bomi: "running down the ramp, bow in one hand, the other waving"
+    eyeline: "Yerin → the bite; Jaeha → Bomi"
+    foreground: "the ramp's yellow kerb, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "GOOD SHOT, BOMI.", side: r}
+      - {who: yoo_bomi, type: shout, text: "I WAS AIMING AT ITS HEAD!", side: l}
+    sfx:
+      - {text: "SHIIING", style: quiet, at: [0.30, 0.50], size: S, rot: 0}
+
+  - id: P51
+    recipe: chorus
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close on Bomi's phone screen in her hand: the live stream"
+    light: "the screen glow"
+    art: >
+      Close on Bomi's phone in her hand, the screen flat green, her thumb on it. Her bow and the wet ramp at the edges.
+    calm: top
+    ui:
+      - kind: phone.live_stream
+        "on": screen
+        viewers: "12,480 WATCHING"
+        chat:
+          - "[jjang_hunter]: THE HUSK JUMPED FROM THE CEILING"
+          - "[dalgona]: she shot a CAR lmaooo"
+          - "[minsu_0412]: TRAP RATS TRAP RATS TRAP RATS"
+    sfx:
+      - {text: "BLIP BLIP", style: quiet, at: [0.80, 0.80], size: S, rot: 0}
+
+  - id: P52
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level on the ramp: a fist-sized violet core floating up out of the puddle where the hound died, a window above it"
+    light: "the core's smoky violet glow; cyan from the window"
+    art: >
+      Where the hound died, a fist-sized faceted core, smoky violet with a slow inner pulse, floats up out of the puddle and
+      hangs in the air. Jaeha, Yerin and Nib, small around it, look up. The upper half is the dark car park, empty for the
+      window.
+    acting:
+      kang_jaeha: "sitting up, his bandaged arm across his knees, looking up at the window"
+      song_yerin: "kneeling beside him, looking up"
+      nib: "standing by the core, looking at it, not up"
+    calm: top
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.05], headline: "[BOSS DEFEATED: DROWNED HOUND (D)]", body: "THE GATE WILL CLOSE IN 10 MINUTES.", button: "OK"}
+    silent: true
+
+  - id: P53
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "close and low on Jaeha looking up into a second window, cyan on his face"
+    light: "cyan from the window; violet from the core"
+    face: private
+    art: >
+      Close and low on Jaeha (kang_jaeha, vest, the fresh bandage on his left forearm): he looks up into a second window,
+      frowning. The upper half is empty for the window.
+    acting:
+      kang_jaeha: "looking up, brows drawn together, the pencil frozen halfway to the notebook"
+    eyeline: "Jaeha → the window"
+    calm: top
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.05], headline: "[HARVEST CORE · EST. ₩3,000,000]", body: "NO OTHER OPTION IS AVAILABLE.", button: "HARVEST"}
+    silent: true
+
+  - id: P54
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, side-on: Jaeha turning to Nib, who stands looking down at the puddle"
+    light: "violet from the core; lamp light"
+    face: private
+    art: >
+      Side-on: Jaeha (kang_jaeha, vest) turns to Nib, who stands looking down at the puddle where the hound died, still in
+      field form, the amber in his eyes dimmed.
+    acting:
+      kang_jaeha: "turned toward Nib, one hand pointing up at the window, a puzzled frown"
+      nib: "looking down at the puddle, knives sheathed, shoulders low, quiet"
+    eyeline: "Jaeha → Nib; Nib → the puddle"
+    foreground: "the floating core's violet glow, cropped, left edge"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "LAST TIME THERE WAS A RELEASE BUTTON. THIS TIME THERE'S ONLY HARVEST.", side: l}
+      - {who: nib, type: speech, text: "THEN IT WAS ONLY A BEAST.", side: r}
+
+  - id: P55
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Nib's masked face in profile, looking at the puddle, unsure"
+    light: "violet glow from below"
+    art: >
+      Close on Nib's masked face in profile, looking down at the dark puddle. For once, he does not look sure.
+    acting:
+      nib: "eyes lowered to the puddle, mouth a tight line, the notched left ear drooping slightly"
+    eyeline: "Nib → the puddle"
+    calm: right
+    silent: true
+    sfx:
+      - {text: "DRIP", style: quiet, at: [0.30, 0.80], size: S, rot: 0}
+
+  - id: P56
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close on Jaeha's bandaged hand closing round the floating violet core"
+    light: "the core's violet glow on his glove and bandage"
+    art: >
+      Close on Jaeha's black fingerless-gloved hand, the white bandage above it, closing round the fist-sized violet core as
+      it drifts into his palm.
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: inner, text: "NO RELEASE. I'LL WRITE THAT DOWN TOO."}
+    sfx:
+      - {text: "VMMM", style: quiet, at: [0.70, 0.40], size: S, rot: 0}
+
+  - id: P57
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "high, over the ramp: the four of them small, two windows stacked in the dark above"
+    light: "cyan windows; lamp light"
+    art: >
+      High over the ramp: the four of them small in the lamp light, Bomi helping Jaeha up, Nib's amber glow fading. The
+      upper half is dark ceiling and pipes, empty for two stacked windows.
+    acting:
+      yoo_bomi: "pulling Jaeha up by his good arm"
+      kang_jaeha: "getting up, the core in his hand"
+      song_yerin: "packing her bag"
+      nib: "the amber fading from his eyes, sheathing the last knife"
+    calm: top
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[OPERATOR LV. 3 → 4]"}
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.16], text: "[ROUTE ALIGNMENT · SYNCING A NEW BOSS KIND · 60% ...]"}
+    silent: true
+
+  # ================= PAID (P58–P70) =================
+  - id: P58
+    recipe: insert
+    shape: inset-r
+    gap: long
+    bg: white
+    camera: "close on Jaeha's phone in his gloved hand, the screen green"
+    light: "evening; the screen glow"
+    art: >
+      Close on Jaeha's phone in his black fingerless-gloved hand, the bandage on his forearm. Screen: flat green.
+    calm: left
+    ui:
+      - kind: phone.info_card
+        "on": screen
+        title: "CORE EXCHANGE · MAPO"
+        text: "D-GRADE BOSS CORE · SOLD ₩3,000,000 · SPLIT 3 WAYS · ₩1,000,000 EACH"
+    lines:
+      - {who: kang_jaeha, type: inner, text: "ONE MILLION WON. FOR ONCE, IT'S ENOUGH."}
+
+  - id: P59
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level at the top of the rooftop stairs at night: Seoa handing the landlady an envelope with both hands, Nib behind her"
+    light: "the bare bulb over the stair landing"
+    art: >
+      At the top of the rooftop stairs at night, Seoa (kang_seoa) hands an envelope to the landlady (landlady) with both
+      hands and a small, proud bow. Behind Seoa stands Nib (nib, mask) stiffly; behind him, Jaeha (kang_jaeha, vest) with his
+      bandaged arm.
+    acting:
+      kang_seoa: "holding the envelope out with both hands, a small bow, chin up and proud"
+      landlady: "taking the envelope and thumbing it open with suspicion, slippers planted"
+      nib: "standing rigidly behind Seoa, arms hanging"
+      kang_jaeha: "on the step below, a tired smile"
+    eyeline: "Seoa → the landlady; the landlady → the envelope"
+    foreground: "the stair rail, cropped, bottom left"
+    calm: top
+    lines:
+      - {who: kang_seoa, type: speech, text: "THE REST OF THE RENT, MA'AM. AND NEXT MONTH'S TOO.", side: l}
+      - {who: landlady, type: speech, text: "...AND THE PET?", side: r}
+    sfx:
+      - {text: "BZZZ", style: quiet, at: [0.50, 0.08], size: S, rot: 0}
+
+  - id: P60
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close two-shot: Seoa pointing at Nib without turning round, Nib staring at the landlady"
+    light: "the bare bulb"
+    art: >
+      Close two-shot: Seoa (kang_seoa) points at Nib behind her with her thumb without turning round, perfectly composed;
+      Nib (nib, mask) stares at the landlady with silent offence.
+    acting:
+      kang_seoa: "thumb jabbed over her shoulder at Nib, a sweet, firm smile"
+      nib: "rigid, the uncovered eye narrowed at the landlady"
+    eyeline: "Seoa → the landlady; Nib → the landlady"
+    foreground: "the landlady's permed grey head, cropped, right edge"
+    calm: right
+    lines:
+      - {who: kang_seoa, type: speech, text: "HE'S NOT A PET, MA'AM. HE'S A HUSK.", side: l}
+      - {who: nib, type: whisper, text: "......", side: l}
+
+  - id: P61
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: black
+    camera: "high (4 m) over the green rooftop at night: a portable grill smoking, everyone round a plastic table, the river lights beyond"
+    light: "warm: the grill's glow, a string of bulbs; the city and bridge lights beyond"
+    art: >
+      Night on the rooftop: a portable gas grill sizzling with pork belly on a plastic table, bottles of soda, lettuce, a
+      string of warm bulbs. Seoa, Yerin, Bomi and Jaeha sit round it on plastic chairs; Nib (no mask, among friends) sits on
+      an upturned crate; the fat orange cat sits on the water tank watching Nib. The city lights and the river bridges glow
+      beyond the parapet.
+    acting:
+      kang_seoa: "turning meat on the grill with tongs, smiling for the first time in the chapter"
+      song_yerin: "laughing with her hand over her mouth"
+      yoo_bomi: "holding up a lettuce wrap to her drone, posing"
+      kang_jaeha: "leaning back in his chair, bandaged arm on the table, eyes half-closed, content"
+      nib: "on the crate, holding a lettuce wrap out at arm's length, refusing to taste it first"
+      gomi: "lying on the water tank, eyes fixed on Nib"
+    calm: top
+    sfx:
+      - {text: "SIZZLE", style: quiet, at: [0.50, 0.70], size: S, rot: 0}
+
+  - id: P62
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level across the table: Nib holding the lettuce wrap out to Seoa, Seoa taking a big bite of it"
+    light: "the grill's warm glow"
+    art: >
+      Across the table: Nib (nib, no mask) holds the lettuce wrap out to Seoa (kang_seoa), who leans over and takes a big
+      bite of it to prove it's safe. Yerin laughs beside them.
+    acting:
+      nib: "holding the wrap out at arm's length, watching her chew with total suspicion"
+      kang_seoa: "leaning over, taking a big bite from his hand, cheeks full, rolling her eyes"
+      song_yerin: "laughing behind her hand"
+    eyeline: "Nib → Seoa; Seoa → Nib"
+    foreground: "the grill's smoking edge, cropped, bottom"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "YOU FIRST.", side: l}
+      - {who: kang_seoa, type: speech, text: "IT'S LETTUCE. IT'S ALWAYS LETTUCE.", side: r}
+    sfx:
+      - {text: "CHOMP", style: quiet, at: [0.66, 0.50], size: S, rot: 0}
+
+  - id: P63
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Seoa's laptop on the table, the screen green"
+    light: "the grill's glow; the screen glow"
+    art: >
+      Close on Seoa's laptop on the corner of the table, a soda can beside it. Screen: flat green.
+    calm: left
+    ui:
+      - kind: phone.info_card
+        "on": screen
+        title: "HOUSEHOLD BUDGET"
+        text: "RENT: PAID · NEXT MONTH: PAID · SCHOOL TRIP: PAID"
+    silent: true
+
+  - id: P64
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: black
+    camera: "low, behind Jaeha at the parapet late at night: the city below, the lit bridge far away"
+    light: "night; the city's glow; the bridge's orange lights in the distance"
+    face: private
+    art: >
+      Later. The others have gone; the grill is cold. Jaeha (kang_jaeha, hoodie, the bandage on his forearm) stands alone at
+      the parapet, his back to us, looking out over Mangwon's roofs toward the river, where one bridge glows orange in the
+      distance.
+    acting:
+      kang_jaeha: "seen from behind, forearms on the parapet, the notebook in his good hand, head turned toward the bridge"
+    eyeline: "Jaeha → the bridge"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: inner, text: "A GATE NOBODY REGISTERED, GUARDED BY THE COMPANY THAT SELLS THE CORES."}
+    sfx:
+      - {text: "WHOOOO", style: quiet, at: [0.80, 0.30], size: S, rot: 0}
+
+  - id: P65
+    recipe: insert
+    shape: strip
+    gap: short
+    bg: black
+    camera: "close on the bridge lights far away across the dark roofs, tiny in the distance"
+    light: "orange sodium points in the dark"
+    art: >
+      Across the dark roofs, far away: the bridge, a line of tiny orange lights over the black river, and in the shadow of one
+      pier, a faint cold white-cyan glow. Fill the canvas edge to edge.
+    calm: none
+    silent: true
+
+  - id: P66
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "Jaeha turning from the parapet, lit cyan from a window that has just appeared in front of him"
+    light: "cyan from the window; the city behind"
+    face: private
+    art: >
+      Jaeha (kang_jaeha, hoodie) turns from the parapet as a window appears in the air in front of him, lighting his face
+      cyan. The upper half is night sky, empty for the window.
+    acting:
+      kang_jaeha: "half turned from the parapet, the notebook lowered, eyes widening in the cyan light"
+    eyeline: "Jaeha → the window"
+    calm: top
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[ROUTE ALIGNMENT · SYNC COMPLETE · NEW BOSS KIND · +10% × OPERATOR LV. 4]"}
+    silent: true
+
+  - id: P67
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "close, slightly low: a meter window filling to the brim before Jaeha's face"
+    light: "cyan, brightening"
+    face: private
+    art: >
+      Close and slightly low on Jaeha (kang_jaeha): the cyan light on his face brightens as the window fills. The upper half
+      is empty for the window.
+    acting:
+      kang_jaeha: "staring up, lips parted, the pencil slipping from behind his ear"
+    eyeline: "Jaeha → the window"
+    calm: top
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.05], headline: "[ROUTE ALIGNMENT 60% → 100%]", body: "THE FAR SIDE CAN HEAR YOU NOW.", button: "OK"}
+    silent: true
+
+  - id: P68
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: navy
+    camera: "close on the yellow pencil falling and bouncing on the green roof"
+    light: "cyan glow on the roof"
+    art: >
+      Close on the yellow pencil falling from behind his ear and bouncing on the green-painted roof in the cyan glow.
+    calm: right
+    silent: true
+    sfx:
+      - {text: "TIK... TIK", style: quiet, at: [0.40, 0.60], size: S, rot: 0}
+
+  - id: P69
+    recipe: system
+    shape: tall
+    gap: short
+    bg: navy
+    camera: "low, from the roof: Jaeha small at the parapet under a huge window with one glowing button, the night city behind"
+    light: "a great cyan glow; the city small and dark behind"
+    face: private
+    art: >
+      From low on the roof: Jaeha stands small at the parapet, looking up at a huge window that hangs in the night above him
+      with one glowing button. The city is small and dark behind him. The upper two thirds are empty for the window.
+    acting:
+      kang_jaeha: "standing very still, face tilted up, one hand half raised toward the window"
+    eyeline: "Jaeha → the window"
+    calm: top
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.06], headline: "[A CALL IS AVAILABLE]", body: "THE WINDOW STAYS OPEN 60 SECONDS. IF NOBODY ACCEPTS, THE CALL IS WASTED.", button: "CALL"}
+    silent: true
+
+  - id: P70
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: navy
+    camera: "extreme close-up of Jaeha's eyes reflecting a small cyan CALL button"
+    light: "cyan reflected in his eyes"
+    face: private
+    art: >
+      Extreme close-up: Jaeha's eyes (kang_jaeha), wide, a small glowing cyan rectangle (the button) reflected in each pupil.
+      Fill the canvas edge to edge.
+    acting:
+      kang_jaeha: "eyes wide, unblinking"
+    eyeline: "Jaeha → the button"
+    calm: none
+    silent: true
+
+  - id: END
+    kind: end
+    chibi_gag: "Chibi Nib, in a tiny cardboard box fort on the rooftop, peeks out at chibi Gomi, who sits outside the box with a bow on her head and a dead lizard 'gift' at her feet; chibi Seoa takes a photo."
