@@ -34,11 +34,11 @@ The old instructions to copy files to the laptop and to uninstall Valorant and R
 
 Work one entry at a time, or several in parallel. Each entry's prompt is written for "one Codex chat per entry"; give the same prompt to whatever runs the drawing.
 
-**3a. The keys and sheets first,** with the prompts in `codex/SESSIONS_TO_OPEN_5.md`, in its order:
-1. **T1**, the thumbnail key art (`codex/THUMBNAIL_BRIEF.md`; its character sheets exist).
-2. **S2b**, Nib's seal 2/5 look. Chapters 3–5 need it.
-3. The rest of **Wave A** (Arc 2: S16–S19, M1–M4, L6–L12; `codex/ASSETS_ARC2_BRIEF.md`).
-4. **Wave B** (Arcs 3–4: S20–S25, M5–M9, L13–L20, P1; `codex/ASSETS_ARC3_BRIEF.md`).
+**3a. The keys and sheets first,** with the prompts in `codex/SESSIONS_TO_OPEN_5.md` (decided 26 October; this order replaces the one in that file):
+1. **S2b**, Nib's seal 2/5 look, first. Chapters 3 onward need it. Send it in and wait for Claude's verdict before anything uses it.
+2. The rest of **Wave A** (Arc 2: S16–S19, M1–M4, L6–L12; `codex/ASSETS_ARC2_BRIEF.md`). These don't depend on S2b: run them while S2b waits for review.
+3. **Wave B** (Arcs 3–4: S20–S25, M5–M9, L13–L20, P1; `codex/ASSETS_ARC3_BRIEF.md`).
+4. **T1**, the thumbnail key art (`codex/THUMBNAIL_BRIEF.md`), last: it is only needed when the season goes up as one video after chapter 33. Draw it once S21 (Nib's seal 3/5 armour) is approved, with `nib/turnaround_seal3.png`. Never draw Nib for T1 from his base (seal 1/5) sheets.
 
 **3b. The two chapter jobs** (they need only the art already on `msgf-art`):
 - **Chapter 1 fixes:**
