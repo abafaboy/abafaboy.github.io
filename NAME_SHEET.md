@@ -27,6 +27,7 @@
 | Han Sora | HAHN SOH-rah | `han_sora` | 27, Black Hound crossbow hunter (ch 1 hunter 5), Kanghan's spy; Kanghan colours from ch 27. "Miss Han" to Jaeha. |
 | Inspector Ryu | RYOO | `inspector_ryu` | Hunter Association inspector (ch 13, 22, 32). "Inspector Ryu" only. |
 | Deputy Director Hwang | HWAHNG | `deputy_hwang` | The Association's deputy director, Kanghan's man inside (ch 32) |
+| Branch Chief Yang | YAHNG | `assoc_yang` | Head of the Association's Busan branch, Geum's old friend (Arc 5) |
 | Pyo Dongsik | PYOH DONG-sheek | `crew_pyo` | "Uncle Pyo", 63, trap-tester for 10 years (since the first gate), number 1 in the Arc 4 crew |
 | Dami | DAH-mee | `crew_dami` | 34, trap-tester, number 2 in the Arc 4 crew; a single mother |
 | Jang Woo, Jang Ho | JAHNG WOO, JAHNG HOH | `crew_woo`, `crew_ho` | Brothers, 25 and 23, numbers 3 and 5 in the Arc 4 crew; their chicken shop: "Wings of Glory" |
@@ -62,6 +63,9 @@
 | the Drowned Bell-Ringer | `bell_ringer` | Chapters 17-19 boss, a hushed hero. Windows: HUSHED BELL-RINGER (B). |
 | canyon wyvern | `canyon_wyvern` | Chapter 24 |
 | the Hushed Tide Warden | `tide_warden` | The kept boss of the Han River gate (ch 25-28). "The Warden" for short. |
+| brine crawlers | `brine_crawler` | Hush-spawn from the Busan sea gate (ch 34, 39-40) |
+| the Reef Hermit | `reef_hermit` | The cold-store gate's boss (ch 35). Window: REEF HERMIT (NEW KIND). |
+| the Deep Lantern | `deep_lantern` | The Busan sea gate's boss, a hushed hero (ch 39-40). Her real name, heard once: **Oriel**. Window: THE DEEP LANTERN. |
 
 ## Places
 
@@ -77,6 +81,8 @@
 | Gate 0912 | The C-grade gate in the subway construction site (ch 1–4) |
 | Kanghan Tower | Kanghan's headquarters (ch 5 hook) |
 | Busan | The sea gate (Arc 5); Auntie Geum's tteokbokki stall at the harbour (ch 33) |
+| the breakwater | Busan harbour's 1 km breakwater with the red lighthouse at its end (Arc 5) |
+| the cold-store gate | A small gate in the fish market's cold store, a flooded shrine (ch 35) |
 | the Far Side | The dying world behind the gates |
 | the Ninth Wall | Nib's fortress: a wall with nine towers (its sigil) |
 | Ward Nine | Maud's ward |
@@ -89,6 +95,7 @@
 | the Hunter Association | Ranks hunters F to S |
 | the Black Hound Guild | Mok's guild, Kanghan's contractor. "Black Hound" for short. |
 | the Kanghan Group | "Kanghan" for short; its Core Division is Baek's |
+| Kanghan Marine | Kanghan's marine arm; holds the Busan lid's maintenance contract (Arc 5) |
 | the Gate Rescue Corps | Choi's service |
 | the Trap Rats | Jaeha's team nickname (from ch 6). The stream's chat flips it to "TRAP-TESTER" in ch 21. |
 | BomBom TV | Bomi's channel; one million subscribers in ch 22 |

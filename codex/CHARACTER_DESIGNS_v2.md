@@ -66,6 +66,10 @@
 | The Drowned Bell-Ringer (ch 17) | 6 m | he reaches its knee; Borro its waist |
 | Canyon wyvern (ch 24) | body 1.2 m, wingspan 4 m | a big dog with wings |
 | The Hushed Tide Warden (ch 26) | 30 m standing, a seven-storey building kneeling | he is the size of the Warden's fingernail |
+| Pim (from ch 36) | 140 cm (the antennae add 30 cm) | the top of his head reaches Jaeha's chest; the antennae reach his eyes |
+| Brine crawler (ch 34, 39) | body 80 cm long, 40 cm at the shoulder, the tail 1 m | a big dog that is mostly claws |
+| The Reef Hermit (ch 35) | 4 m tall in its shrine shell | he reaches the bottom of its shell |
+| The Deep Lantern (ch 39-40) | about 150 m long; each hand 15 m across; the lantern 12 m | he is smaller than one of her fingers |
 
 Make `characters_v2/scale_chart_v2.png` with all of them standing in a row, after the style is chosen.
 
@@ -372,6 +376,43 @@ Recurring people get one lineup sheet (`characters_v2/neighbourhood/lineup.png`,
 
 **The crew kit** (all five trap-testers, ch 23-31): see Jaeha's `crew` look in 2.1, each with his or her own number (1 Pyo, 2 Dami, 3 Woo, 4 Jaeha, 5 Ho).
 
+### 2.19 Pim: moth-folk signal keeper, summon no. 4 (from ch 36)
+
+**Read at a glance.** A 1.4 m moth-person with a huge fluffy cream ruff, enormous glossy black eyes, two tall feathery antennae, soft cream-and-lilac wings folded down his back like a cape, and the dramatic hands of a man who has just heard the best gossip of his life. From ch 36 he wears a black gaming headset he "borrowed" from a PC bang.
+
+| | |
+|---|---|
+| **Age and build** | An adult moth-folk, ageless; 140 cm to the top of his head, the antennae 30 cm more. A soft, round, furry body; thin dark limbs (four, like a person's) in a grey-lilac chitin #4A4256 / #2F2A38; long thin fingers, three and a thumb. |
+| **Face** | A round fluffy face; two enormous glossy black eyes with no whites and one soft highlight each (they carry every feeling: wide, narrowed, sparkling, welling up); a tiny mouth that opens very wide when he is being dramatic; no visible nose. |
+| **Fur** | Moon cream #F3EEDF / #D9CFB8: fluffy cheeks and a thick ruff round the neck like a collar; soft fur down the chest and belly. |
+| **Antennae (lock)** | Two long feathery fronds, cream with lilac tips #B9A6D6, standing up from the forehead. They swivel toward sounds, droop when he is sad, shoot straight up when he hears something. When he listens hard they glow faintly lilac; in field form they blaze. Loud places hurt them: he flattens them or covers them. |
+| **Wings (lock)** | Two pairs folded down his back to the backs of his knees like a soft cape: dusty cream scales with lilac and pale grey eye-spots. In field form they open to a 2.6 m span and the eye-spots glow lilac; rings of faint lilac signal ripple out from his antennae. |
+| **Clothes** | A fitted lilac signal-keeper's vest #9C88C2 / #74619A with small brass buttons and a round brass mirror badge (a signal mirror, no letters) over the cream fur; coils of fine brass wire wound round both wrists like bracelets; a small satchel of brass tuning forks on a strap. |
+| **The headset (from ch 36)** | A black over-ear gaming headset with a cracked plastic band and a dead light ring, a little too big; it sits over the base of his antennae, which poke up through the gap in the band. It muffles the city. |
+| **Signature colours** | Moon cream #F3EEDF and lilac #B9A6D6 |
+| **Name-card background** | Gradient, lilac #B9A6D6 to night blue #1E2240 |
+
+**Acting.** Dramatic: hands fly to his cheeks, he gasps, he whispers gossip behind one hand, his antennae shoot up. He loves festivals, the dramas that leak through the gates, and everybody's business. When he truly listens, he goes completely still, eyes huge, antennae turning like dishes. Brave when it counts: he stands in front of a crowd and screams a signal at a leviathan.
+
+**Never:** a plush mascot or a baby (he is an adult signal officer of his world); a horror bug; human hair; a nose.
+
+### 2.20 Arc 5 cast and looks (chapters 34-40; generic, no name cards)
+
+| Id | Who | Chapters | Look |
+|---|---|---|---|
+| `assoc_yang` | Branch Chief Yang, the Association's Busan branch | 37, 39 | 63, thin, bald with a grey fringe, round glasses, a brown cardigan over the grey Association shirt with the star-and-shield badge; tired and decent, an old friend of Geum's. |
+| `market_aunties` | Three fish-market stallholders, Geum's friends | 34-40 | Rubber aprons, rubber boots and arm sleeves, permed hair: one tall and thin in a sun visor, one round in a floral headscarf, one tiny with a gold necklace and a loud voice. They bet on Jaeha, feed Borro and take orders from Seoa. |
+| `pc_bang_owner` | A PC bang owner | 36 | A sleepy man in his thirties in a hoodie, a cigarette behind his ear (unlit). |
+| `busan_hunters` | Association hunters in Busan | 39-40 | The grey Association field uniform with the star-and-shield badge; mixed weapons. |
+| `fishermen` | Harbour fishermen | 34, 39-40 | Weathered men in orange waterproofs and rubber boots. |
+| `kanghan_engineer`, `kanghan_tactical` | Kanghan Marine's crew on the barge | 37-40 | As in 2.18, with orange life vests over the coveralls. |
+
+**Looks (outfits) for Arc 5:**
+- **Jaeha, `training`** (ch 34-38): Geum's spare tracksuit, faded purple like hers and too short at the wrists and ankles, a towel round his neck, his own trainers; his hands still shake a little. His vest and hoodie come back for the break (ch 39-40).
+- **Lyra, `swimsuit`** (ch 37; fan service, adult): a river-blue halter bikini with silver trim, a sheer pale-blue wrap tied at her LEFT hip, her pearl choker and silver arm cuffs; the braid over her LEFT shoulder. No bracer or glove at the beach. Never a camera below her waist level.
+- **Han Sora, `pool`** (ch 37; fan service, adult): a black one-piece swimsuit with a deep plunging neckline and high-cut legs, crimson piping; big sunglasses pushed up into her bob; the bandage still on her RIGHT wrist; a new compass on her LEFT wrist (section 6). Never a camera below her waist level.
+- **Moon Ahin, `summer`** (ch 37-38): a white sleeveless summer dress to mid-calf with a high slit up the LEFT side, a wide-brimmed white sun hat with a silver ribbon, white sandals, white lace gloves; the baton in a holster at her hip. Saebyeok holds a white parasol over her. Her coat-dress comes back for the break.
+
 ### 2.10 Lyra: river archer summon (from ch 18), the thumbnail woman
 
 **Why she is drawn now.** The owner chose Lyra to front the YouTube thumbnail (25 October). He wants her as attractive as the heroines on the manhwa recap thumbnails he sent, "since it obviously works".
@@ -514,7 +555,23 @@ Small cliff-dwelling wyverns: a body the size of a large dog (1.2 m long without
 A sea-giant, 30 m tall if he stood, kept kneeling and sagging in chains. Pale blue-grey skin like a drowned man's, with Hush cracks leaking violet ash; armour of red and white coral grown like plate, crusted with barnacles and shells; a crown of coral branches; a long beard of kelp; a broad, noble, sorrowful face. His eyes are deep sea-green, enormous and ancient (closed until ch 27). Chains as thick as tree trunks run from steel cuffs on his wrists, neck and waist to anchors in the pit walls; the chain links are matte black factory steel with one small stamped mark (the same mark as the knight's chains in ch 1 and 4: a shape, never letters). Dozens of steel pipes are driven into his body through collars bolted into the coral; smoky violet light flows out through their glass sections. A broken trident lies at his knees. Kneeling, he is as tall as a seven-storey building. His voice reaches only Far Side people, as words; humans hear a deep hum.
 
 ### 4c.5 The thing under the Busan sea gate (ch 33, never shown whole)
-Only ever a curve of dark hide too big to see the end of, and the edge of something like a fin or a hand, sliding past a crack in the sealed lid on the seabed (Arc 5).
+Only ever a curve of dark hide too big to see the end of, and the edge of something like a fin or a hand, sliding past a crack in the sealed lid on the seabed. It is the Deep Lantern (4d.3).
+
+## 4d. Monsters, Arc 5 (chapters 34-40)
+
+All Hush-spawn are eyeless or dull-eyed and leak violet ash from their cracks; bosses are fallen Far Side heroes.
+
+### 4d.1 Brine crawlers (ch 34, 39-40, Hush-spawn)
+Dog-sized things out of the sea: a crab's front half (a flat slick black-grey carapace 80 cm long, two serrated claws, six spiny legs) and an eel's rear half (a 1 m tail that thrashes and slaps); a round mouth ringed with needle teeth under the carapace; no eyes; violet cracks along the carapace leaking ash; weed and barnacles. In a break they come up the breakwater in hundreds, clicking.
+
+### 4d.2 The Reef Hermit (ch 35, a small boss, new kind)
+A hermit crab 4 m tall whose shell is a sunken Far Side stone shrine: a small domed temple of grey stone with carved pillars, crusted with coral and barnacles, a bronze bell still hanging inside that clangs when it moves. Out of the shrine's doorway: two huge armoured claws (the RIGHT one bigger), spindly armoured legs, two eye-stalks with dull violet eyes, a violet Hush crack across its carapace. Its weak point is the soft, pale pink-grey curled abdomen hidden inside the shrine; it only shows when the Hermit crawls out to take a bigger shell.
+
+### 4d.3 The Deep Lantern (ch 39-40, the Busan sea gate's boss; Oriel, a hushed hero)
+A leviathan about 150 m long, rising out of the sea gate: a whale-like body with a broad blunt head, grey-blue hide #3E4C5E / #25303D crusted with coral, barnacles and kelp; rusted steel plates of the old lid stuck in the hide of her back like scales, from ten years of pushing against it. At the front, two huge webbed hands, each 15 m across, four long fingers and a thumb. From the top of her head a long curved crest-spine rises 30 m, and at its tip hangs the great lantern: a cage of pale bone-white coral, 12 m, round a burning core of light.
+- **Hushed:** the lantern burns violet and pulses; its light lures (people who look at it go glassy-eyed and walk toward the water); a Hush crack runs down her brow between the eyes, leaking violet ash at its base under the lantern; her small ancient eyes open dull violet.
+- **Freed (ch 40):** the lantern flares pure white and sweeps the sea like a lighthouse beam; for a moment her face is gentle and her eyes are sea-grey; then she sinks and dissolves into light.
+- Her real name, heard once: Oriel. She guided her people's boats home through storms.
 
 ## 5. Locations, Arc 1 (make a location key for each after the style is chosen)
 
@@ -585,6 +642,22 @@ Colour keys are in `MANHWA_STYLE_GUIDE.md` table 5.3.
 - `rooftop_room`: `party_dusk.png`, the roof with strings of warm bulbs over the laundry lines and two fold-out tables (ch 22, 33).
 - `kanghan_office`: `day.png`, the same office in hard daylight with the blinds up (ch 21, 32).
 
+
+## 5d. Locations, Arc 5 (chapters 34-40)
+
+| Location | Id | Chapters | Design |
+|---|---|---|---|
+| **The breakwater** | `busan_breakwater` | 34-40 | A long concrete breakwater running 1 km out from Busan's harbour into the sea: a walkway 6 m wide on top, a low parapet, piles of grey tetrapods on the seaward side, fishermen's rods; a red lighthouse 12 m tall at its end. From it: Geum's orange tent at the edge of the market, the boats, the city's towers behind. Views: `key.png` (dawn), `night.png` (the lighthouse beam), `break.png` (ch 39: the sea violet and boiling, crawlers on the tetrapods). |
+| **Ten years ago** | `busan_breakwater_flashback` | 35 | The same breakwater on the night of the Opening, drawn in greys: violet only for the boiling sea and the gate light, amber only for the fighters made of light. |
+| **The fish market** | `busan_fish_market` | 34-35, 39 | A big covered harbour fish market: rows of tanks with live fish, crabs and octopus, ice trays, red plastic tubs, wet concrete floor, fluorescent tubes, aunties in rubber aprons; at the back, the cold store's heavy insulated steel door. |
+| **The cold-store gate** | `cold_store_gate` | 35 | Behind the cold store's door, a gate slit between racks of frozen fish; inside, a flooded Far Side shrine: a sunken temple hall 25 m across with stone pillars, sea-green water knee-deep, coral on the walls, shafts of blue-green light from cracks above, a raised dais. |
+| **The Association's Busan branch** | `assoc_busan` | 37 | An old 1990s office building by the port: the branch chief's cluttered office, a wall map of the coast with pins, old trophies, a video-call screen (#00FF00), windows over the port cranes. |
+| **The hotel rooftop pool** | `hotel_pool` | 37 | A luxury hotel's rooftop infinity pool in late-afternoon sun above the harbour: white loungers, a cabana, the pool's edge running out into the sky, the city and the sea below. |
+| **The beach** | `busan_beach` | 37 | A broad city beach: a long crescent of pale sand, a curve of glass towers behind, calm autumn sea, a few walkers and a man with a metal detector; Bomi's drone. |
+| **Kanghan's barge** | `kanghan_barge` | 37-40 | A black-hulled crane barge anchored 2 km off the harbour over the sea gate: a tall crane, drilling rigs lowered on cables, floodlights, containers, the silver hexagon on the hull (an emblem, no letters), engineers in grey coveralls and orange life vests, troopers. |
+| **A PC bang** | `pc_bang` | 36 | A cramped internet café: rows of gaming PCs with glowing keyboards, energy-drink cans, cup-noodle steam, a bored owner behind a counter of snacks. |
+| **Pim's tower** | `pim_tower` | 36 | Inside the Call: a dark silent plain under a violet-black sky; a broken signal tower of brass and stone, its mirrors cracked, wires trailing in the wind; one small figure on top with his antennae up. |
+
 ---
 
 ## 6. Props
@@ -601,8 +674,13 @@ Colour keys are in `MANHWA_STYLE_GUIDE.md` table 5.3.
 | **Minseok's phone** (ch 20-22) | An old phone in a cracked safety-orange case with a small yellow thumbs-up sticker on its back (the same thumbs-up Jaeha doodles in his notebook); kept wrapped in plastic in the hollow grip of Mok's shield. |
 | **Minseok's lamp** (ch 26-32) | A rusted trap-tester's hard-hat lamp with a strip of faded orange vest cloth caught in it; Jaeha clips it to his belt, then leaves it at the niche. |
 | **The stamped chain link** (ch 4, 26) | One link of matte black factory steel, machined, with a small stamped mark (a shape, never letters); Jaeha keeps it in his chest pocket. |
-| **Choi's kimbap box** (ch 32) | A foil-lined takeaway kimbap box with an old black USB stick tucked between the rolls. |
+| **Choi's kimbap box** (ch 32) | A foil-lined takeaway kimbap box with a cheap silver USB stick, no lanyard, tucked between the rolls. |
 | **Auntie Geum's ladle and arm** | Section 2.17. |
+| **Pim's headset** (ch 36-40) | Section 2.19. |
+| **Sora's new compass** (ch 34-40) | A slimmer silver-cased compass on a fine chain round her LEFT wrist (her right is still bandaged), its needle another violet sliver of core. Kanghan issued it. |
+| **Kanghan's anchors** (ch 37-40) | Black steel harpoon anchors 2 m long, fired from the barge on chains as thick as an arm; each with the same small stamped mark as the farm's chains (a shape, never letters). |
+| **The Deep Lantern's core** (ch 40) | A head-sized boss core shaped like a lantern: a cage of pale coral round a slowly pulsing white-violet light. |
+| **Geum's timetable** (ch 33-34) | A grease-spotted sheet of paper in big aggressive handwriting (the letterer writes it). |
 
 ---
 
@@ -734,3 +812,15 @@ Use the snippet of every character in the panel, word for word, so the descripti
 
 **The ash hound alpha**
 > The ash hound alpha: a huge lean eyeless, noseless black hound 1.6 m at the shoulder, heavy in the neck, with a long split jaw of white bone-like teeth and a ridge of deep cracks down its neck and back that flare violet.
+
+**Pim**
+> Pim: an adult moth-folk signal keeper, 140 cm tall plus two 30 cm feathery antennae, cream with lilac tips, standing up from his forehead; a round fluffy face with two enormous glossy black eyes (no whites, one soft highlight each), a tiny mouth and no visible nose; thick moon-cream fur with a big fluffy ruff round the neck; thin grey-lilac limbs and long thin fingers (three and a thumb); two pairs of soft dusty-cream wings with lilac and pale grey eye-spots folded down his back to the backs of his knees like a cape; a fitted lilac vest with small brass buttons and a round brass signal-mirror badge; coils of fine brass wire round both wrists; a small satchel of brass tuning forks. *From ch 36 add:* a black over-ear gaming headset with a cracked band and a dead light ring, his antennae poking up through the gap in the band.
+
+**Brine crawler**
+> A brine crawler: a dog-sized sea monster, an 80 cm flat slick black-grey crab carapace with two serrated claws and six spiny legs, and a 1 m eel's tail behind; a round needle-toothed mouth under the shell; no eyes; violet cracks in the carapace leaking ash; weed and barnacles.
+
+**The Reef Hermit**
+> The Reef Hermit: a hermit crab 4 m tall living in a sunken grey stone shrine (a small domed temple with carved pillars, crusted with coral and barnacles, a bronze bell inside); two huge armoured claws, the RIGHT bigger, spindly armoured legs, two eye-stalks with dull violet eyes, a violet Hush crack across its carapace.
+
+**The Deep Lantern**
+> The Deep Lantern: a hushed sea leviathan about 150 m long, a whale-like body with a broad blunt head, grey-blue hide crusted with coral, barnacles and kelp, rusted steel plates stuck in the hide of her back; two huge webbed hands at the front, each 15 m across; a long curved crest-spine rising 30 m from her head with a 12 m lantern at its tip, a cage of pale bone-white coral round a burning violet light; a Hush crack down her brow leaking violet ash; small ancient dull-violet eyes.
