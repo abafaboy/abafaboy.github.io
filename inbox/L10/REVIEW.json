@@ -1,0 +1,37 @@
+{
+  "entry": "L10",
+  "location": "kanghan_office",
+  "status": "SUBMITTED CANDIDATE / CLAUDE REVIEW PENDING",
+  "required_deliverables_present": true,
+  "claude_approved": false,
+  "selected": "key.png",
+  "selected_attempt": 2,
+  "rejects": [
+    "_rejects/kanghan_office_key_try1_figure_scale.png"
+  ],
+  "attempts_used": 2,
+  "attempt_cap": "Initial plus up to three redos per LOCATION_KEYS_BRIEF; stopped after second returned image",
+  "generation_in_flight": false,
+  "technical_checks": {
+    "all_pngs_native_1536x1024": true,
+    "all_pngs_byte_identical_to_generator": true,
+    "four_inspected_approved_refs_every_call": true,
+    "two_approved_house_style_anchors_every_call": true,
+    "unapproved_or_failed_inputs_used": false
+  },
+  "visual_self_checks": {
+    "setting": "Long dark high-tower office at night, city through the glass wall on picture-right",
+    "required_props": "Black desk and empty chair, smoky violet core supported inside glass case on plinth, shelves of archive boxes",
+    "lighting": "Cold blue architectural key and night-city fill, small local violet core glow, large dark masses",
+    "scale_perspective": "One anonymous adult at far-left archive bay, full adult build, feet on floor, head near the architectural horizon; desk, case and shelves read as usable furniture",
+    "text": "No readable text or logos observed; archive fronts remain blank aside from normal handles/slots",
+    "style": "V2 drawn architecture and hard shadow planes follow approved monitoring-room key; glossy surfaces need Claude full-size judgment"
+  },
+  "caveats": [
+    "Retained scale figure is roughly 150 px tall (about 15% of image height), larger than 55–70 px prompt target. It reads small in the environment; Claude must decide whether it is tiny enough and assess final anatomy.",
+    "Floor and glass case retain noticeable reflections; review against approved house style. PNG bytes were not retouched.",
+    "The office uses an anonymous staff figure only. Director Baek is not depicted, and unapproved S17 character art is not a dependency or input.",
+    "The new core/plinth/archive layout is a candidate, not a canonical design before Claude approval."
+  ],
+  "review_authority": "Claude through codex/reviews/L10.md on msgf-bible."
+}
