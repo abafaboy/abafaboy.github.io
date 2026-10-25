@@ -1,0 +1,151 @@
+{
+  "entry": "L9",
+  "status": "COMPLETE_CANDIDATES_PENDING_CLAUDE",
+  "approval": "PENDING_CLAUDE",
+  "updated_utc": "2026-10-25 23:51:18 UTC",
+  "bible_commit": "4515a815d802a726b48b374ee344808eed635144",
+  "art_base_commit": "adb11c47fb3b9b05609aa72ffbbc3154a9b8a194",
+  "imagegen_calls": 5,
+  "inflight_calls": 0,
+  "checks_run": [
+    "MANHWA_STYLE_GUIDE section 11 place-applicable checks",
+    "11b place-applicable proportions/material/gear/text/compression checks",
+    "PANEL_BRIEF_v2 section 4b scale, floor and camera perspective",
+    "native/full image, 200 px thumbnail and enlarged adult/vehicle detail inspection"
+  ],
+  "images": {
+    "mangwon_market/key.png": {
+      "tries": 2,
+      "selected_attempt": 2,
+      "status": "candidate_pending_claude",
+      "heads": {
+        "adult_near": [
+          0.59,
+          0.44,
+          0.607,
+          0.466
+        ],
+        "adult_far": [
+          0.477,
+          0.464,
+          0.489,
+          0.484
+        ]
+      },
+      "observations": [
+        "Covered street with high translucent ribbed arcade roof, lit hanging bulbs, open side-route gaps, produce/fish/rice-cake/kimchi stalls and plastic tubs.",
+        "Two principal generic adults are smaller and farther down the aisle in the selected second attempt; no named cast or legible writing.",
+        "Bodies retain adult leg length and small heads; feet sit on the shared floor plane; stall counters read around waist height at similar depth.",
+        "Warm bulbs against cool evening/roof light separate the market at 200 px."
+      ],
+      "caveats": [
+        "Nearer figure remains larger than the numeric 90–110 px suggestion in the corrective prompt, but now occupies the middle distance and architecture/goods dominate. Claude should judge compliance with the brief’s tiny-figure instruction.",
+        "Exact 6 m street width and 7 m roof height from current chapter 11 are staging targets, not surveyed measurements."
+      ]
+    },
+    "mangwon_market/footbridge.png": {
+      "tries": 1,
+      "selected_attempt": 1,
+      "status": "candidate_pending_claude",
+      "heads": {},
+      "observations": [
+        "Intact pedestrian bridge with both stair flights, attached landings, one central concrete pier, railings and white bridge lamps.",
+        "Market roof and warm stall mouth at left; road and a plain parked car provide scale; no people/action effects.",
+        "Road stripes, car plate and signboards contain no readable text; small car badge appears as a generic circular emblem."
+      ],
+      "caveats": [
+        "Consumer-script targets (30 m span, 5 m clearance, four-lane road and 1.1 m railing) require Claude’s geometry review; perspective alone is not a measurement certificate.",
+        "Footbridge was generated independently using approved Arc 1 inputs; exact roof/shop alignment with the new market key awaits cross-view review."
+      ]
+    },
+    "fish_market/key.png": {
+      "tries": 2,
+      "selected_attempt": 2,
+      "status": "candidate_pending_claude",
+      "heads": {
+        "worker_crate": [
+          0.549,
+          0.446,
+          0.561,
+          0.467
+        ],
+        "worker_door": [
+          0.644,
+          0.451,
+          0.657,
+          0.472
+        ]
+      },
+      "observations": [
+        "Frosted insulated freezer doors, two open refrigerated truck rears, ice/crates, white fluorescent tubes, damp floor and low cold mist are visible.",
+        "Exactly two principal tiny generic workers now stand well back, one with a small crate and one at a door handle; no foreground worker, named identity or T patch.",
+        "Truck wheels and crate stacks contact the floor; mist stays low and source light is cool white, with no imported rescue scene, green billboard, portal or red-blue strobes.",
+        "Full native and 200 px inspections keep the lane route, cold light and truck/door forms readable."
+      ],
+      "caveats": [
+        "Freezer doors read as tall industrial cold-store/loading doors. The prompt’s 2.1 m ordinary door anchor is not a validated height; Claude should check door/worker relationships and their use in chapter panels.",
+        "Exact 4 m lane width/40 m length and truck loading-bay geometry are prompted staging targets, not surveyed measurements.",
+        "Low mist is explicitly required by this location brief; it is not an added magical haze."
+      ]
+    }
+  },
+  "png_inventory": [
+    {
+      "path": "mangwon_market/_rejects/key_01_foreground_person_and_extra_people.png",
+      "sha256": "5553ad48151329017d7c2df0cf93a83d2fc2881674bcafb26032b4ae98529218",
+      "bytes": 2794044,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG"
+    },
+    {
+      "path": "mangwon_market/footbridge.png",
+      "sha256": "5e7622b7d8fa0df84da27f3da5563ea03d2bc7bbc4a036249094eea9bdd2b81d",
+      "bytes": 2741600,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG"
+    },
+    {
+      "path": "mangwon_market/key.png",
+      "sha256": "f9b451f51cc5b1eb64a3a16c4466ada5bb83206b24f88a26a695117862cb0101",
+      "bytes": 2877330,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG"
+    },
+    {
+      "path": "fish_market/_rejects/key_01_large_workers_dominate_location_key.png",
+      "sha256": "4c65152988c0ae08e4035c23ca9723c10f19ffecaeb7f7f1ef562c517aab9a16",
+      "bytes": 3017420,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG"
+    },
+    {
+      "path": "fish_market/key.png",
+      "sha256": "9fcb0b8dd2716b84bc07a6ffd8d955ff054f3b65788de2e7d667af7a1d513c5b",
+      "bytes": 2908207,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG"
+    }
+  ],
+  "blockers": [],
+  "not_applicable": [
+    "Named-cast dialogue/side-lock checks: all figures generic scale adults",
+    "Flat-grey model-sheet background: these are location keys",
+    "No drawn screens in these locations"
+  ],
+  "scope": "Only inbox/L9 and one INBOX.md row; L6/L7/ch002-A and canonical art untouched"
+}
