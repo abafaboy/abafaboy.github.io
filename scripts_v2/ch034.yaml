@@ -5,9 +5,9 @@ when: "Monday 4:00 AM to Tuesday night, Busan: the breakwater, the harbour fish 
 story_beats: ARC5_BEATS.md#34-just-one-more-hook-threat
 cast:
   kang_jaeha: training       # Geum's spare purple tracksuit (CHARACTER_DESIGNS_v2.md 2.20)
-  nib: mask                  # seal 3/5 armour; the cracked husk mask in public, none in Geum's tent; rest form except P50-P52
-  borro: default             # husk face in public; rest form except P50-P52
-  lyra: default              # no mask; rest form except P50-P52
+  nib: mask                  # seal 3/5 armour; the cracked husk mask in public, none in Geum's tent; rest form except P50 (field form)
+  borro: default             # husk face in public; rest form all chapter
+  lyra: default              # no mask; rest form except P50 (field form)
   geum_okran: default
   market_aunties: default    # generic, three stallholders (2.20)
   fishermen: default         # generic
@@ -20,9 +20,9 @@ locations: [busan_breakwater, busan_fish_market, geum_stall]
 continuity:
   - "Kang Seoa (15): her outfit as each panel says; glasses, the calculator keychain. Never any fan service. The camera stays at her eye level or above, never below."
   - "Jaeha: Geum's spare tracksuit, faded purple like hers and too short at the wrists and ankles, a towel round his neck, his own trainers; his hands still shake a little (a faint tremor line on the fingers), a little less by Tuesday. Notebook in the LEFT chest pocket of the tracksuit top, pencil behind the RIGHT ear, fringe over the LEFT eye."
-  - "Nib: seal 3/5, the scout-captain armour (CHARACTER_DESIGNS_v2.md 2.2) over the cloak; the cracked husk mask over the upper LEFT of his face in public; no mask inside Geum's tent. Rest form (dull eyes, no outline) except the sparring on the shore, P50-P52 (field form: amber eyes, thin amber outline)."
-  - "Borro: 2.4 m, the slate shell with moss and tiny flowers, the door-sized iron shield; the white husk face tied on with cord in public. Rest form except P50-P52 (field form: moss-green glow)."
-  - "Lyra: her design exactly (2.10), no mask; rest form except P50-P52 (field form: river-blue glow). Fan service: confident and beautiful, never a camera below her waist level."
+  - "Nib: seal 3/5, the scout-captain armour (CHARACTER_DESIGNS_v2.md 2.2) over the cloak; the cracked husk mask over the upper LEFT of his face in public; no mask inside Geum's tent. Rest form (dull eyes, no outline) except the sparring on the shore, P50 (field form: amber eyes, thin amber outline)."
+  - "Borro: 2.4 m, the slate shell with moss and tiny flowers, the door-sized iron shield; the white husk face tied on with cord in public. Rest form all chapter."
+  - "Lyra: her design exactly (2.10), no mask; rest form except P50 (field form: river-blue glow). Fan service: confident and beautiful, never a camera below her waist level."
   - "Auntie Geum Okran (2.17): apron over the purple tracksuit, headscarf, pink slippers, the steel LEFT arm, the ladle in her RIGHT hand; in P01-P09 she rides a battered red moped and shouts through a rolled-up newspaper."
   - "The market aunties (generic, 2.20): one tall and thin in a sun visor, one round in a floral headscarf, one tiny with a gold necklace; rubber aprons, boots and arm sleeves."
   - "Han Sora (2.16): the charcoal Kanghan jacket over a black top, her black bob, red lips; a fresh bandage round her RIGHT wrist; a new slim silver compass on a fine chain round her LEFT wrist (section 6), its needle a violet sliver of core."
@@ -957,22 +957,22 @@ panels:
     shape: wide
     gap: long
     bg: black
-    camera: "high over the shore in the afternoon: Nib and Lyra sparring in field form, Borro holding his shield for them, Jaeha kneeling behind with the load running into him"
-    light: "afternoon; amber, river-blue and moss-green glows"
+    camera: "high over the shore in the afternoon: Nib and Lyra sparring in field form, Jaeha kneeling behind with the load running into him, Borro watching from the breakwater above"
+    light: "afternoon; amber and river-blue glows"
     art: >
       High over the stony shore in the afternoon: Nib (nib, field form: amber eyes and outline) and Lyra (lyra, field form: river-blue
-      glow) spar at full speed, knife against bow-stave; Borro (borro, field form: moss green) takes their stray blows on his shield;
-      behind them Jaeha (kang_jaeha, training) kneels on the stones with thin threads of light running from all three into his chest,
-      teeth clenched, holding it. Geum (geum_okran) times him with a cheap stopwatch.
+      glow) spar at full speed, knife against bow-stave; behind them Jaeha (kang_jaeha, training) kneels on the stones with two thin
+      threads of light, amber and blue, running from them into his chest, teeth clenched, holding it. Geum (geum_okran) times him with a
+      cheap stopwatch. Up on the breakwater, Borro (borro, husk face, rest form) watches, eating a lettuce leaf.
     acting:
       nib: "lunging low with both knives, cloak flaring"
       lyra: "parrying with the bow-stave, laughing, braid flying"
-      borro: "shield raised, sliding a step as a blow lands"
+      borro: "small on the breakwater above, sitting on the parapet, munching lettuce, watching"
       kang_jaeha: "kneeling, fists on his thighs, teeth clenched, a thin nosebleed, eyes open"
       geum_okran: "standing with the stopwatch up in the steel hand, eyes on him"
     calm: top
     ui:
-      - {kind: system.notice_small, "on": float, at: [0.5, 0.88], text: "[CARRY · 3 SUMMONS · SUSTAINED · 09:40]"}
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.88], text: "[CARRY · 2 SUMMONS · SUSTAINED · 09:40]"}
     sfx:
       - {text: "KLANG", style: impact, at: [0.40, 0.40], size: M, rot: -8}
 
