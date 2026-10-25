@@ -1,0 +1,1354 @@
+chapter: 11
+title: Market Break
+format: SCRIPT_FORMAT_v2.md
+when: "Tuesday, 5:47 PM to about 6:20 PM: Mangwon Market during a dungeon break, from its covered main street and narrow alleys to the pedestrian footbridge at its edge."
+story_beats: STORY_BIBLE_v4.md#arc-2-chapters-612-the-trap-rats-chapter-by-chapter
+cast:
+  kang_jaeha: vest          # straight from the tower: torn, bloody vest; bandaged shoulder and forearm
+  nib: mask
+  borro: default            # husk face tied on
+  kang_seoa: default
+  song_yerin: default
+  yoo_bomi: default
+  choi_dongmin: default
+  granny_tteok: default     # generic market granny, see continuity
+  granny_kimchi: default    # generic market granny, see continuity
+  ash_hound: default
+  marsh_serpent: default
+locations: [mangwon_market]
+continuity:
+  - "Jaeha comes straight from the tower: the vest torn and bloody at the RIGHT shoulder over a white bandage, the bandage on his LEFT forearm, dried blood under his nose; fringe over the LEFT eye, pencil behind the RIGHT ear, notebook in the LEFT chest pocket. He gets steadily worse: nosebleeds from P33, on one knee from P49."
+  - "Nib: seal 2/5 look with the cracked husk mask; field form (amber eyes, thin amber outline) P15–P53, rest form P54–P60 (cooldown), field form again from P61."
+  - "Borro: the white oval husk face tied on with cord; field form (moss-green eyes, thin moss-green outline) from P15 to the end. 2.4 m: the market's alleys are only 1.5–2 m wide, so his shield fills an alley wall to wall."
+  - "Kang Seoa (15): her school uniform (knee-length skirt), glasses, calculator keychain, her school bag, and a plastic bag of rice cakes she never lets go of. Never any fan service. She is in charge, never rescued."
+  - "Yoo Bomi: her full design; she streams from the drone until P57, when she rams the drone into a hound and it breaks; after that she films on her phone."
+  - "The market grannies (generic, no name cards): granny_tteok, a tiny round woman in her seventies in a flowered apron and arm sleeves, permed white hair; granny_kimchi, a tall bony woman in her seventies in a red rubber apron and rubber gloves, a headscarf, who fights with a huge white daikon radish."
+  - "Mangwon Market (location mangwon_market, key.png and footbridge.png): a covered traditional market street under a translucent arcade roof, 6 m wide, with narrow side alleys 1.5–2 m wide running off it like ribs; stalls of vegetables, fish, tteok and kimchi; hanging bulbs; plastic tubs. The break's gate is in the cold-storage basement under the fish lane: violet light and heat shimmer rise from its stairwell. At the market's edge, a steel-and-concrete pedestrian footbridge 30 m long crosses a four-lane side road 5 m below, with stairs at each end and one central pier."
+  - "Ash hounds (CHARACTER_DESIGNS_v2.md 4b.3): wolf-sized, eyeless and noseless, long split bone jaws, violet ash leaking from cracks along their backs; they hunt in packs of five to ten. Dozens of them tonight."
+  - "The marsh serpent (CHARACTER_DESIGNS_v2.md 4b.4), only at the very end (P72–P73): 20 m long, as thick as a small car, jade-green scales with dull gold bands, a hooded head with two backswept bone-white horns, yellow slit eyes, steam and heat shimmer pouring off it, a small Hush crack on its brow."
+plants:
+  - "PLANT P11: Black Hound held this gate's contract and postponed it twice (Arc 3)."
+  - "PLANT P35, P69: heat pours out of the break (the serpent loves heat; ch 12 uses cold)."
+  - "PLANT P34, P58: Bomi's stream at 48,000–52,000 viewers (ch 12 viral clip)."
+hook_type: arrival
+
+panels:
+
+  # ================= THE MARKET (P01–P14) =================
+  - id: P01
+    recipe: establish
+    shape: full
+    gap: none
+    bg: black
+    camera: "eye level (1.6 m) down the covered market street: people running toward us, stalls overturned, black hounds bounding in from the far end"
+    light: "key: hanging bulbs swinging wildly; a red emergency light spinning; violet ash in the air"
+    art: >
+      Mangwon Market at 5:47 PM (location mangwon_market): the covered main street under its translucent arcade roof, 6 m
+      wide, packed with stalls. People run toward us in a panic, shopping bags flying; a fruit stall lies overturned, apples
+      rolling; plastic tubs scattered; bulbs swinging on their wires. At the far end, through the crowd, lean black eyeless
+      hounds (ash_hound) bound in, violet ash trailing from their backs. Scale: the arcade roof is 7 m high; the hounds'
+      shoulders reach a man's hip.
+    acting:
+      ash_hound: "bounding through the far end of the street, jaws open, scattering people"
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "MANGWON MARKET. TUESDAY, 5:47 PM."}
+    sfx:
+      - {text: "KYAAAA", style: impact, at: [0.30, 0.40], size: L, rot: -6}
+      - {text: "AWOOOO", style: impact, at: [0.76, 0.24], size: M, rot: 4}
+
+  - id: P02
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, in a side-alley doorway: Seoa with her phone at her ear, dragging a small boy in by the hand"
+    light: "a shop's fluorescent light behind her; red emergency light sweeping"
+    art: >
+      In a narrow side alley, at the doorway of a tteok shop: Seoa (kang_seoa, school uniform) has her phone at her ear and
+      drags a crying small boy inside by the hand, a plastic bag of rice cakes hooked on her wrist.
+    acting:
+      kang_seoa: "phone clamped to her ear with her shoulder, pulling the boy in with one hand, the rice-cake bag swinging, eyes hard"
+    eyeline: "Seoa → the street"
+    foreground: "the shop's half-lowered metal shutter, cropped, top"
+    calm: top
+    lines:
+      - {who: kang_seoa, type: phone, text: "THE MAIN STREET IS FULL OF THOSE DOG THINGS. DON'T COME IN THAT WAY.", side: l}
+
+  - id: P03
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high, inside the tteok shop: Seoa and two grannies herding children and shoppers into the back room"
+    light: "fluorescent; steam from a rice-cake steamer"
+    art: >
+      Inside the little tteok shop, from high in a corner: Seoa (kang_seoa) and two market grannies, a tiny round one in a
+      flowered apron (granny_tteok) and a tall bony one in a red rubber apron (granny_kimchi), herd a dozen children and
+      shoppers into the back room past steaming rice-cake trays.
+    acting:
+      kang_seoa: "pointing at the back room with her whole arm, shouting, the phone still at her ear"
+      granny_tteok: "pushing two children through the back door with both hands"
+      granny_kimchi: "hauling the shop's metal shutter down with both rubber-gloved hands"
+    eyeline: "Seoa → the people; the grannies → the shutter"
+    foreground: "a tray of steaming rice cakes, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kang_seoa, type: shout, text: "EVERYONE INTO THE BACK! GRANNY, LOCK THE SHUTTER!", side: l}
+    sfx:
+      - {text: "KRRRRANNG", style: quiet, at: [0.80, 0.30], size: M, rot: 0}
+
+  - id: P04
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, inside the shop: a hound slamming into the lowered shutter, the metal bulging inward, Seoa and the kimchi granny bracing it"
+    light: "no scene light: a white flash; dust"
+    art: >
+      From inside: an ash hound slams into the lowered metal shutter from the street side and the metal bulges inward in the
+      shape of its head; Seoa and the kimchi granny throw their shoulders against it.
+    acting:
+      kang_seoa: "shoulder braced against the shutter, feet sliding, teeth gritted"
+      granny_kimchi: "both hands flat on the shutter, leaning her whole weight on it, furious"
+    calm: top
+    sfx:
+      - {text: "BANNNG", style: impact, at: [0.50, 0.30], size: XL, rot: 6}
+
+  - id: P05
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Seoa against the shutter, the phone at her ear, thinking fast"
+    light: "fluorescent; red light through the shutter's slats"
+    art: >
+      Close on Seoa (kang_seoa) with her back against the bulging shutter, phone at her ear, her eyes moving fast as she
+      thinks.
+    acting:
+      kang_seoa: "back pressed to the shutter, phone at her ear, glasses crooked, eyes darting, speaking fast and clear"
+    eyeline: "Seoa → nothing (thinking)"
+    calm: right
+    lines:
+      - {who: kang_seoa, type: phone, text: "COME IN BY THE PHARMACY ALLEY. THIRD LEFT AFTER THE KIMCHI SHOP.", side: l}
+      - {who: kang_seoa, type: phone, text: "IT'S TOO NARROW FOR TWO OF THEM SIDE BY SIDE.", side: l}
+
+  - id: P06
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, on the street outside the market at dusk: Jaeha running with the phone at his ear, the team behind him"
+    light: "dusk; a red glow over the market roofs; sirens"
+    art: >
+      On a street outside the market at dusk: Jaeha (kang_jaeha, torn bloody vest) runs flat out with his phone at his ear;
+      behind him Borro (borro, husk face) runs heavily with the iron shield on his arm, cracking the pavement; Nib (nib, mask)
+      runs at Borro's side; Yerin (song_yerin) runs behind. People flee past them the other way.
+    acting:
+      kang_jaeha: "sprinting, phone at his ear, one arm pumping, face set"
+      borro: "running in heavy strides, shield on his arm"
+      nib: "running low beside Borro"
+      song_yerin: "running behind, clutching her bag"
+    calm: top
+    sfx:
+      - {text: "THUD THUD THUD", style: impact, at: [0.70, 0.80], size: M, rot: 0}
+
+  - id: P07
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level, a split two-shot: Jaeha running on one side, Seoa against the shutter on the other, a jagged line between"
+    light: "left: dusk; right: fluorescent and red"
+    face: private
+    art: >
+      A split two-shot with a jagged line down the middle: LEFT, Jaeha (kang_jaeha) running with the phone at his ear; RIGHT,
+      Seoa (kang_seoa) against the shutter with hers.
+    acting:
+      kang_jaeha: "running, shouting into the phone, eyes wide with fear"
+      kang_seoa: "against the shutter, shaking her head, jaw set"
+    eyeline: "both → their phones"
+    foreground: "the jagged split line, top to bottom"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: phone, text: "SEOA, GET TO A ROOF AND STAY OFF THE STREET!", side: l}
+      - {who: kang_seoa, type: phone, text: "NO. THERE ARE STILL PEOPLE IN THE FISH LANE. I'M GETTING THEM OUT.", side: r}
+
+  - id: P08
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: white
+    camera: "extreme close-up of Jaeha's eyes as he runs, fear turning to resolve"
+    light: "dusk; the red glow"
+    face: private
+    art: >
+      Extreme close-up: Jaeha's eyes (kang_jaeha) as he runs, the fear in them hardening. Fill the canvas edge to edge.
+    acting:
+      kang_jaeha: "eyes narrowing, brows dropping into resolve"
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: inner, text: "SHE'S NOT WAITING TO BE RESCUED. SHE NEVER HAS."}
+
+  - id: P09
+    recipe: establish
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level at the market's side entrance: a half-built police tape line, a Gate Rescue van screeching up, the team arriving"
+    light: "dusk; red and blue strobes"
+    art: >
+      At the mouth of the pharmacy alley on the market's edge: a few police officers struggle with a half-strung tape line;
+      a navy Gate Rescue Corps van screeches up onto the kerb, strobes flashing; the team arrives at a run. Violet ash drifts
+      out of the market.
+    calm: top
+    sfx:
+      - {text: "SKREEEE", style: impact, at: [0.70, 0.60], size: L, rot: -4}
+
+  - id: P10
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, by the van: Choi jumping out of the passenger door with a medical bag, pointing at Jaeha"
+    light: "strobes; dusk"
+    face: public
+    art: >
+      Choi Dongmin (choi_dongmin, rescue jacket) jumps out of the van's passenger door with a medical bag over his shoulder
+      and points at Jaeha, exasperated. Jaeha (kang_jaeha) skids to a stop.
+    acting:
+      choi_dongmin: "jumping down, bag swinging, pointing at Jaeha, a tired, furious grin"
+      kang_jaeha: "skidding to a stop, breathing hard, a hand up in greeting"
+    eyeline: "Choi → Jaeha; Jaeha → Choi"
+    foreground: "the van's open door, cropped, left edge"
+    calm: top
+    lines:
+      - {who: choi_dongmin, type: shout, text: "KANG JAEHA! OF COURSE IT'S YOU!", side: l}
+
+  - id: P11
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Choi, pulling on gloves, deadly serious"
+    light: "strobes"
+    art: >
+      Close on Choi (choi_dongmin) pulling on medical gloves, the grin gone.
+    acting:
+      choi_dongmin: "snapping on a glove, jaw tight, eyes on the market"
+    eyeline: "Choi → the market"
+    foreground: "the medical bag's strap, cropped, bottom"
+    calm: left
+    lines:
+      - {who: choi_dongmin, type: speech, text: "THE HUNTERS ARE FIFTEEN MINUTES OUT. BLACK HOUND HAD THIS GATE'S CONTRACT.", side: r}
+      - {who: choi_dongmin, type: speech, text: "THEY POSTPONED IT TWICE.", side: r}
+
+  - id: P12
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "Jaeha facing the reader at the alley mouth, violet ash drifting round him, a window opening above"
+    light: "cyan from the window; violet ash; strobes behind"
+    face: private
+    art: >
+      Jaeha (kang_jaeha, torn vest) faces the reader at the alley mouth as violet ash drifts out of the market round him; the
+      air itself shimmers faintly. The upper half is empty for the window.
+    acting:
+      kang_jaeha: "standing still, looking up at the window, blood dried under his nose"
+    eyeline: "Jaeha → the window"
+    calm: top
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.05], headline: "[DUNGEON BREAK · GATE MANA IN THE STREET]", body: "SUMMON COOLDOWN OUTSIDE A GATE: 4 HOURS → 01:00 WHILE THE BREAK LASTS", button: "OK"}
+    silent: true
+
+  - id: P13
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, behind Nib and Borro at the alley mouth: the narrow alley ahead full of drifting ash; people with phones behind the tape"
+    light: "dusk; violet ash"
+    face: private
+    art: >
+      From low behind Nib (nib, mask) and Borro (borro, husk face) at the mouth of the narrow alley; ahead, ash drifts in the
+      dark between the shops. Behind the police tape, people hold up their phones, filming. Jaeha stands between his two
+      summons, and closes his notebook.
+    acting:
+      kang_jaeha: "between them, snapping the notebook shut, eyes on the alley"
+      nib: "looking up at Jaeha, one knife already drawn"
+      borro: "lowering the shield into place on his arm"
+    eyeline: "Jaeha → the alley; Nib → Jaeha"
+    foreground: "the people filming behind the tape, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "EVERYONE WILL SEE YOU. I DON'T CARE. SUMMONS GO FIRST.", side: l}
+      - {who: nib, type: speech, text: "FINALLY. AN ORDER I LIKE.", side: r}
+    sfx:
+      - {text: "SNAP", style: quiet, at: [0.50, 0.50], size: S, rot: 0}
+
+  - id: P14
+    kind: title
+    shape: full
+    gap: long
+    bg: black
+    title_card: "MY SUMMONS GO FIRST · CHAPTER 11 · MARKET BREAK"
+    notes: "Title card at panel 14 of 73 (19%)."
+
+  # ================= THE ALLEYS (P15–P39) =================
+  - id: P15
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level, close two-shot: Nib's and Borro's eyes flaring amber and moss green behind their husk masks"
+    light: "amber and moss green flaring"
+    art: >
+      Close two-shot: behind the cracked husk mask, Nib's uncovered eye flares amber; through the eye-holes of Borro's white
+      husk face, his eyes flare moss green; thin outlines of light flicker on along both of them. The upper part is dark,
+      empty for the window.
+    acting:
+      nib: "eye blazing, both knives now drawn in a reverse grip, crouching"
+      borro: "eyes blazing through the mask, the shield coming up"
+    calm: top
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[FIELD FORM · NIB 05:00 · BORRO 05:00 · LINKED]"}
+    silent: true
+
+  - id: P16
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, tilted 15 degrees, in the narrow pharmacy alley: Nib bursting through drifting ash and slashing a hound mid-leap"
+    light: "no scene light: amber streaks; white flash"
+    art: >
+      In the narrow pharmacy alley: Nib (nib, field form) bursts through the drifting ash and slashes a leaping hound in two
+      in mid-air; it bursts into violet ash. Shop signs (blank) and drying chillies on strings whip past. Speed lines.
+    acting:
+      nib: "mid-leap, body twisted, both knives at the end of a cross-slash"
+      ash_hound: "bursting apart in mid-leap"
+    calm: top
+    sfx:
+      - {text: "SHRAKK", style: impact, at: [0.30, 0.24], size: XL, rot: -12}
+
+  - id: P17
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level at the alley mouth: Bomi skidding up beside Jaeha, her drone already climbing above them"
+    light: "dusk; the drone's red light"
+    face: public
+    art: >
+      Bomi (yoo_bomi) skids up beside Jaeha at the alley mouth, out of breath, her drone already climbing above them with its
+      red light on, her phone in her hand.
+    acting:
+      yoo_bomi: "skidding to a stop, ponytail swinging, phone up, breathing hard, eyes fierce"
+      kang_jaeha: "turning to her, pointing up at the drone"
+    eyeline: "Bomi → Jaeha; Jaeha → the drone"
+    foreground: "the police tape, cropped, bottom"
+    calm: top
+    lines:
+      - {who: yoo_bomi, type: speech, text: "MY PARENTS ARE SAFE BEHIND THEIR SHUTTERS. WHAT DO YOU NEED?", side: l}
+      - {who: kang_jaeha, type: speech, text: "YOUR DRONE, HIGH UP. I NEED TO SEE THE WHOLE MARKET.", side: r}
+
+  - id: P18
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close on Bomi's phone: the drone's overhead view of the market roof and its alleys"
+    light: "the screen glow"
+    art: >
+      Close on Bomi's phone in her hand: the drone's view from high overhead (drawn as a picture, no interface text): the long
+      translucent arcade roof of the main street, the narrow alleys running off it like ribs, black dots of hounds moving in
+      packs, clusters of people, and at the far edge the footbridge over the road.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "VWEEE", style: quiet, at: [0.80, 0.20], size: S, rot: 0}
+
+  - id: P19
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low two-shot: Jaeha on the phone to Seoa, watching the drone feed over Bomi's shoulder"
+    light: "dusk; the screen glow on his face"
+    face: private
+    art: >
+      Jaeha (kang_jaeha) leans over Bomi's shoulder to watch the drone feed, his phone at his ear; Bomi holds the screen up
+      for him.
+    acting:
+      kang_jaeha: "phone at his ear, eyes darting over the screen, the pencil tapping it"
+      yoo_bomi: "holding the phone up steadily with both hands, looking up at him"
+    eyeline: "Jaeha → the screen; Bomi → Jaeha"
+    foreground: "Bomi's shoulder and ponytail, cropped, left"
+    calm: top
+    lines:
+      - {who: offpanel:kang_seoa, type: phone, text: "THE FISH LANE ONLY HAS ONE WAY OUT: UP THE STAIRS TO THE FOOTBRIDGE.", side: r}
+
+  - id: P20
+    recipe: plan
+    shape: wide
+    gap: short
+    bg: black
+    camera: "the drone's overhead view of the market, desaturated, with cyan lines laying out the plan"
+    light: "desaturated; cyan lines"
+    face: private
+    art: >
+      The drone's overhead view, desaturated, with clean cyan lines and no text: the narrow alleys drawn as funnels all
+      pointing into one small square where three alleys meet; a heavy shape marked in that square; a small figure's path
+      along the stall roofs; a dotted escape line from the fish lane to the footbridge.
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: inner, text: "EVERY ALLEY IS ONE HOUND WIDE. SO THEY ALL REACH BORRO ONE AT A TIME."}
+
+  - id: P21
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on Jaeha with two fingers at his temple, giving silent orders, the ash drifting past"
+    light: "dusk; amber and green threads of light"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha), two fingers at his temple, his lips moving, thin amber and moss-green threads of light
+      running from him into the market.
+    acting:
+      kang_jaeha: "two fingers at his temple, eyes half closed, lips moving fast"
+    eyeline: "Jaeha → the market"
+    foreground: "a thread of moss-green light, cropped, top right"
+    calm: right
+    lines:
+      - {who: kang_jaeha, type: whisper, text: "BORRO, THE LITTLE SQUARE WHERE THREE ALLEYS MEET. NIB, DRIVE THEM TO HIM.", side: l}
+
+  - id: P22
+    recipe: establish
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high, over a tiny square where three narrow alleys meet: Borro planted in it, his shield filling the mouth of one alley"
+    light: "hanging bulbs; violet ash"
+    art: >
+      High over a tiny square, 4 m across, where three narrow alleys meet among the stalls: Borro (borro, field form) plants
+      himself in it with his iron shield filling the mouth of the busiest alley wall to wall, his shell scraping the awnings.
+      Scale: the alley is 1.8 m wide; the shield is 2 m tall; Borro is taller than the stall awnings.
+    acting:
+      borro: "planted with feet wide, shield up in the alley mouth, calm eyes glowing green through the mask"
+    calm: top
+    sfx:
+      - {text: "THUNK", style: impact, at: [0.30, 0.70], size: M, rot: 0}
+
+  - id: P23
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, down the narrow alley from behind the first hound: the pack coming single file, smashing into Borro's shield"
+    light: "white flash at the shield"
+    art: >
+      Low in the narrow alley from behind the charging hounds: they come single file because there is no room for two, and
+      the first smashes into Borro's shield at the end; the second climbs over it and is smashed back too.
+    acting:
+      ash_hound: "charging single file, the first crumpling against the shield"
+      borro: "at the alley's end, the shield taking the hit, not moving"
+    calm: top
+    sfx:
+      - {text: "KRANNG", style: impact, at: [0.70, 0.40], size: XL, rot: 8}
+
+  - id: P24
+    recipe: carry
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Jaeha at the alley mouth, flinching with each impact, a moss-green ring pulsing from his chest"
+    light: "moss-green ring of light"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha) at the alley mouth: he flinches as each impact lands in his own body, a moss-green ring of
+      light pulsing out from his chest.
+    acting:
+      kang_jaeha: "jolting back with each hit, teeth clenched, one hand on Bomi's shoulder to stay up"
+    calm: left
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.86], text: "[CARRY · BORRO · 25%]"}
+    sfx:
+      - {text: "THOOM", style: impact, at: [0.30, 0.40], size: M, rot: 0}
+
+  - id: P25
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high, over the stall awnings: Nib running across the striped canvas roofs and dropping onto a hound in the alley below"
+    light: "bulbs below; amber streak"
+    art: >
+      High over the market: Nib (nib, field form) runs across the striped canvas awnings of the stalls, then drops through a
+      gap onto a hound in the alley below, knives first, driving it toward Borro's square.
+    acting:
+      nib: "dropping through the gap feet first, knives raised"
+      ash_hound: "flinching under him, scrambling toward the square"
+    calm: top
+    sfx:
+      - {text: "WHUMP", style: impact, at: [0.40, 0.70], size: L, rot: -6}
+
+  - id: P26
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level in the tteok alley: a hound slipping into it past the stalls toward the shop where the children are hidden"
+    light: "a bulb swinging; fluorescent through the shutter's slats"
+    art: >
+      In the tteok alley: one hound slips past the fight and slinks along the stalls toward the tteok shop's dented shutter,
+      where small faces peek through the slats. The kimchi granny (granny_kimchi) steps out of a doorway in front of it.
+    acting:
+      ash_hound: "slinking toward the shutter, head low, jaw opening"
+      granny_kimchi: "stepping out into its path, rubber gloves on, a huge white daikon radish held in both hands like a bat"
+    calm: top
+    sfx:
+      - {text: "HHHHH", style: quiet, at: [0.30, 0.50], size: S, rot: 0}
+
+  - id: P27
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, side-on: the kimchi granny swinging the giant radish into the hound's head with a full-body swing"
+    light: "no scene light: a comic white flash"
+    art: >
+      Side-on: the kimchi granny swings the giant daikon radish into the side of the hound's head with a full-body swing like
+      a baseball player; the radish snaps in half and the hound staggers sideways into a stack of plastic tubs.
+    acting:
+      granny_kimchi: "follow-through of a full swing, the broken radish in her hands, headscarf flying, teeth bared"
+      ash_hound: "knocked sideways into the tubs, legs splayed"
+    calm: top
+    lines:
+      - {who: granny_kimchi, type: shout, text: "NOT IN MY ALLEY, YOU UGLY DOG!", side: l}
+    sfx:
+      - {text: "BONK", style: comic, at: [0.52, 0.30], size: XL, rot: 10}
+
+  - id: P28
+    recipe: impact
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "high, from a stall awning: Nib dropping onto the dazed hound and finishing it"
+    light: "amber"
+    art: >
+      From a stall awning above: Nib drops onto the dazed hound among the tubs and finishes it with one knife; it bursts into
+      ash.
+    acting:
+      nib: "landing on the hound, one knife driving down"
+    calm: right
+    sfx:
+      - {text: "SHK", style: impact, at: [0.70, 0.30], size: M, rot: 0}
+
+  - id: P29
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, two-shot among the tubs: Nib nodding to the granny with the broken radish"
+    light: "bulbs"
+    art: >
+      Among the scattered tubs: Nib (nib, field form) straightens up and gives the kimchi granny (granny_kimchi) a small,
+      solemn nod of respect; she holds up the broken half of her radish.
+    acting:
+      nib: "a small solemn nod, one knife lowered, the other hand open toward her radish"
+      granny_kimchi: "holding up the broken radish, panting, chin up, proud"
+    eyeline: "Nib ↔ the granny"
+    foreground: "a red plastic tub, cropped, bottom left"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "GOOD SWING, GRANDMOTHER.", side: r}
+      - {who: granny_kimchi, type: speech, text: "I'VE GOT MORE RADISHES. GO!", side: l}
+
+  - id: P30
+    recipe: establish
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level along the fish lane: Seoa leading a line of people hand in hand down the cleared alley"
+    light: "fluorescent fish-stall lights; wet floor; ice"
+    art: >
+      Along the fish lane: Seoa (kang_seoa) leads a line of people out hand in hand, a mother with a baby, children, an old
+      man with a cane, a delivery rider, the tiny tteok granny (granny_tteok) at the back; tanks and ice trays line the stalls.
+      Seoa holds the hand of the first child and still has the rice-cake bag on her wrist.
+    acting:
+      kang_seoa: "walking backwards at the front, holding the first child's hand, counting with her free hand"
+      granny_tteok: "at the back, shooing everyone forward with both hands"
+    calm: top
+    lines:
+      - {who: kang_seoa, type: shout, text: "TWELVE, THIRTEEN, FOURTEEN. EVERYONE HOLD HANDS. DON'T LET GO.", side: l}
+    sfx:
+      - {text: "STEP STEP STEP", style: quiet, at: [0.70, 0.86], size: S, rot: 0}
+
+  - id: P31
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, at the alley mouth by the van: Yerin kneeling over a bitten man, hands glowing mint, Choi carrying a granny on his back"
+    light: "strobes; mint glow"
+    art: >
+      At the alley mouth: Yerin (song_yerin) kneels over a man with a bitten leg, her hands glowing mint; Choi (choi_dongmin)
+      runs past behind her with an old woman on his back.
+    acting:
+      song_yerin: "kneeling, both glowing hands on the man's leg, lips moving, eyes steady"
+      choi_dongmin: "jogging past with the old woman piggyback, both arms hooked under her knees"
+    eyeline: "Yerin → the wound"
+    foreground: "the medical bag open on the pavement, cropped, bottom"
+    calm: top
+    lines:
+      - {who: song_yerin, type: whisper, text: "I'M NOT FREEZING. I'M NOT FREEZING. I'M NOT.", side: l}
+    sfx:
+      - {text: "SHIIING", style: quiet, at: [0.30, 0.40], size: S, rot: 0}
+
+  - id: P32
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level in Borro's square: two hounds coming at him from two alleys at once, Borro turning the shield"
+    light: "bulbs swinging; violet ash"
+    art: >
+      In the little square: two hounds come at Borro from two different alleys at once; he pivots and catches one on the
+      shield and the other on the slate plates of his shoulder; it bounces off his shell.
+    acting:
+      borro: "pivoting, one hound on the shield, the other bouncing off his shell, eyes calm"
+      ash_hound: "two hounds hitting him from two sides"
+    calm: top
+    sfx:
+      - {text: "KRANG", style: impact, at: [0.30, 0.30], size: L, rot: -6}
+      - {text: "KLAK", style: impact, at: [0.72, 0.40], size: M, rot: 6}
+
+  - id: P33
+    recipe: carry
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, at the alley mouth: Jaeha's nose starting to bleed, a window flickering beside his head"
+    light: "amber and green rings; strobes"
+    face: private
+    art: >
+      At the alley mouth: a fresh nosebleed starts from Jaeha's nose (kang_jaeha); amber and moss-green rings of light pulse
+      out from him together. Bomi steadies him with one hand, holding her phone with the other.
+    acting:
+      kang_jaeha: "swaying, wiping his nose with the back of his glove, eyes still on the screen"
+      yoo_bomi: "one hand on his back holding him up, phone up in the other"
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.86], text: "[CARRY · 2 SUMMONS · LOAD 90%]"}
+    sfx:
+      - {text: "DRIP", style: quiet, at: [0.40, 0.40], size: S, rot: 0}
+
+  - id: P34
+    recipe: chorus
+    shape: wide
+    gap: short
+    bg: white
+    camera: "close on Bomi's phone screen in her hand: the live stream"
+    light: "the screen glow"
+    art: >
+      Close on Bomi's phone in her hand, the screen flat green, her thumb on it, ash drifting past.
+    calm: top
+    ui:
+      - kind: phone.live_stream
+        "on": screen
+        viewers: "48,212 WATCHING"
+        chat:
+          - "[jjang_hunter]: THE HUSKS ARE FIGHTING??"
+          - "[seoul_otaku]: that's not a husk that's a TANK"
+          - "[dalgona]: TRAP RATS IN THE MARKET"
+    sfx:
+      - {text: "BLIP BLIP BLIP", style: quiet, at: [0.80, 0.80], size: S, rot: 0}
+
+  - id: P35
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "low, at the cold-storage stairwell under the fish lane: violet light and a heat shimmer pouring up the steps"
+    light: "violet from below; the air wavering with heat"
+    art: >
+      At the top of the cold-storage stairwell under the fish lane: violet light pours up the steps, and the air above them
+      wavers with heat like a road in summer; the ice on the nearby fish stalls is melting and running.
+    calm: left
+    silent: true
+    sfx:
+      - {text: "HSSSSS", style: quiet, at: [0.50, 0.30], size: S, rot: 0}
+
+  - id: P36
+    recipe: monster-reveal
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from the fish lane: a second, bigger wave of hounds boiling up out of the stairwell into the main street"
+    light: "violet from the stairwell; bulbs swinging"
+    art: >
+      From low in the fish lane: a second, far bigger wave of hounds boils up out of the cold-storage stairwell, twenty or
+      more, flooding into the covered main street and turning, all together, toward the market's edge.
+    acting:
+      ash_hound: "a flood of hounds pouring up the stairs, climbing over each other, all heads turning one way"
+    calm: top
+    sfx:
+      - {text: "AWOOOOOOOO", style: impact, at: [0.50, 0.20], size: XL, rot: -4}
+
+  - id: P37
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close on Bomi's phone: the drone's view of the black flood pouring along the main street toward the footbridge stairs"
+    light: "the screen glow"
+    art: >
+      Close on Bomi's phone: the drone's overhead view (a picture, no interface text) of the black flood of hounds pouring
+      along the main street toward the stairs of the footbridge, where a thin line of people is just starting to climb.
+    calm: top
+    silent: true
+
+  - id: P38
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, close on Jaeha shouting into the market with his whole body, Bomi beside him"
+    light: "dusk; violet ash"
+    face: private
+    art: >
+      Close and low on Jaeha (kang_jaeha) shouting into the market with his whole body, blood on his lip; Bomi beside him.
+    acting:
+      kang_jaeha: "leaning forward, one arm thrown out toward the footbridge, shouting"
+      yoo_bomi: "flinching from the shout, phone still up"
+    eyeline: "Jaeha → the market"
+    foreground: "Bomi's phone, cropped, bottom right"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: shout, text: "THEY'RE GOING FOR THE FOOTBRIDGE! BORRO, NIB, FALL BACK TO THE STAIRS!", side: l}
+
+  - id: P39
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level down the main street: Borro charging through the market with his shield in front, stalls flying aside"
+    light: "bulbs swinging; violet ash"
+    art: >
+      Down the main street: Borro charges through the market with his shield in front of him like a ram, stalls and tubs
+      flying aside, hounds bouncing off the iron; Nib runs along the awnings above him.
+    acting:
+      borro: "charging behind the shield, head down, heavy strides"
+      nib: "running along the awnings, keeping pace"
+    calm: top
+    sfx:
+      - {text: "KRASH KRASH KRASH", style: impact, at: [0.60, 0.40], size: L, rot: 6}
+
+  # ================= THE FOOTBRIDGE (P40–P73) =================
+  - id: P40
+    recipe: establish
+    shape: full
+    gap: long
+    bg: black
+    camera: "high (12 m), from beside the road: the footbridge over four lanes, people crossing it, hounds flooding toward its market-side stairs"
+    light: "key: the bridge's white lamps; red and blue strobes on the road; violet ash"
+    art: >
+      The market's edge (location mangwon_market, footbridge.png): a steel-and-concrete pedestrian footbridge 30 m long
+      crosses a four-lane side road 5 m below, with stairs at each end and one concrete pier in the middle. Seoa's line of
+      people is halfway across it, hand in hand. Behind them, at the market end, the flood of hounds pours out of the market
+      toward the stairs. Abandoned cars sit on the road beneath, doors open. Scale: the people on the bridge are small; the
+      railing is waist-high; the pier is as tall as three people.
+    calm: top
+    sfx:
+      - {text: "AWOOO", style: quiet, at: [0.20, 0.70], size: S, rot: 0}
+
+  - id: P41
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from the bottom of the market-side stairs: Nib landing on the top step and turning to face the flood alone"
+    light: "the bridge lamp behind him; violet ash"
+    art: >
+      From low at the bottom of the market-side stairs: Nib (nib, field form) lands on the top step and turns to face the
+      flood of hounds coming up at him, alone, both knives out, his scarf and the wall-blue lining of his cloak flaring; the
+      people cross behind him.
+    acting:
+      nib: "standing on the top step in a wide low stance, knives out in a reverse grip, utterly still"
+      ash_hound: "the front of the flood starting up the stairs"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "A WALL AGAIN. FINE.", side: r}
+    sfx:
+      - {text: "SHING", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P42
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level on the stairs: Nib cutting down the first hounds as they come up two steps at a time"
+    light: "amber streaks; ash bursting"
+    art: >
+      On the stairs: Nib cuts down the first hounds as they come up, one after another, ash bursting round him; the stairs
+      are only wide enough for two at a time.
+    acting:
+      nib: "slashing left and right, stepping back one stair at a time"
+      ash_hound: "climbing the stairs two abreast, bursting under his knives"
+    calm: top
+    sfx:
+      - {text: "SHK SHK SHRAKK", style: impact, at: [0.40, 0.30], size: L, rot: -8}
+
+  - id: P43
+    recipe: anticipation
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, on the road under the bridge: the asphalt bulging, steam hissing out of cracks, a car sliding"
+    light: "steam lit red by the strobes; a violet glow inside the cracks"
+    art: >
+      On the road under the bridge: the asphalt bulges upward in a long ridge, cracks spidering out with steam hissing from
+      them and a violet glow deep inside; an abandoned car slides sideways down the bulge.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "RRRMMMMM", style: impact, at: [0.50, 0.30], size: L, rot: 0}
+
+  - id: P44
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close on the footbridge's concrete central pier cracking from top to bottom"
+    light: "steam; red light"
+    art: >
+      Close on the footbridge's central pier: a crack runs up it from the buckling road to the deck, chunks of concrete
+      breaking off; the steel above groans.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "KRRAAAKK", style: impact, at: [0.50, 0.40], size: XL, rot: 6}
+
+  - id: P45
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level on the footbridge: the deck sagging in the middle, people screaming and grabbing the railings, Seoa holding a child"
+    light: "the bridge lamps swinging"
+    art: >
+      On the footbridge: the deck sags in the middle with a lurch; people scream and grab the railings; Seoa (kang_seoa)
+      pulls the child she is holding against her and grips the railing.
+    acting:
+      kang_seoa: "one arm round the child, the other gripping the railing, braced, looking down at the pier"
+      granny_tteok: "at the back of the line, holding the old man's arm"
+    calm: top
+    sfx:
+      - {text: "KYAAAA", style: impact, at: [0.30, 0.30], size: L, rot: -6}
+
+  - id: P46
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, at the market end of the road: Jaeha staggering out of the market, seeing Seoa on the sagging bridge"
+    light: "strobes; steam"
+    face: private
+    art: >
+      At the market end of the road: Jaeha (kang_jaeha) staggers out into the open and sees the sagging bridge and his sister
+      on it; Borro thunders out of the market beside him.
+    acting:
+      kang_jaeha: "stopping dead, eyes wide, one hand flung toward the bridge"
+      borro: "pounding out of the market at his side, shield up"
+    eyeline: "Jaeha → Seoa; Borro → the pier"
+    foreground: "a steaming crack in the road, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: shout, text: "BORRO! THE PIER!", side: l}
+
+  - id: P47
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, side-on: Borro leaping down off the kerb onto the buckling road and running under the bridge"
+    light: "steam; red strobes"
+    art: >
+      Side-on: Borro leaps down off the kerb onto the buckling road and runs under the footbridge, the asphalt cracking under
+      every step.
+    acting:
+      borro: "mid-stride on the buckling road, shield arm swinging back, head down"
+    calm: top
+    sfx:
+      - {text: "BOOM BOOM BOOM", style: impact, at: [0.60, 0.70], size: L, rot: 4}
+
+  - id: P48
+    recipe: splash
+    shape: full
+    gap: short
+    bg: black
+    camera: "low, from the road under the bridge, looking up: Borro holding up the collapsing footbridge on his shell and shoulders, people still on it"
+    light: "key: the bridge lamps above; steam lit red; moss-green outline blazing"
+    art: >
+      The impact panel. From low on the road, looking up: the footbridge's deck drops as the pier gives way, and Borro (borro,
+      field form) catches it. He stands under the deck with his humped slate shell and both shoulders pressed up against its
+      underside, his iron shield wedged against the cracked pier, his bare feet sunk into the buckling asphalt; moss and tiny
+      flowers on his shell crushed against the concrete; the green glow of field form blazing off him. Above him, through
+      the railings, the people still on the bridge, Seoa among them. Scale: the deck is 4 m wide; Borro is 2.4 m; the deck
+      rests on his shell at 5 m only because he is standing on the heaved road.
+    acting:
+      borro: "legs braced wide, back and shell pushed up into the deck, both arms up, one hand flat on the concrete, head bowed, calm eyes glowing"
+      kang_seoa: "on the bridge above, gripping the railing, looking down at him"
+    calm: top
+    sfx:
+      - {text: "KRRRRRUNNNCH", style: impact, at: [0.30, 0.20], size: XL, rot: -6}
+
+  - id: P49
+    recipe: carry
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, at the road's edge: Jaeha dropping to one knee as the bridge's weight lands in his body, blood pouring from his nose"
+    light: "a huge moss-green ring of light; strobes"
+    face: private
+    art: >
+      At the road's edge: Jaeha (kang_jaeha) drops to one knee as the bridge's weight lands in his own body, a huge moss-green
+      ring of light slamming out from him and cracking the pavement round his knee; blood pours from his nose. Bomi grabs his
+      arm.
+    acting:
+      kang_jaeha: "on one knee, back bowed as if carrying something, both hands on the ground, blood pouring, teeth gritted"
+      yoo_bomi: "grabbing his arm with both hands, shouting"
+    calm: top
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.86], text: "[CARRY · 2 SUMMONS · LOAD 160% · OVERLOAD]"}
+    sfx:
+      - {text: "THOOOM", style: impact, at: [0.30, 0.30], size: XL, rot: 0}
+
+  - id: P50
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: white
+    camera: "extreme close-up of Jaeha's eyes, bloodshot, blood on his upper lip"
+    light: "moss green"
+    face: private
+    art: >
+      Extreme close-up: Jaeha's eyes (kang_jaeha), bloodshot, fixed on the bridge, blood on his upper lip. Fill the canvas edge
+      to edge.
+    acting:
+      kang_jaeha: "eyes wide and burning, unblinking"
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: inner, text: "HE CARRIED A VILLAGE ACROSS A BRIDGE ONCE. TODAY HE'S CARRYING THE BRIDGE."}
+
+  - id: P51
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level on the sagging footbridge: Seoa walking backwards, leading the line on toward the far stairs"
+    light: "the bridge lamps; steam rising past the railings"
+    art: >
+      On the sagging footbridge: Seoa (kang_seoa) walks backwards along the tilted deck, leading the line of people on toward
+      the far stairs, the child on her hip, the rice-cake bag on her wrist. Behind them steam rises past the railings.
+    acting:
+      kang_seoa: "walking backwards, the child on her hip, waving the line on with her free hand, voice steady"
+      granny_tteok: "at the back, pushing the old man along"
+    eyeline: "Seoa → the line"
+    foreground: "the bent railing, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kang_seoa, type: shout, text: "KEEP WALKING! DON'T RUN, AND DON'T STOP!", side: l}
+
+  - id: P52
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close and low under the deck: Borro's calm face under the concrete, speaking upward"
+    light: "moss-green glow; steam"
+    art: >
+      Close and low under the deck: Borro's masked face (borro) under the concrete, calm, sweat running from under the white
+      husk face, speaking upward.
+    acting:
+      borro: "head bowed under the deck, eyes glowing calmly through the mask, a slow steady breath"
+    eyeline: "Borro → up"
+    foreground: "the underside of the deck, cropped, top"
+    calm: right
+    lines:
+      - {who: borro, type: speech, text: "TAKE YOUR TIME, LITTLE ONES. I AM SLOW ON PURPOSE.", side: l}
+
+  - id: P53
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level on the market-side stairs: Nib holding the top step, hounds piling up below him, his outline flickering"
+    light: "amber flickering, weakening"
+    art: >
+      On the market-side stairs: Nib still holds the top step, a heap of ash round his feet and hounds piling up the stairs
+      below him; his amber outline flickers as his time runs out.
+    acting:
+      nib: "slashing a hound off the step, breathing hard, the outline flickering"
+      ash_hound: "piling up the stairs"
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.88], text: "[NIB · FIELD FORM 00:08]"}
+    sfx:
+      - {text: "SHRAKK", style: impact, at: [0.30, 0.30], size: L, rot: -8}
+
+  - id: P54
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level on the top step: the amber light going out of Nib's eye, a hound leaping at him"
+    light: "the amber dying; a hound's shape against the bridge lamp"
+    art: >
+      On the top step: the amber light goes out of Nib's eye and his outline vanishes (rest form), at the exact moment a hound
+      leaps at him from the stairs. The upper part is empty for the window.
+    acting:
+      nib: "suddenly small and slow, knives too heavy, stumbling back"
+      ash_hound: "leaping at him, jaws wide"
+    calm: top
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[NIB · FIELD FORM ENDED · COOLDOWN 01:00]"}
+    silent: true
+
+  - id: P55
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, tilted: Nib knocked flat on the bridge deck under the hound, a knife skittering away"
+    light: "no scene light: a red flash"
+    art: >
+      Nib is knocked flat on the bridge deck under the hound's weight, one knife skittering away across the concrete; he
+      holds its jaws off his throat with the other knife's blade.
+    acting:
+      nib: "on his back, holding the hound's jaws off with the knife braced in both hands, arms shaking"
+      ash_hound: "pinning him, jaws snapping"
+    calm: top
+    sfx:
+      - {text: "WHAM", style: impact, at: [0.40, 0.30], size: XL, rot: 10}
+
+  - id: P56
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, behind Bomi at the bottom of the stairs: Bomi steering her drone like a missile up the stairs"
+    light: "strobes; the drone's red light streaking"
+    art: >
+      From low behind Bomi (yoo_bomi) at the foot of the stairs: she steers her white drone with both thumbs, sending it
+      screaming up the stairs straight at the hound on top of Nib, its red light streaking.
+    acting:
+      yoo_bomi: "both thumbs jammed on the phone, leaning into it, face fierce, tears in her eyes"
+    calm: top
+    lines:
+      - {who: yoo_bomi, type: shout, text: "SORRY, BABY! MOMMY'LL BUY YOU A NEW ONE!", side: l}
+    sfx:
+      - {text: "VWEEEEEEEE", style: impact, at: [0.60, 0.30], size: L, rot: -10}
+
+  - id: P57
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close, on the deck: the drone smashing into the hound's head, plastic and rotors exploding"
+    light: "no scene light: a white flash; the red light dying"
+    art: >
+      On the deck: the white drone smashes into the side of the hound's head, plastic and rotors exploding; the hound is
+      knocked off Nib, tumbling down the stairs.
+    acting:
+      ash_hound: "knocked sideways off Nib, tumbling"
+      nib: "rolling free, grabbing his fallen knife"
+    calm: top
+    sfx:
+      - {text: "KRAKSH", style: impact, at: [0.50, 0.30], size: XL, rot: 8}
+
+  - id: P58
+    recipe: chorus
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Bomi's phone screen in her hand: the stream gone black"
+    light: "the screen's dark glow"
+    art: >
+      Close on Bomi's phone in her shaking hand, the screen flat green.
+    calm: left
+    ui:
+      - kind: phone.live_stream
+        "on": screen
+        viewers: "51,904 WATCHING · SIGNAL LOST"
+        chat:
+          - "[minsu_0412]: NOOO THE DRONE"
+          - "[jjang_hunter]: SHE SACRIFICED THE DRONE"
+          - "[dalgona]: F for the drone"
+    silent: true
+
+  - id: P59
+    recipe: anticipation
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, behind Nib on the deck: the hounds massing on the stairs again, Nib in rest form with one knife"
+    light: "the bridge lamp; no amber"
+    art: >
+      From low behind Nib on the deck: the hounds mass on the stairs again, climbing over each other; Nib (rest form, no glow)
+      stands with one knife, small, between them and the people behind him.
+    acting:
+      nib: "standing his ground with one knife in a reverse grip, breathing hard, scarf torn"
+      ash_hound: "massing on the stairs, jaws open"
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.88], text: "[COOLDOWN 00:12]"}
+    silent: true
+    sfx:
+      - {text: "GRRRRR", style: quiet, at: [0.40, 0.40], size: S, rot: 0}
+
+  - id: P60
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level at the foot of the stairs: Choi blasting a fire extinguisher up into the hounds, the kimchi granny swinging another radish"
+    light: "a white cloud of extinguisher powder; strobes"
+    art: >
+      At the foot of the stairs: Choi (choi_dongmin) blasts a fire extinguisher up into the hounds' faces in a white cloud;
+      beside him the kimchi granny (granny_kimchi) swings a fresh radish into the nearest hound's jaw.
+    acting:
+      choi_dongmin: "planted at the bottom step, blasting the extinguisher upward, face twisted"
+      granny_kimchi: "mid-swing with a new radish, headscarf flying"
+      ash_hound: "staggering in the white cloud, heads jerking"
+    calm: top
+    sfx:
+      - {text: "FSSSHHHHH", style: impact, at: [0.40, 0.40], size: L, rot: -6}
+      - {text: "BONK", style: comic, at: [0.76, 0.40], size: M, rot: 10}
+
+  - id: P61
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "close on Jaeha on one knee at the road's edge, raising his bloody hand toward the stairs, a window flashing"
+    light: "cyan from the window; strobes"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha) on one knee at the road's edge, raising his bloody hand toward the stairs, eyes blazing. The
+      upper half is empty for the window.
+    acting:
+      kang_jaeha: "on one knee, raising his right hand toward the stairs, blood on his chin, eyes fierce"
+    calm: top
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[COOLDOWN 00:00 · NIB · FIELD FORM 05:00]"}
+    silent: true
+
+  - id: P62
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from the stairs: Nib's eye flaring amber again as he drives into the hounds out of the white cloud"
+    light: "amber blazing through the white cloud"
+    art: >
+      From low on the stairs: Nib's eye flares amber again and his outline blazes; he drives into the staggering hounds out of
+      the white cloud with both knives, bursting them into ash one after another.
+    acting:
+      nib: "diving down the stairs through the cloud, both knives slashing"
+      ash_hound: "bursting into ash"
+    calm: top
+    sfx:
+      - {text: "SHRAKK SHRAKK SHRAKK", style: impact, at: [0.40, 0.24], size: XL, rot: -10}
+
+  - id: P63
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level at the far end of the bridge: Seoa stepping off the last stair with the last child, turning back"
+    light: "the bridge lamps; steam"
+    art: >
+      At the far end of the footbridge: Seoa (kang_seoa) steps off the last stair onto the pavement with the last child and the
+      tiny tteok granny, and turns back toward the bridge. Fourteen people are huddled safe behind her.
+    acting:
+      kang_seoa: "setting the child down, turning back, cupping her hand to her mouth"
+      granny_tteok: "hugging the child"
+    eyeline: "Seoa → under the bridge"
+    foreground: "the bottom of the far stair rail, cropped, left"
+    calm: top
+    lines:
+      - {who: offpanel:borro, type: speech, text: "IS EVERYONE OFF?", side: r}
+      - {who: kang_seoa, type: shout, text: "EVERYONE'S OFF! ALL FOURTEEN!", side: l}
+
+  - id: P64
+    recipe: splash
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from the road: Borro stepping out from under the deck as the whole footbridge comes down behind him"
+    light: "dust and steam; strobes"
+    art: >
+      From low on the road: Borro steps out from under the deck with his shield over his head, and the whole footbridge comes
+      down behind him onto the road in a crash of concrete and steel and a wall of dust. Nothing on it but empty railings.
+    acting:
+      borro: "walking out of the collapse with the shield held over his head, unhurried"
+    calm: top
+    sfx:
+      - {text: "KRRRRAAASSHHHH", style: impact, at: [0.50, 0.30], size: XL, rot: 6}
+
+  - id: P65
+    recipe: aftermath
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high, over the road: the collapsed bridge in a cloud of dust, Borro in the rubble, Jaeha kneeling on one side, Seoa on the other"
+    light: "dust lit red and blue; the glows fading"
+    art: >
+      High over the road: the collapsed bridge lies across the four lanes in a settling cloud of dust. Borro stands in the
+      rubble with his shield lowered; on the market side Jaeha kneels with Bomi and Yerin beside him; Nib stands at the top of
+      the broken stairs in a drift of ash; on the far side, Seoa stands in front of her fourteen people.
+    calm: top
+    silent: true
+
+  - id: P66
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level across the gap of the fallen bridge: Seoa holding up the plastic bag of rice cakes, shouting across"
+    light: "dust; the bridge lamp lying on its side"
+    art: >
+      Across the gap of the fallen bridge: Seoa (kang_seoa) holds the plastic bag of rice cakes up high over her head and
+      shouts across to her brother; the people behind her are staring at her.
+    acting:
+      kang_seoa: "holding the bag up high in one fist, glasses dusty, a shaky, triumphant grin, tears running"
+    eyeline: "Seoa → Jaeha"
+    foreground: "a bent railing in the rubble, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kang_seoa, type: shout, text: "I GOT THE RICE CAKES!", side: l}
+
+  - id: P67
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha on his knees, laughing despite himself, blood and dust on his face"
+    light: "dust; strobes"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha) on his knees, laughing despite himself, blood and dust on his face, one hand over his eyes.
+    acting:
+      kang_jaeha: "head tipped back, laughing helplessly, one hand pressed over his eyes"
+    eyeline: "Jaeha → the sky"
+    calm: left
+    silent: true
+    sfx:
+      - {text: "HAHA... HA...", style: quiet, at: [0.30, 0.30], size: S, rot: 0}
+
+  - id: P68
+    recipe: anticipation
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, at the rubble: steam pouring out of the cracks in the road under the fallen bridge, the dust rising again"
+    light: "steam; a violet glow in the cracks growing"
+    art: >
+      Low at the rubble: steam pours out of the cracks in the road under the fallen bridge, thicker and thicker; the settled
+      dust lifts and swirls; a deep violet glow grows inside the cracks.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "HSSSSSSSS", style: quiet, at: [0.50, 0.40], size: M, rot: 0}
+
+  - id: P69
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level at the market end: Choi lowering the extinguisher, wiping his face, sweating"
+    light: "heat shimmer; strobes"
+    art: >
+      At the market end: Choi (choi_dongmin) lowers the empty extinguisher and wipes his face; the air round him shimmers;
+      sweat runs down his neck.
+    acting:
+      choi_dongmin: "wiping his forehead with his sleeve, squinting at the steam, fanning his jacket"
+    eyeline: "Choi → the steam"
+    foreground: "the empty extinguisher, cropped, bottom left"
+    calm: top
+    lines:
+      - {who: choi_dongmin, type: speech, text: "WHY IS IT SO HOT? IT'S OCTOBER.", side: l}
+
+  - id: P70
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of Jaeha's eyes, the laugh gone, steam reflected in them"
+    light: "violet glow from below"
+    face: private
+    art: >
+      Extreme close-up: Jaeha's eyes (kang_jaeha), the laugh gone, violet light rising in them from below. Fill the canvas edge
+      to edge.
+    acting:
+      kang_jaeha: "eyes widening, pupils shrinking"
+    calm: none
+    silent: true
+
+  - id: P71
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, on the road: the asphalt under the fallen bridge heaving up in a dome, slabs of the bridge sliding off it"
+    light: "violet light blazing through the cracks; steam"
+    art: >
+      On the road: the asphalt under the fallen bridge heaves up into a dome, the slabs of the bridge sliding off it; steam
+      blasts out of every crack; Borro backs away across the rubble with his shield up.
+    acting:
+      borro: "backing away, shield raised, eyes on the dome"
+    calm: top
+    sfx:
+      - {text: "BRRRRRRMMMMM", style: impact, at: [0.50, 0.30], size: XL, rot: 0}
+
+  - id: P72
+    recipe: monster-reveal
+    shape: full
+    gap: short
+    bg: black
+    camera: "low, from the road in front of the fallen bridge, looking up: a colossal serpent bursting up out of the street"
+    light: "key: steam lit violet from below; strobes; heat shimmer"
+    art: >
+      The break's boss bursts up out of the street through the fallen footbridge: a colossal serpent (marsh_serpent) rearing
+      into the night, its body as thick as a small car, jade-green scales banded with dull gold, a hooded head with two
+      backswept bone-white horns, yellow slit eyes, steam and heat shimmer pouring off it, slabs of road and bridge falling
+      from its coils, a small violet Hush crack on its brow. Borro, small at its base, raises his shield. Scale: its head is
+      as high as the third floor of the buildings beside the road; Borro reaches its lowest coil.
+    acting:
+      marsh_serpent: "rearing high out of the road, hood flared, jaws opening, looking down at the people"
+      borro: "small at its base, shield raised, standing his ground"
+    calm: top
+    sfx:
+      - {text: "SHHHRRRAAAAAAAA", style: impact, at: [0.30, 0.20], size: XL, rot: -8}
+
+  - id: P73
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "close on the serpent's yellow slit eye, steam rising past it, a window beside it"
+    light: "yellow eye glow; violet; cyan from the window"
+    art: >
+      Close on the serpent's huge yellow slit eye, steam rising past it, the Hush crack on its brow leaking violet ash. The
+      upper part is empty for the window.
+    calm: top
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.05], text: "[BREAK BOSS: MARSH SERPENT (C)]"}
+    silent: true
+
+  - id: END
+    kind: end
+    chibi_gag: "Chibi Bomi kneels at a tiny grave made of a lollipop stick and a drone propeller, crying waterfalls, while chibi Nib solemnly lays a single radish on it and chibi Borro holds a tiny umbrella over them."
