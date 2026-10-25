@@ -1,0 +1,1305 @@
+chapter: 22
+title: The Last Seconds
+format: SCRIPT_FORMAT_v2.md
+when: "Sunday: the morning news; the columbarium in the afternoon; the rooftop party at dusk; the Kanghan guild hall the same night; the rooftop room at 2:47 AM on Monday."
+story_beats: ARC3_4_BEATS.md#22-the-last-seconds
+cast:
+  kang_jaeha: hoodie         # no vest (torn in ch 20-21); bandaged; limps with a walking stick
+  nib: mask                  # seal 3/5 scout-captain armour; rest form; no mask at home
+  borro: default             # husk face; rest form; his tarp garden
+  lyra: default              # rest form; no mask
+  song_yerin: default
+  yoo_bomi: default
+  choi_dongmin: default
+  kang_seoa: default         # 15: never any fan service
+  landlady: default
+  gomi: default
+  granny_kimchi: default     # the radish granny (ch 11), generic
+  conv_clerk: default        # generic convenience-store clerk, see continuity
+  inspector_ryu: default     # voice on the phone only (P07)
+  kanghan_spokesman: default # generic, on the TV only (P03)
+  mok_hangyu: default        # on the news (P01); young, in a grey memory (P24)
+  oh_minseok: default        # his photo (P13); on the video (P53-P56)
+  moon_ahin: default         # P47-P50
+  police: default            # generic, on the news only
+locations: [conv_store, rooftop_room, columbarium, hanriver_gate_flashback, kanghan_guild_hall, hanriver_gate]
+continuity:
+  - "Jaeha: the grey hoodie and dark trousers, no vest (the old one was torn to pieces in the gate); Yerin's healing has closed the worst of it, but bandages still show on his LEFT upper arm and RIGHT forearm under the pushed-up sleeves, a plaster on his cheek, and he limps on his RIGHT leg with a plain wooden walking stick (P12-P27). A black cap at the columbarium. His notebook is in the hoodie's front pocket."
+  - "Nib: seal 3/5 scout-captain armour (CHARACTER_DESIGNS_v2.md 2.2) over the cloak; the cracked husk mask in public (the columbarium); no mask at home (the rooftop). Borro: the white husk face; rest form; his tarp garden on the roof (ch 10) with real lettuce now. Lyra: her full design (2.10), rest form, no mask; the camera is never aimed up her skirt or down her top."
+  - "Bomi: her design exactly (cropped neon-yellow bomber, black crop top, high-waisted denim shorts, black thigh-high socks); a confident adult glamour pose in P33, never a low angle. Yerin: her approved covered look, drawn cute. Seoa: her uniform shirt and tie with the blazer off and a cardigan at home; never any fan service."
+  - "Moon Ahin (P47-P50): her full design (2.11): the white coat-dress with the plunging V and the slit up her LEFT side, white thigh-highs and boots, white gloves, the silver ribbon bow, the baton in her RIGHT hand. A glamour panel in P47; no name card yet (ch 24)."
+  - "The news footage (P01-P03) is drawn as TV images; the letterer lays the channel's lower third over them (tv.lowerthird on: panel). In P04 the TV above the counter is flat green and the letterer fills it."
+  - "The convenience store (location conv_store, ch 14) in the morning: bright, the TV mounted above the counter; the clerk (generic): a sleepy man in his twenties in a green store vest."
+  - "The columbarium (new location columbarium): a quiet modern memorial hall on a hillside: long white corridors lined from floor to ceiling with small glass-fronted niches (8 rows, the top row 3 m up), white chrysanthemums, sunlight through tall windows, a polished stone floor. Minseok's niche is at chest height."
+  - "Minseok's niche (P13): behind the glass, a small white urn, a framed photo of Minseok in his orange vest grinning and giving a thumbs-up, a tiny wooden husk figure, an old can of coffee, a small blank brass nameplate. No legible text anywhere."
+  - "The grey memory (P24, location hanriver_gate_flashback): four years ago, outside the iron door; everything grey except the two orange things: young Jaeha's new vest and the orange phone. Young Choi (30, no eye bags) in his rescue jacket; young Mok (34): the same build, short dark hair with no grey, a black Black Hound guild jacket."
+  - "The video (P53-P56): drawn as the shaky phone image, with a small white timestamp label at the bottom. Minseok as in ch 21. His last seconds show, through the white-cyan shimmer of the gate's rim from inside, the riverbank under a Han River bridge at night: the concrete pier with its big faded yellow stencilled 7, the orange sodium lights on the span's underside, one lamp with a cracked cover, the black river. Exactly the pier Nib saw in ch 8 (location hanriver_gate), four years earlier, before the fence and the tarps."
+  - "Lyra's brother Ilan (ch 18): mentioned only."
+plants:
+  - "PLANT P07-P09: the core is held as evidence; the reward waits for the trial (Arc 4, ch 32)."
+  - "PLANT P20-P21: Choi keeps a copy of the video (Arc 4: 'Choi keeps a copy')."
+  - "PLANT P42: Lyra asks when they will look for Ilan."
+  - "PLANT P48-P49: Moon Ahin finds the cash payments to trap-testers for a Han River gate Kanghan says it doesn't have (ch 23-24)."
+  - "PLANT P61-P65: the Han River gate is still open, four years after its boss was 'cleared' (Arc 4)."
+hook_type: mystery
+
+panels:
+
+  # ================= SUNDAY (P01-P11) =================
+  - id: P01
+    recipe: establish
+    shape: full
+    gap: none
+    bg: white
+    camera: "news footage, eye level from the press line: Mok in handcuffs being walked up the steps of a police station between officers, camera flashes"
+    light: "flat grey morning light; white camera flashes"
+    art: >
+      News footage, drawn as a TV image: Mok (mok_hangyu), handcuffed, in a grey police-issue jacket over his clothes, is walked
+      up the steps of a police station between two officers (police); reporters crowd the foot of the steps with microphones and
+      cameras flashing. Keep the bottom fifth of the image calm for the channel's lower third.
+    acting:
+      mok_hangyu: "head down, shoulders hunched, cuffed hands in front, not looking at the cameras"
+      police: "two officers each holding one of his arms, walking him up the steps"
+    calm: bottom
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "SUNDAY MORNING."}
+    ui:
+      - kind: tv.lowerthird
+        "on": panel
+        text: "BLACK HOUND RAID LEADER MOK HANGYU ARRESTED"
+        ticker: "ATTEMPTED MURDER ON A LIVE STREAM · 2.1 MILLION WATCHED · ASSOCIATION REOPENS GATE 0912 INQUIRY"
+    sfx:
+      - {text: "CHAK CHAK CHAK", style: quiet, at: [0.80, 0.30], size: S, rot: 0}
+
+  - id: P02
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: white
+    camera: "news footage, low from the street: workmen lowering a black dog's-head guild sign from the front of a building on straps"
+    light: "grey morning"
+    art: >
+      News footage: from the street, workmen on a cherry-picker lower a big black dog's-head guild sign off the front of a glass
+      office building on straps; below, people in black guild jackets carry cardboard boxes out to the kerb. Scale: the sign is
+      as tall as two men. Keep the bottom fifth calm for the lower third.
+    calm: bottom
+    silent: true
+    ui:
+      - {kind: tv.lowerthird, "on": panel, text: "ASSOCIATION REVOKES BLACK HOUND'S LICENCE · GUILD DISSOLVED"}
+    sfx:
+      - {text: "KREEEK", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P03
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "news footage, eye level: a smooth Kanghan spokesman at a podium in front of a white wall with the silver hexagon logo"
+    light: "bright press-room light"
+    art: >
+      News footage: a smooth Kanghan spokesman (kanghan_spokesman) in a navy suit at a podium, in front of a white wall with the
+      silver hexagon-in-a-hexagon logo (no letters); microphones bristle on the podium. Keep the bottom fifth calm.
+    acting:
+      kanghan_spokesman: "both hands resting on the podium, a practised sorrowful frown, eyes on the cameras"
+    eyeline: "the spokesman → the cameras"
+    foreground: "the bristle of microphones on the podium, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kanghan_spokesman, type: phone, text: "KANGHAN HAD NO KNOWLEDGE OF MR. MOK'S ACTIONS. HE WAS A CONTRACTOR ACTING ALONE.", side: l}
+    ui:
+      - {kind: tv.lowerthird, "on": panel, text: "KANGHAN: 'A CONTRACTOR ACTING ALONE'"}
+
+  - id: P04
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level inside the convenience store: the radish granny at the counter glaring up at the TV, the sleepy clerk nodding"
+    light: "bright shop light; the TV's glow"
+    art: >
+      Inside the Mangwon corner convenience store in the morning (location conv_store): the TV above the counter, its screen flat
+      green; below it the radish granny (granny_kimchi) in her red rubber apron, a shopping basket on her arm with a daikon radish
+      sticking out of it, glares up at the screen; behind the counter the clerk (conv_clerk) nods.
+    acting:
+      granny_kimchi: "glaring up at the TV, one rubber-gloved hand on her hip, the basket on her other arm, lips pursed"
+      conv_clerk: "leaning on the counter, chin in his hand, nodding sleepily"
+    eyeline: "granny and clerk → the TV (up)"
+    calm: top
+    lines:
+      - {who: granny_kimchi, type: speech, text: "A CONTRACTOR ACTING ALONE, MY FOOT.", side: l}
+    ui:
+      - {kind: tv.lowerthird, "on": screen, text: "KANGHAN: 'A CONTRACTOR ACTING ALONE'"}
+    sfx:
+      - {text: "HMPH", style: comic, at: [0.30, 0.40], size: S, rot: -6}
+
+  - id: P05
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: white
+    camera: "high, from the ceiling corner of the small rooftop room: Jaeha asleep in a heap on the floor mattress, the fat cat asleep on his chest, Nib guarding him, Lyra bored in the window, Seoa at her desk"
+    light: "late-morning sun through the window"
+    art: >
+      The rooftop room, inside (location rooftop_room), from high in a corner: Jaeha (kang_jaeha), bandaged, asleep in a heap of
+      blankets on the floor mattress with his mouth open; the fat orange cat (gomi) asleep on his chest; Nib (nib, armour, no
+      mask) sits cross-legged by his head with his long knives across his knees; Lyra (lyra) sits sideways in the open window
+      frame, bored, buffing an arrowhead on her sleeve; Seoa (kang_seoa, cardigan) at her desk with her arms crossed. Scale: the
+      room is 3 by 4 m; it is crowded.
+    acting:
+      kang_jaeha: "asleep on his back, one arm flung out, mouth open, the cat rising and falling on his chest"
+      gomi: "curled asleep on his chest"
+      nib: "sitting cross-legged, back straight, knives across his knees, watching the door"
+      lyra: "sitting sideways in the window frame, legs drawn up, buffing an arrowhead on her sleeve, bored"
+      kang_seoa: "arms crossed at her desk, a withering look at her brother"
+    calm: top
+    lines:
+      - {who: kang_seoa, type: speech, text: "SEVENTEEN HOURS. HE'S BEEN ASLEEP FOR SEVENTEEN HOURS.", side: r}
+      - {who: nib, type: speech, text: "HE CARRIED EVERY HIT. LET HIM SLEEP.", side: l}
+    sfx:
+      - {text: "zzz... zzz...", style: quiet, at: [0.30, 0.70], size: S, rot: 0}
+
+  - id: P06
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on the floor by Jaeha's head: his phone buzzing across the boards"
+    light: "the screen's glow"
+    art: >
+      Close on the floorboards by Jaeha's head: his phone buzzes in a slow circle, screen flat green; his fingers creep toward it
+      out of the blankets.
+    calm: left
+    silent: true
+    ui:
+      - {kind: phone.ttok_call, "on": screen, caller: "INSPECTOR RYU · HUNTER ASSOCIATION"}
+    sfx:
+      - {text: "BZZZ BZZZ", style: quiet, at: [0.30, 0.30], size: S, rot: 0}
+
+  - id: P07
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, at floor level: Jaeha lying flat with the phone at his ear and the cat still on his chest"
+    light: "sun"
+    face: public
+    art: >
+      Low at floor level: Jaeha (kang_jaeha) lies flat with the phone at his ear, eyes half open; the cat (gomi) is still asleep on
+      his chest and does not move.
+    acting:
+      kang_jaeha: "lying flat, phone at his ear, eyes half open, a polite voice out of a half-asleep face"
+      gomi: "asleep on his chest, unbothered"
+    eyeline: "Jaeha → the ceiling"
+    foreground: "the cat's orange fur, cropped, bottom left"
+    calm: top
+    lines:
+      - {who: inspector_ryu, type: phone, text: "THE BOSS CORE IS EVIDENCE NOW, MR. KANG. YOUR SHARE WILL WAIT FOR THE TRIAL.", side: l}
+      - {who: kang_jaeha, type: speech, text: "OF COURSE, SIR. THANK YOU, SIR.", side: r}
+
+  - id: P08
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "eye level, close on Lyra in the window frame, swinging round, suddenly very interested"
+    light: "sun behind her"
+    art: >
+      Close on Lyra (lyra) in the window frame, swinging round to face the room, suddenly very interested.
+    acting:
+      lyra: "swinging her legs round, pointing the arrowhead at Jaeha, eyes narrowed"
+    eyeline: "Lyra → Jaeha (down)"
+    foreground: "the window's frame, cropped, left"
+    calm: right
+    lines:
+      - {who: lyra, type: speech, text: "THE NINE HUNDRED MILLION. WHAT'S MY CUT?", side: l}
+      - {who: kang_jaeha, type: speech, text: "...EVIDENCE.", side: r}
+
+  - id: P09
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level: Lyra flopping backwards out of sight on the window ledge, Nib nodding gravely"
+    light: "sun"
+    art: >
+      Lyra (lyra) flops backwards onto the window ledge with an arm over her eyes in theatrical despair; by the mattress, Nib (nib)
+      nods gravely in agreement.
+    acting:
+      lyra: "flopping back, one arm over her eyes, the other hanging off the ledge"
+      nib: "nodding slowly, arms folded"
+    calm: top
+    lines:
+      - {who: lyra, type: speech, text: "YOUR WORLD IS STUPID.", side: l}
+    sfx:
+      - {text: "FLOP", style: comic, at: [0.30, 0.60], size: M, rot: -8}
+
+  - id: P10
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level, side-on: Seoa smacking her brother in the face with a pillow, then hanging on to his sleeve"
+    light: "sun"
+    face: public
+    art: >
+      Side-on: Seoa (kang_seoa) smacks her brother (kang_jaeha) in the face with a pillow as he sits up; the cat (gomi) shoots off
+      his chest; then she keeps hold of his sleeve with her free hand and does not let go, glaring, eyes wet behind her glasses.
+    acting:
+      kang_seoa: "swinging the pillow with one hand, the other gripping his sleeve, glaring through wet eyes"
+      kang_jaeha: "sitting up into the pillow, eyes squeezed shut, both hands half raised"
+      gomi: "leaping off his chest, fur on end"
+    calm: top
+    lines:
+      - {who: kang_seoa, type: shout, text: "YOU ALMOST DIED ON LIVE TV! TWO MILLION PEOPLE WATCHED, AND I WAS ONE OF THEM!", side: l}
+    sfx:
+      - {text: "PAF!", style: impact, at: [0.60, 0.30], size: L, rot: 8}
+      - {text: "MRROW!", style: comic, at: [0.80, 0.70], size: S, rot: 0}
+
+  - id: P11
+    kind: title
+    shape: full
+    gap: long
+    bg: black
+    title_card: "MY SUMMONS GO FIRST · CHAPTER 22 · THE LAST SECONDS"
+    notes: "Title card at panel 11 of 66 (17%)."
+
+  # ================= THE NICHE (P12-P27) =================
+  - id: P12
+    recipe: establish
+    shape: tall
+    gap: long
+    bg: white
+    camera: "eye level, far down a long white corridor of glass-fronted niches: two small figures walking in, one limping with a stick"
+    light: "key: afternoon sun through tall windows, long bright rectangles on the stone floor"
+    art: >
+      A quiet columbarium on a hillside (location columbarium): a long white corridor lined from floor to ceiling with small
+      glass-fronted niches, white chrysanthemums in steel cups, sunlight in long bright rectangles across the polished floor. Far
+      down it, two small figures walk in: Jaeha (kang_jaeha) in his hoodie and a black cap, limping with a wooden walking stick,
+      and Nib (nib) beside him in his armour, cloak and cracked husk mask. Scale: 8 rows of niches; the top row is 3 m up.
+    acting:
+      kang_jaeha: "limping slowly, the stick in his LEFT hand, cap pulled low"
+      nib: "walking at his RIGHT side, matching his pace, looking up at the walls of niches"
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "THE COLUMBARIUM. SUNDAY AFTERNOON."}
+    sfx:
+      - {text: "tok... tok...", style: quiet, at: [0.50, 0.86], size: S, rot: 0}
+
+  - id: P13
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: white
+    camera: "straight on, close: one glass-fronted niche at chest height"
+    light: "soft sun on the glass; a faint reflection"
+    art: >
+      Straight on, close: Minseok's niche behind its glass. Inside: a small white urn; a framed photo of Oh Minseok (oh_minseok) in
+      his orange vest, grinning and giving a thumbs-up; a tiny wooden husk figure; an old can of coffee; a small blank brass
+      nameplate. A faint reflection of a cap's brim in the glass.
+    acting:
+      oh_minseok: "in the photo: a big crooked grin and a thumbs-up, eyes squinting in the sun"
+    calm: top
+    silent: true
+
+  - id: P14
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level, three-quarter from behind Jaeha's shoulder: Jaeha taking off his cap in front of the niche"
+    light: "soft sun"
+    face: private
+    art: >
+      From just behind his shoulder: Jaeha (kang_jaeha) takes off his cap and stands in front of the niche, the photo of Minseok
+      grinning back at him through the glass.
+    acting:
+      kang_jaeha: "cap in his RIGHT hand against his chest, the stick in his LEFT, head bowed a little, a small sad smile"
+    eyeline: "Jaeha → the photo"
+    foreground: "Jaeha's shoulder and the cap's brim, cropped, left"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "HI, HYUNG. SORRY. IT TOOK ME FOUR YEARS.", side: r}
+
+  - id: P15
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on the glass: Jaeha's fingers pressing a small thumbs-up sticker onto it beside the photo"
+    light: "sun on the glass"
+    art: >
+      Close on the glass: Jaeha's fingers press a small yellow thumbs-up sticker onto it beside the photo, the same sticker as the
+      one on the orange phone's case.
+    calm: left
+    silent: true
+    sfx:
+      - {text: "pat", style: quiet, at: [0.40, 0.40], size: S, rot: 0}
+
+  - id: P16
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, from Nib's height: Nib looking up at the photo, Jaeha above him"
+    light: "sun on Nib's bronze pauldron"
+    face: private
+    art: >
+      From low, at Nib's height: Nib (nib) looks up at the photo; Jaeha (kang_jaeha) stands above him, looking at it too.
+    acting:
+      nib: "looking up at the photo, head tilted, hands behind his back"
+      kang_jaeha: "looking at the photo, the cap hanging at his side"
+    eyeline: "Nib → the photo (up); Jaeha → the photo"
+    foreground: "the edge of the niche wall, cropped, right"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "WAS HE STRONG?", side: l}
+      - {who: kang_jaeha, type: speech, text: "NO. HE WAS F-RANK, LIKE ME. HE JUST ALWAYS WENT FIRST.", side: r}
+
+  - id: P17
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on Nib pushing the cracked mask up onto his forehead to look at the photo with his own eyes"
+    light: "sun"
+    art: >
+      Close on Nib (nib) pushing the cracked husk mask up onto his forehead to look at the photo with his own eyes.
+    acting:
+      nib: "pushing the mask up with two fingers, eyes soft, ears drooping a little"
+    eyeline: "Nib → the photo"
+    calm: right
+    lines:
+      - {who: nib, type: whisper, text: "...I WOULD HAVE LIKED HIM.", side: r}
+    sfx:
+      - {text: "klik", style: quiet, at: [0.70, 0.20], size: S, rot: 0}
+
+  - id: P18
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level down the corridor: Choi walking up with two cans of coffee, Jaeha turning in surprise"
+    light: "sun in long rectangles"
+    art: >
+      Down the corridor: Choi (choi_dongmin) in his rescue jacket walks up with two cans of coffee; Jaeha (kang_jaeha) turns in
+      surprise; Nib (nib) snaps his mask back down.
+    acting:
+      choi_dongmin: "walking up unhurried, a can of coffee in each hand, a tired half-smile"
+      kang_jaeha: "turning on the stick, eyebrows up"
+      nib: "snapping the mask back down over his face"
+    eyeline: "Choi → the niche; Jaeha → Choi"
+    foreground: "a steel cup of white chrysanthemums, cropped, bottom left"
+    calm: top
+    lines:
+      - {who: choi_dongmin, type: speech, text: "HE TOOK HIS WITH THREE SUGARS. DISGUSTING.", side: l}
+    sfx:
+      - {text: "STEP STEP", style: quiet, at: [0.20, 0.80], size: S, rot: 0}
+
+  - id: P19
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level, two-shot side-on: Choi setting one can on the ledge under the niche while Jaeha stares at him"
+    light: "sun"
+    face: public
+    art: >
+      Side-on two-shot: Choi (choi_dongmin) sets one can on the ledge under the niche; Jaeha (kang_jaeha) stares at him.
+    acting:
+      choi_dongmin: "bending to set the can down, not looking at Jaeha"
+      kang_jaeha: "staring at Choi, cap crushed in his hand"
+    eyeline: "Jaeha → Choi; Choi → the can"
+    foreground: "the can of coffee on the ledge, cropped, bottom right"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "SIR? YOU COME HERE?", side: r}
+      - {who: choi_dongmin, type: speech, text: "EVERY YEAR, ON THE DAY. YOU COME AT NIGHT. I COME AT LUNCH.", side: l}
+
+  - id: P20
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Choi's hand holding out an old USB stick on a frayed lanyard"
+    light: "sun"
+    art: >
+      Close on Choi's hand holding out an old black USB stick on a frayed blue lanyard.
+    calm: left
+    lines:
+      - {who: choi_dongmin, type: speech, text: "HIS PHONE IS IN AN EVIDENCE LOCKER NOW. THIS ISN'T.", side: l}
+
+  - id: P21
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low two-shot: Jaeha taking the USB stick, Choi looking away down the corridor"
+    light: "sun"
+    face: private
+    art: >
+      Low two-shot: Jaeha (kang_jaeha) takes the USB stick as if it might break; Choi (choi_dongmin) looks away down the corridor.
+    acting:
+      kang_jaeha: "taking the stick in both hands, the walking stick hooked over his arm"
+      choi_dongmin: "looking away down the corridor, hands in his jacket pockets"
+    eyeline: "Jaeha → the stick; Choi → away"
+    foreground: "the lanyard swinging, cropped, top"
+    calm: top
+    lines:
+      - {who: choi_dongmin, type: speech, text: "I CHARGED IT BEFORE I HANDED IT IN. DON'T ASK ME HOW.", side: l}
+      - {who: kang_jaeha, type: speech, text: "SIR... HOW DID MOK EVEN HAVE IT? HYUNG NEVER CAME OUT.", side: r}
+
+  - id: P22
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level, close on Choi looking at the photo in the niche, remembering"
+    light: "sun on one side of his face"
+    art: >
+      Close on Choi (choi_dongmin) looking at the photo in the niche, remembering; the reflection of the corridor's windows in the
+      glass between them.
+    acting:
+      choi_dongmin: "looking at the photo, eyes narrowed, the tired half-smile gone"
+    eyeline: "Choi → the photo"
+    foreground: "the glass front of the niche, a reflection across it, cropped, right"
+    calm: top
+    lines:
+      - {who: choi_dongmin, type: speech, text: "WHEN I PULLED YOU OFF THAT DOOR, A BLACK HOUND MAN HELPED ME CARRY YOU OUT.", side: l}
+      - {who: choi_dongmin, type: speech, text: "HE WENT THROUGH YOUR VEST. HE SAID HE WAS LOOKING FOR CORE SHARDS.", side: l}
+
+  - id: P23
+    recipe: silent
+    shape: strip
+    gap: fade-black
+    bg: black
+    camera: "a thin strip: the colour draining out of the corridor into grey"
+    light: "fading to grey"
+    art: >
+      A thin strip across Jaeha's eyes, the colour draining out of them into grey from one side to the other. Fill the canvas edge
+      to edge.
+    calm: none
+    silent: true
+
+  - id: P24
+    recipe: establish
+    shape: tall
+    gap: short
+    bg: black
+    camera: "high, in grey: a screaming boy carried away from an iron door between a rescue worker and a man in a black jacket, the man's hand coming out of the boy's vest pocket"
+    light: "grey memory; the only colour is the orange of the vest and the phone"
+    art: >
+      A grey memory, four years ago, inside the Han River gate (location hanriver_gate_flashback): young Jaeha (kang_jaeha, 20),
+      screaming, is carried away from the closed iron door between young Choi (choi_dongmin, 30) in his rescue jacket and a man in
+      a black Black Hound guild jacket: young Mok (mok_hangyu, 34), dark-haired. While Choi looks at the boy, Mok's hand slides out
+      of the boy's vest pocket holding an orange phone. Everything is grey except the orange vest and the orange phone. Scale: the
+      iron door behind them is 4 m tall.
+    acting:
+      kang_jaeha: "young, screaming, twisting back toward the door, both arms reaching"
+      choi_dongmin: "young, hauling the boy by the vest with both hands, eyes on his face"
+      mok_hangyu: "young, holding the boy's other arm, eyes on the door, his free hand slipping the orange phone out of the vest pocket"
+    calm: top
+    silent: true
+
+  - id: P25
+    recipe: reaction
+    shape: inset-l
+    gap: fade-white
+    bg: white
+    camera: "close on Jaeha in colour again, his hand pressing flat on his chest where the vest pocket used to be"
+    light: "sun"
+    face: private
+    art: >
+      In colour again: close on Jaeha (kang_jaeha), his hand pressed flat on his chest where the vest's pocket used to be, eyes
+      wide and wet.
+    acting:
+      kang_jaeha: "one hand flat on his chest, eyes wide and wet, lips parted"
+    calm: right
+    lines:
+      - {who: kang_jaeha, type: inner, text: "He put it in my pocket when he pushed me out. It was for me."}
+
+  - id: P26
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level, wide: Choi patting Jaeha's shoulder once on his way past, walking off down the corridor"
+    light: "sun"
+    art: >
+      Choi (choi_dongmin) pats Jaeha's shoulder once on his way past and walks off down the bright corridor without looking back;
+      Jaeha (kang_jaeha) stands with the USB stick in his fist.
+    acting:
+      choi_dongmin: "patting Jaeha's shoulder once in passing, already walking away, one hand raised"
+      kang_jaeha: "standing still, the USB stick clenched in his fist against his chest"
+    eyeline: "Choi → ahead; Jaeha → the stick"
+    foreground: "Nib's cloak, cropped, bottom right"
+    calm: top
+    lines:
+      - {who: choi_dongmin, type: speech, text: "THEN IT TOOK FOUR YEARS. BUT IT GOT TO YOU.", side: l}
+      - {who: choi_dongmin, type: speech, text: "TTEOKBOKKI TONIGHT. YOUR SISTER INVITED ME. I'M BRINGING KIMBAP.", side: l}
+
+  - id: P27
+    recipe: silent
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level, from beside the niche: Jaeha and Nib standing in a long bar of sunlight, the thumbs-up sticker on the glass in the foreground"
+    light: "a long bar of afternoon sun"
+    art: >
+      From beside the niche: Jaeha (kang_jaeha) and Nib (nib) stand together in a long bar of sunlight; in the foreground, the
+      little thumbs-up sticker on the glass catches the light.
+    acting:
+      kang_jaeha: "standing still, head bowed, the stick in one hand and the USB in the other"
+      nib: "standing beside him, one small hand holding the hem of Jaeha's hoodie"
+    calm: top
+    silent: true
+
+  # ================= THE ROOFTOP (P28-P45) =================
+  - id: P28
+    recipe: establish
+    shape: full
+    gap: long
+    bg: white
+    camera: "high (8 m), over the rooftop at dusk: everyone round a huge pan of tteokbokki under strings of bulbs, the city and the river bridges beyond"
+    light: "key: warm bulbs strung over the laundry lines; back: violet dusk over the city"
+    art: >
+      The rooftop at dusk (location rooftop_room): strings of warm bulbs over the laundry lines; a portable gas stove with a huge
+      shallow pan of red tteokbokki bubbling; plastic chairs. Everyone is here: Seoa (kang_seoa) ladling; Yerin (song_yerin) with a
+      paper cup; Bomi (yoo_bomi) filming with her drone hovering; Choi (choi_dongmin) unpacking kimbap; the landlady (landlady)
+      with a tub of kimchi; Lyra (lyra) sitting on top of the water tank; Borro (borro) by his tarp garden; Nib (nib) on the
+      parapet; the fat cat (gomi) under the stove table. Beyond: the Mapo skyline and the Han River bridges glowing orange. Scale:
+      the roof is about 10 by 8 m.
+    acting:
+      kang_seoa: "ladling tteokbokki into paper bowls, tongue between her teeth"
+      song_yerin: "laughing, both hands round a paper cup"
+      yoo_bomi: "talking to her drone, pointing at the pan"
+      choi_dongmin: "unpacking kimbap rolls from a plastic bag, a coffee in his other hand"
+      landlady: "holding out a tub of kimchi, one eyebrow up"
+      lyra: "sitting on the water tank, swinging her boots"
+      borro: "sitting by his garden, very still, very proud"
+      nib: "perched on the parapet, eating a rice cake off a skewer"
+      gomi: "under the table, staring at the kimbap"
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "THAT EVENING."}
+    sfx:
+      - {text: "bubble bubble", style: quiet, at: [0.40, 0.70], size: S, rot: 0}
+
+  - id: P29
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, by the garden: Borro holding out a plastic crate of lettuce, flowers popping open in the moss on his shell"
+    light: "warm bulbs"
+    art: >
+      Low by the tarp garden: Borro (borro) holds out a blue plastic crate heaped with fresh lettuce; tiny flowers pop open in the
+      moss on his shell.
+    acting:
+      borro: "holding the crate out in both huge hands, very still, chin raised with pride"
+    eyeline: "Borro → the team"
+    foreground: "a lettuce leaf from the garden, cropped, bottom left"
+    calm: top
+    lines:
+      - {who: borro, type: speech, text: "THE FIRST HARVEST. FOR THE TEAM.", side: l}
+    sfx:
+      - {text: "pop pop", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P30
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level, side-on: Nib on the parapet with his arms crossed, refusing, Seoa beside him unimpressed"
+    light: "warm bulbs"
+    art: >
+      Side-on: Nib (nib) on the parapet crosses his arms and refuses to touch the lettuce; Seoa (kang_seoa) beside him gives him a
+      flat look.
+    acting:
+      nib: "arms crossed, chin up, eyeing the crate with deep suspicion"
+      kang_seoa: "a paper bowl in one hand, a flat, withering look at Nib"
+    eyeline: "Nib → the crate; Seoa → Nib"
+    foreground: "the crate of lettuce, cropped, bottom right"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "SOMEONE ELSE TASTES IT FIRST.", side: l}
+      - {who: kang_seoa, type: speech, text: "IT'S LETTUCE, NIB.", side: r}
+      - {who: nib, type: speech, text: "THAT IS EXACTLY WHAT A POISONER WOULD SAY.", side: l}
+    sfx:
+      - {text: "HMPH!", style: comic, at: [0.20, 0.30], size: S, rot: -8}
+
+  - id: P31
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Seoa chewing a lettuce wrap, her eyebrows going up"
+    light: "warm bulbs on her glasses"
+    art: >
+      Close on Seoa (kang_seoa) chewing a lettuce leaf wrapped round a rice cake, her eyebrows going up in surprise.
+    acting:
+      kang_seoa: "chewing, eyebrows up, holding the half-eaten wrap"
+    eyeline: "Seoa → Borro"
+    foreground: "the half-eaten lettuce wrap in her fingers, cropped, bottom"
+    calm: left
+    lines:
+      - {who: kang_seoa, type: speech, text: "...IT'S REALLY GOOD, BORRO.", side: r}
+    sfx:
+      - {text: "munch", style: quiet, at: [0.30, 0.70], size: S, rot: 0}
+
+  - id: P32
+    recipe: chibi
+    style: chibi
+    shape: wide
+    gap: short
+    bg: white
+    camera: "chibi, eye level: Nib cramming a whole head of lettuce into his mouth, Borro beaming with flowers bursting off his shell"
+    light: "flat, bright"
+    art: >
+      Chibi: chibi Nib (nib) crams a whole head of lettuce into his mouth, cheeks bulging like a hamster, the crate already half
+      empty; chibi Borro (borro) beams, flowers bursting off his shell like confetti.
+    acting:
+      nib: "chibi, cheeks bulging, both hands stuffing lettuce in"
+      borro: "chibi, beaming, flowers bursting off his shell"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "MUNCH MUNCH MUNCH", style: comic, at: [0.40, 0.30], size: L, rot: -8}
+
+  - id: P33
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: white
+    camera: "eye level, framed from the knees up: Bomi leaping up from her chair, phone held high, screaming with joy"
+    light: "warm bulbs; the phone's glow on her face"
+    art: >
+      Bomi (yoo_bomi) leaps up from her plastic chair with her phone held high over her head, screaming with joy, ponytail flying;
+      a glamour panel in her full design: the cropped neon-yellow bomber flying open over the black crop top, the high-waisted
+      denim shorts, the thigh-high socks. Behind her, Yerin and Choi clap their hands over their ears.
+    acting:
+      yoo_bomi: "leaping up, phone held high in both hands, mouth wide open in a scream, eyes squeezed shut with joy"
+      song_yerin: "hands over her ears, laughing"
+      choi_dongmin: "hands over his ears, coffee tipping"
+    calm: top
+    lines:
+      - {who: yoo_bomi, type: shout, text: "ONE MILLION! BOMBOM TV HAS ONE MILLION SUBSCRIBERS!", side: l}
+    sfx:
+      - {text: "KYAAAAAA!", style: impact, at: [0.70, 0.20], size: L, rot: 6}
+
+  - id: P34
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on Bomi's phone screen"
+    light: "the screen's glow"
+    art: >
+      Close on Bomi's phone in her hand, the screen flat green, her thumb shaking.
+    calm: right
+    silent: true
+    ui:
+      - kind: phone.info_card
+        "on": screen
+        title: "BOMBOM TV"
+        text: "1,004,312 SUBSCRIBERS · SATURDAY'S STREAM: 2,011,390 WATCHING · DONATIONS: ₩48,200,000"
+
+  - id: P35
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low two-shot: Bomi dropping onto the chair next to Jaeha, thumbs flying on her phone, Jaeha holding up his hands"
+    light: "warm bulbs"
+    face: public
+    art: >
+      Low two-shot: Bomi (yoo_bomi) drops onto the chair next to Jaeha (kang_jaeha), her thumbs flying on her phone; he holds up
+      both hands to refuse.
+    acting:
+      yoo_bomi: "typing fast with both thumbs, not looking up, a stubborn grin"
+      kang_jaeha: "holding up both hands, shaking his head"
+    eyeline: "Bomi → her phone; Jaeha → Bomi"
+    foreground: "a paper bowl of tteokbokki on the table, cropped, bottom"
+    calm: top
+    lines:
+      - {who: yoo_bomi, type: speech, text: "THE DONATIONS WERE FOR ALL OF US. FOUR SHARES: YOU, ME, YERIN, AND YOUR HUSKS.", side: l}
+      - {who: yoo_bomi, type: speech, text: "NO ARGUING. IT'S ALREADY SENT.", side: l}
+
+  - id: P36
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Bomi's phone: the transfer screen"
+    light: "the screen's glow"
+    art: >
+      Close on Bomi's phone, screen flat green, her thumb lifting off the button.
+    calm: left
+    silent: true
+    ui:
+      - {kind: phone.bank_transfer, "on": screen, clock: "19:42", confirmation: "Transfer sent", to: "KANG JAEHA", amount: "₩24,100,000", balance: "₩24,100,000"}
+    sfx:
+      - {text: "TING!", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P37
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, from the roof: Lyra sitting up on top of the water tank, delighted"
+    light: "warm bulbs; dusk behind her"
+    art: >
+      From low on the roof: Lyra (lyra) sits up on top of the water tank, delighted, a hand on her heart.
+    acting:
+      lyra: "sitting up straight, one hand pressed to her heart, the other pointing at Bomi, eyes shining"
+    eyeline: "Lyra → Bomi (down)"
+    foreground: "the water tank's ladder, cropped, left"
+    calm: top
+    lines:
+      - {who: lyra, type: speech, text: "FINALLY. SOMEONE IN THIS WORLD UNDERSTANDS MONEY.", side: l}
+
+  - id: P38
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level, over Jaeha's shoulder: Seoa reading his phone, the landlady leaning in on her other side"
+    light: "warm bulbs; the phone's glow"
+    face: public
+    art: >
+      Over Jaeha's shoulder (kang_jaeha): Seoa (kang_seoa) reads his phone screen; the landlady (landlady) leans in on her other
+      side, one eyebrow climbing.
+    acting:
+      kang_jaeha: "holding the phone out so she can see, a sheepish smile"
+      kang_seoa: "reading, glasses pushed up, counting on her fingers"
+      landlady: "leaning in, arms folded, one eyebrow climbing"
+    eyeline: "Seoa and the landlady → the phone"
+    foreground: "Jaeha's shoulder and the phone, cropped, left"
+    calm: top
+    lines:
+      - {who: kang_seoa, type: speech, text: "THE SCHOOL TRIP. AND THE RENT... FOR A WHOLE YEAR.", side: r}
+      - {who: landlady, type: speech, text: "A WHOLE YEAR? ...FINE. THE PETS CAN STAY.", side: r}
+
+  - id: P39
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on Nib on the parapet, deeply offended, a lettuce leaf hanging from his mouth"
+    light: "warm bulbs"
+    art: >
+      Close on Nib (nib) on the parapet, deeply offended, a lettuce leaf still hanging from his mouth.
+    acting:
+      nib: "pointing at his own chest, a lettuce leaf hanging from his mouth, eyes furious"
+    eyeline: "Nib → the landlady"
+    calm: right
+    lines:
+      - {who: nib, type: speech, text: "I AM NOT A PET.", side: r}
+    sfx:
+      - {text: "!!", style: comic, at: [0.30, 0.20], size: M, rot: 0}
+
+  - id: P40
+    recipe: establish
+    shape: tall
+    gap: short
+    bg: white
+    camera: "eye level from the parapet, a few metres off: Lyra lounging on top of the water tank against the dusk sky with a green soju bottle"
+    light: "key: warm bulbs from below; back: violet dusk and the first city lights"
+    art: >
+      A glamour panel: Lyra (lyra) lounges on top of the water tank against the violet dusk sky, leaning back on one hand, one knee
+      up, a green soju bottle dangling from her fingers, her cheeks flushed, the silver braid over her LEFT shoulder catching the
+      bulbs; her full design (2.10). Seen from the parapet at eye level, a few metres away, the whole figure in frame.
+    acting:
+      lyra: "leaning back on one hand, one knee up, the bottle dangling, a lazy flushed smile, eyes half closed"
+    calm: top
+    lines:
+      - {who: lyra, type: speech, text: "THIS DRINK IS TERRIBLE. POUR ME ANOTHER.", side: l}
+
+  - id: P41
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level, two-shot: Jaeha on the parapet looking hard the other way, flustered; Nib beside him, flat"
+    light: "warm bulbs"
+    face: public
+    art: >
+      Two-shot on the parapet: Jaeha (kang_jaeha) looks hard the other way, flustered, blush hatching across his cheeks and a sweat
+      drop; beside him Nib (nib) gives him a flat stare.
+    acting:
+      kang_jaeha: "eyes sliding away, blush hatching, a sweat drop, gripping his paper bowl"
+      nib: "a flat, unimpressed stare at Jaeha, chewing"
+    eyeline: "Jaeha → away; Nib → Jaeha"
+    calm: top
+    lines:
+      - {who: nib, type: whisper, text: "......", side: r}
+    sfx:
+      - {text: "SWEAT", style: quiet, at: [0.30, 0.30], size: S, rot: 0}
+
+  - id: P42
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level, side-on: Lyra dropping down to sit on the parapet beside Jaeha, suddenly serious"
+    light: "warm bulbs; the bridges far behind them"
+    face: private
+    art: >
+      Side-on: Lyra (lyra) has dropped down to sit on the parapet beside Jaeha (kang_jaeha), the bottle forgotten, suddenly
+      serious; the river bridges glow far behind them.
+    acting:
+      lyra: "sitting close, elbows on her knees, the bottle hanging forgotten, looking at him without a smile"
+      kang_jaeha: "turning to her, the fluster gone, listening"
+    eyeline: "Lyra ↔ Jaeha"
+    foreground: "the parapet's edge and a string of bulbs, cropped, top"
+    calm: top
+    lines:
+      - {who: lyra, type: speech, text: "WHEN DO WE LOOK FOR ILAN?", side: l}
+      - {who: kang_jaeha, type: speech, text: "SOON. I PROMISE.", side: r}
+      - {who: lyra, type: speech, text: "YOU HUMANS PROMISE A LOT.", side: l}
+
+  - id: P43
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low two-shot at the other corner of the parapet: Yerin with her paper cup beside Jaeha, both laughing"
+    light: "warm bulbs"
+    face: public
+    art: >
+      Later, at the other corner of the parapet: Yerin (song_yerin) sits beside Jaeha (kang_jaeha) with her paper cup; she says it
+      shyly, and then they both laugh.
+    acting:
+      song_yerin: "both hands round the cup, eyes down, then a shy laugh"
+      kang_jaeha: "laughing, rubbing the back of his neck"
+    eyeline: "Yerin → her cup; Jaeha → Yerin"
+    foreground: "Yerin's paper cup, cropped, bottom left"
+    calm: top
+    lines:
+      - {who: song_yerin, type: speech, text: "I DIDN'T FREEZE THIS TIME.", side: l}
+      - {who: kang_jaeha, type: speech, text: "I KNOW. I WAS ON YOUR BACK.", side: r}
+    sfx:
+      - {text: "pfft", style: quiet, at: [0.50, 0.30], size: S, rot: 0}
+
+  - id: P44
+    recipe: establish
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level, from Jaeha's seat on the parapet: the whole party in the warm light"
+    light: "warm bulbs; dusk turning to night"
+    face: private
+    art: >
+      From Jaeha's seat on the parapet: the whole party in the warm light. Bomi (yoo_bomi) films Lyra doing a terrible dance; Choi
+      (choi_dongmin) and the landlady (landlady) argue over the kimchi; Seoa (kang_seoa) feeds the cat (gomi) a bit of kimbap;
+      Borro (borro) and Nib (nib) sit side by side in the garden. Jaeha's own hand rests on the parapet in the foreground.
+    acting:
+      yoo_bomi: "filming, laughing so hard she bends over"
+      choi_dongmin: "pointing at the kimchi tub, arguing"
+      landlady: "arguing back, arms folded"
+      kang_seoa: "crouched, holding out a bit of kimbap"
+      gomi: "eating from Seoa's fingers"
+      borro: "sitting, a lettuce leaf in his huge fingers"
+      nib: "sitting beside Borro, eating the last of the lettuce"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: inner, text: "Everyone came back. Every single one of them."}
+
+  - id: P45
+    recipe: silent
+    shape: wide
+    gap: long
+    bg: black
+    camera: "high, over the rooftop late at night: the party over, Borro asleep by his garden with the cat on his shell, the bridges far away"
+    light: "a few bulbs still on; the city's night glow; orange bridge lights far away"
+    art: >
+      High over the rooftop late at night: the party is over; paper bowls stacked; a few bulbs still on; Borro (borro) asleep by his
+      garden with the cat (gomi) asleep on his shell; far away across the dark roofs, the line of orange lights of a river bridge.
+    acting:
+      borro: "asleep sitting up, head bowed, a lettuce leaf still in his hand"
+      gomi: "curled on his shell"
+    calm: top
+    silent: true
+
+  # ================= THE PUPPETEER (P46-P50) =================
+  - id: P46
+    recipe: insert
+    shape: strip
+    gap: long
+    bg: black
+    camera: "a thin strip: a silver baton flicking through the air"
+    light: "cool white"
+    art: >
+      A thin strip: a gloved hand flicks a silver conductor's baton through the air, a bright line of light along it. Fill the canvas
+      edge to edge.
+    calm: none
+    silent: true
+    sfx:
+      - {text: "fsst", style: quiet, at: [0.70, 0.40], size: S, rot: 0}
+
+  - id: P47
+    recipe: establish
+    shape: tall
+    gap: short
+    bg: white
+    camera: "eye level from the foot of the gallery stairs, a little distance: Moon Ahin alone in the vast white hall, conducting forty husks"
+    light: "key: cool white ceiling light; the night city through tall windows; reflections in the polished floor"
+    art: >
+      The Kanghan guild hall at night (location kanghan_guild_hall): Moon Ahin (moon_ahin), alone, conducts forty polished white
+      husks in eight perfect rows, all caught in the same step; a glamour panel, the whole figure in frame: the white coat-dress,
+      the slit up her LEFT side opening as she turns, the baton raised in her RIGHT hand, the silver ribbon bow, long black hair
+      swinging; everything reflected in the polished floor. Scale: the hall is 30 m long; the husks are 175 cm tall.
+    acting:
+      moon_ahin: "turning on one heel, baton raised high in her RIGHT hand, LEFT hand open at her side, chin up, eyes cool"
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "KANGHAN GUILD HALL. THE SAME NIGHT."}
+    sfx:
+      - {text: "KLAK KLAK KLAK", style: quiet, at: [0.70, 0.80], size: S, rot: 0}
+
+  - id: P48
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on a tablet propped on a white pillar: an expense ledger"
+    light: "the screen's glow"
+    art: >
+      Close on a tablet propped against the foot of a white pillar beside her folded gloves, screen flat green.
+    calm: left
+    silent: true
+    ui:
+      - kind: phone.info_card
+        "on": screen
+        title: "CORE DIVISION · EXPENSES"
+        text: "HAN RIVER SITE · MAINTENANCE SURVEY · TRAP-TESTERS × 5 · PAID IN CASH · WEEKLY"
+
+  - id: P49
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, close on Moon Ahin holding the tablet, the forty husks frozen mid-step behind her"
+    light: "the tablet's glow on her face; cool white"
+    art: >
+      Close and low on Moon Ahin (moon_ahin), the tablet in her LEFT hand, the baton lowered in her RIGHT; behind her, the forty
+      husks stand frozen mid-step.
+    acting:
+      moon_ahin: "reading the tablet, one eyebrow lifting, the half-smile gone"
+    eyeline: "Moon Ahin → the tablet"
+    foreground: "the frozen hand of a husk, cropped, top right"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: whisper, text: "MAINTENANCE SURVEYS. ON A HAN RIVER GATE WE DON'T HAVE.", side: l}
+
+  - id: P50
+    recipe: silent
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level along the rows: forty husks lowering their arms in perfect unison, Moon Ahin small at the far end looking out of the tall window at the river"
+    light: "cool white; the night city"
+    art: >
+      Along the rows: forty husks lower their arms in perfect unison; at the far end, small against the tall window, Moon Ahin
+      (moon_ahin) looks out over the night city toward the river.
+    acting:
+      moon_ahin: "standing at the window, the tablet held against her chest, looking out"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "klak.", style: quiet, at: [0.30, 0.70], size: S, rot: 0}
+
+  # ================= 2:47 AM (P51-P66) =================
+  - id: P51
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: black
+    camera: "high, from the ceiling corner of the dark rooftop room: everyone asleep, Jaeha at the fold-out table in the laptop's glow"
+    light: "key: the laptop's glow on Jaeha's face; the rest of the room in blue dark"
+    face: private
+    art: >
+      The rooftop room at night, from high in a corner: Seoa (kang_seoa) asleep in her bed; Lyra (lyra) asleep on the floor rolled
+      in a blanket like a burrito, snoring; at the fold-out table, Jaeha (kang_jaeha) sits with Seoa's laptop and earphones, the
+      USB stick plugged in, his face lit by the screen; Nib (nib, no mask) sits awake in the window, watching him.
+    acting:
+      kang_seoa: "asleep on her side, glasses on the shelf"
+      lyra: "asleep rolled in a blanket, mouth open, snoring"
+      kang_jaeha: "hunched at the table, earphones in, both hands flat either side of the laptop, very still"
+      nib: "sitting in the window, knees up, watching Jaeha"
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "2:47 AM."}
+    sfx:
+      - {text: "snrrrk...", style: quiet, at: [0.30, 0.80], size: S, rot: 0}
+
+  - id: P52
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on the laptop: Jaeha's finger on the trackpad, dragging the video on past the point where the phone died"
+    light: "the screen's glow"
+    art: >
+      Close on the laptop's trackpad and the lower edge of the screen: Jaeha's finger drags the video's playhead on, past the
+      point where the phone died on the spillway.
+    calm: right
+    lines:
+      - {who: kang_jaeha, type: inner, text: "Two minutes thirty-one. This is where the phone died."}
+    ui:
+      - {kind: label, at: [0.5, 0.88], text: "02:31 / 02:47", size: 34, color: "#FFFFFF", rot: 0}
+
+  - id: P53
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "the video: Minseok, close and lit from below by the phone's light, after the line everyone heard, softening"
+    light: "the phone's light from below; darkness behind"
+    art: >
+      The video, as a shaky phone image: Oh Minseok (oh_minseok), close and lit from below, the serious face softening back into the
+      crooked grin, as if he can't help himself.
+    acting:
+      oh_minseok: "the serious face cracking into a crooked grin, a little shake of the head"
+    eyeline: "Minseok → the camera"
+    foreground: "the phone's own light flaring at the top edge, cropped"
+    calm: top
+    lines:
+      - {who: oh_minseok, type: phone, text: "...AND EAT SOMETHING, KID. YOU NEVER EAT.", side: r}
+    ui:
+      - {kind: label, at: [0.5, 0.92], text: "02:33 / 02:47", size: 30, color: "#FFFFFF", rot: 0}
+
+  - id: P54
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "the video, closer: Minseok glancing at something behind the phone, then back, quieter"
+    light: "the phone's light; a cold light on one side of his face"
+    art: >
+      The video, closer: Minseok glances at something behind the phone, then back at the lens; a faint cold light falls on one side
+      of his face.
+    acting:
+      oh_minseok: "glancing past the phone, then back, a small nervous laugh, lifting the phone higher"
+    eyeline: "Minseok → behind the camera, then → the camera"
+    foreground: "his orange collar, cropped, bottom"
+    calm: top
+    lines:
+      - {who: oh_minseok, type: phone, text: "OKAY. THIS IS WHERE WE ARE. JUST IN CASE.", side: r}
+    ui:
+      - {kind: label, at: [0.5, 0.92], text: "02:38 / 02:47", size: 30, color: "#FFFFFF", rot: 0}
+
+  - id: P55
+    recipe: insert
+    shape: strip
+    gap: short
+    bg: black
+    camera: "a thin strip: the video's image swinging round in a smear of motion blur"
+    light: "motion blur"
+    art: >
+      A thin strip: the video's image swings round in a smear of motion blur, Minseok's face sliding out of frame and a white-cyan
+      shimmer sliding in. Fill the canvas edge to edge.
+    calm: none
+    silent: true
+    sfx:
+      - {text: "SHHFF", style: quiet, at: [0.70, 0.40], size: S, rot: 0}
+
+  - id: P56
+    recipe: establish
+    shape: tall
+    gap: short
+    bg: black
+    camera: "the video, from inside the gate looking out through its rim: the riverbank under a Han River bridge at night, a concrete pier with a stencilled 7"
+    light: "white-cyan shimmer of the rim; orange sodium lights beyond; black water"
+    art: >
+      The video's last seconds, as a shaky phone image: from inside the gate looking out through the white-cyan shimmer of its
+      rim, the riverbank under a Han River bridge at night: the huge concrete bridge pier with a big faded yellow stencilled 7 on
+      its face; the orange sodium lights on the span's underside, one lamp with a cracked cover; the black river. No fence, no
+      tarps yet, no people. Scale: the pier is 6 m wide; the span is 20 m overhead.
+    calm: top
+    silent: true
+    ui:
+      - {kind: label, at: [0.5, 0.94], text: "02:46 / 02:47", size: 30, color: "#FFFFFF", rot: 0}
+    sfx:
+      - {text: "vmmmmm", style: quiet, at: [0.30, 0.20], size: S, rot: 0}
+
+  - id: P57
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of Jaeha's eyes, the frozen frame of the pier and its orange lights reflected in them"
+    light: "the laptop's glow; two tiny orange lights reflected in each eye"
+    face: private
+    art: >
+      Extreme close-up of Jaeha's eyes (kang_jaeha): wide, unblinking; the frozen frame of the bridge pier and its orange lights
+      reflected small in each one. Fill the canvas edge to edge.
+    acting:
+      kang_jaeha: "eyes wide, unblinking, the pupils shrinking"
+    calm: none
+    silent: true
+
+  - id: P58
+    recipe: link-view
+    shape: wide
+    gap: short
+    bg: black
+    camera: "a remembered view in a thin amber vignette: through a gap in a black tarp, a gate slit glowing in the shadow of a pier with a stencilled 7"
+    light: "orange sodium; cold white-cyan from the slit; a thin amber vignette"
+    art: >
+      A memory of ch 8, in a thin amber vignette, as Nib saw it through a gap in the black tarp (location hanriver_gate): the
+      door-height gate slit glowing white-cyan in the shadow of the same bridge pier, the same faded yellow 7 above it, the same
+      flickering lamp; thick cables plugged into a steel frame round its rim.
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: inner, text: "I've seen that pier. Through Nib's eyes. Four years later."}
+
+  - id: P59
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, two-shot: Jaeha turning in his chair toward the window, whispering; Nib leaning in from the sill"
+    light: "the laptop's glow; blue dark"
+    face: private
+    art: >
+      Two-shot: Jaeha (kang_jaeha) turns in his chair toward the window and whispers so as not to wake the others; Nib (nib) leans
+      in from the sill to look at the screen.
+    acting:
+      kang_jaeha: "turned half round in the chair, one hand on the laptop, whispering"
+      nib: "leaning in off the sill, one hand on the table edge, eyes on the screen"
+    eyeline: "Jaeha → Nib; Nib → the screen"
+    foreground: "the laptop's glowing edge, cropped, left"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: whisper, text: "NIB. THE GATE UNDER THE BRIDGE. THE ONE YOU FOUND WITH THE CAT.", side: l}
+      - {who: nib, type: whisper, text: "PIER SEVEN. WITH THE BROKEN LAMP. THAT'S IT.", side: r}
+
+  - id: P60
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on the laptop: the Association's public gate record"
+    light: "the screen's glow"
+    art: >
+      Close on the laptop screen, flat green; Jaeha's finger on the trackpad.
+    calm: left
+    silent: true
+    ui:
+      - kind: phone.info_card
+        "on": screen
+        title: "GATE RECORD · HAN RIVER"
+        text: "4 YEARS AGO · CONTRACTOR: BLACK HOUND · STATUS: CLOSED · BOSS CLEARED"
+
+  - id: P61
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close two-shot over the laptop: Nib reading the record, Jaeha's face cold in the glow"
+    light: "the screen's glow from below"
+    face: private
+    art: >
+      Close and low over the laptop: Nib (nib) reads the record; Jaeha (kang_jaeha) watches him, his face cold in the glow.
+    acting:
+      nib: "reading, frowning, one finger tracing the screen"
+      kang_jaeha: "chin on his fist, eyes cold and steady"
+    eyeline: "Nib → the screen; Jaeha → Nib"
+    foreground: "the back of the laptop screen, cropped, bottom"
+    calm: top
+    lines:
+      - {who: nib, type: whisper, text: "IT SAYS CLOSED. BOSS CLEARED.", side: r}
+      - {who: kang_jaeha, type: whisper, text: "AND YOU SAW IT OPEN WITH YOUR OWN EYES.", side: l}
+
+  - id: P62
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Nib, his ears going flat as he says the rule out loud"
+    light: "the screen's glow"
+    art: >
+      Close on Nib (nib), his ears going flat as he says the rule every child in this world knows.
+    acting:
+      nib: "ears flattening, eyes going wide, voice dropping"
+    eyeline: "Nib → Jaeha"
+    foreground: "Jaeha's shoulder, cropped, right"
+    calm: right
+    lines:
+      - {who: nib, type: whisper, text: "A GATE ONLY CLOSES WHEN ITS BOSS DIES.", side: l}
+
+  - id: P63
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, close on Jaeha opening his notebook on the table to an old page"
+    light: "the laptop's glow"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha) opening his notebook on the table to the page from ch 14: "MOK. MINSEOK. HAN RIVER." He draws a
+      line through MOK and writes underneath.
+    acting:
+      kang_jaeha: "pencil in his RIGHT hand striking a line through a word, LEFT hand holding the page flat"
+    eyeline: "Jaeha → the notebook"
+    foreground: "the laptop's corner, cropped, top right"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: note, text: "PIER 7. STILL OPEN. SO ITS BOSS IS STILL ALIVE."}
+    sfx:
+      - {text: "SKRITCH", style: quiet, at: [0.70, 0.40], size: S, rot: 0}
+
+  - id: P64
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha closing the notebook, his face set"
+    light: "the laptop's glow"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha) closing the notebook slowly, his face set.
+    acting:
+      kang_jaeha: "closing the notebook with one hand, jaw set, eyes on the window"
+    eyeline: "Jaeha → the window (the river)"
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: inner, text: "Four years. Somebody has been keeping it alive."}
+    sfx:
+      - {text: "TAP", style: quiet, at: [0.30, 0.70], size: S, rot: 0}
+
+  - id: P65
+    recipe: establish
+    shape: full
+    gap: long
+    bg: black
+    camera: "high, from the rooftop parapet at night: the dark roofs of Mangwon falling away to the river and one bridge, a cold glow under one pier"
+    light: "the city's night glow; the bridge's orange lights; one tiny cold white-cyan glow"
+    art: >
+      From the rooftop parapet at night: the dark roofs of Mangwon fall away to the Han River; one bridge crosses it in a line of
+      orange lights; in the shadow of one pier, very small, a cold white-cyan glow. Jaeha (kang_jaeha) stands at the parapet in the
+      bottom corner, small, his back to us, the walking stick in his hand. Scale: the bridge is 2 km away.
+    acting:
+      kang_jaeha: "seen from behind, standing at the parapet, both hands on the stick, head turned to the bridge"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: inner, text: "Your gate is still open, hyung."}
+
+  - id: P66
+    recipe: insert
+    shape: strip
+    gap: short
+    bg: black
+    camera: "a thin strip: far away, the cold glow under the pier pulsing once, like a heartbeat"
+    light: "one white-cyan pulse in the dark"
+    art: >
+      A thin strip: far away in the dark under the bridge, the cold white-cyan glow pulses once, slowly, like a heartbeat. Fill the
+      canvas edge to edge.
+    calm: none
+    silent: true
+    sfx:
+      - {text: "thum...", style: gate, at: [0.60, 0.40], size: S, rot: 0}
+
+  - id: END
+    kind: end
+    chibi_gag: "Chibi Lyra, rolled in her blanket like a burrito, rolls across the floor in her sleep and bowls chibi Nib off the windowsill, while chibi Gomi sits on the laptop keyboard typing 'ffffffffff'."
