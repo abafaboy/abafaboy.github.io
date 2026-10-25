@@ -1,0 +1,161 @@
+{
+  "entry": "L6",
+  "status": "COMPLETE_CANDIDATES_PENDING_CLAUDE",
+  "approval": "PENDING_CLAUDE",
+  "updated_utc": "2026-10-25 23:10:41 UTC",
+  "bible_commit": "4515a815d802a726b48b374ee344808eed635144",
+  "art_base_commit": "cdd966785cc1ada09daba36fe6a17e618b2f9390",
+  "imagegen_calls": 5,
+  "inflight_calls": 0,
+  "checks_run": [
+    "MANHWA_STYLE_GUIDE section 11 place-applicable checks",
+    "11b place-applicable anatomy/material/text/compression checks",
+    "PANEL_BRIEF_v2 section 4b perspective and real-world scale",
+    "native/full-size, 200 px thumbnail and enlarged ink/figure inspection"
+  ],
+  "not_applicable": [
+    "11c dialogue acting, lips, eye locks for named cast: no named cast",
+    "11b.8 flat-grey model-sheet background: these are location keys",
+    "No screens in these scenes; #00FF00 rule not invoked"
+  ],
+  "images": {
+    "sewer_gate/outside.png": {
+      "tries": 1,
+      "selected": 1,
+      "self_check": "candidate_pending_claude",
+      "heads": {},
+      "observations": [
+        "Concrete culvert under a real spanning road at night; no people or text.",
+        "Cold-white streetlamp is visible; gate has black-violet centre and pale cold rim, with source-driven reflections.",
+        "Load-bearing wing walls, apron and guardrail share one coherent ground/perspective system."
+      ],
+      "caveats": [
+        "No person is drawn in exterior per brief; exact 2.1 m slit height should be checked against the culvert dimensions when staging panels."
+      ]
+    },
+    "sewer_gate/key.png": {
+      "tries": 1,
+      "selected": 1,
+      "self_check": "candidate_pending_claude",
+      "heads": {
+        "scale_adult_near": [
+          0.356,
+          0.529,
+          0.367,
+          0.545
+        ],
+        "scale_adult_far": [
+          0.317,
+          0.548,
+          0.326,
+          0.562
+        ]
+      },
+      "observations": [
+        "Brick barrel vault, left and right side tunnels, shallow dark water, moss, roots and mounted white-blue caged lamps are present.",
+        "Exactly two small generic adults at staggered depths; full adult legs, no readable faces or identity; feet contact water/floor.",
+        "Right-hand branch is clear enough to establish the decoy route; no gate, chains, fortress props or floating UI."
+      ],
+      "caveats": [
+        "Camera reads lower than the requested 1.6 m, with the figures seen above the distant floor horizon. Use the image camera consistently; do not copy the requested height as a measured calibration.",
+        "Water hides exact sole/ankle boundaries; the design remains ankle-deep, approximately 10 cm. Tiny figure scale and the 4 m vault deserve Claude’s final perspective check."
+      ]
+    },
+    "survey_gate/outside.png": {
+      "tries": 2,
+      "selected": 2,
+      "self_check": "candidate_pending_claude",
+      "heads": {},
+      "observations": [
+        "Closed underground arcade, shuttered units on both sides, blank signboards, ceiling pipes, alternating lit/unlit fluorescent fixtures.",
+        "Small black-violet pale-rimmed slit between rear shutters; no people or text.",
+        "Second attempt removes broad wet mirror sheen; dust and dry debris sit along shutter feet."
+      ],
+      "caveats": [
+        "Small pale gate-light touch remains on the floor near the slit; it is source light, not a water-filled arcade."
+      ]
+    },
+    "survey_gate/key.png": {
+      "tries": 1,
+      "selected": 1,
+      "self_check": "candidate_pending_claude",
+      "heads": {
+        "scale_adult_near": [
+          0.33,
+          0.498,
+          0.347,
+          0.524
+        ],
+        "scale_adult_far": [
+          0.616,
+          0.472,
+          0.626,
+          0.49
+        ]
+      },
+      "observations": [
+        "Round stone silos, narrow connected stairs/passages, spilled grain and warm amber dusk through slit windows are present.",
+        "Exactly two adult scale figures at different depths on the lower floor; both retain long adult legs and floor contact.",
+        "Silhouette and masonry scale read at 200 px. Stair parapets/supports are attached; no modern tanks, named cast or L12 trap mechanisms."
+      ],
+      "caveats": [
+        "Grain uses enlarged graphic marks for readability; Claude should judge its texture against later closer panels.",
+        "The general key does not define L12’s separate trap chamber, lever, chutes or street exit."
+      ]
+    }
+  },
+  "png_inventory": [
+    {
+      "path": "sewer_gate/key.png",
+      "sha256": "e15625a8388fafa453b098119dc078cbf19ac4a243ce9a43db0a8f5fd6e711b8",
+      "bytes": 2917940,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG"
+    },
+    {
+      "path": "sewer_gate/outside.png",
+      "sha256": "a9478cfe9eeadc06f66d598c162b13531d86e05970f6d8d3c2ea8923042c5aaa",
+      "bytes": 2592966,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG"
+    },
+    {
+      "path": "survey_gate/_rejects/outside_01_wet_mirrored_floor_overrides_dust_design.png",
+      "sha256": "6b4fe6e45c0cccb8041528dba73ec3f7d7461dbabf0fc178fa787d8f3e7147b6",
+      "bytes": 2529865,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG"
+    },
+    {
+      "path": "survey_gate/key.png",
+      "sha256": "9bb0e3cfa141e1acd69dc6311734e5821ca5323cf10351a70988e3f2f47aacf2",
+      "bytes": 2980458,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG"
+    },
+    {
+      "path": "survey_gate/outside.png",
+      "sha256": "be68243791c198095e089fc49fae3a19e1a0c803b59b58f607ea4c7c0cf63443",
+      "bytes": 2548563,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG"
+    }
+  ],
+  "blockers": [],
+  "scope": "inbox/L6/ plus one INBOX.md row; canonical art and ch002-A untouched"
+}
