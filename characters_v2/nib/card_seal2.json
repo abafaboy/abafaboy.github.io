@@ -4,7 +4,7 @@
   "name": "Nib",
   "height_cm": 105,
   "seal": "2/5",
-  "status": "AWAITING CLAUDE REVIEW; NOT APPROVED",
+  "status": "APPROVED by Claude, 26 October 2026, after Claude's cleanup: the two scale silhouettes (drawn at 0.70 and 0.67 of the human height instead of 0.59, and not asked for by the brief) were painted out of front_seal2_nomask.png and turnaround_seal2.png, and one stray light pixel at the picture-left corner of the mouth (a second fang) was removed from front_seal2_nomask.png. The native generator files are in commit fed6a41 (inbox/S2b/). Verdict: codex/reviews/S2b.md on msgf-bible.",
   "palette": {
     "skin": "#7D8A6C",
     "skin_shadow": "#5B6650",
@@ -68,5 +68,7 @@
       "valid_calls": "Exactly five local paths, including approved Nib sheets and one approved acting house-style anchor, on every generated image."
     },
     "scope": "S2b only. No new assets used downstream. Canonical source files preserved."
-  }
+  },
+  "scale_reference": "characters_v2/scale_chart_v2.png (Nib 105 cm); these sheets carry no silhouette, like the base Nib sheets",
+  "locked_trim": "Bronze trim on the hood edge, the armholes and both edges of the front opening down to the hem; the hem itself stays torn and scorched as at seal 1/5"
 }
