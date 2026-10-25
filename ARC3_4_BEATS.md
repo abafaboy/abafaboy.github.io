@@ -144,6 +144,8 @@ Arc beats from the bible: inside, Kanghan keeps a boss chained alive and drains 
 - **Inside:** steel walkways bolted into a Far Side canyon; pipes as thick as trucks running down into the dark.
 - **Hook (arrival):** a column of forty flawless white husks marching in perfect step down the walkway, and the woman in white conducting them: Moon Ahin.
 
+- **As written (script):** Tuesday night LINK recon (the guard's torch, the pigeon on Nib's head); Bomi finds the job post; Wednesday's plan in the notebook (girders, riverbed, swim, front door); the pinky promise for Friday at seven; Thursday 10:50 PM the crew at the van, Pyo's name card; the window [GATE: UNREGISTERED · OPEN FOR 4 YEARS, 71 DAYS · BOSS STATUS: ALIVE]; Jaeha reads the trap stones (the spiral opens left on a live one) and saves Pyo's knee; at the first landing the foreman learns the heir has an inspection order; Moon Ahin arrives, picks number 4 to walk in front of her, and he answers with his brave-husk line.
+
 ### 24. The Puppeteer
 - **Moon Ahin's intro** (glamour beat, tall full-figure panel; Jaeha flustered, Nib "......"): she has come in alone to find out why her family's guild pays trap-testers to walk into an unregistered gate.
 - **Name card:** MOON AHIN (22) · A-RANK SUMMONER · "THE PUPPETEER" · HEIR OF KANGHAN'S GUILD.
@@ -152,12 +154,16 @@ Arc beats from the bible: inside, Kanghan keeps a boss chained alive and drains 
 - **Smart move:** Jaeha reads the canyon's old trap stones and steers her formation around a fall-plate. She hates that he was right.
 - **Hook (mystery):** at the bottom of the canyon, a sound like a heartbeat as big as a building.
 
+- **As written (script):** she does not laugh; name card and glamour on the landing; she despises the numbers; wyverns; three husks lost to a fall-plate she ignored him about; Nib saves Ho in field form, so she knows: "Husks don't move like that," and she flips off his respirator; she covers for him with the foreman ("MINE. I'M TAKING NUMBER FOUR AS MY GUIDE"); the carved coral giant ("Tide-wall markings"); she forces the grille to level four; the heartbeat.
+
 ### 25. Same Kind
 - **The truce:** a collapsed walkway forces the two teams together. Forced cooperation: Nib and her lead husk scout side by side, neither speaking.
 - **Character:** she asks why he still calls his summons husks in public. He asks why her husks have numbers instead of names.
 - **Fight:** a pack of ash hounds in a pipe gallery. Her husks hold the line; his summons strike; the first combo between rivals.
 - **Laugh:** Lyra critiques Moon Ahin's outfit; Moon Ahin critiques Lyra's aim.
 - **Hook (reveal, half):** the pipes end at a wall of glass. Behind it, something enormous breathes.
+
+- **As written (script):** the walkway behind them falls and strands the foreman's side; the truce (she walks past his offered hand); Borro and Lyra surface from the river; Nib and No. 1 scout side by side; "Uncle Taegun taught me that. You don't name what you lose." / "I name everything I don't want to lose."; the pack at the pipe junction (Ho's sneeze wakes it); her husks pin the alpha while Borrowed Thunder goes through it; No. 17 shatters; she understands CARRY; the glass wall, and her grandfather's crescent seal on its brass plate (hook: personal).
 
 ### 26. Core Farm
 - **The reveal:** a hushed giant, a fallen Far Side hero (decision: the Tide Warden, a sea-giant in coral armour), chained alive in a pit of machinery, pipes driven into its body, draining smoky violet light into rows of tanks. Kanghan engineers work around it like dairy farmers.
@@ -167,12 +173,16 @@ Arc beats from the bible: inside, Kanghan keeps a boss chained alive and drains 
 - **Plant:** the chains are the same factory steel, with the same stamped mark, as on the knight in chapter 1.
 - **Hook (threat):** an engineer looks up from a monitor: "Unregistered summon signatures on level four." Alarms.
 
+- **As written (script):** the older side passage leads to the iron door of the ch 14 flashback, propped open; inside it, Minseok scratched EVERYONE COMES BACK and a thumbs-up, and his rusted lamp lies at its foot; the pit; the system log reads like an inventory; Jaeha's ch 4 chain link matches the Warden's chains, so Gate 0912's knight was Kanghan's too, and Nib learns who chained his commander; the Warden can feel the summons, his vitals spike, and the monitors find three unregistered summons on the old balcony.
+
 ### 27. Alarm
 - **Escape begins:** Kanghan security in black tactical gear; the facility's shutters slam.
 - **Han Sora returns**, now in Kanghan colours, with her crossbow and a squad.
 - **Fight:** a running battle along the drain pipes; Lyra and Sora trade shots across the pit (two archers, two styles).
 - **Smart move:** Jaeha uses the facility's own safety protocol (flooding a section to stop a fire) to cut off the squad.
 - **Hook (choice):** the Tide Warden's eye opens, and through the drain pipes, it speaks to the summons in their own language.
+
+- **As written (script):** Moon Ahin's husks plug the passage for ninety seconds; Sora, in Kanghan colours, tells the heir that Director Baek says she is asleep at home, so she is trespassing; Lyra and Sora trade shots; Jaeha carries two and switches CARRY to Nib when a stun bolt hits him; Lyra's arrow sets a core rack on fire and the fire protocol floods section 4-C on the squad; Moon Ahin calls her husks back for the first time (30 left); the Warden's eye opens and he speaks to the summons through the water: "End me, or free me."
 
 ### 28. Not Equipment
 - **The choice:** the Warden begs for death or freedom. Freeing it would close the gate (with everyone inside); killing it would do the same.
@@ -181,12 +191,16 @@ Arc beats from the bible: inside, Kanghan keeps a boss chained alive and drains 
 - **Borro's anger:** he hates the word "equipment", and here a hero is being used as one. He tears a pipe out with his bare hands.
 - **Hook (threat):** the facility triggers a lockdown: [GATE RIM SEALING · 12:00].
 
+- **As written (script):** HARVEST would pay ₩40,000,000,000 and close the gate on everyone; Jaeha swipes it away; "the last one who swore that to me wore orange": Minseok lived three days in the pit and talked to the Warden; Moon Ahin films herself ("My name is Moon Ahin..."), then the tanks, the chains and the pipes, and the four crew pull off their respirators to be in it; the speakers call the Warden "the equipment" and Borro tears a drain pipe out of his arm; the duty chief seals the rim: [GATE RIM SEALING · 12:00]; up the drain tunnels.
+
 ### 29. Sandbags
 - **The tunnels:** the way out runs through the drain tunnels, which start to collapse.
 - **Borro holds the roof** like he once held a bridge, with the crew of desperate trap-testers running under him.
 - **CARRY for three:** Jaeha takes the weight with him. Nosebleed. His vision greys at the edges. [CARRY LOAD: 180% · WARNING: OVERLOAD]
 - **Laugh:** a trap-tester asks if this is normal. "Usually there's less... no, actually, this is normal."
 - **Hook (countdown):** [GATE RIM SEALING · 06:00], and the last tunnel is blocked by Sora's squad.
+
+- **As written (script):** Borro holds a falling slab with 00:50 of field form left; Jaeha reads the keystones and sets Nib and Lyra at two of them; [CARRY ×3 · LIMIT: 2] → [CARRY LOAD: 180% · WARNING: OVERLOAD], grey closing in at the edges; Moon Ahin's husks share the weight; Borro is pinned when his field form ends, and the crew ("Kanghan hired us as sandbags. Fine. Sandbags can push") lever the slab off him with the husks; the "is this normal?" laugh; Moon Ahin gives him her hand; the water knows the way out; the shaft, Sora on her barricade: [GATE RIM SEALING · 06:00].
 
 ### 30. The Rim
 - **The final stretch:** a gap across the canyon to the gate's rim, with the walkway gone.
@@ -195,12 +209,16 @@ Arc beats from the bible: inside, Kanghan keeps a boss chained alive and drains 
 - **Moon Ahin, quietly:** "Why are you carrying my husks?" "Because they're carrying us."
 - **Hook (threat):** Sora steps onto the far end of the bridge and aims at Jaeha's heart.
 
+- **As written (script):** Pyo knows the sludge mouth halfway up the shaft; the charge up behind Borro's shield; across a 40 m gap, the rim ledge and Kanghan's closing iris; "You can say no. They're yours."; she lays a hand on No. 1 and conducts the bridge; one husk falls; [LINK: 29 HUSKS · SUMMONER: MOON AHIN] and [CARRY ×29 · LOAD: 240% · CRITICAL]; "Because they're carrying us."; Nib clears the ledge; she conducts while walking him across; Sora steps onto No. 1's back at the far end: [GATE RIM SEALING · 01:58].
+
 ### 31. Two Pulses
 - **Duel:** Sora against Jaeha's team on the collapsing husk bridge. She is the best shot in Seoul, and she is fast.
 - **Smart move:** Jaeha reads her compass: it points at summons in field form, so he drops Nib into rest form at the right moment, the needle swings to Lyra, and Sora's shot goes where the needle points.
 - **Borrowed Thunder II:** Borro blocks Sora's last bolt, the force PASSes to Lyra, and Lyra shoots the compass out of Sora's hand, not Sora.
 - **Sora falls back** into the dark, laughing. "Director Baek is going to love you."
 - **Hook (cost):** they reach the rim with seconds left. Jaeha tries to text Seoa "on my way", and his hands are shaking too hard to hold the phone.
+
+- **As written (script):** Sora shoots the two pulses behind her without looking; Jaeha drops Nib to rest form mid-leap, the needle swings to Borro and Lyra, her heavy violet bolt hits Borro's shield, PASS sends it to Lyra, Moon Ahin's No. 1 grabs Sora's ankle, and Borrowed Thunder II shatters the compass off her wrist; "Director Baek is going to love you"; Borro holds the iris plates apart ("I hold doors"); [GATE RIM SEALED · 00:00]; outside in the mud, Moon Ahin faces down the guards; Jaeha types "o" to Seoa and drops the phone: his hands won't stop shaking.
 
 ### 32. Buried
 - **Outside:** dawn under the bridge; the gate rim seals behind them. Everyone came back.
@@ -209,6 +227,8 @@ Arc beats from the bible: inside, Kanghan keeps a boss chained alive and drains 
 - **Moon Ahin confronts her uncle.** Baek, gently: "Do you want the hospitals dark, Ahin?" She leaves his office without answering. (Baek and Ahin; not yet a break.)
 - **Hook (threat):** Baek, alone, to Sora on the phone: "Don't touch the Operator. Make him come to us."
 
+- **As written (script):** Choi's van smashes the fence ("an unregistered gate, so by law it's mine"); Seoa on the phone, dinner at seven; Pyo: the first time he came out of a gate as a person; Choi copies the video before handing it over; dawn on the bank; Moon Ahin names No. 1 Saebyeok; Inspector Ryu has to hand the evidence to Deputy Director Hwang, who calls it inconclusive and the crew unreliable; Jaeha spots the hexagon under Hwang's lapel and holds Bomi back from posting it; Baek, gently, to his niece: "Do you want the hospitals dark, Ahin?", and she leaves with "His name is Saebyeok"; the rusted lamp goes on the niche's ledge; Sora reports his hands are breaking; "Make him come to us."
+
 ### 33. Garbage (ARC 4 FINALE)
 - **Cold open:** a family dinner on the rooftop, everyone there, finally. Jaeha lifts his chopsticks, and his hand won't close.
 - **The break:** his body gives out from months of CARRY: he collapses. Hospital. [OPERATOR BODY: CRITICAL · CARRY CAPACITY EXCEEDED 14 TIMES]
@@ -216,6 +236,8 @@ Arc beats from the bible: inside, Kanghan keeps a boss chained alive and drains 
 - **Auntie Geum Okran** (name card: GEUM OKRAN (62) · RETIRED S-RANK · "THE WALL OF BUSAN"), apron over a tracksuit, one prosthetic arm, a ladle. She pokes his chest with the ladle and reads him like a menu.
 - **The line:** "Your head is S-rank. Your body is garbage."
 - **Hook (power, season end):** she hands him a takeaway cup of tteokbokki and a training schedule: "One more set. Then just one more." [NEW QUEST: THE WALL OF BUSAN] Somewhere in the ocean, a sea gate's seal begins to fail.
+
+- **As written (script):** the Friday dinner on the rooftop at exactly seven, with the crew, Dami's daughter and Moon Ahin ("I was passing"); the toast to everyone who came back; the chopsticks; [OPERATOR BODY: CRITICAL · CARRY CAPACITY EXCEEDED 14 TIMES · BODY RATING: F]; Jaeha reads it like a contract: capacity is a number, and numbers go up; the doctors find nothing; Choi drives him south to Busan; Auntie Geum at her harbour stall, name card, the ladle-tap diagnosis and the line; she saw a man carry like that ten years ago, the night the gates opened (Operator #1); set one is holding the cup; [NEW QUEST: THE WALL OF BUSAN · REWARD: ???]; her steel arm twitches; the Busan sea gate's sealed lid cracks, and a faint violet stain spreads on the horizon.
 
 ## Designs and places Arcs 3–4 need (sheets before the chapters)
 - **Characters:** Han Sora (from the hunter 5 design; a full sheet), Inspector Ryu, Kanghan engineers, Oh Minseok (flashback), Auntie Geum Okran (2.9), Nib's scout-captain armour (seal 3/5), Lyra (exists), Moon Ahin (exists).
