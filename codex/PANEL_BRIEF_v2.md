@@ -165,6 +165,55 @@ The whole chapter happens in the boss room (`locations_v2/boss_room/`), seconds 
 | `H` | P51–P56 | P54: the knight's roar. |
 | `I` | P57–P60 and `END.png` | P57 is the sigil close-up through Nib's eyes. END: chibi gag on plain white. |
 
+### Chapter 3: The Ninth Wall (`scripts_v2/ch003.yaml`)
+
+**Chapter 3 rules:**
+- **The flashback (P01–P08) is drawn in greys,** a memory: desaturated blue-grey and stone, with ONE warm colour, Kett's mustard scarf. Hush-spawn are black shapes leaking violet ash. In the flashback Nib has no mask and wears the Ninth Wall's colours (rendered in grey); use `nib/front_seal2_nomask.png`. Kett: `kett/front.png` (about 95 cm). The commander is the knight BEFORE he was hushed: intact armour, the sigil, a whole cloak, a CLOSED great helm with a visor slit and NO face-hole; his face is never shown. Location: `locations_v2/ninth_wall/key.png`.
+- **Present day (P10–P63):** the boss room as in chapter 2. Nib in rest form from P14 to P47 (dull eyes, no glow, no outline); field form and LINKED from P49; his seal 2/5 look from P51 (`nib/turnaround_seal2.png`). The husk mask stays on in the present day.
+- **The trap (P20–P47):** the side archway is about 7 m high, with a rusted iron portcullis hanging in its groove; the two pillars flanking it have rows of spike holes; the square pressure plates lie in front of it. The knight (4.5 m) fits under the arch kneeling.
+- **Scale and perspective (section 4b)** are checked on every panel, the wide shots above all: P01, P16, P19, P22, P27, P30, P45, P47.
+
+| Part | Panels to draw | Notes |
+|---|---|---|
+| `A` | P01–P08 | The grey flashback. No art for P09 (`caption`). |
+| `B` | P10–P17 | P10 is back in colour. |
+| `C` | P19–P26 | No art for P18 (`title`). P22 is the overhead `plan` view of the trap. |
+| `D` | P27–P34 | The trap springs. |
+| `E` | P35–P41 | |
+| `F` | P42–P48 | |
+| `G` | P49–P55 | P53 is the seal 2/5 splash: make it count. |
+| `H` | P56–P63 and `END.png` | |
+
+### Chapter 4: Harvest or Release (`scripts_v2/ch004.yaml`)
+
+**Chapter 4 rules:** Nib has his seal 2/5 look (`nib/turnaround_seal2.png`) with the husk mask, field form and LINKED until P51, rest form (and wrapped in a gold foil blanket) from P52. The knight's face-hole holds a real face for ONE panel (P28): an old soldier's, scarred and grey-bearded (`knight_commander/` for the armour). The gate exit uses `locations_v2/gate_exit/key.png` and Choi Dongmin's sheets. The billboard (P56) is flat #00FF00; P57 shows the broadcast itself, Mok at a podium in a black suit, with the bottom quarter plain for the news graphic.
+
+| Part | Panels to draw | Notes |
+|---|---|---|
+| `A` | P01–P08 | |
+| `B` | P09–P14 | No art for P15 (`title`). P13 is the kill splash. |
+| `C` | P16–P23 | P18 is a desaturated memory inset. |
+| `D` | P24–P31 | P27–P31: the release; P28 is the one real face. |
+| `E` | P32–P38 | P38 is chibi. |
+| `F` | P39–P45 | Window panels: leave the window areas as the dark hall. |
+| `G` | P46–P52 | P49 is the dive-out splash. |
+| `H` | P53–P60 and `END.png` | |
+
+### Chapter 5: A Few Words at My Memorial (`scripts_v2/ch005.yaml`)
+
+**Chapter 5 rules:** Jaeha is bandaged (forehead bandage, gauze on his right cheekbone, left hand wrapped). Nib has his seal 2/5 look with the mask, rest form all chapter, and stands like a doll in public. Mok wears a black suit and tie at the memorial. P03 is Bomi's glamour intro: her full design, a beautiful face, a confident full-figure pose, never a low angle up her shorts (fan-service rules at the top of `CHARACTER_DESIGNS_v2.md`). Seoa (15) is never drawn with any fan service. Baek is seen only from behind, in silhouette, or as a reflection; his face is never shown. Locations: `memorial_hall`, `rooftop_room` (key_day, key_night, interior), `kanghan_monitor`.
+
+| Part | Panels to draw | Notes |
+|---|---|---|
+| `A` | P01–P07 | P03: Bomi's glamour intro. |
+| `B` | P08–P14 | No art for P15 (`title`). |
+| `C` | P16–P23 | |
+| `D` | P24–P31 | |
+| `E` | P32–P39 | P33 is Seoa's name card. |
+| `F` | P40–P47 | P44 is chibi. |
+| `G` | P48–P53 | |
+| `H` | P54–P59 and `END.png` | Kanghan: Baek from behind only. |
+
 ### Chapter 1 parts (done)
 
 | Part | Panels to draw | Notes |
