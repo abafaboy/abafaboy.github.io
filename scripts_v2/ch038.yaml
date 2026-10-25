@@ -1,0 +1,1211 @@
+chapter: 38
+title: Store
+format: SCRIPT_FORMAT_v2.md
+when: "Friday, Busan: 4:00 AM, 8:00 AM, noon and 4:00 PM on the breakwater (Borro's field form comes back every four hours); 1:30 PM on an old fishing boat near Kanghan's barge; 6:40 to 6:59 PM at Geum's stall."
+story_beats: ARC5_BEATS.md#38-store-hook-countdown
+cast:
+  kang_jaeha: training       # the tracksuit; bandage on the LEFT forearm; RIGHT index finger splinted from P17
+  geum_okran: default
+  borro: default             # field form at 4:00, 8:00, 12:00 and 16:00
+  lyra: default              # her own outfit; look `swimsuit` for the dive (P28-P41)
+  nib: mask
+  pim: default               # the headset; field form on the boat (P33-P39)
+  fishermen: default         # the old fisherman Jaeha saved on Tuesday night (ch 34-35)
+  han_sora: kanghan          # on the barge's rail
+  kanghan_tactical: default
+  kanghan_engineer: default  # at the drill console (P55)
+  moon_ahin: summer
+  ahin_husks: default        # Saebyeok with the parasol
+  baek_taegun: default       # his voice on the phone only
+  kang_seoa: default         # school uniform; NEVER any fan service
+  deep_lantern: default      # never shown whole (4c.5)
+locations: [busan_breakwater, fishing_boat, kanghan_barge, geum_stall]
+continuity:
+  - "Jaeha: look `training`: the purple tracksuit, a towel round his neck, a clean bandage on his LEFT forearm; notebook in the LEFT chest pocket, pencil behind the RIGHT ear, fringe over the LEFT eye. From P17 his RIGHT index finger is splinted with a chopstick and white tape. When he holds force (STORE), his RIGHT arm and then his chest glow faintly white-gold, and his bones creak."
+  - "Borro: field form (moss-green glow) only in the four training sessions: P03-P06 and P14-P16 (4:00 AM), P21-P24 (8:00 AM), P25 (noon), P45 (4:00 PM); rest form otherwise. The white husk face in public (the stall, the harbour), not on the empty breakwater before dawn."
+  - "Lyra: her own outfit (2.10), except the dive, P28-P41: look `swimsuit` (2.20: the river-blue halter bikini with silver trim, the sheer wrap at her LEFT hip, the pearl choker, silver arm cuffs, the braid over her LEFT shoulder). Field form for the dive, P31-P39 (river-blue glow and outline). Fan service (adult); the camera never below her waist level."
+  - "Pim: the black gaming headset; field form on the boat, P33-P39 (wings open, eye-spots and antennae glowing lilac, the headset round his neck)."
+  - "Geum: the checked apron, the purple tracksuit, the floral headscarf, pink slippers, the steel LEFT arm, the ladle in her RIGHT hand. When she holds force, the ladle's bowl hums and glows faintly white and her steel arm's plates vibrate; when she lets it out, a ring of white force bursts from it."
+  - "The old fisherman (fishermen): in his sixties, weathered, grey stubble, a navy knit cap, orange waterproofs and rubber boots; his small blue-and-white wooden fishing boat (new location fishing_boat, 5d) has a little wheelhouse, tyres hung along its sides and a smoky diesel engine."
+  - "Han Sora (P30, P39-P40) on the barge's rail: look `kanghan`: the charcoal Kanghan jacket over a black top, the black bob, red lips, the bandaged RIGHT wrist, the slim silver compass on her LEFT wrist; binoculars."
+  - "The lid (LINK view, P34-P37): 30 m down on the seabed, a disc 300 m across of huge carved grey stone slabs with rusted steel plates bolted over them, crusted with weed; Kanghan's black anchor bolts newly drilled into it, chains rising from them; a crack spreading out from the drill holes, violet light seeping through. Below it, never shown whole: a violet glow like a lantern and a curve of vast dark hide (deep_lantern)."
+  - "Moon Ahin (P42-P44, P53): look `summer`; Saebyeok holds the white parasol."
+  - "Kang Seoa (15), from P47: her school uniform (2.6: navy blazer, white shirt, dark red tie, grey plaid skirt to the top of the knee, navy socks), round glasses, a school backpack with the calculator keychain. A child: never any fan service. The camera stays at her eye level or above, never below."
+plants:
+  - "PLANT P12-P13: PASS clause three, force in transit may be held by the Operator (STORE; RELEASE in ch 40)."
+  - "PLANT P37: the violet light lures (ch 39: people walk toward the water; Pim's signal breaks it)."
+  - "PLANT P34: Kanghan's anchor bolts in the lid (ch 39: the chains; Nib cuts them)."
+hook_type: countdown
+
+panels:
+
+  # ================= A WALL HOLDS (P01–P11) =================
+  - id: P01
+    recipe: establish
+    shape: wide
+    gap: none
+    bg: black
+    camera: "high from the lighthouse in the dark before dawn: the end of the breakwater, the group small under a bare work light"
+    light: "a work lamp clipped to the lighthouse rail; black sea"
+    art: >
+      Friday before dawn, from high on the lighthouse (location busan_breakwater): at the end of the breakwater, under a work lamp clipped
+      to the rail, stand Geum (geum_okran), Jaeha (kang_jaeha, training), Borro (borro), Lyra (lyra), Nib (nib, mask) and Pim (pim,
+      headset), small; far out, the barge's floodlights burn on the black sea. Scale: the walkway is 6 m wide.
+    acting:
+      geum_okran: "small, the ladle on her shoulder, facing Borro"
+      kang_jaeha: "small, rubbing his hands against the cold"
+      borro: "small, the shield on his arm"
+      lyra: "small, wrapped in a towel, yawning"
+      nib: "small, crouched on the parapet"
+      pim: "small, beside Nib, headset on"
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "FRIDAY, 4:00 AM."}
+    sfx:
+      - {text: "shhhh...", style: quiet, at: [0.50, 0.86], size: S, rot: 0}
+
+  - id: P02
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level two-shot: Geum pointing the ladle at Jaeha, Jaeha incredulous"
+    light: "the work lamp"
+    face: public
+    art: >
+      Eye-level two-shot under the work lamp: Geum (geum_okran) points the ladle at Jaeha's chest; Jaeha (kang_jaeha, training) stares at
+      her, incredulous, breath fogging.
+    acting:
+      geum_okran: "pointing the ladle at his chest, feet planted, deadly serious"
+      kang_jaeha: "hands spread, incredulous, breath fogging"
+    eyeline: "Geum → Jaeha; Jaeha → Geum"
+    foreground: "the work lamp's cable, cropped, top"
+    calm: top
+    lines:
+      - {who: geum_okran, type: speech, text: "TODAY YOU STOP CARRYING.", side: l}
+      - {who: kang_jaeha, type: speech, text: "THE LID BREAKS IN TWO DAYS, AND YOU WANT ME TO STOP?", side: r}
+      - {who: geum_okran, type: speech, text: "I WANT YOU TO LEARN TO HOLD.", side: l}
+
+  - id: P03
+    recipe: summon-arrival
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, side-on: Borro flaring into field form, moss-green light, facing Geum across the walkway"
+    light: "moss-green glow; the work lamp"
+    art: >
+      Low and side-on: Borro (borro, field form) flares into field form, his eyes glowing moss green and a moss-green outline flickering
+      along him, the door-sized iron shield raised; across the walkway Geum (geum_okran) holds the ladle out in front of her like a
+      shield of her own. Scale: Borro is 2.4 m; Geum reaches his chest.
+    acting:
+      borro: "shield raised, feet set, looking down at her uncertainly"
+      geum_okran: "holding the ladle out by its handle, bowl forward, beckoning with her steel fingers"
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.88], text: "[FIELD FORM · BORRO 06:00]"}
+    lines:
+      - {who: geum_okran, type: speech, text: "BORRO. HIT ME. ALL OF IT.", side: r}
+      - {who: borro, type: speech, text: "...ALL OF IT?", side: l}
+    sfx:
+      - {text: "FWOOM", style: summon, at: [0.30, 0.30], size: M, rot: 0}
+
+  - id: P04
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low and tilted: Borro's shield slamming into the bowl of Geum's ladle, the walkway cracking under her slippers"
+    light: "a white flash at the impact"
+    art: >
+      Low and tilted: Borro (borro, field form) slams his iron shield into the bowl of Geum's ladle (geum_okran) with everything he has;
+      she takes it on the bowl without moving; the concrete cracks in a star under her pink slippers and spray leaps off the tetrapods.
+    acting:
+      borro: "driving the shield forward with his whole weight, teeth gritted"
+      geum_okran: "taking it on the ladle's bowl, knees bent a little, unmoved, eyes calm"
+    calm: top
+    sfx:
+      - {text: "KRAAAANG", style: impact, at: [0.50, 0.30], size: XL, rot: -6}
+
+  - id: P05
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on the ladle's bowl humming and glowing faintly white, the plates of her steel arm trembling"
+    light: "a faint white glow from the ladle"
+    art: >
+      Close on the bowl of the ladle humming and glowing faintly white, the force held in it; behind it the plates of Geum's steel arm
+      tremble and creak.
+    calm: left
+    silent: true
+    sfx:
+      - {text: "hmmmmmmm", style: quiet, at: [0.70, 0.40], size: S, rot: 0}
+
+  - id: P06
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, side-on: Geum turning and tapping a concrete tetrapod with the ladle, the tetrapod splitting in two"
+    light: "a ring of white force"
+    art: >
+      Side-on at eye level: Geum (geum_okran) turns and taps a car-sized concrete tetrapod with the ladle, almost gently; a ring of white
+      force bursts off the bowl and the tetrapod splits clean in two, the halves toppling into the sea.
+    acting:
+      geum_okran: "tapping the tetrapod with the ladle, one-handed, bored"
+    calm: top
+    sfx:
+      - {text: "KRAKOOOM", style: impact, at: [0.60, 0.30], size: XL, rot: 6}
+
+  - id: P07
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close group reaction: Pim, Lyra and Nib staring, Pim's antennae straight up"
+    light: "the work lamp"
+    art: >
+      Close on the onlookers: Pim (pim) with his antennae shot straight up through the headset band, Lyra (lyra) with her towel slipping,
+      Nib (nib, mask) with his ears flat back.
+    acting:
+      pim: "antennae rigid, both hands on his cheeks, eyes enormous"
+      lyra: "mouth open, the towel slipping off one shoulder"
+      nib: "ears flat, eyes wide behind the mask"
+    calm: right
+    lines:
+      - {who: pim, type: shout, text: "SHE BROKE A ROCK WITH A SPOON!", side: l}
+
+  - id: P08
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from beside the split tetrapod: Geum resting the ladle on her shoulder, Jaeha stepping closer"
+    light: "the work lamp; spray settling"
+    art: >
+      From low beside the split tetrapod: Geum (geum_okran) rests the ladle back on her shoulder; Jaeha (kang_jaeha, training) steps
+      closer, staring at the clean halves.
+    acting:
+      geum_okran: "ladle on her shoulder, looking at him, plain"
+      kang_jaeha: "stepping closer, staring at the tetrapod, then at her"
+    eyeline: "Geum → Jaeha; Jaeha → the tetrapod"
+    foreground: "the split edge of the tetrapod, cropped, left"
+    calm: top
+    lines:
+      - {who: geum_okran, type: speech, text: "A WALL DOESN'T PUSH BACK. IT HOLDS.", side: r}
+      - {who: geum_okran, type: speech, text: "THEN IT GIVES IT BACK.", side: r}
+
+  - id: P09
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Geum tapping her steel arm with the ladle"
+    light: "the work lamp"
+    art: >
+      Close on Geum (geum_okran) tapping the painted waves on her steel forearm with the ladle's handle; the arm twitches.
+    acting:
+      geum_okran: "tapping her steel forearm, a crooked half-smile"
+    eyeline: "Geum → her arm"
+    foreground: "Jaeha's shoulder, cropped, left"
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: speech, text: "THAT'S YOUR S-RANK SKILL. YOU HOLD THE HIT.", side: l}
+      - {who: geum_okran, type: speech, text: "WAS. THIS ARM STILL REMEMBERS IT.", side: l}
+    sfx:
+      - {text: "tok", style: quiet, at: [0.70, 0.40], size: S, rot: 0}
+
+  - id: P10
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of Jaeha's eyes, the white ring of force reflected in them"
+    light: "white reflection"
+    face: private
+    art: >
+      Extreme close-up of Jaeha's eyes (kang_jaeha), narrowing, a fading ring of white light reflected in them. Fill the canvas edge to
+      edge.
+    acting:
+      kang_jaeha: "eyes narrowing, intent"
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: inner, text: "SHE DIDN'T PASS IT ON. SHE KEPT IT. THEN SHE CHOSE WHERE IT WENT."}
+
+  - id: P11
+    kind: title
+    shape: full
+    gap: long
+    bg: black
+    title_card: "MY SUMMONS GO FIRST · CHAPTER 38 · STORE"
+    notes: "Title card at panel 11 of 61 (18%)."
+
+  # ================= CLAUSE THREE (P12–P27) =================
+  - id: P12
+    recipe: system
+    shape: wide
+    gap: long
+    bg: navy
+    camera: "eye level: Jaeha dragging a long window up like a contract, reading fast"
+    light: "cyan"
+    face: private
+    art: >
+      Jaeha (kang_jaeha, training) drags a long window upward in the air like a phone screen, as he did with the Call's terms, and
+      reads it fast; the upper two thirds are empty for the window.
+    acting:
+      kang_jaeha: "one finger dragging the window up, eyes racing down the lines"
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.log, "on": float, at: [0.5, 0.04], headline: "[PASS I · TERMS]", lines: ["1. FORCE MOVES BETWEEN LINKED BODIES.", "2. EACH HAND-OFF LOSES SOME FORCE.", "3. FORCE IN TRANSIT MAY BE HELD BY THE OPERATOR.", "4. RISK: BONE DAMAGE."]}
+
+  - id: P13
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Jaeha, a slow cold smile"
+    light: "cyan"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha) with a slow, cold smile, the window's light on his face.
+    acting:
+      kang_jaeha: "a slow cold smile, tapping the window with one finger"
+    eyeline: "Jaeha → the window"
+    foreground: "the window's glowing edge, cropped, right"
+    calm: right
+    lines:
+      - {who: kang_jaeha, type: speech, text: "CLAUSE THREE. NOBODY EVER READS CLAUSE THREE.", side: l}
+
+  - id: P14
+    recipe: carry
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low and side-on: Geum striking Borro's shield, a thread of force running from the shield into Jaeha's chest"
+    light: "moss green; a white-gold thread"
+    art: >
+      Low and side-on: Geum (geum_okran) strikes Borro's raised shield (borro, field form) with the ladle; a thin thread of white-gold
+      force runs from the shield along the moss-green LINK line into Jaeha's chest (kang_jaeha, training), who braces with his RIGHT
+      hand clenched.
+    acting:
+      geum_okran: "striking the shield with a short swing"
+      borro: "taking it on the shield, braced"
+      kang_jaeha: "braced, RIGHT fist clenched, teeth gritted, eyes shut"
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.88], text: "[PASS → OPERATOR · HOLDING...]"}
+    sfx:
+      - {text: "KANG", style: impact, at: [0.30, 0.30], size: M, rot: -6}
+
+  - id: P15
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close: the force bursting out of Jaeha's right hand into the walkway, the concrete cracking, his finger bending wrong"
+    light: "a white flash"
+    art: >
+      Low and close: the held force bursts out of Jaeha's RIGHT hand (kang_jaeha, training) into the walkway, cracking the concrete in a
+      star; his RIGHT index finger bends the wrong way; a nosebleed starts. No gore.
+    acting:
+      kang_jaeha: "thrown to one knee, the RIGHT hand slapped against the concrete, face twisted, nose bleeding"
+    calm: top
+    sfx:
+      - {text: "KRAKK", style: impact, at: [0.40, 0.70], size: L, rot: 8}
+
+  - id: P16
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: Jaeha on his knees clutching his hand, Nib stepping in, Geum looking down at him"
+    light: "the work lamp"
+    art: >
+      Eye level: Jaeha (kang_jaeha, training) kneels on the cracked walkway clutching his RIGHT hand, blood on his lip; Nib (nib, mask)
+      steps in beside him; Geum (geum_okran) looks down at him and checks her watch.
+    acting:
+      kang_jaeha: "kneeling, cradling the RIGHT hand against his chest, breathing hard"
+      nib: "stepping in close, one hand on Jaeha's back"
+      geum_okran: "looking down at him, then at the watch on her steel wrist"
+    eyeline: "Geum → her watch; Nib → Jaeha"
+    foreground: "the cracked concrete, cropped, bottom"
+    calm: top
+    lines:
+      - {who: geum_okran, type: speech, text: "AGAIN IN FOUR HOURS. THAT'S YOUR COOLDOWN, ISN'T IT?", side: r}
+
+  - id: P17
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Geum splinting Jaeha's index finger with a wooden chopstick and white tape"
+    light: "the work lamp"
+    art: >
+      Close on Geum's hands (geum_okran) splinting Jaeha's RIGHT index finger (kang_jaeha) to a wooden chopstick with white tape, quick
+      and practised.
+    acting:
+      geum_okran: "taping the chopstick on with her steel fingers holding it steady"
+      kang_jaeha: "only his hand, held out, the finger swollen"
+    calm: left
+    lines:
+      - {who: geum_okran, type: speech, text: "IT'S ONLY CRACKED. YOU HAVE NINE MORE.", side: l}
+    sfx:
+      - {text: "rrrip", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P18
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: black
+    camera: "high and wide over the dawn sea: the barge's drill going down into the water, a ring of disturbed water spreading"
+    light: "first grey light; floodlights"
+    art: >
+      High and wide over the grey dawn sea: on Kanghan's barge (location kanghan_barge), two kilometres out, a drill rig on cables
+      lowers into the water, and a ring of churned water spreads round the hull. Scale: the barge is a black chip; the breakwater a thread
+      at the bottom edge.
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "6:00 AM."}
+    sfx:
+      - {text: "DOOOM... DOOOM...", style: alert, at: [0.60, 0.40], size: M, rot: 0}
+
+  - id: P19
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Pim at the parapet, the headset pushed off one ear, wincing at each boom"
+    light: "grey dawn"
+    art: >
+      Close on Pim (pim) at the parapet, the headset pushed off one antenna, wincing at each deep boom from the sea.
+    acting:
+      pim: "wincing, one hand holding the headset off, antennae twitching at each boom"
+    calm: right
+    lines:
+      - {who: pim, type: speech, text: "THEY'VE STARTED, BOSS. AND IT HATES IT.", side: l}
+    sfx:
+      - {text: "TWITCH", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P20
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "over Jaeha's shoulder: the notebook, a timetable written with his left hand, the splinted right hand resting on the page"
+    light: "grey dawn"
+    face: private
+    art: >
+      Over Jaeha's shoulder: his notebook open on the parapet, a little timetable written in a clumsy left-handed scrawl, his splinted
+      RIGHT hand resting on the page. Leave a blank band for the letterer's note. No readable text.
+    acting:
+      kang_jaeha: "seen from behind, writing left-handed, the splinted hand flat on the page"
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: note, text: "BORRO'S FIELD FORM EVERY 4 H: 4:00, 8:00, 12:00, 16:00. FOUR TRIES."}
+
+  - id: P21
+    recipe: carry
+    shape: wide
+    gap: long
+    bg: black
+    camera: "low and side-on, morning light: the second try, the white-gold thread running into Jaeha's chest, his eyes closed"
+    light: "early morning sun; moss green; white-gold"
+    art: >
+      Morning on the breakwater, low and side-on: the second try. Geum (geum_okran) strikes Borro's shield (borro, field form) again; the
+      white-gold thread of force runs into Jaeha's chest (kang_jaeha, training); he stands with his eyes closed, the splinted RIGHT
+      hand open at his side, and the faint white-gold glow stays in his chest instead of bursting out.
+    acting:
+      geum_okran: "striking, then watching him closely"
+      borro: "braced behind the shield"
+      kang_jaeha: "eyes closed, very still, breath held, the splinted hand open"
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "8:00 AM."}
+    sfx:
+      - {text: "KANG", style: impact, at: [0.30, 0.30], size: M, rot: -6}
+
+  - id: P22
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha's face, eyes shut, a small grey memory inset beside him of his shaking hands holding a paper cup"
+    light: "white-gold from his chest"
+    face: private
+    art: >
+      Close on Jaeha's face (kang_jaeha), eyes shut, sweating; beside him a small grey memory inset (ch 33): his shaking hands in the
+      wheelchair holding a paper cup of tteokbokki, not spilling a drop.
+    acting:
+      kang_jaeha: "eyes shut, jaw tight, holding his breath"
+    eyeline: "Jaeha → nothing, inward"
+    foreground: "the grey memory inset's edge, cropped, left"
+    calm: left
+    lines:
+      - {who: offpanel:geum_okran, type: speech, text: "HOLD IT. LIKE THE CUP. DON'T SPILL A DROP.", side: l}
+
+  - id: P23
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level, a big window opening in front of Jaeha as he holds, the white-gold glow in his chest"
+    light: "cyan window; white-gold glow"
+    face: private
+    art: >
+      Eye level: a big window opens in the air in front of Jaeha (kang_jaeha, training) as he holds; a faint white-gold glow pulses in his
+      chest. The upper half is empty for the window.
+    acting:
+      kang_jaeha: "eyes snapping open, the glow pulsing in his chest, holding still"
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.05], headline: "[NEW SKILL: STORE · LV. 1]", body: "1 STRIKE · HOLD 00:03 · RISK: BONE DAMAGE", button: "OK"}
+
+  - id: P24
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level two-shot: Jaeha laying his open hand on Borro's shield, giving the force back with a soft thud"
+    light: "morning sun; white-gold fading"
+    art: >
+      Eye-level two-shot: Jaeha (kang_jaeha, training) lays his open RIGHT palm flat on Borro's shield (borro, field form) and the glow
+      flows out of him into the iron with a soft thud; Borro looks down at him, surprised; a thin nosebleed on Jaeha's lip, and a grin.
+    acting:
+      kang_jaeha: "palm flat on the shield, grinning through a nosebleed"
+      borro: "looking down at the shield, then at him, slow eyebrows rising"
+    eyeline: "Borro → Jaeha; Jaeha → the shield"
+    foreground: "the shield's rivets, cropped, right"
+    calm: top
+    lines:
+      - {who: borro, type: speech, text: "...YOU GAVE IT BACK.", side: r}
+      - {who: kang_jaeha, type: speech, text: "LIKE A WALL.", side: l}
+    sfx:
+      - {text: "thud", style: quiet, at: [0.60, 0.50], size: S, rot: 0}
+
+  - id: P25
+    recipe: carry
+    shape: wide
+    gap: long
+    bg: black
+    camera: "low, noon sun overhead: Jaeha holding with the white-gold glow up his whole right arm, sweat dripping, Geum counting"
+    light: "hard noon sun; white-gold glow"
+    art: >
+      Noon, low on the breakwater: Jaeha (kang_jaeha, training) stands holding a blocked strike, the white-gold glow climbing up his whole
+      RIGHT arm, sweat dripping off his chin, his bones creaking; Borro (borro, field form) and Geum (geum_okran) watch; Geum counts on
+      her steel fingers.
+    acting:
+      kang_jaeha: "rigid, the RIGHT arm glowing and trembling, sweat dripping, eyes fixed"
+      geum_okran: "counting on her steel fingers, eyes on him"
+      borro: "watching, shield lowered"
+    calm: top
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.86], text: "[STORE · 1 STRIKE · HOLD 00:10]"}
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "12:00 PM."}
+    sfx:
+      - {text: "creak creak", style: quiet, at: [0.70, 0.40], size: S, rot: 0}
+
+  - id: P26
+    recipe: system
+    shape: inset-l
+    gap: short
+    bg: navy
+    camera: "close on Pim at the parapet, eyes closed, listening to the sea, a window beside him"
+    light: "cyan; noon"
+    art: >
+      Close on Pim (pim) at the parapet with the headset round his neck, eyes closed, antennae turned out to sea. The upper part is calm
+      for the window.
+    acting:
+      pim: "eyes closed, antennae turned seaward, hands gripping the parapet"
+    calm: top
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.06], text: "[LID INTEGRITY 7% · ESTIMATED FAILURE 40:00:00]"}
+    lines:
+      - {who: pim, type: speech, text: "IT'S FALLING FASTER, BOSS. THE DRILLING.", side: l}
+
+  - id: P27
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level two-shot on the parapet: Lyra sitting on it, swinging her boots, Jaeha with his glowing arm cooling"
+    light: "noon sun"
+    face: public
+    art: >
+      Eye-level two-shot: Lyra (lyra) sits on the parapet swinging her white boots, looking out at the barge; Jaeha (kang_jaeha, training)
+      flexes his RIGHT arm as its glow fades, wincing.
+    acting:
+      lyra: "sitting on the parapet, swinging her boots, chin on her hand, eyes on the barge"
+      kang_jaeha: "flexing his arm as the glow fades, wincing, looking at her"
+    eyeline: "Lyra → the barge; Jaeha → Lyra"
+    foreground: "Pim's antenna tips over the parapet, cropped, right"
+    calm: top
+    lines:
+      - {who: lyra, type: speech, text: "SOMEONE SHOULD GO AND LOOK AT WHAT THEY'RE DOING TO IT.", side: l}
+      - {who: kang_jaeha, type: speech, text: "IT'S TWO KILOMETRES OUT. MY LINK ONLY REACHES SIX HUNDRED METRES.", side: r}
+      - {who: lyra, type: speech, text: "THEN GET A BOAT, MERCHANT. I'M RIVER-FOLK.", side: l}
+
+  # ================= THE DIVE (P28–P41) =================
+  - id: P28
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: black
+    camera: "high over the harbour mouth: a small blue-and-white fishing boat chugging out toward the black barge, a smoke trail"
+    light: "bright afternoon; glitter"
+    art: >
+      High over the harbour mouth: a small blue-and-white wooden fishing boat (location fishing_boat) chugs out toward the black barge,
+      a trail of diesel smoke behind it; aboard, small, the old fisherman (fishermen) at the wheelhouse, Jaeha (kang_jaeha, training),
+      Geum (geum_okran), Pim (pim) and Lyra (lyra, swimsuit). Scale: the boat is 9 m long; the barge 80 m.
+    acting:
+      fishermen: "small, at the wheel"
+      kang_jaeha: "small, at the bow"
+      geum_okran: "small, sitting on a crate"
+      pim: "small, holding the rail, headset on"
+      lyra: "small, stretching on the deck"
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "1:30 PM."}
+    sfx:
+      - {text: "putt putt putt", style: quiet, at: [0.30, 0.70], size: S, rot: 0}
+
+  - id: P29
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level in the little wheelhouse: the old fisherman at the wheel, Jaeha beside him"
+    light: "sun through salty windows"
+    face: public
+    art: >
+      In the little wheelhouse at eye level: the old fisherman (fishermen) steers with one hand and points at Jaeha with the other;
+      Jaeha (kang_jaeha, training) stands beside him watching the barge grow through the salty window.
+    acting:
+      fishermen: "one hand on the wheel, the other pointing at Jaeha, gruff"
+      kang_jaeha: "watching the barge through the window, the splinted hand on the frame"
+    eyeline: "the fisherman → Jaeha; Jaeha → the barge"
+    foreground: "the wheel's worn spokes, cropped, bottom"
+    calm: top
+    lines:
+      - {who: fishermen, type: speech, text: "YOU PULLED ME OFF THOSE ROCKS. THE BOAT'S YOURS ALL DAY.", side: l}
+      - {who: kang_jaeha, type: speech, text: "THANK YOU. JUST GET US WITHIN SIX HUNDRED METRES. THAT'S MY RANGE.", side: r}
+
+  - id: P30
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low from the boat: the black barge looming, a loudhailer on its rail, Sora leaning beside it with binoculars, waving"
+    light: "afternoon sun; the barge's shadow"
+    art: >
+      From low in the boat: the black barge looms 500 m off, its crane against the sky; on its rail a trooper (kanghan_tactical) raises a
+      loudhailer, and beside him Han Sora (han_sora, kanghan) leans on the rail with binoculars, lowering them to wave.
+    acting:
+      kanghan_tactical: "raising the loudhailer, visor blank"
+      han_sora: "leaning on the rail, lowering the binoculars, waving lazily with two fingers"
+    eyeline: "Sora → the boat"
+    foreground: "the boat's bow rail, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kanghan_tactical, type: announce, text: "THIS IS A RESTRICTED ZONE. TURN BACK."}
+      - {who: han_sora, type: shout, text: "HELLO, MR. KANG! FISHING?", side: r}
+    sfx:
+      - {text: "KZZT", style: alert, at: [0.30, 0.30], size: S, rot: 0}
+
+  - id: P31
+    recipe: splash
+    shape: tall
+    gap: short
+    bg: black
+    camera: "eye level, full figure: Lyra in a river-blue bikini standing on the boat's gunwale in field form, about to dive, smirking back"
+    light: "key: sun from the left; river-blue field-form glow; sea glitter"
+    art: >
+      LYRA'S DIVE. Eye level, full figure: Lyra (lyra, swimsuit, field form: a thin river-blue outline, glowing river-blue eyes) stands
+      poised on the boat's gunwale in the river-blue halter bikini with silver trim, the wrap untied and left on the deck, the braid
+      over her LEFT shoulder, her arms rising for the dive; she smirks back over her shoulder. Beautiful and very sure of herself. The
+      camera stays at her eye level.
+    acting:
+      lyra: "on her toes on the gunwale, arms rising overhead, smirking back over her shoulder"
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.9], text: "[FIELD FORM · LYRA 06:00 · LINKED]"}
+    lines:
+      - {who: lyra, type: speech, text: "TRY NOT TO LOOK, MERCHANT.", side: l}
+    sfx:
+      - {text: "FWOOM", style: summon, at: [0.80, 0.30], size: M, rot: 0}
+
+  - id: P32
+    recipe: impact
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "side-on at the waterline: Lyra knifing into the sea, a column of spray"
+    light: "sun; spray"
+    art: >
+      Side-on at the waterline: Lyra (lyra, field form) knifes into the sea in a clean dive, a white column of spray and a river-blue
+      streak going down.
+    acting:
+      lyra: "only her feet and a streak of river-blue light vanishing into the water"
+    calm: left
+    silent: true
+    sfx:
+      - {text: "SPLOOSH", style: impact, at: [0.40, 0.40], size: L, rot: -6}
+
+  - id: P33
+    recipe: summon-arrival
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low from the deck: Pim at the bow opening his wings, rings of lilac signal going down into the water"
+    light: "lilac; sun"
+    art: >
+      From low on the deck: Pim (pim, field form) stands at the bow with his wings open, eye-spots glowing lilac, antennae blazing, the
+      headset round his neck; rings of lilac signal ripple down into the water after her. Jaeha (kang_jaeha, training) kneels beside him
+      with two fingers at his temple.
+    acting:
+      pim: "wings spread, leaning over the bow rail, antennae pointing down into the water"
+      kang_jaeha: "kneeling beside him, two fingers at his temple, eyes glowing river-blue"
+    calm: top
+    lines:
+      - {who: pim, type: speech, text: "LEFT, LYRA. THIRTY METRES DOWN. IT'S RIGHT UNDER YOU.", side: l}
+    sfx:
+      - {text: "FWOOM", style: summon, at: [0.70, 0.30], size: M, rot: 0}
+
+  - id: P34
+    recipe: link-view
+    shape: wide
+    gap: short
+    bg: black
+    camera: "split frame: left, Jaeha's face lit river-blue; right, Lyra's view 30 m down: the lid on the seabed, black anchor bolts drilled into it"
+    light: "river blue; green-blue underwater gloom"
+    face: private
+    art: >
+      Split frame with a thin river-blue seam. LEFT: Jaeha's face (kang_jaeha) lit river-blue, eyes wide. RIGHT: Lyra's view through a
+      thin river-blue vignette, 30 m down: the lid on the seabed, a disc of huge carved grey stone slabs with rusted steel plates bolted
+      over them, crusted with weed, too big to see the far edge; new black anchor bolts drilled into it, chains rising from them into
+      the gloom.
+    acting:
+      kang_jaeha: "eyes wide, lips parted, very still"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "blub...", style: quiet, at: [0.80, 0.70], size: S, rot: 0}
+
+  - id: P35
+    recipe: link-view
+    shape: tall
+    gap: short
+    bg: black
+    camera: "Lyra's view, closer: a crack spreading out from the drill holes across the stone, violet light seeping through"
+    light: "violet seeping up; underwater gloom"
+    art: >
+      Lyra's view through the river-blue vignette, closer: from the fresh drill holes a crack spreads across the carved stone like a
+      branching root, and violet light seeps up through it in slow threads; her own hand, pale and river-blue rimmed, reaches toward
+      it.
+    acting:
+      lyra: "only her hand, reaching toward the crack"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "krrrk...", style: quiet, at: [0.50, 0.30], size: S, rot: 0}
+
+  - id: P36
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Geum gripping the gunwale, her steel arm twitching, Jaeha beside her with glowing eyes"
+    light: "sun on the boat"
+    face: private
+    art: >
+      In the boat, close: Geum (geum_okran) grips the gunwale with her flesh hand while her steel arm twitches; beside her Jaeha's eyes
+      (kang_jaeha) glow river-blue.
+    acting:
+      geum_okran: "gripping the gunwale, jaw set, the steel arm twitching"
+      kang_jaeha: "eyes glowing river-blue, speaking without looking away from the water"
+    eyeline: "both → the water"
+    foreground: "the gunwale's worn paint, cropped, bottom"
+    calm: right
+    lines:
+      - {who: kang_jaeha, type: speech, text: "IT'S CRACKING FROM THEIR DRILL HOLES. THEY'RE BREAKING IT.", side: l}
+
+  - id: P37
+    recipe: link-view
+    shape: wide
+    gap: short
+    bg: black
+    camera: "Lyra's view through the crack: far below, a violet glow like a lantern, a vast curve of hide turning; Lyra's hand going slack"
+    light: "a violet glow growing; black"
+    art: >
+      Lyra's view through the crack, through the river-blue vignette: far below the lid, in the black, a violet glow hangs like a
+      lantern, slowly brightening, and one vast curve of dark hide (deep_lantern, never shown whole) turns past it; at the edge of the
+      view, Lyra's hand has gone slack, drifting toward the light.
+    acting:
+      deep_lantern: "only a curve of hide turning past the glow"
+      lyra: "only her slack hand, drifting toward the light"
+    calm: top
+    lines:
+      - {who: pim, type: shout, text: "LYRA! DON'T LOOK AT THE LIGHT! LOOK AT MY VOICE!"}
+    sfx:
+      - {text: "thmmm...", style: quiet, at: [0.30, 0.30], size: S, rot: 0}
+
+  - id: P38
+    recipe: system
+    shape: inset-r
+    gap: short
+    bg: navy
+    camera: "close on a small red timer hanging over the water by the boat"
+    light: "red"
+    art: >
+      Close on a small red timer hanging in the air over the water by the boat's side, bubbles boiling up beneath it.
+    calm: left
+    silent: true
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.4], text: "[FIELD FORM · LYRA 00:40]"}
+    sfx:
+      - {text: "blub blub", style: quiet, at: [0.50, 0.80], size: S, rot: 0}
+
+  - id: P39
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low at the waterline by the barge: Lyra bursting up out of the sea onto the barge's huge rubber fender, right below Sora at the rail"
+    light: "sun; spray; the barge's shadow"
+    art: >
+      Low at the waterline by the barge's black hull: Lyra (lyra, swimsuit, field form) bursts up out of the sea in a burst of spray and
+      lands sitting on one of the barge's huge black rubber fenders, wet and laughing, right below Han Sora (han_sora, kanghan) at the
+      rail far above; she blows Sora a kiss.
+    acting:
+      lyra: "sitting on the fender, wet hair stuck to her shoulders, blowing a kiss up at the rail"
+      han_sora: "far above at the rail, binoculars lowered, an eyebrow up"
+    calm: top
+    lines:
+      - {who: lyra, type: shout, text: "YOUR BOLTS ARE CROOKED, DARLING!", side: l}
+    sfx:
+      - {text: "SPLASH", style: impact, at: [0.30, 0.70], size: M, rot: -6}
+
+  - id: P40
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Sora at the rail, a slow smile"
+    light: "sun; the crane's shadow"
+    art: >
+      Close on Sora (han_sora, kanghan) at the barge's rail, lowering the binoculars with a slow, delighted smile as troopers run up behind
+      her.
+    acting:
+      han_sora: "lowering the binoculars, a slow delighted smile, not moving to stop anyone"
+    calm: right
+    lines:
+      - {who: han_sora, type: speech, text: "...OH, SHE'S GOOD.", side: l}
+    sfx:
+      - {text: "stomp stomp", style: quiet, at: [0.70, 0.80], size: S, rot: 0}
+
+  - id: P41
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level in the boat: Lyra climbing over the gunwale, dripping; Jaeha holding out a towel while looking at the sky"
+    light: "sun"
+    art: >
+      Eye level in the boat: Lyra (lyra, swimsuit, rest form) climbs back over the gunwale, dripping and shivering, the smile gone;
+      Jaeha (kang_jaeha, training) holds out a towel to her while staring firmly at the sky.
+    acting:
+      lyra: "climbing over the gunwale, shivering, hugging herself, serious"
+      kang_jaeha: "holding the towel out at arm's length, eyes on the sky"
+    eyeline: "Lyra → Jaeha; Jaeha → the sky"
+    foreground: "a coil of rope on the deck, cropped, bottom"
+    calm: top
+    lines:
+      - {who: lyra, type: speech, text: "SOMETHING DOWN THERE LOOKED AT ME. I WANTED TO GO TO IT.", side: l}
+      - {who: kang_jaeha, type: speech, text: "I KNOW. I SAW IT TOO.", side: r}
+
+  # ================= THIRTY HOURS (P42–P46) =================
+  - id: P42
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: black
+    camera: "eye level along the harbour wall in late afternoon: Moon Ahin on her phone under the parasol, the barge on the sea behind her"
+    light: "low afternoon sun"
+    art: >
+      Late afternoon along the harbour wall by Geum's stall (location geum_stall, outside): Moon Ahin (moon_ahin, summer) stands with her
+      phone at her ear under Saebyeok's white parasol (ahin_husks); out on the sea behind her sits the barge.
+    acting:
+      moon_ahin: "very straight, the phone at her ear, her other gloved hand clenched"
+      ahin_husks: "Saebyeok holding the parasol steady"
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "4:00 PM."}
+      - {who: moon_ahin, type: speech, text: "UNCLE. STOP THE DRILLING. YOU'RE CRACKING THE LID.", side: l}
+    sfx:
+      - {text: "beep", style: quiet, at: [0.30, 0.40], size: S, rot: 0}
+
+  - id: P43
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Moon Ahin's face under the hat brim, listening, her jaw tightening"
+    light: "hat shadow; sun"
+    art: >
+      Close on Moon Ahin (moon_ahin, summer) under the brim of her hat, listening, her jaw tightening.
+    acting:
+      moon_ahin: "listening, jaw tightening, eyes cold"
+    eyeline: "Moon Ahin → the barge"
+    foreground: "the phone at her ear, cropped, left"
+    calm: left
+    lines:
+      - {who: baek_taegun, type: phone, text: "DO YOU WANT BUSAN DARK, AHIN?", side: r}
+
+  - id: P44
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on her gloved thumb ending the call"
+    light: "the screen"
+    art: >
+      Close on Moon Ahin's white-gloved thumb (moon_ahin) pressing the red button to end the call.
+    acting:
+      moon_ahin: "only her thumb, pressing hard"
+    calm: right
+    silent: true
+    sfx:
+      - {text: "tap", style: quiet, at: [0.60, 0.40], size: S, rot: 0}
+
+  - id: P45
+    recipe: carry
+    shape: tall
+    gap: long
+    bg: black
+    camera: "low on the breakwater at 4 PM: Jaeha holding, the white-gold glow filling his chest and both arms, his bones creaking, Geum watching"
+    light: "low gold sun; a strong white-gold glow"
+    art: >
+      Low on the breakwater in the gold four o'clock light: Jaeha (kang_jaeha, training) stands holding a blocked strike, the white-gold
+      glow filling his chest and both arms, his tracksuit sleeves fluttering in it, his bones creaking, a nosebleed; Borro (borro, field
+      form) lowers his shield; Geum (geum_okran) watches without blinking.
+    acting:
+      kang_jaeha: "standing rigid, arms a little out from his sides, glowing, eyes open and steady"
+      borro: "lowering the shield, watching him"
+      geum_okran: "watching without blinking, the ladle planted like a staff"
+    calm: bottom
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.88], text: "[STORE · 1 STRIKE · HOLD 00:30]"}
+    sfx:
+      - {text: "CREEEAK", style: alert, at: [0.70, 0.30], size: M, rot: 0}
+
+  - id: P46
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "high over the breakwater and the sea: a window, the barge far out"
+    light: "gold; cyan window"
+    art: >
+      High over the end of the breakwater and the gold sea, the barge far out; the group small below. The upper half is empty for the
+      window.
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.06], headline: "[SEALED GATE · BUSAN]", body: "LID INTEGRITY 5% · ESTIMATED FAILURE 30:00:00", button: "OK"}
+
+  # ================= SEVEN O'CLOCK (P47–P55) =================
+  - id: P47
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: black
+    camera: "eye level up the harbour road at dusk: Seoa walking toward the glowing orange stall with a school backpack"
+    light: "dusk; the stall's bare bulbs"
+    art: >
+      Dusk, eye level up the harbour road: Kang Seoa (kang_seoa), 15, in her school uniform with a school backpack and the calculator
+      keychain swinging from it, walks toward Geum's glowing orange tent (location geum_stall), straight from the station. The camera
+      stays at her eye level.
+    acting:
+      kang_seoa: "walking fast, both thumbs hooked in her backpack straps, chin up, determined"
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "6:40 PM."}
+    sfx:
+      - {text: "step step", style: quiet, at: [0.30, 0.86], size: S, rot: 0}
+
+  - id: P48
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level at the tent's mouth: Seoa facing Jaeha, Jaeha astonished"
+    light: "bare bulbs; steam"
+    face: public
+    art: >
+      At the mouth of the tent, eye level: Seoa (kang_seoa) stops in front of Jaeha (kang_jaeha, training) and looks up at him over her
+      glasses; he stares at her, astonished, a paper cup of broth in his hand.
+    acting:
+      kang_seoa: "arms folded, looking up at him over her glasses, unimpressed"
+      kang_jaeha: "frozen, the cup halfway to his mouth, eyes wide"
+    eyeline: "Seoa → Jaeha (up); Jaeha → Seoa (down)"
+    foreground: "the tent's orange flap, cropped, left"
+    calm: top
+    lines:
+      - {who: kang_seoa, type: speech, text: "IT'S FRIDAY. DINNER IS AT SEVEN.", side: l}
+      - {who: kang_jaeha, type: speech, text: "SEOA? YOU CAME ALL THE WAY FROM SEOUL?", side: r}
+      - {who: kang_seoa, type: speech, text: "YOU PROMISED. THE BUDGET HAS A TRAIN TICKET IN IT NOW.", side: l}
+
+  - id: P49
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low two-shot side-on at the counter, the camera at Seoa's eye level: Geum and Seoa sizing each other up"
+    light: "bare bulbs; steam from the pan"
+    art: >
+      Side-on at the counter, the camera at Seoa's eye level: Geum (geum_okran) and Seoa (kang_seoa) face each other across the steam,
+      sizing each other up, both with their arms folded the same way.
+    acting:
+      geum_okran: "arms folded, the ladle sticking up from one fist, eyes narrowed"
+      kang_seoa: "arms folded, pushing up her glasses with one finger, eyes narrowed"
+    eyeline: "Geum → Seoa; Seoa → Geum"
+    foreground: "the big pan of tteokbokki, cropped, bottom"
+    calm: top
+    lines:
+      - {who: geum_okran, type: speech, text: "SO YOU'RE THE BUDGET.", side: l}
+      - {who: kang_seoa, type: speech, text: "AND YOU'RE THE ONE FEEDING MY BROTHER FOR FREE.", side: r}
+
+  - id: P50
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "eye level: Geum and Seoa bowing to each other at exactly the same moment, Jaeha behind them baffled"
+    light: "bare bulbs"
+    art: >
+      Eye level: Geum (geum_okran) and Seoa (kang_seoa) bow to each other at exactly the same moment, deep and respectful; behind them
+      Jaeha (kang_jaeha, training) looks from one to the other, baffled.
+    acting:
+      geum_okran: "bowing, one hand on her apron"
+      kang_seoa: "bowing, hands at her sides"
+      kang_jaeha: "behind them, baffled, the cup in his hand"
+    calm: left
+    lines:
+      - {who: geum_okran, type: speech, text: "SIT. YOU'RE EATING.", side: l}
+      - {who: kang_seoa, type: speech, text: "THANK YOU. I'LL DO THE DISHES.", side: r}
+    sfx:
+      - {text: "bow", style: quiet, at: [0.50, 0.20], size: S, rot: 0}
+
+  - id: P51
+    recipe: chibi
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "chibi gag, flat"
+    light: "flat"
+    art: >
+      Chibi gag: chibi Seoa (kang_seoa) and chibi Geum (geum_okran) shake hands over the counter, sparkles round them, the calculator and
+      the ladle crossed between them like swords; chibi Jaeha (kang_jaeha) shrinks to a tiny pale blob between them.
+    acting:
+      kang_seoa: "chibi, shaking hands, eyes glinting behind her glasses"
+      geum_okran: "chibi, shaking hands, gold tooth glinting"
+      kang_jaeha: "chibi, shrinking, pale, a ghost leaving his mouth"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "THE TWO OF THEM AGREE. I'M DOOMED.", side: r}
+    sfx:
+      - {text: "SHAKE SHAKE", style: comic, at: [0.50, 0.30], size: S, rot: 0}
+
+  - id: P52
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Seoa's hand grabbing Jaeha's splinted finger"
+    light: "bare bulbs"
+    art: >
+      Close on Seoa's hand (kang_seoa) grabbing Jaeha's wrist (kang_jaeha) and holding up his splinted RIGHT index finger, the chopstick
+      and tape plain to see.
+    acting:
+      kang_seoa: "holding his wrist up, glaring at the finger"
+      kang_jaeha: "only his hand and wrist, caught"
+    calm: right
+    lines:
+      - {who: kang_seoa, type: speech, text: "WHAT IS THIS?", side: l}
+      - {who: kang_jaeha, type: speech, text: "...TRAINING.", side: r}
+
+  - id: P53
+    recipe: establish
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, wide inside the tent: everyone round the long counter, bowls set out, steam, the bulbs warm, the black sea outside"
+    light: "warm bulbs; steam; black outside"
+    art: >
+      Eye level, wide inside the orange tent: everyone round the long counter, bowls being set out: Seoa (kang_seoa) between Jaeha
+      (kang_jaeha, training) and Geum (geum_okran), Nib (nib, mask) on a stool, Lyra (lyra) with a towel round her shoulders, Pim (pim)
+      with his headset, Moon Ahin (moon_ahin, summer) at the end with Saebyeok behind her, Borro (borro, husk face) outside the flap with a
+      bowl; beyond them the black sea.
+    acting:
+      kang_seoa: "setting out chopsticks, bossy"
+      kang_jaeha: "sitting, smiling for the first time all day"
+      geum_okran: "ladling tteokbokki into bowls"
+      nib: "holding his bowl in both hands"
+      lyra: "leaning on the counter, towel round her shoulders"
+      pim: "sniffing the steam, antennae up"
+      moon_ahin: "sitting very straight at the end, gloves off"
+      borro: "outside, peering in through the flap"
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "6:58 PM."}
+      - {who: kang_seoa, type: speech, text: "EVERYONE SIT. WE EAT AT SEVEN.", side: l}
+    sfx:
+      - {text: "clink clink", style: quiet, at: [0.70, 0.70], size: S, rot: 0}
+
+  - id: P54
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on a cheap plastic clock on the tent pole: 6:59"
+    light: "a bare bulb"
+    art: >
+      Close on a cheap round plastic clock hung on the tent pole, its hands at 6:59, the second hand a blur.
+    calm: left
+    silent: true
+    sfx:
+      - {text: "tik", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P55
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low on the barge's deck under the floodlights: an engineer at the drill console punching the air, troopers by the anchor launchers"
+    light: "white floodlights; the dark sea"
+    art: >
+      On the barge's deck under the floodlights (location kanghan_barge): an engineer in grey coveralls and an orange life vest
+      (kanghan_engineer) punches the air at the drill console as its screen flashes; behind him, troopers (kanghan_tactical) stand by the
+      racked harpoon anchors.
+    acting:
+      kanghan_engineer: "punching the air at the console, shouting into his radio"
+      kanghan_tactical: "turning toward the launchers, carbines slung"
+    eyeline: "the engineer → the console"
+    foreground: "a coil of anchor chain, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kanghan_engineer, type: shout, text: "WE'RE THROUGH! ANCHOR TEAM, GO, GO, GO!", side: l}
+    sfx:
+      - {text: "beep beep beep", style: quiet, at: [0.70, 0.40], size: S, rot: 0}
+
+  # ================= IT'S AWAKE (P56–P61) =================
+  - id: P56
+    recipe: impact
+    shape: full
+    gap: short
+    bg: black
+    camera: "high and wide over the dark sea: the barge lurching as a flash of violet light bursts up from under the water beneath it"
+    light: "a violet flash from below; the barge's floodlights"
+    art: >
+      High and wide over the dark sea, two kilometres out: under Kanghan's barge a flash of violet light bursts up through the water from
+      the seabed; the barge lurches, its crane swinging, a ring of violet-lit water racing outward. Scale: the barge is a black chip in the
+      middle of a violet ring 300 m wide.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "KRA-THOOOM", style: impact, at: [0.50, 0.30], size: XL, rot: -4}
+
+  - id: P57
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Pim dropping his chopsticks, his antennae flattening, the headset falling off"
+    light: "warm bulbs; a violet flicker from outside"
+    art: >
+      Close on Pim (pim) at the counter: his chopsticks drop, his antennae flatten, the headset slides off his head.
+    acting:
+      pim: "chopsticks falling, antennae flat, eyes enormous with fear"
+    calm: right
+    lines:
+      - {who: pim, type: speech, text: "IT'S AWAKE.", side: l}
+    sfx:
+      - {text: "clatter", style: quiet, at: [0.60, 0.80], size: S, rot: 0}
+
+  - id: P58
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level through the tent's flap: the violet glow on the sea, a big red window over it"
+    light: "violet from the sea; red window"
+    art: >
+      Through the tent's open flap at eye level: the sea beyond the breakwater glows violet in a widening ring; the upper half is empty
+      for the window.
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.06], text: "[LID INTEGRITY 5% → 1% · ESTIMATED FAILURE 30:00:00 → 00:59:59]"}
+
+  - id: P59
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Geum's steel fist clenching on its own, her flesh hand picking up the ladle from the counter"
+    light: "warm bulbs; violet"
+    art: >
+      Close on the counter: Geum's steel LEFT fist (geum_okran) clenches on its own; her flesh RIGHT hand closes round the ladle's handle
+      and lifts it.
+    acting:
+      geum_okran: "only her hands: the steel fist clenching, the flesh hand lifting the ladle"
+    calm: left
+    silent: true
+    sfx:
+      - {text: "clench", style: quiet, at: [0.30, 0.40], size: S, rot: 0}
+
+  - id: P60
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level along the counter: everyone frozen, faces turned to the sea, Seoa between them"
+    light: "warm bulbs; violet light washing in"
+    art: >
+      Eye level along the counter: everyone has frozen with their faces turned to the sea, violet light washing over them through the
+      flap: Jaeha (kang_jaeha, training), Seoa (kang_seoa), Lyra (lyra), Nib (nib, mask), Moon Ahin (moon_ahin, summer); Seoa grips her
+      brother's sleeve.
+    acting:
+      kang_jaeha: "half off his stool, eyes on the sea"
+      kang_seoa: "gripping his sleeve with both hands, glasses flashing violet"
+      lyra: "standing, the towel falling"
+      nib: "on his feet, knives already drawn"
+      moon_ahin: "rising, pulling on her gloves"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "WOOOOOOM", style: alert, at: [0.80, 0.30], size: M, rot: 0}
+
+  - id: P61
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the counter: Geum standing up with the ladle, the violet sea behind her through the flap"
+    light: "violet backlight; warm bulbs"
+    art: >
+      From low at the counter: Geum (geum_okran) stands up with the ladle on her shoulder and the violet sea behind her through the tent's
+      flap, and looks down at Jaeha.
+    acting:
+      geum_okran: "standing, the ladle on her shoulder, chin up, a grim crooked grin"
+    eyeline: "Geum → Jaeha"
+    foreground: "a bowl of untouched tteokbokki, cropped, bottom"
+    calm: top
+    lines:
+      - {who: geum_okran, type: speech, text: "KID. DINNER'S LATE.", side: l}
+
+  - id: END
+    kind: end
+    chibi_gag: "Chibi Seoa stands on a stool with a calculator, glaring at a chibi bill taped to the tent pole that reads only '-1 TETRAPOD'; chibi Geum whistles innocently with the ladle behind her back."
