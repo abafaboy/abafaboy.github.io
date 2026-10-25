@@ -27,7 +27,7 @@ locations: [rooftop_room, hospital, expressway_night, geum_stall, busan_sea_gate
 continuity:
   - "Kang Seoa (15): her outfit as each panel says; glasses, the calculator keychain. Never any fan service. The camera stays at her eye level or above, never below."
   - "Jaeha: the clean grey hoodie; his hands shake in every panel where they are visible (a faint tremor line on the fingers); from P15 a hospital gown under the hoodie, an IV line taped to his LEFT hand until P21; a wheelchair from P22."
-  - "The rooftop dinner (P01-P13, location rooftop_room): two fold-out tables pushed together under the strings of warm bulbs; a portable grill with samgyeopsal, bowls of banchan, kimchi, a pan of tteokbokki, a heap of Borro's lettuce, boxes of fried chicken; plastic stools and chairs; the Mapo skyline at dusk."
+  - "The rooftop dinner (P01-P13, location rooftop_room): two fold-out tables pushed together under the strings of warm bulbs; a portable grill with samgyeopsal, bowls of banchan, kimchi, a pan of tteokbokki, a heap of Borro's lettuce, boxes of fried chicken; plastic stools and chairs; the Mapo skyline at night."
   - "Dami's daughter (generic, about 6): the too-big yellow raincoat from her mother's lock screen, a grin with a missing front tooth. A child: drawn simply and cutely, never any fan service. Moon Ahin: her fresh white coat-dress, hair loose, no ribbon; Saebyeok (No. 1) carries a huge cellophane-wrapped luxury fruit basket behind her. A glamour beat at the table (P07): elegant on a plastic stool, Lyra beside her."
   - "The hospital (new location hospital): a four-bed ward in a Mapo hospital at night, curtains, a monitor beeping, a window over the city; then the same ward in grey morning light."
   - "The road (new location expressway_night): Choi's white Gate Rescue van on an expressway south at night, the dashboard glow, Jaeha asleep in the passenger seat, the summons squeezed in the back with Borro folded double."
@@ -49,10 +49,10 @@ panels:
     shape: full
     gap: none
     bg: white
-    camera: "high (8 m), over the rooftop at dusk: two tables pushed together under strings of warm bulbs, a feast, everyone round it, and one empty stool at the head"
+    camera: "high (8 m), over the rooftop at night: two tables pushed together under strings of warm bulbs, a feast, everyone round it, and one empty stool at the head"
     light: "key: warm bulbs; back: a violet-orange dusk over the Mapo skyline"
     art: >
-      The rooftop at dusk (location rooftop_room), from high: two fold-out tables pushed together under the strings of warm bulbs, covered with a
+      The rooftop at night (location rooftop_room), from high: two fold-out tables pushed together under the strings of warm bulbs, covered with a
       feast: a portable grill of sizzling samgyeopsal, bowls of banchan, kimchi, a pan of tteokbokki, a heap of Borro's lettuce. Round it: Seoa
       (kang_seoa) at the head with her arms crossed, Yerin (song_yerin), Bomi (yoo_bomi) filming, Choi (choi_dongmin) with a coffee, the landlady
       (landlady), Lyra (lyra), Nib (nib, no mask), Borro (borro) sitting on the floor and still taller than everyone, the cat (gomi) under the
@@ -549,7 +549,7 @@ panels:
       Scale: the stall is a tent 6 m long.
     calm: top
     lines:
-      - {who: offpanel:crowd, type: tag, text: "BUSAN. SUNDAY, 5:10 AM."}
+      - {who: offpanel:crowd, type: tag, text: "BUSAN. SUNDAY, 6:30 AM."}
     sfx:
       - {text: "kyaa... kyaa...", style: quiet, at: [0.30, 0.20], size: S, rot: 0}
 
@@ -747,7 +747,7 @@ panels:
     foreground: "her steel fingers on the armrest, cropped, bottom"
     calm: top
     lines:
-      - {who: geum_okran, type: speech, text: "YOU TAKE THEIR PAIN INTO A BODY THAT WAS NEVER BUILT TO HOLD IT. FOURTEEN TIMES TOO MUCH.", side: l}
+      - {who: geum_okran, type: speech, text: "YOU TAKE THEIR PAIN INTO A BODY THAT WAS NEVER BUILT TO HOLD IT. TOO MUCH, TOO MANY TIMES. TEN? FIFTEEN?", side: l}
       - {who: geum_okran, type: speech, text: "NEXT TIME, YOUR HEART STOPS. BANG.", side: l}
 
   - id: P39
@@ -766,6 +766,7 @@ panels:
     foreground: "the ladle's handle, cropped, right"
     calm: right
     lines:
+      - {who: kang_jaeha, type: speech, text: "...FOURTEEN.", side: l}
       - {who: kang_jaeha, type: speech, text: "HOW DO YOU KNOW I CARRY ANYTHING? I NEVER SAID.", side: l}
 
   - id: P40

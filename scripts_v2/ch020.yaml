@@ -6,7 +6,7 @@ story_beats: ARC3_4_BEATS.md#20-three-of-five
 cast:
   kang_jaeha: vest
   nib: mask                 # field form; seal 2/5 → 3/5 at P40 (scout-captain armour from P41)
-  borro: default            # rest form (spent); husk face; the drone in his moss
+  borro: default            # field form until P13 (the call from ch 18 P01), rest form after; husk face; the drone in his moss
   lyra: default             # field form ends at P13; rest form after
   song_yerin: default
   mok_hangyu: default
@@ -16,7 +16,7 @@ locations: [boss_chamber_bells]
 continuity:
   - "Jaeha: the torn orange vest, the grey hoodie, the forearm bandage, the earpiece; blood from his nose and LEFT ear. He cannot stand from P01 to P56 (kneeling, then on his hands, then lying against Borro's shell); from P20 every hit Nib takes opens on Jaeha's body instead: a gash across his LEFT upper arm (P23), an arrow wound in his RIGHT thigh (P27), a burn down his RIGHT forearm (P31), a cut across his cheek (P35)."
   - "Nib: seal 2/5 look and the cracked husk mask, field form (amber), until P40. From P41: SEAL 3/5, the scout-captain armour (new design, CHARACTER_DESIGNS_v2.md 2.2): a close-fitting cuirass of overlapping dark wall-blue plates #2F4A6E edged in bronze #A87A3A over the belted cloak, a single bronze pauldron on his LEFT shoulder embossed with the nine-tower sigil, bronze-plated bracers on both forearms, a bronze-studded belt with more pouches; the red scarf, the brass binoculars and the bare feet stay; his two knives become scout-captain's long knives (40 cm blades, bronze guards). The husk mask stays on. Amber outline brighter."
-  - "Borro: rest form (spent, no glow), the husk face, the dented shield; Bomi's drone in his moss streaming. Lyra: rest form from P13 (no glow), two arrows left, brave anyway."
+  - "Borro: field form until P13 (the call from ch 18 P01, its glow flickering like a dying bulb), then rest form (no glow); the husk face, the dented shield; Bomi's drone in his moss streaming. Lyra: rest form from P13 (no glow), two arrows left, brave anyway."
   - "Mok: the black guild jacket, the gold chain, his cracked black tower shield with the broken red hound, the short broad sword. The shield's grip is a hollow steel tube (it matters at P60)."
   - "Mok's second team (bh_second, generic): six Black Hound hunters in black guild jackets: two swordsmen, a spearman, an archer, a mage with a core-tipped staff (violet bolts), and the shield-bearer from ch 7. They come down ropes from the high doorway."
   - "The chamber: ruined, flooded knee-deep, rubble heaps, half the dome open to the gate's sky in shafts of daylight-coloured light; the high doorway on the back wall with two ropes hanging from it from P03."
@@ -267,6 +267,8 @@ panels:
     eyeline: "Nib → Mok; Mok → Nib"
     foreground: "Jaeha's hand on the core, cropped, bottom left"
     calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.92], text: "[COOLDOWN 00:00 · NIB · FIELD FORM 05:00]"}
     lines:
       - {who: nib, type: speech, text: "WHO'S IN CHARGE HERE?", side: r}
 

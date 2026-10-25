@@ -44,6 +44,7 @@
 | Caldric, the Bell General | `caldric` | Heavy fighter (ch 68). "Caldric" alone in dialogue. |
 | Kett | `kett` | Young goblin scout, Nib's apprentice (ch 88) |
 | Saebyeok (SEH-byuhk) | `ahin_husks` | Not a summon: Moon Ahin's lead husk, No. 1, named "dawn" in ch 32 |
+| Gomi | `gomi` | Not a summon: the fat orange stray cat that adopts the rooftop (from ch 8) |
 
 ## Monsters and summoned things
 

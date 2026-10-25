@@ -276,10 +276,14 @@ panels:
       A quiet columbarium on a hillside (location columbarium): a long white corridor lined from floor to ceiling with small
       glass-fronted niches, white chrysanthemums in steel cups, sunlight in long bright rectangles across the polished floor. Far
       down it, two small figures walk in: Jaeha (kang_jaeha) in his hoodie and a black cap, limping with a wooden walking stick,
-      and Nib (nib) beside him in his armour, cloak and cracked husk mask. Scale: 8 rows of niches; the top row is 3 m up.
+      and Nib (nib) beside him in his armour, cloak and cracked husk mask. Through the glass doors at the far end, small in the
+      sunlight outside, Borro (borro) sits on the steps and Lyra (lyra) leans on the gatepost, waiting. Scale: 8 rows of niches;
+      the top row is 3 m up.
     acting:
       kang_jaeha: "limping slowly, the stick in his LEFT hand, cap pulled low"
       nib: "walking at his RIGHT side, matching his pace, looking up at the walls of niches"
+      borro: "tiny, outside the glass doors, sitting on the steps, waiting patiently"
+      lyra: "tiny, outside the glass doors, leaning on the gatepost, bored"
     calm: top
     lines:
       - {who: offpanel:crowd, type: tag, text: "THE COLUMBARIUM. SUNDAY AFTERNOON."}
@@ -746,10 +750,10 @@ panels:
     shape: wide
     gap: short
     bg: white
-    camera: "low, from the roof: Lyra sitting up on top of the water tank, delighted"
+    camera: "eye level from the parapet: Lyra sitting up on top of the water tank, delighted"
     light: "warm bulbs; dusk behind her"
     art: >
-      From low on the roof: Lyra (lyra) sits up on top of the water tank, delighted, a hand on her heart.
+      At eye level from the parapet: Lyra (lyra) sits up on top of the water tank, delighted, a hand on her heart.
     acting:
       lyra: "sitting up straight, one hand pressed to her heart, the other pointing at Bomi, eyes shining"
     eyeline: "Lyra → Bomi (down)"
@@ -777,8 +781,8 @@ panels:
     foreground: "Jaeha's shoulder and the phone, cropped, left"
     calm: top
     lines:
-      - {who: kang_seoa, type: speech, text: "THE SCHOOL TRIP. AND THE RENT... FOR A WHOLE YEAR.", side: r}
-      - {who: landlady, type: speech, text: "A WHOLE YEAR? ...FINE. THE PETS CAN STAY.", side: r}
+      - {who: kang_seoa, type: speech, text: "MY ART SCHOOL FEES. AND THE RENT... FOR A WHOLE YEAR.", side: r}
+      - {who: landlady, type: speech, text: "A WHOLE YEAR? ...THEN THE PETS GET THEIR OWN TARP.", side: r}
 
   - id: P39
     recipe: reaction
@@ -948,7 +952,7 @@ panels:
       The Kanghan guild hall at night (location kanghan_guild_hall): Moon Ahin (moon_ahin), alone, conducts forty polished white
       husks in eight perfect rows, all caught in the same step; a glamour panel, the whole figure in frame: the white coat-dress,
       the slit up her LEFT side opening as she turns, the baton raised in her RIGHT hand, the silver ribbon bow, long black hair
-      swinging; everything reflected in the polished floor. Scale: the hall is 30 m long; the husks are 175 cm tall.
+      swinging; everything reflected in the polished floor. Scale: the hall is 40 m long; the husks are 175 cm tall.
     acting:
       moon_ahin: "turning on one heel, baton raised high in her RIGHT hand, LEFT hand open at her side, chin up, eyes cool"
     calm: top
@@ -979,10 +983,10 @@ panels:
     shape: wide
     gap: short
     bg: white
-    camera: "low, close on Moon Ahin holding the tablet, the forty husks frozen mid-step behind her"
+    camera: "close, chest-up at eye level: Moon Ahin holding the tablet, the forty husks frozen mid-step behind her"
     light: "the tablet's glow on her face; cool white"
     art: >
-      Close and low on Moon Ahin (moon_ahin), the tablet in her LEFT hand, the baton lowered in her RIGHT; behind her, the forty
+      Close and chest-up at eye level on Moon Ahin (moon_ahin), the tablet in her LEFT hand, the baton lowered in her RIGHT; behind her, the forty
       husks stand frozen mid-step.
     acting:
       moon_ahin: "reading the tablet, one eyebrow lifting, the half-smile gone"
@@ -1279,7 +1283,7 @@ panels:
     art: >
       From the rooftop parapet at night: the dark roofs of Mangwon fall away to the Han River; one bridge crosses it in a line of
       orange lights; in the shadow of one pier, very small, a cold white-cyan glow. Jaeha (kang_jaeha) stands at the parapet in the
-      bottom corner, small, his back to us, the walking stick in his hand. Scale: the bridge is 2 km away.
+      bottom corner, small, his back to us, the walking stick in his hand. Scale: the bridge is about 500 m away.
     acting:
       kang_jaeha: "seen from behind, standing at the parapet, both hands on the stick, head turned to the bridge"
     calm: top

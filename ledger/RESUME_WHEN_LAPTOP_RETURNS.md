@@ -22,6 +22,7 @@ The laptop (device "abafaboy", Tashkent) crashed on 25 October 2026. Abafa is aw
 - Then open, in this order (`SESSIONS_TO_OPEN_5.md`): T1 (thumbnail key art), S2b, the rest of Wave A, then Wave B. Check each chat's first image before opening more of the same kind.
 
 ## 4. Review every image strictly
+- Chapter 1 P45: if the drawn notebook flies out of his hand, chapter 2 (which keeps it in his LEFT chest pocket until P25) needs one line in its continuity block saying he snatched it back off the floor as he landed.
 - Proportions, scale and camera angle first (`PANEL_BRIEF_v2.md` 4b; `tools/head_ruler.py`, `tools/check_art_v2.py`). Known issue to re-check: chapter 2 P08.
 - Fan service only on adults; never Seoa; Yerin covered; nothing explicit, no angle up a skirt or at a crotch.
 

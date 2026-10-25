@@ -13,7 +13,7 @@ cast:
   choi_dongmin: default
   kang_seoa: default         # voice on the phone only (P07)
   moon_ahin: default         # muddy (P01-P15); a fresh white coat-dress, hair loose, from P38
-  ahin_husks: default        # 28 and No. 1
+  ahin_husks: default        # 28 in all, No. 1 (Saebyeok) among them
   crew_pyo: default
   crew_dami: default
   crew_woo: default
@@ -30,7 +30,7 @@ continuity:
   - "Kang Seoa (15): her outfit as each panel says; glasses, the calculator keychain. Never any fan service. The camera stays at her eye level or above, never below."
   - "Jaeha: the crew kit, filthy with mud and blood, until P20; Yerin's healing closes the cuts and the bruises fade, but his hands go on shaking all chapter (show a faint tremor line on his fingers in every panel where his hands are visible). From P29 the grey hoodie, clean, the plaster on his cheek."
   - "Gate Rescue Corps responders (generic): Choi's navy and hi-vis yellow-green rescue jackets, gold foil blankets, white vans with orange light bars. Police: navy uniforms, fluorescent yellow-green vests."
-  - "Moon Ahin: mud-caked white coat-dress, the silver ribbon lost, hair loose and tangled, until P15. From P38: a fresh white coat-dress of the same cut, white gloves, the baton, but no ribbon, her long black hair loose, a small bandage on the back of her LEFT hand."
+  - "Moon Ahin: mud-caked white coat-dress, the silver ribbon lost, hair loose and tangled, until P15. From P33: a fresh white coat-dress of the same cut, white gloves (the LEFT one off, tucked into her belt), the baton, but no ribbon, her long black hair loose, a small bandage on the back of her bare LEFT hand."
   - "No. 1 is named Saebyeok ('dawn') at P16; it looks no different."
   - "Deputy Director Hwang (generic, new): the Association's deputy director, 60, silver hair, a soft smiling face, rimless glasses, an Association grey suit; on the underside of his lapel, seen only when it flips over, a small silver hexagon-in-a-hexagon pin."
   - "The Gate Rescue break room (new location gate_rescue_room): a cramped room in the Gate Rescue Corps station, vending machine, folding chairs, a wall TV, foil blankets everywhere."
@@ -239,8 +239,8 @@ panels:
     camera: "inside the Gate Rescue van, eye level: Choi alone at a fold-down desk, the muddy phone plugged into an old laptop, a progress bar"
     light: "the laptop screen; the van's interior light"
     art: >
-      Inside the Gate Rescue van: Choi (choi_dongmin) sits alone at a fold-down desk with the muddy phone plugged into an old laptop and an old
-      black USB stick plugged into the other side; on the laptop, a progress bar, flat green.
+      Inside the Gate Rescue van: Choi (choi_dongmin) sits alone at a fold-down desk with the muddy phone plugged into an old laptop and a cheap
+      silver USB stick, no lanyard, plugged into the other side; on the laptop, a progress bar, flat green.
     acting:
       choi_dongmin: "hunched over the laptop, one eye on the van's door"
     calm: top
@@ -303,7 +303,7 @@ panels:
       lyra: "lying flat on her back on the grass, arms spread"
     calm: top
     lines:
-      - {who: offpanel:crowd, type: tag, text: "6:12 AM."}
+      - {who: offpanel:crowd, type: tag, text: "6:40 AM."}
       - {who: kang_jaeha, type: inner, text: "Everyone came back. Every single one."}
 
   - id: P15
@@ -451,7 +451,7 @@ panels:
       - {who: deputy_hwang, type: phone, text: "AFTER CAREFUL REVIEW, THE FOOTAGE IS INCONCLUSIVE. IT MAY HAVE BEEN STAGED.", side: l}
       - {who: deputy_hwang, type: phone, text: "THE WITNESSES ARE UNREGISTERED DAY LABOURERS. THEIR TESTIMONY IS UNRELIABLE.", side: l}
     ui:
-      - {kind: tv.lowerthird, "on": panel, text: "ASSOCIATION: 'INSUFFICIENT EVIDENCE' AGAINST KANGHAN"}
+      - {kind: tv.lowerthird, "on": panel, text: "DEPUTY DIRECTOR HWANG · HUNTER ASSOCIATION", ticker: "ASSOCIATION: 'INSUFFICIENT EVIDENCE' AGAINST KANGHAN"}
 
   - id: P23
     recipe: reaction
@@ -631,12 +631,12 @@ panels:
     shape: tall
     gap: long
     bg: white
-    camera: "low, in a long corridor at the top of Kanghan Tower: Moon Ahin striding toward the camera past bowing secretaries, a fresh white coat-dress, hair loose, no ribbon"
+    camera: "eye level, in a long corridor at the top of Kanghan Tower: Moon Ahin striding toward the camera past bowing secretaries, a fresh white coat-dress, hair loose, no ribbon"
     light: "hard afternoon daylight through glass"
     art: >
       Earlier that afternoon, in a long glass corridor at the top of Kanghan Tower: Moon Ahin (moon_ahin) strides toward the camera past bowing
-      secretaries, in a fresh white coat-dress of the same cut, the slit opening with each step, white gloves, the baton in her RIGHT hand; no
-      ribbon now, her long black hair loose; a small bandage on the back of her LEFT hand. A glamour panel, the whole figure, and furious.
+      secretaries, in a fresh white coat-dress of the same cut, the slit opening with each step, white gloves (the LEFT one off and tucked into her belt), the baton in her
+      RIGHT hand; no ribbon now, her long black hair loose; a small bandage on the back of her bare LEFT hand. A glamour panel, the whole figure, and furious.
     acting:
       moon_ahin: "striding, baton swinging, hair loose, eyes cold and furious"
     calm: top
@@ -1097,10 +1097,10 @@ panels:
     shape: wide
     gap: short
     bg: black
-    camera: "high, over Mangwon's roofs at dusk: one small rooftop strung with warm bulbs, figures setting a table, a clock reading 6:58"
+    camera: "high, over Mangwon's roofs after dark: one small rooftop strung with warm bulbs, figures setting a table, a clock reading 6:58"
     light: "dusk; warm bulbs on one rooftop"
     art: >
-      High over Mangwon's dark roofs at dusk: on one small rooftop, strung with warm bulbs, tiny figures set a fold-out table with dishes; one
+      High over Mangwon's dark roofs after dark: on one small rooftop, strung with warm bulbs, tiny figures set a fold-out table with dishes; one
       small figure in a hoodie hurries up the outside stairs.
     calm: top
     silent: true

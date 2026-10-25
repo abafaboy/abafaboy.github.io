@@ -619,17 +619,17 @@ panels:
     shape: wide
     gap: short
     bg: black
-    camera: "eye level, close two-shot: Moon Ahin seeing the white threads running from him to her husks, her baton slowing"
+    camera: "eye level, close two-shot: Moon Ahin seeing her husks' cracks stop and the same cracks bloom as bruises on his arms, her baton slowing"
     light: "white threads"
     face: private
     art: >
-      Close two-shot: Moon Ahin (moon_ahin) sees the white threads running from him to her husks, and her baton slows; Jaeha (kang_jaeha) on one
-      knee looks up at her.
+      Close two-shot: Moon Ahin (moon_ahin) sees her husks' cracks stop spreading and the same crack shapes bloom as bruises on his
+      arms, and her baton slows; Jaeha (kang_jaeha) on one knee looks up at her.
     acting:
-      moon_ahin: "staring at the threads, the baton slowing, lips parted"
+      moon_ahin: "staring at the bruises on his arms, the baton slowing, lips parted"
       kang_jaeha: "on one knee, bruised, looking up at her, a crooked smile"
-    eyeline: "Moon Ahin → the threads, then Jaeha; Jaeha → Moon Ahin"
-    foreground: "a white thread across the frame, cropped, top"
+    eyeline: "Moon Ahin → his bruised arms, then his face; Jaeha → Moon Ahin"
+    foreground: "a cracked husk shoulder, cropped, top"
     calm: top
     lines:
       - {who: moon_ahin, type: speech, text: "WHY ARE YOU CARRYING MY HUSKS?", side: l}
@@ -785,14 +785,15 @@ panels:
     light: "white rim light; red window"
     art: >
       At the bridge's far end: the crew crowd onto the rim ledge; Borro (borro) steps off the last husk with Uncle Pyo (crew_pyo); the narrowing
-      white rim behind them. The upper half is empty for the window.
+      white rim behind them; Borro's green glow goes out as Jaeha lets his link go to carry the husks. The upper half is empty for the window.
     acting:
-      borro: "stepping off onto the ledge, setting Pyo down"
+      borro: "stepping off onto the ledge, setting Pyo down, the green glow going out of his eyes"
       crew_pyo: "sliding down, reaching back to pat the last husk's head"
     calm: top
     silent: true
     ui:
       - {kind: system.warning, "on": float, at: [0.5, 0.06], text: "[GATE RIM SEALING · 03:10]"}
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.17], text: "[BORRO · LINK RELEASED · REST FORM · COOLDOWN 01:00]"}
 
   - id: P44
     recipe: impact
@@ -870,15 +871,15 @@ panels:
     shape: wide
     gap: short
     bg: black
-    camera: "eye level in the middle of the bridge: the husk under Jaeha's foot cracking through, Jaeha stumbling, Moon Ahin hauling him upright"
+    camera: "eye level in the middle of the bridge: the husk under Jaeha's foot cracking right across but holding, Jaeha stumbling, Moon Ahin hauling him upright"
     light: "white"
     art: >
-      In the middle of the bridge: the husk under Jaeha's foot (kang_jaeha) cracks through and its neighbour lunges to take the gap; Jaeha
+      In the middle of the bridge: the husk under Jaeha's foot (kang_jaeha) cracks right across but holds, and its neighbour braces it; Jaeha
       stumbles toward the edge; Moon Ahin (moon_ahin) hauls him upright by his tabard with her LEFT hand, never stopping the baton in her RIGHT.
     acting:
       kang_jaeha: "stumbling sideways, arms flailing"
       moon_ahin: "hauling him back by the tabard, the baton still moving"
-      ahin_husks: "one husk cracking through, its neighbour lunging to close the gap"
+      ahin_husks: "one husk cracking right across but holding, its neighbour bracing it"
     calm: top
     sfx:
       - {text: "KRAK", style: impact, at: [0.40, 0.70], size: M, rot: 0}
