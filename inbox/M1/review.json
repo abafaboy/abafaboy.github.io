@@ -1,0 +1,205 @@
+{
+  "entry": "M1",
+  "status": "INCOMPLETE \u2014 front fails after 3/3 total attempts; dependent views paused",
+  "claude_approved": false,
+  "completed_at_UTC": "2026-10-25T23:00:02.401019+00:00",
+  "required_entry_images": [
+    "turnaround.png",
+    "details.png",
+    "swarm.png",
+    "swarm_mother.png"
+  ],
+  "missing_entry_images": [
+    "turnaround.png",
+    "details.png",
+    "swarm.png",
+    "swarm_mother.png"
+  ],
+  "review_only_prerequisite": "front.png",
+  "attempts_used": 3,
+  "attempt_cap": 3,
+  "blocker": "No front passed strict design/scale QA within the three-total-try cap. Dependent views cannot use failed candidates; paused pending Claude verdict/redo instruction.",
+  "first_image_checkpoint": "Before any second call, first native 1536x1024 PNG saved under _rejects and inspected. Reported hip-high scale and high-camera failure.",
+  "images": [
+    {
+      "id": "front_01",
+      "output": "_rejects/ash_rat_front_01_hip_scale_high_camera.png",
+      "status": "FAIL self-QA \u2014 not approved; must not be used as a reference",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "03e870eae9fedca691695f13554e1597ec97a1be40eb0e92de0bc2936fa50690",
+      "generator_original": "/workspace/generated_images/exec-c9a30db1-6887-4b0f-8273-2853ef6fccbe.png",
+      "original_byte_equality": true,
+      "issues": [
+        "Highest rat back reaches hip/thigh rather than knee (chapter-6 rule).",
+        "Elevated apparent view shows excessive back area instead of requested horizontal front.",
+        "Hide has excessive all-over fissure texture resembling stone rather than mostly smooth hairless mammal skin."
+      ],
+      "measurements": {
+        "method": "Approximate native-pixel visual landmarks (+/- 3 px); no image transformation.",
+        "landmarks": {
+          "man_crown_y": 18,
+          "man_sole_y": 961,
+          "rat_hunch_y": 517,
+          "rat_paw_baseline_y": 967
+        },
+        "human_height_px": 943,
+        "rat_hunch_height_px": 450,
+        "rat_hunch_to_human_height_ratio": 0.4772,
+        "source_scale_rule": "70 cm nose-to-rump plus hairless tail (design 4b.1); knee-high beside 178 cm man (PANEL_BRIEF chapter 6). No numeric shoulder height invented. Length cannot be measured in front view.",
+        "comparison": "Hunch visibly above adult knee; first/final approach adult hip/thigh, second remains above knee."
+      },
+      "background_samples_RGB": {
+        "(0, 0)": [
+          227,
+          228,
+          231
+        ],
+        "(1535, 0)": [
+          227,
+          229,
+          231
+        ],
+        "(0, 1023)": [
+          228,
+          228,
+          233
+        ],
+        "(1535, 1023)": [
+          226,
+          227,
+          230
+        ],
+        "(1000, 100)": [
+          230,
+          231,
+          234
+        ]
+      },
+      "visual_technique": "Original PNG inspected in full frame; drawn ink/cel, rodent muzzle, chisel incisors, blotched mostly hairless skin and tail visible; major scale/view/design checks still fail."
+    },
+    {
+      "id": "front_02",
+      "output": "_rejects/ash_rat_front_02_threequarter_scale.png",
+      "status": "FAIL self-QA \u2014 not approved; must not be used as a reference",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "bcc457e12cd13c16fbf9e5880d2a56488bd582dcfad64c4cd1bfdf771bb69d8e",
+      "generator_original": "/workspace/generated_images/exec-7d8e617d-9da1-42df-b368-9ca1da3b530b.png",
+      "original_byte_equality": true,
+      "issues": [
+        "Highest rat back still above adult knee.",
+        "Head/body rotated to a three-quarter view instead of front.",
+        "Hide remains too fissured across flanks/face, rather than cracks limited to spine."
+      ],
+      "measurements": {
+        "method": "Approximate native-pixel visual landmarks (+/- 3 px); no image transformation.",
+        "landmarks": {
+          "man_crown_y": 24,
+          "man_sole_y": 960,
+          "rat_hunch_y": 615,
+          "rat_paw_baseline_y": 960
+        },
+        "human_height_px": 936,
+        "rat_hunch_height_px": 345,
+        "rat_hunch_to_human_height_ratio": 0.36859,
+        "source_scale_rule": "70 cm nose-to-rump plus hairless tail (design 4b.1); knee-high beside 178 cm man (PANEL_BRIEF chapter 6). No numeric shoulder height invented. Length cannot be measured in front view.",
+        "comparison": "Hunch visibly above adult knee; first/final approach adult hip/thigh, second remains above knee."
+      },
+      "background_samples_RGB": {
+        "(0, 0)": [
+          227,
+          229,
+          234
+        ],
+        "(1535, 0)": [
+          228,
+          230,
+          232
+        ],
+        "(0, 1023)": [
+          228,
+          227,
+          233
+        ],
+        "(1535, 1023)": [
+          227,
+          228,
+          231
+        ],
+        "(1000, 100)": [
+          231,
+          232,
+          235
+        ]
+      },
+      "visual_technique": "Original PNG inspected in full frame; drawn ink/cel, rodent muzzle, chisel incisors, blotched mostly hairless skin and tail visible; major scale/view/design checks still fail."
+    },
+    {
+      "id": "front_03",
+      "output": "_rejects/ash_rat_front_03_scale_final.png",
+      "status": "FAIL self-QA \u2014 not approved; must not be used as a reference",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "d14096ea4fe013e69f257e44eedcd2ed58cb57f9a38f76381991f2c3edde580a",
+      "generator_original": "/workspace/generated_images/exec-ad4b6dd8-9865-43e6-b35b-5140356befc3.png",
+      "original_byte_equality": true,
+      "issues": [
+        "Highest rat back reaches hip/thigh rather than knee; major scale failure.",
+        "Eyes appear violet but do not clearly leak the required violet ash, and the spine crack has insufficient ash.",
+        "Rat paw baseline is about 19 px below man baseline, undermining same-plane scale comparison.",
+        "Background has subtle tonal variation rather than exact flat #E9E9EC; continued cracked-hide texture needs strict review."
+      ],
+      "measurements": {
+        "method": "Approximate native-pixel visual landmarks (+/- 3 px); no image transformation.",
+        "landmarks": {
+          "man_crown_y": 19,
+          "man_sole_y": 965,
+          "rat_hunch_y": 552,
+          "rat_paw_baseline_y": 984
+        },
+        "human_height_px": 946,
+        "rat_hunch_height_px": 432,
+        "rat_hunch_to_human_height_ratio": 0.45666,
+        "source_scale_rule": "70 cm nose-to-rump plus hairless tail (design 4b.1); knee-high beside 178 cm man (PANEL_BRIEF chapter 6). No numeric shoulder height invented. Length cannot be measured in front view.",
+        "comparison": "Hunch visibly above adult knee; first/final approach adult hip/thigh, second remains above knee."
+      },
+      "background_samples_RGB": {
+        "(0, 0)": [
+          229,
+          230,
+          233
+        ],
+        "(1535, 0)": [
+          229,
+          230,
+          233
+        ],
+        "(0, 1023)": [
+          230,
+          228,
+          233
+        ],
+        "(1535, 1023)": [
+          228,
+          228,
+          232
+        ],
+        "(1000, 100)": [
+          232,
+          232,
+          236
+        ]
+      },
+      "visual_technique": "Original PNG inspected in full frame; drawn ink/cel, rodent muzzle, chisel incisors, blotched mostly hairless skin and tail visible; major scale/view/design checks still fail."
+    }
+  ],
+  "preservation": "Four delivered PNG files are byte-identical copies of three native generator outputs; front.png duplicates final reject. Source originals retained; no resize, conversion, re-save, retouch, compositing or thumbnail creation.",
+  "scope": "Only inbox/M1/ and one INBOX.md row. S16 and every other entry untouched."
+}
