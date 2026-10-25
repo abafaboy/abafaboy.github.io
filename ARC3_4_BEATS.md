@@ -57,6 +57,8 @@ Power milestones: PASS I (15); Lyra (18); "Borrowed Thunder" (19); Nib's seal 3/
 - **Sora's test:** she shoots a crossbow bolt into a trap trigger on purpose, to see what Jaeha's "husks" do when he's in danger. The compass needle spins.
 - **Hook (threat):** at the boss chamber, Mok smiles at Jaeha: "After you, hero." The door behind them starts to close, again.
 
+- **As written (script):** the chalk code includes one wrong-way arrow at the crypt junction; the sealers carry a Kanghan stake; Borro opens the flooding side nave's doors in field form and the compass spins ("THERE YOU ARE, BIG ONE."); at Sora's bell-trap test Jaeha simply steps aside and the needle stays still; Nib finds the second exit behind the chapel altar ("FOUND IT."); Jaeha gives Yerin chalk and an earpiece; the stream reaches 410,000; Bomi's drone nests in Borro's moss.
+
 ### 17. Thirty Seconds
 - **The trap springs:** Mok's men seal the boss chamber with Jaeha's team inside, exactly as at Gate 0912.
 - **Jaeha's trap springs too:** the wrong-way chalk marks sent Mok's sealing team down the flooded side passage, and Nib, scouting through LINK minutes earlier, found the chamber's second exit. The door Mok sealed is the one Jaeha wanted sealed: now Mok's own men are cut off, and Mok is inside with him.
@@ -65,6 +67,8 @@ Power milestones: PASS I (15); Lyra (18); "Borrowed Thunder" (19); Nib's seal 3/
 - **Laugh:** Nib to Mok: "You first." Mok: "What?" Nib: "Doors. You like closing them. You go first."
 - **Hook (countdown):** [BOSS ENRAGED · 00:30]. The bell-head starts to ring, and the chamber's walls start to crack inward.
 
+- **As written (script):** Borro yanks Mok in as the doors close; the stake seals them for 60 minutes; the sealers follow the wrong-way arrow into a flooding crypt. CARRY cannot take a hit for a non-summon, so when Mok's shield covers Jaeha, Jaeha orders "BORRO! SHARE HIS SHIELD!" and carries Borro instead; Borro: "EVERYONE COMES BACK, SIR. EVEN YOU." Yerin's chalk marks the toll's safe spots. Enrage timer 00:30 → 00:24.
+
 ### 18. Lyra
 - **The fight turns bad:** the ringing shatters stone; Borro is buried to the waist; Nib's field form is at 00:40.
 - **The call he held since ch 15:** Jaeha opens the reserved CALL in the middle of the raid. The window opens on a river under a silver sky (the rift glimpsed in ch 9).
@@ -72,6 +76,8 @@ Power milestones: PASS I (15); Lyra (18); "Borrowed Thunder" (19); Nib's seal 3/
 - **Lyra arrives (full-height splash):** the river archer, longbow drawn, silver braid flying, landing on the bell-head's shoulder. The glamour beat: Jaeha flustered and blushing, Nib flat: "......". Bomi's chat explodes.
 - **Name card:** LYRA · RIVER ARCHER OF THE FAR SIDE · SUMMON NO. 3. [SEAL 1/5 · FIELD FORM 05:00]
 - **Hook (power):** her first arrow bounces off the bell. "Count the arrows if you want. I only need the one." She doesn't have the one. Not yet.
+
+- **As written (script):** Lyra recognizes him from ch 9 ("IT'S THE MERCHANT WITH THE FREE RAMEN"); 600,000 watching; [ACCEPTED · 00:09]; Sora counts: "THREE. OH, DIRECTOR BAEK IS GOING TO LOVE YOU." Mok raises his shield beside Borro's ("SHUT UP. I'M A TANK…"). Three arrows left at the end.
 
 ### 19. Borrowed Thunder
 - **The problem:** nothing they have can crack the bell-head; Lyra's arrows are too light at 1/5 power.
@@ -82,6 +88,8 @@ Power milestones: PASS I (15); Lyra (18); "Borrowed Thunder" (19); Nib's seal 3/
 - **Laugh:** Lyra poses for Bomi's drone and asks what her cut is.
 - **Hook (threat):** in the dark, Sora lowers her crossbow, and her compass needle points at Lyra, then at Jaeha.
 
+- **As written (script):** the first try fails because Jaeha's knees buckle ([FORCE DROPPED · 70% LOST]); Mok drops his own shield and holds Jaeha up from behind ("DON'T LET GO THIS TIME"); Nib's cooldown ends and he cuts the giant to one knee; [COMBO LEARNED: BORROWED THUNDER]; HARVEST only, ₩900,000,000; Lv. 5 → 6; Route Alignment 0 → 60% (Lyra's call used the 100%); 1.1 million viewers. Jaeha names Minseok to Mok. The money does **not** arrive: in ch 22 the core is held as evidence until the trial. The six of the second team (with the two sealers) wait behind the back door.
+
 ### 20. Three of Five
 - **Mok turns:** with the boss dead and witnesses cut off, Mok decides to finish what he started four years ago. His second team arrives through the flooded passage.
 - **The fight:** Black Hound against Jaeha's team in the ruined nave. Lyra is out of field form; Borro is spent.
@@ -89,6 +97,8 @@ Power milestones: PASS I (15); Lyra (18); "Borrowed Thunder" (19); Nib's seal 3/
 - **[NIB HELD THE LINE FOR HIS OPERATOR] [SEAL 2/5 → 3/5]:** scout-captain armour (design pending, ch 20). Nib dismantles Mok's team in a page of fast, clean panels without killing anyone.
 - **Mok's shield breaks** under Nib's knives. Inside the shield's hollow grip, wrapped in plastic: an old phone. Jaeha recognizes the cracked orange case. Minseok's.
 - **Hook (mystery):** the phone's screen lights up: one video file, four years old.
+
+- **As written (script):** [OPERATOR OVERLOAD · ONLY ONE SUMMON CAN STAY LINKED] after the boss fight, so Lyra and Borro drop to rest form and only Nib fights. Every hit Nib takes opens on Jaeha's body: a gash on his LEFT upper arm, an arrow wound in his RIGHT thigh, a burn down his RIGHT forearm, a cut on his cheek. Seal 3/5 armour (CHARACTER_DESIGNS_v2.md 2.2); all six hunters disarmed and alive. Sora leaves through the high doorway.
 
 ### 21. Ask Him
 - **Cold open:** Bomi's drone has been streaming the whole time: 1.2 million viewers.
@@ -98,6 +108,8 @@ Power milestones: PASS I (15); Lyra (18); "Borrowed Thunder" (19); Nib's seal 3/
 - **Mok breaks:** he drops to his knees. Jaeha doesn't hit him. "You closed the door on him. I'm not going to close it on you. The police will."
 - **Sora slips away** in the confusion.
 - **Hook (threat):** Kanghan Tower. Baek watches the stream end. "Bury Black Hound. And find out what else that phone recorded."
+
+- **As written (script):** opens with the escape: up the ropes and out before the gate closes, carrying all six hunters ("EVERYONE COMES BACK. THAT'S THE ONLY RULE I HAVE."). Mok's motive for keeping the phone, said by Nib: "INSURANCE. IN CASE HIS MASTERS EVER CLOSED A DOOR ON HIM." The phone has 1% battery, so Jaeha plays it once, on stream; it dies right after Minseok's line. The stream ends at 2.0 million. The landlady: "HE CAN KEEP THE PETS."
 
 ### 22. The Last Seconds
 - **Aftermath:** Mok arrested on the news; Black Hound dissolved; Yerin, Bomi, Choi and Seoa celebrate on the rooftop with tteokbokki. Jaeha visits Minseok's niche at the columbarium.
@@ -111,6 +123,19 @@ Power milestones: PASS I (15); Lyra (18); "Borrowed Thunder" (19); Nib's seal 3/
 ## ARC 4 · THE KEPT GATE (23–33): the core farm
 
 Arc beats from the bible: inside, Kanghan keeps a boss chained alive and drains it (a core farm). Moon Ahin has come in alone to learn why her family's guild hires trap-testers for an unregistered gate, so the rivals must work together. They escape with proof; Kanghan's people inside the Association bury it, but Choi keeps a copy. Ends: Jaeha's body breaks under CARRY. Auntie Geum: "Your head is S-rank. Your body is garbage."
+
+**Arc 4 decisions (made while writing the scripts, 25 October):**
+- **Meters:** Operator Lv. 6; summon slots 3/3 (Nib, Borro, Lyra); Route Alignment stays at 60% for the whole arc, because no boss is killed or released. Seals: Nib 3/5, Borro 1/5, Lyra 1/5. Field form 05:00; cooldown about 01:00 inside a gate. LINK Lv. 3 (600 m).
+- **The way in:** a job post on an anonymous board: "NIGHT WORK · MAINTENANCE SURVEY · F-RANK SUMMONERS · CASH · NO NAMES · RESPIRATOR PROVIDED". The crew wear grey coveralls, orange tabards with numbers instead of names (T-1 to T-5) and full-face respirators with smoky visors "for the core dust", so nobody sees a face. Jaeha is T-4, signed up as "Kim Minsu". The numbers echo Moon Ahin's numbered husks.
+- **The summons don't use the front door.** Rest-form summons must stay near him, so Borro walks along the riverbed and Lyra (river-folk) swims in through the bottom of the gate slit, which lies under the waterline behind the enclosure's net; Nib goes over the bridge girders. Inside, they shadow the crew unseen: Nib along the pipes above, Borro and Lyra in the canyon river below the walkways. The crew and Moon Ahin find out in ch 24.
+- **Outside:** Bomi in a 24-hour café on the riverbank with the drone grounded (no stream this time); Choi on standby in a Gate Rescue van; Yerin with a first-aid bag. Seoa at home with the dinner promise.
+- **The crew (generic, small sheets):** Uncle Pyo (63, F-rank for twenty years, a bad knee, T-1); Dami (34, a single mother, T-2); the Jang brothers, Woo (25, T-3) and Ho (23, T-5), saving to open a fried-chicken shop. Foreman Gu (Kanghan site foreman, 50s, clipboard and stun baton).
+- **The iron door:** the door from the ch 14 flashback stands deep in the canyon, propped open, cables running through it. On its inside, scratched into the iron: EVERYONE COMES BACK (ch 26).
+- **The rule that traps everyone:** the Tide Warden is kept alive only by the machines. Unplug it or kill it, and the gate closes with everyone inside (ch 28).
+- **Kanghan's lockdown:** the steel frame bolted round the rim (ch 8) can seal it: [GATE RIM SEALING · 12:00].
+- **Moon Ahin** walks in through the front with a forged inspection order; the foreman bows to the heir. Baek learns she went in (ch 32).
+
+- **As written (script):** Inspector Ryu: the core is evidence until the trial. Bomi splits the stream's ₩48,200,000 in donations four ways (Jaeha, Bomi, Yerin, "your husks"), which pays the rent for a year and Seoa's school trip. At the columbarium Choi reveals he visits every year, gives Jaeha a USB copy of the video ("HIS PHONE IS IN AN EVIDENCE LOCKER NOW. THIS ISN'T."), and remembers a Black Hound man going through young Jaeha's vest at the door: young Mok took the phone Minseok had slipped into the boy's pocket. The video's last seconds: "EAT SOMETHING, KID. YOU NEVER EAT." / "THIS IS WHERE WE ARE. JUST IN CASE." and pier 7 with its flickering lamp (now also in ch 8). The Association record says "CLOSED · BOSS CLEARED". Moon Ahin, alone in the guild hall, finds weekly cash payments to five trap-testers for a Han River site Kanghan says it doesn't have.
 
 ### 23. Under the Bridge
 - **Cold open:** night, the Han River. Through LINK, Jaeha rides Nib's eyes along the bridge girders above the Kanghan enclosure: guards, cables, a gate slit glowing under the pier.
@@ -175,7 +200,7 @@ Arc beats from the bible: inside, Kanghan keeps a boss chained alive and drains 
 - **Smart move:** Jaeha reads her compass: it points at summons in field form, so he drops Nib into rest form at the right moment, the needle swings to Lyra, and Sora's shot goes where the needle points.
 - **Borrowed Thunder II:** Borro blocks Sora's last bolt, the force PASSes to Lyra, and Lyra shoots the compass out of Sora's hand, not Sora.
 - **Sora falls back** into the dark, laughing. "Director Baek is going to love you."
-- **Hook (cost):** they reach the rim with seconds left. Jaeha's hands are shaking too hard to hold the phone.
+- **Hook (cost):** they reach the rim with seconds left. Jaeha tries to text Seoa "on my way", and his hands are shaking too hard to hold the phone.
 
 ### 32. Buried
 - **Outside:** dawn under the bridge; the gate rim seals behind them. Everyone came back.
