@@ -1,0 +1,1238 @@
+chapter: 36
+title: Pim
+format: SCRIPT_FORMAT_v2.md
+when: "Wednesday, 11:42 PM: inside the Call, and Jaeha's body on the breakwater; then the breakwater at midnight. Thursday 5:20 AM at the fish market; Thursday 6:40 AM, sunrise, at the end of the breakwater."
+story_beats: ARC5_BEATS.md#36-pim-hook-mystery
+cast:
+  kang_jaeha: training       # the tracksuit; white bandage on the LEFT forearm
+  pim: default               # 2.19; Geum's headscarf over his antennae P30-P35; the headset from P37; field form P48-P59
+  nib: mask
+  borro: default             # husk face in public
+  lyra: default
+  geum_okran: default        # no headscarf P30-P39 (Pim has it); hers again from P41
+  han_sora: kanghan
+  baek_taegun: default       # his voice on the phone only
+  pc_bang_owner: default
+  market_aunties: default
+  deep_lantern: default      # the voice only; never seen whole (4c.5)
+locations: [call_void, pim_tower, busan_breakwater, busan_fish_market]
+continuity:
+  - "Jaeha: look `training`: Geum's spare purple tracksuit, too short at the wrists and ankles, his own trainers, a towel round his neck; a clean white bandage on his LEFT forearm. Notebook in the LEFT chest pocket of the tracksuit top, pencil behind the RIGHT ear, fringe over the LEFT eye. Inside the Call he looks the same. While he is in the Call (P01-P24), his body stands rigid at the end of the breakwater with its eyes glowing cyan."
+  - "Pim (2.19) exactly: 140 cm to the top of his head, the feathery cream-and-lilac antennae 30 cm more; moon-cream fur with a fluffy ruff; enormous glossy black eyes with no whites and one soft highlight; a tiny mouth that opens very wide; no nose; thin grey-lilac limbs, long fingers (three and a thumb); the lilac signal-keeper's vest with brass buttons and the round brass mirror badge; brass wire coiled round both wrists; the satchel of brass tuning forks; wings folded down his back to the backs of his knees like a soft cape. An adult officer, never a plush mascot or a baby."
+  - "Pim's head: P30-P35 Geum's faded floral headscarf tied over his antennae like a bonnet, knotted under his chin, the antenna tips poking out at the top; from P37 the black over-ear gaming headset with a cracked band and a dead light ring, a little too big, his antennae poking up through the gap in the band. He carries the headscarf in his fist in P37-P38 and hands it back to Geum in P40."
+  - "Pim's field form (P48-P59): the wings open to a 2.6 m span, their eye-spots glowing lilac; the antennae blaze lilac; rings of faint lilac signal ripple out from them; the headset pushed down round his neck."
+  - "Nib: seal 3/5 armour, the cracked husk mask in public; rest form. Borro: the white husk face tied on in public (the breakwater, the market); rest form. Lyra: no mask; rest form."
+  - "Auntie Geum: the checked apron over the purple tracksuit, pink slippers, the steel LEFT arm, the ladle in her RIGHT hand. Her floral headscarf comes off at P29 (she ties it on Pim): short permed grey hair bare P30-P40; she wears it again from P41."
+  - "Han Sora (P34-P35, in the black car on the harbour road as in ch 34): the charcoal Kanghan jacket open over a low black top, her black bob, red lips; the bandage round her RIGHT wrist; the slim silver compass on a fine chain round her LEFT wrist. Lit by the dashboard. Fan service is fine (an adult); the camera stays at or above her shoulder level in the car."
+  - "The PC bang owner (pc_bang_owner, 2.20): a sleepy man in his thirties in a grey hoodie and slippers, an unlit cigarette behind his ear; he chases Pim with a broom."
+  - "The Call (call_void): endless still black water under a starless sky; tall rifts like doors stand round Jaeha, most of them dark, thin Operator-cyan lines running from them to him. Pim's rift (pim_tower) is the lit one: a dark silent plain under a violet-black sky, a broken signal tower of brass and stone with cracked mirrors and trailing wires; other towers dark and toppled on the horizon."
+  - "The thing under the lid (deep_lantern, 4c.5): never shown whole. In Pim's hearing (P56) it is only a faint violet glow like a lantern far down in the black under the lid, and one vast curve of dark hide turning past it."
+plants:
+  - "PLANT P12-P13: something cold listens in the Call too (the Hush; ch 9's [WARNING · UNREGISTERED LISTENER]; Operator #1)."
+  - "PLANT P51-P53: 72 hours means Sunday morning; Kanghan's drilling makes it Friday night (ch 38)."
+  - "PLANT P55-P62: the thing under the lid knows what an Operator is, and the window names Operator #1 (the Deep Lantern was his fighter: ch 39-40, Part Two)."
+hook_type: mystery
+
+panels:
+
+  # ================= THE LAST ONE LISTENING (P01-P10) =================
+  - id: P01
+    recipe: reaction
+    shape: wide
+    gap: none
+    bg: black
+    camera: "eye level on the black water of the Call, side-on: the moth-person bobbing back an arm's length from Jaeha at the mouth of the lit rift, talking a mile a minute"
+    light: "the lit rift's cold violet glow; cyan lines on the water"
+    art: >
+      Inside the Call (location call_void), side-on at eye level: Pim (pim) has bobbed back an arm's length from Jaeha's face to the
+      mouth of the lit rift, hands clasped under his chin, wings fluttering against his back, antennae quivering, words pouring out
+      of him; Jaeha (kang_jaeha, training) leans back on the black water with a sweat drop, ripples round his feet. Scale: the top of
+      Pim's head reaches Jaeha's chest, the antennae his eyes.
+    acting:
+      pim: "hands clasped under his chin, bouncing on his toes, antennae quivering, tiny mouth wide open mid-word"
+      kang_jaeha: "leaning back from him, hands half raised, a sweat drop, eyebrows up"
+    calm: bottom
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.9], text: "[CALL OPEN · 00:57]"}
+    lines:
+      - {who: pim, type: shout, text: "YOU CALLED! YOU ACTUALLY CALLED! I HEARD YOUR MARK GO TING!", side: r}
+    sfx:
+      - {text: "FLUTTER FLUTTER", style: comic, at: [0.80, 0.30], size: S, rot: 4}
+
+  - id: P02
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close over Jaeha's shoulder: Pim counting on his long fingers, eyes sparkling"
+    light: "violet rift light"
+    art: >
+      Over Jaeha's shoulder (kang_jaeha, cropped, left): Pim (pim) counts off on his long grey-lilac fingers, his enormous black eyes
+      sparkling, his antennae swivelling toward Jaeha like dishes.
+    acting:
+      pim: "counting on his fingers, leaning in, eyes huge and sparkling"
+      kang_jaeha: "seen from behind, shoulder stiff"
+    eyeline: "Pim → Jaeha"
+    foreground: "Jaeha's shoulder and the towel, cropped, left"
+    calm: left
+    lines:
+      - {who: pim, type: speech, text: "I'VE HEARD EVERY CALL YOU EVER MADE. THE FREE RAMEN ONE!", side: l}
+      - {who: pim, type: speech, text: "THIRTY PERCENT! FIFTY PERCENT! THEN YOU TORE IT UP! SO DRAMATIC!", side: l}
+
+  - id: P03
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low two-shot side-on from the water: Pim whispering behind one hand up at Jaeha"
+    light: "violet and cyan"
+    face: public
+    art: >
+      Low two-shot, side-on: Pim (pim) leans up toward Jaeha (kang_jaeha, training) and whispers behind one hand, eyes sliding
+      sideways as if someone might overhear in the empty dark; Jaeha looks down at him, polite and pained.
+    acting:
+      pim: "on tiptoe, one hand cupped beside his mouth, eyes sliding sideways, antennae tipped forward"
+      kang_jaeha: "looking down at him, a polite strained smile, one hand rubbing the back of his neck"
+    eyeline: "Pim → Jaeha (up); Jaeha → Pim (down)"
+    foreground: "a rift's dark edge, cropped, right"
+    calm: top
+    lines:
+      - {who: pim, type: whisper, text: "IS IT TRUE THE ARCHER ONLY CAME FOR THE CAMERAS?", side: l}
+      - {who: kang_jaeha, type: speech, text: "...MOSTLY.", side: r}
+
+  - id: P04
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Pim, both hands on his fluffy cheeks, antennae shooting up"
+    light: "violet"
+    art: >
+      Close on Pim (pim), both hands pressed to his fluffy cheeks, antennae shooting straight up, eyes sparkling with scandal.
+    acting:
+      pim: "hands on his cheeks, antennae straight up, eyes enormous, mouth a tiny O"
+    calm: right
+    lines:
+      - {who: pim, type: shout, text: "AND THE GOBLIN! IS HE SINGLE?!", side: l}
+    sfx:
+      - {text: "BOING", style: comic, at: [0.70, 0.20], size: S, rot: 8}
+
+  - id: P05
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: black
+    camera: "eye level on the breakwater at night: Jaeha standing rigid at the edge with glowing eyes, Geum beside him, the three summons arriving behind"
+    light: "the lighthouse beam; a cyan glow from Jaeha's eyes"
+    art: >
+      Meanwhile on the breakwater (location busan_breakwater, night): Jaeha's body (kang_jaeha, training) stands rigid at the very end,
+      eyes glowing cyan and staring at nothing; Geum (geum_okran) stands beside him with the ladle on her shoulder; Lyra (lyra), Nib
+      (nib, mask) and Borro (borro, husk face) arrive behind them down the walkway, Lyra in front with her hands on her hips.
+    acting:
+      kang_jaeha: "rigid, arms at his sides, eyes glowing cyan, blank"
+      geum_okran: "standing guard beside him, the ladle on her shoulder, a finger to her lips"
+      lyra: "striding up, hands on her hips, offended"
+      nib: "padding behind her, ears up, watching Jaeha"
+      borro: "lumbering last, a lettuce leaf in one hand"
+    eyeline: "Lyra → Jaeha; Geum → Lyra"
+    foreground: "the lighthouse railing, cropped, top"
+    calm: top
+    lines:
+      - {who: lyra, type: speech, text: "HE STARTED A CALL WITHOUT US? HOW RUDE.", side: l}
+      - {who: geum_okran, type: speech, text: "SHH. HE'S NEGOTIATING.", side: r}
+    sfx:
+      - {text: "step step", style: quiet, at: [0.20, 0.86], size: S, rot: 0}
+
+  - id: P06
+    recipe: system
+    shape: inset-r
+    gap: long
+    bg: navy
+    camera: "close inside the Call: the corner of Jaeha's face, his eyes flicking to a small timer hanging in the dark"
+    light: "cyan from the timer"
+    face: private
+    art: >
+      Back inside the Call: close on the corner of Jaeha's face (kang_jaeha), his eyes flicking sideways to a small timer hanging in
+      the dark. The upper part is calm for the timer.
+    acting:
+      kang_jaeha: "eyes sliding to the timer, face otherwise still"
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.12], text: "[00:44]"}
+    sfx:
+      - {text: "tik", style: quiet, at: [0.80, 0.70], size: S, rot: 0}
+
+  - id: P07
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, three-quarter on Pim: snapping a salute, then his antennae drooping a little"
+    light: "violet"
+    face: public
+    art: >
+      Three-quarter on Pim (pim) at eye level: he snaps a smart salute with his long fingers at his brow, chest puffed, then his
+      antennae droop a little; Jaeha (kang_jaeha, training) stands at the left edge, cropped.
+    acting:
+      pim: "saluting, chest puffed out, then the antennae drooping, the salute sagging"
+      kang_jaeha: "at the edge, hand half raised in a polite greeting"
+    eyeline: "Pim → Jaeha"
+    foreground: "Jaeha's raised hand, cropped, left"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "WAIT. WHO ARE YOU?", side: l}
+      - {who: pim, type: shout, text: "PIM! SIGNAL KEEPER OF THE NORTHERN RELAY, SECOND CLASS!", side: r}
+      - {who: pim, type: speech, text: "...FIRST CLASS NOW. THERE'S NOBODY LEFT TO OUTRANK ME.", side: r}
+
+  - id: P08
+    recipe: establish
+    shape: tall
+    gap: short
+    bg: black
+    camera: "through the lit rift, from high: a dark silent plain, a broken signal tower, other towers dark and toppled on the horizon"
+    light: "violet-black sky; no other light"
+    art: >
+      Through the lit rift, from high (location pim_tower): a dark silent plain under a violet-black sky; in the middle stands a broken
+      signal tower of brass and stone, its mirrors cracked, its wires trailing in the wind; far off on the horizon, other towers lie
+      dark and toppled. Nothing moves. Scale: the tower is 40 m tall; the plain runs to the edge of sight.
+    calm: top
+    lines:
+      - {who: offpanel:pim, type: speech, text: "THE TOWERS WENT QUIET ONE BY ONE. THEN THE SHIPS. THEN MY FRIENDS."}
+    sfx:
+      - {text: "whooo...", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P09
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of Pim's two enormous black eyes welling up, the cyan line reflected in them"
+    light: "cyan reflected in glossy black"
+    art: >
+      Extreme close-up of Pim's two enormous glossy black eyes (pim), welling up, a thin cyan line reflected in each. Fill the canvas
+      edge to edge.
+    acting:
+      pim: "eyes brimming, very still"
+    calm: none
+    lines:
+      - {who: pim, type: speech, text: "I'M THE LAST ONE LISTENING."}
+
+  - id: P10
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low from the water: Pim flinging his arms wide, wings half opening, beaming up at Jaeha"
+    light: "violet; cyan lines"
+    art: >
+      From low on the water: Pim (pim) flings his arms wide and beams, his folded wings lifting at the edges, the tears gone as fast as
+      they came; Jaeha (kang_jaeha, training) blinks at him.
+    acting:
+      pim: "arms flung wide, beaming, antennae up, wings lifting"
+      kang_jaeha: "blinking, one hand still half raised"
+    eyeline: "Pim → Jaeha"
+    calm: top
+    lines:
+      - {who: pim, type: shout, text: "SO I LISTEN TO YOU! YOUR WORLD IS SO LOUD! I LOVE IT!", side: l}
+    sfx:
+      - {text: "FLAP", style: comic, at: [0.80, 0.30], size: S, rot: 6}
+
+  - id: P11
+    kind: title
+    shape: full
+    gap: long
+    bg: black
+    title_card: "MY SUMMONS GO FIRST · CHAPTER 36 · PIM"
+    notes: "Title card at panel 11 of 62 (18%)."
+
+  # ================= THE OFFER (P12-P24) =================
+  - id: P12
+    recipe: insert
+    shape: inset-l
+    gap: long
+    bg: black
+    camera: "low at the water's surface by Jaeha's feet: the still black water trembling in rings, a faint violet ash rising"
+    light: "cold; a violet trace"
+    art: >
+      Low at the surface by Jaeha's trainers: the perfectly still black water trembles in rings, and a faint thread of violet ash rises
+      through it from something deep below. Nothing else shows.
+    calm: right
+    silent: true
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.88], text: "[00:31]"}
+    sfx:
+      - {text: "rrrr...", style: quiet, at: [0.30, 0.40], size: S, rot: 0}
+
+  - id: P13
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Pim, his antennae swivelling down toward the water and flattening, hugging himself"
+    light: "violet; a cold blue from below"
+    art: >
+      Close on Pim (pim): his antennae swivel down toward the water and flatten against his head; he hugs himself, wings pulled tight.
+    acting:
+      pim: "hugging himself, antennae flattened, eyes on the water below, voice dropping"
+    eyeline: "Pim → the water"
+    calm: left
+    lines:
+      - {who: pim, type: whisper, text: "SOMETHING ELSE IS LISTENING TOO. SOMETHING COLD. HURRY.", side: l}
+    sfx:
+      - {text: "shiver", style: quiet, at: [0.70, 0.70], size: S, rot: 0}
+
+  - id: P14
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low and close on Jaeha, side-on: the sales smile gone, speaking plainly"
+    light: "cyan from below"
+    face: private
+    art: >
+      Low and close, side-on: Jaeha (kang_jaeha, training) straightens on the black water, the polite smile gone; he speaks plainly,
+      one hand open toward Pim.
+    acting:
+      kang_jaeha: "standing straight, one hand open, eyes level and cold-calm"
+    eyeline: "Jaeha → Pim"
+    foreground: "Pim's antenna tip, cropped, right"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "PIM. WE HAVE TWENTY-FIVE SECONDS. WHAT DO YOU WANT?", side: l}
+
+  - id: P15
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, front on Pim: counting on his fingers, dramatic"
+    light: "violet"
+    art: >
+      Front on at eye level: Pim (pim) counts on his long fingers with enormous drama, wings fluttering, antennae flicking at each
+      point.
+    acting:
+      pim: "holding up one finger, then two, leaning in, eyes sparkling, wings fluttering"
+    eyeline: "Pim → Jaeha"
+    foreground: "the black water's ripples, cropped, bottom"
+    calm: top
+    lines:
+      - {who: pim, type: speech, text: "ONE: FESTIVALS! LANTERNS, MUSIC, CROWDS!", side: l}
+      - {who: pim, type: speech, text: "TWO: YOUR DRAMAS. THEY LEAK THROUGH THE GATES IN PIECES.", side: l}
+
+  - id: P16
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close and tilted on Pim clutching his cheeks in anguish"
+    light: "violet"
+    art: >
+      Close and tilted: Pim (pim) clutches his cheeks in anguish, antennae twisting, eyes welling for an entirely different reason.
+    acting:
+      pim: "clutching his cheeks, antennae twisted, eyes welling, mouth wide"
+    calm: right
+    lines:
+      - {who: pim, type: shout, text: "THE CHAEBOL ONE WITH THE AMNESIA! EPISODE FOURTEEN CUT OUT! DOES SHE REMEMBER HIM?!", side: l}
+
+  - id: P17
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close on Jaeha's eyes narrowing, the ghost of an old contract window behind him"
+    light: "cyan"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha) as his eyes narrow, reading Pim like a contract; behind him, faint as a memory, the ghost of the
+      long window of the Call's terms from ch 9.
+    acting:
+      kang_jaeha: "eyes narrowed, head tilted a little, very still"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: inner, text: "THEY HEAR THE HEART UNDER THE OFFER. SO CAN I. HE DOESN'T WANT NOISE."}
+    sfx:
+      - {text: "glance", style: quiet, at: [0.80, 0.70], size: S, rot: 0}
+
+  - id: P18
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Pim, small and quiet, antennae drooping, fingers knotted together"
+    light: "violet"
+    art: >
+      Close on Pim (pim), suddenly small and quiet, his antennae drooping and his long fingers knotted together in front of his vest.
+    acting:
+      pim: "fingers knotted, shoulders hunched, antennae drooping, eyes down"
+    eyeline: "Pim → the water"
+    foreground: "the brass mirror badge on his vest, cropped, bottom"
+    calm: left
+    lines:
+      - {who: pim, type: speech, text: "AND THREE... I DON'T WANT TO BE THE LAST ONE LISTENING ANYMORE.", side: l}
+
+  - id: P19
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: black
+    camera: "eye level on the breakwater: the summons waiting round Jaeha's rigid body, Borro deadpan"
+    light: "the lighthouse beam; cyan from Jaeha's eyes"
+    art: >
+      On the breakwater: Lyra (lyra) taps her boot; Nib (nib, mask) stands right in front of Jaeha's rigid, glowing-eyed body (kang_jaeha,
+      training), watching his face; Borro (borro, husk face) munches his lettuce; Geum (geum_okran) checks her watch.
+    acting:
+      lyra: "arms folded, tapping one boot"
+      nib: "standing close in front of Jaeha, head tilted, watching his eyes"
+      borro: "munching lettuce, calm"
+      geum_okran: "glancing at the watch on her steel wrist"
+      kang_jaeha: "rigid, eyes glowing"
+    eyeline: "Borro → Lyra; Lyra → Jaeha"
+    foreground: "the parapet's edge, cropped, bottom"
+    calm: top
+    lines:
+      - {who: lyra, type: speech, text: "WHAT IS TAKING HIM SO LONG?", side: l}
+      - {who: borro, type: speech, text: "I MADE HIM WAIT UNTIL THE LAST THREE SECONDS. IT BUILDS CHARACTER.", side: r}
+    sfx:
+      - {text: "tap tap", style: quiet, at: [0.20, 0.86], size: S, rot: 0}
+
+  - id: P20
+    recipe: system
+    shape: inset-l
+    gap: long
+    bg: navy
+    camera: "close inside the Call: the timer gone red"
+    light: "red"
+    art: >
+      Inside the Call, close on the small timer hanging in the dark, gone red; the black water below it. The frame is calm for the timer.
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.4], text: "[00:09]"}
+    sfx:
+      - {text: "tik", style: quiet, at: [0.80, 0.80], size: S, rot: 0}
+
+  - id: P21
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low two-shot from the water: Jaeha speaking plainly, Pim looking up at him"
+    light: "cyan lines; violet"
+    face: private
+    art: >
+      Low two-shot from the water: Jaeha (kang_jaeha, training) speaks plainly, no sales smile, one hand open; Pim (pim) looks up at
+      him, antennae slowly rising.
+    acting:
+      kang_jaeha: "one hand open toward Pim, voice level, eyes steady"
+      pim: "looking up, fingers still knotted, antennae lifting"
+    eyeline: "Jaeha → Pim (down); Pim → Jaeha (up)"
+    foreground: "the rift's glowing edge, cropped, right"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "I CAN'T PROMISE MUCH. BUSAN HAS A FIREWORKS FESTIVAL NEXT MONTH.", side: l}
+      - {who: kang_jaeha, type: speech, text: "AND I NEED EARS. SOMETHING UNDER THE SEA IS GETTING LOUDER.", side: l}
+
+  - id: P22
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha, a small honest smile"
+    light: "cyan"
+    face: public
+    art: >
+      Close on Jaeha (kang_jaeha), a small honest smile, crouching a little to Pim's height.
+    acting:
+      kang_jaeha: "crouching a little, a small real smile, hand still open"
+    eyeline: "Jaeha → Pim"
+    foreground: "Pim's fluffy ruff, cropped, left"
+    calm: left
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.62, 0.9], text: "[00:02]"}
+    lines:
+      - {who: kang_jaeha, type: speech, text: "COME AND LISTEN WITH US. YOU WON'T BE THE LAST ONE. YOU'LL BE THE FOURTH.", side: l}
+
+  - id: P23
+    recipe: splash
+    shape: full
+    gap: short
+    bg: black
+    camera: "low from the water, the lit rift behind: Pim launching himself through it at Jaeha, wings flaring wide, arms out"
+    light: "the cyan line blazing white; lilac on the wings"
+    art: >
+      PIM'S LEAP, the chapter's big image. From low on the black water: Pim (pim) launches himself out of the lit rift straight at Jaeha,
+      arms flung out, his cream-and-lilac wings flaring wide for the first time, eye-spots bright, antennae streaming back, tiny mouth
+      wide open in a scream of joy; the cyan line between them blazes white; Jaeha (kang_jaeha, training) braces at the bottom edge with
+      his arms up. Under the water, the cold violet trace sinks away.
+    acting:
+      pim: "mid-leap, arms out, wings flared, screaming with joy"
+      kang_jaeha: "bracing with both arms up, eyes wide"
+    calm: top
+    lines:
+      - {who: pim, type: shout, text: "YES! YES YES YES YES!", side: r}
+    sfx:
+      - {text: "FWOOSH", style: summon, at: [0.30, 0.30], size: XL, rot: -6}
+
+  - id: P24
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "high over the Call as it floods white from the lit rift outward"
+    light: "white flooding the black water"
+    art: >
+      High over the Call: it floods white from the lit rift outward, the black water turning to a mirror of white. The upper half is
+      empty for the window.
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.06], headline: "[ACCEPTED · 00:01]", body: "SUMMON NO. 4 IS COMING THROUGH · SUMMON SLOTS 4/4 · ROUTE ALIGNMENT 100% → 0%", button: "OK"}
+
+  # ================= LOUD (P25-P39) =================
+  - id: P25
+    recipe: anticipation
+    shape: wide
+    gap: long
+    bg: black
+    camera: "low on the breakwater: Jaeha's eyes going dark, a vertical cyan slit tearing open in the air above the walkway, everyone looking up"
+    light: "a cyan slit; frost blowing out; the lighthouse beam"
+    art: >
+      Low on the breakwater: Jaeha's eyes (kang_jaeha, training) stop glowing and he sways; above the walkway a vertical cyan slit tears
+      open in the air, frost and a hiss of radio static blowing out of it; Geum (geum_okran), Lyra (lyra), Nib (nib, mask) and Borro
+      (borro, husk face) look up.
+    acting:
+      kang_jaeha: "swaying, blinking, one hand going to his head"
+      geum_okran: "looking up, the ladle coming off her shoulder"
+      lyra: "looking up, a hand on her hip"
+      nib: "looking up, knives half drawn"
+      borro: "looking up, the lettuce paused at his mouth"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "KZZZZT", style: gate, at: [0.50, 0.20], size: L, rot: 0}
+
+  - id: P26
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low and side-on at concrete level: Pim tumbling out of the slit and landing face-first at Lyra's boots in a heap of fluff and wings"
+    light: "the lighthouse beam; cyan fading"
+    art: >
+      Low and side-on at the level of the concrete: Pim (pim) tumbles out of the slit mid-scream and lands face-first on the walkway in a
+      heap of fluff and crumpled wings, right at Lyra's white boots (lyra, cropped at the knee); cream fluff drifts in the air.
+    acting:
+      pim: "face-down in a heap, wings crumpled, antennae splayed, legs in the air"
+      lyra: "cropped at the knee, one boot stepping back"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "FLUMP", style: impact, at: [0.40, 0.40], size: L, rot: -8}
+
+  - id: P27
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high and wide over the harbour at midnight: Busan's noise drawn as jagged sound shapes rolling over the breakwater, Pim curled up clutching his antennae"
+    light: "city lights; neon; the lighthouse beam"
+    art: >
+      High and wide over the harbour at midnight: the city's noise rolls over the breakwater, a ship's horn, traffic on the harbour
+      bridge, a karaoke bar's echo, club bass thumping from the beach, a buzzing neon sign; at the end of the breakwater Pim (pim) curls
+      up on the concrete clutching his antennae, the others small around him. Scale: the breakwater runs 1 km back to the glittering
+      city.
+    acting:
+      pim: "curled up on his side, both hands clamped over his antennae, wings wrapped round him"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "BWAAAAMP", style: alert, at: [0.30, 0.30], size: L, rot: -4}
+      - {text: "boom tss boom tss", style: comic, at: [0.70, 0.60], size: M, rot: 4}
+
+  - id: P28
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close two-shot from above: Pim flat on his back, Lyra crouching beside him, delighted"
+    light: "the lighthouse beam"
+    art: >
+      From above: Pim (pim) lies flat on his back on the concrete with his hands over his antennae and his wings spread under him; Lyra
+      (lyra) crouches beside him at his head, delighted, chin on her hand. The camera is above her shoulders.
+    acting:
+      pim: "flat on his back, hands over his antennae, eyes spinning, mouth wide"
+      lyra: "crouching, chin on her hand, smiling down at him, eyes shining"
+    eyeline: "Lyra → Pim; Pim → the sky"
+    foreground: "Lyra's braid hanging down, cropped, right"
+    calm: top
+    lines:
+      - {who: pim, type: shout, text: "IT'S SO LOUD! I LOVE IT! I'M DYING!", side: l}
+      - {who: lyra, type: speech, text: "OH, HE'S ADORABLE.", side: r}
+      - {who: pim, type: speech, text: "I'M AN ADULT SIGNAL OFFICER.", side: l}
+    sfx:
+      - {text: "boom tss boom tss", style: comic, at: [0.85, 0.85], size: S, rot: 4}
+
+  - id: P29
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Geum's hands untying her floral headscarf"
+    light: "the lighthouse beam"
+    art: >
+      Close on Geum's hands (geum_okran) untying the knot of her faded floral headscarf at the nape of her neck, her short permed grey
+      hair showing.
+    acting:
+      geum_okran: "untying the scarf with her steel fingers and her flesh hand together"
+    calm: left
+    silent: true
+    sfx:
+      - {text: "shff", style: quiet, at: [0.70, 0.40], size: S, rot: 0}
+
+  - id: P30
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level two-shot, Geum kneeling: tying the headscarf over Pim's antennae like a bonnet"
+    light: "the lighthouse beam"
+    art: >
+      Geum (geum_okran, bareheaded now) kneels and ties the floral headscarf over Pim's antennae (pim) like a bonnet, knotting it under
+      his chin; the antenna tips poke out of the top. He sits up and goes very still, blinking.
+    acting:
+      geum_okran: "kneeling, knotting the scarf under his chin, gruff"
+      pim: "sitting up, perfectly still, blinking, hands in his lap"
+    eyeline: "Geum → the knot; Pim → nothing, listening"
+    foreground: "the ladle lying on the concrete, cropped, bottom"
+    calm: top
+    lines:
+      - {who: pim, type: speech, text: "...OH. OH, THAT'S MUCH BETTER.", side: r}
+      - {who: geum_okran, type: speech, text: "WELCOME TO BUSAN. IT'S LOUD.", side: l}
+
+  - id: P31
+    recipe: name-card
+    shape: tall
+    gap: short
+    bg: black
+    camera: "eye level, full figure: Pim standing tall at the end of the breakwater in the headscarf bonnet, hand on his chest, the lighthouse behind"
+    light: "key: the lighthouse beam sweeping behind him; soft lilac rim"
+    art: >
+      Eye level, full figure: Pim (pim) stands as tall as 140 cm can at the end of the breakwater, the floral headscarf tied over his
+      antennae, one hand on his chest over the brass mirror badge, the other raised in a salute, wings folded down his back like a cape,
+      the lighthouse beam sweeping behind him. Full model-sheet proportions. Name-card gradient behind him, lilac to night blue; leave
+      the left third calm for the name card. Scale: the parapet reaches his waist.
+    acting:
+      pim: "standing proud, one hand on his chest, saluting with the other, chin up, eyes shining"
+    calm: left
+    intro: "PIM · SIGNAL KEEPER OF THE FAR SIDE · SUMMON NO. 4"
+    lines:
+      - {who: pim, type: shout, text: "PIM, SIGNAL KEEPER! AT YOUR SERVICE, BOSS!", side: r}
+
+  - id: P32
+    recipe: system
+    shape: inset-l
+    gap: short
+    bg: navy
+    camera: "close on Jaeha reading a window, a small smile"
+    light: "cyan"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha, training) reading a window, a small smile. The upper part is empty for the window.
+    acting:
+      kang_jaeha: "reading, a small smile, hand rubbing his temple"
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.log, "on": float, at: [0.5, 0.04], headline: "[SUMMON NO. 4: PIM]", lines: ["SIGNAL KEEPER · SEAL 1/5", "FIELD FORM 06:00", "REST FORM: HEARS SIGNALS NEARBY", "FIELD FORM: HEARS A CITY · SENDS A SIGNAL"]}
+
+  - id: P33
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: Pim whispering behind his hand into Lyra's pointed ear, Lyra gasping, Jaeha behind them, suspicious"
+    light: "the lighthouse beam"
+    face: public
+    art: >
+      Eye level: Pim (pim) stands on the parapet to reach Lyra's pointed ear (lyra) and whispers behind his hand; she gasps with delight,
+      fingers over her mouth; behind them Jaeha (kang_jaeha, training) narrows his eyes.
+    acting:
+      pim: "on the parapet, whispering behind his hand, eyes sliding to Jaeha"
+      lyra: "bending to listen, fingers over her mouth, eyes wide with scandalised glee"
+      kang_jaeha: "behind them, arms folded, eyes narrowed"
+    eyeline: "Pim → Lyra's ear; Lyra → Jaeha; Jaeha → them"
+    foreground: "the lighthouse door frame, cropped, left"
+    calm: top
+    lines:
+      - {who: lyra, type: speech, text: "HE SAID THAT? ABOUT ME? IN THE CALL?", side: l}
+      - {who: kang_jaeha, type: speech, text: "WHAT DID HE SAY?", side: r}
+      - {who: lyra, type: speech, text: "NOTHING.", side: l}
+    sfx:
+      - {text: "gasp", style: quiet, at: [0.30, 0.30], size: S, rot: 0}
+
+  - id: P34
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: black
+    camera: "eye level from across the harbour road at night: the black sedan in the shade of a tree, the breakwater's lighthouse far behind"
+    light: "a streetlight; the dashboard glow inside"
+    art: >
+      Across the harbour road at night, at eye level: the black sedan with tinted windows is parked under a tree, engine off, a faint
+      dashboard glow inside; far beyond it, the breakwater's red lighthouse blinks.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "tik... tik...", style: quiet, at: [0.30, 0.70], size: S, rot: 0}
+
+  - id: P35
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level from the passenger seat: Sora watching the compass on her left wrist spin, the phone at her ear"
+    light: "dim dashboard glow; violet from the compass needle"
+    art: >
+      Inside the sedan, from the passenger seat: Han Sora (han_sora, kanghan) lounges in the driver's seat, the charcoal jacket open
+      over a low black top, red lips, the phone at her ear; she holds up her LEFT wrist, where the slim silver compass's violet needle
+      spins round and round, blazing; her bandaged RIGHT wrist rests on the wheel.
+    acting:
+      han_sora: "holding up her LEFT wrist to watch the spinning needle, the phone at her ear, a slow amused smile"
+    eyeline: "Sora → the compass"
+    foreground: "the gear stick and the dashboard, cropped, bottom"
+    calm: top
+    lines:
+      - {who: han_sora, type: speech, text: "A FOURTH ONE, DIRECTOR. SOMETHING WITH WINGS.", side: l}
+      - {who: baek_taegun, type: phone, text: "GOOD. LET HIM GATHER THEM. IT SAVES US THE TROUBLE.", side: r}
+    sfx:
+      - {text: "whirrr", style: quiet, at: [0.40, 0.60], size: S, rot: 0}
+
+  # ================= THURSDAY (P36-P45) =================
+  - id: P36
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: black
+    camera: "eye level down the fish market aisle under fluorescent tubes: Jaeha carrying an ice crate, Borro carrying three, a commotion at the far end"
+    light: "fluorescent; wet concrete shine"
+    art: >
+      Thursday before dawn in the fish market (location busan_fish_market), eye level down the long aisle under fluorescent tubes: Jaeha
+      (kang_jaeha, training) staggers along with a crate of ice; Borro (borro, husk face) carries three without effort; at the far end of
+      the aisle the aunties (market_aunties) jump aside from some commotion.
+    acting:
+      kang_jaeha: "carrying a crate of ice against his chest, knees bent, arms trembling a little, turning his head"
+      borro: "carrying three crates stacked, turning his head"
+      market_aunties: "jumping aside at the far end, rubber aprons flapping"
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "THURSDAY, 5:20 AM."}
+      - {who: offpanel:pc_bang_owner, type: shout, text: "HEY! COME BACK HERE!"}
+    sfx:
+      - {text: "clatter", style: quiet, at: [0.80, 0.60], size: S, rot: 0}
+
+  - id: P37
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low and head-on down the wet aisle: Pim sprinting toward camera in a gaming headset, the PC bang owner chasing him with a broom"
+    light: "fluorescent; splashes"
+    art: >
+      Low and head-on down the wet aisle: Pim (pim) sprints toward us between the fish tanks, wings flapping, a black over-ear gaming
+      headset clamped over the base of his antennae, its cable trailing behind him, Geum's headscarf flying loose in one hand; behind
+      him the PC bang owner (pc_bang_owner), in a grey hoodie and slippers with an unlit cigarette behind his ear, swings a broom at him;
+      water splashes up from the floor.
+    acting:
+      pim: "sprinting, wings flapping, both hands holding the headset on, the headscarf fluttering from one fist"
+      pc_bang_owner: "running in slippers, swinging the broom overhead, furious and half asleep"
+    calm: top
+    lines:
+      - {who: pc_bang_owner, type: shout, text: "THAT'S MY HEADSET!", side: r}
+      - {who: pim, type: shout, text: "I'M BORROWING IT!", side: l}
+    sfx:
+      - {text: "WHAP", style: impact, at: [0.70, 0.30], size: M, rot: 8}
+      - {text: "splash splash", style: quiet, at: [0.30, 0.86], size: S, rot: 0}
+
+  - id: P38
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level two-shot: Geum stepping into the aisle and stopping the owner with the ladle across his chest"
+    light: "fluorescent"
+    art: >
+      Eye level: Geum (geum_okran, still bareheaded) steps into the aisle and stops the PC bang owner (pc_bang_owner) dead with the
+      ladle's handle across his chest; the broom droops; Pim (pim) hides behind her apron.
+    acting:
+      geum_okran: "planted, the ladle held across his chest with her RIGHT hand, eyebrow up"
+      pc_bang_owner: "stopped short, the broom drooping, deflating"
+      pim: "peeking out from behind Geum's apron, holding the headset on with both hands"
+    eyeline: "Geum → the owner; the owner → the ladle"
+    foreground: "a red plastic tub of crabs, cropped, bottom"
+    calm: top
+    lines:
+      - {who: geum_okran, type: speech, text: "HOW MUCH?", side: l}
+      - {who: pc_bang_owner, type: speech, text: "...FORTY THOUSAND WON. IT'S A GOOD ONE.", side: r}
+
+  - id: P39
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close from above: Jaeha's hands counting four notes into the owner's palm, his notebook open on an ice crate"
+    light: "fluorescent"
+    face: private
+    art: >
+      Close from above: Jaeha's hands (kang_jaeha) count four 10,000-won notes into the owner's open palm; beside them, his notebook lies
+      open on an ice crate with a new line written in it. Leave a blank band on the page for the letterer's note. No readable text.
+    acting:
+      kang_jaeha: "only his hands: counting the notes out one by one, steady, a little wet from the ice"
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: note, text: "SEOA'S BUDGET: -40,000 WON. HEADSET (PIM)."}
+    sfx:
+      - {text: "flip flip", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P40
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Pim in the headset, eyes closed, blissful, handing the headscarf back up to Geum"
+    light: "fluorescent"
+    art: >
+      Close on Pim (pim) in the black gaming headset, his antennae poking up through the gap in the cracked band, eyes closed in bliss;
+      without looking, he holds Geum's floral headscarf back up to her (geum_okran, her hand only at the edge).
+    acting:
+      pim: "eyes closed, smiling, swaying a little, holding the scarf up with one hand"
+      geum_okran: "only her flesh hand at the edge, taking the scarf"
+    calm: left
+    lines:
+      - {who: pim, type: speech, text: "IT MUFFLES THE CITY. I CAN HEAR MYSELF THINK.", side: l}
+    sfx:
+      - {text: "sigh", style: quiet, at: [0.70, 0.70], size: S, rot: 0}
+
+  - id: P41
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Jaeha's phone in his hand, the screen flat green"
+    light: "the screen"
+    art: >
+      Close on Jaeha's phone in his wet hand by the ice crates, the screen flat green.
+    calm: right
+    silent: true
+    ui:
+      - kind: phone.ttok_chat
+        "on": screen
+        title: "SEOA"
+        messages:
+          - {from: me, text: "we have a no. 4", time: "05:31"}
+          - {from: them, text: "ANOTHER MOUTH??", time: "05:31"}
+          - {from: me, text: "he eats lettuce and watches dramas", time: "05:32"}
+          - {from: them, text: "dramas are free. fine", time: "05:32"}
+          - {from: them, text: "why is there a 40,000 won headset in the budget", time: "05:33"}
+
+  - id: P42
+    recipe: chibi
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "chibi gag, flat"
+    light: "flat"
+    art: >
+      Chibi gag: the three chibi aunties (market_aunties) crowd round chibi Pim (pim), pinching his fluffy cheeks and stuffing fish cakes
+      into his satchel; chibi Pim, headset askew, flails in outrage.
+    acting:
+      market_aunties: "chibi, pinching his cheeks, cooing, stuffing his satchel"
+      pim: "chibi, flailing, antennae bristling, outraged"
+    calm: top
+    lines:
+      - {who: pim, type: shout, text: "I'M AN ADULT! I HAVE A RANK!", side: r}
+    sfx:
+      - {text: "PINCH PINCH", style: comic, at: [0.30, 0.30], size: M, rot: -6}
+
+  - id: P43
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level behind the stalls: Borro holding out a lettuce leaf to Pim with two huge fingers"
+    light: "fluorescent; dawn grey in the doorway"
+    art: >
+      Behind the stalls: Borro (borro, husk face pushed up) crouches and holds out a single lettuce leaf to Pim (pim) between two huge
+      fingers, gently; Pim takes it in both hands, overwhelmed.
+    acting:
+      borro: "crouching low, holding out the leaf between two fingers, slow and careful"
+      pim: "taking the leaf in both hands, eyes welling, antennae up"
+    eyeline: "Pim → Borro (up); Borro → Pim"
+    foreground: "a stack of ice crates, cropped, left"
+    calm: top
+    lines:
+      - {who: pim, type: speech, text: "FOR ME? NOBODY'S GIVEN ME A PRESENT IN SO LONG.", side: r}
+      - {who: borro, type: speech, text: "IT IS LETTUCE.", side: l}
+    sfx:
+      - {text: "crunch", style: quiet, at: [0.70, 0.70], size: S, rot: 0}
+
+  - id: P44
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Nib on an ice crate, staring flatly at Pim, Pim waving at him shyly"
+    light: "fluorescent"
+    art: >
+      Close on Nib (nib, mask) sitting on an ice crate, staring flatly; at the edge of the frame Pim (pim) waves at him shyly with the
+      lettuce.
+    acting:
+      nib: "sitting on the crate, arms folded, a flat unblinking stare"
+      pim: "at the edge, waving shyly with the lettuce, antennae tipped hopefully"
+    eyeline: "Nib → Pim; Pim → Nib"
+    calm: right
+    lines:
+      - {who: nib, type: speech, text: "......", side: l}
+    sfx:
+      - {text: "stare", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P45
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close two-shot: Pim whispering up to Lyra, Lyra answering with a smug little smile"
+    light: "fluorescent"
+    art: >
+      Close two-shot: Pim (pim) whispers up to Lyra (lyra) behind his hand; she answers out of the corner of her mouth with a smug
+      little smile, both of them looking at Nib off-panel.
+    acting:
+      pim: "whispering behind his hand, eyes on Nib off-panel"
+      lyra: "bending a little, a smug smile, flicking her braid"
+    eyeline: "both → Nib, off-panel"
+    foreground: "Nib's ear tip, cropped, left"
+    calm: left
+    lines:
+      - {who: pim, type: whisper, text: "IS HE ALWAYS LIKE THIS?", side: l}
+      - {who: lyra, type: whisper, text: "ALWAYS. IT'S HIS CHARM.", side: r}
+
+  # ================= IT'S COUNTING (P46-P55) =================
+  - id: P46
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: black
+    camera: "high from the lighthouse at sunrise: the end of the breakwater, the sea flat and pink-grey, a faint violet stain far out, the six of them small"
+    light: "sunrise behind the sea; pink-grey"
+    art: >
+      Sunrise, from high on the lighthouse: the sea lies flat and pink-grey; two kilometres out, a faint violet stain spreads on the
+      water; at the end of the breakwater stand Jaeha (kang_jaeha, training), Geum (geum_okran), Pim (pim), Nib (nib, mask), Lyra (lyra)
+      and Borro (borro, husk face), small. Scale: the walkway is 6 m wide; the tetrapods are as big as cars.
+    acting:
+      kang_jaeha: "small, standing at the parapet, notebook in hand"
+      geum_okran: "small, the ladle on her shoulder, facing the sea"
+      pim: "small, at the parapet in his headset, antennae twitching"
+      nib: "small, crouched on the parapet"
+      lyra: "small, leaning on the lighthouse rail"
+      borro: "small, standing behind them like a wall"
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "6:40 AM."}
+    sfx:
+      - {text: "shhhh...", style: quiet, at: [0.50, 0.86], size: S, rot: 0}
+
+  - id: P47
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level behind Geum: the ladle pointing out to sea, Pim beside her sliding the headset down round his neck"
+    light: "sunrise"
+    art: >
+      From behind Geum at eye level: she points the ladle out to sea at the violet stain; Pim (pim) stands beside her at the parapet and
+      slides the headset down round his neck, his antennae unfolding slowly.
+    acting:
+      geum_okran: "pointing the ladle out to sea, feet planted"
+      pim: "sliding the headset down round his neck, antennae unfolding, swallowing"
+    eyeline: "Geum → the stain; Pim → the stain"
+    foreground: "Geum's shoulder and headscarf, cropped, left"
+    calm: top
+    lines:
+      - {who: geum_okran, type: speech, text: "THE LID'S OUT THERE. TWO KILOMETRES. TELL ME WHAT YOU HEAR.", side: l}
+
+  - id: P48
+    recipe: summon-arrival
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from behind Pim at the parapet: his wings opening to their full span against the sunrise, eye-spots glowing, rings of lilac rippling out over the sea"
+    light: "sunrise behind; lilac glow from the wings and antennae"
+    art: >
+      From low behind Pim (pim, field form) at the parapet: his wings open to their full 2.6 m span against the sunrise, the eye-spots
+      glowing lilac; his antennae blaze; rings of faint lilac signal ripple out from them over the sea. At the left edge, Jaeha
+      (kang_jaeha, training) has two fingers at his temple. The lower part is calm for the window.
+    acting:
+      pim: "standing at the parapet, wings spread wide, arms a little out, head up, antennae blazing"
+      kang_jaeha: "two fingers at his temple, eyes narrowed against the light"
+    calm: bottom
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.88], text: "[FIELD FORM · PIM 06:00 · LINKED]"}
+    sfx:
+      - {text: "FWOOM", style: summon, at: [0.50, 0.30], size: L, rot: 0}
+
+  - id: P49
+    recipe: link-view
+    shape: wide
+    gap: short
+    bg: black
+    camera: "split frame: left, Jaeha's face lit lilac; right, Pim's hearing of the sea as rippling lilac rings, ships as bright pings, a slow pulse far out"
+    light: "lilac"
+    face: private
+    art: >
+      Split frame with a thin lilac seam. LEFT: Jaeha's face (kang_jaeha) lit lilac, eyes wide. RIGHT: Pim's hearing through a thin
+      lilac vignette: the sea drawn as rippling lilac rings, boats as small bright pings, the city behind as a roaring wall of colour;
+      and two kilometres out, under the water, one slow, heavy pulse, ring after ring, like a heartbeat.
+    acting:
+      kang_jaeha: "eyes wide, lips parted, two fingers at his temple"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: inner, text: "SO THIS IS WHAT HE HEARS. THE WHOLE SEA."}
+    sfx:
+      - {text: "thmm... thmm...", style: quiet, at: [0.80, 0.70], size: S, rot: 0}
+
+  - id: P50
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Pim's face as his eyes snap open, antennae straight up"
+    light: "lilac; sunrise"
+    art: >
+      Close on Pim (pim, field form) as his eyes snap open, antennae shooting straight up and blazing.
+    acting:
+      pim: "eyes snapping open, antennae rigid, wings trembling"
+    calm: right
+    lines:
+      - {who: pim, type: speech, text: "BOSS. IT'S COUNTING.", side: l}
+    sfx:
+      - {text: "TWITCH", style: quiet, at: [0.70, 0.20], size: S, rot: 0}
+
+  - id: P51
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "high over the end of the breakwater and the sea, a big window hanging over the water"
+    light: "cyan window; sunrise"
+    art: >
+      High over the end of the breakwater and the pink-grey sea, the violet stain far out; the group small below. The upper half is
+      empty for the window.
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.06], headline: "[SEALED GATE · BUSAN]", body: "LID INTEGRITY 9% · ESTIMATED FAILURE 72:00:00", button: "OK"}
+
+  - id: P52
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Geum's steel arm twitching, her flesh hand gripping it"
+    light: "sunrise"
+    art: >
+      Close on Geum's steel LEFT arm (geum_okran) twitching, its plates clicking, and her flesh RIGHT hand clamping down on it to hold it
+      still, the ladle tucked under her arm.
+    acting:
+      geum_okran: "gripping the twitching steel forearm with her flesh hand, knuckles white"
+    calm: left
+    silent: true
+    sfx:
+      - {text: "click click", style: quiet, at: [0.30, 0.40], size: S, rot: 0}
+
+  - id: P53
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level two-shot: Geum grim, Jaeha writing in his notebook"
+    light: "sunrise"
+    face: private
+    art: >
+      Eye-level two-shot: Geum (geum_okran) stares out at the stain, grim; Jaeha (kang_jaeha, training) writes fast in his notebook.
+    acting:
+      geum_okran: "staring out to sea, jaw set, the ladle under her arm"
+      kang_jaeha: "writing fast, then looking up"
+    eyeline: "Geum → the sea; Jaeha → Geum"
+    foreground: "the parapet's edge, cropped, bottom"
+    calm: top
+    lines:
+      - {who: geum_okran, type: speech, text: "SEVENTY-TWO HOURS. SUNDAY, AT DAWN.", side: l}
+      - {who: kang_jaeha, type: speech, text: "THEN WE TELL THE ASSOCIATION TODAY.", side: r}
+      - {who: geum_okran, type: speech, text: "YANG WILL LISTEN. SEOUL WON'T.", side: l}
+
+  # ================= SOMETHING UNDER THE COUNT (P54-P62) =================
+  - id: P54
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, side-on: Pim freezing at the parapet, his antennae turning slowly downward toward the water"
+    light: "lilac; the sunrise dimming behind a cloud"
+    art: >
+      Side-on at eye level: Pim (pim, field form) freezes at the parapet, wings still open; his blazing antennae turn slowly, like
+      dishes, down toward the deep water; everyone else turns to look at him.
+    acting:
+      pim: "frozen, wings rigid, antennae turning downward, eyes huge"
+      kang_jaeha: "turning to him, two fingers still at his temple"
+    eyeline: "Pim → the deep water; Jaeha → Pim"
+    calm: top
+    lines:
+      - {who: pim, type: whisper, text: "WAIT. THERE'S SOMETHING UNDER THE COUNT.", side: l}
+    sfx:
+      - {text: "creak", style: quiet, at: [0.80, 0.70], size: S, rot: 0}
+
+  - id: P55
+    recipe: link-view
+    shape: tall
+    gap: short
+    bg: black
+    camera: "Pim's hearing, plunging down: under the pulsing rings, down through the lid, a faint violet lantern glow far below and a vast curve of hide turning past it"
+    light: "lilac rings above; black below; one violet glow"
+    art: >
+      Pim's hearing, plunging down through a thin lilac vignette: past the slow pulsing rings of the count, down through a great disc
+      of stone slabs and steel plates on the seabed (the lid, cracked), and into black water below it, where, very far down, a faint
+      violet glow hangs like a lantern, and one vast curve of dark hide slides slowly past it (deep_lantern, never shown whole).
+    acting:
+      deep_lantern: "only a curve of hide turning in the dark past the glow"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "thmm...", style: quiet, at: [0.50, 0.30], size: S, rot: 0}
+
+  - id: P56
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of Pim's eye, a violet glow reflected deep in the glossy black"
+    light: "violet in black"
+    art: >
+      Extreme close-up of one of Pim's eyes (pim), the glossy black trembling, a tiny violet glow reflected deep in it. Fill the canvas
+      edge to edge.
+    acting:
+      pim: "the eye trembling, wide"
+    calm: none
+    silent: true
+    sfx:
+      - {text: "tremble", style: quiet, at: [0.80, 0.50], size: S, rot: 0}
+
+  - id: P57
+    recipe: splash
+    shape: full
+    gap: short
+    bg: black
+    camera: "high over the empty sea, the violet stain under the water, the breakwater a thread at the edge: the voice"
+    light: "a dim violet glow under the sea; dawn gone grey"
+    art: >
+      High over the empty grey sea: the violet stain glows faintly under the water, two kilometres out; the breakwater is a thin thread
+      at the very bottom edge, the lighthouse a red dot. Nothing visible rises. Leave the upper two thirds empty and dark for the
+      voice's broken lettering.
+    calm: top
+    lines:
+      - {who: deep_lantern, type: monster, text: "<...O... PER... A... TOR...?>", side: l}
+    sfx:
+      - {text: "VMMMMMMM", style: gate, at: [0.50, 0.70], size: L, rot: 0}
+
+  - id: P58
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low on the walkway: Jaeha staggering back a step with a nosebleed, hand at his ear, Nib catching his sleeve, Geum's head snapping round"
+    light: "grey dawn; lilac"
+    face: private
+    art: >
+      Low on the walkway: Jaeha (kang_jaeha, training) staggers back a step, a thin nosebleed starting, one hand at his ear, the LINK
+      having carried the voice into him; Nib (nib, mask) catches his sleeve; Geum (geum_okran) snaps her head round to him; Lyra (lyra)
+      and Borro (borro, husk face) step closer.
+    acting:
+      kang_jaeha: "staggering back, hand at his ear, a thin line of blood from his nose, eyes wide"
+      nib: "gripping Jaeha's sleeve with both hands, ears flat"
+      geum_okran: "head snapping round, the ladle coming up"
+      lyra: "stepping in, hand reaching out"
+      borro: "stepping in behind, shield half raised"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "THUD", style: impact, at: [0.30, 0.70], size: M, rot: -6}
+
+  - id: P59
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Pim shaking, wings folding tight round him, hands over his antennae"
+    light: "lilac fading; grey"
+    art: >
+      Close on Pim (pim, field form fading) shaking, his wings folding tight round him like a blanket, both hands pressed over his
+      antennae.
+    acting:
+      pim: "shaking, wings wrapped tight, hands over his antennae, eyes brimming"
+    eyeline: "Pim → Jaeha"
+    calm: right
+    lines:
+      - {who: pim, type: speech, text: "BOSS... IT KNOWS WHAT YOU ARE.", side: l}
+
+  - id: P60
+    recipe: system
+    shape: inset-r
+    gap: short
+    bg: navy
+    camera: "close on Jaeha's face behind a window that tears and glitches, red and blue fringes"
+    light: "glitch red and blue"
+    face: private
+    art: >
+      Close on Jaeha's face (kang_jaeha), blood on his lip, half lost behind a window that tears and glitches, its edges splitting into
+      offset red and blue fringes, then breaking up. The upper half is the glitching window.
+    acting:
+      kang_jaeha: "staring into the window, frozen"
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.glitch, "on": float, at: [0.5, 0.06], text: "[OPERATOR #1 — STATUS: HUSHED]"}
+
+  - id: P61
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on the empty air where the window was, a few cyan specks fading"
+    light: "grey dawn"
+    art: >
+      Close on the empty air in front of Jaeha where the window was: a few cyan specks drift and fade over the grey sea.
+    calm: right
+    silent: true
+    sfx:
+      - {text: "fzzt...", style: quiet, at: [0.40, 0.40], size: S, rot: 0}
+
+  - id: P62
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low and close on Jaeha, looking out to sea, wiping the blood from his lip"
+    light: "grey dawn; the lighthouse blinking"
+    face: private
+    art: >
+      Low and close: Jaeha (kang_jaeha, training) looks out at the grey sea, wiping the blood from his lip with his bandaged LEFT wrist,
+      his eyes cold and very still; the lighthouse blinks behind him.
+    acting:
+      kang_jaeha: "wiping his lip with the back of his bandaged wrist, eyes fixed on the sea"
+    eyeline: "Jaeha → the sea"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "...NUMBER ONE?", side: l}
+
+  - id: END
+    kind: end
+    chibi_gag: "Chibi Pim in the giant headset and chibi Lyra share a blanket in Geum's tent, binge-watching a drama on Jaeha's phone and sobbing into each other; chibi Nib sits in the corner: '......'; Pim, wailing: 'SHE REMEMBERS HIM!!'"
