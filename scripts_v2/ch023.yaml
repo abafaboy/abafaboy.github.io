@@ -1,0 +1,1250 @@
+chapter: 23
+title: Under the Bridge
+format: SCRIPT_FORMAT_v2.md
+when: "Tuesday night: the bridge girders over the Kanghan enclosure, through Nib's eyes; Wednesday evening: the rooftop room; Thursday from 10:50 PM: the riverside park, the enclosure, and the inside of the Han River gate."
+story_beats: ARC3_4_BEATS.md#23-under-the-bridge
+cast:
+  kang_jaeha: hoodie         # P01-P24; from P26 the crew's grey coveralls, orange T-4 tabard and respirator
+  nib: mask                  # seal 3/5 scout-captain armour; rest form; no mask at home
+  borro: default
+  lyra: default
+  song_yerin: default
+  yoo_bomi: default
+  choi_dongmin: default
+  kang_seoa: default
+  foreman_gu: default        # generic: Kanghan site foreman, see continuity
+  crew_pyo: default          # generic: Uncle Pyo, T-1, name card P30
+  crew_dami: default         # generic: Dami, T-2
+  crew_woo: default          # generic: Jang Woo, T-3
+  crew_ho: default           # generic: Jang Ho, T-5
+  kanghan_guard: default     # generic (CHARACTER_DESIGNS_v2.md 2.14)
+  kanghan_engineer: default  # generic, see continuity
+  moon_ahin: default         # P63-P64
+  ahin_husks: default        # her forty husks
+locations: [hanriver_gate, rooftop_room, farm_canyon]
+continuity:
+  - "Jaeha, healing: Yerin has closed the worst wounds; a plaster on his cheek, bandages under his sleeves; he still favours his RIGHT leg but walks without the stick from P25 (he leaves it at home on purpose)."
+  - "The crew's kit (from P26): grey work coveralls; an orange tabard with a big black stencilled number front and back (1 to 5); a full-face respirator with a smoky tinted visor and twin round filters, so the face behind it is only a dark shape; a yellow hard hat with a lamp. Jaeha is number 4. Once the masks are on (P35), the five look the same apart from height and number."
+  - "Foreman Gu (generic): a thickset Kanghan site foreman in his fifties, a grey coverall with the silver hexagon emblem (no letters), a hard hat, a clipboard and a black stun baton on his belt, a respirator hanging at his neck; bored and mean."
+  - "The crew (generic, all F-rank summoners): Uncle Pyo (63, T-1): small and wiry, a grey crew cut, a weathered kind face, a bad LEFT knee in a brace; Dami (34, T-2): tired, hair in a low bun, a phone with her daughter's photo as its lock screen; Jang Woo (25, T-3) and Jang Ho (23, T-5): brothers, both lanky with the same big ears, Ho with bleached hair. Each sends one plain husk ahead (section 3: the dull matte white mannequin); Jaeha makes one too."
+  - "Kanghan engineers (generic): grey coveralls with the hexagon emblem, white hard hats, respirators, tablets. Kanghan guards: CHARACTER_DESIGNS_v2.md 2.14."
+  - "The enclosure (location hanriver_gate): as in ch 8 and ch 22: the fence hung with black tarps, two containers, the generator, the cables, the gate slit in the shadow of pier 7 with its faded yellow 7 and the flickering lamp. New: the bottom third of the slit lies below the river's edge, behind a sagging steel net; a crane truck and a box truck inside the fence; crates with a faint violet glow."
+  - "Inside the gate (new location farm_canyon): a vast Far Side canyon in a dim violet-grey twilight with no sun: sheer dark rock walls 400 m deep, a thread of river far below. Steel walkways 2 m wide with rails are bolted into the walls and zig-zag down; pipes as thick as trucks run beside them down into the dark, humming; work lights on poles; cables everywhere. Old Far Side trap stones are set into the rock and the walkways' rock ledges: square carved plates with worn spiral marks. A steel engineers' cabin on a platform at the first landing."
+  - "The summons inside (P41-P61): unseen by the crew. Nib moves along the top of the pipes above the walkways; Borro and Lyra keep to the river at the canyon floor. They show only when the art is from their side."
+  - "Moon Ahin (P63-P64): her full design (2.11), walking down the walkway as if the abyss is not there. Her forty husks (ahin_husks): polished porcelain white with fine silver seams, marching two by two in perfect step."
+plants:
+  - "PLANT P06-P09: Kanghan is moving cores out by the truckload, faster since Saturday."
+  - "PLANT P22-P23: the dinner promise, Friday at seven (ch 31, ch 33)."
+  - "PLANT P44: the gate has been open for four years, and its boss is alive (ch 26)."
+  - "PLANT P58-P60: the heir has an inspection order from the board (ch 24, ch 32)."
+hook_type: arrival
+
+panels:
+
+  # ================= TUESDAY NIGHT (P01-P11) =================
+  - id: P01
+    recipe: link-view
+    shape: full
+    gap: none
+    bg: black
+    camera: "Nib's point of view from a bridge girder 20 m up, looking straight down at the lit enclosure, in a thin amber vignette"
+    light: "orange sodium lights on the span; work lights inside the fence; a white-cyan glow from the slit"
+    art: >
+      Nib's point of view in a thin amber vignette, from a steel girder under the bridge span, 20 m up, looking straight down:
+      the fenced enclosure on the riverbank (location hanriver_gate), black tarps, the two containers, a crane truck and a box
+      truck lit by work lights; small figures of Kanghan engineers (kanghan_engineer) loading crates that glow faintly violet onto
+      the truck; two guards (kanghan_guard) with torches; in the pier's shadow, the gate slit glowing white-cyan, its bottom third
+      under the river's edge behind a sagging net. Scale: the people are the size of grains of rice.
+    acting:
+      kanghan_engineer: "tiny figures carrying crates two to a crate"
+      kanghan_guard: "two tiny figures walking a slow patrol with torches"
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "TUESDAY NIGHT. UNDER THE BRIDGE."}
+    sfx:
+      - {text: "VMMMMMM", style: quiet, at: [0.70, 0.86], size: S, rot: 0}
+
+  - id: P02
+    recipe: establish
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from below the girder against the span's lit underside: Nib crouched on the narrow steel, cloak snapping in the wind"
+    light: "orange sodium from the span; the black river far below"
+    art: >
+      From below the girder: Nib (nib, armour, cracked husk mask) crouches on the narrow steel flange under the bridge span, his
+      cloak snapping in the river wind, one hand on a rivet; the black river 20 m below him. Scale: the girder is a hand's width
+      wider than his feet.
+    acting:
+      nib: "crouched low, one hand on a rivet, the other on a knife hilt, peering over the edge"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "WHOOOO", style: quiet, at: [0.30, 0.30], size: M, rot: 0}
+
+  - id: P03
+    recipe: link-view
+    shape: wide
+    gap: short
+    bg: black
+    camera: "split frame: left, Jaeha on the rooftop chair with his eyes shut; right, Nib's view of a grey van at the fence"
+    light: "left: the rooftop bulbs; right: orange sodium, a thin amber vignette"
+    face: private
+    art: >
+      Split frame with a thin jagged amber seam. LEFT: Jaeha (kang_jaeha) on a plastic chair on the rooftop, eyes shut, two
+      fingers at his temple; Bomi (yoo_bomi) and Seoa (kang_seoa) lean in on either side. RIGHT: Nib's view: a grey van with no
+      logo at the fence; five people in grey coveralls and orange numbered tabards climb out, respirators hanging at their necks;
+      a thickset foreman (foreman_gu) counts banknotes into their hands under a work light.
+    acting:
+      kang_jaeha: "eyes shut, brow knotted, two fingers pressed to his temple"
+      yoo_bomi: "leaning in with her laptop open on her knees"
+      kang_seoa: "leaning in, arms wrapped round her knees"
+      foreman_gu: "licking his thumb, counting notes into an outstretched hand"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "A VAN. FIVE PEOPLE IN WORK CLOTHES. THEY'RE BEING PAID IN CASH.", side: l}
+
+  - id: P04
+    recipe: link-view
+    shape: wide
+    gap: short
+    bg: black
+    camera: "Nib's view, closer, from the top of a container: the foreman's clipboard under the work light"
+    light: "a work light; a thin amber vignette"
+    art: >
+      Nib's view in a thin amber vignette, from the top of a container: the foreman's clipboard tilted under the work light; a
+      column of five numbers, 1 to 5, and beside each number, nothing: no names. Below it, the five pull their respirators up
+      over their faces.
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: inner, text: "No names. Just numbers. Nobody would ever ask where they went."}
+
+  - id: P05
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level on the rooftop: Bomi turning her laptop round to Jaeha, Seoa reading over it"
+    light: "the rooftop bulbs; the laptop glow"
+    face: private
+    art: >
+      On the rooftop: Bomi (yoo_bomi) turns her laptop round toward Jaeha (kang_jaeha), who has opened his eyes; Seoa (kang_seoa)
+      reads over the top of it.
+    acting:
+      yoo_bomi: "turning the laptop with both hands, eyebrows up, pleased with herself"
+      kang_jaeha: "eyes just opened, blinking, leaning toward the screen"
+      kang_seoa: "reading, frowning, one hand on Bomi's shoulder"
+    eyeline: "Bomi → Jaeha; Jaeha and Seoa → the screen"
+    foreground: "the back of the laptop, cropped, bottom"
+    calm: top
+    lines:
+      - {who: yoo_bomi, type: speech, text: "FOUND IT. AN ANONYMOUS JOB BOARD. NIGHT WORK, F-RANK SUMMONERS, CASH.", side: l}
+
+  - id: P06
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on the laptop screen: the job post"
+    light: "the screen glow"
+    art: >
+      Close on Bomi's laptop screen, flat green.
+    calm: left
+    silent: true
+    ui:
+      - kind: phone.info_card
+        "on": screen
+        title: "NIGHT WORK"
+        text: "MAINTENANCE SURVEY · F-RANK SUMMONERS · CASH DAILY · NO NAMES · RESPIRATOR PROVIDED · NEXT CREW: THURSDAY 23:00"
+
+  - id: P07
+    recipe: link-view
+    shape: wide
+    gap: short
+    bg: black
+    camera: "Nib's view, wide: the box truck's back stacked with glowing crates, the crane swinging another container in"
+    light: "work lights; violet glow from the crates; a thin amber vignette"
+    art: >
+      Nib's view in a thin amber vignette: the box truck's open back is stacked to the roof with crates leaking a faint violet glow;
+      the crane swings another container over the fence; engineers hurry.
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: inner, text: "Cores, by the truckload. And faster since Saturday."}
+    sfx:
+      - {text: "KLANK", style: impact, at: [0.70, 0.30], size: M, rot: 0}
+
+  - id: P08
+    recipe: anticipation
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the enclosure: a guard swinging his torch beam straight up at the girders"
+    light: "a white torch beam cutting up into the dark; orange sodium"
+    art: >
+      From low inside the fence: a guard (kanghan_guard) stops and swings his torch beam straight up at the girders under the span;
+      the beam cuts through the dark toward a small crouched shape.
+    acting:
+      kanghan_guard: "stopped, head tilted back, torch raised straight up, squinting"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "?", style: comic, at: [0.30, 0.20], size: M, rot: 0}
+
+  - id: P09
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level on the girder: Nib frozen flat against the steel as a pigeon bursts off the girder past the beam and lands on his head"
+    light: "the torch beam sweeping just past; orange sodium"
+    art: >
+      On the girder: Nib (nib) lies frozen flat against the steel as the torch beam sweeps past; a fat grey pigeon bursts off the
+      girder through the beam, flaps once, and lands squarely on his head. Below, the beam drops away.
+    acting:
+      nib: "frozen flat, eyes rolling up toward the pigeon on his head, mouth a furious line"
+    calm: top
+    lines:
+      - {who: kanghan_guard, type: speech, text: "PIGEONS. EVERY NIGHT.", side: l}
+    sfx:
+      - {text: "FLAP FLAP", style: comic, at: [0.60, 0.20], size: M, rot: 6}
+
+  - id: P10
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha on the rooftop, eyes shut, his mouth twitching"
+    light: "the rooftop bulbs"
+    face: public
+    art: >
+      Close on Jaeha (kang_jaeha) on the rooftop, eyes still shut, the corner of his mouth twitching; Bomi's hand over her own
+      mouth beside him.
+    acting:
+      kang_jaeha: "eyes shut, lips pressed together, trying not to laugh"
+      yoo_bomi: "a hand over her mouth, shoulders shaking"
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: speech, text: "NIB SAYS HE HATES PIGEONS.", side: r}
+    sfx:
+      - {text: "snrk", style: quiet, at: [0.30, 0.70], size: S, rot: 0}
+
+  - id: P11
+    kind: title
+    shape: full
+    gap: long
+    bg: black
+    title_card: "MY SUMMONS GO FIRST · CHAPTER 23 · UNDER THE BRIDGE"
+    notes: "Title card at panel 11 of 66 (17%)."
+
+  # ================= THE PLAN (P12-P24) =================
+  - id: P12
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: white
+    camera: "high, from the ceiling corner: the team crowded round the fold-out table in the little rooftop room, Borro's face filling the window"
+    light: "a warm ceiling bulb; dusk in the window"
+    art: >
+      The rooftop room, inside (location rooftop_room), Wednesday evening, from high in a corner: round the fold-out table, Jaeha
+      (kang_jaeha) with his notebook open; Choi (choi_dongmin) with a coffee; Bomi (yoo_bomi); Yerin (song_yerin); Seoa (kang_seoa)
+      on her bed; Nib (nib, no mask) standing on a chair; Lyra (lyra) leaning in the doorway; Borro's white husk face (borro) fills
+      the whole open window from outside.
+    acting:
+      kang_jaeha: "bent over the notebook, pencil moving"
+      choi_dongmin: "arms folded tight, coffee in one fist, scowling"
+      yoo_bomi: "sitting cross-legged on the floor with her laptop"
+      song_yerin: "kneeling at the table, hands in her lap, worried"
+      kang_seoa: "sitting on her bed, arms crossed"
+      nib: "standing on a chair to see the table"
+      lyra: "leaning in the doorway, arms folded, bored"
+      borro: "his face filling the window, calm"
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "WEDNESDAY EVENING."}
+
+  - id: P13
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level, close on Choi leaning over the table, jabbing a finger"
+    light: "warm bulb"
+    art: >
+      Close on Choi (choi_dongmin) leaning over the table, jabbing a finger at Jaeha, coffee slopping.
+    acting:
+      choi_dongmin: "leaning over the table, jabbing a finger, coffee slopping in the other hand, eyes furious"
+    eyeline: "Choi → Jaeha"
+    foreground: "Jaeha's notebook on the table, cropped, bottom"
+    calm: top
+    lines:
+      - {who: choi_dongmin, type: shout, text: "YOU WERE ON EVERY SCREEN IN KOREA FIVE DAYS AGO! EVERYONE KNOWS YOUR FACE!", side: l}
+    sfx:
+      - {text: "SLOSH", style: comic, at: [0.80, 0.70], size: S, rot: 8}
+
+  - id: P14
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low two-shot across the table: Jaeha turning the notebook round to show a sketch of a figure in a respirator"
+    light: "warm bulb"
+    face: private
+    art: >
+      Low across the table: Jaeha (kang_jaeha) turns the notebook round to show a quick pencil sketch of a figure in a full-face
+      respirator and a numbered tabard; Choi (choi_dongmin) glares at it.
+    acting:
+      kang_jaeha: "turning the notebook round with two fingers, calm, eyes on Choi"
+      choi_dongmin: "glaring down at the sketch"
+    eyeline: "Jaeha → Choi; Choi → the sketch"
+    foreground: "Choi's coffee cup, cropped, bottom left"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "THEY KNOW A FACE IN AN ORANGE VEST. THE CREW WEARS RESPIRATORS WITH SMOKED VISORS.", side: r}
+      - {who: kang_jaeha, type: speech, text: "UNDER ONE OF THOSE, I'M NOBODY. THAT'S THE WHOLE POINT OF THEM.", side: r}
+
+  - id: P15
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on Choi, pointing at the window"
+    light: "warm bulb"
+    art: >
+      Close on Choi (choi_dongmin) pointing over his shoulder at the window, where Borro's face looks in.
+    acting:
+      choi_dongmin: "pointing over his shoulder with his thumb, one eyebrow up"
+    eyeline: "Choi → Jaeha"
+    foreground: "the edge of Borro's white face in the window, cropped, right"
+    calm: right
+    lines:
+      - {who: choi_dongmin, type: speech, text: "AND THE BIGGEST HUSK IN SEOUL WALKS IN BEHIND YOU?", side: l}
+
+  - id: P16
+    recipe: plan
+    shape: wide
+    gap: short
+    bg: paper
+    camera: "top-down on the notebook page: a pencil map of the enclosure, the pier, the river and three dotted routes"
+    light: "warm bulb on paper"
+    art: >
+      Top-down on the notebook page: a pencil map of the bridge pier, the fenced enclosure and the river; the gate slit drawn in the
+      pier's shadow with its bottom third below the waterline behind a net; three dotted routes: one along the bridge girders, one
+      along the riverbed, one swimming; a fourth, solid line through the front gate.
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: note, text: "NIB: GIRDERS. BORRO: RIVERBED. LYRA: SWIM. ME: FRONT DOOR."}
+    sfx:
+      - {text: "SKRITCH SKRITCH", style: quiet, at: [0.80, 0.80], size: S, rot: 0}
+
+  - id: P17
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level from inside: Borro's face in the window, Lyra in the doorway tossing her braid"
+    light: "warm bulb; dusk outside"
+    art: >
+      From inside: Borro's white husk face (borro) in the window; in the doorway, Lyra (lyra) tosses her braid back over her
+      shoulder, offended at being doubted.
+    acting:
+      borro: "his face filling the window, calm, a single leaf stuck to his cheek"
+      lyra: "tossing her braid back with one hand, the other on her hip, chin up"
+    eyeline: "Borro → Jaeha; Lyra → Choi"
+    foreground: "the window frame, cropped, left"
+    calm: top
+    lines:
+      - {who: borro, type: speech, text: "I LIKE THE RIVER. IT IS QUIET.", side: l}
+      - {who: lyra, type: speech, text: "I'M RIVER-FOLK. I WAS SWIMMING BEFORE YOUR CITY HAD BRIDGES.", side: r}
+
+  - id: P18
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low two-shot: Yerin asking quietly, Jaeha answering her with his fingers counting off"
+    light: "warm bulb"
+    face: public
+    art: >
+      Low two-shot: Yerin (song_yerin) asks quietly; Jaeha (kang_jaeha) answers, counting the points off on his fingers.
+    acting:
+      song_yerin: "hands tight in her lap, looking up at him"
+      kang_jaeha: "counting off on his fingers, a reassuring half-smile"
+    eyeline: "Yerin ↔ Jaeha"
+    foreground: "Yerin's first-aid bag on the floor, cropped, bottom left"
+    calm: top
+    lines:
+      - {who: song_yerin, type: speech, text: "AND IF SOMETHING GOES WRONG IN THERE?", side: l}
+      - {who: kang_jaeha, type: speech, text: "THEN MR. CHOI IS OUTSIDE WITH A RESCUE VAN, BOMI IS WATCHING THE FENCE, AND YOU HAVE BANDAGES.", side: r}
+
+  - id: P19
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Choi rubbing his eyes, giving up"
+    light: "warm bulb"
+    art: >
+      Close on Choi (choi_dongmin) rubbing his eyes with his thumb and finger, giving up.
+    acting:
+      choi_dongmin: "rubbing his eyes with one hand, shoulders dropping, a long sigh"
+    eyeline: "Choi → the table"
+    foreground: "his coffee cup, cropped, bottom"
+    calm: left
+    lines:
+      - {who: choi_dongmin, type: speech, text: "I HATE THIS PLAN. THE VAN WILL BE AT THE PARK GATE FROM ELEVEN.", side: l}
+    sfx:
+      - {text: "SIGH", style: quiet, at: [0.30, 0.20], size: S, rot: 0}
+
+  - id: P20
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level, side-on: Jaeha raising his hand to argue about a different point, Choi cutting him off"
+    light: "warm bulb"
+    face: public
+    art: >
+      Side-on: Jaeha (kang_jaeha) starts to say something else; Choi (choi_dongmin) cuts him off with a raised palm.
+    acting:
+      kang_jaeha: "one hand raised, mouth open to speak"
+      choi_dongmin: "palm raised flat at Jaeha, eyes shut"
+    eyeline: "Jaeha → Choi; Choi → away"
+    foreground: "Bomi's laptop screen, cropped, bottom right"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "SIR, THEY'RE MOVING THE CORES OUT FASTER EVERY NIGHT. IF WE WAIT A MONTH...", side: r}
+      - {who: choi_dongmin, type: speech, text: "I SAID I HATE IT. I DIDN'T SAY NO.", side: l}
+
+  - id: P21
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on Seoa on her bed, staring at her knees, silent"
+    light: "warm bulb on her glasses"
+    art: >
+      Close on Seoa (kang_seoa) on her bed, staring at her knees, silent, her glasses catching the light.
+    acting:
+      kang_seoa: "hugging her knees, jaw tight, eyes on her knees"
+    calm: right
+    silent: true
+
+  - id: P22
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level, two-shot: Seoa grabbing her brother's sleeve as he passes the bed, holding on"
+    light: "warm bulb"
+    face: private
+    art: >
+      Two-shot: as Jaeha (kang_jaeha) passes the bed, Seoa (kang_seoa) grabs his sleeve and holds on, looking up at him.
+    acting:
+      kang_seoa: "gripping his sleeve with both hands, glaring up at him, eyes wet"
+      kang_jaeha: "stopping, looking down at her, his face softening"
+    eyeline: "Seoa → Jaeha (up); Jaeha → Seoa (down)"
+    foreground: "the bed's pillow, cropped, bottom left"
+    calm: top
+    lines:
+      - {who: kang_seoa, type: speech, text: "FRIDAY. SEVEN O'CLOCK. DINNER. YOU COME HOME. PROMISE ME PROPERLY.", side: l}
+      - {who: kang_jaeha, type: speech, text: "I PROMISE I'LL BE HOME FOR DINNER ON FRIDAY.", side: r}
+
+  - id: P23
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on their hands: little fingers hooked, thumbs pressed together"
+    light: "warm bulb"
+    art: >
+      Close on their two hands: little fingers hooked together, thumbs pressed together to stamp the promise.
+    calm: left
+    silent: true
+    sfx:
+      - {text: "STAMP", style: quiet, at: [0.40, 0.30], size: S, rot: 0}
+
+  - id: P24
+    recipe: silent
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level from the windowsill past Nib's shoulder: the room behind him, and outside, the dark river and the bridge lights"
+    light: "warm bulb inside; violet dusk outside"
+    art: >
+      Past Nib's shoulder (nib) on the windowsill: behind him the room, Seoa still holding her brother's finger; in front of him,
+      out over the dark roofs, the river and the line of orange bridge lights.
+    acting:
+      nib: "sitting on the sill, looking out at the bridge, chin on his knees"
+    calm: top
+    silent: true
+
+  # ================= THE CREW (P25-P40) =================
+  - id: P25
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: black
+    camera: "eye level in a dark riverside park: a grey van under one lamp, five figures in coveralls, the bridge looming behind"
+    light: "one sodium lamp; the bridge's orange lights behind"
+    art: >
+      A dark riverside park by the bridge, Thursday night: a grey van with no logo under a single lamp; five figures in grey
+      coveralls wait beside it, one of them Jaeha (kang_jaeha) with a cap pulled low; the foreman (foreman_gu) leans on the van
+      with his clipboard. The bridge looms behind with pier 7 in shadow. Scale: the bridge deck is 20 m up.
+    acting:
+      kang_jaeha: "standing a little apart, hands in his pockets, cap low"
+      foreman_gu: "leaning on the van, clipboard under his arm, chewing gum"
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "THURSDAY, 10:50 PM."}
+
+  - id: P26
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, under the lamp: the foreman tossing orange tabards and respirators at the crew one by one"
+    light: "the sodium lamp overhead"
+    art: >
+      Under the lamp, from low: the foreman (foreman_gu) tosses an orange tabard and a respirator to each of the crew in turn;
+      the stun baton swings on his belt.
+    acting:
+      foreman_gu: "tossing a tabard underarm without looking, bored, the other hand on the baton"
+    eyeline: "the foreman → the clipboard"
+    foreground: "a tabard flying through the air toward the camera, cropped, top right"
+    calm: top
+    lines:
+      - {who: foreman_gu, type: speech, text: "NO NAMES. YOU'RE YOUR NUMBER. MASKS ON BEFORE THE FENCE. THE CORE DUST EATS LUNGS.", side: l}
+    sfx:
+      - {text: "FWUP", style: quiet, at: [0.70, 0.20], size: S, rot: 0}
+
+  - id: P27
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Jaeha's hands catching an orange tabard with a big black stencilled 4 on it"
+    light: "the lamp"
+    art: >
+      Close on Jaeha's hands catching an orange tabard with a big black stencilled 4 on it.
+    calm: right
+    silent: true
+    sfx:
+      - {text: "fwip", style: quiet, at: [0.40, 0.30], size: S, rot: 0}
+
+  - id: P28
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, two-shot: a wiry old man in a knee brace pulling his tabard on beside Jaeha, friendly"
+    light: "the lamp"
+    face: public
+    intro: "PYO DONGSIK (63) · F-RANK SUMMONER · TRAP-TESTER, 20 YEARS · NUMBER 1"
+    art: >
+      Two-shot: Uncle Pyo (crew_pyo), small and wiry with a grey crew cut and a brace on his LEFT knee, pulls his tabard on over
+      his head beside Jaeha (kang_jaeha) and gives him a friendly look.
+    acting:
+      crew_pyo: "tugging the tabard down over his head, grinning with crooked teeth, nodding at Jaeha"
+      kang_jaeha: "holding his tabard, ducking his head politely"
+    eyeline: "Pyo → Jaeha; Jaeha → Pyo"
+    foreground: "the van's open side door, cropped, left"
+    calm: top
+    lines:
+      - {who: crew_pyo, type: speech, text: "FIRST NIGHT, FOUR? STAY BEHIND YOUR HUSK AND DON'T LOOK DOWN.", side: l}
+      - {who: kang_jaeha, type: speech, text: "THANK YOU, UNCLE. HOW LONG HAVE YOU DONE THIS WORK?", side: r}
+
+  - id: P29
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Pyo slapping his knee brace with a laugh"
+    light: "the lamp"
+    art: >
+      Close on Uncle Pyo (crew_pyo) slapping his knee brace with a laugh.
+    acting:
+      crew_pyo: "slapping the brace on his LEFT knee, laughing, eyes creased shut"
+    eyeline: "Pyo → Jaeha"
+    foreground: "Jaeha's shoulder, cropped, left"
+    calm: left
+    lines:
+      - {who: crew_pyo, type: speech, text: "TWENTY YEARS. MY KNEES HAVE DONE IT FOR THIRTY.", side: r}
+    sfx:
+      - {text: "PAP!", style: comic, at: [0.40, 0.70], size: S, rot: -6}
+
+  - id: P30
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, side-on: a tired woman with a low bun showing Jaeha her phone's lock screen"
+    light: "the lamp; the phone's glow on her face"
+    art: >
+      Side-on: Dami (crew_dami), tired, her hair in a low bun, shows Jaeha (kang_jaeha) her phone's lock screen: a photo of her
+      small daughter in a too-big yellow raincoat, grinning.
+    acting:
+      crew_dami: "holding the phone up toward him, a tired, proud smile"
+      kang_jaeha: "leaning in to look, smiling"
+    eyeline: "Dami → Jaeha; Jaeha → the phone"
+    foreground: "the glowing phone, cropped, bottom"
+    calm: top
+    lines:
+      - {who: crew_dami, type: speech, text: "SHE STARTS SCHOOL IN MARCH. ONE MORE MONTH OF THIS, AND I CAN BUY HER THE GOOD BAG.", side: l}
+
+  - id: P31
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low two-shot: two lanky brothers with the same big ears arguing nose to nose by the van"
+    light: "the lamp"
+    art: >
+      Low two-shot: the Jang brothers, Woo (crew_woo) and Ho (crew_ho, bleached hair), both lanky with the same big ears, argue nose
+      to nose beside the van.
+    acting:
+      crew_woo: "jabbing a finger at his brother's chest, scowling"
+      crew_ho: "arms spread wide, painting a sign in the air, eyes shining"
+    eyeline: "Woo ↔ Ho"
+    foreground: "the van's wing mirror, cropped, top left"
+    calm: top
+    lines:
+      - {who: crew_ho, type: speech, text: "WE CALL THE SHOP 'WINGS OF GLORY'. IT'S PERFECT.", side: r}
+      - {who: crew_woo, type: speech, text: "IT'S 'JANG BROTHERS CHICKEN'. THAT'S WHY YOU'RE NUMBER FIVE.", side: l}
+    sfx:
+      - {text: "BICKER BICKER", style: comic, at: [0.50, 0.20], size: S, rot: -4}
+
+  - id: P32
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Jaeha watching the four of them, the lamp above him"
+    light: "the lamp from above"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha) watching the four of them, the lamp above him throwing his eyes into shadow under the cap.
+    acting:
+      kang_jaeha: "watching, very still, the tabard bunched in his hands"
+    eyeline: "Jaeha → the crew"
+    calm: right
+    lines:
+      - {who: kang_jaeha, type: inner, text: "Four years ago, that was me. Every one of them is me."}
+
+  - id: P33
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: the foreman blowing a whistle and the five pulling their respirators down over their faces at once"
+    light: "the lamp; the bridge lights"
+    art: >
+      The foreman (foreman_gu) blows a whistle; the five pull their respirators down over their faces at once, and their faces
+      vanish behind smoky visors: five identical figures in grey and orange, numbers 1 to 5.
+    acting:
+      foreman_gu: "a whistle between his teeth, cheeks puffed, pointing at the fence"
+    calm: top
+    sfx:
+      - {text: "FWEEEET", style: impact, at: [0.30, 0.20], size: L, rot: -6}
+      - {text: "KSSHH", style: quiet, at: [0.70, 0.70], size: S, rot: 0}
+
+  - id: P34
+    recipe: establish
+    shape: tall
+    gap: short
+    bg: black
+    camera: "eye level from behind the line of five, walking through the opened fence toward the glowing slit under pier 7, five white husks walking ahead of them"
+    light: "white-cyan glow from the slit; orange sodium; work lights"
+    art: >
+      From behind: the five walk single file through the opened fence of the enclosure (location hanriver_gate) behind the
+      foreman, past the containers and the crane truck, toward the gate slit glowing white-cyan in the shadow of pier 7; the big
+      faded yellow 7 above it; the cracked lamp flickering. Ahead of each walker goes one plain husk, five dull white mannequins in
+      a row. Guards (kanghan_guard) watch them pass. Scale: the slit is door-height; the pier is 6 m wide.
+    acting:
+      kanghan_guard: "two guards standing aside, arms folded, watching the line go by"
+    calm: top
+    sfx:
+      - {text: "STEP STEP STEP", style: quiet, at: [0.50, 0.86], size: S, rot: 0}
+
+  - id: P35
+    recipe: establish
+    shape: wide
+    gap: short
+    bg: black
+    camera: "under the river's surface, eye level with the riverbed: Borro walking along the bottom in the dark, Lyra swimming beside him, the glowing underside of the slit ahead"
+    light: "murky dark water; a white-cyan glow ahead, rippling"
+    art: >
+      Under the river: Borro (borro) walks along the muddy riverbed in the dark like a moving hill, bubbles rising off his moss;
+      beside him Lyra (lyra) swims easily, her silver braid streaming behind her, her bow strapped to her back; ahead, a steel net
+      that sags short of the riverbed, and under it the white-cyan glow of the gate slit's submerged bottom third. A graceful panel for Lyra, the
+      whole figure in frame, side-on.
+    acting:
+      borro: "walking steadily along the bottom, head lowered to duck under the net's sagging edge"
+      lyra: "swimming side-on with one smooth kick, braid streaming, eyes bright, entirely at home"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "blub... blub...", style: quiet, at: [0.30, 0.20], size: S, rot: 0}
+
+  - id: P36
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the container roofs: Nib sliding down a slung cable from the bridge onto a container without a sound, a guard's back below"
+    light: "orange sodium; a work light"
+    art: >
+      From low on the container roofs: Nib (nib) slides down one of the thick cables slung from the bridge to the enclosure, hooked
+      over it by the crook of one arm and his knees, and drops the last metre onto a container roof in a soundless crouch, right
+      above a guard's back (kanghan_guard).
+    acting:
+      nib: "dropping off the cable into a deep crouch, one hand flat on the steel, cloak settling"
+      kanghan_guard: "facing away, yawning"
+    calm: top
+    sfx:
+      - {text: "...tp", style: quiet, at: [0.40, 0.40], size: S, rot: 0}
+
+  - id: P37
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close and low: Jaeha in his respirator and T-4 tabard stepping into the white-cyan slit, the light swallowing him"
+    light: "white-cyan from the slit, flooding over him"
+    face: private
+    art: >
+      Close and low: Jaeha (kang_jaeha), in his respirator and the T-4 tabard, steps into the white-cyan slit, the light pouring over
+      him and swallowing his outline.
+    acting:
+      kang_jaeha: "stepping forward into the light, one hand raised against the glare"
+    eyeline: "Jaeha → the light"
+    foreground: "the edge of the slit, a seam of white light, cropped, left"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: inner, text: "Hyung. I'm coming in."}
+    sfx:
+      - {text: "VWOOM", style: gate, at: [0.70, 0.30], size: M, rot: 0}
+
+  - id: P38
+    recipe: splash
+    shape: full
+    gap: black
+    bg: black
+    camera: "high, from the inner rim's ledge looking out and down: a vast canyon of steel walkways bolted into sheer rock, giant pipes running down into the dark"
+    light: "dim violet-grey twilight with no sun; strings of white work lights down the walls; a far thread of river"
+    art: >
+      Inside the gate (location farm_canyon), from the ledge at the inner rim, high, looking out and down: a vast Far Side canyon in
+      a dim violet-grey twilight; sheer dark rock walls; steel walkways bolted into them zig-zag down out of sight; beside them run
+      pipes as thick as trucks, humming, plunging into the dark; strings of white work lights; cables everywhere; far, far below, a
+      thread of river. The five tiny figures stand on the first walkway at the bottom of the frame. Scale: the canyon is 400 m deep
+      and 200 m across; the walkways are 2 m wide; the pipes are 4 m thick.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "VMMMMMMMMM", style: quiet, at: [0.80, 0.40], size: M, rot: 0}
+
+  - id: P39
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level on the walkway: the crew gripping the rail, staring out, Pyo not looking"
+    light: "work lights"
+    art: >
+      On the first walkway: Dami (crew_dami), Woo (crew_woo) and Ho (crew_ho) grip the rail and stare out at the drop through their
+      visors; Uncle Pyo (crew_pyo) keeps his eyes on his own boots.
+    acting:
+      crew_dami: "both hands white on the rail, leaning back from it"
+      crew_woo: "frozen, one hand on his brother's arm"
+      crew_ho: "leaning out over the rail, open-mouthed"
+      crew_pyo: "eyes on his boots, one hand on the rock wall, tapping Ho's back to pull him in"
+    calm: top
+    lines:
+      - {who: crew_pyo, type: speech, text: "DON'T LOOK DOWN, I SAID. NOBODY EVER LISTENS.", side: l}
+
+  - id: P40
+    recipe: link-view
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close on Jaeha's visor, three thin threads of light running out of the frame from his temple: amber up, green and blue down"
+    light: "work lights; three faint threads of colour"
+    face: private
+    art: >
+      Close on Jaeha's smoky visor (kang_jaeha): three thin threads of light run out of the frame from his temple, one amber thread
+      up toward the pipes, one moss-green and one river-blue thread down toward the river below. Only he can see them.
+    acting:
+      kang_jaeha: "head tilted a fraction, listening, hands at his sides"
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.86], text: "[LINK · 3 SUMMONS · REST FORM · 600 M]"}
+
+  # ================= THE WALKWAYS (P41-P64) =================
+  - id: P41
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, behind the foreman: the foreman pointing his baton down the walkway, the crew lined up behind their husks"
+    light: "work lights"
+    art: >
+      From low behind the foreman (foreman_gu): he points his stun baton down the walkway; the crew stand in a line behind their
+      plain husks.
+    acting:
+      foreman_gu: "pointing the baton down the walkway, the other hand on his clipboard"
+    eyeline: "the foreman → the walkway"
+    foreground: "the foreman's shoulder and hard hat, cropped, left"
+    calm: top
+    lines:
+      - {who: foreman_gu, type: speech, text: "HUSKS FIRST. STAY ON THE STEEL. TEN THOUSAND WON A TRAP, PAID AT THE TOP.", side: l}
+
+  - id: P42
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level along the walkway: a carved stone plate in the rock beside the steel clicking, a spike of stone punching a husk off into the abyss"
+    light: "work lights; dust"
+    art: >
+      Along the walkway: a husk steps where the steel runs over a carved stone plate in the rock ledge; the plate clicks and a spike
+      of stone the size of a man punches out of the wall and smashes the husk off the walkway into the abyss in pieces.
+    calm: top
+    sfx:
+      - {text: "KA-TANG!", style: impact, at: [0.50, 0.30], size: L, rot: -6}
+
+  - id: P43
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on the foreman ticking his clipboard without looking up"
+    light: "work lights"
+    art: >
+      Close on the foreman (foreman_gu) ticking his clipboard without looking up; behind him, a blurred figure (Dami) flinches.
+    acting:
+      foreman_gu: "ticking the clipboard with a pen, chewing gum, bored"
+    calm: left
+    lines:
+      - {who: foreman_gu, type: speech, text: "ONE. KEEP WALKING.", side: l}
+
+  - id: P44
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level on Jaeha at the rail, looking out over the canyon as a window only he can see opens over the drop"
+    light: "work lights; the window's cyan"
+    face: private
+    art: >
+      Jaeha (kang_jaeha) at the rail looks out over the canyon as a window only he can see opens over the drop. The upper half is
+      empty for the window.
+    acting:
+      kang_jaeha: "both hands on the rail, visor turned to the window, very still"
+    eyeline: "Jaeha → the window"
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.06], headline: "[GATE: UNREGISTERED]", body: "OPEN FOR 4 YEARS, 71 DAYS · BOSS STATUS: ALIVE", button: "OK"}
+
+  - id: P45
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up through the smoky visor: Jaeha's eyes reading the window"
+    light: "the window's cyan reflected on the visor"
+    face: private
+    art: >
+      Extreme close-up through the smoky visor: Jaeha's eyes (kang_jaeha), narrow and cold, the cyan of the window reflected across
+      the visor glass. Fill the canvas edge to edge.
+    acting:
+      kang_jaeha: "eyes narrowing, lower lids tight"
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: inner, text: "Four years and seventy-one days. Since the day you didn't come out."}
+
+  - id: P46
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, at boot height on the walkway: carved stone plates set along the rock ledge, a spiral mark on each, Jaeha's notebook open under his tabard"
+    light: "work lights"
+    face: private
+    art: >
+      Low at boot height: along the rock ledge beside the steel, carved stone plates with worn spiral marks; Jaeha's gloved hand
+      holds the notebook open just inside his tabard, the pencil counting plates.
+    acting:
+      kang_jaeha: "crouched as if tying a boot, notebook half hidden under the tabard, pencil tapping"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: inner, text: "Old Far Side trap stones. The spiral opens left on every live one."}
+    sfx:
+      - {text: "tap tap tap", style: quiet, at: [0.70, 0.70], size: S, rot: 0}
+
+  - id: P47
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, over Jaeha's shoulder: Uncle Pyo about to step past his husk onto a stone plate"
+    light: "work lights"
+    art: >
+      Over Jaeha's shoulder (kang_jaeha): ahead on the walkway, Uncle Pyo (crew_pyo) is about to step past his husk with his bad
+      leg, onto the walkway where it crosses a stone plate whose spiral opens left.
+    acting:
+      kang_jaeha: "reaching out a hand toward Pyo's back, speaking low"
+      crew_pyo: "mid-step, his braced LEFT leg lifted, eyes on his husk"
+    eyeline: "Jaeha → Pyo's foot"
+    foreground: "Jaeha's reaching hand, cropped, bottom right"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: whisper, text: "UNCLE. LET YOUR HUSK GO FIRST THERE. AND KEEP YOUR LEFT FOOT ON THE RIVETS.", side: r}
+
+  - id: P48
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "side-on: Pyo freezing mid-step as his husk walks onto the plate ahead of him and a stone blade scythes out of the wall through the husk at knee height"
+    light: "work lights; sparks"
+    art: >
+      Side-on: Uncle Pyo (crew_pyo) freezes mid-step; his husk walks onto the plate ahead of him, and a curved stone blade scythes
+      out of the wall at knee height, cutting the husk's legs away exactly where Pyo's knee would have been.
+    acting:
+      crew_pyo: "frozen on one leg, arms out, visor turned to the blade"
+    calm: top
+    sfx:
+      - {text: "SHHRAK!", style: impact, at: [0.50, 0.40], size: L, rot: 8}
+
+  - id: P49
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, two-shot: Pyo turning slowly to stare at Jaeha, Jaeha shrugging"
+    light: "work lights"
+    face: public
+    art: >
+      Two-shot: Uncle Pyo (crew_pyo) turns slowly to stare at Jaeha (kang_jaeha) through his visor; Jaeha gives a small polite shrug.
+    acting:
+      crew_pyo: "turned toward Jaeha, one hand on his knee brace"
+      kang_jaeha: "a small shrug, palms up, head tilted politely"
+    eyeline: "Pyo → Jaeha; Jaeha → Pyo"
+    foreground: "the broken husk's legs on the walkway, cropped, bottom"
+    calm: top
+    lines:
+      - {who: crew_pyo, type: speech, text: "...HOW DID YOU KNOW THAT, FOUR?", side: l}
+      - {who: kang_jaeha, type: speech, text: "LUCKY GUESS, UNCLE.", side: r}
+
+  - id: P50
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on the foreman narrowing his eyes at number 4 over his clipboard"
+    light: "work lights"
+    art: >
+      Close on the foreman (foreman_gu) narrowing his eyes at number 4 over the top of his clipboard.
+    acting:
+      foreman_gu: "eyes narrowed over the clipboard, jaw stopped mid-chew"
+    eyeline: "the foreman → Jaeha"
+    calm: left
+    silent: true
+    sfx:
+      - {text: "STARE", style: quiet, at: [0.30, 0.20], size: S, rot: 0}
+
+  - id: P51
+    recipe: establish
+    shape: tall
+    gap: short
+    bg: black
+    camera: "high, looking down the canyon wall: the crew small on the zig-zag walkways going down, the giant pipes beside them, the river far below"
+    light: "work lights down the wall; violet-grey twilight"
+    art: >
+      High, looking down the canyon wall: the crew, small, file down the zig-zag walkways behind their husks, the giant pipes
+      humming beside them; on top of one pipe, a tiny cloaked figure keeps pace with them; far below on the river, two shapes in
+      the water, one big, one slim. Scale: each zig-zag drops 15 m; the crew are specks.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "thum... thum...", style: quiet, at: [0.30, 0.80], size: S, rot: 0}
+
+  - id: P52
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level on the walkway: Ho tapping the rail, frowning; Woo beside him listening"
+    light: "work lights"
+    art: >
+      On the walkway: Ho (crew_ho) taps the rail and frowns; Woo (crew_woo) beside him listens with his head tilted.
+    acting:
+      crew_ho: "one gloved hand flat on the rail, visor tilted, frowning"
+      crew_woo: "head tilted, listening, one hand on his brother's shoulder"
+    eyeline: "both → the rail"
+    foreground: "the rail, vibrating, cropped, bottom"
+    calm: top
+    lines:
+      - {who: crew_ho, type: speech, text: "HYUNG, THE RAIL IS THROBBING. LIKE SOMETHING DOWN THERE IS BREATHING.", side: l}
+      - {who: crew_woo, type: speech, text: "IT'S THE PIPES. DON'T BE WEIRD.", side: r}
+
+  - id: P53
+    recipe: establish
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level at the first landing: a steel engineers' cabin on a platform, screens glowing inside, the giant pipes plunging past it into the dark"
+    light: "screens inside the cabin; work lights"
+    art: >
+      At the first landing: a steel engineers' cabin on a platform bolted to the rock, screens glowing behind its windows; the giant
+      pipes plunge past it into the dark; engineers (kanghan_engineer) in grey coveralls and white hard hats come and go. The crew
+      wait at the rail. Scale: the cabin is 3 m tall; the pipes beside it are 4 m thick.
+    acting:
+      kanghan_engineer: "two engineers carrying tablets, one stopping to talk to the foreman"
+    calm: top
+    silent: true
+
+  - id: P54
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low two-shot by the cabin door: the foreman and an engineer with a radio, both agitated"
+    light: "the cabin's screens; work lights"
+    art: >
+      Low by the cabin door: the foreman (foreman_gu) and an engineer (kanghan_engineer) with a radio at his ear talk fast and low,
+      both agitated.
+    acting:
+      foreman_gu: "leaning in, gum forgotten, eyes wide"
+      kanghan_engineer: "radio at his ear, the other hand spread helplessly"
+    eyeline: "the foreman ↔ the engineer"
+    foreground: "the cabin's open door, cropped, left"
+    calm: top
+    lines:
+      - {who: foreman_gu, type: speech, text: "THE HEIR? DOWN HERE? TONIGHT?", side: l}
+      - {who: kanghan_engineer, type: speech, text: "SHE HAS AN INSPECTION ORDER FROM THE BOARD. NOBODY CAN STOP HER.", side: r}
+
+  - id: P55
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: the foreman rounding on the crew, baton out, pointing it at each of them"
+    light: "work lights"
+    art: >
+      The foreman (foreman_gu) rounds on the crew with the stun baton out, pointing it at each of them in turn; it crackles.
+    acting:
+      foreman_gu: "baton out, pointing it along the line, face red"
+    eyeline: "the foreman → the crew"
+    foreground: "the crackling tip of the baton, cropped, right"
+    calm: top
+    lines:
+      - {who: foreman_gu, type: shout, text: "NUMBERS! WHEN SHE COMES, NOBODY TALKS. YOU'RE HUSKS. UNDERSTAND?", side: l}
+    sfx:
+      - {text: "BZZT", style: alert, at: [0.80, 0.30], size: S, rot: 0}
+
+  - id: P56
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low two-shot at the rail: Ho whispering sideways to Woo, Dami shushing them"
+    light: "work lights"
+    art: >
+      Low at the rail: Ho (crew_ho) whispers sideways to Woo (crew_woo); Dami (crew_dami) shushes them both with a finger to her
+      visor.
+    acting:
+      crew_ho: "leaning toward his brother, whispering behind a hand"
+      crew_woo: "whispering back out of the side of his visor"
+      crew_dami: "a finger raised to her visor, glancing at the foreman"
+    eyeline: "Ho ↔ Woo; Dami → the foreman"
+    foreground: "the rail, cropped, bottom"
+    calm: top
+    lines:
+      - {who: crew_ho, type: whisper, text: "WHO'S THE HEIR?", side: l}
+      - {who: crew_woo, type: whisper, text: "SOMEBODY WHO NEVER WORKED A NIGHT IN HER LIFE.", side: r}
+
+  - id: P57
+    recipe: anticipation
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the landing looking up the walkways: everyone's heads turning up toward a sound"
+    light: "work lights"
+    art: >
+      From low on the landing, looking up the zig-zag walkways: the crew, the foreman and the engineers all turn their heads up
+      toward a sound coming down from above, a sharp clack in perfect rhythm.
+    acting:
+      foreman_gu: "head snapping up, baton lowering"
+      crew_pyo: "looking up, one hand on the rail"
+      kanghan_engineer: "two engineers freezing in the cabin doorway"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "KLAK. KLAK. KLAK. KLAK.", style: quiet, at: [0.50, 0.20], size: M, rot: 0}
+
+  - id: P58
+    recipe: establish
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, looking up the walkway above: a column of polished white husks marching down two by two in perfect step, catching the work lights"
+    light: "work lights gleaming on porcelain"
+    art: >
+      From low, looking up the walkway above: a column of forty polished white husks (ahin_husks) marches down two by two in perfect
+      step, their porcelain bodies gleaming under the work lights, every foot landing at the same instant on the steel. Scale: the
+      column fills the walkway and stretches back up out of sight round the zig-zag.
+    acting:
+      ahin_husks: "marching in perfect unison, two by two, arms swinging together"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "KLAK KLAK KLAK", style: quiet, at: [0.80, 0.70], size: S, rot: 0}
+
+  - id: P59
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level on the landing: the crew flattening back against the rock wall as the column comes down, the foreman bowing deep"
+    light: "work lights"
+    art: >
+      On the landing: the crew flatten back against the rock wall as the column comes down onto it; the foreman (foreman_gu) bows
+      deep with his hard hat in his hands; the engineers (kanghan_engineer) bow in the cabin doorway. Only number 4, Jaeha
+      (kang_jaeha), stays where he is at the rail, watching the husks' feet.
+    acting:
+      kang_jaeha: "standing easy at the rail, visor tilted down at the husks' marching feet, counting"
+      foreman_gu: "bowing from the waist, hard hat clutched to his stomach, sweating"
+      kanghan_engineer: "bowing stiffly in the doorway"
+      crew_dami: "pressed back against the rock, hands flat on it"
+      crew_pyo: "pressed back against the rock, head down"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "GULP", style: quiet, at: [0.20, 0.30], size: S, rot: 0}
+
+  - id: P60
+    recipe: insert
+    shape: strip
+    gap: short
+    bg: black
+    camera: "a thin strip at ankle height: a white heeled boot stepping onto the landing between two marching husks"
+    light: "work lights"
+    art: >
+      A thin strip at ankle height: a white knee-high heeled boot steps onto the steel landing between the feet of two marching
+      husks. Fill the canvas edge to edge.
+    calm: none
+    silent: true
+    sfx:
+      - {text: "TAK", style: quiet, at: [0.60, 0.40], size: S, rot: 0}
+
+  - id: P61
+    recipe: establish
+    shape: full
+    gap: short
+    bg: black
+    camera: "eye level on the landing, a few metres off: the column parting, Moon Ahin walking through it toward the camera, the abyss at her side"
+    light: "key: work lights on white; back: the violet-grey canyon"
+    art: >
+      The column parts in perfect unison, and down the middle of it walks Moon Ahin (moon_ahin), the whole figure in frame: the
+      fitted white coat-dress, the slit up her LEFT side opening with each step over the white thigh-high stockings and boots, the
+      silver ribbon bow, long black hair, the silver baton held loosely in her RIGHT hand; she walks along the edge of the abyss as
+      if it isn't there. Her husks stand at attention on either side.
+    acting:
+      moon_ahin: "walking straight at the camera, baton loose in her RIGHT hand, chin slightly raised, eyes half-lidded and bored"
+      ahin_husks: "standing at attention in two rows, perfectly still"
+    calm: top
+    silent: true
+
+  - id: P62
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, past her boots: Moon Ahin stopping in front of the line of trap-testers, looking down the row of numbers"
+    light: "work lights"
+    art: >
+      Low, past her boots: Moon Ahin (moon_ahin) stops in front of the line of five trap-testers and looks down the row of numbers
+      as if they were stock on a shelf; Jaeha (kang_jaeha), number 4, the one who didn't flinch, stands in the middle of the row.
+    acting:
+      moon_ahin: "looking along the row, the baton tapping her gloved LEFT palm"
+      kang_jaeha: "standing stiff like the others, visor straight ahead"
+    eyeline: "Moon Ahin → the row of numbers"
+    foreground: "her white boot and the hem of the coat-dress, cropped, bottom left"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: speech, text: "SO THESE ARE THE NUMBERS MY FAMILY PAYS IN CASH.", side: l}
+
+  - id: P63
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha's smoky visor, the white figure reflected in it"
+    light: "work lights"
+    face: private
+    art: >
+      Close on Jaeha's smoky visor (kang_jaeha): the white figure of Moon Ahin reflected small in it.
+    acting:
+      kang_jaeha: "perfectly still behind the visor, breath fogging it once"
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: inner, text: "Kanghan's heir. In the gate her family says doesn't exist."}
+
+  - id: P64
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, close on Moon Ahin raising her baton toward the dark below, her husks turning their blank faces as one"
+    light: "work lights; the violet-grey depths below"
+    art: >
+      Close on Moon Ahin (moon_ahin) raising her baton toward the dark of the canyon below; behind her, forty blank faces turn the
+      same way at the same instant.
+    acting:
+      moon_ahin: "baton raised and pointing down the canyon, the faintest cold smile"
+      ahin_husks: "forty heads turning together toward the depths"
+    eyeline: "Moon Ahin → the depths"
+    foreground: "the rail and the drop, cropped, bottom"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: speech, text: "NUMBER FOUR. YOU WALK IN FRONT OF ME.", side: l}
+    sfx:
+      - {text: "KLAK", style: quiet, at: [0.80, 0.30], size: S, rot: 0}
+
+  - id: P65
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Jaeha's visor turning slowly toward her"
+    light: "work lights"
+    face: public
+    art: >
+      Close on Jaeha (kang_jaeha) turning his visor slowly toward her, and, behind the smoked glass, the faint shape of a polite
+      bow beginning.
+    acting:
+      kang_jaeha: "turning slowly, beginning a small polite bow"
+    calm: right
+    lines:
+      - {who: kang_jaeha, type: speech, text: "OF COURSE, MA'AM. MY HUSK IS READY. IT'S A VERY BRAVE HUSK.", side: r}
+
+  - id: P66
+    recipe: insert
+    shape: strip
+    gap: short
+    bg: black
+    camera: "a thin strip: far below in the dark, a single throb of violet light along the pipes"
+    light: "one throb of violet in the dark"
+    art: >
+      A thin strip: far below in the dark of the canyon, a single throb of violet light runs down the length of the giant pipes and
+      fades. Fill the canvas edge to edge.
+    calm: none
+    silent: true
+    sfx:
+      - {text: "THUM.", style: gate, at: [0.60, 0.40], size: M, rot: 0}
+
+  - id: END
+    kind: end
+    chibi_gag: "Chibi Nib, back on the girder, holds a tiny sign that says nothing while the fat pigeon sits on his head, and chibi Lyra, underwater, blows a perfect bubble ring through Borro's moss."
