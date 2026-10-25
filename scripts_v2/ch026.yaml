@@ -1,0 +1,1084 @@
+chapter: 26
+title: Core Farm
+format: SCRIPT_FORMAT_v2.md
+when: "Friday, about 2 AM: the old side passage beside the glass wall, the iron door, and the stone balcony over the pit on level four."
+story_beats: ARC3_4_BEATS.md#26-core-farm
+cast:
+  kang_jaeha: crew
+  nib: mask
+  borro: default
+  lyra: default
+  moon_ahin: default
+  ahin_husks: default        # 36; they wait in the side passage from P14
+  crew_pyo: default
+  crew_dami: default
+  crew_woo: default
+  crew_ho: default
+  tide_warden: default       # new boss design, see continuity
+  kanghan_engineer: default
+  kanghan_guard: default
+locations: [farm_canyon, hanriver_gate_flashback, farm_pit]
+continuity:
+  - "Jaeha: the crew kit, the respirator round his neck, Dami's scarf on his LEFT shoulder, dried blood under his nose. In his coverall's chest pocket, the stamped chain link from ch 4 (matte black factory steel, one small stamped mark: a shape, never letters)."
+  - "The side passage and the iron door (P02-P13): a narrow, older stone corridor beside the glass wall, cables along its floor; it ends in the dark stone chamber of the ch 14 flashback and its tall iron door, 4 m high, now propped open with a steel wedge and threaded with cables. On the door's inside face, scratched into the iron with a knife: rough letters (the letterer sets them as a label) and a small scratched thumbs-up. At its foot, a rusted hard-hat lamp and a strip of faded orange vest cloth."
+  - "The pit (new location farm_pit, P15 onward), seen from an old Far Side stone balcony high on its wall with a carved balustrade: a vast round chamber 150 m across and 80 m deep, the original boss chamber, filled with machinery. In its centre the Hushed Tide Warden kneels, chained. Steel catwalks ring the pit at three levels; terraces of glass tanks step up the walls; a glass-fronted control room with screens hangs on the far wall; cranes; a freight elevator carrying racks of filled tanks up into the dark. The glass wall of ch 25 is one side of the pit, fogging and clearing with the Warden's breath. Lighting: the deep violet of the drained light, white work lights, red warning lights from P56."
+  - "The Hushed Tide Warden (new boss, CHARACTER_DESIGNS_v2.md 4c, to be added): a sea-giant, 30 m tall if he stood, kneeling and sagging; pale blue-grey skin like a drowned man's with Hush cracks leaking violet ash; armour of red and white coral grown like plate, crusted with barnacles and shells; a crown of coral branches; a long beard of kelp; a broad, noble, sorrowful face, eyes closed until ch 27. Chains as thick as tree trunks run from steel cuffs on his wrists, neck and waist to anchors in the pit walls. Dozens of steel pipes are driven into his body through collars bolted into the coral, drawing smoky violet light out through glass sections into the tanks. A broken trident lies in the machinery at his knees."
+  - "Kanghan engineers (generic) work round him like dairy farmers: grey coveralls, white hard hats, respirators round their necks, tablets, trolleys. Kanghan guards (2.14) patrol the catwalks."
+  - "The tanks: glass cylinders the height of a man on steel racks, filling with smoky violet light that settles into faceted crystals at the bottom (cores); each tank has the silver hexagon and the small crescent-moon seal stamped on its steel cap."
+  - "Moon Ahin's husks wait in the side passage (P14 onward) with the crew's orders not to move; only Jaeha, Moon Ahin, the crew and the three summons crawl out onto the balcony."
+plants:
+  - "PLANT P08, P12: Minseok's lamp; Jaeha keeps it (ch 32-33)."
+  - "PLANT P28-P29, P40: half of Seoul's hospitals run on Kanghan cores (ch 32: 'Do you want the hospitals dark, Ahin?')."
+  - "PLANT P32-P35: the stamped link from ch 4 matches the Warden's chains: the knight at Gate 0912 was chained by Kanghan too (Arc 5)."
+  - "PLANT P37-P39: Nib learns who chained his commander (Arc 5)."
+  - "PLANT P49-P50, P59: the Warden can feel the summons, his own world's people, and his eye begins to open (ch 27)."
+hook_type: threat
+
+panels:
+
+  # ================= THE IRON DOOR (P01-P13) =================
+  - id: P01
+    recipe: talk
+    shape: wide
+    gap: none
+    bg: black
+    camera: "low, by the foot of the fogged glass wall: Nib crouched at a dark gap in the rock beside the steel frame, beckoning"
+    light: "violet through white fog"
+    art: >
+      Low by the foot of the fogged glass wall: Nib (nib) crouches at a dark, narrow gap in the rock beside the steel frame, where
+      a bundle of cables snakes in; he beckons with one knife. Moon Ahin (moon_ahin) still stands with her glove on the glass
+      behind him.
+    acting:
+      nib: "crouched at the gap, beckoning with the knife, ears pricked"
+      moon_ahin: "standing with her glove on the glass, not moving"
+    eyeline: "Nib → Jaeha"
+    foreground: "the cables snaking into the gap, cropped, bottom"
+    calm: top
+    lines:
+      - {who: nib, type: whisper, text: "THERE'S AN OLDER WAY IN. THE CABLES GO THROUGH IT.", side: l}
+    sfx:
+      - {text: "HHHHAAAA", style: quiet, at: [0.80, 0.20], size: S, rot: 0}
+
+  - id: P02
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, two-shot: Jaeha turning to the crew huddled by the pipes, Uncle Pyo shaking his head"
+    light: "violet"
+    face: public
+    art: >
+      Two-shot: Jaeha (kang_jaeha) turns to the crew huddled by the pipes; Uncle Pyo (crew_pyo) shakes his head, but doesn't step
+      back.
+    acting:
+      kang_jaeha: "turning to them, one hand open, offering"
+      crew_pyo: "shaking his head slowly, hand on his knee brace, staying put"
+    eyeline: "Jaeha ↔ Pyo"
+    foreground: "Ho's orange tabard, cropped, left"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "YOU CAN WAIT HERE WITH THE HUSKS. NOBODY HAS TO SEE WHAT'S IN THERE.", side: r}
+      - {who: crew_pyo, type: speech, text: "TWENTY YEARS I DIDN'T LOOK. I'M LOOKING TONIGHT.", side: l}
+
+  - id: P03
+    recipe: establish
+    shape: tall
+    gap: short
+    bg: black
+    camera: "eye level, inside a narrow old stone corridor: the team filing in single file along the cables, Nib's small lamp ahead"
+    light: "a hard-hat lamp's beam; the faint violet behind"
+    art: >
+      Inside a narrow old stone corridor: the team files in single file along the cables, Nib (nib) ahead with a hard-hat lamp
+      someone lent him, then Jaeha (kang_jaeha), Moon Ahin (moon_ahin), the crew and the summons; the walls are older, rougher stone
+      than the gallery.
+    acting:
+      nib: "walking ahead, the borrowed lamp tilted on his head, a knife out"
+      kang_jaeha: "following, one hand trailing the wall"
+      moon_ahin: "following, the baton held low"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "tp tp tp", style: quiet, at: [0.70, 0.80], size: S, rot: 0}
+
+  - id: P04
+    recipe: establish
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from the floor of a dark stone chamber: a tall iron door propped open with a steel wedge, cables running through it, Jaeha stopped dead in front of it"
+    light: "lamp beams; a violet glow through the door's gap"
+    face: private
+    art: >
+      From low on the floor of a dark stone chamber: a tall iron door, propped open with a steel wedge, cables running through the
+      gap; violet light glows beyond it. Jaeha (kang_jaeha) has stopped dead in front of it, the others piling up behind him.
+      Scale: the door is 4 m tall.
+    acting:
+      kang_jaeha: "stopped dead, arms hanging, staring up at the door"
+    calm: top
+    silent: true
+
+  - id: P05
+    recipe: silent
+    shape: strip
+    gap: fade-black
+    bg: black
+    camera: "a thin strip: the colour draining out of the door into grey"
+    light: "fading to grey"
+    art: >
+      A thin strip across the iron door's riveted edge, the colour draining out of it into grey from one side to the other. Fill
+      the canvas edge to edge.
+    calm: none
+    silent: true
+
+  - id: P06
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, in grey: young Jaeha's fists hammering on this same iron door, closed, from the outside"
+    light: "grey memory; the orange vest the only colour"
+    art: >
+      A grey memory, four years ago (location hanriver_gate_flashback): young Jaeha (kang_jaeha, 20) throws himself at this same iron
+      door, closed, both fists hammering the iron; his orange vest is the only colour.
+    acting:
+      kang_jaeha: "young, both fists hammering the door, mouth open in a scream"
+    calm: top
+    sfx:
+      - {text: "BAM BAM BAM", style: impact, at: [0.50, 0.30], size: L, rot: 0}
+
+  - id: P07
+    recipe: insert
+    shape: wide
+    gap: fade-white
+    bg: black
+    camera: "close on the floor just inside the door, in colour again: a rusted hard-hat lamp and a strip of faded orange cloth"
+    light: "a lamp beam"
+    art: >
+      In colour again: close on the floor just inside the iron door: a rusted hard-hat lamp lying on its side, and caught under it a
+      strip of faded orange vest cloth.
+    calm: top
+    silent: true
+
+  - id: P08
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha's gloved hand closing round the rusted lamp"
+    light: "a lamp beam"
+    art: >
+      Close on Jaeha's gloved hand closing round the rusted lamp, very gently.
+    calm: left
+    silent: true
+    sfx:
+      - {text: "...", style: quiet, at: [0.30, 0.30], size: S, rot: 0}
+
+  - id: P09
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "eye level: Nib putting his shoulder to the door and swinging its inner face into the lamplight, rough scratched letters and a scratched thumbs-up on the iron"
+    light: "lamp beams on scratched iron"
+    art: >
+      Nib (nib) puts his shoulder to the door and swings it a little wider, turning its inner face into the lamplight: scratched deep
+      into the iron with a knife, rough uneven letters at chest height, and beside them a small scratched thumbs-up. The rest of the
+      door's inner face is gouged and dented.
+    acting:
+      nib: "shoulder against the door, pushing, then going still as he sees the scratches"
+    calm: top
+    ui:
+      - {kind: label, at: [0.42, 0.46], text: "EVERYONE COMES BACK", size: 46, color: "#C9CCD2", rot: -2}
+    sfx:
+      - {text: "GRRRN", style: quiet, at: [0.80, 0.80], size: S, rot: 0}
+
+  - id: P10
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close: Jaeha on his knees in front of the scratches, his fingers following the letters"
+    light: "lamp beams"
+    face: private
+    art: >
+      Close and low: Jaeha (kang_jaeha) has gone down on his knees in front of the scratches; his gloved fingers follow the rough
+      letters; the rusted lamp hangs from his other hand.
+    acting:
+      kang_jaeha: "kneeling, fingertips tracing the scratches, the lamp hanging from his other hand, eyes wet"
+    eyeline: "Jaeha → the scratches"
+    foreground: "the edge of the iron door, cropped, left"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: inner, text: "You were alive in here, hyung. Long enough to write it."}
+
+  - id: P11
+    recipe: silent
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level from inside the doorway: Jaeha kneeling, Nib's small hand on his shoulder, Borro and Lyra standing behind, the crew taking off their hard hats"
+    light: "lamp beams; violet behind"
+    art: >
+      From inside the doorway: Jaeha (kang_jaeha) kneels; Nib (nib) rests one small hand on his shoulder; Borro (borro) and Lyra (lyra)
+      stand behind them; behind those, the four crew take off their hard hats, one after another.
+    acting:
+      kang_jaeha: "kneeling, head bowed"
+      nib: "a hand on Jaeha's shoulder, looking at the scratches"
+      borro: "standing very still, head bowed"
+      lyra: "arms folded tight, looking away, jaw clenched"
+      crew_pyo: "taking off his hard hat, holding it to his chest"
+      crew_dami: "taking off her hard hat"
+    calm: top
+    silent: true
+
+  - id: P12
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low two-shot: Moon Ahin in the doorway, quietly; Jaeha getting up, clipping the lamp to his belt"
+    light: "lamp beams"
+    face: private
+    art: >
+      Low two-shot: Moon Ahin (moon_ahin) in the doorway, quiet; Jaeha (kang_jaeha) gets up and clips the rusted lamp to his belt.
+    acting:
+      moon_ahin: "standing in the doorway, the baton held in both hands, voice low"
+      kang_jaeha: "clipping the lamp to his belt, getting up, face set"
+    eyeline: "Moon Ahin → Jaeha; Jaeha → the gap in the door"
+    foreground: "the steel wedge under the door, cropped, bottom"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: speech, text: "THE TRAP-TESTER IN THE VIDEO.", side: l}
+      - {who: kang_jaeha, type: speech, text: "MY HYUNG. HE PUSHED ME OUT THROUGH THIS DOOR. NOW LET'S SEE WHAT THEY SHUT IT ON.", side: r}
+
+  - id: P13
+    kind: title
+    shape: full
+    gap: long
+    bg: black
+    title_card: "MY SUMMONS GO FIRST · CHAPTER 26 · CORE FARM"
+    notes: "Title card at panel 13 of 60 (22%)."
+
+  # ================= THE FARM (P14-P45) =================
+  - id: P14
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: black
+    camera: "low, behind the team: everyone crawling out of a short passage onto an old stone balcony, keeping below its carved balustrade"
+    light: "deep violet light rising over the balustrade"
+    art: >
+      From low behind the team: everyone crawls out of a short passage onto an old Far Side stone balcony, keeping below its carved
+      balustrade; deep violet light rises over the balustrade's top like a sunrise. Behind them, in the passage, Moon Ahin's husks
+      (ahin_husks) stand in perfect silent rows.
+    acting:
+      kang_jaeha: "crawling on elbows and knees to the balustrade"
+      moon_ahin: "crouched low, one hand holding the coat-dress out of the dust"
+      ahin_husks: "standing in silent rows in the passage behind"
+    calm: top
+    silent: true
+
+  - id: P15
+    recipe: splash
+    shape: full
+    gap: black
+    bg: black
+    camera: "high, from the balcony looking down and out over the whole pit: a chained sea-giant kneeling in a forest of machinery, pipes driven into him, tanks glowing up the walls"
+    light: "key: the deep violet of the drained light; white work lights; the giant lit from below"
+    art: >
+      The reveal, high from the balcony over the whole pit (location farm_pit): a vast round chamber 150 m across and 80 m deep,
+      filled with machinery. In its centre kneels the Hushed Tide Warden (tide_warden), a sea-giant in red and white coral armour
+      crusted with barnacles, a crown of coral branches, a beard of kelp, pale drowned skin with Hush cracks leaking violet ash; his
+      head hangs, eyes closed. Chains as thick as tree trunks run from cuffs on his wrists, neck and waist to anchors in the pit walls.
+      Dozens of steel pipes are driven into his body through collars bolted into the coral, and smoky violet light flows out
+      through their glass sections to terraces of glowing glass tanks stepping up the walls. Steel catwalks ring the pit; tiny
+      engineers walk them; cranes; a glass-fronted control room on the far wall; a freight elevator carrying racks of tanks up into
+      the dark. The fogged glass wall forms one side. Scale: kneeling, the Warden is as tall as a seven-storey building; the
+      engineers are ants.
+    acting:
+      tide_warden: "kneeling, sagging in the chains, head hanging, eyes closed, breathing slowly"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "THOOM...", style: quiet, at: [0.80, 0.80], size: M, rot: 0}
+
+  - id: P16
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level along the balustrade: Jaeha's face lit violet, a window opening over the pit like a shipping label"
+    light: "violet; the window's cyan"
+    face: private
+    art: >
+      Along the balustrade: Jaeha (kang_jaeha) peers over the top, his face lit violet, as a window opens over the pit. The upper half
+      is empty for the window.
+    acting:
+      kang_jaeha: "peering over the balustrade, eyes on the window, very still"
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.log, "on": float, at: [0.5, 0.05], headline: "[BOSS: HUSHED TIDE WARDEN]", lines: ["STATUS: RESTRAINED", "VITAL SIGNS: SUSTAINED BY MACHINE", "CORE YIELD: 4 YEARS, 71 DAYS", "GATE: HELD OPEN"]}
+
+  - id: P17
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "closer on the Warden's hanging face: eyes closed, a slow tear of seawater running from one of them into the kelp beard"
+    light: "violet from below"
+    art: >
+      Closer on the Warden's hanging face (tide_warden): a broad, noble, sorrowful face under the coral crown, eyes closed; a slow tear
+      of seawater runs from one eye into the kelp of his beard; violet ash drifts up from the cracks on his cheek.
+    acting:
+      tide_warden: "head hanging, eyes closed, a tear running"
+    calm: top
+    silent: true
+
+  - id: P18
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close on the Warden's coral breastplate: steel collars bolted into it, pipes plunging in, violet light pulsing out through their glass sections"
+    light: "violet pulses"
+    art: >
+      Close on the Warden's coral breastplate: steel collars bolted straight into the coral, pipes plunging into his body through
+      them, and violet light pulsing out through the pipes' glass sections in time with his heartbeat.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "thoom... glug... thoom...", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P19
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on a rack of glass tanks: smoky violet light settling into faceted crystals at the bottom, the steel caps stamped with a hexagon and a small crescent"
+    light: "violet from inside the tanks"
+    art: >
+      Close on a rack of glass tanks: smoky violet light swirls inside and settles into faceted violet crystals at the bottom of each;
+      on every steel cap, the stamped silver hexagon and, beneath it, the small crescent-moon seal.
+    calm: left
+    silent: true
+
+  - id: P20
+    recipe: establish
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level along a catwalk below: engineers going about their work beside the giant like dairy farmers"
+    light: "white work lights; violet"
+    art: >
+      Along a catwalk below the balcony: engineers (kanghan_engineer) go about their work beside the giant like dairy farmers: one taps
+      a gauge on a tank with his pen; one wheels a trolley of empty tanks; one leans against a chain as thick as a tree trunk, eating
+      a sandwich and scrolling on his phone.
+    acting:
+      kanghan_engineer: "one tapping a gauge, one pushing a trolley, one leaning on the chain eating a sandwich"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "munch", style: quiet, at: [0.80, 0.60], size: S, rot: 0}
+
+  - id: P21
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, along the balustrade: the crew peering over, Pyo with his hard hat crushed in his hands"
+    light: "violet from below"
+    art: >
+      Low along the balustrade: the crew peer over it; Uncle Pyo (crew_pyo) crushes his hard hat in his hands; Dami (crew_dami) has
+      both hands pressed over her mouth.
+    acting:
+      crew_pyo: "peering over, his hard hat crushed in both hands"
+      crew_dami: "both hands pressed over her mouth, eyes wide"
+    eyeline: "both → the Warden"
+    foreground: "the carved balustrade, cropped, bottom"
+    calm: top
+    lines:
+      - {who: crew_pyo, type: whisper, text: "...SO THAT'S WHAT THE PIPES ARE FOR.", side: l}
+
+  - id: P22
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, close on Lyra at the balustrade, the confidence gone from her face"
+    light: "violet from below"
+    art: >
+      Close on Lyra (lyra) at the balustrade, the confidence gone from her face; her fingers dig into the carved stone.
+    acting:
+      lyra: "fingers digging into the stone, lips trembling, eyes on the giant"
+    eyeline: "Lyra → the Warden"
+    foreground: "Borro's mossy shoulder, cropped, left"
+    calm: top
+    lines:
+      - {who: lyra, type: whisper, text: "THE SEA PEOPLE SANG ABOUT HIM ON THE RIVER. THE WARDEN WHO HELD BACK THE TIDE.", side: l}
+
+  - id: P23
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Nib, ears flat, shaking"
+    light: "violet"
+    art: >
+      Close on Nib (nib), ears flat against his head, shaking, his knuckles white on his knife hilts.
+    acting:
+      nib: "ears flat, shaking, knuckles white on the hilts"
+    eyeline: "Nib → the Warden"
+    foreground: "the balustrade, cropped, right"
+    calm: right
+    lines:
+      - {who: nib, type: whisper, text: "THAT'S A HERO. THEY CHAINED A HERO AND PUT TAPS IN HIM.", side: l}
+
+  - id: P24
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Borro's huge hands on the balustrade, cracks spreading through the carved stone under his fingers"
+    light: "violet"
+    art: >
+      Close on Borro's huge hands (borro) on the balustrade: cracks spread through the carved stone under his fingers.
+    acting:
+      borro: "both hands gripping the balustrade, fingers sinking into the stone as it cracks"
+    calm: left
+    silent: true
+    sfx:
+      - {text: "krrk", style: quiet, at: [0.40, 0.30], size: S, rot: 0}
+
+  - id: P25
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close two-shot: Moon Ahin raising her phone over the balustrade, Jaeha's hand closing over it"
+    light: "violet"
+    face: private
+    art: >
+      Close and low: Moon Ahin (moon_ahin) starts to raise her phone over the balustrade; Jaeha's gloved hand (kang_jaeha) closes over
+      the phone and lowers it.
+    acting:
+      moon_ahin: "raising the phone, then stopped, looking at his hand"
+      kang_jaeha: "closing his hand over the phone, shaking his head once"
+    eyeline: "Moon Ahin → Jaeha; Jaeha → the catwalks"
+    foreground: "the phone in their two hands, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: whisper, text: "NOT YET. ONE FLASH, AND EVERY GUARD ON THOSE CATWALKS LOOKS UP.", side: r}
+
+  - id: P26
+    recipe: anticipation
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high, from the balcony straight down: a guard walking the catwalk directly under them, his torch beam sweeping up the wall"
+    light: "a white torch beam sweeping up; violet"
+    art: >
+      High from the balcony straight down: a guard (kanghan_guard) walks the catwalk directly under them, his torch beam sweeping up the
+      pit wall toward the balustrade.
+    acting:
+      kanghan_guard: "walking slowly, torch beam sweeping up the wall, yawning"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "STEP... STEP...", style: quiet, at: [0.30, 0.80], size: S, rot: 0}
+
+  - id: P27
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level along the balcony floor: everyone flat on their faces, Ho with both hands over his own nose and mouth, the beam passing over the balustrade above them"
+    light: "the torch beam sliding over the stone above them"
+    art: >
+      Along the balcony floor: everyone lies flat; Ho (crew_ho) presses both hands over his own nose and mouth; Woo (crew_woo) glares
+      at him; the torch beam slides over the balustrade just above their heads and moves on.
+    acting:
+      crew_ho: "flat on his face, both hands clamped over his nose and mouth, eyes watering"
+      crew_woo: "flat beside him, glaring sideways at his brother"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "...mmff", style: comic, at: [0.40, 0.60], size: S, rot: 0}
+
+  - id: P28
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close on Moon Ahin lying behind the balustrade, staring at the crescent seal on a nearby tank cap"
+    light: "violet from a nearby rack of tanks"
+    art: >
+      Close and low: Moon Ahin (moon_ahin) lies behind the balustrade beside Jaeha, staring through a gap in the carving at the
+      crescent seal on the cap of the nearest tank, a rack just below the balcony.
+    acting:
+      moon_ahin: "lying on her side, eyes fixed on the seal, her face drained"
+    eyeline: "Moon Ahin → the tank cap"
+    foreground: "the carved balustrade's gap, cropped, right"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: whisper, text: "HALF THE HOSPITALS IN SEOUL RUN ON KANGHAN CORES.", side: l}
+
+  - id: P29
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Moon Ahin's lips, barely moving"
+    light: "violet"
+    art: >
+      Close on Moon Ahin's face (moon_ahin), her lips barely moving, eyes still on the seal.
+    acting:
+      moon_ahin: "whispering, unblinking"
+    eyeline: "Moon Ahin → the tank cap"
+    foreground: "Jaeha's shoulder, cropped, left"
+    calm: left
+    lines:
+      - {who: moon_ahin, type: whisper, text: "AND THIS IS WHERE THEY COME FROM.", side: r}
+
+  - id: P30
+    recipe: plan
+    shape: wide
+    gap: short
+    bg: paper
+    camera: "top-down on the notebook page, held flat on the balcony floor: a line copied out in pencil, and under it a new one"
+    light: "violet on paper"
+    art: >
+      Top-down on the notebook page, held flat on the stone floor by Jaeha's gloved hand: a rule copied out neatly in pencil at the
+      top of the page, and underneath, freshly written, a second line, pressed so hard the pencil has torn the paper.
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: note, text: "A GATE STAYS OPEN AS LONG AS ITS BOSS LIVES. SO THEY NEVER LET IT DIE."}
+
+  - id: P31
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of Jaeha's eyes over the balustrade, the chained giant reflected in them"
+    light: "violet"
+    face: private
+    art: >
+      Extreme close-up of Jaeha's eyes (kang_jaeha) over the top of the balustrade, cold, the chained giant reflected small in each.
+      Fill the canvas edge to edge.
+    acting:
+      kang_jaeha: "eyes cold and narrow, lower lids tight"
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: inner, text: "Nobody cleared this gate. They've been farming it for four years."}
+
+  - id: P32
+    recipe: link-view
+    shape: wide
+    gap: short
+    bg: black
+    camera: "split frame: left, Jaeha behind the balustrade with two fingers at his temple; right, Nib's view from a catwalk girder, close on a giant chain link"
+    light: "left: violet; right: work lights, a thin amber vignette"
+    face: private
+    art: >
+      Split frame with a thin jagged amber seam. LEFT: Jaeha (kang_jaeha) behind the balustrade, eyes shut, two fingers at his temple.
+      RIGHT: Nib's view in a thin amber vignette, from under a catwalk where he has climbed down: a link of the Warden's chain as
+      thick as a man's waist, matte black factory steel, machined, and on it one small stamped mark.
+    acting:
+      kang_jaeha: "eyes shut, two fingers at his temple, lips moving silently"
+    calm: top
+    silent: true
+
+  - id: P33
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close on Jaeha's gloved fingers drawing a small matte-black chain link out of his chest pocket and holding it up to the violet light"
+    light: "violet; a glint on black steel"
+    art: >
+      Close on Jaeha's gloved fingers drawing a small matte-black chain link out of his coverall's chest pocket and turning it to the
+      violet light: the link from ch 4, with the same small stamped mark as the giant link in Nib's view.
+    calm: top
+    silent: true
+
+  - id: P34
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "a remembered panel in green light: the knight's snapped factory chains crumbling on the floor, one link left whole"
+    light: "green-dusk light; a thin vignette"
+    art: >
+      A memory of ch 4 in green-dusk light with a thin soft vignette: on the floor where the knight knelt, snapped matte-black factory
+      chains crumble into dust, all but one link.
+    calm: right
+    silent: true
+
+  - id: P35
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close on Jaeha holding the little link against the view of the giant chain below, his face cold"
+    light: "violet"
+    face: private
+    art: >
+      Close and low: Jaeha (kang_jaeha) holds the little link up so that it sits, from his eye, right beside the giant chain below;
+      the two stamped marks are the same.
+    acting:
+      kang_jaeha: "holding the link up between finger and thumb, one eye closed, face cold"
+    eyeline: "Jaeha → the link and the chain"
+    foreground: "the link, cropped, centre"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: inner, text: "The knight at Gate 0912 wore the same chains. That gate was theirs too."}
+
+  - id: P36
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: Nib dropping back over the balustrade onto the balcony and freezing at the sight of the link in Jaeha's hand"
+    light: "violet"
+    art: >
+      Nib (nib) drops back over the balustrade onto the balcony and freezes at the sight of the little black link in Jaeha's hand.
+    acting:
+      nib: "landing in a crouch, then freezing, eyes on the link, ears rising"
+    calm: top
+    sfx:
+      - {text: "tp", style: quiet, at: [0.30, 0.70], size: S, rot: 0}
+      - {text: "!", style: comic, at: [0.40, 0.20], size: M, rot: 0}
+
+  - id: P37
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close two-shot: Nib staring at the link, his voice cracking; Jaeha looking at him"
+    light: "violet"
+    face: private
+    art: >
+      Close and low: Nib (nib) stares at the link, and his voice cracks; Jaeha (kang_jaeha) looks at him, understanding.
+    acting:
+      nib: "staring at the link, mouth open, eyes going wet behind the mask"
+      kang_jaeha: "looking at Nib, the link held between them"
+    eyeline: "Nib → the link; Jaeha → Nib"
+    foreground: "the link in Jaeha's fingers, cropped, bottom"
+    calm: top
+    lines:
+      - {who: nib, type: whisper, text: "MY COMMANDER... THE KNIGHT. THEY HAD HIM IN THOSE CHAINS.", side: l}
+      - {who: nib, type: whisper, text: "THE SAME PEOPLE. THE SAME CHAINS.", side: l}
+
+  - id: P38
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: Nib's knives sliding half out of their sheaths, Jaeha's hand clamping on his wrist"
+    light: "violet"
+    art: >
+      Nib's knives (nib) slide half out of their sheaths as he turns toward the pit; Jaeha's hand (kang_jaeha) clamps on his small wrist
+      and holds it.
+    acting:
+      nib: "turning toward the pit, both knives half drawn, shaking with rage"
+      kang_jaeha: "clamping his hand on Nib's wrist, holding firm, eyes on him"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: whisper, text: "NOT YET. I PROMISE YOU. NOT YET.", side: r}
+    sfx:
+      - {text: "SHHK", style: impact, at: [0.30, 0.30], size: M, rot: 0}
+
+  - id: P39
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Nib sliding the knives home, trembling"
+    light: "violet"
+    art: >
+      Close on Nib (nib) sliding the knives home, trembling, his eyes still on the pit.
+    acting:
+      nib: "sliding the knives back, jaw clenched, trembling"
+    calm: left
+    lines:
+      - {who: nib, type: whisper, text: "......", side: r}
+
+  - id: P40
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close two-shot along the balustrade: Moon Ahin and Jaeha lying side by side, speaking without looking at each other"
+    light: "violet"
+    face: private
+    art: >
+      Close and low along the balustrade: Moon Ahin (moon_ahin) and Jaeha (kang_jaeha) lie side by side and speak without looking at
+      each other, both watching the pit.
+    acting:
+      moon_ahin: "lying on her side, eyes on the pit, voice flat"
+      kang_jaeha: "lying beside her, eyes on the pit, voice flat"
+    eyeline: "both → the pit"
+    foreground: "the carved balustrade, cropped, top"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: whisper, text: "IF THIS STOPS, THE HOSPITALS GO DARK.", side: l}
+      - {who: kang_jaeha, type: whisper, text: "THEN SOMEBODY FINDS ANOTHER WAY. BUT NOT THIS WAY.", side: r}
+
+  - id: P41
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, behind them: Uncle Pyo sitting with his back to the balustrade, the crushed hard hat in his lap"
+    light: "violet over the balustrade"
+    art: >
+      Behind them: Uncle Pyo (crew_pyo) sits with his back against the balustrade, the crushed hard hat in his lap, unable to look
+      again; Dami (crew_dami) sits beside him.
+    acting:
+      crew_pyo: "sitting against the balustrade, staring at the crushed hat in his lap"
+      crew_dami: "sitting beside him, a hand on his arm"
+    eyeline: "Pyo → the hat"
+    foreground: "Dami's hand on his arm, cropped, bottom"
+    calm: top
+    lines:
+      - {who: crew_pyo, type: whisper, text: "WE WALKED THE TRAPS FOR THIS. EVERY NIGHT, SO THEIR ENGINEERS COULD WALK DOWN SAFE.", side: l}
+
+  - id: P42
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low two-shot: Woo and Ho sitting against the balustrade, Ho staring at his own hands"
+    light: "violet over the balustrade"
+    art: >
+      Low two-shot: Woo (crew_woo) and Ho (crew_ho) sit against the balustrade; Ho stares at his own gloved hands.
+    acting:
+      crew_woo: "staring straight ahead, arms round his knees"
+      crew_ho: "staring at his own open hands"
+    eyeline: "Ho → his hands; Woo → ahead"
+    foreground: "Woo's orange tabard with its stencilled 3, cropped, left"
+    calm: top
+    lines:
+      - {who: crew_ho, type: whisper, text: "HYUNG. THE CHICKEN SHOP MONEY.", side: r}
+      - {who: crew_woo, type: whisper, text: "...I KNOW WHERE IT CAME FROM. DON'T SAY IT.", side: l}
+
+  - id: P43
+    recipe: establish
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high over the pit: the freight elevator rising past the balcony with racks of glowing tanks, up into the dark toward the city"
+    light: "violet from the tanks on the elevator"
+    art: >
+      High over the pit: the freight elevator rises slowly past the balcony with racks of glowing tanks strapped to it, up and up into
+      the dark toward the rim and the city above.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "GRRRRRRNNN", style: quiet, at: [0.70, 0.40], size: S, rot: 0}
+
+  - id: P44
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Jaeha watching the elevator rise, the rusted lamp at his belt"
+    light: "violet sliding up his face"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha) watching the elevator rise, the light sliding up his face, the rusted lamp at his belt.
+    acting:
+      kang_jaeha: "watching it go up, jaw tight"
+    calm: right
+    lines:
+      - {who: kang_jaeha, type: inner, text: "Every core in that lift is four years of his life."}
+
+  # ================= THE HEARTBEAT (P45-P60) =================
+  - id: P45
+    recipe: anticipation
+    shape: wide
+    gap: long
+    bg: black
+    camera: "eye level across the pit: the Warden's chained hand twitching, the giant chain jerking taut against its anchor"
+    light: "violet pulsing faster"
+    art: >
+      Across the pit: the Warden's huge chained hand (tide_warden) twitches; the chain jerks taut against its anchor in the wall, and
+      dust bursts from the anchor's bolts.
+    acting:
+      tide_warden: "fingers twitching, the chained arm jerking"
+    calm: top
+    sfx:
+      - {text: "THOOM-THOOM", style: impact, at: [0.30, 0.30], size: L, rot: 0}
+      - {text: "KLANNG", style: impact, at: [0.70, 0.60], size: M, rot: -6}
+
+  - id: P46
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level on a catwalk: the sandwich engineer dropping his sandwich, every engineer turning toward the Warden"
+    light: "violet pulsing faster"
+    art: >
+      On a catwalk: the engineer (kanghan_engineer) leaning on the chain jumps back as it jerks, dropping his sandwich into the pit;
+      every engineer on the catwalks turns toward the Warden.
+    acting:
+      kanghan_engineer: "jumping back from the chain, the sandwich falling, others turning"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "flop", style: comic, at: [0.30, 0.70], size: S, rot: 0}
+
+  - id: P47
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "inside the glass-fronted control room: an engineer at a console staring at a row of spiking gauges"
+    light: "the screens' glow; violet through the glass"
+    art: >
+      Inside the glass-fronted control room: an engineer (kanghan_engineer) at a console stares at a row of needle gauges all swinging
+      into the red; screens glow flat green behind him.
+    acting:
+      kanghan_engineer: "leaning toward the gauges, one hand on the console, eyes wide"
+    eyeline: "the engineer → the gauges"
+    foreground: "the back of his chair, cropped, bottom left"
+    calm: top
+    lines:
+      - {who: kanghan_engineer, type: speech, text: "VITALS ARE SPIKING. SOMETHING IS AGITATING IT.", side: l}
+
+  - id: P48
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close on the Warden's closed eyelid, trembling, the coral crown's shadow over it"
+    light: "violet pulsing"
+    art: >
+      Close on the Warden's closed eyelid (tide_warden), huge, trembling, the shadow of the coral crown across it; violet ash puffs from
+      the crack beside it with every fast beat.
+    acting:
+      tide_warden: "eyelid trembling, not yet opening"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "thoom-thoom-thoom", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P49
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close two-shot on the balcony: Lyra gripping Borro's arm, both staring at the giant; Borro speaking very quietly"
+    light: "violet"
+    art: >
+      Close and low on the balcony: Lyra (lyra) grips Borro's arm (borro); both stare at the giant; Borro speaks very quietly.
+    acting:
+      lyra: "gripping Borro's arm with both hands, eyes wide"
+      borro: "staring at the giant, very still, speaking low"
+    eyeline: "both → the Warden"
+    foreground: "the cracked balustrade, cropped, bottom"
+    calm: top
+    lines:
+      - {who: borro, type: whisper, text: "HE KNOWS WE'RE HERE.", side: r}
+      - {who: lyra, type: whisper, text: "HOW? WE HAVEN'T MOVED.", side: l}
+
+  - id: P50
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha, realizing"
+    light: "violet"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha), realizing, his eyes going from the giant to his three summons.
+    acting:
+      kang_jaeha: "eyes sliding from the giant to the summons, mouth tightening"
+    foreground: "Lyra's hand on Borro's arm, cropped, right"
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: inner, text: "He can feel them. People from his own world, after four years alone."}
+
+  - id: P51
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on a control-room monitor: a cut-away map of the levels with three blinking dots"
+    light: "the screen's glow"
+    art: >
+      Close on a control-room monitor, screen flat green.
+    calm: right
+    silent: true
+    ui:
+      - kind: phone.info_card
+        "on": screen
+        title: "SIGNATURE SCAN · LEVEL 4"
+        text: "UNREGISTERED SUMMONS: 3 · LOCATION: OLD BALCONY, NORTH WALL"
+
+  - id: P52
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "inside the control room, low: a second engineer rising from his chair and pointing through the glass straight at the balcony"
+    light: "screens; violet"
+    art: >
+      Inside the control room, from low: a second engineer (kanghan_engineer) rises from his chair and points through the glass
+      straight across the pit at the old balcony on the north wall.
+    acting:
+      kanghan_engineer: "rising, arm outstretched, finger pointing through the glass"
+    eyeline: "the engineer → the balcony"
+    foreground: "the monitor's edge, cropped, left"
+    calm: top
+    lines:
+      - {who: kanghan_engineer, type: shout, text: "UNREGISTERED SUMMON SIGNATURES ON LEVEL FOUR! THE OLD BALCONY!", side: l}
+
+  - id: P53
+    recipe: impact
+    shape: full
+    gap: short
+    bg: black
+    camera: "high over the pit: every light switching to red, sirens wailing, shutters dropping over the control room glass, guards running along the catwalks"
+    light: "red warning lights sweeping; violet underneath"
+    art: >
+      High over the pit: every work light switches to red, warning beacons spin, sirens wail; steel shutters start to drop over the
+      control room's glass; guards (kanghan_guard) run along the catwalks with torches toward the north wall; engineers scatter. In
+      the middle of it all, the chained Warden's head lifts a fraction.
+    acting:
+      kanghan_guard: "running along the catwalks, torches up"
+      kanghan_engineer: "scattering for the stairs"
+      tide_warden: "head lifting a fraction in the chains"
+    calm: top
+    sfx:
+      - {text: "WEEOOO WEEOOO", style: alert, at: [0.30, 0.20], size: XL, rot: -4}
+      - {text: "KACHUNK", style: impact, at: [0.80, 0.40], size: M, rot: 0}
+
+  - id: P54
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level on the balcony bathed in red: everyone scrambling up, Moon Ahin on one knee, Jaeha already on his feet"
+    light: "red sweeping"
+    face: private
+    art: >
+      On the balcony, bathed in sweeping red: everyone scrambles up; Moon Ahin (moon_ahin) rises to one knee with the baton raised;
+      Jaeha (kang_jaeha) is already on his feet, pulling the respirator up.
+    acting:
+      moon_ahin: "rising to one knee, baton raised, face white"
+      kang_jaeha: "on his feet, pulling the respirator up over his face, eyes hard"
+    eyeline: "Moon Ahin → Jaeha; Jaeha → the passage"
+    foreground: "the red-lit balustrade, cropped, bottom"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: speech, text: "THEY KNOW.", side: l}
+      - {who: kang_jaeha, type: shout, text: "EVERYONE BACK TO THE DOOR! HUSKS FIRST!", side: r}
+
+  - id: P55
+    recipe: insert
+    shape: strip
+    gap: short
+    bg: black
+    camera: "a thin strip: guards' boots pounding up a steel stair"
+    light: "red"
+    art: >
+      A thin strip: black tactical boots pounding up a steel stair two at a time in red light. Fill the canvas edge to edge.
+    calm: none
+    silent: true
+    sfx:
+      - {text: "KLANG KLANG KLANG", style: impact, at: [0.60, 0.40], size: M, rot: 0}
+
+  - id: P56
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the catwalk below the balcony: a guard captain with a radio pointing up at the balcony, a squad behind him"
+    light: "red; torch beams"
+    art: >
+      From low on the catwalk below the balcony: a guard captain (kanghan_guard) with a radio at his mouth points up at the balcony;
+      a squad of guards in black tactical vests crowds behind him, torches up.
+    acting:
+      kanghan_guard: "radio at his mouth, pointing up, the squad crowding behind"
+    eyeline: "the captain → the balcony"
+    foreground: "the catwalk rail, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kanghan_guard, type: shout, text: "LOCK THE OLD PASSAGE! NOBODY LEAVES LEVEL FOUR!", side: l}
+
+  - id: P57
+    recipe: link-view
+    shape: wide
+    gap: short
+    bg: black
+    camera: "split frame: left, Jaeha's eye behind the visor; right, through Nib's eyes, the side passage behind them filling with torch beams from the far end"
+    light: "red; torch beams; a thin amber vignette"
+    face: private
+    art: >
+      Split frame with a thin jagged amber seam. LEFT: Jaeha's eye behind the visor (kang_jaeha), narrow. RIGHT: Nib's view back down
+      the side passage, past the waiting husks: at its far end, the gap by the glass wall fills with torch beams.
+    acting:
+      kang_jaeha: "eye narrowing behind the visor"
+    calm: top
+    silent: true
+
+  - id: P58
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level on the balcony: the team caught between the torch beams in the passage and the guards climbing below, all faces turning to Jaeha"
+    light: "red; torch beams from two sides"
+    art: >
+      On the balcony: torch beams come up the passage behind them and up the pit wall below them; the whole team, summons, crew and
+      Moon Ahin, turns to look at Jaeha.
+    acting:
+      kang_jaeha: "standing in the middle, notebook coming out of his pocket"
+      moon_ahin: "turning to him, baton raised"
+      nib: "back to back with Borro, knives out"
+      crew_pyo: "holding Dami's arm, looking at Jaeha"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "GLANCE", style: quiet, at: [0.50, 0.20], size: S, rot: 0}
+
+  - id: P59
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on the Warden's closed eye, across the red-lit pit, its lid lifting by a hair"
+    light: "red over violet"
+    art: >
+      Close on the Warden's huge closed eye (tide_warden) across the red-lit pit: the lid lifts by a hair, and a sliver of deep sea-green
+      shows beneath it.
+    acting:
+      tide_warden: "the eyelid lifting by a hair"
+    calm: left
+    silent: true
+
+  - id: P60
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close on Jaeha in the red light opening his notebook to a blank page, the guards' torches climbing behind him"
+    light: "red; torch beams climbing"
+    face: private
+    art: >
+      Close and low on Jaeha (kang_jaeha) in the red light, opening his notebook to a blank page and lifting the pencil; behind him,
+      torch beams climb the pit wall toward the balcony.
+    acting:
+      kang_jaeha: "opening the notebook, pencil raised, eyes calm behind the visor"
+    eyeline: "Jaeha → the page"
+    foreground: "the torch beams over the balustrade, cropped, top"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "TWO MINUTES. EVERYBODY GIVE ME TWO MINUTES.", side: r}
+    sfx:
+      - {text: "WEEOOO", style: alert, at: [0.80, 0.20], size: M, rot: 0}
+
+  - id: END
+    kind: end
+    chibi_gag: "Chibi Ho, crawling away from the alarm, finally sneezes into his hands so hard he rockets backwards along the balcony, while chibi Woo facepalms."
