@@ -1,0 +1,72 @@
+{
+  "entry": "S2b",
+  "id": "nib",
+  "name": "Nib",
+  "height_cm": 105,
+  "seal": "2/5",
+  "status": "AWAITING CLAUDE REVIEW; NOT APPROVED",
+  "palette": {
+    "skin": "#7D8A6C",
+    "skin_shadow": "#5B6650",
+    "hair": "#1C1D21",
+    "eyes": "#F2A93B",
+    "cloak_outer": "#3B3C42",
+    "cloak_shadow": "#27282D",
+    "cloak_lining": "#2F4A6E",
+    "cloak_trim_and_clasp": "#A87A3A",
+    "scarf": "#B4262F",
+    "background": "#E9E9EC"
+  },
+  "locks": [
+    "adult wiry veteran; long arms and bare feet",
+    "anatomical LEFT ear notch and LEFT lower fang",
+    "hood down; charcoal sleeveless belted pocketed cloak",
+    "red scarf, brass binoculars, two SHORT crossed-back knives retained",
+    "mask over anatomical LEFT eye only on turnaround",
+    "cloak lining, bronze trim and nine-tower bronze clasp are the seal-2 changes"
+  ],
+  "files": [
+    "front_seal2_nomask.png",
+    "turnaround_seal2.png",
+    "details_seal2.png"
+  ],
+  "prompt_file": "prompts.json",
+  "self_check_failures": [
+    "Full-body scale silhouettes remain inaccurate: front about 0.70 and turnaround about 0.67 of the human height, versus required 105/178 = 0.590. Claude should review/redo these before approving use."
+  ],
+  "review_caveats": [
+    "Bronze trim continues down the front opening in full-body candidates; the brief explicitly names hem, armhole and hood edges. Ask Claude to judge this continuity detail.",
+    "Small full-body clasp symbols are not reliably countable at their rendered size; use the large nine-tower close-up for the count check.",
+    "Only Claude can approve or supply REDO instructions."
+  ],
+  "source": {
+    "repository": "abafaboy/abafaboy.github.io",
+    "writing_branch": "msgf-bible",
+    "writing_head_observed": "60d99351f6f9c97c131e6ee5e44c2ab6ef01022a",
+    "art_branch": "msgf-art",
+    "approved_art_commit": "91c10d0e223d6319e4f1ed81b434620c55378a6c",
+    "document_blob_shas": {
+      "HANDOFF_ABAFADOT.md": "bb3ea2b74d41ee72ae208d493fd63025d52c2433",
+      "codex/ASSETS_ARC2_BRIEF.md": "885e7391cf8a01f434a4dcef229ef11bc7644e46",
+      "codex/reviews/STATUS.md": "c734c5a32f34ad5354e983580e20c36c3473f2de",
+      "README.md": "7750d8345a76d036486ee8a284f0a65db9cba45a",
+      "codex/README_START_HERE.md": "bc99582f686260adb84be2ebef161f92ccdd61bf",
+      "STORY_BIBLE_v4.md": "c8bef189de088711f553e08307df219b50aca954",
+      "NAME_SHEET.md": "ef06c6a2dacdc50d72e7b167010834b80caf76f0",
+      "codex/MANHWA_STYLE_GUIDE.md": "51d801495ce3345c68d97679370db69a6c418f3b",
+      "codex/MANHWA_ART_DIRECTION.md": "97edcc72877b87bf9a0cf33a8cea0421dc7a748f",
+      "codex/CHARACTER_DESIGNS_v2.md": "0304bd80dab8d5170bfd16c553b15e7f69fb90c3",
+      "codex/MODEL_SHEETS_BRIEF.md": "7c611013f2c511a5fe28478a73dd16fc68f32bb8",
+      "codex/REVIEW_FIXES.md": "c369cd34da7dc2bfc21c7268815022a1a1fbdcef",
+      "codex/PANEL_BRIEF_v2.md": "bb0d92d33584ccf9fecc7781e92b9b82a3db34e3"
+    },
+    "model_route": "Codex built-in image_gen.imagegen",
+    "approval_authority": "Claude via codex/reviews/S2b.md; no approval granted by this task",
+    "reference_cap": {
+      "actual_runtime_validation": "referenced_image_paths must contain at most 5 paths",
+      "failed_initial_argument_call_generated_images": 0,
+      "valid_calls": "Exactly five local paths, including approved Nib sheets and one approved acting house-style anchor, on every generated image."
+    },
+    "scope": "S2b only. No new assets used downstream. Canonical source files preserved."
+  }
+}

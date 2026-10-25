@@ -1,0 +1,535 @@
+{
+  "entry": "S2b",
+  "status": "complete review submission; known scale self-check failures; awaiting Claude verdict",
+  "model_route": "built-in image_gen.imagegen",
+  "argument_validation_event": {
+    "attempt": 1,
+    "images_generated": 0,
+    "error": "referenced_image_paths must contain at most 5 paths",
+    "resolution": "Use exactly the four relevant approved Nib sheets plus one approved house-style anchor; all required reference roles retained, no transforms."
+  },
+  "reference_paths": [
+    "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/front.png",
+    "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/turnaround_mask.png",
+    "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/turnaround.png",
+    "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/acting.png",
+    "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/style_test_v2/acting/A1_P11.png"
+  ],
+  "front_prompt": "Korean webtoon panel, digitally inked and coloured by a professional webtoon studio. Crisp black ink with tapered strokes, heavier on the outer silhouette, the jaw, the hair mass and where forms overlap. Flat local colour with one hard-edged cool cel shadow per material. One named key light: its colour washes smoothly over the lit side. If the scene names a back light, it draws a thin crisp rim along the figure's silhouette. Everything else stays flat. Muted cool base palette of slate, navy and grey-blue, so the light source and the character's signature colour carry the saturation. Background simplified and lower in contrast than the characters. Small crisp highlights; glossy specular only on metal and wet surfaces.\n\nHand-made webtoon colouring: each garment has only a few large, opaque, clean-edged shadow shapes, placed in its real folds; no scattered translucent streaks, zigzag shards or crumpled-foil folds. Worn cloth shows a few small frayed notches and loose threads, never sawtooth edges along every edge. Plain shoes and clothes with no logos, stripes or brand marks. Every strap, buckle, pocket and seam is attached and has a purpose; no stray stitch marks. Matte skin, hair and stone; no 3D, low-poly or plastic look.\n\nReference-guided character MODEL SHEET, native landscape PNG 1536 x 1024. One unmasked FULL-BODY FRONT VIEW of Nib's chapter-3 seal 2/5 look. This is a very narrow costume update to the exact adult Nib in the approved references, not a character redesign. The first four references establish Nib's accepted face, skinny long-limbed body, clothing construction, gear and side locks. The last reference is an approved HOUSE STYLE anchor for ink and cel colour only: do not draw their people, backgrounds, lighting effects, architecture, text or symbols.\n\nFollow the approved unmasked front closely: same narrow adult skull, angular heavy brow, small amber-yellow eyes under heavy lids, hollow cheeks, long hooked pointed nose, narrow pointed chin, shaggy black hair, long swept ears, grey-green skin, long bony five-fingered hands, long bare arms and calloused bare feet. He is a weathered adult veteran, 105 cm and about six heads tall with full model-sheet proportions, not a child or a chibi. Preserve the anatomical LEFT-ear V-notch (picture-right in this front view), one small lower LEFT fang (picture-right), and smooth unnotched RIGHT ear. NO MASK whatsoever on this particular sheet: both eyes and his own face are visible. Hood remains DOWN. A neutral deadpan expression and natural neutral stance; feet fully in frame.\n\nChange ONLY these cloak elements from seal 1/5: deep wall-blue lining #2F4A6E is visible inside the narrow open front, inside both wide sleeveless armholes and inside the folded-down hood; restrained bronze edging #A87A3A follows the cloak hem, both armhole edges and hood edge; the round throat clasp is now a small bronze disc embossed with a low-relief WALL WITH EXACTLY NINE ROUND TOWERS, no writing. This wall-and-nine-towers silhouette is an emblem without letters. The OUTER cloak remains charcoal #3B3C42 / #27282D with its SAME knee length, waist belt, practical pockets and mildly scorched uneven hem. The bronze border follows the worn hem without turning it into ornate armour. The entire coat is NOT blue. Keep the red scarf wrapped twice round the neck, compact dented brass binoculars on their real leather neck strap, two SHORT knives in crossed sheaths at the small of the back with two handles up, all existing gear, scars and bare feet unchanged. No cuirass, no pauldron, no bracers, no boots, no long knives: those belong to a later seal.\n\nFlat uniform light-grey #E9E9EC background edge to edge. Soft neutral key light from the upper left, with simple opaque cool cel shadows matching the approved sheets. No vignette, gradient, floor texture, glow, border or panel dividers. Place Nib centre-left at a clear readable full-body scale, with one very faint plain grey ADULT HUMAN SILHOUETTE to his right for scale only: the silhouette is 178 cm, Nib 105 cm, both standing on exactly one baseline, so Nib's total height is 105/178 of the silhouette's height. The silhouette is featureless, has no clothes details or face or text and does not compete with Nib. Keep both whole bodies inside the canvas. No dimension marks, captions, digits, letters or labels. No other inset views or props laid out around him. Preserve precise black ink, matte skin/hair/cloth and crisp clean native pixels.\n\nNib: an adult goblin scout and veteran soldier, 105 cm, wiry and long-limbed with long bony hands; grey-green skin; a narrow angular head with a heavy brow ridge, hollow cheeks and a narrow pointed chin, long pointed ears swept back with a V-notch near the tip of the LEFT ear; a long pointed nose with a slight hook that sticks out clearly in profile; a thin, wide mouth with one small lower fang on the left; amber-yellow eyes with heavy lined lower lids; shaggy black hair; a knee-length charcoal hooded cloak (hood down), belted at the waist, sleeveless with wide armholes, small pockets sewn onto it and a frayed, scorched hem; a long red scarf wrapped twice round his neck, compact brass binoculars on a strap at his chest, two short knives in crossed sheaths at the small of his back, bare feet. Deadpan, never cute.\n\nScene override to that snippet: the mask is absent in this front sheet; add only wall-blue cloak lining, bronze edge trim and the bronze nine-tower clasp as specified. Everything else follows the approved V2 Nib.\n\nNo text, letters, numbers, speech bubbles, captions, sound-effect lettering, interface windows or readable signs. Emblems without letters are fine; no brand logos or wordmarks. Not a 3D render, not a photograph, no photographic background. No airbrushed skin, no plastic gloss on skin or hair, no haze or bloom over the whole image, no depth-of-field blur, no lens flare unless a real camera flash is in the scene. No watermark or signature. Correct hands with five fingers. No chibi proportions unless the brief says chibi. No compressed or stubby bodies, no shortened legs or torsos, no oversized heads; no people out of scale with the doors, vehicles and buildings around them; no figures floating off the floor or breaking the scene's perspective.",
+  "generations": [
+    {
+      "id": "front_try1",
+      "target": "front_seal2_nomask.png",
+      "native_path": "/workspace/generated_images/exec-f5463572-d897-44e9-921f-e8901c3f17d8.png",
+      "saved_path": "/workspace/msgf-s2b-production/characters_v2/_rejects/nib_S2b_front_scale_too_tall_try1.png",
+      "sha256": "938b7531379ff707ad5c00693d532dc655595dfdbecf9ebde90e3031b5b02128",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "reference_paths": [
+        "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/front.png",
+        "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/turnaround_mask.png",
+        "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/turnaround.png",
+        "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/acting.png",
+        "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/style_test_v2/acting/A1_P11.png"
+      ],
+      "prompt": "Korean webtoon panel, digitally inked and coloured by a professional webtoon studio. Crisp black ink with tapered strokes, heavier on the outer silhouette, the jaw, the hair mass and where forms overlap. Flat local colour with one hard-edged cool cel shadow per material. One named key light: its colour washes smoothly over the lit side. If the scene names a back light, it draws a thin crisp rim along the figure's silhouette. Everything else stays flat. Muted cool base palette of slate, navy and grey-blue, so the light source and the character's signature colour carry the saturation. Background simplified and lower in contrast than the characters. Small crisp highlights; glossy specular only on metal and wet surfaces.\n\nHand-made webtoon colouring: each garment has only a few large, opaque, clean-edged shadow shapes, placed in its real folds; no scattered translucent streaks, zigzag shards or crumpled-foil folds. Worn cloth shows a few small frayed notches and loose threads, never sawtooth edges along every edge. Plain shoes and clothes with no logos, stripes or brand marks. Every strap, buckle, pocket and seam is attached and has a purpose; no stray stitch marks. Matte skin, hair and stone; no 3D, low-poly or plastic look.\n\nReference-guided character MODEL SHEET, native landscape PNG 1536 x 1024. One unmasked FULL-BODY FRONT VIEW of Nib's chapter-3 seal 2/5 look. This is a very narrow costume update to the exact adult Nib in the approved references, not a character redesign. The first four references establish Nib's accepted face, skinny long-limbed body, clothing construction, gear and side locks. The last reference is an approved HOUSE STYLE anchor for ink and cel colour only: do not draw their people, backgrounds, lighting effects, architecture, text or symbols.\n\nFollow the approved unmasked front closely: same narrow adult skull, angular heavy brow, small amber-yellow eyes under heavy lids, hollow cheeks, long hooked pointed nose, narrow pointed chin, shaggy black hair, long swept ears, grey-green skin, long bony five-fingered hands, long bare arms and calloused bare feet. He is a weathered adult veteran, 105 cm and about six heads tall with full model-sheet proportions, not a child or a chibi. Preserve the anatomical LEFT-ear V-notch (picture-right in this front view), one small lower LEFT fang (picture-right), and smooth unnotched RIGHT ear. NO MASK whatsoever on this particular sheet: both eyes and his own face are visible. Hood remains DOWN. A neutral deadpan expression and natural neutral stance; feet fully in frame.\n\nChange ONLY these cloak elements from seal 1/5: deep wall-blue lining #2F4A6E is visible inside the narrow open front, inside both wide sleeveless armholes and inside the folded-down hood; restrained bronze edging #A87A3A follows the cloak hem, both armhole edges and hood edge; the round throat clasp is now a small bronze disc embossed with a low-relief WALL WITH EXACTLY NINE ROUND TOWERS, no writing. This wall-and-nine-towers silhouette is an emblem without letters. The OUTER cloak remains charcoal #3B3C42 / #27282D with its SAME knee length, waist belt, practical pockets and mildly scorched uneven hem. The bronze border follows the worn hem without turning it into ornate armour. The entire coat is NOT blue. Keep the red scarf wrapped twice round the neck, compact dented brass binoculars on their real leather neck strap, two SHORT knives in crossed sheaths at the small of the back with two handles up, all existing gear, scars and bare feet unchanged. No cuirass, no pauldron, no bracers, no boots, no long knives: those belong to a later seal.\n\nFlat uniform light-grey #E9E9EC background edge to edge. Soft neutral key light from the upper left, with simple opaque cool cel shadows matching the approved sheets. No vignette, gradient, floor texture, glow, border or panel dividers. Place Nib centre-left at a clear readable full-body scale, with one very faint plain grey ADULT HUMAN SILHOUETTE to his right for scale only: the silhouette is 178 cm, Nib 105 cm, both standing on exactly one baseline, so Nib's total height is 105/178 of the silhouette's height. The silhouette is featureless, has no clothes details or face or text and does not compete with Nib. Keep both whole bodies inside the canvas. No dimension marks, captions, digits, letters or labels. No other inset views or props laid out around him. Preserve precise black ink, matte skin/hair/cloth and crisp clean native pixels.\n\nNib: an adult goblin scout and veteran soldier, 105 cm, wiry and long-limbed with long bony hands; grey-green skin; a narrow angular head with a heavy brow ridge, hollow cheeks and a narrow pointed chin, long pointed ears swept back with a V-notch near the tip of the LEFT ear; a long pointed nose with a slight hook that sticks out clearly in profile; a thin, wide mouth with one small lower fang on the left; amber-yellow eyes with heavy lined lower lids; shaggy black hair; a knee-length charcoal hooded cloak (hood down), belted at the waist, sleeveless with wide armholes, small pockets sewn onto it and a frayed, scorched hem; a long red scarf wrapped twice round his neck, compact brass binoculars on a strap at his chest, two short knives in crossed sheaths at the small of his back, bare feet. Deadpan, never cute.\n\nScene override to that snippet: the mask is absent in this front sheet; add only wall-blue cloak lining, bronze edge trim and the bronze nine-tower clasp as specified. Everything else follows the approved V2 Nib.\n\nNo text, letters, numbers, speech bubbles, captions, sound-effect lettering, interface windows or readable signs. Emblems without letters are fine; no brand logos or wordmarks. Not a 3D render, not a photograph, no photographic background. No airbrushed skin, no plastic gloss on skin or hair, no haze or bloom over the whole image, no depth-of-field blur, no lens flare unless a real camera flash is in the scene. No watermark or signature. Correct hands with five fingers. No chibi proportions unless the brief says chibi. No compressed or stubby bodies, no shortened legs or torsos, no oversized heads; no people out of scale with the doors, vehicles and buildings around them; no figures floating off the floor or breaking the scene's perspective.",
+      "state": "rejected",
+      "reason": "Nib stands about 0.85 times the human silhouette height instead of 105/178 = 0.590. Scale check fails; no pixel correction or resizing performed.",
+      "time_utc": "2026-10-25T21:53:53.769268+00:00",
+      "model_route": "Codex built-in image_gen.imagegen",
+      "references": [
+        {
+          "local_path": "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/front.png",
+          "repository_path": "characters_v2/nib/front.png",
+          "sha256": "48f0d04b1a4767c9d38a28eb14814e184c12df64cec774bda2e513f8a258574b",
+          "git_blob_sha1": "2e4e09829d0275e1a417d969e402b91212726d75",
+          "approved_art_commit": "91c10d0e223d6319e4f1ed81b434620c55378a6c",
+          "role": "approved design/scale"
+        },
+        {
+          "local_path": "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/turnaround_mask.png",
+          "repository_path": "characters_v2/nib/turnaround_mask.png",
+          "sha256": "6d389477cfde313ff6ec8f58e0dabf3d804d6c2e88e50c5d50bb28e7fb89fe9c",
+          "git_blob_sha1": "c307d7ec039b6e15f0b191ab0294c0018f02fd99",
+          "approved_art_commit": "91c10d0e223d6319e4f1ed81b434620c55378a6c",
+          "role": "approved design/scale"
+        },
+        {
+          "local_path": "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/turnaround.png",
+          "repository_path": "characters_v2/nib/turnaround.png",
+          "sha256": "f09c3e9383c97ecea570f2f6021a523f61a078b81a6f828c75487a6deeec3a96",
+          "git_blob_sha1": "219fa180703bae878a6523d105f94c9a3dde421c",
+          "approved_art_commit": "91c10d0e223d6319e4f1ed81b434620c55378a6c",
+          "role": "approved design/scale"
+        },
+        {
+          "local_path": "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/acting.png",
+          "repository_path": "characters_v2/nib/acting.png",
+          "sha256": "15281d4203d92b606f59a4038241d316ede0aaa799c3c38ac255da9ebb7eb86c",
+          "git_blob_sha1": "c472cfd95ee0f73a8e79339f2d2e8271d2acca32",
+          "approved_art_commit": "91c10d0e223d6319e4f1ed81b434620c55378a6c",
+          "role": "approved design/scale"
+        },
+        {
+          "local_path": "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/style_test_v2/acting/A1_P11.png",
+          "repository_path": "style_test_v2/acting/A1_P11.png",
+          "sha256": "2056a72e2f14846b7b0fa51fe3a5f7455fd7f11087716da64ea7c9645a099a48",
+          "git_blob_sha1": "43ba7e3df5d9e0bc76ed296da1aef1035ab26832",
+          "approved_art_commit": "91c10d0e223d6319e4f1ed81b434620c55378a6c",
+          "role": "house style"
+        }
+      ],
+      "bytes": 1326724,
+      "native_saved_at_utc": "2026-10-25T21:53:04.614877+00:00",
+      "png_bytes_untouched": true,
+      "claude_approved": false
+    },
+    {
+      "id": "front_try2",
+      "target": "front_seal2_nomask.png",
+      "native_path": "/workspace/generated_images/exec-31ef6f5d-3d58-4928-9ccd-65ac8d95acef.png",
+      "saved_path": "/workspace/msgf-s2b-production/characters_v2/_rejects/nib_S2b_front_scale_too_tall_try2.png",
+      "sha256": "6d8a40360c6bd49f976ddca09be1f6aaff83ed912675745577749195fa722103",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "state": "rejected",
+      "reason": "Height still approximately 0.79 of 178 cm silhouette, not 105/178. No resizing or image editing performed.",
+      "time_utc": "2026-10-25T21:56:09.145068+00:00",
+      "prompt": "Korean webtoon panel, digitally inked and coloured by a professional webtoon studio. Crisp black ink with tapered strokes, heavier on the outer silhouette, the jaw, the hair mass and where forms overlap. Flat local colour with one hard-edged cool cel shadow per material. One named key light: its colour washes smoothly over the lit side. If the scene names a back light, it draws a thin crisp rim along the figure's silhouette. Everything else stays flat. Muted cool base palette of slate, navy and grey-blue, so the light source and the character's signature colour carry the saturation. Background simplified and lower in contrast than the characters. Small crisp highlights; glossy specular only on metal and wet surfaces.\n\nHand-made webtoon colouring: each garment has only a few large, opaque, clean-edged shadow shapes, placed in its real folds; no scattered translucent streaks, zigzag shards or crumpled-foil folds. Worn cloth shows a few small frayed notches and loose threads, never sawtooth edges along every edge. Plain shoes and clothes with no logos, stripes or brand marks. Every strap, buckle, pocket and seam is attached and has a purpose; no stray stitch marks. Matte skin, hair and stone; no 3D, low-poly or plastic look.\n\nReference-guided character MODEL SHEET, native landscape PNG 1536 x 1024. One unmasked FULL-BODY FRONT VIEW of Nib's chapter-3 seal 2/5 look. This is a very narrow costume update to the exact adult Nib in the approved references, not a character redesign. The first four references establish Nib's accepted face, skinny long-limbed body, clothing construction, gear and side locks. The last reference is an approved HOUSE STYLE anchor for ink and cel colour only: do not draw their people, backgrounds, lighting effects, architecture, text or symbols.\n\nFollow the approved unmasked front closely: same narrow adult skull, angular heavy brow, small amber-yellow eyes under heavy lids, hollow cheeks, long hooked pointed nose, narrow pointed chin, shaggy black hair, long swept ears, grey-green skin, long bony five-fingered hands, long bare arms and calloused bare feet. He is a weathered adult veteran, 105 cm and about six heads tall with full model-sheet proportions, not a child or a chibi. Preserve the anatomical LEFT-ear V-notch (picture-right in this front view), one small lower LEFT fang (picture-right), and smooth unnotched RIGHT ear. NO MASK whatsoever on this particular sheet: both eyes and his own face are visible. Hood remains DOWN. A neutral deadpan expression and natural neutral stance; feet fully in frame.\n\nChange ONLY these cloak elements from seal 1/5: deep wall-blue lining #2F4A6E is visible inside the narrow open front, inside both wide sleeveless armholes and inside the folded-down hood; restrained bronze edging #A87A3A follows the cloak hem, both armhole edges and hood edge; the round throat clasp is now a small bronze disc embossed with a low-relief WALL WITH EXACTLY NINE ROUND TOWERS, no writing. This wall-and-nine-towers silhouette is an emblem without letters. The OUTER cloak remains charcoal #3B3C42 / #27282D with its SAME knee length, waist belt, practical pockets and mildly scorched uneven hem. The bronze border follows the worn hem without turning it into ornate armour. The entire coat is NOT blue. Keep the red scarf wrapped twice round the neck, compact dented brass binoculars on their real leather neck strap, two SHORT knives in crossed sheaths at the small of the back with two handles up, all existing gear, scars and bare feet unchanged. No cuirass, no pauldron, no bracers, no boots, no long knives: those belong to a later seal.\n\nFlat uniform light-grey #E9E9EC background edge to edge. Soft neutral key light from the upper left, with simple opaque cool cel shadows matching the approved sheets. No vignette, gradient, floor texture, glow, border or panel dividers. STRICT SCALE LAYOUT: the 178 cm human silhouette at picture-right runs from approximately y=40 to y=980 (940 pixels high). Nib's full 105 cm body at centre-left runs from approximately y=425 to y=980 (555 pixels high). Both feet sit on the SAME baseline y=980. Thus Nib is only 0.59 of the human's full height: his TOP OF HAIR is near the human's BELT/WAIST, never near the human's shoulders or chest. Leave the upper-left area empty light grey above Nib; do not stretch or enlarge him to fill it. Keep Nib's original long-limbed six-head proportions inside his own smaller 555-pixel height. Place the two complete bodies side-by-side, not overlapping. The very faint grey human is a featureless ADULT HUMAN silhouette with no face, clothes details or text. It stays full height inside the canvas. This is a scale-comparison sheet, so the large empty space above Nib is intentional. Draw Nib physically 105 cm and the human 178 cm. Never make Nib 150 cm relative to the human. No dimension marks, captions, digits, letters or labels. No other inset views or props laid out around him. Preserve precise black ink, matte skin/hair/cloth and crisp clean native pixels.\n\nNib: an adult goblin scout and veteran soldier, 105 cm, wiry and long-limbed with long bony hands; grey-green skin; a narrow angular head with a heavy brow ridge, hollow cheeks and a narrow pointed chin, long pointed ears swept back with a V-notch near the tip of the LEFT ear; a long pointed nose with a slight hook that sticks out clearly in profile; a thin, wide mouth with one small lower fang on the left; amber-yellow eyes with heavy lined lower lids; shaggy black hair; a knee-length charcoal hooded cloak (hood down), belted at the waist, sleeveless with wide armholes, small pockets sewn onto it and a frayed, scorched hem; a long red scarf wrapped twice round his neck, compact brass binoculars on a strap at his chest, two short knives in crossed sheaths at the small of his back, bare feet. Deadpan, never cute.\n\nScene override to that snippet: the mask is absent in this front sheet; add only wall-blue cloak lining, bronze edge trim and the bronze nine-tower clasp as specified. Everything else follows the approved V2 Nib.\n\nNo text, letters, numbers, speech bubbles, captions, sound-effect lettering, interface windows or readable signs. Emblems without letters are fine; no brand logos or wordmarks. Not a 3D render, not a photograph, no photographic background. No airbrushed skin, no plastic gloss on skin or hair, no haze or bloom over the whole image, no depth-of-field blur, no lens flare unless a real camera flash is in the scene. No watermark or signature. Correct hands with five fingers. No chibi proportions unless the brief says chibi. No compressed or stubby bodies, no shortened legs or torsos, no oversized heads; no people out of scale with the doors, vehicles and buildings around them; no figures floating off the floor or breaking the scene's perspective.",
+      "reference_paths": [
+        "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/front.png",
+        "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/turnaround_mask.png",
+        "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/turnaround.png",
+        "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/acting.png",
+        "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/style_test_v2/acting/A1_P11.png"
+      ],
+      "model_route": "Codex built-in image_gen.imagegen",
+      "references": [
+        {
+          "local_path": "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/front.png",
+          "repository_path": "characters_v2/nib/front.png",
+          "sha256": "48f0d04b1a4767c9d38a28eb14814e184c12df64cec774bda2e513f8a258574b",
+          "git_blob_sha1": "2e4e09829d0275e1a417d969e402b91212726d75",
+          "approved_art_commit": "91c10d0e223d6319e4f1ed81b434620c55378a6c",
+          "role": "approved design/scale"
+        },
+        {
+          "local_path": "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/turnaround_mask.png",
+          "repository_path": "characters_v2/nib/turnaround_mask.png",
+          "sha256": "6d389477cfde313ff6ec8f58e0dabf3d804d6c2e88e50c5d50bb28e7fb89fe9c",
+          "git_blob_sha1": "c307d7ec039b6e15f0b191ab0294c0018f02fd99",
+          "approved_art_commit": "91c10d0e223d6319e4f1ed81b434620c55378a6c",
+          "role": "approved design/scale"
+        },
+        {
+          "local_path": "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/turnaround.png",
+          "repository_path": "characters_v2/nib/turnaround.png",
+          "sha256": "f09c3e9383c97ecea570f2f6021a523f61a078b81a6f828c75487a6deeec3a96",
+          "git_blob_sha1": "219fa180703bae878a6523d105f94c9a3dde421c",
+          "approved_art_commit": "91c10d0e223d6319e4f1ed81b434620c55378a6c",
+          "role": "approved design/scale"
+        },
+        {
+          "local_path": "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/acting.png",
+          "repository_path": "characters_v2/nib/acting.png",
+          "sha256": "15281d4203d92b606f59a4038241d316ede0aaa799c3c38ac255da9ebb7eb86c",
+          "git_blob_sha1": "c472cfd95ee0f73a8e79339f2d2e8271d2acca32",
+          "approved_art_commit": "91c10d0e223d6319e4f1ed81b434620c55378a6c",
+          "role": "approved design/scale"
+        },
+        {
+          "local_path": "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/style_test_v2/acting/A1_P11.png",
+          "repository_path": "style_test_v2/acting/A1_P11.png",
+          "sha256": "2056a72e2f14846b7b0fa51fe3a5f7455fd7f11087716da64ea7c9645a099a48",
+          "git_blob_sha1": "43ba7e3df5d9e0bc76ed296da1aef1035ab26832",
+          "approved_art_commit": "91c10d0e223d6319e4f1ed81b434620c55378a6c",
+          "role": "house style"
+        }
+      ],
+      "bytes": 1585864,
+      "native_saved_at_utc": "2026-10-25T21:55:00.154397+00:00",
+      "png_bytes_untouched": true,
+      "claude_approved": false
+    },
+    {
+      "id": "front_try3",
+      "target": "front_seal2_nomask.png",
+      "native_path": "/workspace/generated_images/exec-a5df5686-89a3-418a-bb77-14dca0bd0184.png",
+      "saved_path": "/workspace/msgf-s2b-production/characters_v2/_rejects/nib_S2b_front_scale_too_tall_try3.png",
+      "sha256": "9c43f592256c2d7c18594f6769b2f76c082ec66af5471e3b48d224010cd81446",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "state": "rejected",
+      "reason": "About 0.69 of human height; still too tall for 105/178 comparison. Third redo will place the approved height chart first.",
+      "prompt": "Korean webtoon panel, digitally inked and coloured by a professional webtoon studio. Crisp black ink with tapered strokes, heavier on the outer silhouette, the jaw, the hair mass and where forms overlap. Flat local colour with one hard-edged cool cel shadow per material. One named key light: its colour washes smoothly over the lit side. If the scene names a back light, it draws a thin crisp rim along the figure's silhouette. Everything else stays flat. Muted cool base palette of slate, navy and grey-blue, so the light source and the character's signature colour carry the saturation. Background simplified and lower in contrast than the characters. Small crisp highlights; glossy specular only on metal and wet surfaces.\n\nHand-made webtoon colouring: each garment has only a few large, opaque, clean-edged shadow shapes, placed in its real folds; no scattered translucent streaks, zigzag shards or crumpled-foil folds. Worn cloth shows a few small frayed notches and loose threads, never sawtooth edges along every edge. Plain shoes and clothes with no logos, stripes or brand marks. Every strap, buckle, pocket and seam is attached and has a purpose; no stray stitch marks. Matte skin, hair and stone; no 3D, low-poly or plastic look.\n\nReference-guided character MODEL SHEET, native landscape PNG 1536 x 1024. CRITICAL: the goblin's top of head must align with the plain adult human's BELT, like tiny Nib versus the adult man in approved reference 4. Draw the goblin entirely in the LOWER HALF of the canvas. The TOP-LEFT HALF is completely EMPTY grey; only the adult silhouette at right occupies the top half. Do not let the goblin's head rise into the upper half. His full bounding box is approximately x=400..720, y=425..980; the adult silhouette spans x=970..1250, y=40..980. Do not fill the blank area above the goblin. One unmasked FULL-BODY FRONT VIEW of Nib's chapter-3 seal 2/5 look. This is a very narrow costume update to the exact adult Nib in the approved references, not a character redesign. References 1-3 establish Nib's approved design. Reference 4 is the APPROVED HEIGHT CHART: Nib is the TINY goblin near its far-right end, much shorter than the orange-vest adult. Reproduce that 105 cm versus 178 cm height relationship with the plain grey human silhouette in this sheet. Do not copy the other chart characters, its horizontal rules, colours or lineup. Reference 5 is the approved HOUSE STYLE anchor for ink and cel colour only: do not draw their people, backgrounds, lighting effects, architecture, text or symbols.\n\nFollow the approved unmasked front closely: same narrow adult skull, angular heavy brow, small amber-yellow eyes under heavy lids, hollow cheeks, long hooked pointed nose, narrow pointed chin, shaggy black hair, long swept ears, grey-green skin, long bony five-fingered hands, long bare arms and calloused bare feet. He is a weathered adult veteran, 105 cm and about six heads tall with full model-sheet proportions, not a child or a chibi. Preserve the anatomical LEFT-ear V-notch (picture-right in this front view), one small lower LEFT fang (picture-right), and smooth unnotched RIGHT ear. NO MASK whatsoever on this particular sheet: both eyes and his own face are visible. Hood remains DOWN. A neutral deadpan expression and natural neutral stance; feet fully in frame.\n\nChange ONLY these cloak elements from seal 1/5: deep wall-blue lining #2F4A6E is visible inside the narrow open front, inside both wide sleeveless armholes and inside the folded-down hood; restrained bronze edging #A87A3A follows the cloak hem, both armhole edges and hood edge; the round throat clasp is now a small bronze disc embossed with a low-relief WALL WITH EXACTLY NINE ROUND TOWERS, no writing. This wall-and-nine-towers silhouette is an emblem without letters. The OUTER cloak remains charcoal #3B3C42 / #27282D with its SAME knee length, waist belt, practical pockets and mildly scorched uneven hem. The bronze border follows the worn hem without turning it into ornate armour. The entire coat is NOT blue. Keep the red scarf wrapped twice round the neck, compact dented brass binoculars on their real leather neck strap, two SHORT knives in crossed sheaths at the small of the back with two handles up, all existing gear, scars and bare feet unchanged. No cuirass, no pauldron, no bracers, no boots, no long knives: those belong to a later seal.\n\nFlat uniform light-grey #E9E9EC background edge to edge. Soft neutral key light from the upper left, with simple opaque cool cel shadows matching the approved sheets. No vignette, gradient, floor texture, glow, border or panel dividers. STRICT SCALE LAYOUT: the 178 cm human silhouette at picture-right runs from approximately y=40 to y=980 (940 pixels high). Nib's full 105 cm body at centre-left runs from approximately y=425 to y=980 (555 pixels high). Both feet sit on the SAME baseline y=980. Thus Nib is only 0.59 of the human's full height: his TOP OF HAIR is near the human's BELT/WAIST, never near the human's shoulders or chest. Leave the upper-left area empty light grey above Nib; do not stretch or enlarge him to fill it. Keep Nib's original long-limbed six-head proportions inside his own smaller 555-pixel height. Place the two complete bodies side-by-side, not overlapping. The very faint grey human is a featureless ADULT HUMAN silhouette with no face, clothes details or text. It stays full height inside the canvas. This is a scale-comparison sheet, so the large empty space above Nib is intentional. Draw Nib physically 105 cm and the human 178 cm. Never make Nib 150 cm relative to the human. No dimension marks, captions, digits, letters or labels. No other inset views or props laid out around him. Preserve precise black ink, matte skin/hair/cloth and crisp clean native pixels.\n\nNib: an adult goblin scout and veteran soldier, 105 cm, wiry and long-limbed with long bony hands; grey-green skin; a narrow angular head with a heavy brow ridge, hollow cheeks and a narrow pointed chin, long pointed ears swept back with a V-notch near the tip of the LEFT ear; a long pointed nose with a slight hook that sticks out clearly in profile; a thin, wide mouth with one small lower fang on the left; amber-yellow eyes with heavy lined lower lids; shaggy black hair; a knee-length charcoal hooded cloak (hood down), belted at the waist, sleeveless with wide armholes, small pockets sewn onto it and a frayed, scorched hem; a long red scarf wrapped twice round his neck, compact brass binoculars on a strap at his chest, two short knives in crossed sheaths at the small of his back, bare feet. Deadpan, never cute.\n\nScene override to that snippet: the mask is absent in this front sheet; add only wall-blue cloak lining, bronze edge trim and the bronze nine-tower clasp as specified. Everything else follows the approved V2 Nib.\n\nNo text, letters, numbers, speech bubbles, captions, sound-effect lettering, interface windows or readable signs. Emblems without letters are fine; no brand logos or wordmarks. Not a 3D render, not a photograph, no photographic background. No airbrushed skin, no plastic gloss on skin or hair, no haze or bloom over the whole image, no depth-of-field blur, no lens flare unless a real camera flash is in the scene. No watermark or signature. Correct hands with five fingers. No chibi proportions unless the brief says chibi. No compressed or stubby bodies, no shortened legs or torsos, no oversized heads; no people out of scale with the doors, vehicles and buildings around them; no figures floating off the floor or breaking the scene's perspective.",
+      "reference_paths": [
+        "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/front.png",
+        "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/turnaround_mask.png",
+        "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/acting.png",
+        "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/scale_chart_v2.png",
+        "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/style_test_v2/acting/A1_P11.png"
+      ],
+      "model_route": "Codex built-in image_gen.imagegen",
+      "references": [
+        {
+          "local_path": "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/front.png",
+          "repository_path": "characters_v2/nib/front.png",
+          "sha256": "48f0d04b1a4767c9d38a28eb14814e184c12df64cec774bda2e513f8a258574b",
+          "git_blob_sha1": "2e4e09829d0275e1a417d969e402b91212726d75",
+          "approved_art_commit": "91c10d0e223d6319e4f1ed81b434620c55378a6c",
+          "role": "approved design/scale"
+        },
+        {
+          "local_path": "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/turnaround_mask.png",
+          "repository_path": "characters_v2/nib/turnaround_mask.png",
+          "sha256": "6d389477cfde313ff6ec8f58e0dabf3d804d6c2e88e50c5d50bb28e7fb89fe9c",
+          "git_blob_sha1": "c307d7ec039b6e15f0b191ab0294c0018f02fd99",
+          "approved_art_commit": "91c10d0e223d6319e4f1ed81b434620c55378a6c",
+          "role": "approved design/scale"
+        },
+        {
+          "local_path": "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/acting.png",
+          "repository_path": "characters_v2/nib/acting.png",
+          "sha256": "15281d4203d92b606f59a4038241d316ede0aaa799c3c38ac255da9ebb7eb86c",
+          "git_blob_sha1": "c472cfd95ee0f73a8e79339f2d2e8271d2acca32",
+          "approved_art_commit": "91c10d0e223d6319e4f1ed81b434620c55378a6c",
+          "role": "approved design/scale"
+        },
+        {
+          "local_path": "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/scale_chart_v2.png",
+          "repository_path": "characters_v2/scale_chart_v2.png",
+          "sha256": "1aa92e10f30fc7bc96b7af13c989b5a3de4ef77e273093e6f575ddc159429b60",
+          "git_blob_sha1": "f0c9dff47eba283b111d991c6655e60f31a5121d",
+          "approved_art_commit": "91c10d0e223d6319e4f1ed81b434620c55378a6c",
+          "role": "approved design/scale"
+        },
+        {
+          "local_path": "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/style_test_v2/acting/A1_P11.png",
+          "repository_path": "style_test_v2/acting/A1_P11.png",
+          "sha256": "2056a72e2f14846b7b0fa51fe3a5f7455fd7f11087716da64ea7c9645a099a48",
+          "git_blob_sha1": "43ba7e3df5d9e0bc76ed296da1aef1035ab26832",
+          "approved_art_commit": "91c10d0e223d6319e4f1ed81b434620c55378a6c",
+          "role": "house style"
+        }
+      ],
+      "bytes": 1267200,
+      "native_saved_at_utc": "2026-10-25T21:56:58.217906+00:00",
+      "png_bytes_untouched": true,
+      "claude_approved": false
+    },
+    {
+      "id": "front_try4",
+      "target": "front_seal2_nomask.png",
+      "native_path": "/workspace/generated_images/exec-8f0affc3-f8e4-4d0f-9c80-93b7db2dc5ee.png",
+      "saved_path": "/workspace/msgf-s2b-production/characters_v2/nib/front_seal2_nomask.png",
+      "sha256": "c114e1f0584c7a1c183be80f02391230372e55f23108b79d36f5d34d63fea451",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "state": "retained for Claude review with explicit scale caveat",
+      "tries": 4,
+      "reason": "One initial generation plus three redos exhausted. Costume/design candidate retained; human comparison remains too tall (about 0.70 rather than 0.59). This is not a technical/style approval.",
+      "time_utc": "2026-10-25T22:00:44.299218+00:00",
+      "prompt": "Korean webtoon panel, digitally inked and coloured by a professional webtoon studio. Crisp black ink with tapered strokes, heavier on the outer silhouette, the jaw, the hair mass and where forms overlap. Flat local colour with one hard-edged cool cel shadow per material. One named key light: its colour washes smoothly over the lit side. If the scene names a back light, it draws a thin crisp rim along the figure's silhouette. Everything else stays flat. Muted cool base palette of slate, navy and grey-blue, so the light source and the character's signature colour carry the saturation. Background simplified and lower in contrast than the characters. Small crisp highlights; glossy specular only on metal and wet surfaces.\n\nHand-made webtoon colouring: each garment has only a few large, opaque, clean-edged shadow shapes, placed in its real folds; no scattered translucent streaks, zigzag shards or crumpled-foil folds. Worn cloth shows a few small frayed notches and loose threads, never sawtooth edges along every edge. Plain shoes and clothes with no logos, stripes or brand marks. Every strap, buckle, pocket and seam is attached and has a purpose; no stray stitch marks. Matte skin, hair and stone; no 3D, low-poly or plastic look.\n\nMODEL SHEET, native 1536 x 1024 landscape PNG, Nib's seal 2/5 UNMASKED front.\n\nCRITICAL COMPOSITION: exactly TWO whole figures standing side by side on one baseline: a SMALL goblin and a MUCH TALLER faint plain grey human silhouette. Use reference 1's APPROVED SIZE CHART: the tiny red-scarf goblin near its far-right edge is Nib, and the orange-vest adult is 178 cm. The goblin is 105 cm. Reproduce THAT exact relative size in the two-figure sheet. Do not copy any other chart character or the chart's horizontal lines. References 2-4 lock Nib's design and gear. Reference 5 locks only the drawn ink/cel house style.\n\nThe silhouette at picture-right is 178 cm and nearly fills the canvas height, head at y=40 and feet y=980. Nib at picture-left is only 105 cm: put ALL of his body, including hair and ears, inside y=425 through y=980. Nib's HAIR TOP aligns with the silhouette's WAIST/BELT, far BELOW the silhouette's chest. Nib occupies only the bottom 55 percent of the canvas. The large region ABOVE Nib at picture-left is COMPLETELY EMPTY light grey. Do not enlarge Nib to fill the blank upper-left. Do not move him closer to the camera: both figures are on one floor plane with one orthographic camera, both feet on y=980. The small goblin still has his original wiry six-head proportions, long arms and legs; reduce his WHOLE FIGURE, never compress his limbs or enlarge his head.\n\nOne front view, NO MASK, hood DOWN, deadpan adult face exactly matching the approved Nib. Maintain the LEFT-ear V-notch and single lower LEFT fang on picture-right, unnotched RIGHT ear, hooked nose, small amber eyes, shaggy black hair, grey-green weathered skin, long five-fingered hands and bare feet. The silhouette is very faint and featureless, no clothes, face, labels, measurements or writing.\n\nChange ONLY the cloak: keep the exterior charcoal, knee length, belted, sleeveless, with the existing pockets and restrained scorched hem. Add deep wall-blue #2F4A6E LINING visible at the open front, armholes and inside folded-down hood; bronze #A87A3A TRIM on the hem, armhole edges and hood edge; replace the plain throat clasp with one bronze disc bearing a WALL WITH NINE ROUND TOWERS, an emblem without letters. No armour. Keep the same red scarf, brass binoculars on neck strap, waist belt, two SHORT knives in crossed back sheaths, body, face, scars and bare feet. Do not make the entire outer coat blue.\n\nUniform flat #E9E9EC background, soft neutral upper-left key light, crisp cool cel shadows. No gradient, vignette, painted texture, panels, border, labels, text or magic. Nib is small in frame on purpose: the adult height comparison is the reason. No extra views.\n\nNib: an adult goblin scout and veteran soldier, 105 cm, wiry and long-limbed with long bony hands; grey-green skin; a narrow angular head with a heavy brow ridge, hollow cheeks and a narrow pointed chin, long pointed ears swept back with a V-notch near the tip of the LEFT ear; a long pointed nose with a slight hook that sticks out clearly in profile; a thin, wide mouth with one small lower fang on the left; amber-yellow eyes with heavy lined lower lids; shaggy black hair; a knee-length charcoal hooded cloak (hood down), belted at the waist, sleeveless with wide armholes, small pockets sewn onto it and a frayed, scorched hem; a long red scarf wrapped twice round his neck, compact brass binoculars on a strap at his chest, two short knives in crossed sheaths at the small of his back, bare feet. Deadpan, never cute.\n\nScene override: seal 2/5 lining, bronze trim and sigil clasp only, and NO MASK on this front sheet. Preserve all other approved design locks.\n\nNo text, letters, numbers, speech bubbles, captions, sound-effect lettering, interface windows or readable signs. Emblems without letters are fine; no brand logos or wordmarks. Not a 3D render, not a photograph, no photographic background. No airbrushed skin, no plastic gloss on skin or hair, no haze or bloom over the whole image, no depth-of-field blur, no lens flare unless a real camera flash is in the scene. No watermark or signature. Correct hands with five fingers. No chibi proportions unless the brief says chibi. No compressed or stubby bodies, no shortened legs or torsos, no oversized heads; no people out of scale with the doors, vehicles and buildings around them; no figures floating off the floor or breaking the scene's perspective.",
+      "reference_paths": [
+        "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/scale_chart_v2.png",
+        "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/front.png",
+        "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/turnaround_mask.png",
+        "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/acting.png",
+        "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/style_test_v2/acting/A1_P11.png"
+      ],
+      "model_route": "Codex built-in image_gen.imagegen",
+      "references": [
+        {
+          "local_path": "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/scale_chart_v2.png",
+          "repository_path": "characters_v2/scale_chart_v2.png",
+          "sha256": "1aa92e10f30fc7bc96b7af13c989b5a3de4ef77e273093e6f575ddc159429b60",
+          "git_blob_sha1": "f0c9dff47eba283b111d991c6655e60f31a5121d",
+          "approved_art_commit": "91c10d0e223d6319e4f1ed81b434620c55378a6c",
+          "role": "approved design/scale"
+        },
+        {
+          "local_path": "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/front.png",
+          "repository_path": "characters_v2/nib/front.png",
+          "sha256": "48f0d04b1a4767c9d38a28eb14814e184c12df64cec774bda2e513f8a258574b",
+          "git_blob_sha1": "2e4e09829d0275e1a417d969e402b91212726d75",
+          "approved_art_commit": "91c10d0e223d6319e4f1ed81b434620c55378a6c",
+          "role": "approved design/scale"
+        },
+        {
+          "local_path": "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/turnaround_mask.png",
+          "repository_path": "characters_v2/nib/turnaround_mask.png",
+          "sha256": "6d389477cfde313ff6ec8f58e0dabf3d804d6c2e88e50c5d50bb28e7fb89fe9c",
+          "git_blob_sha1": "c307d7ec039b6e15f0b191ab0294c0018f02fd99",
+          "approved_art_commit": "91c10d0e223d6319e4f1ed81b434620c55378a6c",
+          "role": "approved design/scale"
+        },
+        {
+          "local_path": "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/acting.png",
+          "repository_path": "characters_v2/nib/acting.png",
+          "sha256": "15281d4203d92b606f59a4038241d316ede0aaa799c3c38ac255da9ebb7eb86c",
+          "git_blob_sha1": "c472cfd95ee0f73a8e79339f2d2e8271d2acca32",
+          "approved_art_commit": "91c10d0e223d6319e4f1ed81b434620c55378a6c",
+          "role": "approved design/scale"
+        },
+        {
+          "local_path": "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/style_test_v2/acting/A1_P11.png",
+          "repository_path": "style_test_v2/acting/A1_P11.png",
+          "sha256": "2056a72e2f14846b7b0fa51fe3a5f7455fd7f11087716da64ea7c9645a099a48",
+          "git_blob_sha1": "43ba7e3df5d9e0bc76ed296da1aef1035ab26832",
+          "approved_art_commit": "91c10d0e223d6319e4f1ed81b434620c55378a6c",
+          "role": "house style"
+        }
+      ],
+      "bytes": 1259469,
+      "native_saved_at_utc": "2026-10-25T21:59:29.125281+00:00",
+      "png_bytes_untouched": true,
+      "claude_approved": false
+    },
+    {
+      "id": "turnaround_try1",
+      "target": "turnaround_seal2.png",
+      "native_path": "/workspace/generated_images/exec-21f66a50-6348-4467-b581-8e825ef4be14.png",
+      "saved_path": "/workspace/msgf-s2b-production/characters_v2/_rejects/nib_S2b_turnaround_scale_too_tall_try1.png",
+      "sha256": "04c0263bedafe4062f1ff08ba6138d8e9af184b5def5a9a02738762afd7bd64b",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "state": "rejected",
+      "reason": "Three poses/cloak candidate, but figures are about 0.76 of the adult silhouette rather than 0.59. Retained unchanged in rejects.",
+      "time_utc": "2026-10-25T22:03:28.205525+00:00",
+      "prompt": "Korean webtoon panel, digitally inked and coloured by a professional webtoon studio. Crisp black ink with tapered strokes, heavier on the outer silhouette, the jaw, the hair mass and where forms overlap. Flat local colour with one hard-edged cool cel shadow per material. One named key light: its colour washes smoothly over the lit side. If the scene names a back light, it draws a thin crisp rim along the figure's silhouette. Everything else stays flat. Muted cool base palette of slate, navy and grey-blue, so the light source and the character's signature colour carry the saturation. Background simplified and lower in contrast than the characters. Small crisp highlights; glossy specular only on metal and wet surfaces.\n\nHand-made webtoon colouring: each garment has only a few large, opaque, clean-edged shadow shapes, placed in its real folds; no scattered translucent streaks, zigzag shards or crumpled-foil folds. Worn cloth shows a few small frayed notches and loose threads, never sawtooth edges along every edge. Plain shoes and clothes with no logos, stripes or brand marks. Every strap, buckle, pocket and seam is attached and has a purpose; no stray stitch marks. Matte skin, hair and stone; no 3D, low-poly or plastic look.\n\nNative landscape 1536 x 1024 PNG, full-body MODEL TURNAROUND sheet for Nib's chapter-3 seal 2/5 cloak, masked. Three views ONLY: FRONT, LEFT three-quarter (he looks toward picture-left and shows his anatomical LEFT cheek/ear), and BACK. All three whole figures stand in a neutral pose on ONE baseline at exactly the SAME scale, with arms long, hands reaching the knees and feet bare. A faint featureless grey 178 cm adult human silhouette at far picture-right is the only extra figure. Nib is 105 cm: each Nib figure must be only 105/178 = 0.59 of that silhouette's height, with the TOP of Nib's hair around the silhouette's BELT level. Put the human from y=40 to y=980; each SMALL Nib from y=425 to y=980. Leave large empty grey space above the small goblins. Draw THREE SMALL Nib figures and ONE TALL human. Do not enlarge the goblins to fill the canvas. Full six-head wiry adult proportions inside each small figure.\n\nReference 1 is the approved Nib unmasked front for face/body/gear; reference 2 is his approved MASKED front and three-quarter, specifically the exact white cracked mask shape and its anatomical LEFT-eye placement; reference 3 is his approved full turnaround for back view, folded-down hood, two crossed SHORT-knife sheaths and red scarf ends; reference 4 is his approved ACTING sheet for the angular adult veteran identity and limb proportions. Reference 5 is an approved HOUSE STYLE image for ink and cel colour only; never copy its people, weapons, background or text.\n\nThis is a CLOAK COLOUR/TRIM UPDATE ONLY, not a redesign. Keep the exact charcoal knee-length sleeveless belted cloak, same plain practical pockets and pouches, wide open armholes, folded-down hood, mildly scorched frayed hem, red scarf wrapped twice with the same two ends, brass binoculars on their real neck strap, two SHORT knives in crossed sheaths at the lower back, bare long toes, grey-green scarred arms, angular hooked-nose veteran face and shaggy black hair. No armour, pauldron, bracers, boots or long knives.\n\nNew cloak elements in all views: deep wall-blue lining #2F4A6E visible at its narrow open front, wide armholes and inside the folded-down hood; restrained bronze trim #A87A3A along ONLY the hem, armholes and hood edge. Keep the OUTER fabric charcoal. Round throat clasp becomes a bronze disc engraved with a wall and EXACTLY NINE small round towers, no writing. Keep the clasp, lining and trim identical across all views. Do not invent extra front-edge gold piping, embroidered patterns or additional sigils.\n\nThe cracked porcelain-white husk mask covers the anatomical upper LEFT face and LEFT eye in the front and three-quarter views. In front it sits on PICTURE-RIGHT, leaving only his anatomical RIGHT amber eye uncovered on PICTURE-LEFT. In the three-quarter facing picture-left, his LEFT eye is the near eye and remains covered; the far amber RIGHT eye can remain visible beyond the bridge of his hooked nose exactly as approved reference 2. Do NOT extend the mask onto that far right eye. The LEFT ear notch and one lower LEFT fang stay on their correct anatomical side; RIGHT ear has no notch. In back view picture-left is anatomical LEFT, so its notch is there. The hood is DOWN in every view. The two knife handles and crossed sheaths are clearly attached to the waist/back belt in the back view.\n\nFlat uniform light grey #E9E9EC background, no lines, labels, dividers, letters, numbers or decorative border. Soft neutral upper-left key light and a few large opaque cool cel shadows. Matte cloth and skin, hard clean ink, only tiny metal highlights. No gradient, vignette, haze or texture. Nothing cropped, no floating props.\n\nNib: an adult goblin scout and veteran soldier, 105 cm, wiry and long-limbed with long bony hands; grey-green skin; a narrow angular head with a heavy brow ridge, hollow cheeks and a narrow pointed chin, long pointed ears swept back with a V-notch near the tip of the LEFT ear; a long pointed nose with a slight hook that sticks out clearly in profile; a thin, wide mouth with one small lower fang on the left; amber-yellow eyes with heavy lined lower lids; shaggy black hair; a knee-length charcoal hooded cloak (hood down), belted at the waist, sleeveless with wide armholes, small pockets sewn onto it and a frayed, scorched hem; a long red scarf wrapped twice round his neck, compact brass binoculars on a strap at his chest, two short knives in crossed sheaths at the small of his back, bare feet. Deadpan, never cute.\n\nScene override: cloak seal 2/5 lining, trim and sigil clasp as above, and the approved cracked husk mask over the upper LEFT eye. Keep everything else identical to the approved base sheets.\n\nNo text, letters, numbers, speech bubbles, captions, sound-effect lettering, interface windows or readable signs. Emblems without letters are fine; no brand logos or wordmarks. Not a 3D render, not a photograph, no photographic background. No airbrushed skin, no plastic gloss on skin or hair, no haze or bloom over the whole image, no depth-of-field blur, no lens flare unless a real camera flash is in the scene. No watermark or signature. Correct hands with five fingers. No chibi proportions unless the brief says chibi. No compressed or stubby bodies, no shortened legs or torsos, no oversized heads; no people out of scale with the doors, vehicles and buildings around them; no figures floating off the floor or breaking the scene's perspective.",
+      "reference_paths": [
+        "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/front.png",
+        "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/turnaround_mask.png",
+        "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/turnaround.png",
+        "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/acting.png",
+        "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/style_test_v2/acting/A1_P11.png"
+      ],
+      "model_route": "Codex built-in image_gen.imagegen",
+      "references": [
+        {
+          "local_path": "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/front.png",
+          "repository_path": "characters_v2/nib/front.png",
+          "sha256": "48f0d04b1a4767c9d38a28eb14814e184c12df64cec774bda2e513f8a258574b",
+          "git_blob_sha1": "2e4e09829d0275e1a417d969e402b91212726d75",
+          "approved_art_commit": "91c10d0e223d6319e4f1ed81b434620c55378a6c",
+          "role": "approved design/scale"
+        },
+        {
+          "local_path": "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/turnaround_mask.png",
+          "repository_path": "characters_v2/nib/turnaround_mask.png",
+          "sha256": "6d389477cfde313ff6ec8f58e0dabf3d804d6c2e88e50c5d50bb28e7fb89fe9c",
+          "git_blob_sha1": "c307d7ec039b6e15f0b191ab0294c0018f02fd99",
+          "approved_art_commit": "91c10d0e223d6319e4f1ed81b434620c55378a6c",
+          "role": "approved design/scale"
+        },
+        {
+          "local_path": "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/turnaround.png",
+          "repository_path": "characters_v2/nib/turnaround.png",
+          "sha256": "f09c3e9383c97ecea570f2f6021a523f61a078b81a6f828c75487a6deeec3a96",
+          "git_blob_sha1": "219fa180703bae878a6523d105f94c9a3dde421c",
+          "approved_art_commit": "91c10d0e223d6319e4f1ed81b434620c55378a6c",
+          "role": "approved design/scale"
+        },
+        {
+          "local_path": "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/acting.png",
+          "repository_path": "characters_v2/nib/acting.png",
+          "sha256": "15281d4203d92b606f59a4038241d316ede0aaa799c3c38ac255da9ebb7eb86c",
+          "git_blob_sha1": "c472cfd95ee0f73a8e79339f2d2e8271d2acca32",
+          "approved_art_commit": "91c10d0e223d6319e4f1ed81b434620c55378a6c",
+          "role": "approved design/scale"
+        },
+        {
+          "local_path": "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/style_test_v2/acting/A1_P11.png",
+          "repository_path": "style_test_v2/acting/A1_P11.png",
+          "sha256": "2056a72e2f14846b7b0fa51fe3a5f7455fd7f11087716da64ea7c9645a099a48",
+          "git_blob_sha1": "43ba7e3df5d9e0bc76ed296da1aef1035ab26832",
+          "approved_art_commit": "91c10d0e223d6319e4f1ed81b434620c55378a6c",
+          "role": "house style"
+        }
+      ],
+      "bytes": 1604847,
+      "native_saved_at_utc": "2026-10-25T22:01:49.580528+00:00",
+      "png_bytes_untouched": true,
+      "claude_approved": false
+    },
+    {
+      "id": "turnaround_try2",
+      "target": "turnaround_seal2.png",
+      "native_path": "/workspace/generated_images/exec-7d1481b8-bf39-446c-b56d-31214e479924.png",
+      "saved_path": "/workspace/msgf-s2b-production/characters_v2/nib/turnaround_seal2.png",
+      "sha256": "3dc0efbf0d641ee3aea6b7a3d5808a8e7092a4e9f38336dbcca29a53aaafdb93",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "state": "retained provisional candidate; scale redo planned",
+      "reason": "Masked front, three-quarter and back plus cloak update present; relative scale remains about 0.67 versus requested 0.59. Not Claude-approved.",
+      "time_utc": "2026-10-25T22:05:43.429207+00:00",
+      "prompt": "Korean webtoon panel, digitally inked and coloured by a professional webtoon studio. Crisp black ink with tapered strokes, heavier on the outer silhouette, the jaw, the hair mass and where forms overlap. Flat local colour with one hard-edged cool cel shadow per material. One named key light: its colour washes smoothly over the lit side. If the scene names a back light, it draws a thin crisp rim along the figure's silhouette. Everything else stays flat. Muted cool base palette of slate, navy and grey-blue, so the light source and the character's signature colour carry the saturation. Background simplified and lower in contrast than the characters. Small crisp highlights; glossy specular only on metal and wet surfaces.\n\nHand-made webtoon colouring: each garment has only a few large, opaque, clean-edged shadow shapes, placed in its real folds; no scattered translucent streaks, zigzag shards or crumpled-foil folds. Worn cloth shows a few small frayed notches and loose threads, never sawtooth edges along every edge. Plain shoes and clothes with no logos, stripes or brand marks. Every strap, buckle, pocket and seam is attached and has a purpose; no stray stitch marks. Matte skin, hair and stone; no 3D, low-poly or plastic look.\n\nNative 1536 x 1024 landscape PNG. Draw THREE SMALL GOBLIN model views across the lower-left of the canvas, and ONE MUCH TALLER very faint grey adult-human silhouette at far right. This is a size-calibrated Nib seal 2/5 MASKED turnaround.\n\nREFERENCE 1 IS THE APPROVED SCALE CHART. Copy its actual size relationship between the TINY Nib at its far right and the orange-vest human: Nib 105 cm, human 178 cm. Nib is only 59 percent as tall. References 2-4 establish the accepted angular adult Nib, cracked LEFT-eye mask, gear and long-limbed proportions. Reference 5 is the approved ink/cel HOUSE STYLE only. Do not copy the framing or huge close-up size of references 2-4: their standing figures must become TINY whole figures like Nib in reference 1.\n\nCanvas plan: RIGHT adult silhouette from y=40 to y=980, full body. LEFT three goblins from y=425 to y=980, their hair tops BELOW the canvas centreline, all feet at y=980. Every one of the three Nib figures is only about 550 pixels tall, while the adult silhouette is about 940 pixels tall. Do not put any Nib hair, ear or body above y=425. The whole top half above the three goblins is EMPTY flat light grey. Only the tall adult at the far right rises into the top half. All figures stand in the same orthographic plane and on the same baseline, no perspective scaling.\n\nAcross the LOWER LEFT: one straight FRONT Nib, one three-quarter Nib facing picture-left, and one BACK Nib. Their entire figures are identical in height and preserve the original wiry adult six-head proportions. The small bodies have long arms and long legs, never childlike, stubby or big-headed. The faint featureless human silhouette is the height comparison only, with no face, clothing, text, ticks or numbers.\n\nUpdate ONLY Nib's CLOAK: exterior stays charcoal with the same knee length, sleeveless armholes, waist belt, practical pockets and lightly scorched/frayed hem. Add wall-blue #2F4A6E inner lining showing at open front, armholes and folded-down hood. Add bronze #A87A3A trim along the hem, armhole edges and hood edge ONLY. Bronze round throat clasp with the wall-and-NINE-round-towers emblem. Keep red scarf, brass binoculars and their strap, two SHORT knives in crossed back sheaths and bare feet unchanged. No armour or boots. Hood DOWN.\n\nThe cracked WHITE husk mask covers Nib's anatomical LEFT eye: picture-right in front, the NEAR eye in the three-quarter facing picture-left. The far RIGHT amber eye can be seen beyond his nose exactly as approved mask reference. No mask on the opposite side. LEFT-ear notch and lower LEFT fang retain the correct side; in back view the LEFT ear is picture-left. Same hooked nose, heavy brow, hollow cheeks, narrow chin, black hair and grey-green scarred skin.\n\nFlat uniform #E9E9EC background, neutral upper-left key light, clean black ink and large simple cool cel shadows. No gradients, vignette, floor texture, text, labels, panel borders, UI or extra characters. The large blank upper-left is intentional: obey the goblin's small scale.\n\nNib: an adult goblin scout and veteran soldier, 105 cm, wiry and long-limbed with long bony hands; grey-green skin; a narrow angular head with a heavy brow ridge, hollow cheeks and a narrow pointed chin, long pointed ears swept back with a V-notch near the tip of the LEFT ear; a long pointed nose with a slight hook that sticks out clearly in profile; a thin, wide mouth with one small lower fang on the left; amber-yellow eyes with heavy lined lower lids; shaggy black hair; a knee-length charcoal hooded cloak (hood down), belted at the waist, sleeveless with wide armholes, small pockets sewn onto it and a frayed, scorched hem; a long red scarf wrapped twice round his neck, compact brass binoculars on a strap at his chest, two short knives in crossed sheaths at the small of his back, bare feet. Deadpan, never cute.\n\nScene override: add the specified seal-2 CLOAK lining, trim and bronze sigil clasp, wear the cracked mask over the anatomical LEFT eye, and show exactly the three small neutral views.\n\nNo text, letters, numbers, speech bubbles, captions, sound-effect lettering, interface windows or readable signs. Emblems without letters are fine; no brand logos or wordmarks. Not a 3D render, not a photograph, no photographic background. No airbrushed skin, no plastic gloss on skin or hair, no haze or bloom over the whole image, no depth-of-field blur, no lens flare unless a real camera flash is in the scene. No watermark or signature. Correct hands with five fingers. No chibi proportions unless the brief says chibi. No compressed or stubby bodies, no shortened legs or torsos, no oversized heads; no people out of scale with the doors, vehicles and buildings around them; no figures floating off the floor or breaking the scene's perspective.",
+      "reference_paths": [
+        "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/scale_chart_v2.png",
+        "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/front.png",
+        "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/turnaround_mask.png",
+        "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/acting.png",
+        "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/style_test_v2/acting/A1_P11.png"
+      ],
+      "model_route": "Codex built-in image_gen.imagegen",
+      "references": [
+        {
+          "local_path": "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/scale_chart_v2.png",
+          "repository_path": "characters_v2/scale_chart_v2.png",
+          "sha256": "1aa92e10f30fc7bc96b7af13c989b5a3de4ef77e273093e6f575ddc159429b60",
+          "git_blob_sha1": "f0c9dff47eba283b111d991c6655e60f31a5121d",
+          "approved_art_commit": "91c10d0e223d6319e4f1ed81b434620c55378a6c",
+          "role": "approved design/scale"
+        },
+        {
+          "local_path": "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/front.png",
+          "repository_path": "characters_v2/nib/front.png",
+          "sha256": "48f0d04b1a4767c9d38a28eb14814e184c12df64cec774bda2e513f8a258574b",
+          "git_blob_sha1": "2e4e09829d0275e1a417d969e402b91212726d75",
+          "approved_art_commit": "91c10d0e223d6319e4f1ed81b434620c55378a6c",
+          "role": "approved design/scale"
+        },
+        {
+          "local_path": "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/turnaround_mask.png",
+          "repository_path": "characters_v2/nib/turnaround_mask.png",
+          "sha256": "6d389477cfde313ff6ec8f58e0dabf3d804d6c2e88e50c5d50bb28e7fb89fe9c",
+          "git_blob_sha1": "c307d7ec039b6e15f0b191ab0294c0018f02fd99",
+          "approved_art_commit": "91c10d0e223d6319e4f1ed81b434620c55378a6c",
+          "role": "approved design/scale"
+        },
+        {
+          "local_path": "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/acting.png",
+          "repository_path": "characters_v2/nib/acting.png",
+          "sha256": "15281d4203d92b606f59a4038241d316ede0aaa799c3c38ac255da9ebb7eb86c",
+          "git_blob_sha1": "c472cfd95ee0f73a8e79339f2d2e8271d2acca32",
+          "approved_art_commit": "91c10d0e223d6319e4f1ed81b434620c55378a6c",
+          "role": "approved design/scale"
+        },
+        {
+          "local_path": "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/style_test_v2/acting/A1_P11.png",
+          "repository_path": "style_test_v2/acting/A1_P11.png",
+          "sha256": "2056a72e2f14846b7b0fa51fe3a5f7455fd7f11087716da64ea7c9645a099a48",
+          "git_blob_sha1": "43ba7e3df5d9e0bc76ed296da1aef1035ab26832",
+          "approved_art_commit": "91c10d0e223d6319e4f1ed81b434620c55378a6c",
+          "role": "house style"
+        }
+      ],
+      "bytes": 1522842,
+      "native_saved_at_utc": "2026-10-25T22:04:28.887788+00:00",
+      "png_bytes_untouched": true,
+      "claude_approved": false
+    },
+    {
+      "id": "details_try1",
+      "target": "details_seal2.png",
+      "native_path": "/workspace/generated_images/exec-7a133f17-6439-46df-ba97-06ccedbd0e2f.png",
+      "saved_path": "/workspace/msgf-s2b-production/characters_v2/nib/details_seal2.png",
+      "state": "retained for Claude review",
+      "reason": "Four garment close-ups. Large clasp has nine countable towers; cloak lining/hem/hood/armhole shown. No whole figures on this detail-only sheet.",
+      "prompt": "Korean webtoon panel, digitally inked and coloured by a professional webtoon studio. Crisp black ink with tapered strokes, heavier on the outer silhouette, the jaw, the hair mass and where forms overlap. Flat local colour with one hard-edged cool cel shadow per material. One named key light: its colour washes smoothly over the lit side. If the scene names a back light, it draws a thin crisp rim along the figure's silhouette. Everything else stays flat. Muted cool base palette of slate, navy and grey-blue, so the light source and the character's signature colour carry the saturation. Background simplified and lower in contrast than the characters. Small crisp highlights; glossy specular only on metal and wet surfaces.\n\nHand-made webtoon colouring: each garment has only a few large, opaque, clean-edged shadow shapes, placed in its real folds; no scattered translucent streaks, zigzag shards or crumpled-foil folds. Worn cloth shows a few small frayed notches and loose threads, never sawtooth edges along every edge. Plain shoes and clothes with no logos, stripes or brand marks. Every strap, buckle, pocket and seam is attached and has a purpose; no stray stitch marks. Matte skin, hair and stone; no 3D, low-poly or plastic look.\n\nNative landscape PNG, exactly 1536 x 1024. Nib's chapter-3 seal 2/5 CLOAK DETAILS model sheet. Flat uniform light grey #E9E9EC background. Soft neutral upper-left key light, crisp black ink, large clean cool cel shadows, matte cloth and only small highlights on bronze. NO text, labels, letters, numbers, frame lines, UI or gradients.\n\nThe approved Nib front and masked-turnaround references lock the same charcoal sleeveless belted scout cloak, red scarf, brass binoculars, angular adult face, grey-green skin and practical gear. The approved Nib acting sheet keeps his weathered adult identity. The approved knight detail reference is used ONLY for its NINTH WALL EMBLEM: the wall with exactly NINE round towers. Copy that nine-tower SYMBOL, not the knight, armour, sword, glow, colours or body. The final reference is the approved HOUSE STYLE anchor for ink/cel rendering only, not its scene or people.\n\nCreate FOUR clean separate close-up studies arranged on the light grey field without borders:\n1. Upper left, a LARGE frontal close-up of the NEW BRONZE THROAT CLASP, the red scarf just above it and charcoal cloak just around it. The clasp is a round bronze disc #A87A3A bearing a shallow embossed curved wall with EXACTLY NINE DISTINCT ROUND TOWERS, clearly countable: four towers on each side of one taller centre tower, matching the approved knight's nine-tower motif. Each tower is a cylindrical round tower with a small crenellated top; NOT letters, not tally marks, not a crown with three/five/seven spikes. No tenth tower. The clasp attaches functionally to the cloak at its throat with two plain short lugs.\n2. Upper right, a close-up of the FOLDED-DOWN HOOD from behind and slightly above: charcoal outside, deep wall-blue lining #2F4A6E visible inside the fold, restrained bronze trim along the hood edge, and the unchanged red scarf nearby. No blue outer cloak.\n3. Lower left, a close-up of an OPEN FRONT HEM corner: charcoal knee-length cloth, a few worn scorched notches and short frayed threads, deep wall-blue INNER lining revealed at the turned-out corner, and a narrow bronze border following the hem. Not sawtooth or shredded, not metallic armour. Preserve the existing practical pocket just above the hem to establish the same coat.\n4. Lower right, a three-quarter close-up of the SLEEVELESS ARMHOLE at the shoulder: bare grey-green upper arm beside a wide opening, charcoal outer cloth, wall-blue lining visible inside, narrow bronze trim only along the edge. A small portion of the red scarf, leather binocular strap and a brass binocular barrel may appear to establish the same unchanged gear, but no extra detached props.\n\nChange ONLY lining, edge trim and the bronze clasp; do not add a cuirass, pauldron, bracer, sleeve, gloves or armour. No new embroidery, jewels, extra symbols or front-edge gold piping. All bronze edging remains restrained and is consistent across the four views. These are detail close-ups, so no human scale silhouette or full-body lineup is needed. No faces or masks need to be redrawn in this garment-only details sheet. Keep all four studies large enough to read the nine towers and cloth construction clearly.\n\nNib: an adult goblin scout and veteran soldier, 105 cm, wiry and long-limbed with long bony hands; grey-green skin; a narrow angular head with a heavy brow ridge, hollow cheeks and a narrow pointed chin, long pointed ears swept back with a V-notch near the tip of the LEFT ear; a long pointed nose with a slight hook that sticks out clearly in profile; a thin, wide mouth with one small lower fang on the left; amber-yellow eyes with heavy lined lower lids; shaggy black hair; a knee-length charcoal hooded cloak (hood down), belted at the waist, sleeveless with wide armholes, small pockets sewn onto it and a frayed, scorched hem; a long red scarf wrapped twice round his neck, compact brass binoculars on a strap at his chest, two short knives in crossed sheaths at the small of his back, bare feet. Deadpan, never cute.\n\nScene override: garment close-ups only of the specified seal-2 cloak, with the new wall-blue lining, bronze trim and bronze nine-tower clasp; all other Nib design locks stay unchanged.\n\nNo text, letters, numbers, speech bubbles, captions, sound-effect lettering, interface windows or readable signs. Emblems without letters are fine; no brand logos or wordmarks. Not a 3D render, not a photograph, no photographic background. No airbrushed skin, no plastic gloss on skin or hair, no haze or bloom over the whole image, no depth-of-field blur, no lens flare unless a real camera flash is in the scene. No watermark or signature. Correct hands with five fingers. No chibi proportions unless the brief says chibi. No compressed or stubby bodies, no shortened legs or torsos, no oversized heads; no people out of scale with the doors, vehicles and buildings around them; no figures floating off the floor or breaking the scene's perspective.",
+      "reference_paths": [
+        "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/front.png",
+        "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/turnaround_mask.png",
+        "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/acting.png",
+        "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/knight_commander/details.png",
+        "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/style_test_v2/acting/A1_P11.png"
+      ],
+      "model_route": "Codex built-in image_gen.imagegen",
+      "references": [
+        {
+          "local_path": "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/front.png",
+          "repository_path": "characters_v2/nib/front.png",
+          "sha256": "48f0d04b1a4767c9d38a28eb14814e184c12df64cec774bda2e513f8a258574b",
+          "git_blob_sha1": "2e4e09829d0275e1a417d969e402b91212726d75",
+          "approved_art_commit": "91c10d0e223d6319e4f1ed81b434620c55378a6c",
+          "role": "approved design/scale"
+        },
+        {
+          "local_path": "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/turnaround_mask.png",
+          "repository_path": "characters_v2/nib/turnaround_mask.png",
+          "sha256": "6d389477cfde313ff6ec8f58e0dabf3d804d6c2e88e50c5d50bb28e7fb89fe9c",
+          "git_blob_sha1": "c307d7ec039b6e15f0b191ab0294c0018f02fd99",
+          "approved_art_commit": "91c10d0e223d6319e4f1ed81b434620c55378a6c",
+          "role": "approved design/scale"
+        },
+        {
+          "local_path": "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/nib/acting.png",
+          "repository_path": "characters_v2/nib/acting.png",
+          "sha256": "15281d4203d92b606f59a4038241d316ede0aaa799c3c38ac255da9ebb7eb86c",
+          "git_blob_sha1": "c472cfd95ee0f73a8e79339f2d2e8271d2acca32",
+          "approved_art_commit": "91c10d0e223d6319e4f1ed81b434620c55378a6c",
+          "role": "approved design/scale"
+        },
+        {
+          "local_path": "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/characters_v2/knight_commander/details.png",
+          "repository_path": "characters_v2/knight_commander/details.png",
+          "sha256": "877be8b332291620d11011180a98d228f70ab5519cbc9f9873edb993d2cd6222",
+          "git_blob_sha1": "c3444727408df47f35431ba65bd8a3fdd75a1163",
+          "approved_art_commit": "91c10d0e223d6319e4f1ed81b434620c55378a6c",
+          "role": "Ninth Wall sigil"
+        },
+        {
+          "local_path": "/workspace/msgf-cloud-20261025/verified-art-91c10d0e223d/style_test_v2/acting/A1_P11.png",
+          "repository_path": "style_test_v2/acting/A1_P11.png",
+          "sha256": "2056a72e2f14846b7b0fa51fe3a5f7455fd7f11087716da64ea7c9645a099a48",
+          "git_blob_sha1": "43ba7e3df5d9e0bc76ed296da1aef1035ab26832",
+          "approved_art_commit": "91c10d0e223d6319e4f1ed81b434620c55378a6c",
+          "role": "house style"
+        }
+      ],
+      "sha256": "e79262ba5c6602a0b1e635e4932223115ebe7ef3f32e73f92a79e561d91f1198",
+      "bytes": 1936029,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "native_saved_at_utc": "2026-10-25T22:06:39.711216+00:00",
+      "png_bytes_untouched": true,
+      "claude_approved": false
+    }
+  ],
+  "provenance": {
+    "repository": "abafaboy/abafaboy.github.io",
+    "writing_branch": "msgf-bible",
+    "writing_head_observed": "60d99351f6f9c97c131e6ee5e44c2ab6ef01022a",
+    "art_branch": "msgf-art",
+    "approved_art_commit": "91c10d0e223d6319e4f1ed81b434620c55378a6c",
+    "document_blob_shas": {
+      "HANDOFF_ABAFADOT.md": "bb3ea2b74d41ee72ae208d493fd63025d52c2433",
+      "codex/ASSETS_ARC2_BRIEF.md": "885e7391cf8a01f434a4dcef229ef11bc7644e46",
+      "codex/reviews/STATUS.md": "c734c5a32f34ad5354e983580e20c36c3473f2de",
+      "README.md": "7750d8345a76d036486ee8a284f0a65db9cba45a",
+      "codex/README_START_HERE.md": "bc99582f686260adb84be2ebef161f92ccdd61bf",
+      "STORY_BIBLE_v4.md": "c8bef189de088711f553e08307df219b50aca954",
+      "NAME_SHEET.md": "ef06c6a2dacdc50d72e7b167010834b80caf76f0",
+      "codex/MANHWA_STYLE_GUIDE.md": "51d801495ce3345c68d97679370db69a6c418f3b",
+      "codex/MANHWA_ART_DIRECTION.md": "97edcc72877b87bf9a0cf33a8cea0421dc7a748f",
+      "codex/CHARACTER_DESIGNS_v2.md": "0304bd80dab8d5170bfd16c553b15e7f69fb90c3",
+      "codex/MODEL_SHEETS_BRIEF.md": "7c611013f2c511a5fe28478a73dd16fc68f32bb8",
+      "codex/REVIEW_FIXES.md": "c369cd34da7dc2bfc21c7268815022a1a1fbdcef",
+      "codex/PANEL_BRIEF_v2.md": "bb0d92d33584ccf9fecc7781e92b9b82a3db34e3"
+    },
+    "model_route": "Codex built-in image_gen.imagegen",
+    "approval_authority": "Claude via codex/reviews/S2b.md; no approval granted by this task",
+    "reference_cap": {
+      "actual_runtime_validation": "referenced_image_paths must contain at most 5 paths",
+      "failed_initial_argument_call_generated_images": 0,
+      "valid_calls": "Exactly five local paths, including approved Nib sheets and one approved acting house-style anchor, on every generated image."
+    },
+    "scope": "S2b only. No new assets used downstream. Canonical source files preserved."
+  },
+  "generated_images_used_as_references": false,
+  "note": "All generations used original approved inputs only. Failed scale candidates were not recycled as design references. No resize, conversion, composite or image re-save was performed."
+}
