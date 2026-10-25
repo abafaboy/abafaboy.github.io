@@ -244,6 +244,7 @@ In the chapter 1 flash-forward, all seven summons stand behind Jaeha as black si
 **Why she is drawn now.** The owner chose Lyra to front the YouTube thumbnail (25 October). He wants her as attractive as the heroines on the manhwa recap thumbnails he sent, "since it obviously works".
 - Draw a beautiful face and a curvy, athletic, long-legged figure, in a revealing outfit: a deep plunging neckline; a bare midriff, shoulders and arms; bare thighs between a short skirt and thigh-high boots.
 - After the first front, the owner asked for "more revealing" and said the skirt was "wayyy too long" (25 October). The top is now cropped and the skirt short.
+- **Approved.** The owner approved the revised `characters_v2/lyra/front.png` ("lyra is good", 25 October). It is the reference for all her other views.
 - Never nudity, nothing explicit and no sexual poses. She stands with confidence.
 
 **Read at a glance.** A tall, striking archer in river blue and silver, with a silver-white braid down to her thigh, a white longbow taller than she is, and the smug smile of someone who knows the whole room is looking.
