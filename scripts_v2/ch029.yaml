@@ -1,0 +1,1100 @@
+chapter: 29
+title: Sandbags
+format: SCRIPT_FORMAT_v2.md
+when: "Friday, about 2:30 AM, with the rim sealing: climbing the drain tunnels from 11:31 down to 06:00."
+story_beats: ARC3_4_BEATS.md#29-sandbags
+cast:
+  kang_jaeha: crew
+  nib: mask
+  borro: default
+  lyra: default
+  moon_ahin: default
+  ahin_husks: default        # 30
+  crew_pyo: default
+  crew_dami: default
+  crew_woo: default
+  crew_ho: default
+  han_sora: kanghan          # P58-P60
+  kanghan_tactical: default  # P58-P60
+locations: [farm_drains]
+continuity:
+  - "Jaeha: the crew kit, the scarf on his LEFT shoulder dark with blood, Minseok's lamp at his belt. From P17 he is in overload: blood running from his nose, the edges of his sight going grey (draw a soft grey vignette on panels from his point of view), his hands shaking; he climbs on Moon Ahin's arm from P47."
+  - "The drain tunnel (location farm_drains): the round old stone tide-channel, 5 m across, climbing steeply; the black water channel along the floor, pumped uphill; the narrow steel walkway; caged lamps; pump housings. Its roof is a run of stone arches; each arch has a carved keystone at its crown, and the cracks run out from the keystones."
+  - "Field forms: Borro's field form from ch 28 is still running with 00:50 left at P02 and ends at P20; Nib and Lyra are called into field form at P13. Jaeha carries all three at once from P15: one more than his limit."
+  - "The last tunnel (P55-P60): a long straight steep shaft of stone, 120 m long, with the walkway running up one side; at the top, a round chamber where the pumps push the water out through a steel grate toward the rim; the white light of the rim beyond it, narrowing. Sora and twelve troopers have set up a barricade of round shields across the top."
+plants:
+  - "PLANT P14-P17: CARRY three at once, past the limit: the overload that ch 33 pays for."
+  - "PLANT P26-P34: the crew go back for a summon (ch 32: their testimony)."
+  - "PLANT P38-P42: Moon Ahin gives Jaeha her hand and her arm (ch 30)."
+hook_type: countdown
+
+panels:
+
+  # ================= THE ROOF (P01-P21) =================
+  - id: P01
+    recipe: impact
+    shape: tall
+    gap: none
+    bg: black
+    camera: "low, from the walkway: Borro surging past everyone and catching the falling section of ceiling on his shield and his back, blocks of stone bouncing off him"
+    light: "caged lamps swinging; moss green blazing; dust"
+    art: >
+      From low on the walkway: Borro (borro), moss-green outline blazing, surges past everyone and catches the falling section of the
+      tunnel ceiling on his raised shield and his mossy back; blocks of stone bounce off him into the water channel; the team flattens
+      against the wall behind him. Scale: the section is a slab 4 m across.
+    acting:
+      borro: "crouched under the slab, shield braced overhead, legs planted wide, head down"
+    calm: top
+    sfx:
+      - {text: "KRRRUNCH", style: impact, at: [0.50, 0.20], size: XL, rot: -6}
+
+  - id: P02
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level on Borro under the slab, his knees bending, a window counting down beside him"
+    light: "moss green; a window"
+    art: >
+      Borro (borro) holds the slab, his knees bending under it, dust pouring off its edges. The upper half is empty for the window.
+    acting:
+      borro: "knees bending, arms locked, the green glow steady"
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.06], text: "[BORRO · FIELD FORM 00:50]"}
+
+  - id: P03
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, behind Borro: the gap under his arms the only way forward, the crew staring at it"
+    light: "caged lamps; dust"
+    face: private
+    art: >
+      Behind Borro: the only way forward is the gap under his braced arms and the slab; the crew stare at it; Jaeha (kang_jaeha) waves them
+      on.
+    acting:
+      kang_jaeha: "waving them toward the gap with both arms"
+      crew_dami: "frozen, staring at the slab over Borro's head"
+    eyeline: "Jaeha → the crew; Dami → the slab"
+    foreground: "Borro's braced leg, cropped, right"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: shout, text: "UNDER HIM! GO! HE'S GOT FIFTY SECONDS!", side: r}
+
+  - id: P04
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, side-on under Borro's arms: Dami ducking through, Woo following with Pyo on his back, Ho behind them"
+    light: "moss green from above; dust"
+    art: >
+      Low and side-on under Borro's arms: Dami (crew_dami) ducks through first; Woo (crew_woo) follows with Uncle Pyo (crew_pyo) on his back;
+      Ho (crew_ho) scrambles behind them on all fours.
+    acting:
+      crew_dami: "ducking through, arms over her head"
+      crew_woo: "running bent double, Pyo on his back"
+      crew_pyo: "clinging to Woo, eyes squeezed shut"
+      crew_ho: "scrambling through on all fours"
+    calm: top
+    sfx:
+      - {text: "SPLASH SPLASH", style: impact, at: [0.70, 0.80], size: M, rot: 0}
+
+  - id: P05
+    recipe: carry
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close and low on Jaeha at the gap: his knees buckling as Borro's knees do, his arms locking as if he held the slab too"
+    light: "moss green"
+    face: private
+    art: >
+      Close and low on Jaeha (kang_jaeha) at the gap: his knees buckle in the same instant as Borro's, and his arms lock up over his head as
+      if he were holding the slab too.
+    acting:
+      kang_jaeha: "knees buckling, both arms locked overhead, teeth bared"
+    calm: top
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.88], text: "[CARRY · BORRO · 70%]"}
+    sfx:
+      - {text: "GRRK", style: impact, at: [0.70, 0.30], size: M, rot: 0}
+
+  - id: P06
+    recipe: anticipation
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, looking along the arched roof: two more keystones ahead and behind cracking, cracks racing out of them across the arches"
+    light: "caged lamps; dust falling"
+    art: >
+      Low, looking along the tunnel's arched roof: two more keystones, one ahead of Borro and one behind the team, crack; cracks race out of
+      them across the stone arches; grit pours down.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "KRK... KRK... KRRRK", style: impact, at: [0.50, 0.30], size: M, rot: 0}
+
+  - id: P07
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, close on Jaeha's face tipped up at the roof, reading the cracks"
+    light: "caged lamps; dust on his face"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha), his face tipped up at the roof, reading the cracks as they spread, dust falling on his face.
+    acting:
+      kang_jaeha: "head tipped back, eyes moving along the cracks, lips moving"
+    eyeline: "Jaeha → the roof"
+    foreground: "Borro's shield rim, cropped, top left"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: inner, text: "Every crack starts at a keystone. Hold the keystones, and the arches hold themselves."}
+
+  - id: P08
+    recipe: plan
+    shape: wide
+    gap: short
+    bg: paper
+    camera: "top-down on a notebook page torn and spotted with blood: a fast sketch of three arches, three keystones circled, three names"
+    light: "a caged lamp on paper"
+    art: >
+      Top-down on the notebook page, spotted with blood from his nose: a fast pencil sketch of the tunnel's arches from below, three keystones
+      circled hard, and a letter beside each: B, N, L.
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: note, text: "B. N. L. THREE KEYSTONES. ONE EACH."}
+
+  - id: P09
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low two-shot: Jaeha pointing up at the two cracking keystones, Nib and Lyra already looking up"
+    light: "caged lamps; dust"
+    face: private
+    art: >
+      Low two-shot: Jaeha (kang_jaeha) points up at the two cracking keystones; Nib (nib) and Lyra (lyra) are already looking up at them.
+    acting:
+      kang_jaeha: "pointing up with two fingers, one at each keystone"
+      nib: "looking up, knees bending to jump"
+      lyra: "looking up, slinging her bow onto her back"
+    eyeline: "all → the keystones"
+    foreground: "falling grit, cropped, top"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "NIB, THAT ONE. LYRA, THAT ONE. DON'T HOLD THE ROOF. HOLD THE KEYSTONE.", side: r}
+      - {who: lyra, type: speech, text: "I'M AN ARCHER, MERCHANT, NOT A PILLAR!", side: l}
+
+  - id: P10
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha, grim, a half-smile"
+    light: "caged lamps"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha), grim, with a half-smile through the blood under his nose.
+    acting:
+      kang_jaeha: "a grim half-smile, both hands already raised toward them"
+    eyeline: "Jaeha → Lyra"
+    foreground: "Lyra's braid, cropped, left"
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: speech, text: "TONIGHT EVERYBODY IS A PILLAR.", side: r}
+
+  - id: P11
+    kind: title
+    shape: full
+    gap: long
+    bg: black
+    title_card: "MY SUMMONS GO FIRST · CHAPTER 29 · SANDBAGS"
+    notes: "Title card at panel 11 of 60 (18%)."
+
+  - id: P12
+    recipe: system
+    shape: wide
+    gap: long
+    bg: navy
+    camera: "eye level on Jaeha with both hands thrown out, an amber thread and a river-blue thread blazing out of them, a window"
+    light: "amber and river blue"
+    face: private
+    art: >
+      Jaeha (kang_jaeha) throws both hands out; an amber thread and a river-blue thread blaze out of them toward Nib and Lyra. The upper half
+      is empty for the window.
+    acting:
+      kang_jaeha: "both hands thrown out, fingers spread, legs shaking"
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.log, "on": float, at: [0.5, 0.05], headline: "[FIELD FORM]", lines: ["NIB · 05:00", "LYRA · 05:00", "BORRO · 00:38"]}
+
+  - id: P13
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, looking up: Nib springing off the walkway rail to the arch ahead and bracing his back against its keystone, Lyra on the arch behind with both palms flat against hers"
+    light: "amber and river blue; dust"
+    art: >
+      From low, looking up: Nib (nib), amber outline blazing, springs off the walkway rail onto the arch ahead and braces his back against its
+      cracking keystone, feet jammed into the stones on either side; on the arch behind, Lyra (lyra), river-blue outline blazing, braces both
+      palms flat against hers, her boots wedged in the joints.
+    acting:
+      nib: "back against the keystone, feet jammed wide, teeth gritted"
+      lyra: "both palms flat on the keystone, arms locked, boots wedged, braid hanging"
+    calm: top
+    sfx:
+      - {text: "THUD", style: impact, at: [0.30, 0.40], size: M, rot: 0}
+      - {text: "THUD", style: impact, at: [0.70, 0.60], size: M, rot: 0}
+
+  - id: P14
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "close and low on Jaeha, three threads running out of him now, amber, green and blue, a red window flashing"
+    light: "red window; three threads"
+    face: private
+    art: >
+      Close and low on Jaeha (kang_jaeha): three threads now run out of him, amber, moss green and river blue, all pulled taut; a red window
+      flashes over him. The upper half is empty for the window.
+    acting:
+      kang_jaeha: "arms out, three threads taut from his hands and chest, eyes on the window"
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.05], headline: "[CARRY ×3 · LIMIT: 2]", body: "THE OPERATOR'S BODY WILL BEAR THE EXCESS.", button: "CARRY"}
+
+  - id: P15
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of Jaeha's eyes, red light in them, deciding"
+    light: "red"
+    face: private
+    art: >
+      Extreme close-up of Jaeha's eyes (kang_jaeha), the red window reflected in them, deciding. Fill the canvas edge to edge.
+    acting:
+      kang_jaeha: "eyes narrowing, steady"
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: inner, text: "It's my body. They're my people. Carry."}
+
+  - id: P16
+    recipe: carry
+    shape: full
+    gap: short
+    bg: black
+    camera: "low, wide: the three summons holding the roof at three points, three threads running down from them into Jaeha, who drops to his knees on the walkway under all of it"
+    light: "amber, green and blue threads; caged lamps; dust"
+    face: private
+    art: >
+      Low and wide: Borro (borro) under the slab, Nib (nib) at one keystone, Lyra (lyra) at the other; three threads of light run down from them
+      into Jaeha (kang_jaeha), who drops to his knees on the walkway in the middle of it all, arms out, as if the whole roof were on him.
+    acting:
+      borro: "holding the slab, knees bent"
+      nib: "braced at his keystone"
+      lyra: "braced at her keystone"
+      kang_jaeha: "on his knees, arms spread, head bowed, the threads pouring into him"
+    calm: top
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.90], text: "[CARRY LOAD: 180% · WARNING: OVERLOAD]"}
+    sfx:
+      - {text: "DOOOOOM", style: impact, at: [0.50, 0.30], size: XL, rot: 0}
+
+  - id: P17
+    recipe: link-view
+    shape: wide
+    gap: short
+    bg: black
+    camera: "Jaeha's point of view: the tunnel in front of him, the edges of his sight greying and closing in, blood dripping onto the walkway"
+    light: "caged lamps; a soft grey vignette closing in"
+    face: private
+    art: >
+      Jaeha's point of view: the walkway and the tunnel in front of him, the edges of his sight greying and closing in; drops of blood from his
+      nose patter onto the steel between his gloved hands.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "drip... drip...", style: quiet, at: [0.50, 0.80], size: S, rot: 0}
+      - {text: "EEEEEEEEE", style: quiet, at: [0.80, 0.20], size: S, rot: 0}
+
+  - id: P18
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, two-shot: Moon Ahin staring at Jaeha on his knees, then turning and raising her baton at her husks"
+    light: "caged lamps; dust"
+    art: >
+      Two-shot: Moon Ahin (moon_ahin) stares at Jaeha on his knees (kang_jaeha), then turns and raises her baton at her husks.
+    acting:
+      moon_ahin: "turning sharply, baton raised, mouth set"
+      kang_jaeha: "on his knees, swaying"
+    eyeline: "Moon Ahin → her husks"
+    foreground: "a husk's polished shoulder, cropped, right"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: speech, text: "TEN AND TEN. UNDER THE ARCHES. TAKE THE WEIGHT OFF HIS PEOPLE.", side: l}
+
+  - id: P19
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, along the tunnel: twenty husks splitting into two columns and pressing their palms up against the arches beside Nib and Lyra, the cracks slowing"
+    light: "caged lamps on porcelain"
+    art: >
+      Low along the tunnel: twenty husks (ahin_husks) split into two columns and press their polished palms up against the arches beside Nib and
+      Lyra, ten on each; the cracks slow and stop.
+    acting:
+      ahin_husks: "twenty husks pressing up against the arches in perfect rows"
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.88], text: "[CARRY LOAD: 180% → 140%]"}
+    sfx:
+      - {text: "KLAK KLAK KLAK", style: impact, at: [0.50, 0.30], size: M, rot: 0}
+
+  - id: P20
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level on Borro under the slab, the green glow flickering in his eyes, a window at zero"
+    light: "green flickering"
+    art: >
+      Borro (borro) under the slab, the green glow flickering in his eyes like a dying bulb. The upper half is empty for the window.
+    acting:
+      borro: "arms trembling, the glow flickering, head lifting"
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.06], text: "[BORRO · FIELD FORM 00:03]"}
+
+  - id: P21
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: the last husks and Moon Ahin ducking under Borro's arms, Jaeha still on his knees beside him"
+    light: "green flickering"
+    face: private
+    art: >
+      The last of the husks and Moon Ahin (moon_ahin) duck under Borro's arms; Jaeha (kang_jaeha), still on his knees beside him, is the only
+      one left on the wrong side.
+    acting:
+      moon_ahin: "ducking through, looking back at Jaeha"
+      kang_jaeha: "on his knees, one hand flat on Borro's leg"
+    eyeline: "Moon Ahin → Jaeha; Jaeha → Borro"
+    foreground: "Borro's trembling arm, cropped, top"
+    calm: top
+    lines:
+      - {who: borro, type: speech, text: "OPERATOR. GO.", side: l}
+
+  # ================= SANDBAGS (P22-P46) =================
+  - id: P22
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "side-on: Borro shoving Jaeha bodily through the gap with one hand as the green goes out of him and the slab comes down on his shell"
+    light: "the green going out; dust"
+    art: >
+      Side-on: Borro (borro) lets go of the slab with one hand and shoves Jaeha (kang_jaeha) bodily through the gap; the green goes out of his
+      eyes; the slab comes down on his shell and drives him flat onto the walkway.
+    acting:
+      borro: "shoving Jaeha through with one huge hand, then crushed flat under the slab"
+      kang_jaeha: "flung through the gap, tumbling"
+    calm: top
+    sfx:
+      - {text: "KRRAASSHH", style: impact, at: [0.50, 0.30], size: XL, rot: -6}
+
+  - id: P23
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level, through the dust: Borro pinned flat under the slab, only his shell and one arm showing, a window"
+    light: "dust; caged lamps"
+    art: >
+      Through settling dust: Borro (borro) lies pinned under the slab on the walkway, only the top of his shell, his husk face and one arm
+      showing. The upper half is empty for the window.
+    acting:
+      borro: "pinned flat, one arm stretched out, eyes dull, breathing"
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.06], text: "[BORRO · REST FORM · COOLDOWN 01:00]"}
+
+  - id: P24
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close: Jaeha crawling back to the slab on his hands, blood dripping from his nose, the grey closing in at the edges"
+    light: "caged lamps; a grey vignette"
+    face: private
+    art: >
+      Close and low: Jaeha (kang_jaeha) crawls back to the slab on his hands, blood dripping from his nose, the grey closing in at the edges of
+      the panel.
+    acting:
+      kang_jaeha: "crawling on his hands, reaching for Borro's outstretched arm"
+    eyeline: "Jaeha → Borro"
+    foreground: "Borro's outstretched hand, cropped, right"
+    calm: top
+    lines:
+      - {who: borro, type: speech, text: "THE SHELL HOLDS. GO ON WITHOUT ME. COME BACK LATER.", side: r}
+
+  - id: P25
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Jaeha gripping Borro's huge finger with both hands"
+    light: "caged lamps"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha) gripping one of Borro's huge fingers with both hands.
+    acting:
+      kang_jaeha: "gripping the finger with both hands, forehead against it"
+    eyeline: "Jaeha → Borro"
+    foreground: "the slab's edge, cropped, top"
+    calm: right
+    lines:
+      - {who: kang_jaeha, type: speech, text: "NO. NOT LATER. EVERYONE COMES BACK NOW.", side: l}
+
+  - id: P26
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, from beyond the slab: the crew standing on the walkway looking back at the pinned summons and the kneeling Jaeha"
+    light: "caged lamps; dust"
+    art: >
+      From beyond the slab: the four crew stand on the walkway, safe, looking back at the pinned summons and Jaeha kneeling beside him. Uncle
+      Pyo (crew_pyo) slides off Woo's back.
+    acting:
+      crew_pyo: "sliding down off Woo's back, eyes on the slab"
+      crew_woo: "looking back, breathing hard"
+      crew_dami: "looking back, hands at her mouth"
+      crew_ho: "looking back, then at his brother"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "...", style: quiet, at: [0.50, 0.20], size: S, rot: 0}
+
+  - id: P27
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close on Uncle Pyo tightening the strap of his knee brace and picking up a loose steel strut from the broken walkway"
+    light: "caged lamps"
+    art: >
+      Close and low: Uncle Pyo (crew_pyo) yanks the strap of his knee brace tight and picks up a loose steel strut from the broken walkway rail.
+    acting:
+      crew_pyo: "yanking the brace strap tight with his teeth set, then hefting the strut"
+    eyeline: "Pyo → the slab"
+    foreground: "the broken rail, cropped, bottom"
+    calm: top
+    lines:
+      - {who: crew_pyo, type: speech, text: "KANGHAN HIRED US AS SANDBAGS. FINE. SANDBAGS CAN PUSH.", side: l}
+
+  - id: P28
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: the four crew running back toward the slab with steel struts and a broken rail"
+    light: "caged lamps; dust"
+    art: >
+      The four crew run back toward the slab with loose steel struts and a length of broken rail: Pyo (crew_pyo) limping fast, Dami (crew_dami),
+      Woo (crew_woo) and Ho (crew_ho).
+    acting:
+      crew_pyo: "limping fast, strut over his shoulder"
+      crew_dami: "running with a strut in both hands"
+      crew_woo: "running with one end of the broken rail"
+      crew_ho: "running with the other end of the rail"
+    calm: top
+    sfx:
+      - {text: "SPLASH SPLASH SPLASH", style: impact, at: [0.70, 0.80], size: M, rot: 0}
+
+  - id: P29
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, two-shot: Moon Ahin flicking her baton, the ten husks coming down off the arches to the slab, Jaeha looking up at her"
+    light: "caged lamps"
+    face: private
+    art: >
+      Low two-shot: Moon Ahin (moon_ahin) flicks her baton and ten husks (ahin_husks) come down off the arches to the slab; Jaeha (kang_jaeha)
+      looks up at her from beside Borro.
+    acting:
+      moon_ahin: "a crisp flick of the baton toward the slab"
+      ahin_husks: "ten husks coming down off the arches"
+      kang_jaeha: "looking up at her, surprised"
+    eyeline: "Jaeha → Moon Ahin; Moon Ahin → the slab"
+    foreground: "the slab's edge, cropped, bottom"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: speech, text: "DON'T LOOK AT ME LIKE THAT. YOUR RULE IS CATCHING.", side: l}
+
+  - id: P30
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, side-on at the slab: struts and the rail jammed under its edge, the crew heaving down on them, husks lifting with polished hands, Jaeha pulling Borro's arm"
+    light: "caged lamps; dust"
+    art: >
+      Low and side-on at the slab: struts and the broken rail are jammed under its edge; the crew heave down on them with all their weight;
+      husks (ahin_husks) lift with their polished hands along the edge; Jaeha (kang_jaeha) pulls on Borro's arm (borro); Nib (nib) and Lyra
+      (lyra), out of field form now, push on the slab beside the husks.
+    acting:
+      crew_pyo: "hanging his whole weight on a strut, face screwed up"
+      crew_dami: "heaving down on a strut"
+      crew_woo: "heaving on the rail, veins standing out"
+      crew_ho: "heaving on the rail beside his brother, shouting"
+      ahin_husks: "lifting the slab's edge together"
+      kang_jaeha: "pulling Borro's arm with both hands, leaning back"
+      borro: "pinned, one arm pulled out straight"
+      nib: "pushing on the slab with both hands, feet slipping"
+      lyra: "pushing on the slab with her shoulder, swearing"
+    calm: top
+    lines:
+      - {who: crew_ho, type: shout, text: "ONE! TWO! HEAVE!", side: l}
+    sfx:
+      - {text: "NNNNGH", style: impact, at: [0.70, 0.30], size: L, rot: 6}
+
+  - id: P31
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: the slab tilting up off Borro's shell and sliding over the edge of the walkway into the water channel"
+    light: "caged lamps; spray"
+    art: >
+      The slab tilts up off Borro's shell (borro) and slides over the edge of the walkway into the water channel in a burst of spray; Borro is
+      dragged out from under it by Jaeha and the husks.
+    acting:
+      borro: "dragged out on his front, shell scraped and cracked"
+      kang_jaeha: "falling backwards, still holding Borro's arm"
+    calm: top
+    sfx:
+      - {text: "SPLOOOSH", style: impact, at: [0.50, 0.70], size: L, rot: 0}
+
+  - id: P32
+    recipe: aftermath
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high, over the walkway: everyone collapsed in a heap round Borro, struts and husks and crew all tangled, panting"
+    light: "caged lamps; settling dust"
+    art: >
+      High over the walkway: everyone has collapsed in a heap round Borro (borro): the crew, husks, Nib, Lyra and Jaeha tangled together on the
+      steel, panting; struts lie scattered; the dust settles.
+    acting:
+      borro: "lying on his front, lifting his head slowly"
+      crew_pyo: "flat on his back, the strut still in his hands"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "haa... haa... haa...", style: quiet, at: [0.50, 0.70], size: S, rot: 0}
+
+  - id: P33
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close: Borro lifting his head and looking at the four crew lying round him"
+    light: "caged lamps"
+    art: >
+      Close and low: Borro (borro) lifts his head and looks at the four crew lying round him: Pyo, Dami, Woo, Ho.
+    acting:
+      borro: "lifting his head, looking from face to face, slow"
+    eyeline: "Borro → the crew"
+    foreground: "Pyo's strut, cropped, bottom"
+    calm: top
+    lines:
+      - {who: borro, type: speech, text: "...THANK YOU.", side: l}
+
+  - id: P34
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Uncle Pyo flat on his back, laughing and crying at the same time"
+    light: "caged lamps"
+    art: >
+      Close on Uncle Pyo (crew_pyo) flat on his back, laughing and crying at the same time.
+    acting:
+      crew_pyo: "laughing and crying, an arm over his eyes"
+    calm: left
+    lines:
+      - {who: crew_pyo, type: speech, text: "TWENTY YEARS. NOBODY EVER SAID THAT TO A SANDBAG.", side: r}
+
+  - id: P35
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, two-shot: Ho sitting up next to Jaeha, very seriously, Jaeha wiping his nose on his sleeve"
+    light: "caged lamps"
+    face: public
+    art: >
+      Two-shot: Ho (crew_ho) sits up next to Jaeha (kang_jaeha) and asks very seriously; Jaeha wipes his nose on his sleeve and thinks about it.
+    acting:
+      crew_ho: "sitting up, deadly serious, hands on his knees"
+      kang_jaeha: "wiping his nose on his sleeve, head tilted, thinking"
+    eyeline: "Ho → Jaeha; Jaeha → the ceiling"
+    foreground: "a husk's polished leg, cropped, left"
+    calm: top
+    lines:
+      - {who: crew_ho, type: speech, text: "HYUNG. IS THIS NORMAL? FOR YOU?", side: l}
+      - {who: kang_jaeha, type: speech, text: "USUALLY THERE'S LESS... NO. ACTUALLY, THIS IS NORMAL.", side: r}
+
+  - id: P36
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Ho, horrified, and Woo behind him laughing for the first time all night"
+    light: "caged lamps"
+    art: >
+      Close on Ho (crew_ho), horrified; behind him Woo (crew_woo) laughs for the first time all night.
+    acting:
+      crew_ho: "horrified, mouth open"
+      crew_woo: "laughing, head thrown back"
+    calm: right
+    silent: true
+    sfx:
+      - {text: "PFFAHAHA", style: comic, at: [0.70, 0.30], size: M, rot: 6}
+
+  - id: P37
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level on Jaeha trying to stand and failing, a red window"
+    light: "red"
+    face: private
+    art: >
+      Jaeha (kang_jaeha) tries to stand and his legs fold; he catches himself on the rail. The upper half is empty for the window.
+    acting:
+      kang_jaeha: "legs folding, one hand catching the rail, head hanging"
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.log, "on": float, at: [0.5, 0.05], headline: "[OPERATOR BODY]", lines: ["OVERLOAD · 2 MINUTES 10 SECONDS", "STRAIN: SEVERE", "GATE RIM SEALING · 08:47"]}
+
+  # ================= THE CLIMB (P38-P54) =================
+  - id: P38
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low two-shot: Moon Ahin standing over him, holding out her white-gloved hand"
+    light: "caged lamps"
+    face: private
+    art: >
+      Low two-shot: Moon Ahin (moon_ahin) stands over him and holds out her white-gloved hand; Jaeha (kang_jaeha) looks at it.
+    acting:
+      moon_ahin: "holding out her hand, looking away from him, chin up"
+      kang_jaeha: "on one knee at the rail, looking at her hand"
+    eyeline: "Jaeha → her hand; Moon Ahin → away"
+    foreground: "her white glove, cropped, top right"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: speech, text: "YOU OFFERED ME YOUR HAND AT THE LADDER. I'M RETURNING IT.", side: l}
+
+  - id: P39
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on his bloody fingerless glove taking her white one"
+    light: "caged lamps"
+    art: >
+      Close on his bloody fingerless glove taking her white one; a smear of red on the white.
+    calm: left
+    silent: true
+
+  - id: P40
+    recipe: establish
+    shape: tall
+    gap: short
+    bg: black
+    camera: "high, looking down the climbing tunnel: the team going up the walkway again, Jaeha on Moon Ahin's arm, Borro limping with Pyo on his back, husks and crew behind"
+    light: "caged lamps; the water channel black"
+    art: >
+      High, looking down the climbing tunnel: the team goes up the walkway again: Jaeha (kang_jaeha) on Moon Ahin's arm (moon_ahin); Borro (borro)
+      limping with Uncle Pyo on his cracked shell; Nib (nib) and Lyra (lyra) in front; the husks and the crew behind. Scale: the tunnel climbs 30 m
+      in each turn.
+    acting:
+      kang_jaeha: "climbing on her arm, his other hand on the rail"
+      moon_ahin: "climbing steadily, taking his weight"
+      borro: "limping, Pyo on his back"
+      nib: "walking ahead with the lamp, looking back every few steps"
+      lyra: "walking ahead, bow in hand"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "THUMP... THUMP...", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P41
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, walking two-shot: Moon Ahin and Jaeha climbing arm in arm, both looking straight ahead"
+    light: "caged lamps"
+    face: private
+    art: >
+      Walking two-shot: Moon Ahin (moon_ahin) and Jaeha (kang_jaeha) climb arm in arm, both looking straight ahead.
+    acting:
+      moon_ahin: "climbing, eyes ahead, voice low"
+      kang_jaeha: "climbing on her arm, breathing hard, eyes ahead"
+    eyeline: "both → ahead"
+    foreground: "the rail, cropped, bottom"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: speech, text: "WHAT YOU DID BACK THERE. THE THREE OF THEM AT ONCE. IT'S KILLING YOU.", side: l}
+      - {who: kang_jaeha, type: speech, text: "A LITTLE. NOT TONIGHT.", side: r}
+
+  - id: P42
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Moon Ahin, a sideways look at him"
+    light: "caged lamps"
+    art: >
+      Close on Moon Ahin (moon_ahin) giving him a sideways look.
+    acting:
+      moon_ahin: "a sideways look, one eyebrow up"
+    eyeline: "Moon Ahin → Jaeha"
+    foreground: "his shoulder and the bloody scarf, cropped, right"
+    calm: right
+    lines:
+      - {who: moon_ahin, type: speech, text: "YOU'RE A VERY STRANGE NUMBER FOUR.", side: l}
+
+  - id: P43
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, behind them: Lyra walking backwards with an arrow nocked, Nib beside her, both looking down the tunnel"
+    light: "caged lamps"
+    art: >
+      From low behind them: Lyra (lyra) walks backwards up the walkway with an arrow nocked, Nib (nib) beside her; both look back down the tunnel.
+    acting:
+      lyra: "walking backwards, arrow nocked, frowning down the tunnel"
+      nib: "walking backwards, ears turning"
+    eyeline: "both → down the tunnel"
+    foreground: "the water channel, cropped, bottom"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "THE BOOTS BEHIND US STOPPED. THE COLLAPSE CUT THEM OFF.", side: r}
+      - {who: lyra, type: speech, text: "THEN WHY DO I FEEL WORSE?", side: l}
+
+  - id: P44
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha, thinking"
+    light: "caged lamps"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha), thinking, his eyes going up the tunnel.
+    acting:
+      kang_jaeha: "eyes going up the tunnel, lips tight"
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: inner, text: "Because they don't need to chase us. Sora is waiting at the top."}
+
+  - id: P45
+    recipe: establish
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level at a junction: the tunnel splitting, one branch dark and dry, the other with the water rushing up it toward a faint white light"
+    light: "caged lamps; a faint white light up one branch"
+    art: >
+      At a junction: the tunnel splits; one branch is dark and dry and climbs into the rock; the other carries the rushing water channel up toward
+      a faint white light far above.
+    calm: top
+    silent: true
+
+  - id: P46
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close two-shot at the junction: Nib pointing up the dry branch, Jaeha shaking his head and pointing up the wet one"
+    light: "caged lamps; faint white"
+    face: private
+    art: >
+      Close and low at the junction: Nib (nib) points up the dark dry branch; Jaeha (kang_jaeha) shakes his head and points up the wet one toward the
+      white light.
+    acting:
+      nib: "pointing up the dry branch with a knife"
+      kang_jaeha: "shaking his head, pointing up the wet branch"
+    eyeline: "Nib → the dry branch; Jaeha → the wet branch"
+    foreground: "the rushing water, cropped, bottom"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "THE DRY ONE IS SAFER.", side: l}
+      - {who: kang_jaeha, type: speech, text: "THE WATER GOES OUT THROUGH THE RIM. IT ALWAYS KNOWS THE WAY OUT.", side: r}
+
+  - id: P47
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level on the team turning up the wet branch, a red window"
+    light: "red; faint white ahead"
+    face: private
+    art: >
+      The team turns up the wet branch, the rushing water beside them. The upper half is empty for the window.
+    acting:
+      kang_jaeha: "leading on Moon Ahin's arm, eyes up the tunnel"
+      moon_ahin: "climbing beside him"
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.06], text: "[GATE RIM SEALING · 07:02]"}
+
+  - id: P48
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level on the walkway: Dami walking beside Borro, touching the crack in his shell"
+    light: "caged lamps"
+    art: >
+      On the walkway: Dami (crew_dami) walks beside Borro (borro) and touches the crack the slab left in his shell.
+    acting:
+      crew_dami: "touching the crack in his shell gently, walking beside him"
+      borro: "walking slowly, looking down at her"
+    eyeline: "Dami → the crack; Borro → Dami"
+    foreground: "Pyo's dangling boot, cropped, top"
+    calm: top
+    lines:
+      - {who: crew_dami, type: speech, text: "DOES IT HURT?", side: l}
+      - {who: borro, type: speech, text: "IT HURTS HIM MORE. HE TAKES IT.", side: r}
+
+  - id: P49
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Dami looking from Borro up the walkway to Jaeha on Moon Ahin's arm"
+    light: "caged lamps"
+    art: >
+      Close on Dami (crew_dami) looking from Borro up the walkway to Jaeha, who is climbing on Moon Ahin's arm.
+    acting:
+      crew_dami: "looking up the walkway at Jaeha, eyes softening"
+    calm: right
+    silent: true
+    sfx:
+      - {text: "...", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P50
+    recipe: establish
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the walkway: the tunnel walls here carved with the same sea-people's wave patterns, worn smooth by water"
+    light: "caged lamps; faint white"
+    art: >
+      From low on the walkway: the tunnel walls here are carved with the sea-people's wave patterns, worn smooth by centuries of water; a carved
+      giant with a trident on one wall, small and faded, watches them pass.
+    calm: top
+    silent: true
+
+  - id: P51
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Lyra running her fingers over the carving as she passes"
+    light: "caged lamps"
+    art: >
+      Close on Lyra (lyra) running her fingers over the small carved giant as she passes.
+    acting:
+      lyra: "trailing her fingers over the carving, eyes wet, jaw set"
+    eyeline: "Lyra → the carving"
+    foreground: "the carved trident, cropped, left"
+    calm: left
+    lines:
+      - {who: lyra, type: speech, text: "WE'LL COME BACK FOR YOU. HE SAID SO.", side: r}
+
+  - id: P52
+    recipe: anticipation
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: the tunnel ending at the foot of a long straight steep shaft, white light at the very top, the team stopping at its foot"
+    light: "white light from far above"
+    art: >
+      The tunnel ends at the foot of a long straight steep shaft of stone with the walkway running up one side and the water rushing up the
+      other; white light glows at the very top. The team stops at its foot and looks up.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "WHOOOSH", style: quiet, at: [0.70, 0.60], size: S, rot: 0}
+
+  - id: P53
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close two-shot at the foot of the shaft: Pyo on Borro's back squinting up, Jaeha on Moon Ahin's arm"
+    light: "white from above"
+    face: private
+    art: >
+      Close and low at the foot of the shaft: Uncle Pyo (crew_pyo) on Borro's back squints up it; Jaeha (kang_jaeha) on Moon Ahin's arm looks up
+      too.
+    acting:
+      crew_pyo: "squinting up, a hand shading his eyes"
+      kang_jaeha: "looking up the shaft, breathing hard"
+    eyeline: "both → the top (up)"
+    foreground: "Borro's cracked shell, cropped, left"
+    calm: top
+    lines:
+      - {who: crew_pyo, type: speech, text: "THAT'S THE PUMP ROOM UNDER THE RIM. I'VE CLEANED IT. IT'S THE ONLY WAY OUT.", side: l}
+
+  # ================= THE TOP (P54-P60) =================
+  - id: P54
+    recipe: insert
+    shape: strip
+    gap: short
+    bg: black
+    camera: "a thin strip, looking up the shaft: a line of round shields at the very top, against the white"
+    light: "white behind them"
+    art: >
+      A thin strip looking up the shaft: at the very top, a line of round black shields edge to edge across it, silhouetted against the white light.
+      Fill the canvas edge to edge.
+    calm: none
+    silent: true
+    sfx:
+      - {text: "klak klak klak", style: quiet, at: [0.60, 0.40], size: S, rot: 0}
+
+  - id: P55
+    recipe: establish
+    shape: full
+    gap: short
+    bg: black
+    camera: "high, from the top of the shaft looking down its whole length: Sora sitting on a pump housing with her crossbow across her knees, twelve troopers behind a barricade of shields, the team tiny at the bottom"
+    light: "key: white light from the rim behind Sora; the shaft falling away into the dark"
+    art: >
+      High from the top of the shaft, looking down its whole 120 m length: in the round pump room at the top, Han Sora (han_sora), soaked hair slicked
+      back, sits on a pump housing with her crossbow across her knees, swinging one boot; in front of her, twelve troopers (kanghan_tactical) kneel
+      behind a barricade of round shields across the top of the shaft, carbines resting on the rims; behind her, through a steel grate, the white
+      light of the rim narrows. The team is tiny at the bottom. Scale: the shaft is 120 m long and 30 degrees steep.
+    acting:
+      han_sora: "sitting on the pump housing, crossbow across her knees, swinging one boot, smiling down"
+      kanghan_tactical: "kneeling behind the shields, carbines aimed down the shaft"
+    calm: top
+    silent: true
+
+  - id: P56
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close on Sora's red smile and the compass on her wrist, its needle pointing straight down the shaft"
+    light: "white behind her"
+    art: >
+      Close and low on Sora (han_sora): her red smile, and the brass compass on her wrist, its needle pointing straight down the shaft.
+    acting:
+      han_sora: "smiling, lifting the compass on her wrist to show it"
+    eyeline: "Sora → down the shaft"
+    foreground: "the compass on its chain, cropped, bottom"
+    calm: top
+    lines:
+      - {who: han_sora, type: shout, text: "THERE'S ONLY ONE WAY OUT, OPERATOR. AND I'M SITTING ON IT.", side: l}
+
+  - id: P57
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level at the foot of the shaft: the whole team looking up the long slope at the shields"
+    light: "white from above"
+    art: >
+      At the foot of the shaft: the whole team looks up the long slope at the line of shields: Nib (nib), Lyra (lyra), Borro (borro) with Pyo, the crew,
+      the husks, Moon Ahin (moon_ahin) and Jaeha (kang_jaeha) on her arm.
+    acting:
+      nib: "knives out, ears flat"
+      lyra: "drawing an arrow halfway, measuring the distance"
+      borro: "setting Pyo down, lifting the cracked shield"
+      moon_ahin: "baton rising"
+      kang_jaeha: "letting go of her arm, standing on his own"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "GULP", style: quiet, at: [0.20, 0.30], size: S, rot: 0}
+
+  - id: P58
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close on Jaeha standing on his own at the foot of the shaft, wiping his nose, opening his notebook one more time"
+    light: "white from above"
+    face: private
+    art: >
+      Close and low on Jaeha (kang_jaeha) standing on his own at the foot of the shaft, wiping his nose with the back of his glove and opening his
+      notebook one more time.
+    acting:
+      kang_jaeha: "wiping his nose, opening the notebook, eyes up the shaft"
+    eyeline: "Jaeha → the top"
+    foreground: "the rushing water, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: inner, text: "One hundred and twenty metres. Twelve carbines. One crossbow."}
+
+  - id: P59
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level, looking up the shaft past the team: the white light at the top narrowing, a red window"
+    light: "red; narrowing white"
+    art: >
+      Looking up the shaft past the team: the white light at the top narrows behind the shields. The upper half is empty for the window.
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.06], text: "[GATE RIM SEALING · 06:00]"}
+
+  - id: P60
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high, from behind the shields: twelve carbines lowering and taking aim down the shaft, Sora raising her crossbow"
+    light: "white behind; violet carbine glow"
+    art: >
+      High from behind the shields: twelve carbines (kanghan_tactical) settle on their rims and take aim down the shaft; Sora (han_sora) stands up on the
+      pump housing and raises her crossbow.
+    acting:
+      kanghan_tactical: "taking aim down the shaft together"
+      han_sora: "standing up on the housing, crossbow raised to her eye"
+    calm: top
+    sfx:
+      - {text: "KA-CHAK", style: impact, at: [0.50, 0.30], size: L, rot: 0}
+
+  - id: END
+    kind: end
+    chibi_gag: "Chibi Pyo, chibi Dami and the chibi Jang brothers pose like a sentai team on top of the slab, labelled SANDBAGS in their imaginations, while chibi Borro claps slowly."
