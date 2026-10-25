@@ -75,6 +75,8 @@ Add the reference sentence from 10.5 to every prompt. Never pass anything from t
 - **Hands drift into pockets and onto hips.** Give every hand the job the `acting` line names, and check each hand at full size.
 - **Props must never float.** Mok's tower shield is on his left arm, standing on its edge with a hand on it, or slung on his back by a strap across his chest. The one exception is P31, where his right forearm is through the grip. His sword is sheathed at his belt unless drawn.
 - **Never duplicate a prop.** When Jaeha holds his notebook, his left chest pocket is empty.
+- **No unscripted prop events.** Parts are drawn by different chats at the same time, so a prop that changes state in one panel (a notebook flying away in chapter 1's P45) contradicts the panels after it. Props stay where the script and the design put them.
+- **Empty areas for windows are part of the scene.** When a panel leaves room for a system window (P55–P57), that room is the dark hall itself, fading naturally. It is never a flat rectangle with a hard straight edge, and it never cuts through a head or a figure.
 - **Eyelines go exactly where the `eyeline` field says.** Check the pupils.
 - **Mouths:** the speaker's mouth is open mid-line; listeners react.
 - **The door stays at picture-right from P27 to P32.**
