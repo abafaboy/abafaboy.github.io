@@ -1240,7 +1240,7 @@ def main():
                     top = {"top": 9, "top-left": 9, "top-right": 9, "center": 30, "bottom": 58}.get(p.get("calm"), 12) + k * 24
                 tilt = u.get("tilt", -8 if k % 2 == 0 else 7)
                 mirror = " mir" if u.get("mirror") else ""
-                inner.append(f'<div class="syswin k-{kk}{mirror}{" glitchy" if glitchy else ""}" data-tilt="{tilt}" style="--wf:{SYS_WFRAC.get(kk, .66)};left:{left}%;top:{top}%;aspect-ratio:{sw_}/{sh_}">'
+                inner.append(f'<div class="syswin k-{kk}{mirror}{" glitchy" if glitchy else ""}" data-tilt="{tilt}" style="--wf:{u.get("wf", SYS_WFRAC.get(kk, .66))};left:{left}%;top:{top}%;aspect-ratio:{sw_}/{sh_}">'
                              f'<img src="{uri(png)}">{"".join(texts)}</div>')
                 txt = ". ".join(filter(None, [fill.get("headline"), fill.get("body"), fill.get("name"), fill.get("button")] + list(u.get("lines", []) or [])))
                 if txt:
