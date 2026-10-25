@@ -243,6 +243,45 @@ In the chapter 1 flash-forward, all seven summons stand behind Jaeha as black si
 | **Auntie Geum Okran** | ch 33 | 62, an apron over a tracksuit, one prosthetic arm, a ladle she fights with |
 | **Oh Minseok** | flashbacks | The same orange vest as Jaeha's, a kind grin |
 
+### 2.12 Borro: stoneback carrier, summon no. 2 (from ch 9–10)
+
+**Read at a glance.** A 2.4 m gentle giant with slate-grey skin and a humped shell of stacked slate plates on his back, with moss and tiny flowers growing in it. He carries a door-sized iron shield. Slow, kind eyes.
+
+| | |
+|---|---|
+| **Build** | 2.4 m, massive and broad, round-shouldered, with a slight forward stoop under the shell. Long thick arms (his hands reach his knees), huge blunt-fingered hands, short thick legs, wide flat feet. A small head for his size: about 7 heads tall. Next to him Jaeha reaches his chest. |
+| **Head** | Broad and flat-topped, with a heavy brow ledge; small, slow amber-brown eyes #9A6A3A under heavy lids; a broad flat nose; a wide, calm mouth; small ears. No hair: a few small slate plates over the crown and the back of the head, like roof tiles. |
+| **Skin** | Slate grey #6C7177 / #4D5257, with darker mottling |
+| **The shell** | A humped carapace of overlapping slate plates, laid like a slate roof, from the back of his neck to his hips and capping both shoulders, with chipped edges. Moss #6F8F4E / #4E6A35 grows in the cracks, with tiny white and yellow wildflowers. |
+| **Clothes** | A sleeveless, knee-length tunic of undyed coarse linen #B8A98A / #8E8166, tied with a rope belt; a gardener's canvas satchel on the rope with seed pouches and a small trowel; cloth wraps round his forearms and ankles; bare feet |
+| **The shield** | A door-sized iron shield, 2 m tall and 1 m wide, made from an old iron-bound gate door: dark iron #3E4247 with rows of rivets, two old hinges still on one side, a dented round boss, a worn leather arm strap. Scratched and dented, never shiny. |
+| **Husk mask (in public)** | A featureless white oval husk face (#ECEAE4) tied over his face with cord, with two small round eye-holes cut in it. He is "the biggest husk anyone has ever seen". |
+| **Field form vs rest form** | **Field form:** his eyes glow moss green, and a moss-green outline flickers along him while Jaeha is linked. **Rest form:** the same look, with dull eyes. |
+| **Signature colour** | Moss green #6F8F4E |
+| **Name-card background** | Gradient, dark slate #2B3035 to moss green #6F8F4E |
+
+**Acting.** Slow and deliberate; careful with his huge hands; he always puts the shield between danger and other people; a dry, gentle humour. He gardens and hates being called equipment.
+
+**Never:** a brute or a monster face; fangs, spikes or horns; robot-like armour plating; a turtle's head; fast or jerky movement.
+
+### 2.13 Director Baek Taegun (54): Kanghan Group Core Division (ch 5 silhouette, ch 12 name card)
+
+**Read at a glance.** A tall, lean, immaculate man in a charcoal three-piece suit, with silver glasses and a cane topped with a faintly glowing violet core. Cold, patient, polite.
+
+| | |
+|---|---|
+| **Build** | 183 cm, lean and upright, about 8 heads |
+| **Face** | A long narrow face, high cheekbones, deep lines from nose to mouth, thin lips in a faint polite smile; narrow pale grey-brown eyes behind thin silver-rimmed rectangular glasses |
+| **Hair** | Salt-and-pepper grey #8B8D90, combed back with a sharp side part, silver at the temples |
+| **Suit** | A charcoal three-piece suit #3A3D42 / #26282C, a white shirt, a dark violet tie #3E2F5A with a silver tie bar, polished black oxfords. A small silver lapel pin: the Kanghan emblem, a hexagon inside a hexagon, with no letters. |
+| **Cane** | Black lacquered wood with a silver collar; the handle is a smoky violet core crystal #8F6FC4 held in silver claws, glowing faintly |
+| **Name-card background** | Gradient, black #0E0E10 to smoky violet #4A3A66 |
+
+**Acting.** Still; both hands folded on the cane's handle; he never raises his voice and smiles with his mouth only.
+
+### 2.14 Kanghan security (generic, from ch 8)
+Black suits and ties, earpieces, the silver hexagon pin. At the Han River gate they wear black tactical vests over the suits and carry torches and batons, never guns.
+
 ### 2.10 Lyra: river archer summon (from ch 18), the thumbnail woman
 
 **Why she is drawn now.** The owner chose Lyra to front the YouTube thumbnail (25 October). He wants her as attractive as the heroines on the manhwa recap thumbnails he sent, "since it obviously works".
@@ -347,6 +386,22 @@ In the chapter 1 flash-forward, all seven summons stand behind Jaeha as black si
 
 ---
 
+## 4b. Monsters, Arc 2 (chapters 6–12)
+
+Beast-shaped Hush-spawn and beast bosses carry only small Hush cracks leaking violet ash #6B4C9A, never the knight's face-hole (proposal 15).
+
+### 4b.1 Ash rats (ch 6)
+About 70 cm long plus a hairless tail, hunched and bony. Patchy, hairless grey hide #7A7570 with black blotches; small eyes leaking violet ash; long yellow-brown chisel incisors; thin crooked limbs with pink-grey claws. Thin cracks along the spine leak violet ash. They swarm in dozens.
+
+### 4b.2 The drowned hound (ch 8, D-grade boss)
+A hound the size of a horse: 1.7 m at the shoulder, 3.5 m long, heavy-boned and gaunt. Waterlogged black fur hangs in wet clumps, with river weed and barnacles on its flanks; a long jaw with crooked yellow teeth; pale clouded eyes; water streams off it all the time. A small Hush crack on its brow. Fast in water, clumsy on dry ground.
+
+### 4b.3 Ash hounds (ch 10–11)
+Wolf-sized, 90 cm at the shoulder, lean and long-legged. Smooth black bodies with no eyes and no nose; a long split jaw of white bone-like teeth; ribs pressing through; cracks along the back leaking violet ash. Packs of five to ten.
+
+### 4b.4 The marsh serpent (ch 11–12, the Market Break boss)
+A giant serpent from a hot Far Side marsh: 20 m long, the body as thick as a small car (1.5 m). Jade-green scales #3E8A6E / #2A5E4B with dull gold bands #C9A34A; a hooded head with two backswept bone-white horns; yellow eyes with slit pupils; heat shimmer and steam rising off its body. A small Hush crack on its brow. It is cold-blooded and loves heat, so cold slows it down: frost on its scales means it is failing.
+
 ## 5. Locations, Arc 1 (make a location key for each after the style is chosen)
 
 Colour keys are in `MANHWA_STYLE_GUIDE.md` table 5.3.
@@ -362,6 +417,22 @@ Colour keys are in `MANHWA_STYLE_GUIDE.md` table 5.3.
 | **Kanghan Tower monitoring room** | 5 (hook) | A dark glass-walled room high in a corporate tower; a wall of monitors (#00FF00); a man in silver glasses seen from behind. |
 | **Gwanghwamun, the flash-forward** | 1 (opening) | Gwanghwamun Square at night under a red sky. The palace gate and the mountain ridge behind it are dark shapes; cracked pavement, abandoned cars, a hovering livestream drone. Above the square hangs the S-grade gate: a vertical tear in the sky many storeys tall, black-violet inside with a cold white-cyan rim. Jaeha, in his black coat, stands in front of the line of summon silhouettes. |
 | **The Ninth Wall** | 3 (grey flashback) | A great curtain wall of pale limestone across a mountain pass, with nine round towers and wall-blue banners #2F4A6E trimmed in bronze, under siege by Hush-spawn (black shapes leaking violet ash). Far off, a fortress with a great bell rings the retreat. Drawn in grey, with Kett's mustard scarf as the one warm colour. |
+
+---
+
+## 5b. Locations, Arc 2 (chapters 6–12)
+
+| Location | Id | Chapters | Design |
+|---|---|---|---|
+| **The sewer gate** | `sewer_gate` | 6 | Outside: a concrete storm-drain culvert under a Mapo road at night, with an E-grade gate slit in its mouth. Inside: Far Side brick-vaulted sewers: arched brick tunnels, ankle-deep dark water, side tunnels branching off (one becomes the decoy tunnel), moss and pale roots, iron-caged dungeon lamps burning white-blue every 20 m. |
+| **The survey gate** | `survey_gate` | 7 | An F-grade gate in a closed underground shopping arcade (shutters down, dust). Inside: a small ruined Far Side granary of round stone silos linked by narrow stair passages, spilled grain on the floor, warm amber dusk light through slits. |
+| **The Han River gate** | `hanriver_gate` | 8, 22 | Under a Han River bridge span at night: a fenced enclosure on the riverbank behind black tarps, shipping containers, a humming generator and thick cables running into a gate slit in the shadow of a bridge pier. Kanghan security men with torches. Orange sodium bridge lights on black water. A blank sign with no text. |
+| **The flooded car park** | `carpark_gate` | 8 | A D-grade gate in a flooded basement car park in Mangwon: concrete pillars with faded paint lines, the lower level under 1–2 m of dark, still water, half-sunk abandoned cars, and a long dry vehicle ramp up to the upper level. White-blue dungeon lamps; drips. |
+| **The Call** | `call_void` | 9 | Jaeha stands on an endless plane of still black water under a starless sky. Around him hang tall vertical rifts like doors, each showing a different Far Side place: a burning fortress with a great bell; a green, mossy sky over a field where something huge sleeps; others in shadow. Thin Operator-cyan lines run from the rifts to him. |
+| **The half-built tower** | `tower_gate` | 10 | An unfinished 12-storey concrete tower in Mapo at dusk: bare floors without walls, exposed rebar, scaffolding and green safety mesh flapping, plastic sheeting. A D-grade gate on the seventh floor; inside it, the same floors cracked and half collapsed, held up by a few load-bearing beams. Dusty orange dusk light. |
+| **Mangwon Market** | `mangwon_market` | 11 | A covered traditional market street under a translucent arcade roof, with narrow side alleys; stalls of vegetables, fish, tteok and kimchi; hanging bulbs and plastic tubs; at the market's edge, a pedestrian footbridge over a side road. Evening, the market lights on. |
+| **The fish market freezer lane** | `fish_market` | 12 | The back lane of the market's fish section: walk-in freezer doors, ice crates, frost on the walls, refrigerated trucks with their doors open, cold mist along the ground, white fluorescent light. |
+| **Director Baek's office** | `kanghan_office` | 12 | A long, dark office high in Kanghan Tower: a glass wall over the night city, a black desk, a smoky violet boss core glowing in a glass case on a plinth, shelves of archive boxes. Cold blue light. |
 
 ---
 
@@ -452,3 +523,22 @@ Use the snippet of every character in the panel, word for word, so the descripti
 
 **Stone lizards**
 > Stone lizards: squat, heavy-legged lizards 1.5 m long with club tails and low, long, heavy heads like a crocodile crossed with a tortoise; hides of irregular hand-inked slate-grey stone slabs with chipped edges and dark cracks in rough dry-brush texture; blunt, worn, uneven grinding teeth; small dull yellow eyes under a heavy brow plate, except the LEFT eye of every lizard, which is milky white and blind.
+
+**Borro**
+> Borro: a 2.4 m gentle giant, massive and round-shouldered with a slight stoop, long thick arms reaching his knees, huge blunt-fingered hands, short thick legs and wide flat bare feet; a small head for his size (about 7 heads tall), broad and flat-topped with a heavy brow ledge, small slow amber-brown eyes under heavy lids, a broad flat nose and a wide calm mouth, no hair but a few small slate plates over the crown like roof tiles; slate-grey mottled skin; a humped shell of overlapping slate plates laid like a slate roof from his neck to his hips and capping his shoulders, with moss and tiny white and yellow wildflowers growing in the cracks; a sleeveless knee-length tunic of undyed coarse linen tied with a rope belt, a gardener's canvas satchel, cloth wraps on his forearms and ankles; a door-sized dark iron shield made from an old gate door, with rivets, two old hinges on one side and a dented boss. Gentle, slow, never a brute.
+> *Add in public:* a featureless white oval husk face tied over his face with cord, with two small round eye-holes.
+
+**Director Baek Taegun**
+> Director Baek Taegun: a tall, lean 54-year-old Korean man, 183 cm, upright; a long narrow face with high cheekbones and deep lines from nose to mouth, thin lips in a faint polite smile, narrow pale grey-brown eyes behind thin silver-rimmed rectangular glasses; salt-and-pepper hair combed back with a sharp side part; a charcoal three-piece suit, white shirt, dark violet tie with a silver tie bar, a small silver hexagon-in-a-hexagon lapel pin with no letters, polished black oxfords; a black lacquered cane whose handle is a faintly glowing smoky violet crystal held in silver claws.
+
+**Ash rats**
+> Ash rats: hunched, bony rats about 70 cm long plus a hairless tail, with patchy hairless grey hide blotched black, small eyes leaking violet ash, long yellow-brown chisel incisors, thin crooked limbs with pink-grey claws, and thin cracks along the spine leaking violet ash; a swarm of dozens.
+
+**The drowned hound**
+> The drowned hound: a gaunt, heavy-boned hound the size of a horse, 1.7 m at the shoulder, with waterlogged black fur hanging in wet clumps, river weed and barnacles on its flanks, a long jaw of crooked yellow teeth, pale clouded eyes, water streaming off it, and a small crack on its brow leaking violet ash.
+
+**Ash hounds**
+> Ash hounds: lean, long-legged, wolf-sized hounds 90 cm at the shoulder with smooth black bodies, no eyes and no nose, a long split jaw of white bone-like teeth, ribs pressing through, and cracks along the back leaking violet ash.
+
+**The marsh serpent**
+> The marsh serpent: a giant serpent 20 m long with a body as thick as a small car, jade-green scales with dull gold bands, a hooded head with two backswept bone-white horns, yellow slit-pupil eyes, heat shimmer and steam rising from its body, and a small crack on its brow leaking violet ash.

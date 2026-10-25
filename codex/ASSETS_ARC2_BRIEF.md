@@ -1,0 +1,44 @@
+# ASSETS BRIEF, ARC 2: characters, monsters and places for chapters 6–12 (one Codex chat per entry)
+
+**Why now.** Chapters 2–5 use the Arc 1 sheets that already exist. Arc 2 (chapters 6–12) brings a new summon (Borro), Director Baek, four monsters and nine places. These sheets must exist before those chapters are drawn. The designs are in `CHARACTER_DESIGNS_v2.md`: sections 2.12–2.14, 4b and 5b, and the prompt snippets at the end of section 8.
+
+**Read first:**
+- `README_START_HERE.md`;
+- `MANHWA_STYLE_GUIDE.md`: the V2 STYLE BLOCK, the CLEAN-UP LINE, the NEGATIVE BLOCK, sections 5, 6, 8, 9, 11, 11b and 13;
+- `PANEL_BRIEF_v2.md` section 4b: the owner's strict rules on proportions, scale and perspective. They apply to every sheet.
+- your entry's design in `CHARACTER_DESIGNS_v2.md`.
+
+## Character and monster sheets (entries S16, S17, M1–M4)
+Follow `MODEL_SHEETS_BRIEF.md` sections 1–3 exactly:
+- 1536×1024 PNGs on flat light grey #E9E9EC, with no text or labels;
+- make the front view first, check it, then pass it as the reference for every other sheet of that character;
+- write `card.json` and `prompts.json`;
+- rejects go in `characters_v2/_rejects/<id>_<reason>.png`;
+- write `DONE.md` when the entry is finished.
+
+**Scale on every sheet.** Draw a faint grey silhouette of a 178 cm man (Jaeha's height, no details) standing beside each turnaround and each monster view, on the same baseline, so the size can be checked at a glance. This is the one exception to "no extra figures".
+
+| # | Folder | Draw |
+|---|---|---|
+| S16 | `characters_v2/borro/` | `front.png` (front view, full body, the shield standing beside him); `turnaround.png` (front, three-quarter, side, back: the shell shape and the flowers must match in every view); `expressions.png` (calm; slow smile; dry deadpan; protective frown; straining under weight; sleepy; offended at being called equipment; quiet sadness); `details.png` (the shell plates with moss and flowers, a hand with blunt fingers next to Jaeha's hand for size, the shield front and back with its hinges and strap, the satchel, the white husk mask with its eye-holes, worn and held); `chibi.png`. Around 7 heads tall, never a brute (design 2.12). |
+| S17 | `characters_v2/baek_taegun/` | `front.png`; `turnaround.png`; `expressions.png` (polite smile; cold stare over the glasses; faint amusement; displeasure; calculating; a thin smile while threatening; reading a file; looking out of a window, seen in three-quarter back view); `details.png` (the cane and its core handle, the glasses, the hexagon lapel pin, his hands folded on the cane). About 8 heads tall. |
+| M1 | `characters_v2/ash_rat/` | `turnaround.png` (side, front, top, back); `details.png` (the incisors, the ash-leaking eyes, the spine cracks, a claw); `swarm.png` (two dozen of them pouring along a brick tunnel at ankle height, with the 178 cm silhouette for scale). |
+| M2 | `characters_v2/drowned_hound/` | `turnaround.png` (side, front, back); `details.png` (the head and jaw, the Hush crack on the brow, barnacles and weed in the fur, a paw); `action.png` (lunging out of dark water, with the 178 cm silhouette for scale). |
+| M3 | `characters_v2/ash_hound/` | `turnaround.png` (side, front, back); `details.png` (the eyeless head and split jaw, the cracked back, a paw); `pack.png` (six of them running together down a narrow market alley, with the 178 cm silhouette for scale). |
+| M4 | `characters_v2/marsh_serpent/` | `turnaround.png` (the full coiled length from the side; the head and hood from the front; the head in profile); `details.png` (the horns, the eye, a patch of scales with gold banding, the Hush crack, frost forming on the scales when it is cold); `scale.png` (the serpent rearing up beside a two-storey market building and a footbridge, with the 178 cm silhouette for scale). |
+
+## Location keys (entries L6–L10)
+Follow `LOCATION_KEYS_BRIEF.md` "Rules" exactly: 1536×1024, V2, the key light named in the design, no people except tiny figures for scale where asked, no text (blank signs, #00FF00 screens), `key.png` plus the views listed, `notes.md` (layout and light for later panels), `prompts.json`, `DONE.md`. Every key must read at the right scale: put one or two tiny people in each `key.png` for scale, correctly proportioned and on the floor plane.
+
+| # | Ids | Draw |
+|---|---|---|
+| L6 | `sewer_gate`, `survey_gate` | **`sewer_gate`:** `outside.png`, the storm-drain culvert under a road at night with the gate slit in its mouth; `key.png`, the brick-vaulted sewer inside, a tunnel with ankle-deep water, side tunnels and white-blue caged lamps. **`survey_gate`:** `outside.png`, the closed underground shopping arcade with shutters down and the small gate slit; `key.png`, the ruined stone granary inside, round silos and narrow stair passages in amber dusk light. |
+| L7 | `hanriver_gate`, `carpark_gate` | **`hanriver_gate`:** `key.png`, the fenced, tarped enclosure under the bridge span at night, the containers, generator and cables running into the gate slit, two tiny Kanghan guards with torches; `wide.png`, the same place from across the river, small under the lit bridge. **`carpark_gate`:** `key.png`, the flooded basement car park from the top of the dry ramp, looking down into the dark water among the pillars and half-sunk cars. |
+| L8 | `call_void`, `tower_gate` | **`call_void`:** `key.png`, the endless plane of black water under a starless sky with the tall rifts standing around a tiny lone figure; one rift shows a burning fortress with a great bell, one a mossy green sky over a field with a huge sleeping shape, the others in shadow; thin cyan lines from the rifts to the figure. **`tower_gate`:** `outside.png`, the unfinished concrete tower at dusk with scaffolding and green mesh; `key.png`, inside the gate on the seventh floor: cracked, half-collapsed floors held up by a few load-bearing beams. |
+| L9 | `mangwon_market`, `fish_market` | **`mangwon_market`:** `key.png`, the covered market street at evening, stalls and hanging bulbs; `footbridge.png`, the market's edge with the pedestrian footbridge over a side road. **`fish_market`:** `key.png`, the freezer lane: walk-in freezer doors, ice crates, frost, refrigerated trucks and cold mist. |
+| L10 | `kanghan_office` | `key.png`: Director Baek's office at night, the glass wall over the city, the black desk, the violet boss core in its glass case on a plinth, archive shelves. |
+
+## Never
+- Nothing from the old `characters/` or `chapters/` folders, and no real webtoon images.
+- No text anywhere in the art.
+- No compressed bodies or wrong scale (`PANEL_BRIEF_v2.md` 4b): Claude rejects them.
