@@ -2,7 +2,8 @@
 """recap_video: one-narrator recap video of a lettered chapter, horizontal 16:9 like manhwa recap channels.
 
 The lettered strip scrolls in the middle of the frame; the sides show a blurred, dimmed copy of the same view.
-While an entry is read the view settles on its panel; between entries it eases down the strip. No chapter
+While an entry is read the view holds on its panel framed with its lettering (bubbles, inner voice, notes), or pans
+slowly down through it when panel and lettering are taller than the view; between entries it eases down the strip. No chapter
 announcements and no title or end cards, so chapters join into one continuous video.
 
 Image quality (owner, 25 October: "make sure no images look compressed ever in the manhwa"):
@@ -100,29 +101,48 @@ def main():
         np.save(h, a)
         return a
 
-    def top_for(pid):
+    # every voiced line (bubble, inner voice, note) belongs to a panel: the camera frames the panel with its lettering
+    ext = {}
+    for ln in lay.get("lines") or []:
+        a0, b0 = ext.get(ln.get("panel_id"), (1e12, -1e12))
+        ext[ln.get("panel_id")] = (min(a0, ln["y_top"]), max(b0, ln["y_bottom"]))
+    clamp = lambda y: float(min(max(y, 0), max(H - vh, 0)))
+    margin = 24 * k_
+
+    def span_for(pid):
+        """(top at the start of the entry, top at its end), in strip px. The panel and its lettering fit: one held
+        framing, centred. Taller than the view: start with the top (the first bubble) and pan slowly down to the bottom."""
         p = pan.get(pid)
         if not p:
             return None
-        c = (p["y_top"] + p["y_bottom"]) / 2 * k_
-        return float(min(max(c - vh / 2, 0), max(H - vh, 0)))
+        a0, b0 = ext.get(pid, (p["y_top"], p["y_bottom"]))
+        u0, u1 = min(p["y_top"], a0) * k_, max(p["y_bottom"], b0) * k_
+        if u1 - u0 + 2 * margin <= vh:
+            y = clamp((u0 + u1) / 2 - vh / 2)
+            return y, y
+        return clamp(u0 - margin), clamp(u1 + margin - vh)
 
     audio, keys, t, missing = [], [], 0.0, 0
     for e in rec:
-        y = top_for(str(e.get("panel", "")))
-        if y is None:
+        sp = span_for(str(e.get("panel", "")))
+        if sp is None:
             missing += 1
             if not keys:
                 continue
-            y = keys[-1][1]
-        if keys:
-            y = max(y, keys[-1][1])  # never scroll back up
-            keys.append((t + 0.5, y))
-        else:
-            keys.append((0.0, y))
+            sp = (keys[-1][1], keys[-1][1])
         a = say(str(e["text"]).strip())
+        dur = len(a) / SR + A.gap
+        y0, y1 = sp
+        t0 = t + 0.45 if keys else 0.0  # arrive early in the entry (the move starts as the last entry ends)
+        if keys:
+            y0 = max(y0, keys[-1][1])  # never scroll back up
+        y1 = max(y1, y0)
+        keys.append((t0, y0))
+        t1 = t + dur - 0.35
+        if t1 > t0 + 0.15:  # hold the framing (or pan slowly through a tall panel) while the entry is read
+            keys.append((t1, y1))
         audio += [a, np.zeros(int(SR * A.gap), np.float32)]
-        t += len(a) / SR + A.gap
+        t += dur
     if not keys:
         raise SystemExit("no recap entry matches a panel")
     total = t + 0.3
