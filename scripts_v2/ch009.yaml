@@ -1,0 +1,1044 @@
+chapter: 9
+title: Not Yet, Operator
+format: SCRIPT_FORMAT_v2.md
+when: "The same Saturday night, a little before midnight: the rooftop room, and the Call (a place between the worlds) for sixty seconds."
+story_beats: STORY_BIBLE_v4.md#arc-2-chapters-612-the-trap-rats-chapter-by-chapter
+cast:
+  kang_jaeha: vest          # the grey hoodie only tonight; bandaged left forearm (see continuity)
+  nib: mask                 # NO mask at home all chapter; rest form; seal 2/5 look
+  kang_seoa: default
+  gomi: default             # the street cat, at the window
+  bell_silhouette: default  # the caller who refuses: a silhouette only, never named (he is Caldric, ch 68)
+locations: [rooftop_room, call_void]
+continuity:
+  - "Jaeha: the grey hoodie and work trousers, no vest; a white bandage round his LEFT forearm. Fringe over the LEFT eye, pencil behind the RIGHT ear. In the Call he looks exactly as he does on the bed (hoodie, bandage), and he holds his notebook. While he is in the Call his body sits rigid on the bed with his eyes glowing faint cyan."
+  - "Nib: seal 2/5 look, NO mask (nib/front_seal2_nomask.png) all chapter, at home; rest form."
+  - "Kang Seoa (15): a baggy T-shirt and pyjama trousers for the night, glasses; never any fan service."
+  - "The rooftop room at night (location rooftop_room, interior): one room, about 9 square metres, a cheap metal-frame single bed against the wall under the window, Seoa's desk, the fold-out table; a warm ceiling light."
+  - "The Call (location call_void): an endless plane of still black water under a starless black sky; tall vertical rifts like doorways stand round Jaeha at a distance of 30–60 m, each 8 m tall, each showing a different Far Side place; thin Operator-cyan lines run from each rift to him. The rifts: a burning fortress with a great bell; a mossy green sky over a field where something huge sleeps; a wide river under a silver sky; a white stone ward with rows of empty beds; a frozen forest; the rest dark."
+  - "The bell silhouette: seen only as a black silhouette against fire, a broad figure about 2.1 m tall in armour shaped like a great bell, holding a bell-headed mace, standing on a burning wall beside a huge hanging bell. Never a face, never a name."
+  - "The Hush in the Call (P38–P54): the black water itself. Something under it grips Jaeha's RIGHT ankle: a long black hand with too many joints, leaking violet ash. Frost spreads from the same ankle across the real bed and floor."
+plants:
+  - "PLANT P19–P21: the river under a silver sky (Lyra, ch 18) and the white ward (Maud, ch 48) among the rifts."
+  - "PLANT P26–P30: 'Not yet, Operator. My wall still stands.' (ch 68: Caldric). P32: Nib knows that bell (it rang the retreat in the ch 3 flashback)."
+  - "PLANT P40: [OPERATOR #1 — STATUS: HUSHED], a glitch (series villain)."
+  - "PLANT P39–P54: the Hush's grip on his right ankle leaves a black-violet bruise shaped like long fingers (ch 10 continuity; Part One mystery)."
+hook_type: countdown
+
+panels:
+
+  # ================= COLD (P01–P05) =================
+  - id: P01
+    recipe: establish
+    shape: full
+    gap: none
+    bg: black
+    camera: "high in the corner of a small room at night (2.4 m): frost spreading across the floor from a bed where a young man sits rigid with glowing eyes"
+    light: "key: a cold cyan glow from a window floating in the air; the ceiling light flickering"
+    art: >
+      Night, inside the rooftop room (location rooftop_room, interior), seen from high in a corner: white frost spreads in
+      feathery lines across the old floor from the metal-frame bed, where Jaeha (kang_jaeha, hoodie, bandaged left forearm)
+      sits rigid and upright, eyes glowing cyan, a thin nosebleed running down to his lip. A small cyan window floats in the
+      air before him. Seoa (kang_seoa, pyjamas) grips his shoulder; Nib (nib, no mask) grabs her wrist. The window glass is
+      fogged with frost. Scale: the room is 3 m by 3 m; the bed is under the window.
+    acting:
+      kang_jaeha: "sitting bolt upright on the edge of the bed, hands on his knees, eyes wide and glowing, not blinking"
+      kang_seoa: "leaning over him, both hands on his shoulder, shaking him, mouth open in a shout"
+      nib: "gripping Seoa's wrist with one long hand, ears flat, staring at Jaeha's eyes"
+    calm: top
+    sfx:
+      - {text: "KRRK... KRRK...", style: quiet, at: [0.30, 0.86], size: S, rot: 0}
+
+  - id: P02
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the frosted floor: Seoa shouting at Jaeha, Nib holding her wrist"
+    light: "cyan from the window; the ceiling light flickering"
+    art: >
+      From low on the frosted floor (frost and Jaeha's frozen sock in the foreground): Seoa (kang_seoa) shouts at her
+      brother while Nib (nib, no mask) holds her wrist back.
+    acting:
+      kang_seoa: "pulling against Nib's grip, glasses fogging, eyes wet, shouting"
+      nib: "holding her wrist firmly, his other hand raised flat, ears back, voice level"
+    eyeline: "Seoa → Jaeha; Nib → Seoa"
+    foreground: "frost on the floorboards and Jaeha's sock, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kang_seoa, type: shout, text: "HE'S FREEZING! JAEHA, WAKE UP!", side: l}
+      - {who: nib, type: speech, text: "DON'T PULL HIM BACK. HE'S STILL ON THE FAR SIDE.", side: r}
+
+  - id: P03
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of Jaeha's glowing cyan eyes, frost on his lashes"
+    light: "cyan"
+    art: >
+      Extreme close-up: Jaeha's eyes (kang_jaeha) glowing cyan, unblinking, tiny crystals of frost on his lashes. Fill the
+      canvas edge to edge.
+    acting:
+      kang_jaeha: "eyes wide open, unfocused, glowing"
+    calm: none
+    silent: true
+
+  - id: P04
+    recipe: system
+    shape: inset-r
+    gap: short
+    bg: navy
+    camera: "close on the small cyan window floating before his face"
+    light: "cyan"
+    art: >
+      Close on the small window floating in the air before Jaeha's face; the frosted window glass of the room behind it.
+    calm: left
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.40], text: "[CALL · 00:22 · ANSWERS: 0]"}
+    silent: true
+    sfx:
+      - {text: "TIK... TIK...", style: quiet, at: [0.50, 0.80], size: S, rot: 0}
+
+  - id: P05
+    kind: caption
+    shape: strip
+    gap: fade-black
+    bg: black
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "TEN MINUTES EARLIER."}
+
+  # ================= THE OFFER (P06–P16) =================
+  - id: P06
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: white
+    camera: "eye level from the doorway of the warm little room: Jaeha writing at the fold-out table, Seoa at her desk, Nib on the bed"
+    light: "warm ceiling light; the dark window behind the bed"
+    art: >
+      The same room ten minutes earlier, warm and ordinary: Jaeha (kang_jaeha, hoodie, bandaged left forearm) sits at the
+      fold-out table writing in his notebook, the pencil moving fast. Seoa (kang_seoa, pyjamas) has swivelled round on her
+      desk chair with her laptop. Nib (nib, no mask) sits cross-legged on the bed. Outside the window above the bed, the fat
+      orange cat (gomi) presses her face to the glass.
+    acting:
+      kang_jaeha: "hunched over the table, writing fast, tongue at the corner of his mouth"
+      kang_seoa: "turned round on the chair, the laptop on her knees, watching him over her glasses"
+      nib: "cross-legged on the bed with his back to the window, arms folded"
+      gomi: "face squashed against the window glass, staring at the back of Nib's head"
+    calm: top
+    sfx:
+      - {text: "SKRITCH SKRITCH", style: quiet, at: [0.40, 0.66], size: S, rot: 0}
+
+  - id: P07
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: white
+    camera: "over Jaeha's shoulder, close on the notebook page: a draft written like a job advert"
+    light: "warm light on the page"
+    face: private
+    art: >
+      Over Jaeha's shoulder: the notebook page laid out like a job advert, with a box drawn round it, little bullet points,
+      a doodle of a muscular figure and a bowl of ramen with steam lines. Leave a blank band for the letterer's note. No
+      readable text.
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: note, text: "WANTED: ONE STRONG FIGHTER. PAY: 30% OF EVERY CORE. FREE RAMEN."}
+
+  - id: P08
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low two-shot at the table: Seoa leaning over Jaeha's shoulder to read, deadpan"
+    light: "warm"
+    face: public
+    art: >
+      Seoa (kang_seoa) leans over Jaeha's shoulder to read the page, deadpan; Jaeha (kang_jaeha, hoodie) holds it up,
+      pleased with himself.
+    acting:
+      kang_seoa: "leaning on his shoulder with one elbow, glasses slid down her nose, flat eyes"
+      kang_jaeha: "holding the notebook up proudly, a small smug smile"
+    eyeline: "Seoa → the page; Jaeha → Seoa"
+    foreground: "the edge of the fold-out table with a cup of tea, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kang_seoa, type: speech, text: "YOU WROTE A JOB ADVERT.", side: l}
+      - {who: kang_jaeha, type: speech, text: "IT WORKED ON EVERY GUILD THAT EVER HIRED ME.", side: r}
+
+  - id: P09
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level from the table: Nib on the bed, speaking without unfolding his arms, the cat squashed against the window behind him"
+    light: "warm; the dark window"
+    art: >
+      Nib (nib, no mask) on the bed speaks without unfolding his arms. Behind him, the fat cat (gomi) is still squashed
+      against the window glass.
+    acting:
+      nib: "cross-legged, arms folded, eyes half-lidded, looking at the notebook"
+      gomi: "face pressed to the glass behind him, one paw up on it"
+    eyeline: "Nib → the notebook"
+    foreground: "Jaeha's shoulder and the raised notebook, cropped, left"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "THEY WON'T COME FOR MONEY. NOBODY ON THE FAR SIDE HAS ANYTHING LEFT TO BUY.", side: r}
+
+  - id: P10
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on the window over the bed: Nib's long arm reaching back without looking and yanking the curtain shut on the cat's squashed face"
+    light: "warm"
+    art: >
+      Close on the window over the bed: without turning round, Nib's long grey-green arm reaches back over his shoulder and
+      yanks the curtain shut across the fat cat's squashed face.
+    acting:
+      nib: "only his arm in frame, reaching back over his shoulder, fingers pinching the curtain"
+      gomi: "her squashed face vanishing behind the curtain, eyes wide"
+    calm: left
+    silent: true
+    sfx:
+      - {text: "SHHK", style: comic, at: [0.40, 0.40], size: M, rot: -6}
+
+  - id: P11
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on Jaeha, tapping the pencil on his lip, the private face"
+    light: "warm"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha), the pencil tapping his lip, unconvinced.
+    acting:
+      kang_jaeha: "tapping the pencil against his lower lip, eyes narrowed, one eyebrow up"
+    eyeline: "Jaeha → Nib"
+    foreground: "the notebook's corner, cropped, bottom right"
+    calm: right
+    lines:
+      - {who: kang_jaeha, type: speech, text: "EVERYONE WANTS SOMETHING, NIB. I JUST HAVE TO GUESS WHAT.", side: l}
+    sfx:
+      - {text: "TAP TAP", style: quiet, at: [0.70, 0.40], size: S, rot: 0}
+
+  - id: P12
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level, side-on across the room: Nib and Jaeha looking at each other, Seoa between them, still"
+    light: "warm; quiet"
+    face: private
+    art: >
+      Side-on across the little room: Nib (nib, no mask) on the bed and Jaeha (kang_jaeha) at the table look at each other;
+      Seoa, between them, goes quiet and listens.
+    acting:
+      nib: "unfolding his arms, resting his long hands on his knees, looking straight at Jaeha"
+      kang_jaeha: "the pencil stopped, looking back at Nib"
+      kang_seoa: "still on her chair, eyes moving from one to the other"
+    eyeline: "Nib ↔ Jaeha; Seoa → Nib"
+    foreground: "the ceiling light's cord, cropped, top"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "WHY DID YOU ANSWER ME, THAT NIGHT?", side: l}
+      - {who: nib, type: speech, text: "YOU WERE STANDING IN FRONT OF SOMEONE.", side: r}
+
+  - id: P13
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, from the floor: Seoa gesturing round the tiny room, Jaeha sitting down on the creaking bed"
+    light: "warm"
+    face: public
+    art: >
+      From low on the floor: Seoa (kang_seoa) gestures round the tiny room with both arms; Jaeha (kang_jaeha) sits down on
+      the edge of the creaking metal bed beside Nib.
+    acting:
+      kang_seoa: "both arms spread at the walls, eyebrows high"
+      kang_jaeha: "lowering himself onto the bed, the notebook in his good hand, a lopsided grin"
+      nib: "shifting over on the bed to make room"
+    eyeline: "Seoa → Jaeha; Jaeha → Seoa"
+    foreground: "the bed's metal leg, cropped, left edge"
+    calm: top
+    lines:
+      - {who: kang_seoa, type: speech, text: "AND IF SOMETHING HUGE ANSWERS? THIS ROOM IS NINE SQUARE METRES.", side: l}
+      - {who: kang_jaeha, type: speech, text: "THEN WE'LL NEED A BIGGER ROOM.", side: r}
+    sfx:
+      - {text: "CREAK", style: quiet, at: [0.66, 0.70], size: S, rot: 0}
+
+  - id: P14
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level, close two-shot at the bed: Seoa crouching in front of Jaeha, holding up her phone stopwatch"
+    light: "warm; the window dark behind them"
+    face: private
+    art: >
+      Seoa (kang_seoa) crouches in front of Jaeha on the bed, holding up her phone with the stopwatch ready, serious. Jaeha
+      (kang_jaeha, hoodie) looks down at her.
+    acting:
+      kang_seoa: "crouched, holding the phone stopwatch up between them, the other hand gripping his knee, a hard little frown"
+      kang_jaeha: "sitting on the bed's edge, looking down at her, a soft tired smile"
+    eyeline: "Seoa → Jaeha (up); Jaeha → Seoa (down)"
+    foreground: "the phone stopwatch in her hand, cropped, bottom left"
+    calm: top
+    lines:
+      - {who: kang_seoa, type: speech, text: "I'M TIMING IT. PROMISE YOU'LL COME BACK FROM WHEREVER THAT IS.", side: l}
+      - {who: kang_jaeha, type: speech, text: "IT'S NOT A GATE, SEOA. IT'S A PHONE CALL.", side: r}
+
+  - id: P15
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: navy
+    camera: "close on Jaeha's finger pressing a glowing cyan CALL button in the air"
+    light: "cyan"
+    art: >
+      Close on Jaeha's index finger, the bandaged forearm behind it, pressing a glowing cyan CALL button that hangs in the
+      air; light ripples out from the touch.
+    calm: left
+    ui:
+      - {kind: system.button, "on": float, at: [0.5, 0.45], text: "CALL"}
+    silent: true
+    sfx:
+      - {text: "TAP", style: summon, at: [0.30, 0.30], size: M, rot: 0}
+
+  - id: P16
+    kind: title
+    shape: full
+    gap: long
+    bg: black
+    title_card: "MY SUMMONS GO FIRST · CHAPTER 9 · NOT YET, OPERATOR"
+    notes: "Title card at panel 16 of 57 (28%)."
+
+  # ================= THE CALL (P17–P57) =================
+  - id: P17
+    recipe: establish
+    shape: full
+    gap: long
+    bg: black
+    camera: "high (30 m), looking down on a tiny figure standing on endless black water, tall glowing rifts standing in a ring around him"
+    light: "key: the rifts' own light (fire, green, silver, white); thin cyan lines; the black water reflecting everything"
+    art: >
+      The Call (location call_void): an endless plane of perfectly still black water under a starless black sky. A tiny
+      figure (Jaeha, hoodie) stands on the water in the centre, his reflection under him. Around him, 30 to 60 m away, a
+      ring of tall vertical rifts like doorways stands on the water, each glowing with a different far place, and a thin
+      Operator-cyan line runs from each rift to him. Scale: each rift is 8 m tall, about four and a half times his height;
+      he is a speck.
+    calm: top
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[CALL OPEN · 01:00]"}
+    silent: true
+    sfx:
+      - {text: "...", style: quiet, at: [0.50, 0.86], size: S, rot: 0}
+
+  - id: P18
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level just above the water: Jaeha turning slowly, his reflection perfect beneath him"
+    light: "the rifts' mixed light on him; cyan lines"
+    face: private
+    art: >
+      Just above the water: Jaeha (kang_jaeha, hoodie) turns slowly where he stands, taking in the ring of rifts, his
+      reflection perfect beneath his feet; the notebook in his hand.
+    acting:
+      kang_jaeha: "turning on the spot, the notebook clutched to his chest, mouth slightly open, eyes huge"
+    eyeline: "Jaeha → the rifts"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "RIPPLE", style: quiet, at: [0.50, 0.86], size: S, rot: 0}
+
+  - id: P19
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "a row of tall rifts seen across the water, each showing a different place"
+    light: "each rift's own light"
+    art: >
+      Across the water, a row of tall rifts, each a doorway into somewhere else: a fortress wall burning under a great bell;
+      a mossy green sky over a field where a long low hill seems to breathe; a wide river under a silver sky; a white stone
+      ward with rows of empty beds; a frozen forest; and three that are dark.
+    calm: top
+    silent: true
+
+  - id: P20
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close through the river rift: a tall figure on a riverbank under a silver sky, a long silver braid, a white longbow"
+    light: "silver sky; a river shining"
+    art: >
+      Close through the river rift: under a silver sky, a tall figure stands on a riverbank with her back to us, a long
+      silver-white braid strung with beads hanging over her left shoulder, a white longbow taller than she is in her hand.
+      Only her silhouette and the braid catch the light.
+    calm: right
+    silent: true
+
+  - id: P21
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close through the white ward rift: rows of empty white beds, a broad armoured figure bent over one of them"
+    light: "cold white light"
+    art: >
+      Close through the ward rift: a long white stone ward with rows of empty beds; at the far end, a broad figure in
+      surgeon's plate with cropped white hair bends over one bed, seen from behind, too far away to see more.
+    calm: left
+    silent: true
+
+  - id: P22
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "close, slightly low on Jaeha lifting his notebook, a window above him"
+    light: "cyan from the window"
+    face: public
+    art: >
+      Close and slightly low on Jaeha (kang_jaeha): he clears his throat and lifts the notebook to read from it, like a man
+      about to give a speech. The upper half is empty for the window.
+    acting:
+      kang_jaeha: "holding the notebook up in both hands, chin raised, a nervous polite smile"
+    eyeline: "Jaeha → the notebook"
+    calm: top
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[SPEAK YOUR OFFER]"}
+    silent: true
+    sfx:
+      - {text: "AHEM", style: quiet, at: [0.76, 0.66], size: S, rot: 0}
+
+  - id: P23
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the water behind Jaeha: him reading his notebook aloud to the ring of rifts"
+    light: "the rifts' light ahead of him"
+    face: public
+    art: >
+      From low behind Jaeha: he reads aloud from his notebook to the ring of rifts, his voice carrying over the black water.
+    acting:
+      kang_jaeha: "seen from behind, notebook held up in both hands, shoulders square, reading"
+    eyeline: "Jaeha → the notebook"
+    foreground: "the back of Jaeha's head and shoulders, cropped, bottom left"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "MY NAME IS KANG JAEHA. I'M LOOKING FOR ONE STRONG FIGHTER.", side: l}
+      - {who: kang_jaeha, type: speech, text: "I PAY THIRTY PERCENT OF EVERY CORE. AND THE RAMEN IS FREE.", side: l}
+
+  - id: P24
+    recipe: chorus
+    shape: wide
+    gap: short
+    bg: black
+    camera: "across the water: shapes in two rifts turning away, one rift dimming to grey"
+    light: "the rifts' light flickering and dimming"
+    art: >
+      Across the water: in the river rift a tall silhouette with a long braid turns its back; in the frozen forest something
+      large lowers its head and walks away; one of the bright rifts dims to grey. Faint voices drift over the water.
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: whisper, text: "ANOTHER MASTER WHO WANTS A WEAPON.", side: l}
+      - {who: offpanel:crowd, type: whisper, text: "HE TALKS LIKE A MERCHANT.", side: r}
+    sfx:
+      - {text: "FFSSHH", style: quiet, at: [0.76, 0.40], size: S, rot: 0}
+
+  - id: P25
+    recipe: anticipation
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from the water: the burning-fortress rift flaring bright, a great bell swinging inside it"
+    light: "fire-orange from the rift flooding across the black water"
+    art: >
+      From low on the water: the burning-fortress rift flares bright. Inside it, a great stone wall burns under a red sky; a
+      huge bronze bell hangs in a tower, swinging; black shapes leaking violet ash swarm the base of the wall. On the
+      battlement beside the bell stands a broad black silhouette in armour shaped like a great bell (bell_silhouette), a
+      bell-headed mace in its hand. Its head turns toward Jaeha.
+    acting:
+      bell_silhouette: "a black silhouette against the fire, standing square on the battlement, head turning toward us, mace lowered"
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.92], text: "[00:52]"}
+    sfx:
+      - {text: "DOOONG", style: impact, at: [0.70, 0.20], size: XL, rot: -4}
+
+  - id: P26
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level from beside Jaeha, the burning rift filling the far half of the frame, the silhouette tiny on its wall"
+    light: "fire-orange"
+    face: public
+    art: >
+      From beside Jaeha (his shoulder and hopeful face in the right foreground, cropped): the burning rift fills the far
+      half of the frame; on its wall, the bell silhouette faces him across the water.
+    acting:
+      kang_jaeha: "leaning forward, eyes lighting up, the notebook lowered"
+      bell_silhouette: "standing on the wall, facing Jaeha, the mace resting head-down at its feet"
+    eyeline: "Jaeha → the silhouette; the silhouette → Jaeha"
+    foreground: "Jaeha's shoulder and the side of his face, cropped, right third"
+    calm: top
+    lines:
+      - {who: bell_silhouette, type: monster, text: "I HEAR YOU, OPERATOR. YOU ARE YOUNG, AND YOU SPEAK LIKE A MERCHANT.", side: l}
+
+  - id: P27
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha, stepping forward on the water, eager"
+    light: "fire-orange on his face"
+    face: public
+    art: >
+      Close on Jaeha (kang_jaeha) stepping forward on the black water, ripples spreading from his foot, eager.
+    acting:
+      kang_jaeha: "taking a step forward, one hand reaching out, eyebrows up, a hopeful smile"
+    eyeline: "Jaeha → the silhouette"
+    foreground: "ripples on the black water, cropped, bottom"
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: speech, text: "THEN COME THROUGH. I CAN NEGOTIATE.", side: r}
+
+  - id: P28
+    recipe: splash
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from the foot of the burning wall inside the rift: the silhouette raising the mace and striking the great bell"
+    light: "fire; the bell ringing a shockwave of orange light"
+    art: >
+      From low at the foot of the burning wall inside the rift: the bell silhouette raises its bell-headed mace and strikes
+      the great bronze bell; a ring of orange light bursts outward from it. The swarm at the wall's base recoils.
+    acting:
+      bell_silhouette: "mid-swing, the mace striking the bell, its whole broad body turned into the blow"
+    calm: top
+    lines:
+      - {who: bell_silhouette, type: monster, text: "NOT YET, OPERATOR. MY WALL STILL STANDS."}
+    sfx:
+      - {text: "DOOOOONNG", style: impact, at: [0.40, 0.24], size: XL, rot: -6}
+
+  - id: P29
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level across the water: the burning rift closing like an eye, a window over it"
+    light: "the fire shrinking to a line; cyan from the window"
+    art: >
+      Across the water, the burning rift narrows and closes like an eye, the fire shrinking to a thin orange line, then
+      black. Its cyan line to Jaeha snaps and fades. The upper half is empty for the window.
+    calm: top
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[DECLINED · 00:41]"}
+    silent: true
+    sfx:
+      - {text: "SHHUP", style: quiet, at: [0.50, 0.66], size: S, rot: 0}
+
+  - id: P30
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Jaeha's face, the orange light gone from it"
+    light: "the rifts' colder light"
+    art: >
+      Close on Jaeha (kang_jaeha), his outstretched hand still raised, the hope draining from his face.
+    acting:
+      kang_jaeha: "hand still half raised, mouth open, eyes stunned"
+    eyeline: "Jaeha → the closed rift"
+    calm: right
+    lines:
+      - {who: kang_jaeha, type: speech, text: "WAIT. PLEASE WAIT.", side: l}
+
+  - id: P31
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level behind Jaeha: him lifting the notebook again toward the dimming rifts, louder"
+    light: "the rifts' cold light"
+    face: public
+    art: >
+      From behind Jaeha's shoulder: he lifts the notebook again toward the ring and shouts his offer louder, and as he
+      speaks, two more rifts dim to grey.
+    acting:
+      kang_jaeha: "holding the notebook up higher, leaning forward, shouting, a desperate salesman's smile"
+    eyeline: "Jaeha → the rifts"
+    foreground: "Jaeha's shoulder and the raised notebook, cropped, left third"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: shout, text: "I CAN PAY MORE! FIFTY PERCENT OF EVERY CORE!", side: l}
+    sfx:
+      - {text: "FSSH... FSSH", style: quiet, at: [0.80, 0.40], size: S, rot: 0}
+
+  - id: P32
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "back in the room, low from the floor: Nib gone rigid on the bed, ears flat, Seoa turning to him"
+    light: "cyan from Jaeha's eyes; the ceiling light"
+    art: >
+      Back in the room: on the bed beside Jaeha's rigid, glowing-eyed body, Nib (nib, no mask) has gone stiff, his ears flat
+      back, his long hands clenched on his knees. Seoa (kang_seoa) turns to him in alarm. A faint ring of sound seems to
+      tremble in the air.
+    acting:
+      nib: "rigid, ears flat back, hands clenched into fists on his knees, eyes wide and far away"
+      kang_seoa: "turning to Nib, laptop clutched to her chest"
+      kang_jaeha: "sitting rigid, eyes glowing, unmoving"
+    eyeline: "Nib → nothing; Seoa → Nib"
+    foreground: "the bed's metal frame, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kang_seoa, type: speech, text: "NIB? WHAT IS IT? WHAT'S THAT SOUND?", side: l}
+      - {who: nib, type: whisper, text: "I KNOW THAT BELL.", side: r}
+    sfx:
+      - {text: "...doong...", style: quiet, at: [0.76, 0.20], size: S, rot: 0}
+
+  - id: P33
+    recipe: chorus
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high over the water: the ring of rifts dimming one by one, Jaeha small in the middle"
+    light: "the rifts going grey one after another"
+    art: >
+      High over the black water: the ring of rifts dims one by one, going grey; their cyan lines to Jaeha thin out. Only the
+      mossy green rift and a few others still glow faintly. Jaeha stands small in the middle.
+    acting:
+      kang_jaeha: "small, turning, watching the lights go out"
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.92], text: "[00:35]"}
+    silent: true
+
+  - id: P34
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "close on the window in front of Jaeha: his finger dragging it, a tiny line of text appearing at the bottom"
+    light: "cyan"
+    face: private
+    art: >
+      Close on the window hanging in front of Jaeha: his index finger drags it upward like a phone screen, and at the very
+      bottom a tiny tab appears that no one would ever notice.
+    acting:
+      kang_jaeha: "only his hand in frame, dragging the window up with one finger"
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.80], text: "[TERMS]"}
+    lines:
+      - {who: kang_jaeha, type: inner, text: "FOUR YEARS OF CONTRACTS. NOBODY EVER READS THE FINE PRINT."}
+
+  - id: P35
+    recipe: system
+    shape: tall
+    gap: short
+    bg: navy
+    camera: "eye level on Jaeha reading a long window that has unrolled in front of him like a contract"
+    light: "cyan"
+    face: private
+    art: >
+      A long window has unrolled in front of Jaeha (kang_jaeha) like a contract. He reads it fast, his eyes moving down the
+      lines. The upper two thirds are empty for the window.
+    acting:
+      kang_jaeha: "reading fast, eyes narrowed, lips moving, the pencil tapping the notebook"
+    eyeline: "Jaeha → the window"
+    calm: top
+    ui:
+      - kind: system.log
+        "on": float
+        at: [0.5, 0.04]
+        headline: "[TERMS OF THE CALL]"
+        lines:
+          - "1. THE CALLED HEAR YOUR OFFER, AND THE HEART UNDER IT."
+          - "2. YOU MAY CHANGE YOUR OFFER UNTIL 00:00."
+          - "3. IF NOBODY ACCEPTS BY 00:00, THE CALL IS WASTED."
+          - "4. A WASTED CALL RETURNS ROUTE ALIGNMENT TO 0%."
+    silent: true
+
+  - id: P36
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: navy
+    camera: "extreme close-up of Jaeha's eyes, the window's lines reflected in them, understanding dawning"
+    light: "cyan"
+    face: private
+    art: >
+      Extreme close-up: Jaeha's eyes (kang_jaeha), the cyan lines of text reflected in them, widening as he understands.
+      Fill the canvas edge to edge.
+    acting:
+      kang_jaeha: "eyes widening slowly"
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: inner, text: "THEY HEAR THE HEART UNDER IT. AND MY HEART WROTE A JOB ADVERT."}
+
+  - id: P37
+    recipe: silent
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "a small grey memory inset: Nib on the bed, saying his line"
+    light: "grey memory"
+    art: >
+      A small grey memory inset: Nib on the bed in the warm room, looking straight at us.
+    acting:
+      nib: "sitting cross-legged, hands on his knees, looking straight ahead, calm"
+    calm: left
+    lines:
+      - {who: nib, type: narr, text: "YOU WERE STANDING IN FRONT OF SOMEONE."}
+
+  - id: P38
+    recipe: anticipation
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, at the surface of the water by Jaeha's feet: the black water trembling, a darker shape rising under it"
+    light: "the rifts' faint light; something darker under the water"
+    art: >
+      At the surface by Jaeha's feet: the perfectly still black water trembles in rings, and under it a darker shape rises,
+      long and many-jointed, a faint violet ash leaking up through the surface.
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.92], text: "[00:28]"}
+    silent: true
+    sfx:
+      - {text: "BLRRRR", style: quiet, at: [0.40, 0.40], size: S, rot: 0}
+
+  - id: P39
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, tilted 15 degrees: a long black hand with too many joints bursting up out of the water and gripping Jaeha's right ankle"
+    light: "no scene light: violet ash; a cold white flash"
+    art: >
+      A long black hand with too many joints bursts up out of the water and clamps round Jaeha's RIGHT ankle, violet ash
+      smoking off it; frost races up his trouser leg from its fingers.
+    acting:
+      kang_jaeha: "jerked off balance, one leg pinned, arms flung out, face twisted with cold and shock"
+    calm: top
+    sfx:
+      - {text: "GRAB", style: impact, at: [0.40, 0.30], size: XL, rot: -10}
+
+  - id: P40
+    recipe: system
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close on a window tearing and glitching in front of Jaeha's face"
+    light: "flickering cyan, broken by red and blue fringes"
+    art: >
+      Close on Jaeha's shocked face (kang_jaeha) half lost behind a window that tears and glitches, its edges splitting
+      into offset red and blue fringes. The upper half is the glitching window.
+    acting:
+      kang_jaeha: "eyes wide, mouth open, frozen"
+    eyeline: "Jaeha → the window"
+    calm: top
+    ui:
+      - {kind: system.glitch, "on": float, at: [0.5, 0.06], text: "[WARNING · UNREGISTERED LISTENER]"}
+      - {kind: system.glitch, "on": float, at: [0.5, 0.20], text: "[OPERATOR #1 — STATUS: HUSHED]"}
+    silent: true
+    sfx:
+      - {text: "BZZRK", style: alert, at: [0.82, 0.40], size: M, rot: 6}
+
+  - id: P41
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "back in the room, high from the corner: frost exploding across the floor from the bed, Seoa grabbing him, Nib holding her back"
+    light: "cyan; the ceiling light flickering"
+    art: >
+      Back in the room, the moment of the opening: frost explodes across the floor from Jaeha's right foot, the window glass
+      over the bed fogs white, a nosebleed runs from his nose; Seoa grabs his shoulder and Nib holds her wrist.
+    acting:
+      kang_jaeha: "rigid on the bed, eyes glowing, a nosebleed running"
+      kang_seoa: "grabbing his shoulder with both hands"
+      nib: "holding her wrist, his other hand flat toward Jaeha"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "KRRRKKK", style: impact, at: [0.30, 0.82], size: L, rot: 4}
+
+  - id: P42
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on the window over the bed from outside: the fat cat on the sill, fur on end, hissing at the glass"
+    light: "cold cyan glow through the frosted glass"
+    art: >
+      From outside on the window sill: the fat orange cat (gomi), every hair on end, back arched, ears flat, hisses at the
+      frosted glass and the cyan glow behind it.
+    acting:
+      gomi: "back arched, fur bristling, ears flat, mouth wide in a hiss"
+    calm: right
+    silent: true
+    sfx:
+      - {text: "HSSSSS", style: quiet, at: [0.70, 0.30], size: M, rot: 0}
+
+  - id: P43
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level in the Call: Jaeha dragged knee-deep into the black water, wrenching against the hand"
+    light: "the rifts' faint light; violet ash"
+    art: >
+      In the Call: the hand drags Jaeha down into the black water up to his knees; he wrenches against it, the notebook
+      clutched in one fist, his reflection breaking apart in the rings.
+    acting:
+      kang_jaeha: "sunk to the knees, twisting and pulling his leg, teeth gritted, the notebook crushed in his fist"
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.92], text: "[00:20]"}
+    lines:
+      - {who: kang_jaeha, type: inner, text: "IF THIS THING DRAGS ME UNDER, I DON'T THINK I COME BACK."}
+    sfx:
+      - {text: "SHLRRP", style: impact, at: [0.70, 0.70], size: M, rot: 6}
+
+  - id: P44
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on the notebook page being torn out by Jaeha's hand"
+    light: "faint rift light"
+    art: >
+      Close on Jaeha's hand tearing the job-advert page out of the notebook in one rip.
+    calm: right
+    silent: true
+    sfx:
+      - {text: "RRRIP", style: quiet, at: [0.40, 0.40], size: M, rot: 0}
+
+  - id: P45
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, at the water: the torn page drifting down onto the black water and sinking"
+    light: "faint rift light"
+    art: >
+      The torn page with its boxed advert and ramen doodle drifts down onto the black water, floats for a moment, and sinks.
+    calm: top
+    silent: true
+
+  - id: P46
+    recipe: talk
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from the water: Jaeha straightening up knee-deep, no longer pulling, facing the dark rifts"
+    light: "the few remaining rift lights on his face"
+    face: private
+    art: >
+      From low at the water: Jaeha (kang_jaeha, hoodie) stops fighting the hand. Knee-deep, frost on his trousers, he
+      straightens up and faces the dimming rifts with no notebook raised, just his bare face.
+    acting:
+      kang_jaeha: "standing straight, knee-deep, both arms at his sides, the empty notebook hanging from one hand, chin level"
+    eyeline: "Jaeha → the rifts"
+    foreground: "rings on the black water and the black wrist at his ankle, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "I CAN'T PAY YOU WHAT YOU'RE WORTH. AND I CAN'T PROMISE WE'LL WIN.", side: r}
+
+  - id: P47
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, close two-thirds on Jaeha speaking, the green rift glowing faintly behind him"
+    light: "faint green from behind; cyan lines"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha) as he speaks to the dark, the mossy green rift glowing faintly far behind him.
+    acting:
+      kang_jaeha: "speaking steadily, one hand open at his chest, eyes level and tired and honest"
+    eyeline: "Jaeha → the rifts"
+    foreground: "a cyan line running past his shoulder, cropped, top left"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "BUT I WON'T SEND YOU IN ALONE. WHATEVER HITS YOU, I'LL CARRY HALF OF IT.", side: r}
+
+  - id: P48
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of Jaeha's eyes, steady"
+    light: "faint green and cyan"
+    face: private
+    art: >
+      Extreme close-up: Jaeha's eyes (kang_jaeha), steady and unafraid now. Fill the canvas edge to edge.
+    acting:
+      kang_jaeha: "eyes level, brows set"
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: speech, text: "AND EVERYONE COMES BACK. THAT'S THE ONLY RULE I HAVE.", side: r}
+
+  - id: P49
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "back in the room: close on Nib on the bed beside Jaeha's body, one notched ear lifting, the corner of his mouth moving"
+    light: "cyan from Jaeha's eyes"
+    art: >
+      Back in the room: close on Nib (nib, no mask) beside Jaeha's rigid body. His notched left ear lifts, as if he heard
+      something far away, and the corner of his mouth moves, almost a smile.
+    acting:
+      nib: "head tilted, the notched ear lifting, eyes half-closed, the faintest smile"
+    calm: left
+    silent: true
+    sfx:
+      - {text: "TWITCH", style: quiet, at: [0.30, 0.20], size: S, rot: 0}
+
+  - id: P50
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "high over the water: the remaining cyan lines flickering brighter for an instant, a window over the ring"
+    light: "cyan flickering"
+    art: >
+      High over the water: the few remaining cyan lines from the rifts to Jaeha flicker brighter for an instant. The rifts
+      themselves stay dark. The upper half is empty for the window.
+    calm: top
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[OFFER CHANGED · 00:12]"}
+    silent: true
+
+  - id: P51
+    recipe: insert
+    shape: strip
+    gap: short
+    bg: black
+    camera: "a thin strip: Jaeha's eyes closing for a moment, frost on his eyebrows"
+    light: "almost dark"
+    face: private
+    art: >
+      A thin strip across Jaeha's face (kang_jaeha): he closes his eyes for a moment, frost on his eyebrows and fringe, his
+      lips pressed together. Fill the canvas edge to edge.
+    acting:
+      kang_jaeha: "eyes closed, lips pressed tight, waiting"
+    calm: none
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.86], text: "[00:10]"}
+    silent: true
+
+  - id: P52
+    recipe: anticipation
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, behind Jaeha: the dark rifts in a silent ring, nothing moving"
+    light: "almost dark"
+    art: >
+      From low behind Jaeha: the ring of rifts stands dark and silent; nothing moves in any of them. The hand drags him
+      down to the waist.
+    acting:
+      kang_jaeha: "waist-deep, standing still, not fighting it"
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.92], text: "[00:07]"}
+    silent: true
+
+  - id: P53
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "back in the room: close on Seoa holding Jaeha's frozen hand in both of hers"
+    light: "cyan from his eyes"
+    art: >
+      Back in the room: Seoa (kang_seoa) kneels by the bed holding Jaeha's frost-white hand in both of hers, her forehead
+      pressed to it.
+    acting:
+      kang_seoa: "kneeling, his hand pressed to her forehead in both of hers, eyes shut tight"
+    calm: left
+    silent: true
+    sfx:
+      - {text: "SHIVER", style: quiet, at: [0.30, 0.30], size: S, rot: 0}
+
+  - id: P54
+    recipe: anticipation
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level with the water: Jaeha chest-deep, his breath fogging, the ring dark"
+    light: "almost dark; his breath white"
+    face: private
+    art: >
+      At the water's surface: Jaeha is chest-deep in the black water, his breath fogging white; he keeps his eyes on the
+      ring of dark rifts.
+    acting:
+      kang_jaeha: "chest-deep, chin up, breath fogging, eyes on the rifts"
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.92], text: "[00:05]"}
+    silent: true
+
+  - id: P55
+    recipe: insert
+    shape: strip
+    gap: short
+    bg: black
+    camera: "a thin strip: the countdown alone in the dark"
+    light: "cyan"
+    art: >
+      Plain darkness with the faint black water at the bottom edge. Fill the canvas edge to edge.
+    calm: none
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.40], text: "[00:04]"}
+    silent: true
+
+  - id: P56
+    recipe: monster-reveal
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from the water, looking up into the mossy green rift: a long hill of moss and flowers stirring, as if it breathes"
+    light: "a soft green sky; the first light in the ring"
+    art: >
+      The mossy green rift glows. Inside it, under a soft green sky, a long low hill covered in moss and tiny white and yellow
+      flowers stirs: the whole hill rises a little, as if it breathes, and slabs of slate shift under the moss like the plates
+      of a roof. Somewhere at one end, something like a huge shoulder lifts.
+    calm: top
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.92], text: "[00:03]"}
+    silent: true
+    sfx:
+      - {text: "RRRMMMMM", style: quiet, at: [0.50, 0.50], size: M, rot: 0}
+
+  - id: P57
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up through the rift: two huge, slow amber-brown eyes opening in the moss"
+    light: "green; a warm glint in the eyes"
+    art: >
+      Extreme close-up through the rift: in the moss and flowers, two huge, slow amber-brown eyes under heavy stone-grey lids
+      begin to open. Fill the canvas edge to edge.
+    calm: none
+    silent: true
+
+  - id: END
+    kind: end
+    chibi_gag: "Chibi Jaeha holds up a new hand-lettered sign-shaped blank card in the void with sparkly honest eyes, while chibi rifts all around him slam shut one by one like doors; one tiny chibi rift stays open a crack with a sleepy eye peeking out."
