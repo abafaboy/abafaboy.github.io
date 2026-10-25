@@ -12,7 +12,7 @@ Use these as references for every new image. Codex drew all of them with its bui
 |---|---|---|
 | `style_test_v2/acting/` | The style and acting tests: the house style (line, colour, rendering, acting) | Approved, the style anchor |
 | `characters_v2/<id>/` | The Arc 1 character sheets: `front.png`, `turnaround.png`, `expressions.png`, `details.png`, and where they exist `acting.png`, `talking.png`, `chibi.png` | Approved |
-| `characters_v2/nib/*_seal2*` | Nib's seal 2/5 look (S2b, approved 26 Oct): `front_seal2_nomask.png`, `turnaround_seal2.png` (with the mask), `details_seal2.png`. Chapters 3 to 12 use these; his face and acting still come from his base `expressions.png` and `acting.png`, his height from the scale chart | Approved |
+| `characters_v2/nib/*_seal2*` | Nib's seal 2/5 look (S2b, approved 26 Oct): `front_seal2_nomask.png`, `turnaround_seal2.png` (with the mask), `details_seal2.png`. Chapters 3 to 20 use these (he wears the seal 3/5 armour from chapter 21); his face and acting still come from his base `expressions.png` and `acting.png`, his height from the scale chart | Approved |
 | `characters_v2/scale_chart_v2.png` | Everyone's height side by side | Approved |
 | `characters_v2/summon_silhouettes.png` | The summon silhouettes for the chapter 1 flash-forward | Approved |
 | `locations_v2/<id>/` | The Arc 1 location keys | Approved |
