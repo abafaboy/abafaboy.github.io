@@ -18,4 +18,5 @@ Verdicts for each entry are in this folder, one file per entry (`<entry>.md`). S
 | T1 | thumbnail key art (`THUMBNAIL_BRIEF.md`) | to draw LAST, after S21 is approved (it needs Nib's seal 3/5 sheet) |
 | S16–S19, M1–M4, L6–L12 | Arc 2 sheets and keys (`ASSETS_ARC2_BRIEF.md`) | to draw |
 | S20–S25, M5–M9, L13–L20, P1 | Arcs 3–4 sheets, keys and props (`ASSETS_ARC3_BRIEF.md`) | to draw |
-| ch003 … ch033 | chapter parts (`PANEL_BRIEF_v2.md` section 9) | wait for their sheets |
+| S26–S31, M10–M12, L21–L24, P2 | Arc 5 sheets, keys and props (`ASSETS_ARC5_BRIEF.md`) | to draw (Wave C) |
+| ch003 … ch040 | chapter parts (`PANEL_BRIEF_v2.md` section 9) | wait for their sheets |

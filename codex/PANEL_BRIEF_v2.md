@@ -670,6 +670,126 @@ Chapters 13-33 need the sheets, keys and props in `ASSETS_ARC3_BRIEF.md` (Han So
 | `H` | P51–P58 | P51 window (keep the top half calm) |
 | `I` | P59–P66 and `END.png` | P60 strip; P63 the reveal; P64 window (keep the top half calm); P66 splash |
 
+### Arc 5 sheets come first
+Chapters 34-40 need the sheets, keys and props in `ASSETS_ARC5_BRIEF.md` (Wave C: Jaeha's training look S26, the Arc 5 cast S27, the flashback cast S28, Pim S29, the beach looks S30, Han Sora's pool look and new compass S31, the monsters M10-M12, the places L21-L24 and the props sheet P2), plus these from earlier waves: Borro S16, Director Baek S17, Moon Ahin's husk S19, Han Sora S20, Nib's seal 3/5 S21, Auntie Geum S24, the Arcs 3-4 cast S25 (Hwang), the Call L8, Baek's office L10, and Geum's stall and the sea gate L20. A part may start only when every sheet it names is **APPROVED** in `codex/reviews/`. Every sheet carries a faint 178 cm silhouette: use it to check the scale of every giant and monster (section 4b); the Deep Lantern is about 150 m long, so Jaeha is smaller than one of her fingers. Fan service as before: Lyra, Moon Ahin, Han Sora and Bomi get confident glamour panels, never a camera aimed up a skirt, down a top or at the chest; Seoa (15) and Yerin never. Nib wears his seal 3/5 armour and the cracked husk mask in public throughout Arc 5. Jaeha wears his `training` look (`kang_jaeha/turnaround_training.png`) all arc.
+
+### Chapter 34: Just One More (`scripts_v2/ch034.yaml`)
+
+**Chapter 34 rules:** Busan at 4:00 AM in the dark (`busan_breakwater/night.png`, then `key.png` at dawn): Geum on a battered red moped shouting through a rolled-up newspaper; Borro carries Jaeha like a sack of rice (P05). The fish market (`busan_fish_market/key.png`) and the aunties (`arc5_cast/lineup.png`); P20 is the window's small print, an insert with no people. Geum's tent (`geum_stall/interior.png`): Seoa on a video call, drawn on the phone (P30), and Bomi's call. Lyra in the surf at dawn (P33 glamour, the camera at her eye level; Jaeha walks into a lamppost, P34). Sora in the black car with binoculars and her new slim silver compass on her LEFT wrist (`han_sora/details_compass2.png`). Tuesday: Nib and Lyra spar in field form on the stony shore while Jaeha carries both (P50). The brine crawler (`brine_crawler/`) from P56; P62 is Geum's splash with the ladle raised. Draw a faint tremor line on Jaeha's fingers when his hands show.
+
+| Part | Panels to draw | Notes |
+|---|---|---|
+| `A` | P01–P09 | No art for P10 (`title`). |
+| `B` | P11–P18 | - |
+| `C` | P19–P26 | P19 ECU strip; P20 the small-print window (insert) |
+| `D` | P27–P32 | P30 a video call drawn on the phone; P32 `chibi` |
+| `E` | P33–P37 | P33 Lyra's glamour in the surf |
+| `F` | P38–P45 | P42 window (keep the top half calm) |
+| `G` | P46–P53 | P50 `carry` |
+| `H` | P54–P62 and `END.png` | P56 the reveal; P62 splash |
+
+### Chapter 35: The Wall (`scripts_v2/ch035.yaml`)
+
+**Chapter 35 rules:** P01-P08 at night on the tetrapods (`busan_breakwater/end.png`, `night.png`): Geum's held strike rings like a bell and throws a thin white ring of force. **The flashback P09-P22 is drawn in greys** (`busan_breakwater_flashback/key.png`), with violet only for the sea and the gate light and amber only for the fighters made of light: Geum at 52 with the steel boat door (`geum_okran/turnaround_flashback.png`), the fishermen as her crew (no uniforms), the man in the dark coat whose face is NEVER shown (`operator_1/flashback.png`), the five figures of light and the vast swimming shape with its lantern (`light_fighters/`); P20 is the thing rising with the same lantern burning violet (`deep_lantern/head.png`, `hand.png`; only a wall of hide, the crest and one hand); P21 no gore, the arm lost in a white flash; P22 the lid being built. Back in colour from P23. The cold store and its slit (`busan_fish_market/cold_store.png`, `cold_store_gate/slit.png`), the flooded shrine (`cold_store_gate/key.png`) and the Reef Hermit (`reef_hermit/`; P46 `out_of_shell.png`). P38 is Lyra's beauty shot in the fight, at her eye level. The Call at the hook (`pim_tower/through_rift.png`) and Pim's eyes an inch from Jaeha's face (P61; `pim/`, no headset).
+
+| Part | Panels to draw | Notes |
+|---|---|---|
+| `A` | P01–P08 | - |
+| `B` | P09, P11–P15 | P09 strip; greys from P09; No art for P10 (`title`). |
+| `C` | P16–P22 | greys; P16 `carry`; P20 the reveal |
+| `D` | P23–P26 | colour again; P24 ECU strip |
+| `E` | P27–P33 | P28 window (keep the top half calm) |
+| `F` | P34–P39 | P35 the reveal; P38 Lyra's beauty shot |
+| `G` | P40–P45 | - |
+| `H` | P46–P50 | P49 splash |
+| `I` | P51–P56 | P51 window (keep the top half calm); P56 `chibi` |
+| `J` | P57–P61 and `END.png` | P60 window (keep the top half calm); P61 splash |
+
+### Chapter 36: Pim (`scripts_v2/ch036.yaml`)
+
+**Chapter 36 rules:** The Call (`call_void/key.png`) and Pim's rift (`pim_tower/through_rift.png`); P08 is Pim's world through the rift (`pim_tower/key.png`). While Jaeha is in the Call his body stands rigid on the breakwater with glowing cyan eyes (P05, P19). P23 is Pim's leap through the rift, wings flared (splash). P26 he lands face-first at Lyra's boots; P27 Busan's noise. Geum's floral headscarf goes on Pim's antennae like a bonnet (P30, `pim/details.png`); P31 his name card. Sora's spinning compass in the black car (P35). Thursday: the PC bang owner chases Pim and the headset down the market aisle (P37); from P37 Pim wears the headset (`pim/details.png`). P41 is a chat on Jaeha's phone (#00FF00). P48 is Pim's first field form at sunrise (`pim/turnaround_field.png`). P55 the lid from above and something under it: only a violet glow and one curve of hide (`busan_sea_gate/key.png`, `deep_lantern/side.png`). P57 the voice over the empty sea: leave the upper two thirds dark and empty for the lettering.
+
+| Part | Panels to draw | Notes |
+|---|---|---|
+| `A` | P01–P06 | - |
+| `B` | P07–P10 | P08 Pim's world; P09 ECU strip; No art for P11 (`title`). |
+| `C` | P12–P18 | - |
+| `D` | P19–P24 | P23 splash; P24 window (keep the top half calm) |
+| `E` | P25–P30 | - |
+| `F` | P31–P35 | P31 name card |
+| `G` | P36–P40 | - |
+| `H` | P41–P45 | P41 phone screen #00FF00; P42 `chibi` |
+| `I` | P46–P53 | P48 field form; P49 `link-view`; P51 window (keep the top half calm) |
+| `J` | P54–P62 and `END.png` | P55 `link-view`; P56 ECU strip; P57 splash (upper two thirds empty); P60 glitch window |
+
+### Chapter 37: Make Him Come to Us (`scripts_v2/ch037.yaml`)
+
+**Chapter 37 rules:** The Association's Busan branch (`assoc_busan/outside.png`, `key.png`) and Branch Chief Yang (`arc5_cast/lineup.png`); Hwang is drawn ON the video-call screen (P06-P09; `arc3_cast/lineup.png`), and P09 shows the hexagon pin under his lapel for an instant. The barge from the window (`kanghan_barge/far.png`). The rooftop pool (`hotel_pool/key.png`): P17 is Sora's glamour (`han_sora/front_pool.png`, the camera above her waist level); Jaeha studies the sky. The anchor drawing on her tablet and his own stamped link beside it (P20-P21; `props_v2/arc5/props.png`). The beach (`busan_beach/key.png`): P29 is Lyra's swimsuit glamour (`lyra/front_swimsuit.png`), P30 Bomi with her drone (her design; never a low angle up her shorts), the Kanghan PR pair (`arc5_cast/`). P42 is Moon Ahin's summer glamour (`moon_ahin/front_summer.png`) with Saebyeok's parasol and her husks carrying luggage. The barge's gangway (`kanghan_barge/key.png`). The breakwater at golden hour (`busan_breakwater/end.png`); P53 Pim's field form. P61 the barge at sunset, floodlights on.
+
+| Part | Panels to draw | Notes |
+|---|---|---|
+| `A` | P01–P07 | P06 Hwang drawn on the screen |
+| `B` | P08–P12 | P09 the pin; P10 ECU strip; No art for P13 (`title`). |
+| `C` | P14–P20 | P15 phone screen #00FF00; P17 splash (Sora's glamour) |
+| `D` | P21–P27 | - |
+| `E` | P28–P34 | P29 splash (Lyra's glamour); P31 phone screen #00FF00 |
+| `F` | P35–P40 | P40 phone screen #00FF00 |
+| `G` | P41–P45 | P42 splash (Moon Ahin's glamour) |
+| `H` | P46–P50 | P49 `chibi` |
+| `I` | P51–P56 | P53 field form; P54 `link-view` |
+| `J` | P57–P61 and `END.png` | P61 the barge at sunset |
+
+### Chapter 38: Store (`scripts_v2/ch038.yaml`)
+
+**Chapter 38 rules:** Friday in four training sessions on the breakwater, at 4:00, 8:00, 12:00 and 16:00 (the light changes: before dawn under a work lamp, morning, hard noon, gold afternoon). Geum's held strike splits a tetrapod (P06). When Jaeha holds force, his RIGHT arm and then his chest glow white-gold (`kang_jaeha/store_glow.png`); from P17 his RIGHT index finger is splinted with a chopstick. The barge drilling far out (P18). The old fisherman's boat (`fishing_boat/key.png`) and the barge's rail with Sora (`kanghan_barge/key.png`). P31 is Lyra's dive glamour in the swimsuit (`lyra/front_swimsuit.png`), at her eye level. The LINK views under the water (P34-P37): the lid with Kanghan's anchor bolts and the crack (`busan_sea_gate/crack.png`), then the violet glow and a curve of hide below. Moon Ahin in her summer look (P42-P44). Seoa arrives in her school uniform (P47 on; never any fan service). The tent at 6:58 (`geum_stall/interior.png`). P56 the violet burst under the barge (splash-sized).
+
+| Part | Panels to draw | Notes |
+|---|---|---|
+| `A` | P01–P06 | P04 and P06 impacts |
+| `B` | P07–P10 | P10 ECU strip; No art for P11 (`title`). |
+| `C` | P12–P19 | P12 window (keep the top half calm); P14 `carry`; P17 the splint |
+| `D` | P20–P27 | P21 `carry`; P23 window (keep the top half calm); P25 `carry` |
+| `E` | P28–P34 | P31 splash (Lyra's dive); P34 `link-view` |
+| `F` | P35–P41 | P35 `link-view`; P37 `link-view` |
+| `G` | P42–P46 | P45 `carry`; P46 window (keep the top half calm) |
+| `H` | P47–P55 | P51 `chibi` |
+| `I` | P56–P61 and `END.png` | P56 the violet burst; P58 window (keep the top half calm) |
+
+### Chapter 39: The Wall of Busan (`scripts_v2/ch039.yaml`)
+
+**Chapter 39 rules:** The fight stays at the NECK of the breakwater (`busan_breakwater/neck.png`, `break.png`), with the fish market, its pier and sea wall 200 m behind. The market's evacuation (P03-P09: Seoa on a crate with the red megaphone; Bomi on the roof, `busan_fish_market/roof.png`; Choi's van and Yerin). P10 repeats the framing of ch 35's flashback line, in colour. P12 the lid bursting (splash). P17 the four field forms in a row (splash: `pim/turnaround_field.png`). P22 Geum's glory, her younger self's grey ghost behind her (`geum_okran/turnaround_flashback.png`). P27 Moon Ahin's battle glamour in her white coat-dress. P30 the husk wall along the sea wall, cyan threads to Jaeha. P34-P46: the leviathan's back (`deep_lantern/side.png`), Kanghan's harpoons (`props_v2/arc5/props.png`), the barge towed in, Nib running a taut chain and knocking out the shackle pins; Sora lowers her crossbow (P44). P47 THE DEEP LANTERN at full height (`deep_lantern/head.png`). The lure: the crowd's and Seoa's eyes glazed violet (P51-P52; Seoa only walks toward the edge and is pulled back). P54 Pim's signal from the harbour light tower (splash). P60 the two walls under her hand (`deep_lantern/hand.png`). Jaeha bleeds from the nose and ears from P61.
+
+| Part | Panels to draw | Notes |
+|---|---|---|
+| `A` | P01–P07 | P03 phone screen #00FF00; P06 live-stream overlay area calm |
+| `B` | P08–P12 | P12 splash; No art for P13 (`title`). |
+| `C` | P14–P19 | P14 the reveal; P17 splash; P18 `link-view` |
+| `D` | P20–P25 | P22 splash (Geum's glory) |
+| `E` | P26–P33 | P27 splash (Moon Ahin); P30 `carry` (the husk wall) |
+| `F` | P34–P40 | P34 the reveal |
+| `G` | P41–P46 | P42 Nib on the chain |
+| `H` | P47–P52 | P47 the reveal; P48 ECU strip |
+| `I` | P53–P57 | P54 splash (Pim's signal); P56 phone screen #00FF00 |
+| `J` | P58–P66 | P60 the two walls; P61 `carry`; P63 ECU strip |
+| `K` | P67–P73 and `END.png` | P72 window (keep the top half calm); P73 the hand raised |
+
+### Chapter 40: First Kill (`scripts_v2/ch040.yaml`)
+
+**Chapter 40 rules:** Jaeha glows white-gold while he holds the strike (P02-P24, `kang_jaeha/store_glow.png`); the countdown windows run 00:10 (P03), 00:07 (P12), 00:04 (P15), 00:03 (P16), 00:02 (P22). The husk stair up her flank (P09 splash); Geum's throw (P11). On her head: the crack 10 m long at the base of the crest (`deep_lantern/head.png`); the three lost boats far out on the black sea (P18). P24 RELEASE (splash: no gore, the forearm lost in the light). P27 the lantern flaring white (`deep_lantern/lantern.png`, `freed.png`). P33 she dissolves into light. P34-P38 the fall and Lyra's dive. The core (`props_v2/arc5/props.png`) hangs over the water (P39), flies to him (P44). Dinner on the breakwater (P47-P56; Jaeha's RIGHT arm in a sling from P48). Seoul: Baek's office at night (`kanghan_office/key.png`), Bomi's stream drawn on the wall screen (P57). The hook after midnight on the breakwater (`busan_breakwater/night.png`): Pim's hearing as a lilac vignette on black (P63); Nib's knives on the stone (P65).
+
+| Part | Panels to draw | Notes |
+|---|---|---|
+| `A` | P01–P09 | P02 `carry`; P04 ECU strip; P06 `link-view`; P09 splash |
+| `B` | P10–P16 | P11 the throw; P13 `link-view`; P16 window (keep the top half calm); No art for P17 (`title`). |
+| `C` | P18–P25 | P24 splash |
+| `D` | P26–P33 | P26 ECU strip; P27 splash; P31 window (keep the top half calm) |
+| `E` | P34–P38 | P36 underwater |
+| `F` | P39–P46 | P39 window (keep the top half calm) |
+| `G` | P47–P51 | P51 `chibi` |
+| `H` | P52–P56 | P52 phone screen #00FF00 |
+| `I` | P57–P60 | P57 Baek's wall screen drawn |
+| `J` | P61–P67 and `END.png` | P63 `link-view`; P67 ECU strip |
+
 ### Chapter 1 parts (done)
 
 | Part | Panels to draw | Notes |

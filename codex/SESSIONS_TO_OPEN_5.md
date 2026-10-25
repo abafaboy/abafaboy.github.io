@@ -1,14 +1,16 @@
-# Codex chats for My Summons Go First (batch 5: Arc 2-4 sheets and keys, then chapter parts)
+# Codex chats for My Summons Go First (batch 5: Arc 2-5 sheets and keys, then chapter parts)
 
 Claude opens these on the owner's computer, one NEW chat per entry, in the project "My Summons Go First" ("This computer", Full access). Each prompt is pasted exactly. Launch order:
 
-1. **Wave A (Arc 2 sheets, chapters 6-12):** S2b first (chapters 3-5 need it), then S16-S19, M1-M4 and L6-L12, a few at a time as the laptop allows.
+1. **Wave A (Arc 2 sheets, chapters 6-12):** S2b first (chapters 3 on need it; wait for its verdict), then S16-S19, M1-M4 and L6-L12, a few at a time.
 2. **Wave B (Arcs 3-4 sheets, chapters 13-33):** in the order listed (it follows the chapters), once Wave A is under way.
-3. **Chapter parts:** a chapter's parts open only when every sheet and key its rules name has a `DONE.md` (`PANEL_BRIEF_v2.md` section 9). Use the chapter-part template at the end.
+3. **Wave C (Arc 5 sheets, chapters 34-40):** in the order listed, once Wave B is under way. S28 needs S24 approved; S31 needs S20 approved.
+4. **T1 (the thumbnail) last,** once S21 (Nib's seal 3/5) is approved (decided 26 October; see `HANDOFF_ABAFADOT.md`).
+5. **Chapter parts:** a chapter's parts open only when every sheet and key its rules name is APPROVED (`PANEL_BRIEF_v2.md` section 9). Use the chapter-part template at the end.
 
 Check each chat's first image before opening more of the same kind. Review every finished sheet strictly (proportions and scale per `PANEL_BRIEF_v2.md` 4b) before any chapter uses it.
 
-## Thumbnail (any time: the sheets it needs exist)
+## Thumbnail (last: after S21, Nib's seal 3/5, is approved)
 
 ### T1 · key art for the season-one video
 
@@ -161,6 +163,64 @@ You are chat S25 for My Summons Go First. Read README_START_HERE.md in this fold
 ### L20 · the break room, Sora's car, the hospital, the road, Geum's stall and the sea gate
 
 You are chat L20 for My Summons Go First. Read README_START_HERE.md in this folder and the files in its reading order, then do entry L20 of ASSETS_ARC3_BRIEF.md exactly, writing only in locations_v2/gate_rescue_room/, locations_v2/sora_car/, locations_v2/hospital/, locations_v2/expressway_night/, locations_v2/geum_stall/ and locations_v2/busan_sea_gate/; rejects go in a _rejects/ folder inside the location's folder. Other Codex chats are drawing other entries and chapter panels at the same time; never touch their folders. When the entry is done, write its DONE.md and stop. Do not stop to ask anything; finish the job.
+
+## Wave C · Arc 5 (`ASSETS_ARC5_BRIEF.md`)
+
+### S26 · Jaeha's training look
+
+You are chat S26 for My Summons Go First. Read README_START_HERE.md in this folder and the files in its reading order, then do entry S26 of ASSETS_ARC5_BRIEF.md exactly, writing only in characters_v2/kang_jaeha/ (new files only); rejects go in characters_v2/_rejects/. Other Codex chats are drawing other entries and chapter panels at the same time; never touch their folders. When the entry is done, write its DONE.md and stop. Do not stop to ask anything; finish the job.
+
+### S27 · the Arc 5 cast lineup
+
+You are chat S27 for My Summons Go First. Read README_START_HERE.md in this folder and the files in its reading order, then do entry S27 of ASSETS_ARC5_BRIEF.md exactly, writing only in characters_v2/arc5_cast/; rejects go in characters_v2/_rejects/. Other Codex chats are drawing other entries and chapter panels at the same time; never touch their folders. When the entry is done, write its DONE.md and stop. Do not stop to ask anything; finish the job.
+
+### M10 · brine crawlers
+
+You are chat M10 for My Summons Go First. Read README_START_HERE.md in this folder and the files in its reading order, then do entry M10 of ASSETS_ARC5_BRIEF.md exactly, writing only in characters_v2/brine_crawler/; rejects go in characters_v2/_rejects/. Other Codex chats are drawing other entries and chapter panels at the same time; never touch their folders. When the entry is done, write its DONE.md and stop. Do not stop to ask anything; finish the job.
+
+### L21 · the breakwater and its flashback
+
+You are chat L21 for My Summons Go First. Read README_START_HERE.md in this folder and the files in its reading order, then do entry L21 of ASSETS_ARC5_BRIEF.md exactly, writing only in locations_v2/busan_breakwater/ and locations_v2/busan_breakwater_flashback/; rejects go in a _rejects/ folder inside the location's folder. Other Codex chats are drawing other entries and chapter panels at the same time; never touch their folders. When the entry is done, write its DONE.md and stop. Do not stop to ask anything; finish the job.
+
+### L22 · the Busan fish market and the cold-store gate
+
+You are chat L22 for My Summons Go First. Read README_START_HERE.md in this folder and the files in its reading order, then do entry L22 of ASSETS_ARC5_BRIEF.md exactly, writing only in locations_v2/busan_fish_market/ and locations_v2/cold_store_gate/; rejects go in a _rejects/ folder inside the location's folder. Other Codex chats are drawing other entries and chapter panels at the same time; never touch their folders. When the entry is done, write its DONE.md and stop. Do not stop to ask anything; finish the job.
+
+### S28 · the ch 35 flashback cast (after S24 is approved)
+
+You are chat S28 for My Summons Go First. Read README_START_HERE.md in this folder and the files in its reading order, then do entry S28 of ASSETS_ARC5_BRIEF.md exactly, writing only in characters_v2/geum_okran/ (new files only), characters_v2/operator_1/ and characters_v2/light_fighters/; rejects go in characters_v2/_rejects/. Other Codex chats are drawing other entries and chapter panels at the same time; never touch their folders. When the entry is done, write its DONE.md and stop. Do not stop to ask anything; finish the job.
+
+### M11 · the Reef Hermit
+
+You are chat M11 for My Summons Go First. Read README_START_HERE.md in this folder and the files in its reading order, then do entry M11 of ASSETS_ARC5_BRIEF.md exactly, writing only in characters_v2/reef_hermit/; rejects go in characters_v2/_rejects/. Other Codex chats are drawing other entries and chapter panels at the same time; never touch their folders. When the entry is done, write its DONE.md and stop. Do not stop to ask anything; finish the job.
+
+### M12 · the Deep Lantern
+
+You are chat M12 for My Summons Go First. Read README_START_HERE.md in this folder and the files in its reading order, then do entry M12 of ASSETS_ARC5_BRIEF.md exactly, writing only in characters_v2/deep_lantern/; rejects go in characters_v2/_rejects/. Other Codex chats are drawing other entries and chapter panels at the same time; never touch their folders. When the entry is done, write its DONE.md and stop. Do not stop to ask anything; finish the job.
+
+### S29 · Pim
+
+You are chat S29 for My Summons Go First. Read README_START_HERE.md in this folder and the files in its reading order, then do entry S29 of ASSETS_ARC5_BRIEF.md exactly, writing only in characters_v2/pim/; rejects go in characters_v2/_rejects/. Other Codex chats are drawing other entries and chapter panels at the same time; never touch their folders. When the entry is done, write its DONE.md and stop. Do not stop to ask anything; finish the job.
+
+### S30 · the beach looks (Lyra, Moon Ahin)
+
+You are chat S30 for My Summons Go First. Read README_START_HERE.md in this folder and the files in its reading order, then do entry S30 of ASSETS_ARC5_BRIEF.md exactly, writing only in characters_v2/lyra/ and characters_v2/moon_ahin/ (new files only); rejects go in characters_v2/_rejects/. Other Codex chats are drawing other entries and chapter panels at the same time; never touch their folders. When the entry is done, write its DONE.md and stop. Do not stop to ask anything; finish the job.
+
+### S31 · Han Sora's pool look and new compass (after S20 is approved)
+
+You are chat S31 for My Summons Go First. Read README_START_HERE.md in this folder and the files in its reading order, then do entry S31 of ASSETS_ARC5_BRIEF.md exactly, writing only in characters_v2/han_sora/ (new files only); rejects go in characters_v2/_rejects/. Other Codex chats are drawing other entries and chapter panels at the same time; never touch their folders. When the entry is done, write its DONE.md and stop. Do not stop to ask anything; finish the job.
+
+### L23 · the Busan branch, the hotel pool and the beach
+
+You are chat L23 for My Summons Go First. Read README_START_HERE.md in this folder and the files in its reading order, then do entry L23 of ASSETS_ARC5_BRIEF.md exactly, writing only in locations_v2/assoc_busan/, locations_v2/hotel_pool/ and locations_v2/busan_beach/; rejects go in a _rejects/ folder inside the location's folder. Other Codex chats are drawing other entries and chapter panels at the same time; never touch their folders. When the entry is done, write its DONE.md and stop. Do not stop to ask anything; finish the job.
+
+### L24 · Kanghan's barge, the fishing boat, the PC bang and Pim's tower
+
+You are chat L24 for My Summons Go First. Read README_START_HERE.md in this folder and the files in its reading order, then do entry L24 of ASSETS_ARC5_BRIEF.md exactly, writing only in locations_v2/kanghan_barge/, locations_v2/fishing_boat/, locations_v2/pc_bang/ and locations_v2/pim_tower/; rejects go in a _rejects/ folder inside the location's folder. Other Codex chats are drawing other entries and chapter panels at the same time; never touch their folders. When the entry is done, write its DONE.md and stop. Do not stop to ask anything; finish the job.
+
+### P2 · the Arc 5 props sheet
+
+You are chat P2 for My Summons Go First. Read README_START_HERE.md in this folder and the files in its reading order, then do entry P2 of ASSETS_ARC5_BRIEF.md exactly, writing only in props_v2/arc5/; rejects go in props_v2/arc5/_rejects/. Other Codex chats are drawing other entries and chapter panels at the same time; never touch their folders. When the entry is done, write its DONE.md and stop. Do not stop to ask anything; finish the job.
 
 ## Chapter parts (template)
 

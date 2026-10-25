@@ -10,7 +10,7 @@
 - **The briefs speak of a laptop folder.** Read "this folder" in any brief or prompt as the two branches: `codex/*.md` is what the laptop root held; `STORY_BIBLE_v4.md`, `ARC3_4_BEATS.md`, `ARC5_BEATS.md`, `NAME_SHEET.md`, `ART_BIBLE.md` and `SCRIPT_FORMAT_v2.md` are the laptop's `bible\`; `scripts_v2/` and `research/` are the same; the art folders (`characters_v2/`, `locations_v2/`, `style_test_v2/`, `chapters_v2/`, and later `props_v2/`, `thumbnails_v2/`) are on `msgf-art`.
 
 **Where the season stands.**
-- All 33 chapter scripts are written, audited and fixed, with narration for each; Arc 5 (chapters 34-40) is being written now.
+- All 40 chapter scripts are written, with narration for each: season one (chapters 1–33, audited and fixed) and Arc 5 (chapters 34–40).
 - Chapter 1 is drawn and published as an unlisted video. Three of its panels need redrawing.
 - Chapter 2: only P01, P08, P16, P23 and P30 survived. The rest is to be drawn.
 - Nothing after chapter 2 is drawn yet. The sheets for Arcs 2–4 come first.
@@ -38,7 +38,8 @@ Work one entry at a time, or several in parallel. Each entry's prompt is written
 1. **S2b**, Nib's seal 2/5 look, first. Chapters 3 onward need it. Send it in and wait for Claude's verdict before anything uses it.
 2. The rest of **Wave A** (Arc 2: S16–S19, M1–M4, L6–L12; `codex/ASSETS_ARC2_BRIEF.md`). These don't depend on S2b: run them while S2b waits for review.
 3. **Wave B** (Arcs 3–4: S20–S25, M5–M9, L13–L20, P1; `codex/ASSETS_ARC3_BRIEF.md`).
-4. **T1**, the thumbnail key art (`codex/THUMBNAIL_BRIEF.md`), last: it is only needed when the season goes up as one video after chapter 33. Draw it once S21 (Nib's seal 3/5 armour) is approved, with `nib/turnaround_seal3.png`. Never draw Nib for T1 from his base (seal 1/5) sheets.
+4. **Wave C** (Arc 5: S26–S31, M10–M12, L21–L24, P2; `codex/ASSETS_ARC5_BRIEF.md`). S28 needs S24 (Geum) approved and S31 needs S20 (Han Sora) approved.
+5. **T1**, the thumbnail key art (`codex/THUMBNAIL_BRIEF.md`), last: it is only needed when the season goes up as one video after chapter 33. Draw it once S21 (Nib's seal 3/5 armour) is approved, with `nib/turnaround_seal3.png`. Never draw Nib for T1 from his base (seal 1/5) sheets.
 
 **3b. The two chapter jobs** (they need only the art already on `msgf-art`):
 - **Chapter 1 fixes:**
