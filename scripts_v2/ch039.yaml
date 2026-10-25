@@ -1,0 +1,1407 @@
+chapter: 39
+title: The Wall of Busan
+format: SCRIPT_FORMAT_v2.md
+when: "Friday, 7:00 to 8:10 PM, Busan: the fish market and the harbour, the neck of the breakwater, and Kanghan's barge."
+story_beats: ARC5_BEATS.md#39-the-wall-of-busan-hook-decision
+cast:
+  kang_jaeha: training       # the tracksuit; bandage on the LEFT forearm; the splinted RIGHT index finger
+  geum_okran: default
+  nib: mask                  # field form from P17
+  borro: default             # field form from P17; no husk face in the fight
+  lyra: default              # field form from P17
+  pim: default               # field form from P17 (wings open, the headset round his neck)
+  kang_seoa: default         # school uniform; NEVER any fan service
+  market_aunties: default
+  evacuees: default          # new generic (2.20)
+  yoo_bomi: default
+  choi_dongmin: default
+  song_yerin: default
+  assoc_yang: default
+  fishermen: default
+  brine_crawler: default
+  moon_ahin: default         # her white coat-dress again for the break (2.11)
+  ahin_husks: default        # Saebyeok and the other 27
+  kanghan_engineer: default
+  kanghan_tactical: default
+  han_sora: kanghan
+  deep_lantern: default      # hushed (4d.3)
+locations: [busan_fish_market, assoc_busan, geum_stall, busan_breakwater, kanghan_barge]
+continuity:
+  - "Geography: the fight is at the NECK of the breakwater, where it leaves the harbour, the same place Geum held ten years ago (ch 35): the fish market and Geum's orange tent are 200 m behind it along the harbour's edge, with a concrete pier and the sea wall in front of the market. The breakwater runs 1 km out to the red lighthouse; the sea gate is 2 km out."
+  - "Jaeha: look `training` (the purple tracksuit, the towel, the bandaged LEFT forearm, the RIGHT index finger splinted with a chopstick and white tape). He bleeds from the nose from P31, and from the nose and ears from P61. The LINK lines from him are thin threads in each summon's colour; the husks' LINK lines are cyan."
+  - "The summons in field form from P17 to the end: Nib amber eyes and outline; Borro moss green; Lyra river blue; Pim lilac with his wings open 2.6 m and the headset round his neck. In a break, field form comes back after a minute, so nobody's timer matters this chapter."
+  - "Geum: the checked apron, the purple tracksuit, the floral headscarf, pink slippers, the steel LEFT arm, the ladle in her RIGHT hand. Her strikes ring like a bell and throw rings of white force; when she holds, the ladle's bowl glows white."
+  - "Kang Seoa (15): her school uniform (2.6), round glasses, the calculator keychain on her backpack; the market's battered red megaphone from P04. A child: never any fan service. The camera stays at her eye level or above, never below. In P52 she is lured (her eyes glazed with violet light): she walks toward the pier's edge and is pulled back; nothing worse."
+  - "Song Yerin: her oversized off-white healer's jacket with the mint trim, the pink first-aid bag, black leggings; covered, as always. Choi: his navy and hi-vis rescue jacket; his white van with the orange light bar."
+  - "Moon Ahin (from P26): her white coat-dress (2.11) with the deep V and the high slit up her LEFT side, sheer white stockings, white heeled boots, white gloves, the silver baton in her RIGHT hand, the silver ribbon bow. Fan service (adult) in battle; the camera never below her waist level. Her 28 husks are polished porcelain white with silver seams; Saebyeok (No. 1) is no different to look at."
+  - "Han Sora (P44): on the barge's tilted deck in the charcoal Kanghan jacket over a black top, her crossbow, the bandaged RIGHT wrist, the slim silver compass on her LEFT wrist."
+  - "The Deep Lantern (4d.3), hushed, from P34: a whale-like leviathan about 150 m long, grey-blue hide crusted with coral, barnacles and kelp, rusted steel plates of the old lid stuck in the hide of her back like scales; two webbed hands, each 15 m across; a curved crest-spine 30 m tall on her head with the great lantern at its tip, a cage of pale coral 12 m tall round a core burning violet and pulsing; a Hush crack down her brow between small, ancient, dull-violet eyes, leaking violet ash. Scale: Jaeha is smaller than one of her fingers."
+  - "Kanghan's anchors (6): black steel harpoon anchors 2 m long on chains as thick as an arm, the farm's stamped mark on the links; each anchor's chain joins its shank with a big steel shackle and pin."
+plants:
+  - "PLANT P02: Yang evacuates against Seoul's orders (ch 40, Part Two: Hwang)."
+  - "PLANT P49: the Lantern takes Jaeha for her old Operator: 'You stopped' (Operator #1; ch 40)."
+  - "PLANT P72: [STORE: READY] (ch 40: RELEASE I)."
+hook_type: decision
+
+panels:
+
+  # ================= SEVEN O'CLOCK (P01-P13) =================
+  - id: P01
+    recipe: establish
+    shape: wide
+    gap: none
+    bg: black
+    camera: "high and wide over the harbour at dusk: sirens on poles, the sea beyond the breakwater bubbling violet, the barge listing far out"
+    light: "dusk; violet from the sea; red siren lights"
+    art: >
+      High and wide over Busan's harbour at dusk: siren horns on poles along the waterfront blare; beyond the breakwater the sea bubbles
+      and glows violet in a widening ring two kilometres out, where Kanghan's barge lists, its crane tilted; the fish market's lights
+      burn at the harbour's edge. Scale: the breakwater is a 1 km thread; the barge a black chip.
+    calm: top
+    silent: true
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "7:00 PM."}
+    sfx:
+      - {text: "WEEEOOOWEEEOOO", style: alert, at: [0.30, 0.30], size: L, rot: -4}
+
+  - id: P02
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Yang in his dark office, slamming his palm on a red emergency button, the phone ringing beside him"
+    light: "a desk lamp; red from the button"
+    art: >
+      Close on Branch Chief Yang (assoc_yang) in his dark office, slamming his palm down on a red emergency-broadcast button on his desk
+      while the desk phone rings and rings beside him, its line light flashing.
+    acting:
+      assoc_yang: "palm slammed on the button, jaw set, ignoring the ringing phone"
+    eyeline: "Yang → the button"
+    foreground: "the ringing phone, cropped, left"
+    calm: left
+    lines:
+      - {who: assoc_yang, type: speech, text: "SEOUL CAN FIRE ME TOMORROW. TONIGHT, I EVACUATE.", side: l}
+    sfx:
+      - {text: "BRRRING BRRRING", style: quiet, at: [0.20, 0.30], size: S, rot: 0}
+
+  - id: P03
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on a fishmonger's phone lighting up in a wet rubber glove, an emergency alert on it, the screen flat green"
+    light: "the screen"
+    art: >
+      Close on a phone lighting up in a fishmonger's wet rubber glove, the screen flat green; behind it, out of focus, a dozen more phones
+      light up across the market.
+    calm: right
+    silent: true
+    ui:
+      - {kind: phone.emergency_alert, "on": screen, clock: "19:01", text: "BUSAN HARBOUR: A SEALED GATE IS FAILING. LEAVE THE WATERFRONT NOW. MOVE UPHILL."}
+    sfx:
+      - {text: "BEEP BEEP BEEP", style: alert, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P04
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level inside the tent: Seoa snatching the market's red megaphone off a hook, the aunties turning to her"
+    light: "bare bulbs; violet flicker outside"
+    art: >
+      Inside the orange tent at eye level: Seoa (kang_seoa) snatches a battered red megaphone off a hook on the tent pole; the three
+      aunties (market_aunties) turn to her. The camera stays at her eye level.
+    acting:
+      kang_seoa: "grabbing the megaphone with both hands, chin up, glasses flashing"
+      market_aunties: "turning from their stalls, the tiny one already rolling up her sleeves"
+    eyeline: "Seoa → the aunties; the aunties → Seoa"
+    foreground: "the tent pole and its hook, cropped, left"
+    calm: top
+    lines:
+      - {who: kang_seoa, type: shout, text: "AUNTIES! WE'RE EMPTYING THE MARKET!", side: l}
+      - {who: market_aunties, type: shout, text: "YOU HEARD THE GIRL!", side: r}
+
+  - id: P05
+    recipe: establish
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level down the market aisle: Seoa on a fish crate with the megaphone, the aunties waving the crowd toward the exit"
+    light: "fluorescent; red siren light through the doors"
+    art: >
+      Eye level down the long market aisle: Seoa (kang_seoa) stands on an upturned fish crate with the megaphone; the aunties (market_aunties)
+      wave the crowd of shoppers, fishmongers and tourists (evacuees) toward the uphill exit; nobody is running.
+    acting:
+      kang_seoa: "on the crate, megaphone up, the other arm pointing to the exit"
+      market_aunties: "waving people on with both arms, one carrying a toddler's stroller"
+      evacuees: "walking fast toward the exit, some carrying bags and children"
+    calm: top
+    lines:
+      - {who: kang_seoa, type: shout, text: "DON'T RUN, AND DON'T STOP! UPHILL, AWAY FROM THE WATER!", side: l}
+    sfx:
+      - {text: "shuffle shuffle", style: quiet, at: [0.70, 0.86], size: S, rot: 0}
+
+  - id: P06
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low on the market's flat roof: Bomi talking to her drone, the harbour and the violet sea behind her"
+    light: "dusk; violet; the drone's red light"
+    art: >
+      Low on the market's flat roof: Yoo Bomi (yoo_bomi) talks straight into her hovering drone, pointing up the hill behind her with
+      one arm; behind her the harbour and the violet sea. The camera stays above her waist level.
+    acting:
+      yoo_bomi: "pointing uphill with one arm, talking fast into the drone, serious for once"
+    eyeline: "Bomi → the drone"
+    foreground: "the drone's rotor, cropped, top right"
+    calm: top
+    ui:
+      - {kind: phone.live_stream, "on": float, at: [0.62, 0.52], width: 0.36, viewers: "2,880,104 WATCHING", chat: ["[busan_dad]: we're moving uphill now", "[ttokbokki_lover]: THANK YOU BOMBOM", "[jjang_hunter]: where is the trap rat"]}
+    lines:
+      - {who: yoo_bomi, type: shout, text: "BUSAN! THE ROUTES ARE ON SCREEN. UPHILL, AND KEEP GOING!", side: l}
+
+  - id: P07
+    recipe: establish
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low at the market's car park: a white van with an orange light bar skidding to a stop, Choi leaning out of the window"
+    light: "orange light bar; headlights"
+    art: >
+      Low in the market's car park: a white van with an orange light bar skids to a stop; Choi Dongmin (choi_dongmin) leans out of the
+      driver's window with a paper coffee cup; Song Yerin (song_yerin) sits in the passenger seat clutching her pink bag.
+    acting:
+      choi_dongmin: "leaning out of the window, coffee in hand, a tired smirk"
+      song_yerin: "in the passenger seat, both hands on her bag strap, eyes wide"
+    calm: top
+    lines:
+      - {who: choi_dongmin, type: shout, text: "YOUR SISTER SAID DINNER AT SEVEN. I BROUGHT A HEALER.", side: l}
+    sfx:
+      - {text: "SKREEEE", style: comic, at: [0.70, 0.70], size: M, rot: 4}
+
+  - id: P08
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level two-shot by the van: Yerin jumping down with her bag, Jaeha giving orders"
+    light: "orange light bar"
+    face: private
+    art: >
+      Eye-level two-shot beside the van: Yerin (song_yerin) jumps down with her pink first-aid bag, trembling but resolute; Jaeha
+      (kang_jaeha, training) points her toward the market.
+    acting:
+      song_yerin: "hugging the bag to her chest, jaw set, ready"
+      kang_jaeha: "pointing toward the market with his splinted hand, calm and quick"
+    eyeline: "Yerin → Jaeha; Jaeha → the market"
+    foreground: "the van's open door, cropped, left"
+    calm: top
+    lines:
+      - {who: song_yerin, type: speech, text: "WHERE DO YOU NEED ME?", side: l}
+      - {who: kang_jaeha, type: speech, text: "WITH SEOA. KEEP THE CROWD MOVING, AND HEAL ANYONE WHO FALLS.", side: r}
+
+  - id: P09
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close two-shot at the market door, the camera at Seoa's eye level: Seoa pushing her brother away toward the breakwater"
+    light: "fluorescent behind her; red siren light"
+    face: public
+    art: >
+      Close two-shot at the market door, the camera at Seoa's eye level: Seoa (kang_seoa), megaphone in one hand, pushes Jaeha (kang_jaeha,
+      training) away toward the breakwater with the other; he hesitates.
+    acting:
+      kang_seoa: "shoving his chest with one hand, the megaphone in the other, eyes fierce and wet"
+      kang_jaeha: "half turned away, looking back at her, hesitating"
+    eyeline: "Seoa → Jaeha (up); Jaeha → Seoa (down)"
+    foreground: "the megaphone's red bell, cropped, bottom"
+    calm: left
+    lines:
+      - {who: kang_seoa, type: speech, text: "GO. I'VE GOT THE MARKET.", side: l}
+      - {who: kang_jaeha, type: speech, text: "SEOA...", side: r}
+      - {who: kang_seoa, type: speech, text: "I DID MANGWON. GO!", side: l}
+
+  - id: P10
+    recipe: establish
+    shape: tall
+    gap: long
+    bg: black
+    camera: "low behind them at the neck of the breakwater: Geum in front with the ladle, the summons and Jaeha behind, the violet sea ahead"
+    light: "violet from the sea; the lighthouse far out"
+    art: >
+      Low behind them at the neck of the breakwater, where Geum stood ten years ago: Geum (geum_okran) walks to the front with the ladle on
+      her shoulder; Nib (nib, mask), Borro (borro), Lyra (lyra) and Pim (pim) spread out behind her; Jaeha (kang_jaeha, training) comes
+      last; ahead, the sea glows violet and boils. The same framing as the flashback's line of hunters (ch 35 P11), now in colour.
+    acting:
+      geum_okran: "walking to the front, ladle on her shoulder, slippers slapping"
+      nib: "pulling off his mask, knives drawn"
+      borro: "untying his husk face, the shield coming up"
+      lyra: "nocking an arrow, eyes on the water"
+      pim: "pulling the headset down round his neck, antennae rising"
+      kang_jaeha: "walking last, two fingers going to his temple"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "slap slap slap", style: quiet, at: [0.50, 0.86], size: S, rot: 0}
+
+  - id: P11
+    recipe: system
+    shape: inset-l
+    gap: short
+    bg: navy
+    camera: "close on a red countdown hanging over the violet sea"
+    light: "red; violet"
+    art: >
+      Close on a red countdown hanging in the air over the boiling violet sea. The frame is calm for it.
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.4], text: "[ESTIMATED FAILURE 00:00:03]"}
+    sfx:
+      - {text: "tik", style: quiet, at: [0.80, 0.80], size: S, rot: 0}
+
+  - id: P12
+    recipe: splash
+    shape: full
+    gap: short
+    bg: black
+    camera: "high and wide over the sea: the lid bursting two kilometres out, a violet geyser, stone slabs and steel plates flung into the sky"
+    light: "a violet explosion lighting the whole harbour"
+    art: >
+      High and wide over the sea: two kilometres out, the lid bursts; a geyser of violet water and light erupts hundreds of metres
+      high, flinging huge carved stone slabs and rusted steel plates into the sky like playing cards; the listing barge rocks; a ring of
+      violet water races toward the harbour. Scale: the breakwater is a thin line at the bottom; each slab is as big as a bus. The lower
+      part is calm for the window.
+    calm: bottom
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.88], text: "[SEALED GATE · BUSAN · BROKEN]"}
+    sfx:
+      - {text: "KA-BOOOOOOM", style: impact, at: [0.50, 0.20], size: XL, rot: -4}
+
+  - id: P13
+    kind: title
+    shape: full
+    gap: long
+    bg: black
+    title_card: "MY SUMMONS GO FIRST · CHAPTER 39 · THE WALL OF BUSAN"
+    notes: "Title card at panel 13 of 73 (18%)."
+
+  # ================= SUMMONS GO FIRST (P14-P25) =================
+  - id: P14
+    recipe: monster-reveal
+    shape: wide
+    gap: long
+    bg: black
+    camera: "low along the tetrapods at the neck of the breakwater: hundreds of brine crawlers swarming up out of the violet water"
+    light: "violet water; the siren lights"
+    art: >
+      Low along the tetrapods at the neck of the breakwater (location busan_breakwater, break view): hundreds of brine crawlers
+      (brine_crawler) swarm up out of the violet water and over the car-sized tetrapods, claws clicking, eel tails thrashing, needle mouths
+      open. Scale: each crawler is a big dog; the tetrapods are cars.
+    acting:
+      brine_crawler: "swarming up over the tetrapods in a clicking tide"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "CLICK CLICK CLICK CLICK", style: alert, at: [0.60, 0.40], size: L, rot: 4}
+
+  - id: P15
+    recipe: system
+    shape: inset-r
+    gap: short
+    bg: navy
+    camera: "close on Jaeha's face as a window opens, violet mana drifting in the air like snow"
+    light: "cyan window; violet motes"
+    face: private
+    art: >
+      Close on Jaeha's face (kang_jaeha) as a window opens beside it; violet motes of gate mana drift through the air like snow. The upper
+      part is calm for the window.
+    acting:
+      kang_jaeha: "reading the window, eyes narrowing, motes drifting past his face"
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.06], text: "[DUNGEON BREAK · GATE MANA FLOODING · FIELD FORM COOLDOWN 00:01:00]"}
+
+  - id: P16
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low and close on Jaeha, two fingers at his temple, four coloured threads running from him to the summons ahead"
+    light: "amber, moss, river-blue and lilac threads; violet"
+    face: private
+    art: >
+      Low and close: Jaeha (kang_jaeha, training) stands with two fingers at his temple; four thin threads, amber, moss green, river blue and
+      lilac, run from him to the four summons ahead of him.
+    acting:
+      kang_jaeha: "two fingers at his temple, eyes cold and steady, the other hand open"
+    eyeline: "Jaeha → the summons"
+    foreground: "Borro's shield edge, cropped, right"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: intense, text: "NIB. BORRO. LYRA. PIM. FIELD FORM.", side: l}
+      - {who: kang_jaeha, type: intense, text: "SUMMONS GO FIRST.", side: l}
+
+  - id: P17
+    recipe: splash
+    shape: full
+    gap: short
+    bg: black
+    camera: "low and wide, side-on along the walkway: all four summons flaring into field form in a row, each in their colour"
+    light: "amber, moss green, river blue and lilac glows against the violet sea"
+    art: >
+      FOUR. Low and wide, side-on along the walkway: Nib (nib, field form), Borro (borro, field form), Lyra (lyra, field form) and Pim (pim,
+      field form) flare into field form in a row in front of the crawler tide: amber, moss green, river blue and lilac; Pim's wings open
+      for battle for the first time; behind them, small, Jaeha with his hand at his temple and Geum with her ladle. Scale: Borro 2.4 m,
+      Lyra 1.82 m, Pim 1.4 m, Nib 1.05 m.
+    acting:
+      nib: "dropping into a crouch, knives reversed, amber eyes blazing"
+      borro: "raising the door-sized shield, moss-green eyes steady"
+      lyra: "drawing to full with a blue-fletched arrow, braid flying"
+      pim: "wings spread wide, antennae blazing, arms out"
+    calm: bottom
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.9], text: "[FIELD FORM ×4 · 06:00 · LINKED]"}
+    sfx:
+      - {text: "FWOOOM", style: summon, at: [0.50, 0.25], size: XL, rot: 0}
+
+  - id: P18
+    recipe: link-view
+    shape: wide
+    gap: short
+    bg: black
+    camera: "split frame: left, Jaeha's face lit lilac; right, Pim's hearing of the water: rings showing where the crawlers are climbing, most of them on the left"
+    light: "lilac"
+    face: private
+    art: >
+      Split frame with a thin lilac seam. LEFT: Jaeha's face (kang_jaeha) lit lilac. RIGHT: Pim's hearing through a thin lilac vignette:
+      the water under the breakwater drawn as lilac rings, the crawlers as clusters of bright pings; most of them pour up the left side,
+      out of an old storm drain toward the market's sea wall.
+    acting:
+      kang_jaeha: "eyes narrowing, reading the map in his head"
+    calm: top
+    lines:
+      - {who: pim, type: shout, text: "MOST OF THEM ARE COMING UP THE LEFT SIDE, BOSS! OUT OF THE OLD STORM DRAIN!"}
+    sfx:
+      - {text: "ping ping ping", style: quiet, at: [0.80, 0.70], size: S, rot: 0}
+
+  - id: P19
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low and tilted on the tetrapods: Nib cutting through the first wave, crawlers bursting into ash around him"
+    light: "amber streaks; violet ash"
+    art: >
+      Low and tilted on the tetrapods: Nib (nib, field form) cuts through the first wave in a spinning blur of amber, three crawlers
+      bursting into violet ash around him at once.
+    acting:
+      nib: "mid-spin, both knives out, cloak flaring, eyes blazing"
+      brine_crawler: "bursting into ash mid-lunge"
+    calm: top
+    sfx:
+      - {text: "SHRAK SHRAK SHRAK", style: impact, at: [0.50, 0.30], size: L, rot: -6}
+
+  - id: P20
+    recipe: impact
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "over Lyra's shoulder at eye level: a volley of river-blue arrows pinning crawlers to the tetrapods"
+    light: "river-blue streaks"
+    art: >
+      Over Lyra's shoulder (lyra, field form) at eye level: she looses arrow after arrow, river-blue streaks pinning crawlers to the
+      tetrapods one after another.
+    acting:
+      lyra: "drawing and loosing in rhythm, eyes cold, the braid over her LEFT shoulder"
+    calm: right
+    sfx:
+      - {text: "THWIP THWIP THWIP", style: impact, at: [0.60, 0.30], size: M, rot: 6}
+
+  - id: P21
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "side-on: Borro shield-bashing a whole wave of crawlers back into the sea"
+    light: "moss green; spray"
+    art: >
+      Side-on: Borro (borro, field form) drives his iron shield into a wave of crawlers climbing the walkway and bashes the whole wave back
+      into the sea in a burst of spray and ash.
+    acting:
+      borro: "shoving forward behind the shield, legs braced, calm"
+      brine_crawler: "flying back off the shield into the water"
+    calm: top
+    sfx:
+      - {text: "KRAKOOM", style: impact, at: [0.40, 0.40], size: L, rot: -6}
+
+  - id: P22
+    recipe: splash
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from behind the crawler tide: Geum at the neck of the breakwater swinging the ladle, a ring of white force turning the wave to ash, a grey ghost of her younger self behind her"
+    light: "a ring of white force; violet; the siren lights"
+    art: >
+      THE WALL OF BUSAN. From low behind the crawler tide: at the neck of the breakwater, exactly where she stood ten years ago, Geum
+      (geum_okran) swings the ladle once; a huge ring of white force bursts off it and the whole wave in front of her turns to violet ash;
+      behind her, faint and grey like a memory, stands her younger self with the steel boat door raised (ch 35), in the same spot and the
+      same stance. She hasn't moved her slippers.
+    acting:
+      geum_okran: "at the end of a one-handed swing, feet planted, chin up, the gold tooth bared in a grin"
+    calm: top
+    sfx:
+      - {text: "DOOOOONNNG", style: impact, at: [0.50, 0.20], size: XL, rot: -4}
+
+  - id: P23
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "eye level on the market pier: three old fishermen taking off their caps, watching her"
+    light: "violet; the market's lights behind"
+    art: >
+      On the market's pier at eye level: three old fishermen (fishermen) who stayed behind to tie up their boats stand and take off their
+      caps, watching the breakwater.
+    acting:
+      fishermen: "taking their caps off slowly, holding them to their chests, eyes wet"
+    calm: left
+    silent: true
+    sfx:
+      - {text: "sniff", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P24
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Geum, ash drifting past her, grinning at the sea"
+    light: "violet; ash"
+    art: >
+      Close on Geum (geum_okran), violet ash drifting past her face, grinning at the sea as more crawlers climb.
+    acting:
+      geum_okran: "grinning, the ladle back on her shoulder, eyes on the next wave"
+    eyeline: "Geum → the sea"
+    foreground: "drifting ash, cropped, right"
+    calm: right
+    lines:
+      - {who: geum_okran, type: shout, text: "TEN YEARS I'VE WAITED FOR YOU, YOU OVERGROWN SHRIMP!", side: l}
+
+  - id: P25
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high over the neck of the breakwater: the crawlers pouring up the left side toward the market's sea wall, past the fighters"
+    light: "violet; the market's lights"
+    face: private
+    art: >
+      High over the neck of the breakwater: the summons and Geum hold the walkway, but on the left a second tide of crawlers pours out of
+      the old storm drain and climbs the market's sea wall toward the evacuating crowd; Jaeha (kang_jaeha, training) turns toward it.
+    acting:
+      kang_jaeha: "turning toward the left side, hand at his temple"
+      brine_crawler: "pouring up the sea wall in a tide"
+    foreground: "the parapet's edge, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "TOO MANY ON THE LEFT. THEY'LL REACH THE MARKET BEFORE WE DO.", side: l}
+    sfx:
+      - {text: "click click click", style: quiet, at: [0.30, 0.70], size: S, rot: 0}
+
+  # ================= THE ORCHESTRA (P26-P33) =================
+  - id: P26
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: black
+    camera: "low at the base of the breakwater: a flatbed truck skidding to a stop, polished white husks leaping off it in perfect unison"
+    light: "headlights; violet"
+    art: >
+      Low at the base of the breakwater: a flatbed truck skids to a stop in a spray of water, and polished porcelain-white husks
+      (ahin_husks) leap off it in perfect unison, landing in a line; a woman in white steps down from the cab.
+    acting:
+      ahin_husks: "landing in perfect unison, straightening as one"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "THUD THUD THUD THUD", style: impact, at: [0.50, 0.70], size: M, rot: 0}
+
+  - id: P27
+    recipe: splash
+    shape: tall
+    gap: short
+    bg: black
+    camera: "eye level, full figure: Moon Ahin in her white coat-dress raising her silver baton, her husks fanning out behind her"
+    light: "key: headlights from behind; violet rim; mana motes"
+    art: >
+      MOON AHIN, CONDUCTING. Eye level, full figure: Moon Ahin (moon_ahin) strides forward in her white coat-dress, the high slit on her
+      LEFT side opening as she steps, white gloves, the silver ribbon bow, and raises the silver baton in her RIGHT hand like a conductor
+      before an orchestra; behind her, her 28 husks (ahin_husks) fan out in perfect formation, Saebyeok at the front. Cold, flawless,
+      magnificent. The camera stays at her eye level.
+    acting:
+      moon_ahin: "striding, baton raised high, chin up, the half-smile back"
+      ahin_husks: "fanning out behind her in formation, Saebyeok a step ahead"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: speech, text: "NUMBER FOUR. WHERE DO YOU WANT MY ORCHESTRA?", side: r}
+    sfx:
+      - {text: "click click", style: quiet, at: [0.20, 0.86], size: S, rot: 0}
+
+  - id: P28
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level two-shot: Jaeha pointing along the left side, Moon Ahin turning to him sharply"
+    light: "violet; headlights"
+    face: private
+    art: >
+      Eye-level two-shot: Jaeha (kang_jaeha, training) points along the left side of the harbour, the sea wall in front of the market;
+      Moon Ahin (moon_ahin) turns to him sharply, the baton still raised.
+    acting:
+      kang_jaeha: "pointing along the sea wall with his splinted hand, eyes steady"
+      moon_ahin: "turning to him, eyebrows drawing together"
+    eyeline: "Jaeha → the sea wall; Moon Ahin → Jaeha"
+    foreground: "Saebyeok's white shoulder, cropped, left"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "A WALL ALONG THE SEA WALL. ALL OF THEM. AND I'LL CARRY THEM.", side: l}
+      - {who: moon_ahin, type: speech, text: "WITH YOUR HEART? GEUM SAID—", side: r}
+      - {who: kang_jaeha, type: speech, text: "THEY'RE CARRYING US. SO I CARRY THEM.", side: l}
+
+  - id: P29
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Moon Ahin's gloved fingertips touching each husk's shoulder as it runs past her, her lips moving"
+    light: "violet; mana motes"
+    art: >
+      Close on Moon Ahin's white-gloved fingertips (moon_ahin) touching each husk's shoulder (ahin_husks) as it runs past her toward the
+      sea wall, and her lips moving.
+    acting:
+      moon_ahin: "touching each shoulder in turn, lips moving, eyes soft for once"
+      ahin_husks: "running past her, one after another"
+    calm: left
+    lines:
+      - {who: moon_ahin, type: whisper, text: "SAEBYEOK. HAEBIT. BYEOL. NOEUL. COME BACK TO ME.", side: l}
+
+  - id: P30
+    recipe: carry
+    shape: full
+    gap: short
+    bg: black
+    camera: "high and wide along the market's sea wall: 28 white husks locked arm in arm in a wall, crawlers crashing against it, cyan threads running from every husk to Jaeha"
+    light: "cyan threads; violet water; the market's lights behind"
+    art: >
+      THE HUSK WALL. High and wide along the market's sea wall: Moon Ahin's 28 husks (ahin_husks) stand locked arm in arm in a white wall
+      the length of the sea wall, the evacuating crowd behind them; the crawler tide crashes against them and breaks; a thin cyan thread
+      runs from every husk back along the breakwater into Jaeha's chest (kang_jaeha, training), where he stands braced with Moon Ahin
+      (moon_ahin) conducting beside him. The lower part is calm for the window.
+    acting:
+      ahin_husks: "locked arm in arm, braced, not giving an inch"
+      kang_jaeha: "braced, both fists clenched, the threads pouring into him"
+      moon_ahin: "conducting with the baton, small and precise"
+      brine_crawler: "crashing against the husk wall and breaking"
+    calm: bottom
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.88], text: "[LINK: 4 SUMMONS + 28 HUSKS · SUMMONER: MOON AHIN]"}
+    sfx:
+      - {text: "KRASH KRASH KRASH", style: impact, at: [0.60, 0.30], size: L, rot: 4}
+
+  - id: P31
+    recipe: system
+    shape: inset-l
+    gap: short
+    bg: navy
+    camera: "close on Jaeha, a nosebleed starting, a thin smile, a window beside him"
+    light: "cyan"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha): a nosebleed starts; he smiles thinly; a window hangs beside him. The upper part is calm for the window.
+    acting:
+      kang_jaeha: "a thin smile, blood running from his nose, eyes steady"
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.06], text: "[CARRY ×28 · LOAD 160%]"}
+    lines:
+      - {who: kang_jaeha, type: inner, text: "160, NOT 240. THE ICE WORKED. IT'S STILL TOO MUCH."}
+
+  - id: P32
+    recipe: system
+    shape: inset-r
+    gap: short
+    bg: navy
+    camera: "close on Jaeha's hand pressed flat to his chest, a red window over it"
+    light: "red"
+    art: >
+      Close on Jaeha's splinted RIGHT hand (kang_jaeha) pressed flat against his chest; a red window hangs over it.
+    acting:
+      kang_jaeha: "only his hand, pressed hard to his chest"
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.1], text: "[OPERATOR BODY: CRITICAL · CARDIAC RISK]"}
+    sfx:
+      - {text: "thud-thud", style: quiet, at: [0.40, 0.70], size: S, rot: 0}
+
+  - id: P33
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Geum at the front glancing back over her shoulder at Jaeha, frowning"
+    light: "violet"
+    art: >
+      Close on Geum (geum_okran) at the front of the walkway glancing back over her shoulder at Jaeha, frowning, the ladle on her shoulder.
+    acting:
+      geum_okran: "glancing back over her shoulder, frowning, mouth tight"
+    eyeline: "Geum → Jaeha"
+    calm: right
+    silent: true
+    sfx:
+      - {text: "glance", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  # ================= CHAINS (P34-P46) =================
+  - id: P34
+    recipe: monster-reveal
+    shape: full
+    gap: long
+    bg: black
+    camera: "high and wide over the sea gate: a vast back crusted with coral and rusted lid plates rising out of the violet water beside the tilting barge"
+    light: "violet light from below; the barge's floodlights"
+    art: >
+      High and wide over the sea gate, two kilometres out: a vast back (deep_lantern) rises out of the boiling violet water beside the
+      tilting barge, crusted with coral and barnacles, rusted steel plates of the old lid stuck in its hide like scales; the barge looks
+      like a toy beside it. Scale: the barge is 80 m long; the back is twice that and still rising.
+    acting:
+      deep_lantern: "rising, water pouring off the plates on her back"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "WOOOOOOOOM", style: alert, at: [0.50, 0.20], size: XL, rot: 0}
+
+  - id: P35
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low on the tilted barge deck: the engineer chief shouting into his radio, troopers at the anchor launchers"
+    light: "floodlights; violet"
+    art: >
+      Low on the barge's tilted deck: the grey-haired engineer chief (kanghan_engineer) shouts into his radio, clinging to a rail;
+      troopers (kanghan_tactical) brace at the harpoon launchers, the black anchors loaded.
+    acting:
+      kanghan_engineer: "clinging to a rail, shouting into the radio, wide-eyed"
+      kanghan_tactical: "bracing at the launchers, aiming"
+    eyeline: "the chief → the rising back"
+    foreground: "a coil of anchor chain, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kanghan_engineer, type: shout, text: "IT'S COMING UP! FIRE THE ANCHORS! CHAIN IT!", side: l}
+    sfx:
+      - {text: "creeeak", style: quiet, at: [0.80, 0.70], size: S, rot: 0}
+
+  - id: P36
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "side-on from the barge's rail: four harpoon anchors firing on their chains and slamming into the rising back"
+    light: "muzzle flashes; violet"
+    art: >
+      Side-on from the barge's rail: four black harpoon anchors fire on their chains and slam into the rising back (deep_lantern), violet
+      ash spurting where they bite; the chains snap taut.
+    acting:
+      deep_lantern: "her back flinching under the anchors"
+    calm: top
+    sfx:
+      - {text: "KA-THUNK KA-THUNK KA-THUNK KA-THUNK", style: impact, at: [0.50, 0.30], size: L, rot: -4}
+
+  - id: P37
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high over the sea: the leviathan surging toward the harbour, towing the barge behind her on the chains, its own anchor cables snapping"
+    light: "violet; spray"
+    art: >
+      High over the sea: the leviathan (deep_lantern), half surfaced, surges toward the harbour, throwing up a huge bow wave, and tows
+      the barge behind her on the four chains; the barge's own anchor cables snap and whip; troopers cling to the rails.
+    acting:
+      deep_lantern: "surging forward, a bow wave building"
+      kanghan_tactical: "tiny, clinging to the rails"
+    calm: top
+    sfx:
+      - {text: "SNAP SNAP", style: impact, at: [0.70, 0.40], size: M, rot: 6}
+      - {text: "WHOOOOSH", style: alert, at: [0.30, 0.70], size: L, rot: -4}
+
+  - id: P38
+    recipe: establish
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level from the neck of the breakwater: the leviathan dragged to a halt 150 m off, thrashing, the chains taut back to the barge, the winches screaming"
+    light: "violet; floodlights"
+    art: >
+      From the neck of the breakwater at eye level: 150 m off, the leviathan (deep_lantern) is dragged to a halt by the chains, thrashing,
+      half out of the water; the four chains run taut from her flank back to the barge, which has been towed in close behind her, its
+      winches screaming as troopers crank them; the harbour water heaves.
+    acting:
+      deep_lantern: "thrashing against the chains, head still under the water"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "SKREEEEEE", style: alert, at: [0.70, 0.30], size: M, rot: 0}
+
+  - id: P39
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on an anchor head buried in the hide, violet ash spurting, the stamped mark on the first link"
+    light: "violet"
+    art: >
+      Close on one anchor head buried in the coral-crusted hide, violet ash spurting round it; the big steel shackle joining it to the
+      chain, and on the first link the small stamped mark.
+    calm: left
+    silent: true
+    sfx:
+      - {text: "hssss", style: quiet, at: [0.60, 0.40], size: S, rot: 0}
+
+  - id: P40
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Nib on a tetrapod, staring at the chains, a small grey memory inset of a knight in chains"
+    light: "amber; violet"
+    art: >
+      Close on Nib (nib, field form) crouched on a tetrapod, staring at the chains; beside him a small grey memory inset: his commander,
+      the knight, kneeling in black chains (ch 1).
+    acting:
+      nib: "frozen, ears flat, knuckles white on his knives"
+    eyeline: "Nib → the chains"
+    calm: right
+    silent: true
+    sfx:
+      - {text: "grip", style: quiet, at: [0.70, 0.70], size: S, rot: 0}
+
+  - id: P41
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "split frame with an amber seam: Nib on the tetrapod, Jaeha on the walkway, speaking through the link"
+    light: "amber; cyan"
+    face: private
+    art: >
+      Split frame with a thin amber seam: LEFT, Nib (nib, field form) on the tetrapod, looking back; RIGHT, Jaeha (kang_jaeha, training)
+      on the walkway with two fingers at his temple, blood under his nose.
+    acting:
+      nib: "looking back over his shoulder, eyes blazing"
+      kang_jaeha: "two fingers at his temple, nodding once"
+    eyeline: "both → each other across the seam"
+    foreground: "the amber seam, top to bottom"
+    calm: top
+    lines:
+      - {who: nib, type: intense, text: "OPERATOR. THOSE ARE THE SAME CHAINS.", side: l}
+      - {who: kang_jaeha, type: intense, text: "I KNOW. GO.", side: r}
+
+  - id: P42
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, looking up a taut chain: Nib running up it toward her flank, 30 m above the water, cloak streaming"
+    light: "amber streak; violet water below"
+    art: >
+      Low, looking up a taut chain as thick as an arm: Nib (nib, field form) runs up it toward the leviathan's flank, 30 m above the heaving
+      violet water, his cloak streaming, an amber streak behind him.
+    acting:
+      nib: "sprinting up the chain, arms out for balance, knives in hand"
+    calm: top
+    sfx:
+      - {text: "TAK TAK TAK TAK", style: impact, at: [0.30, 0.60], size: M, rot: -8}
+
+  - id: P43
+    recipe: impact
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Nib's knife hilt hammering the pin out of a shackle, the chain jumping free"
+    light: "sparks; amber"
+    art: >
+      Close on Nib's knife hilt (nib) hammering the pin out of the big steel shackle at an anchor head; sparks fly; the chain jumps free of
+      the shank.
+    acting:
+      nib: "only his hand and knife, hammering the pin out"
+    calm: left
+    sfx:
+      - {text: "KLANG", style: impact, at: [0.40, 0.30], size: M, rot: 6}
+
+  - id: P44
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "low on the barge's tilted deck: Sora raising her crossbow at the small amber figure on the chain, then lowering it"
+    light: "floodlights; amber far off"
+    art: >
+      Low on the barge's tilted deck: Han Sora (han_sora, kanghan) raises her crossbow at the small amber figure running along a chain,
+      sights it, and slowly lowers it.
+    acting:
+      han_sora: "lowering the crossbow, a crooked half-smile, eyes on Nib"
+    eyeline: "Sora → Nib"
+    calm: right
+    silent: true
+    sfx:
+      - {text: "tch", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P45
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high over the water: the last chains whipping free and lashing back across the barge, troopers diving flat"
+    light: "violet; floodlights"
+    art: >
+      High over the water: the last two chains whip free of the leviathan's flank and lash back across the barge's deck; troopers
+      (kanghan_tactical) dive flat; the winches spin loose; the barge rocks away.
+    acting:
+      kanghan_tactical: "diving flat on the deck as the chains lash over"
+    calm: top
+    sfx:
+      - {text: "WHAAANG", style: impact, at: [0.50, 0.40], size: L, rot: -6}
+
+  - id: P46
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "low on a tetrapod: Nib landing back, knives out, looking up at what he freed"
+    light: "amber; violet"
+    art: >
+      Low on a tetrapod: Nib (nib, field form) lands back in a crouch, knives out, and looks up at the leviathan he has freed.
+    acting:
+      nib: "landing in a crouch, looking up, breathing hard"
+    eyeline: "Nib → the leviathan (up)"
+    calm: left
+    lines:
+      - {who: nib, type: speech, text: "NO MORE CHAINS.", side: l}
+
+  # ================= THE LANTERN (P47-P57) =================
+  - id: P47
+    recipe: monster-reveal
+    shape: full
+    gap: long
+    bg: black
+    camera: "low from the neck of the breakwater: the leviathan rising to her full height out of the harbour, the crest-spine and the violet lantern towering over the city"
+    light: "the violet lantern lighting everything from above"
+    art: >
+      THE DEEP LANTERN. From low at the neck of the breakwater: freed, the leviathan (deep_lantern) rises out of the harbour to her full
+      height, water pouring off her coral-crusted head; her two webbed hands, each 15 m across, grip the harbour's edge; from the top of her
+      head the curved crest-spine rises 30 m, and at its tip the great lantern, a cage of pale coral round a core burning violet, pulses
+      and lights the whole harbour; a Hush crack runs down her brow. The fighters on the breakwater are specks below her. The lower part is
+      calm for the window.
+    acting:
+      deep_lantern: "rising, her head lifting, the lantern pulsing"
+    calm: bottom
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.9], text: "[BOSS: THE DEEP LANTERN (S) · HUSHED]"}
+    sfx:
+      - {text: "THOOOOOOOM", style: impact, at: [0.30, 0.20], size: XL, rot: -4}
+
+  - id: P48
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of one small ancient eye, dull violet, beside the Hush crack running down her brow"
+    light: "violet"
+    art: >
+      Extreme close-up of one of the Deep Lantern's small ancient eyes (deep_lantern), dull violet, beside the Hush crack down her brow
+      leaking violet ash; the eye turns and finds the breakwater. Fill the canvas edge to edge.
+    acting:
+      deep_lantern: "the eye turning, finding Jaeha"
+    calm: none
+    silent: true
+    sfx:
+      - {text: "rrrmmm", style: quiet, at: [0.80, 0.50], size: S, rot: 0}
+
+  - id: P49
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low from the walkway: the vast head lowering toward Jaeha, Pim beside him with his antennae flat"
+    light: "violet from the lantern above"
+    face: private
+    art: >
+      From low on the walkway: the vast head (deep_lantern) lowers toward Jaeha (kang_jaeha, training) until one eye is level with the
+      breakwater; Pim (pim, field form) beside him has his antennae flattened.
+    acting:
+      deep_lantern: "head lowering, the eye fixed on Jaeha"
+      kang_jaeha: "standing his ground, looking up at the eye"
+      pim: "antennae flat, wings trembling, translating"
+    eyeline: "the eye → Jaeha; Jaeha → the eye"
+    foreground: "Pim's open wing, cropped, right"
+    calm: top
+    lines:
+      - {who: deep_lantern, type: monster, text: "<...O-PER-A-TOR...? YOU... STOPPED...>", side: r}
+      - {who: pim, type: speech, text: "BOSS... SHE THINKS YOU'RE HIM.", side: l}
+
+  - id: P50
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on the lantern's coral cage, the violet core pulsing, rings of violet light washing out across the harbour"
+    light: "violet rings"
+    art: >
+      Close on the lantern at the tip of her crest: the cage of pale coral, the core inside pulsing brighter, rings of violet light
+      washing out across the harbour.
+    calm: left
+    silent: true
+    sfx:
+      - {text: "thoom... thoom...", style: quiet, at: [0.30, 0.70], size: S, rot: 0}
+
+  - id: P51
+    recipe: establish
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level on the market's waterfront: the evacuating crowd stopping, turning and walking back toward the water, glassy-eyed"
+    light: "violet washing over them"
+    art: >
+      On the market's waterfront at eye level: the evacuating crowd (evacuees) stops, turns, and walks slowly back toward the water,
+      their eyes glassy and lit violet; Choi (choi_dongmin) grabs a man by the jacket; Yerin (song_yerin) pulls at a woman's arm; the
+      husk wall stands between them and the sea.
+    acting:
+      evacuees: "walking slowly toward the water, arms slack, eyes glassy violet"
+      choi_dongmin: "grabbing a man by the jacket, digging his heels in"
+      song_yerin: "pulling at a woman's arm with both hands, terrified"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "step... step...", style: quiet, at: [0.50, 0.86], size: S, rot: 0}
+
+  - id: P52
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "eye level on the pier: Seoa lowering the megaphone, her eyes glazing violet, stepping toward the pier's edge"
+    light: "violet"
+    art: >
+      On the pier at eye level: Seoa (kang_seoa) lowers the megaphone, her eyes glazed with violet light behind her glasses, and steps
+      toward the edge of the pier. The camera stays at her eye level.
+    acting:
+      kang_seoa: "the megaphone sliding down, eyes glassy, stepping forward slowly"
+    calm: right
+    silent: true
+    sfx:
+      - {text: "step", style: quiet, at: [0.70, 0.80], size: S, rot: 0}
+
+  - id: P53
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low on the walkway: Jaeha turning toward the market, reaching out, Pim already spreading his wings"
+    light: "violet"
+    face: private
+    art: >
+      Low on the walkway: Jaeha (kang_jaeha, training) turns toward the market and reaches out uselessly across 200 m of water; beside
+      him Pim (pim, field form) spreads his wings and crouches to leap.
+    acting:
+      kang_jaeha: "turning, reaching toward the market, face white"
+      pim: "crouching, wings spreading, eyes fierce"
+    eyeline: "Jaeha → the market; Pim → the light tower"
+    foreground: "the parapet's edge, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: shout, text: "SEOA!", side: l}
+      - {who: pim, type: shout, text: "I'VE GOT HER, BOSS!", side: r}
+
+  - id: P54
+    recipe: splash
+    shape: full
+    gap: short
+    bg: black
+    camera: "low, looking up at a harbour light tower: Pim on top with his wings fully open, screaming a signal, rings of lilac sweeping out over the harbour"
+    light: "lilac rings overpowering the violet"
+    art: >
+      PIM'S SIGNAL. Low, looking up at a tall harbour light tower: Pim (pim, field form) stands on top of it with his wings opened to their
+      full span, every eye-spot blazing lilac, his antennae blazing, his tiny mouth wide open in a scream; huge rings of lilac signal sweep
+      out over the harbour and wash the violet away; behind and far above, the Deep Lantern's violet lantern. Scale: the tower is 25 m.
+    acting:
+      pim: "wings fully open, arms flung wide, screaming with his whole body"
+    calm: top
+    lines:
+      - {who: pim, type: shout, text: "DON'T LISTEN TO HER! LISTEN TO ME!", side: r}
+    sfx:
+      - {text: "WHEEEEEEEEE", style: summon, at: [0.30, 0.70], size: XL, rot: 0}
+
+  - id: P55
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level on the pier's edge: Seoa blinking awake with her toes over the water, Yerin grabbing her arm and pulling her back"
+    light: "lilac washing over violet"
+    art: >
+      On the pier's edge at eye level: Seoa (kang_seoa) blinks awake with the toes of her shoes over the black water; Yerin (song_yerin)
+      grabs her arm with both hands and pulls her back. The camera stays at Seoa's eye level.
+    acting:
+      kang_seoa: "blinking, swaying back from the edge, clutching the megaphone"
+      song_yerin: "pulling her back by the arm with both hands, eyes squeezed shut"
+    calm: top
+    lines:
+      - {who: kang_seoa, type: speech, text: "...WHAT WAS I DOING?", side: l}
+    sfx:
+      - {text: "yank", style: quiet, at: [0.70, 0.40], size: S, rot: 0}
+
+  - id: P56
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Bomi's live stream, the screen flat green, the chat flying"
+    light: "the screen"
+    art: >
+      Close on Bomi's phone (yoo_bomi, her hand only) on the market roof, the screen flat green, shaking in her hand.
+    acting:
+      yoo_bomi: "only her hand, gripping the phone"
+    calm: left
+    silent: true
+    ui:
+      - {kind: phone.live_stream, "on": screen, viewers: "4,113,920 WATCHING", chat: ["[busan_dad]: my wife just woke up at the water", "[mothfan01]: THE MOTH SAVED EVERYONE", "[ttokbokki_lover]: DON'T LOOK AT THE LIGHT"]}
+
+  - id: P57
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "low on the pier: Seoa raising the megaphone again, Yerin beside her"
+    light: "lilac; violet"
+    art: >
+      Low on the pier: Seoa (kang_seoa) raises the megaphone again, shaking but furious; Yerin (song_yerin) holds her other hand. The
+      camera stays at Seoa's eye level.
+    acting:
+      kang_seoa: "megaphone up, shaking, furious, eyes clear"
+      song_yerin: "holding Seoa's other hand, nodding hard"
+    eyeline: "Seoa → the crowd"
+    foreground: "the pier's bollard, cropped, right"
+    calm: right
+    lines:
+      - {who: kang_seoa, type: shout, text: "EVERYONE, BACK UPHILL! DON'T LOOK AT THE LIGHT!", side: l}
+
+  # ================= TWO WALLS (P58-P66) =================
+  - id: P58
+    recipe: anticipation
+    shape: tall
+    gap: long
+    bg: black
+    camera: "low from the walkway: a vast webbed hand rising over the neck of the breakwater, blotting out the lantern"
+    light: "violet behind the hand; deep shadow under it"
+    art: >
+      From low on the walkway: the Deep Lantern (deep_lantern) raises one vast webbed hand, 15 m across, over the neck of the breakwater,
+      blotting out her own lantern; its shadow falls over the fighters, the husk wall and the crowd behind.
+    acting:
+      deep_lantern: "raising the hand high, fingers spread"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "WHOOOOM", style: alert, at: [0.50, 0.20], size: L, rot: 0}
+
+  - id: P59
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, side-on: Geum stepping in beside Borro under the falling shadow, the ladle raised beside his shield"
+    light: "the hand's shadow; moss green; white"
+    art: >
+      Side-on at eye level, under the falling shadow: Borro (borro, field form) plants himself with his shield raised over his head, and
+      Geum (geum_okran) steps in beside him with the ladle raised beside the shield, its bowl beginning to glow white.
+    acting:
+      borro: "shield raised overhead, legs braced, looking down at her"
+      geum_okran: "stepping in beside him, ladle up, a grim grin"
+    eyeline: "Geum → Borro (up); Borro → Geum (down)"
+    foreground: "the hand's shadow edge, cropped, top"
+    calm: top
+    lines:
+      - {who: geum_okran, type: speech, text: "TOGETHER, BIG MAN. TWO WALLS.", side: l}
+      - {who: borro, type: speech, text: "TWO WALLS.", side: r}
+
+  - id: P60
+    recipe: impact
+    shape: full
+    gap: short
+    bg: black
+    camera: "low and wide: the giant hand slamming down onto Borro's shield and Geum's ladle side by side, white force and moss-green light bursting, the breakwater cracking"
+    light: "a burst of white and moss green under the hand"
+    art: >
+      TWO WALLS. Low and wide: the vast webbed hand (deep_lantern) slams down onto the neck of the breakwater, and Borro's shield (borro,
+      field form) and Geum's ladle (geum_okran) meet it side by side; a burst of white force and moss-green light explodes under the palm;
+      the concrete cracks in a huge star under them and spray erupts on both sides; they hold the hand a few metres above the walkway,
+      the husk wall and the crowd untouched behind them. Scale: the hand is 15 m across; they are under one finger.
+    acting:
+      borro: "crushed down to one knee behind the shield, roaring"
+      geum_okran: "both feet planted, the ladle overhead in both hands, teeth bared, holding"
+      deep_lantern: "pressing down with the hand"
+    calm: top
+    sfx:
+      - {text: "KRAAAA-THOOOOM", style: impact, at: [0.50, 0.15], size: XL, rot: -6}
+
+  - id: P61
+    recipe: carry
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low and close: Jaeha's knees buckling as a thick moss-green thread joins the cyan ones in his chest, blood from his nose and ears"
+    light: "moss green and cyan threads; red"
+    face: private
+    art: >
+      Low and close: a thick moss-green thread from Borro joins the cyan threads pouring into Jaeha's chest (kang_jaeha, training); his
+      knees buckle; blood runs from his nose and from both ears.
+    acting:
+      kang_jaeha: "knees buckling, one hand on the parapet, the other clutching his chest, blood from nose and ears"
+    calm: top
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.86], text: "[CARRY ×29 · LOAD 210% · OVERLOAD]"}
+    sfx:
+      - {text: "THUD... THUD...", style: alert, at: [0.80, 0.30], size: M, rot: 0}
+
+  - id: P62
+    recipe: system
+    shape: inset-r
+    gap: short
+    bg: navy
+    camera: "close on a red window glitching and tearing in front of Jaeha's face"
+    light: "red; glitch fringes"
+    art: >
+      Close on a red window glitching and tearing in front of Jaeha's face (kang_jaeha), its edges splitting into offset red and blue
+      fringes. The upper part is the window.
+    acting:
+      kang_jaeha: "staring through it, eyes unfocusing"
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.glitch, "on": float, at: [0.5, 0.06], text: "[OPERATOR BODY: CRITICAL · HEART RHYTHM IRREGULAR · CARDIAC ARREST RISK]"}
+
+  - id: P63
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of Jaeha's eyes, grey creeping in at the edges of the frame"
+    light: "fading"
+    face: private
+    art: >
+      Extreme close-up of Jaeha's eyes (kang_jaeha), unfocusing, grey creeping in from the edges of the frame like a vignette. Fill the
+      canvas edge to edge.
+    acting:
+      kang_jaeha: "eyes unfocusing, lids heavy"
+    calm: none
+    silent: true
+    sfx:
+      - {text: "thud...   ...thud", style: quiet, at: [0.80, 0.50], size: S, rot: 0}
+
+  - id: P64
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low under the hand: Geum holding with both arms shaking, shouting back over her shoulder at Jaeha"
+    light: "white glow from the ladle; the hand's shadow"
+    art: >
+      Low under the hand: Geum (geum_okran), the ladle overhead and both arms shaking, the steel one sparking at the joints, shouts back
+      over her shoulder at Jaeha; Borro (borro, field form) strains beside her.
+    acting:
+      geum_okran: "holding the ladle overhead, arms shaking, the steel arm sparking, shouting over her shoulder"
+      borro: "straining behind the shield, on one knee"
+    eyeline: "Geum → Jaeha"
+    foreground: "the hand's webbed edge, cropped, top"
+    calm: top
+    lines:
+      - {who: geum_okran, type: shout, text: "THAT'S HOW HE DIED, KID!", side: l}
+      - {who: geum_okran, type: shout, text: "HE CARRIED UNTIL HE COULDN'T. THEN HE STOPPED CARRYING, AND THEY DIED!", side: l}
+    sfx:
+      - {text: "BZZT BZZT", style: comic, at: [0.30, 0.50], size: S, rot: 0}
+
+  - id: P65
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close and low on Jaeha on his knees, bloody, shouting up"
+    light: "red; cyan threads"
+    face: private
+    art: >
+      Close and low on Jaeha (kang_jaeha, training) on his knees, blood on his face, shouting up at her.
+    acting:
+      kang_jaeha: "on his knees, head up, shouting, desperate"
+    eyeline: "Jaeha → Geum"
+    calm: right
+    lines:
+      - {who: kang_jaeha, type: shout, text: "THEN WHAT DO I DO?!", side: l}
+
+  - id: P66
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Geum under the hand, the glowing ladle, her eyes fierce"
+    light: "white glow from the ladle"
+    art: >
+      Close on Geum (geum_okran) under the hand, the ladle's bowl glowing white over her head, her eyes fierce, the gold tooth bared.
+    acting:
+      geum_okran: "holding, eyes locked on him, teeth bared"
+    eyeline: "Geum → Jaeha"
+    foreground: "the glowing ladle bowl, cropped, top"
+    calm: left
+    lines:
+      - {who: geum_okran, type: shout, text: "DON'T CARRY IT. HOLD IT!", side: l}
+
+  # ================= HOLD IT (P67-P73) =================
+  - id: P67
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low and close on Jaeha: his eyes clearing, his jaw setting, the grey pulling back"
+    light: "cyan; the grey retreating"
+    face: private
+    art: >
+      Low and close: Jaeha's eyes (kang_jaeha, training) clear; the grey pulls back from the edges of the frame; his jaw sets.
+    acting:
+      kang_jaeha: "eyes clearing, jaw setting, lifting his head"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: inner, text: "A WALL DOESN'T PUSH BACK. IT HOLDS."}
+    sfx:
+      - {text: "breath", style: quiet, at: [0.80, 0.70], size: S, rot: 0}
+
+  - id: P68
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level two-shot: Jaeha letting the cyan threads go, Moon Ahin catching them on her baton"
+    light: "cyan threads flowing from him to her"
+    face: private
+    art: >
+      Eye-level two-shot: Jaeha (kang_jaeha, training) opens his hand and lets the 28 cyan threads go; they swing across to Moon Ahin
+      (moon_ahin), who catches them on the tip of her baton.
+    acting:
+      kang_jaeha: "opening his hand, letting the threads go, looking at her"
+      moon_ahin: "catching the threads on her baton, steadying them, eyes wide"
+    eyeline: "Jaeha → Moon Ahin; Moon Ahin → the threads"
+    foreground: "the cyan threads, cropped, top"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "AHIN. THEY'RE YOURS. HOLD THEM.", side: l}
+      - {who: moon_ahin, type: speech, text: "...I'VE GOT THEM.", side: r}
+
+  - id: P69
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on the husk wall: cracks running through a few husks, Moon Ahin whispering their names"
+    light: "violet; cyan fading"
+    art: >
+      Close on the husk wall: hairline cracks run through two of the husks (ahin_husks) as the crawlers hit, but the wall holds;
+      Moon Ahin's lips move at the edge of the frame (moon_ahin).
+    acting:
+      ahin_husks: "braced, cracking but holding"
+      moon_ahin: "at the edge, whispering, conducting with tiny flicks"
+    calm: right
+    lines:
+      - {who: moon_ahin, type: whisper, text: "HOLD, BYEOL. HOLD, NOEUL.", side: l}
+    sfx:
+      - {text: "krk... krk...", style: quiet, at: [0.60, 0.40], size: S, rot: 0}
+
+  - id: P70
+    recipe: system
+    shape: inset-r
+    gap: short
+    bg: navy
+    camera: "close on Jaeha getting up off one knee, the window turning from red to cyan"
+    light: "cyan"
+    art: >
+      Close on Jaeha (kang_jaeha, training) getting up off one knee, wiping the blood from his mouth, as the window beside him turns
+      from red to cyan. The upper part is calm for the window.
+    acting:
+      kang_jaeha: "getting up, wiping his mouth with the back of his bandaged wrist"
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.06], text: "[CARRY ×29 → ×1 · LOAD 210% → 60%]"}
+
+  - id: P71
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from behind Borro's shield: Jaeha stepping up behind Borro and laying both open hands on his back"
+    light: "moss green; white-gold beginning in Jaeha's hands"
+    face: private
+    art: >
+      From low beside Borro's braced shield: Jaeha (kang_jaeha, training) steps up behind Borro (borro, field form), still holding the hand
+      with Geum, and lays both open hands flat on the slate plates of his back; a faint white-gold glow starts in Jaeha's palms.
+    acting:
+      kang_jaeha: "both palms flat on Borro's shell, feet planted, eyes steady"
+      borro: "straining under the hand, turning his head to look back"
+    eyeline: "Jaeha → Borro; Borro → Jaeha"
+    foreground: "the shield's rivets, cropped, right"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "BORRO. PASS ME THE NEXT ONE. ALL OF IT.", side: l}
+      - {who: borro, type: speech, text: "...ALL OF IT?", side: r}
+
+  - id: P72
+    recipe: system
+    shape: inset-l
+    gap: short
+    bg: navy
+    camera: "close on Jaeha's glowing palms on Borro's shell, a cyan window over them"
+    light: "white-gold; cyan"
+    art: >
+      Close on Jaeha's palms (kang_jaeha) flat on Borro's slate shell, glowing white-gold; a cyan window hangs over them.
+    acting:
+      kang_jaeha: "only his hands, glowing, steady"
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.06], headline: "[STORE: READY]", body: "1 STRIKE · RISK: BONE DAMAGE", button: "HOLD"}
+
+  - id: P73
+    recipe: anticipation
+    shape: full
+    gap: short
+    bg: black
+    camera: "low from behind Jaeha on the cracked walkway: the Deep Lantern lifting her hand off the breakwater and raising it high for the next blow, the violet lantern blazing behind it"
+    light: "violet lantern; the hand silhouetted"
+    art: >
+      From low behind Jaeha on the cracked walkway: the Deep Lantern (deep_lantern) lifts her hand off the breakwater and raises it far
+      higher than before for the next blow, fingers spread, silhouetted against her blazing violet lantern; small below it, Jaeha
+      (kang_jaeha, training) stands with his palms on Borro's back, and Geum (geum_okran) raises the ladle again.
+    acting:
+      deep_lantern: "raising the hand high, the lantern blazing"
+      kang_jaeha: "palms on Borro's back, looking up, unmoving"
+      borro: "raising the shield again"
+      geum_okran: "raising the ladle again, grinning"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "WHOOOOOOOM", style: alert, at: [0.50, 0.20], size: XL, rot: 0}
+
+  - id: END
+    kind: end
+    chibi_gag: "Chibi Pim on the light tower with his wings open, mid-scream, while chibi Lyra below holds up a scorecard reading '10'; chibi Nib, deadpan, holds one reading '......'."

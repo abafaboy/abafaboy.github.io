@@ -409,6 +409,7 @@ Recurring people get one lineup sheet (`characters_v2/neighbourhood/lineup.png`,
 | `light_fighters` | His fighters made of light | 35 | Five tall human-shaped figures of soft amber light, featureless, walking unhurried ahead of him; and in the water beside the breakwater one vast long swimming shape of amber light with a lantern of light at the tip of a curved crest on its head (the Deep Lantern before she was hushed, 4d.3). In the greys of the flashback, amber is their only colour. |
 | `kanghan_engineer`, `kanghan_tactical` | Kanghan Marine's crew on the barge | 37-40 | As in 2.18, with orange life vests over the coveralls. |
 | `kanghan_pr` | Kanghan's PR team on the beach | 37 | Two smiling staff in their thirties in navy blazers with small silver hexagon pins, a man and a woman, the man holding a glossy folder; a photographer with a big camera. |
+| `evacuees` | The crowd leaving the fish market in the break | 39 | Fishmongers in rubber aprons and boots, shoppers, tourists, families with children (drawn simply), an old man with a cane; bags, a toddler's stroller. Lured, their eyes glaze with violet light; they walk slowly, arms slack. |
 | `beachgoers` | People on the Busan beach | 37 | Walkers and tourists in light autumn clothes (cardigans, caps, rolled trousers), phones up; a middle-aged tourist couple in matching windbreakers who want a selfie with "the mascot"; a man with a metal detector. |
 
 **Looks (outfits) for Arc 5:**
