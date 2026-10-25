@@ -44,8 +44,9 @@ Claude opens the Codex chats on the owner's computer and checks every result. Ea
    - **S1–S12:** the model sheets, one chat per character (`MODEL_SHEETS_BRIEF.md`), in a NEW folder `characters_v2/`, never in the old `characters/`;
    - **L1–L5:** the location keys (`LOCATION_KEYS_BRIEF.md`), in `locations_v2/`.
 2. **Last:** S13, the scale chart, once S1–S11 are done.
-3. **Acting test (A1):** three chapter 1 talk panels (`ACTING_TEST_BRIEF.md`), in `style_test_v2/acting/`, once Jaeha's round 1 fixes are done.
-4. **Chapter panels:** only after the owner approves the new chapter 1 script. A v2 panel brief comes with it.
+3. **Acting test (A1):** three chapter 1 talk panels (`ACTING_TEST_BRIEF.md`), in `style_test_v2/acting/`, once Jaeha's round 1 fixes are done. Round 2 adds a five-panel dialogue run, P27–P32.
+4. **Round 2 fixes** (`REVIEW_FIXES.md`, "Round 2") and **S15, Moon Ahin** (`MODEL_SHEETS_BRIEF.md`), drawn early for the owner's sheets.
+5. **Chapter panels:** only after the owner approves the new chapter 1 script. A v2 panel brief comes with it.
 
 ## Hard rules for every job
 - **No text in the art,** except the single block letter T on Jaeha's vest patch. Emblems without letters are fine; brand logos and wordmarks are not. The letterer adds every word, sound effect and window. Screens that need content are flat #00FF00.

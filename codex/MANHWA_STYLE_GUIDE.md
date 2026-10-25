@@ -227,6 +227,9 @@ The owner's verdict on the last manhwa was that body positions, emotions and dia
    - scratching the back of the head when embarrassed;
    - a sparkling face beside a sweating, darkened face for comic contrast;
    - small hand-lettered asides outside the bubbles (written by the script, set by the letterer).
+8. **Talking mouths** (the owner, 25 October: "remember about the faces and emotions and body language and dialog face movements"). The speaker's mouth is open in the middle of the words, shaped to the line: a small open mouth for ordinary talk, a wide one for a shout, barely parted for a mutter, a tight one-sided line for sarcasm. A speaker is never drawn with a closed, neutral mouth, and a character who is not speaking keeps the mouth closed or reacting.
+9. **The face moves with every line.** In a run of talk panels, the same character never wears the same face and head angle twice in a row. Something changes each panel: the brows lift or knit, the eyes slide away and come back, a smile tightens or drops, the head tilts or turns, the chin lifts. Follow the script's emotion beat by beat.
+10. **Listeners react.** In a two-shot, the listener shows the line landed: a twitch at the mouth corner, narrowed eyes, a swallow (GULP), a forced smile, a look away.
 
 **Talk panels**
 1. **Eyelines go to the other person.** Faces are three-quarter or profile, looking off-panel toward whoever they are talking to. Only shock or comedy reactions and system panels face the camera.
@@ -380,6 +383,7 @@ Reject the image if any of these show. Look at it full size, then at 200 px wide
 7. **Anatomy.** Count the fingers and toes; check every joint bends the right way; eyes level; limbs the same length in every view.
 8. **Background.** Sheets: flat #E9E9EC only, no vignette, gradient or texture, and no shadow pool larger than a soft contact shadow under the feet.
 9. **Modesty.** Kang Seoa is 15: her skirt reaches the top of her knee, and nothing in her images is styled to show skin. Adults wear exactly the design's clothes.
+10. **Left and right.** Side locks (Jaeha's fringe, pencil and notebook; Nib's ear notch, fang and mask; Yerin's sleeve cross; the lizards' blind eye; the knight's cracked pauldron; Lyra's braid, guard and quiver) must sit on the correct side in every view. The rule: a character facing the viewer has their RIGHT side on picture-left; a character facing picture-left shows their LEFT side; a character facing picture-right shows their RIGHT side; in a back view, picture-left is their LEFT. A lock on the far side is hidden or only peeks past the silhouette.
 
 ### 11c. Acting checks (chapter and test panels only)
 
@@ -392,6 +396,9 @@ These do not apply to model sheets, whose turnarounds stand neutral by design. R
 6. **Repeated camera.** The same camera angle and shot size as the panel before.
 7. **Lineup.** Three or more people side by side at one depth with their heads at the same height.
 8. **Copied sheet pose.** A character stands in their model sheet's front-view pose.
+9. **Silent speaker.** The character who says the panel's line has a closed, neutral mouth, or a character with no line has an open, talking mouth (6b Faces 8).
+10. **Frozen face.** Across consecutive panels, a character keeps the same expression and head angle from one panel to the next (6b Faces 9).
+11. **Props that float.** A shield, weapon, bag or prop is not held, worn on a visible strap, or resting on something.
 
 ## 12. Ours against real, in one line each
 

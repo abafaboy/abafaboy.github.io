@@ -17,11 +17,15 @@
 - Maud is a woman;
 - the gate opens in the pit's far wall.
 
-**Fan service (the owner's direction, 25 October).** In his words: "adding overall slightly more fan service is good for retention and hype."
-- **Who:** the adult women of the main cast: Lyra (2.10), Yoo Bomi (2.7) and Moon Ahin (2.9).
-- **Never:** Kang Seoa, who is 15. Song Yerin keeps her approved look, the small, scared rookie.
+**Fan service (the owner's direction, 25 October).** In his words: "adding overall slightly more fan service is good for retention and hype", and later that night: "as much fan service and as beautiful characters as possible. revealing clothes when possible."
+- **Who:** the clearly adult women:
+  - Lyra (2.10);
+  - Yoo Bomi (2.7);
+  - Moon Ahin (2.11, drawn now so she is in the owner's sheets);
+  - the Black Hound crossbow hunter (2.5, hunter 5).
+- **Never:** Kang Seoa, who is 15. Song Yerin also keeps her approved, covered look: her design reads young (small, round-faced, freckled), and fan service never goes to anyone who could read as under 18. She stays the scared rookie, drawn cute, never sexy.
 - **What it means:**
-  - attractive faces and figures;
+  - beautiful faces and attractive, curvy, athletic figures;
   - the revealing outfits as designed, and confident poses;
   - glamour intro panels;
   - comedic reactions from the men around them: Jaeha flustered, Nib unimpressed.
@@ -188,7 +192,7 @@ Six hunters, all in the black guild jacket with a small red hound's head. Each h
 | 2 | A stocky bearded axe fighter | dies |
 | 3 | Sword and round buckler, a ponytail | dies |
 | 4 | A mage with a short staff topped by a small core (a violet glow) | dies |
-| 5 | A woman with a crossbow and a short bob | retreats with Mok |
+| 5 | A striking woman in her late twenties with a crossbow: a sleek black bob, winged eyeliner, red lips; the guild jacket cropped and worn open over a fitted black tank top with a low scoop neckline; fitted black tactical trousers with a thigh holster (restyled 25 October for the fan-service direction) | retreats with Mok |
 | 6 | A burly shield-bearer with a shaved head | retreats with Mok |
 
 Deaths happen between panels, in silhouette and splashes (style guide section 9).
@@ -234,7 +238,7 @@ In the chapter 1 flash-forward, all seven summons stand behind Jaeha as black si
 | **Maud**, field surgeon | ch 48 | A woman, 1.9 m and broad, a burn-scarred face, cropped white hair, surgeon's plate over stitched leather aprons, a bone saw and a needle case. Signature colours: bone white and oxblood. |
 | **Caldric**, the Bell General | ch 68 | 2.1 m, cracked bronze armour shaped like a great bell, a bell-headed mace whose every hit rings |
 | **Kett**, young goblin scout | ch 88 (and the chapter 3 flashback) | Nib's apprentice; talks too much. About 95 cm, slighter than Nib, smoother grey-green skin, a goblin face like Nib's but young (a pointed nose, shorter and straighter than Nib's; a narrow pointed chin; an angular skull), long ears with no notch, an oversized hand-me-down charcoal scout cloak, one short knife, a mustard-yellow scarf #D9A62E, an eager open face. A young soldier, never a mascot. |
-| **Moon Ahin**, "the Puppeteer" | ch 12 | 22, a cold beauty and the second thumbnail-grade woman (owner, 25 October). Her 40 husks are flawless and polished.<br>- **Hair and face:** long, straight black hair tied with a silver ribbon; pale skin; sharp grey eyes; a faint, superior smile.<br>- **Outfit:** a fitted white long coat-dress with a deep V neckline and a slit to the hip; sheer white thigh-high stockings; white heeled boots; white gloves.<br>- **Prop:** a silver conductor's baton.<br>- **Status:** full sheet drawn when she arrives. |
+| **Moon Ahin**, "the Puppeteer" | ch 12 | Full design in 2.11 (drawn early for the owner's sheets). |
 | **Director Baek Taegun** | ch 5 (silhouette), ch 12 | 54, a grey suit, silver glasses, a cane with a core in the handle. Name card (ch 12): gradient, black #0E0E10 to smoky violet #4A3A66. |
 | **Auntie Geum Okran** | ch 33 | 62, an apron over a tracksuit, one prosthetic arm, a ladle she fights with |
 | **Oh Minseok** | flashbacks | The same orange vest as Jaeha's, a kind grin |
@@ -278,6 +282,32 @@ In the chapter 1 flash-forward, all seven summons stand behind Jaeha as black si
 - nudity or anything explicit.
 
 ---
+
+### 2.11 Moon Ahin (22): "the Puppeteer", the second thumbnail-grade woman (from ch 12)
+
+**Read at a glance.** A cold, flawless beauty in white with a silver baton, conducting forty polished husks.
+
+**Why she is drawn now.** The owner asked for as much fan service and as many beautiful characters as possible (25 October). She arrives in chapter 12, inside Arc 1, so her sheet goes into his PDF with Lyra's.
+
+| | |
+|---|---|
+| **Build** | 170 cm. A slender, curvy, long-legged figure; elegant posture, chin slightly raised. |
+| **Face** | A beautiful oval face with high cheekbones; sharp, cool grey eyes #8E96A3 under straight dark brows, long lashes; a small straight nose; full lips with a faint, superior half-smile. Cold, never cute. |
+| **Hair** | Long, straight, glossy black hair #15151A to the waist; the top half tied back with a silver ribbon bow #C9CDD6 at the back of her head. A few straight strands frame her face. |
+| **Skin** | Pale porcelain #F5E6E0 / #D9BFB8 |
+| **Coat-dress** | A fitted white long coat-dress #F4F4F2 / #CFD2D6, double-breasted with silver buttons, knee-to-calf length; a deep V neckline that plunges to the sternum; a high slit up her LEFT side to the hip, showing her leg as she walks. A narrow silver belt at the waist. |
+| **Legs** | Sheer white thigh-high stockings #F2F2F2 with a lace top showing at the slit; white knee-high heeled boots #EDEDED / #C4C7CC. |
+| **Hands** | White fitted gloves to the wrist. |
+| **Prop (lock)** | A silver conductor's baton #D4D8DE in her RIGHT hand, about 38 cm, with a small round silver pommel. |
+| **Her husks** | Unlike the dull matte husks of ordinary summoners (section 3), her forty husks are flawless, polished porcelain white with a soft gloss and fine silver seams. They move in perfect unison. |
+| **Name-card background** | Gradient, ice white #F0F2F5 to steel blue #5A6B85 |
+
+**Locks:** the silver ribbon bow; the slit on her LEFT leg; the baton in her RIGHT hand; white gloves.
+
+**Acting.**
+- **Default:** composed and still; she conducts with small flicks of the baton and never raises her voice.
+- **Contempt:** eyes half-lidded, looking down her nose, the half-smile.
+- **Rare crack:** when Jaeha's ugly summons beat her perfect husks, one eyebrow twitches and the smile freezes.
 
 ## 3. The husk
 
@@ -406,6 +436,12 @@ Use the snippet of every character in the panel, word for word, so the descripti
 
 **Lyra**
 > Lyra: a tall, strikingly beautiful adult river-folk archer who looks in her early twenties, 182 cm, slender and long-legged with an archer's strong shoulders and a curvy figure; very pale skin with a cool blue-grey tint and faint silver-grey freckles across her nose and cheekbones; small pointed ears with silver ear cuffs; river-blue almond eyes with long lashes and a confident half-smile; long silver-white hair with side-swept bangs and a thick braid over her LEFT shoulder down to her thigh, strung with small pearl and blue-glass beads; a cropped river-blue halter top with a deep plunging silver-trimmed neckline, ending just under the bust, her shoulders, arms and midriff bare; a dark navy leather chest guard over the left side of her chest; a silver bracer on her left forearm and a fingered leather glove on her right hand; a white silk sash with a pale wooden flute tucked in it and a white quiver of blue-fletched arrows at her right hip; a short river-blue skirt, mid-thigh at its longest, split to the hip on both sides over short fitted dark shorts, with bare thighs between the skirt and her white thigh-high boots with silver buckles; a white longbow as tall as she is, with silver fittings and a blue string.
+
+**Moon Ahin**
+> Moon Ahin: a strikingly beautiful 22-year-old Korean woman, 170 cm, slender, curvy and long-legged, with an elegant upright posture; a beautiful oval face with high cheekbones, sharp cool grey eyes under straight dark brows, long lashes, full lips with a faint superior half-smile; long straight glossy black hair to her waist, the top half tied back with a silver ribbon bow; pale porcelain skin; a fitted white double-breasted long coat-dress with silver buttons and a narrow silver belt, a deep V neckline plunging to the sternum, and a high slit up her LEFT side to the hip; sheer white thigh-high stockings with lace tops showing at the slit; white knee-high heeled boots; white fitted gloves; a slim silver conductor's baton in her RIGHT hand.
+
+**Black Hound crossbow hunter (hunter 5)**
+> The Black Hound crossbow hunter: a striking Korean woman in her late twenties, 168 cm, athletic and curvy; a sleek black chin-length bob, winged eyeliner, red lips, a cool confident look; the black guild jacket with a small red hound's head on the left chest, cropped at the waist and worn open over a fitted black tank top with a low scoop neckline; fitted black tactical trousers with a thigh holster; black boots; a compact crossbow.
 
 **A husk**
 > A husk: a 175 cm faceless white doll like a smooth matte jointed mannequin, with thin grey seam lines at the shoulders, elbows and knees and rings round the top of each thigh; smooth simplified forms with no navel or muscle lines; an oval face with no features, no clothes, standing stiffly with its arms hanging.

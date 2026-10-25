@@ -149,7 +149,7 @@ All pass. In L1 the gate opens in the pit's far wall, at the bottom between the 
 
 | Entry | Result |
 |---|---|
-| S1 Jaeha | Round 1 redone. Claude re-checks the files before the owner's PDF. |
+| S1 Jaeha | Front, turnarounds, expressions and details **pass** (Claude re-checked them on 25 October). `chibi.png` goes to round 2 below. |
 | S2 Nib | **Passes.** Claude moved the fang to his left (picture-right) in `front.png`, `turnaround.png` and the front figure of `turnaround_mask.png`. Claude's later three-quarter mask note was wrong: the original mask already covered his left eye, the near eye in that view, and the visible eye is his right. The extended mask is rejected and the original restored. |
 | S3 Yerin | **Passes.** Plain shoes, clean jacket, light blush. |
 | S4 Mok and the Black Hound | **Passes.** The mage's staff is short. |
@@ -163,3 +163,34 @@ All pass. In L1 the gate opens in the pit's far wall, at the bottom between the 
 | S12 silhouettes | **Passes** as rebuilt. One update is needed: re-mask Lyra from her approved `lyra/front.png` (design 2.10) instead of the earlier part, and re-run the composite. |
 | S14 Lyra | Front approved by the owner. Next: turnaround, expressions, details. |
 | L1–L5 | **Pass.** |
+
+---
+
+# Round 2: Claude's second strict pass (25 October, night)
+
+The owner went to sleep and left every decision to Claude. Claude re-checked every sheet, including the chibi sheets and the left/right side of every lock in every view (new check 11b.10). Find your entry and do only what it lists. Follow "How to do a fix" above; for a small local fix, edit only a cropped patch and composite it back, so the rest of the sheet stays pixel-identical.
+
+## S1 · Kang Jaeha: `chibi.png`
+- **Sawtooth vests.** In all eight chibi figures the vest is cut into jagged teeth along every armhole and hem, which round 1 should have caught (Claude's miss). Make the vest edges smooth like `front.png`: clean armholes and hem, with at most one or two tiny notches at the lower hem corners.
+- Keep everything else: the poses, faces, pencil (RIGHT ear), fringe (LEFT eye), notebook (LEFT chest pocket, and never a second notebook in the pocket when he holds one), T patch on the right chest.
+- Move the old file to `_rejects/kang_jaeha_r2_chibi_sawtooth_vest.png`.
+
+## S2 · Nib: three small lock fixes
+1. **`turnaround.png`, profile figure.** He faces picture-left, so we see his LEFT side and the near ear is his left ear, but it has no notch. Add the same V-notch as in the front view (on the ear's lower edge, near the tip). Patch only that ear; keep Claude's fang fix and every other pixel identical.
+2. **`details.png`, masked head (bottom left).** The picture-right ear is his left ear and has no notch. Add it, patching only that ear.
+3. **`chibi.png`.** In every figure only his LEFT ear has the one V-notch; his right ear has a clean edge (now both ears are ragged). The cloak hem is uneven and scorched with a few notches, never sawtooth teeth. Check that the one lower fang is on his LEFT in every figure where the mouth shows. Redraw the chibi sheet from `front.png` if patching would take longer.
+- Move each replaced file to `_rejects/nib_r2_<file>_<reason>.png`.
+
+## S4 · Black Hound: restyle hunter 5 in `black_hound/lineup.png`
+- The owner asked for as much fan service and as many beautiful characters as possible. Hunter 5, the crossbow woman, becomes a striking beauty (design 2.5 and her new snippet in section 8): a sleek black chin-length bob, winged eyeliner, red lips; the guild jacket cropped at the waist and worn open over a fitted black tank top with a low scoop neckline; fitted black tactical trousers with a thigh holster; black boots; the crossbow.
+- Edit only her figure (crop, edit, composite back). Every other hunter, Mok, the shields and the background stay pixel-identical.
+- Move the old file to `_rejects/black_hound_r2_lineup_old_hunter5.png`.
+
+## S8 · Kang Seoa: `chibi.png` (done by Claude)
+- The keychain hung on her LEFT in seven chibi figures but on her RIGHT in the turnaround. Claude mirrored those seven figures in place, so it hangs on her right in every sheet. Nothing else in her design is one-sided.
+
+## S15 · Moon Ahin: new entry
+- See `MODEL_SHEETS_BRIEF.md` S15 and design 2.11.
+
+## A1 · the acting test, round 2
+- See `ACTING_TEST_BRIEF.md`, "Round 2".
