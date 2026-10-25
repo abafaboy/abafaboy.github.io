@@ -1,0 +1,1244 @@
+chapter: 10
+title: A Roof, Not a Garden
+format: SCRIPT_FORMAT_v2.md
+when: "Saturday night, the last three seconds of the Call; Sunday morning on the rooftop; Tuesday afternoon, a D-grade gate on the seventh floor of a half-built tower in Mapo; Tuesday at dusk, the street outside."
+story_beats: STORY_BIBLE_v4.md#arc-2-chapters-612-the-trap-rats-chapter-by-chapter
+cast:
+  kang_jaeha: vest          # hoodie only in the Call, the room and the morning (P01–P24)
+  nib: mask                 # rest form except P44–P57 (field form, LINKED); no mask at home
+  borro: default            # rest form except P44–P57; husk mask in public (see continuity)
+  kang_seoa: default
+  song_yerin: default
+  landlady: default         # generic, from ch 6
+  site_manager: default     # generic, see continuity
+  ash_hound: default
+locations: [call_void, rooftop_room, tower_gate]
+continuity:
+  - "Jaeha: fringe over the LEFT eye, pencil behind the RIGHT ear, notebook in the LEFT chest pocket; the white bandage round his LEFT forearm (the ch 8 bite). New: a black-violet bruise round his RIGHT ankle shaped like long fingers (the Hush's grip in ch 9), seen when his trouser leg rides up (P20, P21). The vest (with Seoa's red stitches on the back patch) from P25."
+  - "Nib: seal 2/5 look; no mask at home, the cracked husk mask in public; rest form except P44–P57 (field form, LINKED: amber eyes, thin amber outline)."
+  - "Borro (CHARACTER_DESIGNS_v2.md 2.12, characters_v2/borro/): 2.4 m, about 7 heads, slate-grey skin, the humped slate-plate shell with moss and tiny white and yellow flowers, the linen tunic and rope belt, the gardener's satchel, bare feet, the door-sized iron shield (2 m tall). Slow, careful, gentle. Next to him Jaeha reaches his chest and Nib reaches his knee-and-a-bit (his hip). In public (from P25) a featureless white oval husk face tied over his face with cord, with two small round eye-holes. Field form: moss-green eyes and a thin moss-green outline. He is too tall for the rooftop room (ceiling 2.2 m) and must stoop or kneel inside."
+  - "The rooftop room's bed is a cheap metal-frame single bed; Borro lands on it in P12 and folds it flat. From P14 the mattress is on the floor, and the bed frame leans bent against the wall."
+  - "The site manager (generic, no name card): a nervous man in his forties in a white hard hat, a hi-vis vest over a shirt and tie, a clipboard and a thick envelope of cash."
+  - "The tower gate (location tower_gate): outside, an unfinished 12-storey concrete tower at dusk wrapped in scaffolding and flapping green safety mesh; the gate slit on the bare seventh floor. Inside, the same floors as a Far Side ruin: cracked, sagging concrete slabs and hanging rebar held up by a few load-bearing beams; one long beam (60 cm wide) runs across the main floor from a core wall to a perimeter column, and the slabs on either side of it are cracking away. Dusty orange dusk light through the missing walls; the floors below are dark."
+  - "Ash hounds (CHARACTER_DESIGNS_v2.md 4b.3): wolf-sized (90 cm at the shoulder), lean and long-legged, smooth black bodies with no eyes and no nose, a long split jaw of white bone teeth, ribs pressing through, cracks along the back leaking violet ash. The alpha (P36–P56) is the same creature at 1.6 m at the shoulder, with a ridge of deep cracks down its neck and back that vent violet ash when it howls."
+plants:
+  - "PLANT P20–P21: the black-violet finger bruise on his ankle (Part One mystery)."
+  - "PLANT P23: Seoa will go to Mangwon Market after school on Tuesday (the hook; ch 11)."
+  - "PLANT P58: the alpha's window offers only HARVEST again (ch 50)."
+hook_type: threat
+
+panels:
+
+  # ================= THREE SECONDS (P01–P13) =================
+  - id: P01
+    recipe: monster-reveal
+    shape: full
+    gap: none
+    bg: black
+    camera: "low, from the black water of the Call, looking up into the mossy green rift: a hill of moss rising and becoming a giant"
+    light: "key: a soft green sky inside the rift; the Call's black water reflecting it"
+    art: >
+      Inside the mossy green rift, under a soft green sky, the long low hill of moss and flowers rises: it is a back, a
+      humped shell of slate plates laid like a roof, and under it a giant slowly sits up out of the field, slate-grey, broad
+      and calm, moss and tiny white and yellow flowers growing in the cracks of the shell (borro, rest form). Earth and
+      petals fall from his shoulders. Jaeha (kang_jaeha, hoodie) stands chest-deep in the black water of the Call in the
+      foreground, tiny, looking up. Scale: the giant sitting is as tall as a one-storey house; Jaeha is a head and shoulders.
+    acting:
+      borro: "sitting up slowly from the field, one huge hand on the ground, the other brushing earth from his shoulder, eyes heavy-lidded"
+      kang_jaeha: "chest-deep in the black water, face tilted up, breath fogging"
+    calm: top
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[00:03]"}
+    sfx:
+      - {text: "RRRMMMMMM", style: impact, at: [0.70, 0.40], size: L, rot: 0}
+
+  - id: P02
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level over the black water: the green rift's cyan line glowing bright and thick, a window over it"
+    light: "cyan, bright; green from the rift"
+    art: >
+      Over the black water: the cyan line from the green rift to Jaeha glows bright and thick. The upper half is empty for
+      the window.
+    calm: top
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[ANSWERED · 00:03 · THE CALL HOLDS WHILE THE CALLED SPEAKS]"}
+    silent: true
+    sfx:
+      - {text: "VWOOM", style: summon, at: [0.50, 0.66], size: M, rot: 0}
+
+  - id: P03
+    recipe: talk
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from the water: the giant leaning toward the edge of the rift, his huge face filling the doorway"
+    light: "green sky behind him"
+    art: >
+      From low in the black water: the giant (borro) leans toward the edge of his rift until his broad, flat-browed face
+      fills the doorway, slow amber-brown eyes under heavy lids, a calm wide mouth. Moss on his shoulders. He takes his time.
+    acting:
+      borro: "leaning forward on his knuckles, head lowered to look at Jaeha, blinking slowly, completely unhurried"
+    eyeline: "Borro → Jaeha (down)"
+    foreground: "the rim of the rift, cropped, framing both sides"
+    calm: top
+    lines:
+      - {who: borro, type: speech, text: "............HELLO.", side: l}
+
+  - id: P04
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha, chest-deep in the black water, sweating despite the frost"
+    light: "green from the rift"
+    face: public
+    art: >
+      Close on Jaeha (kang_jaeha) chest-deep in the water, frost in his hair, a huge sweat drop despite the cold.
+    acting:
+      kang_jaeha: "eyes darting to the timer, a strained polite smile, a big sweat drop"
+    eyeline: "Jaeha → Borro"
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: nervous, text: "HELLO. NICE TO MEET YOU. WE HAVE THREE SECONDS.", side: r}
+
+  - id: P05
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, two-shot across the rift's threshold: the giant's face and Jaeha in the water"
+    light: "green and cyan"
+    art: >
+      Across the rift's threshold: the giant's huge calm face on the left, Jaeha small in the black water on the right.
+    acting:
+      borro: "resting his chin on one huge fist at the rift's edge, eyes half-lidded"
+      kang_jaeha: "chest-deep, both hands half raised, listening hard"
+    eyeline: "Borro ↔ Jaeha"
+    foreground: "moss trailing from the rift's edge, cropped, top left"
+    calm: top
+    lines:
+      - {who: borro, type: speech, text: "I'M SLOW ON PURPOSE. SLOW THINGS ARRIVE.", side: l}
+      - {who: borro, type: speech, text: "WHAT CAN YOU OFFER ME, OPERATOR?", side: l}
+
+  - id: P06
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "through the rift: Borro's field behind him, the moss going grey and black at its far edge, a slow tide of darkness eating it"
+    light: "green fading to grey at the far edge"
+    art: >
+      Through the rift, behind the giant: his field of moss and flowers runs to a low stone wall and a small hut; at the far
+      edge the moss is going grey, then black, a slow tide of darkness leaking violet ash creeping toward the wall.
+    calm: top
+    silent: true
+
+  - id: P07
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close on Jaeha in the water, speaking up to the giant, honest"
+    light: "green on his face"
+    face: private
+    art: >
+      Close and low on Jaeha (kang_jaeha) in the black water, looking up at the giant, speaking plainly, no sales smile.
+    acting:
+      kang_jaeha: "chest-deep, chin up, one hand open on his chest, eyes level and tired"
+    eyeline: "Jaeha → Borro (up)"
+    foreground: "the black wrist still round his ankle under the water, a dark shape, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "I CAN'T PROMISE YOU A GARDEN. I LIVE ON A ROOF IN SEOUL.", side: r}
+      - {who: kang_jaeha, type: speech, text: "BUT I CAN PROMISE YOU A ROOF. AND I'LL CARRY WHAT HITS YOU.", side: r}
+
+  - id: P08
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on the giant's eyes widening slightly, a petal falling past them"
+    light: "green"
+    art: >
+      Close on the giant's slow amber-brown eyes (borro) widening a little, a single white petal drifting down past them.
+    acting:
+      borro: "eyes opening wider under the heavy lids, brows lifting slightly"
+    eyeline: "Borro → Jaeha"
+    calm: right
+    lines:
+      - {who: borro, type: speech, text: "...NOBODY HAS EVER OFFERED TO CARRY ANYTHING FOR ME.", side: l}
+
+  - id: P09
+    recipe: summon-arrival
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from the water: the giant's huge hand reaching out of the rift toward Jaeha, the cyan line blazing"
+    light: "cyan blazing; green"
+    art: >
+      The giant's huge blunt-fingered hand reaches out of the rift toward Jaeha, palm up, as gentle as if it were picking up
+      an egg; the cyan line between them blazes white. Under the water, the black hand round Jaeha's ankle lets go and sinks
+      away.
+    acting:
+      borro: "reaching out with one open hand, palm up, slow and gentle"
+      kang_jaeha: "reaching up toward the hand with his bandaged arm"
+    calm: top
+    lines:
+      - {who: borro, type: speech, text: "A ROOF, THEN.", side: l}
+    sfx:
+      - {text: "KWAAAMM", style: summon, at: [0.66, 0.24], size: XL, rot: -6}
+
+  - id: P10
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level over the black water as the ring of rifts goes white, a window across it"
+    light: "a white flash spreading over the Call"
+    art: >
+      The Call floods with white light from the green rift outward; the black water turns to a mirror of white. The upper
+      half is empty for the window.
+    calm: top
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.05], headline: "[ACCEPTED · 00:03]", body: "SUMMON NO. 2 IS COMING THROUGH.", button: "OK"}
+    silent: true
+
+  - id: P11
+    recipe: anticipation
+    shape: wide
+    gap: short
+    bg: black
+    camera: "back in the room, eye level: the air above the bed tearing open in a cyan slit, Seoa and Nib leaping back"
+    light: "cyan from a tear in the air; the ceiling light bursting"
+    art: >
+      Back in the rooftop room: Jaeha's eyes stop glowing and he slumps; the air just above the metal bed tears open in a
+      vertical cyan slit that grows wider and wider, frost blowing out of it. Seoa (kang_seoa, pyjamas) leaps back against
+      her desk; Nib (nib, no mask) shoves Jaeha off the bed onto the floor.
+    acting:
+      kang_seoa: "flattened back against her desk, glasses askew, mouth open"
+      nib: "shoving Jaeha off the bed with both hands, already looking up at the slit"
+      kang_jaeha: "falling off the bed, blinking, dazed"
+    calm: top
+    sfx:
+      - {text: "VRRRRZZZT", style: summon, at: [0.50, 0.24], size: L, rot: 0}
+
+  - id: P12
+    recipe: splash
+    shape: full
+    gap: short
+    bg: white
+    camera: "eye level from the floor of the tiny room: a 2.4 m giant dropping out of the air onto the metal bed and folding it flat"
+    light: "a cyan burst; the ceiling bulb swinging"
+    art: >
+      The giant (borro, rest form) drops out of the cyan slit, far too big for the room, and lands sitting on the metal bed,
+      which folds flat under him with legs splaying out; his shell scrapes the ceiling, plaster dust falls, the bulb swings,
+      petals and earth fly. Seoa screams against her desk; Jaeha lies on the floor beside the wreck; Nib stands on the
+      fold-out table, untouched, arms folded. Scale: the room's ceiling is 2.2 m and he is 2.4 m; sitting, his head is
+      bowed against the ceiling.
+    acting:
+      borro: "sitting on the flattened bed with his knees up to his chest, head bowed under the ceiling, blinking calmly"
+      kang_seoa: "pressed against the desk, both hands on her cheeks, screaming"
+      kang_jaeha: "flat on the floor, staring up, mouth open"
+      nib: "standing on the table, arms folded, deadpan"
+    calm: top
+    sfx:
+      - {text: "KRRUNCH", style: impact, at: [0.36, 0.70], size: XL, rot: -8}
+      - {text: "KYAAAA", style: comic, at: [0.82, 0.30], size: M, rot: 6}
+
+  - id: P13
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low two-shot from the floor: Borro bowing his head politely to Nib on the table, plaster dust settling"
+    light: "the bulb still swinging; dust in the light"
+    art: >
+      From low on the floor: Borro (borro) bows his head politely toward Nib (nib, no mask), who stands on the fold-out table
+      at his eye level. Plaster dust settles on Borro's moss.
+    acting:
+      borro: "bowing his great head, one hand flat on his chest, calm"
+      nib: "standing on the table, arms folded, giving a small nod back, deadpan"
+    eyeline: "Borro → Nib; Nib → Borro"
+    foreground: "a bent bed leg, cropped, bottom left"
+    calm: top
+    lines:
+      - {who: borro, type: speech, text: "I AM BORRO. I BROKE YOUR BED.", side: l}
+      - {who: nib, type: speech, text: "YOU FIRST, NEXT TIME. THROUGH DOORS.", side: r}
+    sfx:
+      - {text: "CREAAAK", style: quiet, at: [0.30, 0.82], size: S, rot: 0}
+
+  - id: P14
+    kind: title
+    shape: full
+    gap: long
+    bg: black
+    title_card: "MY SUMMONS GO FIRST · CHAPTER 10 · A ROOF, NOT A GARDEN"
+    notes: "Title card at panel 14 of 66 (21%)."
+
+  # ================= TECHNICALLY (P15–P24) =================
+  - id: P15
+    recipe: name-card
+    shape: tall
+    gap: long
+    bg: white
+    camera: "eye level, full figure: Borro standing on the green rooftop in morning light, shield beside him, a blue tarp behind"
+    light: "key: soft morning sun from the left; long shadow"
+    art: >
+      Sunday morning on the green rooftop (location rooftop_room, key_day): Borro (borro, rest form) stands to his full
+      2.4 m height, the door-sized iron shield standing beside him, moss and tiny flowers on his slate shell catching the
+      sun. Behind him, a blue tarp has been strung between the water tank and the laundry line over a flattened mattress.
+      The whole figure in frame, full model-sheet proportions (about 7 heads). Name-card gradient behind him, dark slate to
+      moss green; leave the left third calm for the name card. Scale: the water tank (2 m) is shorter than he is; the
+      parapet reaches his thigh.
+    acting:
+      borro: "standing tall and calm, one hand resting on the shield's rim, looking out over the city with heavy-lidded eyes"
+    calm: left
+    intro: "BORRO · STONEBACK CARRIER OF THE FAR SIDE · SUMMON NO. 2"
+    silent: true
+
+  - id: P16
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level on the rooftop: Jaeha in his hoodie reading a window in front of Borro's chest"
+    light: "morning sun; cyan from the window"
+    art: >
+      Jaeha (kang_jaeha, hoodie) stands in front of Borro on the rooftop, reading a window in the air; he reaches Borro's
+      chest. The upper half is the morning sky, empty for the window.
+    acting:
+      kang_jaeha: "reading the window with his head tilted back, coffee in his good hand"
+      borro: "standing still, looking down at the window too, curious"
+    calm: top
+    ui:
+      - {kind: system.log, "on": float, at: [0.5, 0.04], headline: "[SUMMON NO. 2: BORRO]", lines: ["STONEBACK CARRIER · SEAL 1/5", "FIELD FORM 05:00", "SUMMON SLOTS 2/2", "ROUTE ALIGNMENT 100% → 0%"]}
+    silent: true
+
+  - id: P17
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, from the roof: Borro looking at his blue tarp and flattened mattress, Jaeha beside him with a coffee"
+    light: "morning sun"
+    face: public
+    art: >
+      From low on the roof: Borro (borro) looks at his blue tarp shelter and the flattened mattress under it; Jaeha
+      (kang_jaeha, hoodie) stands beside him with a paper cup.
+    acting:
+      borro: "looking down at the tarp, hands loose at his sides, a slow blink"
+      kang_jaeha: "sipping coffee, presenting the tarp with his free hand like an estate agent"
+    eyeline: "Borro → the tarp; Jaeha → Borro"
+    foreground: "the laundry line with a sock, cropped, top"
+    calm: top
+    lines:
+      - {who: borro, type: speech, text: "YOU PROMISED ME A ROOF.", side: l}
+      - {who: kang_jaeha, type: speech, text: "YOU'RE ON A ROOF.", side: r}
+
+  - id: P18
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Borro's face, thinking about it very slowly"
+    light: "morning sun"
+    art: >
+      Close on Borro (borro), thinking about it very, very slowly.
+    acting:
+      borro: "eyes rolling slowly up, then down, lips pursed, one finger raised"
+    eyeline: "Borro → the sky"
+    calm: left
+    lines:
+      - {who: borro, type: speech, text: "..........TECHNICALLY.", side: r}
+
+  - id: P19
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: white
+    camera: "close and low on a styrofoam fish box on the roof: Borro's huge fingers gently pressing a seed into a little pot of soil"
+    light: "morning sun"
+    art: >
+      Close on a white styrofoam fish box filled with soil at the edge of the roof: Borro's huge blunt fingers gently press a
+      single seed from his satchel into the earth, then pat it down as if it might break.
+    acting:
+      borro: "only his hands in frame, pressing a seed into the soil with one fingertip, the other hand cupping the box"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "PAT PAT", style: quiet, at: [0.70, 0.40], size: S, rot: 0}
+
+  - id: P20
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, by the plastic chairs: Nib crouching to stare at Jaeha's bare ankle, where the trouser leg has ridden up"
+    light: "morning sun"
+    art: >
+      By the plastic chairs: Jaeha (kang_jaeha, hoodie) has sat down, and his trouser leg has ridden up. Nib (nib, no mask)
+      crouches and stares at his RIGHT ankle: a black-violet bruise in the shape of long, thin fingers wraps round it.
+    acting:
+      nib: "crouched, one long finger pointing at the ankle, ears flat, eyes narrowed"
+      kang_jaeha: "leaning forward in the chair to look, the coffee forgotten"
+    eyeline: "Nib → the ankle; Jaeha → the ankle"
+    foreground: "a plastic chair leg, cropped, left edge"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "SOMETHING TOUCHED YOU OVER THERE.", side: l}
+      - {who: kang_jaeha, type: speech, text: "IT LET GO WHEN BORRO TOOK MY HAND.", side: r}
+
+  - id: P21
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "extreme close-up of the bruise round Jaeha's ankle: the marks of long, thin fingers"
+    light: "morning sun"
+    art: >
+      Extreme close-up of Jaeha's right ankle: a black-violet bruise in the shape of long, thin fingers with too many
+      joints, a faint violet shimmer at its edges.
+    calm: right
+    silent: true
+
+  - id: P22
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level at the top of the rooftop stairs: the landlady frozen on the top step, staring up at Borro, Seoa beside her"
+    light: "morning sun"
+    art: >
+      At the top of the rooftop stairs, the landlady (landlady), a rubbish bag in her hand, has stopped dead on the top step,
+      staring up and up at Borro (borro) by the water tank. Seoa (kang_seoa, school uniform, bag on her shoulder) stands
+      beside her, unbothered.
+    acting:
+      landlady: "frozen on the step, the rubbish bag dangling, head tilted all the way back, mouth open"
+      kang_seoa: "slinging her school bag on, perfectly calm, pointing up at Borro with her thumb"
+      borro: "giving the landlady a slow, polite little wave"
+    eyeline: "the landlady → Borro (up); Seoa → the landlady"
+    foreground: "the stair rail, cropped, bottom left"
+    calm: top
+    lines:
+      - {who: landlady, type: speech, text: "WHAT IS THAT?", side: l}
+      - {who: kang_seoa, type: speech, text: "A HUSK, MA'AM. A BIG ONE. IT'S NOT A PET.", side: r}
+
+  - id: P23
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low two-shot at the stair door: Seoa leaving for school, turning back to call out to Borro"
+    light: "morning sun"
+    art: >
+      Seoa (kang_seoa) leaves through the stair door for school and turns back to call to Borro, who looks pleased. Jaeha
+      waves her off with the coffee.
+    acting:
+      kang_seoa: "half through the door, turning back, a small smile, one hand on the strap of her bag"
+      borro: "lifting his head, a slow pleased smile"
+      kang_jaeha: "waving with the coffee cup"
+    eyeline: "Seoa → Borro"
+    foreground: "the door frame, cropped, left"
+    calm: top
+    lines:
+      - {who: kang_seoa, type: speech, text: "ON TUESDAY I'LL BUY RICE CAKES AT THE MARKET AFTER SCHOOL. FOR YOUR WELCOME DINNER.", side: l}
+      - {who: borro, type: speech, text: "I LIKE RICE CAKES. PROBABLY.", side: r}
+
+  - id: P24
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Jaeha's phone in his hand, the screen green"
+    light: "morning; the screen glow"
+    art: >
+      Close on Jaeha's phone in his black fingerless-gloved hand, the bandage on his forearm. Screen: flat green.
+    calm: left
+    ui:
+      - kind: phone.gate_status
+        "on": screen
+        title: "HUNTER JOB BOARD"
+        text: "GATE 4402 · GRADE D · UNFINISHED TOWER, MAPO · OWNER PAYS ₩2,000,000 CASH · NO STREAMING · TUESDAY 3 PM"
+    lines:
+      - {who: kang_jaeha, type: inner, text: "NO CAMERAS. GOOD. THE BIG ONE ISN'T READY FOR THE INTERNET."}
+
+  # ================= THE TOWER (P25–P58) =================
+  - id: P25
+    recipe: establish
+    shape: tall
+    gap: long
+    bg: white
+    camera: "low, from the street at the foot of an unfinished concrete tower at 3 PM, looking up its scaffolding"
+    light: "key: hazy afternoon sun; green safety mesh glowing where the light hits it"
+    art: >
+      An unfinished 12-storey concrete tower in Mapo (location tower_gate, outside): bare floors with no walls, scaffolding
+      and green safety mesh flapping, a tower crane frozen above. On the seventh floor, a cold white-cyan glow. At the gate
+      in the site fence: the site manager (site_manager) with a clipboard and an envelope; Jaeha (kang_jaeha, vest), Yerin
+      (song_yerin), Nib (nib, mask; rest form), and Borro (borro, rest form, his white husk face tied on with cord, the shield
+      on his back). Scale: each floor is 3.2 m; Borro is three quarters of a floor tall.
+    acting:
+      site_manager: "clutching the clipboard and the cash envelope to his chest, staring up at Borro"
+      kang_jaeha: "bowing politely to the manager"
+      song_yerin: "looking up at the tower, gripping her bag strap"
+      nib: "standing stiffly, arms hanging"
+      borro: "standing stiffly too, badly, swaying a little, the husk face crooked"
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "D-GRADE GATE 4402. AN UNFINISHED TOWER, MAPO. TUESDAY, 3 PM."}
+    sfx:
+      - {text: "FLAP FLAP", style: quiet, at: [0.80, 0.30], size: S, rot: 0}
+
+  - id: P26
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level, over the site manager's hard hat: Borro's masked face high above, Jaeha smiling in front of him"
+    light: "afternoon sun"
+    face: public
+    art: >
+      Over the site manager's white hard hat (cropped, foreground): Borro's crooked white husk face high above Jaeha's polite
+      smile.
+    acting:
+      site_manager: "seen from behind, head tilted all the way back"
+      borro: "staring straight ahead through the eye-holes, very still"
+      kang_jaeha: "a polite smile, hands together"
+    eyeline: "the manager → Borro; Jaeha → the manager"
+    foreground: "the site manager's hard hat and shoulder, cropped, bottom left"
+    calm: top
+    lines:
+      - {who: site_manager, type: speech, text: "THAT'S THE BIGGEST HUSK I'VE EVER SEEN. IS IT YOUR EQUIPMENT?", side: l}
+
+  - id: P27
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, side-on: Borro's masked head turning slowly down to the manager; Jaeha and Nib freezing"
+    light: "afternoon sun"
+    face: public
+    art: >
+      Side-on: Borro's masked head turns slowly down toward the manager. Jaeha (kang_jaeha, vest) freezes mid-bow; Nib, at
+      Borro's hip, turns his masked face up to Borro.
+    acting:
+      borro: "head turning slowly down, shoulders squaring, both hands at his sides"
+      kang_jaeha: "frozen mid-bow, eyes sliding sideways in horror"
+      nib: "looking up at Borro, arms still hanging"
+      site_manager: "taking a step back, clipboard up like a shield"
+    eyeline: "Borro → the manager (down); Jaeha → Borro"
+    foreground: "the edge of the iron shield on Borro's back, cropped, right"
+    calm: top
+    lines:
+      - {who: borro, type: speech, text: "I AM NOT EQUIPMENT.", side: r}
+      - {who: kang_jaeha, type: nervous, text: "VENTRILOQUISM, SIR. IT'S STILL A HOBBY OF MINE.", side: l}
+    sfx:
+      - {text: "GULP", style: quiet, at: [0.30, 0.40], size: S, rot: 0}
+
+  - id: P28
+    recipe: establish
+    shape: full
+    gap: long
+    bg: black
+    camera: "high (8 m) inside the gate, looking down across a ruined concrete floor: sagging slabs, one long beam, the dark floors below"
+    light: "key: dusty orange dusk light through the missing walls; deep black where the slabs have fallen"
+    art: >
+      Inside the gate (location tower_gate): the seventh floor as a Far Side ruin, wide and open to an orange dusk sky with no
+      walls. The concrete slabs are cracked and sagging, rebar hanging like roots; whole sections have fallen away into black
+      floors below. One long, solid beam (60 cm wide) runs straight across the floor from a core wall to a perimeter column,
+      and the slabs on either side of it are cracking off. The team stands at the core wall: Jaeha, Yerin, Nib, Borro. Scale:
+      the floor is 30 m across; the beam is as wide as a man's shoulders; the drop beside it is several floors.
+    acting:
+      kang_jaeha: "at the core wall, notebook open, eyes on the beam"
+      song_yerin: "pressed against the wall, looking down into a hole, pale"
+      nib: "crouched on the edge of the slab, testing it with one bare foot"
+      borro: "standing back from the edge, the shield now on his arm, the floor creaking under him"
+    calm: top
+    sfx:
+      - {text: "KREEEK", style: quiet, at: [0.30, 0.80], size: S, rot: 0}
+
+  - id: P29
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close and low on the concrete under Borro's huge bare foot: cracks spidering out from it"
+    light: "dusk"
+    art: >
+      Close on the concrete slab under Borro's huge bare foot: fine cracks spider out from his toes, and dust trickles down a
+      crack into the dark.
+    calm: right
+    silent: true
+    sfx:
+      - {text: "KRK... KRK...", style: quiet, at: [0.60, 0.40], size: S, rot: 0}
+
+  - id: P30
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, two-shot at the core wall: Nib looking up at Borro, Borro looking down at the cracks"
+    light: "dusk"
+    art: >
+      At the core wall: Nib (nib, mask) looks up at Borro (borro), who looks down at the cracks round his feet and lifts one
+      foot carefully, like a man on ice.
+    acting:
+      nib: "looking up at Borro, arms folded, flat"
+      borro: "lifting one foot very slowly off the cracking slab, arms out for balance"
+    eyeline: "Nib → Borro (up); Borro → his feet"
+    foreground: "a hanging coil of rebar, cropped, top left"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "YOU'RE TOO HEAVY FOR THIS FLOOR.", side: l}
+      - {who: borro, type: speech, text: "I AM THE RIGHT WEIGHT. THE FLOOR IS TOO THIN.", side: r}
+
+  - id: P31
+    recipe: anticipation
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, across the ruined floor toward its far edge: black shapes slinking out of the shadows between the columns"
+    light: "dusk behind the shapes; violet ash glowing at their backs"
+    art: >
+      Across the ruined floor, at its far edge: lean black shapes slink out of the shadows between the perimeter columns, one
+      after another, eight of them, eyeless heads low, violet ash smoking from the cracks along their backs.
+    acting:
+      ash_hound: "slinking forward in a loose line, heads low, split jaws hanging open"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "HHHHHH", style: quiet, at: [0.70, 0.60], size: S, rot: 0}
+
+  - id: P32
+    recipe: monster-reveal
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from the slab at the near end of the beam: the ash hound pack fanned out, the huge alpha behind them on the far column"
+    light: "dusk behind them; violet ash"
+    art: >
+      From low at the near end of the long beam: the ash hounds (ash_hound) fan out across the far side of the floor, wolf-
+      sized, smooth black bodies with no eyes and no nose, long split jaws of white bone teeth; behind them, on the slab by the
+      far perimeter column, stands the alpha, nearly twice their size, deep cracks down its neck and back venting violet ash.
+      Scale: the hounds' shoulders reach a man's hip; the alpha's reaches his chest.
+    acting:
+      ash_hound: "the pack spread out and crouched, jaws open; the alpha standing tall behind them, head raised"
+    calm: top
+    sfx:
+      - {text: "GRRRRRRR", style: impact, at: [0.30, 0.20], size: L, rot: -4}
+
+  - id: P33
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close on the alpha's head as it throws it back and howls, the cracks down its neck flaring"
+    light: "violet flare from the cracks"
+    art: >
+      Close on the alpha as it throws its eyeless head back and howls, the deep cracks down its neck flaring violet with each
+      breath. Across the floor, every hound's head snaps toward the team at once.
+    acting:
+      ash_hound: "the alpha's head thrown back, split jaw wide, neck stretched; the pack's heads snapping round together"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "AWOOOOOOO", style: impact, at: [0.50, 0.24], size: XL, rot: -6}
+
+  - id: P34
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "over Jaeha's shoulder, close on his notebook page"
+    light: "dusk on the page"
+    face: private
+    art: >
+      Jaeha's gloved hand writes in his notebook: a sketch of a big hound with a wavy line coming out of its mouth, arrows
+      from it to small hounds, a long beam with a heavy shape on it, a small figure running round the edge. Leave a blank
+      band for the letterer's note. No readable text.
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: note, text: "THEY ONLY MOVE WHEN THE BIG ONE HOWLS. CUT THE HOWL, AND THE PACK BREAKS."}
+
+  - id: P35
+    recipe: plan
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high, looking straight down on the floor: the scene desaturated, cyan lines laying out the plan"
+    light: "desaturated; cyan lines"
+    face: private
+    art: >
+      Straight down on the ruined floor, slightly desaturated, clean cyan lines and no text: a heavy shape standing in the
+      middle of the long beam with a wall-like line in front of it; arrows from the pack crashing into that line; a dotted
+      path running round the very edge of the floor along the perimeter columns to the alpha; the cracking slabs on either
+      side of the beam marked with broken lines.
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: inner, text: "THE SLABS WON'T HOLD HIM. THE BEAM WILL. AND THE EDGES ARE STILL ATTACHED."}
+
+  - id: P36
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, three-shot at the core wall: Jaeha pointing at the beam for Borro and at the edge for Nib"
+    light: "dusk"
+    face: private
+    art: >
+      At the core wall, Jaeha (kang_jaeha, vest) points with his pencil: first at the beam for Borro, then round the edge of
+      the floor for Nib. Yerin stands behind him.
+    acting:
+      kang_jaeha: "pencil pointing out along the beam, his other hand on Borro's arm, eyes cold and quick"
+      borro: "following the pencil with his eyes, nodding slowly"
+      nib: "already looking at the edge, testing a knife's grip"
+      song_yerin: "behind them, her hands starting to glow mint"
+    eyeline: "Jaeha → the beam; Borro → the beam; Nib → the edge"
+    foreground: "a broken concrete corner, cropped, bottom left"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "BORRO, STAND ON THE BEAM AND DON'T LET ANYTHING PAST YOU.", side: l}
+      - {who: kang_jaeha, type: speech, text: "NIB, GO ROUND THE EDGE. CUT THE BIG ONE'S THROAT. THEN THE HOWLING STOPS.", side: l}
+
+  - id: P37
+    recipe: link-view
+    shape: wide
+    gap: short
+    bg: black
+    camera: "a three-way split frame: Jaeha in the middle, Nib's view on the left, Borro's view on the right"
+    light: "amber seam on one side, moss-green seam on the other"
+    face: private
+    art: >
+      A three-way split frame. MIDDLE: Jaeha (kang_jaeha, vest) with his eyes half closed, a thin amber thread running left
+      and a thin moss-green thread running right. LEFT, in an amber vignette: Nib's view along the crumbling edge of the
+      floor, columns and open sky. RIGHT, in a moss-green vignette: Borro's view down the long beam at the pack crouching on
+      the far slabs.
+    acting:
+      kang_jaeha: "eyes half closed, both hands raised slightly at his sides, a fierce focus"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "VMMM", style: quiet, at: [0.50, 0.86], size: S, rot: 0}
+
+  - id: P38
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, behind Borro as he plants himself in the middle of the beam, shield up, the pack charging along it"
+    light: "dusk; violet ash"
+    art: >
+      From low behind Borro (borro, rest form): he plants himself in the middle of the long beam with the iron shield raised
+      like a door, and the whole pack charges straight along the beam at him, the slabs on either side crumbling under their
+      paws.
+    acting:
+      borro: "planted with feet wide on the beam, shield up, shoulder set behind it, calm"
+      ash_hound: "the pack charging along the beam in a line, jaws wide"
+    calm: top
+    sfx:
+      - {text: "THUD THUD THUD", style: impact, at: [0.70, 0.70], size: M, rot: 6}
+
+  - id: P39
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, side-on on the beam: the first hounds smashing into the iron shield, Borro sliding back a step"
+    light: "no scene light: white flashes"
+    art: >
+      Side-on on the beam: the first three hounds smash into the iron shield; Borro slides back half a step, his heels
+      grinding on the concrete; a hound flies off the side of the beam into the dark.
+    acting:
+      borro: "absorbing the impact behind the shield, heels grinding, teeth set"
+      ash_hound: "smashing into the shield, one bouncing off into the drop"
+    calm: top
+    sfx:
+      - {text: "KRANNGG", style: impact, at: [0.40, 0.30], size: XL, rot: -8}
+
+  - id: P40
+    recipe: carry
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close and low on Jaeha at the core wall, staggering as the shield impact lands in his own body"
+    light: "a moss-green ring of light flashing round him"
+    face: private
+    art: >
+      At the core wall, Jaeha (kang_jaeha, vest) staggers as the impact on the shield lands in his own body, a moss-green ring
+      of light pulsing out from his chest; his heels grind on the floor exactly like Borro's. Yerin grabs his arm.
+    acting:
+      kang_jaeha: "staggering back a step, one hand pressed to his chest, teeth clenched"
+      song_yerin: "grabbing his arm with both glowing hands"
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.86], text: "[CARRY · BORRO · 30%]"}
+    sfx:
+      - {text: "THOOM", style: impact, at: [0.30, 0.40], size: L, rot: 0}
+
+  - id: P41
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high, along the floor's crumbling edge: Nib running along a rim of slab as wide as a foot, columns flashing past"
+    light: "the orange dusk sky beside him"
+    art: >
+      High along the floor's edge: Nib (nib, mask; rest form) runs along a rim of slab no wider than a foot, the open dusk sky
+      and a seven-storey drop on one side, perimeter columns flashing past.
+    acting:
+      nib: "running low along the rim, arms out for balance, scarf streaming toward the drop"
+    calm: top
+    sfx:
+      - {text: "TAP TAP TAP", style: impact, at: [0.60, 0.70], size: M, rot: -6}
+
+  - id: P42
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, on the edge: a slab breaking away under Nib's foot, Nib leaping for the next column"
+    light: "dusk; dust"
+    art: >
+      On the edge: the rim of slab breaks away under Nib's foot and drops into the dark; he leaps for the next column and
+      catches a hanging coil of rebar with one hand.
+    acting:
+      nib: "leaping, one hand catching the rebar, legs swinging over the drop"
+    calm: top
+    sfx:
+      - {text: "KRAKK", style: impact, at: [0.40, 0.60], size: L, rot: 8}
+
+  - id: P43
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level on the beam: the pack piling onto Borro's shield, a hound leaping over it at his head"
+    light: "violet ash; flashes"
+    art: >
+      On the beam: the pack piles onto Borro's shield, claws scraping the iron, and one hound leaps clean over the shield's
+      top at his masked head.
+    acting:
+      borro: "leaning into the shield, head turning as the hound flies over"
+      ash_hound: "the pack scrabbling on the shield; one leaping over its top, jaws wide"
+    calm: top
+    sfx:
+      - {text: "SKRRRK", style: impact, at: [0.30, 0.30], size: M, rot: 0}
+
+  - id: P44
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "Jaeha at the core wall facing the reader, both hands out, lit amber on one side and moss green on the other"
+    light: "amber and moss green; cyan from the window"
+    face: private
+    art: >
+      Jaeha (kang_jaeha, vest) faces the reader at the core wall, both hands thrown out to his sides, one lit amber and one
+      moss green, a nosebleed starting. The upper half is the dusk ruin, empty for the window.
+    acting:
+      kang_jaeha: "arms thrown out wide, blood running from his nose, eyes blazing"
+    eyeline: "Jaeha → the window"
+    calm: top
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.05], headline: "[FIELD FORM · NIB 05:00 · BORRO 05:00]", body: "TWO SUMMONS LINKED. CARRY LOAD IS SHARED BY THE OPERATOR.", button: "OK"}
+    silent: true
+
+  - id: P45
+    recipe: splash
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, behind Borro: his eyes flaring moss green as he heaves the shield forward and hurls the whole pack backward"
+    light: "moss green flaring; white flash"
+    art: >
+      From low behind Borro (borro, field form: moss-green eyes, thin moss-green outline): he heaves the shield forward with
+      his whole body, and the entire pack is hurled backward along the beam, two hounds flying off into the dark. The hound
+      that leapt at his head hangs from the shield's rim by its jaws.
+    acting:
+      borro: "driving forward behind the shield, one foot stamping down on the beam, head lowered"
+      ash_hound: "the pack flung backward, legs flailing; one clinging to the shield's rim"
+    calm: top
+    sfx:
+      - {text: "WHOOOMM", style: impact, at: [0.50, 0.24], size: XL, rot: -6}
+
+  - id: P46
+    recipe: carry
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close on Jaeha: a gash opening across his shoulder through the vest, blood spattering, Yerin's mint light on him"
+    light: "moss-green ring; red; mint"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha): a gash opens across his RIGHT shoulder through the vest and hoodie, as if claws raked it,
+      blood spattering, at the moment the clinging hound's claws rake Borro's arm. Yerin presses glowing mint hands to it.
+    acting:
+      kang_jaeha: "jerking sideways, teeth bared, one eye shut, a hand clamping the shoulder"
+      song_yerin: "pressing both glowing hands to his shoulder, eyes huge"
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.86], text: "[CARRY · 2 SUMMONS · LOAD 110%]"}
+    sfx:
+      - {text: "SHRAKK", style: impact, at: [0.30, 0.30], size: L, rot: 10}
+
+  - id: P47
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close two-shot: Yerin's frightened face over Jaeha's shoulder, Jaeha gritting out an answer"
+    light: "mint"
+    face: private
+    art: >
+      Close: Yerin (song_yerin) presses her hands to his shoulder, frightened; Jaeha (kang_jaeha) answers through his teeth.
+    acting:
+      song_yerin: "pressing hard, eyes wet, brows tilted up"
+      kang_jaeha: "teeth gritted, sweat and blood on his face, eyes still on the floor"
+    eyeline: "Yerin → Jaeha; Jaeha → the fight"
+    foreground: "Yerin's glowing hand, cropped, bottom"
+    calm: right
+    lines:
+      - {who: song_yerin, type: shout, text: "YOU'RE TAKING BOTH OF THEIR HITS!", side: l}
+      - {who: kang_jaeha, type: intense, text: "THAT'S THE DEAL I MADE.", side: l}
+
+  - id: P48
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, by the far perimeter column: Nib in field form swinging round the column from the rebar, behind the alpha"
+    light: "amber streaks; dusk"
+    art: >
+      By the far perimeter column: Nib (nib, field form: amber eyes, thin amber outline) swings round the column from the
+      rebar coil and drops onto the slab right behind the alpha, both knives out.
+    acting:
+      nib: "swinging round the column, letting go of the rebar, both knives drawn in a reverse grip"
+      ash_hound: "the alpha, unaware, head lifting to howl again"
+    calm: top
+    sfx:
+      - {text: "WHIP", style: impact, at: [0.30, 0.30], size: M, rot: -10}
+
+  - id: P49
+    recipe: anticipation
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close on the alpha's head thrown back for another howl, the cracks on its neck flaring, Nib's knife flashing behind"
+    light: "violet flaring; an amber glint"
+    art: >
+      Close on the alpha's head thrown back for another howl, the cracks down its neck flaring violet, and just behind it,
+      the amber glint of Nib's knife.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "HHHHHHH", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P50
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, tilted 15 degrees: Nib's two knives slashing across the alpha's throat in an X, violet ash bursting"
+    light: "no scene light: amber and violet"
+    art: >
+      Nib's two knives slash across the alpha's throat in an X, exactly where the cracks flare, and violet ash bursts out in a
+      cloud; the howl dies in the alpha's throat. Speed lines.
+    acting:
+      nib: "mid-slash, arms crossing, body twisted in the air"
+      ash_hound: "the alpha's head jerking, jaw open on a howl that never comes"
+    calm: top
+    sfx:
+      - {text: "SHRAKK", style: impact, at: [0.30, 0.24], size: XL, rot: -12}
+
+  - id: P51
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level on the beam: the pack stumbling, heads jerking in every direction, Borro stamping down"
+    light: "violet ash; dusk"
+    art: >
+      On the beam: with no howl to follow, the remaining hounds stumble and turn in circles, heads jerking in every direction;
+      Borro stamps once, hard, on the slab beside the beam, and the whole cracked slab breaks away under them.
+    acting:
+      borro: "stamping down with one foot beside the beam, shield held steady"
+      ash_hound: "stumbling, confused, scattering"
+    calm: top
+    sfx:
+      - {text: "STOMP", style: impact, at: [0.30, 0.70], size: L, rot: 0}
+
+  - id: P52
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high, looking down past the beam: the slab and the hounds dropping away into the dark floors below"
+    light: "dust; dark below"
+    art: >
+      High above: the great cracked slab beside the beam drops away into the black floors below, carrying the scattering
+      hounds with it in a cascade of concrete and dust. Borro stands alone on the solid beam above the void.
+    acting:
+      borro: "standing firm on the beam, shield lowered, looking down"
+      ash_hound: "falling with the slab"
+    calm: top
+    sfx:
+      - {text: "KRRRRRRUMBLE", style: impact, at: [0.50, 0.70], size: XL, rot: 6}
+
+  - id: P53
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, by the far column: the alpha lunging at Nib with its last strength, Nib driving both knives into its neck"
+    light: "amber; violet"
+    art: >
+      By the far column: the alpha, dying, lunges at Nib with its last strength; Nib steps inside the bite and drives both
+      knives into the cracks in its neck. It bursts into violet ash.
+    acting:
+      nib: "stepping in close, driving both knives up into its neck"
+      ash_hound: "the alpha lunging, then bursting apart"
+    calm: top
+    sfx:
+      - {text: "SHHUNK", style: impact, at: [0.40, 0.30], size: XL, rot: 8}
+
+  - id: P54
+    recipe: aftermath
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level from the core wall: the ruined floor quiet, Borro on the beam, Nib by the far column, ash drifting"
+    light: "dusk through drifting violet ash"
+    art: >
+      Quiet. From the core wall: Borro stands on the long beam over the broken floor, shield lowered; at the far column Nib
+      stands in a drift of violet ash. The green and amber glows fade from both of them.
+    acting:
+      borro: "standing on the beam, shield lowered, looking back at Jaeha"
+      nib: "standing by the column, knives lowered, looking back too"
+    calm: top
+    silent: true
+
+  - id: P55
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, at the core wall: Jaeha sliding down the wall to sit, bleeding from the nose and shoulder, Yerin kneeling with him"
+    light: "dusk; mint glow"
+    face: private
+    art: >
+      Jaeha (kang_jaeha, vest) slides down the core wall to sit, blood from his nose and his torn shoulder, his whole body
+      shaking; Yerin (song_yerin) kneels with glowing hands on his shoulder.
+    acting:
+      kang_jaeha: "sliding down to sit against the wall, head back, eyes half closed, a weak grin through the blood"
+      song_yerin: "kneeling, pressing glowing hands on him, biting her lip"
+    eyeline: "Jaeha → the ceiling; Yerin → Jaeha"
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.86], text: "[CARRY LOAD 140% · OVERLOAD WARNING]"}
+    silent: true
+    sfx:
+      - {text: "HAA... HAA...", style: quiet, at: [0.30, 0.30], size: S, rot: 0}
+
+  - id: P56
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: Borro kneeling down in front of the sitting Jaeha so their faces are level"
+    light: "dusk"
+    art: >
+      Borro (borro) kneels down carefully in front of the sitting Jaeha so that their faces are level, his huge hands on his
+      knees. Nib walks up behind him.
+    acting:
+      borro: "kneeling slowly, hands on his knees, looking at Jaeha's bloody shoulder, quiet"
+      kang_jaeha: "sitting against the wall, looking up at Borro, a tired smile"
+      nib: "walking up behind Borro, sheathing his knives"
+    eyeline: "Borro → Jaeha; Jaeha → Borro"
+    foreground: "Yerin's mint-glowing hand on Jaeha's shoulder, cropped, left"
+    calm: top
+    lines:
+      - {who: borro, type: speech, text: "THAT CLAW HIT MY ARM. BUT IT'S YOUR SHOULDER THAT'S BLEEDING.", side: l}
+      - {who: kang_jaeha, type: speech, text: "I TOLD YOU. I CARRY WHAT HITS YOU.", side: r}
+
+  - id: P57
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "high over the ruined floor at dusk: the four of them small at the core wall, a fist-sized core floating where the alpha fell"
+    light: "violet from the core; cyan from the window"
+    art: >
+      High over the ruined floor: the four of them small by the core wall; at the far column, a fist-sized violet core floats
+      in the air where the alpha fell. The upper half is the dusk sky, empty for the window.
+    calm: top
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.05], headline: "[BOSS DEFEATED: ASH HOUND ALPHA (D)]", body: "NEW BOSS KIND · ROUTE ALIGNMENT 0% → 40%", button: "OK"}
+    silent: true
+
+  - id: P58
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "over Jaeha's shoulder, close on his notebook page in a bloody glove, a window reflected on the page"
+    light: "cyan on the page"
+    face: private
+    art: >
+      Over Jaeha's shoulder: his bloody gloved hand writes a short line on a clean page; the cyan light of a window falls
+      across the page (the window offers one button). Leave a blank band for the letterer's note. No readable text.
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.08], text: "[HARVEST CORE · NO OTHER OPTION]"}
+    lines:
+      - {who: kang_jaeha, type: note, text: "AGAIN, ONLY HARVEST. THAT'S TWICE."}
+
+  # ================= THE ALERT (P59–P66) =================
+  - id: P59
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: white
+    camera: "eye level on the street at dusk outside the tower's site fence: the team coming out, Borro's mask back on, the manager counting cash"
+    light: "orange dusk; the first streetlights"
+    art: >
+      The street outside the tower at dusk: the team comes out through the site fence. Jaeha (kang_jaeha, vest, his shoulder
+      bandaged through the torn vest) leans on Yerin; Borro (borro, the husk face back on, crooked) carries the shield; Nib
+      (nib, mask) walks stiffly. The site manager hands Jaeha the envelope with a deep bow, not looking at Borro.
+    acting:
+      kang_jaeha: "leaning on Yerin, taking the envelope with his good hand and a small bow"
+      song_yerin: "holding him up with his arm over her shoulders"
+      borro: "standing stiffly, badly, the husk face crooked"
+      nib: "standing stiffly, arms hanging"
+      site_manager: "bowing deeply with both hands holding out the envelope, eyes on the ground"
+    calm: top
+    sfx:
+      - {text: "FLAP FLAP", style: quiet, at: [0.80, 0.20], size: S, rot: 0}
+
+  - id: P60
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, across the street: every phone in every hand lighting up and shrieking at once, people freezing on the pavement"
+    light: "phone screens flaring; dusk"
+    art: >
+      Across the street, every phone in every hand lights up at the same moment: a woman at the bus stop, a delivery rider, a
+      man at a convenience store door all freeze and look down; the site manager's phone shrieks in his pocket. Yerin's phone
+      lights up in her bag.
+    acting:
+      site_manager: "jumping, slapping at his shrieking pocket"
+      song_yerin: "pulling her phone out of her bag, eyes widening"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "WEEEEEEN WEEEEEEN", style: alert, at: [0.50, 0.24], size: XL, rot: -4}
+
+  - id: P61
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on a phone in Jaeha's gloved hand, the screen green"
+    light: "the screen glow; dusk"
+    art: >
+      Close on Jaeha's phone in his bloody gloved hand. Screen: flat green.
+    calm: left
+    ui:
+      - kind: phone.emergency_alert
+        "on": screen
+        clock: "17:48"
+        text: "[Emergency Alert] DUNGEON BREAK · MANGWON MARKET, MAPO · MONSTERS IN THE STREETS · EVACUATE THE AREA NOW"
+    silent: true
+
+  - id: P62
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: white
+    camera: "extreme close-up of Jaeha's eyes as he reads the alert, the colour draining"
+    light: "the phone's glow from below"
+    face: private
+    art: >
+      Extreme close-up: Jaeha's eyes (kang_jaeha), lit from below by the phone, pupils shrinking. Fill the canvas edge to
+      edge.
+    acting:
+      kang_jaeha: "eyes wide, pupils small"
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: inner, text: "TUESDAY. SHE SAID TUESDAY, AFTER SCHOOL. RICE CAKES."}
+
+  - id: P63
+    recipe: silent
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "a small flash inset: Seoa at the stair door that morning, smiling back over her shoulder"
+    light: "warm morning memory"
+    art: >
+      A small flash inset of the morning: Seoa (kang_seoa) at the stair door, smiling back over her shoulder, her school bag
+      on her shoulder.
+    acting:
+      kang_seoa: "turning back at the door, a small smile, one hand on her bag strap"
+    calm: right
+    silent: true
+
+  - id: P64
+    recipe: establish
+    shape: tall
+    gap: short
+    bg: white
+    camera: "eye level down the long street toward Mangwon: a column of black smoke rising over the rooftops a kilometre away, a red glow under it"
+    light: "dusk; a red glow on the underside of the smoke"
+    art: >
+      Looking down the long street toward Mangwon: over the rooftops about a kilometre away, a thick column of black smoke
+      rises into the dusk, lit red from underneath; sirens; people at the near end of the street stopping to stare. The team
+      stands small in the foreground, all looking the same way.
+    acting:
+      kang_jaeha: "standing upright on his own now, the phone lowered, staring"
+      song_yerin: "both hands over her mouth"
+      borro: "turning his masked head toward the smoke"
+      nib: "already a step ahead of them, looking back at Jaeha"
+    calm: top
+    sfx:
+      - {text: "WEEOOO WEEOOO", style: alert, at: [0.80, 0.30], size: M, rot: 0}
+
+  - id: P65
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Jaeha's phone ringing in his hand, the screen green"
+    light: "the screen glow"
+    art: >
+      Close on Jaeha's phone ringing in his trembling, bloody hand. Screen: flat green.
+    calm: left
+    ui:
+      - {kind: phone.ttok_call, "on": screen, caller: "SEOA"}
+    silent: true
+    sfx:
+      - {text: "BRRRR BRRRR", style: quiet, at: [0.30, 0.30], size: M, rot: 0}
+
+  - id: P66
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, close on Jaeha snatching the phone to his ear, the smoke column behind him"
+    light: "dusk; the red glow behind"
+    face: private
+    art: >
+      Close and low on Jaeha (kang_jaeha, vest, bloody) snatching the phone to his ear, the smoke column rising behind him.
+    acting:
+      kang_jaeha: "phone pressed to his ear with his good hand, leaning forward, eyes wide"
+    eyeline: "Jaeha → the smoke"
+    foreground: "Nib's masked head and scarf, cropped, bottom right"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: shout, text: "SEOA! WHERE ARE YOU?", side: l}
+      - {who: offpanel:kang_seoa, type: phone, text: "AT THE MARKET. AND I NEED YOU TO LISTEN VERY CAREFULLY.", side: r}
+
+  - id: END
+    kind: end
+    chibi_gag: "Chibi Borro sits under his blue tarp watering a single sprout with a tiny watering can, while chibi Nib, chibi Seoa and chibi Jaeha all try to fit under the same tarp to stay out of the rain, squashed against his shell."
