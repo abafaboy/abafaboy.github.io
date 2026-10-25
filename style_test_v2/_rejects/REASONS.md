@@ -1,0 +1,2 @@
+- T1_V2_attempt01.png: Background rust, scaffold and wet-floor detail compete with Jaeha; vest patch mirrored to left chest and both eyes exposed.
+- T2_V2_attempt01.png: Rendered surface texture and foreground blur; forbidden T on Yerin; Nib mask mirrored; blade not near her face.
