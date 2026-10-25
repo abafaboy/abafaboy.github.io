@@ -1,0 +1,179 @@
+{
+  "entry": "L7",
+  "status": "INCOMPLETE_FAILED_KEY_PENDING_CLAUDE",
+  "approval": "PENDING_CLAUDE",
+  "updated_utc": "2026-10-25 23:31:58 UTC",
+  "bible_commit": "4515a815d802a726b48b374ee344808eed635144",
+  "art_base_commit": "9f7b506f7982edf5dd7e489d4281dc5a9d203b1c",
+  "imagegen_calls": 6,
+  "inflight_calls": 0,
+  "checks_run": [
+    "MANHWA_STYLE_GUIDE section 11 place-applicable checks",
+    "11b place-applicable anatomy/material/text/compression checks",
+    "PANEL_BRIEF_v2 section 4b perspective and real-world scale",
+    "full native, 200 px thumbnails, enlarged figure/gate comparison"
+  ],
+  "images": {
+    "hanriver_gate/key.png": {
+      "tries": 4,
+      "selected_attempt": 4,
+      "status": "FAILED_REVIEW_ONLY",
+      "heads": {
+        "guard_near": [
+          0.433,
+          0.428,
+          0.446,
+          0.45
+        ],
+        "guard_by_gate": [
+          0.772,
+          0.439,
+          0.784,
+          0.46
+        ]
+      },
+      "problems": [
+        "The door-height gate is still too tall relative to the guard immediately beside it on a similar baseline: approximately 196 px versus 139 px, ratio ~1.41, compared with nominal 2.1/1.78≈1.18.",
+        "The container/guard scale improved, but the nearby bridge deck still reads low compared with the nominal 20 m clearance in current ch008/P13."
+      ],
+      "observations": [
+        "Black tarp fence, two containers, supported generator, attached thick cables, pale-rimmed black-violet slit and two guards with torches are present.",
+        "The main pier extends upward out of frame, but a nearby overhead deck still reads low against the site; no height pass is claimed.",
+        "No lettering, named cast, Association tape or grade sign."
+      ],
+      "caveats": [
+        "Final image is retained for review only and duplicated byte-for-byte in rejects; no fifth try.",
+        "Do not use this failed key as an approved reference. The wide view was generated independently from approved Arc 1 inputs, not from this key."
+      ]
+    },
+    "hanriver_gate/wide.png": {
+      "tries": 1,
+      "selected_attempt": 1,
+      "status": "candidate_pending_claude",
+      "heads": {},
+      "problems": [],
+      "observations": [
+        "Across-river view with black water in foreground, elevated lit bridge, small far-bank tarp enclosure, two container forms and generator by left container.",
+        "Orange sodium reflections dominate; small cool gate accent stays in the enclosure.",
+        "Broad layout corresponds to the written enclosure arrangement; no unapproved local key used as input."
+      ],
+      "caveats": [
+        "Because the close key failed its local scale check, exact cross-view object calibration is not certified. Claude must review both together before either becomes a reference.",
+        "The enclosure is wider in the frame than the prompt’s suggested 15–20 percent; the brief requires a small site beneath the bridge, and it remains small in height under the span.",
+        "No readable guard faces or pins at this distance; guards are hidden by tarps."
+      ]
+    },
+    "carpark_gate/key.png": {
+      "tries": 1,
+      "selected_attempt": 1,
+      "status": "candidate_pending_claude",
+      "heads": {
+        "generic_scale_adult": [
+          0.398,
+          0.498,
+          0.412,
+          0.522
+        ]
+      },
+      "problems": [],
+      "observations": [
+        "High view from the top of a descending vehicle ramp into a flooded concrete basement, not from water level.",
+        "Pillars with faded paint bands, attached ceiling pipes, caged white-blue lamps, drips, several submerged cars and dark water are present.",
+        "One generic adult stands on the ramp with adult proportions and shoulder bag; no named identity or T patch.",
+        "Car wheels and lower bodies are submerged; only roofs/upper windows show, with source-driven reflections."
+      ],
+      "caveats": [
+        "Exact 30 m ramp length, 6 m width/pillar spacing, 2.6 m ceiling and 1–2 m water depth are prompted scale targets, not precision measurements from this perspective.",
+        "Wet streaks from drips reach above the lower ramp section; the foreground central surface still reads as exposed concrete. Claude should check the dry-ramp staging."
+      ]
+    }
+  },
+  "png_inventory": [
+    {
+      "path": "hanriver_gate/_rejects/key_01_bridge_clearance_reads_low.png",
+      "sha256": "b9d056fb15c1f5ec82a684e88a4b0a42de1c7c76ec308e70204e979cf528d3c0",
+      "bytes": 2705457,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG"
+    },
+    {
+      "path": "hanriver_gate/_rejects/key_02_gate_oversize_against_guard.png",
+      "sha256": "5077fb0caf261d246a00152ac520f1908f5d08a3eae45bbb7ca8ca78a39eabce",
+      "bytes": 2620465,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG"
+    },
+    {
+      "path": "hanriver_gate/_rejects/key_03_scale_still_off.png",
+      "sha256": "7edf62e02c8215ec550a68b5bc925ede4ffd15d1acc89f22be1ce1a27bb8432a",
+      "bytes": 2718436,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG"
+    },
+    {
+      "path": "hanriver_gate/_rejects/key_04_final_gate_scale_and_low_bridge.png",
+      "sha256": "a44043a6089598b0d3a5eec33058dbec5f2ddbe2bb412939a270b06e1c1cc2e4",
+      "bytes": 2732727,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG"
+    },
+    {
+      "path": "hanriver_gate/key.png",
+      "sha256": "a44043a6089598b0d3a5eec33058dbec5f2ddbe2bb412939a270b06e1c1cc2e4",
+      "bytes": 2732727,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG"
+    },
+    {
+      "path": "hanriver_gate/wide.png",
+      "sha256": "dbd469b917dae2b2f4cae1e792865970fb1939aaa1b7f09f15f632d27ac78590",
+      "bytes": 2445899,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG"
+    },
+    {
+      "path": "carpark_gate/key.png",
+      "sha256": "7ead00d880c403294b767e9c39d52afb94c1bb958ad9cb5eaee477afccb1c01f",
+      "bytes": 2449862,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG"
+    }
+  ],
+  "blockers": [
+    {
+      "action": "Produce an acceptable hanriver_gate/key.png",
+      "target": "L7 Han River enclosure key",
+      "state": "failed_after_initial_plus_three_redos_pending_claude",
+      "denied": false,
+      "reason": "Final candidate retains wrong gate/guard scale and low bridge clearance after initial plus three redos; container/guard scale improved. No fifth generation or pixel repair.",
+      "completed": "All three requested native PNG views saved; wide and carpark are review candidates; failed key and all failed originals retained.",
+      "next_step": "Claude verdict/redo prompt before further key attempts or using this key as a reference."
+    }
+  ],
+  "not_applicable": [
+    "Named-cast face/side locks and dialogue acting; figures are generic scale comparisons",
+    "Flat-grey model-sheet background; these are location keys"
+  ],
+  "scope": "Only inbox/L7/ and one INBOX.md line; L6 and ch002-A untouched"
+}
