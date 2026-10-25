@@ -1,0 +1,1116 @@
+chapter: 18
+title: Lyra
+format: SCRIPT_FORMAT_v2.md
+when: "Saturday, a few seconds after the last chapter: the sealed boss chamber of the drowned cathedral, the Call, and the nave and the spillway outside."
+story_beats: ARC3_4_BEATS.md#18-lyra
+cast:
+  kang_jaeha: vest
+  nib: mask                 # field form until P45 (time runs out), rest form after
+  borro: default            # husk face; field form; buried to the waist from P05
+  lyra: default             # summon no. 3; arrives P38
+  song_yerin: default
+  mok_hangyu: default
+  han_sora: default
+  yoo_bomi: default
+  choi_dongmin: default
+  bell_ringer: default
+locations: [boss_chamber_bells, call_void, drowned_cathedral, dam_gate]
+continuity:
+  - "Jaeha: the orange vest with Seoa's red stitches, the grey hoodie, the forearm bandage, the earpiece in his RIGHT ear; blood from his nose and his LEFT ear. Fringe over the LEFT eye, pencil behind the RIGHT ear. In the Call (P14–P32) he looks the same, bleeding."
+  - "Nib: seal 2/5 look, the cracked husk mask; field form until P45, then rest form. Borro: the white husk face; field form; from P05 buried to the waist in fallen stone, still holding his shield up over the others; Bomi's drone in the moss on his shell."
+  - "Mok: soaked, his black tower shield cracked down the middle through the red hound."
+  - "Lyra (CHARACTER_DESIGNS_v2.md 2.10, characters_v2/lyra/, the approved front.png): 182 cm, very pale blue-grey skin with silver freckles, river-blue eyes, small pointed ears with silver cuffs, long silver-white hair with a thick beaded braid over her LEFT shoulder to her thigh; the cropped river-blue halter top with the plunging silver-trimmed neckline, bare shoulders, arms and midriff; the navy leather chest guard on the LEFT; the silver bracer on her LEFT forearm and the glove on her RIGHT hand; the white sash with the wooden flute; the short split river-blue skirt over fitted dark shorts; white thigh-high boots; the white longbow as tall as she is; the white quiver at her RIGHT hip. Field form: a thin river-blue outline and glowing eyes. Fan service per CHARACTER_DESIGNS_v2.md: a beautiful face, a curvy athletic figure, confident poses, never a camera aimed up her skirt, nothing explicit."
+  - "The Call (location call_void): the endless black water under a starless sky; this time only one rift is open: a wide river under a silver sky, a riverbank of pale stones, reeds, a stilt house far off."
+  - "The countdown: the boss's enrage timer runs on from ch 17 (00:24) and keeps running during the Call, which takes about ten seconds of the real world."
+plants:
+  - "PLANT P26: Lyra's little brother Ilan (Part One thread)."
+  - "PLANT P41: [SEAL 1/5]: her arrows are too light to crack the bell (ch 19: Borrowed Thunder)."
+hook_type: power
+
+panels:
+
+  # ================= TWENTY SECONDS (P01–P13) =================
+  - id: P01
+    recipe: impact
+    shape: full
+    gap: none
+    bg: black
+    camera: "high under the dome, tilted 10 degrees: the bell-headed giant ringing without stop, rings of force rolling out, chunks of the dome falling round the team at one pillar"
+    light: "key: violet from the bell's crack; dust in the pale light from the dome's slits"
+    art: >
+      High under the dome: the Drowned Bell-Ringer (bell_ringer) stands rigid in the middle of the flooded chamber with both
+      hands on its bronze bell-head, ringing without stop; ring after ring of force rolls out across the water; huge chunks of
+      the dome fall round the team pressed against one chalk-ringed pillar; small bells snap from their chains and plunge.
+    acting:
+      bell_ringer: "rigid, both hands on its bell-head, the bronze shaking"
+    calm: top
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.06], text: "[BOSS ENRAGED · 00:22]"}
+    sfx:
+      - {text: "DONG DONG DONG DONG", style: impact, at: [0.30, 0.86], size: XL, rot: -6}
+
+  - id: P02
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the water by the pillar: a slab of the dome crashing down toward the team, Borro lifting his shield over all of them"
+    light: "dust; violet"
+    art: >
+      From low in the water by the pillar: a slab of the dome the size of a car crashes down toward the team, and Borro lifts his
+      iron shield over all of them.
+    acting:
+      borro: "shoving the shield up over everyone, feet braced"
+      song_yerin: "ducking under him, arms over her head"
+      mok_hangyu: "ducking, the cracked shield on his arm"
+    calm: top
+    sfx:
+      - {text: "KRRAAASH", style: impact, at: [0.50, 0.24], size: XL, rot: 8}
+
+  - id: P03
+    recipe: carry
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close and low on Jaeha under the shield: his knees buckling as the slab's weight lands in him, blood pouring from his nose"
+    light: "a moss-green ring; dust"
+    face: private
+    art: >
+      Close and low on Jaeha (kang_jaeha) under the shield: his knees buckle as the slab's weight lands in his body; blood pours
+      from his nose; a moss-green ring pulses out.
+    acting:
+      kang_jaeha: "knees buckling, one hand on Borro's shell, blood pouring, teeth bared"
+    calm: top
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.86], text: "[CARRY · BORRO · 120% · OVERLOAD]"}
+    sfx:
+      - {text: "THOOOM", style: impact, at: [0.30, 0.40], size: L, rot: 0}
+
+  - id: P04
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: the slab breaking over the shield into rubble that piles round Borro"
+    light: "dust"
+    art: >
+      The slab breaks over Borro's shield into a heap of rubble that pours down round him, burying him to the waist; he keeps the
+      shield up over the others.
+    acting:
+      borro: "buried to the waist in rubble, still holding the shield up, calm eyes glowing green through the mask"
+    calm: top
+    sfx:
+      - {text: "KRRRUMBLE", style: impact, at: [0.50, 0.70], size: L, rot: 0}
+
+  - id: P05
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close on Borro buried to the waist in stone, the shield above, the drone's lens peeking from his moss"
+    light: "dust; moss green"
+    art: >
+      Close and low on Borro (borro), buried to the waist in stone, the shield held up above the others, sweat running from under
+      his husk face; the drone's lens peeks out of the moss on his shell.
+    acting:
+      borro: "buried to the waist, arms up holding the shield, calm"
+    eyeline: "Borro → Jaeha"
+    foreground: "the rubble round his waist, cropped, bottom"
+    calm: top
+    lines:
+      - {who: borro, type: speech, text: "I CAN HOLD THIS. BUT I CANNOT WALK ANYMORE.", side: l}
+
+  - id: P06
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level by the pillar: Nib crouched on a fallen bell, his amber outline flickering, a timer by his head"
+    light: "amber flickering"
+    art: >
+      By the pillar: Nib (nib, field form) crouches on a fallen bell, breathing hard, his amber outline flickering; two knives
+      notched.
+    acting:
+      nib: "crouched on the fallen bell, knives notched, breathing hard, outline flickering"
+    eyeline: "Nib → Jaeha"
+    foreground: "the fallen bell's rim, cropped, bottom"
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.86], text: "[NIB · FIELD FORM 00:40]"}
+    lines:
+      - {who: nib, type: shout, text: "FORTY SECONDS LEFT IN ME. AND I CAN'T CUT THAT BELL!", side: l}
+
+  - id: P07
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low two-shot by the pillar: Mok grabbing Jaeha by the vest, his cracked shield on his arm, panicking"
+    light: "violet; dust"
+    art: >
+      By the pillar: Mok (mok_hangyu) grabs Jaeha by the vest with his free hand, the cracked shield on his other arm, panicking.
+    acting:
+      mok_hangyu: "gripping Jaeha's vest, eyes wild, shouting into his face"
+      kang_jaeha: "letting himself be shaken, eyes elsewhere, thinking"
+    eyeline: "Mok → Jaeha; Jaeha → the giant"
+    foreground: "the cracked shield's edge, cropped, left"
+    calm: top
+    lines:
+      - {who: mok_hangyu, type: shout, text: "DO SOMETHING, TRAP RAT! YOU ALWAYS HAVE A TRICK! DO SOMETHING!", side: l}
+
+  - id: P08
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "Jaeha's point of view past Mok's shoulder: the ringing giant, and at the edge of his vision the tiny cyan mark, pulsing"
+    light: "violet chaos; a cyan point"
+    art: >
+      Jaeha's point of view past Mok's shoulder: the ringing giant in the falling dust; at the very edge of his vision in the top
+      corner, the tiny cyan mark, pulsing.
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.84, 0.08], text: "[CALL · HELD]"}
+    silent: true
+
+  - id: P09
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Jaeha, the private face, blood on his lip"
+    light: "violet"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha), the cold private face, blood on his lip.
+    acting:
+      kang_jaeha: "a thin, bloody smile, eyes level"
+    eyeline: "Jaeha → Mok"
+    foreground: "Mok's fist in his vest, cropped, bottom"
+    calm: right
+    lines:
+      - {who: kang_jaeha, type: speech, text: "I DO HAVE ONE, SIR. I'VE BEEN SAVING IT FOR YOU.", side: l}
+
+  - id: P10
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close two-shot: Jaeha pushing Mok's hand off and putting him with his back to Borro's shield"
+    light: "violet"
+    face: private
+    art: >
+      Jaeha (kang_jaeha) pushes Mok's hand off his vest and shoves him down beside Borro under the shield.
+    acting:
+      kang_jaeha: "pushing Mok down under the shield with both hands, speaking fast"
+      mok_hangyu: "pushed down, staring up at him"
+    eyeline: "Jaeha → Mok"
+    foreground: "Borro's shield arm, cropped, top"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "FOR TEN SECONDS I WON'T BE ABLE TO MOVE. KEEP ME ALIVE.", side: l}
+      - {who: mok_hangyu, type: speech, text: "ME? KEEP YOU ALIVE?", side: r}
+
+  - id: P11
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Yerin crouched under the shield, nodding hard, her hands glowing"
+    light: "mint glow"
+    art: >
+      Close on Yerin (song_yerin) crouched under the shield, nodding hard, her hands glowing mint.
+    acting:
+      song_yerin: "nodding hard, hands glowing, eyes fierce"
+    eyeline: "Yerin → Jaeha"
+    foreground: "Borro's shield arm above her, cropped, top"
+    calm: left
+    lines:
+      - {who: song_yerin, type: speech, text: "GO. WE'VE GOT YOU.", side: r}
+
+  - id: P12
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: navy
+    camera: "close on Jaeha's bloody finger reaching up and touching the tiny cyan mark at the edge of his vision"
+    light: "cyan blooming"
+    art: >
+      Close on Jaeha's bloody fingertip reaching up and touching the tiny cyan mark in the air at the edge of his vision; it
+      blooms open under his touch.
+    calm: right
+    silent: true
+    sfx:
+      - {text: "TAP", style: summon, at: [0.40, 0.40], size: M, rot: 0}
+
+  - id: P13
+    kind: title
+    shape: full
+    gap: long
+    bg: black
+    title_card: "MY SUMMONS GO FIRST · CHAPTER 18 · LYRA"
+    notes: "Title card at panel 13 of 64 (20%)."
+
+  # ================= THE RIVER (P14–P33) =================
+  - id: P14
+    recipe: establish
+    shape: full
+    gap: long
+    bg: black
+    camera: "high (30 m) over the Call: the endless black water, one single rift open, a wide river under a silver sky inside it, Jaeha a speck before it"
+    light: "key: a silver sky's light pouring out of the one rift across the black water"
+    art: >
+      The Call (location call_void): the endless black water under a starless sky. This time only one rift stands open, tall and
+      bright: inside it, a wide river shining under a silver sky, a bank of pale stones and reeds, a stilt house far off. A
+      single thick cyan line runs from it to Jaeha, a speck on the black water before it, bleeding.
+    calm: top
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[CALL OPEN · 01:00]"}
+    silent: true
+
+  - id: P15
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level just above the water: Jaeha facing the river rift, blood on his face, his reflection broken by ripples"
+    light: "silver light on his face"
+    face: private
+    art: >
+      Just above the black water: Jaeha (kang_jaeha) faces the river rift, blood on his lip and below his ear, silver light on
+      his face, his reflection broken by ripples.
+    acting:
+      kang_jaeha: "standing straight, empty-handed, looking into the rift, breathing hard"
+    eyeline: "Jaeha → the rift"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "RIPPLE", style: quiet, at: [0.50, 0.86], size: S, rot: 0}
+
+  - id: P16
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "through the rift: the riverbank of pale stones, a woman's laugh carrying over the water, reeds swaying, nobody visible yet"
+    light: "silver"
+    art: >
+      Through the rift: the riverbank of pale stones and reeds swaying in a breeze, the river sliding by; nobody visible yet, only
+      a woman's laugh carrying over the water.
+    calm: top
+    lines:
+      - {who: offpanel:lyra, type: speech, text: "WELL, WELL. IT'S THE MERCHANT WITH THE FREE RAMEN.", side: r}
+    sfx:
+      - {text: "HAHAHA", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P17
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Jaeha, wincing at the memory"
+    light: "silver"
+    face: public
+    art: >
+      Close on Jaeha (kang_jaeha), wincing at the memory, a sweat drop.
+    acting:
+      kang_jaeha: "wincing, one eye shut, a small embarrassed smile"
+    calm: right
+    lines:
+      - {who: kang_jaeha, type: nervous, text: "I'VE IMPROVED SINCE THEN, MISS. MY OFFERS HAVE, ANYWAY.", side: l}
+
+  - id: P18
+    recipe: establish
+    shape: tall
+    gap: short
+    bg: black
+    camera: "through the rift, eye level: a tall woman sitting on a boulder by the river with her back half turned, a long silver braid, a white longbow across her knees"
+    light: "silver sky; the river glittering"
+    art: >
+      Through the rift: on a boulder by the river sits a tall woman with her back half turned to him, only her silhouette and a
+      long silver-white braid strung with beads over her LEFT shoulder catching the light; a white longbow lies across her knees.
+      She does not look round yet.
+    acting:
+      lyra: "sitting on the boulder, half turned away, one hand idly plucking the bowstring, chin raised"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "TWNG", style: quiet, at: [0.70, 0.60], size: S, rot: 0}
+
+  - id: P19
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "through the rift: the woman turning her head just enough to show one river-blue eye and a smile over her bare shoulder"
+    light: "silver"
+    art: >
+      Through the rift: the woman (lyra) turns her head just enough to show one river-blue eye and a smug half-smile over her bare
+      shoulder; the braid swings.
+    acting:
+      lyra: "glancing back over her shoulder, one eyebrow raised, a smug half-smile"
+    eyeline: "Lyra → Jaeha"
+    foreground: "the rift's silver rim, cropped, left"
+    calm: top
+    lines:
+      - {who: lyra, type: speech, text: "THEN IMPRESS ME. YOU'RE BLEEDING ALL OVER MY RIVER.", side: l}
+
+  - id: P20
+    recipe: system
+    shape: inset-r
+    gap: short
+    bg: navy
+    camera: "close on a small window in the corner of the Call: the enrage timer from the real world"
+    light: "red"
+    art: >
+      Close on a small red window hanging in the dark corner of the Call, carried over from the real world.
+    calm: left
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.40], text: "[BOSS ENRAGED · 00:17]"}
+    silent: true
+
+  - id: P21
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the water: Jaeha stepping forward toward the rift, speaking fast and plain"
+    light: "silver"
+    face: private
+    art: >
+      From low on the water: Jaeha (kang_jaeha) steps toward the rift and speaks fast and plain, one bloody hand open.
+    acting:
+      kang_jaeha: "stepping forward, one hand open at his side, speaking fast, eyes steady"
+    eyeline: "Jaeha → Lyra"
+    foreground: "ripples on the black water, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "WHAT DO YOU WANT? TELL ME FAST. MY FRIENDS HAVE SEVENTEEN SECONDS.", side: r}
+
+  - id: P22
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "through the rift: the woman standing up on the boulder with the bow, counting on her gloved fingers, playful"
+    light: "silver; the river glittering"
+    art: >
+      Through the rift: the woman (lyra) stands up on the boulder with the white longbow, counting on the fingers of her gloved
+      right hand, playful.
+    acting:
+      lyra: "standing on the boulder, bow in her left hand, counting on her right, a teasing smile, hip cocked"
+    eyeline: "Lyra → Jaeha"
+    foreground: "reeds at the river's edge, cropped, bottom"
+    calm: top
+    lines:
+      - {who: lyra, type: speech, text: "ONE: APPLAUSE. LOTS OF IT. TWO: MONEY. ALSO LOTS.", side: l}
+
+  - id: P23
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on the woman's face going still, the smile fading, her eyes on the far bank of the river"
+    light: "silver"
+    art: >
+      Close on the woman's face (lyra) going still, the smile fading as she looks away across the river.
+    acting:
+      lyra: "the smile gone, eyes drifting to the far bank, jaw tight"
+    eyeline: "Lyra → the far bank"
+    calm: right
+    lines:
+      - {who: lyra, type: speech, text: "THREE. MY LITTLE BROTHER, ILAN. HE LEFT OUR RIVER. FIND HIM.", side: l}
+
+  - id: P24
+    recipe: insert
+    shape: strip
+    gap: short
+    bg: black
+    camera: "a thin strip through the rift: the empty stilt house far off by the river, a small boat tied to it, nobody there"
+    light: "silver; empty"
+    art: >
+      A thin strip through the rift: the stilt house far off by the river, a small empty boat tied to it, nobody there. Fill the
+      canvas edge to edge.
+    calm: none
+    silent: true
+
+  - id: P25
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close on Jaeha speaking honestly, the silver light on his bloody face"
+    light: "silver"
+    face: private
+    art: >
+      Close and low on Jaeha (kang_jaeha), speaking honestly, the silver light on his bloody face.
+    acting:
+      kang_jaeha: "steady, tired, honest eyes, one hand on his chest"
+    eyeline: "Jaeha → Lyra"
+    foreground: "the rift's silver rim, cropped, right"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "I CAN'T PROMISE I'LL FIND HIM. I CAN PROMISE I'LL LOOK, AND I WON'T STOP.", side: r}
+      - {who: kang_jaeha, type: speech, text: "AND WHATEVER HITS YOU, I'LL CARRY HALF.", side: r}
+
+  - id: P26
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on the woman, one eyebrow up, unconvinced, tapping the bow on her shoulder"
+    light: "silver"
+    art: >
+      Close on the woman (lyra), one eyebrow up, tapping the white bow against her shoulder, unconvinced.
+    acting:
+      lyra: "tapping the bow on her shoulder, one eyebrow raised, lips pursed"
+    eyeline: "Lyra → Jaeha"
+    foreground: "the white bow's upper limb, cropped, top left"
+    calm: left
+    lines:
+      - {who: lyra, type: speech, text: "PRETTY WORDS. AND THE APPLAUSE? THE MONEY?", side: r}
+
+  - id: P27
+    recipe: system
+    shape: inset-l
+    gap: short
+    bg: navy
+    camera: "close on the red window in the corner of the Call"
+    light: "red"
+    art: >
+      Close on the small red window in the dark corner of the Call.
+    calm: right
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.40], text: "[BOSS ENRAGED · 00:12]"}
+    silent: true
+
+  - id: P28
+    recipe: talk
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from the water: Jaeha pointing back over his shoulder at nothing, at the world behind him, a crooked grin"
+    light: "silver on his face; the dark behind"
+    face: private
+    art: >
+      From low on the water: Jaeha (kang_jaeha) points back over his shoulder, at the world behind him, with a crooked, bloody
+      grin.
+    acting:
+      kang_jaeha: "pointing back over his shoulder with his thumb, a crooked grin, eyes alight"
+    eyeline: "Jaeha → Lyra"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "SIX HUNDRED THOUSAND PEOPLE ARE WATCHING RIGHT NOW. MAKE IT A GOOD ENTRANCE.", side: r}
+
+  - id: P29
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: black
+    camera: "through the rift, close: the woman's river-blue eyes going huge and sparkling, her mouth falling open"
+    light: "silver; sparkles"
+    art: >
+      Through the rift, close: the woman's river-blue eyes (lyra) go huge and sparkling; her mouth falls open; a hand flies to her
+      cheek.
+    acting:
+      lyra: "eyes huge and sparkling, mouth open, one hand on her cheek, the bow forgotten"
+    eyeline: "Lyra → Jaeha"
+    calm: top
+    lines:
+      - {who: lyra, type: speech, text: "...SIX HUNDRED THOUSAND?", side: l}
+    sfx:
+      - {text: "SPARKLE", style: comic, at: [0.70, 0.30], size: M, rot: 6}
+
+  - id: P30
+    recipe: summon-arrival
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from the water: the woman leaping off the boulder straight at the rift, bow in hand, the cyan line blazing white"
+    light: "the cyan line blazing white; silver"
+    art: >
+      From low on the black water: the woman (lyra) leaps off the boulder straight at the rift, the white bow in one hand, the
+      braid streaming behind her; the cyan line between her and Jaeha blazes white.
+    acting:
+      lyra: "leaping forward, bow in her left hand, right hand reaching for an arrow, a fierce delighted grin"
+      kang_jaeha: "bracing, one arm up against the glare"
+    calm: top
+    lines:
+      - {who: lyra, type: speech, text: "THEN STAND BACK, MERCHANT!", side: l}
+    sfx:
+      - {text: "KWAAAMM", style: summon, at: [0.66, 0.24], size: XL, rot: -6}
+
+  - id: P31
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level over the black water as it floods white, a window across it"
+    light: "white flooding out"
+    art: >
+      The Call floods white from the river rift outward. The upper half is empty for the window.
+    calm: top
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.05], headline: "[ACCEPTED · 00:09]", body: "SUMMON NO. 3 IS COMING THROUGH · SUMMON SLOTS 3/3 · ROUTE ALIGNMENT 100% → 0%", button: "OK"}
+    silent: true
+
+  # ================= THE ENTRANCE (P32–P50) =================
+  - id: P32
+    recipe: anticipation
+    shape: wide
+    gap: short
+    bg: black
+    camera: "back in the chamber, low: Jaeha's eyes snapping open, a vertical cyan slit tearing open in the air high above the giant's shoulder"
+    light: "a cyan slit tearing open; violet"
+    art: >
+      Back in the chamber, from low: Jaeha's eyes snap open under the shield; high above, beside the giant's ringing bell-head, a
+      vertical cyan slit tears open in the air, silver light and river water spilling out of it.
+    acting:
+      kang_jaeha: "eyes snapping open, looking up"
+      mok_hangyu: "crouched over him with the cracked shield, looking up"
+      bell_ringer: "ringing, unaware"
+    calm: top
+    sfx:
+      - {text: "VRRRZZZT", style: summon, at: [0.66, 0.24], size: L, rot: 0}
+
+  - id: P33
+    recipe: splash
+    shape: full
+    gap: short
+    bg: white
+    camera: "a camera floating at the height of the giant's shoulder, level with her, three-quarter: Lyra landing on the bell-giant's shoulder with her longbow drawn, braid flying"
+    light: "key: silver light pouring from the slit behind her; a river-blue rim along her; spray of river water glittering"
+    art: >
+      LYRA'S ENTRANCE, the chapter's biggest image. Lyra (lyra, field form: a thin river-blue outline, glowing river-blue eyes)
+      lands on the Drowned Bell-Ringer's shoulder beside its ringing bell-head, one white boot planted on the rusted chains, the
+      white longbow drawn to full with a blue-fletched arrow, the long silver-white braid flying out behind her over her LEFT
+      shoulder, beads flashing, river water spraying round her in a glittering arc from the slit. Her full design: the cropped
+      river-blue halter with the plunging silver-trimmed neckline, the navy chest guard on the left, the silver bracer on her
+      LEFT forearm, the glove on her right hand, the white sash and flute, the short split river-blue skirt over fitted dark
+      shorts, the white thigh-high boots. A beautiful face, a confident smirk, an athletic curvy figure, full model-sheet
+      proportions (about 8 heads, long legs). The camera floats level with her: never below her, never aimed up her skirt.
+      Scale: she is a tenth of the giant's height.
+    acting:
+      lyra: "landing in a wide archer's stance on the giant's shoulder, bow at full draw, chin up, a confident smirk, the braid flying"
+      bell_ringer: "ringing, its bell-head beside her"
+    calm: top
+    sfx:
+      - {text: "SPLASHHH", style: summon, at: [0.20, 0.80], size: L, rot: -6}
+
+  - id: P34
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: black
+    camera: "flat, straight on, under the shield: Jaeha blushing and flustered, eyes sliding away; Nib beside him flat and unimpressed"
+    light: "silver from above; dust"
+    face: public
+    art: >
+      Straight on, under Borro's shield: Jaeha (kang_jaeha) has gone red, blush hatching across his cheeks, a sweat drop, his eyes
+      sliding anywhere else; beside him Nib (nib, mask) stares up at the shoulder with a flat, unimpressed look.
+    acting:
+      kang_jaeha: "blushing, eyes sliding to the side, a hand half raised over his face"
+      nib: "flat eyes, mouth a straight line, arms folded"
+    eyeline: "Jaeha → anywhere else; Nib → Lyra"
+    calm: top
+    lines:
+      - {who: nib, type: whisper, text: "......", side: r}
+
+  - id: P35
+    recipe: chorus
+    shape: wide
+    gap: short
+    bg: white
+    camera: "outside, close on Bomi's phone in her trembling hands: the live stream exploding"
+    light: "daylight; the screen glow"
+    art: >
+      Outside at the spillway, close on Bomi's phone in her trembling hands, the screen flat green, Choi gaping over her shoulder.
+    calm: top
+    ui:
+      - kind: phone.live_stream
+        "on": screen
+        viewers: "873,551 WATCHING"
+        chat:
+          - "[jjang_hunter]: WHO IS THAT"
+          - "[seoul_otaku]: A THIRD ONE?? AND SHE'S GORGEOUS???"
+          - "[dalgona]: THE TRAP RAT HAS A WAIFU NOW"
+    sfx:
+      - {text: "BLIPBLIPBLIPBLIP", style: quiet, at: [0.80, 0.80], size: S, rot: 0}
+
+  - id: P36
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "in the nave outside the sealed doors, close on Sora's wrist: the compass needle spinning wildly"
+    light: "violet from the doors; the needle blazing"
+    art: >
+      In the nave outside the sealed doors, close on Sora's wrist: the compass needle spins wildly round and round, blazing
+      violet.
+    calm: left
+    silent: true
+    sfx:
+      - {text: "TIKTIKTIKTIK", style: quiet, at: [0.40, 0.30], size: S, rot: 0}
+
+  - id: P37
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Sora in the nave, staring at her spinning compass, then laughing"
+    light: "violet"
+    art: >
+      Close on Sora (han_sora) in the nave, staring at her spinning compass, then laughing out loud.
+    acting:
+      han_sora: "staring at the compass, then throwing her head back in a laugh"
+    eyeline: "Sora → the compass"
+    calm: right
+    lines:
+      - {who: han_sora, type: speech, text: "THREE. OH, DIRECTOR BAEK IS GOING TO LOVE YOU.", side: l}
+
+  - id: P38
+    recipe: name-card
+    shape: tall
+    gap: short
+    bg: black
+    camera: "eye level with her, three-quarter: Lyra on the giant's shoulder turning to look down at Jaeha, the bow still drawn"
+    light: "silver; violet from the crack"
+    intro: "LYRA · RIVER ARCHER OF THE FAR SIDE · SUMMON NO. 3"
+    art: >
+      Lyra (lyra) on the giant's shoulder turns her head to look down at Jaeha with a smug smile, the bow still drawn. Name-card
+      gradient behind her, river blue to silver. Leave the left third calm for the name card. The camera is level with her.
+    acting:
+      lyra: "turning her head down toward Jaeha, a smug smile, bow still drawn, the braid settling over her left shoulder"
+    eyeline: "Lyra → Jaeha (down)"
+    calm: left
+    lines:
+      - {who: lyra, type: speech, text: "WHICH ONE OF YOU IS THE CAMERA? I WANT TO SEE MY GOOD SIDE.", side: r}
+
+  - id: P39
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on the drone's lens in Borro's moss, Lyra's reflection in it posing with a wink"
+    light: "silver; a red light"
+    art: >
+      Close on the drone's lens peeking out of the moss on Borro's shell: in its glass, a tiny reflection of Lyra striking a pose
+      with a wink.
+    calm: left
+    silent: true
+    sfx:
+      - {text: "WINK", style: quiet, at: [0.30, 0.30], size: S, rot: 0}
+
+  - id: P40
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from under the shield: Jaeha shouting up at her, Mok gaping beside him"
+    light: "silver; violet"
+    face: private
+    art: >
+      From low under Borro's shield: Jaeha (kang_jaeha) shouts up at Lyra; Mok gapes at her beside him.
+    acting:
+      kang_jaeha: "shouting up, pointing at the bell-head, blood on his face"
+      mok_hangyu: "gaping up at Lyra, the cracked shield drooping"
+    eyeline: "Jaeha → Lyra; Mok → Lyra"
+    foreground: "Borro's raised shield, cropped, top"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: shout, text: "THE CRACK IN THE BELL! WE HAVE NINE SECONDS!", side: l}
+
+  - id: P41
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level with Lyra: her eyes narrowing as she aims at the crack, cold and still, a window beside her"
+    light: "river-blue glow; cyan"
+    art: >
+      Level with Lyra (lyra): she stops performing; her eyes narrow, cold and still, as she aims point-blank at the violet crack
+      in the bell-head. The upper part is empty for the window.
+    acting:
+      lyra: "utterly still, one eye narrowed, the arrow's head aligned on the crack, breath held"
+    eyeline: "Lyra → the crack"
+    calm: top
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[LYRA · SEAL 1/5 · FIELD FORM 05:00]"}
+    silent: true
+
+  - id: P42
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, tilted: the arrow streaking point-blank into the violet crack"
+    light: "a river-blue streak"
+    art: >
+      Low and tilted: Lyra's arrow streaks point-blank into the violet crack in the bell-head, a river-blue trail behind it.
+    acting:
+      lyra: "follow-through after the release, bowstring snapping forward"
+    calm: top
+    sfx:
+      - {text: "TSHHUNG", style: impact, at: [0.40, 0.30], size: XL, rot: -10}
+
+  - id: P43
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close on the bell-head: the arrow bouncing off the bronze beside the crack and spinning away, barely a scratch"
+    light: "a spark"
+    art: >
+      Close on the bell-head: the arrow bounces off the bronze right beside the crack with a spark and spins away, leaving barely a
+      scratch.
+    calm: top
+    sfx:
+      - {text: "TINK", style: comic, at: [0.50, 0.30], size: L, rot: 8}
+
+  - id: P44
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Lyra on the shoulder, staring at the spinning arrow, mouth open"
+    light: "silver"
+    art: >
+      Close on Lyra (lyra) on the giant's shoulder, staring at her arrow spinning away, mouth open in outrage.
+    acting:
+      lyra: "staring, mouth open, one eyebrow twitching, the bow lowered"
+    eyeline: "Lyra → the arrow"
+    calm: right
+    silent: true
+    sfx:
+      - {text: "TWITCH", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P45
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level by the pillar: the amber going out of Nib's eye, his outline vanishing, a window"
+    light: "the amber dying"
+    art: >
+      By the pillar: the amber goes out of Nib's eye and his outline vanishes; he drops to one knee on the fallen bell. The upper
+      part is empty for the window.
+    acting:
+      nib: "dropping to one knee, suddenly heavy, eye dull"
+    calm: top
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[NIB · FIELD FORM ENDED · COOLDOWN 01:00]"}
+    silent: true
+
+  - id: P46
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the water: the giant swinging a fist up at its own shoulder to swat Lyra off, Lyra leaping clear"
+    light: "violet; silver"
+    art: >
+      From low in the water: the giant swings a huge fist up at its own shoulder to swat Lyra off; she leaps clear, flipping
+      through the air with the bow.
+    acting:
+      bell_ringer: "swinging a fist up at its shoulder"
+      lyra: "flipping clear through the air, bow in hand, braid streaming"
+    calm: top
+    sfx:
+      - {text: "WHOOSH", style: impact, at: [0.60, 0.30], size: L, rot: -6}
+
+  - id: P47
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: Lyra landing lightly on top of Borro's raised shield, the giant's ringing behind her"
+    light: "silver; violet"
+    art: >
+      Lyra lands lightly on top of Borro's raised shield over the others, balanced on its rim, the giant ringing behind her.
+    acting:
+      lyra: "landing on the shield's rim in a crouch, one hand on the iron, a fierce frown"
+      borro: "holding the shield steady under her, looking up"
+    calm: top
+    sfx:
+      - {text: "TAK", style: impact, at: [0.50, 0.30], size: M, rot: 0}
+
+  - id: P48
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close two-shot: Borro looking up at Lyra crouched on his shield"
+    light: "silver; moss green"
+    art: >
+      Close and low: Borro (borro), buried to the waist, looks up at Lyra crouched on his shield's rim.
+    acting:
+      borro: "looking up, a slow, dry smile"
+      lyra: "crouched on the rim, glaring at the giant, notching another arrow"
+    eyeline: "Borro → Lyra; Lyra → the giant"
+    foreground: "the shield's rim under her boot, cropped, top"
+    calm: top
+    lines:
+      - {who: borro, type: speech, text: "EVERYONE STANDS ON MY SHIELD TODAY.", side: l}
+      - {who: lyra, type: speech, text: "THEN BE A GOOD SHIELD AND HOLD STILL.", side: r}
+
+  - id: P49
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "close on Jaeha under the shield, lit red from the warning window, looking from Borro to Lyra"
+    light: "red"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha) under the shield, lit red from the warning window, his eyes moving from Borro's shield to Lyra
+      on top of it.
+    acting:
+      kang_jaeha: "eyes moving from the shield to Lyra, narrowing, blood on his lip"
+    eyeline: "Jaeha → Lyra"
+    calm: top
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.06], text: "[BOSS ENRAGED · 00:07]"}
+    silent: true
+
+  - id: P50
+    recipe: insert
+    shape: strip
+    gap: short
+    bg: black
+    camera: "a thin strip: Jaeha's memory of the aqueduct, Nib on Borro's shield, the white-gold pulse running up into him"
+    light: "a white-gold flash of memory"
+    art: >
+      A thin strip of memory from the aqueduct: Nib standing on Borro's shield, the white-gold pulse running from the shield up
+      into him. Fill the canvas edge to edge.
+    calm: none
+    silent: true
+
+  # ================= ONLY THE ONE (P51–P64) =================
+  - id: P51
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of Jaeha's eyes, an idea landing"
+    light: "red; a white-gold glint"
+    face: private
+    art: >
+      Extreme close-up: Jaeha's eyes (kang_jaeha), an idea landing in them. Fill the canvas edge to edge.
+    acting:
+      kang_jaeha: "eyes widening, then sharpening"
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: inner, text: "HER ARROWS ARE TOO LIGHT. SO GIVE THEM WEIGHT."}
+
+  - id: P52
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, under the shield: Jaeha pressing one hand flat on Borro's shell and reaching the other up toward Lyra's boot on the rim"
+    light: "silver; moss green"
+    face: private
+    art: >
+      From low under the shield: Jaeha (kang_jaeha) presses one hand flat on Borro's shell and reaches the other up toward Lyra's
+      boot on the shield's rim.
+    acting:
+      kang_jaeha: "one hand on Borro's shell, the other reaching up, eyes on Lyra"
+    eyeline: "Jaeha → Lyra"
+    foreground: "Borro's shell and moss, cropped, left"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: shout, text: "LYRA! DON'T SHOOT UNTIL I SAY! WAIT FOR ITS NEXT BLOW!", side: r}
+
+  - id: P53
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Lyra on the rim, offended, the arrow half drawn"
+    light: "silver"
+    art: >
+      Close on Lyra (lyra) on the shield's rim, offended, the arrow half drawn.
+    acting:
+      lyra: "glaring down at him, the arrow half drawn, nostrils flared"
+    eyeline: "Lyra → Jaeha"
+    foreground: "the shield's rim under her boots, cropped, bottom"
+    calm: left
+    lines:
+      - {who: lyra, type: speech, text: "WAIT? I'VE BEEN HERE SIX SECONDS AND YOU'RE ALREADY GIVING ME ORDERS?", side: r}
+
+  - id: P54
+    recipe: anticipation
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from the water: the giant snatching up its fallen clapper and raising it high over the pillar, its bell-head still ringing"
+    light: "violet; dust"
+    art: >
+      From low in the water: the giant snatches up its fallen clapper and raises it high over the pillar where they shelter, its
+      bell-head still ringing.
+    acting:
+      bell_ringer: "raising the clapper high in both hands over the pillar"
+    calm: top
+    sfx:
+      - {text: "DONG DONG DONG", style: impact, at: [0.30, 0.20], size: L, rot: -4}
+
+  - id: P55
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level by the pillar: Mok standing up with his cracked shield and stepping in beside Borro's shield without being asked"
+    light: "violet; silver"
+    art: >
+      By the pillar: Mok (mok_hangyu) stands up with his cracked black shield and, without being asked, steps in and raises it
+      beside Borro's.
+    acting:
+      mok_hangyu: "raising the cracked shield beside Borro's, jaw clenched, not looking at anyone"
+      borro: "glancing at Mok, surprised"
+    eyeline: "Mok → the clapper; Borro → Mok"
+    foreground: "the two shields' rims side by side, cropped, top"
+    calm: top
+    lines:
+      - {who: mok_hangyu, type: speech, text: "SHUT UP. I'M A TANK. IT'S WHAT I DO.", side: l}
+
+  - id: P56
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Jaeha looking at Mok's shield beside Borro's, a flicker of surprise"
+    light: "silver"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha) looking at Mok's cracked shield raised beside Borro's, a flicker of surprise in his eyes.
+    acting:
+      kang_jaeha: "eyes widening slightly, then narrowing, blood on his lip"
+    eyeline: "Jaeha → Mok"
+    calm: right
+    silent: true
+
+  - id: P57
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from under the shields: Lyra on the rim, drawing the arrow back to her cheek, her eyes going cold and still"
+    light: "silver; river blue"
+    art: >
+      From low under the shields: Lyra (lyra) on the rim draws the arrow back to her cheek; her eyes go cold and still.
+    acting:
+      lyra: "at full draw on the shield's rim, one eye narrowed, utterly still"
+    eyeline: "Lyra → the crack"
+    foreground: "the shields' rims, cropped, bottom"
+    calm: top
+    lines:
+      - {who: lyra, type: speech, text: "COUNT THE ARROWS IF YOU WANT. I ONLY NEED THE ONE.", side: l}
+
+  - id: P58
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on her quiver: only a few blue-fletched arrows left"
+    light: "silver"
+    art: >
+      Close on the white quiver at Lyra's right hip: only three blue-fletched arrows left in it.
+    calm: left
+    silent: true
+
+  - id: P59
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close on Jaeha's hand flat on Borro's shell, trembling, a faint white-gold light gathering under his palm"
+    light: "a faint white-gold glow"
+    art: >
+      Close on Jaeha's hand flat on Borro's mossy shell, trembling hard, a faint white-gold light gathering under his palm.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "VMMMM", style: quiet, at: [0.70, 0.40], size: S, rot: 0}
+
+  - id: P60
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Jaeha's other hand reaching up, fingers almost touching Lyra's white boot on the rim"
+    light: "white-gold; silver"
+    art: >
+      Close on Jaeha's other hand reaching up, his bloody fingertips almost touching the heel of Lyra's white boot on the shield's
+      rim.
+    calm: right
+    silent: true
+
+  - id: P61
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from the water, looking straight up: the clapper coming down at the two shields, Lyra drawn on the rim, the bell ringing above"
+    light: "violet; the clapper's shadow"
+    art: >
+      From low in the water, looking straight up: the giant's clapper comes down at the two raised shields; Lyra crouches on the
+      rim at full draw; above everything, the bell-head rings.
+    acting:
+      bell_ringer: "bringing the clapper down with both arms"
+      lyra: "at full draw, waiting"
+      mok_hangyu: "bracing under his shield"
+      borro: "bracing under his shield"
+    calm: top
+    sfx:
+      - {text: "WHOOOOOM", style: impact, at: [0.50, 0.20], size: XL, rot: 8}
+
+  - id: P62
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "close on the red warning window, the chamber shaking behind it"
+    light: "red"
+    art: >
+      Close on the red warning window, the shaking chamber blurred behind it.
+    calm: top
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.36], text: "[BOSS ENRAGED · 00:03]"}
+    silent: true
+
+  - id: P63
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of Lyra's eye along the arrow's shaft, the crack in the bell reflected in it"
+    light: "river blue; violet"
+    art: >
+      Extreme close-up: Lyra's eye along the arrow's shaft, cold and still, the violet crack in the bell reflected in it. Fill the
+      canvas edge to edge.
+    acting:
+      lyra: "one eye open along the shaft, unblinking"
+    calm: none
+    silent: true
+
+  - id: P64
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, under the shields: Jaeha, both hands in place, looking up at the falling clapper, his lips moving"
+    light: "violet; white-gold gathering in his hands"
+    face: private
+    art: >
+      Low under the shields: Jaeha (kang_jaeha), one hand on Borro's shell and the other at Lyra's heel, looks up at the falling
+      clapper, white-gold light gathering in both his hands.
+    acting:
+      kang_jaeha: "looking up, both hands in place, lips moving, eyes blazing"
+    eyeline: "Jaeha → the clapper"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: intense, text: "NOT YET. NOT YET...", side: r}
+
+  - id: END
+    kind: end
+    chibi_gag: "Chibi Lyra poses for the tiny chibi drone in Borro's moss with a peace sign and sparkles, while chibi Nib holds up a small sign-shaped card that is completely blank and chibi Jaeha, bright red, hides his face behind his notebook."
