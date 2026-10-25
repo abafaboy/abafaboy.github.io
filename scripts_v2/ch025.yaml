@@ -1,0 +1,1120 @@
+chapter: 25
+title: Same Kind
+format: SCRIPT_FORMAT_v2.md
+when: "Friday, about 1 AM to 2 AM: the cleft below the locked gate, the old pipe gallery near the canyon floor, the pipe junction, and the glass wall."
+story_beats: ARC3_4_BEATS.md#25-same-kind
+cast:
+  kang_jaeha: crew           # the crew kit; the respirator mostly round his neck now
+  nib: mask                  # seal 3/5 armour
+  borro: default             # joins at P12
+  lyra: default              # joins at P12
+  moon_ahin: default
+  ahin_husks: default        # 37 left; No. 1 leads; No. 17 broken in P38 (36 left)
+  foreman_gu: default        # P01-P02 only
+  crew_pyo: default
+  crew_dami: default
+  crew_woo: default
+  crew_ho: default
+  ash_hound: default         # CHARACTER_DESIGNS_v2.md 4b.3, a pack of twelve
+  ash_hound_alpha: default   # 4b.3
+locations: [farm_canyon]
+continuity:
+  - "Jaeha: the crew kit, the respirator hanging round his neck from P05 (the core dust is thin down here); the claw gash on his LEFT shoulder (ch 24) under a strip of Dami's scarf from P11. A nosebleed from P41."
+  - "Moon Ahin: her full design (2.11); a smudge of dust on the white coat-dress from P05. Her husks: 37 left; each has a small silver numeral on the back of its neck; No. 1, the lead husk, is no different to look at but always walks at the front."
+  - "The pipe gallery (P11-P30, location farm_canyon): an ancient Far Side tunnel near the canyon floor, a vaulted stone passage carved with wave patterns, 12 m wide and 10 m high; three of the giant pipes run side by side along it on steel cradles, humming and glowing faintly violet; caged maintenance lamps every 20 m; side channels of black water."
+  - "The pipe junction (P31-P42): a round vaulted chamber 30 m across where the pipes split three ways; one pipe has a crack leaking violet light like steam, and the ash hounds lap at the light pooling under it."
+  - "Ash hounds (4b.3): wolf-sized, black, eyeless and noseless, split jaws of bone-white teeth, violet ash from cracks along the back; the pack moves only when the alpha howls (its tell). The alpha is chest-high on a man, its neck cracks flaring violet when it howls."
+  - "The glass wall (P53-P60): where the gallery ends, an enormous curved wall of thick glass 30 m high set into the rock in a steel frame, fogged on the inside; the three pipes pierce it through steel collars. Beside the frame's base, a brass plate with the silver hexagon logo and, under it, a small crescent-moon seal (the Moon family's). No legible text."
+  - "Field forms (P34-P40): Borro moss green, Lyra river blue, Nib amber; CARRY for two at a time at most (Lv. 2)."
+plants:
+  - "PLANT P19: 'Uncle Taegun': Director Baek Taegun is Moon Ahin's uncle, her mother's brother (ch 32)."
+  - "PLANT P38: Moon Ahin touches the broken face of No. 17 (ch 30)."
+  - "PLANT P45-P47: Moon Ahin understands CARRY (ch 30: 'Why are you carrying my husks?')."
+  - "PLANT P58-P60: her grandfather's seal on the wall of the farm (ch 26, ch 32)."
+hook_type: personal
+
+panels:
+
+  # ================= CUT OFF (P01-P10) =================
+  - id: P01
+    recipe: impact
+    shape: tall
+    gap: none
+    bg: black
+    camera: "high, looking back up the cleft: the walkway behind the column shearing off the rock wall and falling away in a shower of bolts"
+    light: "a violet pulse lighting the cleft"
+    art: >
+      High, looking back up the cleft as the violet pulse lights it: the section of walkway between the column and the opened grille
+      shears off the rock wall in a shower of snapping bolts and falls away into the dark; the foreman (foreman_gu), alone at the
+      grille, throws himself back from the new edge. The column clings to the walkway below. Scale: the gap is 15 m wide.
+    acting:
+      foreman_gu: "throwing himself backwards from the edge, arms flailing, hard hat flying"
+    calm: top
+    sfx:
+      - {text: "THOOOM", style: impact, at: [0.30, 0.20], size: L, rot: 0}
+      - {text: "KRANG KRANG KRANG", style: impact, at: [0.70, 0.60], size: M, rot: -8}
+
+  - id: P02
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the column's side of the gap: the foreman across 15 m of empty air, scrambling up and backing away"
+    light: "the work light at the grille"
+    art: >
+      From low on the column's side of the gap: across 15 m of empty air, the foreman (foreman_gu) scrambles to his feet at the
+      grille and backs away up the walkway, pointing at them.
+    acting:
+      foreman_gu: "backing away, one hand pointing across the gap, the other fumbling for his radio"
+    eyeline: "the foreman → the column"
+    foreground: "the torn end of the walkway, bent bolts, cropped, bottom"
+    calm: top
+    lines:
+      - {who: foreman_gu, type: shout, text: "I'M NOT PAID FOR THIS! I'M GETTING THE ENGINEERS!", side: l}
+    sfx:
+      - {text: "STOMP STOMP", style: quiet, at: [0.70, 0.80], size: S, rot: 0}
+
+  - id: P03
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level on the walkway: the remaining walkway tilting, the crew grabbing the rail, husks bracing, Jaeha hauling Pyo up by his tabard"
+    light: "violet; dust"
+    art: >
+      On the walkway: what remains tilts with a groan; the crew grab the rail; the husks (ahin_husks) brace their feet in unison;
+      Jaeha (kang_jaeha) hauls Uncle Pyo (crew_pyo) up by the back of his tabard as his bad knee buckles.
+    acting:
+      kang_jaeha: "hauling Pyo up by the tabard with both hands, one boot braced on a stanchion"
+      crew_pyo: "knee buckling, grabbing Jaeha's arm"
+      ahin_husks: "bracing as one, feet wide"
+    calm: top
+    sfx:
+      - {text: "GRRRROAN", style: impact, at: [0.50, 0.20], size: L, rot: 6}
+
+  - id: P04
+    recipe: establish
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: the end of the tilted walkway, a steel maintenance ladder running down beside the pipes into the dark"
+    light: "violet from the pipes; one caged lamp on the ladder"
+    art: >
+      At the low end of the tilted walkway: a narrow steel maintenance ladder with a safety cage runs straight down beside the
+      glowing pipes into the dark of the cleft; one caged lamp blinks on it far below.
+    calm: top
+    silent: true
+
+  - id: P05
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, two-shot at the top of the ladder: Moon Ahin brushing dust off her coat-dress, Jaeha pulling his respirator down round his neck"
+    light: "violet"
+    face: private
+    art: >
+      Two-shot at the top of the ladder: Moon Ahin (moon_ahin) brushes a smudge of dust off her white coat-dress with a glove;
+      Jaeha (kang_jaeha) pulls his respirator down round his neck.
+    acting:
+      moon_ahin: "brushing dust off the coat-dress with two fingers, not looking at him"
+      kang_jaeha: "pulling the respirator down, looking down the ladder"
+    eyeline: "Moon Ahin → her coat; Jaeha → the ladder"
+    foreground: "the top of the ladder's cage, cropped, bottom"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: speech, text: "WE'RE CUT OFF.", side: l}
+      - {who: kang_jaeha, type: speech, text: "THEN THE ONLY WAY IS DOWN. AND I HAVE TWO MORE HUSKS DOWN THERE.", side: r}
+
+  - id: P06
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Moon Ahin turning to look at him properly for the first time"
+    light: "violet"
+    art: >
+      Close on Moon Ahin (moon_ahin) turning to look at him properly for the first time, the baton lowered.
+    acting:
+      moon_ahin: "turning her head to him, eyes level, the baton lowered against her thigh"
+    eyeline: "Moon Ahin → Jaeha"
+    foreground: "Jaeha's tabard, cropped, right"
+    calm: right
+    lines:
+      - {who: moon_ahin, type: speech, text: "A TRUCE, THEN. UNTIL WE'RE OUT.", side: l}
+
+  - id: P07
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha holding out his gloved hand"
+    light: "violet"
+    face: public
+    art: >
+      Close on Jaeha (kang_jaeha) holding out his gloved hand to shake on it.
+    acting:
+      kang_jaeha: "holding out his hand, a polite small smile"
+    eyeline: "Jaeha → Moon Ahin"
+    foreground: "her white glove, cropped, left"
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: speech, text: "UNTIL WE'RE OUT, MA'AM.", side: r}
+
+  - id: P08
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, two-shot: Moon Ahin walking straight past his offered hand to the ladder"
+    light: "violet"
+    face: public
+    art: >
+      Two-shot: Moon Ahin (moon_ahin) walks straight past his offered hand and steps onto the ladder; Jaeha (kang_jaeha) is left
+      holding his hand out to nobody.
+    acting:
+      moon_ahin: "stepping onto the ladder without a glance, baton tucked into her belt"
+      kang_jaeha: "hand still out, the smile fixed, a sweat drop"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "...", style: comic, at: [0.70, 0.30], size: M, rot: 0}
+
+  - id: P09
+    recipe: establish
+    shape: tall
+    gap: short
+    bg: black
+    camera: "high, looking straight down the ladder cage: husks, crew and Jaeha climbing down in a long line toward the lamp far below"
+    light: "violet from the pipes; caged lamps"
+    art: >
+      High, looking straight down the ladder cage beside the glowing pipe: a long line climbs down it, Moon Ahin's white figure
+      first, then husks, the crew and Jaeha last, toward a caged lamp far below. Scale: the ladder is 80 m long.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "klang klang klang", style: quiet, at: [0.70, 0.50], size: S, rot: 0}
+
+  - id: P10
+    kind: title
+    shape: full
+    gap: long
+    bg: black
+    title_card: "MY SUMMONS GO FIRST · CHAPTER 25 · SAME KIND"
+    notes: "Title card at panel 10 of 60 (17%)."
+
+  # ================= SAME KIND (P11-P30) =================
+  - id: P11
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: black
+    camera: "eye level at the foot of the ladder: an ancient vaulted tunnel carved with waves, three giant pipes running along it on steel cradles"
+    light: "caged lamps; the violet glow of the pipes"
+    art: >
+      At the foot of the ladder: the old pipe gallery (location farm_canyon), an ancient Far Side tunnel 12 m wide with a vaulted
+      roof carved with wave patterns; three giant pipes run side by side along it on steel cradles, humming and glowing faintly
+      violet; caged lamps every 20 m; a side channel of black water along one wall. Dami (crew_dami) ties a strip of her scarf round
+      Jaeha's bleeding shoulder (kang_jaeha).
+    acting:
+      crew_dami: "knotting a strip of patterned scarf round his shoulder, mouth tight"
+      kang_jaeha: "holding still for her, arm lifted"
+    calm: top
+    silent: true
+
+  - id: P12
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level by the side channel: Borro heaving up out of the black water onto the tunnel floor, Lyra springing off his shell, the crew shrieking"
+    light: "caged lamps; water spraying"
+    art: >
+      By the side channel: Borro (borro) heaves himself up out of the black water onto the tunnel floor in a cascade, and Lyra
+      (lyra) springs off his shell and lands lightly, shaking water off like a cat; the crew shriek and scramble back; Ho (crew_ho)
+      hides behind Woo (crew_woo).
+    acting:
+      borro: "heaving up out of the water, water pouring off his shell, calm"
+      lyra: "landing lightly, flicking water off her hands, braid swinging"
+      crew_ho: "hiding behind his brother, pointing"
+      crew_woo: "arms out to shield his brother, frozen"
+    calm: top
+    lines:
+      - {who: crew_ho, type: shout, text: "MORE HUSKS! A HUGE ONE AND A PRETTY ONE!", side: l}
+    sfx:
+      - {text: "SPLOOSH", style: impact, at: [0.30, 0.70], size: L, rot: -6}
+
+  - id: P13
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, side-on: Lyra and Moon Ahin face to face, Lyra looking her slowly up and down"
+    light: "caged lamps"
+    art: >
+      Side-on: Lyra (lyra) and Moon Ahin (moon_ahin) stand face to face, two tall beautiful women in blue and white; Lyra looks her
+      slowly up and down, from the silver bow in her hair to the slit to the white boots.
+    acting:
+      lyra: "one hand on her hip, looking Moon Ahin up and down, unimpressed"
+      moon_ahin: "standing perfectly still, chin up, eyes half-lidded"
+    eyeline: "Lyra → Moon Ahin's outfit; Moon Ahin → Lyra"
+    foreground: "a husk's polished shoulder, cropped, left"
+    calm: top
+    lines:
+      - {who: lyra, type: speech, text: "WHO CUTS A SLIT THAT HIGH AND THEN WEARS WHITE INTO A SEWER?", side: l}
+      - {who: moon_ahin, type: speech, text: "SAYS THE WOMAN WEARING A BELT AS A SKIRT.", side: r}
+
+  - id: P14
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha between them, sweating, Nib beside him eating something"
+    light: "caged lamps"
+    face: public
+    art: >
+      Close on Jaeha (kang_jaeha) standing between them, sweating; Nib (nib) beside him, unbothered, chewing a strip of dried squid
+      from a pouch.
+    acting:
+      kang_jaeha: "hands half raised between the two women, a sweat drop, a fixed smile"
+      nib: "chewing dried squid, watching the women like a match"
+    calm: left
+    silent: true
+    sfx:
+      - {text: "chew chew", style: quiet, at: [0.30, 0.70], size: S, rot: 0}
+
+  - id: P15
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, eye level with Nib: Jaeha pointing down the tunnel, Moon Ahin flicking her baton at her lead husk"
+    light: "caged lamps"
+    face: private
+    art: >
+      From low, at Nib's height: Jaeha (kang_jaeha) points down the tunnel; Moon Ahin (moon_ahin) flicks her baton at her lead husk,
+      No. 1 (ahin_husks), which steps forward beside Nib (nib).
+    acting:
+      kang_jaeha: "pointing down the tunnel"
+      moon_ahin: "a small flick of the baton toward the tunnel"
+      ahin_husks: "No. 1 stepping forward beside Nib, perfectly upright"
+      nib: "looking sideways and up at the husk beside him, suspicious"
+    eyeline: "Nib → No. 1"
+    foreground: "Nib's shoulder and pauldron, cropped, left"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "NIB, SCOUT AHEAD. QUIETLY.", side: r}
+      - {who: moon_ahin, type: speech, text: "NUMBER ONE. GO WITH IT.", side: l}
+
+  - id: P16
+    recipe: silent
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level from behind: Nib and the tall husk walking down the tunnel side by side, Nib glancing up at it, it looking straight ahead"
+    light: "caged lamps fading into dark"
+    art: >
+      From behind: Nib (nib) and the tall polished husk No. 1 (ahin_husks) walk down the tunnel side by side under the pipes, the
+      little goblin glancing up at it sideways; it looks straight ahead. Neither speaks.
+    acting:
+      nib: "walking, glancing up at the husk out of the corner of his eye"
+      ahin_husks: "No. 1 walking straight-backed, face forward"
+    calm: top
+    silent: true
+
+  - id: P17
+    recipe: silent
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "low, at a bend: Nib and the husk peering round the corner in exactly the same pose, one above the other"
+    light: "a caged lamp"
+    art: >
+      Low at a bend in the tunnel: Nib (nib) and No. 1 (ahin_husks) peer round the corner in exactly the same pose, one head above
+      the other, one hand each on the stone.
+    acting:
+      nib: "peering round the corner, one hand on the stone"
+      ahin_husks: "No. 1 peering round the corner above him in the same pose"
+    calm: right
+    silent: true
+    sfx:
+      - {text: "peek", style: comic, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P18
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, walking two-shot under the pipes: Moon Ahin and Jaeha side by side, not looking at each other"
+    light: "caged lamps; violet"
+    face: private
+    art: >
+      Walking two-shot under the glowing pipes: Moon Ahin (moon_ahin) and Jaeha (kang_jaeha) walk side by side behind the column,
+      not looking at each other.
+    acting:
+      moon_ahin: "walking, eyes ahead, baton at her side"
+      kang_jaeha: "walking, notebook closed in one hand"
+    eyeline: "both → ahead"
+    foreground: "a pipe's steel cradle, cropped, top"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: speech, text: "EVERYONE SAW THE STREAM. WHY DO YOU STILL CALL THEM HUSKS?", side: l}
+      - {who: kang_jaeha, type: speech, text: "BECAUSE NOBODY TRIES TO TAKE A HUSK AWAY FROM YOU.", side: r}
+
+  - id: P19
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low two-shot, the other side: Jaeha turning to ask, Moon Ahin answering flatly"
+    light: "caged lamps"
+    face: private
+    art: >
+      Low two-shot from the other side: Jaeha (kang_jaeha) turns to ask; Moon Ahin (moon_ahin) answers flatly, eyes ahead.
+    acting:
+      kang_jaeha: "turning his head to her, curious"
+      moon_ahin: "eyes ahead, voice flat, the baton tapping her thigh once"
+    eyeline: "Jaeha → Moon Ahin; Moon Ahin → ahead"
+    foreground: "her silver baton, cropped, bottom left"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "AND WHY DO YOURS HAVE NUMBERS INSTEAD OF NAMES?", side: r}
+      - {who: moon_ahin, type: speech, text: "BECAUSE I LOSE THEM. UNCLE TAEGUN TAUGHT ME THAT. YOU DON'T NAME WHAT YOU LOSE.", side: l}
+
+  - id: P20
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha, gently"
+    light: "caged lamps"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha), answering gently.
+    acting:
+      kang_jaeha: "looking at her, a small sad smile"
+    eyeline: "Jaeha → Moon Ahin"
+    foreground: "her white shoulder, cropped, left"
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: speech, text: "FUNNY. I NAME EVERYTHING I DON'T WANT TO LOSE.", side: r}
+
+  - id: P21
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Moon Ahin's profile, the composure cracking for one instant"
+    light: "violet from the pipes"
+    art: >
+      Close on Moon Ahin's profile (moon_ahin): for one instant the composure cracks, her lips parting; then it closes again.
+    acting:
+      moon_ahin: "lips parting, eyes flicking to him and away, then the face closing again"
+    calm: right
+    silent: true
+    sfx:
+      - {text: "...", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P22
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, behind them: Ho walking beside Borro, staring up at him; Borro looking down"
+    light: "caged lamps"
+    art: >
+      Behind them: Ho (crew_ho) walks beside Borro (borro), staring up at him with his respirator pushed up; Borro looks down at him
+      calmly.
+    acting:
+      crew_ho: "walking, head tipped back, staring up, mouth open"
+      borro: "walking slowly, looking down at Ho, calm"
+    eyeline: "Ho → Borro (up); Borro → Ho (down)"
+    foreground: "Borro's mossy shell, cropped, right"
+    calm: top
+    lines:
+      - {who: crew_ho, type: speech, text: "ARE YOU REALLY A HUSK?", side: l}
+      - {who: borro, type: speech, text: "I AM BORRO.", side: r}
+
+  - id: P23
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Ho, deeply impressed"
+    light: "caged lamps"
+    art: >
+      Close on Ho (crew_ho), deeply impressed, nodding slowly.
+    acting:
+      crew_ho: "nodding slowly, eyes shining, lips pursed"
+    calm: left
+    lines:
+      - {who: crew_ho, type: speech, text: "...COOL.", side: r}
+
+  - id: P24
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, in the tunnel: Nib trotting back with No. 1 behind him, the husk holding up its fingers"
+    light: "caged lamps"
+    art: >
+      Low in the tunnel: Nib (nib) trots back to the group; behind him No. 1 (ahin_husks) holds up both hands, fingers spread, then
+      four more; Moon Ahin (moon_ahin) reads them.
+    acting:
+      nib: "trotting back, thumb jerked over his shoulder"
+      ahin_husks: "No. 1 holding up ten fingers, then four"
+      moon_ahin: "reading the husk's fingers"
+    eyeline: "Nib → Jaeha; Moon Ahin → No. 1"
+    foreground: "Jaeha's boots, cropped, bottom"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "HOUNDS. A WHOLE PACK, WHERE THE PIPES SPLIT.", side: l}
+      - {who: moon_ahin, type: speech, text: "FOURTEEN.", side: r}
+      - {who: nib, type: speech, text: "TWELVE AND A BIG ONE. YOUR HUSK CAN'T COUNT.", side: l}
+
+  - id: P25
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on No. 1's blank polished face, turned down at Nib"
+    light: "caged lamp on porcelain"
+    art: >
+      Close on No. 1's blank polished face (ahin_husks), turned slowly down toward Nib.
+    acting:
+      ahin_husks: "No. 1 turning its blank face down toward Nib"
+    calm: right
+    silent: true
+    sfx:
+      - {text: "klik", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  # ================= HOUNDS (P26-P47) =================
+  - id: P26
+    recipe: establish
+    shape: tall
+    gap: long
+    bg: black
+    camera: "high, from the mouth of the junction chamber: a round vaulted chamber where the pipes split three ways, a pack of eyeless black hounds lapping at violet light under a cracked pipe"
+    light: "violet light leaking from a cracked pipe like steam; caged lamps"
+    art: >
+      High, from the mouth of the junction chamber: a round vaulted chamber 30 m across where the three pipes split three ways; one
+      pipe is cracked and leaks violet light like steam, which pools on the floor beneath it; twelve eyeless black ash hounds
+      (ash_hound) crouch around the pool lapping at the light; in the middle lies the alpha (ash_hound_alpha), twice their size,
+      its neck cracks glowing.
+    acting:
+      ash_hound: "crouched in a ring, lapping at the pooled light"
+      ash_hound_alpha: "lying in the middle, head up, ears turning"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "lap lap lap", style: quiet, at: [0.70, 0.70], size: S, rot: 0}
+
+  - id: P27
+    recipe: plan
+    shape: wide
+    gap: short
+    bg: paper
+    camera: "top-down on the notebook page: a circle for the chamber, a wall of small husk marks across its mouth, three arrows round the sides"
+    light: "a hard-hat lamp on paper"
+    art: >
+      Top-down on the notebook page in the hard-hat lamp's light: a pencil circle for the chamber; a row of small marks for the husk
+      wall across its mouth with a big square for Borro in the middle; two arrows round the sides (N, L); a star on the alpha; an
+      ear drawn beside it with three wavy lines.
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: note, text: "HER WALL HOLDS. MINE STRIKE. THE PACK ONLY MOVES WHEN THE BIG ONE HOWLS."}
+
+  - id: P28
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close two-shot over the notebook: Moon Ahin reading it upside down, Jaeha holding it"
+    light: "the hard-hat lamp"
+    face: private
+    art: >
+      Close and low over the notebook: Moon Ahin (moon_ahin) reads it upside down; Jaeha (kang_jaeha) holds it open for her.
+    acting:
+      moon_ahin: "leaning in, reading upside down, one eyebrow up"
+      kang_jaeha: "holding the notebook open, tapping the star"
+    eyeline: "both → the notebook"
+    foreground: "the notebook's edge, cropped, bottom"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: speech, text: "YOU WANT MY HUSKS TO BE THE WALL WHILE YOURS TAKE THE GLORY.", side: l}
+      - {who: kang_jaeha, type: speech, text: "I WANT YOUR HUSKS TO BE THE WALL BECAUSE THEY'RE THE BEST WALL I'VE EVER SEEN.", side: r}
+
+  - id: P29
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: Ho sneezing hugely, his respirator pushed up, everyone turning to stare at him in horror"
+    light: "caged lamps"
+    art: >
+      Ho (crew_ho), with his respirator pushed up, sneezes hugely in the core dust; everyone turns to stare at him in horror; Woo
+      (crew_woo) claps a hand over his brother's face too late.
+    acting:
+      crew_ho: "sneezing, head snapping forward, eyes squeezed shut"
+      crew_woo: "clapping a hand over Ho's face, too late"
+    calm: top
+    sfx:
+      - {text: "HA-CHOOO!", style: comic, at: [0.40, 0.30], size: L, rot: -8}
+
+  - id: P30
+    recipe: monster-reveal
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the chamber floor: the alpha rising and throwing back its head to howl, its neck cracks flaring violet"
+    light: "violet flare from the alpha's neck cracks"
+    art: >
+      From low on the chamber floor: the alpha (ash_hound_alpha) rises and throws back its eyeless head to howl, the deep cracks down
+      its neck and back flaring violet; around it, twelve hounds (ash_hound) snap upright at once.
+    acting:
+      ash_hound_alpha: "head thrown back, jaws wide, howling"
+      ash_hound: "snapping upright together, heads turning to the tunnel mouth"
+    calm: top
+    sfx:
+      - {text: "AWOOOOOOO", style: alert, at: [0.50, 0.20], size: XL, rot: 0}
+
+  - id: P31
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, side-on at the chamber mouth: Moon Ahin's baton coming down and thirty-seven husks slamming into a wall across the opening, Borro planting his shield in the middle of it"
+    light: "violet; caged lamps"
+    art: >
+      Side-on at the chamber mouth: Moon Ahin's baton comes down and thirty-seven husks (ahin_husks) slam into a wall across the
+      opening, arms locked; Borro (borro) plants his huge dented shield in the middle of it; the crew are behind them in the tunnel.
+    acting:
+      moon_ahin: "bringing the baton down in one sharp stroke"
+      ahin_husks: "slamming into a locked wall across the opening"
+      borro: "planting his shield, knees bent, head down"
+    calm: top
+    sfx:
+      - {text: "KA-KLAK!", style: impact, at: [0.30, 0.30], size: L, rot: 0}
+
+  - id: P32
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, behind the wall: the whole pack slamming into the husks and the shield at once, polished porcelain cracking"
+    light: "violet"
+    art: >
+      From low behind the wall: the whole pack (ash_hound) slams into the husks and Borro's shield at once; split jaws bite at
+      porcelain; three husks crack across the chest; the wall bends but holds.
+    acting:
+      ash_hound: "slamming into the wall, jaws biting"
+      ahin_husks: "bending under the impact, cracks spidering, holding"
+      borro: "taking two hounds on the shield, sliding back half a step"
+    calm: top
+    sfx:
+      - {text: "KRASH", style: impact, at: [0.50, 0.20], size: XL, rot: -6}
+      - {text: "krk krk", style: quiet, at: [0.80, 0.70], size: S, rot: 0}
+
+  - id: P33
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level on Jaeha behind the wall, both hands out, three threads of colour flaring from his fingers, a window"
+    light: "amber, green and blue flares"
+    face: private
+    art: >
+      Jaeha (kang_jaeha) stands behind the wall with both hands out, three threads of light flaring from his fingers: amber, moss
+      green, river blue. The upper half is empty for the window.
+    acting:
+      kang_jaeha: "both hands thrust out, fingers spread, teeth gritted"
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.log, "on": float, at: [0.5, 0.05], headline: "[FIELD FORM]", lines: ["NIB · 05:00", "BORRO · 05:00", "LYRA · 05:00", "CARRY: TWO AT A TIME"]}
+
+  - id: P34
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high, over the chamber: Nib racing along the top of a pipe on one flank, Lyra on top of a pipe cradle on the other, both striking down into the pack"
+    light: "amber and river-blue outlines; violet"
+    art: >
+      High over the chamber: on one flank Nib (nib) races along the top of a pipe and drops into the pack, knives flashing; on the
+      other flank Lyra (lyra) stands on top of a pipe cradle loosing arrows down into the hounds (ash_hound), her river-blue outline
+      blazing.
+    acting:
+      nib: "dropping off the pipe, both knives cutting"
+      lyra: "drawing and loosing, standing tall on the cradle"
+      ash_hound: "scattering, two bursting into ash"
+    calm: top
+    sfx:
+      - {text: "SHINK", style: impact, at: [0.20, 0.50], size: M, rot: 6}
+      - {text: "THWIP THWIP", style: impact, at: [0.80, 0.30], size: M, rot: -6}
+
+  - id: P35
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, behind Moon Ahin: Lyra's arrow skimming past a hound's ear into the wall, Moon Ahin not even turning"
+    light: "river blue; violet"
+    art: >
+      From low behind Moon Ahin (moon_ahin): one of Lyra's arrows skims past a hound's head and sticks quivering in the chamber wall;
+      Moon Ahin doesn't even turn her head; up on the cradle Lyra (lyra) bristles.
+    acting:
+      moon_ahin: "conducting, not turning her head"
+      lyra: "nocking another arrow, bristling, cheeks pink"
+    eyeline: "Moon Ahin → the wall; Lyra → Moon Ahin"
+    foreground: "Moon Ahin's shoulder and the baton, cropped, left"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: speech, text: "YOU MISSED.", side: l}
+      - {who: lyra, type: shout, text: "I WAS WARMING UP!", side: r}
+    sfx:
+      - {text: "THUNK", style: impact, at: [0.70, 0.40], size: S, rot: 0}
+
+  - id: P36
+    recipe: monster-reveal
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from the tunnel: the alpha bounding off the chamber wall over the husks and coming down in the tunnel among the crew"
+    light: "violet flaring from its neck"
+    art: >
+      From low in the tunnel: the alpha (ash_hound_alpha) bounds off the chamber wall, over the top of the husk wall, and comes down
+      in the tunnel among the crew; Dami (crew_dami) falls backwards; Uncle Pyo (crew_pyo) throws himself in front of her with his
+      arms out.
+    acting:
+      ash_hound_alpha: "landing in a crouch, jaws wide, neck cracks blazing"
+      crew_dami: "falling backwards, hands up"
+      crew_pyo: "throwing himself in front of Dami, arms spread, his bad knee buckling"
+    calm: top
+    sfx:
+      - {text: "WHUMP", style: impact, at: [0.50, 0.60], size: L, rot: 0}
+
+  - id: P37
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, two-shot: Jaeha shouting across to Moon Ahin, pointing at the alpha"
+    light: "violet"
+    face: private
+    art: >
+      Two-shot: Jaeha (kang_jaeha) shouts across to Moon Ahin (moon_ahin), pointing at the alpha; she is already turning her baton
+      toward it.
+    acting:
+      kang_jaeha: "pointing at the alpha, shouting, the other hand reaching toward Borro"
+      moon_ahin: "turning the baton toward the alpha, eyes sharp"
+    eyeline: "Jaeha → Moon Ahin; Moon Ahin → the alpha"
+    foreground: "the alpha's blurred flank, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: shout, text: "PIN ITS LEGS! WHEN IT HOWLS, IT STANDS STILL!", side: r}
+      - {who: moon_ahin, type: speech, text: "SIX, NINE, TWELVE, TWENTY. TAKE IT.", side: l}
+
+  - id: P38
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, side-on: four husks diving onto the alpha's legs and locking them, a fifth husk shattering in its jaws"
+    light: "violet"
+    art: >
+      Low and side-on: four husks (ahin_husks) dive onto the alpha's legs (ash_hound_alpha) and lock them in their arms; a fifth husk,
+      No. 17, takes the alpha's jaws across its face and shatters.
+    acting:
+      ahin_husks: "four husks clamped round the alpha's legs, a fifth breaking apart in its jaws"
+      ash_hound_alpha: "pinned, thrashing, biting a husk's face apart"
+    calm: top
+    sfx:
+      - {text: "KRAKK", style: impact, at: [0.60, 0.30], size: L, rot: 8}
+
+  - id: P39
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: the pinned alpha throwing its head back to howl, Borro's shield slamming into its chest at the same instant"
+    light: "the alpha's neck cracks flaring violet"
+    art: >
+      The pinned alpha (ash_hound_alpha) throws its head back to howl, standing still for that one instant, and Borro (borro)
+      slams his shield into its chest with all his weight.
+    acting:
+      ash_hound_alpha: "head thrown back mid-howl, pinned, standing still"
+      borro: "slamming the shield forward, shoulder behind it"
+    calm: top
+    sfx:
+      - {text: "AWOOO—", style: alert, at: [0.30, 0.20], size: M, rot: 0}
+      - {text: "BWOOM", style: impact, at: [0.70, 0.50], size: XL, rot: 0}
+
+  - id: P40
+    recipe: carry
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close and low on Jaeha: the shock of Borro's blow running into him through the green thread and out through the blue one, his body jerking"
+    light: "a green flare in, a blue flare out"
+    face: private
+    art: >
+      Close and low on Jaeha (kang_jaeha): the shock of Borro's blow runs into him through the moss-green thread and out through the
+      river-blue one; his body jerks; blood starts from his nose.
+    acting:
+      kang_jaeha: "body jerking, arms out, head snapping back, blood starting from his nose"
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.88], text: "[PASS I · BORRO → LYRA · -30%]"}
+    sfx:
+      - {text: "DUNNN", style: impact, at: [0.70, 0.30], size: M, rot: 0}
+
+  - id: P41
+    recipe: splash
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, behind Lyra on the cradle: the arrow leaving her bow with the boom of Borro's blow, punching through the pinned alpha"
+    light: "a river-blue streak; violet ash exploding"
+    art: >
+      From low behind Lyra (lyra) on the pipe cradle: she looses, and the arrow leaves the bow with the boom of Borro's blow behind it,
+      a river-blue streak that punches clean through the pinned alpha (ash_hound_alpha); the alpha bursts into violet ash; the four
+      husks holding it are thrown off but stay whole.
+    acting:
+      lyra: "the release, bow arm straight, braid whipping, a fierce grin"
+      ash_hound_alpha: "bursting apart into violet ash"
+    calm: top
+    sfx:
+      - {text: "KA-BOOOOM", style: impact, at: [0.50, 0.30], size: XL, rot: -6}
+
+  - id: P42
+    recipe: aftermath
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high over the chamber: the rest of the pack fleeing whimpering down a side tunnel, ash drifting, husks and summons standing in a ring"
+    light: "violet steam from the cracked pipe; drifting ash"
+    art: >
+      High over the chamber: the remaining hounds (ash_hound) flee whimpering down a side tunnel; violet ash drifts; the husks and
+      the three summons stand in a ring round the place where the alpha was.
+    acting:
+      ash_hound: "fleeing down a side tunnel, tails low"
+    calm: top
+    silent: true
+
+  - id: P43
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the tunnel: Uncle Pyo still standing with his arms out in front of Dami, shaking, Dami pulling at his tabard"
+    light: "caged lamps"
+    art: >
+      From low in the tunnel: Uncle Pyo (crew_pyo) is still standing with his arms spread in front of Dami (crew_dami), shaking;
+      she pulls at his tabard.
+    acting:
+      crew_pyo: "arms still spread, legs shaking, visor turned to where the alpha was"
+      crew_dami: "pulling at the back of his tabard, half laughing, half crying"
+    eyeline: "Dami → Pyo"
+    foreground: "a husk's cracked arm, cropped, top"
+    calm: top
+    lines:
+      - {who: crew_dami, type: speech, text: "UNCLE, IT'S GONE. YOU CAN PUT YOUR ARMS DOWN.", side: r}
+      - {who: crew_pyo, type: speech, text: "TWENTY YEARS. FIRST TIME I EVER STOOD IN FRONT OF ANYONE.", side: l}
+
+  - id: P44
+    recipe: silent
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, close: Moon Ahin kneeling by the shattered husk, one gloved hand touching its broken face"
+    light: "violet steam; a caged lamp"
+    art: >
+      Close: Moon Ahin (moon_ahin) kneels by the shattered husk, the silver 17 on what is left of its neck, and touches its broken
+      face with one gloved hand; her own face is unreadable.
+    acting:
+      moon_ahin: "kneeling, one gloved hand resting on the broken porcelain face, eyes down"
+    calm: top
+    silent: true
+
+  - id: P45
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, two-shot: Lyra jumping down from the cradle and pointing at Jaeha's face; Jaeha wiping his nose with the back of his glove"
+    light: "caged lamps"
+    face: public
+    art: >
+      Two-shot: Lyra (lyra) jumps down from the cradle and points at Jaeha's face (kang_jaeha); he wipes the blood from his nose
+      with the back of his glove.
+    acting:
+      lyra: "landing and pointing at his face, frowning"
+      kang_jaeha: "wiping his nose with the back of his glove, a quick smile"
+    eyeline: "Lyra → Jaeha; Jaeha → Lyra"
+    foreground: "Lyra's bow, cropped, left"
+    calm: top
+    lines:
+      - {who: lyra, type: speech, text: "MERCHANT. YOUR NOSE.", side: l}
+      - {who: kang_jaeha, type: speech, text: "IT'S NOTHING. GOOD SHOT.", side: r}
+
+  - id: P46
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close: Moon Ahin standing up from the broken husk, looking at the blood on his glove, then at the scarf on his shoulder"
+    light: "violet"
+    face: private
+    art: >
+      Close and low: Moon Ahin (moon_ahin) stands up from the broken husk and looks at the blood on Jaeha's glove (kang_jaeha), then
+      at the bloody scarf on his shoulder; she understands.
+    acting:
+      moon_ahin: "rising, eyes moving from his glove to his shoulder, very still"
+      kang_jaeha: "lowering his hand, caught"
+    eyeline: "Moon Ahin → his shoulder; Jaeha → Moon Ahin"
+    foreground: "the bloody glove, cropped, bottom right"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: speech, text: "THE SHOULDER. AND NOW YOUR NOSE. YOU TAKE THEIR WOUNDS, DON'T YOU.", side: l}
+
+  - id: P47
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, side-on two-shot: the two of them facing each other across the broken husk"
+    light: "violet steam between them"
+    face: private
+    art: >
+      Side-on two-shot: Jaeha (kang_jaeha) and Moon Ahin (moon_ahin) face each other across the broken husk, violet steam drifting
+      between them.
+    acting:
+      moon_ahin: "baton held in both hands in front of her, voice low"
+      kang_jaeha: "standing easy, the scarf red on his shoulder, voice low"
+    eyeline: "Jaeha ↔ Moon Ahin"
+    foreground: "the broken husk's hand on the floor, cropped, bottom"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: speech, text: "MY HUSKS FEEL NOTHING. THAT'S WHY THEY'RE PERFECT.", side: l}
+      - {who: kang_jaeha, type: speech, text: "MINE FEEL EVERYTHING. SO SOMEONE HAS TO CARRY IT.", side: r}
+
+  # ================= THE GLASS (P48-P60) =================
+  - id: P48
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: black
+    camera: "eye level, following the main pipe line into a wider, hotter tunnel: the light turning violet, the hum turning into a deep breathing sound"
+    light: "violet, brighter ahead; heat shimmer"
+    art: >
+      Following the main pipe line into a wider tunnel: the air shimmers with heat; the light ahead turns from violet to a deep
+      glowing violet; the team walks close together, summons in front, husks behind, the crew in the middle.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "hhhhhh... hhhhhh...", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P49
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low two-shot: Woo and Ho walking shoulder to shoulder, Ho gripping his brother's sleeve"
+    light: "deep violet"
+    art: >
+      Low two-shot: Woo (crew_woo) and Ho (crew_ho) walk shoulder to shoulder; Ho grips his brother's sleeve.
+    acting:
+      crew_woo: "walking stiffly, staring ahead"
+      crew_ho: "gripping his brother's sleeve, voice small"
+    eyeline: "both → ahead"
+    foreground: "a pipe's glowing flank, cropped, right"
+    calm: top
+    lines:
+      - {who: crew_ho, type: whisper, text: "HYUNG. IT'S NOT THE PIPES. IT'S BREATHING.", side: l}
+      - {who: crew_woo, type: whisper, text: "...I KNOW.", side: r}
+
+  - id: P50
+    recipe: establish
+    shape: full
+    gap: short
+    bg: black
+    camera: "low, from the tunnel floor: an enormous curved wall of thick glass set into the rock, 30 m high, the three pipes piercing it, a vast dark shape beyond the fog on the inside"
+    light: "key: deep violet glow from behind the glass; the team silhouetted"
+    art: >
+      From low on the tunnel floor: the tunnel ends at an enormous curved wall of thick glass set into the rock in a steel frame,
+      30 m high; the three giant pipes pierce it through steel collars; the inside of the glass is fogged, and beyond the fog, lit
+      deep violet, a vast dark shape fills the space behind it. The team stands small before it in silhouette. Scale: the people
+      are 1/20 of the glass's height.
+    calm: top
+    silent: true
+
+  - id: P51
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close on the glass: the fog on its inside clearing, then blooming white again, slowly"
+    light: "violet behind the glass"
+    art: >
+      Close on the glass: the fog on its inside clears for a moment, showing a hint of something rough and coral-red beyond, then
+      blooms white again, slowly, like breath on a window.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "HHHHHHAAAAA", style: quiet, at: [0.50, 0.50], size: M, rot: 0}
+
+  - id: P52
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level along the three summons: Nib's ears flat, Borro's hand tightening on his shield, Lyra's hand on her bow"
+    light: "violet"
+    art: >
+      Along the three summons: Nib's ears go flat (nib); Borro's hand tightens on his shield (borro); Lyra's hand goes to her bow
+      (lyra); all three stare at the glass as if they recognize something.
+    acting:
+      nib: "ears flat, a step back, knives half drawn"
+      borro: "gripping the shield until the moss creaks"
+      lyra: "a hand on her bow, lips parted, eyes wide"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "TENSE", style: quiet, at: [0.70, 0.20], size: S, rot: 0}
+
+  - id: P53
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Lyra, whispering"
+    light: "violet"
+    art: >
+      Close on Lyra (lyra), whispering, her face pale.
+    acting:
+      lyra: "whispering, eyes fixed on the glass, the confidence gone"
+    eyeline: "Lyra → the glass"
+    foreground: "Borro's shield rim, cropped, left"
+    calm: left
+    lines:
+      - {who: lyra, type: whisper, text: "MERCHANT. THAT SMELLS LIKE THE SEA. WHY DOES IT SMELL LIKE THE SEA?", side: r}
+
+  - id: P54
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: Moon Ahin walking alone to the steel frame at the base of the glass and stopping at a brass plate"
+    light: "violet"
+    art: >
+      Moon Ahin (moon_ahin) walks alone to the steel frame at the base of the glass and stops at a brass plate bolted to it: the
+      silver hexagon logo, and below it, a small crescent-moon seal.
+    acting:
+      moon_ahin: "walking slowly to the plate, the baton hanging loose, then stopping dead"
+    eyeline: "Moon Ahin → the plate"
+    foreground: "a steel pipe collar, cropped, top"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "tak... tak...", style: quiet, at: [0.30, 0.80], size: S, rot: 0}
+
+  - id: P55
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on the brass plate: the hexagon and the crescent-moon seal, a white-gloved finger touching the seal"
+    light: "violet on brass"
+    art: >
+      Close on the brass plate: the silver hexagon logo, and below it the small stamped crescent-moon seal; a white-gloved finger
+      touches the seal.
+    calm: right
+    silent: true
+
+  - id: P56
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close on Moon Ahin's face reflected in the fogged glass beside her, her baton lowering"
+    light: "violet"
+    art: >
+      Close and low on Moon Ahin (moon_ahin), her face and its reflection in the fogged glass side by side; the baton lowers in her
+      hand.
+    acting:
+      moon_ahin: "staring at the seal, the baton sinking to her side, lips parted"
+    eyeline: "Moon Ahin → the seal"
+    foreground: "the brass plate's edge, cropped, left"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: speech, text: "THAT'S MY GRANDFATHER'S SEAL. HE FOUNDED THE CORE DIVISION.", side: l}
+
+  - id: P57
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha watching her, quietly"
+    light: "violet"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha) watching her, quietly, the blood dried under his nose.
+    acting:
+      kang_jaeha: "watching her, still, notebook shut in one hand"
+    eyeline: "Jaeha → Moon Ahin"
+    foreground: "her white shoulder, cropped, left"
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: speech, text: "THEN YOUR FAMILY KNOWS WHAT'S BEHIND THIS GLASS.", side: r}
+
+  - id: P58
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of Moon Ahin's grey eyes, the fogged glass reflected in them"
+    light: "violet"
+    art: >
+      Extreme close-up of Moon Ahin's cool grey eyes (moon_ahin), the fogged glass and the vast dark shape reflected in them. Fill
+      the canvas edge to edge.
+    acting:
+      moon_ahin: "eyes wide, unblinking"
+    calm: none
+    silent: true
+
+  - id: P59
+    recipe: impact
+    shape: full
+    gap: short
+    bg: black
+    camera: "low, wide: the vast shape behind the glass breathing out, the whole wall fogging white from inside, the team small before it"
+    light: "violet behind white fog"
+    art: >
+      Low and wide: behind the glass the vast shape breathes out, and the whole 30 m wall fogs white from the inside in one rolling
+      bloom; the team stands small before it, Moon Ahin alone at the plate.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "HHHHHHAAAAAAAA", style: impact, at: [0.50, 0.40], size: XL, rot: 0}
+
+  - id: P60
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close and low on Moon Ahin's white glove pressed flat against the fogged glass"
+    light: "violet through white fog"
+    art: >
+      Close and low: Moon Ahin's white glove (moon_ahin) pressed flat against the fogged glass, her forehead almost touching it.
+    acting:
+      moon_ahin: "one glove flat on the glass, forehead bowed toward it, eyes shut"
+    eyeline: "Moon Ahin → the glass"
+    foreground: "the fogged glass, cropped, all round"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: whisper, text: "GRANDFATHER... WHAT DID YOU BUILD?", side: l}
+
+  - id: END
+    kind: end
+    chibi_gag: "Chibi Nib and chibi No. 1 stand back to back in the same pose having a staring contest with the reader, while chibi Lyra, offscreen, can be heard yelling 'I WAS WARMING UP!'"
