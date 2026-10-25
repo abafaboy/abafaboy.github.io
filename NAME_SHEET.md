@@ -24,6 +24,13 @@
 | The Collector | — | `collector` | Masked hunter of Far Side heroes (Arcs 7–8) |
 | Black Hound hunters | — | `black_hound` | Mok's six hunters in chapter 1 (one lineup sheet) |
 | Operator #1, the Hush King | — | `operator_1` | The series villain. Windows write him as "OPERATOR #1". |
+| Han Sora | HAHN SOH-rah | `han_sora` | 27, Black Hound crossbow hunter (ch 1 hunter 5), Kanghan's spy; Kanghan colours from ch 27. "Miss Han" to Jaeha. |
+| Inspector Ryu | RYOO | `inspector_ryu` | Hunter Association inspector (ch 13, 22, 32). "Inspector Ryu" only. |
+| Deputy Director Hwang | HWAHNG | `deputy_hwang` | The Association's deputy director, Kanghan's man inside (ch 32) |
+| Pyo Dongsik | PYOH DONG-sheek | `crew_pyo` | "Uncle Pyo", 63, trap-tester for 20 years, number 1 in the Arc 4 crew |
+| Dami | DAH-mee | `crew_dami` | 34, trap-tester, number 2 in the Arc 4 crew; a single mother |
+| Jang Woo, Jang Ho | JAHNG WOO, JAHNG HOH | `crew_woo`, `crew_ho` | Brothers, 25 and 23, numbers 3 and 5 in the Arc 4 crew; their chicken shop: "Wings of Glory" |
+| Foreman Gu | GOO | `foreman_gu` | Kanghan's site foreman at the Han River gate (ch 23-25) |
 
 ## Summons
 
@@ -36,6 +43,7 @@
 | Maud | `maud` | Armoured field surgeon (ch 48). While hushed: "the Butcher of Ward Nine". |
 | Caldric, the Bell General | `caldric` | Heavy fighter (ch 68). "Caldric" alone in dialogue. |
 | Kett | `kett` | Young goblin scout, Nib's apprentice (ch 88) |
+| Saebyeok (SEH-byuhk) | `ahin_husks` | Not a summon: Moon Ahin's lead husk, No. 1, named "dawn" in ch 32 |
 
 ## Monsters and summoned things
 
@@ -44,6 +52,15 @@
 | husk | `husk` | A normal summoner's faceless white doll |
 | the hushed knight-commander | `knight_commander` | The chapter 1–4 boss, Nib's commander |
 | stone lizard | `stone_lizard` | Chapter 1 monsters |
+| ash rat; the swarm mother | `ash_rat` | Chapter 6 |
+| the drowned hound | `drowned_hound` | Chapter 8 boss |
+| ash hound; the ash hound alpha | `ash_hound` | Chapters 10-11, 25 |
+| the marsh serpent | `marsh_serpent` | Chapters 11-12 boss |
+| the training construct | `training_construct` | The Association's test construct (ch 13) |
+| the basalt boar | `basalt_boar` | Chapter 15 boss |
+| the Drowned Bell-Ringer | `bell_ringer` | Chapters 17-19 boss, a hushed hero. Windows: HUSHED BELL-RINGER (B). |
+| canyon wyvern | `canyon_wyvern` | Chapter 24 |
+| the Hushed Tide Warden | `tide_warden` | The kept boss of the Han River gate (ch 25-28). "The Warden" for short. |
 
 ## Places
 
@@ -52,11 +69,13 @@
 | Seoul; Mapo (the district) | |
 | Mangwon-dong | The rooftop room where Jaeha and Seoa live |
 | Mangwon Market | The Market Break (ch 11) |
-| the Han River | "the Han River gate": the kept gate where Minseok died |
+| the Han River | "the Han River gate": the kept gate where Minseok died, under pier 7 of a bridge (never a real bridge's name) |
+| the core farm; Site 7 | Inside the Han River gate (ch 23-31) |
+| the columbarium | Where Minseok's niche is (ch 22, 32) |
 | Gwanghwamun | The S-grade gate (flash-forward in ch 1; ch 87–100) |
 | Gate 0912 | The C-grade gate in the subway construction site (ch 1–4) |
 | Kanghan Tower | Kanghan's headquarters (ch 5 hook) |
-| Busan | The sea gate (Arc 5) |
+| Busan | The sea gate (Arc 5); Auntie Geum's tteokbokki stall at the harbour (ch 33) |
 | the Far Side | The dying world behind the gates |
 | the Ninth Wall | Nib's fortress: a wall with nine towers (its sigil) |
 | Ward Nine | Maud's ward |
@@ -70,7 +89,8 @@
 | the Black Hound Guild | Mok's guild, Kanghan's contractor. "Black Hound" for short. |
 | the Kanghan Group | "Kanghan" for short; its Core Division is Baek's |
 | the Gate Rescue Corps | Choi's service |
-| the Trap Rats | Jaeha's team nickname (from ch 6) |
+| the Trap Rats | Jaeha's team nickname (from ch 6). The stream's chat flips it to "TRAP-TESTER" in ch 21. |
+| BomBom TV | Bomi's channel; one million subscribers in ch 22 |
 | GO FIRST | Jaeha's guild (from ch 75). Always in capitals. |
 
 ## Terms
@@ -91,7 +111,10 @@
 | field form; rest form; cooldown | Summon states |
 | HARVEST; RELEASE | Boss window options (capitals in windows) |
 | CALL, LINK, CARRY, PASS I–III, STORE / RELEASE I–III, CONTRACT, VANGUARD, UNISON | Skills: capitals, roman numerals, "STORE / RELEASE" with spaces |
-| Borrowed Thunder | The Borro–Jaeha–Lyra combo |
+| Borrowed Thunder; Borrowed Thunder II | The Borro–Jaeha–Lyra combo (ch 19); against Sora's bolt (ch 31) |
+| the core compass | Sora's brass compass with a core-sliver needle (ch 13-31) |
+| the rim; the iris | A gate's way out; Kanghan's steel frame that seals it ("GATE RIM SEALING") |
+| hyung | What Jaeha calls Minseok (older brother, from a man) |
 | the Ninth Wall blade | Nib's commander's sword, in Jaeha's inventory from ch 4 |
 
 ## Retired names (old story; never use them in new work)
