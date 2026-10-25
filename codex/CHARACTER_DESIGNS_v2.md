@@ -282,6 +282,24 @@ In the chapter 1 flash-forward, all seven summons stand behind Jaeha as black si
 ### 2.14 Kanghan security (generic, from ch 8)
 Black suits and ties, earpieces, the silver hexagon pin. At the Han River gate they wear black tactical vests over the suits and carry torches and batons, never guns.
 
+### 2.15 Arc 2 neighbourhood and one-off cast (generic: no name cards)
+Recurring people get one lineup sheet (`characters_v2/neighbourhood/lineup.png`, entry S18 in `ASSETS_ARC2_BRIEF.md`) so they stay the same from chapter to chapter. One-off people are drawn from their script description.
+
+| Id | Who | Chapters | Look |
+|---|---|---|---|
+| `landlady` | The rooftop room's landlady | 6, 8, 10 (recurring) | A stout woman in her late sixties, about 150 cm; permed grey hair; a padded vest over a flowered blouse; slippers; arms always folded; one eyebrow always up. "No pets." |
+| `gomi` | Gomi, the street cat | 8, 9, 10, 12 (recurring) | A huge fat orange tabby with a torn ear and a smug face, body 60 cm long (next to Nib's 105 cm that is big). She adores Nib, who is sure she wants to eat him. |
+| `granny_kimchi` | The kimchi granny | 11, 12 (recurring) | A tall, bony woman in her seventies in a red rubber apron, yellow rubber gloves and a flowered headscarf; fights with a huge white daikon radish. |
+| `granny_tteok` | The tteok granny | 11 | A tiny round woman in her seventies in a flowered apron and arm sleeves, permed white hair. |
+| `bomi_parents` | Bomi's parents | 12 (and later) | Her father: a round, cheerful man in his fifties in a white cook's jacket. Her mother: a small woman in her fifties in an apron, Bomi's grin. |
+| `client_leader`, `client_spear` | The ch 6 client guild | 6 | The leader: a balding man in his forties with a paunch, a dented breastplate over a tracksuit, a cheap sword held wrong. The spearman: a skinny man in his twenties in a hoodie and a plastic-looking chest guard. |
+| `survey_officer` | The Association survey officer | 7 | A man in his fifties in a grey Hunter Association windbreaker, reading glasses on a cord, a clipboard, bored. |
+| `bh_trapper` | A Black Hound saboteur | 7 | A wiry man in his thirties with a goatee, the black Black Hound jacket, a utility belt hung with wire spools and pliers, a hand crossbow; smokes menthols. |
+| `site_manager` | The tower's site manager | 10 | A nervous man in his forties in a white hard hat, a hi-vis vest over a shirt and tie, a clipboard and a thick cash envelope. |
+| `kanghan_watcher` | A Kanghan watcher | 7 | Kanghan security (2.14) in a parked black sedan with a long-lens camera. |
+| `ahin_husks` | Moon Ahin's forty husks | 12 onward | Section 3: polished porcelain white with fine silver seams, elegant proportions; they move in perfect unison. Sheet: entry S19. |
+| `bell_silhouette` | The caller who refuses (ch 9) | 9 | Only ever a black silhouette against fire: a broad figure about 2.1 m tall in armour shaped like a great bell, holding a bell-headed mace, on a burning wall beside a huge hanging bronze bell. He is Caldric (2.9), but his face and colours are never shown before ch 68. |
+
 ### 2.10 Lyra: river archer summon (from ch 18), the thumbnail woman
 
 **Why she is drawn now.** The owner chose Lyra to front the YouTube thumbnail (25 October). He wants her as attractive as the heroines on the manhwa recap thumbnails he sent, "since it obviously works".
@@ -392,15 +410,20 @@ Beast-shaped Hush-spawn and beast bosses carry only small Hush cracks leaking vi
 
 ### 4b.1 Ash rats (ch 6)
 About 70 cm long plus a hairless tail, hunched and bony. Patchy, hairless grey hide #7A7570 with black blotches; small eyes leaking violet ash; long yellow-brown chisel incisors; thin crooked limbs with pink-grey claws. Thin cracks along the spine leak violet ash. They swarm in dozens.
+- **The swarm mother (ch 6 boss, E-grade):** the same creature at 1.4 m long, standing as high as a man's hip, with a ridge of bony spurs along its back and wide cracks down its spine pouring violet ash.
 
 ### 4b.2 The drowned hound (ch 8, D-grade boss)
 A hound the size of a horse: 1.7 m at the shoulder, 3.5 m long, heavy-boned and gaunt. Waterlogged black fur hangs in wet clumps, with river weed and barnacles on its flanks; a long jaw with crooked yellow teeth; pale clouded eyes; water streams off it all the time. A small Hush crack on its brow. Fast in water, clumsy on dry ground.
 
 ### 4b.3 Ash hounds (ch 10–11)
 Wolf-sized, 90 cm at the shoulder, lean and long-legged. Smooth black bodies with no eyes and no nose; a long split jaw of white bone-like teeth; ribs pressing through; cracks along the back leaking violet ash. Packs of five to ten.
+- **The ash hound alpha (ch 10 boss, D-grade):** the same creature at 1.6 m at the shoulder (a man's chest), heavier in the neck, with a ridge of deep cracks down its neck and back that flare violet when it howls. The pack moves only when it howls: that is its tell.
 
 ### 4b.4 The marsh serpent (ch 11–12, the Market Break boss)
 A giant serpent from a hot Far Side marsh: 20 m long, the body as thick as a small car (1.5 m). Jade-green scales #3E8A6E / #2A5E4B with dull gold bands #C9A34A; a hooded head with two backswept bone-white horns; yellow eyes with slit pupils; heat shimmer and steam rising off its body. A small Hush crack on its brow. It is cold-blooded and loves heat, so cold slows it down: frost on its scales means it is failing.
+
+### 4b.5 The Hush in the Call (ch 9)
+Not a monster with a body: the black water of the Call itself. A long black hand with too many joints rises from it, leaking violet ash, and grips Jaeha's RIGHT ankle; frost races out from its fingers. It leaves a black-violet bruise shaped like long, thin, many-jointed fingers round his ankle (from ch 10). Never a face; never more than the hand.
 
 ## 5. Locations, Arc 1 (make a location key for each after the style is chosen)
 
@@ -433,6 +456,14 @@ Colour keys are in `MANHWA_STYLE_GUIDE.md` table 5.3.
 | **Mangwon Market** | `mangwon_market` | 11 | A covered traditional market street under a translucent arcade roof, with narrow side alleys; stalls of vegetables, fish, tteok and kimchi; hanging bulbs and plastic tubs; at the market's edge, a pedestrian footbridge over a side road. Evening, the market lights on. |
 | **The fish market freezer lane** | `fish_market` | 12 | The back lane of the market's fish section: walk-in freezer doors, ice crates, frost on the walls, refrigerated trucks with their doors open, cold mist along the ground, white fluorescent light. |
 | **Director Baek's office** | `kanghan_office` | 12 | A long, dark office high in Kanghan Tower: a glass wall over the night city, a black desk, a smoky violet boss core glowing in a glass case on a plinth, shelves of archive boxes. Cold blue light. |
+| **Bomi's room and her parents' restaurant** | `bomi_room` | 6, 12 | Outside: a small family restaurant in a Mangwon alley, a blank sign, chairs up on the tables behind the glass (ch 6) or down (ch 12); one lit window above. Inside upstairs: Bomi's cramped streaming room, two monitors (#00FF00), a microphone, a ring light, cup ramen, the drone's charging dock, a framed photo of young Bomi with her parents on the restaurant's opening day. |
+| **The Kanghan guild hall** | `kanghan_guild_hall` | 12, Arc 4 | A vast white training hall in Kanghan's guild building: a polished pale floor that reflects everything, rows of white pillars, tall windows over the night city, a gallery round the top; forty polished husks standing in eight rows. Cool white light. |
+
+**Extra views for keys that already exist** (chapters 6–12 need them):
+- `rooftop_room`: `stairs_night.png`, the outdoor stair landing up to the rooftop door at night under a bare bulb (ch 6, 8).
+- `survey_gate`: `exit_dusk.png`, the arcade's street exit stairs in Hapjeong at dusk (ch 7); `trap_chamber.png`, the round granary chamber with two ceiling chutes, the wall stair 5 m up and its big wooden lever (ch 7).
+- `mangwon_market`: `fish_lane.png`, the fish lane with tanks and ice trays and the cold-storage stairwell glowing violet (ch 11).
+- `hanriver_gate`: `bank_dusk.png`, the riverside park and the enclosure at the blue hour from behind a stack of pallets (ch 8).
 
 ---
 
@@ -542,3 +573,18 @@ Use the snippet of every character in the panel, word for word, so the descripti
 
 **The marsh serpent**
 > The marsh serpent: a giant serpent 20 m long with a body as thick as a small car, jade-green scales with dull gold bands, a hooded head with two backswept bone-white horns, yellow slit-pupil eyes, heat shimmer and steam rising from its body, and a small crack on its brow leaking violet ash.
+
+**The landlady**
+> The landlady: a stout Korean woman in her late sixties, about 150 cm, with permed grey hair, a padded vest over a flowered blouse, slippers, arms folded and one eyebrow raised.
+
+**Gomi**
+> Gomi: a huge, fat orange tabby street cat with a torn left ear and a smug face, body about 60 cm long.
+
+**The kimchi granny**
+> The kimchi granny: a tall, bony Korean woman in her seventies in a red rubber apron, yellow rubber gloves and a flowered headscarf, fierce, holding a huge white daikon radish.
+
+**The swarm mother**
+> The swarm mother: a giant hunched, bony rat 1.4 m long, as high as a man's hip, with patchy hairless grey hide blotched black, a ridge of bony spurs along its back, wide cracks down its spine pouring violet ash, small eyes leaking violet ash and long yellow-brown chisel incisors.
+
+**The ash hound alpha**
+> The ash hound alpha: a huge lean eyeless, noseless black hound 1.6 m at the shoulder, heavy in the neck, with a long split jaw of white bone-like teeth and a ridge of deep cracks down its neck and back that flare violet.

@@ -214,6 +214,118 @@ The whole chapter happens in the boss room (`locations_v2/boss_room/`), seconds 
 | `G` | P48–P53 | |
 | `H` | P54–P59 and `END.png` | Kanghan: Baek from behind only. |
 
+### Arc 2 sheets come first
+Chapters 6–12 need the Arc 2 sheets and keys in `ASSETS_ARC2_BRIEF.md` (Borro S16, Baek S17, the neighbours S18, Moon Ahin's husks S19, the monsters M1–M4 with the swarm mother and the alpha, the places L6–L12). A part may start only when every sheet it names exists and has a `DONE.md`. Every Arc 2 sheet carries a faint 178 cm silhouette: use it to check the scale of every monster and giant in your panels (section 4b).
+
+### Chapter 6: Trap Rats (`scripts_v2/ch006.yaml`)
+
+**Chapter 6 rules:** Jaeha has a small plaster on his right cheekbone and no other bandages. Nib has his seal 2/5 look with the mask and plays a husk in public (stiff, arms hanging); field form and LINKED (amber) only P26–P36. Ash rats: `ash_rat/` (70 cm, knee-high); the swarm mother P38–P40: `ash_rat/swarm_mother.png` (1.4 m, hip-high). The sewer: `sewer_gate/key.png` inside, `outside.png` at dusk (P44–P51). The landlady (P52–P54): `neighbourhood/lineup.png`, on `rooftop_room/stairs_night.png`. Bomi's room (P55–P60): `bomi_room/outside.png` and `interior.png`. P07 and P47 carry phone live-stream overlays: keep those areas calm. Bomi: never a low angle up her shorts.
+
+| Part | Panels to draw | Notes |
+|---|---|---|
+| `A` | P01–P08 | P02 strip. P06 is chibi. P07: the drone's point of view, left half calm for the stream overlay. |
+| `B` | P09–P17 | P15 the tripwire insert; P16 the net impact. No art for P18 (`title`). |
+| `C` | P19–P26 | P20: the swarm's reveal. P25 strip: the drone in the empty tunnel. P26: the window panel (field form starts). |
+| `D` | P27–P34 | P27–P28: Nib's whirl in field form; P33 is the `plan` panel. |
+| `E` | P35–P42 | P38: the swarm mother. P41: the boss window (two windows, keep the top half dark vault). |
+| `F` | P43–P51 | Outside at dusk. P46 is an extreme close-up strip of Jaeha's eyes. |
+| `G` | P52–P60 and `END.png` | The landlady on the stairs, then Bomi's room. P60 is the ECU strip of Bomi's eyes. |
+
+### Chapter 7: Ten Thousand Won a Trap (`scripts_v2/ch007.yaml`)
+
+**Chapter 7 rules:** At home in the morning (P01–P16) Jaeha wears the hoodie only, and Nib has no mask in P01–P02 (`nib/front_seal2_nomask.png`); he slaps the mask on in P03. The vest is slashed through the T patch from P42 (one long straight cut). Choi: `choi_dongmin/`. The survey gate: `survey_gate/outside.png` (P18), `key.png` (P23), `trap_chamber.png` (P28–P56); the exit: `survey_gate/exit_dusk.png` (P57). The two saboteurs are generic (script continuity): the shield-bearer is Black Hound hunter 6 from chapter 1. The grain is clean bright gold against centuries of grey dust: that contrast is the clue, so keep it readable. P72 (the memory) is grey with one colour, the red sky.
+
+| Part | Panels to draw | Notes |
+|---|---|---|
+| `A` | P01–P08 | The rooftop morning; P03 is the mask-slap gag. |
+| `B` | P09–P16 | No art for P17 (`title`). P15 is the notebook insert. |
+| `C` | P18–P25 | P22 ECU strip; P25 is a `link-view` split frame. |
+| `D` | P26–P33 | P29 is Nib's point of view; P32 is the `plan` panel. |
+| `E` | P34–P41 | P35 is the grain-fall splash. |
+| `F` | P42–P49 | P42 the sword through the vest; P45 strip (the notebook snapping shut). |
+| `G` | P50–P58 | The bluff, the confession; the exit at dusk from P57. |
+| `H` | P59–P66 | The deal with Bomi; P65 is chibi; P66 the Kanghan watcher. |
+| `I` | P67–P72 and `END.png` | The vest at night; P71 ECU strip of Seoa's eyes; P72 the grey memory. |
+
+### Chapter 8: Eyes (`scripts_v2/ch008.yaml`)
+
+**Chapter 8 rules:** Gomi the cat: `neighbourhood/gomi.png`, huge and fat next to Nib. Nib is in rest form (no glow) except P42–P55. Through-the-eyes panels (P02, P14, P16, P17) carry a thin amber vignette. The Han River enclosure: `hanriver_gate/key.png` and `bank_dusk.png`, at the blue hour with the bridge lights coming on. The car park: `carpark_gate/key.png`; the ramp is 30 m long and 6 m wide, its lower third wet. The drowned hound: `drowned_hound/` (1.7 m at the shoulder: a head taller than Jaeha). The vest has Seoa's red stitches on the back patch from P25; the bite bandage on Jaeha's LEFT forearm from P47 (the bite is P38).
+
+| Part | Panels to draw | Notes |
+|---|---|---|
+| `A` | P01–P11 | P01 high over Mangwon's roofs; P09 the LINK LV. 3 window; P11 strip. No art for P12 (`title`). |
+| `B` | P13–P20 | The enclosure under the bridge; P14 and P16 are `link-view` panels. |
+| `C` | P21–P27 | P23 is chibi; P25 the car park from the top of the ramp. |
+| `D` | P28–P35 | P32 is the `plan` panel. |
+| `E` | P36–P43 | P36 the hound's reveal; P41 ECU strip; P42 field form window. |
+| `F` | P44–P51 | P48 the kill splash. |
+| `G` | P52–P58 | Windows on P52, P53 and P57: keep the top half dark. |
+| `H` | P59–P70 and `END.png` | The landlady (P59–P60), the dinner, the hook windows (P66, P67, P69); P65 strip; P70 ECU strip. |
+
+### Chapter 9: Not Yet, Operator (`scripts_v2/ch009.yaml`)
+
+**Chapter 9 rules:** Jaeha wears the hoodie (no vest) and the forearm bandage, at home and in the Call. Nib has no mask all chapter. The Call: `call_void/key.png`, an endless plane of still black water under a starless sky, the rifts 8 m tall and 30–60 m away (Jaeha is a speck in wide shots). The bell silhouette (P25–P29) is only ever a black silhouette against fire (`CHARACTER_DESIGNS_v2.md` 2.15). The river rift and the ward rift (P20–P21) show figures from behind only. The Hush (P38–P53) is the black water and one many-jointed black hand on Jaeha's RIGHT ankle; frost spreads from that ankle in the real room. The glitch window (P40) has offset red and blue fringes. No art for P05 (`caption`) or P16 (`title`).
+
+| Part | Panels to draw | Notes |
+|---|---|---|
+| `A` | P01–P04, P06–P10 | The frozen room (P01–P04), then the warm room ten minutes earlier. P03 ECU strip. |
+| `B` | P11–P15 | P15 is the CALL button insert. |
+| `C` | P17–P24 | P17 the Call from 30 m up; P22 the offer window. |
+| `D` | P25–P32 | P28 is the bell splash; P29 the [DECLINED] window. |
+| `E` | P33–P40 | P35 the TERMS window; P36 ECU strip; P40 the glitch. |
+| `F` | P41–P49 | The real room (P41) and the hand pulling him under. |
+| `G` | P50–P57 and `END.png` | The countdown; P56 the hill that breathes; P57 the eyes opening (ECU strip). |
+
+### Chapter 10: A Roof, Not a Garden (`scripts_v2/ch010.yaml`)
+
+**Chapter 10 rules:** Borro arrives: `borro/` sheets. He is 2.4 m: in the rooftop room (ceiling 2.2 m) he must stoop or sit; on the rooftop he is taller than the water tank (2 m); Jaeha reaches his chest. His husk face (a white oval with two small eye-holes, tied with cord) is on in public from P25. Field form: moss-green eyes and outline (P44–P57). P12 is the bed-crushing splash (the metal bed folds flat). P15 is Borro's name card (full figure, name-card gradient dark slate to moss green). The tower: `tower_gate/outside.png` and `key.png`; the long beam is 60 cm wide and the slabs either side are cracking away; the drop is several floors. Ash hounds: `ash_hound/` (hip-high); the alpha: `ash_hound/alpha.png` (chest-high). P37 is a three-way split `link-view`. Jaeha's RIGHT ankle bruise (P20–P21): long, thin, many-jointed finger marks.
+
+| Part | Panels to draw | Notes |
+|---|---|---|
+| `A` | P01–P07 | The last three seconds of the Call. |
+| `B` | P08–P13 | P09 the hand reaching out; P12 the bed-crushing splash. No art for P14 (`title`). |
+| `C` | P15–P21 | P15 Borro's name card; P16 the summon window. |
+| `D` | P22–P29 | The landlady (P22); the tower (P25 outside, P28 inside). |
+| `E` | P30–P37 | P32 the pack and the alpha; P35 `plan`; P37 three-way `link-view`. |
+| `F` | P38–P45 | P40 `carry`; P45 the shield-heave splash. |
+| `G` | P46–P53 | P46 `carry` (the gash on his RIGHT shoulder); P50 the throat strike. |
+| `H` | P54–P61 | The aftermath and the windows; outside at dusk from P59. |
+| `I` | P62–P66 and `END.png` | P62 ECU strip; P64 the smoke over Mangwon. |
+
+### Chapter 11: Market Break (`scripts_v2/ch011.yaml`)
+
+**Chapter 11 rules:** The market: `mangwon_market/key.png`, `fish_lane.png` and `footbridge.png`. The alleys are 1.5–2 m wide: Borro's shield fills one wall to wall; the hounds come single file. The footbridge is 30 m long, 5 m over a four-lane road, with one central pier; in the P48 splash Borro holds it up from the heaved road (his shell and shoulders under the deck). The grannies: `neighbourhood/lineup.png`. Seoa is in charge, never rescued: she leads and counts people, the rice-cake bag always on her wrist; never any fan service. Bomi's drone breaks at P57; no drone after that. Nib: field form P15–P53, rest form P54–P60, field form again from P61. The serpent appears only at the very end (P72–P73): `marsh_serpent/` and `scale.png` (its head as high as a third floor).
+
+| Part | Panels to draw | Notes |
+|---|---|---|
+| `A` | P01–P07 | P07 is a jagged split two-shot. |
+| `B` | P08–P13 | P08 ECU strip; P12 the break-rule window. No art for P14 (`title`). |
+| `C` | P15–P21 | P15 window; P18 the drone's overhead view; P20 `plan`. |
+| `D` | P22–P29 | Borro's square; the radish (P27, a comic BONK). |
+| `E` | P30–P37 | P36 the second wave's reveal. |
+| `F` | P38–P45 | The footbridge from P40 (high wide shot). |
+| `G` | P46–P53 | P48 is the chapter's biggest image: Borro holding the bridge. P50 ECU strip. |
+| `H` | P54–P61 | P57 the drone's sacrifice; P58 the stream's SIGNAL LOST. |
+| `I` | P62–P68 | P64 the bridge's fall (splash). |
+| `J` | P69–P73 and `END.png` | P70 ECU strip; P72 the serpent bursts out of the road. |
+
+### Chapter 12: His Summons Go First (`scripts_v2/ch012.yaml`)
+
+**Chapter 12 rules:** The serpent spits scalding steam; Borro's shield glows dull red where it hits (P04–P14). In the freezer lane (`fish_market/key.png`) frost spreads over the serpent's scales and it slows: frost means it is failing. Jaeha's palms are blistered red from P05 and plastered from P43. Baek's face is shown for the first time in P50 (his name card: full figure, name-card gradient black to smoky violet); before that only his tower. P56 is Moon Ahin's glamour panel: her full design (`moon_ahin/` sheets), a beautiful cold face, a confident full-figure pose, the camera level, never aimed up the slit; her husks: `ahin_husk/`. The Kanghan guild hall: `kanghan_guild_hall/key.png`. Bomi's new drone has a pink ribbon (from P43). Bomi's parents: `neighbourhood/lineup.png`.
+
+| Part | Panels to draw | Notes |
+|---|---|---|
+| `A` | P01–P07 | P05 `carry` (blistering palms). |
+| `B` | P08–P14 | P08 ECU strip; P11 `plan`. No art for P15 (`title`). |
+| `C` | P16–P22 | The freezer lane; P21 the shield-door splash. |
+| `D` | P23–P29 | P28 the serpent's death (full splash). |
+| `E` | P30–P36 | Windows on P30, P31 and P33. |
+| `F` | P37–P43 | P37 a TV with a #00FF00 screen; the school; the radish granny; Bomi's restaurant. |
+| `G` | P44–P49 | P45 is chibi; P49 Kanghan Tower. |
+| `H` | P50–P56 | P50 Baek's name card; P54 strip; P56 Moon Ahin's glamour panel. |
+| `I` | P57–P63 | The husks turn; the rooftop dinner. |
+| `J` | P64–P70 and `END.png` | P68 ECU strip; P70 the last panel. |
+
 ### Chapter 1 parts (done)
 
 | Part | Panels to draw | Notes |
