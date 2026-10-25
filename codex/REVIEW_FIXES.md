@@ -208,9 +208,11 @@ The owner went to sleep and left every decision to Claude. Claude re-checked eve
 | S14 Lyra | **Passes.** The profile now carries the quiver at her right hip. |
 | S15 Moon Ahin | **Passes.** Claude separated the back-of-head bow study from the torso study in `details.png`. |
 | P1 Jaeha acting | **Passes.** |
-| P2 Nib acting | `acting.png` passes. `talking.png`: three open mouths show the fang wrong (an upper fang, or on his right); being patched. |
+| P2 Nib acting | **Passes.** The three talking mouths now show one lower fang at his left corner. |
 | P3 Yerin acting | **Passes.** |
-| P4 Mok acting | `talking.png` passes. `acting.png`: the selfie phone has a triple-lens module (a branded shape); being patched. |
-| P5 Lyra acting | `talking.png` passes. `acting.png` pose 2 draws left-handed (bracer and glove on the wrong arms); being redrawn aiming right. |
+| P4 Mok acting | **Passes.** The selfie phone is plain, with one round lens. |
+| P5 Lyra acting | **Passes.** Pose 2 redrawn right-handed; Claude then re-routed its upper bowstring to the real bow tip and evened out the regenerated slot's lighter background. |
 | P6 Bomi acting | **Passes** (Claude erased two bows that stood on their tips with nothing holding them). |
 | A1 acting test | A1, A2=B2, B1, B3, B5 and A3 **pass**; the dialogue run changes faces line by line. B4/P31: Mok's face reads angry instead of dead-flat, and a second notebook sits in Jaeha's pocket; being edited. The script now has Mok haul the shield up with his right arm in P31, matching the drawing. |
+
+**25 October, afternoon.** Every character sheet passes. Claude built the scale charts (`scale_chart_v2.png`, the full row; `scale_chart_v2_cast.png` and `scale_chart_v2_giants.png`, readable splits) and sent the owner one 62-page PDF of all sheets, with no colour codes. The B4/P31 edit of the acting test is still running.
