@@ -1,0 +1,1107 @@
+chapter: 15
+title: Pass
+format: SCRIPT_FORMAT_v2.md
+when: "Friday, the day before the raid: a D-grade gate in a closed water-treatment plant in Mapo, from 10 AM to noon; the plant's gate at noon."
+story_beats: ARC3_4_BEATS.md#15-pass
+cast:
+  kang_jaeha: vest
+  nib: mask                 # field form from P03; the mask stays on inside the gate out of habit
+  borro: default            # no husk face inside the gate (only friends); field form from P03
+  song_yerin: default
+  choi_dongmin: default
+  yoo_bomi: default
+  basalt_boar: default
+locations: [aqueduct_gate]
+continuity:
+  - "Jaeha: the orange vest with Seoa's red stitches on the back patch, the grey hoodie, plasters on both palms (healing), the forearm bandage. Fringe over the LEFT eye, pencil behind the RIGHT ear, notebook in the LEFT chest pocket."
+  - "Nib: seal 2/5 look, the cracked husk mask; field form (amber eyes, thin amber outline) from P03 to P50, with the cooldown pause P27–P29 (rest form) and field form again from P30."
+  - "Borro: no husk face inside the gate; field form (moss-green eyes, thin moss-green outline) from P03 to P50; the iron shield; the slate shell with moss and flowers."
+  - "Yoo Bomi: her full design and the new drone with the pink ribbon; the drone stays OFF for this job (Jaeha's rule): it sits in her hands."
+  - "The basalt boar (new design, see ARC3_4_BEATS.md): a hushed boar the size of a truck, 2.5 m at the shoulder and 5 m long, its hide plated with slabs of black basalt with rough edges like broken paving, coarse dark bristles between the slabs, two curved tusks of glassy black obsidian, small red-brown eyes, and a small violet Hush crack on its brow. It charges in straight lines and lowers its head three strides before impact: that is its tell. Scale: its shoulder is a head higher than Borro's head."
+  - "The aqueduct gate (new location aqueduct_gate): outside, a closed water-treatment plant with round settling tanks and a fence; the gate slit in an empty tank. Inside, a ruined Far Side aqueduct: a long stone water channel on top of a row of tall arches crossing a deep gorge, the channel's floor 6 m wide with knee-high walls, shallow water running along it; broken arches far below; a pale yellow sky. The channel is the only path: one way in, one way out."
+plants:
+  - "PLANT P41: [PASS I · EACH HAND-OFF LOSES 30%] (Borrowed Thunder, ch 19)."
+  - "PLANT P53: HARVEST only, a fourth time (ch 50)."
+  - "PLANT P58–P60: the CALL is held in reserve (ch 18)."
+hook_type: power
+
+panels:
+
+  # ================= THE CHARGE (P01–P12) =================
+  - id: P01
+    recipe: monster-reveal
+    shape: full
+    gap: none
+    bg: white
+    camera: "low, along the aqueduct's stone channel, tilted 10 degrees: a basalt-plated boar the size of a truck charging straight at the camera through shallow water"
+    light: "key: a flat pale yellow sky; spray flying white"
+    art: >
+      Inside a D-grade gate (location aqueduct_gate): along the top of a ruined Far Side aqueduct, a stone water channel 6 m
+      wide with knee-high walls, a deep gorge on both sides. A boar the size of a truck (basalt_boar) charges straight down the
+      channel toward us through the shallow water, black basalt slabs plating its hide, glassy black obsidian tusks, a violet
+      Hush crack on its brow, water exploding from its hooves. Scale: its shoulder is a head higher than Borro's head; the
+      channel walls reach a man's knee.
+    acting:
+      basalt_boar: "mid-charge, head lowered, tusks forward, legs pounding"
+    calm: top
+    sfx:
+      - {text: "DUDUDUDUDUM", style: impact, at: [0.30, 0.70], size: XL, rot: -6}
+
+  - id: P02
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level, side-on on the channel: the boar slamming into Borro's raised iron shield, Borro sliding backward through the water"
+    light: "pale yellow sky; spray"
+    art: >
+      Side-on: the boar slams into Borro's raised iron shield (borro, no husk face); the impact sends him sliding backward
+      through the water, his heels gouging the stone, a wave flying up on either side.
+    acting:
+      basalt_boar: "head driving into the shield, tusks scraping the iron"
+      borro: "braced behind the shield, sliding backward, heels gouging stone, jaw set"
+    calm: top
+    sfx:
+      - {text: "KRAAANNG", style: impact, at: [0.40, 0.30], size: XL, rot: 8}
+
+  - id: P03
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "high over the channel: cracks racing out through the stone deck from under Borro's heels, a window above"
+    light: "pale sky; cyan from the window"
+    art: >
+      High over the channel: cracks race out through the stone deck from under Borro's heels and run down the side of the
+      aqueduct; chips of stone fall into the gorge far below. The upper half is the pale sky, empty for the window.
+    acting:
+      borro: "small below, holding the shield against the boar"
+      basalt_boar: "pushing against the shield"
+    calm: top
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[FIELD FORM · NIB 05:00 · BORRO 05:00 · LINKED]"}
+    silent: true
+    sfx:
+      - {text: "KRRRK", style: quiet, at: [0.50, 0.80], size: S, rot: 0}
+
+  - id: P04
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, tilted, beside the boar: Nib leaping onto its back and driving both knives down, the blades skidding off the basalt in sparks"
+    light: "sparks; spray"
+    art: >
+      Beside the boar: Nib (nib, field form) leaps onto its back and drives both knives down between the plates, but the blades
+      skid off the basalt in a shower of sparks.
+    acting:
+      nib: "landing on the boar's back, both knives skidding off the stone, eyes wide behind the mask"
+      basalt_boar: "bucking under him"
+    calm: top
+    sfx:
+      - {text: "SKRANG", style: impact, at: [0.50, 0.30], size: L, rot: -6}
+
+  - id: P05
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level: the boar bucking Nib off its back into the water, then wheeling away down the channel to turn for another run"
+    light: "spray"
+    art: >
+      The boar bucks and throws Nib off its back into the water with a splash, then wheels away down the channel, its hooves
+      sliding, to turn for another run.
+    acting:
+      nib: "thrown off, landing on his back in the water"
+      basalt_boar: "wheeling away, hooves sliding, head swinging round"
+    calm: top
+    sfx:
+      - {text: "SPLASH", style: impact, at: [0.30, 0.70], size: M, rot: 0}
+
+  - id: P06
+    recipe: carry
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, at the channel's start: Jaeha at the edge of the deck staggering as both impacts land in him, two rings of light pulsing from his chest"
+    light: "amber and moss-green rings"
+    face: private
+    art: >
+      At the start of the channel, by the gate slit: Jaeha (kang_jaeha) staggers as both impacts land in his body at once,
+      amber and moss-green rings pulsing out from his chest; Yerin catches his elbow. Choi and Bomi stand by the slit behind
+      them, Bomi holding her switched-off drone.
+    acting:
+      kang_jaeha: "staggering, one hand to his chest, teeth gritted"
+      song_yerin: "catching his elbow, hands glowing mint"
+      choi_dongmin: "by the slit, wincing"
+      yoo_bomi: "clutching the switched-off drone to her chest"
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.86], text: "[CARRY · 2 SUMMONS · 35%]"}
+    sfx:
+      - {text: "THOOM", style: impact, at: [0.30, 0.40], size: M, rot: 0}
+
+  - id: P07
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low two-shot by the gate slit: Choi with a coffee and a stopwatch, Bomi sulking over her switched-off drone"
+    light: "pale sky"
+    art: >
+      By the gate slit: Choi (choi_dongmin) holds a coffee and a rescue stopwatch; Bomi (yoo_bomi) sulks with her switched-off
+      drone in her arms.
+    acting:
+      choi_dongmin: "sipping coffee, holding up the stopwatch, deadpan"
+      yoo_bomi: "hugging the drone, pouting hugely"
+    eyeline: "Bomi → Jaeha; Choi → the boar"
+    foreground: "the gate slit's cold white rim, cropped, left edge"
+    calm: top
+    lines:
+      - {who: yoo_bomi, type: speech, text: "THE MOST EXCITING FIGHT OF THE YEAR, AND I'M NOT ALLOWED TO FILM IT.", side: l}
+      - {who: choi_dongmin, type: speech, text: "YOU SIGNED HIS RULES. I SAW YOU.", side: r}
+
+  - id: P08
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Jaeha, wiping his nose, eyes on the boar turning far down the channel"
+    light: "pale sky"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha) wiping his nose with his wrist, his eyes on the boar turning far down the channel.
+    acting:
+      kang_jaeha: "wiping his nose with the back of his wrist, eyes narrowed down the channel"
+    eyeline: "Jaeha → the boar"
+    foreground: "Yerin's glowing hand on his elbow, cropped, left"
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: speech, text: "NO CAMERAS TODAY. TOMORROW THE WHOLE COUNTRY GETS TO WATCH.", side: r}
+
+  - id: P09
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level on the channel: Nib climbing out of the water onto the low wall, Borro shaking his shield arm"
+    light: "pale sky"
+    art: >
+      On the channel: Nib (nib) climbs out of the water onto the knee-high wall, dripping, looking at his chipped knives; Borro
+      (borro) shakes out his shield arm.
+    acting:
+      nib: "crouched on the wall, dripping, holding up a chipped knife, ears flat"
+      borro: "shaking out his shield arm slowly, rolling his shoulder"
+    eyeline: "Nib → his knife; Borro → the boar"
+    foreground: "the channel wall's mossy stone, cropped, bottom"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "MY KNIVES CAN'T GET THROUGH. IT'S WEARING A ROAD.", side: l}
+      - {who: borro, type: speech, text: "AND I CAN STOP IT. BUT I CAN'T HURT IT.", side: r}
+
+  - id: P10
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: white
+    camera: "over Jaeha's shoulder, close on his notebook page"
+    light: "pale sky on the page"
+    face: private
+    art: >
+      Jaeha's plastered hand writes in his notebook: a sketch of the boar with plates like paving, a fast small figure with a
+      knife marked with a down arrow, a heavy figure with a shield marked with a cross. Leave a blank band for the letterer's
+      note. No readable text.
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: note, text: "NIB IS FAST BUT LIGHT. BORRO IS STRONG BUT SLOW. NEITHER IS ENOUGH."}
+
+  - id: P11
+    recipe: anticipation
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, from the channel floor: the boar far away at the end of the channel, pawing the water, lowering its head"
+    light: "pale sky; the boar dark against it"
+    art: >
+      From low on the channel floor: far away at the other end of the channel, the boar paws the water and lowers its head,
+      steam snorting from its nostrils.
+    acting:
+      basalt_boar: "pawing the water with one forefoot, head lowering, nostrils flaring"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "SNORRT", style: quiet, at: [0.70, 0.40], size: M, rot: 0}
+
+  - id: P12
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level, behind Jaeha at the channel's start: Jaeha raising both hands, linked to both summons, the boar coming"
+    light: "pale sky; amber and green threads"
+    face: private
+    art: >
+      From behind Jaeha at the start of the channel: he raises both hands at his sides, thin amber and moss-green threads of light
+      running from them to Nib and Borro; far down the channel, the boar starts its run.
+    acting:
+      kang_jaeha: "both hands raised at his sides, feet apart, eyes on the boar"
+    eyeline: "Jaeha → the boar"
+    foreground: "Jaeha's shoulder and raised hand, cropped, right"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: shout, text: "AGAIN! BORRO, HOLD IT! NIB, LOOK FOR A GAP!", side: r}
+
+  - id: P13
+    kind: title
+    shape: full
+    gap: long
+    bg: black
+    title_card: "MY SUMMONS GO FIRST · CHAPTER 15 · PASS"
+    notes: "Title card at panel 13 of 60 (22%)."
+
+  # ================= THE IDEA (P14–P30) =================
+  - id: P14
+    recipe: impact
+    shape: wide
+    gap: long
+    bg: white
+    camera: "low, behind Borro's shield as the boar hits it again: the iron buckling inward, spray exploding"
+    light: "spray; white flash"
+    art: >
+      From low behind Borro's shield as the boar hits it again: the iron buckles inward round the boss; spray explodes round
+      the edges; Borro's feet slide.
+    acting:
+      borro: "behind the shield, shoulder driving into it, sliding"
+      basalt_boar: "slamming into the shield, tusks over the rim"
+    calm: top
+    sfx:
+      - {text: "KRAANG", style: impact, at: [0.50, 0.30], size: XL, rot: -8}
+
+  - id: P15
+    recipe: carry
+    shape: tall
+    gap: short
+    bg: white
+    camera: "a cutaway diagram drawn into the panel: Jaeha's body glowing like a wire, the force from Borro entering one arm and running out through his feet"
+    light: "a moss-green glow running through him like current"
+    face: private
+    art: >
+      Jaeha (kang_jaeha) stands rigid as the impact arrives, and the panel shows what he feels: his body glows faintly like a
+      wire, a pulse of moss-green force entering through his raised hand from Borro's thread, running down through his chest
+      and legs, and draining out through the soles of his boots into the stone in a ring of cracks.
+    acting:
+      kang_jaeha: "rigid, eyes wide, head tilted back, one hand raised, feeling it pass through him"
+    calm: top
+    sfx:
+      - {text: "VWWMMMM", style: impact, at: [0.30, 0.30], size: L, rot: 0}
+
+  - id: P16
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: white
+    camera: "extreme close-up of Jaeha's eyes, an idea landing"
+    light: "a moss-green glint"
+    face: private
+    art: >
+      Extreme close-up: Jaeha's eyes (kang_jaeha), widening as an idea lands. Fill the canvas edge to edge.
+    acting:
+      kang_jaeha: "eyes widening, pupils sharpening"
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: inner, text: "IT GOES THROUGH ME. I DON'T HAVE TO KEEP IT."}
+
+  - id: P17
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on Jaeha, the pencil tapping his lip, calculating"
+    light: "pale sky"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha), the pencil tapping his lip, lips moving as he counts.
+    acting:
+      kang_jaeha: "pencil tapping his lower lip, eyes darting, calculating"
+    eyeline: "Jaeha → nothing (thinking)"
+    foreground: "the edge of his open notebook, cropped, bottom right"
+    calm: right
+    lines:
+      - {who: kang_jaeha, type: inner, text: "WHAT IF I SEND IT ON? INTO NIB'S KNIFE, INSTEAD OF INTO THE GROUND?"}
+
+  - id: P18
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level at the channel's start: Yerin staring at Jaeha as he walks out onto the channel toward his summons"
+    light: "pale sky"
+    face: private
+    art: >
+      Yerin (song_yerin) stares as Jaeha (kang_jaeha) walks out onto the cracked channel toward his summons, the notebook
+      snapped shut.
+    acting:
+      song_yerin: "reaching after him, alarmed"
+      kang_jaeha: "walking out onto the channel, notebook shut, a small fierce smile"
+    eyeline: "Yerin → Jaeha; Jaeha → Nib and Borro"
+    foreground: "the gate slit's rim, cropped, left"
+    calm: top
+    lines:
+      - {who: song_yerin, type: speech, text: "WHERE ARE YOU GOING? YOU'RE SUPPOSED TO STAY BACK!", side: l}
+      - {who: kang_jaeha, type: speech, text: "I NEED TO BE CLOSER. I WANT TO TRY SOMETHING.", side: r}
+
+  - id: P19
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, three-shot on the channel behind Borro's shield: Jaeha crouched between Borro and Nib, explaining fast"
+    light: "pale sky"
+    face: private
+    art: >
+      Behind Borro's buckled shield on the channel: Jaeha (kang_jaeha) crouches between Borro and Nib, explaining fast with his
+      hands.
+    acting:
+      kang_jaeha: "crouched, one hand flat on Borro's shield, the other pointing at Nib's knife"
+      borro: "kneeling behind the shield, listening, slow nods"
+      nib: "crouched on the channel wall, head tilted, sceptical"
+    eyeline: "Jaeha → Nib; Nib → Jaeha; Borro → Jaeha"
+    foreground: "the buckled shield's rim, cropped, left"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "WHEN IT HITS BORRO, I FEEL ALL OF IT. I'M GOING TO PUSH IT INTO YOUR KNIFE.", side: l}
+      - {who: nib, type: speech, text: "YOU'VE NEVER DONE THAT.", side: r}
+
+  - id: P20
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Jaeha's crooked smile"
+    light: "pale sky"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha), a crooked, slightly mad smile.
+    acting:
+      kang_jaeha: "a crooked smile, one eyebrow up, sweat on his temple"
+    eyeline: "Jaeha → Nib"
+    foreground: "Nib's ear, cropped, left edge"
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: speech, text: "THAT'S WHAT A TEST IS FOR.", side: r}
+
+  - id: P21
+    recipe: anticipation
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, behind Nib on the wall: the boar charging up the channel, Nib crouched to spring"
+    light: "spray"
+    art: >
+      From low behind Nib on the channel wall: the boar charges up the channel at Borro's shield; Nib crouches to spring.
+    acting:
+      nib: "crouched on the wall, knives reversed, coiled"
+      basalt_boar: "charging, head lowered"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "DUDUDUM", style: impact, at: [0.70, 0.70], size: M, rot: 6}
+
+  - id: P22
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level: the boar hitting the shield, Jaeha's hand on Borro's back, a pulse of light jerking from him toward Nib, Nib leaping too early"
+    light: "white flash; a ragged pulse of light"
+    art: >
+      The boar hits the shield; Jaeha, with one hand on Borro's back, jerks as a ragged pulse of light tears out of him toward
+      Nib; but Nib has already leapt, too early, and the pulse scatters into the air in sparks behind him.
+    acting:
+      kang_jaeha: "one hand on Borro's back, body jerking, the pulse tearing out of him"
+      nib: "already in mid-leap, too early, looking back"
+      basalt_boar: "hitting the shield"
+    calm: top
+    sfx:
+      - {text: "KRANG", style: impact, at: [0.40, 0.30], size: L, rot: -6}
+      - {text: "FZZT", style: quiet, at: [0.72, 0.40], size: S, rot: 0}
+
+  - id: P23
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, tilted: Nib's knife glancing off the boar's skull, the boar's head whipping round and an obsidian tusk ripping across Borro's arm"
+    light: "a red flash"
+    art: >
+      Nib's knife glances off the boar's basalt skull; the boar's head whips round and an obsidian tusk rips across Borro's
+      shield arm over the rim.
+    acting:
+      nib: "knife glancing off, tumbling away"
+      basalt_boar: "head whipping sideways, a tusk raking"
+      borro: "the tusk ripping across his forearm, flinching"
+    calm: top
+    sfx:
+      - {text: "SHRAKK", style: impact, at: [0.50, 0.30], size: XL, rot: 10}
+
+  - id: P24
+    recipe: carry
+    shape: wide
+    gap: short
+    bg: white
+    camera: "close and low on Jaeha: his own forearm splitting open where Borro's was cut, his nose bleeding, his ears ringing"
+    light: "a moss-green ring; red"
+    face: private
+    art: >
+      Close and low on Jaeha (kang_jaeha): a cut opens across his own forearm exactly where Borro's was ripped; blood runs from
+      his nose; his hands shake; he squeezes one eye shut against a ringing in his ears.
+    acting:
+      kang_jaeha: "clutching his forearm, one eye squeezed shut, blood from his nose, hands shaking"
+    calm: top
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.86], text: "[FORCE TRANSFER FAILED · CARRY 70%]"}
+    sfx:
+      - {text: "EEEEEEEEE", style: impact, at: [0.30, 0.30], size: L, rot: 0}
+
+  - id: P25
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level by the slit: Yerin running out onto the channel toward Jaeha, Choi shouting after her"
+    light: "pale sky"
+    art: >
+      By the slit: Yerin (song_yerin) runs out onto the cracked channel toward Jaeha with glowing hands; Choi (choi_dongmin)
+      shouts after her, the stopwatch in his fist.
+    acting:
+      song_yerin: "running onto the channel, hands glowing mint"
+      choi_dongmin: "shouting after her, one hand out, the stopwatch in the other"
+    eyeline: "Yerin → Jaeha; Choi → Yerin"
+    foreground: "Bomi's drone in her arms, cropped, bottom left"
+    calm: top
+    lines:
+      - {who: choi_dongmin, type: shout, text: "SONG YERIN! THAT FLOOR IS CRACKING!", side: r}
+      - {who: song_yerin, type: shout, text: "SO IS HE!", side: l}
+
+  - id: P26
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, close on the channel: Yerin's glowing hands on Jaeha's forearm, Jaeha laughing weakly"
+    light: "mint glow"
+    face: private
+    art: >
+      On the channel: Yerin (song_yerin) presses glowing mint hands to the cut on Jaeha's forearm; Jaeha (kang_jaeha) laughs
+      weakly through the blood.
+    acting:
+      song_yerin: "pressing her glowing hands on the cut, glaring at him"
+      kang_jaeha: "laughing weakly, blood on his lip, eyes alight"
+    eyeline: "Yerin → Jaeha; Jaeha → Nib"
+    foreground: "the water running along the channel, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "IT WORKED. FOR HALF A SECOND, IT WORKED. NIB WAS JUST TOO EARLY.", side: r}
+    sfx:
+      - {text: "SHIIING", style: quiet, at: [0.30, 0.40], size: S, rot: 0}
+
+  - id: P27
+    recipe: system
+    shape: inset-l
+    gap: short
+    bg: navy
+    camera: "close on Nib landing on the channel wall as the amber goes out of his eye"
+    light: "the amber dying"
+    art: >
+      Close on Nib (nib, mask) landing on the channel wall as the amber goes out of his eye and his outline fades: rest form.
+      The top part is empty for the window.
+    acting:
+      nib: "landing in a crouch, suddenly heavier, eye dull"
+    calm: right
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.06], text: "[NIB · FIELD FORM ENDED · COOLDOWN 01:00]"}
+    silent: true
+
+  - id: P28
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: white
+    camera: "over Jaeha's shoulder, close on the notebook: a sketch of the boar's charge in three steps, its head dropping on the third"
+    light: "pale sky"
+    face: private
+    art: >
+      Over Jaeha's shoulder: in the notebook, the pencil sketches the boar's charge in three little frames, its head dropping
+      lower on the third; then a shield, a jagged arrow running from the shield through a stick figure into a knife. Leave a
+      blank band for the letterer's note. No readable text.
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: note, text: "HEAD DROPS THREE STRIDES BEFORE IT HITS. STRIKE THE SAME INSTANT IT HITS BORRO."}
+
+  - id: P29
+    recipe: plan
+    shape: wide
+    gap: short
+    bg: white
+    camera: "high over the channel, desaturated, cyan lines: Nib standing on top of Borro's shield rim, an arrow from the impact through Jaeha up into Nib"
+    light: "desaturated; cyan lines"
+    face: private
+    art: >
+      High over the channel, desaturated, clean cyan lines and no text: a small figure standing on top of the big shield's rim;
+      the boar's charge drawn as three marks, the third at the shield; a jagged arrow from the shield into a stick figure with a
+      hand on the shield-bearer's back, and out of it up into the small figure, which drops straight down onto the boar's head.
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: inner, text: "NIB STANDS ON THE SHIELD. THE HIT COMES IN, AND GOES STRAIGHT OUT THROUGH HIM."}
+
+  - id: P30
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level: Nib climbing up to stand on the top rim of Borro's shield, his eye flaring amber again"
+    light: "amber flaring; cyan from the window"
+    art: >
+      Nib (nib) climbs up and stands on the top rim of Borro's buckled shield, balanced like a cat on a fence, as his eye flares
+      amber again; Borro steadies the shield; Jaeha stands right behind Borro with one hand flat on his shell. The upper part
+      is empty for the window.
+    acting:
+      nib: "balanced on the shield's rim, knives drawn, eye blazing, crouched"
+      borro: "holding the shield steady, looking up at Nib"
+      kang_jaeha: "one hand flat on Borro's shell, eyes down the channel"
+    calm: top
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[COOLDOWN 00:00 · NIB · FIELD FORM 05:00]"}
+    silent: true
+
+  # ================= PASS (P31–P50) =================
+  - id: P31
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, close two-shot: Borro looking up at Nib on his shield, Nib looking down"
+    light: "pale sky"
+    art: >
+      Close and low: Borro (borro) looks up at Nib balanced on his shield's rim; Nib (nib) looks down at him.
+    acting:
+      borro: "looking up, a slow, dry smile"
+      nib: "looking down, deadpan, knives ready"
+    eyeline: "Borro → Nib (up); Nib → Borro (down)"
+    foreground: "the shield's buckled rim, cropped, bottom"
+    calm: top
+    lines:
+      - {who: borro, type: speech, text: "IF YOU FALL OFF MY SHIELD, I WILL NOT CATCH YOU.", side: l}
+      - {who: nib, type: speech, text: "I DON'T FALL.", side: r}
+
+  - id: P32
+    recipe: anticipation
+    shape: tall
+    gap: short
+    bg: white
+    camera: "low, from the channel floor between Borro's feet: the boar charging up the channel, its head starting to drop"
+    light: "spray; the pale sky"
+    art: >
+      From low between Borro's planted feet: the boar charges up the channel toward the shield, spray flying, and its head
+      starts to drop.
+    acting:
+      basalt_boar: "charging hard, head beginning to lower, tusks forward"
+    calm: top
+    sfx:
+      - {text: "DUDUDUDUM", style: impact, at: [0.60, 0.70], size: L, rot: -6}
+
+  - id: P33
+    recipe: insert
+    shape: strip
+    gap: short
+    bg: white
+    camera: "a thin strip: three ghosted images of the boar's head dropping lower stride by stride, a count beside each"
+    light: "pale sky"
+    art: >
+      A thin strip: three ghosted images of the boar's head dropping lower with each stride, like frames of film. Fill the
+      canvas edge to edge.
+    calm: none
+    lines:
+      - {who: offpanel:kang_jaeha, type: whisper, text: "THREE. TWO. ONE."}
+
+  - id: P34
+    recipe: splash
+    shape: full
+    gap: short
+    bg: white
+    camera: "low, from the side, tilted 12 degrees: the boar hitting the shield, a blinding pulse running from the shield through Jaeha's hand and up into Nib as he drops"
+    light: "a blinding white-gold pulse along the threads; spray frozen in the air"
+    art: >
+      The instant of impact, from low at the side: the boar slams into Borro's shield; a blinding white-gold pulse of force runs
+      from the shield into Borro's shell, through Jaeha's hand flat on it, through his body, and up the amber thread into Nib,
+      who has dropped from the shield's rim straight down onto the boar's skull, both knives driving down with the pulse
+      blazing along his arms. Spray hangs frozen in the air.
+    acting:
+      basalt_boar: "head driving into the shield"
+      borro: "taking the hit, braced"
+      kang_jaeha: "body rigid, head thrown back, the pulse running through him"
+      nib: "dropping onto the skull, both knives driving down, arms blazing white-gold"
+    calm: top
+    sfx:
+      - {text: "KRA-THOOOOM", style: impact, at: [0.30, 0.20], size: XL, rot: -10}
+
+  - id: P35
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: white
+    camera: "close and low on the boar's skull: the basalt splitting open like broken paving under Nib's knives, cracks racing outward"
+    light: "white-gold; violet ash bursting"
+    art: >
+      Close and low on the boar's skull: the basalt plate splits open like broken paving under Nib's knives, cracks racing out
+      across its head and down its neck, violet ash bursting out of the cracks.
+    acting:
+      nib: "knives buried in the split skull, knees on its head"
+      basalt_boar: "head jolting, plates cracking apart"
+    calm: top
+    sfx:
+      - {text: "KRAKKKK", style: impact, at: [0.50, 0.30], size: XL, rot: 6}
+
+  - id: P36
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: white
+    camera: "high, over the channel: the boar collapsing sideways into the water, its plates sliding off, Nib leaping clear"
+    light: "spray; violet ash"
+    art: >
+      High over the channel: the boar collapses sideways into the water, its basalt plates sliding off it and splashing into the
+      channel; Nib leaps clear and lands on the wall.
+    acting:
+      basalt_boar: "collapsing sideways, plates sliding off"
+      nib: "leaping clear, landing on the wall"
+    calm: top
+    sfx:
+      - {text: "KSSSHHHHH", style: impact, at: [0.50, 0.70], size: L, rot: 0}
+
+  - id: P37
+    recipe: aftermath
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level, still: the boar dissolving into violet ash in the channel, Borro lowering the shield, Jaeha on his knees behind him"
+    light: "pale sky through drifting ash"
+    art: >
+      Still: the boar dissolves into violet ash in the shallow water; Borro lowers the buckled shield; behind him Jaeha has sunk
+      to his knees in the water, his hand still raised.
+    acting:
+      borro: "lowering the shield slowly"
+      kang_jaeha: "on his knees in the water, one hand still raised, staring at it"
+      nib: "crouched on the wall, staring at his own knives"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "drip... drip...", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P38
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: white
+    camera: "close on Jaeha's raised hand: the fingers trembling violently, a faint white-gold glow fading from the skin"
+    light: "a fading white-gold glow"
+    art: >
+      Close on Jaeha's raised hand: the fingers tremble violently, the plasters on his palm scorched at the edges, a faint
+      white-gold glow fading out of the skin.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "SHAKE SHAKE", style: quiet, at: [0.70, 0.40], size: S, rot: 0}
+
+  - id: P39
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on Jaeha's face, one ear bleeding a thread of blood, wincing at a ringing nobody else hears"
+    light: "pale sky"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha): a thread of blood from one ear, wincing at a ringing nobody else can hear, but smiling.
+    acting:
+      kang_jaeha: "wincing, one hand pressed to his ear, a breathless smile"
+    calm: right
+    silent: true
+    sfx:
+      - {text: "EEEEEEEE", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P40
+    recipe: system
+    shape: tall
+    gap: short
+    bg: navy
+    camera: "low, from the water: Jaeha kneeling in the channel, looking up at a big window that has opened over him"
+    light: "cyan from the window; the pale sky"
+    face: private
+    art: >
+      From low in the water: Jaeha (kang_jaeha) kneels in the channel looking up at a big window that has opened over him,
+      cyan light on his face. The upper two thirds are empty for the window.
+    acting:
+      kang_jaeha: "kneeling in the water, face tilted up, breathing hard, a hand still pressed to his ear"
+    eyeline: "Jaeha → the window"
+    calm: top
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.06], headline: "[NEW SKILL: PASS I]", body: "MOVE FORCE BETWEEN TWO LINKED SUMMONS THROUGH THE OPERATOR · EACH HAND-OFF LOSES 30%", button: "OK"}
+    silent: true
+
+  - id: P41
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "close on a second, smaller window: the cost, in red-edged text"
+    light: "cyan with a red edge"
+    face: private
+    art: >
+      Close on Jaeha's face (kang_jaeha) half lit by a second, smaller window with a red edge. The upper half is empty for the
+      window.
+    acting:
+      kang_jaeha: "reading it, one eye narrowed, sweat and blood on his face"
+    eyeline: "Jaeha → the window"
+    calm: top
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.06], text: "[COST: THE FORCE PASSES THROUGH THE OPERATOR'S BODY]"}
+    silent: true
+
+  - id: P42
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level on the channel wall: Nib looking at his knives, then at Jaeha, his tail of scarf dripping"
+    light: "pale sky"
+    art: >
+      On the channel wall: Nib (nib) looks at his knives, then at Jaeha, the end of his red scarf dripping into the channel.
+    acting:
+      nib: "turning a knife over in his hand, then looking up at Jaeha, the corner of his mouth almost moving"
+    eyeline: "Nib → Jaeha"
+    foreground: "the channel wall's mossy edge, cropped, bottom"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "THAT WAS ITS OWN WEIGHT IN MY KNIVES. I LIKE THIS. DO IT AGAIN.", side: l}
+
+  - id: P43
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Borro holding up his buckled shield and looking at the dent"
+    light: "pale sky"
+    art: >
+      Close on Borro (borro) holding up his buckled shield and looking mournfully at the deep dent in it.
+    acting:
+      borro: "holding the shield up, peering at the dent with one heavy-lidded eye, a dry frown"
+    eyeline: "Borro → the shield"
+    foreground: "the dent's twisted iron, cropped, bottom left"
+    calm: left
+    lines:
+      - {who: borro, type: speech, text: "THEN YOU TAKE THE NEXT CHARGE.", side: r}
+
+  - id: P44
+    recipe: chibi
+    style: chibi
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "flat"
+    light: "flat"
+    art: >
+      Chibi gag: chibi Nib stands proudly holding up a tiny shield made of a pot lid in front of a chibi boar, sweating; behind
+      him, chibi Borro sits with a cup of tea and a tiny smug smile. Pale gag background.
+    acting:
+      nib: "chibi: holding up a pot lid, sweating, trying to look brave"
+      borro: "chibi: sipping tea, smug"
+    calm: right
+    silent: true
+
+  - id: P45
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level by the slit: Choi stopping his stopwatch and staring at it, Bomi clutching her drone in agony"
+    light: "pale sky"
+    art: >
+      By the slit: Choi (choi_dongmin) stops his stopwatch and stares at it; Bomi (yoo_bomi) clutches her switched-off drone in
+      agony.
+    acting:
+      choi_dongmin: "staring at the stopwatch, eyebrows high"
+      yoo_bomi: "clutching the drone, tears of frustration, mouth wide"
+    eyeline: "Choi → the stopwatch; Bomi → the channel"
+    foreground: "the gate slit's rim, cropped, left edge"
+    calm: top
+    lines:
+      - {who: yoo_bomi, type: shout, text: "THAT WAS THE COOLEST THING I'VE EVER SEEN, AND I DIDN'T FILM IT!", side: l}
+      - {who: choi_dongmin, type: speech, text: "GOOD. THE LESS ANYONE SEES BEFORE TOMORROW, THE BETTER.", side: r}
+
+  - id: P46
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, close two-shot on the channel: Yerin helping Jaeha up, his arm over her shoulders"
+    light: "pale sky"
+    face: private
+    art: >
+      On the channel: Yerin (song_yerin) helps Jaeha (kang_jaeha) up out of the water, his arm over her small shoulders.
+    acting:
+      song_yerin: "hauling him up with his arm over her shoulders, scolding"
+      kang_jaeha: "getting up unsteadily, a trembling hand in front of him, grinning"
+    eyeline: "Yerin → Jaeha; Jaeha → his hand"
+    foreground: "the water running along the channel, cropped, bottom"
+    calm: top
+    lines:
+      - {who: song_yerin, type: speech, text: "YOUR HANDS ARE SHAKING AND YOUR EAR IS BLEEDING.", side: l}
+      - {who: kang_jaeha, type: speech, text: "AND I JUST HIT A BOAR WITH ITS OWN WEIGHT.", side: r}
+
+  - id: P47
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on a fist-sized violet core rising out of the water where the boar fell"
+    light: "violet"
+    art: >
+      Close on the channel water where the boar fell: a fist-sized faceted violet core rises out of the water and hangs in the
+      air.
+    calm: left
+    silent: true
+    sfx:
+      - {text: "VMMM", style: quiet, at: [0.40, 0.30], size: S, rot: 0}
+
+  - id: P48
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level on the channel: the core hanging in the air, Jaeha and Yerin looking at it, a window above"
+    light: "violet; cyan"
+    art: >
+      On the channel: the core hangs in the air; Jaeha and Yerin look at it; Nib looks away. The upper half is empty for the
+      window.
+    acting:
+      kang_jaeha: "looking at the core, his face unreadable"
+      song_yerin: "looking at the core"
+      nib: "looking away down the channel"
+    calm: top
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.05], headline: "[BOSS DEFEATED: BASALT BOAR (D)]", body: "HARVEST CORE · EST. ₩3,500,000 · NO OTHER OPTION", button: "HARVEST"}
+    silent: true
+
+  - id: P49
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: white
+    camera: "over Jaeha's shoulder, close on the notebook: a line added under a short list"
+    light: "pale sky"
+    face: private
+    art: >
+      Over Jaeha's shoulder: on a page with a short list of four little monster sketches (a hound, an alpha, a serpent, a boar),
+      each with the same small mark beside it, his trembling hand adds a line. Leave a blank band for the letterer's note. No
+      readable text.
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: note, text: "ONLY HARVEST. FOUR TIMES NOW. WHY?"}
+
+  - id: P50
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "high over the aqueduct: the team small on the channel, the core in Jaeha's hand, two windows stacked in the pale sky"
+    light: "cyan windows; pale sky"
+    art: >
+      High over the aqueduct and the gorge: the team small on the channel, the core in Jaeha's hand; the amber and green glows
+      fading from Nib and Borro. The upper half is empty for two stacked windows.
+    calm: top
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[NEW BOSS KIND · +10% × OPERATOR LV. 5]"}
+      - {kind: system.notice, "on": float, at: [0.5, 0.16], text: "[ROUTE ALIGNMENT 90% → 100%]"}
+    silent: true
+
+  # ================= NOT YET (P51–P60) =================
+  - id: P51
+    recipe: system
+    shape: tall
+    gap: short
+    bg: navy
+    camera: "low, from the water: a huge window unfolding over Jaeha with one glowing button, everyone looking up at him"
+    light: "a great cyan glow"
+    face: private
+    art: >
+      From low in the water: a huge window unfolds over Jaeha with one glowing button; Yerin, Nib and Borro look from it to him.
+      The upper two thirds are empty for the window.
+    acting:
+      kang_jaeha: "looking up at the window, very still"
+      song_yerin: "looking at Jaeha, holding her breath"
+      nib: "looking up at the window, ears up"
+      borro: "looking at the window, then at Jaeha"
+    calm: top
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.06], headline: "[A CALL IS AVAILABLE]", body: "SUMMON SLOTS: 2/3 · SPEAK, AND THE FAR SIDE WILL HEAR YOUR OFFER.", button: "CALL"}
+    silent: true
+
+  - id: P52
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level, three-shot: Yerin and Borro looking at Jaeha, Nib turning to him"
+    light: "pale sky; cyan"
+    art: >
+      Yerin (song_yerin) and Borro (borro) look at Jaeha; Nib (nib) turns to him, waiting.
+    acting:
+      song_yerin: "hands clasped in front of her, hopeful"
+      borro: "leaning on his shield, calm, curious"
+      nib: "turning to Jaeha, arms folded"
+    eyeline: "all → Jaeha"
+    foreground: "the edge of the cyan window, cropped, top"
+    calm: top
+    lines:
+      - {who: song_yerin, type: speech, text: "A THIRD SUMMON, THE NIGHT BEFORE THE RAID? CALL NOW!", side: l}
+      - {who: borro, type: speech, text: "A NEW FRIEND. I WILL MAKE ROOM UNDER THE TARP.", side: r}
+
+  - id: P53
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: white
+    camera: "extreme close-up of Jaeha's eyes, the cyan button reflected in them, thinking"
+    light: "cyan reflected"
+    face: private
+    art: >
+      Extreme close-up: Jaeha's eyes (kang_jaeha), the glowing button reflected in them, narrowing as he thinks. Fill the canvas
+      edge to edge.
+    acting:
+      kang_jaeha: "eyes narrowing slowly"
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: inner, text: "SHE WATCHES FOR SUMMONS. MOK EXPECTS TWO. HE PLANNED FOR TWO."}
+
+  - id: P54
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: navy
+    camera: "close on Jaeha's plastered finger hovering over the CALL button, then pulling back"
+    light: "cyan"
+    art: >
+      Close on Jaeha's trembling, plastered finger hovering over the glowing CALL button, then curling back into his palm.
+    calm: right
+    silent: true
+
+  - id: P55
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, close on Jaeha closing the window with a sweep of his hand, a small cold smile"
+    light: "cyan shrinking"
+    face: private
+    art: >
+      Close and low on Jaeha (kang_jaeha) sweeping the window aside with one hand; it shrinks away into a small point of light.
+    acting:
+      kang_jaeha: "sweeping his hand across, a small cold smile, eyes level"
+    eyeline: "Jaeha → the window"
+    foreground: "Nib's ear and scarf, cropped, bottom right"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "NOT YET. I'LL NEED IT IN THERE.", side: l}
+
+  - id: P56
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Nib looking up at Jaeha, then nodding once"
+    light: "pale sky"
+    art: >
+      Close on Nib (nib) looking up at Jaeha, then giving one small nod, as one soldier to another.
+    acting:
+      nib: "a single small nod, eyes approving"
+    eyeline: "Nib → Jaeha"
+    calm: left
+    lines:
+      - {who: nib, type: speech, text: "A SCOUT ALWAYS KEEPS ONE KNIFE HIDDEN.", side: r}
+
+  - id: P57
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level by the gate slit as they come back: Choi handing Jaeha a coffee, looking at his shaking hands"
+    light: "pale sky; the slit's white rim"
+    face: private
+    art: >
+      By the gate slit as they come back: Choi (choi_dongmin) hands Jaeha (kang_jaeha) a coffee and looks at his shaking hands;
+      Bomi bounces beside them.
+    acting:
+      choi_dongmin: "holding out the coffee, eyes on Jaeha's hands, frowning"
+      kang_jaeha: "taking it in both trembling hands"
+      yoo_bomi: "bouncing on her toes beside them"
+    eyeline: "Choi → Jaeha's hands"
+    foreground: "the slit's rim, cropped, left"
+    calm: top
+    lines:
+      - {who: choi_dongmin, type: speech, text: "YOU CAN'T EVEN HOLD A CUP. AND TOMORROW YOU WALK INTO MOK'S RAID.", side: l}
+      - {who: kang_jaeha, type: speech, text: "TOMORROW I'LL BE HOLDING SOMETHING ELSE.", side: r}
+
+  - id: P58
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "Jaeha's point of view walking out of the slit: at the very edge of his vision, a tiny cyan mark that stays with him"
+    light: "the bright world outside; one tiny cyan point at the edge"
+    art: >
+      Jaeha's point of view as he walks out of the gate slit into the plant: ahead, the round settling tanks in noon light; at
+      the very edge of his vision in the top corner, a tiny cyan mark, like a pinned notification, that stays there.
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.82, 0.08], text: "[CALL · HELD]"}
+    silent: true
+
+  - id: P59
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: white
+    camera: "eye level outside the water plant at noon: the team walking out through the gate, a long shadow each"
+    light: "key: hard noon sun"
+    art: >
+      Outside the closed water-treatment plant at noon: the team walks out through the fence gate, each with a hard short
+      shadow: Jaeha with the coffee in both hands, Yerin, Bomi, Choi, Nib (mask back on) and Borro (husk face back on).
+    acting:
+      kang_jaeha: "walking with the coffee in both hands, eyes ahead"
+      nib: "walking stiffly again"
+      borro: "walking stiffly again, the buckled shield on his back"
+    calm: top
+    sfx:
+      - {text: "STEP STEP", style: quiet, at: [0.50, 0.86], size: S, rot: 0}
+
+  - id: P60
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, close on Jaeha, the tiny cyan mark floating at the edge of the frame, the city behind him"
+    light: "noon sun; a small cyan glow"
+    face: private
+    art: >
+      Close and low on Jaeha (kang_jaeha), the tiny cyan mark floating at the edge of the frame by his eye, the city behind him.
+    acting:
+      kang_jaeha: "looking ahead, a small cold smile, the coffee steaming in his trembling hands"
+    eyeline: "Jaeha → ahead"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: inner, text: "TOMORROW, MOK EXPECTS ME TO WALK IN FIRST. I WILL."}
+
+  - id: END
+    kind: end
+    chibi_gag: "Chibi Borro tries to hammer the dent out of his shield with a tiny mallet, very gently, tap by tap, while chibi Nib sleeps sitting upright on the shield's rim and chibi Jaeha's hands vibrate so hard he spills his ramen."
