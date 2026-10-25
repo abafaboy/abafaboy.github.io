@@ -1326,6 +1326,24 @@ def main():
                 it = its[0] if first else its[-1]
                 return int(min(0.36 * it["bh"], 84)) if it["type"] in BITMAP_TYPES else -16
 
+            # Gutter bubbles straddle the panel edge, but never over a face: where a drawn head sits near the top
+            # (or bottom) edge, the group overlaps the panel only down to just above that head (or sits clear of it).
+            Hh_ = heads.get(pid) or {}
+            sc_ = max(fw / iw, fh / ih)
+            offy_ = (fh - ih * sc_) * focus[1]
+            hy_ = [(b_[1] * ih * sc_ + offy_, b_[3] * ih * sc_ + offy_) for b_ in Hh_.values()
+                   if isinstance(b_, (list, tuple)) and len(b_) == 4]
+            head_top_ = min((a_ for a_, _ in hy_), default=None)
+            head_bot_ = max((b_ for _, b_ in hy_), default=None)
+
+            def ov_safe(lns, first):
+                v_ = ov(lns, first)
+                if first and head_bot_ is not None:
+                    v_ = min(v_, int(fh - head_bot_ - 12))
+                if not first and head_top_ is not None:
+                    v_ = min(v_, int(head_top_ - 12))
+                return max(v_, -16)
+
             if mode.get(pid) == "beside":
                 col_html = group(talk, "beside")
                 foot_html = "".join(letter_html(it_by_line[id(f_)], "foot") for f_ in foots)
@@ -1346,9 +1364,9 @@ def main():
                 g2 = group(after, "after")
                 foot_html = "".join(letter_html(it_by_line[id(f_)], "foot") for f_ in foots)
                 blocks.append(f'<div class="blk{dcls}" style="background:{col}">'
-                              + (f'<div class="gut before" style="margin-bottom:{-ov(before, False)}px">{g1}</div>' if g1 else "")
+                              + (f'<div class="gut before" style="margin-bottom:{-ov_safe(before, False)}px">{g1}</div>' if g1 else "")
                               + pw_html
-                              + (f'<div class="gut after" style="margin-top:{-ov(after, True)}px">{g2}</div>' if g2 else "")
+                              + (f'<div class="gut after" style="margin-top:{-ov_safe(after, True)}px">{g2}</div>' if g2 else "")
                               + foot_html + "</div>")
 
         doc = (f'<!doctype html><html><head><meta charset="utf-8">{FONT_LINKS}<style>{strip_css(W)}</style></head>'
