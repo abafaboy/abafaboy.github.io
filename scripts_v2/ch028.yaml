@@ -1,0 +1,1079 @@
+chapter: 28
+title: Not Equipment
+format: SCRIPT_FORMAT_v2.md
+when: "Friday, about 2:20 AM: the end of the great drain pipe beside the Warden's chained arm, then the drain tunnel."
+story_beats: ARC3_4_BEATS.md#28-not-equipment
+cast:
+  kang_jaeha: crew
+  nib: mask
+  borro: default
+  lyra: default
+  moon_ahin: default
+  ahin_husks: default        # 30
+  crew_pyo: default
+  crew_dami: default
+  crew_woo: default
+  crew_ho: default
+  tide_warden: default
+  kanghan_engineer: default
+  kanghan_tactical: default
+  han_sora: kanghan          # voice on the radio only (P56)
+locations: [farm_pit, farm_drains]
+continuity:
+  - "Jaeha: the crew kit, the respirator off and hanging at his belt beside Minseok's rusted lamp; Dami's scarf on his LEFT shoulder, bleeding through again after P38; a fresh nosebleed from P38."
+  - "The setting (P01-P50): the end of the great drain pipe on the pit wall, beside the Warden's chained LEFT arm; the round hatch open behind the team onto the drain tunnel; seawater running in the pipe and spilling over the hatch's lip; red warning lights; the Warden's open sea-green eye above them; guards' torch beams coming along the pipe from P30."
+  - "The Warden's words (lettered in angle brackets) reach only the summons; Nib translates for Jaeha. The machines pour seawater back into the Warden to keep him alive and take the rest."
+  - "Moon Ahin's video (P22-P30): her own phone held up in her RIGHT hand, the camera app's recording screen drawn plainly (a red dot, no other interface text); what the phone shows is drawn inside its frame."
+  - "Borro in field form from P35 (moss-green outline): he tears a drain pipe as thick as a tree trunk out of the Warden's arm with his bare hands. Jaeha carries it."
+  - "The drain tunnels (new location farm_drains, P52 onward): old Far Side tide channels repurposed by the engineers: round stone tunnels 5 m across climbing through the canyon wall in long switchbacks, a channel of black water pumped uphill along the floor, a narrow steel maintenance walkway beside it, caged lamps, pump housings thumping. They lead up toward the rim."
+plants:
+  - "PLANT P06-P08: HARVEST would pay ₩40,000,000,000 and close the gate on everyone inside; no other option is offered (ch 50)."
+  - "PLANT P15-P19: Minseok spent three days in the pit with the Warden (Arc 5)."
+  - "PLANT P13-P14, P20: Jaeha swears to come back for the Warden (Arc 5)."
+  - "PLANT P22-P31: the proof: Moon Ahin's video with her own face, and the crew's (ch 32)."
+  - "PLANT P56: Sora takes the top of the drains (ch 29)."
+hook_type: threat
+
+panels:
+
+  # ================= THE PLEA (P01-P21) =================
+
+  - id: P01
+    recipe: talk
+    shape: wide
+    gap: none
+    bg: black
+    camera: "low, from the pipe: the Warden's open eye above, wet and enormous, the three summons small in front of it, the water in the pipe trembling"
+    light: "the sea-green eye; red warning light"
+    art: >
+      From low on the pipe: the Warden's open sea-green eye (tide_warden) above them, wet and enormous; the three summons stand small in
+      front of it; the seawater in the pipe trembles with his voice.
+    acting:
+      tide_warden: "the eye fixed on Jaeha, the brow above it drawn together"
+      nib: "kneeling in the water, looking up"
+    calm: bottom
+    lines:
+      - {who: tide_warden, type: monster, text: "<THEY POUR THE SEA BACK INTO ME, SO THAT I DO NOT DIE. AND THEY TAKE THE REST.>", side: l}
+    sfx:
+      - {text: "MMMMMMMM", style: gate, at: [0.80, 0.30], size: M, rot: 0}
+
+  - id: P02
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close two-shot: Nib translating in a whisper, Jaeha crouched beside him"
+    light: "sea-green; red"
+    face: private
+    art: >
+      Close and low: Nib (nib) translates in a whisper; Jaeha (kang_jaeha) crouches beside him in the water, listening.
+    acting:
+      nib: "whispering, eyes still on the giant"
+      kang_jaeha: "crouched, listening, one hand on Nib's back"
+    eyeline: "Nib → the Warden; Jaeha → Nib"
+    foreground: "the trembling water in the pipe, cropped, bottom"
+    calm: top
+    lines:
+      - {who: nib, type: whisper, text: "THE PIPES POUR THE SEA INTO HIM SO HE DOESN'T DIE. AND TAKE EVERYTHING ELSE.", side: l}
+
+  - id: P03
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, wide: the Warden's chained arm rising beside the pipe like a cliff, the eye above, the team at its foot"
+    light: "violet; sea-green; red"
+    art: >
+      Wide: the Warden's chained LEFT arm (tide_warden) rises beside the pipe like a cliff of coral and steel collars; the eye above;
+      the team small at its foot.
+    acting:
+      tide_warden: "the great eye half closing, a slow breath heaving the coral"
+    foreground: "the pipe's rim and the rushing seawater, cropped, bottom"
+    calm: top
+    lines:
+      - {who: tide_warden, type: monster, text: "<TEAR OUT THE PIPES, AND I DIE BEFORE THE HOUR ENDS. AND WHEN I DIE, THE DOOR CLOSES.>", side: l}
+    sfx:
+      - {text: "MMMMMMMM", style: gate, at: [0.80, 0.30], size: M, rot: 0}
+
+  - id: P04
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Nib, translating, his voice cracking"
+    light: "sea-green"
+    art: >
+      Close on Nib (nib), translating, his voice cracking.
+    acting:
+      nib: "looking at Jaeha, ears drooping, voice cracking"
+    eyeline: "Nib → Jaeha"
+    foreground: "Jaeha's shoulder, cropped, left"
+    calm: left
+    lines:
+      - {who: nib, type: whisper, text: "PULL THE PIPES AND HE DIES. AND THE GATE CLOSES. WITH ALL OF US INSIDE IT.", side: r}
+
+  - id: P05
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level along the pipe: the crew and Moon Ahin taking in what Nib said, Pyo looking up at the rim far above"
+    light: "red"
+    art: >
+      Along the pipe: the crew and Moon Ahin (moon_ahin) take in what Nib said; Uncle Pyo (crew_pyo) looks up toward the rim, far above
+      in the dark; Dami (crew_dami) grips his arm.
+    acting:
+      moon_ahin: "very still, the baton lowered"
+      crew_pyo: "looking straight up toward the rim, mouth open"
+      crew_dami: "gripping Pyo's arm"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "GULP", style: quiet, at: [0.30, 0.30], size: S, rot: 0}
+
+  - id: P06
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level on Jaeha in the pipe, a window opening between him and the giant"
+    light: "the window's cyan; sea-green behind"
+    face: private
+    art: >
+      Jaeha (kang_jaeha) stands in the pipe as a window opens between him and the giant. The upper half is empty for the window.
+    acting:
+      kang_jaeha: "standing, eyes on the window, very still"
+    eyeline: "Jaeha → the window"
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.05], headline: "[HARVEST CORE · EST. ₩40,000,000,000]", body: "NO OTHER OPTION IS AVAILABLE.", button: "HARVEST"}
+
+  - id: P07
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of Jaeha's eyes, the window's cyan reflected in them"
+    light: "cyan"
+    face: private
+    art: >
+      Extreme close-up of Jaeha's eyes (kang_jaeha), the cyan window reflected in them. Fill the canvas edge to edge.
+    acting:
+      kang_jaeha: "eyes steady, the lower lids tightening"
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: inner, text: "Forty billion won. And everyone in here dies with him."}
+
+  - id: P08
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Jaeha's gloved hand swiping the window away"
+    light: "cyan breaking up"
+    art: >
+      Close on Jaeha's gloved hand swiping through the window; it breaks into cyan fragments and is gone.
+    calm: right
+    silent: true
+    sfx:
+      - {text: "FSSH", style: quiet, at: [0.40, 0.40], size: S, rot: 0}
+
+  - id: P09
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from behind Jaeha: Jaeha looking up at the eye, his hands open at his sides"
+    light: "sea-green"
+    face: private
+    art: >
+      From low behind Jaeha (kang_jaeha): he looks up at the eye, his hands open at his sides.
+    acting:
+      kang_jaeha: "looking up, hands open, speaking clearly"
+    eyeline: "Jaeha → the Warden (up)"
+    foreground: "Jaeha's shoulder and the rusted lamp at his belt, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "IF I END YOU NOW, THE GATE CLOSES ON EVERYONE. MY PEOPLE. HER HUSKS. THE CREW. EVEN THEIR ENGINEERS.", side: r}
+
+  - id: P10
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the pipe: the eye narrowing, the hum deepening"
+    light: "sea-green; red"
+    art: >
+      From low on the pipe: the eye narrows (tide_warden); the hum deepens until the water jumps in the pipe.
+    acting:
+      tide_warden: "the eye narrowing, the brow lowering"
+    foreground: "a steel collar bolted into the coral, cropped, right"
+    calm: bottom
+    lines:
+      - {who: tide_warden, type: monster, text: "<THEIR ENGINEERS PUT THE PIPES IN ME.>", side: l}
+    sfx:
+      - {text: "MMMMMMMM", style: gate, at: [0.80, 0.30], size: M, rot: 0}
+
+  - id: P11
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, close on Jaeha, steady"
+    light: "sea-green"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha), steady, without looking away from the eye.
+    acting:
+      kang_jaeha: "steady, chin up, eyes on the Warden"
+    eyeline: "Jaeha → the Warden"
+    foreground: "Nib's ear, cropped, bottom left"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "EVEN THEM. EVERYONE COMES BACK. IT'S THE ONLY RULE I HAVE.", side: r}
+
+  - id: P12
+    recipe: silent
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low and wide: the Warden's eye closing slowly, a long breath fogging the far glass wall white"
+    light: "violet; red"
+    art: >
+      Low and wide: the Warden's eye (tide_warden) closes slowly; a long breath heaves the coral and, across the pit, fogs the great glass
+      wall white from inside.
+    acting:
+      tide_warden: "the eye closing slowly, a long breath"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "HHHHHAAAAA", style: quiet, at: [0.50, 0.40], size: M, rot: 0}
+
+  - id: P13
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the pipe: the eye opening again, tired"
+    light: "sea-green"
+    art: >
+      From low on the pipe: the eye opens again (tide_warden), tired, the anger gone out of it.
+    acting:
+      tide_warden: "the eye opening slowly, heavy-lidded, tired"
+    calm: bottom
+    lines:
+      - {who: tide_warden, type: monster, text: "<THEN YOU MUST LEAVE ME HERE. AGAIN.>", side: l}
+    sfx:
+      - {text: "MMMMMMMM", style: gate, at: [0.80, 0.30], size: M, rot: 0}
+
+  - id: P14
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, two-shot: Jaeha speaking up to the eye; Nib, beside him, looking up at Jaeha instead"
+    light: "sea-green; red"
+    face: private
+    art: >
+      Two-shot: Jaeha (kang_jaeha) speaks up to the eye; beside him Nib (nib) looks up at Jaeha instead.
+    acting:
+      kang_jaeha: "looking up at the eye, one fist pressed to his chest"
+      nib: "looking up at Jaeha, head tilted"
+    eyeline: "Jaeha → the Warden; Nib → Jaeha"
+    foreground: "the water in the pipe, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "FOR NOW. I'LL GET THEM OUT, AND THEN I'LL COME BACK FOR YOU. I SWEAR IT.", side: r}
+      - {who: nib, type: speech, text: "DO YOU SAY THAT TO EVERYONE?", side: l}
+      - {who: kang_jaeha, type: speech, text: "EVERYONE COMES BACK.", side: r}
+
+  - id: P15
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the pipe: the eye softening, the voice low"
+    light: "sea-green"
+    art: >
+      From low on the pipe: the eye (tide_warden) softens, and a tear of seawater gathers in its corner.
+    acting:
+      tide_warden: "the eye softening, a tear gathering"
+    foreground: "Nib's raised ear, cropped, bottom left"
+    calm: bottom
+    lines:
+      - {who: tide_warden, type: monster, text: "<THE LAST ONE WHO SWORE THAT TO ME WORE ORANGE.>", side: l}
+    sfx:
+      - {text: "MMMMMMMM", style: gate, at: [0.80, 0.30], size: M, rot: 0}
+
+  - id: P16
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Nib, translating, then staring at Jaeha"
+    light: "sea-green"
+    art: >
+      Close on Nib (nib) as he translates, then stares at Jaeha, his eyes wide.
+    acting:
+      nib: "turning to Jaeha, eyes wide, mouth open"
+    eyeline: "Nib → Jaeha"
+    calm: left
+    lines:
+      - {who: nib, type: whisper, text: "...HE SAYS THE LAST ONE WHO SWORE IT WORE ORANGE.", side: r}
+
+  - id: P17
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close on Jaeha, his hand going to the rusted lamp at his belt"
+    light: "sea-green"
+    face: private
+    art: >
+      Close and low on Jaeha (kang_jaeha), his hand going to the rusted lamp at his belt, his voice barely there.
+    acting:
+      kang_jaeha: "hand closing on the lamp, eyes filling, voice barely there"
+    eyeline: "Jaeha → the Warden (up)"
+    foreground: "the rusted lamp in his hand, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "...HE WAS MY HYUNG.", side: r}
+
+  - id: P18
+    recipe: talk
+    shape: tall
+    gap: short
+    bg: black
+    camera: "a soft memory in sea-green, low in the pit four years ago: a small figure in an orange vest sitting cross-legged at the foot of the chained giant, talking up at him"
+    light: "a dim sea-green memory; one small hard-hat lamp; the orange vest the only warm colour"
+    art: >
+      A soft memory in sea-green, four years ago, the pit before the machines: Oh Minseok (oh_minseok) sits cross-legged on the stone at the
+      foot of the chained Warden (tide_warden), his hard-hat lamp lit, talking and laughing up at the giant's face; the Warden's eye is open
+      and looking down at him. Scale: Minseok is the size of the Warden's fingernail.
+    acting:
+      oh_minseok: "sitting cross-legged, gesturing up at the giant as he talks, grinning"
+      tide_warden: "head bowed toward the tiny man, the eye open, listening"
+    foreground: "the tip of a giant chained finger, cropped, right"
+    calm: top
+    lines:
+      - {who: tide_warden, type: monster, text: "<HE TALKED TO ME FOR THREE DAYS. I DID NOT KNOW HIS WORDS. HE SCRATCHED THE DOOR, AND HE SMILED AT ME.>", side: l}
+
+  - id: P19
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "back in the present, low: the eye looking down at Jaeha, gentle"
+    light: "sea-green; red"
+    art: >
+      Back in the present, from low: the eye (tide_warden) looks down at Jaeha, gentle.
+    acting:
+      tide_warden: "the eye gentle, the tear running"
+    foreground: "the rusted lamp in Jaeha's hand, cropped, bottom"
+    calm: bottom
+    lines:
+      - {who: tide_warden, type: monster, text: "<HE WAS NOT ALONE AT THE END. AND NEITHER WAS I.>", side: l}
+    sfx:
+      - {text: "MMMMMMMM", style: gate, at: [0.80, 0.30], size: M, rot: 0}
+
+  - id: P20
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: Jaeha bowing his head over the lamp, crying without a sound, Nib pressing his forehead against Jaeha's arm"
+    light: "sea-green"
+    face: private
+    art: >
+      Jaeha (kang_jaeha) bows his head over the rusted lamp and cries without a sound; Nib (nib) hears the translation in his own head and
+      presses his forehead against Jaeha's arm; behind them Lyra (lyra) turns away with her hand over her mouth.
+    acting:
+      kang_jaeha: "head bowed over the lamp, shoulders shaking, silent"
+      nib: "forehead pressed against Jaeha's arm, eyes shut"
+      lyra: "turned away, a hand over her mouth"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: inner, text: "Then I'm swearing it twice. Once for me. Once for him."}
+
+  - id: P21
+    kind: title
+    shape: full
+    gap: long
+    bg: black
+    title_card: "MY SUMMONS GO FIRST · CHAPTER 28 · NOT EQUIPMENT"
+    notes: "Title card at panel 21 of 60 (35%)."
+
+  # ================= PROOF (P22-P34) =================
+
+  - id: P22
+    recipe: talk
+    shape: wide
+    gap: long
+    bg: black
+    camera: "eye level, two-shot: Jaeha wiping his face with his sleeve and turning to Moon Ahin, who is already taking out her phone"
+    light: "red; sea-green"
+    face: private
+    art: >
+      Two-shot: Jaeha (kang_jaeha) wipes his face with his sleeve and turns to Moon Ahin (moon_ahin), who is already taking her phone out of
+      her coat.
+    acting:
+      kang_jaeha: "wiping his face with his sleeve, turning, voice steady again"
+      moon_ahin: "drawing her phone out of her coat, eyes on the pit"
+    eyeline: "Jaeha → Moon Ahin; Moon Ahin → the pit"
+    foreground: "her white glove holding the phone, cropped, bottom right"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "WE NEED PROOF. NOT A STORY. SOMETHING THEY CAN'T CALL FAKE.", side: r}
+      - {who: moon_ahin, type: speech, text: "THEN IT NEEDS A FACE THEY CAN'T CALL FAKE.", side: l}
+
+  - id: P23
+    recipe: talk
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, a few metres off: Moon Ahin raising the phone and turning its camera on herself, the chained giant and the red pit behind her"
+    light: "red; violet; the giant behind her"
+    art: >
+      From low, a few metres off: Moon Ahin (moon_ahin) raises her phone in her RIGHT hand and turns its camera on herself, the chained
+      giant and the red-lit pit behind her; she looks straight into the lens, composed, the coat-dress dusty and torn at the hem.
+    acting:
+      moon_ahin: "phone held up at arm's length in her RIGHT hand, LEFT hand at her side, chin up, looking straight into the lens"
+    foreground: "the rim of the pipe and the spray, cropped, bottom"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: speech, text: "MY NAME IS MOON AHIN. MY GRANDFATHER FOUNDED KANGHAN'S CORE DIVISION.", side: l}
+
+  - id: P24
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on her phone screen as she turns it: the chained giant's face in the frame, a red recording dot"
+    light: "the screen"
+    art: >
+      Close on her phone screen as she turns it outward: in its frame, the chained giant's face and his one open eye; a small red
+      recording dot in the corner.
+    calm: left
+    lines:
+      - {who: moon_ahin, type: speech, text: "THIS IS WHAT IT DOES.", side: l}
+
+  - id: P25
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "through her phone screen: a rack of tanks, the hexagon and the crescent seal on their caps"
+    light: "violet"
+    art: >
+      Through her phone's screen, its edges in frame: a rack of glowing tanks, and on their caps the silver hexagon and the small
+      crescent-moon seal, in focus.
+    calm: top
+    silent: true
+
+  - id: P26
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "through her phone screen: the giant chain link and its stamped mark, then the pipes driven into coral"
+    light: "violet; red"
+    art: >
+      Through her phone's screen: a link of the giant chain with its small stamped mark, and beyond it the steel collars and pipes driven
+      into the coral of the Warden's arm.
+    calm: top
+    silent: true
+
+  - id: P27
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Moon Ahin's face above the phone as she films, steady, her eyes shining but not crying"
+    light: "red"
+    art: >
+      Close on Moon Ahin's face (moon_ahin) above the phone as she films: steady, her eyes shining, not one tear falling.
+    acting:
+      moon_ahin: "filming steadily, jaw set, eyes shining"
+    calm: right
+    silent: true
+
+  - id: P28
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: Uncle Pyo limping into the phone's frame and pulling off his respirator, his own face bare"
+    light: "red"
+    art: >
+      Uncle Pyo (crew_pyo) limps into the phone's frame and pulls off his respirator; his weathered face is bare; Moon Ahin (moon_ahin)
+      turns the phone to him.
+    acting:
+      crew_pyo: "pulling the respirator off, looking straight into her phone, chin trembling"
+      moon_ahin: "turning the phone to him"
+    eyeline: "Pyo → the phone"
+    foreground: "the phone in her hand, cropped, right"
+    calm: top
+    lines:
+      - {who: crew_pyo, type: speech, text: "PYO DONGSIK. I'VE WALKED THEIR TRAPS FOR TWENTY YEARS. PUT ME IN IT.", side: l}
+
+  - id: P29
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level along the crew: Dami, Woo and Ho pulling off their respirators one after another, their faces bare"
+    light: "red"
+    art: >
+      Along the crew: Dami (crew_dami), Woo (crew_woo) and Ho (crew_ho) pull off their respirators one after another and step into the
+      frame beside Pyo, their faces bare.
+    acting:
+      crew_dami: "pulling off her respirator, hair coming loose, eyes red"
+      crew_woo: "pulling off his respirator, jaw set"
+      crew_ho: "pulling off his respirator, grinning nervously at the camera"
+    calm: top
+    lines:
+      - {who: crew_dami, type: speech, text: "PUT US ALL IN IT.", side: l}
+    sfx:
+      - {text: "KSSH KSSH KSSH", style: impact, at: [0.70, 0.30], size: M, rot: 0}
+
+  - id: P30
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha watching them, his face breaking into something like pride"
+    light: "red"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha) watching them, his tired face breaking into something like pride.
+    acting:
+      kang_jaeha: "watching, a small proud smile through the blood and tears"
+    calm: left
+    silent: true
+    sfx:
+      - {text: "...", style: quiet, at: [0.30, 0.30], size: S, rot: 0}
+
+  - id: P31
+    recipe: insert
+    shape: strip
+    gap: short
+    bg: black
+    camera: "a thin strip: Moon Ahin's thumb stopping the recording, the red dot going out"
+    light: "the screen"
+    art: >
+      A thin strip: Moon Ahin's gloved thumb taps the screen and the red recording dot goes out. Fill the canvas edge to edge.
+    calm: none
+    silent: true
+    sfx:
+      - {text: "TIK", style: quiet, at: [0.60, 0.40], size: S, rot: 0}
+
+  # ================= NOT EQUIPMENT (P32-P44) =================
+
+  - id: P32
+    recipe: anticipation
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level along the pipe: torch beams and armoured figures coming fast round the curve of the pit, carbines up"
+    light: "torch beams; red"
+    art: >
+      Along the pipe: torch beams and armoured troopers (kanghan_tactical) come fast round the curve of the pit wall toward them, carbines
+      up; the speakers crackle.
+    acting:
+      kanghan_tactical: "running along the pipe, shields up, carbines raised"
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: announce, text: "THE ASSET MUST NOT BE DAMAGED. PROTECT THE EQUIPMENT AT ALL COSTS.", side: l}
+
+  - id: P33
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of the eye-holes of Borro's white husk face, a green glow kindling inside them"
+    light: "moss-green kindling"
+    art: >
+      Extreme close-up of the two round eye-holes in Borro's white husk face (borro), a moss-green glow kindling inside them. Fill the
+      canvas edge to edge.
+    acting:
+      borro: "eyes kindling green behind the eye-holes"
+    calm: none
+    silent: true
+
+  - id: P34
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, behind Borro: Borro's head lifting slowly, Jaeha reaching toward him"
+    light: "green; red"
+    face: private
+    art: >
+      From low behind Borro (borro): his head lifts slowly toward the speakers; Jaeha (kang_jaeha) reaches out toward his back.
+    acting:
+      borro: "head lifting slowly, huge hands opening and closing"
+      kang_jaeha: "reaching toward Borro's back, then stopping, letting him"
+    eyeline: "Borro → the speakers; Jaeha → Borro"
+    foreground: "Borro's mossy shell, cropped, left"
+    calm: top
+    lines:
+      - {who: borro, type: speech, text: "EQUIPMENT.", side: l}
+      - {who: kang_jaeha, type: speech, text: "...BORRO. GO ON. I'VE GOT YOU.", side: r}
+
+  - id: P35
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from the pipe: Borro in field form walking up to the Warden's arm, his moss-green outline blazing, gripping a pipe as thick as a tree where it enters the coral"
+    light: "moss green blazing; violet"
+    art: >
+      From low on the pipe: Borro (borro), in field form, his moss-green outline blazing, walks up to the Warden's arm and wraps both huge
+      hands round a drain pipe as thick as a tree trunk where it plunges into the coral through a steel collar.
+    acting:
+      borro: "both arms round the pipe, feet planted, head down"
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.90], text: "[BORRO · FIELD FORM 05:00]"}
+    sfx:
+      - {text: "GRIP", style: quiet, at: [0.70, 0.40], size: S, rot: 0}
+
+  - id: P36
+    recipe: splash
+    shape: full
+    gap: short
+    bg: black
+    camera: "low, side-on: Borro tearing the pipe out of the Warden's arm with his bare hands, the steel collar shrieking, violet light gushing out like a geyser"
+    light: "a geyser of violet light; green; sparks"
+    art: >
+      Low and side-on: Borro (borro) tears the pipe out of the Warden's arm with his bare hands; the steel collar shrieks and splits; the
+      pipe snaps and swings away; violet light gushes out of the severed end like a geyser and sprays across the pit; seawater bursts from
+      the wound in the coral and closes over it.
+    acting:
+      borro: "heaving the pipe out over his head, whole body straining, moss standing on end"
+    calm: top
+    sfx:
+      - {text: "KRRRRAAANNNG!", style: impact, at: [0.50, 0.30], size: XL, rot: -6}
+
+  - id: P37
+    recipe: carry
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close and low on Jaeha on his knees in the pipe: both arms shaking as if he were holding the pipe himself, his shoulder bleeding through the scarf, blood from his nose"
+    light: "green; violet"
+    face: private
+    art: >
+      Close and low on Jaeha (kang_jaeha) on his knees in the pipe: both arms shake as if he were holding the pipe himself; the scarf on his
+      shoulder darkens with fresh blood; blood runs from his nose.
+    acting:
+      kang_jaeha: "on his knees, both arms shaking out in front of him, head down, blood from his nose"
+    calm: top
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.88], text: "[CARRY · BORRO · 60%]"}
+    sfx:
+      - {text: "DNNNN", style: impact, at: [0.70, 0.30], size: M, rot: 0}
+
+  - id: P38
+    recipe: silent
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low and wide: the Warden's eye half closing in relief, a long, easy breath"
+    light: "violet; sea-green"
+    art: >
+      Low and wide: the Warden's eye (tide_warden) half closes in relief; a long, easy breath leaves him for the first time in four years,
+      and the chains slacken a little.
+    acting:
+      tide_warden: "the eye half closing, a long easy breath, the shoulders easing"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "hhhaaaahhh...", style: quiet, at: [0.50, 0.40], size: M, rot: 0}
+
+  - id: P39
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: Borro dropping the severed pipe into the pit and turning round, his chest heaving, the green fading to a steady glow"
+    light: "green; violet spray behind"
+    art: >
+      Borro (borro) drops the severed pipe over the edge into the pit and turns round, his chest heaving, the green glow steady in his eyes.
+    acting:
+      borro: "letting the pipe fall, turning, chest heaving, fists clenched"
+    eyeline: "Borro → the troopers"
+    foreground: "the falling pipe, cropped, bottom right"
+    calm: top
+    lines:
+      - {who: borro, type: speech, text: "HE IS NOT EQUIPMENT. NEITHER AM I.", side: l}
+    sfx:
+      - {text: "...KLANG", style: quiet, at: [0.80, 0.80], size: S, rot: 0}
+
+  - id: P40
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Lyra, wiping her eyes and grinning fiercely at Borro"
+    light: "green; red"
+    art: >
+      Close on Lyra (lyra), wiping her eyes with the back of her hand and grinning fiercely at Borro.
+    acting:
+      lyra: "wiping her eyes, a fierce wet grin"
+    eyeline: "Lyra → Borro"
+    foreground: "her bow, cropped, right"
+    calm: right
+    lines:
+      - {who: lyra, type: speech, text: "I LIKE YOU MORE EVERY DAY, BIG ONE.", side: l}
+
+  - id: P41
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "inside the control room: engineers scrambling at the consoles, gauges falling, one shouting into a headset"
+    light: "screens; red"
+    art: >
+      Inside the glass-fronted control room: engineers (kanghan_engineer) scramble at the consoles; needle gauges drop; one shouts into a
+      headset.
+    acting:
+      kanghan_engineer: "one shouting into a headset, two slapping switches"
+    eyeline: "the engineer → the gauges"
+    foreground: "a falling gauge needle, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kanghan_engineer, type: shout, text: "DRAIN SEVEN IS SEVERED! YIELD DOWN TWELVE PERCENT! IT'S TEARING UP THE ASSET!", side: l}
+
+  - id: P42
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, in the control room: the duty chief, an older engineer, slamming his hand down on a red button under a hinged cover"
+    light: "red"
+    art: >
+      Low in the control room: the duty chief, an older engineer (kanghan_engineer) with grey hair, flips up a hinged cover and slams his hand
+      down on the red button under it.
+    acting:
+      kanghan_engineer: "the chief slamming his palm down on the red button, face hard"
+    eyeline: "the chief → the button"
+    foreground: "the hinged cover, cropped, left"
+    calm: top
+    lines:
+      - {who: kanghan_engineer, type: speech, text: "SEAL THE RIM. NOBODY LEAVES THIS GATE TONIGHT.", side: l}
+    sfx:
+      - {text: "KLAK", style: impact, at: [0.70, 0.60], size: M, rot: 0}
+
+  - id: P43
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level on Jaeha getting to his feet in the pipe, a red window opening over him"
+    light: "red window"
+    face: private
+    art: >
+      Jaeha (kang_jaeha) gets to his feet in the pipe as a red window opens over him. The upper half is empty for the window.
+    acting:
+      kang_jaeha: "getting up, wiping his nose, eyes on the window"
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.06], text: "[GATE RIM SEALING · 12:00]"}
+
+  - id: P44
+    recipe: establish
+    shape: tall
+    gap: short
+    bg: black
+    camera: "a view straight up the canyon from the pit, far above: the white light of the gate's rim, and a steel frame round it beginning to close like an iris"
+    light: "a white rim far above; sparks"
+    art: >
+      Straight up the canyon from the pit, far above at the top of the dark: the small white light of the gate's inner rim, and round it the
+      steel frame bolted to the rock beginning to close like an iris, plate by plate, throwing sparks. Scale: the rim is 400 m up.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "KLAK... KLAK... KLAK...", style: quiet, at: [0.50, 0.70], size: S, rot: 0}
+
+  # ================= OUT (P45-P60) =================
+
+  - id: P45
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, two-shot at the hatch: Moon Ahin shouting over the sirens, Jaeha already pointing into the drain tunnel"
+    light: "red"
+    face: private
+    art: >
+      Two-shot at the hatch: Moon Ahin (moon_ahin) shouts over the sirens; Jaeha (kang_jaeha) is already pointing into the dark drain
+      tunnel.
+    acting:
+      moon_ahin: "shouting, the phone clutched to her chest, the baton in her other hand"
+      kang_jaeha: "pointing into the tunnel, calm"
+    eyeline: "Moon Ahin → Jaeha; Jaeha → the tunnel"
+    foreground: "the hatch's rusted rim, cropped, right"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: shout, text: "IT TOOK US TWO HOURS TO COME DOWN!", side: l}
+      - {who: kang_jaeha, type: speech, text: "THE PUMPS PUSH THE SEAWATER UP AND OUT. WE GO UP WITH THE WATER.", side: r}
+
+  - id: P46
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, along the pipe: the troopers firing, Borro planting himself in front of the hatch with his shield, bolts sparking off it"
+    light: "violet bolts; red"
+    art: >
+      Low along the pipe: the troopers (kanghan_tactical) open fire; Borro (borro) plants himself in front of the hatch with his shield up
+      as the team streams past him into the tunnel; bolts spark off the shield.
+    acting:
+      kanghan_tactical: "firing in a ragged line along the pipe"
+      borro: "planted in front of the hatch, shield up, unmoving"
+    calm: top
+    sfx:
+      - {text: "TSEW TSEW TSEW", style: impact, at: [0.30, 0.40], size: M, rot: -6}
+      - {text: "PANG PANG", style: impact, at: [0.70, 0.30], size: M, rot: 6}
+
+  - id: P47
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level at the hatch: the crew and the husks pouring into the dark tunnel, Nib waving them through"
+    light: "red behind; darkness ahead"
+    art: >
+      At the hatch: the crew and Moon Ahin's husks (ahin_husks) pour into the dark tunnel; Nib (nib) stands at the lip waving them through;
+      Dami (crew_dami) and Woo (crew_woo) help Uncle Pyo (crew_pyo) over the lip.
+    acting:
+      ahin_husks: "pouring through the hatch two by two"
+      nib: "waving them through with one knife"
+      crew_dami: "helping Pyo over the lip"
+      crew_woo: "lifting Pyo's bad leg over"
+      crew_pyo: "climbing over, wincing"
+    calm: top
+    sfx:
+      - {text: "STEP STEP STEP", style: quiet, at: [0.50, 0.80], size: S, rot: 0}
+
+  - id: P48
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the pipe beside the hatch: Jaeha looking back up at the eye one last time; the eye looking down at him"
+    light: "sea-green; red"
+    face: private
+    art: >
+      From low beside the hatch: Jaeha (kang_jaeha) stops and looks back up at the Warden's eye one last time; the eye (tide_warden) looks
+      down at him.
+    acting:
+      kang_jaeha: "stopped at the hatch, looking back and up, the rusted lamp in his hand"
+      tide_warden: "the eye looking down at him, calm"
+    eyeline: "Jaeha ↔ the Warden"
+    foreground: "the hatch's rim, cropped, left"
+    calm: top
+    lines:
+      - {who: tide_warden, type: monster, text: "<GO. AND COME BACK.>", side: l}
+    sfx:
+      - {text: "MMMMMMMM", style: gate, at: [0.80, 0.30], size: M, rot: 0}
+
+  - id: P49
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha's gloved hand raised in a thumbs-up toward the eye"
+    light: "sea-green"
+    art: >
+      Close on Jaeha's gloved hand raised toward the giant in a thumbs-up, the way Minseok used to.
+    calm: left
+    silent: true
+
+  - id: P50
+    recipe: silent
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low and wide: the Warden's huge eye closing slowly in answer, the red light washing over the coral"
+    light: "red over sea-green"
+    art: >
+      Low and wide: the Warden's huge eye (tide_warden) closes slowly, once, in answer, like a nod; the red light washes over his coral.
+    acting:
+      tide_warden: "the eye closing slowly, once, like a nod"
+    calm: top
+    silent: true
+
+  - id: P51
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level inside the hatch: Borro backing through it last, swinging the round door shut on the bolts and the red light"
+    light: "red narrowing to a line; darkness"
+    art: >
+      Inside the hatch: Borro (borro) backs through last and swings the round steel door shut on the bolts and the red light; the light
+      narrows to a line and is gone.
+    acting:
+      borro: "backing in, swinging the hatch shut with one arm, the shield on the other"
+    calm: top
+    sfx:
+      - {text: "KLUNNG", style: impact, at: [0.50, 0.40], size: L, rot: 0}
+
+  - id: P52
+    recipe: establish
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, inside the drain tunnel: a round stone tunnel climbing away steeply in the dark, black water pumped uphill along its floor, a narrow steel walkway beside it, caged lamps"
+    light: "caged lamps; Nib's head lamp"
+    art: >
+      Inside the drain tunnel (location farm_drains), from low: a round old stone tunnel 5 m across climbs away steeply into the dark in a
+      long curve; black water is pumped uphill along a channel in its floor; a narrow steel maintenance walkway runs beside it; caged lamps
+      every 20 m; somewhere ahead, a pump housing thumps. The team strings out along the walkway, climbing.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "THUMP... THUMP... THUMP...", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P53
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, climbing: Jaeha leading on the walkway, Moon Ahin behind him, the husks behind her, the crew in the middle"
+    light: "caged lamps"
+    face: private
+    art: >
+      Climbing: Jaeha (kang_jaeha) leads up the walkway with Nib's lamp ahead of him; Moon Ahin (moon_ahin) climbs behind him; her husks and
+      the crew follow.
+    acting:
+      kang_jaeha: "climbing fast, one hand on the rail, counting under his breath"
+      moon_ahin: "climbing in her heeled boots without slowing, the phone zipped into her coat"
+    eyeline: "Jaeha → ahead"
+    foreground: "the rail and the rushing black water, cropped, bottom"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: speech, text: "IS THE VIDEO ENOUGH?", side: l}
+      - {who: kang_jaeha, type: speech, text: "IT'S ENOUGH IF IT GETS OUT. SO WE GET IT OUT.", side: r}
+
+  - id: P54
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the walkway: Lyra and Borro bringing up the rear, Lyra looking back down the dark tunnel, an arrow on the string"
+    light: "caged lamps"
+    art: >
+      From low on the walkway: Lyra (lyra) and Borro (borro) bring up the rear; Lyra looks back down the dark tunnel with an arrow on the
+      string; Borro carries Uncle Pyo again.
+    acting:
+      lyra: "walking backwards, arrow nocked, eyes on the dark behind"
+      borro: "climbing steadily, Pyo on his back"
+    eyeline: "Lyra → the tunnel behind"
+    foreground: "the black water channel, cropped, bottom"
+    calm: top
+    lines:
+      - {who: lyra, type: speech, text: "THEY'RE COMING UP BEHIND US. LOTS OF BOOTS.", side: l}
+
+  - id: P55
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on a trooper's radio clipped to an armoured shoulder in the dark, its little light blinking"
+    light: "the radio's blinking light"
+    art: >
+      Close on a trooper's radio clipped to an armoured shoulder in the dark tunnel below, its little light blinking as a voice comes through.
+    calm: right
+    silent: true
+    sfx:
+      - {text: "KSHHT", style: quiet, at: [0.40, 0.40], size: S, rot: 0}
+
+  - id: P56
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "a radio voice over a dark view down the tunnel: the troopers' torch beams climbing after the team"
+    light: "torch beams climbing in the dark"
+    art: >
+      Looking down the dark tunnel: the troopers' torch beams (kanghan_tactical) climb after the team, far below; a voice comes over their
+      radios.
+    acting:
+      kanghan_tactical: "climbing fast in a column, torches bobbing"
+    calm: top
+    lines:
+      - {who: han_sora, type: phone, text: "THEY'RE IN THE DRAINS? KEEP PUSHING THEM UP. I'LL WAIT FOR THEM AT THE TOP.", side: l}
+
+  - id: P57
+    recipe: anticipation
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, climbing: the tunnel shuddering, dust and grit raining from the old stone ceiling, a crack running along it"
+    light: "caged lamps swinging"
+    art: >
+      Climbing: the whole tunnel shudders; dust and grit rain from the old stone ceiling; a crack runs along it above the team's heads; the
+      caged lamps swing.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "RRRRMMMBLE", style: impact, at: [0.50, 0.20], size: L, rot: 0}
+
+  - id: P58
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Nib looking up at the cracking ceiling, his ears flat"
+    light: "a swinging lamp"
+    art: >
+      Close on Nib (nib) looking up at the cracking ceiling, his ears flat, grit pattering on his mask.
+    acting:
+      nib: "looking up, ears flat, one hand raised against the grit"
+    calm: left
+    lines:
+      - {who: nib, type: speech, text: "THE SEAL ON THE RIM IS SHAKING THE WHOLE GATE.", side: r}
+
+  - id: P59
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level on Jaeha on the walkway, the tunnel climbing away ahead of him into the dark, a red window"
+    light: "red window; caged lamps"
+    face: private
+    art: >
+      Jaeha (kang_jaeha) on the walkway, the tunnel climbing away ahead of him into the dark, as a red window opens over him. The upper half
+      is empty for the window.
+    acting:
+      kang_jaeha: "looking up the tunnel, jaw set, one hand on the rail"
+    calm: top
+    silent: true
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.06], text: "[GATE RIM SEALING · 11:31]"}
+
+  - id: P60
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, behind the team: a whole section of the tunnel ceiling ahead of them sagging and starting to come down"
+    light: "caged lamps; falling dust"
+    art: >
+      From low behind the team: a whole section of the tunnel ceiling ahead of them sags with a deep groan and starts to come down in
+      blocks; the team throws itself back.
+    acting:
+      kang_jaeha: "flinging an arm out to stop the people behind him"
+      moon_ahin: "throwing herself back, the baton raised"
+    calm: top
+    sfx:
+      - {text: "KRRRAAACK", style: impact, at: [0.50, 0.30], size: XL, rot: -6}
+
+  - id: END
+    kind: end
+    chibi_gag: "Chibi Borro, with a huge severed pipe over his shoulder like a souvenir, gets stuck in the hatch, while chibi Nib and chibi Lyra push on his shell from behind."
