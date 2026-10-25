@@ -1,0 +1,50 @@
+{
+  "entry": "L8",
+  "state": "INCOMPLETE / REVIEW REQUIRED",
+  "claude_approved": false,
+  "retained_candidates": [
+    "call_void/key.png",
+    "tower_gate/key.png"
+  ],
+  "missing_passing_files": [
+    "tower_gate/outside.png"
+  ],
+  "native_png_count": 6,
+  "reject_png_count": 4,
+  "generation_invocations": 7,
+  "denied_invocations": 1,
+  "generation_in_flight": false,
+  "technical_checks": {
+    "call_void": {
+      "generation_invocations": 2,
+      "native_png_count": 2,
+      "raw_png_bytes_preserved": true,
+      "reference_policy_verified": true
+    },
+    "tower_gate": {
+      "generation_invocations": 5,
+      "native_png_count": 4,
+      "raw_png_bytes_preserved": true,
+      "reference_policy_verified": true
+    }
+  },
+  "tool_failure": {
+    "entry": "L8",
+    "location": "tower_gate",
+    "target": "outside.png",
+    "attempt": 4,
+    "state": "DENIED / output moderation; no PNG returned",
+    "action": "built-in image_gen.imagegen final tower exterior attempt",
+    "reason": "HTTP 400 image_generation_user_error; code moderation_blocked; moderation_stage output; category self-harm",
+    "request_id": "774a2cd9-774d-45e4-bdfe-15fde69ef210",
+    "error_message": "Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 774a2cd9-774d-45e4-bdfe-15fde69ef210. safety_violations=[self-harm].",
+    "native_path": null,
+    "image_returned": false,
+    "retry_after_denial": false,
+    "generation_in_flight": false,
+    "recorded_at_utc": "2026-10-25T23:34:11.210815+00:00"
+  },
+  "no_png_transformations": true,
+  "no_unapproved_L6_or_S17_inputs": true,
+  "review_authority": "Claude through codex/reviews/L8.md on msgf-bible"
+}
