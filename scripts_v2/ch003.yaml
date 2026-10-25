@@ -1,0 +1,1144 @@
+chapter: 3
+title: The Ninth Wall
+format: SCRIPT_FORMAT_v2.md
+when: "Nib's memory of the Ninth Wall on the Far Side (a grey flashback), then the same Thursday night inside the boss room of Gate 0912, picking up at the last forty seconds of Nib's field form."
+story_beats: STORY_BIBLE_v4.md#chapter-3-the-ninth-wall-about-65-panels
+cast:
+  kang_jaeha: vest
+  song_yerin: default
+  nib: mask                 # present day: the cracked husk mask; from P56 his seal 2/5 look (Ninth Wall colours)
+  knight_commander: default # present day: hushed (face-hole). In the flashback: unhushed, visor closed (see continuity)
+  kett: default
+locations: [ninth_wall, boss_room]
+continuity:
+  - "FLASHBACK P01–P09: drawn in greys (desaturated blue-grey and stone), with ONE warm colour: Kett's mustard scarf. Nib's red scarf is grey here too. Hush-spawn are black shapes leaking violet ash, the only other tint."
+  - "In the flashback Nib has no husk mask (that comes later) and wears his cloak in the Ninth Wall's colours (wall-blue lining, bronze trim, the nine-tower sigil on the clasp), all in grey tones. Kett: about 95 cm, mustard scarf, oversized hand-me-down cloak, one short knife."
+  - "In the flashback the commander is the knight before he was hushed: the same dark iron and bronze armour, intact, the nine-tower sigil on the chest, a whole wall-blue cloak, and a CLOSED great helm with a narrow visor slit and NO face-hole. His face is never shown (it is revealed in ch 4)."
+  - "Present day: Nib's field form runs out at P14. P15–P46 he is in rest form: the same look with dull eyes, no amber glow and no LINK outline. From P48 he is back in field form and LINKED (thin amber outline, glowing amber eyes). From P51 he has his seal 2/5 look: the cloak lining turns wall-blue, the trim bronze, and the clasp shows the nine-tower sigil. He keeps the husk mask over the upper LEFT of his face throughout."
+  - "Jaeha: dried blood on his lip and chin from chapter 2. The notebook is in his hands from P18 until he closes it at P25 and puts it in his LEFT chest pocket; after that the pocket shows it."
+  - "The boss room floor has square pressure plates with engraved borders. The trap: a cluster of plates in front of a side archway (picture-right of the knight in P20–P31). The archway has a rusted iron portcullis hanging up in its groove; the two pillars that flank it have rows of spike holes. The knight is 4.5 m tall; the archway is about 7 m high, so the portcullis can pin him."
+plants:
+  - "PLANT P05: a great bell rings the retreat from a distant fortress (ch 9 refusal; ch 68 Caldric)."
+  - "PLANT P04: Nib sends Kett back with a message (ch 40 call sign; ch 88)."
+  - "PLANT P16: 'Everyone comes back' (Oh Minseok's rule, ch 21)."
+  - "PLANT P63: 'before the Hush takes you too' (Arc 6: bosses are hushed heroes)."
+hook_type: mystery
+
+panels:
+
+  # ================= FLASHBACK: THE NINTH WALL (P01–P09) =================
+  - id: P01
+    recipe: establish
+    shape: full
+    gap: none
+    bg: black
+    camera: "high and wide over a mountain pass from a camera hovering beyond the wall: the curtain wall across the pass, the siege below"
+    light: "flat grey overcast; the only tints are violet ash and, far off, nothing warm at all"
+    art: >
+      Drawn in greys, a memory (location ninth_wall): a great curtain wall of pale limestone across a mountain pass, with
+      nine round towers and tattered banners (wall-blue, here grey). Below it, filling the valley like a black tide,
+      thousands of Hush-spawn: faceless black shapes leaking violet ash, climbing the rubble toward the wall. Smoke rises
+      from two of the towers. Scale: the wall is about 25 m high and the towers rise above it; people on the wall-walk
+      would be specks.
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "THE FAR SIDE. THE NINTH WALL, BEFORE IT FELL."}
+      - {who: nib, type: narr_dark, text: "I WAS THE LAST SCOUT OF THE NINTH WALL."}
+    sfx:
+      - {text: "RRRRRRR", style: quiet, at: [0.80, 0.86], size: S, rot: 0}
+
+  - id: P02
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level on the wall-walk, three-quarter: the armoured commander turning to the small scout beside the battlements"
+    light: "flat grey daylight; smoke drifting behind"
+    art: >
+      Greys. On the wall-walk, the commander (knight_commander, before he was hushed: intact dark armour, the nine-tower
+      sigil on his chest, a whole cloak, a CLOSED great helm with a narrow visor slit and no face-hole) turns to Nib
+      (nib, no mask, cloak in the Ninth Wall's colours rendered in grey), who stands at attention by the battlements.
+      Scale: the commander is 4.5 m tall; Nib (105 cm) reaches just above his knee. Behind them, a few soldiers file
+      down a stair.
+    acting:
+      knight_commander: "half-turned toward Nib with one gauntlet resting on the battlement, the other pointing down the pass behind the wall; helm tilted down toward the small scout"
+      nib: "standing at attention, heels together, chin up, one fist over his heart in a salute, eyes on the commander's helm"
+    eyeline: "the commander → Nib (down); Nib → the commander (up)"
+    foreground: "a cropped merlon of the battlement at the left edge"
+    calm: top
+    lines:
+      - {who: knight_commander, type: speech, text: "HOLD THE GATE UNTIL THE ARMY IS THROUGH THE PASS. THEN WE COME BACK FOR YOU.", side: l}
+      - {who: nib, type: speech, text: "YES, COMMANDER.", side: r}
+
+  - id: P03
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low two-shot on the wall stair: Nib crouching to the young scout's height, a message tube between them"
+    light: "flat grey; the mustard scarf the one warm colour in the frame"
+    art: >
+      Greys, except for one warm colour: the mustard-yellow scarf of Kett (kett), a young goblin scout about 95 cm in an
+      oversized hand-me-down cloak. Nib (nib, no mask) presses a sealed message tube into Kett's hands on the wall
+      stair. Kett grips Nib's sleeve, pleading.
+    acting:
+      nib: "down on one knee to Kett's height, pressing the message tube into the boy's hands with both of his, face stern and calm"
+      kett: "clutching the tube to his chest with one hand and Nib's cloak sleeve with the other, leaning toward him, eyebrows up, mouth wide open mid-plea"
+    eyeline: "Nib ↔ Kett"
+    foreground: "the cropped edge of a stone stair rail at the bottom right"
+    calm: top
+    lines:
+      - {who: kett, type: speech, text: "COME WITH ME, NIB! YOU DON'T HAVE TO STAY HERE ALONE!", side: r}
+      - {who: nib, type: speech, text: "GO FIRST, KETT. I'LL BE RIGHT BEHIND YOU.", side: l}
+
+  - id: P04
+    recipe: silent
+    shape: tall
+    gap: short
+    bg: black
+    camera: "high, looking down the long wall stair: the small figure running down and away, looking back"
+    light: "flat grey; the mustard scarf the one warm colour"
+    art: >
+      Greys. From high on the wall, looking down a long stone stair inside the wall: Kett (kett) runs down and away,
+      clutching the message tube, looking back over his shoulder, the mustard scarf streaming (the one warm colour).
+      Scale: each step is a hand high; the stair drops six storeys.
+    acting:
+      kett: "running down the steps two at a time, one hand clutching the tube to his chest, head twisted back over his shoulder toward the top of the stair"
+    eyeline: "Kett → Nib (up, off-panel)"
+    calm: top
+    silent: true
+    notes: "PLANT P03–P04: the message Kett carries (ch 40, ch 88)."
+
+  - id: P05
+    recipe: establish
+    shape: wide
+    gap: short
+    bg: black
+    camera: "very wide, eye level from the wall-walk, across the mountains to a distant fortress"
+    light: "flat grey; a pale sky over the far ridges"
+    art: >
+      Greys. Far across the mountains, many kilometres away, a fortress on a peak with a great bronze bell in an open
+      tower. Rings of sound ripple from it through the clouds. In the foreground, cropped, the top of a Ninth Wall
+      tower and a grey banner.
+    calm: top
+    lines:
+      - {who: nib, type: narr_dark, text: "THEN A BELL RANG THE RETREAT, FROM A FORTRESS FAR AWAY."}
+    sfx:
+      - {text: "DONNNG", style: gate, at: [0.68, 0.30], size: L, rot: 0}
+      - {text: "DONNNG", style: gate, at: [0.80, 0.52], size: M, rot: 0}
+    notes: "PLANT P05: the bell that rang the retreat (ch 9 refusal, ch 68 Caldric)."
+
+  - id: P06
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, tilted 15 degrees, on the gatehouse roof: Nib alone among the black shapes pouring over the parapet"
+    light: "no scene light: grey-white flash; violet ash"
+    art: >
+      Greys and violet ash. Nib (nib, no mask) alone on the gatehouse roof, mid-strike, both knives flashing, as faceless
+      black Hush-spawn pour over the parapet around him. Ash bursts where his knives cut them. Fallen grey banners under
+      his feet.
+    acting:
+      nib: "low and twisting mid-strike, one knife buried in a black shape, the other slashing backward at the next, bare feet planted on a fallen banner"
+    calm: top-left
+    sfx:
+      - {text: "SHRAKK", style: impact, at: [0.30, 0.20], size: XL, rot: -12}
+
+  - id: P07
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close on the stone of a merlon, a knife's point finishing a scratch"
+    light: "flat grey; a hard shadow in each scratch"
+    art: >
+      Greys. Close on the pale stone of a battlement: nine tally scratches cut into it with a knife's point, the ninth
+      being finished now by Nib's grey-green hand holding a chipped knife. Ash drifts across the stone.
+    calm: top
+    lines:
+      - {who: nib, type: narr_dark, text: "I HELD THE GATE FOR NINE DAYS."}
+    sfx:
+      - {text: "SKRITCH", style: quiet, at: [0.78, 0.66], size: S, rot: 0}
+
+  - id: P08
+    recipe: silent
+    shape: wide
+    gap: short
+    bg: black
+    camera: "wide and still, eye level from behind Nib on the empty wall-walk, looking down the empty pass"
+    light: "flat grey dusk; ash falling like snow"
+    art: >
+      Greys. From behind: Nib (nib, no mask) stands alone on the wall-walk, small, knives hanging at his sides, looking
+      down the empty pass behind the wall where the army went. Nobody on the road. Ash falls like snow. Scale: he is a
+      small figure, a fifth of the frame's height, with long empty battlements on both sides.
+    acting:
+      nib: "seen from behind, standing straight but with his shoulders slightly fallen, knives hanging loose, head turned toward the empty road"
+    eyeline: "Nib → the empty pass"
+    calm: top
+    silent: true
+
+  - id: P09
+    kind: caption
+    shape: strip
+    gap: fade-black
+    bg: black
+    lines:
+      - {who: nib, type: narr_dark, text: "NOBODY CAME BACK FOR ME."}
+
+  # ================= NIB REFUSES (P10–P17) =================
+  - id: P10
+    recipe: monster-reveal
+    shape: tall
+    gap: long
+    bg: black
+    camera: "low, from behind Jaeha at the pillar: the hushed knight raising its sword over them"
+    light: "back light: green-dusk shafts behind the knight; its red face-hole the brightest point"
+    face: private
+    art: >
+      Back in colour, the present (location boss_room). From low behind Jaeha (kang_jaeha, vest; his back and shoulder in
+      the bottom-left foreground, cropped), the hushed knight (knight_commander) raises its long sword over the pillar.
+      The black-violet face-hole glows danger red. Nib (nib, mask; linked, thin amber outline) stands small at the
+      pillar's edge between them. Scale: the knight is 4.5 m; Nib reaches its knee.
+    acting:
+      kang_jaeha: "seen from behind, crouched at the pillar with the notebook in his left hand, his right hand out toward Nib"
+      nib: "standing frozen at the pillar's edge, knives low, looking up at the knight"
+    eyeline: "Jaeha → Nib; Nib → the knight"
+    foreground: "Jaeha's shoulder and the back of his head, cropped, bottom left"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: shout, text: "NIB, TAKE ITS LEGS! NOW!", side: l}
+
+  - id: P11
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Nib, the mask side toward us, refusing"
+    light: "red face-light from above"
+    art: >
+      Close on Nib (nib, mask; linked, thin amber outline): he lowers his knives. His uncovered eye is hard and wet.
+    acting:
+      nib: "lowering both knives to his sides, jaw clenched, the uncovered eye narrowed and glistening, head shaking once"
+    eyeline: "Nib → the knight (up)"
+    calm: left
+    lines:
+      - {who: nib, type: speech, text: "NO. NOT HIM. I WON'T.", side: r}
+    sfx:
+      - {text: "SHAKE", style: quiet, at: [0.72, 0.20], size: S, rot: 0}
+
+  - id: P12
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high, tilted: the sword smashing the pillar's edge as Jaeha hauls Nib back"
+    light: "no scene light: hot orange"
+    art: >
+      The knight's sword smashes into the pillar's edge in a burst of jagged, hand-inked stone. Jaeha (kang_jaeha, vest)
+      has grabbed Nib by the back of the cloak and hauled him behind the pillar a hand's width ahead of the blade.
+      Yerin (song_yerin) ducks behind them. Jaeha gets a white rim against the orange.
+    acting:
+      kang_jaeha: "throwing himself backward behind the pillar, right fist knotted in the back of Nib's cloak, the notebook clutched in his left"
+      nib: "yanked backward off his feet, unresisting, knives trailing"
+      song_yerin: "curled small behind the pillar, arms over her head"
+    calm: top
+    sfx:
+      - {text: "KRAKOOM", style: impact, at: [0.30, 0.22], size: XL, rot: -10}
+
+  - id: P13
+    recipe: insert
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of the window's light on Nib's face, the amber glow going out of his eye"
+    light: "the amber in his eye fading to dull"
+    art: >
+      Extreme close-up: Nib's uncovered eye beside the cracked mask edge as the amber glow drains out of it, leaving it
+      dull yellow. Fill the canvas edge to edge.
+    calm: none
+    silent: true
+
+  - id: P14
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "behind the pillar, Jaeha facing the reader with Nib slumped beside him, both lit cyan from the front"
+    light: "cyan front light from the window; the hall dark"
+    face: private
+    art: >
+      Behind the pillar: Jaeha (kang_jaeha, vest) faces the reader, lit cyan, staring at a window in front of him. Nib
+      (nib, mask; rest form: dull eyes, no glow, no outline) sits slumped against the pillar beside him. The upper half is
+      the dark hall fading naturally, left empty for the window.
+    acting:
+      kang_jaeha: "kneeling with his back half to the pillar, notebook in his left hand, eyes lifted to the window, brows drawn together"
+      nib: "sitting slumped against the pillar with his knees up and his arms resting on them, knives loose, head down"
+    eyeline: "Jaeha → the window; Nib → the floor"
+    calm: top
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.05], headline: "[FIELD FORM ENDED]", body: "NIB HAS RETURNED TO REST FORM. COOLDOWN 01:00. A REST-FORM SUMMON CANNOT FIGHT.", button: "OK"}
+    sfx:
+      - {text: "BZZT", style: alert, at: [0.86, 0.18], size: M, rot: 0}
+
+  - id: P15
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on Nib sitting against the pillar, dull-eyed, not looking up"
+    light: "green from above; flat pale gradient behind"
+    art: >
+      Close on Nib (nib, mask; rest form, dull eyes) sitting against the pillar, not looking up.
+    acting:
+      nib: "head down, forearms on his knees, knives hanging from his fingers; the uncovered eye dull and fixed on the floor; mouth a flat line moving on the line"
+    eyeline: "Nib → the floor"
+    calm: right
+    lines:
+      - {who: nib, type: speech, text: "LEAVE ME HERE. I'M USELESS TO YOU FOR A MINUTE.", side: l}
+
+  - id: P16
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "two-shot at sitting height behind the pillar: Jaeha crouching to Nib's level, Nib's shoulder in the foreground"
+    light: "green from above; red spill round the pillar"
+    face: private
+    art: >
+      Jaeha (kang_jaeha, vest) crouches to Nib's level behind the pillar and says it plainly. In the right foreground,
+      cropped: Nib's hood, his notched left ear and the edge of the mask.
+    acting:
+      kang_jaeha: "crouched on his heels to Nib's eye level, forearms on his knees, the notebook in his left hand; leaning in a little; a level, quiet face, mouth firm on the line"
+    eyeline: "Jaeha → Nib"
+    foreground: "Nib's hood, notched left ear and mask edge, cropped, in the right third"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "THEN I'LL CALL YOU BACK IN A MINUTE.", side: l}
+      - {who: kang_jaeha, type: speech, text: "EVERYONE COMES BACK. THAT'S THE RULE.", side: l}
+    notes: "PLANT P16: 'Everyone comes back' is Oh Minseok's rule (ch 21)."
+
+  - id: P17
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Nib looking up at last"
+    light: "flat pale gradient"
+    art: >
+      Close on Nib (nib, mask; rest form): he looks up at Jaeha at last, the uncovered eye wide and dull.
+    acting:
+      nib: "head lifting slowly, the uncovered eye wide, mouth slightly open"
+    eyeline: "Nib → Jaeha (up)"
+    calm: left
+    silent: true
+    sfx:
+      - {text: "BLINK", style: quiet, at: [0.30, 0.30], size: S, rot: 0}
+
+  - id: P18
+    kind: title
+    shape: full
+    gap: long
+    bg: black
+    title_card: "MY SUMMONS GO FIRST · CHAPTER 3 · THE NINTH WALL"
+    notes: "Title card at panel 18 of 63 (29%), after the flashback and Nib's refusal."
+
+  # ================= THE TRAP-TESTER'S PLAN (P19–P35) =================
+  - id: P19
+    recipe: anticipation
+    shape: wide
+    gap: long
+    bg: black
+    camera: "eye level round the pillar's edge: the knight turning slowly in the middle of the hall, its red face-hole sweeping the pillars"
+    light: "red face-light; green shafts"
+    art: >
+      Round the pillar's edge (cropped down the left side): the knight (knight_commander) turns slowly in the middle of
+      the hall, sword dragging, its red face-hole sweeping the pillars like a searchlight. Scale: the pillars are about
+      10 m tall; the knight reaches halfway up them.
+    foreground: "the pillar's edge, cropped, down the left side"
+    calm: top
+    sfx:
+      - {text: "GRRRNNK", style: quiet, at: [0.82, 0.30], size: M, rot: 0}
+
+  - id: P20
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close to the floor: a square pressure plate in the foreground and a row of spike holes in the base of a pillar beyond it"
+    light: "green-dusk light raking across the floor; hard shadows in the engraved border and the holes"
+    art: >
+      Close to the floor: a square floor stone with an engraved border, sunk a finger's width lower than its neighbours,
+      and beyond it the base of a pillar with a neat row of dark spike holes. Old scratches radiate from the holes.
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: inner, text: "SQUARE PLATES WITH ENGRAVED BORDERS. THE SAME AS THE CORRIDOR."}
+
+  - id: P21
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "over his shoulder, close on the notebook page as he sketches the floor"
+    light: "green light on the page; his hand's hard shadow"
+    face: private
+    art: >
+      Jaeha's fingerless-gloved hand sketches fast in the battered black notebook with the short yellow pencil: a floor
+      plan of squares, two pillars and an arch, with arrows from squares to the pillars. Leave a blank band on the page
+      for the letterer's note. No readable text.
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: note, text: "PLATES IN FRONT OF THE ARCH: SPIKES FROM BOTH PILLARS. BIG CENTRE PLATE: THE PORTCULLIS."}
+    sfx:
+      - {text: "SCRITCH SCRITCH", style: quiet, at: [0.80, 0.24], size: S, rot: 0}
+
+  - id: P22
+    recipe: plan
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high overhead view of one side of the hall, slightly desaturated, with clean cyan tactical lines"
+    light: "the hall slightly desaturated; cyan lines"
+    face: private
+    art: >
+      High overhead view of one side of the hall: a tall side archway in the wall, about 7 m high, with a rusted iron
+      portcullis hanging up in its groove; the two pillars flanking it with rows of spike holes; a cluster of square
+      pressure plates on the floor in front of it. Clean cyan tactical lines with no text: lines from the plates to the
+      spike holes, a heavy line from the big centre plate to the portcullis, a dotted path for the knight crossing the
+      plates, and a small circle just beyond the arch where a person would stand. Scale: the arch is about four people
+      tall.
+    calm: top
+    silent: true
+
+  - id: P23
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of Jaeha's eyes over the top of the notebook"
+    light: "red across the eyes"
+    face: private
+    art: >
+      Extreme close-up: Jaeha's eyes (kang_jaeha) over the top edge of the notebook, narrowed and calm, the fringe over
+      his LEFT eye. Eyes, brows and fringe fill the canvas edge to edge.
+    acting:
+      kang_jaeha: "eyes narrowed and level, lower lids tight, flicking from the floor to the knight"
+    eyeline: "Jaeha → the knight"
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: inner, text: "IT ALWAYS HITS WHATEVER IS IN FRONT OF IT. SO I'LL BE IN FRONT."}
+
+  - id: P24
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "two-shot behind the pillar at kneeling height: Yerin grabbing Jaeha's sleeve as he rises"
+    light: "green from above; red spill round the pillar"
+    face: private
+    art: >
+      Behind the pillar: Yerin (song_yerin) grabs Jaeha's sleeve as he starts to get up. Jaeha (kang_jaeha, vest) looks
+      back at her, notebook in hand. Nib (nib, mask; rest form, dull eyes) sits against the pillar between them, looking
+      up.
+    acting:
+      song_yerin: "on her knees, both hands knotted in Jaeha's hoodie sleeve, pulling back, eyebrows up, mouth wide on the line"
+      kang_jaeha: "halfway to his feet, one knee still down, the notebook open in his left hand, looking back over his shoulder at her"
+      nib: "sitting against the pillar with his knees up, head tilted back to watch them"
+    eyeline: "Yerin → Jaeha; Jaeha → Yerin; Nib → Jaeha"
+    foreground: "the edge of the pillar, cropped, down the right side"
+    calm: top
+    lines:
+      - {who: song_yerin, type: nervous, text: "WHAT ARE YOU DOING? YOU CAN'T FIGHT THAT THING!", side: l}
+
+  - id: P25
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on Jaeha, a small one-sided grin"
+    light: "green from above; half his face in shadow"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha, vest): the private face, a small one-sided grin, half his face in shadow, dried blood on
+      his lip.
+    acting:
+      kang_jaeha: "head turned back toward Yerin, a small one-sided grin, eyes narrowed and calm"
+    eyeline: "Jaeha → Yerin (off-panel left)"
+    foreground: "Yerin's small hand still gripping his sleeve, cropped, in the bottom-left corner"
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: speech, text: "I'M NOT GOING TO FIGHT IT. I'M A TRAP-TESTER, SO I'LL WALK IN FIRST.", side: r}
+
+  - id: P26
+    recipe: insert
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of the notebook snapping shut in his gloved hand"
+    light: "green light on the cover; a hard shadow"
+    art: >
+      Extreme close-up: Jaeha's fingerless-gloved hand snaps the battered black notebook shut, the elastic band flicking
+      across it. Fill the canvas edge to edge.
+    calm: none
+    silent: true
+    sfx:
+      - {text: "SNAP", style: impact, at: [0.70, 0.45], size: L, rot: 0}
+
+  - id: P27
+    recipe: establish
+    shape: full
+    gap: short
+    bg: black
+    camera: "high, from above and behind the knight: one small orange figure walking alone across the open floor toward a side arch"
+    light: "green-dusk shafts; the knight's red face-hole turning to follow"
+    face: public
+    art: >
+      High, from above and behind the knight's shoulder (cropped, in the top-left foreground): across the open floor,
+      Jaeha (kang_jaeha, vest) walks alone toward the tall side archway with its hanging portcullis, hands in his vest
+      pockets, the notebook back in his left chest pocket. The red light of the face-hole falls on him. Yerin and Nib
+      peek from behind a pillar far to the left. Scale: Jaeha (178 cm) is a quarter of the arch's height; the knight's
+      shoulder alone is wider than he is tall.
+    acting:
+      kang_jaeha: "walking at an easy, even pace with his hands in his vest pockets, shoulders loose, head turned slightly toward the knight"
+    eyeline: "Jaeha → the knight; the knight → Jaeha"
+    calm: top
+    sfx:
+      - {text: "TAK TAK", style: quiet, at: [0.62, 0.80], size: S, rot: 0}
+
+  - id: P28
+    recipe: silent
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Nib at the pillar's edge, watching him go"
+    light: "green light; his eye dull"
+    art: >
+      Close on Nib (nib, mask; rest form, dull eyes) at the pillar's edge, watching Jaeha walk out alone, his knuckles
+      tight on his knife handles.
+    acting:
+      nib: "half-hidden at the pillar's edge, knuckles tight on the knife handles, the uncovered eye fixed on Jaeha, brow knotted"
+    eyeline: "Nib → Jaeha (off-panel right)"
+    calm: right
+    silent: true
+
+  - id: P29
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the floor plates in front of the arch: Jaeha standing in the arch's shadow, facing the hall"
+    light: "red face-light from the knight off-panel falling on him; the passage behind him dark"
+    face: public
+    art: >
+      Low, from the floor in front of the arch: Jaeha (kang_jaeha, vest) stands just beyond the archway in its shadow,
+      a step past the line of the portcullis groove, facing the hall with a polite smile. The square pressure plates lie
+      between him and the camera. The rusted portcullis hangs above him in its groove. Scale: the arch is about 7 m high,
+      four times his height.
+    acting:
+      kang_jaeha: "standing square in the archway's shadow with his heels together, a polite little bow, right hand raised in a small wave toward the knight, a customer-service smile"
+    eyeline: "Jaeha → the knight (off-panel, toward the camera)"
+    foreground: "a square pressure plate with its engraved border, cropped, across the bottom"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "OVER HERE, SIR! I'M THE ONLY THING ALIVE IN FRONT OF YOU.", side: r}
+
+  - id: P30
+    recipe: monster-reveal
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from behind Jaeha in the arch: the knight charging across the plates straight at him"
+    light: "the red face-hole; green shafts behind"
+    art: >
+      From low behind Jaeha (his back in the bottom foreground, cropped, standing under the arch): the knight
+      (knight_commander) charges straight at him across the floor of square plates, sword raised, chains swinging, filling
+      the frame. Scale: the knight is 4.5 m; Jaeha reaches its mid-thigh.
+    acting:
+      kang_jaeha: "seen from behind, standing his ground, feet planted, hands at his sides"
+    eyeline: "Jaeha → the knight; the knight → Jaeha"
+    foreground: "Jaeha's back and shoulders, cropped, bottom centre"
+    calm: top
+    sfx:
+      - {text: "DOOM", style: impact, at: [0.22, 0.62], size: L, rot: 0}
+      - {text: "DOOM", style: impact, at: [0.74, 0.74], size: M, rot: 0}
+
+  - id: P31
+    recipe: insert
+    shape: strip
+    gap: short
+    bg: black
+    camera: "close on an armoured iron foot pressing down the big centre plate"
+    light: "green-dusk light; a hard shadow under the foot"
+    art: >
+      Close on the knight's huge armoured iron foot coming down on the big square centre plate; the plate sinks a
+      finger's width and dust puffs from its engraved border. Fill the canvas edge to edge.
+    calm: none
+    sfx:
+      - {text: "CLICK", style: quiet, at: [0.72, 0.42], size: M, rot: 0}
+
+  - id: P32
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, tilted 15 degrees: iron spikes bursting from both pillars across the knight's legs"
+    light: "no scene light: a white flash"
+    art: >
+      Iron spikes burst from the spike holes in both pillars flanking the arch and drive across the knight's legs, through
+      the gaps behind its knees and at its ankles, locking them. Stone dust explodes from the holes. Speed lines along the
+      spikes.
+    calm: top
+    sfx:
+      - {text: "SHHNNNK", style: impact, at: [0.36, 0.22], size: XL, rot: -12}
+
+  - id: P33
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, tilted: the iron portcullis slamming down onto the knight's back and shoulders"
+    light: "no scene light: an orange flash; a cloud of rust and dust"
+    art: >
+      The rusted iron portcullis slams down out of the arch onto the knight's back and shoulders as it lunges into the
+      archway, driving it to its knees; the bars bite into the stone floor around it. A cloud of rust and dust. Jaeha,
+      on the far side of the bars, is a small figure leaning back from the impact.
+    acting:
+      kang_jaeha: "small behind the bars, leaning back from the crash with one arm up against the dust"
+    calm: top-left
+    sfx:
+      - {text: "KA-DOOOM", style: impact, at: [0.30, 0.18], size: XL, rot: -10}
+
+  - id: P34
+    recipe: aftermath
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level from inside the passage, past Jaeha's shoulder: the knight pinned on its knees under the portcullis"
+    light: "red face-light through the bars on Jaeha; dust settling in green shafts beyond"
+    face: private
+    art: >
+      From inside the passage, past Jaeha's shoulder: the knight (knight_commander) is pinned on its knees under the iron
+      portcullis, spikes locking its legs, its red face-hole a metre from the bars. Jaeha (kang_jaeha, vest) stands a step
+      back from the bars, hands back in his vest pockets, dust settling.
+    acting:
+      kang_jaeha: "standing a step back from the bars, weight on one leg, hands in his vest pockets, head tilted, a small private grin"
+    eyeline: "Jaeha → the knight's face-hole"
+    foreground: "Jaeha's shoulder and the side of his head, cropped, in the right third"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "THREE HUNDRED AND TWELVE RAIDS, SIR. I KNOW A TRAP WHEN I SEE ONE.", side: r}
+
+  - id: P35
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Yerin and Nib peeking round the pillar, stunned"
+    light: "green light"
+    art: >
+      Yerin (song_yerin) and Nib (nib, mask; rest form) peek round the edge of the pillar, one above the other: Yerin's
+      mouth hangs open; Nib's one eye is wide.
+    acting:
+      song_yerin: "leaning round the pillar's edge above Nib, both hands on the stone, jaw dropped, eyes wide with tiny pupils"
+      nib: "peeking round the pillar's edge below her, the uncovered eye wide, mouth a small flat line"
+    eyeline: "both → the pinned knight (off-panel right)"
+    calm: right
+    lines:
+      - {who: song_yerin, type: speech, text: "HE TRAPPED A BOSS. HE ACTUALLY TRAPPED A BOSS.", side: l}
+
+  # ================= SURVIVE THE COOLDOWN (P36–P47) =================
+  - id: P36
+    recipe: anticipation
+    shape: strip
+    gap: short
+    bg: black
+    camera: "close on two huge gauntlets gripping the portcullis bars and bending them"
+    light: "red light; sparks of rust"
+    art: >
+      Close on the knight's two huge gauntlets gripping the iron bars of the portcullis and bending them; rust flakes
+      burst off the bars. Fill the canvas edge to edge. The top band of the image is plain dark stone, calm for a window.
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.30], text: "[COOLDOWN 00:41]"}
+    sfx:
+      - {text: "GRRRRK", style: impact, at: [0.70, 0.62], size: L, rot: 0}
+
+  - id: P37
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from inside the passage, tilted: the knight's helm slamming the bars a metre from Jaeha"
+    light: "the red face-hole lighting Jaeha's face"
+    face: public
+    art: >
+      The knight rams its helm against the bars; the red face-hole flares a metre from Jaeha (kang_jaeha, vest), who
+      flinches back with his arms up, red light on his face.
+    acting:
+      kang_jaeha: "flinching back half a step with both forearms raised in front of his face, eyes squeezed, a sweat drop"
+    calm: top
+    sfx:
+      - {text: "KLANNNG", style: impact, at: [0.40, 0.25], size: XL, rot: -8}
+
+  - id: P38
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from beside the bars: Jaeha shouting past the pinned knight toward the far pillar"
+    light: "red face-light on one side of his face; green beyond"
+    face: private
+    art: >
+      Jaeha (kang_jaeha, vest) leans to one side of the bars and shouts past the pinned knight toward the pillar where
+      Yerin hides across the hall, his hand cupped at his mouth.
+    acting:
+      kang_jaeha: "leaning sideways at the edge of the arch, left hand gripping a bar, right hand cupped at his mouth, mouth wide on the shout"
+    eyeline: "Jaeha → Yerin (far across the hall, off-panel left)"
+    foreground: "two rusted portcullis bars, cropped, down the left side"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: shout, text: "YERIN! LIGHT UP YOUR HANDS AS BRIGHT AS YOU CAN, THEN HIDE!", side: l}
+
+  - id: P39
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level across the hall: Yerin stepping out from the pillar with both palms blazing mint-white"
+    light: "a mint-white flare from her palms lighting the whole side of the hall"
+    art: >
+      Yerin (song_yerin) steps out from behind the pillar with both palms thrust forward, blazing soft mint-white light
+      that floods that side of the hall and throws long shadows. Nib (nib, mask; rest form) crouches behind her at the
+      pillar's base.
+    acting:
+      song_yerin: "stepping out from the pillar with her feet planted wide, both arms thrust forward, palms blazing, eyes squeezed half shut against her own light, mouth set"
+      nib: "crouched at the pillar's base behind her, one hand raised against the glare"
+    eyeline: "Yerin → the knight"
+    calm: top
+    sfx:
+      - {text: "FWASHHH", style: impact, at: [0.60, 0.30], size: L, rot: -6}
+
+  - id: P40
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, tilted 15 degrees: the pinned knight twisting round under the bars and swinging its sword back at the light"
+    light: "mint glow from the right; red face-hole"
+    art: >
+      The pinned knight twists round under the portcullis toward the mint light, the bars screeching across its back,
+      and swings its long sword back blindly at Yerin's pillar. Speed lines along the blade.
+    calm: top-left
+    sfx:
+      - {text: "VWOOOM", style: impact, at: [0.30, 0.24], size: XL, rot: -14}
+
+  - id: P41
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: the blade biting into the pillar a hand's width above Yerin as she ducks"
+    light: "no scene light: a white flash at the contact"
+    art: >
+      The sword bites deep into the pillar a hand's width above Yerin (song_yerin), who has ducked flat behind it with Nib
+      (nib, mask; rest form). Stone bursts in jagged, hand-inked chunks.
+    acting:
+      song_yerin: "ducked flat behind the pillar, hands over her head, eyes shut tight"
+      nib: "pulling her down by the sleeve, his face deadpan"
+    calm: top
+    sfx:
+      - {text: "KRAKK", style: impact, at: [0.50, 0.26], size: XL, rot: 6}
+
+  - id: P42
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from inside the passage: Jaeha banging the bars with his fist"
+    light: "red face-light swinging back toward him"
+    face: public
+    art: >
+      Jaeha (kang_jaeha, vest) bangs his fist on the portcullis bars to drag the knight's attention back; its helm swings
+      round toward him.
+    acting:
+      kang_jaeha: "hammering a bar with the side of his right fist, left hand cupped at his mouth, leaning forward, a strained polite smile with a sweat drop"
+    eyeline: "Jaeha → the knight"
+    foreground: "a rusted bar and the knight's gauntlet gripping it, cropped, down the right side"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: shout, text: "HEY! SIR! I'M STILL RIGHT HERE!", side: l}
+    sfx:
+      - {text: "BANG BANG", style: quiet, at: [0.66, 0.70], size: S, rot: 0}
+
+  - id: P43
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Yerin peeking from behind the pillar, shouting across the hall"
+    light: "fading mint glow on her hands; green light"
+    art: >
+      Yerin (song_yerin) peeks round the pillar and shouts across the hall at Jaeha, her hands still faintly glowing.
+    acting:
+      song_yerin: "peeking round the pillar's edge, both glowing hands on the stone, eyes wide and wet, mouth wide on the shout"
+    eyeline: "Yerin → Jaeha (across the hall, off-panel right)"
+    foreground: "the pillar's rough stone edge, cropped, down the left side"
+    calm: right
+    lines:
+      - {who: song_yerin, type: shout, text: "IS THIS WHAT YOU DO EVERY SINGLE DAY?", side: l}
+
+  - id: P44
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha behind the bars, sweating, grinning"
+    light: "red light from the face-hole"
+    face: public
+    art: >
+      Close on Jaeha (kang_jaeha, vest) behind the bars, sweating, with a crooked grin and a thumbs-up toward her.
+    acting:
+      kang_jaeha: "leaning back from a swipe, giving a shaky thumbs-up toward Yerin, a crooked sweaty grin"
+    eyeline: "Jaeha → Yerin (off-panel left)"
+    foreground: "one rusted bar, cropped, down the left edge"
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: speech, text: "USUALLY THERE'S LESS SCREAMING.", side: r}
+
+  - id: P45
+    recipe: silent
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from behind Nib at the pillar: across the hall, a small orange figure standing in front of the giant knight"
+    light: "green shafts; the red face-hole; a dull eye"
+    art: >
+      From low behind Nib (nib, mask; rest form; his hood, ear and shoulder in the bottom-left foreground, cropped): far
+      across the hall, the small orange figure of Jaeha stands behind the bars in front of the giant pinned knight, doing
+      what a scout does: standing in front so the others don't have to.
+    acting:
+      nib: "seen from behind, standing slowly up from his crouch, one hand tightening on a knife handle"
+    eyeline: "Nib → Jaeha"
+    foreground: "Nib's hood, notched left ear and shoulder, cropped, bottom left"
+    calm: top
+    silent: true
+
+  - id: P46
+    recipe: anticipation
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close on the knight's legs: the spikes snapping one after another"
+    light: "red light; green shafts; flying iron splinters"
+    art: >
+      Close on the knight's legs: the iron spikes snap one after another as it heaves, and the portcullis bars bow upward
+      over its back. The top band is dark stone, calm for a window.
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.05], text: "[COOLDOWN 00:03]"}
+    sfx:
+      - {text: "PANG PANG PANG", style: impact, at: [0.60, 0.66], size: M, rot: -6}
+
+  - id: P47
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, tilted 20 degrees: the knight rising and tearing the portcullis off its groove"
+    light: "no scene light: an orange flash; flying bars"
+    art: >
+      The knight surges upright and tears the whole portcullis out of its groove; twisted bars fly through the air. Jaeha
+      (kang_jaeha, vest) is knocked flat on his back in the passage. Scale: the knight is 4.5 m; the arch above it is 7 m.
+    acting:
+      kang_jaeha: "thrown flat on his back on the passage floor, arms flung out, notebook still in his chest pocket"
+    calm: top-left
+    sfx:
+      - {text: "KRRRANNG", style: impact, at: [0.32, 0.18], size: XL, rot: -12}
+
+  # ================= THE SECOND CALL (P48–P58) =================
+  - id: P48
+    recipe: system
+    shape: tall
+    gap: short
+    bg: navy
+    camera: "high, looking down at Jaeha on his back, lit cyan from a window above him"
+    light: "cyan from the window; red from the knight beyond"
+    face: private
+    art: >
+      High, looking down at Jaeha (kang_jaeha, vest) on his back on the passage floor, lit cyan, his right hand thrust up
+      toward a window above him. The upper half is dark, empty for the window.
+    acting:
+      kang_jaeha: "flat on his back, right arm thrust straight up with the fingers spread, eyes locked on the window, teeth gritted"
+    eyeline: "Jaeha → the window (up)"
+    calm: top
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.04], headline: "[COOLDOWN 00:00]", body: "YOUR SUMMON CAN TAKE FIELD FORM AGAIN.", button: "CALL: NIB"}
+
+  - id: P49
+    recipe: summon-arrival
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low angle at the pillar: Nib rising into field form inside a cyan floor circle"
+    light: "key: cyan from the floor circle; his eyes relighting amber"
+    art: >
+      At the pillar across the hall, a cyan circle flashes on the floor under Nib (nib, mask), and he rises out of his
+      crouch into field form: the amber light floods back into his eyes and a thin amber outline flickers on along his
+      body. Yerin (song_yerin) stares beside him, lit cyan.
+    acting:
+      nib: "rising from a crouch to his full height in one motion, knives sliding into reverse grip, chin lifting, the uncovered eye blazing amber"
+      song_yerin: "kneeling beside him, leaning away from the light, eyes wide"
+    eyeline: "Nib → Jaeha (across the hall); Yerin → Nib"
+    calm: top
+    lines:
+      - {who: offpanel:kang_jaeha, type: intense, text: "NIB! COME BACK!"}
+    sfx:
+      - {text: "VWUMM", style: summon, at: [0.70, 0.24], size: L, rot: 0}
+
+  - id: P50
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, the length of the hall: Nib in the foreground looking toward Jaeha, tiny, getting up in the far arch"
+    light: "his amber outline; red from the knight between them"
+    art: >
+      Nib (nib, mask; linked, thin amber outline) in the foreground, three-quarter from behind, looks the length of the hall
+      toward the far arch, where Jaeha is a small figure pushing himself up on one elbow. The knight's back is a dark shape
+      between them.
+    acting:
+      nib: "standing straight, knives in reverse grip, head turned toward Jaeha, mouth moving on the line"
+      kang_jaeha: "small in the distance, propped on one elbow"
+    eyeline: "Nib → Jaeha"
+    foreground: "Nib's shoulder, scarf and notched left ear, cropped, in the left third"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "YOU CALLED ME BACK.", side: l}
+
+  - id: P51
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha on one elbow, grinning"
+    light: "red light; cyan fading"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha, vest) propped on one elbow in the passage, dust in his hair, grinning.
+    acting:
+      kang_jaeha: "propped on his left elbow, right hand raised in a loose wave, a wide tired grin with his eyes creased"
+    eyeline: "Jaeha → Nib (off-panel left, far)"
+    foreground: "a twisted portcullis bar lying across the bottom-left corner, cropped"
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: speech, text: "I TOLD YOU. EVERYONE COMES BACK.", side: r}
+
+  - id: P52
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "medium on Nib facing the reader, light rising off him"
+    light: "cyan from below; amber and wall-blue light rising from him"
+    art: >
+      Nib (nib, mask; linked) faces the reader, light rising off him in amber and deep wall-blue threads, his cloak
+      stirring. The upper half is dark and empty for the window.
+    acting:
+      nib: "standing very still with his arms slightly away from his sides, knives pointing down, the uncovered eye wide, looking at his own hands"
+    eyeline: "Nib → his own hands"
+    calm: top
+    ui:
+      - {kind: system.window, "on": float, at: [0.5, 0.04], headline: "[NIB ANSWERED A SECOND CALL BY CHOICE]", body: "SEAL 1/5 → 2/5 · POWER 20% → 40%", button: "SEAL BREAK"}
+    sfx:
+      - {text: "KRRRNK", style: summon, at: [0.86, 0.22], size: M, rot: 0}
+
+  - id: P53
+    recipe: splash
+    shape: bleed
+    gap: none
+    bg: black
+    camera: "low, dramatic, slightly tilted: Nib at full height as the seal breaks, cloak flaring"
+    light: "key: a burst of amber and wall-blue light from behind him; the hall dark around"
+    art: >
+      The seal breaks. Nib (nib, mask; seal 2/5 look) stands in a burst of amber and wall-blue light, his cloak flaring
+      wide: the Ninth Wall's colours return to it, a deep wall-blue lining (#2F4A6E) and bronze trim (#A87A3A), and the
+      clasp at his throat now carries the bronze nine-tower sigil. The red scarf whips. Both knives crossed low in front of
+      him. Jagged, hand-inked chips of light break off around him like a shell cracking. He is an adult veteran, grim, never
+      cute. Full lanky proportions (about 6 heads, arms to his knees).
+    acting:
+      nib: "planted with his bare feet wide, knees bent, both knives crossed low in front of his hips in reverse grip, shoulders squared, chin down, the uncovered eye blazing amber"
+    eyeline: "Nib → the knight (off-panel)"
+    calm: top
+    sfx:
+      - {text: "VWOOOOSH", style: summon, at: [0.30, 0.14], size: XL, rot: -8}
+
+  - id: P54
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, tilted 15 degrees: the knight's sword coming down at the passage, and Nib intercepting it on crossed knives"
+    light: "no scene light: a white flash with amber edges"
+    art: >
+      The knight brings its sword down at the arch where Jaeha lies, and Nib (nib, mask; seal 2/5 look; linked) is already
+      there: he catches the huge blade on his crossed knives, and this time his feet don't slide an inch. Sparks burst at
+      the contact; a shockwave ring on the floor.
+    acting:
+      nib: "braced under the blade with his knees bent and his feet planted, both knives crossed above his head, arms rock steady"
+    calm: top
+    sfx:
+      - {text: "KRANNNG", style: impact, at: [0.36, 0.20], size: XL, rot: -10}
+
+  - id: P55
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from behind Jaeha on the floor: Nib holding the giant blade above them both"
+    light: "amber outline; red face-hole above"
+    art: >
+      From low behind Jaeha (his shoulder and head in the bottom-right foreground, cropped): Nib (nib, mask; seal 2/5 look;
+      linked) holds the knight's blade above them both on his crossed knives, looking back over his shoulder.
+    acting:
+      nib: "holding the blade off with both knives crossed overhead, head turned back over his shoulder toward Jaeha, the uncovered eye level and calm, mouth moving on the lines"
+      kang_jaeha: "seen from behind, propped on one elbow on the floor, looking up at Nib"
+    eyeline: "Nib → Jaeha; Jaeha → Nib"
+    foreground: "Jaeha's shoulder and the back of his head, cropped, bottom right"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "I STILL WON'T KILL HIM.", side: l}
+      - {who: nib, type: speech, text: "BUT I'LL HOLD HIM FOR YOU.", side: l}
+
+  - id: P56
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha looking up, relief turning to resolve"
+    light: "amber light from above"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha, vest) looking up at Nib, relief turning into resolve.
+    acting:
+      kang_jaeha: "head tilted back, a breath of relief leaving him, then brows lowering into resolve, a small nod"
+    eyeline: "Jaeha → Nib (up)"
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: speech, text: "THAT'S ALL I NEED. HOLD HIM, AND I'LL FIND THE WAY.", side: r}
+    sfx:
+      - {text: "NOD", style: quiet, at: [0.30, 0.72], size: S, rot: 0}
+
+  # ================= THE KNIGHT SPEAKS (P57–P63) =================
+  - id: P57
+    recipe: tone-flip
+    shape: strip
+    gap: long
+    bg: black
+    camera: "extreme close-up of the hole in the knight's helm"
+    light: "the red light inside flickering; violet ash"
+    art: >
+      Extreme close-up: the black-violet hole in the knight's helm. The danger-red light deep inside flickers, dims, and
+      for an instant turns a pale, cold white, as if something is surfacing. Fill the canvas edge to edge.
+    calm: none
+    silent: true
+
+  - id: P58
+    recipe: silent
+    shape: wide
+    gap: short
+    bg: black
+    camera: "side-on, eye level with the blade: the knight leaning down until its helm is level with Nib's face"
+    light: "red and white flicker from the hole on Nib's face; amber outline"
+    art: >
+      Side-on: the knight stops pushing and leans down over the locked blades until its helm is level with Nib's face, the
+      hole an arm's length from him. Nib (nib, mask; seal 2/5 look; linked) holds very still under the blade.
+    acting:
+      nib: "frozen under the blade, knives still crossed overhead, the uncovered eye wide and fixed on the hole"
+    eyeline: "Nib ↔ the knight"
+    calm: top
+    silent: true
+
+  - id: P59
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "over Nib's shoulder, close on the knight's helm and the hole speaking"
+    light: "pale white light flickering in the hole; red around it"
+    art: >
+      Over Nib's shoulder (his hood, notched left ear and scarf in the left foreground, cropped): the knight's helm, the
+      hole flickering with a pale light. A voice comes out of it, deep and clear.
+    foreground: "Nib's hood, notched left ear and scarf, cropped, in the left third"
+    calm: top
+    lines:
+      - {who: knight_commander, type: menace, text: "NIB...", side: r}
+
+  - id: P60
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of Nib's uncovered eye beside the cracked mask"
+    light: "pale white flicker in the eye"
+    art: >
+      Extreme close-up: Nib's uncovered amber eye beside the cracked mask edge, the pupil shrinking to a dot, the
+      knight's pale light reflected in it. Fill the canvas edge to edge.
+    acting:
+      nib: "the eye wide open, pupil shrunk to a dot"
+    eyeline: "Nib → the knight"
+    calm: none
+    silent: true
+
+  - id: P61
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Jaeha on the floor below, staring up at the two of them"
+    light: "red and white flicker"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha, vest) on the floor below them, staring up, his mouth open.
+    acting:
+      kang_jaeha: "propped on his elbow, frozen, staring up, mouth open, a sweat drop"
+    eyeline: "Jaeha → the knight (up)"
+    calm: right
+    lines:
+      - {who: kang_jaeha, type: whisper, text: "IT CAN TALK?", side: l}
+
+  - id: P62
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low two-shot in profile: the knight's helm and Nib's masked face an arm's length apart over the locked blades"
+    light: "pale white from the hole on both of them; red around the edges"
+    art: >
+      Low, in profile: the knight's helm and Nib's masked face, an arm's length apart over the locked blades. The pale
+      light in the hole steadies. Small in the background, Jaeha on the floor.
+    acting:
+      nib: "under the blade, face tilted up to the helm, the uncovered eye wide"
+    eyeline: "Nib ↔ the knight"
+    calm: top
+    lines:
+      - {who: knight_commander, type: menace, text: "END IT, NIB... END IT...", side: r}
+
+  - id: P63
+    recipe: tone-flip
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from behind Nib: the knight's helm filling the top of the frame, the pale light in the hole"
+    light: "pale white from the hole; violet ash curling out of it"
+    art: >
+      From low behind Nib (his shoulders and the back of his head in the bottom foreground, cropped): the knight's helm
+      fills the top of the frame, the pale light in the hole, violet ash curling out of it like breath.
+    foreground: "Nib's shoulders and the back of his head, cropped, at the bottom"
+    calm: top
+    lines:
+      - {who: knight_commander, type: menace, text: "...BEFORE THE HUSH TAKES YOU TOO."}
+    notes: "PLANT P63: the Hush takes the fallen; bosses are hushed heroes (Arc 6)."
+
+  - id: END
+    kind: end
+    chibi_gag: "Chibi Nib, proudly showing off his new wall-blue cloak lining with sparkles, holds it open like a cape; chibi Jaeha claps politely; chibi Yerin, behind them, is still peeking round a pillar with her hands glowing, just in case."

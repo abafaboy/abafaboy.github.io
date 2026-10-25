@@ -167,9 +167,10 @@ The architecture of each place is described in `CHARACTER_DESIGNS_v2.md` section
 
 ## 6. Faces, bodies and acting (refines ART_BIBLE A5)
 
-- **Proportions.**
-  - Adults are about 7.5 heads tall, realistic, with no fashion-model leg stretching.
-  - Heights are in `CHARACTER_DESIGNS_v2.md`, and each panel keeps them.
+- **Proportions** (made strict on 25 October, after the owner and a reader found chapter 1's bodies "small and compressed" and its scale off; the full rules are in `PANEL_BRIEF_v2.md` section 4b).
+  - Head counts, measured on the model sheets: Jaeha, Mok, Choi, Lyra and Moon Ahin 7.5–8 heads; Yerin, Seoa and Bomi about 7; Nib about 6, a small head on a lanky body.
+  - Adults' legs are about half their height. Bodies are never squashed to fit a frame: crop at the frame edge instead.
+  - Heights are in `CHARACTER_DESIGNS_v2.md`. Each panel keeps them against each other and against the doors, vehicles and buildings around them, in one consistent perspective.
 - **Face construction** (method B, kept):
   - a defined brow ridge;
   - one shadow shape along the nose bridge;
@@ -343,7 +344,7 @@ Pass the model sheet of every character in the panel as a reference image, once 
 | `splash` | The effect is the key light; everything takes its colour; the peak of the chapter's contrast |
 
 ### 10.3 NEGATIVE BLOCK (paste exactly, every prompt)
-> No text, letters, numbers, speech bubbles, captions, sound-effect lettering, interface windows or readable signs. Emblems without letters are fine; no brand logos or wordmarks. Not a 3D render, not a photograph, no photographic background. No airbrushed skin, no plastic gloss on skin or hair, no haze or bloom over the whole image, no depth-of-field blur, no lens flare unless a real camera flash is in the scene. No watermark or signature. Correct hands with five fingers. No chibi proportions unless the brief says chibi.
+> No text, letters, numbers, speech bubbles, captions, sound-effect lettering, interface windows or readable signs. Emblems without letters are fine; no brand logos or wordmarks. Not a 3D render, not a photograph, no photographic background. No airbrushed skin, no plastic gloss on skin or hair, no haze or bloom over the whole image, no depth-of-field blur, no lens flare unless a real camera flash is in the scene. No watermark or signature. Correct hands with five fingers. No chibi proportions unless the brief says chibi. No compressed or stubby bodies, no shortened legs or torsos, no oversized heads; no people out of scale with the doors, vehicles and buildings around them; no figures floating off the floor or breaking the scene's perspective.
 
 ### 10.4 CLEAN-UP LINE (paste right after the STYLE BLOCK, every prompt, from 25 October)
 > Hand-made webtoon colouring: each garment has only a few large, opaque, clean-edged shadow shapes, placed in its real folds; no scattered translucent streaks, zigzag shards or crumpled-foil folds. Worn cloth shows a few small frayed notches and loose threads, never sawtooth edges along every edge. Plain shoes and clothes with no logos, stripes or brand marks. Every strap, buckle, pocket and seam is attached and has a purpose; no stray stitch marks. Matte skin, hair and stone; no 3D, low-poly or plastic look.
