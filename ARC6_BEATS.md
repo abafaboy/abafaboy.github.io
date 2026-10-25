@@ -1,4 +1,4 @@
-# Arc 6 (chapters 41–55): The Hushed, chapter beats
+# Arc 6 (chapters 41–55): The Hushed, chapter beats (outline only; not scripted yet)
 
 **What this is.** `STORY_BIBLE_v4.md` gives Arc 6 in four lines: an A-grade boss turns out to be a hushed field surgeon, and Jaeha's first CONTRACT frees her (Maud joins, 48); the reveal (50) that every boss was a person, including the ones he harvested, that his level hid the RELEASE option, and that Kanghan knew, so he stops harvesting boss cores and earns from clear contracts instead; Pim hears the fall of a fortress with a great bell; and it ends (55) with his first win against a boss alone (RELEASE II), Kett a prisoner in Kanghan's Annex, and Nib's seal at 4/5. This file turns that into chapter beats for the scripts. Choices the bible leaves open are marked **(decision)**. The owner said "keep working. make all the decisions."
 
@@ -38,7 +38,7 @@
 ---
 
 ## 41. Home (hook: personal)
-- **Cold open:** Sunday, dawn, the Busan breakwater. Geum hands Jaeha a grease-spotted homework sheet ("HOLD. 100 TIMES A DAY") and refuses to come to Seoul: "My post is the breakwater." A window: [BODY RATING: F → F+]. "Slightly less garbage."
+- **Cold open:** Sunday, dawn, the Busan breakwater. Geum hands Jaeha a grease-spotted homework sheet ("HOLD. 100 TIMES A DAY") and a parcel from a harbour tailor: the black field coat with the orange lining (2.1, outfit key `coat`; the coat of the chapter 1 flash-forward), "because you'll never stop being a trap-tester, and you shouldn't." She refuses to come to Seoul: "My post is the breakwater." A window: [BODY RATING: F → F+]. "Slightly less garbage."
 - **The road home** in Choi's van: Pim with his face pressed to the window at every service station; Lyra counting her new followers.
 - **Title card.**
 - **Fame:** BomBom TV's clip "TRAP RATS SAVE BUSAN" at forty million views; strangers bow to Borro at the market. Kanghan's spin on the news: Hwang thanks Kanghan Marine for its "emergency containment"; Branch Chief Yang is suspended for "an unauthorised evacuation".

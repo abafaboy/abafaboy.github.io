@@ -110,7 +110,7 @@ Make `characters_v2/scale_chart_v2.png` with all of them standing in a row, afte
 **Other looks:**
 - **Hoodie only** (outfit key `hoodie`, ch 8, 14, 22-23, 32-33): the grey hoodie and the work trousers, no vest. The notebook goes in the hoodie's front pocket.
 - **The crew kit** (outfit key `crew`, ch 23-31): grey work coveralls; an orange tabard with a big black stencilled number front and back (his is 4); a full-face respirator with a smoky tinted visor and twin round filters, so only a dark shape of a face shows behind it (often pushed down round his neck from ch 25); a yellow hard hat with a lamp; the fingerless gloves; his own boots. The notebook rides inside the tabard.
-- **The black field coat** (from Arc 5, and already in the chapter 1 flash-forward): knee-length, #18191D / #0F1013, with an orange lining #F26A1B that shows when it moves. A dark grey shirt under it, the same work trousers and boots, no vest.
+- **The black field coat** (outfit key `coat`, from ch 41, Auntie Geum's parting gift at the end of Arc 5, and already in the chapter 1 flash-forward): knee-length, #18191D / #0F1013, with an orange lining #F26A1B that shows when it moves. A dark grey shirt under it, the same work trousers and boots, no vest. The notebook rides in the coat's inside LEFT chest pocket; the pencil stays behind his RIGHT ear.
 - **From chapter 97:** the Ninth Wall blade in his hands (section 6).
 
 **Never:**
@@ -413,7 +413,7 @@ Recurring people get one lineup sheet (`characters_v2/neighbourhood/lineup.png`,
 | `beachgoers` | People on the Busan beach | 37 | Walkers and tourists in light autumn clothes (cardigans, caps, rolled trousers), phones up; a middle-aged tourist couple in matching windbreakers who want a selfie with "the mascot"; a man with a metal detector. |
 
 **Looks (outfits) for Arc 5:**
-- **Jaeha, `training`** (ch 34-38): Geum's spare tracksuit, faded purple like hers and too short at the wrists and ankles, a towel round his neck, his own trainers; his hands still shake a little. His vest and hoodie come back for the break (ch 39-40).
+- **Jaeha, `training`** (ch 34-40): Geum's spare tracksuit, faded purple like hers and too short at the wrists and ankles, a towel round his neck, his own trainers; his hands still shake a little. The break catches him at dinner in it, so he fights ch 39-40 in the tracksuit too. From ch 41 he wears the black field coat (`coat`, 2.1).
 - **Lyra, `swimsuit`** (ch 37-38; fan service, adult): a river-blue halter bikini with silver trim, a sheer pale-blue wrap tied at her LEFT hip, her pearl choker and silver arm cuffs; the braid over her LEFT shoulder. No bracer or glove at the beach. Never a camera below her waist level.
 - **Han Sora, `pool`** (ch 37; fan service, adult): a black one-piece swimsuit with a deep plunging neckline and high-cut legs, crimson piping; big sunglasses pushed up into her bob; the bandage still on her RIGHT wrist; a new compass on her LEFT wrist (section 6). Never a camera below her waist level.
 - **Geum, `flashback`** (ch 35, drawn in greys): ten years younger, 52, the same short broad build; short permed hair still black; the gold tooth; BOTH arms her own; a fishmonger's rubber apron and rubber boots over a work shirt with the sleeves rolled up. For a shield: a steel watertight door torn off a fishing boat, gripped by its handles on her LEFT arm. After the night of the Opening (P22): her LEFT sleeve pinned up short above the elbow over a bandage.
