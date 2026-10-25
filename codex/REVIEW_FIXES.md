@@ -194,3 +194,23 @@ The owner went to sleep and left every decision to Claude. Claude re-checked eve
 
 ## A1 · the acting test, round 2
 - See `ACTING_TEST_BRIEF.md`, "Round 2".
+
+---
+
+# Round 2 results: Claude's review (25 October)
+
+| Entry | Result |
+|---|---|
+| S1 Jaeha | **Passes.** `chibi.png` vest edges are smooth; every lock on its side. The other sheets passed earlier. |
+| S2 Nib | **Passes.** The V-notch is on his left ear in the profile and on the masked head; the chibi ears and fangs are correct, and its hems match the approved front. |
+| S4 Black Hound | **Passes.** Hunter 5 restyled (sleek bob, red lips, cropped jacket open over a low-necked tank top); everyone else pixel-identical. |
+| S8 Seoa | **Passes** (Claude moved the chibi keychain to her right). |
+| S14 Lyra | **Passes.** The profile now carries the quiver at her right hip. |
+| S15 Moon Ahin | **Passes.** Claude separated the back-of-head bow study from the torso study in `details.png`. |
+| P1 Jaeha acting | **Passes.** |
+| P2 Nib acting | `acting.png` passes. `talking.png`: three open mouths show the fang wrong (an upper fang, or on his right); being patched. |
+| P3 Yerin acting | **Passes.** |
+| P4 Mok acting | `talking.png` passes. `acting.png`: the selfie phone has a triple-lens module (a branded shape); being patched. |
+| P5 Lyra acting | `talking.png` passes. `acting.png` pose 2 draws left-handed (bracer and glove on the wrong arms); being redrawn aiming right. |
+| P6 Bomi acting | **Passes** (Claude erased two bows that stood on their tips with nothing holding them). |
+| A1 acting test | A1, A2=B2, B1, B3, B5 and A3 **pass**; the dialogue run changes faces line by line. B4/P31: Mok's face reads angry instead of dead-flat, and a second notebook sits in Jaeha's pocket; being edited. The script now has Mok haul the shield up with his right arm in P31, matching the drawing. |
