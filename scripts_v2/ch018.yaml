@@ -6,7 +6,7 @@ story_beats: ARC3_4_BEATS.md#18-lyra
 cast:
   kang_jaeha: vest
   nib: mask                 # field form until P45 (time runs out), rest form after
-  borro: default            # husk face; field form; buried to the waist from P05
+  borro: default            # husk face; field form (called again at P01, five minutes that last into ch 20); buried to the waist from P05
   lyra: default             # summon no. 3; arrives P38
   song_yerin: default
   mok_hangyu: default
@@ -46,6 +46,7 @@ panels:
     calm: top
     ui:
       - {kind: system.warning, "on": float, at: [0.5, 0.06], text: "[BOSS ENRAGED · 00:22]"}
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.16], text: "[COOLDOWN 00:00 · BORRO · FIELD FORM 05:00]"}
     sfx:
       - {text: "DONG DONG DONG DONG", style: impact, at: [0.30, 0.86], size: XL, rot: -6}
 
@@ -526,10 +527,10 @@ panels:
     shape: tall
     gap: short
     bg: black
-    camera: "low, from the water: the woman leaping off the boulder straight at the rift, bow in hand, the cyan line blazing white"
+    camera: "side-on, level with her leap: the woman leaping off the boulder straight at the rift, bow in hand, the cyan line blazing white"
     light: "the cyan line blazing white; silver"
     art: >
-      From low on the black water: the woman (lyra) leaps off the boulder straight at the rift, the white bow in one hand, the
+      Side-on, level with her leap: the woman (lyra) leaps off the boulder straight at the rift, the white bow in one hand, the
       braid streaming behind her; the cyan line between her and Jaeha blazes white.
     acting:
       lyra: "leaping forward, bow in her left hand, right hand reaching for an arrow, a fierce delighted grin"
@@ -706,11 +707,11 @@ panels:
     shape: wide
     gap: short
     bg: black
-    camera: "low, from under the shield: Jaeha shouting up at her, Mok gaping beside him"
+    camera: "eye level under the shield's edge: Jaeha shouting up at her (she is above the frame), Mok gaping beside him"
     light: "silver; violet"
     face: private
     art: >
-      From low under Borro's shield: Jaeha (kang_jaeha) shouts up at Lyra; Mok gapes at her beside him.
+      At eye level under Borro's shield: Jaeha (kang_jaeha) shouts up toward Lyra, who is above the top edge of the frame; Mok gapes upward beside him.
     acting:
       kang_jaeha: "shouting up, pointing at the bell-head, blood on his face"
       mok_hangyu: "gaping up at Lyra, the cracked shield drooping"
@@ -806,10 +807,10 @@ panels:
     shape: wide
     gap: short
     bg: black
-    camera: "low, from the water: the giant swinging a fist up at its own shoulder to swat Lyra off, Lyra leaping clear"
+    camera: "side-on and wide: the giant swinging a fist up at its own shoulder to swat Lyra off, Lyra leaping clear"
     light: "violet; silver"
     art: >
-      From low in the water: the giant swings a huge fist up at its own shoulder to swat Lyra off; she leaps clear, flipping
+      Side-on and wide: the giant swings a huge fist up at its own shoulder to swat Lyra off; she leaps clear, flipping
       through the air with the bow.
     acting:
       bell_ringer: "swinging a fist up at its shoulder"
@@ -839,10 +840,10 @@ panels:
     shape: wide
     gap: short
     bg: black
-    camera: "low, close two-shot: Borro looking up at Lyra crouched on his shield"
+    camera: "close two-shot, level with the shield's rim: Borro below, looking up at Lyra crouched on it"
     light: "silver; moss green"
     art: >
-      Close and low: Borro (borro), buried to the waist, looks up at Lyra crouched on his shield's rim.
+      Close and level with the shield's rim: Lyra (lyra) crouches on it side-on; below her Borro (borro), buried to the waist, looks up at her.
     acting:
       borro: "looking up, a slow, dry smile"
       lyra: "crouched on the rim, glaring at the giant, notching another arrow"
@@ -907,12 +908,12 @@ panels:
     shape: wide
     gap: short
     bg: black
-    camera: "low, under the shield: Jaeha pressing one hand flat on Borro's shell and reaching the other up toward Lyra's boot on the rim"
+    camera: "side-on, level with the shield's rim: Jaeha below, pressing one hand flat on Borro's shell and reaching the other up toward Lyra's boot on the rim"
     light: "silver; moss green"
     face: private
     art: >
-      From low under the shield: Jaeha (kang_jaeha) presses one hand flat on Borro's shell and reaches the other up toward Lyra's
-      boot on the shield's rim.
+      Side-on, level with the shield's rim: below it, Jaeha (kang_jaeha) presses one hand flat on Borro's shell and reaches the
+      other up toward Lyra's boot on the rim.
     acting:
       kang_jaeha: "one hand on Borro's shell, the other reaching up, eyes on Lyra"
     eyeline: "Jaeha → Lyra"
@@ -994,10 +995,10 @@ panels:
     shape: wide
     gap: short
     bg: black
-    camera: "low, from under the shields: Lyra on the rim, drawing the arrow back to her cheek, her eyes going cold and still"
+    camera: "close, level with her face: Lyra on the rim, drawing the arrow back to her cheek, her eyes going cold and still"
     light: "silver; river blue"
     art: >
-      From low under the shields: Lyra (lyra) on the rim draws the arrow back to her cheek; her eyes go cold and still.
+      Close, level with her face, chest up: Lyra (lyra) on the rim draws the arrow back to her cheek; her eyes go cold and still.
     acting:
       lyra: "at full draw on the shield's rim, one eye narrowed, utterly still"
     eyeline: "Lyra → the crack"
@@ -1050,11 +1051,11 @@ panels:
     shape: tall
     gap: short
     bg: black
-    camera: "low, from the water, looking straight up: the clapper coming down at the two shields, Lyra drawn on the rim, the bell ringing above"
+    camera: "side-on and wide, level with the shields: the clapper coming down at the two shields, Lyra a small side-on figure drawn on the rim, the bell ringing above"
     light: "violet; the clapper's shadow"
     art: >
-      From low in the water, looking straight up: the giant's clapper comes down at the two raised shields; Lyra crouches on the
-      rim at full draw; above everything, the bell-head rings.
+      Side-on and wide, level with the shields: the giant's clapper comes down at the two raised shields; Lyra, small and side-on,
+      crouches on the rim at full draw; above everything, the bell-head rings.
     acting:
       bell_ringer: "bringing the clapper down with both arms"
       lyra: "at full draw, waiting"

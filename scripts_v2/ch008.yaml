@@ -18,7 +18,7 @@ continuity:
   - "Jaeha: the plaster on his cheekbone is gone. Fringe over the LEFT eye, pencil behind the RIGHT ear, notebook in the LEFT chest pocket. At home (P01–P24) the grey hoodie only. The vest from P25: Seoa has mended the slash through the white T patch on the back with a visible line of neat red stitches. From P47 a white bandage round his LEFT forearm (the bite), showing below the pushed-up hoodie sleeve."
   - "Nib: seal 2/5 look (nib/turnaround_seal2.png) with the cracked husk mask over his upper LEFT face whenever anyone outside the family could see him; rest form (dull eyes, no glow) except P42–P55, field form and LINKED (amber eyes, thin amber outline). Rest form means he is no stronger or faster than an ordinary person his size, which is why the cat is a real problem."
   - "Gomi, the street cat: a huge, fat orange tabby with a torn ear and a smug face, about the size of a small dog (body 60 cm long), next to Nib's 105 cm that is big. She owns the neighbourhood."
-  - "Kang Seoa (15): her school uniform (knee-length skirt), glasses, calculator keychain; a laptop on her knees. Never any fan service."
+  - "Kang Seoa (15): her school uniform (knee-length skirt), glasses, calculator keychain; a laptop on her knees. Never any fan service. The camera stays at her eye level or above, never below."
   - "Yoo Bomi: her design exactly (cropped neon-yellow bomber over a black crop top, high-waisted denim shorts, black thigh-high socks, plain black trainers, the 90 cm recurve bow, the white drone with its red light). Fan service per CHARACTER_DESIGNS_v2.md: a beautiful face and confident poses, never a low angle up her shorts."
   - "The Han River enclosure (location hanriver_gate, P14–P21): under a bridge span at the blue hour, the bridge's orange sodium lights coming on; a fence hung with black tarps, two shipping containers, a humming generator, thick cables running into a gate slit in the shadow of the bridge pier; the pier carries a big faded yellow stencilled number 7, and one sodium lamp on the span above it has a cracked cover and flickers; NO Association tape, cones or grade sign. Two Kanghan guards in black tactical vests over black suits, torches and batons, the silver hexagon pin on their lapels."
   - "The car park gate (location carpark_gate, P29–P58): the lower level under 1–2 m of still black water among square concrete pillars (6 m apart) and half-sunk cars; a long, wide dry vehicle ramp up to the upper level, its lower third wet and slick; thick pipes along the 2.6 m ceiling; white-blue caged dungeon lamps; drips everywhere."
@@ -174,11 +174,11 @@ panels:
     shape: wide
     gap: short
     bg: white
-    camera: "low, from the roof's surface: Seoa leaning toward Jaeha, a tissue in her hand, Jaeha bleeding from the nose"
+    camera: "eye level, side-on: Seoa leaning toward Jaeha, a tissue in her hand, Jaeha bleeding from the nose"
     light: "dusk"
     face: private
     art: >
-      From low on the roof: Seoa (kang_seoa) leans over and holds a tissue to Jaeha's bleeding nose with one hand, the
+      Side-on at eye level: Seoa (kang_seoa) leans over and holds a tissue to Jaeha's bleeding nose with one hand, the
       laptop sliding on her knees. Jaeha (kang_jaeha, hoodie), eyes still closed, pushes on.
     acting:
       kang_seoa: "leaning across, pressing a tissue to his nose, mouth tight with worry"
@@ -323,7 +323,8 @@ panels:
     acting:
       kanghan_guard: "walking a slow patrol, torch beam sweeping the ground, baton on the belt, faces bored and hard"
     calm: top
-    silent: true
+    lines:
+      - {who: offpanel:kang_jaeha, type: speech, text: "THE GUARDS ALL WEAR THE SAME SILVER PIN. A HEXAGON INSIDE A HEXAGON.", side: l}
     sfx:
       - {text: "STEP STEP", style: quiet, at: [0.70, 0.80], size: S, rot: 0}
 
@@ -398,7 +399,7 @@ panels:
     shape: wide
     gap: short
     bg: white
-    camera: "low two-shot on the rooftop at nightfall: Seoa hugging her laptop, Jaeha wiping his nose, both looking toward the river"
+    camera: "eye-level two-shot on the rooftop at nightfall: Seoa hugging her laptop, Jaeha wiping his nose, both looking toward the river"
     light: "the rooftop's bare bulb; the city lights coming on"
     face: private
     art: >
@@ -504,11 +505,11 @@ panels:
     shape: wide
     gap: short
     bg: black
-    camera: "low, behind Bomi at the ramp's edge: Bomi talking to her drone, Jaeha giving her a look"
+    camera: "over Bomi's shoulder at shoulder height, at the ramp's edge: Bomi talking to her drone, Jaeha giving her a look"
     light: "lamp light; the drone's red light"
     face: public
     art: >
-      From low behind Bomi (yoo_bomi): she talks brightly to her hovering drone; behind her Jaeha (kang_jaeha, vest; the red
+      Over Bomi's shoulder (yoo_bomi), at shoulder height: she talks brightly to her hovering drone; behind her Jaeha (kang_jaeha, vest; the red
       stitches visible on his back patch) gives her a warning look and points at Nib, who stands stiffly at the edge.
     acting:
       yoo_bomi: "facing the drone, one hand on her hip, the other making a peace sign, a big camera smile"
@@ -841,10 +842,10 @@ panels:
     shape: wide
     gap: short
     bg: black
-    camera: "low, behind Bomi at the top of the ramp: Bomi loosing an arrow, eyes shut"
+    camera: "over Bomi's shoulder at shoulder height, at the top of the ramp: Bomi loosing an arrow, eyes shut"
     light: "lamp light"
     art: >
-      From low behind Bomi (yoo_bomi) at the top of the ramp: she looses an arrow down at the hound with her eyes squeezed
+      Over Bomi's shoulder (yoo_bomi) at the top of the ramp, at shoulder height: she looses an arrow down at the hound with her eyes squeezed
       shut. It flies wide, far over the hound, toward the parked cars on the upper level.
     acting:
       yoo_bomi: "in a wobbly archer's stance, bowstring just released, eyes squeezed shut, ponytail swinging"
@@ -1079,7 +1080,7 @@ panels:
       nib: "the amber fading from his eyes, sheathing the last knife"
     calm: top
     ui:
-      - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[OPERATOR LV. 3 → 4]"}
+      - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[OPERATOR LV. 3 → 4 · SUMMON SLOTS 1 → 2]"}
       - {kind: system.notice_small, "on": float, at: [0.5, 0.16], text: "[ROUTE ALIGNMENT · SYNCING A NEW BOSS KIND · 60% ...]"}
     silent: true
 

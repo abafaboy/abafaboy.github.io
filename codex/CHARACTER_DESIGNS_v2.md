@@ -241,7 +241,7 @@ Deaths happen between panels, in silhouette and splashes (style guide section 9)
 
 ### 2.9 Later cast (short specs; full sheets when they arrive)
 
-In the chapter 1 flash-forward, all seven summons stand behind Jaeha as black silhouettes, with Nib, the smallest, at the front. Use the shapes below so those silhouettes match the later designs.
+In the chapter 1 flash-forward, all seven summons stand behind Jaeha as black silhouettes, with Nib at the front. Use the shapes below so those silhouettes match the later designs.
 
 | Character | Arrives | Look (from the story bible) |
 |---|---|---|
@@ -578,7 +578,7 @@ Colour keys are in `MANHWA_STYLE_GUIDE.md` table 5.3.
 | **The hospital ward** | `hospital` | 33 | A four-bed ward in a Mapo hospital: curtains, a monitor, an IV stand, a window over the city; night and grey morning. |
 | **The road south** | `expressway_night` | 33 | An expressway at night under strobing sodium lights; the inside of Choi's van by the dashboard glow. |
 | **Auntie Geum's stall** | `geum_stall` | 33 (Arc 5) | A 24-hour pojangmacha on the edge of a harbour market in Busan: an orange tarp tent lit by bare bulbs, a long counter with plastic stools, a huge flat pan of bubbling red tteokbokki, fish-cake skewers in broth, steam; outside, fishing boats, a breakwater, gulls, the open sea. |
-| **The Busan sea gate** | `busan_sea_gate` | 33 (Arc 5) | On the dark seabed far off Busan: a vast ring of white-cyan gate light 300 m across lying flat, sealed over by an ancient lattice of stone slabs and old bolted steel plates like a lid. |
+| **The Busan sea gate** | `busan_sea_gate` | 33 (Arc 5) | On the dark seabed far off Busan: a vast ring of white-cyan gate light 300 m across lying flat, sealed over by a lid of ancient carved stone slabs (hauled from the gate's own ruins ten years ago) with steel plates bolted over them. |
 
 **Extra views for keys that already exist** (chapters 21-32 need them):
 - `hanriver_gate`: `pier7.png`, close on the bridge pier with its big faded yellow stencilled 7 and the flickering lamp with a cracked cover above it, the gate slit in its shadow; `inside_fence.png`, inside the enclosure at night with the fence open, the crane truck and the box truck of glowing crates; `sealed.png`, the slit covered by the outer half of Kanghan's steel frame, closed and dark, police tape across it (ch 31-32).

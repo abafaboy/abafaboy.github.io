@@ -20,9 +20,9 @@ cast:
 locations: [mangwon_market, fish_market, rooftop_room, kanghan_office, kanghan_guild_hall]
 continuity:
   - "Jaeha in the break (P01–P34): the torn, bloody vest over the shoulder bandage, the forearm bandage, blood under his nose; from P13 both palms blistered red (he carries Borro's burns). From P35 (days later) a clean vest with Seoa's red stitches, plasters on both palms, the forearm bandage."
-  - "Nib: seal 2/5 look with the cracked husk mask in public; field form (amber) P01–P34; rest form after. At home (P61–P72) no mask."
-  - "Borro: husk face in public; field form (moss green) P01–P34; his shield glows dull red where the serpent's steam hits it (P04–P14). At home no husk face."
-  - "Kang Seoa (15): school uniform in the break and at school, a hoodie and jeans at home; glasses; never any fan service."
+  - "Nib: seal 2/5 look with the cracked husk mask in public; field form (amber) P01–P29, on the call from ch 11 P61 (its clock runs out at P30); rest form after. At home (P61–P72) no mask."
+  - "Borro: husk face in public; field form (moss green) P01–P34, on the call from ch 11 P71; his shield glows dull red where the serpent's steam hits it (P04–P14). At home no husk face."
+  - "Kang Seoa (15): school uniform in the break and at school, a hoodie and jeans at home; glasses; never any fan service. The camera stays at her eye level or above, never below."
   - "Yoo Bomi: her full design; no drone in the break (it broke in ch 11); from P44 a brand-new white drone with a pink ribbon tied on it."
   - "Bomi's parents (generic, no name cards): a round, cheerful man in his fifties in a white cook's jacket, and a small woman in her fifties in an apron, outside their little restaurant (location bomi_room, outside)."
   - "The marsh serpent (CHARACTER_DESIGNS_v2.md 4b.4): 20 m long, as thick as a small car, jade-green scales banded with dull gold, a hooded head with two backswept bone-white horns, yellow slit eyes, steam and heat shimmer pouring off it, a small Hush crack leaking violet ash on its brow. It spits scalding steam. In the cold, frost spreads over its scales and it slows: frost means it is failing."
@@ -435,7 +435,7 @@ panels:
       kang_jaeha: "small at the far end, flinching with every blow, nose bleeding"
     calm: top
     ui:
-      - {kind: system.notice_small, "on": float, at: [0.5, 0.86], text: "[CARRY · 2 SUMMONS · LOAD 130%]"}
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.86], text: "[CARRY · 2 SUMMONS · LOAD 130% · NIB 00:40 · BORRO 01:30]"}
     sfx:
       - {text: "BOOM BOOM BOOM", style: impact, at: [0.30, 0.40], size: L, rot: -6}
 
@@ -468,6 +468,8 @@ panels:
     calm: left
     lines:
       - {who: kang_jaeha, type: intense, text: "NIB. THE CRACK ON ITS BROW. THE SCALES ARE BRITTLE NOW.", side: r}
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.30, 0.90], text: "[NIB · FIELD FORM 00:30]"}
 
   - id: P26
     recipe: impact
@@ -657,7 +659,7 @@ panels:
     light: "morning; screens"
     art: >
       A montage in one wide panel: an office worker at a bus stop, a convenience-store clerk behind the counter, and three
-      high-school students in a corridor all watch the same clip on their phones, mouths open; on one screen, tiny, a giant in
+      students in a school corridor all watch the same clip on their phones, mouths open; on one screen, tiny, a giant in
       a husk mask holds up a bridge.
     calm: top
     ui:
@@ -694,7 +696,7 @@ panels:
     camera: "eye level in a school classroom: classmates crowding round Seoa's desk, Seoa trying to read a book"
     light: "classroom daylight"
     art: >
-      A high-school classroom at break: a crowd of classmates in uniform crowd round Seoa's desk (kang_seoa), shoving phones in
+      A middle-school classroom at break: a crowd of classmates in uniform crowd round Seoa's desk (kang_seoa), shoving phones in
       her face; she tries to keep reading her book.
     acting:
       kang_seoa: "eyes on her book, glasses pushed up, a faint pink in her cheeks she is refusing to show"
@@ -969,7 +971,7 @@ panels:
       Over Baek's shoulder (his silver hair and charcoal shoulder, cropped, foreground): he holds the tablet up against the
       night city, the clip playing on it: the masked giant holding up the bridge.
     acting:
-      baek_taegun: "seen from behind, holding the tablet in one gloved hand, the cane in the other"
+      baek_taegun: "seen from behind, holding the tablet in one hand, the cane in the other"
     eyeline: "Baek → the tablet"
     foreground: "Baek's shoulder and the side of his glasses, cropped, left third"
     calm: top

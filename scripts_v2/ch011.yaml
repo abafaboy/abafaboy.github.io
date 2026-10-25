@@ -19,9 +19,9 @@ locations: [mangwon_market]
 continuity:
   - "Jaeha comes straight from the tower: the vest torn and bloody at the RIGHT shoulder over a white bandage, the bandage on his LEFT forearm, dried blood under his nose; fringe over the LEFT eye, pencil behind the RIGHT ear, notebook in the LEFT chest pocket. He gets steadily worse: nosebleeds from P33, on one knee from P49."
   - "Nib: seal 2/5 look with the cracked husk mask; field form (amber eyes, thin amber outline) P15–P53, rest form P54–P60 (cooldown), field form again from P61."
-  - "Borro: the white oval husk face tied on with cord; field form (moss-green eyes, thin moss-green outline) from P15 to the end. 2.4 m: the market's alleys are only 1.5–2 m wide, so his shield fills an alley wall to wall."
-  - "Kang Seoa (15): her school uniform (knee-length skirt), glasses, calculator keychain, her school bag, and a plastic bag of rice cakes she never lets go of. Never any fan service. She is in charge, never rescued."
-  - "Yoo Bomi: her full design; she streams from the drone until P57, when she rams the drone into a hound and it breaks; after that she films on her phone."
+  - "Borro: the white oval husk face tied on with cord; field form (moss-green eyes, thin moss-green outline) from P22, when Jaeha calls him in the square, to P64; rest form P65–P70 (cooldown); called again at P71. 2.4 m: the market's alleys are only 1.5–2 m wide, so his shield fills an alley wall to wall."
+  - "Kang Seoa (15): her school uniform (knee-length skirt), glasses, calculator keychain, her school bag, and a plastic bag of rice cakes she never lets go of. Never any fan service. She is in charge, never rescued. The camera stays at her eye level or above, never below."
+  - "Yoo Bomi: her full design; she streams from the drone until P57, when she rams the drone into a hound and it breaks; after that she films on her phone. Never a low angle up her shorts: the camera stays at chest height or above."
   - "The market grannies (generic, no name cards): granny_tteok, a tiny round woman in her seventies in a flowered apron and arm sleeves, permed white hair; granny_kimchi, a tall bony woman in her seventies in a red rubber apron and rubber gloves, a headscarf, who fights with a huge white daikon radish."
   - "Mangwon Market (location mangwon_market, key.png and footbridge.png): a covered traditional market street under a translucent arcade roof, 6 m wide, with narrow side alleys 1.5–2 m wide running off it like ribs; stalls of vegetables, fish, tteok and kimchi; hanging bulbs; plastic tubs. The break's gate is in the cold-storage basement under the fish lane: violet light and heat shimmer rise from its stairwell. At the market's edge, a steel-and-concrete pedestrian footbridge 30 m long crosses a four-lane side road 5 m below, with stairs at each end and one central pier."
   - "Ash hounds (CHARACTER_DESIGNS_v2.md 4b.3): wolf-sized, eyeless and noseless, long split bone jaws, violet ash leaking from cracks along their backs; they hunt in packs of five to ten. Dozens of them tonight."
@@ -62,7 +62,7 @@ panels:
     shape: wide
     gap: short
     bg: black
-    camera: "low, in a side-alley doorway: Seoa with her phone at her ear, dragging a small boy in by the hand"
+    camera: "eye level, in a side-alley doorway: Seoa with her phone at her ear, dragging a small boy in by the hand"
     light: "a shop's fluorescent light behind her; red emergency light sweeping"
     art: >
       In a narrow side alley, at the doorway of a tteok shop: Seoa (kang_seoa, school uniform) has her phone at her ear and
@@ -301,18 +301,18 @@ panels:
     shape: wide
     gap: short
     bg: navy
-    camera: "eye level, close two-shot: Nib's and Borro's eyes flaring amber and moss green behind their husk masks"
+    camera: "eye level, close two-shot: Nib's eye flaring amber behind his husk mask, Borro beside him raising his shield"
     light: "amber and moss green flaring"
     art: >
-      Close two-shot: behind the cracked husk mask, Nib's uncovered eye flares amber; through the eye-holes of Borro's white
-      husk face, his eyes flare moss green; thin outlines of light flicker on along both of them. The upper part is dark,
+      Close two-shot: behind the cracked husk mask, Nib's uncovered eye flares amber and a thin amber outline flickers on along
+      him; beside him Borro, still in rest form behind his white husk face, brings his shield up. The upper part is dark,
       empty for the window.
     acting:
       nib: "eye blazing, both knives now drawn in a reverse grip, crouching"
-      borro: "eyes blazing through the mask, the shield coming up"
+      borro: "calm eyes behind the mask (rest form, not yet called), the shield coming up"
     calm: top
     ui:
-      - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[FIELD FORM · NIB 05:00 · BORRO 05:00 · LINKED]"}
+      - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[FIELD FORM · NIB 05:00 · LINKED]"}
     silent: true
 
   - id: P16
@@ -432,12 +432,14 @@ panels:
     camera: "high, over a tiny square where three narrow alleys meet: Borro planted in it, his shield filling the mouth of one alley"
     light: "hanging bulbs; violet ash"
     art: >
-      High over a tiny square, 4 m across, where three narrow alleys meet among the stalls: Borro (borro, field form) plants
+      High over a tiny square, 4 m across, where three narrow alleys meet among the stalls: Borro (borro, field form: called now, moss-green glow) plants
       himself in it with his iron shield filling the mouth of the busiest alley wall to wall, his shell scraping the awnings.
       Scale: the alley is 1.8 m wide; the shield is 2 m tall; Borro is taller than the stall awnings.
     acting:
       borro: "planted with feet wide, shield up in the alley mouth, calm eyes glowing green through the mask"
     calm: top
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.06], text: "[BORRO · FIELD FORM 05:00 · LINKED]"}
     sfx:
       - {text: "THUNK", style: impact, at: [0.30, 0.70], size: M, rot: 0}
 
@@ -895,12 +897,11 @@ panels:
       The impact panel. From low on the road, looking up: the footbridge's deck drops as the pier gives way, and Borro (borro,
       field form) catches it. He stands under the deck with his humped slate shell and both shoulders pressed up against its
       underside, his iron shield wedged against the cracked pier, his bare feet sunk into the buckling asphalt; moss and tiny
-      flowers on his shell crushed against the concrete; the green glow of field form blazing off him. Above him, through
-      the railings, the people still on the bridge, Seoa among them. Scale: the deck is 4 m wide; Borro is 2.4 m; the deck
+      flowers on his shell crushed against the concrete; the green glow of field form blazing off him. Above him, the people still on the bridge show only as heads and
+      reaching hands above the deck's solid concrete edge. Scale: the deck is 4 m wide; Borro is 2.4 m; the deck
       rests on his shell at 5 m only because he is standing on the heaved road.
     acting:
       borro: "legs braced wide, back and shell pushed up into the deck, both arms up, one hand flat on the concrete, head bowed, calm eyes glowing"
-      kang_seoa: "on the bridge above, gripping the railing, looking down at him"
     calm: top
     sfx:
       - {text: "KRRRRRUNNNCH", style: impact, at: [0.30, 0.20], size: XL, rot: -6}
@@ -977,6 +978,8 @@ panels:
     eyeline: "Borro → up"
     foreground: "the underside of the deck, cropped, top"
     calm: right
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.72, 0.90], text: "[BORRO · FIELD FORM 00:50]"}
     lines:
       - {who: borro, type: speech, text: "TAKE YOUR TIME, LITTLE ONES. I AM SLOW ON PURPOSE.", side: l}
 
@@ -1039,10 +1042,10 @@ panels:
     shape: wide
     gap: short
     bg: white
-    camera: "low, behind Bomi at the bottom of the stairs: Bomi steering her drone like a missile up the stairs"
+    camera: "over Bomi's shoulder at shoulder height, at the foot of the stairs: Bomi steering her drone like a missile up the stairs"
     light: "strobes; the drone's red light streaking"
     art: >
-      From low behind Bomi (yoo_bomi) at the foot of the stairs: she steers her white drone with both thumbs, sending it
+      Over Bomi's shoulder (yoo_bomi) at the foot of the stairs, at shoulder height: she steers her white drone with both thumbs, sending it
       screaming up the stairs straight at the hound on top of Nib, its red light streaking.
     acting:
       yoo_bomi: "both thumbs jammed on the phone, leaning into it, face fierce, tears in her eyes"
@@ -1179,6 +1182,8 @@ panels:
     eyeline: "Seoa → under the bridge"
     foreground: "the bottom of the far stair rail, cropped, left"
     calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.92], text: "[BORRO · FIELD FORM 00:02]"}
     lines:
       - {who: offpanel:borro, type: speech, text: "IS EVERYONE OFF?", side: r}
       - {who: kang_seoa, type: shout, text: "EVERYONE'S OFF! ALL FOURTEEN!", side: l}
@@ -1211,6 +1216,8 @@ panels:
       rubble with his shield lowered; on the market side Jaeha kneels with Bomi and Yerin beside him; Nib stands at the top of
       the broken stairs in a drift of ash; on the far side, Seoa stands in front of her fourteen people.
     calm: top
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.06], text: "[BORRO · FIELD FORM ENDED · COOLDOWN 01:00]"}
     silent: true
 
   - id: P66
@@ -1311,6 +1318,8 @@ panels:
     acting:
       borro: "backing away, shield raised, eyes on the dome"
     calm: top
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.06], text: "[COOLDOWN 00:00 · BORRO · FIELD FORM 05:00]"}
     sfx:
       - {text: "BRRRRRRMMMMM", style: impact, at: [0.50, 0.30], size: XL, rot: 0}
 

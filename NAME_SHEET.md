@@ -27,7 +27,7 @@
 | Han Sora | HAHN SOH-rah | `han_sora` | 27, Black Hound crossbow hunter (ch 1 hunter 5), Kanghan's spy; Kanghan colours from ch 27. "Miss Han" to Jaeha. |
 | Inspector Ryu | RYOO | `inspector_ryu` | Hunter Association inspector (ch 13, 22, 32). "Inspector Ryu" only. |
 | Deputy Director Hwang | HWAHNG | `deputy_hwang` | The Association's deputy director, Kanghan's man inside (ch 32) |
-| Pyo Dongsik | PYOH DONG-sheek | `crew_pyo` | "Uncle Pyo", 63, trap-tester for 20 years, number 1 in the Arc 4 crew |
+| Pyo Dongsik | PYOH DONG-sheek | `crew_pyo` | "Uncle Pyo", 63, trap-tester for 10 years (since the first gate), number 1 in the Arc 4 crew |
 | Dami | DAH-mee | `crew_dami` | 34, trap-tester, number 2 in the Arc 4 crew; a single mother |
 | Jang Woo, Jang Ho | JAHNG WOO, JAHNG HOH | `crew_woo`, `crew_ho` | Brothers, 25 and 23, numbers 3 and 5 in the Arc 4 crew; their chicken shop: "Wings of Glory" |
 | Foreman Gu | GOO | `foreman_gu` | Kanghan's site foreman at the Han River gate (ch 23-25) |

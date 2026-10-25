@@ -1,12 +1,12 @@
 chapter: 10
 title: A Roof, Not a Garden
 format: SCRIPT_FORMAT_v2.md
-when: "Saturday night, the last three seconds of the Call; Sunday morning on the rooftop; Tuesday afternoon, a D-grade gate on the seventh floor of a half-built tower in Mapo; Tuesday at dusk, the street outside."
+when: "Saturday night, the last three seconds of the Call; Monday morning on the rooftop; Tuesday afternoon, a D-grade gate on the seventh floor of a half-built tower in Mapo; Tuesday at dusk, the street outside."
 story_beats: STORY_BIBLE_v4.md#arc-2-chapters-612-the-trap-rats-chapter-by-chapter
 cast:
   kang_jaeha: vest          # hoodie only in the Call, the room and the morning (P01–P24)
-  nib: mask                 # rest form except P44–P57 (field form, LINKED); no mask at home
-  borro: default            # rest form except P44–P57; husk mask in public (see continuity)
+  nib: mask                 # rest form except P37–P57 (field form, LINKED); no mask at home
+  borro: default            # rest form except P37–P57; husk mask in public (see continuity)
   kang_seoa: default
   song_yerin: default
   landlady: default         # generic, from ch 6
@@ -14,8 +14,9 @@ cast:
   ash_hound: default
 locations: [call_void, rooftop_room, tower_gate]
 continuity:
+  - "Kang Seoa (15): her outfit as each panel says; glasses, the calculator keychain. Never any fan service. The camera stays at her eye level or above, never below."
   - "Jaeha: fringe over the LEFT eye, pencil behind the RIGHT ear, notebook in the LEFT chest pocket; the white bandage round his LEFT forearm (the ch 8 bite). New: a black-violet bruise round his RIGHT ankle shaped like long fingers (the Hush's grip in ch 9), seen when his trouser leg rides up (P20, P21). The vest (with Seoa's red stitches on the back patch) from P25."
-  - "Nib: seal 2/5 look; no mask at home, the cracked husk mask in public; rest form except P44–P57 (field form, LINKED: amber eyes, thin amber outline)."
+  - "Nib: seal 2/5 look; no mask at home, the cracked husk mask in public; rest form except P37–P57 (field form, LINKED: amber eyes, thin amber outline)."
   - "Borro (CHARACTER_DESIGNS_v2.md 2.12, characters_v2/borro/): 2.4 m, about 7 heads, slate-grey skin, the humped slate-plate shell with moss and tiny white and yellow flowers, the linen tunic and rope belt, the gardener's satchel, bare feet, the door-sized iron shield (2 m tall). Slow, careful, gentle. Next to him Jaeha reaches his chest and Nib reaches his knee-and-a-bit (his hip). In public (from P25) a featureless white oval husk face tied over his face with cord, with two small round eye-holes. Field form: moss-green eyes and a thin moss-green outline. He is too tall for the rooftop room (ceiling 2.2 m) and must stoop or kneel inside."
   - "The rooftop room's bed is a cheap metal-frame single bed; Borro lands on it in P12 and folds it flat. From P14 the mattress is on the floor, and the bed frame leans bent against the wall."
   - "The site manager (generic, no name card): a nervous man in his forties in a white hard hat, a hi-vis vest over a shirt and tie, a clipboard and a thick envelope of cash."
@@ -287,7 +288,7 @@ panels:
     camera: "eye level, full figure: Borro standing on the green rooftop in morning light, shield beside him, a blue tarp behind"
     light: "key: soft morning sun from the left; long shadow"
     art: >
-      Sunday morning on the green rooftop (location rooftop_room, key_day): Borro (borro, rest form) stands to his full
+      Monday morning on the green rooftop (location rooftop_room, key_day): Borro (borro, rest form) stands to his full
       2.4 m height, the door-sized iron shield standing beside him, moss and tiny flowers on his slate shell catching the
       sun. Behind him, a blue tarp has been strung between the water tank and the laundry line over a flattened mattress.
       The whole figure in frame, full model-sheet proportions (about 7 heads). Name-card gradient behind him, dark slate to
@@ -431,7 +432,7 @@ panels:
     shape: wide
     gap: short
     bg: white
-    camera: "low two-shot at the stair door: Seoa leaving for school, turning back to call out to Borro"
+    camera: "eye-level two-shot at the stair door: Seoa leaving for school, turning back to call out to Borro"
     light: "morning sun"
     art: >
       Seoa (kang_seoa) leaves through the stair door for school and turns back to call to Borro, who looks pleased. Jaeha
@@ -714,11 +715,13 @@ panels:
       A three-way split frame. MIDDLE: Jaeha (kang_jaeha, vest) with his eyes half closed, a thin amber thread running left
       and a thin moss-green thread running right. LEFT, in an amber vignette: Nib's view along the crumbling edge of the
       floor, columns and open sky. RIGHT, in a moss-green vignette: Borro's view down the long beam at the pack crouching on
-      the far slabs.
+      the far slabs. As Jaeha links them, both summons flare into field form: Nib's eyes amber, Borro glowing moss green.
     acting:
       kang_jaeha: "eyes half closed, both hands raised slightly at his sides, a fierce focus"
     calm: top
     silent: true
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.06], text: "[FIELD FORM · NIB 05:00 · BORRO 05:00 · LINKED]"}
     sfx:
       - {text: "VMMM", style: quiet, at: [0.50, 0.86], size: S, rot: 0}
 
@@ -730,7 +733,7 @@ panels:
     camera: "low, behind Borro as he plants himself in the middle of the beam, shield up, the pack charging along it"
     light: "dusk; violet ash"
     art: >
-      From low behind Borro (borro, rest form): he plants himself in the middle of the long beam with the iron shield raised
+      From low behind Borro (borro, field form: moss-green glow and outline): he plants himself in the middle of the long beam with the iron shield raised
       like a door, and the whole pack charges straight along the beam at him, the slabs on either side crumbling under their
       paws.
     acting:
@@ -785,7 +788,7 @@ panels:
     camera: "high, along the floor's crumbling edge: Nib running along a rim of slab as wide as a foot, columns flashing past"
     light: "the orange dusk sky beside him"
     art: >
-      High along the floor's edge: Nib (nib, mask; rest form) runs along a rim of slab no wider than a foot, the open dusk sky
+      High along the floor's edge: Nib (nib, mask; field form, amber eyes and outline) runs along a rim of slab no wider than a foot, the open dusk sky
       and a seven-storey drop on one side, perimeter columns flashing past.
     acting:
       nib: "running low along the rim, arms out for balance, scarf streaming toward the drop"
@@ -842,7 +845,7 @@ panels:
     eyeline: "Jaeha → the window"
     calm: top
     ui:
-      - {kind: system.window, "on": float, at: [0.5, 0.05], headline: "[FIELD FORM · NIB 05:00 · BORRO 05:00]", body: "TWO SUMMONS LINKED. CARRY LOAD IS SHARED BY THE OPERATOR.", button: "OK"}
+      - {kind: system.window, "on": float, at: [0.5, 0.05], headline: "[TWO SUMMONS LINKED]", body: "CARRY LOAD IS SHARED BY THE OPERATOR.", button: "OK"}
     silent: true
 
   - id: P45

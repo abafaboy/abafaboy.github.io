@@ -16,7 +16,7 @@ locations: [sewer_gate, rooftop_room, bomi_room]
 continuity:
   - "Jaeha: the orange vest (washed, the hem corner still torn), a plaster on his right cheekbone, no other bandages. Fringe over the LEFT eye, pencil behind the RIGHT ear, notebook in the LEFT chest pocket."
   - "Nib: seal 2/5 look (nib/turnaround_seal2.png) with the cracked husk mask over his upper LEFT face. In public he plays a husk: walking stiffly in front, arms hanging, perfectly silent (he fails). Rest form (dull eyes, no glow) except P26–P36, when he is in field form and LINKED (amber eyes, thin amber outline)."
-  - "Bomi: her full design (CHARACTER_DESIGNS_v2.md 2.7), the white camera drone with its red light always near her while she streams. She cannot hit anything with her bow (running joke)."
+  - "Bomi: her full design (CHARACTER_DESIGNS_v2.md 2.7), the white camera drone with its red light always near her while she streams. She cannot hit anything with her bow (running joke). Never a low angle up her shorts: the camera stays at chest height or above."
   - "The client guild (generic, no name cards): two E-rank hunters in mismatched cheap gear. The leader is a balding man in his forties with a paunch, a dented breastplate over a tracksuit and a cheap sword he holds wrong (his thumb wrapped over the top of the grip). The other is a skinny man in his twenties in a hoodie and a plastic-looking chest guard with a spear."
   - "Ash rats (CHARACTER_DESIGNS_v2.md 4b.1): about 70 cm long, hairless blotched grey hide, eyes leaking violet ash, yellow chisel teeth. The swarm mother (P38–P40) is the same creature at 1.4 m long with a ridge of bony spurs along its back."
   - "The landlady (generic, no name card): a stout woman in her late sixties, about 150 cm, permed grey hair, a padded vest over a flowered blouse, slippers, arms always folded."
@@ -74,17 +74,18 @@ panels:
     shape: wide
     gap: short
     bg: black
-    camera: "low, from the water, tilted: darts shooting from the wall and Nib catching one between two fingers without looking"
+    camera: "low, from the water, tilted: darts shooting from the wall and Nib tipping his head aside without looking"
     light: "no scene light: a white flash; lamp light on the darts"
     art: >
-      Iron darts shoot out of holes in the brick wall. Nib (nib, mask; seal 2/5) catches one between two long fingers beside
-      his ear without even turning his head; the others clatter past him into the far wall. Speed lines along the darts.
+      Iron darts shoot out of holes in the brick wall.
+      Nib (nib, mask; seal 2/5; rest form) tips his head a hair to one side without breaking stride, and the darts hiss
+      past his ear into the far wall. Speed lines along the darts.
     acting:
-      nib: "still walking, one hand raised beside his ear with a dart pinched between two fingers, head facing forward, deadpan"
+      nib: "still walking, head tipped a hair to one side as the darts pass his ear, hands hanging, facing forward, deadpan"
     calm: top
     sfx:
       - {text: "SHK SHK SHK", style: impact, at: [0.40, 0.30], size: L, rot: -10}
-      - {text: "PINCH", style: quiet, at: [0.72, 0.36], size: S, rot: 0}
+      - {text: "fwip", style: quiet, at: [0.72, 0.36], size: S, rot: 0}
 
   - id: P04
     recipe: talk
@@ -195,7 +196,7 @@ panels:
     shape: wide
     gap: short
     bg: black
-    camera: "low, from the water: Bomi walking backwards in front of her drone, talking to it"
+    camera: "eye level, from the side: Bomi walking backwards in front of her drone, talking to it"
     light: "lamp light; the drone's red light"
     art: >
       Bomi (yoo_bomi) walks backwards through the ankle-deep water in front of her hovering drone, talking to her viewers,
@@ -638,7 +639,8 @@ panels:
     light: "no scene light: white flash; amber outline"
     art: >
       Nib (nib, mask; seal 2/5; linked) lands exactly where two streams of rats pour out of the left tunnels, and slashes both
-      ways at once; the leading rats burst into ash and the rest pile into each other.
+      ways at once; the leading rats burst into ash and the rest pile into each other. Behind him, unnoticed by anyone, the small
+      red light of Bomi's drone has just reappeared at the mouth of the side tunnel.
     acting:
       nib: "landing in a deep crouch with both arms flung out wide, knives at the end of two slashes"
     calm: top
@@ -672,7 +674,7 @@ panels:
     light: "lamp light through drifting violet ash"
     art: >
       Still: Nib (nib, mask; seal 2/5) stands alone in the middle of the junction in a wide ring of drifting violet ash settling
-      on the black water, knives lowered. Not one rat left. The amber light fades out of his eyes. The top quarter is dark
+      on the black water, knives lowered. Not one rat left. The top quarter is dark
       vault, calm for a window.
     acting:
       nib: "standing straight, knives lowered at his sides, head bowed slightly, the amber glow fading"
@@ -1099,7 +1101,7 @@ panels:
     camera: "close on one monitor: a paused, blurred drone frame"
     light: "monitor glow"
     art: >
-      Close on the monitor: a paused drone frame from the sewer junction, blurred with motion: at its edge, a small masked
+      Close on the monitor: a paused drone frame from the moment it came back out of the side tunnel, blurred with motion: at its edge, a small masked
       shape in a hooded cloak caught mid-leap in a spray of water and violet ash, moving far too fast. No interface text.
     calm: top
     silent: true

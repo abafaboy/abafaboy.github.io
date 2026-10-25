@@ -1025,7 +1025,7 @@ panels:
       billboard is about 8 m wide, high on a building.
     calm: top
     ui:
-      - {kind: tv.lowerthird, "on": screen, text: "BLACK HOUND GUILD · LIVE PRESS CONFERENCE", ticker: "GATE 0912 · FOUR HUNTERS DEAD · TRAP-TESTER MISSING"}
+      - {kind: tv.lowerthird, "on": screen, text: "BLACK HOUND GUILD · LIVE PRESS CONFERENCE", ticker: "GATE 0912 · FOUR HUNTERS DEAD · TWO MISSING"}
     sfx:
       - {text: "BZZT", style: quiet, at: [0.82, 0.16], size: S, rot: 0}
 
@@ -1048,6 +1048,7 @@ panels:
       - {kind: tv.lowerthird, "on": panel, text: "MOK HANGYU · BLACK HOUND RAID LEADER", ticker: "TRAP-TESTER KANG JAEHA (24) PRESUMED DEAD"}
     lines:
       - {who: mok_hangyu, type: phone, text: "OUR TRAP-TESTER SET OFF A HIDDEN BOSS. FOUR OF OUR HUNTERS DIED."}
+      - {who: mok_hangyu, type: phone, text: "OUR ROOKIE HEALER IS STILL MISSING."}
 
   - id: P58
     recipe: insert

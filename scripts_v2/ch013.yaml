@@ -11,7 +11,7 @@ cast:
   choi_dongmin: default
   yoo_bomi: default
   mok_hangyu: default       # a navy suit, no guild jacket (see continuity)
-  bh_crossbow: default      # the Black Hound crossbow woman (Han Sora; name card in ch 14)
+  han_sora: default      # the Black Hound crossbow woman (Han Sora; name card in ch 14)
   inspector_ryu: default    # generic: chairs the hearing panel, see continuity
   bh_lawyer: default        # generic: Black Hound's lawyer, see continuity
   assoc_guard: default      # generic: the lobby guard, see continuity
@@ -21,7 +21,7 @@ continuity:
   - "Jaeha: the orange vest (Seoa's red stitches on the back patch) over the grey hoodie, with the collar of a borrowed white shirt showing at the neck because Seoa insisted; plasters on both palms; the bite bandage on his LEFT forearm. Fringe over the LEFT eye, pencil behind the RIGHT ear, notebook in the LEFT chest pocket."
   - "Nib: seal 2/5 look with the cracked husk mask; rest form all chapter (no glow). In public he plays a husk, badly. Borro: the white oval husk face tied on with cord; rest form all chapter; he must duck under every doorway (2.4 m)."
   - "Mok Hangyu: a navy suit and tie with the small red hound's-head pin, his gold chain showing at the open collar; no shield. A thin smile for the press; dead eyes."
-  - "The Black Hound crossbow woman (bh_crossbow, CHARACTER_DESIGNS_v2.md 2.5 hunter 5): the cropped guild jacket open over the low-necked black tank top, fitted black trousers with the thigh holster, the sleek black bob, winged eyeliner, red lips; in the gallery a small brass compass in her lap. Fan service per CHARACTER_DESIGNS_v2.md: a beautiful face, a confident pose, nothing explicit."
+  - "The Black Hound crossbow woman (han_sora, CHARACTER_DESIGNS_v2.md 2.5 hunter 5): the cropped guild jacket open over the low-necked black tank top, fitted black trousers with the thigh holster, the sleek black bob, winged eyeliner, red lips; in the gallery a small brass compass in her lap. Fan service per CHARACTER_DESIGNS_v2.md: a beautiful face, a confident pose, nothing explicit."
   - "Inspector Ryu (generic, no name card): a tired, fair man in his fifties in a grey Hunter Association uniform jacket, reading glasses, a grey moustache. Two evaluators flank him in the same uniform (a woman in her forties, a young man)."
   - "Black Hound's lawyer (generic): a sleek man in his forties in an expensive grey suit, a silver tie, slicked hair, a tablet."
   - "The lobby guard (generic): a young Association guard in a grey uniform with a handheld scanner wand."
@@ -182,13 +182,13 @@ panels:
       Inspector Ryu (inspector_ryu) and two evaluators sit; two tables face it. At the left table, Mok (mok_hangyu, navy suit)
       and his lawyer (bh_lawyer); at the right, Jaeha alone, with Nib and Borro standing stiffly behind his chair. Behind a
       wooden rail, a packed public gallery of reporters with cameras, Bomi with her phone, Yerin and Choi, and in the back row,
-      the crossbow woman (bh_crossbow) with her legs crossed.
+      the crossbow woman (han_sora) with her legs crossed.
     acting:
       inspector_ryu: "at the centre of the panel desk, glasses on, shuffling papers"
       mok_hangyu: "sitting square, hands folded, a solemn face for the cameras"
       bh_lawyer: "tapping his tablet, smiling slightly"
       kang_jaeha: "sitting upright and small at the right table, hands on the folder"
-      bh_crossbow: "leaning back in the gallery's back row, legs crossed, watching Jaeha with amusement"
+      han_sora: "leaning back in the gallery's back row, legs crossed, watching Jaeha with amusement"
     calm: top
     sfx:
       - {text: "KSHK KSHK", style: quiet, at: [0.80, 0.70], size: S, rot: 0}
@@ -746,14 +746,14 @@ panels:
     shape: wide
     gap: short
     bg: black
-    camera: "low, tilted: the construct swinging a pillar arm down at Borro, Borro catching it on his shield without moving his feet"
+    camera: "low, tilted: the construct swinging a pillar arm down at Borro, Borro skidding back on his heels behind his shield"
     light: "floodlights; dust"
     art: >
-      The construct swings a pillar of an arm down at Borro; Borro raises his shield and catches the blow without moving his
-      feet, still in his stiff "husk" pose; dust bursts off the stone.
+      The construct swings a pillar of an arm down at Borro; Borro raises his shield and is shoved back several metres, his
+      heels ploughing two grooves in the padded floor, still in his stiff "husk" pose; dust bursts off the stone.
     acting:
       training_construct: "swinging its arm down in a great arc"
-      borro: "shield raised, catching the blow, stiff-legged, perfectly still"
+      borro: "shield raised, skidding back on his heels, stiff-legged, face perfectly still"
     calm: top
     sfx:
       - {text: "KRANNG", style: impact, at: [0.40, 0.30], size: XL, rot: -6}
@@ -1133,11 +1133,11 @@ panels:
     camera: "eye level through the glass doors into the atrium: the crossbow woman leaning on a pillar inside, looking straight out at him"
     light: "the atrium's daylight; reflections on the glass"
     art: >
-      Through the tall glass doors, in the atrium: the Black Hound crossbow woman (bh_crossbow) leans against a pillar inside
+      Through the tall glass doors, in the atrium: the Black Hound crossbow woman (han_sora) leans against a pillar inside
       with her arms folded under the cropped jacket, one boot crossed over the other, looking straight out through the glass at
       Jaeha, a faint red-lipped smile. Reflections of the crowd slide across the glass over her.
     acting:
-      bh_crossbow: "leaning on the pillar, arms folded, head tilted, a slow amused smile, eyes on Jaeha"
+      han_sora: "leaning on the pillar, arms folded, head tilted, a slow amused smile, eyes on Jaeha"
     eyeline: "the crossbow woman → Jaeha"
     calm: top
     silent: true
@@ -1150,9 +1150,9 @@ panels:
     camera: "close on the crossbow woman's face behind the glass, her smile widening, one finger lifting in a tiny wave"
     light: "glass reflections"
     art: >
-      Close on the crossbow woman (bh_crossbow) behind the glass: her smile widens and she lifts one finger in a tiny wave.
+      Close on the crossbow woman (han_sora) behind the glass: her smile widens and she lifts one finger in a tiny wave.
     acting:
-      bh_crossbow: "a widening red-lipped smile, one finger lifting off her arm in a tiny wave, eyes half-lidded"
+      han_sora: "a widening red-lipped smile, one finger lifting off her arm in a tiny wave, eyes half-lidded"
     eyeline: "the crossbow woman → Jaeha"
     calm: right
     silent: true
@@ -1196,11 +1196,11 @@ panels:
     shape: strip
     gap: short
     bg: white
-    camera: "extreme close-up of the compass face: the violet needle stopping dead, pointing out through the glass doors"
+    camera: "extreme close-up of the compass face: the violet needle settling loosely toward the glass doors, trembling"
     light: "violet glow"
     art: >
-      Extreme close-up of the compass face: the violet needle swings, slows and stops dead, pointing straight out through the
-      glass doors toward the steps. Fill the canvas edge to edge.
+      Extreme close-up of the compass face: the violet needle swings, slows and settles loosely, trembling, toward the glass doors
+      and the steps beyond. Fill the canvas edge to edge.
     calm: none
     silent: true
     sfx:
@@ -1218,12 +1218,12 @@ panels:
       foreground): the compass in her hand points straight through the glass at Jaeha, small on the sunny steps outside, Nib
       and Borro beside him.
     acting:
-      bh_crossbow: "seen from behind, holding the compass up at eye level"
+      han_sora: "seen from behind, holding the compass up at eye level"
     eyeline: "the crossbow woman → Jaeha"
     foreground: "the woman's black bob and shoulder, cropped, left third"
     calm: top
     lines:
-      - {who: bh_crossbow, type: whisper, text: "THERE YOU ARE.", side: r}
+      - {who: han_sora, type: whisper, text: "THERE YOU ARE.", side: r}
 
   - id: END
     kind: end

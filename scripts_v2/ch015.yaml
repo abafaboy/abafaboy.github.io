@@ -6,7 +6,7 @@ story_beats: ARC3_4_BEATS.md#15-pass
 cast:
   kang_jaeha: vest
   nib: mask                 # field form from P03; the mask stays on inside the gate out of habit
-  borro: default            # no husk face inside the gate (only friends); field form from P03
+  borro: default            # no husk face inside the gate (only friends); field form from P03 (cooldown pause P27–P29)
   song_yerin: default
   choi_dongmin: default
   yoo_bomi: default
@@ -15,7 +15,7 @@ locations: [aqueduct_gate]
 continuity:
   - "Jaeha: the orange vest with Seoa's red stitches on the back patch, the grey hoodie, plasters on both palms (healing), the forearm bandage. Fringe over the LEFT eye, pencil behind the RIGHT ear, notebook in the LEFT chest pocket."
   - "Nib: seal 2/5 look, the cracked husk mask; field form (amber eyes, thin amber outline) from P03 to P50, with the cooldown pause P27–P29 (rest form) and field form again from P30."
-  - "Borro: no husk face inside the gate; field form (moss-green eyes, thin moss-green outline) from P03 to P50; the iron shield; the slate shell with moss and flowers."
+  - "Borro: no husk face inside the gate; field form (moss-green eyes, thin moss-green outline) from P03 to P50, with the same cooldown pause as Nib (P27–P29, rest form); the iron shield; the slate shell with moss and flowers."
   - "Yoo Bomi: her full design and the new drone with the pink ribbon; the drone stays OFF for this job (Jaeha's rule): it sits in her hands."
   - "The basalt boar (new design, see ARC3_4_BEATS.md): a hushed boar the size of a truck, 2.5 m at the shoulder and 5 m long, its hide plated with slabs of black basalt with rough edges like broken paving, coarse dark bristles between the slabs, two curved tusks of glassy black obsidian, small red-brown eyes, and a small violet Hush crack on its brow. It charges in straight lines and lowers its head three strides before impact: that is its tell. Scale: its shoulder is a head higher than Borro's head."
   - "The aqueduct gate (new location aqueduct_gate): outside, a closed water-treatment plant with round settling tanks and a fence; the gate slit in an empty tank. Inside, a ruined Far Side aqueduct: a long stone water channel on top of a row of tall arches crossing a deep gorge, the channel's floor 6 m wide with knee-high walls, shallow water running along it; broken arches far below; a pale yellow sky. The channel is the only path: one way in, one way out."
@@ -510,16 +510,17 @@ panels:
     shape: inset-l
     gap: short
     bg: navy
-    camera: "close on Nib landing on the channel wall as the amber goes out of his eye"
+    camera: "close on Nib landing on the channel wall as the amber goes out of his eye, Borro's green glow fading behind him"
     light: "the amber dying"
     art: >
       Close on Nib (nib, mask) landing on the channel wall as the amber goes out of his eye and his outline fades: rest form.
-      The top part is empty for the window.
+      Behind him, Borro's (borro) moss-green glow fades too. The top part is empty for the window.
     acting:
       nib: "landing in a crouch, suddenly heavier, eye dull"
+      borro: "behind him, the glow going out of his eyes, lowering the shield a little"
     calm: right
     ui:
-      - {kind: system.notice_small, "on": float, at: [0.5, 0.06], text: "[NIB · FIELD FORM ENDED · COOLDOWN 01:00]"}
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.06], text: "[NIB · BORRO · FIELD FORM ENDED · COOLDOWN 01:00]"}
     silent: true
 
   - id: P28
@@ -563,7 +564,7 @@ panels:
     light: "amber flaring; cyan from the window"
     art: >
       Nib (nib) climbs up and stands on the top rim of Borro's buckled shield, balanced like a cat on a fence, as his eye flares
-      amber again; Borro steadies the shield; Jaeha stands right behind Borro with one hand flat on his shell. The upper part
+      amber again and Borro's eyes glow moss green again; Borro steadies the shield; Jaeha stands right behind Borro with one hand flat on his shell. The upper part
       is empty for the window.
     acting:
       nib: "balanced on the shield's rim, knives drawn, eye blazing, crouched"
@@ -571,7 +572,7 @@ panels:
       kang_jaeha: "one hand flat on Borro's shell, eyes down the channel"
     calm: top
     ui:
-      - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[COOLDOWN 00:00 · NIB · FIELD FORM 05:00]"}
+      - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[COOLDOWN 00:00 · NIB 05:00 · BORRO 05:00]"}
     silent: true
 
   # ================= PASS (P31–P50) =================

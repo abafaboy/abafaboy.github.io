@@ -5,7 +5,7 @@ when: "Wednesday night just after midnight: the outdoor table of a convenience s
 story_beats: ARC3_4_BEATS.md#14-the-compass
 cast:
   kang_jaeha: vest          # hoodie only (see continuity)
-  nib: mask                 # rest form except two one-second flashes (P17, P19)
+  nib: mask                 # rest form except one one-second flash (P17)
   borro: default
   han_sora: default         # the Black Hound crossbow woman (bh_crossbow in ch 1–13); name card P05
   kang_seoa: default
@@ -16,8 +16,9 @@ cast:
   store_clerk: default      # generic
 locations: [conv_store, rooftop_room, hanriver_gate_flashback]
 continuity:
+  - "Kang Seoa (15): her outfit as each panel says; glasses, the calculator keychain. Never any fan service. The camera stays at her eye level or above, never below."
   - "Jaeha: the grey hoodie all chapter (no vest), hood down, plasters on both palms, the forearm bandage. Fringe over the LEFT eye, pencil behind the RIGHT ear, the notebook in the hoodie's front pocket."
-  - "Nib: seal 2/5 look; the cracked husk mask at the convenience store; no mask at home. Rest form except two one-second flashes of field form under the table (P17, P19: amber eye, thin amber outline, gone at once)."
+  - "Nib: seal 2/5 look; the cracked husk mask at the convenience store; no mask at home. Rest form except one one-second flash of field form under the table (P17: amber eye, thin amber outline, gone at once)."
   - "Han Sora (han_sora; CHARACTER_DESIGNS_v2.md 2.5 hunter 5, the full sheet characters_v2/han_sora/): 27, about 168 cm, athletic and curvy; a sleek black chin-length bob, winged eyeliner, red lips; the black Black Hound jacket cropped at the waist and worn open over a fitted black tank top with a low scoop neckline; fitted black tactical trousers with a thigh holster; black boots; the compact crossbow slung across her back. The brass compass hangs from a short chain on her wrist like a charm. Flirtatious, amused, dangerous; never Jaeha's love interest. Fan service per CHARACTER_DESIGNS_v2.md: a beautiful face and a confident pose, nothing explicit, no camera aimed at her chest."
   - "The compass: brass, the size of a coin-purse, a glass face, and a needle that is a sliver of smoky violet core crystal, glowing faintly. It swings toward a summon in field form; with no summon awake it points vaguely toward Jaeha."
   - "Oh Minseok (flashback): Jaeha's mentor, in his late thirties, the same orange trap-tester vest as Jaeha's (older, more patched), a kind, crooked grin, short hair going grey, a scar through one eyebrow. Young Jaeha (20) in the flashback: the same look with a shorter fringe, no gloves, a brand-new vest. Young Choi (30): the rescue jacket, no eye bags yet."
@@ -207,11 +208,11 @@ panels:
     shape: wide
     gap: short
     bg: black
-    camera: "low, close two-shot: Sora leaning closer to Jaeha, Jaeha not moving"
+    camera: "eye-level close two-shot: Sora leaning closer to Jaeha, Jaeha not moving"
     light: "fluorescent"
     face: public
     art: >
-      Close and low: Sora (han_sora) leans even closer to Jaeha, her shoulder almost touching his; he does not move.
+      Close, at eye level: Sora (han_sora) leans even closer to Jaeha, her shoulder almost touching his; he does not move.
     acting:
       han_sora: "leaning in close, voice low, eyes on his face"
       kang_jaeha: "very still, eyes forward, a polite smile"
@@ -354,15 +355,15 @@ panels:
     shape: inset-l
     gap: short
     bg: black
-    camera: "close on the compass again, a moment later: the needle snapping toward Nib once more as his eye flashes amber in the glass"
+    camera: "close on the compass again, a moment later: Nib's amber gone, the needle drifting slowly back toward Jaeha"
     light: "an amber reflection in the compass glass"
     art: >
-      Close on the compass a moment later: Nib's eye flashes amber again, reflected tiny in the compass glass, and the needle
-      snaps toward him once more.
+      Close on the compass a moment later: in the glass, Nib's reflected eye is dull again, and the needle drifts slowly back
+      round until it leans loosely toward Jaeha.
     calm: right
     silent: true
     sfx:
-      - {text: "TIK!", style: quiet, at: [0.60, 0.30], size: S, rot: 0}
+      - {text: "tik...", style: quiet, at: [0.60, 0.30], size: S, rot: 0}
 
   - id: P20
     recipe: reaction
@@ -398,7 +399,7 @@ panels:
       the letterer's note. No readable text.
     calm: none
     lines:
-      - {who: kang_jaeha, type: note, text: "IT FINDS THEM WHEN THEY'RE IN FIELD FORM. NOT ME."}
+      - {who: kang_jaeha, type: note, text: "IT SNAPS TO THEM IN FIELD FORM. WHEN THEY REST, IT ONLY LEANS AT ME."}
 
   - id: P22
     recipe: talk

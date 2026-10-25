@@ -1,0 +1,121 @@
+# Arc 5 (chapters 34–40): The Wall of Busan, chapter beats
+
+**What this is.** `STORY_BIBLE_v4.md` gives Arc 5 in four lines: Pim joins (36) and hears the Busan sea gate's seal failing, 72 hours left; Jaeha trains against that clock while Kanghan watches him; the sea gate breaks, and he makes his first kill with STORE / RELEASE I (40); it ends when Pim hears a call sign from inside a gate, Kett's. This file turns that into chapter beats for the scripts. Choices the bible leaves open are marked **(decision)**. The owner said "keep working. make all the decisions."
+
+**Where season one left things (ch 33, as written).** Busan, Sunday dawn, at Auntie Geum's harbour stall. Jaeha is in a wheelchair, his hands shaking: [OPERATOR BODY: CRITICAL · CARRY CAPACITY EXCEEDED 14 TIMES · BODY RATING: F]. Geum: "Your head is S-rank. Your body is garbage." She saw a man carry like that ten years ago, the night the gates opened. [NEW QUEST: THE WALL OF BUSAN · TRAIN THE OPERATOR'S BODY · REWARD: ???]. Her steel arm twitches; out at sea the old lid over the Busan sea gate cracks; [WARNING: A SEALED GATE IS FAILING · NEAR]. Choi drove him down; Nib, Borro and Lyra came too. Seoa is at home in Seoul.
+
+**Meters carried over:** Operator Lv. 6; summon slots 3/3 (Nib, Borro, Lyra); Route Alignment 60%; seals Nib 3/5, Borro 1/5, Lyra 1/5; LINK Lv. 3 (600 m); CARRY Lv. 2 (two summons at once); PASS I; field form 05:00, cooldown about a minute inside a gate and several hours outside, except in a break. Rule (ch 6): a new boss kind adds 10% × the Operator level.
+
+**Rules every chapter keeps** (`SCRIPT_FORMAT_v2.md`): danger, comedy or strangeness in the first five panels; the title card 15–40% of the way in; two turns; one smart move by Jaeha; one or two short laughs; a window with numbers for every rule, reward and limit; a fight that adds something new and that the enemy can really win; and a closing hook whose type differs from the previous chapter's.
+
+## Arc 5 decisions
+
+- **The Busan sea gate.** It opened on the night of the Opening, ten years ago: a ring of gate light 300 m across on the seabed two kilometres off the harbour, an S-grade gate whose boss never died. A gate can't close while its boss lives, so for three days the navy and every hunter in Busan capped it with a lid of stone slabs hauled out of the gate's own ruins and steel plates bolted over them, and the boss has pushed at it from below ever since. Geum, then 52 and S-rank, held the breakwater while they built it and lost her left arm doing it. That is why they call her the Wall of Busan, and why her stall sits on the harbour's edge: it is a watch post.
+- **The man who carried (the series mystery, glimpsed).** That night Geum saw a young man walk down the breakwater with "fighters made of light". He sent them into the sea first. She saw him bleed for them, nose and hands, the way Jaeha does; then he stopped bleeding, because he stopped carrying them, and they kept going in, and none came back. He walked to the end of the breakwater and was gone, and the sea gate opened. She never knew his name. (Operator #1. Part One shows him only through glitches; this is one.)
+- **The boss: the Deep Lantern (decision).** One of that man's fighters, hushed: a sea-folk hero from the Far Side who was a living lighthouse, a leviathan about 150 m long who carried a great lantern on her crest and guided her people's boats home through storms. Hushed, her lantern burns violet and lures people into the water instead. Pim hears her real name once, at the end: Oriel. Her signal still says "Operator?", and near her Jaeha's interface glitches: [OPERATOR #1 — STATUS: HUSHED].
+- **Kanghan's play: "Make him come to us."** Kanghan Marine holds the lid's maintenance contract. Baek's plan is to anchor the boss with the farm's chains while "reinforcing" the lid, which would make Busan the largest core farm in Korea. Deputy Director Hwang has the Association's Busan branch dismiss Jaeha's warnings as "unreliable". Sora brings Baek's offer: consult for Kanghan Marine, bring the husks, save the city, name your price. Jaeha refuses. Kanghan drills the lid to set its anchors, and the drilling breaks the seal two days early (ch 38).
+- **How Pim arrives (meters).** In ch 35 Geum takes Jaeha into a small new gate that the leaking sea gate has opened in a fish-market cold store. Its boss is a new kind, so Route Alignment rises by 60% (10% × Lv. 6) to 100%, and Operator Lv. 7 adds a fourth slot. In ch 36 the CALL brings Pim and Route Alignment drops to 0. At Lv. 7, field form rises to 06:00. The Deep Lantern (ch 40) adds 70%: Route Alignment ends the arc at 70%.
+- **The new skills.** STORE is learned in training (ch 38): Jaeha reads the PASS window like a contract and finds the clause that lets the Operator hold force in transit instead of passing it on. [NEW SKILL: STORE · LV. 1 · 1 STRIKE]. He first lets it out in ch 40: [NEW SKILL: RELEASE I]. The cost is bones, not the heart: too much at once breaks them. CARRY is the one that can stop his heart (ch 33), which is why Geum's lesson is "Don't carry it. Hold it."
+- **His body.** Geum's training raises CARRY CAPACITY a few percent a day ([CARRY CAPACITY 100% → 104%] and so on) and the body rating from F to F+ by ch 40. He is still weak; the arc's point is that he learns to hold force, not that he becomes strong.
+- **Training (decision):** 4:00 run the breakwater; 5:00 carry ice at the fish market; 6:00 tteokbokki; 7:00 one more set; 8:00 just one more. Summons may not carry for him. His smart move in ch 34: the window raises capacity for sustained load, not peak load, so he asks for the thing he can hold longest, not the heaviest.
+- **Where everyone is.** Nib, Borro and Lyra stay at Geum's (Borro sleeps in the boat shed). Choi goes back to Seoul and returns for the break. Bomi comes down on Thursday to stream. Yerin comes with Choi on Friday. Seoa takes the train down on Friday after school to drag her brother home for dinner at seven, and runs the market evacuation in ch 39 with Geum's market aunties (she ran Mangwon's in ch 11). Moon Ahin arrives on Thursday with her 28 husks and Saebyeok ("I was passing"), finds Kanghan Marine's papers, and is shut out of the barge by her uncle's order. It is not yet her break with him (that is ch 75).
+- **Nib and the chains.** Nib learned in ch 26 that Kanghan chained his commander. When Kanghan's anchors fire at the Deep Lantern (ch 39), Nib cuts them: "No more chains."
+- **Moon Ahin names her husks (decision).** Before the break she gives the first few of them names, quickly, under her breath (ch 39): Jaeha's "I name everything I don't want to lose" (ch 25) answering her uncle's rule.
+- **The core (decision).** After the kill the window offers only HARVEST again. Pim hears the hero ask to go home. Jaeha remembers there was once a RELEASE button (ch 4, ch 8). He presses HARVEST only to keep her out of Kanghan's chains, keeps the core instead of selling it, and promises to find the button and take her home (ch 50 pays it off).
+- **Fan service** (owner's direction; adults only, nothing explicit, no angle up a skirt or at a crotch): Lyra in the sea at dawn (34) and in the swimsuit Bomi buys her for a stream (37); Han Sora at a hotel rooftop pool in a swimsuit, delivering Baek's offer (37); Moon Ahin in a white summer dress and wide hat (37) and in battle (39). Seoa never; Yerin covered; Geum's glory is a warrior's.
+
+## New faces and places (decisions)
+
+- **Pim**, moth-folk signal keeper, summon number four (bible): 1.4 m of fluffy cream fur, huge black eyes, feathery antennae, soft wings folded like a cape; dramatic, a gossip, mad about festivals and K-dramas, though loud places hurt his antennae; brave when it counts. He calls Jaeha "boss". He has listened to every one of Jaeha's calls since chapter 1 from a broken signal tower on a silent plain, the last listener left. In Busan he "borrows" a gaming headset from a PC bang to muffle the city. Rest form: he hears signals near him. Field form: his wings open, his antennae glow, and he can hear across the city and send a signal of his own.
+- **The Deep Lantern** (boss, ch 39–40): above.
+- **Brine crawlers** (Hush-spawn): dog-sized crab-things with eel tails, violet cracks and needle mouths; they come up the breakwater in hundreds in a break.
+- **The Reef Hermit** (ch 35 boss, new kind): a hermit crab 4 m tall whose shell is a sunken stone shrine with a bronze bell still inside, in a flooded Far Side shrine.
+- **Branch Chief Yang** (generic): head of the Association's Busan branch, 60s, an old friend of Geum's, overruled from Seoul.
+- **Kanghan Marine**: a black-hulled crane barge over the lid, with Kanghan engineers (the farm's grey coveralls) and tactical troopers.
+- **The market aunties** (generic chorus): three fish-market stallholders, Geum's friends: they bet on Jaeha, feed Borro and follow Seoa's orders.
+- **Places:** the breakwater and its red lighthouse; the harbour fish market (inside and the cold store); the cold-store gate (a flooded shrine); the Association's Busan branch; a hotel rooftop pool over the harbour; a Busan beach with the skyline; the Kanghan barge; a PC bang; the harbour during the break; the sea gate (exists).
+
+---
+
+## 34. Just One More (hook: threat)
+- **Cold open:** Monday, 4:00 AM, black sky, the breakwater. Jaeha in a borrowed purple tracksuit (Geum's spare) staggers along it while Geum rides beside him on a moped, shouting through a rolled-up newspaper. He collapses at the lighthouse. Borro picks him up like a sack of rice; Geum: "Put him down. Summons don't carry the Operator."
+- **Title card.**
+- **The rule:** the Operator carries for them, so the Operator gets strong. [CARRY CAPACITY: 100%].
+- **5:00, the fish market:** ice crates; the aunties bet on how many he'll drop; Borro becomes the market's favourite; Lyra hates the smell of fish.
+- **Smart move:** he reads the window's small print: capacity rises with sustained load, not peak load. So he asks for the thing he can hold longest: a tray of ice held for an hour while he writes in his notebook. [CARRY CAPACITY 100% → 104%]. Geum, to herself: "Head S-rank."
+- **Laughs:** Seoa on a video call reads him the budget and makes him promise to be home by Friday; Bomi begs to stream "TRAP RATS IN BUSAN"; Geum: "No cameras in my tent."
+- **Fan service:** at dawn Lyra wades into the sea to wash the fish smell off and stands in the surf wringing out her braid; the fishermen forget their nets.
+- **Kanghan watching:** a black sedan on the harbour road; Han Sora with binoculars and a new brass compass, on the phone to Seoul: "His hands still shake."
+- **The sea:** dead fish with violet-tinged scales wash up; Geum's steel arm twitches; the warning window again. Geum and Nib understand each other: she gives him a stool and soup, a soldier to a soldier.
+- **Night:** he asks about the man ten years ago. "One more set."
+- **Hook (threat):** a scream at the lighthouse. Something with an eel's tail and a crab's claws drags itself out of the black water onto the breakwater toward a fisherman. The summons are on cooldown from the day. Geum steps in front of Jaeha with her ladle: "Get behind me, kid."
+
+## 35. The Wall (hook: arrival)
+- **Cold open:** one strike of the ladle, and the brine crawler bursts into ash. The ladle rings like a bell. Jaeha's eyes narrow: she didn't hit hard. She let something go.
+- **Geum's story (flashback, in greys):** the night of the Opening; the sea boiling violet; Geum at 52 with both arms, holding the breakwater with her team; the young man with the fighters made of light; he bleeds for them, then stops bleeding, and they don't come back; he walks off the end of the breakwater into the dark; the thing rising; her arm; three days building the lid. "I've stood on this breakwater every night since."
+- **Title card.**
+- **Inner:** someone carried like him. And then stopped.
+- **The test (decision):** a small gate has opened in a fish-market cold store (the sea gate's leaking mana). Geum takes them in. Her rule: no carrying. [CARRY: DISABLED BY OPERATOR]. Jaeha has to watch Nib get cut and not take it.
+- **Fight:** a flooded Far Side shrine; the Reef Hermit in its stone-shrine shell, the bronze bell clanging inside it. Borro is pinned; Lyra's arrows bounce; Nib bleeds.
+- **Smart move:** hermit crabs leave a shell for a bigger one. "Borro. Look roomy." The Hermit crawls out of its shrine to claim Borro's shell, its soft body bare for two seconds, and Lyra puts an arrow through it.
+- **Windows:** [BOSS DEFEATED: REEF HERMIT (NEW KIND) · ROUTE ALIGNMENT 60% → 100%]; [OPERATOR LV. 6 → 7 · SUMMON SLOTS 3 → 4 · FIELD FORM 05:00 → 06:00]; the harvest window offers only HARVEST (₩2,000,000).
+- **Laugh:** Geum pays the summons in tteokbokki; Lyra counts her fish cakes.
+- **Hook (arrival):** night on the breakwater, a fourth slot glowing: [CALL: READY]. "Call them, then," says Geum. He touches the mark; the black water of the Call; and an inch from his face, two enormous black eyes and a pair of feathery antennae: "FINALLY! I'VE BEEN WAITING FOREVER!"
+
+## 36. Pim (hook: mystery)
+- **Cold open:** in the Call, Pim talks without breathing: he has heard every call since the free ramen. Is it true the archer only came for the cameras? Is the goblin single?
+- **Pim's rift:** a broken signal tower on a dark, silent plain. Everyone he listened to has gone quiet, one by one. "Your world is so loud. I love it."
+- **Title card.**
+- **His wants:** festivals; the dramas that leak through the gates ("the one with the chaebol and the amnesia, episode fourteen cut out!"); to stop being the last one listening.
+- **Smart move (the offer):** Jaeha doesn't promise much: Busan has a film festival this month, and he needs ears, because the thing under the sea is getting louder. Pim screams.
+- **Windows:** [SUMMON 4: PIM · SIGNAL KEEPER · SEAL 1/5]; [ROUTE ALIGNMENT 100% → 0%].
+- **On Earth:** Pim tumbles onto the breakwater, and Busan's noise floors him; Geum ties her headscarf over his antennae; next morning he comes back from a PC bang in a gaming headset with its owner chasing him. Lyra and Pim become a gossip alliance; Nib "......"; Borro gives him lettuce.
+- **Pim listens to the sea:** "Boss. It's counting." [SEALED GATE · BUSAN · LID INTEGRITY 9% · ESTIMATED FAILURE 72:00:00].
+- **Hook (mystery):** deeper under the count, a vast, slow, broken voice: "...O...PER...A...TOR...?" Pim, shaking: "Boss, it knows what you are." A window flickers and is gone: [OPERATOR #1 — STATUS: HUSHED]. "...Number one?"
+
+## 37. Make Him Come to Us (hook: threat)
+- **Cold open:** Thursday, the Association's Busan branch. Branch Chief Yang believes Geum, then takes a video call from Seoul: Deputy Director Hwang calls Mr. Kang's reports "unreliable"; Kanghan Marine holds the lid contract. Jaeha sees the hexagon under his lapel again.
+- **Out at sea:** a black-hulled Kanghan crane barge anchored over the lid, drills on cables.
+- **Title card.**
+- **Fan service and the offer:** a hotel rooftop pool over the harbour; Han Sora on a lounger in a swimsuit, sunglasses up, a cocktail. Baek's offer: consult for Kanghan Marine, bring the husks, save Busan, name your price. Her tablet shows the anchor specs: the farm's chains, the same stamped mark. "You don't want to hold the lid. You want to keep what's under it." "Keeping is a kind of saving, isn't it? The Director says the hospitals here run on cores too." "Tell him no." "He said you'd say that. He also said you'd come to us anyway."
+- **Lyra's temptation (fan service):** on the beach, Bomi's stream "LYRA TRIES THE SEA!" in the river-blue swimsuit Bomi bought her; a Kanghan PR team offers her a sponsorship: applause, money, her face on every billboard. Lyra, tempted, then: "I already have a merchant. He's terrible at business. I'm keeping him."
+- **Moon Ahin arrives** in a white summer dress and a wide hat, Saebyeok carrying her parasol: "I was passing." She has seen Kanghan Marine's papers: a second farm. She goes out to the barge as the inspection, and the engineers refuse her: "The Director's orders. Not even the heir." She comes back white with anger. Lyra and Moon Ahin on the beach: a rivalry beat.
+- **Smart move:** Jaeha puts Pim on the barge's radio traffic from the breakwater.
+- **Hook (threat):** Pim relays: they'll drill the lid tomorrow to set the anchors before it breaks; if it breaks while they drill, they chain the boss as it comes up. "Boss... they're going to break it to keep it."
+
+## 38. Store (hook: countdown)
+- **Cold open:** Friday, 4:00 AM. Geum: "Today you stop carrying." She takes Borro's full punch on the bowl of her ladle, holds it for a breath, and lets it out into a concrete tetrapod, which splits.
+- **The lesson:** "A wall doesn't push back. It holds. Then it gives it back." Her S-rank skill was to hold force; that is what the steel arm still remembers.
+- **Title card.**
+- **Smart move:** Jaeha reads the PASS window like a contract and finds the clause: [PASS: FORCE IN TRANSIT MAY BE HELD BY THE OPERATOR · RISK: BONE DAMAGE]. First try: he holds Borro's blocked hit instead of passing it to Lyra, and drops it, with a nosebleed and a cracked finger. Second try, three seconds: [NEW SKILL: STORE · LV. 1 · 1 STRIKE · HOLD 00:03]. "Hold it. Like the cup." Ten seconds; thirty.
+- **Out at sea:** the barge drills; Pim reports the count falling faster: 72 hours becomes 40, then 30.
+- **Lyra's dive (fan service):** river-folk, she swims down to the lid with Pim's ears guiding her; through LINK Jaeha sees the anchors bolted into the stone, the crack spreading, and something vast turning beneath. She surfaces on the barge's fender and blows them a kiss.
+- **Moon Ahin calls her uncle:** "Stop the drilling." Baek: "Do you want Busan dark, Ahin?" She hangs up.
+- **Seoa arrives** at the stall at 6:40 PM with a backpack: it's Friday; dinner is at seven. Geum and Seoa size each other up and become allies at once.
+- **Hook (countdown):** 6:59 PM. The drill punches through. [LID INTEGRITY 9% → 2% · ESTIMATED FAILURE 72:00:00 → 00:59:59]. Pim's antennae flatten: "It's awake." Geum picks up her ladle. "Kid. Dinner's late."
+
+## 39. The Wall of Busan (hook: decision)
+- **Cold open:** 7:00 PM, sirens over the harbour; beyond the breakwater the sea bubbles violet; the Kanghan barge lists.
+- **Evacuation:** Seoa takes command of the market with Geum's aunties and a megaphone ("Don't run, and don't stop"); Bomi streams the evacuation routes to the city; Choi's van and Yerin arrive.
+- **Title card.**
+- **The break:** 00:00. The lid bursts. Brine crawlers swarm up the breakwater. Gate mana floods the harbour, so field form works. The summons go first: Nib, Borro, Lyra, Pim (field form: his wings open, and his signal finds where they're coming up). Geum on the breakwater with the ladle: the Wall of Busan stands again (glory beat for her).
+- **Moon Ahin arrives** with 28 husks and Saebyeok off a truck: "Number four. Where do you want my orchestra?" She names the first few husks under her breath.
+- **The husk wall:** Jaeha LINKs and CARRYs her husks (the ch 30 trick): a white wall along the breakwater. [LINK: 4 SUMMONS + 29 HUSKS · CARRY LOAD 160%] [OPERATOR BODY: CRITICAL · CARDIAC RISK].
+- **The chains:** the barge fires anchors at the rising boss; Kanghan troopers winch. Nib cuts them: "No more chains."
+- **The boss rises:** THE DEEP LANTERN, a leviathan with a violet lantern on her crest; people on the docks start walking toward the water, lured. Pim's field-form signal breaks the lure (his moment).
+- **"Two walls":** her hand slams down on the breakwater; Borro and Geum hold it together.
+- **The dilemma:** Jaeha bleeds from the nose and ears; his heart stutters. Geum: "That's how he died. He carried until he couldn't, then he stopped carrying, and they died." "Then what do I do?" "Don't carry it. Hold it."
+- **Hook (decision):** he lets the husks go back to Moon Ahin ("Ahin. They're yours"), and opens his hands toward Borro: "Pass me the next one. All of it." [STORE: READY]. The Deep Lantern raises her hand over the breakwater.
+
+## 40. First Kill (hook: mystery)
+- **Cold open:** the hand comes down; Borro blocks; Jaeha PASSes the blow into himself and holds it. His bones creak; his skin glows white-gold. [STORE: 1 STRIKE · 340% · HOLD 00:10]: ten seconds before his bones give.
+- **The summons go first:** Nib runs up her arm and opens the way; Lyra shoots out the glare of the lure; Pim calls Jaeha's footing; Moon Ahin's husks make a stair up her flank (the husk bridge again); Geum throws him with her steel arm: "Go, kid!"
+- **Title card** (late: at about 25%).
+- **At the crack:** Pim hears the hero under the Hush: "...take... them... home..." The fishing boats are still out on the black sea.
+- **RELEASE:** his own fist, everything he holds. [RELEASE I]. The crack shatters. Her lantern flares white, and for a moment she is a lighthouse again: on the dark sea the boats turn toward her light and come safely in. Pim hears her name: Oriel.
+- **Windows:** [BOSS DEFEATED: THE DEEP LANTERN · FIRST KILL]; [NEW SKILL: RELEASE I]; [ROUTE ALIGNMENT 0% → 70%]; [THE GATE IS CLOSING].
+- **The sea:** he falls; Lyra dives and brings him up.
+- **The core:** [HARVEST CORE · EST. ₩??? · NO OTHER OPTION]. Pim: "She wants to go home, boss." "Last time there was a RELEASE button." He presses HARVEST only to keep her out of Kanghan's chains, holds the lantern-shaped core and promises to find the button. Sora, on the barge, laughs: "The Director is going to hate this."
+- **Aftermath:** his right forearm broken; Yerin heals what she can; Seoa: "Dinner. Now." The aunties feed everyone on the breakwater; Bomi's stream; Busan chants for the Trap Rats. Geum: "One more set?" "Tomorrow."
+- **Seoul:** Baek watches. Hwang asks if they should act. "No. Let him get strong. Strong things are easier to keep."
+- **Hook (mystery):** late at night on the breakwater, Pim's antennae lift. Someone is calling from inside a gate: small, scared, a goblin scout's call sign. Nib's knives clatter onto the stone. "...Kett."

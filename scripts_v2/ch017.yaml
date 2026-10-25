@@ -6,7 +6,7 @@ story_beats: ARC3_4_BEATS.md#17-thirty-seconds
 cast:
   kang_jaeha: vest
   nib: mask                 # field form from P24
-  borro: default            # husk face; field form from P24; Bomi's drone in his moss
+  borro: default            # husk face; field form P24–P51, released to rest form in the chalk ring at P52 (called again at ch 18 P01); Bomi's drone in his moss
   song_yerin: default
   mok_hangyu: default
   han_sora: default
@@ -20,7 +20,7 @@ continuity:
   - "Nib: seal 2/5 look, the cracked husk mask; field form (amber) from P24. Borro: the white husk face; field form (moss green) from P24; Bomi's white drone with the pink ribbon nested in the moss on his shell, its lens peeking out between the flowers."
   - "Mok: the black guild jacket, the gold chain, the black tower shield with the red hound, the short sword. Inside the chamber from P03, soaked."
   - "The seal (P04–P08): the sealer drives the black steel stake into the floor outside the bronze doors and a web of violet light spreads over the doors from it; a small timer glows on the stake's head. From inside, the doors are cold and humming and will not move."
-  - "The boss chamber (new location boss_chamber_bells): a round chamber 30 m across and 25 m high under a dome, flooded knee-deep, ringed with pillars; bronze bells of every size hang from the dome on chains; a narrow stone stair winds up the back wall to a small dark door 6 m above the floor (the bell-ringer's door: the second exit Nib found, which leads out to the chapel behind the altar). The front is the sealed bronze double doors."
+  - "The boss chamber (new location boss_chamber_bells): a round chamber 30 m across and 25 m high under a dome, flooded knee-deep, ringed with pillars; bronze bells of every size hang from the dome on chains; a narrow stone stair winds up the back wall to a small dark door 6 m above the floor (the bell-ringer's door: the second exit Nib found. It opens on a flooded service passage that runs down through the crypt to the gate's rim; behind the chapel altar there is only a scout-sized crack into that passage, too tight for armoured men with a stake and a cable pack, though a slim woman can squeeze through). The front is the sealed bronze double doors."
   - "The Drowned Bell-Ringer (new design, see ARC3_4_BEATS.md): a hushed giant 6 m tall, its body like drowned grey stone wrapped in rotting dark-blue robes and rusted chains, long arms, huge hands; in place of a head, a cracked bronze cathedral bell green with age, with a violet Hush crack down its side leaking ash, and darkness inside its mouth. It carries a bell clapper the size of a tree trunk as a hammer. When it tolls, a ring of force bursts out from it a step beyond its own reach; inside its arm's length, the force passes over you. B-grade; a hushed hero. Scale: Borro reaches its waist; Jaeha reaches its knee."
   - "The flooded crypt (P13–P14): a low-vaulted stone crypt filling with black water, the two sealers chest-deep and climbing onto a tomb."
 plants:
@@ -404,7 +404,7 @@ panels:
       window.
     calm: top
     ui:
-      - {kind: system.warning, "on": float, at: [0.5, 0.06], text: "[BOSS: DROWNED BELL-RINGER (B) · HUSHED]"}
+      - {kind: system.warning, "on": float, at: [0.5, 0.06], text: "[BOSS: HUSHED BELL-RINGER (B)]"}
     silent: true
 
   - id: P23
@@ -934,9 +934,11 @@ panels:
       kang_jaeha: "pressed to a pillar, eyes closed, a hand over his bleeding ear"
       mok_hangyu: "pressed to a pillar, staring round in disbelief"
       song_yerin: "hugging the pillar"
-      borro: "standing in the ring, shield lowered"
+      borro: "standing in the ring, shield lowered, the green glow gone (Jaeha has released him to save his clock)"
       nib: "crouched at the giant's ankle"
     calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.90], text: "[BORRO · LINK RELEASED · REST FORM · COOLDOWN 01:00]"}
     sfx:
       - {text: "DOOOOOOONNNG", style: impact, at: [0.30, 0.20], size: XL, rot: -4}
 
@@ -971,7 +973,7 @@ panels:
     eyeline: "Jaeha → Mok"
     calm: left
     lines:
-      - {who: kang_jaeha, type: speech, text: "TRAP RATS ARE CHEAPER THAN HEALING POTIONS, SIR. YOU SAID SO.", side: r}
+      - {who: kang_jaeha, type: speech, text: "TRAP RATS ARE CHEAPER THAN HEALING POTIONS, SIR. YOUR MEN SAID SO.", side: r}
 
   # ================= THIRTY SECONDS (P55–P66) =================
   - id: P55
