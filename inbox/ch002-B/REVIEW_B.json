@@ -1,0 +1,306 @@
+{
+  "_meta": {
+    "entry": "ch002-B",
+    "status": "INCOMPLETE_BLOCKED_PENDING_CLAUDE",
+    "claude_approval": false,
+    "review_scope": [
+      "MANHWA_STYLE_GUIDE 11",
+      "11b.1-11",
+      "11c.1-11",
+      "PANEL_BRIEF_v2 4b"
+    ],
+    "inspection": "Native full image plus separate /tmp-only 200px and enlarged detail derivatives. Original files unchanged.",
+    "finished_utc": "2026-10-25 22:56:54 UTC",
+    "all_frames_reviewed_at_full_size_and_phone_size": true,
+    "strict_checks_passed_for_whole_part": false
+  },
+  "P08": {
+    "heads": {
+      "kang_jaeha": [
+        0.192,
+        0.063,
+        0.384,
+        0.412
+      ],
+      "nib": [
+        0.667,
+        0.0,
+        1.0,
+        0.442
+      ]
+    },
+    "verdict": "preserved_review_only_redraw_held",
+    "tries": 0,
+    "problems": [
+      "Hoodie/trousers show angular fragmented fold shadows requiring strict 11b.1 review; no clean pass claimed.",
+      "Warm yellow-green light and absent clear red spill need Claude review.",
+      "Original canonical art untouched; no redraw call because mandatory references exceed5."
+    ],
+    "approval": "pending Claude",
+    "checks": {
+      "native_bytes": "Protected survivor byte-identical; canonical source untouched.",
+      "proportions_camera": "Sitting crop and foreground shoulder retained; no claim of exact relative-height measurement from this two-shot.",
+      "style": "Angular fragmented hoodie/trouser shadows raise strict 11b.1 issue. Warm yellow-green source and no clear red spill need Claude review."
+    },
+    "hold": {
+      "status": "held_not_generated",
+      "required_reference_count": 7,
+      "runtime_limit": 5,
+      "required_reference_paths": [
+        "characters_v2/kang_jaeha/front.png",
+        "characters_v2/kang_jaeha/turnaround.png",
+        "characters_v2/kang_jaeha/talking.png",
+        "characters_v2/nib/front.png",
+        "characters_v2/nib/turnaround_mask.png",
+        "locations_v2/boss_room/key.png",
+        "style_test_v2/acting/A3_P23.png"
+      ],
+      "reason": "HANDOFF section 1 full relevant character-sheet set plus location plus mandatory approved acting anchor exceeds max5; pending Claude priority rule. No input omitted or combined.",
+      "script_fields": {
+        "id": "P08",
+        "recipe": "talk",
+        "shape": "wide",
+        "gap": "short",
+        "bg": "white",
+        "camera": "two-shot at sitting height behind the pillar: Jaeha on the left, Nib's back and ear in the right foreground",
+        "light": "green-dusk light from above; red spill round the pillar's edge",
+        "face": "public",
+        "art": "Jaeha (kang_jaeha, vest) answers politely, sitting against the pillar and wiping blood from his lip with the back of his glove. In the right foreground, cropped: Nib's back, his long notched left ear and the red scarf.\n",
+        "acting": {
+          "kang_jaeha": "sitting against the pillar, wiping his lip with the back of his right glove, left hand lifted a little palm-up as he explains; a polite, tired smile, eyebrows raised"
+        },
+        "eyeline": "Jaeha → Nib",
+        "foreground": "Nib's shoulder, long left ear (notched) and scarf, cropped, in the right third",
+        "calm": "top",
+        "lines": [
+          {
+            "who": "kang_jaeha",
+            "type": "speech",
+            "text": "THAT'S A BOSS, AND I'M A TRAP-TESTER.",
+            "side": "l"
+          },
+          {
+            "who": "kang_jaeha",
+            "type": "speech",
+            "text": "I WALK IN FIRST, SO OTHER PEOPLE DON'T HAVE TO.",
+            "side": "l"
+          }
+        ]
+      }
+    }
+  },
+  "P09": {
+    "heads": {
+      "nib": [
+        0.0,
+        0.0,
+        0.853,
+        0.539
+      ]
+    },
+    "verdict": "candidate_self_check_satisfactory",
+    "tries": 1,
+    "problems": [],
+    "checks": {
+      "technical": "Native 1254 square PNG fully decodes; identical to generated source; crisp lines; no blocking/ringing/soft upscale seen full-size or 200%.",
+      "style": "Opaque clean cel forms, pale plain gradient, thin red ear rim, amber right eye, no body glow, cropped foreground shoulder, calm lower-right region.",
+      "design": "Base seal1, hood down, mask anatomical LEFT, notch LEFT ear, one lower LEFT fang; old veteran angular face and long nose.",
+      "acting": "Turned shoulder/head, eye down-left toward off-panel seated Jaeha, half-lidded deadpan, mouth slightly open mid-line.",
+      "scale_camera": "Tight crop retains native head/neck/shoulder proportions; full-body and relative-height checks outside crop; low seated relation matches gaze."
+    },
+    "uncertainties": [
+      "Claude remains final reviewer; exact full-body height cannot be measured in this head-and-shoulders crop."
+    ],
+    "approval": "pending Claude"
+  },
+  "P10": {
+    "heads": {
+      "song_yerin": [
+        0.344,
+        0.014,
+        0.811,
+        0.44
+      ]
+    },
+    "verdict": "candidate_pending_Claude",
+    "tries": 2,
+    "problems": [],
+    "checks": {
+      "technical": "Native 1254 square PNG; source-byte match; full-size, 200px and enlarged hands inspected; no compression blocks or ringing seen.",
+      "light_background": "Pale plain gradient corrected; weak green-dusk side wash, matte face separated from light background; calm left side.",
+      "design": "Covered adult 155cm Yerin, freckles, low brown ponytail, oversized off-white/mint jacket with anatomical LEFT cross, pink supported bag, black leggings.",
+      "acting": "Knees raised, both arms hugging the bag, two connected wrists and grip shapes; eyes off-panel right, worried small parted whisper mouth, sweat and raised brows.",
+      "scale_camera": "Seated-height close crop, bent knees at lower edge; limbs not shortened to fit. Full head-count/standing height unmeasurable in this crop.",
+      "strict_style": "Shadows are opaque garment folds; Claude should make the final strict 11b.1 judgment on the sleeve fold shapes."
+    },
+    "uncertainties": [
+      "Standing height and full head-count outside crop; independent Claude review pending."
+    ],
+    "approval": "pending Claude"
+  },
+  "P11": {
+    "heads": {
+      "knight_commander": [
+        0.542,
+        0.009,
+        0.677,
+        0.182
+      ]
+    },
+    "verdict": "FAILED_FINAL_REVIEW_ONLY",
+    "tries": 3,
+    "problems": [
+      "The near pillar is sharper, but the bottom foreground paving remains visibly defocused, failing 11/11b.11 and the no-depth-of-field rule. Background density remains above the intended simplified anticipation recipe. The final image is review-only; no fourth call."
+    ],
+    "checks": {
+      "technical": "Native 1536x1024 PNG, source-byte match; no lossy re-encoding. Full-size, phone and 200% lower-floor inspection reveal residual depth blur.",
+      "design": "Iron/bronze plate, cracked anatomical LEFT pauldron, blue cloak, plain red hollow helm, attached cuff chains, sword and nine-tower badge retained.",
+      "staging_scale": "Low upward camera/large knight/foreground right pillar; correct long limbs rather than squashed body. Exact action pull/head-turn and 10m room scale still need Claude review.",
+      "lighting": "Red face-hole lights collar/chest, green back light; lower-contrast hall.",
+      "limits": "3/3 total tries; final also retained in _rejects; no fourth generation."
+    },
+    "approval": "not approved"
+  },
+  "P12": {
+    "heads": {},
+    "verdict": "HELD_NOT_GENERATED",
+    "tries": 0,
+    "problems": [
+      "7 hard-required reference paths exceed runtime maximum 5; priority decision pending."
+    ],
+    "hold": {
+      "status": "held_not_generated",
+      "required_reference_count": 7,
+      "runtime_limit": 5,
+      "required_reference_paths": [
+        "characters_v2/kang_jaeha/front.png",
+        "characters_v2/kang_jaeha/turnaround.png",
+        "characters_v2/kang_jaeha/talking.png",
+        "characters_v2/nib/front.png",
+        "characters_v2/nib/turnaround_mask.png",
+        "locations_v2/boss_room/key.png",
+        "style_test_v2/acting/A3_P23.png"
+      ],
+      "reason": "HANDOFF section 1 full relevant character-sheet set plus location plus mandatory approved acting anchor exceeds max5; pending Claude priority rule. No input omitted or combined.",
+      "script_fields": {
+        "id": "P12",
+        "recipe": "talk",
+        "shape": "wide",
+        "gap": "short",
+        "bg": "black",
+        "camera": "over Nib's shoulder toward Jaeha, Jaeha's face at the right",
+        "light": "red light from round the pillar on Nib's side; green on Jaeha",
+        "face": "public",
+        "art": "Over Nib's shoulder (his hood, notched ear and red scarf in the left foreground, cropped): Jaeha (kang_jaeha, vest) pushes himself up the pillar, uncertain, half-smiling out of habit.\n",
+        "acting": {
+          "kang_jaeha": "pushing himself up the pillar with his left hand flat on the stone, the right hand raised in a small helpless gesture; a crooked, uncertain habit-smile with a sweat drop",
+          "nib": "seen from behind, standing square to Jaeha with both knives lowered, head tilted slightly, waiting"
+        },
+        "eyeline": "Jaeha ↔ Nib",
+        "foreground": "Nib's hood, notched left ear and scarf, cropped, in the left third",
+        "calm": "top",
+        "lines": [
+          {
+            "who": "nib",
+            "type": "speech",
+            "text": "YOU SAY YOU'RE IN CHARGE. SO GIVE ME AN ORDER.",
+            "side": "l"
+          },
+          {
+            "who": "kang_jaeha",
+            "type": "nervous",
+            "text": "UM... SUMMONS GO FIRST?",
+            "side": "r"
+          }
+        ]
+      }
+    },
+    "approval": "not approved"
+  },
+  "P13": {
+    "heads": {
+      "nib": [
+        0.0,
+        0.0,
+        0.729,
+        0.493
+      ]
+    },
+    "verdict": "FAILED_FINAL_REVIEW_ONLY",
+    "tries": 3,
+    "problems": [
+      "The covered left eye, lower-left fang and speaking mouth improved. Knife hilt/guard connections and reverse-grip/forearm alignment remain unclear, especially the picture-left grip; this does not pass 11b.4/7 and 11c.2/11. Angular small skin planes also need strict review. Final image is review-only; no fourth call."
+    ],
+    "checks": {
+      "technical": "Native 1254 square PNG, source-byte match; inspected full size, phone size and enlarged grips.",
+      "design": "Base seal1, hood down; mask fully covers LEFT eye; only RIGHT eye uncovered amber; LEFT ear notch; one LOWER LEFT fang pointing up. No LINK outline.",
+      "acting": "Head turns to picture-left with lowered chin, narrow speaking mouth parted, grim smile. Both knives raised, but their reverse grips and hilt construction do not pass.",
+      "lighting_background": "Red on mask/hair, amber right eye, plain dark grey-violet right calm wedge.",
+      "limits": "3/3 total tries; final also retained in _rejects; no fourth generation."
+    },
+    "uncertainties": [
+      "Small polygonal skin-shadow planes require strict Claude rendering review."
+    ],
+    "approval": "not approved"
+  },
+  "P14": {
+    "heads": {},
+    "verdict": "HELD_NOT_GENERATED",
+    "tries": 0,
+    "problems": [
+      "7 hard-required reference paths exceed runtime maximum 5; priority decision pending."
+    ],
+    "hold": {
+      "status": "held_not_generated",
+      "required_reference_count": 7,
+      "runtime_limit": 5,
+      "required_reference_paths": [
+        "characters_v2/nib/front.png",
+        "characters_v2/nib/turnaround_mask.png",
+        "characters_v2/nib/expressions.png",
+        "characters_v2/knight_commander/front.png",
+        "characters_v2/knight_commander/turnaround.png",
+        "locations_v2/boss_room/key.png",
+        "style_test_v2/acting/A3_P23.png"
+      ],
+      "reason": "HANDOFF section 1 full relevant character-sheet set plus location plus mandatory approved acting anchor exceeds max5; pending Claude priority rule. No input omitted or combined.",
+      "script_fields": {
+        "id": "P14",
+        "recipe": "impact",
+        "shape": "tall",
+        "gap": "short",
+        "bg": "black",
+        "camera": "low, from the floor behind the pillar: Nib launching out into the open",
+        "light": "no scene light: speed streaks of red and green",
+        "art": "Nib (nib, mask) launches out from behind the pillar low and fast, a dark streak with the red scarf trailing, dust and stone grit bursting where his bare feet kicked off. The knight is a huge dark shape ahead.\n",
+        "acting": {
+          "nib": "launched almost horizontal, body low, both knives held back along his forearms in reverse grip, scarf and cloak hem streaming behind"
+        },
+        "calm": "top-left",
+        "sfx": [
+          {
+            "text": "TAK",
+            "style": "quiet",
+            "at": [
+              0.22,
+              0.86
+            ],
+            "size": "M",
+            "rot": 0
+          },
+          {
+            "text": "SHHHT",
+            "style": "impact",
+            "at": [
+              0.55,
+              0.4
+            ],
+            "size": "L",
+            "rot": -20
+          }
+        ]
+      }
+    },
+    "approval": "not approved"
+  }
+}
