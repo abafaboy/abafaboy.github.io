@@ -1,0 +1,1214 @@
+chapter: 16
+title: The Hero Raid
+format: SCRIPT_FORMAT_v2.md
+when: "Saturday, 9 AM to noon: a B-grade gate at the foot of an old dam spillway outside Seoul, and the drowned Far Side cathedral inside it."
+story_beats: ARC3_4_BEATS.md#16-the-hero-raid
+cast:
+  kang_jaeha: vest
+  nib: mask                 # rest form except nothing (no field form this chapter)
+  borro: default            # husk face; rest form until P35, field form P35–P42
+  song_yerin: default
+  yoo_bomi: default
+  choi_dongmin: default
+  mok_hangyu: default       # the guild jacket and the tower shield for the raid
+  han_sora: default
+  bh_raid: default          # generic Black Hound raid squad, see continuity
+  bh_sealers: default       # generic Black Hound sealing team, see continuity
+locations: [dam_gate, drowned_cathedral]
+continuity:
+  - "Jaeha: the orange vest with Seoa's red stitches, the grey hoodie, the plasters on his palms almost gone, the forearm bandage; a box of white chalk in his vest's hip pocket. Fringe over the LEFT eye, pencil behind the RIGHT ear, notebook in the LEFT chest pocket. The tiny cyan [CALL · HELD] mark appears at the edge of his point-of-view panels (P13)."
+  - "Nib: seal 2/5 look, the cracked husk mask; rest form all chapter (Sora's compass is near). He plays a husk in public, badly."
+  - "Borro: the white oval husk face tied on; the iron shield, its dent hammered almost flat; rest form except P35–P42 (field form, moss green). Bomi's new white drone with the pink ribbon is tucked into the moss on his shell from P61, its camera peeking out between the flowers."
+  - "Mok Hangyu: his raid look: the black guild jacket with the red hound's head, the gold chain, the black tower shield with the red hound, the short broad sword; a big camera smile, dead eyes."
+  - "Han Sora: her full design (the cropped jacket over the low-necked tank top, fitted trousers, thigh holster, the crossbow); the brass compass on its chain at her wrist."
+  - "The Black Hound raid squad (generic, no name cards): eight hunters in clean new black guild jackets with the red hound's head, mixed weapons (two swords, a spear, an axe, a mage with a core-tipped staff, two archers, a second shield-bearer). The sealing team (generic): three more hunters in the same jackets who carry a black steel stake 1 m long with a silver double-hexagon emblem (no letters) on its head and a backpack of cables: Kanghan sealing equipment."
+  - "The dam gate (new location dam_gate): an old concrete dam spillway in the hills outside Seoul, a huge sloping chute of stained concrete 40 m wide; at its foot a door-height B-grade gate slit glowing white-cyan; press tents, cameras on tripods, a Black Hound van, Association tape."
+  - "The drowned cathedral (new location drowned_cathedral): a vast Far Side cathedral half under water: a Gothic nave 60 m long and 30 m high with rows of pillars, the water knee-deep in the aisles and chest-deep in the side chapels, floating pews, broken windows of pale coloured glass (abstract patterns, no figures), and great bronze bells hanging silent on chains from the vault everywhere. Side passages branch off at junctions; one side passage leads down into a flooded crypt. At the far end, the boss chamber's tall bronze double doors under a rose window, with a bell above them."
+plants:
+  - "PLANT P21–P24: the chalk code, and one arrow that points the wrong way at the crypt junction (ch 17)."
+  - "PLANT P13: the held CALL (ch 18)."
+  - "PLANT P54–P57: Nib finds something behind the altar wall (ch 17: the second exit)."
+  - "PLANT P61: Bomi's drone hides in Borro's moss (ch 21: the stream)."
+hook_type: threat
+
+panels:
+
+  # ================= THE PRESS LINE (P01–P10) =================
+  - id: P01
+    recipe: establish
+    shape: full
+    gap: none
+    bg: white
+    camera: "high (20 m), over an old dam's spillway: a huge sloping concrete chute, press tents and cameras at its foot round a glowing gate slit"
+    light: "key: bright morning sun; the gate slit's cold glow at the bottom of the chute"
+    art: >
+      An old dam spillway in the hills outside Seoul (location dam_gate): a huge sloping chute of stained concrete 40 m wide,
+      and at its foot a door-height B-grade gate slit glowing white-cyan behind Association tape. Round it: press tents,
+      cameras on tripods, a Black Hound van with the red hound, a crowd of reporters and fans behind a rope line, and a line of
+      Black Hound hunters in clean black jackets. Scale: the chute is 30 m tall; the people are small.
+    calm: top
+    lines:
+      - {who: offpanel:crowd, type: tag, text: "B-GRADE GATE 2207. AN OLD DAM SPILLWAY. SATURDAY, 9 AM."}
+    sfx:
+      - {text: "KSHK KSHK KSHK", style: quiet, at: [0.70, 0.86], size: S, rot: 0}
+
+  - id: P02
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level at the press line: Mok with his arm round Jaeha's shoulders, both facing the cameras, flashes going off"
+    light: "camera flashes; morning sun"
+    face: public
+    art: >
+      At the press line: Mok (mok_hangyu, guild jacket, the tower shield on his back) has one huge arm round Jaeha's shoulders,
+      both of them facing a wall of cameras; Jaeha (kang_jaeha) smiles politely, small under Mok's arm. Flashes go off.
+    acting:
+      mok_hangyu: "arm clamped round Jaeha's shoulders, a huge white camera smile, other hand waving"
+      kang_jaeha: "a polite smile, standing straight under the weight of the arm"
+    eyeline: "both → the cameras"
+    foreground: "a TV camera lens, cropped, bottom right"
+    calm: top
+    lines:
+      - {who: mok_hangyu, type: speech, text: "TODAY THE HERO OF MANGWON MARKET WALKS IN FIRST, WITH BLACK HOUND!", side: l}
+    sfx:
+      - {text: "FLASH FLASH", style: quiet, at: [0.80, 0.20], size: S, rot: 0}
+
+  - id: P03
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "extreme close-up: Mok's smiling mouth right by Jaeha's ear, whispering"
+    light: "flash"
+    art: >
+      Extreme close-up: Mok's smiling mouth right beside Jaeha's ear, still smiling for the cameras as he whispers.
+    acting:
+      mok_hangyu: "lips barely moving behind the smile, teeth showing"
+    foreground: "Jaeha's ear and the edge of his fringe, cropped, right edge"
+    calm: left
+    lines:
+      - {who: mok_hangyu, type: menace, text: "SMILE, TRAP RAT. IT'S THE LAST PHOTO ANYONE TAKES OF YOU.", side: r}
+
+  - id: P04
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: white
+    camera: "close on Jaeha's face under Mok's arm: the polite smile not moving at all"
+    light: "flash"
+    face: public
+    art: >
+      Close on Jaeha (kang_jaeha) under Mok's arm: the polite smile does not move at all.
+    acting:
+      kang_jaeha: "a fixed, polite smile, eyes calm and level"
+    calm: right
+    lines:
+      - {who: kang_jaeha, type: whisper, text: "THEN LET'S MAKE IT A GOOD ONE, SIR.", side: l}
+
+  - id: P05
+    recipe: chorus
+    shape: wide
+    gap: short
+    bg: white
+    camera: "close on Bomi's phone screen in her hand: the live stream"
+    light: "sun on the screen; the glow"
+    art: >
+      Close on Bomi's phone in her hand behind the rope line, the screen flat green; the drone with the pink ribbon hovers at
+      the edge of the frame.
+    calm: top
+    ui:
+      - kind: phone.live_stream
+        "on": screen
+        viewers: "150,388 WATCHING"
+        chat:
+          - "[jjang_hunter]: THE HERO RAID LET'S GOOO"
+          - "[dalgona]: mok and the trap rat?? friends now??"
+          - "[seoul_otaku]: something smells off"
+    sfx:
+      - {text: "BLIP BLIP", style: quiet, at: [0.80, 0.80], size: S, rot: 0}
+
+  - id: P06
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, by the rope line: Choi in his rescue jacket at the Gate Rescue standby tent, talking to Bomi and Yerin"
+    light: "morning sun"
+    art: >
+      By the rope line at the Gate Rescue standby tent: Choi (choi_dongmin) talks low to Bomi (yoo_bomi) and Yerin (song_yerin,
+      her pink bag on).
+    acting:
+      choi_dongmin: "leaning in, coffee in hand, voice low, eyes on Mok"
+      yoo_bomi: "holding her phone up, nodding"
+      song_yerin: "hugging her bag strap, pale but determined"
+    eyeline: "Choi → Bomi; Bomi → Choi"
+    foreground: "the rope line's post, cropped, bottom left"
+    calm: top
+    lines:
+      - {who: choi_dongmin, type: speech, text: "MOK SAID THE STREAMER STAYS OUTSIDE 'FOR HER SAFETY'.", side: l}
+      - {who: yoo_bomi, type: speech, text: "I STAY OUTSIDE. MY DRONE DOESN'T.", side: r}
+
+  - id: P07
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level by the gate slit: Sora strolling past Jaeha, the compass on her wrist, a wink"
+    light: "morning sun; the slit's cold glow"
+    art: >
+      By the gate slit: Sora (han_sora) strolls past Jaeha with her crossbow, the compass swinging on her wrist, and winks at
+      him. Behind Jaeha, Nib and Borro stand stiffly.
+    acting:
+      han_sora: "strolling past, a slow wink, two fingers tapping her compass"
+      kang_jaeha: "a small polite nod back"
+      nib: "rigid, arms hanging"
+      borro: "rigid, the husk face crooked"
+    eyeline: "Sora → Jaeha; Jaeha → Sora"
+    foreground: "the slit's white rim, cropped, left"
+    calm: top
+    lines:
+      - {who: han_sora, type: speech, text: "YOUR HUSKS LOOK SLEEPY TODAY, HERO.", side: l}
+      - {who: kang_jaeha, type: speech, text: "THEY'RE SAVING THEIR ENERGY, MISS HAN.", side: r}
+
+  - id: P08
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: white
+    camera: "close on the compass on her wrist: the violet needle lying slack, pointing vaguely at Jaeha"
+    light: "sun on the brass"
+    art: >
+      Close on the compass on Sora's wrist: the violet needle lies slack, drifting vaguely toward Jaeha, nothing more.
+    calm: left
+    silent: true
+    sfx:
+      - {text: "tik...", style: quiet, at: [0.30, 0.30], size: S, rot: 0}
+
+  - id: P09
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: white
+    camera: "low, behind three Black Hound hunters lingering by the van with a long black steel stake and a backpack of cables"
+    light: "morning sun"
+    art: >
+      From low behind three Black Hound hunters lingering by the van (bh_sealers): one holds a black steel stake a metre long
+      with a silver double-hexagon emblem on its head; another shoulders a backpack of cables. Across the clearing, Jaeha glances
+      at them over his shoulder.
+    acting:
+      bh_sealers: "standing apart from the others, one hefting the stake, one adjusting the cable pack, one watching Jaeha"
+      kang_jaeha: "small across the clearing, glancing back at them"
+    eyeline: "the sealers → Jaeha; Jaeha → the stake"
+    foreground: "the stake's emblem, cropped, left"
+    calm: top
+    lines:
+      - {who: bh_sealers, type: whisper, text: "WE GO IN LAST. WE WAIT FOR THE SIGNAL.", side: l}
+
+  - id: P10
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: white
+    camera: "extreme close-up of Jaeha's eyes on the stake's silver emblem"
+    light: "morning sun"
+    face: private
+    art: >
+      Extreme close-up: Jaeha's eyes (kang_jaeha) fixed on the stake's silver double-hexagon emblem. Fill the canvas edge to
+      edge.
+    acting:
+      kang_jaeha: "eyes narrowing to slits"
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: inner, text: "A SEALING STAKE. WITH KANGHAN'S MARK ON IT."}
+
+  - id: P11
+    kind: title
+    shape: full
+    gap: long
+    bg: black
+    title_card: "MY SUMMONS GO FIRST · CHAPTER 16 · THE HERO RAID"
+    notes: "Title card at panel 11 of 68 (16%)."
+
+  # ================= THE CATHEDRAL (P12–P30) =================
+  - id: P12
+    recipe: establish
+    shape: full
+    gap: long
+    bg: black
+    camera: "high (25 m) in the vault of a vast drowned cathedral: the raid wading in tiny along the flooded nave between pillars, bells hanging everywhere"
+    light: "key: pale coloured light through broken windows; dark water reflecting it; deep shadow in the vault"
+    art: >
+      Inside the gate (location drowned_cathedral), from high in the vault: a vast Far Side cathedral half under water, a
+      Gothic nave 60 m long and 30 m high, rows of pillars, the water knee-deep, floating pews, broken windows of pale coloured
+      glass in abstract patterns, and great bronze bells hanging silent on chains everywhere above. The raid wades in tiny along
+      the nave: Jaeha first with his chalk, Nib and Borro behind him, Yerin, then Mok and Sora and the Black Hound squad; the
+      sealing team lingers far behind at the entrance. Scale: each bell is the size of a car; the people are specks.
+    calm: top
+    sfx:
+      - {text: "SPLSH... SPLSH...", style: quiet, at: [0.50, 0.86], size: S, rot: 0}
+
+  - id: P13
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "Jaeha's point of view wading forward: the dark nave ahead, a tiny cyan mark pinned at the edge of his vision"
+    light: "pale coloured light; dark water"
+    art: >
+      Jaeha's point of view as he wades forward: the dark flooded nave ahead, pillars and silent bells; his chalk-white fingers
+      at the bottom of the frame; at the very edge of his vision in the top corner, the tiny cyan mark.
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.84, 0.08], text: "[CALL · HELD]"}
+    silent: true
+
+  - id: P14
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the water behind the Black Hound squad: two hunters smirking at Jaeha's back as he wades in front"
+    light: "pale light"
+    art: >
+      From low in the water behind the Black Hound squad (bh_raid): two hunters smirk at Jaeha's back as he wades far ahead at
+      the front, chalk in hand.
+    acting:
+      bh_raid: "two hunters elbowing each other, smirking, weapons on their shoulders"
+      kang_jaeha: "small at the front, crouching to chalk a pillar's base"
+    eyeline: "the hunters → Jaeha"
+    foreground: "a hunter's axe head over his shoulder, cropped, left"
+    calm: top
+    lines:
+      - {who: bh_raid, type: whisper, text: "LOOK AT HIM. FAMOUS, AND STILL WALKING IN FIRST LIKE A RAT.", side: l}
+
+  - id: P15
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, side-on: Jaeha flinging out an arm to stop the line, a blade swinging out of a pillar right where the next step would be"
+    light: "a flash on steel"
+    art: >
+      Side-on: Jaeha flings out an arm to stop the line behind him, and a curved blade swings out of a slot in a pillar and
+      slices through the air exactly where his next step would have landed; the hunter behind him freezes.
+    acting:
+      kang_jaeha: "one arm flung out sideways, standing perfectly still, eyes on the blade"
+      bh_raid: "the hunter behind him frozen mid-step, eyes bulging"
+    calm: top
+    sfx:
+      - {text: "SHHWING", style: impact, at: [0.50, 0.30], size: L, rot: -8}
+
+  - id: P16
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Jaeha's hand drawing a chalk cross on the pillar beside the blade slot"
+    light: "pale light"
+    art: >
+      Close on Jaeha's hand drawing a neat chalk cross on the pillar beside the blade slot.
+    calm: right
+    silent: true
+    sfx:
+      - {text: "SKRITCH", style: quiet, at: [0.50, 0.40], size: S, rot: 0}
+
+  - id: P17
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: Mok at the head of his squad, raising his shield arm to wave the raid on, a big smile for nobody"
+    light: "pale light"
+    art: >
+      Mok (mok_hangyu) at the head of his squad raises his shield arm and waves the raid on past the marked pillar with a big
+      smile, though there are no cameras in here.
+    acting:
+      mok_hangyu: "waving the raid on with his shield arm, a big smile"
+    eyeline: "Mok → Jaeha"
+    foreground: "the marked pillar with its chalk cross, cropped, right"
+    calm: top
+    lines:
+      - {who: mok_hangyu, type: speech, text: "THAT'S WHY WE PAY HIM. KEEP GOING, HERO. FOLLOW HIS MARKS!", side: l}
+
+  - id: P18
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "over Jaeha's shoulder, close on a notebook page: the trap-tester chalk code"
+    light: "pale light on the page"
+    face: private
+    art: >
+      Over Jaeha's shoulder: a notebook page with a small chart of chalk symbols drawn years ago in the untidy handwriting of
+      the first pages: an arrow, a cross, a circle, a wavy line. Leave a blank band for the letterer's note. No readable text.
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: note, text: "ARROW: SAFE WAY. CROSS: TRAP. EVERY TRAP-TESTER READS IT. SO DOES BLACK HOUND."}
+
+  - id: P19
+    recipe: establish
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, at a junction in the side aisle: three passages branching, one sloping down into black water"
+    light: "pale light; the down-sloping passage black"
+    art: >
+      At a junction in the side aisle: three passages branch off; the middle one is the dry aisle onward; the left one slopes
+      steeply down into black water, the flooded crypt; the right one ends in a collapsed wall.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "GLUG... GLUG...", style: quiet, at: [0.30, 0.60], size: S, rot: 0}
+
+  - id: P20
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close and low on the junction's floor stone: Jaeha's hand drawing a clean chalk arrow pointing left, down into the flooded crypt passage"
+    light: "pale light"
+    face: private
+    art: >
+      Close and low on the junction's floor stone: Jaeha's hand draws a clean chalk arrow pointing LEFT, down the slope into the
+      flooded crypt passage, with one tiny extra tick at its tail that nobody would notice.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "SKRITCH", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P21
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha standing up from the arrow, his face blank, then walking on down the middle passage"
+    light: "pale light"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha) standing up from the chalk arrow with a perfectly blank face, then turning to walk on down the
+      MIDDLE passage.
+    acting:
+      kang_jaeha: "standing up, face blank, already turning toward the middle passage"
+    eyeline: "Jaeha → the middle passage"
+    calm: left
+    silent: true
+
+  - id: P22
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low two-shot in the aisle: Yerin catching up with Jaeha, whispering, Nib walking stiffly in front"
+    light: "pale light"
+    face: private
+    art: >
+      In the aisle: Yerin (song_yerin) catches up with Jaeha (kang_jaeha) and whispers; Nib walks stiffly in front of them.
+    acting:
+      song_yerin: "leaning close, whispering, glancing back at the junction"
+      kang_jaeha: "walking on, eyes forward, a small calm smile"
+    eyeline: "Yerin → Jaeha; Jaeha → ahead"
+    foreground: "a floating pew, cropped, bottom left"
+    calm: top
+    lines:
+      - {who: song_yerin, type: whisper, text: "THAT ARROW POINTED THE WRONG WAY. I SAW IT.", side: l}
+      - {who: kang_jaeha, type: whisper, text: "IT POINTS THE WAY I WANT SOMEONE TO GO.", side: r}
+
+  - id: P23
+    recipe: insert
+    shape: strip
+    gap: short
+    bg: black
+    camera: "a thin strip: a row of chalk marks on pillars receding down the aisle, one arrow after another"
+    light: "pale light"
+    art: >
+      A thin strip: a row of chalk marks on the pillar bases receding down the aisle, arrow after arrow. Fill the canvas edge to
+      edge.
+    calm: none
+    silent: true
+
+  - id: P24
+    recipe: establish
+    shape: tall
+    gap: long
+    bg: black
+    camera: "low, from the water in a side chapel: an enormous bronze bell hanging over the raid, its rope trailing in the water"
+    light: "a shaft of pale light on the bronze"
+    art: >
+      From low in the water of a side chapel: an enormous bronze bell hangs from the vault right over the raid as they wade past,
+      green with age, its rope trailing down into the water. Nib, at the front, looks up at it and stops.
+    acting:
+      nib: "stopped, looking straight up at the bell, ears flat"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "creak... creak...", style: quiet, at: [0.50, 0.20], size: S, rot: 0}
+
+  - id: P25
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, close two-shot: Jaeha bending down to Nib under the bell, Nib whispering without turning his head"
+    light: "pale light"
+    face: private
+    art: >
+      Under the bell: Jaeha (kang_jaeha) bends down beside Nib (nib, mask), who whispers without turning his head, staring up at
+      the bronze.
+    acting:
+      nib: "staring up at the bell, whispering, very still"
+      kang_jaeha: "bent down beside him, listening"
+    eyeline: "Nib → the bell; Jaeha → Nib"
+    foreground: "the bell's rope trailing past, cropped, right"
+    calm: top
+    lines:
+      - {who: nib, type: whisper, text: "I DON'T LIKE BELLS.", side: l}
+      - {who: kang_jaeha, type: whisper, text: "I KNOW. STAY CLOSE TO ME.", side: r}
+
+  - id: P26
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Sora's wrist as she wades: the compass needle still slack"
+    light: "pale light"
+    art: >
+      Close on Sora's wrist as she wades through the water: the compass needle still slack.
+    calm: right
+    silent: true
+
+  - id: P27
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, behind Sora: her looking from the compass to the two stiff 'husks' ahead, an amused frown"
+    light: "pale light"
+    art: >
+      From low behind Sora (han_sora): she looks from the slack compass on her wrist to the two stiff "husks" wading ahead of
+      her, an amused frown.
+    acting:
+      han_sora: "wading, lifting her wrist to look at the compass, then at Nib and Borro, lips pursed"
+    eyeline: "Sora → Nib and Borro"
+    foreground: "Sora's shoulder and black bob, cropped, left"
+    calm: top
+    lines:
+      - {who: han_sora, type: whisper, text: "ASLEEP ON PURPOSE. CLEVER BOY.", side: l}
+
+  - id: P28
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: black
+    camera: "eye level at the entrance of a long side nave: the raid filing in through tall doors, the floor here dry and tiled, the doors wide open"
+    light: "pale light through high windows"
+    art: >
+      The raid files into a long side nave through tall wooden doors standing wide open: the floor here is dry and tiled in a
+      pattern of pale and dark squares; at the far end, another pair of tall doors stands open. Jaeha has stopped at the
+      threshold and is staring at the floor.
+    acting:
+      kang_jaeha: "stopped at the threshold, crouching, eyes on the tiles"
+      mok_hangyu: "striding past Jaeha into the nave, impatient"
+    calm: top
+    sfx:
+      - {text: "CLONK CLONK", style: quiet, at: [0.60, 0.80], size: S, rot: 0}
+
+  - id: P29
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the tiles: Jaeha crouched at the threshold calling out, Mok already halfway down the nave, waving him off"
+    light: "pale light"
+    face: public
+    art: >
+      From low on the tiles: Jaeha (kang_jaeha) crouches at the threshold and calls out; Mok (mok_hangyu), already halfway down
+      the nave with most of the raid, waves him off without turning round.
+    acting:
+      kang_jaeha: "crouched at the threshold, one hand raised, calling out politely"
+      mok_hangyu: "halfway down the nave, waving him off over his shoulder"
+    eyeline: "Jaeha → Mok; Mok → ahead"
+    foreground: "the tile pattern, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "SIR, THIS FLOOR IS TOO CLEAN. EVERYTHING ELSE IN HERE IS UNDER WATER.", side: l}
+      - {who: mok_hangyu, type: shout, text: "THEN WALK FASTER, HERO!", side: r}
+
+  - id: P30
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close and low on a tile under a Black Hound boot sinking a finger's width with a click"
+    light: "pale light"
+    art: >
+      Close and low on one dark tile under a Black Hound hunter's boot: it sinks a finger's width into the floor.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "CLICK", style: quiet, at: [0.60, 0.40], size: M, rot: 0}
+
+  # ================= THE FLOOD (P31–P45) =================
+  - id: P31
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high, down the side nave: both pairs of tall doors slamming shut at once, the raid trapped between them"
+    light: "pale light; dust shaken from the vault"
+    art: >
+      High down the side nave: both pairs of tall doors slam shut at the same instant, at the near end and the far end; the
+      raid is trapped between them; dust shakes down from the vault. Jaeha, Nib, Borro and Yerin are inside too, near the near
+      doors.
+    calm: top
+    sfx:
+      - {text: "BOOM", style: impact, at: [0.20, 0.40], size: XL, rot: -6}
+      - {text: "BOOM", style: impact, at: [0.80, 0.40], size: XL, rot: 6}
+
+  - id: P32
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from the tiles: water blasting out of grates in the walls in thick jets, the hunters staggering"
+    light: "white water; pale light"
+    art: >
+      From low on the tiles: water blasts out of iron grates high in both walls in thick white jets, crashing down onto the
+      raid; the hunters stagger and shout; the water is already ankle-deep and rising fast.
+    acting:
+      bh_raid: "staggering under the jets, shouting, shields up"
+      mok_hangyu: "bracing against a jet with his tower shield, roaring orders"
+    calm: top
+    sfx:
+      - {text: "WHOOOSSSHHHH", style: impact, at: [0.50, 0.24], size: XL, rot: -4}
+
+  - id: P33
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level at the near doors: two hunters hauling at the iron rings of the shut doors, the doors not moving, water to their knees"
+    light: "pale light; spray"
+    art: >
+      At the near doors: two Black Hound hunters (bh_raid) haul at the iron door rings with all their strength; the doors do not
+      move an inch; the water is already up to their knees.
+    acting:
+      bh_raid: "two hunters hauling at the rings, faces purple, feet slipping"
+    calm: top
+    sfx:
+      - {text: "NNNNGH", style: impact, at: [0.40, 0.30], size: M, rot: 0}
+
+  - id: P34
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close on Jaeha in the rising water, looking from the doors to Borro to Sora's wrist"
+    light: "spray; pale light"
+    face: private
+    art: >
+      Close and low on Jaeha (kang_jaeha) in the rising water: his eyes go from the stuck doors, to Borro, to the compass on
+      Sora's wrist across the nave.
+    acting:
+      kang_jaeha: "waist-deep, eyes darting, jaw tight, a hand on Borro's arm"
+    eyeline: "Jaeha → the compass"
+    foreground: "the water's churning surface, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: inner, text: "IF HE WAKES UP, SHE SEES IT. IF HE DOESN'T, THEY ALL DROWN."}
+
+  - id: P35
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level: Jaeha squeezing Borro's arm, Borro's eyes flaring moss green behind the husk face, a window above"
+    light: "moss green flaring; cyan"
+    face: private
+    art: >
+      Jaeha (kang_jaeha) squeezes Borro's arm; behind the white husk face, Borro's eyes flare moss green and a thin green outline
+      flickers on along him. The upper part is the vault, empty for the window.
+    acting:
+      kang_jaeha: "gripping Borro's arm, eyes closed for a second"
+      borro: "eyes blazing green, straightening up"
+    calm: top
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[BORRO · FIELD FORM 05:00]"}
+    silent: true
+
+  - id: P36
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on the compass across the nave: the violet needle snapping round to point at Borro, glowing bright"
+    light: "violet flaring"
+    art: >
+      Close on the compass on Sora's wrist across the nave: the violet needle snaps round to point at Borro and glows bright.
+    calm: left
+    silent: true
+    sfx:
+      - {text: "TIK!", style: quiet, at: [0.40, 0.30], size: M, rot: 0}
+
+  - id: P37
+    recipe: splash
+    shape: full
+    gap: short
+    bg: black
+    camera: "low, from the water: Borro wedging his shield and shell into the gap of the near doors and forcing them open against the flood"
+    light: "white water; moss-green glow"
+    art: >
+      From low in the water: Borro (borro, field form) wedges his iron shield into the crack between the near doors and heaves
+      them apart with his shell against one door and the shield against the other; the doors grind open a body's width, and the
+      flood starts pouring out through the gap in a white torrent.
+    acting:
+      borro: "wedged in the gap, back and shell against one door, shield against the other, legs braced, pushing them apart"
+    calm: top
+    sfx:
+      - {text: "GRRRRRRAAAAND", style: impact, at: [0.30, 0.24], size: XL, rot: -6}
+
+  - id: P38
+    recipe: carry
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close on Jaeha in the torrent, holding a pillar, a moss-green ring pulsing from his chest, his nose bleeding"
+    light: "moss-green ring; spray"
+    face: private
+    art: >
+      Close and low on Jaeha (kang_jaeha) holding onto a pillar in the torrent: a moss-green ring pulses from his chest; his nose
+      bleeds; Yerin holds onto him.
+    acting:
+      kang_jaeha: "clinging to the pillar with one arm, teeth gritted, blood running from his nose"
+      song_yerin: "holding onto his vest, hands glowing mint"
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.86], text: "[CARRY · BORRO · 60%]"}
+    sfx:
+      - {text: "THOOM", style: impact, at: [0.30, 0.40], size: M, rot: 0}
+
+  - id: P39
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level at the gap: Jaeha shouting to the raid to get out past Borro, hunters scrambling through the gap"
+    light: "spray"
+    art: >
+      At the gap between the doors: Jaeha (kang_jaeha) shouts and waves the raid through past Borro; the Black Hound hunters
+      scramble through the gap one by one in the torrent.
+    acting:
+      kang_jaeha: "waving them through with one arm, the other on the pillar, shouting"
+      bh_raid: "scrambling through the gap past Borro, one after another"
+      borro: "holding the doors apart, unmoving"
+    eyeline: "Jaeha → the hunters"
+    foreground: "the edge of the door, cropped, left"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: shout, text: "THROUGH THE GAP! EVERYONE! GO, GO, GO!", side: r}
+
+  - id: P40
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, by the gap: a young Black Hound hunter stopping to stare up at Borro's glowing eyes as he passes, then at Jaeha"
+    light: "moss green; spray"
+    art: >
+      By the gap: a young Black Hound hunter (bh_raid) stops for a second to stare up at the green eyes glowing behind Borro's
+      husk face, then at Jaeha.
+    acting:
+      bh_raid: "a young hunter stopping in the gap, soaked, staring up, mouth open"
+      borro: "holding the doors, looking down at him calmly"
+    eyeline: "the hunter → Borro"
+    foreground: "Borro's shield arm, cropped, right"
+    calm: top
+    lines:
+      - {who: bh_raid, type: speech, text: "THE HUSK... SAVED US? WHY WOULD IT SAVE US?", side: l}
+      - {who: borro, type: speech, text: "BECAUSE YOU WERE DROWNING. GO.", side: r}
+
+  - id: P41
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: Mok pushing through the gap last but one, glaring at Borro, Sora behind him smiling at her compass"
+    light: "spray"
+    art: >
+      Mok (mok_hangyu) pushes through the gap, soaked and furious, glaring at Borro; behind him Sora (han_sora) wades out
+      smiling at the glowing compass on her wrist.
+    acting:
+      mok_hangyu: "shoving through the gap, shield on his back, glaring at Borro"
+      han_sora: "wading through after him, looking down at the compass, a delighted smile"
+    eyeline: "Mok → Borro; Sora → the compass"
+    foreground: "the torrent pouring through the gap, cropped, bottom"
+    calm: top
+    lines:
+      - {who: han_sora, type: whisper, text: "THERE YOU ARE, BIG ONE.", side: r}
+
+  - id: P42
+    recipe: aftermath
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high, over the aisle outside: the raid sprawled soaking on the floor, the doors grinding shut behind Borro as he steps out last"
+    light: "pale light; water draining"
+    art: >
+      High over the aisle outside the side nave: the raid lies sprawled and soaking on the floor, coughing; Borro steps out of
+      the gap last and the doors grind shut behind him; the green fades from his eyes.
+    acting:
+      borro: "stepping out of the gap, the glow fading, the shield lowered"
+      bh_raid: "sprawled on the floor, coughing"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "KOFF KOFF", style: quiet, at: [0.30, 0.70], size: S, rot: 0}
+
+  - id: P43
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Jaeha sitting against a pillar, wiping blood from his nose, glancing across at Sora"
+    light: "pale light"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha) sitting against a pillar, wiping blood from his nose with his wrist, glancing across at Sora.
+    acting:
+      kang_jaeha: "wiping his nose, eyes sliding toward Sora, unreadable"
+    eyeline: "Jaeha → Sora"
+    calm: right
+    lines:
+      - {who: kang_jaeha, type: inner, text: "SHE SAW HIM WAKE. THAT'S FINE. NOW SHE THINKS SHE KNOWS EVERYTHING."}
+
+  - id: P44
+    recipe: chorus
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, across the aisle: several soaked Black Hound hunters glancing at Borro, then quickly away, one bowing his head slightly"
+    light: "pale light"
+    art: >
+      Across the aisle: several soaked Black Hound hunters (bh_raid) glance at Borro and then quickly away; one of them bows his
+      head slightly toward him without a word.
+    acting:
+      bh_raid: "soaked hunters glancing at Borro, then away; one giving a small, stiff bow"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "drip... drip...", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P45
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: Mok standing over the hunters, wringing out his jacket, barking"
+    light: "pale light"
+    art: >
+      Mok (mok_hangyu) stands over his hunters, wringing out the hem of his jacket, barking at them.
+    acting:
+      mok_hangyu: "wringing out his jacket hem, glaring down at his men"
+    eyeline: "Mok → the hunters"
+    foreground: "a hunter's soaked shoulder, cropped, left"
+    calm: top
+    lines:
+      - {who: mok_hangyu, type: shout, text: "ON YOUR FEET! IT'S A HUSK! IT DOES WHAT IT'S TOLD!", side: l}
+
+  # ================= THE TEST (P46–P60) =================
+  - id: P46
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: black
+    camera: "eye level on a long gallery above the nave: the raid walking single file along a narrow ledge, Jaeha first, Sora at the back"
+    light: "pale light from the windows; the flooded nave far below"
+    art: >
+      A long, narrow gallery high above the flooded nave: the raid walks single file along a stone ledge two people wide, Jaeha
+      first with his chalk, Sora near the back with her crossbow. Bells hang beside the ledge at arm's reach. Scale: the nave
+      floor is 15 m below.
+    acting:
+      kang_jaeha: "at the front, chalking the ledge, eyes on the stones"
+      han_sora: "near the back, crossbow in hand, watching Jaeha"
+    calm: top
+    sfx:
+      - {text: "STEP STEP", style: quiet, at: [0.50, 0.86], size: S, rot: 0}
+
+  - id: P47
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on a small stone boss in the wall beside the ledge, carved like a bell: a trap trigger, a chalk cross already on it"
+    light: "pale light"
+    art: >
+      Close on a small carved stone boss shaped like a bell in the wall beside the ledge: a trap trigger, a neat chalk cross
+      already drawn beside it. Above it, a heavy bronze bell hangs on a chain directly over the ledge.
+    calm: left
+    silent: true
+
+  - id: P48
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, behind Sora: her raising the crossbow casually and aiming past everyone at the carved trigger"
+    light: "pale light"
+    art: >
+      From low behind Sora (han_sora): she raises the compact crossbow casually, as if adjusting her grip, and aims past the
+      whole line at the carved trigger beside Jaeha.
+    acting:
+      han_sora: "raising the crossbow with one hand, aiming past the line, a small smile, the compass on her other wrist"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "KLIK", style: quiet, at: [0.40, 0.40], size: S, rot: 0}
+
+  - id: P49
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level along the ledge: the bolt hitting the trigger, the bell's chain snapping, the bell dropping straight at Jaeha"
+    light: "a flash; the bell's bronze"
+    art: >
+      Along the ledge: the bolt strikes the carved trigger; the chain above snaps and the heavy bronze bell drops straight down
+      at Jaeha's head; the hunters behind him flinch away.
+    acting:
+      kang_jaeha: "under the falling bell, not looking up"
+      bh_raid: "the nearest hunters flinching back against the wall"
+    calm: top
+    sfx:
+      - {text: "THUNK", style: impact, at: [0.70, 0.40], size: M, rot: 0}
+      - {text: "SNAP", style: impact, at: [0.40, 0.20], size: L, rot: -6}
+
+  - id: P50
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from the ledge: Jaeha taking one calm step sideways as the bell crashes down past him and plunges into the nave below"
+    light: "the bell's bronze flashing past"
+    art: >
+      From low on the ledge: Jaeha takes one calm step sideways into the wall's niche, and the bell crashes down past his
+      shoulder, smashes the ledge's edge, and plunges toward the flooded nave below. Nib and Borro, beside him, have not moved
+      at all.
+    acting:
+      kang_jaeha: "one small step sideways into the niche, hands in his pockets, face calm"
+      nib: "rigid, arms hanging, not moving"
+      borro: "rigid, not moving"
+    calm: top
+    sfx:
+      - {text: "WHOOOM", style: impact, at: [0.50, 0.40], size: XL, rot: 8}
+
+  - id: P51
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high, from the gallery: the bell hitting the flooded nave far below in a huge splash, its toll booming through the cathedral"
+    light: "white spray far below"
+    art: >
+      High from the gallery: far below, the bell hits the flooded nave in a huge splash, and one deep toll booms out through the
+      whole cathedral, shaking dust from the vault.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "DOOOOOONNNG", style: impact, at: [0.50, 0.30], size: XL, rot: 0}
+
+  - id: P52
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on the compass on Sora's wrist: the violet needle hanging perfectly slack"
+    light: "pale light"
+    art: >
+      Close on the compass on Sora's wrist: the needle hangs perfectly slack. Not a twitch.
+    calm: right
+    silent: true
+
+  - id: P53
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level along the ledge: Jaeha turning to look back down the line at Sora, polite; Sora lowering her crossbow, laughing softly"
+    light: "pale light; dust falling"
+    face: public
+    art: >
+      Along the ledge: Jaeha (kang_jaeha) turns and looks back down the line at Sora, polite; Sora (han_sora) lowers her crossbow,
+      laughing softly. The hunters between them stare from one to the other.
+    acting:
+      kang_jaeha: "turned back, a polite small bow, chalk in his hand"
+      han_sora: "lowering the crossbow, a soft delighted laugh"
+      bh_raid: "staring from one to the other, confused"
+    eyeline: "Jaeha → Sora; Sora → Jaeha"
+    foreground: "the broken edge of the ledge, cropped, bottom"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "THAT ONE WAS MARKED, MISS HAN. PLEASE READ THE MARKS.", side: r}
+      - {who: han_sora, type: speech, text: "MY HAND SLIPPED. SORRY, HERO.", side: l}
+
+  - id: P54
+    recipe: establish
+    shape: wide
+    gap: long
+    bg: black
+    camera: "eye level in a quiet chapel near the end of the nave: the raid resting, hunters eating and checking weapons"
+    light: "candles of pale glowing moss; pale light"
+    art: >
+      A quiet dry chapel near the end of the nave: the raid rests before the boss chamber; hunters eat and check their weapons;
+      Mok talks low with the three sealers, who have caught up. In the corner, Jaeha sits with Yerin and Borro; Nib is nowhere
+      to be seen.
+    acting:
+      mok_hangyu: "talking low with the sealers, one hand on the stake"
+      kang_jaeha: "sitting against the wall, eyes half closed"
+      song_yerin: "unwrapping a kimbap"
+      borro: "sitting against the wall, very still"
+    calm: top
+    sfx:
+      - {text: "MURMUR", style: quiet, at: [0.30, 0.60], size: S, rot: 0}
+
+  - id: P55
+    recipe: link-view
+    shape: wide
+    gap: short
+    bg: black
+    camera: "split frame: left, Jaeha sitting with his eyes half closed; right, Nib's view crawling through a narrow crack behind a stone altar"
+    light: "left: pale light; right: dark, a thin amber vignette"
+    face: private
+    art: >
+      Split frame with a thin jagged amber seam. LEFT: Jaeha (kang_jaeha) sits against the chapel wall with his eyes half
+      closed, two fingers resting at his temple as if he were dozing. RIGHT: Nib's view in a thin amber vignette, crawling
+      through a narrow crack in the wall behind a stone altar, a faint draught of moving air and a sliver of light ahead.
+    acting:
+      kang_jaeha: "eyes half closed, two fingers at his temple, looking asleep"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "fffff...", style: quiet, at: [0.80, 0.40], size: S, rot: 0}
+
+  - id: P56
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Nib slipping back out from behind the altar, dusty, and sitting down beside Jaeha as if he had never left"
+    light: "pale light"
+    art: >
+      Close on Nib (nib, mask) slipping back out from behind a stone altar, cobwebs on his ears, and sitting down beside Jaeha as
+      if he had never left.
+    acting:
+      nib: "sitting down stiffly beside Jaeha, cobwebs on his ears, deadpan"
+    calm: left
+    lines:
+      - {who: nib, type: whisper, text: "FOUND IT.", side: r}
+
+  - id: P57
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Jaeha, eyes still closed, the corner of his mouth lifting"
+    light: "pale light"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha), eyes still closed, the corner of his mouth lifting.
+    acting:
+      kang_jaeha: "eyes closed, a tiny smile"
+    calm: right
+    lines:
+      - {who: kang_jaeha, type: whisper, text: "GOOD.", side: l}
+
+  - id: P58
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: Yerin leaning in to whisper to Jaeha, frightened, the hunters across the chapel"
+    light: "pale light"
+    face: private
+    art: >
+      Yerin (song_yerin) leans in to whisper to Jaeha (kang_jaeha); across the chapel, Mok and the sealers glance at them.
+    acting:
+      song_yerin: "leaning in, whispering, eyes flicking to Mok"
+      kang_jaeha: "eyes opening, calm"
+      mok_hangyu: "across the chapel, glancing over"
+    eyeline: "Yerin → Jaeha; Mok → Jaeha"
+    foreground: "Yerin's half-eaten kimbap, cropped, bottom"
+    calm: top
+    lines:
+      - {who: song_yerin, type: whisper, text: "THE BOSS ROOM IS NEXT. HE'S GOING TO DO IT AGAIN, ISN'T HE?", side: l}
+      - {who: kang_jaeha, type: whisper, text: "YES. AND THIS TIME I'M COUNTING ON IT.", side: r}
+
+  - id: P59
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close two-shot: Jaeha taking Yerin's hand and pressing something small into it, her eyes widening"
+    light: "pale light"
+    face: private
+    art: >
+      Close and low: Jaeha (kang_jaeha) takes Yerin's hand and presses a stub of white chalk into it; her eyes widen.
+    acting:
+      kang_jaeha: "pressing the chalk into her palm, closing her fingers over it"
+      song_yerin: "looking down at the chalk, eyes wide"
+    eyeline: "Yerin → the chalk; Jaeha → Yerin"
+    foreground: "the chalk box in his hip pocket, cropped, bottom right"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: whisper, text: "WHEN THE DOOR CLOSES, STAY WITH BORRO. AND DON'T FREEZE.", side: r}
+      - {who: song_yerin, type: whisper, text: "I DON'T FREEZE ANYMORE.", side: l}
+
+  - id: P60
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level by the chapel door: Bomi's voice coming through an earpiece in Jaeha's ear, the drone hovering low behind Borro"
+    light: "pale light"
+    face: private
+    art: >
+      By the chapel door: Jaeha touches a tiny earpiece in his ear; Bomi's white drone with its pink ribbon hovers low behind
+      Borro's shell, out of the hunters' sight.
+    acting:
+      kang_jaeha: "one finger pressed to the earpiece, eyes on Mok"
+      borro: "standing stiffly, the drone hovering behind his shell"
+    eyeline: "Jaeha → Mok"
+    foreground: "the door frame, cropped, left"
+    calm: top
+    lines:
+      - {who: offpanel:yoo_bomi, type: phone, text: "THE DRONE'S STILL LIVE. 410,000 WATCHING. WHERE DO YOU WANT IT?", side: r}
+
+  # ================= AFTER YOU (P61–P68) =================
+  - id: P61
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close and low behind Borro's shell: the little white drone tucking itself down into the moss and flowers, its lens peeking out"
+    light: "pale light; the drone's red light dimmed"
+    art: >
+      Close and low behind Borro: the little white drone with its pink ribbon settles itself down into the moss and tiny
+      flowers on Borro's shell, its rotors folding, only its lens peeking out between two white flowers.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "vwee... click", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P62
+    recipe: establish
+    shape: full
+    gap: long
+    bg: black
+    camera: "low, from the flooded end of the nave: tall bronze double doors under a great rose window, a bell above them, the raid small before them"
+    light: "key: pale coloured light through the rose window; the bronze doors gleaming"
+    art: >
+      The end of the nave: the boss chamber's tall bronze double doors under a great rose window of pale coloured glass (an
+      abstract pattern), a huge silent bell hanging above the doors. The raid gathers small before them in the knee-deep water.
+      Scale: the doors are 8 m tall; the people reach a fifth of their height.
+    calm: top
+    sfx:
+      - {text: "...", style: quiet, at: [0.50, 0.86], size: S, rot: 0}
+
+  - id: P63
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on the small lamp above the bronze doors: it burns red"
+    light: "red"
+    art: >
+      Close on a small iron lamp above the bronze doors, below the bell: it burns red.
+    calm: left
+    silent: true
+
+  - id: P64
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, three-quarter: Mok heaving one bronze door open and stepping aside with a sweeping bow toward the dark"
+    light: "red from the lamp; the dark inside"
+    face: public
+    art: >
+      Mok (mok_hangyu) heaves one bronze door open and steps aside with a big sweeping bow toward the dark inside, smiling; the
+      hunters stand back.
+    acting:
+      mok_hangyu: "one arm sweeping toward the dark doorway in a mock bow, a wide smile, dead eyes"
+    eyeline: "Mok → Jaeha"
+    foreground: "the bronze door's edge, cropped, right"
+    calm: top
+    lines:
+      - {who: mok_hangyu, type: speech, text: "AFTER YOU, HERO.", side: l}
+
+  - id: P65
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Jaeha looking up at the red lamp, then at Mok, a polite smile"
+    light: "red light on his face"
+    face: public
+    art: >
+      Close on Jaeha (kang_jaeha) looking up at the red lamp, then at Mok, with a polite smile.
+    acting:
+      kang_jaeha: "a polite smile, the red light on his face, eyes cold underneath"
+    eyeline: "Jaeha → Mok"
+    calm: right
+    lines:
+      - {who: kang_jaeha, type: speech, text: "OF COURSE, SIR. SUMMONS GO FIRST. THEN SUMMONERS.", side: l}
+
+  - id: P66
+    recipe: establish
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high, from above the doors: Jaeha, Nib, Borro and Yerin wading into a dark round chamber, a huge shape sitting slumped in the middle"
+    light: "red from the doorway; dark inside"
+    art: >
+      High above the doors: Jaeha, Nib, Borro and Yerin wade into a dark round chamber flooded knee-deep; in the middle, a huge
+      dark shape sits slumped and still, too dark to make out. Behind them, in the doorway, Mok and his hunters stand watching.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "SPLSH... SPLSH...", style: quiet, at: [0.50, 0.80], size: S, rot: 0}
+
+  - id: P67
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, inside the chamber, looking back at the doorway: the bronze doors beginning to swing shut, Mok's smile in the narrowing gap"
+    light: "red light narrowing to a strip"
+    art: >
+      From low inside the chamber, looking back: the bronze doors begin to swing shut; in the narrowing gap of red light, Mok
+      smiles, and behind him a sealer lifts the black steel stake.
+    acting:
+      mok_hangyu: "standing in the narrowing gap, smiling, one hand on the door"
+      bh_sealers: "behind him, raising the stake to drive it into the floor"
+    calm: top
+    sfx:
+      - {text: "GRRRRRRRND", style: impact, at: [0.50, 0.30], size: XL, rot: 0}
+
+  - id: P68
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of Jaeha's eyes in the narrowing strip of red light, calm"
+    light: "a narrowing strip of red"
+    face: private
+    art: >
+      Extreme close-up: Jaeha's eyes (kang_jaeha) in the narrowing strip of red light, calm. Fill the canvas edge to edge.
+    acting:
+      kang_jaeha: "eyes calm, steady, a cold glint"
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: inner, text: "AGAIN, SIR? I WAS HOPING YOU WOULD."}
+
+  - id: END
+    kind: end
+    chibi_gag: "Chibi Bomi, outside the gate, watches her phone through her fingers while chibi Choi eats kimbap beside her for courage; inside the moss on chibi Borro's back, the tiny chibi drone wears a tiny helmet."
