@@ -1,0 +1,1186 @@
+chapter: 17
+title: Thirty Seconds
+format: SCRIPT_FORMAT_v2.md
+when: "Saturday, just after noon: the boss chamber of the drowned cathedral (sealed), the nave outside its doors, and the flooded crypt."
+story_beats: ARC3_4_BEATS.md#17-thirty-seconds
+cast:
+  kang_jaeha: vest
+  nib: mask                 # field form from P24
+  borro: default            # husk face; field form from P24; Bomi's drone in his moss
+  song_yerin: default
+  mok_hangyu: default
+  han_sora: default
+  bh_raid: default
+  bh_sealers: default
+  bell_ringer: default      # the Drowned Bell-Ringer, B-grade boss (new design)
+  yoo_bomi: default         # voice on the earpiece and on the stream outside
+locations: [drowned_cathedral, boss_chamber_bells]
+continuity:
+  - "Jaeha: the orange vest with Seoa's red stitches, the grey hoodie, the forearm bandage, a tiny earpiece in his RIGHT ear; fringe over the LEFT eye, pencil behind the RIGHT ear, notebook in the LEFT chest pocket. The tiny cyan [CALL · HELD] mark still sits at the edge of his point-of-view panels."
+  - "Nib: seal 2/5 look, the cracked husk mask; field form (amber) from P24. Borro: the white husk face; field form (moss green) from P24; Bomi's white drone with the pink ribbon nested in the moss on his shell, its lens peeking out between the flowers."
+  - "Mok: the black guild jacket, the gold chain, the black tower shield with the red hound, the short sword. Inside the chamber from P03, soaked."
+  - "The seal (P04–P08): the sealer drives the black steel stake into the floor outside the bronze doors and a web of violet light spreads over the doors from it; a small timer glows on the stake's head. From inside, the doors are cold and humming and will not move."
+  - "The boss chamber (new location boss_chamber_bells): a round chamber 30 m across and 25 m high under a dome, flooded knee-deep, ringed with pillars; bronze bells of every size hang from the dome on chains; a narrow stone stair winds up the back wall to a small dark door 6 m above the floor (the bell-ringer's door: the second exit Nib found, which leads out to the chapel behind the altar). The front is the sealed bronze double doors."
+  - "The Drowned Bell-Ringer (new design, see ARC3_4_BEATS.md): a hushed giant 6 m tall, its body like drowned grey stone wrapped in rotting dark-blue robes and rusted chains, long arms, huge hands; in place of a head, a cracked bronze cathedral bell green with age, with a violet Hush crack down its side leaking ash, and darkness inside its mouth. It carries a bell clapper the size of a tree trunk as a hammer. When it tolls, a ring of force bursts out from it a step beyond its own reach; inside its arm's length, the force passes over you. B-grade; a hushed hero. Scale: Borro reaches its waist; Jaeha reaches its knee."
+  - "The flooded crypt (P13–P14): a low-vaulted stone crypt filling with black water, the two sealers chest-deep and climbing onto a tomb."
+plants:
+  - "PLANT P09–P14: the wrong-way arrow strands the sealers in the crypt (ch 20: Mok's second team comes through the flooded passage)."
+  - "PLANT P44–P47: Borro shares Mok's shield and Jaeha carries it (ch 19: Mok puts his shield beside Borro's)."
+  - "PLANT P62: the window offers HARVEST only (ch 50)."
+hook_type: countdown
+
+panels:
+
+  # ================= THE DOOR (P01–P15) =================
+  - id: P01
+    recipe: impact
+    shape: full
+    gap: none
+    bg: black
+    camera: "low, inside the chamber, looking back at the doorway: the bronze doors almost shut, Borro's huge grey hand shooting out through the last gap"
+    light: "key: a last strip of red from the doorway; the chamber dark"
+    art: >
+      From low inside the chamber, looking back at the doorway: the bronze doors are almost shut, a last strip of red light
+      between them, Mok's smiling face in it; and through that gap Borro's huge grey hand (borro) shoots out and closes on the
+      front of Mok's jacket and his gold chain.
+    acting:
+      borro: "one arm thrust through the gap, fist closing on Mok's jacket and chain"
+      mok_hangyu: "in the gap, the smile turning to shock as the hand grabs him"
+    calm: top
+    sfx:
+      - {text: "GRAB", style: impact, at: [0.50, 0.30], size: XL, rot: -8}
+
+  - id: P02
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, side-on: Borro yanking Mok in through the gap by his chain, Mok's feet leaving the floor, the doors slamming behind him"
+    light: "red light vanishing"
+    art: >
+      Side-on: Borro yanks Mok in through the gap by his chain, Mok's boots leaving the floor and his tower shield banging on
+      the door's edge; the bronze doors slam shut behind him.
+    acting:
+      borro: "hauling backward with one arm, the other holding his shield"
+      mok_hangyu: "flying in sideways, arms flailing, mouth open"
+    calm: top
+    sfx:
+      - {text: "YANK", style: impact, at: [0.30, 0.30], size: L, rot: -6}
+      - {text: "BOOOM", style: impact, at: [0.76, 0.40], size: XL, rot: 6}
+
+  - id: P03
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high, inside the chamber: Mok landing face first in the knee-deep water at Jaeha's feet"
+    light: "dim; the bells overhead"
+    art: >
+      High inside the chamber: Mok lands face first in the knee-deep water at Jaeha's feet with a huge splash, his shield
+      skidding away. Jaeha looks down at him politely; Yerin, Nib and Borro stand round.
+    acting:
+      mok_hangyu: "sprawled face down in the water, shield skidding away"
+      kang_jaeha: "standing over him, looking down politely, hands in his vest pockets"
+    calm: top
+    sfx:
+      - {text: "SPLASSH", style: impact, at: [0.50, 0.70], size: L, rot: 0}
+
+  - id: P04
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "outside the doors, low: the sealer driving the black stake into the floor, a web of violet light spreading over the bronze"
+    light: "violet light racing over the bronze doors"
+    art: >
+      Outside the doors in the nave, from low: the sealer (bh_sealers) drives the black steel stake into the floor stones in
+      front of the doors without looking up; a web of violet light races out from it across the bronze doors and locks into
+      place; a small timer glows on the stake's head.
+    acting:
+      bh_sealers: "driving the stake down two-handed, head down, not seeing that Mok is gone"
+    calm: top
+    sfx:
+      - {text: "KACHUNNG", style: impact, at: [0.30, 0.70], size: XL, rot: 0}
+      - {text: "VWWMMMM", style: quiet, at: [0.70, 0.30], size: M, rot: 0}
+
+  - id: P05
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level in the nave: the sealer straightening up and turning round, the hunters behind him staring at the empty spot where Mok stood"
+    light: "violet from the doors"
+    art: >
+      In the nave: the sealer straightens up and turns round; the Black Hound hunters (bh_raid) behind him are all staring at the
+      empty spot in front of the doors where Mok was standing.
+    acting:
+      bh_sealers: "turning, the triumphant face sliding off"
+      bh_raid: "staring at the empty water, weapons drooping"
+    eyeline: "the hunters → the empty spot"
+    foreground: "the stake's glowing head, cropped, bottom"
+    calm: top
+    lines:
+      - {who: bh_sealers, type: speech, text: "DONE. THE SEAL HOLDS FOR AN HOUR. WHERE'S THE BOSS?", side: l}
+      - {who: bh_raid, type: speech, text: "...INSIDE.", side: r}
+
+  - id: P06
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on the stake's head: a small glowing timer"
+    light: "violet"
+    art: >
+      Close on the black stake's head with its silver double-hexagon: a small glowing timer.
+    calm: right
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.40], text: "[SEAL · 59:58]"}
+    silent: true
+
+  - id: P07
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, behind Sora in the nave: her lifting her wrist to look at the compass, smiling at the sealed doors"
+    light: "violet from the doors"
+    art: >
+      From low behind Sora (han_sora) in the nave: she lifts her wrist to look at the compass, then smiles at the sealed doors.
+      The sealer is hauling uselessly at the stake.
+    acting:
+      han_sora: "lifting her wrist, a slow smile at the doors"
+      bh_sealers: "hauling at the stake with both hands, panicking"
+    eyeline: "Sora → the doors"
+    foreground: "Sora's crossbow on her shoulder, cropped, left"
+    calm: top
+    lines:
+      - {who: bh_sealers, type: shout, text: "IT WON'T COME OUT! NOBODY CAN OPEN IT FOR AN HOUR!", side: r}
+      - {who: han_sora, type: speech, text: "THEN WE WAIT. AND WE SEE WHO WALKS OUT.", side: l}
+
+  - id: P08
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "inside, eye level: Mok scrambling up out of the water and hammering on the humming doors with his fist"
+    light: "violet bleeding through the crack of the doors"
+    art: >
+      Inside: Mok (mok_hangyu) scrambles up out of the water and hammers on the humming bronze doors with his fist; violet light
+      bleeds through the crack.
+    acting:
+      mok_hangyu: "pounding the door with his fist, soaked, roaring"
+    eyeline: "Mok → the doors"
+    foreground: "the violet-lit crack of the doors, cropped, right"
+    calm: top
+    lines:
+      - {who: mok_hangyu, type: shout, text: "OPEN IT! YOU IDIOTS, OPEN THE DOOR!", side: l}
+    sfx:
+      - {text: "BANG BANG BANG", style: impact, at: [0.70, 0.40], size: M, rot: 0}
+
+  - id: P09
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, behind Mok: Nib standing in the water beside him, holding his open palm toward the sealed doors"
+    light: "violet"
+    art: >
+      From low behind Mok: Nib (nib, mask) stands in the water at his side and holds his open palm toward the sealed doors: the
+      "You first" gesture. Mok looks down at him.
+    acting:
+      nib: "palm open toward the doors, looking up at Mok, deadpan"
+      mok_hangyu: "looking down at Nib, fist still raised against the door"
+    eyeline: "Nib → Mok (up); Mok → Nib (down)"
+    foreground: "Mok's shoulder and raised fist, cropped, left"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "YOU FIRST.", side: r}
+      - {who: mok_hangyu, type: speech, text: "WHAT?", side: l}
+
+  - id: P10
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Nib's masked face, deadpan"
+    light: "violet"
+    art: >
+      Close on Nib's masked face (nib), utterly deadpan.
+    acting:
+      nib: "flat eyes, mouth a straight line, palm still open"
+    eyeline: "Nib → Mok"
+    calm: left
+    lines:
+      - {who: nib, type: speech, text: "DOORS. YOU LIKE CLOSING THEM. YOU GO FIRST.", side: r}
+
+  - id: P11
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, three-quarter: Mok pulling a radio off his shoulder and barking into it"
+    light: "violet; dim"
+    art: >
+      Mok (mok_hangyu) rips a radio off his shoulder strap and barks into it, his back to the doors.
+    acting:
+      mok_hangyu: "radio to his mouth, eyes on Jaeha, teeth bared"
+    eyeline: "Mok → Jaeha"
+    foreground: "the edge of the doors, cropped, right"
+    calm: top
+    lines:
+      - {who: mok_hangyu, type: phone, text: "TEAM TWO! HAVE YOU SEALED THE BACK DOOR? TEAM TWO!", side: l}
+
+  - id: P12
+    recipe: talk
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on the radio in Mok's fist, crackling"
+    light: "dim"
+    art: >
+      Close on the radio in Mok's wet fist, its light blinking.
+    foreground: "Mok's soaked sleeve and gold chain, cropped, left"
+    calm: right
+    lines:
+      - {who: offpanel:bh_sealers, type: phone, text: "WE FOLLOWED THE RAT'S ARROWS! WE'RE IN SOME CRYPT, IT'S FLOODING!", side: l}
+    sfx:
+      - {text: "KSSHHK", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+
+  - id: P13
+    recipe: establish
+    shape: wide
+    gap: short
+    bg: black
+    camera: "in the flooded crypt, low: two sealers chest-deep in black water, climbing onto a stone tomb, the passage behind them underwater"
+    light: "a single torch beam; black water"
+    art: >
+      In the flooded crypt: two Black Hound sealers (bh_sealers) chest-deep in black water climb onto a stone tomb, a torch beam
+      swinging, a coil of cables floating; the passage they came down is completely underwater behind them.
+    acting:
+      bh_sealers: "two men scrambling onto the tomb, one holding the radio up out of the water, the other the torch"
+    calm: top
+    sfx:
+      - {text: "GLUG GLUG GLUG", style: quiet, at: [0.30, 0.70], size: S, rot: 0}
+
+  - id: P14
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on a chalk arrow on a wall of the crypt passage, half under the rising water, the tiny extra tick at its tail"
+    light: "the torch beam"
+    art: >
+      Close on Jaeha's chalk arrow on the floor stone of the crypt junction, the black water creeping over it; the tiny extra
+      tick at its tail.
+    calm: left
+    silent: true
+
+  - id: P15
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the water: Jaeha standing calmly in front of Mok, polite, hands in his vest pockets"
+    light: "dim; violet behind Mok"
+    face: private
+    art: >
+      From low in the water: Jaeha (kang_jaeha) stands calmly in front of Mok, polite, his hands in his vest pockets; Mok, the
+      radio in his fist, stares at him.
+    acting:
+      kang_jaeha: "standing easy, a polite smile, eyes cold"
+      mok_hangyu: "staring, the radio lowering, the first flicker of fear in his eyes"
+    eyeline: "Jaeha → Mok (up); Mok → Jaeha (down)"
+    foreground: "Mok's dripping shield on the floor, cropped, bottom left"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "I MARKED THAT PASSAGE, SIR. YOU TOLD EVERYONE TO FOLLOW MY MARKS.", side: r}
+
+  - id: P16
+    kind: title
+    shape: full
+    gap: long
+    bg: black
+    title_card: "MY SUMMONS GO FIRST · CHAPTER 17 · THIRTY SECONDS"
+    notes: "Title card at panel 16 of 66 (24%)."
+
+  # ================= THE BELL-RINGER (P17–P40) =================
+  - id: P17
+    recipe: establish
+    shape: full
+    gap: long
+    bg: black
+    camera: "high (20 m) under the dome: the round flooded chamber, bells hanging everywhere, a huge slumped shape in the middle, a stair winding up to a small door"
+    light: "key: pale light from slits in the dome; the bells catching it; the floor dark"
+    art: >
+      The boss chamber (location boss_chamber_bells) from high under the dome: a round chamber flooded knee-deep, ringed with
+      pillars; bronze bells of every size hang from the dome on chains; a narrow stone stair winds up the back wall to a small
+      dark door 6 m above the floor. In the middle, a huge shape sits slumped in the water, still, wrapped in rotting robes and
+      chains, a great bell where its head should be. The five of them stand small by the sealed doors. Scale: the slumped shape
+      is as tall sitting as two men.
+    calm: top
+    sfx:
+      - {text: "...", style: quiet, at: [0.50, 0.86], size: S, rot: 0}
+
+  - id: P18
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level by the doors: Mok seeing the stair and the small door high on the back wall, his face changing"
+    light: "dim"
+    art: >
+      By the doors: Mok (mok_hangyu) sees the stair and the small dark door high on the back wall, and his face changes.
+    acting:
+      mok_hangyu: "staring up at the small door, jaw working, the radio dangling"
+      kang_jaeha: "beside him, following his gaze"
+    eyeline: "Mok → the small door"
+    foreground: "Jaeha's shoulder, cropped, right"
+    calm: top
+    lines:
+      - {who: mok_hangyu, type: speech, text: "THE BELL-RINGER'S DOOR. IT'S OPEN. SO YOU KNEW ABOUT IT.", side: l}
+      - {who: kang_jaeha, type: speech, text: "MY HUSK WENT FOR A WALK DURING THE BREAK, SIR.", side: r}
+
+  - id: P19
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Mok, a slow ugly grin returning"
+    light: "dim"
+    art: >
+      Close on Mok (mok_hangyu): a slow, ugly grin returns.
+    acting:
+      mok_hangyu: "grinning, eyes narrowing, picking up his shield"
+    eyeline: "Mok → the door"
+    foreground: "Jaeha's shoulder, cropped, right edge"
+    calm: left
+    lines:
+      - {who: mok_hangyu, type: menace, text: "THEN I'LL BE GOING. ENJOY THE BOSS, TRAP RAT.", side: r}
+
+  - id: P20
+    recipe: anticipation
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the water: the slumped giant's bell-head slowly lifting, ash drifting out of the crack in its side"
+    light: "dim; violet ash glowing"
+    art: >
+      From low in the water: in the middle of the chamber, the slumped giant's great bell-head slowly lifts; violet ash drifts
+      out of the crack down its side; its chains clink. It is sitting right in front of the stair.
+    acting:
+      bell_ringer: "the bell-head lifting slowly, one huge hand closing round a clapper the size of a tree trunk"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "KLINK... KLINK...", style: quiet, at: [0.50, 0.40], size: S, rot: 0}
+
+  - id: P21
+    recipe: monster-reveal
+    shape: full
+    gap: short
+    bg: black
+    camera: "low, from the water in front of the stair: the Drowned Bell-Ringer rising to its full height, the clapper dragging, chains streaming water"
+    light: "pale light from the dome on the bronze; violet ash"
+    art: >
+      The Drowned Bell-Ringer (bell_ringer) rises to its full 6 m: a body like drowned grey stone wrapped in rotting dark-blue
+      robes and rusted chains, streaming water; long arms; in place of a head, a cracked bronze cathedral bell green with age,
+      a violet Hush crack down its side, darkness inside its mouth; in one hand a bell clapper the size of a tree trunk. It
+      stands between them and the stair. Scale: Borro reaches its waist; Jaeha reaches its knee.
+    acting:
+      bell_ringer: "rising to its full height, the clapper dragging through the water, the bell-head turning toward them"
+    calm: top
+    sfx:
+      - {text: "RRRRRRMMMMMM", style: impact, at: [0.30, 0.20], size: XL, rot: -6}
+
+  - id: P22
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "close on the bell-head's dark mouth, ash drifting out, a window beside it"
+    light: "violet; cyan"
+    art: >
+      Close on the bell-head's dark mouth, the violet crack down its side, ash drifting out. The upper part is empty for the
+      window.
+    calm: top
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.06], text: "[BOSS: DROWNED BELL-RINGER (B) · HUSHED]"}
+    silent: true
+
+  - id: P23
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, side-on: Mok backing up beside Jaeha, the grin gone, raising his tower shield"
+    light: "dim; violet"
+    art: >
+      Side-on: Mok (mok_hangyu) backs up beside Jaeha, the grin gone, raising his tower shield; Jaeha (kang_jaeha) does not move.
+    acting:
+      mok_hangyu: "backing up, raising the shield, eyes on the giant"
+      kang_jaeha: "standing still, eyes on the giant, notebook coming out"
+    eyeline: "both → the Bell-Ringer"
+    foreground: "the Bell-Ringer's dragging clapper, cropped, top right"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "THE STAIR IS BEHIND IT, SIR. YOU STILL WANT TO GO FIRST?", side: r}
+
+  - id: P24
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level, close two-shot: Nib's and Borro's eyes flaring amber and moss green behind their masks"
+    light: "amber and moss green"
+    art: >
+      Close two-shot: behind their masks, Nib's eye flares amber and Borro's eyes flare moss green; outlines of light flicker on
+      along both of them. In the moss on Borro's shell, the drone's lens glints. The upper part is empty for the window.
+    acting:
+      nib: "knives sliding out in a reverse grip, crouching"
+      borro: "the shield coming up"
+    calm: top
+    ui:
+      - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[FIELD FORM · NIB 05:00 · BORRO 05:00 · LINKED]"}
+    silent: true
+
+  - id: P25
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, tilted 15 degrees: the clapper swinging down at the whole group in a great arc, Borro stepping in under it with his shield"
+    light: "dim; spray"
+    art: >
+      The Bell-Ringer swings the clapper down at the whole group in a great overhead arc; Borro steps in under it with his iron
+      shield raised to meet it.
+    acting:
+      bell_ringer: "swinging the clapper overhead with both hands"
+      borro: "stepping in under it, shield up, braced"
+    calm: top
+    sfx:
+      - {text: "WHOOOOM", style: impact, at: [0.50, 0.20], size: XL, rot: -8}
+
+  - id: P26
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: the clapper smashing onto Borro's shield, the water exploding outward in a ring, Borro driven down to one knee"
+    light: "a white flash; spray"
+    art: >
+      The clapper smashes onto Borro's shield; the water explodes outward in a ring; Borro is driven down to one knee, the
+      shield ringing.
+    acting:
+      borro: "driven down to one knee, shield above his head, arms shaking"
+    calm: top
+    sfx:
+      - {text: "KRANNNNG", style: impact, at: [0.40, 0.30], size: XL, rot: 6}
+
+  - id: P27
+    recipe: carry
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close on Jaeha staggering in the water, a moss-green ring slamming out from him, his nose bleeding"
+    light: "moss-green ring"
+    face: private
+    art: >
+      Close and low on Jaeha (kang_jaeha) staggering in the water as the blow lands in him, a moss-green ring slamming out from
+      his chest, his nose starting to bleed; Yerin catches his arm.
+    acting:
+      kang_jaeha: "staggering, one hand on his chest, teeth gritted"
+      song_yerin: "catching his arm, hands glowing"
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.86], text: "[CARRY · BORRO · 50%]"}
+    sfx:
+      - {text: "THOOM", style: impact, at: [0.30, 0.40], size: M, rot: 0}
+
+  - id: P28
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high, looking down: Nib racing round the giant's legs through the water, slashing at its robes and chains"
+    light: "amber streak"
+    art: >
+      High above: Nib races round the giant's legs through the water, slashing at its rotting robes and chains; strips of cloth
+      and links of chain fly, but the stone body beneath is barely scratched.
+    acting:
+      nib: "racing round the giant's legs, slashing, scarf streaming"
+      bell_ringer: "turning slowly after him"
+    calm: top
+    sfx:
+      - {text: "SHK SHK SHK", style: impact, at: [0.60, 0.70], size: M, rot: -6}
+
+  - id: P29
+    recipe: anticipation
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close on the bell-head: the giant lifting its free hand and striking its own bell-head with its knuckles"
+    light: "violet; the bronze shivering"
+    art: >
+      Close and low on the giant: it lifts its free hand and strikes its own bell-head with its huge knuckles; the bronze
+      shivers.
+    acting:
+      bell_ringer: "raising a fist and striking the side of its own bell-head"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "TONK", style: quiet, at: [0.40, 0.30], size: M, rot: 0}
+
+  - id: P30
+    recipe: splash
+    shape: full
+    gap: short
+    bg: black
+    camera: "high, over the chamber: a ring of force bursting out from the tolling bell-head, the water flattening, everyone outside the ring blown off their feet"
+    light: "a bronze shockwave ring; spray flattened"
+    art: >
+      High over the chamber: the bell-head TOLLS, and a ring of force bursts out from it across the water, flattening it into a
+      disc and blowing everyone outside the ring off their feet: Mok skids backward with his shield, Yerin and Jaeha are thrown
+      against a pillar, smaller bells overhead crack. Only Nib, right at the giant's ankle, is untouched.
+    acting:
+      mok_hangyu: "skidding backward behind his shield"
+      kang_jaeha: "thrown back against a pillar"
+      song_yerin: "thrown back with him"
+      nib: "crouched at the giant's ankle, untouched, looking up in surprise"
+    calm: top
+    sfx:
+      - {text: "DOOOOOOOOONNNNG", style: impact, at: [0.30, 0.20], size: XL, rot: -4}
+
+  - id: P31
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, by the pillar: Jaeha on his knees, blood from one ear, staring past the giant at Nib standing untouched at its feet"
+    light: "dim; violet"
+    face: private
+    art: >
+      By the pillar: Jaeha (kang_jaeha) is on his knees in the water, blood from one ear, staring past the giant at Nib, who stands
+      untouched at its feet.
+    acting:
+      kang_jaeha: "on his knees, a hand pressed to his bleeding ear, eyes fixed on Nib"
+    eyeline: "Jaeha → Nib"
+    calm: top
+    silent: true
+    sfx:
+      - {text: "EEEEEEEE", style: quiet, at: [0.30, 0.30], size: S, rot: 0}
+
+  - id: P32
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "over Jaeha's shoulder, close on his notebook: a sketch of the giant with a ring drawn round it, a small figure inside the ring"
+    light: "dim on the page"
+    face: private
+    art: >
+      Over Jaeha's shoulder: in the notebook, the pencil sketches the giant from above with a ring round it, a small figure
+      standing inside the ring by its feet, and an arrow pointing inward. Leave a blank band for the letterer's note. No
+      readable text.
+    calm: none
+    lines:
+      - {who: kang_jaeha, type: note, text: "THE TOLL STARTS A STEP OUTSIDE ITS REACH. INSIDE ITS ARM, YOU'RE SAFE."}
+
+  - id: P33
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level by the pillar: Jaeha pressing the chalk stub into Yerin's hands again, pointing at the giant's feet"
+    light: "dim"
+    face: private
+    art: >
+      By the pillar: Jaeha (kang_jaeha) closes Yerin's hands round the chalk stub again and points at the water round the
+      giant's feet; Yerin (song_yerin) looks at the giant, pale.
+    acting:
+      kang_jaeha: "pointing at the giant's feet, speaking fast"
+      song_yerin: "gripping the chalk, staring at the giant, swallowing"
+    eyeline: "Jaeha → Yerin; Yerin → the giant"
+    foreground: "the pillar's wet stone, cropped, left"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: speech, text: "WHEN IT RINGS, NOBODY WILL HEAR ME. MARK THE SAFE RING ON THE PILLARS, CLOSE IN.", side: r}
+      - {who: song_yerin, type: speech, text: "CLOSE IN? NEXT TO THAT THING?", side: l}
+
+  - id: P34
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha, a bloody, crooked smile"
+    light: "dim"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha), blood from his nose and ear, a crooked smile.
+    acting:
+      kang_jaeha: "a crooked smile through the blood, eyes fierce"
+    eyeline: "Jaeha → Yerin"
+    foreground: "Yerin's hand holding the chalk, cropped, left edge"
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: speech, text: "THE SAFEST PLACE IN A TRAP IS USUALLY THE WORST-LOOKING ONE.", side: r}
+
+  - id: P35
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, tilted: Yerin running through the water toward the giant, chalk in hand, Borro's shield over her"
+    light: "dim; spray"
+    art: >
+      Yerin (song_yerin) runs through the knee-deep water toward the giant with the chalk in her fist, Borro running beside her
+      with his shield held over her head.
+    acting:
+      song_yerin: "running hard, chalk in her fist, teeth gritted, eyes on the pillars"
+      borro: "running beside her, shield held over her like a roof"
+    calm: top
+    sfx:
+      - {text: "SPLSH SPLSH", style: impact, at: [0.70, 0.70], size: M, rot: 6}
+
+  - id: P36
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Yerin's hand slashing a chalk line round the base of a pillar close to the giant"
+    light: "dim"
+    art: >
+      Close on Yerin's small hand slashing a thick chalk ring round the base of a pillar close to the giant, the water splashing
+      round her wrist.
+    calm: right
+    silent: true
+    sfx:
+      - {text: "SKRRITCH", style: quiet, at: [0.50, 0.40], size: S, rot: 0}
+
+  - id: P37
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: the giant swinging the clapper sideways at Yerin and Borro, Borro taking it on the shield and sliding"
+    light: "spray"
+    art: >
+      The giant swings the clapper sideways at Yerin and Borro; Borro takes it on the shield and slides through the water with
+      Yerin behind him.
+    acting:
+      bell_ringer: "swinging the clapper sideways"
+      borro: "taking the blow, sliding, shielding Yerin"
+      song_yerin: "crouched behind Borro, the chalk in her hand"
+    calm: top
+    sfx:
+      - {text: "KRANG", style: impact, at: [0.50, 0.30], size: L, rot: -6}
+
+  - id: P38
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, by the doors: Mok crouched behind his tower shield, watching the rat's people fight, not moving"
+    light: "dim; violet behind him"
+    art: >
+      By the sealed doors: Mok (mok_hangyu) crouches behind his tower shield, watching Jaeha's people fight, not moving to help.
+    acting:
+      mok_hangyu: "crouched behind his shield, watching, calculating, sweat on his face"
+    eyeline: "Mok → the stair"
+    foreground: "the violet web on the doors, cropped, right"
+    calm: top
+    lines:
+      - {who: mok_hangyu, type: thought, text: "LET THEM WEAR IT DOWN. THEN I TAKE THE STAIR.", side: l}
+
+  - id: P39
+    recipe: chorus
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close on Bomi's phone screen outside the gate: the stream from the drone in Borro's moss"
+    light: "the screen glow; daylight"
+    art: >
+      Outside the gate, close on Bomi's phone in her shaking hands, the screen flat green; Choi's hand on her shoulder at the
+      edge of the frame.
+    calm: top
+    ui:
+      - kind: phone.live_stream
+        "on": screen
+        viewers: "612,904 WATCHING"
+        chat:
+          - "[dalgona]: MOK GOT YANKED IN LMAOOO"
+          - "[seoul_otaku]: wait. did mok's guys SEAL the door on purpose??"
+          - "[minsu_0412]: why is mok hiding behind his shield"
+    sfx:
+      - {text: "BLIP BLIP BLIP", style: quiet, at: [0.80, 0.80], size: S, rot: 0}
+
+  - id: P40
+    recipe: insert
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on the drone's lens peeking out of the moss on Borro's shell, a tiny red light"
+    light: "dim; a tiny red light"
+    art: >
+      Close on the drone's lens peeking out between two white flowers in the moss on Borro's shell, a tiny red light glowing.
+    calm: left
+    silent: true
+
+  # ================= MOK'S SHIELD (P41–P54) =================
+  - id: P41
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, tilted: the giant turning toward the doors and swinging the clapper down at Jaeha, who is crossing the open water"
+    light: "dim; spray"
+    art: >
+      The giant turns toward the doors and swings the clapper down at Jaeha, who is crossing the open water toward the pillars,
+      far from Borro.
+    acting:
+      bell_ringer: "swinging the clapper down in a great arc toward Jaeha"
+      kang_jaeha: "crossing the water, looking up, too far from cover"
+    calm: top
+    sfx:
+      - {text: "WHOOOM", style: impact, at: [0.50, 0.20], size: XL, rot: 8}
+
+  - id: P42
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, behind Mok: Mok lunging out from the doors without thinking and throwing his tower shield up over Jaeha"
+    light: "spray; the clapper's shadow"
+    art: >
+      From low behind Mok: he lunges out from the doors without thinking, a tank's reflex, and throws his black tower shield up
+      over Jaeha as the clapper comes down.
+    acting:
+      mok_hangyu: "lunging, throwing the shield up over Jaeha, face twisted"
+      kang_jaeha: "crouched under the shield"
+    calm: top
+    sfx:
+      - {text: "HUP", style: impact, at: [0.30, 0.40], size: M, rot: 0}
+
+  - id: P43
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: the clapper smashing onto Mok's shield, Mok's knees buckling, the shield cracking down the middle"
+    light: "a white flash"
+    art: >
+      The clapper smashes onto Mok's shield; his knees buckle and a crack runs down the middle of the black shield through the red
+      hound's head.
+    acting:
+      mok_hangyu: "knees buckling, arms shaking, the shield cracking"
+      kang_jaeha: "under the shield, one hand flat on Mok's back"
+    calm: top
+    sfx:
+      - {text: "KRAKKK", style: impact, at: [0.40, 0.30], size: XL, rot: -8}
+
+  - id: P44
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, under the shield: Jaeha shouting sideways, Borro already turning toward them across the water"
+    light: "dim under the shield"
+    face: private
+    art: >
+      Low under the cracking shield: Jaeha (kang_jaeha) shouts sideways across the water; Borro turns toward them.
+    acting:
+      kang_jaeha: "crouched under the shield, shouting sideways, one hand on Mok's back"
+      borro: "turning toward them across the water"
+    eyeline: "Jaeha → Borro"
+    foreground: "the cracking shield above, cropped, top"
+    calm: top
+    lines:
+      - {who: kang_jaeha, type: shout, text: "BORRO! SHARE HIS SHIELD!", side: r}
+
+  - id: P45
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, side-on: Borro sliding his iron shield in beside Mok's cracked one, the two shields overlapping under the clapper"
+    light: "moss green; spray"
+    art: >
+      Side-on: Borro slides his iron shield in beside Mok's cracked black one and puts his shell under it; the two shields
+      overlap under the clapper and the weight spreads across both.
+    acting:
+      borro: "shoulder and shell under both shields, legs braced"
+      mok_hangyu: "suddenly less crushed, eyes widening"
+    calm: top
+    sfx:
+      - {text: "KLANG", style: impact, at: [0.50, 0.30], size: L, rot: 0}
+
+  - id: P46
+    recipe: carry
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, close under the shields: Jaeha taking the load, blood running from his nose, a huge moss-green ring round all three of them"
+    light: "a huge moss-green ring"
+    face: private
+    art: >
+      Low and close under the two shields: Jaeha takes the load that Borro took from Mok; blood runs from his nose; a huge
+      moss-green ring pulses out round all three of them.
+    acting:
+      kang_jaeha: "teeth gritted, blood from his nose, one hand on Mok's back, one on Borro's shell"
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.86], text: "[CARRY · BORRO · 90%]"}
+    sfx:
+      - {text: "THOOOM", style: impact, at: [0.30, 0.40], size: L, rot: 0}
+
+  - id: P47
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level, close two-shot under the shields: Mok staring at Jaeha's bleeding face beside him"
+    light: "moss green; dim"
+    art: >
+      Close under the shields: Mok (mok_hangyu) stares at Jaeha's bleeding face right beside his own.
+    acting:
+      mok_hangyu: "staring sideways at Jaeha, arms shaking, confused"
+      kang_jaeha: "eyes on the giant, blood running, jaw set"
+    eyeline: "Mok → Jaeha; Jaeha → the giant"
+    foreground: "the crack in Mok's shield, cropped, top"
+    calm: top
+    lines:
+      - {who: mok_hangyu, type: speech, text: "IT'S LIGHTER. WHY IS IT LIGHTER? WHAT DID YOU DO?", side: l}
+      - {who: kang_jaeha, type: speech, text: "EVERYONE COMES BACK, SIR. EVEN YOU.", side: r}
+
+  - id: P48
+    recipe: reaction
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on Mok's eyes, something in them cracking like his shield"
+    light: "moss green"
+    art: >
+      Close on Mok's eyes (mok_hangyu): something in them cracks, like his shield.
+    acting:
+      mok_hangyu: "eyes wide, then wavering, the hard look breaking for a second"
+    calm: right
+    silent: true
+
+  - id: P49
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high: Borro heaving both shields upward and throwing the clapper off, the giant staggering back a step"
+    light: "spray; moss green"
+    art: >
+      High above: Borro heaves both shields upward together and throws the clapper off; the giant staggers back a step, its
+      chains swinging.
+    acting:
+      borro: "heaving upward with both shields"
+      mok_hangyu: "pushing up beside him"
+      bell_ringer: "staggering back a step"
+    calm: top
+    sfx:
+      - {text: "WHOOMP", style: impact, at: [0.50, 0.30], size: L, rot: 6}
+
+  - id: P50
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: Yerin by a chalk-ringed pillar close to the giant, waving them in, the chalk rings marked on three pillars"
+    light: "dim; white chalk rings bright on the pillars"
+    art: >
+      By a pillar right beside the giant's feet: Yerin (song_yerin) waves them in; thick white chalk rings now mark the bases of
+      three pillars close to the giant.
+    acting:
+      song_yerin: "pressed against the chalk-ringed pillar, waving both arms, shouting"
+    eyeline: "Yerin → Jaeha"
+    foreground: "a chalk ring on a pillar, cropped, left"
+    calm: top
+    lines:
+      - {who: song_yerin, type: shout, text: "THE RINGS ARE MARKED! GET IN CLOSE!", side: l}
+
+  - id: P51
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, from the water: Jaeha, Mok and Borro running in toward the giant's feet as it raises its fist to its bell-head again"
+    light: "dim; violet"
+    art: >
+      From low in the water: Jaeha, Mok and Borro run in toward the giant's feet as it raises its fist to its bell-head again.
+    acting:
+      kang_jaeha: "running in, one hand on Mok's arm, dragging him"
+      mok_hangyu: "running, the cracked shield on his arm"
+      borro: "running behind them"
+      bell_ringer: "raising its fist to its own bell-head"
+    calm: top
+    sfx:
+      - {text: "SPLSH SPLSH", style: impact, at: [0.70, 0.70], size: M, rot: 0}
+
+  - id: P52
+    recipe: splash
+    shape: full
+    gap: short
+    bg: black
+    camera: "high, over the chamber: the toll's ring bursting outward, the whole team pressed against the chalk-ringed pillars inside it, untouched"
+    light: "the bronze shockwave ring"
+    art: >
+      High over the chamber: the bell TOLLS again, and the ring of force bursts outward across the water and smashes into the
+      walls; but the whole team stands pressed against the chalk-ringed pillars inside the ring, close to the giant's feet,
+      untouched, the water round them perfectly still.
+    acting:
+      kang_jaeha: "pressed to a pillar, eyes closed, a hand over his bleeding ear"
+      mok_hangyu: "pressed to a pillar, staring round in disbelief"
+      song_yerin: "hugging the pillar"
+      borro: "standing in the ring, shield lowered"
+      nib: "crouched at the giant's ankle"
+    calm: top
+    sfx:
+      - {text: "DOOOOOOONNNG", style: impact, at: [0.30, 0.20], size: XL, rot: -4}
+
+  - id: P53
+    recipe: reaction
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level inside the ring: Mok looking at the chalk ring at his feet, then at Jaeha"
+    light: "dim; dust settling"
+    art: >
+      Inside the ring: Mok (mok_hangyu) looks down at the white chalk ring round the pillar at his feet, then at Jaeha.
+    acting:
+      mok_hangyu: "looking down at the chalk, then at Jaeha, breathing hard"
+    eyeline: "Mok → Jaeha"
+    calm: top
+    lines:
+      - {who: mok_hangyu, type: speech, text: "CHALK. YOU BEAT IT WITH CHALK.", side: l}
+
+  - id: P54
+    recipe: talk
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha against the pillar, polite even now"
+    light: "dim"
+    face: public
+    art: >
+      Close on Jaeha (kang_jaeha) against the pillar, bloody and polite even now.
+    acting:
+      kang_jaeha: "a small polite smile through the blood, leaning on the pillar"
+    eyeline: "Jaeha → Mok"
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: speech, text: "TRAP RATS ARE CHEAPER THAN HEALING POTIONS, SIR. YOU SAID SO.", side: r}
+
+  # ================= THIRTY SECONDS (P55–P66) =================
+  - id: P55
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, at the giant's ankle: Nib leaping up onto its knee and slashing at the violet crack in its bell-head"
+    light: "amber streak; violet"
+    art: >
+      At the giant's ankle: Nib leaps up onto its knee and then its arm and slashes at the violet crack in its bell-head; sparks
+      and ash fly, but the bronze holds.
+    acting:
+      nib: "leaping up the giant's arm, slashing at the crack"
+      bell_ringer: "jerking its head away"
+    calm: top
+    sfx:
+      - {text: "SKRANNG", style: impact, at: [0.40, 0.30], size: L, rot: -8}
+
+  - id: P56
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level: the giant swatting Nib off its arm into the water, then dropping its clapper and gripping its bell-head with both hands"
+    light: "violet; spray"
+    art: >
+      The giant swats Nib off its arm into the water, then drops its clapper with a crash and grips its own bell-head with both
+      huge hands, as if it is in pain.
+    acting:
+      bell_ringer: "dropping the clapper, gripping its bell-head with both hands, swaying"
+      nib: "flung into the water"
+    calm: top
+    sfx:
+      - {text: "SPLASH", style: impact, at: [0.30, 0.70], size: M, rot: 0}
+
+  - id: P57
+    recipe: anticipation
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close and low on the bell-head: the violet crack widening, the bronze starting to vibrate on its own"
+    light: "violet brightening inside the crack"
+    art: >
+      Close and low on the bell-head: the violet crack down its side widens and glows brighter, and the whole bronze bell starts
+      to vibrate on its own, a hum building.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "MMMMMMMMMM", style: quiet, at: [0.50, 0.40], size: M, rot: 0}
+
+  - id: P58
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level inside the ring: Jaeha and Mok looking up at the humming bell-head, the smaller bells overhead beginning to shiver too"
+    light: "violet; the bells shivering"
+    face: private
+    art: >
+      Inside the chalk ring: Jaeha (kang_jaeha) and Mok (mok_hangyu) look up at the humming bell-head; overhead, every smaller
+      bell hanging from the dome starts to shiver on its chain.
+    acting:
+      kang_jaeha: "looking up, eyes narrowing, a hand on his ear"
+      mok_hangyu: "looking up, the colour draining from his face"
+    eyeline: "both → the bell-head"
+    foreground: "a shivering bell's chain, cropped, top"
+    calm: top
+    lines:
+      - {who: mok_hangyu, type: speech, text: "WHAT'S IT DOING?", side: l}
+      - {who: kang_jaeha, type: speech, text: "IT'S NOT RINGING ONCE ANYMORE. IT'S GOING TO KEEP RINGING.", side: r}
+
+  - id: P59
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "close on Jaeha's face lit red from a warning window"
+    light: "red from the window"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha), his face lit red from a warning window that flares in front of him. The upper half is empty
+      for the window.
+    acting:
+      kang_jaeha: "eyes wide in the red light, blood on his lip"
+    eyeline: "Jaeha → the window"
+    calm: top
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.06], text: "[BOSS ENRAGED · 00:30]"}
+    silent: true
+
+  - id: P60
+    recipe: impact
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low, from the water: the bell-head ringing without stopping, rings of force rolling out one after another, the chalk ring shrinking"
+    light: "bronze shockwaves rolling; violet"
+    art: >
+      From low in the water: the bell-head rings and rings without stopping, ring after ring of force rolling out across the
+      chamber; each ring starts a little closer to the giant, and the safe space round the pillars shrinks.
+    acting:
+      bell_ringer: "standing rigid, both hands on its bell-head, the bronze shaking"
+    calm: top
+    sfx:
+      - {text: "DONG DONG DONG DONG", style: impact, at: [0.30, 0.20], size: XL, rot: -6}
+
+  - id: P61
+    recipe: impact
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high, along the chamber's wall: cracks racing up the stone, the wall bulging inward, chunks falling from the dome"
+    light: "dust; violet"
+    art: >
+      High along the chamber's curved wall: cracks race up the stone; the whole wall bulges inward; chunks of the dome fall into
+      the water; a small bell crashes down.
+    calm: top
+    silent: true
+    sfx:
+      - {text: "KRRRRAAAKK", style: impact, at: [0.50, 0.30], size: XL, rot: 6}
+
+  - id: P62
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "eye level: the stair and the small door high on the back wall, the stair's steps crumbling away from the bottom up"
+    light: "dust; cyan from the window"
+    art: >
+      The narrow stair up the back wall: its lowest steps crumble away into the water, cutting off the way to the small door 6 m
+      up. The upper part is empty for the window.
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.06], text: "[BOSS: HARVEST ONLY · RELEASE: NOT AVAILABLE]"}
+    silent: true
+    sfx:
+      - {text: "KRUMBLE", style: impact, at: [0.40, 0.70], size: M, rot: 0}
+
+  - id: P63
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, inside the shrinking ring: Yerin, Borro, Nib, Mok and Jaeha pressed together against one pillar"
+    light: "violet; dust"
+    face: private
+    art: >
+      Inside the shrinking ring: Yerin, Borro, Nib, Mok and Jaeha are pressed together against one pillar, the force rolling past
+      just beyond their feet.
+    acting:
+      song_yerin: "pressed against Borro, eyes squeezed shut"
+      borro: "shield raised over all of them"
+      nib: "crouched, glaring at the giant"
+      mok_hangyu: "back to the pillar, gasping"
+      kang_jaeha: "pressed to the pillar, eyes open, thinking"
+    eyeline: "Jaeha → the giant"
+    foreground: "the rolling ring of force, cropped, bottom"
+    calm: top
+    lines:
+      - {who: nib, type: shout, text: "MY TIME IS ALMOST GONE. AND MY KNIVES DON'T BITE BRONZE!", side: l}
+
+  - id: P64
+    recipe: insert
+    shape: wide
+    gap: short
+    bg: black
+    camera: "Jaeha's point of view: the chaos of the chamber, and at the edge of his vision, the tiny cyan mark pulsing"
+    light: "violet chaos; one tiny cyan point"
+    art: >
+      Jaeha's point of view: the ringing giant, the rolling force, the falling stones; and at the very edge of his vision in the
+      top corner, the tiny cyan mark, pulsing now.
+    calm: top
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.84, 0.08], text: "[CALL · HELD]"}
+    silent: true
+
+  - id: P65
+    recipe: eyes
+    shape: strip
+    gap: short
+    bg: black
+    camera: "extreme close-up of Jaeha's eyes, the cyan point reflected in one of them"
+    light: "violet; a cyan glint"
+    face: private
+    art: >
+      Extreme close-up: Jaeha's eyes (kang_jaeha), the tiny cyan point reflected in one of them, his gaze hardening. Fill the
+      canvas edge to edge.
+    acting:
+      kang_jaeha: "eyes hardening, decided"
+    calm: none
+    silent: true
+
+  - id: P66
+    recipe: system
+    shape: wide
+    gap: short
+    bg: navy
+    camera: "close on the warning window counting down in red, the chamber shaking behind it"
+    light: "red; dust"
+    art: >
+      Close on the red warning window counting down, the shaking chamber blurred behind it.
+    calm: top
+    ui:
+      - {kind: system.warning, "on": float, at: [0.5, 0.36], text: "[BOSS ENRAGED · 00:24]"}
+    silent: true
+    sfx:
+      - {text: "DONG DONG DONG", style: impact, at: [0.70, 0.80], size: L, rot: 0}
+
+  - id: END
+    kind: end
+    chibi_gag: "Chibi Mok, soaking wet, sits in a corner hugging his cracked shield and sulking, while chibi Nib stands beside him holding his palm open toward every door in the room, one after another."
