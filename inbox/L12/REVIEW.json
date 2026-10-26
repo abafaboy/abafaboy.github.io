@@ -1,0 +1,90 @@
+{
+  "entry": "L12",
+  "status": "PARTIAL_PENDING_CLAUDE_AND_SOURCE_APPROVAL",
+  "approval": "PENDING_CLAUDE",
+  "updated_utc": "2026-10-26 00:01:33 UTC",
+  "bible_commit": "4515a815d802a726b48b374ee344808eed635144",
+  "art_base_commit": "6abf6bd56cd121a171e3ff6761953a85b3fdaf56",
+  "last_checked_art_before_commit": "1c8bdfeb031d85d3021acc3323d9f8176cd756be",
+  "required_views": 5,
+  "candidate_views": 1,
+  "pending_views": 4,
+  "imagegen_calls": 1,
+  "inflight_calls": 0,
+  "rejects": 0,
+  "images": [
+    {
+      "view": "rooftop_room/stairs_night.png",
+      "status": "CANDIDATE_PENDING_CLAUDE",
+      "attempts": 1,
+      "required_content": "Outdoor last steps and green rooftop landing, bare bulb overhead at the stair opening, approved rooftop-room doorway beyond; no people or text.",
+      "light_observation": "Visible warm bare bulb at upper-left stair landing, separate approved caged door light and open-room spill, cool navy city fill. Local warm pools read at 200 px; no reserved magical glow.",
+      "continuity_observation": "Approved peeling plaster, left-hinged dark door, small window right of door, corrugated roof, steel tank, laundry and night skyline retained. Approved caged facade fixture remains separate from the new bare stair bulb. Interior glimpse contains fold-out table and warm lamp.",
+      "perspective_observation": "Concrete treads meet landing; rail posts have attachment plates, floor and roof doorway share a coherent perspective by visual inspection. No measured calibration or scale figure in this empty extra view.",
+      "style_quality_observation": "Inspected original at native resolution, 200 px overview and 200% stair/door details. Ink and cel value masses remain clear; no visible glyphs, detached fixtures, block compression, edge ringing or smeared colour found in those inspections.",
+      "caveats": [
+        "The stair enclosure, overhead slab and new bare-bulb position extend an off-camera area of the approved keys. Claude must confirm their spatial relationship to the canonical rooftop stair opening.",
+        "The 18 cm step, 1.1 m rail and 2.1 m doorway are prompted nominal anchors, not pixel-measured dimensions.",
+        "No people are drawn in this extra view; future panel staging must check character scale."
+      ],
+      "not_applicable": [
+        "Acting and character side locks: empty location extra view",
+        "Tiny scale people: required for key.png, not this extra-view file",
+        "Flat grey sheet backdrop: this is a full environment key",
+        "Screens: none visible"
+      ]
+    }
+  ],
+  "png_inventory": [
+    {
+      "path": "rooftop_room/stairs_night.png",
+      "sha256": "086d74f5b42b2c3fe9a78ab976e599cf752034b4eed095191a12462e74b84d32",
+      "bytes": 2397538,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "source_copy_equal": true
+    }
+  ],
+  "pending_dependencies": [
+    {
+      "view": "locations_v2/survey_gate/exit_dusk.png",
+      "requires_entry": "L6",
+      "required_approved_source": "locations_v2/survey_gate/outside.png",
+      "state": "PENDING_SOURCE_APPROVAL",
+      "reason": "L6 arcade exterior exists only as an inbox candidate; no L6 Claude verdict or canonical survey_gate source exists."
+    },
+    {
+      "view": "locations_v2/survey_gate/trap_chamber.png",
+      "requires_entry": "L6",
+      "required_approved_source": "locations_v2/survey_gate/key.png",
+      "state": "PENDING_SOURCE_APPROVAL",
+      "reason": "L6 granary interior exists only as an inbox candidate; no L6 Claude verdict or canonical survey_gate source exists."
+    },
+    {
+      "view": "locations_v2/mangwon_market/fish_lane.png",
+      "requires_entry": "L9",
+      "required_approved_source": "locations_v2/mangwon_market/key.png",
+      "state": "PENDING_SOURCE_APPROVAL",
+      "reason": "L9 covered-market key exists only as an inbox candidate; no L9 Claude verdict or canonical market source exists."
+    },
+    {
+      "view": "locations_v2/hanriver_gate/bank_dusk.png",
+      "requires_entry": "L7",
+      "required_approved_source": "locations_v2/hanriver_gate/key.png (and wide.png where relevant)",
+      "state": "PENDING_SOURCE_APPROVAL",
+      "reason": "L7 close key failed local scale checks and wide is an unapproved candidate; no L7 Claude verdict or canonical hanriver_gate source exists."
+    }
+  ],
+  "blocker_kind": "SOURCE_APPROVAL_PENDING; no denied action or uncertain imagegen outcome",
+  "tools_access_quota_blockers": [],
+  "checks_run": [
+    "MANHWA_STYLE_GUIDE 11/11b applicable place checks",
+    "PANEL_BRIEF_v2 4b visual scale/perspective check",
+    "native PNG decode/dimensions, SHA-256 and source byte equality",
+    "approved reference path/hash and exact mandatory style-block verification"
+  ],
+  "scope": "Only inbox/L12 and one INBOX.md line; earlier deliveries and canonical art unchanged"
+}
