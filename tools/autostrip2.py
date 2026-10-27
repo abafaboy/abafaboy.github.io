@@ -636,7 +636,10 @@ TAIL_JS = r"""
     const dl = base / 2 / rd;
     const Ae = edge(ang - dl, 0), Be = edge(ang + dl, 0), Ai = edge(ang - dl, 8), Bi = edge(ang + dl, 8);
     const M = [(Ae[0] + Be[0]) / 2, (Ae[1] + Be[1]) / 2];
-    let L = Math.max(30, Math.min(t === 'shout' ? 90 : 110, dist - 14));
+    // a bubble in the side column beside an inset panel can sit far from its speaker: let its tail run on into the
+    // panel until it nearly reaches the head the review located, so it never stops on someone else (ch001 P04)
+    const cap = (where === 'beside' && el.dataset.hx) ? 380 : (t === 'shout' ? 90 : 110);
+    let L = Math.max(30, Math.min(cap, dist - (cap > 110 ? 46 : 14)));
     while (L > 24 && inOther(r.left + M[0] + ux * L, r.top + M[1] + uy * L, idx)) L -= 6;
     const tip = [M[0] + ux * L, M[1] + uy * L];
     const px = -uy, py = ux;
@@ -694,13 +697,33 @@ SFX_JS = r"""
   // by the smallest move that keeps its centre inside the panel; shrink it when no move fits.
   const pad = 12;
   const boxes = [...document.querySelectorAll('.lt:not(.t-tag), .syswin, .intro')].map(e => e.getBoundingClientRect());
-  let moved = 0; const stuck = [];
+  // Faces too: the head boxes the panel reviews located (data-faces on the panel, in art fractions), mapped through
+  // object-fit: cover onto the page. An SFX never sits on a face.
+  const facesOf = (pnl) => {
+    const out = []; if (!pnl || !pnl.dataset.faces) return out;
+    const img = pnl.querySelector('img.art'); if (!img || !img.naturalWidth) return out;
+    const ir = img.getBoundingClientRect(), W0 = img.naturalWidth, H0 = img.naturalHeight;
+    const sc = Math.max(ir.width / W0, ir.height / H0);
+    const pos = getComputedStyle(img).objectPosition.split(/\s+/);
+    const off = (tok, free) => tok && tok.endsWith('%') ? free * parseFloat(tok) / 100 : (tok ? parseFloat(tok) : free / 2);
+    const ox = ir.left + off(pos[0], ir.width - W0 * sc), oy = ir.top + off(pos[1], ir.height - H0 * sc);
+    const pr = pnl.getBoundingClientRect();
+    for (const f of JSON.parse(pnl.dataset.faces)) {
+      const b = {left: ox + f[0] * W0 * sc, top: oy + f[1] * H0 * sc, right: ox + f[2] * W0 * sc, bottom: oy + f[3] * H0 * sc};
+      b.left = Math.max(b.left, pr.left); b.right = Math.min(b.right, pr.right); b.top = Math.max(b.top, pr.top); b.bottom = Math.min(b.bottom, pr.bottom);
+      if (b.right - b.left > 4 && b.bottom - b.top > 4) out.push(b);
+    }
+    return out;
+  };
+  let moved = 0; const stuck = [], onface = [];
   for (const s of document.querySelectorAll('.sfx')) {
     const pov = s.parentElement.getBoundingClientRect();
+    const faces = facesOf(s.parentElement.parentElement.querySelector('.pnl'));
+    const obst = boxes.concat(faces);
     let shrinks = 0;
-    for (let it = 0; it < 10; it++) {
+    for (let it = 0; it < 12; it++) {
       const r = s.getBoundingClientRect();
-      const hit = boxes.find(b => r.left < b.right + pad && r.right > b.left - pad && r.top < b.bottom + pad && r.bottom > b.top - pad);
+      const hit = obst.find(b => r.left < b.right + pad && r.right > b.left - pad && r.top < b.bottom + pad && r.bottom > b.top - pad);
       if (!hit) break;
       const best = [[0, hit.bottom + pad - r.top], [0, hit.top - pad - r.bottom], [hit.right + pad - r.left, 0], [hit.left - pad - r.right, 0]]
         .map(([dx, dy]) => {
@@ -709,7 +732,7 @@ SFX_JS = r"""
           return {dx, dy, cost: Math.abs(dx) + Math.abs(dy) + (inside ? 0 : 1e6)};
         }).sort((a, b) => a.cost - b.cost)[0];
       if (best.cost >= 1e6) {
-        if (shrinks++ >= 3) { stuck.push(s.textContent.trim()); break; }
+        if (shrinks++ >= 3) { (faces.includes(hit) ? onface : stuck).push(s.textContent.trim()); break; }
         s.style.fontSize = (parseFloat(s.style.fontSize) * 0.84).toFixed(1) + 'px';
         continue;
       }
@@ -732,7 +755,7 @@ SFX_JS = r"""
       moved++;
     }
   }
-  return {moved, stuck};
+  return {moved, stuck, onface};
 }
 """
 
@@ -926,6 +949,12 @@ def main():
                 ln["side"] = "l" if cx < 0.42 else "r" if cx > 0.58 else "c"
                 n_aim += 1
     print(f"speakers: {n_aim} tails aimed at drawn heads, {n_off} off-panel lines, review for {len(heads)} panels")
+
+    def faces_attr(pid_):
+        # every head box the panel review located, for the SFX layout to keep clear of (art fractions x0, y0, x1, y1)
+        fs = [[round(float(v), 4) for v in b] for b in (heads.get(pid_) or {}).values()
+              if isinstance(b, (list, tuple)) and len(b) == 4]
+        return f" data-faces='{json.dumps(fs)}'" if fs else ""
 
     with sync_playwright() as pw:
         br = pw.chromium.launch()
@@ -1297,7 +1326,7 @@ def main():
             talk = [ln for ln in lines if ln.get("type") not in ("tag", "footnote")]
             over += [letter_html(it_by_line[id(t_)], "tag") for t_ in tags]
             pnl = (f'<div class="pbox" style="width:{fw}px;height:{fh}px">'
-                   f'<div class="pnl {frame} sh-{shape}" data-p="P{pindex}" data-id="{E(pid)}" style="width:{fw}px;height:{fh}px">'
+                   f'<div class="pnl {frame} sh-{shape}" data-p="P{pindex}" data-id="{E(pid)}"{faces_attr(pid)} style="width:{fw}px;height:{fh}px">'
                    f'<img class="art" src="{uri(src)}" style="object-position:{focus[0] * 100:.0f}% {focus[1] * 100:.0f}%">{"".join(inner)}</div>'
                    f'<div class="pov">{"".join(over)}</div></div>')
 
@@ -1393,6 +1422,7 @@ def main():
         ntails = page.evaluate(TAIL_JS, kit.profiles_js())
         sfx_fix = page.evaluate(SFX_JS)
         warnings += [f"SFX COVERS A BUBBLE (no room to move it): {t_}" for t_ in sfx_fix["stuck"]]
+        warnings += [f"SFX COVERS A FACE (no room to move it): {t_}" for t_ in sfx_fix.get("onface", [])]
         page.wait_for_timeout(200)
         geo = page.evaluate("""() => {
           const r = e => { const b = e.getBoundingClientRect(); return {x0:b.left, y0:b.top+scrollY, x1:b.right, y1:b.bottom+scrollY}; };

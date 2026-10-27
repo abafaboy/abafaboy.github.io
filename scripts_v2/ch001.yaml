@@ -183,7 +183,8 @@ panels:
       Gate 0912 (location gate0912_site) at night: a deep cut-and-cover subway construction pit in a Seoul street,
       steel pile walls, timber boards, scaffold stairs, blue tarps, puddles. At the bottom, between steel struts,
       a door-height black-violet slit with a pale rim: the gate. Seven hunters in black guild jackets gear up on
-      the pit floor beside a Hunter Association tent. One figure in an orange vest stands apart at the edge.
+      the pit floor beside a Hunter Association tent, with one small figure in a white jacket and a pink bag among them (the
+      rookie healer). One figure in an orange vest stands apart at the edge.
     acting:
       kang_jaeha: "a tiny figure alone at the pit's edge, hugging his notebook to his chest with both arms, shoulders rounded"
       black_hound: "the hunters stand in two loose clusters on the pit floor, turned toward each other: one stretching, one laughing, one checking a weapon"
@@ -286,7 +287,7 @@ panels:
       Inside Gate 0912 (location gate0912_fortress): a ruined fortress corridor of pale limestone, collapsed
       arches, arrow slits, the wrong-coloured green-dusk sky through cracks. Square floor stones with engraved
       borders. The husk walks first down the middle, stiffly. Jaeha follows ten steps behind with an open notebook.
-      The black-jacketed hunters walk well back, chatting.
+      The black-jacketed hunters walk well back, chatting, with the small rookie healer in her white jacket and pink bag trailing at the back of their group.
     acting:
       husk: "walking stiffly down the middle, arms hanging"
       kang_jaeha: "ten steps behind, head down over his open notebook, writing as he walks"
@@ -401,7 +402,7 @@ panels:
     foreground: "bh_shield's back and shield fill the bottom-left third, cropped"
     calm: top-left
     sfx:
-      - {text: "CRUNCH", style: impact, at: [0.62, 0.48], size: L, rot: -10}
+      - {text: "CRUNCH", style: impact, at: [0.30, 0.08], size: M, rot: -10}
     lines:
       - {who: kang_jaeha, type: inner, text: "ONE BITE."}
 
@@ -442,7 +443,7 @@ panels:
       song_yerin: "she has taken one small step to her left, body still rigid, eyes squeezed shut, ponytail flying sideways in the wind of the tail"
     calm: top
     sfx:
-      - {text: "WHAAM", style: impact, at: [0.55, 0.30], size: XL, rot: -12}
+      - {text: "WHAAM", style: impact, at: [0.27, 0.30], size: XL, rot: -12}
 
   - id: P23
     recipe: name-card
@@ -773,7 +774,7 @@ panels:
       mok_hangyu: "shoulder jammed into the shield, both hands on its grip, knees bent low, boots gouging the floor as he skids back, teeth gritted, one eye squeezed shut"
     calm: top-right
     sfx:
-      - {text: "KLANNNG", style: impact, at: [0.40, 0.30], size: XL, rot: -8}
+      - {text: "KLANNNG", style: impact, at: [0.82, 0.20], size: L, rot: -8}
 
   - id: P42
     recipe: eyes
@@ -813,7 +814,7 @@ panels:
     shape: wide
     gap: short
     bg: black
-    camera: "low, the knight turning toward a frozen young healer in the open"
+    camera: "from behind the knight, over his right shoulder: Yerin small and frozen on the open floor right in front of him, inside the arc of his drawn-back sword"
     light: "red face-light falling on her"
     art: >
       Yerin (song_yerin) stands frozen in the open floor, hands locked on her bag strap. The knight's red
@@ -825,7 +826,7 @@ panels:
     lines:
       - {who: kang_jaeha, type: shout, text: "GET OUT OF ITS WAY! DON'T STAND IN FRONT OF IT!", side: r}
     sfx:
-      - {text: "SHAKE SHAKE", style: quiet, at: [0.40, 0.80], size: S, rot: 0}
+      - {text: "SHAKE SHAKE", style: quiet, at: [0.72, 0.58], size: S, rot: 0}
 
   - id: P45
     recipe: impact
@@ -929,8 +930,10 @@ panels:
     camera: "low from behind the pillar, the knight looming round it"
     light: "back light: green shafts behind the knight; his face-hole red"
     art: >
-      The knight (knight_commander) looms round the pillar, filling the frame, chains swinging, his red face-hole
-      looking down. The bronze nine-tower sigil on his chest catches the green light clearly. Jaeha and Yerin are small shapes at the bottom of the frame.
+      The knight (knight_commander) looms round the pillar facing us, filling the frame, chains swinging, his red face-hole looking
+      down. His long sword hangs in his RIGHT hand (picture-left as he faces us); his LEFT gauntlet (picture-right) reaches round the
+      pillar's edge toward them. The bronze nine-tower sigil on his chest catches the green light clearly. Jaeha and Yerin are small
+      shapes at the bottom of the frame.
     acting:
       kang_jaeha: "at the bottom of the frame, half-rising in front of Yerin with his left arm out to the side to keep her behind him"
       song_yerin: "pressed to the pillar behind his arm"
@@ -961,9 +964,11 @@ panels:
     camera: "low, from beside Yerin, the knight's sword rising high over her"
     light: "red face-light from above; the blade's edge catching it"
     art: >
-      Yerin (song_yerin) has fallen to the floor in the open beside the pillar. The knight raises his long sword
-      high over her, both hands on the grip, chains hanging from his wrists.
+      The knight's LEFT gauntlet still grips the strap of Yerin's pink bag: it has dragged her out from behind the pillar into the open,
+      and she lies on the floor beside it. Jaeha has been knocked back against the base of the pillar. The knight raises his long sword
+      high over her in his RIGHT hand, chains hanging from his wrists.
     acting:
+      kang_jaeha: "knocked back against the base of the pillar, at the edge of the frame, pushing himself up on one hand"
       song_yerin: "fallen on her side, propped on one elbow, her other hand raised uselessly toward the blade, legs tangled in her bag strap, face turned up at the sword"
     eyeline: "Yerin → the sword"
     calm: top
@@ -1163,7 +1168,7 @@ panels:
     lines:
       - {who: kang_jaeha, type: speech, text: "I THINK... IT'S ME?", side: r}
     sfx:
-      - {text: "BLINK BLINK", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
+      - {text: "BLINK BLINK", style: quiet, at: [0.24, 0.15], size: S, rot: 0}
 
   - id: END
     kind: end
