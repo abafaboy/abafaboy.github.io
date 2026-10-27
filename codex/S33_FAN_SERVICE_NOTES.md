@@ -63,19 +63,22 @@ No fang. Her ears, ear cuffs, freckles and braid exactly as on `front.png`.
 - `lyra/turnaround.png`
 - `lyra/details.png`
 
-**Content:** the new `swimsuit` look (2.20).
-- **Bikini:** a river-blue halter bikini edged in silver filigree of leaves and river waves. A silver ring at the centre of the top, with fine silver chains draping across her sternum and over her bare midriff to her hips. High-cut bottoms fastened at each hip with silver leaf clasps, with strands of small pearls and blue-glass beads looped over the hips.
+**Content:** the new `swimsuit` look (2.20). Keep her silver and river-blue palette.
+- **Bikini:** a river-blue halter bikini whose top cups are engraved silver filigree (leaf-and-wave scrollwork, like jewellery armour) over river-blue silk. Thin silver straps cross over her bare back.
+- **Hip girdle:** river-blue bottoms under a jewelled silver hip girdle of fine links set with river-blue gems, with small teardrop gems and fine chains dangling across her hips.
 - **Elf jewellery:**
-  - her pearl choker, with fine silver chains falling from it;
-  - leaf-shaped silver cuffs on both upper arms and stacked silver bangles on both wrists;
-  - a silver thigh band with leaf filigree and a river-blue gem on her LEFT thigh;
-  - a silver anklet and silver ear cuffs;
+  - ornate silver filigree cuffs on both upper arms and stacked silver bangles on both wrists;
+  - a high silver filigree lace choker with her river pearl;
+  - silver ear cuffs and small silver hoops;
+  - a silver band on her LEFT thigh with a river-blue gem pendant hanging from it on a short chain;
   - silver leaf clips woven into the braid.
-- **No wrap or cover-up:** her shoulders, midriff and legs stay visible. Barefoot; no bracer or glove.
+- **No wrap, robe or cover-up:** her back, shoulders, midriff and legs stay visible. Barefoot; no bracer or glove.
 
 **Views:**
-- The front: standing confidently, a hand on her hip, her signature teasing face.
-- The turnaround: front, three-quarter, side and back.
+- `front_swimsuit.png`, two figures:
+  - a full-figure front, standing confidently with a hand on her hip and her signature teasing face;
+  - beside it, **her best glamour angle**: side-on at her shoulder height, her body turned in profile and her head turned to look at the viewer with the teasing face, framed from the hips up, with a soft backlight rimming her hair.
+- `turnaround_swimsuit.png`: front, three-quarter, side and back (the back shows the crossed straps).
 
 ### 4. `characters_v2/han_sora/front_crop.png` and `turnaround_crop.png` (new)
 **References:**
@@ -83,16 +86,19 @@ No fang. Her ears, ear cuffs, freckles and braid exactly as on `front.png`.
 - `han_sora/turnaround.png`
 - `han_sora/turnaround_kanghan.png`
 
-**Content:** the `crop` look (2.16).
-- **Top:** a fitted black crop top with the low scoop neckline, ending above her navel; her shoulders, arms and toned midriff bare.
-- **Harness:** a slim black tactical harness over it: straps over the shoulders, a bandolier of crossbow bolts across her chest, and small pouches at the ribs.
-- **Below the waist:** black tactical trousers, the thigh holster of bolts and black boots, with the charcoal Kanghan jacket tied round her waist by its sleeves.
-- **Compass:** on its chain at her RIGHT wrist.
+**Content:** the `crop` look (2.16), the field version.
+- **Top:** a fitted black long-sleeved crop shirt with a high mock neck, ending above her navel; her toned midriff bare.
+- **Gear:** light gear over it:
+  - a slim black shoulder harness with a bandolier of crossbow bolts across her chest;
+  - a drop-leg holster of bolts strapped round her RIGHT thigh.
+- **Below the waist:** black tactical trousers and black boots, with the charcoal Kanghan jacket tied round her waist by its sleeves.
+- **Compass:** on its chain round her RIGHT wrist, over the cuff.
 - **Crossbow:** in her RIGHT hand.
+- **Face:** her black bob, winged eyeliner and red lips, as on `front.png`.
 
 **Views:**
 - The front.
-- The turnaround: front, three-quarter, side and back. Add a small fifth figure: the off-duty version, with no harness and no jacket.
+- The turnaround: front, three-quarter, side and back. Add a small fifth figure: the off-duty version, with no gear and no jacket, hands in her trouser pockets.
 
 ### 5. `characters_v2/han_sora/front_shorts.png` and `turnaround_shorts.png` (new)
 **References:**
@@ -101,11 +107,14 @@ No fang. Her ears, ear cuffs, freckles and braid exactly as on `front.png`.
 - `han_sora/front_crop.png` (once kept)
 
 **Content:** the `shorts` look (2.16).
-- **Top:** a black sports-bra-style crop top under a black tactical chest rig, with bolt magazines and small pouches on the front panel. The rig is open at the sides, so her waist shows.
-- **Below the waist:** black tactical shorts to mid-thigh, with the thigh holster strapped round her bare thigh, and black combat boots. The charcoal Kanghan jacket is tied round her waist by its sleeves.
+- **Top:** a black crop top under a low black plate-carrier chest rig with bolt magazines on its front panel. The rig ends above her navel, so her midriff shows.
+- **Below the waist:** tight black shorts to mid-thigh, with a drop-leg holster of bolts strapped round her bare RIGHT thigh with two straps, and black combat boots.
+- **Hands:** black fingerless tactical gloves.
+- **Jacket:** the cropped charcoal Kanghan jacket, worn open over the rig.
 - **Wrists:** the slim silver compass on its fine chain round her LEFT wrist and a bandage round her RIGHT wrist.
+- **Head:** her face always visible: no helmet, no mask.
 
-**Views:** the same as sheet 4. The small fifth figure is the car version: no rig and no jacket.
+**Views:** the same as sheet 4. The small fifth figure is the car version: the black crop top and shorts only, no rig and no jacket.
 
 ### 6. `characters_v2/moon_ahin/front_summer.png` and `turnaround_summer.png` (redo)
 **References:**
@@ -113,8 +122,12 @@ No fang. Her ears, ear cuffs, freckles and braid exactly as on `front.png`.
 - `moon_ahin/turnaround.png`
 - `ahin_husk/turnaround.png` (for Saebyeok)
 
-**Content:** the new `summer` look (2.20).
-- **Dress:** a cute white summer sundress, fitted close to the body. Thin straps and a deep plunging V neckline over a structured push-up bodice, so her cleavage is fuller and deeper than in her coat-dress. The skirt ends at the knee, with her usual high slit up the LEFT side, and a narrow silver ribbon at the waist.
+**Content:** the new `summer` look (2.20): a cute white summer sundress, fitted close through the bodice and waist.
+- **Dress:**
+  - thin spaghetti straps and loose, airy off-the-shoulder chiffon sleeves;
+  - a deep plunging V neckline over a push-up bodice, so her cleavage is full and deep;
+  - a thin silver ribbon under the bust;
+  - a flared skirt to the knee with a soft ruffle at the hem, and her usual high slit up the LEFT leg.
 - **Accessories:**
   - the wide-brimmed white sun hat with a silver ribbon;
   - white strappy sandals and white lace gloves;

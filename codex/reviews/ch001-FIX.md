@@ -41,6 +41,12 @@ The independent chapter judge rated chapter 1 **7/10** (`ledger/judge/ch001.md`)
   - P62: the notch on his RIGHT ear, which faces us, is smoothed.
 
 The rest needs drawing (job ch001-R2 below).
+
+**Hands in the P50 and P52 redraws (from the hands audit of 28 October; the owner's top complaint is hands and arms):**
+- P50: the long sword hangs in the knight's RIGHT hand (picture-left as he faces us) and his LEFT gauntlet (picture-right) reaches round the pillar. Pass `characters_v2/hands/grip_hilt_one_hand.png`.
+- P52: the knight's LEFT gauntlet grips the strap of Yerin's pink bag and his RIGHT raises the sword high; Jaeha pushes himself up on one hand at the pillar base. Pass `characters_v2/hands/grip_hilt_one_hand.png`.
+- Check every hand in both panels at 2x before you keep them (PANEL_BRIEF_v2.md 4c.6).
+
 - **P03, P06, P07: the sixth summon's weapon changes in every panel** (a spiked club, then a bell-topped halberd, then a hammer). Use the silhouette sheet's long mace with the flared head in all three.
 - **P09, P14: Yerin is missing from the party,** though the narration counts her. Add her, small, in her white jacket with the pink bag.
 - **P44: the staging hides the danger.** Yerin is off to the knight's side, so "don't stand in front of it" doesn't read. Shoot from behind him, with her small in front of him inside his sword's arc.

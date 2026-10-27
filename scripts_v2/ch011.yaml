@@ -50,6 +50,8 @@ panels:
       shoulders reach a man's hip.
     acting:
       ash_hound: "bounding through the far end of the street, jaws open, scattering people"
+    hands:
+      background: "panicking shoppers running toward us, arms pumping, some clutching shopping bags, one bag flying loose; no detailed hands"
     calm: top
     lines:
       - {who: offpanel:crowd, type: tag, text: "MANGWON MARKET. TUESDAY, 5:47 PM."}
@@ -69,6 +71,10 @@ panels:
       drags a crying small boy inside by the hand, a plastic bag of rice cakes hooked on her wrist.
     acting:
       kang_seoa: "phone clamped to her ear with her shoulder, pulling the boy in with one hand, the rice-cake bag swinging, eyes hard"
+    hands:
+      kang_seoa: "phone clamped between her RIGHT ear and shoulder; RIGHT hand pulling the crying boy in by his hand; the rice-cake bag swinging from her LEFT wrist"
+      background: "the small boy: one hand held in hers, his other fist rubbing his eye"
+    hand_ref: [reaching_grabbing_wrist.png]
     eyeline: "Seoa → the street"
     foreground: "the shop's half-lowered metal shutter, cropped, top"
     calm: top
@@ -90,6 +96,12 @@ panels:
       kang_seoa: "pointing at the back room with her whole arm, shouting, the phone still at her ear"
       granny_tteok: "pushing two children through the back door with both hands"
       granny_kimchi: "hauling the shop's metal shutter down with both rubber-gloved hands"
+    hands:
+      kang_seoa: "LEFT arm outstretched, pointing at the back room, the rice-cake bag swinging from that wrist; RIGHT hand holds the phone to her RIGHT ear"
+      granny_tteok: "both hands flat on two children's backs, pushing them through the back door"
+      granny_kimchi: "both yellow-gloved hands gripping the shutter's bottom bar above her head, hauling it down"
+      background: "children and shoppers filing into the back room, some children holding hands"
+    hand_ref: [pointing.png, phone_hold.png]
     eyeline: "Seoa → the people; the grannies → the shutter"
     foreground: "a tray of steaming rice cakes, cropped, bottom"
     calm: top
@@ -111,6 +123,10 @@ panels:
     acting:
       kang_seoa: "shoulder braced against the shutter, feet sliding, teeth gritted"
       granny_kimchi: "both hands flat on the shutter, leaning her whole weight on it, furious"
+    hands:
+      kang_seoa: "LEFT shoulder and LEFT palm braced against the shutter, the rice-cake bag dangling from that wrist; RIGHT hand still holds the phone at her ear"
+      granny_kimchi: "both yellow-gloved palms flat on the bulging shutter, arms locked, her whole weight behind them"
+    hand_ref: [fists_and_bracing.png]
     calm: top
     sfx:
       - {text: "BANNNG", style: impact, at: [0.50, 0.30], size: XL, rot: 6}
@@ -127,6 +143,9 @@ panels:
       thinks.
     acting:
       kang_seoa: "back pressed to the shutter, phone at her ear, glasses crooked, eyes darting, speaking fast and clear"
+    hands:
+      kang_seoa: "back pressed to the shutter; RIGHT hand holds the phone to her RIGHT ear; LEFT hand flat on the shutter behind her, the rice-cake bag on that wrist"
+    hand_ref: [phone_hold.png]
     eyeline: "Seoa → nothing (thinking)"
     calm: right
     lines:
@@ -149,6 +168,13 @@ panels:
       borro: "running in heavy strides, shield on his arm"
       nib: "running low beside Borro"
       song_yerin: "running behind, clutching her bag"
+    hands:
+      kang_jaeha: "sprinting, RIGHT hand pressing the phone to his RIGHT ear; LEFT arm pumping, fist closed, the bandage on that forearm"
+      borro: "running, the shield on his LEFT forearm by its strap, hand on its grip; RIGHT arm swinging, four-fingered fist loose"
+      nib: "running low, long arms swinging, four-fingered hands open"
+      song_yerin: "running behind, both hands clutching her pink bag against her hip"
+      background: "people fleeing past the other way, arms pumping, some clutching bags"
+    hand_ref: [phone_hold.png, shield_grip.png]
     calm: top
     sfx:
       - {text: "THUD THUD THUD", style: impact, at: [0.70, 0.80], size: M, rot: 0}
@@ -167,6 +193,10 @@ panels:
     acting:
       kang_jaeha: "running, shouting into the phone, eyes wide with fear"
       kang_seoa: "against the shutter, shaking her head, jaw set"
+    hands:
+      kang_jaeha: "running, RIGHT hand pressing the phone to his RIGHT ear; LEFT hand out of frame"
+      kang_seoa: "against the shutter, RIGHT hand holding the phone to her RIGHT ear; LEFT hand flat on the shutter, the rice-cake bag on that wrist"
+    hand_ref: [phone_hold.png]
     eyeline: "both → their phones"
     foreground: "the jagged split line, top to bottom"
     calm: top
@@ -186,6 +216,7 @@ panels:
       Extreme close-up: Jaeha's eyes (kang_jaeha) as he runs, the fear in them hardening. Fill the canvas edge to edge.
     acting:
       kang_jaeha: "eyes narrowing, brows dropping into resolve"
+    hands: none
     calm: none
     lines:
       - {who: kang_jaeha, type: inner, text: "SHE'S NOT WAITING TO BE RESCUED. SHE NEVER HAS."}
@@ -201,6 +232,8 @@ panels:
       At the mouth of the pharmacy alley on the market's edge: a few police officers struggle with a half-strung tape line;
       a navy Gate Rescue Corps van screeches up onto the kerb, strobes flashing; the team arrives at a run. Violet ash drifts
       out of the market.
+    hands:
+      background: "police officers struggling to string tape between their hands; the team arriving at a run, arms swinging, Borro's shield on his LEFT arm; no hand detail"
     calm: top
     sfx:
       - {text: "SKREEEE", style: impact, at: [0.70, 0.60], size: L, rot: -4}
@@ -219,6 +252,10 @@ panels:
     acting:
       choi_dongmin: "jumping down, bag swinging, pointing at Jaeha, a tired, furious grin"
       kang_jaeha: "skidding to a stop, breathing hard, a hand up in greeting"
+    hands:
+      choi_dongmin: "jumping down, RIGHT arm extended, index finger pointing at Jaeha; LEFT hand gripping the medical bag's strap on his LEFT shoulder"
+      kang_jaeha: "skidding to a stop, LEFT hand raised in a tired wave; RIGHT hand lowered at his side holding the phone"
+    hand_ref: [pointing.png]
     eyeline: "Choi → Jaeha; Jaeha → Choi"
     foreground: "the van's open door, cropped, left edge"
     calm: top
@@ -236,6 +273,9 @@ panels:
       Close on Choi (choi_dongmin) pulling on medical gloves, the grin gone.
     acting:
       choi_dongmin: "snapping on a glove, jaw tight, eyes on the market"
+    hands:
+      choi_dongmin: "pulling a medical glove onto his RIGHT hand, LEFT thumb and fingers snapping its cuff at the wrist"
+    hand_ref: [reaching_grabbing_wrist.png]
     eyeline: "Choi → the market"
     foreground: "the medical bag's strap, cropped, bottom"
     calm: left
@@ -256,6 +296,8 @@ panels:
       air itself shimmers faintly. The upper half is empty for the window.
     acting:
       kang_jaeha: "standing still, looking up at the window, blood dried under his nose"
+    hands:
+      kang_jaeha: "standing still, arms hanging at his sides, gloved hands relaxed and empty"
     eyeline: "Jaeha → the window"
     calm: top
     ui:
@@ -278,6 +320,12 @@ panels:
       kang_jaeha: "between them, snapping the notebook shut, eyes on the alley"
       nib: "looking up at Jaeha, one knife already drawn"
       borro: "lowering the shield into place on his arm"
+    hands:
+      kang_jaeha: "between them, LEFT hand holding the black notebook, RIGHT palm snapping its cover shut at chest height"
+      nib: "seen from behind, looking up at Jaeha; RIGHT fist holds a drawn knife in a reverse grip at his side; LEFT hand loose; four-fingered hands"
+      borro: "seen from behind, LEFT forearm through the shield's strap, lowering it into place; RIGHT hand steadying its top edge, four blunt fingers"
+      background: "people behind the police tape holding phones up to film"
+    hand_ref: [notebook_and_pencil.png, shield_grip.png]
     eyeline: "Jaeha → the alley; Nib → Jaeha"
     foreground: "the people filming behind the tape, cropped, bottom"
     calm: top
@@ -310,6 +358,10 @@ panels:
     acting:
       nib: "eye blazing, both knives now drawn in a reverse grip, crouching"
       borro: "calm eyes behind the mask (rest form, not yet called), the shield coming up"
+    hands:
+      nib: "crouching, a knife in each four-fingered fist in a reverse grip, blades along his forearms"
+      borro: "bringing the shield up on his LEFT forearm, hand on its grip; RIGHT hand on its edge, four blunt fingers"
+    hand_ref: [reverse_grip_knives.png, shield_grip.png]
     calm: top
     ui:
       - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[FIELD FORM · NIB 05:00 · LINKED]"}
@@ -328,6 +380,9 @@ panels:
     acting:
       nib: "mid-leap, body twisted, both knives at the end of a cross-slash"
       ash_hound: "bursting apart in mid-leap"
+    hands:
+      nib: "mid-leap, arms crossed in front of him at the end of a cross-slash, a reverse-grip knife in each four-fingered fist"
+    hand_ref: [reverse_grip_knives.png]
     calm: top
     sfx:
       - {text: "SHRAKK", style: impact, at: [0.30, 0.24], size: XL, rot: -12}
@@ -346,6 +401,10 @@ panels:
     acting:
       yoo_bomi: "skidding to a stop, ponytail swinging, phone up, breathing hard, eyes fierce"
       kang_jaeha: "turning to her, pointing up at the drone"
+    hands:
+      yoo_bomi: "skidding to a stop, RIGHT hand holding her phone up at chest height, thumb on the screen; LEFT arm swinging out for balance"
+      kang_jaeha: "turning to her, RIGHT arm raised, index finger pointing up at the drone; LEFT hand at his side"
+    hand_ref: [phone_hold.png, pointing.png]
     eyeline: "Bomi → Jaeha; Jaeha → the drone"
     foreground: "the police tape, cropped, bottom"
     calm: top
@@ -364,6 +423,9 @@ panels:
       Close on Bomi's phone in her hand: the drone's view from high overhead (drawn as a picture, no interface text): the long
       translucent arcade roof of the main street, the narrow alleys running off it like ribs, black dots of hounds moving in
       packs, clusters of people, and at the far edge the footbridge over the road.
+    hands:
+      yoo_bomi: "only her RIGHT hand in frame, holding the phone upright, fingers behind it, thumb at the edge of the screen"
+    hand_ref: [phone_hold.png]
     calm: top
     silent: true
     sfx:
@@ -383,6 +445,10 @@ panels:
     acting:
       kang_jaeha: "phone at his ear, eyes darting over the screen, the pencil tapping it"
       yoo_bomi: "holding the phone up steadily with both hands, looking up at him"
+    hands:
+      kang_jaeha: "leaning over Bomi's shoulder, LEFT hand holding his phone to his LEFT ear; RIGHT hand tapping her screen with the yellow pencil's eraser end"
+      yoo_bomi: "both hands holding her phone up steadily at chest height, thumbs on its edges"
+    hand_ref: [phone_hold.png, notebook_and_pencil.png]
     eyeline: "Jaeha → the screen; Bomi → Jaeha"
     foreground: "Bomi's shoulder and ponytail, cropped, left"
     calm: top
@@ -401,6 +467,7 @@ panels:
       The drone's overhead view, desaturated, with clean cyan lines and no text: the narrow alleys drawn as funnels all
       pointing into one small square where three alleys meet; a heavy shape marked in that square; a small figure's path
       along the stall roofs; a dotted escape line from the fish lane to the footbridge.
+    hands: none
     calm: top
     lines:
       - {who: kang_jaeha, type: inner, text: "EVERY ALLEY IS ONE HOUND WIDE. SO THEY ALL REACH BORRO ONE AT A TIME."}
@@ -418,6 +485,9 @@ panels:
       running from him into the market.
     acting:
       kang_jaeha: "two fingers at his temple, eyes half closed, lips moving fast"
+    hands:
+      kang_jaeha: "LEFT index and middle fingers pressed to his LEFT temple, the other fingers curled; RIGHT hand below the frame"
+    hand_ref: [pointing.png]
     eyeline: "Jaeha → the market"
     foreground: "a thread of moss-green light, cropped, top right"
     calm: right
@@ -437,6 +507,9 @@ panels:
       Scale: the alley is 1.8 m wide; the shield is 2 m tall; Borro is taller than the stall awnings.
     acting:
       borro: "planted with feet wide, shield up in the alley mouth, calm eyes glowing green through the mask"
+    hands:
+      borro: "planted, LEFT forearm through the shield's strap, hand on its grip; RIGHT hand braced on the shield's top edge, four blunt fingers curled over it"
+    hand_ref: [shield_grip.png]
     calm: top
     ui:
       - {kind: system.notice, "on": float, at: [0.5, 0.06], text: "[BORRO · FIELD FORM 05:00 · LINKED]"}
@@ -456,6 +529,9 @@ panels:
     acting:
       ash_hound: "charging single file, the first crumpling against the shield"
       borro: "at the alley's end, the shield taking the hit, not moving"
+    hands:
+      borro: "behind the shield at the alley's end, LEFT forearm through its strap; only his RIGHT hand shows, four blunt fingers curled over its top edge"
+    hand_ref: [shield_grip.png]
     calm: top
     sfx:
       - {text: "KRANNG", style: impact, at: [0.70, 0.40], size: XL, rot: 8}
@@ -473,6 +549,9 @@ panels:
       light pulsing out from his chest.
     acting:
       kang_jaeha: "jolting back with each hit, teeth clenched, one hand on Bomi's shoulder to stay up"
+    hands:
+      kang_jaeha: "jolting, LEFT hand gripping Bomi's shoulder at the frame edge to stay up, fingers curled over it; RIGHT arm hanging, fist clenched"
+    hand_ref: [hand_on_shoulder.png]
     calm: left
     ui:
       - {kind: system.notice_small, "on": float, at: [0.5, 0.86], text: "[CARRY · BORRO · 25%]"}
@@ -492,6 +571,9 @@ panels:
     acting:
       nib: "dropping through the gap feet first, knives raised"
       ash_hound: "flinching under him, scrambling toward the square"
+    hands:
+      nib: "dropping through the gap feet first, both arms raised, a reverse-grip knife in each four-fingered fist"
+    hand_ref: [reverse_grip_knives.png]
     calm: top
     sfx:
       - {text: "WHUMP", style: impact, at: [0.40, 0.70], size: L, rot: -6}
@@ -509,6 +591,10 @@ panels:
     acting:
       ash_hound: "slinking toward the shutter, head low, jaw opening"
       granny_kimchi: "stepping out into its path, rubber gloves on, a huge white daikon radish held in both hands like a bat"
+    hands:
+      granny_kimchi: "stepping out, both yellow-gloved hands stacked on the narrow end of a huge daikon, LEFT below RIGHT, held over her RIGHT shoulder like a bat"
+      background: "children's faces peeking through the shutter slats; no hands visible"
+    hand_ref: [grip_hilt_two_hands.png]
     calm: top
     sfx:
       - {text: "HHHHH", style: quiet, at: [0.30, 0.50], size: S, rot: 0}
@@ -526,6 +612,9 @@ panels:
     acting:
       granny_kimchi: "follow-through of a full swing, the broken radish in her hands, headscarf flying, teeth bared"
       ash_hound: "knocked sideways into the tubs, legs splayed"
+    hands:
+      granny_kimchi: "follow-through of a full swing past her LEFT shoulder, both yellow-gloved hands still stacked on the snapped half of the radish"
+    hand_ref: [grip_hilt_two_hands.png]
     calm: top
     lines:
       - {who: granny_kimchi, type: shout, text: "NOT IN MY ALLEY, YOU UGLY DOG!", side: l}
@@ -544,6 +633,9 @@ panels:
       ash.
     acting:
       nib: "landing on the hound, one knife driving down"
+    hands:
+      nib: "landing on the hound, RIGHT fist driving a reverse-grip knife down; LEFT hand braced on its back, four long fingers spread"
+    hand_ref: [reverse_grip_knives.png, fists_and_bracing.png]
     calm: right
     sfx:
       - {text: "SHK", style: impact, at: [0.70, 0.30], size: M, rot: 0}
@@ -561,6 +653,10 @@ panels:
     acting:
       nib: "a small solemn nod, one knife lowered, the other hand open toward her radish"
       granny_kimchi: "holding up the broken radish, panting, chin up, proud"
+    hands:
+      nib: "a small nod; RIGHT fist holds a knife lowered at his side, reverse grip; LEFT hand open, palm up, toward her radish; four-fingered hands"
+      granny_kimchi: "RIGHT yellow-gloved fist holding the broken radish half up high; LEFT hand on her hip"
+    hand_ref: [reverse_grip_knives.png]
     eyeline: "Nib ↔ the granny"
     foreground: "a red plastic tub, cropped, bottom left"
     calm: top
@@ -582,6 +678,11 @@ panels:
     acting:
       kang_seoa: "walking backwards at the front, holding the first child's hand, counting with her free hand"
       granny_tteok: "at the back, shooing everyone forward with both hands"
+    hands:
+      kang_seoa: "walking backwards, RIGHT hand holding the first child's hand; LEFT hand raised counting on its fingers, the rice-cake bag swinging from that wrist"
+      granny_tteok: "at the back, both hands flapping forward at the line, palms out, shooing"
+      background: "the line all holding hands: a mother with a baby on her hip, children, an old man with a cane, a delivery rider"
+    hand_ref: [reaching_grabbing_wrist.png]
     calm: top
     lines:
       - {who: kang_seoa, type: shout, text: "TWELVE, THIRTEEN, FOURTEEN. EVERYONE HOLD HANDS. DON'T LET GO.", side: l}
@@ -601,6 +702,11 @@ panels:
     acting:
       song_yerin: "kneeling, both glowing hands on the man's leg, lips moving, eyes steady"
       choi_dongmin: "jogging past with the old woman piggyback, both arms hooked under her knees"
+    hands:
+      song_yerin: "kneeling, both palms held flat over the bite on the man's leg, glowing mint, the long sleeves over her knuckles"
+      choi_dongmin: "jogging past with the old woman piggyback, both arms hooked under her knees, hands locked in front"
+      background: "the bitten man propped back on his hands; the old woman's arms round Choi's neck"
+    hand_ref: [healing_palms.png, arms_carry.png]
     eyeline: "Yerin → the wound"
     foreground: "the medical bag open on the pavement, cropped, bottom"
     calm: top
@@ -622,6 +728,9 @@ panels:
     acting:
       borro: "pivoting, one hound on the shield, the other bouncing off his shell, eyes calm"
       ash_hound: "two hounds hitting him from two sides"
+    hands:
+      borro: "pivoting, LEFT forearm through the shield's strap, shield thrust out at the first hound; RIGHT arm tucked in, four-fingered fist closed"
+    hand_ref: [shield_grip.png]
     calm: top
     sfx:
       - {text: "KRANG", style: impact, at: [0.30, 0.30], size: L, rot: -6}
@@ -641,6 +750,10 @@ panels:
     acting:
       kang_jaeha: "swaying, wiping his nose with the back of his glove, eyes still on the screen"
       yoo_bomi: "one hand on his back holding him up, phone up in the other"
+    hands:
+      kang_jaeha: "swaying, wiping his nose with the back of his RIGHT glove; LEFT arm hanging"
+      yoo_bomi: "LEFT hand flat on his back holding him up; RIGHT hand holding her phone up at chest height"
+    hand_ref: [phone_hold.png]
     calm: top
     ui:
       - {kind: system.notice_small, "on": float, at: [0.5, 0.86], text: "[CARRY · 2 SUMMONS · LOAD 90%]"}
@@ -656,6 +769,9 @@ panels:
     light: "the screen glow"
     art: >
       Close on Bomi's phone in her hand, the screen flat green, her thumb on it, ash drifting past.
+    hands:
+      yoo_bomi: "only her RIGHT hand in frame, holding the phone upright, thumb on the screen"
+    hand_ref: [phone_hold.png]
     calm: top
     ui:
       - kind: phone.live_stream
@@ -678,6 +794,7 @@ panels:
     art: >
       At the top of the cold-storage stairwell under the fish lane: violet light pours up the steps, and the air above them
       wavers with heat like a road in summer; the ice on the nearby fish stalls is melting and running.
+    hands: none
     calm: left
     silent: true
     sfx:
@@ -695,6 +812,7 @@ panels:
       more, flooding into the covered main street and turning, all together, toward the market's edge.
     acting:
       ash_hound: "a flood of hounds pouring up the stairs, climbing over each other, all heads turning one way"
+    hands: none
     calm: top
     sfx:
       - {text: "AWOOOOOOOO", style: impact, at: [0.50, 0.20], size: XL, rot: -4}
@@ -709,6 +827,9 @@ panels:
     art: >
       Close on Bomi's phone: the drone's overhead view (a picture, no interface text) of the black flood of hounds pouring
       along the main street toward the stairs of the footbridge, where a thin line of people is just starting to climb.
+    hands:
+      yoo_bomi: "only her RIGHT hand at the frame edges holding the phone, fingers behind it, thumb at the screen's edge"
+    hand_ref: [phone_hold.png]
     calm: top
     silent: true
 
@@ -725,6 +846,10 @@ panels:
     acting:
       kang_jaeha: "leaning forward, one arm thrown out toward the footbridge, shouting"
       yoo_bomi: "flinching from the shout, phone still up"
+    hands:
+      kang_jaeha: "leaning forward, RIGHT arm thrown out sideways toward the footbridge, hand open (not at the camera); LEFT hand clenched at his side"
+      yoo_bomi: "flinching, RIGHT hand still holding her phone up (cropped, bottom right); LEFT hand raised beside her ear"
+    hand_ref: [pointing.png, phone_hold.png]
     eyeline: "Jaeha → the market"
     foreground: "Bomi's phone, cropped, bottom right"
     calm: top
@@ -744,6 +869,10 @@ panels:
     acting:
       borro: "charging behind the shield, head down, heavy strides"
       nib: "running along the awnings, keeping pace"
+    hands:
+      borro: "charging, LEFT forearm through the shield's strap, RIGHT hand braced flat on its back, driving it forward like a ram; four-fingered hands"
+      nib: "running along the awnings, a reverse-grip knife in each four-fingered fist, arms swinging"
+    hand_ref: [shield_grip.png]
     calm: top
     sfx:
       - {text: "KRASH KRASH KRASH", style: impact, at: [0.60, 0.40], size: L, rot: 6}
@@ -762,6 +891,8 @@ panels:
       people is halfway across it, hand in hand. Behind them, at the market end, the flood of hounds pours out of the market
       toward the stairs. Abandoned cars sit on the road beneath, doors open. Scale: the people on the bridge are small; the
       railing is waist-high; the pier is as tall as three people.
+    hands:
+      background: "Seoa's line of small figures on the bridge holding hands in a chain; no hand detail at this size"
     calm: top
     sfx:
       - {text: "AWOOO", style: quiet, at: [0.20, 0.70], size: S, rot: 0}
@@ -780,6 +911,10 @@ panels:
     acting:
       nib: "standing on the top step in a wide low stance, knives out in a reverse grip, utterly still"
       ash_hound: "the front of the flood starting up the stairs"
+    hands:
+      nib: "wide low stance, a reverse-grip knife in each four-fingered fist, arms held low and out from his sides, blades along his forearms"
+      background: "the people crossing behind him holding hands"
+    hand_ref: [reverse_grip_knives.png]
     calm: top
     lines:
       - {who: nib, type: speech, text: "A WALL AGAIN. FINE.", side: r}
@@ -799,6 +934,9 @@ panels:
     acting:
       nib: "slashing left and right, stepping back one stair at a time"
       ash_hound: "climbing the stairs two abreast, bursting under his knives"
+    hands:
+      nib: "RIGHT arm mid-slash across his body, LEFT arm drawn back to strike, a reverse-grip knife in each four-fingered fist"
+    hand_ref: [reverse_grip_knives.png]
     calm: top
     sfx:
       - {text: "SHK SHK SHRAKK", style: impact, at: [0.40, 0.30], size: L, rot: -8}
@@ -813,6 +951,7 @@ panels:
     art: >
       On the road under the bridge: the asphalt bulges upward in a long ridge, cracks spidering out with steam hissing from
       them and a violet glow deep inside; an abandoned car slides sideways down the bulge.
+    hands: none
     calm: top
     silent: true
     sfx:
@@ -828,6 +967,7 @@ panels:
     art: >
       Close on the footbridge's central pier: a crack runs up it from the buckling road to the deck, chunks of concrete
       breaking off; the steel above groans.
+    hands: none
     calm: top
     silent: true
     sfx:
@@ -846,6 +986,11 @@ panels:
     acting:
       kang_seoa: "one arm round the child, the other gripping the railing, braced, looking down at the pier"
       granny_tteok: "at the back of the line, holding the old man's arm"
+    hands:
+      kang_seoa: "braced, RIGHT arm wrapped round the child, pulling him against her side; LEFT hand gripping the railing, the rice-cake bag hanging from that wrist"
+      granny_tteok: "both hands gripping the old man's forearm"
+      background: "people grabbing the railings with both hands"
+    hand_ref: [reaching_grabbing_wrist.png]
     calm: top
     sfx:
       - {text: "KYAAAA", style: impact, at: [0.30, 0.30], size: L, rot: -6}
@@ -864,6 +1009,10 @@ panels:
     acting:
       kang_jaeha: "stopping dead, eyes wide, one hand flung toward the bridge"
       borro: "pounding out of the market at his side, shield up"
+    hands:
+      kang_jaeha: "stopping dead, RIGHT arm flung out toward the bridge, fingers spread; LEFT hand at his side"
+      borro: "pounding out at his side, the shield up on his LEFT forearm; RIGHT arm swinging, four-fingered fist"
+    hand_ref: [shield_grip.png]
     eyeline: "Jaeha → Seoa; Borro → the pier"
     foreground: "a steaming crack in the road, cropped, bottom"
     calm: top
@@ -882,6 +1031,9 @@ panels:
       every step.
     acting:
       borro: "mid-stride on the buckling road, shield arm swinging back, head down"
+    hands:
+      borro: "mid-stride, LEFT arm swinging back with the shield on it by its strap; RIGHT arm forward, four-fingered fist closed"
+    hand_ref: [shield_grip.png]
     calm: top
     sfx:
       - {text: "BOOM BOOM BOOM", style: impact, at: [0.60, 0.70], size: L, rot: 4}
@@ -902,6 +1054,10 @@ panels:
       rests on his shell at 5 m only because he is standing on the heaved road.
     acting:
       borro: "legs braced wide, back and shell pushed up into the deck, both arms up, one hand flat on the concrete, head bowed, calm eyes glowing"
+    hands:
+      borro: "both arms up: RIGHT hand flat on the deck's underside, four blunt fingers spread, elbow bent; LEFT hand braced on the top edge of his shield, wedged upright against the cracked pier"
+      background: "the people on the bridge: only heads and reaching hands above the deck's concrete edge"
+    hand_ref: [fists_and_bracing.png, shield_grip.png]
     calm: top
     sfx:
       - {text: "KRRRRRUNNNCH", style: impact, at: [0.30, 0.20], size: XL, rot: -6}
@@ -921,6 +1077,10 @@ panels:
     acting:
       kang_jaeha: "on one knee, back bowed as if carrying something, both hands on the ground, blood pouring, teeth gritted"
       yoo_bomi: "grabbing his arm with both hands, shouting"
+    hands:
+      kang_jaeha: "on one knee, both palms braced flat on the cracked pavement, fingers spread, arms locked"
+      yoo_bomi: "both hands wrapped round his LEFT upper arm, pulling, thumbs on one side, fingers on the other"
+    hand_ref: [fists_and_bracing.png, reaching_grabbing_wrist.png]
     calm: top
     ui:
       - {kind: system.warning, "on": float, at: [0.5, 0.86], text: "[CARRY · 2 SUMMONS · LOAD 160% · OVERLOAD]"}
@@ -940,6 +1100,7 @@ panels:
       to edge.
     acting:
       kang_jaeha: "eyes wide and burning, unblinking"
+    hands: none
     calm: none
     lines:
       - {who: kang_jaeha, type: inner, text: "HE CARRIED A VILLAGE ACROSS A BRIDGE ONCE. TODAY HE'S CARRYING THE BRIDGE."}
@@ -957,6 +1118,11 @@ panels:
     acting:
       kang_seoa: "walking backwards, the child on her hip, waving the line on with her free hand, voice steady"
       granny_tteok: "at the back, pushing the old man along"
+    hands:
+      kang_seoa: "walking backwards, RIGHT arm under the child on her RIGHT hip; LEFT hand waving the line forward, the rice-cake bag swinging from that wrist"
+      granny_tteok: "at the back, both hands on the old man's back, pushing him along"
+      background: "the line holding hands; some gripping the bent railing"
+    hand_ref: [arms_carry.png]
     eyeline: "Seoa → the line"
     foreground: "the bent railing, cropped, bottom"
     calm: top
@@ -975,6 +1141,7 @@ panels:
       husk face, speaking upward.
     acting:
       borro: "head bowed under the deck, eyes glowing calmly through the mask, a slow steady breath"
+    hands: none
     eyeline: "Borro → up"
     foreground: "the underside of the deck, cropped, top"
     calm: right
@@ -996,6 +1163,9 @@ panels:
     acting:
       nib: "slashing a hound off the step, breathing hard, the outline flickering"
       ash_hound: "piling up the stairs"
+    hands:
+      nib: "slashing a hound off the step, RIGHT arm sweeping across, a reverse-grip knife in each four-fingered fist"
+    hand_ref: [reverse_grip_knives.png]
     calm: top
     ui:
       - {kind: system.notice_small, "on": float, at: [0.5, 0.88], text: "[NIB · FIELD FORM 00:08]"}
@@ -1015,6 +1185,9 @@ panels:
     acting:
       nib: "suddenly small and slow, knives too heavy, stumbling back"
       ash_hound: "leaping at him, jaws wide"
+    hands:
+      nib: "stumbling back, both arms sagging, a knife hanging heavy in each four-fingered fist"
+    hand_ref: [reverse_grip_knives.png]
     calm: top
     ui:
       - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[NIB · FIELD FORM ENDED · COOLDOWN 01:00]"}
@@ -1033,6 +1206,9 @@ panels:
     acting:
       nib: "on his back, holding the hound's jaws off with the knife braced in both hands, arms shaking"
       ash_hound: "pinning him, jaws snapping"
+    hands:
+      nib: "on his back, both four-fingered hands gripping the one knife crosswise, RIGHT on the handle and LEFT palm on the blade's spine, holding the jaws off his throat"
+    hand_ref: [reverse_grip_knives.png]
     calm: top
     sfx:
       - {text: "WHAM", style: impact, at: [0.40, 0.30], size: XL, rot: 10}
@@ -1049,6 +1225,9 @@ panels:
       screaming up the stairs straight at the hound on top of Nib, its red light streaking.
     acting:
       yoo_bomi: "both thumbs jammed on the phone, leaning into it, face fierce, tears in her eyes"
+    hands:
+      yoo_bomi: "seen over her shoulder, both hands holding the phone sideways, thumbs jammed on the screen, steering the drone"
+    hand_ref: [phone_hold.png]
     calm: top
     lines:
       - {who: yoo_bomi, type: shout, text: "SORRY, BABY! MOMMY'LL BUY YOU A NEW ONE!", side: l}
@@ -1068,6 +1247,9 @@ panels:
     acting:
       ash_hound: "knocked sideways off Nib, tumbling"
       nib: "rolling free, grabbing his fallen knife"
+    hands:
+      nib: "rolling free, LEFT hand closing on the fallen knife's grip on the deck, four long fingers round it; RIGHT fist still holding the other knife"
+    hand_ref: [reaching_grabbing_wrist.png]
     calm: top
     sfx:
       - {text: "KRAKSH", style: impact, at: [0.50, 0.30], size: XL, rot: 8}
@@ -1081,6 +1263,9 @@ panels:
     light: "the screen's dark glow"
     art: >
       Close on Bomi's phone in her shaking hand, the screen flat green.
+    hands:
+      yoo_bomi: "only her RIGHT hand in frame holding the phone upright, shaking, thumb at the screen's edge"
+    hand_ref: [phone_hold.png]
     calm: left
     ui:
       - kind: phone.live_stream
@@ -1105,6 +1290,9 @@ panels:
     acting:
       nib: "standing his ground with one knife in a reverse grip, breathing hard, scarf torn"
       ash_hound: "massing on the stairs, jaws open"
+    hands:
+      nib: "seen from behind, RIGHT fist holding one knife out in a reverse grip; LEFT hand empty, four long fingers spread for balance"
+    hand_ref: [reverse_grip_knives.png]
     calm: top
     ui:
       - {kind: system.notice_small, "on": float, at: [0.5, 0.88], text: "[COOLDOWN 00:12]"}
@@ -1126,6 +1314,10 @@ panels:
       choi_dongmin: "planted at the bottom step, blasting the extinguisher upward, face twisted"
       granny_kimchi: "mid-swing with a new radish, headscarf flying"
       ash_hound: "staggering in the white cloud, heads jerking"
+    hands:
+      choi_dongmin: "planted at the bottom step, RIGHT hand squeezing the extinguisher's lever, canister against his hip; LEFT hand aiming the black hose up the stairs"
+      granny_kimchi: "mid-swing, both yellow-gloved hands stacked on the narrow end of a fresh radish, LEFT below RIGHT"
+    hand_ref: [grip_hilt_two_hands.png]
     calm: top
     sfx:
       - {text: "FSSSHHHHH", style: impact, at: [0.40, 0.40], size: L, rot: -6}
@@ -1144,6 +1336,9 @@ panels:
       upper half is empty for the window.
     acting:
       kang_jaeha: "on one knee, raising his right hand toward the stairs, blood on his chin, eyes fierce"
+    hands:
+      kang_jaeha: "on one knee, RIGHT arm raised out toward the stairs, bloody gloved hand open, fingers spread (not at the camera); LEFT hand braced flat on the pavement"
+    hand_ref: [fists_and_bracing.png]
     calm: top
     ui:
       - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[COOLDOWN 00:00 · NIB · FIELD FORM 05:00]"}
@@ -1162,6 +1357,9 @@ panels:
     acting:
       nib: "diving down the stairs through the cloud, both knives slashing"
       ash_hound: "bursting into ash"
+    hands:
+      nib: "diving down the stairs, arms sweeping out in a double slash, a reverse-grip knife in each four-fingered fist"
+    hand_ref: [reverse_grip_knives.png]
     calm: top
     sfx:
       - {text: "SHRAKK SHRAKK SHRAKK", style: impact, at: [0.40, 0.24], size: XL, rot: -10}
@@ -1179,6 +1377,11 @@ panels:
     acting:
       kang_seoa: "setting the child down, turning back, cupping her hand to her mouth"
       granny_tteok: "hugging the child"
+    hands:
+      kang_seoa: "RIGHT hand letting go of the child's shoulder as the granny takes him; LEFT hand cupped beside her mouth, the rice-cake bag swinging from that wrist"
+      granny_tteok: "hugging the child, both arms wrapped round him, hands on his back"
+      background: "the fourteen people huddled behind them, holding each other or children"
+    hand_ref: [mouth_and_strap.png]
     eyeline: "Seoa → under the bridge"
     foreground: "the bottom of the far stair rail, cropped, left"
     calm: top
@@ -1200,6 +1403,9 @@ panels:
       down behind him onto the road in a crash of concrete and steel and a wall of dust. Nothing on it but empty railings.
     acting:
       borro: "walking out of the collapse with the shield held over his head, unhurried"
+    hands:
+      borro: "walking out unhurried, the shield held flat over his head, LEFT forearm through its strap, RIGHT hand on its far edge, four blunt fingers curled over"
+    hand_ref: [shield_grip.png]
     calm: top
     sfx:
       - {text: "KRRRRAAASSHHHH", style: impact, at: [0.50, 0.30], size: XL, rot: 6}
@@ -1215,6 +1421,13 @@ panels:
       High over the road: the collapsed bridge lies across the four lanes in a settling cloud of dust. Borro stands in the
       rubble with his shield lowered; on the market side Jaeha kneels with Bomi and Yerin beside him; Nib stands at the top of
       the broken stairs in a drift of ash; on the far side, Seoa stands in front of her fourteen people.
+    hands:
+      borro: "small, the shield lowered on his LEFT arm; RIGHT four-fingered hand hanging"
+      kang_jaeha: "small, kneeling, hands on his thighs"
+      yoo_bomi: "small, kneeling beside him, one hand on his back"
+      song_yerin: "small, kneeling beside him, hands resting on his shoulder"
+      nib: "small, a knife lowered in each four-fingered hand"
+      kang_seoa: "small, the rice-cake bag on her LEFT wrist, hands at her sides"
     calm: top
     ui:
       - {kind: system.notice, "on": float, at: [0.5, 0.06], text: "[BORRO · FIELD FORM ENDED · COOLDOWN 01:00]"}
@@ -1232,6 +1445,9 @@ panels:
       shouts across to her brother; the people behind her are staring at her.
     acting:
       kang_seoa: "holding the bag up high in one fist, glasses dusty, a shaky, triumphant grin, tears running"
+    hands:
+      kang_seoa: "LEFT fist raised high over her head gripping the rice-cake bag's handles; RIGHT hand at her side"
+      background: "the people behind her staring, hands at their sides or holding children"
     eyeline: "Seoa → Jaeha"
     foreground: "a bent railing in the rubble, cropped, bottom"
     calm: top
@@ -1250,6 +1466,9 @@ panels:
       Close on Jaeha (kang_jaeha) on his knees, laughing despite himself, blood and dust on his face, one hand over his eyes.
     acting:
       kang_jaeha: "head tipped back, laughing helplessly, one hand pressed over his eyes"
+    hands:
+      kang_jaeha: "head tipped back laughing, RIGHT hand pressed over his eyes, fingers across his brow, the glove bloody; LEFT hand out of frame"
+    hand_ref: [mouth_and_strap.png]
     eyeline: "Jaeha → the sky"
     calm: left
     silent: true
@@ -1266,6 +1485,7 @@ panels:
     art: >
       Low at the rubble: steam pours out of the cracks in the road under the fallen bridge, thicker and thicker; the settled
       dust lifts and swirls; a deep violet glow grows inside the cracks.
+    hands: none
     calm: top
     silent: true
     sfx:
@@ -1283,6 +1503,8 @@ panels:
       sweat runs down his neck.
     acting:
       choi_dongmin: "wiping his forehead with his sleeve, squinting at the steam, fanning his jacket"
+    hands:
+      choi_dongmin: "RIGHT forearm dragging his sleeve across his forehead; LEFT hand tugging his jacket collar open, fanning it; the empty extinguisher set down at his feet"
     eyeline: "Choi → the steam"
     foreground: "the empty extinguisher, cropped, bottom left"
     calm: top
@@ -1302,6 +1524,7 @@ panels:
       to edge.
     acting:
       kang_jaeha: "eyes widening, pupils shrinking"
+    hands: none
     calm: none
     silent: true
 
@@ -1317,6 +1540,9 @@ panels:
       blasts out of every crack; Borro backs away across the rubble with his shield up.
     acting:
       borro: "backing away, shield raised, eyes on the dome"
+    hands:
+      borro: "backing away, the shield raised on his LEFT forearm by its strap; RIGHT hand braced on its edge, four blunt fingers"
+    hand_ref: [shield_grip.png]
     calm: top
     ui:
       - {kind: system.notice, "on": float, at: [0.5, 0.06], text: "[COOLDOWN 00:00 · BORRO · FIELD FORM 05:00]"}
@@ -1339,6 +1565,9 @@ panels:
     acting:
       marsh_serpent: "rearing high out of the road, hood flared, jaws opening, looking down at the people"
       borro: "small at its base, shield raised, standing his ground"
+    hands:
+      borro: "small at its base, the shield raised on his LEFT forearm, RIGHT hand on its edge, four-fingered"
+    hand_ref: [shield_grip.png]
     calm: top
     sfx:
       - {text: "SHHHRRRAAAAAAAA", style: impact, at: [0.30, 0.20], size: XL, rot: -8}
@@ -1353,6 +1582,7 @@ panels:
     art: >
       Close on the serpent's huge yellow slit eye, steam rising past it, the Hush crack on its brow leaking violet ash. The
       upper part is empty for the window.
+    hands: none
     calm: top
     ui:
       - {kind: system.warning, "on": float, at: [0.5, 0.05], text: "[BREAK BOSS: MARSH SERPENT (C)]"}
@@ -1361,3 +1591,7 @@ panels:
   - id: END
     kind: end
     chibi_gag: "Chibi Bomi kneels at a tiny grave made of a lollipop stick and a drone propeller, crying waterfalls, while chibi Nib solemnly lays a single radish on it and chibi Borro holds a tiny umbrella over them."
+    hands:
+      yoo_bomi: "chibi, kneeling, both fists pressed to her eyes, crying waterfalls"
+      nib: "chibi, both four-fingered hands laying a single radish on the tiny grave"
+      borro: "chibi, RIGHT hand holding a tiny umbrella over them by its handle, four blunt fingers; LEFT hand on his knee"

@@ -202,6 +202,7 @@ panels:
     art: >
       The Call floods with white light from the green rift outward; the black water turns to a mirror of white. The upper
       half is empty for the window.
+    hands: none
     calm: top
     ui:
       - {kind: system.window, "on": float, at: [0.5, 0.05], headline: "[ACCEPTED · 00:03]", body: "SUMMON NO. 2 IS COMING THROUGH.", button: "OK"}
@@ -222,6 +223,11 @@ panels:
       kang_seoa: "flattened back against her desk, glasses askew, mouth open"
       nib: "shoving Jaeha off the bed with both hands, already looking up at the slit"
       kang_jaeha: "falling off the bed, blinking, dazed"
+    hands:
+      kang_seoa: "flattened back against her desk, both hands gripping the desk edge behind her"
+      nib: "both four-fingered hands planted flat on Jaeha's shoulder and side, arms straight, shoving him off the bed"
+      kang_jaeha: "tipping off the bed sideways, dazed, RIGHT arm flung out toward the floor, LEFT arm loose, bandaged forearm"
+    hand_ref: [hand_on_shoulder.png]
     calm: top
     sfx:
       - {text: "VRRRRZZZT", style: summon, at: [0.50, 0.24], size: L, rot: 0}
@@ -244,6 +250,12 @@ panels:
       kang_seoa: "pressed against the desk, both hands on her cheeks, screaming"
       kang_jaeha: "flat on the floor, staring up, mouth open"
       nib: "standing on the table, arms folded, deadpan"
+    hands:
+      borro: "sitting on the flattened bed, knees up, both huge four-fingered hands resting on top of his knees, blunt fingers draped over them"
+      kang_seoa: "pressed against the desk, both palms on her cheeks, elbows tucked in, screaming"
+      kang_jaeha: "flat on his back on the floor, arms flopped out either side, palms up"
+      nib: "standing on the table, arms folded high across his chest, four-fingered hands tucked against his upper arms"
+    hand_ref: [arms_relaxed.png]
     calm: top
     sfx:
       - {text: "KRRUNCH", style: impact, at: [0.36, 0.70], size: XL, rot: -8}
@@ -262,6 +274,10 @@ panels:
     acting:
       borro: "bowing his great head, one hand flat on his chest, calm"
       nib: "standing on the table, arms folded, giving a small nod back, deadpan"
+    hands:
+      borro: "bowing his head, RIGHT hand laid flat on his chest, four blunt fingers together; LEFT hand resting on his knee"
+      nib: "standing on the table, arms folded across his chest, four-fingered hands tucked under his upper arms"
+    hand_ref: [mouth_and_strap.png, arms_relaxed.png]
     eyeline: "Borro → Nib; Nib → Borro"
     foreground: "a bent bed leg, cropped, bottom left"
     calm: top
@@ -919,6 +935,9 @@ panels:
     acting:
       nib: "swinging round the column, letting go of the rebar, both knives drawn in a reverse grip"
       ash_hound: "the alpha, unaware, head lifting to howl again"
+    hands:
+      nib: "dropping past the column, arms flung wide, a knife in each four-fingered fist in a forward grip, blades up, as in the drawn P49-P53; the rebar coil he just let go of swinging loose behind him"
+    hand_ref: [grip_hilt_one_hand.png]
     calm: top
     sfx:
       - {text: "WHIP", style: impact, at: [0.30, 0.30], size: M, rot: -10}
@@ -1058,6 +1077,12 @@ panels:
       borro: "kneeling slowly, hands on his knees, looking at Jaeha's bloody shoulder, quiet"
       kang_jaeha: "sitting against the wall, looking up at Borro, a tired smile"
       nib: "walking up behind Borro, sheathing his knives"
+    hands:
+      borro: "kneeling, both huge four-fingered hands resting flat on his knees; the shield stands on its edge beside him, leaning against his LEFT shoulder"
+      kang_jaeha: "sitting against the wall, LEFT hand resting on his thigh, bandaged forearm; RIGHT arm hanging still at his side under Yerin's hand"
+      nib: "walking up, both arms reaching behind his back, four-fingered hands sliding the two knives into their crossed sheaths"
+      song_yerin: "only her RIGHT hand in frame at the left edge, palm glowing mint, laid flat on Jaeha's gashed RIGHT shoulder"
+    hand_ref: [healing_palms.png]
     eyeline: "Borro → Jaeha; Jaeha → Borro"
     foreground: "Yerin's mint-glowing hand on Jaeha's shoulder, cropped, left"
     calm: top
@@ -1075,6 +1100,11 @@ panels:
     art: >
       High over the ruined floor: the four of them small by the core wall; at the far column, a fist-sized violet core floats
       in the air where the alpha fell. The upper half is the dusk sky, empty for the window.
+    hands:
+      kang_jaeha: "tiny, sitting against the core wall, hands resting in his lap"
+      song_yerin: "tiny, kneeling beside him, both hands on his shoulder"
+      borro: "tiny, kneeling, four-fingered hands on his knees, the shield standing at his LEFT side"
+      nib: "tiny, standing, four-fingered hands at his sides"
     calm: top
     ui:
       - {kind: system.window, "on": float, at: [0.5, 0.05], headline: "[BOSS DEFEATED: ASH HOUND ALPHA (D)]", body: "NEW BOSS KIND · ROUTE ALIGNMENT 0% → 40%", button: "OK"}
@@ -1091,6 +1121,9 @@ panels:
     art: >
       Over Jaeha's shoulder: his bloody gloved hand writes a short line on a clean page; the cyan light of a window falls
       across the page (the window offers one button). Leave a blank band for the letterer's note. No readable text.
+    hands:
+      kang_jaeha: "RIGHT hand writes with the yellow pencil, the glove smeared with blood; LEFT hand holds the notebook open, the bandage on that forearm"
+    hand_ref: [notebook_and_pencil.png]
     calm: top
     ui:
       - {kind: system.notice_small, "on": float, at: [0.5, 0.08], text: "[HARVEST CORE · NO OTHER OPTION]"}
@@ -1115,6 +1148,13 @@ panels:
       borro: "standing stiffly, badly, the husk face crooked"
       nib: "standing stiffly, arms hanging"
       site_manager: "bowing deeply with both hands holding out the envelope, eyes on the ground"
+    hands:
+      kang_jaeha: "LEFT arm draped over Yerin's shoulders; RIGHT hand taking the envelope, elbow tucked in to spare the bandaged RIGHT shoulder, a small bow"
+      song_yerin: "RIGHT arm round his waist holding him up; LEFT hand holding his LEFT wrist where it hangs over her shoulder"
+      borro: "stiff husk act: the shield on his LEFT forearm by its strap, hanging at his side; RIGHT arm hanging stiff, four-fingered hand limp"
+      nib: "standing stiffly, arms hanging, four-fingered hands limp (the husk act)"
+      site_manager: "bent in a deep bow, both hands holding the thick envelope out at arm's length, thumbs on top, fingers underneath"
+    hand_ref: [arms_carry.png, shield_grip.png]
     calm: top
     sfx:
       - {text: "FLAP FLAP", style: quiet, at: [0.80, 0.20], size: S, rot: 0}
@@ -1133,6 +1173,11 @@ panels:
     acting:
       site_manager: "jumping, slapping at his shrieking pocket"
       song_yerin: "pulling her phone out of her bag, eyes widening"
+    hands:
+      site_manager: "jumping, RIGHT hand slapping at the shrieking phone in his trouser pocket, LEFT arm flung out"
+      song_yerin: "RIGHT hand pulling her lit phone out of her pink bag, LEFT hand holding the bag's flap open"
+      background: "passers-by across the street (a woman at the bus stop, a delivery rider, a man at a shop door) each frozen with a lit phone in one hand at chest height"
+    hand_ref: [phone_hold.png]
     calm: top
     silent: true
     sfx:
@@ -1147,6 +1192,9 @@ panels:
     light: "the screen glow; dusk"
     art: >
       Close on Jaeha's phone in his bloody gloved hand. Screen: flat green.
+    hands:
+      kang_jaeha: "only his RIGHT hand in frame holding the phone upright, fingers wrapped round its back, thumb at the screen's edge, the black glove smeared with blood"
+    hand_ref: [phone_hold.png]
     calm: left
     ui:
       - kind: phone.emergency_alert
@@ -1168,6 +1216,7 @@ panels:
       edge.
     acting:
       kang_jaeha: "eyes wide, pupils small"
+    hands: none
     calm: none
     lines:
       - {who: kang_jaeha, type: inner, text: "TUESDAY. SHE SAID TUESDAY, AFTER SCHOOL. RICE CAKES."}
@@ -1184,6 +1233,9 @@ panels:
       on her shoulder.
     acting:
       kang_seoa: "turning back at the door, a small smile, one hand on her bag strap"
+    hands:
+      kang_seoa: "turning back at the stair door, RIGHT hand on the strap of the school bag over her shoulder; LEFT hand relaxed at her side"
+    hand_ref: [mouth_and_strap.png]
     calm: right
     silent: true
 
@@ -1203,6 +1255,13 @@ panels:
       song_yerin: "both hands over her mouth"
       borro: "turning his masked head toward the smoke"
       nib: "already a step ahead of them, looking back at Jaeha"
+    hands:
+      kang_jaeha: "standing on his own, RIGHT hand lowered at his side still gripping the phone; LEFT arm hanging, bandaged forearm"
+      song_yerin: "both hands pressed over her mouth, the long sleeves falling past her wrists"
+      borro: "the shield on his LEFT arm resting on its edge on the pavement; RIGHT arm hanging, four-fingered hand loose"
+      nib: "a step ahead, looking back, arms loose at his sides, four-fingered hands open"
+      background: "passers-by at the near end of the street stopped and staring at the smoke, hands at their sides or holding phones"
+    hand_ref: [mouth_and_strap.png]
     calm: top
     sfx:
       - {text: "WEEOOO WEEOOO", style: alert, at: [0.80, 0.30], size: M, rot: 0}
@@ -1216,6 +1275,9 @@ panels:
     light: "the screen glow"
     art: >
       Close on Jaeha's phone ringing in his trembling, bloody hand. Screen: flat green.
+    hands:
+      kang_jaeha: "only his RIGHT hand in frame holding the ringing phone upright, trembling, the glove bloody, thumb hovering over the screen"
+    hand_ref: [phone_hold.png]
     calm: left
     ui:
       - {kind: phone.ttok_call, "on": screen, caller: "SEOA"}
@@ -1235,6 +1297,10 @@ panels:
       Close and low on Jaeha (kang_jaeha, vest, bloody) snatching the phone to his ear, the smoke column rising behind him.
     acting:
       kang_jaeha: "phone pressed to his ear with his good hand, leaning forward, eyes wide"
+    hands:
+      kang_jaeha: "RIGHT hand pressing the phone to his RIGHT ear, elbow raised, fingers wrapped round it; LEFT hand out of frame"
+      nib: "only his masked head and scarf in the foreground; hands out of frame"
+    hand_ref: [phone_hold.png]
     eyeline: "Jaeha → the smoke"
     foreground: "Nib's masked head and scarf, cropped, bottom right"
     calm: top
@@ -1245,3 +1311,8 @@ panels:
   - id: END
     kind: end
     chibi_gag: "Chibi Borro sits under his blue tarp watering a single sprout with a tiny watering can, while chibi Nib, chibi Seoa and chibi Jaeha all try to fit under the same tarp to stay out of the rain, squashed against his shell."
+    hands:
+      borro: "chibi: RIGHT hand tipping a tiny watering can over the sprout, four blunt fingers round its handle; LEFT hand on his knee"
+      nib: "chibi, squashed against Borro's shell, arms pinned at his sides, four-fingered hands flat against the slate"
+      kang_seoa: "chibi, squashed in, both hands pressed to her chest"
+      kang_jaeha: "chibi, squashed against the shell, both hands pressed flat on it"

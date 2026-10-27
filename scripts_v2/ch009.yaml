@@ -216,6 +216,9 @@ panels:
       Close on Jaeha (kang_jaeha), the pencil tapping his lip, unconvinced.
     acting:
       kang_jaeha: "tapping the pencil against his lower lip, eyes narrowed, one eyebrow up"
+    hands:
+      kang_jaeha: "RIGHT hand taps the pencil's eraser against his lower lip, pencil pinched between thumb and fingers; LEFT hand holds the notebook low, only its corner in frame"
+    hand_ref: [notebook_and_pencil.png]
     eyeline: "Jaeha → Nib"
     foreground: "the notebook's corner, cropped, bottom right"
     calm: right
@@ -239,6 +242,11 @@ panels:
       nib: "unfolding his arms, resting his long hands on his knees, looking straight at Jaeha"
       kang_jaeha: "the pencil stopped, looking back at Nib"
       kang_seoa: "still on her chair, eyes moving from one to the other"
+    hands:
+      nib: "cross-legged on the bed, arms unfolding, both long four-fingered hands coming to rest on his knees, fingers draped over them"
+      kang_jaeha: "at the table, RIGHT hand holding the pencil stopped above the open notebook; LEFT hand flat on the table beside it, bandaged forearm"
+      kang_seoa: "still on her chair, both hands resting on the laptop on her knees"
+    hand_ref: [notebook_and_pencil.png]
     eyeline: "Nib ↔ Jaeha; Seoa → Nib"
     foreground: "the ceiling light's cord, cropped, top"
     calm: top
@@ -261,6 +269,10 @@ panels:
       kang_seoa: "both arms spread at the walls, eyebrows high"
       kang_jaeha: "lowering himself onto the bed, the notebook in his good hand, a lopsided grin"
       nib: "shifting over on the bed to make room"
+    hands:
+      kang_seoa: "both arms spread wide at the walls, hands open and empty, elbows slightly bent"
+      kang_jaeha: "lowering himself onto the bed's edge, the closed notebook in his RIGHT hand; LEFT hand resting on the mattress edge, bandaged forearm"
+      nib: "shifting over on the bed, RIGHT hand pushing on the mattress, four long fingers spread; LEFT hand on his knee"
     eyeline: "Seoa → Jaeha; Jaeha → Seoa"
     foreground: "the bed's metal leg, cropped, left edge"
     calm: top
@@ -284,6 +296,10 @@ panels:
     acting:
       kang_seoa: "crouched, holding the phone stopwatch up between them, the other hand gripping his knee, a hard little frown"
       kang_jaeha: "sitting on the bed's edge, looking down at her, a soft tired smile"
+    hands:
+      kang_seoa: "crouched, RIGHT hand holding her phone up between them, thumb ready on the stopwatch; LEFT hand gripping his knee"
+      kang_jaeha: "sitting on the bed's edge, RIGHT hand holding the closed notebook on his thigh; LEFT hand resting on the mattress, bandaged forearm"
+    hand_ref: [phone_hold.png]
     eyeline: "Seoa → Jaeha (up); Jaeha → Seoa (down)"
     foreground: "the phone stopwatch in her hand, cropped, bottom left"
     calm: top
@@ -301,6 +317,9 @@ panels:
     art: >
       Close on Jaeha's index finger, the bandaged forearm behind it, pressing a glowing cyan CALL button that hangs in the
       air; light ripples out from the touch.
+    hands:
+      kang_jaeha: "only his LEFT hand and forearm in frame: index finger pressing the floating button, other fingers curled, black fingerless glove, white bandage round the forearm behind it"
+    hand_ref: [pointing.png]
     calm: left
     ui:
       - {kind: system.button, "on": float, at: [0.5, 0.45], text: "CALL"}
@@ -468,6 +487,8 @@ panels:
       bell-headed mace in its hand. Its head turns toward Jaeha.
     acting:
       bell_silhouette: "a black silhouette against the fire, standing square on the battlement, head turning toward us, mace lowered"
+    hands:
+      bell_silhouette: "a black silhouette: RIGHT hand grips the bell-headed mace's haft, the head hanging low beside its leg; LEFT arm at its side"
     calm: top
     ui:
       - {kind: system.notice_small, "on": float, at: [0.5, 0.92], text: "[00:52]"}
@@ -488,6 +509,9 @@ panels:
     acting:
       kang_jaeha: "leaning forward, eyes lighting up, the notebook lowered"
       bell_silhouette: "standing on the wall, facing Jaeha, the mace resting head-down at its feet"
+    hands:
+      kang_jaeha: "only his shoulder and face in frame; hands below the frame, the notebook lowered in his LEFT hand"
+      bell_silhouette: "tiny on the wall: both hands resting on the end of the mace's haft, the mace standing head-down at its feet"
     eyeline: "Jaeha → the silhouette; the silhouette → Jaeha"
     foreground: "Jaeha's shoulder and the side of his face, cropped, right third"
     calm: top
@@ -506,6 +530,9 @@ panels:
       Close on Jaeha (kang_jaeha) stepping forward on the black water, ripples spreading from his foot, eager.
     acting:
       kang_jaeha: "taking a step forward, one hand reaching out, eyebrows up, a hopeful smile"
+    hands:
+      kang_jaeha: "stepping forward, RIGHT arm reaching out toward the rift at chest height, palm up, fingers open; LEFT hand holds the notebook down at his side"
+    hand_ref: [reaching_grabbing_wrist.png]
     eyeline: "Jaeha → the silhouette"
     foreground: "ripples on the black water, cropped, bottom"
     calm: left
@@ -524,6 +551,9 @@ panels:
       the great bronze bell; a ring of orange light bursts outward from it. The swarm at the wall's base recoils.
     acting:
       bell_silhouette: "mid-swing, the mace striking the bell, its whole broad body turned into the blow"
+    hands:
+      bell_silhouette: "mid-swing, both hands on the mace's haft, LEFT near the butt and RIGHT above it, driving the bell-head into the great bell"
+    hand_ref: [grip_hilt_two_hands.png]
     calm: top
     lines:
       - {who: bell_silhouette, type: monster, text: "NOT YET, OPERATOR. MY WALL STILL STANDS."}
@@ -540,6 +570,7 @@ panels:
     art: >
       Across the water, the burning rift narrows and closes like an eye, the fire shrinking to a thin orange line, then
       black. Its cyan line to Jaeha snaps and fades. The upper half is empty for the window.
+    hands: none
     calm: top
     ui:
       - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[DECLINED · 00:41]"}
@@ -558,6 +589,9 @@ panels:
       Close on Jaeha (kang_jaeha), his outstretched hand still raised, the hope draining from his face.
     acting:
       kang_jaeha: "hand still half raised, mouth open, eyes stunned"
+    hands:
+      kang_jaeha: "RIGHT hand still half raised in front of him, fingers loosely open, reaching after the closed rift; LEFT hand below the frame"
+    hand_ref: [reaching_grabbing_wrist.png]
     eyeline: "Jaeha → the closed rift"
     calm: right
     lines:
@@ -576,6 +610,9 @@ panels:
       speaks, two more rifts dim to grey.
     acting:
       kang_jaeha: "holding the notebook up higher, leaning forward, shouting, a desperate salesman's smile"
+    hands:
+      kang_jaeha: "seen from behind, both hands holding the open notebook up high toward the rifts, arms half extended"
+    hand_ref: [notebook_and_pencil.png]
     eyeline: "Jaeha → the rifts"
     foreground: "Jaeha's shoulder and the raised notebook, cropped, left third"
     calm: top
@@ -599,6 +636,11 @@ panels:
       nib: "rigid, ears flat back, hands clenched into fists on his knees, eyes wide and far away"
       kang_seoa: "turning to Nib, laptop clutched to her chest"
       kang_jaeha: "sitting rigid, eyes glowing, unmoving"
+    hands:
+      nib: "sitting rigid beside Jaeha, both four-fingered hands clenched into fists on his knees"
+      kang_seoa: "turned to Nib, both arms hugging the closed laptop flat against her chest"
+      kang_jaeha: "sitting rigid on the bed's edge, both gloved hands resting motionless on his knees"
+    hand_ref: [fists_and_bracing.png]
     eyeline: "Nib → nothing; Seoa → Nib"
     foreground: "the bed's metal frame, cropped, bottom"
     calm: top
@@ -919,6 +961,8 @@ panels:
     art: >
       High over the water: the few remaining cyan lines from the rifts to Jaeha flicker brighter for an instant. The rifts
       themselves stay dark. The upper half is empty for the window.
+    hands:
+      kang_jaeha: "a tiny figure seen from high above: arms hanging at his sides, the notebook in his LEFT hand; no detail at this size"
     calm: top
     ui:
       - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[OFFER CHANGED · 00:12]"}

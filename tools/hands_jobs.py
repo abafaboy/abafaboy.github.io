@@ -133,7 +133,7 @@ def main(argv):
             L += [f"- {p['panel']}: {p.get('who', '')}, {p.get('problem', '')}" for p in minor]
             L.append("")
         if skipped:
-            L += [f"## Left out (redrawn by another job): {', '.join(skipped)}", ""]
+            L += [f"## Left out of this job (redrawn by another job, or judged not worth a fix): {', '.join(skipped)}", ""]
         L.append(f"Panels that passed: {', '.join(clean) if clean else 'none listed'}.")
         out = os.path.join(ROOT, f"codex/reviews/HANDS_{cid}.md")
         open(out, "w").write("\n".join(L) + "\n")
