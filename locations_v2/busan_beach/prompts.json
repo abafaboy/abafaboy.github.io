@@ -1,0 +1,56 @@
+{
+  "entry": "L23",
+  "location": "busan_beach",
+  "tool": "built-in image_gen",
+  "requested_size": [
+    1536,
+    1024
+  ],
+  "images": [
+    {
+      "file": "key.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "prompt": "Korean webtoon panel, digitally inked and coloured by a professional webtoon studio. Crisp black ink with tapered strokes, heavier on the outer silhouette, the jaw, the hair mass and where forms overlap. Flat local colour with one hard-edged cool cel shadow per material. One named key light: its colour washes smoothly over the lit side. If the scene names a back light, it draws a thin crisp rim along the figure's silhouette. Everything else stays flat. Muted cool base palette of slate, navy and grey-blue, so the light source and the character's signature colour carry the saturation. Background simplified and lower in contrast than the characters. Small crisp highlights; glossy specular only on metal and wet surfaces.\n\nHand-made webtoon colouring: each garment has only a few large, opaque, clean-edged shadow shapes, placed in its real folds; no scattered translucent streaks, zigzag shards or crumpled-foil folds. Worn cloth shows a few small frayed notches and loose threads, never sawtooth edges along every edge. Plain shoes and clothes with no logos, stripes or brand marks. Every strap, buckle, pocket and seam is attached and has a purpose; no stray stitch marks. Matte skin, hair and stone; no 3D, low-poly or plastic look.\n\nUse case: illustration-story. Asset: L23 busan_beach/key.png, a full-detail architectural and landscape establishing reference for a modern Korean city beach in calm autumn weather. Draw one uninterrupted landscape illustration at exactly 1536 x 1024 pixels, edge-to-edge, no panels or borders. A LONG BROAD CRESCENT OF PALE SAND, about 80 m wide in the near part, sweeping away from the lower left toward the back centre, with a curve of tall blue-grey GLASS TOWERS and lower beachfront buildings directly behind the sand. Calm autumn sea fills the right side, small orderly low shore waves, no storm, no surf sport. A promenade follows the landward edge on the left with ordinary railings and a few modest planters, no tropical resort vegetation. The beach is part of a working harbour city: in the far distance around the same bay beyond the end of the crescent, a few small port gantry cranes and low docks sit under the city ridge. Open sea to the right, far horizon level in the upper third, simple pale blue sky and a few restrained graphic cloud shapes. Camera on a raised promenade at 3.5 m above sand, looking gently downward and along the curve of the beach, coherent wide lens perspective, naturally see the tops of the tiny distant people's heads. Full clear geography and visible broad open sand in the foreground; no giant foreground person or prop, no framing beach umbrella, no swimsuit closeup. Named key light: clear 1:00 PM early-afternoon SUN from upper right, broad cool blue-grey cel shadows to the left, muted sand cream against cool slate-blue glass and pale blue-grey water. Water is drawn with sparse flat white ripple marks and broad flat blue shapes, never photographic caustics. Only TWO tiny incidental generic adult figures on the sand: one solitary walker farther away near the water in a pale autumn cardigan and rolled dark trousers, and a middle-aged man with a metal detector somewhat nearer, wearing a plain navy windbreaker, cap and long beige trousers. Each adult has 7.5-head proportions, long enough legs, feet planted in the sand perspective, each figure only 70 to 110 pixels high, faces too small to define. The detector operator rests weight on his forward leg, one hand gripping the detector shaft, the other holding a small plain scoop; round detector coil sits just above the sand in front of him, connected properly to its shaft. One tiny white quadcopter camera drone with a single small red recording light hovering beside the distant walkway, only an incidental scale detail, no readable marks. Sparse footprints, no rows of parasols or dense summer crowd. Drawing style: clear black ink on tower edges, promenade rails, shoreline shapes and the figures; large flat opaque colours, one clean hard cool shadow per material, minimal surface texture. Establishing-shot detail in the geography and architecture, no photographic microtexture or CG appearance. Reference Image 1 is an APPROVED rooftop location key used only for the house's hand-inked architecture, muted flat colours and broad opaque shadow style. Do NOT copy the rooftop room, water tank, green floor, laundry or river bridges. Reference Image 2 is the optional house acting style anchor for clean ink and cel shadows only: do not copy its people, poses, costumes, dungeon, props or red light. No real business logos or signs.\n\nNo text, letters, numbers, speech bubbles, captions, sound-effect lettering, interface windows or readable signs. Emblems without letters are fine; no brand logos or wordmarks. Not a 3D render, not a photograph, no photographic background. No airbrushed skin, no plastic gloss on skin or hair, no haze or bloom over the whole image, no depth-of-field blur, no lens flare unless a real camera flash is in the scene. No watermark or signature. Correct hands with five fingers. No chibi proportions unless the brief says chibi. No compressed or stubby bodies, no shortened legs or torsos, no oversized heads; no people out of scale with the doors, vehicles and buildings around them; no figures floating off the floor or breaking the scene's perspective.",
+          "references": [
+            "locations_v2/rooftop_room/key_day.png (approved L3; rendering only)",
+            "style_test_v2/acting/B4_P31.png"
+          ],
+          "status": "kept",
+          "saved_as": "key.png",
+          "checks": {
+            "broad_crescent_sand": true,
+            "glass_towers": true,
+            "calm_autumn_sea": true,
+            "two_small_scale_people": true,
+            "no_text": true,
+            "drawn_cel_style": true
+          },
+          "free_space_bytes_before_call": 41209565184,
+          "generator_source": "C:/Users/abafa/.codex/generated_images/01a17db4-1181-75f0-975c-ff70923ecefd/exec-5bd070ce-3026-48bb-a28b-71d1972cc3b3.png",
+          "sha256": "73cacec092987644b9c8869fabd07aa86a3a77410da3b5a7f7d30f9689c1555e",
+          "bytes": 2543956,
+          "native_dimensions": [
+            1536,
+            1024
+          ],
+          "byte_identical_to_generator": true
+        }
+      ]
+    }
+  ],
+  "delivery_status": "complete; awaiting project reviewer approval",
+  "verification": {
+    "all_requested_images_present": true,
+    "native_png_dimensions": [
+      1536,
+      1024
+    ],
+    "ordinary_files_verified": "PowerShell LinkType empty and fsutil hardlink list returned exactly one path for every kept PNG and reject.",
+    "lossless_copies": true,
+    "visual_checks": "Inspected full images, 200-pixel-wide thumbnails, and native-pixel crops enlarged to 200% in memory. No project preview files were saved.",
+    "disk_guard": "Get-PSDrive C checked before each image-generation call; all seven checks exceeded 3 GiB.",
+    "remaining_work": []
+  }
+}

@@ -16,6 +16,8 @@ Use these as references for every new image. Codex drew all of them with its bui
 | `characters_v2/borro/`, `characters_v2/baek_taegun/` | Borro (S16, all five sheets) and Director Baek (S17), approved 27 Oct | Approved |
 | Arc 2 sheets | `neighbourhood` (S18), `ahin_husk` (S19), `ash_rat` (M1, with the redrawn swarm), `drowned_hound` (M2), `ash_hound` (M3), `marsh_serpent` (M4), approved 27 Oct. Creatures carry Claude's `scale_card.png` (beside the standard 178 cm man) | Approved |
 | Arcs 3–4 sheets | `han_sora` (S20), Nib's seal 3/5 armour `nib/*_seal3*` (S21), `oh_minseok` (S22), `crew` (S23), `geum_okran` (S24), `arc3_cast` (S25), `training_construct` (M5), `basalt_boar` (M6), `bell_ringer` (M7), `canyon_wyvern` (M8), `tide_warden` (M9) and `props_v2/arc3` (P1), approved 27 Oct, with Claude's scale cards for the monsters, Sora and Auntie Geum | Approved |
+| Arc 5 sheets | Jaeha's `kang_jaeha/*_training*` (S26), `arc5_cast` (S27), Lyra's and Moon Ahin's beach looks (S30), `brine_crawler` (M10), `reef_hermit` (M11), `deep_lantern` (M12), `pim/front.png` (S29, the rest to draw) and `props_v2/arc5` (P2), approved 27 Oct | Approved |
+| Arcs 3–5 keys | L13–L24 in `locations_v2/`, approved 27 Oct, except `dam_gate/key.png` and `farm_pit/key.png` and `alarm.png` (being redrawn) | Approved |
 | `locations_v2/` new keys | Arc 2 keys approved 27 Oct: `sewer_gate`, `survey_gate`, `hanriver_gate`, `carpark_gate`, `call_void`, `tower_gate` (key only), `mangwon_market`, `fish_market`, `kanghan_office`, `bomi_room` (outside), `kanghan_guild_hall`, `rooftop_room/stairs_night.png` | Approved |
 | `deliveries/<entry>/` | Every reviewed delivery exactly as it came in, with its rejects and notes (provenance only; build on the approved copies) | Archive |
 | `characters_v2/scale_chart_v2.png` | Everyone's height side by side | Approved |
@@ -33,6 +35,7 @@ Characters in `characters_v2/`: `kang_jaeha`, `nib`, `song_yerin`, `mok_hangyu`,
 | `chapters_v2/ch001/art/` | Chapter 1's panels (P08, P25 and P59 are text panels with no art) | Published as an unlisted video. P09, P21 and P22 redrawn and approved 27 Oct (`codex/reviews/ch001-FIX.md`), for the long-form |
 | `chapters_v2/ch002/art/` | Chapter 2's approved panels: 59 of 60 | P52 is being fixed (job ch002-R6, `codex/reviews/ch002.md`) |
 | `chapters_v2/ch003/art/` | Chapter 3's approved panels: 59 of 62 | P33, P45 and P49 are being redrawn (job ch003-R1, `codex/reviews/ch003.md`) |
+| `chapters_v2/ch006/art/` | Chapter 6's approved panels so far: 40 of parts A–E | P41 is being fixed (job ch006-R1); parts F and G are being drawn |
 
 ## Sending new art back for review
 
