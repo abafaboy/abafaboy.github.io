@@ -15,7 +15,7 @@ From Claude's audit of 28 October 2026 (`ledger/hands_audit/ch001.json`). **9 pa
 - **References:** `characters_v2/hands/mouth_and_strap.png`, `characters_v2/hands/crossbow_hold.png`
 
 ## P28: edit (severity 3)
-- **Mok**, the hand resting on the top of the tower shield, picture-left, at Mok's right hip: a hand from nowhere: Mok faces picture-right, his near (RIGHT) arm is the one clamped on Jaeha's shoulder, and the hand on the shield comes straight out of his jacket hem at the hip with no forearm or arm behind it, so he reads as having a third hand
+- **Mok**, the hand resting on the top of the tower shield, picture-left, at Mok's right hip: a hand from nowhere: Mok faces picture-right, his near (RIGHT) arm is the one clamped on Jaeha's shoulder, and the hand on the shield comes straight out from under his jacket hem at the back of his hip with no forearm; the only owner it could have is his far LEFT arm bent behind his back, which no one would do, so at a glance he reads as having a third hand under his elbow
   - **Fix:** remove the arm-less hand on the shield (the shield just stands at his back) or draw his LEFT arm coming from his far shoulder to rest that hand on the shield's top edge; his RIGHT hand stays clamped on Jaeha's shoulder; Jaeha's two raised palms stay as they are.
 - **References:** `characters_v2/hands/shield_grip.png`, `characters_v2/mok_hangyu/details.png`
 

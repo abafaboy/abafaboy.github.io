@@ -1,6 +1,6 @@
 # Hands and arms fixes: chapter 2
 
-From Claude's audit of 28 October 2026 (`ledger/hands_audit/ch002.json`). **15 panels to fix** (2 problems at severity 3, 7 at severity 2, 6 at severity 1). How to fix them: `codex/HANDS_FIX_BRIEF.md`. Base images: `chapters_v2/ch002/art/hands_fix/base/`.
+From Claude's audit of 28 October 2026 (`ledger/hands_audit/ch002.json`). **15 panels to fix** (1 problems at severity 3, 10 at severity 2, 4 at severity 1). How to fix them: `codex/HANDS_FIX_BRIEF.md`. Base images: `chapters_v2/ch002/art/hands_fix/base/`.
 
 ## P01: edit (severity 2)
 - **Nib**, his raised LEFT arm and knife holding off the giant blade, picture-right of centre: he holds the giant sword off with only the point of his knife poking up into its edge, so the hold reads as a poke rather than a brace (script: the blade's spine rests on his left forearm and that knife). The lower knife is in a forward grip where the script asks for a reverse grip. Fist and fingers are drawn correctly.
@@ -22,9 +22,9 @@ From Claude's audit of 28 October 2026 (`ledger/hands_audit/ch002.json`). **15 p
   - **Fix:** both of Nib's arms reach back from his shoulders (the far shoulder visible above his back) with a slight bend at the elbows, one fist knotted in Yerin's collar and the other in Jaeha's vest at the shoulder.
 - **References:** `characters_v2/hands/hand_on_shoulder.png`, `characters_v2/nib/details.png`
 
-## P05: edit (severity 3)
-- **Yerin / Nib**, a green goblin hand lying on the floor at the end of Yerin's LEFT teal sleeve cuff, lower right of centre: a hand with the wrong owner: a green goblin hand comes straight out of Yerin's sleeve cuff with no Nib arm leading to it, and Yerin's own left hand is missing
-  - **Fix:** Yerin's LEFT sleeve ends in her own pale hand flat on the floor; Nib's arms and hands stay on his own body (his RIGHT arm at the far right as drawn).
+## P05: edit (severity 2)
+- **Nib (and Yerin)**, the green goblin hand flat on the floor just below Yerin's hip, lower right of centre: the hand has no visible arm: its wrist disappears straight under the teal hem of Yerin's jacket and nothing connects it to Nib, who lies face-down to the right, so on a careful look it seems to grow out of Yerin's jacket (it can be read as Nib's outstretched left hand with the forearm hidden under his head, which is why this is not a 3). Yerin's own two arms are hugging her bag and are fine.
+  - **Fix:** Nib's LEFT arm stretches forward from his shoulder past his head along the floor, the green forearm visible and clearly separate from Yerin's jacket, ending in that hand flat on the floor; his RIGHT arm stays as drawn at the far right; Yerin keeps both hands on her bag.
 - **References:** `characters_v2/hands/fists_and_bracing.png`, `characters_v2/nib/details.png`, `characters_v2/song_yerin/details.png`
 
 ## P06: edit (severity 2)
@@ -37,9 +37,9 @@ From Claude's audit of 28 October 2026 (`ledger/hands_audit/ch002.json`). **15 p
   - **Fix:** Jaeha wipes his lip with the back of his RIGHT glove, fingers loosely curled with four fingertips and a thumb readable; his LEFT hand stays lifted palm-up as he explains.
 - **References:** `characters_v2/hands/mouth_and_strap.png`, `characters_v2/kang_jaeha/details.png`
 
-## P17: edit (severity 1)
-- **Nib**, both arms thrust forward at the knight's knee: both arms are locked straight and parallel in a double stab, slightly stiff and mannequin-like (script: arms whipped across his body in a double slash); fists and grips are fine
-  - **Fix:** Nib's two arms whip across his body in a double slash at the back of the knight's knee, elbows bent, both fists gripping knives.
+## P17: edit (severity 2)
+- **Nib**, both arms thrust forward at the knight's knee, centre of the panel: both arms are locked dead straight and parallel like two poles, and the near arm (shoulder under the scarf to the fist) is about three and a half head-heights long, clearly longer than even Nib's knee-length design, so it reads as a rubber arm; the script asks for arms whipped across his body in a double slash. Fists and grips are fine.
+  - **Fix:** Nib slides on one knee and whips both arms across his body in a double slash at the back of the knight's knee, elbows bent and arms at his design length, each fist gripping a knife.
 - **References:** `characters_v2/hands/reverse_grip_knives.png`, `characters_v2/nib/details.png`
 
 ## P23: edit (severity 2)
@@ -62,9 +62,9 @@ From Claude's audit of 28 October 2026 (`ledger/hands_audit/ch002.json`). **15 p
   - **Fix:** Nib's RIGHT hand holds one straight knife whose handle runs through the fist in line with the blade; his LEFT hand keeps its knife as drawn.
 - **References:** `characters_v2/hands/reverse_grip_knives.png`, `characters_v2/nib/details.png`
 
-## P43: edit (severity 1)
-- **Yerin**, her LEFT (lower) reaching hand: the hand reads spidery: index straight out, the other three fingers hanging steeply down, thumb raised above; five digits and possible, but odd
-  - **Fix:** Yerin reaches toward Jaeha with both hands open and fingers gently spread, not quite touching him.
+## P43: edit (severity 2)
+- **Yerin**, her LEFT (lower) reaching hand, centre-bottom of the panel: the hand reads as a spidery claw: one very long digit sticks straight out sideways while the other four fingers hang steeply down from a raised knuckle; five digits, but an awkward, unnatural hand in a close panel
+  - **Fix:** Yerin reaches toward Jaeha with both hands open, palms down and fingers gently spread, not quite touching him.
 - **References:** `characters_v2/hands/reaching_grabbing_wrist.png`, `characters_v2/song_yerin/details.png`
 
 ## P45: edit (severity 1)
