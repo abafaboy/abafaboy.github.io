@@ -219,7 +219,7 @@ Chapters 6–12 need the Arc 2 sheets and keys in `ASSETS_ARC2_BRIEF.md` (Borro 
 
 ### Chapter 6: Trap Rats (`scripts_v2/ch006.yaml`)
 
-**Chapter 6 rules:** Jaeha has a small plaster on his right cheekbone and no other bandages. Nib has his seal 2/5 look with the mask and plays a husk in public (stiff, arms hanging); field form and LINKED (amber) only P26–P36. Ash rats: `ash_rat/` (70 cm, knee-high); the swarm mother P38–P40: `ash_rat/swarm_mother.png` (1.4 m, hip-high). The sewer: `sewer_gate/key.png` inside, `outside.png` at dusk (P44–P51). The landlady (P52–P54): `neighbourhood/lineup.png`, on `rooftop_room/stairs_night.png`. Bomi's room (P55–P60): `bomi_room/outside.png` and `interior.png`. P07 and P47 carry phone live-stream overlays: keep those areas calm. Bomi: never a low angle up her shorts.
+**Chapter 6 rules:** Jaeha has a small plaster on his right cheekbone and no other bandages. Nib has his seal 2/5 look with the mask and plays a husk in public (stiff, arms hanging); field form and LINKED (amber) only P26–P36. Ash rats: `ash_rat/` (70 cm, knee-high); the swarm mother P38–P40: `ash_rat/swarm_mother.png` (1.4 m, her back just above a man's hip); attach `ash_rat/scale_card.png` whenever a person or Nib shares the panel with them. The sewer: `sewer_gate/key.png` inside, `outside.png` at dusk (P44–P51). The landlady (P52–P54): `neighbourhood/lineup.png`, on `rooftop_room/stairs_night.png`. Bomi's room (P55–P60): `bomi_room/outside.png` and `interior.png`. P07 and P47 carry phone live-stream overlays: keep those areas calm. Bomi: never a low angle up her shorts.
 
 | Part | Panels to draw | Notes |
 |---|---|---|
@@ -249,7 +249,7 @@ Chapters 6–12 need the Arc 2 sheets and keys in `ASSETS_ARC2_BRIEF.md` (Borro 
 
 ### Chapter 8: Eyes (`scripts_v2/ch008.yaml`)
 
-**Chapter 8 rules:** Gomi the cat: `neighbourhood/gomi.png`, huge and fat next to Nib. Nib is in rest form (no glow) except P42–P55. Through-the-eyes panels (P02, P14, P16, P17) carry a thin amber vignette. The Han River enclosure: `hanriver_gate/key.png` and `bank_dusk.png`, at the blue hour with the bridge lights coming on. The car park: `carpark_gate/key.png`; the ramp is 30 m long and 6 m wide, its lower third wet. The drowned hound: `drowned_hound/` (1.7 m at the shoulder: a head taller than Jaeha). The vest has Seoa's red stitches on the back patch from P25; the bite bandage on Jaeha's LEFT forearm from P47 (the bite is P38).
+**Chapter 8 rules:** Gomi the cat: `neighbourhood/gomi.png` with `neighbourhood/scale_card.png` (60 cm long; standing, her ears reach just over half Nib's height), huge and fat next to Nib; never take her size from `lineup.png`, which draws her too big. Nib is in rest form (no glow) except P42–P55. Through-the-eyes panels (P02, P14, P16, P17) carry a thin amber vignette. The Han River enclosure: `hanriver_gate/key.png` and `bank_dusk.png`, at the blue hour with the bridge lights coming on. The car park: `carpark_gate/key.png`; the ramp is 30 m long and 6 m wide, its lower third wet. The drowned hound: `drowned_hound/` with `drowned_hound/scale_card.png` (1.7 m at the shoulder, level with Jaeha's eyes; with its head up it stands a head taller than him). The vest has Seoa's red stitches on the back patch from P25; the bite bandage on Jaeha's LEFT forearm from P47 (the bite is P38).
 
 | Part | Panels to draw | Notes |
 |---|---|---|
@@ -278,7 +278,7 @@ Chapters 6–12 need the Arc 2 sheets and keys in `ASSETS_ARC2_BRIEF.md` (Borro 
 
 ### Chapter 10: A Roof, Not a Garden (`scripts_v2/ch010.yaml`)
 
-**Chapter 10 rules:** Borro arrives: `borro/` sheets. He is 2.4 m: in the rooftop room (ceiling 2.2 m) he must stoop or sit; on the rooftop he is taller than the water tank (2 m); Jaeha reaches his chest. His husk face (a white oval with two small eye-holes, tied with cord) is on in public from P25. Field form: moss-green eyes and outline (P44–P57). P12 is the bed-crushing splash (the metal bed folds flat). P15 is Borro's name card (full figure, name-card gradient dark slate to moss green). The tower: `tower_gate/outside.png` and `key.png`; the long beam is 60 cm wide and the slabs either side are cracking away; the drop is several floors. Ash hounds: `ash_hound/` (hip-high); the alpha: `ash_hound/alpha.png` (chest-high). P37 is a three-way split `link-view`. Jaeha's RIGHT ankle bruise (P20–P21): long, thin, many-jointed finger marks.
+**Chapter 10 rules:** Borro arrives: `borro/` sheets. He is 2.4 m: in the rooftop room (ceiling 2.2 m) he must stoop or sit; on the rooftop he is taller than the water tank (2 m); Jaeha reaches his chest. His husk face (a white oval with two small eye-holes, tied with cord) is on in public from P25. Field form: moss-green eyes and outline (P44–P57). P12 is the bed-crushing splash (the metal bed folds flat). P15 is Borro's name card (full figure, name-card gradient dark slate to moss green). The tower: `tower_gate/outside.png` and `key.png`; the long beam is 60 cm wide and the slabs either side are cracking away; the drop is several floors. Ash hounds: `ash_hound/` (hip-high); the alpha: `ash_hound/alpha.png` (its shoulder level with a man's chin); attach `ash_hound/scale_card.png`. P37 is a three-way split `link-view`. Jaeha's RIGHT ankle bruise (P20–P21): long, thin, many-jointed finger marks.
 
 | Part | Panels to draw | Notes |
 |---|---|---|
