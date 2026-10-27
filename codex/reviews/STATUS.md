@@ -52,7 +52,7 @@ Verdicts for each entry are in this folder, one file per entry (`<entry>.md`). S
 | ch006 | chapter 6 | all parts reviewed: 57 of 60 **APPROVED** (`ch006.md`; Claude fixed seven); P41, P51, P54 to fix (job ch006-R1: Nib's size, P51's staging, the clasp's nine towers) |
 | ch008 | chapter 8 | all parts reviewed: 66 of 70 **APPROVED** (`ch008.md`; Claude fixed P07, P13, P14, P18, P28, P42, including the pier's yellow 7 in P13 and P14 for the chapter 22 plant); P49, P52, P54, P59 to fix (job ch008-R1: Nib's and the cast's sizes) |
 | ch009 | chapter 9 | parts A, C, E, F, G reviewed: 42 of 43 **APPROVED** (`ch009.md`; Claude fixed P09, P41, P49); P50 to redraw (job ch009-R1: the rifts a quarter size); parts B and D to draw |
-| ch010 | chapter 10 | parts A, C–G reviewed: 45 of 46 **APPROVED** (`ch010.md`; Claude fixed P20, P27, P41, P42: Nib's right-ear nicks and tooth flecks); P48 to redo (job ch010-R1: Nib twice his size beside the alpha); part B to draw; parts H and I being drawn by ch010-FI |
+| ch010 | chapter 10 | 49 of the 51 delivered images **APPROVED** (`ch010.md`; Claude fixed P09, P20, P27, P41, P42); P48 to redo (job ch010-R1: Nib twice his size); still to draw after the image reset: P10–P13 (part B), P56 redraw and P57–P61 (part H), part I |
 | ch007, ch011, ch012 | Arc 2 chapters (`PANEL_BRIEF_v2.md` section 9) | drawing / in review (ch007 review running; ch011 and ch012 to launch when image generation resets, 28 Oct 11:23 UTC) |
 | ch013 … ch040 | chapter parts | launch as their sheets are approved |
 
