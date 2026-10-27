@@ -8,7 +8,7 @@ Verdicts for each entry are in this folder, one file per entry (`<entry>.md`). S
 - **REDO**: see the entry's file for the redo prompt.
 - **APPROVED**: safe to build on.
 
-| Entry | What | State (27 Oct 2026, 21:45 Dubai) |
+| Entry | What | State (27 Oct 2026, 22:30 Dubai) |
 |---|---|---|
 | S1–S15, L1–L5 | Arc 1 sheets and keys (Jaeha, Nib, Yerin, Mok and Black Hound, husk, knight, lizards, Seoa, Bomi, Choi, Kett, silhouettes, scale chart, Lyra, Moon Ahin; the Arc 1 location keys) and the style tests | APPROVED; on `msgf-art` (laptop copy of 25 Oct) |
 | ch001 | chapter 1 | published (unlisted); the fixes P09, P21, P22 **APPROVED** (`ch001-FIX.md`), for the long-form |
@@ -49,7 +49,7 @@ Verdicts for each entry are in this folder, one file per entry (`<entry>.md`). S
 | S29 | Pim | `front.png` **APPROVED** (`S29.md`); the other five sheets to draw (job S29-B) |
 | S28 | the ch 35 flashback cast | to draw now (S24 is approved) |
 | S31 | Han Sora's pool look and new compass | drawing |
-| ch006 | chapter 6 | parts A–E: 40 of 41 **APPROVED** (`ch006.md`; Claude fixed six); P41 to edit (job ch006-R1); parts F and G drawing |
+| ch006 | chapter 6 | all parts reviewed: 57 of 60 **APPROVED** (`ch006.md`; Claude fixed seven); P41, P51, P54 to fix (job ch006-R1: Nib's size, P51's staging, the clasp's nine towers) |
 | ch007 … ch012 | Arc 2 chapters (`PANEL_BRIEF_v2.md` section 9) | drawing (ch007–ch010 running; ch010 F–I, ch011 and ch012 launching as the laptop frees up) |
 | ch013 … ch040 | chapter parts | launch as their sheets are approved |
 
