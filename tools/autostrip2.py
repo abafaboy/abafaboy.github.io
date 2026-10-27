@@ -240,8 +240,18 @@ def placeholder(pid, shape, art_text, path, chibi=False):
 
 
 def find_green(img_bgr):
+    """The art's chroma screen: near-pure #00FF00 (Codex snaps screens to it). Bright green clothing
+    (Yerin's cuffs and stripe, mint glows) is not a screen: the core must be strongly saturated, and the
+    looser edge pixels join the mask only where they touch that core (27 Oct: the old loose test painted
+    the highlight on Yerin's green cuff dark in ch002 P37 and P43)."""
     b, g, r = (img_bgr[:, :, i].astype(np.int32) for i in range(3))
-    mask = ((g > 140) & (g - np.maximum(r, b) > 70)).astype(np.uint8) * 255
+    core = ((g >= 200) & (r <= 80) & (b <= 80) & (g - np.maximum(r, b) >= 150)).astype(np.uint8) * 255
+    core = cv2.morphologyEx(core, cv2.MORPH_OPEN, np.ones((3, 3), np.uint8))
+    if cv2.countNonZero(core) < 900:
+        return None, None
+    loose = ((g > 140) & (g - np.maximum(r, b) > 70)).astype(np.uint8) * 255
+    near = cv2.dilate(core, np.ones((9, 9), np.uint8))
+    mask = cv2.bitwise_or(core, cv2.bitwise_and(loose, near))
     mask = cv2.morphologyEx(mask, cv2.MORPH_CLOSE, np.ones((5, 5), np.uint8))
     cnts, _ = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
     if not cnts:
