@@ -8,16 +8,16 @@ Verdicts for each entry are in this folder, one file per entry (`<entry>.md`). S
 - **REDO**: see the entry's file for the redo prompt.
 - **APPROVED**: safe to build on.
 
-| Entry | What | State (27 Oct 2026, 19:10 Dubai) |
+| Entry | What | State (27 Oct 2026, 21:45 Dubai) |
 |---|---|---|
 | S1–S15, L1–L5 | Arc 1 sheets and keys (Jaeha, Nib, Yerin, Mok and Black Hound, husk, knight, lizards, Seoa, Bomi, Choi, Kett, silhouettes, scale chart, Lyra, Moon Ahin; the Arc 1 location keys) and the style tests | APPROVED; on `msgf-art` (laptop copy of 25 Oct) |
 | ch001 | chapter 1 | published (unlisted); the fixes P09, P21, P22 **APPROVED** (`ch001-FIX.md`), for the long-form |
-| ch002 | chapter 2 | 59 of 60 **APPROVED**; P52 still too big after R5: edit job ch002-R6 (`ch002.md`) |
-| ch003 | chapter 3 | 59 of 62 **APPROVED** (Claude fixed P24, P50, P52); P33, P45, P49 to redraw (job ch003-R1, `ch003.md`) |
+| ch002 | chapter 2 | all 60 **APPROVED** (`ch002.md`; P52 fixed by R6); to letter, render and upload unlisted |
+| ch003 | chapter 3 | all 62 **APPROVED** (`ch003.md`; R1 redrew P33, P45, P49; Claude fixed P24, P45, P50, P52); to letter, render and upload unlisted |
 | ch004 | chapter 4 | 51 of the 52 images delivered so far **APPROVED** (`ch004.md`; Claude fixed P18, P38, P52); P03 to redraw (job ch004-R1); part D still drawing |
 | ch005 | chapter 5 | 58 of 59 **APPROVED** (`ch005.md`; Claude fixed eight); P35 to redraw (job ch005-R1: Jaeha mirrored) |
 | S2b | Nib's seal 2/5 look (chapters 3–20) | **APPROVED** 26 Oct (`S2b.md`); in `characters_v2/nib/` |
-| T1 | thumbnail key art (`THUMBNAIL_BRIEF.md`) | to draw now: S21 is approved |
+| T1 | thumbnail key art (`THUMBNAIL_BRIEF.md`) | first set drawn; the owner turned it down (Lyra not attractive enough, too dark). Redo T1-B (bright close-ups and a before/after, Lyra facing the viewer) to launch |
 | S16 | Borro | **APPROVED** (`S16.md`), all five sheets |
 | S17 | Director Baek | **APPROVED** (`S17.md`) |
 | S18 | the neighbours and Gomi | **APPROVED** (`S18.md`), with Claude's scale card |
