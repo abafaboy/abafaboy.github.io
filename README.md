@@ -37,7 +37,7 @@ Characters in `characters_v2/`: `kang_jaeha`, `nib`, `song_yerin`, `mok_hangyu`,
 | `chapters_v2/ch003/art/` | Chapter 3's panels: all 62 images | Approved (P33, P45, P49 redrawn by job ch003-R1; Claude fixed Nib's RIGHT ear and mask edge on P45; `codex/reviews/ch003.md`) |
 | `chapters_v2/ch004/art/` | Chapter 4's approved panels so far: 51 of parts A–C and E–H | P03 is being redrawn (job ch004-R1); part D is being drawn |
 | `chapters_v2/ch005/art/` | Chapter 5's approved panels: 58 of 59 | P35 is being redrawn (job ch005-R1) |
-| `chapters_v2/ch006/art/` | Chapter 6's approved panels so far: 40 of parts A–E | P41 is being fixed (job ch006-R1); parts F and G are being drawn |
+| `chapters_v2/ch006/art/` | Chapter 6's approved panels: 57 of 60 images | P41, P51 and P54 to be fixed (job ch006-R1, `codex/reviews/ch006.md`); P59 carries Claude's screen look |
 
 ## Sending new art back for review
 
