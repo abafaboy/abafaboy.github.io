@@ -225,7 +225,6 @@ panels:
     lines:
       - {who: nib, type: speech, text: "NO. NOT HIM. I WON'T.", side: r}
     sfx:
-      - {text: "SHAKE", style: quiet, at: [0.72, 0.20], size: S, rot: 0}
 
   - id: P12
     recipe: impact
@@ -279,7 +278,7 @@ panels:
     ui:
       - {kind: system.window, "on": float, at: [0.5, 0.05], headline: "[FIELD FORM ENDED]", body: "NIB HAS RETURNED TO REST FORM. COOLDOWN 01:00. A REST-FORM SUMMON CANNOT FIGHT.", button: "OK"}
     sfx:
-      - {text: "BZZT", style: alert, at: [0.86, 0.18], size: M, rot: 0}
+      - {text: "BZZT", style: alert, at: [0.70, 0.42], size: M, rot: 0}
 
   - id: P15
     recipe: talk
@@ -333,7 +332,6 @@ panels:
     calm: left
     silent: true
     sfx:
-      - {text: "BLINK", style: quiet, at: [0.30, 0.30], size: S, rot: 0}
 
   - id: P18
     kind: title
@@ -388,7 +386,7 @@ panels:
       for the letterer's note. No readable text.
     calm: none
     lines:
-      - {who: kang_jaeha, type: note, text: "PLATES IN FRONT OF THE ARCH: SPIKES FROM BOTH PILLARS. BIG CENTRE PLATE: THE PORTCULLIS."}
+      - {who: kang_jaeha, type: note, text: "BIG CENTRE PLATE UNDER THE ARCH: SPIKES FROM BOTH PILLARS, THEN THE PORTCULLIS."}
     sfx:
       - {text: "SCRITCH SCRITCH", style: quiet, at: [0.80, 0.24], size: S, rot: 0}
 
@@ -426,7 +424,7 @@ panels:
     eyeline: "Jaeha → the knight"
     calm: none
     lines:
-      - {who: kang_jaeha, type: inner, text: "IT ALWAYS HITS WHATEVER IS IN FRONT OF IT. SO I'LL BE IN FRONT."}
+      - {who: kang_jaeha, type: inner, text: "IT ALWAYS GOES FOR THE BRIGHTEST LIVING THING IN FRONT OF IT. SO I'LL BE IN FRONT."}
 
   - id: P24
     recipe: talk
@@ -589,7 +587,7 @@ panels:
       spikes.
     calm: top
     sfx:
-      - {text: "SHHNNNK", style: impact, at: [0.36, 0.22], size: XL, rot: -12}
+      - {text: "SHHNNNK", style: impact, at: [0.20, 0.10], size: L, rot: -8}
 
   - id: P33
     recipe: impact
@@ -659,7 +657,7 @@ panels:
       burst off the bars. Fill the canvas edge to edge. The top band of the image is plain dark stone, calm for a window.
     calm: top
     ui:
-      - {kind: system.notice_small, "on": float, at: [0.5, 0.30], text: "[COOLDOWN 00:41]"}
+      - {kind: system.notice_small, "on": float, at: [0.5, 0.30], text: "[COOLDOWN 00:12]"}
     sfx:
       - {text: "GRRRRK", style: impact, at: [0.70, 0.62], size: L, rot: 0}
 
@@ -678,7 +676,7 @@ panels:
       kang_jaeha: "flinching back half a step with both forearms raised in front of his face, eyes squeezed, a sweat drop"
     calm: top
     sfx:
-      - {text: "KLANNNG", style: impact, at: [0.40, 0.25], size: XL, rot: -8}
+      - {text: "KLANNNG", style: impact, at: [0.20, 0.88], size: L, rot: -6}
 
   - id: P38
     recipe: talk
@@ -697,7 +695,7 @@ panels:
     foreground: "two rusted portcullis bars, cropped, down the left side"
     calm: top
     lines:
-      - {who: kang_jaeha, type: shout, text: "YERIN! LIGHT UP YOUR HANDS AS BRIGHT AS YOU CAN, THEN HIDE!", side: l}
+      - {who: kang_jaeha, type: shout, text: "YERIN! LIGHT UP YOUR HANDS AS BRIGHT AS YOU CAN, THEN HIDE! KEEP IT BUSY TILL NIB'S BACK!", side: l}
 
   - id: P39
     recipe: impact
@@ -716,7 +714,7 @@ panels:
     eyeline: "Yerin → the knight"
     calm: top
     sfx:
-      - {text: "FWASHHH", style: impact, at: [0.60, 0.30], size: L, rot: -6}
+      - {text: "FWASHHH", style: summon, at: [0.84, 0.12], size: L, rot: -6}
 
   - id: P40
     recipe: impact
@@ -970,7 +968,7 @@ panels:
     eyeline: "Nib → the knight (off-panel)"
     calm: top
     sfx:
-      - {text: "VWOOOOSH", style: summon, at: [0.30, 0.14], size: XL, rot: -8}
+      - {text: "VWOOOOSH", style: summon, at: [0.30, 0.93], size: L, rot: -6}
 
   - id: P54
     recipe: impact
@@ -1026,7 +1024,6 @@ panels:
     lines:
       - {who: kang_jaeha, type: speech, text: "THAT'S ALL I NEED. HOLD HIM, AND I'LL FIND THE WAY.", side: r}
     sfx:
-      - {text: "NOD", style: quiet, at: [0.30, 0.72], size: S, rot: 0}
 
   # ================= THE KNIGHT SPEAKS (P57–P63) =================
   - id: P57

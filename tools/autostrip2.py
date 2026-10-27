@@ -638,7 +638,8 @@ TAIL_JS = r"""
     const M = [(Ae[0] + Be[0]) / 2, (Ae[1] + Be[1]) / 2];
     // a bubble in the side column beside an inset panel can sit far from its speaker: let its tail run on into the
     // panel until it nearly reaches the head the review located, so it never stops on someone else (ch001 P04)
-    const cap = (where === 'beside' && el.dataset.hx) ? 380 : (t === 'shout' ? 90 : 110);
+    // a gutter bubble aimed at a located head may run on into the panel too, so it never ends in the sky (judge, ch 3)
+    const cap = el.dataset.hx ? (where === 'beside' ? 380 : 230) : (t === 'shout' ? 90 : 110);
     let L = Math.max(30, Math.min(cap, dist - (cap > 110 ? 46 : 14)));
     while (L > 24 && inOther(r.left + M[0] + ux * L, r.top + M[1] + uy * L, idx)) L -= 6;
     const tip = [M[0] + ux * L, M[1] + uy * L];
@@ -1077,7 +1078,11 @@ def main():
         page.evaluate("document.fonts.ready")
         page.wait_for_timeout(150)
         meas = page.evaluate("""() => [...document.querySelectorAll('.m')].map(e => {
-            const r = e.getBoundingClientRect();
+            const r0 = e.getBoundingClientRect();
+            // a word longer than the box overflows it: measure the words' own extent, not the box's (judge, ch 2-3)
+            let L = r0.left, R = r0.right;
+            e.querySelectorAll('.w').forEach(w => { const q = w.getBoundingClientRect(); L = Math.min(L, q.left); R = Math.max(R, q.right); });
+            const r = {width: R - L, height: r0.height};
             const lines = []; let top = null, cur = [];
             e.querySelectorAll('.w').forEach(w => {
               const t = w.getBoundingClientRect().top;
