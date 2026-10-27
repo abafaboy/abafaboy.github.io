@@ -36,9 +36,10 @@ Crop each hand at 2x and count: five digits per hand, the thumb on the correct s
 18. `arms_relaxed.png`: a standing man's arms relaxed at his sides, front and side view, fingertips reaching mid-thigh (a length reference); third view: arms crossed over the chest.
 
 ## Files
+Two chats work in this folder at the same time, so each writes only its own files:
 - `characters_v2/hands/<name>.png` (exactly the names above).
-- `characters_v2/hands/prompts.json`: the exact prompt for every kept image and try.
-- `characters_v2/hands/INDEX.md`: one line per file: the pose, which characters it serves (Jaeha: 1, 2, 4, 5, 6, 12, 13; Nib: 3; Lyra: 8; Bomi: 5, 7, 8, 16; Sora: 9; Yerin: 7, 10, 14; Mok and Borro: 11, 17; Choi: 15), and how many tries it took.
+- `characters_v2/hands/prompts_H1A.json` or `prompts_H1B.json`: the exact prompt for every kept image and try.
+- `characters_v2/hands/INDEX_H1A.md` or `INDEX_H1B.md`: one line per file: the pose, which characters it serves (Jaeha: 1, 2, 4, 5, 6, 12, 13; Nib: 3; Lyra: 8; Bomi: 5, 7, 8, 16; Sora: 9; Yerin: 7, 10, 14; Mok and Borro: 11, 17; Choi: 15), and how many tries it took. Claude merges the two into `INDEX.md`.
 - `characters_v2/hands/DONE_H1A.md` or `DONE_H1B.md` when your half is finished. Then STOP.
 
 Rejects go to `characters_v2/_rejects/hands_<name>_<try>_<reason>.png`.
