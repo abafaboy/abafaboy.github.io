@@ -1,0 +1,158 @@
+{
+  "id": "han_sora",
+  "name": "Han Sora",
+  "entry": "S20",
+  "age": 27,
+  "height_cm": 168,
+  "head_count": 7.5,
+  "style": "V2 · Cinematic cel",
+  "canvas": {
+    "width": 1536,
+    "height": 1024,
+    "format": "PNG",
+    "background": "#E9E9EC",
+    "lighting": "Soft neutral upper-left key"
+  },
+  "design_source": "CHARACTER_DESIGNS_v2.md sections 2.16 and 8; ASSETS_ARC3_BRIEF.md S20; README_START_HERE.md 27 October overrides",
+  "identity_source": {
+    "file": "characters_v2/black_hound/lineup.png",
+    "character": "Hunter 5, sixth figure from left",
+    "approval": "reviews/STATUS.md: S1–S15 APPROVED",
+    "own_front_master": "front.png"
+  },
+  "palette": {
+    "hair": "#141418",
+    "lips": "#B3202A",
+    "black_hound_jacket": {
+      "base": "#16171B",
+      "shadow": "#0C0C0F"
+    },
+    "hound_emblem": "#B3241E",
+    "kanghan_jacket": "#3A3C42",
+    "kanghan_emblem": "silver",
+    "tank_trousers_boots": "matte black, matched to front.png",
+    "compass_case": "brass, matched to front.png",
+    "core_sliver": "#8F6FC4",
+    "background": "#E9E9EC"
+  },
+  "locks": [
+    "Heart-shaped adult face, sharp winged eyeliner, amused dark eyes and red lips",
+    "Sleek chin-length black bob; wet hair slicked straight back in Kanghan turnaround and details",
+    "Black Hound jacket: waist-cropped, open over fitted opaque low scoop black tank; small crimson hound on LEFT chest",
+    "Kanghan jacket: waist-cropped charcoal #3A3C42, open over same tank; silver double hexagon on LEFT shoulder",
+    "Brass core compass hangs on short chain round anatomical RIGHT wrist until ch31, glass face and smoky-violet sliver needle",
+    "Compact black repeating crossbow with short box magazine; separate heavy violet-tipped bolt",
+    "Fitted black tactical trousers, attached bolt holster, black boots",
+    "Approximately 7.5 adult heads with legs about half height; chibi sheet approximately 2.5 heads"
+  ],
+  "resolved_details": [
+    "RIGHT-thigh bolt holster follows the approved hunter-5 lineup; design leaves its side open",
+    "Black fingerless gloves, knee pads and plain combat boots follow the approved hunter-5 reference",
+    "Crossbow is held in front.png and stowed on a shoulder sling in turnarounds and chibi"
+  ],
+  "outfits": {
+    "default": "front.png and turnaround.png, Black Hound look ch1–21",
+    "kanghan": "turnaround_kanghan.png: wet hair, charcoal jacket, compass still present before ch31 loss",
+    "after_ch31": "Canon: compass shot off in ch31, RIGHT wrist bandaged from ch32. Apply this script change in panels; an additional post-loss turnaround was not requested."
+  },
+  "expressions_grid": [
+    [
+      "lazy delighted smile",
+      "wink",
+      "amused contempt",
+      "aiming along sights, one eye shut"
+    ],
+    [
+      "laughing with head back",
+      "rare serious",
+      "surprised",
+      "neutral observer"
+    ]
+  ],
+  "details_groups": [
+    "Brass compass on anatomical RIGHT wrist chain",
+    "Repeating black crossbow with attached short box magazine",
+    "Heavy violet-tipped bolt",
+    "Wet slicked-back chin-length hair, near-front and profile"
+  ],
+  "chibi": {
+    "head_count": 2.5,
+    "gag_poses": 8,
+    "outfit": "Black Hound",
+    "notes": "Compass partly occluded by hands in the laughing and stamping gags; visible locks elsewhere remain on the right."
+  },
+  "prompt_file": "prompts.json",
+  "files": [
+    {
+      "file": "front.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1365918,
+      "sha256": "71CE7C4A0DE3D67213E6066C62AF9CC0A86A2B6B7C82C6AE62D2235C7770004A"
+    },
+    {
+      "file": "turnaround.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1808826,
+      "sha256": "8DA27574C45A3C8776B641F8DCF426572E4317FA79AE4AA343CC28573872E4B3"
+    },
+    {
+      "file": "turnaround_kanghan.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1835467,
+      "sha256": "297B03FB514E089B85A520E9FA515A271C43FC8C2CD04E3BE3905D5C14540952"
+    },
+    {
+      "file": "expressions.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2150597,
+      "sha256": "04E64E3187F951B85EE944DBBC0B0DC1FD4C07BFDAB10ABEBF0EEAEE156B613D"
+    },
+    {
+      "file": "details.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1770631,
+      "sha256": "8D42FF682B569DBCFEA0B88BDF4A7CB01198C2EA4F42644D51D156226C9F15C8"
+    },
+    {
+      "file": "chibi.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1969992,
+      "sha256": "95D14C6696239344523555FC2AC06F5AAE31F588C6ED4BFBC5EE23ECA01B7636"
+    }
+  ],
+  "qa": {
+    "reviewer": "Codex S20 local check; Claude approval remains pending",
+    "full_size": true,
+    "thumbnail_width_px": 200,
+    "inspection_zoom_percent": 200,
+    "ordinary_files": true,
+    "byte_identical_to_generator": true,
+    "scale_silhouettes": false,
+    "text_observed": false,
+    "extra_project_previews": false,
+    "missing_deliverables": [],
+    "attempts": {
+      "front": 1,
+      "turnaround": 2,
+      "turnaround_kanghan": 1,
+      "expressions": 1,
+      "details": 2,
+      "chibi": 1
+    },
+    "reject_count": 2,
+    "disk_checks_before_every_image_call": true,
+    "min_free_bytes_before_image": 39571677184,
+    "stop_threshold_bytes": 3221225472,
+    "uncertainties": [
+      "Compass is partly occluded in two overlapping-hand chibi gags; use front.png and details.png for exact wrist continuity.",
+      "Very faint neutral-background tone variation is permitted by the 27 October override."
+    ]
+  },
+  "workflow": "Built-in image_gen.imagegen. Native PNG originals copied with Copy-Item, never linked, resized or re-encoded. QA previews were memory-only. No writes outside characters_v2/han_sora/ and S20-named rejects in characters_v2/_rejects/."
+}

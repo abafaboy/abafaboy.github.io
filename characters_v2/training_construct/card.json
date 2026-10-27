@@ -1,0 +1,57 @@
+{
+  "id": "training_construct",
+  "entry": "M5",
+  "name": "The Association's training construct",
+  "chapters": [
+    13
+  ],
+  "height": {
+    "value": 4,
+    "unit": "m"
+  },
+  "design_source": "CHARACTER_DESIGNS_v2.md section 2.18",
+  "brief_source": "ASSETS_ARC3_BRIEF.md entry M5; MODEL_SHEETS_BRIEF.md sections 1-3; README_START_HERE.md changes on 27 October",
+  "appearance": "A heavy stone figure of grey granite blocks bound with brass bands, a blank rounded head, pillar arms, and a small amber test core behind a brass chest grille. It moves on rails of light in the floor.",
+  "palette": {
+    "note": "The written design specifies grey granite, brass and amber without hex codes; these are the rendering choices recorded by this set.",
+    "background": "#E9E9EC",
+    "granite_base": "#858B91",
+    "granite_shadow": "#5F666E",
+    "brass_base": "#B29658",
+    "brass_shadow": "#7D683C",
+    "amber_test_core": "#D5AF67",
+    "rail_light": "#F2E7CE"
+  },
+  "locks": [
+    "4 m tall; Jaeha reaches its hip. The scale relationship is recorded here; no scale silhouette appears in the art.",
+    "Blank rounded granite head with no face, eyes, mouth, horns or helmet.",
+    "Broad block chest, pillar-like arms, heavy stone legs with an open walk-through gap, broad stone feet.",
+    "Brass retaining bands wrap and bind the blocks; thigh/knee bands and short connecting braces provide climbing footholds.",
+    "One small amber test core recessed behind a simple cross-shaped brass grille in a square riveted frame at mid chest.",
+    "No second chest core on the back.",
+    "Light rails run under the feet; details.png documents the track light.",
+    "Matte hand-inked granite, clean cool cel shadows, restrained brass highlights.",
+    "No text, labels, logos, scale figures or scene elements on sheets."
+  ],
+  "files": {
+    "front.png": "Single full-height front design reference, accepted local QA on attempt 2.",
+    "turnaround.png": "Front, front three-quarter, left-facing profile, back; common scale and baseline.",
+    "details.png": "Knee/thigh brass bands, amber test core behind its brass grille, and lower shins/feet on rails of light.",
+    "prompts.json": "Exact built-in tool prompts, reference images, sources, results, disk checks and reject reason.",
+    "DONE.md": "Completion and review notes."
+  },
+  "prompt_file": "prompts.json",
+  "reference_image": "front.png",
+  "method": "Built-in image_gen.imagegen; native generator PNGs copied byte-for-byte without retouching or resizing.",
+  "dimensions_px": {
+    "width": 1536,
+    "height": 1024
+  },
+  "review_status": "Local self-check passed; awaits Claude review. This card does not change reviews/STATUS.md.",
+  "rejects": [
+    {
+      "path": "../_rejects/training_construct_front_a01_rendered_stone.png",
+      "reason": "Rendered mottling and bevelled stone planes looked too 3D."
+    }
+  ]
+}

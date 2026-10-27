@@ -13,7 +13,9 @@ Use these as references for every new image. Codex drew all of them with its bui
 | `style_test_v2/acting/` | The style and acting tests: the house style (line, colour, rendering, acting) | Approved, the style anchor |
 | `characters_v2/<id>/` | The Arc 1 character sheets: `front.png`, `turnaround.png`, `expressions.png`, `details.png`, and where they exist `acting.png`, `talking.png`, `chibi.png` | Approved |
 | `characters_v2/nib/*_seal2*` | Nib's seal 2/5 look (S2b, approved 26 Oct): `front_seal2_nomask.png`, `turnaround_seal2.png` (with the mask), `details_seal2.png`. Chapters 3 to 20 use these (he wears the seal 3/5 armour from chapter 21); his face and acting still come from his base `expressions.png` and `acting.png`, his height from the scale chart | Approved |
-| `characters_v2/borro/front.png`, `characters_v2/baek_taegun/` | Borro's front (S16) and Director Baek's sheets (S17), approved 27 Oct | Approved |
+| `characters_v2/borro/`, `characters_v2/baek_taegun/` | Borro (S16, all five sheets) and Director Baek (S17), approved 27 Oct | Approved |
+| Arc 2 sheets | `neighbourhood` (S18), `ahin_husk` (S19), `ash_rat` (M1, with the redrawn swarm), `drowned_hound` (M2), `ash_hound` (M3), `marsh_serpent` (M4), approved 27 Oct. Creatures carry Claude's `scale_card.png` (beside the standard 178 cm man) | Approved |
+| Arcs 3–4 sheets | `han_sora` (S20), Nib's seal 3/5 armour `nib/*_seal3*` (S21), `oh_minseok` (S22), `training_construct` (M5), `basalt_boar` (M6), `bell_ringer` (M7), approved 27 Oct, with Claude's scale cards for Sora and the three monsters | Approved |
 | `locations_v2/` new keys | Arc 2 keys approved 27 Oct: `sewer_gate`, `survey_gate`, `hanriver_gate`, `carpark_gate`, `call_void`, `tower_gate` (key only), `mangwon_market`, `fish_market`, `kanghan_office`, `bomi_room` (outside), `kanghan_guild_hall`, `rooftop_room/stairs_night.png` | Approved |
 | `deliveries/<entry>/` | Every reviewed delivery exactly as it came in, with its rejects and notes (provenance only; build on the approved copies) | Archive |
 | `characters_v2/scale_chart_v2.png` | Everyone's height side by side | Approved |
@@ -28,8 +30,9 @@ Characters in `characters_v2/`: `kang_jaeha`, `nib`, `song_yerin`, `mok_hangyu`,
 
 | Folder | What | Status |
 |---|---|---|
-| `chapters_v2/ch001/art/` | Chapter 1's panels (P08, P25 and P59 are text panels with no art) | Published as an unlisted video. P09 redrawn and approved 27 Oct; P21 and P22 still to redraw (`codex/CH001_FIXES.md`); the old versions are still here until then |
-| `chapters_v2/ch002/art/` | Chapter 2's approved panels (39 of 60; the laptop kept many more than the five first copied, which were the only files not hard-linked) | Approved 27 Oct, P20 to be edited; the rest to draw: `codex/reviews/ch002.md` |
+| `chapters_v2/ch001/art/` | Chapter 1's panels (P08, P25 and P59 are text panels with no art) | Published as an unlisted video. P09, P21 and P22 redrawn and approved 27 Oct (`codex/reviews/ch001-FIX.md`), for the long-form |
+| `chapters_v2/ch002/art/` | Chapter 2's approved panels: 59 of 60 | P52 is being fixed (job ch002-R6, `codex/reviews/ch002.md`) |
+| `chapters_v2/ch003/art/` | Chapter 3's approved panels: 59 of 62 | P33, P45 and P49 are being redrawn (job ch003-R1, `codex/reviews/ch003.md`) |
 
 ## Sending new art back for review
 

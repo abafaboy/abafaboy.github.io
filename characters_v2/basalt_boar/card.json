@@ -1,0 +1,105 @@
+{
+  "id": "basalt_boar",
+  "name": "The basalt boar",
+  "entry": "M6",
+  "chapter": 15,
+  "height": {
+    "shoulder_m": 2.5,
+    "length_m": 5
+  },
+  "palette": {
+    "basalt": "black; muted cool charcoal",
+    "bristles": "coarse near-black",
+    "tusks": "glassy black obsidian",
+    "eyes": "small red-brown",
+    "hush_core": "#1A1026",
+    "hush_ash": "#6B4C9A",
+    "sheet_background": "#E9E9EC"
+  },
+  "locks": [
+    "Adult boar anatomy, four legs and cloven hooves; truck-sized silhouette.",
+    "Rough broken-paving basalt slabs and coarse dark bristles between them; matte stone, no low-poly bevels.",
+    "Exactly two curved glassy black obsidian tusks.",
+    "Small red-brown eyes.",
+    "Small violet Hush crack on the brow; never a face-hole.",
+    "Charges in a straight line, head lowers three strides before impact.",
+    "No scale figure on sheets; charge scene includes a generic 178 cm adult silhouette at consistent perspective."
+  ],
+  "prompt_file": "prompts.json",
+  "rendering": "V2 Cinematic cel",
+  "reference_policy": "Front generated first, checked, then first reference for all subsequent M6 outputs.",
+  "status": "complete_with_documented_turnaround_fault",
+  "review_notes": [
+    "Turnaround reached the five-try limit. Kept attempt 4 under the normal filename: four views on one baseline, correct native dimensions and coherent design. Its side profile is still too short, approximately 1.6–1.7:1 length to shoulder height instead of the required 2:1, and the sheet has large vertical blank margins. This is not a clean proportion pass.",
+    "The front anchor is near-frontal. Charge shows the lowered-head tell and an in-scene generic 178 cm silhouette; exact temporal three-stride timing is not independently measurable from one unlettered still.",
+    "Charge was generated while turnaround candidate 2 was provisionally checked for design. Its exact reference hash is logged; that candidate was later archived for its two-row layout. No rejected image was used in a later call.",
+    "Claude's review-board approval is pending; this chat did not edit reviews/STATUS.md."
+  ],
+  "kept_pngs": [
+    {
+      "file": "front.png",
+      "status": "kept",
+      "bytes": 1613791,
+      "width": 1536,
+      "height": 1024,
+      "png_signature": "89504e470d0a1a0a",
+      "ordinary_file": true,
+      "link_count": 1,
+      "sha256": "c796b6599ae4ff51e86696bda01ab8a68c94fbccbcf33c5df13453a69d684cf7",
+      "identical_to_generator": true
+    },
+    {
+      "file": "details.png",
+      "status": "kept",
+      "bytes": 1803299,
+      "width": 1536,
+      "height": 1024,
+      "png_signature": "89504e470d0a1a0a",
+      "ordinary_file": true,
+      "link_count": 1,
+      "sha256": "e208770740b364e274b34365e1448ed3ba5097a59ed8d1a0f8eeb42d9c1e631f",
+      "identical_to_generator": true
+    },
+    {
+      "file": "charge.png",
+      "status": "kept",
+      "bytes": 2155169,
+      "width": 1536,
+      "height": 1024,
+      "png_signature": "89504e470d0a1a0a",
+      "ordinary_file": true,
+      "link_count": 1,
+      "sha256": "9a513d15bc3fa5bf70a86c143699dffa615985f44a97dfdd95415c4a7fc2584e",
+      "identical_to_generator": true
+    },
+    {
+      "file": "turnaround.png",
+      "status": "kept_best_after_five",
+      "bytes": 1742805,
+      "width": 1536,
+      "height": 1024,
+      "png_signature": "89504e470d0a1a0a",
+      "ordinary_file": true,
+      "link_count": 1,
+      "sha256": "4ba10e326c77258e64e40f64e0bb5a8c2731677caea9613f7542e3bff288198b",
+      "identical_to_generator": true
+    }
+  ],
+  "verification": {
+    "all_kept_native_1536x1024_png": true,
+    "all_kept_and_rejects_sha256_match_generator": true,
+    "all_ordinary_files_link_count_one": true,
+    "qa_preview_files_created_in_project": 0,
+    "qa": "Native-size inspection, in-memory 200 px thumbnails and in-memory 200% inspection crops. No delivered image resizing, re-encoding or retouching.",
+    "image_calls": 13,
+    "rejects": 9,
+    "attempts": {
+      "front": 4,
+      "turnaround": 5,
+      "details": 1,
+      "charge": 3
+    },
+    "space_checks": "Get-PSDrive C before all 13 image calls; minimum observed 36.839 GiB; no check below 3 GiB.",
+    "wrong_size_reject": "Turnaround attempt 5 is native 2172x724, saved unchanged as a reject."
+  }
+}
