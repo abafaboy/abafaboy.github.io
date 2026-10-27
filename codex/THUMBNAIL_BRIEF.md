@@ -29,3 +29,62 @@
 
 ## Check each image before keeping it
 `MANHWA_STYLE_GUIDE.md` section 11, plus: the locks above; both faces readable at 320 px; nothing important in the top-left third or in the top and bottom 80 px; no text; no compressed or stunted bodies.
+
+## Redo T1-B (27 October 2026, evening): the owner's verdict on the first set
+**Verdict:** the owner did not like the first set (`T1_summoned_*`, `T1_smug_*`, `T1_before_after_*`). His reasons: **Lyra is not attractive enough**, and the images are **too dark and dull**. He chose **a big close-up**, and **a before/after with words**. Claude adds the words afterwards.
+
+Leave the first set where it is: do not move, rename or delete any of its files.
+
+**What changes.** Everything above still holds (the locks, no text, the 16:9 safe area, YouTube's limit, the proportions), except:
+- **Bright, saturated light.** No night, no dark cavern, no navy murk.
+  - Clean, bright daylight on every face from the front, and a strong cool rim light from behind.
+  - A luminous background: a vivid blue sky with sunbeams, glittering river light and spray, or a white-gold burst of summoning light.
+  - Saturated colour like the recap channels: Jaeha's orange against Lyra's river blue and a bright sky.
+- **Lyra, as beautiful as a hit webtoon's heroine on its cover.** Her face is the star of the image:
+  - large, luminous river-blue almond eyes with bright catchlights and long dark lashes;
+  - a small straight nose; soft, full pink lips with a glossy highlight, in a smug, teasing half-smile (or a wink);
+  - an elegant oval face with high cheekbones and a delicate jaw, and smooth, flawless skin;
+  - her canon pale skin with its cool tint, lit so it glows like porcelain, with a soft pink blush across her cheeks and nose. Never grey, ashen or dull (the first set made her look grey), and never warm or tanned;
+  - shining silver-white hair with loose strands lifting in the wind; the beaded braid over her LEFT shoulder; the faint silver freckles; the silver cuffs on her small pointed ears; the pearl choker;
+  - her outfit exactly as on her approved front: the cropped river-blue halter top with the deep silver-trimmed neckline, her bare shoulders, arms and midriff, and the navy chest guard over the left side of her chest. It shows as it is wherever the framing includes it, but the composition centres on her face: no close-up of her chest and no pose that pushes it out.
+- **Big faces.** In every image each main face (crown to chin) is at least 230 px tall, and Lyra's face is never smaller than Jaeha's. Shrunk to 320 px wide, both faces and both expressions read at once.
+- **References, in this order:**
+  1. `characters_v2/lyra/front.png`;
+  2. `characters_v2/lyra/expressions.png`;
+  3. `characters_v2/kang_jaeha/front.png`;
+  4. `characters_v2/kang_jaeha/expressions.png`;
+  5. for the before/after only, `characters_v2/nib/turnaround_seal3.png`.
+
+  Never pass an image from the first set.
+
+### Variant 4: `closeup` (three keepers, one per staging)
+Chest-up, the camera at their eye level, the two of them filling the frame.
+- **Lyra** is in the middle, a little closer to the camera than Jaeha:
+  - her face centred about 45% of the way across, its crown about 180 px from the top;
+  - looking straight at the viewer, chin up, with the smug, teasing half-smile.
+- **Jaeha** is at the right, his face as large as hers:
+  - flustered and panicking: wide eyes with white around the irises, sweat drops, a nervous grin and a blush, leaning away from her;
+  - the orange vest with the small T patch on his right chest, the grey hoodie, the fringe over his LEFT eye, and the yellow pencil behind his RIGHT ear.
+- **The top-left corner** (the left third of the width, the top third of the height) stays plain bright sky: no face, hand, bow or weapon. Claude puts a word and an arrow there.
+- **The three stagings:**
+  1. `T1B_closeup_1`: she props her LEFT elbow on his shoulder like an armrest, with her chin on her left hand (the silver bracer shows on that forearm), and holds the white bow upright in her gloved RIGHT hand at picture-left, its top no higher than her eyes.
+  2. `T1B_closeup_2`: she pinches his cheek with her LEFT hand and winks at the viewer. The bow is slung across her back.
+  3. `T1B_closeup_3`: her LEFT arm is hooked round his neck, pulling him close, her cheek near his. She smirks at the viewer while he panics. The bow is slung across her back.
+
+### Variant 5: `before_after` (two keepers)
+One frame, split by a jagged diagonal of light from the top (about 55% of the way across) to the bottom (about 45% across).
+- **BEFORE, the left part:** greyed out and desaturated, like a dull rainy evening.
+  - Jaeha alone, chest-up and large, as the F-rank bait: frightened, sweating, eyes wide.
+  - A hunter's gloved hand on his shoulder shoves him forward (only the hand and sleeve are drawn).
+  - The chalk box is clutched under his arm, and his vest is a dull, faded orange.
+- **AFTER, the right part:** blazing bright and saturated.
+  - Jaeha is confident, with a calm small smile and sharp eyes.
+  - Lyra stands beside him at picture-right, leaning on his shoulder, with the smug half-smile and her bow, every lock on the right side.
+  - Nib is in the lower foreground, in his seal 3/5 armour, with both knives out and a scowl. He is smaller: if they stood together, his head would be at Jaeha's belt.
+- **The words.** Claude puts BEFORE at the top of the left part and AFTER at the top of the right part. Keep the top 300 px of the whole frame free of faces, hands and weapons: only sky, haze or light there. Every face starts below that.
+
+### Files and limits (T1-B)
+- **Keepers:** `thumbnails_v2/T1B_closeup_1.png`, `_2.png` and `_3.png`, and `thumbnails_v2/T1B_before_after_1.png` and `_2.png`, each 1536×1024.
+- **Tries:** up to five for each keeper. Rejects go to `thumbnails_v2/_rejects/T1B_<variant>_<n>_try<k>.png`.
+- **Logs:** the exact prompt and references for every image in `thumbnails_v2/prompts_T1B.json`. Then `thumbnails_v2/DONE_T1B.md`, listing each keeper and anything you are unsure of. Then stop.
+- **Check each image before keeping it:** `MANHWA_STYLE_GUIDE.md` section 11, the locks, the face sizes, bright and saturated (never a dark image), the calm corner or top band, and no text.
