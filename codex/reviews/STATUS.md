@@ -8,24 +8,30 @@ Verdicts for each entry are in this folder, one file per entry (`<entry>.md`). S
 - **REDO**: see the entry's file for the redo prompt.
 - **APPROVED**: safe to build on.
 
-| Entry | What | State (27 Oct 2026, 17:00 Dubai) |
+| Entry | What | State (27 Oct 2026, 21:00 Dubai) |
 |---|---|---|
 | S1–S15, L1–L5 | Arc 1 sheets and keys (Jaeha, Nib, Yerin, Mok and Black Hound, husk, knight, lizards, Seoa, Bomi, Choi, Kett, silhouettes, scale chart, Lyra, Moon Ahin; the Arc 1 location keys) and the style tests | APPROVED; on `msgf-art` (laptop copy of 25 Oct) |
-| ch001 | chapter 1 | published (unlisted); P09, P21, P22 to redraw |
-| ch001-FIX | chapter 1's three fixes (`CH001_FIXES.md`) | P09 **APPROVED** (the laptop's redraw); P21 and P22 to draw (`ch001-FIX.md`) |
-| ch002 | chapter 2 | 39 of 60 **APPROVED**; P20 edit, P04 and P45 redraw, 19 to draw in jobs R1-R4 (`ch002.md`) |
-| S2b | Nib's seal 2/5 look (chapters 3–20) | **APPROVED** 26 Oct (Claude cleaned two things, see `S2b.md`); in `characters_v2/nib/` on `msgf-art` |
+| ch001 | chapter 1 | published (unlisted); the fixes P09, P21, P22 **APPROVED** (`ch001-FIX.md`), for the long-form |
+| ch002 | chapter 2 | 59 of 60 **APPROVED**; P52 to redraw (job ch002-R5, `ch002.md`) |
+| ch003 | chapter 3 | drawing (parts A–E, G, H delivered; F drawing); Claude reviewing |
+| ch004, ch005 | chapters 4 and 5 | drawing (parts A–H each) |
+| S2b | Nib's seal 2/5 look (chapters 3–20) | **APPROVED** 26 Oct (`S2b.md`); in `characters_v2/nib/` |
 | T1 | thumbnail key art (`THUMBNAIL_BRIEF.md`) | to draw LAST, after S21 is approved (it needs Nib's seal 3/5 sheet) |
-| S16 | Borro | front **APPROVED** (`S16.md`); turnaround, expressions, details, chibi to draw (S16-B) |
+| S16 | Borro | **APPROVED** (`S16.md`), all five sheets |
 | S17 | Director Baek | **APPROVED** (`S17.md`) |
-| S18, S19 | the neighbours; Moon Ahin's husks | to draw |
-| M1 | ash rats | REDO (`M1.md`) |
-| M2–M4 | drowned hound, ash hounds, marsh serpent | to draw |
+| S18 | the neighbours and Gomi | **APPROVED** (`S18.md`), with Claude's scale card |
+| S19 | Moon Ahin's husks | **APPROVED** (`S19.md`); the formation is a pose reference only |
+| M1 | ash rats and the swarm mother | **APPROVED** except `swarm.png` (redraw, job M1-B, `M1.md`) |
+| M2 | the drowned hound | **APPROVED** (`M2.md`), about 3 m long as drawn |
+| M3 | ash hounds and the alpha | **APPROVED** (`M3.md`); the alpha's shoulder is level with a man's chin |
+| M4 | the marsh serpent | **APPROVED** (`M4.md`) |
 | L6, L7, L9, L10 | sewer and survey gates; Han River and car park; Mangwon and the fish market; Baek's office | **APPROVED** |
-| L8 | the Call; the tower gate | key and tower interior **APPROVED**; tower exterior REDO (`L8.md`) |
-| L11 | Bomi's restaurant; the guild hall | **APPROVED**; Bomi's interior to draw (`L11.md`) |
-| L12 | extra views | stairs_night **APPROVED**; four views to draw (`L12.md`) |
+| L8 | the Call; the tower gate | **APPROVED** (`L8.md`); the tower is 11 storeys, the gate on the sixth floor |
+| L11 | Bomi's restaurant and room; the guild hall | **APPROVED** (`L11.md`) |
+| L12 | extra views | **APPROVED** (`L12.md`), all five |
 | S20–S25, M5–M9, L13–L20, P1 | Arcs 3–4 sheets, keys and props (`ASSETS_ARC3_BRIEF.md`) | to draw |
 | S26–S31, M10–M12, L21–L24, P2 | Arc 5 sheets, keys and props (`ASSETS_ARC5_BRIEF.md`) | to draw (Wave C) |
-| ch003 … ch005 | chapter parts | ready to draw: every sheet they need is approved |
-| ch006 … ch040 | chapter parts (`PANEL_BRIEF_v2.md` section 9) | wait for their sheets |
+| ch006 … ch012 | Arc 2 chapters (`PANEL_BRIEF_v2.md` section 9) | ready to draw: their sheets are approved (swarms from the rat sheets until M1-B lands) |
+| ch013 … ch040 | chapter parts | wait for their sheets |
+
+Scale cards: from 27 October the sheets carry no silhouette. Claude adds `scale_card.png` (the creature beside the standard 178 cm man on one baseline) to `ash_rat/`, `ash_hound/`, `drowned_hound/`, `neighbourhood/` (Gomi with Nib and the landlady) and `ahin_husk/`.

@@ -8,6 +8,8 @@ Claude opens these on the owner's computer, one NEW chat per entry, in the proje
 4. **T1 (the thumbnail) last,** once S21 (Nib's seal 3/5) is approved (decided 26 October; see `HANDOFF_ABAFADOT.md`).
 5. **Chapter parts:** a chapter's parts open only when every sheet and key its rules name is APPROVED (`PANEL_BRIEF_v2.md` section 9). Use the chapter-part template at the end.
 
+**From 27 October** every prompt below is launched with two additions: "Read README_START_HERE.md in this folder (its 27 October changes first)" in place of the first sentence, and, before "Do not stop to ask anything", this disk and file clause: "Disk space on this computer is tight: before each image call check the free space on C: (Get-PSDrive C); if it is below 3 GB, stop drawing, write your DONE file listing what is left, and stop. Save every kept PNG and every reject as an ordinary file, never a hard link or a shortcut, and keep no extra previews or temporary images in the project folder."
+
 Check each chat's first image before opening more of the same kind. Review every finished sheet strictly (proportions and scale per `PANEL_BRIEF_v2.md` 4b) before any chapter uses it.
 
 ## Thumbnail (last: after S21, Nib's seal 3/5, is approved)
