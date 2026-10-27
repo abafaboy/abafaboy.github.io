@@ -8,13 +8,13 @@ Verdicts for each entry are in this folder, one file per entry (`<entry>.md`). S
 - **REDO**: see the entry's file for the redo prompt.
 - **APPROVED**: safe to build on.
 
-| Entry | What | State (27 Oct 2026, 21:00 Dubai) |
+| Entry | What | State (27 Oct 2026, 22:00 Dubai) |
 |---|---|---|
 | S1–S15, L1–L5 | Arc 1 sheets and keys (Jaeha, Nib, Yerin, Mok and Black Hound, husk, knight, lizards, Seoa, Bomi, Choi, Kett, silhouettes, scale chart, Lyra, Moon Ahin; the Arc 1 location keys) and the style tests | APPROVED; on `msgf-art` (laptop copy of 25 Oct) |
 | ch001 | chapter 1 | published (unlisted); the fixes P09, P21, P22 **APPROVED** (`ch001-FIX.md`), for the long-form |
 | ch002 | chapter 2 | 59 of 60 **APPROVED**; P52 to redraw (job ch002-R5, `ch002.md`) |
-| ch003 | chapter 3 | drawing (parts A–E, G, H delivered; F drawing); Claude reviewing |
-| ch004, ch005 | chapters 4 and 5 | drawing (parts A–H each) |
+| ch003 | chapter 3 | 59 of 62 **APPROVED** (Claude fixed P24, P50, P52); P33, P45, P49 to redraw (job ch003-R1, `ch003.md`) |
+| ch004, ch005 | chapters 4 and 5 | drawing (parts A–H each, launched 27 Oct evening) |
 | S2b | Nib's seal 2/5 look (chapters 3–20) | **APPROVED** 26 Oct (`S2b.md`); in `characters_v2/nib/` |
 | T1 | thumbnail key art (`THUMBNAIL_BRIEF.md`) | to draw LAST, after S21 is approved (it needs Nib's seal 3/5 sheet) |
 | S16 | Borro | **APPROVED** (`S16.md`), all five sheets |
@@ -29,9 +29,9 @@ Verdicts for each entry are in this folder, one file per entry (`<entry>.md`). S
 | L8 | the Call; the tower gate | **APPROVED** (`L8.md`); the tower is 11 storeys, the gate on the sixth floor |
 | L11 | Bomi's restaurant and room; the guild hall | **APPROVED** (`L11.md`) |
 | L12 | extra views | **APPROVED** (`L12.md`), all five |
-| S20–S25, M5–M9, L13–L20, P1 | Arcs 3–4 sheets, keys and props (`ASSETS_ARC3_BRIEF.md`) | to draw |
-| S26–S31, M10–M12, L21–L24, P2 | Arc 5 sheets, keys and props (`ASSETS_ARC5_BRIEF.md`) | to draw (Wave C) |
-| ch006 … ch012 | Arc 2 chapters (`PANEL_BRIEF_v2.md` section 9) | ready to draw: their sheets are approved (swarms from the rat sheets until M1-B lands) |
+| S20–S25, M5–M9, L13–L20, P1 | Arcs 3–4 sheets, keys and props (`ASSETS_ARC3_BRIEF.md`) | drawing (all launched 27 Oct evening) |
+| S26–S31, M10–M12, L21–L24, P2 | Arc 5 sheets, keys and props (`ASSETS_ARC5_BRIEF.md`) | drawing (all but S28 and S31, which wait for S24 and S20) |
+| ch006 … ch012 | Arc 2 chapters (`PANEL_BRIEF_v2.md` section 9) | ch006 A–D drawing; the rest launching as the laptop frees up (their sheets are approved; swarms from the rat sheets until M1-B lands) |
 | ch013 … ch040 | chapter parts | wait for their sheets |
 
 Scale cards: from 27 October the sheets carry no silhouette. Claude adds `scale_card.png` (the creature beside the standard 178 cm man on one baseline) to `ash_rat/`, `ash_hound/`, `drowned_hound/`, `neighbourhood/` (Gomi with Nib and the landlady) and `ahin_husk/`.
