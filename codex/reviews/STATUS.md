@@ -41,9 +41,15 @@ Verdicts for each entry are in this folder, one file per entry (`<entry>.md`). S
 | M8 | canyon wyverns | **APPROVED** (`M8.md`); wingspan now about 2.5 m as drawn; flocks loose, never in rows |
 | M9 | the Hushed Tide Warden | **APPROVED** (`M9.md`), 30 m standing, with Claude's scale card; only his LEFT eye opens (ch 27) |
 | P1 | the Arcs 3–4 props sheet | **APPROVED** (`P1.md`) |
-| L13–L20 | the Arcs 3–4 location keys (`ASSETS_ARC3_BRIEF.md`) | delivered; Claude reviewing |
-| S26–S31, M10–M12, L21–L24, P2 | Arc 5 sheets, keys and props (`ASSETS_ARC5_BRIEF.md`) | drawing (S31 launching now that S20 is approved; S28 waits for S24) |
-| ch006 … ch012 | Arc 2 chapters (`PANEL_BRIEF_v2.md` section 9) | ch006 A–D drawing; the rest launching as the laptop frees up (all their sheets are approved, the swarm too) |
+| L13–L20 | the Arcs 3–4 location keys (`ASSETS_ARC3_BRIEF.md`) | **APPROVED** (`L13.md`–`L20.md`), except `dam_gate/key.png` (redraw, job L15-B) and `farm_pit/key.png` and `alarm.png` (redraw, job L19-B); the flashback door is now about 4.7 m as drawn |
+| S26, S27, S30 | Jaeha's training look; the Arc 5 cast lineup; the beach looks | **APPROVED** (`S26.md`, `S27.md`, `S30.md`); Claude fixed Jaeha's splint hand and the lineup's two badges |
+| M10, M11, M12 | brine crawlers; the Reef Hermit; the Deep Lantern | **APPROVED** (`M10.md`–`M12.md`), with Claude's scale cards |
+| L21–L24, P2 | the Busan keys; the Arc 5 props | **APPROVED** (`L21.md`–`L24.md`, `P2.md`); Claude snapped screens to #00FF00 |
+| S29 | Pim | `front.png` **APPROVED** (`S29.md`); the other five sheets to draw (job S29-B) |
+| S28 | the ch 35 flashback cast | to draw now (S24 is approved) |
+| S31 | Han Sora's pool look and new compass | drawing |
+| ch006 | chapter 6 | parts A–E: 40 of 41 **APPROVED** (`ch006.md`; Claude fixed six); P41 to edit (job ch006-R1); parts F and G drawing |
+| ch007 … ch012 | Arc 2 chapters (`PANEL_BRIEF_v2.md` section 9) | drawing (ch007–ch010 running; ch010 F–I, ch011 and ch012 launching as the laptop frees up) |
 | ch013 … ch040 | chapter parts | launch as their sheets are approved |
 
-Scale cards: from 27 October the sheets carry no silhouette. Claude adds `scale_card.png` (the creature beside the standard 178 cm man on one baseline) to `ash_rat/`, `ash_hound/`, `drowned_hound/`, `neighbourhood/` (Gomi with Nib and the landlady), `ahin_husk/`, `han_sora/`, `training_construct/`, `basalt_boar/`, `bell_ringer/`, `geum_okran/`, `canyon_wyvern/` and `tide_warden/`.
+Scale cards: from 27 October the sheets carry no silhouette. Claude adds `scale_card.png` (the creature beside the standard 178 cm man on one baseline) to `ash_rat/`, `ash_hound/`, `drowned_hound/`, `neighbourhood/` (Gomi with Nib and the landlady), `ahin_husk/`, `han_sora/`, `training_construct/`, `basalt_boar/`, `bell_ringer/`, `geum_okran/`, `canyon_wyvern/`, `tide_warden/`, `arc5_cast/`, `brine_crawler/`, `reef_hermit/`, `deep_lantern/` (with `scale_card_hand.png`) and `pim/`.
