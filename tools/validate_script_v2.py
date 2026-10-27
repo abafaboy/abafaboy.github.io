@@ -16,7 +16,7 @@ RECIPES = {"establish", "talk", "reaction", "eyes", "insert", "name-card", "mons
            "aftermath", "tone-flip", "summon-arrival", "link-view", "carry", "system", "plan", "chorus", "silent", "splash",
            "chibi"}
 TYPES = {"speech", "shout", "intense", "thought", "float", "nervous", "whisper", "menace", "monster", "phone", "announce",
-         "narr", "narr_dark", "tag", "footnote", "inner", "note"}
+         "narr", "narr_dark", "tag", "footnote", "inner", "note", "link"}
 DIALOGUE = {"speech", "shout", "intense", "thought", "nervous", "whisper", "menace", "monster", "phone", "announce"}
 UI = {"system.notice", "system.notice_small", "system.window", "system.summon_card", "system.warning", "system.log",
       "system.glitch", "system.button", "phone.live_stream", "phone.gate_status", "phone.emergency_alert",

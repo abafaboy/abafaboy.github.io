@@ -117,7 +117,7 @@ TYPE_FONT = {
     "announce": ("Letter", 700, 30, 1.12, "#1d1917"),
 }
 BITMAP_TYPES = set(TYPE_FONT)
-VOICED = BITMAP_TYPES | {"float", "narr", "narr_dark", "inner", "note"}  # inner: Jaeha's inner voice; note: his notebook
+VOICED = BITMAP_TYPES | {"float", "narr", "narr_dark", "inner", "note", "link"}  # inner: Jaeha's inner voice; note: his notebook; link: an order sent down the Link (what the summon hears)
 MIN_BUBBLE = {"shout": (230, 150), "intense": (240, 180)}
 WIDTH_CANDS = list(range(140, 581, 30))
 SYS_WFRAC = {"notice": .80, "notice_small": .62, "window": .66, "summon_card": .44, "warning": .80,
@@ -795,6 +795,7 @@ def strip_css(W):
 .dark .t-narr_dark{{border:2px solid #3a3640}}
 .t-inner{{font:600 28px/1.28 'Letter',sans-serif;padding:20px 30px;text-align:center;background:#0d0c10;color:#f4f1ec;box-shadow:0 0 0 2px #0d0c10, 0 0 0 4px #f4f1ec;text-wrap:balance}}
 .dark .t-inner{{box-shadow:0 0 0 2px #f4f1ec}}
+.t-link{{font:700 28px/1.28 'Letter',sans-serif;padding:20px 30px;text-align:center;background:#1c1206;color:#ffd98a;box-shadow:0 0 0 2px #1c1206, 0 0 0 5px #f2a93b, 0 0 22px 6px rgba(242,169,59,.55);text-wrap:balance;letter-spacing:.5px}}
 .t-note{{font:400 33px/40px 'Pencil','LetterSoft',cursive;color:#34343a;text-align:left;padding:10px 26px 12px;background:repeating-linear-gradient(180deg,#fbf8ef 0 38px,#c9d4e3 38px 40px);border:1.5px solid #c7bba2;transform:rotate(-1.2deg);box-shadow:2px 3px 0 rgba(0,0,0,.18);text-wrap:pretty}}
 .t-tag{{position:absolute;left:16px;top:-22px;white-space:nowrap;padding:9px 20px;font:700 22px/1 'UI',sans-serif;letter-spacing:.09em;
   background:#fff;color:#1d1917;border:2.5px solid {LINE};border-radius:99px;z-index:6}}
@@ -1104,7 +1105,7 @@ def main():
         for it in items:
             if it["type"] in BITMAP_TYPES and mode[it["panel"]] == "beside" and pick(it, it["beside_w"]) is None:
                 mode[it["panel"]] = "gutter"
-            if it["type"] in ("narr", "narr_dark", "inner", "note") and mode[it["panel"]] == "beside" and len(it["ln"]["text"]) > 70:
+            if it["type"] in ("narr", "narr_dark", "inner", "note", "link") and mode[it["panel"]] == "beside" and len(it["ln"]["text"]) > 70:
                 mode[it["panel"]] = "gutter"
         for it in items:
             kind = it["type"]
@@ -1156,7 +1157,7 @@ def main():
                         f'<span style="white-space:nowrap;font:{wt} {fs}px/{lh} {fam};color:{col}">{lines_html(it["toks"], it["lines"])}</span></div></div>')
             n = len(ln["text"])
             cap = it["beside_w"] if (where == "beside") else W
-            if t in ("narr", "narr_dark", "inner"):
+            if t in ("narr", "narr_dark", "inner", "link"):
                 w = int(min(W * .74, cap, max(W * .30, 240 + n * 6.0)))
             elif t == "note":
                 w = int(min(W * .66, cap, max(W * .34, 220 + n * 6.6)))
@@ -1207,13 +1208,14 @@ def main():
                 if not chibi:
                     warnings.append("END: no chibi gag art (ART/END.png)")
                 if "end" in kit.cards:
-                    if chibi:
-                        blocks.append(f'<div class="blk" style="background:{col};padding:20px 0 110px"><div class="pbox chibi-end"><img src="{uri(chibi)}"></div></div>')
+                    # the cliffhanger runs straight into TO BE CONTINUED; the chibi gag comes after it, as a bonus (judge, ch 2)
                     blocks.append(card_html(kit.cards["end"], {"continuing": p.get("end_text", "TO BE CONTINUED"), "teaser": p.get("next", "")}, W))
+                    if chibi:
+                        blocks.append(f'<div class="blk" style="background:{col};padding:110px 0 110px"><div class="pbox chibi-end"><img src="{uri(chibi)}"></div></div>')
                 else:
                     cimg = f'<img class="end-chibi" src="{uri(chibi)}">' if chibi else ""
-                    blocks.append(f'<div class="blk endcard{dcls}" style="background:{col}">{cimg}<div class="e-tbc">{E(p.get("end_text", "TO BE CONTINUED"))}</div>'
-                                  f'<div class="e-next">{E(p.get("next", ""))}</div></div>')
+                    blocks.append(f'<div class="blk endcard{dcls}" style="background:{col}"><div class="e-tbc">{E(p.get("end_text", "TO BE CONTINUED"))}</div>'
+                                  f'<div class="e-next">{E(p.get("next", ""))}</div>{cimg}</div>')
                 continue
             pindex += 1
             pid = p["id"]

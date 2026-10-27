@@ -141,7 +141,7 @@ panels:
     eyeline: "Jaeha → the window (toward the camera)"
     calm: top
     ui:
-      - {kind: system.window, "on": float, at: [0.5, 0.05], headline: "[SUMMON ANSWERED: NIB]", body: "FAR SIDE SCOUT · SEAL 1/5 · FIELD FORM 05:00", button: "OK"}
+      - {kind: system.window, "on": float, at: [0.36, 0.06], wf: 0.6, headline: "[SUMMON ANSWERED: NIB]", body: "FAR SIDE SCOUT · SEAL 1/5 · FIELD FORM 05:00", button: "OK"}
     sfx:
       - {text: "DING", style: summon, at: [0.87, 0.22], size: M, rot: 0}
 
@@ -183,8 +183,7 @@ panels:
     foreground: "Nib's shoulder, long left ear (notched) and scarf, cropped, in the right third"
     calm: top
     lines:
-      - {who: kang_jaeha, type: speech, text: "THAT'S A BOSS, AND I'M A TRAP-TESTER.", side: l}
-      - {who: kang_jaeha, type: speech, text: "I WALK IN FIRST, SO OTHER PEOPLE DON'T HAVE TO.", side: l}
+      - {who: kang_jaeha, type: speech, text: "THAT'S A BOSS, AND I'M A TRAP-TESTER. I WALK IN FIRST, SO OTHER PEOPLE DON'T HAVE TO.", side: l}
 
   - id: P09
     recipe: reaction
@@ -517,6 +516,8 @@ panels:
       kang_jaeha: "eyes wide, pupils shrunk, lips parted, amber light filling his eyes"
     eyeline: "Jaeha → (through Nib) the knight"
     calm: none
+    ui:
+      - {kind: system.notice_small, "on": float, at: [0.70, 0.07], text: "[LINK · NIB]"}
     sfx:
       - {text: "VMMMM", style: summon, at: [0.50, 0.12], size: M, rot: 0}
 
@@ -611,7 +612,7 @@ panels:
     foreground: "Jaeha's shoulder and the side of his head, cropped, in the left third"
     calm: top
     lines:
-      - {who: kang_jaeha, type: inner, text: "NOT YET. WAIT FOR THE SHOULDER."}
+      - {who: kang_jaeha, type: link, text: "NOT YET. WAIT FOR THE SHOULDER."}
 
   - id: P33
     recipe: insert
@@ -642,7 +643,7 @@ panels:
       nib: "dropped flat to the floor on his chest, arms tucked, knives along his forearms, chin down, eyes up tracking the blade"
     calm: top
     lines:
-      - {who: kang_jaeha, type: intense, text: "NOW!"}
+      - {who: kang_jaeha, type: link, text: "NOW!"}
     sfx:
       - {text: "VSHHHHH", style: impact, at: [0.50, 0.24], size: XL, rot: -8}
 
@@ -661,7 +662,7 @@ panels:
       nib: "springing upward with his whole body uncoiling, both knives dragged through the armour seam above his head, teeth bared"
     calm: top-left
     sfx:
-      - {text: "SHRAKKK", style: impact, at: [0.35, 0.20], size: XL, rot: -15}
+      - {text: "SHRAKKK", style: impact, at: [0.20, 0.84], size: L, rot: -10}
 
   - id: P36
     recipe: aftermath
@@ -734,7 +735,7 @@ panels:
     eyeline: "Jaeha → the window"
     calm: top
     ui:
-      - {kind: system.window, "on": float, at: [0.5, 0.04], headline: "[NEW SKILL: CARRY]", body: "TAKE PART OF YOUR SUMMON'S DAMAGE INTO YOUR OWN BODY. OVERLOAD: BLEEDING, THEN COLLAPSE.", button: "CARRY?"}
+      - {kind: system.window, "on": float, at: [0.32, 0.05], wf: 0.56, headline: "[NEW SKILL: CARRY]", body: "TAKE PART OF YOUR SUMMON'S DAMAGE INTO YOUR OWN BODY. OVERLOAD: BLEEDING, THEN COLLAPSE.", button: "CARRY?"}
     sfx:
       - {text: "D-DING", style: summon, at: [0.87, 0.17], size: M, rot: 0}
 
