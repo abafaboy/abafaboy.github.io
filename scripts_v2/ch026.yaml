@@ -51,6 +51,10 @@ panels:
     acting:
       nib: "crouched at the gap, beckoning with the knife, ears pricked"
       moon_ahin: "standing with her glove on the glass, not moving"
+    hands:
+      nib: "crouched at the gap, RIGHT four-fingered hand beckoning with one long knife, its point curling toward him; LEFT hand braced on the rock"
+      moon_ahin: "behind him, LEFT palm still flat on the glass; RIGHT hand holds the baton hanging at her side"
+    hand_ref: [grip_hilt_one_hand.png]
     eyeline: "Nib → Jaeha"
     foreground: "the cables snaking into the gap, cropped, bottom"
     calm: top
@@ -73,6 +77,10 @@ panels:
     acting:
       kang_jaeha: "turning to them, one hand open, offering"
       crew_pyo: "shaking his head slowly, hand on his knee brace, staying put"
+    hands:
+      kang_jaeha: "RIGHT hand held out open toward the crew, palm up, offering; LEFT hand at his side"
+      crew_pyo: "LEFT hand resting on the brace on his LEFT knee; RIGHT arm at his side"
+      crew_ho: "only his tabard in the cropped foreground; hands out of frame"
     eyeline: "Jaeha ↔ Pyo"
     foreground: "Ho's orange tabard, cropped, left"
     calm: top
@@ -95,6 +103,11 @@ panels:
       nib: "walking ahead, the borrowed lamp tilted on his head, a knife out"
       kang_jaeha: "following, one hand trailing the wall"
       moon_ahin: "following, the baton held low"
+    hands:
+      nib: "walking ahead, RIGHT four-fingered hand holding one long knife low, point down; LEFT hand hanging"
+      kang_jaeha: "RIGHT gloved fingertips trailing along the wall; LEFT hand at his side"
+      moon_ahin: "RIGHT hand holds the baton low at her side; LEFT hand at her side"
+      background: "the crew and the summons in single file behind, hands at their sides; Borro's shield on his LEFT arm"
     calm: top
     silent: true
     sfx:
@@ -114,6 +127,9 @@ panels:
       Scale: the door is about 4.7 m tall.
     acting:
       kang_jaeha: "stopped dead, arms hanging, staring up at the door"
+    hands:
+      kang_jaeha: "stopped dead, arms hanging at his sides, gloved hands open"
+      background: "the others piling up behind him, hands at their sides"
     calm: top
     silent: true
 
@@ -127,6 +143,7 @@ panels:
     art: >
       A thin strip across the iron door's riveted edge, the colour draining out of it into grey from one side to the other. Fill
       the canvas edge to edge.
+    hands: none
     calm: none
     silent: true
 
@@ -142,6 +159,9 @@ panels:
       door, closed, both fists hammering the iron; his orange vest is the only colour.
     acting:
       kang_jaeha: "young, both fists hammering the door, mouth open in a scream"
+    hands:
+      kang_jaeha: "young, no gloves: both bare fists hammering the iron door, RIGHT fist raised high, LEFT fist striking lower"
+    hand_ref: [fists_and_bracing.png]
     calm: top
     sfx:
       - {text: "BAM BAM BAM", style: impact, at: [0.50, 0.30], size: L, rot: 0}
@@ -156,6 +176,7 @@ panels:
     art: >
       In colour again: close on the floor just inside the iron door: a rusted hard-hat lamp lying on its side, and caught under it a
       strip of faded orange vest cloth.
+    hands: none
     calm: top
     silent: true
 
@@ -168,6 +189,9 @@ panels:
     light: "a lamp beam"
     art: >
       Close on Jaeha's gloved hand closing round the rusted lamp, very gently.
+    hands:
+      kang_jaeha: "his RIGHT gloved hand closes gently round the rusted lamp, fingers wrapping its body, thumb over the top; the rest of him out of frame"
+    hand_ref: [holding_cup.png]
     calm: left
     silent: true
     sfx:
@@ -186,6 +210,9 @@ panels:
       door's inner face is gouged and dented.
     acting:
       nib: "shoulder against the door, pushing, then going still as he sees the scratches"
+    hands:
+      nib: "LEFT shoulder and pauldron against the door, both four-fingered hands flat on the iron, pushing; knives sheathed at his back"
+    hand_ref: [fists_and_bracing.png]
     calm: top
     ui:
       - {kind: label, at: [0.42, 0.46], text: "EVERYONE COMES BACK", size: 46, color: "#C9CCD2", rot: -2}
@@ -205,6 +232,9 @@ panels:
       letters; the rusted lamp hangs from his other hand.
     acting:
       kang_jaeha: "kneeling, fingertips tracing the scratches, the lamp hanging from his other hand, eyes wet"
+    hands:
+      kang_jaeha: "kneeling, LEFT gloved fingertips tracing the scratched letters; RIGHT hand hanging at his side, the rusted lamp dangling from his fingers by its clip"
+    hand_ref: [pointing.png]
     eyeline: "Jaeha → the scratches"
     foreground: "the edge of the iron door, cropped, left"
     calm: top
@@ -228,6 +258,15 @@ panels:
       lyra: "arms folded tight, looking away, jaw clenched"
       crew_pyo: "taking off his hard hat, holding it to his chest"
       crew_dami: "taking off her hard hat"
+    hands:
+      kang_jaeha: "kneeling, head bowed; RIGHT hand holds the rusted lamp on his thigh; LEFT hand on his knee"
+      nib: "LEFT hand, four fingers and a thumb, resting on Jaeha's RIGHT shoulder, long fingers curving over it; RIGHT hand hanging"
+      borro: "standing still, LEFT four-fingered hand resting on the top edge of his shield, stood on end beside him; RIGHT hand hanging"
+      lyra: "arms folded tight across her chest, gloved RIGHT hand tucked under her LEFT arm; the bow strapped to her back"
+      crew_pyo: "both hands holding his hard hat against his chest"
+      crew_dami: "both hands lifting her hard hat off her head"
+      background: "Woo and Ho behind, each lifting off his hard hat with one hand"
+    hand_ref: [hand_on_shoulder.png, shield_grip.png]
     calm: top
     silent: true
 
@@ -244,6 +283,9 @@ panels:
     acting:
       moon_ahin: "standing in the doorway, the baton held in both hands, voice low"
       kang_jaeha: "clipping the lamp to his belt, getting up, face set"
+    hands:
+      moon_ahin: "in the doorway, both hands holding the baton level in front of her waist, RIGHT hand by the pommel, LEFT near the tip"
+      kang_jaeha: "rising, RIGHT hand clipping the rusted lamp to his belt at his RIGHT hip; LEFT hand pushing off his knee"
     eyeline: "Moon Ahin → Jaeha; Jaeha → the gap in the door"
     foreground: "the steel wedge under the door, cropped, bottom"
     calm: top
@@ -275,6 +317,11 @@ panels:
       kang_jaeha: "crawling on elbows and knees to the balustrade"
       moon_ahin: "crouched low, one hand holding the coat-dress out of the dust"
       ahin_husks: "standing in silent rows in the passage behind"
+    hands:
+      kang_jaeha: "crawling on his forearms and knees, gloved hands flat on the stone"
+      moon_ahin: "crouched low, LEFT hand gathering the hem of the coat-dress up out of the dust; RIGHT hand holds the baton low"
+      ahin_husks: "standing in silent rows in the passage, arms hanging at their sides"
+      background: "the crew and the summons crawling behind on hands and knees"
     calm: top
     silent: true
 
@@ -297,6 +344,9 @@ panels:
       engineers are ants.
     acting:
       tide_warden: "kneeling, sagging in the chains, head hanging, eyes closed, breathing slowly"
+    hands:
+      tide_warden: "both huge hands resting flat on the floor before his knees, cuffed and chained at the wrists, four fingers and a thumb each"
+      background: "tiny engineers walking the catwalks, hands at their sides"
     calm: top
     silent: true
     sfx:
@@ -315,6 +365,8 @@ panels:
       is empty for the window.
     acting:
       kang_jaeha: "peering over the balustrade, eyes on the window, very still"
+    hands:
+      kang_jaeha: "peering over, both gloved hands resting on top of the balustrade"
     calm: top
     silent: true
     ui:
@@ -332,6 +384,7 @@ panels:
       of seawater runs from one eye into the kelp of his beard; violet ash drifts up from the cracks on his cheek.
     acting:
       tide_warden: "head hanging, eyes closed, a tear running"
+    hands: none
     calm: top
     silent: true
 
@@ -345,6 +398,7 @@ panels:
     art: >
       Close on the Warden's coral breastplate: steel collars bolted straight into the coral, pipes plunging into his body through
       them, and violet light pulsing out through the pipes' glass sections in time with his heartbeat.
+    hands: none
     calm: top
     silent: true
     sfx:
@@ -360,6 +414,7 @@ panels:
     art: >
       Close on a rack of glass tanks: smoky violet light swirls inside and settles into faceted violet crystals at the bottom of each;
       on every steel cap, the stamped silver hexagon and, beneath it, the small crescent-moon seal.
+    hands: none
     calm: left
     silent: true
 
@@ -376,6 +431,9 @@ panels:
       a sandwich and scrolling on his phone.
     acting:
       kanghan_engineer: "one tapping a gauge, one pushing a trolley, one leaning on the chain eating a sandwich"
+    hands:
+      kanghan_engineer: "one taps a tank gauge with a pen (RIGHT hand); one pushes a trolley with both hands; one leans on the chain, sandwich in RIGHT hand, phone in LEFT"
+    hand_ref: [phone_hold.png]
     calm: top
     silent: true
     sfx:
@@ -394,6 +452,11 @@ panels:
     acting:
       crew_pyo: "peering over, his hard hat crushed in both hands"
       crew_dami: "both hands pressed over her mouth, eyes wide"
+    hands:
+      crew_pyo: "peering over, both hands crushing his hard hat against the top of the balustrade"
+      crew_dami: "both hands pressed over her mouth, fingertips at her cheekbones"
+      background: "the other crew peering over, hands on top of the balustrade"
+    hand_ref: [mouth_and_strap.png]
     eyeline: "both → the Warden"
     foreground: "the carved balustrade, cropped, bottom"
     calm: top
@@ -411,6 +474,9 @@ panels:
       Close on Lyra (lyra) at the balustrade, the confidence gone from her face; her fingers dig into the carved stone.
     acting:
       lyra: "fingers digging into the stone, lips trembling, eyes on the giant"
+    hands:
+      lyra: "both hands on top of the balustrade, fingers digging into the carved stone; the glove on her RIGHT hand, the silver bracer on her LEFT forearm"
+      borro: "only his mossy shoulder in the cropped foreground; hands out of frame"
     eyeline: "Lyra → the Warden"
     foreground: "Borro's mossy shoulder, cropped, left"
     calm: top
@@ -428,6 +494,9 @@ panels:
       Close on Nib (nib), ears flat against his head, shaking, his knuckles white on his knife hilts.
     acting:
       nib: "ears flat, shaking, knuckles white on the hilts"
+    hands:
+      nib: "both four-fingered hands clenched white-knuckled on the hilts of the sheathed knives at his hips, elbows bent back"
+    hand_ref: [grip_hilt_one_hand.png]
     eyeline: "Nib → the Warden"
     foreground: "the balustrade, cropped, right"
     calm: right
@@ -445,6 +514,8 @@ panels:
       Close on Borro's huge hands (borro) on the balustrade: cracks spread through the carved stone under his fingers.
     acting:
       borro: "both hands gripping the balustrade, fingers sinking into the stone as it cracks"
+    hands:
+      borro: "both huge four-fingered hands grip the top of the carved balustrade side by side, fingers curled over its edge, the stone cracking under them"
     calm: left
     silent: true
     sfx:
@@ -464,6 +535,10 @@ panels:
     acting:
       moon_ahin: "raising the phone, then stopped, looking at his hand"
       kang_jaeha: "closing his hand over the phone, shaking his head once"
+    hands:
+      moon_ahin: "LEFT hand raising her phone toward the top of the balustrade; RIGHT hand holds the baton low on the stone"
+      kang_jaeha: "RIGHT gloved hand closes over her hand and the phone, pressing it down"
+    hand_ref: [phone_hold.png, reaching_grabbing_wrist.png]
     eyeline: "Moon Ahin → Jaeha; Jaeha → the catwalks"
     foreground: "the phone in their two hands, cropped, bottom"
     calm: top
@@ -482,6 +557,8 @@ panels:
       pit wall toward the balustrade.
     acting:
       kanghan_guard: "walking slowly, torch beam sweeping up the wall, yawning"
+    hands:
+      kanghan_guard: "seen from above, RIGHT hand sweeping a torch beam up the wall; LEFT hand at his side"
     calm: top
     silent: true
     sfx:
@@ -500,6 +577,11 @@ panels:
     acting:
       crew_ho: "flat on his face, both hands clamped over his nose and mouth, eyes watering"
       crew_woo: "flat beside him, glaring sideways at his brother"
+    hands:
+      crew_ho: "flat on his face, both hands clamped over his nose and mouth"
+      crew_woo: "flat beside him, forearms on the stone, hands flat by his head"
+      background: "everyone else lying flat, hands flat on the stone"
+    hand_ref: [mouth_and_strap.png]
     calm: top
     silent: true
     sfx:
@@ -517,6 +599,7 @@ panels:
       crescent seal on the cap of the nearest tank, a rack just below the balcony.
     acting:
       moon_ahin: "lying on her side, eyes fixed on the seal, her face drained"
+    hands: none
     eyeline: "Moon Ahin → the tank cap"
     foreground: "the carved balustrade's gap, cropped, right"
     calm: top
@@ -534,6 +617,7 @@ panels:
       Close on Moon Ahin's face (moon_ahin), her lips barely moving, eyes still on the seal.
     acting:
       moon_ahin: "whispering, unblinking"
+    hands: none
     eyeline: "Moon Ahin → the tank cap"
     foreground: "Jaeha's shoulder, cropped, left"
     calm: left
@@ -550,6 +634,9 @@ panels:
     art: >
       Top-down on the notebook page, held flat on the stone floor by Jaeha's gloved hand: a rule copied out neatly in pencil at the
       top of the page, and underneath, freshly written, a second line, pressed so hard the pencil has torn the paper.
+    hands:
+      kang_jaeha: "LEFT gloved hand flat on the page's edge, holding the notebook open on the stone; RIGHT hand and pencil out of frame"
+    hand_ref: [fists_and_bracing.png]
     calm: top
     lines:
       - {who: kang_jaeha, type: note, text: "A GATE STAYS OPEN AS LONG AS ITS BOSS LIVES. SO THEY NEVER LET IT DIE."}
@@ -567,6 +654,7 @@ panels:
       Fill the canvas edge to edge.
     acting:
       kang_jaeha: "eyes cold and narrow, lower lids tight"
+    hands: none
     calm: none
     lines:
       - {who: kang_jaeha, type: inner, text: "Nobody cleared this gate. They've been farming it for four years."}
@@ -585,6 +673,8 @@ panels:
       thick as a man's waist, matte black factory steel, machined, and on it one small stamped mark.
     acting:
       kang_jaeha: "eyes shut, two fingers at his temple, lips moving silently"
+    hands:
+      kang_jaeha: "eyes shut, RIGHT index and middle fingers pressed to his RIGHT temple; LEFT hand out of frame"
     calm: top
     silent: true
 
@@ -598,6 +688,8 @@ panels:
     art: >
       Close on Jaeha's gloved fingers drawing a small matte-black chain link out of his coverall's chest pocket and turning it to the
       violet light: the link from ch 4, with the same small stamped mark as the giant link in Nib's view.
+    hands:
+      kang_jaeha: "RIGHT gloved thumb and forefinger draw the small black link out of his LEFT chest pocket and turn it to the light; LEFT hand out of frame"
     calm: top
     silent: true
 
@@ -611,6 +703,7 @@ panels:
     art: >
       A memory of ch 4 in green-dusk light with a thin soft vignette: on the floor where the knight knelt, snapped matte-black factory
       chains crumble into dust, all but one link.
+    hands: none
     calm: right
     silent: true
 
@@ -627,6 +720,8 @@ panels:
       the two stamped marks are the same.
     acting:
       kang_jaeha: "holding the link up between finger and thumb, one eye closed, face cold"
+    hands:
+      kang_jaeha: "RIGHT hand holds the link up at eye level between thumb and forefinger, other fingers curled; LEFT hand out of frame"
     eyeline: "Jaeha → the link and the chain"
     foreground: "the link, cropped, centre"
     calm: top
@@ -644,6 +739,10 @@ panels:
       Nib (nib) drops back over the balustrade onto the balcony and freezes at the sight of the little black link in Jaeha's hand.
     acting:
       nib: "landing in a crouch, then freezing, eyes on the link, ears rising"
+    hands:
+      nib: "landing in a crouch, both four-fingered hands braced flat on the stone floor"
+      kang_jaeha: "RIGHT hand holding up the little link between thumb and forefinger"
+    hand_ref: [fists_and_bracing.png]
     calm: top
     sfx:
       - {text: "tp", style: quiet, at: [0.30, 0.70], size: S, rot: 0}
@@ -662,6 +761,9 @@ panels:
     acting:
       nib: "staring at the link, mouth open, eyes going wet behind the mask"
       kang_jaeha: "looking at Nib, the link held between them"
+    hands:
+      nib: "hands below the frame"
+      kang_jaeha: "RIGHT hand holds the link up between them, between thumb and forefinger, in the cropped foreground; LEFT hand out of frame"
     eyeline: "Nib → the link; Jaeha → Nib"
     foreground: "the link in Jaeha's fingers, cropped, bottom"
     calm: top
@@ -682,6 +784,10 @@ panels:
     acting:
       nib: "turning toward the pit, both knives half drawn, shaking with rage"
       kang_jaeha: "clamping his hand on Nib's wrist, holding firm, eyes on him"
+    hands:
+      nib: "turning to the pit, both four-fingered hands on the hilts at his hips, knives half out of their crossed sheaths; his RIGHT wrist held by Jaeha"
+      kang_jaeha: "LEFT hand clamped round Nib's RIGHT wrist, thumb on one side, fingers wrapped round the other; RIGHT fist closed round the link"
+    hand_ref: [reaching_grabbing_wrist.png, grip_hilt_one_hand.png]
     calm: top
     lines:
       - {who: kang_jaeha, type: whisper, text: "NOT YET. I PROMISE YOU. NOT YET.", side: r}
@@ -699,6 +805,9 @@ panels:
       Close on Nib (nib) sliding the knives home, trembling, his eyes still on the pit.
     acting:
       nib: "sliding the knives back, jaw clenched, trembling"
+    hands:
+      nib: "both four-fingered hands pushing the two knives back down into their crossed sheaths at his hips"
+    hand_ref: [grip_hilt_one_hand.png]
     calm: left
     lines:
       - {who: nib, type: whisper, text: "......", side: r}
@@ -717,6 +826,7 @@ panels:
     acting:
       moon_ahin: "lying on her side, eyes on the pit, voice flat"
       kang_jaeha: "lying beside her, eyes on the pit, voice flat"
+    hands: none
     eyeline: "both → the pit"
     foreground: "the carved balustrade, cropped, top"
     calm: top
@@ -737,6 +847,10 @@ panels:
     acting:
       crew_pyo: "sitting against the balustrade, staring at the crushed hat in his lap"
       crew_dami: "sitting beside him, a hand on his arm"
+    hands:
+      crew_pyo: "both hands holding the crushed hard hat in his lap"
+      crew_dami: "RIGHT hand resting on Pyo's LEFT forearm, fingers curled over it; LEFT hand in her lap"
+    hand_ref: [hand_on_shoulder.png]
     eyeline: "Pyo → the hat"
     foreground: "Dami's hand on his arm, cropped, bottom"
     calm: top
@@ -751,10 +865,13 @@ panels:
     camera: "low two-shot: Woo and Ho sitting against the balustrade, Ho staring at his own hands"
     light: "violet over the balustrade"
     art: >
-      Low two-shot: Woo (crew_woo) and Ho (crew_ho) sit against the balustrade; Ho stares at his own gloved hands.
+      Low two-shot: Woo (crew_woo) and Ho (crew_ho) sit against the balustrade; Ho stares at his own bare hands.
     acting:
       crew_woo: "staring straight ahead, arms round his knees"
       crew_ho: "staring at his own open hands"
+    hands:
+      crew_woo: "arms wrapped round his drawn-up knees, hands clasped in front of his shins"
+      crew_ho: "both bare hands held open in front of him, palms up, resting on his knees"
     eyeline: "Ho → his hands; Woo → ahead"
     foreground: "Woo's orange tabard with its stencilled 3, cropped, left"
     calm: top
@@ -772,6 +889,7 @@ panels:
     art: >
       High over the pit: the freight elevator rises slowly past the balcony with racks of glowing tanks strapped to it, up and up into
       the dark toward the rim and the city above.
+    hands: none
     calm: top
     silent: true
     sfx:
@@ -789,6 +907,8 @@ panels:
       Close on Jaeha (kang_jaeha) watching the elevator rise, the light sliding up his face, the rusted lamp at his belt.
     acting:
       kang_jaeha: "watching it go up, jaw tight"
+    hands:
+      kang_jaeha: "arms hanging at his sides, hands below the frame; the rusted lamp clipped at his RIGHT hip"
     calm: right
     lines:
       - {who: kang_jaeha, type: inner, text: "Every core in that lift is four years of his life."}
@@ -806,6 +926,8 @@ panels:
       dust bursts from the anchor's bolts.
     acting:
       tide_warden: "fingers twitching, the chained arm jerking"
+    hands:
+      tide_warden: "his huge RIGHT hand, cuffed and chained at the wrist, lies on the floor; its four fingers and thumb twitch and curl as the arm jerks"
     calm: top
     sfx:
       - {text: "THOOM-THOOM", style: impact, at: [0.30, 0.30], size: L, rot: 0}
@@ -823,6 +945,8 @@ panels:
       every engineer on the catwalks turns toward the Warden.
     acting:
       kanghan_engineer: "jumping back from the chain, the sandwich falling, others turning"
+    hands:
+      kanghan_engineer: "jumping back, RIGHT hand flinging open as the sandwich falls, phone still in his LEFT; the others turning, hands at their sides"
     calm: top
     silent: true
     sfx:
@@ -840,6 +964,8 @@ panels:
       into the red; screens glow flat green behind him.
     acting:
       kanghan_engineer: "leaning toward the gauges, one hand on the console, eyes wide"
+    hands:
+      kanghan_engineer: "leaning in, RIGHT hand flat on the console; LEFT hand at his side"
     eyeline: "the engineer → the gauges"
     foreground: "the back of his chair, cropped, bottom left"
     calm: top
@@ -858,6 +984,7 @@ panels:
       the crack beside it with every fast beat.
     acting:
       tide_warden: "eyelid trembling, not yet opening"
+    hands: none
     calm: top
     silent: true
     sfx:
@@ -875,6 +1002,10 @@ panels:
     acting:
       lyra: "gripping Borro's arm with both hands, eyes wide"
       borro: "staring at the giant, very still, speaking low"
+    hands:
+      lyra: "both hands gripping Borro's thick RIGHT forearm, the gloved RIGHT hand above the LEFT"
+      borro: "standing very still, his RIGHT forearm in Lyra's grip; both four-fingered hands below the frame"
+    hand_ref: [reaching_grabbing_wrist.png]
     eyeline: "both → the Warden"
     foreground: "the cracked balustrade, cropped, bottom"
     calm: top
@@ -894,6 +1025,9 @@ panels:
       Close on Jaeha (kang_jaeha), realizing, his eyes going from the giant to his three summons.
     acting:
       kang_jaeha: "eyes sliding from the giant to the summons, mouth tightening"
+    hands:
+      kang_jaeha: "hands out of frame"
+      lyra: "only her gloved RIGHT hand on Borro's forearm, in the cropped foreground"
     foreground: "Lyra's hand on Borro's arm, cropped, right"
     calm: left
     lines:
@@ -908,6 +1042,7 @@ panels:
     light: "the screen's glow"
     art: >
       Close on a control-room monitor, screen flat green.
+    hands: none
     calm: right
     silent: true
     ui:
@@ -928,6 +1063,9 @@ panels:
       straight across the pit at the old balcony on the north wall.
     acting:
       kanghan_engineer: "rising, arm outstretched, finger pointing through the glass"
+    hands:
+      kanghan_engineer: "rising from his chair, RIGHT arm outstretched, index finger pointing through the glass; LEFT hand pushing off the desk"
+    hand_ref: [pointing.png]
     eyeline: "the engineer → the balcony"
     foreground: "the monitor's edge, cropped, left"
     calm: top
@@ -949,6 +1087,9 @@ panels:
       kanghan_guard: "running along the catwalks, torches up"
       kanghan_engineer: "scattering for the stairs"
       tide_warden: "head lifting a fraction in the chains"
+    hands:
+      kanghan_guard: "running along the catwalks, torches held up in their RIGHT hands"
+      kanghan_engineer: "scattering for the stairs, arms pumping"
     calm: top
     sfx:
       - {text: "WEEOOO WEEOOO", style: alert, at: [0.30, 0.20], size: XL, rot: -4}
@@ -968,6 +1109,10 @@ panels:
     acting:
       moon_ahin: "rising to one knee, baton raised, face white"
       kang_jaeha: "on his feet, pulling the respirator up over his face, eyes hard"
+    hands:
+      moon_ahin: "rising to one knee, RIGHT hand raising the baton; LEFT hand braced on her raised knee"
+      kang_jaeha: "on his feet, both gloved hands pulling the respirator up over his face by its rim"
+      background: "everyone else scrambling up, hands pushing off the stone"
     eyeline: "Moon Ahin → Jaeha; Jaeha → the passage"
     foreground: "the red-lit balustrade, cropped, bottom"
     calm: top
@@ -984,6 +1129,7 @@ panels:
     light: "red"
     art: >
       A thin strip: black tactical boots pounding up a steel stair two at a time in red light. Fill the canvas edge to edge.
+    hands: none
     calm: none
     silent: true
     sfx:
@@ -1001,6 +1147,9 @@ panels:
       a squad of guards in black tactical vests crowds behind him, torches up.
     acting:
       kanghan_guard: "radio at his mouth, pointing up, the squad crowding behind"
+    hands:
+      kanghan_guard: "the captain's LEFT hand holds a radio to his mouth, RIGHT arm extended pointing up at the balcony; the squad behind, torches raised"
+    hand_ref: [pointing.png]
     eyeline: "the captain → the balcony"
     foreground: "the catwalk rail, cropped, bottom"
     calm: top
@@ -1020,6 +1169,9 @@ panels:
       the side passage, past the waiting husks: at its far end, the gap by the glass wall fills with torch beams.
     acting:
       kang_jaeha: "eye narrowing behind the visor"
+    hands:
+      kang_jaeha: "hands out of frame (his eye only)"
+      ahin_husks: "in Nib's view down the passage, standing in rows, arms hanging at their sides"
     calm: top
     silent: true
 
@@ -1038,6 +1190,14 @@ panels:
       moon_ahin: "turning to him, baton raised"
       nib: "back to back with Borro, knives out"
       crew_pyo: "holding Dami's arm, looking at Jaeha"
+    hands:
+      kang_jaeha: "LEFT hand drawing the notebook out of the pocket inside his tabard; RIGHT hand at his side"
+      moon_ahin: "turning to him, RIGHT hand holding the baton raised; LEFT hand at her side"
+      nib: "back to back with Borro, a long knife in reverse grip in each four-fingered fist"
+      borro: "LEFT forearm through his shield's strap, the shield up; RIGHT four-fingered hand at his side"
+      crew_pyo: "LEFT hand holding Dami's RIGHT arm above the elbow; RIGHT hand still clutching his crushed hard hat"
+      background: "Lyra, Dami, Woo and Ho turned to Jaeha, hands at their sides; Lyra's bow on her back"
+    hand_ref: [reverse_grip_knives.png, shield_grip.png]
     calm: top
     silent: true
     sfx:
@@ -1055,6 +1215,7 @@ panels:
       shows beneath it.
     acting:
       tide_warden: "the eyelid lifting by a hair"
+    hands: none
     calm: left
     silent: true
 
@@ -1071,6 +1232,9 @@ panels:
       torch beams climb the pit wall toward the balcony.
     acting:
       kang_jaeha: "opening the notebook, pencil raised, eyes calm behind the visor"
+    hands:
+      kang_jaeha: "LEFT hand holds the notebook open at chest height, thumb across the blank page; RIGHT hand raises the yellow pencil"
+    hand_ref: [notebook_and_pencil.png]
     eyeline: "Jaeha → the page"
     foreground: "the torch beams over the balustrade, cropped, top"
     calm: top
@@ -1082,3 +1246,7 @@ panels:
   - id: END
     kind: end
     chibi_gag: "Chibi Ho, crawling away from the alarm, finally sneezes into his hands so hard he rockets backwards along the balcony, while chibi Woo facepalms."
+    hands:
+      crew_ho: "chibi: both hands cupped over his nose and mouth as he sneezes"
+      crew_woo: "chibi: RIGHT palm slapped over his face"
+    hand_ref: [mouth_and_strap.png]

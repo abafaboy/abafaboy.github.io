@@ -57,6 +57,7 @@ panels:
       High and wide over Busan's harbour at night: siren horns on poles along the waterfront blare; beyond the breakwater the sea bubbles
       and glows violet in a widening ring two kilometres out, where Kanghan's barge lists, its crane tilted; the fish market's lights
       burn at the harbour's edge. Scale: the breakwater is a 1 km thread; the barge a black chip.
+    hands: none
     calm: top
     silent: true
     lines:
@@ -76,6 +77,9 @@ panels:
       while the desk phone rings and rings beside him, its line light flashing.
     acting:
       assoc_yang: "palm slammed on the button, jaw set, ignoring the ringing phone"
+    hands:
+      assoc_yang: "RIGHT palm slammed flat on the red button, fingers spread; LEFT hand flat on the desk beside the ringing phone"
+    hand_ref: [fists_and_bracing.png]
     eyeline: "Yang → the button"
     foreground: "the ringing phone, cropped, left"
     calm: left
@@ -94,6 +98,9 @@ panels:
     art: >
       Close on a phone lighting up in a fishmonger's wet rubber glove, the screen flat green; behind it, out of focus, a dozen more phones
       light up across the market.
+    hands:
+      evacuees: "a fishmonger's RIGHT hand in a wet rubber glove holds the phone upright, thumb at the screen's edge; out of focus behind, other hands hold up lit phones"
+    hand_ref: [phone_hold.png]
     calm: right
     silent: true
     ui:
@@ -114,6 +121,9 @@ panels:
     acting:
       kang_seoa: "grabbing the megaphone with both hands, chin up, glasses flashing"
       market_aunties: "turning from their stalls, the tiny one already rolling up her sleeves"
+    hands:
+      kang_seoa: "both hands grab the megaphone off its hook: LEFT hand on its handle, RIGHT hand on the rim of its bell"
+      market_aunties: "turning, hands at their sides; the tiny one tugs up her LEFT arm sleeve with her RIGHT hand"
     eyeline: "Seoa → the aunties; the aunties → Seoa"
     foreground: "the tent pole and its hook, cropped, left"
     calm: top
@@ -135,6 +145,11 @@ panels:
       kang_seoa: "on the crate, megaphone up, the other arm pointing to the exit"
       market_aunties: "waving people on with both arms, one carrying a toddler's stroller"
       evacuees: "walking fast toward the exit, some carrying bags and children"
+    hands:
+      kang_seoa: "LEFT hand holds the megaphone to her mouth by its handle; RIGHT arm extended, pointing at the exit"
+      market_aunties: "two wave the crowd on with both arms; the third carries a toddler's stroller by its frame in both hands"
+      evacuees: "hands on bag straps or holding children's hands; some carry children in their arms"
+    hand_ref: [pointing.png]
     calm: top
     lines:
       - {who: kang_seoa, type: shout, text: "DON'T RUN, AND DON'T STOP! UPHILL, AWAY FROM THE WATER!", side: l}
@@ -153,6 +168,9 @@ panels:
       one arm; behind her the harbour and the violet sea. The camera stays above her waist level.
     acting:
       yoo_bomi: "pointing uphill with one arm, talking fast into the drone, serious for once"
+    hands:
+      yoo_bomi: "RIGHT arm extended behind her, pointing up the hill; LEFT hand at her side"
+    hand_ref: [pointing.png]
     eyeline: "Bomi → the drone"
     foreground: "the drone's rotor, cropped, top right"
     calm: top
@@ -174,6 +192,10 @@ panels:
     acting:
       choi_dongmin: "leaning out of the window, coffee in hand, a tired smirk"
       song_yerin: "in the passenger seat, both hands on her bag strap, eyes wide"
+    hands:
+      choi_dongmin: "LEFT forearm on the open window frame, a paper coffee cup in that hand; RIGHT hand on the steering wheel"
+      song_yerin: "both hands grip the pink bag's cross-body strap at her chest"
+    hand_ref: [holding_cup.png, mouth_and_strap.png]
     calm: top
     lines:
       - {who: choi_dongmin, type: shout, text: "YOUR SISTER SAID DINNER AT SEVEN. I BROUGHT A HEALER.", side: l}
@@ -194,6 +216,10 @@ panels:
     acting:
       song_yerin: "hugging the bag to her chest, jaw set, ready"
       kang_jaeha: "pointing toward the market with his splinted hand, calm and quick"
+    hands:
+      song_yerin: "both arms hug the pink first-aid bag to her chest, sleeves over her wrists"
+      kang_jaeha: "bare hands: RIGHT arm extended toward the market, the splinted index finger pointing; LEFT hand at his side, the bandaged forearm"
+    hand_ref: [pointing.png]
     eyeline: "Yerin → Jaeha; Jaeha → the market"
     foreground: "the van's open door, cropped, left"
     calm: top
@@ -215,6 +241,9 @@ panels:
     acting:
       kang_seoa: "shoving his chest with one hand, the megaphone in the other, eyes fierce and wet"
       kang_jaeha: "half turned away, looking back at her, hesitating"
+    hands:
+      kang_seoa: "RIGHT palm shoves flat against his chest; LEFT hand holds the megaphone low by its handle"
+      kang_jaeha: "bare hands: half turned away, arms at his sides, hands open"
     eyeline: "Seoa → Jaeha (up); Jaeha → Seoa (down)"
     foreground: "the megaphone's red bell, cropped, bottom"
     calm: left
@@ -241,6 +270,14 @@ panels:
       lyra: "nocking an arrow, eyes on the water"
       pim: "pulling the headset down round his neck, antennae rising"
       kang_jaeha: "walking last, two fingers going to his temple"
+    hands:
+      geum_okran: "seen from behind: RIGHT hand holds the ladle on her RIGHT shoulder; steel LEFT arm (three metal fingers and a thumb) swinging at her side"
+      nib: "seen from behind: LEFT hand pulls the mask off his face; RIGHT hand holds one long knife reversed (four fingers and a thumb); the other knife still sheathed"
+      borro: "LEFT forearm through the shield's strap, lifting it; RIGHT hand (four fingers and a thumb) reaching back to pull the cord knot of his husk face"
+      lyra: "the white longbow in her LEFT hand; RIGHT hand nocking a blue-fletched arrow on the string"
+      pim: "both hands (three fingers and a thumb) pull the headset down round his neck"
+      kang_jaeha: "bare hands: LEFT index and middle fingers rising to his LEFT temple; the splinted RIGHT hand at his side"
+    hand_ref: [reverse_grip_knives.png, bow_draw.png]
     calm: top
     silent: true
     sfx:
@@ -255,6 +292,7 @@ panels:
     light: "red; violet"
     art: >
       Close on a red countdown hanging in the air over the boiling violet sea. The frame is calm for it.
+    hands: none
     calm: top
     silent: true
     ui:
@@ -274,6 +312,7 @@ panels:
       high, flinging huge carved stone slabs and rusted steel plates into the sky like playing cards; the listing barge rocks; a ring of
       violet water races toward the harbour. Scale: the breakwater is a thin line at the bottom; each slab is as big as a bus. The lower
       part is calm for the window.
+    hands: none
     calm: bottom
     ui:
       - {kind: system.warning, "on": float, at: [0.5, 0.88], text: "[SEALED GATE · BUSAN · BROKEN]"}
@@ -302,6 +341,7 @@ panels:
       open. Scale: each crawler is a big dog; the tetrapods are cars.
     acting:
       brine_crawler: "swarming up over the tetrapods in a clicking tide"
+    hands: none
     calm: top
     silent: true
     sfx:
@@ -320,6 +360,7 @@ panels:
       part is calm for the window.
     acting:
       kang_jaeha: "reading the window, eyes narrowing, motes drifting past his face"
+    hands: none
     calm: top
     silent: true
     ui:
@@ -338,6 +379,8 @@ panels:
       lilac, run from him to the four summons ahead of him.
     acting:
       kang_jaeha: "two fingers at his temple, eyes cold and steady, the other hand open"
+    hands:
+      kang_jaeha: "bare hands: LEFT index and middle fingers pressed to his LEFT temple; RIGHT hand open at his side, the splinted index straight"
     eyeline: "Jaeha → the summons"
     foreground: "Borro's shield edge, cropped, right"
     calm: top
@@ -362,6 +405,14 @@ panels:
       borro: "raising the door-sized shield, moss-green eyes steady"
       lyra: "drawing to full with a blue-fletched arrow, braid flying"
       pim: "wings spread wide, antennae blazing, arms out"
+    hands:
+      nib: "crouched low, a long knife reversed in each hand, blades along his forearms (four fingers and a thumb)"
+      borro: "LEFT forearm through the shield's strap, raising it; RIGHT hand (four fingers and a thumb) gripping its edge"
+      lyra: "at full draw: LEFT arm straight, the hand round the white longbow's grip; RIGHT gloved hand drawing the string to her jaw"
+      pim: "arms out wide from his sides, hands open (three fingers and a thumb)"
+      kang_jaeha: "bare hands: small: LEFT fingers at his LEFT temple; RIGHT hand at his side"
+      geum_okran: "small: RIGHT hand holds the ladle on her shoulder; steel LEFT arm (three metal fingers and a thumb) at her side"
+    hand_ref: [reverse_grip_knives.png, bow_draw.png]
     calm: bottom
     ui:
       - {kind: system.notice, "on": float, at: [0.5, 0.9], text: "[FIELD FORM ×4 · 06:00 · LINKED]"}
@@ -382,6 +433,7 @@ panels:
       out of an old storm drain toward the market's sea wall.
     acting:
       kang_jaeha: "eyes narrowing, reading the map in his head"
+    hands: none
     calm: top
     lines:
       - {who: pim, type: shout, text: "MOST OF THEM ARE COMING UP THE LEFT SIDE, BOSS! OUT OF THE OLD STORM DRAIN!"}
@@ -401,6 +453,9 @@ panels:
     acting:
       nib: "mid-spin, both knives out, cloak flaring, eyes blazing"
       brine_crawler: "bursting into ash mid-lunge"
+    hands:
+      nib: "mid-spin, arms flung out, a long knife reversed in each hand (four fingers and a thumb)"
+    hand_ref: [reverse_grip_knives.png]
     calm: top
     sfx:
       - {text: "SHRAK SHRAK SHRAK", style: impact, at: [0.50, 0.30], size: L, rot: -6}
@@ -417,6 +472,9 @@ panels:
       tetrapods one after another.
     acting:
       lyra: "drawing and loosing in rhythm, eyes cold, the braid over her LEFT shoulder"
+    hands:
+      lyra: "LEFT arm extended, the hand round the bow's grip, the silver bracer on that forearm; RIGHT gloved hand drawing the string back to her jaw"
+    hand_ref: [bow_draw.png]
     calm: right
     sfx:
       - {text: "THWIP THWIP THWIP", style: impact, at: [0.60, 0.30], size: M, rot: 6}
@@ -434,6 +492,9 @@ panels:
     acting:
       borro: "shoving forward behind the shield, legs braced, calm"
       brine_crawler: "flying back off the shield into the water"
+    hands:
+      borro: "LEFT forearm through the shield's strap, RIGHT hand (four fingers and a thumb) flat against its back, shoving"
+    hand_ref: [shield_grip.png]
     calm: top
     sfx:
       - {text: "KRAKOOM", style: impact, at: [0.40, 0.40], size: L, rot: -6}
@@ -452,6 +513,10 @@ panels:
       same stance. She hasn't moved her slippers.
     acting:
       geum_okran: "at the end of a one-handed swing, feet planted, chin up, the gold tooth bared in a grin"
+    hands:
+      geum_okran: "RIGHT fist at the end of a one-handed swing, the ladle out past her; steel LEFT arm (three metal fingers and a thumb) back for balance"
+      background: "Geum's grey ghost behind her: both flesh hands grip the steel boat door's handles, the door on the ghost's LEFT arm"
+    hand_ref: [shield_grip.png]
     calm: top
     sfx:
       - {text: "DOOOOONNNG", style: impact, at: [0.50, 0.20], size: XL, rot: -4}
@@ -468,6 +533,9 @@ panels:
       caps, watching the breakwater.
     acting:
       fishermen: "taking their caps off slowly, holding them to their chests, eyes wet"
+    hands:
+      fishermen: "each holds his cap to his chest in his RIGHT hand; LEFT hands hanging at their sides"
+    hand_ref: [mouth_and_strap.png]
     calm: left
     silent: true
     sfx:
@@ -484,6 +552,8 @@ panels:
       Close on Geum (geum_okran), violet ash drifting past her face, grinning at the sea as more crawlers climb.
     acting:
       geum_okran: "grinning, the ladle back on her shoulder, eyes on the next wave"
+    hands:
+      geum_okran: "RIGHT hand holds the ladle on her RIGHT shoulder, the bowl behind her; the prosthetic LEFT arm out of frame"
     eyeline: "Geum → the sea"
     foreground: "drifting ash, cropped, right"
     calm: right
@@ -504,6 +574,8 @@ panels:
     acting:
       kang_jaeha: "turning toward the left side, hand at his temple"
       brine_crawler: "pouring up the sea wall in a tide"
+    hands:
+      kang_jaeha: "bare hands: small: LEFT fingers at his LEFT temple as he turns; RIGHT hand at his side"
     foreground: "the parapet's edge, cropped, bottom"
     calm: top
     lines:
@@ -524,6 +596,9 @@ panels:
       (ahin_husks) leap off it in perfect unison, landing in a line; a woman in white steps down from the cab.
     acting:
       ahin_husks: "landing in perfect unison, straightening as one"
+    hands:
+      ahin_husks: "landing in a crouch and straightening as one, arms at their sides"
+      moon_ahin: "stepping down from the cab: LEFT gloved hand on the door frame; RIGHT hand holds the baton"
     calm: top
     silent: true
     sfx:
@@ -544,6 +619,9 @@ panels:
     acting:
       moon_ahin: "striding, baton raised high, chin up, the half-smile back"
       ahin_husks: "fanning out behind her in formation, Saebyeok a step ahead"
+    hands:
+      moon_ahin: "RIGHT hand raises the silver baton high like a conductor, wrist turned; LEFT gloved hand relaxed at her side"
+      ahin_husks: "fanning out behind her, arms at their sides"
     calm: top
     lines:
       - {who: moon_ahin, type: speech, text: "NUMBER FOUR. WHERE DO YOU WANT MY ORCHESTRA?", side: r}
@@ -564,6 +642,10 @@ panels:
     acting:
       kang_jaeha: "pointing along the sea wall with his splinted hand, eyes steady"
       moon_ahin: "turning to him, eyebrows drawing together"
+    hands:
+      kang_jaeha: "bare hands: RIGHT arm extended along the sea wall, the splinted index finger pointing; LEFT hand at his side"
+      moon_ahin: "RIGHT hand holds the baton still raised at shoulder height; LEFT gloved hand at her side"
+    hand_ref: [pointing.png]
     eyeline: "Jaeha → the sea wall; Moon Ahin → Jaeha"
     foreground: "Saebyeok's white shoulder, cropped, left"
     calm: top
@@ -585,6 +667,10 @@ panels:
     acting:
       moon_ahin: "touching each shoulder in turn, lips moving, eyes soft for once"
       ahin_husks: "running past her, one after another"
+    hands:
+      moon_ahin: "LEFT gloved fingertips brush each husk's shoulder as it passes; RIGHT hand, with the baton, out of frame"
+      ahin_husks: "running past her, arms swinging"
+    hand_ref: [hand_on_shoulder.png]
     calm: left
     lines:
       - {who: moon_ahin, type: whisper, text: "SAEBYEOK. HAEBIT. BYEOL. NOEUL. COME BACK TO ME.", side: l}
@@ -606,6 +692,10 @@ panels:
       kang_jaeha: "braced, both fists clenched, the threads pouring into him"
       moon_ahin: "conducting with the baton, small and precise"
       brine_crawler: "crashing against the husk wall and breaking"
+    hands:
+      ahin_husks: "locked arm in arm, each husk's elbows hooked through its neighbours', braced against the crawlers"
+      kang_jaeha: "bare hands: small: both fists clenched at his sides, the splinted RIGHT index sticking out straight"
+      moon_ahin: "small: RIGHT hand conducting with the baton in small flicks; LEFT gloved hand at her side"
     calm: bottom
     ui:
       - {kind: system.notice, "on": float, at: [0.5, 0.88], text: "[LINK: 4 SUMMONS + 28 HUSKS · SUMMONER: MOON AHIN]"}
@@ -624,6 +714,7 @@ panels:
       Close on Jaeha (kang_jaeha): a nosebleed starts; he smiles thinly; a window hangs beside him. The upper part is calm for the window.
     acting:
       kang_jaeha: "a thin smile, blood running from his nose, eyes steady"
+    hands: none
     calm: top
     ui:
       - {kind: system.notice_small, "on": float, at: [0.5, 0.06], text: "[CARRY ×28 · LOAD 160% · CAPACITY 118%]"}
@@ -641,6 +732,9 @@ panels:
       Close on Jaeha's splinted RIGHT hand (kang_jaeha) pressed flat against his chest; a red window hangs over it.
     acting:
       kang_jaeha: "only his hand, pressed hard to his chest"
+    hands:
+      kang_jaeha: "bare hands: only his splinted RIGHT hand, palm pressed hard flat against his chest, the splinted index straight beside the other fingers"
+    hand_ref: [mouth_and_strap.png]
     calm: top
     silent: true
     ui:
@@ -659,6 +753,8 @@ panels:
       Close on Geum (geum_okran) at the front of the walkway glancing back over her shoulder at Jaeha, frowning, the ladle on her shoulder.
     acting:
       geum_okran: "glancing back over her shoulder, frowning, mouth tight"
+    hands:
+      geum_okran: "RIGHT hand holds the ladle on her RIGHT shoulder; the prosthetic LEFT arm out of frame"
     eyeline: "Geum → Jaeha"
     calm: right
     silent: true
@@ -679,6 +775,7 @@ panels:
       like a toy beside it. Scale: the barge is 80 m long; the back is twice that and still rising.
     acting:
       deep_lantern: "rising, water pouring off the plates on her back"
+    hands: none
     calm: top
     silent: true
     sfx:
@@ -697,6 +794,9 @@ panels:
     acting:
       kanghan_engineer: "clinging to a rail, shouting into the radio, wide-eyed"
       kanghan_tactical: "bracing at the launchers, aiming"
+    hands:
+      kanghan_engineer: "LEFT hand clings to the rail; RIGHT hand holds the radio to his mouth"
+      kanghan_tactical: "both hands on the launchers' grips, aiming"
     eyeline: "the chief → the rising back"
     foreground: "a coil of anchor chain, cropped, bottom"
     calm: top
@@ -717,6 +817,7 @@ panels:
       ash spurting where they bite; the chains snap taut.
     acting:
       deep_lantern: "her back flinching under the anchors"
+    hands: none
     calm: top
     sfx:
       - {text: "KA-THUNK KA-THUNK KA-THUNK KA-THUNK", style: impact, at: [0.50, 0.30], size: L, rot: -4}
@@ -734,6 +835,8 @@ panels:
     acting:
       deep_lantern: "surging forward, a bow wave building"
       kanghan_tactical: "tiny, clinging to the rails"
+    hands:
+      kanghan_tactical: "tiny: both hands clinging to the rails"
     calm: top
     sfx:
       - {text: "SNAP SNAP", style: impact, at: [0.70, 0.40], size: M, rot: 6}
@@ -753,6 +856,8 @@ panels:
       scream as troopers crank them. The harbour water heaves.
     acting:
       deep_lantern: "thrashing against the chains, head still under the water"
+    hands:
+      kanghan_tactical: "tiny, far off on the barge: both hands cranking the winch handles"
     calm: top
     silent: true
     sfx:
@@ -768,6 +873,7 @@ panels:
     art: >
       Close on one anchor head buried in the coral-crusted hide, violet ash spurting round it; the big steel shackle joining it to the
       chain, and on the first link the small stamped mark.
+    hands: none
     calm: left
     silent: true
     sfx:
@@ -785,6 +891,9 @@ panels:
       the knight, kneeling in black chains (ch 1).
     acting:
       nib: "frozen, ears flat, knuckles white on his knives"
+    hands:
+      nib: "a long knife in each fist, reverse grip, knuckles white (four fingers and a thumb)"
+    hand_ref: [reverse_grip_knives.png]
     eyeline: "Nib → the chains"
     calm: right
     silent: true
@@ -805,6 +914,9 @@ panels:
     acting:
       nib: "looking back over his shoulder, eyes blazing"
       kang_jaeha: "two fingers at his temple, nodding once"
+    hands:
+      nib: "a long knife reversed in each hand, held low (four fingers and a thumb)"
+      kang_jaeha: "LEFT index and middle fingers at his LEFT temple; RIGHT hand below the frame"
     eyeline: "both → each other across the seam"
     foreground: "the amber seam, top to bottom"
     calm: top
@@ -825,6 +937,9 @@ panels:
       cloak streaming, an amber streak behind him.
     acting:
       nib: "sprinting up the chain, arms out for balance, knives in hand"
+    hands:
+      nib: "arms flung out for balance, a long knife reversed in each hand (four fingers and a thumb)"
+    hand_ref: [reverse_grip_knives.png]
     calm: top
     sfx:
       - {text: "TAK TAK TAK TAK", style: impact, at: [0.30, 0.60], size: M, rot: -8}
@@ -841,6 +956,9 @@ panels:
       the shank.
     acting:
       nib: "only his hand and knife, hammering the pin out"
+    hands:
+      nib: "only his RIGHT fist (four fingers and a thumb) round the knife's grip, blade up, driving the pommel down onto the shackle pin like a hammer"
+    hand_ref: [fists_and_bracing.png]
     calm: left
     sfx:
       - {text: "KLANG", style: impact, at: [0.40, 0.30], size: M, rot: 6}
@@ -857,6 +975,9 @@ panels:
       sights it, and slowly lowers it.
     acting:
       han_sora: "lowering the crossbow, a crooked half-smile, eyes on Nib"
+    hands:
+      han_sora: "RIGHT hand on the crossbow's grip, LEFT hand under the fore-end, lowering it from her RIGHT shoulder; bandage on the RIGHT wrist, silver compass on the LEFT"
+    hand_ref: [crossbow_hold.png]
     eyeline: "Sora → Nib"
     calm: right
     silent: true
@@ -875,6 +996,8 @@ panels:
       (kanghan_tactical) dive flat; the winches spin loose; the grounded barge lurches on the rocks.
     acting:
       kanghan_tactical: "diving flat on the deck as the chains lash over"
+    hands:
+      kanghan_tactical: "diving flat, hands thrown out flat on the deck"
     calm: top
     sfx:
       - {text: "WHAAANG", style: impact, at: [0.50, 0.40], size: L, rot: -6}
@@ -890,6 +1013,9 @@ panels:
       Low on a tetrapod: Nib (nib, field form) lands back in a crouch, knives out, and looks up at the leviathan he has freed.
     acting:
       nib: "landing in a crouch, looking up, breathing hard"
+    hands:
+      nib: "crouched, a long knife reversed in each fist (four fingers and a thumb), the LEFT fist braced on the concrete"
+    hand_ref: [reverse_grip_knives.png]
     eyeline: "Nib → the leviathan (up)"
     calm: left
     lines:
@@ -911,6 +1037,8 @@ panels:
       calm for the window.
     acting:
       deep_lantern: "rising, her head lifting, the lantern pulsing"
+    hands:
+      deep_lantern: "both webbed hands (four long fingers and a thumb each) grip the harbour's edge, fingers curled over the concrete"
     calm: bottom
     ui:
       - {kind: system.warning, "on": float, at: [0.5, 0.9], text: "[BOSS: THE DEEP LANTERN (S) · HUSHED]"}
@@ -929,6 +1057,7 @@ panels:
       leaking violet ash; the eye turns and finds the breakwater. Fill the canvas edge to edge.
     acting:
       deep_lantern: "the eye turning, finding Jaeha"
+    hands: none
     calm: none
     silent: true
     sfx:
@@ -949,6 +1078,9 @@ panels:
       deep_lantern: "head lowering, the eye fixed on Jaeha"
       kang_jaeha: "standing his ground, looking up at the eye"
       pim: "antennae flat, wings trembling, translating"
+    hands:
+      kang_jaeha: "bare hands: arms at his sides, fists loosely closed, the splinted RIGHT index straight"
+      pim: "arms held close at his sides, hands (three fingers and a thumb) curled tight"
     eyeline: "the eye → Jaeha; Jaeha → the eye"
     foreground: "Pim's open wing, cropped, right"
     calm: top
@@ -966,6 +1098,7 @@ panels:
     art: >
       Close on the lantern at the tip of her crest: the cage of pale coral, the core inside pulsing brighter, rings of violet light
       washing out across the harbour; far below, the neck of the breakwater sits in the cone of shadow right under her head.
+    hands: none
     calm: left
     lines:
       - {who: offpanel:geum_okran, type: shout, text: "STAY CLOSE TO HER! IT'S ALWAYS DARKEST UNDER THE LAMP!"}
@@ -987,6 +1120,11 @@ panels:
       evacuees: "walking slowly toward the water, arms slack, eyes glassy violet"
       choi_dongmin: "grabbing a man by the jacket, digging his heels in"
       song_yerin: "pulling at a woman's arm with both hands, terrified"
+    hands:
+      evacuees: "arms hanging slack at their sides as they walk"
+      choi_dongmin: "both fists knotted in the back of a man's jacket, leaning back"
+      song_yerin: "both hands wrapped round a woman's forearm, pulling back"
+    hand_ref: [reaching_grabbing_wrist.png, hand_on_shoulder.png]
     calm: top
     silent: true
     sfx:
@@ -1004,6 +1142,8 @@ panels:
       toward the edge of the pier. The camera stays at her eye level.
     acting:
       kang_seoa: "the megaphone sliding down, eyes glassy, stepping forward slowly"
+    hands:
+      kang_seoa: "LEFT hand lets the megaphone slide down to her side, its grip loose; RIGHT arm hanging slack"
     calm: right
     silent: true
     sfx:
@@ -1023,6 +1163,10 @@ panels:
     acting:
       kang_jaeha: "turning, reaching toward the market, face white"
       pim: "crouching, wings spreading, eyes fierce"
+    hands:
+      kang_jaeha: "bare hands: RIGHT arm reaching out toward the market, fingers open, the splinted index straight; LEFT hand at his side"
+      pim: "crouched, both hands (three fingers and a thumb) braced on the walkway, ready to leap"
+    hand_ref: [reaching_grabbing_wrist.png]
     eyeline: "Jaeha → the market; Pim → the light tower"
     foreground: "the parapet's edge, cropped, bottom"
     calm: top
@@ -1043,6 +1187,8 @@ panels:
       out over the harbour and wash the violet away; behind and far above, the Deep Lantern's violet lantern. Scale: the tower is 25 m.
     acting:
       pim: "wings fully open, arms flung wide, screaming with his whole body"
+    hands:
+      pim: "arms flung wide, hands open, fingers spread (three fingers and a thumb)"
     calm: top
     lines:
       - {who: pim, type: shout, text: "DON'T LISTEN TO HER! LISTEN TO ME!", side: r}
@@ -1064,6 +1210,11 @@ panels:
       evacuees: "a small boy, glassy-eyed, one foot over the water, yanked backwards"
       kang_seoa: "blinking awake, one fist knotted in the boy's backpack, hauling him back, the megaphone clamped under her arm"
       song_yerin: "running up behind them, arms out, too late to be needed"
+    hands:
+      evacuees: "the small boy: arms flung forward as he is yanked backwards"
+      kang_seoa: "RIGHT fist knotted in the boy's backpack strap, hauling him back against her; the megaphone clamped under her LEFT arm"
+      song_yerin: "running, both arms reaching out ahead of her"
+    hand_ref: [reaching_grabbing_wrist.png]
     calm: top
     lines:
       - {who: kang_seoa, type: speech, text: "...HEY. NO, YOU DON'T.", side: l}
@@ -1081,6 +1232,9 @@ panels:
       Close on Bomi's phone (yoo_bomi, her hand only) on the market roof, the screen flat green, shaking in her hand.
     acting:
       yoo_bomi: "only her hand, gripping the phone"
+    hands:
+      yoo_bomi: "only her RIGHT hand, gripping the phone upright, thumb at the screen's edge, shaking"
+    hand_ref: [phone_hold.png]
     calm: left
     silent: true
     ui:
@@ -1100,6 +1254,10 @@ panels:
       evacuees: "the little boy, awake now, clinging to her blazer, crying"
       kang_seoa: "megaphone up, shaking, furious, eyes clear"
       song_yerin: "holding Seoa's other hand, nodding hard"
+    hands:
+      evacuees: "the little boy clings to the hem of her blazer with both fists"
+      kang_seoa: "LEFT hand raises the megaphone to her mouth; RIGHT hand held in Yerin's"
+      song_yerin: "LEFT hand holds Seoa's RIGHT hand; RIGHT hand on her bag strap"
     eyeline: "Seoa → the crowd"
     foreground: "the pier's bollard, cropped, right"
     calm: right
@@ -1119,6 +1277,9 @@ panels:
       blotting out her own lantern; its shadow falls over the fighters, the husk wall and the crowd behind.
     acting:
       deep_lantern: "raising the hand high, fingers spread"
+    hands:
+      deep_lantern: "her RIGHT webbed hand (four long fingers and a thumb) raised high over the breakwater, palm down, fingers spread"
+      background: "the fighters, husks and crowd in its shadow: hands relaxed or out of sight"
     calm: top
     silent: true
     sfx:
@@ -1137,6 +1298,10 @@ panels:
     acting:
       borro: "shield raised overhead, legs braced, looking down at her"
       geum_okran: "stepping in beside him, ladle up, a grim grin"
+    hands:
+      borro: "LEFT forearm through the shield's strap and RIGHT hand flat on its inner face, holding it up over his head (four fingers and a thumb)"
+      geum_okran: "RIGHT hand raises the ladle beside the shield, bowl up and glowing; steel LEFT arm (three metal fingers and a thumb) at her side"
+    hand_ref: [shield_grip.png]
     eyeline: "Geum → Borro (up); Borro → Geum (down)"
     foreground: "the hand's shadow edge, cropped, top"
     calm: top
@@ -1160,6 +1325,11 @@ panels:
       borro: "crushed down to one knee behind the shield, roaring"
       geum_okran: "both feet planted, the ladle overhead in both hands, teeth bared, holding"
       deep_lantern: "pressing down with the hand"
+    hands:
+      borro: "crushed to one knee: LEFT forearm through the shield's strap, RIGHT hand (four fingers and a thumb) flat on its inner face, pushing up"
+      geum_okran: "ladle overhead in both hands: RIGHT hand on the handle, steel LEFT hand (three metal fingers and a thumb) on the shaft below the bowl"
+      deep_lantern: "her RIGHT webbed hand (four long fingers and a thumb) pressing palm-down onto the shield and the ladle"
+    hand_ref: [shield_grip.png, grip_hilt_two_hands.png]
     calm: top
     sfx:
       - {text: "KRAAAA-THOOOOM", style: impact, at: [0.50, 0.15], size: XL, rot: -6}
@@ -1177,6 +1347,9 @@ panels:
       knees buckle; blood runs from his nose and from both ears.
     acting:
       kang_jaeha: "knees buckling, one hand on the parapet, the other clutching his chest, blood from nose and ears"
+    hands:
+      kang_jaeha: "bare hands: LEFT hand braced flat on the parapet; the splinted RIGHT hand clutching the tracksuit over his heart"
+    hand_ref: [fists_and_bracing.png]
     calm: top
     ui:
       - {kind: system.warning, "on": float, at: [0.5, 0.86], text: "[CARRY ×29 · LOAD 210% · OVERLOAD]"}
@@ -1195,6 +1368,7 @@ panels:
       fringes. The upper part is the window.
     acting:
       kang_jaeha: "staring through it, eyes unfocusing"
+    hands: none
     calm: top
     silent: true
     ui:
@@ -1213,6 +1387,7 @@ panels:
       canvas edge to edge.
     acting:
       kang_jaeha: "eyes unfocusing, lids heavy"
+    hands: none
     calm: none
     silent: true
     sfx:
@@ -1231,6 +1406,11 @@ panels:
     acting:
       geum_okran: "holding the ladle overhead, arms shaking, the steel arm sparking, shouting over her shoulder"
       borro: "straining behind the shield, on one knee"
+    hands:
+      geum_okran: "both arms overhead, shaking: RIGHT hand on the ladle's handle, steel LEFT hand (three metal fingers and a thumb) on the shaft, sparking at the joints"
+      borro: "on one knee: LEFT forearm through the shield's strap, RIGHT hand (four fingers and a thumb) flat on its inner face, pushing up"
+      deep_lantern: "only the webbed edge of her RIGHT hand, cropped at the top"
+    hand_ref: [grip_hilt_two_hands.png, shield_grip.png]
     eyeline: "Geum → Jaeha"
     foreground: "the hand's webbed edge, cropped, top"
     calm: top
@@ -1252,6 +1432,8 @@ panels:
       Close and low on Jaeha (kang_jaeha, training) on his knees, blood on his face, shouting up at her.
     acting:
       kang_jaeha: "on his knees, head up, shouting, desperate"
+    hands:
+      kang_jaeha: "hands below the frame"
     eyeline: "Jaeha → Geum"
     calm: right
     lines:
@@ -1268,6 +1450,8 @@ panels:
       Close on Geum (geum_okran) under the hand, the ladle's bowl glowing white over her head, her eyes fierce, the gold tooth bared.
     acting:
       geum_okran: "holding, eyes locked on him, teeth bared"
+    hands:
+      geum_okran: "both hands hold the ladle up out of frame, RIGHT on the handle, steel LEFT (three metal fingers and a thumb) on the shaft; only the glowing bowl shows"
     eyeline: "Geum → Jaeha"
     foreground: "the glowing ladle bowl, cropped, top"
     calm: left
@@ -1287,6 +1471,7 @@ panels:
       Low and close: Jaeha's eyes (kang_jaeha, training) clear; the grey pulls back from the edges of the frame; his jaw sets.
     acting:
       kang_jaeha: "eyes clearing, jaw setting, lifting his head"
+    hands: none
     calm: top
     lines:
       - {who: kang_jaeha, type: inner, text: "A WALL DOESN'T PUSH BACK. IT HOLDS."}
@@ -1307,6 +1492,10 @@ panels:
     acting:
       kang_jaeha: "opening his hand, letting the threads go, looking at her"
       moon_ahin: "catching the threads on her baton, steadying them, eyes wide"
+    hands:
+      kang_jaeha: "bare hands: splinted RIGHT hand opening toward her, palm up, fingers spreading as the threads leave it; LEFT hand at his side"
+      moon_ahin: "RIGHT hand holds the baton up, its tip catching the threads; LEFT gloved hand at her side"
+    hand_ref: [reaching_grabbing_wrist.png]
     eyeline: "Jaeha → Moon Ahin; Moon Ahin → the threads"
     foreground: "the cyan threads, cropped, top"
     calm: top
@@ -1327,6 +1516,9 @@ panels:
     acting:
       ahin_husks: "braced, cracking but holding"
       moon_ahin: "at the edge, whispering, conducting with tiny flicks"
+    hands:
+      ahin_husks: "arms locked through each other's elbows, braced, cracking but holding"
+      moon_ahin: "only her face at the frame edge; her hands out of frame"
     calm: right
     lines:
       - {who: moon_ahin, type: whisper, text: "HOLD, BYEOL. HOLD, NOEUL.", side: l}
@@ -1345,6 +1537,8 @@ panels:
       from red to cyan. The upper part is calm for the window.
     acting:
       kang_jaeha: "getting up, wiping his mouth with the back of his bandaged wrist"
+    hands:
+      kang_jaeha: "bare hands: back of the bandaged LEFT wrist wiping blood from his mouth; the splinted RIGHT hand pushing down on his RIGHT knee as he rises"
     calm: top
     silent: true
     ui:
@@ -1364,6 +1558,10 @@ panels:
     acting:
       kang_jaeha: "both palms flat on Borro's shell, feet planted, eyes steady"
       borro: "straining under the hand, turning his head to look back"
+    hands:
+      kang_jaeha: "bare hands: both palms flat on Borro's slate shell, fingers spread, arms straight, the splinted RIGHT index straight"
+      borro: "LEFT forearm through the shield's strap, RIGHT hand (four fingers and a thumb) flat on its inner face, holding the giant hand off"
+    hand_ref: [fists_and_bracing.png, shield_grip.png]
     eyeline: "Jaeha → Borro; Borro → Jaeha"
     foreground: "the shield's rivets, cropped, right"
     calm: top
@@ -1382,6 +1580,9 @@ panels:
       Close on Jaeha's palms (kang_jaeha) flat on Borro's slate shell, glowing white-gold; a cyan window hangs over them.
     acting:
       kang_jaeha: "only his hands, glowing, steady"
+    hands:
+      kang_jaeha: "bare hands: only his two hands, palms flat on the slate plates, fingers spread, glowing white-gold, the splinted RIGHT index straight"
+    hand_ref: [fists_and_bracing.png]
     calm: top
     silent: true
     ui:
@@ -1407,6 +1608,13 @@ panels:
       kang_jaeha: "palms on Borro's back, looking up, unmoving"
       borro: "raising the shield again"
       geum_okran: "raising the ladle again, grinning"
+    hands:
+      ahin_husks: "twelve sprinting, arms pumping; the rest still locked arm in arm in the wall"
+      moon_ahin: "small: RIGHT arm extended, the baton pointed at the flank; LEFT hand at her side"
+      deep_lantern: "her RIGHT webbed hand (four long fingers and a thumb) raised high, fingers spread"
+      kang_jaeha: "bare hands: seen from behind: both palms flat on Borro's back"
+      borro: "LEFT forearm through the shield's strap, RIGHT hand (four fingers and a thumb) on its inner face, raising it again"
+      geum_okran: "RIGHT hand raising the ladle again; steel LEFT hand (three metal fingers and a thumb) on its shaft"
     calm: top
     lines:
       - {who: moon_ahin, type: shout, text: "HE'LL WANT TO GIVE IT BACK TO HER. SAEBYEOK, TAKE ELEVEN. MAKE HIM A STAIR!", side: r}
@@ -1416,3 +1624,7 @@ panels:
   - id: END
     kind: end
     chibi_gag: "Chibi Pim on the light tower with his wings open, mid-scream, while chibi Lyra below holds up a scorecard reading '10'; chibi Nib, deadpan, holds one reading '......'."
+    hands:
+      pim: "chibi: arms flung wide, hands open (three fingers and a thumb)"
+      lyra: "chibi: both hands hold a scorecard up over her head"
+      nib: "chibi: RIGHT hand (four fingers and a thumb) holds a scorecard up at chest height"

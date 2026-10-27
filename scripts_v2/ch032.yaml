@@ -61,6 +61,8 @@ panels:
       cars, lights flashing.
     acting:
       kanghan_guard: "scattering out of the van's path, torches flying"
+    hands:
+      kanghan_guard: "scattering, arms flung up, torches flying out of their hands"
     calm: top
     sfx:
       - {text: "KRASSSH", style: impact, at: [0.50, 0.30], size: XL, rot: -6}
@@ -79,6 +81,10 @@ panels:
     acting:
       choi_dongmin: "leaping down from the van, megaphone up, pointing at the guards"
       gate_rescue: "piling out with stretchers and blankets"
+    hands:
+      choi_dongmin: "LEFT hand holds the megaphone up to his mouth; RIGHT arm extended, index finger pointing at the guards"
+      gate_rescue: "two responders carry a folded stretcher by its handles; others hug foil blankets in both arms"
+    hand_ref: [pointing.png]
     eyeline: "Choi → the guards"
     foreground: "the van's open door, cropped, left"
     calm: top
@@ -96,6 +102,8 @@ panels:
       Close on two Kanghan guards (kanghan_guard) looking at each other, then slowly lowering their batons.
     acting:
       kanghan_guard: "two guards glancing at each other, lowering their batons"
+    hands:
+      kanghan_guard: "RIGHT hands slowly lowering black batons; LEFT hands holding torches pointed at the mud"
     calm: left
     silent: true
     sfx:
@@ -114,6 +122,10 @@ panels:
     acting:
       song_yerin: "sprinting, the bag bouncing, face crumpling with relief"
       yoo_bomi: "sprinting, the drone under her arm, shouting names"
+    hands:
+      song_yerin: "RIGHT hand clutching the first-aid bag's strap at her chest; LEFT arm pumping"
+      yoo_bomi: "the drone tucked under her LEFT arm, the hand under it; RIGHT arm pumping"
+    hand_ref: [mouth_and_strap.png]
     calm: top
     sfx:
       - {text: "SPLASH SPLASH", style: impact, at: [0.70, 0.80], size: M, rot: 0}
@@ -132,6 +144,10 @@ panels:
     acting:
       song_yerin: "hands glowing over his chest, crying and concentrating at once"
       kang_jaeha: "lying in the mud, looking up at her, his hands trembling on the ground"
+    hands:
+      song_yerin: "both palms held just above his chest, fingers relaxed and slightly apart, glowing soft mint-green"
+      kang_jaeha: "RIGHT hand lying in the mud in the foreground, fingers trembling with faint tremor lines; LEFT hand in the mud at his side"
+    hand_ref: [healing_palms.png]
     eyeline: "Yerin → his hands; Jaeha → Yerin"
     foreground: "his shaking hand in the mud, cropped, bottom"
     calm: top
@@ -148,6 +164,10 @@ panels:
     light: "the screen glow"
     art: >
       Close on Yerin's hand holding the muddy phone to Jaeha's ear; his trembling fingers rest on her wrist.
+    hands:
+      song_yerin: "RIGHT hand holds the muddy phone flat to his LEFT ear, fingers round its back"
+      kang_jaeha: "LEFT hand raised, trembling fingers with faint tremor lines resting on her wrist"
+    hand_ref: [phone_hold.png]
     calm: right
     silent: true
     sfx:
@@ -165,6 +185,9 @@ panels:
       Close and low on Jaeha's face (kang_jaeha), the phone at his ear, his eyes closed, smiling.
     acting:
       kang_jaeha: "eyes closed, smiling, tears cutting through the mud on his cheeks"
+    hands:
+      kang_jaeha: "hands below the frame"
+      song_yerin: "only her RIGHT hand in frame at the edge, holding the phone to his LEFT ear"
     eyeline: "Jaeha → nowhere"
     foreground: "the phone and Yerin's hand, cropped, right"
     calm: top
@@ -188,6 +211,11 @@ panels:
       gate_rescue: "wrapping foil blankets round the crew"
       police: "stretching tape across the pier"
       ahin_husks: "standing in two muddy rows"
+    hands:
+      gate_rescue: "wrapping foil blankets round the crew's shoulders with both hands"
+      police: "one officer unrolling tape from a roll in his RIGHT hand, his LEFT hand pulling it taut"
+      ahin_husks: "arms hanging at their sides"
+      background: "the crew huddled in foil blankets, holding them closed; the summons sitting by Borro, hands in their laps"
     calm: top
     silent: true
     sfx:
@@ -206,6 +234,10 @@ panels:
     acting:
       crew_pyo: "gripping Jaeha's hand in both of his, eyes wet, nodding"
       kang_jaeha: "sitting up in his own foil blanket, letting him"
+    hands:
+      crew_pyo: "both hands clasped round Jaeha's RIGHT hand, his RIGHT palm under it, his LEFT over it"
+      kang_jaeha: "RIGHT hand held in Pyo's, fingers trembling with faint tremor lines; LEFT hand holding his foil blanket closed at his chest"
+    hand_ref: [handshake_and_peace.png]
     eyeline: "Pyo ↔ Jaeha"
     foreground: "the gold foil blanket, cropped, bottom"
     calm: top
@@ -224,6 +256,10 @@ panels:
     acting:
       moon_ahin: "holding out the phone in a muddy glove, chin up"
       choi_dongmin: "looking at the phone, then at her, coffee in his other hand"
+    hands:
+      moon_ahin: "LEFT muddy glove holds out the phone, fingers round its edges; RIGHT hand holds the baton at her side"
+      choi_dongmin: "LEFT hand reaching out for the phone; RIGHT hand holds a paper coffee cup"
+    hand_ref: [phone_hold.png, holding_cup.png]
     eyeline: "Moon Ahin ↔ Choi"
     foreground: "the muddy phone, cropped, centre"
     calm: top
@@ -243,6 +279,8 @@ panels:
       silver USB stick, no lanyard, plugged into the other side; on the laptop, a progress bar, flat green.
     acting:
       choi_dongmin: "hunched over the laptop, one eye on the van's door"
+    hands:
+      choi_dongmin: "both forearms resting on the fold-down desk, hands either side of the laptop, fingers still"
     calm: top
     silent: true
     ui:
@@ -257,6 +295,8 @@ panels:
     light: "the van's light"
     art: >
       Close on Choi's hands tucking the USB stick between two rolls of kimbap in a foil-lined takeaway box and closing the lid.
+    hands:
+      choi_dongmin: "RIGHT thumb and index finger push the USB stick down between two kimbap rolls; LEFT hand holds the box's lid open"
     calm: left
     silent: true
     sfx:
@@ -273,6 +313,8 @@ panels:
       Close and low on Choi (choi_dongmin) sliding the kimbap box under the van's seat with his foot, talking to himself.
     acting:
       choi_dongmin: "pushing the box under the seat with his foot, sour half-smile"
+    hands:
+      choi_dongmin: "both hands in his jacket pockets"
     eyeline: "Choi → the box"
     foreground: "the kimbap box under the seat, cropped, bottom"
     calm: top
@@ -301,6 +343,17 @@ panels:
       borro: "sitting with his cracked shield across his knees"
       nib: "sitting on Borro's shell"
       lyra: "lying flat on her back on the grass, arms spread"
+    hands:
+      kang_jaeha: "knees up, both arms round them under the blanket, hands hidden"
+      moon_ahin: "knees drawn up, forearms resting on them, the muddy baton loose in her RIGHT hand"
+      yoo_bomi: "asleep against Yerin, hands limp in her lap"
+      song_yerin: "RIGHT arm round Bomi's shoulders, holding her up; LEFT hand in her lap"
+      choi_dongmin: "RIGHT hand holds a paper coffee cup on his knee; LEFT hand holds his blanket closed"
+      borro: "both four-fingered hands resting on the cracked shield across his knees"
+      nib: "sitting on Borro's shell, long arms hanging over his knees, four-fingered hands loose"
+      lyra: "flat on her back, arms spread wide on the grass, hands open"
+      ahin_husks: "standing in two rows behind them, arms hanging"
+      background: "the crew sitting in foil blankets, holding them closed"
     calm: top
     lines:
       - {who: offpanel:crowd, type: tag, text: "6:40 AM."}
@@ -321,6 +374,10 @@ panels:
       moon_ahin: "sitting beside him, hugging her knees, eyes on No. 1"
       kang_jaeha: "turning his head to her"
       ahin_husks: "No. 1 standing at the water's edge, facing the dawn"
+    hands:
+      moon_ahin: "both arms wrapped round her knees, the baton held along her shin in her RIGHT hand"
+      kang_jaeha: "hands hidden under his foil blanket"
+      ahin_husks: "No. 1 at the water's edge, arms hanging at its sides"
     eyeline: "Moon Ahin → No. 1; Jaeha → Moon Ahin"
     foreground: "the foil blanket's crinkled edge, cropped, bottom"
     calm: top
@@ -341,6 +398,9 @@ panels:
     acting:
       moon_ahin: "looking at the husk, a small, unguarded smile"
       ahin_husks: "No. 1 standing against the sunrise"
+    hands:
+      moon_ahin: "seen from behind, her hands out of sight in front of her"
+      ahin_husks: "No. 1 a white silhouette, arms hanging at its sides"
     foreground: "her foil blanket slipping off one shoulder, cropped, bottom left"
     calm: top
     lines:
@@ -368,6 +428,9 @@ panels:
     acting:
       choi_dongmin: "handing over the bag, holding on to it a second too long"
       inspector_ryu: "taking the bag with both hands, tired, serious"
+    hands:
+      choi_dongmin: "RIGHT hand still gripping the top of the evidence bag, not letting go; LEFT hand in his jacket pocket"
+      inspector_ryu: "both hands holding the bottom of the bag"
     calm: top
     lines:
       - {who: offpanel:crowd, type: tag, text: "HUNTER ASSOCIATION. 9 AM."}
@@ -386,6 +449,10 @@ panels:
     acting:
       deputy_hwang: "holding out his hand, smiling warmly, head tilted"
       inspector_ryu: "hesitating, the bag held against his chest"
+    hands:
+      deputy_hwang: "RIGHT hand held out palm up for the bag, fingers open; LEFT hand at his side"
+      inspector_ryu: "both hands holding the bag flat against his chest"
+    hand_ref: [reaching_grabbing_wrist.png]
     eyeline: "Hwang → Ryu"
     foreground: "the evidence bag, cropped, bottom"
     calm: top
@@ -403,6 +470,9 @@ panels:
       Close on Ryu's hands (inspector_ryu) releasing the evidence bag into Hwang's; his face behind them is unhappy.
     acting:
       inspector_ryu: "letting go of the bag, mouth tight, eyes down"
+    hands:
+      inspector_ryu: "both hands opening, fingers lifting off the bag as he lets it go"
+      deputy_hwang: "RIGHT hand closing on the bag from below"
     calm: left
     silent: true
     sfx:
@@ -426,6 +496,16 @@ panels:
       choi_dongmin: "arms folded, scowling at the TV"
       crew_pyo: "sitting very still"
       borro: "squeezed into the corner, his head bowed under the ceiling"
+    hands:
+      kang_jaeha: "sitting forward, both hands wrapped round a paper coffee cup, faint tremor lines on his fingers"
+      yoo_bomi: "both hands on the laptop on her knees"
+      song_yerin: "hands clasped in her lap"
+      choi_dongmin: "arms folded across his chest"
+      crew_pyo: "hands resting flat on his knees"
+      borro: "stooping in the corner, four-fingered hands resting on his knees"
+      ahin_husks: "lined up along one wall, arms at their sides"
+      background: "the other crew and the summons, hands in their laps or out of sight"
+    hand_ref: [holding_cup.png, arms_relaxed.png]
     calm: top
     lines:
       - {who: offpanel:crowd, type: tag, text: "THAT AFTERNOON. 4 PM."}
@@ -444,6 +524,8 @@ panels:
       sorrowfully into the cameras. Keep the bottom fifth calm for the lower third.
     acting:
       deputy_hwang: "both hands on the podium, a sorrowful smile, head shaking slightly"
+    hands:
+      deputy_hwang: "both hands resting on the podium's edges, fingers curled over them"
     eyeline: "Hwang → the cameras"
     foreground: "microphones on the podium, cropped, bottom"
     calm: top
@@ -468,6 +550,12 @@ panels:
       crew_dami: "covering her face with both hands"
       crew_woo: "gripping Ho's arm"
       crew_pyo: "motionless, staring at the screen"
+    hands:
+      crew_ho: "RIGHT arm whipping forward, the hand just opening as the paper cup leaves it; LEFT hand clenched on his knee"
+      crew_dami: "both hands pressed over her face, fingertips at her brow"
+      crew_woo: "RIGHT hand gripping Ho's LEFT upper arm"
+      crew_pyo: "hands flat on his knees, motionless"
+    hand_ref: [mouth_and_strap.png, reaching_grabbing_wrist.png]
     calm: top
     lines:
       - {who: crew_pyo, type: speech, text: "UNRELIABLE. TEN YEARS, AND THAT'S THE WORD.", side: l}
@@ -487,6 +575,7 @@ panels:
       edge to edge.
     acting:
       kang_jaeha: "eyes narrowing, focused"
+    hands: none
     calm: none
     silent: true
 
@@ -500,6 +589,7 @@ panels:
     art: >
       News footage, close: as Hwang turns away from the podium, his jacket's lapel flips over for an instant, and on its underside is a small
       silver hexagon-in-a-hexagon pin.
+    hands: none
     calm: top
     silent: true
 
@@ -517,6 +607,11 @@ panels:
     acting:
       kang_jaeha: "pointing at the screen, his finger trembling"
       choi_dongmin: "leaning in, squinting, coffee stopped halfway"
+    hands:
+      kang_jaeha: "RIGHT arm extended, index finger pointing at the TV, trembling with faint tremor lines; LEFT hand holds the paper cup on his knee"
+      choi_dongmin: "RIGHT hand holds a paper coffee cup stopped halfway to his mouth; LEFT hand on his knee as he leans in"
+      yoo_bomi: "only her laptop's edge in frame; her hands out of frame"
+    hand_ref: [pointing.png, holding_cup.png]
     eyeline: "both → the TV"
     foreground: "Bomi's laptop with the paused frame, cropped, bottom"
     calm: top
@@ -535,6 +630,8 @@ panels:
       Bomi (yoo_bomi) jumps up with her laptop held out, fierce.
     acting:
       yoo_bomi: "jumping up, the laptop held out in both hands, eyes blazing"
+    hands:
+      yoo_bomi: "both hands hold the open laptop out at chest height, screen toward Jaeha"
     eyeline: "Bomi → Jaeha"
     foreground: "a folding chair's back, cropped, bottom left"
     calm: top
@@ -556,6 +653,11 @@ panels:
     acting:
       kang_jaeha: "shaking his head, eyes on the husks"
       yoo_bomi: "lowering the laptop, frustrated"
+    hands:
+      kang_jaeha: "both hands round the paper cup in his lap, faint tremor lines on his fingers"
+      yoo_bomi: "both hands lowering the open laptop to her waist"
+      ahin_husks: "only shoulders and arms in frame, hands hanging still"
+    hand_ref: [holding_cup.png]
     eyeline: "Jaeha → the husks; Bomi → Jaeha"
     foreground: "the row of muddy husks, cropped, right"
     calm: top
@@ -574,6 +676,9 @@ panels:
       Close on Choi (choi_dongmin) patting a foil-lined kimbap box on his knee.
     acting:
       choi_dongmin: "patting the box twice, a tired, sly smile"
+    hands:
+      choi_dongmin: "RIGHT hand pats the lid of the kimbap box on his knee; LEFT hand steadies the box's side"
+      yoo_bomi: "only her laptop's edge in frame; her hands out of frame"
     eyeline: "Choi → Bomi"
     foreground: "Bomi's laptop, cropped, right"
     calm: right
@@ -591,6 +696,7 @@ panels:
       Close on Lyra (lyra) squeezed into the corner, hearing the word 'tuna' and looking up hopefully.
     acting:
       lyra: "head popping up, eyes hopeful"
+    hands: none
     calm: left
     lines:
       - {who: lyra, type: speech, text: "...IS IT FOR SHARING?", side: r}
@@ -606,6 +712,9 @@ panels:
     light: "the TV glow"
     art: >
       Close on Jaeha's hands round the paper cup: the coffee trembles in rings, and a drop slops over the rim onto his knee.
+    hands:
+      kang_jaeha: "both gloved hands wrapped round the paper cup, fingers trembling with faint tremor lines; a drop slops over the rim onto his knee"
+    hand_ref: [holding_cup.png]
     calm: top
     silent: true
     sfx:
@@ -622,6 +731,7 @@ panels:
       Close on Yerin (song_yerin) watching his hands, worried, saying nothing.
     acting:
       song_yerin: "watching his hands, lips pressed together, brows drawn"
+    hands: none
     calm: right
     silent: true
 
@@ -639,6 +749,9 @@ panels:
       RIGHT hand; no ribbon now, her long black hair loose; a small bandage on the back of her bare LEFT hand. A glamour panel, the whole figure, and furious.
     acting:
       moon_ahin: "striding, baton swinging, hair loose, eyes cold and furious"
+    hands:
+      moon_ahin: "RIGHT gloved hand holds the baton, swinging low with her stride; bare LEFT hand, a small bandage on its back, swinging at her side; LEFT glove tucked in her belt"
+      background: "secretaries bowing, hands folded in front of them"
     calm: top
     lines:
       - {who: offpanel:crowd, type: tag, text: "KANGHAN TOWER. EARLIER THAT AFTERNOON."}
@@ -658,6 +771,9 @@ panels:
     acting:
       baek_taegun: "turning slowly, both hands on the cane, the faint polite smile"
       moon_ahin: "stopping inside the door, baton at her side"
+    hands:
+      baek_taegun: "both hands folded on the cane's handle, RIGHT over LEFT"
+      moon_ahin: "RIGHT hand holds the baton at her side; bare LEFT hand at her side"
     eyeline: "Baek ↔ Moon Ahin"
     foreground: "the glass case and the violet core, cropped, bottom"
     calm: top
@@ -675,6 +791,7 @@ panels:
       Close and low on Moon Ahin (moon_ahin), speaking very quietly.
     acting:
       moon_ahin: "very still, voice quiet, eyes fixed on him"
+    hands: none
     eyeline: "Moon Ahin → Baek"
     foreground: "the violet glow of the core, cropped, left"
     calm: top
@@ -686,14 +803,18 @@ panels:
     shape: wide
     gap: short
     bg: white
-    camera: "eye level, two-shot across the office: Baek walking slowly to the glass case and resting his gloved hand on it"
+    camera: "eye level, two-shot across the office: Baek walking slowly to the glass case and resting his hand on it"
     light: "hard daylight; violet"
     art: >
-      Two-shot across the office: Baek (baek_taegun) walks slowly to the glass case and rests his gloved hand on it, looking at the core inside, not
+      Two-shot across the office: Baek (baek_taegun) walks slowly to the glass case and rests his hand on it, looking at the core inside, not
       at her.
     acting:
-      baek_taegun: "resting a gloved hand on the glass case, looking at the core, gentle"
+      baek_taegun: "resting a hand on the glass case, looking at the core, gentle"
       moon_ahin: "watching him, baton tight in her fist"
+    hands:
+      baek_taegun: "RIGHT hand rests flat on the glass case's top; LEFT hand at his side; the cane leans against the case"
+      moon_ahin: "RIGHT fist clenched round the baton at her side; bare LEFT hand at her side"
+    hand_ref: [fists_and_bracing.png]
     eyeline: "Baek → the core; Moon Ahin → Baek"
     foreground: "the cane leaning against the case, cropped, bottom"
     calm: top
@@ -711,6 +832,8 @@ panels:
       From low, past the glowing core: Baek (baek_taegun) turns his head to look at her, gentle and kind, the violet light under his face.
     acting:
       baek_taegun: "turning his head to her, gentle, the polite smile, eyes kind"
+    hands:
+      baek_taegun: "RIGHT hand still resting on the glass case at the bottom edge; LEFT hand out of frame"
     eyeline: "Baek → Moon Ahin"
     foreground: "the glass case's edge, cropped, bottom"
     calm: top
@@ -728,6 +851,8 @@ panels:
       Close on Moon Ahin (moon_ahin): no answer; her jaw works; the baton trembles at her side.
     acting:
       moon_ahin: "jaw working, eyes wet and furious, the baton trembling"
+    hands:
+      moon_ahin: "RIGHT hand at her side, the baton trembling in her fist; bare LEFT hand out of frame"
     calm: top
     silent: true
     sfx:
@@ -745,6 +870,9 @@ panels:
     acting:
       baek_taegun: "speaking gently, one hand still on the case"
       moon_ahin: "standing rigid across the office"
+    hands:
+      baek_taegun: "RIGHT hand still resting on the glass case; LEFT hand out of frame"
+      moon_ahin: "standing rigid: RIGHT hand gripping the baton at her side; bare LEFT hand at her side"
     eyeline: "Baek → Moon Ahin"
     foreground: "Baek's shoulder and silver glasses' edge, cropped, left"
     calm: top
@@ -763,6 +891,9 @@ panels:
     acting:
       moon_ahin: "turning away, walking to the door, back straight"
       baek_taegun: "watching her go, the smile unchanged"
+    hands:
+      moon_ahin: "RIGHT hand holds the baton at her side; bare LEFT hand swinging as she walks"
+      baek_taegun: "RIGHT hand on the glass case; LEFT hand at his side"
     calm: top
     silent: true
     sfx:
@@ -779,6 +910,9 @@ panels:
       Low at the door: Moon Ahin (moon_ahin) stops with her gloved hand on it and speaks without turning round.
     acting:
       moon_ahin: "hand on the door, not turning, voice quiet"
+    hands:
+      moon_ahin: "RIGHT gloved fist, closed round the baton, rests against the door at shoulder height; bare LEFT hand, the bandage on its back, at her side"
+    hand_ref: [fists_and_bracing.png]
     eyeline: "Moon Ahin → the door"
     foreground: "the door's steel handle, cropped, right"
     calm: top
@@ -798,6 +932,7 @@ panels:
       Close on Baek (baek_taegun) alone after the door closes, one eyebrow lifting a fraction behind his silver glasses.
     acting:
       baek_taegun: "one eyebrow lifting a fraction, the smile thinning"
+    hands: none
     calm: left
     silent: true
     sfx:
@@ -816,6 +951,8 @@ panels:
       slowly alone in his hoodie, Minseok's rusted lamp in his hand; long gold bars of sun across the floor.
     acting:
       kang_jaeha: "walking slowly, the rusted lamp held carefully in both hands"
+    hands:
+      kang_jaeha: "RIGHT hand holds the rusted lamp carefully against his chest, faint tremor lines on his fingers; LEFT hand at his side"
     calm: top
     lines:
       - {who: offpanel:crowd, type: tag, text: "THE COLUMBARIUM. 5:40 PM."}
@@ -830,6 +967,9 @@ panels:
     art: >
       Straight on, close: the ledge under Minseok's niche; Jaeha's trembling hands set the rusted hard-hat lamp down beside Choi's can of coffee;
       behind the glass, Minseok's photo grins with his thumb up, the little sticker beside it.
+    hands:
+      kang_jaeha: "both gloved hands set the rusted lamp down on the ledge beside the coffee can, fingers round it, trembling with faint tremor lines"
+    hand_ref: [holding_cup.png]
     calm: top
     silent: true
     sfx:
@@ -848,6 +988,8 @@ panels:
       shaking.
     acting:
       kang_jaeha: "hands in his hoodie pocket, a small smile, eyes wet"
+    hands:
+      kang_jaeha: "both hands pushed into the hoodie's front pocket, hidden"
     eyeline: "Jaeha → the photo"
     foreground: "the rusted lamp on the ledge, cropped, bottom"
     calm: top
@@ -866,6 +1008,8 @@ panels:
       Close on the photo of Minseok behind the glass (oh_minseok), grinning his crooked grin, thumb up, the gold light falling across it.
     acting:
       oh_minseok: "in the photo: grinning, thumb up"
+    hands:
+      oh_minseok: "in the photo: RIGHT hand raised in a thumbs-up beside his grin"
     calm: right
     silent: true
 
@@ -881,6 +1025,9 @@ panels:
       Jaeha (kang_jaeha) checks the time on his phone with an awkward two-handed grip, then hurries away down the gold-barred corridor.
     acting:
       kang_jaeha: "holding the phone in both hands to keep it still, then hurrying off"
+    hands:
+      kang_jaeha: "both hands clamp the phone upright at chest height, thumbs on its edges, faint tremor lines on his fingers"
+    hand_ref: [phone_hold.png]
     eyeline: "Jaeha → the phone"
     foreground: "the edge of the niche wall, cropped, left"
     calm: top
@@ -901,6 +1048,9 @@ panels:
       on the dash.
     acting:
       han_sora: "slouched, boots on the dash, turning her bandaged wrist in the light, then reaching for the phone"
+    hands:
+      han_sora: "RIGHT hand raised, turning the bandaged wrist in the light; LEFT hand reaching for the phone buzzing on the dash"
+    hand_ref: [reaching_grabbing_wrist.png]
     calm: top
     lines:
       - {who: offpanel:crowd, type: tag, text: "DUSK."}
@@ -918,6 +1068,8 @@ panels:
       Close and low on Sora (han_sora) answering, the phone at her ear, a lazy smile.
     acting:
       han_sora: "phone at her ear, a lazy smile, head tipped back against the seat"
+    hands:
+      han_sora: "LEFT hand holds the phone to her LEFT ear; RIGHT hand draped over the steering wheel at the bottom of the frame, the bandaged wrist resting on it"
     eyeline: "Sora → the windscreen"
     foreground: "the bandaged wrist resting on the steering wheel, cropped, bottom"
     calm: top
@@ -936,6 +1088,8 @@ panels:
       him, the violet core glowing behind.
     acting:
       baek_taegun: "standing at the glass, phone at his ear, the other hand on the cane"
+    hands:
+      baek_taegun: "LEFT hand holds a slim phone to his LEFT ear; RIGHT hand on the cane's glowing handle at his side"
     eyeline: "Baek → the city"
     foreground: "the cane's glowing violet handle, cropped, bottom right"
     calm: top
@@ -953,6 +1107,8 @@ panels:
       Close and low on Sora (han_sora) in the car, turning her bandaged wrist in the light, delighted all over again.
     acting:
       han_sora: "turning the wrist in the light, eyes bright"
+    hands:
+      han_sora: "RIGHT hand raised, turning the bandaged wrist in the light; LEFT hand holds the phone to her LEFT ear"
     eyeline: "Sora → her wrist"
     foreground: "the steering wheel, cropped, bottom"
     calm: top
@@ -970,6 +1126,8 @@ panels:
       Close on Baek (baek_taegun) at the glass, listening, the polite smile faint.
     acting:
       baek_taegun: "listening, eyes half closed, the smile faint"
+    hands:
+      baek_taegun: "LEFT hand holds the phone to his LEFT ear; RIGHT hand below the frame"
     eyeline: "Baek → the city"
     foreground: "his reflection in the glass, cropped, right"
     calm: top
@@ -987,6 +1145,8 @@ panels:
       Close and low on Sora (han_sora), the smile gone for once, serious.
     acting:
       han_sora: "serious, sitting up, boots coming off the dash"
+    hands:
+      han_sora: "sitting up: LEFT hand holds the phone to her LEFT ear; RIGHT hand on the steering wheel"
     eyeline: "Sora → the river below"
     foreground: "the dark windscreen, cropped, top"
     calm: top
@@ -999,10 +1159,13 @@ panels:
     shape: inset-r
     gap: short
     bg: black
-    camera: "close on Baek's gloved hand tightening slowly on the cane's glowing handle"
+    camera: "close on Baek's hand tightening slowly on the cane's glowing handle"
     light: "violet"
     art: >
-      Close on Baek's gloved hand tightening slowly on the cane's glowing violet handle.
+      Close on Baek's hand tightening slowly on the cane's glowing violet handle.
+    hands:
+      baek_taegun: "RIGHT hand tightening slowly round the glowing violet handle, fingers curled over the silver claws, knuckles rising"
+    hand_ref: [fists_and_bracing.png]
     calm: left
     silent: true
     sfx:
@@ -1019,6 +1182,8 @@ panels:
       Close and low on Sora (han_sora) in the car: a slow, eager smile returning.
     acting:
       han_sora: "the smile returning slowly, eager"
+    hands:
+      han_sora: "RIGHT hand draped over the steering wheel at the bottom of the frame, the bandaged wrist on it; LEFT hand holds the phone to her LEFT ear"
     eyeline: "Sora → the windscreen"
     foreground: "the bandaged wrist, cropped, bottom"
     calm: top
@@ -1037,6 +1202,7 @@ panels:
       lenses. Fill the canvas edge to edge.
     acting:
       baek_taegun: "eyes still, thinking"
+    hands: none
     calm: none
     silent: true
 
@@ -1051,6 +1217,8 @@ panels:
       Baek (baek_taegun) at the glass from behind: the whole city spread below him, the river and its bridges glowing; the phone at his ear.
     acting:
       baek_taegun: "seen from behind at the glass, perfectly still, the cane at his side"
+    hands:
+      baek_taegun: "seen from behind: LEFT hand holds the phone to his LEFT ear; RIGHT hand on the cane at his side"
     eyeline: "Baek → the city"
     foreground: "the violet core's glow on the glass, cropped, right"
     calm: top
@@ -1068,6 +1236,8 @@ panels:
       Close on Sora (han_sora) frowning, puzzled.
     acting:
       han_sora: "frowning, head tilted, phone at her ear"
+    hands:
+      han_sora: "LEFT hand holds the phone to her LEFT ear; RIGHT hand out of frame"
     eyeline: "Sora → nowhere"
     foreground: "the steering wheel, cropped, right"
     calm: right
@@ -1086,6 +1256,8 @@ panels:
       for the first time.
     acting:
       baek_taegun: "turning from the glass, the full polite smile, eyes cold"
+    hands:
+      baek_taegun: "RIGHT hand on the cane's glowing handle at the bottom of the frame, fingers over the silver claws; LEFT hand holds the phone to his LEFT ear"
     eyeline: "Baek → the camera's side"
     foreground: "the cane's glowing handle, cropped, bottom"
     calm: top
@@ -1102,6 +1274,8 @@ panels:
     art: >
       High over Mangwon's dark roofs after dark: on one small rooftop, strung with warm bulbs, tiny figures set a fold-out table with dishes; one
       small figure in a hoodie hurries up the outside stairs.
+    hands:
+      background: "tiny figures setting dishes on a fold-out table; one small figure in a hoodie hurrying up the outside stairs, arms swinging"
     calm: top
     silent: true
     sfx:
@@ -1110,3 +1284,6 @@ panels:
   - id: END
     kind: end
     chibi_gag: "Chibi Choi sleeps in the Gate Rescue van hugging a kimbap box like a teddy bear, while chibi Lyra creeps toward it on tiptoe with chopsticks."
+    hands:
+      choi_dongmin: "chibi, asleep: both arms wrapped round the kimbap box, hugging it to his chest"
+      lyra: "chibi, on tiptoe: RIGHT hand holds a pair of chopsticks poised; LEFT arm out for balance"

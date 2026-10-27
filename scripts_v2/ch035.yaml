@@ -54,6 +54,9 @@ panels:
     acting:
       geum_okran: "one short downward stroke with the ladle, feet planted, face bored"
       brine_crawler: "bursting apart into ash mid-lunge"
+    hands:
+      geum_okran: "RIGHT fist round the ladle's handle, arm finishing a short downward stroke, the bowl striking the shell; prosthetic LEFT arm relaxed at her side"
+    hand_ref: [grip_hilt_one_hand.png]
     calm: top
     sfx:
       - {text: "DOOOONG", style: impact, at: [0.40, 0.30], size: XL, rot: -6}
@@ -70,6 +73,9 @@ panels:
       steam rises off the plates of her steel LEFT arm.
     acting:
       geum_okran: "standing easy, the ladle hanging, looking down at the ash with mild disgust"
+    hands:
+      geum_okran: "RIGHT hand hangs at her side holding the ladle loosely by the handle, bowl near her slippers; steel LEFT arm (three metal fingers and a thumb) relaxed, steaming"
+    hand_ref: [grip_hilt_one_hand.png]
     calm: left
     silent: true
     sfx:
@@ -88,6 +94,10 @@ panels:
     acting:
       kang_jaeha: "propped on one hand, mouth open, eyes wide, the bleeding arm in his lap"
       fishermen: "crawling away fast on hands and knees, his rod abandoned"
+    hands:
+      kang_jaeha: "bare hands: propped up on his RIGHT hand, flat on the concrete behind him; the bleeding LEFT forearm lying in his lap, hand limp"
+      fishermen: "crawling away on hands and knees, palms flat on the concrete"
+    hand_ref: [fists_and_bracing.png]
     calm: right
     silent: true
     sfx:
@@ -106,6 +116,8 @@ panels:
     acting:
       geum_okran: "swinging the steel arm backhand, one slipper stamping down, the ladle held high out of the way"
       brine_crawler: "one bursting into ash against the concrete, one pinned by the tail, claws flailing"
+    hands:
+      geum_okran: "steel LEFT arm swinging out backhand, its three metal fingers curled into a fist; RIGHT arm holds the ladle up high, out of the way"
     calm: top
     sfx:
       - {text: "KRANG", style: impact, at: [0.30, 0.40], size: L, rot: -8}
@@ -121,6 +133,7 @@ panels:
     art: >
       Close on the bowl of the steel ladle after the last strike: a faint white ring of force spreads off it like a ripple on water and
       fades. The ash of the last crawler drifts past.
+    hands: none
     calm: left
     silent: true
     sfx:
@@ -140,6 +153,10 @@ panels:
     acting:
       kang_jaeha: "getting up, holding his LEFT forearm with his RIGHT hand, eyes sharp on the ladle"
       geum_okran: "wiping the ladle on her apron, not looking at him"
+    hands:
+      kang_jaeha: "bare hands: RIGHT hand clamps round his bleeding LEFT forearm, thumb on one side, fingers on the other; LEFT hand hanging limp"
+      geum_okran: "RIGHT hand holds the ladle by the handle; steel LEFT hand (three metal fingers and a thumb) bunches a fold of her apron round the bowl, wiping it"
+    hand_ref: [reaching_grabbing_wrist.png]
     eyeline: "Jaeha → the ladle; Geum → the ladle"
     foreground: "a tetrapod's grey leg, cropped, left"
     calm: top
@@ -162,6 +179,9 @@ panels:
     acting:
       geum_okran: "at the parapet, the ladle on her shoulder, the steel fingers flexing, eyes on the water"
       kang_jaeha: "seen from behind, cradling his arm, turned toward her"
+    hands:
+      geum_okran: "RIGHT hand holds the ladle on her RIGHT shoulder; steel LEFT hand at her side, its three metal fingers slowly flexing"
+      kang_jaeha: "seen from behind, cropped at the right edge; both hands in front of him cradling the bleeding forearm, hidden by his body"
     eyeline: "Geum → the sea; Jaeha → Geum"
     foreground: "Jaeha's shoulder and the towel, cropped, right"
     calm: top
@@ -185,6 +205,10 @@ panels:
       geum_okran: "sitting with her knees apart, the ladle across them"
       kang_jaeha: "sitting hunched, turned toward her, holding the towel tight round his forearm"
       nib: "standing behind them, knives loose, ears toward the sea"
+    hands:
+      geum_okran: "RIGHT hand on the ladle lying across her knees; steel LEFT hand (three metal fingers and a thumb) resting on her LEFT knee"
+      kang_jaeha: "bare hands: RIGHT hand presses the towel tight round his LEFT forearm, which rests across his lap"
+      nib: "a knife hanging loose in each four-fingered hand, reverse grip, arms relaxed at his sides"
     calm: top
     silent: true
     sfx:
@@ -201,6 +225,7 @@ panels:
     art: >
       A thin strip across the same breakwater as the colour drains out of it to greys, while the sea below turns violet and starts to
       churn. Fill the canvas edge to edge.
+    hands: none
     calm: none
     silent: true
     lines:
@@ -229,6 +254,9 @@ panels:
     acting:
       geum_okran: "tiny at the front of the line, the steel door up"
       fishermen: "a thin ragged line behind her, boat hooks and harpoons raised"
+    hands:
+      geum_okran: "tiny: her LEFT forearm (her own, no prosthetic yet) through the steel door's handles, holding it up in front of her"
+      fishermen: "tiny: both hands on boat hooks and harpoons, raised behind her"
     calm: top
     silent: true
     sfx:
@@ -248,6 +276,10 @@ panels:
     acting:
       geum_okran: "braced behind the steel door with her LEFT arm, RIGHT fist punching past its edge, teeth bared, the gold tooth showing"
       fishermen: "stabbing over her shoulders with boat hooks and harpoons, terrified and holding"
+    hands:
+      geum_okran: "LEFT forearm (her own, no prosthetic yet) through the door's two handles, hand gripping the far one, shoulder braced into it; RIGHT fist punching past the door's edge"
+      fishermen: "both hands on boat hooks and harpoons, thrusting them over her shoulders past the door"
+    hand_ref: [shield_grip.png, fists_and_bracing.png]
     calm: top
     lines:
       - {who: geum_okran, type: narr_dark, text: "I SOLD FISH. THAT NIGHT I WOKE UP STRONG, AND I GRABBED A DOOR."}
@@ -269,6 +301,10 @@ panels:
     acting:
       operator_1: "walking steadily, hands in his coat pockets, head down, face in shadow"
       light_fighters: "walking ahead of him in a loose line; the vast one in the water gliding alongside, its lantern held high"
+    hands:
+      operator_1: "both hands in his coat pockets"
+      light_fighters: "arms hanging at their sides, the hands soft featureless shapes of light"
+      background: "the fleeing crowd runs past him, arms pumping; no hand detail"
     calm: top
     lines:
       - {who: geum_okran, type: narr_dark, text: "THEN A BOY WALKED PAST ME. THE WRONG WAY."}
@@ -287,6 +323,9 @@ panels:
     acting:
       light_fighters: "diving headfirst into the violet water one after another, the great lantern going under last"
       operator_1: "standing at the edge, one hand raised as if sending them, face turned away"
+    hands:
+      operator_1: "RIGHT arm raised forward at shoulder height, open palm toward the sea as if sending them; LEFT hand in his coat pocket"
+      light_fighters: "diving headfirst, arms stretched out ahead, hands soft featureless light"
     calm: top
     lines:
       - {who: geum_okran, type: narr_dark, text: "HE SENT THEM IN FIRST. ALL OF THEM."}
@@ -305,6 +344,7 @@ panels:
       after him.
     acting:
       geum_okran: "staring back over her shoulder, eyes narrowed, mouth open mid-shout"
+    hands: none
     calm: right
     lines:
       - {who: geum_okran, type: narr_dark, text: "I THOUGHT, WHO SENDS PEOPLE IN FIRST LIKE THAT?"}
@@ -323,6 +363,9 @@ panels:
       steel door.
     acting:
       operator_1: "kneeling, hunched, both bleeding hands braced on the concrete, shoulders shaking"
+    hands:
+      operator_1: "kneeling, both bleeding hands braced flat on the concrete in front of him, fingers spread, arms locked and shaking"
+    hand_ref: [fists_and_bracing.png]
     calm: top
     lines:
       - {who: geum_okran, type: narr_dark, text: "AND HE BLED FOR THEM. NOSE, HANDS. LIKE YOU."}
@@ -339,6 +382,9 @@ panels:
     art: >
       Close on the man's bleeding hand on the concrete as the amber threads above it go slack and snap one by one; the blood stops
       running.
+    hands:
+      operator_1: "only his RIGHT hand, braced flat on the concrete, fingers spread, blood on the knuckles; the rest of him out of frame"
+    hand_ref: [fists_and_bracing.png]
     calm: left
     lines:
       - {who: geum_okran, type: narr_dark, text: "THEN HE STOPPED BLEEDING."}
@@ -355,6 +401,7 @@ panels:
       candles; the great lantern of light, deepest of all, is the last to go dark.
     acting:
       light_fighters: "dim shapes under the water, going out one by one"
+    hands: none
     calm: top
     lines:
       - {who: geum_okran, type: narr_dark, text: "BECAUSE HE'D STOPPED CARRYING THEM. AND NOT ONE CAME BACK."}
@@ -372,6 +419,8 @@ panels:
       rising from the water a kilometre beyond, until he is gone. We never see his face.
     acting:
       operator_1: "walking away from us, small, hands at his sides, never looking back"
+    hands:
+      operator_1: "small, seen from behind: arms hanging at his sides, hands empty"
     calm: top
     silent: true
     sfx:
@@ -391,6 +440,8 @@ panels:
       under the hand.
     acting:
       geum_okran: "a tiny figure bracing under the steel door, head tilted back"
+    hands:
+      geum_okran: "tiny: LEFT forearm (her own, no prosthetic yet) through the door's handles, holding it up overhead; RIGHT hand pushing up under its edge"
     calm: top
     silent: true
     sfx:
@@ -409,6 +460,8 @@ panels:
       No gore: the arm is hidden by the white flash and the spray.
     acting:
       geum_okran: "knees bent, braced, teeth clenched, eyes wide, refusing to fall"
+    hands:
+      geum_okran: "LEFT arm (her own) lost in the white flash behind the bursting door, no prosthetic yet; RIGHT fist clenched at her side, braced"
     calm: top
     lines:
       - {who: geum_okran, type: narr_dark, text: "I HELD IT. MY ARM DIDN'T."}
@@ -428,6 +481,8 @@ panels:
       sleeve pinned up short above the elbow over a bandage. Scale: the ring is 300 m across; the ships are toys around it.
     acting:
       geum_okran: "small on a barge's deck, the pinned-up sleeve, her RIGHT hand on the rail, watching"
+    hands:
+      geum_okran: "small: RIGHT hand resting on the barge's rail; LEFT sleeve pinned up short above the elbow, no LEFT forearm or hand (no prosthetic yet)"
     calm: top
     lines:
       - {who: geum_okran, type: narr_dark, text: "IT SANK AT DAWN. FOR THREE DAYS WE BUILT A LID OUT OF ITS OWN STONES. IT'S PUSHED EVER SINCE."}
@@ -448,6 +503,9 @@ panels:
     acting:
       geum_okran: "looking down at the steel hand on her knee, flexing the fingers slowly"
       kang_jaeha: "sitting very still beside her, listening"
+    hands:
+      geum_okran: "steel LEFT hand resting on her LEFT knee, its three metal fingers and thumb flexing slowly; RIGHT hand on the ladle lying across her lap"
+      kang_jaeha: "bare hands: sitting still, the towel-wrapped LEFT forearm resting in his lap, RIGHT hand over it"
     eyeline: "Geum → her hand; Jaeha → Geum"
     calm: top
     lines:
@@ -467,6 +525,7 @@ panels:
       Extreme close-up of Jaeha's eyes (kang_jaeha), the lighthouse beam sweeping across them. Fill the canvas edge to edge.
     acting:
       kang_jaeha: "eyes wide, then narrowing, very still"
+    hands: none
     calm: none
     lines:
       - {who: kang_jaeha, type: inner, text: "SOMEONE CARRIED LIKE ME. AND THEN HE STOPPED."}
@@ -485,6 +544,10 @@ panels:
     acting:
       kang_jaeha: "looking down at his trembling open hands"
       geum_okran: "turned toward him, the ladle across her knees"
+    hands:
+      kang_jaeha: "both bare hands held open in front of him at waist height, palms up, trembling; the towel still wrapped round the LEFT forearm"
+      geum_okran: "RIGHT hand on the ladle lying across her knees; steel LEFT hand (three metal fingers and a thumb) resting on her LEFT knee"
+    hand_ref: [reaching_grabbing_wrist.png]
     eyeline: "Jaeha → his hands; Geum → Jaeha"
     foreground: "the parapet's edge, cropped, bottom"
     calm: top
@@ -504,6 +567,9 @@ panels:
     acting:
       geum_okran: "tapping his chest with the ladle, eyes hard and kind"
       kang_jaeha: "looking down at the ladle on his chest"
+    hands:
+      geum_okran: "RIGHT hand on the ladle's handle, cropped at the left edge, its bowl tapping his chest over his heart; prosthetic LEFT arm out of frame"
+      kang_jaeha: "hands below the frame"
     eyeline: "Geum → Jaeha"
     foreground: "the ladle's handle, cropped, left"
     calm: left
@@ -528,6 +594,11 @@ panels:
       market_aunties: "the tiny one running in her boots, pointing back over her shoulder, mouth wide"
       geum_okran: "turning, the ladle coming off her shoulder"
       kang_jaeha: "turning, wiping his face with the towel, then going still"
+    hands:
+      market_aunties: "the tiny one runs pointing back over her shoulder with her RIGHT index finger, LEFT arm pumping"
+      geum_okran: "RIGHT hand swinging the ladle down off her RIGHT shoulder; prosthetic LEFT arm at her side"
+      kang_jaeha: "bare hands: RIGHT hand wipes his face with one end of the towel round his neck; bandaged LEFT arm at his side"
+    hand_ref: [pointing.png]
     calm: top
     lines:
       - {who: offpanel:crowd, type: tag, text: "WEDNESDAY, 7:10 AM."}
@@ -545,6 +616,7 @@ panels:
     art: >
       Through the open cold-store door: frost on everything, racks of frozen fish in boxes, and between two racks a door-height violet
       slit hanging in the air, its rim pale. The upper part is empty for the window.
+    hands: none
     calm: top
     silent: true
     ui:
@@ -568,6 +640,12 @@ panels:
       nib: "sniffing the air, ears up"
       lyra: "hugging herself against the cold"
       borro: "ducking under the doorframe"
+    hands:
+      geum_okran: "RIGHT hand holds the ladle, tapping its bowl into her open steel LEFT palm (three metal fingers and a thumb)"
+      kang_jaeha: "bare hands: arms at his sides, hands relaxed, the white bandage on his LEFT forearm"
+      nib: "arms hanging at his sides, four-fingered hands relaxed"
+      lyra: "arms wrapped round herself, each hand gripping the opposite upper arm"
+      borro: "ducking: huge four-fingered RIGHT hand braced on the top of the doorframe; LEFT forearm through the shield's strap, the shield low"
     eyeline: "Geum → the slit; Jaeha → Geum"
     foreground: "the frosted edge of the steel door, cropped, left"
     calm: top
@@ -591,6 +669,10 @@ panels:
     acting:
       geum_okran: "pointing the ladle at his nose, stern"
       kang_jaeha: "leaning back from the ladle, a little cross-eyed, then serious"
+    hands:
+      geum_okran: "RIGHT arm extended, fist round the ladle's handle, the bowl's rim an inch from his nose; prosthetic LEFT arm below the frame"
+      kang_jaeha: "leaning back, hands low at his sides, below the frame"
+    hand_ref: [grip_hilt_one_hand.png]
     eyeline: "Geum → Jaeha; Jaeha → the ladle"
     foreground: "a frozen fish box, cropped, bottom"
     calm: top
@@ -611,6 +693,9 @@ panels:
       Close on Jaeha's finger (kang_jaeha) hesitating over a window, then pressing it. The upper half is empty for the window.
     acting:
       kang_jaeha: "his finger hovering, then pressing, reluctant"
+    hands:
+      kang_jaeha: "only his bare RIGHT hand, the index finger extended and hovering, about to press, other fingers curled"
+    hand_ref: [pointing.png]
     calm: top
     silent: true
     ui:
@@ -632,6 +717,13 @@ panels:
       geum_okran: "walking in with the ladle on her shoulder"
       lyra: "stepping through, bow in hand"
       borro: "squeezing through last, shield first"
+    hands:
+      nib: "seen from behind: a knife in each four-fingered hand in reverse grip"
+      kang_jaeha: "bare hands: seen from behind: LEFT hand holds the notebook; RIGHT arm relaxed at his side"
+      geum_okran: "RIGHT hand holds the ladle on her RIGHT shoulder; prosthetic LEFT arm at her side"
+      lyra: "LEFT hand holds the white longbow upright by its grip; RIGHT arm relaxed at her side"
+      borro: "LEFT forearm through the shield's strap, holding it out ahead of him; huge four-fingered RIGHT hand at his side"
+    hand_ref: [reverse_grip_knives.png, shield_grip.png]
     calm: top
     silent: true
     sfx:
@@ -649,6 +741,7 @@ panels:
       with waves, sea-green water knee-deep, coral growing up the walls, shafts of blue-green light falling from cracks in the vaulted
       roof; at the far end a raised dais where something like a small domed stone shrine sits half under the water. The five of them
       stand small at the entrance. Scale: the pillars are 8 m tall.
+    hands: none
     calm: top
     silent: true
     sfx:
@@ -669,6 +762,11 @@ panels:
       nib: "dropping into a crouch, knives reversed, eyes blazing amber"
       borro: "raising the iron shield, eyes glowing moss green"
       lyra: "drawing an arrow, eyes going cold and river blue"
+    hands:
+      nib: "crouched low, a knife in each four-fingered hand in reverse grip, blades along his forearms"
+      borro: "raising the iron shield on his LEFT forearm, hand closed on its inner grip; huge four-fingered RIGHT hand open at his side"
+      lyra: "LEFT hand holds the white longbow at her side; gloved RIGHT hand pulls a blue-fletched arrow from the quiver at her RIGHT hip"
+    hand_ref: [reverse_grip_knives.png, shield_grip.png]
     calm: top
     ui:
       - {kind: system.notice, "on": float, at: [0.5, 0.86], text: "[FIELD FORM · NIB 05:00 · BORRO 05:00 · LYRA 05:00 · LINKED · NOT CARRIED]"}
@@ -689,6 +787,7 @@ panels:
       The lower part is calm for a window.
     acting:
       reef_hermit: "rising on its legs, claws opening wide, eye-stalks swivelling toward them"
+    hands: none
     calm: bottom
     ui:
       - {kind: system.warning, "on": float, at: [0.5, 0.88], text: "[BOSS: REEF HERMIT (D) · NEW KIND]"}
@@ -708,6 +807,9 @@ panels:
     acting:
       reef_hermit: "driving the big claw forward, legs braced"
       borro: "pinned against the pillar behind his shield, straining"
+    hands:
+      borro: "LEFT forearm through the shield's strap, hand on its grip; huge four-fingered RIGHT hand braced flat on the shield's back, pushing"
+    hand_ref: [shield_grip.png]
     calm: top
     sfx:
       - {text: "KRAKOOM", style: impact, at: [0.40, 0.40], size: XL, rot: -6}
@@ -726,6 +828,10 @@ panels:
     acting:
       kang_jaeha: "clutching his chest, leaning toward Borro, desperate"
       geum_okran: "her steel hand gripping his shoulder, holding him back"
+    hands:
+      kang_jaeha: "RIGHT hand clutches a fistful of tracksuit over his heart; LEFT arm below the frame"
+      geum_okran: "only her steel LEFT hand (three metal fingers and a thumb), gripping his RIGHT shoulder from beside him, the metal fingers curved over the top"
+    hand_ref: [mouth_and_strap.png]
     calm: right
     ui:
       - {kind: system.notice_small, "on": float, at: [0.70, 0.86], text: "[CARRY: DISABLED]"}
@@ -748,6 +854,9 @@ panels:
     acting:
       lyra: "at the release of a second arrow, string hand by her cheek, one eye narrowed, scowling, lips pressed"
       reef_hermit: "turning its shell toward the arrows"
+    hands:
+      lyra: "LEFT arm extended, hand closed round the white longbow's grip; gloved RIGHT hand just released by her cheek, fingers opening"
+    hand_ref: [bow_draw.png]
     calm: top
     sfx:
       - {text: "TINK TINK", style: impact, at: [0.70, 0.30], size: M, rot: 6}
@@ -765,6 +874,9 @@ panels:
     acting:
       nib: "flung sideways through the air, knives still gripped, teeth bared"
       reef_hermit: "swatting with the smaller claw"
+    hands:
+      nib: "flung sideways, a knife still gripped in each four-fingered hand in reverse grip, arms flung out"
+    hand_ref: [reverse_grip_knives.png]
     calm: top
     sfx:
       - {text: "SHRAK", style: impact, at: [0.30, 0.40], size: L, rot: -8}
@@ -781,6 +893,9 @@ panels:
       Close on Nib (nib, field form) pushing himself up out of the water against the pillar, his RIGHT arm bleeding, glaring back at Jaeha.
     acting:
       nib: "pushing up with his good arm, the bleeding arm tight to his side, glaring over his shoulder"
+    hands:
+      nib: "LEFT four-fingered fist presses on the pillar, pushing him up, its knife still reversed; bleeding RIGHT arm tight to his side, knife in hand"
+    hand_ref: [reverse_grip_knives.png]
     eyeline: "Nib → Jaeha"
     foreground: "the cracked pillar, cropped, left"
     calm: left
@@ -801,6 +916,10 @@ panels:
     acting:
       kang_jaeha: "fists clenched at his sides, jaw locked, eyes wet"
       geum_okran: "watching the fight, the ladle resting on her shoulder, calm"
+    hands:
+      kang_jaeha: "bare hands: RIGHT fist clenched tight at his side; LEFT hand clenched white round the notebook at his other side; both trembling"
+      geum_okran: "RIGHT hand holds the ladle resting on her RIGHT shoulder; steel LEFT hand (three metal fingers and a thumb) relaxed at her side"
+    hand_ref: [fists_and_bracing.png]
     eyeline: "Jaeha → Nib; Geum → the Hermit"
     foreground: "a coral branch, cropped, right"
     calm: top
@@ -824,6 +943,8 @@ panels:
     acting:
       reef_hermit: "tapping Borro's shell with the claw tip, eye-stalks leaning in"
       borro: "pinned, turning his head to watch the claw"
+    hands:
+      borro: "both hands hidden behind the pinned shield"
     calm: top
     silent: true
     sfx:
@@ -842,6 +963,9 @@ panels:
       and an arrow from the small shell to a humped shell. Leave a blank band for the letterer's note. No readable text.
     acting:
       kang_jaeha: "seen from behind, writing fast, the notebook held close"
+    hands:
+      kang_jaeha: "bare hands: LEFT hand holds the open notebook close, thumb across the page; RIGHT hand sketches fast with the pencil"
+    hand_ref: [notebook_and_pencil.png]
     calm: none
     lines:
       - {who: kang_jaeha, type: note, text: "HERMIT CRABS TRADE UP. IT WANTS HIS SHELL."}
@@ -860,6 +984,9 @@ panels:
     acting:
       kang_jaeha: "two fingers at his temple, eyes narrowed, a tiny cold smile"
       borro: "pinned, listening, one slow eyebrow rising"
+    hands:
+      kang_jaeha: "LEFT index and middle fingers pressed to his LEFT temple, other fingers curled; RIGHT hand below the frame"
+      borro: "both hands hidden behind the pinned shield"
     eyeline: "both → each other across the seam"
     foreground: "the moss-green seam, top to bottom"
     calm: top
@@ -881,6 +1008,9 @@ panels:
       little, like a house with its door open, trying very hard to look empty.
     acting:
       borro: "slumping, shield lowered a little, shell plates gaping, an innocent face"
+    hands:
+      borro: "LEFT forearm through the shield's strap, lowering it a hand's width; huge four-fingered RIGHT hand hanging loose at his side"
+    hand_ref: [shield_grip.png]
     calm: left
     silent: true
     sfx:
@@ -898,6 +1028,7 @@ panels:
       reaches toward Borro's open shell, greedy; for an instant its whole soft abdomen hangs bare between the two shells.
     acting:
       reef_hermit: "half out of its shrine, claws reaching for Borro's shell, soft body exposed"
+    hands: none
     calm: top
     silent: true
     sfx:
@@ -915,6 +1046,8 @@ panels:
       Close on Jaeha's mouth (kang_jaeha) and two fingers at his temple, a thin river-blue thread running off-panel.
     acting:
       kang_jaeha: "lips barely moving, fingers pressed to his temple"
+    hands:
+      kang_jaeha: "LEFT index and middle fingers pressed to his LEFT temple, the other fingers curled; RIGHT hand out of frame"
     calm: right
     lines:
       - {who: kang_jaeha, type: intense, text: "LYRA. NOW.", side: l}
@@ -933,6 +1066,10 @@ panels:
       lyra: "at the release, string at her cheek, eyes cold"
       nib: "landing on the carapace, both knives driving down"
       reef_hermit: "convulsing, half out of its shell"
+    hands:
+      lyra: "LEFT arm extended, hand closed round the longbow's grip; gloved RIGHT hand at her cheek at the release, fingers opening off the string"
+      nib: "both four-fingered fists, knives in reverse grip, driving the blades down together into the crack"
+    hand_ref: [bow_draw.png, reverse_grip_knives.png]
     calm: top
     sfx:
       - {text: "THWOK", style: impact, at: [0.30, 0.40], size: L, rot: -6}
@@ -954,6 +1091,12 @@ panels:
       borro: "stepping away from the pillar, shield lowering"
       nib: "landing in a crouch, knives out"
       lyra: "lowering the bow, braid swinging"
+    hands:
+      borro: "LEFT forearm through the shield's strap, letting it lower; huge four-fingered RIGHT hand loose at his side"
+      nib: "landing in a crouch, a knife in each four-fingered hand in reverse grip"
+      lyra: "LEFT hand lowers the longbow by its grip; RIGHT hand relaxed at her side"
+      kang_jaeha: "bare hands: small at the entrance: arms at his sides"
+      geum_okran: "small at the entrance: RIGHT hand holds the ladle on her shoulder; prosthetic LEFT arm at her side"
     calm: top
     sfx:
       - {text: "BWOOOSH", style: impact, at: [0.50, 0.30], size: XL, rot: 0}
@@ -970,6 +1113,8 @@ panels:
       Close on Borro (borro, rest form) patting the plates of his shell back into place with one huge hand, deeply offended.
     acting:
       borro: "patting his shell plates shut, frowning slowly"
+    hands:
+      borro: "huge four-fingered RIGHT hand pats the slate plates on his RIGHT shoulder flat; LEFT arm out of frame"
     calm: left
     lines:
       - {who: borro, type: speech, text: "I AM NOT ROOMY.", side: l}
@@ -986,6 +1131,7 @@ panels:
     light: "cyan window; settling ash"
     art: >
       High over the hall as the ash settles on the water; the five of them small below. The upper half is empty for the window.
+    hands: none
     calm: top
     silent: true
     ui:
@@ -1003,6 +1149,7 @@ panels:
       Close on Jaeha (kang_jaeha, training) reading a second window, his eyes widening. The upper half is empty for the window.
     acting:
       kang_jaeha: "eyes widening, lips parting"
+    hands: none
     calm: top
     silent: true
     ui:
@@ -1021,6 +1168,9 @@ panels:
       the ash.
     acting:
       kang_jaeha: "his finger pausing, then pressing"
+    hands:
+      kang_jaeha: "only his bare RIGHT hand, the index finger stopped a hair from the button's place, other fingers curled"
+    hand_ref: [pointing.png]
     calm: top
     ui:
       - {kind: system.window, "on": float, at: [0.5, 0.08], headline: "[HARVEST CORE · EST. ₩2,000,000]", body: "NO OTHER OPTION IS AVAILABLE.", button: "HARVEST"}
@@ -1040,6 +1190,10 @@ panels:
     acting:
       nib: "holding his bleeding arm, looking up at Jaeha, ears level"
       kang_jaeha: "tearing a strip off the towel, crouching to his height"
+    hands:
+      nib: "four-fingered LEFT hand clamps over the cut on his RIGHT upper arm; RIGHT arm hanging; both knives back in their sheaths"
+      kang_jaeha: "bare hands: crouching: both hands tear a strip off the end of his towel, RIGHT hand pulling, LEFT hand holding the towel"
+    hand_ref: [reaching_grabbing_wrist.png]
     eyeline: "Nib → Jaeha (up); Jaeha → Nib's arm"
     foreground: "the fallen bronze bell in the water, cropped, bottom"
     calm: top
@@ -1061,6 +1215,9 @@ panels:
       Close on Geum (geum_okran), the ladle on her shoulder, the gold tooth showing in a satisfied grin.
     acting:
       geum_okran: "grinning, chin up, eyes on Jaeha"
+    hands:
+      geum_okran: "RIGHT hand grips the ladle's handle where it rests on her RIGHT shoulder; prosthetic LEFT arm below the frame"
+    hand_ref: [grip_hilt_one_hand.png]
     eyeline: "Geum → Jaeha"
     foreground: "a pillar's carved waves, cropped, right"
     calm: right
@@ -1081,6 +1238,10 @@ panels:
       geum_okran: "chibi, handing out skewers like medals"
       lyra: "chibi, counting her fish cakes on her fingers, outraged"
       borro: "chibi, holding a tower of fish cakes, blissful"
+    hands:
+      geum_okran: "chibi: RIGHT hand holds out a fish-cake skewer like a medal; steel LEFT hand (three metal fingers and a thumb) holds a bunch more"
+      lyra: "chibi: LEFT fist full of skewers; RIGHT hand held up counting on its fingers, outraged"
+      borro: "chibi: both hands hold up a tall tower of fish-cake skewers, four fingers each"
     calm: top
     lines:
       - {who: lyra, type: shout, text: "I GOT SIX! HE GOT SEVEN!", side: l}
@@ -1098,6 +1259,8 @@ panels:
       ten years ago, a small window glowing in front of him. Scale: he is a speck at the edge of the black sea.
     acting:
       kang_jaeha: "a small figure standing straight at the edge, hands at his sides, looking at the window"
+    hands:
+      kang_jaeha: "bare hands: small: arms straight at his sides, hands relaxed"
     calm: top
     silent: true
     ui:
@@ -1116,6 +1279,9 @@ panels:
     acting:
       geum_okran: "stopping beside him, the ladle on her shoulder, looking out to sea"
       kang_jaeha: "turning his head to her"
+    hands:
+      geum_okran: "seen from behind: RIGHT hand holds the ladle on her RIGHT shoulder; prosthetic LEFT arm at her side"
+      kang_jaeha: "bare hands: seen from behind: arms relaxed at his sides, the bandaged LEFT forearm showing"
     eyeline: "Geum → the sea; Jaeha → Geum"
     foreground: "the lighthouse railing, cropped, top"
     calm: top
@@ -1134,6 +1300,9 @@ panels:
     art: >
       Close on Jaeha's fingertip touching the tiny cyan mark of the held call in the air (the pinned mark from ch 15-18), and the mark
       blooming open into cyan light.
+    hands:
+      kang_jaeha: "only his bare RIGHT index fingertip touching the tiny cyan mark, other fingers curled, the hand entering from the frame edge"
+    hand_ref: [pointing.png]
     calm: left
     silent: true
     sfx:
@@ -1153,6 +1322,7 @@ panels:
       something small and fluffy on top of it, its antennae up.
     acting:
       kang_jaeha: "tiny, standing in the black water, turning toward the lit rift"
+    hands: none
     calm: top
     silent: true
     ui:
@@ -1174,6 +1344,7 @@ panels:
     acting:
       pim: "pressed right up to Jaeha's face, eyes huge and sparkling, antennae shooting straight up, tiny mouth wide open"
       kang_jaeha: "jerking back, eyes wide, a sweat drop"
+    hands: none
     calm: top
     lines:
       - {who: pim, type: shout, text: "FINALLY! I'VE BEEN WAITING FOREVER!", side: r}
@@ -1181,3 +1352,6 @@ panels:
   - id: END
     kind: end
     chibi_gag: "Chibi Borro sits with his shell plates gaping like an open house while a tiny chibi hermit crab carries a suitcase up to his back; Borro, deadpan: 'I AM NOT FOR RENT.'"
+    hands:
+      borro: "chibi: sitting, both hands resting on his knees, four fingers each"
+      background: "the tiny chibi hermit crab holds a suitcase by its handle in its bigger RIGHT claw"

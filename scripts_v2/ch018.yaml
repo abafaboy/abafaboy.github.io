@@ -43,6 +43,9 @@ panels:
       the dome fall round the team pressed against one chalk-ringed pillar; small bells snap from their chains and plunge.
     acting:
       bell_ringer: "rigid, both hands on its bell-head, the bronze shaking"
+    hands:
+      bell_ringer: "both huge stone hands clamped on the sides of its bell-head, fingers spread over the bronze, elbows out; four fingers and a thumb each"
+      background: "the team tiny at the pillar under Borro's raised shield, arms tucked in close; no hand detail"
     calm: top
     ui:
       - {kind: system.warning, "on": float, at: [0.5, 0.06], text: "[BOSS ENRAGED · 00:22]"}
@@ -64,6 +67,13 @@ panels:
       borro: "shoving the shield up over everyone, feet braced"
       song_yerin: "ducking under him, arms over her head"
       mok_hangyu: "ducking, the cracked shield on his arm"
+    hands:
+      borro: "LEFT forearm through the shield's strap, hand closed on the grip; RIGHT palm flat under its lower edge; both arms shoving it up overhead; four fingers and a thumb each"
+      song_yerin: "both forearms crossed over her head, the chalk stub still in her RIGHT fist, LEFT hand open on the back of her head"
+      mok_hangyu: "LEFT forearm through the cracked shield's strap, the shield tilted up over his head; RIGHT hand on its upper edge, helping hold it"
+      kang_jaeha: "crouched beside Borro, RIGHT palm flat on his shell, LEFT forearm raised over his head against the falling dust"
+      nib: "crouched low, a notched knife in reverse grip in each four-fingered hand, fists close to his chest"
+    hand_ref: [shield_grip.png]
     calm: top
     sfx:
       - {text: "KRRAAASH", style: impact, at: [0.50, 0.24], size: XL, rot: 8}
@@ -81,6 +91,9 @@ panels:
       from his nose; a moss-green ring pulses out.
     acting:
       kang_jaeha: "knees buckling, one hand on Borro's shell, blood pouring, teeth bared"
+    hands:
+      kang_jaeha: "RIGHT palm flat on Borro's shell, fingers spread, his weight pressing into it; LEFT hand clenched in a fist against his buckling thigh"
+    hand_ref: [fists_and_bracing.png]
     calm: top
     ui:
       - {kind: system.warning, "on": float, at: [0.5, 0.86], text: "[CARRY · BORRO · 120% · OVERLOAD]"}
@@ -99,6 +112,10 @@ panels:
       shield up over the others.
     acting:
       borro: "buried to the waist in rubble, still holding the shield up, calm eyes glowing green through the mask"
+    hands:
+      borro: "both arms still raised overhead holding the shield: LEFT forearm through the strap, RIGHT palm flat under it; four fingers and a thumb each"
+      background: "the others crouched in the shadow under the shield, arms over their heads; no hand detail"
+    hand_ref: [shield_grip.png]
     calm: top
     sfx:
       - {text: "KRRRUMBLE", style: impact, at: [0.50, 0.70], size: L, rot: 0}
@@ -115,6 +132,9 @@ panels:
       his husk face; the drone's lens peeks out of the moss on his shell.
     acting:
       borro: "buried to the waist, arms up holding the shield, calm"
+    hands:
+      borro: "both arms raised overhead holding the shield up: LEFT forearm through the strap, hand on the grip; RIGHT palm flat under it; four fingers and a thumb each"
+    hand_ref: [shield_grip.png]
     eyeline: "Borro → Jaeha"
     foreground: "the rubble round his waist, cropped, bottom"
     calm: top
@@ -133,6 +153,9 @@ panels:
       notched.
     acting:
       nib: "crouched on the fallen bell, knives notched, breathing hard, outline flickering"
+    hands:
+      nib: "crouched, a notched knife in reverse grip in each four-fingered hand, forearms resting on his knees, blades along the forearms"
+    hand_ref: [reverse_grip_knives.png]
     eyeline: "Nib → Jaeha"
     foreground: "the fallen bell's rim, cropped, bottom"
     calm: top
@@ -153,6 +176,10 @@ panels:
     acting:
       mok_hangyu: "gripping Jaeha's vest, eyes wild, shouting into his face"
       kang_jaeha: "letting himself be shaken, eyes elsewhere, thinking"
+    hands:
+      mok_hangyu: "RIGHT fist grips the front of Jaeha's vest, knuckles twisted into the orange cloth; LEFT forearm through the cracked shield's strap"
+      kang_jaeha: "arms hanging loose at his sides, gloved hands open, letting himself be shaken"
+    hand_ref: [hand_on_shoulder.png]
     eyeline: "Mok → Jaeha; Jaeha → the giant"
     foreground: "the cracked shield's edge, cropped, left"
     calm: top
@@ -169,6 +196,9 @@ panels:
     art: >
       Jaeha's point of view past Mok's shoulder: the ringing giant in the falling dust; at the very edge of his vision in the top
       corner, the tiny cyan mark, pulsing.
+    hands:
+      mok_hangyu: "only his shoulder in the near foreground; hands out of frame"
+      bell_ringer: "both huge stone hands still clamped on its ringing bell-head; four fingers and a thumb each"
     calm: top
     ui:
       - {kind: system.notice_small, "on": float, at: [0.84, 0.08], text: "[CALL · HELD]"}
@@ -186,6 +216,10 @@ panels:
       Close on Jaeha (kang_jaeha), the cold private face, blood on his lip.
     acting:
       kang_jaeha: "a thin, bloody smile, eyes level"
+    hands:
+      mok_hangyu: "only his RIGHT fist in frame at the bottom edge, knuckles gripping the front of Jaeha's vest"
+      kang_jaeha: "hands below the frame"
+    hand_ref: [hand_on_shoulder.png]
     eyeline: "Jaeha → Mok"
     foreground: "Mok's fist in his vest, cropped, bottom"
     calm: right
@@ -205,6 +239,11 @@ panels:
     acting:
       kang_jaeha: "pushing Mok down under the shield with both hands, speaking fast"
       mok_hangyu: "pushed down, staring up at him"
+    hands:
+      kang_jaeha: "both gloved hands flat on Mok's shoulders, shoving him down, elbows bent, fingers curving over the shoulders"
+      mok_hangyu: "RIGHT hand knocked off Jaeha's vest, dropping to brace flat on the stone behind him; LEFT forearm through the cracked shield's strap"
+      borro: "only his LEFT forearm at the top edge, through the shield's strap, the four-fingered hand closed on the grip"
+    hand_ref: [hand_on_shoulder.png, fists_and_bracing.png]
     eyeline: "Jaeha → Mok"
     foreground: "Borro's shield arm, cropped, top"
     calm: top
@@ -223,6 +262,10 @@ panels:
       Close on Yerin (song_yerin) crouched under the shield, nodding hard, her hands glowing mint.
     acting:
       song_yerin: "nodding hard, hands glowing, eyes fierce"
+    hands:
+      song_yerin: "both hands raised at chest height glowing mint: LEFT palm open, the chalk stub still in her RIGHT fist; fingertips showing past the long sleeves"
+      borro: "only his LEFT forearm at the top edge, through the shield's strap, the four-fingered hand on the grip"
+    hand_ref: [healing_palms.png]
     eyeline: "Yerin → Jaeha"
     foreground: "Borro's shield arm above her, cropped, top"
     calm: left
@@ -239,6 +282,9 @@ panels:
     art: >
       Close on Jaeha's bloody fingertip reaching up and touching the tiny cyan mark in the air at the edge of his vision; it
       blooms open under his touch.
+    hands:
+      kang_jaeha: "RIGHT index finger reaching up, its bare bloody tip touching the cyan mark, the other gloved fingers loosely curled; the rest of the arm cropped"
+    hand_ref: [pointing.png]
     calm: right
     silent: true
     sfx:
@@ -264,6 +310,8 @@ panels:
       The Call (location call_void): the endless black water under a starless sky. This time only one rift stands open, tall and
       bright: inside it, a wide river shining under a silver sky, a bank of pale stones and reeds, a stilt house far off. A
       single thick cyan line runs from it to Jaeha, a speck on the black water before it, bleeding.
+    hands:
+      kang_jaeha: "a speck on the black water, arms hanging at his sides; no hand detail at this size"
     calm: top
     ui:
       - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[CALL OPEN · 01:00]"}
@@ -282,6 +330,8 @@ panels:
       his face, his reflection broken by ripples.
     acting:
       kang_jaeha: "standing straight, empty-handed, looking into the rift, breathing hard"
+    hands:
+      kang_jaeha: "arms hanging relaxed at his sides, gloved hands open and empty"
     eyeline: "Jaeha → the rift"
     calm: top
     silent: true
@@ -298,6 +348,7 @@ panels:
     art: >
       Through the rift: the riverbank of pale stones and reeds swaying in a breeze, the river sliding by; nobody visible yet, only
       a woman's laugh carrying over the water.
+    hands: none
     calm: top
     lines:
       - {who: offpanel:lyra, type: speech, text: "WELL, WELL. IT'S THE MERCHANT WITH THE FREE RAMEN.", side: r}
@@ -316,6 +367,7 @@ panels:
       Close on Jaeha (kang_jaeha), wincing at the memory, a sweat drop.
     acting:
       kang_jaeha: "wincing, one eye shut, a small embarrassed smile"
+    hands: none
     calm: right
     lines:
       - {who: kang_jaeha, type: nervous, text: "I'VE IMPROVED SINCE THEN, MISS. MY OFFERS HAVE, ANYWAY.", side: l}
@@ -333,6 +385,8 @@ panels:
       She does not look round yet.
     acting:
       lyra: "sitting on the boulder, half turned away, one hand idly plucking the bowstring, chin raised"
+    hands:
+      lyra: "LEFT hand resting on the bow's grip across her knees; RIGHT gloved index finger idly plucking the blue string"
     calm: top
     silent: true
     sfx:
@@ -350,6 +404,8 @@ panels:
       shoulder; the braid swings.
     acting:
       lyra: "glancing back over her shoulder, one eyebrow raised, a smug half-smile"
+    hands:
+      lyra: "hands below the frame; the bow still across her knees"
     eyeline: "Lyra → Jaeha"
     foreground: "the rift's silver rim, cropped, left"
     calm: top
@@ -365,6 +421,7 @@ panels:
     light: "red"
     art: >
       Close on a small red window hanging in the dark corner of the Call, carried over from the real world.
+    hands: none
     calm: left
     ui:
       - {kind: system.warning, "on": float, at: [0.5, 0.40], text: "[BOSS ENRAGED · 00:17]"}
@@ -382,6 +439,8 @@ panels:
       From low on the water: Jaeha (kang_jaeha) steps toward the rift and speaks fast and plain, one bloody hand open.
     acting:
       kang_jaeha: "stepping forward, one hand open at his side, speaking fast, eyes steady"
+    hands:
+      kang_jaeha: "RIGHT hand hanging open at his side, bloody fingers spread; LEFT arm relaxed"
     eyeline: "Jaeha → Lyra"
     foreground: "ripples on the black water, cropped, bottom"
     calm: top
@@ -400,6 +459,9 @@ panels:
       right hand, playful.
     acting:
       lyra: "standing on the boulder, bow in her left hand, counting on her right, a teasing smile, hip cocked"
+    hands:
+      lyra: "LEFT hand holds the longbow upright at her side, its lower tip on the boulder; RIGHT gloved hand raised by her face, index and middle fingers up, counting two"
+    hand_ref: [handshake_and_peace.png]
     eyeline: "Lyra → Jaeha"
     foreground: "reeds at the river's edge, cropped, bottom"
     calm: top
@@ -417,6 +479,7 @@ panels:
       Close on the woman's face (lyra) going still, the smile fading as she looks away across the river.
     acting:
       lyra: "the smile gone, eyes drifting to the far bank, jaw tight"
+    hands: none
     eyeline: "Lyra → the far bank"
     calm: right
     lines:
@@ -432,6 +495,7 @@ panels:
     art: >
       A thin strip through the rift: the stilt house far off by the river, a small empty boat tied to it, nobody there. Fill the
       canvas edge to edge.
+    hands: none
     calm: none
     silent: true
 
@@ -447,6 +511,9 @@ panels:
       Close and low on Jaeha (kang_jaeha), speaking honestly, the silver light on his bloody face.
     acting:
       kang_jaeha: "steady, tired, honest eyes, one hand on his chest"
+    hands:
+      kang_jaeha: "RIGHT gloved hand pressed flat to the middle of his chest; LEFT hand below the frame"
+    hand_ref: [mouth_and_strap.png]
     eyeline: "Jaeha → Lyra"
     foreground: "the rift's silver rim, cropped, right"
     calm: top
@@ -465,6 +532,8 @@ panels:
       Close on the woman (lyra), one eyebrow up, tapping the white bow against her shoulder, unconvinced.
     acting:
       lyra: "tapping the bow on her shoulder, one eyebrow raised, lips pursed"
+    hands:
+      lyra: "LEFT hand holds the bow's grip at her waist, the upper limb leaning across her body, tapping her RIGHT shoulder; RIGHT hand below the frame"
     eyeline: "Lyra → Jaeha"
     foreground: "the white bow's upper limb, cropped, top left"
     calm: left
@@ -480,6 +549,7 @@ panels:
     light: "red"
     art: >
       Close on the small red window in the dark corner of the Call.
+    hands: none
     calm: right
     ui:
       - {kind: system.warning, "on": float, at: [0.5, 0.40], text: "[BOSS ENRAGED · 00:12]"}
@@ -498,6 +568,9 @@ panels:
       grin.
     acting:
       kang_jaeha: "pointing back over his shoulder with his thumb, a crooked grin, eyes alight"
+    hands:
+      kang_jaeha: "RIGHT thumb jabbing back over his RIGHT shoulder, the other fingers curled into the palm; LEFT hand relaxed at his side"
+    hand_ref: [pointing.png]
     eyeline: "Jaeha → Lyra"
     calm: top
     lines:
@@ -515,6 +588,9 @@ panels:
       cheek.
     acting:
       lyra: "eyes huge and sparkling, mouth open, one hand on her cheek, the bow forgotten"
+    hands:
+      lyra: "RIGHT gloved hand pressed to her RIGHT cheek, fingers splayed; LEFT hand below the frame, the bow hanging forgotten in it"
+    hand_ref: [mouth_and_strap.png]
     eyeline: "Lyra → Jaeha"
     calm: top
     lines:
@@ -535,6 +611,9 @@ panels:
     acting:
       lyra: "leaping forward, bow in her left hand, right hand reaching for an arrow, a fierce delighted grin"
       kang_jaeha: "bracing, one arm up against the glare"
+    hands:
+      lyra: "LEFT hand grips the longbow, the bow swept back along her body; RIGHT gloved hand reaching back to the quiver at her RIGHT hip for an arrow"
+      kang_jaeha: "RIGHT forearm raised across his eyes against the glare, palm out; LEFT arm braced low at his side, fist clenched"
     calm: top
     lines:
       - {who: lyra, type: speech, text: "THEN STAND BACK, MERCHANT!", side: l}
@@ -550,6 +629,7 @@ panels:
     light: "white flooding out"
     art: >
       The Call floods white from the river rift outward. The upper half is empty for the window.
+    hands: none
     calm: top
     ui:
       - {kind: system.window, "on": float, at: [0.5, 0.05], headline: "[ACCEPTED · 00:09]", body: "SUMMON NO. 3 IS COMING THROUGH · SUMMON SLOTS 3/3 · ROUTE ALIGNMENT 100% → 0%", button: "OK"}
@@ -570,6 +650,11 @@ panels:
       kang_jaeha: "eyes snapping open, looking up"
       mok_hangyu: "crouched over him with the cracked shield, looking up"
       bell_ringer: "ringing, unaware"
+    hands:
+      kang_jaeha: "hands below the frame"
+      mok_hangyu: "LEFT forearm through the cracked shield's strap, holding it over Jaeha like a roof; RIGHT hand gripping its upper edge"
+      bell_ringer: "arms now hanging at its sides, huge hands empty, clear of its ringing bell-head; four fingers and a thumb each"
+    hand_ref: [shield_grip.png]
     calm: top
     sfx:
       - {text: "VRRRZZZT", style: summon, at: [0.66, 0.24], size: L, rot: 0}
@@ -590,10 +675,14 @@ panels:
       LEFT forearm, the glove on her right hand, the white sash and flute, the short split river-blue skirt over fitted dark
       shorts, the white thigh-high boots. A beautiful face, a confident smirk, an athletic curvy figure, full model-sheet
       proportions (about 8 heads, long legs). The camera floats level with her: never below her, never aimed up her skirt.
-      Scale: she is a tenth of the giant's height.
+      Scale: she is about a third of the giant's height (182 cm against 6 m).
     acting:
       lyra: "landing in a wide archer's stance on the giant's shoulder, bow at full draw, chin up, a confident smirk, the braid flying"
       bell_ringer: "ringing, its bell-head beside her"
+    hands:
+      lyra: "LEFT arm extended, hand round the bow's grip, wrist straight, silver bracer on the forearm; RIGHT gloved fingers hooking the string at her jaw, RIGHT elbow raised level behind her"
+      bell_ringer: "arms hanging at its sides, huge hands open and empty, clear of her; four fingers and a thumb each"
+    hand_ref: [bow_draw.png]
     calm: top
     sfx:
       - {text: "SPLASHHH", style: summon, at: [0.20, 0.80], size: L, rot: -6}
@@ -612,6 +701,10 @@ panels:
     acting:
       kang_jaeha: "blushing, eyes sliding to the side, a hand half raised over his face"
       nib: "flat eyes, mouth a straight line, arms folded"
+    hands:
+      kang_jaeha: "RIGHT hand half raised in front of his face, fingers loosely spread, not hiding the blush; LEFT hand below the frame"
+      nib: "arms folded across his chest, long four-fingered hands gripping his upper arms; knives sheathed at his back"
+    hand_ref: [arms_relaxed.png]
     eyeline: "Jaeha → anywhere else; Nib → Lyra"
     calm: top
     lines:
@@ -626,6 +719,10 @@ panels:
     light: "daylight; the screen glow"
     art: >
       Outside at the spillway, close on Bomi's phone in her trembling hands, the screen flat green, Choi gaping over her shoulder.
+    hands:
+      yoo_bomi: "both hands hold the phone upright at chest height, fingers round its back, thumbs at its lower corners off the green screen, trembling"
+      choi_dongmin: "hands out of frame; only his face over her shoulder"
+    hand_ref: [phone_hold.png]
     calm: top
     ui:
       - kind: phone.live_stream
@@ -648,6 +745,8 @@ panels:
     art: >
       In the nave outside the sealed doors, close on Sora's wrist: the compass needle spins wildly round and round, blazing
       violet.
+    hands:
+      han_sora: "only her RIGHT forearm and hand in frame, palm up, fingers loosely curled, the brass compass on its chain lying across the wrist"
     calm: left
     silent: true
     sfx:
@@ -664,6 +763,8 @@ panels:
       Close on Sora (han_sora) in the nave, staring at her spinning compass, then laughing out loud.
     acting:
       han_sora: "staring at the compass, then throwing her head back in a laugh"
+    hands:
+      han_sora: "RIGHT wrist raised at shoulder height, palm up, the brass compass on its chain at the wrist; LEFT hand below the frame"
     eyeline: "Sora → the compass"
     calm: right
     lines:
@@ -682,6 +783,9 @@ panels:
       gradient behind her, river blue to silver. Leave the left third calm for the name card. The camera is level with her.
     acting:
       lyra: "turning her head down toward Jaeha, a smug smile, bow still drawn, the braid settling over her left shoulder"
+    hands:
+      lyra: "still at full draw: LEFT arm extended, hand round the bow's grip, bracer on the forearm; RIGHT gloved fingers hooking the string at her jaw, elbow raised"
+    hand_ref: [bow_draw.png]
     eyeline: "Lyra → Jaeha (down)"
     calm: left
     lines:
@@ -697,6 +801,8 @@ panels:
     art: >
       Close on the drone's lens peeking out of the moss on Borro's shell: in its glass, a tiny reflection of Lyra striking a pose
       with a wink.
+    hands:
+      lyra: "tiny in the lens's reflection: LEFT hand holds the bow upright at her side, RIGHT gloved hand on her hip"
     calm: left
     silent: true
     sfx:
@@ -715,6 +821,11 @@ panels:
     acting:
       kang_jaeha: "shouting up, pointing at the bell-head, blood on his face"
       mok_hangyu: "gaping up at Lyra, the cracked shield drooping"
+    hands:
+      kang_jaeha: "RIGHT arm raised, index finger pointing up past the shield's edge at the bell-head; LEFT hand down at his side"
+      mok_hangyu: "LEFT forearm through the cracked shield's strap, the shield drooping against his leg; RIGHT hand hanging open"
+      borro: "only his LEFT forearm at the top edge, through the shield's strap, the four-fingered hand on the grip"
+    hand_ref: [pointing.png]
     eyeline: "Jaeha → Lyra; Mok → Lyra"
     foreground: "Borro's raised shield, cropped, top"
     calm: top
@@ -733,6 +844,9 @@ panels:
       in the bell-head. The upper part is empty for the window.
     acting:
       lyra: "utterly still, one eye narrowed, the arrow's head aligned on the crack, breath held"
+    hands:
+      lyra: "LEFT arm extended toward the crack, hand round the bow's grip, bracer on the forearm; RIGHT gloved fingers hooking the string at the corner of her jaw, elbow raised level"
+    hand_ref: [bow_draw.png]
     eyeline: "Lyra → the crack"
     calm: top
     ui:
@@ -750,6 +864,9 @@ panels:
       Low and tilted: Lyra's arrow streaks point-blank into the violet crack in the bell-head, a river-blue trail behind it.
     acting:
       lyra: "follow-through after the release, bowstring snapping forward"
+    hands:
+      lyra: "LEFT arm still extended, hand round the bow's grip; RIGHT gloved hand flung back past her jaw after the release, fingers open"
+    hand_ref: [bow_draw.png]
     calm: top
     sfx:
       - {text: "TSHHUNG", style: impact, at: [0.40, 0.30], size: XL, rot: -10}
@@ -764,6 +881,7 @@ panels:
     art: >
       Close on the bell-head: the arrow bounces off the bronze right beside the crack with a spark and spins away, leaving barely a
       scratch.
+    hands: none
     calm: top
     sfx:
       - {text: "TINK", style: comic, at: [0.50, 0.30], size: L, rot: 8}
@@ -779,6 +897,8 @@ panels:
       Close on Lyra (lyra) on the giant's shoulder, staring at her arrow spinning away, mouth open in outrage.
     acting:
       lyra: "staring, mouth open, one eyebrow twitching, the bow lowered"
+    hands:
+      lyra: "LEFT hand holds the lowered bow by its grip, mostly below the frame; RIGHT hand below the frame"
     eyeline: "Lyra → the arrow"
     calm: right
     silent: true
@@ -797,6 +917,9 @@ panels:
       part is empty for the window.
     acting:
       nib: "dropping to one knee, suddenly heavy, eye dull"
+    hands:
+      nib: "LEFT forearm resting across his raised knee, the four-fingered hand hanging limp; RIGHT hand braced flat on the fallen bell's bronze; knives sheathed"
+    hand_ref: [fists_and_bracing.png]
     calm: top
     ui:
       - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[NIB · FIELD FORM ENDED · COOLDOWN 01:00]"}
@@ -815,6 +938,10 @@ panels:
     acting:
       bell_ringer: "swinging a fist up at its shoulder"
       lyra: "flipping clear through the air, bow in hand, braid streaming"
+    hands:
+      bell_ringer: "RIGHT fist swinging up across its chest at its LEFT shoulder, where Lyra stood; LEFT arm down; four fingers and a thumb each"
+      lyra: "flipping clear, LEFT hand keeping hold of the bow by its grip, RIGHT arm thrown out for balance"
+    hand_ref: [fists_and_bracing.png]
     calm: top
     sfx:
       - {text: "WHOOSH", style: impact, at: [0.60, 0.30], size: L, rot: -6}
@@ -831,6 +958,10 @@ panels:
     acting:
       lyra: "landing on the shield's rim in a crouch, one hand on the iron, a fierce frown"
       borro: "holding the shield steady under her, looking up"
+    hands:
+      lyra: "crouched on the rim: RIGHT gloved hand flat on the iron beside her boots; LEFT hand holding the bow by its grip"
+      borro: "both arms up holding the shield steady under her: LEFT forearm through the strap, RIGHT palm flat under it; four fingers and a thumb each"
+    hand_ref: [fists_and_bracing.png, shield_grip.png]
     calm: top
     sfx:
       - {text: "TAK", style: impact, at: [0.50, 0.30], size: M, rot: 0}
@@ -847,6 +978,10 @@ panels:
     acting:
       borro: "looking up, a slow, dry smile"
       lyra: "crouched on the rim, glaring at the giant, notching another arrow"
+    hands:
+      lyra: "LEFT hand holds the bow by its grip across her knees; RIGHT gloved fingers fit a blue-fletched arrow's nock onto the string"
+      borro: "both arms up holding the shield: LEFT forearm through the strap, RIGHT palm flat under it; four fingers and a thumb each"
+    hand_ref: [shield_grip.png]
     eyeline: "Borro → Lyra; Lyra → the giant"
     foreground: "the shield's rim under her boot, cropped, top"
     calm: top
@@ -867,6 +1002,7 @@ panels:
       on top of it.
     acting:
       kang_jaeha: "eyes moving from the shield to Lyra, narrowing, blood on his lip"
+    hands: none
     eyeline: "Jaeha → Lyra"
     calm: top
     ui:
@@ -883,6 +1019,10 @@ panels:
     art: >
       A thin strip of memory from the aqueduct: Nib standing on Borro's shield, the white-gold pulse running from the shield up
       into him. Fill the canvas edge to edge.
+    hands:
+      nib: "balanced on the upright shield's top rim, a knife in reverse grip in each four-fingered hand"
+      borro: "his hands hidden behind the upright shield, holding it steady"
+    hand_ref: [reverse_grip_knives.png]
     calm: none
     silent: true
 
@@ -899,6 +1039,7 @@ panels:
       Extreme close-up: Jaeha's eyes (kang_jaeha), an idea landing in them. Fill the canvas edge to edge.
     acting:
       kang_jaeha: "eyes widening, then sharpening"
+    hands: none
     calm: none
     lines:
       - {who: kang_jaeha, type: inner, text: "HER ARROWS ARE TOO LIGHT. SO GIVE THEM WEIGHT."}
@@ -916,6 +1057,11 @@ panels:
       other up toward Lyra's boot on the rim.
     acting:
       kang_jaeha: "one hand on Borro's shell, the other reaching up, eyes on Lyra"
+    hands:
+      kang_jaeha: "RIGHT palm pressed flat on Borro's mossy shell; LEFT arm stretched up, gloved hand open toward Lyra's boot heel on the rim"
+      lyra: "above him on the rim: LEFT hand holding the bow by its grip, RIGHT gloved fingers on the nocked arrow"
+      borro: "arms raised under the shield, holding it up; four fingers and a thumb each"
+    hand_ref: [fists_and_bracing.png, reaching_grabbing_wrist.png]
     eyeline: "Jaeha → Lyra"
     foreground: "Borro's shell and moss, cropped, left"
     calm: top
@@ -933,6 +1079,9 @@ panels:
       Close on Lyra (lyra) on the shield's rim, offended, the arrow half drawn.
     acting:
       lyra: "glaring down at him, the arrow half drawn, nostrils flared"
+    hands:
+      lyra: "LEFT hand round the bow's grip, arm half extended; RIGHT gloved fingers hooking the string, the arrow half drawn"
+    hand_ref: [bow_draw.png]
     eyeline: "Lyra → Jaeha"
     foreground: "the shield's rim under her boots, cropped, bottom"
     calm: left
@@ -951,6 +1100,9 @@ panels:
       bell-head still ringing.
     acting:
       bell_ringer: "raising the clapper high in both hands over the pillar"
+    hands:
+      bell_ringer: "both huge hands wrapped round the clapper's shaft, RIGHT nearer the head, LEFT at the end, raising it high overhead; four fingers and a thumb each"
+    hand_ref: [grip_hilt_two_hands.png]
     calm: top
     sfx:
       - {text: "DONG DONG DONG", style: impact, at: [0.30, 0.20], size: L, rot: -4}
@@ -968,6 +1120,10 @@ panels:
     acting:
       mok_hangyu: "raising the cracked shield beside Borro's, jaw clenched, not looking at anyone"
       borro: "glancing at Mok, surprised"
+    hands:
+      mok_hangyu: "LEFT forearm through the cracked shield's strap, hand on the grip; RIGHT hand under its lower edge; both arms shoving it up beside Borro's"
+      borro: "both arms still up under the iron shield: LEFT forearm through the strap, RIGHT palm flat under it; four fingers and a thumb each"
+    hand_ref: [shield_grip.png]
     eyeline: "Mok → the clapper; Borro → Mok"
     foreground: "the two shields' rims side by side, cropped, top"
     calm: top
@@ -986,6 +1142,7 @@ panels:
       Close on Jaeha (kang_jaeha) looking at Mok's cracked shield raised beside Borro's, a flicker of surprise in his eyes.
     acting:
       kang_jaeha: "eyes widening slightly, then narrowing, blood on his lip"
+    hands: none
     eyeline: "Jaeha → Mok"
     calm: right
     silent: true
@@ -1001,6 +1158,9 @@ panels:
       Close, level with her face, chest up: Lyra (lyra) on the rim draws the arrow back to her cheek; her eyes go cold and still.
     acting:
       lyra: "at full draw on the shield's rim, one eye narrowed, utterly still"
+    hands:
+      lyra: "full draw: LEFT arm extended toward the crack, hand round the bow's grip; RIGHT gloved fingers drawing the string back to her cheek, elbow raised behind her"
+    hand_ref: [bow_draw.png]
     eyeline: "Lyra → the crack"
     foreground: "the shields' rims, cropped, bottom"
     calm: top
@@ -1016,6 +1176,7 @@ panels:
     light: "silver"
     art: >
       Close on the white quiver at Lyra's right hip: only three blue-fletched arrows left in it.
+    hands: none
     calm: left
     silent: true
 
@@ -1028,6 +1189,9 @@ panels:
     light: "a faint white-gold glow"
     art: >
       Close on Jaeha's hand flat on Borro's mossy shell, trembling hard, a faint white-gold light gathering under his palm.
+    hands:
+      kang_jaeha: "RIGHT hand pressed flat on the mossy slate shell, gloved fingers spread, trembling, white-gold light gathering under the palm; the rest of the arm cropped"
+    hand_ref: [fists_and_bracing.png]
     calm: top
     silent: true
     sfx:
@@ -1043,6 +1207,9 @@ panels:
     art: >
       Close on Jaeha's other hand reaching up, his bloody fingertips almost touching the heel of Lyra's white boot on the shield's
       rim.
+    hands:
+      kang_jaeha: "LEFT arm stretched up, gloved hand open, the bare bloody fingertips almost touching the heel of Lyra's white boot"
+    hand_ref: [reaching_grabbing_wrist.png]
     calm: right
     silent: true
 
@@ -1061,6 +1228,13 @@ panels:
       lyra: "at full draw, waiting"
       mok_hangyu: "bracing under his shield"
       borro: "bracing under his shield"
+    hands:
+      bell_ringer: "both huge hands round the clapper's shaft, RIGHT nearer the head, bringing it down; four fingers and a thumb each"
+      lyra: "small, crouched on the rim at full draw: LEFT arm extended with the bow, RIGHT gloved fingers at her jaw"
+      mok_hangyu: "LEFT forearm through the cracked shield's strap, RIGHT hand under its edge, both arms braced up"
+      borro: "both arms locked up under the iron shield: LEFT forearm through the strap, RIGHT palm flat under it; four fingers and a thumb each"
+      kang_jaeha: "below the rim: RIGHT palm flat on Borro's shell, LEFT arm reaching up to Lyra's heel"
+    hand_ref: [grip_hilt_two_hands.png, shield_grip.png]
     calm: top
     sfx:
       - {text: "WHOOOOOM", style: impact, at: [0.50, 0.20], size: XL, rot: 8}
@@ -1074,6 +1248,7 @@ panels:
     light: "red"
     art: >
       Close on the red warning window, the shaking chamber blurred behind it.
+    hands: none
     calm: top
     ui:
       - {kind: system.warning, "on": float, at: [0.5, 0.36], text: "[BOSS ENRAGED · 00:03]"}
@@ -1091,6 +1266,7 @@ panels:
       canvas edge to edge.
     acting:
       lyra: "one eye open along the shaft, unblinking"
+    hands: none
     calm: none
     silent: true
 
@@ -1107,6 +1283,10 @@ panels:
       clapper, white-gold light gathering in both his hands.
     acting:
       kang_jaeha: "looking up, both hands in place, lips moving, eyes blazing"
+    hands:
+      kang_jaeha: "RIGHT palm flat on Borro's shell; LEFT arm raised, fingertips at Lyra's boot heel; white-gold light gathering in both gloved hands"
+      borro: "arms locked up overhead under the iron shield; four fingers and a thumb each"
+    hand_ref: [fists_and_bracing.png, reaching_grabbing_wrist.png]
     eyeline: "Jaeha → the clapper"
     calm: top
     lines:
@@ -1115,3 +1295,9 @@ panels:
   - id: END
     kind: end
     chibi_gag: "Chibi Lyra poses for the tiny chibi drone in Borro's moss with a peace sign and sparkles, while chibi Nib holds up a small sign-shaped card that is completely blank and chibi Jaeha, bright red, hides his face behind his notebook."
+    hands:
+      lyra: "RIGHT gloved hand making a peace sign beside her cheek; LEFT hand holding the bow at her side"
+      nib: "both four-fingered hands holding the blank card up in front of his chest"
+      kang_jaeha: "LEFT hand holding the open notebook up in front of his face, RIGHT hand on its other cover"
+      borro: "hands relaxed at his sides, four fingers and a thumb each"
+    hand_ref: [handshake_and_peace.png]

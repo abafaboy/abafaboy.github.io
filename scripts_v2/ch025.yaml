@@ -49,6 +49,9 @@ panels:
       grille, throws himself back from the new edge. The column clings to the walkway below. Scale: the gap is 15 m wide.
     acting:
       foreman_gu: "throwing himself backwards from the edge, arms flailing, hard hat flying"
+    hands:
+      foreman_gu: "throwing himself backwards from the edge, both arms flung up and out, hands open"
+      background: "the column below clinging to the walkway, hands on the rail"
     calm: top
     sfx:
       - {text: "THOOOM", style: impact, at: [0.30, 0.20], size: L, rot: 0}
@@ -66,6 +69,9 @@ panels:
       grille and backs away up the walkway, pointing at them.
     acting:
       foreman_gu: "backing away, one hand pointing across the gap, the other fumbling for his radio"
+    hands:
+      foreman_gu: "backing away, RIGHT arm extended, index finger pointing across the gap; LEFT hand fumbling at the radio on his belt"
+    hand_ref: [pointing.png]
     eyeline: "the foreman → the column"
     foreground: "the torn end of the walkway, bent bolts, cropped, bottom"
     calm: top
@@ -88,6 +94,12 @@ panels:
       kang_jaeha: "hauling Pyo up by the tabard with both hands, one boot braced on a stanchion"
       crew_pyo: "knee buckling, grabbing Jaeha's arm"
       ahin_husks: "bracing as one, feet wide"
+    hands:
+      kang_jaeha: "both gloved hands fisted in the back of Pyo's tabard at the shoulders, hauling him up"
+      crew_pyo: "knee buckling, RIGHT hand reaching up to grip Jaeha's RIGHT forearm at his shoulder; LEFT hand grabbing at the rail"
+      ahin_husks: "bracing as one, feet wide, arms straight at their sides"
+      background: "the other crew clutch the rail with both hands"
+    hand_ref: [hand_on_shoulder.png, reaching_grabbing_wrist.png]
     calm: top
     sfx:
       - {text: "GRRRROAN", style: impact, at: [0.50, 0.20], size: L, rot: 6}
@@ -102,6 +114,7 @@ panels:
     art: >
       At the low end of the tilted walkway: a narrow steel maintenance ladder with a safety cage runs straight down beside the
       glowing pipes into the dark of the cleft; one caged lamp blinks on it far below.
+    hands: none
     calm: top
     silent: true
 
@@ -119,6 +132,9 @@ panels:
     acting:
       moon_ahin: "brushing dust off the coat-dress with two fingers, not looking at him"
       kang_jaeha: "pulling the respirator down, looking down the ladder"
+    hands:
+      moon_ahin: "LEFT hand brushes dust off the front of her coat-dress with two fingers; RIGHT hand holds the baton at her side"
+      kang_jaeha: "RIGHT hand pulls the respirator down round his neck by its rim; LEFT hand at his side"
     eyeline: "Moon Ahin → her coat; Jaeha → the ladder"
     foreground: "the top of the ladder's cage, cropped, bottom"
     calm: top
@@ -137,6 +153,7 @@ panels:
       Close on Moon Ahin (moon_ahin) turning to look at him properly for the first time, the baton lowered.
     acting:
       moon_ahin: "turning her head to him, eyes level, the baton lowered against her thigh"
+    hands: none
     eyeline: "Moon Ahin → Jaeha"
     foreground: "Jaeha's tabard, cropped, right"
     calm: right
@@ -155,6 +172,10 @@ panels:
       Close on Jaeha (kang_jaeha) holding out his gloved hand to shake on it.
     acting:
       kang_jaeha: "holding out his hand, a polite small smile"
+    hands:
+      kang_jaeha: "RIGHT arm held out toward her, gloved hand open for a handshake, thumb up, seen from the side, not pointing at the camera; LEFT hand below the frame"
+      moon_ahin: "only her white-gloved LEFT hand, hanging at her side in the cropped foreground"
+    hand_ref: [handshake_and_peace.png]
     eyeline: "Jaeha → Moon Ahin"
     foreground: "her white glove, cropped, left"
     calm: left
@@ -175,6 +196,10 @@ panels:
     acting:
       moon_ahin: "stepping onto the ladder without a glance, baton tucked into her belt"
       kang_jaeha: "hand still out, the smile fixed, a sweat drop"
+    hands:
+      moon_ahin: "both gloved hands on the ladder's side rails as she steps on; the baton tucked into her silver belt"
+      kang_jaeha: "RIGHT hand still held out for the handshake, frozen; LEFT hand at his side"
+    hand_ref: [handshake_and_peace.png]
     calm: top
     silent: true
     sfx:
@@ -190,6 +215,8 @@ panels:
     art: >
       High, looking straight down the ladder cage beside the glowing pipe: a long line climbs down it, Moon Ahin's white figure
       first, then husks, the crew and Jaeha last, toward a caged lamp far below. Scale: the ladder is 80 m long.
+    hands:
+      background: "every climber grips the rungs or the side rails with both hands; Moon Ahin's baton tucked in her belt"
     calm: top
     silent: true
     sfx:
@@ -219,6 +246,9 @@ panels:
     acting:
       crew_dami: "knotting a strip of patterned scarf round his shoulder, mouth tight"
       kang_jaeha: "holding still for her, arm lifted"
+    hands:
+      crew_dami: "both hands pulling a knot tight in a strip of patterned scarf round his LEFT shoulder"
+      kang_jaeha: "holding still, LEFT arm lifted a little from his side for her; RIGHT hand at his side"
     calm: top
     silent: true
 
@@ -238,6 +268,13 @@ panels:
       lyra: "landing lightly, flicking water off her hands, braid swinging"
       crew_ho: "hiding behind his brother, pointing"
       crew_woo: "arms out to shield his brother, frozen"
+    hands:
+      borro: "RIGHT four-fingered hand planted flat on the tunnel floor, heaving himself up; LEFT forearm through his shield's strap, the shield coming up out of the water"
+      lyra: "landing lightly, both arms out, flicking water off her hands, fingers splayed; the bow strapped to her back"
+      crew_ho: "crouched behind Woo, LEFT hand clutching the back of Woo's tabard; RIGHT arm pointing past him"
+      crew_woo: "both arms spread wide to shield Ho behind him, hands open, frozen"
+      background: "Pyo and Dami scrambling back, hands up"
+    hand_ref: [shield_grip.png, fists_and_bracing.png]
     calm: top
     lines:
       - {who: crew_ho, type: shout, text: "MORE HUSKS! A HUGE ONE AND A PRETTY ONE!", side: l}
@@ -257,6 +294,9 @@ panels:
     acting:
       lyra: "one hand on her hip, looking Moon Ahin up and down, unimpressed"
       moon_ahin: "standing perfectly still, chin up, eyes half-lidded"
+    hands:
+      lyra: "gloved RIGHT hand on her hip; LEFT arm relaxed at her side; the bow strapped to her back"
+      moon_ahin: "standing perfectly still, arms relaxed at her sides, the baton still tucked in her silver belt"
     eyeline: "Lyra → Moon Ahin's outfit; Moon Ahin → Lyra"
     foreground: "a husk's polished shoulder, cropped, left"
     calm: top
@@ -278,6 +318,9 @@ panels:
     acting:
       kang_jaeha: "hands half raised between the two women, a sweat drop, a fixed smile"
       nib: "chewing dried squid, watching the women like a match"
+    hands:
+      kang_jaeha: "both gloved hands half raised at chest height, palms out toward the two women"
+      nib: "RIGHT four-fingered hand holds a strip of dried squid to his mouth; LEFT hand resting on an open pouch on his cloak"
     calm: left
     silent: true
     sfx:
@@ -299,6 +342,12 @@ panels:
       moon_ahin: "a small flick of the baton toward the tunnel"
       ahin_husks: "No. 1 stepping forward beside Nib, perfectly upright"
       nib: "looking sideways and up at the husk beside him, suspicious"
+    hands:
+      kang_jaeha: "RIGHT arm extended, index finger pointing down the tunnel; LEFT hand at his side"
+      moon_ahin: "RIGHT hand flicks the baton toward the tunnel; LEFT hand at her side"
+      ahin_husks: "No. 1 stepping forward, arms hanging straight at its sides"
+      nib: "in the cropped foreground, hands below the frame"
+    hand_ref: [pointing.png]
     eyeline: "Nib → No. 1"
     foreground: "Nib's shoulder and pauldron, cropped, left"
     calm: top
@@ -319,6 +368,9 @@ panels:
     acting:
       nib: "walking, glancing up at the husk out of the corner of his eye"
       ahin_husks: "No. 1 walking straight-backed, face forward"
+    hands:
+      nib: "walking, arms swinging loose at his sides, four-fingered hands open; knives sheathed at his back"
+      ahin_husks: "No. 1 walking straight-backed, arms swinging stiffly in rhythm"
     calm: top
     silent: true
 
@@ -335,6 +387,10 @@ panels:
     acting:
       nib: "peering round the corner, one hand on the stone"
       ahin_husks: "No. 1 peering round the corner above him in the same pose"
+    hands:
+      nib: "RIGHT four-fingered hand flat on the corner's edge, leaning out to peer; LEFT hand hanging at his side"
+      ahin_husks: "No. 1 in the same pose above him: RIGHT hand flat on the corner's edge higher up; LEFT hand hanging"
+    hand_ref: [fists_and_bracing.png]
     calm: right
     silent: true
     sfx:
@@ -354,6 +410,9 @@ panels:
     acting:
       moon_ahin: "walking, eyes ahead, baton at her side"
       kang_jaeha: "walking, notebook closed in one hand"
+    hands:
+      moon_ahin: "walking, RIGHT hand holding the baton down at her side; LEFT arm swinging"
+      kang_jaeha: "walking, LEFT hand holding the closed notebook at his side; RIGHT arm swinging"
     eyeline: "both → ahead"
     foreground: "a pipe's steel cradle, cropped, top"
     calm: top
@@ -374,6 +433,9 @@ panels:
     acting:
       kang_jaeha: "turning his head to her, curious"
       moon_ahin: "eyes ahead, voice flat, the baton tapping her thigh once"
+    hands:
+      kang_jaeha: "LEFT hand holds the closed notebook at his side; RIGHT arm relaxed"
+      moon_ahin: "RIGHT hand taps the baton once against her RIGHT thigh; LEFT hand at her side"
     eyeline: "Jaeha → Moon Ahin; Moon Ahin → ahead"
     foreground: "her silver baton, cropped, bottom left"
     calm: top
@@ -393,6 +455,7 @@ panels:
       Close on Jaeha (kang_jaeha), answering gently.
     acting:
       kang_jaeha: "looking at her, a small sad smile"
+    hands: none
     eyeline: "Jaeha → Moon Ahin"
     foreground: "her white shoulder, cropped, left"
     calm: left
@@ -410,6 +473,7 @@ panels:
       Close on Moon Ahin's profile (moon_ahin): for one instant the composure cracks, her lips parting; then it closes again.
     acting:
       moon_ahin: "lips parting, eyes flicking to him and away, then the face closing again"
+    hands: none
     calm: right
     silent: true
     sfx:
@@ -428,6 +492,9 @@ panels:
     acting:
       crew_ho: "walking, head tipped back, staring up, mouth open"
       borro: "walking slowly, looking down at Ho, calm"
+    hands:
+      crew_ho: "walking, arms hanging at his sides"
+      borro: "walking slowly, LEFT forearm through his shield's strap, the shield at his side; RIGHT four-fingered hand hanging open"
     eyeline: "Ho → Borro (up); Borro → Ho (down)"
     foreground: "Borro's mossy shell, cropped, right"
     calm: top
@@ -446,6 +513,7 @@ panels:
       Close on Ho (crew_ho), deeply impressed, nodding slowly.
     acting:
       crew_ho: "nodding slowly, eyes shining, lips pursed"
+    hands: none
     calm: left
     lines:
       - {who: crew_ho, type: speech, text: "...COOL.", side: r}
@@ -464,6 +532,11 @@ panels:
       nib: "trotting back, thumb jerked over his shoulder"
       ahin_husks: "No. 1 holding up ten fingers, then four"
       moon_ahin: "reading the husk's fingers"
+    hands:
+      nib: "trotting back, RIGHT thumb jerked over his RIGHT shoulder, four fingers curled; LEFT arm swinging"
+      ahin_husks: "No. 1 holds both hands up at chest height, all ten fingers spread wide"
+      moon_ahin: "RIGHT hand holds the baton low at her side; LEFT hand at her side"
+      kang_jaeha: "only his boots in frame; hands out of frame"
     eyeline: "Nib → Jaeha; Moon Ahin → No. 1"
     foreground: "Jaeha's boots, cropped, bottom"
     calm: top
@@ -483,6 +556,7 @@ panels:
       Close on No. 1's blank polished face (ahin_husks), turned slowly down toward Nib.
     acting:
       ahin_husks: "No. 1 turning its blank face down toward Nib"
+    hands: none
     calm: right
     silent: true
     sfx:
@@ -504,6 +578,7 @@ panels:
     acting:
       ash_hound: "crouched in a ring, lapping at the pooled light"
       ash_hound_alpha: "lying in the middle, head up, ears turning"
+    hands: none
     calm: top
     silent: true
     sfx:
@@ -520,6 +595,7 @@ panels:
       Top-down on the notebook page in the hard-hat lamp's light: a pencil circle for the chamber; a row of small marks for the husk
       wall across its mouth with a big square for Borro in the middle; two arrows round the sides (N, L); a star on the alpha; an
       ear drawn beside it with three wavy lines.
+    hands: none
     calm: top
     lines:
       - {who: kang_jaeha, type: note, text: "HER WALL HOLDS. MINE STRIKE. THE PACK ONLY MOVES WHEN THE BIG ONE HOWLS."}
@@ -537,6 +613,10 @@ panels:
     acting:
       moon_ahin: "leaning in, reading upside down, one eyebrow up"
       kang_jaeha: "holding the notebook open, tapping the star"
+    hands:
+      kang_jaeha: "LEFT hand holds the notebook open, turned toward her; RIGHT index finger taps the star on the page"
+      moon_ahin: "hands below the frame"
+    hand_ref: [notebook_and_pencil.png, pointing.png]
     eyeline: "both → the notebook"
     foreground: "the notebook's edge, cropped, bottom"
     calm: top
@@ -557,6 +637,11 @@ panels:
     acting:
       crew_ho: "sneezing, head snapping forward, eyes squeezed shut"
       crew_woo: "clapping a hand over Ho's face, too late"
+    hands:
+      crew_ho: "sneezing, both arms jolted stiff at his sides"
+      crew_woo: "RIGHT hand clapped over Ho's face, too late; LEFT hand at his side"
+      background: "everyone else turned toward him, hands frozen where they were"
+    hand_ref: [mouth_and_strap.png]
     calm: top
     sfx:
       - {text: "HA-CHOOO!", style: comic, at: [0.40, 0.30], size: L, rot: -8}
@@ -574,6 +659,7 @@ panels:
     acting:
       ash_hound_alpha: "head thrown back, jaws wide, howling"
       ash_hound: "snapping upright together, heads turning to the tunnel mouth"
+    hands: none
     calm: top
     sfx:
       - {text: "AWOOOOOOO", style: alert, at: [0.50, 0.20], size: XL, rot: 0}
@@ -592,6 +678,12 @@ panels:
       moon_ahin: "bringing the baton down in one sharp stroke"
       ahin_husks: "slamming into a locked wall across the opening"
       borro: "planting his shield, knees bent, head down"
+    hands:
+      moon_ahin: "RIGHT arm brings the baton down in one sharp stroke; LEFT hand at her side"
+      ahin_husks: "slammed into a wall across the opening, each elbow hooked through its neighbour's"
+      borro: "LEFT forearm through the strap, planting the shield on its bottom edge; RIGHT four-fingered hand braced flat on its back"
+      background: "the crew behind them in the tunnel, hands at their sides"
+    hand_ref: [shield_grip.png]
     calm: top
     sfx:
       - {text: "KA-KLAK!", style: impact, at: [0.30, 0.30], size: L, rot: 0}
@@ -610,6 +702,10 @@ panels:
       ash_hound: "slamming into the wall, jaws biting"
       ahin_husks: "bending under the impact, cracks spidering, holding"
       borro: "taking two hounds on the shield, sliding back half a step"
+    hands:
+      ahin_husks: "elbows still hooked, bending under the impact"
+      borro: "LEFT forearm through the strap, RIGHT four-fingered hand braced flat on the shield's back, shoulder behind it, sliding back"
+    hand_ref: [shield_grip.png]
     calm: top
     sfx:
       - {text: "KRASH", style: impact, at: [0.50, 0.20], size: XL, rot: -6}
@@ -628,6 +724,9 @@ panels:
       green, river blue. The upper half is empty for the window.
     acting:
       kang_jaeha: "both hands thrust out, fingers spread, teeth gritted"
+    hands:
+      kang_jaeha: "arms thrust out wide to either side at shoulder height, gloved fingers spread, threads of light flaring from his fingertips"
+    hand_ref: [reaching_grabbing_wrist.png]
     calm: top
     silent: true
     ui:
@@ -648,6 +747,10 @@ panels:
       nib: "dropping off the pipe, both knives cutting"
       lyra: "drawing and loosing, standing tall on the cradle"
       ash_hound: "scattering, two bursting into ash"
+    hands:
+      nib: "dropping off the pipe, a long knife in reverse grip in each four-fingered fist, both arms slashing"
+      lyra: "LEFT arm straight, holding the bow out; gloved RIGHT fingers drawing the string back to her jaw"
+    hand_ref: [bow_draw.png, reverse_grip_knives.png]
     calm: top
     sfx:
       - {text: "SHINK", style: impact, at: [0.20, 0.50], size: M, rot: 6}
@@ -666,6 +769,10 @@ panels:
     acting:
       moon_ahin: "conducting, not turning her head"
       lyra: "nocking another arrow, bristling, cheeks pink"
+    hands:
+      moon_ahin: "RIGHT hand conducting with the baton in small strokes, cropped in the foreground; LEFT hand hidden by her body"
+      lyra: "LEFT hand holds the bow out; gloved RIGHT fingers fitting an arrow's nock onto the string"
+    hand_ref: [bow_draw.png]
     eyeline: "Moon Ahin → the wall; Lyra → Moon Ahin"
     foreground: "Moon Ahin's shoulder and the baton, cropped, left"
     calm: top
@@ -690,6 +797,9 @@ panels:
       ash_hound_alpha: "landing in a crouch, jaws wide, neck cracks blazing"
       crew_dami: "falling backwards, hands up"
       crew_pyo: "throwing himself in front of Dami, arms spread, his bad knee buckling"
+    hands:
+      crew_dami: "falling backwards, both hands up in front of her face, palms out"
+      crew_pyo: "both arms spread wide in front of Dami, hands open, his braced LEFT knee buckling"
     calm: top
     sfx:
       - {text: "WHUMP", style: impact, at: [0.50, 0.60], size: L, rot: 0}
@@ -708,6 +818,10 @@ panels:
     acting:
       kang_jaeha: "pointing at the alpha, shouting, the other hand reaching toward Borro"
       moon_ahin: "turning the baton toward the alpha, eyes sharp"
+    hands:
+      kang_jaeha: "RIGHT arm extended, index finger pointing at the alpha; LEFT arm reaching toward Borro, fingers open"
+      moon_ahin: "RIGHT hand swings the baton toward the alpha, arm extending; LEFT hand at her side"
+    hand_ref: [pointing.png]
     eyeline: "Jaeha → Moon Ahin; Moon Ahin → the alpha"
     foreground: "the alpha's blurred flank, cropped, bottom"
     calm: top
@@ -728,6 +842,8 @@ panels:
     acting:
       ahin_husks: "four husks clamped round the alpha's legs, a fifth breaking apart in its jaws"
       ash_hound_alpha: "pinned, thrashing, biting a husk's face apart"
+    hands:
+      ahin_husks: "four husks with both arms wrapped round the alpha's legs; a fifth, No. 17, breaking apart in its jaws"
     calm: top
     sfx:
       - {text: "KRAKK", style: impact, at: [0.60, 0.30], size: L, rot: 8}
@@ -745,6 +861,9 @@ panels:
     acting:
       ash_hound_alpha: "head thrown back mid-howl, pinned, standing still"
       borro: "slamming the shield forward, shoulder behind it"
+    hands:
+      borro: "LEFT forearm through the strap, hand on the inner grip, slamming the shield forward; RIGHT four-fingered hand braced flat on its back"
+    hand_ref: [shield_grip.png]
     calm: top
     sfx:
       - {text: "AWOOO—", style: alert, at: [0.30, 0.20], size: M, rot: 0}
@@ -763,6 +882,8 @@ panels:
       river-blue one; his body jerks; blood starts from his nose.
     acting:
       kang_jaeha: "body jerking, arms out, head snapping back, blood starting from his nose"
+    hands:
+      kang_jaeha: "body jerking, both arms flung out to the sides, gloved fingers splayed"
     calm: top
     ui:
       - {kind: system.notice_small, "on": float, at: [0.5, 0.88], text: "[PASS I · BORRO → LYRA · -30%]"}
@@ -783,6 +904,10 @@ panels:
     acting:
       lyra: "the release, bow arm straight, braid whipping, a fierce grin"
       ash_hound_alpha: "bursting apart into violet ash"
+    hands:
+      lyra: "LEFT arm straight, hand closed round the bow's grip; gloved RIGHT hand just released, flung back past her jaw, fingers open"
+      ahin_husks: "the four husks thrown off the bursting alpha, arms flung wide"
+    hand_ref: [bow_draw.png]
     calm: top
     sfx:
       - {text: "KA-BOOOOM", style: impact, at: [0.50, 0.30], size: XL, rot: -6}
@@ -799,6 +924,8 @@ panels:
       the three summons stand in a ring round the place where the alpha was.
     acting:
       ash_hound: "fleeing down a side tunnel, tails low"
+    hands:
+      background: "husks and summons standing in a ring, hands at their sides: Nib's knives in his fists, Lyra's bow in her LEFT hand, Borro's shield on his LEFT arm"
     calm: top
     silent: true
 
@@ -815,6 +942,10 @@ panels:
     acting:
       crew_pyo: "arms still spread, legs shaking, visor turned to where the alpha was"
       crew_dami: "pulling at the back of his tabard, half laughing, half crying"
+    hands:
+      crew_pyo: "both arms still spread wide, hands open and shaking"
+      crew_dami: "RIGHT hand pulling at the back of his tabard; LEFT hand at her side"
+      background: "the cracked husk arm across the top of the frame, its hand out of frame"
     eyeline: "Dami → Pyo"
     foreground: "a husk's cracked arm, cropped, top"
     calm: top
@@ -834,6 +965,9 @@ panels:
       face with one gloved hand; her own face is unreadable.
     acting:
       moon_ahin: "kneeling, one gloved hand resting on the broken porcelain face, eyes down"
+    hands:
+      moon_ahin: "kneeling, LEFT gloved hand resting on the broken porcelain face, fingers curved over it; RIGHT hand holds the baton against her knee"
+    hand_ref: [healing_palms.png]
     calm: top
     silent: true
 
@@ -851,6 +985,10 @@ panels:
     acting:
       lyra: "landing and pointing at his face, frowning"
       kang_jaeha: "wiping his nose with the back of his glove, a quick smile"
+    hands:
+      lyra: "landing, gloved RIGHT index finger pointing at his face; LEFT hand holds her bow, cropped in the foreground"
+      kang_jaeha: "RIGHT hand wipes his nose with the back of the glove, wrist bent; LEFT hand at his side"
+    hand_ref: [pointing.png]
     eyeline: "Lyra → Jaeha; Jaeha → Lyra"
     foreground: "Lyra's bow, cropped, left"
     calm: top
@@ -872,6 +1010,9 @@ panels:
     acting:
       moon_ahin: "rising, eyes moving from his glove to his shoulder, very still"
       kang_jaeha: "lowering his hand, caught"
+    hands:
+      moon_ahin: "rising, RIGHT hand holding the baton at her side; LEFT hand pushing off her knee"
+      kang_jaeha: "RIGHT hand lowering from his face, the back of the glove smeared with blood, in the cropped foreground; LEFT hand at his side"
     eyeline: "Moon Ahin → his shoulder; Jaeha → Moon Ahin"
     foreground: "the bloody glove, cropped, bottom right"
     calm: top
@@ -892,6 +1033,10 @@ panels:
     acting:
       moon_ahin: "baton held in both hands in front of her, voice low"
       kang_jaeha: "standing easy, the scarf red on his shoulder, voice low"
+    hands:
+      moon_ahin: "both hands hold the baton level in front of her waist, RIGHT hand by the pommel, LEFT hand near the tip"
+      kang_jaeha: "standing easy, arms relaxed at his sides"
+      background: "in the foreground the shattered husk's white porcelain hand lies on the floor, cracked"
     eyeline: "Jaeha ↔ Moon Ahin"
     foreground: "the broken husk's hand on the floor, cropped, bottom"
     calm: top
@@ -910,6 +1055,8 @@ panels:
     art: >
       Following the main pipe line into a wider tunnel: the air shimmers with heat; the light ahead turns from violet to a deep
       glowing violet; the team walks close together, summons in front, husks behind, the crew in the middle.
+    hands:
+      background: "everyone walking close, hands at their sides: Borro's shield on his LEFT arm, Lyra's bow in her LEFT hand, Nib's knives sheathed"
     calm: top
     silent: true
     sfx:
@@ -927,6 +1074,10 @@ panels:
     acting:
       crew_woo: "walking stiffly, staring ahead"
       crew_ho: "gripping his brother's sleeve, voice small"
+    hands:
+      crew_ho: "LEFT hand gripping Woo's RIGHT sleeve at the forearm; RIGHT arm at his side"
+      crew_woo: "walking stiffly, arms stiff at his sides"
+    hand_ref: [reaching_grabbing_wrist.png]
     eyeline: "both → ahead"
     foreground: "a pipe's glowing flank, cropped, right"
     calm: top
@@ -946,6 +1097,8 @@ panels:
       30 m high; the three giant pipes pierce it through steel collars; the inside of the glass is fogged, and beyond the fog, lit
       deep violet, a vast dark shape fills the space behind it. The team stands small before it in silhouette. Scale: the people
       are 1/20 of the glass's height.
+    hands:
+      background: "the team small in silhouette before the glass, hands at their sides"
     calm: top
     silent: true
 
@@ -959,6 +1112,7 @@ panels:
     art: >
       Close on the glass: the fog on its inside clears for a moment, showing a hint of something rough and coral-red beyond, then
       blooms white again, slowly, like breath on a window.
+    hands: none
     calm: top
     silent: true
     sfx:
@@ -978,6 +1132,11 @@ panels:
       nib: "ears flat, a step back, knives half drawn"
       borro: "gripping the shield until the moss creaks"
       lyra: "a hand on her bow, lips parted, eyes wide"
+    hands:
+      nib: "a step back, both four-fingered hands on the hilts at his hips, the knives half drawn from their crossed sheaths"
+      borro: "LEFT forearm through the strap, four-fingered LEFT hand clenched on the shield's inner grip; RIGHT hand hanging"
+      lyra: "LEFT hand clutching the grip of her bow, held upright at her side; gloved RIGHT hand at her side"
+    hand_ref: [shield_grip.png, grip_hilt_one_hand.png]
     calm: top
     silent: true
     sfx:
@@ -994,6 +1153,7 @@ panels:
       Close on Lyra (lyra), whispering, her face pale.
     acting:
       lyra: "whispering, eyes fixed on the glass, the confidence gone"
+    hands: none
     eyeline: "Lyra → the glass"
     foreground: "Borro's shield rim, cropped, left"
     calm: left
@@ -1012,6 +1172,8 @@ panels:
       silver hexagon logo, and below it, a small crescent-moon seal.
     acting:
       moon_ahin: "walking slowly to the plate, the baton hanging loose, then stopping dead"
+    hands:
+      moon_ahin: "RIGHT hand lets the baton hang loose at her side; LEFT hand at her side"
     eyeline: "Moon Ahin → the plate"
     foreground: "a steel pipe collar, cropped, top"
     calm: top
@@ -1029,6 +1191,9 @@ panels:
     art: >
       Close on the brass plate: the silver hexagon logo, and below it the small stamped crescent-moon seal; a white-gloved finger
       touches the seal.
+    hands:
+      moon_ahin: "her white-gloved LEFT index finger touches the crescent seal, the other fingers curled; the rest of the hand at the frame edge"
+    hand_ref: [pointing.png]
     calm: right
     silent: true
 
@@ -1044,6 +1209,8 @@ panels:
       hand.
     acting:
       moon_ahin: "staring at the seal, the baton sinking to her side, lips parted"
+    hands:
+      moon_ahin: "RIGHT hand lowering the baton to her side at the bottom edge of the frame; LEFT hand out of frame"
     eyeline: "Moon Ahin → the seal"
     foreground: "the brass plate's edge, cropped, left"
     calm: top
@@ -1062,6 +1229,7 @@ panels:
       Close on Jaeha (kang_jaeha) watching her, quietly, the blood dried under his nose.
     acting:
       kang_jaeha: "watching her, still, notebook shut in one hand"
+    hands: none
     eyeline: "Jaeha → Moon Ahin"
     foreground: "her white shoulder, cropped, left"
     calm: left
@@ -1080,6 +1248,7 @@ panels:
       the canvas edge to edge.
     acting:
       moon_ahin: "eyes wide, unblinking"
+    hands: none
     calm: none
     silent: true
 
@@ -1093,6 +1262,9 @@ panels:
     art: >
       Low and wide: behind the glass the vast shape breathes out, and the whole 30 m wall fogs white from the inside in one rolling
       bloom; the team stands small before it, Moon Ahin alone at the plate.
+    hands:
+      moon_ahin: "small at the plate, the baton hanging from her RIGHT hand"
+      background: "the team small before the glass, hands at their sides"
     calm: top
     silent: true
     sfx:
@@ -1109,6 +1281,9 @@ panels:
       Close and low: Moon Ahin's white glove (moon_ahin) pressed flat against the fogged glass, her forehead almost touching it.
     acting:
       moon_ahin: "one glove flat on the glass, forehead bowed toward it, eyes shut"
+    hands:
+      moon_ahin: "LEFT palm, white-gloved, pressed flat against the fogged glass, fingers slightly spread; RIGHT hand out of frame"
+    hand_ref: [fists_and_bracing.png]
     eyeline: "Moon Ahin → the glass"
     foreground: "the fogged glass, cropped, all round"
     calm: top
@@ -1118,3 +1293,7 @@ panels:
   - id: END
     kind: end
     chibi_gag: "Chibi Nib and chibi No. 1 stand back to back in the same pose having a staring contest with the reader, while chibi Lyra, offscreen, can be heard yelling 'I WAS WARMING UP!'"
+    hands:
+      nib: "chibi: arms folded across his chest, four-fingered hands tucked under his elbows"
+      ahin_husks: "chibi No. 1: arms folded exactly like Nib's"
+    hand_ref: [arms_relaxed.png]

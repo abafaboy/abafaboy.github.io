@@ -41,6 +41,11 @@ panels:
       Below, Jaeha kneels with the core in his lap; the team is scattered round him.
     acting:
       han_sora: "leaning on the door frame, watching, the compass on her wrist"
+    hands:
+      han_sora: "RIGHT hand holds the lowered crossbow by its grip, the brass compass dangling from that wrist; LEFT hand resting on the door frame"
+      kang_jaeha: "small below: both arms round the core in his lap"
+      background: "the team scattered round him, small; hands relaxed or out of sight"
+    hand_ref: [crossbow_hold.png]
     calm: top
     ui:
       - {kind: system.notice_small, "on": float, at: [0.5, 0.92], text: "[GATE CLOSING · 09:00]"}
@@ -59,6 +64,9 @@ panels:
       drawing weapons: swords, a spear, a bow, a mage's core-tipped staff, a shield.
     acting:
       bh_second: "sliding down the ropes, landing in the water, drawing weapons"
+    hands:
+      bh_second: "sliding, both hands on the rope; landed: swords in RIGHT hands, spear two-handed, staff in the mage's RIGHT, bow in the archer's LEFT, shield on its bearer's LEFT arm"
+    hand_ref: [grip_hilt_one_hand.png]
     calm: top
     sfx:
       - {text: "SPLASH SPLASH SPLASH", style: impact, at: [0.50, 0.70], size: M, rot: 0}
@@ -76,6 +84,10 @@ panels:
     acting:
       mok_hangyu: "turning with the sword drawn and the cracked shield up, the six fanning out behind him"
       bh_second: "fanning out behind Mok, weapons ready"
+    hands:
+      mok_hangyu: "RIGHT hand grips the drawn short sword, thumb over the guard; LEFT forearm through the cracked shield's strap, the shield raised"
+      bh_second: "weapons ready: swords in RIGHT hands, the spear two-handed, the mage's staff in his RIGHT, the bow in the archer's LEFT"
+    hand_ref: [grip_hilt_one_hand.png, shield_grip.png]
     eyeline: "Mok → Jaeha"
     foreground: "Mok's sword hand, cropped, right"
     calm: top
@@ -96,6 +108,10 @@ panels:
     acting:
       kang_jaeha: "kneeling, the core in his arms, looking up, calm"
       song_yerin: "kneeling beside him, gripping his sleeve"
+    hands:
+      kang_jaeha: "both arms round the core in his lap, gloved fingers spread on its facets"
+      song_yerin: "RIGHT hand gripping the LEFT sleeve of Jaeha's hoodie; LEFT hand on her bag strap"
+    hand_ref: [reaching_grabbing_wrist.png]
     eyeline: "Jaeha → Mok (up)"
     foreground: "the core's violet glow, cropped, bottom"
     calm: top
@@ -113,6 +129,9 @@ panels:
       Close on Mok (mok_hangyu), the dead eyes back.
     acting:
       mok_hangyu: "flat eyes, mouth turned down, sword raised"
+    hands:
+      mok_hangyu: "RIGHT hand holds the short sword raised, thumb over the guard; LEFT hand behind the shield, out of frame"
+    hand_ref: [grip_hilt_one_hand.png]
     eyeline: "Mok → Jaeha"
     foreground: "the broken red hound on his shield, cropped, left"
     calm: right
@@ -131,6 +150,14 @@ panels:
     acting:
       mok_hangyu: "pointing with the sword, giving orders"
       bh_second: "nodding, spreading out"
+    hands:
+      mok_hangyu: "RIGHT arm extended, pointing the short sword past Jaeha; LEFT forearm through the cracked shield's strap, the shield low"
+      bh_second: "weapons held ready; the archer's bow in his LEFT hand at the frame's edge"
+      kang_jaeha: "far off: both arms round the core"
+      nib: "far off: a notched knife in reverse grip in each four-fingered hand"
+      lyra: "far off: the bow in her LEFT hand"
+      borro: "far off: LEFT four-fingered hand on the dented shield's edge"
+    hand_ref: [grip_hilt_one_hand.png]
     eyeline: "Mok → the summons"
     foreground: "the archer's bow, cropped, left"
     calm: top
@@ -148,6 +175,8 @@ panels:
       Close on Sora (han_sora) in the high doorway, resting her chin on her crossbow, watching with interest.
     acting:
       han_sora: "chin resting on the crossbow, eyes amused, not moving to help anyone"
+    hands:
+      han_sora: "both hands wrapped round the upright crossbow just under her chin, chin resting on top; the brass compass on her RIGHT wrist"
     eyeline: "Sora → Jaeha"
     calm: left
     lines:
@@ -166,6 +195,8 @@ panels:
       for the window.
     acting:
       kang_jaeha: "kneeling, eyes on the window, blood on his face, jaw tight"
+    hands:
+      kang_jaeha: "both arms round the core in his lap"
     eyeline: "Jaeha → the window"
     calm: top
     ui:
@@ -184,6 +215,12 @@ panels:
     acting:
       lyra: "the river-blue glow flickering, swaying, gripping her bow"
       borro: "the green glow flickering, leaning heavily on his dented shield"
+    hands:
+      lyra: "LEFT hand gripping the upright bow hard at her side, its lower tip in the water; RIGHT hand hanging"
+      borro: "both four-fingered hands on the top edge of the dented shield standing in the water, leaning heavily on it"
+      kang_jaeha: "between them: both arms round the core in his lap"
+      bh_second: "blurred behind, weapons held ready"
+    hand_ref: [shield_grip.png]
     eyeline: "both → Jaeha"
     foreground: "Mok's men in the background, blurred, cropped, top"
     calm: top
@@ -202,6 +239,7 @@ panels:
       Extreme close-up: Jaeha's eyes (kang_jaeha), choosing. Fill the canvas edge to edge.
     acting:
       kang_jaeha: "eyes closing for a moment, then opening, decided"
+    hands: none
     calm: none
     lines:
       - {who: kang_jaeha, type: inner, text: "ONE LINK. ONE SUMMON. ONLY ONE OF THEM HAS HELD A WALL ALONE."}
@@ -227,6 +265,10 @@ panels:
       Close and low: Jaeha (kang_jaeha) speaks to Lyra and Borro without looking away from Mok.
     acting:
       kang_jaeha: "kneeling, eyes on Mok, voice low and steady"
+    hands:
+      kang_jaeha: "both hands on the core in his lap, at the bottom edge"
+      lyra: "out of frame; only her bow at the edge"
+      borro: "out of frame; only the shield's edge shows"
     eyeline: "Jaeha → Mok"
     foreground: "Lyra's bow and Borro's shield on either side, cropped"
     calm: top
@@ -246,6 +288,10 @@ panels:
     acting:
       lyra: "dropping to one knee, gasping, bow still in hand"
       borro: "sagging on his shield, eyes dull"
+    hands:
+      lyra: "LEFT hand still gripping the bow, its lower tip braced in the water; RIGHT hand braced on her raised knee"
+      borro: "both four-fingered hands on the top edge of the standing shield, his weight sagging onto it"
+    hand_ref: [shield_grip.png]
     calm: top
     ui:
       - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[LYRA · BORRO · LINK RELEASED · REST FORM]"}
@@ -264,6 +310,12 @@ panels:
     acting:
       nib: "stepping forward into a low stance, knives reversed, eyes blazing amber"
       mok_hangyu: "facing him, sword up"
+    hands:
+      nib: "a notched knife in reverse grip in each four-fingered hand, fists at chest height, blades along his forearms, elbows bent"
+      mok_hangyu: "RIGHT hand holds the short sword up, thumb over the guard; LEFT forearm through the cracked shield's strap"
+      kang_jaeha: "only his LEFT hand in frame, resting on the core"
+      bh_second: "behind Mok, weapons held ready"
+    hand_ref: [reverse_grip_knives.png, grip_hilt_one_hand.png]
     eyeline: "Nib → Mok; Mok → Nib"
     foreground: "Jaeha's hand on the core, cropped, bottom left"
     calm: top
@@ -284,6 +336,8 @@ panels:
       Close on Jaeha (kang_jaeha), a bloody, crooked smile.
     acting:
       kang_jaeha: "a crooked smile, blood on his teeth, eyes steady on Nib's back"
+    hands:
+      kang_jaeha: "both arms round the core at the bottom edge, gloved fingers on its facets"
     eyeline: "Jaeha → Nib"
     foreground: "the core in his arms, cropped, bottom"
     calm: right
@@ -303,6 +357,11 @@ panels:
       mok_hangyu: "laughing, sword pointing at Nib"
       bh_second: "grinning, spreading round Nib"
       nib: "seen from behind, utterly still"
+    hands:
+      mok_hangyu: "RIGHT hand holds the short sword out low to the side, its point angled at Nib; LEFT forearm through the cracked shield's strap"
+      bh_second: "spreading out, weapons held ready"
+      nib: "seen from behind, a knife in reverse grip in each four-fingered hand, arms low at his sides"
+    hand_ref: [grip_hilt_one_hand.png]
     eyeline: "Mok → Nib"
     foreground: "Nib's cloak and scarf, cropped, bottom"
     calm: top
@@ -320,6 +379,7 @@ panels:
       Close on Nib's masked face (nib), deadpan, his eye blazing.
     acting:
       nib: "flat, eye blazing, mouth a straight line"
+    hands: none
     eyeline: "Nib → Mok"
     foreground: "Nib's red scarf, cropped, bottom right"
     calm: left
@@ -336,6 +396,8 @@ panels:
     art: >
       A thin grey memory strip: the Ninth Wall's long battlement, and a small cloaked figure alone on it against a dark swarm
       leaking violet ash. Fill the canvas edge to edge.
+    hands:
+      nib: "tiny and grey, a knife in reverse grip in each four-fingered hand; no detail at this size"
     calm: none
     silent: true
 
@@ -351,6 +413,10 @@ panels:
     acting:
       bh_second: "three hunters charging, weapons raised"
       nib: "crouching to meet them"
+    hands:
+      bh_second: "the two swordsmen with swords raised in their RIGHT hands; the spearman's spear levelled in both hands"
+      nib: "crouched, a notched knife in reverse grip in each four-fingered hand, held up before his chest"
+    hand_ref: [reverse_grip_knives.png, grip_hilt_one_hand.png]
     calm: top
     sfx:
       - {text: "SPLSH SPLSH SPLSH", style: impact, at: [0.60, 0.70], size: L, rot: -6}
@@ -368,6 +434,9 @@ panels:
       closes his eyes.
     acting:
       kang_jaeha: "kneeling, one hand flat on the water, eyes closed, lips moving"
+    hands:
+      kang_jaeha: "RIGHT palm pressed flat on the water's surface, fingers spread, the amber thread running from it; LEFT arm holding the core against his side"
+    hand_ref: [fists_and_bracing.png]
     calm: top
     lines:
       - {who: kang_jaeha, type: whisper, text: "GIVE ME EVERYTHING THAT HITS YOU.", side: r}
@@ -385,6 +454,10 @@ panels:
     acting:
       nib: "parrying two swords at once, ducking the spear"
       bh_second: "slashing and thrusting"
+    hands:
+      nib: "ducking low, a notched knife in reverse grip in each four-fingered hand, both blades blocking the two swords"
+      bh_second: "the swordsmen slashing, RIGHT hands on the hilts; the spearman thrusting two-handed"
+    hand_ref: [reverse_grip_knives.png, grip_hilt_one_hand.png]
     calm: top
     sfx:
       - {text: "KLANG KLANG", style: impact, at: [0.40, 0.30], size: L, rot: -8}
@@ -401,6 +474,10 @@ panels:
     acting:
       bh_second: "following through on the slash"
       nib: "not flinching, already turning"
+    hands:
+      bh_second: "the swordsman's RIGHT hand on the hilt, arm swept through the follow-through; LEFT hand out for balance"
+      nib: "already turning, a notched knife in reverse grip in each four-fingered hand; the cut across his LEFT upper arm, no blood"
+    hand_ref: [grip_hilt_one_hand.png]
     calm: top
     sfx:
       - {text: "SHHK", style: impact, at: [0.50, 0.30], size: L, rot: 6}
@@ -418,6 +495,8 @@ panels:
       sound.
     acting:
       kang_jaeha: "eyes squeezed shut, jaw locked, the arm jerking"
+    hands:
+      kang_jaeha: "LEFT arm jerking, the gash across its upper arm, still hooked round the core; RIGHT hand below the frame"
     calm: left
     silent: true
     sfx:
@@ -436,6 +515,11 @@ panels:
     acting:
       song_yerin: "pressing her hands to the gash, eyes wet"
       lyra: "kneeling, an arrow notched, eyes on the hunters, jaw set"
+    hands:
+      song_yerin: "both glowing palms pressed flat over the gash on Jaeha's LEFT upper arm, fingers curving round it"
+      lyra: "kneeling, LEFT arm holding the bow up, RIGHT gloved fingers on the string, the notched arrow half drawn"
+      kang_jaeha: "RIGHT palm flat on the water, the amber thread running from it; LEFT arm still round the core under Yerin's hands"
+    hand_ref: [healing_palms.png, bow_draw.png]
     eyeline: "Yerin → Jaeha; Lyra → the hunters"
     foreground: "Lyra's bow, cropped, left"
     calm: top
@@ -455,6 +539,10 @@ panels:
     acting:
       nib: "a low sweeping kick, then a rising hilt strike"
       bh_second: "the spearman falling, the swordsman's head snapping back"
+    hands:
+      nib: "RIGHT fist drives up, the knife in reverse grip, its pommel striking the swordsman's jaw; LEFT knife held low; four fingers and a thumb each"
+      bh_second: "the spearman falling, hands letting go of the spear; the swordsman's arms flung up"
+    hand_ref: [reverse_grip_knives.png]
     calm: top
     sfx:
       - {text: "WHAM", style: impact, at: [0.50, 0.30], size: L, rot: -6}
@@ -471,6 +559,10 @@ panels:
     acting:
       bh_second: "the archer releasing"
       nib: "staggering half a step, the arrow in his thigh"
+    hands:
+      bh_second: "the archer's LEFT arm extended holding the bow, RIGHT hand just released from the string by his jaw"
+      nib: "staggering, a notched knife in reverse grip in each four-fingered hand, arms out for balance; the arrow in his RIGHT thigh"
+    hand_ref: [bow_draw.png]
     calm: top
     sfx:
       - {text: "THUK", style: impact, at: [0.60, 0.40], size: L, rot: 0}
@@ -488,6 +580,9 @@ panels:
       his body jerks; he falls forward onto his hands.
     acting:
       kang_jaeha: "falling forward onto his hands, teeth bared, blood on his thigh"
+    hands:
+      kang_jaeha: "falling forward onto both gloved hands, palms flat in the shallow water, elbows buckling; the core left in the water by his knees"
+    hand_ref: [fists_and_bracing.png]
     calm: top
     ui:
       - {kind: system.warning, "on": float, at: [0.5, 0.86], text: "[CARRY · NIB · 140%]"}
@@ -505,6 +600,9 @@ panels:
       Nib pulls the arrow out of his thigh, snaps it in one hand, and walks forward again.
     acting:
       nib: "snapping the arrow, walking forward, eyes on the archer"
+    hands:
+      nib: "RIGHT knife slid back into its sheath; RIGHT four-fingered hand snapping the pulled arrow in its fist; LEFT hand keeping its knife in reverse grip"
+    hand_ref: [fists_and_bracing.png]
     calm: top
     sfx:
       - {text: "SNAP", style: impact, at: [0.50, 0.30], size: M, rot: 0}
@@ -520,6 +618,8 @@ panels:
       Close on Sora (han_sora) in the high doorway, leaning forward now, the compass needle blazing violet and pointing at Nib.
     acting:
       han_sora: "leaning forward, eyes bright, lips parted"
+    hands:
+      han_sora: "leaning out, LEFT hand gripping the door frame; RIGHT hand on the lowered crossbow's grip, the compass dangling from that wrist"
     eyeline: "Sora → Nib"
     calm: right
     silent: true
@@ -538,6 +638,10 @@ panels:
     acting:
       bh_second: "the mage thrusting his staff forward"
       nib: "blasted back, skidding through the water, cloak smoking"
+    hands:
+      bh_second: "the mage thrusting the core-tipped staff forward in both hands, RIGHT hand ahead of the LEFT"
+      nib: "skidding back, arms flung out, LEFT four-fingered hand still gripping its knife, RIGHT hand empty"
+    hand_ref: [grip_hilt_two_hands.png]
     calm: top
     sfx:
       - {text: "KRAKOOM", style: impact, at: [0.40, 0.30], size: XL, rot: -6}
@@ -556,6 +660,10 @@ panels:
     acting:
       kang_jaeha: "face dropping toward the water, the burned arm shaking"
       borro: "catching his shoulder with one huge hand"
+    hands:
+      kang_jaeha: "RIGHT forearm smoking and shaking, the arm buckling under him; LEFT hand braced flat in the water"
+      borro: "RIGHT four-fingered hand catches Jaeha's LEFT shoulder from behind, fingers curling over the front of it"
+    hand_ref: [hand_on_shoulder.png, fists_and_bracing.png]
     calm: top
     sfx:
       - {text: "TSSSSS", style: impact, at: [0.30, 0.40], size: M, rot: 0}
@@ -572,6 +680,10 @@ panels:
       front; the drone's lens peeks out of the moss on his back toward the fight.
     acting:
       borro: "crouching over Jaeha, shell over him, the shield propped in front, calm"
+    hands:
+      borro: "crouched over Jaeha: RIGHT four-fingered hand braced flat in the water beside him; LEFT hand on the edge of the shield propped upright in front"
+      kang_jaeha: "lying under the shell, arms limp, hands in the water"
+    hand_ref: [shield_grip.png, fists_and_bracing.png]
     eyeline: "Borro → Nib"
     foreground: "the propped shield's edge, cropped, left"
     calm: top
@@ -590,6 +702,10 @@ panels:
     acting:
       nib: "walking back into them, knives low, smoke rising off him"
       bh_second: "hesitating, glancing at each other"
+    hands:
+      nib: "a notched knife in reverse grip in each four-fingered hand again, held low at his sides"
+      bh_second: "weapons held uncertainly, lowering a little"
+    hand_ref: [reverse_grip_knives.png]
     calm: top
     silent: true
     sfx:
@@ -607,6 +723,10 @@ panels:
     acting:
       mok_hangyu: "slashing with the short sword, teeth bared"
       nib: "turning his head with the cut"
+    hands:
+      mok_hangyu: "RIGHT hand slashing the short sword across, thumb over the guard; LEFT forearm through the cracked shield's strap, the shield swung aside"
+      nib: "turning his head with the cut, a knife in reverse grip in each four-fingered hand, arms coming up"
+    hand_ref: [grip_hilt_one_hand.png]
     calm: top
     sfx:
       - {text: "SHHK", style: impact, at: [0.50, 0.30], size: L, rot: 8}
@@ -623,6 +743,7 @@ panels:
       Close on Jaeha (kang_jaeha) under Borro's shell: a cut opens across his own LEFT cheek; his eyes stay open, fixed on Nib.
     acting:
       kang_jaeha: "lying under the shell, eyes open and fixed, blood on his cheek"
+    hands: none
     calm: left
     silent: true
 
@@ -638,6 +759,10 @@ panels:
       at Jaeha lying under Borro's shell.
     acting:
       nib: "touching his unmarked cheek, looking back over his shoulder, eyes wide"
+    hands:
+      nib: "the back of his LEFT four-fingered fist, still holding its knife in reverse grip, touching his LEFT cheek below the mask; RIGHT knife held low"
+      mok_hangyu: "only his sword's tip in frame at the top; hands out of frame"
+    hand_ref: [reverse_grip_knives.png]
     eyeline: "Nib → Jaeha"
     foreground: "Mok's sword, cropped, top"
     calm: top
@@ -656,6 +781,7 @@ panels:
       Close on Jaeha (kang_jaeha) under the shell, smiling through the blood.
     acting:
       kang_jaeha: "a faint smile, blood on his teeth, eyes on Nib"
+    hands: none
     eyeline: "Jaeha → Nib"
     foreground: "the edge of Borro's shell above him, cropped, top"
     calm: right
@@ -671,6 +797,7 @@ panels:
     light: "cyan"
     art: >
       Close on a small window in the corner of Jaeha's vision.
+    hands: none
     calm: left
     ui:
       - {kind: system.notice_small, "on": float, at: [0.5, 0.40], text: "[GATE CLOSING · 05:40]"}
@@ -687,6 +814,7 @@ panels:
       Extreme close-up: Nib's uncovered eye, the amber in it burning brighter and brighter. Fill the canvas edge to edge.
     acting:
       nib: "eye blazing, unblinking"
+    hands: none
     calm: none
     silent: true
 
@@ -704,6 +832,10 @@ panels:
     acting:
       nib: "standing straight, arms at his sides, light pouring off him"
       bh_second: "stepping back, shielding their eyes"
+    hands:
+      nib: "standing straight, arms at his sides, a notched knife in reverse grip in each four-fingered hand"
+      bh_second: "stepping back, a forearm raised over the eyes, the other hand holding its weapon low"
+      mok_hangyu: "stepping back, the cracked shield on his LEFT arm raised against the light, the sword in his RIGHT hand"
     calm: top
     ui:
       - {kind: system.window, "on": float, at: [0.5, 0.05], headline: "[NIB HELD THE LINE FOR HIS OPERATOR]", body: "SEAL 2/5 → 3/5", button: "OK"}
@@ -724,6 +856,9 @@ panels:
       the water; a brighter amber outline. A soldier, never a mascot.
     acting:
       nib: "standing in a low stance, the long knives reversed, scarf whipping, eye blazing"
+    hands:
+      nib: "low stance, a long knife in reverse grip in each four-fingered fist at chest height, the 40 cm blades running back along the bronze bracers past his elbows"
+    hand_ref: [reverse_grip_knives.png]
     calm: top
     sfx:
       - {text: "KRA-SHHING", style: summon, at: [0.30, 0.20], size: XL, rot: -8}
@@ -741,6 +876,10 @@ panels:
     acting:
       nib: "turning through them, both long knives flashing"
       bh_second: "two swordsmen staring at their empty hands"
+    hands:
+      nib: "mid-turn, arms swept out at the end of the cut, a long knife in reverse grip in each four-fingered hand"
+      bh_second: "two swordsmen holding up empty open hands, staring at them"
+    hand_ref: [reverse_grip_knives.png]
     calm: top
     sfx:
       - {text: "SHK SHK", style: impact, at: [0.50, 0.30], size: L, rot: -8}
@@ -757,6 +896,10 @@ panels:
     acting:
       nib: "a short elbow strike"
       bh_second: "a swordsman folding, eyes rolling"
+    hands:
+      nib: "RIGHT arm bent in a short elbow strike, the bronze bracer to the man's temple, the long knife in that four-fingered fist turned away; LEFT knife low"
+      bh_second: "the swordsman folding, hands going limp"
+    hand_ref: [reverse_grip_knives.png]
     calm: right
     sfx:
       - {text: "THOK", style: impact, at: [0.40, 0.30], size: M, rot: 0}
@@ -774,6 +917,10 @@ panels:
     acting:
       nib: "mid-leap between them, knives at the end of two cuts"
       bh_second: "the archer and the spearman staring at their weapons"
+    hands:
+      nib: "mid-leap, arms flung wide at the end of two cuts, a long knife in reverse grip in each four-fingered hand"
+      bh_second: "the archer holding the slack bow in his LEFT hand; the spearman holding half a spear in each hand"
+    hand_ref: [reverse_grip_knives.png]
     calm: top
     sfx:
       - {text: "TWANG", style: impact, at: [0.30, 0.30], size: M, rot: 0}
@@ -792,6 +939,10 @@ panels:
     acting:
       nib: "one foot on the man's chest, a knife held a finger's width from his throat"
       bh_second: "the spearman pinned, frozen"
+    hands:
+      nib: "bent over him, RIGHT long knife in reverse grip a finger's width from the man's throat; LEFT arm low, its knife pointing away; four fingers and a thumb each"
+      bh_second: "the pinned spearman's hands open beside his head, frozen"
+    hand_ref: [reverse_grip_knives.png]
     calm: left
     lines:
       - {who: nib, type: speech, text: "STAY DOWN.", side: r}
@@ -809,6 +960,10 @@ panels:
     acting:
       nib: "a single upward slash through the bolt"
       bh_second: "the mage's mouth dropping open"
+    hands:
+      nib: "RIGHT arm sweeping upward through the bolt, long knife in reverse grip; LEFT knife held low; four fingers and a thumb each"
+      bh_second: "the mage still holding the core-tipped staff out in both hands"
+    hand_ref: [reverse_grip_knives.png]
     calm: top
     sfx:
       - {text: "SHHHRAK", style: impact, at: [0.50, 0.30], size: XL, rot: -6}
@@ -826,6 +981,10 @@ panels:
     acting:
       nib: "catching the falling core, knives lowered"
       bh_second: "the mage backing away, hands up"
+    hands:
+      nib: "LEFT four-fingered fist holding both long knives lowered in reverse grip; RIGHT hand open, palm up, catching the falling core"
+      bh_second: "the mage backing away, both hands raised open at shoulder height"
+    hand_ref: [reverse_grip_knives.png]
     calm: top
     sfx:
       - {text: "SHK SHK", style: impact, at: [0.40, 0.30], size: M, rot: 0}
@@ -843,6 +1002,10 @@ panels:
     acting:
       bh_second: "the shield-bearer charging, then stumbling into the rubble"
       nib: "vaulting over the shield, landing behind him"
+    hands:
+      nib: "clearing the shield in a tuck, arms swept back, a long knife in reverse grip in each four-fingered hand again (the small core pocketed)"
+      bh_second: "the shield-bearer's LEFT forearm through his shield's strap, RIGHT hand on its edge, charging"
+    hand_ref: [shield_grip.png, reverse_grip_knives.png]
     calm: top
     sfx:
       - {text: "HUP", style: impact, at: [0.40, 0.30], size: M, rot: -6}
@@ -858,6 +1021,11 @@ panels:
     art: >
       High over the chamber: six hunters lie in the water or sit with their hands up, disarmed, every one alive; Nib stands in the
       middle in his new armour; Mok stands alone facing him with his cracked shield and sword.
+    hands:
+      bh_second: "small: lying in the water or sitting with both hands raised"
+      nib: "small: a long knife in reverse grip in each four-fingered hand, held low"
+      mok_hangyu: "small: the cracked shield on his LEFT forearm, the sword in his RIGHT hand"
+      background: "Borro (Jaeha under him), Yerin and Lyra small by the wall; hands not detailed"
     calm: top
     silent: true
     sfx:
@@ -875,6 +1043,10 @@ panels:
     acting:
       nib: "standing easy, the long knives low, head tilted"
       mok_hangyu: "crouched behind the cracked shield, sword up, sweating"
+    hands:
+      nib: "standing easy, a long knife in reverse grip in each four-fingered hand, held low at his sides"
+      mok_hangyu: "crouched behind the cracked shield, LEFT forearm through its strap; RIGHT hand holding the short sword up over the rim, thumb over the guard"
+    hand_ref: [grip_hilt_one_hand.png, shield_grip.png]
     eyeline: "Nib ↔ Mok"
     foreground: "a fallen sword in the water, cropped, bottom"
     calm: top
@@ -892,6 +1064,9 @@ panels:
       From low, tilted: Mok charges with a roar behind his cracked tower shield, sword raised over it.
     acting:
       mok_hangyu: "charging, roaring, shield first, sword raised"
+    hands:
+      mok_hangyu: "LEFT forearm through the shield's strap, hand on the grip, driving it forward; RIGHT hand raising the short sword over the rim"
+    hand_ref: [shield_grip.png, grip_hilt_one_hand.png]
     calm: top
     sfx:
       - {text: "RRRAAAAH", style: impact, at: [0.30, 0.20], size: XL, rot: -6}
@@ -908,6 +1083,10 @@ panels:
     acting:
       nib: "both knives driving into the crack, braced"
       mok_hangyu: "slamming into the knives behind his shield"
+    hands:
+      nib: "both four-fingered fists brought forward in an icepick stab, the long knives crossed in reverse grip, points driven into the shield's crack"
+      mok_hangyu: "LEFT forearm through the strap behind the shield, slamming into it; RIGHT sword hand raised over the rim"
+    hand_ref: [reverse_grip_knives.png, shield_grip.png]
     calm: top
     sfx:
       - {text: "KRANGG", style: impact, at: [0.50, 0.30], size: XL, rot: 8}
@@ -925,6 +1104,10 @@ panels:
     acting:
       nib: "following through, knives crossed"
       mok_hangyu: "stumbling through, falling backward, arms flung out"
+    hands:
+      nib: "following through, both four-fingered fists crossed in front of him, a long knife in reverse grip in each"
+      mok_hangyu: "falling backward, arms flung out: LEFT hand torn open as the snapped grip flies from it; the short sword flying from his RIGHT hand"
+    hand_ref: [reverse_grip_knives.png]
     calm: top
     sfx:
       - {text: "KRA-KAAKK", style: impact, at: [0.30, 0.20], size: XL, rot: -8}
@@ -941,6 +1124,10 @@ panels:
     acting:
       nib: "standing over him, one knife at his throat, the other low, deadpan"
       mok_hangyu: "on his back, staring up, panting"
+    hands:
+      nib: "RIGHT long knife in reverse grip held a finger's width from Mok's throat; LEFT knife low at his side; four fingers and a thumb each"
+      mok_hangyu: "on his back in the water, both hands empty, flung out at his sides"
+    hand_ref: [reverse_grip_knives.png]
     calm: top
     lines:
       - {who: nib, type: speech, text: "I WON'T KILL YOU. BUT I'LL HOLD YOU FOR HIM.", side: r}
@@ -954,6 +1141,7 @@ panels:
     light: "cyan"
     art: >
       Close on a small window in the corner of Jaeha's vision.
+    hands: none
     calm: right
     ui:
       - {kind: system.notice_small, "on": float, at: [0.5, 0.40], text: "[GATE CLOSING · 04:10]"}
@@ -973,6 +1161,11 @@ panels:
       song_yerin: "hauling him by one arm, crying and laughing"
       lyra: "hauling him by the other, scowling"
       kang_jaeha: "pulled up between them, legs dragging, grinning"
+    hands:
+      song_yerin: "both hands round Jaeha's LEFT forearm, below the gash, hauling"
+      lyra: "RIGHT gloved hand gripping Jaeha's RIGHT upper arm above the burn, hauling; LEFT hand holding the bow out to the side"
+      kang_jaeha: "arms held out by them, gloved hands hanging open"
+    hand_ref: [reaching_grabbing_wrist.png]
     eyeline: "Jaeha → Nib"
     foreground: "Borro's shell, cropped, left"
     calm: top
@@ -990,6 +1183,7 @@ panels:
     art: >
       Close and low on the water by Mok: the snapped hollow steel grip of his shield lies in the water, and something wrapped in
       cloudy plastic and tape slides out of it.
+    hands: none
     calm: top
     silent: true
     sfx:
@@ -1006,6 +1200,9 @@ panels:
       Close on Mok (mok_hangyu) on his back, his eyes snapping to the package in the water, terror on his face for the first time.
     acting:
       mok_hangyu: "eyes snapping sideways, mouth opening, a hand twitching toward it"
+    hands:
+      mok_hangyu: "RIGHT hand lifting off the water, fingers twitching open toward the package; LEFT hand flat in the water"
+    hand_ref: [reaching_grabbing_wrist.png]
     eyeline: "Mok → the package"
     calm: left
     lines:
@@ -1024,6 +1221,10 @@ panels:
       the package.
     acting:
       kang_jaeha: "crawling on his hands and knees through the water, eyes fixed on the package"
+    hands:
+      kang_jaeha: "crawling, both gloved hands planted flat in the shallow water, the burned RIGHT forearm trembling"
+      background: "the others watching, hands relaxed or out of sight"
+    hand_ref: [fists_and_bracing.png]
     eyeline: "Jaeha → the package"
     foreground: "the snapped shield grip, cropped, bottom"
     calm: top
@@ -1041,6 +1242,9 @@ panels:
     art: >
       Close on Jaeha's bloody, shaking hands tearing the plastic open: inside is an old phone in a cracked safety-orange case, and
       on the back of the case, a faded sticker of a stick figure in a vest giving a thumbs-up.
+    hands:
+      kang_jaeha: "LEFT hand holding the package, RIGHT fingers ripping the cloudy plastic and tape open, the phone's back with the sticker turned up; bloody fingertips shaking"
+    hand_ref: [phone_hold.png]
     calm: top
     silent: true
     sfx:
@@ -1056,6 +1260,7 @@ panels:
     art: >
       A small grey memory inset: the doodle in the margin of the notebook's first pages, the same stick figure in a vest giving a
       thumbs-up.
+    hands: none
     calm: right
     silent: true
 
@@ -1071,6 +1276,7 @@ panels:
       Extreme close-up: Jaeha's eyes (kang_jaeha), filling with tears. Fill the canvas edge to edge.
     acting:
       kang_jaeha: "eyes wide, filling with tears"
+    hands: none
     calm: none
     lines:
       - {who: kang_jaeha, type: speech, text: "THIS IS HIS. THIS IS MINSEOK'S PHONE.", side: r}
@@ -1087,6 +1293,13 @@ panels:
     acting:
       mok_hangyu: "turning his face away, eyes shut, jaw clenched"
       nib: "holding the knife steady, looking down at him"
+    hands:
+      nib: "RIGHT long knife in reverse grip held steady over Mok's throat; LEFT knife low; four fingers and a thumb each"
+      mok_hangyu: "both hands lying open in the water at his sides"
+      song_yerin: "hands still at her sides"
+      lyra: "LEFT hand holding the bow at her side; RIGHT hand on her hip"
+      borro: "hands relaxed at his sides, four fingers and a thumb each"
+    hand_ref: [reverse_grip_knives.png]
     eyeline: "Mok → away; Nib → Mok"
     foreground: "Nib's long knife, cropped, top"
     calm: top
@@ -1103,6 +1316,8 @@ panels:
     art: >
       Close on the high doorway: Sora steps back out of the torchlight and is gone; only the glint of the compass on her wrist as
       she turns.
+    hands:
+      han_sora: "only her RIGHT wrist and hand in the fading light as she turns away, the brass compass glinting on its chain"
     calm: left
     silent: true
 
@@ -1116,6 +1331,9 @@ panels:
     art: >
       Close on the old phone in Jaeha's shaking hands: its cracked screen flickers, then lights up after four years, its battery
       icon nearly empty. Screen: flat green.
+    hands:
+      kang_jaeha: "both gloved hands hold the old phone upright, thumbs at its sides off the green screen, bloody fingertips shaking"
+    hand_ref: [phone_hold.png]
     calm: top
     silent: true
     sfx:
@@ -1130,6 +1348,7 @@ panels:
     light: "the screen's glow"
     art: >
       Extreme close-up of the phone's cracked screen, flat green.
+    hands: none
     calm: top
     ui:
       - kind: phone.info_card
@@ -1141,3 +1360,6 @@ panels:
   - id: END
     kind: end
     chibi_gag: "Chibi Nib, in his new armour, admires himself in a puddle from every angle, while chibi Lyra, jealous, tries to wear Borro's dented shield as a breastplate and falls over."
+    hands:
+      nib: "hands on his hips, leaning over the puddle to admire himself; four fingers and a thumb each"
+      lyra: "both arms hugging the huge dented shield against her front, toppling backward"

@@ -26,9 +26,9 @@ cast:
 locations: [rooftop_room, hospital, expressway_night, geum_stall, busan_sea_gate]
 continuity:
   - "Kang Seoa (15): her outfit as each panel says; glasses, the calculator keychain. Never any fan service. The camera stays at her eye level or above, never below."
-  - "Jaeha: the clean grey hoodie; his hands shake in every panel where they are visible (a faint tremor line on the fingers); from P15 a hospital gown under the hoodie, an IV line taped to his LEFT hand until P21; a wheelchair from P22."
+  - "Jaeha: the clean grey hoodie; his hands shake in every panel where they are visible (a faint tremor line on the fingers); from P15 a hospital gown under the hoodie, an IV line taped to the back of his LEFT hand until P21; no gloves from P15 to the end of the chapter (the hospital, the van and Busan, bare hands with the tremor showing on his fingers; the training look from ch 34 is bare-handed too); a wheelchair from P22."
   - "The rooftop dinner (P01-P13, location rooftop_room): two fold-out tables pushed together under the strings of warm bulbs; a portable grill with samgyeopsal, bowls of banchan, kimchi, a pan of tteokbokki, a heap of Borro's lettuce, boxes of fried chicken; plastic stools and chairs; the Mapo skyline at night."
-  - "Dami's daughter (generic, about 6): the too-big yellow raincoat from her mother's lock screen, a grin with a missing front tooth. A child: drawn simply and cutely, never any fan service. Moon Ahin: her fresh white coat-dress, hair loose, no ribbon; Saebyeok (No. 1) carries a huge cellophane-wrapped luxury fruit basket behind her. A glamour beat at the table (P07): elegant on a plastic stool, Lyra beside her."
+  - "Dami's daughter (generic, about 6): the too-big yellow raincoat from her mother's lock screen, a grin with a missing front tooth. A child: drawn simply and cutely, never any fan service. Moon Ahin: her fresh white coat-dress, hair loose, no ribbon; as in ch 32, only her RIGHT white glove is on (the LEFT one tucked into her belt) and a small bandage covers the back of her bare LEFT hand; Saebyeok (No. 1) carries a huge cellophane-wrapped luxury fruit basket behind her. A glamour beat at the table (P07): elegant on a plastic stool, Lyra beside her."
   - "The hospital (new location hospital): a four-bed ward in a Mapo hospital at night, curtains, a monitor beeping, a window over the city; then the same ward in grey morning light."
   - "The road (new location expressway_night): Choi's white Gate Rescue van on an expressway south at night, the dashboard glow, Jaeha asleep in the passenger seat, the summons squeezed in the back with Borro folded double."
   - "Auntie Geum Okran (new main cast, CHARACTER_DESIGNS_v2.md 2.9; full sheet to come): 62, short and broad, about 155 cm, with a wrestler's shoulders and forearms; short permed grey hair under a faded floral headscarf; a deep-lined, sun-browned face, sharp black eyes that see everything, one gold tooth; a red-and-white checked apron over a faded purple tracksuit; rubber slippers. Her LEFT arm from just above the elbow is an old heavy prosthetic: battered gunmetal steel plates and rivets, a faded painted wave pattern on the forearm, three thick fingers and a thumb. In her RIGHT hand, always, a big long-handled steel ladle. She talks loudly and pokes people with the ladle. Name card background: gradient, harbour blue #2C4A63 to rust #A8572E."
@@ -67,6 +67,16 @@ panels:
       nib: "slapping Lyra's hand away from the grill"
       borro: "sitting on the floor, a lettuce leaf in his fingers"
       gomi: "under the table, eyes on the meat"
+    hands:
+      kang_seoa: "arms crossed, her phone in her RIGHT hand tucked at her elbow"
+      song_yerin: "RIGHT hand setting a pair of chopsticks down beside a bowl; LEFT hand holding the rest"
+      yoo_bomi: "both hands hold her phone sideways over the food, filming"
+      choi_dongmin: "RIGHT hand holds a paper coffee cup; LEFT hand on his knee"
+      landlady: "setting a tub of kimchi down with both hands"
+      lyra: "chewing, her RIGHT hand reaching back to the grill for another piece of meat with her fingers"
+      nib: "RIGHT four-fingered hand slapping the back of Lyra's RIGHT hand away from the grill"
+      borro: "RIGHT four-fingered hand holds a lettuce leaf delicately between thumb and fingertips; LEFT hand on his knee"
+    hand_ref: [phone_hold.png]
     calm: top
     lines:
       - {who: offpanel:crowd, type: tag, text: "FRIDAY, 6:59 PM."}
@@ -82,6 +92,9 @@ panels:
     light: "the screen"
     art: >
       Close on Seoa's phone in her hand, the calculator keychain dangling, the screen flat green.
+    hands:
+      kang_seoa: "RIGHT hand holds the phone upright, thumb at the screen's edge, the calculator keychain dangling below it"
+    hand_ref: [phone_hold.png]
     calm: left
     silent: true
     ui:
@@ -101,6 +114,9 @@ panels:
       From the table: the stair door bangs open and Jaeha (kang_jaeha) stumbles through it out of breath, holding up seven trembling fingers.
     acting:
       kang_jaeha: "stumbling through the door, panting, holding up seven fingers, a sheepish grin"
+    hands:
+      kang_jaeha: "both hands held up to count seven: RIGHT hand open, all fingers spread; LEFT hand with index and middle fingers up; faint tremor lines on his fingers"
+    hand_ref: [handshake_and_peace.png]
     calm: top
     lines:
       - {who: kang_jaeha, type: shout, text: "SEVEN O'CLOCK!", side: r}
@@ -120,6 +136,9 @@ panels:
     acting:
       kang_seoa: "lowering the phone, arms uncrossing, lips pressed together to hide a smile"
       kang_jaeha: "panting, hands on his knees"
+    hands:
+      kang_seoa: "RIGHT hand lowering the phone to her side; LEFT arm uncrossing"
+      kang_jaeha: "bent over, both hands braced on his knees, faint tremor lines on his fingers"
     eyeline: "Seoa ↔ Jaeha"
     foreground: "the empty stool, cropped, bottom"
     calm: top
@@ -142,6 +161,13 @@ panels:
       dami_daughter: "peeking round her mother at the big mossy Borro, eyes huge"
       crew_woo: "balancing the boxes"
       crew_ho: "holding the top box high"
+    hands:
+      crew_pyo: "RIGHT hand raising the soju bottle high like a trophy, fingers round its neck; LEFT hand at his side"
+      crew_dami: "LEFT hand holding her daughter's RIGHT hand; RIGHT hand at her side"
+      dami_daughter: "RIGHT hand in her mother's; LEFT hand holding the edge of her mother's jacket as she peeks round; the raincoat's long sleeves half over her hands"
+      crew_woo: "both hands under a tall stack of fried-chicken boxes, balancing it"
+      crew_ho: "RIGHT hand holding the top box high over his head; LEFT hand steadying the stack in Woo's arms"
+    hand_ref: [reaching_grabbing_wrist.png]
     calm: top
     lines:
       - {who: crew_ho, type: shout, text: "'WINGS OF GLORY'! THE PROTOTYPE! WE'RE ALLOWED, RIGHT?", side: l}
@@ -162,6 +188,11 @@ panels:
       moon_ahin: "stepping onto the roof, chin up, eyes sliding away from everyone"
       ahin_husks: "Saebyeok holding the huge fruit basket in both arms"
       lyra: "freezing with a piece of meat halfway to her mouth"
+    hands:
+      moon_ahin: "RIGHT gloved hand holds the baton at her side; LEFT gloved hand relaxed at her side"
+      ahin_husks: "Saebyeok holding the huge fruit basket in both arms"
+      lyra: "RIGHT hand frozen halfway to her mouth, a piece of meat between her fingers"
+      background: "the table frozen mid-meal, hands still over the food and cups"
     calm: top
     lines:
       - {who: lyra, type: speech, text: "WHO INVITED THE WHITE ONE?", side: r}
@@ -177,12 +208,18 @@ panels:
     light: "key: warm bulbs; back: dusk"
     art: >
       A glamour beat: Moon Ahin (moon_ahin) perches elegantly on a red plastic stool at the crowded table, knees together, the slit of the white
-      coat-dress falling open, a paper cup held in both gloved hands; on the next stool Lyra (lyra) glares at her sideways in her blue and silver,
+      coat-dress falling open, a paper cup held in both hands (the white glove on her RIGHT, the small bandage on her bare LEFT); on the next stool Lyra (lyra) glares at her sideways in her blue and silver,
       two beautiful women side by side among the grill smoke and the chicken boxes. The landlady (landlady) eyes Saebyeok behind them.
     acting:
       moon_ahin: "sitting very upright on the stool, paper cup in both hands, pretending this is normal"
       lyra: "glaring sideways, a chicken wing in her hand"
       landlady: "squinting at the husk with the fruit basket, eyebrow climbing"
+    hands:
+      moon_ahin: "both hands round a paper cup in her lap: the RIGHT in its white glove, the bare LEFT with a small bandage on its back; the baton tucked into her belt"
+      lyra: "RIGHT hand holds a chicken wing up by its tip; LEFT hand on her knee"
+      landlady: "arms folded"
+      ahin_husks: "Saebyeok behind them, the fruit basket in both arms"
+    hand_ref: [holding_cup.png]
     calm: top
     lines:
       - {who: landlady, type: speech, text: "MORE PETS?", side: r}
@@ -193,12 +230,15 @@ panels:
     shape: wide
     gap: short
     bg: white
-    camera: "low, from the table: Seoa standing on her stool and raising her paper cup over the feast"
+    camera: "eye level with Seoa, from across the table: Seoa standing on her stool and raising her paper cup over the feast"
     light: "warm bulbs"
     art: >
-      From low at the table: Seoa (kang_seoa) stands up on her stool and raises her paper cup over the feast.
+      From across the table, at her eye level: Seoa (kang_seoa) stands up on her stool and raises her paper cup over the feast.
     acting:
       kang_seoa: "standing on the stool, cup raised high, cheeks red, glasses glinting"
+    hands:
+      kang_seoa: "RIGHT hand raising the paper cup high over the feast; LEFT arm out for balance on the stool"
+    hand_ref: [holding_cup.png]
     eyeline: "Seoa → everyone"
     foreground: "the grill's smoke, cropped, bottom"
     calm: top
@@ -218,6 +258,12 @@ panels:
     acting:
       borro: "raising a lettuce leaf solemnly"
       dami_daughter: "raising a juice box with both hands"
+    hands:
+      borro: "RIGHT four-fingered hand raises a lettuce leaf solemnly between thumb and fingertips"
+      dami_daughter: "raising a juice box with both hands, the long sleeves slipping down"
+      ahin_husks: "Saebyeok raising the fruit basket overhead in both hands"
+      background: "every hand round the table raising a cup, a can or a bottle"
+    hand_ref: [holding_cup.png]
     calm: top
     lines:
       - {who: offpanel:crowd, type: shout, text: "TO EVERYONE WHO CAME BACK!"}
@@ -234,6 +280,9 @@ panels:
     art: >
       Close on Jaeha's hand picking up a pair of steel chopsticks: his fingers tremble, and the chopsticks' tips won't meet; they click against
       each other uselessly.
+    hands:
+      kang_jaeha: "RIGHT hand holding a pair of steel chopsticks in a shaky grip, faint tremor lines on his fingers, the tips apart and clicking"
+    hand_ref: [notebook_and_pencil.png]
     calm: top
     silent: true
     sfx:
@@ -252,6 +301,9 @@ panels:
       Fill the canvas edge to edge.
     acting:
       kang_jaeha: "the fingers straining and not closing"
+    hands:
+      kang_jaeha: "RIGHT fingers straining to close round the steel chopsticks, knuckles tight, the tips shaking apart, faint tremor lines"
+    hand_ref: [notebook_and_pencil.png]
     calm: none
     lines:
       - {who: kang_jaeha, type: inner, text: "Close. Close. Why won't it close?"}
@@ -267,6 +319,8 @@ panels:
       Close on Seoa (kang_seoa): her smile goes out; the cup lowers.
     acting:
       kang_seoa: "the smile fading, lowering the cup, eyes on his hand"
+    hands:
+      kang_seoa: "RIGHT hand lowering the paper cup; LEFT hand out of frame"
     calm: right
     lines:
       - {who: kang_seoa, type: speech, text: "...JAEHA?", side: l}
@@ -288,6 +342,13 @@ panels:
       song_yerin: "lunging, hands already glowing green"
       moon_ahin: "rising off her stool, reaching out"
       nib: "leaping off his chair toward him"
+    hands:
+      kang_jaeha: "falling sideways, both hands open and shaking, faint tremor lines, the chopsticks dropping from his RIGHT"
+      kang_seoa: "both arms reaching across the table for him"
+      song_yerin: "both palms out toward him, glowing soft mint-green"
+      moon_ahin: "rising off her stool: RIGHT gloved hand reaching out toward him; LEFT hand pushing off the table edge"
+      nib: "leaping toward him, both long arms reaching, four-fingered hands open"
+    hand_ref: [reaching_grabbing_wrist.png]
     calm: top
     ui:
       - {kind: system.warning, "on": float, at: [0.5, 0.88], text: "[OPERATOR BODY: CRITICAL]"}
@@ -318,6 +379,10 @@ panels:
       kang_jaeha: "lying awake, staring at the ceiling"
       kang_seoa: "asleep with her head on the blanket, still holding his hand"
       nib: "sitting on the sill, knees up, watching him"
+    hands:
+      kang_jaeha: "bare hands, no gloves: LEFT hand on the blanket, the IV line taped to its back; RIGHT hand held in Seoa's"
+      kang_seoa: "asleep: LEFT hand holding his RIGHT hand on the blanket; RIGHT arm folded under her cheek"
+      nib: "on the sill, long arms wrapped round his knees, four-fingered hands clasped"
     calm: top
     lines:
       - {who: offpanel:crowd, type: tag, text: "SATURDAY, 3:12 AM."}
@@ -336,6 +401,8 @@ panels:
       Jaeha (kang_jaeha) lies in the bed looking up at a window that only he can see. The upper half is empty for the window.
     acting:
       kang_jaeha: "lying still, eyes on the window"
+    hands:
+      kang_jaeha: "lying still, bare hands (no gloves) on the blanket, the IV line taped to the back of his LEFT hand; faint tremor lines on his fingers"
     calm: top
     silent: true
     ui:
@@ -353,6 +420,7 @@ panels:
       Extreme close-up of Jaeha's eyes (kang_jaeha) reading the window line by line, the way he reads a contract. Fill the canvas edge to edge.
     acting:
       kang_jaeha: "eyes moving along the lines, then stopping"
+    hands: none
     calm: none
     silent: true
 
@@ -368,6 +436,9 @@ panels:
       Close and low on Jaeha (kang_jaeha) in the bed: a small, cold, private smile.
     acting:
       kang_jaeha: "the corner of his mouth lifting, eyes still on the window"
+    hands:
+      kang_jaeha: "bare RIGHT hand (no glove) on the blanket under Seoa's hand at the bottom of the frame, faint tremor lines on his fingers; LEFT hand out of frame"
+      kang_seoa: "only her LEFT hand in frame, resting over his RIGHT"
     eyeline: "Jaeha → the window"
     foreground: "Seoa's hand on his, cropped, bottom"
     calm: top
@@ -385,6 +456,8 @@ panels:
       Close on Nib (nib) on the windowsill, dry as dust.
     acting:
       nib: "chin on his knees, one eyebrow up"
+    hands:
+      nib: "long arms wrapped round his knees, four-fingered hands clasped over his shins"
     eyeline: "Nib → Jaeha"
     foreground: "the window frame, cropped, left"
     calm: left
@@ -408,6 +481,14 @@ panels:
       song_yerin: "arms wrapped round herself"
       choi_dongmin: "leaning in the doorway with a kimbap box"
       lyra: "leaning in the doorway, arms crossed"
+    hands:
+      hospital_doctor: "both hands holding the tablet up, screen out, one shoulder shrugging"
+      kang_seoa: "both hands gripping the bed rail"
+      song_yerin: "arms wrapped round herself, hands at her elbows"
+      choi_dongmin: "the kimbap box held under his LEFT arm; RIGHT hand in his jacket pocket"
+      lyra: "arms crossed"
+      kang_jaeha: "in bed, bare hands (no gloves) on the blanket, the IV line taped to the back of his LEFT hand"
+      ahin_husks: "Saebyeok in the corridor, the fruit basket in both arms"
     calm: top
     lines:
       - {who: hospital_doctor, type: speech, text: "BONES FINE. NERVES FINE. BLOOD FINE. MEDICALLY, THERE'S NOTHING WRONG WITH HIM.", side: l}
@@ -424,6 +505,10 @@ panels:
     acting:
       kang_seoa: "rounding on him, pointing at her brother's hands, eyes furious and wet"
       hospital_doctor: "backing off a step, tablet raised like a shield"
+    hands:
+      kang_seoa: "RIGHT arm extended, index finger pointing at her brother's hands; LEFT hand gripping the bed rail"
+      hospital_doctor: "both hands holding the tablet up in front of his chest like a shield"
+    hand_ref: [pointing.png]
     eyeline: "Seoa → the doctor"
     foreground: "the bed rail, cropped, bottom"
     calm: top
@@ -444,6 +529,10 @@ panels:
     acting:
       song_yerin: "hands glowing over his, eyes wet, shaking her head"
       kang_jaeha: "watching her hands, a gentle smile for her"
+    hands:
+      song_yerin: "both palms held just above his hands, glowing faintly mint-green"
+      kang_jaeha: "both bare hands (no gloves) on the blanket in the foreground, shaking, faint tremor lines on his fingers"
+    hand_ref: [healing_palms.png]
     eyeline: "Yerin → his hands; Jaeha → Yerin"
     foreground: "his shaking hands on the blanket, cropped, bottom"
     calm: top
@@ -459,6 +548,7 @@ panels:
     light: "grey morning"
     art: >
       Close on the card tucked into the cellophane of the fruit basket Saebyeok is holding, written in neat silver ink.
+    hands: none
     calm: left
     silent: true
     ui:
@@ -475,6 +565,9 @@ panels:
       From low at the bed: Choi (choi_dongmin) in the doorway with a kimbap box under his arm, rubbing the back of his neck, reluctant.
     acting:
       choi_dongmin: "rubbing the back of his neck, the kimbap box under his arm, eyes on the floor"
+    hands:
+      choi_dongmin: "the kimbap box tucked under his LEFT arm; RIGHT hand rubbing the back of his neck"
+    hand_ref: [hand_on_shoulder.png]
     eyeline: "Choi → Jaeha"
     foreground: "the IV stand, cropped, right"
     calm: top
@@ -492,6 +585,8 @@ panels:
       Close on Choi (choi_dongmin), a crooked, rueful half-smile.
     acting:
       choi_dongmin: "a rueful half-smile, looking off"
+    hands:
+      choi_dongmin: "the kimbap box under his LEFT arm at the frame edge; RIGHT hand out of frame"
     eyeline: "Choi → away"
     foreground: "the kimbap box, cropped, right"
     calm: right
@@ -508,6 +603,7 @@ panels:
     art: >
       On the expressway at night (location expressway_night), from low: Choi's white Gate Rescue van speeds south under strobing sodium lights;
       a blank road sign flashes past.
+    hands: none
     calm: top
     lines:
       - {who: offpanel:crowd, type: tag, text: "SATURDAY NIGHT. THE ROAD SOUTH."}
@@ -531,6 +627,12 @@ panels:
       nib: "asleep against Borro"
       lyra: "awake, complaining, a knee in her ribs"
       borro: "folded double, perfectly content"
+    hands:
+      choi_dongmin: "LEFT hand on the top of the steering wheel; RIGHT hand resting on his knee"
+      kang_jaeha: "bare hands: asleep, both hands in his lap, trembling even now, faint tremor lines on his fingers"
+      nib: "asleep, long arms limp in his lap, four-fingered hands loose"
+      lyra: "arms squashed against her sides, hands in her lap"
+      borro: "folded double, four-fingered hands wrapped round his shins"
     calm: top
     lines:
       - {who: lyra, type: whisper, text: "WHY IS EVERYTHING IN YOUR WORLD THE WRONG SIZE?", side: r}
@@ -547,6 +649,7 @@ panels:
       High over a harbour in Busan at dawn: fishing boats at their moorings, a long breakwater, gulls wheeling over the grey-pink sea; on the edge
       of a harbour market, an orange tarp pojangmacha stall glows with bare bulbs, steam rising from it; Choi's white van is parked beside it.
       Scale: the stall is a tent 6 m long.
+    hands: none
     calm: top
     lines:
       - {who: offpanel:crowd, type: tag, text: "BUSAN. SUNDAY, 6:30 AM."}
@@ -567,6 +670,8 @@ panels:
       Steam rolls round her.
     acting:
       geum_okran: "back to the door, stirring the pan with big slow strokes of the ladle"
+    hands:
+      geum_okran: "back to the door: RIGHT hand stirs the pan with the long ladle in big slow strokes; steel LEFT hand, three thick fingers and a thumb, at her side"
     calm: top
     silent: true
     sfx:
@@ -586,6 +691,11 @@ panels:
       choi_dongmin: "standing in the doorway, suddenly polite, chin tucked like a schoolboy"
       kang_jaeha: "in the wheelchair, looking at her back"
       geum_okran: "stirring, not turning"
+    hands:
+      choi_dongmin: "both hands on the wheelchair's push handles"
+      kang_jaeha: "bare hands: in the wheelchair, hands in his lap, faint tremor lines on his fingers"
+      geum_okran: "back turned: RIGHT hand stirring with the ladle; steel LEFT hand, three thick fingers and a thumb, at her side"
+      background: "the summons crowding behind, hands at their sides"
     eyeline: "Choi → her back"
     foreground: "the tent flap, cropped, left"
     calm: top
@@ -608,6 +718,9 @@ panels:
       the floral headscarf, the checked apron. She is short and she fills the whole tent.
     acting:
       geum_okran: "turning, ladle raised like a sword, steel hand on her hip, eyes narrowing at Jaeha"
+    hands:
+      geum_okran: "RIGHT hand raises the long ladle like a sword; steel LEFT hand, three thick fingers and a thumb, planted on her hip"
+    hand_ref: [grip_hilt_one_hand.png]
     calm: top
     silent: true
     sfx:
@@ -628,6 +741,11 @@ panels:
       nib: "stepping back, ears flattening"
       lyra: "stepping back, hand on her bow"
       borro: "stepping back, ducking under the tent pole"
+    hands:
+      geum_okran: "RIGHT hand swinging the ladle low by its long handle; steel LEFT hand, three thick fingers and a thumb, swinging at her side"
+      nib: "stepping back, long arms hanging, four-fingered hands loose by his knees"
+      lyra: "LEFT hand tightening on the bow held upright at her side; RIGHT hand relaxed"
+      borro: "ducking, four-fingered hands at his sides"
     eyeline: "Geum → Jaeha"
     foreground: "the bubbling pan, cropped, bottom left"
     calm: top
@@ -650,6 +768,9 @@ panels:
     acting:
       geum_okran: "tapping him with the ladle, head cocked, listening"
       kang_jaeha: "sitting very still in the wheelchair, eyes following the ladle"
+    hands:
+      geum_okran: "RIGHT hand taps his shoulder with the ladle's bowl, light as a doctor's hammer; steel LEFT hand, three thick fingers and a thumb, at her side"
+      kang_jaeha: "bare hands: sitting very still, hands in his lap, faint tremor lines on his fingers"
     calm: top
     lines:
       - {who: geum_okran, type: speech, text: "SHOULDERS: CARRIED TOO MUCH. SPINE: CARRIED TOO MUCH. HANDS: CARRIED TOO MUCH.", side: l}
@@ -669,6 +790,9 @@ panels:
     acting:
       geum_okran: "pressing the ladle to his chest, eyes on his face, the grin gone"
       kang_jaeha: "looking down at the ladle, then up at her"
+    hands:
+      geum_okran: "RIGHT hand presses the ladle's bowl flat on his chest over his heart; steel LEFT hand, three thick fingers and a thumb, at her side"
+      kang_jaeha: "bare hands: hands on the wheelchair's armrests, faint tremor lines on his fingers"
     eyeline: "Geum → Jaeha; Jaeha → Geum"
     foreground: "the ladle's long handle, cropped, top"
     calm: top
@@ -687,6 +811,9 @@ panels:
       Close on the ladle tapping Jaeha (kang_jaeha) once, lightly, on the forehead.
     acting:
       kang_jaeha: "blinking as the ladle taps his forehead"
+    hands:
+      geum_okran: "only the ladle's bowl in frame; her hands out of frame"
+      kang_jaeha: "hands below the frame"
     foreground: "the ladle's bowl, cropped, top right"
     calm: left
     lines:
@@ -707,6 +834,10 @@ panels:
     acting:
       geum_okran: "ladle pointed at his face, chin up, the gold tooth glinting, absolutely certain"
       kang_jaeha: "in the wheelchair, looking up at her, stunned"
+    hands:
+      geum_okran: "RIGHT hand points the ladle at his face like a sword; steel LEFT hand, three thick fingers and a thumb, on her hip"
+      kang_jaeha: "bare hands: in the wheelchair, hands gripping the armrests, faint tremor lines on his fingers"
+    hand_ref: [grip_hilt_one_hand.png]
     calm: top
     lines:
       - {who: geum_okran, type: shout, text: "YOUR HEAD IS S-RANK. YOUR BODY IS GARBAGE.", side: l}
@@ -725,6 +856,12 @@ panels:
       lyra: "nodding, lips pursed"
       borro: "nodding slowly"
       choi_dongmin: "hiding a laugh behind the cup, shoulders shaking"
+    hands:
+      nib: "long arms folded across his chest, four-fingered hands on his upper arms"
+      lyra: "hands relaxed at her sides, the bow in her LEFT"
+      borro: "four-fingered hands hanging at his sides"
+      choi_dongmin: "RIGHT hand holds the coffee cup up in front of his mouth; LEFT hand on his stomach"
+    hand_ref: [holding_cup.png, arms_relaxed.png]
     calm: top
     silent: true
     sfx:
@@ -743,6 +880,9 @@ panels:
     acting:
       geum_okran: "leaning down, steel hand on the armrest, voice low, eyes hard"
       kang_jaeha: "listening, very still"
+    hands:
+      geum_okran: "steel LEFT hand, three thick fingers and a thumb, gripping the wheelchair's armrest; RIGHT hand holds the ladle down at her side"
+      kang_jaeha: "bare hands: hands in his lap, faint tremor lines on his fingers"
     eyeline: "Geum ↔ Jaeha"
     foreground: "her steel fingers on the armrest, cropped, bottom"
     calm: top
@@ -762,6 +902,9 @@ panels:
       Close on Jaeha (kang_jaeha), suddenly sharp.
     acting:
       kang_jaeha: "eyes sharpening, leaning forward in the chair"
+    hands:
+      kang_jaeha: "hands below the frame"
+      geum_okran: "only the ladle's handle in frame; her hand out of frame"
     eyeline: "Jaeha → Geum"
     foreground: "the ladle's handle, cropped, right"
     calm: right
@@ -780,6 +923,8 @@ panels:
       Close on Geum (geum_okran) straightening up and looking out of the tent flap at the sea; her steel hand flexes, the old plates creaking.
     acting:
       geum_okran: "looking out at the sea, the steel fingers flexing, the face closed"
+    hands:
+      geum_okran: "steel LEFT hand, three thick fingers and a thumb, flexing slowly; RIGHT hand holds the ladle down at her side"
     eyeline: "Geum → the sea"
     foreground: "the tent flap and the sea beyond, cropped, right"
     calm: top
@@ -798,6 +943,7 @@ panels:
       Extreme close-up of Jaeha's eyes (kang_jaeha), going wide. Fill the canvas edge to edge.
     acting:
       kang_jaeha: "eyes going wide, pupils shrinking"
+    hands: none
     calm: none
     lines:
       - {who: kang_jaeha, type: inner, text: "Ten years ago. The night Mom and Dad died."}
@@ -813,6 +959,9 @@ panels:
       Geum (geum_okran) whirls round and jabs the ladle at him before he can open his mouth, the steam swirling round her.
     acting:
       geum_okran: "whirling round, the ladle jabbing, eyebrows down"
+    hands:
+      geum_okran: "RIGHT arm jabbing the ladle at him like a spear; steel LEFT hand, three thick fingers and a thumb, swinging out with the turn"
+    hand_ref: [grip_hilt_one_hand.png]
     calm: top
     lines:
       - {who: geum_okran, type: shout, text: "EAT FIRST. QUESTIONS AFTER. NO! TRAINING AFTER. THEN QUESTIONS.", side: l}
@@ -829,6 +978,10 @@ panels:
     art: >
       Close: Geum's battered steel hand wraps Jaeha's shaking fingers round a hot paper takeaway cup of red tteokbokki and holds them there; steam
       rises between their hands.
+    hands:
+      geum_okran: "steel LEFT hand, three thick fingers and a thumb, closed over Jaeha's fingers round the cup, holding them there; RIGHT hand out of frame"
+      kang_jaeha: "bare hands: both hands round the hot paper cup, fingers trembling with faint tremor lines under her steel fingers"
+    hand_ref: [holding_cup.png]
     calm: top
     silent: true
     sfx:
@@ -848,6 +1001,10 @@ panels:
     acting:
       geum_okran: "letting go, arms folded, watching"
       kang_jaeha: "gripping the cup with both shaking hands, face screwed up, not dropping it"
+    hands:
+      geum_okran: "arms folded, the ladle in her RIGHT hand poking up past her shoulder; steel LEFT hand, three thick fingers and a thumb, over her RIGHT forearm"
+      kang_jaeha: "bare hands: gripping the cup with both shaking hands, faint tremor lines, the red sauce sloshing at the rim"
+    hand_ref: [holding_cup.png, arms_relaxed.png]
     eyeline: "Geum → the cup; Jaeha → the cup"
     foreground: "the sloshing cup, cropped, bottom"
     calm: top
@@ -865,6 +1022,10 @@ panels:
       Close on Lyra (lyra), appalled.
     acting:
       lyra: "appalled, a hand on her chest"
+    hands:
+      lyra: "RIGHT hand pressed flat below her throat; LEFT hand out of frame"
+      borro: "only his mossy arm in frame; his hand out of frame"
+    hand_ref: [mouth_and_strap.png]
     eyeline: "Lyra → Geum"
     foreground: "Borro's mossy arm, cropped, left"
     calm: left
@@ -882,6 +1043,8 @@ panels:
     art: >
       Close on the counter: Geum's steel hand slaps down a grease-spotted sheet of paper covered in big, aggressive handwriting in columns, a
       timetable with arrows and underlinings.
+    hands:
+      geum_okran: "steel LEFT hand, three thick fingers and a thumb, slapped flat on the grease-spotted timetable on the counter; RIGHT hand out of frame"
     calm: top
     ui:
       - {kind: label, at: [0.5, 0.5], text: "4:00 RUN THE BREAKWATER · 5:00 CARRY ICE · 6:00 TTEOKBOKKI · 7:00 ONE MORE SET · 8:00 JUST ONE MORE", size: 30, color: "#2C2A26", rot: -1}
@@ -899,6 +1062,8 @@ panels:
       Close on Geum (geum_okran) leaning on the counter beside the timetable, the gold tooth showing in a terrible, delighted grin.
     acting:
       geum_okran: "leaning on the counter on her steel arm, grinning with the gold tooth"
+    hands:
+      geum_okran: "leaning on her steel LEFT forearm on the counter, its three thick fingers and thumb splayed by the timetable; RIGHT hand holds the ladle upright"
     eyeline: "Geum → Jaeha"
     foreground: "the timetable, cropped, bottom"
     calm: top
@@ -918,6 +1083,11 @@ panels:
     acting:
       choi_dongmin: "leaning down, whispering, amused"
       kang_jaeha: "still gripping the cup, glancing up at him"
+    hands:
+      choi_dongmin: "leaning down: RIGHT hand holds his coffee cup; LEFT hand on the wheelchair's push handle"
+      kang_jaeha: "bare hands: both hands round the steaming cup, faint tremor lines on his fingers"
+      geum_okran: "behind them, back turned at the pan, the ladle in her RIGHT hand"
+    hand_ref: [holding_cup.png]
     eyeline: "Choi → Jaeha; Jaeha → Choi"
     foreground: "the steaming cup, cropped, bottom"
     calm: top
@@ -939,6 +1109,10 @@ panels:
     acting:
       geum_okran: "flicking the ladle back over her shoulder, not looking"
       choi_dongmin: "clutching his head, coffee spilling"
+    hands:
+      geum_okran: "back turned: RIGHT arm flicked back over her shoulder, hand open for the rebound, the ladle in the air; steel LEFT hand, three thick fingers, at her side"
+      choi_dongmin: "LEFT hand clutching the top of his head; RIGHT hand's coffee cup tipping, spilling"
+    hand_ref: [holding_cup.png]
     calm: top
     sfx:
       - {text: "BONK!", style: comic, at: [0.40, 0.30], size: L, rot: -8}
@@ -955,6 +1129,9 @@ panels:
       Close on Jaeha (kang_jaeha) laughing for the first time in days, the sauce slopping onto his knee, the cup still in his hands.
     acting:
       kang_jaeha: "laughing, head tipped back, the cup still held"
+    hands:
+      kang_jaeha: "bare hands: both hands round the cup, faint tremor lines on his fingers, sauce slopping over the rim onto his knee"
+    hand_ref: [holding_cup.png]
     calm: right
     silent: true
     sfx:
@@ -974,6 +1151,9 @@ panels:
       for the window.
     acting:
       kang_jaeha: "looking up at the window, the laugh fading into focus"
+    hands:
+      kang_jaeha: "bare hands: both hands round the cup in his lap, faint tremor lines on his fingers"
+    hand_ref: [holding_cup.png]
     calm: top
     silent: true
     ui:
@@ -988,6 +1168,9 @@ panels:
     light: "cyan"
     art: >
       Close on Jaeha's trembling finger reaching up and pressing the window's button.
+    hands:
+      kang_jaeha: "RIGHT index finger reaching up to press the window's button, trembling with faint tremor lines, the other fingers curled; LEFT hand, holding the cup, out of frame"
+    hand_ref: [pointing.png]
     calm: left
     silent: true
     sfx:
@@ -1002,6 +1185,9 @@ panels:
     light: "bare bulbs"
     art: >
       Close on Jaeha's fingers round the paper cup: for one moment they close a little tighter, and the tremor eases; the sauce goes still.
+    hands:
+      kang_jaeha: "bare hands: both hands round the paper cup, the fingers closing a little tighter, the tremor lines fading"
+    hand_ref: [holding_cup.png]
     calm: top
     silent: true
 
@@ -1017,6 +1203,9 @@ panels:
       Close and low on Jaeha (kang_jaeha), looking from his steadier hands to Geum's broad back at the pan, determined.
     acting:
       kang_jaeha: "gripping the cup, chin coming up, eyes on Geum"
+    hands:
+      kang_jaeha: "bare hands: both hands gripping the steaming cup at the bottom of the frame, steadier, the tremor lines faint"
+    hand_ref: [holding_cup.png]
     eyeline: "Jaeha → Geum"
     foreground: "the steaming cup, cropped, bottom"
     calm: top
@@ -1034,6 +1223,8 @@ panels:
       Close on Geum (geum_okran) at the pan: the ladle stops; the gold-toothed grin spreads across her face without her turning round.
     acting:
       geum_okran: "the ladle stopping, a slow grin spreading"
+    hands:
+      geum_okran: "RIGHT hand stopped mid-stir, the ladle resting in the pan; her prosthetic LEFT hand out of frame"
     calm: right
     lines:
       - {who: geum_okran, type: speech, text: "IT ALREADY HAS, KID. YOU'RE STILL HOLDING THE CUP.", side: l}
@@ -1048,6 +1239,7 @@ panels:
     art: >
       From the breakwater, looking back at the stall: the orange tent glows at the edge of the market; the van is parked beside it; Borro's mossy
       back sticks out of the tent flap; gulls wheel; the sun comes up over the sea.
+    hands: none
     calm: top
     silent: true
     sfx:
@@ -1065,6 +1257,8 @@ panels:
       on its own, the plates clicking.
     acting:
       geum_okran: "stopping, looking out to sea, the steel arm twitching, her face hardening"
+    hands:
+      geum_okran: "RIGHT hand holds the ladle over her RIGHT shoulder by its handle; steel LEFT arm hanging, its three thick fingers twitching on their own"
     eyeline: "Geum → the sea"
     foreground: "the ladle over her shoulder, cropped, top"
     calm: top
@@ -1082,6 +1276,8 @@ panels:
     light: "the rising sun on steel"
     art: >
       Close on her battered steel fingers clenching and unclenching by themselves, the faded painted wave on the forearm catching the sun.
+    hands:
+      geum_okran: "only her steel LEFT hand: three thick fingers and a thumb half-clenched, the painted wave on the forearm; no human hand in frame"
     calm: left
     silent: true
 
@@ -1094,6 +1290,7 @@ panels:
     light: "the sunrise over calm water"
     art: >
       High over the open sea off Busan at sunrise: calm water all the way to the horizon, one small fishing boat, gulls; nothing wrong at all.
+    hands: none
     calm: top
     silent: true
 
@@ -1106,6 +1303,7 @@ panels:
     light: "gold to deep blue"
     art: >
       A thin strip: down through the surface, the light going from gold to blue to deep, dark blue, bubbles rising. Fill the canvas edge to edge.
+    hands: none
     calm: none
     silent: true
     sfx:
@@ -1122,6 +1320,7 @@ panels:
       Far out under the sea off Busan (location busan_sea_gate), looking down through dark water: on the seabed lies a vast ring of white-cyan
       gate light, 300 m across, sealed over by a lid of ancient carved stone slabs hauled from the gate's own ruins, with ten-year-old steel plates bolted over them; fish scatter
       through the cold glow. Scale: a passing whale shark is a speck above it.
+    hands: none
     calm: top
     silent: true
     sfx:
@@ -1137,6 +1336,7 @@ panels:
     art: >
       Close on one old steel plate of the lattice: its rusted bolts shear one by one; a crack runs across it; violet light and a stream of bubbles
       burst up through the crack.
+    hands: none
     calm: top
     sfx:
       - {text: "KRRRRK... PANG... PANG...", style: impact, at: [0.50, 0.30], size: L, rot: -6}
@@ -1151,6 +1351,8 @@ panels:
     art: >
       From low on the seabed beside the lattice: under the sealed lid, through the widening crack, something enormous and dark slides slowly past,
       a curve of a hide too big to see the end of, and one edge of something like a fin or a hand.
+    hands:
+      background: "only a vague edge of something like a fin or a webbed hand sliding past the crack; never a clear hand or fingers"
     calm: top
     silent: true
     sfx:
@@ -1170,6 +1372,10 @@ panels:
     acting:
       kang_jaeha: "looking up sharply, the cup still in his hands"
       nib: "turning toward the sea, ears springing up"
+    hands:
+      kang_jaeha: "bare hands: both hands round the cup in his lap, faint tremor lines on his fingers"
+      nib: "turning toward the sea, long arms at his sides, four-fingered hands loose"
+    hand_ref: [holding_cup.png]
     calm: top
     silent: true
     ui:
@@ -1192,6 +1398,12 @@ panels:
       nib: "standing at Jaeha's shoulder"
       borro: "standing behind them, huge against the tent"
       lyra: "standing behind them, arms folded"
+    hands:
+      kang_jaeha: "seen from behind, both hands round the cup in front of him, mostly hidden"
+      geum_okran: "RIGHT hand holds the ladle on her RIGHT shoulder; steel LEFT hand, three thick fingers and a thumb, at her side"
+      nib: "at Jaeha's shoulder, long arms hanging, four-fingered hands loose"
+      borro: "four-fingered hands at his sides"
+      lyra: "arms folded"
     eyeline: "all → the sea"
     foreground: "the tent's orange flap, cropped, left"
     calm: top
@@ -1208,9 +1420,16 @@ panels:
     art: >
       High over the whole of Busan's harbour and the sea beyond it in the bright morning sun: the market, the little orange tent, the breakwater,
       the boats; and far out on the horizon, faint, a violet stain spreading slowly on the calm water.
+    hands: none
     calm: top
     silent: true
 
   - id: END
     kind: end
     chibi_gag: "Chibi Auntie Geum runs along the breakwater dragging chibi Jaeha behind her in the wheelchair like a kite, shouting 'JUST ONE MORE!', while chibi Nib, chibi Lyra and chibi Borro jog behind with tteokbokki cups. END OF SEASON ONE."
+    hands:
+      geum_okran: "chibi: steel LEFT hand, three thick fingers and a thumb, gripping the wheelchair's push handle behind her; RIGHT hand waving the ladle overhead"
+      kang_jaeha: "chibi: both hands clutching the armrests as the wheelchair flies behind her"
+      nib: "chibi: a tteokbokki cup in both four-fingered hands"
+      lyra: "chibi: a tteokbokki cup in both hands"
+      borro: "chibi: a tteokbokki cup in both four-fingered hands"

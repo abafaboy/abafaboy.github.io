@@ -51,6 +51,10 @@ panels:
     acting:
       tide_warden: "the eye fixed on Jaeha, the brow above it drawn together"
       nib: "kneeling in the water, looking up"
+    hands:
+      nib: "kneeling in the water, long hands resting on his raised knee (four fingers and a thumb)"
+      lyra: "small, LEFT hand holding the longbow at her side"
+      borro: "small, arms hanging at his sides (four fingers and a thumb each)"
     calm: bottom
     lines:
       - {who: tide_warden, type: monster, text: "<THEY POUR THE SEA BACK INTO ME, SO THAT I DO NOT DIE. AND THEY TAKE THE REST.>", side: l}
@@ -70,6 +74,10 @@ panels:
     acting:
       nib: "whispering, eyes still on the giant"
       kang_jaeha: "crouched, listening, one hand on Nib's back"
+    hands:
+      nib: "kneeling, long hands resting on his knee (four fingers and a thumb)"
+      kang_jaeha: "crouched at Nib's RIGHT side, LEFT hand resting flat on Nib's back between the shoulders; RIGHT forearm across his own knee"
+    hand_ref: [hand_on_shoulder.png]
     eyeline: "Nib → the Warden; Jaeha → Nib"
     foreground: "the trembling water in the pipe, cropped, bottom"
     calm: top
@@ -88,6 +96,8 @@ panels:
       the team small at its foot.
     acting:
       tide_warden: "the great eye half closing, a slow breath heaving the coral"
+    hands:
+      background: "the team stands small at the arm's foot, arms at their sides"
     foreground: "the pipe's rim and the rushing seawater, cropped, bottom"
     calm: top
     lines:
@@ -106,6 +116,7 @@ panels:
       Close on Nib (nib), translating, his voice cracking.
     acting:
       nib: "looking at Jaeha, ears drooping, voice cracking"
+    hands: none
     eyeline: "Nib → Jaeha"
     foreground: "Jaeha's shoulder, cropped, left"
     calm: left
@@ -126,6 +137,12 @@ panels:
       moon_ahin: "very still, the baton lowered"
       crew_pyo: "looking straight up toward the rim, mouth open"
       crew_dami: "gripping Pyo's arm"
+    hands:
+      moon_ahin: "RIGHT hand holds the baton lowered at her side; LEFT hand still"
+      crew_pyo: "arms at his sides, his LEFT upper arm gripped by Dami"
+      crew_dami: "both hands gripping Pyo's LEFT upper arm"
+      background: "Woo and Ho stand with their arms at their sides"
+    hand_ref: [reaching_grabbing_wrist.png]
     calm: top
     silent: true
     sfx:
@@ -143,6 +160,8 @@ panels:
       Jaeha (kang_jaeha) stands in the pipe as a window opens between him and the giant. The upper half is empty for the window.
     acting:
       kang_jaeha: "standing, eyes on the window, very still"
+    hands:
+      kang_jaeha: "arms hanging still at his sides, gloved hands relaxed"
     eyeline: "Jaeha → the window"
     calm: top
     silent: true
@@ -161,6 +180,7 @@ panels:
       Extreme close-up of Jaeha's eyes (kang_jaeha), the cyan window reflected in them. Fill the canvas edge to edge.
     acting:
       kang_jaeha: "eyes steady, the lower lids tightening"
+    hands: none
     calm: none
     lines:
       - {who: kang_jaeha, type: inner, text: "Forty billion won. And everyone in here dies with him."}
@@ -174,6 +194,9 @@ panels:
     light: "cyan breaking up"
     art: >
       Close on Jaeha's gloved hand swiping through the window; it breaks into cyan fragments and is gone.
+    hands:
+      kang_jaeha: "RIGHT gloved hand sweeps through the window, palm open and fingers together, bare fingertips scattering the cyan fragments; the rest of him out of frame"
+    hand_ref: [reaching_grabbing_wrist.png]
     calm: right
     silent: true
     sfx:
@@ -191,6 +214,8 @@ panels:
       From low behind Jaeha (kang_jaeha): he looks up at the eye, his hands open at his sides.
     acting:
       kang_jaeha: "looking up, hands open, speaking clearly"
+    hands:
+      kang_jaeha: "seen from behind: arms down at his sides, gloved hands open, palms forward; the rusted lamp clipped at his LEFT hip"
     eyeline: "Jaeha → the Warden (up)"
     foreground: "Jaeha's shoulder and the rusted lamp at his belt, cropped, bottom"
     calm: top
@@ -208,6 +233,7 @@ panels:
       From low on the pipe: the eye narrows (tide_warden); the hum deepens until the water jumps in the pipe.
     acting:
       tide_warden: "the eye narrowing, the brow lowering"
+    hands: none
     foreground: "a steel collar bolted into the coral, cropped, right"
     calm: bottom
     lines:
@@ -227,6 +253,7 @@ panels:
       Close on Jaeha (kang_jaeha), steady, without looking away from the eye.
     acting:
       kang_jaeha: "steady, chin up, eyes on the Warden"
+    hands: none
     eyeline: "Jaeha → the Warden"
     foreground: "Nib's ear, cropped, bottom left"
     calm: top
@@ -245,6 +272,7 @@ panels:
       wall white from inside.
     acting:
       tide_warden: "the eye closing slowly, a long breath"
+    hands: none
     calm: top
     silent: true
     sfx:
@@ -261,6 +289,7 @@ panels:
       From low on the pipe: the eye opens again (tide_warden), tired, the anger gone out of it.
     acting:
       tide_warden: "the eye opening slowly, heavy-lidded, tired"
+    hands: none
     calm: bottom
     lines:
       - {who: tide_warden, type: monster, text: "<THEN YOU MUST LEAVE ME HERE. AGAIN.>", side: l}
@@ -280,6 +309,10 @@ panels:
     acting:
       kang_jaeha: "looking up at the eye, one fist pressed to his chest"
       nib: "looking up at Jaeha, head tilted"
+    hands:
+      kang_jaeha: "RIGHT fist pressed over his heart on the tabard; LEFT arm at his side"
+      nib: "long hands hanging loose at his sides (four fingers and a thumb)"
+    hand_ref: [fists_and_bracing.png]
     eyeline: "Jaeha → the Warden; Nib → Jaeha"
     foreground: "the water in the pipe, cropped, bottom"
     calm: top
@@ -299,6 +332,7 @@ panels:
       From low on the pipe: the eye (tide_warden) softens, and a tear of seawater gathers in its corner.
     acting:
       tide_warden: "the eye softening, a tear gathering"
+    hands: none
     foreground: "Nib's raised ear, cropped, bottom left"
     calm: bottom
     lines:
@@ -317,6 +351,7 @@ panels:
       Close on Nib (nib) as he translates, then stares at Jaeha, his eyes wide.
     acting:
       nib: "turning to Jaeha, eyes wide, mouth open"
+    hands: none
     eyeline: "Nib → Jaeha"
     calm: left
     lines:
@@ -334,6 +369,9 @@ panels:
       Close and low on Jaeha (kang_jaeha), his hand going to the rusted lamp at his belt, his voice barely there.
     acting:
       kang_jaeha: "hand closing on the lamp, eyes filling, voice barely there"
+    hands:
+      kang_jaeha: "LEFT hand closes round the rusted lamp at his LEFT hip and lifts it off the belt clip, fingers wrapped round it; RIGHT hand out of frame"
+    hand_ref: [holding_cup.png]
     eyeline: "Jaeha → the Warden (up)"
     foreground: "the rusted lamp in his hand, cropped, bottom"
     calm: top
@@ -354,6 +392,9 @@ panels:
     acting:
       oh_minseok: "sitting cross-legged, gesturing up at the giant as he talks, grinning"
       tide_warden: "head bowed toward the tiny man, the eye open, listening"
+    hands:
+      oh_minseok: "RIGHT fingerless-gloved hand raised open toward the giant's face as he talks; LEFT hand resting on his crossed knee"
+      tide_warden: "only the tip of one of his huge fingers in frame at the edge, resting on the stone"
     foreground: "the tip of a giant chained finger, cropped, right"
     calm: top
     lines:
@@ -370,6 +411,9 @@ panels:
       Back in the present, from low: the eye (tide_warden) looks down at Jaeha, gentle.
     acting:
       tide_warden: "the eye gentle, the tear running"
+    hands:
+      kang_jaeha: "only his LEFT hand in frame at the bottom edge, holding the rusted lamp, fingers wrapped round it"
+    hand_ref: [holding_cup.png]
     foreground: "the rusted lamp in Jaeha's hand, cropped, bottom"
     calm: bottom
     lines:
@@ -392,6 +436,11 @@ panels:
       kang_jaeha: "head bowed over the lamp, shoulders shaking, silent"
       nib: "forehead pressed against Jaeha's arm, eyes shut"
       lyra: "turned away, a hand over her mouth"
+    hands:
+      kang_jaeha: "both hands hold the rusted lamp at his waist, LEFT hand under it, RIGHT hand cupped over it, head bowed over it"
+      nib: "forehead pressed against Jaeha's LEFT forearm, arms hanging at his sides (four fingers and a thumb)"
+      lyra: "RIGHT gloved hand pressed over her mouth; LEFT hand holding the longbow at her side"
+    hand_ref: [holding_cup.png, mouth_and_strap.png]
     calm: top
     lines:
       - {who: kang_jaeha, type: inner, text: "Then I'm swearing it twice. Once for me. Once for him."}
@@ -420,6 +469,10 @@ panels:
     acting:
       kang_jaeha: "wiping his face with his sleeve, turning, voice steady again"
       moon_ahin: "drawing her phone out of her coat, eyes on the pit"
+    hands:
+      kang_jaeha: "RIGHT forearm wiping his eyes with the coverall sleeve; LEFT hand holding the rusted lamp at his side"
+      moon_ahin: "RIGHT hand draws her phone out of the front of her coat-dress; LEFT hand holds the baton low at her side"
+    hand_ref: [phone_hold.png]
     eyeline: "Jaeha → Moon Ahin; Moon Ahin → the pit"
     foreground: "her white glove holding the phone, cropped, bottom right"
     calm: top
@@ -439,6 +492,9 @@ panels:
       giant and the red-lit pit behind her; she looks straight into the lens, composed, the coat-dress dusty and torn at the hem.
     acting:
       moon_ahin: "phone held up at arm's length in her RIGHT hand, LEFT hand at her side, chin up, looking straight into the lens"
+    hands:
+      moon_ahin: "RIGHT arm raised at arm's length, the phone held upright, camera toward her, white-gloved fingers round its edges; LEFT hand at her side holding the baton pointing down"
+    hand_ref: [phone_hold.png]
     foreground: "the rim of the pipe and the spray, cropped, bottom"
     calm: top
     lines:
@@ -454,6 +510,9 @@ panels:
     art: >
       Close on her phone screen as she turns it outward: in its frame, the chained giant's face and his one open eye; a small red
       recording dot in the corner.
+    hands:
+      moon_ahin: "her RIGHT white-gloved hand holds the phone upright, turning it outward, fingers wrapped round its edges, thumb clear of the screen"
+    hand_ref: [phone_hold.png]
     calm: left
     lines:
       - {who: moon_ahin, type: speech, text: "THIS IS WHAT IT DOES.", side: l}
@@ -468,6 +527,8 @@ panels:
     art: >
       Through her phone's screen, its edges in frame: a rack of glowing tanks, and on their caps the silver hexagon and the small
       crescent-moon seal, in focus.
+    hands:
+      moon_ahin: "her RIGHT hand holds the phone from below the frame; no fingers over the screen"
     calm: top
     silent: true
 
@@ -481,6 +542,8 @@ panels:
     art: >
       Through her phone's screen: a link of the giant chain with its small stamped mark, and beyond it the steel collars and pipes driven
       into the coral of the Warden's arm.
+    hands:
+      moon_ahin: "her RIGHT hand holds the phone from below the frame; no fingers over the screen"
     calm: top
     silent: true
 
@@ -495,6 +558,9 @@ panels:
       Close on Moon Ahin's face (moon_ahin) above the phone as she films: steady, her eyes shining, not one tear falling.
     acting:
       moon_ahin: "filming steadily, jaw set, eyes shining"
+    hands:
+      moon_ahin: "RIGHT hand holds the phone up just below her chin, its back toward us, white-gloved fingers round its edges; LEFT hand out of frame"
+    hand_ref: [phone_hold.png]
     calm: right
     silent: true
 
@@ -511,6 +577,10 @@ panels:
     acting:
       crew_pyo: "pulling the respirator off, looking straight into her phone, chin trembling"
       moon_ahin: "turning the phone to him"
+    hands:
+      crew_pyo: "RIGHT hand pulls the respirator off his face by its chin; LEFT hand hanging at his side"
+      moon_ahin: "only her RIGHT hand in frame at the edge, holding the phone out toward Pyo"
+    hand_ref: [phone_hold.png]
     eyeline: "Pyo → the phone"
     foreground: "the phone in her hand, cropped, right"
     calm: top
@@ -531,6 +601,10 @@ panels:
       crew_dami: "pulling off her respirator, hair coming loose, eyes red"
       crew_woo: "pulling off his respirator, jaw set"
       crew_ho: "pulling off his respirator, grinning nervously at the camera"
+    hands:
+      crew_dami: "both hands lift the respirator up off her face and over her head, strands pulling loose from her bun"
+      crew_woo: "RIGHT hand pulls the respirator down off his face by its chin; LEFT hand at his side"
+      crew_ho: "RIGHT hand holds his pulled-off respirator at his chest; LEFT hand at his side"
     calm: top
     lines:
       - {who: crew_dami, type: speech, text: "PUT US ALL IN IT.", side: l}
@@ -549,6 +623,7 @@ panels:
       Close on Jaeha (kang_jaeha) watching them, his tired face breaking into something like pride.
     acting:
       kang_jaeha: "watching, a small proud smile through the blood and tears"
+    hands: none
     calm: left
     silent: true
     sfx:
@@ -563,6 +638,9 @@ panels:
     light: "the screen"
     art: >
       A thin strip: Moon Ahin's gloved thumb taps the screen and the red recording dot goes out. Fill the canvas edge to edge.
+    hands:
+      moon_ahin: "RIGHT hand holds the phone, white-gloved thumb tapping the screen's stop button; only the hand and phone in frame"
+    hand_ref: [phone_hold.png]
     calm: none
     silent: true
     sfx:
@@ -582,6 +660,8 @@ panels:
       up; the speakers crackle.
     acting:
       kanghan_tactical: "running along the pipe, shields up, carbines raised"
+    hands:
+      kanghan_tactical: "round shields up on their LEFT forearms, stubby carbines raised in their RIGHT hands"
     calm: top
     lines:
       - {who: offpanel:crowd, type: announce, text: "THE ASSET MUST NOT BE DAMAGED. PROTECT THE EQUIPMENT AT ALL COSTS.", side: l}
@@ -598,6 +678,7 @@ panels:
       canvas edge to edge.
     acting:
       borro: "eyes kindling green behind the eye-holes"
+    hands: none
     calm: none
     silent: true
 
@@ -614,6 +695,10 @@ panels:
     acting:
       borro: "head lifting slowly, huge hands opening and closing"
       kang_jaeha: "reaching toward Borro's back, then stopping, letting him"
+    hands:
+      borro: "both huge hands (four fingers and a thumb each) at his sides, slowly opening and closing into fists"
+      kang_jaeha: "RIGHT hand reaching toward Borro's back, stopping short, fingers open; LEFT hand at his side, the rusted lamp clipped back at his LEFT hip"
+    hand_ref: [reaching_grabbing_wrist.png]
     eyeline: "Borro → the speakers; Jaeha → Borro"
     foreground: "Borro's mossy shell, cropped, left"
     calm: top
@@ -633,6 +718,9 @@ panels:
       hands round a drain pipe as thick as a tree trunk where it plunges into the coral through a steel collar.
     acting:
       borro: "both arms round the pipe, feet planted, head down"
+    hands:
+      borro: "both arms wrapped round the tree-thick pipe where it enters the steel collar, huge hands (four fingers and a thumb) locked on its far side"
+    hand_ref: [arms_carry.png]
     calm: top
     ui:
       - {kind: system.notice_small, "on": float, at: [0.5, 0.90], text: "[BORRO · FIELD FORM 05:00]"}
@@ -652,6 +740,9 @@ panels:
       the wound in the coral and closes over it.
     acting:
       borro: "heaving the pipe out over his head, whole body straining, moss standing on end"
+    hands:
+      borro: "both huge hands (four fingers and a thumb each) clamped round the severed pipe, heaving it up over his head, arms straining"
+    hand_ref: [grip_hilt_two_hands.png]
     calm: top
     sfx:
       - {text: "KRRRRAAANNNG!", style: impact, at: [0.50, 0.30], size: XL, rot: -6}
@@ -669,6 +760,9 @@ panels:
       shoulder darkens with fresh blood; blood runs from his nose.
     acting:
       kang_jaeha: "on his knees, both arms shaking out in front of him, head down, blood from his nose"
+    hands:
+      kang_jaeha: "both arms shaking out in front of him at chest height, gloved hands curled as if round a pipe that isn't there"
+    hand_ref: [reaching_grabbing_wrist.png]
     calm: top
     ui:
       - {kind: system.warning, "on": float, at: [0.5, 0.88], text: "[CARRY · BORRO · 60%]"}
@@ -687,6 +781,7 @@ panels:
       and the chains slacken a little.
     acting:
       tide_warden: "the eye half closing, a long easy breath, the shoulders easing"
+    hands: none
     calm: top
     silent: true
     sfx:
@@ -703,6 +798,9 @@ panels:
       Borro (borro) drops the severed pipe over the edge into the pit and turns round, his chest heaving, the green glow steady in his eyes.
     acting:
       borro: "letting the pipe fall, turning, chest heaving, fists clenched"
+    hands:
+      borro: "both huge hands (four fingers and a thumb each) clenching into fists at his sides as the pipe drops away"
+    hand_ref: [fists_and_bracing.png]
     eyeline: "Borro → the troopers"
     foreground: "the falling pipe, cropped, bottom right"
     calm: top
@@ -722,6 +820,8 @@ panels:
       Close on Lyra (lyra), wiping her eyes with the back of her hand and grinning fiercely at Borro.
     acting:
       lyra: "wiping her eyes, a fierce wet grin"
+    hands:
+      lyra: "RIGHT gloved hand wiping her eyes with its back; LEFT hand holds the longbow, cropped at the frame edge"
     eyeline: "Lyra → Borro"
     foreground: "her bow, cropped, right"
     calm: right
@@ -740,6 +840,8 @@ panels:
       headset.
     acting:
       kanghan_engineer: "one shouting into a headset, two slapping switches"
+    hands:
+      kanghan_engineer: "the shouting one braces both hands on the console edge; two others slap switches flat-palmed"
     eyeline: "the engineer → the gauges"
     foreground: "a falling gauge needle, cropped, bottom"
     calm: top
@@ -758,6 +860,9 @@ panels:
       down on the red button under it.
     acting:
       kanghan_engineer: "the chief slamming his palm down on the red button, face hard"
+    hands:
+      kanghan_engineer: "the chief's RIGHT palm slams flat down on the red button; LEFT hand holds the hinged cover flipped up"
+    hand_ref: [fists_and_bracing.png]
     eyeline: "the chief → the button"
     foreground: "the hinged cover, cropped, left"
     calm: top
@@ -778,6 +883,8 @@ panels:
       Jaeha (kang_jaeha) gets to his feet in the pipe as a red window opens over him. The upper half is empty for the window.
     acting:
       kang_jaeha: "getting up, wiping his nose, eyes on the window"
+    hands:
+      kang_jaeha: "rising from his knees, RIGHT hand wiping his nose with the back of the glove; LEFT hand pushing off his knee"
     calm: top
     silent: true
     ui:
@@ -793,6 +900,7 @@ panels:
     art: >
       Straight up the canyon from the pit, far above at the top of the dark: the small white light of the gate's inner rim, and round it the
       steel frame bolted to the rock beginning to close like an iris, plate by plate, throwing sparks. Scale: the rim is 400 m up.
+    hands: none
     calm: top
     silent: true
     sfx:
@@ -814,6 +922,10 @@ panels:
     acting:
       moon_ahin: "shouting, the phone clutched to her chest, the baton in her other hand"
       kang_jaeha: "pointing into the tunnel, calm"
+    hands:
+      moon_ahin: "LEFT hand clutches the phone flat against her chest; RIGHT hand holds the baton at her side"
+      kang_jaeha: "RIGHT arm extended, index finger pointing into the dark tunnel; LEFT hand at his side"
+    hand_ref: [pointing.png, mouth_and_strap.png]
     eyeline: "Moon Ahin → Jaeha; Jaeha → the tunnel"
     foreground: "the hatch's rusted rim, cropped, right"
     calm: top
@@ -834,6 +946,11 @@ panels:
     acting:
       kanghan_tactical: "firing in a ragged line along the pipe"
       borro: "planted in front of the hatch, shield up, unmoving"
+    hands:
+      kanghan_tactical: "firing the carbines from their RIGHT hands over the round shields on their LEFT forearms"
+      borro: "LEFT forearm through the shield's strap, the shield up in front of the hatch, RIGHT hand braced on its edge; four fingers and a thumb on each hand"
+      background: "the team streams past behind him into the tunnel, hands out of sight"
+    hand_ref: [shield_grip.png]
     calm: top
     sfx:
       - {text: "TSEW TSEW TSEW", style: impact, at: [0.30, 0.40], size: M, rot: -6}
@@ -855,6 +972,13 @@ panels:
       crew_dami: "helping Pyo over the lip"
       crew_woo: "lifting Pyo's bad leg over"
       crew_pyo: "climbing over, wincing"
+    hands:
+      ahin_husks: "pouring through two by two, arms at their sides"
+      nib: "RIGHT hand waves them through, a long knife in reverse grip in it; LEFT hand empty at his side; four fingers and a thumb"
+      crew_dami: "both hands holding Pyo's LEFT arm, steadying him over the lip"
+      crew_woo: "both hands under Pyo's braced LEFT knee, lifting his bad leg over the lip"
+      crew_pyo: "RIGHT hand gripping the hatch's rim as he climbs over; LEFT arm held by Dami"
+    hand_ref: [reverse_grip_knives.png, reaching_grabbing_wrist.png]
     calm: top
     sfx:
       - {text: "STEP STEP STEP", style: quiet, at: [0.50, 0.80], size: S, rot: 0}
@@ -873,6 +997,9 @@ panels:
     acting:
       kang_jaeha: "stopped at the hatch, looking back and up, the rusted lamp in his hand"
       tide_warden: "the eye looking down at him, calm"
+    hands:
+      kang_jaeha: "LEFT hand holds the rusted lamp at his side, fingers wrapped round it; RIGHT hand at his side"
+    hand_ref: [holding_cup.png]
     eyeline: "Jaeha ↔ the Warden"
     foreground: "the hatch's rim, cropped, left"
     calm: top
@@ -890,6 +1017,9 @@ panels:
     light: "sea-green"
     art: >
       Close on Jaeha's gloved hand raised toward the giant in a thumbs-up, the way Minseok used to.
+    hands:
+      kang_jaeha: "RIGHT gloved hand raised in a thumbs-up toward the giant, thumb straight up, fingers curled into the palm; the rest of him out of frame"
+    hand_ref: [fists_and_bracing.png]
     calm: left
     silent: true
 
@@ -904,6 +1034,7 @@ panels:
       Low and wide: the Warden's huge eye (tide_warden) closes slowly, once, in answer, like a nod; the red light washes over his coral.
     acting:
       tide_warden: "the eye closing slowly, once, like a nod"
+    hands: none
     calm: top
     silent: true
 
@@ -919,6 +1050,9 @@ panels:
       narrows to a line and is gone.
     acting:
       borro: "backing in, swinging the hatch shut with one arm, the shield on the other"
+    hands:
+      borro: "RIGHT hand hauls the round steel door shut by its rim; LEFT forearm through the shield's strap; four fingers and a thumb on each hand"
+    hand_ref: [shield_grip.png]
     calm: top
     sfx:
       - {text: "KLUNNG", style: impact, at: [0.50, 0.40], size: L, rot: 0}
@@ -934,6 +1068,8 @@ panels:
       Inside the drain tunnel (location farm_drains), from low: a round old stone tunnel 5 m across climbs away steeply into the dark in a
       long curve; black water is pumped uphill along a channel in its floor; a narrow steel maintenance walkway runs beside it; caged lamps
       every 20 m; somewhere ahead, a pump housing thumps. The team strings out along the walkway, climbing.
+    hands:
+      background: "the team strings out small along the walkway, hands on the rail or at their sides"
     calm: top
     silent: true
     sfx:
@@ -953,6 +1089,10 @@ panels:
     acting:
       kang_jaeha: "climbing fast, one hand on the rail, counting under his breath"
       moon_ahin: "climbing in her heeled boots without slowing, the phone zipped into her coat"
+    hands:
+      kang_jaeha: "LEFT hand sliding along the rail as he climbs; RIGHT arm swinging; the rusted lamp back at his LEFT hip"
+      moon_ahin: "LEFT hand on the rail; RIGHT hand holds the baton low; the phone put away in her coat"
+      background: "the husks and the crew behind, hands on the rail or at their sides"
     eyeline: "Jaeha → ahead"
     foreground: "the rail and the rushing black water, cropped, bottom"
     calm: top
@@ -973,6 +1113,11 @@ panels:
     acting:
       lyra: "walking backwards, arrow nocked, eyes on the dark behind"
       borro: "climbing steadily, Pyo on his back"
+    hands:
+      lyra: "walking backwards, LEFT hand holds the longbow low in front of her, an arrow nocked under her RIGHT gloved fingers, not drawn"
+      borro: "RIGHT hand reaching back to hold Pyo's leg at his hip; LEFT forearm through the shield's strap, the shield carried low; four fingers and a thumb"
+      crew_pyo: "riding on Borro's shell, both hands gripping the slate plates at his shoulders"
+    hand_ref: [bow_draw.png, arms_carry.png]
     eyeline: "Lyra → the tunnel behind"
     foreground: "the black water channel, cropped, bottom"
     calm: top
@@ -988,6 +1133,7 @@ panels:
     light: "the radio's blinking light"
     art: >
       Close on a trooper's radio clipped to an armoured shoulder in the dark tunnel below, its little light blinking as a voice comes through.
+    hands: none
     calm: right
     silent: true
     sfx:
@@ -1005,6 +1151,8 @@ panels:
       radios.
     acting:
       kanghan_tactical: "climbing fast in a column, torches bobbing"
+    hands:
+      kanghan_tactical: "far below and small: LEFT hands holding torches under the round shields on their forearms, carbines in their RIGHT hands"
     calm: top
     lines:
       - {who: han_sora, type: phone, text: "THEY'RE IN THE DRAINS? KEEP PUSHING THEM UP. I'LL WAIT FOR THEM AT THE TOP.", side: l}
@@ -1019,6 +1167,8 @@ panels:
     art: >
       Climbing: the whole tunnel shudders; dust and grit rain from the old stone ceiling; a crack runs along it above the team's heads; the
       caged lamps swing.
+    hands:
+      background: "the climbing team small below the crack, hands on the rail or at their sides"
     calm: top
     silent: true
     sfx:
@@ -1035,6 +1185,8 @@ panels:
       Close on Nib (nib) looking up at the cracking ceiling, his ears flat, grit pattering on his mask.
     acting:
       nib: "looking up, ears flat, one hand raised against the grit"
+    hands:
+      nib: "LEFT hand raised flat over his brow against the falling grit, long fingers spread (four fingers and a thumb); RIGHT hand out of frame"
     calm: left
     lines:
       - {who: nib, type: speech, text: "THE SEAL ON THE RIM IS SHAKING THE WHOLE GATE.", side: r}
@@ -1052,6 +1204,8 @@ panels:
       is empty for the window.
     acting:
       kang_jaeha: "looking up the tunnel, jaw set, one hand on the rail"
+    hands:
+      kang_jaeha: "LEFT hand gripping the rail; RIGHT hand at his side"
     calm: top
     silent: true
     ui:
@@ -1070,6 +1224,10 @@ panels:
     acting:
       kang_jaeha: "flinging an arm out to stop the people behind him"
       moon_ahin: "throwing herself back, the baton raised"
+    hands:
+      kang_jaeha: "RIGHT arm flung out to the side and back, palm open, holding back the people behind him; LEFT hand on the rail"
+      moon_ahin: "RIGHT hand raises the baton high as she throws herself back; LEFT arm swinging out for balance"
+    hand_ref: [reaching_grabbing_wrist.png]
     calm: top
     sfx:
       - {text: "KRRRAAACK", style: impact, at: [0.50, 0.30], size: XL, rot: -6}
@@ -1077,3 +1235,7 @@ panels:
   - id: END
     kind: end
     chibi_gag: "Chibi Borro, with a huge severed pipe over his shoulder like a souvenir, gets stuck in the hatch, while chibi Nib and chibi Lyra push on his shell from behind."
+    hands:
+      borro: "RIGHT hand holds the huge severed pipe over his RIGHT shoulder like a souvenir; LEFT arm squashed against the hatch rim; four fingers and a thumb"
+      nib: "both hands (four fingers and a thumb) pushing flat on Borro's shell from behind"
+      lyra: "both palms pushing flat on Borro's shell beside Nib"

@@ -19,7 +19,7 @@ cast:
   ahin_husks: default       # her forty polished husks
 locations: [mangwon_market, fish_market, rooftop_room, kanghan_office, kanghan_guild_hall]
 continuity:
-  - "Jaeha in the break (P01–P34): the torn, bloody vest over the shoulder bandage, the forearm bandage, blood under his nose; from P13 both palms blistered red (he carries Borro's burns). From P35 (days later) a clean vest with Seoa's red stitches, plasters on both palms, the forearm bandage."
+  - "Jaeha in the break (P01–P34): the torn, bloody vest over the shoulder bandage, the forearm bandage, blood under his nose; from P05 his hands are burned (he carries Borro's burns): the fingerless gloves stay on, their palms scorched, red blisters on his bare fingers. From P35 (days later) a clean vest with Seoa's red stitches, plasters on his bare fingers (more on his palms under the fingerless gloves, their edges showing at the glove's edge), the forearm bandage."
   - "Nib: seal 2/5 look with the cracked husk mask in public; field form (amber) P01–P29, on the call from ch 11 P61 (its clock runs out at P30); rest form after. At home (P61–P72) no mask."
   - "Borro: husk face in public; field form (moss green) P01–P34, on the call from ch 11 P71; his shield glows dull red where the serpent's steam hits it (P04–P14). At home no husk face."
   - "Kang Seoa (15): school uniform in the break and at school, a hoodie and jeans at home; glasses; never any fan service. The camera stays at her eye level or above, never below."
@@ -55,6 +55,10 @@ panels:
       marsh_serpent: "head driving straight down onto the shield, jaws shut, hood flared"
       borro: "braced under the shield with both arms, knees bending, feet sinking into the road"
       nib: "leaping past the serpent's jaw, knives raised"
+    hands:
+      borro: "braced under the raised shield: LEFT forearm through its strap, hand clenched on the grip; RIGHT palm flat on its back; four fingers and a thumb each"
+      nib: "a knife in each fist in reverse grip, blades along his forearms, both fists raised by his shoulders as he leaps; four fingers and a thumb each"
+    hand_ref: [shield_grip.png, reverse_grip_knives.png]
     calm: top
     sfx:
       - {text: "KRANNNGGG", style: impact, at: [0.30, 0.24], size: XL, rot: -8}
@@ -72,6 +76,9 @@ panels:
     acting:
       nib: "mid-air, both knives skidding off the scales, eyes wide"
       marsh_serpent: "its neck turning, scales unmarked"
+    hands:
+      nib: "both fists in reverse grip rake the blades across the scales, sparks flying; four fingers and a thumb wrapped round each grip"
+    hand_ref: [reverse_grip_knives.png]
     calm: top
     sfx:
       - {text: "SKRRRANG", style: impact, at: [0.50, 0.30], size: L, rot: 6}
@@ -88,6 +95,9 @@ panels:
       knives.
     acting:
       nib: "crouched, holding a knife up to look at the chipped edge, ears flat"
+    hands:
+      nib: "RIGHT hand holds one knife up by the handle, eyeing its notched edge; LEFT fist braced on the slab, the other knife in reverse grip; four fingers and a thumb each"
+    hand_ref: [reverse_grip_knives.png, fists_and_bracing.png]
     eyeline: "Nib → his knife"
     calm: right
     lines:
@@ -106,6 +116,9 @@ panels:
     acting:
       marsh_serpent: "jaws wide, steam jetting from its throat"
       borro: "holding the glowing shield in place, moss smoking, jaw clenched behind the mask"
+    hands:
+      borro: "LEFT forearm through the strap, LEFT hand clenched on the grip; RIGHT palm braced flat on the shield's back, holding it into the jet; four fingers and a thumb each"
+    hand_ref: [shield_grip.png]
     calm: top
     sfx:
       - {text: "FSSSHHHHHHHH", style: impact, at: [0.40, 0.30], size: XL, rot: -4}
@@ -115,16 +128,20 @@ panels:
     shape: wide
     gap: short
     bg: white
-    camera: "low, at the road's edge: Jaeha's palms blistering red as Borro's burns land in his hands, Yerin catching his wrists"
+    camera: "low, at the road's edge: Jaeha's gloved hands scorching and his bare fingers blistering red as Borro's burns land in his hands, Yerin catching his wrists"
     light: "a moss-green ring; strobes"
     face: private
     art: >
-      At the road's edge: Jaeha (kang_jaeha, torn bloody vest) holds his hands up in front of him as red blisters rise on both
-      palms, Borro's burns landing in his own skin; a moss-green ring pulses out from him. Yerin (song_yerin) catches his
+      At the road's edge: Jaeha (kang_jaeha, torn bloody vest) holds his hands up in front of him as the palms of his fingerless gloves scorch and smoke and red blisters rise along
+      his bare fingers, Borro's burns landing in his own skin; a moss-green ring pulses out from him. Yerin (song_yerin) catches his
       wrists, her hands already glowing mint.
     acting:
-      kang_jaeha: "staring at his blistering palms, teeth gritted, shaking"
-      song_yerin: "grabbing both his wrists, glowing hands closing over his palms"
+      kang_jaeha: "staring at his blistering hands, teeth gritted, shaking"
+      song_yerin: "grabbing both his wrists, her mint glow spilling over his hands"
+    hands:
+      kang_jaeha: "both hands raised at chest height, palms up and turned half toward us, fingers curled and shaking; red blisters swelling on the bare fingers past his black fingerless gloves"
+      song_yerin: "her RIGHT hand wraps his LEFT wrist and her LEFT hand his RIGHT wrist, thumbs on top, fingers underneath; both hands glowing mint, the light spilling over his palms"
+    hand_ref: [reaching_grabbing_wrist.png, healing_palms.png]
     calm: top
     ui:
       - {kind: system.notice_small, "on": float, at: [0.5, 0.86], text: "[CARRY · BORRO · BURNS · 40%]"}
@@ -143,6 +160,7 @@ panels:
       fish stall; its tail drags through a spilled tray of crushed ice.
     acting:
       marsh_serpent: "coils sliding over the rubble, tail dragging through the ice"
+    hands: none
     calm: top
     sfx:
       - {text: "SHHHHRRRR", style: quiet, at: [0.70, 0.60], size: S, rot: 0}
@@ -157,6 +175,7 @@ panels:
     art: >
       Close and low on the serpent's tail where it drags through the crushed ice: white frost spreads over the jade scales in
       feathery lines, the tail stiffens, and then it jerks away from the ice as if burned.
+    hands: none
     calm: top
     silent: true
     sfx:
@@ -174,6 +193,7 @@ panels:
       Extreme close-up: Jaeha's eyes (kang_jaeha) narrowing as he watches the tail. Fill the canvas edge to edge.
     acting:
       kang_jaeha: "eyes narrowing, brows dropping"
+    hands: none
     calm: none
     silent: true
 
@@ -189,6 +209,10 @@ panels:
       Over Jaeha's shoulder: Yerin holds his notebook open for him because his palms are burned, and he writes with the pencil
       gripped in his blistered fingers: a sketch of the serpent recoiling from a box of ice, a snowflake, an arrow into a lane
       of doors. Leave a blank band for the letterer's note. No readable text.
+    hands:
+      kang_jaeha: "RIGHT hand writes with the yellow pencil pinched in his blistered bare fingertips, the gloved palm held clear of the page; LEFT hand out of frame"
+      song_yerin: "both glowing hands hold his notebook open flat in front of him, fingers under the covers, thumbs pinning the pages"
+    hand_ref: [notebook_and_pencil.png]
     calm: none
     lines:
       - {who: kang_jaeha, type: note, text: "IT HATES THE ICE. COLD-BLOODED. COLD MAKES IT SLOW."}
@@ -207,6 +231,11 @@ panels:
     acting:
       kang_jaeha: "phone at his ear, speaking fast, eyes on the coils"
       song_yerin: "holding his elbow, glancing at the serpent"
+    hands:
+      kang_jaeha: "LEFT hand holds the phone to his LEFT ear by his blistered bare fingertips; RIGHT arm hanging, fingers curled"
+      song_yerin: "LEFT hand holds his RIGHT elbow; RIGHT hand clutches the strap of her pink bag at her chest"
+      kang_seoa: "small across the road: RIGHT hand holds her phone to her ear; LEFT arm at her side, the rice-cake bag on that wrist"
+      background: "the fourteen people behind Seoa: hands relaxed or out of sight"
     eyeline: "Jaeha → the coils"
     foreground: "a steaming crack in the road, cropped, bottom"
     calm: top
@@ -226,6 +255,7 @@ panels:
       High over the fish section, desaturated, clean cyan lines and no text: the long dead-end lane of freezer doors and
       trucks; snowflake marks on every door; a small figure running into the lane first; a long curve of the serpent
       following it in; a heavy shape closing the lane's mouth behind it.
+    hands: none
     calm: top
     lines:
       - {who: kang_jaeha, type: inner, text: "MAKE THE LANE A FREEZER. WALK IT IN. THEN SHUT THE DOOR BEHIND IT."}
@@ -235,16 +265,21 @@ panels:
     shape: wide
     gap: short
     bg: white
-    camera: "eye level: Jaeha pulling his hands out of Yerin's, Yerin grabbing his vest, Choi behind them with an empty extinguisher"
+    camera: "eye level: Jaeha pulling his hands out of Yerin's, Yerin grabbing his vest, Choi nearest us at the right edge with an empty extinguisher"
     light: "strobes; steam"
     face: private
     art: >
       Jaeha (kang_jaeha) pulls his blistered hands out of Yerin's; she grabs a fistful of his vest. Choi (choi_dongmin) stands
-      behind them with the empty extinguisher.
+      nearest us at the right edge of the frame with the empty extinguisher.
     acting:
       kang_jaeha: "pulling free, already turning toward the fish section"
       song_yerin: "gripping his vest with both fists, eyes furious and wet"
       choi_dongmin: "staring at Jaeha, extinguisher hanging"
+    hands:
+      kang_jaeha: "both hands just pulled free of hers and drawn up to his chest, blistered bare fingers curled, as he turns away"
+      song_yerin: "both fists clenched in the front of his torn vest, knuckles white, pulling"
+      choi_dongmin: "RIGHT hand holds the empty extinguisher by its carry handle, hanging at his side (cropped at the frame edge); LEFT arm slack"
+    hand_ref: [hand_on_shoulder.png]
     eyeline: "Yerin → Jaeha; Jaeha → the fish section"
     foreground: "Choi's empty extinguisher, cropped, bottom right"
     calm: top
@@ -267,6 +302,10 @@ panels:
       kang_jaeha: "sprinting past the head, both arms waving, shouting"
       borro: "running beside him, shield held between Jaeha and the serpent"
       marsh_serpent: "head swinging round to follow Jaeha, tongue flicking"
+    hands:
+      kang_jaeha: "both arms waving high over his head as he sprints, hands open, blistered bare fingers spread"
+      borro: "LEFT forearm through the strap, holding the red-hot shield up between Jaeha and the jaws; RIGHT arm swinging as he runs; four fingers and a thumb each"
+    hand_ref: [shield_grip.png]
     calm: top
     sfx:
       - {text: "HEY! OVER HERE!", style: comic, at: [0.30, 0.30], size: M, rot: -6}
@@ -285,6 +324,10 @@ panels:
     acting:
       granny_kimchi: "heaving a freezer door open with both rubber-gloved hands, headscarf askew"
       kang_seoa: "kicking a truck's back door wide, the rice-cake bag still on her wrist"
+    hands:
+      granny_kimchi: "both yellow rubber-gloved hands grip the freezer door's long handle, leaning back to haul it open"
+      kang_seoa: "RIGHT hand braced on the truck's door edge as she kicks; LEFT arm out for balance, the rice-cake bag swinging from that wrist"
+      background: "her son, in rubber boots and an apron, hauls the next freezer door open with both hands on its handle"
     calm: top
     sfx:
       - {text: "KACHUNK KACHUNK", style: impact, at: [0.40, 0.30], size: M, rot: 0}
@@ -314,6 +357,9 @@ panels:
     acting:
       kang_jaeha: "running toward us through the mist, looking back over his shoulder"
       marsh_serpent: "head pushing into the lane, hood half flared"
+    hands:
+      kang_jaeha: "arms pumping as he runs, hands half-open, blistered bare fingers curled"
+      borro: "far and small at the lane's mouth: the shield on his LEFT forearm, RIGHT hand loose at his side; four fingers and a thumb"
     calm: top
     sfx:
       - {text: "HFF HFF HFF", style: quiet, at: [0.50, 0.80], size: S, rot: 0}
@@ -330,6 +376,7 @@ panels:
       scales meet the cold mist, the air turns to thick fog.
     acting:
       marsh_serpent: "sliding forward in long S-curves, knocking crates aside"
+    hands: none
     calm: top
     sfx:
       - {text: "KRASH", style: impact, at: [0.60, 0.40], size: L, rot: 6}
@@ -344,6 +391,7 @@ panels:
     art: >
       Close on the serpent's scales: white frost creeps across the jade and gold in feathery lines, and the steam coming off it
       thins.
+    hands: none
     calm: left
     silent: true
     sfx:
@@ -363,6 +411,8 @@ panels:
     acting:
       kang_jaeha: "back flat against the wall, chest heaving, looking up, a thin smile"
       marsh_serpent: "head rising over him, jaws opening slowly, steam weak"
+    hands:
+      kang_jaeha: "arms down at his sides, both gloved hands pressed flat to the frosty wall behind his hips, blistered bare fingers spread"
     calm: top
     sfx:
       - {text: "THUD", style: impact, at: [0.30, 0.60], size: M, rot: 0}
@@ -379,6 +429,8 @@ panels:
       Close on Jaeha (kang_jaeha) against the frosty wall, looking up into the opening jaws with a polite trap-tester's smile.
     acting:
       kang_jaeha: "a polite smile, blistered hands raised slightly, sweat freezing on his face"
+    hands:
+      kang_jaeha: "both hands lifted a little in front of his chest, palms open toward the jaws above, blistered bare fingers loose; the bandage round his LEFT forearm"
     eyeline: "Jaeha → the jaws (up)"
     calm: right
     lines:
@@ -389,13 +441,16 @@ panels:
     shape: tall
     gap: short
     bg: black
-    camera: "low, from the lane's mouth behind the serpent: Borro slamming the shield down across the lane's mouth and wedging it there"
+    camera: "low, from the lane's mouth behind the serpent: Borro slamming the shield down in the lane's mouth and bracing it, filling the gap with the shield and his body"
     light: "fluorescent; fog; moss green"
     art: >
-      From low at the lane's mouth behind the serpent: Borro (borro, field form) slams his iron shield down across the mouth of
-      the lane and wedges it between the walls like a door, his whole shell against it, shutting the serpent in with the cold.
+      From low at the lane's mouth behind the serpent: Borro (borro, field form) slams his iron shield down on its edge in the mouth
+      of the lane and braces it with his whole weight, the shield and his huge shelled body together filling the lane's mouth like a door, shutting the serpent in with the cold.
     acting:
-      borro: "shoulder and shell against the wedged shield, feet braced, head lowered"
+      borro: "braced behind the planted shield, shell to the lane wall, feet braced, head lowered"
+    hands:
+      borro: "LEFT forearm through the shield's strap, LEFT hand clenched on its grip; RIGHT palm braced flat high on the shield beside his shoulder; four fingers and a thumb each"
+    hand_ref: [shield_grip.png]
     calm: top
     lines:
       - {who: borro, type: speech, text: "THE DOOR IS SHUT.", side: r}
@@ -414,6 +469,7 @@ panels:
       every movement is slower than the last; frost spreads over its back from tail to hood.
     acting:
       marsh_serpent: "thrashing, coils lashing, movements heavy and slowing"
+    hands: none
     calm: top
     sfx:
       - {text: "WHAM... WHAM...", style: impact, at: [0.50, 0.40], size: L, rot: 4}
@@ -433,6 +489,10 @@ panels:
     acting:
       borro: "holding the shield shut as the tail hammers it"
       kang_jaeha: "small at the far end, flinching with every blow, nose bleeding"
+    hands:
+      borro: "LEFT forearm through the strap, RIGHT palm braced flat on the shield as the tail hammers it; four fingers and a thumb each"
+      kang_jaeha: "small at the far end: arms down at his sides, hands pressed flat to the wall"
+    hand_ref: [shield_grip.png]
     calm: top
     ui:
       - {kind: system.notice_small, "on": float, at: [0.5, 0.86], text: "[CARRY · 2 SUMMONS · LOAD 130% · NIB 00:40 · BORRO 01:30]"}
@@ -449,6 +509,7 @@ panels:
     art: >
       Extreme close-up of the serpent's head: frost on its horns and hood, its yellow slit eye going cloudy and slow, the small
       violet Hush crack on its brow pulsing.
+    hands: none
     calm: top
     silent: true
 
@@ -464,6 +525,9 @@ panels:
       Close on Jaeha (kang_jaeha) against the wall, pointing up at the serpent's brow with a shaking, blistered hand.
     acting:
       kang_jaeha: "pointing up with a trembling hand, blood on his lip, eyes cold"
+    hands:
+      kang_jaeha: "RIGHT arm raised, index finger pointing up at the brow, the hand trembling, blistered bare fingers; LEFT hand flat on the wall at his side"
+    hand_ref: [pointing.png]
     eyeline: "Jaeha → the brow"
     calm: left
     lines:
@@ -483,6 +547,9 @@ panels:
       streaming, toward its head.
     acting:
       nib: "sprinting up the coils on all fours, then upright, knives drawn"
+    hands:
+      nib: "a knife in each fist in reverse grip, blades along his forearms, arms pumping as he runs upright up the coils; four fingers and a thumb each"
+    hand_ref: [reverse_grip_knives.png]
     calm: top
     sfx:
       - {text: "TAP TAP TAP", style: impact, at: [0.70, 0.70], size: M, rot: -8}
@@ -500,6 +567,9 @@ panels:
     acting:
       nib: "kneeling on the brow, driving both knives down with all his weight"
       marsh_serpent: "its head jerking, eye rolling"
+    hands:
+      nib: "a knife in each fist in reverse grip, both blades driven straight down into the brow, arms locked, his weight over them; four fingers and a thumb each"
+    hand_ref: [reverse_grip_knives.png]
     calm: top
     sfx:
       - {text: "KRAKKK", style: impact, at: [0.40, 0.30], size: XL, rot: 10}
@@ -519,6 +589,10 @@ panels:
       marsh_serpent: "rearing and bursting apart from the head down"
       nib: "leaping clear, knives out, cloak and scarf flaring"
       kang_jaeha: "small at the wall, face tilted up into the falling ash"
+    hands:
+      nib: "a knife in each fist in reverse grip, arms flung wide in the leap; four fingers and a thumb each"
+      kang_jaeha: "small at the wall: arms hanging at his sides, hands open"
+    hand_ref: [reverse_grip_knives.png]
     calm: top
     sfx:
       - {text: "KSSSHHHHHHHHH", style: impact, at: [0.30, 0.20], size: XL, rot: -8}
@@ -533,6 +607,10 @@ panels:
     art: >
       Quiet. Along the lane: violet ash and frost settle like snow over the crates and trucks. Nib lands lightly in the mist;
       at the far mouth, Borro lowers his shield; at the dead end, Jaeha slides down the wall to sit.
+    hands:
+      nib: "landing, a knife held low in reverse grip in each fist at his sides; four fingers and a thumb each"
+      borro: "far at the mouth: lowering the shield to the ground, LEFT forearm still in the strap, RIGHT hand on its top edge; four fingers and a thumb"
+      kang_jaeha: "sliding down the wall, arms limp, hands dropping to the floor beside his hips"
     calm: top
     silent: true
     sfx:
@@ -548,6 +626,7 @@ panels:
     art: >
       High over the lane: a head-sized faceted core, smoky violet with a slow pulse, floats above the settling ash where the
       serpent's head fell. The upper half is empty for the window.
+    hands: none
     calm: top
     ui:
       - {kind: system.window, "on": float, at: [0.5, 0.05], headline: "[BREAK BOSS DEFEATED: MARSH SERPENT (C)]", body: "THE BREAK IS CLOSING.", button: "OK"}
@@ -566,6 +645,8 @@ panels:
       look. The upper half is empty for the window.
     acting:
       kang_jaeha: "sitting slumped, head back against the wall, eyes on the window, mouth flat"
+    hands:
+      kang_jaeha: "arms limp, both hands resting palm-up on his thighs, blistered bare fingers loosely curled"
     eyeline: "Jaeha → the window"
     calm: top
     ui:
@@ -581,6 +662,9 @@ panels:
     light: "cyan"
     art: >
       Close on Jaeha's blistered fingertip stopping a hair away from the HARVEST button, then pressing it.
+    hands:
+      kang_jaeha: "only his RIGHT hand, side-on: index finger extended, its blistered bare tip at the glowing button, other fingers curled, thumb on the middle finger; the fingerless glove ends at the knuckles"
+    hand_ref: [pointing.png]
     calm: right
     lines:
       - {who: kang_jaeha, type: inner, text: "THREE TIMES NOW. ONLY HARVEST. I DON'T LIKE IT."}
@@ -601,6 +685,10 @@ panels:
       kang_jaeha: "sitting, receiving the core in both hands, looking at it"
       nib: "walking toward him, sheathing his knives"
       borro: "walking toward him with the shield on his back, moss singed"
+    hands:
+      kang_jaeha: "both hands cupped together in his lap, palms up, the head-sized core settling into them, blistered bare fingers spread round its facets"
+      nib: "both four-fingered hands reach behind his back, sliding the knives into the crossed sheaths at the small of his back"
+      borro: "the shield slung on his back; both arms hanging loose, big four-fingered hands open"
     calm: top
     ui:
       - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[OPERATOR LV. 4 → 5 · SUMMON SLOTS 2 → 3]"}
@@ -621,6 +709,12 @@ panels:
     acting:
       choi_dongmin: "walking forward past the hunters, tired, almost smiling"
       borro: "standing aside, one hand on the shield's rim"
+    hands:
+      choi_dongmin: "empty-handed, arms loose at his sides as he walks forward"
+      borro: "the shield stands on its edge at his LEFT side, LEFT hand resting on its top rim; RIGHT arm hanging; four fingers and a thumb each"
+      kang_jaeha: "small at the far end: sitting against the wall, the core held in both hands in his lap"
+      background: "the hunters stop dead with hands at their sides or on sheathed hilts; the foreground hunter's hand out of frame"
+    hand_ref: [shield_grip.png]
     eyeline: "the hunters → the lane; Choi → Jaeha"
     foreground: "a hunter's armoured shoulder and sword hilt, cropped, left"
     calm: top
@@ -639,6 +733,9 @@ panels:
     art: >
       Close on a phone in a commuter's hand on a crowded subway train, the screen flat green; other passengers lean over to
       look.
+    hands:
+      background: "a commuter's RIGHT hand holds the phone upright, fingers round its back, thumb at the screen's edge; the leaning passengers' hands on the overhead rails or out of sight"
+    hand_ref: [phone_hold.png]
     calm: top
     ui:
       - kind: phone.info_card
@@ -661,6 +758,9 @@ panels:
       A montage in one wide panel: an office worker at a bus stop, a convenience-store clerk behind the counter, and three
       students in a school corridor all watch the same clip on their phones, mouths open; on one screen, tiny, a giant in
       a husk mask holds up a bridge.
+    hands:
+      background: "each watcher holds a phone upright in one hand, thumb at the screen's edge; free hands at their sides, on a bag strap or on the counter"
+    hand_ref: [phone_hold.png]
     calm: top
     ui:
       - kind: phone.live_stream
@@ -683,6 +783,7 @@ panels:
     art: >
       A TV mounted high in the corner of a little restaurant, the screen flat green, with the bottom quarter plain for the
       news graphic.
+    hands: none
     calm: top
     ui:
       - {kind: tv.lowerthird, "on": screen, text: "MANGWON MARKET BREAK: 'UNUSUAL HUSKS' SAVE FOURTEEN ON A FALLING BRIDGE"}
@@ -700,6 +801,10 @@ panels:
       her face; she tries to keep reading her book.
     acting:
       kang_seoa: "eyes on her book, glasses pushed up, a faint pink in her cheeks she is refusing to show"
+    hands:
+      kang_seoa: "both hands hold her open book on the desk, tilted up toward her face"
+      background: "the classmates hold phones out toward her, thumbs on the screens; one classmate's hand and phone cropped at the bottom left"
+    hand_ref: [phone_hold.png]
     eyeline: "the classmates → Seoa; Seoa → her book"
     foreground: "a classmate's phone with the clip on it, cropped, bottom left"
     calm: top
@@ -719,6 +824,9 @@ panels:
       up to the camera like a trophy.
     acting:
       granny_kimchi: "holding the radish up to the lens with both hands, chin high, fierce and proud"
+    hands:
+      granny_kimchi: "both yellow rubber-gloved hands grip the big radish near its ends, holding it up high toward the lens like a trophy"
+      background: "the TV crew's hands on the camera, out of frame at the right edge"
     eyeline: "the granny → the camera"
     foreground: "the TV camera's lens hood, cropped, right edge"
     calm: top
@@ -734,6 +842,9 @@ panels:
     light: "the screen glow"
     art: >
       Close on Bomi's phone in her trembling hands. Screen: flat green.
+    hands:
+      yoo_bomi: "both hands hold the phone upright, fingers round its back, thumbs at the screen's lower corners, trembling"
+    hand_ref: [phone_hold.png]
     calm: left
     ui:
       - kind: phone.info_card
@@ -758,6 +869,10 @@ panels:
     acting:
       yoo_bomi: "jumping with both feet off the ground, phone held up high, mouth wide in a scream of joy, tears flying"
       bomi_parents: "the father running out in his cook's jacket with a ladle, the mother behind him with her hands on her cheeks"
+    hands:
+      yoo_bomi: "RIGHT arm straight up, the phone gripped upright in her RIGHT hand toward the sky; LEFT fist clenched and raised beside her shoulder"
+      bomi_parents: "the father runs out with a ladle in his RIGHT hand, LEFT arm swinging; the mother behind him presses both palms to her cheeks"
+    hand_ref: [phone_hold.png, mouth_and_strap.png]
     calm: top
     silent: true
     sfx:
@@ -776,6 +891,10 @@ panels:
     acting:
       yoo_bomi: "arms round both of them, face buried, shoulders shaking"
       bomi_parents: "holding her, the mother crying, the father patting her head with a big, wet grin"
+    hands:
+      yoo_bomi: "LEFT arm round her mother's shoulders, RIGHT arm round her father's back, fingers clutching his cook's jacket"
+      bomi_parents: "the mother's arms wrapped round Bomi's back; the father's LEFT arm round her shoulders, his RIGHT hand still holding the ladle, patting her head with the side of his fist"
+    hand_ref: [arms_carry.png, hand_on_shoulder.png]
     eyeline: "the father → Bomi"
     foreground: "the restaurant's door frame, cropped, left"
     calm: top
@@ -792,13 +911,19 @@ panels:
     art: >
       On the green rooftop at golden hour: Bomi has set up a ring light and a phone on a tripod for a thumbnail shoot. Borro
       (borro, no husk face among friends) stands in the middle striking a proud pose with his shield; Nib (nib, no mask) stands
-      beside him with his arms folded; Jaeha sits on a plastic chair in the background with plasters on his palms; a brand-new
+      beside him with his arms folded; Jaeha sits on a plastic chair in the background with plasters on his fingers; a brand-new
       white drone with a pink ribbon hovers.
     acting:
       yoo_bomi: "crouched behind the tripod, waving them closer together"
       borro: "chest out, shield planted, a slow proud smile"
       nib: "arms folded, flat face"
       kang_jaeha: "sitting back, watching, amused"
+    hands:
+      yoo_bomi: "crouched behind the tripod: LEFT hand on a tripod leg; RIGHT hand raised, beckoning them closer together"
+      borro: "the shield standing on its bottom edge at his LEFT side, LEFT hand on its top edge; RIGHT fist on his hip; four fingers and a thumb each"
+      nib: "long arms folded across his chest, four-fingered hands tucked against his upper arms"
+      kang_jaeha: "sitting back in the plastic chair, hands loose in his lap, plastered bare fingers"
+    hand_ref: [shield_grip.png, arms_relaxed.png]
     calm: top
     sfx:
       - {text: "BZZZ", style: quiet, at: [0.80, 0.20], size: S, rot: 0}
@@ -816,6 +941,10 @@ panels:
     acting:
       yoo_bomi: "leaning out, palms pressed together, begging eyes"
       nib: "arms folded, eyes half-lidded, not moving"
+    hands:
+      yoo_bomi: "both palms pressed together in front of her chin, fingers up, begging"
+      nib: "long arms folded across his chest, four-fingered hands tucked against his upper arms"
+    hand_ref: [arms_relaxed.png]
     eyeline: "Bomi → Nib; Nib → nowhere"
     foreground: "the ring light's glowing circle, cropped, left"
     calm: top
@@ -838,6 +967,10 @@ panels:
       yoo_bomi: "chibi: pushing Nib's mouth into a smile with her fingers, tongue out in concentration"
       nib: "chibi: a forced smile with dead, flat eyes"
       borro: "chibi: sparkling, flexing proudly with the shield"
+    hands:
+      yoo_bomi: "chibi: her two index fingers, one from each hand, push up the corners of chibi Nib's mouth"
+      nib: "chibi: arms hanging limp, four fingers and a thumb on each little hand"
+      borro: "chibi: RIGHT arm bent in a proud flex, fist by his head; LEFT hand holds the shield upright beside him; four fingers and a thumb each"
     eyeline: "Bomi → Nib"
     calm: left
     silent: true
@@ -851,6 +984,9 @@ panels:
     light: "the screen glow"
     art: >
       Close on Bomi's phone screen, flat green, her thumb hovering over the upload button.
+    hands:
+      yoo_bomi: "only her RIGHT hand: fingers wrapped round the phone's back, thumb hovering just over the screen's lower edge"
+    hand_ref: [phone_hold.png]
     calm: top
     ui:
       - kind: phone.info_card
@@ -869,10 +1005,14 @@ panels:
     face: private
     art: >
       At the parapet at golden hour: Yerin (song_yerin) sits beside Jaeha (kang_jaeha) on the low wall, both looking out at the
-      city; she holds a can of soda against his blistered palm like an ice pack.
+      city; she holds a cold can of soda against his plastered hand like an ice pack.
     acting:
-      song_yerin: "holding the cold can to his palm, looking at the city, a small proud smile"
+      song_yerin: "holding the cold can to his hand, looking at the city, a small proud smile"
       kang_jaeha: "letting her, looking out at the river, tired and calm"
+    hands:
+      song_yerin: "RIGHT hand presses the cold soda can into his upturned LEFT palm, fingers round it; LEFT hand in her lap"
+      kang_jaeha: "LEFT hand rests palm-up on the low wall between them, the can pressed into his gloved palm, the bandage on that forearm; RIGHT hand on his knee"
+    hand_ref: [holding_cup.png]
     eyeline: "both → the city"
     foreground: "the laundry line with Seoa's school socks, cropped, top"
     calm: top
@@ -885,16 +1025,19 @@ panels:
     shape: wide
     gap: short
     bg: white
-    camera: "close on the new drone's live view of a crowd outside the market: people chanting with raised fists"
+    camera: "the new drone's live view, the whole panel: a crowd outside the market chanting with raised fists"
     light: "evening; the market's lights back on"
     art: >
-      Close on a phone showing the new drone's view of a crowd outside the half-repaired market that evening: young people,
+      The new drone's live view fills the whole panel (no phone in frame): a crowd outside the half-repaired market that evening: young people,
       grannies and delivery riders chant with their fists up; a hand-painted bedsheet banner (blank, no text) hangs from a
       stall.
+    hands:
+      background: "the crowd pumps its fists up over their heads as it chants; the whole panel is the drone's view, no phone or hand holding it"
     calm: top
     ui:
       - kind: phone.live_stream
-        "on": screen
+        "on": float
+        at: [0.27, 0.05]
         viewers: "61,330 WATCHING"
         chat:
           - "[dalgona]: TRAP RATS! TRAP RATS!"
@@ -915,6 +1058,7 @@ panels:
       Kanghan Tower at night: a sheer glass skyscraper rising over Yeouido, the silver double-hexagon emblem (no letters) on its
       crown, the city reflected in its glass. One long window near the top is lit cold blue. Scale: the tower is 60 storeys;
       a bus at its foot is a toy.
+    hands: none
     calm: top
     lines:
       - {who: offpanel:crowd, type: tag, text: "KANGHAN TOWER. THURSDAY, 11:20 PM."}
@@ -939,6 +1083,8 @@ panels:
       name card.
     acting:
       baek_taegun: "standing perfectly still at the glass, both hands folded on the cane's handle, head turned slightly toward us, a thin smile"
+    hands:
+      baek_taegun: "both hands folded on the cane's handle, RIGHT over LEFT, fingers curled round the silver claws, the violet core glowing between them; the cane's tip planted before his feet"
     calm: left
     silent: true
 
@@ -952,6 +1098,7 @@ panels:
     art: >
       Close on a tablet lying on the black desk beside a silver fountain pen. Screen: flat green. The violet core's reflection
       glows in the polished desk.
+    hands: none
     calm: top
     ui:
       - kind: phone.info_card
@@ -972,6 +1119,9 @@ panels:
       night city, the clip playing on it: the masked giant holding up the bridge.
     acting:
       baek_taegun: "seen from behind, holding the tablet in one hand, the cane in the other"
+    hands:
+      baek_taegun: "RIGHT hand holds the tablet up at eye level before the glass, fingers behind it, thumb on its edge; LEFT hand on the cane at his side, below the frame"
+    hand_ref: [phone_hold.png]
     eyeline: "Baek → the tablet"
     foreground: "Baek's shoulder and the side of his glasses, cropped, left third"
     calm: top
@@ -989,6 +1139,8 @@ panels:
       Close on Baek (baek_taegun) with a slim phone at his ear, the faint polite smile, his eyes cold behind the glasses.
     acting:
       baek_taegun: "phone held lightly to his ear, head tilted, smiling with his mouth only"
+    hands:
+      baek_taegun: "RIGHT hand holds the slim phone lightly to his RIGHT ear, fingers along its back; LEFT hand on the cane's violet handle, cropped at the bottom edge of the frame"
     eyeline: "Baek → the city"
     foreground: "the cane's violet core handle, cropped, bottom right"
     calm: right
@@ -1006,6 +1158,7 @@ panels:
     art: >
       A thin strip across the glass case: the head-sized violet boss core inside it pulses slowly, like a heartbeat. Fill the
       canvas edge to edge.
+    hands: none
     calm: none
     silent: true
 
@@ -1024,6 +1177,9 @@ panels:
     acting:
       ahin_husks: "forty husks frozen in the same lunge, perfectly in step"
       moon_ahin: "small in front of them, baton raised"
+    hands:
+      ahin_husks: "all forty in the same empty-handed fencing lunge: RIGHT arm thrust forward, hand closed; LEFT arm raised behind, hand open"
+      moon_ahin: "small: RIGHT hand raises the silver baton; LEFT arm at her side"
     calm: top
     sfx:
       - {text: "TAK TAK TAK", style: quiet, at: [0.50, 0.80], size: S, rot: 0}
@@ -1045,6 +1201,9 @@ panels:
     acting:
       moon_ahin: "mid-step, turning her head toward the tablet, chin slightly raised, the baton held loosely at her side, eyes narrowing"
       ahin_husks: "one husk standing at her shoulder, holding the tablet out with both hands, perfectly still"
+    hands:
+      moon_ahin: "RIGHT hand holds the silver baton loosely down at her side, white-gloved fingers round its grip; LEFT hand resting lightly at her waist on the silver belt"
+      ahin_husks: "the husk at her shoulder holds the tablet out to her with both hands, fingers under its edges, thumbs on the front rim"
     eyeline: "Moon Ahin → the tablet"
     calm: top
     silent: true
@@ -1061,6 +1220,9 @@ panels:
       any husk; one of her straight brows twitches, and the half-smile freezes.
     acting:
       moon_ahin: "looking down at the tablet, one eyebrow twitching, the half-smile frozen, baton tapping her lips"
+    hands:
+      moon_ahin: "RIGHT hand lifts the baton so its slim tip taps her lower lip, white-gloved fingers loose round the grip; LEFT hand out of frame"
+      ahin_husks: "two smooth white hands hold the tablet's lower edge at the bottom of the frame, thumbs on the front"
     eyeline: "Moon Ahin → the tablet"
     foreground: "the tablet's edge in the husk's white hands, cropped, bottom"
     calm: top
@@ -1080,6 +1242,9 @@ panels:
     acting:
       ahin_husks: "forty heads snapping round together toward the tablet"
       moon_ahin: "a tiny flick of the baton"
+    hands:
+      moon_ahin: "LEFT hand holds the tablet up beside her, screen out; RIGHT hand gives the baton one tiny flick"
+      ahin_husks: "all forty with arms at their sides, hands identical; only the heads turn"
     calm: top
     silent: true
     sfx:
@@ -1094,11 +1259,14 @@ panels:
     camera: "back on the rooftop at night: close on Jaeha sneezing violently into a bowl of tteokbokki, Nib beside him unimpressed"
     light: "warm bulbs; the night"
     art: >
-      Friday night on the rooftop: Jaeha (kang_jaeha, hoodie, plasters on his palms) sneezes violently over a bowl of
+      Friday night on the rooftop: Jaeha (kang_jaeha, hoodie, plasters on his fingers) sneezes violently over a bowl of
       tteokbokki; Nib (nib, no mask) beside him stares at him, unimpressed.
     acting:
       kang_jaeha: "mid-sneeze, eyes squeezed shut, the chopsticks flying up"
       nib: "flat stare, holding his own bowl out of the way"
+    hands:
+      kang_jaeha: "RIGHT hand jerks up mid-sneeze, the chopsticks flying out of his plastered bare fingers; LEFT hand on the table beside his bowl"
+      nib: "LEFT hand holds his own bowl out at arm's length, away from Jaeha; RIGHT hand holds his chopsticks low; four fingers and a thumb each"
     eyeline: "Nib → Jaeha"
     calm: left
     lines:
@@ -1125,6 +1293,13 @@ panels:
       borro: "sitting cross-legged on the roof, holding a tiny bowl in his huge hands"
       nib: "holding his bowl, waiting for someone else to eat first"
       kang_jaeha: "wiping his nose, laughing"
+    hands:
+      kang_seoa: "RIGHT hand tips a ladle of tteokbokki into Yerin's bowl; LEFT hand flat on the table"
+      song_yerin: "both hands hold her bowl out toward the ladle"
+      yoo_bomi: "both hands on the drone controller, thumbs on the sticks"
+      borro: "both huge four-fingered hands cradle a tiny bowl in front of his chest"
+      nib: "both four-fingered hands hold his bowl in his lap, untouched"
+      kang_jaeha: "the back of his RIGHT wrist wipes under his nose; LEFT hand by his bowl on the table"
     calm: top
     sfx:
       - {text: "BUBBLE BUBBLE", style: quiet, at: [0.50, 0.70], size: S, rot: 0}
@@ -1142,6 +1317,9 @@ panels:
     acting:
       borro: "holding the rice cake up close to his eyes, studying it with great seriousness"
       kang_seoa: "leaning forward on her elbows, watching him, hopeful"
+    hands:
+      borro: "RIGHT thumb and index finger pinch the toothpick, holding the rice cake up close to his eyes; LEFT hand cradles the tiny bowl; four fingers and a thumb each"
+      kang_seoa: "elbows on the table, chin resting on her loosely clasped hands"
     eyeline: "Borro → the rice cake; Seoa → Borro"
     foreground: "the edge of the steaming pan, cropped, bottom"
     calm: top
@@ -1159,6 +1337,7 @@ panels:
       Close on Borro (borro) chewing very slowly, his heavy-lidded eyes widening; a tiny white flower on his shoulder trembles.
     acting:
       borro: "chewing slowly, eyes opening wide, then a slow, enormous smile"
+    hands: none
     eyeline: "Borro → Seoa"
     calm: right
     lines:
@@ -1173,6 +1352,7 @@ panels:
     light: "the screen glow; warm bulbs"
     art: >
       Close on Jaeha's phone buzzing on the plastic table beside his bowl of tteokbokki. Screen: flat green.
+    hands: none
     calm: left
     ui:
       - kind: phone.info_card
@@ -1199,6 +1379,14 @@ panels:
       nib: "ears flat back, eyes narrowed"
       borro: "setting his bowl down slowly"
       kang_jaeha: "reading, expressionless"
+    hands:
+      kang_seoa: "RIGHT fist slams the ladle down flat on the table; LEFT hand flat on the table edge"
+      song_yerin: "both hands over her mouth, fingertips at her cheekbones"
+      yoo_bomi: "both hands lowering the drone controller to her lap"
+      nib: "four-fingered hands gripping his bowl in his lap"
+      borro: "both four-fingered hands slowly setting the tiny bowl down on the roof"
+      kang_jaeha: "forearms on the table on either side of the phone, plastered bare fingers still"
+    hand_ref: [mouth_and_strap.png]
     eyeline: "all → the phone"
     calm: top
     lines:
@@ -1216,6 +1404,7 @@ panels:
       Close on Nib (nib, no mask), ears flat, yellow eyes hard.
     acting:
       nib: "ears flat back, eyes narrowed to slits, mouth a hard line"
+    hands: none
     eyeline: "Nib → the phone"
     calm: right
     lines:
@@ -1234,6 +1423,10 @@ panels:
     acting:
       yoo_bomi: "leaning in, both hands on the table"
       kang_jaeha: "still, eyes on the phone, a pencil turning slowly in his plastered fingers"
+    hands:
+      yoo_bomi: "both hands flat on the table, leaning her weight toward him"
+      kang_jaeha: "RIGHT thumb and plastered bare fingers turn the yellow pencil slowly (taken from behind his RIGHT ear); LEFT hand flat on the table by the phone"
+    hand_ref: [notebook_and_pencil.png]
     eyeline: "Bomi → Jaeha; Jaeha → the phone"
     foreground: "the steaming pan, cropped, bottom"
     calm: top
@@ -1252,6 +1445,9 @@ panels:
     art: >
       Over Jaeha's shoulder: on a clean notebook page he writes, in his careful hand: a shield with a hound's head, a crossbow,
       a door with a lamp above it. Leave a blank band for the letterer's note. No readable text.
+    hands:
+      kang_jaeha: "LEFT hand holds the notebook open, thumb across the pages; RIGHT hand writes with the yellow pencil; plastered bare fingers, black fingerless gloves"
+    hand_ref: [notebook_and_pencil.png]
     calm: none
     lines:
       - {who: kang_jaeha, type: note, text: "B-GRADE RAID. MOK. HIS CROSSBOW HUNTER. A DOOR THAT CLOSES."}
@@ -1269,6 +1465,7 @@ panels:
       edge.
     acting:
       kang_jaeha: "eyes level, cold, unblinking"
+    hands: none
     calm: none
     silent: true
 
@@ -1281,6 +1478,9 @@ panels:
     light: "warm"
     art: >
       Close on the battered black notebook snapping shut in Jaeha's plastered hand, the elastic band flicking.
+    hands:
+      kang_jaeha: "LEFT hand snaps the notebook shut, fingers under the back cover, thumb pressing the front down, the elastic band flicking; plastered bare fingers; the bandage on that forearm"
+    hand_ref: [notebook_and_pencil.png]
     calm: left
     silent: true
     sfx:
@@ -1299,6 +1499,9 @@ panels:
       up at him; behind him the night city, and far off, the bridge's orange lights over the river.
     acting:
       kang_jaeha: "standing tall for once, shoulders straight, the closed notebook at his side, a small cold smile"
+    hands:
+      kang_jaeha: "LEFT hand holds the closed notebook down at his side, fingers round its spine; RIGHT arm relaxed at his side; the pencil back behind his RIGHT ear"
+      background: "the others at the table, cropped at the bottom edge: hands on the table or out of sight"
     eyeline: "Jaeha → the city"
     calm: top
     lines:
@@ -1307,3 +1510,6 @@ panels:
   - id: END
     kind: end
     chibi_gag: "Chibi Borro tucks the single green sprout in its styrofoam box under a tiny blanket for the night, while chibi Nib, already asleep, is curled up inside his shell like a hermit crab and chibi Gomi the cat sits on top of both."
+    hands:
+      borro: "chibi: both four-fingered hands tuck a tiny blanket over the sprout's styrofoam box, pinching its edge"
+      nib: "chibi: curled up asleep inside Borro's shell, four-fingered hands tucked under his cheek"

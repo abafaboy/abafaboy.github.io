@@ -46,6 +46,8 @@ panels:
       and at its foot a door-height B-grade gate slit glowing white-cyan behind Association tape. Round it: press tents,
       cameras on tripods, a Black Hound van with the red hound, a crowd of reporters and fans behind a rope line, and a line of
       Black Hound hunters in clean black jackets. Scale: the chute is 30 m tall; the people are small.
+    hands:
+      background: "all small: reporters hold cameras and phones up behind the rope line; the hunters' hands at their sides or on their weapons"
     calm: top
     lines:
       - {who: offpanel:crowd, type: tag, text: "B-GRADE GATE 2207. AN OLD DAM SPILLWAY. SATURDAY, 9 AM."}
@@ -66,6 +68,11 @@ panels:
     acting:
       mok_hangyu: "arm clamped round Jaeha's shoulders, a huge white camera smile, other hand waving"
       kang_jaeha: "a polite smile, standing straight under the weight of the arm"
+    hands:
+      mok_hangyu: "RIGHT arm clamped round Jaeha's shoulders, the big hand gripping Jaeha's RIGHT shoulder; LEFT hand raised high, waving at the cameras"
+      kang_jaeha: "hands held together low in front of him, RIGHT hand over the LEFT wrist"
+      background: "the camera crews' hands on their cameras"
+    hand_ref: [hand_on_shoulder.png]
     eyeline: "both → the cameras"
     foreground: "a TV camera lens, cropped, bottom right"
     calm: top
@@ -85,6 +92,7 @@ panels:
       Extreme close-up: Mok's smiling mouth right beside Jaeha's ear, still smiling for the cameras as he whispers.
     acting:
       mok_hangyu: "lips barely moving behind the smile, teeth showing"
+    hands: none
     foreground: "Jaeha's ear and the edge of his fringe, cropped, right edge"
     calm: left
     lines:
@@ -102,6 +110,10 @@ panels:
       Close on Jaeha (kang_jaeha) under Mok's arm: the polite smile does not move at all.
     acting:
       kang_jaeha: "a fixed, polite smile, eyes calm and level"
+    hands:
+      mok_hangyu: "only his RIGHT forearm across the back of Jaeha's neck, the hand gripping Jaeha's RIGHT shoulder at the frame edge"
+      kang_jaeha: "hands below the frame"
+    hand_ref: [hand_on_shoulder.png]
     calm: right
     lines:
       - {who: kang_jaeha, type: whisper, text: "THEN LET'S MAKE IT A GOOD ONE, SIR.", side: l}
@@ -116,6 +128,9 @@ panels:
     art: >
       Close on Bomi's phone in her hand behind the rope line, the screen flat green; the drone with the pink ribbon hovers at
       the edge of the frame.
+    hands:
+      yoo_bomi: "RIGHT hand holds the phone upright, thumb at the screen's edge (not over the green), little finger under its bottom edge; the rest of her out of frame"
+    hand_ref: [phone_hold.png]
     calm: top
     ui:
       - kind: phone.live_stream
@@ -142,6 +157,11 @@ panels:
       choi_dongmin: "leaning in, coffee in hand, voice low, eyes on Mok"
       yoo_bomi: "holding her phone up, nodding"
       song_yerin: "hugging her bag strap, pale but determined"
+    hands:
+      choi_dongmin: "RIGHT hand holds his paper coffee cup at chest height; LEFT hand in his jacket pocket"
+      yoo_bomi: "RIGHT hand holds her phone up, thumb on the screen; LEFT hand relaxed at her side"
+      song_yerin: "both hands grip her bag's cross-body strap at her chest"
+    hand_ref: [mouth_and_strap.png, phone_hold.png]
     eyeline: "Choi → Bomi; Bomi → Choi"
     foreground: "the rope line's post, cropped, bottom left"
     calm: top
@@ -164,6 +184,11 @@ panels:
       kang_jaeha: "a small polite nod back"
       nib: "rigid, arms hanging"
       borro: "rigid, the husk face crooked"
+    hands:
+      han_sora: "RIGHT forearm raised across her waist, the compass on its chain at that wrist; two LEFT fingertips tap its glass; the crossbow slung on her back"
+      kang_jaeha: "hands relaxed at his sides"
+      nib: "arms hanging stiff, hands limp (the husk act); four fingers and a thumb each"
+      borro: "LEFT hand resting on the edge of the shield standing beside him; RIGHT arm hanging stiff; four fingers and a thumb each"
     eyeline: "Sora → Jaeha; Jaeha → Sora"
     foreground: "the slit's white rim, cropped, left"
     calm: top
@@ -180,6 +205,8 @@ panels:
     light: "sun on the brass"
     art: >
       Close on the compass on Sora's wrist: the violet needle lies slack, drifting vaguely toward Jaeha, nothing more.
+    hands:
+      han_sora: "only her RIGHT wrist and hand, relaxed, palm down, the compass hanging from its short chain; the rest out of frame"
     calm: left
     silent: true
     sfx:
@@ -199,6 +226,9 @@ panels:
     acting:
       bh_sealers: "standing apart from the others, one hefting the stake, one adjusting the cable pack, one watching Jaeha"
       kang_jaeha: "small across the clearing, glancing back at them"
+    hands:
+      bh_sealers: "one grips the stake across his body in both fists; one has his thumbs hooked under the cable pack's straps; the third's hands at his sides"
+      kang_jaeha: "small, hands relaxed at his sides"
     eyeline: "the sealers → Jaeha; Jaeha → the stake"
     foreground: "the stake's emblem, cropped, left"
     calm: top
@@ -218,6 +248,7 @@ panels:
       edge.
     acting:
       kang_jaeha: "eyes narrowing to slits"
+    hands: none
     calm: none
     lines:
       - {who: kang_jaeha, type: inner, text: "A SEALING STAKE. WITH KANGHAN'S MARK ON IT."}
@@ -244,6 +275,9 @@ panels:
       glass in abstract patterns, and great bronze bells hanging silent on chains everywhere above. The raid wades in tiny along
       the nave: Jaeha first with his chalk, Nib and Borro behind him, Yerin, then Mok and Sora and the Black Hound squad; the
       sealing team lingers far behind at the entrance. Scale: each bell is the size of a car; the people are specks.
+    hands:
+      kang_jaeha: "a speck at the front, the chalk in his RIGHT hand"
+      background: "everyone tiny, arms at their sides or on their weapons; no hand detail"
     calm: top
     sfx:
       - {text: "SPLSH... SPLSH...", style: quiet, at: [0.50, 0.86], size: S, rot: 0}
@@ -258,6 +292,8 @@ panels:
     art: >
       Jaeha's point of view as he wades forward: the dark flooded nave ahead, pillars and silent bells; his chalk-white fingers
       at the bottom of the frame; at the very edge of his vision in the top corner, the tiny cyan mark.
+    hands:
+      kang_jaeha: "only his RIGHT hand at the bottom edge, seen from behind, a chalk stick pinched between thumb and fingers; black fingerless glove, bare fingertips white with chalk"
     calm: top
     ui:
       - {kind: system.notice_small, "on": float, at: [0.84, 0.08], text: "[CALL · HELD]"}
@@ -276,6 +312,9 @@ panels:
     acting:
       bh_raid: "two hunters elbowing each other, smirking, weapons on their shoulders"
       kang_jaeha: "small at the front, crouching to chalk a pillar's base"
+    hands:
+      bh_raid: "the axe man's RIGHT hand holds the haft on his shoulder; his neighbour shoulders a sword in his LEFT hand and elbows him with the RIGHT"
+      kang_jaeha: "small, crouched: RIGHT hand chalking the pillar's base, LEFT hand on his knee"
     eyeline: "the hunters → Jaeha"
     foreground: "a hunter's axe head over his shoulder, cropped, left"
     calm: top
@@ -295,6 +334,10 @@ panels:
     acting:
       kang_jaeha: "one arm flung out sideways, standing perfectly still, eyes on the blade"
       bh_raid: "the hunter behind him frozen mid-step, eyes bulging"
+    hands:
+      kang_jaeha: "LEFT arm flung out sideways behind him, palm open, stopping the line; RIGHT hand holds the chalk low at his side"
+      bh_raid: "the hunter behind him frozen mid-step, both hands lifted a little at his chest, open"
+    hand_ref: [reaching_grabbing_wrist.png]
     calm: top
     sfx:
       - {text: "SHHWING", style: impact, at: [0.50, 0.30], size: L, rot: -8}
@@ -308,6 +351,9 @@ panels:
     light: "pale light"
     art: >
       Close on Jaeha's hand drawing a neat chalk cross on the pillar beside the blade slot.
+    hands:
+      kang_jaeha: "RIGHT hand draws a chalk cross on the pillar, the stick pinched between thumb and first two fingers; black fingerless glove, bare fingertips; the rest out of frame"
+    hand_ref: [notebook_and_pencil.png]
     calm: right
     silent: true
     sfx:
@@ -318,13 +364,15 @@ panels:
     shape: wide
     gap: short
     bg: black
-    camera: "eye level: Mok at the head of his squad, raising his shield arm to wave the raid on, a big smile for nobody"
+    camera: "eye level: Mok at the head of his squad, raising his LEFT arm to wave the raid on, a big smile for nobody"
     light: "pale light"
     art: >
-      Mok (mok_hangyu) at the head of his squad raises his shield arm and waves the raid on past the marked pillar with a big
+      Mok (mok_hangyu) at the head of his squad raises his LEFT arm and waves the raid on past the marked pillar with a big
       smile, though there are no cameras in here.
     acting:
-      mok_hangyu: "waving the raid on with his shield arm, a big smile"
+      mok_hangyu: "waving the raid on with his LEFT arm, the shield still slung on his back, a big smile"
+    hands:
+      mok_hangyu: "LEFT arm raised high, open hand waving the raid on; RIGHT hand resting on the sword hilt at his RIGHT hip; the tower shield on his back"
     eyeline: "Mok → Jaeha"
     foreground: "the marked pillar with its chalk cross, cropped, right"
     calm: top
@@ -342,6 +390,9 @@ panels:
     art: >
       Over Jaeha's shoulder: a notebook page with a small chart of chalk symbols drawn years ago in the untidy handwriting of
       the first pages: an arrow, a cross, a circle, a wavy line. Leave a blank band for the letterer's note. No readable text.
+    hands:
+      kang_jaeha: "LEFT hand holds the notebook open, thumb across the page; RIGHT hand out of frame"
+    hand_ref: [notebook_and_pencil.png]
     calm: none
     lines:
       - {who: kang_jaeha, type: note, text: "ARROW: SAFE WAY. CROSS: TRAP. EVERY TRAP-TESTER READS IT. SO DOES BLACK HOUND."}
@@ -356,6 +407,7 @@ panels:
     art: >
       At a junction in the side aisle: three passages branch off; the middle one is the dry aisle onward; the left one slopes
       steeply down into black water, the flooded crypt; the right one ends in a collapsed wall.
+    hands: none
     calm: top
     silent: true
     sfx:
@@ -372,6 +424,9 @@ panels:
     art: >
       Close and low on the junction's floor stone: Jaeha's hand draws a clean chalk arrow pointing LEFT, down the slope into the
       flooded crypt passage, with one tiny extra tick at its tail that nobody would notice.
+    hands:
+      kang_jaeha: "RIGHT hand draws the chalk arrow on the floor stone, the stick pinched between thumb and fingers; black fingerless glove; the rest out of frame"
+    hand_ref: [notebook_and_pencil.png]
     calm: top
     silent: true
     sfx:
@@ -390,6 +445,8 @@ panels:
       MIDDLE passage.
     acting:
       kang_jaeha: "standing up, face blank, already turning toward the middle passage"
+    hands:
+      kang_jaeha: "hands below the frame"
     eyeline: "Jaeha → the middle passage"
     calm: left
     silent: true
@@ -407,6 +464,10 @@ panels:
     acting:
       song_yerin: "leaning close, whispering, glancing back at the junction"
       kang_jaeha: "walking on, eyes forward, a small calm smile"
+    hands:
+      song_yerin: "both hands on her bag strap at her chest"
+      kang_jaeha: "RIGHT hand holds the chalk stick at his side; LEFT hand relaxed"
+      nib: "walking ahead, arms hanging stiff, hands limp (the husk act); four fingers and a thumb each"
     eyeline: "Yerin → Jaeha; Jaeha → ahead"
     foreground: "a floating pew, cropped, bottom left"
     calm: top
@@ -424,6 +485,7 @@ panels:
     art: >
       A thin strip: a row of chalk marks on the pillar bases receding down the aisle, arrow after arrow. Fill the canvas edge to
       edge.
+    hands: none
     calm: none
     silent: true
 
@@ -439,6 +501,9 @@ panels:
       green with age, its rope trailing down into the water. Nib, at the front, looks up at it and stops.
     acting:
       nib: "stopped, looking straight up at the bell, ears flat"
+    hands:
+      nib: "arms hanging stiff at his sides, hands open and limp; four fingers and a thumb each"
+      background: "the raid wading past, hands on their weapons or out of sight"
     calm: top
     silent: true
     sfx:
@@ -458,6 +523,9 @@ panels:
     acting:
       nib: "staring up at the bell, whispering, very still"
       kang_jaeha: "bent down beside him, listening"
+    hands:
+      nib: "arms hanging stiff at his sides, hands limp; four fingers and a thumb each"
+      kang_jaeha: "bent at the waist beside him, LEFT hand on his knee, RIGHT hand holding the chalk at his side"
     eyeline: "Nib → the bell; Jaeha → Nib"
     foreground: "the bell's rope trailing past, cropped, right"
     calm: top
@@ -474,6 +542,8 @@ panels:
     light: "pale light"
     art: >
       Close on Sora's wrist as she wades through the water: the compass needle still slack.
+    hands:
+      han_sora: "only her RIGHT wrist and hand, low over the water, fingers relaxed, the compass hanging on its chain; the rest out of frame"
     calm: right
     silent: true
 
@@ -489,6 +559,10 @@ panels:
       her, an amused frown.
     acting:
       han_sora: "wading, lifting her wrist to look at the compass, then at Nib and Borro, lips pursed"
+    hands:
+      han_sora: "RIGHT forearm lifted before her, wrist turned up to read the compass; LEFT hand down at her side; the crossbow slung across her back"
+      nib: "small ahead, arms hanging stiff, hands limp; four fingers and a thumb each"
+      borro: "small ahead, LEFT hand carrying the shield by its grip at his side, RIGHT arm hanging stiff; four fingers and a thumb each"
     eyeline: "Sora → Nib and Borro"
     foreground: "Sora's shoulder and black bob, cropped, left"
     calm: top
@@ -509,6 +583,9 @@ panels:
     acting:
       kang_jaeha: "stopped at the threshold, crouching, eyes on the tiles"
       mok_hangyu: "striding past Jaeha into the nave, impatient"
+    hands:
+      kang_jaeha: "crouched at the threshold, forearms resting on his knees, the chalk in his RIGHT hand"
+      mok_hangyu: "striding past, RIGHT hand on the sword hilt at his hip, LEFT arm swinging; the tower shield on his back"
     calm: top
     sfx:
       - {text: "CLONK CLONK", style: quiet, at: [0.60, 0.80], size: S, rot: 0}
@@ -527,6 +604,9 @@ panels:
     acting:
       kang_jaeha: "crouched at the threshold, one hand raised, calling out politely"
       mok_hangyu: "halfway down the nave, waving him off over his shoulder"
+    hands:
+      kang_jaeha: "crouched: LEFT hand raised at shoulder height, palm forward; RIGHT hand on his knee, holding the chalk"
+      mok_hangyu: "halfway down the nave, RIGHT hand flapping a wave back over his RIGHT shoulder; LEFT arm at his side; the shield on his back"
     eyeline: "Jaeha → Mok; Mok → ahead"
     foreground: "the tile pattern, cropped, bottom"
     calm: top
@@ -543,6 +623,7 @@ panels:
     light: "pale light"
     art: >
       Close and low on one dark tile under a Black Hound hunter's boot: it sinks a finger's width into the floor.
+    hands: none
     calm: top
     silent: true
     sfx:
@@ -560,6 +641,12 @@ panels:
       High down the side nave: both pairs of tall doors slam shut at the same instant, at the near end and the far end; the
       raid is trapped between them; dust shakes down from the vault. Jaeha, Nib, Borro and Yerin are inside too, near the near
       doors.
+    hands:
+      kang_jaeha: "small, the chalk in his RIGHT hand"
+      song_yerin: "small, hands on her bag strap"
+      nib: "small, arms hanging; four fingers and a thumb each"
+      borro: "small, the shield in his LEFT hand; four fingers and a thumb each"
+      background: "everyone small, turning toward the doors, hands at their sides or on their weapons"
     calm: top
     sfx:
       - {text: "BOOM", style: impact, at: [0.20, 0.40], size: XL, rot: -6}
@@ -578,6 +665,10 @@ panels:
     acting:
       bh_raid: "staggering under the jets, shouting, shields up"
       mok_hangyu: "bracing against a jet with his tower shield, roaring orders"
+    hands:
+      bh_raid: "shields and forearms raised over their heads against the jets, free hands flung out for balance"
+      mok_hangyu: "LEFT forearm through the tower shield's grip, the shield braced against a jet; RIGHT arm flung out for balance"
+    hand_ref: [shield_grip.png]
     calm: top
     sfx:
       - {text: "WHOOOSSSHHHH", style: impact, at: [0.50, 0.24], size: XL, rot: -4}
@@ -594,6 +685,9 @@ panels:
       move an inch; the water is already up to their knees.
     acting:
       bh_raid: "two hunters hauling at the rings, faces purple, feet slipping"
+    hands:
+      bh_raid: "each hunter grips an iron door ring in both fists, arms straight, leaning back and hauling"
+    hand_ref: [fists_and_bracing.png]
     calm: top
     sfx:
       - {text: "NNNNGH", style: impact, at: [0.40, 0.30], size: M, rot: 0}
@@ -611,6 +705,10 @@ panels:
       Sora's wrist across the nave.
     acting:
       kang_jaeha: "waist-deep, eyes darting, jaw tight, a hand on Borro's arm"
+    hands:
+      kang_jaeha: "chalk pocketed, RIGHT hand grips Borro's RIGHT forearm, fingers wrapped round its cloth wrap; LEFT hand under the water"
+      borro: "only his RIGHT forearm in frame under Jaeha's hand; his hand below the frame"
+    hand_ref: [reaching_grabbing_wrist.png]
     eyeline: "Jaeha → the compass"
     foreground: "the water's churning surface, cropped, bottom"
     calm: top
@@ -631,6 +729,10 @@ panels:
     acting:
       kang_jaeha: "gripping Borro's arm, eyes closed for a second"
       borro: "eyes blazing green, straightening up"
+    hands:
+      kang_jaeha: "RIGHT hand squeezes Borro's RIGHT forearm, fingers wrapped round the cloth wrap; LEFT hand under the water"
+      borro: "RIGHT forearm in Jaeha's grip, the hand open; LEFT hand holds the shield by its grip at his side; four fingers and a thumb each"
+    hand_ref: [reaching_grabbing_wrist.png]
     calm: top
     ui:
       - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[BORRO · FIELD FORM 05:00]"}
@@ -645,6 +747,8 @@ panels:
     light: "violet flaring"
     art: >
       Close on the compass on Sora's wrist across the nave: the violet needle snaps round to point at Borro and glows bright.
+    hands:
+      han_sora: "only her RIGHT wrist and hand, fingers relaxed, the compass on its chain; the rest out of frame"
     calm: left
     silent: true
     sfx:
@@ -663,6 +767,9 @@ panels:
       flood starts pouring out through the gap in a white torrent.
     acting:
       borro: "wedged in the gap, back and shell against one door, shield against the other, legs braced, pushing them apart"
+    hands:
+      borro: "LEFT forearm through the strap shoving the shield against one door; RIGHT palm flat on its back beside it; four fingers and a thumb each"
+    hand_ref: [shield_grip.png]
     calm: top
     sfx:
       - {text: "GRRRRRRAAAAND", style: impact, at: [0.30, 0.24], size: XL, rot: -6}
@@ -681,6 +788,10 @@ panels:
     acting:
       kang_jaeha: "clinging to the pillar with one arm, teeth gritted, blood running from his nose"
       song_yerin: "holding onto his vest, hands glowing mint"
+    hands:
+      kang_jaeha: "LEFT arm hooked round the pillar, fingers clawed into the stone; RIGHT arm under the water at his side"
+      song_yerin: "both mint-glowing hands fisted in the side of his vest, holding on"
+    hand_ref: [hand_on_shoulder.png]
     calm: top
     ui:
       - {kind: system.notice_small, "on": float, at: [0.5, 0.86], text: "[CARRY · BORRO · 60%]"}
@@ -701,6 +812,11 @@ panels:
       kang_jaeha: "waving them through with one arm, the other on the pillar, shouting"
       bh_raid: "scrambling through the gap past Borro, one after another"
       borro: "holding the doors apart, unmoving"
+    hands:
+      kang_jaeha: "RIGHT arm swinging the hunters through toward the gap; LEFT arm hooked round the pillar"
+      bh_raid: "hunters scrambling through the gap, hands pulling on the door edges, weapons held up out of the water"
+      borro: "LEFT forearm through the strap bracing the shield against one door; RIGHT palm flat on its back; four fingers and a thumb each"
+    hand_ref: [shield_grip.png]
     eyeline: "Jaeha → the hunters"
     foreground: "the edge of the door, cropped, left"
     calm: top
@@ -720,6 +836,10 @@ panels:
     acting:
       bh_raid: "a young hunter stopping in the gap, soaked, staring up, mouth open"
       borro: "holding the doors, looking down at him calmly"
+    hands:
+      bh_raid: "the young hunter's arms hang limp at his sides, hands open"
+      borro: "LEFT forearm through the strap holding the shield against the door, cropped at the frame edge; RIGHT palm flat on its back; four fingers and a thumb each"
+    hand_ref: [shield_grip.png]
     eyeline: "the hunter → Borro"
     foreground: "Borro's shield arm, cropped, right"
     calm: top
@@ -740,6 +860,9 @@ panels:
     acting:
       mok_hangyu: "shoving through the gap, shield on his back, glaring at Borro"
       han_sora: "wading through after him, looking down at the compass, a delighted smile"
+    hands:
+      mok_hangyu: "RIGHT palm shoving against the door's edge as he squeezes through; LEFT arm swinging through; the shield on his back"
+      han_sora: "RIGHT wrist raised before her chest, reading the glowing compass on its chain; LEFT hand at her side; the crossbow slung on her back"
     eyeline: "Mok → Borro; Sora → the compass"
     foreground: "the torrent pouring through the gap, cropped, bottom"
     calm: top
@@ -759,6 +882,9 @@ panels:
     acting:
       borro: "stepping out of the gap, the glow fading, the shield lowered"
       bh_raid: "sprawled on the floor, coughing"
+    hands:
+      borro: "LEFT hand holds the lowered shield by its grip, bottom edge on the floor; RIGHT arm hanging; four fingers and a thumb each"
+      bh_raid: "sprawled, palms braced on the wet floor or pressed to their chests, coughing"
     calm: top
     silent: true
     sfx:
@@ -776,6 +902,8 @@ panels:
       Close on Jaeha (kang_jaeha) sitting against a pillar, wiping blood from his nose with his wrist, glancing across at Sora.
     acting:
       kang_jaeha: "wiping his nose, eyes sliding toward Sora, unreadable"
+    hands:
+      kang_jaeha: "the back of his RIGHT wrist wipes the blood from under his nose; LEFT hand resting on his knee"
     eyeline: "Jaeha → Sora"
     calm: right
     lines:
@@ -793,6 +921,8 @@ panels:
       head slightly toward him without a word.
     acting:
       bh_raid: "soaked hunters glancing at Borro, then away; one giving a small, stiff bow"
+    hands:
+      bh_raid: "hands resting on their knees or hanging at their sides; the bowing hunter's arms straight at his sides"
     calm: top
     silent: true
     sfx:
@@ -809,6 +939,8 @@ panels:
       Mok (mok_hangyu) stands over his hunters, wringing out the hem of his jacket, barking at them.
     acting:
       mok_hangyu: "wringing out his jacket hem, glaring down at his men"
+    hands:
+      mok_hangyu: "both hands twist the hem of his jacket, wringing the water out; the shield on his back"
     eyeline: "Mok → the hunters"
     foreground: "a hunter's soaked shoulder, cropped, left"
     calm: top
@@ -830,6 +962,10 @@ panels:
     acting:
       kang_jaeha: "at the front, chalking the ledge, eyes on the stones"
       han_sora: "near the back, crossbow in hand, watching Jaeha"
+    hands:
+      kang_jaeha: "bent forward at the front, RIGHT hand chalking a mark on the ledge stones; LEFT hand flat on the wall"
+      han_sora: "RIGHT hand holds the crossbow by its grip, pointing down along her thigh; LEFT hand at her side"
+      background: "the hunters in single file, hands on the wall or on their weapons"
     calm: top
     sfx:
       - {text: "STEP STEP", style: quiet, at: [0.50, 0.86], size: S, rot: 0}
@@ -844,6 +980,7 @@ panels:
     art: >
       Close on a small carved stone boss shaped like a bell in the wall beside the ledge: a trap trigger, a neat chalk cross
       already drawn beside it. Above it, a heavy bronze bell hangs on a chain directly over the ledge.
+    hands: none
     calm: left
     silent: true
 
@@ -858,7 +995,10 @@ panels:
       From low behind Sora (han_sora): she raises the compact crossbow casually, as if adjusting her grip, and aims past the
       whole line at the carved trigger beside Jaeha.
     acting:
-      han_sora: "raising the crossbow with one hand, aiming past the line, a small smile, the compass on her other wrist"
+      han_sora: "raising the crossbow in her RIGHT hand, aiming past the line, a small smile, the compass swinging from that wrist"
+    hands:
+      han_sora: "RIGHT hand raises the crossbow one-handed by its pistol grip, arm extended, finger on the trigger; the compass swings from that wrist; LEFT hand at her hip"
+    hand_ref: [crossbow_hold.png]
     calm: top
     silent: true
     sfx:
@@ -877,6 +1017,9 @@ panels:
     acting:
       kang_jaeha: "under the falling bell, not looking up"
       bh_raid: "the nearest hunters flinching back against the wall"
+    hands:
+      kang_jaeha: "both hands in his vest's hip pockets"
+      bh_raid: "the nearest hunters flatten against the wall, forearms thrown up over their heads"
     calm: top
     sfx:
       - {text: "THUNK", style: impact, at: [0.70, 0.40], size: M, rot: 0}
@@ -897,6 +1040,10 @@ panels:
       kang_jaeha: "one small step sideways into the niche, hands in his pockets, face calm"
       nib: "rigid, arms hanging, not moving"
       borro: "rigid, not moving"
+    hands:
+      kang_jaeha: "both hands in his vest's hip pockets, elbows relaxed"
+      nib: "arms hanging stiff, hands limp; four fingers and a thumb each"
+      borro: "LEFT hand holds the shield upright by its grip at his side; RIGHT arm hanging stiff; four fingers and a thumb each"
     calm: top
     sfx:
       - {text: "WHOOOM", style: impact, at: [0.50, 0.40], size: XL, rot: 8}
@@ -911,6 +1058,7 @@ panels:
     art: >
       High from the gallery: far below, the bell hits the flooded nave in a huge splash, and one deep toll booms out through the
       whole cathedral, shaking dust from the vault.
+    hands: none
     calm: top
     silent: true
     sfx:
@@ -925,6 +1073,8 @@ panels:
     light: "pale light"
     art: >
       Close on the compass on Sora's wrist: the needle hangs perfectly slack. Not a twitch.
+    hands:
+      han_sora: "only her RIGHT wrist and hand, relaxed, the compass hanging slack on its chain; the rest out of frame"
     calm: right
     silent: true
 
@@ -943,6 +1093,10 @@ panels:
       kang_jaeha: "turned back, a polite small bow, chalk in his hand"
       han_sora: "lowering the crossbow, a soft delighted laugh"
       bh_raid: "staring from one to the other, confused"
+    hands:
+      kang_jaeha: "a small bow, RIGHT hand holding the chalk at his side, LEFT hand at his side"
+      han_sora: "RIGHT hand lowers the crossbow by its grip, pointing at the floor; LEFT hand at her side"
+      bh_raid: "the hunters between them pressed to the wall, hands at their sides"
     eyeline: "Jaeha → Sora; Sora → Jaeha"
     foreground: "the broken edge of the ledge, cropped, bottom"
     calm: top
@@ -966,6 +1120,13 @@ panels:
       kang_jaeha: "sitting against the wall, eyes half closed"
       song_yerin: "unwrapping a kimbap"
       borro: "sitting against the wall, very still"
+    hands:
+      mok_hangyu: "RIGHT hand resting on the stake's head while a sealer holds it upright; LEFT hand at his side"
+      bh_sealers: "one holds the stake upright by its shaft in both hands; the others' hands at their sides"
+      kang_jaeha: "sitting, forearms on his raised knees, hands hanging loose"
+      song_yerin: "LEFT hand holds a kimbap roll; RIGHT fingers peel back its foil wrapper"
+      borro: "sitting, hands resting on his knees, the shield leaning on the wall beside him; four fingers and a thumb each"
+      background: "hunters eating from their hands or wiping their blades"
     calm: top
     sfx:
       - {text: "MURMUR", style: quiet, at: [0.30, 0.60], size: S, rot: 0}
@@ -984,6 +1145,9 @@ panels:
       through a narrow crack in the wall behind a stone altar, scout-sized and far too tight for an armoured man, a faint draught of moving air and a sliver of light ahead.
     acting:
       kang_jaeha: "eyes half closed, two fingers at his temple, looking asleep"
+    hands:
+      kang_jaeha: "in his half of the split: RIGHT index and middle fingertips resting at his RIGHT temple, elbow on his knee; LEFT hand loose in his lap"
+      nib: "in his point-of-view half: his hands out of frame; the view looks straight along the crack"
     calm: top
     silent: true
     sfx:
@@ -1001,6 +1165,8 @@ panels:
       if he had never left.
     acting:
       nib: "sitting down stiffly beside Jaeha, cobwebs on his ears, deadpan"
+    hands:
+      nib: "lowering himself to sit, hands flat on the floor at his sides; four fingers and a thumb each"
     calm: left
     lines:
       - {who: nib, type: whisper, text: "FOUND IT.", side: r}
@@ -1017,6 +1183,7 @@ panels:
       Close on Jaeha (kang_jaeha), eyes still closed, the corner of his mouth lifting.
     acting:
       kang_jaeha: "eyes closed, a tiny smile"
+    hands: none
     calm: right
     lines:
       - {who: kang_jaeha, type: whisper, text: "GOOD.", side: l}
@@ -1035,6 +1202,11 @@ panels:
       song_yerin: "leaning in, whispering, eyes flicking to Mok"
       kang_jaeha: "eyes opening, calm"
       mok_hangyu: "across the chapel, glancing over"
+    hands:
+      song_yerin: "LEFT hand holds her half-eaten kimbap low, cropped at the bottom; RIGHT hand on her knee"
+      kang_jaeha: "forearms on his raised knees, hands hanging loose"
+      mok_hangyu: "across the chapel, small, arms at his sides"
+      bh_sealers: "small beside Mok, hands at their sides, one holding the stake upright"
     eyeline: "Yerin → Jaeha; Mok → Jaeha"
     foreground: "Yerin's half-eaten kimbap, cropped, bottom"
     calm: top
@@ -1055,6 +1227,10 @@ panels:
     acting:
       kang_jaeha: "pressing the chalk into her palm, closing her fingers over it"
       song_yerin: "looking down at the chalk, eyes wide"
+    hands:
+      kang_jaeha: "LEFT hand holds Yerin's RIGHT wrist from below; RIGHT hand presses the chalk stub into her palm and folds her fingers over it"
+      song_yerin: "RIGHT hand open, palm up, in his; LEFT hand on her bag strap"
+    hand_ref: [reaching_grabbing_wrist.png, handshake_and_peace.png]
     eyeline: "Yerin → the chalk; Jaeha → Yerin"
     foreground: "the chalk box in his hip pocket, cropped, bottom right"
     calm: top
@@ -1076,6 +1252,9 @@ panels:
     acting:
       kang_jaeha: "one finger pressed to the earpiece, eyes on Mok"
       borro: "standing stiffly, the drone hovering behind his shell"
+    hands:
+      kang_jaeha: "RIGHT index finger pressed to the earpiece in his RIGHT ear, beside the pencil; LEFT hand at his side"
+      borro: "LEFT hand on the edge of the shield standing beside him; RIGHT arm hanging stiff; four fingers and a thumb each"
     eyeline: "Jaeha → Mok"
     foreground: "the door frame, cropped, left"
     calm: top
@@ -1093,6 +1272,7 @@ panels:
     art: >
       Close and low behind Borro: the little white drone with its pink ribbon settles itself down into the moss and tiny
       flowers on Borro's shell, its rotors folding, only its lens peeking out between two white flowers.
+    hands: none
     calm: top
     silent: true
     sfx:
@@ -1109,6 +1289,8 @@ panels:
       The end of the nave: the boss chamber's tall bronze double doors under a great rose window of pale coloured glass (an
       abstract pattern), a huge silent bell hanging above the doors. The raid gathers small before them in the knee-deep water.
       Scale: the doors are 8 m tall; the people reach a fifth of their height.
+    hands:
+      background: "everyone small in the knee-deep water, hands at their sides or on their weapons"
     calm: top
     sfx:
       - {text: "...", style: quiet, at: [0.50, 0.86], size: S, rot: 0}
@@ -1122,6 +1304,7 @@ panels:
     light: "red"
     art: >
       Close on a small iron lamp above the bronze doors, below the bell: it burns red.
+    hands: none
     calm: left
     silent: true
 
@@ -1138,6 +1321,10 @@ panels:
       hunters stand back.
     acting:
       mok_hangyu: "one arm sweeping toward the dark doorway in a mock bow, a wide smile, dead eyes"
+    hands:
+      mok_hangyu: "LEFT hand flat on the open bronze door's edge, holding it; RIGHT arm sweeping out toward the dark doorway, palm up, in a mock bow"
+      bh_raid: "standing back, hands at their sides or on their weapons"
+    hand_ref: [reaching_grabbing_wrist.png]
     eyeline: "Mok → Jaeha"
     foreground: "the bronze door's edge, cropped, right"
     calm: top
@@ -1156,6 +1343,7 @@ panels:
       Close on Jaeha (kang_jaeha) looking up at the red lamp, then at Mok, with a polite smile.
     acting:
       kang_jaeha: "a polite smile, the red light on his face, eyes cold underneath"
+    hands: none
     eyeline: "Jaeha → Mok"
     calm: right
     lines:
@@ -1171,6 +1359,13 @@ panels:
     art: >
       High above the doors: Jaeha, Nib, Borro and Yerin wade into a dark round chamber flooded knee-deep; in the middle, a huge
       dark shape sits slumped and still, too dark to make out. Behind them, in the doorway, Mok and his hunters stand watching.
+    hands:
+      kang_jaeha: "small, hands at his sides"
+      nib: "small, arms hanging, hands loose; four fingers and a thumb each"
+      borro: "small, the shield in his LEFT hand at his side; four fingers and a thumb each"
+      song_yerin: "small, both hands on her bag strap"
+      mok_hangyu: "in the doorway, small, arms at his sides"
+      bh_raid: "behind Mok in the doorway, hands at their sides"
     calm: top
     silent: true
     sfx:
@@ -1189,6 +1384,10 @@ panels:
     acting:
       mok_hangyu: "standing in the narrowing gap, smiling, one hand on the door"
       bh_sealers: "behind him, raising the stake to drive it into the floor"
+    hands:
+      mok_hangyu: "LEFT hand flat on the closing door's edge; RIGHT arm at his side"
+      bh_sealers: "behind him a sealer lifts the stake in both fists, point down, ready to drive it into the floor"
+    hand_ref: [grip_hilt_two_hands.png]
     calm: top
     sfx:
       - {text: "GRRRRRRRND", style: impact, at: [0.50, 0.30], size: XL, rot: 0}
@@ -1205,6 +1404,7 @@ panels:
       Extreme close-up: Jaeha's eyes (kang_jaeha) in the narrowing strip of red light, calm. Fill the canvas edge to edge.
     acting:
       kang_jaeha: "eyes calm, steady, a cold glint"
+    hands: none
     calm: none
     lines:
       - {who: kang_jaeha, type: inner, text: "AGAIN, SIR? I WAS HOPING YOU WOULD."}
@@ -1212,3 +1412,7 @@ panels:
   - id: END
     kind: end
     chibi_gag: "Chibi Bomi, outside the gate, watches her phone through her fingers while chibi Choi eats kimbap beside her for courage; inside the moss on chibi Borro's back, the tiny chibi drone wears a tiny helmet."
+    hands:
+      yoo_bomi: "chibi: RIGHT hand holds the phone up; LEFT hand spread over her eyes, peeking through the fingers"
+      choi_dongmin: "chibi: RIGHT hand lifts a kimbap roll to his mouth; LEFT hand holds the kimbap box"
+      borro: "chibi, seen from behind: hands out of sight"

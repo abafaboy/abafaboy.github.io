@@ -10,6 +10,7 @@ cast:
   song_yerin: default
   mok_hangyu: default
   han_sora: default
+  choi_dongmin: default
   bh_raid: default
   bh_sealers: default
   bell_ringer: default      # the Drowned Bell-Ringer, B-grade boss (new design)
@@ -46,6 +47,10 @@ panels:
     acting:
       borro: "one arm thrust through the gap, fist closing on Mok's jacket and chain"
       mok_hangyu: "in the gap, the smile turning to shock as the hand grabs him"
+    hands:
+      borro: "RIGHT arm thrust through the gap, the huge fist closing on the front of Mok's jacket and his gold chain; four fingers and a thumb"
+      mok_hangyu: "LEFT hand still on the door's edge; RIGHT hand jerking up toward the fist at his chest"
+    hand_ref: [hand_on_shoulder.png]
     calm: top
     sfx:
       - {text: "GRAB", style: impact, at: [0.50, 0.30], size: XL, rot: -8}
@@ -63,6 +68,10 @@ panels:
     acting:
       borro: "hauling backward with one arm, the other holding his shield"
       mok_hangyu: "flying in sideways, arms flailing, mouth open"
+    hands:
+      borro: "RIGHT fist hauls Mok in by his chain and jacket front; LEFT forearm through the shield's strap; four fingers and a thumb each"
+      mok_hangyu: "flying in sideways, both arms flailing, hands splayed; the tower shield on his back banging the door's edge"
+    hand_ref: [hand_on_shoulder.png]
     calm: top
     sfx:
       - {text: "YANK", style: impact, at: [0.30, 0.30], size: L, rot: -6}
@@ -81,6 +90,12 @@ panels:
     acting:
       mok_hangyu: "sprawled face down in the water, shield skidding away"
       kang_jaeha: "standing over him, looking down politely, hands in his vest pockets"
+    hands:
+      mok_hangyu: "sprawled face down, arms flung out ahead, palms slapping the water"
+      kang_jaeha: "both hands in his vest's hip pockets"
+      song_yerin: "both hands on her bag strap"
+      nib: "arms hanging, hands relaxed; four fingers and a thumb each"
+      borro: "LEFT hand on the edge of his shield standing in the water; RIGHT arm hanging; four fingers and a thumb each"
     calm: top
     sfx:
       - {text: "SPLASSH", style: impact, at: [0.50, 0.70], size: L, rot: 0}
@@ -98,6 +113,9 @@ panels:
       place; a small timer glows on the stake's head.
     acting:
       bh_sealers: "driving the stake down two-handed, head down, not seeing that Mok is gone"
+    hands:
+      bh_sealers: "both fists stacked on the stake's shaft, driving its point down into the floor stones"
+    hand_ref: [grip_hilt_two_hands.png]
     calm: top
     sfx:
       - {text: "KACHUNNG", style: impact, at: [0.30, 0.70], size: XL, rot: 0}
@@ -116,6 +134,9 @@ panels:
     acting:
       bh_sealers: "turning, the triumphant face sliding off"
       bh_raid: "staring at the empty water, weapons drooping"
+    hands:
+      bh_sealers: "the sealer's hands slipping off the stake's head, arms loose"
+      bh_raid: "weapons hanging loose in their hands, tips drooping toward the water"
     eyeline: "the hunters → the empty spot"
     foreground: "the stake's glowing head, cropped, bottom"
     calm: top
@@ -132,6 +153,7 @@ panels:
     light: "violet"
     art: >
       Close on the black stake's head with its silver double-hexagon: a small glowing timer.
+    hands: none
     calm: right
     ui:
       - {kind: system.notice_small, "on": float, at: [0.5, 0.40], text: "[SEAL · 59:58]"}
@@ -150,6 +172,10 @@ panels:
     acting:
       han_sora: "lifting her wrist, a slow smile at the doors"
       bh_sealers: "hauling at the stake with both hands, panicking"
+    hands:
+      han_sora: "RIGHT forearm lifted before her to read the compass at that wrist; LEFT hand holds the crossbow resting on her LEFT shoulder, cropped at the frame edge"
+      bh_sealers: "a sealer hauls at the stake, both fists round its shaft, leaning back"
+    hand_ref: [grip_hilt_two_hands.png]
     eyeline: "Sora → the doors"
     foreground: "Sora's crossbow on her shoulder, cropped, left"
     calm: top
@@ -169,6 +195,9 @@ panels:
       bleeds through the crack.
     acting:
       mok_hangyu: "pounding the door with his fist, soaked, roaring"
+    hands:
+      mok_hangyu: "LEFT fist hammering the bronze door; RIGHT palm flat against the door beside it"
+    hand_ref: [fists_and_bracing.png]
     eyeline: "Mok → the doors"
     foreground: "the violet-lit crack of the doors, cropped, right"
     calm: top
@@ -190,6 +219,10 @@ panels:
     acting:
       nib: "palm open toward the doors, looking up at Mok, deadpan"
       mok_hangyu: "looking down at Nib, fist still raised against the door"
+    hands:
+      nib: "LEFT arm held out low, the open palm turned up toward the sealed doors (You first); RIGHT arm hanging; four fingers and a thumb each"
+      mok_hangyu: "LEFT fist still raised against the door, cropped at the frame edge; RIGHT arm hanging"
+    hand_ref: [reaching_grabbing_wrist.png]
     eyeline: "Nib → Mok (up); Mok → Nib (down)"
     foreground: "Mok's shoulder and raised fist, cropped, left"
     calm: top
@@ -208,6 +241,7 @@ panels:
       Close on Nib's masked face (nib), utterly deadpan.
     acting:
       nib: "flat eyes, mouth a straight line, palm still open"
+    hands: none
     eyeline: "Nib → Mok"
     calm: left
     lines:
@@ -224,6 +258,8 @@ panels:
       Mok (mok_hangyu) rips a radio off his shoulder strap and barks into it, his back to the doors.
     acting:
       mok_hangyu: "radio to his mouth, eyes on Jaeha, teeth bared"
+    hands:
+      mok_hangyu: "RIGHT fist holds the radio to his mouth, thumb on the talk button; LEFT hand at his side"
     eyeline: "Mok → Jaeha"
     foreground: "the edge of the doors, cropped, right"
     calm: top
@@ -239,6 +275,8 @@ panels:
     light: "dim"
     art: >
       Close on the radio in Mok's wet fist, its light blinking.
+    hands:
+      mok_hangyu: "RIGHT fist wrapped round the radio, thumb on the talk button; his LEFT hand out of frame"
     foreground: "Mok's soaked sleeve and gold chain, cropped, left"
     calm: right
     lines:
@@ -258,6 +296,8 @@ panels:
       swinging, a coil of cables floating; the passage they came down is completely underwater behind them.
     acting:
       bh_sealers: "two men scrambling onto the tomb, one holding the radio up out of the water, the other the torch"
+    hands:
+      bh_sealers: "one holds the radio up in his RIGHT fist, LEFT hand gripping the tomb's edge; the other grips the torch in his LEFT, hauling himself up with the RIGHT"
     calm: top
     sfx:
       - {text: "GLUG GLUG GLUG", style: quiet, at: [0.30, 0.70], size: S, rot: 0}
@@ -272,6 +312,7 @@ panels:
     art: >
       Close on Jaeha's chalk arrow on the floor stone of the crypt junction, the black water creeping over it; the tiny extra
       tick at its tail.
+    hands: none
     calm: left
     silent: true
 
@@ -289,6 +330,9 @@ panels:
     acting:
       kang_jaeha: "standing easy, a polite smile, eyes cold"
       mok_hangyu: "staring, the radio lowering, the first flicker of fear in his eyes"
+    hands:
+      kang_jaeha: "both hands in his vest's hip pockets"
+      mok_hangyu: "RIGHT fist lowering the radio to his chest; LEFT hand hanging"
     eyeline: "Jaeha → Mok (up); Mok → Jaeha (down)"
     foreground: "Mok's dripping shield on the floor, cropped, bottom left"
     calm: top
@@ -317,6 +361,12 @@ panels:
       dark door 6 m above the floor. In the middle, a huge shape sits slumped in the water, still, wrapped in rotting robes and
       chains, a great bell where its head should be. The five of them stand small by the sealed doors. Scale: the slumped shape
       is as tall sitting as two men.
+    hands:
+      kang_jaeha: "small, hands in his vest's hip pockets"
+      mok_hangyu: "small, the radio in his RIGHT fist"
+      song_yerin: "small, hands on her bag strap"
+      nib: "small, arms hanging; four fingers and a thumb each"
+      borro: "small, LEFT hand on the shield standing beside him; four fingers and a thumb each"
     calm: top
     sfx:
       - {text: "...", style: quiet, at: [0.50, 0.86], size: S, rot: 0}
@@ -333,6 +383,9 @@ panels:
     acting:
       mok_hangyu: "staring up at the small door, jaw working, the radio dangling"
       kang_jaeha: "beside him, following his gaze"
+    hands:
+      mok_hangyu: "the radio dangling by its strap from his RIGHT hand; LEFT arm hanging"
+      kang_jaeha: "only his shoulder in frame; hands out of frame"
     eyeline: "Mok → the small door"
     foreground: "Jaeha's shoulder, cropped, right"
     calm: top
@@ -351,6 +404,10 @@ panels:
       Close on Mok (mok_hangyu): a slow, ugly grin returns.
     acting:
       mok_hangyu: "grinning, eyes narrowing, picking up his shield"
+    hands:
+      mok_hangyu: "LEFT hand hauls the dripping tower shield up by its grip, its top edge rising into frame; RIGHT hand out of frame"
+      kang_jaeha: "only his shoulder in frame; hands out of frame"
+    hand_ref: [shield_grip.png]
     eyeline: "Mok → the door"
     foreground: "Jaeha's shoulder, cropped, right edge"
     calm: left
@@ -369,6 +426,9 @@ panels:
       out of the crack down its side; its chains clink. It is sitting right in front of the stair.
     acting:
       bell_ringer: "the bell-head lifting slowly, one huge hand closing round a clapper the size of a tree trunk"
+    hands:
+      bell_ringer: "RIGHT hand closing round the shaft of the clapper lying in the water; four fingers and a thumb"
+    hand_ref: [grip_hilt_one_hand.png]
     calm: top
     silent: true
     sfx:
@@ -388,6 +448,9 @@ panels:
       stands between them and the stair. Scale: Borro reaches its mid-thigh; Jaeha reaches just above its knee.
     acting:
       bell_ringer: "rising to its full height, the clapper dragging through the water, the bell-head turning toward them"
+    hands:
+      bell_ringer: "RIGHT hand grips the clapper's shaft, its weighted head dragging in the water; LEFT arm hanging; four fingers and a thumb each"
+    hand_ref: [grip_hilt_one_hand.png]
     calm: top
     sfx:
       - {text: "RRRRRRMMMMMM", style: impact, at: [0.30, 0.20], size: XL, rot: -6}
@@ -402,6 +465,7 @@ panels:
     art: >
       Close on the bell-head's dark mouth, the violet crack down its side, ash drifting out. The upper part is empty for the
       window.
+    hands: none
     calm: top
     ui:
       - {kind: system.warning, "on": float, at: [0.5, 0.06], text: "[BOSS: HUSHED BELL-RINGER (B)]"}
@@ -419,6 +483,11 @@ panels:
     acting:
       mok_hangyu: "backing up, raising the shield, eyes on the giant"
       kang_jaeha: "standing still, eyes on the giant, notebook coming out"
+    hands:
+      mok_hangyu: "LEFT forearm through the tower shield's grip, raising it before him; RIGHT hand braced on its inner edge; the radio back on his shoulder strap"
+      kang_jaeha: "RIGHT hand drawing the notebook out of his LEFT chest pocket; LEFT hand at his side"
+      bell_ringer: "only the clapper in frame, cropped at the top; its hand out of frame"
+    hand_ref: [shield_grip.png]
     eyeline: "both → the Bell-Ringer"
     foreground: "the Bell-Ringer's dragging clapper, cropped, top right"
     calm: top
@@ -438,6 +507,10 @@ panels:
     acting:
       nib: "knives sliding out in a reverse grip, crouching"
       borro: "the shield coming up"
+    hands:
+      nib: "both hands draw the knives from the crossed sheaths at his back, blades turning down into reverse grip; four fingers and a thumb each"
+      borro: "LEFT forearm through the strap raising the shield; RIGHT hand on its edge; four fingers and a thumb each"
+    hand_ref: [reverse_grip_knives.png]
     calm: top
     ui:
       - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[FIELD FORM · NIB 05:00 · BORRO 05:00 · LINKED]"}
@@ -456,6 +529,10 @@ panels:
     acting:
       bell_ringer: "swinging the clapper overhead with both hands"
       borro: "stepping in under it, shield up, braced"
+    hands:
+      bell_ringer: "both hands on the clapper's shaft, RIGHT at its end, LEFT above it, swinging it overhead; four fingers and a thumb each"
+      borro: "LEFT forearm through the strap, shield raised high; RIGHT palm braced on its back; four fingers and a thumb each"
+    hand_ref: [grip_hilt_two_hands.png, shield_grip.png]
     calm: top
     sfx:
       - {text: "WHOOOOM", style: impact, at: [0.50, 0.20], size: XL, rot: -8}
@@ -472,6 +549,10 @@ panels:
       shield ringing.
     acting:
       borro: "driven down to one knee, shield above his head, arms shaking"
+    hands:
+      borro: "on one knee: LEFT forearm through the strap, RIGHT palm braced flat on the shield's back above his head, both arms shaking; four fingers and a thumb each"
+      bell_ringer: "both hands on the clapper's shaft, driving it down onto the shield; four fingers and a thumb each"
+    hand_ref: [shield_grip.png]
     calm: top
     sfx:
       - {text: "KRANNNNG", style: impact, at: [0.40, 0.30], size: XL, rot: 6}
@@ -490,6 +571,10 @@ panels:
     acting:
       kang_jaeha: "staggering, one hand on his chest, teeth gritted"
       song_yerin: "catching his arm, hands glowing"
+    hands:
+      kang_jaeha: "LEFT hand clutches his chest; RIGHT hand holds the closed notebook, that arm caught by Yerin"
+      song_yerin: "both glowing hands grip his RIGHT forearm"
+    hand_ref: [reaching_grabbing_wrist.png]
     calm: top
     ui:
       - {kind: system.notice_small, "on": float, at: [0.5, 0.86], text: "[CARRY · BORRO · 50%]"}
@@ -509,6 +594,10 @@ panels:
     acting:
       nib: "racing round the giant's legs, slashing, scarf streaming"
       bell_ringer: "turning slowly after him"
+    hands:
+      nib: "a knife in reverse grip in each fist, RIGHT arm slashing across the robes, LEFT arm swept back; four fingers and a thumb each"
+      bell_ringer: "RIGHT hand grips the clapper, its head trailing in the water; four fingers and a thumb"
+    hand_ref: [reverse_grip_knives.png]
     calm: top
     sfx:
       - {text: "SHK SHK SHK", style: impact, at: [0.60, 0.70], size: M, rot: -6}
@@ -525,6 +614,9 @@ panels:
       shivers.
     acting:
       bell_ringer: "raising a fist and striking the side of its own bell-head"
+    hands:
+      bell_ringer: "LEFT fist knocks the side of its bell-head, knuckles on the bronze; RIGHT hand grips the clapper; four fingers and a thumb each"
+    hand_ref: [fists_and_bracing.png]
     calm: top
     silent: true
     sfx:
@@ -546,6 +638,13 @@ panels:
       kang_jaeha: "thrown back against a pillar"
       song_yerin: "thrown back with him"
       nib: "crouched at the giant's ankle, untouched, looking up in surprise"
+    hands:
+      mok_hangyu: "LEFT forearm through the tower shield's grip, the shield before him; RIGHT palm braced on its back"
+      kang_jaeha: "thrown back, arms flung out, the notebook clutched in his RIGHT fist"
+      song_yerin: "thrown back, arms flung up, hands open"
+      nib: "crouched at the ankle, a knife in reverse grip in each fist; four fingers and a thumb each"
+      borro: "braced behind his shield, LEFT forearm through the strap, RIGHT palm on its back; four fingers and a thumb each"
+      bell_ringer: "LEFT fist just off its bell-head; RIGHT hand grips the clapper; four fingers and a thumb each"
     calm: top
     sfx:
       - {text: "DOOOOOOOOONNNNG", style: impact, at: [0.30, 0.20], size: XL, rot: -4}
@@ -563,6 +662,8 @@ panels:
       untouched at its feet.
     acting:
       kang_jaeha: "on his knees, a hand pressed to his bleeding ear, eyes fixed on Nib"
+    hands:
+      kang_jaeha: "on his knees: LEFT hand pressed over his bleeding LEFT ear; RIGHT hand on his thigh, holding the closed notebook"
     eyeline: "Jaeha → Nib"
     calm: top
     silent: true
@@ -581,6 +682,9 @@ panels:
       Over Jaeha's shoulder: in the notebook, the pencil sketches the giant from above with a ring round it, a small figure
       standing inside the ring by its feet, and an arrow pointing inward. Leave a blank band for the letterer's note. No
       readable text.
+    hands:
+      kang_jaeha: "LEFT hand holds the notebook open, thumb across the page; RIGHT hand sketches with the pencil in a tripod grip"
+    hand_ref: [notebook_and_pencil.png]
     calm: none
     lines:
       - {who: kang_jaeha, type: note, text: "THE TOLL STARTS A STEP OUTSIDE ITS REACH. INSIDE ITS ARM, YOU'RE SAFE."}
@@ -599,6 +703,10 @@ panels:
     acting:
       kang_jaeha: "pointing at the giant's feet, speaking fast"
       song_yerin: "gripping the chalk, staring at the giant, swallowing"
+    hands:
+      kang_jaeha: "LEFT hand closes over Yerin's hands round the chalk; RIGHT arm extended, index finger pointing at the water round the giant's feet"
+      song_yerin: "both hands closed round the chalk stub at her chest, under his LEFT hand"
+    hand_ref: [pointing.png]
     eyeline: "Jaeha → Yerin; Yerin → the giant"
     foreground: "the pillar's wet stone, cropped, left"
     calm: top
@@ -618,6 +726,9 @@ panels:
       Close on Jaeha (kang_jaeha), blood from his nose and ear, a crooked smile.
     acting:
       kang_jaeha: "a crooked smile through the blood, eyes fierce"
+    hands:
+      kang_jaeha: "hands below the frame"
+      song_yerin: "only her RIGHT hand at the frame edge, fist closed round the chalk stub"
     eyeline: "Jaeha → Yerin"
     foreground: "Yerin's hand holding the chalk, cropped, left edge"
     calm: left
@@ -637,6 +748,10 @@ panels:
     acting:
       song_yerin: "running hard, chalk in her fist, teeth gritted, eyes on the pillars"
       borro: "running beside her, shield held over her like a roof"
+    hands:
+      song_yerin: "RIGHT fist clenched round the chalk, LEFT arm pumping as she runs"
+      borro: "LEFT forearm through the strap holding the shield flat over her head like a roof; RIGHT hand braced under its edge; four fingers and a thumb each"
+    hand_ref: [shield_grip.png]
     calm: top
     sfx:
       - {text: "SPLSH SPLSH", style: impact, at: [0.70, 0.70], size: M, rot: 6}
@@ -651,6 +766,8 @@ panels:
     art: >
       Close on Yerin's small hand slashing a thick chalk ring round the base of a pillar close to the giant, the water splashing
       round her wrist.
+    hands:
+      song_yerin: "RIGHT hand drags the chalk stub round the pillar's base, fingers pinching it, wrist in the splashing water; the rest of her out of frame"
     calm: right
     silent: true
     sfx:
@@ -670,6 +787,11 @@ panels:
       bell_ringer: "swinging the clapper sideways"
       borro: "taking the blow, sliding, shielding Yerin"
       song_yerin: "crouched behind Borro, the chalk in her hand"
+    hands:
+      bell_ringer: "RIGHT hand swings the clapper sideways; four fingers and a thumb"
+      borro: "LEFT forearm through the strap, the shield turned to take the blow; RIGHT palm flat on its back; four fingers and a thumb each"
+      song_yerin: "crouched, RIGHT fist round the chalk, LEFT hand braced on her knee"
+    hand_ref: [shield_grip.png]
     calm: top
     sfx:
       - {text: "KRANG", style: impact, at: [0.50, 0.30], size: L, rot: -6}
@@ -685,6 +807,9 @@ panels:
       By the sealed doors: Mok (mok_hangyu) crouches behind his tower shield, watching Jaeha's people fight, not moving to help.
     acting:
       mok_hangyu: "crouched behind his shield, watching, calculating, sweat on his face"
+    hands:
+      mok_hangyu: "LEFT forearm through the tower shield's grip, its bottom edge in the water; RIGHT hand gripping its top edge"
+    hand_ref: [shield_grip.png]
     eyeline: "Mok → the stair"
     foreground: "the violet web on the doors, cropped, right"
     calm: top
@@ -701,6 +826,10 @@ panels:
     art: >
       Outside the gate, close on Bomi's phone in her shaking hands, the screen flat green; Choi's hand on her shoulder at the
       edge of the frame.
+    hands:
+      yoo_bomi: "both hands hold the phone upright, thumbs at its edges off the green screen, trembling"
+      choi_dongmin: "only his RIGHT hand at the frame edge, resting on her LEFT shoulder, fingers curving over it"
+    hand_ref: [phone_hold.png, hand_on_shoulder.png]
     calm: top
     ui:
       - kind: phone.live_stream
@@ -722,6 +851,7 @@ panels:
     light: "dim; a tiny red light"
     art: >
       Close on the drone's lens peeking out between two white flowers in the moss on Borro's shell, a tiny red light glowing.
+    hands: none
     calm: left
     silent: true
 
@@ -739,6 +869,9 @@ panels:
     acting:
       bell_ringer: "swinging the clapper down in a great arc toward Jaeha"
       kang_jaeha: "crossing the water, looking up, too far from cover"
+    hands:
+      bell_ringer: "RIGHT hand swings the clapper down in a great arc; four fingers and a thumb"
+      kang_jaeha: "mid-stride in the water, arms at his sides, hands open"
     calm: top
     sfx:
       - {text: "WHOOOM", style: impact, at: [0.50, 0.20], size: XL, rot: 8}
@@ -756,6 +889,10 @@ panels:
     acting:
       mok_hangyu: "lunging, throwing the shield up over Jaeha, face twisted"
       kang_jaeha: "crouched under the shield"
+    hands:
+      mok_hangyu: "LEFT forearm through the tower shield's grip, thrusting it up over Jaeha; RIGHT palm shoving its lower edge up"
+      kang_jaeha: "crouched low, both forearms raised over his head"
+    hand_ref: [shield_grip.png]
     calm: top
     sfx:
       - {text: "HUP", style: impact, at: [0.30, 0.40], size: M, rot: 0}
@@ -773,6 +910,10 @@ panels:
     acting:
       mok_hangyu: "knees buckling, arms shaking, the shield cracking"
       kang_jaeha: "under the shield, one hand flat on Mok's back"
+    hands:
+      mok_hangyu: "LEFT forearm through the grip, RIGHT palm braced on the shield's back, both arms shaking under the clapper"
+      kang_jaeha: "under the shield: LEFT hand flat on Mok's back between the shoulder blades; RIGHT hand braced on his knee"
+    hand_ref: [shield_grip.png, fists_and_bracing.png]
     calm: top
     sfx:
       - {text: "KRAKKK", style: impact, at: [0.40, 0.30], size: XL, rot: -8}
@@ -790,6 +931,10 @@ panels:
     acting:
       kang_jaeha: "crouched under the shield, shouting sideways, one hand on Mok's back"
       borro: "turning toward them across the water"
+    hands:
+      kang_jaeha: "crouched, LEFT hand flat on Mok's back; RIGHT hand braced on his knee"
+      mok_hangyu: "arms raised, LEFT forearm through the grip and RIGHT palm on the cracking shield's back, holding it overhead"
+      borro: "turning, LEFT forearm through his shield's strap, the shield at his side; RIGHT arm hanging; four fingers and a thumb each"
     eyeline: "Jaeha → Borro"
     foreground: "the cracking shield above, cropped, top"
     calm: top
@@ -809,6 +954,11 @@ panels:
     acting:
       borro: "shoulder and shell under both shields, legs braced"
       mok_hangyu: "suddenly less crushed, eyes widening"
+    hands:
+      borro: "LEFT forearm through his shield's strap, pushing it up beside Mok's; RIGHT palm flat under the rim of Mok's cracked shield; four fingers and a thumb each"
+      mok_hangyu: "LEFT forearm through the grip, RIGHT palm on the shield's back, arms easing"
+      kang_jaeha: "crouched under the shields, LEFT hand flat on Mok's back"
+    hand_ref: [shield_grip.png]
     calm: top
     sfx:
       - {text: "KLANG", style: impact, at: [0.50, 0.30], size: L, rot: 0}
@@ -826,6 +976,11 @@ panels:
       moss-green ring pulses out round all three of them.
     acting:
       kang_jaeha: "teeth gritted, blood from his nose, one hand on Mok's back, one on Borro's shell"
+    hands:
+      kang_jaeha: "LEFT hand flat on Mok's back, RIGHT palm flat on Borro's shell, fingers spread"
+      mok_hangyu: "arms up on the shield above, hands out of frame"
+      borro: "arms up under the shields, hands out of frame"
+    hand_ref: [fists_and_bracing.png]
     calm: top
     ui:
       - {kind: system.notice_small, "on": float, at: [0.5, 0.86], text: "[CARRY · BORRO · 90%]"}
@@ -844,6 +999,9 @@ panels:
     acting:
       mok_hangyu: "staring sideways at Jaeha, arms shaking, confused"
       kang_jaeha: "eyes on the giant, blood running, jaw set"
+    hands:
+      mok_hangyu: "arms raised, LEFT forearm through the grip and RIGHT palm on the shield above, shaking"
+      kang_jaeha: "hands below the frame"
     eyeline: "Mok → Jaeha; Jaeha → the giant"
     foreground: "the crack in Mok's shield, cropped, top"
     calm: top
@@ -862,6 +1020,7 @@ panels:
       Close on Mok's eyes (mok_hangyu): something in them cracks, like his shield.
     acting:
       mok_hangyu: "eyes wide, then wavering, the hard look breaking for a second"
+    hands: none
     calm: right
     silent: true
 
@@ -879,6 +1038,12 @@ panels:
       borro: "heaving upward with both shields"
       mok_hangyu: "pushing up beside him"
       bell_ringer: "staggering back a step"
+    hands:
+      borro: "LEFT forearm through his own shield's strap, RIGHT palm under Mok's shield, both arms thrusting up; four fingers and a thumb each"
+      mok_hangyu: "LEFT forearm through the cracked shield's grip, RIGHT palm on its back, both arms thrusting up"
+      bell_ringer: "RIGHT hand still gripping the clapper as it is thrown off; four fingers and a thumb"
+      kang_jaeha: "crouched under them, LEFT hand on Mok's back, RIGHT hand on Borro's shell"
+    hand_ref: [shield_grip.png]
     calm: top
     sfx:
       - {text: "WHOOMP", style: impact, at: [0.50, 0.30], size: L, rot: 6}
@@ -895,6 +1060,8 @@ panels:
       three pillars close to the giant.
     acting:
       song_yerin: "pressed against the chalk-ringed pillar, waving both arms, shouting"
+    hands:
+      song_yerin: "back to the chalk-ringed pillar, both arms raised high, waving, the chalk stub in her RIGHT fist"
     eyeline: "Yerin → Jaeha"
     foreground: "a chalk ring on a pillar, cropped, left"
     calm: top
@@ -915,6 +1082,12 @@ panels:
       mok_hangyu: "running, the cracked shield on his arm"
       borro: "running behind them"
       bell_ringer: "raising its fist to its own bell-head"
+    hands:
+      kang_jaeha: "LEFT hand gripping Mok's RIGHT forearm, dragging him; RIGHT arm pumping as he runs"
+      mok_hangyu: "LEFT forearm through the cracked shield's grip; RIGHT forearm in Jaeha's grip"
+      borro: "LEFT forearm through the strap, the shield carried at his side; RIGHT arm swinging; four fingers and a thumb each"
+      bell_ringer: "LEFT fist rising to its bell-head; RIGHT hand grips the clapper; four fingers and a thumb each"
+    hand_ref: [reaching_grabbing_wrist.png]
     calm: top
     sfx:
       - {text: "SPLSH SPLSH", style: impact, at: [0.70, 0.70], size: M, rot: 0}
@@ -936,6 +1109,13 @@ panels:
       song_yerin: "hugging the pillar"
       borro: "standing in the ring, shield lowered, the green glow gone (Jaeha has released him to save his clock)"
       nib: "crouched at the giant's ankle"
+    hands:
+      kang_jaeha: "back to the pillar: LEFT hand cupped over his bleeding LEFT ear; RIGHT palm flat on the stone beside him"
+      mok_hangyu: "back to a pillar, LEFT forearm through the cracked shield's grip, RIGHT palm flat on the pillar"
+      song_yerin: "both arms wrapped round the pillar, the chalk stub in her RIGHT fist"
+      borro: "LEFT hand holds the lowered shield by its grip, bottom edge in the water; RIGHT arm hanging; four fingers and a thumb each"
+      nib: "crouched at the ankle, a knife in reverse grip in each fist; four fingers and a thumb each"
+      bell_ringer: "LEFT fist against its bell-head; RIGHT hand grips the clapper; four fingers and a thumb each"
     calm: top
     ui:
       - {kind: system.notice_small, "on": float, at: [0.5, 0.90], text: "[BORRO · LINK RELEASED · REST FORM · COOLDOWN 01:00]"}
@@ -953,6 +1133,8 @@ panels:
       Inside the ring: Mok (mok_hangyu) looks down at the white chalk ring round the pillar at his feet, then at Jaeha.
     acting:
       mok_hangyu: "looking down at the chalk, then at Jaeha, breathing hard"
+    hands:
+      mok_hangyu: "LEFT forearm through the cracked shield's grip, its edge in the water; RIGHT hand hanging at his side"
     eyeline: "Mok → Jaeha"
     calm: top
     lines:
@@ -970,6 +1152,7 @@ panels:
       Close on Jaeha (kang_jaeha) against the pillar, bloody and polite even now.
     acting:
       kang_jaeha: "a small polite smile through the blood, leaning on the pillar"
+    hands: none
     eyeline: "Jaeha → Mok"
     calm: left
     lines:
@@ -989,6 +1172,10 @@ panels:
     acting:
       nib: "leaping up the giant's arm, slashing at the crack"
       bell_ringer: "jerking its head away"
+    hands:
+      nib: "RIGHT arm slashes a reverse-grip knife across the crack; LEFT fist, the other knife in it, braced on the giant's stone forearm; four fingers and a thumb each"
+      bell_ringer: "RIGHT hand grips the clapper; LEFT arm raised, Nib on it; four fingers and a thumb each"
+    hand_ref: [reverse_grip_knives.png]
     calm: top
     sfx:
       - {text: "SKRANNG", style: impact, at: [0.40, 0.30], size: L, rot: -8}
@@ -1006,6 +1193,9 @@ panels:
     acting:
       bell_ringer: "dropping the clapper, gripping its bell-head with both hands, swaying"
       nib: "flung into the water"
+    hands:
+      bell_ringer: "both hands grip the sides of its bell-head, fingers spread on the bronze; the clapper dropped in the water; four fingers and a thumb each"
+      nib: "flung into the water, arms out, a knife still in each fist; four fingers and a thumb each"
     calm: top
     sfx:
       - {text: "SPLASH", style: impact, at: [0.30, 0.70], size: M, rot: 0}
@@ -1020,6 +1210,8 @@ panels:
     art: >
       Close and low on the bell-head: the violet crack down its side widens and glows brighter, and the whole bronze bell starts
       to vibrate on its own, a hum building.
+    hands:
+      bell_ringer: "both huge hands still gripping the sides of the bell-head, fingers spread on the bronze; four fingers and a thumb each"
     calm: top
     silent: true
     sfx:
@@ -1039,6 +1231,9 @@ panels:
     acting:
       kang_jaeha: "looking up, eyes narrowing, a hand on his ear"
       mok_hangyu: "looking up, the colour draining from his face"
+    hands:
+      kang_jaeha: "LEFT hand pressed to his bleeding LEFT ear; RIGHT hand at his side"
+      mok_hangyu: "LEFT forearm through the cracked shield's grip, the shield lowered; RIGHT hand hanging"
     eyeline: "both → the bell-head"
     foreground: "a shivering bell's chain, cropped, top"
     calm: top
@@ -1059,6 +1254,7 @@ panels:
       for the window.
     acting:
       kang_jaeha: "eyes wide in the red light, blood on his lip"
+    hands: none
     eyeline: "Jaeha → the window"
     calm: top
     ui:
@@ -1077,6 +1273,8 @@ panels:
       chamber; each ring starts a little closer to the giant, and the safe space round the pillars shrinks.
     acting:
       bell_ringer: "standing rigid, both hands on its bell-head, the bronze shaking"
+    hands:
+      bell_ringer: "both hands clamped on the sides of its bell-head; four fingers and a thumb each"
     calm: top
     sfx:
       - {text: "DONG DONG DONG DONG", style: impact, at: [0.30, 0.20], size: XL, rot: -6}
@@ -1091,6 +1289,7 @@ panels:
     art: >
       High along the chamber's curved wall: cracks race up the stone; the whole wall bulges inward; chunks of the dome fall into
       the water; a small bell crashes down.
+    hands: none
     calm: top
     silent: true
     sfx:
@@ -1106,6 +1305,7 @@ panels:
     art: >
       The narrow stair up the back wall: its lowest steps crumble away into the water, cutting off the way to the small door 6 m
       up. The upper part is empty for the window.
+    hands: none
     calm: top
     ui:
       - {kind: system.notice_small, "on": float, at: [0.5, 0.06], text: "[BOSS: HARVEST ONLY · RELEASE: NOT AVAILABLE]"}
@@ -1130,6 +1330,14 @@ panels:
       nib: "crouched, glaring at the giant"
       mok_hangyu: "back to the pillar, gasping"
       kang_jaeha: "pressed to the pillar, eyes open, thinking"
+    hands:
+      song_yerin: "pressed against Borro, both fists clutched to her chest, the chalk in the RIGHT"
+      borro: "LEFT forearm through the strap holding the shield up over them; RIGHT palm braced on its back; four fingers and a thumb each"
+      nib: "crouched, a knife in reverse grip in each fist; four fingers and a thumb each"
+      mok_hangyu: "back to the pillar, LEFT forearm through the cracked shield's grip, RIGHT palm flat on the stone"
+      kang_jaeha: "back pressed to the pillar, both palms flat on the stone behind him"
+      bell_ringer: "beyond them, both hands clamped on its bell-head; four fingers and a thumb each"
+    hand_ref: [shield_grip.png]
     eyeline: "Jaeha → the giant"
     foreground: "the rolling ring of force, cropped, bottom"
     calm: top
@@ -1146,6 +1354,9 @@ panels:
     art: >
       Jaeha's point of view: the ringing giant, the rolling force, the falling stones; and at the very edge of his vision in the
       top corner, the tiny cyan mark, pulsing now.
+    hands:
+      kang_jaeha: "his own hands out of frame (point of view)"
+      bell_ringer: "both hands clamped on its bell-head; four fingers and a thumb each"
     calm: top
     ui:
       - {kind: system.notice_small, "on": float, at: [0.84, 0.08], text: "[CALL · HELD]"}
@@ -1164,6 +1375,7 @@ panels:
       canvas edge to edge.
     acting:
       kang_jaeha: "eyes hardening, decided"
+    hands: none
     calm: none
     silent: true
 
@@ -1176,6 +1388,7 @@ panels:
     light: "red; dust"
     art: >
       Close on the red warning window counting down, the shaking chamber blurred behind it.
+    hands: none
     calm: top
     ui:
       - {kind: system.warning, "on": float, at: [0.5, 0.36], text: "[BOSS ENRAGED · 00:24]"}
@@ -1186,3 +1399,6 @@ panels:
   - id: END
     kind: end
     chibi_gag: "Chibi Mok, soaking wet, sits in a corner hugging his cracked shield and sulking, while chibi Nib stands beside him holding his palm open toward every door in the room, one after another."
+    hands:
+      mok_hangyu: "chibi: both arms hug the cracked shield to his chest, hands locked round its edge"
+      nib: "chibi: LEFT arm out, the open palm toward a door (You first); RIGHT arm at his side; four fingers and a thumb each"
