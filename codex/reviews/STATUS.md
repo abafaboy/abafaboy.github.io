@@ -48,7 +48,7 @@ Verdicts for each entry are in this folder, one file per entry (`<entry>.md`). S
 | L21–L24, P2 | the Busan keys; the Arc 5 props | **APPROVED** (`L21.md`–`L24.md`, `P2.md`); Claude snapped screens to #00FF00 |
 | S29 | Pim | `front.png` **APPROVED** (`S29.md`); the other five sheets to draw (job S29-B) |
 | S28 | the ch 35 flashback cast | to draw now (S24 is approved) |
-| S31 | Han Sora's pool look and new compass | drawing |
+| S31 | Han Sora's pool look and new compass | **APPROVED** (`S31.md`); Claude smoothed the swimsuit's crease shading on two sheets; the silver compass on her LEFT wrist, the bandage on her RIGHT |
 | ch006 | chapter 6 | all parts reviewed: 57 of 60 **APPROVED** (`ch006.md`; Claude fixed seven); P41, P51, P54 to fix (job ch006-R1: Nib's size, P51's staging, the clasp's nine towers) |
 | ch007 | chapter 7 | 62 of 66 delivered images **APPROVED** (`ch007.md`; Claude fixed ten: Jaeha's pencil and plaster sides, Nib's masked eye, the T patch); P27, P37, P49, P61 to fix (job ch007-R1); part D: P28 to correct and P29–P33 to draw (ch007-D continuation after the image reset) |
 | ch008 | chapter 8 | all parts reviewed: 66 of 70 **APPROVED** (`ch008.md`; Claude fixed P07, P13, P14, P18, P28, P42, including the pier's yellow 7 in P13 and P14 for the chapter 22 plant); P49, P52, P54, P59 to fix (job ch008-R1: Nib's and the cast's sizes) |
