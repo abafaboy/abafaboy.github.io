@@ -359,7 +359,7 @@ Chapters 13-33 need the sheets, keys and props in `ASSETS_ARC3_BRIEF.md` (Han So
 
 ### Chapter 14: The Compass (`scripts_v2/ch014.yaml`)
 
-**Chapter 14 rules:** Han Sora's first glamour panel (P03) and name card (P05): `han_sora/` Black Hound look, the compass on its chain round her RIGHT wrist; never a camera aimed at her chest. Jaeha wears the hoodie only (no vest), the notebook in the hoodie's front pocket. Nib wears the mask at the store and none at home; he flashes into field form for one second under the table twice (P17, P19: an amber eye, a thin amber outline). The store at night: `conv_store/key.png`. The flashback (P38-P44) is grey with only the two orange vests in colour: `hanriver_gate_flashback/key.png`, Minseok and the young cast in `oh_minseok/`.
+**Chapter 14 rules:** Han Sora's first glamour panel (P03) and name card (P05): `han_sora/` in her tank-top look (outfit `tank`, `han_sora/front_tank.png` and `turnaround_tank.png`): the jacket hangs on the back of her chair, the black scoop-neck tank top, shoulders and arms bare; the compass on its chain round her RIGHT wrist; never a camera aimed at her chest. Jaeha wears the hoodie only (no vest), the notebook in the hoodie's front pocket. Nib wears the mask at the store and none at home; he flashes into field form for one second under the table twice (P17, P19: an amber eye, a thin amber outline). The store at night: `conv_store/key.png`. The flashback (P38-P44) is grey with only the two orange vests in colour: `hanriver_gate_flashback/key.png`, Minseok and the young cast in `oh_minseok/`.
 
 | Part | Panels to draw | Notes |
 |---|---|---|
@@ -575,7 +575,7 @@ Chapters 13-33 need the sheets, keys and props in `ASSETS_ARC3_BRIEF.md` (Han So
 
 ### Chapter 27: Alarm (`scripts_v2/ch027.yaml`)
 
-**Chapter 27 rules:** The great drain half-pipe along the pit wall: `farm_pit/drain_pipe.png`. Sora returns in Kanghan colours (`han_sora/turnaround_kanghan.png`) with the tactical squad (`crew/kanghan_lineup.png`): a tall glamour panel stepping off the elevator (P11), and soaked after the flood (P37, from the knees up). P36 is the flood splash. The Warden's eye opens (ECU) and he speaks; to humans it is only a hum.
+**Chapter 27 rules:** The great drain half-pipe along the pit wall: `farm_pit/drain_pipe.png`. Sora returns in Kanghan colours (`han_sora/turnaround_kanghan.png`) with the tactical squad (`crew/kanghan_lineup.png`): a tall glamour panel stepping off the elevator (P11), and soaked after the flood (P37, from the knees up), when she ties the soaked jacket round her waist: her tank-top look (outfit `tank`) from P37 and in chapters 29-32, 34, 36 and 38-40. P36 is the flood splash. The Warden's eye opens (ECU) and he speaks; to humans it is only a hum.
 
 | Part | Panels to draw | Notes |
 |---|---|---|
