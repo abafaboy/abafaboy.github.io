@@ -1,0 +1,344 @@
+{
+  "id": "kang_jaeha",
+  "name": "Kang Jaeha",
+  "entry": "S26",
+  "outfit": "training",
+  "age": 24,
+  "height_cm": 178,
+  "date": "2026-10-27",
+  "timezone": "Asia/Tashkent",
+  "status": "Completed; awaiting Claude review",
+  "scope": "New Arc 5 training assets only. Approved S1 sheets and their metadata remain untouched.",
+  "style": "V2 · Cinematic cel",
+  "tool": "built-in image_gen.imagegen",
+  "canvas": {
+    "width": 1536,
+    "height": 1024,
+    "format": "PNG",
+    "background_requested": "#E9E9EC",
+    "key_light": "Soft neutral upper-left; STORE adds internal white-gold skin light"
+  },
+  "palette": {
+    "tracksuit": {
+      "base": "#5B4A78",
+      "shadow": "#403451"
+    },
+    "skin": {
+      "base": "#EFD0BE",
+      "shadow": "#D2A49A"
+    },
+    "eyes": "#3B2A24",
+    "hair": {
+      "base": "#1F1E26",
+      "shine_band": "#46506A"
+    },
+    "notebook": {
+      "base": "#1C1C20",
+      "worn_corners": "#4A4A50",
+      "page_edges": "#E9DFC5"
+    },
+    "pencil": {
+      "body": "#E9B92F",
+      "eraser": "pink"
+    },
+    "towel": "off-white",
+    "trainers": "plain black, grey soles",
+    "bandage_and_tape": "white",
+    "splint": "pale unfinished wood",
+    "store": "white-gold"
+  },
+  "locks": [
+    "Anatomical LEFT and RIGHT, never viewer-relative.",
+    "Same approved narrow tired face and lean 7.5-head body; legs about half standing height.",
+    "Fringe over LEFT eye; one yellow pencil behind RIGHT ear.",
+    "One battered black notebook in LEFT chest pocket of purple tracksuit top.",
+    "Unhooded zip-front purple tracksuit top and matching pants; wrists and ankles deliberately short. No vest, T patch, gloves, cargo trousers or work boots in this outfit.",
+    "One off-white towel around neck; plain black low-top trainers with grey soles.",
+    "LEFT forearm white bandage after the crawler injury in chapter 34.",
+    "RIGHT index finger splinted with a wooden chopstick and white tape from chapter 38.",
+    "RIGHT forearm sling only after the chapter 40 release and subsequent treatment.",
+    "White-gold STORE light originates inside skin; fine luminous fissures on exposed arms/wrists and neck; brightest in RIGHT fist.",
+    "No text, labels, logos or scale silhouettes."
+  ],
+  "files": {
+    "turnaround": "turnaround_training.png",
+    "details": "details_training.png",
+    "store": "store_glow.png",
+    "prompts": "prompts_training.json",
+    "completion": "DONE_training.md"
+  },
+  "turnaround_order": [
+    "front",
+    "three-quarter facing picture-left",
+    "LEFT profile facing picture-left",
+    "back"
+  ],
+  "details_order": [
+    "top-left: bandaged LEFT forearm, opposite arm unbandaged",
+    "top-right: RIGHT index chopstick splint",
+    "bottom-left: injured RIGHT forearm in sling, LEFT arm free and bandaged",
+    "bottom-right: separate early-training bare-hand tremor study"
+  ],
+  "continuity": [
+    "Turnaround establishes the uninjured baseline outfit; later injury combinations are shown separately on the details sheet.",
+    "STORE sheet is before RELEASE in chapter 40: LEFT forearm bandage and RIGHT index splint present; no sling yet.",
+    "STORE hand is a loose half-fist with the splinted index straight, because a wooden support cannot bend. Use the large details sheet for precise finger/tape construction.",
+    "From chapter 41 the black coat replaces this look; no coat was drawn in S26."
+  ],
+  "qa": {
+    "self_review": "Native full sheets and 200 px wide in-memory thumbnails; STORE grip inspected at 200%. No inspection images saved in the project.",
+    "checks": [
+      "Identity and side locks",
+      "Head count and long legs",
+      "Correct injury side and separate chronology",
+      "No extra digits or impossible sling joint seen",
+      "No silhouettes, lettering, brands or stray gear",
+      "Crisp PNG ink and hard shadows without visible compression",
+      "PNG dimensions and source/destination byte identity",
+      "Ordinary independent copies; single-path hardlink lists",
+      "All 36 pre-existing files byte-identical"
+    ],
+    "metrics": [
+      {
+        "name": "turnaround_training.png",
+        "width": 1536,
+        "height": 1024,
+        "format": "Png",
+        "corner_samples": [
+          "#E3E5E9",
+          "#E3E6E9",
+          "#E3E3E7",
+          "#E3E5E8"
+        ],
+        "sha256": "C404C332372C9D787430DB9ED0EEBCF7BCC33D544FF7A136DF8A4FC2B85E0B6F",
+        "length": 1655860
+      },
+      {
+        "name": "details_training.png",
+        "width": 1536,
+        "height": 1024,
+        "format": "Png",
+        "corner_samples": [
+          "#E2E5E8",
+          "#E2E5E8",
+          "#E1E3E7",
+          "#E1E3E7"
+        ],
+        "sha256": "F65EE5E98861DE473398E5A910D6D66D66451BC4E0CE72C8835652FEEC75070E",
+        "length": 1664815
+      },
+      {
+        "name": "store_glow.png",
+        "width": 1536,
+        "height": 1024,
+        "format": "Png",
+        "corner_samples": [
+          "#E1E3E7",
+          "#E1E3E6",
+          "#E1E1E6",
+          "#DFE1E4"
+        ],
+        "sha256": "E09C97277377D04A6073E386096A7F5522048FB1197B484CEDD64430FCEB037C",
+        "length": 1396336
+      }
+    ],
+    "attempts": {
+      "turnaround_training": 1,
+      "details_training": 1,
+      "store_glow": 2
+    },
+    "rejects": [
+      "../_rejects/kang_jaeha_S26_store_glow_a1_missing_wood_wrong_finger_tape.png"
+    ],
+    "review_notes": [
+      "Slight near-grey background tone variation accepted under the 27 October override; exact corner samples are preserved in metrics.",
+      "The small STORE index/splint is more stylized than the enlarged detail. Refer to details_training.png for close shots."
+    ]
+  },
+  "protected_files": {
+    "count": 36,
+    "unchanged": true,
+    "baseline": [
+      {
+        "path": "C:\\Users\\abafa\\Videos\\MySummonsGoFirst\\characters_v2\\kang_jaeha\\ACTING_DONE.md",
+        "length": 2430,
+        "sha256": "43295181EB5F661A3F164F0F51983AE4D7F7D693746FB6E28AC79AE366430941"
+      },
+      {
+        "path": "C:\\Users\\abafa\\Videos\\MySummonsGoFirst\\characters_v2\\kang_jaeha\\acting_prompts.json",
+        "length": 73762,
+        "sha256": "80ACD35FCCB1F3B37BF1F1F730CED1ADB13C26D7A6A7B9569262F0FBB65BFAF9"
+      },
+      {
+        "path": "C:\\Users\\abafa\\Videos\\MySummonsGoFirst\\characters_v2\\kang_jaeha\\acting.png",
+        "length": 1610821,
+        "sha256": "201D27EF47AFD3AFE1898006D6E7977502BC9DF84487F7D084B1CCE92717FC64"
+      },
+      {
+        "path": "C:\\Users\\abafa\\Videos\\MySummonsGoFirst\\characters_v2\\kang_jaeha\\card.json",
+        "length": 5872,
+        "sha256": "201833F8D788BB416909005602675F8CEE1FEB0765BC0DE36774C10F0378C7F0"
+      },
+      {
+        "path": "C:\\Users\\abafa\\Videos\\MySummonsGoFirst\\characters_v2\\kang_jaeha\\chibi.png",
+        "length": 2390154,
+        "sha256": "0DF23FD88AFB3B88F2003F0385F686D0A62D794054EFABE45FCF7CDCB192AA24"
+      },
+      {
+        "path": "C:\\Users\\abafa\\Videos\\MySummonsGoFirst\\characters_v2\\kang_jaeha\\details.png",
+        "length": 1855767,
+        "sha256": "45E21E6E78E81D16F3295BFE2879BE9F80BF81CDD10955B578BC4D3359E4B749"
+      },
+      {
+        "path": "C:\\Users\\abafa\\Videos\\MySummonsGoFirst\\characters_v2\\kang_jaeha\\DONE.md",
+        "length": 7773,
+        "sha256": "E67684D42EFCC76D74D99D4C0EDDCBBE45723A75B1409C0B7A92ACA4F3D2D5BB"
+      },
+      {
+        "path": "C:\\Users\\abafa\\Videos\\MySummonsGoFirst\\characters_v2\\kang_jaeha\\expressions.png",
+        "length": 2074070,
+        "sha256": "A2603A67EC1AF766A9CDEF21DEA9265625C5CE859A88953368E889837D255228"
+      },
+      {
+        "path": "C:\\Users\\abafa\\Videos\\MySummonsGoFirst\\characters_v2\\kang_jaeha\\front.png",
+        "length": 1288614,
+        "sha256": "713DE75DC34F571307289192C46FF0E4E481EA8A50F3B411F9C86E55A3CB7410"
+      },
+      {
+        "path": "C:\\Users\\abafa\\Videos\\MySummonsGoFirst\\characters_v2\\kang_jaeha\\prompts.json",
+        "length": 116517,
+        "sha256": "7365674D6394495D6CF296252F4A88C3522C0E4D29FCD38B191E2E3A645F72D5"
+      },
+      {
+        "path": "C:\\Users\\abafa\\Videos\\MySummonsGoFirst\\characters_v2\\kang_jaeha\\talking.png",
+        "length": 2306492,
+        "sha256": "15D33E2715C5CD63AC02D95BDAC8EAA2CFD70C692B5CA3CD6EA87F9CAF7F1D48"
+      },
+      {
+        "path": "C:\\Users\\abafa\\Videos\\MySummonsGoFirst\\characters_v2\\kang_jaeha\\turnaround_coat.png",
+        "length": 1664853,
+        "sha256": "57E0D7FE2E9A3F8DD4F170E88EEDB87EEF70CEE148D6FA99A70DCE7102C10648"
+      },
+      {
+        "path": "C:\\Users\\abafa\\Videos\\MySummonsGoFirst\\characters_v2\\kang_jaeha\\turnaround.png",
+        "length": 1686125,
+        "sha256": "C93F5584720DCEF2438C8BE3A28F4E6DB72785A1D3A5BA69FF0DA27E42437223"
+      },
+      {
+        "path": "C:\\Users\\abafa\\Videos\\MySummonsGoFirst\\characters_v2\\kang_jaeha\\qa\\image_metrics.json",
+        "length": 1936,
+        "sha256": "ECB6ABF87AB082E7065D78DE7524C2FD7AAF758A3C5B355D1EB55000B60B8CF4"
+      },
+      {
+        "path": "C:\\Users\\abafa\\Videos\\MySummonsGoFirst\\characters_v2\\kang_jaeha\\qa\\round1_review.json",
+        "length": 2110,
+        "sha256": "5F47A4BFF78F9AEBDB7A585DB9D0BA7F842278B2AFC78DC4A59FC5BA89CD87FB"
+      },
+      {
+        "path": "C:\\Users\\abafa\\Videos\\MySummonsGoFirst\\characters_v2\\kang_jaeha\\qa\\thumbnail_contact.png",
+        "length": 293207,
+        "sha256": "420BAA00C328909C0CC7782261BE46B3DE1EFE315CB5A7BB07303DC15CB813C4"
+      },
+      {
+        "path": "C:\\Users\\abafa\\Videos\\MySummonsGoFirst\\characters_v2\\kang_jaeha\\qa\\round2\\chibi_200px.png",
+        "length": 50817,
+        "sha256": "279955AC8A5217082BECEBEC86FB56B8D5D0929C9E7BCA71EBC5D8F4CAAA28AE"
+      },
+      {
+        "path": "C:\\Users\\abafa\\Videos\\MySummonsGoFirst\\characters_v2\\kang_jaeha\\qa\\round2\\composite_patches.ps1",
+        "length": 8270,
+        "sha256": "D8917C75B37414A838FA592150C100DAF7375FA07318AC48FCC876A60DCC575E"
+      },
+      {
+        "path": "C:\\Users\\abafa\\Videos\\MySummonsGoFirst\\characters_v2\\kang_jaeha\\qa\\round2\\composition_verification.json",
+        "length": 991,
+        "sha256": "D4D527EEEBDC217F23C0DB6F4FD9BB2F9B1F82CCBD297AA910DD2DBE4E974096"
+      },
+      {
+        "path": "C:\\Users\\abafa\\Videos\\MySummonsGoFirst\\characters_v2\\kang_jaeha\\qa\\round2\\edge_mask.png",
+        "length": 26626,
+        "sha256": "1F8489EBEA08A89C8C7D48AA3BC898976F71CA0576879DF3531E51DA9DC70812"
+      },
+      {
+        "path": "C:\\Users\\abafa\\Videos\\MySummonsGoFirst\\characters_v2\\kang_jaeha\\qa\\round2\\final_vest_patch_atlas.png",
+        "length": 2115890,
+        "sha256": "91DC30B3922F5D03B079E7016C5EB473319FFCAE3567110FBE01CDFCC67DC400"
+      },
+      {
+        "path": "C:\\Users\\abafa\\Videos\\MySummonsGoFirst\\characters_v2\\kang_jaeha\\qa\\round2\\patches.json",
+        "length": 11279,
+        "sha256": "7521CB7439CCC18D3D994BD3A82BE43BA06094FCB2F990B86AC05A6248157652"
+      },
+      {
+        "path": "C:\\Users\\abafa\\Videos\\MySummonsGoFirst\\characters_v2\\kang_jaeha\\qa\\round2\\prepare_patches.ps1",
+        "length": 1434,
+        "sha256": "1A9B9413F05136252089726AF14D2596BF706E28B8FEB4BC19A7A83599FA6CF0"
+      },
+      {
+        "path": "C:\\Users\\abafa\\Videos\\MySummonsGoFirst\\characters_v2\\kang_jaeha\\qa\\round2\\protected_features_mask.png",
+        "length": 22312,
+        "sha256": "339B0B19694422E7FB17F538DBA8F534D1090F32526F94B7E97169A80150868B"
+      },
+      {
+        "path": "C:\\Users\\abafa\\Videos\\MySummonsGoFirst\\characters_v2\\kang_jaeha\\qa\\round2\\protected_files.json",
+        "length": 1130,
+        "sha256": "DA6F099F261816AE3193D2F46C6633E9544B7ECAE4F1BA682456127C27BC9E7F"
+      },
+      {
+        "path": "C:\\Users\\abafa\\Videos\\MySummonsGoFirst\\characters_v2\\kang_jaeha\\qa\\round2\\review.json",
+        "length": 6557,
+        "sha256": "C07F91399922851BDB946D7F01E64361F96704542A14FEB2102FCE1DC1909834"
+      },
+      {
+        "path": "C:\\Users\\abafa\\Videos\\MySummonsGoFirst\\characters_v2\\kang_jaeha\\qa\\round2\\source_pose_1.png",
+        "length": 128946,
+        "sha256": "BA8ED0D987F2EE919334D02C80CCB9C9BA08852BC0C81B03453BF07381F6A938"
+      },
+      {
+        "path": "C:\\Users\\abafa\\Videos\\MySummonsGoFirst\\characters_v2\\kang_jaeha\\qa\\round2\\source_pose_2.png",
+        "length": 128740,
+        "sha256": "2C4919319D7B22742759898D3BA48EF97EC9B34B4B37D2D9D058E5AD0CD15651"
+      },
+      {
+        "path": "C:\\Users\\abafa\\Videos\\MySummonsGoFirst\\characters_v2\\kang_jaeha\\qa\\round2\\source_pose_3.png",
+        "length": 134791,
+        "sha256": "DA3D1821D212D710BF05DB6920EA79ABA2AD2910E803630C5973E8CF6CBC0388"
+      },
+      {
+        "path": "C:\\Users\\abafa\\Videos\\MySummonsGoFirst\\characters_v2\\kang_jaeha\\qa\\round2\\source_pose_4.png",
+        "length": 121849,
+        "sha256": "22D39B342C4E4830F2C0068B33FA77C93B0BE3F6189D686730BACDCE81229EF4"
+      },
+      {
+        "path": "C:\\Users\\abafa\\Videos\\MySummonsGoFirst\\characters_v2\\kang_jaeha\\qa\\round2\\source_pose_5.png",
+        "length": 132446,
+        "sha256": "7F54B1C9B8918DCC141F8A017296144DAB4052887B451D3C421AC43F9A2C912B"
+      },
+      {
+        "path": "C:\\Users\\abafa\\Videos\\MySummonsGoFirst\\characters_v2\\kang_jaeha\\qa\\round2\\source_pose_6.png",
+        "length": 133718,
+        "sha256": "BCAA050AA9BF763D9B3E87B44B509942CDCA074A40B42B6A1824978CF10C70FE"
+      },
+      {
+        "path": "C:\\Users\\abafa\\Videos\\MySummonsGoFirst\\characters_v2\\kang_jaeha\\qa\\round2\\source_pose_7.png",
+        "length": 142478,
+        "sha256": "BF6F022DB41AA252510352E796E918CBFA2D08498AF19E08A2CF708148B70031"
+      },
+      {
+        "path": "C:\\Users\\abafa\\Videos\\MySummonsGoFirst\\characters_v2\\kang_jaeha\\qa\\round2\\source_pose_8.png",
+        "length": 135433,
+        "sha256": "72638100BCD868999C95136A2734D25BC65C54C0C9A7D5A78DE2C71D0D71485C"
+      },
+      {
+        "path": "C:\\Users\\abafa\\Videos\\MySummonsGoFirst\\characters_v2\\kang_jaeha\\qa\\round2\\vest_patch_atlas_edit1.png",
+        "length": 1825373,
+        "sha256": "88D1FDA8DCCD97373783C63DE43FA94A24D95D84F6D9E5C9F065090B12EB8690"
+      },
+      {
+        "path": "C:\\Users\\abafa\\Videos\\MySummonsGoFirst\\characters_v2\\kang_jaeha\\qa\\round2\\vest_patch_atlas_source.png",
+        "length": 2160367,
+        "sha256": "FDBF96498BAA2ADC9F01BAC89B63728C1525F644BBC4698B9695C3C609984403"
+      }
+    ]
+  }
+}

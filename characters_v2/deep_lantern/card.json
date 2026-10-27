@@ -1,0 +1,78 @@
+{
+  "id": "deep_lantern",
+  "name": "The Deep Lantern",
+  "real_name": "Oriel",
+  "entry": "M12",
+  "chapters": [
+    35,
+    36,
+    38,
+    39,
+    40
+  ],
+  "role": "Busan sea gate boss; hushed Far Side sea hero and living lighthouse",
+  "design_source": "CHARACTER_DESIGNS_v2.md sections1,4d.3,8; ASSETS_ARC5_BRIEF.md M12; bible/ARC5_BEATS.md",
+  "height": "No fixed standing height;150m long whale-like leviathan. Crest rises30m above the head.",
+  "dimensions_m": {
+    "body_length": 150,
+    "hand_span": 15,
+    "crest_rise": 30,
+    "lantern_height": 12
+  },
+  "palette": {
+    "hide_base": "#3E4C5E",
+    "hide_cel_shadow": "#25303D",
+    "hush_fissure": "#1A1026",
+    "violet_ash": "#6B4C9A",
+    "coral_cage": "pale bone-white; no exact hex specified",
+    "hushed_core": "violet; no exact hex specified",
+    "hushed_eyes": "small ancient dull-violet",
+    "freed_core": "#FFFFFF",
+    "freed_eyes": "sea-grey; no exact hex specified",
+    "industrial_plates": "rusted steel, muted brown-grey",
+    "kelp": "muted olive-brown",
+    "throat_and_palm": "paler cool grey-blue as generated",
+    "sheet_background": "#E9E9EC"
+  },
+  "locks": [
+    "Old noble female leviathan; broad blunt whale head, small ancient eyes, wide closed mouth; never cute or a horror face.",
+    "One long whale-like body tapering to a broad whale tail; no hind limbs.",
+    "Exactly two forelimb webbed hands; four long fingers and one opposing thumb each,15m across.",
+    "Grey-blue matte hide crusted with coral, barnacles and kelp.",
+    "Rusted industrial lid plates stuck in her dorsal hide like overlapping scales.",
+    "One curved crest-spine from top of head, rising30m, carrying one12m bone-white coral-cage lantern.",
+    "Hushed: violet core, dull-violet eyes and central brow fissure leaking sparse violet ash; solid face, no face-hole.",
+    "Freed: pure-white lighthouse light, gentle sea-grey eyes, inactive brow scar.",
+    "Damaged lantern: exactly three front coral bars shattered, paired upper/lower stubs."
+  ],
+  "files": {
+    "front": "front.png",
+    "side": "side.png",
+    "head": "head.png",
+    "hand": "hand.png",
+    "lantern": "lantern.png",
+    "freed": "freed.png",
+    "prompt_file": "prompts.json",
+    "completion_report": "DONE.md"
+  },
+  "prompt_file": "prompts.json",
+  "image_format": {
+    "format": "PNG",
+    "width": 1536,
+    "height": 1024,
+    "native_generator_output": true,
+    "resized": false,
+    "reencoded": false,
+    "ordinary_file_copies": true
+  },
+  "override_notes": [
+    "No178cm silhouette, ruler or80m barge outline on any sheet:27October rule says creature alone, nothing else for scale. Canonical dimensions remain above.",
+    "Added front.png as required by MODEL_SHEETS_BRIEF sections1–3; used first as the design reference after passing.",
+    "New self-checked candidates await Claude review; reviews/STATUS.md was not changed."
+  ],
+  "review_status": "Candidate delivery for Claude review; self-checked, not externally approved.",
+  "known_limits": [
+    "These are design views, not calibrated metric scale cards. side.png uses a relaxed edge-on hand, so read its full15m spread from hand.png.",
+    "Front is head-on with body receding slightly toward picture-right; head.png supplies the straight frontal head."
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "brine_crawler",
+  "name": "Brine crawler",
+  "entry": "M10",
+  "chapters": [
+    34,
+    39,
+    40
+  ],
+  "kind": "Eyeless crab-and-eel Hush-spawn",
+  "height": "40 cm at the shoulder in its ordinary crouch",
+  "dimensions": {
+    "carapace_length_cm": 80,
+    "shoulder_height_cm": 40,
+    "eel_tail_length_cm": 100
+  },
+  "palette": {
+    "design_locked": {
+      "hush_core": "#1A1026",
+      "violet_ash": "#6B4C9A",
+      "sheet_background": "#E9E9EC"
+    },
+    "working_prompt_swatches": {
+      "shell_base": "#42474E",
+      "shell_shadow": "#292D36"
+    },
+    "materials": {
+      "shell_and_tail": "slick black-grey / dark slate",
+      "teeth_and_barnacles": "muted ivory/off-white",
+      "weed": "dark olive"
+    }
+  },
+  "palette_note": "The design does not assign exact hex values to brine-crawler shell, tail, weed or barnacles. Working swatches are prompt choices; kept front.png controls the production appearance.",
+  "locks": [
+    "Low flat crab front with an 80 cm black-grey carapace; ordinary shoulder height 40 cm.",
+    "Exactly two serrated pincer claws on their own jointed arms.",
+    "Exactly six spiny walking legs: three on each side, separate from the two claw arms.",
+    "Exactly one continuous muscular eel tail from the rear shell root, 1 m long, with a low fin edge; no stinger or lobster segmentation.",
+    "Eyeless: no eyes, eyestalks or eye-like glowing marks.",
+    "One round ring of needle teeth under the front carapace lip, never on top or at the rear.",
+    "Violet Hush cracks in the carapace leak a few violet ash flakes.",
+    "Small attached clusters of barnacles and dark olive seaweed.",
+    "Dog-sized in ordinary movement; can rear up using the tail.",
+    "No scale silhouette on studio sheets; swarm retains an actual person for scale."
+  ],
+  "views": {
+    "front": "front.png — single low front view, full creature",
+    "turnaround": "turnaround.png — upper left side, upper right front, lower left strict dorsal/top, lower right back",
+    "details": "details.png — upper row mouth/claw/tail; lower row Hush crack and ash/weed/barnacles",
+    "swarm": "swarm.png — dozens climbing car-sized concrete tetrapods from violet water; actual adult human silhouette on walkway"
+  },
+  "scene_scale_anchors": {
+    "adult_human_height_cm": 178,
+    "tetrapod_extent_m": "about 3–4",
+    "crawler_dimensions": "Use dimensions above; climbing posture and foreground perspective change the apparent silhouette."
+  },
+  "lighting": {
+    "sheets": "Soft neutral upper-left studio key; flat light-grey background.",
+    "swarm": "Cold-white harbour lamps as key; local violet Hush water and fissures; simplified cool concrete shadows."
+  },
+  "prompt_file": "prompts.json",
+  "generation_method": "Built-in image_gen.imagegen",
+  "image_format": "Native 1536 x 1024 PNG; byte-identical ordinary copies",
+  "references": {
+    "initial_front": "New creature from approved design text; no image inputs.",
+    "front_retry": "Approved V2 acting anchor style_test_v2/acting/A1_P11.png, rendering only.",
+    "other_images": "Self-checked front.png first, turnaround.png when useful; no rejected image used as reference.",
+    "location": "L21 not approved in STATUS when drawn, so environment constructed from written M10 and 5d design."
+  },
+  "review_notes": [
+    "Delivered for Claude review; self-check is not a change to the review board.",
+    "No exact scale card added. The swarm is a perspective scene; the card dimensions and orthographic views govern later panels."
+  ]
+}

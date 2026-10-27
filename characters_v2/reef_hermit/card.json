@@ -1,0 +1,79 @@
+{
+  "id": "reef_hermit",
+  "name": "The Reef Hermit",
+  "entry": "M11",
+  "chapter": 35,
+  "window_name": "REEF HERMIT (D)",
+  "classification": "Hushed Far Side boss; new boss kind",
+  "height_m": 4,
+  "design_sources": [
+    "CHARACTER_DESIGNS_v2.md 4d.2 and section 8",
+    "ASSETS_ARC5_BRIEF.md M11",
+    "README_START_HERE.md changes on 27 October 2026"
+  ],
+  "palette": {
+    "specified_hex": {
+      "sheet_background": "#E9E9EC",
+      "hush_core": "#1A1026",
+      "hush_ash": "#6B4C9A"
+    },
+    "descriptive_design_colours": {
+      "shrine": "grey stone",
+      "armour": "cool dark slate",
+      "bell": "aged bronze",
+      "eyes": "dull violet",
+      "abdomen": "soft pale pink-grey",
+      "growth": "muted coral and pale barnacles"
+    },
+    "approximate_implementation_swatches": {
+      "stone": "#9D9D98",
+      "armour": "#687280",
+      "bell": "#827858",
+      "eyes": "#80629C",
+      "abdomen": "#CBBFC0",
+      "coral": "#AA6C66"
+    },
+    "palette_note": "Only specified_hex is numerically fixed by the project text; other swatches describe this generated design and are approximate."
+  },
+  "locks": [
+    "The shell is an old sunken stone shrine: cracked dome, carved pillars, coral and barnacles.",
+    "A single bronze bell hangs from an interior beam in the shrine doorway, with a clapper.",
+    "Two huge armoured claws; anatomical RIGHT is conspicuously larger than LEFT.",
+    "Front view: RIGHT claw is on picture-left. Right-side profile faces picture-right, larger claw on the near side.",
+    "Six thin articulated armoured walking legs, three per side, as established by this front master.",
+    "Two separate eye-stalks with dull violet eyes; no emissive eye glow.",
+    "A small black-violet Hush crack crosses the crab carapace and leaks violet ash; ordinary stone cracks remain separate.",
+    "Soft pale pink-grey curled abdomen stays hidden in the shrine for the front/turnaround.",
+    "out_of_shell.png exposes the intact unarmoured curled abdomen halfway through the doorway as the crab reaches forward.",
+    "Whole creature including shrine is 4 m tall; the shrine bottom is about a standing person's height above the foot plane, without a drawn scale figure."
+  ],
+  "rendering": {
+    "style": "V2 Cinematic cel",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "format": "PNG",
+    "lighting": "Soft neutral upper-left key light",
+    "background": "Flat light grey; slight incidental tone variation accepted under 27 October override",
+    "scale_figure": "Omitted in every sheet per 27 October override"
+  },
+  "reference_master": "front.png",
+  "prompt_file": "prompts.json",
+  "files": [
+    "front.png",
+    "turnaround.png",
+    "details.png",
+    "out_of_shell.png"
+  ],
+  "turnaround_layout": "2x2: front and front three-quarter on top; anatomical right profile facing right and back on bottom. Same scale and one baseline per row; wide natural body preserved.",
+  "review_status": "Generation and self-check complete; awaits Claude review and approval in reviews/STATUS.md",
+  "qa": {
+    "full_size": true,
+    "thumbnail_width_px": 200,
+    "inspection_zoom_percent": 200,
+    "original_source_hashes_match": true,
+    "ordinary_files_verified": true,
+    "previews_saved_in_project": false
+  }
+}
