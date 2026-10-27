@@ -51,7 +51,8 @@ Verdicts for each entry are in this folder, one file per entry (`<entry>.md`). S
 | S31 | Han Sora's pool look and new compass | drawing |
 | ch006 | chapter 6 | all parts reviewed: 57 of 60 **APPROVED** (`ch006.md`; Claude fixed seven); P41, P51, P54 to fix (job ch006-R1: Nib's size, P51's staging, the clasp's nine towers) |
 | ch009 | chapter 9 | parts A, C, E, F, G reviewed: 42 of 43 **APPROVED** (`ch009.md`; Claude fixed P09, P41, P49); P50 to redraw (job ch009-R1: the rifts a quarter size); parts B and D to draw |
-| ch007, ch008, ch010 … ch012 | Arc 2 chapters (`PANEL_BRIEF_v2.md` section 9) | drawing / in review (ch007, ch008 and ch010 reviews running; ch011 and ch012 to launch as the laptop frees up) |
+| ch010 | chapter 10 | parts A, C–G reviewed: 45 of 46 **APPROVED** (`ch010.md`; Claude fixed P20, P27, P41, P42: Nib's right-ear nicks and tooth flecks); P48 to redo (job ch010-R1: Nib twice his size beside the alpha); part B to draw; parts H and I being drawn by ch010-FI |
+| ch007, ch008, ch011, ch012 | Arc 2 chapters (`PANEL_BRIEF_v2.md` section 9) | drawing / in review (ch007 and ch008 reviews running; ch011 and ch012 to launch when image generation resets, 28 Oct 11:23 UTC) |
 | ch013 … ch040 | chapter parts | launch as their sheets are approved |
 
 Scale cards: from 27 October the sheets carry no silhouette. Claude adds `scale_card.png` (the creature beside the standard 178 cm man on one baseline) to `ash_rat/`, `ash_hound/`, `drowned_hound/`, `neighbourhood/` (Gomi with Nib and the landlady), `ahin_husk/`, `han_sora/`, `training_construct/`, `basalt_boar/`, `bell_ringer/`, `geum_okran/`, `canyon_wyvern/`, `tide_warden/`, `arc5_cast/`, `brine_crawler/`, `reef_hermit/`, `deep_lantern/` (with `scale_card_hand.png`) and `pim/`.
