@@ -1,0 +1,146 @@
+{
+  "id": "han_sora",
+  "name": "Han Sora",
+  "entry": "S31",
+  "age": 27,
+  "height_cm": 168,
+  "head_count": 7.5,
+  "style": "V2 · Cinematic cel",
+  "canvas": {
+    "width": 1536,
+    "height": 1024,
+    "format": "PNG",
+    "background": "#E9E9EC",
+    "key_light": "Soft neutral upper-left"
+  },
+  "design_sources": [
+    "README_START_HERE.md: 27 October overrides",
+    "CHARACTER_DESIGNS_v2.md: sections 2.16, 2.20, 6 and 8",
+    "ASSETS_ARC5_BRIEF.md: S31",
+    "MODEL_SHEETS_BRIEF.md: sections 1–3",
+    "PANEL_BRIEF_v2.md: section 4b"
+  ],
+  "identity_approval": {
+    "entry": "S20",
+    "verdict": "APPROVED",
+    "sources": [
+      "reviews/STATUS.md",
+      "reviews/S20.md"
+    ],
+    "references": [
+      "../front.png",
+      "../turnaround.png"
+    ]
+  },
+  "front_master": "../front_pool.png",
+  "palette": {
+    "hair": "#141418",
+    "lips": "#B3202A",
+    "swimsuit": "matte black",
+    "piping": "crimson, matching kept front",
+    "silver_case": "#C9D3DC",
+    "silver_shadow": "#8F9BA8",
+    "dial": "#D9DFE8",
+    "core_needle": "#8F6FC4",
+    "bandage": "white",
+    "skin": "matched to approved S20 front.png",
+    "background": "#E9E9EC"
+  },
+  "locks": [
+    "Same adult heart-shaped face, amused dark eyes, sharp winged eyeliner and red lips as S20",
+    "Sleek black chin-length bob, large plain sunglasses pushed up into hair",
+    "Opaque black one-piece with deep plunging neckline, high-cut legs and crimson piping",
+    "White bandage on anatomical RIGHT wrist only",
+    "New slimmer SILVER compass on a fine SILVER chain around anatomical LEFT wrist only",
+    "One smoky-violet sliver of core for the compass needle; no brass case",
+    "Bare feet; same adult proportions and leg lengths as checked front",
+    "Eye-level front, three-quarter, left profile and back; no scale silhouette"
+  ],
+  "turnaround_order": [
+    "front",
+    "left three-quarter facing picture-left",
+    "left profile facing picture-left",
+    "back"
+  ],
+  "side_map": {
+    "front": "RIGHT bandage picture-left; LEFT silver compass picture-right",
+    "left_profile": "Near LEFT wrist wears compass; far RIGHT bandage occluded",
+    "back": "LEFT compass picture-left; RIGHT bandage picture-right",
+    "details": "Dorsal LEFT hand, fingers down, thumb on picture-left; no bandage on that hand"
+  },
+  "resolved_unspecified_details": [
+    "Simple scoop back and narrow crimson-edged shoulder straps for the swimsuit",
+    "Slim round silver compass case, fine chain and small practical clasp; detailed close-up is the reference for case construction"
+  ],
+  "continuity": {
+    "chapters": "34–40",
+    "pool_outfit_chapter": 37,
+    "applies_to_all_arc5_outfits": "RIGHT wrist bandaged; replacement compass on LEFT wrist",
+    "previous_compass": "Old RIGHT-wrist brass compass destroyed in chapter 31; never use it for Arc 5"
+  },
+  "prompt_file": "prompts.json",
+  "images": [
+    {
+      "file": "../front_pool.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1251985,
+      "sha256": "DD7CAC7169F35E536B862D316CE18CB2A33542F4541491988F9469A9CFCA8161",
+      "tries": 3
+    },
+    {
+      "file": "../turnaround_pool.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1591678,
+      "sha256": "227DEF3D40E4FF63CBA6217B903B492A7FDD9A85E7795670FDC38104A7233C26",
+      "tries": 1
+    },
+    {
+      "file": "../details_compass2.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1522795,
+      "sha256": "9289775154EA55B6F8D2675D2EE2B6A1B907D160CB6BF5BA96B77208D26FE9AB",
+      "tries": 1
+    }
+  ],
+  "rejects": [
+    {
+      "file": "C:\\Users\\abafa\\Videos\\MySummonsGoFirst\\characters_v2\\_rejects\\han_sora_S31_front_pool_01_glossy_skin_faceted_knees.png",
+      "reason": "Glossy white skin highlights and segmented faceted knee shadows fail the matte skin / simple cool cel-shadow rules.",
+      "bytes": 1234334,
+      "sha256": "C3AB382235DA4AA7353DE3767D9783FFCF01F9E0995BE6CB1C88D35C0FA5FB23"
+    },
+    {
+      "file": "C:\\Users\\abafa\\Videos\\MySummonsGoFirst\\characters_v2\\_rejects\\han_sora_S31_front_pool_02_brass_compass_case.png",
+      "reason": "At 200% the replacement compass case is brass/gold rather than the required slim silver case.",
+      "bytes": 1208732,
+      "sha256": "E7696A67629D76518CD10FED89CE83ED3F8EAC6B26291CC581341FA32C74DEF2"
+    }
+  ],
+  "qa": {
+    "review_status": "Local S31 checks passed; awaiting Claude review",
+    "full_size": true,
+    "thumbnail_width_px": 200,
+    "inspection_zoom_percent": 200,
+    "native_pngs": true,
+    "byte_identical_to_generator": true,
+    "ordinary_files": true,
+    "reparse_points": false,
+    "no_previews_or_temporary_images_in_project": true,
+    "no_text": true,
+    "no_scale_silhouette": true,
+    "wrist_locks_checked": true,
+    "missing_deliverables": [],
+    "known_faults": [],
+    "background_note": "Faint neutral background tone variation allowed by README's 27 October override.",
+    "preimage_disk_checks": 5,
+    "min_free_bytes_before_image": 35568324608,
+    "stop_threshold_bytes": 3221225472
+  },
+  "preservation": {
+    "preexisting_s20_files_written": false,
+    "metadata_subfolder_reason": "New files only; S20 already owns root card.json, prompts.json and DONE.md."
+  }
+}
