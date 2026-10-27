@@ -13,7 +13,9 @@
 ## Check before you keep (up to 3 tries per image)
 Crop each hand at 2x and count: five digits per hand, the thumb on the correct side (a RIGHT hand seen palm-down has the thumb on the viewer's left), every knuckle bending the right way, the wrist continuous with the forearm, the elbow where it should be, the upper arm and forearm about the same length, the grip actually wrapping the object, and all three views showing the same pose. No extra, missing or fused fingers anywhere.
 
-## Job H1-A (one chat)
+## Jobs H1-A to H1-D (one chat each)
+Four chats share the eighteen images so the references are ready sooner: **H1-A draws 1–5, H1-B draws 6–9, H1-C draws 10–14, H1-D draws 15–18.**
+
 1. `grip_hilt_one_hand.png`: a gloved RIGHT hand gripping a long sword's hilt, blade pointing down and slightly forward; thumb wrapped over the fingers, wrist straight; third view from below, looking up at the fist and guard.
 2. `grip_hilt_two_hands.png`: two gloved hands on a two-handed hilt, RIGHT hand just under the guard, LEFT hand below it near the pommel, both forearms in line with the blade, the blade raised across the body; third view over the shoulder.
 3. `reverse_grip_knives.png`: a lean man's hands each holding a short knife in reverse grip (blade running down along the outside of the forearm, thumb capping the pommel), elbows bent, fists at chest height; third view from the front at chest height.
@@ -23,8 +25,6 @@ Crop each hand at 2x and count: five digits per hand, the thumb on the correct s
 7. `phone_hold.png`: a woman's RIGHT hand holding a phone upright, thumb on the screen, little finger under the phone's bottom edge; second view from the side; third view: both hands holding the phone sideways to film.
 8. `bow_draw.png`: a woman drawing a recurve bow at full draw. The LEFT arm extended, the hand closed around the grip with the knuckles at about 45 degrees and the wrist straight; the RIGHT hand's first three fingers hook the string at the corner of her jaw, the RIGHT elbow raised level with the shoulder behind her; third view from the front, the bow arm toward the camera.
 9. `crossbow_hold.png`: a woman holding a compact black crossbow ready to shoot: the stock against her RIGHT shoulder, the RIGHT hand on the pistol grip with the index finger lying straight along the side above the trigger, the LEFT hand under the fore-end; third view from her LEFT side.
-
-## Job H1-B (one chat)
 10. `healing_palms.png`: a woman's two hands held a few centimetres above a man's wounded shoulder, palms toward it, fingers relaxed and slightly apart; second view from the side; third view: one palm pressed flat on the shoulder, fingers curving over it.
 11. `shield_grip.png`: a man's LEFT forearm through the arm strap of a heavy rectangular shield, the hand closed on the inner grip, seen from inside the shield; second view from the side; third view: a RIGHT hand resting on the top edge of a tower shield standing on the ground.
 12. `fists_and_bracing.png`: a clenched gloved RIGHT fist from the front and from the side (thumb outside the fingers); third view: a hand braced flat on a stone floor with weight on it, fingers spread, elbow slightly bent.
@@ -36,10 +36,10 @@ Crop each hand at 2x and count: five digits per hand, the thumb on the correct s
 18. `arms_relaxed.png`: a standing man's arms relaxed at his sides, front and side view, fingertips reaching mid-thigh (a length reference); third view: arms crossed over the chest.
 
 ## Files
-Two chats work in this folder at the same time, so each writes only its own files:
-- `characters_v2/hands/<name>.png` (exactly the names above).
-- `characters_v2/hands/prompts_H1A.json` or `prompts_H1B.json`: the exact prompt for every kept image and try.
-- `characters_v2/hands/INDEX_H1A.md` or `INDEX_H1B.md`: one line per file: the pose, which characters it serves (Jaeha: 1, 2, 4, 5, 6, 12, 13; Nib: 3; Lyra: 8; Bomi: 5, 7, 8, 16; Sora: 9; Yerin: 7, 10, 14; Mok and Borro: 11, 17; Choi: 15), and how many tries it took. Claude merges the two into `INDEX.md`.
-- `characters_v2/hands/DONE_H1A.md` or `DONE_H1B.md` when your half is finished. Then STOP.
+Four chats work in this folder at the same time, so each writes only its own files (X is the chat's letter, A to D):
+- `characters_v2/hands/<name>.png` (exactly the names above, only the numbers of your own job).
+- `characters_v2/hands/prompts_H1X.json`: the exact prompt for every kept image and try.
+- `characters_v2/hands/INDEX_H1X.md`: one line per file: the pose, which characters it serves (Jaeha: 1, 2, 4, 5, 6, 12, 13; Nib: 3; Lyra: 8; Bomi: 5, 7, 8, 16; Sora: 9; Yerin: 7, 10, 14; Mok and Borro: 11, 17; Choi: 15), and how many tries it took. Claude merges the four into `INDEX.md`.
+- `characters_v2/hands/DONE_H1X.md` when your images are finished. Then STOP.
 
 Rejects go to `characters_v2/_rejects/hands_<name>_<try>_<reason>.png`.
