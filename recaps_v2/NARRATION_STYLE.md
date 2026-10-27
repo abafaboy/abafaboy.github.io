@@ -19,3 +19,14 @@ The recap is the voice-over for the YouTube long-form video: one narrator (am_mi
 - Never contradict the script; never add events, names or facts that aren't in it; never spoil later chapters.
 - Fan-service panels: describe an entrance or a pose with confidence and taste ("Moon Ahin makes an entrance like she owns the canyon"), never leer or describe bodies. Seoa is 15: never comment on her looks. Yerin is never described as sexy.
 - Keep it speakable: short sentences, no parentheses, no lists, no stage directions, no panel numbers.
+
+## Add, don't echo (from the chapter 1 judge, 27 October 2026)
+The viewer sees every balloon while the narrator speaks, so a line that only re-reads the balloon or caption on screen is dead air. The judge marked chapter 1 down for it ("About half the narration only repeats the balloon or caption on screen"). Chapters 1-3 were rewritten to the rule below; use them as the reference.
+- **Each line adds what the panel doesn't say:** the subtext under the words, the stakes, what a character is really thinking, a rule in one plain clause, or a wry aside. The listener must still follow the story, so give the gist of an exchange, not its wording.
+  - Balloons "SUMMONER, YOU KNOW THE RULE." / "YES, SIR. SUMMONS GO FIRST." become: "The raid leader reminds him of the rule, and Jaeha answers like a waiter: yes, sir."
+  - "THEY... THEY LOCKED US IN HERE WITH IT?" / inner "OF COURSE THEY DID." become: "Yerin can't believe they locked them in. Jaeha can."
+  - "WHY DO WE EVEN BRING A TRAP RAT ALONG?" / "BECAUSE A TRAP RAT IS CHEAPER THAN A HEALING POTION." become: "To them, his whole life is worth less than one bottle from a guild shop."
+  - A line can also set up the balloon instead of repeating it: "The man doesn't even break stride." before "NOT YET."
+- **Don't read captions or system windows aloud word for word.** Say what they mean or what they change ("It has been counting too. Not his kills. Something else.").
+- **Match the art.** Describe what is drawn (the husk "shatters like a dropped plate", not "is shredded to powder"), and narrate each caption with the panel it sits under, not the next one.
+- **Check:** `python3 tools/narr_echo.py chNNN 0.3` lists every line whose content words mostly appear in its panel's lettering. A line at 0.5 or more should be rewritten unless it is a signature line said once on purpose.
