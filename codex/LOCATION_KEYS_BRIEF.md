@@ -15,7 +15,7 @@
   - `locations_v2/<id>/key.png` and the extra views the entry lists;
   - `locations_v2/<id>/notes.md`: the layout in a few lines (where the gate stands, where the doors are, where the light comes from), for later panels;
   - `locations_v2/<id>/prompts.json`.
-- **Redo** an image (up to 3 times) if it fails the checks in `MANHWA_STYLE_GUIDE.md` section 11 that apply to a place.
+- **Redo** an image (up to 5 times) if it fails the checks in `MANHWA_STYLE_GUIDE.md` section 11 that apply to a place.
 - **Finish.** When your entry is done, write `locations_v2/<id>/DONE.md`. Do not stop to ask.
 
 ## Entries (one chat each)

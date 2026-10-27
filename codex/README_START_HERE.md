@@ -1,5 +1,14 @@
 # START HERE (Codex): the rebuild, 25 October 2026
 
+## Changes on 27 October 2026 (these override every brief below)
+The first cloud runs stalled on four rules. From now on:
+1. **References: at most 5 images per image call** (the tool refuses a sixth). Choose them in the order of `PANEL_BRIEF_v2.md` section 2: each acting character's sheet (the turnaround when the angle matters, else `front.png`), then the location key, then one acting or face sheet if a slot is left. For a sheet entry, once your `front.png` passes, it is your first reference. A `style_test_v2/acting/` anchor is optional and comes last: the approved sheets already carry the house style. **Never hold or skip an image because more references could help.** Pick five by this order and draw.
+2. **No 178 cm silhouette on sheets.** Draw every sheet (front, turnaround, views, line-ups) with the character or creature alone on the flat light-grey background, filling the canvas height, with nothing else for scale. Claude adds the silhouette at the exact ratio after review, or makes a separate scale card, so a silhouette drawn at the wrong ratio is no longer a reason to redo. Do check the body's own proportions against the design (head count, arm and leg length, the size of a prop against the body). **Scenes** (a swarm in a tunnel, a pack in an alley, a serpent beside a building) keep a person drawn into the picture for scale, like the tiny figures in location keys.
+3. **Up to 5 tries per image.** If it still fails, keep your best try under the normal file name, list its faults in your `DONE` file, and go on with the rest of the job. Only a sheet entry whose `front.png` fails stops there (everything else in it is drawn from the front).
+4. **Not reasons to stop or redo:** a faint tone change in a flat background; a size within about 5% of a number in the brief; a detail the brief leaves open. Something small and incidental that would need a sheet that doesn't exist yet (a framed family photo on a shelf, a poster, a crowd) is drawn small and generic, with no reference.
+
+What counts as approved is `reviews/STATUS.md` (on GitHub: `codex/reviews/STATUS.md`) and the verdict files beside it. Never use an image that isn't approved there, and never anything in a `_rejects/` folder.
+
 ## What changed
 - **A new story.** The owner rebuilt *My Summons Go First* from the ground up: a new lead (Kang Jaeha, an F-rank trap-tester), a new cast and a new plot. Only Nib carries over as a character, and he is redesigned. A few old names reappear in new roles (see `bible/NAME_SHEET.md`).
 - **Retired work.** The old scripts, the art for old chapters 1–13 and every old character sheet are retired. They stay on disk, but they are never used as references.

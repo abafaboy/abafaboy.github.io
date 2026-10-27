@@ -13,7 +13,7 @@ The designs are in `CHARACTER_DESIGNS_v2.md`: sections 2.2 (Nib's seal 3/5), 2.1
 ## Character and monster sheets
 Follow `MODEL_SHEETS_BRIEF.md` sections 1-3 exactly: 1536×1024 PNGs on flat light grey #E9E9EC, no text or labels; the front view first, checked, then passed as the reference for every other sheet of that character; `card.json` and `prompts.json`; rejects in `characters_v2/_rejects/<id>_<reason>.png`; `DONE.md` when the entry is finished.
 
-**Scale on every sheet.** Draw a faint grey silhouette of a 178 cm man (Jaeha's height, no details) beside each turnaround and each monster view, on the same baseline. For the Tide Warden, the silhouette stands at his knee.
+**Scale (changed 27 October).** Leave the 178 cm silhouette out of every sheet and line-up: draw the character or creature alone, filling the height. Claude adds the silhouette at the exact ratio after review (`README_START_HERE.md`, 27 October). Scene images (a swarm, a pack, a creature beside a building) keep a person drawn into the scene for scale.
 
 **Fan service** (owner's direction): Han Sora is drawn beautiful and confident in every view, nothing explicit, no view aimed at her chest. Dami's daughter is a child: simple and cute, nothing else.
 

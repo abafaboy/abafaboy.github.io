@@ -16,7 +16,7 @@ Follow `MODEL_SHEETS_BRIEF.md` sections 1–3 exactly:
 - rejects go in `characters_v2/_rejects/<id>_<reason>.png`;
 - write `DONE.md` when the entry is finished.
 
-**Scale on every sheet.** Draw a faint grey silhouette of a 178 cm man (Jaeha's height, no details) standing beside each turnaround and each monster view, on the same baseline, so the size can be checked at a glance. This is the one exception to "no extra figures".
+**Scale (changed 27 October).** Leave the 178 cm silhouette out of every sheet and line-up: draw the character or creature alone, filling the height. Claude adds the silhouette at the exact ratio after review (`README_START_HERE.md`, 27 October). Scene images (a swarm, a pack, a creature beside a building) keep a person drawn into the scene for scale.
 
 | # | Folder | Draw |
 |---|---|---|

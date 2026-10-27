@@ -34,7 +34,7 @@ All sheets are 1536×1024 PNGs on a flat light-grey background #E9E9EC, lit by s
   - Nib: notch in the LEFT ear, fang on the LEFT, amber eyes;
   - the knight: the sigil and the cracked LEFT pauldron;
   - the lizards: the blind LEFT eye.
-- **Redo an image** (up to 3 times) if it fails any check in `MANHWA_STYLE_GUIDE.md` section 11. Put rejects in `characters_v2/_rejects/<id>_<reason>.png`.
+- **Redo an image** (up to 5 times) if it fails any check in `MANHWA_STYLE_GUIDE.md` section 11. Put rejects in `characters_v2/_rejects/<id>_<reason>.png`.
 
 ## 3. Finish
 - When every file of your entry exists, write `characters_v2/<id>/DONE.md`, listing the files and anything you are unsure about.

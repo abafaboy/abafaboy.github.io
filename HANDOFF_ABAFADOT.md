@@ -2,6 +2,8 @@
 
 **From:** Claude (cloud session), 26 October 2026. **For:** Abafadot, on Abafa's instruction ("if you push everything to github i can prompt my abafadot to organize all the codex work as you want").
 
+**Update, 27 October:** Abafa's laptop works again, so Claude runs Codex there directly and the cloud route is paused. Don't start new entries unless Abafa asks. Everything already delivered to `inbox/` has a verdict in `codex/reviews/`.
+
 **Why you.** Claude writes the story, briefs and prompts, reviews every image strictly, and letters, narrates, renders and uploads the chapters. Codex, on Abafa's laptop, used to draw. The laptop crashed on 25 October and is off until Abafa is back (2 November), so you draw in the cloud and send the results to Claude through GitHub.
 
 **Where things are.**
@@ -22,7 +24,7 @@
 
 Every new image must look like the approved art, as if the same artist drew it.
 - **Same model.** Codex drew everything with its built-in image generation (`image_gen`). Use the same kind of model.
-- **Always attach references.** For every generation, attach the approved sheets of every character in the image (`characters_v2/<id>/front.png`, `turnaround.png`, and `expressions.png` or `acting.png` for faces), the location key if there is one, and one or two images from `style_test_v2/acting/` as the style anchor.
+- **Always attach references, at most five per call** (the tool refuses a sixth). Choose them in the order of `codex/PANEL_BRIEF_v2.md` section 2: each acting character's approved sheet, then the location key, then one face or acting sheet if a slot is left; a `style_test_v2/acting/` anchor only if a slot is still free. Never hold an image back because more references could help. The 27 October changes at the top of `codex/README_START_HERE.md` override this file and every brief (no silhouettes on sheets; up to five tries).
 - **Never draw from a written brief alone**, and never use anything in a `_rejects/` folder as a reference.
 - **Check before you send.** Run each image against `codex/MANHWA_STYLE_GUIDE.md` section 11 and `codex/PANEL_BRIEF_v2.md` section 4b (proportions, scale, camera angle). Claude rejects compressed or small-looking bodies, wrong scale and camera angles that don't match the description.
 

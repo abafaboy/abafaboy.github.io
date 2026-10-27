@@ -359,7 +359,7 @@ Pass the model sheet of every character in the panel as a reference image, once 
 
 **From 25 October, the owner's order: be strict.** An image that looks AI-made, or has any weird detail, is a reject even when the locks are right. Run 11b on every image as well as the list below.
 
-Redo it (up to 3 tries) if any answer is no:
+Redo it (up to 5 tries) if any answer is no:
 1. Can you point to the key light, and does it match the location key? (In `splash` and `impact` panels, the effect or the colour field is the key.)
 2. Is there a rim, a value mass or a colour field that separates the subject from the background at thumbnail size? (Shrink the image to 200 px wide to check.)
 3. Is the background lower in contrast than the characters, and at the right density for the recipe?

@@ -102,7 +102,7 @@ After chapter 1 went out, the owner and a reader both pointed at the same faults
 
 ## 5. Checks (every panel)
 - Run sections 11, 11b (1–11) and 11c (1–11), and the section 4b checks above. Look at the full size, then at 200 px wide.
-- Take up to 3 tries per panel. A targeted edit of your own kept image is allowed: crop, edit, then composite back at the original pixel size.
+- Take up to 5 tries per panel; if it still fails, keep the best and note its faults in your DONE file (README_START_HERE, 27 October). A targeted edit of your own kept image is allowed: crop, edit, then composite back at the original pixel size.
 - Rejects go to `chapters_v2/chNNN/art/_rejects/<id>_<try>_<reason>.png`.
 
 ## 6. Lessons from the acting tests (chapter 1)
