@@ -1,7 +1,32 @@
-# Bomi room / restaurant — candidate layout notes
+# Bomi's room and the family restaurant: layout notes
 
-UNAPPROVED / INCOMPLETE. The exterior is a review candidate; no streaming-room interior is drawn.
+Approved by Claude, 27 October 2026 (`codex/reviews/L11.md` on `msgf-bible`).
 
-The closed restaurant occupies the ground floor of a modest two-storey brick/stucco building in a narrow Mangwon alley. Its plain broad signboard is blank. Storefront glass reveals inverted chairs resting on small tables. The closed entrance is on picture-right; a flowerpot and attached rain pipe sit beside it. Above, the right-hand window alone is warm-lit, the other upper window dark. No person is visible. A practical alley lamp at picture-left provides the warm key against navy night fill.
+## Outside (`outside.png`)
+- **The building:** the closed restaurant fills the ground floor of a modest two-storey brick-and-stucco building in a narrow Mangwon alley at night.
+- **The shopfront:**
+  - its broad signboard is blank;
+  - through the glass, the chairs are upside down on the small tables;
+  - the closed entrance is at picture-right, with a flowerpot and a rain pipe beside it.
+- **Upstairs:** only the right-hand window is lit warm; the other is dark.
+- **Light:** an alley lamp at picture-left gives the warm key against navy night.
+- **In panels:** keep the ordinary door, storey and table scale.
 
-Keep the ordinary door/storey/table scale, connected utility details and chair supports. The upstairs streaming-room view remains held for the required family-photo reference: approved S18 parents lineup or Claude's explicit photo-reference instruction. No interior furniture placement or family likeness is established by this exterior.
+## Upstairs: Bomi's streaming room (`interior.png`)
+- **The view:** from the doorway.
+- **Picture-left:**
+  - the desk with two monitors;
+  - a microphone with a pop filter on a clamped boom arm;
+  - a ring light;
+  - the white camera drone on its charging dock.
+- **On the wall:**
+  - a shelf above the desk with books, plants and a small family photo;
+  - unlettered sky posters.
+- **Picture-right:**
+  - the edge of the bed;
+  - the dark sliding window with cream curtains, a plant on the sill and a warm shaded lamp.
+- **Light:** a warm lamp key (#F0B064) against navy night fill (#1B2440).
+- **Screens:**
+  - both are exact #00FF00 (Claude set the face pixels to it on 27 October), so screen content can be keyed in later;
+  - keep them that way in panels, unless the script puts something on a screen.
+- **The family photo** is tiny and generic. When it matters in a panel, her parents are in `characters_v2/neighbourhood/lineup.png`.

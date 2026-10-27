@@ -1,0 +1,78 @@
+{
+  "entry": "M3",
+  "id": "ash_hound",
+  "name": "Ash hound; ash hound alpha",
+  "date": "2026-10-27",
+  "review_status": "Complete; awaiting Claude review. No shared approval files edited.",
+  "height": {
+    "measurement": "shoulder",
+    "normal_cm": 90,
+    "alpha_cm": 160
+  },
+  "type": {
+    "normal": "Hush-spawn pack hunter",
+    "alpha": "D-grade chapter 10 boss"
+  },
+  "chapters": [
+    10,
+    11,
+    25
+  ],
+  "palette": {
+    "smooth_hide": {
+      "base": "#1C1C23",
+      "shadow": "#0C0B13",
+      "note": "Black hide has no design-specified exact hex; these are the production prompt choices."
+    },
+    "teeth": "#E9E6DD",
+    "hush_core": "#1A1026",
+    "violet_ash": "#6B4C9A",
+    "sheet_background": "#E9E9EC"
+  },
+  "locks": [
+    "Lean, long-legged, wolf-sized quadruped; normal shoulder height 90 cm.",
+    "Smooth hairless matte black hide; ribs press beneath intact skin.",
+    "Completely eyeless and noseless elongated head; no eye glow or knight-style face hole.",
+    "Long split jaw lined with white bone-like teeth.",
+    "Thin dorsal cracks leak violet ash; do not treat hide as armour.",
+    "Canine digitigrade joints, four-toed clawed paws; long thin smooth tail and swept pointed canine ears as established by front.png.",
+    "Alpha remains the same species, shoulder height 160 cm, with heavier neck and deep neck/back cracks that flare violet as it howls.",
+    "The pack moves only when its alpha howls."
+  ],
+  "scale_policy": "27 October README override: no person or silhouette on front, turnaround, details or alpha sheets. pack.png includes an actual generic 178 cm adult silhouette beside the leading hounds in one shared scene.",
+  "references": {
+    "primary": "front.png",
+    "approved_location_for_pack": "../../locations_v2/mangwon_market/key.png",
+    "location_approval": "reviews/STATUS.md: L9 APPROVED",
+    "policy": "Every sheet after the front references the internally passed front first; no rejected image is used as an input. No old references or outside images."
+  },
+  "files": {
+    "front": "front.png",
+    "turnaround": "turnaround.png",
+    "details": "details.png",
+    "pack": "pack.png",
+    "alpha": "alpha.png",
+    "prompts": "prompts.json",
+    "done": "DONE.md"
+  },
+  "production": {
+    "tool": "Built-in image_gen.imagegen",
+    "format": "Native 1536x1024 PNG; copied byte-for-byte from generated source, no art resizing or re-encoding.",
+    "kept_images": 5,
+    "rejected_images": 5,
+    "attempts": {
+      "front": 3,
+      "turnaround": 1,
+      "details": 1,
+      "pack": 4,
+      "alpha": 1
+    },
+    "inspection": "Full-size generated images, 200 px thumbnails, and 200% nearest-neighbour inspection crops checked in memory. No inspection images saved to project."
+  },
+  "caveats": [
+    "Sheet background tone is slightly cooler/darker than requested #E9E9EC; faint background tone variation is permitted by the 27 October override.",
+    "Alpha's absolute real-world size is specified in metadata, with no drawn scale person as directed.",
+    "The pack scene demonstrates scale approximately through the adult and nearby leaders; no exact pixel measurement is claimed."
+  ],
+  "prompt_file": "prompts.json"
+}

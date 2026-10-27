@@ -1,0 +1,111 @@
+{
+  "id": "ahin_husk",
+  "entry": "S19",
+  "name": "Moon Ahin's polished husk",
+  "height_cm": 175,
+  "style": "V2 · Cinematic cel",
+  "source_design": "CHARACTER_DESIGNS_v2.md sections 2.11 and 3; ASSETS_ARC2_BRIEF.md S19; README_START_HERE.md 27 October overrides",
+  "prompt_file": "prompts.json",
+  "generation_tool": "Built-in image_gen",
+  "format": {
+    "type": "PNG",
+    "width": 1536,
+    "height": 1024,
+    "background": "#E9E9EC",
+    "key_light": "Soft neutral upper-left light"
+  },
+  "palette": {
+    "porcelain_white": "#F4F4F2",
+    "cool_shadow": "#CFD2D6",
+    "silver_seams": "#C9CDD6",
+    "silver_glints": "#D4D8DE",
+    "background": "#E9E9EC"
+  },
+  "locks": [
+    "175 cm; elegant long-limbed adult mannequin proportions, approximately 7.5–8 heads, legs about half standing height.",
+    "Blank oval face without eyes, nose, mouth, ears, hair or other features.",
+    "Smooth simplified torso, abdomen, pelvis and rear; no navel, cleft, anatomical or muscle lines.",
+    "Porcelain white with restrained soft gloss; fine silver seams at shoulders, elbows, hips and knees. Each hip seam is a separate horizontal ring round the top of its thigh.",
+    "Simple five-finger hands and plain moulded feet with fused toes.",
+    "No clothes, weapons, brand marks, text, glow, machinery or cracks.",
+    "Neutral stiff stance in the front and turnaround; synchronized unarmed fencing lunge in the formation.",
+    "No 178 cm scale silhouette, per the 27 October override."
+  ],
+  "views": {
+    "front": "front.png — checked master made before other sheets",
+    "turnaround": "turnaround.png — front, three-quarter left-facing, side left-facing, back; shared scale and baseline",
+    "formation": "formation.png — best after five attempts; seven rows of five, 35 total; requested eight rows of five, 40 total"
+  },
+  "formation": {
+    "requested_husks": 40,
+    "requested_rows": 8,
+    "husks_per_row": 5,
+    "actual_husks": 35,
+    "actual_rows": 7,
+    "status": "FAIL count; retained best under five-try stop rule",
+    "selected_attempt": 2,
+    "attempt_counts": [
+      30,
+      35,
+      35,
+      35,
+      32
+    ],
+    "pose": "All lunge toward picture-right, right knee bent, left leg extended, right arm extended with open empty hand, left hand raised behind shoulder.",
+    "known_faults": [
+      "One complete row of five husks is missing.",
+      "The view is shallower than the requested elevated angle.",
+      "At formation scale, finger and silver-seam detail is simplified."
+    ]
+  },
+  "attempts": {
+    "front": 2,
+    "turnaround": 3,
+    "formation": 5
+  },
+  "reference_approval": "reviews/STATUS.md lists S1–S15 approved; only approved husk/turnaround.png and moon_ahin/details.png were used for the first front. Subsequent calls use the passed new front first, with the approved base or passed turnaround where needed. No rejected image was used as an image input.",
+  "review_state": "Pending external review; formation count is explicitly not a pass.",
+  "png_verification": [
+    {
+      "path": "characters_v2/ahin_husk/front.png",
+      "bytes": 1172102,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d9a7055d1381e7f7b8c9965387c20a6aa5d08afd79a9e5ba0831e6ffcdf26eff",
+      "nlink": 1,
+      "same_bytes_as_generator": true
+    },
+    {
+      "path": "characters_v2/ahin_husk/turnaround.png",
+      "bytes": 1419637,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "b38f2577ae926ef08567ea4447002dbb5ed8c6c6f2133c9b55cdb8b1ac48953b",
+      "nlink": 1,
+      "same_bytes_as_generator": true
+    },
+    {
+      "path": "characters_v2/ahin_husk/formation.png",
+      "bytes": 1663515,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "0b3c60142e170d76e4b47fc62d7a3cbfa5a7ade71f20d8f1c931d36f07397bbf",
+      "nlink": 1,
+      "same_bytes_as_generator": true
+    }
+  ],
+  "disk": {
+    "checked_before_every_image_call": true,
+    "calls": 10,
+    "minimum_observed_free_bytes": 43214516224,
+    "minimum_observed_free_gib": 40.25,
+    "stopped_for_disk_space": false
+  },
+  "notes": [
+    "No expressions, details or chibi image is requested for S19.",
+    "Front is the supporting master required by the model-sheet workflow.",
+    "All generated attempts retained as native ordinary PNG files. The selected failed formation attempt also retains its reject archive copy.",
+    "No extra previews or temporary images were saved in the project. Inspection thumbnails and crops existed only in memory.",
+    "Project writes confined to characters_v2/ahin_husk/ and S19-prefixed files in characters_v2/_rejects/."
+  ]
+}
