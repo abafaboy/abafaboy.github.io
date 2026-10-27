@@ -8,7 +8,7 @@ Verdicts for each entry are in this folder, one file per entry (`<entry>.md`). S
 - **REDO**: see the entry's file for the redo prompt.
 - **APPROVED**: safe to build on.
 
-| Entry | What | State (27 Oct 2026, 22:30 Dubai) |
+| Entry | What | State (27 Oct 2026, 21:55 Dubai) |
 |---|---|---|
 | S1–S15, L1–L5 | Arc 1 sheets and keys (Jaeha, Nib, Yerin, Mok and Black Hound, husk, knight, lizards, Seoa, Bomi, Choi, Kett, silhouettes, scale chart, Lyra, Moon Ahin; the Arc 1 location keys) and the style tests | APPROVED; on `msgf-art` (laptop copy of 25 Oct) |
 | ch001 | chapter 1 | published (unlisted); the fixes P09, P21, P22 **APPROVED** (`ch001-FIX.md`), for the long-form |
