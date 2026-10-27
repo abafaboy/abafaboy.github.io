@@ -2,6 +2,11 @@
 
 The laptop (device "abafaboy", Tashkent) crashed on 25 October 2026. Abafa is away until 2 November and asked a colleague to switch it back on. Everything that didn't need the laptop was finished while it was off. This is the order of work once the bridge answers again.
 
+**Update, 27 October (laptop back):** the bridge answers and Claude drives Codex directly; Abafa is away from the office, so nothing that needs a Windows permission prompt (UAC) can be approved.
+- **Disk:** C: had 8.3 GB free. `.codex/sessions` is 24 GB and `.codex/generated_images` 5.7 GB: each generated image costs roughly 10 MB in all. The VALORANT uninstall was confirmed in the Riot Client and started. Rocket League's (41 GB) failed: Epic needs a UAC prompt (error IS-UN-UAE1223), so it waits until Abafa is at the laptop. Every Codex job now checks free space before each image and stops below 3 GB.
+- **Hard links:** the 25 October chats hard-linked their PNGs to save space, and `device_stage_files` refuses hard-linked files. Stage from independent copies (a Codex job copies them to `C:\Users\abafa\Videos\msgf_sync\review\`), and jobs now save ordinary files.
+- **Chapter 2:** 40 panels had survived on the laptop (not 5); 39 are approved plus the cloud's P07. The four jobs R1-R4 finish it (`codex/reviews/ch002.md`).
+
 **Update, 26 October, 03:00 Dubai:** Abafa expects the laptop to work again on **27 October** ("lets just wait till my latop works tomorrow"). He found the cloud relay too much hassle, so from then on Claude drives Codex on the laptop directly through the bridge and asks him to pass nothing on. Done meanwhile: S2b (Nib's seal 2/5) came in from the cloud Codex session and is **APPROVED** (`codex/reviews/S2b.md`; the files are in `characters_v2/nib/` on `msgf-art`); the 34 audit findings on chapters 34-40 are fixed (commit a08b14f), so every script changed since the laptop's copy.
 
 **Earlier update, 26 October:** Abafadot now draws in the cloud (`HANDOFF_ABAFADOT.md`), with the laptop's V2 art copied to the `msgf-art` branch. When the laptop returns, first pull `msgf-art` and `codex/reviews/STATUS.md` to see what Abafadot has drawn and what is approved; only restart Codex on the laptop for entries nobody has drawn yet, and copy any approved art from `msgf-art` into the laptop's art folders.
