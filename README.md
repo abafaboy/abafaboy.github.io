@@ -39,6 +39,7 @@ Characters in `characters_v2/`: `kang_jaeha`, `nib`, `song_yerin`, `mok_hangyu`,
 | `chapters_v2/ch005/art/` | Chapter 5's approved panels: 58 of 59 | P35 is being redrawn (job ch005-R1) |
 | `chapters_v2/ch006/art/` | Chapter 6's approved panels: 57 of 60 images | P41, P51 and P54 to be fixed (job ch006-R1, `codex/reviews/ch006.md`); P59 carries Claude's screen look |
 | `chapters_v2/ch009/art/` | Chapter 9's approved panels so far: 42 (parts A, C, E, F, G; Claude fixed P09, P41, P49) | P50 to be redrawn (job ch009-R1); parts B and D still to draw (`codex/reviews/ch009.md`) |
+| `chapters_v2/ch010/art/` | Chapter 10's approved panels so far: 45 (parts A, C–G; Claude fixed P20, P27, P41, P42) | P48 to be redone (job ch010-R1); part B to draw; parts H and I in progress (`codex/reviews/ch010.md`) |
 
 ## Sending new art back for review
 
