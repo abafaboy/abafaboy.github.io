@@ -1,0 +1,82 @@
+{
+  "entry": "S24",
+  "id": "geum_okran",
+  "name": "Geum Okran",
+  "aliases": [
+    "Auntie Geum",
+    "the Wall of Busan"
+  ],
+  "age": 62,
+  "role": "Retired S-rank; tteokbokki stallholder and trainer",
+  "height_cm": 155,
+  "proportions": "About six heads tall, broad wrestler shoulders and forearms, robust low planted stance; never cute or frail outside designated chibi sheet.",
+  "palette": {
+    "tracksuit": "#5B4A78",
+    "prosthetic_gunmetal": "#4A4F55",
+    "prosthetic_wave_and_namecard_harbour_blue": "#2C4A63",
+    "namecard_rust": "#A8572E",
+    "background": "#E9E9EC",
+    "apron": "Faded red and off-white broad checks; match front.png",
+    "headscarf": "Faded grey-green floral cloth; match front.png",
+    "skin": "Sun-browned; match front.png",
+    "slippers": "Pink rubber; match front.png"
+  },
+  "locks": [
+    "Anatomical LEFT arm replaced from just above elbow, battered gunmetal plates and rivets, faded blue wave on forearm, exactly three thick fingers and one thumb.",
+    "Anatomical RIGHT hand is natural, five digits, and always carries the same long-handled steel ladle.",
+    "One gold tooth on anatomical upper LEFT, visible in grins.",
+    "Short permed grey hair under faded floral headscarf knotted at nape.",
+    "Red-and-white checked apron over faded purple tracksuit, sleeves pushed up.",
+    "Pink rubber slippers; short, broad, weathered and formidable."
+  ],
+  "prompt_file": "prompts.json",
+  "reference_master": "front.png",
+  "reference_policy": "Final front.png (attempt 2) is the first reference for every final derived sheet. Chibi additionally uses S24's own locally checked details.png for the four-digit hand construction. No outside images or rejected images were attached as references after rejection.",
+  "sheet_spec": {
+    "format": "Native generated PNG, copied byte-for-byte as ordinary files",
+    "width": 1536,
+    "height": 1024,
+    "background": "#E9E9EC",
+    "key_light": "Soft neutral upper left",
+    "no_scale_silhouette": true
+  },
+  "expressions_order": [
+    "gold-toothed grin",
+    "deadpan",
+    "reading a body, head cocked",
+    "shouting with ladle raised",
+    "rare soft look out to sea",
+    "blunt disapproving scowl",
+    "just-one-more challenging smirk",
+    "terrifyingly kind laugh"
+  ],
+  "review_status": "Local Codex check only; awaiting Claude review",
+  "kept_attempts": {
+    "front": 2,
+    "turnaround": 2,
+    "expressions": 2,
+    "details": 2,
+    "chibi": 4
+  },
+  "known_faults": {
+    "chibi.png": "Top-row third folded-arm pose has a small skin-coloured fingertip shape at the far shoulder where the metal left hand should be hidden. Best attempt 4 retained after all five tries under the 27 October override."
+  },
+  "chibi_poses": [
+    "confident gold-toothed grin, metal hand on hip",
+    "gritted-teeth scolding, right ladle raised",
+    "deadpan, folded arms",
+    "head cocked, leaning to read an off-panel body",
+    "belly laugh through a toothy grin",
+    "metal open-palm stop gesture",
+    "comic surprise at twitching metal arm",
+    "marching forward in pink slippers"
+  ],
+  "validation": {
+    "all_pngs_native_1536x1024": true,
+    "all_saved_pngs_sha256_match_generator_sources": true,
+    "all_files_link_count": 1,
+    "no_reparse_points": true,
+    "thumbnail_qa_width_px": 200,
+    "no_project_previews_or_temporary_images": true
+  }
+}

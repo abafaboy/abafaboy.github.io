@@ -1,0 +1,81 @@
+{
+  "id": "canyon_wyvern",
+  "name": "Canyon wyvern",
+  "entry": "M8",
+  "chapters": [
+    24
+  ],
+  "species_role": "Small cliff-dwelling wyvern; Hush-spawn",
+  "height_cm": null,
+  "body_length_cm": 120,
+  "wingspan_cm": 400,
+  "tail_length_cm": null,
+  "scale_notes": "Canon specifies a 1.2 m body excluding the long whip tail and a 4 m wingspan; standing height and tail length are unspecified. Sheets omit the human scale silhouette under the 27 October override. flock.png includes one generic 178 cm adult worker on the walkway.",
+  "palette": {
+    "canon": {
+      "hush_crack": "#1A1026",
+      "violet_ash": "#6B4C9A",
+      "sheet_background": "#E9E9EC"
+    },
+    "m8_colour_choices_for_unhexed_design": {
+      "slate_grey_leather_base": "#69717B",
+      "leather_shadow": "#464F5C",
+      "rust_streaks": "#915B49",
+      "wing_membrane_base": "#85848A",
+      "wing_membrane_shadow": "#636472",
+      "eyes": "pale clouded grey-white",
+      "beak_and_barb": "dark slate"
+    }
+  },
+  "locks": [
+    "Small large-dog-sized compact body, 1.2 m excluding tail; 4 m wingspan.",
+    "Two bat-like wing forelimbs and two hind legs.",
+    "Slate-grey leathery skin streaked with rust.",
+    "Narrow skull, beaky snout and needle teeth.",
+    "Pale clouded eyes.",
+    "Long whip tail ending in a hooked barb.",
+    "Small Hush cracks along wing bones leaking violet ash.",
+    "Cliff-crevice nesting; dives in flocks of ten to twenty."
+  ],
+  "files": {
+    "front.png": {
+      "role": "Required passed front reference; neutral open-wing front view.",
+      "attempt": 2,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "31925A344272C6C5FC8CF3F3B04EEF8FBA053313C006EDFAD3FF4FBAA59DA69D"
+    },
+    "turnaround.png": {
+      "role": "Side upper-left, front lower-left, dorsal top with spread wings at right.",
+      "attempt": 3,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "BEB3A5BED6F48C02838BEEAD31056CF210A1A9A2885712404A46787E6FD0707A"
+    },
+    "details.png": {
+      "role": "Beaky head and needle teeth, tail barb, wing-bone ash cracks.",
+      "attempt": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "F9A32DEF4109613D90368974D4342A17D242C66FC80ECF72C8CA8A7D16DE25E6"
+    },
+    "flock.png": {
+      "role": "Twelve wyverns diving at a canyon walkway; one generic worker for scale.",
+      "attempt": 4,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "C91ED962936063DF31AB3558DAA8F0DD02782CA9A3627F72CC430AF87D3B5BCC"
+    }
+  },
+  "prompt_file": "prompts.json",
+  "generation_method": "Built-in image_gen.imagegen",
+  "png_preservation": "Ordinary byte-for-byte copies of native generator PNGs; no re-encoding, resizing, hard links or shortcuts.",
+  "rejected_images": 6,
+  "review_status": "M8 internal QA passed; awaiting Claude review. This does not update reviews/STATUS.md.",
+  "review_notes": [
+    "Side-view far hind leg is occluded by the near leg.",
+    "Front/top turnaround spans approximately match within the 27 October five-percent tolerance.",
+    "The flock is arranged in three visible staggered bands of four to make the dozen countable; its spacing is relatively orderly.",
+    "Faint background tone variation is retained under the 27 October override."
+  ]
+}

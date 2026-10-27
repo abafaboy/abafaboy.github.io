@@ -1,0 +1,135 @@
+{
+  "id": "tide_warden",
+  "name": "The Hushed Tide Warden",
+  "entry": "M9",
+  "chapters": [
+    25,
+    26,
+    27,
+    28
+  ],
+  "height_cm": 3000,
+  "kneeling_height_cm_approx": 2100,
+  "style": "V2 · Cinematic cel",
+  "created_local_date": "2026-10-27",
+  "timezone": "Asia/Tashkent",
+  "prompt_file": "prompts.json",
+  "palette": {
+    "skin": "pale blue-grey drowned skin; no canonical numeric hex specified",
+    "coral": [
+      "red",
+      "ivory white"
+    ],
+    "kelp": "dark olive",
+    "eyes": "deep sea-green",
+    "steel": "matte black industrial steel",
+    "hush_core": "#1A1026",
+    "violet_ash": "#6B4C9A",
+    "sheet_background": "#E9E9EC"
+  },
+  "locks": [
+    "30 m standing anatomy, approximately seven storeys tall kneeling; small head and full adult limb proportions.",
+    "Kept kneeling, sagging in restraints; broad noble sorrowful face, kelp beard, branching coral crown.",
+    "Eyes closed through chapter 26. Chapter 27: one enormous ancient sea-green eye opens.",
+    "Red and white grown coral plate armour, barnacles and shells; exposed pale blue-grey skin with Hush cracks leaking violet ash.",
+    "Tree-thick matte-black factory-steel oval chains at neck, wrists and waist; machined cuffs and rivets; a plain diamond-outline stamp incised in a flattened link, matching knight_commander/card.json.",
+    "Dozens of steel extraction pipes enter through bolted coral collars; glass sections carry smoky violet light.",
+    "Broken trident lies at the knees; no intact weapon in hand.",
+    "No face-hole: the Warden's specified noble face remains visible.",
+    "No silhouette on sheets per 27 October override; tiny generic engineers only in pit_scale.png.",
+    "All PNGs ordinary byte-for-byte copies of generator originals, no hard links, shortcuts, resizing, or retouching."
+  ],
+  "deliverables": [
+    "front.png",
+    "kneeling.png",
+    "face.png",
+    "details.png",
+    "pit_scale.png"
+  ],
+  "review_status": "M9 drawing complete. Four sheets passed working checks. pit_scale.png is best of five with scale caveats; awaiting Claude review, not marked externally approved.",
+  "tool_mode": "built-in image_gen",
+  "eye_state_lock": {
+    "through_chapter_26": "both eyes closed",
+    "chapter_27_study": "anatomical LEFT sea-green eye opens; other eye remains closed",
+    "hostile_glow": false
+  },
+  "reference_policy": "Checked own front.png is first and only supplied image reference for every derived image. The plain diamond chain mark was read from approved knight_commander/card.json and details.png; no other-chat images supplied.",
+  "sheet_background_note": "Flat #E9E9EC requested; faint generated tone changes are allowed by the 27 October README override.",
+  "quality_checks": [
+    "Full-size inspection of every image; 200px in-memory checks of kept sheets; 200% face/eye/stamp crops.",
+    "All inspected PNGs are native 1536x1024 and byte-identical to generator originals.",
+    "All inspected copies have hard-link count 1. No shortcuts or project previews.",
+    "Final pit inspected at full native size and 200px in memory. All 12 kept/rejected files verified PNG 1536x1024, byte-identical to source, hard-link count 1."
+  ],
+  "images": [
+    {
+      "file": "front.png",
+      "selected_attempt": 3,
+      "prompt_record": "front_a3",
+      "width": 1536,
+      "height": 1024,
+      "format": "png",
+      "size_bytes": 2216140,
+      "hard_link_count": 1,
+      "sha256": "2a11df01919690c7e626719127ad8ba76e8d65234197aa0ba877a3d0feb2a457",
+      "identical_to_generator_original": true
+    },
+    {
+      "file": "kneeling.png",
+      "selected_attempt": 2,
+      "prompt_record": "kneeling_a2",
+      "width": 1536,
+      "height": 1024,
+      "format": "png",
+      "size_bytes": 2477207,
+      "hard_link_count": 1,
+      "sha256": "4d13f28a80a96893d1a3e0d297e7c716dbfe4ccf1963d9ee5d7e0755bb744bc5",
+      "identical_to_generator_original": true
+    },
+    {
+      "file": "face.png",
+      "selected_attempt": 1,
+      "prompt_record": "face_a1",
+      "width": 1536,
+      "height": 1024,
+      "format": "png",
+      "size_bytes": 2636333,
+      "hard_link_count": 1,
+      "sha256": "16df751eb66c0349a5e8609a324243e32323f46a5ce9e4a80b41e0871b986a5d",
+      "identical_to_generator_original": true
+    },
+    {
+      "file": "details.png",
+      "selected_attempt": 1,
+      "prompt_record": "details_a1",
+      "width": 1536,
+      "height": 1024,
+      "format": "png",
+      "size_bytes": 2202903,
+      "hard_link_count": 1,
+      "sha256": "1477912d9388cd3d7ae6486fa9afbcef0b3b1c0fb6647654b902ed676f6924aa",
+      "identical_to_generator_original": true
+    },
+    {
+      "file": "pit_scale.png",
+      "selected_attempt": 5,
+      "prompt_record": "pit_scale_a5",
+      "width": 1536,
+      "height": 1024,
+      "format": "png",
+      "size_bytes": 3154045,
+      "hard_link_count": 1,
+      "symbolic_link": false,
+      "sha256": "5d838e99dcbff112639779d6ea15390c5af2075eae661c9dd2f5c004d9fd553e",
+      "identical_to_generator_original": true
+    }
+  ],
+  "reject_count": 7,
+  "generation_count": 12,
+  "remaining_review_notes": [
+    "pit_scale.png: exact 21m kneeling scale against engineers and full 150m diameter/80m depth are not conclusively calibrated; high-angle scene shows only part of the pit. Best fifth attempt retained under README 27 October rule.",
+    "pit_scale.png: Warden fills roughly half the canvas height, rather than the prompt's intended central third.",
+    "details.png: illustrated mottled steel wear remains.",
+    "Sheets have faint generated grey tone variation, permitted by the 27 October override; no recolouring was performed."
+  ]
+}
