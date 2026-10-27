@@ -14,7 +14,8 @@ Verdicts for each entry are in this folder, one file per entry (`<entry>.md`). S
 | ch001 | chapter 1 | published (unlisted); the fixes P09, P21, P22 **APPROVED** (`ch001-FIX.md`), for the long-form |
 | ch002 | chapter 2 | 59 of 60 **APPROVED**; P52 still too big after R5: edit job ch002-R6 (`ch002.md`) |
 | ch003 | chapter 3 | 59 of 62 **APPROVED** (Claude fixed P24, P50, P52); P33, P45, P49 to redraw (job ch003-R1, `ch003.md`) |
-| ch004, ch005 | chapters 4 and 5 | drawing (parts A–H each, launched 27 Oct evening) |
+| ch004 | chapter 4 | 51 of the 52 images delivered so far **APPROVED** (`ch004.md`; Claude fixed P18, P38, P52); P03 to redraw (job ch004-R1); part D still drawing |
+| ch005 | chapter 5 | 58 of 59 **APPROVED** (`ch005.md`; Claude fixed eight); P35 to redraw (job ch005-R1: Jaeha mirrored) |
 | S2b | Nib's seal 2/5 look (chapters 3–20) | **APPROVED** 26 Oct (`S2b.md`); in `characters_v2/nib/` |
 | T1 | thumbnail key art (`THUMBNAIL_BRIEF.md`) | to draw now: S21 is approved |
 | S16 | Borro | **APPROVED** (`S16.md`), all five sheets |
