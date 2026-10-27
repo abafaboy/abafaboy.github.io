@@ -13,6 +13,9 @@ Use these as references for every new image. Codex drew all of them with its bui
 | `style_test_v2/acting/` | The style and acting tests: the house style (line, colour, rendering, acting) | Approved, the style anchor |
 | `characters_v2/<id>/` | The Arc 1 character sheets: `front.png`, `turnaround.png`, `expressions.png`, `details.png`, and where they exist `acting.png`, `talking.png`, `chibi.png` | Approved |
 | `characters_v2/nib/*_seal2*` | Nib's seal 2/5 look (S2b, approved 26 Oct): `front_seal2_nomask.png`, `turnaround_seal2.png` (with the mask), `details_seal2.png`. Chapters 3 to 20 use these (he wears the seal 3/5 armour from chapter 21); his face and acting still come from his base `expressions.png` and `acting.png`, his height from the scale chart | Approved |
+| `characters_v2/borro/front.png`, `characters_v2/baek_taegun/` | Borro's front (S16) and Director Baek's sheets (S17), approved 27 Oct | Approved |
+| `locations_v2/` new keys | Arc 2 keys approved 27 Oct: `sewer_gate`, `survey_gate`, `hanriver_gate`, `carpark_gate`, `call_void`, `tower_gate` (key only), `mangwon_market`, `fish_market`, `kanghan_office`, `bomi_room` (outside), `kanghan_guild_hall`, `rooftop_room/stairs_night.png` | Approved |
+| `deliveries/<entry>/` | Every reviewed delivery exactly as it came in, with its rejects and notes (provenance only; build on the approved copies) | Archive |
 | `characters_v2/scale_chart_v2.png` | Everyone's height side by side | Approved |
 | `characters_v2/summon_silhouettes.png` | The summon silhouettes for the chapter 1 flash-forward | Approved |
 | `locations_v2/<id>/` | The Arc 1 location keys | Approved |
