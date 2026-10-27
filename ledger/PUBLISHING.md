@@ -11,7 +11,7 @@
   - chapter 1's P09, P21 and P22 redrawn for scale and perspective (`codex/CH001_FIXES.md`), then chapter 1 re-lettered and re-rendered;
   - run the format checks: no chapter cards between chapters, one narrator, title in the recap style with the manhwa's name, the Lyra thumbnail.
 - **Per-chapter previews:** each finished chapter also goes up as an **Unlisted** video so he can read along (chapter 1: https://youtu.be/HLKuVxv0gIA, uploaded 25 October 2026).
-- **Upload route** (learned on chapter 1): Studio's file picker is a native dialog the browser tools can't drive, so the file goes in through the page itself in 10 MB pieces from the container (`file_upload` into a hidden input, reassembled in the page). For a multi-hour compilation, encode at a size that keeps this practical (visually lossless for YouTube's re-encode, checked by PSNR against the master), and never hash the whole file inside the page (that froze the renderer at 588 MB).
+- **Upload route** (learned on chapter 1): Studio's file picker is a native dialog the browser tools can't drive, so the file goes in through the page itself in 10 MB pieces from the container (`file_upload` into a hidden input, reassembled in the page). On 28 October `file_upload` refused pieces in `/mnt/user-data/outputs/` and accepted them from `/mnt/user-data/uploads/`; the 10 MB limit counts every `file_upload` inside one `browser_batch`, so send one piece per call. Check each piece's SHA-256 in the page against the container before handing the file to Studio (that caught a stale chapter 2 piece). For a multi-hour compilation, encode at a size that keeps this practical (visually lossless for YouTube's re-encode, checked by PSNR against the master), and never hash the whole file inside the page (that froze the renderer at 588 MB).
 
 ## Season one: how it ships (written 25 October 2026, while the laptop is off)
 
@@ -104,3 +104,14 @@ When all 100 chapters are done, upload them to YouTube through YouTube Studio in
 - Publishing is public: show Abafa the title, the thumbnail and the visibility settings, and wait for his OK before clicking Publish.
 - Font licence: Blambot's free terms cover indie comics flattened into images, and promotional videos for them. A monetised full-chapter video is not clearly covered. Check this, or get Blambot's commercial licence, before upload.
 - Never upload the font files anywhere.
+
+## Unlisted chapter previews
+
+| Chapter | Title | Length | Link | Uploaded |
+|---|---|---|---|---|
+| 1 | My Summons Go First – Chapter 1: Bait | 4:36 | https://youtu.be/HLKuVxv0gIA | 25 Oct 2026 |
+| 2 | My Summons Go First · Chapter 2: Who's in Charge | 4:53 | https://youtu.be/e6K2rA1lmes | 28 Oct 2026 |
+| 3 | My Summons Go First · Chapter 3: The Ninth Wall | 4:25 | https://youtu.be/buNgH3hjmOk | 28 Oct 2026 |
+
+Settings on 2 and 3: Unlisted; not made for kids; no paid promotion; "No" on the AI question, whose four cases (a real person shown saying or doing something they didn't, a real place or event altered, a realistic event that never happened, AI music as the main focus) don't fit an illustrated manhwa with a narrator.
+
