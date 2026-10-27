@@ -236,6 +236,7 @@ panels:
       song_yerin: "LEFT hand holds his RIGHT elbow; RIGHT hand clutches the strap of her pink bag at her chest"
       kang_seoa: "small across the road: RIGHT hand holds her phone to her ear; LEFT arm at her side, the rice-cake bag on that wrist"
       background: "the fourteen people behind Seoa: hands relaxed or out of sight"
+    hand_ref: [phone_to_ear.png]
     eyeline: "Jaeha → the coils"
     foreground: "a steaming crack in the road, cropped, bottom"
     calm: top
@@ -647,6 +648,7 @@ panels:
       kang_jaeha: "sitting slumped, head back against the wall, eyes on the window, mouth flat"
     hands:
       kang_jaeha: "arms limp, both hands resting palm-up on his thighs, blistered bare fingers loosely curled"
+    hand_ref: [gestures_body.png]
     eyeline: "Jaeha → the window"
     calm: top
     ui:
@@ -735,7 +737,7 @@ panels:
       look.
     hands:
       background: "a commuter's RIGHT hand holds the phone upright, fingers round its back, thumb at the screen's edge; the leaning passengers' hands on the overhead rails or out of sight"
-    hand_ref: [phone_hold.png]
+    hand_ref: [rail_ladder_rope.png, phone_hold.png]
     calm: top
     ui:
       - kind: phone.info_card
@@ -872,7 +874,7 @@ panels:
     hands:
       yoo_bomi: "RIGHT arm straight up, the phone gripped upright in her RIGHT hand toward the sky; LEFT fist clenched and raised beside her shoulder"
       bomi_parents: "the father runs out with a ladle in his RIGHT hand, LEFT arm swinging; the mother behind him presses both palms to her cheeks"
-    hand_ref: [phone_hold.png, mouth_and_strap.png]
+    hand_ref: [ladle_grip.png, phone_hold.png]
     calm: top
     silent: true
     sfx:
@@ -894,7 +896,7 @@ panels:
     hands:
       yoo_bomi: "LEFT arm round her mother's shoulders, RIGHT arm round her father's back, fingers clutching his cook's jacket"
       bomi_parents: "the mother's arms wrapped round Bomi's back; the father's LEFT arm round her shoulders, his RIGHT hand still holding the ladle, patting her head with the side of his fist"
-    hand_ref: [arms_carry.png, hand_on_shoulder.png]
+    hand_ref: [ladle_grip.png, arms_carry.png]
     eyeline: "the father → Bomi"
     foreground: "the restaurant's door frame, cropped, left"
     calm: top
@@ -923,7 +925,7 @@ panels:
       borro: "the shield standing on its bottom edge at his LEFT side, LEFT hand on its top edge; RIGHT fist on his hip; four fingers and a thumb each"
       nib: "long arms folded across his chest, four-fingered hands tucked against his upper arms"
       kang_jaeha: "sitting back in the plastic chair, hands loose in his lap, plastered bare fingers"
-    hand_ref: [shield_grip.png, arms_relaxed.png]
+    hand_ref: [gestures_body.png, shield_grip.png]
     calm: top
     sfx:
       - {text: "BZZZ", style: quiet, at: [0.80, 0.20], size: S, rot: 0}
@@ -1012,7 +1014,7 @@ panels:
     hands:
       song_yerin: "RIGHT hand presses the cold soda can into his upturned LEFT palm, fingers round it; LEFT hand in her lap"
       kang_jaeha: "LEFT hand rests palm-up on the low wall between them, the can pressed into his gloved palm, the bandage on that forearm; RIGHT hand on his knee"
-    hand_ref: [holding_cup.png]
+    hand_ref: [gestures_body.png, holding_cup.png]
     eyeline: "both → the city"
     foreground: "the laundry line with Seoa's school socks, cropped, top"
     calm: top
@@ -1085,6 +1087,7 @@ panels:
       baek_taegun: "standing perfectly still at the glass, both hands folded on the cane's handle, head turned slightly toward us, a thin smile"
     hands:
       baek_taegun: "both hands folded on the cane's handle, RIGHT over LEFT, fingers curled round the silver claws, the violet core glowing between them; the cane's tip planted before his feet"
+    hand_ref: [wrists_bound.png]
     calm: left
     silent: true
 
@@ -1121,7 +1124,7 @@ panels:
       baek_taegun: "seen from behind, holding the tablet in one hand, the cane in the other"
     hands:
       baek_taegun: "RIGHT hand holds the tablet up at eye level before the glass, fingers behind it, thumb on its edge; LEFT hand on the cane at his side, below the frame"
-    hand_ref: [phone_hold.png]
+    hand_ref: [wrists_bound.png, tablet_laptop_folder.png]
     eyeline: "Baek → the tablet"
     foreground: "Baek's shoulder and the side of his glasses, cropped, left third"
     calm: top
@@ -1141,6 +1144,7 @@ panels:
       baek_taegun: "phone held lightly to his ear, head tilted, smiling with his mouth only"
     hands:
       baek_taegun: "RIGHT hand holds the slim phone lightly to his RIGHT ear, fingers along its back; LEFT hand on the cane's violet handle, cropped at the bottom edge of the frame"
+    hand_ref: [phone_to_ear.png, wrists_bound.png]
     eyeline: "Baek → the city"
     foreground: "the cane's violet core handle, cropped, bottom right"
     calm: right
@@ -1180,6 +1184,7 @@ panels:
     hands:
       ahin_husks: "all forty in the same empty-handed fencing lunge: RIGHT arm thrust forward, hand closed; LEFT arm raised behind, hand open"
       moon_ahin: "small: RIGHT hand raises the silver baton; LEFT arm at her side"
+    hand_ref: [baton_conducting.png]
     calm: top
     sfx:
       - {text: "TAK TAK TAK", style: quiet, at: [0.50, 0.80], size: S, rot: 0}
@@ -1204,6 +1209,7 @@ panels:
     hands:
       moon_ahin: "RIGHT hand holds the silver baton loosely down at her side, white-gloved fingers round its grip; LEFT hand resting lightly at her waist on the silver belt"
       ahin_husks: "the husk at her shoulder holds the tablet out to her with both hands, fingers under its edges, thumbs on the front rim"
+    hand_ref: [baton_conducting.png, tablet_laptop_folder.png]
     eyeline: "Moon Ahin → the tablet"
     calm: top
     silent: true
@@ -1223,6 +1229,7 @@ panels:
     hands:
       moon_ahin: "RIGHT hand lifts the baton so its slim tip taps her lower lip, white-gloved fingers loose round the grip; LEFT hand out of frame"
       ahin_husks: "two smooth white hands hold the tablet's lower edge at the bottom of the frame, thumbs on the front"
+    hand_ref: [baton_conducting.png, tablet_laptop_folder.png]
     eyeline: "Moon Ahin → the tablet"
     foreground: "the tablet's edge in the husk's white hands, cropped, bottom"
     calm: top
@@ -1245,6 +1252,7 @@ panels:
     hands:
       moon_ahin: "LEFT hand holds the tablet up beside her, screen out; RIGHT hand gives the baton one tiny flick"
       ahin_husks: "all forty with arms at their sides, hands identical; only the heads turn"
+    hand_ref: [baton_conducting.png, tablet_laptop_folder.png]
     calm: top
     silent: true
     sfx:
@@ -1267,6 +1275,7 @@ panels:
     hands:
       kang_jaeha: "RIGHT hand jerks up mid-sneeze, the chopsticks flying out of his plastered bare fingers; LEFT hand on the table beside his bowl"
       nib: "LEFT hand holds his own bowl out at arm's length, away from Jaeha; RIGHT hand holds his chopsticks low; four fingers and a thumb each"
+    hand_ref: [chopsticks_bowl_pinch.png]
     eyeline: "Nib → Jaeha"
     calm: left
     lines:
@@ -1300,6 +1309,7 @@ panels:
       borro: "both huge four-fingered hands cradle a tiny bowl in front of his chest"
       nib: "both four-fingered hands hold his bowl in his lap, untouched"
       kang_jaeha: "the back of his RIGHT wrist wipes under his nose; LEFT hand by his bowl on the table"
+    hand_ref: [ladle_grip.png]
     calm: top
     sfx:
       - {text: "BUBBLE BUBBLE", style: quiet, at: [0.50, 0.70], size: S, rot: 0}
@@ -1320,6 +1330,7 @@ panels:
     hands:
       borro: "RIGHT thumb and index finger pinch the toothpick, holding the rice cake up close to his eyes; LEFT hand cradles the tiny bowl; four fingers and a thumb each"
       kang_seoa: "elbows on the table, chin resting on her loosely clasped hands"
+    hand_ref: [gestures_face.png]
     eyeline: "Borro → the rice cake; Seoa → Borro"
     foreground: "the edge of the steaming pan, cropped, bottom"
     calm: top
@@ -1386,7 +1397,7 @@ panels:
       nib: "four-fingered hands gripping his bowl in his lap"
       borro: "both four-fingered hands slowly setting the tiny bowl down on the roof"
       kang_jaeha: "forearms on the table on either side of the phone, plastered bare fingers still"
-    hand_ref: [mouth_and_strap.png]
+    hand_ref: [ladle_grip.png, mouth_and_strap.png]
     eyeline: "all → the phone"
     calm: top
     lines:

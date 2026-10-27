@@ -21,7 +21,12 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REFS = {"grip_hilt_one_hand.png", "grip_hilt_two_hands.png", "reverse_grip_knives.png", "notebook_and_pencil.png",
         "pointing.png", "hand_on_shoulder.png", "phone_hold.png", "bow_draw.png", "crossbow_hold.png",
         "healing_palms.png", "shield_grip.png", "fists_and_bracing.png", "reaching_grabbing_wrist.png",
-        "mouth_and_strap.png", "holding_cup.png", "handshake_and_peace.png", "arms_carry.png", "arms_relaxed.png"}
+        "mouth_and_strap.png", "holding_cup.png", "handshake_and_peace.png", "arms_carry.png", "arms_relaxed.png",
+        # H2 (28 October)
+        "baton_conducting.png", "ladle_grip.png", "phone_to_ear.png", "arm_in_arm.png", "hug.png", "rail_ladder_rope.png",
+        "steering_wheel.png", "megaphone_binoculars_radio.png", "gestures_face.png", "gestures_body.png", "wrists_bound.png",
+        "tablet_laptop_folder.png", "chopsticks_bowl_pinch.png", "carry_and_handover.png", "shield_overhead.png",
+        "trooper_carbine.png", "arrow_quiver.png"}
 NONHUMAN = {"nib": "four", "borro": "four", "pim": "three"}
 HIDDEN = re.compile(r"out of (the )?frame|below the frame|hidden|behind (his|her|their) back|not visible|out of sight|in (his|her|their) pockets?", re.I)
 

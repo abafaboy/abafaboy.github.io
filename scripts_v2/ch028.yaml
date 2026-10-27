@@ -142,7 +142,7 @@ panels:
       crew_pyo: "arms at his sides, his LEFT upper arm gripped by Dami"
       crew_dami: "both hands gripping Pyo's LEFT upper arm"
       background: "Woo and Ho stand with their arms at their sides"
-    hand_ref: [reaching_grabbing_wrist.png]
+    hand_ref: [baton_conducting.png, reaching_grabbing_wrist.png]
     calm: top
     silent: true
     sfx:
@@ -472,7 +472,7 @@ panels:
     hands:
       kang_jaeha: "RIGHT forearm wiping his eyes with the coverall sleeve; LEFT hand holding the rusted lamp at his side"
       moon_ahin: "RIGHT hand draws her phone out of the front of her coat-dress; LEFT hand holds the baton low at her side"
-    hand_ref: [phone_hold.png]
+    hand_ref: [baton_conducting.png, phone_hold.png]
     eyeline: "Jaeha → Moon Ahin; Moon Ahin → the pit"
     foreground: "her white glove holding the phone, cropped, bottom right"
     calm: top
@@ -494,7 +494,7 @@ panels:
       moon_ahin: "phone held up at arm's length in her RIGHT hand, LEFT hand at her side, chin up, looking straight into the lens"
     hands:
       moon_ahin: "RIGHT arm raised at arm's length, the phone held upright, camera toward her, white-gloved fingers round its edges; LEFT hand at her side holding the baton pointing down"
-    hand_ref: [phone_hold.png]
+    hand_ref: [baton_conducting.png, phone_hold.png]
     foreground: "the rim of the pipe and the spray, cropped, bottom"
     calm: top
     lines:
@@ -662,6 +662,7 @@ panels:
       kanghan_tactical: "running along the pipe, shields up, carbines raised"
     hands:
       kanghan_tactical: "round shields up on their LEFT forearms, stubby carbines raised in their RIGHT hands"
+    hand_ref: [trooper_carbine.png]
     calm: top
     lines:
       - {who: offpanel:crowd, type: announce, text: "THE ASSET MUST NOT BE DAMAGED. PROTECT THE EQUIPMENT AT ALL COSTS.", side: l}
@@ -925,7 +926,7 @@ panels:
     hands:
       moon_ahin: "LEFT hand clutches the phone flat against her chest; RIGHT hand holds the baton at her side"
       kang_jaeha: "RIGHT arm extended, index finger pointing into the dark tunnel; LEFT hand at his side"
-    hand_ref: [pointing.png, mouth_and_strap.png]
+    hand_ref: [baton_conducting.png, pointing.png]
     eyeline: "Moon Ahin → Jaeha; Jaeha → the tunnel"
     foreground: "the hatch's rusted rim, cropped, right"
     calm: top
@@ -950,7 +951,7 @@ panels:
       kanghan_tactical: "firing the carbines from their RIGHT hands over the round shields on their LEFT forearms"
       borro: "LEFT forearm through the shield's strap, the shield up in front of the hatch, RIGHT hand braced on its edge; four fingers and a thumb on each hand"
       background: "the team streams past behind him into the tunnel, hands out of sight"
-    hand_ref: [shield_grip.png]
+    hand_ref: [trooper_carbine.png, shield_grip.png]
     calm: top
     sfx:
       - {text: "TSEW TSEW TSEW", style: impact, at: [0.30, 0.40], size: M, rot: -6}
@@ -1019,7 +1020,7 @@ panels:
       Close on Jaeha's gloved hand raised toward the giant in a thumbs-up, the way Minseok used to.
     hands:
       kang_jaeha: "RIGHT gloved hand raised in a thumbs-up toward the giant, thumb straight up, fingers curled into the palm; the rest of him out of frame"
-    hand_ref: [fists_and_bracing.png]
+    hand_ref: [gestures_body.png, fists_and_bracing.png]
     calm: left
     silent: true
 
@@ -1070,6 +1071,7 @@ panels:
       every 20 m; somewhere ahead, a pump housing thumps. The team strings out along the walkway, climbing.
     hands:
       background: "the team strings out small along the walkway, hands on the rail or at their sides"
+    hand_ref: [rail_ladder_rope.png]
     calm: top
     silent: true
     sfx:
@@ -1093,6 +1095,7 @@ panels:
       kang_jaeha: "LEFT hand sliding along the rail as he climbs; RIGHT arm swinging; the rusted lamp back at his LEFT hip"
       moon_ahin: "LEFT hand on the rail; RIGHT hand holds the baton low; the phone put away in her coat"
       background: "the husks and the crew behind, hands on the rail or at their sides"
+    hand_ref: [baton_conducting.png, rail_ladder_rope.png]
     eyeline: "Jaeha → ahead"
     foreground: "the rail and the rushing black water, cropped, bottom"
     calm: top
@@ -1117,7 +1120,7 @@ panels:
       lyra: "walking backwards, LEFT hand holds the longbow low in front of her, an arrow nocked under her RIGHT gloved fingers, not drawn"
       borro: "RIGHT hand reaching back to hold Pyo's leg at his hip; LEFT forearm through the shield's strap, the shield carried low; four fingers and a thumb"
       crew_pyo: "riding on Borro's shell, both hands gripping the slate plates at his shoulders"
-    hand_ref: [bow_draw.png, arms_carry.png]
+    hand_ref: [arrow_quiver.png, bow_draw.png]
     eyeline: "Lyra → the tunnel behind"
     foreground: "the black water channel, cropped, bottom"
     calm: top
@@ -1153,6 +1156,7 @@ panels:
       kanghan_tactical: "climbing fast in a column, torches bobbing"
     hands:
       kanghan_tactical: "far below and small: LEFT hands holding torches under the round shields on their forearms, carbines in their RIGHT hands"
+    hand_ref: [trooper_carbine.png]
     calm: top
     lines:
       - {who: han_sora, type: phone, text: "THEY'RE IN THE DRAINS? KEEP PUSHING THEM UP. I'LL WAIT FOR THEM AT THE TOP.", side: l}
@@ -1169,6 +1173,7 @@ panels:
       caged lamps swing.
     hands:
       background: "the climbing team small below the crack, hands on the rail or at their sides"
+    hand_ref: [rail_ladder_rope.png]
     calm: top
     silent: true
     sfx:
@@ -1206,6 +1211,7 @@ panels:
       kang_jaeha: "looking up the tunnel, jaw set, one hand on the rail"
     hands:
       kang_jaeha: "LEFT hand gripping the rail; RIGHT hand at his side"
+    hand_ref: [rail_ladder_rope.png]
     calm: top
     silent: true
     ui:
@@ -1227,7 +1233,7 @@ panels:
     hands:
       kang_jaeha: "RIGHT arm flung out to the side and back, palm open, holding back the people behind him; LEFT hand on the rail"
       moon_ahin: "RIGHT hand raises the baton high as she throws herself back; LEFT arm swinging out for balance"
-    hand_ref: [reaching_grabbing_wrist.png]
+    hand_ref: [baton_conducting.png, rail_ladder_rope.png]
     calm: top
     sfx:
       - {text: "KRRRAAACK", style: impact, at: [0.50, 0.30], size: XL, rot: -6}

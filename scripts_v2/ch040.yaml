@@ -73,7 +73,7 @@ panels:
       kang_jaeha: "bare hands: both palms flat on Borro's slate shell, arms straight, the splinted RIGHT index straight"
       geum_okran: "RIGHT hand holds the ladle up beside them; steel LEFT hand (three metal fingers and a thumb) on its shaft"
       deep_lantern: "her RIGHT webbed hand (four long fingers and a thumb) slammed palm-down on Borro's shield"
-    hand_ref: [shield_grip.png, fists_and_bracing.png]
+    hand_ref: [ladle_grip.png, shield_grip.png]
     calm: top
     sfx:
       - {text: "KRAAAA-THOOOOM", style: impact, at: [0.50, 0.15], size: XL, rot: -6}
@@ -157,6 +157,7 @@ panels:
       borro: "LEFT forearm through the shield's strap, lowering it to look at its face; RIGHT hand (four fingers and a thumb) on its rim"
       geum_okran: "RIGHT hand lowers the ladle to her side; steel LEFT arm (three metal fingers and a thumb) at her side"
       kang_jaeha: "bare hands: arms at his sides, fists clenched and glowing, the RIGHT brightest"
+    hand_ref: [ladle_grip.png]
     eyeline: "Geum → Jaeha; Jaeha → the face above"
     foreground: "the cracked walkway, cropped, bottom"
     calm: top
@@ -184,6 +185,7 @@ panels:
       ahin_husks: "twelve small figures crouched at the forearm, arms swung back to leap"
       kang_jaeha: "bare hands: small: LEFT fingers at his LEFT temple; RIGHT fist glowing at his side"
       moon_ahin: "small: RIGHT hand holds the baton raised; LEFT hand at her side"
+    hand_ref: [baton_conducting.png, gestures_face.png]
     calm: top
     silent: true
     sfx:
@@ -250,6 +252,7 @@ panels:
     hands:
       moon_ahin: "RIGHT hand sweeps the baton upward; LEFT gloved hand at her side"
       ahin_husks: "leaping, then bracing their hands flat against the coral and each other to lock into steps"
+    hand_ref: [baton_conducting.png]
     calm: top
     lines:
       - {who: moon_ahin, type: shout, text: "SAEBYEOK, FIRST STEP! EVERYONE ELSE, UP!", side: l}
@@ -272,7 +275,7 @@ panels:
     hands:
       geum_okran: "steel LEFT fist (three metal fingers and a thumb) knotted in the back of his tracksuit collar, elbow cocked; RIGHT hand holds the ladle down at her side"
       kang_jaeha: "bare hands: fists clenched and glowing at his sides, the RIGHT brightest"
-    hand_ref: [hand_on_shoulder.png]
+    hand_ref: [ladle_grip.png, hand_on_shoulder.png]
     eyeline: "Geum → the stair; Jaeha → Geum"
     calm: left
     lines:
@@ -294,6 +297,7 @@ panels:
     hands:
       geum_okran: "steel LEFT arm (three metal fingers and a thumb) flung up at full stretch, the hand open after the throw; RIGHT hand grips the ladle low at her side"
       kang_jaeha: "bare hands: curled in the air, arms tucked in, fists clenched, the RIGHT blazing"
+    hand_ref: [ladle_grip.png]
     calm: top
     sfx:
       - {text: "FWOOOSH", style: impact, at: [0.40, 0.30], size: XL, rot: -8}
@@ -483,6 +487,7 @@ panels:
       fishermen: "gripping the wheel, peering into the dark, lost"
     hands:
       fishermen: "both hands grip the wheel's worn spokes"
+    hand_ref: [steering_wheel.png]
     calm: left
     silent: true
     sfx:
@@ -611,6 +616,7 @@ panels:
       borro: "small: LEFT hand on the shield's edge at his side; RIGHT arm hanging (four fingers and a thumb)"
       lyra: "small: the bow lowered in her LEFT hand; RIGHT hand at her side"
       nib: "small: arms hanging, a long knife loose in each hand (four fingers and a thumb)"
+    hand_ref: [ladle_grip.png]
     calm: top
     silent: true
     sfx:
@@ -649,7 +655,7 @@ panels:
       evacuees: "hands over their mouths, gripping the railing, crying"
     hands:
       evacuees: "most with both hands over their mouths; an old woman grips the railing with both hands, crying"
-    hand_ref: [mouth_and_strap.png]
+    hand_ref: [rail_ladder_rope.png, mouth_and_strap.png]
     calm: right
     silent: true
     sfx:
@@ -802,7 +808,7 @@ panels:
       borro: "RIGHT fist (four fingers and a thumb) grips the back of Jaeha's tracksuit collar; LEFT hand wraps Lyra's RIGHT wrist; hauling both up"
       geum_okran: "leaning down: steel LEFT hand (three metal fingers and a thumb) reaching toward them; RIGHT hand holding the ladle back on the walkway"
       kang_jaeha: "bare hands: arms limp, the broken RIGHT forearm hanging against his chest"
-    hand_ref: [reaching_grabbing_wrist.png, arms_carry.png]
+    hand_ref: [ladle_grip.png, reaching_grabbing_wrist.png]
     calm: top
     silent: true
     sfx:
@@ -984,6 +990,7 @@ panels:
       han_sora: "leaning on the rail, binoculars lowered, laughing, head tipped back"
     hands:
       han_sora: "LEFT hand holds the binoculars just lowered from her eyes, the silver compass on that wrist; RIGHT forearm, bandaged at the wrist, on the rail; crossbow slung"
+    hand_ref: [rail_ladder_rope.png, megaphone_binoculars_radio.png]
     calm: right
     lines:
       - {who: han_sora, type: speech, text: "OH, THE DIRECTOR IS GOING TO HATE THIS.", side: l}
@@ -1001,6 +1008,7 @@ panels:
       strings of bulbs from the market and steaming pots; the three rescued boats are tied up at the pier.
     hands:
       background: "small figures at the tables, hands busy with bowls and chopsticks or out of sight"
+    hand_ref: [chopsticks_bowl_pinch.png]
     calm: top
     lines:
       - {who: offpanel:crowd, type: tag, text: "9:30 PM."}
@@ -1045,6 +1053,7 @@ panels:
       kang_seoa: "holding out the bowl, glaring through tears, lower lip shaking"
     hands:
       kang_seoa: "RIGHT hand holds out the bowl of tteokbokki, the chopsticks laid across it under her thumb; the megaphone clamped under her LEFT arm"
+    hand_ref: [megaphone_binoculars_radio.png, chopsticks_bowl_pinch.png]
     eyeline: "Seoa → Jaeha"
     foreground: "the bowl's steam, cropped, bottom"
     calm: left
@@ -1082,6 +1091,7 @@ panels:
       yoo_bomi: "RIGHT hand holds up a fish-cake skewer as she talks to the drone; LEFT hand at her side"
       evacuees: "eating from bowls with chopsticks; some wiping their eyes"
       ahin_husks: "sitting in a row behind her, hands resting on their knees"
+    hand_ref: [baton_conducting.png, chopsticks_bowl_pinch.png]
     calm: top
     silent: true
     sfx:
@@ -1168,7 +1178,7 @@ panels:
       moon_ahin: "LEFT gloved hand rests on Saebyeok's cracked shoulder, fingers curving over it; RIGHT hand holds the baton across her lap"
       kang_jaeha: "bare hands: RIGHT forearm in the sling against his chest; LEFT hand holds chopsticks clumsily over the bowl on his knee"
       ahin_husks: "Saebyeok sits still, hands on its knees"
-    hand_ref: [hand_on_shoulder.png]
+    hand_ref: [baton_conducting.png, chopsticks_bowl_pinch.png]
     eyeline: "Moon Ahin → Jaeha; Jaeha → the husks"
     foreground: "Saebyeok's cracked white shoulder, cropped, left"
     calm: top
@@ -1192,6 +1202,7 @@ panels:
     hands:
       geum_okran: "RIGHT hand holds her bowl, the ladle across her knees; steel LEFT elbow nudging him, the hand (three metal fingers and a thumb) relaxed"
       kang_jaeha: "bare hands: RIGHT arm in the sling; LEFT hand steadies the bowl on his knee"
+    hand_ref: [ladle_grip.png]
     eyeline: "Geum → Jaeha; Jaeha → Geum"
     foreground: "the parapet's edge, cropped, bottom"
     calm: right
@@ -1212,6 +1223,7 @@ panels:
       geum_okran: "head thrown back, laughing, the ladle across her knees"
     hands:
       geum_okran: "RIGHT hand on the ladle lying across her knees; steel LEFT hand (three metal fingers and a thumb) on her knee"
+    hand_ref: [ladle_grip.png]
     calm: top
     silent: true
     ui:
@@ -1237,6 +1249,7 @@ panels:
     hands:
       baek_taegun: "both hands folded on the cane's crystal handle, RIGHT over LEFT, the cane planted in front of him"
       deputy_hwang: "hands clasped in front of him at his waist"
+    hand_ref: [wrists_bound.png]
     calm: top
     silent: true
     sfx:
@@ -1258,6 +1271,7 @@ panels:
     hands:
       deputy_hwang: "hands clasped in front of him at his waist"
       baek_taegun: "seen from behind: hands hidden in front of him, folded on the cane"
+    hand_ref: [wrists_bound.png]
     eyeline: "Hwang → Baek; Baek → the screen"
     foreground: "the glass case and the violet core, cropped, left"
     calm: top
@@ -1297,6 +1311,7 @@ panels:
       baek_taegun: "only his hands, folded, one finger tapping the core once"
     hands:
       baek_taegun: "only his hands: LEFT hand on the cane's crystal handle, RIGHT hand folded over it, the RIGHT index finger lifting to tap the core once"
+    hand_ref: [wrists_bound.png]
     calm: right
     silent: true
     sfx:
@@ -1443,3 +1458,4 @@ panels:
     hands:
       kang_jaeha: "bare hands: chibi: RIGHT arm in the sling; LEFT hand writes with the yellow pencil in the notebook lying open on his knee"
       geum_okran: "chibi: RIGHT hand points the ladle at the page; steel LEFT hand (three metal fingers and a thumb) on his shoulder"
+    hand_ref: [ladle_grip.png]

@@ -47,7 +47,7 @@ panels:
     hands:
       borro: "LEFT forearm through the shield's strap, the shield braced overhead under the slab; RIGHT palm flat against the slab's underside; four fingers and a thumb on each hand"
       background: "the team pressed flat against the wall behind him, palms on the stone"
-    hand_ref: [shield_grip.png]
+    hand_ref: [shield_overhead.png, shield_grip.png]
     calm: top
     sfx:
       - {text: "KRRRUNCH", style: impact, at: [0.50, 0.20], size: XL, rot: -6}
@@ -65,6 +65,7 @@ panels:
       borro: "knees bending, arms locked, the green glow steady"
     hands:
       borro: "both arms locked overhead: LEFT forearm in the shield's strap, RIGHT palm flat on the slab; four fingers and a thumb on each hand"
+    hand_ref: [shield_overhead.png]
     calm: top
     silent: true
     ui:
@@ -138,7 +139,7 @@ panels:
       kang_jaeha: "knees buckling, both arms locked overhead, teeth bared"
     hands:
       kang_jaeha: "both arms locked straight overhead, gloved palms flat and pushing up against nothing, fingers spread"
-    hand_ref: [fists_and_bracing.png]
+    hand_ref: [shield_overhead.png, fists_and_bracing.png]
     calm: top
     ui:
       - {kind: system.warning, "on": float, at: [0.5, 0.88], text: "[CARRY · BORRO · 70%]"}
@@ -287,7 +288,7 @@ panels:
     hands:
       nib: "back pressed to the keystone, both long hands (four fingers and a thumb) braced flat on the stones either side of him, elbows bent"
       lyra: "both palms pressed flat on the keystone above her, the RIGHT in its leather glove, arms locked straight; the longbow slung on her back"
-    hand_ref: [fists_and_bracing.png]
+    hand_ref: [shield_overhead.png, fists_and_bracing.png]
     calm: top
     sfx:
       - {text: "THUD", style: impact, at: [0.30, 0.40], size: M, rot: 0}
@@ -352,7 +353,7 @@ panels:
       nib: "back to his keystone, both hands (four fingers and a thumb) braced flat on the stones"
       lyra: "both palms braced flat on her keystone, arms locked"
       kang_jaeha: "on his knees, arms spread wide, hands open: amber into his RIGHT hand, river blue into his LEFT, moss green into his chest"
-    hand_ref: [fists_and_bracing.png]
+    hand_ref: [shield_overhead.png, fists_and_bracing.png]
     calm: top
     ui:
       - {kind: system.warning, "on": float, at: [0.5, 0.90], text: "[CARRY LOAD: 180% · WARNING: OVERLOAD]"}
@@ -394,6 +395,7 @@ panels:
     hands:
       moon_ahin: "RIGHT arm raising the baton sharply toward her husks; LEFT hand at her side"
       kang_jaeha: "on his knees, swaying, gloved hands braced on the walkway"
+    hand_ref: [baton_conducting.png]
     eyeline: "Moon Ahin → her husks"
     foreground: "a husk's polished shoulder, cropped, right"
     calm: top
@@ -417,7 +419,7 @@ panels:
       ahin_husks: "both arms raised, polished palms pressed flat against the arch stones overhead, elbows locked, in perfect unison"
       nib: "still braced at his keystone, hands flat on the stones (four fingers and a thumb)"
       lyra: "still braced, both palms flat on her keystone"
-    hand_ref: [fists_and_bracing.png]
+    hand_ref: [shield_overhead.png, fists_and_bracing.png]
     calm: top
     ui:
       - {kind: system.notice_small, "on": float, at: [0.5, 0.88], text: "[CARRY LOAD: 180% → 140%]"}
@@ -437,6 +439,7 @@ panels:
       borro: "arms trembling, the glow flickering, head lifting"
     hands:
       borro: "arms trembling overhead: LEFT forearm in the shield's strap, RIGHT palm flat on the slab; four fingers and a thumb on each hand"
+    hand_ref: [shield_overhead.png]
     calm: top
     silent: true
     ui:
@@ -461,7 +464,7 @@ panels:
       kang_jaeha: "on his knees, RIGHT palm flat on Borro's leg; LEFT hand braced on the walkway"
       borro: "only his trembling RIGHT arm at the top of the frame, palm flat against the slab; four fingers and a thumb"
       ahin_husks: "the last husks duck through, arms at their sides"
-    hand_ref: [fists_and_bracing.png]
+    hand_ref: [baton_conducting.png, shield_overhead.png]
     eyeline: "Moon Ahin → Jaeha; Jaeha → Borro"
     foreground: "Borro's trembling arm, cropped, top"
     calm: top
@@ -622,7 +625,7 @@ panels:
       crew_dami: "both hands grip a steel strut across her body, RIGHT hand high, LEFT low"
       crew_woo: "both hands on the front end of the broken rail at his hip"
       crew_ho: "both hands on the back end of the broken rail at his hip"
-    hand_ref: [grip_hilt_two_hands.png]
+    hand_ref: [rail_ladder_rope.png, grip_hilt_two_hands.png]
     calm: top
     sfx:
       - {text: "SPLASH SPLASH SPLASH", style: impact, at: [0.70, 0.80], size: M, rot: 0}
@@ -646,6 +649,7 @@ panels:
       moon_ahin: "RIGHT wrist flicks the baton toward the slab; LEFT hand at her side"
       ahin_husks: "ten husks dropping off the arches, arms coming down from the stone"
       kang_jaeha: "kneeling beside Borro, both hands still holding Borro's outstretched RIGHT hand"
+    hand_ref: [baton_conducting.png]
     eyeline: "Jaeha → Moon Ahin; Moon Ahin → the slab"
     foreground: "the slab's edge, cropped, bottom"
     calm: top
@@ -683,7 +687,7 @@ panels:
       borro: "RIGHT arm pulled out straight from under the slab, hand limp; four fingers and a thumb"
       nib: "both long hands (four fingers and a thumb) pushing flat against the slab's edge, feet slipping"
       lyra: "LEFT shoulder driven under the slab's edge, both palms flat on it beside her; the longbow slung on her back"
-    hand_ref: [reaching_grabbing_wrist.png, grip_hilt_two_hands.png]
+    hand_ref: [rail_ladder_rope.png, reaching_grabbing_wrist.png]
     calm: top
     lines:
       - {who: crew_ho, type: shout, text: "ONE! TWO! HEAVE!", side: l}
@@ -826,7 +830,7 @@ panels:
       kang_jaeha: "legs folding, one hand catching the rail, head hanging"
     hands:
       kang_jaeha: "LEFT hand catching the rail, fingers clamped round it; RIGHT hand braced on his knee"
-    hand_ref: [fists_and_bracing.png]
+    hand_ref: [rail_ladder_rope.png, fists_and_bracing.png]
     calm: top
     silent: true
     ui:
@@ -849,7 +853,7 @@ panels:
     hands:
       moon_ahin: "LEFT arm extended down to him, white-gloved hand open, palm up; RIGHT hand holds the baton at her side"
       kang_jaeha: "on one knee, LEFT hand still on the rail, RIGHT hand resting on his knee"
-    hand_ref: [reaching_grabbing_wrist.png]
+    hand_ref: [baton_conducting.png, rail_ladder_rope.png]
     eyeline: "Jaeha → her hand; Moon Ahin → away"
     foreground: "her white glove, cropped, top right"
     calm: top
@@ -897,7 +901,7 @@ panels:
       nib: "the borrowed lamp on his head, arms loose at his sides; four fingers and a thumb"
       lyra: "LEFT hand holds the white longbow; RIGHT arm relaxed"
       background: "husks and crew file behind, hands at their sides or on the rail"
-    hand_ref: [arms_carry.png]
+    hand_ref: [baton_conducting.png, arm_in_arm.png]
     calm: top
     silent: true
     sfx:
@@ -919,7 +923,7 @@ panels:
     hands:
       moon_ahin: "LEFT arm linked through his RIGHT arm, taking his weight; RIGHT hand holds the baton low at her side"
       kang_jaeha: "RIGHT arm hooked through hers, his gloved hand on her forearm; LEFT hand sliding along the rail"
-    hand_ref: [arms_carry.png]
+    hand_ref: [baton_conducting.png, arm_in_arm.png]
     eyeline: "both → ahead"
     foreground: "the rail, cropped, bottom"
     calm: top
@@ -960,7 +964,7 @@ panels:
     hands:
       lyra: "LEFT hand holds the longbow low in front of her, an arrow nocked under her RIGHT gloved fingers, not drawn"
       nib: "arms loose at his sides, long hands open; four fingers and a thumb"
-    hand_ref: [bow_draw.png]
+    hand_ref: [arrow_quiver.png, bow_draw.png]
     eyeline: "both → down the tunnel"
     foreground: "the water channel, cropped, bottom"
     calm: top
@@ -1016,7 +1020,7 @@ panels:
     hands:
       nib: "RIGHT arm extended up the dry branch, pointing with a long knife held tip first; LEFT hand at his side; four fingers and a thumb"
       kang_jaeha: "RIGHT arm extended up the wet branch, index finger pointing; LEFT hand on the rail"
-    hand_ref: [pointing.png]
+    hand_ref: [rail_ladder_rope.png, pointing.png]
     eyeline: "Nib → the dry branch; Jaeha → the wet branch"
     foreground: "the rushing water, cropped, bottom"
     calm: top
@@ -1041,7 +1045,7 @@ panels:
       kang_jaeha: "RIGHT arm hooked through Moon Ahin's LEFT arm; LEFT hand on the rail"
       moon_ahin: "LEFT arm linked through his, taking his weight; RIGHT hand holds the baton"
       background: "the team follows, hands on the rail or at their sides"
-    hand_ref: [arms_carry.png]
+    hand_ref: [baton_conducting.png, arm_in_arm.png]
     calm: top
     silent: true
     ui:
@@ -1100,6 +1104,7 @@ panels:
       giant with a trident on one wall, small and faded, watches them pass.
     hands:
       background: "the team passes small along the walkway, hands on the rail or at their sides"
+    hand_ref: [rail_ladder_rope.png]
     calm: top
     silent: true
 
@@ -1135,6 +1140,7 @@ panels:
       other; white light glows at the very top. The team stops at its foot and looks up.
     hands:
       background: "the team stands small at the shaft's foot, hands at their sides or on the rail"
+    hand_ref: [rail_ladder_rope.png]
     calm: top
     silent: true
     sfx:
@@ -1201,6 +1207,7 @@ panels:
       han_sora: "both hands resting on the crossbow lying across her knees, RIGHT on the grip, LEFT on the fore-end; the brass compass at her RIGHT wrist"
       kanghan_tactical: "kneeling, round shields on their LEFT forearms, carbines in their RIGHT hands resting on the rims, aimed down the shaft"
       background: "the team tiny at the shaft's foot, hands not visible"
+    hand_ref: [trooper_carbine.png]
     calm: top
     silent: true
 
@@ -1247,7 +1254,7 @@ panels:
       kang_jaeha: "RIGHT arm sliding out of hers; LEFT hand at his side"
       crew_pyo: "both hands on Borro's shell as he is set down"
       background: "the crew and the husks at the shaft's foot, hands at their sides"
-    hand_ref: [reverse_grip_knives.png, bow_draw.png]
+    hand_ref: [baton_conducting.png, reverse_grip_knives.png]
     calm: top
     silent: true
     sfx:
@@ -1307,7 +1314,7 @@ panels:
     hands:
       kanghan_tactical: "carbines in their RIGHT hands settled on the rims of the round shields on their LEFT forearms, aiming down the shaft"
       han_sora: "stock against her RIGHT shoulder, RIGHT hand on the grip, index finger along the side, LEFT hand under the fore-end; compass at her RIGHT wrist"
-    hand_ref: [crossbow_hold.png]
+    hand_ref: [trooper_carbine.png, crossbow_hold.png]
     calm: top
     sfx:
       - {text: "KA-CHAK", style: impact, at: [0.50, 0.30], size: L, rot: 0}
@@ -1321,3 +1328,4 @@ panels:
       crew_woo: "RIGHT arm angled up, LEFT arm angled down, fists clenched"
       crew_ho: "LEFT arm angled up, RIGHT arm angled down, mirroring his brother"
       borro: "clapping slowly, huge hands meeting palm to palm; four fingers and a thumb"
+    hand_ref: [gestures_body.png]

@@ -62,6 +62,7 @@ panels:
     hands:
       kanghan_engineer: "tiny figures carrying crates two to a crate, each gripping a side handle"
       kanghan_guard: "two tiny guards, each holding a torch forward in his RIGHT hand"
+    hand_ref: [carry_and_handover.png]
     calm: top
     lines:
       - {who: offpanel:crowd, type: tag, text: "TUESDAY NIGHT. UNDER THE BRIDGE."}
@@ -113,7 +114,7 @@ panels:
       kang_seoa: "arms wrapped round her drawn-up knees, hands clasped over her shins"
       foreman_gu: "LEFT hand holds a fan of banknotes; RIGHT thumb peels one off into an outstretched hand"
       background: "one crew member holds out an open palm for the cash; the other four's hands at their sides"
-    hand_ref: [reaching_grabbing_wrist.png]
+    hand_ref: [gestures_face.png, tablet_laptop_folder.png]
     calm: top
     lines:
       - {who: kang_jaeha, type: speech, text: "A VAN. FIVE PEOPLE IN WORK CLOTHES. THEY'RE BEING PAID IN CASH.", side: l}
@@ -132,6 +133,7 @@ panels:
     hands:
       foreman_gu: "LEFT hand holds the clipboard tilted under the work light, thumb on its clip; RIGHT hand out of frame"
       background: "below, the five crew each pull a respirator up over the face with both hands"
+    hand_ref: [tablet_laptop_folder.png]
     calm: top
     lines:
       - {who: kang_jaeha, type: inner, text: "No names. Just numbers. Nobody would ever ask where they went."}
@@ -155,7 +157,7 @@ panels:
       yoo_bomi: "both hands hold the open laptop by its sides, turning it round toward Jaeha"
       kang_jaeha: "both hands on his knees as he leans toward the screen"
       kang_seoa: "RIGHT hand resting on Bomi's shoulder, fingers curved over it; LEFT hand on her own knee"
-    hand_ref: [hand_on_shoulder.png]
+    hand_ref: [tablet_laptop_folder.png, hand_on_shoulder.png]
     eyeline: "Bomi → Jaeha; Jaeha and Seoa → the screen"
     foreground: "the back of the laptop, cropped, bottom"
     calm: top
@@ -192,6 +194,7 @@ panels:
       the crane swings another container over the fence; engineers hurry.
     hands:
       kanghan_engineer: "tiny figures hurrying, crates held in both arms against their chests"
+    hand_ref: [carry_and_handover.png]
     calm: top
     lines:
       - {who: kang_jaeha, type: inner, text: "Cores, by the truckload. And faster since Saturday."}
@@ -302,7 +305,7 @@ panels:
       nib: "arms hanging at his sides, long four-fingered hands near his knees"
       lyra: "arms folded, one shoulder against the door frame"
       borro: "hands out of frame (only his face fills the window)"
-    hand_ref: [notebook_and_pencil.png]
+    hand_ref: [tablet_laptop_folder.png, notebook_and_pencil.png]
     calm: top
     lines:
       - {who: offpanel:crowd, type: tag, text: "WEDNESDAY EVENING."}
@@ -408,6 +411,7 @@ panels:
     hands:
       borro: "hands out of frame (only his face fills the window)"
       lyra: "LEFT hand flicks the braid back over her LEFT shoulder; gloved RIGHT hand on her hip"
+    hand_ref: [gestures_body.png]
     eyeline: "Borro → Jaeha; Lyra → Choi"
     foreground: "the window frame, cropped, left"
     calm: top
@@ -559,6 +563,7 @@ panels:
       nib: "arms wrapped round his shins, four-fingered hands clasped, chin on his knees"
       kang_seoa: "small in the room behind: her RIGHT little finger still hooked round her brother's"
       kang_jaeha: "small in the room behind: RIGHT little finger hooked round Seoa's; LEFT hand at his side"
+    hand_ref: [gestures_face.png]
     calm: top
     silent: true
 
@@ -581,6 +586,7 @@ panels:
       kang_jaeha: "both hands in the pockets of his grey coveralls"
       foreman_gu: "clipboard tucked under his LEFT arm, the hand on its edge; RIGHT hand on his belt beside the stun baton"
       background: "the other four crew with hands at their sides or in their pockets"
+    hand_ref: [trooper_carbine.png, tablet_laptop_folder.png]
     calm: top
     lines:
       - {who: offpanel:crowd, type: tag, text: "THURSDAY, 10:50 PM."}
@@ -600,6 +606,7 @@ panels:
     hands:
       foreman_gu: "RIGHT hand tossing a tabard underarm; LEFT hand resting on the stun baton at his belt, the clipboard tucked under that arm"
       background: "crew members raising their hands to catch tabards"
+    hand_ref: [trooper_carbine.png, tablet_laptop_folder.png]
     eyeline: "the foreman → the clipboard"
     foreground: "a tabard flying through the air toward the camera, cropped, top right"
     calm: top
@@ -756,7 +763,7 @@ panels:
       foreman_gu: "RIGHT arm extended, index finger pointing at the fence; LEFT hand at his side, the clipboard under that arm"
       kang_jaeha: "both hands pull the respirator down over his face, like the others"
       background: "the other four crew each pull a respirator down over the face with both hands"
-    hand_ref: [pointing.png]
+    hand_ref: [tablet_laptop_folder.png, pointing.png]
     calm: top
     sfx:
       - {text: "FWEEEET", style: impact, at: [0.30, 0.20], size: L, rot: -6}
@@ -824,7 +831,7 @@ panels:
     hands:
       nib: "RIGHT hand flat on the container roof, four fingers spread, taking his weight in the crouch; LEFT hand raised, just letting go of the cable above"
       kanghan_guard: "back to us, hands at his sides, the torch hanging in his RIGHT hand"
-    hand_ref: [fists_and_bracing.png]
+    hand_ref: [rail_ladder_rope.png, fists_and_bracing.png]
     calm: top
     sfx:
       - {text: "...tp", style: quiet, at: [0.40, 0.40], size: S, rot: 0}
@@ -867,6 +874,7 @@ panels:
       and 200 m across; the walkways are 2 m wide; the pipes are 4 m thick.
     hands:
       background: "five tiny crew figures on the first walkway, hands at their sides or on the rail"
+    hand_ref: [rail_ladder_rope.png]
     calm: top
     silent: true
     sfx:
@@ -892,7 +900,7 @@ panels:
       crew_woo: "RIGHT hand gripping his brother's upper arm; LEFT hand on the rail"
       crew_ho: "both bare hands on the rail as he leans out over it"
       crew_pyo: "LEFT hand flat on the rock wall; RIGHT hand tapping Ho's back to pull him in"
-    hand_ref: [reaching_grabbing_wrist.png]
+    hand_ref: [rail_ladder_rope.png, reaching_grabbing_wrist.png]
     calm: top
     lines:
       - {who: crew_pyo, type: speech, text: "DON'T LOOK DOWN, I SAID. NOBODY EVER LISTENS.", side: l}
@@ -932,7 +940,7 @@ panels:
     hands:
       foreman_gu: "RIGHT arm extended, the stun baton gripped in his RIGHT fist, pointing down the walkway; LEFT hand holds the clipboard against his chest"
       background: "the crew in a line behind their husks, hands at their sides"
-    hand_ref: [grip_hilt_one_hand.png]
+    hand_ref: [trooper_carbine.png, tablet_laptop_folder.png]
     eyeline: "the foreman → the walkway"
     foreground: "the foreman's shoulder and hard hat, cropped, left"
     calm: top
@@ -969,7 +977,7 @@ panels:
     hands:
       foreman_gu: "LEFT hand holds the clipboard; RIGHT hand ticks it with a pen"
       background: "a blurred figure behind flinches, hands jerking up"
-    hand_ref: [notebook_and_pencil.png]
+    hand_ref: [tablet_laptop_folder.png, notebook_and_pencil.png]
     calm: left
     lines:
       - {who: foreman_gu, type: speech, text: "ONE. KEEP WALKING.", side: l}
@@ -989,6 +997,7 @@ panels:
       kang_jaeha: "both hands on the rail, visor turned to the window, very still"
     hands:
       kang_jaeha: "both gloved hands resting on the rail, fingers wrapped over it"
+    hand_ref: [rail_ladder_rope.png]
     eyeline: "Jaeha → the window"
     calm: top
     silent: true
@@ -1112,6 +1121,7 @@ panels:
       foreman_gu: "eyes narrowed over the clipboard, jaw stopped mid-chew"
     hands:
       foreman_gu: "LEFT hand holds the clipboard up at chin height, fingers over its top edge; RIGHT hand out of frame"
+    hand_ref: [tablet_laptop_folder.png]
     eyeline: "the foreman → Jaeha"
     calm: left
     silent: true
@@ -1131,6 +1141,7 @@ panels:
       the water, one big, one slim. Scale: each zig-zag drops 15 m; the crew are specks.
     hands:
       background: "the crew are specks, hands at their sides or on the rails; the cloaked figure on the pipe and the two shapes in the river are too small for hands"
+    hand_ref: [rail_ladder_rope.png]
     calm: top
     silent: true
     sfx:
@@ -1151,7 +1162,7 @@ panels:
     hands:
       crew_ho: "RIGHT bare hand flat on the rail; LEFT hand at his side"
       crew_woo: "LEFT hand resting on Ho's shoulder, fingers curved over it; RIGHT hand on the rail"
-    hand_ref: [hand_on_shoulder.png]
+    hand_ref: [rail_ladder_rope.png, hand_on_shoulder.png]
     eyeline: "both → the rail"
     foreground: "the rail, vibrating, cropped, bottom"
     calm: top
@@ -1176,6 +1187,7 @@ panels:
       kanghan_engineer: "each carries a tablet in his LEFT hand at his side"
       foreman_gu: "the clipboard under his LEFT arm, hands at his sides"
       background: "the crew wait at the rail, hands on it or at their sides"
+    hand_ref: [rail_ladder_rope.png, tablet_laptop_folder.png]
     calm: top
     silent: true
 
@@ -1195,6 +1207,7 @@ panels:
     hands:
       foreman_gu: "LEFT hand grips the clipboard against his chest; RIGHT hand at his side"
       kanghan_engineer: "RIGHT hand holds a radio to his ear; LEFT hand spread open, palm up, helpless"
+    hand_ref: [megaphone_binoculars_radio.png, gestures_body.png]
     eyeline: "the foreman ↔ the engineer"
     foreground: "the cabin's open door, cropped, left"
     calm: top
@@ -1216,7 +1229,7 @@ panels:
     hands:
       foreman_gu: "RIGHT fist grips the stun baton, pointing it along the line of crew; LEFT hand holds the clipboard at his side"
       background: "the crew stand with hands at their sides"
-    hand_ref: [grip_hilt_one_hand.png]
+    hand_ref: [trooper_carbine.png, tablet_laptop_folder.png]
     eyeline: "the foreman → the crew"
     foreground: "the crackling tip of the baton, cropped, right"
     calm: top
@@ -1243,7 +1256,7 @@ panels:
       crew_ho: "RIGHT hand cupped beside his visor, whispering behind it; LEFT bare hand on the rail"
       crew_woo: "both hands on the rail, his visor turned toward Ho"
       crew_dami: "RIGHT index finger raised to her visor to shush them; LEFT hand on the rail"
-    hand_ref: [pointing.png, mouth_and_strap.png]
+    hand_ref: [rail_ladder_rope.png, pointing.png]
     eyeline: "Ho ↔ Woo; Dami → the foreman"
     foreground: "the rail, cropped, bottom"
     calm: top
@@ -1270,6 +1283,7 @@ panels:
       crew_pyo: "LEFT hand on the rail; RIGHT hand at his side"
       kanghan_engineer: "two engineers frozen in the cabin doorway, tablets held to their chests"
       background: "the other crew, hands on the rail or at their sides"
+    hand_ref: [trooper_carbine.png, rail_ladder_rope.png]
     calm: top
     silent: true
     sfx:
@@ -1319,7 +1333,7 @@ panels:
       crew_dami: "both palms flat on the rock wall behind her"
       crew_pyo: "both hands flat on the rock behind him"
       background: "Woo and Ho pressed back against the rock, hands flat on it"
-    hand_ref: [fists_and_bracing.png]
+    hand_ref: [baton_conducting.png, rail_ladder_rope.png]
     calm: top
     silent: true
     sfx:
@@ -1359,6 +1373,7 @@ panels:
     hands:
       moon_ahin: "white-gloved RIGHT hand holds the silver baton loosely down at her side, between thumb and fingers; LEFT hand relaxed at her side"
       ahin_husks: "standing at attention in two rows, arms straight at their sides"
+    hand_ref: [baton_conducting.png]
     calm: top
     silent: true
 
@@ -1379,6 +1394,7 @@ panels:
       moon_ahin: "RIGHT hand taps the silver baton against her open gloved LEFT palm"
       kang_jaeha: "arms straight at his sides, like the others"
       background: "the other crew stand stiff, arms straight at their sides"
+    hand_ref: [baton_conducting.png]
     eyeline: "Moon Ahin → the row of numbers"
     foreground: "her white boot and the hem of the coat-dress, cropped, bottom left"
     calm: top
@@ -1418,7 +1434,7 @@ panels:
     hands:
       moon_ahin: "RIGHT arm extended, the baton pointing down into the canyon, held between thumb and fingers; LEFT hand below the frame"
       ahin_husks: "arms straight at their sides as their heads turn"
-    hand_ref: [pointing.png]
+    hand_ref: [baton_conducting.png, pointing.png]
     eyeline: "Moon Ahin → the depths"
     foreground: "the rail and the drop, cropped, bottom"
     calm: top

@@ -43,3 +43,24 @@ Four chats work in this folder at the same time, so each writes only its own fil
 - `characters_v2/hands/DONE_H1X.md` when your images are finished. Then STOP.
 
 Rejects go to `characters_v2/_rejects/hands_<name>_<try>_<reason>.png`.
+
+## Job H2: the props and gestures the scripts use most (28 October, after the hands pass)
+The hands pass wrote a `hands:` line for every undrawn panel and listed the actions no H1 image fits. These seventeen cover them. The format, look, adults-only rule and checks are the same as H1 (three views of related poses per 1536×1024 image, realistic studio photographs, grey background, no faces). Four chats split them: **H2-A draws 19–23, H2-B 24–28, H2-C 29–32, H2-D 33–35.** Files as for H1, with `prompts_H2X.json`, `INDEX_H2X.md` and `DONE_H2X.md`.
+
+19. `baton_conducting.png`: a woman's RIGHT hand in a white fitted glove with a slim 38 cm silver conductor's baton with a small round pommel: (1) held loosely near the pommel, tip down by the thigh; (2) mid-flick, wrist bent, baton angled up; (3) both gloved hands holding it level across the body like a barrier.
+20. `ladle_grip.png`: a strong older woman's bare RIGHT hand, sleeve pushed up, on a long-handled steel ladle: (1) stirring a big pot; (2) the ladle resting on her RIGHT shoulder, hand round the handle; (3) jabbing forward with it, arm half extended.
+21. `phone_to_ear.png`: (1) a man's RIGHT hand holding a smartphone to his ear, side view; (2) a woman's LEFT hand holding a phone to her ear, three-quarter front; (3) a desk-phone receiver held to the ear, the coiled cord hanging.
+22. `arm_in_arm.png`: (1) side view, a woman's LEFT arm hooked through the crook of a man's RIGHT elbow as they walk; (2) a man and a woman walking hand in hand, hands and forearms close; (3) an adult's hand holding a small child's hand as they walk (hands and arms only).
+23. `hug.png`: (1) two people hugging, arms wrapped round each other's backs (arms and backs only); (2) both arms hugging a small round object (a camera drone) to the chest; (3) arms wrapped round oneself, hands at the elbows.
+24. `rail_ladder_rope.png`: (1) a hand resting on the top of a steel safety rail; (2) both hands gripping a railing hard, leaning out over it; (3) hands climbing a rope hand over hand.
+25. `steering_wheel.png`: (1) both hands on a car's steering wheel at nine and three, seen from the passenger seat; (2) one wrist draped over the top of the wheel, relaxed; (3) seen from the front through the windscreen.
+26. `megaphone_binoculars_radio.png`: (1) a megaphone held to the mouth, RIGHT hand on its grip, LEFT under the bell; (2) binoculars held to the eyes in both hands; (3) a handheld radio in a fist at the mouth, thumb on the talk button.
+27. `gestures_face.png`: (1) the index and middle fingers pressed to the temple, the other fingers curled; (2) a chin propped on a hand, elbow on a table; (3) both hands over the face, peeking through the fingers.
+28. `gestures_body.png`: (1) a hand on the hip, fingers forward; (2) a palm held out face up, offering; (3) a thumbs-up.
+29. `wrists_bound.png`: (1) wrists tied together in front with cord; (2) wrists in handcuffs in front, hands hanging loose; (3) a hand on the handle of a cane planted on the floor.
+30. `tablet_laptop_folder.png`: (1) a tablet held in the LEFT hand while the RIGHT index finger taps it; (2) fingers on a laptop keyboard and trackpad; (3) a document folder tucked under the LEFT arm, the hand holding its edge.
+31. `chopsticks_bowl_pinch.png`: (1) a RIGHT hand holding chopsticks correctly; (2) a LEFT hand holding a rice bowl while the RIGHT holds chopsticks over it; (3) a small object held up between thumb and forefinger.
+32. `carry_and_handover.png`: (1) carrying a crate with the forearms under it; (2) one person handing an envelope to another, both using both hands; (3) a hard hat held in both hands in the lap.
+33. `shield_overhead.png`: (1) a heavy rectangular shield held overhead like a roof, the LEFT forearm through its strap and the RIGHT palm flat under it; (2) a two-handed overhead swing of a heavy club; (3) both arms locked overhead, palms pushing up against a stone ceiling.
+34. `trooper_carbine.png`: (1) a compact carbine held one-handed in the RIGHT hand, its barrel resting on the rim of a small round shield on the LEFT forearm; (2) a shock baton in the RIGHT hand and a torch in the LEFT (shield) hand; (3) a carbine at the low ready in both hands.
+35. `arrow_quiver.png`: (1) drawing an arrow from a quiver at the RIGHT hip; (2) nocking an arrow on the string, the bow in the LEFT hand; (3) holding a parasol pole upright with its shaft resting on the shoulder.

@@ -53,6 +53,7 @@ panels:
     hands:
       moon_ahin: "RIGHT hand holds the baton upright, its shaft resting back against her RIGHT shoulder; LEFT hand below the frame"
       kang_jaeha: "bowing, both gloved hands pressed together in front of his belt, LEFT over RIGHT"
+    hand_ref: [baton_conducting.png]
     eyeline: "Moon Ahin → Jaeha (down); Jaeha → her boots"
     foreground: "the tip of her silver baton, cropped, top right"
     calm: top
@@ -78,6 +79,7 @@ panels:
     hands:
       moon_ahin: "RIGHT hand holds the baton loosely by its pommel end, angled across the front of her body; LEFT hand rests on the silver belt at her LEFT hip"
       ahin_husks: "at attention, arms straight down at their sides, hands flat against their thighs"
+    hand_ref: [baton_conducting.png]
     calm: top
     silent: true
 
@@ -134,6 +136,7 @@ panels:
     hands:
       moon_ahin: "RIGHT arm extended, the baton pointing down the walkway; LEFT hand at her side"
       foreman_gu: "bowed low with his back to us, both hands clutching his hard hat against his stomach, hidden by his body"
+    hand_ref: [baton_conducting.png]
     eyeline: "Moon Ahin → the foreman (down)"
     foreground: "the foreman's bowed back, cropped, bottom right"
     calm: top
@@ -161,6 +164,7 @@ panels:
       crew_pyo: "head lowered, LEFT hand resting on the brace on his LEFT knee; RIGHT arm hanging at his side"
       crew_ho: "only his tabard in the cropped foreground; hands out of frame"
       background: "the rest of the crew pressed back against the rock, hands flat on it or at their sides"
+    hand_ref: [baton_conducting.png]
     eyeline: "Moon Ahin → ahead"
     foreground: "Ho's orange tabard with its stencilled 5, cropped, left"
     calm: top
@@ -231,6 +235,7 @@ panels:
       kang_jaeha: "arms relaxed at his sides, gloved hands open"
       ahin_husks: "reforming into a column, arms hanging straight at their sides"
       background: "his plain husk in the cropped foreground stands stiffly, arms hanging"
+    hand_ref: [baton_conducting.png]
     eyeline: "Moon Ahin → Jaeha"
     foreground: "his plain husk's dull white back, cropped, right"
     calm: top
@@ -268,6 +273,7 @@ panels:
       moon_ahin: "tiny: RIGHT hand swings the baton lightly at her side"
       ahin_husks: "marching two by two, arms swinging together"
       background: "the crew and the foreman at the back, hands at their sides"
+    hand_ref: [baton_conducting.png]
     calm: top
     silent: true
     sfx:
@@ -290,7 +296,7 @@ panels:
     hands:
       kang_jaeha: "LEFT hand holds the open notebook at chest height, thumb across the pages; RIGHT hand writes in it with the yellow pencil"
       moon_ahin: "RIGHT hand holds the baton loosely at her side, tip down; LEFT arm swinging lightly as she walks"
-    hand_ref: [notebook_and_pencil.png]
+    hand_ref: [baton_conducting.png, notebook_and_pencil.png]
     eyeline: "Moon Ahin → the notebook; Jaeha → ahead"
     foreground: "the rail, cropped, bottom"
     calm: top
@@ -353,6 +359,7 @@ panels:
       kang_jaeha: "RIGHT arm thrown out across his husk's chest, hand open, holding it back; LEFT hand at his side (notebook tucked away in his tabard)"
       crew_ho: "both hands gripping the top rail, fingers wrapped round it"
       background: "the husks and the rest of the crew turning, hands at their sides"
+    hand_ref: [baton_conducting.png, rail_ladder_rope.png]
     calm: top
     sfx:
       - {text: "SKREEEEEE", style: alert, at: [0.70, 0.30], size: L, rot: -4}
@@ -398,6 +405,7 @@ panels:
       kang_jaeha: "back pressed to the rock, RIGHT arm across the front of Dami's shoulders holding her back; LEFT palm flat on the rock"
       crew_dami: "pressed to the rock behind Jaeha's arm, both palms flat on the stone"
       background: "the other crew pressed against the rock, hands flat on it"
+    hand_ref: [baton_conducting.png, rail_ladder_rope.png]
     calm: top
     sfx:
       - {text: "KA-KLAK!", style: impact, at: [0.50, 0.30], size: L, rot: 0}
@@ -438,6 +446,7 @@ panels:
     hands:
       moon_ahin: "RIGHT hand flicks the baton in small quick strokes at shoulder height; LEFT hand raised open at chest height, palm down, keeping time"
       ahin_husks: "white fists punching into the diving wyverns around her"
+    hand_ref: [baton_conducting.png]
     calm: top
     sfx:
       - {text: "FSST FSST", style: quiet, at: [0.30, 0.30], size: S, rot: 0}
@@ -462,7 +471,7 @@ panels:
       kang_jaeha: "lunging, RIGHT arm extended forward and down, index finger pointing at the plate; LEFT arm swung back for balance"
       moon_ahin: "not turning; RIGHT arm extended forward, the baton driving the husks on; LEFT hand at her side"
       ahin_husks: "advancing as one, elbows still hooked together"
-    hand_ref: [pointing.png]
+    hand_ref: [baton_conducting.png, pointing.png]
     eyeline: "Jaeha → the plate; Moon Ahin → the wyverns"
     foreground: "the carved spiral on the plate, cropped, bottom"
     calm: top
@@ -524,7 +533,7 @@ panels:
       canyon_wyvern: "both foot-claws hooked into the back of Ho's tabard at the shoulders"
       crew_ho: "hauled up over the rail, both arms flailing, hands open"
       crew_woo: "lunging, RIGHT arm stretched out, hand closing on air just short of Ho's boot; LEFT hand gripping the rail"
-    hand_ref: [reaching_grabbing_wrist.png]
+    hand_ref: [rail_ladder_rope.png, reaching_grabbing_wrist.png]
     calm: top
     lines:
       - {who: crew_woo, type: shout, text: "HO-YA!", side: l}
@@ -617,7 +626,7 @@ panels:
     hands:
       nib: "crouched on the rail, forearms resting on his knees, a long knife in reverse grip in each four-fingered fist"
       ahin_husks: "two ragged groups either side of the gap, arms hanging at their sides"
-    hand_ref: [reverse_grip_knives.png]
+    hand_ref: [rail_ladder_rope.png, reverse_grip_knives.png]
     calm: top
     sfx:
       - {text: "SKREEE", style: alert, at: [0.80, 0.20], size: M, rot: 0}
@@ -639,7 +648,7 @@ panels:
     hands:
       kang_jaeha: "at her shoulder, RIGHT arm extended low, index finger pointing out at the stone ledge; LEFT hand at his side"
       moon_ahin: "RIGHT hand holds the baton raised at shoulder height, tip up, knuckles tight; LEFT hand at her side"
-    hand_ref: [pointing.png]
+    hand_ref: [baton_conducting.png, pointing.png]
     eyeline: "Jaeha → the ledge; Moon Ahin → the wyverns"
     foreground: "the broken edge of the ledge, cropped, bottom"
     calm: top
@@ -704,6 +713,7 @@ panels:
       kang_jaeha: "LEFT arm out, hand flat like a blade, chopping left and right to call the steps; RIGHT arm at his side; notebook tucked in his tabard"
       moon_ahin: "RIGHT hand conducts the steps with small precise flicks of the baton; LEFT hand open at her side"
       ahin_husks: "single file, arms hanging still at their sides"
+    hand_ref: [baton_conducting.png]
     calm: top
     lines:
       - {who: kang_jaeha, type: speech, text: "RIGHT. RIGHT. SKIP ONE. RIGHT.", side: r}
@@ -729,7 +739,7 @@ panels:
     hands:
       nib: "twisting away on the rail, arms flung out for balance, a long knife in reverse grip in each four-fingered fist"
       kang_jaeha: "RIGHT hand clamped over the fresh gash on his LEFT shoulder, fingers curved over it; LEFT arm still out, hand flat, pointing the route"
-    hand_ref: [hand_on_shoulder.png, reverse_grip_knives.png]
+    hand_ref: [rail_ladder_rope.png, hand_on_shoulder.png]
     calm: top
     ui:
       - {kind: system.notice_small, "on": float, at: [0.5, 0.88], text: "[CARRY · NIB · 30%]"}
@@ -791,7 +801,7 @@ panels:
       crew_woo: "both arms wrapped round Ho's neck, hugging him"
       crew_pyo: "sitting against the rock, RIGHT hand pressed flat over his heart; LEFT hand flat on the walkway beside him"
       crew_dami: "eyes shut, LEFT hand clutching her phone flat against her chest, RIGHT hand pressed over it"
-    hand_ref: [mouth_and_strap.png]
+    hand_ref: [hug.png, mouth_and_strap.png]
     foreground: "falling ash, cropped, top"
     calm: top
     lines:
@@ -835,7 +845,7 @@ panels:
     hands:
       moon_ahin: "leaning in, RIGHT hand holding the baton out low, its tip lifting the end of his red scarf; LEFT hand at her side"
       nib: "standing very still, arms hanging, a long knife in reverse grip in each four-fingered hand"
-    hand_ref: [reverse_grip_knives.png]
+    hand_ref: [baton_conducting.png, reverse_grip_knives.png]
     eyeline: "Moon Ahin ↔ Nib"
     foreground: "the rail, cropped, bottom"
     calm: top
@@ -859,6 +869,7 @@ panels:
     hands:
       moon_ahin: "RIGHT arm flicks up, the baton's tip hooked under his respirator strap, flipping the mask off; LEFT hand at her side"
       kang_jaeha: "head jerking back, both arms at his sides, gloved hands open in surprise"
+    hand_ref: [baton_conducting.png]
     calm: top
     sfx:
       - {text: "FLIP", style: comic, at: [0.50, 0.30], size: M, rot: -8}
@@ -879,6 +890,7 @@ panels:
     hands:
       moon_ahin: "RIGHT hand holds the baton raised, the respirator dangling by its strap from the tip; LEFT hand at her side"
       kang_jaeha: "RIGHT hand half raised at shoulder height, palm toward her, a weak polite greeting; LEFT arm at his side"
+    hand_ref: [baton_conducting.png]
     eyeline: "Moon Ahin → Jaeha (down); Jaeha → Moon Ahin (up)"
     foreground: "the dangling respirator on the baton's tip, cropped, top"
     calm: top
@@ -930,7 +942,7 @@ panels:
       foreman_gu: "shoving forward, LEFT fist thrusting the crackling stun baton out ahead of him; RIGHT arm swinging at his side"
       kang_jaeha: "both gloved hands pull the respirator back down over his face, fingers on its rim at either cheek"
       moon_ahin: "RIGHT arm held out low, the baton level across the foreman's path like a barrier; LEFT hand at her side"
-    hand_ref: [grip_hilt_one_hand.png]
+    hand_ref: [trooper_carbine.png, baton_conducting.png]
     eyeline: "the foreman → Jaeha; Moon Ahin → the foreman"
     foreground: "the foreman's crackling baton, cropped, bottom right"
     calm: top
@@ -993,6 +1005,7 @@ panels:
       down; another 200 m of dark below.
     hands:
       background: "tiny figures walking down the zig-zag, hands at their sides; Moon Ahin's baton in her RIGHT hand"
+    hand_ref: [baton_conducting.png]
     calm: top
     silent: true
     sfx:
@@ -1015,6 +1028,7 @@ panels:
     hands:
       crew_pyo: "limping, RIGHT hand on the top rail, fingers curled round it; LEFT arm hanging"
       kang_jaeha: "slowing to match him, arms relaxed at his sides"
+    hand_ref: [rail_ladder_rope.png]
     eyeline: "Pyo → Jaeha; Jaeha → ahead"
     foreground: "the glowing pipe, cropped, right"
     calm: top
@@ -1033,6 +1047,7 @@ panels:
       Close on Uncle Pyo's bare, weathered hand on the rail, trembling in time with a deep, slow vibration running through the steel.
     hands:
       crew_pyo: "his bare, weathered RIGHT hand rests on the top rail, fingers curled loosely round it, trembling with the vibration (the crew wear no gloves)"
+    hand_ref: [rail_ladder_rope.png]
     calm: right
     silent: true
     sfx:
@@ -1080,6 +1095,7 @@ panels:
     hands:
       nib: "standing on the rail, arms hanging loose at his sides, four-fingered hands open; both knives sheathed at his back"
       background: "the tiny column below, hands at their sides"
+    hand_ref: [rail_ladder_rope.png]
     calm: top
     silent: true
 
@@ -1143,6 +1159,7 @@ panels:
       foreman_gu: "back to us, both arms spread across the gate, hands gripping the grille's bars"
       moon_ahin: "RIGHT arm extended, the baton pointing at the padlock; LEFT hand at her side"
       ahin_husks: "filing in behind her, arms hanging at their sides"
+    hand_ref: [baton_conducting.png]
     eyeline: "the foreman ↔ Moon Ahin"
     foreground: "the foreman's spread arm and the chained grille, cropped, left"
     calm: top
@@ -1180,6 +1197,7 @@ panels:
       to edge.
     hands:
       foreman_gu: "RIGHT hand turns a small key in the padlock, pinched between thumb and forefinger, trembling; LEFT hand out of frame"
+    hand_ref: [chopsticks_bowl_pinch.png]
     calm: none
     silent: true
     sfx:
@@ -1203,6 +1221,7 @@ panels:
       kang_jaeha: "RIGHT gloved hand flat on the rock wall beside him; LEFT arm at his side"
       moon_ahin: "RIGHT hand holds the baton raised a little in front of her, tip forward; LEFT hand at her side"
       background: "his plain husk ahead of him, arms hanging; the column behind, hands at their sides"
+    hand_ref: [baton_conducting.png]
     calm: top
     silent: true
     sfx:
@@ -1226,7 +1245,7 @@ panels:
       crew_dami: "RIGHT hand grabbing Pyo's LEFT arm above the elbow, fingers wrapped round it; LEFT hand at her side"
       crew_pyo: "RIGHT hand gripping the rail, bracing"
       ahin_husks: "heads tilting up together, arms hanging at their sides"
-    hand_ref: [reaching_grabbing_wrist.png]
+    hand_ref: [rail_ladder_rope.png, reaching_grabbing_wrist.png]
     calm: top
     silent: true
     sfx:
@@ -1245,6 +1264,7 @@ panels:
       something vast, darker than the dark, rises and falls once.
     hands:
       background: "the tiny column clinging to the walkway, hands gripping the rails"
+    hand_ref: [rail_ladder_rope.png]
     calm: top
     silent: true
     sfx:
@@ -1267,7 +1287,7 @@ panels:
     hands:
       moon_ahin: "RIGHT hand clenched white-knuckled round the baton, held upright at her chest; LEFT hand out of frame"
       kang_jaeha: "RIGHT hand pulls the respirator down off his face by its rim; LEFT hand out of frame"
-    hand_ref: [grip_hilt_one_hand.png]
+    hand_ref: [baton_conducting.png, grip_hilt_one_hand.png]
     calm: top
     silent: true
     sfx:
@@ -1335,3 +1355,4 @@ panels:
       moon_ahin: "chibi: RIGHT hand waves the baton high, LEFT hand raised open, conducting"
       ahin_husks: "chibi husks each holding a tiny instrument, arms moving in perfect unison"
       nib: "chibi: a long knife in each four-fingered fist, banging the blades together off the beat"
+    hand_ref: [baton_conducting.png]
