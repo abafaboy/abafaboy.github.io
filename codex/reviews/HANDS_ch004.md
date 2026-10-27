@@ -23,12 +23,12 @@ From Claude's audit of 28 October 2026 (`ledger/hands_audit/ch004.json`). **5 pa
 - **References:** `characters_v2/hands/reaching_grabbing_wrist.png`, `characters_v2/nib/details.png`
 
 ## END: edit (severity 2)
-- **Choi (chibi)**, his RIGHT arm holding the coffee cup out toward Nib, centre-left: the RIGHT arm is stretched: its navy forearm runs from his right side right across his belly to the cup, about 1.75 times the length of the upper arm, so it reads as a long rubbery arm; his LEFT fist on his chest is fine
+- **Choi (chibi)**, his RIGHT arm holding the coffee cup out toward Nib, centre-left: the RIGHT arm is stretched: its navy forearm runs from his right side across his whole belly to the cup, roughly 1.4 times the length of the upper arm (a forearm is normally a little shorter than the upper arm), so it reads as a long rubbery tube; his LEFT fist on his chest is fine
   - **Fix:** chibi Choi's RIGHT hand holds the coffee cup out toward Nib at arm's length with a normal chibi-length forearm reaching forward from his side; his LEFT fist stays clutching his jacket at his chest
 - **References:** `characters_v2/hands/holding_cup.png`, `characters_v2/choi_dongmin/details.png`
 
 ## Minor (below severity 2: not fixed in this job)
-- P11: Yerin, the glow washes out the finger outlines: four fingertips read clearly and the fifth digit is only a faint inner line; not readable at video size, so it passes as an open hand
+- P11: Yerin, four fingers are drawn but the mint glow washes out their outlines and no thumb shows (it may be hidden on the far side of the shoulder); at video size it reads as an open hand, so this is a readability nit, not a count error
 - P52: Choi, acting: the script has him pointing the cup at Nib, but he holds it at his chest; the hand itself is drawn correctly
 
 Panels that passed: P01, P06, P07, P10, P12, P13, P14, P17, P20, P21, P22, P33, P35, P36, P42, P43, P45, P47, P48, P49, P50, P51, P53, P54, P55, P56, P57, P59.
