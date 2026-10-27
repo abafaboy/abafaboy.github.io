@@ -28,8 +28,8 @@ Characters in `characters_v2/`: `kang_jaeha`, `nib`, `song_yerin`, `mok_hangyu`,
 
 | Folder | What | Status |
 |---|---|---|
-| `chapters_v2/ch001/art/` | Chapter 1's panels (P08, P25 and P59 are text panels with no art) | Published as an unlisted video. P09, P21 and P22 are to be redrawn: `codex/CH001_FIXES.md` on `msgf-bible` |
-| `chapters_v2/ch002/art/` | The only five chapter 2 panels that survived: P01, P08, P16, P23, P30 | Not reviewed yet. Everything else in chapter 2 is still to be drawn |
+| `chapters_v2/ch001/art/` | Chapter 1's panels (P08, P25 and P59 are text panels with no art) | Published as an unlisted video. P09 redrawn and approved 27 Oct; P21 and P22 still to redraw (`codex/CH001_FIXES.md`); the old versions are still here until then |
+| `chapters_v2/ch002/art/` | Chapter 2's approved panels (39 of 60; the laptop kept many more than the five first copied, which were the only files not hard-linked) | Approved 27 Oct, P20 to be edited; the rest to draw: `codex/reviews/ch002.md` |
 
 ## Sending new art back for review
 
