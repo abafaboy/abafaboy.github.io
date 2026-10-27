@@ -40,6 +40,7 @@ Leave the first set where it is: do not move, rename or delete any of its files.
   - Clean, bright daylight on every face from the front, and a strong cool rim light from behind.
   - A luminous background: a vivid blue sky with sunbeams, glittering river light and spray, or a white-gold burst of summoning light.
   - Saturated colour like the recap channels: Jaeha's orange against Lyra's river blue and a bright sky.
+- **Lyra faces the viewer** (the owner's note): her body and face turn toward us, front-on or at most three-quarters. Never her back, never a look back over her shoulder, never turned away in profile.
 - **Lyra, as beautiful as a hit webtoon's heroine on its cover.** Her face is the star of the image:
   - large, luminous river-blue almond eyes with bright catchlights and long dark lashes;
   - a small straight nose; soft, full pink lips with a glossy highlight, in a smug, teasing half-smile (or a wink);
@@ -69,7 +70,7 @@ Chest-up, the camera at their eye level, the two of them filling the frame.
 - **The three stagings:**
   1. `T1B_closeup_1`: she props her LEFT elbow on his shoulder like an armrest, with her chin on her left hand (the silver bracer shows on that forearm), and holds the white bow upright in her gloved RIGHT hand at picture-left, its top no higher than her eyes.
   2. `T1B_closeup_2`: she pinches his cheek with her LEFT hand and winks at the viewer. The bow is slung across her back.
-  3. `T1B_closeup_3`: her LEFT arm is hooked round his neck, pulling him close, her cheek near his. She smirks at the viewer while he panics. The bow is slung across her back.
+  3. `T1B_closeup_3`: her LEFT arm is hooked round his neck, pulling him close, her cheek near his, her body still turned to the viewer. She smirks at the viewer while he panics. The bow is slung across her back.
 
 ### Variant 5: `before_after` (two keepers)
 One frame, split by a jagged diagonal of light from the top (about 55% of the way across) to the bottom (about 45% across).
@@ -79,7 +80,7 @@ One frame, split by a jagged diagonal of light from the top (about 55% of the wa
   - The chalk box is clutched under his arm, and his vest is a dull, faded orange.
 - **AFTER, the right part:** blazing bright and saturated.
   - Jaeha is confident, with a calm small smile and sharp eyes.
-  - Lyra stands beside him at picture-right, leaning on his shoulder, with the smug half-smile and her bow, every lock on the right side.
+  - Lyra stands beside him at picture-right, facing the viewer, leaning on his shoulder, with the smug half-smile and her bow, every lock on the right side.
   - Nib is in the lower foreground, in his seal 3/5 armour, with both knives out and a scowl. He is smaller: if they stood together, his head would be at Jaeha's belt.
 - **The words.** Claude puts BEFORE at the top of the left part and AFTER at the top of the right part. Keep the top 300 px of the whole frame free of faces, hands and weapons: only sky, haze or light there. Every face starts below that.
 
