@@ -35,6 +35,8 @@ Characters in `characters_v2/`: `kang_jaeha`, `nib`, `song_yerin`, `mok_hangyu`,
 | `chapters_v2/ch001/art/` | Chapter 1's panels (P08, P25 and P59 are text panels with no art) | Published as an unlisted video. P09, P21 and P22 redrawn and approved 27 Oct (`codex/reviews/ch001-FIX.md`), for the long-form |
 | `chapters_v2/ch002/art/` | Chapter 2's approved panels: 59 of 60 | P52 is being fixed (job ch002-R6, `codex/reviews/ch002.md`) |
 | `chapters_v2/ch003/art/` | Chapter 3's approved panels: 59 of 62 | P33, P45 and P49 are being redrawn (job ch003-R1, `codex/reviews/ch003.md`) |
+| `chapters_v2/ch004/art/` | Chapter 4's approved panels so far: 51 of parts A–C and E–H | P03 is being redrawn (job ch004-R1); part D is being drawn |
+| `chapters_v2/ch005/art/` | Chapter 5's approved panels: 58 of 59 | P35 is being redrawn (job ch005-R1) |
 | `chapters_v2/ch006/art/` | Chapter 6's approved panels so far: 40 of parts A–E | P41 is being fixed (job ch006-R1); parts F and G are being drawn |
 
 ## Sending new art back for review
