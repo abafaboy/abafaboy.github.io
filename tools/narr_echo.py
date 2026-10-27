@@ -12,7 +12,20 @@ for e in R:
     p = P[e['panel']]
     let = [f"{l.get('who','')}:{l.get('type','')}: {l['text']}" for l in (p.get('lines') or []) if l.get('text')]
     let += [f"ui: {u.get('text') or u.get('title') or ''}" for u in (p.get('ui') or []) if isinstance(u, dict)]
-    lw = set(words(' '.join(let)))
+    # score against the lettering's words only (balloon texts and every text field of the windows, chats and
+    # news tickers), not the speaker ids and balloon types shown in the listing
+    SKIP = {'kind', 'on', 'at', 'size', 'color', 'rot', 'wf', 'width', 'side', 'id', 'style'}
+    def strings(v):
+        if isinstance(v, str): yield v
+        elif isinstance(v, list):
+            for x in v: yield from strings(x)
+        elif isinstance(v, dict):
+            for k, x in v.items():
+                if k not in SKIP: yield from strings(x)
+    texts = [l['text'] for l in (p.get('lines') or []) if l.get('text')]
+    for u in (p.get('ui') or []):
+        texts += list(strings(u))
+    lw = set(words(' '.join(texts)))
     nw = words(e['text'])
     score = sum(1 for w in nw if w in lw) / max(1, len(nw))
     if score >= thr:
