@@ -32,7 +32,11 @@ Above 50 dB the difference from the master can't be seen, and YouTube re-encodes
 **Steps, per chapter (as each chapter's art is reviewed and approved):**
 1. Letter: `tools/autostrip2.py scripts_v2/chNNN.yaml ART OUT --dpr 2`.
 2. Render: `tools/recap_video.py OUT recaps_v2/chNNN.json --chapter N` (the settings above are its defaults).
-3. Upload `recap.mp4` to YouTube as **Unlisted**, titled `My Summons Go First · Chapter N: <title>`, and add the link to the table at the end of this file.
+3. **Judge** (the owner's standing order, 27 October 2026: "after each chapter is finished, give it to a reviewer judge to rate it out of 10"):
+   - build the reading pack: `tools/judge_pack.py OUT recaps_v2/chNNN.json /home/claude/work/judge/chNNN --max 1800`;
+   - give it to a fresh reviewer agent with the prompt in `ledger/JUDGE_BRIEF.md`. It sees only the lettered pages and the narration;
+   - its report goes in `ledger/judge/chNNN.md`. Fix what it finds where a fix is possible (lettering, narration, Claude's paint fixes, or a redraw job), note what was done under the report, and tell the owner the score.
+4. Upload `recap.mp4` to YouTube as **Unlisted**, titled `My Summons Go First · Chapter N: <title>`, and add the link to the table at the end of this file.
 
 **Steps, at chapter 33:**
 1. Chapter 1 redrawn (P09, P21, P22), re-lettered and re-rendered with the season settings.
