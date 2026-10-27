@@ -38,6 +38,7 @@ Score each out of 10. Half points are allowed.
   - backgrounds, colour and light;
   - each character's design staying consistent from panel to panel;
   - any machine-made look: warped hands, melted or garbled detail, faces that change, plastic rendering, wrong numbers of fingers or weapons.
+  - **hands and arms, separately and strictly.** The owner (28 October 2026) watched chapters 2 and 3 and found the story amazing but the hands and arms "awful": wrong finger counts, odd wrists and elbows, grips that don't hold, arms in positions no body takes. Look at every visible hand at full size. In the report's art section, list every hand or arm problem by page and panel, and give a separate **Hands and arms** score out of 10.
 - **Storytelling:**
   - can a reader follow what happens from panel to panel without the narrator?
   - acting and expressions;
@@ -67,9 +68,9 @@ Score each out of 10. Half points are allowed.
 # Judge: chapter N, <title>
 **Overall: X/10**
 
-| Art | Storytelling | Lettering | Narration |
-|---|---|---|---|
-| x/10 | x/10 | x/10 | x/10 |
+| Art | Hands and arms | Storytelling | Lettering | Narration |
+|---|---|---|---|---|
+| x/10 | x/10 | x/10 | x/10 | x/10 |
 
 <One paragraph: the verdict, as you would tell the creator.>
 
@@ -78,6 +79,9 @@ Score each out of 10. Half points are allowed.
 
 ## Problems, most damaging first
 1. **[page_NN, Pxx]** what is wrong, and the fix. (Up to 12 items. Name the page file and the panel id every time.)
+
+## Hands and arms
+- **[page_NN, Pxx]** who, which hand or arm, what is wrong. (Every one you find; write "none found" if there are none.)
 
 ## To gain one point
 <The two or three changes that would raise the overall score most.>
