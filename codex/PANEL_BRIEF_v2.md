@@ -478,7 +478,7 @@ Chapters 13-33 need the sheets, keys and props in `ASSETS_ARC3_BRIEF.md` (Han So
 
 ### Chapter 21: Ask Him (`scripts_v2/ch021.yaml`)
 
-**Chapter 21 rules:** The climb up the ropes (P03), the collapsing passage (P04), then the spillway at midday (`dam_gate/key.png`). Jaeha is bandaged and carried on Yerin's back P03-P05; the head-sized core rides in a sling on his chest. Nib wears the seal 3/5 armour from now on. P09 is Lyra's glamour flourish, framed from the knees up. Bomi's drone lifts out of Borro's moss at P17. P35 is the ECU of Mok's eyes. The video (P44-P52) is drawn as a shaky phone image: Minseok close, lit by his phone, no rim in view. Police: `arc3_cast/lineup.png`. The rooftop (P64) and Baek's office with the blinds half down (P65-P67, `kanghan_office/day.png`).
+**Chapter 21 rules:** The climb up the ropes (P03), the collapsing passage (P04), then the spillway at midday (`dam_gate/key.png`). Jaeha is bandaged; Borro carries him up the rope at P03 (Jaeha clinging to his neck), and Yerin carries him on her back through the passage and out (P04-P05); the head-sized core rides in a sling on his chest. Nib wears the seal 3/5 armour from now on. P09 is Lyra's glamour flourish, framed from the knees up. Bomi's drone lifts out of Borro's moss at P17. P35 is the ECU of Mok's eyes. The video (P44-P52) is drawn as a shaky phone image: Minseok close, lit by his phone, no rim in view. Police: `arc3_cast/lineup.png`. The rooftop (P64) and Baek's office with the blinds half down (P65-P67, `kanghan_office/day.png`).
 
 | Part | Panels to draw | Notes |
 |---|---|---|

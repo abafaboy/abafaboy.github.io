@@ -59,6 +59,9 @@ panels:
     acting:
       kanghan_engineer: "tiny figures carrying crates two to a crate"
       kanghan_guard: "two tiny figures walking a slow patrol with torches"
+    hands:
+      kanghan_engineer: "tiny figures carrying crates two to a crate, each gripping a side handle"
+      kanghan_guard: "two tiny guards, each holding a torch forward in his RIGHT hand"
     calm: top
     lines:
       - {who: offpanel:crowd, type: tag, text: "TUESDAY NIGHT. UNDER THE BRIDGE."}
@@ -78,6 +81,9 @@ panels:
       wider than his feet.
     acting:
       nib: "crouched low, one hand on a rivet, the other on a knife hilt, peering over the edge"
+    hands:
+      nib: "LEFT hand flat on a rivet on the girder, four fingers spread; RIGHT hand reaches back to the hilt of a long knife at the small of his back"
+    hand_ref: [fists_and_bracing.png]
     calm: top
     silent: true
     sfx:
@@ -101,6 +107,13 @@ panels:
       yoo_bomi: "leaning in with her laptop open on her knees"
       kang_seoa: "leaning in, arms wrapped round her knees"
       foreman_gu: "licking his thumb, counting notes into an outstretched hand"
+    hands:
+      kang_jaeha: "RIGHT index and middle fingers pressed to his RIGHT temple; LEFT hand resting on his knee"
+      yoo_bomi: "both hands on the laptop open on her knees, fingers on the keys"
+      kang_seoa: "arms wrapped round her drawn-up knees, hands clasped over her shins"
+      foreman_gu: "LEFT hand holds a fan of banknotes; RIGHT thumb peels one off into an outstretched hand"
+      background: "one crew member holds out an open palm for the cash; the other four's hands at their sides"
+    hand_ref: [reaching_grabbing_wrist.png]
     calm: top
     lines:
       - {who: kang_jaeha, type: speech, text: "A VAN. FIVE PEOPLE IN WORK CLOTHES. THEY'RE BEING PAID IN CASH.", side: l}
@@ -116,6 +129,9 @@ panels:
       Nib's view in a thin amber vignette, from the top of a container: the foreman's clipboard tilted under the work light; a
       column of five numbers, 1 to 5, and beside each number, nothing: no names. Below it, the five pull their respirators up
       over their faces.
+    hands:
+      foreman_gu: "LEFT hand holds the clipboard tilted under the work light, thumb on its clip; RIGHT hand out of frame"
+      background: "below, the five crew each pull a respirator up over the face with both hands"
     calm: top
     lines:
       - {who: kang_jaeha, type: inner, text: "No names. Just numbers. Nobody would ever ask where they went."}
@@ -135,6 +151,11 @@ panels:
       yoo_bomi: "turning the laptop with both hands, eyebrows up, pleased with herself"
       kang_jaeha: "eyes just opened, blinking, leaning toward the screen"
       kang_seoa: "reading, frowning, one hand on Bomi's shoulder"
+    hands:
+      yoo_bomi: "both hands hold the open laptop by its sides, turning it round toward Jaeha"
+      kang_jaeha: "both hands on his knees as he leans toward the screen"
+      kang_seoa: "RIGHT hand resting on Bomi's shoulder, fingers curved over it; LEFT hand on her own knee"
+    hand_ref: [hand_on_shoulder.png]
     eyeline: "Bomi → Jaeha; Jaeha and Seoa → the screen"
     foreground: "the back of the laptop, cropped, bottom"
     calm: top
@@ -150,6 +171,7 @@ panels:
     light: "the screen glow"
     art: >
       Close on Bomi's laptop screen, flat green.
+    hands: none
     calm: left
     silent: true
     ui:
@@ -168,6 +190,8 @@ panels:
     art: >
       Nib's view in a thin amber vignette: the box truck's open back is stacked to the roof with crates leaking a faint violet glow;
       the crane swings another container over the fence; engineers hurry.
+    hands:
+      kanghan_engineer: "tiny figures hurrying, crates held in both arms against their chests"
     calm: top
     lines:
       - {who: kang_jaeha, type: inner, text: "Cores, by the truckload. And faster since Saturday."}
@@ -186,6 +210,9 @@ panels:
       the beam cuts through the dark toward a small crouched shape.
     acting:
       kanghan_guard: "stopped, head tilted back, torch raised straight up, squinting"
+    hands:
+      kanghan_guard: "RIGHT arm raised, the torch gripped in his RIGHT fist pointing straight up; LEFT hand at his side"
+    hand_ref: [grip_hilt_one_hand.png]
     calm: top
     silent: true
     sfx:
@@ -203,6 +230,9 @@ panels:
       girder through the beam, flaps once, and lands squarely on his head. Below, the beam drops away.
     acting:
       nib: "frozen flat, eyes rolling up toward the pigeon on his head, mouth a furious line"
+    hands:
+      nib: "lying flat on the girder, both four-fingered hands pressed flat on the steel beside his shoulders"
+    hand_ref: [fists_and_bracing.png]
     calm: top
     lines:
       - {who: kanghan_guard, type: speech, text: "PIGEONS. EVERY NIGHT.", side: l}
@@ -223,6 +253,10 @@ panels:
     acting:
       kang_jaeha: "eyes shut, lips pressed together, trying not to laugh"
       yoo_bomi: "a hand over her mouth, shoulders shaking"
+    hands:
+      kang_jaeha: "hands below the frame"
+      yoo_bomi: "RIGHT hand pressed over her mouth; LEFT hand out of frame"
+    hand_ref: [mouth_and_strap.png]
     calm: left
     lines:
       - {who: kang_jaeha, type: speech, text: "NIB SAYS HE HATES PIGEONS.", side: r}
@@ -259,6 +293,16 @@ panels:
       nib: "standing on a chair to see the table"
       lyra: "leaning in the doorway, arms folded, bored"
       borro: "his face filling the window, calm"
+    hands:
+      kang_jaeha: "RIGHT hand writing with the yellow pencil; LEFT hand holding the notebook open flat on the table"
+      choi_dongmin: "arms folded tight, a paper coffee cup in his RIGHT fist resting on his LEFT forearm"
+      yoo_bomi: "both hands on the laptop's keys in her lap"
+      song_yerin: "hands folded in her lap"
+      kang_seoa: "arms crossed"
+      nib: "arms hanging at his sides, long four-fingered hands near his knees"
+      lyra: "arms folded, one shoulder against the door frame"
+      borro: "hands out of frame (only his face fills the window)"
+    hand_ref: [notebook_and_pencil.png]
     calm: top
     lines:
       - {who: offpanel:crowd, type: tag, text: "WEDNESDAY EVENING."}
@@ -274,6 +318,9 @@ panels:
       Close on Choi (choi_dongmin) leaning over the table, jabbing a finger at Jaeha, coffee slopping.
     acting:
       choi_dongmin: "leaning over the table, jabbing a finger, coffee slopping in the other hand, eyes furious"
+    hands:
+      choi_dongmin: "LEFT index finger jabbing at Jaeha; RIGHT hand holds the paper coffee cup, coffee slopping over the rim"
+    hand_ref: [pointing.png, holding_cup.png]
     eyeline: "Choi → Jaeha"
     foreground: "Jaeha's notebook on the table, cropped, bottom"
     calm: top
@@ -296,6 +343,10 @@ panels:
     acting:
       kang_jaeha: "turning the notebook round with two fingers, calm, eyes on Choi"
       choi_dongmin: "glaring down at the sketch"
+    hands:
+      kang_jaeha: "RIGHT index and middle fingers on the notebook's corner, turning it round on the table; LEFT hand flat on the table"
+      choi_dongmin: "RIGHT hand round his coffee cup at the bottom left; LEFT hand on the table's edge"
+    hand_ref: [holding_cup.png]
     eyeline: "Jaeha → Choi; Choi → the sketch"
     foreground: "Choi's coffee cup, cropped, bottom left"
     calm: top
@@ -314,6 +365,9 @@ panels:
       Close on Choi (choi_dongmin) pointing over his shoulder at the window, where Borro's face looks in.
     acting:
       choi_dongmin: "pointing over his shoulder with his thumb, one eyebrow up"
+    hands:
+      choi_dongmin: "LEFT thumb jabbing back over his LEFT shoulder at the window, fingers curled; RIGHT hand with the coffee below the frame"
+    hand_ref: [pointing.png]
     eyeline: "Choi → Jaeha"
     foreground: "the edge of Borro's white face in the window, cropped, right"
     calm: right
@@ -331,6 +385,7 @@ panels:
       Top-down on the notebook page: a pencil map of the bridge pier, the fenced enclosure and the river; the gate slit drawn in the
       pier's shadow with its bottom third below the waterline behind a net; three dotted routes: one along the bridge girders, one
       along the riverbed, one swimming; a fourth, solid line through the front gate.
+    hands: none
     calm: top
     lines:
       - {who: kang_jaeha, type: note, text: "NIB: GIRDERS. BORRO: RIVERBED. LYRA: SWIM. ME: FRONT DOOR."}
@@ -350,6 +405,9 @@ panels:
     acting:
       borro: "his face filling the window, calm, a single leaf stuck to his cheek"
       lyra: "tossing her braid back with one hand, the other on her hip, chin up"
+    hands:
+      borro: "hands out of frame (only his face fills the window)"
+      lyra: "LEFT hand flicks the braid back over her LEFT shoulder; gloved RIGHT hand on her hip"
     eyeline: "Borro → Jaeha; Lyra → Choi"
     foreground: "the window frame, cropped, left"
     calm: top
@@ -370,6 +428,10 @@ panels:
     acting:
       song_yerin: "hands tight in her lap, looking up at him"
       kang_jaeha: "counting off on his fingers, a reassuring half-smile"
+    hands:
+      song_yerin: "both hands clasped tight in her lap"
+      kang_jaeha: "counting: LEFT hand raised with three fingers up; RIGHT index finger touching them one by one"
+    hand_ref: [pointing.png]
     eyeline: "Yerin ↔ Jaeha"
     foreground: "Yerin's first-aid bag on the floor, cropped, bottom left"
     calm: top
@@ -388,6 +450,9 @@ panels:
       Close on Choi (choi_dongmin) rubbing his eyes with his thumb and finger, giving up.
     acting:
       choi_dongmin: "rubbing his eyes with one hand, shoulders dropping, a long sigh"
+    hands:
+      choi_dongmin: "LEFT thumb and index finger rubbing his closed eyes; RIGHT hand round his coffee cup at the bottom of the frame"
+    hand_ref: [holding_cup.png]
     eyeline: "Choi → the table"
     foreground: "his coffee cup, cropped, bottom"
     calm: left
@@ -409,6 +474,10 @@ panels:
     acting:
       kang_jaeha: "one hand raised, mouth open to speak"
       choi_dongmin: "palm raised flat at Jaeha, eyes shut"
+    hands:
+      kang_jaeha: "RIGHT hand raised at shoulder height, index finger up, about to argue; LEFT hand on the table"
+      choi_dongmin: "LEFT palm raised flat toward Jaeha, fingers together; RIGHT hand holds his coffee"
+    hand_ref: [reaching_grabbing_wrist.png]
     eyeline: "Jaeha → Choi; Choi → away"
     foreground: "Bomi's laptop screen, cropped, bottom right"
     calm: top
@@ -427,6 +496,8 @@ panels:
       Close on Seoa (kang_seoa) on her bed, staring at her knees, silent, her glasses catching the light.
     acting:
       kang_seoa: "hugging her knees, jaw tight, eyes on her knees"
+    hands:
+      kang_seoa: "arms wrapped round her knees, hands clasped over her shins"
     calm: right
     silent: true
 
@@ -443,6 +514,10 @@ panels:
     acting:
       kang_seoa: "gripping his sleeve with both hands, glaring up at him, eyes wet"
       kang_jaeha: "stopping, looking down at her, his face softening"
+    hands:
+      kang_seoa: "both hands grip the sleeve of his hoodie at his LEFT forearm"
+      kang_jaeha: "LEFT arm held out where she grips the sleeve; RIGHT hand at his side"
+    hand_ref: [reaching_grabbing_wrist.png]
     eyeline: "Seoa → Jaeha (up); Jaeha → Seoa (down)"
     foreground: "the bed's pillow, cropped, bottom left"
     calm: top
@@ -459,6 +534,10 @@ panels:
     light: "warm bulb"
     art: >
       Close on their two hands: little fingers hooked together, thumbs pressed together to stamp the promise.
+    hands:
+      kang_seoa: "RIGHT little finger hooked round Jaeha's RIGHT little finger, the other fingers curled, her thumb pressed to his"
+      kang_jaeha: "gloved RIGHT hand: little finger hooked round Seoa's, the other fingers curled, his bare thumbtip pressed to hers"
+    hand_ref: [handshake_and_peace.png]
     calm: left
     silent: true
     sfx:
@@ -476,6 +555,10 @@ panels:
       out over the dark roofs, the river and the line of orange bridge lights.
     acting:
       nib: "sitting on the sill, looking out at the bridge, chin on his knees"
+    hands:
+      nib: "arms wrapped round his shins, four-fingered hands clasped, chin on his knees"
+      kang_seoa: "small in the room behind: her RIGHT little finger still hooked round her brother's"
+      kang_jaeha: "small in the room behind: RIGHT little finger hooked round Seoa's; LEFT hand at his side"
     calm: top
     silent: true
 
@@ -494,6 +577,10 @@ panels:
     acting:
       kang_jaeha: "standing a little apart, hands in his pockets, cap low"
       foreman_gu: "leaning on the van, clipboard under his arm, chewing gum"
+    hands:
+      kang_jaeha: "both hands in the pockets of his grey coveralls"
+      foreman_gu: "clipboard tucked under his LEFT arm, the hand on its edge; RIGHT hand on his belt beside the stun baton"
+      background: "the other four crew with hands at their sides or in their pockets"
     calm: top
     lines:
       - {who: offpanel:crowd, type: tag, text: "THURSDAY, 10:50 PM."}
@@ -510,6 +597,9 @@ panels:
       the stun baton swings on his belt.
     acting:
       foreman_gu: "tossing a tabard underarm without looking, bored, the other hand on the baton"
+    hands:
+      foreman_gu: "RIGHT hand tossing a tabard underarm; LEFT hand resting on the stun baton at his belt, the clipboard tucked under that arm"
+      background: "crew members raising their hands to catch tabards"
     eyeline: "the foreman → the clipboard"
     foreground: "a tabard flying through the air toward the camera, cropped, top right"
     calm: top
@@ -527,6 +617,9 @@ panels:
     light: "the lamp"
     art: >
       Close on Jaeha's hands catching an orange tabard with a big black stencilled 4 on it.
+    hands:
+      kang_jaeha: "both gloved hands catch the orange tabard in mid-air, fingers clutching the fabric"
+    hand_ref: [reaching_grabbing_wrist.png]
     calm: right
     silent: true
     sfx:
@@ -547,6 +640,9 @@ panels:
     acting:
       crew_pyo: "tugging the tabard down over his head, grinning with crooked teeth, nodding at Jaeha"
       kang_jaeha: "holding his tabard, ducking his head politely"
+    hands:
+      crew_pyo: "both hands tugging the tabard down over his head by its front edge"
+      kang_jaeha: "both hands hold his folded tabard against his stomach"
     eyeline: "Pyo → Jaeha; Jaeha → Pyo"
     foreground: "the van's open side door, cropped, left"
     calm: top
@@ -565,6 +661,9 @@ panels:
       Close on Uncle Pyo (crew_pyo) slapping his knee brace with a laugh.
     acting:
       crew_pyo: "slapping the brace on his LEFT knee, laughing, eyes creased shut"
+    hands:
+      crew_pyo: "LEFT hand slaps the brace on his LEFT knee, palm flat; RIGHT hand on his thigh"
+    hand_ref: [fists_and_bracing.png]
     eyeline: "Pyo → Jaeha"
     foreground: "Jaeha's shoulder, cropped, left"
     calm: left
@@ -586,6 +685,10 @@ panels:
     acting:
       crew_dami: "holding the phone up toward him, a tired, proud smile"
       kang_jaeha: "leaning in to look, smiling"
+    hands:
+      crew_dami: "RIGHT hand holds her phone up toward him, screen facing him, thumb on its edge"
+      kang_jaeha: "both hands hold his bunched tabard at his waist"
+    hand_ref: [phone_hold.png]
     eyeline: "Dami → Jaeha; Jaeha → the phone"
     foreground: "the glowing phone, cropped, bottom"
     calm: top
@@ -605,6 +708,10 @@ panels:
     acting:
       crew_woo: "jabbing a finger at his brother's chest, scowling"
       crew_ho: "arms spread wide, painting a sign in the air, eyes shining"
+    hands:
+      crew_woo: "RIGHT index finger jabbing his brother's chest; LEFT hand at his side"
+      crew_ho: "both arms spread wide above his head, hands open, painting a sign in the air"
+    hand_ref: [pointing.png]
     eyeline: "Woo ↔ Ho"
     foreground: "the van's wing mirror, cropped, top left"
     calm: top
@@ -626,6 +733,8 @@ panels:
       Close on Jaeha (kang_jaeha) watching the four of them, the lamp above him throwing his eyes into shadow under the cap.
     acting:
       kang_jaeha: "watching, very still, the tabard bunched in his hands"
+    hands:
+      kang_jaeha: "both hands bunch the orange tabard against his chest at the bottom of the frame"
     eyeline: "Jaeha → the crew"
     calm: right
     lines:
@@ -643,6 +752,11 @@ panels:
       vanish behind smoky visors: five identical figures in grey and orange, numbers 1 to 5.
     acting:
       foreman_gu: "a whistle between his teeth, cheeks puffed, pointing at the fence"
+    hands:
+      foreman_gu: "RIGHT arm extended, index finger pointing at the fence; LEFT hand at his side, the clipboard under that arm"
+      kang_jaeha: "both hands pull the respirator down over his face, like the others"
+      background: "the other four crew each pull a respirator down over the face with both hands"
+    hand_ref: [pointing.png]
     calm: top
     sfx:
       - {text: "FWEEEET", style: impact, at: [0.30, 0.20], size: L, rot: -6}
@@ -662,6 +776,10 @@ panels:
       a row. Guards (kanghan_guard) watch them pass. Scale: the slit is door-height; the pier is 6 m wide.
     acting:
       kanghan_guard: "two guards standing aside, arms folded, watching the line go by"
+    hands:
+      kanghan_guard: "two guards standing aside, arms folded"
+      foreman_gu: "back view, leading: hands at his sides"
+      background: "the five crew walk with hands at their sides; the five husks ahead walk stiffly, arms hanging"
     calm: top
     sfx:
       - {text: "STEP STEP STEP", style: quiet, at: [0.50, 0.86], size: S, rot: 0}
@@ -681,6 +799,9 @@ panels:
     acting:
       borro: "walking steadily along the bottom, head lowered to duck under the net's sagging edge"
       lyra: "swimming side-on with one smooth kick, braid streaming, eyes bright, entirely at home"
+    hands:
+      borro: "arms at his sides, huge four-fingered hands open as he walks"
+      lyra: "arms swept back along her sides in the glide, hands relaxed, fingers together"
     calm: top
     silent: true
     sfx:
@@ -700,6 +821,10 @@ panels:
     acting:
       nib: "dropping off the cable into a deep crouch, one hand flat on the steel, cloak settling"
       kanghan_guard: "facing away, yawning"
+    hands:
+      nib: "RIGHT hand flat on the container roof, four fingers spread, taking his weight in the crouch; LEFT hand raised, just letting go of the cable above"
+      kanghan_guard: "back to us, hands at his sides, the torch hanging in his RIGHT hand"
+    hand_ref: [fists_and_bracing.png]
     calm: top
     sfx:
       - {text: "...tp", style: quiet, at: [0.40, 0.40], size: S, rot: 0}
@@ -717,6 +842,8 @@ panels:
       him and swallowing his outline.
     acting:
       kang_jaeha: "stepping forward into the light, one hand raised against the glare"
+    hands:
+      kang_jaeha: "RIGHT hand raised in front of his visor against the glare, palm out toward the light; LEFT arm at his side"
     eyeline: "Jaeha → the light"
     foreground: "the edge of the slit, a seam of white light, cropped, left"
     calm: top
@@ -738,6 +865,8 @@ panels:
       pipes as thick as trucks, humming, plunging into the dark; strings of white work lights; cables everywhere; far, far below, a
       thread of river. The five tiny figures stand on the first walkway at the bottom of the frame. Scale: the canyon is 400 m deep
       and 200 m across; the walkways are 2 m wide; the pipes are 4 m thick.
+    hands:
+      background: "five tiny crew figures on the first walkway, hands at their sides or on the rail"
     calm: top
     silent: true
     sfx:
@@ -758,6 +887,12 @@ panels:
       crew_woo: "frozen, one hand on his brother's arm"
       crew_ho: "leaning out over the rail, open-mouthed"
       crew_pyo: "eyes on his boots, one hand on the rock wall, tapping Ho's back to pull him in"
+    hands:
+      crew_dami: "both hands gripping the rail at arm's length, knuckles white"
+      crew_woo: "RIGHT hand gripping his brother's upper arm; LEFT hand on the rail"
+      crew_ho: "both bare hands on the rail as he leans out over it"
+      crew_pyo: "LEFT hand flat on the rock wall; RIGHT hand tapping Ho's back to pull him in"
+    hand_ref: [reaching_grabbing_wrist.png]
     calm: top
     lines:
       - {who: crew_pyo, type: speech, text: "DON'T LOOK DOWN, I SAID. NOBODY EVER LISTENS.", side: l}
@@ -775,6 +910,7 @@ panels:
       up toward the pipes, one moss-green and one river-blue thread down toward the river below. Only he can see them.
     acting:
       kang_jaeha: "head tilted a fraction, listening, hands at his sides"
+    hands: none
     calm: top
     silent: true
     ui:
@@ -793,6 +929,10 @@ panels:
       plain husks.
     acting:
       foreman_gu: "pointing the baton down the walkway, the other hand on his clipboard"
+    hands:
+      foreman_gu: "RIGHT arm extended, the stun baton gripped in his RIGHT fist, pointing down the walkway; LEFT hand holds the clipboard against his chest"
+      background: "the crew in a line behind their husks, hands at their sides"
+    hand_ref: [grip_hilt_one_hand.png]
     eyeline: "the foreman → the walkway"
     foreground: "the foreman's shoulder and hard hat, cropped, left"
     calm: top
@@ -809,6 +949,8 @@ panels:
     art: >
       Along the walkway: a husk steps where the steel runs over a carved stone plate in the rock ledge; the plate clicks and a spike
       of stone the size of a man punches out of the wall and smashes the husk off the walkway into the abyss in pieces.
+    hands:
+      background: "no human hands: the husk's arms fly apart in white shards"
     calm: top
     sfx:
       - {text: "KA-TANG!", style: impact, at: [0.50, 0.30], size: L, rot: -6}
@@ -824,6 +966,10 @@ panels:
       Close on the foreman (foreman_gu) ticking his clipboard without looking up; behind him, a blurred figure (Dami) flinches.
     acting:
       foreman_gu: "ticking the clipboard with a pen, chewing gum, bored"
+    hands:
+      foreman_gu: "LEFT hand holds the clipboard; RIGHT hand ticks it with a pen"
+      background: "a blurred figure behind flinches, hands jerking up"
+    hand_ref: [notebook_and_pencil.png]
     calm: left
     lines:
       - {who: foreman_gu, type: speech, text: "ONE. KEEP WALKING.", side: l}
@@ -841,6 +987,8 @@ panels:
       empty for the window.
     acting:
       kang_jaeha: "both hands on the rail, visor turned to the window, very still"
+    hands:
+      kang_jaeha: "both gloved hands resting on the rail, fingers wrapped over it"
     eyeline: "Jaeha → the window"
     calm: top
     silent: true
@@ -860,6 +1008,7 @@ panels:
       the visor glass. Fill the canvas edge to edge.
     acting:
       kang_jaeha: "eyes narrowing, lower lids tight"
+    hands: none
     calm: none
     lines:
       - {who: kang_jaeha, type: inner, text: "Four years and seventy-one days. Since the day you didn't come out."}
@@ -877,6 +1026,9 @@ panels:
       holds the notebook open just inside his tabard, the pencil counting plates.
     acting:
       kang_jaeha: "crouched as if tying a boot, notebook half hidden under the tabard, pencil tapping"
+    hands:
+      kang_jaeha: "crouched: gloved LEFT hand holds the notebook open just inside the tabard's edge; RIGHT hand taps the yellow pencil toward the plates"
+    hand_ref: [notebook_and_pencil.png]
     calm: top
     lines:
       - {who: kang_jaeha, type: inner, text: "Old Far Side trap stones. The spiral opens left on every live one."}
@@ -896,6 +1048,10 @@ panels:
     acting:
       kang_jaeha: "reaching out a hand toward Pyo's back, speaking low"
       crew_pyo: "mid-step, his braced LEFT leg lifted, eyes on his husk"
+    hands:
+      kang_jaeha: "over-the-shoulder: RIGHT hand reaching toward Pyo's back, fingers open, cropped at the bottom right; LEFT hand at his side"
+      crew_pyo: "mid-step, arms loose at his sides"
+    hand_ref: [reaching_grabbing_wrist.png]
     eyeline: "Jaeha → Pyo's foot"
     foreground: "Jaeha's reaching hand, cropped, bottom right"
     calm: top
@@ -914,6 +1070,8 @@ panels:
       out of the wall at knee height, cutting the husk's legs away exactly where Pyo's knee would have been.
     acting:
       crew_pyo: "frozen on one leg, arms out, visor turned to the blade"
+    hands:
+      crew_pyo: "frozen on one leg, both arms flung out to the sides for balance, hands spread"
     calm: top
     sfx:
       - {text: "SHHRAK!", style: impact, at: [0.50, 0.40], size: L, rot: 8}
@@ -931,6 +1089,9 @@ panels:
     acting:
       crew_pyo: "turned toward Jaeha, one hand on his knee brace"
       kang_jaeha: "a small shrug, palms up, head tilted politely"
+    hands:
+      crew_pyo: "LEFT hand resting on the brace on his LEFT knee; RIGHT hand at his side"
+      kang_jaeha: "a small shrug: both hands at waist height, palms up, elbows in"
     eyeline: "Pyo → Jaeha; Jaeha → Pyo"
     foreground: "the broken husk's legs on the walkway, cropped, bottom"
     calm: top
@@ -949,6 +1110,8 @@ panels:
       Close on the foreman (foreman_gu) narrowing his eyes at number 4 over the top of his clipboard.
     acting:
       foreman_gu: "eyes narrowed over the clipboard, jaw stopped mid-chew"
+    hands:
+      foreman_gu: "LEFT hand holds the clipboard up at chin height, fingers over its top edge; RIGHT hand out of frame"
     eyeline: "the foreman → Jaeha"
     calm: left
     silent: true
@@ -966,6 +1129,8 @@ panels:
       High, looking down the canyon wall: the crew, small, file down the zig-zag walkways behind their husks, the giant pipes
       humming beside them; on top of one pipe, a tiny cloaked figure keeps pace with them; far below on the river, two shapes in
       the water, one big, one slim. Scale: each zig-zag drops 15 m; the crew are specks.
+    hands:
+      background: "the crew are specks, hands at their sides or on the rails; the cloaked figure on the pipe and the two shapes in the river are too small for hands"
     calm: top
     silent: true
     sfx:
@@ -981,8 +1146,12 @@ panels:
     art: >
       On the walkway: Ho (crew_ho) taps the rail and frowns; Woo (crew_woo) beside him listens with his head tilted.
     acting:
-      crew_ho: "one gloved hand flat on the rail, visor tilted, frowning"
+      crew_ho: "one bare hand flat on the rail, visor tilted, frowning"
       crew_woo: "head tilted, listening, one hand on his brother's shoulder"
+    hands:
+      crew_ho: "RIGHT bare hand flat on the rail; LEFT hand at his side"
+      crew_woo: "LEFT hand resting on Ho's shoulder, fingers curved over it; RIGHT hand on the rail"
+    hand_ref: [hand_on_shoulder.png]
     eyeline: "both → the rail"
     foreground: "the rail, vibrating, cropped, bottom"
     calm: top
@@ -1003,6 +1172,10 @@ panels:
       wait at the rail. Scale: the cabin is 3 m tall; the pipes beside it are 4 m thick.
     acting:
       kanghan_engineer: "two engineers carrying tablets, one stopping to talk to the foreman"
+    hands:
+      kanghan_engineer: "each carries a tablet in his LEFT hand at his side"
+      foreman_gu: "the clipboard under his LEFT arm, hands at his sides"
+      background: "the crew wait at the rail, hands on it or at their sides"
     calm: top
     silent: true
 
@@ -1019,6 +1192,9 @@ panels:
     acting:
       foreman_gu: "leaning in, gum forgotten, eyes wide"
       kanghan_engineer: "radio at his ear, the other hand spread helplessly"
+    hands:
+      foreman_gu: "LEFT hand grips the clipboard against his chest; RIGHT hand at his side"
+      kanghan_engineer: "RIGHT hand holds a radio to his ear; LEFT hand spread open, palm up, helpless"
     eyeline: "the foreman ↔ the engineer"
     foreground: "the cabin's open door, cropped, left"
     calm: top
@@ -1037,6 +1213,10 @@ panels:
       The foreman (foreman_gu) rounds on the crew with the stun baton out, pointing it at each of them in turn; it crackles.
     acting:
       foreman_gu: "baton out, pointing it along the line, face red"
+    hands:
+      foreman_gu: "RIGHT fist grips the stun baton, pointing it along the line of crew; LEFT hand holds the clipboard at his side"
+      background: "the crew stand with hands at their sides"
+    hand_ref: [grip_hilt_one_hand.png]
     eyeline: "the foreman → the crew"
     foreground: "the crackling tip of the baton, cropped, right"
     calm: top
@@ -1059,6 +1239,11 @@ panels:
       crew_ho: "leaning toward his brother, whispering behind a hand"
       crew_woo: "whispering back out of the side of his visor"
       crew_dami: "a finger raised to her visor, glancing at the foreman"
+    hands:
+      crew_ho: "RIGHT hand cupped beside his visor, whispering behind it; LEFT bare hand on the rail"
+      crew_woo: "both hands on the rail, his visor turned toward Ho"
+      crew_dami: "RIGHT index finger raised to her visor to shush them; LEFT hand on the rail"
+    hand_ref: [pointing.png, mouth_and_strap.png]
     eyeline: "Ho ↔ Woo; Dami → the foreman"
     foreground: "the rail, cropped, bottom"
     calm: top
@@ -1080,6 +1265,11 @@ panels:
       foreman_gu: "head snapping up, baton lowering"
       crew_pyo: "looking up, one hand on the rail"
       kanghan_engineer: "two engineers freezing in the cabin doorway"
+    hands:
+      foreman_gu: "RIGHT hand lowering the stun baton to his side; LEFT hand holds the clipboard"
+      crew_pyo: "LEFT hand on the rail; RIGHT hand at his side"
+      kanghan_engineer: "two engineers frozen in the cabin doorway, tablets held to their chests"
+      background: "the other crew, hands on the rail or at their sides"
     calm: top
     silent: true
     sfx:
@@ -1098,6 +1288,8 @@ panels:
       column fills the walkway and stretches back up out of sight round the zig-zag.
     acting:
       ahin_husks: "marching in perfect unison, two by two, arms swinging together"
+    hands:
+      ahin_husks: "arms swinging together, hands relaxed with fingers together, every hand at the same angle"
     calm: top
     silent: true
     sfx:
@@ -1120,6 +1312,14 @@ panels:
       kanghan_engineer: "bowing stiffly in the doorway"
       crew_dami: "pressed back against the rock, hands flat on it"
       crew_pyo: "pressed back against the rock, head down"
+    hands:
+      kang_jaeha: "LEFT hand resting on the rail; RIGHT hand at his side"
+      foreman_gu: "bowing: both hands clutch his hard hat to his stomach, the clipboard pinned under his LEFT arm, the baton back on his belt"
+      kanghan_engineer: "bowing in the doorway, hands at their sides, tablets held flat against their thighs"
+      crew_dami: "both palms flat on the rock wall behind her"
+      crew_pyo: "both hands flat on the rock behind him"
+      background: "Woo and Ho pressed back against the rock, hands flat on it"
+    hand_ref: [fists_and_bracing.png]
     calm: top
     silent: true
     sfx:
@@ -1135,6 +1335,7 @@ panels:
     art: >
       A thin strip at ankle height: a white knee-high heeled boot steps onto the steel landing between the feet of two marching
       husks. Fill the canvas edge to edge.
+    hands: none
     calm: none
     silent: true
     sfx:
@@ -1155,6 +1356,9 @@ panels:
     acting:
       moon_ahin: "walking straight at the camera, baton loose in her RIGHT hand, chin slightly raised, eyes half-lidded and bored"
       ahin_husks: "standing at attention in two rows, perfectly still"
+    hands:
+      moon_ahin: "white-gloved RIGHT hand holds the silver baton loosely down at her side, between thumb and fingers; LEFT hand relaxed at her side"
+      ahin_husks: "standing at attention in two rows, arms straight at their sides"
     calm: top
     silent: true
 
@@ -1171,6 +1375,10 @@ panels:
     acting:
       moon_ahin: "looking along the row, the baton tapping her gloved LEFT palm"
       kang_jaeha: "standing stiff like the others, visor straight ahead"
+    hands:
+      moon_ahin: "RIGHT hand taps the silver baton against her open gloved LEFT palm"
+      kang_jaeha: "arms straight at his sides, like the others"
+      background: "the other crew stand stiff, arms straight at their sides"
     eyeline: "Moon Ahin → the row of numbers"
     foreground: "her white boot and the hem of the coat-dress, cropped, bottom left"
     calm: top
@@ -1189,6 +1397,7 @@ panels:
       Close on Jaeha's smoky visor (kang_jaeha): the white figure of Moon Ahin reflected small in it.
     acting:
       kang_jaeha: "perfectly still behind the visor, breath fogging it once"
+    hands: none
     calm: left
     lines:
       - {who: kang_jaeha, type: inner, text: "Kanghan's heir. In the gate her family says doesn't exist."}
@@ -1206,6 +1415,10 @@ panels:
     acting:
       moon_ahin: "baton raised and pointing down the canyon, the faintest cold smile"
       ahin_husks: "forty heads turning together toward the depths"
+    hands:
+      moon_ahin: "RIGHT arm extended, the baton pointing down into the canyon, held between thumb and fingers; LEFT hand below the frame"
+      ahin_husks: "arms straight at their sides as their heads turn"
+    hand_ref: [pointing.png]
     eyeline: "Moon Ahin → the depths"
     foreground: "the rail and the drop, cropped, bottom"
     calm: top
@@ -1227,6 +1440,7 @@ panels:
       bow beginning.
     acting:
       kang_jaeha: "turning slowly, beginning a small polite bow"
+    hands: none
     calm: right
     lines:
       - {who: kang_jaeha, type: speech, text: "OF COURSE, MA'AM. MY HUSK IS READY. IT'S A VERY BRAVE HUSK.", side: r}
@@ -1241,6 +1455,7 @@ panels:
     art: >
       A thin strip: far below in the dark of the canyon, a single throb of violet light runs down the length of the giant pipes and
       fades. Fill the canvas edge to edge.
+    hands: none
     calm: none
     silent: true
     sfx:
@@ -1249,3 +1464,7 @@ panels:
   - id: END
     kind: end
     chibi_gag: "Chibi Nib, back on the girder, holds a tiny sign that says nothing while the fat pigeon sits on his head, and chibi Lyra, underwater, blows a perfect bubble ring through Borro's moss."
+    hands:
+      nib: "chibi: both four-fingered hands hold up a tiny blank sign at chest height"
+      lyra: "chibi: hands relaxed at her sides as she floats"
+      borro: "only his mossy shell in frame; hands out of frame"

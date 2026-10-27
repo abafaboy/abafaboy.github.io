@@ -61,6 +61,11 @@ panels:
     acting:
       mok_hangyu: "head down, shoulders hunched, cuffed hands in front, not looking at the cameras"
       police: "two officers each holding one of his arms, walking him up the steps"
+    hands:
+      mok_hangyu: "cuffed hands held in front of his belt, fingers laced, shoulders hunched"
+      police: "each officer grips one of Mok's upper arms, fingers wrapped round the sleeve"
+      background: "reporters at the foot of the steps hold microphones and cameras up toward him"
+    hand_ref: [reaching_grabbing_wrist.png]
     calm: bottom
     lines:
       - {who: offpanel:crowd, type: tag, text: "SUNDAY MORNING."}
@@ -83,6 +88,8 @@ panels:
       News footage: from the street, workmen on a cherry-picker lower a big black dog's-head guild sign off the front of a glass
       office building on straps; below, people in black guild jackets carry cardboard boxes out to the kerb. Scale: the sign is
       as tall as two men. Keep the bottom fifth calm for the lower third.
+    hands:
+      background: "two workmen in the cherry-picker basket hold the sign's straps in both hands; below, people carry cardboard boxes in both arms against their chests"
     calm: bottom
     silent: true
     ui:
@@ -102,6 +109,8 @@ panels:
       silver hexagon-in-a-hexagon logo (no letters); microphones bristle on the podium. Keep the bottom fifth calm.
     acting:
       kanghan_spokesman: "both hands resting on the podium, a practised sorrowful frown, eyes on the cameras"
+    hands:
+      kanghan_spokesman: "both hands resting flat on the podium's edges either side of the microphones, fingers together"
     eyeline: "the spokesman → the cameras"
     foreground: "the bristle of microphones on the podium, cropped, bottom"
     calm: top
@@ -124,6 +133,9 @@ panels:
     acting:
       granny_kimchi: "glaring up at the TV, one rubber-gloved hand on her hip, the basket on her other arm, lips pursed"
       conv_clerk: "leaning on the counter, chin in his hand, nodding sleepily"
+    hands:
+      granny_kimchi: "RIGHT hand, in a yellow rubber glove, on her hip; LEFT forearm through the shopping basket's handles, the basket hanging at her elbow"
+      conv_clerk: "RIGHT elbow on the counter, chin propped in his RIGHT hand; LEFT forearm flat on the counter"
     eyeline: "granny and clerk → the TV (up)"
     calm: top
     lines:
@@ -152,6 +164,11 @@ panels:
       nib: "sitting cross-legged, back straight, knives across his knees, watching the door"
       lyra: "sitting sideways in the window frame, legs drawn up, buffing an arrowhead on her sleeve, bored"
       kang_seoa: "arms crossed at her desk, a withering look at her brother"
+    hands:
+      kang_jaeha: "asleep: LEFT arm flung out across the floor, palm up, fingers loose; RIGHT hand under the blanket"
+      nib: "both four-fingered hands resting on the long knives laid across his knees"
+      lyra: "RIGHT hand buffs an arrowhead on the loose end of her white silk sash, held up in her LEFT hand (her arms are bare: no sleeve)"
+      kang_seoa: "arms folded, hands tucked at her elbows"
     calm: top
     lines:
       - {who: kang_seoa, type: speech, text: "SEVENTEEN HOURS. HE'S BEEN ASLEEP FOR SEVENTEEN HOURS.", side: r}
@@ -169,6 +186,9 @@ panels:
     art: >
       Close on the floorboards by Jaeha's head: his phone buzzes in a slow circle, screen flat green; his fingers creep toward it
       out of the blankets.
+    hands:
+      kang_jaeha: "RIGHT hand creeps out from under the blanket toward the phone, fingertips walking on the boards; nothing over the green screen"
+    hand_ref: [reaching_grabbing_wrist.png]
     calm: left
     silent: true
     ui:
@@ -190,6 +210,9 @@ panels:
     acting:
       kang_jaeha: "lying flat, phone at his ear, eyes half open, a polite voice out of a half-asleep face"
       gomi: "asleep on his chest, unbothered"
+    hands:
+      kang_jaeha: "lying on his back: RIGHT hand holds the phone to his RIGHT ear; LEFT arm lies flat on the floor beside him"
+    hand_ref: [phone_hold.png]
     eyeline: "Jaeha → the ceiling"
     foreground: "the cat's orange fur, cropped, bottom left"
     calm: top
@@ -208,6 +231,9 @@ panels:
       Close on Lyra (lyra) in the window frame, swinging round to face the room, suddenly very interested.
     acting:
       lyra: "swinging her legs round, pointing the arrowhead at Jaeha, eyes narrowed"
+    hands:
+      lyra: "RIGHT hand points the small arrowhead at Jaeha, pinched between thumb and fingers; LEFT hand braced on the window frame"
+    hand_ref: [pointing.png]
     eyeline: "Lyra → Jaeha (down)"
     foreground: "the window's frame, cropped, left"
     calm: right
@@ -228,6 +254,10 @@ panels:
     acting:
       lyra: "flopping back, one arm over her eyes, the other hanging off the ledge"
       nib: "nodding slowly, arms folded"
+    hands:
+      lyra: "RIGHT forearm laid across her eyes, the arrowhead loose in that hand; LEFT arm hanging off the ledge, fingers dangling"
+      nib: "arms folded across his cuirass, four-fingered hands tucked at his elbows"
+    hand_ref: [arms_relaxed.png]
     calm: top
     lines:
       - {who: lyra, type: speech, text: "YOUR WORLD IS STUPID.", side: l}
@@ -249,6 +279,10 @@ panels:
       kang_seoa: "swinging the pillow with one hand, the other gripping his sleeve, glaring through wet eyes"
       kang_jaeha: "sitting up into the pillow, eyes squeezed shut, both hands half raised"
       gomi: "leaping off his chest, fur on end"
+    hands:
+      kang_seoa: "RIGHT hand swings a pillow into his face by one corner; LEFT hand grips the sleeve of his hoodie at the wrist"
+      kang_jaeha: "both hands half raised at shoulder height, palms out, fingers spread; Seoa holds one sleeve"
+    hand_ref: [reaching_grabbing_wrist.png]
     calm: top
     lines:
       - {who: kang_seoa, type: shout, text: "YOU ALMOST DIED ON LIVE TV! TWO MILLION PEOPLE WATCHED, AND I WAS ONE OF THEM!", side: l}
@@ -284,6 +318,11 @@ panels:
       nib: "walking at his RIGHT side, matching his pace, looking up at the walls of niches"
       borro: "tiny, outside the glass doors, sitting on the steps, waiting patiently"
       lyra: "tiny, outside the glass doors, leaning on the gatepost, bored"
+    hands:
+      kang_jaeha: "LEFT hand on the walking stick's handle, weight on it; RIGHT hand hanging at his side"
+      nib: "the husk act: arms hanging stiff at his sides, four-fingered hands limp near his knees"
+      borro: "tiny: four-fingered hands resting on his knees"
+      lyra: "tiny: arms folded, one shoulder against the gatepost"
     calm: top
     lines:
       - {who: offpanel:crowd, type: tag, text: "THE COLUMBARIUM. SUNDAY AFTERNOON."}
@@ -303,6 +342,9 @@ panels:
       nameplate. A faint reflection of a cap's brim in the glass.
     acting:
       oh_minseok: "in the photo: a big crooked grin and a thumbs-up, eyes squinting in the sun"
+    hands:
+      oh_minseok: "in the photo: RIGHT hand gives a thumbs-up beside his face, fingers curled, thumb straight up"
+    hand_ref: [fists_and_bracing.png]
     calm: top
     silent: true
 
@@ -319,6 +361,8 @@ panels:
       grinning back at him through the glass.
     acting:
       kang_jaeha: "cap in his RIGHT hand against his chest, the stick in his LEFT, head bowed a little, a small sad smile"
+    hands:
+      kang_jaeha: "RIGHT hand holds the black cap over his heart on the LEFT of his chest, the brim showing past his LEFT side; LEFT hand on the walking stick"
     eyeline: "Jaeha → the photo"
     foreground: "Jaeha's shoulder and the cap's brim, cropped, left"
     calm: top
@@ -335,6 +379,9 @@ panels:
     art: >
       Close on the glass: Jaeha's fingers press a small yellow thumbs-up sticker onto it beside the photo, the same sticker as the
       one on the orange phone's case.
+    hands:
+      kang_jaeha: "RIGHT index and middle fingers press the sticker flat on the glass, the other fingers curled round the cap's brim below the frame"
+    hand_ref: [pointing.png]
     calm: left
     silent: true
     sfx:
@@ -353,6 +400,9 @@ panels:
     acting:
       nib: "looking up at the photo, head tilted, hands behind his back"
       kang_jaeha: "looking at the photo, the cap hanging at his side"
+    hands:
+      nib: "both four-fingered hands clasped behind his back, below the crossed knife hilts"
+      kang_jaeha: "RIGHT hand hangs at his side holding the cap; LEFT hand on the walking stick's handle"
     eyeline: "Nib → the photo (up); Jaeha → the photo"
     foreground: "the edge of the niche wall, cropped, right"
     calm: top
@@ -371,6 +421,8 @@ panels:
       Close on Nib (nib) pushing the cracked husk mask up onto his forehead to look at the photo with his own eyes.
     acting:
       nib: "pushing the mask up with two fingers, eyes soft, ears drooping a little"
+    hands:
+      nib: "LEFT hand, two of its four long fingers pushing the cracked mask up onto his forehead, thumb under its edge; RIGHT hand below the frame"
     eyeline: "Nib → the photo"
     calm: right
     lines:
@@ -392,6 +444,11 @@ panels:
       choi_dongmin: "walking up unhurried, a can of coffee in each hand, a tired half-smile"
       kang_jaeha: "turning on the stick, eyebrows up"
       nib: "snapping the mask back down over his face"
+    hands:
+      choi_dongmin: "a can of coffee in each hand, fingers round it, held loosely at his sides"
+      kang_jaeha: "LEFT hand on the walking stick's handle as he turns; RIGHT hand at his side holding the cap"
+      nib: "LEFT hand snaps the cracked mask back down, four fingers spread across it; RIGHT hand at his side"
+    hand_ref: [holding_cup.png]
     eyeline: "Choi → the niche; Jaeha → Choi"
     foreground: "a steel cup of white chrysanthemums, cropped, bottom left"
     calm: top
@@ -413,6 +470,10 @@ panels:
     acting:
       choi_dongmin: "bending to set the can down, not looking at Jaeha"
       kang_jaeha: "staring at Choi, cap crushed in his hand"
+    hands:
+      choi_dongmin: "RIGHT hand sets a coffee can on the ledge, fingers round it; LEFT hand holds the second can at his side"
+      kang_jaeha: "RIGHT fist crushes the cap; LEFT hand on the walking stick's handle"
+    hand_ref: [holding_cup.png]
     eyeline: "Jaeha → Choi; Choi → the can"
     foreground: "the can of coffee on the ledge, cropped, bottom right"
     calm: top
@@ -429,6 +490,9 @@ panels:
     light: "sun"
     art: >
       Close on Choi's hand holding out an old black USB stick on a frayed blue lanyard.
+    hands:
+      choi_dongmin: "RIGHT hand holds out the black USB stick between thumb and fingers, the frayed blue lanyard hanging over his knuckles; LEFT hand out of frame"
+    hand_ref: [reaching_grabbing_wrist.png]
     calm: left
     lines:
       - {who: choi_dongmin, type: speech, text: "HIS PHONE IS IN AN EVIDENCE LOCKER NOW. THIS ISN'T.", side: l}
@@ -446,6 +510,10 @@ panels:
     acting:
       kang_jaeha: "taking the stick in both hands, the walking stick hooked over his arm"
       choi_dongmin: "looking away down the corridor, hands in his jacket pockets"
+    hands:
+      kang_jaeha: "both hands cupped together under the USB stick, taking it gently; the walking stick's crook hooked over his LEFT forearm; the cap stuffed in his hoodie's front pocket"
+      choi_dongmin: "both hands in his jacket pockets"
+    hand_ref: [reaching_grabbing_wrist.png]
     eyeline: "Jaeha → the stick; Choi → away"
     foreground: "the lanyard swinging, cropped, top"
     calm: top
@@ -465,6 +533,7 @@ panels:
       glass between them.
     acting:
       choi_dongmin: "looking at the photo, eyes narrowed, the tired half-smile gone"
+    hands: none
     eyeline: "Choi → the photo"
     foreground: "the glass front of the niche, a reflection across it, cropped, right"
     calm: top
@@ -482,6 +551,7 @@ panels:
     art: >
       A thin strip across Jaeha's eyes, the colour draining out of them into grey from one side to the other. Fill the canvas edge
       to edge.
+    hands: none
     calm: none
     silent: true
 
@@ -502,6 +572,11 @@ panels:
       kang_jaeha: "young, screaming, twisting back toward the door, both arms reaching"
       choi_dongmin: "young, hauling the boy by the vest with both hands, eyes on his face"
       mok_hangyu: "young, holding the boy's other arm, eyes on the door, his free hand slipping the orange phone out of the vest pocket"
+    hands:
+      kang_jaeha: "young: both arms reaching back toward the iron door, fingers spread; Mok holds the RIGHT one at the upper arm"
+      choi_dongmin: "young: both fists bunched in the vest at the boy's LEFT shoulder and chest, hauling him away"
+      mok_hangyu: "young: RIGHT hand grips the boy's RIGHT upper arm across his own front; LEFT hand slides out of the boy's RIGHT chest pocket with the orange phone"
+    hand_ref: [reaching_grabbing_wrist.png, hand_on_shoulder.png]
     calm: top
     silent: true
 
@@ -518,6 +593,9 @@ panels:
       wide and wet.
     acting:
       kang_jaeha: "one hand flat on his chest, eyes wide and wet, lips parted"
+    hands:
+      kang_jaeha: "RIGHT hand pressed flat on the right side of his chest where the vest's pocket was, the USB stick under his palm; LEFT hand below the frame"
+    hand_ref: [mouth_and_strap.png]
     calm: right
     lines:
       - {who: kang_jaeha, type: inner, text: "He put it in my pocket when he pushed me out. It was for me."}
@@ -535,6 +613,10 @@ panels:
     acting:
       choi_dongmin: "patting Jaeha's shoulder once in passing, already walking away, one hand raised"
       kang_jaeha: "standing still, the USB stick clenched in his fist against his chest"
+    hands:
+      choi_dongmin: "RIGHT hand just lifting off Jaeha's shoulder after one pat, raised in a lazy wave as he walks away; LEFT hand in his jacket pocket"
+      kang_jaeha: "RIGHT fist clenched round the USB stick against his chest, the lanyard hanging; LEFT hand on the walking stick's handle"
+    hand_ref: [hand_on_shoulder.png, fists_and_bracing.png]
     eyeline: "Choi → ahead; Jaeha → the stick"
     foreground: "Nib's cloak, cropped, bottom right"
     calm: top
@@ -554,7 +636,10 @@ panels:
       little thumbs-up sticker on the glass catches the light.
     acting:
       kang_jaeha: "standing still, head bowed, the stick in one hand and the USB in the other"
-      nib: "standing beside him, one small hand holding the hem of Jaeha's hoodie"
+      nib: "standing beside him, one long four-fingered hand holding the hem of Jaeha's hoodie"
+    hands:
+      kang_jaeha: "LEFT hand on the walking stick's handle; RIGHT hand hangs at his side holding the USB stick, the lanyard dangling"
+      nib: "at Jaeha's RIGHT: LEFT hand, long four fingers and a thumb, holds the hem of Jaeha's hoodie at his hip; RIGHT arm hanging at his side"
     calm: top
     silent: true
 
@@ -583,6 +668,16 @@ panels:
       borro: "sitting by his garden, very still, very proud"
       nib: "perched on the parapet, eating a rice cake off a skewer"
       gomi: "under the table, staring at the kimbap"
+    hands:
+      kang_seoa: "RIGHT hand ladles tteokbokki; LEFT hand holds a paper bowl under the ladle"
+      song_yerin: "both hands round a paper cup"
+      yoo_bomi: "RIGHT arm extended, index finger pointing at the pan; LEFT hand relaxed at her side"
+      choi_dongmin: "LEFT hand pulls a kimbap roll out of a plastic bag; RIGHT hand holds a paper coffee cup"
+      landlady: "both hands hold out a plastic tub of kimchi"
+      lyra: "hands braced on the water tank's edge either side of her hips"
+      borro: "four-fingered hands resting on his knees"
+      nib: "RIGHT hand holds a skewer of rice cakes to his mouth; LEFT hand on the parapet's edge, four fingers and a thumb"
+    hand_ref: [holding_cup.png]
     calm: top
     lines:
       - {who: offpanel:crowd, type: tag, text: "THAT EVENING."}
@@ -601,6 +696,8 @@ panels:
       moss on his shell.
     acting:
       borro: "holding the crate out in both huge hands, very still, chin raised with pride"
+    hands:
+      borro: "both huge four-fingered hands hold the blue crate out in front of him by its sides"
     eyeline: "Borro → the team"
     foreground: "a lettuce leaf from the garden, cropped, bottom left"
     calm: top
@@ -622,6 +719,10 @@ panels:
     acting:
       nib: "arms crossed, chin up, eyeing the crate with deep suspicion"
       kang_seoa: "a paper bowl in one hand, a flat, withering look at Nib"
+    hands:
+      nib: "arms crossed high on his cuirass, four-fingered hands tucked at the elbows"
+      kang_seoa: "LEFT hand holds a paper bowl at her waist; RIGHT hand relaxed at her side"
+    hand_ref: [arms_relaxed.png]
     eyeline: "Nib → the crate; Seoa → Nib"
     foreground: "the crate of lettuce, cropped, bottom right"
     calm: top
@@ -643,6 +744,8 @@ panels:
       Close on Seoa (kang_seoa) chewing a lettuce leaf wrapped round a rice cake, her eyebrows going up in surprise.
     acting:
       kang_seoa: "chewing, eyebrows up, holding the half-eaten wrap"
+    hands:
+      kang_seoa: "RIGHT fingers hold the half-eaten lettuce wrap at the bottom of the frame; LEFT hand out of frame"
     eyeline: "Seoa → Borro"
     foreground: "the half-eaten lettuce wrap in her fingers, cropped, bottom"
     calm: left
@@ -665,6 +768,9 @@ panels:
     acting:
       nib: "chibi, cheeks bulging, both hands stuffing lettuce in"
       borro: "chibi, beaming, flowers bursting off his shell"
+    hands:
+      nib: "chibi: both four-fingered hands stuffing a whole head of lettuce into his mouth"
+      borro: "chibi: arms relaxed at his sides, four fingers and a thumb on each hand"
     calm: top
     silent: true
     sfx:
@@ -685,6 +791,11 @@ panels:
       yoo_bomi: "leaping up, phone held high in both hands, mouth wide open in a scream, eyes squeezed shut with joy"
       song_yerin: "hands over her ears, laughing"
       choi_dongmin: "hands over his ears, coffee tipping"
+    hands:
+      yoo_bomi: "both arms raised overhead, both hands holding the phone high, fingers round its edges"
+      song_yerin: "both hands clapped over her ears"
+      choi_dongmin: "both hands over his ears, the paper coffee cup tipping in his RIGHT hand"
+    hand_ref: [phone_hold.png]
     calm: top
     lines:
       - {who: yoo_bomi, type: shout, text: "ONE MILLION! BOMBOM TV HAS ONE MILLION SUBSCRIBERS!", side: l}
@@ -700,6 +811,9 @@ panels:
     light: "the screen's glow"
     art: >
       Close on Bomi's phone in her hand, the screen flat green, her thumb shaking.
+    hands:
+      yoo_bomi: "RIGHT hand holds the phone upright, thumb shaking at the side edge; nothing over the green screen"
+    hand_ref: [phone_hold.png]
     calm: right
     silent: true
     ui:
@@ -722,6 +836,10 @@ panels:
     acting:
       yoo_bomi: "typing fast with both thumbs, not looking up, a stubborn grin"
       kang_jaeha: "holding up both hands, shaking his head"
+    hands:
+      yoo_bomi: "both hands hold her phone, both thumbs typing fast"
+      kang_jaeha: "both hands raised at chest height, palms out, refusing"
+    hand_ref: [phone_hold.png]
     eyeline: "Bomi → her phone; Jaeha → Bomi"
     foreground: "a paper bowl of tteokbokki on the table, cropped, bottom"
     calm: top
@@ -738,6 +856,9 @@ panels:
     light: "the screen's glow"
     art: >
       Close on Bomi's phone, screen flat green, her thumb lifting off the button.
+    hands:
+      yoo_bomi: "RIGHT hand holds the phone, thumb just lifting off the bottom of the green screen"
+    hand_ref: [phone_hold.png]
     calm: left
     silent: true
     ui:
@@ -756,6 +877,9 @@ panels:
       At eye level from the parapet: Lyra (lyra) sits up on top of the water tank, delighted, a hand on her heart.
     acting:
       lyra: "sitting up straight, one hand pressed to her heart, the other pointing at Bomi, eyes shining"
+    hands:
+      lyra: "gloved RIGHT hand pressed flat over her heart on the leather chest guard; LEFT arm extended, index finger pointing down at Bomi"
+    hand_ref: [pointing.png, mouth_and_strap.png]
     eyeline: "Lyra → Bomi (down)"
     foreground: "the water tank's ladder, cropped, left"
     calm: top
@@ -777,6 +901,11 @@ panels:
       kang_jaeha: "holding the phone out so she can see, a sheepish smile"
       kang_seoa: "reading, glasses pushed up, counting on her fingers"
       landlady: "leaning in, arms folded, one eyebrow climbing"
+    hands:
+      kang_jaeha: "LEFT hand holds his phone out to Seoa, screen turned to her; RIGHT hand out of frame"
+      kang_seoa: "counting: RIGHT index finger touches the raised fingers of her LEFT hand one by one"
+      landlady: "arms folded across her padded vest"
+    hand_ref: [phone_hold.png, pointing.png]
     eyeline: "Seoa and the landlady → the phone"
     foreground: "Jaeha's shoulder and the phone, cropped, left"
     calm: top
@@ -795,6 +924,9 @@ panels:
       Close on Nib (nib) on the parapet, deeply offended, a lettuce leaf still hanging from his mouth.
     acting:
       nib: "pointing at his own chest, a lettuce leaf hanging from his mouth, eyes furious"
+    hands:
+      nib: "RIGHT index finger jabs his own cuirass at the chest, the other three fingers curled; LEFT hand below the frame"
+    hand_ref: [pointing.png]
     eyeline: "Nib → the landlady"
     calm: right
     lines:
@@ -815,6 +947,9 @@ panels:
       bulbs; her full design (2.10). Seen from the parapet at eye level, a few metres away, the whole figure in frame.
     acting:
       lyra: "leaning back on one hand, one knee up, the bottle dangling, a lazy flushed smile, eyes half closed"
+    hands:
+      lyra: "LEFT hand braced flat on the tank's top behind her, taking her weight; gloved RIGHT hand dangles the green soju bottle by its neck, wrist resting on her raised knee"
+    hand_ref: [fists_and_bracing.png]
     calm: top
     lines:
       - {who: lyra, type: speech, text: "THIS DRINK IS TERRIBLE. POUR ME ANOTHER.", side: l}
@@ -833,6 +968,9 @@ panels:
     acting:
       kang_jaeha: "eyes sliding away, blush hatching, a sweat drop, gripping his paper bowl"
       nib: "a flat, unimpressed stare at Jaeha, chewing"
+    hands:
+      kang_jaeha: "both hands grip a paper bowl of tteokbokki in his lap"
+      nib: "four-fingered hands resting on the parapet either side of him"
     eyeline: "Jaeha → away; Nib → Jaeha"
     calm: top
     lines:
@@ -854,6 +992,9 @@ panels:
     acting:
       lyra: "sitting close, elbows on her knees, the bottle hanging forgotten, looking at him without a smile"
       kang_jaeha: "turning to her, the fluster gone, listening"
+    hands:
+      lyra: "elbows on her knees, the soju bottle hanging by its neck from her RIGHT fingers; LEFT hand loose"
+      kang_jaeha: "both hands resting on the paper bowl in his lap"
     eyeline: "Lyra ↔ Jaeha"
     foreground: "the parapet's edge and a string of bulbs, cropped, top"
     calm: top
@@ -876,6 +1017,10 @@ panels:
     acting:
       song_yerin: "both hands round the cup, eyes down, then a shy laugh"
       kang_jaeha: "laughing, rubbing the back of his neck"
+    hands:
+      song_yerin: "both hands round a paper cup in her lap"
+      kang_jaeha: "RIGHT hand rubbing the back of his neck; LEFT hand resting on the parapet"
+    hand_ref: [holding_cup.png]
     eyeline: "Yerin → her cup; Jaeha → Yerin"
     foreground: "Yerin's paper cup, cropped, bottom left"
     calm: top
@@ -905,6 +1050,16 @@ panels:
       gomi: "eating from Seoa's fingers"
       borro: "sitting, a lettuce leaf in his huge fingers"
       nib: "sitting beside Borro, eating the last of the lettuce"
+    hands:
+      kang_jaeha: "gloved LEFT hand rests on the parapet in the foreground, fingers relaxed"
+      yoo_bomi: "RIGHT hand holds her phone up, filming; LEFT hand on her knee as she bends over laughing"
+      lyra: "arms raised and flailing in a clumsy dance, hands open"
+      choi_dongmin: "LEFT index finger jabbing at the kimchi tub; RIGHT hand holds his coffee cup"
+      landlady: "arms folded"
+      kang_seoa: "crouched: RIGHT hand holds out a piece of kimbap to the cat; LEFT hand on her knee"
+      borro: "RIGHT hand holds a lettuce leaf between two of its four fingers and the thumb; LEFT hand on his knee"
+      nib: "both four-fingered hands hold the last lettuce leaf to his mouth"
+    hand_ref: [phone_hold.png, pointing.png]
     calm: top
     lines:
       - {who: kang_jaeha, type: inner, text: "Everyone came back. Every single one of them."}
@@ -922,6 +1077,8 @@ panels:
     acting:
       borro: "asleep sitting up, head bowed, a lettuce leaf still in his hand"
       gomi: "curled on his shell"
+    hands:
+      borro: "asleep: RIGHT hand resting on his knee, a lettuce leaf still in its four fingers; LEFT hand in his lap"
     calm: top
     silent: true
 
@@ -936,6 +1093,8 @@ panels:
     art: >
       A thin strip: a gloved hand flicks a silver conductor's baton through the air, a bright line of light along it. Fill the canvas
       edge to edge.
+    hands:
+      moon_ahin: "a white-gloved RIGHT hand flicks the silver baton, held between the thumb and first two fingers like a conductor, the wrist turning; the rest of her out of frame"
     calm: none
     silent: true
     sfx:
@@ -955,6 +1114,9 @@ panels:
       swinging; everything reflected in the polished floor. Scale: the hall is 40 m long; the husks are 175 cm tall.
     acting:
       moon_ahin: "turning on one heel, baton raised high in her RIGHT hand, LEFT hand open at her side, chin up, eyes cool"
+    hands:
+      moon_ahin: "RIGHT arm raised high, the baton held between thumb and fingers, tip up; LEFT hand open at her side, fingers relaxed; white gloves"
+      background: "forty husks caught mid-step in eight rows, arms swinging in unison, hands relaxed"
     calm: top
     lines:
       - {who: offpanel:crowd, type: tag, text: "KANGHAN GUILD HALL. THE SAME NIGHT."}
@@ -970,6 +1132,7 @@ panels:
     light: "the screen's glow"
     art: >
       Close on a tablet propped against the foot of a white pillar beside her folded gloves, screen flat green.
+    hands: none
     calm: left
     silent: true
     ui:
@@ -990,6 +1153,9 @@ panels:
       husks stand frozen mid-step.
     acting:
       moon_ahin: "reading the tablet, one eyebrow lifting, the half-smile gone"
+    hands:
+      moon_ahin: "bare hands (gloves folded by the pillar): LEFT hand holds the tablet up at chest height, thumb on its edge; RIGHT hand lowered with the baton, below the frame"
+      background: "one husk's frozen white mannequin hand at the top right, fingers relaxed"
     eyeline: "Moon Ahin → the tablet"
     foreground: "the frozen hand of a husk, cropped, top right"
     calm: top
@@ -1008,6 +1174,9 @@ panels:
       (moon_ahin) looks out over the night city toward the river.
     acting:
       moon_ahin: "standing at the window, the tablet held against her chest, looking out"
+    hands:
+      moon_ahin: "bare hands, still ungloved: LEFT arm holds the tablet against her chest; RIGHT hand hangs at her side holding the baton"
+      background: "forty husks lowering their arms to their sides in unison, hands relaxed"
     calm: top
     silent: true
     sfx:
@@ -1031,6 +1200,11 @@ panels:
       lyra: "asleep rolled in a blanket, mouth open, snoring"
       kang_jaeha: "hunched at the table, earphones in, both hands flat either side of the laptop, very still"
       nib: "sitting in the window, knees up, watching Jaeha"
+    hands:
+      kang_seoa: "asleep, hands under the blanket"
+      lyra: "arms wrapped inside the blanket roll, out of sight"
+      kang_jaeha: "both hands flat on the table either side of the laptop"
+      nib: "four-fingered hands resting on his drawn-up knees"
     calm: top
     lines:
       - {who: offpanel:crowd, type: tag, text: "2:47 AM."}
@@ -1047,6 +1221,9 @@ panels:
     art: >
       Close on the laptop's trackpad and the lower edge of the screen: Jaeha's finger drags the video's playhead on, past the
       point where the phone died on the spillway.
+    hands:
+      kang_jaeha: "gloved RIGHT index finger on the trackpad, dragging, the other fingers curled; LEFT hand out of frame"
+    hand_ref: [pointing.png]
     calm: right
     lines:
       - {who: kang_jaeha, type: inner, text: "Two minutes thirty-one. This is where the phone died."}
@@ -1065,6 +1242,7 @@ panels:
       crooked grin, as if he can't help himself.
     acting:
       oh_minseok: "the serious face cracking into a crooked grin, a little shake of the head"
+    hands: none
     eyeline: "Minseok → the camera"
     foreground: "the phone's own light flaring at the top edge, cropped"
     calm: top
@@ -1085,6 +1263,7 @@ panels:
       of his face.
     acting:
       oh_minseok: "glancing past the phone, then back, a small nervous laugh, lifting the phone higher"
+    hands: none
     eyeline: "Minseok → behind the camera, then → the camera"
     foreground: "his orange collar, cropped, bottom"
     calm: top
@@ -1103,6 +1282,7 @@ panels:
     art: >
       A thin strip: the video's image swings round in a smear of motion blur, Minseok's face sliding out of frame and a white-cyan
       shimmer sliding in. Fill the canvas edge to edge.
+    hands: none
     calm: none
     silent: true
     sfx:
@@ -1120,6 +1300,7 @@ panels:
       rim, the riverbank under a Han River bridge at night: the huge concrete bridge pier with a big faded yellow stencilled 7 on
       its face; the orange sodium lights on the span's underside, one lamp with a cracked cover; the black river. No fence, no
       tarps yet, no people. Scale: the pier is 6 m wide; the span is 20 m overhead.
+    hands: none
     calm: top
     silent: true
     ui:
@@ -1140,6 +1321,7 @@ panels:
       reflected small in each one. Fill the canvas edge to edge.
     acting:
       kang_jaeha: "eyes wide, unblinking, the pupils shrinking"
+    hands: none
     calm: none
     silent: true
 
@@ -1154,6 +1336,7 @@ panels:
       A memory of ch 8, in a thin amber vignette, as Nib saw it through a gap in the black tarp (location hanriver_gate): the
       door-height gate slit glowing white-cyan in the shadow of the same bridge pier, the same faded yellow 7 above it, the same
       flickering lamp; thick cables plugged into a steel frame round its rim.
+    hands: none
     calm: top
     lines:
       - {who: kang_jaeha, type: inner, text: "I've seen that pier. Through Nib's eyes. Four years later."}
@@ -1172,6 +1355,10 @@ panels:
     acting:
       kang_jaeha: "turned half round in the chair, one hand on the laptop, whispering"
       nib: "leaning in off the sill, one hand on the table edge, eyes on the screen"
+    hands:
+      kang_jaeha: "RIGHT hand resting on the laptop's palm rest; LEFT hand on his thigh as he turns"
+      nib: "RIGHT hand braced on the table's edge, four fingers curled over it; LEFT hand on the windowsill"
+    hand_ref: [fists_and_bracing.png]
     eyeline: "Jaeha → Nib; Nib → the screen"
     foreground: "the laptop's glowing edge, cropped, left"
     calm: top
@@ -1188,6 +1375,9 @@ panels:
     light: "the screen's glow"
     art: >
       Close on the laptop screen, flat green; Jaeha's finger on the trackpad.
+    hands:
+      kang_jaeha: "gloved RIGHT index finger resting on the trackpad below the green screen; the rest of the hand out of frame"
+    hand_ref: [pointing.png]
     calm: left
     silent: true
     ui:
@@ -1209,6 +1399,10 @@ panels:
     acting:
       nib: "reading, frowning, one finger tracing the screen"
       kang_jaeha: "chin on his fist, eyes cold and steady"
+    hands:
+      nib: "RIGHT index finger tracing a line on the screen, the hand half hidden behind the laptop lid; LEFT hand flat on the table, four fingers and a thumb"
+      kang_jaeha: "chin propped on his RIGHT fist, elbow on the table; LEFT hand flat beside the laptop"
+    hand_ref: [pointing.png, fists_and_bracing.png]
     eyeline: "Nib → the screen; Jaeha → Nib"
     foreground: "the back of the laptop screen, cropped, bottom"
     calm: top
@@ -1227,6 +1421,7 @@ panels:
       Close on Nib (nib), his ears going flat as he says the rule every child in this world knows.
     acting:
       nib: "ears flattening, eyes going wide, voice dropping"
+    hands: none
     eyeline: "Nib → Jaeha"
     foreground: "Jaeha's shoulder, cropped, right"
     calm: right
@@ -1246,6 +1441,9 @@ panels:
       line through MOK and writes underneath.
     acting:
       kang_jaeha: "pencil in his RIGHT hand striking a line through a word, LEFT hand holding the page flat"
+    hands:
+      kang_jaeha: "RIGHT hand strikes a line through a word with the yellow pencil; LEFT hand holds the notebook's page flat on the table"
+    hand_ref: [notebook_and_pencil.png]
     eyeline: "Jaeha → the notebook"
     foreground: "the laptop's corner, cropped, top right"
     calm: top
@@ -1266,6 +1464,8 @@ panels:
       Close on Jaeha (kang_jaeha) closing the notebook slowly, his face set.
     acting:
       kang_jaeha: "closing the notebook with one hand, jaw set, eyes on the window"
+    hands:
+      kang_jaeha: "LEFT hand swings the notebook's cover shut on the table, palm flat on it; RIGHT hand, holding the pencil, below the frame"
     eyeline: "Jaeha → the window (the river)"
     calm: left
     lines:
@@ -1286,6 +1486,8 @@ panels:
       bottom corner, small, his back to us, the walking stick in his hand. Scale: the bridge is about 500 m away.
     acting:
       kang_jaeha: "seen from behind, standing at the parapet, both hands on the stick, head turned to the bridge"
+    hands:
+      kang_jaeha: "back view, small: both hands stacked on the walking stick's handle in front of him, RIGHT over LEFT, mostly hidden by his body"
     calm: top
     lines:
       - {who: kang_jaeha, type: inner, text: "Your gate is still open, hyung."}
@@ -1300,6 +1502,7 @@ panels:
     art: >
       A thin strip: far away in the dark under the bridge, the cold white-cyan glow pulses once, slowly, like a heartbeat. Fill the
       canvas edge to edge.
+    hands: none
     calm: none
     silent: true
     sfx:
@@ -1308,3 +1511,6 @@ panels:
   - id: END
     kind: end
     chibi_gag: "Chibi Lyra, rolled in her blanket like a burrito, rolls across the floor in her sleep and bowls chibi Nib off the windowsill, while chibi Gomi sits on the laptop keyboard typing 'ffffffffff'."
+    hands:
+      lyra: "chibi: arms wrapped inside the blanket roll, out of sight"
+      nib: "chibi: arms flung up as he tumbles off the sill, four-fingered hands spread"
