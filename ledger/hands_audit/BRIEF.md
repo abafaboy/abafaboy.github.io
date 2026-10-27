@@ -22,7 +22,7 @@
 6. **Pose and acting:** arms in a position a person wouldn't take, or that doesn't read as the action in the script (for example, a "point" that reads as a wave, an arm raised from nowhere, a stiff mannequin arm, an elbow jutting at an impossible angle). Arms that make the figure look broken or puppet-like.
 7. **Foreshortening:** an arm pointed at the camera that reads as a stump or a balloon.
 
-Nib (a goblin) also has five digits on each hand (four fingers and a thumb). Borro (a stone giant) has four fingers and a thumb on each hand. Jaeha wears fingerless black gloves; his fingertips still show and still count.
+Nib (a goblin) also has five digits on each hand (four fingers and a thumb). Borro (a stone giant) has four fingers and a thumb on each hand. Both have long arms by design: Nib's fingertips reach his knees (big bony hands, long fingers, dark nails), and Borro's long thick arms reach his knees (huge blunt-fingered hands). That length is correct. Jaeha wears fingerless black gloves; his fingertips still show and still count.
 
 ## Severity
 - **3:** a viewer notices at video size without looking for it (a wrong finger count on a visible hand, an extra or missing hand, a broken or impossible arm, a floating grip, a pose that reads as wrong).
@@ -42,8 +42,8 @@ For each chapter, write `/home/claude/msgf-bible/ledger/hands_audit/chNNN.json`:
 
 ```json
 [{"panel": "P12", "who": "Jaeha", "where": "his RIGHT hand on the notebook, picture-left",
-  "problem": "six fingers; the thumb and index are fused", "severity": 3, "fix": "paint",
-  "redraw_note": ""}]
+  "problem": "six fingers; the thumb and index are fused", "severity": 3, "fix": "codex_edit",
+  "redraw_note": "his RIGHT hand holds the pencil in a normal writing grip; his LEFT hand holds the open notebook"}]
 ```
 
 Also include an entry with `"problem": "clean"` and `"severity": 0` for every panel you checked that has visible hands or arms and no problem, so we can tell checked from skipped. Skip panels with no hands or arms at all, but list their ids in a final entry: `{"panel": "none_visible", "panels": ["P01", "P05"]}`.
