@@ -62,8 +62,8 @@
 | Auntie Geum Okran (ch 33) | 155 cm | at his chin, and twice as broad |
 | Uncle Pyo (ch 23) | 160 cm | at his nose |
 | The training construct (ch 13) | 4 m | he reaches its hip |
-| The basalt boar (ch 15) | 2.5 m at the shoulder, 5 m long | its shoulder is a head above Borro's head |
-| The Drowned Bell-Ringer (ch 17) | 6 m | he reaches its knee; Borro its waist |
+| The basalt boar (ch 15) | 2.8 m at the shoulder, about 4.7 m long | its shoulder is a head above Borro's head |
+| The Drowned Bell-Ringer (ch 17) | 6 m | he reaches just above its knee; Borro its mid-thigh |
 | Canyon wyvern (ch 24) | body 1.2 m, wingspan 4 m | a big dog with wings |
 | The Hushed Tide Warden (ch 26) | 30 m standing, a seven-storey building kneeling | he is the size of the Warden's fingernail |
 | Pim (from ch 36) | 140 cm (the antennae add 30 cm) | the top of his head reaches Jaeha's chest; the antennae reach his eyes |
@@ -354,7 +354,7 @@ Recurring people get one lineup sheet (`characters_v2/neighbourhood/lineup.png`,
 
 | Id | Who | Chapters | Look |
 |---|---|---|---|
-| `oh_minseok` | Oh Minseok, Jaeha's mentor (dead four years) | 14, 21, 22, 28 | Late thirties, the same orange trap-tester vest as Jaeha's but older and more patched, a kind crooked grin, short hair going grey, a scar through one eyebrow. In his photo at the columbarium: grinning with a thumbs-up. Flashbacks are grey except the orange. |
+| `oh_minseok` | Oh Minseok, Jaeha's mentor (dead four years) | 14, 21, 22, 28 | Late thirties, the same orange trap-tester vest as Jaeha's but older and more patched, a kind crooked grin, short hair going grey, a scar through his RIGHT eyebrow; 176 cm (both fixed by the approved S22 sheets). In his photo at the columbarium: grinning with a thumbs-up. Flashbacks are grey except the orange. |
 | `inspector_ryu` | Inspector Ryu, the Association | 13, 22, 32 | A tired, fair man in his fifties in a grey Hunter Association uniform jacket, reading glasses, a grey moustache. |
 | `deputy_hwang` | Deputy Director Hwang, the Association | 32 | 60, silver hair, a soft smiling face, rimless glasses, an Association grey suit; a small silver hexagon pin hidden on the underside of his lapel. |
 | `bh_lawyer` | Black Hound's lawyer | 13, 21 | A sleek man in his forties in an expensive grey suit, a silver tie, slicked hair, a tablet. |
@@ -549,10 +549,10 @@ Not a monster with a body: the black water of the Call itself. A long black hand
 Every boss here is a hushed hero of the Far Side (a Hush crack leaking violet ash #6B4C9A); small monsters are Hush-spawn.
 
 ### 4c.1 The basalt boar (ch 15, D-grade boss)
-A hushed boar the size of a truck: 2.5 m at the shoulder, 5 m long. Its hide is plated with slabs of black basalt with rough edges like broken paving, coarse dark bristles between the slabs; two curved tusks of glassy black obsidian; small red-brown eyes; a small violet Hush crack on its brow. It charges in straight lines and lowers its head three strides before impact (its tell). Its shoulder is a head higher than Borro's head.
+A hushed boar the size of a truck: 2.8 m at the shoulder (its bristles reach about 2.95 m), about 4.7 m long. Its hide is plated with slabs of black basalt with rough edges like broken paving, coarse dark bristles between the slabs; two curved tusks of glassy black obsidian; small red-brown eyes; a small violet Hush crack on its brow. It charges in straight lines and lowers its head three strides before impact (its tell). Its shoulder is a head higher than Borro's head.
 
 ### 4c.2 The Drowned Bell-Ringer (ch 17-19, B-grade boss)
-A hushed giant 6 m tall: a body like drowned grey stone wrapped in rotting dark-blue robes and rusted chains; long arms, huge hands; in place of a head, a cracked bronze cathedral bell green with age, a violet Hush crack down its side leaking ash, darkness inside its mouth. Its hammer is a bell clapper the size of a tree trunk. When it tolls, a ring of force bursts out a step beyond its own reach; inside its arm's length the force passes over you. Borro reaches its waist; Jaeha its knee.
+A hushed giant 6 m tall: a body like drowned grey stone wrapped in rotting dark-blue robes and rusted chains; long arms, huge hands; in place of a head, a cracked bronze cathedral bell green with age, a violet Hush crack down the bell's LEFT side leaking ash, darkness inside its mouth. Its hammer is a bell clapper the size of a tree trunk, held in its RIGHT hand (sides fixed by the approved M7 sheets). When it tolls, a ring of force bursts out a step beyond its own reach; inside its arm's length the force passes over you. Borro reaches its mid-thigh; Jaeha just above its knee.
 
 ### 4c.3 Canyon wyverns (ch 24, Hush-spawn)
 Small cliff-dwelling wyverns: a body the size of a large dog (1.2 m long without the tail), a 4 m wingspan; slate-grey leathery skin streaked with rust; a long whip tail ending in a hooked barb; a narrow skull with a beaky snout full of needle teeth; pale clouded eyes; Hush cracks leaking violet ash along the wing bones. They nest in crevices and dive in flocks of ten to twenty, shrieking like tearing metal.
@@ -800,7 +800,7 @@ Use the snippet of every character in the panel, word for word, so the descripti
 > *Kanghan look (ch 27 onward):* replace the guild jacket with a fitted charcoal-grey tactical jacket cropped at the waist with a silver hexagon on the left shoulder.
 
 **Oh Minseok**
-> Oh Minseok: a Korean man in his late thirties with a kind, crooked grin and short hair going grey, a scar through one eyebrow; an old, heavily patched safety-orange trap-tester vest over a grey hoodie; fingerless gloves.
+> Oh Minseok: a Korean man in his late thirties with a kind, crooked grin and short hair going grey, a scar through his RIGHT eyebrow; an old, heavily patched safety-orange trap-tester vest over a grey hoodie; fingerless gloves.
 
 **Auntie Geum Okran**
 > Auntie Geum Okran: a short, broad 62-year-old Korean woman, 155 cm, with a wrestler's shoulders and forearms; a sun-browned, deeply lined face, sharp black eyes, one gold tooth; short permed grey hair under a faded floral headscarf; a red-and-white checked apron over a faded purple tracksuit with the sleeves pushed up; pink rubber slippers; her left arm from just above the elbow is a battered gunmetal prosthetic of plates and rivets with a faded painted blue wave on the forearm, three thick fingers and a thumb; a big long-handled steel ladle in her right hand.

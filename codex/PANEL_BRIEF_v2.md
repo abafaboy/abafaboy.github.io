@@ -215,11 +215,11 @@ The whole chapter happens in the boss room (`locations_v2/boss_room/`), seconds 
 | `H` | P54–P59 and `END.png` | Kanghan: Baek from behind only. |
 
 ### Arc 2 sheets come first
-Chapters 6–12 need the Arc 2 sheets and keys in `ASSETS_ARC2_BRIEF.md` (Borro S16, Baek S17, the neighbours S18, Moon Ahin's husks S19, the monsters M1–M4 with the swarm mother and the alpha, the places L6–L12). A part may start only when every sheet it names exists and has a `DONE.md`. Since 27 October the sheets carry no silhouette. Instead, Claude's `scale_card.png` in each monster's and the neighbours' folder stands the creature on one baseline with the standard 178 cm man at the exact ratio; attach it whenever a person, Nib or another creature shares the panel, and check every monster and giant against it (section 4b). Borro's `front.png` carries Claude's silhouette. Nib's height comes from `scale_chart_v2.png` (his head reaches a 178 cm man's belt). All the Arc 2 sheets and keys were approved on 27 October (`reviews/STATUS.md`); only `ash_rat/swarm.png` is being redrawn, so until it is approved, draw swarms from `ash_rat/front.png`, `turnaround.png` and `scale_card.png` (each rat knee-high to a person).
+Chapters 6–12 need the Arc 2 sheets and keys in `ASSETS_ARC2_BRIEF.md` (Borro S16, Baek S17, the neighbours S18, Moon Ahin's husks S19, the monsters M1–M4 with the swarm mother and the alpha, the places L6–L12). A part may start only when every sheet it names exists and has a `DONE.md`. Since 27 October the sheets carry no silhouette. Instead, Claude's `scale_card.png` in each monster's and the neighbours' folder stands the creature on one baseline with the standard 178 cm man at the exact ratio; attach it whenever a person, Nib or another creature shares the panel, and check every monster and giant against it (section 4b). Borro's `front.png` carries Claude's silhouette. Nib's height comes from `scale_chart_v2.png` (his head reaches a 178 cm man's belt). All the Arc 2 sheets and keys were approved on 27 October (`reviews/STATUS.md`), including the redrawn `ash_rat/swarm.png` (each rat knee-high to a person).
 
 ### Chapter 6: Trap Rats (`scripts_v2/ch006.yaml`)
 
-**Chapter 6 rules:** Jaeha has a small plaster on his right cheekbone and no other bandages. Nib has his seal 2/5 look with the mask and plays a husk in public (stiff, arms hanging); field form and LINKED (amber) only P26–P36. Ash rats: `ash_rat/` (70 cm, knee-high); the swarm mother P38–P40: `ash_rat/swarm_mother.png` (1.4 m, her back just above a man's hip); attach `ash_rat/scale_card.png` whenever a person or Nib shares the panel with them. The sewer: `sewer_gate/key.png` inside, `outside.png` at dusk (P44–P51). The landlady (P52–P54): `neighbourhood/lineup.png`, on `rooftop_room/stairs_night.png`. Bomi's room (P55–P60): `bomi_room/outside.png` and `interior.png`. P07 and P47 carry phone live-stream overlays: keep those areas calm. Bomi: never a low angle up her shorts.
+**Chapter 6 rules:** Jaeha has a small plaster on his right cheekbone and no other bandages. Nib has his seal 2/5 look with the mask and plays a husk in public (stiff, arms hanging); field form and LINKED (amber) only P26–P36. Ash rats: `ash_rat/` (70 cm, knee-high); swarms: `ash_rat/swarm.png`; the swarm mother P38–P40: `ash_rat/swarm_mother.png` (1.4 m, her back just above a man's hip); attach `ash_rat/scale_card.png` whenever a person or Nib shares the panel with them. The sewer: `sewer_gate/key.png` inside, `outside.png` at dusk (P44–P51). The landlady (P52–P54): `neighbourhood/lineup.png`, on `rooftop_room/stairs_night.png`. Bomi's room (P55–P60): `bomi_room/outside.png` and `interior.png`. P07 and P47 carry phone live-stream overlays: keep those areas calm. Bomi: never a low angle up her shorts.
 
 | Part | Panels to draw | Notes |
 |---|---|---|
@@ -363,7 +363,7 @@ Chapters 13-33 need the sheets, keys and props in `ASSETS_ARC3_BRIEF.md` (Han So
 
 ### Chapter 15: Pass (`scripts_v2/ch015.yaml`)
 
-**Chapter 15 rules:** The aqueduct gate: `aqueduct_gate/outside.png` and `key.png`: one stone channel 6 m wide on tall arches over a gorge under a pale yellow sky, one way in and one way out. The basalt boar: `basalt_boar/` (its shoulder a head above Borro's head; it lowers its head three strides before it hits). Nib (amber) and Borro (moss green) are in field form most of the chapter. Bomi's new drone with the pink ribbon stays OFF in her hands. P34 is the PASS splash.
+**Chapter 15 rules:** The aqueduct gate: `aqueduct_gate/outside.png` and `key.png`: one stone channel 6 m wide on tall arches over a gorge under a pale yellow sky, one way in and one way out. The basalt boar: `basalt_boar/` (2.8 m at the shoulder, a head above Borro's head, about 4.7 m long; it lowers its head three strides before it hits); attach `basalt_boar/scale_card.png` whenever Borro, Nib or a person shares the panel. Nib (amber) and Borro (moss green) are in field form most of the chapter. Bomi's new drone with the pink ribbon stays OFF in her hands. P34 is the PASS splash.
 
 | Part | Panels to draw | Notes |
 |---|---|---|
@@ -397,7 +397,7 @@ Chapters 13-33 need the sheets, keys and props in `ASSETS_ARC3_BRIEF.md` (Han So
 
 ### Chapter 17: Thirty Seconds (`scripts_v2/ch017.yaml`)
 
-**Chapter 17 rules:** The bell chamber: `boss_chamber_bells/key.png` (intact). The stake's web of violet light spreads over the bronze doors. The Drowned Bell-Ringer: `bell_ringer/` (6 m: Borro reaches its waist, Jaeha its knee); its toll is a ring of force a step beyond its reach (`toll.png`). Mok is soaked from P03. Splashes P30 and P52; the enrage timer windows keep the top half calm.
+**Chapter 17 rules:** The bell chamber: `boss_chamber_bells/key.png` (intact). The stake's web of violet light spreads over the bronze doors. The Drowned Bell-Ringer: `bell_ringer/` (6 m: Borro reaches its mid-thigh, Jaeha just above its knee; attach `bell_ringer/scale_card.png` whenever a person or summon shares the panel); its toll is a ring of force a step beyond its reach (`toll.png`). Mok is soaked from P03. Splashes P30 and P52; the enrage timer windows keep the top half calm.
 
 | Part | Panels to draw | Notes |
 |---|---|---|
