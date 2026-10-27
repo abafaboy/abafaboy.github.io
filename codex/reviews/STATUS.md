@@ -35,9 +35,15 @@ Verdicts for each entry are in this folder, one file per entry (`<entry>.md`). S
 | M5 | the training construct | **APPROVED** (`M5.md`), 4 m, with Claude's scale card |
 | M6 | the basalt boar | **APPROVED** (`M6.md`); now 2.8 m at the shoulder and about 4.7 m long, as drawn |
 | M7 | the Drowned Bell-Ringer | **APPROVED** (`M7.md`); the crack on his LEFT, the clapper in his RIGHT hand; Borro reaches its mid-thigh |
-| S23–S25, M8, M9, L13–L20, P1 | the rest of the Arcs 3–4 sheets, keys and props (`ASSETS_ARC3_BRIEF.md`) | drawing or delivered, not yet reviewed (all launched 27 Oct evening) |
+| S23 | the Arc 4 crew and Kanghan's staff | **APPROVED** (`S23.md`); Claude painted the tabard numbers 1–5 on both lineups |
+| S24 | Auntie Geum Okran | **APPROVED** (`S24.md`), with Claude's scale card; prosthetic LEFT hand, ladle in her RIGHT |
+| S25 | the Arcs 3–4 cast lineup | **APPROVED** (`S25.md`) |
+| M8 | canyon wyverns | **APPROVED** (`M8.md`); wingspan now about 2.5 m as drawn; flocks loose, never in rows |
+| M9 | the Hushed Tide Warden | **APPROVED** (`M9.md`), 30 m standing, with Claude's scale card; only his LEFT eye opens (ch 27) |
+| P1 | the Arcs 3–4 props sheet | **APPROVED** (`P1.md`) |
+| L13–L20 | the Arcs 3–4 location keys (`ASSETS_ARC3_BRIEF.md`) | delivered; Claude reviewing |
 | S26–S31, M10–M12, L21–L24, P2 | Arc 5 sheets, keys and props (`ASSETS_ARC5_BRIEF.md`) | drawing (S31 launching now that S20 is approved; S28 waits for S24) |
 | ch006 … ch012 | Arc 2 chapters (`PANEL_BRIEF_v2.md` section 9) | ch006 A–D drawing; the rest launching as the laptop frees up (all their sheets are approved, the swarm too) |
 | ch013 … ch040 | chapter parts | launch as their sheets are approved |
 
-Scale cards: from 27 October the sheets carry no silhouette. Claude adds `scale_card.png` (the creature beside the standard 178 cm man on one baseline) to `ash_rat/`, `ash_hound/`, `drowned_hound/`, `neighbourhood/` (Gomi with Nib and the landlady), `ahin_husk/`, `han_sora/`, `training_construct/`, `basalt_boar/` and `bell_ringer/`.
+Scale cards: from 27 October the sheets carry no silhouette. Claude adds `scale_card.png` (the creature beside the standard 178 cm man on one baseline) to `ash_rat/`, `ash_hound/`, `drowned_hound/`, `neighbourhood/` (Gomi with Nib and the landlady), `ahin_husk/`, `han_sora/`, `training_construct/`, `basalt_boar/`, `bell_ringer/`, `geum_okran/`, `canyon_wyvern/` and `tide_warden/`.

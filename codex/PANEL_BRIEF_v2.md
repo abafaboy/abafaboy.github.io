@@ -518,7 +518,7 @@ Chapters 13-33 need the sheets, keys and props in `ASSETS_ARC3_BRIEF.md` (Han So
 
 ### Chapter 24: The Puppeteer (`scripts_v2/ch024.yaml`)
 
-**Chapter 24 rules:** Moon Ahin's name card is a tall full-figure glamour panel (P02); then the visor-fog gag (P03) and Nib's flat stare (P04). Canyon wyverns: `canyon_wyvern/` (dog-sized bodies, 4 m wings), diving in a flock. P21: three husks fall away still in formation; P22: the ECU of her eyebrow twitching. Nib in field form P25-P36. P47 is Lyra on Borro's shell in the river. The carved coral giant (P48, `farm_canyon/relief.png`); the locked grille and the cleft from P50.
+**Chapter 24 rules:** Moon Ahin's name card is a tall full-figure glamour panel (P02); then the visor-fog gag (P03) and Nib's flat stare (P04). Canyon wyverns: `canyon_wyvern/` (dog-sized bodies, wings about 2.5 m; standing, a wyvern's head is at a man's chest; attach `canyon_wyvern/scale_card.png`), diving in a loose, uneven flock at different depths, never in rows. P21: three husks fall away still in formation; P22: the ECU of her eyebrow twitching. Nib in field form P25-P36. P47 is Lyra on Borro's shell in the river. The carved coral giant (P48, `farm_canyon/relief.png`); the locked grille and the cleft from P50.
 
 | Part | Panels to draw | Notes |
 |---|---|---|

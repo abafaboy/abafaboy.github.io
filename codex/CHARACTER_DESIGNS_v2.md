@@ -64,8 +64,8 @@
 | The training construct (ch 13) | 4 m | he reaches its hip |
 | The basalt boar (ch 15) | 2.8 m at the shoulder, about 4.7 m long | its shoulder is a head above Borro's head |
 | The Drowned Bell-Ringer (ch 17) | 6 m | he reaches just above its knee; Borro its mid-thigh |
-| Canyon wyvern (ch 24) | body 1.2 m, wingspan 4 m | a big dog with wings |
-| The Hushed Tide Warden (ch 26) | 30 m standing, a seven-storey building kneeling | he is the size of the Warden's fingernail |
+| Canyon wyvern (ch 24) | body 1.2 m, wingspan about 2.5 m | a big dog with wings; standing, its head at his chest |
+| The Hushed Tide Warden (ch 26) | 30 m standing, a seven-storey building kneeling | he is about as long as one of the Warden's fingers |
 | Pim (from ch 36) | 140 cm (the antennae add 30 cm) | the top of his head reaches Jaeha's chest; the antennae reach his eyes |
 | Brine crawler (ch 34, 39) | body 80 cm long, 40 cm at the shoulder, the tail 1 m | a big dog that is mostly claws |
 | The Reef Hermit (ch 35) | 4 m tall in its shrine shell | he reaches the bottom of its shell |
@@ -368,9 +368,9 @@ Recurring people get one lineup sheet (`characters_v2/neighbourhood/lineup.png`,
 | `kanghan_engineer` | Kanghan engineers | 23-28 | Grey coveralls with the hexagon emblem, white hard hats, respirators round their necks, tablets and trolleys. The duty chief (ch 28) has grey hair. |
 | `kanghan_tactical` | Kanghan's tactical squad | 27-31 | Black tactical armour, full helmets with smoky visors, the silver hexagon on the chest, small round shields, shock batons, stubby core carbines that fire violet stun bolts; the captain has a red helmet stripe. |
 | `crew_pyo` | Uncle Pyo Dongsik, T-1 (name card ch 23) | 23-33 | 63, small and wiry, a grey crew cut, a weathered kind face with crooked teeth, a brace on his LEFT knee. |
-| `crew_dami` | Dami, T-2 | 23-33 | 34, tired, hair in a low bun, a phone with her daughter's photo as its lock screen. |
+| `crew_dami` | Dami, T-2 | 23-33 | 34, about 165 cm, tired, hair in a low bun, a phone with her daughter's photo as its lock screen. |
 | `dami_daughter` | Dami's daughter | 33 | About 6, a too-big yellow raincoat, a grin with a missing front tooth. A child: drawn simply and cutely, never any fan service. |
-| `crew_woo`, `crew_ho` | The Jang brothers, T-3 and T-5 | 23-33 | Brothers of 25 and 23, both lanky with the same big ears; Ho has bleached hair. They are saving to open a fried-chicken shop ("Wings of Glory"). |
+| `crew_woo`, `crew_ho` | The Jang brothers, T-3 and T-5 | 23-33 | Brothers of 25 and 23, both lanky, about 186 cm and the same height, with the same big ears; Ho has bleached hair. They are saving to open a fried-chicken shop ("Wings of Glory"). |
 | `hospital_doctor` | A ward doctor | 33 | A tired young doctor in a white coat with a tablet. |
 | `training_construct` | The Association's test construct | 13 | A 4 m stone figure of grey granite blocks bound with brass bands, a blank rounded head, arms like pillars, a fist-sized amber test core behind a brass grille in its chest; it moves on rails of light in the floor. Jaeha reaches its hip. |
 
@@ -555,7 +555,7 @@ A hushed boar the size of a truck: 2.8 m at the shoulder (its bristles reach abo
 A hushed giant 6 m tall: a body like drowned grey stone wrapped in rotting dark-blue robes and rusted chains; long arms, huge hands; in place of a head, a cracked bronze cathedral bell green with age, a violet Hush crack down the bell's LEFT side leaking ash, darkness inside its mouth. Its hammer is a bell clapper the size of a tree trunk, held in its RIGHT hand (sides fixed by the approved M7 sheets). When it tolls, a ring of force bursts out a step beyond its own reach; inside its arm's length the force passes over you. Borro reaches its mid-thigh; Jaeha just above its knee.
 
 ### 4c.3 Canyon wyverns (ch 24, Hush-spawn)
-Small cliff-dwelling wyverns: a body the size of a large dog (1.2 m long without the tail), a 4 m wingspan; slate-grey leathery skin streaked with rust; a long whip tail ending in a hooked barb; a narrow skull with a beaky snout full of needle teeth; pale clouded eyes; Hush cracks leaking violet ash along the wing bones. They nest in crevices and dive in flocks of ten to twenty, shrieking like tearing metal.
+Small cliff-dwelling wyverns: a body the size of a large dog (1.2 m long without the tail), a wingspan of about 2.5 m (as drawn on the approved M8 sheets); slate-grey leathery skin streaked with rust; a long whip tail ending in a hooked barb; a narrow skull with a beaky snout full of needle teeth; pale clouded eyes; Hush cracks leaking violet ash along the wing bones. They nest in crevices and dive in flocks of ten to twenty, shrieking like tearing metal.
 
 ### 4c.4 The Hushed Tide Warden (ch 25-28, the kept boss of the Han River gate)
 A sea-giant, 30 m tall if he stood, kept kneeling and sagging in chains. Pale blue-grey skin like a drowned man's, with Hush cracks leaking violet ash; armour of red and white coral grown like plate, crusted with barnacles and shells; a crown of coral branches; a long beard of kelp; a broad, noble, sorrowful face. His eyes are deep sea-green, enormous and ancient (closed until ch 27). Chains as thick as tree trunks run from steel cuffs on his wrists, neck and waist to anchors in the pit walls; the chain links are matte black factory steel with one small stamped mark (the same mark as the knight's chains in ch 1 and 4: a shape, never letters). Dozens of steel pipes are driven into his body through collars bolted into the coral; smoky violet light flows out through their glass sections. A broken trident lies at his knees. Kneeling, he is as tall as a seven-storey building. His voice reaches only Far Side people, as words; humans hear a deep hum.
@@ -812,7 +812,7 @@ Use the snippet of every character in the panel, word for word, so the descripti
 > The Hushed Tide Warden: a kneeling sea-giant as tall as a seven-storey building, pale blue-grey drowned skin with cracks leaking violet ash, armour of red and white coral crusted with barnacles and shells, a crown of coral branches, a long beard of kelp, a broad noble sorrowful face with enormous sea-green eyes; chained by tree-thick matte black steel chains from cuffs on his wrists, neck and waist; dozens of steel pipes driven into his coral through bolted collars, smoky violet light flowing out through their glass sections.
 
 **Canyon wyverns**
-> Canyon wyverns: small wyverns with dog-sized bodies and 4 m wingspans, slate-grey leathery skin streaked with rust, whip tails with hooked barbs, narrow beaky snouts full of needle teeth, pale clouded eyes, violet ash leaking from cracks along the wing bones.
+> Canyon wyverns: small wyverns with dog-sized bodies and wingspans of about 2.5 m, slate-grey leathery skin streaked with rust, whip tails with hooked barbs, narrow beaky snouts full of needle teeth, pale clouded eyes, violet ash leaking from cracks along the wing bones.
 
 **The swarm mother**
 > The swarm mother: a giant hunched, bony rat 1.4 m long, as high as a man's hip, with patchy hairless grey hide blotched black, a ridge of bony spurs along its back, wide cracks down its spine pouring violet ash, small eyes leaking violet ash and long yellow-brown chisel incisors.
