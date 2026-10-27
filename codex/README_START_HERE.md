@@ -1,5 +1,11 @@
 # START HERE (Codex): the rebuild, 25 October 2026
 
+## Changes on 28 October 2026: hands and arms (these override every brief below)
+After watching chapters 2 and 3, the owner said the story, the plot and the characters are "amazing", and that the one problem is the hands and arms: "theyre awful. sometimes the positions and everything else is awful about arms and hands." From now on:
+1. **Hands and arms are the first check on every image.** A hand or arm a viewer would notice at video size (a wrong finger count, an extra, missing or fused hand, an arm that doesn't start at the shoulder, an elbow or wrist bending wrongly, a grip that doesn't hold, a pose no body takes) fails the image, however good the rest is. Follow `PANEL_BRIEF_v2.md` section 4c.
+2. **Hand references.** Job H1 (`HANDS_REFERENCE_BRIEF.md`) builds realistic hand and arm references in `characters_v2/hands/`. When a panel shows a hand gripping, pointing, touching or doing anything specific, pass the matching hand reference as one of the five references (drop the acting sheet first to make room).
+3. **Codex fixes hands; Claude does not paint them.** Hand and arm fixes on existing panels come to you as jobs. A targeted edit of the hand or arm area (crop, edit, composite back at the original pixel size) is the preferred fix when the rest of the panel is approved.
+
 ## Changes on 27 October 2026 (these override every brief below)
 The first cloud runs stalled on four rules. From now on:
 1. **References: at most 5 images per image call** (the tool refuses a sixth). Choose them in the order of `PANEL_BRIEF_v2.md` section 2: each acting character's sheet (the turnaround when the angle matters, else `front.png`), then the location key, then one acting or face sheet if a slot is left. For a sheet entry, once your `front.png` passes, it is your first reference. A `style_test_v2/acting/` anchor is optional and comes last: the approved sheets already carry the house style. **Never hold or skip an image because more references could help.** Pick five by this order and draw.

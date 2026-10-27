@@ -100,6 +100,17 @@ After chapter 1 went out, the owner and a reader both pointed at the same faults
 
    If any answer is no, redraw it.
 
+## 4c. Hands and arms (the owner's direction, 28 October)
+
+After watching chapters 2 and 3 the owner said everything is "amazing" except the hands and arms: "theyre awful. sometimes the positions and everything else is awful about arms and hands." A hand problem a viewer would notice at video size now fails the panel, however good the rest is.
+
+1. **Give every visible hand one job, in the prompt, by side:** "his RIGHT hand grips the sword hilt, thumb over the guard; his LEFT hand is flat on the stone." Say where each elbow points when the arm is bent.
+2. **Pass a hand reference** from `characters_v2/hands/` (job H1, index in `characters_v2/hands/INDEX.md`) whenever a hand grips, points, holds, touches someone or does anything specific. It counts toward the five references; drop the acting sheet first to make room. Add: "Hands and arms: follow the anatomy of the hand reference exactly (finger count, knuckles, thumb position, wrist angle); draw them in the house style."
+3. **Keep hands simple when the beat doesn't need them:** a relaxed hand at the side, a hand on a strap or in a pocket (if the script allows), a hand behind a prop, or the hand cropped by the frame edge. Avoid hands and forearms pointed straight at the camera unless the beat is the hand.
+4. **Arms are built from the shoulder:** each arm starts at the shoulder; the upper arm and forearm are about the same length; a relaxed arm's fingertips reach about mid-thigh; a hand is about as tall as the face (chin to hairline). Elbows and wrists bend only the way they bend.
+5. **Grips and contact:** fingers wrap around what they hold (a hilt, a strap, a phone, a pencil); a held object never passes through a hand or floats beside it; a hand on a shoulder rests on it with the fingers bending over it.
+6. **Check before you keep:** crop every hand and arm at 2x and count: five digits on each hand (four fingers and a thumb; Nib and Borro too), the thumb on the correct side for a left or right hand, nothing fused, no hand that belongs to nobody. Then check that each arm reads as the action the script names. If any check fails, try again; if it still fails after the panel's tries, fix the hand area with a targeted edit (section 5).
+
 ## 5. Checks (every panel)
 - Run sections 11, 11b (1–11) and 11c (1–11), and the section 4b checks above. Look at the full size, then at 200 px wide.
 - Take up to 5 tries per panel; if it still fails, keep the best and note its faults in your DONE file (README_START_HERE, 27 October). A targeted edit of your own kept image is allowed: crop, edit, then composite back at the original pixel size.
