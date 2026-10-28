@@ -752,6 +752,67 @@ SYS_JS = r"""
   return true;
 }
 """
+WINFACE_JS = r"""
+() => {
+  // A floating system window never covers a drawn face (the head boxes in data-faces). When it does, try smaller widths
+  // and other places along the top of the panel, keeping clear of the panel's other windows, and keep the first that
+  // covers no face (28 Oct: ch004 P14/P21/P35/P40/P44, ch006 P41/P44, ch008 P09/P53/P66/P67 were all moved by hand).
+  const fit = (s) => {
+    const w = s.getBoundingClientRect().width;
+    s.querySelectorAll('.stx span').forEach(sp => { sp.style.fontSize = (parseFloat(sp.dataset.fs) * w) + 'px'; });
+    s.querySelectorAll('.stx').forEach(el => {
+      const sp = el.firstElementChild; const W = el.clientWidth, H = el.clientHeight;
+      let fs = parseFloat(sp.style.fontSize), g = 0;
+      while ((sp.scrollWidth > W + 1 || sp.offsetHeight > H + 2) && fs > 6 && g++ < 90) { fs *= 0.95; sp.style.fontSize = fs + 'px'; }
+    });
+  };
+  let moved = 0;
+  for (const p of document.querySelectorAll('.pnl')) {
+    const faces = p.dataset.faces ? JSON.parse(p.dataset.faces) : [];
+    const img = p.querySelector('img.art');
+    if (!faces.length || !img || !img.naturalWidth) continue;
+    const fw = p.clientWidth, fh = p.clientHeight, iw = img.naturalWidth, ih = img.naturalHeight;
+    const sc = Math.max(fw / iw, fh / ih);
+    const pos = (getComputedStyle(img).objectPosition || '50% 50%').split(' ').map(v => parseFloat(v) / 100);
+    const offx = (fw - iw * sc) * (isNaN(pos[0]) ? .5 : pos[0]), offy = (fh - ih * sc) * (isNaN(pos[1]) ? .5 : pos[1]);
+    const fb = faces.map(f => [f[0] * iw * sc + offx, f[1] * ih * sc + offy, f[2] * iw * sc + offx, f[3] * ih * sc + offy]);
+    const pb = p.getBoundingClientRect();
+    const wins = [...p.querySelectorAll('.syswin')];
+    const rel = (w) => { const b = w.getBoundingClientRect(); return [b.left - pb.left, b.top - pb.top, b.right - pb.left, b.bottom - pb.top]; };
+    const cover = (r) => Math.max(0, ...fb.map(f => {
+      const ix = Math.max(0, Math.min(r[2], f[2]) - Math.max(r[0], f[0])), iy = Math.max(0, Math.min(r[3], f[3]) - Math.max(r[1], f[1]));
+      const fa = (f[2] - f[0]) * (f[3] - f[1]); return fa > 0 ? ix * iy / fa : 0; }));
+    for (const w of wins) {
+      if (cover(rel(w)) <= 0.12) continue;
+      const others = wins.filter(o => o !== w).map(rel);
+      const wf0 = parseFloat(w.style.getPropertyValue('--wf')) || 0.66;
+      const left0 = w.style.left, top0 = w.style.top;
+      let best = null;
+      for (const k of [1, 0.85, 0.72, 0.6]) {
+        const wf = Math.max(0.34, wf0 * k);
+        for (const cx of [parseFloat(left0), 50, 27, 73, 21, 79]) {
+          for (const ty of [parseFloat(top0), 3]) {
+            w.style.setProperty('--wf', wf); w.style.left = cx + '%'; w.style.top = ty + '%';
+            const r = rel(w);
+            if (r[0] < fw * 0.01 || r[2] > fw * 0.99 || r[1] < -2 || r[3] > fh * 0.98) continue;
+            if (others.some(o => r[0] < o[2] && r[2] > o[0] && r[1] < o[3] && r[3] > o[1])) continue;
+            const c = cover(r);
+            if (!best || c < best.c - 1e-6) best = {c, wf, cx, ty};
+            if (c <= 0.02) break;
+          }
+          if (best && best.c <= 0.02) break;
+        }
+        if (best && best.c <= 0.02) break;
+      }
+      if (best) {
+        w.style.setProperty('--wf', best.wf); w.style.left = best.cx + '%'; w.style.top = best.ty + '%';
+        fit(w); moved++;
+      } else { w.style.setProperty('--wf', wf0); w.style.left = left0; w.style.top = top0; }
+    }
+  }
+  return moved;
+}
+"""
 TAG_JS = r"""
 () => {
   // A place/time tag sits on the panel's top-left corner. When a bubble covers it, it moves to the first free corner:
@@ -1604,6 +1665,9 @@ def main():
         page.evaluate("document.fonts.ready")
         page.wait_for_timeout(400)
         page.evaluate(SYS_JS)
+        wins_moved = page.evaluate(WINFACE_JS)
+        if wins_moved:
+            print(f"system windows moved off faces: {wins_moved}")
         ntails = page.evaluate(TAIL_JS, kit.profiles_js())
         tags_moved = page.evaluate(TAG_JS)
         if tags_moved:
