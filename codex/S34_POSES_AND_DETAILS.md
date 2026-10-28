@@ -6,7 +6,7 @@ The owner, judging the S33 drafts on 28 October, asked for more:
 - "more closeups of the female characters ... and swimsuits ... so i can see better";
 - "closer details and sizings and positions and like beach positions ... only 4 is too little".
 
-So each fan-service woman gets four more sheets, and all of them share one height lineup. The sheets let the owner judge each woman from every side. They are also the pose references for the Busan summer (chapters 34–40) and the beach chapters (37–38).
+So each fan-service woman (Lyra, Han Sora, Moon Ahin and Yoo Bomi) gets four more sheets, and all of them share one height lineup. The sheets let the owner judge each woman from every side. They are also the pose references for the Busan summer (chapters 34–40) and the beach chapters (37–38).
 
 ## Read first
 
@@ -37,7 +37,7 @@ So each fan-service woman gets four more sheets, and all of them share one heigh
    - No callout zooms in on her chest, crotch or buttocks.
    - Hands and feet are anatomy callouts (five digits each, nails, joints).
 5. **The sheet.**
-   - Each sheet is one 1536×1024 PNG on a plain light backdrop, labelled in English.
+   - Each sheet is one 1536×1024 PNG on a plain light backdrop. No text in the art (README): no labels, names or numbers. Claude labels the sheets afterwards.
    - Outfits, sides and locks exactly as in the design sections:
      - Lyra's braid over her LEFT shoulder and her band on her LEFT thigh;
      - Sora's bandage on her RIGHT wrist and the new compass on her LEFT;
@@ -87,7 +87,7 @@ References: `front.png`, `expressions.png`, `front_swimsuit.png`, `turnaround_sw
   - back;
   - back three-quarter right; profile right; front three-quarter right.
 - The same relaxed confident stance in every view (weight on one leg, a hand on her hip).
-- A faint height ruler at the left, marked every 10 cm from 0 to 190 cm, with the top of her head at 182.
+- A faint height ruler at the left with a tick every 10 cm (19 ticks, no numbers), the top of her head level with the 18th tick and a little over (182 cm).
 - Every view a different teasing face.
 
 **4. `poses_beach.png`**
@@ -120,7 +120,7 @@ References: `front.png`, `expressions.png`, `front_pool.png`, `turnaround_pool.p
 
 **7. `turnaround8_pool.png`**
 - The eight views of sheet 3 in the pool look.
-- The ruler's top line at 168.
+- The ruler as on sheet 3, the top of her head at 168 cm (between the 16th and 17th ticks).
 - Her relaxed hip-shot stance.
 
 **8. `poses_pool.png`**
@@ -157,7 +157,7 @@ Draw Part C only after S33 has delivered `moon_ahin/front_summer.png` and `turna
 
 **11. `moon_ahin/turnaround8_summer.png`**
 - The eight views of sheet 3 in the sundress.
-- The ruler's top line at 170.
+- The ruler as on sheet 3, the top of her head at the 17th tick (170 cm).
 - Her elegant posture with the chin a little raised.
 
 **12. `moon_ahin/poses_beach.png`**
@@ -174,7 +174,7 @@ Draw Part C only after S33 has delivered `moon_ahin/front_summer.png` and `turna
   - h. leaning on a railing with her chin on her hand, looking at the viewer.
 
 **13. `characters_v2/lineup_heights.png`**
-- The four women and Jaeha stand side by side on one floor line, front view, in front of a height chart. The chart has thin lines every 10 cm from 0 to 200 cm, labelled every 50 cm.
+- The four women and Jaeha stand side by side on one floor line, front view, in front of a height chart. The chart has thin lines every 10 cm from 0 to 200 cm and a thicker line every 50 cm (no numbers).
 - From the left:
   - Lyra (182 cm, bikini);
   - Moon Ahin (170 cm, sundress);
@@ -183,14 +183,54 @@ Draw Part C only after S33 has delivered `moon_ahin/front_summer.png` and `turna
   - Yoo Bomi (163 cm, her approved outfit).
 - The top of each head sits exactly at that height.
 - Each woman in a relaxed, confident pose with her signature expression.
-- Her name and height in English under her.
+- No names or numbers (README: no text in the art). Claude adds them.
 - Use `characters_v2/scale_chart_v2.png` and each character's approved front as references.
+
+### Part D: Yoo Bomi, her streamer look (`characters_v2/yoo_bomi/`)
+
+Bomi's look stays as approved (2.7). The owner wants to see her as closely as the others.
+
+References: `source_front.png`, `turnaround.png`, `expressions.png`, `details.png`, `acting.png`.
+
+**14. `yoo_bomi/head_angles.png`**
+- The nine angles of sheet 1, with her high two-tone ponytail (black with bleached-blonde ends) and her big grin.
+- The expressions from 2.7: a big grin; a wink with a peace sign; talking to the drone, mid-word; a cheeky tongue-out; a pout; overreacting with shock; a smug "got it on camera" smirk; laughing; a sly look over her shoulder.
+
+**15. `yoo_bomi/details_outfit.png`**
+- Laid flat, front and back:
+  - the cropped neon-yellow bomber jacket;
+  - the black crop top;
+  - the high-waisted denim shorts with the black belt;
+  - the black thigh-high socks;
+  - the plain black trainers (no stripes or logo).
+- Also, each large on its own:
+  - the compact recurve bow;
+  - the white camera drone with its red recording light, from the front and the side;
+  - her hair tie.
+- One hand, back and palm.
+
+**16. `yoo_bomi/turnaround8.png`**
+- The eight views of sheet 3 in her streamer look.
+- The ruler as on sheet 3, the top of her head at 163 cm (just above the 16th tick).
+- A bouncy, confident stance: weight on one leg, a hand on her hip.
+
+**17. `yoo_bomi/poses_stream.png`**
+- Eight full-figure poses in two rows of four, on a plain light floor with a faint city street behind, the drone in each.
+- The poses:
+  - a. a peace sign beside her face to the drone, a wink;
+  - b. leaning toward the drone, both hands on her knees, grinning;
+  - c. pointing at something off-panel and shouting to her chat;
+  - d. walking backwards ahead of the camera, talking;
+  - e. sitting on a low wall with her knees together and ankles crossed, the bow across her lap;
+  - f. drawing the bow, tongue out in concentration;
+  - g. a jumping cheer, both fists up;
+  - h. a selfie with her phone held up, the drone behind her.
 
 ## Files and the DONE note
 
 - Write only your part's sheets.
 - Rejects go to `characters_v2/_rejects/s34_<name>_<try>_<reason>.png`.
-- Write `prompts_S34<part>.json` and `DONE_S34<part>.md` in `characters_v2/` (part A, B or C).
+- Write `prompts_S34<part>.json` and `DONE_S34<part>.md` in `characters_v2/` (part A, B, C or D).
 - Up to 3 tries per sheet.
 - Before each image call, check the free space on C: (`Get-PSDrive C`). Below 3 GB, stop and write the DONE file.
 - If the image tool reports a usage limit (HTTP 429) or blocks a sheet, write exactly what is done and what is left, and stop.
