@@ -55,7 +55,7 @@ So, in every part:
      - The camera is low and in front of her, at her head, so her face and shoulders are nearest and her body recedes behind.
    - **Lying on her side.** Her head propped on one hand, the other hand on her hip, her knees together and a little bent. The camera is in front of her, at her height.
 
-   For these two poses, this replaces rule 2's line about arched-back lying poses. Still never all-fours, never spread legs, and never a camera behind her or aimed at her buttocks.
+   For these two poses, this replaces rule 2's line about arched-back lying poses and rule 3's camera height (the camera is at her head, low, because she is lying down). Still never all-fours, never spread legs, and never a camera behind her, above her back or aimed at her buttocks.
 
 ## Rules for every S34 sheet
 
@@ -73,7 +73,7 @@ So, in every part:
    - No callout zooms in on her chest, crotch or buttocks.
    - Hands and feet are anatomy callouts (five digits each, nails, joints).
 5. **The sheet.**
-   - Each sheet is one 1536×1024 PNG on a plain light backdrop. No text in the art (README): no labels, names or numbers. Claude labels the sheets afterwards.
+   - Each sheet is one 1536×1024 PNG on a plain light backdrop (single poses: the sizes in the owner's notes). No text in the art (README): no labels, names or numbers. Claude labels the sheets afterwards.
    - Outfits, sides and locks exactly as in the design sections:
      - Lyra's braid over her LEFT shoulder and her band on her LEFT thigh;
      - Sora's bandage on her RIGHT wrist and the new compass on her LEFT;
