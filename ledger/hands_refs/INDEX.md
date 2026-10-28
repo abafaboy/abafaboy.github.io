@@ -28,12 +28,18 @@ Five generator-original PNGs, 1536×1024, drawn in order 10–14. Built-in image
 - `reaching_grabbing_wrist.png` — RIGHT hand reaching, gripping another wrist, reciprocal wrist grip for pull-up; Jaeha; 2 tries, kept try 2.
 - `mouth_and_strap.png` — Woman's two hands over mouth, two hands gripping cross-body strap, RIGHT palm on chest; Yerin; 3 tries, kept try 3. Small centre-view lower-lip/chin edge noted.
 
+## H1D
+- `holding_cup.png` — 15: man's right-hand paper-cup grip, side view, lifting to mouth off-frame; Choi; 1 try; 2x hand crops checked.
+- `handshake_and_peace.png` — 16: man's/woman's right handshake, steep downward view, woman's right peace sign; Bomi; 3 tries; best retained, center view is oblique rather than perfectly vertical overhead; 2x hand crops checked.
+- `arms_carry.png` — 17: shoulder carry, assisted walking, rear chest hold; Mok and Borro; 3 tries; best retained, carry grip sits just above knees and rear hold crosses lower chest/upper abdomen; all seven visible hands checked at 2x.
+- `arms_relaxed.png` — 18: front/profile relaxed arms with mid-thigh fingertips, arms crossed with hands on opposite biceps; general adult male arm-length reference (no character assigned in brief); 2 tries; all five visible hands checked at 2x.
+
 ## Claude's review (28 October)
 
-All fourteen H1-A to H1-C files are APPROVED as references. Take each one's anatomy and grip; draw the hand in the house style. Notes on four of them:
+All eighteen H1 files are APPROVED as references. Take each one's anatomy and grip; draw the hand in the house style. Notes on six of them:
 - `hand_on_shoulder.png`: in the first view the resting hand reads as a LEFT hand. For a RIGHT hand on a shoulder, use the side view (centre) and the collar grip (right).
 - `phone_hold.png`: the little finger rests on the side of the phone, not under its bottom edge. Either is fine in a panel.
 - `bow_draw.png`: the centre view has no bow hand. Take the bow hand from the left and right views, and the three-finger draw from all three.
 - `crossbow_hold.png` (1881×836, a wrong size; kept as drawn): use it for the hands only: the RIGHT hand on the pistol grip, the index finger straight along the side, the LEFT hand under the fore-end. The stock goes into the pocket of her RIGHT shoulder, not low at the chest.
-
-H1-D (`holding_cup.png`, `handshake_and_peace.png`, `arms_carry.png`, `arms_relaxed.png`) is being drawn. Until a file is here, use the closest reference above (PANEL_BRIEF_v2.md 4c.2).
+- `handshake_and_peace.png`: the centre view looks down steeply; the handshake itself is the left view.
+- `arms_carry.png`: in the shoulder carry the carrier's forearm wraps the thighs just above the knees, which is fine. The rear hold crosses the lower chest.
