@@ -57,3 +57,9 @@ Resolve these in the per-arc continuity pass. Rulings already made are marked RU
 - A framed family photo on the grandparents' TV cabinet (for ch 43). The grandparents_house key shows a small flat-screen TV, but ch 43 calls it "the old TV" (nine years ago it can be an old CRT; today's set is the flat screen).
 - Nameplates (`intro:`) for Grandpa, Grandma and Haru in ch 8.
 - Haeseong: LOCATIONS.md needs an entry; the breakwater ("the wall") position should follow the haeseong_port key.
+
+## From the narration-vs-art check (28 Oct 2026)
+- ch004 P39, P41, P44, P45: the floor chains are drawn whole after P32 shows them crumbling to dust. Fix: replace the chains (links and hooks) with heaps of rust dust and a few broken links, keep the anchor plates and rings. Claude paint fix or a Codex edit.
+- ch005 P55: Baek's cane stands behind his legs, unheld (added to HANDS_ch005.md as P55, job HF-040506).
+- ch010 P32: nine hounds plus the alpha against a pack of eight (P35's plan shows seven). Narration avoids the number.
+- ch010 P38, P39, P43: Borro has no field-form glow though he is in field form from P37 (a soft moss-green rim glow would fix it).
