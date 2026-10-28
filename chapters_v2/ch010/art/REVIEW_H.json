@@ -1,0 +1,77 @@
+{
+  "P54": {
+    "heads": {
+      "borro": [
+        0.241,
+        0.011,
+        0.356,
+        0.144
+      ],
+      "nib": [
+        0.857,
+        0.309,
+        0.911,
+        0.371
+      ]
+    },
+    "verdict": "ok",
+    "problems": [],
+    "tries": 2,
+    "inspection": "Full native image and phone-size composition; no resizing/re-encoding of saved PNG",
+    "pixel_check_200percent": "In-memory 2x native-pixel crops inspected: no compression defects; P56 retains listed staging/design faults."
+  },
+  "P55": {
+    "heads": {
+      "kang_jaeha": [
+        0.589,
+        0.027,
+        0.87,
+        0.416
+      ],
+      "song_yerin": [
+        0.087,
+        0.024,
+        0.448,
+        0.403
+      ]
+    },
+    "verdict": "ok",
+    "problems": [],
+    "tries": 2,
+    "inspection": "Full native image and phone-size composition; no resizing/re-encoding of saved PNG",
+    "pixel_check_200percent": "In-memory 2x native-pixel crops inspected: no compression defects; P56 retains listed staging/design faults."
+  },
+  "P56": {
+    "heads": {
+      "kang_jaeha": [
+        0.08,
+        0.275,
+        0.222,
+        0.481
+      ],
+      "borro": [
+        0.349,
+        0.085,
+        0.462,
+        0.278
+      ],
+      "nib": [
+        0.816,
+        0.291,
+        0.961,
+        0.455
+      ]
+    },
+    "verdict": "draft_requires_redraw",
+    "problems": [
+      "Borro's mask/eyes remain above seated Jaeha instead of reaching his eye level.",
+      "Jaeha's white forearm bandage is on the visible near/right arm instead of his anatomical left.",
+      "Nib sheath placement drifts to the front rather than the small of his back."
+    ],
+    "tries": 2,
+    "generated_candidates": 1,
+    "failed_quota_calls": 1,
+    "inspection": "Full native image and 200px thumbnail; existing draft retained because further image calls are blocked by usage limit.",
+    "pixel_check_200percent": "In-memory 2x native-pixel crops inspected: no compression defects; P56 retains listed staging/design faults."
+  }
+}
