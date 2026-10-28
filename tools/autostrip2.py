@@ -463,6 +463,40 @@ def html_app(u, w, h):
                 f'<div style="position:absolute;right:{V(3)};top:{V(3)};background:#C62828;color:#fff;font:700 {V(3.4)}/1 UI;padding:{V(1.2)} {V(2.4)};letter-spacing:.06em">KNN 24 · LIVE</div>'
                 f'<div style="position:absolute;left:{V(4)};bottom:{V(9)};background:#fff;border-left:{V(1.4)} solid #C62828;padding:{V(1.6)} {V(3)};font:700 {V(4.2)}/1.1 UI;color:#111">{E(u.get("text", ""))}</div>'
                 f'<div style="position:absolute;left:0;right:0;bottom:0;height:{V(6)};background:#C62828;color:#fff;font:600 {V(3)}/{V(6)} UI;padding-left:{V(4)};white-space:nowrap;overflow:hidden">{E(u.get("ticker", ""))}</div></div>')
+    elif k == "pc.video_editor":
+        # A desktop video editor: a preview of the footage (`source` panel's art, `subject` box), transport and a timeline.
+        bg = u.get("_bg")
+        ph = float(u.get("playhead", 0.62))
+        clips = [(0.00, 0.18, "#E8458B"), (0.19, 0.41, "#3FB6C6"), (0.42, 0.57, "#E6C63F"), (0.58, 0.83, "#E8458B"), (0.84, 1.00, "#7C6CF0")]
+        track = lambda y, cl, op: "".join(
+            f'<div style="position:absolute;left:{V(4 + a * 92)};width:{V((b - a) * 92 - 0.4)};top:{V(y)};height:{V(4.2)};'
+            f'border-radius:{V(0.5)};background:{c};opacity:{op}"></div>' for a, b, c in cl)
+        wave = "".join(f'<div style="position:absolute;left:{V(4 + i * 0.92)};width:{V(0.5)};bottom:{V(6)};height:{V(1 + 3.2 * abs(((i * 37) % 23) / 23 - 0.5) * 2)};'
+                       f'background:#5FD38D;opacity:.8"></div>' for i in range(100))
+        body = (f'<div class="app" style="width:{w}px;height:{h}px;background:#16181d;color:#cfd3dc">'
+                f'<div style="position:absolute;left:0;right:0;top:0;height:{V(4.6)};background:#22252c;display:flex;align-items:center;gap:{V(1.2)};padding-left:{V(1.6)};'
+                f'font:600 {V(1.7)}/1 UI;letter-spacing:.06em">'
+                + "".join(f'<span style="width:{V(1.1)};height:{V(1.1)};border-radius:50%;background:{c}"></span>' for c in ("#ff5f57", "#febc2e", "#28c840"))
+                + f'<span style="margin-left:{V(1.4)}">{E(u.get("title", "BOMBOM TV · EDIT"))}</span></div>'
+                f'<div style="position:absolute;left:{V(20)};right:{V(20)};top:{V(7)};height:{V(33.75)};background:#000 url(\'{uri(bg) if bg else ""}\') center/cover no-repeat;'
+                f'border:{V(0.25)} solid #33363e"></div>'
+                f'<div style="position:absolute;left:0;right:0;top:{V(42.5)};text-align:center;font:600 {V(1.9)}/1 UI;color:#9aa0ad">'
+                f'&#9664;&#9664;&nbsp;&nbsp;&#10074;&#10074;&nbsp;&nbsp;&#9654;&#9654;&nbsp;&nbsp;&nbsp;{E(u.get("timecode", "00:12:41:08"))}</div>'
+                f'<div style="position:absolute;left:0;right:0;top:{V(46.5)};bottom:0;background:#1c1f25;border-top:{V(0.2)} solid #2c3038">'
+                + track(2.2, clips, 0.95) + track(7.6, [(0.08, 0.30, "#3FB6C6"), (0.47, 0.70, "#E6C63F")], 0.85)
+                + track(13.0, [(0.00, 1.00, "#3a3f4a")], 1.0) + wave
+                + f'<div style="position:absolute;left:{V(4 + ph * 92)};top:0;bottom:0;width:{V(0.35)};background:#ff3b30"></div></div></div>')
+    elif k == "pc.channel_stats":
+        # A channel dashboard on a second monitor: the subscriber count, today's change and a rising graph.
+        pts = [0.80, 0.78, 0.74, 0.75, 0.70, 0.66, 0.67, 0.60, 0.52, 0.44, 0.30, 0.18]
+        poly = " ".join(f"{i / (len(pts) - 1) * 100:.1f},{y * 100:.1f}" for i, y in enumerate(pts))
+        body = (f'<div class="app" style="width:{w}px;height:{h}px;background:#14161b;color:#e9ecf2;padding:{V(4)} {V(5)}">'
+                f'<div style="font:700 {V(2.6)}/1 UI;letter-spacing:.12em;color:#E8458B">{E(u.get("title", "BOMBOM TV · CHANNEL"))}</div>'
+                f'<div style="font:800 {V(9.5)}/1 UI;margin-top:{V(4)}">{E(u.get("count", "58,912"))}</div>'
+                f'<div style="font:600 {V(2.6)}/1 UI;color:#9aa0ad;margin-top:{V(1.4)};letter-spacing:.08em">SUBSCRIBERS</div>'
+                f'<div style="font:700 {V(3)}/1 UI;color:#5FD38D;margin-top:{V(2.4)}">{E(u.get("change", "+3,021 TODAY"))}</div>'
+                f'<svg viewBox="0 0 100 100" preserveAspectRatio="none" style="position:absolute;left:{V(5)};right:{V(5)};bottom:{V(5)};width:{V(90)};height:{V(26)}">'
+                f'<polyline points="{poly}" fill="none" stroke="#E8458B" stroke-width="2.2" vector-effect="non-scaling-stroke"/></svg></div>')
     elif k == "phone.camera":
         # A phone filming: the viewfinder shows the scene it points at (a crop of the panel's own art, `subject` box),
         # with REC and a timer, corner guides and the shutter, like any phone camera app.
@@ -765,10 +799,11 @@ SFX_JS = r"""
     return out;
   };
   let moved = 0; const stuck = [], onface = [];
+  const placed = [];  // SFX already placed: a later SFX keeps off them too (28 Oct: ch006 P03's FWIP sat on SHK SHK SHK)
   for (const s of document.querySelectorAll('.sfx')) {
     const pov = s.parentElement.getBoundingClientRect();
     const faces = facesOf(s.parentElement.parentElement.querySelector('.pnl'));
-    const obst = boxes.concat(faces);
+    const obst = boxes.concat(faces, placed);
     let shrinks = 0;
     for (let it = 0; it < 12; it++) {
       const r = s.getBoundingClientRect();
@@ -789,6 +824,7 @@ SFX_JS = r"""
       s.style.top = (parseFloat(s.style.top) + best.dy / pov.height * 100).toFixed(2) + '%';
       moved++;
     }
+    placed.push(s.getBoundingClientRect());
   }
   // SFX may break the panel frame but never run off the page: keep every one inside the strip's width.
   const pageW = document.documentElement.clientWidth, edge = 14;
@@ -1072,12 +1108,17 @@ def main():
                 else:
                     scale = max(1.0, 900.0 / max(qw, qh))
                     uw, uh = int(qw * scale), int(qh * scale)
-                    if kind == "phone.camera":  # the viewfinder image: the subject box of this panel's art, at the screen's shape
-                        im0 = Image.open(src).convert("RGB")
+                    if kind in ("phone.camera", "pc.video_editor"):
+                        # the viewfinder or preview image: the subject box of this panel's art (a camera) or of the `source`
+                        # panel's art (an editor showing footage), cropped to the screen's (or the preview's 16:9) shape
+                        srcp = src
+                        if kind == "pc.video_editor":
+                            srcp = next((ART / f"{u.get('source', pid)}{x}" for x in (".png", ".jpg", ".webp") if (ART / f"{u.get('source', pid)}{x}").exists()), src)
+                        im0 = Image.open(srcp).convert("RGB")
                         W0, H0 = im0.size
-                        sx0, sy0, sx1, sy1 = u.get("subject", [0.25, 0.0, 0.75, 0.6])
+                        sx0, sy0, sx1, sy1 = u.get("subject", [0.25, 0.0, 0.75, 0.6] if kind == "phone.camera" else [0, 0, 1, 1])
                         bw0, bh0 = (sx1 - sx0) * W0, (sy1 - sy0) * H0
-                        asp = uw / max(1, uh)
+                        asp = (16 / 9) if kind == "pc.video_editor" else uw / max(1, uh)
                         if bw0 / bh0 < asp:
                             bw0 = bh0 * asp
                         else:
@@ -1087,7 +1128,8 @@ def main():
                         l_ = min(max(cx - bw0 / 2, 0), W0 - bw0)
                         t_ = min(max(cy - bh0 / 2, 0), H0 - bh0)
                         camf = WORK / f"{pid}_cam.png"
-                        im0.crop((int(l_), int(t_), int(l_ + bw0), int(t_ + bh0))).resize((uw, uh), Image.LANCZOS).save(camf)
+                        ow, oh = (uw, uh) if kind == "phone.camera" else (960, 540)
+                        im0.crop((int(l_), int(t_), int(l_ + bw0), int(t_ + bh0))).resize((ow, oh), Image.LANCZOS).save(camf)
                         u["_bg"] = str(camf)
                     page.set_viewport_size({"width": uw, "height": uh})
                     load_html(page, html_app(u, uw, uh), WORK / f"{pid}_app.html")
