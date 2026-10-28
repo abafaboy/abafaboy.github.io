@@ -6,6 +6,8 @@
   calm top-left area, an optional second word, an optional tag badge (e.g. "1-33") and an optional arrow to a point.
 - Saves PNG; if that is over YouTube's 2 MB thumbnail limit, saves the highest JPEG quality that fits instead.
 
+layout JSON may also set "tag_css" (inline CSS for the tag badge, e.g. "right:auto;left:30px;top:auto;bottom:28px").
+
 usage: thumbnail_text.py ART.png OUT_BASENAME --word OPERATOR [--word2 "F-RANK BAIT"] [--tag "1-33"]
                          [--arrow 0.40,0.30,0.62,0.55] [--crop 0.5] [--color "#FFE14D"]
 """
@@ -89,7 +91,7 @@ html,body{{margin:0;width:{W}px;height:{H}px;overflow:hidden;background:#000}}
 .tag{{position:absolute;right:34px;top:30px;font:64px/1 'Big';color:#fff;background:#E0262B;padding:10px 22px 14px;
   border:6px solid #000;border-radius:14px;transform:rotate(3deg);box-shadow:0 7px 0 rgba(0,0,0,.85)}}
 </style></head><body><div class="bg"></div>{arrow}
-{f'<div class="word">{A.word}</div>' if A.word else ''}{f'<div class="word2">{A.word2}</div>' if A.word2 else ''}{labels}{f'<div class="tag">{A.tag}</div>' if A.tag else ''}
+{f'<div class="word">{A.word}</div>' if A.word else ''}{f'<div class="word2">{A.word2}</div>' if A.word2 else ''}{labels}{f'<div class="tag" style="{LAY.get("tag_css", "")}">{A.tag}</div>' if A.tag else ''}
 </body></html>"""
     from playwright.sync_api import sync_playwright
     with tempfile.TemporaryDirectory() as td:
