@@ -1,0 +1,127 @@
+{
+  "job": "ch003-R2",
+  "P45": {
+    "tries": 1,
+    "verdict": "kept_local_composite",
+    "heads": {
+      "nib": [
+        0.074,
+        0.081,
+        0.312,
+        0.324
+      ],
+      "knight_commander": [
+        0.725,
+        0.15,
+        0.846,
+        0.352
+      ],
+      "kang_jaeha": [
+        0.885,
+        0.495,
+        0.917,
+        0.554
+      ]
+    },
+    "hands": {
+      "crop_scale": 2,
+      "boxes_px": [
+        [
+          152,
+          722,
+          374,
+          901
+        ],
+        [
+          943,
+          547,
+          1053,
+          676
+        ],
+        [
+          1204,
+          610,
+          1278,
+          743
+        ]
+      ],
+      "findings": "Three original hands unchanged and checked2x: Nib RIGHT grips knifehandle at hip with four fingers/thumb; knight nearRIGHT relaxed on thigh and farLEFT relaxed at flank, normal plated digits/occlusions. Jaeha bothhands hidden in vestpockets, elbows atflanks."
+    },
+    "checks": "Jaeha small behind portcullis, bars occlude torso/legs, boots behind lower grate sill. Only changedbbox1263,402,1442,826. Rest original pixels identical. Native1536x1024, full and200px checked.",
+    "problems": []
+  },
+  "P58": {
+    "tries": 3,
+    "verdict": "kept_native_arm_composite",
+    "heads": {
+      "nib": [
+        0.232,
+        0.269,
+        0.338,
+        0.396
+      ],
+      "knight_commander": [
+        0.467,
+        0.025,
+        0.737,
+        0.454
+      ]
+    },
+    "hands": {
+      "crop_scale": 2,
+      "boxes_px": [
+        [
+          401,
+          201,
+          490,
+          283
+        ],
+        [
+          526,
+          214,
+          611,
+          294
+        ],
+        [
+          687,
+          137,
+          800,
+          283
+        ],
+        [
+          1410,
+          769,
+          1536,
+          980
+        ]
+      ],
+      "arm_crop_px": [
+        660,
+        40,
+        1110,
+        285
+      ],
+      "findings": "Four visible hands plus full fararm checked2x. Nib two original five-digit knifegrips unchanged; handles straight, blade held at crossing abovefists. New knight RIGHT far gauntlet: four curled fingers underhilt plus opposingthumb, entirelyRIGHTofguard; wrist continuous with forearm over/behindhelmet tofarshoulder. NearLEFTgauntlet remains hanging with fingers partly framecropped. Neck hook inspectedseparately: interlockingchainlinks, not extra hand."
+    },
+    "checks": "Blade/guard originalposition restored; originalNib and nearLEFTarm untouched. Only changedbbox662,62,1105,279. Native1536x1024, full and200px checked. Arm insert translated22pxright/21pxdown without scaling; originalhelmet layered abovefararm, hand naturally occludes smallhilt/helmetedge.",
+    "problems": [
+      "Far forearm partly hidden by helmet as expected; some upperarm/elbow cannot be seen together.",
+      "Clasp/crest fine towers foreshortened, inherited original detail."
+    ]
+  },
+  "REDO_1_delivery_audit": {
+    "jobs": 9,
+    "panels": 18,
+    "completed_image_calls": 51,
+    "interrupted_call_excluded": "ch008 P54 background call interrupted by app restart; no output, no try counted",
+    "all_final_pngs_verified": true,
+    "all_final_png_link_counts": 1,
+    "scoped_reject_pngs_checked": 99,
+    "scoped_reject_multiple_links": 0,
+    "json_logs_valid": 18,
+    "hand_checks": "Every kept panel inspected full size and at200px; every visible hand cropped2x. Tiny/cropped digits and remaining brief faults recorded in each review.",
+    "png_dimensions": "Native1536x1024 except ch007P49/ch004P03 at1024x1536 and ch006P54/ch005P35 at1254square.",
+    "http429": false,
+    "low_disk_stop": false
+  }
+}

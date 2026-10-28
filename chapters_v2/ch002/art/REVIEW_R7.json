@@ -1,0 +1,125 @@
+{
+  "job": "ch002-R7",
+  "P58": {
+    "verdict": "best_at_five_try_limit",
+    "kept_try": 4,
+    "heads": {
+      "kang_jaeha": [
+        0,
+        0.17,
+        0.247,
+        0.558
+      ],
+      "nib": [
+        0.746,
+        0.222,
+        0.88,
+        0.374
+      ],
+      "knight_commander": "above frame"
+    },
+    "measurements": [
+      {
+        "try": 1,
+        "nib_crown": 240,
+        "knight_knee_centres": [
+          400,
+          465
+        ],
+        "knight_soles": 835
+      },
+      {
+        "try": 2,
+        "nib_crown": 240,
+        "knight_knee_centres": [
+          200,
+          280
+        ],
+        "knight_soles": 835
+      },
+      {
+        "try": 3,
+        "nib_crown": 240,
+        "knight_knee_centres": [
+          280,
+          345
+        ],
+        "knee_plate_top": [
+          200,
+          260
+        ],
+        "knight_soles": 845
+      },
+      {
+        "try": 4,
+        "nib_crown": 240,
+        "knight_knee_centres": [
+          220,
+          300
+        ],
+        "knee_plate_bounds": [
+          [
+            145,
+            310
+          ],
+          [
+            220,
+            380
+          ]
+        ],
+        "knight_soles": 845
+      },
+      {
+        "try": 5,
+        "nib_crown": 240,
+        "knight_knee_centres": [
+          220,
+          300
+        ],
+        "knight_soles": 845
+      }
+    ],
+    "hands": {
+      "crop_scale": 2,
+      "boxes_px": [
+        [
+          240,
+          545,
+          425,
+          754
+        ],
+        [
+          318,
+          103,
+          473,
+          247
+        ],
+        [
+          938,
+          281,
+          1066,
+          456
+        ],
+        [
+          1110,
+          737,
+          1200,
+          852
+        ],
+        [
+          1305,
+          728,
+          1410,
+          855
+        ]
+      ],
+      "findings": "Five visible hands/arms examined at2x. Jaeha glove near neck, individual digits partly occluded by collar, continuous arm. Knight RIGHT gauntlet encloses hilt with opposed thumb; LEFT relaxed palm four articulated fingers plus thumb. Nib two ordinary five-digit grips each enclose one straight handle, but both remain FORWARD grips, a brief fault. Rejectedtry5 has extra pommel/axis and is worse."
+    },
+    "checks": "Crown240 falls within both kneeplate spans145–310 and220–380. Helmet above frame; nine-tower crest visible at top, cracked left pauldron cropped. Native1536x1024, full and200px read. Local translation restores original upper Nib and pillar, original Jaeha foreground kept.",
+    "problems": [
+      "Nib knife grips are forward, not reverse; five tries exhausted.",
+      "Lower Nib/hands/cloak and some background change; preservation is not pixel-exact everywhere.",
+      "Right knee centre remains60px below crown, though crown is within kneeplate; shins strongly foreshortened."
+    ]
+  }
+}
