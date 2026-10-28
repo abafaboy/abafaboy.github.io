@@ -779,7 +779,19 @@ WINFACE_JS = r"""
     });
   };
   let moved = 0;
-  // first, windows stacked in one panel never overlap: a later window that runs into an earlier one moves down below it
+  // first, every window sits wholly inside its panel: one placed so low (or high) that the panel edge cuts it moves in
+  // (28 Oct: ch009 and ch010's bottom timers at y 0.86-0.92 showed only their header strip, the time itself cut off)
+  for (const p of document.querySelectorAll('.pnl')) {
+    const pb = p.getBoundingClientRect(), fh = p.clientHeight;
+    for (const w of p.querySelectorAll('.syswin')) {
+      const b = w.getBoundingClientRect(), top = b.top - pb.top, bot = b.bottom - pb.top;
+      let dy = 0;
+      if (bot > fh * 0.97) dy = fh * 0.97 - bot;
+      if (top + dy < fh * 0.01) dy = fh * 0.01 - top;
+      if (Math.abs(dy) > 0.5) { w.style.top = (parseFloat(w.style.top) + dy / fh * 100).toFixed(2) + '%'; moved++; }
+    }
+  }
+  // then, windows stacked in one panel never overlap: a later window that runs into an earlier one moves down below it
   // (28 Oct: ch008 P57's second notice hid the first one's text)
   for (const p of document.querySelectorAll('.pnl')) {
     const ws = [...p.querySelectorAll('.syswin')];
