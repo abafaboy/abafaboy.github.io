@@ -1104,6 +1104,8 @@ iframe.appl{{position:absolute;inset:0;width:100%;height:100%;border:0;z-index:4
 .ctx{{position:absolute;display:flex;align-items:center;justify-content:center;text-align:center;font:700 1em/1.15 'UI',sans-serif;letter-spacing:.14em}}
 .chibi-end{{width:62%;margin:0 auto;border-radius:18px;overflow:hidden;box-shadow:0 0 0 2px {LINE}}}
 .chibi-end img{{display:block;width:100%}}
+.chibi-sign{{position:absolute;display:flex;align-items:center;justify-content:center;text-align:center;
+  font-family:'Letter',sans-serif;font-weight:800;color:#1a1a1a;line-height:1.05;font-size:24px;padding:2%}}
 .title{{padding:150px 40px 140px;text-align:center}}
 .logo{{width:78%;display:block;margin:0 auto}}
 .logo-t{{font:400 118px/0.92 'Impact',sans-serif;color:#0b1530;letter-spacing:2px}}
@@ -1605,7 +1607,15 @@ def main():
                     # the cliffhanger runs straight into TO BE CONTINUED; the chibi gag comes after it, as a bonus (judge, ch 2)
                     blocks.append(card_html(kit.cards["end"], {"continuing": p.get("end_text", "TO BE CONTINUED"), "teaser": p.get("next", "")}, W))
                     if chibi:
-                        blocks.append(f'<div class="blk" style="background:{col};padding:110px 0 110px"><div class="pbox chibi-end"><img src="{uri(chibi)}"></div></div>')
+                        sign = p.get("sign") if isinstance(p.get("sign"), dict) else None
+                        sign_html = ""
+                        if sign and sign.get("text") and len(sign.get("box", [])) == 4:
+                            # lettering on a blank sign or card the chibi gag holds (judge, ch 7: a blank sign read as missing lettering)
+                            x0, y0, x1, y1 = sign["box"]
+                            sign_html = (f'<div class="chibi-sign" style="left:{x0 * 100:.2f}%;top:{y0 * 100:.2f}%;width:{(x1 - x0) * 100:.2f}%;'
+                                         f'height:{(y1 - y0) * 100:.2f}%;transform:rotate({sign.get("rot", 0)}deg)"><span>{fmt_text(sign["text"])}</span></div>')
+                        blocks.append(f'<div class="blk" style="background:{col};padding:110px 0 110px"><div class="pbox chibi-end" style="position:relative">'
+                                      f'<img src="{uri(chibi)}">{sign_html}</div></div>')
                 else:
                     cimg = f'<img class="end-chibi" src="{uri(chibi)}">' if chibi else ""
                     blocks.append(f'<div class="blk endcard{dcls}" style="background:{col}"><div class="e-tbc">{E(p.get("end_text", "TO BE CONTINUED"))}</div>'
@@ -1802,7 +1812,12 @@ def main():
                 calm = p.get("calm", "")
                 if any(isinstance(u, dict) and u.get("kind") == "tv.lowerthird" and u.get("on") == "panel" for u in p.get("ui") or []):
                     calm = "top"  # the news graphic fills the bottom edge: bubbles there would cover it (28 Oct, ch004 P57)
-                if calm in ("bottom", "bottom-left", "bottom-right"):
+                if isinstance(p.get("split"), int):
+                    # the script pins how many of the panel's balloons go above it (the rest go below), e.g. a speaker at
+                    # the top and another at the bottom of the same panel (judge, ch 7 P64: a tail ended in the sky)
+                    k_ = max(0, min(len(talk), p["split"]))
+                    before, after = talk[:k_], talk[k_:]
+                elif calm in ("bottom", "bottom-left", "bottom-right"):
                     before, after = (talk[:1], talk[1:]) if len(talk) >= 3 else ([], talk)
                 elif len(talk) >= 3:
                     half = (len(talk) + 1) // 2

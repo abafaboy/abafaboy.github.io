@@ -55,7 +55,7 @@ panels:
     lines:
       - {who: offpanel:crowd, type: tag, text: "MANGWON-DONG. WEDNESDAY, 7 AM."}
     sfx:
-      - {text: "CRUNCH CRUNCH", style: quiet, at: [0.30, 0.72], size: S, rot: 0}
+      - {text: "CRUNCH CRUNCH", style: quiet, at: [0.86, 0.42], size: S, rot: 0}   # judge, ch 7: by Nib's cereal, not Jaeha's boots
       - {text: "KAW KAW", style: quiet, at: [0.84, 0.16], size: S, rot: 0}
 
   - id: P02
@@ -137,7 +137,7 @@ panels:
       - {who: choi_dongmin, type: speech, text: "IS YOUR HUSK HOLDING A SPOON IN ITS MOUTH?", side: r}
       - {who: kang_jaeha, type: nervous, text: "HE LIKES TO HOLD THINGS, SIR.", side: l}
     sfx:
-      - {text: "DRIP", style: quiet, at: [0.22, 0.52], size: S, rot: 0}
+      - {text: "DRIP", style: quiet, at: [0.47, 0.45], size: S, rot: 0}   # judge, ch 7: at Nib's chin
 
   - id: P06
     recipe: talk
@@ -200,7 +200,7 @@ panels:
     calm: right
     lines:
       - {who: choi_dongmin, type: speech, text: "A BOSS CORE IS WORTH HUNDREDS OF MILLIONS. NOBODY CARRIED ONE OUT.", side: l}
-      - {who: offpanel:kang_jaeha, type: speech, text: "THEN SOMEBODY MUST HAVE LEFT IT BEHIND.", side: l}
+      - {who: offpanel:kang_jaeha, type: speech, text: "THEN SOMEBODY MUST HAVE LEFT IT BEHIND.", side: r}   # judge, ch 7: toward Jaeha's side
 
   - id: P09
     recipe: insert
@@ -235,7 +235,7 @@ panels:
     calm: left
     lines:
       - {who: choi_dongmin, type: speech, text: "YOUR HUSK ATE MY KIMBAP.", side: r}
-      - {who: offpanel:kang_jaeha, type: nervous, text: "HE'S A VERY HUNGRY HUSK, SIR.", side: r}
+      - {who: offpanel:kang_jaeha, type: nervous, text: "HE'S A VERY HUNGRY HUSK, SIR.", side: l}   # judge, ch 7: off-panel, not at Choi
 
   - id: P11
     recipe: talk
@@ -312,7 +312,7 @@ panels:
     lines:
       - {who: offpanel:choi_dongmin, type: speech, text: "VERY UNUSUAL HUSK.", side: l}
     sfx:
-      - {text: "TAK", style: comic, at: [0.30, 0.30], size: M, rot: -8}
+      - {text: "TAK", style: comic, at: [0.15, 0.07], size: M, rot: -8}   # judge, ch 7: off the catching fingers
 
   - id: P15
     recipe: insert
@@ -591,7 +591,7 @@ panels:
     eyeline: "all three → the fresh grain"
     calm: top
     sfx:
-      - {text: "GRAB", style: quiet, at: [0.30, 0.62], size: S, rot: 0}
+      - {text: "GRAB", style: quiet, at: [0.13, 0.36], size: S, rot: 0}   # judge, ch 7: at Yerin's shoulder
 
   - id: P29
     recipe: link-view
@@ -651,7 +651,7 @@ panels:
     calm: right
     lines:
       - {who: song_yerin, type: whisper, text: "SOMEBODY RIGGED THIS FOR YOU. WAS IT BLACK HOUND?", side: l}
-      - {who: offpanel:kang_jaeha, type: whisper, text: "THEY SMOKE MENTHOLS.", side: l}
+      - {who: offpanel:kang_jaeha, type: whisper, text: "THEY SMOKE MENTHOLS.", side: r}   # judge, ch 7: Jaeha's, not Yerin's
     sfx:
       - {text: "GULP", style: quiet, at: [0.76, 0.40], size: S, rot: 0}
 
@@ -874,7 +874,7 @@ panels:
     lines:
       - {who: kang_jaeha, type: inner, text: "IF I'D WALKED IN HERE FIRST, THAT WOULD HAVE BEEN ME."}
     sfx:
-      - {text: "SHUNK", style: impact, at: [0.52, 0.30], size: XL, rot: 8}
+      - {text: "SHUNK", style: impact, at: [0.22, 0.24], size: XL, rot: 8}   # judge, ch 7: off the blade
 
   - id: P43
     recipe: reaction
@@ -1184,8 +1184,8 @@ panels:
     ui:
       - kind: phone.info_card
         "on": screen
-        title: "SURVEY PAYMENT"
-        text: "GATE 2231 · TRAPS MARKED: 12 · ₩150,000 RECEIVED"
+        title: "PAYMENT RECEIVED"
+        text: "₩150,000 · 12 TRAPS"   # judge, ch 7: the payoff must be readable on a phone
     lines:
       - {who: kang_jaeha, type: inner, text: "TWELVE TRAPS. ONE OF THEM HAD TWO HUNTERS IN IT."}
 
@@ -1288,6 +1288,7 @@ panels:
       - {who: kang_jaeha, type: speech, text: "AND ONE PROMISE. WHEN IT'S SAFE, YOU GET THE WHOLE STORY FIRST.", side: r}
 
   - id: P64
+    split: 1   # judge, ch 7: Bomi's balloon above, Nib's below beside him (his tail ended in the sky)
     recipe: talk
     shape: wide
     gap: short
@@ -1463,4 +1464,5 @@ panels:
 
   - id: END
     kind: end
+    sign: {text: "SORRY ABOUT THE KIMBAP", box: [0.715, 0.575, 0.950, 0.700]}   # judge, ch 7: the blank sign read as missing lettering
     chibi_gag: "Chibi Choi, at the stair door with a new bag of kimbap, finds chibi Nib already sitting on the bag with his cheeks full; chibi Jaeha behind them holds up a sign-shaped blank card and bows."
