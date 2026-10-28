@@ -245,7 +245,9 @@ def find_green(img_bgr):
     looser edge pixels join the mask only where they touch that core (27 Oct: the old loose test painted
     the highlight on Yerin's green cuff dark in ch002 P37 and P43)."""
     b, g, r = (img_bgr[:, :, i].astype(np.int32) for i in range(3))
-    core = ((g >= 200) & (r <= 80) & (b <= 80) & (g - np.maximum(r, b) >= 150)).astype(np.uint8) * 255
+    # 28 Oct: r, b up to 110 (ch005 P17's phone and ch006 P57's monitor are bright green, not pure #00FF00); the
+    # g - max(r, b) >= 140 test still keeps mint cuffs and glows out (checked over every panel of chapters 1-10)
+    core = ((g >= 200) & (r <= 110) & (b <= 110) & (g - np.maximum(r, b) >= 140)).astype(np.uint8) * 255
     core = cv2.morphologyEx(core, cv2.MORPH_OPEN, np.ones((3, 3), np.uint8))
     if cv2.countNonZero(core) < 900:
         return None, None
