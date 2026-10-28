@@ -44,34 +44,430 @@
   "P56": {
     "heads": {
       "kang_jaeha": [
-        0.08,
-        0.275,
-        0.222,
-        0.481
+        0.073,
+        0.238,
+        0.21,
+        0.43
       ],
       "borro": [
-        0.349,
-        0.085,
-        0.462,
-        0.278
+        0.256,
+        0.2,
+        0.371,
+        0.424
       ],
       "nib": [
-        0.816,
-        0.291,
-        0.961,
-        0.455
+        0.837890625,
+        0.373046875,
+        0.9485677083333334,
+        0.4814453125
       ]
     },
-    "verdict": "draft_requires_redraw",
-    "problems": [
-      "Borro's mask/eyes remain above seated Jaeha instead of reaching his eye level.",
-      "Jaeha's white forearm bandage is on the visible near/right arm instead of his anatomical left.",
-      "Nib sheath placement drifts to the front rather than the small of his back."
+    "verdict": "ok_v3",
+    "problems": [],
+    "continuation_tries": 3,
+    "hands_2x_crop_boxes": [
+      [
+        35,
+        725,
+        165,
+        250
+      ],
+      [
+        390,
+        620,
+        155,
+        170
+      ],
+      [
+        535,
+        570,
+        180,
+        270
+      ],
+      [
+        670,
+        600,
+        235,
+        285
+      ],
+      [
+        1290,
+        510,
+        220,
+        150
+      ],
+      [
+        0,
+        420,
+        210,
+        180
+      ]
     ],
-    "tries": 2,
-    "generated_candidates": 1,
+    "inspection": "All visible hands/arms inspected at2x. Nib reduced about21%, user ratio about0.615 versus targetabout0.6. Feet aligned at nativepixels to original floorcontacts. Zero changed pixels outside right-side ROI; Jaeha/Borro/shield/Yerin hand/light unchanged.",
+    "total_calls": 8,
+    "prior_calls": 2,
+    "prior_generated_candidates": 1,
     "failed_quota_calls": 1,
-    "inspection": "Full native image and 200px thumbnail; existing draft retained because further image calls are blocked by usage limit.",
-    "pixel_check_200percent": "In-memory 2x native-pixel crops inspected: no compression defects; P56 retains listed staging/design faults."
+    "v3_previous": {
+      "heads": {
+        "kang_jaeha": [
+          0.073,
+          0.238,
+          0.21,
+          0.43
+        ],
+        "borro": [
+          0.256,
+          0.2,
+          0.371,
+          0.424
+        ],
+        "nib": [
+          0.817,
+          0.228,
+          0.97,
+          0.371
+        ]
+      },
+      "verdict": "best_with_faults",
+      "problems": [
+        "Nib remains large versus upright 2 m shield: crown-to-sole about 690 px vs shield about 900 px; same-baseline ratio about 0.77 rather than canon 0.525. Needs reviewer assessment.",
+        "Eye holes about 17 px below Jaeha pupil, within 2% of canvas; deep kneel/hinge retained."
+      ],
+      "continuation_tries": 3,
+      "hands_2x_crop_boxes": [
+        [
+          35,
+          725,
+          165,
+          250
+        ],
+        [
+          390,
+          620,
+          155,
+          170
+        ],
+        [
+          535,
+          570,
+          180,
+          240
+        ],
+        [
+          670,
+          600,
+          235,
+          265
+        ],
+        [
+          1250,
+          365,
+          280,
+          200
+        ],
+        [
+          0,
+          420,
+          210,
+          180
+        ]
+      ],
+      "inspection": "Full native PNG, 200 px thumbnail, every visible hand/arm at 2x; no project preview files.",
+      "total_calls": 5,
+      "prior_calls": 2,
+      "prior_generated_candidates": 1,
+      "failed_quota_calls": 1
+    },
+    "tries_v3": 3
+  },
+  "P57": {
+    "heads": {
+      "borro": [
+        0.195,
+        0.462,
+        0.233,
+        0.573
+      ],
+      "kang_jaeha": [
+        0.081,
+        0.683,
+        0.125,
+        0.741
+      ],
+      "song_yerin": [
+        0.127,
+        0.671,
+        0.173,
+        0.731
+      ],
+      "nib": [
+        0.31,
+        0.589,
+        0.355,
+        0.653
+      ]
+    },
+    "verdict": "ok",
+    "problems": [],
+    "continuation_tries": 2,
+    "hands_2x_crop_boxes": [
+      [
+        141,
+        782,
+        55,
+        65
+      ],
+      [
+        173,
+        805,
+        55,
+        60
+      ],
+      [
+        181,
+        730,
+        47,
+        62
+      ],
+      [
+        203,
+        735,
+        48,
+        62
+      ],
+      [
+        254,
+        646,
+        85,
+        105
+      ],
+      [
+        322,
+        646,
+        85,
+        105
+      ],
+      [
+        459,
+        685,
+        65,
+        110
+      ],
+      [
+        529,
+        681,
+        55,
+        80
+      ]
+    ],
+    "inspection": "Full native PNG, 200 px thumbnail, every visible hand/arm at 2x; no project preview files."
+  },
+  "P58": {
+    "heads": {
+      "kang_jaeha": [
+        0.578,
+        0,
+        1,
+        0.431
+      ]
+    },
+    "verdict": "ok",
+    "problems": [],
+    "continuation_tries": 1,
+    "hands_2x_crop_boxes": [
+      [
+        155,
+        410,
+        370,
+        500
+      ],
+      [
+        755,
+        210,
+        430,
+        405
+      ]
+    ],
+    "inspection": "Full native PNG, 200 px thumbnail, every visible hand/arm at 2x; no project preview files."
+  },
+  "P59": {
+    "heads": {
+      "kang_jaeha": [
+        0.353,
+        0.162,
+        0.442,
+        0.309
+      ],
+      "song_yerin": [
+        0.475,
+        0.234,
+        0.567,
+        0.379
+      ],
+      "borro": [
+        0.653,
+        0.016,
+        0.734,
+        0.171
+      ],
+      "nib": [
+        0.88,
+        0.507,
+        0.967,
+        0.591
+      ],
+      "site_manager": [
+        0.179,
+        0.243,
+        0.269,
+        0.392
+      ]
+    },
+    "verdict": "ok",
+    "problems": [],
+    "continuation_tries": 2,
+    "hands_2x_crop_boxes": [
+      [
+        326,
+        437,
+        205,
+        105
+      ],
+      [
+        790,
+        352,
+        90,
+        145
+      ],
+      [
+        1165,
+        490,
+        90,
+        110
+      ],
+      [
+        1320,
+        686,
+        55,
+        100
+      ],
+      [
+        1450,
+        686,
+        55,
+        100
+      ]
+    ],
+    "inspection": "Full native PNG, 200 px thumbnail, every visible hand/arm at 2x; no project preview files."
+  },
+  "P60": {
+    "heads": {
+      "song_yerin": [
+        0.618,
+        0,
+        0.789,
+        0.243
+      ],
+      "site_manager": [
+        0.217,
+        0.089,
+        0.318,
+        0.232
+      ],
+      "bus_stop_woman": [
+        0.066,
+        0.611,
+        0.11,
+        0.677
+      ],
+      "delivery_rider": [
+        0.384,
+        0.667,
+        0.423,
+        0.734
+      ],
+      "store_man": [
+        0.89,
+        0.603,
+        0.941,
+        0.668
+      ]
+    },
+    "verdict": "ok",
+    "problems": [],
+    "continuation_tries": 2,
+    "hands_2x_crop_boxes": [
+      [
+        1000,
+        270,
+        145,
+        160
+      ],
+      [
+        1195,
+        310,
+        140,
+        130
+      ],
+      [
+        160,
+        285,
+        145,
+        190
+      ],
+      [
+        550,
+        395,
+        130,
+        110
+      ],
+      [
+        120,
+        681,
+        65,
+        70
+      ],
+      [
+        601,
+        734,
+        65,
+        65
+      ],
+      [
+        651,
+        799,
+        65,
+        65
+      ],
+      [
+        1360,
+        677,
+        65,
+        65
+      ]
+    ],
+    "inspection": "Full native PNG, 200 px thumbnail, every visible hand/arm at 2x; no project preview files."
+  },
+  "P61": {
+    "heads": {},
+    "verdict": "ok",
+    "problems": [],
+    "continuation_tries": 2,
+    "hands_2x_crop_boxes": [
+      [
+        390,
+        285,
+        320,
+        520
+      ],
+      [
+        780,
+        270,
+        390,
+        880
+      ]
+    ],
+    "inspection": "Full native PNG, 200 px thumbnail, every visible hand/arm at 2x; no project preview files."
   }
 }
