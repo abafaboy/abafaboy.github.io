@@ -1,5 +1,7 @@
 # Hands and arms fixes: chapter 2
 
+**28 October, evening (Claude):** job HF-02 fixed all 15 panels. Claude checked every fix at 2x against its base and **APPROVED** all 15; they are in `msgf-art` (6215380). Chapter 2 is being re-lettered and re-rendered with them.
+
 From Claude's audit of 28 October 2026 (`ledger/hands_audit/ch002.json`). **15 panels to fix** (1 problems at severity 3, 10 at severity 2, 4 at severity 1). How to fix them: `codex/HANDS_FIX_BRIEF.md`. Base images: `chapters_v2/ch002/art/hands_fix/base/`.
 
 ## P01: edit (severity 2)
