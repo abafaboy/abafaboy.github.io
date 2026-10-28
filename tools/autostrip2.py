@@ -1193,7 +1193,8 @@ def main():
     for rv in sorted(ART.glob("REVIEW*.json"), key=lambda q: (q.name != "REVIEW.json", q.name)):
         try:
             for pid_, v_ in json.loads(rv.read_text(encoding="utf-8")).items():
-                if isinstance(v_, dict) and isinstance(v_.get("heads"), dict):
+                if isinstance(v_, dict) and isinstance(v_.get("heads"), dict) and v_["heads"]:
+                    # an empty heads map (a panel an art chat logged but did not finish) must not erase an earlier review's heads
                     heads[pid_] = v_["heads"]
         except Exception as ex_:
             warnings.append(f"REVIEW FILE UNREADABLE: {rv.name}: {ex_}")
