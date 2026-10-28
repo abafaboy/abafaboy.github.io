@@ -1,0 +1,135 @@
+{
+  "job": "ch007-R1",
+  "P27": {
+    "heads": {
+      "nib": [
+        0.246,
+        0.251,
+        0.389,
+        0.418
+      ],
+      "kang_jaeha": [
+        0.444,
+        0.221,
+        0.576,
+        0.431
+      ],
+      "song_yerin": [
+        0.732,
+        0.062,
+        0.855,
+        0.246
+      ]
+    },
+    "verdict": "kept_local_head_patch",
+    "tries": 1,
+    "hands": {
+      "crop_scale": 2,
+      "boxes_px": [
+        [
+          245,
+          232,
+          390,
+          612
+        ],
+        [
+          553,
+          670,
+          707,
+          881
+        ],
+        [
+          894,
+          478,
+          986,
+          633
+        ],
+        [
+          1034,
+          174,
+          1166,
+          337
+        ],
+        [
+          1243,
+          184,
+          1337,
+          345
+        ]
+      ],
+      "findings": "Five visible hands/arms checked at2x. Four fingers plus thumb, Yerin's left thumb folded for nine; no extra/fused digits or disconnected arms apparent. Nib's other hand is occluded. Original grips and poses preserved."
+    },
+    "checks": "Mask now picture-left, uncovered eye picture-right, notch only on picture-left ear. Face reviewed as drawn and rotated180degrees; follows job's explicit picture-side mapping. All pixels outside[395,275,597,428] preserved. Full-size and200px review.",
+    "problems": [
+      "Original hanging/head pose and knife orientation retained under explicit preserve scope."
+    ]
+  },
+  "remaining": [
+    "P49",
+    "P61"
+  ],
+  "P37": {
+    "heads": {
+      "song_yerin": [
+        0.13,
+        0.28,
+        0.304,
+        0.54
+      ],
+      "kang_jaeha": [
+        0.397,
+        0.18,
+        0.57,
+        0.463
+      ],
+      "nib": [
+        0.734,
+        0.16,
+        0.9,
+        0.344
+      ]
+    },
+    "verdict": "kept_local_chest_patch",
+    "tries": 1,
+    "hands": {
+      "crop_scale": 2,
+      "boxes_px": [
+        [
+          180,
+          575,
+          365,
+          751
+        ],
+        [
+          620,
+          594,
+          794,
+          828
+        ],
+        [
+          1060,
+          680,
+          1380,
+          818
+        ],
+        [
+          1140,
+          260,
+          1348,
+          456
+        ],
+        [
+          1316,
+          250,
+          1410,
+          452
+        ]
+      ],
+      "findings": "All six hands inspected in five crops, including Yerin's clasped pair. Four fingers and thumb with normal occlusion; Nib grips one binocular pair, Jaeha's hand rests on lever with fingers beyond edge. No extra/fused hand or disconnected arm apparent."
+    },
+    "checks": "Only changed box[1188,392,1282,469]. One binocular pair at eyes; duplicate at chest removed. All other pixels and approved poses preserved; native and200px reviewed.",
+    "problems": [
+      "Inherited bare/gloved arm placement retained as explicitly scoped; no reposing to newer script hand-side wording."
+    ]
+  }
+}
