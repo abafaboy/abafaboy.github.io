@@ -1,6 +1,6 @@
 # Hands and arms fixes: chapter 7
 
-From Claude's audit of 28 October 2026 (`ledger/hands_audit/ch007.json`). **6 panels to fix** (2 problems at severity 3, 3 at severity 2, 1 at severity 1). How to fix them: `codex/HANDS_FIX_BRIEF.md`. Base images: `chapters_v2/ch007/art/hands_fix/base/`.
+From Claude's audit of 28 October 2026 (`ledger/hands_audit/ch007.json`). **7 panels to fix** (2 problems at severity 3, 4 at severity 2, 1 at severity 1). How to fix them: `codex/HANDS_FIX_BRIEF.md`. Base images: `chapters_v2/ch007/art/hands_fix/base/`.
 
 ## P03: edit (severity 1)
 - **Jaeha**, his RIGHT hand held low at his hip, picture-left of him, behind the table: the script's 'one hand flapping toward the table' is drawn as a stiff splayed hand held still at his hip, palm back; it reads as a frozen 'wait' rather than a panicked flap (Nib's arms are clean)
@@ -26,6 +26,11 @@ From Claude's audit of 28 October 2026 (`ledger/hands_audit/ch007.json`). **6 pa
 - **Jaeha**, his gloved LEFT hand on the lever handle, picture-right (the close-up insert's subject): extra finger: five identical bare fingertips curl over the handle in a row, each out of its own glove finger-sleeve; his bare RIGHT hand beside it correctly shows four (Nib's two hands over his are fine)
   - **Fix:** Jaeha's gloved LEFT hand shows exactly four fingertips curled over the lever handle with the thumb hidden behind it, matching his bare RIGHT hand; Nib's long hands stay wrapped over both of Jaeha's hands.
 - **References:** `characters_v2/hands/grip_hilt_one_hand.png`, `characters_v2/kang_jaeha/details.png`
+
+## P51: edit (severity 2)
+- **kang_jaeha**, his LEFT hand holding the phone: continuity: his LEFT glove is still lying in the grain (P46-P47, 'one glove off'), but here his LEFT hand wears the black fingerless glove again before he has climbed down to fetch it
+  - **Fix:** Jaeha's LEFT hand holds the phone steady and is bare (no glove: skin on the back of the hand and the palm, with a thumb and four fingers); his RIGHT hand keeps its black fingerless glove and points one finger straight up as drawn.
+- **References:** `characters_v2/hands/phone_hold.png`, `characters_v2/hands/pointing.png`, `characters_v2/kang_jaeha/details.png`
 
 ## P53: edit (severity 2)
 - **trapper**, his RIGHT hand opening over the dropped crossbow, upper right (the insert's subject): wrong finger proportions: the thumb is at picture-right, so the long finger splayed out at the far left is his little finger, but it is drawn as long as the middle finger and sticks out like an index, so the hand reads as having a thumb-side finger on both sides
