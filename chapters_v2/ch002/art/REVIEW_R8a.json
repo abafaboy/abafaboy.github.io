@@ -853,18 +853,122 @@
   ]
  },
  "P60": {
-  "verdict": "not started; original unchanged",
-  "completed_tries": 0,
-  "available_tries": 4,
+  "verdict": "kept; Round8 size and hand checks pass",
   "dimensions": [
    1024,
    1536
   ],
-  "sha256": "F86396D27017DABD05C29436DFCC8F3FF9CC7227909D677571A46EEBD02CF630",
-  "backup": "not made; panel editing never began",
-  "problems": [
-   "Entire P60 Round 8 edit remains."
-  ]
+  "completed_tries": 3,
+  "selected_try": 3,
+  "sha256": "8ca2199303470d96e5be5f5d54b0680a8597eee1298d2a8029e23207060f883c",
+  "heads": {
+   "knight_commander": [
+    0.415,
+    0.083,
+    0.606,
+    0.199
+   ],
+   "nib": [
+    0.757,
+    0.555,
+    0.9,
+    0.618
+   ]
+  },
+  "measurements": {
+   "original_nib_crown_y": 580,
+   "original_nib_soles_y": 1470,
+   "original_nib_height_px": 890,
+   "kept_nib_crown_y": 854,
+   "kept_nib_soles_y": 1470,
+   "kept_nib_height_px": 616,
+   "kept_to_original_height_ratio": 0.692,
+   "knight_near_knee_plate_box": [
+    493,
+    785,
+    625,
+    955
+   ],
+   "crown_below_knee_plate_top_px": 69,
+   "crown_above_knee_plate_bottom_px": 101,
+   "landmark": "Nib crown lies within the near knee plate. Knight scale is unchanged.",
+   "native_nib_source_translation_px": [
+    0,
+    20
+   ],
+   "nib_source_resized": false
+  },
+  "hand_check": {
+   "zoom": 2,
+   "crops": [
+    [
+     "knight RIGHT sword grip and arm",
+     [
+      55,
+      417,
+      260,
+      707
+     ]
+    ],
+    [
+     "knight LEFT ready gauntlet and arm",
+     [
+      582,
+      454,
+      744,
+      839
+     ]
+    ],
+    [
+     "Nib LEFT knife grip and arm",
+     [
+      720,
+      939,
+      820,
+      1226
+     ]
+    ],
+    [
+     "Nib RIGHT knife grip and arm",
+     [
+      881,
+      969,
+      971,
+      1230
+     ]
+    ],
+    [
+     "Nib soles and floor contact",
+     [
+      700,
+      1420,
+      975,
+      1490
+     ]
+    ]
+   ],
+   "inspection_image_outside_project": "C:/Users/abafa/.codex/generated_images/01a183be-21d4-7af0-82df-f117486bc0d2/P60_kept_hands_2x.png",
+   "verdict": "Every visible hand/arm inspected at2x. Two reverse-grip knives, coherent closed fingers and opposing thumbs, one pommel per hilt, connected shoulders/elbows/wrists. Knight grip and free gauntlet retain original anatomy; source knife fingers partly occlude naturally.",
+   "hand_jobs": {
+    "nib_LEFT": "lowered reverse-grip knife at left thigh, elbow slightly bent",
+    "nib_RIGHT": "lowered reverse-grip knife at right thigh, elbow slightly bent",
+    "knight_RIGHT": "original hilt grip",
+    "knight_LEFT": "original open ready gauntlet"
+   }
+  },
+  "native_composite": {
+   "background": "Try3 stationary repair plate in original Nib envelope; local boundary blend only",
+   "figure": "Try2 Nib at1:1 translated20px down, no resampling",
+   "original_giant_roi_pixel_differences": {
+    "helmet": 0,
+    "badge": 0,
+    "right_hand": 0,
+    "left_hand": 0
+   },
+   "whole_canvas_resized": false,
+   "spec_logged_in": "PROMPTS_R8a.json P60 try3"
+  },
+  "problems": []
  },
  "stop": {
   "date": "2026-10-29",
