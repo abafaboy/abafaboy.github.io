@@ -1,6 +1,15 @@
 # Publishing plan: YouTube
 
-## Latest instruction (Abafa, 28 October 2026, 17:58 Dubai time): overrides everything below
+## Latest instruction (Abafa, 28 October 2026, 19:24 Dubai time): a test video first
+> "can tou upload the 10 chapter video to youtube with a thumbnail you choose to see how it does? before doinf 33 chapters"
+
+- **A chapters 1–10 video goes up first, as a test,** before the 1–33 video: one long-form narrated video, **Public** ("to see how it does"), on the channel Abafaboy.
+- **Claude chooses its thumbnail** (his words). For the 1–33 video the 17:58 rule stands: he picks that thumbnail.
+- **Before it goes up:** chapters 1–10 fully drawn (chapter 4 part D, chapter 10 parts B, H and I, the R1 and R2 redo panels), the hand fixes of chapters 1–10 applied, every chapter re-lettered, rendered and judged, the scores sent to him.
+- **Title tag** `[1-10]`; the same settings as below (not made for kids, altered content No, Film & Animation, English, the timestamps in the description). Send him the link the moment it is live, and watch how it does.
+- **The thumbnail stays honest about what is in chapters 1–10:** Jaeha, Nib and Borro (Lyra only appears from behind in chapter 9).
+
+## Instruction (Abafa, 28 October 2026, 17:58 Dubai time): for the 1–33 video
 > "no need for unlisted videos anymore. one 1-33 chapter video when everything is done to the public. ill choose the thumbnail before submission"
 
 - **No more Unlisted previews.** Chapters are not uploaded one by one any more. Chapters 1–3 already went up as Unlisted (table at the end); leave them as they are and upload no new versions.
