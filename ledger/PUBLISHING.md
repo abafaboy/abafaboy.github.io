@@ -1,6 +1,14 @@
 # Publishing plan: YouTube
 
-## Current instruction (Abafa, 25 October 2026, 18:12 Dubai time, after watching chapter 1)
+## Latest instruction (Abafa, 28 October 2026, 17:58 Dubai time): overrides everything below
+> "no need for unlisted videos anymore. one 1-33 chapter video when everything is done to the public. ill choose the thumbnail before submission"
+
+- **No more Unlisted previews.** Chapters are not uploaded one by one any more. Chapters 1–3 already went up as Unlisted (table at the end); leave them as they are and upload no new versions.
+- **One video:** chapters 1–33 in one long-form narrated video, published **Public** once every chapter is drawn, fixed, lettered, rendered and judged.
+- **The thumbnail is his choice.** Before the upload, show him the thumbnail candidates and wait for him to pick one. Upload and publish only with the thumbnail he chose. This replaces the pre-approval below on that one point; the rest of it (public, the title style, the settings) stands.
+- The per-chapter steps still run (letter, render, judge, fix, tell him the score); only step 4, the Unlisted upload, is dropped.
+
+## Earlier instruction (Abafa, 25 October 2026, 18:12 Dubai time, after watching chapter 1)
 > "holy this is great. i approve. as soon as you make around 30 chapters, upload it as a longform youtube video for public view. i trust you now"
 
 - **What:** the first ~30 chapters as ONE long-form narrated 16:9 video, published **Public** on the channel Abafaboy (@AbafaboyGames, UCFgwXHmeW-ntGBdrior1YqA). This replaces the earlier "all 100 chapters in one video" plan for the first release; chapters 1–100 can still follow as a later compilation.
@@ -10,7 +18,7 @@
   - re-check the Blambot font licence for a public video (see below); the channel has 14 subscribers and is not monetised, which the free terms cover more clearly than a monetised one, but check the current terms;
   - chapter 1's P09, P21 and P22 redrawn for scale and perspective (`codex/CH001_FIXES.md`), then chapter 1 re-lettered and re-rendered;
   - run the format checks: no chapter cards between chapters, one narrator, title in the recap style with the manhwa's name, the Lyra thumbnail.
-- **Per-chapter previews:** each finished chapter also goes up as an **Unlisted** video so he can read along (chapter 1: https://youtu.be/HLKuVxv0gIA, uploaded 25 October 2026).
+- **Per-chapter previews:** DROPPED on 28 October (see the latest instruction). Chapters 1–3 went up as Unlisted before that.
 - **Upload route** (learned on chapter 1): Studio's file picker is a native dialog the browser tools can't drive, so the file goes in through the page itself in 10 MB pieces from the container (`file_upload` into a hidden input, reassembled in the page). On 28 October `file_upload` refused pieces in `/mnt/user-data/outputs/` and accepted them from `/mnt/user-data/uploads/`; the 10 MB limit counts every `file_upload` inside one `browser_batch`, so send one piece per call. Check each piece's SHA-256 in the page against the container before handing the file to Studio (that caught a stale chapter 2 piece). For a multi-hour compilation, encode at a size that keeps this practical (visually lossless for YouTube's re-encode, checked by PSNR against the master), and never hash the whole file inside the page (that froze the renderer at 588 MB).
 
 ## Season one: how it ships (written 25 October 2026, while the laptop is off)
@@ -36,13 +44,13 @@ Above 50 dB the difference from the master can't be seen, and YouTube re-encodes
    - build the reading pack: `tools/judge_pack.py OUT recaps_v2/chNNN.json /home/claude/work/judge/chNNN --max 1800`;
    - give it to a fresh reviewer agent with the prompt in `ledger/JUDGE_BRIEF.md`. It sees only the lettered pages and the narration;
    - its report goes in `ledger/judge/chNNN.md`. Fix what it finds where a fix is possible (lettering, narration, Claude's paint fixes, or a redraw job), note what was done under the report, and tell the owner the score.
-4. Upload `recap.mp4` to YouTube as **Unlisted**, titled `My Summons Go First · Chapter N: <title>`, and add the link to the table at the end of this file.
+4. ~~Upload `recap.mp4` to YouTube as Unlisted~~ (dropped on 28 October: no per-chapter uploads; the chapter waits for the 1–33 video).
 
 **Steps, at chapter 33:**
 1. Chapter 1 redrawn (P09, P21, P22), re-lettered and re-rendered with the season settings.
 2. `tools/longform_build.py --chapters 1-33 --name MSGF_S1` joins the chapters without re-encoding (they share settings), rebuilds the narration track in sync, adds MP4 chapter markers and writes the YouTube timestamps.
 3. Thumbnail: Codex draws the key art (`codex/THUMBNAIL_BRIEF.md`, chat T1); `tools/thumbnail_text.py` crops it to 16:9 and adds the words (for example OPERATOR, with an arrow to Jaeha, and a "1-33" tag). Lyra's face, smile and bow are the focal point, never her body (YouTube's thumbnail rule above).
-4. Upload as **Public** through YouTube Studio in Abafa's Chrome. Settings: not made for kids; altered content No; category Film & Animation; language English; the timestamps in the description (they become YouTube chapters); the thumbnail. Send Abafa the link the moment it is live.
+4. Show Abafa the thumbnail candidates and wait for his pick (28 October). Then upload as **Public** through YouTube Studio in Abafa's Chrome, with the thumbnail he chose. Settings: not made for kids; altered content No; category Film & Animation; language English; the timestamps in the description (they become YouTube chapters); the thumbnail. Send Abafa the link the moment it is live.
 
 **Title** (recap style, with the manhwa's name; under 100 characters). First choice:
 > [1-33] The F-Rank BAIT Every Guild Sent In First Became an OPERATOR | My Summons Go First
