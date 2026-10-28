@@ -695,7 +695,7 @@ panels:
       - {who: nib, type: speech, text: "THAT WAS HIS SWORD. TRY NOT TO DROP IT AGAIN.", side: r}
       - {who: kang_jaeha, type: nervous, text: "I'M... TRYING... VERY HARD.", side: l}
     sfx:
-      - {text: "NNNGH", style: comic, at: [0.36, 0.30], size: M, rot: -6}
+      - {text: "NNNGH", style: comic, at: [0.52, 0.18], size: M, rot: -6}
 
   - id: P38
     recipe: chibi
@@ -768,7 +768,7 @@ panels:
     foreground: "Jaeha's shoulder and the side of his head, cropped, right third"
     calm: top
     ui:
-      - {kind: system.window, "on": float, at: [0.42, 0.05], wf: 0.62, headline: "[STATUS] KANG JAEHA", body: "CLASS: OPERATOR · SHOWN TO OTHERS AS: SUMMONER (F) · SUMMONS 1/1"}
+      - {kind: system.window, "on": float, at: [0.42, 0.05], wf: 0.62, headline: "[STATUS] KANG JAEHA", body: "CLASS: OPERATOR · SHOWN TO OTHERS AS: SUMMONER (F) · SUMMONS 1/1", button: "OK"}
     silent: true
 
   - id: P42
@@ -819,7 +819,7 @@ panels:
     eyeline: "Jaeha → the window"
     calm: top
     ui:
-      - {kind: system.warning, "on": float, at: [0.5, 0.05], text: "[OPERATOR AUTHORITY CANNOT BE TRANSFERRED. IF THE OPERATOR IS FORCED, THE PROTOCOL ENDS.]"}
+      - {kind: system.window, "on": float, at: [0.5, 0.04], wf: 0.66, headline: "[WARNING]", body: "OPERATOR AUTHORITY CANNOT BE TRANSFERRED. IF THE OPERATOR IS FORCED, THE PROTOCOL ENDS."}
     notes: "PLANT P44: why nobody can simply seize him."
 
   # ================= OUT (P45–P56) =================
@@ -857,7 +857,7 @@ panels:
       nib: "a straight kick, his whole body behind it, cloak flaring"
     calm: top
     sfx:
-      - {text: "KRANG", style: impact, at: [0.40, 0.30], size: XL, rot: -8}
+      - {text: "KRANG", style: impact, at: [0.70, 0.18], size: XL, rot: -8}
 
   - id: P47
     recipe: talk
@@ -1070,7 +1070,7 @@ panels:
     acting:
       mok_hangyu: "standing behind the podium with both hands gripping its edges, head bowed slightly, eyes lowered, a grave camera face, mouth open mid-line"
     eyeline: "Mok → the cameras (down)"
-    calm: bottom
+    calm: top-left
     ui:
       - {kind: tv.lowerthird, "on": panel, text: "MOK HANGYU · BLACK HOUND RAID LEADER", ticker: "TRAP-TESTER KANG JAEHA (24) PRESUMED DEAD"}
     lines:
