@@ -607,6 +607,28 @@ def choose_bubble(kind_entries, tw, th, maxw, minwh, nlines=1):
     return best
 
 
+OVL_SKIP = {"kind", "on", "at", "wf", "clock", "subject", "source", "timer", "hand", "button", "tilt", "mirror", "time"}
+
+
+def ovl_text(u):
+    """The words of an overlay card (a screen UI whose art has no green screen): the UI's own text, never its kind's name
+    (28 Oct: ch010 P65's call card read "phone.ttok_call")."""
+    k = u.get("kind", "")
+    if u.get("text"):
+        return str(u["text"])
+    if u.get("title"):
+        return str(u["title"])
+    if k == "phone.ttok_call":
+        return f"INCOMING CALL · {u.get('caller', '')}".strip(" ·")
+    if k == "phone.ttok_video_call":
+        return f"VIDEO CALL · {u.get('caller', '')}".strip(" ·")
+    if k == "phone.ttok_chat":
+        msgs = u.get("messages") or []
+        return " / ".join(f"{m.get('from', '')}: {m.get('text', '')}" for m in msgs[-2:] if isinstance(m, dict))
+    vals = [str(v) for kk, v in u.items() if kk not in OVL_SKIP and isinstance(v, (str, int, float))]
+    return " · ".join(vals)
+
+
 def card_html(card, fills, W):
     """A full-width kit card (title / end / intro) with its text boxes filled."""
     png, meta = card
@@ -1590,7 +1612,9 @@ def main():
                                  f'color:{u.get("color", "#1f3f9a")};transform:translate(-50%,-50%) rotate({u.get("rot", -3)}deg)">{fmt_text(u.get("text", ""))}</div>')
                     continue
                 if u.get("on") == "overlay":
-                    inner.append(f'<div class="ovl">{fmt_text(u.get("text", u.get("title", u["kind"])))}</div>')
+                    ot = ovl_text(u)
+                    if ot:
+                        inner.append(f'<div class="ovl">{fmt_text(ot)}</div>')
                 elif u.get("on") == "panel":
                     if u["kind"] == "phone.ttok_video_call":
                         inner.append(f'<iframe class="appl" srcdoc="{E(video_call_chrome(u, fw, fh))}"></iframe>')
