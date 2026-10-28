@@ -26,7 +26,7 @@ continuity:
   - "Pim (2.19): the black gaming headset over the base of his antennae all chapter except his field form (P53-P60: wings open 2.6 m, eye-spots and antennae glowing lilac, the headset round his neck). No mask: strangers take him for a mascot costume."
   - "The LINK leash (600 m, ch 8): the rest-form summons stay near Jaeha. At the Association branch they wait outside on the pier. The Grand Harbour hotel stands on the beachfront, so while Jaeha and Nib are up at the rooftop pool, Lyra, Borro and Bomi are on the sand right below it."
   - "Nib: the cracked husk mask in public; rest form; a clean white bandage round his RIGHT upper arm (the cut from ch 35). Borro: the white husk face in public; rest form; he holds a big striped beach umbrella at the beach."
-  - "Lyra, P28-P49: look `swimsuit` (2.20): the river-blue halter bikini with engraved silver filigree cups and thin silver straps crossing over her bare back, a jewelled silver hip girdle with dangling river-blue teardrop gems and fine chains, ornate silver filigree cuffs on both upper arms, stacked silver bangles, a high silver filigree lace choker with her river pearl, silver ear cuffs and small hoops, a silver band on her LEFT thigh with a river-blue gem pendant, silver leaf clips in the braid over her LEFT shoulder; no wrap (her body stays visible); barefoot; no bracer or glove. Her best glamour angle (2.20): side-on at her shoulder height, body in profile, head turned to the viewer, framed from the hips up, backlit. From P51 on the breakwater: her own outfit (2.10). Fan service (adult): confident and beautiful; the camera never below her waist level."
+  - "Lyra, P28-P49: look `swimsuit` (2.20): the river-blue halter bikini with engraved silver filigree cups and thin silver straps crossing over her bare back, a jewelled silver hip girdle with dangling river-blue teardrop gems and fine chains, ornate silver filigree cuffs on both upper arms, stacked silver bangles, a high silver filigree lace choker with her river pearl, silver ear cuffs and small hoops, a silver band on her LEFT thigh with a river-blue gem pendant, silver leaf clips in the braid over her LEFT shoulder; no wrap (her body stays visible); barefoot; no bracer or glove. Her best glamour angle (2.20): side-on at her shoulder height, body in profile, head turned to the viewer, framed from the hips up, backlit. From P51 on the breakwater: her own outfit (2.10). Fan service (adult): confident and beautiful; the camera never below her waist level, except P33a, where she lies on her front and the camera is low in front of her face (S34, the owner's tanning pose)."
   - "Han Sora, P16-P27: look `pool` (2.20): the black one-piece swimsuit with a deep plunging neckline, high-cut legs and crimson piping; big sunglasses pushed up into her black bob; red lips; the bandage on her RIGHT wrist; the slim silver compass on her LEFT wrist. A cocktail in her LEFT hand. Fan service (adult); the camera never below her waist level."
   - "Moon Ahin, from P41: look `summer` (2.20): the fitted white sundress (thin spaghetti straps and airy off-the-shoulder chiffon sleeves, a deep plunging V neckline over a push-up bodice, a thin silver ribbon under the bust, a flared skirt to the knee with a soft ruffle and her high slit up the LEFT leg), the wide-brimmed white sun hat with a silver ribbon, white strappy sandals, white lace gloves, the silver baton in a slim holster at her RIGHT hip; long black hair with the silver ribbon bow. Saebyeok (ahin_husks, No. 1, a polished porcelain husk, no different from the rest) holds a white parasol over her; other husks carry her luggage. Fan service (adult); the camera never below her waist level."
   - "Yoo Bomi (2.7): the cropped neon-yellow bomber worn open, the black crop top, high-waisted denim shorts, black thigh-high socks, black trainers, the ponytail with bleached ends; her white drone with its red light always near her. Fan service is fine (adult); the camera never below her waist level."
@@ -764,6 +764,31 @@ panels:
     sfx:
       - {text: "click click", style: quiet, at: [0.50, 0.20], size: S, rot: 0}
 
+  - id: P33a
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low and close in front of her, at her head height: her face and shoulders nearest, her body receding behind her along the towel, her kicked-up feet small at the back (the owner's tanning pose, S34)"
+    light: "bright midday sun; the striped umbrella's shade at the top edge"
+    art: >
+      LYRA TANNING. Low and close in front of her face: Lyra (lyra, swimsuit) lies on her front on a blue-and-white beach towel on
+      the sand, propped up on her forearms, her chin resting on her LEFT hand, her sunglasses pushed up into her silver-white hair,
+      the braid falling forward over her LEFT shoulder onto the towel; behind her, her feet are kicked up and crossed at the ankles.
+      Her RIGHT hand holds a small white bottle of sunscreen up toward the camera, offering it. Her bikini stays tied and in place;
+      her jewellery glints. The camera never goes behind or above her.
+    acting:
+      lyra: "her signature gotcha face: eyes curved into crescents, looking up at the viewer from under her lashes, a light pink blush, a sly teasing grin; her head upright"
+    hands:
+      lyra: "LEFT forearm flat on the towel, LEFT hand cupping her chin, fingers curled at her jaw; RIGHT elbow on the towel, RIGHT hand raised holding a small white sunscreen bottle upright, four fingers round it, thumb on its cap"
+    hand_ref: [holding_cup.png, fists_and_bracing.png]
+    eyeline: "Lyra → the viewer (Jaeha, off-panel behind the camera)"
+    foreground: "a corner of the towel and some sand, cropped, at the bottom"
+    calm: top
+    lines:
+      - {who: lyra, type: speech, text: "MERCHANT. MY BACK. THE SUNSCREEN WON'T PUT ITSELF ON.", side: l}
+      - {who: offpanel:kang_jaeha, type: speech, text: "I'M VERY BUSY WITH THIS CLOUD.", side: r}
+
   - id: P34
     recipe: establish
     shape: wide
@@ -773,7 +798,7 @@ panels:
     light: "sun"
     art: >
       On the sand at eye level: two smiling people in navy blazers with small silver hexagon pins (kanghan_pr) and a photographer walk
-      up to Lyra (lyra, swimsuit), the lead one holding out a glossy folder; Lyra turns to them, curious.
+      up to Lyra (lyra, swimsuit), the lead one holding out a glossy folder; Lyra, just up from her towel, turns to them, curious.
     acting:
       kanghan_pr: "the lead smiling wide, holding out the folder with both hands, bowing a little"
       lyra: "turning to them with a hand on her hip, one eyebrow raised, a curious, gracious smile, like a star greeting fans"
