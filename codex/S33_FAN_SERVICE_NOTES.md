@@ -24,6 +24,18 @@ The new designs are written in `CHARACTER_DESIGNS_v2.md` (2.10 Lyra's acting, 2.
   - Sora: compass on her RIGHT wrist in the crop look (until ch 31). In the shorts look, a silver compass on her LEFT wrist and a bandage on her RIGHT.
   - Moon Ahin: the slit on her LEFT side.
 
+## Posing and body language (the owner's note, 28 October)
+The owner wants the women's poses, body language and faces to sell the fan service the way the best romance and comedy manhwa do, with nothing explicit. Apply this to every figure on sheets 1 to 10:
+- **Weight on one leg.** The hip on the standing side rises and the shoulders tilt the other way, so the body makes a soft S-curve from shoulder to ankle. Never stand her square to the camera with both feet flat unless the pose says so.
+- **Three-quarter turns.** The head turns a little further toward the viewer than the shoulders, and the shoulders a little further than the hips.
+- **Hands frame the figure:** a hand on the hip with the fingers forward, a hand tucking hair behind the ear, fingertips at the collarbone, the chin or the lips, a hand resting on a raised knee or on a prop. Keep a gap between the arm and the waist so the silhouette reads.
+- **Lean into the space.** When she shares the frame, she leans toward him with her face closer to the camera than his (a hand on his shoulder, a finger poking his cheek), while he leans away, flustered.
+- **One line of action** through every action pose: drawing the bow, the back arches, the front knee bends and the rear leg stays straight.
+- **Faces carry it.** The teasing face (half-lidded crescent eyes, a glance from under the lashes, a lopsided smirk, a light blush, the head tilted), varied with a wink, a finger at the lips, a mock pout and a laugh with the head thrown back. She always looks at the viewer or at him; one raised eyebrow sells a tease. Never a blank or neutral face.
+- **Hair and fabric follow the pose:** hair swings toward the turn, and a sash, skirt or jacket follows the hip.
+- **Silhouette test:** shrink each figure to 200 px tall; the pose must still read (arms off the body, legs apart or crossed, never a straight column).
+- **Limits, as always:** adults only, never Kang Seoa, Song Yerin stays covered and is never posed for glamour; no pose or camera aimed at the chest or the crotch; the camera never below the waist; nothing explicit.
+
 ## The sheets, in this order
 
 ### 1. `characters_v2/lyra/expressions.png` (redo)
