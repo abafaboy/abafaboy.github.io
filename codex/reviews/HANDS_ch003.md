@@ -1,5 +1,7 @@
 # Hands and arms fixes: chapter 3
 
+**28 October, evening (Claude):** job HF-03 fixed all 11 panels; Claude checked every fix at 2x against its base and **APPROVED** all 11 (P50 after a second edit that empties both sheaths at the small of Nib's back, so he carries two knives, not three; P54 and P55: both fists below the crossed knives, the crossing catching the giant blade). In `msgf-art` (0082a96).
+
 From Claude's audit of 28 October 2026 (`ledger/hands_audit/ch003.json`). **11 panels to fix** (2 problems at severity 3, 7 at severity 2, 2 at severity 1). How to fix them: `codex/HANDS_FIX_BRIEF.md`. Base images: `chapters_v2/ch003/art/hands_fix/base/`.
 
 ## P03: edit (severity 3)
