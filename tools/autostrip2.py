@@ -1504,6 +1504,10 @@ def main():
         if t["x0"] < -1 or t["x1"] > W + 1:
             warnings.append(f"OFF-PAGE: {t['t']}")
     gl = [t for t in geo["texts"] if "t-tag" not in t["cls"]]
+    for tg in [t for t in geo["texts"] if "t-tag" in t["cls"]]:  # 28 Oct: ch005 P01's place tag hidden under a bubble
+        for b2 in gl:
+            if tg["x0"] < b2["x1"] - 6 and tg["x1"] > b2["x0"] + 6 and tg["y0"] < b2["y1"] - 6 and tg["y1"] > b2["y0"] + 6:
+                warnings.append(f"TAG UNDER A BUBBLE: {tg['t'][:25]} / {b2['t'][:25]}")
     for i, a in enumerate(gl):
         for b2 in gl[i + 1:]:
             if a["x0"] < b2["x1"] - 10 and a["x1"] > b2["x0"] + 10 and a["y0"] < b2["y1"] - 10 and a["y1"] > b2["y0"] + 10:
