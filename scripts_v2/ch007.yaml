@@ -400,6 +400,8 @@ panels:
     eyeline: "the officer → his phone; Jaeha → the officer"
     foreground: "an orange traffic cone, cropped, bottom left"
     calm: top
+    ui:
+      - {kind: phone.info_card, "on": screen, title: "HUNTERLINK", text: "TOP HUNTERS THIS WEEK"}
     lines:
       - {who: survey_officer, type: speech, text: "TEN THOUSAND FOR EVERY TRAP YOU MARK. TRY NOT TO DIE. IT'S A LOT OF PAPERWORK.", side: l}
       - {who: kang_jaeha, type: speech, text: "I'LL DO MY BEST, SIR.", side: r}
@@ -1369,6 +1371,8 @@ panels:
     calm: top
     lines:
       - {who: offpanel:crowd, type: tag, text: "THAT NIGHT."}
+    ui:
+      - {kind: phone.info_card, "on": screen, title: "HOMEWORK", text: "KOREAN HISTORY ESSAY · DUE MONDAY · 1,200 WORDS"}
     sfx:
       - {text: "TAK TAK TAK", style: quiet, at: [0.80, 0.40], size: S, rot: 0}
 
