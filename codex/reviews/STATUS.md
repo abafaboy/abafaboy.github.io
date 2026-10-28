@@ -8,7 +8,7 @@ Verdicts for each entry are in this folder, one file per entry (`<entry>.md`). S
 - **REDO**: see the entry's file for the redo prompt.
 - **APPROVED**: safe to build on.
 
-| Entry | What | State (28 Oct 2026, 03:55 Dubai) |
+| Entry | What | State (28 Oct 2026, 18:20 Dubai) |
 |---|---|---|
 | H1 | realistic hand and arm references (`HANDS_REFERENCE_BRIEF.md`; the owner's 28 Oct direction) | **APPROVED** (all 18 files, H1-A to H1-D; Claude's notes on six of them in `characters_v2/hands/INDEX.md`). Every hand fix and every new panel uses them |
 | S33 | the owner's fan-service notes (`S33_FAN_SERVICE_NOTES.md`): Lyra's new expressions and acting sheets and swimsuit; Han Sora's `crop` and `shorts` looks; Moon Ahin's new summer dress | **APPROVED** on the owner's go-ahead (28 Oct: he reviewed the ten sheets, then "way better u may continue" and "continue with the story"). Read `reviews/S33.md` for how to use them: Lyra has no pointed canines (two sheets show them), at full draw her bowstring meets the arrow's nock at her jaw under her three gloved fingers (the acting sheet's pose 6 is wrong there), and Moon Ahin's silver ribbon bow stays visible under her sun hat. The S34 sheets (head angles, details, eight-view turnarounds, single poses) may be used as extra pose references for the same looks. The old sheets S33 replaced stay SUPERSEDED |
@@ -47,7 +47,7 @@ Verdicts for each entry are in this folder, one file per entry (`<entry>.md`). S
 | M9 | the Hushed Tide Warden | **APPROVED** (`M9.md`), 30 m standing, with Claude's scale card; only his LEFT eye opens (ch 27) |
 | P1 | the Arcs 3–4 props sheet | **APPROVED** (`P1.md`) |
 | L13–L20 | the Arcs 3–4 location keys (`ASSETS_ARC3_BRIEF.md`) | **APPROVED** (`L13.md`–`L20.md`), except `dam_gate/key.png` (redraw, job L15-B) and `farm_pit/key.png` and `alarm.png` (redraw, job L19-B); the flashback door is now about 4.7 m as drawn |
-| S26, S27, S30 | Jaeha's training look; the Arc 5 cast lineup; the beach looks | S26, S27 **APPROVED**; S30's Lyra swimsuit and Moon Ahin summer sheets are being redone by S33 (`S26.md`, `S27.md`, `S30.md`); the training look is bare-handed (no gloves); Claude fixed Jaeha's splint hand and the lineup's two badges |
+| S26, S27, S30 | Jaeha's training look; the Arc 5 cast lineup; the beach looks | S26, S27 **APPROVED**; S30's Lyra swimsuit and Moon Ahin summer sheets are SUPERSEDED by S33 (approved) (`S26.md`, `S27.md`, `S30.md`); the training look is bare-handed (no gloves); Claude fixed Jaeha's splint hand and the lineup's two badges |
 | M10, M11, M12 | brine crawlers; the Reef Hermit; the Deep Lantern | **APPROVED** (`M10.md`–`M12.md`), with Claude's scale cards |
 | L21–L24, P2 | the Busan keys; the Arc 5 props | **APPROVED** (`L21.md`–`L24.md`, `P2.md`); Claude snapped screens to #00FF00 |
 | S29 | Pim | `front.png` **APPROVED** (`S29.md`); the other five sheets to draw (job S29-B) |
@@ -58,7 +58,8 @@ Verdicts for each entry are in this folder, one file per entry (`<entry>.md`). S
 | ch008 | chapter 8 | all parts reviewed: 66 of 70 **APPROVED** (`ch008.md`; Claude fixed P07, P13, P14, P18, P28, P42, including the pier's yellow 7 in P13 and P14 for the chapter 22 plant); P49, P52, P54, P59 to fix (job ch008-R1: Nib's and the cast's sizes) |
 | ch009 | chapter 9 | parts A, C, E, F, G reviewed: 42 of 43 **APPROVED** (`ch009.md`; Claude fixed P09, P41, P49); P50 to redraw (job ch009-R1: the rifts a quarter size); parts B and D to draw |
 | ch010 | chapter 10 | 49 of the 51 delivered images **APPROVED** (`ch010.md`; Claude fixed P09, P20, P27, P41, P42); P48 to redo (job ch010-R1: Nib twice his size); still to draw after the image reset: P10–P13 (part B), P56 redraw and P57–P61 (part H), part I |
-| ch011, ch012 | Arc 2 chapters (`PANEL_BRIEF_v2.md` section 9) | to launch after H1 (the hand references), once image generation resets (28 Oct 11:23 UTC); every panel has a `hands:` line |
-| ch013 … ch040 | chapter parts | launch as their sheets are approved; chapters 14 and 18–40 also need S33; every panel has a `hands:` line |
+| ch011, ch012 | Arc 2 chapters (`PANEL_BRIEF_v2.md` section 9) | **queued** (28 Oct evening): two chats each (parts A–E, F–J), after the chapter 1–10 jobs; every panel has a `hands:` line |
+| ch013 … ch033 | chapter parts | **queued** (28 Oct evening), two chats per chapter, in chapter order, after ch011 and ch012. Every sheet they need is approved, except that chapters 16 and 21 wait for `dam_gate/key.png` and chapters 26–29 for `farm_pit/key.png` and `alarm.png` (both redrawn by job L-B2, which runs first). Every panel has a `hands:` line |
+| ch034 … ch040 | chapter parts | after chapter 33 (the long-form covers chapters 1–33 first) |
 
 Scale cards: from 27 October the sheets carry no silhouette. Claude adds `scale_card.png` (the creature beside the standard 178 cm man on one baseline) to `ash_rat/`, `ash_hound/`, `drowned_hound/`, `neighbourhood/` (Gomi with Nib and the landlady), `ahin_husk/`, `han_sora/`, `training_construct/`, `basalt_boar/`, `bell_ringer/`, `geum_okran/`, `canyon_wyvern/`, `tide_warden/`, `arc5_cast/`, `brine_crawler/`, `reef_hermit/`, `deep_lantern/` (with `scale_card_hand.png`) and `pim/`.
