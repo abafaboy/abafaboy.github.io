@@ -63,3 +63,8 @@ Resolve these in the per-arc continuity pass. Rulings already made are marked RU
 - ch005 P55: Baek's cane stands behind his legs, unheld (added to HANDS_ch005.md as P55, job HF-040506).
 - ch010 P32: nine hounds plus the alpha against a pack of eight (P35's plan shows seven). Narration avoids the number.
 - ch010 P38, P39, P43: Borro has no field-form glow though he is in field form from P37 (a soft moss-green rim glow would fix it).
+- ch008 P25, P32, P35: the ramp is wet along its whole length, but the script wets only the lower third and the plan is "lead it onto dry ground". Narration no longer says "dry" (28 Oct). A redraw would restore the plan's visual logic: Codex, low priority.
+- ch008 P14: no steel frame round the gate, and it glows violet not white-cyan (narration fixed).
+- ch007 P51: Jaeha's LEFT glove is back on though he left it in the grain. ch007 P62: the drone's red light is on but should be off. ch007 P64: the handshake is one-handed.
+- ch009 P18: Jaeha wears boots in the Call but socks on the bed (P38, P39). ch009 P33: about 12 rifts against 8 in P17 and P19.
+- ch006 P39: the dart brick is not between the pair and the swarm mother.
