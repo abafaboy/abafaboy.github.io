@@ -66,7 +66,7 @@ Panels are lettered at 1080 px wide. Codex generates at the size given; the lett
 - `system` (a system window: put its text in `ui` instead; the narrator reads it in the interface voice)
 
 Rules:
-- `side: l | c | r` says which side of the panel the speaker stands on. The tail points there.
+- `side: l | c | r` says which side of the panel the speaker stands on. The tail points there. When the panel review located the speaker's head, the tail aims at the mouth and stops just outside the head, never on the face.
 - `who` is a cast id, or `offpanel:<id>`, or `crowd`.
 
 ## SFX styles
@@ -79,7 +79,7 @@ Rules:
 - **Desktop:** `pc.video_editor` (a video editor: a 16:9 preview of another panel's art, `source: P21` with an optional `subject` box, transport, `timecode`, a timeline with a `playhead`) · `pc.channel_stats` (a channel dashboard: `title`, `count`, `change`, a rising graph)
 - **TV:** `tv.lowerthird`
 - **Placement:** `on:` is `screen` (composited into the green screen of the art), `float` (the window floats over the art in perspective), or `panel` (the whole panel becomes the app; leave `art` empty except for a note).
-- **Floating windows:** `at: [x, y]` puts the window's top centre there. The letterer keeps every window wholly inside its panel (a window placed so low that the bottom edge would cut it moves up), never lets two windows in a panel overlap, and moves a window that covers a drawn face (smaller, or to another place along the top). Give `wf` (the window's width as a fraction of the panel) only to override the kind's default.
+- **Floating windows:** `at: [x, y]` puts the window's top centre there. The letterer keeps every window wholly inside its panel (a window placed so low that the bottom edge would cut it moves up), never lets two windows in a panel overlap, and moves a window that covers a drawn face (smaller, or to another place along the top). Give `wf` (the window's width as a fraction of the panel) only to override the kind's default. Window text is kept readable on a phone: a short body grows to fill the box drawn for it, and a window whose smallest words would still be under about 2.4% of the panel's width grows (up to 94% of the panel) before the face pass runs, so keep window bodies short (about 60 characters) where a face leaves little room.
 - **Lit screens:** `screens_lit: alert` (or a `"#RRGGBB"` glow) on a panel lights every green screen no `ui` fills, small background phones included: `alert` is a white screen with a red top band (ch010 P60, every phone in the street shrieking at once). Without it, an unfilled screen is filled dark.
 - **Screen spill:** around every green screen the letterer turns the screen's green glow (on a desk, a hand, hair) into the screen's own light, or removes it for a dark screen. Teal greens and a screen in a green surround are left alone. Set `despill: false` on a panel to keep a real green object near a screen (ch005 P17's pot plant).
 

@@ -673,7 +673,7 @@ TAIL_JS = r"""
     const side = el.dataset.side || 'c', where = el.dataset.where;
     const fx = side === 'l' ? 0.26 : side === 'r' ? 0.74 : 0.5;
     const dy = Math.min(240, Math.max(80, pr.height * 0.24));
-    let T = null;
+    let T = null, HB = null;
     if (el.dataset.off === '1') {
       // speaker not drawn in this panel: the tail points out past the panel edge, toward where they stand
       const cxr = r.left + r.width / 2, toLeft = side === 'l' || (side === 'c' && cxr < pr.left + pr.width / 2);
@@ -689,6 +689,12 @@ TAIL_JS = r"""
         const hx = ir.left + off(pos[0], ir.width - W0 * s) + (+el.dataset.hx) * W0 * s;
         const hy = ir.top + off(pos[1], ir.height - H0 * s) + (+el.dataset.hy) * H0 * s;
         if (hx > pr.left + 8 && hx < pr.right - 8 && hy > pr.top + 8 && hy < pr.bottom - 8) T = [hx, hy];
+        if (T && el.dataset.hb) {
+          // the speaker's whole head box on the page: the tail stops short of it (judge, ch 2: tails ended on faces)
+          const b = el.dataset.hb.split(',').map(Number);
+          const ox = ir.left + off(pos[0], ir.width - W0 * s), oy = ir.top + off(pos[1], ir.height - H0 * s);
+          HB = [ox + b[0] * W0 * s, oy + b[1] * H0 * s, ox + b[2] * W0 * s, oy + b[3] * H0 * s];
+        }
       }
     }
     if (!T) {
@@ -735,6 +741,19 @@ TAIL_JS = r"""
     // a gutter bubble aimed at a located head may run on into the panel too, so it never ends in the sky (judge, ch 3)
     const cap = el.dataset.hx ? (where === 'beside' ? 380 : 230) : (t === 'shout' ? 90 : 110);
     let L = Math.max(30, Math.min(cap, dist - (cap > 110 ? 46 : 14)));
+    if (HB) {
+      // stop the tip a little outside the speaker's head box, where the ray toward the mouth first meets it
+      const pad = Math.max(10, (HB[3] - HB[1]) * 0.06);
+      const X0 = HB[0] - pad, Y0 = HB[1] - pad, X1 = HB[2] + pad, Y1 = HB[3] + pad;
+      const Px = r.left + M[0], Py = r.top + M[1];
+      let t0 = -Infinity, t1 = Infinity;
+      for (const [p0, d, lo, hi] of [[Px, ux, X0, X1], [Py, uy, Y0, Y1]]) {
+        if (Math.abs(d) < 1e-9) { if (p0 < lo || p0 > hi) { t0 = Infinity; } continue; }
+        let a = (lo - p0) / d, b2 = (hi - p0) / d; if (a > b2) [a, b2] = [b2, a];
+        t0 = Math.max(t0, a); t1 = Math.min(t1, b2);
+      }
+      if (t0 <= t1 && t1 > 0) L = Math.min(L, Math.max(18, t0 - 4));
+    }
     while (L > 24 && inOther(r.left + M[0] + ux * L, r.top + M[1] + uy * L, idx)) L -= 6;
     const tip = [M[0] + ux * L, M[1] + uy * L];
     const px = -uy, py = ux;
@@ -777,10 +796,40 @@ SYS_JS = r"""
     const w = s.getBoundingClientRect().width;
     s.querySelectorAll('.stx span').forEach(sp => { sp.style.fontSize = (parseFloat(sp.dataset.fs) * w) + 'px'; });
   });
-  document.querySelectorAll('.stx').forEach(el => {
+  const fitIn = (root) => root.querySelectorAll('.stx').forEach(el => {
     const sp = el.firstElementChild; const W = el.clientWidth, H = el.clientHeight;
+    const over = () => sp.scrollWidth > W + 1 || sp.offsetHeight > H + 2;
     let fs = parseFloat(sp.style.fontSize), g = 0;
-    while ((sp.scrollWidth > W + 1 || sp.offsetHeight > H + 2) && fs > 6 && g++ < 90) { fs *= 0.95; sp.style.fontSize = fs + 'px'; }
+    // a short body in a box drawn for three lines grows to fill it (up to 1.8x), so one line of words is not set at a
+    // third of the box's height (judge, ch 2: P06's "FAR SIDE SCOUT · SEAL 1/5" was 16 px on the 1080 px strip)
+    if (!el.classList.contains('nw') && !el.classList.contains('op') && !el.classList.contains('mono')) {
+      const f0 = fs;
+      while (!over() && fs < f0 * 1.8 && g++ < 40) { fs *= 1.05; sp.style.fontSize = fs + 'px'; }
+      if (over() && fs > f0) { fs /= 1.05; sp.style.fontSize = fs + 'px'; }
+    }
+    g = 0;
+    while (over() && fs > 6 && g++ < 90) { fs *= 0.95; sp.style.fontSize = fs + 'px'; }
+  });
+  fitIn(document);
+  // A window whose words came out too small to read on a phone grows (up to 94% of the panel's width) until its
+  // smallest text is about 2.4% of the panel's width, the size of ch002 P42's notice (judge, ch 2: P39's CARRY body was
+  // 13-15 px on the 1080 px strip). It stays wholly inside the panel; the face and overlap passes run after this.
+  document.querySelectorAll('.syswin').forEach(s => {
+    const pnl = s.closest('.pnl'); if (!pnl) return;
+    const pw = pnl.clientWidth, want = pw * 0.024;
+    const spans = [...s.querySelectorAll('.stx:not(.op) span')];
+    if (!spans.length) return;
+    const now = Math.min(...spans.map(sp => parseFloat(sp.style.fontSize)));
+    const wf0 = parseFloat(s.style.getPropertyValue('--wf')) || 0.66;
+    if (now >= want * 0.98 || wf0 >= 0.94) return;
+    const wf = Math.min(0.94, wf0 * want / now);
+    s.style.setProperty('--wf', wf.toFixed(3));
+    const w = s.getBoundingClientRect().width;
+    s.querySelectorAll('.stx span').forEach(sp => { sp.style.fontSize = (parseFloat(sp.dataset.fs) * w) + 'px'; });
+    fitIn(s);
+    const half = wf * 50, cx = parseFloat(s.style.left);
+    s.style.left = Math.max(half + 1, Math.min(99 - half, cx)).toFixed(2) + '%';
+    s.dataset.grown = (wf / wf0).toFixed(2);
   });
   document.querySelectorAll('.syswin').forEach(s => { s.style.setProperty('--tilt', s.dataset.tilt + 'deg'); s.classList.add('tilted'); });
   return true;
@@ -796,8 +845,15 @@ WINFACE_JS = r"""
     s.querySelectorAll('.stx span').forEach(sp => { sp.style.fontSize = (parseFloat(sp.dataset.fs) * w) + 'px'; });
     s.querySelectorAll('.stx').forEach(el => {
       const sp = el.firstElementChild; const W = el.clientWidth, H = el.clientHeight;
+      const over = () => sp.scrollWidth > W + 1 || sp.offsetHeight > H + 2;
       let fs = parseFloat(sp.style.fontSize), g = 0;
-      while ((sp.scrollWidth > W + 1 || sp.offsetHeight > H + 2) && fs > 6 && g++ < 90) { fs *= 0.95; sp.style.fontSize = fs + 'px'; }
+      if (!el.classList.contains('nw') && !el.classList.contains('op') && !el.classList.contains('mono')) {
+        const f0 = fs;
+        while (!over() && fs < f0 * 1.8 && g++ < 40) { fs *= 1.05; sp.style.fontSize = fs + 'px'; }
+        if (over() && fs > f0) { fs /= 1.05; sp.style.fontSize = fs + 'px'; }
+      }
+      g = 0;
+      while (over() && fs > 6 && g++ < 90) { fs *= 0.95; sp.style.fontSize = fs + 'px'; }
     });
   };
   let moved = 0;
@@ -1031,8 +1087,8 @@ def strip_css(W):
 .stx.op{{letter-spacing:.32em;font-weight:600;opacity:.85}}
 .sysanchor{{position:absolute;left:0;width:1px;height:1px}}
 .intro{{position:absolute;left:22px;bottom:22px;z-index:7;background:#fff;border:2.5px solid {LINE};padding:10px 20px 11px;
-  font:700 30px/1.05 'UI',sans-serif;letter-spacing:.06em;color:#1d1917;box-shadow:6px 6px 0 rgba(43,37,35,.85)}}
-.intro span{{display:block;font:600 19px/1.2 'UI',sans-serif;letter-spacing:.16em;color:#5d6470;margin-top:5px}}
+  font:700 34px/1.05 'UI',sans-serif;letter-spacing:.06em;color:#1d1917;box-shadow:6px 6px 0 rgba(43,37,35,.85)}}
+.intro span{{display:block;font:600 24px/1.2 'UI',sans-serif;letter-spacing:.12em;color:#4a505b;margin-top:6px}}
 .label{{position:absolute;z-index:3;font-family:'Marker','Gaegu',cursive;white-space:nowrap;letter-spacing:1px;opacity:.92}}
 .lstream{{position:absolute;transform:translateX(-50%);z-index:5;background:rgba(10,12,20,.74);border:1.5px solid rgba(255,255,255,.2);
   border-radius:14px;padding:12px 16px 14px;box-shadow:0 4px 16px rgba(0,0,0,.35)}}
@@ -1155,6 +1211,7 @@ def main():
             elif isinstance(box, (list, tuple)) and len(box) == 4:
                 cx = (box[0] + box[2]) / 2
                 ln["_head"] = (cx, box[1] + (box[3] - box[1]) * 0.6)
+                ln["_hbox"] = tuple(float(v) for v in box)
                 ln["side"] = "l" if cx < 0.42 else "r" if cx > 0.58 else "c"
                 n_aim += 1
     print(f"speakers: {n_aim} tails aimed at drawn heads, {n_off} off-panel lines, review for {len(heads)} panels")
@@ -1478,6 +1535,8 @@ def main():
                 common += ' data-off="1"'
             elif ln.get("_head"):
                 common += f' data-hx="{ln["_head"][0]:.3f}" data-hy="{ln["_head"][1]:.3f}"'
+                if ln.get("_hbox"):
+                    common += ' data-hb="' + ",".join(f"{v:.4f}" for v in ln["_hbox"]) + '"'
             if t in BITMAP_TYPES:
                 e, sx, sy = it["blank"], it["sx"], it["sy"]
                 rx, ry, rw, rh = e["rect"]
