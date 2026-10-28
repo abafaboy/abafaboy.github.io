@@ -239,7 +239,7 @@ def placeholder(pid, shape, art_text, path, chibi=False):
     im.save(path)
 
 
-def find_green(img_bgr):
+def find_green(img_bgr, min_area=900):
     """The art's chroma screen: near-pure #00FF00 (Codex snaps screens to it). Bright green clothing
     (Yerin's cuffs and stripe, mint glows) is not a screen: the core must be strongly saturated, and the
     looser edge pixels join the mask only where they touch that core (27 Oct: the old loose test painted
@@ -250,7 +250,7 @@ def find_green(img_bgr):
     # panel of chapters 1-10: only those screens change)
     core = ((g >= 200) & (g - np.maximum(r, b) >= 130)).astype(np.uint8) * 255
     core = cv2.morphologyEx(core, cv2.MORPH_OPEN, np.ones((3, 3), np.uint8))
-    if cv2.countNonZero(core) < 900:
+    if cv2.countNonZero(core) < min_area:
         return None, None
     loose = ((g > 140) & (g - np.maximum(r, b) > 70)).astype(np.uint8) * 255
     near = cv2.dilate(core, np.ones((9, 9), np.uint8))
@@ -260,7 +260,7 @@ def find_green(img_bgr):
     if not cnts:
         return None, None
     c = max(cnts, key=cv2.contourArea)
-    if cv2.contourArea(c) < 900:
+    if cv2.contourArea(c) < min_area:
         return None, None
     keep = np.zeros_like(mask)
     cv2.drawContours(keep, [c], -1, 255, -1)
@@ -1301,11 +1301,31 @@ def main():
             img = cv2.imread(str(art_for[pid]), cv2.IMREAD_COLOR)
             tint = ui_tint.get(pid)
             changed = False
+            lit = p.get("screens_lit")  # every unfilled screen lights up: "alert" (white, red top band) or a "#RRGGBB" glow
             for _ in range(8):  # the largest green area first (an unfilled screen), then reflections and spill
-                q, m = find_green(img)
+                q, m = find_green(img, min_area=120 if lit else 900)  # lit: small background phones count too
                 if q is None:
                     break
                 region = cv2.dilate(m, np.ones((5, 5), np.uint8)) > 0
+                if lit:
+                    # 28 Oct: ch010 P60, every phone in the street shrieking at once; a dark fill read as dead phones
+                    ys_, xs_ = np.nonzero(region)
+                    y0_, y1_ = ys_.min(), ys_.max() + 1
+                    if lit == "alert":
+                        base, band, glow = (236, 240, 255), (40, 40, 220), (210, 215, 255)
+                    else:
+                        hx = str(lit).lstrip("#")
+                        r_, g_, b_ = int(hx[0:2], 16), int(hx[2:4], 16), int(hx[4:6], 16)
+                        base = band = glow = (b_, g_, r_)
+                    fill = np.zeros_like(img)
+                    fill[:] = base
+                    cut = y0_ + max(2, int((y1_ - y0_) * 0.28))
+                    fill[y0_:cut] = band
+                    img[region] = fill[region]
+                    screens.setdefault(pid, []).append((region, glow))
+                    warnings.append(f"{pid}: unfilled green screen lit ({lit})")
+                    changed = True
+                    continue
                 if tint is None and not changed:
                     img[region] = (30, 27, 31)
                     screens.setdefault(pid, []).append((region, None))

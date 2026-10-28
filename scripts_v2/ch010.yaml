@@ -1163,6 +1163,7 @@ panels:
     recipe: impact
     shape: wide
     gap: short
+    screens_lit: alert
     bg: white
     camera: "low, across the street: every phone in every hand lighting up and shrieking at once, people freezing on the pavement"
     light: "phone screens flaring; dusk"
@@ -1181,7 +1182,8 @@ panels:
     calm: top
     silent: true
     sfx:
-      - {text: "WEEEEEEN WEEEEEEN", style: alert, at: [0.50, 0.24], size: XL, rot: -4}
+      - {text: "WEEEEEEN", style: alert, at: [0.44, 0.10], size: M, rot: -4}
+      - {text: "WEEEEEEN", style: alert, at: [0.44, 0.92], size: M, rot: 3}
 
   - id: P61
     recipe: insert
