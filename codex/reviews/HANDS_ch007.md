@@ -1,5 +1,7 @@
 # Hands and arms fixes: chapter 7
 
+**28 October, evening (Claude):** job HF-0708 fixed all 7 panels; Claude checked each at 2x against its base and **APPROVED** all 7 (P51's LEFT hand now bare, as he left that glove in the grain). In `msgf-art`.
+
 From Claude's audit of 28 October 2026 (`ledger/hands_audit/ch007.json`). **7 panels to fix** (2 problems at severity 3, 4 at severity 2, 1 at severity 1). How to fix them: `codex/HANDS_FIX_BRIEF.md`. Base images: `chapters_v2/ch007/art/hands_fix/base/`.
 
 ## P03: edit (severity 1)
