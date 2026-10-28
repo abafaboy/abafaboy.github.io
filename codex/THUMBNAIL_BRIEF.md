@@ -89,3 +89,27 @@ One frame, split by a jagged diagonal of light from the top (about 55% of the wa
 - **Tries:** up to five for each keeper. Rejects go to `thumbnails_v2/_rejects/T1B_<variant>_<n>_try<k>.png`.
 - **Logs:** the exact prompt and references for every image in `thumbnails_v2/prompts_T1B.json`. Then `thumbnails_v2/DONE_T1B.md`, listing each keeper and anything you are unsure of. Then stop.
 - **Check each image before keeping it:** `MANHWA_STYLE_GUIDE.md` section 11, the locks, the face sizes, bright and saturated (never a dark image), the calm corner or top band, and no text.
+
+## Job T2 (28 October 2026, evening): key art for the chapters 1–10 test video
+**Why.** The owner wants chapters 1–10 on YouTube first, as a test, with a thumbnail Claude chooses. Lyra is not in chapters 1–10 (only a silhouette from behind in chapter 9), so this thumbnail shows the cast those chapters actually have: **Jaeha** with his two summons, **Nib** and **Borro**, and **Yoo Bomi**, the 21-year-old streamer, as the attractive adult woman the recap formula asks for (she is in chapters 5–8). Everything in T1-B's rules still holds: bright, saturated daylight, never dark; no text at all; the 16:9 safe area; big faces (each main face at least 230 px from crown to chin); YouTube's limit (her face, her wink and her drone are the focal point, never her chest, hips or thighs; no low camera); the proportions of 4b (Bomi 163 cm reaches Jaeha's nose; Nib's head at Jaeha's belt; Borro 2.4 m, half again Jaeha's height, his mossy stone shell and the riveted iron door he carries as a shield).
+
+**Locks:** Jaeha: the orange trap-tester vest with the small white T patch on his right chest (the only letter allowed), the grey hoodie, the long fringe over his LEFT eye, the yellow pencil behind his RIGHT ear, black fingerless gloves. Nib in his seal 2/5 look (chapters 3–20): the cracked white mask over his LEFT eye, the notch on his LEFT ear only, the red scarf, the brass binoculars, two knives (never three), bare feet, four fingers and a thumb. Borro: the mossy stone shell with small white and yellow flowers, the rough cream tunic with the rope belt, the bandaged forearms, the iron door-shield. Bomi: the high ponytail, black with bleached-blonde ends; the cropped neon-yellow bomber jacket worn open; the black crop top; the high-waisted denim shorts; the black thigh-high socks; her white camera drone with its red recording light.
+
+**References, in this order (at most five per call; pick by the variant):** `characters_v2/kang_jaeha/front.png`, `characters_v2/kang_jaeha/expressions.png`, `characters_v2/yoo_bomi/turnaround.png`, `characters_v2/yoo_bomi/expressions.png` (or `poses_stream_a.png` for her wink and peace sign), `characters_v2/nib/turnaround_seal2.png`, `characters_v2/borro/front.png`, and `characters_v2/scale_chart_v2.png` for the sizes. Never pass an image from `thumbnails_v2/` or any `_rejects/` folder.
+
+### Variant `squad` (two keepers)
+Waist-up to full figures, the camera at Jaeha's chest height, bright daylight on a Seoul rooftop with a vivid blue sky.
+- **Jaeha** at the centre-right, the largest figure, flustered: wide eyes, sweat drops, a nervous grin, one thumb jerked back over his shoulder at the giant behind him.
+- **Borro** looming behind him at the right, filling the right third: his huge mossy shell, a gentle smile, his iron door-shield planted beside Jaeha like a wall.
+- **Nib** in the lower left foreground, crouched, both knives out in a reverse grip, scowling up at the viewer, his head no higher than Jaeha's belt.
+- **Bomi** at the left, leaning into the frame toward the viewer with a wink and a peace sign, her drone hovering beside her face, its red light on.
+- **The top-left corner** (the left third of the width, the top third of the height) stays plain bright sky for Claude's word and arrow.
+
+### Variant `before_after` (one keeper)
+As T1-B's variant 5, with these changes: in the AFTER part Jaeha stands calm and smiling under Borro's raised door-shield, with Nib crouched at his feet with both knives out and Bomi leaning in at the picture-right edge with her wink and her drone. The BEFORE part is grey: Jaeha alone as the F-rank bait, a hunter's gloved hand shoving him toward a dark gate. Keep the top 300 px free of faces, hands and weapons.
+
+### Files and limits (T2)
+- **Keepers:** `thumbnails_v2/T2_squad_1.png`, `T2_squad_2.png` and `T2_before_after_1.png`, each 1536×1024.
+- **Tries:** up to four for each keeper. Rejects go to `thumbnails_v2/_rejects/T2_<variant>_<n>_try<k>.png`.
+- **Logs:** the exact prompt and references for every image in `thumbnails_v2/prompts_T2.json`, then `thumbnails_v2/DONE_T2.md` (each keeper, its face sizes, and anything you are unsure of). Then stop.
+- **Check each image before keeping it:** `MANHWA_STYLE_GUIDE.md` section 11, the locks above (sides!), every hand at 2x (`characters_v2/hands/`), the face sizes, bright and saturated, the calm corner or top band, and no text.
