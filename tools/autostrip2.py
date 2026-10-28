@@ -779,6 +779,22 @@ WINFACE_JS = r"""
     });
   };
   let moved = 0;
+  // first, windows stacked in one panel never overlap: a later window that runs into an earlier one moves down below it
+  // (28 Oct: ch008 P57's second notice hid the first one's text)
+  for (const p of document.querySelectorAll('.pnl')) {
+    const ws = [...p.querySelectorAll('.syswin')];
+    const pb = p.getBoundingClientRect(), fh = p.clientHeight;
+    const rr = (w) => { const b = w.getBoundingClientRect(); return [b.left - pb.left, b.top - pb.top, b.right - pb.left, b.bottom - pb.top]; };
+    for (let i = 1; i < ws.length; i++) {
+      for (let j = 0; j < i; j++) {
+        const a = rr(ws[j]), b = rr(ws[i]);
+        if (b[0] < a[2] && b[2] > a[0] && b[1] < a[3] && b[3] > a[1]) {
+          const dy = a[3] - b[1] + fh * 0.02;
+          if (b[3] + dy <= fh * 0.97) { ws[i].style.top = (parseFloat(ws[i].style.top) + dy / fh * 100).toFixed(2) + '%'; moved++; }
+        }
+      }
+    }
+  }
   for (const p of document.querySelectorAll('.pnl')) {
     const faces = p.dataset.faces ? JSON.parse(p.dataset.faces) : [];
     const img = p.querySelector('img.art');
