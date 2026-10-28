@@ -623,7 +623,7 @@
     0.749
    ]
   },
-  "verdict": "kept best after 4/4; scale and contact pass",
+  "verdict": "APPROVED by Claude, reported by user on resume",
   "tries": 4,
   "selected_try": 4,
   "dimensions": [
@@ -707,88 +707,149 @@
   "problems": [
    "Small remaining shape difference: hair crown about35px above pre-edit crown after the local blocking-arm correction.",
    "Knight LEFT gauntlet supports at the guard/base of the blade rather than clearly on the cylindrical grip; review that contact. Four-call cap reached; kept best scale/contact result."
-  ]
+  ],
+  "approved_by": "Claude (user report)",
+  "approval_date": "2026-10-29",
+  "approval_supersedes_old_review_notes": true
  },
  "P16": {
-  "verdict": "unfinished; original kept unchanged",
+  "verdict": "kept best after 4/4 calls; native-size composite",
   "dimensions": [
    1536,
    1024
   ],
-  "completed_tries": 3,
-  "next_available_try": 4,
-  "original_and_current_sha256": "0020F0D3BB4532E0EBB5C74CCA2ADC00DF89E9094F2EBED70D68E54BE4CDEDA5",
-  "attempts": [
-   {
-    "try": 1,
-    "measurements": {
-     "knight_crown_y": 38,
-     "knight_near_sole_y": 646,
-     "knight_height_px": 608,
-     "nib_crown_y": 553,
-     "nib_rear_sole_y": 698,
-     "nib_height_px": 145,
-     "nib_to_knight_projected_height": 0.238,
-     "jaeha_crown_y": 706,
-     "jaeha_sole_y": 986,
-     "jaeha_height_px": 280,
-     "jaeha_to_knight_height": 0.461,
-     "crown_against_knight_leg": "below both knee plates, at shin level (different depths)",
-     "problem": "Knight feet moved about 110px down; Nib and Jaeha not reduced quite enough."
-    },
-    "status": "rejected",
-    "archive": "_rejects/P16_R8a_t1_feet_moved.png"
-   },
-   {
-    "try": 2,
-    "measurements": {
-     "knight_crown_y": 49,
-     "knight_sole_y": 586,
-     "knight_height_px": 537,
-     "knight_vs_original_scale": 1.395,
-     "nib_crown_y": 554,
-     "nib_sole_y": 693,
-     "nib_height_px": 139,
-     "nib_to_knight_height": 0.259,
-     "jaeha_crown_y": 677,
-     "jaeha_sole_y": 955,
-     "jaeha_height_px": 278,
-     "jaeha_to_knight_height": 0.518,
-     "crown_against_knight_leg": "lower shin when accounting for depth",
-     "problem": "Giant boot sole 51px too low; people remain closer to 76% rather than 67% original height."
-    },
-    "status": "rejected",
-    "archive": "_rejects/P16_R8a_t2_feet_low_people_large.png"
-   },
-   {
-    "try": 3,
-    "measurements": {
-     "knight_crown_y": 34,
-     "knight_sole_y": 576,
-     "knight_height_px": 542,
-     "knight_vs_original_height_ratio": 1.408,
-     "nib_crown_y": 559,
-     "nib_sole_y": 701,
-     "nib_height_px": 142,
-     "nib_to_knight_height": 0.262,
-     "jaeha_crown_y": 687,
-     "jaeha_sole_y": 972,
-     "jaeha_height_px": 285,
-     "jaeha_to_knight_height": 0.526,
-     "crown_against_knight_leg": "at lower shin, but overall people too large"
-    },
-    "status": "native giant source for final composite; feet correction needed",
-    "archive": "_rejects/P16_R8a_t3_before_native_composite.png"
-   }
-  ],
+  "completed_tries": 4,
+  "selected_try": 4,
+  "sha256": "648682edeb7e055ab706c761edb083500acfd47554cec9e5efed8f26abc8f573",
+  "heads": {
+   "knight_commander": [
+    0.625,
+    0,
+    0.673,
+    0.08
+   ],
+   "nib": [
+    0.307,
+    0.558,
+    0.333,
+    0.594
+   ],
+   "kang_jaeha": [
+    0.788,
+    0.715,
+    0.813,
+    0.754
+   ],
+   "song_yerin": [
+    0.886,
+    0.784,
+    0.915,
+    0.823
+   ]
+  },
+  "measurements": {
+   "knight_source_height_px": 542,
+   "knight_scale_vs_original": 1.408,
+   "knight_source_translation_px": [
+    0,
+    -41
+   ],
+   "knight_theoretical_crown_y": -7,
+   "knight_near_sole_y": 535,
+   "original_near_sole_y": 535,
+   "knight_near_knee_bottom_y": 389,
+   "nib_crown_y": 572,
+   "nib_rear_sole_y": 695,
+   "nib_projected_height_px": 127,
+   "nib_to_knight_projected_height": 0.234,
+   "jaeha_projected_height_px": 252,
+   "jaeha_to_knight_projected_height": 0.465,
+   "small_figures_scale": 0.6666666666666666,
+   "nib_crown_with_feet_aligned_to_knight_y": 412,
+   "crown_below_knee_bottom_after_foot_alignment_px": 23,
+   "interpretation": "Different depths in high-camera establishing shot; with sole baselines aligned Nib crown falls at upper shin below knee. Raw crown572 is below giant sole535 because Nib is closer."
+  },
   "hand_check": {
-   "try1": "All seven hand/arm views cropped 2x and inspected; no extra/fused visible digits. Jaeha left hand remained idle; later prompts requested a vest grip.",
-   "try2_and_try3": "No image was kept. Final per-hand 2x acceptance inspection remains required."
+   "zoom": 2,
+   "crops": [
+    [
+     "knight RIGHT sword hand and arm",
+     [
+      801,
+      135,
+      925,
+      287
+     ]
+    ],
+    [
+     "knight LEFT ready hand and arm",
+     [
+      1082,
+      137,
+      1181,
+      339
+     ]
+    ],
+    [
+     "Nib LEFT trailing knife hand and arm",
+     [
+      413,
+      584,
+      482,
+      620
+     ]
+    ],
+    [
+     "Nib RIGHT forward knife hand and arm",
+     [
+      487,
+      587,
+      535,
+      657
+     ]
+    ],
+    [
+     "Jaeha RIGHT braced palm and arm",
+     [
+      1268,
+      754,
+      1321,
+      817
+     ]
+    ],
+    [
+     "Jaeha LEFT low ready hand and arm",
+     [
+      1186,
+      813,
+      1231,
+      879
+     ]
+    ],
+    [
+     "Yerin visible strap hand, far hand occluded",
+     [
+      1345,
+      834,
+      1389,
+      891
+     ]
+    ]
+   ],
+   "inspection_image_outside_project": "C:/Users/abafa/.codex/generated_images/01a183be-21d4-7af0-82df-f117486bc0d2/P16_final_hands_2x.png",
+   "verdict": "All visible hands/arms inspected at2x; coherent five-digit grips/brace, natural elbows, no detached hands; far Yerin hand occluded.",
+   "sources": "Original approved small-figure anatomy reduced once to2/3; generated try3 knight arms unchanged at native pixel size."
+  },
+  "composite": {
+   "background": "Last call repaired empty hall; used only figure-envelope rectangles over original",
+   "knight": "Try3 pixels translated up41 at1:1",
+   "small_figures": "Original PNG figure cutouts reduced once to2/3 about contacts; no shrink-then-enlarge",
+   "canvas_resized": false,
+   "spec_logged_in": "PROMPTS_R8a.json P16 try4"
   },
   "problems": [
-   "Knight feet move down from original floor contacts in all attempts.",
-   "Small figures still about 76-78% original height instead of two thirds.",
-   "No fourth call was issued; no final composite was made."
+   "Near boot sole restored exactly; far boot stance differs slightly (about14px higher) from original.",
+   "Enlarged helm crown clips the top edge by about7px; face-hole remains readable. Four-call limit reached."
   ]
  },
  "P60": {
