@@ -779,8 +779,8 @@ panels:
     eyeline: "the leader → his sword"
     calm: top
     ui:
-      - {kind: system.window, "on": float, at: [0.5, 0.05], headline: "[GATE BOSS DEFEATED: SWARM MOTHER (E)]", body: "THE GATE WILL CLOSE IN 10 MINUTES.", button: "OK"}
-      - {kind: system.window, "on": float, at: [0.5, 0.30], wf: 0.6, headline: "[NEW BOSS KIND]", body: "+10% × OPERATOR LV. 3 · ROUTE ALIGNMENT 30% → 60%"}
+      - {kind: system.window, "on": float, at: [0.30, 0.03], wf: 0.42, headline: "[GATE BOSS DEFEATED: SWARM MOTHER (E)]", body: "THE GATE WILL CLOSE IN 10 MINUTES.", button: "OK"}
+      - {kind: system.window, "on": float, at: [0.73, 0.05], wf: 0.40, headline: "[NEW BOSS KIND]", body: "+10% × OPERATOR LV. 3 · ROUTE ALIGNMENT 30% → 60%", button: "OK"}
     silent: true
 
   - id: P42
@@ -844,7 +844,7 @@ panels:
       nib: "standing stiffly by the culvert"
     calm: top
     ui:
-      - {kind: system.notice, "on": float, at: [0.5, 0.05], text: "[PAY: BASE ₩50,000 + 7 TRAPS × ₩10,000 = ₩120,000]"}
+      - {kind: system.notice, "on": float, at: [0.66, 0.03], wf: 0.62, text: "[PAY: BASE ₩50,000 + 7 TRAPS × ₩10,000 = ₩120,000]"}
     sfx:
       - {text: "DRIP DRIP", style: quiet, at: [0.30, 0.80], size: S, rot: 0}
 

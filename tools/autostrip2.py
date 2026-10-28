@@ -245,9 +245,10 @@ def find_green(img_bgr):
     looser edge pixels join the mask only where they touch that core (27 Oct: the old loose test painted
     the highlight on Yerin's green cuff dark in ch002 P37 and P43)."""
     b, g, r = (img_bgr[:, :, i].astype(np.int32) for i in range(3))
-    # 28 Oct: r, b up to 110 (ch005 P17's phone and ch006 P57's monitor are bright green, not pure #00FF00); the
-    # g - max(r, b) >= 140 test still keeps mint cuffs and glows out (checked over every panel of chapters 1-10)
-    core = ((g >= 200) & (r <= 110) & (b <= 110) & (g - np.maximum(r, b) >= 140)).astype(np.uint8) * 255
+    # 28 Oct: bright off-pure greens count (ch005 P17's phone, ch006 P57's monitor, ch007 P19's phone; the upscaler
+    # also lifts red and blue a little); g - max(r, b) >= 130 still keeps mint cuffs and glows out (checked over every
+    # panel of chapters 1-10: only those screens change)
+    core = ((g >= 200) & (g - np.maximum(r, b) >= 130)).astype(np.uint8) * 255
     core = cv2.morphologyEx(core, cv2.MORPH_OPEN, np.ones((3, 3), np.uint8))
     if cv2.countNonZero(core) < 900:
         return None, None
@@ -1342,7 +1343,9 @@ def main():
                 if kk in ("notice", "notice_small", "warning"):
                     fill["headline"] = u.get("text", u.get("headline", ""))
                 elif kk in ("window", "glitch"):
-                    fill.update(headline=u.get("headline", u.get("text", "")), body=u.get("body", ""), button=u.get("button", ""))
+                    # a window's button bar is never left empty (28 Oct: ch006 P41, ch008 P66 showed a blank bar): OK
+                    fill.update(headline=u.get("headline", u.get("text", "")), body=u.get("body", ""),
+                                button=u.get("button", "OK" if kk == "window" else ""))
                 elif kk == "summon_card":
                     fill["name"] = u.get("name", u.get("text", ""))
                 elif kk == "log":
