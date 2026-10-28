@@ -75,7 +75,7 @@ Rules:
 
 ## UI kinds (from the Codex UI kit, `kit/INDEX.md`)
 - **System:** `system.notice` · `system.notice_small` · `system.window` (fields: headline, body, button) · `system.summon_card` (name) · `system.warning` · `system.log` (lines[]) · `system.glitch`
-- **Phone:** `phone.ttok_chat` (messages[]: {from, text, time}) · `phone.ttok_notification` · `phone.ttok_call` · `phone.ttok_video_call` · `phone.bank_transfer` · `phone.emergency_alert` · `phone.gate_status` · `phone.aao_booking` · `phone.aao_result` · `phone.quickhaul_order` · `phone.hunterlink_rank` · `phone.live_stream` · `phone.sumex_ad` · `phone.info_card`
+- **Phone:** `phone.ttok_chat` (messages[]: {from, text, time}) · `phone.ttok_notification` · `phone.ttok_call` · `phone.ttok_video_call` · `phone.bank_transfer` · `phone.emergency_alert` · `phone.gate_status` · `phone.aao_booking` · `phone.aao_result` · `phone.quickhaul_order` · `phone.hunterlink_rank` · `phone.live_stream` · `phone.sumex_ad` · `phone.info_card` · `phone.camera` (a phone filming: the viewfinder shows `subject: [x0, y0, x1, y1]`, a box of the same panel's art in fractions, with REC and `timer`; `on: screen` only)
 - **TV:** `tv.lowerthird`
 - **Placement:** `on:` is `screen` (composited into the green screen of the art), `float` (the window floats over the art in perspective), or `panel` (the whole panel becomes the app; leave `art` empty except for a note).
 

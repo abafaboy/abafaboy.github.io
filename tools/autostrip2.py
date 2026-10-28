@@ -462,6 +462,29 @@ def html_app(u, w, h):
                 f'<div style="position:absolute;right:{V(3)};top:{V(3)};background:#C62828;color:#fff;font:700 {V(3.4)}/1 UI;padding:{V(1.2)} {V(2.4)};letter-spacing:.06em">KNN 24 · LIVE</div>'
                 f'<div style="position:absolute;left:{V(4)};bottom:{V(9)};background:#fff;border-left:{V(1.4)} solid #C62828;padding:{V(1.6)} {V(3)};font:700 {V(4.2)}/1.1 UI;color:#111">{E(u.get("text", ""))}</div>'
                 f'<div style="position:absolute;left:0;right:0;bottom:0;height:{V(6)};background:#C62828;color:#fff;font:600 {V(3)}/{V(6)} UI;padding-left:{V(4)};white-space:nowrap;overflow:hidden">{E(u.get("ticker", ""))}</div></div>')
+    elif k == "phone.camera":
+        # A phone filming: the viewfinder shows the scene it points at (a crop of the panel's own art, `subject` box),
+        # with REC and a timer, corner guides and the shutter, like any phone camera app.
+        bg = u.get("_bg")
+        wide = w >= h
+        rec = u.get("timer", "00:12")
+        shutter = (f'<div style="position:absolute;{"right" if wide else "bottom"}:{V(3.2)};{"top" if wide else "left"}:50%;'
+                   f'transform:translate{"Y" if wide else "X"}(-50%);width:{V(11 if wide else 16)};height:{V(11 if wide else 16)};border-radius:50%;'
+                   f'border:{V(1.1)} solid rgba(255,255,255,.92);display:flex;align-items:center;justify-content:center">'
+                   f'<div style="width:62%;height:62%;border-radius:{V(1.4)};background:#E5484D"></div></div>')
+        corners = "".join(
+            f'<div style="position:absolute;{a}:{V(6)};{b}:{V(6 if wide else 9)};width:{V(6)};height:{V(6)};'
+            f'border-{a}:{V(.55)} solid rgba(255,255,255,.85);border-{b}:{V(.55)} solid rgba(255,255,255,.85)"></div>'
+            for a, b in (("top", "left"), ("top", "right"), ("bottom", "left"), ("bottom", "right")))
+        body = (f'<div class="app" style="width:{w}px;height:{h}px;background:#111 url(\'{uri(bg) if bg else ""}\') center/cover no-repeat">'
+                f'<div style="position:absolute;inset:0;box-shadow:inset 0 0 {V(9)} rgba(0,0,0,.45)"></div>{corners}'
+                f'<div style="position:absolute;left:{V(5)};top:{V(4)};display:flex;align-items:center;gap:{V(1.6)};'
+                f'font:700 {V(4.2)}/1 UI;color:#fff;text-shadow:0 0 {V(1)} rgba(0,0,0,.8)">'
+                f'<span style="display:inline-block;width:{V(3)};height:{V(3)};border-radius:50%;background:#E5484D"></span>REC {E(rec)}</div>'
+                f'<div style="position:absolute;right:{V(17 if wide else 5)};top:{V(4)};font:700 {V(3.6)}/1 UI;color:#fff;'
+                f'text-shadow:0 0 {V(1)} rgba(0,0,0,.8)">4K · 60</div>'
+                f'<div style="position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:{V(13)};height:{V(13)};'
+                f'border:{V(.45)} solid rgba(255,214,10,.9)"></div>{shutter}</div>')
     else:  # info cards, gate status, AAO and anything else: a clean public-service card
         title = u.get("title") or {"phone.gate_status": "GATE SAFETY KOREA", "phone.aao_booking": "ABILITY ASSESSMENT OFFICE",
                                    "phone.aao_result": "ABILITY ASSESSMENT OFFICE", "phone.hunterlink_rank": "HUNTERLINK",
@@ -692,6 +715,28 @@ SYS_JS = r"""
   });
   document.querySelectorAll('.syswin').forEach(s => { s.style.setProperty('--tilt', s.dataset.tilt + 'deg'); s.classList.add('tilted'); });
   return true;
+}
+"""
+TAG_JS = r"""
+() => {
+  // A place/time tag sits on the panel's top-left corner. When a bubble covers it, it moves to the first free corner:
+  // top-right, bottom-left, then bottom-right (28 Oct: ch005 P01's tag was hidden under the eulogy bubble).
+  const bubbles = [...document.querySelectorAll('.lt:not(.t-tag)')].map(e => e.getBoundingClientRect());
+  const hits = (r) => bubbles.some(b => r.left < b.right - 6 && r.right > b.left + 6 && r.top < b.bottom - 6 && r.bottom > b.top + 6);
+  let moved = 0;
+  for (const t of document.querySelectorAll('.t-tag')) {
+    if (!hits(t.getBoundingClientRect())) continue;
+    const top = getComputedStyle(t).top;
+    const tries = [{left: 'auto', right: '16px', top: top, bottom: 'auto'}, {left: '16px', right: 'auto', top: 'auto', bottom: '-22px'},
+                   {left: 'auto', right: '16px', top: 'auto', bottom: '-22px'}];
+    let ok = false;
+    for (const c of tries) {
+      Object.assign(t.style, c);
+      if (!hits(t.getBoundingClientRect())) { ok = true; moved++; break; }
+    }
+    if (!ok) Object.assign(t.style, {left: '', right: '', top: '', bottom: ''});
+  }
+  return moved;
 }
 """
 SFX_JS = r"""
@@ -956,8 +1001,11 @@ def main():
 
     def faces_attr(pid_):
         # every head box the panel review located, for the SFX layout to keep clear of (art fractions x0, y0, x1, y1)
+        # A box covering most of the panel is not a head (a review that boxed a whole close-up or a void); it would
+        # pin every SFX and window as "on a face", so it is ignored.
         fs = [[round(float(v), 4) for v in b] for b in (heads.get(pid_) or {}).values()
-              if isinstance(b, (list, tuple)) and len(b) == 4]
+              if isinstance(b, (list, tuple)) and len(b) == 4
+              and (float(b[2]) - float(b[0])) * (float(b[3]) - float(b[1])) <= 0.5]
         return f" data-faces='{json.dumps(fs)}'" if fs else ""
 
     with sync_playwright() as pw:
@@ -1022,6 +1070,23 @@ def main():
                 else:
                     scale = max(1.0, 900.0 / max(qw, qh))
                     uw, uh = int(qw * scale), int(qh * scale)
+                    if kind == "phone.camera":  # the viewfinder image: the subject box of this panel's art, at the screen's shape
+                        im0 = Image.open(src).convert("RGB")
+                        W0, H0 = im0.size
+                        sx0, sy0, sx1, sy1 = u.get("subject", [0.25, 0.0, 0.75, 0.6])
+                        bw0, bh0 = (sx1 - sx0) * W0, (sy1 - sy0) * H0
+                        asp = uw / max(1, uh)
+                        if bw0 / bh0 < asp:
+                            bw0 = bh0 * asp
+                        else:
+                            bh0 = bw0 / asp
+                        bw0, bh0 = min(bw0, W0), min(bh0, H0)
+                        cx, cy = (sx0 + sx1) / 2 * W0, (sy0 + sy1) / 2 * H0
+                        l_ = min(max(cx - bw0 / 2, 0), W0 - bw0)
+                        t_ = min(max(cy - bh0 / 2, 0), H0 - bh0)
+                        camf = WORK / f"{pid}_cam.png"
+                        im0.crop((int(l_), int(t_), int(l_ + bw0), int(t_ + bh0))).resize((uw, uh), Image.LANCZOS).save(camf)
+                        u["_bg"] = str(camf)
                     page.set_viewport_size({"width": uw, "height": uh})
                     load_html(page, html_app(u, uw, uh), WORK / f"{pid}_app.html")
                     page.evaluate("document.fonts.ready")
@@ -1340,9 +1405,18 @@ def main():
                 if est > room:
                     size = max(30, int(size * room / est))
                 rnd = random.Random(f"{pid}{txt}{x}{y}")
+                # Each letter bounces a little, but neighbours never drift apart: a letter may not sit more than 1.5 px
+                # right of the one before it or more than 7 px above or below it (a gap read as two words: "VMMM M").
+                jit, px_, py_ = [], None, None
+                for ch in txt:
+                    jx, jy, jr, js = rnd.uniform(-3, 3), rnd.uniform(-6, 6), rnd.uniform(-7, 7), rnd.uniform(.93, 1.08)
+                    if px_ is not None and not vertical:
+                        jx = min(jx, px_ + 1.5)
+                        jy = max(min(jy, py_ + 7), py_ - 7)
+                    jit.append((jx, jy, jr, js)); px_, py_ = jx, jy
                 letters = "".join(
-                    f'<span style="display:inline-block;transform:translate({rnd.uniform(-3, 3):.1f}px,{rnd.uniform(-6, 6):.1f}px) rotate({rnd.uniform(-7, 7):.1f}deg) scale({rnd.uniform(.93, 1.08):.2f})">{E(ch) if ch != " " else "&nbsp;"}</span>'
-                    + ("<br>" if vertical else "") for ch in txt)
+                    f'<span style="display:inline-block;transform:translate({jx:.1f}px,{jy:.1f}px) rotate({jr:.1f}deg) scale({js:.2f})">{E(ch) if ch != " " else "&nbsp;"}</span>'
+                    + ("<br>" if vertical else "") for ch, (jx, jy, jr, js) in zip(txt, jit))
                 over.append(f'<div class="sfx x-{st}{" vert" if vertical else ""}" style="left:{x * 100:.1f}%;top:{y * 100:.1f}%;font-size:{size}px;'
                             f'transform:translate(-50%,-50%) rotate({0 if vertical else rot}deg)">{letters}</div>')
             if p.get("intro"):  # a character's first appearance: a nameplate in the manhwa style
@@ -1450,6 +1524,9 @@ def main():
         page.wait_for_timeout(400)
         page.evaluate(SYS_JS)
         ntails = page.evaluate(TAIL_JS, kit.profiles_js())
+        tags_moved = page.evaluate(TAG_JS)
+        if tags_moved:
+            print(f"place tags moved off bubbles: {tags_moved}")
         sfx_fix = page.evaluate(SFX_JS)
         warnings += [f"SFX COVERS A BUBBLE (no room to move it): {t_}" for t_ in sfx_fix["stuck"]]
         warnings += [f"SFX COVERS A FACE (no room to move it): {t_}" for t_ in sfx_fix.get("onface", [])]

@@ -46,7 +46,7 @@ panels:
     calm: top
     lines:
       - {who: offpanel:crowd, type: tag, text: "BLACK HOUND GUILD HALL, YEOUIDO. FRIDAY, 10 AM."}
-      - {who: mok_hangyu, type: speech, text: "KANG JAEHA WAS A BRAVE TRAP-TESTER. HE ALWAYS WALKED IN FIRST."}
+      - {who: mok_hangyu, type: speech, text: "KANG JAEHA WAS A BRAVE TRAP-TESTER. HE ALWAYS WALKED IN FIRST.", side: r}
     sfx:
       - {text: "KSHK KSHK", style: quiet, at: [0.80, 0.70], size: S, rot: 0}
 
@@ -362,6 +362,8 @@ panels:
     eyeline: "Mok → the cameras; Jaeha → the cameras"
     foreground: "a raised phone filming them, cropped, at the bottom left"
     calm: top
+    ui:
+      - {kind: phone.camera, "on": screen, subject: [0.30, 0.0, 0.66, 0.55], timer: "00:12"}
     lines:
       - {who: mok_hangyu, type: shout, text: "MY BRAVE TRAP-TESTER! IT'S A MIRACLE!", side: l}
     sfx:

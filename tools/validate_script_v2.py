@@ -20,7 +20,7 @@ TYPES = {"speech", "shout", "intense", "thought", "float", "nervous", "whisper",
 DIALOGUE = {"speech", "shout", "intense", "thought", "nervous", "whisper", "menace", "monster", "phone", "announce"}
 UI = {"system.notice", "system.notice_small", "system.window", "system.summon_card", "system.warning", "system.log",
       "system.glitch", "system.button", "phone.live_stream", "phone.gate_status", "phone.emergency_alert",
-      "phone.bank_transfer", "phone.ttok_chat", "phone.ttok_notification", "phone.ttok_call", "phone.ttok_video_call",
+      "phone.bank_transfer", "phone.ttok_chat", "phone.ttok_notification", "phone.ttok_call", "phone.ttok_video_call", "phone.camera",
       "phone.info_card", "tv.lowerthird", "label"}
 SFX_STYLES = {"impact", "quiet", "comic", "alert", "gate", "summon"}
 BGS = {"white", "black", "navy", "paper"}
