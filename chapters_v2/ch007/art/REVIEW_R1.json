@@ -64,10 +64,7 @@
       "Original hanging/head pose and knife orientation retained under explicit preserve scope."
     ]
   },
-  "remaining": [
-    "P49",
-    "P61"
-  ],
+  "remaining": [],
   "P37": {
     "heads": {
       "song_yerin": [
@@ -130,6 +127,116 @@
     "checks": "Only changed box[1188,392,1282,469]. One binocular pair at eyes; duplicate at chest removed. All other pixels and approved poses preserved; native and200px reviewed.",
     "problems": [
       "Inherited bare/gloved arm placement retained as explicitly scoped; no reposing to newer script hand-side wording."
+    ]
+  },
+  "P49": {
+    "heads": {
+      "kang_jaeha": [
+        0.39,
+        0.048,
+        0.563,
+        0.16
+      ],
+      "song_yerin": [
+        0.776,
+        0.244,
+        0.907,
+        0.338
+      ],
+      "nib": [
+        0.621,
+        0.389,
+        0.766,
+        0.442
+      ]
+    },
+    "verdict": "kept_local_patch",
+    "tries": 2,
+    "measurements": {
+      "nib_crown_y": 600,
+      "head_height_estimate_px": 95,
+      "visible_hair_to_rail_px": 78
+    },
+    "hands": {
+      "crop_scale": 2,
+      "boxes_px": [
+        [
+          198,
+          128,
+          350,
+          282
+        ],
+        [
+          545,
+          618,
+          679,
+          743
+        ],
+        [
+          831,
+          643,
+          892,
+          701
+        ],
+        [
+          915,
+          670,
+          990,
+          733
+        ]
+      ],
+      "findings": "Four visible hands checked at2x; phone grip and three rail-resting hands have normal four-finger/thumb anatomy with occlusion. Nib's hands completely hidden. Original hand pixels preserved."
+    },
+    "checks": "Native1024x1536 and200px reviewed. Only Nib's upper head peeks above rail; no shoulders or scarf. Original figures and foreground rail restored, small former scarf area reconstructed from source. Change envelope[609,487,836,689].",
+    "problems": [
+      "Full head height estimated because chin is behind rail."
+    ]
+  },
+  "P61": {
+    "heads": {
+      "kang_jaeha": [
+        0.264,
+        0,
+        0.455,
+        0.259
+      ],
+      "nib": [
+        0.592,
+        0.881,
+        0.787,
+        1
+      ]
+    },
+    "verdict": "kept_local_patch_with_position_note",
+    "tries": 2,
+    "measurements": {
+      "nib_crown_y": 903,
+      "nib_eye_y": 1012,
+      "head_width_approx_px": 230,
+      "requested_crown_y": 930
+    },
+    "hands": {
+      "crop_scale": 2,
+      "boxes_px": [
+        [
+          140,
+          890,
+          270,
+          1024
+        ],
+        [
+          735,
+          890,
+          850,
+          1024
+        ]
+      ],
+      "findings": "Two clipped gloved hand backs/wrists inspected at2x. Fingers lie below frame; no extra wrist or disconnected arm apparent. Nib hands fully out of frame. Jaeha pixels unchanged from original."
+    },
+    "checks": "Original straight-on framing, T, pencil, plaster, fringe, sweat and smile preserved. Dusk sky reconstructed only around Nib. Head/eye visible at bottom, no scarf or shoulders. Native1536x1024 and200px reviewed.",
+    "problems": [
+      "Crown about27px above requested930, retained to keep uncovered eye visible.",
+      "Full181px head height cannot be measured because chin is below frame; apparent width preserved."
     ]
   }
 }
