@@ -11,7 +11,8 @@
     "verdict": "ok",
     "problems": [],
     "tries": 1,
-    "inspection": "Native square; eye reaction, off-panel eyeline, petal, green source light, cropped mouth and empty right background checked. Full native PNG and 200 px thumbnail inspected."
+    "inspection": "Native square; eye reaction, off-panel eyeline, petal, green source light, cropped mouth and empty right background checked. Full native PNG and 200 px thumbnail inspected.",
+    "approval": "Approved per reviews/ch010.md; untouched."
   },
   "P09": {
     "heads": {
@@ -28,12 +29,208 @@
         0.69
       ]
     },
-    "verdict": "best_with_faults",
-    "problems": [
-      "Pencil_visible_on_anatomical_LEFT_side_instead_of_hidden_RIGHT_ear",
-      "Unwanted_white_ankle_wrap_only_LEFT_forearm_should_be_bandaged"
-    ],
+    "verdict": "approved_by_Claude",
+    "problems": [],
     "tries": 2,
-    "inspection": "Best generated try 2 retained after service usage limit blocked correction. Gentle open-hand reach, speech mouth, scale references, cyan/green lighting and submerged release checked. Side-lock and ankle-wrap faults remain. Full native PNG and 200 px thumbnail inspected."
+    "inspection": "Approved after Claude correction per reviews/ch010.md; P09 PNG never touched by ch010-BHI.",
+    "prior_self_review": {
+      "heads": {
+        "borro": [
+          0.508,
+          0.083,
+          0.67,
+          0.236
+        ],
+        "kang_jaeha": [
+          0.6,
+          0.525,
+          0.829,
+          0.69
+        ]
+      },
+      "verdict": "best_with_faults",
+      "problems": [
+        "Pencil_visible_on_anatomical_LEFT_side_instead_of_hidden_RIGHT_ear",
+        "Unwanted_white_ankle_wrap_only_LEFT_forearm_should_be_bandaged"
+      ],
+      "tries": 2,
+      "inspection": "Best generated try 2 retained after service usage limit blocked correction. Gentle open-hand reach, speech mouth, scale references, cyan/green lighting and submerged release checked. Side-lock and ankle-wrap faults remain. Full native PNG and 200 px thumbnail inspected."
+    }
+  },
+  "P10": {
+    "heads": {},
+    "verdict": "ok",
+    "problems": [],
+    "continuation_tries": 2,
+    "hands_2x_crop_boxes": [],
+    "inspection": "Full native PNG, 200 px thumbnail, every visible hand/arm at 2x; no project preview files."
+  },
+  "P11": {
+    "heads": {
+      "kang_jaeha": [
+        0.237,
+        0.305,
+        0.352,
+        0.47
+      ],
+      "nib": [
+        0.5,
+        0.246,
+        0.647,
+        0.402
+      ],
+      "kang_seoa": [
+        0.819,
+        0.119,
+        0.947,
+        0.295
+      ]
+    },
+    "verdict": "ok",
+    "problems": [],
+    "continuation_tries": 2,
+    "hands_2x_crop_boxes": [
+      [
+        290,
+        580,
+        175,
+        180
+      ],
+      [
+        645,
+        495,
+        170,
+        210
+      ],
+      [
+        540,
+        315,
+        130,
+        100
+      ],
+      [
+        595,
+        405,
+        135,
+        115
+      ],
+      [
+        1150,
+        430,
+        125,
+        125
+      ],
+      [
+        1400,
+        395,
+        130,
+        115
+      ]
+    ],
+    "inspection": "Full native PNG, 200 px thumbnail, every visible hand/arm at 2x; no project preview files."
+  },
+  "P12": {
+    "heads": {
+      "borro": [
+        0.437,
+        0.048,
+        0.561,
+        0.233
+      ],
+      "nib": [
+        0.077,
+        0.057,
+        0.184,
+        0.17
+      ],
+      "kang_seoa": [
+        0.878,
+        0.435,
+        0.951,
+        0.574
+      ],
+      "kang_jaeha": [
+        0.024,
+        0.674,
+        0.17,
+        0.83
+      ]
+    },
+    "verdict": "ok",
+    "problems": [],
+    "continuation_tries": 2,
+    "hands_2x_crop_boxes": [
+      [
+        65,
+        787,
+        280,
+        220
+      ],
+      [
+        430,
+        240,
+        340,
+        205
+      ],
+      [
+        785,
+        240,
+        325,
+        205
+      ],
+      [
+        145,
+        140,
+        130,
+        135
+      ],
+      [
+        1335,
+        480,
+        120,
+        125
+      ]
+    ],
+    "inspection": "Full native PNG, 200 px thumbnail, every visible hand/arm at 2x; no project preview files."
+  },
+  "P13": {
+    "heads": {
+      "nib": [
+        0.184,
+        0.059,
+        0.274,
+        0.168
+      ],
+      "borro": [
+        0.442,
+        0.158,
+        0.563,
+        0.329
+      ]
+    },
+    "verdict": "ok",
+    "problems": [],
+    "continuation_tries": 3,
+    "hands_2x_crop_boxes": [
+      [
+        775,
+        355,
+        210,
+        210
+      ],
+      [
+        1020,
+        515,
+        240,
+        235
+      ],
+      [
+        270,
+        145,
+        150,
+        130
+      ]
+    ],
+    "inspection": "Full native PNG, 200 px thumbnail, every visible hand/arm at 2x; no project preview files."
   }
 }
