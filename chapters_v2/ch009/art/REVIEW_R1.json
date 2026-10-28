@@ -1,0 +1,50 @@
+{
+  "job": "ch009-R1",
+  "P50": {
+    "heads": {
+      "kang_jaeha": [
+        0.492,
+        0.523,
+        0.503,
+        0.536
+      ]
+    },
+    "selected_try": 4,
+    "verdict": "best_at_five_try_limit",
+    "measurements": {
+      "jaeha_crown_to_water_px": 42,
+      "rift_same_depth_main_rim_px": 250,
+      "rift_with_satellite_fragments_px": 280,
+      "empty_top_px": 229,
+      "requested": {
+        "jaeha": 40,
+        "rift": 250,
+        "empty_top": 205
+      }
+    },
+    "hands": {
+      "crop_scale": 2,
+      "boxes_px": {
+        "left_arm_hand": [
+          747,
+          542,
+          763,
+          574
+        ],
+        "right_arm_hand": [
+          763,
+          542,
+          780,
+          574
+        ]
+      },
+      "result": "Both arms attach and hang at sides, no floating or extra limb. Individual digits cannot be resolved in the tiny figure; script explicitly requests no hand detail at this size. Left notebook not clearly legible."
+    },
+    "checks": "Full native1536x1024 and200px view checked; giant rifts all dark, cyan lines, no text, hoodie without vest, clear topfifth.",
+    "problems": [
+      "Knee-deep immersion remains ambiguous: the tiny legs read as standing on water.",
+      "Notebook is not clearly readable, forearm bandage side too small to certify.",
+      "Ring rebuilt rather than pixel-preserved, as authorized redraw."
+    ]
+  }
+}
