@@ -55,14 +55,116 @@
         0.709
       ]
     },
-    "verdict": "kept_with_notes",
-    "problems": [
-      "Jaeha's large back T patch is missing.",
-      "Jaeha's free hand appears to touch Nib's head; notebook state is unclear.",
-      "Only one candidate generated; correction request blocked by image service usage limit."
-    ],
-    "tries": 1,
-    "selected_try": 1,
-    "notes": "Best available chamber candidate retained for review, not a strict pass. One generated try; second request returned HTTP 429 usage_limit_reached with no image. Required correction could not be drawn."
+    "verdict": "ok",
+    "problems": [],
+    "tries": 2,
+    "tool_calls": 3,
+    "selected_try": 3,
+    "notes": "Back T restored. Right elbow holds one notebook at ribs; hand supports lower edge without touching Nib. Four visible hand regions inspected at 2x; five-digit left stop hand and Nib bracing hand; gloved notebook grip partly occluded, Yerin strap hand partly hidden by stopping arm. All arms trace to shoulders. Location, grain, lever, chutes and seal-2 rest-form back preserved.",
+    "hand_crops_2x": {
+      "jaeha_left": [
+        20,
+        430,
+        270,
+        140
+      ],
+      "jaeha_right": [
+        365,
+        390,
+        120,
+        180
+      ],
+      "yerin_strap": [
+        168,
+        480,
+        72,
+        148
+      ],
+      "nib_right": [
+        548,
+        715,
+        150,
+        255
+      ]
+    }
+  },
+  "P29": {
+    "heads": {},
+    "verdict": "ok",
+    "problems": [],
+    "tries": 2,
+    "selected_try": 2,
+    "notes": "No hands or characters in frame. Modern black toothed zip tie now binds a rusted iron catch open at chute rim; separate wooden lever remains below on landing. Sharp engraved pressure-plate corner and clean golden grain against grey dusty architecture. Low POV and subdued amber perimeter; no text.",
+    "hands": "none, checked entire frame"
+  },
+  "P30": {
+    "heads": {
+      "kang_jaeha": [
+        0.407,
+        0.012,
+        0.645,
+        0.36
+      ],
+      "song_yerin": [
+        0,
+        0,
+        0.33,
+        0.394
+      ]
+    },
+    "verdict": "ok",
+    "problems": [],
+    "tries": 2,
+    "selected_try": 2,
+    "notes": "RIGHT shoulder-to-elbow chain now extends chalk hand toward grain, LEFT forearm/hand supported on knee with notebook pinned under left upper arm; chest pocket empty. Five-digit gloved hands, coherent wrists, bag grip partly occluded. Jaeha looks at grain, whispers privately; pencil and plaster on near RIGHT side. Yerin listens with no cross on near RIGHT sleeve. Two-shot, amber key, native PNG checked full size, 2x hands, 200px.",
+    "hand_crops_2x": {
+      "right_chalk_arm": [
+        415,
+        275,
+        965,
+        410
+      ],
+      "left_knee_hand": [
+        910,
+        650,
+        182,
+        213
+      ],
+      "yerin_hands_bag": [
+        315,
+        650,
+        218,
+        155
+      ]
+    }
+  },
+  "P31": {
+    "heads": {
+      "song_yerin": [
+        0.074,
+        0,
+        0.609,
+        0.536
+      ]
+    },
+    "verdict": "ok",
+    "problems": [],
+    "tries": 3,
+    "selected_try": 3,
+    "notes": "RIGHT hand rises from picture-left shoulder toward lips; four separate fingertips, thumb concealed by long cuff/faceward palm. LEFT hand grips one continuous right-shoulder-to-left-hip pink strap: four curled fingers and thumb behind strap. Both wrists and arm chains coherent; LEFT sleeve cross correct. Pale frightened face, tiny pupils toward offpanel right, barely open whisper, calm gradient right. Native 1254 square checked at full size, 2x hand crops and 200px.",
+    "hand_crops_2x": {
+      "right_mouth": [
+        305,
+        433,
+        252,
+        272
+      ],
+      "left_strap": [
+        550,
+        820,
+        245,
+        280
+      ]
+    }
   }
 }

@@ -1,0 +1,89 @@
+{
+  "job": "ch010-R1",
+  "P48": {
+    "heads": {
+      "nib": [
+        0.244,
+        0.604,
+        0.306,
+        0.696
+      ],
+      "ash_hound_alpha": [
+        0.741,
+        0.008,
+        0.889,
+        0.292
+      ]
+    },
+    "verdict": "best_at_five_try_limit_needs_review",
+    "selected_try": 5,
+    "measurements_px": {
+      "nib_crown_y": 620,
+      "nib_chin_y": 709,
+      "nib_front_sole_y": 914,
+      "nib_head_height": 89,
+      "alpha_shoulder_y": 365,
+      "alpha_front_paw_y": 965,
+      "alpha_visible_shoulder_height": 600
+    },
+    "attempt_measurements": [
+      {
+        "try": 1,
+        "crown": 582,
+        "soles": 890,
+        "head": 105
+      },
+      {
+        "try": 2,
+        "crown": 650,
+        "soles": 884,
+        "head": 75
+      },
+      {
+        "try": 3,
+        "crown": 480,
+        "soles": 880,
+        "head": 108
+      },
+      {
+        "try": 4,
+        "crown": 615,
+        "soles": 909,
+        "head": 88
+      },
+      {
+        "try": 5,
+        "crown": 620,
+        "soles": 914,
+        "head": 89
+      }
+    ],
+    "hands": {
+      "first_check": true,
+      "crop_scale": 2,
+      "crop_boxes_px": {
+        "right_arm_hand": [
+          195,
+          654,
+          379,
+          797
+        ],
+        "left_arm_hand": [
+          441,
+          686,
+          548,
+          821
+        ]
+      },
+      "findings": "Both fists hold a single straight hilt with blades downward; thumbs oppose curled fingers; no extra hand, floating handle, T-shaped handle or disconnected arm. Curled fingers partly occluded by grips, no count defect apparent at2x.",
+      "reference": "characters_v2/hands/grip_hilt_one_hand.png"
+    },
+    "style_checks": "Full native size and200px view checked. Low camera, huge alpha, two knives, mask LEFT, seal2 cloak, scarf, binoculars, barefeet preserved. No text or compression artifacts visible.",
+    "problems": [
+      "Crown remains about30px above requested650; front sole21px above requested935.",
+      "Head roughly89px rather than75–80; overall scale greatly reduced from original175px head.",
+      "Amber outline is subtle rather than clearly continuous.",
+      "Generator preserves scene visually, but byte-exact preservation of unaffected pixels is not certified."
+    ]
+  }
+}
