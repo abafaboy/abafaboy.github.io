@@ -1015,6 +1015,7 @@ def main():
         # ------------------------------------------------ art + screens
         art_for = {}
         ui_tint = {}  # pid -> mean BGR of the UI warped into its screen (reflections of that screen take this colour)
+        screens = {}  # pid -> [(screen mask, tint or None for a dark screen)], for the spill pass
         for p in panels:
             if p.get("kind") in ("title", "end"):
                 continue
@@ -1100,6 +1101,7 @@ def main():
                 if vis.any():
                     ui_tint[pid] = tuple(float(v) for v in ui[:, :, :3][vis].mean(axis=0))
                 out = composite_screen(img, quad, mask, ui)
+                screens.setdefault(pid, []).append((mask > 0, ui_tint.get(pid)))
                 comp = WORK / f"{pid}_comp.png"
                 cv2.imwrite(str(comp), out)
                 art_for[pid] = comp
@@ -1119,6 +1121,7 @@ def main():
                 region = cv2.dilate(m, np.ones((5, 5), np.uint8)) > 0
                 if tint is None and not changed:
                     img[region] = (30, 27, 31)
+                    screens.setdefault(pid, []).append((region, None))
                     warnings.append(f"{pid}: green screen in the art with no `on: screen` ui; filled dark")
                 else:
                     # a reflection of the screen (wet road, glass) or spill: keep its brightness, take the screen's
@@ -1128,6 +1131,39 @@ def main():
                     img[region] = np.clip(col[None, :] * (0.45 + 0.75 * lum[:, None]), 0, 255).astype(np.uint8)
                     warnings.append(f"{pid}: green reflection recoloured to its screen's colour")
                 changed = True
+            # The green screen's soft spill (its glow on the desk, a hand, hair, the wall) is too faint for find_green.
+            # Around each screen, the green excess becomes the screen's own light (a dark screen casts none), fading
+            # with distance (28 Oct: ch005 P39's desk and Seoa's hair stayed lime green beside a white budget page).
+            # Natural greens are kept: teal (a painted roof, dark monitors) by hue, a whole green surround (ch010 P24's
+            # green roof) by area, and anything else by `despill: false` on the panel (ch005 P17's pot plant).
+            if pid in screens and p.get("despill", True):
+                f32 = img.astype(np.float32)
+                bb, gg, rr = f32[:, :, 0], f32[:, :, 1], f32[:, :, 2]
+                hue = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)[:, :, 0]
+                for smask, stint in screens[pid]:
+                    sm = (smask.astype(np.uint8) if smask.shape[:2] == img.shape[:2]
+                          else cv2.resize(smask.astype(np.uint8), (img.shape[1], img.shape[0]), interpolation=cv2.INTER_NEAREST))
+                    if not sm.any():
+                        continue
+                    ys_, xs_ = np.nonzero(sm)
+                    reach = 1.4 * max(xs_.max() - xs_.min(), ys_.max() - ys_.min()) + 8
+                    dist = cv2.distanceTransform((1 - sm).astype(np.uint8), cv2.DIST_L2, 5)
+                    w = np.clip((reach - dist) / (0.4 * reach), 0, 1) * (sm == 0) * (hue <= 72)
+                    excess = gg - np.maximum(rr, bb)
+                    ring = (dist < reach) & (sm == 0)
+                    if ((excess > 12) & ring & (hue <= 72)).sum() > 0.2 * max(1, ring.sum()):  # ch1-10: 0.05 at most, ch010 P24 0.37
+                        warnings.append(f"{pid}: screen spill kept (the screen sits in a green surround)")
+                        continue
+                    spill = np.clip(excess, 0, None) * w
+                    if spill.max() < 4:
+                        continue
+                    gg -= spill
+                    if stint is not None:
+                        c = np.array(stint, np.float32); c = c / max(1.0, c.max())  # BGR, brightest channel 1
+                        bb += spill * c[0]; gg += spill * c[1]; rr += spill * c[2]
+                    changed = True
+                    warnings.append(f"{pid}: screen spill recoloured" + ("" if stint is not None else " (dark screen)"))
+                img = np.clip(np.dstack([bb, gg, rr]), 0, 255).astype(np.uint8)
             if changed:
                 fixed = WORK / f"{pid}_dark.png"
                 cv2.imwrite(str(fixed), img)

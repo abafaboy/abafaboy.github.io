@@ -78,6 +78,7 @@ Rules:
 - **Phone:** `phone.ttok_chat` (messages[]: {from, text, time}) · `phone.ttok_notification` · `phone.ttok_call` · `phone.ttok_video_call` · `phone.bank_transfer` · `phone.emergency_alert` · `phone.gate_status` · `phone.aao_booking` · `phone.aao_result` · `phone.quickhaul_order` · `phone.hunterlink_rank` · `phone.live_stream` · `phone.sumex_ad` · `phone.info_card` · `phone.camera` (a phone filming: the viewfinder shows `subject: [x0, y0, x1, y1]`, a box of the same panel's art in fractions, with REC and `timer`; `on: screen` only)
 - **TV:** `tv.lowerthird`
 - **Placement:** `on:` is `screen` (composited into the green screen of the art), `float` (the window floats over the art in perspective), or `panel` (the whole panel becomes the app; leave `art` empty except for a note).
+- **Screen spill:** around every green screen the letterer turns the screen's green glow (on a desk, a hand, hair) into the screen's own light, or removes it for a dark screen. Teal greens and a screen in a green surround are left alone. Set `despill: false` on a panel to keep a real green object near a screen (ch005 P17's pot plant).
 
 ## Chapter rules (checked before art)
 1. 45–65 panels.
