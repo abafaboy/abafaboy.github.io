@@ -336,9 +336,21 @@ def load_html(page, html_text, path):
     page.evaluate("document.fonts.ready")
 
 
-def kit_app_html(png, meta, fills):
+# the video area of a kit app blank that can show another panel's footage (x, y, w, h in the blank's pixels)
+KIT_VIDEO = {"phone.live_stream": (45, 174, 946, 603)}
+
+
+def kit_app_html(png, meta, fills, video=None):
     W, H = meta["size"]
     boxes = []
+    if video:  # (image path, (x, y, w, h)): the footage under the app's chrome text, above the blank
+        vp, (vx, vy, vw, vh) = video
+        boxes.append(f"<img src='{uri(vp)}' style='position:absolute;left:{vx}px;top:{vy}px;width:{vw}px;height:{vh}px;object-fit:cover'>")
+        # the blank's chrome that sits inside the video area is drawn again on top of the footage: the viewer pill and a
+        # red LIVE badge
+        boxes.append("<div style='position:absolute;left:843px;top:206px;width:127px;height:45px;border-radius:23px;background:#fff'></div>"
+                     "<div style='position:absolute;left:70px;top:206px;padding:0 16px;height:45px;border-radius:8px;background:#E5484D;"
+                     "color:#fff;font:700 24px/45px UI,sans-serif;letter-spacing:.08em'>&#9679; LIVE</div>")
     for b in meta.get("text_boxes", []):
         v = fills.get(b["id"])
         if v in (None, ""):
@@ -1160,7 +1172,29 @@ def main():
                     page.set_viewport_size({"width": meta["size"][0], "height": meta["size"][1]})
                     fills = app_fills(kind, u)
                     fills.update({b_["id"]: u[b_["id"]] for b_ in meta.get("text_boxes", []) if b_["id"] in u and b_["id"] not in ("kind", "on")})
-                    load_html(page, kit_app_html(png, meta, fills), WORK / f"{pid}_app.html")
+                    video = None
+                    if kind in KIT_VIDEO and u.get("source"):
+                        # a stream showing what the drone filmed: a crop of the `source` panel's art (its `subject` box)
+                        srcp = next((ART / f"{u['source']}{x}" for x in (".png", ".jpg", ".webp") if (ART / f"{u['source']}{x}").exists()), None)
+                        if srcp:
+                            vx, vy, vw, vh = KIT_VIDEO[kind]
+                            im0 = Image.open(srcp).convert("RGB")
+                            W0, H0 = im0.size
+                            sx0, sy0, sx1, sy1 = u.get("subject", [0, 0, 1, 1])
+                            bw0, bh0 = (sx1 - sx0) * W0, (sy1 - sy0) * H0
+                            asp = vw / vh
+                            if bw0 / bh0 < asp:
+                                bw0 = bh0 * asp
+                            else:
+                                bh0 = bw0 / asp
+                            bw0, bh0 = min(bw0, W0), min(bh0, H0)
+                            cx, cy = (sx0 + sx1) / 2 * W0, (sy0 + sy1) / 2 * H0
+                            l_ = min(max(cx - bw0 / 2, 0), W0 - bw0)
+                            t_ = min(max(cy - bh0 / 2, 0), H0 - bh0)
+                            vf = WORK / f"{pid}_stream.png"
+                            im0.crop((int(l_), int(t_), int(l_ + bw0), int(t_ + bh0))).resize((vw, vh), Image.LANCZOS).save(vf)
+                            video = (vf, KIT_VIDEO[kind])
+                    load_html(page, kit_app_html(png, meta, fills, video), WORK / f"{pid}_app.html")
                     page.evaluate("document.fonts.ready")
                     page.evaluate(FIT_JS)
                     x0, y0, x1, y1 = meta.get("art_bounds") or [0, 0, meta["size"][0], meta["size"][1]]
