@@ -21,6 +21,42 @@ So each fan-service woman (Lyra, Han Sora, Moon Ahin and Yoo Bomi) gets four mor
   - section 1 (the heights).
 - `PANEL_BRIEF_v2.md` section 4c (hands first). The hand references are in `characters_v2/hands/` (`INDEX.md`).
 
+## The owner's notes on the first drafts (28 October): these override the layouts below
+
+On Lyra's first S34 sheets the owner said:
+- "lyra looks compressed";
+- "the beach poses are also too far away i cant see shit";
+- there is no pose of her lying on her belly, tanning;
+- "too much head tilts to the right, looks to similar".
+
+So, in every part:
+
+1. **Poses: one pose per image, framed close.**
+   - Each pose is its own PNG. Use 1024×1536 (portrait) for standing and sitting poses and 1536×1024 (landscape) for lying poses.
+   - Frame each pose close:
+     - standing poses from the knees or the thighs up;
+     - close poses from the waist up;
+     - a lying pose fills the frame from head to feet, with the camera near her.
+   - Her face is large and clear in every image, and the outfit and jewellery are crisp.
+   - Never squash or shrink a figure to fit. She keeps her approved proportions (Lyra: 182 cm, long-legged, slender, a narrow waist and curves, about 8.5 heads tall).
+   - Name each pose after its sheet plus a letter: `poses_beach_a.png` to `poses_beach_h.png`, and so on. The eight-pose overview sheet is no longer drawn.
+2. **Heads: vary them.**
+   - Most heads sit upright. In one sheet or one set of poses, at most one head tilts toward her left shoulder and at most one toward her right.
+   - Vary the turn instead: straight on, a three-quarter turn each way, profile, chin up, chin down, a look back over the shoulder.
+   - Every face has a different expression from her design section. No two faces look alike.
+3. **Turnarounds: two images.** Put the eight views in two 1536×1024 images of four views each, so each figure is about twice as tall:
+   - `..._1.png`: front, front three-quarter, side, back three-quarter;
+   - `..._2.png`: the other four views.
+4. **Lying poses are allowed on the beach and at the pool**, framed like this:
+   - **Lying on her front, tanning.**
+     - On a towel or a lounger, propped on her forearms, her chin resting on her stacked hands.
+     - Her feet kicked up behind her and crossed at the ankles; she looks at the viewer.
+     - Her swimsuit stays tied and in place.
+     - The camera is low and in front of her, at her head, so her face and shoulders are nearest and her body recedes behind.
+   - **Lying on her side.** Her head propped on one hand, the other hand on her hip, her knees together and a little bent. The camera is in front of her, at her height.
+
+   For these two poses, this replaces rule 2's line about arched-back lying poses. Still never all-fours, never spread legs, and never a camera behind her or aimed at her buttocks.
+
 ## Rules for every S34 sheet
 
 1. **Adults only.** Lyra, Han Sora (27), Moon Ahin (22) and Yoo Bomi (21) are adults. Never Kang Seoa or Song Yerin.
@@ -118,19 +154,19 @@ References: `front.png`, `expressions.png`, `front_pool.png`, `turnaround_pool.p
 - The new slim silver compass on its chain (her LEFT wrist) and the bandage (her RIGHT wrist), each close.
 - One hand, back and palm, and one bare foot, front and side.
 
-**7. `turnaround8_pool.png`**
+**7. `turnaround8_pool_1.png` and `turnaround8_pool_2.png`** (four views each: the owner's notes)
 - The eight views of sheet 3 in the pool look.
-- The ruler as on sheet 3, the top of her head at 168 cm (between the 16th and 17th ticks).
+- No ruler: the lineup sheet (13) shows her height.
 - Her relaxed hip-shot stance.
 
-**8. `poses_pool.png`**
-- Eight full-figure poses at the hotel rooftop pool (`hotel_pool`: white loungers, a cabana, the infinity edge against the sky), in two rows of four.
-- The camera never goes below her waist level.
+**8. `poses_pool_a.png` to `poses_pool_h.png`** (one pose per image, framed close: the owner's notes)
+- Eight poses at the hotel rooftop pool (`hotel_pool`: white loungers, a cabana, the infinity edge against the sky).
+- The camera never goes below her waist level, except in pose d, which is framed as the owner's notes say.
 - The poses:
   - a. sitting on the pool edge with her legs in the water, leaning back on her hands, looking over her sunglasses;
   - b. in the water with her arms folded on the pool edge and her chin on them, amused; only her head, shoulders and arms are above the water;
   - c. walking out of the pool, slicking her wet hair back with both hands;
-  - d. lying back on a lounger with one knee raised, sunglasses on, a drink in her hand; the camera at the lounger's side at her shoulder height;
+  - d. lying on her front on a lounger, tanning (the owner's notes, item 4): propped on her forearms, chin on her stacked hands, sunglasses pushed up into her bob, feet kicked up and crossed, a lazy smile at the viewer;
   - e. standing with a towel round her neck, weight on one leg, a lazy smile;
   - f. leaning on the cabana post, one ankle crossed over the other, a wink;
   - g. tossing the towel over her shoulder and looking back;
@@ -155,17 +191,17 @@ Draw Part C only after S33 has delivered `moon_ahin/front_summer.png` and `turna
 - The sundress laid flat, front and back: the spaghetti straps, the off-the-shoulder chiffon sleeves, the empire seam with its silver ribbon, the ruffled hem and the slit on the LEFT side.
 - The wide-brimmed sun hat with its silver ribbon, the white strappy sandals, the white lace gloves (one hand back and palm), the silver baton in its slim holster, and the ribbon bow.
 
-**11. `moon_ahin/turnaround8_summer.png`**
+**11. `moon_ahin/turnaround8_summer_1.png` and `_2.png`** (four views each: the owner's notes)
 - The eight views of sheet 3 in the sundress.
-- The ruler as on sheet 3, the top of her head at the 17th tick (170 cm).
+- No ruler: the lineup sheet (13) shows her height.
 - Her elegant posture with the chin a little raised.
 
-**12. `moon_ahin/poses_beach.png`**
-- Eight full-figure poses on the beach in the sundress, in two rows of four.
-- The camera at her waist height or above.
+**12. `moon_ahin/poses_beach_a.png` to `poses_beach_h.png`** (one pose per image, framed close: the owner's notes)
+- Eight poses on the beach in the sundress.
+- The camera at her waist height or above, except in pose b, which is framed as the owner's notes say for lying on her side.
 - The poses:
   - a. holding her hat on against the wind, her skirt and hair blowing;
-  - b. walking barefoot on the sand, her sandals hanging from two fingers;
+  - b. lying on her side on a white picnic blanket under the parasol, her head propped on one lace-gloved hand, the skirt smoothed over her knees, a superior little smile (landscape);
   - c. sitting sideways on the sea wall with her legs crossed, the LEFT slit showing her leg, smiling down at the viewer;
   - d. standing in the shade of a white parasol held by one of her polished husks (2.11), the baton raised like a conductor;
   - e. twirling so the skirt flares to the knee, laughing;
@@ -209,13 +245,13 @@ References: `source_front.png`, `turnaround.png`, `expressions.png`, `details.pn
   - her hair tie.
 - One hand, back and palm.
 
-**16. `yoo_bomi/turnaround8.png`**
+**16. `yoo_bomi/turnaround8_1.png` and `turnaround8_2.png`** (four views each: the owner's notes)
 - The eight views of sheet 3 in her streamer look.
-- The ruler as on sheet 3, the top of her head at 163 cm (just above the 16th tick).
+- No ruler: the lineup sheet (13) shows her height.
 - A bouncy, confident stance: weight on one leg, a hand on her hip.
 
-**17. `yoo_bomi/poses_stream.png`**
-- Eight full-figure poses in two rows of four, on a plain light floor with a faint city street behind, the drone in each.
+**17. `yoo_bomi/poses_stream_a.png` to `poses_stream_h.png`** (one pose per image, framed close: the owner's notes)
+- Eight poses on a plain light floor with a faint city street behind, the drone in each.
 - The poses:
   - a. a peace sign beside her face to the drone, a wink;
   - b. leaning toward the drone, both hands on her knees, grinning;
@@ -226,11 +262,47 @@ References: `source_front.png`, `turnaround.png`, `expressions.png`, `details.pn
   - g. a jumping cheer, both fists up;
   - h. a selfie with her phone held up, the drone behind her.
 
+### Part E: Lyra again, on the owner's notes (`characters_v2/lyra/`)
+
+The owner's notes above came from Lyra's part A sheets. Part E redraws three of them; `details_swimsuit.png` stays.
+
+References:
+- `front.png`, `expressions.png`, `front_swimsuit.png`, `turnaround_swimsuit.png`;
+- `details_swimsuit.png`, for the bikini and jewellery up close.
+
+**18. `lyra/head_angles_2.png`**
+- Nine heads, head and shoulders, in a 3×3 grid, each with a different face from 2.10:
+  1. front, upright, a confident smirk;
+  2. a three-quarter turn to her right, upright, a sly closed-lip smile;
+  3. a three-quarter turn to her left, upright, a playful pout;
+  4. profile to her right, upright, a soft smile;
+  5. profile to her left, upright, eyes half closed;
+  6. chin up, looking down her nose at the viewer, smug;
+  7. chin down, looking up from under her lashes, a small knowing smile;
+  8. the only head tilted toward her LEFT shoulder: a wink;
+  9. the only head tilted toward her RIGHT shoulder: her signature gotcha grin.
+- Her teeth are even: no pointed canines.
+
+**19. `lyra/poses_beach_a.png` to `poses_beach_h.png`**: eight single images, framed close (the owner's notes, item 1).
+- a. **Lying on her front, tanning** (landscape; the owner's notes, item 4). A blue-and-white towel, sunglasses pushed up into her hair, chin on her stacked hands, feet kicked up and crossed. A sly gotcha smile at the viewer. Head upright.
+- b. **Lying on her side** on the towel (landscape). Her head propped on one hand, the braid falling in front over her LEFT shoulder. A wink. This is the one head tilt in the set.
+- c. **Sunscreen.** Rubbing sunscreen into her LEFT shoulder and looking back at the viewer over it, teasing (portrait, thighs up). A look back over the shoulder, head upright.
+- d. **Out of the sea.** Walking out of the sea toward the viewer, wet, water running off her, slicking her bangs back with one hand, a confident smile (portrait, knees up). Head straight on.
+- e. **Hugging her knees.** Sitting on the sand, knees together and hugged to her chest, chin resting on them, laughing (portrait). Head straight on, chin down.
+- f. **Splashing.** Kneeling in the shallow water and splashing it toward the viewer with both hands, laughing (landscape, waist up). Head turned three-quarter.
+- g. **The braid.** Wringing seawater out of the end of her braid, droplets falling, eyes on the viewer, a soft smile (portrait, waist up). Head upright, a three-quarter turn.
+- h. **Her glamour angle** (2.20). Under the white parasol with a coconut drink. Side-on at her shoulder height, her body in profile, her head turned to look at the viewer, framed from the hips up, a soft backlight rimming her hair (portrait). Chin up.
+
+**20. `lyra/turnaround8_swimsuit_1.png` and `turnaround8_swimsuit_2.png`**
+- The eight views of sheet 3, four per image (the owner's notes, item 3).
+- No ruler.
+- Each view with a different upright head and a different face. The hand on her hip in every view where it shows.
+
 ## Files and the DONE note
 
 - Write only your part's sheets.
 - Rejects go to `characters_v2/_rejects/s34_<name>_<try>_<reason>.png`.
-- Write `prompts_S34<part>.json` and `DONE_S34<part>.md` in `characters_v2/` (part A, B, C or D).
+- Write `prompts_S34<part>.json` and `DONE_S34<part>.md` in `characters_v2/` (part A, B, C, D or E).
 - Up to 3 tries per sheet.
 - Before each image call, check the free space on C: (`Get-PSDrive C`). Below 3 GB, stop and write the DONE file.
 - If the image tool reports a usage limit (HTTP 429) or blocks a sheet, write exactly what is done and what is left, and stop.
