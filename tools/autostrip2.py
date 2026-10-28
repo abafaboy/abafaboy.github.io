@@ -963,6 +963,7 @@ def main():
         page = br.new_page(); page.set_default_timeout(240000)
         # ------------------------------------------------ art + screens
         art_for = {}
+        ui_tint = {}  # pid -> mean BGR of the UI warped into its screen (reflections of that screen take this colour)
         for p in panels:
             if p.get("kind") in ("title", "end"):
                 continue
@@ -1027,6 +1028,9 @@ def main():
                 ui = cv2.imread(str(WORK / f"{pid}_ui.png"), cv2.IMREAD_UNCHANGED)
                 if ui.shape[2] == 3:
                     ui = cv2.cvtColor(ui, cv2.COLOR_BGR2BGRA)
+                vis = ui[:, :, 3] > 128
+                if vis.any():
+                    ui_tint[pid] = tuple(float(v) for v in ui[:, :, :3][vis].mean(axis=0))
                 out = composite_screen(img, quad, mask, ui)
                 comp = WORK / f"{pid}_comp.png"
                 cv2.imwrite(str(comp), out)
@@ -1038,13 +1042,28 @@ def main():
             if p.get("kind") in ("title", "end") or pid not in art_for:
                 continue
             img = cv2.imread(str(art_for[pid]), cv2.IMREAD_COLOR)
-            q, m = find_green(img)
-            if q is not None:
-                img[cv2.dilate(m, np.ones((5, 5), np.uint8)) > 0] = (30, 27, 31)
+            tint = ui_tint.get(pid)
+            changed = False
+            for _ in range(8):  # the largest green area first (an unfilled screen), then reflections and spill
+                q, m = find_green(img)
+                if q is None:
+                    break
+                region = cv2.dilate(m, np.ones((5, 5), np.uint8)) > 0
+                if tint is None and not changed:
+                    img[region] = (30, 27, 31)
+                    warnings.append(f"{pid}: green screen in the art with no `on: screen` ui; filled dark")
+                else:
+                    # a reflection of the screen (wet road, glass) or spill: keep its brightness, take the screen's
+                    # colour (28 Oct: filling ch004 P56's road reflection dark left a black hole in the asphalt)
+                    lum = img[:, :, 1][region].astype(np.float32) / 255.0
+                    col = np.array(tint if tint is not None else (54, 50, 56), np.float32)
+                    img[region] = np.clip(col[None, :] * (0.45 + 0.75 * lum[:, None]), 0, 255).astype(np.uint8)
+                    warnings.append(f"{pid}: green reflection recoloured to its screen's colour")
+                changed = True
+            if changed:
                 fixed = WORK / f"{pid}_dark.png"
                 cv2.imwrite(str(fixed), img)
                 art_for[pid] = fixed
-                warnings.append(f"{pid}: green screen in the art with no `on: screen` ui; filled dark")
 
         # ------------------------------------------------ collect lettering
         items = []
@@ -1398,6 +1417,8 @@ def main():
                 blocks.append(f'<div class="blk{dcls}" style="background:{col}">{row}{foot_html}</div>')
             else:
                 calm = p.get("calm", "")
+                if any(isinstance(u, dict) and u.get("kind") == "tv.lowerthird" and u.get("on") == "panel" for u in p.get("ui") or []):
+                    calm = "top"  # the news graphic fills the bottom edge: bubbles there would cover it (28 Oct, ch004 P57)
                 if calm in ("bottom", "bottom-left", "bottom-right"):
                     before, after = (talk[:1], talk[1:]) if len(talk) >= 3 else ([], talk)
                 elif len(talk) >= 3:
@@ -1437,8 +1458,31 @@ def main():
             lines: [...document.querySelectorAll('[data-a]')].map(e => ({a:e.dataset.a, ...r(e)})),
             panels: [...document.querySelectorAll('.pnl')].map(e => ({p:e.dataset.p, id:e.dataset.id, ...r(e)})),
             texts: [...document.querySelectorAll('.lt')].map(e => ({t:e.textContent.slice(0,40), cls:e.className, ...r(e)})),
-            blocks: [...document.querySelectorAll('.blk')].map(r)};
+            blocks: [...document.querySelectorAll('.blk')].map(r),
+            // system windows that cover a drawn face (28 Oct: ch008 P07's notice sat over Nib's head)
+            winface: [...document.querySelectorAll('.pnl')].flatMap(p => {
+              const faces = p.dataset.faces ? JSON.parse(p.dataset.faces) : [];
+              const img = p.querySelector('img.art');
+              if (!faces.length || !img || !img.naturalWidth) return [];
+              const fw = p.clientWidth, fh = p.clientHeight, iw = img.naturalWidth, ih = img.naturalHeight;
+              const sc = Math.max(fw / iw, fh / ih);
+              const pos = (getComputedStyle(img).objectPosition || '50% 50%').split(' ').map(v => parseFloat(v) / 100);
+              const offx = (fw - iw * sc) * (isNaN(pos[0]) ? .5 : pos[0]), offy = (fh - ih * sc) * (isNaN(pos[1]) ? .5 : pos[1]);
+              const pb = p.getBoundingClientRect(), hits = [];
+              p.querySelectorAll('.syswin').forEach(w => {
+                const b = w.getBoundingClientRect();
+                const wx0 = b.left - pb.left, wy0 = b.top - pb.top, wx1 = b.right - pb.left, wy1 = b.bottom - pb.top;
+                faces.forEach(f => {
+                  const fx0 = f[0] * iw * sc + offx, fy0 = f[1] * ih * sc + offy, fx1 = f[2] * iw * sc + offx, fy1 = f[3] * ih * sc + offy;
+                  const ix = Math.max(0, Math.min(wx1, fx1) - Math.max(wx0, fx0)), iy = Math.max(0, Math.min(wy1, fy1) - Math.max(wy0, fy0));
+                  const fa = (fx1 - fx0) * (fy1 - fy0);
+                  if (fa > 0 && ix * iy / fa > 0.3) hits.push(p.dataset.id);
+                });
+              });
+              return hits;
+            })};
         }""")
+        warnings += [f"SYSTEM WINDOW COVERS A FACE: {pid_}" for pid_ in sorted(set(geo.get("winface", [])))]
         # capture in bands (one full-page capture at 2x can exceed the browser's surface limits) and stitch losslessly
         Hc = int(geo["H"])
         page.set_viewport_size({"width": W, "height": min(Hc, 4000)})
