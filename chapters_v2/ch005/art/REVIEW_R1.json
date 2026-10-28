@@ -1,0 +1,50 @@
+{
+  "job": "ch005-R1",
+  "P35": {
+    "tries": 2,
+    "verdict": "kept_try2_local_composite",
+    "heads": {
+      "kang_jaeha": [
+        0.265,
+        0,
+        0.739,
+        0.337
+      ],
+      "kang_seoa": [
+        0.371,
+        0.255,
+        0.758,
+        0.655
+      ]
+    },
+    "hands": {
+      "crop_scale": 2,
+      "boxes_px": [
+        [
+          759,
+          395,
+          1058,
+          716
+        ],
+        [
+          476,
+          671,
+          639,
+          911
+        ],
+        [
+          911,
+          938,
+          1190,
+          1239
+        ]
+      ],
+      "findings": "Three visible hands: Jaeha wrappedLEFT headcradle fourfingers+thumb, RIGHTglove flatonback fourfingers+thumb, Seoa onevisiblevestfist withoccludedthumb/fingers. Herotherfist hidden. Arms tracedbacktonaturalshoulders. All remainexactflippedoriginalpixels."
+    },
+    "checks": "NearRIGHTeyeclosedvisible;farLEFTeyeundernowcorrectfringe. RIGHTearpencil/RIGHTcheekgauze/RIGHTchestT,wrappedLEFThand/glovedRIGHThand retained. Same1254nativecanvas andquiet200pxview. SunsetnowpictureRIGHT. Changedbboxonlyhead. Threehandcropsunchangedaftercompositemaskrefinement.",
+    "problems": [
+      "Only one of Seoa's fists visible, as inoriginal; otherhiddenbehindbodies.",
+      "Face/hair correction slightly changes chincontour; chinremainsincontactwithhead."
+    ]
+  }
+}
