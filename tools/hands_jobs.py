@@ -126,7 +126,7 @@ def main(argv):
                 L.append(f"- **{p.get('who', '')}**, {p.get('where', '')}: {p.get('problem', '')}")
                 if p.get("redraw_note"):
                     L.append(f"  - **Fix:** {p['redraw_note']}")
-            L.append("- **References:** " + ", ".join(f"`{r}`" for r in refs[:4]))
+            L.append("- **References:** " + (", ".join(f"`{r}`" for r in refs[:4]) or "none needed beyond the base image"))
             L.append("")
         if minor:
             L += [f"## Minor (below severity {smin}: not fixed in this job)"]

@@ -1,6 +1,6 @@
 # Hands and arms fixes: chapter 5
 
-From Claude's audit of 28 October 2026 (`ledger/hands_audit/ch005.json`). **6 panels to fix** (3 problems at severity 3, 3 at severity 2, 1 at severity 1). How to fix them: `codex/HANDS_FIX_BRIEF.md`. Base images: `chapters_v2/ch005/art/hands_fix/base/`.
+From Claude's audit of 28 October 2026 (`ledger/hands_audit/ch005.json`). **7 panels to fix** (3 problems at severity 3, 4 at severity 2, 1 at severity 1). How to fix them: `codex/HANDS_FIX_BRIEF.md`. Base images: `chapters_v2/ch005/art/hands_fix/base/`.
 
 ## P05: edit (severity 2)
 - **Bomi**, her raised open hand at picture-left, the upper of her two hands, beside the drone: four spread fingers and no visible thumb: the thumb side of the hand runs straight down to the wrist with nothing sticking out
@@ -33,6 +33,11 @@ From Claude's audit of 28 October 2026 (`ledger/hands_audit/ch005.json`). **6 pa
 - **Nib**, his grey-green hand hovering over the bowl, picture-right: six digits: four lit fingers plus two shadowed fingers between them
   - **Fix:** Nib's long grey-green hand hovers over the bowl and stops, with exactly four long fingers with dark nails and one thumb
 - **References:** `characters_v2/hands/reaching_grabbing_wrist.png`, `characters_v2/nib/details.png`
+
+## P55: edit (severity 2)
+- **baek_taegun**, the cane, centre, behind his legs (he is seen from behind): a prop nobody holds: the cane stands upright behind his legs, its top at hip height, while both his hands are out of sight in front of him, so it reads as propped against nothing (the same fault as the sword nobody held in chapter 3)
+  - **Fix:** Baek stands seen from behind with both hands folded on the cane's handle in front of him, so his body hides the cane; paint out the shaft behind his legs (trousers and floor continue as drawn) and show at most the cane's silver tip on the floor just in front of his shoes, between them.
+- **References:** none needed beyond the base image
 
 ## Left out of this job (redrawn by another job, or judged not worth a fix): P47, P52
 
