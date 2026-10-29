@@ -1,5 +1,11 @@
 # START HERE (Codex): the rebuild, 25 October 2026
 
+## Changes on 29 October 2026: legs (these override every brief below)
+The owner looked at the S35 fight and stretch references and said the leg positions were unrealistic: real fighting and stretching positions only, as in real manhwa. From now on, for every image (sheets and chapter panels alike):
+1. **The leg checklist is the second check on every image with legs in the frame,** right after hands and arms: `S36_GUILD_MASTER_AND_REAL_LEGS.md` section 1c (knee over toes, feet on the ground, balance, stance width, soft knees, leg length, hips follow the legs, feet and ankles). Record the eight answers in your REVIEW file for each panel with legs.
+2. **Hard action poses get a pose sketch first** (a kick, a dodge, a leap, a landing, a lunge, a fall, a big swing): a plain mid-grey wooden artist's mannequin in a plain grey full-body leotard (never drawn nude: a nude figure gets the image blocked), in the exact pose and camera angle of the panel, saved as `chapters_v2/chNNN/art/_pose/<panel>_pose.png` (sheets: `characters_v2/<name>/_pose/<stem>_pose.png`). Check it against the checklist, then pass it as reference 1 with "Image 1 is the pose guide. Copy its pose exactly, not its look." Method: S36 sections 1b and 1e; real form in words: section 1d.
+3. **No 3D programs.** The pose sketch is drawn with the image tool.
+
 ## Changes on 28 October 2026: hands and arms (these override every brief below)
 After watching chapters 2 and 3, the owner said the story, the plot and the characters are "amazing", and that the one problem is the hands and arms: "theyre awful. sometimes the positions and everything else is awful about arms and hands." From now on:
 1. **Hands and arms are the first check on every image.** A hand or arm a viewer would notice at video size (a wrong finger count, an extra, missing or fused hand, an arm that doesn't start at the shoulder, an elbow or wrist bending wrongly, a grip that doesn't hold, a pose no body takes) fails the image, however good the rest is. Follow `PANEL_BRIEF_v2.md` section 4c.
