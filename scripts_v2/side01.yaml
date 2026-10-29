@@ -14,12 +14,12 @@ cast:
 locations: [busan_beach_night, hotel_busan]
 continuity:
   - "Both are adults: Kang Jaeha is 24 (178 cm), Moon Ahin is 22 (170 cm; her head top at his eyebrows). Romance only as far as regular (not adult-rated) manhwa go: kisses, embraces, silhouettes, a fade to black. No nudity, nothing explicit, no sexual poses."
-  - "Jaeha, look coat: the knee-length black field coat with its orange lining, a dark grey shirt, the navy cargo trousers with grey knee patches, black boots, black fingerless gloves; the pencil behind his RIGHT ear, the fringe over his LEFT eye. His RIGHT forearm has healed (no splint). From P03 to P15 she wears his coat over her shoulders; he is in his grey shirt."
-  - "Moon Ahin, look summer: the white summer dress (thin straps, airy off-shoulder chiffon sleeves, the deep V, the silver ribbon under the bust, the flared knee-length ruffled skirt with the high slit on her LEFT side), white lace gloves, strappy white sandals, long loose black hair with the silver ribbon bow at the back of her head; the baton in its slim white holster at her RIGHT hip. No sun hat at night. From P05 her RIGHT glove is off. From P13 her hair is loose and the ribbon is gone; at P16 it is tied round Jaeha's RIGHT wrist."
+  - "Jaeha, look coat: the knee-length black field coat with its orange lining, a dark grey shirt, the navy cargo trousers with grey knee patches, black boots, black fingerless gloves; the pencil behind his RIGHT ear, the fringe over his LEFT eye. His RIGHT forearm has healed (no splint). From P03 to P16 she wears his coat over her shoulders; he is in his grey shirt."
+  - "Moon Ahin, look summer: the white summer dress (thin straps, airy off-shoulder chiffon sleeves, the deep V, the silver ribbon under the bust, the flared knee-length ruffled skirt with the high slit on her LEFT side), white lace gloves, strappy white sandals, long loose black hair with the silver ribbon bow at the back of her head; the baton in its slim white holster at her RIGHT hip. No sun hat at night. From P05 her RIGHT glove is off. From P13 her hair is loose and the ribbon is gone; at P17 it is tied round Jaeha's RIGHT wrist."
   - "Seating on the sea-wall steps (P03-P10): Ahin sits on Jaeha's LEFT (picture right when they face the camera). Her RIGHT hand is the one next to him."
   - "The beach (location busan_beach_night, no key; draw it generic): a wide sandy beach at night, a sea wall of broad concrete steps down to the sand, a promenade above with food carts and strings of warm bulbs, the festival crowd far off down the sand, and across the bay a long suspension bridge lit in slowly changing colours; fireworks over the water. Never copy a real photograph."
   - "The hotel (location hotel_busan, no key; draw it generic): a tall glass hotel tower on the bay; a lift with mirrored walls and a brass rail; a carpeted corridor with a window at the far end; a room with a floor-to-ceiling window over the bay."
-  - "Lyra, Pim, Borro and Nib appear only in the gag at P09 (Nib also at P16). Pim: 1.4 m, the black gaming headset round his neck. Scale: Borro 2.4 m, Lyra 182 cm, Nib 105 cm."
+  - "Lyra, Pim, Borro and Nib appear only in the gags at P09 and P15 (Nib also at P17). Pim: 1.4 m, the black gaming headset round his neck. Scale: Borro 2.4 m, Lyra 182 cm, Nib 105 cm."
 plants: []
 hook_type: arrival
 
@@ -318,6 +318,38 @@ panels:
     silent: true
 
   - id: P15
+    recipe: tone-flip
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level on the night promenade below the hotel tower: the four summons, one of them frozen"
+    light: "street lamps and the last firework smoke; the tower's windows above"
+    art: >
+      Comedy cut: on the promenade below the glass hotel tower, late at night. Pim (pim) has frozen mid-step, his feathery
+      antennae shot straight up and quivering toward one dark window high above, his face bright red, his wings fluffed out.
+      Lyra (lyra) has him by the collar of his ruff and is hauling him away down the promenade. Borro (borro) has gently put
+      two huge fingers over Pim's antennae like earmuffs. Nib (nib, mask) stands to one side with his arms folded, staring
+      at nothing. Nothing of the room is shown.
+    acting:
+      pim: "frozen, antennae straight up and quivering, eyes huge, cheeks bright red, both hands over his mouth"
+      lyra: "leaning back, dragging him by the ruff, scolding, her own cheeks pink"
+      borro: "calm, bending to cover Pim's antennae with two fingers"
+      nib: "arms folded, a long flat stare into the middle distance"
+    hands:
+      pim: "both hands pressed over his mouth"
+      lyra: "RIGHT hand gripping the back of his ruff, pulling; LEFT hand pointing firmly down the promenade"
+      borro: "RIGHT thumb and forefinger cupped gently over Pim's antennae; LEFT hand at his side"
+      nib: "arms folded across his chest"
+    hand_ref: [gestures_face.png]
+    eyeline: "Pim → the window above; Lyra → Pim; Nib → nothing"
+    foreground: "a promenade lamp post, cropped, left"
+    calm: top
+    lines:
+      - {who: pim, type: nervous, text: "THE SIGNAL FROM UP THERE IS VERY... STRONG.", side: l}
+      - {who: lyra, type: shout, text: "DON'T YOU DARE DESCRIBE IT!", side: r}
+      - {who: nib, type: speech, text: "......", side: r}
+
+  - id: P16
     recipe: talk
     shape: wide
     gap: long
@@ -340,7 +372,7 @@ panels:
       - {who: moon_ahin, type: speech, text: "YOU SNORE, NUMBER FOUR.", side: r}
       - {who: offpanel:kang_jaeha, type: speech, text: "I DO NOT.", side: l}
 
-  - id: P16
+  - id: P17
     recipe: aftermath
     shape: wide
     gap: short
