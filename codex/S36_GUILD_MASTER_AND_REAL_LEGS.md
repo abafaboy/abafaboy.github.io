@@ -8,7 +8,7 @@
 **Parts.**
 - **Part A:** the new woman he asked for, Namgung Hwa, master of Korea's number-one guild. A proposal: the owner approves her from these sheets before she goes into any script.
 - **Part B:** redraw the 25 S35 references whose legs failed (Claude's review below), with the new pose method.
-- **Part C** (later, its own entries): references for the fan-service beats already in the scripts, in the scripted costumes.
+- **Part C** (ON HOLD, the owner: reference sheets only for now): references for the fan-service beats already in the scripts, in the scripted costumes.
 
 **Read first:**
 - `README_START_HERE.md` (its 28 October and 27 October changes come first);
@@ -135,6 +135,8 @@ For each image: first move the S35 file to `characters_v2/_rejects/s35_<name>_<s
 ---
 
 ## Part C: the beats already in the scripts, in the scripted costumes (references for chapters 14-33)
+
+**ON HOLD.** The owner, 29 October: "just reference sheets for now, no actual chapter sheets." Do not draw Part C until Claude launches it.
 
 Single images, one figure filling the frame (the frame size is in each entry), a simple background that suits the beat. The costume is the scripted one (`CHARACTER_DESIGNS_v2.md`), never the training look. References: the pose sketch first (where the entry says so; section 1b), then `<name>/front.png`, then the sheet of that costume. Same rules, limits, hand checks and leg checklist as above. Make every one of them as attractive and charismatic as the brief allows: these are the glamour beats of the story.
 
