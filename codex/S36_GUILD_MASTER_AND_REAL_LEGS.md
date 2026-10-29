@@ -34,7 +34,7 @@ The same five poses failed for all four women, because one shared pose line prod
 
 ### 1b. The pose sketch comes first
 Korean webtoon artists pose a figure for the panel, set the camera, and draw over it. We do the same with a drawn mannequin (no 3D program):
-1. **Draw the pose sketch first,** saved as `characters_v2/<name>/_pose/<image stem>_pose.png`: a plain mid-grey artist's mannequin, smooth and faceless, no hair and no clothes, with a ball at every joint (shoulders, elbows, wrists, hips, knees, ankles), adult female proportions about 8 heads tall, in the exact pose and from the exact camera angle of the final image, on flat light grey #E9E9EC with a floor line and a soft cast shadow so every contact with the ground shows. Same size and framing as the final image. A weapon, if the pose has one, as a plain grey shape.
+1. **Draw the pose sketch first,** saved as `characters_v2/<name>/_pose/<image stem>_pose.png`: a plain mid-grey wooden artist's mannequin, smooth and faceless, no hair, wearing a plain grey full-body leotard (never drawn nude: a nude figure gets the image blocked), with a ball at every joint (shoulders, elbows, wrists, hips, knees, ankles), adult female proportions about 8 heads tall, in the exact pose and from the exact camera angle of the final image, on flat light grey #E9E9EC with a floor line and a soft cast shadow so every contact with the ground shows. Same size and framing as the final image. A weapon, if the pose has one, as a plain grey shape.
 2. **Check the pose sketch** against the leg checklist (1c) and the form notes for its pose (Part B or the Part A entry). Redraw it until every line passes (up to 3 tries).
 3. **Then draw the character.** Pass the kept pose sketch as reference 1 and write: "Image 1 is the pose guide. Copy its pose exactly: the angle of every joint, the stance width, where each foot touches the ground, the lean of the body and the camera angle. Do not copy its look: draw <name> from the other images." Her `front.png` is reference 2.
 4. **Check the final image** against the checklist again; its legs must match the kept pose sketch. If they drift, try again.
@@ -59,6 +59,9 @@ Keep every kept pose sketch as an ordinary file (Claude reviews them beside the 
 - **Standing quad stretch:** stand tall; hold the ankle of the bent leg with the same-side hand; both knees close together; tailbone tucked, hips square; no arched lower back. ([Julie Lohre](https://julielohre.com/quad-stretch/))
 - **Pull-up (top position):** chin over the bar, elbows bent and pulled down beside the ribs, shoulder blades drawn down and together, legs straight and together slightly in front of the body, feet off the floor.
 - **Standing side bend:** feet hip width and flat, legs straight but not locked, the hips push a little one way while the upper body curves the other way in one long C from the hip to the fingertips.
+
+### 1e. Chapter panels (from 29 October)
+The leg checklist (1c) applies to every chapter panel with legs in the frame. For a hard action pose (a kick, a dodge, a leap, a landing, a lunge, a fall), draw a pose sketch first (1b) at the panel's camera, saved as `chapters_v2/chNNN/art/_pose/<panel>_pose.png`.
 
 ---
 
