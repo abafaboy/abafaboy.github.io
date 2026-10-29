@@ -1,0 +1,376 @@
+chapter: 0
+title: The Night of the Fireworks
+format: SCRIPT_FORMAT_v2.md
+side_story: true      # a trial side story (S37), not part of the chapter count: the chapter-length rules do not apply
+when: "One month after the Busan breakwater (after chapter 40): the night of the Busan fireworks festival, then the next morning."
+story_beats: "codex/S37_ROMANCE_TRIAL.md (the owner's request of 29 October: the closest romance the series can show, a trial mini comic)"
+cast:
+  kang_jaeha: coat          # the black field coat (from ch 41), dark grey shirt; turnaround_coat.png
+  moon_ahin: summer         # the white summer dress (S33), no hat at night; front_summer.png, turnaround_summer.png
+  lyra: default
+  pim: default
+  borro: default            # the white husk face tied on (in public)
+  nib: mask                 # seal 3/5 armour and the cracked husk mask (in public)
+locations: [busan_beach_night, hotel_busan]
+continuity:
+  - "Both are adults: Kang Jaeha is 24 (178 cm), Moon Ahin is 22 (170 cm; her head top at his eyebrows). Romance only as far as regular (not adult-rated) manhwa go: kisses, embraces, silhouettes, a fade to black. No nudity, nothing explicit, no sexual poses."
+  - "Jaeha, look coat: the knee-length black field coat with its orange lining, a dark grey shirt, the navy cargo trousers with grey knee patches, black boots, black fingerless gloves; the pencil behind his RIGHT ear, the fringe over his LEFT eye. His RIGHT forearm has healed (no splint). From P03 to P15 she wears his coat over her shoulders; he is in his grey shirt."
+  - "Moon Ahin, look summer: the white summer dress (thin straps, airy off-shoulder chiffon sleeves, the deep V, the silver ribbon under the bust, the flared knee-length ruffled skirt with the high slit on her LEFT side), white lace gloves, strappy white sandals, long loose black hair with the silver ribbon bow at the back of her head; the baton in its slim white holster at her RIGHT hip. No sun hat at night. From P05 her RIGHT glove is off. From P13 her hair is loose and the ribbon is gone; at P16 it is tied round Jaeha's RIGHT wrist."
+  - "Seating on the sea-wall steps (P03-P10): Ahin sits on Jaeha's LEFT (picture right when they face the camera). Her RIGHT hand is the one next to him."
+  - "The beach (location busan_beach_night, no key; draw it generic): a wide sandy beach at night, a sea wall of broad concrete steps down to the sand, a promenade above with food carts and strings of warm bulbs, the festival crowd far off down the sand, and across the bay a long suspension bridge lit in slowly changing colours; fireworks over the water. Never copy a real photograph."
+  - "The hotel (location hotel_busan, no key; draw it generic): a tall glass hotel tower on the bay; a lift with mirrored walls and a brass rail; a carpeted corridor with a window at the far end; a room with a floor-to-ceiling window over the bay."
+  - "Lyra, Pim, Borro and Nib appear only in the gag at P09 (Nib also at P16). Pim: 1.4 m, the black gaming headset round his neck. Scale: Borro 2.4 m, Lyra 182 cm, Nib 105 cm."
+plants: []
+hook_type: arrival
+
+panels:
+
+  - id: P01
+    recipe: establish
+    shape: wide
+    gap: short
+    bg: black
+    camera: "high and wide over the beach at night: the festival crowd far off, the lit bridge across the bay, the first fireworks; two small figures on the sea-wall steps"
+    light: "fireworks gold and red over the water; the bridge's coloured lights; warm bulbs on the promenade"
+    art: >
+      High and wide over Busan's beach at night: the festival crowd is a glittering mass far off down the sand, a long
+      suspension bridge lit in colours spans the bay, and the first fireworks bloom gold and red over the water. On the broad
+      concrete steps of the sea wall, apart from the crowd, two small figures sit side by side: Jaeha (kang_jaeha, coat) and
+      Moon Ahin (moon_ahin, summer) in her white dress. The upper left is open night sky for the caption.
+    acting:
+      kang_jaeha: "small, sitting on a step, forearms on his knees, looking up at the fireworks"
+      moon_ahin: "small, sitting a little apart from him on the same step, knees together, hands in her lap, looking up"
+    hands:
+      kang_jaeha: "small: forearms resting on his knees, hands loose"
+      moon_ahin: "small: gloved hands folded in her lap"
+    calm: top
+    lines:
+      - {type: narr, text: "THE BUSAN FIREWORKS FESTIVAL. ONE MONTH AFTER THE BREAKWATER."}
+    sfx:
+      - {text: "PA-BOOM", style: quiet, at: [0.72, 0.18], size: M, rot: 0}
+
+  - id: P02
+    kind: title
+    shape: full
+    gap: long
+    bg: black
+    title_card: "MY SUMMONS GO FIRST · SIDE STORY · THE NIGHT OF THE FIREWORKS"
+    notes: "Title card at panel 2: a side story opens straight on its scene."
+
+  - id: P03
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "eye level on the steps, a two-shot from slightly in front: Jaeha draping his black coat over Ahin's bare shoulders"
+    light: "firework light flickering gold over them; the bridge's colours behind"
+    art: >
+      On the sea-wall steps: the wind off the sea lifts Ahin's long black hair, and she holds her bare arms against the cold.
+      Jaeha has half-risen and is putting his black field coat round her shoulders; its orange lining shows at the collar.
+      She does not look at him. Fireworks and the lit bridge behind them.
+    acting:
+      kang_jaeha: "half-standing beside her, leaning over, settling the coat on her shoulders, eyes on the coat, not on her"
+      moon_ahin: "sitting very straight, chin raised, eyes on the fireworks, refusing to look at him; a shiver in her shoulders"
+    hands:
+      kang_jaeha: "both gloved hands holding the coat by its collar, laying it over her shoulders"
+      moon_ahin: "both lace-gloved hands holding her bare upper arms against the cold"
+    hand_ref: [gestures_body.png]
+    eyeline: "Jaeha → the coat; Ahin → the fireworks"
+    foreground: "the edge of a concrete step, cropped, bottom"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: speech, text: "I'M NOT COLD.", side: r}
+      - {who: kang_jaeha, type: speech, text: "YOUR TEETH ARE CHATTERING, MISS MOON.", side: l}
+
+  - id: P04
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "closer two-shot, eye level, from the sea side: Ahin wrapped in his coat, both looking out at the fireworks"
+    light: "fireworks red and gold on their faces; the bridge's blue behind"
+    art: >
+      Closer on the two of them on the step: Ahin has pulled his black coat closed round her, the orange lining at her chin;
+      Jaeha sits beside her in his dark grey shirt. Both look out at the fireworks, not at each other.
+    acting:
+      moon_ahin: "the coat held closed at her chin, eyes on the sky, her face very still, the half-smile gone"
+      kang_jaeha: "forearms on his knees, eyes on the sky, listening"
+    hands:
+      moon_ahin: "both hands holding the coat closed at her chin; the RIGHT lace glove on, the LEFT lace glove on"
+      kang_jaeha: "forearms on his knees, gloved hands loosely clasped"
+    hand_ref: [gestures_body.png]
+    eyeline: "both → the fireworks"
+    foreground: "the dark curve of the coat's shoulder, cropped, right"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: speech, text: "ON THE BREAKWATER, YOU ASKED ME TO HOLD THEM.", side: r}
+      - {who: kang_jaeha, type: speech, text: "AND YOU DID.", side: l}
+      - {who: moon_ahin, type: speech, text: "NO ONE HAS EVER ASKED ME TO HOLD ANYTHING. THEY ONLY GIVE ORDERS.", side: r}
+
+  - id: P05
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close on the step between them: her bare hand coming down over his gloved hand"
+    light: "a gold firework flash on the stone"
+    art: >
+      Close on the concrete step between them: Ahin has pulled off her RIGHT lace glove (it lies on the step) and lays her
+      bare hand over Jaeha's gloved LEFT hand.
+    hands:
+      moon_ahin: "bare RIGHT hand laid over the back of his gloved LEFT hand, fingers curving between his knuckles"
+      kang_jaeha: "LEFT gloved hand flat on the step, fingers going still under hers"
+    hand_ref: [reaching_grabbing_wrist.png]
+    calm: top
+    silent: true
+
+  - id: P06
+    recipe: reaction
+    shape: inset-r
+    gap: short
+    bg: black
+    camera: "close on Jaeha: he looks down at their hands, then away"
+    light: "firework red on one side of his face"
+    face: private
+    art: >
+      Close on Jaeha (kang_jaeha): blush hatching across his cheeks, a sweat drop at his temple, his eyes sliding away from
+      her; the pencil behind his RIGHT ear, the fringe over his LEFT eye.
+    acting:
+      kang_jaeha: "frozen, shoulders up, a blush and a sweat drop, eyes sliding away, mouth half open"
+    hands: none
+    eyeline: "Jaeha → away"
+    calm: left
+    lines:
+      - {who: kang_jaeha, type: nervous, text: "M-MISS MOON...", side: l}
+      - {who: offpanel:moon_ahin, type: speech, text: "AHIN.", side: r}
+
+  - id: P07
+    recipe: talk
+    shape: wide
+    gap: short
+    bg: black
+    camera: "close two-shot from his side: she has turned to him and pulls him down by the collar"
+    light: "fireworks red and gold painting her face; the rest in shadow"
+    art: >
+      Close two-shot: Ahin has turned to face Jaeha on the step, his coat sliding off one shoulder, and pulls him down toward
+      her by his shirt collar. Her cool grey eyes are half-lidded, her lips parted; his eyes are wide.
+    acting:
+      moon_ahin: "turned toward him, leaning in, chin up, eyes half-lidded, a faint real smile, pulling him down"
+      kang_jaeha: "leaning down to her, eyes wide, blush, lips parted"
+    hands:
+      moon_ahin: "bare RIGHT hand closed on his shirt collar, pulling; gloved LEFT hand holding his coat on her shoulders"
+      kang_jaeha: "LEFT gloved hand braced on the step; RIGHT hand hovering near her waist, not touching yet"
+    hand_ref: [gestures_body.png]
+    eyeline: "Ahin → Jaeha (up); Jaeha → Ahin (down)"
+    foreground: "his shoulder, cropped, left"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: speech, text: "SAY IT.", side: r}
+      - {who: kang_jaeha, type: speech, text: "...AHIN.", side: l}
+
+  - id: P08
+    recipe: splash
+    shape: tall
+    gap: short
+    bg: black
+    camera: "low on the steps, looking up: the two of them kissing in near-silhouette against a huge firework"
+    light: "back light: an enormous gold chrysanthemum firework; rim light gold on their hair and shoulders"
+    art: >
+      The kiss. Low on the steps, looking up: Jaeha and Ahin kiss in near-silhouette against an enormous gold firework
+      bursting over the bay, the lit bridge far behind. His black coat round her shoulders, her long hair and the silver
+      ribbon lifting in the sea wind; his hand settles on her back. A paper cup has tipped over on the step. Romantic, not
+      sexual.
+    acting:
+      moon_ahin: "turned to him on the step, chin raised into the kiss, eyes closed"
+      kang_jaeha: "leaning down into the kiss, eyes closed, shoulders finally relaxed"
+    hands:
+      moon_ahin: "bare RIGHT hand still holding his shirt collar; gloved LEFT hand holding the coat on her shoulders"
+      kang_jaeha: "RIGHT gloved hand flat on her back over the coat; LEFT gloved hand braced on the step"
+    hand_ref: [hug.png]
+    calm: top
+    silent: true
+    sfx:
+      - {text: "BOOOOM", style: impact, at: [0.50, 0.12], size: L, rot: 0}
+
+  - id: P09
+    recipe: tone-flip
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level on the promenade above, behind a food cart: four faces stacked, spying"
+    light: "warm bulbs of the food cart; fireworks colour on their faces"
+    art: >
+      Comedy cut: up on the promenade, behind a hotteok food cart, four onlookers are stacked spying on the steps below:
+      Lyra (lyra) with both hands pressed over her mouth and sparkling eyes; Pim (pim) beside her, his feathery antennae shot
+      straight up, eyes shining, the headset round his neck; and Borro (borro), huge behind them, has clamped one enormous
+      hand over Nib's eyes (nib, mask). Nib's mouth is a flat line.
+    acting:
+      lyra: "crouched behind the cart, both hands over her mouth, eyes sparkling, shoulders up with delight"
+      pim: "pressed beside her, antennae straight up, hands clasped under his chin, eyes shining"
+      borro: "standing behind them, calm, one huge hand over Nib's eyes"
+      nib: "standing stiffly under Borro's hand, arms folded, mouth flat"
+    hands:
+      lyra: "both hands pressed flat over her mouth"
+      pim: "both hands clasped under his chin"
+      borro: "RIGHT hand cupped over Nib's mask, covering his eyes; LEFT hand resting on the cart's roof"
+      nib: "arms folded across his chest"
+    hand_ref: [gestures_face.png]
+    eyeline: "Lyra, Pim → the steps below; Nib → nothing"
+    foreground: "the food cart's edge, cropped, bottom"
+    calm: top
+    lines:
+      - {who: lyra, type: whisper, text: "FINALLY.", side: l}
+      - {who: pim, type: whisper, text: "I KNEW IT. JUST LIKE EPISODE FOURTEEN.", side: l}
+      - {who: nib, type: speech, text: "......", side: r}
+
+  - id: P10
+    recipe: insert
+    shape: inset-l
+    gap: short
+    bg: black
+    camera: "close: she is standing to go, her lips at his ear, pressing a key card into his palm"
+    light: "firework light, soft"
+    art: >
+      Close: Ahin has stood up to leave, his coat still on her shoulders; she bends to his ear and presses a plain white hotel
+      key card into his open palm. His ear is red. No writing on the card.
+    acting:
+      moon_ahin: "bending to his ear, her hair falling forward, the composed half-smile back"
+      kang_jaeha: "sitting frozen, eyes wide, his ear red"
+    hands:
+      moon_ahin: "bare RIGHT hand pressing the key card into his palm with two fingers; gloved LEFT hand holding the coat closed"
+      kang_jaeha: "LEFT gloved hand open, palm up, the key card on it"
+    hand_ref: [reaching_grabbing_wrist.png]
+    calm: top
+    lines:
+      - {who: moon_ahin, type: whisper, text: "ROOM 2108. DON'T MAKE ME WAIT, NUMBER FOUR.", side: r}
+
+  - id: P11
+    recipe: silent
+    shape: wide
+    gap: short
+    bg: black
+    camera: "inside a mirrored hotel lift, from the corner: the two of them standing very close"
+    light: "warm low lift light; their reflections in the mirrors"
+    art: >
+      Inside the hotel lift with mirrored walls and a brass rail: Ahin stands close against Jaeha, her forehead resting on his
+      chest, his black coat still round her shoulders; his arm is round her back. Their reflections repeat in the mirrors. The
+      floor display glows with no numbers. Quiet and intimate, nothing explicit.
+    acting:
+      moon_ahin: "leaning into him, forehead on his chest, eyes closed, a small smile"
+      kang_jaeha: "standing still, chin resting on top of her head, eyes closed"
+    hands:
+      moon_ahin: "bare RIGHT hand flat on his chest; gloved LEFT hand holding the coat"
+      kang_jaeha: "RIGHT arm round her back, hand on her shoulder blade over the coat; LEFT hand on the brass rail"
+    hand_ref: [hug.png]
+    calm: top
+    silent: true
+
+  - id: P12
+    recipe: silent
+    shape: wide
+    gap: short
+    bg: black
+    camera: "low, down a carpeted hotel corridor: a door just closing"
+    light: "soft corridor lamps; a firework flash in the window at the far end"
+    art: >
+      Low in a quiet carpeted hotel corridor: a room door is just swinging shut, a wedge of warm light narrowing on the
+      carpet. In front of it lies Ahin's white lace glove. At the far end of the corridor a window shows a firework over the
+      bay. No people. No numbers or writing on the door.
+    hands: none
+    calm: top
+    silent: true
+    sfx:
+      - {text: "CLICK", style: quiet, at: [0.62, 0.40], size: S, rot: 0}
+
+  - id: P13
+    recipe: silent
+    shape: tall
+    gap: short
+    bg: black
+    camera: "outside the glass hotel tower at night: one lit window with half-closed blinds, two silhouettes behind them"
+    light: "warm light behind the blinds; firework colours reflected on the dark glass of the tower"
+    art: >
+      Outside the hotel tower at night: one high window is lit warm behind half-closed horizontal blinds. Behind them, as
+      soft dark silhouettes, the two stand close in an embrace: her one arm round his neck, her other hand pulling the ribbon
+      from her hair so her long hair falls loose; his hands at her waist; their faces together. Only silhouettes through the
+      slats, no detail. The last fireworks reflect on the dark glass around the window. Romantic, implied, nothing explicit.
+    acting:
+      moon_ahin: "silhouette: up on her toes, one arm round his neck, the other hand drawing the ribbon from her hair"
+      kang_jaeha: "silhouette: bent to her, hands at her waist"
+    hands:
+      moon_ahin: "silhouette: RIGHT arm round his neck; LEFT hand raised to the back of her head, pulling the ribbon free"
+      kang_jaeha: "silhouette: both hands at her waist"
+    calm: top
+    silent: true
+
+  - id: P14
+    recipe: silent
+    shape: wide
+    gap: fade-black
+    bg: black
+    camera: "wider: the hotel tower over the bay, the same window now dark among lit ones; the last firework fading"
+    light: "the fading glow of a last firework; scattered lit windows"
+    art: >
+      Wider over the bay: the glass hotel tower with its scattered lit windows; the window of P13 is now dark. The last
+      firework fades into smoke over the water and the lit bridge.
+    hands: none
+    calm: top
+    silent: true
+
+  - id: P15
+    recipe: talk
+    shape: wide
+    gap: long
+    bg: white
+    camera: "eye level in the hotel room at dawn: Ahin at the floor-to-ceiling window, looking back over her shoulder"
+    light: "pale gold dawn over the bay through the window; soft"
+    art: >
+      Morning in the hotel room: Ahin stands at the floor-to-ceiling window over the bay at dawn, wrapped in Jaeha's black
+      coat over her white dress, her hair loose with no ribbon, barefoot on the carpet. She looks back over her shoulder at
+      him (off panel) with a small, real smile. No bed in frame.
+    acting:
+      moon_ahin: "standing at the window, the coat held round her, looking back over her shoulder, a small real smile"
+    hands:
+      moon_ahin: "both hands holding the coat closed in front of her, the sleeves past her fingers"
+    hand_ref: [gestures_body.png]
+    eyeline: "Ahin → Jaeha (off panel)"
+    foreground: "the edge of a sheer curtain, cropped, left"
+    calm: top
+    lines:
+      - {who: moon_ahin, type: speech, text: "YOU SNORE, NUMBER FOUR.", side: r}
+      - {who: offpanel:kang_jaeha, type: speech, text: "I DO NOT.", side: l}
+
+  - id: P16
+    recipe: aftermath
+    shape: wide
+    gap: short
+    bg: white
+    camera: "eye level on the sea-wall steps in the morning: Jaeha sitting dazed, Nib beside him with a can"
+    light: "morning sun on the beach, a pale sky; the bridge grey in daylight"
+    art: >
+      Morning on the empty sea-wall steps: Jaeha (kang_jaeha) sits in his dark grey shirt with no coat, his hair a mess, a
+      dazed half-smile; Ahin's silver ribbon is tied round his RIGHT wrist. Nib (nib, mask) sits beside him, small, holding a
+      can of coffee, staring at him flatly. Gulls; the bay in daylight.
+    acting:
+      kang_jaeha: "slumped on the step, forearms on his knees, staring at nothing with a dazed half-smile"
+      nib: "sitting beside him, a can of coffee in both hands, a long flat stare"
+    hands:
+      kang_jaeha: "forearms on his knees, the silver ribbon tied round his RIGHT wrist, hands loose"
+      nib: "both hands round a can of coffee, four fingers and a thumb each"
+    hand_ref: [gestures_body.png]
+    eyeline: "Nib → Jaeha; Jaeha → nothing"
+    foreground: "the edge of a step, cropped, bottom"
+    calm: top
+    lines:
+      - {who: nib, type: speech, text: "......", side: r}
+      - {who: kang_jaeha, type: speech, text: "DON'T.", side: l}
+      - {who: nib, type: speech, text: "I SAID NOTHING.", side: r}
+
+  - id: END
+    kind: end
+    chibi_gag: "Chibi Lyra and chibi Pim high-five over a tiny notebook full of drawn hearts, while chibi Borro waters a lettuce that has grown in the shape of a heart and chibi Nib stares at the camera, completely flat."
+    hands:
+      lyra: "chibi, RIGHT hand slapping Pim's hand in a high five"
+      pim: "chibi, LEFT hand meeting hers in the high five, the notebook under his other arm"
+      borro: "chibi, RIGHT hand tipping a small watering can"
+      nib: "chibi, arms folded"
