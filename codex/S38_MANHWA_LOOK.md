@@ -59,3 +59,19 @@ Redraw four approved panels with **exactly** their script text and their referen
 - Up to 3 tries per test. Run the hand check, the leg check and the S38 check on each, and write `style_test_v3/REVIEW.json` and `style_test_v3/DONE.md`.
 - Never overwrite or move anything in `chapters_v2/`: the test only writes in `style_test_v3/`.
 - Claude reviews the test. The approved tests become the **style keys**: from chapter 12 on, pass the closest style key as one of the five references whenever a slot is free after the characters, the location and the pose sketch.
+
+## 5. Job S38-K: the style keys (added 2 November after the S38-T review)
+The S38-T test changed the look only a little: the reference images carry their V2 rendering into each new image. Make three **style keys** that show the S38 look clearly, then pass the closest one as a reference on every chapter panel from chapter 12 on.
+
+| Key | Scene (script text from chapter 11) | Shows |
+|---|---|---|
+| K1 | P70: the extreme close-up of Jaeha's eyes with the violet up-light | Face and hair: bold ink, hard cel shadows, flat glow shapes |
+| K2 | P66: Seoa holding up the rice-cake bag with the crowd behind her | A character against a background that steps back: the crowd as flat, pale, simple shapes |
+| K3 | P53: Nib's lunge on the top step sweeping a hound off in a burst of ash | Action: speed lines, a flat jagged burst, spotted blacks |
+
+- Put the S38 STYLE BLOCK at the very start of the prompt, before the scene.
+- Pass only the character's sheet (turnaround or front) and its expressions sheet: no location key, no earlier panel.
+- Add: "The reference images show only the character's design (face, hair, clothes, colours). Ignore their rendering, shading and line style; draw everything in the style described above."
+- Push it further than T1-T4: thick black outer contours, flat colour with one hard shadow, no painted smoke or sky (smoke and sky are flat shapes or a two-colour gradient), the crowd in K2 as simple flat shapes with no faces drawn in detail.
+- Save `style_keys/K1.png`, `style_keys/K2.png` and `style_keys/K3.png` at the panel sizes (K1 and K2 wide 1536×1024, K3 wide 1536×1024), with `style_keys/K<n>_compare.png` (the V2 panel left, the key right, 768 px each). Up to 4 tries each. Write `style_keys/DONE.md`.
+- From chapter 12 on, every panel prompt adds the design-only sentence above, and passes the closest style key as one reference when a slot is free (K1 for close-ups and reactions, K2 for talk and medium shots, K3 for action), once `reviews/S38.md` approves the keys.
