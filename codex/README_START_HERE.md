@@ -1,5 +1,12 @@
 # START HERE (Codex): the rebuild, 25 October 2026
 
+## Changes on 2 November 2026: the manhwa look, pushed further (these override every brief below)
+Chapters 1–10 went up on YouTube and did well. The owner asked for the art to keep moving toward real manhwa and manga style. Read `S38_MANHWA_LOOK.md`:
+1. **Chapter 11 finishes in the current V2 look** so the chapter stays consistent.
+2. **From chapter 12 on, chapter panels use the S38 STYLE BLOCK** (bolder black ink, flat cel colour with no painting on figures, backgrounds that step back every time, graphic manhwa effects at the peaks), after the style test S38-T has been approved in `reviews/S38.md`.
+3. **The S38 check** goes into every chapter-12-on REVIEW entry, after the hand and leg checks.
+4. **The romance side story (S37) is cancelled.** Do not draw it.
+
 ## Changes on 29 October 2026: legs (these override every brief below)
 The owner looked at the S35 fight and stretch references and said the leg positions were unrealistic: real fighting and stretching positions only, as in real manhwa. From now on, for every image (sheets and chapter panels alike):
 1. **The leg checklist is the second check on every image with legs in the frame,** right after hands and arms: `S36_GUILD_MASTER_AND_REAL_LEGS.md` section 1c (knee over toes, feet on the ground, balance, stance width, soft knees, leg length, hips follow the legs, feet and ankles). Record the eight answers in your REVIEW file for each panel with legs.
