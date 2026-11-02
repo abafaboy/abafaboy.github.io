@@ -175,7 +175,7 @@ The boss chamber (`boss_chamber_bells`), made bright:
 **Lyra:**
 - left of centre, her face about 30% across, a little behind him, seen from the thighs up;
 - standing on a fallen stone block in the water, her body and face turned toward the viewer (three-quarters at most);
-- the white longbow drawn, the arrow aimed up past the top-left corner, or the bow held ready at her side;
+- the white longbow held ready at her side in her LEFT hand (as in T3_bait_1), or drawn and aimed up toward the top-RIGHT corner: she is right-handed, so facing the viewer she can only aim toward picture-right (bow in her LEFT hand, the arm extended to picture-right; drawing with her gloved RIGHT hand);
 - looking at the viewer with her smug, teasing half-smile, as if Jaeha's power is her secret; her braid flying over her LEFT shoulder;
 - in field form: a thin river-blue outline and glowing river-blue eyes;
 - her face at least 200 px, its crown no higher than y 300.
@@ -202,7 +202,7 @@ Inside the boss chamber, looking back at its great iron-bound doors as they clos
 
 **Lyra,** in the middle between the doors and Jaeha (her face about 40% across):
 - rising out of a huge river-blue summoning circle that blooms on the water (light only, no symbols), seen from the thighs up;
-- her body and face toward the viewer, the white longbow drawn and aimed up and away to picture-left, a smug, teasing grin at the viewer;
+- her body and face toward the viewer, the white longbow drawn and aimed up and away toward the top-RIGHT corner, over Jaeha's head: she is right-handed, so the bow is in her LEFT hand with that arm extended to picture-right, and her gloved RIGHT hand draws the string to her cheek (T3_bye_1 flipped her hands because she aimed to picture-left; do not repeat that); a smug, teasing grin at the viewer;
 - in field form, river water spraying up round her in a glittering arc;
 - her face at least 180 px, its crown no higher than y 320.
 
