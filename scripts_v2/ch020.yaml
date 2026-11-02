@@ -1338,6 +1338,8 @@ panels:
     hand_ref: [phone_hold.png]
     calm: top
     silent: true
+    ui:
+      - {kind: phone.info_card, "on": screen, title: "BATTERY 2%", text: "SWIPE TO UNLOCK"}  # Claude 2 Nov: the art shows the screen green; without a screen ui the build blacked it out
     sfx:
       - {text: "BZT", style: quiet, at: [0.70, 0.30], size: S, rot: 0}
 
