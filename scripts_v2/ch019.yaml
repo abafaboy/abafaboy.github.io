@@ -993,6 +993,8 @@ panels:
     hand_ref: [pointing.png]
     calm: right
     silent: true
+    ui:
+      - {kind: system.button, "on": float, at: [0.36, 0.085], text: "HARVEST", tilt: 0, wf: 0.32}  # Claude 2 Nov: the art has no button; the fingertip at (0.42, 0.16) touches its lower edge
     sfx:
       - {text: "VMMM", style: quiet, at: [0.40, 0.30], size: S, rot: 0}
 
