@@ -668,10 +668,12 @@ panels:
       kang_jaeha: "only his RIGHT hand, side-on: index finger extended, its blistered bare tip at the glowing button, other fingers curled, thumb on the middle finger; the fingerless glove ends at the knuckles"
     hand_ref: [pointing.png]
     calm: right
+    ui:
+      - {kind: system.button, "on": float, at: [0.778, 0.36], text: "HARVEST", tilt: 0, wf: 0.32}  # Claude 2 Nov: the S38 art had no button; art shifted left 300 px to make room
     lines:
       - {who: kang_jaeha, type: inner, text: "THREE TIMES NOW. ONLY HARVEST. I DON'T LIKE IT."}
     sfx:
-      - {text: "TAP", style: quiet, at: [0.40, 0.40], size: S, rot: 0}
+      - {text: "TAP", style: quiet, at: [0.63, 0.30], size: S, rot: 0}
 
   - id: P33
     recipe: system
