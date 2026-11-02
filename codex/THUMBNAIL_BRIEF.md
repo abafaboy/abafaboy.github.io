@@ -113,3 +113,130 @@ As T1-B's variant 5, with these changes: in the AFTER part Jaeha stands calm and
 - **Tries:** up to four for each keeper. Rejects go to `thumbnails_v2/_rejects/T2_<variant>_<n>_try<k>.png`.
 - **Logs:** the exact prompt and references for every image in `thumbnails_v2/prompts_T2.json`, then `thumbnails_v2/DONE_T2.md` (each keeper, its face sizes, and anything you are unsure of). Then stop.
 - **Check each image before keeping it:** `MANHWA_STYLE_GUIDE.md` section 11, the locks above (sides!), every hand at 2x (`characters_v2/hands/`), the face sizes, bright and saturated, the calm corner or top band, and no text.
+
+## Job T3 (2 November 2026, night): key art for the chapters 1–20 video, in the style of the owner's playlist
+**Why.** Chapters 1–20 go up as one long video, titled *The Guild Locked Him in the Boss Room as BAIT, So He Summoned an ELF ARCHER*. The owner rejected all three thumbnails Claude built from the old key art (`T1B_closeup_1`, `T1B_before_after_from_art`, and a ch18 panel). He told Claude to study the thumbnails in his own YouTube playlist "manhwa", which holds 38 manhwa recap videos, from 7.6K to 1.5M views. The findings below replace the older formula, where the hero reacted, flustered, beside a big glamorous woman.
+
+**What the owner's playlist does (36 thumbnails studied, best first):**
+1. **The hero is the star:** large, waist-up, usually in the right half, with a calm, smug or bored face. He looks like the strongest person in the picture, never flustered and never sweating.
+2. **Everyone else reacts to him.** Rivals, classmates, guild members or women stand smaller at the side or in the foreground, shocked: wide eyes, jaws dropped, sweat drops. Claude writes "??" and "!!" over them.
+3. **One or two huge words and a fat yellow arrow pointing at the hero**, for example "BORED", "NEW STUDENT", "F-RANK", "GENIUS" or "MC". The words sit in a calm patch of sky or light, never on a face.
+4. **A power contrast:** F-RANK against SSS-RANK, level 13 against level ∞, 999,999 damage against 843, a before panel against an after panel.
+5. **Bright, saturated colour, even in a dungeon.** Shafts of daylight, glowing magic, vivid blue and gold, a strong rim light on every figure. Nothing is murky or grey, except the BEFORE half of a split.
+6. **A few big shapes** that read at phone size (320 px wide): the hero's face, one effect and two or three reacting faces.
+
+**Everything in T1-B's rules still holds**, in this order:
+- no text at all;
+- the 16:9 safe area: every face, hand and weapon inside y 80–944 of the 1536×1024 frame;
+- big faces;
+- YouTube's limit: Lyra's face and her bow are the focal point, never her chest, hips or thighs; no low camera;
+- every lock on the right side, as in `CHARACTER_DESIGNS_v2.md` 2.1, 2.4, 2.10 and 2.12;
+- the proportions of `PANEL_BRIEF_v2.md` 4b.
+
+Do not follow T1-B's rule that Lyra's face must be as large as Jaeha's. In T3 Jaeha is the largest face in every image.
+
+**Style.** Start every prompt with the S38 STYLE BLOCK (`S38_MANHWA_LOOK.md`), then add this sentence:
+
+> YouTube thumbnail key art: luminous, highly saturated colour; summoning light and shafts of daylight drawn as crisp graphic glows; every figure with a strong rim light against the background.
+
+**Chapter 16–20 locks.** These scenes are on Bomi's live stream, so they are public:
+- **Borro** wears his husk mask: a featureless white oval husk face (#ECEAE4) tied over his face with cord, with two small round eye-holes, his eyes glowing moss green through them. Pass `chapters_v2/ch018/art/P52.png` as a reference whenever he appears.
+- **Nib** wears his cracked white husk mask over the upper LEFT of his face.
+- **Jaeha** wears his orange vest (outfit key `vest`).
+
+**References.** At most five per call, chosen from:
+- `characters_v2/kang_jaeha/front.png`
+- `characters_v2/kang_jaeha/expressions.png` (his "private" face: narrowed eyes, a small one-sided grin)
+- `characters_v2/lyra/front.png`
+- `characters_v2/lyra/expressions.png`
+- `characters_v2/mok_hangyu/front.png`
+- `characters_v2/mok_hangyu/expressions.png`
+- `characters_v2/borro/front.png` with `chapters_v2/ch018/art/P52.png`
+- `characters_v2/bell_ringer/front.png`
+- `locations_v2/boss_chamber_bells/key.png`
+- `chapters_v2/ch018/art/P33.png` (Lyra's entrance on the bell-giant's shoulder)
+
+Never pass anything from `thumbnails_v2/`, `thumbnails_v3/_rejects/` or another channel's thumbnail.
+
+### Variant `bait` (two keepers): the F-rank bait who is the strongest one in the room
+The boss chamber (`boss_chamber_bells`), made bright:
+- broad shafts of daylight fall through the broken dome and the stained-glass windows (gold, rose and blue);
+- the knee-deep water glitters;
+- small bells hang on chains, with spray in the air.
+
+**Jaeha:**
+- in the right half, his face centred about 68% of the way across;
+- waist-up, with the camera at his chest height;
+- the largest figure, his face at least 300 px from crown to chin, the crown no higher than y 170;
+- his private face: eyes narrowed, a small one-sided grin, chin a little down, completely calm;
+- his RIGHT hand raised beside his face, fingers spread, with river-blue summoning light swirling up from the glove (light only, no symbols);
+- every lock in place: the orange vest with the small T patch on his RIGHT chest, the grey hoodie, the fringe over his LEFT eye, the pencil behind his RIGHT ear, the notebook in his LEFT chest pocket.
+
+**Lyra:**
+- left of centre, about 33% across, a little behind him, seen from the knees up;
+- standing on a fallen stone block in the water;
+- drawing the white longbow to full, aiming off the LEFT edge of the frame;
+- cold and focused, one eye narrowed, her braid flying over her LEFT shoulder;
+- in field form: a thin river-blue outline and glowing river-blue eyes;
+- her face at least 150 px.
+
+**Mok Hangyu and one Black Hound hunter:**
+- in the bottom-left foreground, chest-up, cut off by the bottom edge, their faces inside y 600–940 and at least 130 px each;
+- both staring at Jaeha in disbelief: white showing all round the irises, jaws dropped, sweat drops;
+- Mok's black tower shield with the red hound's head at his side.
+
+**Calm zone:** the top-left (x 0–700, y 80–380) holds only stained-glass light and sunbeams: no face, hand or weapon. Claude puts BAIT and an arrow there.
+
+### Variant `bye` (two keepers): they shut him in, and he waves goodbye
+Inside the boss chamber, looking back at its great iron-bound doors as they close.
+
+**Jaeha:**
+- in the right half, his face centred about 66% across, waist-up, his face at least 300 px;
+- turned three-quarters toward us, looking back over his LEFT shoulder straight at the viewer;
+- a calm, amused half-smile, giving a lazy two-finger salute off his brow with his RIGHT hand (index and middle fingers together, thumb tucked);
+- every lock as above.
+
+**The doors:**
+- on the left (x 0–620), the doors almost shut, leaving a tall bright gap about 260 px wide;
+- in the gap, outside: Mok Hangyu, his camera smile frozen and slipping, eyes wide, and two Black Hound hunters behind him gaping;
+- their faces inside y 330–820, each at least 120 px.
+
+**Behind Jaeha,** in the right background inside the chamber:
+- a huge river-blue summoning circle blooms on the water, drawn as light only;
+- Lyra rises out of it, drawing her bow, her face at least 110 px;
+- far behind, the Drowned Bell-Ringer's dark silhouette, with its violet crack glowing.
+
+**Calm zone:** the top band across the left 60% (x 0–920, y 80–300) holds only light, haze and stone. Claude puts "BAIT" and "bye." there.
+
+### Variant `split` (two keepers): BAIT, then ₩900,000,000
+One frame, split by a jagged diagonal of white-gold light from the top (about 55% across) to the bottom (about 45% across).
+
+**BEFORE, the left part:** grey and desaturated, like a dull press morning (chapter 16 P02).
+- Jaeha chest-up, his face at least 260 px: a stiff, polite smile with a bead of sweat.
+- Mok Hangyu's huge arm clamped round his shoulders. Mok's face at the left edge, partly cut off: a huge fake camera smile, dead eyes.
+- Camera flashes behind them, and the dark mouth of the gate.
+
+**AFTER, the right part:** blazing bright, with shafts of daylight in gold and river blue.
+- Jaeha calm and confident, with the one-sided grin, holding the head-sized faceted violet boss core up in both hands, glowing (chapter 19 P48).
+- Lyra beside him at picture-right, facing the viewer: her elbow on his shoulder, a smug, teasing grin and a wink. Every lock in place.
+- Borro looming behind them in his husk mask, his iron door-shield on his LEFT side.
+
+**Calm zones:**
+- The bottom band (y 760–944) holds no faces. Bodies are fine; keep that band simple. Claude puts a label at the bottom of each half.
+- The top-centre (x 600–940, y 80–200) stays plain, for the chapter tag.
+
+### Files and limits (T3)
+- **Keepers:** `thumbnails_v3/T3_bait_1.png`, `T3_bait_2.png`, `T3_bye_1.png`, `T3_bye_2.png`, `T3_split_1.png` and `T3_split_2.png`, each 1536×1024.
+- **Order:** do `bait_1`, `bye_1` and `split_1` first, then the second keepers.
+- **Tries:** up to four for each keeper. Rejects go to `thumbnails_v3/_rejects/T3_<variant>_<n>_try<k>.png`.
+- **Logs:** the exact prompt and references for every image in `thumbnails_v3/prompts_T3.json`. Then `thumbnails_v3/DONE_T3.md`, listing each keeper, its face sizes, and anything you are unsure of.
+- **Check each image before keeping it:**
+  - `MANHWA_STYLE_GUIDE.md` section 11 and the S38 check;
+  - every hand at 2x;
+  - the locks (sides!);
+  - Jaeha the largest face, calm and confident (reject any try where he looks scared or flustered, except in the BEFORE half);
+  - the reacting faces are clearly shocked;
+  - bright and saturated;
+  - the calm zones are empty;
+  - no text.
+- After the first keeper of each variant, also save a 640×360 crop preview of the 16:9 middle as `thumbnails_v3/preview_<variant>_1.jpg`, so Claude can look at it early.
