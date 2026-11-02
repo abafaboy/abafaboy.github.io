@@ -279,7 +279,15 @@ def find_green(img_bgr, min_area=900):
     d = np.diff(quad, axis=1).ravel()
     tl, br = quad[np.argmin(s)], quad[np.argmax(s)]
     tr, bl = quad[np.argmin(d)], quad[np.argmax(d)]
-    return np.array([tl, tr, br, bl], np.float32), mask
+    out = np.array([tl, tr, br, bl], np.float32)
+    if len({tuple(p) for p in out.tolist()}) < 4:
+        # 2 Nov (ch014 P59, a phone lying diagonally on a parapet): the sum/difference test picked the same corner
+        # twice and gave a zero-height screen. Order the corners by angle round the centre instead (clockwise with
+        # y down), starting from the top-left-most one.
+        c0 = quad.mean(0)
+        q = quad[np.argsort(np.arctan2(quad[:, 1] - c0[1], quad[:, 0] - c0[0]))]
+        out = np.roll(q, -int(np.argmin(q.sum(1))), axis=0).astype(np.float32)
+    return out, mask
 
 
 def quad_size(q):
