@@ -30,3 +30,10 @@
 | 26 | ch007 | P27 | edit (pose guide), KEPT | APPROVED: hanging Nib now has his LEFT arm hanging loose beside his head and hangs by his knees hooked over the beam with his thighs showing. |
 | 27 | ch007 | P46 | edit, KEPT | APPROVED: both of Nib's hands on the lever now show four fingers and a thumb, thumbs on the correct sides. |
 | 28 | ch007 | P57 | edit, KEPT | APPROVED: Bomi lowered on the rail so her eyes sit just below Jaeha's; thighs lengthened and shins shortened (the stilt legs are gone; the shins are still a touch long under the thigh-high socks, acceptable). No speech in the panel. |
+| 29 | ch008 | P07 | edit (pose guide), KEPT | APPROVED: both of Nib's bare feet are now in profile along their sideways shins (no more soles turned to the camera at a wrenched angle). |
+| 30 | ch008 | P33 | edit, KEPT | APPROVED: Jaeha has two arms and two hands: the gloved hand lifting Yerin's fingers now has its own grey forearm from his LEFT elbow; the spare hanging hand is gone; Yerin still grips his RIGHT sleeve. Heads unchanged. |
+| 31 | ch008 | P37 | edit (pose guide), KEPT | APPROVED: the sprint is now contralateral: RIGHT fist swings forward across the chest with the LEFT leg leading; the LEFT arm drives back behind the torso (its hand shows at the back, a little hard to read at full size, fine at video size). Hound unchanged. |
+| 32 | ch008 | P39 | edit, KEPT | APPROVED: Yerin's reaching hand has four fingers and a thumb (the sixth finger is gone). |
+| 33 | ch008 | P57 | edit, KEPT | APPROVED: Nib shrunk to goblin size on the same ramp line beside the kneeling Jaeha. No speech in the panel. |
+| 34 | ch009 | P01 | edit, KEPT | APPROVED: Seoa's floating raised foot is gone; both bare feet stand on the floor under her lean; her grips on Jaeha's shoulder and wrist unchanged. |
+| 35 | ch009 | P02 | edit, KEPT | APPROVED: Nib's gripping arm now has a proper elbow behind Seoa's upper arm and a forearm of normal length down to the fist on her wrist. Heads unchanged. |
