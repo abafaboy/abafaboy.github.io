@@ -10,3 +10,7 @@
 | 6 | ch022 | P59 | edit, KEPT | APPROVED: Nib now goblin-sized, kneeling on the sill and leaning in, RIGHT hand on the table edge, head about 0.7 of Jaeha's; Jaeha, the laptop and the window unchanged. |
 | 7 | ch022 | P61 | edit, KEPT | APPROVED: Nib reduced to about 0.7 of Jaeha's head size behind the laptop, the tracing finger and the flat hand kept; Jaeha unchanged. |
 | 8 | ch022 | P64 | edit, KEPT | APPROVED: the thumb now shows beside the index finger on the notebook; nothing else changed. |
+| 9 | ch021 | P02 | NOT FIXED after 4 tries | OPEN: Yerin still about a head too tall beside Jaeha (REDRAW severity). Left as it was for now; retry later with a different instruction (for example, keep Yerin and straighten Jaeha a head taller, or crop at the waterline). |
+| 10 | ch021 | P05 | edit (pose guide), KEPT | APPROVED: the shoulder ride is now a piggyback: Jaeha on Yerin's back, arms over her shoulders, knees at her waist, her arms under his knees; the rest of the dam march unchanged. |
+| 11 | ch021 | P37 | edit, KEPT | APPROVED: Mok's raised RIGHT hand now has a thumb and four fingers; the bound wrists and the lawyer unchanged. |
+| 12 | ch001 | P03 | edit, KEPT | APPROVED: the flash-forward silhouettes rescaled (the archer about 1.1x Jaeha, Borro about 1.4x) on the same ground line; V2 look and everything else unchanged. |
