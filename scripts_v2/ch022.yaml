@@ -264,7 +264,7 @@ panels:
     lines:
       - {who: lyra, type: speech, text: "YOUR WORLD IS STUPID.", side: l}
     sfx:
-      - {text: "FLOP", style: comic, at: [0.30, 0.60], size: M, rot: -8}
+      - {text: "FLOP", style: comic, at: [0.47, 0.66], size: M, rot: -8}  # 3 Nov QA: on the wall under the ledge Lyra flops onto, not beside Nib's face
 
   - id: P10
     recipe: impact
@@ -291,7 +291,7 @@ panels:
       - {who: kang_seoa, type: shout, text: "TWO MILLION PEOPLE WATCHED. I WAS ONE OF THEM!", side: l}
     sfx:
       - {text: "PAF!", style: impact, at: [0.60, 0.30], size: L, rot: 8}
-      - {text: "MRROW!", style: comic, at: [0.80, 0.70], size: S, rot: 0}
+      - {text: "MRROW!", style: comic, at: [0.35, 0.63], size: S, rot: -6}  # 3 Nov QA: on the leaping cat, not on Jaeha's hip
 
   - id: P11
     kind: title
@@ -739,7 +739,7 @@ panels:
       - {who: kang_seoa, type: speech, text: "IT'S LETTUCE, NIB.", side: r}
       - {who: nib, type: speech, text: "THAT IS EXACTLY WHAT A POISONER WOULD SAY.", side: l}
     sfx:
-      - {text: "HMPH!", style: comic, at: [0.20, 0.30], size: S, rot: -8}
+      - {text: "HMPH!", style: comic, at: [0.44, 0.24], size: S, rot: -8}  # 3 Nov QA: in front of Nib's nose, off his chin
 
   - id: P31
     recipe: talk
@@ -782,7 +782,8 @@ panels:
     calm: top
     silent: true
     sfx:
-      - {text: "MUNCH MUNCH MUNCH", style: comic, at: [0.40, 0.30], size: L, rot: -8}
+      - {text: "MUNCH", style: comic, at: [0.14, 0.45], size: M, rot: -10}  # 3 Nov QA: two MUNCHes round Nib; the long line crossed Borro's mask
+      - {text: "MUNCH", style: comic, at: [0.35, 0.53], size: S, rot: 8}
 
   - id: P33
     recipe: impact
@@ -985,7 +986,7 @@ panels:
     lines:
       - {who: nib, type: whisper, text: "......", side: r}
     sfx:
-      - {text: "SWEAT", style: quiet, at: [0.30, 0.30], size: S, rot: 0}
+      - {text: "SWEAT", style: quiet, at: [0.47, 0.20], size: S, rot: 0}  # 3 Nov QA: beside Jaeha's head, not on his chin
 
   - id: P42
     recipe: talk
@@ -1486,7 +1487,7 @@ panels:
     lines:
       - {who: kang_jaeha, type: inner, text: "Four years. Somebody has been keeping it alive."}
     sfx:
-      - {text: "TAP", style: quiet, at: [0.30, 0.70], size: S, rot: 0}
+      - {text: "TAP", style: quiet, at: [0.27, 0.80], size: S, rot: 0}  # 3 Nov QA: beside the tapping fingers
 
   - id: P65
     recipe: establish
