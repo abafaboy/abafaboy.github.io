@@ -40,3 +40,7 @@
 | 36 | ch009 | P07 | edit, KEPT | APPROVED: Jaeha's LEFT hand flat on the notebook now has its little finger (four fingers and a thumb); the pencil hand unchanged. |
 | 37 | ch009 | P08 | edit, KEPT | APPROVED: Seoa's two hands are separate: RIGHT hand cups her chin, LEFT fingers drape over Jaeha's shoulder, each on its own forearm. Heads unchanged. |
 | 38 | ch010 | P20 | edit, KEPT | APPROVED: crouching Nib shrunk to about two thirds on the same roof plane, his pointing finger stopping short of Jaeha's bruised ankle. Nib's head moved, so it is re-measured in chapters_v2/ch010/art/REVIEW_ZZ_posefix.json. |
+| 39 | ch010 | P51 | edit, KEPT | APPROVED for anatomy: the centre hound has one head, a rounded haunch, its own hind legs and one tail. Note: the edit also dropped the white speed lines at the lower left; this panel is in a fight that the fight remaster (4 Nov) will re-stage anyway. |
+| 40 | ch011 | P11 | edit, KEPT | APPROVED: the white glove on the medic's RIGHT hand now reads as four fingers and a low opposed thumb; the cuff-pulling LEFT hand unchanged. |
+| 41 | ch011 | P34 | edit, KEPT | APPROVED: Bomi's phone grip is now a correct RIGHT-hand grip (thumb on the right, four fingertips wrapping the left edge, wrist from the lower right); green screen kept. |
+| 42 | ch011 | P37 | edit, KEPT | APPROVED: the same correct RIGHT-hand phone grip; the drone picture on the screen kept. |
