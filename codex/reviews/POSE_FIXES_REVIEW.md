@@ -14,3 +14,5 @@
 | 10 | ch021 | P05 | edit (pose guide), KEPT | APPROVED: the shoulder ride is now a piggyback: Jaeha on Yerin's back, arms over her shoulders, knees at her waist, her arms under his knees; the rest of the dam march unchanged. |
 | 11 | ch021 | P37 | edit, KEPT | APPROVED: Mok's raised RIGHT hand now has a thumb and four fingers; the bound wrists and the lawyer unchanged. |
 | 12 | ch001 | P03 | edit, KEPT | APPROVED: the flash-forward silhouettes rescaled (the archer about 1.1x Jaeha, Borro about 1.4x) on the same ground line; V2 look and everything else unchanged. |
+| 13 | ch001 | P28 | edit, KEPT | APPROVED: the shield now stands on Mok's far LEFT side (image right) with its own LEFT arm reaching behind Jaeha to its top; his RIGHT hand still clamps Jaeha's shoulder, so one arm no longer has two hands. Heads unchanged; V2 look kept. |
+| 14 | ch001 | P41 | edit (pose guide), KEPT | APPROVED: the lunge now faces the shield: front knee bent over a boot pointing at the shield, rear leg driving from the ball of the foot; LEFT forearm through a riveted strap, both fists on the inner bars. Heads unchanged. |
