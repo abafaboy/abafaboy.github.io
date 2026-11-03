@@ -70,6 +70,10 @@ def main():
     ap.add_argument("--gop", type=int, default=300, help="keyframe interval in frames (0 = half the frame rate)")
     ap.add_argument("--preset", default="medium")
     ap.add_argument("--max-seconds", type=float, default=0, help="render only the first N seconds (tests)")
+    ap.add_argument("--from-seconds", type=float, default=0, help="start the render at this time (tests)")
+    ap.add_argument("--fx", action="store_true", help="impact motion on action panels: a punch-in zoom and a short camera shake "
+                    "(and a faint flash on impact panels) when the camera arrives on an impact, splash or monster-reveal panel")
+    ap.add_argument("--script", default="", help="chapter script (for panel recipes); default scripts_v2/chNNN.yaml")
     A = ap.parse_args()
     OUT = Path(A.out)
     lay = json.loads((OUT / "layout.json").read_text(encoding="utf-8"))
@@ -129,6 +133,18 @@ def main():
             return y, y
         return clamp(u0 - margin), clamp(u1 + margin - vh)
 
+    # impact motion (4 Nov, owner: "the fight scenes are especially awful as a manhwa reader"): recap channels punch in
+    # and shake on a hit. Recipes come from the chapter script; each panel fires once, when the camera arrives on it.
+    recipe = {}
+    if A.fx:
+        import yaml
+        sp_ = Path(A.script or f"/home/claude/msgf-bible/scripts_v2/ch{A.chapter:03d}.yaml")
+        doc_ = yaml.safe_load(sp_.read_text(encoding="utf-8"))
+        for p_ in (doc_.get("panels", doc_) if isinstance(doc_, dict) else doc_):
+            if isinstance(p_, dict) and p_.get("id"):
+                recipe[str(p_["id"])] = str(p_.get("recipe") or "")
+    FX = {"impact": (0.07, 11.0, 0.32), "splash": (0.04, 0.0, 0.0), "monster-reveal": (0.035, 6.0, 0.0)}  # zoom, shake px, flash
+    fx_events, fx_seen = [], set()
     audio, keys, t, missing = [], [], 0.0, 0
     for e in rec:
         sp = span_for(str(e.get("panel", "")))
@@ -145,6 +161,10 @@ def main():
             y0 = max(y0, keys[-1][1])  # never scroll back up
         y1 = max(y1, y0)
         keys.append((t0, y0))
+        pid_ = str(e.get("panel", ""))
+        if A.fx and pid_ not in fx_seen and recipe.get(pid_) in FX:
+            fx_seen.add(pid_)
+            fx_events.append((t0, FX[recipe[pid_]]))
         t1 = t + dur - 0.35
         if t1 > t0 + 0.15:  # hold the framing (or pan slowly through a tall panel) while the entry is read
             keys.append((t1, y1))
@@ -173,7 +193,7 @@ def main():
 
     gop = A.gop if A.gop > 0 else max(1, A.fps // 2)
     cmd = ["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "bgr24", "-s", f"{A.w}x{A.h}", "-r", str(A.fps), "-i", "-",
-           "-i", str(OUT / "recap.wav"),
+           "-ss", f"{A.from_seconds:.3f}", "-i", str(OUT / "recap.wav"),
            "-vf", "scale=out_color_matrix=bt709:out_range=tv:flags=lanczos+accurate_rnd+full_chroma_int,format=yuv420p",
            "-c:v", "libx264", "-preset", A.preset, "-tune", "animation", "-crf", str(A.crf), "-profile:v", "high",
            "-g", str(gop), "-keyint_min", str(min(gop, max(1, A.fps // 2))), "-bf", "2", "-colorspace", "bt709", "-color_primaries", "bt709", "-color_trc", "bt709",
@@ -187,8 +207,52 @@ def main():
     dither = np.random.default_rng(7).uniform(-1.0, 1.0, (A.h, A.w, 3)).astype(np.float32)
     frame = np.zeros((A.h, A.w, 3), np.uint8)
     last_y = None
+    fxr = np.random.default_rng(11)
+    fx_t = np.array([q[0] for q in fx_events]) if fx_events else np.zeros(0)
+
+    def fx_at(tt):
+        """(zoom, dx, dy, flash) of the newest impact within 0.6 s, or None."""
+        if not len(fx_t):
+            return None
+        i = np.searchsorted(fx_t, tt, side="right") - 1
+        if i < 0 or tt - fx_t[i] > 0.6:
+            return None
+        tau = tt - fx_t[i]
+        zm, sh, fl = fx_events[i][1]
+        z = 1 + zm * np.exp(-tau / 0.16)
+        amp = sh * np.exp(-tau / 0.11)
+        dx, dy = (fxr.uniform(-1, 1) * amp, fxr.uniform(-1, 1) * amp) if amp > 0.5 else (0.0, 0.0)
+        return z, dx, dy, fl * np.exp(-tau / 0.045)
+
     for f in range(int(total * A.fps)):
+        if f < int(A.from_seconds * A.fps):
+            continue
         y0 = int(round(view_at(f / A.fps)))
+        fx = fx_at(f / A.fps)
+        if fx is not None:  # an impact: rebuild this frame with the punch-in, shake and flash
+            crop = strip[y0:y0 + vh]
+            if crop.shape[0] < vh:
+                crop = np.vstack([crop, pad[: vh - crop.shape[0]]])
+            tc = thumb[y0 // q: y0 // q + max(1, vh // q)]
+            if tc.shape[0] < tpad.shape[0]:
+                tc = np.vstack([tc, tpad[: tpad.shape[0] - tc.shape[0]]])
+            small = cv2.resize(tc, (16, 9), interpolation=cv2.INTER_AREA).astype(np.float32) * 0.45
+            bg = cv2.resize(small, (A.w, A.h), interpolation=cv2.INTER_CUBIC)
+            cv2.add(bg, dither, dst=bg)
+            frame[:] = cv2.convertScaleAbs(bg)
+            z, dx, dy, fl = fx
+            ch_, cw_ = crop.shape[0], crop.shape[1]
+            zh, zw = int(round(ch_ / z)), int(round(cw_ / z))
+            yy, xx = (ch_ - zh) // 2, (cw_ - zw) // 2
+            cen = cv2.resize(crop[yy:yy + zh, xx:xx + zw], (cw, A.h), interpolation=cv2.INTER_LANCZOS4 if z * sc > 1 else cv2.INTER_AREA)
+            if dx or dy:
+                cen = cv2.warpAffine(cen, np.float32([[1, 0, dx], [0, 1, dy]]), (cw, A.h), borderMode=cv2.BORDER_REPLICATE)
+            if fl > 0.01:
+                cen = cv2.addWeighted(cen, 1 - fl, np.full_like(cen, 255), fl, 0)
+            frame[:, x0:x0 + cw] = cen
+            last_y = None
+            ff.stdin.write(frame.data)
+            continue
         if y0 != last_y:  # held frames reuse the previous image
             crop = strip[y0:y0 + vh]
             if crop.shape[0] < vh:
@@ -205,6 +269,8 @@ def main():
         ff.stdin.write(frame.data)
     ff.stdin.close()
     ff.wait()
+    if A.fx:
+        print(f"impact motion on {len(fx_events)} panels")
     print(f"ch{A.chapter}: {len(rec)} entries, {missing} without a panel, {total / 60:.1f} min, {A.w}x{A.h}@{A.fps} "
           f"(strip x{k_:g}, view {vh}px, frame scale {sc:.3f}) -> {OUT / 'recap.mp4'}")
 
