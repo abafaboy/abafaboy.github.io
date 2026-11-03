@@ -1198,6 +1198,7 @@ def main():
     # A visible speaker's bubble goes on the side where they are drawn and its tail aims at their head; a speaker who
     # is not drawn in the panel (or is marked offpanel:) gets an off-panel tail that points out past the panel edge.
     heads = {}
+    keeps = {}  # pid -> boxes the SFX and windows keep clear of besides faces (contact points; the script's `keep`)
     for rv in sorted(ART.glob("REVIEW*.json"), key=lambda q: (q.name != "REVIEW.json", q.name)):
         try:
             doc_ = json.loads(rv.read_text(encoding="utf-8"))
@@ -1208,6 +1209,11 @@ def main():
                 if isinstance(v_, dict) and isinstance(v_.get("heads"), dict) and v_["heads"]:
                     # an empty heads map (a panel an art chat logged but did not finish) must not erase an earlier review's heads
                     heads[pid_] = v_["heads"]
+                # fight remaster (4 Nov): the art chat boxes the contact point of a hit; SFX and windows keep off it
+                if isinstance(v_, dict) and v_.get("contact"):
+                    cb_ = v_["contact"]
+                    cb_ = [cb_] if cb_ and not isinstance(cb_[0], (list, tuple)) else cb_
+                    keeps[pid_] = [b for b in cb_ if isinstance(b, (list, tuple)) and len(b) == 4]
         except Exception as ex_:
             warnings.append(f"REVIEW FILE UNREADABLE: {rv.name}: {ex_}")
     SPEAKER_TYPES = {"speech", "nervous", "thought", "whisper", "shout", "menace", "monster"}
@@ -1231,6 +1237,8 @@ def main():
                 n_aim += 1
     print(f"speakers: {n_aim} tails aimed at drawn heads, {n_off} off-panel lines, review for {len(heads)} panels")
 
+    keep_script = {str(p_.get("id")): (p_.get("keep") or []) for p_ in panels if isinstance(p_, dict)}
+
     def faces_attr(pid_):
         # every head box the panel review located, for the SFX layout to keep clear of (art fractions x0, y0, x1, y1)
         # A box covering most of the panel is not a head (a review that boxed a whole close-up or a void); it would
@@ -1238,6 +1246,11 @@ def main():
         fs = [[round(float(v), 4) for v in b] for b in (heads.get(pid_) or {}).values()
               if isinstance(b, (list, tuple)) and len(b) == 4
               and (float(b[2]) - float(b[0])) * (float(b[3]) - float(b[1])) <= 0.5]
+        # contact points (REVIEW "contact") and the script's `keep` boxes (a hand, a weapon, a waterline) count as faces
+        # for the SFX and window layout: nothing is lettered over them (fight remaster, 4 Nov)
+        for b in (keeps.get(pid_) or []) + list((keep_script.get(pid_) or [])):
+            if isinstance(b, (list, tuple)) and len(b) == 4 and (float(b[2]) - float(b[0])) * (float(b[3]) - float(b[1])) <= 0.5:
+                fs.append([round(float(v), 4) for v in b])
         return f" data-faces='{json.dumps(fs)}'" if fs else ""
 
     with sync_playwright() as pw:
