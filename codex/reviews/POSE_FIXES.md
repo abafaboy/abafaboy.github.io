@@ -57,6 +57,19 @@ The owner watched the published chapters and said some body positions are still 
 | 23 | P38 | FIX | Nib (vs Jaeha, Yerin) | Nib about 12-20% too large: head top at Jaeha's chest pocket (~0.67 of his height) although Jaeha stands nearer the camera; design is head at Jaeha's belt (0.59, as in P10). Nib's head as big as Yerin's at the same depth. | Scale Nib to ~85% about his feet in the composite and paint the gap, or redraw with his head at Jaeha's belt line. |
 | 24 | P40 | FIX | Nib | Hand over the bowl has six digits: four lit fingers plus two shadowed fingertips tucked between the 1st/2nd and 2nd/3rd fingers. | Paint out one shadowed tucked digit so the hand reads four fingers and a thumb. |
 
+## ch006
+
+(Added after the last reviewer, ch005-006, reported; entries 77 onward.)
+
+| # | panel | severity | who | what is wrong | fix |
+|---|---|---|---|---|---|
+| 77 | P01 | REDRAW | Client leader and spearman (far right of the party) | Drawn ~0.6 of their size (~100-110 cm; 147 and 136 px vs Jaeha 257 px) while walking level with the party (feet y720-723 vs 736). Horizon of the 1.6 m eye-level camera at ~y505; their heads at y576-584, level with Bomi's chest. Yerin (~136 cm) and Bomi (~147 cm) also 10-13% small. | Scale both hunters ~1.6x about their feet (Yerin and Bomi ~1.1x) so all standing heads meet the horizon. |
+| 78 | P09 | REDRAW | Nib (behind Jaeha) | Nib 516 px vs Jaeha 797 px with feet 56 px higher (further back), yet his head top is at Jaeha's chest pocket instead of his belt: 124-140 cm (spec 105), 18-33% too big. | Scale Nib ~0.75-0.8 about his feet so his head lands below Jaeha's belt line. |
+| 79 | P14 | FIX | Jaeha (crouching) | Three boots under the squat: heel at left, black boot in the middle, and a third brown laced boot pointing right under his right knee (orig ~x885-945,y835-865). | Paint out the brown boot (water/shadow) so two feet remain. |
+| 80 | P19 | REDRAW | Client leader | Three legs: a bent leg with a boot at lower left (orig ~x160-260,y900-945), a straight striped tracksuit leg down the middle to the bottom edge with its own boot (~x280-380,y1000-1024), and a third bent leg with a boot at right (~x375-475,y895-930). | Remove the middle (or right) leg and repaint trousers/water so he crouches on two legs, feet about shoulder width, knees bent. |
+| 81 | P37 | REDRAW | Nib vs Bomi and the client hunters | Nib 627 px tall (head y333, feet y960) behind Bomi: 120-140 cm from any plausible horizon; head level with Bomi's shoulders on screen; as tall as the bent-over client leader behind him (both hunters come out 0.9-1.4 m standing). | Scale Nib ~0.8 about his feet and the two hunters ~1.3x, or redraw so Nib is about half the leader's height. |
+| 82 | P44 | REDRAW | Client spearman (culvert mouth) | 242 px tall, smaller than Nib (342 px) who stands a step or two in front of him on the same flat floor; head top level with Nib's eyes; works out ~0.7-1.2 m against Yerin/Nib and Jaeha/leader. | Scale him ~1.6-2x about his feet and repaint the dark tunnel behind. |
+
 ## ch007
 
 | # | panel | severity | who | what is wrong | fix |
