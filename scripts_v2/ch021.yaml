@@ -103,7 +103,7 @@ panels:
       - {who: lyra, type: speech, text: "LEAVE THEM. THEY CAME DOWN HERE TO KILL YOU.", side: l}
       - {who: kang_jaeha, type: speech, text: "EVERYONE COMES BACK. THAT'S THE ONLY RULE I HAVE.", side: r}
     ui:
-      - {kind: system.notice_small, "on": float, at: [0.5, 0.90], text: "[GATE CLOSING · 02:00]"}
+      - {kind: system.notice_small, "on": float, at: [0.73, 0.04], wf: 0.40, text: "[GATE CLOSING · 02:00]"}  # 3 Nov QA: top right, clear of the hunters' faces and of Jaeha's bubble tail (at the top centre the tail cut through "CLOSING")
 
   - id: P03
     recipe: impact
@@ -237,7 +237,7 @@ panels:
     calm: top
     silent: true
     sfx:
-      - {text: "clap... clap...", style: quiet, at: [0.70, 0.40], size: S, rot: 0}
+      - {text: "clap... clap...", style: quiet, at: [0.50, 0.11], size: S, rot: 0}  # 3 Nov QA: above the crowd, over the clapping man; at 0.70 it slid onto the reporter's chin
 
   - id: P08
     recipe: impact
