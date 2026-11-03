@@ -1726,6 +1726,10 @@ def main():
             for sx_ in p.get("sfx") or []:
                 st = sx_.get("style", "impact")
                 size = {"S": 46, "M": 78, "L": 118, "XL": 176}.get(str(sx_.get("size", "M")), 78)
+                # fight remaster (4 Nov): XL covered the fighter wherever it landed (5 auditors: 54% of impact SFX were XL,
+                # most on the contact point). XL is kept only for a chapter's 1-3 peaks, marked `peak: true`; otherwise L.
+                if str(sx_.get("size", "M")) == "XL" and not sx_.get("peak"):
+                    size = 118
                 rot = float(sx_.get("rot", -6))
                 x, y = sx_.get("at", [.5, .5])
                 txt = str(sx_["text"])
