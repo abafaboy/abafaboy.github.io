@@ -295,7 +295,7 @@ The owner's verdict on the last manhwa was that body positions, emotions and dia
   - Their face is a black-violet hole with cracked edges leaking violet ash.
   - It glows danger red only when the script says they are hostile.
 - **Beast-shaped bosses** (the drowned hound in chapter 8, the serpent in chapter 12, and so on) carry only a small black-violet crack leaking violet ash somewhere on the body. That way the chapter 50 reveal, that they were people too, still lands.
-- **Violence happens between panels.** No gore close-ups.
+- **Contact is shown; gore is not** (4 Nov 2026, replaces "violence happens between panels"): the blow connects on-panel; no gore close-ups; blood only as a small spray or splash. See `S39_FIGHTS.md`.
 
 ## 10. Prompt kit
 

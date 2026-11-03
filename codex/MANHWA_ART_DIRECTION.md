@@ -35,7 +35,7 @@ Scripts now name a `recipe` on each panel. Draw the recipe exactly; the `art` fi
 | `name-card` | tall or wide | bust or half body, three-quarter view, slight low angle | the character's look and attitude, iconic pose | gradient in the character's name-card colours (`CHARACTER_DESIGNS_v2.md`) | one clear side (about 35% of the width) for the name card |
 | `monster-reveal` | full or tall | low angle from behind the MC | the creature FILLS the frame; the MC is small in the foreground, back to us | dark; one red accent | calm top-left |
 | `anticipation` | inset or tall | three-quarter, foreshortened | the wind-up a moment before the hit: coiled body, weapon drawn back | muted, tension lines | small |
-| `impact` | wide, tall or bleed, tilted 10–20° | dynamic diagonal | the hit at its peak: speed lines radiating from the contact point, debris, speed lines along the moving limb (in V3, a painted motion smear) | white flash or hot orange or red | **large SFX space along the diagonal** |
+| `impact` | tall or bleed for a peak, otherwise wide; the dutch tilt (10–20°) is drawn INSIDE the picture, the frame stays square | dynamic diagonal, often foreshortened toward the camera | the hit at its peak: the blow CONNECTS on-panel, speed lines radiating from the contact point, debris, speed lines along the moving limb (in V3, a painted motion smear); background dropped to speed lines, a flat colour or a gradient | white flash or hot orange or red | **a small clear space BESIDE the contact (never on it) for one SFX** (S39, 4 Nov) |
 | `aftermath` | wide | eye level, still | dust settling, a body on the ground, the winner's back; no motion lines | drawn, quiet | calm at the top |
 | `tone-flip` | strip, then tall | extreme close-up, then empty | (a) a glowing eye or hollow on black; (b) a tall panel of streaked dark speed texture with NO figure (the letterer puts a giant SFX there) | black or red | (b) is all SFX space |
 | `summon-arrival` | tall or bleed | low angle | a cyan floor circle, a vertical seam of light, the summon stepping through (ART_BIBLE A8); in a fight, the summon blocking a strike mid-motion | dark scene, cyan light on faces | calm at the top |
@@ -60,7 +60,7 @@ Scripts now name a `recipe` on each panel. Draw the recipe exactly; the `art` fi
    - **Impact radials:** short, thick and burst-shaped at the contact point.
    - No airbrush blur and no depth-of-field.
 6. **Debris and particles appear only at an impact,** a summon or a gate (`MANHWA_STYLE_GUIDE.md` section 7).
-7. **Violence happens between panels.** Show the moment before, then a `tone-flip` or `impact`, then the aftermath.
+7. **Contact is shown; gore is not** (replaced 4 Nov 2026; the old rule "violence happens between panels" made the fights skip every hit). In an impact panel the blow connects on-panel: a blade meeting hide or claw, a skull on a shield, jaws on a sleeve, a knife entering a monster's neck as a burst of violet ash. Monsters burst into ash outward from the contact point. On people, blood is only a small spray or a splash; no wound close-ups, no severed parts; human deaths stay off-panel or in silhouette. See `S39_FIGHTS.md`.
    - No gore close-ups. Blood is a splash on a wall or a silhouette.
    - The platform-safe version is the only version.
 8. **Size means importance.** The biggest or tallest panel in a chapter is its peak beat. Use 1–3 `impact`, `splash` or bleed panels per chapter and spend your best effort there.
