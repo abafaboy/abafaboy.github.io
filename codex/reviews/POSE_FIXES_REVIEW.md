@@ -24,3 +24,9 @@
 | 20 | ch003 | P25 | edit, KEPT | APPROVED: the stray gloved hand on a bare forearm now has Jaeha's grey hoodie sleeve with a ribbed cuff, so it reads as his LEFT hand at his chest; Yerin's grip unchanged. |
 | 21 | ch003 | P39 | edit (pose guide), KEPT | APPROVED: Yerin's casting stance is now about two shoulder widths with both knees bent over her toes (no more straight-legged upside-down V); crouched Nib shrunk to about 0.75 of her head size on the same floor line. No speech in the panel. |
 | 22 | ch003 | P55 | edit, KEPT | APPROVED: the stray boot and extra shin under Nib's cloak are gone; two bare legs in a braced stance, one foot hidden by Jaeha's shoulder. Heads unchanged. |
+| 23 | ch005 | P38 | redraw (pose guide), KEPT | APPROVED: Nib shrunk on the same floor line; his head top now sits near Jaeha's belt (he stands a little further back); Yerin, Jaeha and the foreground unchanged. Speakers' heads unchanged. |
+| 24 | ch005 | P40 | edit, KEPT | APPROVED: Nib's hand over the bowl now has four long fingers and one thumb (the two extra tucked digits are gone). |
+| 25 | ch007 | P03 | edit, KEPT | APPROVED: Jaeha's RIGHT gloved hand has its little finger back (four fingers and a thumb). |
+| 26 | ch007 | P27 | edit (pose guide), KEPT | APPROVED: hanging Nib now has his LEFT arm hanging loose beside his head and hangs by his knees hooked over the beam with his thighs showing. |
+| 27 | ch007 | P46 | edit, KEPT | APPROVED: both of Nib's hands on the lever now show four fingers and a thumb, thumbs on the correct sides. |
+| 28 | ch007 | P57 | edit, KEPT | APPROVED: Bomi lowered on the rail so her eyes sit just below Jaeha's; thighs lengthened and shins shortened (the stilt legs are gone; the shins are still a touch long under the thigh-high socks, acceptable). No speech in the panel. |
