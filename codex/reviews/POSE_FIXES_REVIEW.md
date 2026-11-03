@@ -37,3 +37,6 @@
 | 33 | ch008 | P57 | edit, KEPT | APPROVED: Nib shrunk to goblin size on the same ramp line beside the kneeling Jaeha. No speech in the panel. |
 | 34 | ch009 | P01 | edit, KEPT | APPROVED: Seoa's floating raised foot is gone; both bare feet stand on the floor under her lean; her grips on Jaeha's shoulder and wrist unchanged. |
 | 35 | ch009 | P02 | edit, KEPT | APPROVED: Nib's gripping arm now has a proper elbow behind Seoa's upper arm and a forearm of normal length down to the fist on her wrist. Heads unchanged. |
+| 36 | ch009 | P07 | edit, KEPT | APPROVED: Jaeha's LEFT hand flat on the notebook now has its little finger (four fingers and a thumb); the pencil hand unchanged. |
+| 37 | ch009 | P08 | edit, KEPT | APPROVED: Seoa's two hands are separate: RIGHT hand cups her chin, LEFT fingers drape over Jaeha's shoulder, each on its own forearm. Heads unchanged. |
+| 38 | ch010 | P20 | edit, KEPT | APPROVED: crouching Nib shrunk to about two thirds on the same roof plane, his pointing finger stopping short of Jaeha's bruised ankle. Nib's head moved, so it is re-measured in chapters_v2/ch010/art/REVIEW_ZZ_posefix.json. |
