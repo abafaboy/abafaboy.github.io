@@ -1200,7 +1200,11 @@ def main():
     heads = {}
     for rv in sorted(ART.glob("REVIEW*.json"), key=lambda q: (q.name != "REVIEW.json", q.name)):
         try:
-            for pid_, v_ in json.loads(rv.read_text(encoding="utf-8")).items():
+            doc_ = json.loads(rv.read_text(encoding="utf-8"))
+            # some art chats nest the panels under "panels" (3 Nov: ch022 REVIEW_G.json); read both layouts
+            if isinstance(doc_, dict) and isinstance(doc_.get("panels"), dict):
+                doc_ = doc_["panels"]
+            for pid_, v_ in doc_.items():
                 if isinstance(v_, dict) and isinstance(v_.get("heads"), dict) and v_["heads"]:
                     # an empty heads map (a panel an art chat logged but did not finish) must not erase an earlier review's heads
                     heads[pid_] = v_["heads"]
