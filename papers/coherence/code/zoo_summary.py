@@ -4,8 +4,9 @@
 
 For every family (and every family x p x train_frac cell): number of models, distribution of the
 error rate eps over ALL inputs, counts in eps bins of width 0.1, and how many models are exactly
-correct.  Also reports lambda = 1 - eps/(1 - 1/q) and delayed-generalisation statistics per run.
-Deterministic (no randomness); reads only zoo/index.json.
+correct.  Also reports lambda = 1 - eps/(1 - 1/q), delayed-generalisation statistics per run, and
+the exact "correctability coverage": in how many models the truth is the strict mode of the vote
+channel at every input.  Deterministic (no randomness); reads zoo/index.json and the tables.
 """
 import json
 import os
@@ -83,6 +84,29 @@ def main():
             [v["first_snapshot_step_eps_below_0p01"] / v["first_snapshot_step_train_acc_1"] for v in both])) if both else None,
         min_ratio=float(min(v["first_snapshot_step_eps_below_0p01"] / v["first_snapshot_step_train_acc_1"] for v in both)) if both else None,
         max_ratio=float(max(v["first_snapshot_step_eps_below_0p01"] / v["first_snapshot_step_train_acc_1"] for v in both)) if both else None)
+    # exact correctability coverage: is the truth the STRICT mode of the vote channel at every input?
+    # (twirled channel of the 2-query BLR vote for add / lin, 4-query bilinear vote channel for mul)
+    cov = {}
+    for r in recs:
+        E = core.error_table(r["id"])
+        C = core.bilinear_counts(E, r["q"]) if r["task"] == "mul" else core.twirled_counts(E, r["q"])
+        strict = C[:, 0] > C[:, 1:].max(1)
+        d = cov.setdefault(r["family"], dict(n_models=0, n_all_inputs_strict_mode=0, n_all_strict_and_eps_gt_0=0,
+                                             n_some_input_not_strict=0, max_eps_all_strict=0.0,
+                                             min_eps_some_input_not_strict=None))
+        d["n_models"] += 1
+        if strict.all():
+            d["n_all_inputs_strict_mode"] += 1
+            d["n_all_strict_and_eps_gt_0"] += int(r["eps"] > 0)
+            d["max_eps_all_strict"] = max(d["max_eps_all_strict"], r["eps"])
+        else:
+            d["n_some_input_not_strict"] += 1
+            m = d["min_eps_some_input_not_strict"]
+            d["min_eps_some_input_not_strict"] = r["eps"] if m is None else min(m, r["eps"])
+    out["correctability_coverage"] = dict(
+        note="exact enumeration via core.twirled_counts (add, lin) / core.bilinear_counts (mul); a model counts as "
+             "'all inputs strict' when the truth is the strict mode of the vote channel at every input of the group",
+        by_family=cov)
     out["runtime_seconds"] = round(time.time() - t0, 3)
     os.makedirs(core.RESULTS_DIR, exist_ok=True)
     path = os.path.join(core.RESULTS_DIR, "zoo_summary.json")
@@ -96,7 +120,11 @@ def main():
     dg = out["delayed_generalisation"]
     print(f"delayed generalisation (add/grok + mul): {dg['n_runs_reaching_eps_below_0p01']} of {dg['n_runs']} runs reach eps < 0.01; "
           f"median (generalise step)/(fit step) = {dg['median_ratio_generalise_step_over_fit_step']}")
-    print(f"wrote {path}")
+    for fam, d in cov.items():
+        print(f"correctability {fam:9s}: all inputs strict mode in {d['n_all_inputs_strict_mode']} of {d['n_models']} models "
+              f"({d['n_all_strict_and_eps_gt_0']} with eps > 0; largest such eps {d['max_eps_all_strict']:.4f}); "
+              f"smallest eps with a non-strict input: {d['min_eps_some_input_not_strict']}")
+    print(f"wrote {path}  ({out['runtime_seconds']} s)")
 
 
 if __name__ == "__main__":
