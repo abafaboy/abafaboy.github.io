@@ -13,6 +13,16 @@ subprocess.run([
     "--to", "html5", "--standalone", "--template", str(tpl), "--mathml", "--toc", "--toc-depth=1",
     "--number-sections", "--section-divs", "--wrap=none",
 ], check=True)
+# Keep punctuation attached to inline math: browsers may otherwise break the line
+# between a MathML element and the comma or full stop that follows it.
+import re
+html = out.read_text()
+_inline = r'<math(?![^>]*display="block")[^>]*>.*?</math>'
+_lead, _trail = r'[(\u2018\u201c]+', r'[.,;:!?)\u2019\u201d]+'
+html = re.sub(rf'({_lead})?({_inline})({_trail})?',
+              lambda m: m.group(0) if not (m.group(1) or m.group(3))
+              else f'<span class="nw">{m.group(0)}</span>', html, flags=re.S)
+out.write_text(html)
 print("wrote", out)
 
 if "--no-pdf" in sys.argv or not shutil.which("node"):
