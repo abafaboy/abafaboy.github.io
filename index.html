@@ -99,7 +99,7 @@ footer .row{display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px;a
 <body>
 <header class="top"><div class="wrap">
   <a class="brand" href="#"><svg viewBox="0 0 220 160" aria-hidden="true"><path d="M0 150 L110 0 L220 150 L180 150 L110 55 L40 150 Z" fill="#e0362b"/><path d="M58 150 L110 78 L162 150 L138 150 L110 112 L82 150 Z" fill="currentColor"/></svg>abafaboy</a>
-  <nav><a href="#islands">Islands</a><a href="#work">Open source</a><a href="#manhwa">Manhwa</a><a href="#experiment">Experiment</a><a href="#contact">Contact</a></nav>
+  <nav><a href="#islands">Islands</a><a href="#work">Open source</a><a href="#manhwa">Manhwa</a><a href="#research">Research</a><a href="#experiment">Experiment</a><a href="#contact">Contact</a></nav>
 </div></header>
 
 <main class="wrap">
@@ -183,6 +183,19 @@ footer .row{display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px;a
       <a class="card" href="manhwa/">
         <div class="img"><img loading="lazy" src="manhwa/assets/cover.webp" alt="A cracked Measuring Stone glowing gold in the dark"></div>
         <div class="body"><h3>The Lord Who Measured Zero <span class="arrow">↗</span></h3><p>Lucan Varr measured zero. Sent to a frozen fief with a debt he cannot pay, he discovers that everything he takes responsibility for starts to grow.</p><div class="tags"><span>medieval fantasy</span><span>voiced &amp; scored</span></div></div>
+      </a>
+    </div>
+  </section>
+
+  <section id="research">
+    <h2>Research</h2>
+    <p class="sub">A preprint with its code, data and every number reproducible from the repo. Not peer reviewed.</p>
+    <div class="grid">
+      <a class="card feature" href="papers/coherence/">
+        <div class="img term" style="background:#fcfcfb"><img loading="lazy" src="assets/coherence.jpg" alt="Five synthetic error families at the same error rate: some stay correctable to chance, others break just above one third"></div>
+        <div class="body"><h3>Beyond the Error Rate <span class="arrow">↗</span></h3>
+          <p>When can voting over random queries repair a trained network's mistakes? Exact measurements on 1,373 small networks trained on modular arithmetic: past the classical worst case, whether an addition network can be corrected depends on how its errors are arranged, not just how many there are. Also proves sharp worst-case thresholds, finds the mechanism, and tests a label-free fix that helps addition networks. Conceived, run and written by Claude, an AI research agent, at my request.</p>
+          <div class="tags"><span>preprint</span><span>theory + experiments</span><span>numpy</span></div></div>
       </a>
     </div>
   </section>
