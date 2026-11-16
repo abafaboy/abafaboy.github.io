@@ -9,6 +9,7 @@ function recursion).  Monte Carlo is used only as a cross-check and its sample
 sizes are recorded.
 
 Run (from anywhere):   python3 code/theory_checks.py
+                       python3 code/theory_checks.py --figure-only   (redraw Figure 1 from the JSON)
 Uses 2 worker processes, OMP_NUM_THREADS=1, fixed seeds; deterministic.
 Writes   results/theory_checks.json
          figures/fig_phase_diagram.svg / .png
@@ -1276,53 +1277,62 @@ def make_figure(c4, path):
     import paperstyle as ps
     ps.apply()
     fam = c4["families"]
-    series = [("incoherent", "Scattered wrong values (incoherent)", ps.SERIES[0]),
-              ("offset", "Constant offset on a random set", ps.SERIES[1]),
-              ("second_hom", "Second homomorphism on a random set", ps.SERIES[2]),
-              ("band_odd", "Constant offset h on a band, 2h \u2260 0", ps.SERIES[3]),
-              ("band_2torsion", "Constant offset h on a band, 2h = 0", ps.SERIES[4])]
-    fig, axes = plt.subplots(1, 2, figsize=(11.0, 4.4), gridspec_kw={"wspace": 0.25})
+    series = [("incoherent", "Scattered values (incoherent)", ps.SERIES[0]),
+              ("offset", "Offset on a random set", ps.SERIES[1]),
+              ("second_hom", "Second homomorphism", ps.SERIES[2]),
+              ("band_odd", "Offset on a band, 2h \u2260 0", ps.SERIES[3]),
+              ("band_2torsion", "Offset on a band, 2h = 0", ps.SERIES[4])]
+    fig, axes = plt.subplots(1, 2, figsize=(7.4, 3.9), gridspec_kw={"wspace": 0.32})
     refs = [(0.25, "1/4"), (1 / 3, "1/3"), (0.5, "1/2"), (30 / 31, "chance")]
     handles = []
-    for ax, key, ylab in ((axes[0], "correctable_fraction_mean", "Fraction of inputs with truth as strict mode"),
-                          (axes[1], "worst_margin_mean", "min over inputs of  T$_x$(0) \u2212 max$_h$ T$_x$(h)")):
+    for ax, key, ylab in ((axes[0], "correctable_fraction_mean", "fraction of inputs correctable"),
+                          (axes[1], "worst_margin_mean", "worst-input margin")):
         for xv, lab in refs:
             ax.axvline(xv, color=ps.REFERENCE, lw=0.8, ls=(0, (4, 3)), zorder=1)
         handles = []
         for i, (k, lab, col) in enumerate(series):
             d = fam[k]
             xs = d.get("realised_error_rate_mean", d["eps"])          # x axis = realised error rate
-            ln, = ax.plot(xs, d[key], color=col, lw=2.0, label=lab, zorder=3 + (5 - i),
-                          drawstyle="steps-mid" if k.startswith("band") else "default")
+            if k.startswith("band"):
+                # band families are defined only at the grid points eps = w/n. Draw each jump at the grid
+                # point with the lower value, so every low value covers exactly its own grid points (a break
+                # starts at the first broken grid point and ends at the last one); dots mark the grid points.
+                X, Y = [xs[0]], [d[key][0]]
+                for x0, x1, y0, y1 in zip(xs[:-1], xs[1:], d[key][:-1], d[key][1:]):
+                    if y1 < y0:
+                        X += [x1, x1]; Y += [y0, y1]
+                    elif y1 > y0:
+                        X += [x0, x1]; Y += [y1, y1]
+                    else:
+                        X += [x1]; Y += [y1]
+                ln, = ax.plot(X, Y, color=col, lw=1.6, label=lab, zorder=3 + (5 - i))
+                ax.plot(xs, d[key], ls="none", marker="o", markersize=2.2, markeredgewidth=0, color=col,
+                        zorder=3 + (5 - i))
+            else:
+                ln, = ax.plot(xs, d[key], color=col, lw=1.8, label=lab, zorder=3 + (5 - i))
             handles.append(ln)
         ax.set_xlim(0, 1.0)
-        ax.set_xlabel("Error rate \u03b5")
+        ax.set_xlabel("error rate \u03b5")
         ax.set_ylabel(ylab)
         ax.set_xticks([0, 0.25, 0.5, 0.75, 1.0])
-    box = dict(facecolor=ps.SURFACE, edgecolor="none", pad=1.2)
-    kw = dict(fontsize=8.5, color=ps.INK, zorder=10)
+    box = dict(facecolor=ps.SURFACE, edgecolor="none", pad=1.0)
     ax = axes[0]
-    ax.set_ylim(-0.04, 1.17)
+    ax.set_ylim(-0.04, 1.2)
     ax.set_yticks([0, 0.25, 0.5, 0.75, 1.0])
     for xv, lab in refs:
-        ax.text(xv, 1.16, lab, ha="center", va="top", fontsize=8, color=ps.INK2, bbox=box, zorder=9)
+        ax.text(xv, 1.19, lab, ha="center", va="top", fontsize=8.5, color=ps.INK2, bbox=box, zorder=9)
     ax.set_title("a  Correctable inputs")
-    ax.text(0.945, 1.02, "constant offset, random set", ha="right", va="bottom", **kw)
-    ax.text(0.585, 0.655, "band,\n2h \u2260 0", ha="center", va="top", linespacing=1.15, **kw)
-    ax.text(0.64, 0.475, "band, 2h = 0", ha="center", va="top", **kw)
-    ax.text(0.535, 0.055, "second homomorphism", ha="left", va="bottom", **kw)
-    ax.text(0.862, 0.27, "scattered values", ha="right", va="center", **kw)
     ax = axes[1]
     ax.axhline(0, color=ps.INK2, lw=0.9, zorder=2)
-    ax.set_ylim(-1.08, 1.24)
+    ax.set_ylim(-1.08, 1.3)
     ax.set_yticks([-1, -0.5, 0, 0.5, 1.0])
     for xv, lab in refs:
-        ax.text(xv, 1.22, lab, ha="center", va="top", fontsize=8, color=ps.INK2, bbox=box, zorder=9)
+        ax.text(xv, 1.29, lab, ha="center", va="top", fontsize=8.5, color=ps.INK2, bbox=box, zorder=9)
     ax.set_title("b  Worst-input margin")
-    ax.text(0.02, -0.66, "margin \u2264 0:\nsome input is\nuncorrectable", ha="left", va="top", fontsize=8,
+    ax.text(0.02, -0.62, "below 0: some input\nis uncorrectable", ha="left", va="top", fontsize=8.5,
             color=ps.INK2, linespacing=1.2, zorder=9)
-    fig.legend(handles=handles, loc="lower center", ncol=3, bbox_to_anchor=(0.5, -0.14), fontsize=9,
-               handlelength=2.2, columnspacing=1.8)
+    fig.legend(handles=handles, loc="lower center", ncol=3, bbox_to_anchor=(0.5, -0.13), fontsize=9,
+               handlelength=1.8, columnspacing=1.2)
     ps.save(fig, path)
     plt.close(fig)
 
@@ -1378,4 +1388,9 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    if "--figure-only" in sys.argv:
+        # redraw Figure 1 from the saved JSON without recomputing
+        with open(os.path.join(ROOT, "results", "theory_checks.json")) as fh:
+            make_figure(json.load(fh)["c4"], os.path.join(ROOT, "figures", "fig_phase_diagram"))
+    else:
+        main()

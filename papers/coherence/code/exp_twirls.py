@@ -453,7 +453,7 @@ def make_figure(res, path):
         ax.axhline(eps, color=ps.REFERENCE, lw=1.4, ls=(0, (4, 3)), label="plain argmax (1 query)", zorder=1)
         series = [("sampling", "same-input sampling vote", ps.BLUE, "o"),
                   ("invariance", "invariance twirl (orbit votes)", ps.ORANGE, "s"),
-                  ("translation", "translation twirl (BLR votes)", ps.AQUA, "D")]
+                  ("translation", "translation twirl (self-corrector votes)", ps.AQUA, "D")]
         for meth, lab, col, mk in series:
             rows = mod["methods"][meth]
             Q = np.array([r["Q"] for r in rows], float)

@@ -1018,7 +1018,7 @@ def make_figures(res):
     ax.plot(e, (1 - e) ** 2, color=ps.MUTED, lw=1.0, ls=(0, (4, 3)), label=r"naive $(1-\varepsilon)^2$", zorder=2)
     ax.plot(e[e <= 1 - 1 / 31 + 0.035], core.pc_law(e[e <= 1 - 1 / 31 + 0.035], 31, 2), color=ps.INK, lw=1.4, label="law (no free parameter)", zorder=4)
     ax.plot(e[e <= 0.9], core.pc_law(e[e <= 0.9], 7, 2), color=ps.INK, lw=1.4, zorder=4)
-    for f, c, lab in (("add/grok", ps.BLUE, "addition nets ($q$ = 23, 31, 47)"), ("lin", ps.ORANGE, "linear-form nets ($q$ = 7)")):
+    for f, c, lab in (("add/grok", ps.BLUE, "addition nets ($q$ = 23, 31, 47)"), ("lin", ps.ORANGE, "linear-map nets ($q$ = 7)")):
         m = (fam == f) & has
         ax.scatter(eps[m], t0[m], s=26, color=c, edgecolor=ps.SURFACE, linewidth=0.5, alpha=0.85, label=lab, zorder=3)
     ax.annotate("law, $q$ = 7", xy=(0.80, core.pc_law(0.80, 7, 2)), xytext=(0.80, 0.33), fontsize=8.5, color=ps.INK,
@@ -1033,7 +1033,7 @@ def make_figures(res):
     ax.legend(loc="upper right", fontsize=8, handlelength=1.6)
     ax = axs[1]
     ax.axhline(0, color=ps.INK2, lw=0.8, zorder=2)
-    for f, c, lab in (("add/grok", ps.BLUE, "addition nets"), ("lin", ps.ORANGE, "linear-form nets")):
+    for f, c, lab in (("add/grok", ps.BLUE, "addition nets"), ("lin", ps.ORANGE, "linear-map nets")):
         m = (fam == f) & has
         ax.scatter(eps[m], dev[m], s=26, color=c, edgecolor=ps.SURFACE, linewidth=0.5, alpha=0.85, label=lab, zorder=3)
     ax.set_xlabel(r"error rate $\varepsilon$")

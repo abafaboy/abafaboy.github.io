@@ -1,5 +1,6 @@
 """core.py -- core library for the paper
-"Coherence, Not Error Rate, Limits the Self-Correction of Learned Computation".
+"Beyond the Error Rate: Error Coherence and Voting-Based Self-Correction of
+Small Networks Trained on Modular Arithmetic".
 
 Pure numpy.  Run the self-tests with
 

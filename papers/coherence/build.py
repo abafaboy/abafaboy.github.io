@@ -28,6 +28,13 @@ html = re.sub(rf'({_lead})?({_inline})({_trail})?',
 html = re.sub(r'<table[^>]*>\s*<caption>(.*?)</caption>(.*?)</table>',
               r'<div class="tblock"><p class="tcap">\1</p><div class="tablewrap"><table>\2</table></div></div>',
               html, flags=re.S)
+# Give each display equation its own scroll box, so a long one scrolls on a
+# phone while the equation itself keeps MathML's centred block layout.
+html = re.sub(r'(<math[^>]*display="block"[^>]*>.*?</math>)', r'<span class="dmath" style="display:block">\1</span>',
+              html, flags=re.S)
+# Let readers open each figure at full size (the figures are SVG, so they zoom cleanly).
+html = re.sub(r'<figure>\s*<img src="([^"]+)"([^>]*)/>', r'<figure>\n<a class="zoom" href="\1"><img src="\1"\2/></a>',
+              html)
 out.write_text(html)
 print("wrote", out)
 
@@ -39,6 +46,7 @@ const {{ chromium }} = require('playwright');
   const b = await chromium.launch();
   const p = await b.newPage();
   await p.goto('file://{out}', {{ waitUntil: 'load' }});
+  await p.evaluate(() => document.fonts.ready);
   await p.pdf({{ path: '{here / "paper.pdf"}', format: 'A4', printBackground: true,
     margin: {{ top: '20mm', bottom: '20mm', left: '18mm', right: '18mm' }} }});
   await b.close();
