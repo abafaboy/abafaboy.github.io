@@ -73,13 +73,17 @@
    0.5,
    0.65
   ],
-  "exact_method": "plur_fail(): multinomial plurality failure of the exactly enumerated channel of every input; absolute accuracy ~1e-12 per input; where mean_err < 1e-11 quote chernoff_mean_upper (a rigorous upper bound) instead",
+  "exact_method": "plur_fail(): multinomial plurality failure of the exactly enumerated channel of every input; absolute accuracy ~1e-12 per input; rows with reliable = false (mean_err < 1e-10) are not exact: quote chernoff_mean_upper (a rigorous upper bound on the mean) for them",
   "tolerances": {
    "RES_TOL": 1e-13,
    "TAIL_TOL": 1e-16,
    "PM_TOL": 1e-17,
-   "ABS_ACC": 1e-12
+   "ABS_ACC": 1e-12,
+   "RELIABLE": 1e-10
   },
+  "real_vote_trials_per_input": 1000,
+  "mc_seed": 20261116,
+  "invariance_km1": "the invariance twirl with Q - 1 votes (odd number of votes for even Q)",
   "unit_note": "models sharing a split or an initialisation are not independent; n = 7 models per configuration = 5 initialisations of split 0 + splits 1, 2 at initialisation 0"
  },
  "validation": {
@@ -16675,5 +16679,5 @@
    ]
   }
  ],
- "runtime_seconds": 207.5
+ "runtime_seconds": 198.5
 }

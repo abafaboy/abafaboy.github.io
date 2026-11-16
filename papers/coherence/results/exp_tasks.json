@@ -25,7 +25,7 @@
   "unit": "training run (6 mul runs, 9 lin runs)",
   "eps_all_definition": "largest eps among a run's snapshots with every input correctable",
   "eps_some_definition": "smallest eps among a run's snapshots with some input not correctable",
-  "exact_method": "exp_twirls.plur_fail (absolute accuracy ~1e-12; quote chernoff_mean_upper below 1e-11)"
+  "exact_method": "exp_twirls.plur_fail (absolute accuracy ~1e-12); rows with reliable = false (mean below 1e-10) are not exact: quote chernoff_mean_upper for them"
  },
  "mul": {
   "n_models": 150,
@@ -11451,5 +11451,5 @@
   "eps_c_heuristic_c4": 0.5392609784956393,
   "note": "i.i.d. errors on all 961 cells, including the special cells a = 0 or b = 0; 4-query bilinear vote; correctable fraction over the 900 generic inputs"
  },
- "runtime_seconds": 40.9
+ "runtime_seconds": 38.3
 }
