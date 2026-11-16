@@ -22,6 +22,12 @@ _lead, _trail = r'[(\u2018\u201c]+', r'[.,;:!?)\u2019\u201d]+'
 html = re.sub(rf'({_lead})?({_inline})({_trail})?',
               lambda m: m.group(0) if not (m.group(1) or m.group(3))
               else f'<span class="nw">{m.group(0)}</span>', html, flags=re.S)
+# Lift each table caption out of the table and wrap the table in its own scroll
+# container, so a wide table scrolls on narrow screens while its caption wraps
+# at the column width.
+html = re.sub(r'<table[^>]*>\s*<caption>(.*?)</caption>(.*?)</table>',
+              r'<div class="tblock"><p class="tcap">\1</p><div class="tablewrap"><table>\2</table></div></div>',
+              html, flags=re.S)
 out.write_text(html)
 print("wrote", out)
 
